@@ -1,0 +1,40 @@
+
+
+# main_title: The title of the website.
+main_title: "Tasso in Music Project"
+
+# main_subtitle: The subtitle on the homepage.
+main_subtitle: Digital Edition of the Settings of Torquato Tasso's Poetry, c. 1570&ndash;1640
+
+
+# deployment: either "local" for loading javascripts from the website
+# or "external" for loading from content deployment networks or other
+# non-website sources.
+deployment: external
+
+# defaults: default jekyll settings.
+defaults:
+  -
+    scope:
+      path: ""
+      type: "main"
+    values:
+      layout: "main"
+
+
+
+markdown: kramdown
+
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+
+highlighter: rouge
+
+
+google_analytics: UA-96036055-1
+
+

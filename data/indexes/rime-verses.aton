@@ -1,0 +1,4310 @@
+@@
+@@ Rime poem texts.
+@@ Created 18 Oct 2012 by Emiliano Ricciardi
+@@ Last Edited 23 Mar 2016
+@@
+@@ RIME data fields:
+@@   SOLERTI:      Solerti number (one "NSM1" case at end)
+@@   TITLE:        Title of poem
+@@   GENRE:        Poetic genre
+@@   NSM:          alternate to a Solerti number (only one case)
+@@   MANUSRC manuscript source(s)
+@@   PRINTSRC      printed source(s)
+@@
+@@
+
+@@BEGIN:	RIME
+@SOLERTI:	3
+@TITLE:		Su l'ampia fronte il crespo oro lucente
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ber, Brn, C, Mi, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	3, 4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Su l'ampia fronte il crespo oro lucente
+	Sparso ondeggiava, e de' begli occ<sub>h</sub>i il raggio
+	Al terreno adducea fiorito maggio,
+	E luglio a i cori oltre misura ardente:
+@VERSE:
+	Nel bianco seno Amor vezzosamente
+	Scherzava, e non os&ograve; di fargli oltraggio;
+	E l'aura del parlar cortese e saggio
+	Fra le rose spirar s'udia sovente.
+@VERSE:
+	Io, che forma celeste in terra sc&ograve;rsi,
+	Rinchiusi i lumi, e dissi: Ahi, come &egrave; stolto
+	Sguardo che 'n lei sia d'affisarsi ardito!
+@VERSE:
+	Ma de l'altro periglio non m'acc&ograve;rsi:
+	Ch&eacute; mi fu per l'orecchie il cor ferito
+	E i detti andaro ove non giunse in volto.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	23
+@TITLE:		Io non posso gioire
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Io non posso gioire
+	Lunge da voi, che siete il mio desire;
+	Ma 'l mio pensier fallace
+	Passa monti e campagne e mari e fiumi;
+	E m'avicina e sface
+	Al dolce foco de' be' vostri lumi;
+	E 'l languir s&iacute; mi piace,
+	Ch'infinito diletto ho nel martire.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	24
+@TITLE:		Gi&agrave; non son io contento
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Gi&agrave; non son'io contento
+	Lunge da voi, che sete il mio tormento,
+	In cos&iacute; dolce modo
+	M'arde il pensier; ma s'egli a voi mi giunge
+	Io vi rimiro ed odo
+	All'ora pi&uacute; vicin che son pi&uacute; lunge,
+	Ed amo ed ardo e godo
+	Pi&uacute; del mio foco se maggior il sento.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	25
+@TITLE:		Come vivr&ograve; ne le mie pene, Amore
+@GENRE:		madrigale
+@MANUSRC:	C, E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	27, 48, 54, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Come vivr&ograve; ne le mie pene, Amore,
+	S&iacute; lunge dal mio core,
+	Se la dolce memoria non m'aita
+	Di lei ch'&egrave; la mia vita?
+	Dolce memoria e spene,
+	Imaginata vista e caro obietto,
+	Voi siete il mio diletto
+	La mia vita e 'l mio bene;
+	Ma pur mezzo son'io tra morto e vivo,
+	Poi che del cor son privo.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	26
+@TITLE:		Se 'l mio core &egrave; con voi come desia
+@GENRE:		madrigale
+@MANUSRC:	C, E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	27, 48, 54, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Se 'l mio core &egrave; con voi, come desia,
+	Dov'&egrave; l'anima mia?
+	Credo sia col pensiero: e 'l pensier vago
+	&Egrave; con la bella imago;
+	E l'imagine bella
+	De la vostra bellezza &egrave; ne la mente
+	Viva e vera e presente
+	E vi spira e favella:
+	Ma pur senza il mio core &egrave; la mia vita
+	Dolente e sbigottita.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	28
+@TITLE:		Giacea la mia virt&uacute; vinta e smarrita
+@GENRE:		sonetto
+@MANUSRC:	Amz, Brn, C, P<sub>3</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Giacea la mia virt&uacute; vinta e smarrita
+	Nel duol, ch&egrave; sempre in sua ragion pi&uacute; forte,
+	Quando pietosa di s&iacute; dura sorte
+	Venne in sogno Madonna a darle aita;
+@VERSE:
+	E ristor&ograve; gli spirti, e 'n me sopita
+	La doglia a nova speme apr&iacute; le porte:
+	E cos&iacute; ne l'imagine di morte
+	Trov&ograve; l'egro mio cor salute e vita.
+@VERSE:
+	Ella, volgendo in me gli occhi in dolci giri,
+	Parea che mi dicesse: &mdash; a che pur tanto,
+	O mio fedel, t'affliggi e ti consumi?
+@VERSE:
+	E perch&eacute; non fai tregua a' tuoi sospiri,
+	E 'n quest'amate luci asciughi il pianto?
+	Speri forse  d'aver pi&uacute; fidi lumi? &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	33
+@TITLE:		Io veggio in cielo scintillar le stelle
+@GENRE:		sonetto
+@MANUSRC:	Brn, C, Ts<sub>2</sub>, V<sub>8</sub>
+@PRINTSRC:	11, 12, 13, 22a), 26, 31, 35, 69, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Io veggio in cielo scintillar le stelle
+	Oltre l'usato e lampeggiar tremanti,
+	Come ne gli occhi de' cortesi amanti
+	Noi rimiriam talor vive facelle.
+@VERSE:
+	Aman forse l&agrave; suso, o pur son elle
+	Pietose a' nostri affanni, a' nostri pianti?
+	Mentre scorgon le insidie e i passi erranti
+	L&agrave; dove altri d'Amor goda e favelle?
+@VERSE:
+	Cortesi luci, se Leandro in mare
+	O trav&iuml;ato peregrin foss'io
+	Non mi sareste di soccorso avare:
+@VERSE:
+	Cos&iacute; vi faccia il Sol pi&uacute; belle e chiare,
+	Siate nel dubbio corso al desir mio
+	Fide mie duci e scorte amate e care.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	38
+@TITLE:		Stavasi Amor quasi in regno assiso
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ber, Brn, C, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13.TS1</sub>
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Stavasi Amor quasi in suo regno assiso
+	Nel seren di due luci ardenti ed alme,
+	Mille famose insegne e mille palme
+	Spiegando in un sereno e chiaro viso;
+@VERSE:
+	Quando rivolto &agrave; me, ch'intento e fiso
+	Mirava le sue ricche e care salme: &mdash;
+	Or canta &mdash; disse &mdash; come i cori e l'alme
+	E' tuo mdesimo ancora abbia conquiso;
+@VERSE:
+	N&eacute; s'oda risonar l'arme di Marte
+	La voce tua, ma l'alta e chiara gloria,
+	E i divin pregi nostri e di costei. &mdash;
+@VERSE:
+	Cos&iacute; addivien che ne l'altrui vittoria
+	Canti mia servitute e i lacci miei
+	E tessa de gli affanni istorie in carte.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	46
+@TITLE:		Amore se fia giammai che dolce il tocchi
+@GENRE:		sonetto
+@MANUSRC:	Brn, C, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, W
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Amor, se fia giamai che dolce i' t&oacute;cchi
+	Il terso avorio de la bianca mano,
+	E 'l lampeggiar del riso umile e piano
+	Veggia da presso e 'l folgorar de gli occhi:
+@VERSE:
+	E notar possa come quindi scocchi
+	Lo stral tuo dolce e mai non parta in vano,
+	E come al cor dal bel sembiante umano
+	D'amorose dolcezze un nembo fiocchi;
+@VERSE:
+	Fia tuo questo lacciuol ch'annodo al braccio
+	Non pur, ma vie pi&uacute; stretto il cor n'involgo:
+	Caro furto, ond'il crin madona avvolse.
+@VERSE:
+	Gradisci il voto, ch&eacute; pi&uacute; forte laccio
+	Da man pi&uacute; dotta ordito alma non tolse;
+	N&eacute; per che a te lo doni indi mi sciolgo.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	47
+@TITLE:		Non &egrave; questa la mano
+@GENRE:		madrigale/ballata
+@MANUSRC:	Amz, Brn, C, E<sub>1</sub>, F<sub>2</sub>, I<sub>3</sub>, M<sub>7</sub>, P<sub>4</sub>, Tr<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67
+
+@@BEGIN:	VERSES
+@VERSE:
+	Non &egrave; questa la mano,
+	Che tante e s&iacute; mortali
+	Avvent&ograve; nel mio cor fiammelle e strali?
+	Ecco che pur si trova
+	Fra le mie man ristretta
+	N&eacute; forza od arte per fuggir le giova,
+	N&eacute; tien face o saetta
+	Che da me la difenda.
+	Giusto &egrave; ben ch'io ne prenda,
+	Amor, qualche vendetta,
+	E se piaghe mi di&eacute; baci le renda.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	48
+@TITLE:		Amor l'alma m'allaccia
+@GENRE:		madrigale
+@MANUSRC:	Amz, Brn, C, E<sub>1</sub>, F<sub>2</sub>, Flc<sub>2,</sub>  P<sub>2</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67
+@@BEGIN:	VERSES
+@VERSE:
+	Amor l'alma m'allaccia
+	Di dolci aspri catene:
+	Non mi doglio io per ci&ograve;, ma ben l'accuso
+	Che mi leghi ed affrene
+	La lingua a ci&ograve; ch'io taccia
+	Anzi a madonna timido e confuso
+	E 'n mia ragion deluso.
+	Sciogli, pietoso Amore,
+	La lingua, e se non vuoi
+	Che mi stringa un sol men de' lacci tuoi,
+	Tanti n'aggiungi in quella vece al core.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	51
+@TITLE:		Mentre ne' cari balli il loco adorno
+@GENRE:		sonetto
+@MANUSRC:	Amz, Brn, C, P<sub>6</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, W
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169, 170
+@@BEGIN:	VERSES
+@VERSE:
+	Mentre ne' cari balli in loco adorno
+	Si traean le notturne e placide ore,
+	Face, che nel suo foco accese Amore,
+	Lieto n'apriva a mezza notte il giorno;
+@VERSE:
+	E da candide man vibrata intorno
+	Spargea faville di s&iacute; puro ardore
+	Che pareva apportar gioia ed onore
+	A' pochi eletti, a gli altri invidia e scorno;
+@VERSE:
+	Quando a te data fu, man cruda e bella,
+	E da te presa e spenta, e ciechi e mesti
+	Restar mill'occhi a lo sparir d'un lume.
+@VERSE:
+	Ahi, come allor cangiasti arte e costume:
+	Tu, ch'accender solei l'aurea facella,
+	Tu, ministra d'Amor, tu l'estinguesti!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	52
+@TITLE:		O nemica d'Amor che s&iacute; ti rendi
+@GENRE:		sonetto
+@MANUSRC:	Amz, Brn, C, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	O nemica d'Amor, che s&iacute; ti rendi
+	Schiva di quel ch'altrui d&agrave; pace e vita,
+	E dolce schiera a' dolci giochi unita
+	Dispergi e parti e lui turbi ed offendi,
+@VERSE:
+	Se de l'altrui bellezza invidia prendi
+	Mentre i tuoi danni a rimembrar t'invita,
+	Ch&eacute; non t'ascondi omai sola e romita
+	E 'n umil cameretta i giorni spendi?
+@VERSE:
+	Ch&eacute; non conviensi gi&agrave; tra le felici
+	Squadre d'Amor e tra 'l diletto e 'l gioco
+	In donna antica imagine di morte.
+@VERSE:
+	Deh, fuggi il Sole e cerca in chiuso loco,
+	Come notturno augel, gli orrori amici:
+	N&eacute; qui timor la tua sembianza apporte.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	59
+@TITLE:		Lunge da voi ben mio
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Lunge da voi, ben mio,
+	Non ho vita n&eacute; core e non son io.
+	Non sono, oim&eacute;!, non sono
+	Quel ch'altra volta fui, ma un'ombra mesta,
+	Un lagrimevol suono,
+	Una voce dolente; e ci&ograve; mi resta
+	Solo per vostro dono:
+	Ma resta il male onde morir desio
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	60
+@TITLE:		Lunge da voi mio core
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Lunge da voi, mio core,
+	Mille volte m'uccide il mio dolore.
+	Perch&eacute; la mia partita
+	Mi tolse l'alma; e s'io ripenso in lei
+	Mi ritoglie la vita,
+	E tutti sono morti i pensier miei.
+	Oh miseria infinita!
+	&Egrave; quel felice ch'una volta muore.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	75
+@TITLE:		Poich&eacute; madonna sdegna
+@GENRE:		madrigale
+@MANUSRC:	Amz, Brn, C, E<sub>1</sub>, F<sub>2</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Poich&eacute; madonna sdegna,
+	Fuor d'ogni suo costume,
+	Volger in me de' suoi begli occhi il sole,
+	Qualch'arte, Amor, m'insegna,
+	Ond'io del vago lume
+	Alcun bel raggio ascosamente invole:
+	N&eacute; giusto fia che teco ella se 'n doglia;
+	Ch&eacute;, se furommi il core,
+	Fia 'l mio furto minore
+	Quando in dolce vendetta un guardo i' toglia.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	81
+@TITLE:		Costei, che su la fronte ha sparsa al vento
+@GENRE:		sonetto
+@MANUSRC:	A<sub>3</sub>, Amz, Ar, Brn, I<sub>4</sub>, I<sub>5</sub>, N<sub>14</sub>, P<sub>4</sub>, V<sub>2</sub>, V<sub>8</sub>, W
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169, 170
+@@BEGIN:	VERSES
+@VERSE:
+	Costei, che su la fronte ha sparsa al vento
+	L'errante chioma d'&ograve;r, Fortuna pare;
+	Anzi &egrave; vera Fortuna, e pu&ograve; beare
+	E misero pu&ograve; far il pi&uacute; contento.
+@VERSE:
+	Dispensatrice no d'oro o d'argento
+	O di gemme che mandi estraneo mare,
+	Ma tesori d'Amor, cose pi&uacute; care,
+	Fura, dona, e ritoglie in un momento.
+@VERSE:
+	Cieca non gi&agrave;, ma solo a' miei mart&iacute;ri
+	Par che s'infligga tale, e cieco uom rende
+	Con due luci serene e sfavillanti.
+@VERSE:
+	Chiedi qual sia la rota ove gli amanti
+	Travolve e 'l corso lor ferma e sospende?
+	La rota fanno or de' begli occhi i giri.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	88
+@TITLE:		M'apre talor madonna il suo celeste
+@GENRE:		sonetto
+@MANUSRC:	Amz, Brn, C, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, VE<sub>1</sub>
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	M'apre talor madonna il suo celeste
+	Riso fra perle e bei rubini ardenti,
+	E l'orecchie inchinando a' miei lamenti
+	Di vago affetto il ciglio adorna e veste.
+@VERSE:
+	Ma non avvien per&ograve; ch'in lei si deste
+	Alcun breve dolor de' miei tormenti,
+	Anzi la cetra e i miei non rozzi accenti,
+	E me disprezza e le mie voglie oneste.
+@VERSE:
+	N&eacute; piet&agrave; &egrave; vera ne' begli occhi accoglie
+	Ma crudelt&agrave;, ch'in tal sembianza or mostri,
+	Perch&eacute; l'alma ingannata arda e consumi.
+@VERSE:
+	Specchi del cor, fallaci infidi lumi,
+	Ben conosciamo in voi gl'inganni vostri;
+	Ma che pro, se schifarli Amor ci toglie?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	89
+@TITLE:		Mentre Madonna s'appoggi&ograve; pensosa
+@GENRE:		sonetto
+@MANUSRC:	A<sub>3</sub>, Amz, Brn, H<sub>3</sub>, I<sub>4</sub>, I<sub>5</sub>, P<sub>4</sub>, V<sub>8</sub>, W
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Mentre Madonna s'appoggi&ograve; pensosa
+	Dopo i suoi lieti e volontari errori
+	Al fiorito soggiorno, i dolci umori
+	Depred&ograve;, sussurrando, ape ingegnosa;
+@VERSE:
+	E ne' labra nudria l'aura amorosa
+	Al Sol de gli occhi suoi perpetui fiori,
+	E volando a' dolcissimi colori
+	Ella sugger pens&ograve; vermiglia rosa.
+@VERSE:
+	Ah, troppo bello error, troppo felice!
+	Quel che l'ardente ed immortal desio
+	Gi&agrave; tant'anni si nega, a lei pur lice.
+@VERSE:
+	Vile ape, Amor, cara merc&egrave; rapio:
+	Che pi&uacute; ti resta, s'altri il mel n'elice,
+	Da temprar il tuo assenzio e 'l dolor mio?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	90
+@TITLE:		Mentre nubi di sdegno
+@GENRE:		madrigale
+@MANUSRC:	Amz, C, E<sub>1</sub>, F<sub>2</sub>, I<sub>3</sub>, I<sub>4</sub>, V<sub>8</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	7<sup>bis</sup>, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Mentre nubi di sdegno
+	Fra' vostri occhi e 'l mio core
+	Furo interposte, e gli soffr&igrave; l'ardore.
+	Or che chiaro si gira,
+	Il sol di quei bei lumi
+	Forz'&egrave; che si consumi
+	L'anima esposta a s&iacute; gran foco ignuda.
+	Poich&eacute; dunque pu&ograve; l'ira
+	Temprar s&iacute; ardente face
+	Pi&uacute; che piet&agrave; non face,
+	Siatemi, prego, per piet&agrave; pi&uacute; cruda.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	93
+@TITLE:		Disdegno e gelosia
+@GENRE:		madrigale
+@MANUSRC:	C, E<sub>1</sub>, M<sub>7</sub>, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Disdegno, e gelosia,
+	Vostri custodi, donna, e miei nemici,
+	Fan gli occhi miei famelici e mendici.
+	Ed insieme col raggio
+	De' bei vostr'occhi i bei cortesi detti
+	Pien di spirti e d'affetti
+	Mi toglie de' duo dardi il doppio oltraggio:
+	Ond'io, lasso, d'intorno
+	A le guardate mura
+	Erro la notte solitario e il giorno,
+	Qual cacciator ch'insidi
+	D'errante fera i boscherecci nidi.
+	Ma non vuol mia ventura
+	Ch'involi senza pena; onde divegno
+	Preda di predator, d'arciero il segno.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	96
+@TITLE:		Donna quanto pi&uacute; a dentro
+@GENRE:		madrigale
+@MANUSRC:	C, E<sub>1</sub>, F<sub>2</sub>, V<sub>8</sub>
+@PRINTSRC:	28, 48, 54, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Donna, quanto pi&uacute; &agrave; dentro
+	Conobbi il vostro core,
+	Tanto a darvi credenza io son pi&uacute; tardo,
+	N&eacute; stimo quel di f&ograve;re,
+	Io dico un vago inchino, un dolce sguardo,
+	Un dir &mdash; nel foco io ardo &mdash; ,
+	Un scolorir di viso,
+	Un dolente sospiro, un lieto riso.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	97
+@TITLE:		A chi creder degg'io
+@GENRE:		madrigale
+@MANUSRC:	C, E<sub>1</sub>, F<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	28, 48, 54, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	A chi creder degg'io
+	Se vani sono i detti
+	E 'l vento se ne porta le parole?
+	Non a le voci sole
+	Che scompagnate sian da veri effetti,
+	Amor, creder&ograve; mai;
+	Ma tanto or temo, quanto gi&agrave; sperai.
+	Amor, se vuoi ch'io creda,
+	Convien che 'l core altrui ne' fatti veda.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	99
+@TITLE:		Geloso amante apro mill'occhi e giro
+@GENRE:		sonetto
+@MANUSRC:	A<sub>3</sub>, Amz, C, E<sub>1</sub>, E<sub>7</sub>, Flc<sub>2</sub>, I<sub>4</sub>, I<sub>5</sub>, Mi, N<sub>11</sub>, P<sub>4</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, VE<sub>1</sub>, W, Y, Z<sub>1</sub>
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Geloso amante apro mill'occhi e giro
+	E mille orecchi ad ogni suono intenti,
+	E sol di cieco orror larve e spaventi,
+	Quasi animal ch'adombre, odo e rimiro.
+@VERSE:
+	S'apre un riso costei, se 'n dolce giro
+	Lieta rivolge i begli occhi lucenti,
+	Se tinta di piet&agrave; gli altrui lamenti
+	Accoglie o move un detto od un sospiro,
+@VERSE:
+	Temo ch'altri ne goda e che m'invole
+	L'aura e la luce, e ben mi duol che spieghi
+	Raggio di sua bellezza in alcun lato.
+@VERSE:
+	Si neghi a me pur ch'a ciascun si neghi;
+	Ch&eacute;, quando altrui non splenda il mio bel sole,
+	Ne le tenebre ancor vivr&ograve; beato.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	107
+@TITLE:		Arsi gran tempo, e del mio foco indegno
+@GENRE:		sonetto
+@MANUSRC:	Amz, Brn, C, Mi, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Arsi gran tempo, e del mio foco indegno
+	Esca fu sol vana bellezza e frale;
+	E qual palustre augello il canto e l'ale
+	Volsi, di fango asperse, ad umil segno.
+@VERSE:
+	Or, che pu&ograve; gelo d'onorato sdegno
+	Spegner la face e quell'ardor mortale,
+	Con altra fiamma omai s'innalza e sale
+	Sovra le stelle il mio non pigro ingegno.
+@VERSE:
+	Lasso! e conosco ben quanto io dissi
+	Fu voce d'uom cui ne' tormenti astringa
+	Giudice ingiusto a trav&iuml;ar dal vero.
+@VERSE:
+	Perfida, ancor ne la mia fraude io spero,
+	Che, dove pria giacesti, ella ti spinga
+	Ne gli oscuri d'oblio profondi abissi.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	126
+@TITLE:		Tre gran donne vid'io ch'in esser belle
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ar, Brn, C, Flc<sub>2</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, W
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Tre gran Donne vid'io ch'in esser belle
+	Mostran disparit&agrave;, ma somigliante;
+	S&iacute; che ne gli atti e 'n ogni lor sembiante
+	Scriver Natura &mdash; Noi siam tre sorelle. &mdash;
+@VERSE:
+	Ben ciascuna io lodai, pur una d'elle
+	Mi piacque s&iacute;, ch'io ne divenni amante,
+	Ed ancor fia ch'io ne sospiri e cante,
+	E 'l mio foco, e 'l suo nome alzi a le stelle.
+@VERSE:
+	Lei sol vagheggio, e se pur l'altre io miro
+	Vo cercando in altrui quel c'ha di vago,
+	E ne gl'idoli suoi vien ch'io l'adore;
+@VERSE:
+	Ma cotanto somiglia al ver l'imago,
+	Ch'erro, e dolc'&egrave; l'error: pur ne sospiro
+	Come d'ingiusta idolatria d'Amore.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	135
+@TITLE:		Con la saetta de la punta d'oro
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 85, 87, 141, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Con la saetta de la punta d'oro
+	Ond'ebbi al petto s&iacute; mortal ferita,
+	Scrisse per leggi Amor de la mia vita
+	Nel verde tronco d'un frondoso alloro: &mdash;
+	Ama ed ardi: e ristoro
+	Sia quest'ombra a l'ardor che stilla il pianto. &mdash;
+	Dolci mie leggi, ond'io mi glorio e vanto,
+	Temute e care, ond'io gioisco e moro,
+	Se non basta nel tronco, ev'ei mi lima
+	Nel mezzo del mio petto Amor l'imprima.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	137
+@TITLE:		Non fonte o fiume od aura
+@GENRE:		canzonetta
+@MANUSRC:	none
+@PRINTSRC:	28, 85, 87, 93, 141, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Non fonte o fiume od aura
+	Odo in pi&uacute; dolce suon di quel di Laura;
+	N&eacute; 'n lauro o 'n pino o 'n mirto
+	Mormorar s'ud&iacute; mai pi&uacute; dolce spirto.
+	O felice a cui spira,
+	E quel beato che per lei sospira!
+	Ch&eacute; se gl'inspira il core,
+	Puote al cielo aspirar col suo valore.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	139
+@TITLE:		Messaggera de l'alba
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	28, 48, 141, 166, 167, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Messagera de l'alba
+	&Egrave; quest'aura terrena
+	E torbida talor, talor serena:
+	Laura mia par celeste,
+	Cos&iacute; bella io la veggio
+	Dopo l'aurora in fresco e verde seggio:
+	Di fior l'una riveste
+	Il dilettoso aprile
+	L'altra fiorir fa l'amoroso stile.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	143
+@TITLE:		Ecco mormorar l'onde
+@GENRE:		madrigale
+@MANUSRC:	C, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 48, 69, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ecco mormorar l'onde,
+	E tremolar le fronde
+	A l'aura mattutina e gli arboscelli,
+	E sovra i verdi rami i vaghi augelli
+	Cantar soavemente,
+	E rider l'or&iuml;ente:
+	Ecco gi&agrave; l'alba appare,
+	E si specchia nel mare,
+	E rasserena il cielo,
+	E le campagne imperla il dolce gelo,
+	E gli alti monti indora.
+	O bella, e vaga Aurora,
+	L'aura &egrave; tua Messaggiera, e tu de l'aura
+	Ch'ogn'arso cor ristaura.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	144
+@TITLE:		Ore fermate il volo
+@GENRE:		madrigale/ballata
+@MANUSRC:	C, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 48, 69, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ore fermate il volo
+	Nel lucido or&iuml;ente
+	Mentre se 'n vola il ciel rapidamente;
+	E, carolando intorno
+	A l'alba mattutina
+	Ch'esce da la marina,
+	L'umana vita ritardate e 'l giorno.
+	E voi, Aure veloci,
+	Portate i miei sospiri
+	L&agrave; dove l'aura spiri
+	E riportate a me sue chiare voci,
+	S&iacute; che l'ascolti io solo,
+	Sol voi presenti e 'l signor nostro Amore,
+	Aure soave ed ore.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	152
+@TITLE:		Voi mi chiedeste il core
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Voi mi chiedete il core
+	E partendo il portaste,
+	Ne 'l vostro in quella vece a me lasciaste.
+	S'odio pur e dispregio
+	Egli ritorna in voi,
+	Deh, non rimanga in parte ove v'annoi;
+	Ma, s'amor forse e pregio
+	Onde nasce l'obl&iacute;o
+	Che non chiamate il corpo ov'&egrave; il cor mio?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	154
+@TITLE:		S'a sdegno voi prendete
+@GENRE:		madrigale
+@MANUSRC:	C, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	S'a sdegno voi prendete
+	Ch'il cor vostro vi chieda,
+	L'imagin vostra almen mi si conceda.
+	Ma chi fia che l'ammiri,
+	L'ami e se 'n mostri vago
+	Se non segue il mio cor la vostra imago?
+	Dunque il cor mi rendete,
+	Che, perch&eacute; in me respiri,
+	Non fia men vostro in tutti i suoi desiri.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	155
+@TITLE:		Se l'imagine vostra
+@GENRE:		madrigale
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 48, 54, 69, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Se l'imagine vostra
+	In me dipinge Amore,
+	Perch&eacute; l'opra chied'io d'altro pittore?
+	Ben puote il mio pennsiero
+	Mirar la forma interna,
+	Ma non far&agrave; che l'occhio unqua la scerna.
+	Dunque, privo del vero,
+	L'abbia almen finta il senso
+	Perch'io rimiri in voi mentre vi penso.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	157
+@TITLE:		Donna, nel mio ritorno
+@GENRE:		madrigale
+@MANUSRC:	C, E<sub>1</sub>, F<sub>2</sub>, V<sub>8</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Donna, nel mio ritorno
+	Il mio pensiero a cui nulla pon freno
+	Precorre dove il cielo &egrave; pi&uacute; sereno,
+	E se ne viene a far con voi soggiorno,
+	N&eacute; da voi si diparte
+	Giammai la notte e il giorno
+	Perch&eacute; l'annoia ciascun'altra parte;
+	Onde sol per virt&uacute; del pensier mio
+	Mentre ne vengo a voi con voi son io.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	159
+@TITLE:		D'aria un tempo nudrimmi, e cibo e vita
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ar, Ber, Brn, C, Mi, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, VE<sub>1</sub>, W, Y
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	D'aria un tempo nudrimmi, e cibo e vita
+	L'aura mi fu che d'un bel volto spira;
+	Or che lei mi contende orgoglio ed ira,
+	Di qual esca sar&agrave; l'alma nudrita?
+@VERSE:
+	I famelici spirti in vano aita
+	Chiamano, e 'n darno il cor langue e sospira;
+	Ma, se pur l'empia a darle morte aspira
+	Muoia non non per digiun, ma per ferita.
+@VERSE:
+	Armi gli occhi di sdegno e strali avventi
+	A mille a mille, a' feri colpi ignuda
+	Io porgo l'alma non ch'inerme il seno.
+@VERSE:
+	Faccia il mio stratio i suoi desir contenti;
+	Ben fia piet&agrave;, ch'io la riveggia almeno,
+	Non dico pia, ma disdegnosa e cruda.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	160
+@TITLE:		Poi che non spira al mio soave foco
+@GENRE:		canzone
+@MANUSRC:	none
+@PRINTSRC:	85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Poi che non spira al mio soave foco,
+	Amor, come solea, placida l'aura,
+	Chi temprer&agrave; quest'amorosa fiamma?
+	Qual trover&ograve; solinga e chiara fonte
+	Cinta di lauri o quale ombroso rivo,
+	Mentre io mi sfaccio a s&iacute; lucenti raggi?
+@VERSE:
+	Ahi! soavi ben furo e dolci i raggi
+	Ch'acceser gi&agrave; ne l'alma il dolce foco,
+	Struggendo il gelo interno in caldo rivo
+	E movendo i sospiri a guisa d'aura,
+	Mentre d'ogni piet&agrave; la viva fonte
+	Di&egrave; qualche refrigerio a tanta fiamma.
+@VERSE:
+	D'Etna somiglia pur l'accesa fiamma
+	O di Fetonte traviato i raggi,
+	Quando s'ascose ne l'occulto fonte
+	Il Nilo per fuggir l'ardente foco,
+	N&eacute; da l'Istro o dal Reno o vento od aura
+	Soffiar potea non che da secco rivo.
+@VERSE:
+	Che giova, oim&egrave;, versar nel seno un rivo,
+	Se cresce al suo stillar la crudel fiamma
+	E de' lamenti miei s'accende a l'aura?
+	Se non manca omai l'esca a questi raggi,
+	Io fontana sar&ograve; di vivo foco,
+	N&eacute; mi varr&agrave; ch'io mi converta in fonte.
+@VERSE:
+	Perch&eacute; la dolce mia tranquilla fonte
+	Pi&uacute; non mi scampi o fiume algente o rivo,
+	Fuggir&ograve; il foco in mezzo al novo foco,
+	E le mie fiamme strugger&agrave; la fiamma
+	Che nacque in me da gli amorosi raggi,
+	Mentre io gioiva il seno aprendo a l'aura.
+@VERSE:
+	O lauri, o palme, ove giacendo a l'aura
+	Per dolcezza languiva; o bella fonte,
+	In cui gi&agrave; vidi tremolare i raggi;
+	O solitaria chiostra, o vago rivo;
+	S'io trovo ancor quella mia cara fiamma
+	Tra i fiori e l'erbe ov'&egrave; sparito il foco!
+@VERSE:
+	O s'estingua il mio foco o spiri l'aura,
+	O s'adombrino i raggi o cresca il rivo,
+	E se scalda la fiamma instilli il fonte.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	165
+@TITLE:		Vorrei lagnarmi a pieno
+@GENRE:		madrigale
+@MANUSRC:	C, Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch'io sento,
+	Ma  ben pi&uacute; 'l vostro sdegno ognor pavento.
+	Dunque il meglio &egrave; ch'io taccia
+	E quel dolor sopporte,
+	Ch'ove s'accresca fia dolor di morte.
+	Ma, se fia che vi piaccia
+	Il mio silenzio, almeno
+	Il mostri un balenar d'occhi sereno.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	166
+@TITLE:		Se taccio, il duol s'avanza
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	11, 12, 13, 22, 22a), 26, 31, 35, 69, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Se taccio, il duol s'avanza;
+	Se parlo, accresco l'ira,
+	Donna bella e crudel, che mi martira.
+	Ma prendo al fin speranza
+	Che l'umilt&agrave; vi pieghi,
+	Ch&eacute; nel silenzio ancor son voci e prieghi.
+	E prego Amor che spieghi
+	Nel mio doglioso aspetto
+	Con lettre di piet&agrave; l'occulto affetto.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	167
+@TITLE:		Donna, quella saetta
+@GENRE:		ballata
+@MANUSRC:	I<sub>4</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Donna, quella saetta,
+	Onde gi&agrave; mi percosse il mio signore,
+	Accese il mio voler d'immenso ardore.
+@VERSE:
+	Or, bench&eacute; spenta sia nel petto mio
+	La brama e 'l foco, pur'i bramo ed ardo
+	Per voi, che fiera quanto bella sete;
+	Ma la fiamma de l'alma e 'l suo desio
+	Gi&agrave; non deriva da soave sguardo,
+	E non &egrave; quel che voi forse credete.
+	Bramo s&iacute;, ma vendetta:
+	E se pur dee gioir, non per amore
+	Ma per disdegno omai gioisca il core.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	174
+@TITLE:		Or che l'aura mia dolce altrove spira
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ar, Brn, C, I<sub>4</sub>, Mi, N<sub>11</sub>, P<sub>4</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, W, Z<sub>1</sub>
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Or che l'aura mia dolce altrove spira
+	Fra selve e campi, ahi, ben di ferro ha 'l core
+	Che riman qui solingo, ove d'orrore
+	&Egrave; cieca valle, di miseria e d'ira.
+@VERSE:
+	Qui nessun raggio di belt&agrave; si mira,
+	Rustico &egrave; fatto e co' bifolci Amore
+	Pasce gli armenti, e 'n su l'estivo ardore
+	Or tratta il rastro ed or la falce aggira.
+@VERSE:
+	O fortunata selva, o liete piagge,
+	Ove le fere ove le piante e i sassi
+	Appreso han di valor senso e costume!
+@VERSE:
+	Or che far non potria quel dolce lume,
+	Se fa, d'ond'egli parte, ov'egli stassi,
+	Civili i boschi e le citt&agrave; selvagge?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	175
+@TITLE:		Vaghe ninfe del Po, Ninfe sorelle
+@GENRE:		corona
+@MANUSRC:	Ber
+@PRINTSRC:	27, 49, 70, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Vaghe Ninfe del Po, Ninfe sorelle,
+	E voi de' boschi e voi d'onda marina
+	E voi de' fonti e de l'alpestri cime,
+	Tessiam or care ghirlandette e belle
+	A questa giovinetta peregrina;
+	Voi di fronde e di fiori ed io di rime:
+	E mentre io sua belt&agrave; lodo ed onoro,
+	Cingete a Laura voi le trecce d'oro.
+@VERSE:
+	Cingete a Laura voi le trecce d'oro
+	De l'arboscello onde s'ha preso il nome
+	O pur de' fiori a' quali il pregio ha tolto;
+	E l evermiglie rose e 'l verde alloro
+	Le faccian ombra a l'odorate chiome
+	Ed a le rose del fiorito volto;
+	E de l'auro e del lauro e de' bei fiori
+	Sparga l'aura ne l'aria i dolci odori.
+@VERSE:
+	Sparga l'aura ne l'aria i dolci odori
+	Mentr'io spargo nel cielo i dolci accenti,
+	E li porti ove Laura udir li suole
+	E dove Mincio versa i freschi umori:
+	Portino ancora i pi&uacute; cortesi venti
+	Il chiaro suon de l'alte mie parole
+	Dove cantaro gi&agrave;, quand'ella nacque,
+	I bianchi cigni in fresche e lucid'acque.
+@VERSE:
+	I bianchi cigni in fresche e lucid'acque
+	Morendo fanno men soave canto
+	Di quel ch'udi'quando costei nascea:
+	E 'l bel terren dov'ella in cuna giacque
+	Tutto vestissi di fiorito manto;
+	E di cristallo il fiume allor parea
+	E prez&iuml;ose gemme i duri sassi
+	Sotto gli ancor tremanti e dubbi passi.
+@VERSE:
+	Sotto gli ancor tremanti e dubbi passi
+	Nascer facea la bella fanciulletta
+	Di mille vari fior lieta famiglia;
+	E se premeva un cespo o i membri lassi
+	Posava in grembo de la molle erbetta,
+	Era a vederla nova meraviglia:
+	Qual fosse poi, tu dillo, o fiume vago,
+	Tu dillo altrui, famoso e chiaro lago.
+@VERSE:
+	Tu dillo altrui, famoso e chiaro lago,
+	Come da poi crescendo il biondo crine
+	Laura in te si specchiasse e gli occhi e 'l viso,
+	E come nel mirar la cara imago
+	E le bellezze sue quasi divine
+	Rassomigliasse il giovane Narciso:
+	Ditelo, augelli, e voi da le bianche ali,
+	Voi che le sete sol nel canto eguali.
+@VERSE:
+	Voi, che le sete sol nel canto eguali,
+	Gi&agrave; tacevate, o cigni, in verdi sponde
+	Cantando Laura di dolcezza piena;
+	Ed eran tante le sue voci e tali
+	Che parean mormorando dir quell'onde, &mdash;
+	E per fermo costei nova sirena! &mdash;
+	Oltre i candidi cigni, onde beate,
+	Son pi&uacute; belle sirene in voi gi&agrave; nate.
+@VERSE:
+	Son pi&uacute; belle sirene in voi gi&agrave; nate,
+	Acque e rive felici, ove sicuro
+	Il buon Titiro gi&agrave; pascea la greggia.
+	N&eacute; per dolce armonia cos&iacute; lodate
+	O Amarilli o Galatea gi&agrave; f&ucirc;ro
+	Com'&egrave; costei che quel cantar pareggia;
+	Di cui tra i boschi e 'n piccola capanna
+	Indegno &egrave; 'l suon de l'incerata canna.
+@VERSE:
+	Indegno &egrave; 'l suon de l'incerata canna
+	D'accordarsi al bel canto; e, se l'udiro
+	Il rozzo armento e i semplici bifolci,
+	Per meraviglia ci&ograve; che l'alme affanna
+	Obli&agrave;r questi e quelli ogni desiro
+	De l'erbe verdi o pur de l'acque dolci,
+	E di seguire il natural costume
+	Quasi scordossi per vaghezza il fiume.
+@VERSE:
+	Quasi scordossi per vaghezza il fiume
+	Di render al gran Po l'usato omaggio;
+	Da cui tenuta in s&iacute; gran pregio &egrave; Laura,
+	Ch'altra ninfa agguagliarle ei non presume
+	Se l'ode sotto un lauro o sotto un faggio
+	Con dolcissimi accenti addolcir l'aura,
+	O se guidar le vede i cari balli
+	Sovra i candidi fiori e sovra i gialli.
+@VERSE:
+	Sovra i candidi fiori e sovra i gialli
+	Suole spesso ballar Laura gentile,
+	Con leggiadri sembianti, al dolce suono;
+	Degna a cui bianche perle e bei coralli
+	Del nostro mare, e del novello aprile
+	Le sia portato il primo e 'l pi&uacute; bel dono;
+	Degna a cui ne' vicini alteri monti
+	Apra l'antica madre i novi fonti.
+@VERSE:
+	Apra l'antica madre i novi fonti
+	Al bel viso di Laura, ed a lei mande
+	Verdi fronde la selva in queste piagge;
+	E 'nghirlandate omai le belle fronti
+	Portin le Ninfe omai varie ghirlande
+	E l'umili e l'alpestri e le selvagge;
+	E voi siate le prime e le pi&uacute; snelle,
+	Vaghe Ninfe del Po, Ninfe sorelle.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	183
+@TITLE:		Di nettare amoroso ebro la mente
+@GENRE:		sonetto
+@MANUSRC:	A<sub>1</sub>, A<sub>3</sub>, Amz, Brn, C, F<sub>1</sub>, Flc<sub>2</sub>, I<sub>4</sub>, I<sub>5</sub>, P<sub>4</sub>, Pt, R<sub>7</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, VE<sub>1</sub>, W
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Di nettare amoroso ebro la mente
+	Rapto fui, n&eacute; so come, in chiusa chiostra,
+	E due belle d'Amor guerriere in giostra
+	Vidi con l'arme ond'egli &egrave; si possente;
+@VERSE:
+	Vidi che in dolce arringo alteramente
+	Fer pria di lor belt&agrave; leggiadra mostra,
+	Poi movendosi incontra ove s'innnostra
+	La bocca si fer&icirc;r di bacio ardente.
+@VERSE:
+	Suon&agrave;r le labra e vi restaro i segni
+	De' colpi impressi. Amor, deh, perch&eacute; a v&ograve;to
+	Tant'arme e tai percosse usar da scherzo?
+@VERSE:
+	Provinsi in vera pugna, e non si sdegni
+	Scontro d'amante. Amor, me, tuo devoto,
+	Opponi a l'una, o fra le due fa terzo.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	187
+@TITLE:		Eran velati i crespi e biondi crini
+@GENRE:		sonetto
+@MANUSRC:	C, V<sub>8</sub>
+@PRINTSRC:	27, 48, 70, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Eran velati i crespi e biondi crini,
+	E 'l bel vermiglio e candido colore,
+	E la bocca che spira un dolce odore
+	Fra perle or&iuml;entali e fra rubini;
+@VERSE:
+	E breve spazio dentro a' suoi confine
+	Rinchiudea maest&agrave;, grazia ed onore;
+	E solo in voi si discopriva amore
+	E da voi saettava, occhi divini;
+@VERSE:
+	E tanto m'abbagli&ograve; la vista ardita,
+	Che pien di maraviglia e pien d'oblio
+	Non conobbi lo stral n&eacute; la ferita.
+@VERSE:
+	&mdash; Lasso, deh chi m'inganna? &mdash; allor  diss'io; &mdash;
+	Lumi sereni de l'oscura vita,
+	S'erro, vostra &egrave; la colpa e 'l danno &egrave; mio. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	189
+@TITLE:		Secco &egrave; l'arbor gentile
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, Pt, V<sub>13/E1</sub>
+@PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 34, 64, 68, 78, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Secco &egrave; l'arbor gentile
+	Che mai le frondi e 'l verde
+	O per gelo o per fulmine non perde.
+	O mutata &egrave; la legge
+	De la natura, o 'l sole
+	Men pu&ograve; di quell che suole
+	E sol le stelle Amore e 'l mondo regge,
+	E col piombo e con l'oro
+	Miracoli rinova
+	E fa vendetta nova
+	D'antico oltraggio ne l'amato alloro.
+	Ma se nel lieto aprile
+	Rinverdir al mio crin non dee corona,
+	Secchisi anco Permesso in Elicona.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	190
+@TITLE:		Fummo felici un tempo
+@GENRE:		madrigale
+@MANUSRC:	Pt
+@PRINTSRC:	27, 70, 78, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Fummo felici un tempo
+	Io amante ed amato,
+	Tu amata ed amante in dolce stato.
+	Poi d'amante nemica
+	Voi diveniste, ed io
+	Volsi in disdegno il giovenil desio.
+	Sdegno vuol ch'io ve 'l dica,
+	Sdegno che che nel mio petto
+	Tien viva l'onta del mio duol negletto;
+	E le fronde ne svelle
+	Del vostro lauro, or secche e gi&agrave; s&iacute; belle.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	191
+@TITLE:		Arsi mentre m'amaste
+@GENRE:		madrigale
+@MANUSRC:	P<sub>3</sub>, Pt, Z<sub>1</sub>
+@PRINTSRC:	27, 70, 78, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Arsi mentre m'amaste,
+	Ed al cortese affetto
+	Pag&ograve; tributo di sospiri il petto:
+	Ma poi che il vostro amore
+	Volgeste in altra parte,
+	Donna, s'estinse anco il mio foco in parte.
+	Sorse poi novo ardore,
+	Ma fiamma fu di sdegno
+	Perch&eacute; 'l mio don di voi stimaste indegno:
+	Questa secc&ograve; le chiome
+	Del lauro ond'onorava il vostro nome.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	194
+@TITLE:		La giovinetta scorza
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 78, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	La giovinetta scorza,
+	Ch'involge il tronco e i rami
+	D'un verde lauro, Amor vuol ch'io sempre ami;
+	E le tenere fronde,
+	Fra cui vaghi concenti
+	Fan gli augelletti al mormorar de' venti;
+	E l'ombra fresca, e lieta
+	Che da le foglie acerbe
+	Cade co' dolci sonni in grembo a l'erbe.
+	Quivi le reti asconde,
+	N&eacute; 'n parte pi&uacute; secreta,
+	Stanco di saettare, Amor s'acqueta.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	195
+@TITLE:		Sovra le verdi chiome
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 78, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Sovra le verdi chiome
+	Di questo novo Lauro, udite come
+	De' canori augelletti
+	Altri scherzando van di ramo in ramo,
+	Cantando &mdash; io t'amo, io t'amo &mdash;;
+	Et ei par gli risponda
+	Col dolce mormorio
+	De la tremante fronda &mdash;
+	S&iacute;, s&iacute;, che v'amo anch'io &mdash;;
+	Ed altri vezzosetti
+	Cantano, &mdash; quivi, quivi &mdash;,
+	Quasi voglian dire &mdash; In questi rivi,
+	O intorno a queste linfe
+	Ti vagheggian le Ninfe. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	196
+@TITLE:		Felice Primavera
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 78, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo lauro d'amore,
+	A cui ride la terra e 'l ciel d'intorno:
+	E di bel manto adorno
+	Di giacinti e viole il Po si veste.
+	Danzan le ninfe oneste &mdash; e i pastorelli
+	E i sussurranti augelli &mdash; in fra le fronde
+	Al mormorar de l'onde: &mdash; e vaghi fiori
+	Donan le Grazie a i pargoletti Amori.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	198
+@TITLE:		Chi la felice pianta d'or&iuml;ente
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	28, 48, 54, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Chi la felice pianta d'or&iuml;ente
+	Port&ograve; ne l'occidente?
+	E di qual mano aventurosa &egrave; questo
+	Maraviglioso innesto?
+@VERSE:
+	Felice, chi raccoglie
+	Pepe nel lauro tra le verdi foglie!
+	Ond'amor e natura ed arte unite
+	Fanne amicizia e lite.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	202
+@TITLE:		Picciola verga e bella
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Picciola verga e bella
+	D'alloro tr&iuml;onfale,
+	Cresci a la pianta, onde sei svelta, eguale!
+	Cresci felice; e s'ella
+	Secca non si rinverde,
+	Tu mantien vivo frondeggiando il verde.
+	Fra la chioma novella
+	L'aura con dolci errori
+	Scherzi mai sempre e i pargoletti Amori.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	204
+@TITLE:		Giammai pi&uacute; dolce raggio
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 49, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Giamai pi&uacute; dolce raggio
+	Non spiega il sole in un fiorito maggio
+	Di quel che le tue rose e i tuoi ligustri
+	Fa s&iacute; chiari ed illustri;
+	N&eacute; caggiono giammai la state e 'l verno,
+	Tal c'hai l'aprile eterno:
+	Perpetua primavera hai nel bel viso
+	E 'l sole &egrave; il dolce riso.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	237
+@TITLE:		Negro era intorno e 'n bianche falde il cielo
+@GENRE:		sonetto
+@MANUSRC:	Amz
+@PRINTSRC:	8, 9, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Negro era intorno e 'n bianche falde il cielo
+	Piovea converso, quando in alto ascese
+	Madonna per mostrarsi a me cortese
+	E le fiamme mirar che s&iacute; mal celo;
+@VERSE:
+	Quand'ecco su' bei crin stille di gelo
+	Sembr&agrave;r perle su l'oro ad arte stese;
+	Ma le mie luci al dolce obietto intese
+	Chiuse, ahi! la pioggia e lor di s&eacute; fe' velo.
+@VERSE:
+	Deh! quando in giogo d'Alpe o d'Apennino
+	Avvenne o in iperborea eccelsa rupe
+	S&iacute; duro caso, e a cui s&iacute; forte incresce?
+@VERSE:
+	Lasso, io rimasi allor qual peregrino
+	A cui s'annotti in valli orride e cupe
+	Mentre monti di neve il turbo mesce.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	240
+@TITLE:		Gli augelletti diversi
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Gli augelletti diversi
+	Al tuo venir, Licori,
+	Fra bei mirti cantaro e verdi allori
+	Soavemente amorosetti versi
+	Da intenerire i cori;
+	Ma tu pi&uacute; dolci assai li canti e d&eacute;tti.
+	Felice chi l'impara
+	E la sua voce al tuo nome rischiara!
+	Felici que' boschetti,
+	Ch'insegni risonarli e que' poggetti!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	241
+@TITLE:		Mentre i dipinti augelli
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Mentre i dipinti augelli,
+	Cara Licori mia,
+	Fra le superbe piante e gli arboscelli
+	Facean bella armonia,
+	Et hora questi or quelli
+	Alternavano a prova i vaghi accenti,
+	Diss'io pien di stupore: &mdash;
+	Questa &egrave; la scuola ov'&egrave; maestro Amore!
+	Deh! perch&eacute; non apprendo i bei lamenti
+	Ne' miei dolci tormenti? &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	242
+@TITLE:		Sovra l'erbetta e i fiori
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Sovra l'erbette e i fiori
+	Fuggia tutto smarrito
+	La mia crudel Licori,
+	Anzi 'l cor mio che fu da lei rapito;
+	E me di piaggia in piaggia
+	Segu&iacute;a Ninfa selvaggia,
+	Quando m'aggiunse, e con soavi baci
+	Mi disse: &mdash; or prendi e taci. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	243
+@TITLE:		Fugg&iacute;a di poggio in poggio
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Fugg&iacute;a di poggio in poggio
+	La mia dolce nemica,
+	Ed essa mi seguia bella e pudica.
+	Al fin mi giunse tra l'erbette e l'acque
+	E mi trafisse il core e non mi spiacque,
+	Perch&eacute; dir non saprei,
+	S'ebbi vita pi&uacute; dolce o morte in lei;
+	Ma vita se parl&ograve;, morte se tacque.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	244
+@TITLE:		Qual cervo errando suole
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Qual cervo errando suole
+	Fuggir saette dardi,
+	Io fuggiva i begli occhi e i dolci sgaurdi
+	Fra l'erbe e le v&iuml;ole,
+	Quando costei mi giunse e col suo riso
+	Non pur con le parole
+	Vita e morte mi di&egrave; cos&iacute; gradita:
+	Morte perch&eacute; diviso
+	Fui da me stesso, e vita,
+	Perch&eacute; l'alma felice &egrave; seco unita.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	246
+@TITLE:		Al lume delle stelle
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 49, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Al lume delle stelle
+	Tirsi sotto un'alloro
+	Si dolea lagrimando in questi accenti: &mdash;
+	O celesti facelle
+	Di lei ch'amo ed adoro
+	Rassomigliate voi gli occhi lucenti.
+	Luci serene e liete,
+	Sento la fiamma lor mentre splendete. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	247
+@TITLE:		Io vidi gi&agrave; sotto l'ardente sole
+@GENRE:		madrigale
+@MANUSRC:	M<sub>7</sub>
+@PRINTSRC:	27, 49, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Io vidi gi&agrave; sotto l'ardente sole
+	Discoloriti i fiori
+	Come la mia Licori;
+	Come i gigli del volto e le v&iuml;ole
+	Che d'irrigar desio
+	Con lagrimoso rio,
+	E seco insieme impallidir anch'io,
+	Seco mutar sembiante,
+	Aventuroso amante
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	248
+@TITLE:		Vita de la mia vita
+@GENRE:		madrigale
+@MANUSRC:	M<sub>7</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Vita de la mia vita,
+	Tu mi somigli pallidetta oliva
+	O rosa scolorita;
+	N&eacute; di belt&agrave; sei priva,
+	Ma in ogni aspetto tu mi sei gradita,
+	O lusinghera o schiva;
+	E se mi segui o fuggi
+	Soavemente mi consumi e struggi.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	254
+@TITLE:		Amor, ch'aspro tormento
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Amor, ch'aspro tormento
+	Sei fra' mortali in terra,
+	E mal sicura tregua e certa guerra,
+	E terribil procella e fiero vento,
+	Che turbi i nostri ingegni,
+	E 'n guisa d'onde movi alti disdegni;
+	Sei fra gli angeli in ciel senza difetto,
+	Contentezza e diletto,
+	E tranquilla qu&iuml;ete e stabil pace,
+	E gioia eterna con piacer verace.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	255
+@TITLE:		Mentre in grembo a la madre Amore un giorno
+@GENRE:		madrigale
+@MANUSRC:	I<sub>4</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Mentre in grembo a la madre Amore un giorno
+	Dolcemente dormiva,
+	Una zanzara zufolava intorno
+	Per quella dolce riva,
+	Disse allor, desto a quel susurro, Amore: &mdash;
+	Da s&iacute; picciola forma
+	Com'esce s&iacute; gran voce e tal rumore
+	Che sveglia ognun che dorma? &mdash;
+	Con maniere vezzose
+	Lusingandogli il sonno col suo canto
+	Venere gli rispose: &mdash;
+	E tu picciolo sei,
+	Ma pur gli uomini in terra col tuo pianto
+	E 'n ciel desti gli d&egrave;i. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	256
+@TITLE:		Amor, che qui d'intorno
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Amor, che qui d'intorno
+	Or fai ben mille scherzi e mille giri
+	S'ardisci numerar tante mie pene
+	E tanti miei sospiri,
+	Che son pi&uacute; de le arene,
+	Pi&uacute; de l'onde del mar, pi&uacute; de le stelle,
+	Racconta a la mia donna e queste e quelle;
+	E di' ch'io vivo a ci&ograve; che resti in vita
+	La mia doglia infinita.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	257
+@TITLE:		Ardi, Amor, se ti piace
+@GENRE:		madrigale
+@MANUSRC:	A<sub>3</sub>, Amz, E<sub>7</sub>, F<sub>1</sub>, Flc<sub>2</sub>, I<sub>3</sub>, I<sub>5</sub>, Pt
+@PRINTSRC:	8, 9, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ardi, Amor, se ti piace,
+	L'alma mia non che 'l fianco,
+	Ch'io non sar&ograve; di sofferir mai stanco:
+	Ma sembri la tua face
+	Fulgor, ch'addentro passa,
+	E fuor di s&eacute; vestigio a pena lassa.
+	Portino in me tuoi sdegni
+	Anzi martir che segni.
+	Pur, se restar vestigi
+	Debbon di quel martire onde m'affliggi,
+	Dimostrin le labbra e le mie gote
+	Di cari baci impresse ardenti note.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	259
+@TITLE:		Soletto Amor tendea
+@GENRE:		madrigale
+@MANUSRC:	I<sub>4</sub>
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Soletto Amor tendea,
+	Qual pescator, le reti
+	Fra cari scogli per diporto un giorno,
+	Ed un bel fior vedea,
+	Ch'a tutti i fior pi&uacute; lieti
+	Facea ne l'onde amare un dolce scorno;
+	E pien di maraviglia
+	Dicea &mdash; felice preda! o chi la piglia? &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	261
+@TITLE:		Mentre volgea il mio sole
+@GENRE:		madrigale
+@MANUSRC:	E<sub>3</sub>, P<sub>1</sub>, V<sub>9</sub>
+@PRINTSRC:	174
+@@BEGIN:	VERSES
+@VERSE:
+	Mentre volgea 'l mio sole
+	Lucido specchio al sol, cos&iacute; l'accese
+	Che quasi un terzo sol gli occhi m'offese:
+	Io, perdendo la vista a tanti rai,
+	Come cieco restai.
+	Qual gloria &egrave; questa, Amore,
+	Tormi la vista or che m'hai tolto il core?
+	E perch&eacute; io non gioisca al foco ond'ardo
+	Con tre lumi abbagliarmi a un vago sguardo!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	265
+@TITLE:		Mentre la donna mia cangiando aspetto
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	28, 48, 54, 78, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Mentre la donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l'interno affetto
+	E par or fresca rosa or vago giglio,
+	Dico &mdash; se cos&iacute; muta il bel colore,
+	Non &egrave; ferma nel core &mdash; :
+	Ma 'l var&iuml;ar &egrave; cos&iacute; dolce e vago
+	Che d'altro io non m'appago.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	266
+@TITLE:		Dolcissimi colori
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Dolcissimi colori
+	Voi vi mutate, ed io
+	Muto aspetto con voi, ma non desio.
+	Sempre vorrei mirarvi, e se fiorire
+	Un bel purpureo veggio,
+	O quell vago candor sempre io vagheggio;
+	E perch&eacute; vari segno al mio pensiero
+	&Egrave; costante l'arciero.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	267
+@TITLE:		Bella non &egrave; costei
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>, VE<sub>3</sub>
+@PRINTSRC:	28, 49, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Bella non &egrave; costei
+	Ma la beltade istessa,
+	Perch&eacute; fa bello ci&ograve; ch'a lei s'appressa:
+	E quanto ella comparte I dolci sguardi,
+	E le parole e 'l riso
+	E l'altre grazie, Amor, del lieto viso,
+	Di cui pi&uacute; m'invaghisci ove pi&uacute; m'ardi,
+	Tanto sol questo mondo amaro e vile
+	Mi par grato e gentile.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	272
+@TITLE:		Occhi leggiadri e belli,/Nel vostro dolce nero
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, V<sub>9</sub>
+@PRINTSRC:	71, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Occhi leggiadri e belli,
+	Nel vostro dolce nero
+	Un fanciul divent&ograve;, scherzando, arciero,
+	E saetta da gioco
+	Mill'alme e mille cori,
+	E rinfresca gli ardori;
+	E non gli mancan le saette e 'l foco
+	N&eacute; gli mancar giammai,
+	Ch&eacute; sono strali e fiamme i vostri rai.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	275
+@TITLE:		O via pi&uacute; bianca e fredda
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, M<sub>7</sub>, V<sub>9</sub>
+@PRINTSRC:	84, 174
+@@BEGIN:	VERSES
+@VERSE:
+	O via pi&uacute; bianca e fredda
+	Di lei che spesso fa parer men belle
+	Col suo splendor le stelle;
+	Turba il suo puro argento
+	O nube o pioggia o vento,
+	Nulla il tuo bel candore e i vaghi giri.
+	S'in me tu lieta giri
+	Sia la mia vita un sogno ed io contento.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	276
+@TITLE:		Pi&uacute; che D&iuml;ana &egrave; bella e pi&uacute; mi piace
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, M<sub>7</sub>, V<sub>9</sub>
+@PRINTSRC:	78, 174
+@@BEGIN:	VERSES
+@VERSE:
+	Pi&uacute; che D&iuml;ana &egrave; bella e pi&uacute; mi piace
+	Questa mia donna, anzi mia viva face;
+	Ma non riscalda a pena
+	Quando ella &egrave; pi&uacute; lucente e pi&uacute; serena,
+	N&eacute; sparge i rai con rugiadose stille
+	Ma con fiamme e faville;
+	Tal ch'ogni freddo core
+	Arde ed avvampa d'amoroso ardore.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	277
+@TITLE:		Perch&eacute; la mia D&iuml;ana, anzi 'l mio sole
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, M<sub>7</sub>
+@PRINTSRC:	28, 78, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Perch&eacute; la mia D&iuml;ana, anzi 'l mio sole,
+	Anzi la vita mia,
+	Talor si mostri amorosetta e pia
+	E de l'umil sampogna ascolti il suono,
+	Non scende a me se miro i dolci raggi
+	E tutte le sembianze e le sue forme,
+	Se ricerco de l'orme,
+	Se misuro i suoi passi e i  suoi v&iuml;aggi;
+	N&eacute; mai candida lana od altro dono
+	Di tal che preghi ed ami,
+	N&eacute; di serici stami
+	La moverebbe ancor vago lavoro,
+	N&eacute; pur'il vello d'oro.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	279
+@TITLE:		Al discioglier d'un groppo
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Al discioglier d'un groppo
+	Mille al cor me ne strinse
+	Quella candida man che pria l'avvinse:
+	Ma l'uno era scoperto;
+	Son gli altri occulti nodi
+	E d'occulta dolcezza occulti modi:
+	E nel mio core aperto
+	La donna che me 'l cinge ed incatena
+	De' lacci ch'ella fa s'avvede a pena.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	283
+@TITLE:		Quella candida mano/Che le parole scrisse
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	174
+@@BEGIN:	VERSES
+@VERSE:
+	Quella candida mano
+	Che le parole scrisse
+	L'avvent&ograve; poi volando e mi trafisse;
+	Ed io medesmo accolsi
+	Le dolci parolette,
+	Anzi pur le saette
+	Temprate nel dolcissimo veleno,
+	E ponendo le fiamme e 'l foco in seno
+	D'arder mi piacque e nel piacer mi dolsi.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	284
+@TITLE:		Questa vostra pietate
+@GENRE:		madrigale
+@MANUSRC:	Amz, E<sub>1</sub>, I<sub>4</sub>, P<sub>4</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Questa vostra pietate
+	Non refrigerio al core
+	Ma d&agrave; forza a l'ardore;
+	Dunque d'esser pietosa omai cessate
+	In cos&iacute; strana guisa
+	Che ne sia l'alma uccisa;
+	Perch'ella vi desia
+	O in estremo crudele o in tutto pia.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	288
+@TITLE:		Amatemi, ben mio
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	25, 26, 36, 37, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Amatemi, ben mio,
+	Perch&eacute; sdegna il mio core
+	Ogni altro cibo e vive sol d'amore.
+	V'amer&ograve;, se m'amate,
+	N&eacute; men de la mia vita
+	L'amor fia lungo e fia con lui finita.
+	Ma s'amarmi negate,
+	Morir&ograve; disperato
+	Per non amarvi non essendo amato.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	289
+@TITLE:		Gi&agrave; tu volasti quattro volte e sei
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	27, 49, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Gi&agrave; tu volasti quattro volte e sei
+	In quel petto s&iacute; molle,
+	Vaga farfalla, or morta al lume sei.
+	Non bramo io luce, n&eacute; son tanto folle;
+	Ma la morte vorrei
+	Dove fortuna darla a te non volle.
+	Oh dolce chiuder gli occhi,
+	S'avverr&agrave; che spirare in lui mi tocchi!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	290
+@TITLE:		Amorosa fenice
+@GENRE:		madrigale
+@MANUSRC:	I<sub>4</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Amorosa fenice,
+	Nel sol che solo adoro
+	Ardendo vivo e moro,
+	E morendo rinasco e volo e canto,
+	Fatto cigno canoro,
+	Il suo bel nome santo.
+	Amor, s'in altro lume
+	Arder non so le piume,
+	Perch&eacute; de la mia donna augel mi fai
+	E non m'annidi in quel bel seno mai?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	297
+@TITLE:		Se 'l vostro volto &egrave; d'un aria gentile
+@GENRE:		canzonetta
+@MANUSRC:	none
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Se 'l vostro volto &egrave; d'un'aria gentile
+	E i bei vostri occhi son due fiamme ardenti,
+	In voi dunque ci sono due elementi.
+@VERSE:
+	E se questi occhi or sono fonti e fiumi
+	E cenere il mio cor, dunque diremo
+	Che voi ed io quattro elementi semo.
+@VERSE:
+	E se voi sete un'aria e dolce foco,
+	Acqua amara son io, cenere e terra,
+	Perch&eacute; fra noi ci nasce tanta guerra?
+@VERSE:
+	Ma se volesse il fato e la mia sorte
+	Che tutti quattro fossimo una cosa,
+	Oh che vita felice e glor&iuml;osa!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	298
+@TITLE:		Mentr'io mirava fiso
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Mentr'io mirava fiso
+	De la mia donna gli occhi ardenti e belli,
+	Due vaghi spiritelli
+	Fiammeggiando n'usciro a l'improviso,
+	E dopo mille scherzi e mille giri,
+	Mille fughe d'intorno
+	E mille agguati dentro al seno adorno,
+	Mi trassero del cor mille sospiri;
+	Ond'io con dolci ed amorosi rai
+	Piet&agrave;, piet&agrave;, gridai.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	302
+@TITLE:		Siepe, che gli orti vaghi
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Siepe, che gli orti vaghi
+	E me da me dividi,
+	S&iacute; bella rosa in te giammai non vidi
+	Com'&egrave; la donna mia
+	Bella, amorosa e pia;
+	E mentr'io stendo sovra te la mano
+	La mi stringe pian piano.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	303
+@TITLE:		Sarai termine ancora
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	27, 48, 54, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Sarai termine ancora,
+	Come de' passi miei,
+	De' miei cari diletti,
+	Siepe, ch'udisti gli amorosi detti;
+	E non t'apristi allora
+	Pietosamente fra 'l mio petto e lei,
+	Siepe, siepe crudele,
+	Al suon de le dolcissime querele.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	305
+@TITLE:		Ne i vostri dolci baci
+@GENRE:		madrigale
+@MANUSRC:	Amz, Brn, C, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ne i vostri dolci baci
+	De l'Api &egrave; il dolce mele,
+	E v'&egrave; l'ago de l'api aspro crudele.
+	Dunque addolcito e punto
+	Da voi parto in un punto.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	307
+@TITLE:		Non sono in queste rive
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 49, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Non sono in queste rive
+	Fiori cos&iacute; vermigli,
+	Come le labra de la donna mia.
+	N&eacute; 'l suon de l'aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto pi&uacute; dolce armonia.
+	Canto che m'ardi e piaci,
+	T'interrompano solo i nostri baci!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	308
+@TITLE:		Soavissimo bacio
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, Flc<sub>2</sub>, V<sub>7</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Soavissimo bacio,
+	Del mio lungo servir con tanta fede
+	Dolcissima mercede!
+	Felicissimo ardire
+	De la man che vi tocca
+	Tutta tremante il delicato seno.
+	Mentre di bocca in bocca
+	L'anima per dolcezza allor vien meno!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	309
+@TITLE:		O verdi selve, o dolci fonti, o rivi
+@GENRE:		madrigale
+@MANUSRC:	I<sub>2</sub>, P<sub>6</sub>
+@PRINTSRC:	27, 70, 141, 169
+@@BEGIN:	VERSES
+@VERSE:
+	O verdi selve, o dolci fonti, o rivi,
+	O luoghi ermi e selvaggi,
+	Pini, abeti, ginepri, allori e faggi;
+	O vaghi augelli, semplici e lascivi,
+	Eco, e tu che rispondi al mio lamento,
+	Chi pu&ograve; dar fine a s&iacute; crudel fortuna? &mdash;
+	<i>Una</i>. &mdash; Dunque sol una,
+	E fa cos&iacute; lacrimevol concento? &mdash;
+	<i>Cento</i>. &mdash; Non son gi&agrave; cento, e pur son molte
+	In bella festa accolte:
+	Come una potr&agrave; dunque il mal fornire? &mdash;
+	<i>Ire</i>, &mdash; Per ira mia n&eacute; per dispetto
+	Non avr&agrave; fine amor nel nostro petto? &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	314
+@TITLE:		Perch&eacute; di seno in seno
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 141, 166
+@@BEGIN:	VERSES
+@VERSE:
+	Perch&eacute; di seno in seno
+	Cos&iacute; trasporti, Amore,
+	Questo vermiglio, lieto e vago fiore?
+	Ben d&eacute;i saper che l'uno
+	Tutto d'onesto foco
+	E pien di casto gelo &egrave; l'altro loco.
+	Ma s'egli danno alcuno
+	Non ha tra fiamma e ghiaccio,
+	Perch&eacute; tra l'uno e l'altro i' mi disfaccio?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	315
+@TITLE:		Quella candida mano/Ch'a mezzo il verno i vaghi fiori accinse
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, E<sub>2</sub>, F<sub>2</sub>, V<sub>9</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Quella candida mano
+	Ch'a mezzo il verno i vaghi fiori accinse,
+	Me con leggiadri nodi ancora strinse.
+	Deh! s'un medesmo fato
+	Hanno i bei fiori ed io,
+	Non bramo di morir se non legato,
+	Ma 'n s&iacute; bel petto di morir desio.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	318
+@TITLE:		Sovra un lucido rio
+@GENRE:		madrigale
+@MANUSRC:	M<sub>7</sub>, S
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Sovra un lucido rio
+	Si dolea per amore
+	Un pastorel mirando il suo bel viso: &mdash;
+	Perch&eacute;, diceva, anch'io
+	Non mi converto in fiore,
+	Bench&eacute; non ami come fe' Narciso,
+	Ch'in quella forma almeno
+	Mi raccorrebbe la mia donna in seno? &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	319
+@TITLE:		Non pu&ograve; l'angusto loco
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, V<sub>9</sub>
+@PRINTSRC:	71, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Non pu&ograve; l'angusto loco
+	Tra pini abeti e faggi
+	Celare i vostri puri e lieti raggi
+	E 'l dolce e vivo foco:
+	E chi nasconde il sole
+	Perch&eacute; non splenda fuor com'egli suole?
+	Occhi graditi e cari,
+	Occhi sereni e chiari,
+	Voi somigliar sovente
+	Fate quest'umil villa un or&iuml;ente.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	322
+@TITLE:		Donna, lunge da voi
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Donna, lunge da voi
+	Vivo del mio dolore,
+	N&eacute; manca il cibo con la vita al core;
+	Perch&eacute; da voi deriva,
+	E pare un fiume senza fondo o riva.
+	Voi siete il fonte, e 'l rio
+	De la vostra bellezza &egrave; 'l pianto mio.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	323
+@TITLE:		Lontano dal mio cuore
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 50, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Lontano dal mio core
+	Infinito &egrave; 'l dolore,
+	Infinite le pene e i miei tormenti,
+	Infiniti i martiri,
+	Infiniti i sospiri,
+	Infinite le lagrime e i lamenti:
+	Sol la speranza ha fine
+	Di rivedervi mai, luci divine;
+	Sol fine ha la speranza,
+	E nel fondo de' mali ognor avanza.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	325
+@TITLE:		O dolci lagrimette
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	O dolci lagrimette,
+	Che gi&agrave; la donna mia da' suoi begli occhi,
+	Quasi nembo che fiocchi,
+	Sparse in quest'odoroso e bianco lino!
+	Misero peregrino,
+	Questo sol meco io porto e solo io tegno,
+	Caro mio s&iacute;, ma non felice pegno;
+	Perch&eacute; n'asciughi i lumi,
+	E ne pianga lontano e mi consumi.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	326
+@TITLE:		Lunge da gli occhi vostri
+@GENRE:		madrigale
+@MANUSRC:	F<sub>2</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Lunge da gli occhi vostri
+	Io vivo del pensiero
+	Pensosa vita; e vivo perch&eacute; i' spero.
+	Spero il lieto ritorno;
+	E s'avverr&agrave; che nel felice giorno
+	La mia dolce speranza in me si moia,
+	Spero viver di gioia.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	327
+@TITLE:		Come cristallo in monte
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, VE<sub>3</sub>
+@PRINTSRC:	28, 50, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Come cristallo in monte
+	L'orgoglio in voi s'indura,
+	Donna bella, e crudele oltra misura.
+	In me l'amore affina,
+	Com'or lucente in fiamma,
+	E se gela il cor vostro il mio s'infiamma.
+	N&eacute; quella algente brina
+	Struggo per&ograve;, ma ne l'istesso loco
+	Manterr&agrave; fede eterna al gelo il foco.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	333
+@TITLE:		Gelo ha Madonna il seno
+@GENRE:		madrigale
+@MANUSRC:	A<sub>3</sub>, Amz, C, E<sub>1</sub>, E<sub>7</sub>, Flc<sub>2</sub>, I<sub>4</sub>, I<sub>5</sub>, M<sub>7</sub>, P<sub>4</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, W
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Gelo ha Madonna il seno, e fiamma il volto;
+	Io son ghiaccio di fuore
+	E 'l foco ho dentro accolto.
+	Questo avvien, perch'Amore
+	Ne la sua fronte alberga e nel mio petto,
+	N&eacute; mai cangia ricetto
+	S&iacute; ch'io l'abbia ne gli occhi, ella nel core.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	335
+@TITLE:		Voi bramate, ben mio
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	28, 48, 54, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Voi bramate, ben mio,
+	Che m'uccida il dolore,
+	Per&ograve; crescete pena in questo core:
+	Ma pur, mentre mi doglio,
+	Sento un piacer s&iacute; novo
+	Del piacer che vi porge il mio cordoglio.
+	Oh maraviglia!, e quasi avvien ch'allora
+	Per doglia no, ma per diletto io mora.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	339
+@TITLE:		Dolcissimi legami
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
+@PRINTSRC:	28, 48, 54, 141, 166
+@@BEGIN:	VERSES
+@VERSE:
+	Dolcissimi legami
+	Di parole amorose,
+	Chi mi leg&ograve; da scherzo e non mi scioglie?
+	Cos&iacute; dunque scherza e cos&iacute; coglie?
+	Cos&iacute; l'alme legate
+	Sono le catene insid&iuml;ose?
+	Almen, chi s&iacute; m'allaccia,
+	Mi leghi ancor fra quelle dolci braccia.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	341
+@TITLE:		Fuggi, fuggi, dolor, da questo petto
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 49, 93, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Fuggi, fuggi, dolor, da questo petto
+	Or che vi torna la gioiosa spene;
+	Or che promette al cor pace e diletto,
+	Tutti fuggite omai, tormenti e pene.
+	Gi&agrave; vicino &egrave; 'l mio sole: oh cieli amici!
+	Gi&agrave; s'appressa il mio bene: oh d&iacute; felici!
+	N&eacute;, potendo tornar senza partita,
+	Mi piace che part&iacute; la cara vita.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	342
+@TITLE:		Gi&agrave; fu dolce mia speme
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 23, 26, 31, 32, 35, 36, 37, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Gi&agrave; fu dolce mia speme
+	Assai debile e lenta,
+	Or cresce s&iacute; ch'ella piacer diventa.
+	Ma, perch'io speri insieme
+	E insieme abbia diletto.
+	Mai non adempie Amor ogni mio affetto;
+	E sempre il mio piacere
+	Temprando va, perch'io maggior lo spere.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	343
+@TITLE:		Soavissimo canto
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 49, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Soavissimo canto,
+	Oh pur t'oda una volta
+	E poi mi stilli in lagrimoso pianto!
+	Felice chi t'ascolta!
+	Felice chi risguarda
+	La rosa, onde tu spiri, ancor non colta!
+	Felice s&iacute;, ma tarda
+	Fora la sorte mia
+	Fra quel s&iacute; dolce odore e l'armonia.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	345
+@TITLE:		Tra mille fior gi&agrave; colti in dolce speco
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
+@PRINTSRC:	27, 48, 54, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Tra mille fior gi&agrave; colti in dolce speco,
+	Quasi rosa non c&ograve;lta,
+	Non incolta ma c&oacute;lta,
+	Era Amarilli, e Galatea con seco,
+	Pur come fiore accolto in verdi spoglie:
+	Ma chi le c&ograve;lse? Amor quando le coglie.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	346
+@TITLE:		Cantava in riva al fiume
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 166, 167, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Cantava in riva al fiume
+	Tirsi d'Eleonora,
+	E rispondean le selve e l'onde &mdash; onora.
+	E parea mormorando
+	Dir l'&ograve;ra: &mdash; &oacute;ra, ch'appare,
+	L'aurora par che lieta esca del mare:
+	Or chi l'onora amando? &mdash;
+	E l'acque insieme e i rami &mdash;
+	Or chi fia che l'onori e che non l'ami? &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	347
+@TITLE:		In un fonte tranquillo
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	In un fonte tranquillo
+	Si specchiava Neera,
+	E Tirsi le dicea piangendo intanto: &mdash;
+	Mentr'io cos&iacute; mi stillo,
+	Ninfa selvaggia e fera,
+	Spero fontana divenir di pianto:
+	Allora in me vedrete
+	Quanto voi bella e quanto cruda sete. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	353
+@TITLE:		Gi&agrave; fui caro agli occhi tuoi
+@GENRE:		Canzonetta
+@MANUSRC:	Flc<sub>2</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Gi&agrave; fui caro a gli occhi tuoi,
+	O mio sole;
+	Vissi lieto del tuo amore,
+	Del mio ardore;
+	Or che pi&uacute; non m'ami
+@VERSE:
+	Com'esser pu&ograve; che mai pi&uacute; viver brami?
+	Tu pur vedi il pianto mio,
+	O mia gioia,
+	Sai ch'io t'amo, ch'io t'adoro,
+	Ch'io mi moro,
+	E mi sei crudele!
+	Questa &egrave; merc&eacute; de l'amor mio fedele?
+@VERSE:
+	Ma se godi del mio male,
+	O mio bene,
+	Son contento di languire,
+	Di morire,
+	S'io vedr&ograve; che poi
+	Il mio morir sia caro a gli occhi tuoi.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	354
+@TITLE:		Occhi miei mal accorti
+@GENRE:		canzonetta
+@MANUSRC:	Flc<sub>2</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Occhi miei mal accorti,
+	A gran ragione di voi sol mi doglio,
+	Ch&eacute; voi sete cagion del mio cordoglio.
+	Per voi, sol che mirate,
+	Io son ferito da lo stral d'Amore,
+	E per voi se ne va veloce al core:
+	Dunque voi nel mirare
+	Siate pi&uacute; accorti, perch&eacute; non conviene
+	Ch'io di vostro gioir porti le pene.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	356
+@TITLE:		Correte, amanti, a le bellezze nove
+@GENRE:		canzonetta
+@MANUSRC:	Flc<sub>2</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Correte, amanti, a le bellezze nove:
+	Donna, c'ha s&iacute; begli occhi e s&iacute; bel volto,
+	Che sol mirando ha tolto
+	L'arco ad Amore e le saette a Giove.
+@VERSE:
+	Mirate le vaghezze altere e sole
+	D'un bel crin vago e biondo a l'aura sciolto,
+	Che sol, senz'arte, ha tolto
+	Il pregio a l'oro e la sua luce al sole.
+@VERSE:
+	Udite le parole, udite il canto
+	Fra bianche perle e bei rubini accolto,
+	Che in un sospiro ha tolto
+	A Febo l'arte, a le sirene il vanto.
+@VERSE:
+	Come fuggir dunque potrete omai
+	Che ne l'udirla o vagheggiarle il volto
+	Il cor non vi sia tolto
+	E che ritorni al vostro petto mai?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	358
+@TITLE:		Amarilli s'io te miro
+@GENRE:		canzonetta
+@MANUSRC:	Flc<sub>2</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Amarilli, s'io te miro,
+	Miro il sol de gli occhi miei:
+	Tanto bella e vaga sei
+	Ch'io per altra non sospiro.
+@VERSE:
+	Se tu ridi, il dolce riso
+	M'apre il ciel di primavera;
+	O sei cruda o lusinghiera,
+	Sempre ho innanzi il tuo bel viso.
+@VERSE:
+	Se tu parli ed io ti sento,
+	Sento un'aura in mezzo aprile
+	S&iacute; soave, s&iacute; gentile,
+	Che fa dolce il mio tormento.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	359
+@TITLE:		Voi volete ch'io v'ami
+@GENRE:		canzonetta
+@MANUSRC:	Flc<sub>2</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Voi volete ch'io v'ami
+	E non volete che per voi sospiri:
+	Questi son pur d'Amor novi martiri!
+	Se con gli occhi m'ardete,
+	E l'alma &egrave; vaga di s&iacute; dolce ardore,
+	Come pu&ograve; star la fiamma chiusa al core?
+	Se il mio foco vi piace
+	E s'io mostrarlo co' sospir m'ingegno,
+	Perch&eacute;, crudel, cos&iacute; li avete a sdegno?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	361
+@TITLE:		Io son la Primavera
+@GENRE:		canzonetta
+@MANUSRC:	Flc<sub>2</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Io son la Primavera,
+	Che lieta, o vaghe donne, a voi ritorno
+	Col mio bel manto adorno
+	Per vestir le campagne d'erbe e fiori
+	E svegliarvi nel cor novelli amori.
+@VERSE:
+	A me Zeffiro spira,
+	A me ride la terra e 'l ciel sereno;
+	Volan di seno in seno
+	Gli Amoretti vezzosi a mille mille,
+	Chi armato di stral, chi di faville.
+@VERSE:
+	E voi ancor gioite,
+	Godete al mio venir tra risi e canti;
+	Amate i vostri amanti
+	Or che 'l bel viso amato april v'infiora:
+	Primavera per voi non torna ognora.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	362
+@TITLE:		Questo riposto bel vago boschetto
+@GENRE:		sonetto
+@MANUSRC:	Ts<sub>2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Questo riposto bel vago boschetto
+	D'ombrosi mirti e d'indorati allori,
+	Non de' rozzi bifolchi o de' pastori,
+	Ma d'amorose dee stanza e ricetto;
+@VERSE:
+	Ch'asconde in grembo un picciol ruscelletto
+	Le cui rive ambe son pinte di fiori,
+	Ove soglion talor Zefiro e Clori
+	Quando Febo arde il ciel, starsi a diletto;
+@VERSE:
+	Ti sacra Tirsi, o faretrato arciero,
+	Perch&eacute;, qualor di saettar sei stanco,
+	Quivi ti posi al mormorar de l'acque.
+@VERSE:
+	Ma tu di lei che tanto, oim&eacute;!, ti piacque
+	Alquanto rendi il cor men crudo e fiero,
+	Ond'ei, vinto dal duol, non vegna manco.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	363
+@TITLE:		Qui dove i sacri e verdeggianti allori
+@GENRE:		sonetto
+@MANUSRC:	Ts<sub>2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Qui dove i sacri e verdeggianti allori
+	Forman di s&egrave; vago boschetto ombroso,
+	Per cui serpendo al mar da l'herbe ascoso
+	Porta limpido rio suoi dolci humori;
+@VERSE:
+	Ove persi, vermigli e bianchi fiori
+	Rendon vago il terreno e dilettoso;
+	Ove fra 'l crin de gli arboscei frondoso
+	Scherzano l'aure con leggiadri errori;
+@VERSE:
+	Vieni, o Fillide mia, se pur non hai,
+	Non men ch'humano volto, il cor spietato,
+	Ond'io tregua al dolor ritrovi omai.
+@VERSE:
+	Ma chi m'ode? a chi parlo? ove son io?
+	Lasso! ella altrove al caro Alcippo amato
+	S'asside in grembo e spregia l'ardor mio.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	366
+@TITLE:		Odi, Filli, che tuona; odi che 'n gelo
+@GENRE:		sonetto
+@MANUSRC:	C, Pt, V<sub>8</sub>, W, Y
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 22, 22a), 24, 26, 29, 31, 33, 35, 67, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Odi, Filli, che tuona; odi che 'n gelo
+	Il vapor di lass&ugrave; converso piove:
+	Ma che curar dobbiam che faccia Giove?
+	Godiam noi qui s'egli &egrave; turbato in cielo.
+@VERSE:
+	Godiamo amando, e un dolce ardente zelo
+	Queste gioie notturne in noi rinnove:
+	Tema il vulgo i suoi tuoni, e porti altrove
+	Fortuna o caso il suo fulmineo telo.
+@VERSE:
+	Ben folle ed a s&eacute; stesso empio &egrave; colui
+	Che spera e teme, e in aspettando il male
+	Gli si fa incontro e sua miseria affretta.
+@VERSE:
+	P&egrave;ra il mondo e rovini: a me non cale
+	Se non di quell che pi&uacute; piace e diletta,
+	Ch&eacute; se terra sar&ograve; terra ancor fui.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	367
+@TITLE:		Aminta poi ch'a Filli non dispiacque
+@GENRE:		sonetto
+@MANUSRC:	P<sub>4</sub>, Y
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Aminta, poi ch'a Filli non dispiacque
+	Del medesmo desir mostrarsi accesa
+	E ch'ella a questo sol gi&agrave; tanto attesa
+	Ne le sue braccia alfin nuda si giacque,
+@VERSE:
+	A lei, che pi&uacute; ch'alcun'altra gli piacque,
+	Dal soverchio piacer sentendo offesa
+	L'alma felice in s&iacute; bel laccio presa,
+	Cos&iacute; languendo disse, e poi si tacque: &mdash;
+@VERSE:
+	Cogliete, anima mia, quest'alma ch'io
+	Vi spiro in braccio. Ahi, che mi giunge al core,
+	Al core, ahi lasso, un venen dolce e rio!
+@VERSE:
+	Io 'l sento, ohim&eacute;: da queste labbra amore
+	Per troncar la radice al viver mio
+	In dolcissimi baci il manda f&ocirc;re. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	371
+@TITLE:		Tre son le Grazie ancelle
+@GENRE:		madrigale
+@MANUSRC:	Amz, C, E<sub>1</sub>, V<sub>8</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	8, 9, 15, 20, 24, 29, 33, 67, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Tre son le Grazie ancelle,
+	Se non &egrave; falso il grido,
+	Che sono intorno a l'alma dea di Gnido.
+	Tu, che simigli a lei
+	Se non quant'onest&agrave; ti fa pi&uacute; cara,
+	N'hai quattro e via pi&uacute; belle:
+	Concedi dunque l'una a i desir miei;
+	E fia modestia rara
+	Se donna a i divi d'agguagliarsi impara.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	372
+@TITLE:		Bruna sei tu ma bella
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Bruna sei tu ma bella,
+	Ed ogni bel candore
+	Perde col bruno tuo, giudice Amore.
+	Bella sei tu, ma bruna;
+	Pur se ne cade inc&oacute;lto
+	Bianco ligustro e negro fiore &egrave; colto.
+	Chi coglie ad'una ad'una
+	Le tue lodi pi&uacute; elette?
+	Chi te ne tesse in rime ghirlandette?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	373
+@TITLE:		Bella e vaga brunetta
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	78
+@@BEGIN:	VERSES
+@VERSE:
+	Bella e vaga brunetta,
+	I vostri occhi lucenti
+	Son strali e fiamme ardenti
+	Con che Amore il mio cor arde e saetta.
+	N&eacute; grido ancor vendetta
+	Perch&eacute; son dolci e cari
+	I vostri sguardi avari.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	376
+@TITLE:		Dolcemente dormiva la mia Clori
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Dolcemente dormiva la mia Clori
+	E 'ntorno al suo bel volto
+	Givan scherzando i pargoletti Amori.
+	Mirav'io, da me tolto,
+	Con gran diletto lei,
+	Quando dir mi sentii &mdash; Stolto, che fai?
+	Tempo perduto non s'acquista mai. &mdash;
+	Allor io mi chinai cos&iacute; pian piano,
+	E baciandole il viso
+	Provai quanta dolcezza ha il paradiso.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	378
+@TITLE:		Nel dolce seno de la bella Clori
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	23, 26, 32, 36, 37, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Nel dolce seno de la bella Clori
+	Tirsi, che del suo fine
+	Gi&agrave; languendo sent&iacute;a l'ore vicine,
+	Tirsi, levando gli occhi
+	Ne' languidetti rai del suo des&iacute;o, &mdash;
+	Anima disse, omai beata mori. &mdash;
+	Quand'ella &mdash; Ohim&egrave;! ben mio,
+	Aspetta, &mdash; sospir&ograve; dolce anelando. &mdash;
+	Ahi! crudo, ir dunque a morte
+	Senza me pensi? io teco, e non me 'n pento,
+	Morir promisi, e gi&agrave; moro, e gi&agrave; sento
+	Le mortali mie scorte
+	Perch&eacute; l'una e l'altr'alma insieme scocchi. &mdash;
+	Si stringe egli soave e sol risponde
+	Con meste voci a le voci gioconde.
+	Oh fortunati! L'un entro spirando
+	Ne la bocca de l'altra, una dolce ombra
+	Di morte gli occhi lor tremanti ingombra;
+	E si sentian, mancando i rotti accenti,
+	Agghiacciar tra le labbra i baci ardenti.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	379
+@TITLE:		Non si levava ancor l'alba novella
+@GENRE:		ballata
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Non si levava ancor l'alba novella,
+	N&eacute; spiegavan le piume
+	Gli augelli al nuovo lume,
+	Ma fiammeggiava l'amorosa stella,
+@VERSE:
+	Quando i due vaghi e leggiadretti amanti,
+	Ch'una felice notte aggiunse insieme
+	Come a canto si volge i vari giri,
+	Divise il nuovo raggio; e i dolci pianti
+	Ne l'accoglienze estreme
+	Mescolavan co' baci e co' sospiri.
+	Mille ardenti pensier, mille desiri,
+	Mille voglie non paghe
+	In quelle luci vaghe
+	Scopr&iacute;a quest'alma innamorata e quella.
+@VERSE:
+	E dicea l'una sospirando allora &mdash;
+	Anima, addio, &mdash; con languide parole;
+	E l'altra &mdash; Vita, addio &mdash; le rispondea, &mdash;
+	Addio, rimanti: &mdash; e non partiansi ancora
+	Innanzi al nuovo sole.
+	E 'nnanzi a l'alba che nel ciel sorgea
+	E questa e quella impallidir vedea
+	Le bellissime rose
+	Ne le labbra amorose,
+	E gli occhi scintillar come facella.
+	E come l'alma che si parta e svella
+	Fu la partenza loro" &mdash;
+	Addio, ch&eacute; parto e moro! &mdash;
+	Dolce languir, dolce partita e fella!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	380
+@TITLE:		Viviamo, amianci, o mia gradita Jelle
+@GENRE:		sonetto
+@MANUSRC:	A<sub>3</sub>, Amz, Brn, C, F<sub>1</sub>, I<sub>4</sub>, I<sub>5</sub>, P<sub>4</sub>, Pt, R<sub>7</sub>, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, VE<sub>1</sub>, Y
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Viviamo, amianci, o mia gradita Jielle,
+	Edra sii tu, che 'l caro tronco abbraccia:
+	Baciamo, e i baci e le lusinghe taccia
+	Chi non ardisce annoverar le stelle.
+@VERSE:
+	Bacinsi insieme l'alme nostre anch'elle:
+	Fabro sia Amor, che le distempri e sfaccia,
+	E che di due confuse una rifaccia,
+	Che per un spirto sol spiri e favelle.
+@VERSE:
+	Cara Salmace mia, come s'innesta
+	L'una pianta ne l'altra e sovra l'orno
+	Vedeggia il pero e l'un per l'altro &egrave; vago,
+@VERSE:
+	Tal'io n'andr&ograve; de' tuoi colori adorno,
+	Tal il tuo cor de' miei pensier si vesta:
+	E comun sia fra noi la penna e l'ago.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	389
+@TITLE:		Donna, se ben le chiome ho gi&agrave; ripiene
+@GENRE:		sonetto
+@MANUSRC:	A<sub>3</sub>, Amz, Brn, H<sub>3</sub>, I<sub>4</sub>, I<sub>5</sub>, P<sub>3</sub>, Ts<sub>1</sub>, V<sub>2</sub>, V<sub>13/TS1</sub>, VE<sub>1</sub>, W
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Donna, se ben le chiome ho gi&agrave; ripiene
+	D'algente neve, il cor per&ograve; non verna:
+	S&agrave;sselo Amor, che tacito 'l governa,
+	E vive le faville in lui mantiene.
+@VERSE:
+	Etna cos&iacute; sul dorso alto sostiene
+	Le brine e 'l gelo e dentro ha fiamma eterna;
+	Selce cos&iacute; gelata &egrave; ne l'esterna
+	Parte, e 'l foco nativo ha nelle vene.
+@VERSE:
+	Ben, se 'l petto talor mi ripercote
+	Colpo de' tuoi begli occhi, a pi&uacute; d'un segno
+	Mostra l'interne fiamme il mio sembiante:
+@VERSE:
+	Ma tu rispiarmi i colpi e vuoi ch'ignote
+	Siano: forse &egrave; piet&agrave;, forse &egrave; disdegno
+	Che tanto osi sperar canuto amante.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	395
+@TITLE:		In un bel bosco di leggiadre fronde
+@GENRE:		sonetto
+@MANUSRC:	Pt
+@PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	In un bel bosco di leggiadre fronde
+	Ch'ombra si fa con le ramose braccia,
+	Amor, che va de l'alme nostre a caccia
+	Tese le reti di due trecce bionde;
+@VERSE:
+	Cos&iacute; il mio cor, c'havea di due gioconde
+	Luci seguita la fallace traccia,
+	Preso rest&ograve;, com'animal s'allaccia
+	Ne' bei legami ch'e' ne l'ombra asconde.
+@VERSE:
+	O dolce laccio, o vaghe reti, o bosco
+	Vezzoso, o cacciator che mi togliesti
+	Il core, dove l'hai, crudele, ascosto?
+@VERSE:
+	Io pur ritorno spesso a pianger vosco,
+	Ed a cercar tra queste erbette e questi
+	Vaghi fioretti ov'egli sia nascosto.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	399
+@TITLE:		O vaga tortorella
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	27, 70, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	O vaga tortorella,
+	Tu la tua compagnia
+	Ed io piango colei che non fu mia.
+	Misera vedovella,
+	Tu sovra il nudo ramo,
+	A pi&eacute; del secco tronco io la richiamo:
+	Ma l'aura solo e 'l vento
+	Risponde mormorando al mio lamento.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	407
+@TITLE:		La natura compose
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>, W
+@PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 34, 66, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	La natura compose
+	Quest'odorato fiore,
+	O pur del magistero egli &egrave; d'Amore?
+	Deh! chi tanto vicine
+	Le pene e i dolci premi in lui ripose?
+	E chi d'acute spine
+	Cinse le belle foglie,
+	Onde, s'incauta man talora il coglie,
+	Punta, in un punto solo
+	Sente allegrezza e duolo?
+	Oh fior meraviglioso, ond'ancor dura
+	Lite incerta d'Amore e di Natura!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	408
+@TITLE:		Questo tra gli altri fiori
+@GENRE:		madrigale
+@MANUSRC:	F<sub>2</sub>, Ts<sub>2</sub>
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Questo tra gli altri fiori
+	Sanguigno s&iacute; fu tinto
+	Del bel sangue d'Adone o di Giacinto?
+	O pur in lui converse
+	Il suo l'alato iddio,
+	Quando un suo stral gli cadde e si fer&iacute;o?
+	Deh! sar&agrave; mai ch'io versi
+	S&iacute; fortunati umori
+	Ch'ei s&iacute; li cangi e 'l vostro seno infiori?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	410
+@TITLE:		L'alma con voi mandai
+@GENRE:		madrigale
+@MANUSRC:	F<sub>2</sub>
+@PRINTSRC:	28, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	L'alma con voi mandai
+	Ne la vostra partita,
+	Onde, se vivo pur, senz'alma ho vita:
+	E ben di viver parmi,
+	Ch'anco fervido &egrave; il core
+	Di quel, che lei s&iacute; ardea, soave ardore.
+	Ma, se vita pu&ograve; darmi
+	Foco de' vostri rai,
+	Come mentr'egli vive io morr&ograve; mai?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	417
+@TITLE:		Dolce mia fiamma, dolce
+@GENRE:		madrigale
+@MANUSRC:	F<sub>2</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Dolce mia fiamma, dolce
+	Mia pena e mio tormento,
+	Dolce &egrave; 'l languir, dolce &egrave; 'l martir ch'io sento,
+	Dolci sono i tuoi raggi e le faville;
+	E mentre a mille a mille
+	Passano in questo core,
+	Dico, &mdash; S'egli si more,
+	Il suo morir non prezza,
+	N&eacute; morr&agrave; per dolor, ma per dolcezza. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	418
+@TITLE:		Ardi e gela a tua voglia
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, M<sub>7</sub>, N<sub>21</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 60, 69, 86, 93, 121, 141, 159<sup>bis</sup>, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ardi e gela a tua voglia,
+	Perfido ed impudico,
+	Or'amante or nemico;
+	Ch&eacute; d'incostante ingegno
+	Poco l'amore i' stimo e men lo sdegno:
+	E se 'l tuo amor fu vano,
+	Van fia lo sdegno del tuo cor insano.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	433
+@TITLE:		Se tu mi lasci, perfida, tuo danno
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Se tu mi lasci, perfida, tuo danno:
+	Non ti pensar che sia
+	Misera senza te la vita mia.
+	Misero ben sarei
+	Se miseria i' stimassi e non ventura
+	Perder chi non mi cura
+	E ricovrar quel che di me perdei.
+	Misera tu, che per novello amore
+	Perdi quel fido core
+	Ch'era pi&uacute; tuo che tu di te non sei;
+	Ma il tuo gi&agrave; non perd'io
+	Perch&eacute; non fu mai mio.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	443
+@TITLE:		Questa vita &egrave; la selva, il verde e l'ombra
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, M<sub>7</sub>, N<sub>3</sub>
+@PRINTSRC:	28, 50, 78, 141, 164, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Questa vita &egrave; la selva, il verde e l'ombra
+	Son fallaci speranze, e son le reti
+	Piacer dolci e secreti,
+	E sono ispidi dumi
+	Crude voglie e costumi;
+	La fera &egrave; la mia donna, Amor l'arciero,
+	Il veltro il mio pensiero.
+	Ella ratta se 'n va senza ritegno,
+	N&eacute; fugge per timor ma per disdegno,
+	Non servit&uacute; ma pace;
+	E quanto &egrave; pi&uacute; superba &egrave; pi&uacute; fugace.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	495
+@TITLE:		Se cos&iacute; dolce &egrave; il duolo
+@GENRE:		madrigale
+@MANUSRC:	P<sub>3</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Se cos&iacute; dolce &egrave; il duolo ,
+	Deh! qual dolcezza aspetto
+	D'imaginato mio novo diletto.
+	Ma s'avverr&agrave; ch'io muoia
+	Piacere e di gioia,
+	Non ritardi la morte
+	S&iacute; lieto fine e s&iacute; felice sorte.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	541
+@TITLE:		Tolse <span class="name">Barbara</span> gente il pregio a Roma
+@GENRE:		sonetto
+@MANUSRC:	A<sub>3</sub>, Amz, Ar, Brn, C, I<sub>4</sub>, J<sub>4</sub>, N<sub>12</sub>, N<sub>14</sub>, Ts<sub>1</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, W
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 14, 15, 20, 24, 29, 33, 38, 40, 67, 86, 87, 141, 166, 167
+@@BEGIN:	VERSES
+@VERSE:
+	Tolse <span class="name">Barbara</span> gente il pregio a Roma
+	De l'imperio e de l'armi e serva fella,
+	Oh nome a lei fatale! Ecco novella
+	Barbara vincitrice anco la doma.
+@VERSE:
+	Ed a quale in lei pi&uacute; per belt&agrave; si noma
+	Tolto lo scettro e il titolo di bella,
+	Spiega sue squadre in Campidoglio e quella
+	De' suoi prigioni incatenata e doma.
+@VERSE:
+	Sono i guerrieri suoi molle Rigore
+	Con pudica Belt&agrave; sdegno cortese,
+	Che quando sfida pi&uacute; tanto pi&uacute; piace.
+@VERSE:
+	I vinti un sesso e l'altro; e l'un d'Amore,
+	L'altro d'Invidia: or com'&egrave; che la face
+	Medesma agghiacci l'un che l'altro accese?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	549
+@TITLE:		Quel labbro che le rose han colorito
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ar, Brn, I<sub>3</sub>, I<sub>4</sub>, I<sub>5</sub>, P<sub>4</sub>, Ts<sub>1</sub>, V<sub>13/TS1</sub>, VE<sub>1</sub>, W, Y
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Quel labbro che le rose han colorito,
+	Molle si sporge e tumidetto in fuore
+	Spinto per arte, mi cred'io, d'Amore,
+	A fare ai baci insidioso invito.
+@VERSE:
+	Amanti, alcun non sia cotanto ardito,
+	Ch'osi appressarsi ove tra fiore e fiore
+	Si sta qual angue ad attoscarvi il core
+	Quel fiero intento: io 'l veggio e ve l'addito.
+@VERSE:
+	Io, ch'altre volte fui ne l'amorose
+	Insidie c&ograve;lto, or ben le riconosco,
+	E le discopro, o giovinetti, a voi:
+@VERSE:
+	Quasi pomi di Tantalo, le rose
+	Fansi a l'incontro e s'allontanan poi,
+	Sol resta Amor che spira fiamma e tosco.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	553
+@TITLE:		Sul carro de la mente auriga siedi
+@GENRE:		sonetto
+@MANUSRC:	Pt
+@PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Sul carro de la mente auriga siedi,
+	O bella donna, e prendi il freno altero
+	Onde vi regga il destrier bianco e 'l nero
+	E drizzi lor ver' le celesti sedi.
+@VERSE:
+	L'un con rigida man percoti e fiedi
+	Se ribellante trav&iuml;ar dal vero
+	Cammino, e l'altro con soave impero
+	D'ambrosia pasci, se gir dritto il vedi.
+@VERSE:
+	Vedi ch'egli ama il suon del la cervice
+	Percossa e le lusinghe, e tra s&eacute; gode,
+	Se la tua vaga man l'adorna e c&ograve;me,
+@VERSE:
+	E mentre porta al ciel del tuo bel nome
+	Il ricco incarco e di tua chiara lode,
+	Si tien pi&uacute; d'Eto e di Piroo felice.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	558
+@TITLE:		Facelle son d'immortal luce ardenti
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ar, Ber, C, I<sub>3</sub>, I<sub>4</sub>, Mi, P<sub>4</sub>, V<sub>8</sub>, W
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Facelle son d'immortal luce ardenti
+	Gli occhi che volgi in s&iacute; soavi giri,
+	E fiamma &egrave; l'aura che tu muovi e spiri
+	A formar dolci angelici concenti;
+@VERSE:
+	E foco son le lagrime cadenti
+	Che talor versi e foco i tuoi sospiri,
+	E quanti tu col dolce sguardo miri
+	E quanti rendi al dolce suono intenti.
+@VERSE:
+	Sol io, fra i vivi raggi e fra le note
+	Onde avampa ciascun, nulla mi scaldo,
+	N&eacute; trova onde nutrirsi in me l'ardore:
+@VERSE:
+	N&eacute; gi&agrave; son io gelido marmo e saldo,
+	Ma, consumato in altro incendio il core,
+	Or ch'&egrave; cenere tutto, arder non puote.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	560
+@TITLE:		Tarquinia se rimiri
+@GENRE:		madrigale
+@MANUSRC:	C, E<sub>1</sub>, F<sub>2</sub>, V<sub>8</sub>, V<sub>9</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Tarquinia, se rimiri
+	I bei celesti giri,
+	Il cielo esser vorrei;
+	Perch&eacute; ne gli occhi miei
+	Fisso tu rivolgessi
+	Le tue dolci faville,
+	Io vagheggiar potessi
+	Mille bellezze tue con luci mille.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	564
+@TITLE:		Se l'alma &egrave; prigioniera
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	10, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Se l'alma &egrave; prigioniera
+	De la vostra beltade,
+	Viva almen, donna, il corpo in libertade.
+	L'una prigione omai,
+	O l'altra si dischiuda,
+	Perch&eacute; l'una per l'altra &egrave; vie pi&ugrave; cruda.
+	Ma qual destra giamai
+	Cos&iacute; destra e leggiera
+	Aprir l'una potr&agrave;, ch'io non ne pera.
+	L'altra, non di pietade,
+	Pu&ograve; ben s&iacute; dolce aprire
+	Che l'alma brami in servit&uacute; morire.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	571
+@TITLE:		Se da s&iacute; nobil mano
+@GENRE:		madrigale
+@MANUSRC:	A<sub>3</sub>, Amz, E<sub>1</sub>, P<sub>4</sub>, V<sub>10</sub>, V<sub>13/E1</sub>, W
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67
+@@BEGIN:	VERSES
+@VERSE:
+	Se da s&iacute; nobil mano
+	Debbon venir le fascie a le mie piaghe,
+	Amor, ch&eacute; non m'impiaghe
+	Il sen con mille colpi?
+	N&eacute; fia ch'io te n'incolpi,
+	Perch&eacute; nulla ferita
+	Sarebbe al cor s&iacute; grave,
+	Come f&ocirc;ra soave
+	De la man bella cortese aita.
+	Amor, pace non chero,
+	Non cheggio usberbo o scudo,
+	Ma contra il petto ignudo,
+	S'ella medica fia, sia tu guerriero.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	592
+@TITLE:		Negli anni acerbi tua purpurea rosa
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ar, Brn, E<sub>1</sub>, F<sub>2</sub>, I<sub>4</sub>, N<sub>22</sub>, Ts<sub>1</sub>, V<sub>13/TS1</sub>, W
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 69, 85, 86, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Negli anni acerbi tua purpurea rosa
+	Sembravi tu, ch'a i rai tepidi, a l'&ocirc;ra
+	Non apre 'l sen, ma nel suo verde ancora
+	Verginella s'asconde, e vergognosa;
+@VERSE:
+	O pi&uacute; tosto parei, ch&eacute; mortal cosa
+	Non s'assomiglia &agrave; te, celeste aurora
+	Che le campagne imperla e i monti indora
+	Lucida in ciel sereno e rugiadosa.
+@VERSE:
+	Or la men verde et&agrave; nulla a te toglie;
+	N&eacute; te, bench&eacute; negletta, in manto adorno
+	Giovinetta belt&agrave; vince o pareggia.
+@VERSE:
+	Cos&iacute; pi&uacute; vago &egrave; 'l fior poi che le foglie
+	Spiega odorate, e 'l sol nel mezzo giorno
+	Via pi&uacute; che nel mattine luce e fiammeggia.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	602
+@TITLE:		Caro amoroso neo
+@GENRE:		madrigale
+@MANUSRC:	Amz, Ar, C, E<sub>1</sub>, E<sub>7</sub>, I<sub>5</sub>, M<sub>4</sub>, N<sub>13</sub>, N<sub>15</sub>, P<sub>3</sub>, P<sub>4</sub>, Pt, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	7, 8, 9, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Caro amoroso neo,
+	Che s&iacute; illustri un bel volto
+	Co 'l negro tuo fra 'l suo candore accolto,
+	Se per te stesso sei
+	Tu pur macchia e difetto,
+	Con qual arte perfetto
+	Poi rendi il colmo de le grazie in lei!
+	Forse del ciel le stelle
+	Sono macchie s&iacute; belle?
+	Or se tali ha costei
+	In sua belt&agrave; le mende,
+	Quali poi saranno i fregi ond'ella splende?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	611
+@TITLE:		La bella pargoletta
+@GENRE:		madrigale
+@MANUSRC:	A<sub>3</sub>, Amz, Ar, C, E<sub>1</sub>, H<sub>3</sub>, I<sub>5</sub>, M<sub>4</sub>, N<sub>12</sub>, N<sub>13</sub>, N<sub>15</sub>, P<sub>4</sub>, Ts<sub>1</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	La bella pargoletta,
+	Ch'ancor non sente amore,
+	N&eacute; pur noto ha per fama il suo valore,
+	Co' begli occhi saetta
+	E col soave riso,
+	N&eacute; s'accorge che l'arme ha nel bel viso.
+	Qual colpa ha nel morire
+	De la trafitta gente,
+	Se non sa di ferire?
+	O bellezza omicida ed innocente,
+	Tempo &egrave; ch'Amor ti mostri
+	Omai ne le tue piaghe i dolor nostri.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	612
+@TITLE:		Del puro lume onde i celesti giri
+@GENRE:		sonetto
+@MANUSRC:	Amz, C, I<sub>4</sub>, V<sub>2</sub>, V<sub>8</sub>
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Del puro lume, onde i celesti giri
+	Fece e 'l sole e le Stelle, il Mastro eterno
+	Form&ograve; i vostri occhi allora, ed al governo
+	Vi pose Amor perch&eacute; l'informi e giri.
+@VERSE:
+	E sol un raggio che di lor si miri
+	Lunge sgombra da noi la notte e 'l verno
+	De gli affetti mondani, e un fuoco interno
+	V'accende di leggiadri almi desiri.
+@VERSE:
+	La fiamma da lor desta a lor sembianti
+	L'anime rende e l'arde e non le sface,
+	Ma le fa pure di terrene e miste.
+@VERSE:
+	Non &egrave; tema o dolor che mai n'attriste;
+	Serena &egrave; come voi la nostra pace,
+	E son pianti di gioia i nostri pianti.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	614
+@TITLE:		Al vostro dolce azzurro
+@GENRE:		madrigale
+@MANUSRC:	Amz, Ar, Brn, C, E<sub>1</sub>, I<sub>4</sub>, M<sub>4</sub>, N<sub>13</sub>, N<sub>15</sub>, P<sub>4</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, W
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Al vostro dolce azzurro
+	Ceda, o luci serene,
+	Qual pi&uacute; bel negro Italia in pregio tiene.
+	Occhi, cielo d'Amore,
+	Sole di questo core,
+	Sono gli altri appo voi notte ed inferno.
+	Azzurro &egrave; 'l cielo eterno
+	E quel ch'&egrave; bello il bello ha sol da lui:
+	Ei bello &egrave; sol perch'assomiglia a vui.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	615
+@TITLE:		Al tuo vago pallore
+@GENRE:		madrigale
+@MANUSRC:	Amz, C, E<sub>1</sub>, F<sub>2</sub>, I<sub>4</sub>, M<sub>4</sub>, N<sub>13</sub>, N<sub>15</sub>, Ts<sub>1</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, W
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Al tuo vago pallore
+	La rosa il pregio cede
+	Che per lo scorno or pi&uacute; arrossir si vede.
+	Questo &egrave; 'l color ch'Amore
+	Di sua man tinge e segna,
+	N&eacute; vanno i suoi guerrier sott'altra insegna.
+	Che pi&uacute;? L'Alba omai sdegna
+	L'ostro e invaghisce il ciel di tue v&iuml;ole
+	E teco brama impallidirsi il sole.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	617
+@TITLE:		L'aura con l'armonia dolce e soave
+@GENRE:		sonetto
+@MANUSRC:	none
+@PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	L'aura con armonia dolce e soave
+	Fan l'auree stelle e i bei corpi celesti,
+	Mentre lenti i maggiori e i minori presti
+	Si raggiran con suono acuto e grave.
+@VERSE:
+	Cos&iacute; l'anima ci&ograve; che spera e pave
+	E s'allegra e si duol, temprar sapesti,
+	E 'l bel concerto di costumi onesti
+	N'ode chi la ragion sorda non have.
+@VERSE:
+	Ben udirlo io vorrei, ben prego Amore
+	Che 'l chiaro suon che ne' canori accenti
+	Di fuor s'ascolta, e ne lusinga i sensi,
+@VERSE:
+	Ebro s&iacute; di dolcezza e di stupore
+	Non mi renda giamai, ch'a quel non pensi
+	Ch'entro a lei piace e leva al ciel le menti.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	707
+@TITLE:		Tra Giove in cielo e 'l mio signor in terra
+@GENRE:		sonetto
+@MANUSRC:	Amz, E<sub>1</sub>, F<sub>1</sub>, Flc<sub>2</sub>, Pt, V<sub>13/E1</sub>, V<sub>13/V</sub>
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Tra Giove in cielo e 'l mio signor in terra
+	Serva indivisa e messaggiera accorta
+	L'aquila vola, e l'una e l'altra porta
+	De l'alte reggie ognor le si disserra.
+@VERSE:
+	Prende, se 'l grido &egrave; vero, ella sotterra
+	L'arme sonanti e col&agrave; su le porta,
+	E, fornitone il ciel, gi&uacute; le riporta:
+	Tuona in ciel Giove e tuona Alfonso in guerra.
+@VERSE:
+	E ton&ograve; l'avo in non lontani campi
+	Quando al signor, che riportava estinto
+	Pregio sol di cipresso, il di&egrave; di palma;
+@VERSE:
+	La vittoria successe in vece d'alma
+	E ravvivollo, e vincitor fe' 'l vinto:
+	Or ha il ciel maggior tuoni o pi&uacute; bei lampi?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	734
+@TITLE:		<span class="name">Angioletta</span> cortese
+@GENRE:		madrigale
+@MANUSRC:	I<sub>4</sub>, V<sub>10</sub>
+@PRINTSRC:	10, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	<span class="name">Angioletta</span> cortese,
+	Odi dal terzo cielo
+	Le mie calde parole e 'l vivo zelo,
+	E porta innanzi a Giove
+	Le mie preghiere nove
+	S&iacute; che da lui sien con pietade intese.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	735
+@TITLE:		Bella <span class="name">Angioletta</span> da le vaghe piume
+@GENRE:		madrigale
+@MANUSRC:	Flc<sub>2</sub>, I<sub>4</sub>
+@PRINTSRC:	10, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Bella <span class="name">Angioletta</span> da le vaghe piume,
+	Prestane al grave pondo
+	Tante, ch'io esca fuor di questo fondo,
+	O possa in qualche ramo
+	Di te cantando dire: &mdash; io amo, io amo. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	760
+@TITLE:		Quant'io sono infelice
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Quant'io sono infelice
+	Tanto voi bella sete,
+	E con gli occhi il mio duol temprar potete.
+	N&eacute; miracol n&eacute; mostro
+	Altro &egrave; di noi maggiore;
+	Io di fortuna mostro e voi d'Amore.
+	Ma, s'ad un guardo vostro
+	In me tanto pur lice,
+	Debbo sperar giammai d'esser felice?
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	770
+@TITLE:		N&eacute; di feconda conca in ricco mare
+@GENRE:		sonetto
+@MANUSRC:	E<sub>1</sub>, V<sub>1</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 32, 68, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	N&eacute; di feconda conca in ricco mare
+	Perla usc&iacute; mai s&iacute; luminosa e bella,
+	N&eacute; s&iacute; vago monil giamai fece ella
+	A l'altre unita prez&iuml;ose e care,
+@VERSE:
+	Come costei, ch'aver simil non pare
+	Di regio albergo esce in et&agrave; novella,
+	N&eacute; gemma pur fra l'altre par, ma stella
+	Che risplenda nel ciel fra le men chiare.
+@VERSE:
+	Quella, ch'innanzi l'alba in or&iuml;ente
+	L'alme amorose a sospirar invita
+	E riede poi con Imeneo la sera,
+@VERSE:
+	Somiglia appunto in giovinile schiera,
+	Prez&iuml;osa e mirabil Margherita,
+	La fronte e gli occhi candida e lucente.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	785
+@TITLE:		Portano l'altre il velo
+@GENRE:		madrigale
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Portano l'altre il velo;
+	Voi le chiome dorate
+	Forse per alterezza al sol mostrate.
+	Ma s'a sdegno prendete
+	Ogni esempio terreno,
+	Con alti esempi il ciel vi muova almeno:
+	Col vel l'Alba vedete
+	E lei che nacque in Delo,
+	E l'Iri il suo colora anco nel cielo.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	865
+@TITLE:		Deh! perch&eacute; amar chi voi con pari affetto
+@GENRE:		sonetto
+@MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 78, 87, 105, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Deh! perch&eacute; amar chi voi con pari affetto
+	Non ami e sospirar chi non sospiri,
+	E distillare in lacrime i martiri
+	Per tal che mai per voi non bagni il petto?
+@VERSE:
+	E'mpallidir per chi non cangi aspetto,
+	E volger gli occhi in cos&iacute; dolci giri
+	Ad un crudel ch'in voi non li raggiri
+	Com'a suo caro e des&iuml;ato oggetto?
+@VERSE:
+	S'amor a voglia altrui s'estingue e infiamma,
+	Spengete il vostro mal gradito e rio
+	E de' begli occhi rasciugate il duolo;
+@VERSE:
+	E geli il cor gentil per lungo oblio,
+	E, se pur dee sentir novella fiamma,
+	S'accenda s&iacute;, ma non s'accenda ei solo
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	893
+@TITLE:		Ben pu&ograve; ritrar le tue fattezze conte
+@GENRE:		sonetto
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>5</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ben pu&ograve; ritrar le tue fattezze conte
+	Lucido specchio o ver tranquillo umore,
+	Ma non quella belt&agrave; n&eacute; quell valore
+	Che suol fare a la morte oltraggi ed onte;
+@VERSE:
+	Perch&eacute; degno non &egrave; cristallo o fonte
+	D'immortal forma o di celeste onore,
+	Ma specchio sol d'angelico splendore
+	Dove il primo amator mir&ograve; la fronte.
+@VERSE:
+	L&agrave; su la tua virtute e la tua luce
+	Si vedr&agrave; fiammeggiare, e 'n s&iacute; bel viso
+	Appena un raggio ora s'adombra e scerne:
+@VERSE:
+	E mentre a gli occhi atrui vago traluce
+	Non divieni, signor, novo Narciso,
+	Anzi ti volgi a le bellezze eterne.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	896
+@TITLE:		Forse &egrave; cagion l'aurora
+@GENRE:		madrigale
+@MANUSRC:	C, I<sub>4</sub>, V<sub>8</sub>
+@PRINTSRC:	27, 49, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Forse &egrave; cagion l'aurora
+	Di questo bel concento
+	Che fan le fronde e i rami e l'acque e 'l vento?
+	O con s&iacute; dolce modo
+	Il ciel Tarquinia onora,
+	E per lei de la terra s'innamora?
+	I' odo, o parmi, i' odo
+	La voce: ella &egrave; pur dessa;
+	Ecco Tarquinia viene, Amor s'appressa!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	901
+@TITLE:		O timida lepretta
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	O timida lepretta,
+	Che mentre fuggi per salvar la vita,
+	Giungi dove la morte &egrave; pi&uacute; gradita;
+	S'innanzi a s&iacute; begli occhi,
+	L&agrave; dove io prego che 'l morir mi tocchi,
+	Il morir ti dispiace,
+	Non sai come riposo apporta e pace.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	903
+@TITLE:		O fuggitiva e timidetta fiera
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	28, 48, 54, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	O fuggitiva e timidetta fera,
+	Che sei cacciata dove in carro adorno
+	Madonna fa soggiorno,
+	Deh! non t'incresca, ch'in s&iacute; caro loco
+	Avrei la morte a gioco;
+	Perch&eacute; dov'ella caccia, oh! pur me 'l creda,
+	Esser io bramo o predatore o preda.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	929
+@TITLE:		Mesola, il Po da lati e 'l mar a fronte
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, V<sub>9</sub>
+@PRINTSRC:	174
+@@BEGIN:	VERSES
+@VERSE:
+	Mesola, il Po da' lati e 'l mar a fronte,
+	E d'intorno le mura e dentro i boschi
+	E seggi ombrosi e foschi
+	Fanno le tue bellezze altere e conte,
+	E sono opre d'Alfonso, e pi&uacute; non fece
+	Mai la natura e l'arte e far non lece;
+	Ma che la valle sembri un paradiso
+	La Donna il fa che n'ha sembianti e viso.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	930
+@TITLE:		Ha ninfe adorne e belle
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, V<sub>9</sub>
+@PRINTSRC:	174
+@@BEGIN:	VERSES
+@VERSE:
+	Ha ninfe adorne e belle
+	La casta Margherita, et essa &egrave; d&egrave;a,
+	Se virt&uacute; fa gli d&egrave;i come solea;
+	Per&ograve; boschi, palagi e prati e valli,
+	Secchi et ondosi calli
+	Le fece il grande Alfonso e cinse intorno
+	Navi, e d'erranti f&ecirc;re ampio soggiorno,
+	E giunse i porti e i lustri in cui le serra
+	Perch&eacute; sia la prigion campo di guerra,
+	E i diletti sian glorie
+	E tutte le sue prede alte vittorie.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	939
+@TITLE:		Le amare notti in ch'io m'affliggo e doglio
+@GENRE:		sonetto
+@MANUSRC:	A<sub>4</sub>
+@PRINTSRC:	27, 70, 74, 74a), 162
+@@BEGIN:	VERSES
+@VERSE:
+	Le amare notti in ch'io m'affliggo e doglio
+	Del ciel che s&iacute; crudeli a me sortille,
+	Infiammo il cor di lucide faville
+	E de l'antica mente io non mi spoglio;
+@VERSE:
+	N&eacute; in porto ancora le mie vele accoglio,
+	N&eacute; l'aura incerta che pur dianzi aprille
+	Vien che l'aria sereni e 'l mar tranquille,
+	E son quasi nocchier che rompe a scoglio.
+@VERSE:
+	Ma se non &egrave; l&agrave; suso a me prescritta
+	Sorte s&iacute; dura o se piet&agrave; sovente
+	Volge le stelle e 'l sole, in te non dorma.
+@VERSE:
+	Chiara mia luce, omai da l'or&iuml;ente
+	Tu movi, tu mi scampa, e tu mi ditta
+	I preghi e i voti, e tu m'imprimi e forma.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1021
+@TITLE:		L&agrave; dove sono i pargoletti Amori
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	27, 48, 54, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	L&agrave; dove sono i pargoletti Amori,
+	Ed altri ha teso l'arco,
+	Altri saetta al varco,
+	Altri polisce le quadrella d'oro,
+	Voi parete un di loro
+	Scherzando in verde colle o 'n riva ombrosa
+	Fra la turba vezzosa;
+	E se voi non avete auree saette,
+	Le dolci parolette
+	E i dolci sguardi son facelle e strali,
+	E i bei pensieri in voi son piume ed ali.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1022
+@TITLE:		Voi sete bella, ma fugage e presta
+@GENRE:		canzonetta
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	27, 48, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Voi s&ecirc;te bella, ma fugace e presta
+	Come cervetta suole
+	Che fugge per le selve oscure e sole
+	E cerca fiume o rio,
+	Talch&eacute; vi seguo indarno e vi desio.
+@VERSE:
+	Voi s&ecirc;te bella, ma s&iacute; dura e fredda
+	Come gelata fonte
+	In orrid'alpe o bel cristallo in monte;
+	N&eacute; vi riscalda il foco
+	De' miei sospiri, e sono acceso e roco.
+@VERSE:
+	Voi s&ecirc;te bella, ma fallace e ria
+	Come scoglio tra l'onde
+	O lento visco fra le verdi fronde,
+	O 'n mezzo l'erba il laccio,
+	Soave mio ritegno e caro impaccio.
+@VERSE:
+	Voi s&ecirc;te bella, ma sdegnosa e schiva
+	Come Dafne e Siringa
+	O s'altra ninfa in bosco &egrave; pi&uacute; solinga,
+	O come lei ch'Orfeo
+	Fugg&iacute; sotterra o sotto al mare Alfeo.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1032
+@TITLE:		Tu nascesti di furto
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>9</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	48, 54
+@@BEGIN:	VERSES
+@VERSE:
+	Tu nascesti di furto,
+	Piccioletto Grechino,
+	Ma fu certo felice il tuo destino.
+	Ch&eacute; di furto non vivi,
+	N&eacute; di rapina ancora;
+	E, se nutrito pur ne sei talora,
+	Il cibo &egrave; tuo, ma la fatica &egrave; mia.
+	E tu la fuggi e schivi
+	Nel dolce albergo ove gioir solia.
+	Lasso! bench&eacute; di furto io non sia nato,
+	Ho men benigno fato.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1048
+@TITLE:		Queste note io vi dono
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>, I<sub>4</sub>
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Queste note io vi dono
+	Marfisa, e queste carte, e questo inchiostro,
+	E questa penna, e questo spirto &egrave; vostro,
+	E l'alto nome, e 'l nume,
+	A cui sacro lo stile, il cor, gli accenti;
+	Degno, ch'&agrave; quattro venti
+	Il portin pi&uacute; felici e bianche piume.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1049
+@TITLE:		Queste note son nove, e queste Amore
+@GENRE:		madrigale
+@MANUSRC:	E<sub>2</sub>
+@PRINTSRC:	28, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Queste note son nove, e queste Amore
+	Comincia in novi modi:
+	Queste note son nodi
+	Che mi fa la mia donna intorno al core,
+	Anzi ella insieme ed io
+	Facciam soavi lacci a 'l desir mio;
+	E li stringe il piacere e la speranza,
+	Tal che di libert&agrave; nulla m'avanza.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1050
+@TITLE:		Ha gigli e rose ed ha rubini ed oro
+@GENRE:		ottava
+@MANUSRC:	E<sub>2</sub>, I<sub>4</sub>, Mi, VE<sub>3</sub>
+@PRINTSRC:	28, 50, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ha gigli e rose ed ha rubini ed oro
+	E due serene stelle e mille raggi
+	Il bel vostro purpureo e bianco viso;
+	Onde sua primavera &egrave; 'l suo tesoro,
+	E gemme i vaghi fiori, e lieti maggi
+	Lucide fiamme son di paradiso;
+	Ma 'l pi&uacute; bel pregio &egrave; la virt&uacute; de l'alma,
+	Ch'&egrave; di se stessa a voi corona e palma.
+@VERSE:
+	La natura v'arm&ograve;, bella guerriera,
+	E strali sono i guardi e nodi i crini,
+	E le due chiare luci ambe facelle;
+	E 'n vostro campo &egrave; ne la prima schiera
+	L'onor, la gloria, e stanno a lor vicini
+	Gli alti costumi e le virtuti anch'elle;
+	Ed un diaspro intorno il cor v'ha cinto,
+	E voi sete la duce, Amore il vinto.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1082
+@TITLE:		Deh ferma, ferma il tuo ribello, Amore
+@GENRE:		madrigale
+@MANUSRC:	none
+@PRINTSRC:	78
+@@BEGIN:	VERSES
+@VERSE:
+	&mdash; Deh ferma, ferma il tuo ribello, Amore,
+	Che fugge dal tuo regno
+	Ed ha seco il mio core:
+	Fa' che mi renda il mio fidato pegno,
+	Ma non tardar, ch'io moro! Ei s'allontana:
+	Vola veloce, affretta
+	Prima ch'ei giunga in parte pi&uacute; lontana:
+	Ch&eacute; se non fai di me, signor, vendetta,
+	Ecco di te si gloria
+	Con la sua crudeltade aver vittoria. &mdash;
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1177
+@TITLE:		Che soave rapina
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	27, 48, 54, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Che soave rapina
+	Fu quella del mio core
+	A l'armon&iacute;a divina,
+	Mentre sciogliea s&iacute; vaghi spirti Amore!
+	Onde fra me dicea da me diviso:
+	Se questo &egrave; il paradiso,
+	Pi&uacute; dolci che ne l'acque e fra l'arene
+	In ciel son le sirene!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1203
+@TITLE:		Qual cavalier ardito
+@GENRE:		madrigale
+@MANUSRC:	I<sub>4</sub>
+@PRINTSRC:	27, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Qual cavaliero ardito
+	A le famose prove
+	Il sonoro metallo accende e move,
+	Tal zanzaretta fiera
+	Zufola intorno e vola,
+	E vi percuote poi la bianca gola.
+	Oh mirabil guerriera!
+	In cui natura giunge
+	La tromba a l'arme, ond'ella suona e punge.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1024
+@TITLE:		Questa lieve zanzara
+@GENRE:		madrigale
+@MANUSRC:	I<sub>4</sub>
+@PRINTSRC:	27, 49, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Questa lieve zanzara
+	Quanto ha sorte migliore
+	De la farfalla che s'infiamma e more!
+	L'una di chiaro foco,
+	Di gentil sangue &egrave; vaga
+	L'altra, che vive di s&iacute; bella piaga.
+	Oh fortunato loco
+	Tra 'l mento e 'l casto petto!
+	Altrove non fu mai maggior diletto.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1205
+@TITLE:		Tu moristi in quel seno
+@GENRE:		madrigale
+@MANUSRC:	M<sub>7</sub>
+@PRINTSRC:	27, 49, 70, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Tu moristi in quel seno,
+	Piccioletta zanzara,
+	Dov'&egrave; s&iacute; gran fortuna il venir meno.
+	Quando fin pi&uacute; beato
+	O ver tomba pi&uacute; cara
+	Fu mai concessa da benigno fato?
+	Felice te, felice
+	Pi&uacute; che nel rogo or&iuml;ental fenice!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1245
+@TITLE:		Passa la nave tua che porta il core
+@GENRE:		sonetto
+@MANUSRC:	Ber, E<sub>1</sub>, F<sub>2</sub>, Mi, V<sub>13/E1</sub>
+@PRINTSRC:	27, 48, 70, 85, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Passa la nave tua che porta il core
+	Sotto un sereno ciel di stelle adorno
+	Per queto mare, e sta la notte e 'l giorno,
+	Spiando i venti, al suo governo Amore.
+@VERSE:
+	A ciascun remo un bel des&iacute;o d'onore
+	Non teme di fortuna oltraggio e scorno,
+	Empie la vela e rasserena intorno
+	Aura di gioia e tempra il dolce ardore.
+@VERSE:
+	Nebbia non lenta mai di feri sdegni
+	Le sarte, che di fede e di speranza
+	Ha di sua mano il tuo signore attorto:
+@VERSE:
+	E scopri i duo lucenti amici segni,
+	E vive la ragione e l'arte avanza
+	Tal che gi&agrave; prendi il des&iuml;ato porto.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1263
+@TITLE:		Ci&ograve; che morte rallenta, Amor ristringi
+@GENRE:		canzone
+@MANUSRC:	E<sub>2</sub>, I<sub>4</sub>, V<sub>1</sub>
+@PRINTSRC:	28, 43, 50, 84, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Ci&ograve; che Morte rallenta, Amor, ristringi,
+	Amico tu di pace, ella di guerra,
+	E del suo tr&iuml;onfar trionfi e regni:
+	E mentre due bell'alme annodi e cingi,
+	Cos&iacute; rendi sembiante al ciel la terra
+	Che d'abitarla tu non fuggi o sdegni.
+	Non sono ire l&agrave; s&uacute;: gli umani ingegni
+	Tu placidi ne rendi e l'odio interno
+	Sgombri, signor, da' mansueti cori;
+	Sgombri mille furori,
+	E quasi fai col tuo valor superno
+	de le cose mortali un giro eterno.
+@VERSE:
+	E 'n questa parte, ov'&egrave; s&iacute; bello il mondo
+	E s&iacute; conforme al ciel, perch&eacute; riluce
+	Tutto de' suoi celesti e chiari lumi,
+	Del suo primo splendor splendor secondo,
+	E di sua luce accendi un'altra luce
+	Da l'Arno ritornando al re de' fiumi,
+	Tornano i graziosi alti costumi
+	Che morte estinse e quel valor rinverde:
+	Fiorisce la belt&agrave; di riva in riva,
+	La gloria si ravviva,
+	La grazia si rinnova e nulla perde,
+	Ch&eacute; s'alcun ramo &egrave; secco, il tronco &egrave; verde.
+@VERSE:
+	Anzi i duo tronchi e le due stirpi eccelse,
+	Medici et Este ond'ha l'Esperia antica
+	Gran vanto, e quasi tocca in ciel le stelle.
+	E ne le fronde la virt&uacute; si scelse
+	Felice nido, e sotto l'ombra amica
+	Coperse queste sponde insieme e quelle:
+	E quinci incontra a' nembi, a le procelle
+	D'Adria l'una s'innalza e i venti sprezza;
+	E quindi l'altra &egrave; sovra il mar Tirreno,
+	E 'ngombra il largo seno
+	D'odor, d'ombre, di fiori e di vaghezza:
+	N&eacute; vidi in altra ancor maggiore altezza.
+@VERSE:
+	Qual vergine v&iuml;ola o bel giacinto
+	Lega un sol filo ed una mano istessa
+	Due piante inocchia in pi&uacute; mirabil modo,
+	Tal Cesare a Virginia or sembri avvinto,
+	Ch'a Cesare Virginia &egrave; gi&agrave; promessa.
+	E l'arte e la coltura insieme io lodo:
+	Gemma par l'uno e l'altra ed occhio e nodo:
+	Nodo di pura f&eacute; saldo e tenace,
+	Occhio d'Amore e preziosa gemma
+	D'onor ch'Italia ingemma:
+	Ond'ella splende e mira e stringe in pace
+	Due germi illustri e pi&uacute; s'onora e piace.
+@VERSE:
+	Per questi spera ancor di novo ornarsi
+	D'Ippoliti e d'Alfonsi, e 'n lido o 'n monte
+	Alzar novo trofeo di spoglie e d'armi;
+	E pi&uacute; lieta che prima e bella farsi,
+	E d'altre torri incoronar la fronte
+	Segnata di fin oro i bianchi marmi.
+	Dolci rime fra tanto e vaghi carmi
+	L'orrido verno ascolti, e si rallegri
+	A i vari balli e rassereni il cielo
+	E intepidisca il gelo,
+	E nulla turbi in terra i giorni allegri,
+	N&eacute; de le feste notti i corsi integri.
+@VERSE:
+	Canzon, vedrai pompe notturne e giochi,
+	Lampi in teatri e fochi,
+	E citt&agrave; finte in vere e 'n false larve,
+	Belt&agrave; verace in cui s&iacute; rado apparve.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1276
+@TITLE:		Tu, bianca e vaga Luna
+@GENRE:		ballata
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, P<sub>3</sub>, P<sub>4</sub>, V<sub>13/E1</sub>
+@PRINTSRC:	27, 48, 70, 87, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	Tu, bianca e vaga Luna,
+	C'hai tanti specchi quanti sono i mari,
+	Mira questo candor ch'&egrave; senza pari.
+@VERSE:
+	A lei mena i tuoi balli, a lei distilla
+	Le tue dolci rugiade;
+	Specchiati in lei con amoroso affetto.
+	E tu, Venere, allor con lei scintilla
+	Che 'l sole inchina e cade;
+	Tu, Giove e Marte, con benigno aspetto,
+	Lumi sereni e chiari,
+	Non siate a lei de' vostri doni avari.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1497
+@TITLE:		Ferro in ferir pietoso
+@GENRE:		madrigale
+@MANUSRC:	V<sub>5</sub>
+@PRINTSRC:
+@@BEGIN:	VERSES
+@VERSE:
+	Ferro in ferir pietoso
+	D'ambi gli amanti il core,
+	Ferro, ch'in ferir fosti emul d'Amore:
+	Concorso glor&iuml;oso,
+	Ch&eacute; concordi ed unite
+	Tu le morti tenesti, egli le vite;
+	Anzi tue fur le palme,
+	Ch'Amore i corpi un&iacute;, tu unisti l'alme.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1637
+@TITLE:		Anime sante e belle
+@GENRE:		madrigale
+@MANUSRC:	Rv
+@PRINTSRC:
+@@BEGIN:	VERSES
+@VERSE:
+	Anime sante e belle,
+	Che da gli affanni umani e da' martiri
+	Volaste a' pi&uacute; sublimi ed alti giri,
+	Gradite i nostri preghi
+	Su l'ale de la fede e de la speme;
+	E pur co' vostri insieme
+	La giustizia superna
+	Omai fuor di suo corso a noi si spieghi,
+	Peccatori, e no 'l celo,
+	Voi colonne del cielo,
+	Anzi i cieli voi sete,
+	Alme felici e liete,
+	Che narrate di Dio la gloria eterna.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1653
+@TITLE:		Dove rivolgi o lusinghier fallace
+@GENRE:		canzonetta
+@MANUSRC:	Rv, VE<sub>3</sub>
+@PRINTSRC:
+@@BEGIN:	VERSES
+@VERSE:
+	Dove rivolgi, o lusinghier fallace,
+	Gli occhi bramosi e vaghi?
+	Dove o come t'appaghi
+	Di quel che picciol tempo alletta e piace?
+@VERSE:
+	Il Re che fece il sole e l'auree stelle,
+	Fisse in celeste giro,
+	Mi diletta ov'io miro
+	Opere di sua mano assai pi&uacute; belle.
+@VERSE:
+	O crudo inganno, o fero ardore, o gelo,
+	De gl'infelici amanti,
+	Deh! miriamo i sembianti
+	Imaginati in terra e vivi in cielo.
+@VERSE:
+	Mentre in Croce il contemplo, il veggio esangue:
+	Ahi lagrime! ahi dolore!
+	Oggi languisce e more
+	La salute e la vita: ahi piaghe! ahi sangue!
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	1688
+@TITLE:		Padre del cielo, or ch'atra nube il calle
+@GENRE:		sonetto
+@MANUSRC:	Amz, Ber, Brn, J<sub>2</sub>, J<sub>4</sub>, Rv, Ts<sub>1</sub>, V<sub>13/TS1</sub>
+@PRINTSRC:
+@@BEGIN:	VERSES
+@VERSE:
+	Padre del cielo, or ch'atra nube il calle
+	Destro m'asconde, e vie fallaci io stampo
+	Per questo paludoso instabil campo
+	De la terrena, lagrimosa valle,
+@VERSE:
+	Reggi i miei torti passi, ond'io non falle,
+	E di tua santa grazia il dolce lampo
+	In me risplenda; e di sicuro scampo
+	Mostra il sentiero a cui voltai le spalle.
+@VERSE:
+	Deh! Pria che 'l verno queste chiome asperga
+	Di bianca neve, o di s&iacute; breve giorno
+	Copran tenebre eterne il debil lume,
+@VERSE:
+	Dammi ch'io faccia al tuo cammin ritorno,
+	Quasi vestito di celesti piume,
+	Signore, e tu mi pasci e tu m'alberga.
+@@END:		VERSES
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	NSM1
+@TITLE:		Occhi leggiadri e belli,/ Or che volete pi&uacute; dal petto mio?
+@GENRE:		canzonetta
+@MANUSRC:	Flc<sub>2</sub>
+@PRINTSRC:	none
+@@BEGIN:	VERSES
+@VERSE:
+	Occhi leggiadri e belli,
+	Or che volete pi&uacute; dal petto mio?
+	Il core &egrave; vostro, e vostro il mio desio.
+@VERSE:
+	Voi di fiammelle e strali
+	A mio danno v'armate a tutte l'ore
+	E pur sapete ben ch'io non ho core.
+@VERSE:
+	Il cor da voi fu preso
+	Quel d&iacute; ch'io vi mirai, e vive in pene,
+	E voi gli ordite ancor nove catene.
+@VERSE:
+	Ma se pur vivo, ahi lasso,
+	Vivo del vostro lume e del mio pianto,
+	E di tal vita ognor mi glorio e vanto.
+@@END:		VERSES
+@@END:		RIME
+

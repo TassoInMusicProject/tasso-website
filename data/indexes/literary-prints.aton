@@ -1,0 +1,519 @@
+@@
+@@ Literary prints index.  
+@@
+@@ Created 12 Dec 2012 by Emiliano Ricciardi
+@@ Last Edited 23 Mar 2016
+@@
+@@ Description: This database lists print sources for poetry of
+@@ Torquato Tasso.  Each print is assigned a number by Solerti
+@@ (SPRINTNUM).
+@@
+@@ PRINT data fields:
+@@   SPRINTNUM:    Solerti print number
+@@   PRINTTITLE:   Title of print source
+@@   PUBLISHER:    Publisher of print source
+@@   PUBLOCATION:  Publication place of print source
+@@   PUBYEAR:      Date print source was published
+@@
+@@ special codes:
+@@   double hash-tag is a marker for a SM-siglum reference in the descriptions.
+@@
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	3
+@PRINTTITLE:	<i>De le rime di diversi nobili poeti toscani, raccolte da M. Dionigi Atanagi. Libro Primo</i>
+@PUBLISHER:	Lodovico Avanzo
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1565
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	4
+@PRINTTITLE:	<i>Rime de gli Academici Eterei</i>
+@PUBLISHER:	Gli Eterei
+@PUBLOCATION:	Padova
+@PUBYEAR:	1567
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	7
+@PRINTTITLE:	<i>Scelta di rime di diversi eccellenti poeti, di nuouo raccolte, e date in luce</i>
+@PUBLISHER:	unknown
+@PUBLOCATION:	Genova
+@PUBYEAR:	1579
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	8
+@PRINTTITLE:	<i>Rime del Signor Torquato Tasso. Parte prima. Insieme con altri componimenti del medesimo</i>
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Vinegia
+@PUBYEAR:	1581
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	9
+@PRINTTITLE:	<i>Rime del Signor Torquato Tasso. Parte prima. Insieme con altri componimenti del medesimo</i>
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Vinegia
+@PUBYEAR:	1582
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	10
+@PRINTTITLE:	<i>Rime del Signor Torquato Tasso. Parte seconda. Insieme con altri componimenti del medesimo</i>
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Vinegia
+@PUBYEAR:	1582
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	11
+@PRINTTITLE:	<i>Scielta delle rime del Sig. Torquato Tasso. Parte prima [e seconda]</i>
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1582
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	12
+@PRINTTITLE:	<i>Scielta delle rime del Sig. Torquato Tasso. Prima e seconda parte</i>
+@PUBLISHER:	Domenico Mammarelli, e Giulio Cesare Cagnacini Compagni
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1582
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	13
+@PRINTTITLE:	<i>Scielta delle rime del Sig. Torquato Tasso. Prima, e seconda parte</i>
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantova
+@PUBYEAR:	1582
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	14
+@PRINTTITLE:	<i>Raccolta d'alcune piacevoli rime</i>
+@PUBLISHER:	Heredi di Seth Viotto
+@PUBLOCATION:	Parma
+@PUBYEAR:	1582
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	15
+@PRINTTITLE:	<i>Delle rime, et prose del S. Torquato tasso, di nuovo con diligenza rivedute, corrette, et di vaghe figure adornate, parte prima</i>
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Vinetia
+@PUBYEAR:	1583
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	16
+@PRINTTITLE:	<i>Delle rime, et prose del S. Torquato Tasso, di nuovo con diligenza rivedute, corrette, et di vaghe figure adornate, parte seconda</i>
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Vinetia
+@PUBYEAR:	1584
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	20
+@PRINTTITLE:	<i>Rime, et prose del S. Torquato Tasso. Parte prima. Di nuovo reviste, et corrette, con aggiunta di quanto manca nell'altre edizioni</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1583
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	22
+@PRINTTITLE:	<i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1583
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	22a)
+@PRINTTITLE:	<i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1584
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	23
+@PRINTTITLE:	<i>Aggiunta alle rime, et prose del Sig. Torquato Tasso</i>
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	24
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte prima. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	25
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	25a)
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Giulio Vasalini in Cortile di Sua Altezza
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	26
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte terza. Di nuovo ristampate, con diligenza rivedute, e corrette. Con un'aggiunta del medesimo  auttore</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	27
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte quarta. Di nuovo posta in luce, con gli argomenti dell'istesso auttore</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1586
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	28
+@PRINTTITLE:	<i> Gioie di rime, e prose del Sig. Torquato Tasso, nuovamente poste in luce. Per ordine dell'altre sue opere. Quinta, e sesta parte</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	29
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte prima. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Simon Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	30
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Simon Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	31
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte terza. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Simone Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	32
+@PRINTTITLE:	<i>Aggiunta alle rime, et prose del Sig. Torquato Tasso. Di nuovo ristampate, con diligenza rivedute e corrette</i>
+@PUBLISHER:	Simon Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	33
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte prima. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Giulio Cesare Cagnacini et Fratelli
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	34
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Giulio Cesare Cagnacini et Fratelli
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	35
+@PRINTTITLE:	<i>Delle rime et prose del Sig. Torquato Tasso. Parte terza. Di nuovo ristampate, con diligenza rivedute, e corrette</i>
+@PUBLISHER:	Giulio Cesare Cagnacini et Fratelli
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	36
+@PRINTTITLE:	<i>Aggiunta alle rime, et prose del Sig. Torquato Tasso. Di nuovo ristampate, con diligenza rivedute e corrette</i>
+@PUBLISHER:	Giulio Cesare Cagnacini et Fratelli
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	37
+@PRINTTITLE:	<i>Aggiunta alle rime, et prose del Sig. Torquato Tasso. Di nuovo corrette et emendate</i>
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantova
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	38
+@PRINTTITLE:	<i>Rime dell'illustrissimo Sig. Curtio Gonzaga</i>
+@PUBLISHER:	Vicenza
+@PUBLOCATION:	Stamperia Nuova
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	40
+@PRINTTITLE:	<i>Le piacevoli rime di M. Cesare Caporali Perugino. Di nuovo in questa terza impressione accresciute d'altre gravi, per l'adietro non pi&ugrave; date in luce</i>
+@PUBLISHER:	Pietro Tini
+@PUBLOCATION:	Milano
+@PUBYEAR:	1585
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	43
+@PRINTTITLE:	<i>Rime del Sig. Torquato Tasso, e d'altri auttori. Nelle felicissime nozze de gl'illustrissimi et eccellentissimi signori il Sig. D. Cesare D'Este, et la Sig. Donna Virginia Medici</i>
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1586
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	48
+@PRINTTITLE:	<i>Delle Rime del Sig. Torquato Tasso. Parte quarta, e quinta. Nuovamente stampate</i>
+@PUBLISHER:	Antonio Orero
+@PUBLOCATION:	Genova
+@PUBYEAR:	1586
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	49
+@PRINTTITLE:	<i>Delle Rime, et prose del Sig. Torquato Tasso. Nuovamente poste in luce. Parte quarta. </i>
+@PUBLISHER:	Pietro Tini
+@PUBLOCATION:	Milano
+@PUBYEAR:	1586
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	50
+@PRINTTITLE:	<i>Rime piacevoli di Cesare Caporali, del Mavro, et d'altri auttori. Accresciute in questa quarta impressione di molte rime gravi, et burlesche del Sig. Torquato Tasso, e di diversi nobilissimi ingegni</i>
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1586
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	54
+@PRINTTITLE:	<i>Il rimanente delle rime nuove del Sig. Torquato Tasso</i>
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	60
+@PRINTTITLE:	<i>Rime di diversi celebri poeti dell'et&agrave; nostra. Nuovamente raccolte, e poste in luce</i>
+@PUBLISHER:	Comino Ventura
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1587
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	64
+@PRINTTITLE:	<i>Delle lettere familiari del Sig. Torquato Tasso, nuovamente raccolte, e date in luce, libro primo [e secondo]</i>
+@PUBLISHER:	Comino Ventura
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1587
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	67
+@PRINTTITLE:	<i>Rime, et prose del Sig. Torquato Tasso. Parte prima. Accresciute, et corrette, con diligenza in questa nuova impressione</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	68
+@PRINTTITLE:	<i>Rime, et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, et corrette</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	69
+@PRINTTITLE:	<i>Rime, et prose del Sig. Torquato Tasso. Parte terza. Ristampate, rivedute, et corrette. Con aggiunta d'altre rime del medesimo auttore</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	70
+@PRINTTITLE:	<i>Rime, et prose del Sig. Torquato Tasso. Parte quarta. Ristampate, et corrette. Et aggiuntovi i Discorsi dell'arte poetica</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	71
+@PRINTTITLE:	<i>Rime nove del Sig. Torquato Tasso, composte nell'alma citt&agrave; di Roma. Con altre compositioni del medesimo ultimamente poste in luce</i>
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	74
+@PRINTTITLE:	<i>Parte prima [e seconda] delle rime del Sig. Don Angelo Grillo. Nuovamente date in luce</i>
+@PUBLISHER:	Comino Ventura
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1589
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	74a)
+@PRINTTITLE:	<i>Nuova scielta delle rime morali del R. Signor Don Angelo Grillo. Con gli argomenti dell'eccellentissimo Sig. Giulio Guastavino</i>
+@PUBLISHER:	Comino Ventura 
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1592
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	78
+@PRINTTITLE:	<i>Della nova scelta di rime di diversi eccellenti scrittori de l'et&agrave; nostra, novamente raccolte, et mandate in luce per Benedetto Varoli</i>
+@PUBLISHER:	Antonio Guerino, e Compagno
+@PUBLOCATION:	Casalmaggiore
+@PUBYEAR:	1590
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	84
+@PRINTTITLE:	<i>Scelta di rime di diversi moderni autori non pi&ugrave; stampate. Parte prima</i>
+@PUBLISHER:	Heredi di Gieronimo Bartoli
+@PUBLOCATION:	Genova
+@PUBYEAR:	1591
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	85
+@PRINTTITLE:	<i> Delle rime del Sig. Torquato Tasso. Parte prima. Di nuovo dal medesimo in questa nuova impressione ordinate, corrette, accresciute, et date in luce. Con l'esposizione dello stesso autore</i>
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantova
+@PUBYEAR:	1591
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	86
+@PRINTTITLE:	<i>Prima parte della nuova scielta di rime del Sig. Torquato Tasso</i>
+@PUBLISHER:	Comino Ventura
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1592
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	87
+@PRINTTITLE:	<i> Delle rime del Sig. Torquato Tasso. Parte prima. Di novo dal medesimo in questa nuova impressione ordinate, corrette, accresciute, et date in luce. Con l'esposizione dello stesso autore</i>
+@PUBLISHER:	Pietro Maria Marchetti
+@PUBLOCATION:	Brescia
+@PUBYEAR:	1592
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	93
+@PRINTTITLE:	<i> Gioie poetiche di madrigali del Sig. Hieronimo Casone, e d'altri poeti de' nostri tempi, dal Signor Gherardo Borgogni di nuovo raccolte e poste in luce</i>
+@PUBLISHER:	Heredi del Bartoli
+@PUBLOCATION:	Pavia
+@PUBYEAR:	1593
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	105
+@PRINTTITLE:	<i>Le Muse Toscane di diversi nobilissimi ingegni. Dal Signor Gherardo Borgogni di nuovo poste in luce </i>
+@PUBLISHER:	Comin Ventura
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1594
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	121
+@PRINTTITLE:	<i>Rime del molto illustre Signor Cavaliere Battista Guarini</i>
+@PUBLISHER:	Giovanni Battista Ciotti
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1598
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	141
+@PRINTTITLE:	<i>Rime del Signor Torquato Tasso, divise in sei parti</i>
+@PUBLISHER:	Giovanni Battista Pulciani
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1608
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	159<sup>bis</sup>
+@PRINTTITLE:	<i>Rose d'amore, raccolte da G.F. Moise</i>
+@PUBLISHER:	unknown
+@PUBLOCATION:	Vicenza
+@PUBYEAR:	1615
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	162
+@PRINTTITLE:	<i>Lettere del Signor Torquato Tasso non pi&ugrave; stampate</i>
+@PUBLISHER:	Bartolomeo Cochi
+@PUBLOCATION:	Bologna
+@PUBYEAR:	1616
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	166
+@PRINTTITLE:	<i>Rime del Signor Torquato Tasso, divise in sei parti</i>
+@PUBLISHER:	Giovanni Battista Bidelli
+@PUBLOCATION:	Milano
+@PUBYEAR:	1619
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	169
+@PRINTTITLE:	<i>Rime del Signor Torquato Tasso, divise in amorose, boscherezze, maritime, imenei, heroiche, morali, lugubri, sacre e varie. Con gli argomenti ad ogni compositione. Fatica del Sig. Carlo Fiamma. Aggiuntovi la vita, et sentenze dell'auttore scritta dell'illustrissimo Sig. Gio. Battista Manso</i>
+@PUBLISHER:	Evangelista Deuchino
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1621
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	170
+@PRINTTITLE:	<i> Alcuni sonetti del Signor Torquato Tasso et alcuni del Sig. Gabriello Chiabrera composti sopra le medesime materie</i>
+@PUBLISHER:	Fratelli Cavalleris
+@PUBLOCATION:	Torino
+@PUBYEAR:	1623
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	174
+@PRINTTITLE:	<i>Delle opere non pi&ugrave; stampate del Signor Torquato Tasso. Raccolte, e pubblicate da Marc'Antonio Foppa. Volume terzo. Nel qual si contengono varie sue poesie</i>
+@PUBLISHER:	Giacomo Dragondelli
+@PUBLOCATION:	Roma
+@PUBYEAR:	1666
+@@END:		PRINT
+
+
+

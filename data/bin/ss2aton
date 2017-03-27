@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $headerline = <>;
+chomp $headerline;
+
+my @headings = split(/\t/, $headerline);
+
+while (my $line = <>) {
+	chomp $line;
+	my @data = split(/\t/, $line);
+#	if ($#data != $#headings) {
+#		print "ERROR $#data versus $#headings\n";
+#		next;
+#	}
+	print "\@\@START: row\n";
+	for (my $i=0; $i<@headings; $i++) {
+		print "\@$headings[$i]:\t$data[$i]\n";
+	}
+	print "\@\@END: row\n\n";
+}
+
+

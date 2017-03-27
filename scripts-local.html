@@ -1,0 +1,805 @@
+<script src="/scripts/scripts-common.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script src="/scripts/external/aton/aton.js"></script>
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Thu Mar 24 21:40:22 PDT 2016
+// Last Modified: Sun Mar 26 23:35:44 PDT 2017
+// Filename:      tasso/scripts-local.html
+// Web Address:   http://www.tassomusic.org/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
+//
+// Description:   JavaScript management for the Tasso homepage.
+//
+
+
+var RWORKLIST = {};
+var RIMELIST;
+
+//////////////////////////////
+//
+// Function called when document has finished loading:
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	displayRimeList("#contents");
+});
+
+
+
+//////////////////////////////
+//
+// process Window keys down:
+//
+
+window.addEventListener('keydown', function(event) {
+	if (event.metaKey) {
+		return;
+	}
+
+	switch (event.keyCode) {
+
+		case GKey:
+			if (event.altKey) {
+				sortByGenre(1);
+				event.preventDefault();
+			}
+			break;
+
+		case SKey:
+			if (event.altKey) {
+				sortByNumber(0);
+				event.preventDefault();
+			}
+			break;
+
+		case TKey:
+			if (event.altKey) {
+				sortByText(1);
+				event.preventDefault();
+			}
+			break;
+
+	}
+
+});
+
+
+
+//////////////////////////////
+//
+// displayRimeList -- Show the Rime list within the given 
+//     target element.
+//
+
+function displayRimeList(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Rime list on page.");
+		return;
+	}
+
+	var counter = 0;
+
+	if (sessionStorage.RIMELIST) {
+		RIMELIST = JSON.parse(sessionStorage.RIMELIST);
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/rime-verses.aton");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			RIMELIST = aton.parse(this.responseText);
+      	sessionStorage.RIMELIST = JSON.stringify(RIMELIST);
+			counter++;
+			if (counter == 2) {
+				continueProcessingRime(element, counter);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+	   buildReverseWorklist();
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/worklist.json");
+		request.addEventListener("load", function() {
+			WORKLIST = JSON.parse(this.responseText);
+	      buildReverseWorklist();
+			sessionStorage.WORKLIST = this.responseText;
+			counter++;
+			if (counter == 2) {
+				continueProcessingRime(element, counter);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == 2) {
+		continueProcessingRime(element, counter);
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayAmintaList -- Show the Aminta list within the given 
+//     target element.
+//
+
+function displayAmintaList(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Aminta list on page.");
+		return;
+	}
+
+	var counter = 0;
+
+   if (sessionStorage.AMINTALIST) {
+		AMINTALIST = JSON.parse(sessionStorage.AMINTALIST);
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/aminta-settings.aton");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			AMINTALIST = aton.parse(this.responseText).AMINTA;
+      	sessionStorage.AMINTALIST = JSON.stringify(AMINTALIST);
+			continueProcessingAminta(element, counter);
+		});
+		request.send();
+	}
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+	   buildReverseWorklist();
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/worklist.json");
+		request.addEventListener("load", function() {
+			WORKLIST = JSON.parse(this.responseText);
+	      buildReverseWorklist();
+			sessionStorage.WORKLIST = this.responseText;
+			counter++;
+			if (counter == 2) {
+				continueProcessingRime(element, counter);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == 2) {
+		continueProcessingAminta(element, counter);
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayOtherList -- Show the Other list within the given 
+//     target element.
+//
+
+function displayOtherList(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Other list on page.");
+		return;
+	}
+
+	var counter = 0;
+
+   if (sessionStorage.OTHERLIST) {
+		OTHERLIST = JSON.parse(sessionStorage.OTHERLIST);
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/include/other.json");
+		request.addEventListener("load", function() {
+			OTHERLIST = JSON.parse(this.responseText);
+      	sessionStorage.OTHERLIST = this.responseText;
+			counter++;
+			if (counter == 2) {
+				continueProcessingOther(element, counter);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+	   buildReverseWorklist();
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/worklist.json");
+		request.addEventListener("load", function() {
+			WORKLIST = JSON.parse(this.responseText);
+	      buildReverseWorklist();
+			sessionStorage.WORKLIST = this.responseText;
+			counter++;
+			if (counter == 2) {
+				continueProcessingRime(element, counter);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == 2) {
+		continueProcessingOther(element, counter);
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayGLList -- Show the Gerusalemme Liberata list within the given 
+//     target element.
+//
+
+function displayGLList(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Gerusalemme list on page.");
+		return;
+	}
+
+	var counter = 0;
+
+   if (sessionStorage.GLLIST) {
+		GLLIST = JSON.parse(sessionStorage.GLLIST).GERUSALEMME;
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/gerusalemme-settings.aton");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			GLLIST = aton.parse(this.responseText);
+      	sessionStorage.GLLIST = JSON.stringify(GLLIST);
+			continueProcessingGL(element, counter);
+		});
+		request.send();
+	}
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+	   buildReverseWorklist();
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/worklist.json");
+		request.addEventListener("load", function() {
+			WORKLIST = JSON.parse(this.responseText);
+	      buildReverseWorklist();
+			sessionStorage.WORKLIST = this.responseText;
+			counter++;
+			if (counter == 2) {
+				continueProcessingGL(element, counter);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == 2) {
+		continueProcessingGL(element, counter);
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showTab --
+//
+
+function showTab(hiid) {
+	var rime   = document.querySelector("#rime-heading");
+	var gl     = document.querySelector("#gl-heading");
+	var aminta = document.querySelector("#aminta-heading");
+	var other  = document.querySelector("#other-heading");
+
+	rime.className   = hiid == "rime-heading"   ? "active" : "";
+	gl.className     = hiid == "gl-heading"     ? "active" : "";
+	aminta.className = hiid == "aminta-heading" ? "active" : "";
+	other.className  = hiid == "other-heading"  ? "active" : "";
+}
+
+
+
+//////////////////////////////
+//
+// continueProcessingRime --
+//
+
+function continueProcessingRime(element, counter) {
+	var tsource = document.querySelector("#rime-template")
+	                      .textContent;
+	var rimeTemplate = Handlebars.compile(tsource);
+	element.innerHTML = rimeTemplate(RIMELIST);
+	showTab("rime-heading");
+}
+
+
+
+//////////////////////////////
+//
+// continueProcessingGL --
+//
+
+function continueProcessingGL(element, counter) {
+	var tsource = document.querySelector("#gerusalemme-template")
+	                      .textContent;
+	var gerusalemmeTemplate = Handlebars.compile(tsource);
+	var cantolist = makeCantoList(GLLIST);
+	element.innerHTML = gerusalemmeTemplate(cantolist);
+	showTab("gl-heading");
+}
+
+
+
+//////////////////////////////
+//
+// makeCantoList --
+//
+
+function makeCantoList(gllist) {
+	var output = {};
+	var data = output;
+   for (var i=0; i<gllist.length; i++) {
+		var key = gllist[i].Catalog.replace(/[a-z]$/, "");
+		var title = gllist[i].Title;
+		var canto = gllist[i].Canto;
+		var ottava = gllist[i].Ottava;
+		data[key] = {};
+		data[key].gtitle = title;
+		data[key].canto = canto;
+		data[key].ottava = ottava;
+   }
+	// Should already be sorted, but maybe sort here by Canto/Ottava
+	// as stored in catalog number.
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// makeAmintaVerseList --
+//
+
+function makeAmintaVerseList(amlist) {
+	var output = {};
+	var data = output;
+   for (var i=0; i<amlist.length; i++) {
+		var key = amlist[i].Catalog.replace(/[a-z]$/, "");
+		var title = amlist[i].Title;
+		data[key] = {};
+		data[key].atitle = title;
+		data[key].act = amlist[i].Act;
+		data[key].scene = amlist[i].Scene;
+		data[key].verse = amlist[i].Verse;
+   }
+	// Should already be sorted, but maybe sort here by verse number.
+	// as stored in catalog number.
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// continueProcessingAminta --
+//
+
+function continueProcessingAminta(element, counter) {
+	var tsource = document.querySelector("#aminta-template")
+	                      .textContent;
+	var amintaTemplate = Handlebars.compile(tsource);
+	var amintalist = makeAmintaVerseList(AMINTALIST);
+	element.innerHTML = amintaTemplate(amintalist);
+	showTab("aminta-heading");
+}
+
+
+
+//////////////////////////////
+//
+// continueProcessingOther --
+//
+
+function continueProcessingOther(element, counter) {
+	var tsource = document.querySelector("#rime-template")
+	                      .textContent;
+	var rimeTemplate = Handlebars.compile(tsource);
+	element.innerHTML = rimeTemplate(RIMELIST);
+	showTab("other-heading");
+}
+
+
+
+//////////////////////////////
+//
+// buildReveseWorklist --
+//
+
+function buildReverseWorklist() {
+	RWORKLIST = {};
+	var wl = WORKLIST[0].works;
+	var rime;
+	for (var i in wl) {
+		if (!RWORKLIST[wl[i].id]) {
+		   RWORKLIST[wl[i].id] = 0;
+		}
+		RWORKLIST[wl[i].id] += 1;
+		rime = wl[i].id.replace(/[a-z]+$/, "");
+		if (!RWORKLIST[rime]) {
+			RWORKLIST[rime] = 0;
+		}
+		RWORKLIST[rime] += 1;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// show --
+//
+
+function show(element) {
+   var item = element.querySelector("table");
+   item.style.visibility = "visible";
+}
+
+
+
+//////////////////////////////
+//
+// hide --
+//
+
+function hide(element) {
+   var item = element.querySelector("table");
+   item.style.visibility = "hidden";
+}
+
+
+
+//////////////////////////////
+//
+// tclass Handlebar helper -- Set the class to whether or not there is
+//     a work page for this ID.
+//
+
+Handlebars.registerHelper("trclass", function(solerti) {
+   len = solerti.length;
+   var id = "Trm";
+   switch (len) {
+		case 3: id += "0"   + solerti; break;
+		case 2: id += "00"  + solerti; break;
+		case 1: id += "000" + solerti; break;
+	}
+	var output = "";
+	if (RWORKLIST[id]) {
+		output += "<tr class='data haswork'>";
+	} else {
+		output += "<tr class='data nowork'>";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper -- Add small-caps to personal names.
+//
+
+Handlebars.registerHelper("title", function(text) {
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+//////////////////////////////
+//
+// settingcount Handlebar helper -- Set the class to whether or 
+//     not there is a work page for this ID.
+//
+
+Handlebars.registerHelper("settingcount", function(solerti) {
+	return "";
+   len = solerti.length;
+   var id = "Trm";
+   switch (len) {
+		case 3: id += "0"   + solerti; break;
+		case 2: id += "00"  + solerti; break;
+		case 1: id += "000" + solerti; break;
+	}
+	var output = "";
+	if (RWORKLIST[id]) {
+		output += "<span style='font-size:80%'>";
+		output += "(" + RWORKLIST[id] + ")";
+		output += "</span>";
+	} else {
+		output = "";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// sortByText --
+//
+
+function sortByText(index) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = a.cells[index].innerHTML;
+		var B = b.cells[index].innerHTML;
+		var result = A.localeCompare(B);
+		return result;
+	});
+	var body = document.querySelector("table.poem-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByGenre --
+//
+
+function sortByGenre(index) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = a.cells[index].querySelector(".genre").textContent;
+		var B = b.cells[index].querySelector(".genre").textContent;
+		var result = A.localeCompare(B);
+		return result;
+	});
+	var body = document.querySelector("table.poem-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByNumber --
+//
+
+function sortByNumber(index) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (a.cells[index].textContent.match(/^\s*\d/)) {
+			A = parseInt(a.cells[index].innerHTML);
+		} else {
+			return +1;
+			A = a.cells[index].textContent;
+		}
+		if (b.cells[index].textContent.match(/^\s*\d/)) {
+			B = parseInt(b.cells[index].innerHTML);
+		} else {
+			return -1;
+			B = b.cells[index].textContent;
+		}
+		if (A < B)      { return -1 }
+		else if (A > B) { return +1 }
+		else            { return 0  }
+	});
+	var body = document.querySelector("table.poem-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+</script>
+
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+
+{% raw %}
+
+<!-- rime-template
+		The rime template is used to fill in the list of poems
+		on the homepage.  The list of poems is found in the file
+		include/rime.json.
+-->
+
+<script id="rime-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">Solerti&nbsp;#</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span> <span onclick="sortByGenre(1)" class="genre">(poetic genre)</span></th>
+	<thead>
+	<tbody>
+	{{#RIME}}
+	{{{trclass SOLERTI}}}
+	<td>{{SOLERTI}}</td>
+	<td onmouseover="show(this)" onmouseout="hide(this)">{{{title TITLE}}}
+			<span class="genre">({{{GENRE}}})</span>
+		<table class="choices">
+		<tr>
+			<td><a href=/settings?rime={{SOLERTI}}>Musical Settings{{{settingcount SOLERTI}}}</a></td>
+			<td><a href=/sources?rime={{SOLERTI}}>Literary Sources</a></td>
+			<td><a href=/variants?rime={{SOLERTI}}>Literary Variants</a></td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	{{/RIME}}
+	</tbody>
+	</table>
+</script>
+
+
+
+<!-- gerusalemme-template
+		The gerusalemme template is used to fill in the list of poems
+		on the homepage.  The list of poems is found in the file
+		/data/indexes/gerusalemme-settings.json.
+-->
+
+<script id="gerusalemme-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">Canto/Ottava</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+	<td style="text-align:left;"> 
+		<table>
+		<tr>
+		<td style="width:100px;">
+			<span class="canto nowork">{{canto}}</span> 
+		</td>
+		<td style="width:150px text-align:right;">
+			<span class="ottava nowork"><nobr>{{ottava}}</nobr></span>
+		</td>
+		</tr>
+		</table>
+	</td>
+	<td style="height:55px;" class="nowork"> {{gtitle}}</td>
+<!--
+	<td onmouseover="show(this)" onmouseout="hide(this)">{{{gtitle}}}
+			<span class="genre">({{{GENRE}}})</span>
+		<table class="choices">
+		<tr>
+			<td><a href=/settings?rime={{SOLERTI}}>Musical Settings{{{settingcount SOLERTI}}}</a></td>
+			<td><a href=/sources?rime={{SOLERTI}}>Literary Sources</a></td>
+			<td><a href=/variants?rime={{SOLERTI}}>Literary Variants</a></td>
+		</tr>
+		</table>
+	</td>
+-->
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+
+
+
+<!-- aminta-template
+		The aminta template is used to fill in the list of Aminta poems
+		on the homepage.  The list of poems is found in the file
+		data/indexes/aminta-settings.aton.
+-->
+
+<script id="aminta-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">Act/scene/verse</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+	<td style="text-align:left;"> 
+		<table style="width:140px">
+		<tr>
+		<td style="width:40px;">
+			<span class="act nowork">{{act}}</span> 
+		</td>
+		<td style="width:30px; text-align:right;">
+			<span class="scene nowork"><nobr>{{scene}}</nobr></span>
+		</td>
+		<td style="width:70px; text-align:right;">
+			<span class="verse nowork"><nobr>{{verse}}</nobr></span>
+		</td>
+		</tr>
+		</table>
+	</td>
+	<td style="height:55px;" class="nowork"> {{atitle}}</td>
+<!--
+	<td onmouseover="show(this)" onmouseout="hide(this)">{{{atitle}}}
+			<span class="genre">({{{GENRE}}})</span>
+		<table class="choices">
+		<tr>
+			<td><a href=/settings?rime={{SOLERTI}}>Musical Settings{{{settingcount SOLERTI}}}</a></td>
+			<td><a href=/sources?rime={{SOLERTI}}>Literary Sources</a></td>
+			<td><a href=/variants?rime={{SOLERTI}}>Literary Variants</a></td>
+		</tr>
+		</table>
+	</td>
+-->
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+
+
+{% endraw %}
+

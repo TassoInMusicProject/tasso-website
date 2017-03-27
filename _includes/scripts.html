@@ -1,8 +1,13 @@
 
+{% unless include.scripts-common != "" %}
+	<script src="/scripts/scripts-common.js"></script>
+{% endunless %}
 
+{% if site.handlebars != "" %}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+{% endif %}
 
-
-{% if site.local-scripts != "" %}
+{% if site.scripts-local != "" %}
 	{% include_relative scripts-local.html %}
 {% endif %}
 

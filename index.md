@@ -1,5 +1,8 @@
 ---
 layout: main
+scripts-local: true
+style-local: true
+handlebars: true
 vim:    ts=3
 ---
 

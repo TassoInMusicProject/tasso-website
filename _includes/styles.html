@@ -1,10 +1,12 @@
 
-<link rel="stylesheet" href="/styles/tasso.css" type="text/css" />
+<!link rel="stylesheet" href="/styles/style.css" type="text/css" >
+<!link rel="stylesheet" href="/styles/normalize.css" type="text/css" >
+
+<link rel="stylesheet" href="/styles/tasso.css" type="text/css" >
 
 <link href='https://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
 
-{% if include.local_style != "" %}
-	<link rel="stylesheet" href="style-local.css" type="text/css" />
+{% if include.style-local != "" %}
+	<link rel="stylesheet" href="style-local.css" type="text/css" >
 {% endif %}
-
 

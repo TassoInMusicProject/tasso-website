@@ -17,7 +17,6 @@
 
 
 var RWORKLIST = {};
-var RIMELIST;
 
 //////////////////////////////
 //
@@ -278,14 +277,14 @@ function displayGLList(target) {
 	var counter = 0;
 
    if (sessionStorage.GLLIST) {
-		GLLIST = JSON.parse(sessionStorage.GLLIST).GERUSALEMME;
+		GLLIST = JSON.parse(sessionStorage.GLLIST);
 		counter++;
 	} else {
 		var request = new XMLHttpRequest();
 		request.open("GET", "/data/indexes/gerusalemme-settings.aton");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			GLLIST = aton.parse(this.responseText);
+			GLLIST = aton.parse(this.responseText).GERUSALEMME;
       	sessionStorage.GLLIST = JSON.stringify(GLLIST);
 			continueProcessingGL(element, counter);
 		});

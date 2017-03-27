@@ -22,6 +22,9 @@ var AUDIOid        = '';                   // currently playing audio button.
 var RIMELIST;      // list of poems
 var LITLIST;       // list of literary sources
 var WORKLIST;      // list of musical settings
+var AMINTALIST;    // list of Aminta settings
+var GLLIST;        // list of Gerusalemme settings
+var OTHERLIST;     // list of other settings
 
 
 // List of Key Codes.  More can be extracted from this page:

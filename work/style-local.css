@@ -1,0 +1,93 @@
+
+
+#contents {
+	padding: 50px;
+	font-size: 130%;
+	border-top-right-radius: 0px !important;
+}
+
+table.worklist {
+	border-collapse: collapse;
+	font-size: 120%;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.worklist tbody tr:hover {
+	background: #eee;
+}
+
+.entry {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.triangle {
+	color: #96835c;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	font-size: 100%;
+}
+
+.triangle.above {
+	position: relative;
+	top: -30px;
+	left: -25px;
+}
+
+.variant {
+	float: right;
+}
+
+.indent {
+ 	margin-left: 75px;
+ 	margin-right: 150px;
+}
+
+.first-line {
+	padding-left: 0px;
+	white-space: nowrap;
+}
+
+
+
+.other-line {
+	padding-left: 50px;
+	white-space: nowrap;
+}
+
+table.poem td:first-child {
+	padding-right: 10px;
+}
+
+table.worklist th {
+	padding-bottom: 15px;
+}
+
+table.worklist td {
+	padding-bottom: 5px;
+}
+
+
+/* Downloads */
+
+table.downloads {
+	position: relative;
+	top: -20px;
+}
+
+.downloads ul {
+	margin-left: -21px;
+}
+
+.downloads td {
+	padding-right: 100px;
+}
+
+
+
+
+
+

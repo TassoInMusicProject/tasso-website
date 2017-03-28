@@ -1,6 +1,5 @@
+
 <script src="/scripts/scripts-common.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
-<script src="/scripts/external/aton/aton.js"></script>
 
 <script>
 //
@@ -111,7 +110,7 @@ function displayRimeList(target) {
 		counter++;
 	} else {
 		var request = new XMLHttpRequest();
-		request.open("GET", "/data/indexes/worklist.json");
+		request.open("GET", "{{site.worklist}}");
 		request.addEventListener("load", function() {
 			WORKLIST = JSON.parse(this.responseText);
 	      buildReverseWorklist();
@@ -172,7 +171,7 @@ function displayAmintaList(target) {
 		counter++;
 	} else {
 		var request = new XMLHttpRequest();
-		request.open("GET", "/data/indexes/worklist.json");
+		request.open("GET", "{{site.worklist}}");
 		request.addEventListener("load", function() {
 			WORKLIST = JSON.parse(this.responseText);
 	      buildReverseWorklist();
@@ -235,7 +234,7 @@ console.log("OTHER LIST", OTHERLIST);
 		counter++;
 	} else {
 		var request = new XMLHttpRequest();
-		request.open("GET", "/data/indexes/worklist.json");
+		request.open("GET", "{{site.worklist}}");
 		request.addEventListener("load", function() {
 			WORKLIST = JSON.parse(this.responseText);
 	      buildReverseWorklist();
@@ -296,7 +295,7 @@ function displayGLList(target) {
 		counter++;
 	} else {
 		var request = new XMLHttpRequest();
-		request.open("GET", "/data/indexes/worklist.json");
+		request.open("GET", "{{site.worklist}}");
 		request.addEventListener("load", function() {
 			WORKLIST = JSON.parse(this.responseText);
 	      buildReverseWorklist();

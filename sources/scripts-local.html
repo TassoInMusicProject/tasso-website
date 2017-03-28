@@ -1,0 +1,588 @@
+
+<script src="/scripts/scripts-common.js"></script>
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Fri Mar 25 00:02:06 PDT 2016
+// Last Modified: Fri Mar 25 00:02:09 PDT 2016
+// Filename:      sources/scripts-local.html
+// Web Address:   http://tassomusic.org/sources/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
+//
+// Description:   JavaScript management for the literary sources.
+//
+
+var Rime         = 3;
+var NextRime     = 3;
+var PreviousRime = 3;
+
+//////////////////////////////
+//
+// Function called when document has finished loading:
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	var cgi = GetCgiParameters();
+   if (cgi.rime) {
+		Rime = cgi.rime;
+	   displayLiterarySources(cgi.rime, "#contents");
+   } else {
+	   displayLiterarySources(0, "#contents");
+   }
+});
+
+
+
+//////////////////////////////
+//
+// process Window keys down:
+//
+
+window.addEventListener('keydown', function(event) {
+   if (event.metaKey) {
+		return;
+	}
+
+	switch (event.keyCode) {
+		case LeftArrowKey:
+			if (event.shiftKey) {
+				displaySetting();
+			} else {
+				displayPreviousSource();
+			}
+			break;
+		case RightArrowKey:
+			if (event.shiftKey) {
+				displayVariant();
+			} else {
+				displayNextSource();
+			}
+			break;
+		case UpArrowKey:
+   		window.location = "/sources";
+			break;
+	}
+});
+
+
+
+//////////////////////////////
+//
+// displayVariant --
+//
+
+function displayVariant() {
+	if (Rime) {
+   	window.location = "/variants/?rime=" + Rime;
+	} else {
+   	window.location = "/variants";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displaySetting --
+//
+
+function displaySetting() {
+	if (Rime) {
+   	window.location = "/settings/?rime=" + Rime;
+	} else {
+   	window.location = "/settings";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayNextSource --
+//
+
+function displayNextSource() {
+ 	displayLiterarySources(NextRime);
+}
+
+
+
+//////////////////////////////
+//
+// displayPreviousSource --
+//
+
+function displayPreviousSource() {
+ 	displayLiterarySources(PreviousRime);
+}
+
+
+
+//////////////////////////////
+//
+// displayLiterarySources -- Show the literary sources for the given 
+// 	Rime.
+//
+
+function displayLiterarySources(rime, target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Rime literary sources on page.");
+		return;
+	}
+ 
+   var counter = 0;
+
+   if (sessionStorage.RIMELIST) {
+		RIMELIST = JSON.parse(sessionStorage.RIMELIST);
+		setNextPreviousRime(rime);
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.rime_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			RIMELIST = aton.parse(this.responseText).RIME_SETTING;
+			setNextPreviousRime(rime);
+         sessionStorage.RIMELIST = JSON.stringify(RIMELIST);
+         counter++;
+         if (counter == 2) {
+            reallyDisplaySources(rime, target);
+				counter++;
+         }
+		});
+		request.send();
+	}
+
+   if (sessionStorage.LITLIST) {
+		LITLIST = JSON.parse(sessionStorage.LITLIST);
+		counter++;
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.literary_prints}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			LITLIST = aton.parse(this.responseText);
+         sessionStorage.LITLIST = this.responseText;
+         counter++;
+         if (counter == 2) {
+            reallyDisplaySources(rime, target);
+				counter++;
+         }
+		});
+		request.send();
+	}
+
+	if (counter == 2) {
+      reallyDisplaySources(rime, target);
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// reallyDisplaySources --
+//
+
+function reallyDisplaySources(rime, target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Rime literary sources on page.");
+		return;
+	}
+
+   var output = "";
+   if (!rime) {
+		output += displayMultipleRimeSources();
+	} else {
+		output += displaySingleRimeSource(rime);
+	}
+	element.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// displayMultipleRimeSources --
+//
+
+function displayMultipleRimeSources() {
+	var output = "";
+	output += "<div style='font-size:100%; margin-left:50px'>";
+	output += "<center>";
+	output += "<h1 style='padding-right:50px;'>Literary Sources</h1>";
+	output += "</center>";
+
+	var rimelist = RIMELIST.RIME;
+	var rime;
+   for (var i=0; i<rimelist.length; i++) {
+		output += "<center><table style='margin-top:10px; ";
+		output += "padding:0; padding-right:50px; width:100%'><tr>";
+		output += "<td>";
+		output += "</td><td style='width:100%; text-align:center'>";
+		output += "<h2>";
+		rime = rimelist[i].SOLERTI;
+		var rime_entry = rimelist[i];
+   	if (!rime_entry) {
+      	console.log("Error accessing rime:", rime);
+			return;
+		}
+   	output += rime_entry.TITLE;
+   	output += " (<i>Rime</i> " + rime + ")<h2>";
+		output += "</td><td>";
+		output += "</td></tr>";
+		output += "</table></center>";
+
+   	output += getManuscriptSourceTable(rime_entry);
+   	output += getPrintSourceTable(rime_entry);
+   }
+	output += "</div>\n";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// displaySingleRimeSource --
+//
+
+function displaySingleRimeSource(rime) {
+   var output = "";
+//	output += "<div style='font-size:100%; margin-left:50px'>";
+//	output += "<center>";
+//	output += "<h1 style='padding-right:50px;'>Literary Sources</h1>";
+//	output += "</center>";
+
+	output += "<center><table style=' width=100%;";
+	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
+	output += "<td class='triangle'><span class='triangle' ";
+	output += " onclick='displaySetting();'";
+	output += "href='/sources?rime=";
+	output += PreviousRime + "'>";
+	output += "<span style='letter-spacing:-7pt;'>";
+	output += "&#9664;&#9664;</span></a>";
+	output += "</td><td style='width:100%; text-align:center'>";
+	output += "<h1>Literary Sources</h1>";
+	output += "</td><td class='triangle'>";
+	output += "<span class='triangle'";
+	output += " onclick='displayVariant();'";
+	output += " href='/sources?rime=";
+	output +=  NextRime + "'>";
+	output += "<span style='position:relative;left:-8px; letter-spacing:-7pt;'>";
+	output += "&#9654;&#9654;</span></a>";
+	output += "</td></tr>";
+	output += "</table></center>";
+
+	output += "<center><table style='margin-top:-50px; ";
+	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
+	output += "<td class='triangle'><span class='triangle' ";
+	output += " onclick='displayPreviousSource();'";
+	output += "href='/sources?rime=";
+	output += PreviousRime + "'>";
+	output += "&#9664;</a>";
+	output += "</td><td style='width:100%; text-align:center'>";
+	output += "<h2>";
+	var rime_entry = GetRimeEntry(rime);
+   if (!rime_entry) {
+      console.log("Error accessing rime:", rime);
+		return;
+	}
+	var title = rime_entry.TITLE;
+	title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+   output += title;
+   output += " (<i>Rime</i> " + rime + ")<h2>";
+	output += "</td><td class='triangle'>";
+	output += "<span class='triangle'";
+	output += " onclick='displayNextSource();'";
+	output += " href='/sources?rime=";
+	output +=  NextRime + "'>";
+	output += "&#9654;</a>";
+	output += "</td></tr>";
+	output += "</table></center>";
+
+   output += getManuscriptSourceTable(rime_entry);
+   output += getPrintSourceTable(rime_entry);
+	output += "</div>\n";
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getManuscriptSourceTable --
+//
+
+function getManuscriptSourceTable(rime_entry) {
+	if (!rime_entry) {
+		return ""
+	}
+	if (!rime_entry.MANUSRC) {
+		return "";
+	}
+	var entry = rime_entry.MANUSRC.replace(/^\s+/, "")
+                                 .replace(/\s+$/, "");
+	var items = entry.split(/\s*,\s*/);
+
+//	if (items.length == 0) {
+//		return "";
+//	}
+// if ((items.length == 1) && (items[0].match(/^\s*$/))) {
+// 	return "";
+//	}
+
+   var output = "";
+	
+	output += "<h2 class='heading'>Manuscripts</h2>";
+	output += "<div style='margin-left:50px'>";
+	output += "<table class='lit-src'>";
+//	output += "<thead>";
+//	output += "<th>Solerti #</th>";
+//	output += "<th>Title (Location) &mdash; Description </th>";
+//	output += "</thead>";
+
+   if ((items.length == 1) && (items[0].match(/^\s*$/))) {
+		items[0] = "none";
+	} 
+
+	if (!items[0].match(/none/)) {
+		output += "<tr>";
+		output += "<th style='text-align:left'>Solerti&nbsp;sig.</th>";
+		output += "<th style='text-align:left'>Source</th>";
+		output += "</tr>";
+	}
+
+	for (var i=0; i<items.length; i++) {
+		output += "<tr><td>";
+		if (!items[i].match(/none/)) {
+			output += "<span class='manuscript'>";
+			output += items[i];
+			output += "</span>";
+		} else {
+			output += items[i];
+		}
+		output += "</td><td>";
+		output += getDescriptionManuscript(items[i], "SMSIGLUM", LITLIST.MANUSCRIPT);
+		output += "</td></tr>";
+	}
+
+	output += "</table>";
+	output += "</div>";
+
+   return output;
+}
+
+
+
+//////////////////////////////
+//
+// getDescriptionManuscript --
+//         "SMSIGLUM": "A<sub>1</sub>",
+//         "SIGLUM": "R.96 sup.",
+//         "LOCATION": "Biblioteca Ambrosiana, Milano",
+//         "DATING": "16th century",
+//         "DESCRIPTION": "miscellaneous codex, containing copies of 6 lyric poems by Tasso"
+//
+
+function getDescriptionManuscript(item, tag, data) {
+	if (item === "none") {
+		return "";
+	}
+	var index = -1;
+	for (var i=0; i<data.length; i++) {
+      if (data[i][tag] == item) {
+ 			index = i;
+			break;
+		}
+   }
+	if (index < 0) {
+		return "<span style='color:red'>NO DESCRIPTION</span>";
+	}
+	
+   var output = "";
+	var di = data[index];
+
+	if (di.SIGLUM) {
+		output += di.SIGLUM + ", ";
+	}
+	if (di.LOCATION) {
+		output += di.LOCATION;
+	}
+	output += "<br>";
+	if (di.DESCRIPTION) {
+		output += di.DESCRIPTION;
+	}
+	if (di.DATING) {
+		output += ", " + di.DATING;
+	}
+	
+	return output;
+}
+
+
+
+
+//////////////////////////////
+//
+// getDescriptionPrint --
+//
+//         "SPRINTNUM":   "162",
+//         "PRINTTITLE":  "<i>Lettere del Signor Torquato Tasso non pi&ugrave; stampate</i>",
+//         "PUBLISHER":   "Bartolomeo Cochi",
+//         "PUBLOCATION": "Bologna",
+//         "PUBDATE":     "1616"
+//
+
+function getDescriptionPrint(item, tag, data) {
+	if (item === "none") {
+		return "";
+	}
+	var index = -1;
+	for (var i=0; i<data.length; i++) {
+      if (data[i][tag] == item) {
+ 			index = i;
+			break;
+		}
+   }
+	if (index < 0) {
+		return "<span style='color:red'>NO DESCRIPTION</span>";
+	}
+	
+   var output = "";
+	var di = data[index];
+
+   output += di.PRINTTITLE;
+   output += "<br>(";
+   output += di.PUBLOCATION;
+	if (di.PUBLISHER) {
+   	output += ": " + di.PUBLISHER;
+	}
+	if (di.PUBYEAR) {
+   	output += ", " + di.PUBYEAR;
+	}
+   output += ")";
+   
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getPrintSourceTable --
+//
+
+function getPrintSourceTable(rime_entry) {
+	if (!rime_entry) {
+		return ""
+	}
+//	if (!rime_entry.PRINTSRC) {
+//		return "";
+//	}
+	var entry = rime_entry.PRINTSRC.replace(/^\s+/, "")
+                                 .replace(/\s+$/, "");
+	var items = entry.split(/\s*,\s*/);
+//	if (items.length == 0) {
+//		return "";
+//	}
+//
+   var output = "";
+
+	output += "<h2 class='heading'>Prints</h2>";
+	output += "<div style='margin-left:50px'>";
+	output += "<table class='lit-src'>";
+//	output += "<thead>";
+//	output += "<th>Solerti #</th>";
+//	output += "<th>Title (Location) &mdash; Description </th>";
+//	output += "</thead>";
+//
+   if ((items.length == 1) && (items[0].match(/^\s*$/))) {
+		items[0] = "none";
+	} 
+
+	if (!items[0].match(/none/)) {
+		output += "<tr>";
+		output += "<th style='text-align:left'>Solerti&nbsp;#</th>";
+		output += "<th style='text-align:left'>Source</th>";
+		output += "</tr>";
+	}
+
+
+	for (var i=0; i<items.length; i++) {
+		output += "<tr><td>";
+		if (!items[i].match(/none/)) {
+			output += "<span class='print'>";
+			output += items[i];
+			output += "</span>";
+		} else {
+			output += items[i];
+		}
+		output += "</td><td>";
+		output += getDescriptionPrint(items[i], "SPRINTNUM", LITLIST.PRINT);
+		output += "</td></tr>";
+	}
+
+	output += "</table>";
+	output += "</div>";
+
+   return output;
+}
+
+
+
+//////////////////////////////
+//
+// setNextPreviousRime --
+//
+
+function setNextPreviousRime(rime) {
+   Rime = rime;
+   NextRime = rime;
+   PreviousRime = rime;
+
+	var index = -1;
+	var list = RIMELIST.RIME;
+	for (var i=0; i<list.length; i++) {
+		if (rime == list[i].SOLERTI) {
+			index = i;
+         break;
+		}
+	}
+	
+	if (index < 0) {
+      return;
+   }
+
+	if (index < list.length - 1) {
+      NextRime = list[index+1].SOLERTI;
+	} else {
+      NextRime = list[0].SOLERTI;
+	}
+
+	if (index > 0) {
+      PreviousRime = list[index-1].SOLERTI;
+	} else {
+      PreviousRime = list[list.length-1].SOLERTI;
+	}
+}
+
+
+</script>
+
+

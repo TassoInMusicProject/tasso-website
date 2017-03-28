@@ -1,0 +1,102 @@
+
+#contents {
+	border-top-right-radius: 0px !important;
+}
+
+.triangle {
+	color: #96835c;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	font-size: 100%;
+}
+
+
+.heading {
+   letter-spacing: 2px;
+	padding-left: 50px;
+}
+
+
+table.lit-src {
+	padding-right: 50px;
+	font-size: 120%;
+}
+
+
+.lit-src tr {
+	vertical-align: top;
+}
+
+
+.lit-src td:first-child {
+	width: 80px;
+}
+
+
+.lit-src td,
+.lit-src th {
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+
+
+.manuscript {
+	color: brown;
+	font-weight: bold;
+}
+
+
+.print {
+	color: goldenrod;
+	font-weight: bold;
+}
+
+
+
+
+.hidden span {
+	display:none;
+}
+
+.hidden{
+	display:inline-block;
+	font-size: 18px;
+	height: 30px;
+	padding-left: 100px;
+	margin-top: -20px;
+	margin-bottom: 0;
+}
+
+.clicker{
+	display: block;
+	clear: right;
+	position: relative;
+	height: 40px;
+	bottom: 35px; /* adjust this to match the solerti numbers in the same row... */
+	left: 140px;
+	margin-bottom: -40px;
+}
+
+.num{
+	clear: none;
+	display: block;
+	/* margin-left:23px; */
+}
+
+.num:after {
+   content: ".";
+}
+
+.solerti {
+	display:block;
+	float:left;
+	margin-left:5px;
+}
+
+.title {
+	display:block;
+	float:left;
+	margin-left:40px;
+}
+

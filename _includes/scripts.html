@@ -1,13 +1,15 @@
 
-{% unless include.scriptsCommon != "" %}
-	<script src="/scripts/scripts-common.js"></script>
-{% endunless %}
-
-{% if site.handlebars != "" %}
+{% if page.handlebars == true %}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 {% endif %}
 
-{% if site.scripts-local != "" %}
+{% if page.aton == true %}
+	<script src="/scripts/external/aton/aton.js"></script>
+{% endif %}
+
+
+
+{% if page.scripts-local == true %}
 	{% include_relative scripts-local.html %}
 {% endif %}
 

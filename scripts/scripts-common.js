@@ -633,9 +633,9 @@ function PlayAudioFile(jrpid, element) {
 		// Can't have seekable dynamic content in audio element:
 		//source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
 		if (window.location.href.match(/tasso/i)) {
-			source += '<source src="http://www.tassomusic.org/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="http://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
 		} else {
-			source += '<source src="/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="http://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
 		}
 		source += 'type="audio/mpeg"/>\n';
 		AUDIO.innerHTML = source;

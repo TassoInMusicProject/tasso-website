@@ -1,0 +1,153 @@
+
+#contents {
+	font-size: 110%;
+	padding: 50px;
+	border-top-right-radius: 0px !important;
+}
+
+
+.triangle {
+	color: #96835c;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	font-size: 100%;
+}
+
+
+table.settings {
+	font-size: 120%;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+	padding-right: 0px;
+	border-collapse: collapse;
+}
+
+
+.settings tr {
+	vertical-align: top;
+}
+
+
+.settings tbody tr:hover {
+	background: #eee;
+}
+
+
+.settings th {
+	text-align: left;
+	font-weight: bold;
+}
+
+
+.settings td {
+	padding-bottom: 20px;
+}
+
+
+.rism {
+    /* float: right; */
+}
+
+
+th {
+	color: #96835c;
+}
+
+
+.nowork {
+	color: #777;
+}
+
+
+.settings tbody tr.haswork:hover {
+	cursor: pointer;
+}
+
+
+.settings td:nth-child(2),
+.settings th:nth-child(2) {
+	white-space: nowrap;
+	padding-right: 10px;
+	min-width: 140px;
+}
+
+
+.settings td:nth-child(1),
+.settings th:nth-child(1) {
+ 	width: 100px;
+	padding-right: 20px;
+	letter-spacing: -1px;
+}
+
+
+.settings td:nth-child(3),
+.settings th:nth-child(3) {
+	padding-right: 10px;
+ 	width: 100%;
+}
+
+
+.manuscript {
+	color: brown;
+	font-weight: bold;
+}
+
+.publication {
+	white-space: nowrap;
+}
+
+.print {
+	color: goldenrod;
+	font-weight: bold;
+}
+
+
+
+
+.hidden span {
+	display:none;
+}
+
+.hidden{
+	display:inline-block;
+	font-size: 18px;
+	height: 30px;
+	padding-left: 100px;
+	margin-top: -20px;
+	margin-bottom: 0;
+}
+
+.clicker{
+	display: block;
+	clear: right;
+	position: relative;
+	height: 40px;
+	bottom: 35px; /* adjust this to match the solerti numbers in the same row... */
+	left: 140px;
+	margin-bottom: -40px;
+}
+
+.num{
+	clear: none;
+	display: block;
+	/* margin-left:23px; */
+}
+
+.num:after {
+   content: ".";
+}
+
+.solerti {
+	display:block;
+	float:left;
+	margin-left:5px;
+}
+
+.title {
+	display:block;
+	float:left;
+	margin-left:40px;
+}
+

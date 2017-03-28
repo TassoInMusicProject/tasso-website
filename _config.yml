@@ -38,6 +38,27 @@ highlighter: rouge
 google_analytics: UA-96036055-1
 
 
+### External URLs ##########################################
+
+# data (PDFs, MP3s, etc)
+tasso_data_url: http://data.tassomusic.org
+
+
+### Data files #############################################
+
+# worklist: list of available musical settings, prepared automatically
+worklist: /data/indexes/worklist.json
+
+rime_settings: /data/indexes/rime-settings.aton
+aminta_settings: /data/indexes/aminta-settings.aton
+gerusalemme_settings: /data/indexes/gerusalemme-settings.aton
+other_settings: /data/indexes/other-setttings.aton
+
+rime_verses: /data/indexes/rime-verses.aton
+
+literary_prints: /data/indexes/literary-prints.aton
+
+
 ### CSS variables ##########################################
 
 # tab_color: light beige color for background of tabs on main page

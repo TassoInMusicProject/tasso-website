@@ -3,6 +3,7 @@ layout: main
 scripts-local: true
 style-local: true
 handlebars: true
+aton: true
 vim:    ts=3
 ---
 

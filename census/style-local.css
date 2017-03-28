@@ -1,0 +1,29 @@
+
+
+#contents {
+	padding: 50px;
+}
+
+
+table.census tbody tr:hover {
+	background: #eeeeee;
+}
+
+
+table.census  {
+	width:100%;
+	border-collapse: collapse;
+	margin-left: -20px;
+}
+
+table.census th {
+	padding-bottom: 8px;
+
+}
+
+table.census th,
+table.census td {
+	padding-left: 20px;
+}
+
+

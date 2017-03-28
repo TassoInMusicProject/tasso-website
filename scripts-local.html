@@ -70,7 +70,7 @@ window.addEventListener('keydown', function(event) {
 
 //////////////////////////////
 //
-// displayRimeList -- Show the Rime list within the given 
+// displayRimeList -- Show the Rime list within the given
 //     target element.
 //
 
@@ -135,7 +135,7 @@ function displayRimeList(target) {
 
 //////////////////////////////
 //
-// displayAmintaList -- Show the Aminta list within the given 
+// displayAmintaList -- Show the Aminta list within the given
 //     target element.
 //
 
@@ -196,7 +196,7 @@ function displayAmintaList(target) {
 
 //////////////////////////////
 //
-// displayOtherList -- Show the Other list within the given 
+// displayOtherList -- Show the Other list within the given
 //     target element.
 //
 
@@ -214,18 +214,17 @@ function displayOtherList(target) {
 
    if (sessionStorage.OTHERLIST) {
 		OTHERLIST = JSON.parse(sessionStorage.OTHERLIST);
-		counter++;
+console.log("OTHER LISTB ", OTHERLIST);
+		continueProcessingOther(element);
 	} else {
 		var request = new XMLHttpRequest();
-		request.open("GET", "/include/other.json");
+		request.open("GET", "/data/indexes/other-settings.aton");
 		request.addEventListener("load", function() {
-			OTHERLIST = JSON.parse(this.responseText);
-      	sessionStorage.OTHERLIST = this.responseText;
-			counter++;
-			if (counter == 2) {
-				continueProcessingOther(element, counter);
-				counter++;
-			}
+			var aton = new ATON;
+			OTHERLIST = aton.parse(this.responseText).OTHER;
+console.log("OTHER LIST", OTHERLIST);
+      	sessionStorage.OTHERLIST = JSON.stringify(OTHERLIST);
+			continueProcessingOther(element);
 		});
 		request.send();
 	}
@@ -260,7 +259,7 @@ function displayOtherList(target) {
 
 //////////////////////////////
 //
-// displayGLList -- Show the Gerusalemme Liberata list within the given 
+// displayGLList -- Show the Gerusalemme Liberata list within the given
 //     target element.
 //
 
@@ -394,6 +393,97 @@ function makeCantoList(gllist) {
 
 
 
+/////////////////////////////
+//
+// makeEclogheList --
+//
+
+function makeEclogheList(elist) {
+	var output = {};
+	var data = output;
+   for (var i=0; i<elist.length; i++) {
+		var key = elist[i].Catalog.replace(/[a-z]$/, "");
+		data[key] = {};
+		data[key].etitle = elist[i].Title;
+		data[key].ecloga = elist[i].Ecloga;
+		data[key].verse = elist[i].Verse;
+   }
+	// Should already be sorted, but maybe sort here by verse number.
+	// as stored in catalog number.
+	return output;
+}
+
+
+
+/////////////////////////////
+//
+// makeRinaldoList --
+//
+
+function makeRinaldoList(rlist) {
+	var output = {};
+	var data = output;
+   for (var i=0; i<rlist.length; i++) {
+		var key = rlist[i].Catalog.replace(/[a-z]$/, "");
+		data[key] = {};
+		data[key].rtitle = rlist[i].Title;
+		data[key].canto = rlist[i].Canto;
+		data[key].ottava = rlist[i].Ottava;
+   }
+	// Should already be sorted, but maybe sort here by verse number.
+	// as stored in catalog number.
+	return output;
+}
+
+
+
+/////////////////////////////
+//
+// makeLagrimeList --
+//
+
+function makeLagrimeList(lentry) {
+console.log("LLIST", lentry);
+	var llist = [lentry];
+	var output = {};
+	var data = output;
+   for (var i=0; i<llist.length; i++) {
+		var key = llist[i].Catalog.replace(/[a-z]$/, "");
+		data[key] = {};
+		data[key].ltitle = llist[i].Title;
+		data[key].stanza = llist[i].Stanza;
+   }
+	// Should already be sorted, but maybe sort here by verse number.
+	// as stored in catalog number.
+	return output;
+}
+
+
+
+/////////////////////////////
+//
+// makeTorrisomondoList --
+//
+
+function makeTorrismondoList(lentry) {
+	var llist = [lentry];
+	var output = {};
+	var data = output;
+   for (var i=0; i<llist.length; i++) {
+		var key = llist[i].Catalog.replace(/[a-z]$/, "");
+		data[key] = {};
+		data[key].ttitle = llist[i].Title;
+		data[key].act     = llist[i].Act;
+		data[key].scene   = llist[i].Scene;
+		data[key].section = llist[i].Section;
+   }
+	// Should already be sorted, but maybe sort here by verse number.
+	// as stored in catalog number.
+	return output;
+}
+
+
+
 //////////////////////////////
 //
 // makeAmintaVerseList --
@@ -423,7 +513,7 @@ function makeAmintaVerseList(amlist) {
 // continueProcessingAminta --
 //
 
-function continueProcessingAminta(element, counter) {
+function continueProcessingAminta(element) {
 	var tsource = document.querySelector("#aminta-template")
 	                      .textContent;
 	var amintaTemplate = Handlebars.compile(tsource);
@@ -439,13 +529,35 @@ function continueProcessingAminta(element, counter) {
 // continueProcessingOther --
 //
 
-function continueProcessingOther(element, counter) {
-	var tsource = document.querySelector("#rime-template")
-	                      .textContent;
-	var rimeTemplate = Handlebars.compile(tsource);
-	element.innerHTML = rimeTemplate(RIMELIST);
+function continueProcessingOther(element) {
+	var esource = document.querySelector("#ecloghe-template").textContent;
+	var rsource = document.querySelector("#rinaldo-template").textContent;
+	var lsource = document.querySelector("#lagrime-template").textContent;
+	var tsource = document.querySelector("#torrismondo-template").textContent;
+
+	var eclogheTemplate = Handlebars.compile(esource);
+	var rinaldoTemplate = Handlebars.compile(rsource);
+	var lagrimeTemplate = Handlebars.compile(lsource);
+	var torrismondoTemplate = Handlebars.compile(tsource);
+
+	var ecloghelist = makeEclogheList(OTHERLIST.ECLOGHE);
+	var rinaldolist = makeRinaldoList(OTHERLIST.RINALDO);
+	var lagrimelist = makeLagrimeList(OTHERLIST.LAGRIME);
+	var torrismondolist = makeTorrismondoList(OTHERLIST.TORRISMONDO);
+console.log(lagrimelist);
+
+	var output = "<h2 style='margin-left:100px'>Ecloghe settings</h2>";
+	output += eclogheTemplate(ecloghelist);
+	output += "<h2 style='margin-top:-80px; margin-left:100px'>Rinaldo settings</h2>";
+	output += rinaldoTemplate(rinaldolist);
+	output += "<h2 style='margin-top:-80px; margin-left:100px'>Lagrime della Beata Vergine settings</h2>";
+	output += lagrimeTemplate(lagrimelist);
+	output += "<h2 style='margin-top:-80px; margin-left:100px'>Re Torrismondo settings</h2>";
+	output += torrismondoTemplate(torrismondolist);
+	element.innerHTML = output;
 	showTab("other-heading");
 }
+
 
 
 
@@ -538,7 +650,7 @@ Handlebars.registerHelper("title", function(text) {
 
 //////////////////////////////
 //
-// settingcount Handlebar helper -- Set the class to whether or 
+// settingcount Handlebar helper -- Set the class to whether or
 //     not there is a work page for this ID.
 //
 
@@ -714,11 +826,11 @@ function sortByNumber(index) {
 	{{#each this}}
 
 	<tr>
-	<td style="text-align:left;"> 
+	<td style="text-align:left;">
 		<table>
 		<tr>
 		<td style="width:100px;">
-			<span class="canto nowork">{{canto}}</span> 
+			<span class="canto nowork">{{canto}}</span>
 		</td>
 		<td style="width:150px text-align:right;">
 			<span class="ottava nowork"><nobr>{{ottava}}</nobr></span>
@@ -764,34 +876,167 @@ function sortByNumber(index) {
 	{{#each this}}
 
 	<tr>
-	<td style="text-align:left;"> 
-		<table style="width:140px">
-		<tr>
-		<td style="width:40px;">
-			<span class="act nowork">{{act}}</span> 
+		<td style="text-align:left;">
+			<table style="width:140px">
+			<tr>
+			<td style="width:40px;">
+				<span class="act nowork">{{act}}</span>
+			</td>
+			<td style="width:30px; text-align:right;">
+				<span class="scene nowork"><nobr>{{scene}}</nobr></span>
+			</td>
+			<td style="width:70px; text-align:right;">
+				<span class="verse nowork"><nobr>{{verse}}</nobr></span>
+			</td>
+			</tr>
+			</table>
 		</td>
-		<td style="width:30px; text-align:right;">
-			<span class="scene nowork"><nobr>{{scene}}</nobr></span>
-		</td>
-		<td style="width:70px; text-align:right;">
-			<span class="verse nowork"><nobr>{{verse}}</nobr></span>
-		</td>
-		</tr>
-		</table>
-	</td>
-	<td style="height:55px;" class="nowork"> {{atitle}}</td>
-<!--
-	<td onmouseover="show(this)" onmouseout="hide(this)">{{{atitle}}}
-			<span class="genre">({{{GENRE}}})</span>
-		<table class="choices">
-		<tr>
-			<td><a href=/settings?rime={{SOLERTI}}>Musical Settings{{{settingcount SOLERTI}}}</a></td>
-			<td><a href=/sources?rime={{SOLERTI}}>Literary Sources</a></td>
-			<td><a href=/variants?rime={{SOLERTI}}>Literary Variants</a></td>
-		</tr>
-		</table>
-	</td>
+		<td style="height:55px;" class="nowork"> {{atitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+
+
+<!-- ecloghe-template
+		The ecloghe template is used to fill in the list of Echloghe
+		poems on the homepage.  The list of poems is found in the file
+		data/indexes/other-settings.aton.
 -->
+
+<script id="ecloghe-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">ecloga/verse</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:100px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="ecloga nowork"><nobr>{{ecloga}}</nobr></span>
+			</td>
+			<td style="width:70px; text-align:right;">
+				<span class="verse nowork"><nobr>{{verse}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{etitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+
+<!-- rinaldo-template
+		The rinaldo template is used to fill in the list of Rinaldo
+		poems on the homepage.  The list of poems is found in the file
+		data/indexes/other-settings.aton.
+-->
+
+<script id="rinaldo-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">canto/ottava</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:100px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="canto nowork"><nobr>{{canto}}</nobr></span>
+			</td>
+			<td style="width:70px; text-align:right;">
+				<span class="verse nowork"><nobr>{{ottava}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{rtitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+
+<!-- torrismondo-template
+		The torrismondo template is used to fill in the list of Re
+		Torrismondo poems on the homepage.  The list of poems
+		is found in the file data/indexes/other-settings.aton.
+-->
+
+<script id="torrismondo-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">act/scene/section</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:150px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="act nowork"><nobr>{{act}}</nobr></span>
+			</td>
+			<td style="width:40px; text-align:right;">
+				<span class="scene nowork"><nobr>{{scene}}</nobr></span>
+			</td>
+			<td style="width:80px; text-align:right;">
+				<span class="section nowork"><nobr>{{section}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{ttitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+
+<!-- lagrime-template
+		The lagrime template is used to fill in the list of Lagrime
+		della Beata Vergine poems on the homepage.  The list of poems
+		is found in the file data/indexes/other-settings.aton.
+-->
+
+<script id="lagrime-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">stanza</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:100px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="stanza nowork"><nobr>{{stanza}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{ltitle}}</td>
 	</tr>
 
 	{{/each}}

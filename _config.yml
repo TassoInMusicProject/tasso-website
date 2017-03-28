@@ -31,17 +31,19 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 
-
 highlighter: rouge
 
 
+# Google Analytics tracking number:
 google_analytics: UA-96036055-1
-
 
 
 ### CSS variables ##########################################
 
 # tab_color: light beige color for background of tabs on main page
-tab_color: "#c8af7a"
+tab_color: "#c2ab6c"
+
+# heading_color: lightish beige for table headings, tab titles, etc.
+heading_color: "#96835c"
 
 

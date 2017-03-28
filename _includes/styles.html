@@ -1,11 +1,29 @@
 
+<!--
+	styles.html: template for inserting style content onto page.
+	Styles are included directly on page to utilize site variables
+	in CSS files.
+	vim: ts=3
+-->
+
 <link href='https://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
 
+<!-- global styles for the website -->
 <style type="text/css">
-{% include css/tasso.css %}
+	{% include css/tasso.css %}
 </style>
 
-{% if include.style-local != "" %}
-	<link rel="stylesheet" href="style-local.css" type="text/css" >
+{% if page.style-local == true %}
+	<!-- local styles for the pages -->
+	<style type="text/css">
+		{% include_relative style-local.css %}
+	</style>
+{% else %}
+	<!-- page.style-local is "{{page.style-local}}" -->
 {% endif %}
+
+
+<!-- end of styles section -->
+
+
 

@@ -546,18 +546,17 @@ function continueProcessingOther(element) {
 	var torrismondolist = makeTorrismondoList(OTHERLIST.TORRISMONDO);
 console.log(lagrimelist);
 
-	var output = "<h2 style='margin-left:100px'>Ecloghe settings</h2>";
+	var output = "<h2 style='margin-left:100px'>Ecloghe</h2>";
 	output += eclogheTemplate(ecloghelist);
-	output += "<h2 style='margin-top:-80px; margin-left:100px'>Rinaldo settings</h2>";
+	output += "<h2 style='margin-top:-80px; margin-left:100px'>Rinaldo</h2>";
 	output += rinaldoTemplate(rinaldolist);
-	output += "<h2 style='margin-top:-80px; margin-left:100px'>Lagrime della Beata Vergine settings</h2>";
+	output += "<h2 style='margin-top:-80px; margin-left:100px'>Lagrime della Beata Vergine</h2>";
 	output += lagrimeTemplate(lagrimelist);
-	output += "<h2 style='margin-top:-80px; margin-left:100px'>Re Torrismondo settings</h2>";
+	output += "<h2 style='margin-top:-80px; margin-left:100px'>Re Torrismondo</h2>";
 	output += torrismondoTemplate(torrismondolist);
 	element.innerHTML = output;
 	showTab("other-heading");
 }
-
 
 
 

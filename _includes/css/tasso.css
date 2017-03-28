@@ -283,7 +283,7 @@ th.composer {
 	margin-right: 5px;
 	text-decoration: none;
 	color: #634f29;
-	background-color: #c8af7a;
+	background-color: {{site.tab_color}};
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
 	padding-left: 10px;

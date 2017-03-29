@@ -1,0 +1,266 @@
+
+<!-- Handlebars templates and support functions for census page
+     vim: ts=3
+  -->
+
+
+<!-- census-template
+		The census template is used to fill in the list of available works
+		found in /data/indexes/worklist.json.
+  -->
+
+{% raw %}
+<script id="census-template" type="text/x-handlebars-template">
+	<table class="census">
+
+	<thead style="color: #B19C5F;">
+		<th onclick="sortByText(0,'a')"    style="cursor:pointer; text-align:left">Catalog</th>
+		<th onclick="sortByText(1,'span')" style="cursor:pointer; text-align:left">Composer</th>
+		<th onclick="sortByNumber(2)"      style="cursor:pointer; text-align:left">Date</th>
+		<th onclick="sortByText(3,'a')"    style="cursor:pointer; text-align:left">Title</th>
+		<th onclick="sortByText(4)"        style="cursor:pointer; text-align:left">Voices</th>
+		<th onclick="sortByNumber(5)"      style="cursor:pointer; text-align:left">Bars</th>
+		<th onclick="sortByNumber(6)"      style="cursor:pointer; text-align:left">Breves</th>
+		<th onclick="sortByNumber(7)"      style="cursor:pointer; text-align:left">Notes</th>
+		<th onclick="sortByNumber(8)"      style="cursor:pointer; text-align:left">Pages</th>
+		<th onclick="sortByMinutes(9)"     style="cursor:pointer; text-align:left">Time</th>
+		<th></th>
+	<thead>
+
+	<tbody>
+
+	{{#works}}
+	<tr class="data">
+	<td><a target="_new" href="/work/?id={{id}}">{{id}}</a></td>
+	<td>{{{composertag comshort comlong}}}</td>
+	<td>{{{workdate}}}</td>
+	<td>{{{cleantitle title id}}}</td>
+	<td style="text-align:center">{{voices}}</td>
+	<td class="bar-item" style="text-align:right">{{barcount}}</td>
+	<td class="breve-item" style="text-align:right">{{brevecount}}</td>
+	<td class="note-item" style="text-align:right">{{notecount}}</td>
+	<td class="page-item" style="text-align:center">{{pg}}</td>
+	<td class="time-item" style="text-align:center">{{timevalue sec}}</td>
+	<td>
+		 <span id="audio_{{id}}" style="cursor:hand; cursor:pointer;" 
+		onclick="PlayAudioFile('{{id}}', this);" href="" class="play audio">play</span>
+	</td>
+	</tr>
+	{{/works}}
+
+	<tr id="total-line">
+	<td></td>
+	<td></td>
+	<td></td>
+	<td style="text-align:right"><i>Totals</i>:</td>
+	<td></td>
+	<td style="text-align:right" id="bar-total"></td>
+	<td style="text-align:right" id="breve-total"></td>
+	<td style="text-align:right" id="note-total"></td>
+	<td style="text-align:center" id="page-total"></td>
+	<td style="text-align:center" id="time-total"></td>
+
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+<script>
+
+
+//////////////////////////////
+//
+// Handlebars timevalue function --
+//
+
+Handlebars.registerHelper('timevalue', function(seconds) {
+	return timevalue(seconds);
+});
+
+
+
+//////////////////////////////
+//
+// cleantitle Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("cleantitle", function(text, id) {
+	text = text.replace(/ANGIOLETTA/i, "<span class=name>Angioletta</span>");
+	text = text.replace(/BARBARA/i, "<span class=name>Barbara</span>");
+	text = "<a target='new' href='{{site.tasso_data_url}}?a=lyrics&id=" + id + "'>" + text + "</a>";
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// composertag Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("composertag", function(shortname, longname) {
+	var text = "<span style='cursor:default' title='" + longname + "'>" + shortname + "</a>";
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// timevalue -- Convert seconds into hours:minutes:seconds.
+//
+
+function timevalue(number) {
+	var time = parseInt(number);
+	var hours = 0;
+	var min   = 0;
+	var sec   = 0;
+	if (time / 3600 >= 1) {
+		hours = parseInt(time / 3600);
+		time = time - 3600 * hours;
+	}
+	if (time / 60 >= 1) {
+		min = parseInt(time / 60);
+		time = time - 60 * min;
+	}
+	sec = time;
+	var output = "";
+
+	if (hours > 0) {
+		output += hours;
+		output += ":";
+	}
+
+	if (min > 0 || hours > 0) {
+		if (min < 10 && hours > 0) { output += "0"; }
+		output += min;
+		output += ":";
+	}
+
+	if (sec < 10) { output += "0"; }
+	output += sec;
+
+	return output;
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Table column sorting functions --
+//
+
+
+//////////////////////////////
+//
+// sortByNumber --
+//
+
+function sortByNumber(index) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = parseInt(a.cells[index].innerHTML);
+		var B = parseInt(b.cells[index].innerHTML);
+		if (A < B)      { return -1 }
+		else if (A > B) { return +1 }
+		else            { return 0  }
+	});
+	var totalline = document.querySelector("#total-line");
+	var body = document.querySelector("table.census tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+	body.appendChild(totalline);
+}
+
+
+
+//////////////////////////////
+//
+// sortByLinkText --
+//
+
+function sortByText(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].innerHTML;
+			B = b.cells[index].innerHTML;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+	var totalline = document.querySelector("#total-line");
+	var body = document.querySelector("table.census tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+	body.appendChild(totalline);
+}
+
+
+
+//////////////////////////////
+//
+// sortByMinutes --
+//
+
+function sortByMinutes(index) {
+	// expand later to hours.
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = a.cells[index].innerHTML;
+		var B = b.cells[index].innerHTML;
+		var matches;
+		var asec = 0;
+		var bsec = 0;
+		if (matches = A.match(/(\d+):(\d+)/)) {
+			asec = 60 * parseInt(matches[1]) + parseInt(matches[2]);
+		}
+		if (matches = B.match(/(\d+):(\d+)/)) {
+			bsec = 60 * parseInt(matches[1]) + parseInt(matches[2]);
+		}
+		if (asec < bsec) {
+			return -1;
+		} else if (asec > bsec) {
+			return +1;
+		} else {
+			return 0;
+		}
+	});
+	var totalline = document.querySelector("#total-line");
+	var body = document.querySelector("table.census tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+	body.appendChild(totalline);
+}
+
+
+</script>
+
+
+

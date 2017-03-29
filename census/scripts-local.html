@@ -1,19 +1,18 @@
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
-
 <script src="/scripts/scripts-common.js"></script>
+
+{% include_relative templates.html %}
 
 <script>
 //
-// Programmer:		Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 // Creation Date: Mon Oct 13 15:56:47 PDT 2014
-// Last Modified: Tue Mar 28 07:56:45 PDT 2017
-// Filename:		census/scripts-local.html
-// Syntax:			JavaScript 1.8/ECMAScript 5
-// vim:				ts=3: ft=javascript
+// Last Modified: Wed Mar 29 01:40:58 PDT 2017
+// Filename:      census/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
 //
-// Description:	JavaScript management of the Tasso census page.
+// Description:   JavaScript management of the Tasso census page.
 //
 
 var WORKLISTsections;
@@ -24,47 +23,56 @@ var WORKLISTsections;
 // DOMContentLoaded event handler --
 //
 
-document.addEventListener("DOMContentLoaded", function() {
-	loadWorkList("{{site.worklist}}");
-});
+document.addEventListener("DOMContentLoaded",
+	function() {
+		loadWorkList("{{site.worklist}}");
+	}
+);
 
 
+
+//////////////////////////////
+//
+// loadWorkList --
+//
 
 function loadWorkList(url) {
 	if (!url) {
 		url = "{{site.worklist}}";
 	}
-	var counter = 0;
 
 	if (sessionStorage.WORKLIST) {
 		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-		counter++;
+		continueSetup();
 	} else {
 		var request = new XMLHttpRequest();
 		request.open("GET", url);
 		request.addEventListener("load", function() {
 			WORKLIST = JSON.parse(this.responseText);
-         sessionStorage.WORKLIST = this.responseText;
-         counter++;
-         if (counter == 1) {
-            continueSetup();
-				counter++;
-         }
+			sessionStorage.WORKLIST = this.responseText;
+			continueSetup();
 		});
 		request.send();
-	}
-	if (counter == 1) {
-		continueSetup();
-		counter++;
 	}
 }
 
 
+
+//////////////////////////////
+//
+// continueSetup --
+//
 
 function continueSetup() {
 	showWorkCensus("#censustable");
 }
 
+
+
+//////////////////////////////
+//
+// showWorkCensus --
+//
 
 function showWorkCensus(target) {
 	if (!target) {
@@ -77,21 +85,25 @@ function showWorkCensus(target) {
 
 	var tsource = document.querySelector("#census-template").textContent;
 	var censusTemplate = Handlebars.compile(tsource);
-console.log("tsource", tsource);
-console.log("GOT HERE AAA", WORKLIST[0]);
 	var output = censusTemplate(WORKLIST[0]);
 	element.innerHTML = output;
 	generateTotals();
 }
 
 
+
+//////////////////////////////
+//
+// generateTotals --
+//
+
 function generateTotals() {
 	var sum;
 	var i;
 	var total = document.querySelector("#note-total");
 	var items = document.querySelectorAll(".note-item");
-	counter = items.length;
-   var count = document.querySelector("#count");
+	var counter = items.length;
+	var count = document.querySelector("#count");
 	count.innerHTML = counter;
 
 	sum = 0;
@@ -124,7 +136,7 @@ function generateTotals() {
 				sumsec += parseInt(matches[2]);
 			}
 		}
-      summin += parseInt(sumsec / 60);
+		summin += parseInt(sumsec / 60);
 		sumsec = sumsec = parseInt(sumsec / 60);
  		if (sumsec < 10) {
 	 		sumsec = "0" + sumsec;
@@ -134,267 +146,6 @@ function generateTotals() {
 
 }
 
-</script>
-
-
-
-
-<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
-
-{% raw %}
-
-<!-- census-template
-		The census template is used to fill in the list of available works
-		found in /data/indexes/worklist.json.
--->
-
-<script id="census-template" type="text/x-handlebars-template">
-	<table class="census">
-
-	<thead style="color: #B19C5F;">
-		<th onclick="sortByText(0)"     style="cursor:pointer; text-align:left">Catalog</th>
-		<th onclick="sortByText(1)"     style="cursor:pointer; text-align:left">Composer</th>
-		<th onclick="sortByNumber(2)"   style="cursor:pointer; text-align:left">Date</th>
-		<th onclick="sortByLinkText(3)" style="cursor:pointer; text-align:left">Title</th>
-		<th onclick="sortByText(4)"   style="cursor:pointer; text-align:left">Voices</th>
-		<th onclick="sortByNumber(5)"   style="cursor:pointer; text-align:left">Bars</th>
-		<th onclick="sortByNumber(6)"   style="cursor:pointer; text-align:left">Breves</th>
-		<th onclick="sortByNumber(7)"   style="cursor:pointer; text-align:left">Notes</th>
-		<th onclick="sortByNumber(8)"   style="cursor:pointer; text-align:left">Pages</th>
-		<th onclick="sortByMinutes(9)"  style="cursor:pointer; text-align:left">Time</th>
-		<th></th>
-	<thead>
-
-	<tbody>
-
-	{{#works}}
-	<tr class="data">
-	<td><a target="_new" href="/work/?id={{id}}">{{id}}</a></td>
-	<td>{{{composertag comshort comlong}}}</td>
-	<td>{{{workdate}}}</td>
-	<td>{{{cleantitle title id}}}</td>
-	<td style="text-align:center">{{voices}}</td>
-	<td class="bar-item" style="text-align:right">{{barcount}}</td>
-	<td class="breve-item" style="text-align:right">{{brevecount}}</td>
-	<td class="note-item" style="text-align:right">{{notecount}}</td>
-	<td class="page-item" style="text-align:center">{{pg}}</td>
-	<td class="time-item" style="text-align:center">{{timevalue sec}}</td>
-	<td>
-       <span id="audio_{{id}}" style="cursor:hand; cursor:pointer;" 
-		onclick="PlayAudioFile('{{id}}', this);" href="" class="play audio">play</span>
-	</td>
-	</tr>
-	{{/works}}
-
-	<tr id="total-line">
-	<td></td>
-	<td></td>
-	<td></td>
-	<td style="text-align:right"><i>Totals</i>:</td>
-	<td></td>
-	<td style="text-align:right" id="bar-total"></td>
-	<td style="text-align:right" id="breve-total"></td>
-	<td style="text-align:right" id="note-total"></td>
-	<td style="text-align:center" id="page-total"></td>
-	<td style="text-align:center" id="time-total"></td>
-
-	</tbody>
-	</table>
-</script>
-
-
-<script>
-
-
-//////////////////////////////
-//
-// Handlebars timevalue function --
-//
-
-Handlebars.registerHelper('timevalue', function(seconds) {
-   return timevalue(seconds);
-});
-
-
-
-//////////////////////////////
-//
-// cleantitle Handlebar helper  -- Prevent linebreak after RISM and its number.
-//
-
-Handlebars.registerHelper("cleantitle", function(text, id) {
-	text = text.replace(/ANGIOLETTA/i, "<span class=name>Angioletta</span>");
-	text = text.replace(/BARBARA/i, "<span class=name>Barbara</span>");
-	text = "<a target='new' href=http://josquin.stanford.edu/data?a=lyrics&id=" + id + ">" + text + "</a>";
-   return new Handlebars.SafeString(text);
-});
-
-
-
-//////////////////////////////
-//
-// cleantitle Handlebar helper  -- Prevent linebreak after RISM and its number.
-//
-
-Handlebars.registerHelper("composertag", function(shortname, longname) {
-	var text = "<span style='cursor:default' title='" + longname + "'>" + shortname + "</a>";
-   return new Handlebars.SafeString(text);
-});
-
-
-
-//////////////////////////////
-//
-// timevalue --
-//
-
-function timevalue(number) {
-   var time = parseInt(number);
-   var hours = 0;
-   var min   = 0;
-   var sec   = 0;
-	if (time / 3600 >= 1) {
-		hours = parseInt(time / 3600);
-		time = time - 3600 * hours;
-   }
-	if (time / 60 >= 1) {
-		min = parseInt(time / 60);
-		time = time - 60 * min;
-   }
-   sec = time;
-   var output = "";
-
-   if (hours > 0) {
-		output += hours;
-		output += ":";
-   }
-
-   if (min > 0 || hours > 0) {
-		if (min < 10 && hours > 0) { output += "0"; }
-		output += min;
-		output += ":";
-   }
-
-	if (sec < 10) { output += "0"; }
-	output += sec;
-
-	return output;
-}
-
-
-
-function sortByNumber(index) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
-	for (i=0; i<data.length; i++) {
-		datalist.push(data[i]);
-	}
-	datalist.sort(function(a, b) {
-		var A = parseInt(a.cells[index].innerHTML);
-		var B = parseInt(b.cells[index].innerHTML);
-		if (A < B)      { return -1 }
-		else if (A > B) { return +1 }
-		else            { return 0  }
-	});
-	var totalline = document.querySelector("#total-line");
-	var body = document.querySelector("table.census tbody");
-	body.innerHTML = "";
-	for (i=0; i<datalist.length; i++) {
-		body.appendChild(datalist[i]);
-	}
-	body.appendChild(totalline);
-}
-
-
-
-function sortByLinkText(index) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
-	for (i=0; i<data.length; i++) {
-		datalist.push(data[i]);
-	}
-	datalist.sort(function(a, b) {
-		var A = a.cells[index].querySelector("a").innerHTML;
-		var B = b.cells[index].querySelector("a").innerHTML;
-		var result = A.localeCompare(B);
-		return result;
-	});
-	var totalline = document.querySelector("#total-line");
-	var body = document.querySelector("table.census tbody");
-	body.innerHTML = "";
-	for (i=0; i<datalist.length; i++) {
-		body.appendChild(datalist[i]);
-	}
-	body.appendChild(totalline);
-}
-
-
-function sortByText(index) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
-	for (i=0; i<data.length; i++) {
-		datalist.push(data[i]);
-	}
-	datalist.sort(function(a, b) {
-		var A = a.cells[index].innerHTML;
-		var B = b.cells[index].innerHTML;
-		var result = A.localeCompare(B);
-		return result;
-	});
-	var totalline = document.querySelector("#total-line");
-	var body = document.querySelector("table.census tbody");
-	body.innerHTML = "";
-	for (i=0; i<datalist.length; i++) {
-		body.appendChild(datalist[i]);
-	}
-	body.appendChild(totalline);
-}
-
-
-
-function sortByMinutes(index) {
-   // expand later to hours.
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
-	for (i=0; i<data.length; i++) {
-		datalist.push(data[i]);
-	}
-	datalist.sort(function(a, b) {
-		var A = a.cells[index].innerHTML;
-		var B = b.cells[index].innerHTML;
-		var matches;
-		var asec = 0;
-		var bsec = 0;
-		if (matches = A.match(/(\d+):(\d+)/)) {
-			asec = 60 * parseInt(matches[1]) + parseInt(matches[2]);
-		}
-		if (matches = B.match(/(\d+):(\d+)/)) {
-			bsec = 60 * parseInt(matches[1]) + parseInt(matches[2]);
-		}
-		if (asec < bsec) {
-			return -1;
-		} else if (asec > bsec) {
-			return +1;
-		} else {
-			return 0;
-		}
-	});
-	var totalline = document.querySelector("#total-line");
-	var body = document.querySelector("table.census tbody");
-	body.innerHTML = "";
-	for (i=0; i<datalist.length; i++) {
-		body.appendChild(datalist[i]);
-	}
-	body.appendChild(totalline);
-}
-
-{% endraw %}
 
 </script>
-
-
 

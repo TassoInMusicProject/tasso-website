@@ -26,7 +26,7 @@ var vrvOptions = {
 	font: "Leipzig",
 	scale: 40
 };
-
+var CURRENT_PAGE = 1;
 
 
 //////////////////////////////
@@ -206,10 +206,12 @@ function displaySingleWork(id, target) {
 	var setting = GetSettingEntry(id);
 	var work = GetWorkEntry(id);
 	setting.ih = work.ih;
+	setting.TITLE = work.title;
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
 	var output = singleTemplate(setting);
 	element.innerHTML = output;
+	CURRENT_PAGE = 1;
 
 	getHumdrum(id);
 	getRange(id);
@@ -298,10 +300,10 @@ function getCriticalReportNoRecurse(id) {
 
 //////////////////////////////
 //
-// generateVerovioNotation --
+// initializeVerovioNotation --
 //
 
-function generateVerovioNotation(sourceid, targetid) {
+function initializeVerovioNotation(sourceid, targetid) {
 	var target = document.querySelector("#" + targetid);
 	if (!target) {
 		console.log("Cannot find target id:", targetid);
@@ -314,21 +316,78 @@ function generateVerovioNotation(sourceid, targetid) {
 		return;
 	}
 	var content = source.textContent;
-console.log("CONTENT", content);
+	var matches;
+	if (matches = content.match(/^(\*\*.*)/m)) {
+		var tokens = matches[1].split("\t");
+		var kcount = 0;
+		var tcount = 0;
+		for (var i=0; i<tokens.length; i++) {
+			if (tokens[i] === "**kern") {
+				kcount++;
+			} else if (tokens[i] === "**text") {
+				tcount++;
+			}
+		}
+	}
 
 	if (!vrvToolkit) {
 		console.log("Error: verovio toolkit not available");
 		return;
 	}
 
-console.log("VRVOPTIONS", vrvOptions);
-	var svg = vrvToolkit.renderData(content, vrvOptions);
-console.log("SVG", svg);
-	target.innerHTML = svg;
-console.log("GENERATED SVG:", target);
+	vrvOptions.pageHeight = 1000;
 
+	if (kcount > 0) {
+		vrvOptions.pageHeight = 230 * kcount + 80 * tcount;
+		target.style.height = parseInt(vrvOptions.pageHeight / 3.8 + 100 ) + "px";
+	}
+
+	vrvToolkit.setOptions(vrvOptions);
+	vrvToolkit.loadData(content);
+
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+	var svg = vrvToolkit.renderPage(CURRENT_PAGE);
+	target.innerHTML = svg;
 
 }
+
+
+
+//////////////////////////////
+//
+// incrementVerovioPage --
+//
+
+function incrementVerovioPage(direction) {
+	CURRENT_PAGE += direction;
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+
+	var target = document.querySelector("#verovio-display");
+	if (!target) {
+		console.log("Cannot find target id: #verovio-display");
+		return;
+	}
+
+	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
+	target.innerHTML = svg;
+
+}
+
+
 
 
 //////////////////////////////
@@ -346,30 +405,7 @@ function getHumdrum(id) {
 
 	if (localStorage[tag]) {
 		element.textContent = localStorage[tag];
-		generateVerovioNotation("humdrum-data", "verovio-display");
-
-/*
-		if (element) {
-			tagcontent = localStorage[tag];
-			var output = "";
-			output += "<table>";
-			output += "<tr style='vertical-align:top'><td>";
-			output += "<a target=_new href=https://josquin.stanford.edu/cgi-bin/tasso?a=notation&id=" + id+ ">";
-			output += "<img src=\"" +  tagcontent + "\">";
-			output += "</a>";
-			output += "</td><td>";
-
-			output += '<span id="audio_' + id;
-			output += '" style="cursor:hand; cursor:pointer;" ';
-			output += 'onclick="PlayAudioFile(\'' + id;
-			output += '\', this);" href="" class="play">play</span>';
-
-			output += "</td></tr>";
-			output += "</table>";
-			element.innerHTML = output;
-
-		}
-*/
+		initializeVerovioNotation("humdrum-data", "verovio-display");
 	} else {
 		var action = "humdrum";
 		var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=" + action + "&id=" + id;
@@ -380,47 +416,11 @@ function getHumdrum(id) {
 			localStorage[tag] = data;
 			if (element) {
 				element.textContent = data;
-				generateVerovioNotation("humdrum-data", "verovio-display");
+				initializeVerovioNotation("humdrum-data", "verovio-display");
 			}
 		});
 		request.send()
 	}
-
-
-/*
-
-	} else {
-		var action = "incipit-mime";
-
-		var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=" + action + "&id=" + id;
-		var request = new XMLHttpRequest();
-		request.open('GET', url);
-		request.addEventListener("load", function() {
-			var data = this.responseText;
-			localStorage[tag] = data;
-			if (element) {
-				tagcontent = data;
-				element.innerHTML = output;
-
-				output += "<table>";
-				output += "<tr style='vertical-align:top'><td>";
-				output += "<a target=_new href=http://josquin.stanford.edu/cgi-bin/tasso?a=notation&id=" + id+ ">";
-				output += "<img src=\"" +  tagcontent + "\">";
-				output += "</a>";
-				output += "</td><td>";
-				output += '<span id="audio_' + id;
-				output += '" style="cursor:hand; cursor:pointer;" ';
-				output += 'onclick="PlayAudioFile(\'' + id;
-				output += '\', this);" href="" class="play">play</span>';
-				output += "</td></tr>";
-				output += "</table>";
-				element.innerHTML = output;
-
-			}
-		});
-		request.send()
-	}
-*/
 
 	getHumdrumNoRecurse(ORDER[id].next);
 	getHumdrumNoRecurse(ORDER[id].previous);

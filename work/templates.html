@@ -62,7 +62,7 @@
 				</nobr>
 			</td>
 			<td style='width:100%; text-align:center'>
-				<h2>{{{formatComposer COMPOSER}}}<br>{{{formatTitle POEMTITLE}}}
+				<h2>{{{formatComposer COMPOSER}}}<br>{{{formatTitle TITLE}}}
 				(<i>Rime</i> {{{id2rime CATALOGNUM}}})</h2>
 			</td>
 			<td class='triangle'>
@@ -76,6 +76,13 @@
 	<span id="audio_{{CATALOGNUM}}" title="play" style="display:block; float:right; padding-bottom:2px; cursor:hand; cursor:pointer;" onclick="PlayAudioFile('{{CATALOGNUM}}', this);" href="" class="play">play</span>
 	<div style="padding-top:-150px; width:1000px; height:350px;" id="verovio-display"></div>
 	</div>
+	<table width="100%">
+	<tr>
+	<td width="50%">
+	<span style="margin-left:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">previous system</span>
+	</td><td width="50%" style="text-align:right">
+	<span style="margin-right:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">next system</span>
+	</td></tr></table>
 
 
 

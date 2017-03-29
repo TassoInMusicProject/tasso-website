@@ -5,7 +5,9 @@ style-local: true
 permalink: /about/index.html
 ---
 
-<div style="height:900px"></div>
+Description of TMP goes here.
+
+<div style="height:800px"></div>
 
 {% include logos.html %}
 

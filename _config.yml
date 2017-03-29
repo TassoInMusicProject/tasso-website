@@ -20,7 +20,12 @@ defaults:
       type: "main"
     values:
       layout: "main"
-
+  -
+    scope:
+      path: ""
+      type: "full"
+    values:
+      layout: "full"
 
 
 markdown: kramdown
@@ -57,6 +62,7 @@ other_settings: /data/indexes/other-setttings.aton
 rime_verses: /data/indexes/rime-verses.aton
 
 literary_prints: /data/indexes/literary-prints.aton
+literary_manuscripts: /data/indexes/literary-manuscripts.aton
 
 
 ### CSS variables ##########################################

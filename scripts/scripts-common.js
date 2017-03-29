@@ -815,7 +815,7 @@ function GetSettingEntry(id, settinglist) {
 	if (!id) {
 		return null;
 	}
-	var list = settinglist.SETTING;
+	var list = settinglist;
    for (var i=0; i<list.length; i++) {
 		if (id == list[i].CATALOGNUM) {
 			return list[i];

@@ -1,0 +1,141 @@
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+<!--
+	vim: ts=3
+-->
+
+<!-- worklist-template
+		The worklist template is used to fill in the list of available works.
+-->
+
+{% raw %}
+<script id="worklist-template" type="text/x-handlebars-template">
+	<table class="worklist">
+
+	<thead style="color: #B19C5F;">
+		<th onclick="sortByText(0)" style="cursor:pointer; text-align:left">Catalog</th>
+		<th onclick="sortByText(1)" style="cursor:pointer; text-align:left">Composer</th>
+		<th onclick="sortByNumber(2)" style="cursor:pointer; text-align:left">Date</th>
+		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left">Title</th>
+		<th onclick="sortByText(4)" style="cursor:pointer; text-align:left">Voices</th>
+		<th style="cursor:pointer; text-align:left"></th>
+		<th></th>
+	<thead>
+
+	<tbody>
+
+	{{#works}}
+	<tr class="data">
+		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{id}}</td>
+		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;"> <nobr>{{{shortcomposer2 comlong}}}</nobr></td>
+		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{{workdate}}}</td>
+		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{title title}}}</td>
+		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{voices}}}</td>
+		<td>
+			<span id="audio_{{id}}" style="cursor:hand; cursor:pointer;"
+			onclick="PlayAudioFile('{{id}}', this);"
+			href="" class="play">play</span>
+		</td>
+	</tr>
+	{{/works}}
+
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+
+<!-- singlework-template
+		The singlework template is used to fill in work page for a particular work.
+-->
+
+{% raw %}
+<script id="singlework-template" type="text/x-handlebars-template">
+	<center>
+		<table style='width=100%; margin-top:-50px; padding-left:0px; padding-right:0px; width:100%'>
+		<tr>
+			<td class="triangle">
+				<nobr>
+				<span class="triangle" onclick="displayPreviousWork();">&#9664;</span>
+				<span class="triangle above" onclick="displayWorkList();">&#9650;</span>
+				</nobr>
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h2>{{{formatComposer COMPOSER}}}<br>{{{formatTitle POEMTITLE}}}
+				(<i>Rime</i> {{{id2rime CATALOGNUM}}})</h2>
+			</td>
+			<td class='triangle'>
+				<span class="triangle" onclick="displayNextWork();">&#9654;</span>
+			</td>
+		</tr>
+		</table>
+	</center>
+
+	<div>
+	<span id="audio_{{CATALOGNUM}}" title="play" style="display:block; float:right; padding-bottom:2px; cursor:hand; cursor:pointer;" onclick="PlayAudioFile('{{CATALOGNUM}}', this);" href="" class="play">play</span>
+	<div style="padding-top:-150px; width:1000px; height:350px;" id="verovio-display"></div>
+	</div>
+
+
+
+	<div style="width:1000px;" id="range"></div>
+
+	<h3>Data Transformations for {{CATALOGNUM}}</h3>
+	<div class="indent">
+	<table class="downloads">
+	<tr>
+		<td>
+			<ul>
+				<li> <a class="icon-file"      
+					target="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=notation&f={{CATALOGNUM}}">PDF score</a></li>
+				<li> <a class="icon-midi"      
+					target="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
+				<li> <a class="icon-file-list" 
+					target="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=humdrum&f={{CATALOGNUM}}">Humdrum</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li> <a class="icon-list" 
+					taget="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=notearray&f={{CATALOGNUM}}">NoteArray</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=proll&f={{CATALOGNUM}}">Piano Roll</a></li>
+			</ul>
+		</td>
+
+		<td>
+			<ul>
+				<li> <a class="icon-list" 
+					taget="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=mei&f={{CATALOGNUM}}">MEI</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
+			</ul>
+		</td>
+	</tr>
+	</table>
+	</div>
+
+
+	<h3 style="margin-top:0; patting-top:0;"> Analysis tools </h3>
+
+	<ul>
+	<li> <a taget="new" href="http://josquin.stanford.edu/cgi-bin/tasso?a=lyrics&f={{CATALOGNUM}}">Lyric text</a>: automatically extraction of sung text by voice with word counts.
+	<li> <a target="new" href="/proll?id={{CATALOGNUM}}">proll</a>: graphical notation of pitch and rhythm, colored by voice.
+	<li> <a target="new" href="http://verovio.humdrum.org/?tasso={{CATALOGNUM}}">VHV</a>: Load work into the Verovio Humdrum Viewer, an interactive online Humdrum editor.
+	</ul>
+
+
+  {{{verses VERSES TRANSLATION CATALOGNUM}}}
+
+	<span id="report_{{CATALOGNUM}}"></span>
+
+	<script id="humdrum-data" type="application/x-humdrum"></script>
+
+</script>
+{% endraw %}
+

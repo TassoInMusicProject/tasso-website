@@ -1,0 +1,52 @@
+<script>
+// vim: ts=3
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	vrvToolkit = new verovio.toolkit();
+console.log("CREATED VRV TOOLKIT", vrvToolkit);
+	HighlightNavigationBar();
+	var cgi = GetCgiParameters();
+	ID = cgi.id;
+	loadWorkList("{{site.worklist}}");
+	checkLocalStorage();
+});
+
+
+
+//////////////////////////////
+//
+// keydown event listener --
+//
+
+window.addEventListener('keydown',
+	function(event) {
+		if (event.metaKey) {
+			return;
+		}
+
+		switch (event.keyCode) {
+			case LeftArrowKey:
+				displayPreviousWork();
+				event.preventDefault();
+				break;
+			case RightArrowKey:
+				displayNextWork();
+				event.preventDefault();
+				break;
+			case UpArrowKey:
+				if (event.shiftKey) {
+					displayWorkList();
+					event.preventDefault();
+				}
+				break;
+		}
+	}
+);
+
+</script>
+

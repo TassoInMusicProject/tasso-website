@@ -1,0 +1,141 @@
+
+input[type='checkbox'] {
+	opacity: 1.0;
+   width:18px;
+   height:18px;
+}
+
+input[type='checkbox'] + label {
+	display: inline;
+	font-family: Lusitana;
+	font-size:      105%;
+	font-weight:   bold;
+}
+
+input[type='checkbox'] + label > span {
+	text-shadow:  0px 0px 1px #000;
+}
+
+body#white {
+	/* background: white; */
+	background: #e5e5e5;
+}
+
+div#home-page {
+	width: 100%;
+}
+
+svg {
+	display: none;
+}
+
+svg rect.highlight {
+	fill:    white;
+	opacity: 1;
+}
+
+#content {
+	background: #e5e5e5;
+}
+
+svg rect.note:hover {
+	/* fill:    red; */
+	stroke:  red;
+	stroke-width: 10;
+}
+
+div#title-header {
+	position:      fixed;
+	width:         100%;
+	background:    #e5e5e5;
+	/* background:    white; */
+	margin-top:    -20px;
+	margin-left:    0px;
+	padding-bottom: 10px;
+	padding-left:   20px;
+	z-index:        10;
+	opacity:        0.9;
+}
+
+table#buttons {
+	display:    none;
+	visibility: hidden;
+}
+
+table#buttons tr td {
+	padding:       7px;
+	min-width:   150px;
+}
+
+#voice-container table td {
+	padding-left: 20px;
+}
+
+div#svg-container {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	height: 50%;
+}
+
+
+span#audio2.play {
+/*	width: 29px;
+	height: 28px; */
+	background: url(../images/square-play2.png) no-repeat 0 0;
+	margin-left: 5px;
+	top: 0;
+}
+
+span#audio2.pause {
+/*	width: 29px;
+	height: 28px; */
+	background: url(../images/square-pause2.png) no-repeat 0 0;
+	margin-left: 5px;
+	top: 0;
+}
+
+#help-container {
+	-moz-box-shadow:    -1px -1px 25px #888;
+	-webkit-box-shadow: -1px -1px 25px #888;
+	box-shadow:         -1px -1px 25px #888;
+
+	border-radius: 11px;
+	position:fixed;
+	bottom:0%;
+	right:0%;
+	background:#ffeeee;
+	margin-bottom:5px;
+	width:390px;
+	opacity:0.9;
+	padding:30px;
+}
+
+#search-help {
+   margin-right: 25px;
+   margin-top:   35px;
+}
+
+table#help-table td {
+	text-align: left;
+	vertical-align:top;
+}
+
+table#help-table tr {
+	vertical-align:top;
+}
+
+table#help-table td:first-child {
+	padding-right:20px;
+}
+
+
+#title-container {
+	display: block;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.name {
+	font-variant: small-caps;
+}

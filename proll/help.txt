@@ -1,0 +1,23 @@
+= / &ndash;	Zoom in/out
+space	Start/stop playback
+shft-&larr;	Go to previous work
+shft-&rarr;	Go to next work
+<nobr>ctl-shft-&larr;<nobr>	Go to previous repertory
+ctl-shft-&rarr;	Go to next repertory
+0	Hide all voices
+00	Show all voices
+
+<p> <b>Toggling commands</b> </p>
+
+1	Show/hide 1st voice
+shift-1	Showing only 1st voice/except 1st voice
+G	Grand-staff display
+H	Full-height view
+W	Full-width view
+L	Melodic-line display
+R	Round/square notes
+X	Max pitch marks by voice
+N	Min pitch marks by voice
+T	Title display
+B	Light/dark background
+?	Display of this help window

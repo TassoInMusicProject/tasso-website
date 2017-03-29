@@ -1,12 +1,15 @@
 <script src="/scripts/scripts-common.js"></script>
 
+{% include_relative templates.html %}
+
+{% include_relative listeners.html %}
+
 <script>
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 // Creation Date: Thu Mar 31 21:34:11 PDT 2016
-// Last Modified: Sat Apr  2 23:49:41 PDT 2016
-// Filename:      settings/scripts-local.html
-// Web Address:   http://www.tassomusic.org/work/scripts-local.html
+// Last Modified: Tue Mar 28 16:03:55 PDT 2017
+// Filename:      work/scripts-local.html
 // Syntax:        JavaScript 1.8/ECMAScript 5
 // vim:           ts=3: ft=javascript
 //
@@ -16,20 +19,13 @@
 var ORDER = {};
 var REPORT = {};
 var ID = "";
-
-
-//////////////////////////////
-//
-// DOMContentLoaded event listener --
-//
-
-document.addEventListener("DOMContentLoaded", function() {
-	HighlightNavigationBar();
-	var cgi = GetCgiParameters();
-	ID = cgi.id;
-	loadWorkList("{{site.worklist}}");
-   checkLocalStorage();
-});
+var vrvToolkit;
+var vrvOptions = {
+	pageWidth: 2500,
+	pageHeight: 1000,
+	font: "Leipzig",
+	scale: 40
+};
 
 
 
@@ -39,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 //
 
 function checkLocalStorage() {
-   var timestamp = localStorage.timestamp;
+	var timestamp = localStorage.timestamp;
 	if (!timestamp) {
 		localStorage.clear();
 	}
@@ -51,35 +47,6 @@ function checkLocalStorage() {
 }
 
 
-
-//////////////////////////////
-//
-// process Window keys down:
-//
-
-window.addEventListener('keydown', function(event) {
-	if (event.metaKey) {
-		return;
-	}
-
-	switch (event.keyCode) {
-		case LeftArrowKey:
-			displayPreviousWork();
-			event.preventDefault();
-			break;
-		case RightArrowKey:
-			displayNextWork();
-			event.preventDefault();
-			break;
-		case UpArrowKey:
-			if (event.shiftKey) {
-				displayWorkList();
-				event.preventDefault();
-			}
-			break;
-	}
-
-});
 
 
 
@@ -102,7 +69,7 @@ function loadWorkList(url) {
 		request.open("GET", "{{site.rime_settings}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			SETLIST = aton.parse(this.responseText).RIME;
+			SETLIST = aton.parse(this.responseText).RIME_SETTING;
 			sessionStorage.SETLIST = JSON.stringify(SETLIST);
 			counter++;
 			if (counter == 2) {
@@ -244,7 +211,7 @@ function displaySingleWork(id, target) {
 	var output = singleTemplate(setting);
 	element.innerHTML = output;
 
-	getIncipit(id);
+	getHumdrum(id);
 	getRange(id);
 	getCriticalNotes(id);
 }
@@ -296,7 +263,7 @@ function getCriticalNotes(id) {
 
 function addCatalogLinks(text) {
 	var re = /(Trm\d\d\d\d[a-z]+)/g;
-   return text.replace(re, function(match, id) {
+	return text.replace(re, function(match, id) {
 		if (id) {
 			return "<a href='/work?id=" + id + "'>" + id + "</a>";
 		}
@@ -329,40 +296,103 @@ function getCriticalReportNoRecurse(id) {
 }
 
 
+//////////////////////////////
+//
+// generateVerovioNotation --
+//
+
+function generateVerovioNotation(sourceid, targetid) {
+	var target = document.querySelector("#" + targetid);
+	if (!target) {
+		console.log("Cannot find target id:", targetid);
+		return;
+	}
+
+	var source = document.querySelector("#" + sourceid);
+	if (!source) {
+		console.log("Cannot find source id:", sourceid);
+		return;
+	}
+	var content = source.textContent;
+console.log("CONTENT", content);
+
+	if (!vrvToolkit) {
+		console.log("Error: verovio toolkit not available");
+		return;
+	}
+
+console.log("VRVOPTIONS", vrvOptions);
+	var svg = vrvToolkit.renderData(content, vrvOptions);
+console.log("SVG", svg);
+	target.innerHTML = svg;
+console.log("GENERATED SVG:", target);
+
+
+}
+
 
 //////////////////////////////
 //
-// getIncipit --
+// getHumdrum --
 //
 
-function getIncipit(id) {
-	var tag = "incipit_" + id;
+function getHumdrum(id) {
+	var tag = "humdrum_" + id;
 	var tagcontent;
-	var element = document.querySelector("#" + tag);
-	var output = "";
+	var element = document.querySelector("#humdrum-data");
+	if (!element) {
+		return;
+	}
 
 	if (localStorage[tag]) {
+		element.textContent = localStorage[tag];
+		generateVerovioNotation("humdrum-data", "verovio-display");
+
+/*
 		if (element) {
 			tagcontent = localStorage[tag];
-
+			var output = "";
 			output += "<table>";
 			output += "<tr style='vertical-align:top'><td>";
-			output += "<a target=_new href=/data?a=notation&id=" + id+ ">";
+			output += "<a target=_new href=https://josquin.stanford.edu/cgi-bin/tasso?a=notation&id=" + id+ ">";
 			output += "<img src=\"" +  tagcontent + "\">";
 			output += "</a>";
 			output += "</td><td>";
+
 			output += '<span id="audio_' + id;
 			output += '" style="cursor:hand; cursor:pointer;" ';
 			output += 'onclick="PlayAudioFile(\'' + id;
 			output += '\', this);" href="" class="play">play</span>';
+
 			output += "</td></tr>";
 			output += "</table>";
 			element.innerHTML = output;
 
 		}
+*/
+	} else {
+		var action = "humdrum";
+		var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=" + action + "&id=" + id;
+		var request = new XMLHttpRequest();
+		request.open('GET', url);
+		request.addEventListener("load", function() {
+			var data = this.responseText;
+			localStorage[tag] = data;
+			if (element) {
+				element.textContent = data;
+				generateVerovioNotation("humdrum-data", "verovio-display");
+			}
+		});
+		request.send()
+	}
+
+
+/*
+
 	} else {
 		var action = "incipit-mime";
-		var url = "/data?a=" + action + "&id=" + id;
+
+		var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=" + action + "&id=" + id;
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
@@ -374,7 +404,7 @@ function getIncipit(id) {
 
 				output += "<table>";
 				output += "<tr style='vertical-align:top'><td>";
-				output += "<a target=_new href=/data?a=notation&id=" + id+ ">";
+				output += "<a target=_new href=http://josquin.stanford.edu/cgi-bin/tasso?a=notation&id=" + id+ ">";
 				output += "<img src=\"" +  tagcontent + "\">";
 				output += "</a>";
 				output += "</td><td>";
@@ -390,26 +420,27 @@ function getIncipit(id) {
 		});
 		request.send()
 	}
+*/
 
-	getIncipitNoRecurse(ORDER[id].next);
-	getIncipitNoRecurse(ORDER[id].previous);
+	getHumdrumNoRecurse(ORDER[id].next);
+	getHumdrumNoRecurse(ORDER[id].previous);
 }
 
 
 
 //////////////////////////////
 //
-// getIncipitNoRecurse --
+// getHumdrumNoRecurse --
 //
 
-function getIncipitNoRecurse(id) {
-	var tag = "incipit_" + id;
+function getHumdrumNoRecurse(id) {
+	var tag = "humdrum_" + id;
 	if (localStorage[tag]) {
 		return;
 	}
 
-	var action = "incipit-mime";
-	var url = "/data?a=" + action + "&id=" + id
+	var action = "humdrum";
+	var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=" + action + "&id=" + id
 	var request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {
@@ -427,7 +458,7 @@ function getIncipitNoRecurse(id) {
 //
 
 function getRange(id) {
-	var tag = "range_" + id;
+	var tag = "range";
 	var element = document.querySelector("#" + tag);
 	var output = "";
 	output += "<h3>Vocal Ranges</h3>";
@@ -442,11 +473,14 @@ function getRange(id) {
 		}
 	} else {
 		var action = "prange-svg";
-		var url = "/data?a=" + action + "&id=" + id
+		var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=" + action + "&id=" + id
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			var data = this.responseText;
+			if (data.match(/DOCTYPE HTML/)) {
+				return;
+			}
 			localStorage[tag] = data;
 			if (element) {
 				output += "<div class='indent'>";
@@ -458,7 +492,6 @@ function getRange(id) {
 		});
 		request.send()
 	}
-
 
 	getRangeNoRecurse(ORDER[id].next);
 	getRangeNoRecurse(ORDER[id].previous);
@@ -472,7 +505,7 @@ function getRange(id) {
 //
 
 function setSvgSize() {
-	var svg = document.querySelector("svg");
+	var svg = document.querySelector("#range svg");
 	var width = svg.getAttribute("width");
 	var height = svg.getAttribute("height");
 	var scale = 1.6;
@@ -496,7 +529,7 @@ function getRangeNoRecurse(id) {
 	}
 
 	var action = "prange-svg";
-	var url = "/data?a=" + action + "&id=" + id
+	var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=" + action + "&id=" + id
 	var request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {
@@ -644,7 +677,7 @@ Handlebars.registerHelper("verses", function(verses, translation, catnum) {
 // composer Handlebar helper --
 //
 
-Handlebars.registerHelper("composer", function(text) {
+Handlebars.registerHelper("formatComposer", function(text) {
 	var matches;
 	var output = text;
 	if (matches = text.match(/(.*),\s*(.*)/)) {
@@ -694,7 +727,10 @@ Handlebars.registerHelper("shortcomposer2", function(text) {
 // title Handlebar helper  -- format peoples' names.
 //
 
-Handlebars.registerHelper("title", function(text) {
+Handlebars.registerHelper("formatTitle", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("EMPTY");
+	}
 	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
 	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
@@ -822,138 +858,6 @@ function sortByNumber(index) {
 }
 
 
-
-
 </script>
 
-
-{% raw %}
-
-<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
-
-<!-- worklist-template
-		The worklist template is used to fill in the list of available works
-		found in include/worklist.json.
--->
-
-<script id="worklist-template" type="text/x-handlebars-template">
-	<table class="worklist">
-
-	<thead style="color: #B19C5F;">
-		<th onclick="sortByText(0)" style="cursor:pointer; text-align:left">Catalog</th>
-		<th onclick="sortByText(1)" style="cursor:pointer; text-align:left">Composer</th>
-		<th onclick="sortByNumber(2)" style="cursor:pointer; text-align:left">Date</th>
-		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left">Title</th>
-		<th onclick="sortByText(4)" style="cursor:pointer; text-align:left">Voices</th>
-		<th style="cursor:pointer; text-align:left"></th>
-		<th></th>
-	<thead>
-
-	<tbody>
-
-	{{#works}}
-	<tr class="data">
-		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{id}}</td>
-		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;"> <nobr>{{{shortcomposer2 comlong}}}</nobr></td>
-		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{{workdate}}}</td>
-		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{title title}}}</td>
-		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{voices}}}</td>
-		<td>
-			<span id="audio_{{id}}" style="cursor:hand; cursor:pointer;"
-			onclick="PlayAudioFile('{{id}}', this);"
-			href="" class="play">play</span>
-		</td>
-	</tr>
-	{{/works}}
-
-	</tbody>
-	</table>
-</script>
-
-
-
-<script id="singlework-template" type="text/x-handlebars-template">
-	<center>
-		<table
-			style='width=100%; margin-top:-50px; padding-left:0px; padding-right:0px; width:100%'>
-		<tr>
-			<td class="triangle">
-				<nobr>
-				<span class="triangle" onclick="displayPreviousWork();">&#9664;</span>
-				<span class="triangle above" onclick="displayWorkList();">&#9650;</span>
-				</nobr>
-			</td>
-			<td style='width:100%; text-align:center'>
-				<h2>{{{composer COMPOSER}}}<br>{{{title POEMTITLE}}}
-				(<i>Rime</i> {{{id2rime CATALOGNUM}}})</h2>
-			</td>
-			<td class='triangle'>
-				<span class="triangle" onclick="displayNextWork();">&#9654;</span>
-			</td>
-		</tr>
-		</table>
-	</center>
-
-	<div class="indent">
-	<div style="height:{{ih}}px;" id="incipit_{{CATALOGNUM}}"></div>
-	</div>
-
-	<div style="height:230px;" id="range_{{CATALOGNUM}}"></div>
-
-	<h3>Data Transformations for {{CATALOGNUM}}</h3>
-	<div class="indent">
-	<table class="downloads">
-	<tr>
-		<td>
-			<ul>
-				<li> <a class="icon-file"      
-					target="new" href="/data?a=notation&f={{CATALOGNUM}}">PDF score</a></li>
-				<li> <a class="icon-midi"      
-					target="new" href="/data?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
-				<li> <a class="icon-file-list" 
-					target="new" href="/data?a=humdrum&f={{CATALOGNUM}}">Humdrum</a></li>
-			</ul>
-		</td>
-		<td>
-			<ul>
-				<li> <a class="icon-list" 
-					taget="new" href="/data?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
-				<li> <a class="icon-list" 
-					taget="new" href="/data?a=notearray&f={{CATALOGNUM}}">NoteArray</a></li>
-				<li> <a class="icon-list" 
-					taget="new" href="/data?a=proll&f={{CATALOGNUM}}">Piano Roll</a></li>
-			</ul>
-		</td>
-
-		<td>
-			<ul>
-				<li> <a class="icon-list" 
-					taget="new" href="/data?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
-				<li> <a class="icon-list" 
-					taget="new" href="/data?a=mei&f={{CATALOGNUM}}">MEI</a></li>
-				<li> <a class="icon-list" 
-					taget="new" href="/data?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
-			</ul>
-		</td>
-	</tr>
-	</table>
-	</div>
-
-
-	<h3 style="margin-top:0; patting-top:0;"> Analysis tools </h3>
-
-	<ul>
-	<li> <a taget="new" href="/data?a=lyrics&f={{CATALOGNUM}}">Lyric text</a>: automatically extraction of sung text by voice with word counts.
-	<li> <a target="new" href="/proll?id={{CATALOGNUM}}">proll</a>: graphical notation of pitch and rhythm, colored by voice.
-	<li> <a target="new" href="http://verovio.humdrum.org/?tasso={{CATALOGNUM}}">VHV</a>: Load work into the Verovio Humdrum Viewer, an interactive online Humdrum editor.
-	</ul>
-
-
-  {{{verses VERSES TRANSLATION CATALOGNUM}}}
-
-	<span id="report_{{CATALOGNUM}}"></span>
-
-{% endraw %}
-
-</script>
 

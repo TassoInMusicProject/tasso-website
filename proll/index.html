@@ -1,0 +1,78 @@
+---
+layout: full
+title: JRP Piano Roll
+scripts-local: true
+style-local: true
+vim: ts=3
+permalink: /proll/index.html
+---
+
+
+<div id="title-header">
+
+<table class="title-table">
+<tr>
+
+<td>
+<span id="audio2" style="position:relative; cursor:pointer; top:10px;" onclick="PlayAudioFile2(getJrpid(), this);" href class="play">play</span>
+</td>
+
+<td>
+<nobr><h1 id="title"><span id="title-container"></span></h1></nobr>
+</td>
+
+<td style="width:100%;">
+<span id="search-help" onclick="toggleHelpMenu();" class="info" data-hasqtip="1" aria-describedby="qtip-1">info</span>
+</td>
+
+</tr>
+
+</table>
+
+<div id="voice-container">
+
+<!--
+	<table id="voice-container">
+		<tr>
+			<td>
+				Superius <input onchange="displayVoice(this.checked, 4);" id="v1" type=checkbox checked>
+			</td>
+			<td>
+				Altus <input onchange="displayVoice(this.checked, 3);" id="v2" type=checkbox checked>
+			</td>
+			<td>
+				Tenor <input onchange="displayVoice(this.checked, 2);" id="v3" type=checkbox checked>
+			</td>
+			<td>
+				Bassus <input onchange="displayVoice(this.checked, 1);" id="v4" type=checkbox checked>
+			</td>
+			<td>
+				<div id="info"></div>
+			</td>
+		</tr>
+	</table>
+-->
+
+</div>
+
+<!-- the buttons are now hidden, but the values are still used -->
+
+<table id="buttons">
+<tr>
+<td style="text-align:right;"> 
+width <input id="width" style="width:50px; text-align:right;" onchange="displayWidth(this.value);" value="100" min="100" step="50" max="800" type="number">% <br>
+round notes <input id="round-notes" onchange="displayRound(this.checked);" type=checkbox checked><br>
+note connectors <input id="note-connectors" onchange="displayLines(this.checked);" type=checkbox checked><br>
+</td>
+<td style="text-align:right;">
+grand staff <input id="grand-staff" onchange="displayStafflines(this.checked);" type=checkbox><br>
+maxima <input id="maxima" onchange="displayMaxima(this.checked);" type=checkbox><br>
+minima <input id="minima" onchange="displayMinima(this.checked);" type=checkbox><br>
+</td>
+</tr>
+</table>
+
+</div>
+
+<div id="svg-container"><div>
+

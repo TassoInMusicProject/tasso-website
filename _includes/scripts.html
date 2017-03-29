@@ -1,15 +1,27 @@
 
 {% if page.handlebars == true %}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+{% else %}
+	<!-- page.handlebars is disabled "{{page.handlebars}}" -->
 {% endif %}
+
 
 {% if page.aton == true %}
 	<script src="/scripts/external/aton/aton.js"></script>
+{% else %}
+	<!-- page.aton is disabled "{{page.aton}}" -->
 {% endif %}
 
+{% if page.verovio == true %}
+	<script src="http://verovio-script.humdrum.org/scripts/verovio-toolkit.js"></script>
+{% else %}
+	<!-- page.verovio is disabled "{{page.verovio}}" -->
+{% endif %}
 
 
 {% if page.scripts-local == true %}
 	{% include_relative scripts-local.html %}
+{% else %}
+	<!-- page.scripts-local is disabled "{{page.scripts-local}}" -->
 {% endif %}
 

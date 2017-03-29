@@ -88,7 +88,7 @@ Handlebars.registerHelper('timevalue', function(seconds) {
 Handlebars.registerHelper("cleantitle", function(text, id) {
 	text = text.replace(/ANGIOLETTA/i, "<span class=name>Angioletta</span>");
 	text = text.replace(/BARBARA/i, "<span class=name>Barbara</span>");
-	text = "<a target='new' href='{{site.tasso_data_url}}?a=lyrics&id=" + id + "'>" + text + "</a>";
+	text = "<a target='new' href='/lyrics?id=" + id + "'>" + text + "</a>";
 	return new Handlebars.SafeString(text);
 });
 

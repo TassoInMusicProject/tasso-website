@@ -1,0 +1,229 @@
+<script src="/scripts/scripts-common.js"></script>
+
+{% include_relative listeners.html %}
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Thu Mar 31 21:34:11 PDT 2016
+// Last Modified: Tue Mar 28 16:03:55 PDT 2017
+// Filename:      work/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
+//
+// Description:   JavaScript management for display of work pages.
+//
+
+//////////////////////////////
+//
+// getLyrics -- extract catalog number from  CGI variable "id"
+//
+
+function getLyrics() {
+	var cgi = GetCgiParameters();
+	var id = "Trm0047a";
+	if (cgi.id) {
+		id = cgi.id;
+	}
+
+	var request = new XMLHttpRequest();
+	request.open("GET", "{{site.tasso_data_url}}/?a=lyrics&id=" + id);
+	request.addEventListener("load", function() {
+		var element = document.querySelector("div#contents");
+		if (!element) {
+			return;
+		}
+		var text = this.responseText.replace(/<style>[\S\s]*?<\/style>/, "");
+		text = text.replace(/<script>[\S\s]*?<\/script>/, "");
+		// (replace above does not work)
+		element.innerHTML = this.responseText;
+		setupLyrics();
+	});
+	request.send();
+}
+
+
+var SORT = "alphabetic";
+var SORTALPHABETIC = [];
+var SORTNUMERIC = [];
+var LASTWORD = "";
+var WORDLIST = {};
+var ZCOUNT = 0;
+
+function setupLyrics() {
+	if (ZCOUNT > 0) {
+		return;
+	}
+	ZCOUNT++;
+	prepareWordlist();
+	var wf = document.querySelector("#wf");
+	if (wf) {
+		wf.addEventListener("click", function(event) { toggleSort(event); });
+	}
+}
+
+document.addEventListener("mouseover", function(event) {
+	if (!event.target.nodeName.match(/^SPAN$/i)) {
+		return;
+	}
+	event.preventDefault();
+	var text = event.target.innerHTML.toLowerCase();
+	if (text === LASTWORD) {
+		return;
+	}
+	unhighlightWord(LASTWORD);
+	highlightWord(text);
+	LASTWORD = text;
+});
+
+
+function unhighlightWord(word) {
+	var list = WORDLIST[word]
+	if (!list) {
+		return;
+	}
+	for (var i=0; i<list.length; i++) {
+		list[i].style.color = "";
+	}
+}
+
+function highlightWord(word) {
+	var list = WORDLIST[word]
+	if (!list) {
+		return;
+	}
+	for (var i=0; i<list.length; i++) {
+		list[i].style.color = "red";
+	}
+}
+
+
+function prepareWordlist() {
+	var words = document.querySelectorAll("span.word");
+	for (var i=0; i<words.length; i++) {
+		word = words[i].innerHTML.toLowerCase();
+		if (WORDLIST[word]) {
+			WORDLIST[word].push(words[i]);
+		} else {
+			WORDLIST[word] = [];
+			WORDLIST[word].push(words[i]);
+		}
+	}
+}
+
+
+function toggleSort(event) {
+	event.preventDefault();
+	if (SORT === "alphabetic") {
+		sortNumeric();
+		SORT = "numeric";
+	} else {
+		sortAlphabetic();
+		SORT = "alphabetic";
+	}
+	prepareWordlist();
+	unhighlightWord(LASTWORD);
+	LASTWORD = "";
+}
+
+
+function sortNumeric() {
+	var entries = document.querySelectorAll("table.wordlist tr");
+	var alphaentries;
+	if (SORTALPHABETIC.length > 0) {
+		alphaentries = SORTALPHABETIC; 
+	} else {
+		for (var i=0; i<entries.length; i++) {
+			SORTALPHABETIC.push(entries[i].innerHTML);
+		}
+	}
+
+	var numentries;
+	if (SORTNUMERIC.length > 0) {
+		numentries = SORTNUMERIC;
+	} else {
+		numentries = SORTALPHABETIC.concat()
+			                        .sort(function(a, b) {
+			var matches;
+
+			if (a.match("Count")) {
+				return 1;
+			}
+			if (b.match("Count")) {
+				return -1;
+			}
+
+			var regexp1 = /<td>([0-9]+)/
+			var anum;
+			if (matches = a.match(regexp1)) {
+				anum = matches[1];
+			}
+
+			var regexp2 = /<span[^>]*>([^<]+)<.span>/;
+			var atext;
+			if (matches = a.match(regexp2)) {
+				atext = matches[1];
+			}
+
+			if (!anum) { return -1; }
+			if (!atext) { return -1; }
+
+			var bnum;
+			if (matches = b.match(regexp1)) {
+				bnum = matches[1];
+			}
+
+			var btext;
+			if (matches = b.match(regexp2)) {
+				btext = matches[1];
+			}
+
+			if (!bnum) { return 1; }
+			if (!btext) { return 1; }
+
+
+			if (anum === bnum) {
+				return atext.localeCompare(btext);
+			} else {
+				return parseInt(bnum) - parseInt(anum);
+			}
+		}) ;
+		// console.log("NUMERIC SORT", numentries);
+	}
+
+	var counter = 0;
+	for (i=0; i<entries.length; i++) {
+		if (entries[i].innerHTML.match("Count")) {
+			continue;
+		}
+		entries[i].innerHTML = numentries[counter++];
+	}
+}
+
+
+function sortAlphabetic() {
+	var entries = document.querySelectorAll("table.wordlist tr");
+
+	var counter = 0;
+	for (i=0; i<entries.length; i++) {
+		if (entries[i].innerHTML.match("Count")) {
+			continue;
+		}
+		if (SORTALPHABETIC[counter].match("Count")) {
+			counter++;
+		}
+		entries[i].innerHTML = SORTALPHABETIC[counter++];
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+</script>

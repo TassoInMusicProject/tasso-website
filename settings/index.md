@@ -8,7 +8,6 @@ style-local: true
 permalink: /settings/index.html
 ---
 
-<div id="contents">
-<div style="color:white; height:1000px"></div>
-</div>
+
+
 

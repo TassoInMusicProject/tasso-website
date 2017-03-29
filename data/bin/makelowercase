@@ -1,0 +1,72 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Wed Mar 29 15:59:05 PDT 2017
+# Last Modified: Wed Mar 29 15:59:08 PDT 2017
+# Filename:      makelowercase
+# Syntax:        perl 5
+# vim:           ts=3 ft=perl
+#
+# Description:   Remove upper casesness in titles embedded in ATON parameters.
+#
+# Usage:         makelowercase -p PARAMETER file.aton > output.aton
+#                cat file.aton | makelowercase -p PARAMETER > output.aton
+#
+# Rules: 	 First character in title is capital is in upper case.
+#                First charcter after '.' is capitlaized.
+#
+
+use strict;
+use Getopt::Long;
+
+# $Parameter is the text which separates each column of parameters.
+my $Parameter = "";
+my $NoItalic = 0;
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'p|parameter=s' => \$Parameter,
+   'I|no-italic'   => \$NoItalic
+);
+if ($Parameter =~ /^\s*$/) {
+	die "Usage: $0 -p PARAMETER file.aton > output.aton\n";
+}
+
+
+while (my $line = <>) {
+	chomp $line;
+	print cleanContents($line, $Parameter), "\n";
+}
+
+
+exit(0);
+
+
+###########################################################################
+
+
+##############################
+##
+## cleanContents --
+##
+
+sub cleanContents { 
+   my ($line, $parameter) = @_;
+	if ($line !~ /^(\@$parameter:\s*)(.*)\s*$/) {
+		return $line;
+	}
+	my $prefix = $1;
+	my $data = $2;
+	if ($NoItalic) {
+		$data =~ s/<\/?i>//g;
+	}
+	$data =~ s/\s+,/,/g;
+	my @words = split(/\s+/, $data);
+	for (my $i=1; $i<@words; $i++) {
+		next if $words[$i-1] =~ /\.$/;
+		$words[$i] = lc($words[$i]);
+	}
+	my $output = $prefix . join(" ", @words);
+	return $output;
+}
+
+

@@ -1,21 +1,18 @@
 <!doctype html>
 <html>
-<head>
-	{% include head.html %}
-</head>
-<body>
-
-<div id="container">
-
-<div id="body">
-	{% include navigation-bar.html %}
-	<div id="contents">
-		{{content}}
-	</div>
-	{% include footer.html %}
-</body>
-
-</div>
-
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		<div id="container">
+			<div id="body">
+				{% include navigation-bar.html %}
+				<div id="contents">
+					{{content}}
+				</div>
+				{% include footer.html %}
+			</div>
+		</div>
+	</body>
 </html>
 <!-- vim: set ts=3: -->

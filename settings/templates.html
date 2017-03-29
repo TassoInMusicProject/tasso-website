@@ -1,0 +1,335 @@
+
+<!-- Handlebars templates for musical settings
+	vim: ts=3
+  -->
+
+<!-- rime-template
+		The rime template is used to fill in the list of poems
+		on the homepage.  The list of poems is found in the file
+		data/indexes/rime-settings.aton.
+
+	 WORKS entry example:
+			"CATALOGNUM": "Trm0288l",
+			"POEMTITLE": "Amatemi, ben mio",
+			"SOLERTI": "sm288",
+			"COMPOSER": "Aagesen, Truid",
+			"COMDATES": "",
+			"PRINCEPS": "Cantiones trium vocum. Hamburg, 1608 (RISM S3549)",
+			"REPRINTS": "",
+			"REPORTS": "",
+			"OCLEFS": "",
+			"OTIME": "@KEYSIG",
+			"NOTE": ""
+-->
+
+{% raw %}
+<script id="settings-template" type="text/x-handlebars-template">
+	<table class="settings">
+	<thead>
+		<th onclick="sortByText(event, 0)" style="cursor:pointer; padding-bottom:20px">Catalog&nbsp;#</th>
+		<th onclick="sortByText(event, 1)" style="cursor:pointer; text-align:left">Composer</th>
+		<th onclick="sortByPublication(event, 2)" style="cursor:pointer; text-align:left">Source</th>
+	<thead>
+	<tbody>
+	{{#WORKS}}
+	{{{trclass CATALOGNUM}}}
+	<td>{{CATALOGNUM}}</td>
+	<td><nobr>{{{shortComposer COMPOSER}}}</nobr></td>
+	<td>{{{printSource PRINCEPSTITLE PRINCEPSLOC PRINCEPSPUB PRINCEPSYEAR}}}</td>
+	</tr>
+	{{/WORKS}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+
+
+<script>
+
+
+//////////////////////////////
+//
+// tclass Handlebar helper -- Set the class to whether or note there is
+//     a work page for this ID.
+//
+
+Handlebars.registerHelper("trclass", function(id) {
+	var output = "";
+	if (RWORKLIST[id]) {
+		output += "<tr class='data haswork'>";
+	} else {
+		output += "<tr class='data nowork'>";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// printSource Handlebar helper --
+//
+
+Handlebars.registerHelper("printSource", function(title, loc, pub, year) {
+   title = title.replace(/<\/i>\.$/, "</i>");
+   title = title.replace(/\.<\/i>$/, "</i>");
+	var output = "";
+	output = title;
+	if (loc || pub || year) {
+		output += "<span class=publication>";
+		output += "&nbsp;&nbsp;";
+		output += "(";
+		if (loc && pub && year) {
+			output += loc + ": " + pub + ", " + year;
+		} else if (loc && pub) {
+			output += loc + ": " + pub;
+		} else if (loc && year) {
+			output += loc + ", " + year;
+		} else if (pub && year) {
+			output += pub + ", " + year;
+		} else if (loc) {
+			output += loc;
+		} else if (pub) {
+			output += pub;
+		} else if (year) {
+			output += year;
+		}
+		output += ")";
+		output += "</span>";
+   }
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// princeps Handlebar helper  -- Format text.
+//
+
+Handlebars.registerHelper("princeps", function(title, rism) {
+	var matches;
+	var lowcut = 70;
+	var midcut = 80;
+	var hicut = 90;
+	var title;
+	var pubinfo;
+	var output = title + "<br>" + rism;
+	if (rism) {
+		rism = rism.replace("Unkwnown", "Unknown");
+		rism = rism.replace(/\s+/g, "&nbsp;");
+		rism = "<br><span class='rism'>" + rism + "</span>";
+	}
+	if (matches = title.match(/(.*)<\/i>(.*)/)) {
+		title = matches[1] + "</i>";
+		pubinfo = matches[2];
+		output = title;
+		if (title.length < 60) {
+			// output = title;
+			output = "<span style='word-spacing:1px'>" + title + "</span>";
+		} else if (title.length > 90) {
+			output = "<span style='font-size:96%; word-spacing:-1px; ";
+			output += "letter-spacing:-1px;'>";
+			output += title + "</span>";
+		} else if (title.length > 70) {
+			output = "<span style='font-size:97%; word-spacing:-1px; ";
+			output += "letter-spacing:-1px;'>";
+			output += title + "</span>";
+		}
+		output += " " + pubinfo + " ";
+		// output += "<br>" + pubinfo + " ";
+		if (rism && (rism.length > 50)) {
+			output += "<span style='font-size:95%; word-spacing:-1px; ";
+			output += "letter-spacing:-1px;'>" + rism + "</span>";
+		} else if (rism) {
+			output += rism;
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+Handlebars.registerHelper("princepspub", function(loc, pub) {
+	var output = "";
+	if (loc && pub) {
+		output += loc + ": " + pub;	
+	} else if (loc) {
+		output += loc;
+	} else if (pub) {
+		output += pub;
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+Handlebars.registerHelper("princepsyear", function(year) {
+	var output = "";
+	output = year.replace(/-+/g, "&ndash;");
+	output = "<nobr>" + output + "</nobr>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// shortComposer Handlebar helper  -- Prevent linebreak after RISM
+//      and its number.
+//
+
+Handlebars.registerHelper("shortComposer", function(text) {
+	var matches;
+	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
+	var lastname = text;
+	var firstname = text;
+	var abbrname = "";
+	var pieces;
+	var output;
+	if (!text.match(/(.*),\s+(.*)/)) {
+		text = text.replace(/\.\s*/, ", ");
+	}
+	if (matches = text.match(/(.*),\s+(.*)/)) {
+		lastname = matches[1];
+		firstname = matches[2];
+		pieces = firstname.split(/\s+/);
+		abbrname = "";
+		for (var i=0; i<pieces.length; i++) {
+			if (pieces[i][0] == pieces[i][0].toLowerCase()) {
+				// such as "del"
+				abbrname += " " + pieces[i];
+			} else if (pieces[i][0] == pieces[i][0].toUpperCase()) {
+				abbrname += " " + pieces[i][0] + ".";
+			} else {
+				// strange case
+				abbrname += " " + pieces[i];
+			}
+		}
+		var shortname;
+		if (abbrname.length > 0) {
+			shortname = lastname + "," + abbrname;
+		} else {
+			shortname = lastname;
+		}
+		if (shortname.length > 15) {
+			output = "<span style='letter-spacing:-1px; word-spacing:-1px; ";
+			output+= "cursor:help' title='" + firstname + " " + lastname +"'>";
+			output += shortname + "</a>";
+		} else {
+			output = "<span style='cursor:help' title='";
+			output += firstname + " " + lastname +"'>";
+			output += shortname + "</a>";
+		}
+		return new Handlebars.SafeString(output);
+	} else {
+		return new Handlebars.SafeString(text);
+	}
+});
+
+
+
+//////////////////////////////
+//
+// cleantitle Handlebar helper  -- Prevent linebreak after RISM
+//      and its number.
+//
+
+Handlebars.registerHelper("cleantitle", function(text) {
+	return new Handlebars.SafeString(
+		text.replace(/RISM /g, "RISM&nbsp;")
+	);
+});
+
+
+
+//////////////////////////////
+//
+// workletter Handlebar helper -- Add work letter to handlebars helper
+//
+
+Handlebars.registerHelper("workletter", function(text) {
+	var output = "<a href=/work/?id=" + text;
+	output += ">" + text + "</a>";
+	return new Handlebars.SafeString(output);
+	// return text;
+	// text = Handlebars.escapeExpression(text);
+	// text = text.replace(/Trm0*/, "");
+	// var letter = text.match(/([a-z]+)$/)[1];
+	// text = text.replace(/[a-z]+$/, "");
+	// var output = text + "<sup>" + letter + "</sup>";
+	// return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// sortByText --
+//
+
+function sortByText(event, index) {
+	var element = event.target;
+	while (element && (element.nodeName !== "TABLE")) {
+		element = element.parentNode;
+	}
+	if (!element) {
+		returnl;
+	}
+	var data = element.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = a.cells[index].textContent
+		var B = b.cells[index].textContent
+		var result = A.localeCompare(B);
+		return result;
+	});
+	var body = element.querySelector("tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByPublication --
+//
+
+function sortByPublication(event, index) {
+	var element = event.target;
+	while (element && (element.nodeName !== "TABLE")) {
+		element = element.parentNode;
+	}
+	if (!element) {
+		returnl;
+	}
+	var data = element.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = a.cells[index].querySelector(".publication").textContent
+		var B = b.cells[index].querySelector(".publication").textContent
+		var result = A.localeCompare(B);
+		return result;
+	});
+	var body = element.querySelector("tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+</script>
+
+
+

@@ -169,7 +169,7 @@ function generateTotals() {
 
 	{{#works}}
 	<tr class="data">
-	<td><a target="pdf" href="http://josquin.stanford.edu/data?a=notation&id={{id}}">{{id}}</a></td>
+	<td><a target="_new" href="/work/?id={{id}}">{{id}}</a></td>
 	<td>{{{composertag comshort comlong}}}</td>
 	<td>{{{workdate}}}</td>
 	<td>{{{cleantitle title id}}}</td>
@@ -181,7 +181,7 @@ function generateTotals() {
 	<td class="time-item" style="text-align:center">{{timevalue sec}}</td>
 	<td>
        <span id="audio_{{id}}" style="cursor:hand; cursor:pointer;" 
-		onclick="PlayAudioFile('{{id}}', this);" href="" class="play">play</span>
+		onclick="PlayAudioFile('{{id}}', this);" href="" class="play audio">play</span>
 	</td>
 	</tr>
 	{{/works}}

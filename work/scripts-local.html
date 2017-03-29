@@ -22,11 +22,13 @@ var ID = "";
 var vrvToolkit;
 var vrvOptions = {
 	pageWidth: 2500,
+	adjustPageHeight: 1,
 	pageHeight: 1000,
 	font: "Leipzig",
 	scale: 40
 };
 var CURRENT_PAGE = 1;
+var INCIPIT_STYLE = 0;
 
 
 //////////////////////////////
@@ -35,14 +37,14 @@ var CURRENT_PAGE = 1;
 //
 
 function checkLocalStorage() {
-	var timestamp = localStorage.timestamp;
+	var timestamp = sessionStorage.timestamp;
 	if (!timestamp) {
-		localStorage.clear();
+		sessionStorage.clear();
 	}
 	var hours = 24;
 	var seconds = new Date().getTime() / 1000;
 	if (seconds - timestamp > hours * 3600)  {
-		localStorage.clear();
+		sessionStorage.clear();
 	}
 }
 
@@ -298,12 +300,20 @@ function getCriticalReportNoRecurse(id) {
 }
 
 
+
 //////////////////////////////
 //
 // initializeVerovioNotation --
 //
 
 function initializeVerovioNotation(sourceid, targetid) {
+	if (!targetid) {
+		targetid = "verovio-display";
+	}
+	if (!sourceid) {
+		sourceid = "humdrum-data";
+	}
+
 	var target = document.querySelector("#" + targetid);
 	if (!target) {
 		console.log("Cannot find target id:", targetid);
@@ -339,7 +349,12 @@ function initializeVerovioNotation(sourceid, targetid) {
 
 	if (kcount > 0) {
 		vrvOptions.pageHeight = 230 * kcount + 80 * tcount;
-		target.style.height = parseInt(vrvOptions.pageHeight / 3.8 + 100 ) + "px";
+		// target.style.height = parseInt(vrvOptions.pageHeight / 3.8 + 100 ) + "px";
+	}
+
+	if (INCIPIT_STYLE) {
+		// full-page display
+		vrvOptions.pageHeight = 60000;
 	}
 
 	vrvToolkit.setOptions(vrvOptions);
@@ -354,6 +369,10 @@ function initializeVerovioNotation(sourceid, targetid) {
 		CURRENT_PAGE = pagecount;
 	}
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE);
+	var matches;
+	if (matches = svg.match(/height="(\d+)px"/)) {
+		target.style.height = "";
+	}
 	target.innerHTML = svg;
 
 }
@@ -403,8 +422,8 @@ function getHumdrum(id) {
 		return;
 	}
 
-	if (localStorage[tag]) {
-		element.textContent = localStorage[tag];
+	if (sessionStorage[tag]) {
+		element.textContent = sessionStorage[tag];
 		initializeVerovioNotation("humdrum-data", "verovio-display");
 	} else {
 		var action = "humdrum";
@@ -413,7 +432,7 @@ function getHumdrum(id) {
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			var data = this.responseText;
-			localStorage[tag] = data;
+			sessionStorage[tag] = data;
 			if (element) {
 				element.textContent = data;
 				initializeVerovioNotation("humdrum-data", "verovio-display");
@@ -435,7 +454,7 @@ function getHumdrum(id) {
 
 function getHumdrumNoRecurse(id) {
 	var tag = "humdrum_" + id;
-	if (localStorage[tag]) {
+	if (sessionStorage[tag]) {
 		return;
 	}
 
@@ -445,7 +464,7 @@ function getHumdrumNoRecurse(id) {
 	request.open('GET', url);
 	request.addEventListener("load", function() {
 		var data = this.responseText;
-		localStorage[tag] = data;
+		sessionStorage[tag] = data;
 	});
 	request.send()
 }
@@ -463,10 +482,10 @@ function getRange(id) {
 	var output = "";
 	output += "<h3>Vocal Ranges</h3>";
 
-	if (localStorage[tag]) {
+	if (sessionStorage[tag]) {
 		if (element) {
 			output += "<div class='indent'>";
-			output += localStorage[tag];
+			output += sessionStorage[tag];
 			output += "</div>";
 			element.innerHTML = output;
 			setSvgSize();
@@ -481,7 +500,7 @@ function getRange(id) {
 			if (data.match(/DOCTYPE HTML/)) {
 				return;
 			}
-			localStorage[tag] = data;
+			sessionStorage[tag] = data;
 			if (element) {
 				output += "<div class='indent'>";
 				output += data;
@@ -524,7 +543,7 @@ function setSvgSize() {
 
 function getRangeNoRecurse(id) {
 	var tag = "range_" + id;
-	if (localStorage[tag]) {
+	if (sessionStorage[tag]) {
 		return;
 	}
 
@@ -534,7 +553,7 @@ function getRangeNoRecurse(id) {
 	request.open('GET', url);
 	request.addEventListener("load", function() {
 		var data = this.responseText;
-		localStorage[tag] = data;
+		sessionStorage[tag] = data;
 	});
 	request.send()
 }
@@ -856,6 +875,32 @@ function sortByNumber(index) {
 		body.appendChild(datalist[i]);
 	}
 }
+
+
+
+//////////////////////////////
+//
+// expandIncipit --
+//
+
+function expandIncipit() {
+	var element = document.querySelector("#expand");
+	var nelement = document.querySelector("#nextsys");
+	var pelement = document.querySelector("#prevsys");
+	var text = element.textContent;
+	INCIPIT_STYLE = !INCIPIT_STYLE;
+	if (INCIPIT_STYLE) {
+		element.textContent = "contract";
+		nelement.textContent = "";
+		pelement.textContent = "";
+	} else {
+		element.textContent = "expand";
+		nelement.textContent = "next system";
+		pelement.textContent = "previous system";
+	}
+	initializeVerovioNotation();
+}
+
 
 
 </script>

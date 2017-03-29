@@ -53,7 +53,7 @@
 {% raw %}
 <script id="singlework-template" type="text/x-handlebars-template">
 	<center>
-		<table style='width=100%; margin-top:-50px; padding-left:0px; padding-right:0px; width:100%'>
+		<table style='width:100%; margin-top:-50px; padding-left:0px; padding-right:0px; width:100%'>
 		<tr>
 			<td class="triangle">
 				<nobr>
@@ -72,17 +72,24 @@
 		</table>
 	</center>
 
-	<div>
-	<span id="audio_{{CATALOGNUM}}" title="play" style="display:block; float:right; padding-bottom:2px; cursor:hand; cursor:pointer;" onclick="PlayAudioFile('{{CATALOGNUM}}', this);" href="" class="play">play</span>
-	<div style="padding-top:-150px; width:1000px; height:350px;" id="verovio-display"></div>
-	</div>
-	<table width="100%">
-	<tr>
-	<td width="50%">
-	<span style="margin-left:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">previous system</span>
-	</td><td width="50%" style="text-align:right">
-	<span style="margin-right:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">next system</span>
+	<table width="50%" style="opacity:0.5; padding-left: 0; padding-bottom: 6px; margin-left:50%; background-color:#c2ab6c; margin-bottom:-50px;">
+	<tr style="padding:0">
+	<td style="width:10px;padding:0;margin:0;">
+	<div id="audio_{{CATALOGNUM}}" title="play" style="padding-bottom: 1px; cursor:hand; cursor:pointer;" onclick="PlayAudioFile('{{CATALOGNUM}}', this);" href="" class="play">play</div>
+	</td>
+	<td width="45%">
+	<div id="prevsys" style="margin-left:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">previous system</div>
+	</td>
+	<td>
+	<div id="expand" style="text-align: center; cursor:pointer; font-style:italic" onclick="expandIncipit()">expand</div>
+	</td>
+	<td width="35%" style="text-align:right">
+	<div id="nextsys" style="margin-right:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">next system</div>
 	</td></tr></table>
+
+
+	<div style="margin-top:-50px; width:1000px; height:350px;" id="verovio-display"></div>
+
 
 
 

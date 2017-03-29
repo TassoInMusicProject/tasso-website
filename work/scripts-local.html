@@ -356,6 +356,7 @@ function initializeVerovioNotation(sourceid, targetid) {
 		// full-page display
 		vrvOptions.pageHeight = 60000;
 	}
+	showIncipitState();
 
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);
@@ -884,11 +885,27 @@ function sortByNumber(index) {
 //
 
 function expandIncipit() {
+
 	var element = document.querySelector("#expand");
 	var nelement = document.querySelector("#nextsys");
 	var pelement = document.querySelector("#prevsys");
 	var text = element.textContent;
 	INCIPIT_STYLE = !INCIPIT_STYLE;
+	showIncipitState();
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
+// showIncipitState --
+//
+
+function showIncipitState() {
+	var element = document.querySelector("#expand");
+	var nelement = document.querySelector("#nextsys");
+	var pelement = document.querySelector("#prevsys");
 	if (INCIPIT_STYLE) {
 		element.textContent = "contract";
 		nelement.textContent = "";
@@ -898,9 +915,7 @@ function expandIncipit() {
 		nelement.textContent = "next system";
 		pelement.textContent = "previous system";
 	}
-	initializeVerovioNotation();
 }
-
 
 
 </script>

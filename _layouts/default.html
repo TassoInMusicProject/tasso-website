@@ -9,6 +9,9 @@
 				{% include navigation-bar.html %}
 				<div id="contents">
 					{{content}}
+					{% if page.logos == true %}
+						{% include logos.html %}
+					{% endif %}
 				</div>
 				{% include footer.html %}
 			</div>

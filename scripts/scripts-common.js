@@ -19,12 +19,13 @@ var PDFTARGET      = 'target="new"';		 // Display PDF files in separate tab/wind
 var AUDIO          = null;						 // HTML5 audio interface ID.
 var AUDIOjrpid     = '';  						 // currently playing audio file.
 var AUDIOid        = '';                   // currently playing audio button.
-var RIMELIST;      // list of poems
-var LITLIST;       // list of literary sources
-var WORKLIST;      // list of musical settings
-var AMINTALIST;    // list of Aminta settings
-var GLLIST;        // list of Gerusalemme settings
-var OTHERLIST;     // list of other settings
+var RIMEVERSELIST;   // list of poems with verse contents
+var RIMESETTINGLIST; // list of poems without verse contents
+var LITLIST;         // list of literary sources
+var WORKLIST;        // list of musical settings
+var AMINTALIST;      // list of Aminta settings
+var GLLIST;          // list of Gerusalemme settings
+var OTHERLIST;       // list of other settings
 
 
 // List of Key Codes.  More can be extracted from this page:
@@ -181,8 +182,8 @@ function byReverseAddDate(a, b) {
 function GetDataFile(jrpid, prefix, action) {
    var variable = prefix + jrpid;
 
-   if (typeof localStorage[variable] != 'undefined') {
-      return localStorage[variable];
+   if (typeof sessionStorage[variable] != 'undefined') {
+      return sessionStorage[variable];
    }
    
    InitializeWorklistFlat();
@@ -203,9 +204,9 @@ function GetDataFile(jrpid, prefix, action) {
       jrpid = workid;
    }
 
-   // content is not in localStorage, so download, store, and return.
+   // content is not in sessionStorage, so download, store, and return.
    var imagedata = ReadFile('http://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid);
-   localStorage[variable] = imagedata;
+   sessionStorage[variable] = imagedata;
    return imagedata;
 }
 
@@ -219,8 +220,8 @@ function GetDataFile(jrpid, prefix, action) {
 function GetDataFileAsync(jrpid, prefix, action, callback) {
    var variable = prefix + jrpid;
 
-   if (typeof localStorage[variable] != 'undefined') {
-      return localStorage[variable];
+   if (typeof sessionStorage[variable] != 'undefined') {
+      return sessionStorage[variable];
    }
    
    InitializeWorklistFlat();
@@ -241,9 +242,9 @@ function GetDataFileAsync(jrpid, prefix, action, callback) {
       jrpid = workid;
    }
 
-   // content is not in localStorage, so download, store, and return.
+   // content is not in sessionStorage, so download, store, and return.
    ReadFileAsync('http://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid, callback);
-   //localStorage[variable] = imagedata;
+   //sessionStorage[variable] = imagedata;
    // return imagedata;
 }
 
@@ -540,10 +541,10 @@ function GetVoiceOptions() {
 //
 
 function ClearBrowseFields() {
-   localStorage.BROWSEcomposers = '';
-   localStorage.BROWSEgenres    = '';
-   localStorage.BROWSEvoices    = '';
-   localStorage.BROWSEtitlebox  = '';
+   sessionStorage.BROWSEcomposers = '';
+   sessionStorage.BROWSEgenres    = '';
+   sessionStorage.BROWSEvoices    = '';
+   sessionStorage.BROWSEtitlebox  = '';
 }
 
 
@@ -554,10 +555,10 @@ function ClearBrowseFields() {
 //
 
 function ClearWorklist() {
-	localStorage.removeItem('WORKLIST');
-	localStorage.removeItem('WORKLISTrefreshtime');
-  	localStorage.removeItem('WORKjrpid');
-  	localStorage.removeItem('RECENTLYADDEDHTML');
+	sessionStorage.removeItem('WORKLIST');
+	sessionStorage.removeItem('WORKLISTrefreshtime');
+  	sessionStorage.removeItem('WORKjrpid');
+  	sessionStorage.removeItem('RECENTLYADDEDHTML');
 }
 
 
@@ -701,9 +702,9 @@ function PlayAudioFile(jrpid, element) {
 //
 
 function ClearWorklistCache() {
-   localStorage.removeItem('WORKLIST');
-   localStorage.removeItem('WORKLISTrefreshtime');
-   localStorage.removeItem('WORKjrpid');
+   sessionStorage.removeItem('WORKLIST');
+   sessionStorage.removeItem('WORKLISTrefreshtime');
+   sessionStorage.removeItem('WORKjrpid');
    sessionStorage.removeItem('RECENTLYADDEDHTML');
 }
 
@@ -777,12 +778,12 @@ function GetRimeTitle(rimenum, rimelist) {
 
 //////////////////////////////
 //
-// GetRimeEntry --
+// GetRimeVerseEntry --
 //
 
-function GetRimeEntry(rimenum, rimelist) {
+function GetRimeVerseEntry(rimenum, rimelist) {
    if (!rimelist) {
-		rimelist = RIMELIST;
+		rimelist = RIMEVERSELIST;
    }
    if (!rimelist) {
 		return "";
@@ -790,7 +791,10 @@ function GetRimeEntry(rimenum, rimelist) {
 	if (!rimenum) {
 		return "";
 	}
-	var list = rimelist.RIME;
+	var list = rimelist;
+	if (!list.length) {
+		list = rimelist.RIME;
+	}
    for (var i=0; i<list.length; i++) {
 		if (rimenum == list[i].SOLERTI) {
 			return list[i];
@@ -807,7 +811,7 @@ function GetRimeEntry(rimenum, rimelist) {
 
 function GetSettingEntry(id, settinglist) {
    if (!settinglist) {
-		settinglist = SETLIST;
+		settinglist = RIMESETTINGLIST;
    }
    if (!settinglist) {
 		return null;
@@ -875,19 +879,13 @@ function HighlightNavigationBar(target) {
       var link = list[i].href.replace(/^http:\/\/[^\/]+/, "");
 		if (pname == link) {
 			text = list[i].innerHTML;
-			console.log("TEXT", text);
-			console.log("LIST", list[i]);
-			console.log("XXX", list[i].parentNode);
 			newnode = document.createElement("span");
 			newnode.innerHTML = text;
 			newnode.className = "self-link";
-			console.log("NEWNODE", newnode, newnode.innerHTML);
 			list[i].parentNode.innerHTML = newnode.outerHTML;
 			break;
 		}
 	}
-
-
 }
 
 

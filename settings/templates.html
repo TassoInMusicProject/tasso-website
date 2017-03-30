@@ -44,10 +44,7 @@
 {% endraw %}
 
 
-
-
 <script>
-
 
 //////////////////////////////
 //
@@ -73,12 +70,10 @@ Handlebars.registerHelper("trclass", function(id) {
 //
 
 Handlebars.registerHelper("printSource", function(title, loc, pub, year) {
-   title = title.replace(/<\/i>\.$/, "</i>");
-   title = title.replace(/\.<\/i>$/, "</i>");
 	var output = "";
-	output = title;
+	output = "<span class='print-title'>" + title + "</span>";
 	if (loc || pub || year) {
-		output += "<span class=publication>";
+		output += "<span class='publication'>";
 		output += "&nbsp;&nbsp;";
 		output += "(";
 		if (loc && pub && year) {

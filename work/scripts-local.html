@@ -63,16 +63,16 @@ function loadWorkList(url) {
 	}
 	var counter = 0;
 
-	if (sessionStorage.SETLIST) {
-		SETLIST = JSON.parse(sessionStorage.SETLIST);
+	if (sessionStorage.RIMESETTINGLIST) {
+		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
 		counter++;
 	} else {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.rime_settings}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			SETLIST = aton.parse(this.responseText).RIME_SETTING;
-			sessionStorage.SETLIST = JSON.stringify(SETLIST);
+			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
+			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
 			counter++;
 			if (counter == 2) {
 				continueSetup();

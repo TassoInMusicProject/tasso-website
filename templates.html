@@ -1,0 +1,360 @@
+
+<!-- Handlebars templates for main page.
+	vim: ts=3 ft=javascript
+	-->
+
+<!-- rime-template
+		The rime template is used to fill in the list of poems
+		on the homepage.  The list of poems is found in the file
+		include/rime.json.
+-->
+
+{% raw %}
+<script id="rime-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">Solerti&nbsp;#</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span> <span onclick="sortByGenre(1)" class="genre">(poetic genre)</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+	{{{trclass SOLERTI}}}
+	<td>{{SOLERTI}}</td>
+	<td onmouseover="show(this)" onmouseout="hide(this)">{{{cleanTitle TITLE}}}
+			<span class="genre">({{{GENRE}}})</span>
+		<table class="choices">
+		<tr>
+			<td><a href=/settings?rime={{SOLERTI}}>Musical Settings{{{settingCount SOLERTI}}}</a></td>
+			<td><a href=/sources?rime={{SOLERTI}}>Literary Sources</a></td>
+			<td><a href=/variants?rime={{SOLERTI}}>Literary Variants</a></td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+
+<!-- gerusalemme-template
+		The gerusalemme template is used to fill in the list of poems
+		on the homepage.  The list of poems is found in the file
+		/data/indexes/gerusalemme-settings.json.
+-->
+
+{% raw %}
+<script id="gerusalemme-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">Canto/Ottava</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+	<td style="text-align:left;">
+		<table>
+		<tr>
+		<td style="width:100px;">
+			<span class="canto nowork">{{canto}}</span>
+		</td>
+		<td style="width:150px text-align:right;">
+			<span class="ottava nowork"><nobr>{{ottava}}</nobr></span>
+		</td>
+		</tr>
+		</table>
+	</td>
+	<td style="height:55px;" class="nowork"> {{gtitle}}</td>
+<!--
+	<td onmouseover="show(this)" onmouseout="hide(this)">{{{gtitle}}}
+			<span class="genre">({{{GENRE}}})</span>
+		<table class="choices">
+		<tr>
+			<td><a href=/settings?rime={{SOLERTI}}>Musical Settings{{{settingCount SOLERTI}}}</a></td>
+			<td><a href=/sources?rime={{SOLERTI}}>Literary Sources</a></td>
+			<td><a href=/variants?rime={{SOLERTI}}>Literary Variants</a></td>
+		</tr>
+		</table>
+	</td>
+-->
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+
+<!-- aminta-template
+		The aminta template is used to fill in the list of Aminta poems
+		on the homepage.  The list of poems is found in the file
+		data/indexes/aminta-settings.aton.
+-->
+
+{% raw %}
+<script id="aminta-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">Act/scene/verse</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:140px">
+			<tr>
+			<td style="width:40px;">
+				<span class="act nowork">{{act}}</span>
+			</td>
+			<td style="width:30px; text-align:right;">
+				<span class="scene nowork"><nobr>{{scene}}</nobr></span>
+			</td>
+			<td style="width:70px; text-align:right;">
+				<span class="verse nowork"><nobr>{{verse}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{atitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+<!-- ecloghe-template
+		The ecloghe template is used to fill in the list of Echloghe
+		poems on the homepage.  The list of poems is found in the file
+		data/indexes/other-settings.aton.
+-->
+
+{% raw %}
+<script id="ecloghe-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">ecloga/verse</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:100px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="ecloga nowork"><nobr>{{ecloga}}</nobr></span>
+			</td>
+			<td style="width:70px; text-align:right;">
+				<span class="verse nowork"><nobr>{{verse}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{etitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+<!-- rinaldo-template
+		The rinaldo template is used to fill in the list of Rinaldo
+		poems on the homepage.  The list of poems is found in the file
+		data/indexes/other-settings.aton.
+-->
+
+{% raw %}
+<script id="rinaldo-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">canto/ottava</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:100px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="canto nowork"><nobr>{{canto}}</nobr></span>
+			</td>
+			<td style="width:70px; text-align:right;">
+				<span class="verse nowork"><nobr>{{ottava}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{rtitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+<!-- torrismondo-template
+		The torrismondo template is used to fill in the list of Re
+		Torrismondo poems on the homepage.  The list of poems
+		is found in the file data/indexes/other-settings.aton.
+-->
+
+{% raw %}
+<script id="torrismondo-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">act/scene/section</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:150px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="act nowork"><nobr>{{act}}</nobr></span>
+			</td>
+			<td style="width:40px; text-align:right;">
+				<span class="scene nowork"><nobr>{{scene}}</nobr></span>
+			</td>
+			<td style="width:80px; text-align:right;">
+				<span class="section nowork"><nobr>{{section}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{ttitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+<!-- lagrime-template
+		The lagrime template is used to fill in the list of Lagrime
+		della Beata Vergine poems on the homepage.  The list of poems
+		is found in the file data/indexes/other-settings.aton.
+-->
+
+{% raw %}
+<script id="lagrime-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">stanza</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:100px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="stanza nowork"><nobr>{{stanza}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td style="height:55px;" class="nowork"> {{ltitle}}</td>
+	</tr>
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+<script>
+
+//////////////////////////////
+//
+// tclass Handlebar helper -- Set the class to whether or not there is
+//     a work page for this ID.
+//
+
+Handlebars.registerHelper("trclass", function(solerti) {
+   len = solerti.length;
+   var id = "Trm";
+   switch (len) {
+		case 3: id += "0"   + solerti; break;
+		case 2: id += "00"  + solerti; break;
+		case 1: id += "000" + solerti; break;
+	}
+	var output = "";
+	if (RWORKLIST[id]) {
+		output += "<tr class='data haswork'>";
+	} else {
+		output += "<tr class='data nowork'>";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// clearnTitle Handlebar helper -- Add small-caps to personal names.
+//
+
+Handlebars.registerHelper("cleanTitle", function(text) {
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+//////////////////////////////
+//
+// settingCount Handlebar helper -- Set the class to whether or
+//     not there is a work page for this ID.
+//
+
+Handlebars.registerHelper("settingCount", function(solerti) {
+	return "";
+   len = solerti.length;
+   var id = "Trm";
+   switch (len) {
+		case 3: id += "0"   + solerti; break;
+		case 2: id += "00"  + solerti; break;
+		case 1: id += "000" + solerti; break;
+	}
+	var output = "";
+	if (RWORKLIST[id]) {
+		output += "<span style='font-size:80%'>";
+		output += "(" + RWORKLIST[id] + ")";
+		output += "</span>";
+	} else {
+		output = "";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+</script>
+
+
+

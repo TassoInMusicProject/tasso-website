@@ -30,7 +30,15 @@ document.addEventListener("DOMContentLoaded", function() {
 	var cgi = GetCgiParameters();
 	if (cgi.rime) {
 		Rime = cgi.rime;
-	   displayMusicalSettings(cgi.rime, "#contents");
+	   displayMusicalSettings(Rime, "#contents");
+	} else if (cgi.id) {
+		var matches;
+		if (matches = cgi.id.match(/Trm0*(\d+)/)) {
+			RIME = matches[1];
+	   	displayMusicalSettings(Rime, "#contents");
+		} else {
+	   	displayMusicalSettings(0, "#contents");
+		}
 	} else {
 	   displayMusicalSettings(0, "#contents");
 	}
@@ -165,63 +173,72 @@ function displayMusicalSettings(rime, target) {
 	if (!target) {
 		target = "#contents";
 	}
+
 	var element = document.querySelector(target);
 	if (!element) {
-		console.log("Error: cannot place Rime literary sources on page.");
+		console.log("Error: cannot place on page since", target, " doesn't exist.");
 		return;
 	}
 
 	var counter = 0;
 
-	if (sessionStorage.SETLIST) {
-		SETLIST = JSON.parse(sessionStorage.SETLIST);
-		counter++;
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			SETLIST = aton.parse(this.responseText).RIME_SETTING;
-			sessionStorage.SETLIST = JSON.stringify(SETLIST);
-			counter++;
-			if (counter == 3) {
-				reallyDisplaySettings(rime, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (sessionStorage.RIMELIST) {
-		RIMELIST = JSON.parse(sessionStorage.RIMELIST);
+	if (sessionStorage.RIMEVERSELIST && 
+				(sessionStorage.RIMEVERSELIST != "undefined")) {
+		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
 		setNextPreviousRime(rime);
 		counter++;
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMELIST = aton.parse(this.responseText);
-			setNextPreviousRime(rime);
-			sessionStorage.RIMELIST = JSON.stringify(RIMELIST);
-			counter++;
-			if (counter == 3) {
-				reallyDisplaySettings(rime, target);
-				counter++;
-			}
-		});
-		request.send();
+	}
+
+	if (sessionStorage.RIMESETTINGLIST) {
+		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
+		counter++;
 	}
 
 	if (sessionStorage.WORKLIST) {
 		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
 		counter++;
-	} else {
+	}
+
+
+	if ((!sessionStorage.RIMEVERSELIST) || 
+				(sessionStorage.RIMEVERSELIST === "undefined")) {
 		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.workist}}");
+		request.open("GET", "{{site.rime_verses}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			RIMEVERSELIST = aton.parse(this.responseText).RIME;
+			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
+			setNextPreviousRime(rime);
+			counter++;
+			if (counter == 3) {
+				reallyDisplaySettings(rime, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.RIMESETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.rime_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
+			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
+			counter++;
+			if (counter == 3) {
+				reallyDisplaySettings(rime, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.WORKLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.worklist}}");
 		request.addEventListener("load", function() {
 			WORKLIST = JSON.parse(this.responseText);
-			setNextPreviousRime(rime);
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
 			if (counter == 3) {
@@ -294,7 +311,7 @@ function displayMultipleRimeSettings() {
 	output += "<h1 style='margin-top:0; padding-right:50px;'>Musical Settings</h1>";
 	output += "</center>";
 
-	var rimelist = RIMELIST.RIME;
+	var rimelist = RIMEVERSELIST;
 	var rime;
 	for (var i=0; i<rimelist.length; i++) {
 		output += "<center><table style='margin-top:10px; ";
@@ -308,7 +325,11 @@ function displayMultipleRimeSettings() {
 			console.log("Error accessing rime:", rime);
 			return;
 		}
-		output += rime_entry.TITLE;
+		var title = rime_entry.TITLE;
+		if (!title) {
+			title = rime_entry.RIMETITLE;
+		}
+		output += title;
 		output += "&nbsp;&nbsp;(<i>Rime</i> " + rime + ")<h2>";
 		output += "</td><td>";
 		output += "</td></tr>";
@@ -362,12 +383,16 @@ function displaySingleRimeSetting(rime) {
 	output += "&#9664;</span>";
 	output += "</td><td style='width:100%; text-align:center'>";
 	output += "<h2>";
-	var rime_entry = GetRimeEntry(rime);
+	var rime_entry = GetRimeVerseEntry(rime);
 	if (!rime_entry) {
 		console.log("Error accessing rime:", rime);
+		console.log("RIME_ENTRY:", rime_entry);
 		return;
 	}
 	var title = rime_entry.TITLE;
+	if (!title) {
+		title = rime_entry.RIMETITLE;
+	}
 	title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
 	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
@@ -407,7 +432,7 @@ function buildSetList(rime_entry) {
 	if (solerti < 10) { key += "0"; }
 	key += solerti;
 	var WORKS = [];
-	var WLIST = SETLIST;
+	var WLIST = RIMESETTINGLIST;
 	for (var i=0; i<WLIST.length; i++) {
 		if (WLIST[i].CATALOGNUM.match(key)) {
 			WLIST[i].SOLERTI = solerti;
@@ -459,7 +484,7 @@ function setNextPreviousRime(rime) {
 	PreviousRime = rime;
 
 	var index = -1;
-	var list = RIMELIST.RIME;
+	var list = RIMEVERSELIST;
 	for (var i=0; i<list.length; i++) {
 		if (rime == list[i].SOLERTI) {
 			index = i;

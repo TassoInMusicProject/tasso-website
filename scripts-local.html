@@ -380,14 +380,11 @@ function makeCantoList(gllist) {
 	var output = {};
 	var data = output;
 	for (var i=0; i<gllist.length; i++) {
-		var key = gllist[i].Catalog.replace(/[a-z]$/, "");
-		var title = gllist[i].Title;
-		var canto = gllist[i].Canto;
-		var ottava = gllist[i].Ottava;
+		var key = gllist[i].CATALOGNUM.replace(/[a-z]$/, "");
 		data[key] = {};
-		data[key].gtitle = title;
-		data[key].canto = canto;
-		data[key].ottava = ottava;
+		data[key].gtitle = gllist[i].TITLE;
+		data[key].canto = gllist[i].CANTO;
+		data[key].ottava = gllist[i].OTTAVA;
 	}
 	// Should already be sorted, but maybe sort here by Canto/Ottava
 	// as stored in catalog number.

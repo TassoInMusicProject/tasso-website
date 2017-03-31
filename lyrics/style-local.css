@@ -18,6 +18,9 @@ table.wordlist tr:first-child th {
 	color: {{site.heading_color}};
 }
 
+.wfbutton:focus {
+	outline: 0 !important;
+}
 
 .word, #wf {
 	cursor: pointer;
@@ -75,3 +78,21 @@ table.wordlist td {
 
 }
 
+.wfbutton#sortbutton {
+	margin-right: 120px;
+}
+
+.wfbutton {
+	float:right;
+	margin-top: -50px;
+	background-color: {{site.button_color}};
+	color: {{site.button_text_color}};
+	padding-left: 7px;
+	padding-bottom: 2px;
+	padding-right: 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: {{site.button_font}};
+	z-index: -100;
+
+}

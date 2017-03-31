@@ -19,7 +19,7 @@
 // getLyrics -- extract catalog number from  CGI variable "id"
 //
 
-function getLyrics() {
+function getLyrics(event) {
 	var cgi = GetCgiParameters();
 	var id = "Trm0047a";
 	if (cgi.id) {
@@ -38,9 +38,12 @@ function getLyrics() {
 		// (replace above does not work)
 		element.innerHTML = this.responseText;
 		setupLyrics();
+		addSortButton();
+		addDataButton();
 	});
 	request.send();
 }
+
 
 
 var SORT = "alphabetic";
@@ -58,7 +61,7 @@ function setupLyrics() {
 	prepareWordlist();
 	var wf = document.querySelector("#wf");
 	if (wf) {
-		wf.addEventListener("click", function(event) { toggleSort(event); });
+		wf.addEventListener("click", toggleSort);
 	}
 }
 
@@ -112,18 +115,22 @@ function prepareWordlist() {
 }
 
 
-function toggleSort(event) {
+function toggleSort() {
 	event.preventDefault();
+	var button = document.querySelector("#sortbutton");
 	if (SORT === "alphabetic") {
 		sortNumeric();
 		SORT = "numeric";
+		button.innerHTML = "sort alphabetically";
 	} else {
 		sortAlphabetic();
 		SORT = "alphabetic";
+		button.innerHTML = "sort numerically";
 	}
 	prepareWordlist();
 	unhighlightWord(LASTWORD);
 	LASTWORD = "";
+	
 }
 
 
@@ -218,12 +225,97 @@ function sortAlphabetic() {
 
 
 
+function addSortButton() {
+	var wf = document.querySelector("#wf");
+	var button = document.createElement("div");
+	button.id = "sortbutton";
+	button.className = "wfbutton";
+	button.innerHTML = "sort numerically";
+	button.addEventListener("click", toggleSort);
+	wf.parentNode.insertBefore(button, wf.nextSibling);
+}
 
 
 
+//////////////////////////////
+//
+// addDataButton --
+//
+
+function addDataButton() {
+	var wf = document.querySelector("#wf");
+	var button = document.createElement("input");
+	button.id = "databutton";
+	button.className = "wfbutton";
+	button.type = "button";
+	button.value = "data";
+	button.style.border = 0;
+	button.style.outline = 0;
+	button.style.borderStyle = "none";
+	button.style.marginRight = "80px";
+	button.style.opacity = 0.5;
+	button.onclick = displayData;
+	// button.innerHTML = "data";
+	wf.parentNode.insertBefore(button, wf.nextSibling);
+}
 
 
 
+//////////////////////////////
+//
+// displayData --
+//
+
+
+var DATAWINDOW;
+
+function displayData() {
+	var text;
+	text = "<html><head>";
+	text += "<meta charset='UTF-8'>";
+	text += "<title>data</title>";
+	text += "</head><body>";
+	text += "<pre>";
+	text += generateWordListData();
+	text += "</pre>";
+	text += "<script>console.log('GOT HERE QQQ'); var parent = window.open('', 'parent'); parent.focus();<\/script>";
+	text += "</body></html>";
+	window.name = "parent";
+	if (DATAWINDOW) {
+		DATAWINDOW.close();
+	}
+	DATAWINDOW = window.open('', "datawindow", "width=200,height=700,left=100,top=50,0,status=no,menubar=no,directories=no,titlebar=no,toolbar=no,location=no,status=0,scrollbars=1");
+	DATAWINDOW.document.write(text);
+}
+
+
+
+//////////////////////////////
+//
+// generateWordListData --
+//
+
+function generateWordListData() {
+	var tables = document.querySelectorAll("table.wordlist");
+	var text = "";
+	for (var i=0; i<tables.length; i++) {
+		var rows = tables[i].querySelectorAll("tr")
+		for (var j=1; j<rows.length; j++) {
+			var cols = rows[j].querySelectorAll("td");
+			for (var k=0; k<cols.length; k++) {
+				text += cols[k].textContent.replace(/\s+$/, "").replace(/^\s+/, "");
+				if (k < cols.length - 1) {
+					text += "\t";
+				}
+			}
+			text += "\n";
+		}
+	}
+	return text;
+}
 
 
 </script>
+
+
+

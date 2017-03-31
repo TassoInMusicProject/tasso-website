@@ -69,11 +69,17 @@ table.wordlist td:first-child {
 table.wordlist td {
 	padding: 0px;
 	margin: 0px;
+	width: 150px;
+	white-space: nowrap;
+	position: relative;
+	overflow: visible;
+	top: 0;
+	left: 0;
 }
 
 .freq-table {
-	margin-left: 50px;
-	width: 1000px;
+	margin-left: 60px;
+	width: 900px;
 	max-width: 1000px;
 
 }
@@ -95,4 +101,14 @@ table.wordlist td {
 	font-family: {{site.button_font}};
 	z-index: -100;
 
+}
+
+td.partname {
+	background-color: {{site.tab_color}} !important;
+	background: linear-gradient(to right, {{site.tab_color}}, white, white, white, white) !important;
+	padding-left: 10px;
+	color: white;
+	padding-bottom: 3px;
+	opacity: 0.3;
+	border-radius: 1px;
 }

@@ -68,4 +68,10 @@ table.wordlist td {
 	margin: 0px;
 }
 
+.freq-table {
+	margin-left: 50px;
+	width: 1000px;
+	max-width: 1000px;
+
+}
 

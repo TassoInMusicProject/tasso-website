@@ -1,6 +1,7 @@
 <script src="/scripts/scripts-common.js"></script>
 
 {% include_relative templates.html %}
+{% include_relative templates-report.html %}
 
 {% include_relative listeners.html %}
 
@@ -240,15 +241,18 @@ function getCriticalNotes(id) {
 		}
 	} else {
 		var url = "{{site.critical_reports}}/" + id + "-report.html";
-console.log("URL:", url);
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			if (this.status == 200) {
 				var data = this.responseText;
+				var template = Handlebars.compile(data);
+				data = template(data);
 				REPORT[id] = data;
 				if (element) {
-					element.innerHTML = addCatalogLinks(data);
+					// element.innerHTML = addCatalogLinks(data);
+					// catalog links now done differently:
+					element.innerHTML = data;
 				}
 			}
 		});

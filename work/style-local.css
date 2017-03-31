@@ -1,4 +1,6 @@
-
+/* 
+ * vim: ts=3
+ */
 
 #contents {
 	padding: 50px;
@@ -42,6 +44,8 @@ table.worklist {
 }
 
 .indent {
+	text-align: justify;
+	text-justify: inter-word;
  	margin-left: 75px;
  	margin-right: 150px;
 }
@@ -54,12 +58,12 @@ table.worklist {
 
 
 .other-line {
-	padding-left: 50px;
+	padding-left: 40px;
 	white-space: nowrap;
 }
 
 table.poem td:first-child {
-	padding-right: 10px;
+	padding-right: 30px;
 }
 
 table.worklist th {
@@ -86,6 +90,14 @@ table.downloads {
 	padding-right: 100px;
 }
 
+nobr[class^='mm'] {
+	cursor: pointer;
+	color: {{site.hyperlink_color}};
+}
+
+.error {
+	background-color: red;
+}
 
 
 

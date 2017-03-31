@@ -1,0 +1,142 @@
+
+<script>
+// Templates for critical report content
+// vim: ts=3
+
+Handlebars.registerHelper("mm",   createMeasureRange);
+Handlebars.registerHelper("m",    createMeasureRange);
+Handlebars.registerHelper("MM",   createMeasureRange);
+Handlebars.registerHelper("Mm",   createMeasureRange);
+Handlebars.registerHelper("M",    createMeasureRange);
+Handlebars.registerHelper("mmx",  createMeasureRange);
+Handlebars.registerHelper("mx",   createMeasureRange);
+Handlebars.registerHelper("MMX",  createMeasureRange);
+Handlebars.registerHelper("MmX",  createMeasureRange);
+Handlebars.registerHelper("MX",   createMeasureRange);
+Handlebars.registerHelper("mmX",  createMeasureRange);
+Handlebars.registerHelper("mX",   createMeasureRange);
+Handlebars.registerHelper("MMx",  createMeasureRange);
+Handlebars.registerHelper("Mmx",  createMeasureRange);
+Handlebars.registerHelper("Mx",   createMeasureRange);
+Handlebars.registerHelper("mm.",  createMeasureRange);
+Handlebars.registerHelper("m.",   createMeasureRange);
+Handlebars.registerHelper("MM.",  createMeasureRange);
+Handlebars.registerHelper("Mm.",  createMeasureRange);
+Handlebars.registerHelper("M.",   createMeasureRange);
+Handlebars.registerHelper("mmx.", createMeasureRange);
+Handlebars.registerHelper("mx.",  createMeasureRange);
+Handlebars.registerHelper("MMX.", createMeasureRange);
+Handlebars.registerHelper("MmX.", createMeasureRange);
+Handlebars.registerHelper("MX.",  createMeasureRange);
+Handlebars.registerHelper("mmX.", createMeasureRange);
+Handlebars.registerHelper("mX.",  createMeasureRange);
+Handlebars.registerHelper("MMx.", createMeasureRange);
+Handlebars.registerHelper("Mmx.", createMeasureRange);
+Handlebars.registerHelper("Mx.",  createMeasureRange);
+Handlebars.registerHelper("mm.x", createMeasureRange);
+Handlebars.registerHelper("m.x",  createMeasureRange);
+Handlebars.registerHelper("MM.X", createMeasureRange);
+Handlebars.registerHelper("Mm.X", createMeasureRange);
+Handlebars.registerHelper("M.X",  createMeasureRange);
+Handlebars.registerHelper("mm.X", createMeasureRange);
+Handlebars.registerHelper("m.X",  createMeasureRange);
+Handlebars.registerHelper("MM.x", createMeasureRange);
+Handlebars.registerHelper("Mmx.", createMeasureRange);
+Handlebars.registerHelper("M.x",  createMeasureRange);
+
+
+
+//////////////////////////////
+//
+// createMeasureRange -- 
+//
+
+function createMeasureRange() {
+	var startval = Number.isInteger(arguments[0]) && arguments[0];
+	var endval   = Number.isInteger(arguments[1]) && arguments[1];
+	var name = arguments[arguments.length-1].name;
+
+	var matches;
+	if ((typeof arguments[0] === "string") && 
+			(matches = arguments[0].match(/(\d+)[^\d]+(\d+)/))) {
+		startval = matches[1];
+		endval   = matches[2];
+	}
+
+	console.log("startval:", startval, "endval:", endval, "name:", name);
+
+	var nodot = false;
+	for (var i=0; i<arguments.length-1; i++) {
+		if (arguments[i] === "nodot") {
+			nodot = true;
+		}
+	}
+	if (name.match(/\./)) {
+		// name already has a dot.
+		nodot = true;
+	}
+
+	var nospace = false;
+	for (var i=0; i<arguments.length-1; i++) {
+		if (arguments[i] === "nospace") {
+			nospace = true;
+		}
+	}
+
+	if (startval === false) {
+		return new Handlebars.SafeString("<span class='error'>ERROR: need at least one measure number</span>");
+	}
+	var range = startval;
+	if (endval !== false) {
+		range += "-" + endval;
+	}
+	var output = "<nobr class='mm" + range + "'>";
+	if (!name.match(/x/i)) {
+		output += name;
+		if (!nodot) {
+			output += ".";
+		}
+		if (!nospace) {
+			output += " ";
+		}
+	}
+	output += startval;
+	if (endval !== false) {
+		output += "&ndash;" + endval;
+	}
+	output += "</nobr>";
+	return new Handlebars.SafeString(output);
+}
+
+
+
+Handlebars.registerHelper("work",  createWorkPageLink);
+
+
+//////////////////////////////
+//
+// createWorkPageLink --
+//
+
+function createWorkPageLink() {
+	if (arguments.length <= 1) {
+		return new Handlebars.SafeString("<span class='error'>ERROR: need catalog number</span>");
+	}
+	if (typeof arguments[0] !== "string") {
+		return new Handlebars.SafeString("<span class='error'>ERROR: invalid catalog number</span>");
+	}
+	if (arguments[0].charAt(0) !== "T") {
+		return new Handlebars.SafeString("<span class='error'>ERROR: catalog number must start with a T</span>");
+	}
+	var output = "<a href='/work?id=" + arguments[0] + "'>";
+	output += arguments[0];
+	output += "</a>";
+console.log("output", output);
+	return new Handlebars.SafeString(output);
+}
+
+
+
+
+</script>
+

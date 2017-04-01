@@ -129,13 +129,12 @@ function displayIncipits() {
 	element.innerHTML = output;
 	var search = document.querySelector("div#search input");
 	if (search.value) {
-console.log("DOING SEARCH ON ", search.value);
 		doSearch()
-	} else {
-console.log("NOT DOING SEARCH ON EMPTY:", search.value);
 	}
 
 	var svgcontainers = document.querySelectorAll("div[id$='-svg']");
+	var matched = [];
+	var unmatched = [];
 	var newcontainers = [];
 
 	for (var i=0; i<svgcontainers.length; i++) {
@@ -149,10 +148,16 @@ console.log("NOT DOING SEARCH ON EMPTY:", search.value);
 			svgcontainers[i].style.marginTop = "-50px";
 			svgcontainers[i] = null;
 		} else {
-			newcontainers.push(svgcontainers[i]);
+			if (svgcontainers[i].style.display === "block") {
+				matched.push(svgcontainers[i]);
+			} else {
+				unmatched.push(svgcontainers[i]);
+			}
 		}
 	}
-	newcontainers.reverse();
+	matched.reverse();
+	unmatched.reverse();
+	newcontainers = matched.concat(unmatched);
 
 	fillSvgContainers(newcontainers);
 }

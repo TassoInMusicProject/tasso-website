@@ -18,12 +18,14 @@
 
 	<tr class="entry">
 	<td>
-	<a href="/work?id={{id}}"><span class="id">{{id}}</span></a>: 
-	<span class="composer">{{comlong}}</span>
-	(<span class="year">{{workdate}}</span>), 
-	<i><span class="title">{{formatTitle title}}</span></i>
-	<br/>
-	<div id="{{id}}-svg"></div>
+	<span class="text">
+		<a href="/work?id={{id}}"><span class="id">{{id}}</span></a>: 
+		<span class="composer">{{comlong}}</span>
+		(<span class="year">{{workdate}}</span>), 
+		<i><span class="title">{{formatTitle title}}</span></i>
+		<br/>
+	</span>
+	<a href="/work?id={{id}}"><div id="{{id}}-svg"></div></a>
 	</td>
 	</tr>
 

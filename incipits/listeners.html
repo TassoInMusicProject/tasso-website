@@ -83,14 +83,34 @@ function setCount(number)  {
 
 //////////////////////////////
 //
-// isMatch --
+// isMatch -- Make searching the SVG optional and maybe off by default.
 //
 
 function isMatch(element, regexps) {
+	var etext = element.querySelector("span.text");
+	var composer = etext.querySelector(".composer").textContent;
+	var id = etext.querySelector(".id").textContent;
+	var year = etext.querySelector(".year").textContent;
+	var title = etext.querySelector(".title").textContent;
+	var tspans = element.querySelectorAll("svg tspan");
+	var orval;
+
 	for (var i=0; i<regexps.length; i++) {
-		if (!element.innerHTML.match(regexps[i])) {
-			return false;
+		if (composer.match(regexps[i])) { continue; }
+		if (id.match(regexps[i]))       { continue; }
+		if (year.match(regexps[i]))     { continue; }
+		if (title.match(regexps[i]))    { continue; }
+		orval = 0;
+		for (var j=0; j<tspans.length; j++) {
+			if (tspans[j].textContent.match(regexps[i])) {
+				orval = 1;
+				break;
+			}
 		}
+		if (orval) {
+			continue;
+		}
+		return false;
 	}
 	return true;
 }

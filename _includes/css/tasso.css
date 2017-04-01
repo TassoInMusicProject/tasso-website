@@ -342,5 +342,11 @@ svg tspan {
 	font-family: simonetta !important;
 }
 
+input::placeholder {
+	color: #aaa;
+}
 
 
+input {
+	font-size: 105%;
+}

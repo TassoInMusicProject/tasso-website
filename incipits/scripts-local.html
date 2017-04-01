@@ -35,24 +35,27 @@ var vrvOptions = {
 //
 
 function checkLocalStorage() {
-	var timestamp = sessionStorage.timestamp;
-	if (!timestamp) {
-		sessionStorage.clear();
-	}
 	var hours = 24;
 	var seconds = new Date().getTime() / 1000;
-	if (seconds - timestamp > hours * 3600)  {
-		sessionStorage.clear();
+
+	var timestamp = sessionStorage.timestamp;
+	if (!timestamp) {
+		sessionStorage.timestamp = seconds;
+	} else {
+		if (seconds - timestamp > hours * 3600)  {
+			sessionStorage.clear();
+		}
 	}
 
 	var timestamp = localStorage.timestamp;
 	if (!timestamp) {
-		localStorage.clear();
-	}
-	var hours = 24;
-	var seconds = new Date().getTime() / 1000;
-	if (seconds - timestamp > hours * 3600)  {
-		localStorage.clear();
+		localStorage.timestamp = seconds;
+	} else {
+		var hours = 24;
+		var seconds = new Date().getTime() / 1000;
+		if (seconds - timestamp > hours * 3600)  {
+			localStorage.clear();
+		}
 	}
 }
 
@@ -136,6 +139,7 @@ function displayIncipits() {
 		var tag = "svg_" + id;
 		if (localStorage[tag]) {
 			svgcontainers[i].innerHTML = localStorage[tag];
+			svgcontainers[i].style.marginTop = "-50px";
 			svgcontainers[i] = null;
 		} else {
 			newcontainers.push(svgcontainers[i]);

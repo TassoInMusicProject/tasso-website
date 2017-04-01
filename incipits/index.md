@@ -9,7 +9,10 @@ permalink: /incipits/index.html
 ---
 
 
-<div id="search"></div>
+<div id="search">
+<input style="width:50%" type="text" placeholder="search...">
+<span id="count"></span>
+</div>
 
 
 <div id="incipit-list"></div>

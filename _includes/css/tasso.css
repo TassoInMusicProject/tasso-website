@@ -337,3 +337,10 @@ th.composer {
 	font-style: italic;
 }
 
+
+svg tspan {
+	font-family: simonetta !important;
+}
+
+
+

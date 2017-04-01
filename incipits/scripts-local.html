@@ -1,0 +1,296 @@
+<script src="/scripts/scripts-common.js"></script>
+
+{% include_relative templates.html %}
+
+{% include_relative listeners.html %}
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Fri Mar 31 19:56:13 PDT 2017
+// Last Modified: Fri Mar 31 19:56:15 PDT 2017
+// Filename:      incipits/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
+//
+// Description:   JavaScript management for display of work pages.
+//
+
+var vrvToolkit;
+
+var vrvOptions = {
+	pageWidth: 2500,
+	pageHeight: 1000,
+	adjustPageHeight: 1,
+	font: "Leipzig",
+	scale: 40
+};
+
+
+
+//////////////////////////////
+//
+// checkLocalStorage -- Automatically flush the local/session storage
+//    after 24 hours (at least during development mode).
+//
+
+function checkLocalStorage() {
+	var timestamp = sessionStorage.timestamp;
+	if (!timestamp) {
+		sessionStorage.clear();
+	}
+	var hours = 24;
+	var seconds = new Date().getTime() / 1000;
+	if (seconds - timestamp > hours * 3600)  {
+		sessionStorage.clear();
+	}
+
+	var timestamp = localStorage.timestamp;
+	if (!timestamp) {
+		localStorage.clear();
+	}
+	var hours = 24;
+	var seconds = new Date().getTime() / 1000;
+	if (seconds - timestamp > hours * 3600)  {
+		localStorage.clear();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// loadWorkList --
+//
+
+function loadWorkList(url) {
+	if (!url) {
+		url = "{{site.worklist}}";
+	}
+	var counter = 0;
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+		counter++;
+	}
+
+	if (!sessionStorage.WORKLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", url);
+		request.addEventListener("load", function() {
+			WORKLIST = JSON.parse(this.responseText);
+			sessionStorage.WORKLIST = this.responseText;
+			counter++;
+			if (counter == 1) {
+				continueSetup();
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == 1) {
+		continueSetup();
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// continueSetup --
+//
+
+function continueSetup() {
+	displayIncipits();
+}
+
+
+
+//////////////////////////////
+//
+// displayIncipits --
+//
+
+function displayIncipits() {
+	var element = document.querySelector("#incipit-list");
+	if (!element) {
+		console.log("Error finding incipit list location");
+		return;
+	}
+
+	var tsource = document.querySelector("#incipit-template").textContent;
+	var workTemplate = Handlebars.compile(tsource);
+	var output = workTemplate(WORKLIST[0]);
+	element.innerHTML = output;
+
+	var svgcontainers = document.querySelectorAll("div[id$='-svg']");
+	var newcontainers = [];
+
+	for (var i=0; i<svgcontainers.length; i++) {
+		if (!svgcontainers[i]) {
+			continue;
+		}
+		var id = svgcontainers[i].id.match(/^(.*)?-/)[1];
+		var tag = "svg_" + id;
+		if (localStorage[tag]) {
+			svgcontainers[i].innerHTML = localStorage[tag];
+			svgcontainers[i] = null;
+		} else {
+			newcontainers.push(svgcontainers[i]);
+		}
+	}
+	newcontainers.reverse();
+
+	fillSvgContainers(newcontainers);
+}
+
+
+
+//////////////////////////////
+//
+// fillSvgContainers --
+//
+
+function fillSvgContainers(svglist) {
+	if (svglist.length == 0) {
+		return;
+	}
+	var svgloc = svglist.pop();
+	if (!svgloc) {
+		fillSvgContainers(svglist);
+	}
+	var id = svgloc.id.match(/^(.*)?-/)[1];
+	var htag = "humdrum_" + id;
+
+	if (sessionStorage[htag]) {
+		generateNotation(svgloc, sessionStorage[htag]);
+		fillSvgContainers(svglist);
+	} else {
+		var action = "humdrum";
+		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		var request = new XMLHttpRequest();
+		request.open('GET', url);
+		request.addEventListener("load", function() {
+			var data = this.responseText;
+			sessionStorage[htag] = data;
+			generateNotation(svgloc, sessionStorage[htag]);
+			fillSvgContainers(svglist);
+		});
+		request.send()
+	}
+}
+
+
+
+//////////////////////////////
+//
+// generateNontation --
+//
+
+function generateNotation(svgloc, humdrum) {
+	if (!vrvToolkit) {
+		console.log("Error: verovio toolkit not available");
+		return;
+	}
+
+	vrvOptions.pageHeight = 1000;
+
+	var content = humdrum;
+	var matches;
+	if (matches = content.match(/^(\*\*.*)/m)) {
+		var tokens = matches[1].split("\t");
+		var kcount = 0;
+		var tcount = 0;
+		for (var i=0; i<tokens.length; i++) {
+			if (tokens[i] === "**kern") {
+				kcount++;
+			} else if (tokens[i] === "**text") {
+				tcount++;
+			}
+		}
+	}
+
+	if (kcount > 0) {
+		vrvOptions.pageHeight = 230 * kcount + 80 * tcount;
+	}
+
+	var svg = vrvToolkit.renderData(content, vrvOptions);
+	svgloc.innerHTML = svg;
+	svgloc.style.marginTop = "-50px";
+	var id = svgloc.id.match(/^(.*)?-/)[1];
+	var stag = "svg_" + id;
+	localStorage[stag] = svg;
+}
+
+
+
+
+
+//////////////////////////////
+//
+// getHumdrumNoRecurse --
+//
+
+function getHumdrumNoRecurse(id) {
+	var tag = "humdrum_" + id;
+	if (sessionStorage[tag]) {
+		return;
+	}
+
+	var action = "humdrum";
+	var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	var request = new XMLHttpRequest();
+	request.open('GET', url);
+	request.addEventListener("load", function() {
+		var data = this.responseText;
+		sessionStorage[tag] = data;
+	});
+	request.send()
+}
+
+
+
+//////////////////////////////
+//
+// setSvgSize --
+//
+
+function setSvgSize() {
+	var svg = document.querySelector("#range svg");
+	var width = svg.getAttribute("width");
+	var height = svg.getAttribute("height");
+	var scale = 1.6;
+	width *= scale;
+	height *= scale;
+	svg.setAttribute("width", width);
+	svg.setAttribute("height", height);
+}
+
+
+
+//////////////////////////////
+//
+// getWorkInfo --
+//
+
+function getWorkInfo(id) {
+	if (!WORKLIST) {
+		return null;
+	}
+	var i, j;
+	for (i=0; i<WORKLIST.length; i++) {
+		var rep = WORKLIST[i];
+		for (j=0; j<rep.works.length; j++) {
+			if (rep.works[j].id === id) {
+				return rep.works[j];
+			}
+		}
+	}
+}
+
+
+</script>
+
+

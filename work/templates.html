@@ -1,7 +1,7 @@
 
 <!-- HANDLEBARS TEMPLATES -------------------------------------- -->
 <!--
-	vim: ts=3
+	vim: ts=3 ft:javascript
 -->
 
 <!-- worklist-template
@@ -26,10 +26,10 @@
 
 	{{#works}}
 	<tr class="data">
-		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{id}}</td>
-		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;"> <nobr>{{{shortcomposer2 comlong}}}</nobr></td>
+		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; color:#96835c; padding-right:20px;" >{{id}}</td>
+		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;"> <nobr>{{{shortComposer2 comlong}}}</nobr></td>
 		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{{workdate}}}</td>
-		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{title title}}}</td>
+		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{formatTitle title}}}</td>
 		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{voices}}}</td>
 		<td>
 			<span id="audio_{{id}}" style="cursor:hand; cursor:pointer;"
@@ -152,4 +152,201 @@
 
 </script>
 {% endraw %}
+
+<script>
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Handlebar helper functions --
+//
+
+
+//////////////////////////////
+//
+// verses Handlebar helper -- Assuming translation has the same
+//     dimension as verses.
+//
+
+Handlebars.registerHelper("verses", function(verses, translation, catnum) {
+	var rime = catnum.match(/Trm0*(\d+)/)[1];
+	
+	if (!verses) {
+		return "";
+	}
+	var v;
+	var t;
+	var output = "<h3> Text and Translation";
+	output += "<span class='variant'>(";
+	output += "<a href='/variants?rime=";
+	output += rime;
+	output += "'>";
+	output += "go to <i>Rime</i> variants";
+	output += "</a>";
+	output += ")</span>";
+	output += "</h3>";
+	output += "<div class='indent'>";
+	output += "<table class=poem>";
+	if (verses.VERSE instanceof Array) {
+		output += "<tr>";
+		output += "<td>";
+		output += verses.VERSE.length
+	} else {
+		output += "<tr>";
+		output += "<td>";
+		v = verses.VERSE.split(/\n/);
+		for (var i in v) {
+			if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "<td>";
+		t = translation.VERSE.split(/\n/);
+		for (var i in t) {
+			if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "</tr>";
+	}
+	output += "</table>";
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// composer Handlebar helper --
+//
+
+Handlebars.registerHelper("formatComposer", function(text) {
+	var matches;
+	var output = text;
+	if (matches = text.match(/(.*),\s*(.*)/)) {
+		output = matches[2] + " " + matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// shortComposer2 Handlebar helper  -- Prevent linebreak after RISM
+//      and its number.
+//
+
+Handlebars.registerHelper("shortComposer2", function(text) {
+	var fullname = text;
+	var matches;
+	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
+	var pieces = text.split(/\s+/);
+
+	var abbrname = "";
+	for (var i=0; i<pieces.length-1; i++) {
+		if (pieces[i][0] == pieces[i][0].toLowerCase()) {
+			// such as "del"
+			abbrname += " " + pieces[i];
+		} else if (pieces[i][0] == pieces[i][0].toUpperCase()) {
+			abbrname += " " + pieces[i][0] + ".";
+		} else {
+			// strange case
+			abbrname += " " + pieces[i];
+		}
+	}
+	abbrname += " " + pieces[pieces.length-1];
+	abbrname = abbrname.replace(/^\s+/, "");
+	abbrname = abbrname.replace(". ", ".");
+	abbrname = abbrname.replace(/.*\. ?/, "");
+	var output = "<span title='" + fullname + "'>" + abbrname + "</span>";
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper  -- format peoples' names.
+//
+
+Handlebars.registerHelper("formatTitle", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("EMPTY");
+	}
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// principalsource Handlebar helper  -- format principal source information
+//
+
+Handlebars.registerHelper("principalsource", function(id) {
+	var entry = GetSettingEntry(id);
+	var text = entry.REPORT_PRINCIPALSOURCE;
+	if (!text) {
+		return new Handlebars.SafeString("None.");
+	}
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// emendation Handlebar helper  -- format principal source information
+//
+
+Handlebars.registerHelper("emendation", function(id) {
+	var entry = GetSettingEntry(id);
+	var text = entry.REPORT_EMENDATION;
+	if (!text) {
+		return new Handlebars.SafeString("None.");
+	}
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// reportnotes Handlebar helper  -- format principal source information
+//
+
+Handlebars.registerHelper("reportnotes", function(id) {
+	var entry = GetSettingEntry(id);
+	var text = entry.REPORT_NOTES;
+	if (!text) {
+		return new Handlebars.SafeString("None.");
+	}
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// id2rime Handlebar helper  -- Extract Rime number from catalog number.
+//
+
+Handlebars.registerHelper("id2rime", function(text) {
+	var matches;
+	var output = 0;
+	if (matches = text.match(/^Trm0*(\d+)/)) {
+		output = matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+</script>
+
 

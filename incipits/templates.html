@@ -1,0 +1,132 @@
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+<!--
+	vim: ts=3 ft:text
+-->
+
+<!-- incipit-template
+		The worklist template is used to fill in the list of available works.
+-->
+
+{% raw %}
+<script id="incipit-template" type="text/x-handlebars-template">
+	<table class="incipitlist">
+
+	<tbody>
+
+	{{#works}}
+
+	<tr class="entry">
+	<td>
+	<a href="/work?id={{id}}"><span class="id">{{id}}</span></a>: 
+	<span class="composer">{{comlong}}</span>
+	(<span class="year">{{workdate}}</span>), 
+	<i><span class="title">{{formatTitle title}}</span></i>
+	<br/>
+	<div id="{{id}}-svg"></div>
+	</td>
+	</tr>
+
+	{{/works}}
+
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+<script>
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Handlebar helper functions --
+//
+
+
+//////////////////////////////
+//
+// composer Handlebar helper --
+//
+
+Handlebars.registerHelper("formatComposer", function(text) {
+	var matches;
+	var output = text;
+	if (matches = text.match(/(.*),\s*(.*)/)) {
+		output = matches[2] + " " + matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// shortComposer2 Handlebar helper  -- Prevent linebreak after RISM
+//      and its number.
+//
+
+Handlebars.registerHelper("shortComposer2", function(text) {
+	var fullname = text;
+	var matches;
+	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
+	var pieces = text.split(/\s+/);
+
+	var abbrname = "";
+	for (var i=0; i<pieces.length-1; i++) {
+		if (pieces[i][0] == pieces[i][0].toLowerCase()) {
+			// such as "del"
+			abbrname += " " + pieces[i];
+		} else if (pieces[i][0] == pieces[i][0].toUpperCase()) {
+			abbrname += " " + pieces[i][0] + ".";
+		} else {
+			// strange case
+			abbrname += " " + pieces[i];
+		}
+	}
+	abbrname += " " + pieces[pieces.length-1];
+	abbrname = abbrname.replace(/^\s+/, "");
+	abbrname = abbrname.replace(". ", ".");
+	abbrname = abbrname.replace(/.*\. ?/, "");
+	var output = "<span title='" + fullname + "'>" + abbrname + "</span>";
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper  -- format peoples' names.
+//
+
+Handlebars.registerHelper("formatTitle", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("EMPTY");
+	}
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// id2rime Handlebar helper  -- Extract Rime number from catalog number.
+//
+
+Handlebars.registerHelper("id2rime", function(text) {
+	var matches;
+	var output = 0;
+	if (matches = text.match(/^Trm0*(\d+)/)) {
+		output = matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+</script>
+
+

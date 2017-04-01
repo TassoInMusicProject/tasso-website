@@ -1,0 +1,17 @@
+<script>
+// vim: ts=3
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	vrvToolkit = new verovio.toolkit();
+	HighlightNavigationBar();
+	checkLocalStorage();
+	loadWorkList("{{site.worklist}}");
+});
+
+
+</script>

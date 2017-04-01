@@ -127,6 +127,13 @@ function displayIncipits() {
 	var workTemplate = Handlebars.compile(tsource);
 	var output = workTemplate(WORKLIST[0]);
 	element.innerHTML = output;
+	var search = document.querySelector("div#search input");
+	if (search.value) {
+console.log("DOING SEARCH ON ", search.value);
+		doSearch()
+	} else {
+console.log("NOT DOING SEARCH ON EMPTY:", search.value);
+	}
 
 	var svgcontainers = document.querySelectorAll("div[id$='-svg']");
 	var newcontainers = [];

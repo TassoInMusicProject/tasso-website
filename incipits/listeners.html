@@ -10,10 +10,15 @@ document.addEventListener("DOMContentLoaded", function() {
 	vrvToolkit = new verovio.toolkit();
 	HighlightNavigationBar();
 	checkLocalStorage();
-	loadWorkList("{{site.worklist}}");
 
 	var search = document.querySelector("div#search input");
 	search.addEventListener("keydown", function(event) {doSearch(event)});
+	var cgi = GetCgiParameters();
+	if (cgi.q) {
+		search.value = cgi.q;
+	}
+
+	loadWorkList("{{site.worklist}}");
 });
 
 
@@ -24,12 +29,19 @@ document.addEventListener("DOMContentLoaded", function() {
 //
 
 function doSearch(event) {
-	var sval = event.target.value;
-	if (event.key == "Backspace") {
-		sval = sval.slice(0, -1);
-	} else if (event.key.length == 1) {
-		sval += event.key
+	var sval = "";
+
+	if (event) {
+		sval = event.target.value;
+		if (event.key == "Backspace") {
+			sval = sval.slice(0, -1);
+		} else if (event.key.length == 1) {
+			sval += event.key
+		}
+	} else {
+		sval = document.querySelector("div#search input").value;
 	}
+
 	sval = sval.replace(/\s+$/, "");
 	sval = sval.replace(/^\s+/, "");
 	sval = sval.replace(/\s+/, " ");
@@ -59,6 +71,7 @@ function doSearch(event) {
 	}
 	setCount(count);
 }
+
 
 
 //////////////////////////////

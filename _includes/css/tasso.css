@@ -350,3 +350,14 @@ input::placeholder {
 input {
 	font-size: 105%;
 }
+
+.play {
+	padding-bottom: 1px;
+}
+
+.pause {
+	padding-bottom: 1px;
+}
+
+
+

@@ -12,3 +12,9 @@ tr td {
 	padding-top: 50px;
 }
 
+
+.play, .pause {
+	float: right;
+	margin-bottom: -100px;
+	margin-top: -25px;
+}

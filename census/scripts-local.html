@@ -119,7 +119,7 @@ function generateTotals() {
 	sum = 0;
 	if (total && (items.length > 0)) {
 		for (i=0; i<items.length; i++) {
-			sum += parseInt(items[i].innerHTML);
+			sum += parseInt(items[i].querySelector("a").innerHTML);
 		}
 		total.innerHTML = sum;
 	}

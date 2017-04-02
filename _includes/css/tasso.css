@@ -339,7 +339,7 @@ th.composer {
 
 
 svg tspan {
-	font-family: simonetta !important;
+	font-family: simonetta, VerovioText !important;
 }
 
 input::placeholder {

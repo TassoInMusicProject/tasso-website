@@ -22,7 +22,7 @@
 		<th onclick="sortByNumber(5)"      style="cursor:pointer; text-align:left">Bars</th>
 		<th onclick="sortByNumber(6)"      style="cursor:pointer; text-align:left">Breves</th>
 		<th onclick="sortByNumber(7)"      style="cursor:pointer; text-align:left">Notes</th>
-		<th onclick="sortByNumber(8)"      style="cursor:pointer; text-align:left">Pages</th>
+		<th onclick="sortByNumber(8, 'a')" style="cursor:pointer; text-align:left">Pages</th>
 		<th onclick="sortByMinutes(9)"     style="cursor:pointer; text-align:left">Time</th>
 		<th></th>
 	<thead>
@@ -39,7 +39,7 @@
 	<td class="bar-item" style="text-align:right">{{barcount}}</td>
 	<td class="breve-item" style="text-align:right">{{brevecount}}</td>
 	<td class="note-item" style="text-align:right">{{notecount}}</td>
-	<td class="page-item" style="text-align:center">{{pg}}</td>
+	<td class="page-item" style="text-align:center"><a href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notation&f={{id}}">{{pg}}</a></td>
 	<td class="time-item" style="text-align:center">{{timevalue sec}}</td>
 	<td>
 		 <span id="audio_{{id}}" style="cursor:hand; cursor:pointer;" 
@@ -156,7 +156,7 @@ function timevalue(number) {
 // sortByNumber --
 //
 
-function sortByNumber(index) {
+function sortByNumber(index, selector) {
 	var data = document.querySelectorAll(".data");
 	var datalist = [];
 	var i;
@@ -164,8 +164,15 @@ function sortByNumber(index) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A = parseInt(a.cells[index].innerHTML);
-		var B = parseInt(b.cells[index].innerHTML);
+		var A;
+		var B;
+		if (selector) {
+			A = parseInt(a.cells[index].querySelector(selector).innerHTML);
+			B = parseInt(b.cells[index].querySelector(selector).innerHTML);
+		} else {
+			A = parseInt(a.cells[index].innerHTML);
+			B = parseInt(b.cells[index].innerHTML);
+		}
 		if (A < B)      { return -1 }
 		else if (A > B) { return +1 }
 		else            { return 0  }

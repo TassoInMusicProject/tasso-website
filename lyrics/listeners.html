@@ -11,6 +11,29 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 
+window.addEventListener("keydown", function (event) {
+	console.log("EVENT", event);
+	var url;
+	var win;
+
+	switch (event.keyCode) {
+
+		case WKey:
+			url = "/work?id=" + ID;
+			win = window.open(url, "_blank");
+			win.focus();
+			break;
+
+		case PKey:
+			url = "{{site.tasso_data_url}}?a=notation&f=" + ID;
+			win = window.open(url, "_blank");
+			win.focus();
+			break;
+			
+
+	}
+});
+
 </script>
 
 

@@ -900,6 +900,7 @@ function CheckLocalStorage() {
 	var hours = 24;
 	var seconds = new Date().getTime() / 1000;
 
+/*
 	var timestamp = sessionStorage.timestamp;
 	if (!timestamp) {
 		sessionStorage.timestamp = seconds;
@@ -908,6 +909,7 @@ function CheckLocalStorage() {
 			sessionStorage.clear();
 		}
 	}
+*/
 
 	var timestamp = localStorage.timestamp;
 	if (!timestamp) {

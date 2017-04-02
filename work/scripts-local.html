@@ -166,6 +166,7 @@ function displaySingleWork(id, target) {
 	element.innerHTML = output;
 	CURRENT_PAGE = 1;
 
+console.log("GOT HERE ", id);
 	getHumdrum(id);
 	getRange(id);
 	getCriticalNotes(id);
@@ -313,8 +314,10 @@ function initializeVerovioNotation(sourceid, targetid) {
 	}
 	showIncipitState();
 
+console.log("CONTENT", content);
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);
+console.log("GOT HERE AAA");
 
 	var pagecount = vrvToolkit.getPageCount();
 	if (CURRENT_PAGE > 1) {
@@ -324,7 +327,9 @@ function initializeVerovioNotation(sourceid, targetid) {
 	} else if (CURRENT_PAGE < 1) {
 		CURRENT_PAGE = pagecount;
 	}
+console.log("GOT HERE BBB1");
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE);
+console.log("GOT HERE BBB2");
 	var matches;
 	if (matches = svg.match(/height="(\d+)px"/)) {
 		target.style.height = "";
@@ -433,6 +438,7 @@ function getHumdrumNoRecurse(id) {
 //
 
 function getRange(id) {
+console.log("GETTING RANGE FOR ", id);
 	var tag = "range";
 	var element = document.querySelector("#" + tag);
 	var output = "";
@@ -499,6 +505,7 @@ function setSvgSize() {
 
 function getRangeNoRecurse(id) {
 	var tag = "range_" + id;
+console.log("GOT HERE QQQ", id);
 	if (sessionStorage[tag]) {
 		return;
 	}
@@ -565,7 +572,7 @@ function getPreviousWork(id) {
 // sortByText --
 //
 
-function sortByText(index) {
+function sortByText(index, selector) {
 	var data = document.querySelectorAll(".data");
 	var datalist = [];
 	var i;
@@ -573,8 +580,15 @@ function sortByText(index) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A = a.cells[index].innerHTML;
-		var B = b.cells[index].innerHTML;
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].innerHTML;
+			B = b.cells[index].innerHTML;
+		}
 		var result = A.localeCompare(B);
 		return result;
 	});

@@ -22,6 +22,11 @@ table.wordlist tr:first-child th {
 	outline: 0 !important;
 }
 
+#databutton {
+	opacity: 0.3;
+	font-size: 65%;
+}
+
 .word, #wf {
 	cursor: pointer;
 }
@@ -112,3 +117,33 @@ td.partname {
 	opacity: 0.3;
 	border-radius: 1px;
 }
+
+
+h2#title {
+	display: none;
+}
+
+
+
+.triangle {
+	color: #96835c;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	font-size: 100%;
+}
+
+
+.triangle.above {
+	position: relative;
+	top: -30px;
+	left: -25px;
+}
+
+
+td.triangle {
+	position: relative;
+	top: 50%;
+	transform: translateY(30%);
+}
+

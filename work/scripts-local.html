@@ -1,4 +1,5 @@
 <script src="/scripts/scripts-common.js"></script>
+<script src="/scripts/scripts-worknav.js"></script>
 
 {% include_relative templates.html %}
 {% include_relative templates-report.html %}
@@ -17,9 +18,8 @@
 // Description:   JavaScript management for display of work pages.
 //
 
-var ORDER = {};
 var REPORT = {};
-var ID = "";
+
 var vrvToolkit;
 var vrvOptions = {
 	pageWidth: 2500,
@@ -30,24 +30,6 @@ var vrvOptions = {
 };
 var CURRENT_PAGE = 1;
 var INCIPIT_STYLE = 0;
-
-
-//////////////////////////////
-//
-// checkLocalStorage --
-//
-
-function checkLocalStorage() {
-	var timestamp = sessionStorage.timestamp;
-	if (!timestamp) {
-		sessionStorage.clear();
-	}
-	var hours = 24;
-	var seconds = new Date().getTime() / 1000;
-	if (seconds - timestamp > hours * 3600)  {
-		sessionStorage.clear();
-	}
-}
 
 
 
@@ -65,7 +47,15 @@ function loadWorkList(url) {
 	if (sessionStorage.RIMESETTINGLIST) {
 		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
 		counter++;
-	} else {
+	}
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+		buildNextPreviousLists();
+		counter++;
+	}
+
+	if (!sessionStorage.RIMESETTINGLIST) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.rime_settings}}");
 		request.addEventListener("load", function() {
@@ -81,11 +71,7 @@ function loadWorkList(url) {
 		request.send();
 	}
 
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-		buildNextPreviousLists();
-		counter++;
-	} else {
+	if (!sessionStorage.WORKLIST) {
 		var request = new XMLHttpRequest();
 		request.open("GET", url);
 		request.addEventListener("load", function() {
@@ -138,45 +124,9 @@ function displayWorkList(target) {
 		return;
 	}
 	var tsource = document.querySelector("#worklist-template").textContent;
-console.log("TSOURCE", tsource);
 	var workTemplate = Handlebars.compile(tsource);
-console.log("WORKLIST", WORKLIST[0].works);
 	var output = workTemplate(WORKLIST[0]);
 	element.innerHTML = output;
-}
-
-
-
-//////////////////////////////
-//
-// displayNextWork --
-//
-//
-
-function displayNextWork(id) {
-	if (!id) {
-		id = ID;
-	}
-	var newid = ORDER[id].next;
-	ID = newid;
-	displaySingleWork(ID);
-}
-
-
-
-//////////////////////////////
-//
-// displayPreviousWork --
-//
-//
-
-function displayPreviousWork(id) {
-	if (!id) {
-		id = ID;
-	}
-	var newid = ORDER[id].previous;
-	ID = newid;
-	displaySingleWork(ID);
 }
 
 
@@ -601,44 +551,11 @@ function getNextWork(id) {
 
 //////////////////////////////
 //
-// getNextWork --
+// getPreviousWork --
 //
 
 function getPreviousWork(id) {
 	return id;
-}
-
-
-
-//////////////////////////////
-//
-// buildNextPreviousLists --
-//
-
-function buildNextPreviousLists() {
-	ORDER = {};
-	var ids = [];
-	var i;
-	for (i=0; i<WORKLIST.length; i++) {
-		var works = WORKLIST[i].works;
-		for (var j=0; j<works.length; j++) {
-			var id = works[j].id;
-			ids.push(id);
-		}
-	}
-	ids.sort();
-	
-	var id;
-	for (i=1; i<ids.length-1; i++) {
-		id = ids[i];
-		nextone = ids[i+1];
-		prevone = ids[i-1];
-		ORDER[id] = { "next": nextone, "previous": prevone };
-	}
-
-	ORDER[ids[0]] = {"next": ids[1], "previous": ids[ids.length-1] };
-	ORDER[ids[ids.length-1]] = {"next": ids[0], "previous": ids[ids.length-2] };
-
 }
 
 
@@ -734,6 +651,40 @@ function showIncipitState() {
 		nelement.textContent = "next system";
 		pelement.textContent = "previous system";
 	}
+}
+
+
+
+//////////////////////////////
+//
+// displayNextWork --
+//
+//
+
+function displayNextWork(id) {
+	if (!id) {
+		id = ID;
+	}
+	var newid = ORDER[id].next;
+	ID = newid;
+	displaySingleWork(ID);
+}
+
+
+
+//////////////////////////////
+//
+// displayPreviousWork --
+//
+//
+
+function displayPreviousWork(id) {
+	if (!id) {
+		id = ID;
+	}
+	var newid = ORDER[id].previous;
+	ID = newid;
+	displaySingleWork(ID);
 }
 
 

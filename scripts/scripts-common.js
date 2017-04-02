@@ -890,3 +890,36 @@ function HighlightNavigationBar(target) {
 
 
 
+//////////////////////////////
+//
+// CheckLocalStorage -- Automatically flush the local/session storage
+//    after 24 hours (at least during development mode).
+//
+
+function CheckLocalStorage() {
+	var hours = 24;
+	var seconds = new Date().getTime() / 1000;
+
+	var timestamp = sessionStorage.timestamp;
+	if (!timestamp) {
+		sessionStorage.timestamp = seconds;
+	} else {
+		if (seconds - timestamp > hours * 3600)  {
+			sessionStorage.clear();
+		}
+	}
+
+	var timestamp = localStorage.timestamp;
+	if (!timestamp) {
+		localStorage.timestamp = seconds;
+	} else {
+		var hours = 24;
+		var seconds = new Date().getTime() / 1000;
+		if (seconds - timestamp > hours * 3600)  {
+			localStorage.clear();
+		}
+	}
+}
+
+
+

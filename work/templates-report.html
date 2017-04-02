@@ -63,8 +63,6 @@ function createMeasureRange() {
 		endval   = matches[2];
 	}
 
-	console.log("startval:", startval, "endval:", endval, "name:", name);
-
 	var nodot = false;
 	for (var i=0; i<arguments.length-1; i++) {
 		if (arguments[i] === "nodot") {
@@ -131,7 +129,6 @@ function createWorkPageLink() {
 	var output = "<a href='/work?id=" + arguments[0] + "'>";
 	output += arguments[0];
 	output += "</a>";
-console.log("output", output);
 	return new Handlebars.SafeString(output);
 }
 

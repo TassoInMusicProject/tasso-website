@@ -1,0 +1,70 @@
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+<!--
+	vim: ts=3 ft=javascript
+-->
+
+
+{% raw %}
+<script id="worknav-template" type="text/x-handlebars-template">
+	<center>
+		<table style='width:100%; margin-top:-50px; padding-left:0px; padding-right:0px; width:100%'>
+			<td class="triangle">
+				<nobr>
+				<span class="triangle" onclick="displayPreviousWork();">&#9664;</span>
+				</nobr>
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h2>{{{comlong}}}<br>{{{formatTitle title}}}
+				(<i>Rime</i> {{{id2rime id}}})</h2>
+			</td>
+			<td class='triangle'>
+				<span class="triangle" onclick="displayNextWork();">&#9654;</span>
+			</td>
+		</tr>
+		</table>
+	</center>
+</script>
+{% endraw %}
+
+
+<script>
+
+
+
+//////////////////////////////
+//
+// id2rime Handlebar helper  -- Extract Rime number from catalog number.
+//
+
+Handlebars.registerHelper("id2rime", function(text) {
+	var matches;
+	var output = 0;
+	if (matches = text.match(/^Trm0*(\d+[a-z])/)) {
+		output = matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper  -- format peoples' names.
+//
+
+Handlebars.registerHelper("formatTitle", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("EMPTY");
+	}
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+</script>
+
+

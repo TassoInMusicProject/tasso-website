@@ -1,4 +1,7 @@
 <script src="/scripts/scripts-common.js"></script>
+<script src="/scripts/scripts-worknav.js"></script>
+
+{% include_relative templates.html %}
 
 {% include_relative listeners.html %}
 
@@ -14,22 +17,41 @@
 // Description:   JavaScript management for display of work pages.
 //
 
+
+var SORT = "alphabetic";
+var SORTALPHABETIC = [];
+var SORTNUMERIC = [];
+var LASTWORD = "";
+var WORDLIST = {};
+var ZCOUNT = 0;
+
 //////////////////////////////
 //
 // getLyrics -- extract catalog number from  CGI variable "id"
 //
 
-function getLyrics(event) {
-	var cgi = GetCgiParameters();
-	var id = "Trm0047a";
-	if (cgi.id) {
-		id = cgi.id;
+function getLyrics(id) {
+
+	 SORT = "alphabetic";
+	 SORTALPHABETIC = [];
+	 SORTNUMERIC = [];
+	 LASTWORD = "";
+	 WORDLIST = {};
+	 ZCOUNT = 0;
+
+	if (!id) {
+		var cgi = GetCgiParameters();
+		id = "Trm0047a";
+		if (cgi.id) {
+			id = cgi.id;
+		}
 	}
+	ID = id;
 
 	var request = new XMLHttpRequest();
 	request.open("GET", "{{site.tasso_data_url}}/?a=lyrics&id=" + id);
 	request.addEventListener("load", function() {
-		var element = document.querySelector("div#contents");
+		var element = document.querySelector("div#lyrics");
 		if (!element) {
 			return;
 		}
@@ -42,16 +64,142 @@ function getLyrics(event) {
 		addDataButton();
 	});
 	request.send();
+
+	loadWorkList();
 }
 
 
 
-var SORT = "alphabetic";
-var SORTALPHABETIC = [];
-var SORTNUMERIC = [];
-var LASTWORD = "";
-var WORDLIST = {};
-var ZCOUNT = 0;
+
+//////////////////////////////
+//
+// loadWorkList --
+//
+
+function loadWorkList(url) {
+	if (!url) {
+		url = "{{site.worklist}}";
+	}
+	var counter = 0;
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+		buildNextPreviousLists();
+		counter++;
+	}
+
+	if (!sessionStorage.WORKLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", url);
+		request.addEventListener("load", function() {
+			WORKLIST = JSON.parse(this.responseText);
+			buildNextPreviousLists();
+			sessionStorage.WORKLIST = this.responseText;
+			counter++;
+			if (counter == 1) {
+				continueSetup();
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == 1) {
+		continueSetup();
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// continueSetup --
+//
+
+function continueSetup() {
+	displayHeader();
+
+}
+
+
+
+//////////////////////////////
+//
+// displayHeader --
+//
+
+function displayHeader(target) {
+	if (!target) {
+		target = "#worknav";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		return;
+	}
+	var workinfo = getWorkInfo(ID);
+	var tsource = document.querySelector("#worknav-template").textContent;
+	var worknavTemplate = Handlebars.compile(tsource);
+	var text = worknavTemplate(workinfo);
+	element.innerHTML = text;
+}
+
+
+
+//////////////////////////////
+//
+// getWorkInfo --
+//
+
+function getWorkInfo(id) {
+	if (!WORKLIST) {
+		return null;
+	}
+	var i, j;
+	for (i=0; i<WORKLIST.length; i++) {
+		var rep = WORKLIST[i];
+		for (j=0; j<rep.works.length; j++) {
+			if (rep.works[j].id === id) {
+				return rep.works[j];
+			}
+		}
+	}
+}
+
+
+
+
+//////////////////////////////
+//
+// displayPreviousWork --
+//
+
+function displayPreviousWork(id) {
+	if (!id) {
+		id = ID;
+	}
+	var newid = ORDER[id].previous;
+	ID = newid;
+	getLyrics(ID);
+}
+
+
+
+//////////////////////////////
+//
+// displayNextWork --
+//
+
+function displayNextWork(id) {
+	if (!id) {
+		id = ID;
+	}
+	var newid = ORDER[id].next;
+	ID = newid;
+	getLyrics(ID);
+}
+
+
 
 function setupLyrics() {
 	if (ZCOUNT > 0) {

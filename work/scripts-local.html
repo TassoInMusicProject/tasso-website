@@ -166,7 +166,6 @@ function displaySingleWork(id, target) {
 	element.innerHTML = output;
 	CURRENT_PAGE = 1;
 
-console.log("GOT HERE ", id);
 	getHumdrum(id);
 	getRange(id);
 	getCriticalNotes(id);
@@ -314,10 +313,8 @@ function initializeVerovioNotation(sourceid, targetid) {
 	}
 	showIncipitState();
 
-console.log("CONTENT", content);
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);
-console.log("GOT HERE AAA");
 
 	var pagecount = vrvToolkit.getPageCount();
 	if (CURRENT_PAGE > 1) {
@@ -327,9 +324,7 @@ console.log("GOT HERE AAA");
 	} else if (CURRENT_PAGE < 1) {
 		CURRENT_PAGE = pagecount;
 	}
-console.log("GOT HERE BBB1");
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE);
-console.log("GOT HERE BBB2");
 	var matches;
 	if (matches = svg.match(/height="(\d+)px"/)) {
 		target.style.height = "";
@@ -438,9 +433,12 @@ function getHumdrumNoRecurse(id) {
 //
 
 function getRange(id) {
-console.log("GETTING RANGE FOR ", id);
-	var tag = "range";
-	var element = document.querySelector("#" + tag);
+	var tag = "range_" + id;
+	var element = document.querySelector("#" + "range");
+	if (!element) {
+		console.log("Could not find storage element #range");
+		return;
+	}
 	var output = "";
 	output += "<h3>Vocal Ranges</h3>";
 
@@ -454,7 +452,7 @@ console.log("GETTING RANGE FOR ", id);
 		}
 	} else {
 		var action = "prange-svg";
-		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
@@ -505,7 +503,6 @@ function setSvgSize() {
 
 function getRangeNoRecurse(id) {
 	var tag = "range_" + id;
-console.log("GOT HERE QQQ", id);
 	if (sessionStorage[tag]) {
 		return;
 	}

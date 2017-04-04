@@ -25,12 +25,15 @@ var vrvOptions = {
 	pageWidth: 2500,
 	adjustPageHeight: 1,
 	pageHeight: 1000,
+	nonLinearSpacing: 0.65,
 	font: "Leipzig",
 	scale: 40
 };
 var CURRENT_PAGE = 1;
 var INCIPIT_STYLE = 0;
+var ORIGINAL_CLEFS = 0;
 
+var PART_FILTER = 0;
 
 
 //////////////////////////////
@@ -282,6 +285,7 @@ function initializeVerovioNotation(sourceid, targetid) {
 	}
 	var content = source.textContent;
 	var matches;
+
 	if (matches = content.match(/^(\*\*.*)/m)) {
 		var tokens = matches[1].split("\t");
 		var kcount = 0;
@@ -292,6 +296,15 @@ function initializeVerovioNotation(sourceid, targetid) {
 			} else if (tokens[i] === "**text") {
 				tcount++;
 			}
+		}
+	}
+
+	if (PART_FILTER) {
+		var kval = kcount - PART_FILTER + 1;
+		if (kval > 0) {
+			content += "\n!!!filter: extract -k " + kval + "\n";
+			kcount = 1;
+			tcount = 1;
 		}
 	}
 
@@ -313,6 +326,13 @@ function initializeVerovioNotation(sourceid, targetid) {
 	}
 	showIncipitState();
 
+	if (ORIGINAL_CLEFS) {
+		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'original-clef')]";
+	} else {
+		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'asiuahetlkj')]";
+	}
+console.log("vrvOptions", vrvOptions);
+
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);
 
@@ -325,6 +345,7 @@ function initializeVerovioNotation(sourceid, targetid) {
 		CURRENT_PAGE = pagecount;
 	}
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE);
+console.log("SVG", svg);
 	var matches;
 	if (matches = svg.match(/height="(\d+)px"/)) {
 		target.style.height = "";
@@ -632,10 +653,7 @@ function sortByNumber(index) {
 //
 
 function expandIncipit() {
-
 	var element = document.querySelector("#expand");
-	var nelement = document.querySelector("#nextsys");
-	var pelement = document.querySelector("#prevsys");
 	var text = element.textContent;
 	INCIPIT_STYLE = !INCIPIT_STYLE;
 	showIncipitState();

@@ -26,13 +26,15 @@ var vrvOptions = {
 	adjustPageHeight: 1,
 	pageHeight: 1000,
 	nonLinearSpacing: 0.65,
+	spacingSystem: 5,
+	spacingStaff: 5,
 	font: "Leipzig",
 	scale: 40
 };
 var CURRENT_PAGE = 1;
 var INCIPIT_STYLE = 0;
 var ORIGINAL_CLEFS = 0;
-
+var INCLUDE_TEXT = 1;
 var PART_FILTER = 0;
 
 
@@ -307,6 +309,12 @@ function initializeVerovioNotation(sourceid, targetid) {
 			tcount = 1;
 		}
 	}
+	if (!INCLUDE_TEXT) {
+		content += "\n!!!filter: extract -I **text\n";
+		vrvOptions.spacingStaff = 9;
+	} else {
+		vrvOptions.spacingStaff = 5;
+	}
 
 	if (!vrvToolkit) {
 		console.log("Error: verovio toolkit not available");
@@ -331,7 +339,6 @@ function initializeVerovioNotation(sourceid, targetid) {
 	} else {
 		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'asiuahetlkj')]";
 	}
-console.log("vrvOptions", vrvOptions);
 
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);
@@ -345,7 +352,6 @@ console.log("vrvOptions", vrvOptions);
 		CURRENT_PAGE = pagecount;
 	}
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE);
-console.log("SVG", svg);
 	var matches;
 	if (matches = svg.match(/height="(\d+)px"/)) {
 		target.style.height = "";

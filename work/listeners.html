@@ -125,6 +125,11 @@ window.addEventListener('keydown',
 				initializeVerovioNotation();
 				break;
 
+			case TKey:
+				INCLUDE_TEXT = !INCLUDE_TEXT;
+				initializeVerovioNotation();
+				break;
+
 			case LeftArrowKey:
 				displayPreviousWork();
 				event.preventDefault();

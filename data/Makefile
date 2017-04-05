@@ -1,7 +1,12 @@
 
 worklist:
-	-cp -i worklist.json worklist-old.json
-	wget 'http://www.tassomusic.org/data?a=worklist-json-dynamic' -O worklist.json
-	diff worklist-old.json worklist.json
+	-cp -i indexes/worklist.json indexes/worklist-old.json
+	wget 'http://josquin.stanford.edu/cgi-bin/tasso?a=worklist-json-dynamic' -O indexes/worklist.json
+	diff indexes/worklist-old.json indexes/worklist.json
 	
+
+clean:
+	rm indexes/worklist-old.json
+
+
 

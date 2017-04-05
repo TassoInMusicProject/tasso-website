@@ -1,6 +1,8 @@
 
-* bin == scripts for command-line processing of data
-* digital-scores == musical scores in Humdrum format
-* indexes == indexes of rime, gerusalemme, aminta, and other poems.
-* support == support data
+* bin :: scripts for command-line processing of data.
+* reports :: Critical reports for workpages.
+* scores :: Musical scores in Humdrum format
+* indexes :: Indexes of rime, gerusalemme, aminta, and other poems.
+* support :: Auxilliary data for indexes.
+* Makefile :: Downloads worklist index.
 

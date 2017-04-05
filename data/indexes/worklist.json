@@ -11,7 +11,7 @@
 	],
 "liststyle"	:	"genre",
 "notecount"	:	9632,
-"sec"		:	2670,
+"sec"		:	2259,
 "pg"		:	90,
 "works"		:	
 	[
@@ -30,11 +30,11 @@
 	"barcount"	:	34,
 	"brevecount"	:	34,
 	"notecount"	:	513,
-	"sec"		:	136,
+	"sec"		:	93,
 	"pg"		:	5,
 	"vnotecount"	:	[139,133,129,112],
 	"ad"		:	20130000,
-	"ud"		:	20130819
+	"ud"		:	20160213
 	},
 	{
 	"id"		:	"Trm0047c",
@@ -51,11 +51,11 @@
 	"barcount"	:	33,
 	"brevecount"	:	33,
 	"notecount"	:	107,
-	"sec"		:	123,
+	"sec"		:	112,
 	"pg"		:	1,
 	"vnotecount"	:	[107],
 	"ad"		:	20130000,
-	"ud"		:	20130819
+	"ud"		:	20170208
 	},
 	{
 	"id"		:	"Trm0047m",
@@ -72,11 +72,11 @@
 	"barcount"	:	34,
 	"brevecount"	:	34,
 	"notecount"	:	557,
-	"sec"		:	137,
+	"sec"		:	125,
 	"pg"		:	5,
 	"vnotecount"	:	[209,199,149],
 	"ad"		:	20130000,
-	"ud"		:	20160328
+	"ud"		:	20170208
 	},
 	{
 	"id"		:	"Trm0059c",
@@ -93,7 +93,7 @@
 	"barcount"	:	49,
 	"brevecount"	:	49,
 	"notecount"	:	680,
-	"sec"		:	197,
+	"sec"		:	180,
 	"pg"		:	7,
 	"vnotecount"	:	[153,161,160,120,86],
 	"ad"		:	20130000,
@@ -114,11 +114,11 @@
 	"barcount"	:	54,
 	"brevecount"	:	54,
 	"notecount"	:	904,
-	"sec"		:	216,
+	"sec"		:	197,
 	"pg"		:	10,
 	"vnotecount"	:	[229,222,253,200],
 	"ad"		:	20120000,
-	"ud"		:	20130818
+	"ud"		:	20170208
 	},
 	{
 	"id"		:	"Trm0166a",
@@ -135,7 +135,7 @@
 	"barcount"	:	49,
 	"brevecount"	:	49,
 	"notecount"	:	776,
-	"sec"		:	197,
+	"sec"		:	180,
 	"pg"		:	9,
 	"vnotecount"	:	[210,200,189,177],
 	"ad"		:	20120000,
@@ -146,7 +146,7 @@
 	"comshort"	:	"Tosone",
 	"comlong"	:	"Marcello Tosone",
 	"workdate"	:	"1590",
-	"title"		:	"Arsi mentre m'amaste",
+	"title"		:	"Arsi mentre a voi piacque",
 	"genre"		:	"madrigal",
 	"voices"	:	"4",
 	"vname"		:	["Canto","Alto","Tenore","Basso"],
@@ -156,11 +156,11 @@
 	"barcount"	:	32,
 	"brevecount"	:	32,
 	"notecount"	:	589,
-	"sec"		:	129,
+	"sec"		:	118,
 	"pg"		:	6,
 	"vnotecount"	:	[152,171,159,107],
 	"ad"		:	20120000,
-	"ud"		:	20130818
+	"ud"		:	20170208
 	},
 	{
 	"id"		:	"Trm0242a",
@@ -177,11 +177,11 @@
 	"barcount"	:	30,
 	"brevecount"	:	30,
 	"notecount"	:	477,
-	"sec"		:	121,
+	"sec"		:	110,
 	"pg"		:	4,
 	"vnotecount"	:	[166,184,127],
 	"ad"		:	20130000,
-	"ud"		:	20160107
+	"ud"		:	20160213
 	},
 	{
 	"id"		:	"Trm0267a",
@@ -198,11 +198,11 @@
 	"barcount"	:	29,
 	"brevecount"	:	29,
 	"notecount"	:	504,
-	"sec"		:	117,
+	"sec"		:	107,
 	"pg"		:	4,
 	"vnotecount"	:	[175,172,157],
 	"ad"		:	20130000,
-	"ud"		:	20160320
+	"ud"		:	20170208
 	},
 	{
 	"id"		:	"Trm0272b",
@@ -219,11 +219,11 @@
 	"barcount"	:	38,
 	"brevecount"	:	38,
 	"notecount"	:	947,
-	"sec"		:	153,
+	"sec"		:	140,
 	"pg"		:	7,
 	"vnotecount"	:	[236,209,222,172,108],
 	"ad"		:	20130000,
-	"ud"		:	20130819
+	"ud"		:	20170213
 	},
 	{
 	"id"		:	"Trm0305c",
@@ -240,11 +240,11 @@
 	"barcount"	:	25,
 	"brevecount"	:	25,
 	"notecount"	:	196,
-	"sec"		:	101,
+	"sec"		:	70,
 	"pg"		:	2,
 	"vnotecount"	:	[105,91],
 	"ad"		:	20120000,
-	"ud"		:	20130818
+	"ud"		:	20160208
 	},
 	{
 	"id"		:	"Trm0307a",
@@ -261,7 +261,7 @@
 	"barcount"	:	27,
 	"brevecount"	:	27,
 	"notecount"	:	397,
-	"sec"		:	109,
+	"sec"		:	100,
 	"pg"		:	3,
 	"vnotecount"	:	[137,147,113],
 	"ad"		:	20130000,
@@ -282,11 +282,11 @@
 	"barcount"	:	25,
 	"brevecount"	:	25,
 	"notecount"	:	448,
-	"sec"		:	101,
+	"sec"		:	92,
 	"pg"		:	4,
 	"vnotecount"	:	[149,160,139],
 	"ad"		:	20130000,
-	"ud"		:	20160108
+	"ud"		:	20170208
 	},
 	{
 	"id"		:	"Trm0335d",
@@ -303,7 +303,7 @@
 	"barcount"	:	26,
 	"brevecount"	:	26,
 	"notecount"	:	420,
-	"sec"		:	105,
+	"sec"		:	96,
 	"pg"		:	4,
 	"vnotecount"	:	[131,149,140],
 	"ad"		:	20130000,
@@ -324,11 +324,11 @@
 	"barcount"	:	50,
 	"brevecount"	:	50,
 	"notecount"	:	413,
-	"sec"		:	201,
+	"sec"		:	138,
 	"pg"		:	4,
 	"vnotecount"	:	[210,203],
 	"ad"		:	20120000,
-	"ud"		:	20130819
+	"ud"		:	20170208
 	},
 	{
 	"id"		:	"Trm0602a",
@@ -345,7 +345,7 @@
 	"barcount"	:	54,
 	"brevecount"	:	54,
 	"notecount"	:	375,
-	"sec"		:	217,
+	"sec"		:	149,
 	"pg"		:	3,
 	"vnotecount"	:	[170,205],
 	"ad"		:	20130000,
@@ -356,7 +356,7 @@
 	"comshort"	:	"Dueto",
 	"comlong"	:	"Antonio Dueto",
 	"workdate"	:	"1586",
-	"title"		:	"ANGIOLETTA cortese",
+	"title"		:	"Angioletta cortese",
 	"genre"		:	"madrigal",
 	"voices"	:	"4",
 	"vname"		:	["Canto","Alto","Tenore","Basso"],
@@ -366,7 +366,7 @@
 	"barcount"	:	25,
 	"brevecount"	:	25,
 	"notecount"	:	447,
-	"sec"		:	101,
+	"sec"		:	70,
 	"pg"		:	4,
 	"vnotecount"	:	[109,114,117,107],
 	"ad"		:	20120000,
@@ -377,7 +377,7 @@
 	"comshort"	:	"Zenaro",
 	"comlong"	:	"Giulio Zenaro",
 	"workdate"	:	"1589",
-	"title"		:	"O fuggitiva e timidetta fiera",
+	"title"		:	"O fuigitva e timidetta fiera",
 	"genre"		:	"madrigal",
 	"voices"	:	"3",
 	"vname"		:	["Canto","Tenore","Basso"],
@@ -387,11 +387,11 @@
 	"barcount"	:	30,
 	"brevecount"	:	30,
 	"notecount"	:	518,
-	"sec"		:	121,
+	"sec"		:	110,
 	"pg"		:	5,
 	"vnotecount"	:	[170,177,171],
 	"ad"		:	20120000,
-	"ud"		:	20160328
+	"ud"		:	20170213
 	},
 	{
 	"id"		:	"Trm1049a",
@@ -408,7 +408,7 @@
 	"barcount"	:	20,
 	"brevecount"	:	20,
 	"notecount"	:	364,
-	"sec"		:	81,
+	"sec"		:	74,
 	"pg"		:	3,
 	"vnotecount"	:	[118,130,116],
 	"ad"		:	20130000,

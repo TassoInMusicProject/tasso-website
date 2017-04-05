@@ -1,175 +1,185 @@
-@@START: OTHER
+@@BEGIN: OTHER
 
 
-@@START: ECLOGHE
-@Group:	Ecloghe settings
-@Catalog:	Tec1001a
-@Ecloga:	I
-@Verse:	1
-@Title:	Dimmi, mesto pastore
-@Composer:	Orlandi, Camillo (fl. 1616)
-@SourceTitle:	Arie, a tre, due et voce sola, opera seconda  di Camillo Orlandi veronese musico dell'illustrissimo arcivescovo et prencipe di Slasburg
-@PublishLocation:	Venice
-@Publisher:	Appresso Giacomo Vincenti
-@PublicationDate:	1616
+@@BEGIN: ECLOGHE
+@GROUP:	Ecloghe settings
+@CATALOGNUM:	Tec1001a
+@ECLOGA:	I
+@VERSE:	1
+@TITLE:	Dimmi, mesto pastore
+@COMPOSER:	Orlandi, Camillo (fl. 1616)
+@PRINCEPSTITLE:	Arie, a tre, due et voce sola, opera seconda  di Camillo Orlandi veronese musico dell'illustrissimo arcivescovo et prencipe di Slasburg
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Appresso Giacomo Vincenti
+@PRINCEPSYEAR:	1616
 @RISM:	O 107
-@Voices:	1
-@Parts:	1 of 1
-@Reprints:	
+@VOICES:	1
+@PARTS:	1 of 1
+@REPRINTS:	
 @@END: ECLOGHE
 
-@@START: ECLOGHE
-@Group:	Ecloghe settings
-@Catalog:	Tec1089a
-@Ecloga:	I
-@Verse:	89
-@Title:	Di che cantar degg'io
-@Composer:	Coma, Annibale (ca. 1550-after 1598)
-@SourceTitle:	Il secondo libro de madrigali, a quattro voci, di Annibale Coma, novamente composti, et dati in luce
-@PublishLocation:	Venice
-@Publisher:	Giacomo Vincenti
-@PublicationDate:	1588
+@@BEGIN: ECLOGHE
+@GROUP:	Ecloghe settings
+@CATALOGNUM:	Tec1089a
+@ECLOGA:	I
+@VERSE:	89
+@TITLE:	Di che cantar degg'io
+@COMPOSER:	Coma, Annibale (ca. 1550-after 1598)
+@PRINCEPSTITLE:	Il secondo libro de madrigali, a quattro voci, di Annibale Coma, novamente composti, et dati in luce
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Giacomo Vincenti
+@PRINCEPSYEAR:	1588
 @RISM:	C3478
-@Voices:	4
-@Parts:	1 of 1
-@Reprints:	
+@VOICES:	4
+@PARTS:	1 of 1
+@REPRINTS:	
 @@END: ECLOGHE
 
-@@START: ECLOGHE
-@Group:	Ecloghe settings
-@Catalog:	Tec2073a
-@Ecloga:	II
-@Verse:	73
-@Title:	Ché qual tenera rosa
-@Composer:	Tresti, Flaminio (ca. 1560-after 1613)
-@SourceTitle:	ll terzo libro de madrigali a cinque voci di Flaminio Tresti da Lodi, novamente composto et dato in luce
-@PublishLocation:	Venice
-@Publisher:	Angelo Gardano
-@PublicationDate:	1590
+@@BEGIN: ECLOGHE
+@GROUP:	Ecloghe settings
+@CATALOGNUM:	Tec2073a
+@ECLOGA:	II
+@VERSE:	73
+@TITLE:	Ché qual tenera rosa
+@COMPOSER:	Tresti, Flaminio (ca. 1560-after 1613)
+@PRINCEPSTITLE:	ll terzo libro de madrigali a cinque voci di Flaminio Tresti da Lodi, novamente composto et dato in luce
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Angelo Gardano
+@PRINCEPSYEAR:	1590
 @RISM:	T1173
-@Voices:	5
-@Parts:	1 of 2
-@Reprints:	
+@VOICES:	5
+@PARTS:	1 of 2
+@REPRINTS:	
 @@END: ECLOGHE
 
-@@START: ECLOGHE
-@Group:	Ecloghe settings
-@Catalog:	Tec2082a
-@Ecloga:	II
-@Verse:	82
-@Title:	Così la verginella
-@Composer:	Tresti, Flaminio (ca. 1560-after 1613)
-@SourceTitle:	ll terzo libro de madrigali a cinque voci di Flaminio Tresti da Lodi, novamente composto et dato in luce
-@PublishLocation:	Venice
-@Publisher:	Angelo Gardano
-@PublicationDate:	1590
+@@BEGIN: ECLOGHE
+@GROUP:	Ecloghe settings
+@CATALOGNUM:	Tec2082a
+@ECLOGA:	II
+@VERSE:	82
+@TITLE:	Così la verginella
+@COMPOSER:	Tresti, Flaminio (ca. 1560-after 1613)
+@PRINCEPSTITLE:	ll terzo libro de madrigali a cinque voci di Flaminio Tresti da Lodi, novamente composto et dato in luce
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Angelo Gardano
+@PRINCEPSYEAR:	1590
 @RISM:	T1173
-@Voices:	5
-@Parts:	2 of 2
-@Reprints:	
+@VOICES:	5
+@PARTS:	2 of 2
+@REPRINTS:	
 @@END: ECLOGHE
 
-@@START: ECLOGHE
-@Group:	Ecloghe settings
-@Catalog:	Tec3108a
-@Ecloga:	III
-@Verse:	108
-@Title:	Non sospirar pastor, non sospirare
-@Composer:	Wert, Giaches de (1535-1596)
-@SourceTitle:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
-@PublishLocation:	Venice
-@Publisher:	Angelo Gardano
-@PublicationDate:	1586
+@@BEGIN: ECLOGHE
+@GROUP:	Ecloghe settings
+@CATALOGNUM:	Tec3108a
+@ECLOGA:	III
+@VERSE:	108
+@TITLE:	Non sospirar pastor, non sospirare
+@COMPOSER:	Wert, Giaches de (1535-1596)
+@PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Angelo Gardano
+@PRINCEPSYEAR:	1586
 @RISM:	W 885
-@Voices:	5
-@Parts:	1 of 1
-@Reprints:	W 886
+@VOICES:	5
+@PARTS:	1 of 1
+@REPRINTS:	W 886
 @@END: ECLOGHE
 
 
-@@START: RINALDO
-@Group:	Rinaldo settings
-@Catalog:	Tri5016a
-@Canto:	V
-@Ottava:	16
-@Title:	"Lasso," dicea, "Perché venisti Amore
-@Composer:	Marenzio, Luca (1553 or 54-1599)
-@SourceTitle:	Madrigali a quattro voci, libro primo di Luca Marenzio, novamente con ogni diligenza stampati
-@PublicationPlace:	Venice
-@Publisher:	Giacomo Vincenzi
-@PublicationDate:	1585
+@@BEGIN: RINALDO
+@GROUP:	Rinaldo settings
+@CATALOGNUM:	Tri5016a
+@CANTO:	V
+@OTTAVA:	16
+@TITLE:	"Lasso," dicea, "Perché venisti Amore
+@COMPOSER:	Marenzio, Luca (1553 or 54-1599)
+@PRINCEPSTITLE:	Madrigali a quattro voci, libro primo di Luca Marenzio, novamente con ogni diligenza stampati
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Giacomo Vincenzi
+@PRINCEPSYEAR:	1585
 @RISM:	M 579
-@Voices:	4
-@Parts:	1 of 1
-@Reprints:	M 580, M 581, M 583, M 586
+@VOICES:	4
+@PARTS:	1 of 1
+@REPRINTS:	M 580, M 581, M 583, M 586
 @@END: RINALDO
 
-@@START: RINALDO
-@Group:	Rinaldo settings
-@Catalog:	Tri5016b
-@Canto:	V
-@Ottava:	16
-@Title:	"Lasso," dicea, "Perché venisti Amore
-@Composer:	Stivori, Francesco (ca. 1550-1605)
-@SourceTitle:	Madrigali a tre voci di Dominico Lauro et di Francesco Stivori, libro primo, novamente composti et dati in luce
-@PublicationPlace:	Venice
-@Publisher:	Ricciardo Amadino
-@PublicationDate:	1590
+@@BEGIN: RINALDO
+@GROUP:	Rinaldo settings
+@CATALOGNUM:	Tri5016b
+@CANTO:	V
+@OTTAVA:	16
+@TITLE:	"Lasso," dicea, "Perché venisti Amore
+@COMPOSER:	Stivori, Francesco (ca. 1550-1605)
+@PRINCEPSTITLE:	Madrigali a tre voci di Dominico Lauro et di Francesco Stivori, libro primo, novamente composti et dati in luce
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Ricciardo Amadino
+@PRINCEPSYEAR:	1590
 @RISM:	1590.22, L1118
-@Voices:	3
-@Parts:	1 of 1
-@Reprints:	
+@VOICES:	3
+@PARTS:	1 of 1
+@REPRINTS:	
 @@END: RINALDO
 
-@@START: RINALDO
-@Group:	Rinaldo settings
-@Catalog:	Tri5018a
-@Canto:	V
-@Ottava:	18
-@Title:	Tu perfido signor, tu disleale
-@Composer:	Felis, Stefano (ca. 1550-after 1603)
-@SourceTitle:	l sesto libro de madrigali a cinque voci, con alcuni a sei, et un dialogo a sette nel fine. Novamente composti et dati in luce. Di Stefano Felis
-@PublicationPlace:	Venice
-@Publisher:	Eredi di G.Scotto, ad istanza de Scipione Rizzo
-@PublicationDate:	1591
+@@BEGIN: RINALDO
+@GROUP:	Rinaldo settings
+@CATALOGNUM:	Tri5018a
+@CANTO:	V
+@OTTAVA:	18
+@TITLE:	Tu perfido signor, tu disleale
+@COMPOSER:	Felis, Stefano (ca. 1550-after 1603)
+@PRINCEPSTITLE:	l sesto libro de madrigali a cinque voci, con alcuni a sei, et un dialogo a sette nel fine. Novamente composti et dati in luce. Di Stefano Felis
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Eredi di G.Scotto, ad istanza de Scipione Rizzo
+@PRINCEPSYEAR:	1591
 @RISM:	F 213
-@Voices:	5
-@Parts:	1 of 1
-@Reprints:	
+@VOICES:	5
+@PARTS:	1 of 1
+@REPRINTS:	
 @@END: RINALDO
 
-@@START: LAGRIME
-@Group:	Lagrime della Beata Vergine settings
-@Catalog:	Tbv0002a
-@Stanza:	2
-@Title:	Chiaro sol che rotondo esci dal Gange
-@Composer:	Belli, Girolamo (1552-1620)
-@SourceTitle:	Il terzo libro de madrigali a sei voci
-@PublicationPlace:	Venice
-@Publisher:	Ricciardi Amadino
-@PublicationDate:	1593
+@@BEGIN: LAGRIME
+@GROUP:	Lagrime della Beata Vergine settings
+@CATALOGNUM:	Tbv0002a
+@STANZA:	2
+@TITLE:	Chiaro sol che rotondo esci dal Gange
+@COMPOSER:	Belli, Girolamo (1552-1620)
+@PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Ricciardi Amadino
+@PRINCEPSYEAR:	1593
 @RISM:	B 1741
-@Voices:	6
-@Parts:	1 of 1
-@Reprints:	
+@VOICES:	6
+@PARTS:	1 of 1
+@REPRINTS:	
 @@END: LAGRIME
 
-@@START: TORRISMONDO
-@Group:	Re Torrismondo settings
-@Catalog:	Trt0506a
-@Act:	V
-@Scene:	6
-@Section:	Coro
-@Title:	Ahi lagrime! ahi dolore
-@Composer:	Personè, Diego (1598-1654)
-@SourceTitle:	Madrigali a cinque voci, libro quarto opera sesta
-@PublicationPlace:	Naples
-@Publisher:	Magnette
-@PublicationYear:	1628
+@@BEGIN: TORRISMONDO
+@GROUP:	Re Torrismondo settings
+@CATALOGNUM:	Trt0506a
+@ACT:	V
+@SCENE:	6
+@SECTION:	Coro
+@TITLE:	Ahi lagrime! ahi dolore
+@COMPOSER:	Personè, Diego (1598-1654)
+@PRINCEPSTITLE:	Madrigali a cinque voci, libro quarto opera sesta
+@PRINCEPSLOC:	Naples
+@NORMLOC:	Naples
+@PRINCEPSPUB:	Magnette
+@PRINCEPSYEAR:	1628
 @RISM:	P1473
-@Voices:	5
-@Parts:	1 of 1
-@Reprints:	
+@VOICES:	5
+@PARTS:	1 of 1
+@REPRINTS:	
 @@END: TORRISMONDO
 
 

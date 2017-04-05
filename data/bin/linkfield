@@ -1,0 +1,269 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Tue Apr  4 11:59:30 PDT 2017
+# Last Modified: Tue Apr  4 13:27:25 PDT 2017
+# Filename:      linkfield
+# Syntax:        perl 5
+# vim:           ts=3 ft=perl
+#
+# Description:   Add or replace linked fields in aton files.
+#
+# Limitations:   Paramters must be on a single line.
+#
+# Usage:   linkfield data.aton -p links.hmd
+#          cat data.aton | linkfield -p links.hmd
+#
+# links.hmd is a Humdrum file with the first spine being the
+# source parameter, and the other spines are 
+#
+# Options:
+#     -p defs.hmd  == Parameter mapping file.
+#     -r           == Require source parameter to be in input file list.
+#     -R           == Don't replace non-empty target parameter.
+#     -t           == Require target paramter to already exists in record.
+#     -W           == Don't overwrite existing non-empty parameter.
+#     -s string    == Separater (default tab character).
+# To be implemented:
+#     -a key       == Place new parameters after given key in record.
+#     --TSV        == Make TSV spreadsheet format of all parameters.
+#
+
+use Data::Dumper;
+
+use strict;
+use Getopt::Long;
+
+# $Parameter is the text that separates each column of parameters.
+my $ParameterFile = "";
+my $requireQ      = 0;
+my $noreplaceQ    = 0;
+my $targetQ       = 0;
+my $nooverwriteQ  = 0;
+my $Separator     = "\t";
+
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'p|parameter-file=s' => \$ParameterFile,
+   'r|require'          => \$requireQ,
+	't|target'           => \$targetQ,
+   's|separator=s'      => \$Separator,
+   'R|no-replace'       => \$noreplaceQ,
+   'W|no-overwrite'     => \$nooverwriteQ
+);
+
+if ($ParameterFile =~ /^\s*$/) {
+	die "Usage: $0 [-aqr] -p file.hmd file.aton > output.aton\n";
+}
+
+my @Exinterps;
+my @Parameters;
+my %HashIndex;
+loadParameterFile();
+
+#print join("\t", @Exinterps), "\n";
+#for my $i (0 .. $#Parameters) {
+#	print "{\n";
+#	foreach my $key (keys %{$Parameters[$i]}) {
+#		print "\t$key\t=\t$Parameters[$i]{$key}\n";
+#	}
+#	print "}\n\n";
+#}
+
+my $OUTPUT = "";
+
+while (my $line = <>) {
+	chomp $line;
+	if ($line =~ /^\@\@BEGIN\s*:\s*(.*)\s*$/) {
+		$OUTPUT .= "$line\n";
+		processInputRecord($1);
+		next;
+	}
+	$OUTPUT .= "$line\n";
+}
+
+print $OUTPUT;
+
+exit(0);
+
+
+###########################################################################
+
+
+##############################
+##
+## proessInputRecord --
+##
+
+sub processInputRecord {
+	my ($endtag) = @_;
+	my $line;    # current input line to process.
+	my @lines;   # record lines.
+	my %params;  # hash of record paramters.
+   my %pline;   # line number for parameter in @lines;
+	my @newlines; # new parameter lines to add to output.
+	my $key;
+	my $i;
+
+	# Store the parameters and lines for current record.
+	# Note that parameters are required to be single-lined.
+	while ($line = <>) {
+		chomp $line;
+		$lines[@lines] = $line;
+		if ($line =~ /^\@\@END\s*:\s*$endtag\s*$/) {
+			last;
+		}
+		if ($line =~ /^\@([^\s\@:]+)\s*:\s*(.*)\s*/) {
+			# should complain if parameters already exists (unique parameters)
+			$params{$1} = $2;
+			$pline{$1} = $#lines;
+		}
+	}
+
+	# If there is no target parameter in the record either die or skip.
+	if (!(exists $params{$Exinterps[0]})) {
+		if ($requireQ) {
+			die("ERROR: $Exinterps[0] not found in record:\n", 
+					join("\n", @lines), "\n");
+		} else {
+			# no such record, so print and skip
+			$OUTPUT = join("\n", @lines), "\n";
+			return;
+		}
+	}
+
+	# Found source parameter, so see if target parameters exists 
+	# and die or process.
+	my $index;
+	my $newvalue;
+	my $tindex;
+	for ($i=1; $i<@Exinterps; $i++) {
+		$key = $Exinterps[$i];
+
+		# If the target parameter exists:
+		if (exists $params{$key}) {
+			# print "$key => $params{$key} EXISTS\n";
+			if ($params{$key} !~ /^\s*$/) {
+				if ($noreplaceQ) {
+					die("ERROR: $key already exists in record:\n",
+						join("\n", @lines), "\n");
+				}
+			}
+			if ($nooverwriteQ) {
+				# do not overwrite existing target parameters.
+				next;
+			}
+			# Target parameter field exists, so fill in with new value.
+			$index = $HashIndex{$params{$Exinterps[0]}};
+			if ($index =~ /^\s*$/) {
+				# A value does not exist in the parameter mapping file.
+				# At the moment it is required, but in the future it could
+				# be optional, and if not found in the parameter mapping
+				# file, then it would be skipped over.
+				die "Cannot find $Exinterps[0] in definition file.";
+			}
+			$newvalue = $Parameters[$index]{$key};
+			# print "\tNEWVALUE $newvalue\n";
+			$tindex = $pline{$Exinterps[$i]};
+			if ($tindex =~ /^\s*$/) {
+				die "Strange error";
+			}
+			if ($lines[$tindex] =~ /^(\@$Exinterps[$i]\s*:\s*)(.*)/) {
+			# print "UPDATING $lines[$tindex] to $1$newvalue\n";
+				$lines[$tindex] = "$1$newvalue";
+			} else {
+				die "Strange error 2";
+			}
+			next;
+
+
+		# the target parameter does not exists:
+		} else {
+			$index = $HashIndex{$params{$Exinterps[0]}};
+			$newvalue = $Parameters[$index]{$Exinterps[$i]};
+			# print "ADDING \@$Exinterps[$i]:$Separator$newvalue\n";
+			# parameter does not exist so add immediately
+			# after source parameter line when printing.
+			$newlines[@newlines] = "\@$Exinterps[$i]:$Separator$newvalue";
+		}
+	}
+
+	# print the record before exiting, including any new lines.
+	my $counter = 0;
+	for ($i=0; $i<@lines; $i++) {
+		$OUTPUT .= "$lines[$i]\n";
+		next if $counter > 0;
+		next if $lines[$i] !~ /^\@$Exinterps[0]\s*:/;
+		$counter++;
+		# add extra lines:
+		if (@newlines > 0) {
+			$OUTPUT .= join("\n", @newlines);
+			$OUTPUT .= "\n";
+		}
+	}
+}
+
+
+
+##############################
+##
+## loadParamterFile --
+##
+
+sub loadParameterFile {
+	open(PFILE, $ParameterFile) or die;
+	my $line;
+	my $eline;
+	my $item;
+	my @data;
+	my %p;
+	my $i;
+	while ($line = <PFILE>) {
+		chomp $line;
+		next if $line =~ /^!/;
+		next if $line =~ /^\s*$/;
+		if ($line =~ /^\*\*/) {
+			die if @Exinterps > 0;
+			$eline = $line;
+			@data = split(/\t/, $line);
+			for ($i=0; $i<@data; $i++) {
+				$item = $data[$i];
+				$item =~ s/^\*\*//;
+				$item =~ s/^\s+//;
+				$item =~ s/\s+$//;
+				$Exinterps[@Exinterps] = $item;
+			}
+			next;
+		}
+		next if $line =~ /^\*/;
+		die "No starting interpretation in parameter file" if @Exinterps == 0;
+		@data = split(/\t/, $line);
+		if ($#data != $#Exinterps) {
+			die ("Line:\n\t$line\ndoes not match length of eline:\n\t$eline\n");
+		}
+		%p = {};
+		for ($i=0; $i<@data; $i++) {
+			my $key = $Exinterps[$i];
+			my $value = $data[$i];
+			$value =~ s/^\s+//;
+			$value =~ s/\s+$//;
+			$value = "" if $value eq ".";
+			$p{$key} = $value;
+		}
+		$Parameters[@Parameters] = {%p};
+	}
+
+	# build hash for @Parameters
+	for ($i=0; $i<@Parameters; $i++) {
+		my $key = $Parameters[$i]{$Exinterps[0]};
+		if (exists $HashIndex{$key}) {
+			die "HASH key $key is duplicated $HashIndex{$key}";
+		}
+		$HashIndex{$key} = $i;
+		# print "PARAMETER $key is index $i :: $Parameters[$i]{$Exinterps[1]}\n";
+	}
+	close PFILE;
+}
+
+
+

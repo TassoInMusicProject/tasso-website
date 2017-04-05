@@ -383,7 +383,7 @@ function makeCantoList(gllist) {
 		var key = gllist[i].CATALOGNUM.replace(/[a-z]$/, "");
 		data[key] = {};
 		data[key].gtitle = gllist[i].TITLE;
-		data[key].canto = gllist[i].CANTO;
+		data[key].canto  = gllist[i].CANTO;
 		data[key].ottava = gllist[i].OTTAVA;
 	}
 	// Should already be sorted, but maybe sort here by Canto/Ottava
@@ -402,11 +402,11 @@ function makeEclogheList(elist) {
 	var output = {};
 	var data = output;
 	for (var i=0; i<elist.length; i++) {
-		var key = elist[i].Catalog.replace(/[a-z]$/, "");
+		var key = elist[i].CATALOGNUM.replace(/[a-z]$/, "");
 		data[key] = {};
-		data[key].etitle = elist[i].Title;
-		data[key].ecloga = elist[i].Ecloga;
-		data[key].verse = elist[i].Verse;
+		data[key].etitle = elist[i].TITLE;
+		data[key].ecloga = elist[i].ECLOGA;
+		data[key].verse  = elist[i].VERSE;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -424,11 +424,11 @@ function makeRinaldoList(rlist) {
 	var output = {};
 	var data = output;
 	for (var i=0; i<rlist.length; i++) {
-		var key = rlist[i].Catalog.replace(/[a-z]$/, "");
+		var key = rlist[i].CATALOGNUM.replace(/[a-z]$/, "");
 		data[key] = {};
-		data[key].rtitle = rlist[i].Title;
-		data[key].canto = rlist[i].Canto;
-		data[key].ottava = rlist[i].Ottava;
+		data[key].rtitle = rlist[i].TITLE;
+		data[key].canto  = rlist[i].CANTO;
+		data[key].ottava = rlist[i].OTTAVA;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -447,10 +447,10 @@ function makeLagrimeList(lentry) {
 	var output = {};
 	var data = output;
 	for (var i=0; i<llist.length; i++) {
-		var key = llist[i].Catalog.replace(/[a-z]$/, "");
+		var key = llist[i].CATALOGNUM.replace(/[a-z]$/, "");
 		data[key] = {};
-		data[key].ltitle = llist[i].Title;
-		data[key].stanza = llist[i].Stanza;
+		data[key].ltitle = llist[i].TITLE;
+		data[key].stanza = llist[i].STANZA;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -469,12 +469,12 @@ function makeTorrismondoList(lentry) {
 	var output = {};
 	var data = output;
 	for (var i=0; i<llist.length; i++) {
-		var key = llist[i].Catalog.replace(/[a-z]$/, "");
+		var key = llist[i].CATALOGNUM.replace(/[a-z]$/, "");
 		data[key] = {};
-		data[key].ttitle = llist[i].Title;
-		data[key].act     = llist[i].Act;
-		data[key].scene   = llist[i].Scene;
-		data[key].section = llist[i].Section;
+		data[key].ttitle  = llist[i].TITLE;
+		data[key].act     = llist[i].ACT;
+		data[key].scene   = llist[i].SCENE;
+		data[key].section = llist[i].SECTION;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -492,13 +492,12 @@ function makeAmintaVerseList(amlist) {
 	var output = {};
 	var data = output;
 	for (var i=0; i<amlist.length; i++) {
-		var key = amlist[i].Catalog.replace(/[a-z]$/, "");
-		var title = amlist[i].Title;
+		var key = amlist[i].CATALOGNUM.replace(/[a-z]$/, "");
 		data[key] = {};
-		data[key].atitle = title;
-		data[key].act = amlist[i].Act;
-		data[key].scene = amlist[i].Scene;
-		data[key].verse = amlist[i].Verse;
+		data[key].atitle = amlist[i].TITLE;
+		data[key].act = amlist[i].ACT;
+		data[key].scene = amlist[i].SCENE;
+		data[key].verse = amlist[i].VERSE;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.

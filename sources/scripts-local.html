@@ -1,6 +1,8 @@
 
 <script src="/scripts/scripts-common.js"></script>
 
+{% include_relative listeners.html %}
+
 <script>
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
@@ -17,54 +19,6 @@
 var Rime         = 3;
 var NextRime     = 3;
 var PreviousRime = 3;
-
-//////////////////////////////
-//
-// Function called when document has finished loading:
-//
-
-document.addEventListener("DOMContentLoaded", function() {
-	var cgi = GetCgiParameters();
-   if (cgi.rime) {
-		Rime = cgi.rime;
-	   displayLiterarySources(cgi.rime, "#contents");
-   } else {
-	   displayLiterarySources(0, "#contents");
-   }
-});
-
-
-
-//////////////////////////////
-//
-// process Window keys down:
-//
-
-window.addEventListener('keydown', function(event) {
-   if (event.metaKey) {
-		return;
-	}
-
-	switch (event.keyCode) {
-		case LeftArrowKey:
-			if (event.shiftKey) {
-				displaySetting();
-			} else {
-				displayPreviousSource();
-			}
-			break;
-		case RightArrowKey:
-			if (event.shiftKey) {
-				displayVariant();
-			} else {
-				displayNextSource();
-			}
-			break;
-		case UpArrowKey:
-   		window.location = "/sources";
-			break;
-	}
-});
 
 
 
@@ -127,6 +81,7 @@ function displayPreviousSource() {
 //
 
 function displayLiterarySources(rime, target) {
+
 	if (!target) {
 		target = "#contents";
 	}
@@ -138,20 +93,32 @@ function displayLiterarySources(rime, target) {
  
    var counter = 0;
 
-   if (sessionStorage.RIMELIST) {
-		RIMELIST = JSON.parse(sessionStorage.RIMELIST);
+   if (sessionStorage.RIMEVERSELIST) {
+		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
 		setNextPreviousRime(rime);
 		counter++;
-	} else {
+	}
+
+   if (sessionStorage.LITPRINT) {
+		LITPRINT = JSON.parse(sessionStorage.LITPRINT);
+		counter++;
+	}
+
+   if (sessionStorage.LITMANU) {
+		LITMANU = JSON.parse(sessionStorage.LITMANU);
+		counter++;
+	}
+
+	if (!sessionStorage.RIMEVERSELIST) {
 		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
+		request.open("GET", "{{site.rime_verses}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			RIMELIST = aton.parse(this.responseText).RIME_SETTING;
+			RIMEVERSELIST = aton.parse(this.responseText).RIME;
 			setNextPreviousRime(rime);
-         sessionStorage.RIMELIST = JSON.stringify(RIMELIST);
+         sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
          counter++;
-         if (counter == 2) {
+         if (counter == 3) {
             reallyDisplaySources(rime, target);
 				counter++;
          }
@@ -159,18 +126,15 @@ function displayLiterarySources(rime, target) {
 		request.send();
 	}
 
-   if (sessionStorage.LITLIST) {
-		LITLIST = JSON.parse(sessionStorage.LITLIST);
-		counter++;
-	} else {
+	if (!sessionStorage.LITPRINT) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.literary_prints}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			LITLIST = aton.parse(this.responseText);
-         sessionStorage.LITLIST = this.responseText;
+			LITPRINT = aton.parse(this.responseText).PRINT;
+         sessionStorage.LITPRINT = JSON.stringify(LITPRINT);
          counter++;
-         if (counter == 2) {
+         if (counter == 3) {
             reallyDisplaySources(rime, target);
 				counter++;
          }
@@ -178,7 +142,23 @@ function displayLiterarySources(rime, target) {
 		request.send();
 	}
 
-	if (counter == 2) {
+	if (!sessionStorage.LITMANU) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.literary_manuscripts}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			LITMANU = aton.parse(this.responseText).MANUSCRIPT;
+         sessionStorage.LITMANU = JSON.stringify(LITMANU);
+         counter++;
+         if (counter == 3) {
+            reallyDisplaySources(rime, target);
+				counter++;
+         }
+		});
+		request.send();
+	}
+
+	if (counter == 3) {
       reallyDisplaySources(rime, target);
 		counter++;
 	}
@@ -224,7 +204,7 @@ function displayMultipleRimeSources() {
 	output += "<h1 style='padding-right:50px;'>Literary Sources</h1>";
 	output += "</center>";
 
-	var rimelist = RIMELIST.RIME;
+	var rimelist = RIMEVERSELIST;
 	var rime;
    for (var i=0; i<rimelist.length; i++) {
 		output += "<center><table style='margin-top:10px; ";
@@ -294,12 +274,15 @@ function displaySingleRimeSource(rime) {
 	output += "&#9664;</a>";
 	output += "</td><td style='width:100%; text-align:center'>";
 	output += "<h2>";
-	var rime_entry = GetRimeEntry(rime);
+	var rime_entry = GetRimeVerseEntry(rime);
    if (!rime_entry) {
       console.log("Error accessing rime:", rime);
 		return;
 	}
-	var title = rime_entry.TITLE;
+	var title = rime_entry.RIMETITLE;
+	if (!title) {
+		title = rime_entry.TITLE;
+	}
 	title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
 	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
@@ -363,8 +346,8 @@ function getManuscriptSourceTable(rime_entry) {
 
 	if (!items[0].match(/none/)) {
 		output += "<tr>";
-		output += "<th style='text-align:left'>Solerti&nbsp;sig.</th>";
-		output += "<th style='text-align:left'>Source</th>";
+		output += "<th class='yellowish' style='text-align:left'>Solerti&nbsp;sig.</th>";
+		output += "<th class='yellowish' style='text-align:left'>Source</th>";
 		output += "</tr>";
 	}
 
@@ -378,7 +361,7 @@ function getManuscriptSourceTable(rime_entry) {
 			output += items[i];
 		}
 		output += "</td><td>";
-		output += getDescriptionManuscript(items[i], "SMSIGLUM", LITLIST.MANUSCRIPT);
+		output += getDescriptionManuscript(items[i], "SMSIGLUM", LITMANU);
 		output += "</td></tr>";
 	}
 
@@ -518,8 +501,8 @@ function getPrintSourceTable(rime_entry) {
 
 	if (!items[0].match(/none/)) {
 		output += "<tr>";
-		output += "<th style='text-align:left'>Solerti&nbsp;#</th>";
-		output += "<th style='text-align:left'>Source</th>";
+		output += "<th class='yellowish' style='text-align:left'>Solerti&nbsp;#</th>";
+		output += "<th class='yellowish' style='text-align:left'>Source</th>";
 		output += "</tr>";
 	}
 
@@ -534,7 +517,7 @@ function getPrintSourceTable(rime_entry) {
 			output += items[i];
 		}
 		output += "</td><td>";
-		output += getDescriptionPrint(items[i], "SPRINTNUM", LITLIST.PRINT);
+		output += getDescriptionPrint(items[i], "SPRINTNUM", LITPRINT);
 		output += "</td></tr>";
 	}
 
@@ -552,12 +535,14 @@ function getPrintSourceTable(rime_entry) {
 //
 
 function setNextPreviousRime(rime) {
+
+
    Rime = rime;
    NextRime = rime;
    PreviousRime = rime;
 
 	var index = -1;
-	var list = RIMELIST.RIME;
+	var list = RIMEVERSELIST;
 	for (var i=0; i<list.length; i++) {
 		if (rime == list[i].SOLERTI) {
 			index = i;

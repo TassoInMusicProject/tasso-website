@@ -766,7 +766,7 @@ function DisplayCriticalNotes(jrpid, target) {
 //
 
 function GetRimeTitle(rimenum, rimelist) {
-	var entry = GetRimeEntry(rimenum, rimelist);
+	var entry = GetRimeVerseEntry(rimenum, rimelist);
 	if (entry) {
 		return entry.TITLE;
 	} else {
@@ -784,6 +784,34 @@ function GetRimeTitle(rimenum, rimelist) {
 function GetRimeVerseEntry(rimenum, rimelist) {
    if (!rimelist) {
 		rimelist = RIMEVERSELIST;
+   }
+   if (!rimelist) {
+		return "";
+	}
+	if (!rimenum) {
+		return "";
+	}
+	var list = rimelist;
+	if (!list.length) {
+		list = rimelist.RIME;
+	}
+   for (var i=0; i<list.length; i++) {
+		if (rimenum == list[i].SOLERTI) {
+			return list[i];
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// GetRimeSettingEntry --
+//
+
+function GetRimeSettingEntry(rimenum, rimelist) {
+   if (!rimelist) {
+		rimelist = RIMESETTINGLIST;
    }
    if (!rimelist) {
 		return "";

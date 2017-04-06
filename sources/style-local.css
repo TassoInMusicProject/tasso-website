@@ -47,11 +47,6 @@ table.lit-src {
 }
 
 
-.print {
-	color: goldenrod;
-	font-weight: bold;
-}
-
 
 
 
@@ -99,4 +94,15 @@ table.lit-src {
 	float:left;
 	margin-left:40px;
 }
+
+.yellowish {
+	color: {{site.heading_color}};
+}
+
+
+.print {
+    color: goldenrod;
+    font-weight: bold;
+}
+
 

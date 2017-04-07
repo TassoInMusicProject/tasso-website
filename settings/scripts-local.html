@@ -135,6 +135,7 @@ function displayMusicalSettings(id, target) {
 			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
 			counter++;
 			if (counter == 4) {
+				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
 				counter++;
@@ -152,6 +153,7 @@ function displayMusicalSettings(id, target) {
 			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
 			counter++;
 			if (counter == 4) {
+				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
 				counter++;
@@ -169,6 +171,7 @@ function displayMusicalSettings(id, target) {
 			sessionStorage.GERUSETTINGLIST = JSON.stringify(GERUSETTINGLIST);
 			counter++;
 			if (counter == 4) {
+				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
 				counter++;
@@ -185,6 +188,7 @@ function displayMusicalSettings(id, target) {
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
 			if (counter == 4) {
+				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
 				counter++;
@@ -194,13 +198,22 @@ function displayMusicalSettings(id, target) {
 	}
 
 	if (counter == 4) {
-		ALLSETTINGLIST = RIMESETTINGLIST.concat(GERUSETTINGLIST);
+		buildAllSettingList();
 		buildPoemList(ALLSETTINGLIST);
 		reallyDisplaySettings(id, target);
 		counter++;
 	}
 }
 
+
+//////////////////////////////
+//
+// buildAllSettingList --
+//
+
+function buildAllSettingList() {
+	ALLSETTINGLIST = RIMESETTINGLIST.concat(GERUSETTINGLIST);
+}
 
 
 //////////////////////////////

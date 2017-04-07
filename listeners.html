@@ -1,0 +1,54 @@
+
+<script>
+
+
+//////////////////////////////
+//
+// Function called when document has finished loading:
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	displayRimeList("#contents");
+});
+
+
+
+//////////////////////////////
+//
+// process Window keys down:
+//
+
+window.addEventListener('keydown', function(event) {
+	if (event.metaKey) {
+		return;
+	}
+
+	switch (event.keyCode) {
+
+		case GKey:
+			if (event.altKey) {
+				sortByGenre(1);
+				event.preventDefault();
+			}
+			break;
+
+		case SKey:
+			if (event.altKey) {
+				sortByNumber(0);
+				event.preventDefault();
+			}
+			break;
+
+		case TKey:
+			if (event.altKey) {
+				sortByText(1);
+				event.preventDefault();
+			}
+			break;
+
+	}
+
+});
+
+
+</script>

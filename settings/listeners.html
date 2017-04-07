@@ -16,17 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		Rime += cgi.rime;
 	   displayMusicalSettings(Rime, "#contents");
 	} else if (cgi.id) {
-		var matches;
-		if (matches = cgi.id.match(/Trm0*(\d+)/)) {
-			RIME = matches[1];
-	   	displayMusicalSettings(Rime, "#contents");
-		} else if (matches = cgi.id.match(/(Tsg\d+)/)) {
-			Mode = "gerusalemme";
-			GERUSALEMME = matches[1];
-	   	displayMusicalSettings(GERUSALEMME, "#contents");
-		} else {
-	   	displayMusicalSettings(0, "#contents");
-		}
+	   	displayMusicalSettings(cgi.id, "#contents");
 	} else {
 	   displayMusicalSettings(0, "#contents");
 	}

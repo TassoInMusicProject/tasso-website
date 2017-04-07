@@ -71,15 +71,17 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 		</tr>
 		</table>
 	</td>
+
 	<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{gtitle}}}
 		<table class="choices">
 		<tr>
-			<td><a href=/settings?id={{number gerusalemme}}>Musical Settings</a></td>
-			<td><a href=/sources?id={{number gerusalemme}}>Literary Sources</a></td>
-			<td><a href=/variants?id={{number gerusalemme}}>Literary Variants</a></td>
+			<td><a href=/settings?id={{number catalogbase}}>Musical Settings</a></td>
+			<td><a href=/sources?id={{number catalogbase}}>Literary Sources</a></td>
+			<td><a href=/variants?id={{number catalogbase}}>Literary Variants</a></td>
 		</tr>
 		</table>
 	</td>
+
 	</tr>
 
 	{{/each}}
@@ -122,8 +124,16 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 			</tr>
 			</table>
 		</td>
-		<td style="height:55px;" class="nowork"> {{atitle}}</td>
-	</tr>
+		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{atitle}}}
+			<table class="choices">
+			<tr>
+				<td><a href=/settings?id={{number catalogbase}}>Musical Settings</a></td>
+				<td><a href=/sources?id={{number catalogbase}}>Literary Sources</a></td>
+				<td><a href=/variants?id={{number catalogbase}}>Literary Variants</a></td>
+			</tr>
+			</table>
+		</td>
+		</tr>
 
 	{{/each}}
 	</tbody>

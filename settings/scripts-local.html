@@ -95,6 +95,10 @@ function displayMusicalSettings(id, target) {
 		target = "#contents";
 	}
 
+	if (id) {
+		id = id.replace(/[a-z]$/, "");
+	}
+
 	var element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place on page since", target, " doesn't exist.");
@@ -102,6 +106,7 @@ function displayMusicalSettings(id, target) {
 	}
 
 	var counter = 0;
+	var maxcount = 5;
 
 	if (sessionStorage.RIMEVERSELIST && 
 				(sessionStorage.RIMEVERSELIST != "undefined")) {
@@ -116,6 +121,11 @@ function displayMusicalSettings(id, target) {
 
 	if (sessionStorage.GERUSETTINGLIST) {
 		GERUSETTINGLIST = JSON.parse(sessionStorage.GERUSETTINGLIST);
+		counter++;
+	}
+
+	if (sessionStorage.AMINTASETTINGLIST) {
+		AMINTASETTINGLIST = JSON.parse(sessionStorage.AMINTASETTINGLIST);
 		counter++;
 	}
 
@@ -134,7 +144,7 @@ function displayMusicalSettings(id, target) {
 			RIMEVERSELIST = aton.parse(this.responseText).RIME;
 			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
 			counter++;
-			if (counter == 4) {
+			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
@@ -152,7 +162,7 @@ function displayMusicalSettings(id, target) {
 			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
 			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
 			counter++;
-			if (counter == 4) {
+			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
@@ -170,7 +180,25 @@ function displayMusicalSettings(id, target) {
 			GERUSETTINGLIST = aton.parse(this.responseText).GERUSALEMME;
 			sessionStorage.GERUSETTINGLIST = JSON.stringify(GERUSETTINGLIST);
 			counter++;
-			if (counter == 4) {
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplaySettings(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.AMINTASETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.aminta_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			AMINTASETTINGLIST = aton.parse(this.responseText).AMINTA;
+			sessionStorage.AMINTASETTINGLIST = JSON.stringify(AMINTASETTINGLIST);
+			counter++;
+			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
@@ -187,7 +215,7 @@ function displayMusicalSettings(id, target) {
 			WORKLIST = JSON.parse(this.responseText);
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
-			if (counter == 4) {
+			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
 				reallyDisplaySettings(id, target);
@@ -197,7 +225,7 @@ function displayMusicalSettings(id, target) {
 		request.send();
 	}
 
-	if (counter == 4) {
+	if (counter == maxcount) {
 		buildAllSettingList();
 		buildPoemList(ALLSETTINGLIST);
 		reallyDisplaySettings(id, target);
@@ -212,7 +240,7 @@ function displayMusicalSettings(id, target) {
 //
 
 function buildAllSettingList() {
-	ALLSETTINGLIST = RIMESETTINGLIST.concat(GERUSETTINGLIST);
+	ALLSETTINGLIST = RIMESETTINGLIST.concat(GERUSETTINGLIST).concat(AMINTASETTINGLIST);
 }
 
 
@@ -266,6 +294,7 @@ console.log("BUILD POEMLIST", list);
 //
 
 function reallyDisplaySettings(id, target) {
+console.log("RDS ID = ", id);
 	if (!target) {
 		target = "#contents";
 	}
@@ -395,7 +424,7 @@ console.log("ID=",cleanid, "NEXT", nextid, "PREV", previousid);
 	output += "</td><td style='width:100%; text-align:center'>";
 	output += "<h2>";
 	var entry = GetAllSettingEntry(id, ALLSETTINGLIST);
-console.log("ENTRY", entry);
+console.log("ZZZ ENTRY", entry);
 	if (!entry) {
 		console.log("Error accessing id b:", id);
 		console.log("ENTRY:", entry);
@@ -441,6 +470,7 @@ function getCatalogInfo(id) {
 		output += "&nbsp;&nbsp;(<i>Rime</i> ";
 		output += matches[1];
 		output += ")</h2>";
+
 	} else if (matches = id.match(/Tsg(\d\d)(\d\d\d)/)) {
 		// Tsg99888z :: 99 = canto, 888 = ottava
 		var canto = GetRomanNumeral(matches[1]);
@@ -448,6 +478,16 @@ function getCatalogInfo(id) {
 		output += "&nbsp;&nbsp;(<i>Gerusalemme</i> ";
 		output += canto + "/" + ottava;
 		output += ")</h2>";
+
+	} else if (matches = id.match(/Tam(\d)(\d\d)(\d\d\d\d)/)) {
+		// Tam9887777z :: 9 = Act, 88 = scene, 7777 = verse
+		var act = GetRomanNumeral(matches[1]);
+		var scene = matches[2].replace(/^0*/, "");
+		var verse = matches[3].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Aminta</i> ";
+		output += act + "/" + scene + "/" + verse;
+		output += ")</h2>";
+
 	} else {
 		output = "ERROR";
 	}
@@ -463,11 +503,14 @@ function getCatalogInfo(id) {
 //
 
 function buildSetList(entry) {
+console.log("GOT HERE AAA", entry);
 	var id = entry.CATALOGNUM;
+console.log("ID=", id);
 	var cleanid = id.replace(/[a-z]$/, "");
 	if (!cleanid) {
 		return;
 	}
+console.log("cleanid", cleanid);
 	var WORKS = [];
 	var WLIST = ALLSETTINGLIST;
 	for (var i=0; i<WLIST.length; i++) {
@@ -494,6 +537,7 @@ function buildSetList(entry) {
 //
 
 function getMusicalSettingTable(entry) {
+console.log("GMS ENTRY", entry);
 	if (!entry) {
 		return ""
 	}

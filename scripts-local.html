@@ -1,6 +1,7 @@
 
 <script src="/scripts/scripts-common.js"></script>
 
+{% include_relative listeners.html %}
 {% include_relative templates.html %}
 
 <script>
@@ -18,54 +19,6 @@
 
 
 var RWORKLIST = {};
-
-//////////////////////////////
-//
-// Function called when document has finished loading:
-//
-
-document.addEventListener("DOMContentLoaded", function() {
-	displayRimeList("#contents");
-});
-
-
-
-//////////////////////////////
-//
-// process Window keys down:
-//
-
-window.addEventListener('keydown', function(event) {
-	if (event.metaKey) {
-		return;
-	}
-
-	switch (event.keyCode) {
-
-		case GKey:
-			if (event.altKey) {
-				sortByGenre(1);
-				event.preventDefault();
-			}
-			break;
-
-		case SKey:
-			if (event.altKey) {
-				sortByNumber(0);
-				event.preventDefault();
-			}
-			break;
-
-		case TKey:
-			if (event.altKey) {
-				sortByText(1);
-				event.preventDefault();
-			}
-			break;
-
-	}
-
-});
 
 
 
@@ -385,7 +338,7 @@ function makeCantoList(gllist) {
 		data[key].gtitle = gllist[i].TITLE;
 		data[key].canto  = gllist[i].CANTO;
 		data[key].ottava = gllist[i].OTTAVA;
-		data[key].gerusalemme = key;
+		data[key].catalogbase = key;
 	}
 	// Should already be sorted, but maybe sort here by Canto/Ottava
 	// as stored in catalog number.
@@ -408,6 +361,7 @@ function makeEclogheList(elist) {
 		data[key].etitle = elist[i].TITLE;
 		data[key].ecloga = elist[i].ECLOGA;
 		data[key].verse  = elist[i].VERSE;
+		data[key].catalogbase = key;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -430,6 +384,7 @@ function makeRinaldoList(rlist) {
 		data[key].rtitle = rlist[i].TITLE;
 		data[key].canto  = rlist[i].CANTO;
 		data[key].ottava = rlist[i].OTTAVA;
+		data[key].catalogbase = key;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -452,6 +407,7 @@ function makeLagrimeList(lentry) {
 		data[key] = {};
 		data[key].ltitle = llist[i].TITLE;
 		data[key].stanza = llist[i].STANZA;
+		data[key].catalogbase = key;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -476,6 +432,7 @@ function makeTorrismondoList(lentry) {
 		data[key].act     = llist[i].ACT;
 		data[key].scene   = llist[i].SCENE;
 		data[key].section = llist[i].SECTION;
+		data[key].catalogbase = key;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -499,6 +456,7 @@ function makeAmintaVerseList(amlist) {
 		data[key].act = amlist[i].ACT;
 		data[key].scene = amlist[i].SCENE;
 		data[key].verse = amlist[i].VERSE;
+		data[key].catalogbase = key;
 	}
 	// Should already be sorted, but maybe sort here by verse number.
 	// as stored in catalog number.
@@ -517,6 +475,7 @@ function continueProcessingAminta(element) {
 	                      .textContent;
 	var amintaTemplate = Handlebars.compile(tsource);
 	var amintalist = makeAmintaVerseList(AMINTALIST);
+console.log("ALST", amintalist);
 	element.innerHTML = amintaTemplate(amintalist);
 	showTab("aminta-heading");
 }

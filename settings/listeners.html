@@ -1,0 +1,102 @@
+<script>
+// vim: ts=3 ft=javascript
+
+//////////////////////////////
+//
+// Function called when document has finished loading:
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	var cgi = GetCgiParameters();
+	if (cgi.rime) {
+		Rime = "Trm";
+		if (cgi.rime < 1000) { Rime += "0"; }
+		if (cgi.rime < 100)  { Rime += "0"; }
+		if (cgi.rime < 10)   { Rime += "0"; }
+		Rime += cgi.rime;
+	   displayMusicalSettings(Rime, "#contents");
+	} else if (cgi.id) {
+		var matches;
+		if (matches = cgi.id.match(/Trm0*(\d+)/)) {
+			RIME = matches[1];
+	   	displayMusicalSettings(Rime, "#contents");
+		} else if (matches = cgi.id.match(/(Tsg\d+)/)) {
+			Mode = "gerusalemme";
+			GERUSALEMME = matches[1];
+	   	displayMusicalSettings(GERUSALEMME, "#contents");
+		} else {
+	   	displayMusicalSettings(0, "#contents");
+		}
+	} else {
+	   displayMusicalSettings(0, "#contents");
+	}
+});
+
+
+//////////////////////////////
+//
+// click event listener -- Find a <tr>, then go ot the ending
+// <td> and use that as an ID (if it has the form of Trm0000z).
+//
+
+document.addEventListener("click", function(event) {
+	target = event.target;
+	while (target) {
+ 		if (target.nodeName == "TH") {
+			return;
+		}
+ 		if (target.nodeName != "TR") {
+			target = target.parentNode;
+         continue;
+		}
+		var lasttd = target.querySelector("td:first-child");
+		var id = lasttd.textContent;
+		if (!RWORKLIST[id]) {
+         // id has no workpage content
+			return;
+		}
+
+		if (id.match("^Trm")) {
+			var url = "/work?id=" + id;
+			window.location = url;
+		}
+		break;
+	}
+});
+
+
+//////////////////////////////
+//
+// process Window keys down:
+//
+
+window.addEventListener('keydown', function(event) {
+	if (event.metaKey) {
+		return;
+	}
+
+	switch (event.keyCode) {
+		case LeftArrowKey:
+			if (event.shiftKey) {
+				displayVariant();
+			} else {
+				displayPreviousSetting();
+			}
+			break;
+		case RightArrowKey:
+			if (event.shiftKey) {
+				displaySource();
+			} else {
+				displayNextSetting();
+			}
+			break;
+		case UpArrowKey:
+			window.location = "/settings";
+			break;
+	}
+
+});
+
+
+</script>
+

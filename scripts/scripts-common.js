@@ -21,10 +21,12 @@ var AUDIOjrpid     = '';  						 // currently playing audio file.
 var AUDIOid        = '';                   // currently playing audio button.
 var RIMEVERSELIST;   // list of poems with verse contents
 var RIMESETTINGLIST; // list of poems without verse contents
+var GERUSETTINGLIST; // list of poems without verse contents
+var ALLSETTINGLIST;
 var LITLIST;         // list of literary sources
 var WORKLIST;        // list of musical settings
+// will be changed:
 var AMINTALIST;      // list of Aminta settings
-var GLLIST;          // list of Gerusalemme settings
 var OTHERLIST;       // list of other settings
 
 
@@ -778,7 +780,40 @@ function GetRimeTitle(rimenum, rimelist) {
 
 //////////////////////////////
 //
-// GetRimeVerseEntry --
+// GetAllSettingEntry -- 
+//
+
+function GetAllSettingEntry(catalognum, worklist) {
+   if (!worklist) {
+		worklist = ALLSETTINGLIST;
+   }
+   if (!worklist) {
+		return "";
+	}
+	if (!catalognum) {
+		console.log("ERROR: catalognum undefined: ", catalognum);
+		return "";
+	}
+	if (catalognum.length == 0) {
+		console.log("ERROR: catalognum empty: ", catalognum);
+		return "";
+	}
+	var list = worklist;
+	if (!list.length) {
+		list = worklist.RIME;
+	}
+   for (var i=0; i<list.length; i++) {
+		if (list[i].CATALOGNUM.match(catalognum)) {
+			return list[i];
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// GetRimeVerseEntry -- 
 //
 
 function GetRimeVerseEntry(rimenum, rimelist) {
@@ -950,6 +985,31 @@ function CheckLocalStorage() {
 		}
 	}
 }
+
+
+
+//////////////////////////////
+//
+// GetRomanNumeral --
+//
+
+function GetRomanNumeral(arabic) {
+	if (arabic < 1) {
+		return arabic;
+	}
+	var numbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+	var romans  = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
+
+	var output = "";
+	for (var i=0; i<numbers.length; i++) {
+		while (arabic >= numbers[i]) {
+			output += romans[i];
+			arabic -= numbers[i];
+		}
+	}
+	return output;
+}
+
 
 
 

@@ -71,19 +71,15 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 		</tr>
 		</table>
 	</td>
-	<td style="height:55px;" class="nowork"> {{gtitle}}</td>
-<!--
-	<td onmouseover="show(this)" onmouseout="hide(this)">{{{gtitle}}}
-			<span class="genre">({{{GENRE}}})</span>
+	<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{gtitle}}}
 		<table class="choices">
 		<tr>
-			<td><a href=/settings?rime={{SOLERTI}}>Musical Settings{{{settingCount SOLERTI}}}</a></td>
-			<td><a href=/sources?rime={{SOLERTI}}>Literary Sources</a></td>
-			<td><a href=/variants?rime={{SOLERTI}}>Literary Variants</a></td>
+			<td><a href=/settings?id={{number gerusalemme}}>Musical Settings</a></td>
+			<td><a href=/sources?id={{number gerusalemme}}>Literary Sources</a></td>
+			<td><a href=/variants?id={{number gerusalemme}}>Literary Variants</a></td>
 		</tr>
 		</table>
 	</td>
--->
 	</tr>
 
 	{{/each}}
@@ -354,6 +350,20 @@ Handlebars.registerHelper("settingCount", function(solerti) {
 		output = "";
 	}
 	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// number Handlebar helper -- Extract the numeric value of the catalog number.
+//
+
+Handlebars.registerHelper("number", function(catalognum) {
+console.log("CATALOGNUM", catalognum);
+	var matches = catalognum.match(/^(T..\d+)/);
+	var value = matches[1];
+	return new Handlebars.SafeString(value);
 });
 
 

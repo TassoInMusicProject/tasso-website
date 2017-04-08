@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
 	vrvToolkit = new verovio.toolkit();
 	HighlightNavigationBar();
 	var cgi = GetCgiParameters();
+	if (cgi.k) {
+		setupVariables(cgi.k);
+	}
 	ID = cgi.id;
 	loadWorkList("{{site.worklist}}");
 	CheckLocalStorage();

@@ -21,6 +21,7 @@
 var REPORT = {};
 
 var vrvToolkit;
+
 var vrvOptions = {
 	pageWidth: 2500,
 	adjustPageHeight: 1,
@@ -31,11 +32,82 @@ var vrvOptions = {
 	font: "Leipzig",
 	scale: 40
 };
+
 var CURRENT_PAGE = 1;
 var INCIPIT_STYLE = 0;
 var ORIGINAL_CLEFS = 0;
 var INCLUDE_TEXT = 1;
 var PART_FILTER = 0;
+
+
+//////////////////////////////
+//
+// setupVariables -- Used with CGI parameter k to set default style for 
+//   notation on page.
+//
+
+function setupVariables(string) {
+	for (var i=0; i<string.length; i++) {
+		var value = string.charAt(i);
+		switch (value) {
+
+			case 'e':
+				INCIPIT_STYLE = !INCIPIT_STYLE;
+				break;
+
+			case 'o':
+				ORIGINAL_CLEFS = !ORIGINAL_CLEFS;
+				break;
+
+			case 't':
+				INCLUDE_TEXT = !INCLUDE_TEXT;
+				break;
+
+			case '1':
+				PART_FILTER = 1;
+				break;
+
+			case '2':
+				PART_FILTER = 2;
+				break;
+
+			case '3':
+				PART_FILTER = 3;
+				break;
+
+			case '4':
+				PART_FILTER = 4;
+				break;
+
+			case '5':
+				PART_FILTER = 5;
+				break;
+
+			case '6':
+				PART_FILTER = 6;
+				break;
+
+			case '7':
+				PART_FILTER = 7;
+				break;
+
+			case '8':
+				PART_FILTER = 8;
+				break;
+
+			case '9':
+				PART_FILTER = 9;
+				break;
+
+			case '0':
+				PART_FILTER = 0;
+				break;
+
+		}
+	}
+
+}
+
 
 
 //////////////////////////////
@@ -720,6 +792,30 @@ function displayPreviousWork(id) {
 	var newid = ORDER[id].previous;
 	ID = newid;
 	displaySingleWork(ID);
+}
+
+
+//////////////////////////////
+//
+// showMeiData --
+//
+
+function showMeiData(event) {
+	var data = vrvToolkit.getMEI(0, 1);
+	var prefix = "<textarea style='spellcheck=false; width:100%; height:100%;'>";
+	var postfix = "</textarea>";
+	var w = window.open("about:blank", "MEI transcoding", 'width=600,height=800,resizeable,scrollabars,location=false');
+	w.document.write(prefix + data + postfix);
+	w.document.close();
+	function checkTitle() {
+		if (w.document) {
+			w.document.title = "MEI transcoding";
+		} else {
+			setTimeout(checkTitle, 40);
+		}
+	}
+	checkTitle();
+	event.preventDefault();
 }
 
 

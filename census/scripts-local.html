@@ -88,6 +88,106 @@ function showWorkCensus(target) {
 	var output = censusTemplate(WORKLIST[0]);
 	element.innerHTML = output;
 	generateTotals();
+	fillInTimeKey();
+}
+
+
+
+//////////////////////////////
+//
+// fillInTimeKey --
+//
+
+function fillInTimeKey() {
+	var rows = document.querySelectorAll("#censustable tr.data");
+	for (var i=0; i<rows.length; i++) {
+		var idcell = rows[i].querySelector("td.id");
+		var id = idcell.id;
+		if (!id) {
+			continue;
+		}
+		console.log("ID = ", id);
+		getTimeKey(id, rows[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getTimeKey --
+//
+
+function getTimeKey(id, row) {
+	var tag = "humdrum_" + id;
+	var tagcontent;
+	var keysig;
+	var metsig;
+
+	var keysigcell = row.querySelector("td.keysig");
+	var timecell = row.querySelector("td.time");
+
+	if (sessionStorage[tag]) {
+		keysig = getKeySig(sessionStorage[tag]);
+		metsig = getMetSig(sessionStorage[tag]);
+		keysigcell.innerHTML = keysig;
+		timecell.innerHTML = metsig;
+	} else {
+		var action = "humdrum";
+		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		var request = new XMLHttpRequest();
+		request.open('GET', url);
+		request.addEventListener("load", function() {
+			var data = this.responseText;
+			sessionStorage[tag] = data;
+			keysig = getKeySig(sessionStorage[tag]);
+			metsig = getMetSig(sessionStorage[tag]);
+			keysigcell.innerHTML = keysig;
+			timecell.innerHTML = metsig;
+		});
+		request.send()
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getKeySig -- extract first key signature found in Humdrum data.
+//
+
+function getKeySig(text) {
+	var matches;
+	if (matches = text.match(/\*k\[(.*?)\]/)) {
+		if (matches[1] == "b-") {
+			return "&#x266d;"
+		}
+		return matches[1];
+	} else {
+		return "X";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getMetSig -- extract first metric signature found in Humdrum data.
+//
+
+function getMetSig(text) {
+	var matches;
+	if (matches = text.match(/\*omet\((.*?)\)/)) {
+		if (matches[1] === "C") {
+			return "c";
+		} else if (matches[1] === "C|") {
+			return "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+		} else {
+			return matches[1];
+		}
+	} else {
+		return "X";
+	}
 }
 
 

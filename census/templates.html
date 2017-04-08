@@ -19,11 +19,13 @@
 		<th onclick="sortByNumber(2)"      style="cursor:pointer; text-align:left">Date</th>
 		<th onclick="sortByText(3,'a')"    style="cursor:pointer; text-align:left">Title</th>
 		<th onclick="sortByText(4)"        style="cursor:pointer; text-align:left">Voices</th>
-		<th onclick="sortByNumber(5)"      style="cursor:pointer; text-align:left">Bars</th>
-		<th onclick="sortByNumber(6)"      style="cursor:pointer; text-align:left">Breves</th>
-		<th onclick="sortByNumber(7)"      style="cursor:pointer; text-align:left">Notes</th>
-		<th onclick="sortByNumber(8, 'a')" style="cursor:pointer; text-align:left">Pages</th>
-		<th onclick="sortByMinutes(9)"     style="cursor:pointer; text-align:left">Time</th>
+		<th onclick="sortByText(5)"        style="cursor:pointer; text-align:left">Time</th>
+		<th onclick="sortByText(6)"        style="cursor:pointer; text-align:left">Key</th>
+		<th onclick="sortByNumber(7)"      style="cursor:pointer; text-align:left">Bars</th>
+		<th onclick="sortByNumber(8)"      style="cursor:pointer; text-align:left">Breves</th>
+		<th onclick="sortByNumber(9)"      style="cursor:pointer; text-align:left">Notes</th>
+		<th onclick="sortByNumber(10, 'a')" style="cursor:pointer; text-align:left">Pages</th>
+		<th onclick="sortByMinutes(11)"     style="cursor:pointer; text-align:left">Time</th>
 		<th></th>
 	<thead>
 
@@ -31,15 +33,17 @@
 
 	{{#works}}
 	<tr class="data">
-	<td><a target="_new" href="/work/?id={{id}}">{{id}}</a></td>
-	<td>{{{composertag comshort comlong}}}</td>
-	<td>{{{workdate}}}</td>
-	<td>{{{cleantitle title id}}}</td>
-	<td style="text-align:center">{{voices}}</td>
-	<td class="bar-item" style="text-align:right">{{barcount}}</td>
+	<td class="id" id="{{id}}" ><a target="_new" href="/work/?id={{id}}">{{id}}</a></td>
+	<td class="composer">{{{composertag comshort comlong}}}</td>
+	<td class="pubdate">{{{workdate}}}</td>
+	<td class="title">{{{cleantitle title id}}}</td>
+	<td class="voices" style="text-align:center">{{voices}}</td>
+	<td class="time"       style="text-align:center"></td>
+	<td class="keysig"     style="text-align:center"></td>
+	<td class="bar-item"   style="text-align:right">{{barcount}}</td>
 	<td class="breve-item" style="text-align:right">{{brevecount}}</td>
-	<td class="note-item" style="text-align:right">{{notecount}}</td>
-	<td class="page-item" style="text-align:center"><a href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notation&f={{id}}">{{pg}}</a></td>
+	<td class="note-item"  style="text-align:right">{{notecount}}</td>
+	<td class="page-item"  style="text-align:center"><a href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notation&f={{id}}">{{pg}}</a></td>
 	<td class="time-item" style="text-align:center">{{timevalue sec}}</td>
 	<td>
 		 <span id="audio_{{id}}" style="cursor:hand; cursor:pointer;" 
@@ -52,8 +56,7 @@
 	<td></td>
 	<td></td>
 	<td></td>
-	<td style="text-align:right"><i>Totals</i>:</td>
-	<td></td>
+	<td colspan="4" style="text-align:right"><i>Totals</i>:</td>
 	<td style="text-align:right" id="bar-total"></td>
 	<td style="text-align:right" id="breve-total"></td>
 	<td style="text-align:right" id="note-total"></td>

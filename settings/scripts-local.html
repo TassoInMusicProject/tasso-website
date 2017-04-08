@@ -106,7 +106,7 @@ function displayMusicalSettings(id, target) {
 	}
 
 	var counter = 0;
-	var maxcount = 5;
+	var maxcount = 6;
 
 	if (sessionStorage.RIMEVERSELIST && 
 				(sessionStorage.RIMEVERSELIST != "undefined")) {
@@ -126,6 +126,11 @@ function displayMusicalSettings(id, target) {
 
 	if (sessionStorage.AMINTASETTINGLIST) {
 		AMINTASETTINGLIST = JSON.parse(sessionStorage.AMINTASETTINGLIST);
+		counter++;
+	}
+
+	if (sessionStorage.OTHERSETTINGLIST) {
+		OTHERSETTINGLIST = JSON.parse(sessionStorage.OTHERSETTINGLIST);
 		counter++;
 	}
 
@@ -208,6 +213,24 @@ function displayMusicalSettings(id, target) {
 		request.send();
 	}
 
+	if (!sessionStorage.OTHERSETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.other_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			OTHERSETTINGLIST = aton.parse(this.responseText).OTHER;
+			sessionStorage.OTHERSETTINGLIST = JSON.stringify(OTHERSETTINGLIST);
+			counter++;
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplaySettings(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
 	if (!sessionStorage.WORKLIST) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.worklist}}");
@@ -240,7 +263,14 @@ function displayMusicalSettings(id, target) {
 //
 
 function buildAllSettingList() {
-	ALLSETTINGLIST = RIMESETTINGLIST.concat(GERUSETTINGLIST).concat(AMINTASETTINGLIST);
+	ALLSETTINGLIST = RIMESETTINGLIST
+		.concat(GERUSETTINGLIST)
+		.concat(AMINTASETTINGLIST)
+		.concat(OTHERSETTINGLIST.ECLOGHE)
+		.concat(OTHERSETTINGLIST.RINALDO)
+		.concat(OTHERSETTINGLIST.LAGRIME)
+		.concat(OTHERSETTINGLIST.TORRISMONDO)
+	;
 }
 
 
@@ -479,6 +509,29 @@ function getCatalogInfo(id) {
 		output += canto + "/" + ottava;
 		output += ")</h2>";
 
+	} else if (matches = id.match(/Tec(\d)(\d\d\d)/)) {
+		// Tec9888z :: 9 = ecloghe, 888 = verse
+		var ecloghe = GetRomanNumeral(matches[1]);
+		var verse = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Ecloghe</i> ";
+		output += ecloghe + "/" + verse;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tbv(\d\d\d\d)/)) {
+		// Tec9999z :: 9999 = stanza
+		var stanza = matches[1].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Lagrime</i> ";
+		output += " stanza " + stanza;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tri(\d)(\d\d\d)/)) {
+		// Tri9888z :: 9 = canto, 888 = ottava
+		var canto = GetRomanNumeral(matches[1]);
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Rinaldo</i> ";
+		output += canto + "/" + ottava;
+		output += ")</h2>";
+
 	} else if (matches = id.match(/Tam(\d)(\d\d)(\d\d\d\d)/)) {
 		// Tam9887777z :: 9 = Act, 88 = scene, 7777 = verse
 		var act = GetRomanNumeral(matches[1]);
@@ -486,6 +539,14 @@ function getCatalogInfo(id) {
 		var verse = matches[3].replace(/^0*/, "");
 		output += "&nbsp;&nbsp;(<i>Aminta</i> ";
 		output += act + "/" + scene + "/" + verse;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Trt(\d\d)(\d\d)/)) {
+		// Trt9988z :: 99 = Act, 88 = scene
+		var act = GetRomanNumeral(matches[1].replace(/^0*/, ""));
+		var scene = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Re Torrismondo</i> ";
+		output += act + "/" + scene;
 		output += ")</h2>";
 
 	} else {

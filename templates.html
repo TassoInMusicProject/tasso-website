@@ -171,7 +171,15 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 			</tr>
 			</table>
 		</td>
-		<td style="height:55px;" class="nowork"> {{etitle}}</td>
+		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{etitle}}}
+			<table class="choices">
+			<tr>
+				<td><a href=/settings?id={{number catalogbase}}>Musical Settings</a></td>
+				<td><a href=/sources?id={{number catalogbase}}>Literary Sources</a></td>
+				<td><a href=/variants?id={{number catalogbase}}>Literary Variants</a></td>
+			</tr>
+			</table>
+		</td>
 	</tr>
 
 	{{/each}}
@@ -209,7 +217,15 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 			</tr>
 			</table>
 		</td>
-		<td style="height:55px;" class="nowork"> {{rtitle}}</td>
+		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{rtitle}}}
+			<table class="choices">
+			<tr>
+				<td><a href=/settings?id={{number catalogbase}}>Musical Settings</a></td>
+				<td><a href=/sources?id={{number catalogbase}}>Literary Sources</a></td>
+				<td><a href=/variants?id={{number catalogbase}}>Literary Variants</a></td>
+			</tr>
+			</table>
+		</td>
 	</tr>
 
 	{{/each}}
@@ -250,7 +266,15 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 			</tr>
 			</table>
 		</td>
-		<td style="height:55px;" class="nowork"> {{ttitle}}</td>
+		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{ttitle}}}
+			<table class="choices">
+			<tr>
+				<td><a href=/settings?id={{number catalogbase}}>Musical Settings</a></td>
+				<td><a href=/sources?id={{number catalogbase}}>Literary Sources</a></td>
+				<td><a href=/variants?id={{number catalogbase}}>Literary Variants</a></td>
+			</tr>
+			</table>
+		</td>
 	</tr>
 
 	{{/each}}
@@ -285,7 +309,15 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 			</tr>
 			</table>
 		</td>
-		<td style="height:55px;" class="nowork"> {{ltitle}}</td>
+		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{ltitle}}}
+			<table class="choices">
+			<tr>
+				<td><a href=/settings?id={{number catalogbase}}>Musical Settings</a></td>
+				<td><a href=/sources?id={{number catalogbase}}>Literary Sources</a></td>
+				<td><a href=/variants?id={{number catalogbase}}>Literary Variants</a></td>
+			</tr>
+			</table>
+		</td>
 	</tr>
 
 	{{/each}}
@@ -293,6 +325,7 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 	</table>
 </script>
 {% endraw %}
+
 
 
 <script>

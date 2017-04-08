@@ -19,15 +19,14 @@ var PDFTARGET      = 'target="new"';		 // Display PDF files in separate tab/wind
 var AUDIO          = null;						 // HTML5 audio interface ID.
 var AUDIOjrpid     = '';  						 // currently playing audio file.
 var AUDIOid        = '';                   // currently playing audio button.
-var RIMEVERSELIST;   // list of poems with verse contents
-var RIMESETTINGLIST; // list of poems without verse contents
-var GERUSETTINGLIST; // list of poems without verse contents
+var RIMEVERSELIST;      // list of poems with verse contents
+var RIMESETTINGLIST;    // list of poems without verse contents
+var GERUSETTINGLIST;    // list of poems without verse contents
+var AMINTASETTINGLIST;  // list of Aminta settings
+var OTHERSETTINGLIST;   // list of other settings
 var ALLSETTINGLIST;
-var LITLIST;         // list of literary sources
-var WORKLIST;        // list of musical settings
-// will be changed:
-var AMINTALIST;      // list of Aminta settings
-var OTHERLIST;       // list of other settings
+var LITLIST;            // list of literary sources
+var WORKLIST;           // list of musical settings
 
 
 // List of Key Codes.  More can be extracted from this page:

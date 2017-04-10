@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/*
+ * vim: ts=3
+ */
+
 html, body {
 	background-color: #404040;
 	font-family: simonetta;
@@ -359,5 +363,12 @@ input {
 	padding-bottom: 1px;
 }
 
+
+.backward {
+	display: inline-block;
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
 
 

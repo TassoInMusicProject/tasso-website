@@ -815,19 +815,27 @@ function GetAllSettingEntry(catalognum, worklist) {
 // GetRimeVerseEntry -- 
 //
 
-function GetRimeVerseEntry(rimenum, rimelist) {
-   if (!rimelist) {
-		rimelist = RIMEVERSELIST;
+function GetRimeVerseEntry(id, list) {
+   if (!list) {
+		list = RIMEVERSELIST;
    }
-   if (!rimelist) {
+   if (!list) {
 		return "";
 	}
-	if (!rimenum) {
+	if (!id) {
 		return "";
 	}
-	var list = rimelist;
+	var list = list;
 	if (!list.length) {
-		list = rimelist.RIME;
+		list = list.RIME;
+	}
+	var matches;
+	var rimenum 
+	if (matches = id.match(/T..0*(\d+)/)) {
+		rimenum = matches[1];
+	} else {
+		console.log("Error in id: ", id);
+		return;
 	}
    for (var i=0; i<list.length; i++) {
 		if (rimenum == list[i].SOLERTI) {
@@ -1008,6 +1016,25 @@ function GetRomanNumeral(arabic) {
 	}
 	return output;
 }
+
+
+
+//////////////////////////////
+//
+// GetTitleName --
+//
+
+function GetTitleName(id) {
+	var matches;
+	if (matches = id.match(/Trm0*(\d+)/)) {
+		return "<i>Rime</i> " + matches[1];
+	} else {
+		return "ERROR " + id;
+	}
+}
+
+
+
 
 
 

@@ -3628,6 +3628,34 @@
 @@END:		RIME
 
 @@BEGIN:	RIME
+@SOLERTI:	862
+@TITLE:		La bella e vaga man che le sonore
+@GENRE:		sonetto
+@MANUSRC:	Ts2
+@PRINTSRC:	22, 22a), 26, 31, 36, 40, 50a), 69, 141, 166, 169
+@@BEGIN:	VERSES
+@VERSE:
+	La bella e vaga man che le sonore
+	Corde, or leggiera e presta, or tarda e grave
+	Percuote, e suon ne trae vario e soave,
+	E 'l dolce canto tuo, che forma Amore,
+@VERSE:
+	Son l'armi dolci onde piagato egrave il core
+	In guisa tal che di morir non pave;
+	Ma vago fatto di languir, sol have
+	Di risanar, quasi di mal, timore.
+@VERSE:
+	Onde per languir sempre, or questa piaga
+	Ed or quell'altra col pensier rinnova,
+	Vera Vittoria e vera vincitrice,
+@VERSE:
+	Che rende l'alma di penar s&igrave vaga
+	Che quel ch'altrui pi&ugrave nuoce a lei pi&ugrave giova,
+	Ne' sospir lieta e ne' martir felice.
+@@END: VERSES
+@@END: RIME
+
+@@BEGIN:	RIME
 @SOLERTI:	865
 @TITLE:		Deh! perch&eacute; amar chi voi con pari affetto
 @GENRE:		sonetto
@@ -4012,7 +4040,7 @@
 @@END:		RIME
 
 @@BEGIN:	RIME
-@SOLERTI:	1024
+@SOLERTI:	1204
 @TITLE:		Questa lieve zanzara
 @GENRE:		madrigale
 @MANUSRC:	I<sub>4</sub>

@@ -2,24 +2,41 @@
 <script src="/scripts/scripts-common.js"></script>
 
 {% include_relative listeners.html %}
-{% include_relative templates.html %}
 
 <script>
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
-// Creation Date: Sat Mar 26 07:56:45 PDT 2016
-// Last Modified: Tue Mar 28 08:26:04 PDT 2017
-// Filename:      settings/scripts-local.html
+// Creation Date: Fri Mar 25 00:02:06 PDT 2016
+// Last Modified: Sun Apr  9 09:57:44 PDT 2017
+// Filename:      variants/scripts-local.html
 // Syntax:        JavaScript 1.8/ECMAScript 5
 // vim:           ts=3: ft=javascript
 //
-// Description:   JavaScript management for the musical settings.
+// Description:   JavaScript management for the literary variants.
 //
 
 var CurrentPoem  = 0;  // ID of the current setting
 var PoemList     = {}; // List of next/previous settings
 
-var RWORKLIST    = {};  // Reverse work list
+var VARIORUM = {};
+
+
+//////////////////////////////
+//
+// displaySetting --
+//
+
+function displaySetting(poem) {
+	if (!poem) {
+		poem = CurrentPoem;
+	}
+	if (poem) {
+   	window.location = "/settings/?id=" + poem;
+	} else {
+   	window.location = "/settings";
+	}
+}
+
 
 
 //////////////////////////////
@@ -42,53 +59,36 @@ function displaySource(poem) {
 
 //////////////////////////////
 //
-// displayVariant --
+// displayNextSource --
 //
 
-function displayVariant(poem) {
-	if (!poem) {
-		poem = CurrentPoem;
-	}
-	if (poem) {
-		window.location = "/variants/?id=" + poem;
-	} else {
-		window.location = "/variants";
-	}
-}
-
-
-
-//////////////////////////////
-//
-// displayNextPoem --
-//
-
-function displayNextPoem(id) {
+function displayNextSource() {
 	var nid = PoemList[CurrentPoem].next;
-	displayMusicalSettings(nid);
+ 	displayLiteraryVariants(nid);
 }
 
 
 
 //////////////////////////////
 //
-// displayPreviousSetting --
+// displayPreviousSource --
 //
 
-function displayPreviousSetting() {
-	var id = PoemList[CurrentPoem].previous;
-	displayMusicalSettings(nid);
+function displayPreviousSource() {
+	var nid = PoemList[CurrentPoem].previous;
+ 	displayLiteraryVariants(nid);
 }
 
 
 
 //////////////////////////////
 //
-// displayMusicalSettings -- Show the literary sources for the given
-// 	Rime.
+// displayLiteraryVariants -- Show the literary variants for the given
+// 	catalog number.
 //
 
-function displayMusicalSettings(id, target) {
+function displayLiteraryVariants(id, target) {
+
 	if (!target) {
 		target = "#contents";
 	}
@@ -97,6 +97,8 @@ function displayMusicalSettings(id, target) {
 		id = id.replace(/[a-z]$/, "");
 	}
 
+	CurrentPoem = id;
+
 	var element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place on page since", target, " doesn't exist.");
@@ -104,9 +106,14 @@ function displayMusicalSettings(id, target) {
 	}
 
 	var counter = 0;
-	var maxcount = 6;
+	var maxcount = 7;
 
-	if (sessionStorage.RIMEVERSELIST && 
+   if (sessionStorage.VARIORUM) {
+		VARIORUM = JSON.parse(sessionStorage.VARIORUM);
+		counter++;
+	}
+
+	if (sessionStorage.RIMEVERSELIST &&
 				(sessionStorage.RIMEVERSELIST != "undefined")) {
 		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
 		counter++;
@@ -137,8 +144,27 @@ function displayMusicalSettings(id, target) {
 		counter++;
 	}
 
+	if (!sessionStorage.VARIORUM) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "variorum.json");
+		request.addEventListener("load", function() {
+			var v = JSON.parse(this.responseText);
+			for (var i in v) {
+				VARIORUM[v[i]] = 1;
+			}
+         sessionStorage.VARIORUM = JSON.stringify(VARIORUM);
+         counter++;
+         if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+            reallyDisplayVariants(rime, target);
+				counter++;
+         }
+		});
+		request.send();
+	}
 
-	if ((!sessionStorage.RIMEVERSELIST) || 
+	if ((!sessionStorage.RIMEVERSELIST) ||
 				(sessionStorage.RIMEVERSELIST === "undefined")) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.rime_verses}}");
@@ -150,7 +176,7 @@ function displayMusicalSettings(id, target) {
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
+				reallyDisplayVariants(id, target);
 				counter++;
 			}
 		});
@@ -168,7 +194,7 @@ function displayMusicalSettings(id, target) {
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
+				reallyDisplayVariants(id, target);
 				counter++;
 			}
 		});
@@ -186,7 +212,7 @@ function displayMusicalSettings(id, target) {
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
+				reallyDisplayVariants(id, target);
 				counter++;
 			}
 		});
@@ -204,7 +230,7 @@ function displayMusicalSettings(id, target) {
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
+				reallyDisplayVariants(id, target);
 				counter++;
 			}
 		});
@@ -222,7 +248,7 @@ function displayMusicalSettings(id, target) {
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
+				reallyDisplayVariants(id, target);
 				counter++;
 			}
 		});
@@ -239,7 +265,7 @@ function displayMusicalSettings(id, target) {
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
+				reallyDisplayVariants(id, target);
 				counter++;
 			}
 		});
@@ -249,10 +275,11 @@ function displayMusicalSettings(id, target) {
 	if (counter == maxcount) {
 		buildAllSettingList();
 		buildPoemList(ALLSETTINGLIST);
-		reallyDisplaySettings(id, target);
+		reallyDisplayVariants(id, target);
 		counter++;
 	}
 }
+
 
 
 //////////////////////////////
@@ -262,14 +289,17 @@ function displayMusicalSettings(id, target) {
 
 function buildAllSettingList() {
 	ALLSETTINGLIST = RIMESETTINGLIST
-		.concat(GERUSETTINGLIST)
-		.concat(AMINTASETTINGLIST)
-		.concat(OTHERSETTINGLIST.ECLOGHE)
-		.concat(OTHERSETTINGLIST.RINALDO)
-		.concat(OTHERSETTINGLIST.LAGRIME)
-		.concat(OTHERSETTINGLIST.TORRISMONDO)
+// for now only incude rime settings in list of variants
+// since there is only poetic text for the rime.
+//		.concat(GERUSETTINGLIST)
+//		.concat(AMINTASETTINGLIST)
+//		.concat(OTHERSETTINGLIST.ECLOGHE)
+//		.concat(OTHERSETTINGLIST.RINALDO)
+//		.concat(OTHERSETTINGLIST.LAGRIME)
+//		.concat(OTHERSETTINGLIST.TORRISMONDO)
 	;
 }
+
 
 
 //////////////////////////////
@@ -278,7 +308,6 @@ function buildAllSettingList() {
 //
 
 function	buildPoemList(list) {
-console.log("BUILD POEMLIST", list);
 	var tosort = {};
 	var id;
 	if (!list) {
@@ -311,33 +340,44 @@ console.log("BUILD POEMLIST", list);
 	PoemList[ids[ids.length-1]] = {};
 	PoemList[ids[ids.length-1]].next = ids[0];
 	PoemList[ids[ids.length-1]].previous = ids[ids.length-2];
-}
 
+}
 
 
 
 //////////////////////////////
 //
-// reallyDisplaySettings --
+// reallyDisplayVariants --
 //
 
-function reallyDisplaySettings(id, target) {
-console.log("RDS ID = ", id);
+function reallyDisplayVariants(id, target) {
+
 	if (!target) {
 		target = "#contents";
 	}
 	var element = document.querySelector(target);
 	if (!element) {
-		console.log("Error: cannot place literary sources on page.");
+		console.log("Error: cannot place Poem literary sources on page.");
 		return;
 	}
-	buildReverseWorklist();
 
-	var output = "";
-	if (!id) {
-		output += displayMultipleWorks();
+   var output = "";
+   if (!id) {
+		element.innerHTML = " no multiple variant view allowed ";
+		return;
+		output += displayMultiplePoemVariants();
 	} else {
-		output += displaySinglePoem(id);
+		output += singlePoemVariantHeader(id);
+		if (VARIORUM[id]) {
+			var innercontent = document.querySelector("#inner-content");
+			console.log(innercontent);
+			output += "<iframe src='variorum/index.html'></iframe>";
+			if (innercontent) {
+				innercontent.innerHTML = output;
+			}
+		} else {
+			output += displaySinglePoemVariant(id);
+		}
 	}
 	element.innerHTML = output;
 }
@@ -346,118 +386,98 @@ console.log("RDS ID = ", id);
 
 //////////////////////////////
 //
-// buildReveseWorklist --
+// displayMultiplePoemVariants --
 //
 
-function buildReverseWorklist() {
-	RWORKLIST = {};
-	var wl = WORKLIST[0].works;
-	for (var i in wl) {
-		RWORKLIST[wl[i].id] = 1;
-	}
-}
-
-
-
-//////////////////////////////
-//
-// displayMultipleWorks --
-//
-
-function displayMultipleWorks() {
+function displayMultiplePoemVariants() {
 	var output = "";
-	output += "<div style='font-size:100%; margin-left:0px'>";
+	output += "<div style='font-size:100%; margin-left:50px'>";
 	output += "<center>";
-	output += "<h1 style='margin-top:0; padding-right:50px;'>Musical Settings</h1>";
+	output += "<h1 style='padding-right:50px;'>Literary Variants</h1>";
 	output += "</center>";
 
-	var rimelist = RIMEVERSELIST;
+	var settinglist = ALLSETTINGLIST;
 	var rime;
-	for (var i=0; i<rimelist.length; i++) {
+   for (var i=0; i<settinglist.length; i++) {
 		output += "<center><table style='margin-top:10px; ";
 		output += "padding:0; padding-right:50px; width:100%'><tr>";
 		output += "<td>";
 		output += "</td><td style='width:100%; text-align:center'>";
 		output += "<h2>";
-		rime = rimelist[i].SOLERTI;
-		var entry = rimelist[i];
-		if (!entry) {
-			console.log("Error accessing rime:", rime);
-			console.log("Rime entry:", entry);
-			console.log("Rime list:", rimelist);
+		rime = settinglist[i].SOLERTI;
+		var entry = settinglist[i];
+   	if (!entry) {
+      	console.log("Error accessing rime:", rime);
 			return;
 		}
-		var title = entry.TITLE;
-		if (!title) {
-			title = entry.RIMETITLE;
-		}
-		output += title;
-		output += "&nbsp;&nbsp;(<i>Rime</i> " + rime + ")</h2>";
+   	var title = entry.TITLE;
+		title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+		title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+   	output += title;
+   	output += " (";
+		output += GetTitleName(rime);
+		output += ")";
+		output += "</h2>";
 		output += "</td><td>";
 		output += "</td></tr>";
 		output += "</table></center>";
 
-		var table = getMusicalSettingTable(entry);
-		output += table;
-	}
+		output += "<div id=inner-contents>";
+		var poemtable = getPoemTable(entry);
+		output += poemtable;
+		output += "</div>";
+   }
 	output += "</div>\n";
 	return output;
 }
 
 
 
+
 //////////////////////////////
 //
-// displaySinglePoem --
+// singlePoemVariantHeader --
 //
 
-function displaySinglePoem(id) {
-console.log("DISPLAYSINGLEPOEM: ", id);
-	var output = "";
+function singlePoemVariantHeader(id) {
+   var output = "";
 //	output += "<div style='font-size:100%; margin-left:50px'>";
 //	output += "<center>";
-//	output += "<h1 style='padding-right:50px;'>Musical Settings</h1>";
+//	output += "<h1 style='padding-right:50px;'>Literary Variants</h1>";
 //	output += "</center>";
 
-	var cleanid    = id.replace(/[a-z]$/, "");
-	var previousid = PoemList[cleanid].previous;
-	var nextid     = PoemList[cleanid].next;
-console.log("ID=",cleanid, "NEXT", nextid, "PREV", previousid);
-
 	output += "<center><table style=' width=100%;";
-	output += "padding-top:-50px; padding-left:0px; padding-right:0px; width:100%'><tr>";
+	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
 	output += "<td class='triangle'><span class='triangle' ";
-	output += " onclick='displayVariant();'";
-	output += "href='/sources?id=";
-	output += previousid + "'>";
-	output += "&#9664;<span style='position:relative; left:-9px;'>&#9664;</span>";
+	output += " onclick='displayPreviousSource();'>";
+	output += "<span style='letter-spacing:-7pt;'>";
+	output += "&#9664;&#9664;</span></a>";
 	output += "</td><td style='width:100%; text-align:center'>";
-	output += "<h1 style='margin-top:0;'>Musical Settings</h1>";
+	output += "<h1>Literary Variants</h1>";
 	output += "</td><td class='triangle'>";
 	output += "<span class='triangle'";
-	output += " onclick='displaySource();'";
-	output += " href='/sources?id=";
-	output +=  nextid + "'>";
-	output += "<span class='backward' style='margin-right:-9px;'>";
-	output += "<span style='position:relative; left:9px;'>&#9664;</span>&#9664;</span>";
+	output += " onclick='displayNextSource();'>";
+	output += "<span style='position:relative;left:-8px; letter-spacing:-7pt;'>";
+	output += "&#9654;&#9654;</span></a>";
 	output += "</td></tr>";
 	output += "</table></center>";
 
-	output += "<center><table style='width=100%; margin-top:-50px; ";
-	output += "padding-left:0px; padding-right:0px; width:100%'><tr>";
+
+	output += "<center><table style='margin-top:-50px; ";
+	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
 	output += "<td class='triangle'><span class='triangle' ";
-	output += " onclick='displayMusicalSettings(\"" + previousid + "\");'>";
-	output += "&#9664;</span>";
+	output += " onclick='displayPreviousSource();'>";
+	output += "&#9664;</a>";
 	output += "</td><td style='width:100%; text-align:center'>";
 	output += "<h2>";
-	var entry = GetAllSettingEntry(id, ALLSETTINGLIST);
-	if (!entry) {
-		console.log("Error accessing id b:", id);
-		console.log("ENTRY:", entry);
-		console.log("ALLSETTINGLIST", ALLSETTINGLIST);
+	var entry = GetAllSettingEntry(id);
+   if (!entry) {
+      console.log("Error accessing id:", id);
 		return;
 	}
-	var title = entry.TITLE;
+   var title = entry.TITLE;
 	if (!title) {
 		title = entry.RIMETITLE;
 	}
@@ -465,124 +485,39 @@ console.log("ID=",cleanid, "NEXT", nextid, "PREV", previousid);
 	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
 	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
-	output += title;
-	output += getCatalogInfo(id);
+   output += title;
+   output += " (";
+	output += GetTitleName(id);
+	output += ")</h2>";
 	output += "</td><td class='triangle'>";
 	output += "<span class='triangle'";
-	output += " onclick='displayMusicalSettings(\"" + nextid + "\");'>";
-	output += "<span class='backward'>&#9664;</span></span>";
+	output += " onclick='displayNextSource();'>";
+	output += "&#9654;</a>";
 	output += "</td></tr>";
 	output += "</table></center>";
-
-	var table = getMusicalSettingTable(entry);
-	output += table;
-	output += "</div>\n";
 	return output;
-
 }
 
 
 
 //////////////////////////////
 //
-// getCatalogInfo --
+// displaySinglePoemVariant --
 //
 
-function getCatalogInfo(id) {
+function displaySinglePoemVariant(id) {
 	var output = "";
-	var matches;
-	if (matches = id.match(/Trm0*(\d+)/)) {
-		output += "&nbsp;&nbsp;(<i>Rime</i> ";
-		output += matches[1];
-		output += ")</h2>";
-
-	} else if (matches = id.match(/Tsg(\d\d)(\d\d\d)/)) {
-		// Tsg99888z :: 99 = canto, 888 = ottava
-		var canto = GetRomanNumeral(matches[1]);
-		var ottava = matches[2].replace(/^0*/, "");
-		output += "&nbsp;&nbsp;(<i>Gerusalemme</i> ";
-		output += canto + "/" + ottava;
-		output += ")</h2>";
-
-	} else if (matches = id.match(/Tec(\d)(\d\d\d)/)) {
-		// Tec9888z :: 9 = ecloghe, 888 = verse
-		var ecloghe = GetRomanNumeral(matches[1]);
-		var verse = matches[2].replace(/^0*/, "");
-		output += "&nbsp;&nbsp;(<i>Ecloghe</i> ";
-		output += ecloghe + "/" + verse;
-		output += ")</h2>";
-
-	} else if (matches = id.match(/Tbv(\d\d\d\d)/)) {
-		// Tec9999z :: 9999 = stanza
-		var stanza = matches[1].replace(/^0*/, "");
-		output += "&nbsp;&nbsp;(<i>Lagrime</i> ";
-		output += " stanza " + stanza;
-		output += ")</h2>";
-
-	} else if (matches = id.match(/Tri(\d)(\d\d\d)/)) {
-		// Tri9888z :: 9 = canto, 888 = ottava
-		var canto = GetRomanNumeral(matches[1]);
-		var ottava = matches[2].replace(/^0*/, "");
-		output += "&nbsp;&nbsp;(<i>Rinaldo</i> ";
-		output += canto + "/" + ottava;
-		output += ")</h2>";
-
-	} else if (matches = id.match(/Tam(\d)(\d\d)(\d\d\d\d)/)) {
-		// Tam9887777z :: 9 = Act, 88 = scene, 7777 = verse
-		var act = GetRomanNumeral(matches[1]);
-		var scene = matches[2].replace(/^0*/, "");
-		var verse = matches[3].replace(/^0*/, "");
-		output += "&nbsp;&nbsp;(<i>Aminta</i> ";
-		output += act + "/" + scene + "/" + verse;
-		output += ")</h2>";
-
-	} else if (matches = id.match(/Trt(\d\d)(\d\d)/)) {
-		// Trt9988z :: 99 = Act, 88 = scene
-		var act = GetRomanNumeral(matches[1].replace(/^0*/, ""));
-		var scene = matches[2].replace(/^0*/, "");
-		output += "&nbsp;&nbsp;(<i>Re Torrismondo</i> ";
-		output += act + "/" + scene;
-		output += ")</h2>";
-
-	} else {
-		output = "ERROR";
-	}
-	return output;
-
-}
-
-
-
-//////////////////////////////
-//
-// buildSetList --
-//
-
-function buildSetList(entry) {
-console.log("GOT HERE AAA", entry);
-	var id = entry.CATALOGNUM;
-console.log("ID=", id);
-	var cleanid = id.replace(/[a-z]$/, "");
-	if (!cleanid) {
+	var ventry = GetRimeVerseEntry(id);
+   if (!ventry) {
+      console.log("Error accessing id:", id);
 		return;
 	}
-console.log("cleanid", cleanid);
-	var WORKS = [];
-	var WLIST = ALLSETTINGLIST;
-	for (var i=0; i<WLIST.length; i++) {
-		if (WLIST[i].CATALOGNUM.match(cleanid)) {
-			WORKS.push(WLIST[i]);
-		}
-	}
-	WORKS.sort(function (a, b) {
-		if (a.CATALOGNUM < b.CATALOGNUM) {
-			return -1;
-		} else if (a.CATALOGNUM > b.CATALOGNUM) {
-			return +1;
-		}
-		return 0;
-	});
-	entry.WORKS = WORKS;
+	var poemtable = getPoemTable(ventry);
+	output += "<div id=inner-contents>";
+	output += poemtable;
+	output += "</div>\n";
+	output += "</div>\n";
+	return output;
 }
 
 
@@ -592,20 +527,125 @@ console.log("cleanid", cleanid);
 // getMusicalSettingTable --
 //
 
-function getMusicalSettingTable(entry) {
-console.log("GMS ENTRY", entry);
+function getPoemTable(entry) {
 	if (!entry) {
 		return ""
 	}
-	if (!entry.WORKS) {
-		buildSetList(entry);
+	var output = "";
+   var verses = entry.VERSES.VERSE;
+	output += "<table class='poem'>";
+	if (typeof verses === "string") {
+		output += getVerseLineRows(verses);
+	} else {
+		for (var i=0; i<verses.length; i++) {
+			output += getVerseLineRows(verses[i]);
+		}
 	}
-	var tsource = document.querySelector("#settings-template")
-	                      .textContent;
-	var settingTemplate = Handlebars.compile(tsource);
-console.log("WORKS", entry.WORKS);
-	var output = settingTemplate(entry);
 	return output;
 }
 
+
+
+//////////////////////////////
+//
+// getVerseLineRows -- Split a verse into separate table rows.
+//
+
+function getVerseLineRows(verse) {
+	if (!verse) {
+		return "";
+	}
+   var lines = verse.match(/[^\r\n]+/g);
+	var output = "";
+	for (var i=0; i<lines.length; i++) {
+		if (i == 0) {
+			output += "<tr><td class='first-line'>";
+		} else {
+			output += "<tr><td>";
+		}
+		var text = lines[i];
+		text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+		text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+		output += text;
+		output += "</td></tr>";
+   }
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getDescription --
+//
+
+function getDescription(item, tag, data) {
+	if (item === "none") {
+		return "";
+	}
+	var index = -1;
+	for (var i=0; i<data.length; i++) {
+      if (data[i][tag] == item) {
+ 			index = i;
+			break;
+		}
+   }
+	if (index < 0) {
+		return "<span style='color:red'>NO DESCRIPTION</span>";
+	}
+
+   var output = "";
+	var di = data[index];
+	if (di.PRINTTITLE) {
+		output += di.PRINTTITLE;
+	} else if (di.DESCRIPTION) {
+		output += di.DESCRIPTION;
+	}
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// setNextPreviousPoem --
+//
+
+function setNextPreviousPoem(rime) {
+   Poem = rime;
+   NextPoem = rime;
+   PreviousPoem = rime;
+
+	var index = -1;
+	var list = RIMELIST.RIME;
+	for (var i=0; i<list.length; i++) {
+		if (rime == list[i].SOLERTI) {
+			index = i;
+         break;
+		}
+	}
+
+	if (index < 0) {
+      return;
+   }
+
+	if (index < list.length - 1) {
+      NextPoem = list[index+1].SOLERTI;
+	} else {
+      NextPoem = list[0].SOLERTI;
+	}
+
+	if (index > 0) {
+      PreviousPoem = list[index-1].SOLERTI;
+	} else {
+      PreviousPoem = list[list.length-1].SOLERTI;
+	}
+}
+
+
 </script>
+
+

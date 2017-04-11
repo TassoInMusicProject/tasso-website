@@ -18,6 +18,8 @@
 		<th onclick="sortByNumber(2)" style="cursor:pointer; text-align:left">Date</th>
 		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left">Title</th>
 		<th onclick="sortByText(4)" style="cursor:pointer; text-align:left">Voices</th>
+		<th onclick="sortByText(5)" style="cursor:pointer; padding-left:10px; padding-right:10px; text-align:left">Key</th>
+		<th onclick="sortByText(6)" style="cursor:pointer; text-align:left">Mens.</th>
 		<th style="cursor:pointer; text-align:left"></th>
 		<th></th>
 	<thead>
@@ -26,11 +28,13 @@
 
 	{{#works}}
 	<tr class="data">
-		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; color:#96835c; padding-right:20px;" >{{id}}</td>
+		<td class="id" id="{{id}}" onclick="displaySingleWork('{{id}}');" style="cursor:pointer; color:#96835c; padding-right:20px;" >{{id}}</td>
 		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;"> <nobr>{{{shortComposer2 comlong}}}</nobr></td>
 		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{{workdate}}}</td>
 		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{formatTitle title}}}</td>
 		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{voices}}}</td>
+		<td class="keysig"     style="text-align:center"></td>
+		<td class="time"       style="text-align:center"></td>
 		<td>
 			<span id="audio_{{id}}" style="cursor:hand; cursor:pointer;"
 			onclick="PlayAudioFile('{{id}}', this);"

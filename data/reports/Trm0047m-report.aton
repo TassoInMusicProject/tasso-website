@@ -1,0 +1,74 @@
+@@BEGIN: CRITICAL_REPORT
+
+@CATALOGNUM: Trm0047m
+
+@PRINCIPAL_SOURCE:
+	<i>Fiori musicali di diversi auttori a tre voci.
+	Libro secondo. Nuovamente composti, & dati in luce</i>.
+	Venice: Giacomo Vincenzi, 1588 (RISM B/I, 1588-20)
+	<br>
+	[Princeps edition --- complete: CTB]
+	<br>
+	Digital reproduction of exemplar from {{siglum "A-Wn"}}
+
+@OTHER_SOURCE:
+	<i>Fiori musicali di diversi auttori a tre voci. Libro secondo.
+	Nuovamente ristampati</i>. Venice: Giacomo Vincenti, 1598 (RISM B/I, 1598-10)
+	<br>
+	[Reprint of RISM B/I, 1588-20 --- complete: CTB]
+
+@OTHER_SOURCE: Microfilm reproduction of exemplar from {{siglum "I-Bc"}}
+
+@OTHER_SOURCE: <i>Fiori musicali a tre voci de diversi eccellentissimi auttori.
+	Di nuovo stampati & seguendo l’ordine de suoi Tuoni posti in luce</i>.
+	Antwerp: Pietro Phalesio, 1604 (RISM B/I, 1604-13)
+	<br>
+	[Pierre Phalèse’s reprint of the first and second books of the anthology
+	<i>Fiori musicali</i> --- complete: CTB]
+
+@OTHER_SOURCE: CB – Microfilm reproduction of exemplar from {{siglum "B-Br"}}
+
+@OTHER_SOURCE: T – Digital reproduction of exemplar from {{siglum "DK-Kk"}}
+
+@EMENDED_READING: None
+
+@CRITICAL_NOTE: {{MM 14}} and {{MMx 18}}, T, text reads “forza o d’arte”
+	and “forza od arre,” respectively.
+
+@CRITICAL_NOTE: In corresponding sections from reprint RISM B/I,
+	1598-10, text reads “forza d’arte” consistently across the three
+	part-books. The variant “forza o d’arte” occurs again in T from
+	reprint RISM B/I, 1604-13.
+
+@COMMENTARY:
+
+	This three-voice piece by Roman composer Giovannelli appeared
+	in the second book of the anthology <i>Fiori musicali</i>,
+	assembled by Giacomo Vincenzi and dedicated to Francesco
+	Sugana of Treviso.
+
+	Like the first book of the anthology, it primarily features
+	works by Roman and Venetian composers, many based on texts
+	by Tasso.
+
+	Giovannelli’s three-voice setting of “Non è questa la mano”
+	is striking not only for its liveliness --- note the
+	hectic repetition of rhythmic-melodic motives in {{mm 30 33}}
+	--- but also for its ingenuous word painting.
+
+	In particular, Giovannelli gives a musical representation
+	of the poem’s subject, the female hand, by referencing the
+	Guidonian hand at the beginning and at the end of the setting
+	--- note the <i>hexachordum durum</i> G-E in {{mm 1 2}}
+	and {{mmx 5 6}} in C and B, respectively, and the <i>hexachordum
+	naturale</i> C-A in {{mm 2 4}} (ascending) and {{mm 30 31}}
+	(descending) in the T and B, respectively.
+
+	Giovannelli may have borrowed this idea from Marenzio, whose
+	1581 setting of the same poem also features hexachords (see
+	{{work "Trm0047b"}}).
+
+
+@@END: CRITICAL_REPORT
+
+

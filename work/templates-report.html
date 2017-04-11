@@ -1,3 +1,31 @@
+<!--
+  vim: ts=3 ft=javascript
+  -->
+
+{% raw %}
+<script id="criticalreport-template" type="text/x-handlebars-template">
+
+<h3>MUSICAL SOURCES</h3>
+
+<div style="width:800px" class='indent'>
+	{{ principalSources PRINCIPAL_SOURCE }}
+	{{ otherSources OTHER_SOURCE }}
+</div>
+
+<h3>CRITICAL REPORT</h3>
+<div style="width:800px" class='indent'>
+	{{ principalClefs CATALOGNUM }}
+	{{ principalMensuration CATALOGNUM }}
+	{{ principalEmended  EMENDED_READING }}
+	{{ criticalNotes CRITICAL_NOTE }}
+</div>
+
+{{ criticalCommentary COMMENTARY }}
+
+</script>
+{% endraw %}
+
+
 
 <script>
 // Templates for critical report content
@@ -43,6 +71,35 @@ Handlebars.registerHelper("m.X",  createMeasureRange);
 Handlebars.registerHelper("MM.x", createMeasureRange);
 Handlebars.registerHelper("Mmx.", createMeasureRange);
 Handlebars.registerHelper("M.x",  createMeasureRange);
+
+
+//////////////////////////////
+//
+// { siglum "siglum" }
+//
+
+Handlebars.registerHelper("siglum",  function (siglum) {
+	var output = "";
+	if (!siglum) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	if (typeof siglum === "string") {
+		if (!SIGLALIST[siglum].INSTITUTE) {
+			output += "<span style='color:red'>MISSING LIBRARY NAME</span>";
+		} else{
+			output += SIGLALIST[siglum].INSTITUTE;
+		}
+		output += " (";
+		output += siglum;
+		output += ")";
+	} else {
+		output += "ERROR (" + siglum + ")";
+	}
+
+	return new Handlebars.SafeString(output);
+});
+
 
 
 
@@ -133,6 +190,224 @@ function createWorkPageLink() {
 }
 
 
+
+//////////////////////////////
+//
+// { principalSources PRINCIPAL_SOURCE }
+//
+
+Handlebars.registerHelper("principalSources",  function (psources) {
+	var output = "";
+	if (!psources) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof psources === "string") {
+		output += "<h3>Principal Source</h3>";
+		template = Handlebars.compile(psources);
+		output += template();
+	} else if (psources.length >= 1)  {
+		output += "<h3>Principal Sources</h3>";
+		for (var i=0; i<psources.length; i++) {
+			template = Handlebars.compile(psources[i]);
+			output += template();
+			if (i < psources.length - 1) {
+				output += "<p>";
+			}
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// { otherSources OTHER_SOURCE }
+//
+
+Handlebars.registerHelper("otherSources",  function(sources) {
+	var output = "";
+	if (!sources) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof sources === "string") {
+		output += "<h3>Other Source Consulted</h3>";
+		output += sources;
+		template = Handlebars.compile(sources);
+		output += template();
+	} else if (sources.length >= 1)  {
+		output += "<h3>Other Sources Consulted</h3>";
+		for (var i=0; i<sources.length; i++) {
+			template = Handlebars.compile(sources[i]);
+			output += template();
+			if (i < sources.length - 1) {
+				output += "<p>";
+			}
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// { pricipalMensuration }
+//
+
+Handlebars.registerHelper("principalMensuration", function(id) {
+	var output = "<h3>Mensuration Sign in Principal Source</h3>";
+	var setting = GetSettingEntry(id);
+	if (!setting) {
+		return new Handlebars.SafeString("NO SETTING FOR " + id);
+	}
+	var mensuration = setting.OMENSURATION;
+	if (!mensuration) {
+		return new Handlebars.SafeString("NO MENSURATION FOR " + id);
+	}
+
+	mensuration = mensuration.replace(/^\s+/, "").replace(/\s+$/, "");
+
+	// C or Cut-C: convert to c and  c|
+	if (mensuration === "C") {
+		output += "c";
+	} else if (mensuration === "Cut-C") {
+		output += "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+	} else {
+		output += mensuration;
+	}
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// { principalEmended EMENDED_READING }
+//
+
+Handlebars.registerHelper("principalEmended",  function (emendations) {
+	var output = "";
+	if (!emendations) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof emendations === "string") {
+		output += "<h3>Emended Reading of Principal Source</h3>";
+		template = Handlebars.compile(emendations);
+		output += template();
+	} else if (emendations.length >= 1)  {
+		output += "<h3>Emended Readings of Principal Source</h3>";
+		for (var i=0; i<emendations.length; i++) {
+			output += emendations[i];
+			template = Handlebars.compile(emendations[i]);
+			output += template();
+			if (i < emendations.length - 1) {
+				output += "<p>";
+			}
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// { criticalNotes CRITICAL_NOTE }
+//
+
+Handlebars.registerHelper("criticalNotes", function(notes) {
+	var output = "";
+	if (!notes) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof notes === "string") {
+		output += "<h3>Other Critical Notes</h3>";
+		template = Handlebars.compile(notes);
+		output += template();
+	} else if (notes.length >= 1)  {
+		output += "<h3>Other Critical Notes</h3>";
+		for (var i=0; i<notes.length; i++) {
+			template = Handlebars.compile(notes[i]);
+			output += template();
+			if (i < notes.length - 1) {
+				output += "<p>";
+			}
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// { criticalCommentary COMMENTARY }
+//
+
+Handlebars.registerHelper("criticalCommentary",  function (commentary) {
+	var output = "";
+	if (!commentary) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof commentary === "string") {
+		output += "<h3>COMMENTARY</h3>";
+		output += "<div class='indent'>";
+		template = Handlebars.compile(commentary);
+		output += template();
+	} else if (commentary.length >= 1)  {
+		output += "<h3>COMMENTARY</h3>";
+		output += "<div class='indent'>";
+		for (var i=0; i<commentary.length; i++) {
+			template = Handlebars.compile(commentary[i]);
+			output += template();
+			if (i < commentary.length - 1) {
+				output += "<p>";
+			}
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+
+//////////////////////////////
+//
+// { pricipalClefs }
+//
+
+Handlebars.registerHelper("principalClefs", function(id) {
+	var output = "<h3>Clefs in Principal Source</h3>";
+	var setting = GetSettingEntry(id);
+	if (!setting) {
+		return new Handlebars.SafeString("NO SETTING FOR " + id);
+	}
+	var clefs = setting.OCLEFS.replace(/^\s+/, "").replace(/\s+$/, "").split(/\)/);
+	if (!clefs) {
+		return new Handlebars.SafeString("NO CLEFS FOR " + id);
+	}
+
+	for (var i=0; i<clefs.length; i++) {
+		output += clefs[i];
+		if (i < clefs.length - 1) {
+			output += ")<br>";
+		}
+	}
+
+	return new Handlebars.SafeString(output);
+});
 
 
 </script>

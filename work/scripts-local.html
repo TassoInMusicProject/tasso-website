@@ -19,6 +19,7 @@
 //
 
 var REPORT = {};
+var SIGLALIST = {};
 
 var vrvToolkit;
 
@@ -42,7 +43,7 @@ var PART_FILTER = 0;
 
 //////////////////////////////
 //
-// setupVariables -- Used with CGI parameter k to set default style for 
+// setupVariables -- Used with CGI parameter k to set default style for
 //   notation on page.
 //
 
@@ -119,6 +120,7 @@ function loadWorkList(url) {
 	if (!url) {
 		url = "{{site.worklist}}";
 	}
+	var targetcount = 3;
 	var counter = 0;
 
 	if (sessionStorage.RIMESETTINGLIST) {
@@ -132,6 +134,11 @@ function loadWorkList(url) {
 		counter++;
 	}
 
+	if (sessionStorage.SIGLALIST) {
+		SIGLALIST = JSON.parse(sessionStorage.SIGLALIST);
+		counter++;
+	}
+
 	if (!sessionStorage.RIMESETTINGLIST) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.rime_settings}}");
@@ -140,7 +147,7 @@ function loadWorkList(url) {
 			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
 			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
 			counter++;
-			if (counter == 2) {
+			if (counter == targetcount) {
 				continueSetup();
 				counter++;
 			}
@@ -156,7 +163,7 @@ function loadWorkList(url) {
 			buildNextPreviousLists();
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
-			if (counter == 2) {
+			if (counter == targetcount) {
 				continueSetup();
 				counter++;
 			}
@@ -164,7 +171,27 @@ function loadWorkList(url) {
 		request.send();
 	}
 
-	if (counter == 2) {
+	if (!sessionStorage.SIGLALIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.sigla_list}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			var templist = aton.parse(this.responseText).SIGLUM;
+			SIGLALST = {};
+			for (var i=0; i<templist.length; i++) {
+				SIGLALIST[templist[i].SIGLUM] = templist[i];
+			}
+			sessionStorage.SIGLALIST = JSON.stringify(SIGLALIST);
+			counter++;
+			if (counter == targetcount) {
+				continueSetup();
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == targetcount) {
 		continueSetup();
 		counter++;
 	}
@@ -261,33 +288,38 @@ function getCriticalNotes(id) {
 	var element = document.querySelector("#" + tag);
 	var output = "";
 
-	if (REPORT[id]) {
-		if (element) {
-			output += REPORT[id];
-			element.innerHTML = addCatalogLinks(output);
-		}
-	} else {
-		var url = "{{site.critical_reports}}/" + id + "-report.html";
+//	if (REPORT[id]) {
+//		if (element) {
+//			output += REPORT[id];
+//			element.innerHTML = addCatalogLinks(output);
+//		}
+//	} else {
+		var url = "{{site.critical_reports}}/" + id + "-report.aton";
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			if (this.status == 200) {
-				var data = this.responseText;
-				var template = Handlebars.compile(data);
-				data = template(data);
-				REPORT[id] = data;
+				var aton = new ATON;
+				var raw = this.responseText
+						.replace(/---/g, "&mdash;")
+						.replace(/--/g, "&ndash;");
+				var data = aton.parse(raw).CRITICAL_REPORT;
+				var tsource = document.querySelector("#criticalreport-template").textContent;
+				var template = Handlebars.compile(tsource);
+				var result = template(data);
+				REPORT[id] = result;
 				if (element) {
 					// element.innerHTML = addCatalogLinks(data);
 					// catalog links now done differently:
-					element.innerHTML = data;
+					element.innerHTML = result;
 				}
 			}
 		});
 		request.send()
-	}
+//	}
 
-	getCriticalReportNoRecurse(ORDER[id].next);
-	getCriticalReportNoRecurse(ORDER[id].previous);
+//	getCriticalReportNoRecurse(ORDER[id].next);
+//	getCriticalReportNoRecurse(ORDER[id].previous);
 }
 
 
@@ -319,7 +351,7 @@ function getCriticalReportNoRecurse(id) {
 		return;
 	}
 
-	var url = "/include/report/" + id + "-report.html";
+	var url = "/include/report/" + id + "-report.aton";
 	var request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {

@@ -65,6 +65,8 @@ critical_reports: "/data/reports"
 literary_prints: "/data/indexes/literary-prints.aton"
 literary_manuscripts: "/data/indexes/literary-manuscripts.aton"
 
+sigla_list: "/data/support/sigla.aton"
+
 
 ### CSS variables ##########################################
 

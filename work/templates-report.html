@@ -88,7 +88,16 @@ Handlebars.registerHelper("siglum",  function (siglum) {
 		if (!SIGLALIST[siglum].INSTITUTE) {
 			output += "<span style='color:red'>MISSING LIBRARY NAME</span>";
 		} else{
-			output += SIGLALIST[siglum].INSTITUTE;
+			if (SIGLALIST[siglum].URL) {
+				output += "<a target='_blank' ";
+				output += "href='";
+				output += SIGLALIST[siglum].URL;
+				output += "'>";
+				output += SIGLALIST[siglum].INSTITUTE;
+				output += "</a>";
+			} else {
+				output += SIGLALIST[siglum].INSTITUTE;
+			}
 		}
 		output += " (";
 		output += siglum;
@@ -272,14 +281,16 @@ Handlebars.registerHelper("principalMensuration", function(id) {
 
 	mensuration = mensuration.replace(/^\s+/, "").replace(/\s+$/, "");
 
+	output += "<span style='display:inline-block; margin-top:-10px; font-size:200%'>";
 	// C or Cut-C: convert to c and  c|
 	if (mensuration === "C") {
 		output += "c";
 	} else if (mensuration === "Cut-C") {
-		output += "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+		output += "c<span style='position:relative; top:1px; margin-left:-0.30em'>|</span>";
 	} else {
 		output += mensuration;
 	}
+	output += "</span>";
 
 	return new Handlebars.SafeString(output);
 });

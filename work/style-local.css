@@ -40,7 +40,8 @@ table.worklist {
 }
 
 .variant {
-	float: right;
+/*	float: right; */
+	margin-left: 20px;
 }
 
 .indent {

@@ -271,10 +271,31 @@ function displaySingleWork(id, target) {
 	var output = singleTemplate(setting);
 	element.innerHTML = output;
 	CURRENT_PAGE = 1;
-
+	displayIncipit(id);
 	getHumdrum(id);
 	getRange(id);
 	getCriticalNotes(id);
+}
+
+
+
+///////////////////////////////
+//
+// displayIncipit -- Display incipit as a place holder before the verovio toolkit generates 
+//     its own display.
+//
+
+function displayIncipit(id) {
+	if (!localStorage["svg_" + id]) {
+		return;
+	}
+
+	var element = document.querySelector("#verovio-display");
+	if (!element) {
+		return;
+	}
+
+	element.innerHTML = localStorage["svg_" + id];
 }
 
 
@@ -386,6 +407,8 @@ function initializeVerovioNotation(sourceid, targetid) {
 		return;
 	}
 
+	target.style.marginTop = "20px";
+
 	var source = document.querySelector("#" + sourceid);
 	if (!source) {
 		console.log("Cannot find source id:", sourceid);
@@ -443,7 +466,7 @@ function initializeVerovioNotation(sourceid, targetid) {
 	if (ORIGINAL_CLEFS) {
 		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'original-clef')]";
 	} else {
-		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'asiuahetlkj')]";
+		vrvOptions.appXPathQuery = "";
 	}
 
 	vrvToolkit.setOptions(vrvOptions);

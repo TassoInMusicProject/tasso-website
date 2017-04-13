@@ -412,7 +412,6 @@ function displayMultipleWorks() {
 //
 
 function displaySinglePoem(id) {
-console.log("DISPLAYSINGLEPOEM: ", id);
 	var output = "";
 //	output += "<div style='font-size:100%; margin-left:50px'>";
 //	output += "<center>";
@@ -422,7 +421,6 @@ console.log("DISPLAYSINGLEPOEM: ", id);
 	var cleanid    = id.replace(/[a-z]$/, "");
 	var previousid = PoemList[cleanid].previous;
 	var nextid     = PoemList[cleanid].next;
-console.log("ID=",cleanid, "NEXT", nextid, "PREV", previousid);
 
 	output += "<center><table style=' width=100%;";
 	output += "padding-top:-50px; padding-left:0px; padding-right:0px; width:100%'><tr>";
@@ -593,7 +591,6 @@ console.log("cleanid", cleanid);
 //
 
 function getMusicalSettingTable(entry) {
-console.log("GMS ENTRY", entry);
 	if (!entry) {
 		return ""
 	}
@@ -603,7 +600,6 @@ console.log("GMS ENTRY", entry);
 	var tsource = document.querySelector("#settings-template")
 	                      .textContent;
 	var settingTemplate = Handlebars.compile(tsource);
-console.log("WORKS", entry.WORKS);
 	var output = settingTemplate(entry);
 	return output;
 }

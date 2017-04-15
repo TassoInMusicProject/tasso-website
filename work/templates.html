@@ -76,20 +76,44 @@
 		</table>
 	</center>
 
-	<table width="50%" style="opacity:0.5; padding-left: 0; padding-bottom: 6px; margin-left:50%; background-color:#c2ab6c; margin-bottom:-40px;">
+	<table 
+		style="border-radius: 5px 20px 20px 5px; width:97%; opacity:0.5; padding-top: 0; padding-right:5px; padding-left: 0; padding-bottom: 3px; margin-left:1em; margin-right:5em; background-color:#c2ab6c; margin-bottom:-40px;">
 	<tr style="padding:0">
-	<td style="width:10px;padding:0;margin:0;">
-	<div id="audio_{{CATALOGNUM}}" title="play" style="padding-bottom: 1px; cursor:hand; cursor:pointer;" onclick="PlayAudioFile('{{CATALOGNUM}}', this);" href="" class="play">play</div>
+
+	<td style="width:10px;padding:0;margin:0; margin-left:5px !important;">
+		<div id="audio_{{CATALOGNUM}}" title="play" 
+				style="margin-left:-10px; padding-bottom: 1px; cursor:hand; cursor:pointer;" 
+				onclick="PlayAudioFile('{{CATALOGNUM}}', this);" 
+				href="" class="play">
+			play
+		</div>
 	</td>
-	<td width="45%">
-	<div id="prevsys" style="margin-left:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">previous system</div>
-	</td>
+
 	<td>
-	<div id="expand" style="text-align: center; cursor:pointer; font-style:italic" onclick="expandIncipit()">expand</div>
+		<div style="padding-top:3px;" id="voice-buttons">
+		</div>
 	</td>
-	<td width="35%" style="text-align:right">
-	<div id="nextsys" style="margin-right:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">next system</div>
-	</td></tr></table>
+
+	<td width="45%">
+		<div id="prevsys" style="margin-left:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">
+			previous system
+		</div>
+	</td>
+
+	<td>
+		<div id="expand" style="text-align: center; cursor:pointer; font-style:italic" onclick="expandIncipit()">
+			expand
+		</div>
+	</td>
+
+	<td width="35%" style="text-align:right;">
+		<div id="nextsys" style="margin-right:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">
+			next system
+		</div>
+	</td>
+
+	</tr>
+	</table>
 
 	<div style="margin-top:-10px; width:1000px; height:350px;" id="verovio-display"></div>
 

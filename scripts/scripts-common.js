@@ -1035,6 +1035,22 @@ function GetTitleName(id) {
 
 
 
+//////////////////////////////
+//
+// ExternalLinksToNewTab -- Make all external links on a page be displayed
+//    in a new tab/window.
+//
+
+function ExternalLinksToNewTab() {
+	var links = document.querySelectorAll("a");
+	var i;
+	for (i=0; i<links.length; i++) {
+		var text = links[i].getAttribute("href");
+		if (text.match("//")) {
+			links[i].target = "_blank";
+		}
+	}
+}
 
 
 

@@ -33,91 +33,16 @@ window.addEventListener('keydown',
 
 		switch (event.keyCode) {
 
-			case ZeroKey:
-				PART_FILTER = 0;
-				initializeVerovioNotation();
-				break;
-
-			case OneKey:
-				if (PART_FILTER == 1) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 1;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case TwoKey:
-				if (PART_FILTER == 2) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 2;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case ThreeKey:
-				if (PART_FILTER == 3) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 3;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case FourKey:
-				if (PART_FILTER == 4) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 4;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case FiveKey:
-				if (PART_FILTER == 5) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 5;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case SixKey:
-				if (PART_FILTER == 6) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 6;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case SevenKey:
-				if (PART_FILTER == 7) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 7;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case EightKey:
-				if (PART_FILTER == 8) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 8;
-				}
-				initializeVerovioNotation();
-				break;
-
-			case NineKey:
-				if (PART_FILTER == 9) {
-					PART_FILTER = 0;
-				} else {
-					PART_FILTER = 9;
-				}
-				initializeVerovioNotation();
-				break;
+			case ZeroKey:  showPart(0); break;
+			case OneKey:   showPart(1); break;
+			case TwoKey:   showPart(2); break;
+			case ThreeKey: showPart(3); break;
+			case FourKey:  showPart(4); break;
+			case FiveKey:  showPart(5); break;
+			case SixKey:   showPart(6); break;
+			case SevenKey: showPart(7); break;
+			case EightKey: showPart(8); break;
+			case NineKey:  showPart(9); break;
 
 			case EKey:
 				if (event.altKey) {

@@ -291,27 +291,29 @@ function displayPartNumbers(id) {
 	}
 	var vcount = 0;
 	var works = WORKLIST[0].works;
+	var vabbr;
 	var i;
 	for (i=0; i<works.length; i++) {
 		if (works[i].id === id) {
-			vcount = parseInt(works[i].vnotecount.length);
+			vabbr = works[i].vabbr;
+			vcount = vabbr.length;
 		}
 	}
-	if (!vcount) {
+	if (!vabbr) {
 		return;
 	}
 	var output = ""
-	var numlist = [
-		"&#x2780;",
-		"&#x2781;",
-		"&#x2782;",
-		"&#x2783;",
-		"&#x2784;",
-		"&#x2785;",
-		"&#x2786;",
-		"&#x2787;",
-		"&#x2788;"
-	];
+	//var numlist = [
+	//	"&#x2780;",
+	//	"&#x2781;",
+	//	"&#x2782;",
+	//	"&#x2783;",
+	//	"&#x2784;",
+	//	"&#x2785;",
+	//	"&#x2786;",
+	//	"&#x2787;",
+	//	"&#x2788;"
+	//];
 	output += "<div style='font-size:1.5em;'>";
 	output += "<nobr>";
 	for (i=0; i<vcount; i++) {
@@ -319,7 +321,7 @@ function displayPartNumbers(id) {
 		output += "title='show only part " + (i+1) + "' id='part" + (i+1);
 		output += "' class='voice-icon'"
 		output += " onclick='showPart(\"" + (i+1) + "\");'";
-		output += ">" +  numlist[i] + "</span> ";
+		output += ">" +  vabbr[i] + "</span> ";
 	}
 	output += "</nobr>";
 	output += "</div>";
@@ -327,6 +329,7 @@ function displayPartNumbers(id) {
 	element.innerHTML = output;
 
 }
+
 
 
 ///////////////////////////////
@@ -343,7 +346,6 @@ function showPart(partnum) {
 		PART_FILTER = partnum;
 	}
 
-	highlightPartIcon(partnum);
 
 	initializeVerovioNotation();
 }
@@ -509,6 +511,8 @@ function initializeVerovioNotation(sourceid, targetid) {
 	if (!sourceid) {
 		sourceid = "humdrum-data";
 	}
+
+	highlightPartIcon(PART_FILTER);
 
 	var target = document.querySelector("#" + targetid);
 	if (!target) {

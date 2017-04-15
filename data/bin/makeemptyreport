@@ -1,0 +1,97 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $line;
+while ($line = <>) {
+	chomp $line;
+	next if $line =~ /^\@\@BEGIN:\s*OTHER/;
+	next if $line =~ /^\@\@END:\s*OTHER/;
+	if ($line =~ /^\@\@BEGIN:\s*(.*)\s*$/) {
+		processEntry($1);
+	}
+}
+
+
+sub processEntry {
+	my ($tag) = @_;
+	my $line;
+	my %params;
+	while (($line = <>) && ($line !~ /^\@\@END:\s*$tag\s*$/)) {
+		if ($line =~ /^\@([^:\s]+)\s*:\s*(.*)\s*$/) {
+			$params{$1} = $2;
+		}
+	}
+	my $id = $params{"CATALOGNUM"};
+	# print "ID = $id\n";
+	my $filename = "$id-report.aton";
+	if (-r $filename) {
+		# don't erase report that already exists.
+		return;
+	}
+
+	createNewReport(%params);
+}
+
+
+##############################
+##
+## createNewReport --
+##
+
+sub createNewReport {
+	my %params = @_;
+	my $id = $params{"CATALOGNUM"};
+	my $filename = "$id-report.aton";
+	if (-r $filename) {
+		# don't erase report that already exists.
+		return;
+	}
+	open (REPORT, ">$filename") or die "Cannot open $filename\n";
+
+	my $ptitle = $params{"PRINCEPSTITLE"};
+	my $normloc = $params{"NORMLOC"};
+	my $ppub = $params{"PRINCEPSPUB"};
+	my $pyear = $params{"PRINCEPSYEAR"};
+	my $rism = $params{"PRINCEPSRISM"};
+	$rism =~ s/RISM/ /gi;
+	$rism =~ s/\s*;.*//;
+	if ($rism =~ /^([A-Z])\s*(0+)(\d+.*)/) {
+		$rism = "$1 $3";
+	}
+	if ($rism =~ /^([A-Z])(\d+.*)/) {
+		$rism = "$1 $2";
+	}
+	if ($rism =~ /-/) {
+		$rism = "(RISM B/I, $rism)";
+	} else {
+		$rism = "(RISM A/I, $rism)";
+	}
+
+
+print REPORT <<"EOT";
+\@\@BEGIN: CRITICAL_REPORT
+
+\@CATALOGNUM: $id
+
+\@PRINCIPAL_SOURCE: <i>$ptitle</i>. $normloc: $ppub, $pyear $rism
+
+\@OTHER_SOURCE:
+
+\@EMENDED_READING:
+
+\@CRITICAL_NOTE:
+
+\@COMMENTARY:
+
+\@\@END: CRITICAL_REPORT
+
+EOT
+
+	close REPORT;
+
+}
+
+
+

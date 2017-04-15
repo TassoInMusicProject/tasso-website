@@ -199,15 +199,57 @@ function generateNotation(svgloc, humdrum) {
 		vrvOptions.pageHeight = 230 * kcount + 80 * tcount;
 	}
 
-	var svg = vrvToolkit.renderData(content, vrvOptions);
+	var timeA = new Date().getTime() / 1000.0;
+	console.log("TIME TO LAST INCIPIT GENERATION", timeA - LASTTIME);
+	LASTTIME = timeA;
+	var svg = vrvToolkit.renderData(shortenHumdrum(content, 10), vrvOptions);
+	var timeB = new Date().getTime() / 1000.0;
+	console.log("PROCESSING TIME:", timeB - timeA);
 	svgloc.innerHTML = svg;
 	svgloc.style.marginTop = "-50px";
 	var id = svgloc.id.match(/^(.*)?-/)[1];
 	var stag = "svg_" + id;
 	localStorage[stag] = svg;
 }
+LASTTIME = 0;
 
 
+
+//////////////////////////////
+//
+// shortenHumdrum --
+//
+
+function shortenHumdrum(humdrum, measures) {
+	var stopex = new RegExp("^=" + measures);
+
+	var lines = humdrum.split(/\n/mg);
+	var output = "";
+	for (var i=0; i<lines.length; i++) {
+		if (lines[i].match(/\*^/)) {
+			// can't handle spine splits, so return original file:
+			return humdrum;
+		}
+
+		if (lines[i].match(stopex)) {
+			// this is the last line to include, so terminate the
+			// content at this point.
+			output += lines[i] + "\n";
+			var spines = lines[i].split(/\t/);
+			var lastline = "";
+			for (var j=0; j<spines.length; j++) {
+				lastline += "*-";
+				if (j < spines.length - 1) {
+					lastline += "\t";
+				}
+			}
+			output += lastline + "\n";
+			return output;
+		}
+		output += lines[i] + "\n";
+	}
+	return output;
+}
 
 
 

@@ -103,9 +103,9 @@ Handlebars.registerHelper("siglum",  function (siglum) {
 				output += SIGLALIST[siglum].INSTITUTE;
 			}
 		}
-		output += " (";
+		output += " <nobr>(";
 		output += siglum;
-		output += ")";
+		output += ")</nobr>";
 	} else {
 		output += "ERROR (" + siglum + ")";
 	}

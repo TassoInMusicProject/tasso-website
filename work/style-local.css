@@ -106,6 +106,18 @@ nobr[class^='mm'] {
 
 }
 
-
+.ebutton {
+	float:right;
+	margin-top: -50px;
+	background-color: {{site.button_color}};
+	color: {{site.button_text_color}};
+	padding-left: 7px;
+	padding-bottom: 2px;
+	padding-right: 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: {{site.button_font}};
+	z-index: -100;
+}
 
 

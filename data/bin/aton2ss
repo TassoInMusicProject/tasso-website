@@ -1,0 +1,75 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my @contents = <>;
+chomp @contents;
+
+my %headings;
+my %begins;
+
+for (my $i=0; $i<@contents; $i++) {
+	my $line = $contents[$i];
+	if ($line =~ /^\@([^:@]+):/) {
+		$headings{$1} = 1;
+	} elsif ($line =~ /^\@\@BEGIN:\s*(.*)\s*$/) {
+		$begins{$1}++;
+	}
+}
+
+my @xkeys = keys %begins;
+my $objecttype = $xkeys[0];
+my $maxval = $begins{$xkeys[0]};
+for (my $i=1; $i<@xkeys; $i++) {
+	if ($begins{$xkeys[$i]} > $maxval) {
+		$maxval = $begins{$xkeys[$i]};
+		$objecttype = $xkeys[$i];
+	}
+}
+
+my @hkeys = keys %headings;
+
+print "OBJECT TYPE $objecttype\n";
+print join("\t", @hkeys), "\n";
+
+
+my $size = @contents;
+my $i = 0;
+while ($i < $size) {
+	my $line = $contents[$i];
+	if ($line =~ /^\@\@BEGIN:\s*$objecttype\s*$/) {
+		$i = extractRow($i+1);
+	}
+	$i++;
+}
+
+
+sub extractRow {
+	my ($index) = @_;
+	my $i = $index;
+	my $line = $contents[$i];
+	my %params;
+	while (($i < @contents) && ($line !~ /^\@\@END:\s*$objecttype\s*$/)) {
+		$line = $contents[$i];
+		if ($line =~ /^\@([^\@:]+):\s*(.*)\s*$/) {
+			$params{$1} = $2;
+		}
+		$i++;
+	}
+
+	if ($line =~ /^\@\@END:\s*$objecttype\s*$/) {
+		for (my $j=0; $j<@hkeys; $j++) {
+			print $params{$hkeys[$j]};
+			if ($j < $#hkeys) {
+				print "\t";
+			}
+		}
+		print "\n";
+	}
+
+	return $i;
+}
+
+
+

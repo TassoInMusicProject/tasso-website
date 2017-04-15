@@ -15,7 +15,7 @@ while (my $line = <>) {
 #		print "ERROR $#data versus $#headings\n";
 #		next;
 #	}
-	print "\@\@START: row\n";
+	print "\@\@BEGIN: row\n";
 	for (my $i=0; $i<@headings; $i++) {
 		print "\@$headings[$i]:\t$data[$i]\n";
 	}

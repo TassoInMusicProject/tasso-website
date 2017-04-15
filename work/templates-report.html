@@ -7,6 +7,10 @@
 
 <h3>MUSICAL SOURCES</h3>
 
+<div style="display:none" class="expert">
+<a target="_blank" class="ebutton" href="{{githubReport CATALOGNUM}}">Edit on Github</a>
+</div>
+
 <div style="width:800px" class='indent'>
 	{{ principalSources PRINCIPAL_SOURCE }}
 	{{ otherSources OTHER_SOURCE }}
@@ -417,6 +421,21 @@ Handlebars.registerHelper("principalClefs", function(id) {
 		}
 	}
 
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// githubReport -- go to the Github page for the report for editing.
+//
+
+Handlebars.registerHelper("githubReport", function(id) {
+	var output = "https://github.com/TassoInMusicProject/tasso-website";
+	output += "/blob/gh-pages/data/reports/";
+	output += id;
+	output += "-report.aton";
 	return new Handlebars.SafeString(output);
 });
 

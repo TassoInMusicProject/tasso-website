@@ -105,7 +105,6 @@ table.wordlist td {
 	cursor: pointer;
 	font-family: {{site.button_font}};
 	z-index: -100;
-
 }
 
 td.partname {

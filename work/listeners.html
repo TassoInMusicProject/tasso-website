@@ -120,7 +120,11 @@ window.addEventListener('keydown',
 				break;
 
 			case EKey:
+				if (event.altKey) {
+					toggleExpertMode();
+				} else {
 				expandIncipit();
+				}
 				break;
 
 			case OKey:

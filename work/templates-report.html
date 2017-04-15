@@ -7,9 +7,7 @@
 
 <h3>MUSICAL SOURCES</h3>
 
-<div style="display:none" class="expert">
-<a target="_blank" class="ebutton" href="{{githubReport CATALOGNUM}}">Edit on Github</a>
-</div>
+{{githubReport CATALOGNUM}}
 
 <div style="width:800px" class='indent'>
 	{{ principalSources PRINCIPAL_SOURCE }}
@@ -432,10 +430,17 @@ Handlebars.registerHelper("principalClefs", function(id) {
 //
 
 Handlebars.registerHelper("githubReport", function(id) {
-	var output = "https://github.com/TassoInMusicProject/tasso-website";
-	output += "/blob/gh-pages/data/reports/";
-	output += id;
-	output += "-report.aton";
+	var url = "https://github.com/TassoInMusicProject/tasso-website";
+	url += "/blob/gh-pages/data/reports/";
+	url += id;
+	url += "-report.aton";
+
+	var output = "<div style='display:none' class='expert'>";
+	output += "<a target='_blank' style='floating:none;' class='ebutton' href='";
+	output += url;
+	output += "'>Edit on Github</a>";
+	output += "</div>";
+
 	return new Handlebars.SafeString(output);
 });
 

@@ -199,17 +199,23 @@ function generateNotation(svgloc, humdrum) {
 		vrvOptions.pageHeight = 230 * kcount + 80 * tcount;
 	}
 
-	var timeA = new Date().getTime() / 1000.0;
-	console.log("TIME TO LAST INCIPIT GENERATION", timeA - LASTTIME);
-	LASTTIME = timeA;
+	// var timeA = new Date().getTime() / 1000.0;
+	// console.log("TIME TO LAST INCIPIT GENERATION", timeA - LASTTIME);
+	// LASTTIME = timeA;
 	var svg = vrvToolkit.renderData(shortenHumdrum(content, 10), vrvOptions);
-	var timeB = new Date().getTime() / 1000.0;
-	console.log("PROCESSING TIME:", timeB - timeA);
+	// var timeB = new Date().getTime() / 1000.0;
+	// console.log("PROCESSING TIME:", timeB - timeA);
 	svgloc.innerHTML = svg;
 	svgloc.style.marginTop = "-50px";
 	var id = svgloc.id.match(/^(.*)?-/)[1];
-	var stag = "svg_" + id;
-	localStorage[stag] = svg;
+	var svgstore = function(myid, mysvg) {
+		return function() {
+			var stag = "svg_" + myid;
+			localStorage[stag] = mysvg;
+			console.log("STORING", myid);
+		}
+	}
+	setTimeout(svgstore(id, svg), 5000);
 }
 LASTTIME = 0;
 

@@ -369,13 +369,16 @@ function showPart(partnum) {
 
 function highlightPartIcon(partnum) {
 	var elements = document.querySelectorAll(".voice-icon");
+	var number;
 	for (var i=0; i<elements.length; i++) {
 		var id = elements[i].id;
 		var num = id.match(/(\d+)$/)[1];
 		if (num == partnum) {
 			elements[i].className += " highlight";
+			elements[i].title = "show all parts";
 		} else {
 			elements[i].classList.remove("highlight");
+			elements[i].title = "show only part " + num;
 		}
 	}
 }

@@ -79,9 +79,9 @@
 	<table  class="notation-toolbar">
 	<tr style="padding:0">
 
-	<td style="width:10px;padding:0;margin:0; margin-left:5px !important;">
+	<td style="width:10px; margin-left:5px !important;">
 		<div id="audio_{{CATALOGNUM}}" title="play" 
-				style="margin-left:-10px; padding-bottom: 1px; cursor:hand; cursor:pointer;" 
+				style="position:relative; left:-5px; top:0px; cursor:pointer;" 
 				onclick="PlayAudioFile('{{CATALOGNUM}}', this);" 
 				href="" class="play">
 			play
@@ -89,25 +89,41 @@
 	</td>
 
 	<td>
-		<div style="padding-top:3px;" id="voice-buttons">
-		</div>
-	</td>
-
-	<td width="45%">
-		<div id="prevsys" style="margin-left:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">
-			previous system
-		</div>
-	</td>
-
-	<td>
-		<div id="expand" style="text-align: center; cursor:pointer; font-style:italic" onclick="expandIncipit()">
+		<div id="expand" style="text-align: center; font-size: 160%; position: relative; left:-14px; cursor:pointer" onclick="expandIncipit()">
 			expand
 		</div>
 	</td>
 
-	<td width="35%" style="text-align:right;">
-		<div id="nextsys" style="margin-right:50px; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">
-			next system
+	<td style="min-width: 200px;">
+		<div style="position:relative; top:-5px;" id="voice-buttons">
+		</div>
+	</td>
+
+	<td width="100%">
+		<div style="padding-left:10px">
+			<input type=text placeholder="search..." style="visibility:hidden; width=200px">
+		</div>
+	</td>
+
+	<td>
+		<div style="position:relative; top: 0px; left: -20px;">
+		<nobr>
+		<div title="go to first system" id="firstsys" style="display:inline-block; font-style:italic; cursor:pointer" onclick="firstVerovioPage()">
+			<i class="fa fa-step-backward" aria-hidden="true"></i>
+		</div>
+		&nbsp;
+		<div title="go to previous system" id="prevsys" style="display:inline-block; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">
+			<i class="fa fa-arrow-left" aria-hidden="true"></i>
+		</div>
+		&nbsp;
+		<div title="go to next system" id="nextsys" style="display:inline; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">
+			<i class="fa fa-arrow-right" aria-hidden="true"></i>
+		</div>
+		&nbsp;
+		<div title="go to last system" id="lastsys" style="display:inline-block; font-style:italic; cursor:pointer" onclick="lastVerovioPage()">
+			<i class="fa fa-step-forward" aria-hidden="true"></i>
+		</div>
+		</nobr>
 		</div>
 	</td>
 

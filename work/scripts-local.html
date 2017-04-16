@@ -1,3 +1,6 @@
+
+<link rel="stylesheet" href="/styles/fonts/font-awesome/css/font-awesome.min.css">
+
 <script src="/scripts/scripts-common.js"></script>
 <script src="/scripts/scripts-worknav.js"></script>
 
@@ -321,7 +324,14 @@ function displayPartNumbers(id) {
 		output += "title='show only part " + (i+1) + "' id='part" + (i+1);
 		output += "' class='voice-icon'"
 		output += " onclick='showPart(\"" + (i+1) + "\");'";
-		output += ">" +  vabbr[i] + "</span> ";
+		output += ">";
+		output += "<span class='fa-stack fa-3x'>";
+		output += "<i class='fa fa-circle fa-stack-2x'></i>";
+		output += "<strong class='fa-stack-1x text-primary'>";
+		output += vabbr[i];
+		output += "</strong>";
+		output += "</span>";
+		output += "</span>";
 	}
 	output += "</nobr>";
 	output += "</div>";
@@ -628,7 +638,62 @@ function incrementVerovioPage(direction) {
 
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
+}
 
+
+
+//////////////////////////////
+//
+// firstVerovioPage --
+//
+
+function firstVerovioPage(direction) {
+	CURRENT_PAGE = 1;
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+
+	var target = document.querySelector("#verovio-display");
+	if (!target) {
+		console.log("Cannot find target id: #verovio-display");
+		return;
+	}
+
+	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
+	target.innerHTML = svg;
+}
+
+
+
+//////////////////////////////
+//
+// lastVerovioPage --
+//
+
+function lastVerovioPage(direction) {
+	CURRENT_PAGE = -1;
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+
+	var target = document.querySelector("#verovio-display");
+	if (!target) {
+		console.log("Cannot find target id: #verovio-display");
+		return;
+	}
+
+	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
+	target.innerHTML = svg;
 }
 
 
@@ -919,14 +984,22 @@ function showIncipitState() {
 	var element = document.querySelector("#expand");
 	var nelement = document.querySelector("#nextsys");
 	var pelement = document.querySelector("#prevsys");
+	var felement = document.querySelector("#firstsys");
+	var lelement = document.querySelector("#lastsys");
 	if (INCIPIT_STYLE) {
-		element.textContent = "contract";
+		// element.textContent = "contract";
+		element.innerHTML = '<div title="collapse to incipit" class="fa fa-compress" aria-hidden="true"></div>';
 		nelement.textContent = "";
 		pelement.textContent = "";
+		lelement.textContent = "";
+		felement.textContent = "";
 	} else {
-		element.textContent = "expand";
-		nelement.textContent = "next system";
-		pelement.textContent = "previous system";
+		//element.textContent = "expand";
+		element.innerHTML = '<div title="expand to complete score" class="fa fa-expand" aria-hidden="true"></div>';
+		pelement.innerHTML = '<i class="fa fa-arrow-left" aria-hidden="true"></i>';
+		nelement.innerHTML = '<i class="fa fa-arrow-right" aria-hidden="true"></i>';
+		felement.innerHTML = '<i class="fa fa-step-forward" aria-hidden="true"></i>';
+		lelement.innerHTML = '<i class="fa fa-step-backward" aria-hidden="true"></i>';
 	}
 }
 

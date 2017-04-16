@@ -645,14 +645,20 @@ function PlayAudioFile(jrpid, element) {
 		AUDIOjrpid = jrpid;
 		AUDIO.load();
 		AUDIO.play();
+
 		AUDIO.setAttribute('controls', 'controls');
 		var newelement = document.getElementById(AUDIOid);
-		
+
+		AUDIO.addEventListener("ended", function() {
+			newelement.className = "play";
+		});
+
 		if (newelement.className.match(/mp3/)) {
 			newelement.className = 'mp3pause';
 		} else {
 			newelement.className = 'pause';
 		}
+
 		return;
 	}
 
@@ -663,6 +669,7 @@ function PlayAudioFile(jrpid, element) {
  		if (!audiobutton) {
 			return;
 		}
+
 		if (audiobutton.className.match(/mp3/)) {
 			audiobutton.className = 'mp3play';
 		} else {
@@ -680,6 +687,7 @@ function PlayAudioFile(jrpid, element) {
  		if (!audiobutton) {
 			return;
 		}
+
 		if (audiobutton.className.match(/mp3/)) {
 			audiobutton.className = 'mp3pause';
 		} else {

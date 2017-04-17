@@ -46,9 +46,10 @@ document.addEventListener("click", function(event) {
 			return;
 		}
 
-		if (id.match("^Trm")) {
+		if (id.match("^T")) {
 			var url = "/work?id=" + id;
-			window.location = url;
+			// window.location = url;
+			window.open(url, "_blank");
 		}
 		break;
 	}

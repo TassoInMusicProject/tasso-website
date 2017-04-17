@@ -73,7 +73,6 @@ Handlebars.registerHelper("printSource", function(title, loc, pub, year, format,
 	var output = "";
 	
 	if (format && (format.match(/anth/i))) {
-console.log("TITLE", title, "FORMAT", format, "AUTHOR", author);
 		output += "In ";
 		if (author) {
 			output += author + ", ";

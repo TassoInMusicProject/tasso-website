@@ -24,6 +24,10 @@
 var REPORT = {};
 var SIGLALIST = {};
 
+var TIMEMAP = {};
+var QEVENTS = [];
+var REFRESH = null;
+
 var vrvToolkit;
 
 var vrvOptions = {
@@ -116,6 +120,31 @@ function setupVariables(string) {
 
 //////////////////////////////
 //
+// getTimemap
+//
+
+function getTimemap(id) {
+	if (!id) {
+		id = ID;
+	}
+	if (TIMEMAP[id]) {
+		return;
+	}
+
+	var request = new XMLHttpRequest();
+	request.open("GET", "{{site.tasso_data_url}}?a=timemap&f=" + id);
+	request.addEventListener("load", function() {
+		TIMEMAP[id] = JSON.parse(this.responseText);
+	});
+	request.send();
+
+
+}
+
+
+
+//////////////////////////////
+//
 // loadWorkList --
 //
 
@@ -125,6 +154,8 @@ function loadWorkList(url) {
 	}
 	var targetcount = 3;
 	var counter = 0;
+
+	getTimemap(ID);
 
 	if (sessionStorage.RIMESETTINGLIST) {
 		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
@@ -249,6 +280,8 @@ function displaySingleWork(id, target) {
 		id = ID;
 	}
 	ID = id;
+	getTimemap(ID);
+	QEVENTS = [];
 
 	var element = document.querySelector("#contents");
 	if (!element) {
@@ -612,7 +645,62 @@ function initializeVerovioNotation(sourceid, targetid) {
 		target.style.height = "";
 	}
 	target.innerHTML = svg;
+	var svgnotes = target.querySelectorAll("g[id^='note-']");
+	var qpre = {};
+	var matches;
+	var ques;
+	var obj;
+	for (var i=0; i<svgnotes.length; i++) {
 
+		if (matches = svgnotes[i].className.baseVal.match(/qon-([^\s]+)/)) {
+			ques = getQstampFloat(matches[1]);
+			if (!qpre[ques]) {
+				qpre[ques] = {qstamp: ques, on:[], off:[]};
+			}
+			qpre[ques].on.push(svgnotes[i]);
+		}
+
+		if (matches = svgnotes[i].className.baseVal.match(/qoff-([^\s]+)/)) {
+			ques = getQstampFloat(matches[1]);
+			if (!qpre[ques]) {
+				qpre[ques] = {qstamp: ques, on:[], off:[]};
+			}
+			qpre[ques].off.push(svgnotes[i]);
+		}
+
+	}
+
+	QEVENTS = [];
+	for (var qst in qpre) {
+		QEVENTS.push(qpre[qst])
+	}
+	QEVENTS.sort(function(a, b) {
+		return a.qstamp - b.qstamp;
+	});
+	// console.log("QEVENTS", QEVENTS);
+
+}
+
+
+
+//////////////////////////////
+//
+// getQstampFloat --
+//
+
+function getQstampFloat(str) {
+	var ques = -1;
+	if (str.match(/d/)) {
+		ques = parseFloat(str.replace(/d/, "."));
+	} else if (str.match(/_/)) {
+		var matches = str.match(/(\d+)_(\d+)/);
+		if (matches) {
+			ques = parseInt(matches[1]) / parseInt(matches[2]);
+		}
+	} else if (str.match(/^\d+$/)) {
+		ques = parseInt(str);
+	}
+	return ques;
 }
 
 
@@ -1001,8 +1089,8 @@ function showIncipitState() {
 		element.innerHTML = '<div title="expand to complete score" class="fa fa-expand" aria-hidden="true"></div>';
 		pelement.innerHTML = '<i class="fa fa-arrow-left" aria-hidden="true"></i>';
 		nelement.innerHTML = '<i class="fa fa-arrow-right" aria-hidden="true"></i>';
-		felement.innerHTML = '<i class="fa fa-step-forward" aria-hidden="true"></i>';
-		lelement.innerHTML = '<i class="fa fa-step-backward" aria-hidden="true"></i>';
+		lelement.innerHTML = '<i class="fa fa-step-forward" aria-hidden="true"></i>';
+		felement.innerHTML = '<i class="fa fa-step-backward" aria-hidden="true"></i>';
 	}
 }
 

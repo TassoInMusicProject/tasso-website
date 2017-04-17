@@ -50,16 +50,37 @@ window.addEventListener('keydown',
 				} else {
 				expandIncipit();
 				}
+				event.preventDefault();
 				break;
 
 			case OKey:
 				ORIGINAL_CLEFS = !ORIGINAL_CLEFS;
 				initializeVerovioNotation();
+				event.preventDefault();
 				break;
 
 			case TKey:
 				INCLUDE_TEXT = !INCLUDE_TEXT;
 				initializeVerovioNotation();
+				break;
+				event.preventDefault();
+
+			case SpaceKey:
+				if (AUDIO) {
+					var tag = "audio_" + ID;
+					var audioelement = document.querySelector("#" + tag);
+					if (audioelement) {
+						PlayAudioFile(ID, audioelement);
+					}
+				} else {
+					// play audio for the first time.
+					var tag = "audio_" + ID;
+					var aelement = document.querySelector("#" + tag);
+					if (aelement) {
+						PlayAudioFile(ID, aelement);
+					}
+				}
+				event.preventDefault();
 				break;
 
 			case LeftArrowKey:
@@ -81,6 +102,84 @@ window.addEventListener('keydown',
 		}
 	}
 );
+
+
+
+//////////////////////////////
+//
+// click event listener --
+//
+
+window.addEventListener("click", function(event) {
+	var target = event.target;
+	console.log("CLICK", target);
+	target = target.parentNode;
+	var note = null;
+	if (target.id.match(/^note-/)) {
+		note = target;
+	} else {
+		while ((!note) && target) {
+			target = target.parentNode;
+			console.log("CLICK", target, target.id);
+			if (!target) {
+				break;
+			}
+			if (target.id.match(/^note-/)) {
+				node = target;
+				break;
+			}
+		}
+	}
+	if (!note) {
+		return;
+	}
+	var matches;
+	var ques = 0;
+	if (matches = note.className.baseVal.match(/qon-([^\s]+)/)) {
+		ques = getQstampFloat(matches[1]);
+	} else {
+		return;
+	}
+console.log("START TIME Q", ques);
+	var timemap = TIMEMAP[ID];
+	if (!timemap) {
+		return;
+	}
+	var i;
+	var tstamp = -1;
+	for (i=0; i<timemap.length; i++) {
+		if (Math.abs(timemap[i].qstamp - ques) < 0.01) {
+			tstamp = timemap[i].tstamp;
+		}
+	}
+	if (tstamp < 0) {
+		return;
+	}
+
+	console.log("timemap", tstamp);
+	console.log("AUDIO", AUDIO);
+	var anticipation = 0.0;
+	if (!AUDIO) {
+		var element = document.querySelector("#audio_" + ID);
+		PlayAudioFile(ID, element, tstamp - anticipation);
+	} else if (AUDIO.paused) {
+console.log("PAUSED SO STARTING");
+		AUDIO.currentTime = tstamp - anticipation;
+		AUDIO.play();
+	} else {
+		AUDIO.currentTime = tstamp - anticipation;
+	}
+
+});
+
+
+
+
+
+
+
+
+
 
 </script>
 

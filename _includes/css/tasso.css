@@ -372,3 +372,11 @@ input {
 }
 
 
+svg g[id^="syl-"] {
+	fill: black;
+}
+
+
+
+
+

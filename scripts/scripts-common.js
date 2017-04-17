@@ -27,6 +27,7 @@ var OTHERSETTINGLIST;   // list of other settings
 var ALLSETTINGLIST;
 var LITLIST;            // list of literary sources
 var WORKLIST;           // list of musical settings
+var LASTTIME = -1;
 
 
 // List of Key Codes.  More can be extracted from this page:
@@ -594,7 +595,7 @@ function UpdateEzMark() {
 // PlayAudioFile -- play/pause an audio file.
 //
 
-function PlayAudioFile(jrpid, element) {
+function PlayAudioFile(jrpid, element, starttime) {
 	// The JRPID is not the same as the currently playing file
 	// (or there is no file playing).  So start the new one.
 	if (!AUDIO) {
@@ -644,7 +645,12 @@ function PlayAudioFile(jrpid, element) {
 
 		AUDIOjrpid = jrpid;
 		AUDIO.load();
+		if (starttime) {
+			AUDIO.currentTime = starttime;
+		}
+
 		AUDIO.play();
+		InitializeTimemap();
 
 		AUDIO.setAttribute('controls', 'controls');
 		var newelement = document.getElementById(AUDIOid);
@@ -681,6 +687,7 @@ function PlayAudioFile(jrpid, element) {
 			element.className = 'pause';
 		}
 		AUDIO.play();
+		InitializeTimemap();
 		AUDIO.setAttribute('controls', 'controls');
 	} else {
 		audiobutton = document.getElementById(AUDIOid);
@@ -700,6 +707,100 @@ function PlayAudioFile(jrpid, element) {
 		}
 		AUDIO.pause();
 		AUDIO.removeAttribute('controls');
+	}
+}
+
+
+//////////////////////////////
+//
+// InitializeTimemap --
+//
+
+function InitializeTimemap() {
+	if (typeof REFRESH === "undefined") {
+		return;
+	}
+	var increment = 20;
+	REFRESH = setInterval(function() {
+		if (AUDIO && AUDIO.paused) {
+			clearInterval(REFRESH);
+			return;
+		}
+		if (!AUDIO) {
+			clearInterval(REFRESH);
+			return;
+		}
+		var currenttime = AUDIO.currentTime;
+		CheckTimeMap(TIMEMAP[ID], QEVENTS, currenttime, increment/1000.0 * 2);
+	}, increment);
+}
+
+
+
+//////////////////////////////
+//
+// CheckTimeMap --
+//
+
+function CheckTimeMap(timemap, events, currenttime, increment) {
+	var target = null;
+	var diff;
+	for (var i=0; i<timemap.length; i++) {
+		if (Math.abs(timemap[i].tstamp - currenttime) < increment) {
+			target = timemap[i];
+		}
+	}
+
+	if (!target) {
+		return;
+	}
+
+	if (target.tstamp == LASTTIME) {
+		return;
+	}
+	LASTTIME = target.tstamp;
+	// console.log("TIMEENTRY", target);
+	CheckEventMap(target.qstamp, events);
+}
+
+
+
+//////////////////////////////
+//
+// CheckEventMap --
+//
+
+function CheckEventMap(etime, events) {
+	for (var i=0; i<events.length; i++) {
+		if (Math.abs(etime - events[i].qstamp) < 0.01) {
+			ProcessNoteEvents(events[i]);
+		}
+	}
+}
+
+
+//////////////////////////////
+//
+// ProcessNoteEvents --
+//
+
+function ProcessNoteEvents(event) {
+	var ons = event.on;
+	var offs = event.off;
+	var i;
+
+	for (i=0; i<ons.length; i++) {
+		// ons[i].style.stroke = "red";
+		// ons[i].style.fill = "red";
+		// have to re-find on page in case the image has changed:
+		var xon = document.querySelector("#" + ons[i].id);
+		xon.style.fill = "red";
+	}
+
+	for (i=0; i<offs.length; i++) {
+		// have to re-find on page in case the image has changed:
+		var xoff = document.querySelector("#" + offs[i].id);
+		xoff.style.fill = "";
 	}
 }
 

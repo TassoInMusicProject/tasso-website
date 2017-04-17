@@ -135,10 +135,83 @@ function getTimemap(id) {
 	request.open("GET", "{{site.tasso_data_url}}?a=timemap&f=" + id);
 	request.addEventListener("load", function() {
 		TIMEMAP[id] = JSON.parse(this.responseText);
+		interpolateIntegers(id);
 	});
 	request.send();
+}
 
 
+
+//////////////////////////////
+//
+// interpolateIntegers --
+//
+
+function interpolateIntegers(id) {
+	timemap = TIMEMAP[id];
+	if (timemap.length == 0) {
+		return;
+	}
+
+	var newpoints = [];
+
+	var byindex = {};
+
+	for (var i=0; i<timemap.length; i++) {
+		var qstamp = timemap[i].qstamp;
+		byindex[qstamp] = {i: i, timemap: timemap[i]};
+	}
+	var maxval = timemap[timemap.length-1].qstamp;
+
+	for (i=8; i<maxval; i+=8) {
+		if (byindex[i]) {
+			continue;
+		}
+		var newpoint;
+		newpoint = interpolateTstamp(timemap, i);
+		newpoints.push(newpoint);
+		console.log("MISSING: ", i, newpoint.tstamp);
+	}
+
+	TIMEMAP[id] = timemap.concat(newpoints);
+}
+
+
+
+//////////////////////////////
+//
+// interpolateTstamp --
+//
+
+function interpolateTstamp(timemap, qtime) {
+	var i;
+	var t1;
+	var t2;
+	var q1;
+	var q2;
+	for (i=0; i<timemap.length; i++) {
+		if (timemap[i].qstamp < qtime) {
+			continue;
+		}
+		if (i == 0) {
+			console.log("STRANGE PROBLEM");
+		}
+		t1 = timemap[i-1].tstamp;
+		t2 = timemap[i].tstamp;
+		q1 = timemap[i-1].qstamp;
+		q2 = timemap[i].qstamp;
+		break;
+	}
+
+	if (!t2) {
+			console.log("STRANGE PROBLEM 2");
+	}
+
+	var ttime = ((qtime-q1)/(q2-q1))*(t2-t1)+t1;
+
+	var newpoint = { qstamp: qtime, tstamp: ttime};
+	console.log("NEWPOINT", newpoint);
+	return newpoint;
 }
 
 
@@ -354,7 +427,7 @@ function displayPartNumbers(id) {
 	output += "<nobr>";
 	for (i=0; i<vcount; i++) {
 		output += "<span ";
-		output += "title='show only part " + (i+1) + "' id='part" + (i+1);
+		output += "title='show only part " + (i+1) + " (" + (i+1) + ")"  + "' id='part" + (i+1);
 		output += "' class='voice-icon'"
 		output += " onclick='showPart(\"" + (i+1) + "\");'";
 		output += ">";
@@ -408,10 +481,10 @@ function highlightPartIcon(partnum) {
 		var num = id.match(/(\d+)$/)[1];
 		if (num == partnum) {
 			elements[i].className += " highlight";
-			elements[i].title = "show all parts";
+			elements[i].title = "show all parts (0)";
 		} else {
 			elements[i].classList.remove("highlight");
-			elements[i].title = "show only part " + num;
+			elements[i].title = "show only part " + num + " (" + num + ")";
 		}
 	}
 }
@@ -1079,14 +1152,14 @@ function showIncipitState() {
 	var lelement = document.querySelector("#lastsys");
 	if (INCIPIT_STYLE) {
 		// element.textContent = "contract";
-		element.innerHTML = '<div title="collapse to incipit" class="fa fa-compress" aria-hidden="true"></div>';
+		element.innerHTML = '<div title="collapse to incipit (e)" class="fa fa-compress" aria-hidden="true"></div>';
 		nelement.textContent = "";
 		pelement.textContent = "";
 		lelement.textContent = "";
 		felement.textContent = "";
 	} else {
 		//element.textContent = "expand";
-		element.innerHTML = '<div title="expand to complete score" class="fa fa-expand" aria-hidden="true"></div>';
+		element.innerHTML = '<div title="expand to complete score (e)" class="fa fa-expand" aria-hidden="true"></div>';
 		pelement.innerHTML = '<i class="fa fa-arrow-left" aria-hidden="true"></i>';
 		nelement.innerHTML = '<i class="fa fa-arrow-right" aria-hidden="true"></i>';
 		lelement.innerHTML = '<i class="fa fa-step-forward" aria-hidden="true"></i>';
@@ -1209,7 +1282,6 @@ function fillInTimeKey() {
 		if (!id) {
 			continue;
 		}
-		console.log("ID = ", id);
 		getTimeKey(id, rows[i]);
 	}
 }

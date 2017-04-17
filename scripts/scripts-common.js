@@ -615,6 +615,10 @@ function PlayAudioFile(jrpid, element, starttime) {
 	AUDIO.style.right = '0';
 	AUDIO.style.zIndex = '1';
 
+	AUDIO.onpause = function () {
+		TurnOffAllNotes();
+	}
+
 	var audiobutton;
    if (jrpid != AUDIOjrpid) {
 		if (!!AUDIOid) {
@@ -680,11 +684,6 @@ function PlayAudioFile(jrpid, element, starttime) {
 			audiobutton.className = 'mp3play';
 		} else {
 			audiobutton.className = 'play';
-		}
-		if (element.className.match(/mp3/)) {
-			element.className = 'mp3pause';
-		} else {
-			element.className = 'pause';
 		}
 		AUDIO.play();
 		InitializeTimemap();
@@ -801,6 +800,19 @@ function ProcessNoteEvents(event) {
 		// have to re-find on page in case the image has changed:
 		var xoff = document.querySelector("#" + offs[i].id);
 		xoff.style.fill = "";
+	}
+}
+
+
+//////////////////////////////
+//
+// TurnOffAllNotes --
+//
+
+function TurnOffAllNotes() {
+	var list = document.querySelectorAll("svg g[id^='note-']");
+	for (var i=0; i<list.length; i++) {
+		list[i].style.fill = "";
 	}
 }
 

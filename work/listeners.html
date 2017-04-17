@@ -1,5 +1,5 @@
 <script>
-// vim: ts=3
+// vim: ts=3 ft=javascript
 
 //////////////////////////////
 //
@@ -112,15 +112,13 @@ window.addEventListener('keydown',
 
 window.addEventListener("click", function(event) {
 	var target = event.target;
-	console.log("CLICK", target);
 	target = target.parentNode;
 	var note = null;
-	if (target.id.match(/^note-/)) {
+	if (target && target.id.match(/^note-/)) {
 		note = target;
 	} else {
 		while ((!note) && target) {
 			target = target.parentNode;
-			console.log("CLICK", target, target.id);
 			if (!target) {
 				break;
 			}
@@ -140,7 +138,6 @@ window.addEventListener("click", function(event) {
 	} else {
 		return;
 	}
-console.log("START TIME Q", ques);
 	var timemap = TIMEMAP[ID];
 	if (!timemap) {
 		return;
@@ -156,27 +153,21 @@ console.log("START TIME Q", ques);
 		return;
 	}
 
-	console.log("timemap", tstamp);
-	console.log("AUDIO", AUDIO);
 	var anticipation = 0.0;
 	if (!AUDIO) {
 		var element = document.querySelector("#audio_" + ID);
 		PlayAudioFile(ID, element, tstamp - anticipation);
 	} else if (AUDIO.paused) {
-console.log("PAUSED SO STARTING");
+		AUDIO.currentTime = tstamp - anticipation;
+		PlayAudioFile(ID, element, tstamp - anticipation);
+	} else {
+		AUDIO.pause();
+		TurnOffAllNotes();
 		AUDIO.currentTime = tstamp - anticipation;
 		AUDIO.play();
-	} else {
-		AUDIO.currentTime = tstamp - anticipation;
 	}
 
 });
-
-
-
-
-
-
 
 
 

@@ -120,7 +120,7 @@ function setupVariables(string) {
 
 //////////////////////////////
 //
-// getTimemap
+// getTimemap --
 //
 
 function getTimemap(id) {
@@ -170,7 +170,7 @@ function interpolateIntegers(id) {
 		var newpoint;
 		newpoint = interpolateTstamp(timemap, i);
 		newpoints.push(newpoint);
-		console.log("MISSING: ", i, newpoint.tstamp);
+		// console.log("MISSING: ", i, newpoint.tstamp);
 	}
 
 	TIMEMAP[id] = timemap.concat(newpoints);
@@ -210,7 +210,7 @@ function interpolateTstamp(timemap, qtime) {
 	var ttime = ((qtime-q1)/(q2-q1))*(t2-t1)+t1;
 
 	var newpoint = { qstamp: qtime, tstamp: ttime};
-	console.log("NEWPOINT", newpoint);
+	//console.log("NEWPOINT", newpoint);
 	return newpoint;
 }
 
@@ -455,15 +455,12 @@ function displayPartNumbers(id) {
 //
 
 function showPart(partnum) {
-	console.log("SHOWING ", partnum);
 	if (partnum == PART_FILTER) {
 		partnum = 0;
 		PART_FILTER = 0;
 	} else {
 		PART_FILTER = partnum;
 	}
-
-
 	initializeVerovioNotation();
 }
 
@@ -494,8 +491,8 @@ function highlightPartIcon(partnum) {
 
 ///////////////////////////////
 //
-// displayIncipit -- Display incipit as a place holder before the verovio toolkit generates 
-//     its own display.
+// displayIncipit -- Display incipit as a place holder before the verovio 
+//     toolkit generates its own display.
 //
 
 function displayIncipit(id) {
@@ -510,6 +507,7 @@ function displayIncipit(id) {
 
 	element.innerHTML = localStorage["svg_" + id];
 }
+
 
 
 ////////////////////////////////
@@ -529,6 +527,7 @@ function emptyReportButton()  {
 
 	return output;
 }
+
 
 
 ///////////////////////////////

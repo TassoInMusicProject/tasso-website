@@ -114,7 +114,7 @@ window.addEventListener("click", function(event) {
 	var target = event.target;
 	target = target.parentNode;
 	var note = null;
-	if (target && target.id.match(/^note-/)) {
+	if (target && target.id && target.id.match(/^note-/)) {
 		note = target;
 	} else {
 		while ((!note) && target) {
@@ -122,7 +122,7 @@ window.addEventListener("click", function(event) {
 			if (!target) {
 				break;
 			}
-			if (target.id.match(/^note-/)) {
+			if (target && target.id && target.id.match(/^note-/)) {
 				node = target;
 				break;
 			}

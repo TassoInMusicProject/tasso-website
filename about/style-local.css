@@ -29,7 +29,7 @@
 }
 
 .num:after {
-   content: ".";
+	content: ".";
 }
 
 .solerti {
@@ -45,9 +45,16 @@
 }
 
 
-
-
-#contents {
-	border-top-right-radius: 0;
+div#contents {
+	padding-left: 60px;
+	border-top-left-radius: 5px;
+	margin-top: 5px !important;
 	font-size: 1.35em;
 }
+
+div#logos {
+	margin-left: -60px;
+}
+
+
+

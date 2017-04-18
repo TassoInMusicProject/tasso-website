@@ -1,0 +1,626 @@
+
+<script src="/scripts/scripts-common.js"></script>
+
+{% include_relative listeners.html %}
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Fri Mar 25 00:02:06 PDT 2016
+// Last Modified: Sun Apr  9 09:57:44 PDT 2017
+// Filename:      variants/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
+//
+// Description:   JavaScript management for the literary variants.
+//
+
+var CurrentPoem  = 0;  // ID of the current setting
+var PoemList     = {}; // List of next/previous settings
+
+var VARIORUM = {};
+
+
+//////////////////////////////
+//
+// displaySetting --
+//
+
+function displaySetting(poem) {
+	if (!poem) {
+		poem = CurrentPoem;
+	}
+	if (poem) {
+   	window.location = "/settings/?id=" + poem;
+	} else {
+   	window.location = "/settings";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displaySource --
+//
+
+function displaySource(poem) {
+	if (!poem) {
+		poem = CurrentPoem;
+	}
+	if (poem) {
+		window.location = "/sources/?id=" + poem;
+	} else {
+		window.location = "/sources";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayNextSource --
+//
+
+function displayNextSource() {
+	var nid = PoemList[CurrentPoem].next;
+ 	displayLiteraryVariants(nid);
+}
+
+
+
+//////////////////////////////
+//
+// displayPreviousSource --
+//
+
+function displayPreviousSource() {
+	var nid = PoemList[CurrentPoem].previous;
+ 	displayLiteraryVariants(nid);
+}
+
+
+
+//////////////////////////////
+//
+// displayLiteraryVariants -- Show the literary variants for the given
+// 	catalog number.
+//
+
+function displayLiteraryVariants(id, target) {
+
+	if (!target) {
+		target = "#contents";
+	}
+
+	if (id) {
+		id = id.replace(/[a-z]$/, "");
+	}
+
+	CurrentPoem = id;
+
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place on page since", target, " doesn't exist.");
+		return;
+	}
+
+	var counter = 0;
+	var maxcount = 6;
+
+	if (sessionStorage.RIMEVERSELIST &&
+				(sessionStorage.RIMEVERSELIST != "undefined")) {
+		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
+		counter++;
+	}
+
+	if (sessionStorage.RIMESETTINGLIST) {
+		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
+		counter++;
+	}
+
+	if (sessionStorage.GERUSETTINGLIST) {
+		GERUSETTINGLIST = JSON.parse(sessionStorage.GERUSETTINGLIST);
+		counter++;
+	}
+
+	if (sessionStorage.AMINTASETTINGLIST) {
+		AMINTASETTINGLIST = JSON.parse(sessionStorage.AMINTASETTINGLIST);
+		counter++;
+	}
+
+	if (sessionStorage.OTHERSETTINGLIST) {
+		OTHERSETTINGLIST = JSON.parse(sessionStorage.OTHERSETTINGLIST);
+		counter++;
+	}
+
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+		counter++;
+	}
+
+	if ((!sessionStorage.RIMEVERSELIST) ||
+				(sessionStorage.RIMEVERSELIST === "undefined")) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.rime_verses}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			RIMEVERSELIST = aton.parse(this.responseText).RIME;
+			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
+			counter++;
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplayVariants(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.RIMESETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.rime_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
+			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
+			counter++;
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplayVariants(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.GERUSETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.gerusalemme_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			GERUSETTINGLIST = aton.parse(this.responseText).GERUSALEMME;
+			sessionStorage.GERUSETTINGLIST = JSON.stringify(GERUSETTINGLIST);
+			counter++;
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplayVariants(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.AMINTASETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.aminta_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			AMINTASETTINGLIST = aton.parse(this.responseText).AMINTA;
+			sessionStorage.AMINTASETTINGLIST = JSON.stringify(AMINTASETTINGLIST);
+			counter++;
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplayVariants(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.OTHERSETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.other_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			OTHERSETTINGLIST = aton.parse(this.responseText).OTHER;
+			sessionStorage.OTHERSETTINGLIST = JSON.stringify(OTHERSETTINGLIST);
+			counter++;
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplayVariants(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (!sessionStorage.WORKLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.worklist}}");
+		request.addEventListener("load", function() {
+			WORKLIST = JSON.parse(this.responseText);
+			sessionStorage.WORKLIST = this.responseText;
+			counter++;
+			if (counter == maxcount) {
+				buildAllSettingList();
+				buildPoemList(ALLSETTINGLIST);
+				reallyDisplayVariants(id, target);
+				counter++;
+			}
+		});
+		request.send();
+	}
+
+	if (counter == maxcount) {
+		buildAllSettingList();
+		buildPoemList(ALLSETTINGLIST);
+		reallyDisplayVariants(id, target);
+		counter++;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// buildAllSettingList --
+//
+
+function buildAllSettingList() {
+	ALLSETTINGLIST = RIMESETTINGLIST
+// for now only incude rime settings in list of variants
+// since there is only poetic text for the rime.
+//		.concat(GERUSETTINGLIST)
+//		.concat(AMINTASETTINGLIST)
+//		.concat(OTHERSETTINGLIST.ECLOGHE)
+//		.concat(OTHERSETTINGLIST.RINALDO)
+//		.concat(OTHERSETTINGLIST.LAGRIME)
+//		.concat(OTHERSETTINGLIST.TORRISMONDO)
+	;
+}
+
+
+
+//////////////////////////////
+//
+// buildPoemList --
+//
+
+function	buildPoemList(list) {
+	var tosort = {};
+	var id;
+	if (!list) {
+		list = ALLSETTINGLIST;
+	}
+	for (var i=0; i<list.length; i++) {
+		id = list[i].CATALOGNUM.replace(/[a-z]$/, "");
+		tosort[id] = 1;
+	}
+	var ids = Object.keys(tosort);
+	ids.sort();
+	PoemList = {};
+	for (i=1; i<=ids.length-1; i++) {
+		PoemList[ids[i]] = {};
+		PoemList[ids[i]].next     = ids[i+1];
+		PoemList[ids[i]].previous = ids[i-1];
+	}
+
+	if (ids.length == 1) {
+		PoemList[ids[0]] = {};
+		PoemList[ids[0]].next = ids[0];
+		PoemList[ids[0]].previous = ids[0];
+		return;
+	}
+
+	PoemList[ids[0]] = {};
+	PoemList[ids[0]].next = ids[1];
+	PoemList[ids[0]].previous = ids[ids.length-1];
+
+	PoemList[ids[ids.length-1]] = {};
+	PoemList[ids[ids.length-1]].next = ids[0];
+	PoemList[ids[ids.length-1]].previous = ids[ids.length-2];
+
+}
+
+
+
+//////////////////////////////
+//
+// reallyDisplayVariants --
+//
+
+function reallyDisplayVariants(id, target) {
+
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Poem literary sources on page.");
+		return;
+	}
+
+   var output = "";
+   if (!id) {
+		element.innerHTML = " no multiple variant view allowed ";
+		return;
+		output += displayMultiplePoemVariants();
+	} else {
+		output += singlePoemVariantHeader(id);
+		if (VARIORUM[id]) {
+			var innercontent = document.querySelector("#inner-content");
+			console.log(innercontent);
+			output += "<iframe src='variorum/index.html'></iframe>";
+			if (innercontent) {
+				innercontent.innerHTML = output;
+			}
+		} else {
+			output += displaySinglePoemVariant(id);
+		}
+	}
+	element.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// displayMultiplePoemVariants --
+//
+
+function displayMultiplePoemVariants() {
+	var output = "";
+	output += "<div style='font-size:100%; margin-left:50px'>";
+	output += "<center>";
+	output += "<h1 style='padding-right:50px;'>About</h1>";
+	output += "</center>";
+
+	var settinglist = ALLSETTINGLIST;
+	var rime;
+   for (var i=0; i<settinglist.length; i++) {
+		output += "<center><table style='margin-top:10px; ";
+		output += "padding:0; padding-right:50px; width:100%'><tr>";
+		output += "<td>";
+		output += "</td><td style='width:100%; text-align:center'>";
+		output += "<h2>";
+		rime = settinglist[i].SOLERTI;
+		var entry = settinglist[i];
+   	if (!entry) {
+      	console.log("Error accessing rime:", rime);
+			return;
+		}
+   	var title = entry.TITLE;
+		title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+		title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+   	output += title;
+   	output += " (";
+		output += GetTitleName(rime);
+		output += ")";
+		output += "</h2>";
+		output += "</td><td>";
+		output += "</td></tr>";
+		output += "</table></center>";
+
+		output += "<div id=inner-contents>";
+		var poemtable = getPoemTable(entry);
+		output += poemtable;
+		output += "</div>";
+   }
+	output += "</div>\n";
+	return output;
+}
+
+
+
+
+//////////////////////////////
+//
+// singlePoemVariantHeader --
+//
+
+function singlePoemVariantHeader(id) {
+   var output = "";
+//	output += "<div style='font-size:100%; margin-left:50px'>";
+//	output += "<center>";
+//	output += "<h1 style='padding-right:50px;'>About</h1>";
+//	output += "</center>";
+
+	output += "<center><table style=' width=100%;";
+	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
+	output += "<td class='triangle'><span class='triangle' ";
+	output += " onclick='displayPreviousSource();'>";
+	output += "<span style='letter-spacing:-7pt;'>";
+	output += "&#9664;&#9664;</span></a>";
+	output += "</td><td style='width:100%; text-align:center'>";
+	output += "<h1>About</h1>";
+	output += "</td><td class='triangle'>";
+	output += "<span class='triangle'";
+	output += " onclick='displayNextSource();'>";
+	output += "<span style='position:relative;left:-8px; letter-spacing:-7pt;'>";
+	output += "&#9654;&#9654;</span></a>";
+	output += "</td></tr>";
+	output += "</table></center>";
+
+
+	output += "<center><table style='margin-top:-50px; ";
+	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
+	output += "<td class='triangle'><span class='triangle' ";
+	output += " onclick='displayPreviousSource();'>";
+	output += "&#9664;</a>";
+	output += "</td><td style='width:100%; text-align:center'>";
+	output += "<h2>";
+	var entry = GetAllSettingEntry(id);
+   if (!entry) {
+      console.log("Error accessing id:", id);
+		return;
+	}
+   var title = entry.TITLE;
+	if (!title) {
+		title = entry.RIMETITLE;
+	}
+	title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+   output += title;
+   output += " (";
+	output += GetTitleName(id);
+	output += ")</h2>";
+	output += "</td><td class='triangle'>";
+	output += "<span class='triangle'";
+	output += " onclick='displayNextSource();'>";
+	output += "&#9654;</a>";
+	output += "</td></tr>";
+	output += "</table></center>";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// displaySinglePoemVariant --
+//
+
+function displaySinglePoemVariant(id) {
+	var output = "";
+	var ventry = GetRimeVerseEntry(id);
+   if (!ventry) {
+      console.log("Error accessing id:", id);
+		return;
+	}
+	var poemtable = getPoemTable(ventry);
+	output += "<div id=inner-contents>";
+	output += poemtable;
+	output += "</div>\n";
+	output += "</div>\n";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getMusicalSettingTable --
+//
+
+function getPoemTable(entry) {
+	if (!entry) {
+		return ""
+	}
+	var output = "";
+   var verses = entry.VERSES.VERSE;
+	output += "<table class='poem'>";
+	if (typeof verses === "string") {
+		output += getVerseLineRows(verses);
+	} else {
+		for (var i=0; i<verses.length; i++) {
+			output += getVerseLineRows(verses[i]);
+		}
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getVerseLineRows -- Split a verse into separate table rows.
+//
+
+function getVerseLineRows(verse) {
+	if (!verse) {
+		return "";
+	}
+   var lines = verse.match(/[^\r\n]+/g);
+	var output = "";
+	for (var i=0; i<lines.length; i++) {
+		if (i == 0) {
+			output += "<tr><td class='first-line'>";
+		} else {
+			output += "<tr><td>";
+		}
+		var text = lines[i];
+		text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+		text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+		text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+		output += text;
+		output += "</td></tr>";
+   }
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getDescription --
+//
+
+function getDescription(item, tag, data) {
+	if (item === "none") {
+		return "";
+	}
+	var index = -1;
+	for (var i=0; i<data.length; i++) {
+      if (data[i][tag] == item) {
+ 			index = i;
+			break;
+		}
+   }
+	if (index < 0) {
+		return "<span style='color:red'>NO DESCRIPTION</span>";
+	}
+
+   var output = "";
+	var di = data[index];
+	if (di.PRINTTITLE) {
+		output += di.PRINTTITLE;
+	} else if (di.DESCRIPTION) {
+		output += di.DESCRIPTION;
+	}
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// setNextPreviousPoem --
+//
+
+function setNextPreviousPoem(rime) {
+   Poem = rime;
+   NextPoem = rime;
+   PreviousPoem = rime;
+
+	var index = -1;
+	var list = RIMELIST.RIME;
+	for (var i=0; i<list.length; i++) {
+		if (rime == list[i].SOLERTI) {
+			index = i;
+         break;
+		}
+	}
+
+	if (index < 0) {
+      return;
+   }
+
+	if (index < list.length - 1) {
+      NextPoem = list[index+1].SOLERTI;
+	} else {
+      NextPoem = list[0].SOLERTI;
+	}
+
+	if (index > 0) {
+      PreviousPoem = list[index-1].SOLERTI;
+	} else {
+      PreviousPoem = list[list.length-1].SOLERTI;
+	}
+}
+
+
+</script>
+
+

@@ -1,0 +1,61 @@
+<script>
+// vim: ts=3 ft=javascript
+
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	var cgi = GetCgiParameters();
+	if (cgi.rime) {
+		var id = "Trm";
+		if (cgi.rime < 1000) { id += "0"; }
+		if (cgi.rime < 100)  { id += "0"; }
+		if (cgi.rime < 10)   { id += "0"; }
+		id += cgi.rime;
+	   displayLiteraryVariants(id, "#contents");
+	} else if (cgi.id) {
+	   	displayLiteraryVariants(cgi.id, "#contents");
+	} else {
+	   displayLiteraryVariants(0, "#contents");
+	}
+});
+
+
+
+//////////////////////////////
+//
+// process Window keys down:
+//
+
+window.addEventListener('keydown', function(event) {
+   if (event.metaKey) {
+		return;
+	}
+
+	switch (event.keyCode) {
+		case LeftArrowKey:
+			if (event.shiftKey) {
+				displaySource();
+			} else {
+				displayPreviousSource();
+			}
+			break;
+		case RightArrowKey:
+			if (event.shiftKey) {
+				displaySetting();
+			} else {
+				displayNextSource();
+			}
+			break;
+		case UpArrowKey:
+   		window.location = "/variants";
+			break;
+	}
+
+});
+
+
+</script>

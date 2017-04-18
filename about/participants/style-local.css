@@ -1,12 +1,24 @@
 
+div#contents {
+	padding-left: 60px;
+	border-top-left-radius: 5px;
+	margin-top: 5px !important;
+	font-size: 1.28em;
+}
+
+div#logos {
+	margin-left: -60px;
+}
+
+
 h1 {
 	color: #d6c38c;
 	padding-left: 20px;
+	font-size: 1.75rem;
 }
 
 .person {
 	padding-left: 60px;
-	font-size: 1.35em;
 	line-height: 1.5em;
 }
 

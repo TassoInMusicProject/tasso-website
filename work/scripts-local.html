@@ -377,7 +377,7 @@ function displaySingleWork(id, target) {
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
 	var output = singleTemplate(setting);
-	document.title = ID + " work page";
+	document.title = ID + " workpage";
 	element.innerHTML = output;
 	displayPartNumbers(id);
 	CURRENT_PAGE = 1;

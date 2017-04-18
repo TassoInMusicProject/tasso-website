@@ -937,6 +937,14 @@ function GetAllSettingEntry(catalognum, worklist) {
 //
 
 function GetRimeVerseEntry(id, list) {
+	if (id.match(/^\d+$/)) {
+		// convert rime # to catalog number
+		var newid = "Trm";
+		if (id < 1000) { newid += "0"; }
+		if (id < 100)  { newid += "0"; }
+		if (id < 10)   { newid += "0"; }
+		id = newid + id;
+	}
    if (!list) {
 		list = RIMEVERSELIST;
    }

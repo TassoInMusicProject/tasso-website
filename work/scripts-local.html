@@ -752,6 +752,13 @@ function initializeVerovioNotation(sourceid, targetid) {
 	});
 	// console.log("QEVENTS", QEVENTS);
 
+	// add spaces after ends of words (for copy/paste from SVG):
+	var ends = document.querySelectorAll("svg g.syl.t text tspan")
+	for (i=0; i<ends.length; i++) {
+    	var text = ends[i].textContent;
+     	ends[i].textContent = text + " ";
+	}
+
 }
 
 

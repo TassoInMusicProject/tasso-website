@@ -8,6 +8,11 @@
 	border-top-right-radius: 0px !important;
 }
 
+#contents svg {
+	width: 100%;
+	height: auto;
+}
+
 table.worklist {
 	border-collapse: collapse;
 	font-size: 120%;

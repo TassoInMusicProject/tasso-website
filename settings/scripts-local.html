@@ -278,7 +278,6 @@ function buildAllSettingList() {
 //
 
 function	buildPoemList(list) {
-console.log("BUILD POEMLIST", list);
 	var tosort = {};
 	var id;
 	if (!list) {
@@ -322,7 +321,6 @@ console.log("BUILD POEMLIST", list);
 //
 
 function reallyDisplaySettings(id, target) {
-console.log("RDS ID = ", id);
 	if (!target) {
 		target = "#contents";
 	}
@@ -559,14 +557,11 @@ function getCatalogInfo(id) {
 //
 
 function buildSetList(entry) {
-console.log("GOT HERE AAA", entry);
 	var id = entry.CATALOGNUM;
-console.log("ID=", id);
 	var cleanid = id.replace(/[a-z]$/, "");
 	if (!cleanid) {
 		return;
 	}
-console.log("cleanid", cleanid);
 	var WORKS = [];
 	var WLIST = ALLSETTINGLIST;
 	for (var i=0; i<WLIST.length; i++) {

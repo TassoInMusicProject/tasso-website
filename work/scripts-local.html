@@ -718,6 +718,21 @@ function initializeVerovioNotation(sourceid, targetid) {
 		target.style.height = "";
 	}
 	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
+
+}
+
+
+
+//////////////////////////////
+//
+// prepareQEvents --
+//
+
+function prepareQEvents(target) {
+
 	var svgnotes = target.querySelectorAll("g[id^='note-']");
 	var qpre = {};
 	var matches;
@@ -742,7 +757,6 @@ function initializeVerovioNotation(sourceid, targetid) {
 		}
 
 	}
-
 	QEVENTS = [];
 	for (var qst in qpre) {
 		QEVENTS.push(qpre[qst])
@@ -752,13 +766,22 @@ function initializeVerovioNotation(sourceid, targetid) {
 	});
 	// console.log("QEVENTS", QEVENTS);
 
+}
+
+
+
+//////////////////////////////
+//
+// prepareLyricSpaces --
+//
+
+function prepareLyricSpaces(target) {
 	// add spaces after ends of words (for copy/paste from SVG):
-	var ends = document.querySelectorAll("svg g.syl.t text tspan")
+	var ends = target.querySelectorAll("svg g.syl.t text tspan")
 	for (i=0; i<ends.length; i++) {
     	var text = ends[i].textContent;
      	ends[i].textContent = text + " ";
 	}
-
 }
 
 
@@ -809,6 +832,9 @@ function incrementVerovioPage(direction) {
 
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
 }
 
 
@@ -837,6 +863,9 @@ function firstVerovioPage(direction) {
 
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
 }
 
 
@@ -865,6 +894,9 @@ function lastVerovioPage(direction) {
 
 	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
 }
 
 

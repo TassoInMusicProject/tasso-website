@@ -637,6 +637,7 @@ function initializeVerovioNotation(sourceid, targetid) {
 
 	highlightPartIcon(PART_FILTER);
 	displayMensurationState();
+	displayTextState();
 
 	var target = document.querySelector("#" + targetid);
 	if (!target) {
@@ -1403,6 +1404,7 @@ function toggleMensuration() {
 }
 
 
+
 /////////////////////////////
 //
 // displayMensurationState --
@@ -1418,6 +1420,39 @@ function displayMensurationState() {
 		} else {
 			elements[i].classList.remove("highlight");
 			elements[i].title = "show original clefs/mensuration (o)";
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleText --
+//
+
+function toggleText() {
+	INCLUDE_TEXT = !INCLUDE_TEXT;
+	initializeVerovioNotation();
+}
+
+
+
+/////////////////////////////
+//
+// displayTextState --
+//
+
+function displayTextState() {
+	var elements = document.querySelectorAll(".text-icon");
+	var number;
+	for (var i=0; i<elements.length; i++) {
+		if (INCLUDE_TEXT) {
+			elements[i].className += " highlight";
+			elements[i].title = "hide text (t)";
+		} else {
+			elements[i].classList.remove("highlight");
+			elements[i].title = "show text (t)";
 		}
 	}
 }

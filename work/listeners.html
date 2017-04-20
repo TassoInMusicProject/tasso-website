@@ -59,7 +59,11 @@ window.addEventListener('keydown',
 				break;
 
 			case TKey:
-				toggleText();
+				if (event.shiftKey) {
+					toggleCssText();
+				} else {
+					toggleText();
+				}
 				break;
 				event.preventDefault();
 

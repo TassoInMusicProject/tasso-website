@@ -45,6 +45,7 @@ var CURRENT_PAGE = 1;
 var INCIPIT_STYLE = 0;
 var ORIGINAL_CLEFS = 0;
 var INCLUDE_TEXT = 1;
+var CSS_TEXT = 1;
 var PART_FILTER = 0;
 
 
@@ -69,6 +70,10 @@ function setupVariables(string) {
 
 			case 't':
 				INCLUDE_TEXT = !INCLUDE_TEXT;
+				break;
+
+			case 'T':
+				CSS_TEXT = !CSS_TEXT;
 				break;
 
 			case '1':
@@ -727,7 +732,7 @@ function initializeVerovioNotation(sourceid, targetid) {
 
 	prepareQEvents(target);
 	prepareLyricSpaces(target);
-
+	processCssTextState();
 }
 
 
@@ -1445,7 +1450,6 @@ function toggleText() {
 
 function displayTextState() {
 	var elements = document.querySelectorAll(".text-icon");
-	var number;
 	for (var i=0; i<elements.length; i++) {
 		if (INCLUDE_TEXT) {
 			elements[i].className += " highlight";
@@ -1456,6 +1460,38 @@ function displayTextState() {
 		}
 	}
 }
+
+
+
+//////////////////////////////
+//
+// toggleCssText --
+//
+
+function toggleCssText() {
+	CSS_TEXT = !CSS_TEXT;
+	processCssTextState();
+}
+
+
+
+
+/////////////////////////////
+//
+// processCssTextState --
+//
+
+function processCssTextState() {
+	var elements = document.querySelectorAll("svg g.syl");
+	for (var i=0; i<elements.length; i++) {
+		if (CSS_TEXT) {
+			elements[i].style.visibility = "visible";
+		} else {
+			elements[i].style.visibility = "hidden";
+		}
+	}
+}
+
 
 
 </script>

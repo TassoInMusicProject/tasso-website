@@ -427,6 +427,7 @@ function displayPartNumbers(id) {
 	output += "<div style='font-size:1.5em;'>";
 	output += "<nobr>";
 	for (i=0; i<vcount; i++) {
+
 		output += "<span ";
 		output += "title='show only part " + (i+1) + " (" + (i+1) + ")"  + "' id='part" + (i+1);
 		output += "' class='voice-icon'"
@@ -439,6 +440,7 @@ function displayPartNumbers(id) {
 		output += "</strong>";
 		output += "</span>";
 		output += "</span>";
+
 	}
 	output += "</nobr>";
 	output += "</div>";
@@ -472,6 +474,7 @@ function showPart(partnum) {
 //
 
 function highlightPartIcon(partnum) {
+
 	var elements = document.querySelectorAll(".voice-icon");
 	var number;
 	for (var i=0; i<elements.length; i++) {
@@ -485,6 +488,7 @@ function highlightPartIcon(partnum) {
 			elements[i].title = "show only part " + num + " (" + num + ")";
 		}
 	}
+
 }
 
 
@@ -632,6 +636,7 @@ function initializeVerovioNotation(sourceid, targetid) {
 	}
 
 	highlightPartIcon(PART_FILTER);
+	displayMensurationState();
 
 	var target = document.querySelector("#" + targetid);
 	if (!target) {
@@ -1385,6 +1390,37 @@ function toggleExpertMode() {
 	}
 }
 
+
+
+//////////////////////////////
+//
+// toggleMensuration --
+//
+
+function toggleMensuration() {
+	ORIGINAL_CLEFS = !ORIGINAL_CLEFS;
+	initializeVerovioNotation();
+}
+
+
+/////////////////////////////
+//
+// displayMensurationState --
+//
+
+function displayMensurationState() {
+	var elements = document.querySelectorAll(".mens-icon");
+	var number;
+	for (var i=0; i<elements.length; i++) {
+		if (ORIGINAL_CLEFS) {
+			elements[i].className += " highlight";
+			elements[i].title = "show modern clefs/time signature (o)";
+		} else {
+			elements[i].classList.remove("highlight");
+			elements[i].title = "show original clefs/mensuration (o)";
+		}
+	}
+}
 
 
 </script>

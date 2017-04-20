@@ -149,6 +149,17 @@ nobr[class^='mm'] {
 	color: {{site.tab_color}};
 }
 
+.mens-icon {
+	cursor: pointer;
+	font-family: {{site.button_font}};
+	font-size: 18%;
+	color: black;
+}
+
+.mens-icon .text-primary {
+	color: {{site.tab_color}};
+}
+
 .highlight {
 	/* background-color: #c00; */
 	 color: #c00;

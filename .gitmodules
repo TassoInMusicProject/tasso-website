@@ -1,3 +1,6 @@
 [submodule "data/scores"]
 	path = data/scores
 	url = https://github.com/TassoInMusicProject/tasso-scores
+[submodule "variorum"]
+	path = variorum
+	url = https://github.com/TassoInMusicProject/variorum

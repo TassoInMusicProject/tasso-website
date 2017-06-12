@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="dist/css/tei.css" />
+		<link rel="stylesheet" href="dist/css/variorum.css" />
+
+		{% include head.html %}
+	</head>
+	<body>
+
+		<!-- loading ES5 deps + main js -->
+		<script src="dist/js/jquery.min.js"></script>
+		<script src="dist/js/bootstrap.min.js"></script>
+		<script src="dist/js/variorum.js"></script>
+
+		<div id="container">
+			<div id="body">
+				{% include navigation-bar.html %}
+				<div id="contents">
+					{{content}}
+					{% if page.logos == true %}
+						{% include logos.html %}
+					{% endif %}
+				</div>
+				{% include footer.html %}
+			</div>
+		</div>
+
+	</body>
+</html>
+<!-- vim: set ts=3: -->

@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my %composer = getComposers("zzz");
+
+sub getComposers {
+	my ($file) = @_;
+	open (FILE, $file) or die;
+	my %output;
+	while (my $line = <FILE>) {
+		chomp $line;
+		my @data = split(/\t/, $line);
+		my $key = $data[0];
+		my $value = $data[1];
+		if ($output{$key} !~ /^\s*$/) {
+			$output{$key} .= "; $value";
+		} else {
+			$output{$key} = $value;
+		}
+	}
+	return %output;
+}
+
+
+my $rism;
+my $author;
+while (my $line = <>) {
+	chomp $line;
+	if ($line =~ /^\@\@END/) {
+		$rism = "";
+		$author = "";
+	}
+	if ($line =~ /^\@RISM:\s*(.*)\s*$/) {
+		$rism = $1;
+	}
+	if ($line =~ /^\@AUTHOR:\s*(.*)\s*$/) {
+		$author = $1;
+		if ($author =~ /^\s*$/) {
+			$line .= $composer{$rism};
+		}
+	}
+	print "$line\n";
+}
+
+

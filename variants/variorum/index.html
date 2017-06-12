@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="dist/css/tei.css" />
+		<link rel="stylesheet" href="dist/css/variorum.css" />
+		<link href='https://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<table style="width:100%;">
+			<tr style="vertical-align:top;">
+				<td style="width:100px; padding-right:100px;">
+						<h4 style="font-size:140%; font-weight:bold;">Sources</h4>
+						<ul style="width:200px; padding-left:10px;" class="nav nav-sidebar" id="select_source"></ul>
+				</td>
+				<td>
+					<div style="width:100%;" class="main" id="TEI"></div>
+				</td>
+				<td style="width:280px;">
+					<h4 style="text-align:right;">Variant info</h4>
+					<div id="variant_info"></div>
+				</td>
+			</tr>
+		</table>
+
+		<!-- loading ES5 deps + main js -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<!--script src="dist/jquery.min.js"></script -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!-- script src="dist/js/bootstrap.min.js"></script -->
+		<script src="dist/js/variorum.js"></script>
+	</body>
+</html>
+<!-- vim: set ts=2: -->

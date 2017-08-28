@@ -30,6 +30,11 @@ window.addEventListener('keydown',
 		if (event.metaKey) {
 			return;
 		}
+		
+		if (document.activeElement.id == "query") {
+			// In the query text box so don't interpret as a command.
+			return;
+		}
 
 		switch (event.keyCode) {
 

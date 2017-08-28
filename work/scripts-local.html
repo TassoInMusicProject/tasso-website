@@ -511,6 +511,7 @@ function displayIncipit(id) {
 	}
 
 	var element = document.querySelector("#verovio-display");
+	element.style.height = "200px";
 	if (!element) {
 		return;
 	}
@@ -633,7 +634,7 @@ function getCriticalReportNoRecurse(id) {
 // initializeVerovioNotation --
 //
 
-function initializeVerovioNotation(sourceid, targetid) {
+function initializeVerovioNotation(sourceid, targetid, query) {
 	if (!targetid) {
 		targetid = "verovio-display";
 	}
@@ -687,6 +688,10 @@ function initializeVerovioNotation(sourceid, targetid) {
 		vrvOptions.spacingStaff = 9;
 	} else {
 		vrvOptions.spacingStaff = 5;
+	}
+
+	if (LAST_QUERY) {
+		content += "\n!!!filter: msearch -d \"" + LAST_QUERY + "\"\n";
 	}
 
 	if (!vrvToolkit) {
@@ -1493,6 +1498,23 @@ function processCssTextState() {
 	}
 }
 
+
+//////////////////////////////
+//
+// processSearch --
+//
+
+var LAST_QUERY = "";
+function processSearch(event) {
+	var queryElement = document.querySelector("#query");
+	var query = queryElement.value;
+	query = query.replace(/\\s/, "", "g");
+	if (query == LAST_QUERY) {
+		return;
+	}
+	LAST_QUERY = query;
+	initializeVerovioNotation(null, null, query);
+}
 
 
 </script>

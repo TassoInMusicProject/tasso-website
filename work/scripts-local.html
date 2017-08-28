@@ -691,7 +691,7 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 	}
 
 	if (LAST_QUERY) {
-		content += "\n!!!filter: msearch -d \"" + LAST_QUERY + "\"\n";
+		content += "\n!!!filter: msearch -q \"" + LAST_QUERY + "\"\n";
 	}
 
 	if (!vrvToolkit) {

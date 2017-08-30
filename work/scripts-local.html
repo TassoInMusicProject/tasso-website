@@ -391,6 +391,14 @@ function displaySingleWork(id, target) {
 	getHumdrum(id);
 	getRange(id);
 	getCriticalNotes(id);
+	var cgi = GetCgiParameters();
+	if (cgi.q) {
+		var query = document.querySelector("#query");
+		if (query) {
+			query.value = cgi.q;
+			processSearch();
+		}
+	}
 }
 
 

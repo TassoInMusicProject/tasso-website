@@ -99,11 +99,20 @@
 		</div>
 	</td>
 
+	<td>
+		<div style="padding-left:10px">
+			<input id="query" onkeyup="processMusicSearch(event)" 
+					type=text placeholder="music search..." 
+					style="width:150px">
+			<div id="search-counts"></div>
+		</div>
+	</td>
+
 	<td width="100%">
 		<div style="padding-left:10px">
-			<input id="query" onkeyup="processSearch(event)" 
-					type=text placeholder="search..." 
-					style="width=200px">
+			<input id="query-text" onkeyup="processTextSearch(event)" 
+					type=text placeholder="text search..." 
+					style="width:150px">
 			<div id="search-counts"></div>
 		</div>
 	</td>

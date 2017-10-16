@@ -31,7 +31,7 @@ window.addEventListener('keydown',
 			return;
 		}
 		
-		if (document.activeElement.id == "query") {
+		if (document.activeElement.id.match("query")) {
 			// In the query text box so don't interpret as a command.
 			return;
 		}

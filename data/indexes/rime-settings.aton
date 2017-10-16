@@ -27,6 +27,7 @@
 @@   PRINCEPSPUB:   Publisher of the first edition
 @@   PRINCEPSYEAR:  Publication year of the first edition
 @@   PRINCEPSRISM:  RISM number of the first edition
+@@   PRINCEPSFORMAT: anthology == if the volume is a collation from multiple composers.
 @@   REPRINTS:      RISM number(s) of later copies
 @@   OCLEFS:        List of original clefs (high to low on system)
 @@   OMENSURATION:         Original mensuration
@@ -70,6 +71,25 @@
 @PRINCEPSPUB:	
 @PRINCEPSYEAR:	1608
 @PRINCEPSRISM:	S3549
+@REPRINTS:	
+@OCLEFS:	
+@OMENSURATION:	
+@OKEYSIG:	
+@NOTE:		
+@@END:		RIME_SETTING
+
+@@BEGIN:	RIME_SETTING
+@CATALOGNUM:	Trm0297e
+@RIMETITLE:	Se ’l vostro volto è d’un aria gentile
+@SOLERTI:	297
+@COMPOSER:	Bottegari (?), Cosmino
+@COMDATES:	
+@PRINCEPSTITLE:	Ms. C331
+@PRINCEPSLOC:	Hamburg
+@NORMLOC:	Hamburg
+@PRINCEPSPUB:	
+@PRINCEPSYEAR:	late 16th century
+@PRINCEPSRISM:	
 @REPRINTS:	
 @OCLEFS:	
 @OMENSURATION:	
@@ -2478,6 +2498,26 @@
 @@END:		RIME_SETTING
 
 @@BEGIN:	RIME_SETTING
+@CATALOGNUM:	Trm0399b
+@RIMETITLE:	O vaga tortorella
+@SOLERTI:	399
+@COMPOSER:	Marini, Biagio
+@COMDATES:	
+@PRINCEPSTITLE:	Madrigaletti a una, due, tre e quatro voci, con alcune villanelle. Libro quinto. Opera nona
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Magni
+@PRINCEPSYEAR:	1635
+@PRINCEPSRISM:	
+@PRINCEPSFORMAT: anthology
+@REPRINTS:	
+@OCLEFS:	
+@OMENSURATION:	
+@OKEYSIG:	
+@NOTE:		
+@@END:		RIME_SETTING
+
+@@BEGIN:	RIME_SETTING
 @CATALOGNUM:	Trm0284b
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
@@ -4200,6 +4240,25 @@
 @PRINCEPSYEAR:	1625
 @PRINCEPSRISM:	H5668
 @REPRINTS:	H5669
+@OCLEFS:	
+@OMENSURATION:	
+@OKEYSIG:	
+@NOTE:		
+@@END:		RIME_SETTING
+
+@@BEGIN:	RIME_SETTING
+@CATALOGNUM:	Trm0361c
+@RIMETITLE:	Io son la Primavera
+@SOLERTI:	361
+@COMPOSER:	Stefani, Giovanni
+@COMDATES:	
+@PRINCEPSTITLE:	Scherzi amorosi. Canzonette ad una voce sola. Libro secondo
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Vincenti
+@PRINCEPSYEAR:	1620
+@PRINCEPSRISM:	
+@REPRINTS:	
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
@@ -6470,6 +6529,25 @@
 @OMENSURATION:	
 @OKEYSIG:	
 @NOTE:		
+@@END:		RIME_SETTING
+
+@@BEGIN:	RIME_SETTING
+@CATALOGNUM:	Trm0183e
+@RIMETITLE:	Di nettare amoroso ebro la mente
+@SOLERTI:	183
+@COMPOSER:	Cirullo, Antonio
+@COMDATES:	
+@PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@PRINCEPSPUB:	Vincenti
+@PRINCEPSYEAR:	1598
+@PRINCEPSRISM:	
+@REPRINTS:	
+@OCLEFS:	
+@OMENSURATION:	
+@OKEYSIG:	
+@NOTE:		Lost
 @@END:		RIME_SETTING
 
 @@BEGIN:	RIME_SETTING
@@ -10279,6 +10357,26 @@
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-14
 @REPRINTS:	1592-12
+@OCLEFS:	
+@OMENSURATION:	
+@OKEYSIG:	
+@NOTE:		
+@@END:		RIME_SETTING
+
+@@BEGIN:	RIME_SETTING
+@CATALOGNUM:	Trm1370a
+@RIMETITLE:	Qui dove fan le piante
+@SOLERTI:	1370
+@COMPOSER:	Cortellini, Camillo
+@COMDATES:	
+@PRINCEPSFORMAT: anthology
+@PRINCEPSTITLE:	Musica di Camillo Cortellini il violino.
+@PRINCEPSLOC:	Bologna
+@NORMLOC:	Bologna
+@PRINCEPSPUB:	Rossi
+@PRINCEPSYEAR:	1587
+@PRINCEPSRISM:	
+@REPRINTS:	
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	

@@ -396,7 +396,7 @@ function displaySingleWork(id, target) {
 		var query = document.querySelector("#query");
 		if (query) {
 			query.value = cgi.q;
-			processSearch();
+			processMusicSearch();
 		}
 	}
 }
@@ -700,6 +700,9 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 
 	if (LAST_QUERY) {
 		content += "\n!!!filter: msearch -q \"" + LAST_QUERY + "\"\n";
+	}
+	if (LAST_QUERY_TEXT) {
+		content += "\n!!!filter: msearch -t \"" + LAST_QUERY_TEXT + "\"\n";
 	}
 
 	if (!vrvToolkit) {
@@ -1509,11 +1512,11 @@ function processCssTextState() {
 
 //////////////////////////////
 //
-// processSearch --
+// processMusicSearch --
 //
 
 var LAST_QUERY = "";
-function processSearch(event) {
+function processMusicSearch(event) {
 	var queryElement = document.querySelector("#query");
 	var query = queryElement.value;
 	query = query.replace(/\\s/, "", "g");
@@ -1521,6 +1524,25 @@ function processSearch(event) {
 		return;
 	}
 	LAST_QUERY = query;
+	initializeVerovioNotation(null, null, query);
+}
+
+
+
+//////////////////////////////
+//
+// processTextSearch --
+//
+
+var LAST_QUERY_TEXT = "";
+function processTextSearch(event) {
+	var queryElement = document.querySelector("#query-text");
+	var query = queryElement.value;
+	query = query.replace(/^\\s/, "").replace(/\\s$/, "");
+	if (query == LAST_QUERY_TEXT) {
+		return;
+	}
+	LAST_QUERY_TEXT = query;
 	initializeVerovioNotation(null, null, query);
 }
 

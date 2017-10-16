@@ -5,7 +5,6 @@
 	<!-- page.handlebars is disabled "{{page.handlebars}}" -->
 {% endif %}
 
-
 {% if page.aton == true %}
 	<script src="/scripts/external/aton/aton.js"></script>
 {% else %}
@@ -32,4 +31,16 @@
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
   crossorigin="anonymous"></script>
 {% endif %}
+
+
+{% if page.pdfkit == true %}
+	<script src="/scripts/pdfkit/blobstream.js"></script>
+	<script src="/scripts/pdfkit/pdfkit.js"></script>
+	<script src="/scripts/pdfkit/source.js"></script>
+	<script src="/scripts/pdfkit/vrv-ttf.js"></script>
+	<script src="/scripts/pdfkit/FileSaver.min.js"></script>
+{% else %}
+	<!-- page.pdfkit is disabled "{{page.pdfkit}}" -->
+{% endif %}
+
 

@@ -93,6 +93,55 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 
 
 
+<!-- conquistata-template
+		The gerusalemme conquistatatemplate is used to fill in the list of poems
+		on the homepage.  The list of poems is found in the file
+		/data/indexes/other-settings.json.
+-->
+
+{% raw %}
+<script id="conquistata-template" type="text/x-handlebars-template">
+	<table class="poem-list">
+	<thead>
+		<th onclick="sortByNumber(0)" style="cursor:pointer">Canto/Ottava</th>
+		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+	<thead>
+	<tbody>
+	{{#each this}}
+
+	<tr>
+		<td style="text-align:left;">
+			<table style="width:100px">
+			<tr>
+			<td style="width:30px; text-align:right;">
+				<span class="canto nowork"><nobr>{{canto}}</nobr></span>
+			</td>
+			<td style="width:70px; text-align:right;">
+				<span class="verse nowork"><nobr>{{ottava}}</nobr></span>
+			</td>
+			</tr>
+			</table>
+		</td>
+		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{ctitle}}}
+			<table class="choices">
+			<tr>
+				<td><a href=/settings?id={{number catalogbase}}>Musical Settings</a></td>
+				<td><a href=/sources?id={{number catalogbase}}>Literary Sources</a></td>
+				<td><a href=/variants?id={{number catalogbase}}>Literary Variants</a></td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+
+
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+
 <!-- aminta-template
 		The aminta template is used to fill in the list of Aminta poems
 		on the homepage.  The list of poems is found in the file

@@ -148,9 +148,9 @@
 @NORMLOC:	Venice
 @PRINCEPSPUB:	Eredi di G.Scotto, ad istanza de Scipione Rizzo
 @PRINCEPSYEAR:	1591
-@RISM:	F 213
+@RISM:		F 213
 @VOICES:	5
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: RINALDO
 
@@ -158,7 +158,7 @@
 @GROUP:	Lagrime della Beata Vergine settings
 @CATALOGNUM:	Tbv0002a
 @STANZA:	2
-@TITLE:	Chiaro sol che rotondo esci dal Gange
+@TITLE:		Chiaro sol che rotondo esci dal Gange
 @COMPOSER:	Belli, Girolamo
 @COMDATES:	1552-1620
 @PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
@@ -166,9 +166,9 @@
 @NORMLOC:	Venice
 @PRINCEPSPUB:	Ricciardi Amadino
 @PRINCEPSYEAR:	1593
-@RISM:	B 1741
+@RISM:		B 1741
 @VOICES:	6
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: LAGRIME
 
@@ -178,7 +178,7 @@
 @ACT:	V
 @SCENE:	6
 @SECTION:	Coro
-@TITLE:	Ahi lagrime! ahi dolore
+@TITLE:		Ahi lagrime! ahi dolore
 @COMPOSER:	Personè, Diego
 @COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, libro quarto opera sesta
@@ -186,17 +186,18 @@
 @NORMLOC:	Naples
 @PRINCEPSPUB:	Magnette
 @PRINCEPSYEAR:	1628
-@RISM:	P1473
+@RISM:		P1473
 @VOICES:	5
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: TORRISMONDO
 
 @@BEGIN: CONQUISTATA
+@GROUP: Gerusalemme conquistata
 @CATALOGNUM:	Tco0806a
-@CANTO:	VIII
+@CANTO:		VIII
 @OTTAVA:	6
-@TITLE:	Piagn'e sospira; e quand'i caldi raggi
+@TITLE:		Piagn'e sospira; e quand'i caldi raggi
 @COMPOSER:	Monteverdi, Claudio
 @COMDATES:	1567-1643
 @PRINCEPSTITLE:	Il quarto libro dei madrigali a cinque voci

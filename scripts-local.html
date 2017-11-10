@@ -180,6 +180,7 @@ function displayOtherList(target) {
 			var aton = new ATON;
 			OTHERLIST = aton.parse(this.responseText).OTHER;
 			sessionStorage.OTHERLIST = JSON.stringify(OTHERLIST);
+console.log(sessionStorage.OTHERLIST);
 			continueProcessingOther(element);
 		});
 		request.send();
@@ -347,6 +348,34 @@ function makeCantoList(gllist) {
 
 
 
+//////////////////////////////
+//
+// makeConquistataList --
+//
+
+function makeConquistataList(gllist) {
+console.log("conquistataList = ", gllist);
+	var output = {};
+	var data = output;
+
+	if (!gllist.length) {
+		gllist = [gllist];
+	}
+	for (var i=0; i<gllist.length; i++) {
+		var key = gllist[i].CATALOGNUM.replace(/[a-z]$/, "");
+		data[key] = {};
+		data[key].ctitle = gllist[i].TITLE;
+		data[key].canto  = gllist[i].CANTO;
+		data[key].ottava = gllist[i].OTTAVA;
+		data[key].catalogbase = key;
+	}
+	// Should already be sorted, but maybe sort here by Canto/Ottava
+	// as stored in catalog number.
+	return output;
+}
+
+
+
 /////////////////////////////
 //
 // makeEclogheList --
@@ -488,16 +517,19 @@ console.log("ALST", amintalist);
 //
 
 function continueProcessingOther(element) {
+	var csource = document.querySelector("#conquistata-template").textContent;
 	var esource = document.querySelector("#ecloghe-template").textContent;
 	var rsource = document.querySelector("#rinaldo-template").textContent;
 	var lsource = document.querySelector("#lagrime-template").textContent;
 	var tsource = document.querySelector("#torrismondo-template").textContent;
 
+	var conquistataTemplate = Handlebars.compile(csource);
 	var eclogheTemplate = Handlebars.compile(esource);
 	var rinaldoTemplate = Handlebars.compile(rsource);
 	var lagrimeTemplate = Handlebars.compile(lsource);
 	var torrismondoTemplate = Handlebars.compile(tsource);
 
+	var conquistatalist = makeConquistataList(OTHERLIST.CONQUISTATA);
 	var ecloghelist = makeEclogheList(OTHERLIST.ECLOGHE);
 	var rinaldolist = makeRinaldoList(OTHERLIST.RINALDO);
 	var lagrimelist = makeLagrimeList(OTHERLIST.LAGRIME);
@@ -511,6 +543,8 @@ function continueProcessingOther(element) {
 	output += lagrimeTemplate(lagrimelist);
 	output += "<h2 style='margin-top:-80px; margin-left:100px'>Re Torrismondo</h2>";
 	output += torrismondoTemplate(torrismondolist);
+	output += "<h2 style='margin-top:-80px; margin-left:100px'>Gerusalemme conquistata</h2>";
+	output += conquistataTemplate(conquistatalist);
 	element.innerHTML = output;
 	showTab("other-heading");
 }

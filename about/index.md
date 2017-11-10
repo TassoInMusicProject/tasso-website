@@ -6,10 +6,11 @@ logos: true
 permalink: /about/index.html
 ---
 
-<div style="padding-left:60px">
 Description of TMP goes here.
-</div>
 
-<div style="height:875px"></div>
+Here is a new paragraph.
+
+Here is some *italic text*.
+
 
 

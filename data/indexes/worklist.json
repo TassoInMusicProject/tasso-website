@@ -4,14 +4,14 @@
 "reprole"	:	"repertory",
 "replong"	:	"Musical setings of the poetry of Torquato Tasso",
 "repshort"	:	"Tasso",
-"repwork"	:	20,
+"repwork"	:	21,
 "genres"	:
 	[
-	{"name":"madrigal", "count":21}
+	{"name":"madrigal", "count":22}
 	],
 "liststyle"	:	"genre",
-"notecount"	:	10747,
-"sec"		:	2485,
+"notecount"	:	10940,
+"sec"		:	2547,
 "pg"		:	60,
 "works"		:	
 	[
@@ -348,6 +348,26 @@
 	"vnotecount"	:	[131,149,140],
 	"ad"		:	20130000,
 	"ud"		:	20160108
+	},
+	{
+	"id"		:	"Trm0418v",
+	"comshort"	:	"Albano",
+	"comlong"	:	"Marcello Albano",
+	"title"		:	"Ardi e gela a tua voglia",
+	"genre"		:	"madrigal",
+	"voices"	:	"2",
+	"vname"		:	["part 1","part 2"],
+	"vabbr"		:	["P1","P2"],
+	"text"		:	"true",
+	"ih"		:	0,
+	"barcount"	:	15,
+	"brevecount"	:	15,
+	"notecount"	:	193,
+	"sec"		:	61,
+	"pg"		:	0,
+	"vnotecount"	:	[90,103],
+	"ad"		:	20160213,
+	"ud"		:	20171118
 	},
 	{
 	"id"		:	"Trm0564b",

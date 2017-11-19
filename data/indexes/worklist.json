@@ -4,17 +4,37 @@
 "reprole"	:	"repertory",
 "replong"	:	"Musical setings of the poetry of Torquato Tasso",
 "repshort"	:	"Tasso",
-"repwork"	:	18,
+"repwork"	:	19,
 "genres"	:
 	[
-	{"name":"madrigal", "count":19}
+	{"name":"madrigal", "count":20}
 	],
 "liststyle"	:	"genre",
-"notecount"	:	9632,
-"sec"		:	2259,
-"pg"		:	90,
+"notecount"	:	10132,
+"sec"		:	2348,
+"pg"		:	60,
 "works"		:	
 	[
+	{
+	"id"		:	"Trm0023c",
+	"comshort"	:	"Felis",
+	"comlong"	:	"Stefano Felis",
+	"title"		:	"Io non posso gioire",
+	"genre"		:	"madrigal",
+	"voices"	:	"5",
+	"vname"		:	["Canto","Quinto","Alto","Tenore","Basso"],
+	"vabbr"		:	["C","Q","A","T","B"],
+	"text"		:	"true",
+	"ih"		:	966,
+	"barcount"	:	22,
+	"brevecount"	:	22,
+	"notecount"	:	500,
+	"sec"		:	89,
+	"pg"		:	0,
+	"vnotecount"	:	[121,111,109,94,65],
+	"ad"		:	20160213,
+	"ud"		:	20171118
+	},
 	{
 	"id"		:	"Trm0047a",
 	"comshort"	:	"Pallavicino",
@@ -52,7 +72,7 @@
 	"brevecount"	:	33,
 	"notecount"	:	107,
 	"sec"		:	112,
-	"pg"		:	1,
+	"pg"		:	0,
 	"vnotecount"	:	[107],
 	"ad"		:	20130000,
 	"ud"		:	20170208
@@ -76,7 +96,7 @@
 	"pg"		:	5,
 	"vnotecount"	:	[209,199,149],
 	"ad"		:	20130000,
-	"ud"		:	20170208
+	"ud"		:	20171016
 	},
 	{
 	"id"		:	"Trm0059c",
@@ -220,7 +240,7 @@
 	"brevecount"	:	38,
 	"notecount"	:	947,
 	"sec"		:	140,
-	"pg"		:	7,
+	"pg"		:	0,
 	"vnotecount"	:	[236,209,222,172,108],
 	"ad"		:	20130000,
 	"ud"		:	20170213
@@ -241,7 +261,7 @@
 	"brevecount"	:	25,
 	"notecount"	:	196,
 	"sec"		:	70,
-	"pg"		:	2,
+	"pg"		:	0,
 	"vnotecount"	:	[105,91],
 	"ad"		:	20120000,
 	"ud"		:	20160208
@@ -283,7 +303,7 @@
 	"brevecount"	:	25,
 	"notecount"	:	448,
 	"sec"		:	92,
-	"pg"		:	4,
+	"pg"		:	0,
 	"vnotecount"	:	[149,160,139],
 	"ad"		:	20130000,
 	"ud"		:	20170208
@@ -325,7 +345,7 @@
 	"brevecount"	:	50,
 	"notecount"	:	413,
 	"sec"		:	138,
-	"pg"		:	4,
+	"pg"		:	0,
 	"vnotecount"	:	[210,203],
 	"ad"		:	20120000,
 	"ud"		:	20170208
@@ -346,7 +366,7 @@
 	"brevecount"	:	54,
 	"notecount"	:	375,
 	"sec"		:	149,
-	"pg"		:	3,
+	"pg"		:	0,
 	"vnotecount"	:	[170,205],
 	"ad"		:	20130000,
 	"ud"		:	20130819
@@ -367,7 +387,7 @@
 	"brevecount"	:	25,
 	"notecount"	:	447,
 	"sec"		:	70,
-	"pg"		:	4,
+	"pg"		:	0,
 	"vnotecount"	:	[109,114,117,107],
 	"ad"		:	20120000,
 	"ud"		:	20130820
@@ -388,7 +408,7 @@
 	"brevecount"	:	30,
 	"notecount"	:	518,
 	"sec"		:	110,
-	"pg"		:	5,
+	"pg"		:	0,
 	"vnotecount"	:	[170,177,171],
 	"ad"		:	20120000,
 	"ud"		:	20170213

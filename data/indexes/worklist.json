@@ -7,11 +7,11 @@
 "repwork"	:	21,
 "genres"	:
 	[
-	{"name":"madrigal", "count":22}
+	{"name":"madrigal", "count":23}
 	],
 "liststyle"	:	"genre",
-"notecount"	:	10940,
-"sec"		:	2547,
+"notecount"	:	11144,
+"sec"		:	2654,
 "pg"		:	60,
 "works"		:	
 	[
@@ -356,8 +356,8 @@
 	"title"		:	"Ardi e gela a tua voglia",
 	"genre"		:	"madrigal",
 	"voices"	:	"3",
-	"vname"		:	["Canto Primo","Alto"],
-	"vabbr"		:	["C","A"],
+	"vname"		:	["Canto Primo","Alto","Basso"],
+	"vabbr"		:	["C","A","B"],
 	"text"		:	"true",
 	"ih"		:	0,
 	"barcount"	:	15,
@@ -365,7 +365,27 @@
 	"notecount"	:	193,
 	"sec"		:	61,
 	"pg"		:	0,
-	"vnotecount"	:	[90,103],
+	"vnotecount"	:	[90,103,0],
+	"ad"		:	20160213,
+	"ud"		:	20171118
+	},
+	{
+	"id"		:	"Trm0418w",
+	"comshort"	:	"Fornaci",
+	"comlong"	:	"Giacomo Fornaci",
+	"title"		:	"Ardi e gela a tua voglia",
+	"genre"		:	"madrigal",
+	"voices"	:	"2",
+	"vname"		:	["part 1","Basso continuo"],
+	"vabbr"		:	["P1","BC"],
+	"text"		:	"true",
+	"ih"		:	0,
+	"barcount"	:	26,
+	"brevecount"	:	26,
+	"notecount"	:	204,
+	"sec"		:	107,
+	"pg"		:	0,
+	"vnotecount"	:	[127,77],
 	"ad"		:	20160213,
 	"ud"		:	20171118
 	},

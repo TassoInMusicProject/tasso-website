@@ -4,14 +4,14 @@
 "reprole"	:	"repertory",
 "replong"	:	"Musical setings of the poetry of Torquato Tasso",
 "repshort"	:	"Tasso",
-"repwork"	:	21,
+"repwork"	:	22,
 "genres"	:
 	[
-	{"name":"madrigal", "count":23}
+	{"name":"madrigal", "count":24}
 	],
 "liststyle"	:	"genre",
-"notecount"	:	11144,
-"sec"		:	2654,
+"notecount"	:	11909,
+"sec"		:	2804,
 "pg"		:	60,
 "works"		:	
 	[
@@ -387,6 +387,26 @@
 	"pg"		:	0,
 	"vnotecount"	:	[127,77],
 	"ad"		:	20160213,
+	"ud"		:	20171118
+	},
+	{
+	"id"		:	"Trm0560c",
+	"comshort"	:	"Merulo",
+	"comlong"	:	"Claudio Merulo",
+	"title"		:	"Tarquinia se rimiri",
+	"genre"		:	"madrigal",
+	"voices"	:	"6",
+	"vname"		:	["Canto","Sesto","Alto","Tenore","Quinto","Basso"],
+	"vabbr"		:	["C","S","A","T","Q","B"],
+	"text"		:	"true",
+	"ih"		:	559,
+	"barcount"	:	37,
+	"brevecount"	:	37,
+	"notecount"	:	765,
+	"sec"		:	149,
+	"pg"		:	0,
+	"vnotecount"	:	[116,133,149,148,126,93],
+	"ad"		:	20170911,
 	"ud"		:	20171118
 	},
 	{

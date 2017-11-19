@@ -4,10 +4,10 @@
 "reprole"	:	"repertory",
 "replong"	:	"Musical setings of the poetry of Torquato Tasso",
 "repshort"	:	"Tasso",
-"repwork"	:	19,
+"repwork"	:	20,
 "genres"	:
 	[
-	{"name":"madrigal", "count":20}
+	{"name":"madrigal", "count":21}
 	],
 "liststyle"	:	"genre",
 "notecount"	:	10132,
@@ -307,6 +307,24 @@
 	"vnotecount"	:	[149,160,139],
 	"ad"		:	20130000,
 	"ud"		:	20170208
+	},
+	{
+	"id"		:	"Trm0333b_Gelo_ha_Madonna_il_seno.krn",
+	"comshort"	:	"Merulo",
+	"comlong"	:	"Claudio Merulo",
+	"title"		:	"Gelo ha Madonna il seno",
+	"genre"		:	"madrigal",
+	"voices"	:	"6",
+	"vname"		:	[],
+	"vabbr"		:	[],
+	"ih"		:	0,
+	"barcount"	:	0,
+	"brevecount"	:	0,
+	"notecount"	:	0,
+	"sec"		:	0,
+	"pg"		:	0,
+	"vnotecount"	:	[""],
+	"ad"		:	0000
 	},
 	{
 	"id"		:	"Trm0335d",

@@ -10,8 +10,8 @@
 	{"name":"madrigal", "count":21}
 	],
 "liststyle"	:	"genre",
-"notecount"	:	10132,
-"sec"		:	2348,
+"notecount"	:	10747,
+"sec"		:	2485,
 "pg"		:	60,
 "works"		:	
 	[
@@ -309,22 +309,24 @@
 	"ud"		:	20170208
 	},
 	{
-	"id"		:	"Trm0333b_Gelo_ha_Madonna_il_seno.krn",
+	"id"		:	"Trm0333b",
 	"comshort"	:	"Merulo",
 	"comlong"	:	"Claudio Merulo",
 	"title"		:	"Gelo ha Madonna il seno",
 	"genre"		:	"madrigal",
 	"voices"	:	"6",
-	"vname"		:	[],
-	"vabbr"		:	[],
-	"ih"		:	0,
-	"barcount"	:	0,
-	"brevecount"	:	0,
-	"notecount"	:	0,
-	"sec"		:	0,
+	"vname"		:	["C","S","A","T","Q","B"],
+	"vabbr"		:	["P1","P2","P3","P4","P5","P6"],
+	"text"		:	"true",
+	"ih"		:	563,
+	"barcount"	:	34,
+	"brevecount"	:	34,
+	"notecount"	:	615,
+	"sec"		:	137,
 	"pg"		:	0,
-	"vnotecount"	:	[""],
-	"ad"		:	0000
+	"vnotecount"	:	[97,98,105,113,118,84],
+	"ad"		:	20160213,
+	"ud"		:	20171118
 	},
 	{
 	"id"		:	"Trm0335d",

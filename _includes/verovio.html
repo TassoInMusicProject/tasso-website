@@ -1,0 +1,111 @@
+
+{% if page.verovio == "asm" %}
+	<script src="http://verovio-script.humdrum.org/scripts/verovio-toolkit.js"></script>
+{% elsif page.verovio == "wasm" %}
+{% comment %}
+   This downloads the web-assembly version of verovio, using basket.js
+{% endcomment %}
+
+<script src="/scripts/external/basket/base64.min.js"></script>
+<script src="/scripts/external/basket/basket-full.js"></script>
+<script src="/scripts/external/basket/basket-session.js"></script>
+
+<!-- downloaded by basket:
+<script src="http://verovio-script.humdrum.org/scripts/verovio.wasm"></script>
+<script src="http://verovio-script.humdrum.org/scripts/verovio-toolkit-wasm.js"></script>
+-->
+
+
+<script>
+// vim: ts=3
+
+var basketurl1 = "http://verovio-script.humdrum.org/scripts/verovio.wasm";
+var basketurl2 = "http://verovio-script.humdrum.org/scripts/verovio-toolkit-wasm.js";
+
+var WASMPREPARED = false;
+var basketVersion = 31;
+var expire = 240;
+console.log("GOT HERE AAA");
+basketSession.require(
+	{
+		url: basketurl1,
+		key: "verovio.wasm",
+		expire: expire,
+		execute: false,
+		binary: true,
+		// unique: basketVersion
+	}, 
+	{
+		url: basketurl2,
+		key: "verovio-toolkit-wasm.js",
+		expire: expire,
+		execute: false,
+		// unique: basketVersion
+	}
+)
+.then(
+	function() {
+		console.log("Successfully downloaded scripts");
+		prepareVerovioWasm();
+		document.addEventListener("DOMContentLoaded", function() {
+			console.log("IN EVENT LISTENER");
+			prepareVerovioWasm();
+		});
+	}, 
+	function(error) {
+		console.log("Error 2: ", error);
+	}
+);
+
+var Module;  // used for WASM version of verovio toolkit
+
+
+//////////////////////////////
+//
+// prepareVerovioWasm --
+//
+
+var BA;
+
+function prepareVerovioWasm() {
+	if (WASMPREPARED) {
+		return;
+	}
+	WASMPREPARED = true;
+	console.log("Going to load WASM version of verovio");
+	// Reference: view-source:http://www.verovio.org/mei-viewer-wasm.xhtml
+	// Initialize the WASM module:
+	var ba = Base64Binary.atob(basketSession.get("verovio.wasm").data);
+	BA = ba;
+console.log("PREPARED BA LENGTH", ba.byteLength, "type", typeof ba, ba);
+	Module = {
+		noInitialRun:
+			false,
+		onRuntimeInitialized:
+			function() {
+				vrvToolkit = new verovio.toolkit();
+				if (typeof verovioLoaded !== 'undefined') {
+					verovioLoaded();
+				}
+				console.log("WASM initialize,", vrvToolkit.getVersion());
+			},
+		wasmBinary: ba
+	};
+	
+
+console.log("CREATED SCRIPT");
+	var script = document.createElement('script');
+	script.innerHTML = basketSession.get("verovio-toolkit-wasm.js").data;
+console.log("LOADED SCRIPT", document, document.body);
+	document.head.appendChild(script);
+console.log("GOT HERE finishing processsing of scripts");
+}
+
+</script>
+
+
+{% else %}
+	<!-- page.verovio is disabled "{{page.verovio}}" -->
+{% endif %}
+
+

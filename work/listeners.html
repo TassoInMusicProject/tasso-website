@@ -7,17 +7,28 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
-	vrvToolkit = new verovio.toolkit();
+	{% if page.verovio == "asm" %}
+		vrvToolkit = new verovio.toolkit();
+	{% endif %}
 	HighlightNavigationBar();
 	var cgi = GetCgiParameters();
 	if (cgi.k) {
 		setupVariables(cgi.k);
 	}
 	ID = cgi.id;
-	loadWorkList("{{site.worklist}}");
+	{% if page.verovio == "asm" %}
+		loadWorkList("{{site.worklist}}");
+	{% endif %}
 	CheckLocalStorage();
 });
 
+
+{% if page.verovio == "wasm" %}
+function verovioLoaded() {
+	console.log("LOADING WORKLIST ============================= ");
+	loadWorkList("{{site.worklist}}");
+}
+{% endif %}
 
 
 //////////////////////////////

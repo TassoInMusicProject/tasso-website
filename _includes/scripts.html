@@ -11,11 +11,7 @@
 	<!-- page.aton is disabled "{{page.aton}}" -->
 {% endif %}
 
-{% if page.verovio == true %}
-	<script src="http://verovio-script.humdrum.org/scripts/verovio-toolkit.js"></script>
-{% else %}
-	<!-- page.verovio is disabled "{{page.verovio}}" -->
-{% endif %}
+{% include verovio.html %}
 
 
 {% if page.scripts-local == true %}

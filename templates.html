@@ -22,7 +22,12 @@ N.B.: dark text indicates one or more <a href="/work">musical settings</a> are n
 	<tbody>
 	{{#each this}}
 	{{{trclass SOLERTI}}}
-	<td>{{SOLERTI}}</td>
+	<td>
+		{{#if ATTRIBUTION}}
+			<span class="attribution" style="cursor:pointer" title="not secure">*</span>
+		{{/if}}
+		{{SOLERTI}}
+	</td>
 	<td onmouseover="show(this)" onmouseout="hide(this)">{{{cleanTitle TITLE}}}
 			<span class="genre">({{{GENRE}}})</span>
 		<table class="choices">

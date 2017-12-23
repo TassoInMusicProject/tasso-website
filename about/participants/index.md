@@ -102,8 +102,6 @@ Laurie Stras (University of Southampton)
 Raffaele Viglianti (University of Maryland)
 </div>
 
-<div style="height:100px"></div>
-
 <h1>Institutional Project Supporters</h1>
 
 <div class="person">

@@ -104,5 +104,20 @@ Raffaele Viglianti (University of Maryland)
 
 <div style="height:100px"></div>
 
+<h1>Institutional Project Supporters</h1>
 
+<div class="person">
+University of Massachusetts Amherst
+</div>
 
+<div class="person">
+Center for Computer Assited Research in the Humanities (CCARH), Stanford University
+</div>
+
+<div class="person">
+National Endowment for the Humanities (NEH)
+</div>
+
+<div class="person">
+Comitato Nazionale Per Il V Centenario Dell'Orlando Furioso
+</div>

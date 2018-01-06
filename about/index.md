@@ -3,14 +3,13 @@ vim: ts=3
 scripts-local: true
 style-local: true
 logos: true
+layout: about
 permalink: /about/index.html
 ---
 
-Description of TMP goes here.
 
-Here is a new paragraph.
-
-Here is some *italic text*.
-
+<div id="contents">
+	<div style="height:1000px;"></div>
+</div>
 
 

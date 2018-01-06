@@ -1,8 +1,81 @@
 <script src="/scripts/scripts-common.js"></script>
 <script>
+// vim: ts=3
 
 document.addEventListener("DOMContentLoaded", function() {
-   HighlightNavigationBar();
+	HighlightNavigationBar();
+	displayIntroduction();
 });
+
+
+
+//////////////////////////////
+//
+// displayIntroduction -- Show introduction target element.
+//
+
+function displayIntroduction(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Introduction on page.");
+		return;
+	}
+	showTab("introduction-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+		}
+	};
+	request.open("GET", "introduction.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// displayHowto -- Show Howto target element.
+//
+
+function displayHowto(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Howto on page.");
+		return;
+	}
+	showTab("howto-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+		}
+	};
+	request.open("GET", "howto.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// showTab --
+//
+
+function showTab(hiid) {
+	var intro     = document.querySelector("#introduction-heading");
+	var hotwo     = document.querySelector("#howto-heading");
+
+	intro.className   = hiid == "introduction-heading"   ? "active" : "";
+	hotwo.className   = hiid == "howto-heading"          ? "active" : "";
+}
+
+
 
 </script>

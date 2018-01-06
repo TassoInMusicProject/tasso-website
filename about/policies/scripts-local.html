@@ -1,9 +1,81 @@
 <script src="/scripts/scripts-common.js"></script>
 
 <script>
+// vim: ts=3
 
 document.addEventListener("DOMContentLoaded", function() {
-   HighlightNavigationBar();
+	HighlightNavigationBar();
+	displayMusicPolicies();
 });
+
+
+
+//////////////////////////////
+//
+// displayMusicPolicies -- Show music editorial policy target element.
+//
+
+function displayMusicPolicies(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Music Policy content on page.");
+		return;
+	}
+	showTab("music-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+		}
+	};
+	request.open("GET", "music.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// displayTextPolicies -- Show text editorial policy target element.
+//
+
+function displayTextPolicies(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Text Policy content on page.");
+		return;
+	}
+	showTab("text-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+		}
+	};
+	request.open("GET", "text.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// showTab --
+//
+
+function showTab(hiid) {
+	var music     = document.querySelector("#music-heading");
+	var text      = document.querySelector("#text-heading");
+
+	music.className   = hiid == "music-heading"   ? "active" : "";
+	text.className    = hiid == "text-heading"    ? "active" : "";
+}
+
 
 </script>

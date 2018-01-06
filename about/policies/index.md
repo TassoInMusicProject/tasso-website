@@ -2,11 +2,14 @@
 vim: ts=3
 scripts-local: true
 style-local: true
+layout: policies
 permalink: /about/policies/index.html
 ---
 
 
-Contents of editorial policies page goes here.
+<div id="contents">
+	<div style="height:1000px;"></div>
+</div>
 
 
 

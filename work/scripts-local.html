@@ -822,6 +822,7 @@ function prepareQEvents(target) {
 //
 
 function prepareLyricSpaces(target) {
+	return; // deactivate for now since text can have nested tspans now.
 	// add spaces after ends of words (for copy/paste from SVG):
 	var ends = target.querySelectorAll("svg g.syl.t text tspan")
 	for (i=0; i<ends.length; i++) {

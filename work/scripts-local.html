@@ -31,15 +31,20 @@ var REFRESH = null;
 var vrvToolkit;
 
 var vrvOptions = {
-	pageWidth: 2500,
-	humType: 1,
-	adjustPageHeight: 1,
-	pageHeight: 1000,
-	nonLinearSpacing: 0.65,
-	spacingSystem: 5,
-	spacingStaff: 5,
-	font: "Leipzig",
-	scale: 40
+	humType           : 1,
+	adjustPageHeight  : 1,
+	pageWidth         : 2500,
+	pageHeight        : 1000,
+	nonLinearSpacing  : 0.65,
+	spacingSystem     : 5,
+	spacingStaff      : 5,
+	font              : "Leipzig",
+	scale             : 40,
+	pageMarginLeft    : 20,
+	pageMarginRight   : 20,
+	pageMarginTop     : 20,
+	pageMarginBottom  : 20,
+	breaks            : "auto"
 };
 
 var CURRENT_PAGE = 1;
@@ -1635,18 +1640,21 @@ function generatePdfFull(event) {
 	var buffer = Uint8Array.from(atob(vrvTTF), c => c.charCodeAt(0));
 	pdf.registerFont('VerovioText', buffer);
 	var localOptions = {
-		pageHeight:        height,
-		pageWidth:         width,
-		border:            50,
-		scale:             97,
-		spacingSystem:     8,
-		spacingStaff:      5,
-		nonLinearSpacing:  0.70,
-		adjustPageHeight:  0,
-		humType:           1,
-		ignoreLayout:      1,
-		mmOutput:          1,
-		font:              "Leipzig"
+		pageHeight        : height,
+		pageWidth         : width,
+		scale             : 97,
+		spacingSystem     : 8,
+		spacingStaff      : 5,
+		nonLinearSpacing  : 0.70,
+		adjustPageHeight  : 0,
+		humType           : 1,
+		mmOutput          : 1,
+		font              : "Leipzig",
+		pageMarginLeft    : 20,
+		pageMarginRight   : 20,
+		pageMarginTop     : 20,
+		pageMarginBottom  : 20,
+		breaks            : "auto"
 	}
 
 	var scoredata = getHumdrumSourceData();

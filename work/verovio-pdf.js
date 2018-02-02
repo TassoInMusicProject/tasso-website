@@ -63,13 +63,22 @@ function generatePdfFull(format, orientation) {
 	var localOptions = {
 		pageHeight:       height,
 		pageWidth:        width,
-		border:           50,
 		scale:            100,
 		spacingSystem:    2,
 		adjustPageHeight: 0,
 		ignoreLayout:     1,
 		mmOutput:         1,
 		font:             "Leipzig"
+		barLineWidth		: 0.12,
+		staffLineWidth		: 0.12,
+		spacingNonLinear	: 0.6,
+		spacingLinear		: 0.25,
+		pageMarginLeft    : 20,
+		pageMarginRight   : 20,
+		pageMarginTop     : 20,
+		pageMarginBottom  : 20,
+		breaks            : "auto",
+
 	}
 	var scoredata = EDITOR.getValue().replace(/^\s+/, "");
 	vrv.renderAllPages(scoredata, localOptions)

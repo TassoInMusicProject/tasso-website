@@ -61,14 +61,14 @@ function generatePdfFull(format, orientation) {
 	var buffer = Uint8Array.from(atob(vrvTTF), c => c.charCodeAt(0));
 	pdf.registerFont('VerovioText', buffer);
 	var localOptions = {
-		pageHeight:       height,
-		pageWidth:        width,
-		scale:            100,
-		spacingSystem:    2,
-		adjustPageHeight: 0,
-		ignoreLayout:     1,
-		mmOutput:         1,
-		font:             "Leipzig"
+		pageHeight        : height,
+		pageWidth         : width,
+		scale             : 100,
+		spacingSystem     : 2,
+		adjustPageHeight  : 0,
+		ignoreLayout      : 1,
+		mmOutput          : 1,
+		font              : "Leipzig"
 		barLineWidth		: 0.12,
 		staffLineWidth		: 0.12,
 		spacingNonLinear	: 0.6,
@@ -77,8 +77,9 @@ function generatePdfFull(format, orientation) {
 		pageMarginRight   : 20,
 		pageMarginTop     : 20,
 		pageMarginBottom  : 20,
-		breaks            : "auto",
-
+		noFooter          : 0,
+		noHeader          : 0,
+		breaks            : "auto"
 	}
 	var scoredata = EDITOR.getValue().replace(/^\s+/, "");
 	vrv.renderAllPages(scoredata, localOptions)

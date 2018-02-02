@@ -6,7 +6,7 @@
   "author": "Raff Viglianti",
   "license": "MIT",
   "dependencies": {
-    "jquery": "~2.1.4",
+    "jquery": "~3.0.0",
     "bootstrap": "~3.3.5",
     "backbone": "~1.2.3",
     "handlebars": "~4.0.4",

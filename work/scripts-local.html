@@ -765,7 +765,7 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 	} else if (CURRENT_PAGE < 1) {
 		CURRENT_PAGE = pagecount;
 	}
-	var svg = vrvToolkit.renderPage(CURRENT_PAGE);
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE);
 	var matches;
 	if (matches = svg.match(/height="(\d+)px"/)) {
 		target.style.height = "";
@@ -884,7 +884,7 @@ function incrementVerovioPage(direction) {
 		return;
 	}
 
-	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
 
 	prepareQEvents(target);
@@ -915,7 +915,7 @@ function firstVerovioPage(direction) {
 		return;
 	}
 
-	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
 
 	prepareQEvents(target);
@@ -946,7 +946,7 @@ function lastVerovioPage(direction) {
 		return;
 	}
 
-	var svg = vrvToolkit.renderPage(CURRENT_PAGE, vrvOptions);
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
 
 	prepareQEvents(target);
@@ -1670,7 +1670,7 @@ function generatePdfFull(event) {
 		pdf.addPage({size: format, layout: orientation});
 		var x = 5;
 		var y = 10;
-		SVGtoPDF(pdf, vrvToolkit.renderPage(i+1, {}), x, y, pdfOptions);
+		SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}), x, y, pdfOptions);
 	}
 	vrvToolkit.redoLayout(oldOptions, true);
 	pdf.end();

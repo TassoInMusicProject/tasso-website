@@ -33,6 +33,9 @@
 @@   OMENSURATION:         Original mensuration
 @@   OKEYSIG:       Original keysignature
 @@   NOTE:          Free-form note about the work.
+@@   BEGIN/END VERSE: Text of the poem.  Each vers entered
+@@                    Using the parameter @VERSE, and each translation
+@@                    entered using the parameter @TVERSE.
 @@   END: RIME_SETTING	this is the end of a rime setting entry
 @@
 @@ special codes:

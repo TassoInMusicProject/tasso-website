@@ -459,7 +459,6 @@ function displayPartNumbers(id) {
 		output += "<i class='fa fa-circle fa-stack-2x'></i>";
 		output += "<strong class='fa-stack-1x text-primary'>";
 		output += aaa;
-console.log("VABBR" , aaa);
 		output += "</strong>";
 		output += "</span>";
 		output += "</span>";
@@ -753,10 +752,11 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 	if (ORIGINAL_CLEFS) {
 		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'original-clef')]";
 	} else {
-		vrvOptions.appXPathQuery = "";
+		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'asdfghjkl')]";
 	}
 
-console.log("vrvOptions", vrvOptions);
+console.log(">>>>>> vrvOptions", vrvOptions);
+
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);
 

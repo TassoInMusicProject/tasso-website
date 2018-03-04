@@ -4,14 +4,14 @@
 "reprole"	:	"repertory",
 "replong"	:	"Musical setings of the poetry of Torquato Tasso",
 "repshort"	:	"Tasso",
-"repwork"	:	22,
+"repwork"	:	23,
 "genres"	:
 	[
-	{"name":"madrigal", "count":24}
+	{"name":"madrigal", "count":25}
 	],
 "liststyle"	:	"genre",
-"notecount"	:	11909,
-"sec"		:	2804,
+"notecount"	:	12374,
+"sec"		:	2897,
 "pg"		:	60,
 "works"		:	
 	[
@@ -35,6 +35,27 @@
 	"vnotecount"	:	[121,111,109,94,65],
 	"ad"		:	20160213,
 	"ud"		:	20171118
+	},
+	{
+	"id"		:	"Trm0024a",
+	"comshort"	:	"Felis",
+	"comlong"	:	"Stefano Felis",
+	"workdate"	:	"1591",
+	"title"		:	"Gi&agrave; non son io contento",
+	"genre"		:	"madrigal",
+	"voices"	:	"5",
+	"vname"		:	["Canto","Quinto","Alto","Tenore","Basso"],
+	"vabbr"		:	["C","Q","A","T","B"],
+	"text"		:	"true",
+	"ih"		:	970,
+	"barcount"	:	23,
+	"brevecount"	:	23,
+	"notecount"	:	465,
+	"sec"		:	93,
+	"pg"		:	0,
+	"vnotecount"	:	[119,99,107,87,53],
+	"ad"		:	20171100,
+	"ud"		:	20180302
 	},
 	{
 	"id"		:	"Trm0047a",
@@ -352,14 +373,14 @@
 	"ud"		:	20160108
 	},
 	{
-	"id"		:	"Trm0418v",
+	"id"		:	"Trm0418zd",
 	"comshort"	:	"Albano",
 	"comlong"	:	"Marcello Albano",
 	"title"		:	"Ardi e gela a tua voglia",
 	"genre"		:	"madrigal",
 	"voices"	:	"3",
-	"vname"		:	["Canto Primo","Alto","Basso"],
-	"vabbr"		:	["C","A","B"],
+	"vname"		:	["Canto Primo","Alto"],
+	"vabbr"		:	["C","A"],
 	"text"		:	"true",
 	"ih"		:	0,
 	"barcount"	:	15,
@@ -367,21 +388,21 @@
 	"notecount"	:	193,
 	"sec"		:	61,
 	"pg"		:	0,
-	"vnotecount"	:	[90,103,0],
+	"vnotecount"	:	[90,103],
 	"ad"		:	20160213,
 	"ud"		:	20171118
 	},
 	{
-	"id"		:	"Trm0418w",
+	"id"		:	"Trm0418ze",
 	"comshort"	:	"Fornaci",
 	"comlong"	:	"Giacomo Fornaci",
 	"title"		:	"Ardi e gela a tua voglia",
 	"genre"		:	"madrigal",
 	"voices"	:	"2",
-	"vname"		:	["part 1","Basso continuo"],
-	"vabbr"		:	["P1","BC"],
+	"vname"		:	["[Canto]","[Basso Continuo]"],
+	"vabbr"		:	["[C]","[BC]"],
 	"text"		:	"true",
-	"ih"		:	0,
+	"ih"		:	373,
 	"barcount"	:	26,
 	"brevecount"	:	26,
 	"notecount"	:	204,

@@ -191,7 +191,7 @@ function GetDataFile(jrpid, prefix, action) {
    InitializeWorklistFlat();
 
    // Get the first section's incipit if a multi-section work:
-   var pieces = jrpid.match(/^([A-Z][a-z][a-z]\d{4}[.\d]*)([a-z]*.*)/);
+   var pieces = jrpid.match(/^([A-Z][a-z][a-z]\d+[.\d]*)([a-z]*.*)/);
    var workid = pieces[1];
    var work = WORKLISTjrpid[workid];
    if (work == null) {
@@ -229,7 +229,7 @@ function GetDataFileAsync(jrpid, prefix, action, callback) {
    InitializeWorklistFlat();
 
    // Get the first section's incipit if a multi-section work:
-   var pieces = jrpid.match(/^([A-Z][a-z][a-z]\d{4}[.\d]*)([a-z]*.*)/);
+   var pieces = jrpid.match(/^([A-Z][a-z][a-z]\d+[.\d]*)([a-z]*.*)/);
    var workid = pieces[1];
    var work = WORKLISTjrpid[workid];
    if (work == null) {

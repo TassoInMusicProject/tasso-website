@@ -448,6 +448,7 @@ function displayPartNumbers(id) {
 	output += "<div style='font-size:1.5em;'>";
 	output += "<nobr>";
 	for (i=0; i<vcount; i++) {
+		var aaa = vabbr[i].replace(/[[]/g, "").replace(/\]/g, "");
 
 		output += "<span ";
 		output += "title='show only part " + (i+1) + " (" + (i+1) + ")"  + "' id='part" + (i+1);
@@ -457,7 +458,8 @@ function displayPartNumbers(id) {
 		output += "<span class='fa-stack fa-3x'>";
 		output += "<i class='fa fa-circle fa-stack-2x'></i>";
 		output += "<strong class='fa-stack-1x text-primary'>";
-		output += vabbr[i];
+		output += aaa;
+console.log("VABBR" , aaa);
 		output += "</strong>";
 		output += "</span>";
 		output += "</span>";
@@ -1032,15 +1034,19 @@ function getRange(id) {
 		return;
 	}
 	var output = "";
-	output += "<h3>Vocal Ranges</h3>";
+	output += "<h3 id='vocal_ranges'>Vocal Ranges</h3>";
 
 	if (sessionStorage[tag]) {
 		if (element) {
 			output += "<div class='indent'>";
-			output += sessionStorage[tag];
-			output += "</div>";
-			element.innerHTML = output;
-			setSvgSize();
+			if (!sessionStorage[tag].match(/no image found for/)) {
+				output += sessionStorage[tag];
+				output += "</div>";
+				element.innerHTML = output;
+				setSvgSize();
+			} else {
+				console.log("ERROR: No vocal range found");
+			}
 		}
 	} else {
 		var action = "prange-svg";
@@ -1055,10 +1061,14 @@ function getRange(id) {
 			sessionStorage[tag] = data;
 			if (element) {
 				output += "<div class='indent'>";
-				output += data;
-				output += "</div>";
-				element.innerHTML = output;
-				setSvgSize();
+				if (!data.match(/no image found for/)) {
+					output += data;
+					output += "</div>";
+					element.innerHTML = output;
+					setSvgSize();
+				} else {
+					console.log("ERROR: No vocal range found online");
+				}
 			}
 		});
 		request.send()
@@ -1105,6 +1115,7 @@ function getRangeNoRecurse(id) {
 	request.open('GET', url);
 	request.addEventListener("load", function() {
 		var data = this.responseText;
+console.log("DATA2", data);
 		sessionStorage[tag] = data;
 	});
 	request.send()
@@ -1408,6 +1419,7 @@ function getTimeKey(id, row) {
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			var data = this.responseText;
+console.log("DATA3", data);
 			sessionStorage[tag] = data;
 			keysig = getKeySig(sessionStorage[tag]);
 			metsig = getMetSig(sessionStorage[tag]);

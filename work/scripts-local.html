@@ -750,12 +750,12 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 	showIncipitState();
 
 	if (ORIGINAL_CLEFS) {
-		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'original-clef')]";
+		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'original-clef')]"];
 	} else {
-		vrvOptions.appXPathQuery = "./rdg[contains(@label, 'asdfghjkl')]";
+		vrvOptions.appXPathQuery = "";
+		delete vrvOptions.appXPathQuery;
 	}
 
-console.log(">>>>>> vrvOptions", vrvOptions);
 
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);

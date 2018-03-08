@@ -752,8 +752,7 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 	if (ORIGINAL_CLEFS) {
 		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'original-clef')]"];
 	} else {
-		vrvOptions.appXPathQuery = "";
-		delete vrvOptions.appXPathQuery;
+		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'asdfghjkl')]"];
 	}
 
 

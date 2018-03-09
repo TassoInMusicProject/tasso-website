@@ -37,7 +37,7 @@ var vrvOptions = {
 	pageHeight        : 1000,
 	spacingNonLinear  : 0.55,
 	spacingSystem     : 5,
-	spacingStaff      : 5,
+	spacingStaff      : 12,
 	font              : "Leipzig",
 	scale             : 40,
 	pageMarginLeft    : 20,
@@ -681,9 +681,9 @@ function getHumdrumSourceData(humid) {
 	}
 	if (!INCLUDE_TEXT) {
 		content += "\n!!!filter: extract -I **text\n";
-		vrvOptions.spacingStaff = 9;
+		vrvOptions.spacingStaff = 12;
 	} else {
-		vrvOptions.spacingStaff = 5;
+		vrvOptions.spacingStaff = 9;
 	}
 
 	if (LAST_QUERY) {
@@ -1659,7 +1659,7 @@ function generatePdfFull(event) {
 		pageWidth         : width,
 		scale             : 97,
 		spacingSystem     : 8,
-		spacingStaff      : 5,
+		spacingStaff      : 12,
 		spacingNonLinear  : 0.65,
 		adjustPageHeight  : 0,
 		humType           : 1,

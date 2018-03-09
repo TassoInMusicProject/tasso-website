@@ -1,0 +1,125 @@
+
+
+<script src="/scripts/scripts-common.js"></script>
+
+<script>
+// vim: ts=3
+
+document.addEventListener("DOMContentLoaded", function() {
+	HighlightNavigationBar();
+	$("#pitch").focus(function() {
+		$(this).data("hasfocus", true);
+	});
+	$(document.body).keyup(function(event) {
+		if (event.which == EnterKey) {
+			if ($("#pitch").data("hasfocus")) {
+				doSearch();
+			}
+		}
+	});
+});
+
+
+
+//////////////////////////////
+//
+// doSearch --
+// 
+
+function doSearch() {
+	var pitch = document.getElementById("pitch");
+	var pquery = pitch.value;
+	var url = "http://josquin.stanford.edu/cgi-bin/tasso?";
+	url += "pitch=" + pquery;
+
+
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (request.readyState == XMLHttpRequest.DONE) {
+			displayResults(request.responseText);
+		} else if (request.status == 400) {
+			console.log("THERE WAS AN ERROR IN THE SEARCH");
+		} else {
+			console.log("STATUS =", request.status);
+		}
+	};
+	request.open("GET", url);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// displayResults
+//
+
+function displayResults(results) {
+	var r = JSON.parse(results);
+	console.log("R", r);
+
+	var summary = document.querySelector("#summary");
+	var stext = "";
+	if (r.matchcount == 0) {
+		stext = "<span style='color:red;'>no matches</span>";
+	} else {
+		stext += r.matchcount;
+		if (r.matchcount == 1) {
+			stext += " matches in "
+		} else {
+			stext += " matches in "
+		}
+		stext += r.movementcount;
+		if (r.movementcount == 1) {
+			stext += " work:";
+		} else {
+			stext += " works:";
+		}
+	}
+	summary.innerHTML = stext;
+
+	var rtable = "<table>";
+	rtable += "<tr><th>count</th><th>work</th></tr>";
+	for (var i=0; i<r.locations.length; i++) {
+		rtable += displayResultRow(r.locations[i]);
+	}
+	rtable += "</table>";
+
+
+	var results = document.querySelector("#results");
+	results.innerHTML = rtable;
+
+}
+
+
+//////////////////////////////
+//
+// displayResultRow --
+//
+
+function displayResultRow(entry) {
+	var url = "http://www.tassomusic.org/work?"
+	var rtext = "<tr>";
+	rtext += "<td>";
+	rtext += entry.count;
+	rtext += "</td>";
+	rtext += "<td>";
+	rtext += "<a href='" + url + "id=" + entry.id + "'>" + entry.id + "</a>";
+	rtext += "</td>";
+
+
+	rtext += "</tr>";
+	return rtext;
+}
+
+
+
+
+
+
+
+
+
+
+
+</script>

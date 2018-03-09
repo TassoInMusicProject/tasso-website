@@ -346,7 +346,7 @@ function getManuscriptSourceTable(rime_entry) {
 
 	if (!items[0].match(/none/)) {
 		output += "<tr>";
-		output += "<th class='yellowish' style='text-align:left'>Solerti&nbsp;sig.</th>";
+		output += "<th class='yellowish' style='text-align:left'>YSolerti&nbsp;sig.</th>";
 		output += "<th class='yellowish' style='text-align:left'>Source</th>";
 		output += "</tr>";
 	}
@@ -381,6 +381,7 @@ function getManuscriptSourceTable(rime_entry) {
 //         "LOCATION": "Biblioteca Ambrosiana, Milano",
 //         "DATING": "16th century",
 //         "DESCRIPTION": "miscellaneous codex, containing copies of 6 lyric poems by Tasso"
+//         "URL": link to the manuscript source online.
 //
 
 function getDescriptionManuscript(item, tag, data) {
@@ -402,11 +403,17 @@ function getDescriptionManuscript(item, tag, data) {
 	var di = data[index];
 
 	if (di.SIGLUM) {
-		output += di.SIGLUM + ", ";
+		output += di.SIGLUM;
+		output += ", ";
 	}
 	if (di.LOCATION) {
 		output += di.LOCATION;
 	}
+
+	if (di.URL) {
+		output = "<a target='_new' href='" + di.URL + "'>" + output + "</a>";
+	}
+
 	output += "<br>";
 	if (di.DESCRIPTION) {
 		output += di.DESCRIPTION;

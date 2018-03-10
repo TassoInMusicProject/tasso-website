@@ -1230,10 +1230,29 @@ function sortByNumber(index) {
 
 //////////////////////////////
 //
-// expandIncipit --
+// ExpandIncipit --
 //
 
-function expandIncipit() {
+function ExpandIncipit() {
+	if (INCIPIT_STYLE) {
+		// already expanded
+		return;
+	}
+	var element = document.querySelector("#expand");
+	var text = element.textContent;
+	INCIPIT_STYLE = 1;
+	showIncipitState();
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
+// toggleIncipit --
+//
+
+function toggleIncipit() {
 	var element = document.querySelector("#expand");
 	var text = element.textContent;
 	INCIPIT_STYLE = !INCIPIT_STYLE;
@@ -1689,6 +1708,27 @@ function generatePdfFull(event) {
 	return false;
 }
 
+
+/////////////////////////////
+//
+// gotoMeasure --
+//
+
+function gotoMeasure(measurenum) {
+	ExpandIncipit();
+	var svg = document.querySelector("svg");
+	var measure = svg.querySelector(".m-"+measurenum);
+	measure.scrollIntoView();
+//	var offset = $(".m-"+measurenum).offset();
+//	offset.left -= 20;
+//	offset.top -= 20;
+//console.log("OFFSET", offset);
+//	$('html, body').animate({
+//		srollTop: offset.top,
+//		scrollLeft: offset.left
+//	});
+
+}
 
 </script>
 

@@ -156,7 +156,7 @@ function createMeasureRange() {
 	if (endval !== false) {
 		range += "-" + endval;
 	}
-	var output = "<nobr class='mm" + range + "'>";
+	var output = "<nobr onclick='gotoMeasure(" + startval + ");' class='mm" + range + "'>";
 	if (!name.match(/x/i)) {
 		output += name;
 		if (!nodot) {

@@ -5,6 +5,8 @@
 <script>
 // vim: ts=3
 
+var RWORKLIST;
+
 document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
 	$("#pitch").focus(function() {
@@ -17,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
 			}
 		}
 	});
+
+	buildReverseWorklist();
 });
 
 
@@ -79,7 +83,11 @@ function displayResults(results) {
 	summary.innerHTML = stext;
 
 	var rtable = "<table>";
-	rtable += "<tr><th>count</th><th>work</th></tr>";
+	rtable += "<tr>";
+	rtable += "<th style='width:70px;'>count</th>";
+	rtable += "<th>composer</th>";
+	rtable += "<th>work</th>";
+	rtable += "</tr>";
 	for (var i=0; i<r.locations.length; i++) {
 		rtable += displayResultRow(r.locations[i]);
 	}
@@ -98,26 +106,42 @@ function displayResults(results) {
 //
 
 function displayResultRow(entry) {
+	var meta = RWORKLIST[entry.id];
+	var title = meta.title;
+	var composer = meta.comshort;
 	var url = "http://www.tassomusic.org/work?"
 	var rtext = "<tr>";
+
 	rtext += "<td>";
 	rtext += entry.count;
 	rtext += "</td>";
+
 	rtext += "<td>";
-	rtext += "<a href='" + url + "id=" + entry.id + "'>" + entry.id + "</a>";
+	rtext += composer;
 	rtext += "</td>";
 
+	rtext += "<td>";
+	rtext += "<a href='" + url + "id=" + entry.id + "'>" + title + "</a>";
+	rtext += "</td>";
 
 	rtext += "</tr>";
 	return rtext;
 }
 
 
+//////////////////////////////
+//
+// buildReveseWorklist --
+//
 
-
-
-
-
+function buildReverseWorklist() {
+	WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+	RWORKLIST = {};
+	var wl = WORKLIST[0].works;
+	for (var i in wl) {
+		RWORKLIST[wl[i].id] = wl[i];
+	}
+}
 
 
 

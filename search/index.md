@@ -8,15 +8,18 @@ jquery: true
 
 
 <form action="#">
-	<div class="form-group">
+	<span class="form-group">
 		<input id="pitch" type="text" class="form-control" placeholder="Enter Pitch">
-	</div>
-	<select>
-		<option>Rime</option>
-		<option disabled>Gerusalemme</option>
-		<option disabled>Aminta</option>
-		<option disabled>All</option>
-	</select>
+	</span>
+	<span class="form-group">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repertory:
+		<select>
+			<option>Rime</option>
+			<option disabled>Gerusalemme</option>
+			<option disabled>Aminta</option>
+			<option disabled>All</option>
+		</select>
+	</span>
 </form>
 
 <div style="margin-top:50px"></div>
@@ -27,9 +30,21 @@ jquery: true
 <div id="results"></div>
 
 <style>
+
 th {
 	font-style: italic;
+	text-align: left;
 }
+
+td {
+	vertical-align: top;
+}
+
+td:nth-child(2) {
+	vertical-align: top;
+	padding-right:20px;
+}
+
 </style>
 
 

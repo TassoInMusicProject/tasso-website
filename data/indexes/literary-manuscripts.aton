@@ -1,4 +1,14 @@
 
+@@       @@START: MANUSCRIPT
+@@       @SMSIGLUM:
+@@       @SIGLUM:
+@@       @LOCATION:    Location of manuscript
+@@       @DATING:      Era of manuscript
+@@       @DESCRIPTION: Description of manuscript
+@@       @URL:         URL link to manuscript online
+@@       @@END: MANUSCRIPT
+
+
 @@START: MANUSCRIPT
 @SMSIGLUM: A<sub>1</sub>
 @SIGLUM: R.96 sup.

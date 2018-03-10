@@ -9,15 +9,21 @@ var RWORKLIST;
 
 document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
+
 	$("#pitch").focus(function() {
 		$(this).data("hasfocus", true);
 	});
+
 	$(document.body).keyup(function(event) {
-		if (event.which == EnterKey) {
-			if ($("#pitch").data("hasfocus")) {
+		//if (event.which == EnterKey) {
+			if ($("#pitch:focus")) {
+				doSearch();
+			} else if ($("#interval:focus")) {
+				doSearch();
+			} else if ($("#rhythm:focus")) {
 				doSearch();
 			}
-		}
+		//}
 	});
 
 	buildReverseWorklist();
@@ -33,8 +39,29 @@ document.addEventListener("DOMContentLoaded", function() {
 function doSearch() {
 	var pitch = document.getElementById("pitch");
 	var pquery = pitch.value;
+
+	var interval = document.getElementById("interval");
+	var iquery = interval.value;
+
+	var rhythm = document.getElementById("rhythm");
+	var rquery = rhythm.value;
+
+	if (
+			pquery.match(/^\s*$/) &&
+			iquery.match(/^\s*$/) &&
+			rquery.match(/^\s*$/)
+			) {
+		var results = document.querySelector("#results");
+		var summary = document.querySelector("#summary");
+		results.textContent = "";
+		summary.textContent = "";
+		return;
+	}
+
 	var url = "http://josquin.stanford.edu/cgi-bin/tasso?";
-	url += "pitch=" + pquery;
+	url += "pitch="     + pquery;
+	url += "&interval=" + iquery;
+	url += "&rhythm="   + rquery;
 
 
 	var request = new XMLHttpRequest();
@@ -62,10 +89,14 @@ function displayResults(results) {
 	var r = JSON.parse(results);
 	console.log("R", r);
 
+	var results = document.querySelector("#results");
 	var summary = document.querySelector("#summary");
+
 	var stext = "";
 	if (r.matchcount == 0) {
-		stext = "<span style='color:red;'>no matches</span>";
+		summary.innerHTML = "<span style='color:red;'>no matches</span>";
+		results.innerHTML = "";
+		return;
 	} else {
 		stext += r.matchcount;
 		if (r.matchcount == 1) {
@@ -73,7 +104,7 @@ function displayResults(results) {
 		} else {
 			stext += " matches in "
 		}
-		stext += r.movementcount;
+		stext += r.locations.length;
 		if (r.movementcount == 1) {
 			stext += " work:";
 		} else {
@@ -92,11 +123,7 @@ function displayResults(results) {
 		rtable += displayResultRow(r.locations[i]);
 	}
 	rtable += "</table>";
-
-
-	var results = document.querySelector("#results");
 	results.innerHTML = rtable;
-
 }
 
 

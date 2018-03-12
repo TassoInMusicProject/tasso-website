@@ -36,11 +36,19 @@ Daniel Donnelly (University of Toronto)
 </div>
 
 <div class="person">
-Roseen Giles (Colby College)
+Roseen Giles (Duke University)
+</div>
+
+<div class="person">
+Janet Gomez, literary transcriptions (Johns Hopkins University)
 </div>
 
 <div class="person">
 Marcello Mazzetti (University of Southampton)
+</div>
+
+<div class="person">
+Amyrose McCue Gill, translations (TextFormations)
 </div>
 
 <div class="person">
@@ -79,7 +87,7 @@ Franco Piperno (University of Rome)
 </div>
 
 <div class="person">
-Eugenio Refini (John Hopkins University)
+Eugenio Refini (Johns Hopkins University)
 </div>
 
 <div class="person">

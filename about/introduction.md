@@ -7,7 +7,7 @@ Carried out by a team of scholars from the US and Europe, with the technical sup
 
 Through its musical and literary content, as well as through its digital features, the project aims benefit a wide audience encompassing music historians and theorists, performers of early music, literary scholars and philologists interested in the dissemination and reception of Tasso’s works, and more generally scholars of the early modern period with an interest in the intersection of music and poetry. 
 
-For further information on how to use the website, please click on the tab “How to use TiMP” at the top of this page. For information about the editorial and encoding methods of the project, please visit the page “[/about/policies](Editorial Policies).” Any queries can be directed to the Project Director and General Editor, Emiliano Ricciardi, and to the Project Technical Director, Craig Sapp, through the FEEDBACK button at the bottom of the page. We hope that you will find the project useful to your endeavors, scholarly and otherwise, and look forward to your feedback.
+For further information on how to use the website, please click on the tab “How to use TiMP” at the top of this page. For information about the editorial and encoding methods of the project, please visit the page “[Editorial Policies](/about/policies).” Any queries can be directed to the Project Director and General Editor, Emiliano Ricciardi, and to the Project Technical Director, Craig Sapp, through the FEEDBACK button at the bottom of the page. We hope that you will find the project useful to your endeavors, scholarly and otherwise, and look forward to your feedback.
 
 Emiliano Ricciardi (University of Massachusetts Amherst), Project Director and General Editor
 

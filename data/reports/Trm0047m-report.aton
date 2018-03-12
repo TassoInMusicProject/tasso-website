@@ -2,6 +2,8 @@
 
 @CATALOGNUM: Trm0047m
 
+@EDITOR: Ricciardi, Emiliano
+
 @PRINCIPAL_SOURCE:
 	<i>Fiori musicali di diversi auttori a tre voci.
 	Libro secondo. Nuovamente composti, & dati in luce</i>.
@@ -10,6 +12,11 @@
 	[Princeps edition --- complete: CTB]
 	<br>
 	Digital reproduction of exemplar from {{siglum "A-Wn"}}
+	
+@PRICIPAL_SOURCE_DEDICATEE:
+	Francesco Sugana
+	<br>
+	The dedication is signed by Iacomo (Giacomo) Vincenzi, the compiler of the anthology.
 
 @OTHER_SOURCE:
 	<i>Fiori musicali di diversi auttori a tre voci. Libro secondo.
@@ -68,6 +75,7 @@
 	1581 setting of the same poem also features hexachords (see
 	{{work "Trm0047b"}}).
 
+@OTHER_MODERN_EDITION: none
 
 @@END: CRITICAL_REPORT
 

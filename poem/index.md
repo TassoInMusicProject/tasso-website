@@ -1,6 +1,7 @@
 ---
 scripts-local: true
 style-local: true
+handlebars: true
 vim: ts=3
 aton: true
 permalink: /poem/index.html

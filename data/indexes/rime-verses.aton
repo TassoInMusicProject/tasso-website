@@ -239,17 +239,17 @@
 @GENRE:		madrigale/ballata
 @MANUSRC:	Amz, Brn, C, E<sub>1</sub>, F<sub>2</sub>, I<sub>3</sub>, M<sub>7</sub>, P<sub>4</sub>, Tr<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>
 @PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67
-@ABOUTIT:       Ballando con la sua donna desidera di fare amorosa vendetta de la sua mano ch’egli teneva stretta. 
-@ABOUTEN:       Dancing with his lady he desires to take amorous revenge of the hand he held tight.
 @@BEGIN:	VERSES
-@EDITOR:       Solerti, Angelo
+@ABOUTIT:	Ballando con la sua donna desidera di fare amorosa vendetta de la sua mano ch’egli teneva stretta. 
+@ABOUTEN:	Dancing with his lady he desires to take amorous revenge of the hand he held tight.
+@EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
-@EDITION_LOC:   Bologna
-@EDITION_PUB:   Romagnoli-Dall’Acqua
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:   2
+@EDITION_VOL:	2
 @EDITOIN_PAGE:  71
-@@TRANSLATOR:   Ricciardi, Emiliano
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Non &egrave; questa la mano,
 	Che tante e s&igrave; mortali
@@ -263,41 +263,69 @@
 	Amor, qualche vendetta,
 	E se piaghe mi di&eacute; baci le renda.
 @TVERSE:
+	Isn’t this the hand
+	That threw so many fatal
+	Flames and arrows at my heart?
+	Yet here it is,
+	Held fast between my hands,
+	And no power or artifice can help it escape
+	Nor does it hold a torch or a spear
+	To defend her against me.
+	It’s fair that I take
+	Some kind of revenge, o Love,
+	And if she gives me wounds, I’ll give her kisses.
 @@END:		VERSES
-@NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice Chigiano L VIII 302)</i>, 
-		eds. Franco Gavazzeni and Vercingetorige Martignone, vol. 4 of 
-		<i>Edizione Nazionale delle opere di Torquato Tasso</i> 
+@NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
+		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
+		Vercingetorige Martignone, vol. 4 of <i>Edizione
+		Nazionale delle opere di Torquato Tasso</i>
 		(Alessandria: Edizioni Dell’Orso, 2004), 34.
-@ATTRIBUTION:   Secure
-
-		Among other authoritative sources (see Literary Sources), this poem appears in the 
-		autograph Chigiano L.VIII.302 (Biblioteca Vaticana, Rome), compiled around 1584&ndash;85.
+@ATTRIBUTION:	Secure
+		<br>
+		Among other authoritative sources (see Literary
+		Sources), this poem appears in the autograph Chigiano
+		L.VIII.302 (Biblioteca Vaticana, Rome), compiled
+		around 1584&ndash;85.
 @DATING:	Before 1579
-
-		Although Solerti dates this poem to the early 1560s, there is no hard evidence to 
-		support this dating. The earliest written testimony of “Non è questa la mano” is 
-		Benedetto Pallavicino’s musical setting, published in 1579 (Trm0047a)
+		<br>
+		Although Solerti dates this poem to the early 1560s,
+		there is no hard evidence to support this dating.
+		The earliest written testimony of “Non è questa la
+		mano” is Benedetto Pallavicino’s musical setting,
+		published in 1579 (Trm0047a)
 @DEDICATEE:	Lucrezia Bendidio?
-
-		In the autograph Chigiano L.VIII.302 (Biblioteca Vaticana, Rome), this poem appears among 
-		those addressed to Tasso’s primo amore (first love), identified by Solerti as the Ferrarese 
-		singer and noblewoman Lucrezia Bendidio 
-		(1547-after 1584; http://www.treccani.it/enciclopedia/lucrezia-bendidio_%28Dizionario-Biografico%29/#). 
-		The poem itself, however, does not mention Lucrezia, leaving open the possibility that Tasso 
-		might have originally addressed the poem to a generic woman, including it at a later 
-		stage among those for his <i>primo amore</i>.
-@COMMENTARY:	As Anthony Newcomb has pointed out{footnote: Anthony Newcomb, “The Ballata and the ‘Free’ Madrigal 
-		in the Second Half of the Sixteenth Century,” Journal of the American Musicological 
-		Society, vol. 63, no. 3 (Fall 2010): 433-34.}, this poem belongs to the hybrid genre of the 
-		ballata-madrigale.  
-		More specifically, the opening tercet recalls the <i>ripresa</i> of a ballata, the central section 
-		the <i>piedi</i> (two pairs of <i>settenarii</i> separated by an <i>endecasillabo</i>), and the final tercet the 
-		<i>volta</i>. The poem is extremely rich of references to <i>topoi</i> that resonated with the culture 
-		of the time, such as courtly dance and the female hand–the latter is especially common 
-		in late sixteenth-century lyric poetry (see <i>Rime</i> 315, 571, and 862). Counting 23 
-		settings (see Musical Settings), “Non è questa la mano” is second only to 
-		“Ardi e gela a tua voglia” (<i>Rime</i> 418), whose musical fortune, however, is tied to 
-		that of Guarini’s <i>proposta</i> “Ardo sì, ma non t’amo.”		
+		<br>
+		In the autograph Chigiano L.VIII.302 (Biblioteca
+		Vaticana, Rome), this poem appears among those
+		addressed to Tasso’s primo amore (first love),
+		identified by Solerti as the Ferrarese singer and noblewoman 
+		<a target="_new" href="http://www.treccani.it/enciclopedia/lucrezia-bendidio_%28Dizionario-Biografico%29">Lucrezia Bendidio</a>
+		(1547&ndash;after 1584);
+		The poem itself, however, does not mention Lucrezia,
+		leaving open the possibility that Tasso might have
+		originally addressed the poem to a generic woman,
+		including it at a later stage among those for his
+		<i>primo amore</i>.
+@COMMENTARY:    As Anthony Newcomb has pointed out{footnote: Anthony
+		Newcomb, “The Ballata and the ‘Free’ Madrigal in
+		the Second Half of the Sixteenth Century,” Journal
+		of the American Musicological Society, vol. 63, no.
+		3 (Fall 2010): 433&ndash;34.}, this poem belongs to the
+		hybrid genre of the ballata-madrigale.  More
+		specifically, the opening tercet recalls the
+		<i>ripresa</i> of a ballata, the central section
+		the <i>piedi</i> (two pairs of <i>settenarii</i>
+		separated by an <i>endecasillabo</i>), and the final
+		tercet the <i>volta</i>. The poem is extremely rich
+		of references to <i>topoi</i> that resonated with
+		the culture of the time, such as courtly dance and
+		the female hand–the latter is especially common in
+		late sixteenth-century lyric poetry (see <i>Rime</i>
+		315, 571, and 862). Counting 23 settings (see Musical
+		Settings), “Non è questa la mano” is second only
+		to “Ardi e gela a tua voglia” (<i>Rime</i> 418),
+		whose musical fortune, however, is tied to that of
+		Guarini’s <i>proposta</i> “Ardo sì, ma non t’amo.”
 @@END:		RIME
 
 @@BEGIN:	RIME

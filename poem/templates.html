@@ -1,0 +1,546 @@
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+<!--
+	vim: ts=3 ft=javascript
+-->
+
+
+<!-- About-page header -->
+
+{% raw %}
+<script id="about-header-template" type="text/x-handlebars-template">
+	<center>
+		<table style=' width=100%; padding-left:50px; padding-right:50px; width:100%'>
+		<tr>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayPreviousSource();'>
+					<span style='letter-spacing:-7pt;'>
+						&#9664;&#9664;
+					</span>
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h1>About</h1>
+			</td>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayNextSource();'>
+				<span style='position:relative;left:-8px; letter-spacing:-7pt;'>
+					&#9654;&#9654;
+				</span>
+			</td>
+	</tr>
+	</table>
+</center>
+
+<center>
+	<table style='margin-top:-50px; padding-left:50px; padding-right:50px; width:100%'>
+		<tr>
+			<td class='triangle'><span class='triangle' onclick='displayPreviousSource();'>
+				&#9664;
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h2>{{{formatTitle TITLE}}}  (<i>Rime</i> {{{SOLERTI}}})</h2>
+			</td>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayNextSource();'>
+					&#9654;
+				</span>
+			</td>
+		</tr>
+	</table>
+</center>
+
+</script>
+{% endraw %}
+
+
+
+<!-- About template -->
+
+{% raw %}
+<script id="about-template" type="text/x-handlebars-template">
+
+<div class="maincontent">
+
+<table class="poem">
+
+<tr>
+	<td width=50%>
+		<div class="htext">{{{VERSES.ABOUTIT}}}</div>
+	</td>
+	<td width=50%>
+		<div class="htext">{{{VERSES.ABOUTEN}}}</div>
+	</td>
+</tr>
+
+{{{verses VERSES.VERSE VERSES.TVERSE}}}
+{{{edtrans VERSES.EDITOR VERSES.TRANSLATOR}}}
+
+</table>
+
+<span class="infodata">
+	{{{newcrited NEW_CRIT_ED SOLERTI}}}
+	{{{attribution ATTRIBUTION SOLERTI}}}
+	{{{dating DATING SOLERTI}}}
+	{{{dedicatee DEDICATEE SOLERTI}}}
+	{{{commentary COMMENTARY SOLERTI}}}
+<span>
+
+<div>
+	
+<style>
+
+.infodata {
+	line-height: 150%;
+}
+
+.indent {
+ 	margin-left: 75px;
+ 	margin-right: 150px;
+}
+
+.maincontent {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+table.poem {
+	width: 100%;
+	margin-left:  -40px;
+	margin-right: 10px;
+}
+
+.poem td {
+	backgound-color: blue;
+}
+
+.htext {
+	font-size: 80%;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.header {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.first-line {
+	padding-left: 0px;
+	white-space: nowrap;
+}
+
+.other-line {
+	padding-left: 40px;
+	white-space: nowrap;
+}
+
+
+td.tcell {
+	padding-left: 70px;
+	padding-top: 40px;
+	color: #955;
+}
+
+</style>
+
+
+</script>
+{% endraw %}
+
+<!-- worklist-template
+		The worklist template is used to fill in the list of available works.
+-->
+
+
+<!-- singlework-template
+		The singlework template is used to fill in work page for a particular work.
+-->
+
+{% raw %}
+<script id="singlework-template" type="text/x-handlebars-template">
+
+
+	<h3>Data Transformations for {{CATALOGNUM}}</h3>
+	<div class="indent">
+	<table class="downloads">
+	<tr>
+		<td>
+			<ul>
+<!--
+				<li> <a class="icon-file"      
+					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notation&f={{CATALOGNUM}}">PDF&nbsp;score</a></li>
+-->
+				<li> <a class="icon-file" onclick="generatePdfFull(event)" href="#">PDF&nbsp;score</a></li>
+				<li> <a class="icon-midi"      
+					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
+				<li> <a class="icon-file-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
+			</ul>
+		</td>
+
+		<td>
+			<ul>
+				<li> <a class="icon-list" 
+					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=humdrum&f={{CATALOGNUM}}">Humdrum</a></li>
+				<li> <a class="icon-list" 
+					taget="new" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
+			</ul>
+		</td>
+
+		<td>
+			<ul>
+				<li> <a class="icon-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
+<!--
+				<li> <a class="icon-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notearray&f={{CATALOGNUM}}">NoteArray</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=proll&f={{CATALOGNUM}}">Piano Roll</a></li>
+-->
+			</ul>
+		</td>
+
+	</tr>
+	</table>
+	</div>
+
+
+	<h3 style="margin-top:0; patting-top:0;"> Analysis Tools </h3>
+
+	<ul style="margin-left:60px;">
+	<li> <a taget="new" href="/lyrics?id={{CATALOGNUM}}">Lyric text</a>: automatically extraction of sung text by voice with word counts.
+	<li> <a target="new" href="/proll?id={{CATALOGNUM}}">proll</a>: graphical notation of pitch and rhythm, colored by voice.
+	<li> <a target="new" href="http://verovio.humdrum.org/?tasso={{CATALOGNUM}}">VHV</a>: Load work into the Verovio Humdrum Viewer, an interactive online Humdrum editor.
+	</ul>
+
+	<div id="range"></div>
+
+
+  {{{oldverses VERSES TRANSLATION CATALOGNUM}}}
+
+	<span id="report_{{CATALOGNUM}}"></span>
+
+	<script id="humdrum-data" type="application/x-humdrum"></script>
+
+</script>
+{% endraw %}
+
+<script>
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Handlebar helper functions --
+//
+
+
+//////////////////////////////
+//
+// verses Handlebar helper -- Assuming translation has the same
+//     dimension as verses.
+//
+
+Handlebars.registerHelper("verses", function(italian, english) {
+	var output = "";
+	if (!italian) {
+		return output;
+	}
+
+
+
+	if (italian instanceof Array) {
+		// deal with later
+	} else {
+		v = italian.split(/\n/);
+		vv = english.split(/\n/);
+		for (var i in v) {
+			output += "<tr>";
+			output += "<td>";
+			if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+			output += "</td>";
+			output += "<td>";
+			if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
+			output += "</td>";
+			output += "</tr>";
+		}
+	}
+
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// oldverses Handlebar helper -- Assuming translation has the same
+//     dimension as verses.
+//
+
+Handlebars.registerHelper("oldverses", function(verses, translation, catnum) {
+	var rime = catnum.match(/Trm0*(\d+)/)[1];
+	
+	if (!verses) {
+		return "";
+	}
+	var v;
+	var t;
+	var output = "<h3> Text and Translation";
+	output += "<span class='variant'>(";
+	output += "<a href='/variants?rime=";
+	output += rime;
+	output += "'>";
+	output += "go to text variants";
+	output += "</a>";
+	output += ")</span>";
+	output += "</h3>";
+	output += "<div class='indent'>";
+	output += "<table class=poem>";
+	if (verses.VERSE instanceof Array) {
+		output += "<tr>";
+		output += "<td>";
+		output += verses.VERSE.length
+	} else {
+		output += "<tr>";
+		output += "<td>";
+		v = verses.VERSE.split(/\n/);
+		for (var i in v) {
+			if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "<td>";
+		t = translation.VERSE.split(/\n/);
+		for (var i in t) {
+			if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "</tr>";
+	}
+	output += "</table>";
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper  -- format peoples' names.
+//
+
+Handlebars.registerHelper("formatTitle", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("EMPTY");
+	}
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// id2rime Handlebar helper  -- Extract Rime number from catalog number.
+//
+
+Handlebars.registerHelper("id2rime", function(text) {
+	var matches;
+	var output = 0;
+	if (matches = text.match(/^Trm0*(\d+)/)) {
+		output = matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// attribution --
+//
+
+Handlebars.registerHelper("attribution",  function (attribution, solerti) {
+	var output = "";
+	if (!attribution) {
+		return new Handlebars.SafeString(output);
+	}
+	var id = makeId(solerti, "Trm");
+	output += "<h3 class='header'>Attribution</h3>";
+	output += "<div class='indent'>";
+	attribution = addLiterarySourceLink(attribution, solerti);
+	output += attribution;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// dating --
+//
+
+Handlebars.registerHelper("dating",  function (dating) {
+	var output = "";
+	if (!dating) {
+		return new Handlebars.SafeString(output);
+	}
+	output += "<h3 class='header'>Dating</h3>";
+	output += "<div class='indent'>";
+	output += dating;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// dedicatee --
+//
+
+Handlebars.registerHelper("dedicatee",  function (dedicatee) {
+	var output = "";
+	if (!dedicatee) {
+		return new Handlebars.SafeString(output);
+	}
+	output += "<h3 class='header'>Dedicatee</h3>";
+	output += "<div class='indent'>";
+	output += dedicatee;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// commentary --
+//
+
+Handlebars.registerHelper("commentary",  function (commentary) {
+	var output = "";
+	if (!commentary) {
+		return new Handlebars.SafeString(output);
+	}
+	output += "<h3 class='header'>Commentary</h3>";
+	output += "<div class='indent'>";
+	output += commentary;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// newcrited --
+//
+
+Handlebars.registerHelper("newcrited",  function (newcrited) {
+	var output = "";
+	if (!newcrited) {
+		return new Handlebars.SafeString(output);
+	}
+	output += "<h3 class='header'>New Critical Edition</h3>";
+	output += "<div class='indent'>";
+	output += newcrited;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// makeId -- Create Catalog number from Solerti Rime #.
+//
+
+function makeId(solerti, prefix) {
+	var id = prefix;
+	if (solerti < 1000) { id += "0"; }
+	if (solerti < 100 ) { id += "0"; }
+	if (solerti < 10  ) { id += "0"; }
+	id += solerti;
+	return id;
+}
+
+
+//////////////////////////////
+//
+// addLiterarySourceLink --
+//
+
+function addLiterarySourceLink(text, solerti) {
+	match = text.match(/(.*)(see\s+Literary\s+Sources)(.*)/);
+	if (!match) {
+		return text;
+	}
+	var prefix = match[1];
+	var postfix = match[3];
+	var output = prefix;
+	output += "<a target='_new' href='/sources/?rime=";
+	output += solerti;
+	output += "'>see Literary Sources</a>";
+	output += postfix;
+	return output;
+}
+
+
+//////////////////////////////
+//
+// edtrans
+//
+
+Handlebars.registerHelper("edtrans",  function (editor, translator) {
+	var output = "<tr>";
+	output += "<td class='tcell'>";
+	var editor = reverseName(editor);
+	if (editor) {
+		output += "Ed. " + editor;
+	}
+	output += "</td>";
+	output += "<td class='tcell'>";
+	var translator = reverseName(translator);
+	if (translator) {
+		output += "Trans. " + translator;
+	}
+	output += "</td>";
+	output += "</tr>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// reverseName --
+//
+
+function reverseName(text) {
+	if (!text) {
+		return "";
+	}
+	match = text.match(/(.*),\s+(.*)/);
+	if (!match) {
+		return text;
+	}
+	var output = match[2];
+	output += " ";
+	output += match[1];
+	return output;
+}
+
+</script>
+
+
+
+

@@ -479,6 +479,11 @@ function makeId(solerti, prefix) {
 //
 
 function addLiterarySourceLink(text, solerti) {
+	var pieces = text.split("\n");
+	text = "";
+	for (var i=0; i<pieces.length; i++) {
+		text += " " + pieces[i];
+	}
 	match = text.match(/(.*)(see\s+Literary\s+Sources)(.*)/);
 	if (!match) {
 		return text;

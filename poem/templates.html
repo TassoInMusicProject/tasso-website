@@ -247,13 +247,17 @@ Handlebars.registerHelper("verses", function(italian, english) {
 		return output;
 	}
 
-
-
 	if (italian instanceof Array) {
 		// deal with later
 	} else {
-		v = italian.split(/\n/);
-		vv = english.split(/\n/);
+		var v = [];
+		var vv = [];
+		if (italian) {
+			v = italian.split(/\n/);
+		}
+		if (english) {
+			vv = english.split(/\n/);
+		}
 		for (var i in v) {
 			output += "<tr>";
 			output += "<td>";
@@ -261,8 +265,12 @@ Handlebars.registerHelper("verses", function(italian, english) {
 			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
 			output += "</td>";
 			output += "<td>";
-			if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
-			} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
+			if (vv[i]) {
+				if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
+			} else {
+				// do nothing: need to add translation to contents
+			}
 			output += "</td>";
 			output += "</tr>";
 		}
@@ -286,8 +294,8 @@ Handlebars.registerHelper("oldverses", function(verses, translation, catnum) {
 	if (!verses) {
 		return "";
 	}
-	var v;
-	var t;
+	var v = [];
+	var t = [];
 	var output = "<h3> Text and Translation";
 	output += "<span class='variant'>(";
 	output += "<a href='/variants?rime=";
@@ -306,14 +314,18 @@ Handlebars.registerHelper("oldverses", function(verses, translation, catnum) {
 	} else {
 		output += "<tr>";
 		output += "<td>";
-		v = verses.VERSE.split(/\n/);
+		if (verses.VERSE) {
+			v = verses.VERSE.split(/\n/);
+		}
 		for (var i in v) {
 			if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
 			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
 		}
 		output += "</td>";
 		output += "<td>";
-		t = translation.VERSE.split(/\n/);
+		if (translation.VERSE) {
+			t = translation.VERSE.split(/\n/);
+		}
 		for (var i in t) {
 			if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
 			} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
@@ -479,7 +491,10 @@ function makeId(solerti, prefix) {
 //
 
 function addLiterarySourceLink(text, solerti) {
-	var pieces = text.split("\n");
+	var pieces = [];
+	if (text) {
+		pieces = text.split("\n");
+	}
 	text = "";
 	for (var i=0; i<pieces.length; i++) {
 		text += " " + pieces[i];

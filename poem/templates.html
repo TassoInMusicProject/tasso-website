@@ -249,36 +249,47 @@ Handlebars.registerHelper("verses", function(italian, english) {
 
 	if (italian instanceof Array) {
 		// deal with later
+		for (var i=0; i<italian.length; i++) {
+			output += generateDualVerse(italian[i], english[i]);
+		}
 	} else {
-		var v = [];
-		var vv = [];
-		if (italian) {
-			v = italian.split(/\n/);
-		}
-		if (english) {
-			vv = english.split(/\n/);
-		}
-		for (var i in v) {
-			output += "<tr>";
-			output += "<td>";
-			if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
-			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
-			output += "</td>";
-			output += "<td>";
-			if (vv[i]) {
-				if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
-				} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
-			} else {
-				// do nothing: need to add translation to contents
-			}
-			output += "</td>";
-			output += "</tr>";
-		}
+		output += generateDualVerse(italian, english);
 	}
-
-
 	return new Handlebars.SafeString(output);
 });
+
+
+
+function generateDualVerse(italian, english) {
+	var output = "";
+	var v = [];
+	var vv = [];
+	if (italian) {
+		v = italian.split(/\n/);
+	}
+	if (english) {
+		vv = english.split(/\n/);
+	}
+	for (var i in v) {
+		output += "<tr>";
+		output += "<td>";
+		if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+		} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+		output += "</td>";
+		output += "<td>";
+		if (vv[i]) {
+			if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
+		} else {
+			// do nothing: need to add translation to contents
+		}
+		output += "</td>";
+		output += "</tr>";
+	}
+	return output;
+}
+
+
 
 
 

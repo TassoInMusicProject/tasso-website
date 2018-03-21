@@ -250,7 +250,11 @@ Handlebars.registerHelper("verses", function(italian, english) {
 	if (italian instanceof Array) {
 		// deal with later
 		for (var i=0; i<italian.length; i++) {
-			output += generateDualVerse(italian[i], english[i]);
+			if (english) {
+				output += generateDualVerse(italian[i], english[i]);
+			} else {
+				output += generateDualVerse(italian[i], undefined);
+			}
 		}
 	} else {
 		output += generateDualVerse(italian, english);
@@ -259,6 +263,11 @@ Handlebars.registerHelper("verses", function(italian, english) {
 });
 
 
+
+//////////////////////////////
+//
+// generateDualVerse --
+//
 
 function generateDualVerse(italian, english) {
 	var output = "";
@@ -270,18 +279,19 @@ function generateDualVerse(italian, english) {
 	if (english) {
 		vv = english.split(/\n/);
 	}
-	for (var i in v) {
+	for (var i=0; i<v.length; i++) {
 		output += "<tr>";
 		output += "<td>";
 		if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
 		} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
 		output += "</td>";
 		output += "<td>";
-		if (vv[i]) {
-			if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
-			} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
-		} else {
-			// do nothing: need to add translation to contents
+		if (vv.length > i) {
+			if (vv[i]) {
+				if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
+			} else {
+			}
 		}
 		output += "</td>";
 		output += "</tr>";
@@ -540,6 +550,7 @@ Handlebars.registerHelper("edtrans",  function (editor, translator) {
 	output += "</td>";
 	output += "<td class='tcell'>";
 	var translator = reverseName(translator);
+	// translator = cleanCurlies(translator);
 	if (translator) {
 		output += "Trans. " + translator;
 	}
@@ -547,6 +558,18 @@ Handlebars.registerHelper("edtrans",  function (editor, translator) {
 	output += "</tr>";
 	return new Handlebars.SafeString(output);
 });
+
+
+
+//////////////////////////////
+//
+// cleanCurlies --
+//
+
+function cleanCurlies(text) {
+	text = text.replace(/\{.*?\}/g, "");
+	return text;
+}
 
 
 

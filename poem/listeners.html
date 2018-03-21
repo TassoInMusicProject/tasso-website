@@ -15,10 +15,15 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (cgi.rime < 100)  { id += "0"; }
 		if (cgi.rime < 10)   { id += "0"; }
 		id += cgi.rime;
+		CurrentPoem = id;
+console.log("GOT CCC", id);
 	   displayLiteraryVariants(id, "#contents");
 	} else if (cgi.id) {
+console.log("GOT BBB");
+			CurrentPoem = cgi.id;
 	   	displayLiteraryVariants(cgi.id, "#contents");
 	} else {
+console.log("GOT HERE AAA");
 	   displayLiteraryVariants(0, "#contents");
 	}
 });

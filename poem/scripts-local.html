@@ -92,30 +92,38 @@ function displayLiteraryVariants(id, target) {
 	if (!target) {
 		target = "#contents";
 	}
-
 	if (id) {
 		id = id.replace(/[a-z]$/, "");
 	}
-
 	CurrentPoem = id;
+
 
 	var element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place on page since", target, " doesn't exist.");
 		return;
 	}
+	getPoemList(CurrentPoem, target);
+}
+
+
+function getPoemList(id, target) {
+
+	if (id) {
+		CurrentPoem = id;
+	}
 
 	var counter = 0;
-	var maxcount = 6;
+	var maxcount = 1;
 
 	if (sessionStorage.RIMEVERSELIST &&
 				(sessionStorage.RIMEVERSELIST != "undefined")) {
 		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
-		reallyDisplayVariants(id, target);
+		buildPoemList(RIMEVERSELIST);
+		reallyDisplayVariants(CurrentPoem, target);
 	} else if ((!sessionStorage.RIMEVERSELIST) ||
 				(sessionStorage.RIMEVERSELIST === "undefined")) {
 		var request = new XMLHttpRequest();
-console.log("GETTING", "{{site.rime_verses}}");
 		request.open("GET", "{{site.rime_verses}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
@@ -125,7 +133,7 @@ console.log("GETTING", "{{site.rime_verses}}");
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
+				reallyDisplayVariants(CurrentPoem, target);
 				counter++;
 			}
 		});
@@ -171,10 +179,27 @@ function	buildPoemList(list) {
 	var tosort = {};
 	var id;
 	if (!list) {
-		list = ALLSETTINGLIST;
+		// list = ALLSETTINGLIST;
+		list = RIMEVERSELIST;
 	}
 	for (var i=0; i<list.length; i++) {
-		id = list[i].CATALOGNUM.replace(/[a-z]$/, "");
+		if (!list[i].CATALOGNUM) {
+			if (list[i].SOLERTI) {
+				id = "Trm";
+				if (parseInt(list[i].SOLERTI) < 1000) {
+					id += "0";
+				}
+				if (parseInt(list[i].SOLERTI) < 100) {
+					id += "0";
+				}
+				if (parseInt(list[i].SOLERTI) < 10) {
+					id += "0";
+				}
+				id += list[i].SOLERTI;
+			}
+		} else {
+			id = list[i].CATALOGNUM.replace(/[a-z]$/, "");
+		}
 		tosort[id] = 1;
 	}
 	var ids = Object.keys(tosort);
@@ -326,6 +351,7 @@ function prepareReverseVerse(vlist) {
 
 function singlePoemVariantHeader(id) {
 	var REVERSEVERSE = prepareReverseVerse(RIMEVERSELIST);
+   REVERSEVERSE.id  = id;
 
 	var hsource = document.querySelector("#about-header-template").textContent;
 	var htemplate = Handlebars.compile(hsource);

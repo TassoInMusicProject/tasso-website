@@ -24,7 +24,7 @@ iframe {
 table.poem {
 	margin-top: 50px;
 	margin-left: 300px;
-	font-size: 120%;
+	font-size: 110%;
 	margin-bottom: 100px;
 }
 
@@ -35,9 +35,9 @@ table.poem {
 
 
 .poem td {
-	padding-left: 40px;
-	font-size: 100%;
-	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 90%;
+	padding-right: 0px;
 	padding-bottom: 3px;
 }
 

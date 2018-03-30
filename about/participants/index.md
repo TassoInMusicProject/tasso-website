@@ -2,7 +2,7 @@
 vim: ts=3
 scripts-local: true
 style-local: true
-logos: true
+logos: false
 permalink: /about/participants/index.html
 ---
 
@@ -36,11 +36,19 @@ Daniel Donnelly (University of Toronto)
 </div>
 
 <div class="person">
-Roseen Giles (Colby College)
+Roseen Giles (Duke University)
+</div>
+
+<div class="person">
+Janet Gomez, literary transcriptions (Johns Hopkins University)
 </div>
 
 <div class="person">
 Marcello Mazzetti (University of Southampton)
+</div>
+
+<div class="person">
+Amyrose McCue Gill, translations (TextFormations)
 </div>
 
 <div class="person">
@@ -79,7 +87,7 @@ Franco Piperno (University of Rome)
 </div>
 
 <div class="person">
-Eugenio Refini (John Hopkins University)
+Eugenio Refini (Johns Hopkins University)
 </div>
 
 <div class="person">
@@ -104,6 +112,7 @@ Raffaele Viglianti (University of Maryland)
 
 <h1>Institutional Project Supporters</h1>
 
+<!--
 <div class="person">
 University of Massachusetts Amherst
 </div>
@@ -119,3 +128,50 @@ National Endowment for the Humanities (NEH)
 <div class="person">
 Comitato Nazionale Per Il V Centenario Dell'Orlando Furioso
 </div>
+-->
+
+
+<div id="logos">
+
+<table>
+
+<tr>
+	<td>
+		<a target="_new" href="https://www.neh.gov"><img width="300" src="/images/neh-300.png"></a>
+	</td>
+	<td>
+		<a target="_new" href="https://www.umass.edu"><img width="300" src="/images/uma-400.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<a target="_new" href="http://wiki.ccarh.org/"><img width="300" src="/images/ccarh-300.png"></a>
+	</td>
+	<td>
+		<a target="_new" href="http://www.furioso16.it"><img width="300" src="/images/furioso_2016-500.png"></a>
+	</td>
+</tr>
+
+
+</table>
+
+</div>
+
+
+
+<style>
+
+#logos table {
+	margin-left: 100px;
+}
+
+#logos table td {
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+</style>
+

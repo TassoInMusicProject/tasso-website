@@ -11,6 +11,7 @@
 
 <div style="width:800px" class='indent'>
 	{{ principalSources PRINCIPAL_SOURCE }}
+	{{ principalSourceDedicatee PRINCIPAL_SOURCE_DEDICATEE }}
 	{{ otherSources OTHER_SOURCE }}
 </div>
 
@@ -23,6 +24,8 @@
 </div>
 
 {{ criticalCommentary COMMENTARY }}
+
+{{ modernEditions OTHER_MODERN_EDITION }}
 
 </script>
 {% endraw %}
@@ -156,7 +159,7 @@ function createMeasureRange() {
 	if (endval !== false) {
 		range += "-" + endval;
 	}
-	var output = "<nobr class='mm" + range + "'>";
+	var output = "<nobr onclick='gotoMeasure(" + startval + ");' class='mm" + range + "'>";
 	if (!name.match(/x/i)) {
 		output += name;
 		if (!nodot) {
@@ -227,6 +230,60 @@ Handlebars.registerHelper("principalSources",  function (psources) {
 				output += "<p>";
 			}
 		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+//////////////////////////////
+//
+// { modernEditions OTHER_MODERN_EDITION }
+//
+
+Handlebars.registerHelper("modernEditions",  function (text) {
+	var output = "";
+	if (!text) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof text === "string") {
+		output += "<h3>OTHER MODERN EDITIONS</h3>";
+		output += "<div class='indent'>";
+		template = Handlebars.compile(text);
+		output += template();
+		output += "</div>";
+	} else if (text.length >= 1)  {
+		output += "<h3>OTHER MODERN EDITIONS</h3>";
+		output += "<div class='indent'>";
+		for (var i=0; i<text.length; i++) {
+			template = Handlebars.compile(text[i]);
+			output += template();
+			if (i < text.length - 1) {
+				output += "<p>";
+			}
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// { principalSourceDedicatee PRINCIPAL_SOURCE_DEDICATEE }
+//
+
+Handlebars.registerHelper("principalSourceDedicatee",  function (psources) {
+	var output = "";
+	if (!psources) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof psources === "string") {
+		output += "<h3>Principal Source Dedicatee</h3>";
+		template = Handlebars.compile(psources);
+		output += template();
 	}
 	return new Handlebars.SafeString(output);
 });
@@ -379,6 +436,7 @@ Handlebars.registerHelper("criticalCommentary",  function (commentary) {
 		output += "<div class='indent'>";
 		template = Handlebars.compile(commentary);
 		output += template();
+		output += "</div>";
 	} else if (commentary.length >= 1)  {
 		output += "<h3>COMMENTARY</h3>";
 		output += "<div class='indent'>";

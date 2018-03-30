@@ -2,6 +2,7 @@
 <script src="/scripts/scripts-common.js"></script>
 
 {% include_relative listeners.html %}
+{% include_relative templates.html %}
 
 <script>
 //
@@ -88,58 +89,39 @@ function displayPreviousSource() {
 //
 
 function displayLiteraryVariants(id, target) {
-
 	if (!target) {
 		target = "#contents";
 	}
-
 	if (id) {
 		id = id.replace(/[a-z]$/, "");
 	}
-
 	CurrentPoem = id;
+
 
 	var element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place on page since", target, " doesn't exist.");
 		return;
 	}
+	getPoemList(CurrentPoem, target);
+}
+
+
+function getPoemList(id, target) {
+
+	if (id) {
+		CurrentPoem = id;
+	}
 
 	var counter = 0;
-	var maxcount = 6;
+	var maxcount = 1;
 
 	if (sessionStorage.RIMEVERSELIST &&
 				(sessionStorage.RIMEVERSELIST != "undefined")) {
 		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
-		counter++;
-	}
-
-	if (sessionStorage.RIMESETTINGLIST) {
-		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.GERUSETTINGLIST) {
-		GERUSETTINGLIST = JSON.parse(sessionStorage.GERUSETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.AMINTASETTINGLIST) {
-		AMINTASETTINGLIST = JSON.parse(sessionStorage.AMINTASETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.OTHERSETTINGLIST) {
-		OTHERSETTINGLIST = JSON.parse(sessionStorage.OTHERSETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-		counter++;
-	}
-
-	if ((!sessionStorage.RIMEVERSELIST) ||
+		buildPoemList(RIMEVERSELIST);
+		reallyDisplayVariants(CurrentPoem, target);
+	} else if ((!sessionStorage.RIMEVERSELIST) ||
 				(sessionStorage.RIMEVERSELIST === "undefined")) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.rime_verses}}");
@@ -151,96 +133,7 @@ function displayLiteraryVariants(id, target) {
 			if (counter == maxcount) {
 				buildAllSettingList();
 				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.RIMESETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
-			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.GERUSETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.gerusalemme_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			GERUSETTINGLIST = aton.parse(this.responseText).GERUSALEMME;
-			sessionStorage.GERUSETTINGLIST = JSON.stringify(GERUSETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.AMINTASETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.aminta_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			AMINTASETTINGLIST = aton.parse(this.responseText).AMINTA;
-			sessionStorage.AMINTASETTINGLIST = JSON.stringify(AMINTASETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.OTHERSETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.other_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			OTHERSETTINGLIST = aton.parse(this.responseText).OTHER;
-			sessionStorage.OTHERSETTINGLIST = JSON.stringify(OTHERSETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.WORKLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.worklist}}");
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
+				reallyDisplayVariants(CurrentPoem, target);
 				counter++;
 			}
 		});
@@ -286,10 +179,27 @@ function	buildPoemList(list) {
 	var tosort = {};
 	var id;
 	if (!list) {
-		list = ALLSETTINGLIST;
+		// list = ALLSETTINGLIST;
+		list = RIMEVERSELIST;
 	}
 	for (var i=0; i<list.length; i++) {
-		id = list[i].CATALOGNUM.replace(/[a-z]$/, "");
+		if (!list[i].CATALOGNUM) {
+			if (list[i].SOLERTI) {
+				id = "Trm";
+				if (parseInt(list[i].SOLERTI) < 1000) {
+					id += "0";
+				}
+				if (parseInt(list[i].SOLERTI) < 100) {
+					id += "0";
+				}
+				if (parseInt(list[i].SOLERTI) < 10) {
+					id += "0";
+				}
+				id += list[i].SOLERTI;
+			}
+		} else {
+			id = list[i].CATALOGNUM.replace(/[a-z]$/, "");
+		}
 		tosort[id] = 1;
 	}
 	var ids = Object.keys(tosort);
@@ -343,6 +253,7 @@ function reallyDisplayVariants(id, target) {
 		output += displayMultiplePoemVariants();
 	} else {
 		output += singlePoemVariantHeader(id);
+/*
 		if (VARIORUM[id]) {
 			var innercontent = document.querySelector("#inner-content");
 			console.log(innercontent);
@@ -353,7 +264,9 @@ function reallyDisplayVariants(id, target) {
 		} else {
 			output += displaySinglePoemVariant(id);
 		}
+*/
 	}
+	output += "<div style='margin-bottom:200px;'></div>";
 	element.innerHTML = output;
 }
 
@@ -410,6 +323,26 @@ function displayMultiplePoemVariants() {
 
 
 
+//////////////////////////////
+//
+// prepareReverseVerse --
+//
+
+function prepareReverseVerse(vlist) {
+	var output = {};
+	for (var i=0; i<vlist.length; i++) {
+		var id = vlist[i].SOLERTI;
+		var iid = "Trm";
+		if (id < 1000) { iid += "0"; }
+		if (id < 100)  { iid += "0"; }
+		if (id < 10)   { iid += "0"; }
+		iid += id;
+		output[iid] = vlist[i];
+	}
+	console.log("VLIST ", output);
+	return output;
+}
+
 
 //////////////////////////////
 //
@@ -417,59 +350,17 @@ function displayMultiplePoemVariants() {
 //
 
 function singlePoemVariantHeader(id) {
-   var output = "";
-//	output += "<div style='font-size:100%; margin-left:50px'>";
-//	output += "<center>";
-//	output += "<h1 style='padding-right:50px;'>About</h1>";
-//	output += "</center>";
+	var REVERSEVERSE = prepareReverseVerse(RIMEVERSELIST);
+   REVERSEVERSE.id  = id;
 
-	output += "<center><table style=' width=100%;";
-	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
-	output += "<td class='triangle'><span class='triangle' ";
-	output += " onclick='displayPreviousSource();'>";
-	output += "<span style='letter-spacing:-7pt;'>";
-	output += "&#9664;&#9664;</span></a>";
-	output += "</td><td style='width:100%; text-align:center'>";
-	output += "<h1>About</h1>";
-	output += "</td><td class='triangle'>";
-	output += "<span class='triangle'";
-	output += " onclick='displayNextSource();'>";
-	output += "<span style='position:relative;left:-8px; letter-spacing:-7pt;'>";
-	output += "&#9654;&#9654;</span></a>";
-	output += "</td></tr>";
-	output += "</table></center>";
+	var hsource = document.querySelector("#about-header-template").textContent;
+	var htemplate = Handlebars.compile(hsource);
+	var output = htemplate(REVERSEVERSE[id]);
 
+	var asource = document.querySelector("#about-template").textContent;
+	var atemplate = Handlebars.compile(asource);
+	output += atemplate(REVERSEVERSE[id]);
 
-	output += "<center><table style='margin-top:-50px; ";
-	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
-	output += "<td class='triangle'><span class='triangle' ";
-	output += " onclick='displayPreviousSource();'>";
-	output += "&#9664;</a>";
-	output += "</td><td style='width:100%; text-align:center'>";
-	output += "<h2>";
-	var entry = GetAllSettingEntry(id);
-   if (!entry) {
-      console.log("Error accessing id:", id);
-		return;
-	}
-   var title = entry.TITLE;
-	if (!title) {
-		title = entry.RIMETITLE;
-	}
-	title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
-	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
-	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
-	title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
-   output += title;
-   output += " (";
-	output += GetTitleName(id);
-	output += ")</h2>";
-	output += "</td><td class='triangle'>";
-	output += "<span class='triangle'";
-	output += " onclick='displayNextSource();'>";
-	output += "&#9654;</a>";
-	output += "</td></tr>";
-	output += "</table></center>";
 	return output;
 }
 

@@ -8,9 +8,25 @@ jquery: true
 
 
 <form action="#">
-	<span class="form-group">
-		<input id="pitch" type="text" class="form-control" placeholder="Enter Pitch">
-	</span>
+<table>
+<tr>
+
+<td>
+
+	<div class="form-group">
+		<input autocomplete="off" id="pitch" type="text" class="form-control" placeholder="Enter Pitch">
+	</div>
+
+	<div class="form-group">
+		<input autocomplete="off" id="interval" type="text" class="form-control" placeholder="Enter Interval">
+	</div>
+
+	<div class="form-group">
+		<input autocomplete="off" id="rhythm" type="text" class="form-control" placeholder="Enter Rhythm">
+	</div>
+
+</td>
+<td>
 	<span class="form-group">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repertory:
 		<select>
@@ -20,6 +36,9 @@ jquery: true
 			<option disabled>All</option>
 		</select>
 	</span>
+		</td>
+	</tr>
+</table>
 </form>
 
 <div style="margin-top:50px"></div>

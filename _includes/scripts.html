@@ -28,6 +28,11 @@
   crossorigin="anonymous"></script>
 {% endif %}
 
+{% if page.qtip == true %}
+<script src="/scripts/external/qtip/jquery.qtip.min.js"></script>
+<script src="/scripts/external/qtip/imagesloaded.pkg.min.js"></script>
+{% endif %}
+
 
 {% if page.pdfkit == true %}
 	<script src="/scripts/pdfkit/blobstream.js"></script>

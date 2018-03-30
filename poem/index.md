@@ -3,6 +3,7 @@ scripts-local: true
 style-local: true
 vim: ts=3
 aton: true
+qtip: true
 permalink: /poem/index.html
 ---
 

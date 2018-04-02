@@ -466,7 +466,7 @@ Handlebars.registerHelper("commentary",  function (commentary) {
 	}
 	output += "<h3 class='header'>Commentary</h3>";
 	output += "<div class='indent'>";
-	output += commentary;
+	output += processFootnotes(commentary);
 	output += "</div>";
 	return new Handlebars.SafeString(output);
 });
@@ -591,6 +591,37 @@ function reverseName(text) {
 	output += match[1];
 	return output;
 }
+
+
+///////////////////////////////
+//
+// processFootnotes --
+//
+
+var ZZZ = ""
+function processFootnotes(text) {
+	var lines = text.split(/\n/);
+	var newtext = "";
+	for (var i=0; i<lines.length; i++) {
+		newtext += lines[i] + " ";
+	}
+	var match = newtext.match(/(.*)\[(.*?)\]{footnote:(.*?)}(.*)/);
+	if (match) {
+		var pre = match[1];
+		var highlight = match[2];
+		var footnote = match[3];
+		var post = match[4];
+		newtext = pre;
+		newtext += "<span style='cursor:help; color:#d6835c' class='footnote' text='" + footnote + "'>" + highlight + "</span>" + post;
+		console.log("NEW TEXT", newtext);
+	} else {
+		console.log("NO FOOTNOTE FOR ", newtext);
+	}
+
+	return newtext;
+
+}
+
 
 </script>
 

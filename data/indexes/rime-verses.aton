@@ -4412,16 +4412,16 @@
 @MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
 @PRINTSRC:	28, 48, 54, 93, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  382
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Voi bramate, ben mio,
 	Che m'uccida il dolore,
@@ -4432,10 +4432,12 @@
 	Oh maraviglia!, e quasi avvien ch'allora
 	Per doglia no, ma per diletto io mora.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources, this poem appears in the authoritative manuscript It. 385, Biblioteca Estense Universitaria, Modena, Italy (see Literary Sources).
+@DATING:	Mid-1580s or earlier
+@DEDICATEE:	Unknown
 @COMMENTARY:    
 @@END:		RIME
 

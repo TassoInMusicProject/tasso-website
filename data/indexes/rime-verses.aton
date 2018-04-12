@@ -4448,16 +4448,16 @@
 @MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
 @PRINTSRC:	28, 48, 54, 141, 166
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  384
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Dolcissimi legami
 	Di parole amorose,
@@ -4468,10 +4468,12 @@
 	Almen, chi s&igrave; m'allaccia,
 	Mi leghi ancor fra quelle dolci braccia.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources, this poem appears in the authoritative manuscript It. 379a, Biblioteca Estense Universitaria, Modena, Italy (see Literary Sources).
+@DATING:	Mid-1580s or earlier
+@DEDICATEE:	Unknown	
 @COMMENTARY:    
 @@END:		RIME
 
@@ -4482,16 +4484,16 @@
 @MANUSRC:	none
 @PRINTSRC:	28, 49, 93, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  385
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Fuggi, fuggi, dolor, da questo petto
 	Or che vi torna la gioiosa spene;
@@ -4502,32 +4504,36 @@
 	N&eacute;, potendo tornar senza partita,
 	Mi piace che part&igrave; la cara vita.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		This poem appears is attributed to Tasso in two independent literary prints and reprints thereof (see Literary Sources).
+@DATING:	In or before 1586
+	<br>
+	The earliest appearance of this poem is in a literary print published in 1586 in Milan by Pietro Tini (see Literary Sources).
+@DEDICATEE:	Unknown
 @COMMENTARY:    
 @@END:		RIME
 
 @@BEGIN:	RIME
 @SOLERTI:	342
-@TITLE:		Gi&agrave; fu dolce mia speme
+@TITLE:		Gi&agrave; fu mia dolce speme
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
 @PRINTSRC:	22, 22a), 23, 26, 31, 32, 35, 36, 37, 69, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  386
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
-	Gi&agrave; fu dolce mia speme
+	Gi&agrave; fu mia dolce speme
 	Assai debile e lenta,
 	Or cresce s&igrave; ch'ella piacer diventa.
 	Ma, perch'io speri insieme
@@ -4536,10 +4542,16 @@
 	E sempre il mio piacere
 	Temprando va, perch'io maggior lo spere.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		<br>
+		Among other sources (see Literary Sources), this poem survives in a copy with Tasso's autograph annotations of the print <i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+(Venetia: Giulio Vasalini, 1583)
+@DATING:	In or before 1583
+		<br>
+		The earliest appearance of this poem is in aliterary print published in 1583 in Ferrara by Giulio Vasalini (see Literary Sources).
+@DEDICATEE:	Unknown
 @COMMENTARY:    
 @@END:		RIME
 
@@ -4550,16 +4562,16 @@
 @MANUSRC:	none
 @PRINTSRC:	28, 49, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  386
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Soavissimo canto,
 	Oh pur t'oda una volta
@@ -4571,10 +4583,14 @@
 	Fora la sorte mia
 	Fra quel s&igrave; dolce odore e l'armonia.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		This poem appears is attributed to Tasso in two independent literary prints and reprints thereof (see Literary Sources).
+@DATING:	In or before 1586
+	<br>
+	The earliest appearance of this poem is in a literary print published in 1586 in Milan by Pietro Tini (see Literary Sources).
+@DEDICATEE:	Unknown	
 @COMMENTARY:    
 @@END:		RIME
 
@@ -4585,16 +4601,16 @@
 @MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/F1</sub>
 @PRINTSRC:	27, 48, 54, 70, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  387
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Tra mille fior gi&agrave; colti in dolce speco,
 	Quasi rosa non c&ograve;lta,
@@ -4603,10 +4619,12 @@
 	Pur come fiore accolto in verdi spoglie:
 	Ma chi le c&ograve;lse? Amor quando le coglie.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources, this poem appears in the authoritative manuscript It. 379a, Biblioteca Estense Universitaria, Modena, Italy (see Literary Sources).
+@DATING:	Mid-1580s or earlier
+@DEDICATEE:	Unknown		
 @COMMENTARY:    
 @@END:		RIME
 
@@ -4617,16 +4635,16 @@
 @MANUSRC:	none
 @PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 166, 167, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  388
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Cantava in riva al fiume
 	Tirsi d'Eleonora,
@@ -4638,10 +4656,14 @@
 	E l'acque insieme e i rami &mdash;
 	Or chi fia che l'onori e che non l'ami? &mdash;
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT: Secure
+		<br>
+		This poem is attributed to Tasso in a literary print published in 1583 in Venice by Giulio Vasalini and in the book of madrigals by Ferrarese composer Lodovico Agostini entitled <i>Il nuovo echo</i> and published in 1583 in Ferrara by Vittorio Baldini (see Literary Sources and Musical Settings, respectively). 
+@DATING:	In or before 1583
+		<br>
+		This poem first appears in a literary print and musical source both published in 1583 (see Attribution).
+@DEDICATEE:	Eleonora d'Este (1561-1639)?
 @COMMENTARY:    
 @@END:		RIME
 
@@ -4653,16 +4675,16 @@
 @MANUSRC:	none
 @PRINTSRC:	28, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  388
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	In un fonte tranquillo
 	Si specchiava Neera,
@@ -4673,10 +4695,14 @@
 	Allora in me vedrete
 	Quanto voi bella e quanto cruda sete. &mdash;
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Not secure
+		<br>
+		This poem is attributed to Tasso only in a literary print that was not supervised by the poet, the <i>Gioie di rime, e prose del Sig. Torquato Tasso</i> (Ferrara: Vittorio Baldini, 1587), and in reprints thereof (see Literary Sources).
+@DATING:	In or before 1587
+		<i>
+		The earliest appearance of this poem is in a 1587 literary print (see Attribution and Literary Sources).
+@DEDICATEE:	Unknown
 @COMMENTARY:    
 @@END:		RIME
 
@@ -4687,16 +4713,16 @@
 @MANUSRC:	Flc<sub>2</sub>
 @PRINTSRC:	none
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Argomento missing
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	2
+@EDITION_PAGE:  392
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Gi&agrave; fui caro a gli occhi tuoi,
 	O mio sole;
@@ -4719,10 +4745,14 @@
 	S'io vedr&ograve; che poi
 	Il mio morir sia caro a gli occhi tuoi.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		This poem appears in the partly autograph manuscript Tassiana N.6.5, Civica Biblioteca Angelo Mai, Bergamo. According to [Massimo Castellozzi] {footnote: Massimo Castellozzi, "Aspetti della tradizione delle <i>Rime disperse</i> di Torquato Tasso," <i>L'ellisse. Studi storici di letteratura italian</i> VIII, vol. 2 (2013): 78}, the folios 164r-172v, which used to belong to the Torella codex (MA 462, Pierpont Morgan Library, New York City, NY) and include <i>Rime</i> 353, 354, 356, 358, 359, 361, and NSM1, are in Tasso's hand.
+@DATING:	Early 1590s
+		<br>
+		This poem was originally included in the Torella codex (MA 462, Pierpont Morgan Library, New York City, NY), a manuscript assembled in Naples and containing for the most part poems and letters that Tasso wrote during his stay in the city in the early 1590s.
+@DEDICATEE:	Unknown
 @COMMENTARY:    
 @@END:		RIME
 

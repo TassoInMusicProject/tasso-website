@@ -5782,6 +5782,9 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources (see Literary Sources), this poem survives in a copy with Tasso's autograph annotations of the print <i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+(Venetia: Giulio Vasalini, 1583)
 @DATING:	
 @DEDICATEE:	Giulio Mosti (on behalf of)
 @COMMENTARY:    
@@ -6541,16 +6544,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Amz, Ar, Brn, C, E<sub>1</sub>, I<sub>4</sub>, M<sub>4</sub>, N<sub>13</sub>, N<sub>15</sub>, P<sub>4</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, W
 @PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Loda gli occhi azzurri de la signora Livia Pica, dama nobilissima e principalissima ne la corte di Francia.
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE: 155 
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Al vostro dolce azzurro
 	Ceda, o luci serene,
@@ -6562,10 +6565,21 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	E quel ch'&egrave; bello il bello ha sol da lui:
 	Ei bello &egrave; sol perch'assomiglia a vui.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
+		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
+		Vercingetorige Martignone, vol. 4 of <i>Edizione
+		Nazionale delle opere di Torquato Tasso</i>
+		(Alessandria: Edizioni Dell’Orso, 2004).
+@ATTRIBUTION_ABOUT:	Secure	
+		<br>
+		Among other authoritative sources (see Literary
+		Sources), this poem appears in the autograph Chigiano
+		L.VIII.302 (Biblioteca Vaticana, Rome), compiled
+		around 1584&ndash;85.	
+@DATING:	1571-72?
+		<br>
+		According to Solerti, Tasso most likely composed this poem during his visit to France in 1571-72.	
+@DEDICATEE:	Livia Pica
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6576,16 +6590,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Amz, C, E<sub>1</sub>, F<sub>2</sub>, I<sub>4</sub>, M<sub>4</sub>, N<sub>13</sub>, N<sub>15</sub>, Ts<sub>1</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, W
 @PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Loda ne la medesima signora [i.e., Livia Pica, see Rime 614] la pallidezza del volto.
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  156
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Al tuo vago pallore
 	La rosa il pregio cede
@@ -6597,31 +6611,41 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	L'ostro e invaghisce il ciel di tue v&iuml;ole
 	E teco brama impallidirsi il sole.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
+		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
+		Vercingetorige Martignone, vol. 4 of <i>Edizione
+		Nazionale delle opere di Torquato Tasso</i>
+		(Alessandria: Edizioni Dell’Orso, 2004).
+@ATTRIBUTION_ABOUT:	Secure	
+		<br>
+		Among other authoritative sources (see Literary
+		Sources), this poem appears in the autograph Chigiano
+		L.VIII.302 (Biblioteca Vaticana, Rome), compiled
+		around 1584&ndash;85.	
+@DATING:	1571-72?
+		<br>
+		According to Solerti, Tasso most likely composed this poem during his visit to France in 1571-72.	
+@DEDICATEE:	Livia Pica	
 @COMMENTARY:    
 @@END:		RIME
 
 @@BEGIN:	RIME
 @SOLERTI:	617
-@ATTRIBUTION:	not secure
 @TITLE:		L'aura con l'armonia dolce e soave
 @GENRE:		sonetto
 @MANUSRC:	none
 @PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	[Ad una dama che cantava]
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  617
+@TRANSLATOR:	McCue Gill, Amyrose
 @VERSE:
 	L'aura con armonia dolce e soave
 	Fan l'auree stelle e i bei corpi celesti,
@@ -6641,10 +6665,14 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Non mi renda giamai, ch'a quel non pensi
 	Ch'entro a lei piace e leva al ciel le menti.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		This poem is attributed to Tasso in two independent literary prints published in 1582 by Manuzio and Baldini, respectively (see Literary Sources).
+@DATING:	In or before 1582
+	<br>
+	The earliest appearance of this sonnet is in two literary prints published in 1582 by Manuzio and Baldini, respectively (see Literary Sources). 
+@DEDICATEE:	Laura Peperara?
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6655,16 +6683,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Amz, E<sub>1</sub>, F<sub>1</sub>, Flc<sub>2</sub>, Pt, V<sub>13/E1</sub>, V<sub>13/V</sub>
 @PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Loda la casa d'Este la quale è l'aquila e i prìncipi che la portano.
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  260
+@TRANSLATOR:	McCue Gill, Amyrose
 @VERSE:
 	Tra Giove in cielo e 'l mio signor in terra
 	Serva indivisa e messaggiera accorta
@@ -6684,10 +6712,14 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	E ravvivollo, e vincitor fe' 'l vinto:
 	Or ha il ciel maggior tuoni o pi&ugrave; bei lampi?
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources, this poem appears in the authoritative manuscript It. 379a, Biblioteca Estense Universitaria, Modena, Italy (see Literary Sources).
+@DATING:	In or before 1581
+		<br>
+		The earliest datable appearance of this poem in the 1581 print published by Manuzio (see Literary Sources).
+@DEDICATEE:	Alfosno d'Este?
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6698,16 +6730,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	I<sub>4</sub>, V<sub>10</sub>
 @PRINTSRC:	10, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	[Al signor Guido Coccapani per una donna di nome Angelica amata dal duca di Ferrara]
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  287
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	<span class="name">Angioletta</span> cortese,
 	Odi dal terzo cielo
@@ -6716,10 +6748,10 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Le mie preghiere nove
 	S&igrave; che da lui sien con pietade intese.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+@DATING:	In or before 1582
+@DEDICATEE:	Guido Coccapani (on behalf of)?
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6730,16 +6762,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Flc<sub>2</sub>, I<sub>4</sub>
 @PRINTSRC:	10, 16, 21, 25, 25a), 30, 34, 68, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	[Al signor Guido Coccapani per una donna di nome Angelica amata dal duca di Ferrara]
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  287
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Bella <span class="name">Angioletta</span> da le vaghe piume,
 	Prestane al grave pondo
@@ -6747,10 +6779,10 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	O possa in qualche ramo
 	Di te cantando dire: &mdash; io amo, io amo. &mdash;
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+@DATING:	In or before 1582
+@DEDICATEE:	Guido Coccapani (on behalf of)?
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6761,16 +6793,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
 @PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	[A una gentildonna che lo visitò in S. Anna.]
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  311
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Quant'io sono infelice
 	Tanto voi bella sete,
@@ -6782,10 +6814,13 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	In me tanto pur lice,
 	Debbo sperar giammai d'esser felice?
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources (see Literary Sources), this poem survives in a copy with Tasso's autograph annotations of the print <i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+(Venetia: Giulio Vasalini, 1583)
+@DATING:	In or before 1583
+@DEDICATEE:	Unknown
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6796,16 +6831,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	E<sub>1</sub>, V<sub>1</sub>, V<sub>13/E1</sub>
 @PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 32, 68, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	[Ne le nozze di Vincenzo Gonzaga, principe di Mantova, con Margherita Farnese, principessa di parma.]
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  322
+@TRANSLATOR:	McCue Gill, Amyrose
 @VERSE:
 	N&eacute; di feconda conca in ricco mare
 	Perla usc&igrave; mai s&igrave; luminosa e bella,
@@ -6825,10 +6860,12 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Prez&iuml;osa e mirabil Margherita,
 	La fronte e gli occhi candida e lucente.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources, this poem appears in the authoritative manuscript It. 379a, Biblioteca Estense Universitaria, Modena, Italy (see Literary Sources).
+@DATING:	May 1581
+@DEDICATEE:	Vincenzo Gonzaga; Margherita Farnese
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6839,16 +6876,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
 @PRINTSRC:	22, 22a), 26, 31, 69, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	A la signora Marfisa d'Este
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  337
+@TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Portano l'altre il velo;
 	Voi le chiome dorate
@@ -6860,10 +6897,13 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	E lei che nacque in Delo,
 	E l'Iri il suo colora anco nel cielo.
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources (see Literary Sources), this poem survives in a copy with Tasso's autograph annotations of the print <i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+(Venetia: Giulio Vasalini, 1583)
+@DATING:	In or before 1583
+@DEDICATEE:	Marfisa d'Este (1554-1608)
 @COMMENTARY:    
 @@END:		RIME
 
@@ -6874,16 +6914,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Ts2
 @PRINTSRC:	22, 22a), 26, 31, 36, 40, 50a), 69, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	[Loda la signora Vittoria Castellini]
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  410
+@TRANSLATOR:	McCue Gill, Amyrose
 @VERSE:
 	La bella e vaga man che le sonore
 	Corde, or leggiera e presta, or tarda e grave
@@ -6903,10 +6943,13 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Che quel ch'altrui pi&ugrave nuoce a lei pi&ugrave giova,
 	Ne' sospir lieta e ne' martir felice.
 @@END: VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:Secure
+		<br>
+		Among other sources (see Literary Sources), this poem survives in a copy with Tasso's autograph annotations of the print <i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+(Venetia: Giulio Vasalini, 1583)	
+@DATING:	In or before 1583
+@DEDICATEE:	Vittoria Castellini
 @COMMENTARY:    
 @@END: RIME
 
@@ -6917,16 +6960,16 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
 @PRINTSRC:	22, 22a), 26, 31, 35, 69, 78, 87, 105, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	
+@ABOUTIT:	Persuade una gentildonna a non amare altro che di vicendevole amore.
 @ABOUTEN:	
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
 @EDITION_PUB:	Romagnoli-Dall’Acqua
 @EDITION_DATE:  1898-1902
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_VOL:	3
+@EDITION_PAGE:  413
+@TRANSLATOR:	McCue Gill, Amyrose
 @VERSE:
 	Deh! perch&eacute; amar chi voi con pari affetto
 	Non ami e sospirar chi non sospiri,
@@ -6946,10 +6989,13 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	E, se pur dee sentir novella fiamma,
 	S'accenda s&igrave;, ma non s'accenda ei solo
 @@END:		VERSES
-@NEW_CRIT_ED:   
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources (see Literary Sources), this poem survives in a copy with Tasso's autograph annotations of the print <i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce</i>
+(Venetia: Giulio Vasalini, 1583)
+@DATING:	In or before 1583
+@DEDICATEE:	Unknown
 @COMMENTARY:    
 @@END:		RIME
 

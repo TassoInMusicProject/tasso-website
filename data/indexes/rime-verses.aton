@@ -2934,7 +2934,7 @@
 @PRINTSRC:	28, 48, 54, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[TIRSI E LICORI]
-@ABOUTEN:	
+@ABOUTEN:	[THYRSIS AND LYCORIS]
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
@@ -2952,6 +2952,15 @@
 	Perch&eacute; dir non saprei,
 	S'ebbi vita pi&ugrave; dolce o morte in lei;
 	Ma vita se parl&ograve;, morte se tacque.
+@TVERSE
+	I fled From knoll to knoll
+	My sweet enemy,
+	And she followed me beattiful and modest.
+	She finally reached me between meadows and waters,
+	And she pierced my heart and it did not displease me,
+	I could not say why,
+	If I had a sweeter life or death in her;
+	But if life spoke, death remained silent.
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -2970,7 +2979,7 @@
 @PRINTSRC:	28, 48, 54, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[TIRSI E LICORI]
-@ABOUTEN:	
+@ABOUTEN:	[THYRSIS AND LICORI]
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
@@ -2990,6 +2999,17 @@
 	Morte perch&eacute; diviso
 	Fui da me stesso, e vita,
 	Perch&eacute; l'alma felice &egrave; seco unita.
+@TVERSE:
+	Like a wandering deer
+	That flees arrows and darts,
+	I escaped your eyes and sweet sights
+	Between meadows and pansies,
+	When she reached me and with her smile
+	And no words 
+	Gave me such pleasant life and death:
+	Death because I was separated 
+	From myself, and life,
+	Because the blissful soul rejoined itself.
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -3141,6 +3161,17 @@
 	Contentezza e diletto,
 	E tranquilla qu&iuml;ete e stabil pace,
 	E gioia eterna con piacer verace.
+@TVERSE:
+	Love, you who are sour pain
+	Among mortals on earth,
+	And unsafe truce and certain war,
+	And terrible tempest and fiery wind,
+	You upset our minds,
+	And move deep disdains like waves;
+	You are flawless among the angels in the sky,
+	Happiness and delight,
+	And tranquil quiet and durable peace,
+	And eternal joy with true pleasure.	
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Not secure
@@ -3222,6 +3253,17 @@
 	Racconta a la mia donna e queste e quelle;
 	E di' ch'io vivo a ci&ograve; che resti in vita
 	La mia doglia infinita.
+@TVERSE:
+	Love, you who around here
+	Now make a thousand sweet tricks and swirls,
+	If you dare to count all my sorrows
+	And all my sighs,
+	Which are more than the grains of sand,
+	More than the sea waves, more than the stars,
+	Recount my Lady know all of these;
+	And tell her that I live
+	For my infinite sorrow to remain alive.
+	
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -3403,14 +3445,23 @@
 @EDITION_PAGE:  346
 @TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
-	Dolcissimi colori
+	Dolcissimi colori,
 	Voi vi mutate, ed io
 	Muto aspetto con voi, ma non desio.
 	Sempre vorrei mirarvi, e se fiorire
 	Un bel purpureo veggio,
-	O quell vago candor sempre io vagheggio;
+	E quel vago candor sempre io vagheggio;
 	E perch&eacute; vari segno al mio pensiero
 	&Egrave; costante l'arciero.
+@TVERSE:
+	Sweetest colors,
+	You transform yourselves, and I
+	Transform my appearance with you, but I do not wish so.
+	I would want to always gaze at you, and if I see
+	Flowering a beautiful red,
+	And I always desire that fair candor;
+	And so that he may change aim with my thought
+	The archer is always prompt.	
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -3485,6 +3536,16 @@
 	E non gli mancan le saette e 'l foco
 	N&eacute; gli mancar giammai,
 	Ch&eacute; sono strali e fiamme i vostri rai.
+@TVERSE:
+	Beautiful and graceful eyes,
+	In your sweet darkness
+	A boy, jesting, turned into an archer
+	And teasingly strikes 
+	A thousand souls and a thousand hearts,
+	And cools the ardors;
+	And he does not lack arrows and fire,
+	Nor did he ever lack them,
+	For your eyes are bolts and flames.	
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -3711,6 +3772,16 @@
 	Ma s'amarmi negate,
 	Morir&ograve; disperato
 	Per non amarvi non essendo amato.
+@TVERSE:
+	Love me, my dear,
+	Because my heart disdains
+	Any other food and lives only from love.
+	I will love you, if you love me,
+	Nor will shorter than my life
+	Love last and will end with it.
+	But if you refuse to love me
+	I will die in despair
+	Not to love you without being loved.
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Not secure
@@ -3836,6 +3907,22 @@
 	Ma se volesse il fato e la mia sorte
 	Che tutti quattro fossimo una cosa,
 	Oh che vita felice e glor&iuml;osa!
+@TVERSE:
+	If your face is as a gentle breeze
+	And your beautiful eyes are two burning flames,
+	Then there are two elements in you.
+@TVERSE:
+	And if these eyes are now fountains and rivers
+	And my heart is ash, we will then say
+	That you and I are four elements.
+@TVERSE:
+	And if you are breeze and sweet fire,
+	I am bitter water, ash, and soil,
+	Why does such war break out between us?
+@TVERSE:
+	But if fate and my destiny wanted
+	The four of us to be one thing,
+	Oh, what a happy and glorious life!	
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Not secure
@@ -4623,6 +4710,15 @@
 	Mai non adempie Amor ogni mio affetto;
 	E sempre il mio piacere
 	Temprando va, perch'io maggior lo spere.
+@TVERSE:
+	Once was my sweet hope
+	So weak and slow,
+	Now it grows so much that it becomes pleasure.
+	But, so that I keep hoping
+	And gain pleasure altogether,
+	Love never satisfies all feelings of mine;
+	And it always tempers
+	My pleasure, so that I hope for a greater one.
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -4694,11 +4790,11 @@
 @TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Tra mille fior gi&agrave; colti in dolce speco,
-	Quasi rosa non c&ograve;lta,
-	Non incolta ma c&oacute;lta,
+	Quasi rosa non colta,
+	Non incolta ma colta,
 	Era Amarilli, e Galatea con seco,
 	Pur come fiore accolto in verdi spoglie:
-	Ma chi le c&ograve;lse? Amor quando le coglie.
+	Ma chi le colse? Amor quando le coglie.
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -4864,6 +4960,16 @@
 	Dunque voi nel mirare
 	Siate pi&ugrave; accorti, perch&eacute; non conviene
 	Ch'io di vostro gioir porti le pene.
+@TVERSE:
+	Oh my imprudent eyes,
+	I have good reason to complain about you alone,
+	Since you are the cause of my suffering.
+	Because of you, as soon as you glance,
+	I am wounded by Love’s arrow
+	And through you this quickly reaches my heart:
+	Thus be more prudent in glancing,
+	For it is not fair
+	That I bear the sorrows of your enjoyment.
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -4913,6 +5019,26 @@
 	Che ne l'udirla o vagheggiarle il volto
 	Il cor non vi sia tolto
 	E che ritorni al vostro petto mai?
+@TVERSE:
+	Run, lovers, to the new beauties;
+	Lady, who has such beautiful eyes and face
+	That just by gazing stole
+	The bow from Love and the arrows from Jupiter.
+@TVERSE:
+	Admire the solitary and proud charms
+	Of beautiful blonde hair, loosed in the air,
+	Which alone, with no artifice, stole 
+	Value from gold and light from the sun.
+@TVERSE:
+	Hear the words, hear the singing
+	Hosted between white pearls and beautiful rubies,
+	Which in a sigh stole
+	Art from Phoebus and their proud boast from sirens. 
+@TVERSE:
+	How can you then escape,
+	So that in hearing her or gazing on her face
+	Your heart is not stolen
+	And never returns to your chest? 
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -4996,6 +5122,16 @@
 	Se il mio foco vi piace
 	E s'io mostrarlo co' sospir m'ingegno,
 	Perch&eacute;, crudel, cos&igrave; li avete a sdegno?
+@TVERSE:
+	You want me to love you
+	And yet do not want me to sigh for you:
+	These are Love’s new tortures!
+	If you burn me with your eyes,
+	And the soul draws pleasure from such sweet ardor,
+	How can the flame stay closed in my heart?
+	If my fire pleases you
+	And if I try to show it through my sighs,
+	Why, oh cruel, do you disdain them so much?
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
@@ -5455,6 +5591,17 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Allor io mi chinai cos&igrave; pian piano,
 	E baciandole il viso
 	Provai quanta dolcezza ha il paradiso.
+@TVERSE:
+	Sweetly slept my Chloris
+	As around her pretty face
+	Love cherubs flew merrily.
+	Raptured, I gazed
+	With great pleasure at her,
+	When I heard someone tell me &mdash;  Fool, what are you doing?
+	Lost time never comes back. &mdash;
+	Thus I bent down slowly,
+	And, kissing her face, 
+	I tasted all the sweetnes of Heaven.
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Not secure
@@ -6299,7 +6446,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 33, 67, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	A la signora Tarquinia Molza la quale studiando la sfera andava la sera a contemplar le stelle.
-@ABOUTEN:	
+@ABOUTEN:	To lady Tarquinia Molza who, studying the globe, would go contemplate the stars at night.
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
@@ -6317,6 +6464,15 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Le tue dolci faville,
 	Io vagheggiar potessi
 	Mille bellezze tue con luci mille.
+@TVERSE:
+	Tarquinia, as you contemplate
+	The beautiful blue spheres, 
+	I wish to be the sky;
+	So that you may turn
+	Your sweet sparks
+	To my eyes,
+	And I may long 
+	For your thousand beauties with a thousand lights.
 @@END:		VERSES
 @NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
 		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
@@ -6524,8 +6680,8 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @MANUSRC:	A<sub>3</sub>, Amz, Ar, C, E<sub>1</sub>, H<sub>3</sub>, I<sub>5</sub>, M<sub>4</sub>, N<sub>12</sub>, N<sub>13</sub>, N<sub>15</sub>, P<sub>4</sub>, Ts<sub>1</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, V<sub>13/TS1</sub>
 @PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
 @@BEGIN:	VERSES
-@ABOUTIT:	In lode de la signora Laura Correggiara, giovinetta bellissima e dama di madama Leonora d'Este.
-@ABOUTEN:	
+@ABOUTIT:	In lode de la signora Laura Correggiara, giovinetta bellissima e dama di Madama Leonora d'Este.
+@ABOUTEN:	In praise of lady Laura Correggiara, most beautful young girl and lady in waiting of Madama Leonora d'Este.
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
@@ -6547,6 +6703,19 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	O bellezza omicida ed innocente,
 	Tempo &egrave; ch'Amor ti mostri
 	Omai ne le tue piaghe i dolor nostri.
+@TVERSE:
+	The beautiful young girl
+	Who still does not feel Love
+	Nor knows its value by fame,
+	Strikes with her beautiful eyes
+	And with her sweet smile,
+	Nor does she realize she has weapons in her beautiful face.
+	What fault does she have in the death
+	Of the transfixed people
+	If she does not know she can wound?
+	Oh innocent and deadly beauty,
+	It is time for Love to show you
+	Now our pains in your wounds.
 @@END:		VERSES
 @NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
 		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and

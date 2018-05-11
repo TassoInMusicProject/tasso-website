@@ -14,6 +14,7 @@
 @@   PUBLISHER:    Publisher of print source
 @@   PUBLOCATION:  Publication place of print source
 @@   PUBYEAR:      Date print source was published
+@@   URL:          URL to print online
 @@
 @@ special codes:
 @@   double hash-tag is a marker for a SM-siglum reference in the descriptions.
@@ -161,6 +162,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1585
+@URL: https://books.google.com/books?id=vV-TwXBdOzsC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT

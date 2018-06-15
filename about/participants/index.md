@@ -24,7 +24,7 @@ Emiliano Ricciardi (University of Massachusetts Amherst), General Editor
 </div>
 
 <div class="person">
-Seth Coluzzi (Brandeis University)
+Seth Coluzzi (Colgate University)
 </div>
 
 <div class="person">

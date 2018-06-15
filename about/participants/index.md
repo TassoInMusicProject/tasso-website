@@ -149,6 +149,12 @@ Comitato Nazionale Per Il V Centenario Dell'Orlando Furioso
 		<a target="_new" href="http://wiki.ccarh.org/"><img width="300" src="/images/ccarh-300.png"></a>
 	</td>
 	<td>
+		<a target="_new" href="http://www.centrodistuditassiani.it"><img width="300" src="/images/studi-tassiani.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td align="center" colspan="2">
 		<a target="_new" href="http://www.furioso16.it"><img width="300" src="/images/furioso_2016-500.png"></a>
 	</td>
 </tr>

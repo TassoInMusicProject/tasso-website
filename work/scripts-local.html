@@ -1674,6 +1674,8 @@ function generatePdfFull(event) {
 	});
 	var buffer = Uint8Array.from(atob(vrvTTF), c => c.charCodeAt(0));
 	pdf.registerFont('VerovioText', buffer);
+	var buffer2 = Uint8Array.from(atob(simonettaTTF), c => c.charCodeAt(0));
+	pdf.registerFont('Simonetta', buffer2);
 	var localOptions = {
 		pageHeight        : height,
 		pageWidth         : width,
@@ -1697,12 +1699,36 @@ function generatePdfFull(event) {
 
 	vrvToolkit.setOptions(localOptions);
 	vrvToolkit.redoLayout();
+	// for (var i=0; i<vrvToolkit.getPageCount(); i++) {
+	// 	pdf.addPage({size: format, layout: orientation});
+	// 	var x = 5;
+	// 	var y = 10;
+	// 	SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}), x, y, pdfOptions);
+	// }
 	for (var i=0; i<vrvToolkit.getPageCount(); i++) {
 		pdf.addPage({size: format, layout: orientation});
 		var x = 5;
 		var y = 10;
-		SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}), x, y, pdfOptions);
+		var svg = vrvToolkit.renderToSVG(i+1, {});
+		if (i >= 0) {
+			var simonettacss = '</style>\n<style type="text/css">\n';
+			simonettacss += "@font-face {\n";
+			simonettacss += "   font-family: 'Simonetta';\n";
+			simonettacss += "   src: url(data:application/x-font-woff;charset=uft-8;base64,";
+			simonettacss += simonettaTTF;
+			simonettacss += ")\t format('woff');\nfont-weight: normal;\nfont-style: normal;\n}\n";
+			simonettacss += "</style>\n";
+			simonettacss += '<style type="text/css">g.page-margin{font-family:Simonetta;}';
+			simonettacss += ' g.tempo{font-weight:bold;} g.dir,';
+			simonettacss += ' g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>';
+			svg = svg.replace("</style>", simonettacss);
+			// svg = svg.replace(/font-family="Times"/g, 'font-family="Simonetta"');
+			svg = svg.replace(/<tspan /g, '<tspan font-family="Simonetta" ');
+			console.log("SVG XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", svg);
+		}
+		SVGtoPDF(pdf, svg, x, y, pdfOptions);
 	}
+
 	vrvToolkit.redoLayout(oldOptions, true);
 	pdf.end();
 	return false;

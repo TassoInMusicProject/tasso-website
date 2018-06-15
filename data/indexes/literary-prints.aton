@@ -14,6 +14,7 @@
 @@   PUBLISHER:    Publisher of print source
 @@   PUBLOCATION:  Publication place of print source
 @@   PUBYEAR:      Date print source was published
+@@   URL:          URL to print online
 @@
 @@ special codes:
 @@   double hash-tag is a marker for a SM-siglum reference in the descriptions.
@@ -38,7 +39,7 @@
 @@BEGIN:	PRINT
 @SPRINTNUM:	7
 @PRINTTITLE:	Scelta di rime di diversi eccellenti poeti, di nuouo raccolte, e date in luce
-@PUBLISHER:	unknown
+@PUBLISHER:	Zabata
 @PUBLOCATION:	Genova
 @PUBYEAR:	1579
 @@END:		PRINT
@@ -49,6 +50,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Vinegia
 @PUBYEAR:	1581
+@URL: https://books.google.com/books?id=9CQ8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -65,6 +67,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Vinegia
 @PUBYEAR:	1582
+@URL: https://books.google.com/books?id=ooxqLK6qcdwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -81,6 +84,7 @@
 @PUBLISHER:	Domenico Mammarelli, e Giulio Cesare Cagnacini Compagni
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1582
+@URL: https://archive.org/details/imageCII1561MiscellaneaOpal
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -105,6 +109,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Vinetia
 @PUBYEAR:	1583
+@URL: https://books.google.com/books?id=_YW1k56G_M4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -112,7 +117,8 @@
 @PRINTTITLE:	Delle rime, et prose del S. Torquato Tasso, di nuovo con diligenza rivedute, corrette, et di vaghe figure adornate, parte seconda
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Vinetia
-@PUBYEAR:	1584
+@PUBYEAR:	1583
+@URL: https://books.google.com/books?id=QFVJkWrCamUC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -137,6 +143,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Venetia
 @PUBYEAR:	1584
+@URL: https://books.google.com/books?id=9yU8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -145,6 +152,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venetia
 @PUBYEAR:	1585
+@URL: https://archive.org/details/bub_gb_0l2IwBX_ZTMC
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -193,6 +201,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1587
+@URL: https://books.google.com/books?id=hKBIdaX8m4MC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -208,6 +217,7 @@
 @PRINTTITLE:	Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette
 @PUBLISHER:	Simon Vasalini
 @PUBLOCATION:	Ferrara
+@URL: https://books.google.com/books?id=vV-TwXBdOzsC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @PUBYEAR:	1585
 @@END:		PRINT
 
@@ -313,6 +323,7 @@
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1586
+@URL: https://books.google.com/books?id=qsNdAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -321,6 +332,7 @@
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1587
+@URL: https://books.google.com/books?id=dRI8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -329,6 +341,7 @@
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1587
+@URL: https://books.google.com/books?id=bx88AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -336,7 +349,8 @@
 @PRINTTITLE:	Delle lettere familiari del Sig. Torquato Tasso, nuovamente raccolte, e date in luce, libro primo [e secondo]
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
-@PUBYEAR:	1587
+@PUBYEAR:	1588
+@URL: https://books.google.com/books?id=oUwD8J3UmBYC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -353,6 +367,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1589
+@URL: https://books.google.com/books?id=RiY8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -361,6 +376,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1589
+@URL: https://books.google.com/books?id=riY8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -385,6 +401,7 @@
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1589
+@URL: https://books.google.com/books?id=Zg-MYuT8X98C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -401,6 +418,7 @@
 @PUBLISHER:	Antonio Guerino, e Compagno
 @PUBLOCATION:	Casalmaggiore
 @PUBYEAR:	1590
+@URL: https://books.google.com/books?id=CWuISFFAdC0C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -433,6 +451,7 @@
 @PUBLISHER:	Pietro Maria Marchetti
 @PUBLOCATION:	Brescia
 @PUBYEAR:	1592
+@URL: https://books.google.com/books?id=g_PKUXlv7VgC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -449,6 +468,7 @@
 @PUBLISHER:	Comin Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1594
+URL: https://books.google.com/books?id=9cZdAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -457,14 +477,16 @@
 @PUBLISHER:	Giovanni Battista Ciotti
 @PUBLOCATION:	Venetia
 @PUBYEAR:	1598
+@URL: https://books.google.com/books?id=tTU8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	141
 @PRINTTITLE:	Rime del Signor Torquato Tasso, divise in sei parti
-@PUBLISHER:	Giovanni Battista Pulciani
+@PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
 @PUBLOCATION:	Venetia
 @PUBYEAR:	1608
+@URL: https://books.google.com/books?id=Ym4UcSbkqQcC&dq=torquato+tasso+rime&source=gbs_navlinks_s
 @@END:		PRINT
 
 @@BEGIN:	PRINT

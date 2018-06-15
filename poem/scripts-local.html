@@ -515,3 +515,52 @@ function setNextPreviousPoem(rime) {
 </script>
 
 
+<script>
+// qtip code
+
+//////////////////////////////
+//
+// initializeTooltips -- Create tooltips for footnote displays.
+//
+
+function initializeTooltips() {
+console.log("GOT INTO INITIALIZETOOLTIPS");
+   var footnotes = document.querySelectorAll(".footnote");
+   if (footnotes.length == 0) {
+      return;
+   }
+   console.log("Tooltips:",footnotes.length);
+   var i;
+   for (i=0; i<footnotes.length; i++) {
+      $(footnotes[i]).qtip({
+         content: {
+            text: generateFootnote($(footnotes[i]).attr("text"))
+         },
+         style: {
+            classes: 'tooltip',
+				'font-size': 62
+         },
+         position: {
+            my: 'bottom left',
+            at: 'right center'
+         }
+      });
+		console.log($(footnotes[i]));
+   }
+}
+
+
+
+//////////////////////////////
+//
+// generateFootnote --  Remove font markers (eventually insert the correct
+//   font instead), and remove the footnote marker from the footnote text.
+//
+
+function generateFootnote(text) {
+	return text;
+}
+
+
+</script>
+

@@ -304,6 +304,7 @@ function continueProcessingRime(element) {
 	                      .textContent;
 	var rimeTemplate = Handlebars.compile(tsource);
 	element.innerHTML = rimeTemplate(RIMEVERSELIST);
+console.log("REVERSELIST", RIMEVERSELIST);
 	showTab("rime-heading");
 }
 

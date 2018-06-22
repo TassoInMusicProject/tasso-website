@@ -457,7 +457,16 @@ function getDescriptionPrint(item, tag, data) {
    var output = "";
 	var di = data[index];
 
+	var haveurl = 0;
+	if (di.URL && (!di.URL.match(/^\s*$/))) {
+		var url = di.URL.replace(/^\s*/, "").replace(/\s*$/, "");
+		output += "<a target='_new' href='" + url + "'>";
+		haveurl = 1;
+	}
    output += di.PRINTTITLE;
+	if (haveurl) {
+		output += "</a>";
+	}
    output += "<br>(";
    output += di.PUBLOCATION;
 	if (di.PUBLISHER) {

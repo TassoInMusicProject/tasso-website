@@ -1,0 +1,59 @@
+@@
+@@ Literary prints index.  
+@@
+@@ Created 22 Jun 2018 by Emiliano Ricciardi
+@@ Last Edited 22 Jun 2018
+@@
+@@ Description: This database lists print sources for Gerusalemme
+@@
+@@ PRINT data fields:
+@@   PRINTNUM:     Print number or identification
+@@   PRINTTITLE:   Title of print source
+@@   PUBLISHER:    Publisher of print source
+@@   PUBLOCATION:  Publication place of print source
+@@   PUBYEAR:      Date print source was published
+@@   URL:          URL to print online
+@@
+@@ special codes:
+@@   double hash-tag is a marker for a SM-siglum reference in the descriptions.
+@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ Ecloghe                                                             @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	3
+@PRINTTITLE:	De le rime di diversi nobili poeti toscani, raccolte da M. Dionigi Atanagi. Libro Primo
+@PUBLISHER:	Lodovico Avanzo
+@PUBLOCATION:	Venetia
+@PUBYEAR:	1565
+@@END:		PRINT
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ Rinaldo                                                             @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ Lagrime della Beata Vergine                                         @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ Re Torrismondo                                                      @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ Gerusalemme conquistata                                             @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+

@@ -5,13 +5,16 @@
 @@
 @@ RIME data fields:
 @@   CATALOGNUM:   Act/Scene/Verse ID number
+@@   ACT:          Act number in roman numerals
+@@   SCENE:        Secene number in arabic numerals
+@@   VERSE:        Verse number in arabic numerals
 @@   TITLE:        Title of poem (first line of the section)
 @@   MANUSRC:      manuscript source(s)
 @@   PRINTSRC:     printed source(s)
 @@
 @@
 
-@@BEGIN:	RIME
+@@BEGIN:	AMINTA
 @CATALOGNUM:	Trm0003
 @TITLE:		Su l'ampia fronte il crespo oro lucente
 @MANUSRC:	
@@ -47,5 +50,5 @@
 @DATING:	
 @DEDICATEE:	Lucrezia Bendidio?
 @COMMENTARY:    
-@@END:		RIME
+@@END:		AMINTA
 

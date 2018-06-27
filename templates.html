@@ -413,6 +413,9 @@ Handlebars.registerHelper("trclass", function(solerti) {
 //
 
 Handlebars.registerHelper("cleanTitle", function(text) {
+	if (!text) {
+		text = "[EMPTY TITLE]";
+	}
 	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
 	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");

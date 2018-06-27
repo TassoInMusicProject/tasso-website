@@ -1,7 +1,12 @@
 <script src="/scripts/scripts-common.js"></script>
 
+{% include_relative templates.html %}
+
+
 <script>
 // vim: ts=3
+
+var RIMESETTINGLIST = {};
 
 document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
@@ -29,6 +34,7 @@ function displayMusicPolicies(target) {
 	request.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			element.innerHTML = request.responseText;
+			setupMusicBrowseCallbacks();
 		}
 	};
 	request.open("GET", "music.html", true);
@@ -75,7 +81,199 @@ function showTab(hiid) {
 
 	music.className   = hiid == "music-heading"   ? "active" : "";
 	text.className    = hiid == "text-heading"    ? "active" : "";
+
+	fillMusicBrowsePage();
+
 }
+
+
+
+//////////////////////////////
+//
+// fillMusicBrowsePage --
+//
+
+function fillMusicBrowsePage() {
+	var music = document.querySelector("#music-heading");
+	if (!music.className.match(/active/)) {
+		return;
+	}
+
+	var works = filterData(RIMESETTINGLIST);
+
+console.log("MATCHES", works.length);
+	displayBrowseEntries(works);
+}
+
+
+
+//////////////////////////////
+//
+// filterData --
+//
+
+function filterData(entries) {
+	if (!entries) {
+		entries = RIMESETTINGLIST;
+	}
+	if (!entries) {
+		return [];
+	}
+	if (!entries.length) {
+		return [];
+	}
+
+	output = entries;
+
+	var composerElement = document.querySelector("#browse-composer");
+	var composer = "";
+	if (composerElement) {
+		composer = composerElement.value;
+	}
+
+	var titleElement = document.querySelector("#browse-title");
+	var title = "";
+	if (titleElement) {
+		title = titleElement.value;
+	}
+
+	var locationElement = document.querySelector("#browse-location");
+	var location = "";
+	if (locationElement) {
+		location = locationElement.value;
+	}
+
+	var yearElement = document.querySelector("#browse-year");
+	var year = "";
+	if (yearElement) {
+		year = yearElement.value;
+	}
+
+	if (composer) {
+		output = filterByField(output, "COMPOSER", composer);
+	}
+	if (title) {
+		// change this to title? But there is the setting title as well.
+		output = filterByField(output, "RIMETITLE", title);
+	}
+	if (location) {
+		output = filterByField(output, "NORMLOC", location);
+	}
+	if (year) {
+		output = filterByField(output, "PRINCEPSYEAR", year);
+	}
+
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// filterByField --
+//
+
+function filterByField(entries, field, value) {
+	if (!entries) {
+		return [];
+	}
+	if (entries.length == 0) {
+		return [];
+	}
+	var output = [];
+	var re = new RegExp(value, "i");
+	for (var i=0; i<entries.length; i++) {
+		if (entries[i][field].match(re)) {
+			output.push(entries[i]);
+		}
+	}
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// displayBrowseEntries --
+//
+
+function displayBrowseEntries(entries) {
+	var element = document.querySelector("#browse-results");
+	if (!element) {
+		return;
+	}
+
+	var tsource = document.querySelector("#browse-template").textContent;
+	var template = Handlebars.compile(tsource);
+	element.innerHTML = template(entries);
+}
+
+
+
+///////////////////////////////
+//
+//  "DOMContentLoaded" --
+//
+
+window.addEventListener("DOMContentLoaded", function() {
+	if (sessionStorage.RIMESETTINGLIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.rime_settings}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
+			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
+			console.log("DOWNLOADED RIMESETTING LIST");
+			fillMusicBrowsePage();
+		});
+		request.send();
+	}
+});
+
+
+//////////////////////////////
+//
+// setupMusicBrowseCallbacks --
+//
+
+function setupMusicBrowseCallbacks() {
+
+	var composerElement = document.querySelector("#browse-composer");
+	if (composerElement) {
+		composerElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var titleElement = document.querySelector("#browse-title");
+	if (titleElement) {
+		titleElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var locationElement = document.querySelector("#browse-location");
+	if (locationElement) {
+		locationElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var yearElement = document.querySelector("#browse-year");
+	if (yearElement) {
+		yearElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+
+}
+
+
+
+
 
 
 </script>

@@ -1,0 +1,29 @@
+
+<!-- Handlebars templates for browse page.
+	vim: ts=3 ft=javascript
+	-->
+
+<!-- browse-template -->
+
+{% raw %}
+<script id="browse-template" type="text/x-handlebars-template">
+	<table class="browse-list">
+	<thead>
+		<th style="width:130px; text-align:left;">catalog&nbsp;#</th>
+		<th style="text-align:left;">composer</th>
+		<th style="text-align:left;">title</th>
+	<thead>
+	<tbody>
+	{{#each this}}
+		<tr>
+			<td><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
+			<td>{{COMPOSER}}</td>
+			<td>{{RIMETITLE}}</td>
+		</tr>
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+

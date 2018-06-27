@@ -1,0 +1,50 @@
+#!/usr/bin/perl
+#vim:  ts=3
+
+# https://docs.google.com/spreadsheets/d/1YcaAQc-mxFFDWyOsT7HOlwZkEqB4rPEuOzXCMTKprMc/edit#gid=2045705538
+
+use strict;
+
+my $inputfile = $ARGV[0];
+my $indexfile = $ARGV[1];
+
+my %normpub;
+my %normpubshort;
+
+createMapping($inputfile);
+
+open (FILE, $indexfile) or die;
+
+while (my $line = <FILE>) {
+	if ($line =~ /\@PRINCEPSPUB:\s*(.*)\s*$/) {
+		my $value = $1;
+		$line = "\@NORMPUB:\t$normpub{$1}\n\@NORMPUBSHORT:\t$normpubshort{$1}\n$line";
+	}
+	print $line;
+}
+
+
+###########################################################################
+
+##############################
+##
+## createMapping --
+##
+
+sub createMapping {
+	my ($file)  = @_;
+
+	my $princepspubindex = 1;
+	my $normpubindex = 2;
+	my $normpubshortindex = 3;
+
+	open (FILE, $file) or die;
+	while (my $line = <FILE>) {
+		chomp $line;
+		my @data = split(/\t/, $line);
+		$normpub{$data[$princepspubindex]} = $data[$normpubindex];
+		$normpubshort{$data[$princepspubindex]} = $data[$normpubshortindex];
+	}
+	close FILE;
+
+}

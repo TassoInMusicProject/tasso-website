@@ -24,7 +24,10 @@
 @@   COMDATES:      Composer Birth/Death/Flourish dates
 @@   PRINCEPSTITLE: Title of book the setting was first published
 @@   PRINCEPSLOC:   Location first edtion was published
-@@   PRINCEPSPUB:   Publisher of the first edition
+@@   NORMLOC:       Normalized PRINCEPSLOC (make source spelling uniform).
+@@   PRINCEPSPUB:   Publisher of the first edition.
+@@   NORMPUB:       Normalized PRINCEPSPUB (make source spelling uniform).
+@@   NORMPUBSHORT:  Normalized PRINCEPSPUB and shortened.
 @@   PRINCEPSYEAR:  Publication year of the first edition
 @@   PRINCEPSRISM:  RISM number of the first edition
 @@   PRINCEPSFORMAT: anthology == if the volume is a collation from multiple composers.
@@ -52,6 +55,8 @@
 @PRINCEPSTITLE:	Cantiones trium vocum
 @PRINCEPSLOC:	Hamburg
 @NORMLOC:	Hamburg
+@NORMPUB:	von Ohr-Jauch
+@NORMPUBSHORT:	von Ohr-Jauch
 @PRINCEPSPUB:	von Ohr-Jauch
 @PRINCEPSYEAR:	1608
 @PRINCEPSRISM:	S3549
@@ -71,6 +76,8 @@
 @PRINCEPSTITLE:	Cantiones trium vocum
 @PRINCEPSLOC:	Hamburg
 @NORMLOC:	Hamburg
+@NORMPUB:	von Ohr-Jauch
+@NORMPUBSHORT:	von Ohr-Jauch
 @PRINCEPSPUB:	von Ohr-Jauch
 @PRINCEPSYEAR:	1608
 @PRINCEPSRISM:	S3549
@@ -90,6 +97,8 @@
 @PRINCEPSTITLE:	MS. C331
 @PRINCEPSLOC:	Biblioteca Estense Universitaria, Modena
 @NORMLOC:	Bibioteca Estense Universitaria, Modena
+@NORMPUB:	
+@NORMPUBSHORT:	
 @PRINCEPSPUB:	
 @PRINCEPSYEAR:	late 16th century
 @PRINCEPSRISM:	
@@ -110,6 +119,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-20
@@ -129,6 +140,8 @@
 @PRINCEPSTITLE:	Il nuovo echo
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	A0409
@@ -148,6 +161,8 @@
 @PRINCEPSTITLE:	Il nuovo echo
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	A0409
@@ -167,6 +182,8 @@
 @PRINCEPSTITLE:	Madrigali. Il terzo libro a sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Heirs of Rossi & Tottorino
+@NORMPUBSHORT:	Rossi & Tottorino
 @PRINCEPSPUB:	Heredi di Rossi & Tottorino
 @PRINCEPSYEAR:	1582
 @PRINCEPSRISM:	A0408
@@ -186,6 +203,8 @@
 @PRINCEPSTITLE:	Madrigali. Il terzo libro a sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Heirs of Rossi & Tottorino
+@NORMPUBSHORT:	Rossi & Tottorino
 @PRINCEPSPUB:	Heredi di Rossi & Tottorino
 @PRINCEPSYEAR:	1582
 @PRINCEPSRISM:	A0408
@@ -205,6 +224,8 @@
 @PRINCEPSTITLE:	Il primo libro di canzoni e madrigaletti a tre et a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino
+@NORMPUBSHORT:	Carlino
 @PRINCEPSPUB:	Giovanni Giacomo Carlino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	A0600
@@ -224,6 +245,8 @@
 @PRINCEPSTITLE:	Primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	A0678
@@ -243,6 +266,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque e sei voci. Libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1608
 @PRINCEPSRISM:	A1119
@@ -262,6 +287,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	A1213
@@ -281,6 +308,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	A1214
@@ -300,6 +329,8 @@
 @PRINCEPSTITLE:	Lodi, et canzonette spirituali
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Longo
+@NORMPUBSHORT:	Longo
 @PRINCEPSPUB:	Longo
 @PRINCEPSYEAR:	1608
 @REPRINTS:	
@@ -319,6 +350,8 @@
 @PRINCEPSTITLE:	L’amorosa caccia. A cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-14
@@ -338,6 +371,8 @@
 @PRINCEPSTITLE:	Concerti accademici a una, due, tre, quattro, cinque et sei voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	appresso B. Magni
 @PRINCEPSYEAR:	1629
 @PRINCEPSRISM:	B1712
@@ -357,6 +392,8 @@
 @PRINCEPSTITLE:	Concerti accademici a una, due, tre, quattro, cinque et sei voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	appresso B. Magni
 @PRINCEPSYEAR:	1629
 @PRINCEPSRISM:	B1712
@@ -376,6 +413,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	B1715
@@ -395,6 +434,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1578
 @PRINCEPSRISM:	B1713
@@ -414,6 +455,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	B1715
@@ -433,6 +476,8 @@
 @PRINCEPSTITLE:	Madrigali a tre, quattro, cinque, sei, sette et otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B1716
@@ -452,6 +497,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1578
 @PRINCEPSRISM:	B1713
@@ -472,6 +519,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	1587-6
@@ -491,6 +540,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci. Libro primo
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	B1736
@@ -510,6 +561,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	B1776
@@ -529,6 +582,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	B2115
@@ -548,6 +603,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	B2115
@@ -567,6 +624,8 @@
 @PRINCEPSTITLE:	Il lauro verde
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	1583-10
@@ -586,6 +645,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	B2115
@@ -605,6 +666,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci
 @PRINCEPSLOC:	Milano
 @NORMLOC:	Milan
+@NORMPUB:	
+@NORMPUBSHORT:	Tradato
 @PRINCEPSPUB:	Tradato
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	B2633
@@ -624,6 +687,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1602
 @PRINCEPSRISM:	B2645
@@ -643,6 +708,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1602
 @PRINCEPSRISM:	B2645
@@ -662,6 +729,8 @@
 @PRINCEPSTITLE:	Il primo libro delle villanelle a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	B3456
@@ -681,6 +750,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B3493
@@ -700,6 +771,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B3493
@@ -719,6 +792,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	København, Waltkirch
 @NORMLOC:	Copenhagen
+@NORMPUB:	
+@NORMPUBSHORT:	
 @PRINCEPSPUB:	
 @PRINCEPSYEAR:	1605
 @PRINCEPSRISM:	1605-07
@@ -738,6 +813,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	B3685
@@ -757,6 +834,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	B3685
@@ -776,6 +855,8 @@
 @PRINCEPSTITLE:	Il primo libro delle villanelle a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	B3774
@@ -795,6 +876,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Robletti
+@NORMPUBSHORT:	Robletti
 @PRINCEPSPUB:	Robletti
 @PRINCEPSYEAR:	1613
 @PRINCEPSRISM:	B3785
@@ -814,6 +897,8 @@
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B4203
@@ -833,6 +918,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	B4204
@@ -852,6 +939,8 @@
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B4203
@@ -871,6 +960,8 @@
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B4203
@@ -890,6 +981,8 @@
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B4203
@@ -909,6 +1002,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	B4204
@@ -928,6 +1023,8 @@
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B4203
@@ -947,6 +1044,8 @@
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B4203
@@ -966,6 +1065,8 @@
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	B4203
@@ -985,6 +1086,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	C0036
@@ -1004,6 +1107,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	C0070
@@ -1023,6 +1128,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro, cinque, sei e otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	C0786
@@ -1042,6 +1149,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro, cinque, sei e otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	C0786
@@ -1062,6 +1171,8 @@
 @PRINCEPSTITLE:	L’amorosa caccia. A cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-14
@@ -1081,6 +1192,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	C0888
@@ -1100,6 +1213,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro, cinque, et otto voci: opera quinta
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Robletti
+@NORMPUBSHORT:	Robletti
 @PRINCEPSPUB:	Robletti
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	C0896
@@ -1119,6 +1234,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali, et arie a una, due, et tre voci. Opera decimaquarta
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Robletti
+@NORMPUBSHORT:	Robletti
 @PRINCEPSPUB:	Robletti
 @PRINCEPSYEAR:	1625
 @PRINCEPSRISM:	C0898
@@ -1138,6 +1255,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Robletti
+@NORMPUBSHORT:	Robletti
 @PRINCEPSPUB:	Robletti
 @PRINCEPSYEAR:	1625
 @PRINCEPSRISM:	C0897
@@ -1157,6 +1276,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1608
 @PRINCEPSRISM:	C0912
@@ -1176,6 +1297,8 @@
 @PRINCEPSTITLE:	Tirsi e clori. Terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1607
 @PRINCEPSRISM:	C1431
@@ -1195,6 +1318,8 @@
 @PRINCEPSTITLE:	Rose fresche. Madrigali novi a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	C1482
@@ -1214,6 +1339,8 @@
 @PRINCEPSTITLE:	Libro primo di madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	C1556
@@ -1233,6 +1360,8 @@
 @PRINCEPSTITLE:	Musica di giovanni cavaccio. A quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1597
 @PRINCEPSRISM:	C1559
@@ -1252,6 +1381,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	C1564
@@ -1271,6 +1402,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	C1564
@@ -1290,6 +1423,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	C1564
@@ -1309,6 +1444,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	C1564
@@ -1328,6 +1465,8 @@
 @PRINCEPSTITLE:	Scielta de' madrigali a quatro et cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1572
 @PRINCEPSRISM:	C1569
@@ -1347,6 +1486,8 @@
 @PRINCEPSTITLE:	Novelli amori. A tre voci. Libro primo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Vitale
+@NORMPUBSHORT:	Vitale
 @PRINCEPSPUB:	Vitale
 @PRINCEPSYEAR:	1619
 @PRINCEPSRISM:	Unknown
@@ -1366,6 +1507,8 @@
 @PRINCEPSTITLE:	Madrigali concertati a cinque con il basso continuo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Soldi
+@NORMPUBSHORT:	Soldi
 @PRINCEPSPUB:	Soldi
 @PRINCEPSYEAR:	1621
 @PRINCEPSRISM:	C2224
@@ -1385,6 +1528,8 @@
 @PRINCEPSTITLE:	Madrigali concertati a cinque con il basso continuo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Soldi
+@NORMPUBSHORT:	Soldi
 @PRINCEPSPUB:	Soldi
 @PRINCEPSYEAR:	1621
 @PRINCEPSRISM:	C2224
@@ -1404,6 +1549,8 @@
 @PRINCEPSTITLE:	Madrigali concertati a cinque con il basso continuo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Soldi
+@NORMPUBSHORT:	Soldi
 @PRINCEPSPUB:	Soldi
 @PRINCEPSYEAR:	1621
 @PRINCEPSRISM:	C2224
@@ -1423,6 +1570,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	Unknown
@@ -1442,6 +1591,8 @@
 @PRINCEPSTITLE:	Premitie armoniche a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	Unknown
@@ -1461,6 +1612,8 @@
 @PRINCEPSTITLE:	Premitie armoniche a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	Unknown
@@ -1480,6 +1633,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Jena
 @NORMLOC:	Jena
+@NORMPUB:	Wiedner
+@NORMPUBSHORT:	Wiedner
 @PRINCEPSPUB:	Weidner
 @PRINCEPSYEAR:	1613
 @PRINCEPSRISM:	C3156
@@ -1499,6 +1654,8 @@
 @PRINCEPSTITLE:	Primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	C3433
@@ -1518,6 +1675,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti & Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	1585-22
@@ -1537,6 +1696,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G.Scotto
 @PRINCEPSYEAR:	1575
 @PRINCEPSRISM:	C3931
@@ -1556,6 +1717,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	C4175
@@ -1575,6 +1738,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Bologna
 @NORMLOC:	Bologna
+@NORMPUB:	Rossi
+@NORMPUBSHORT:	Rossi
 @PRINCEPSPUB:	Rossi
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	C4174
@@ -1594,6 +1759,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	C4173
@@ -1613,6 +1780,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Bologna
 @NORMLOC:	Bologna
+@NORMPUB:	Rossi
+@NORMPUBSHORT:	Rossi
 @PRINCEPSPUB:	Rossi
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	C4174
@@ -1632,6 +1801,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a due, tre, e quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1640
 @PRINCEPSRISM:	C4221
@@ -1651,6 +1822,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-13
@@ -1670,6 +1843,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-13
@@ -1689,6 +1864,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque et a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	1587-13
@@ -1709,6 +1886,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-20
@@ -1728,6 +1907,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0029
@@ -1747,6 +1928,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0029
@@ -1766,6 +1949,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci, con il basso continuo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1615
 @PRINCEPSRISM:	I0027
@@ -1785,6 +1970,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ventia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0029
@@ -1804,6 +1991,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0050
@@ -1823,6 +2012,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0050
@@ -1842,6 +2033,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0050
@@ -1861,6 +2054,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ventia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0029
@@ -1880,6 +2075,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	I0050
@@ -1899,6 +2096,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	D0806
@@ -1918,6 +2117,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	D0811
@@ -1937,6 +2138,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1582
 @PRINCEPSRISM:	D810
@@ -1956,6 +2159,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	D0811
@@ -1975,6 +2180,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino & Antonio Pace
+@NORMPUBSHORT:	Carlino & Pace
 @PRINCEPSPUB:	Carlino & Pace
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	D1663
@@ -1994,6 +2201,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Heirs of Cancer
+@NORMPUBSHORT:	Cancer
 @PRINCEPSPUB:	Eredi di Cancer
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	D1660
@@ -2013,6 +2222,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1607
 @PRINCEPSRISM:	D1665
@@ -2032,6 +2243,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino & Antonio Pace
+@NORMPUBSHORT:	Carlino & Pace
 @PRINCEPSPUB:	Carlino & Pace
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	D1663
@@ -2051,6 +2264,8 @@
 @PRINCEPSTITLE:	Canzonette a quattro voci con il basso continuo
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
+@NORMPUB:	Pierre Phalèse
+@NORMPUBSHORT:	Phalèse
 @PRINCEPSPUB:	Phalesio
 @PRINCEPSYEAR:	1620
 @PRINCEPSRISM:	1620-16
@@ -2070,6 +2285,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-13
@@ -2089,6 +2306,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1575
 @PRINCEPSRISM:	D3493
@@ -2108,6 +2327,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti et Amadino
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3613
@@ -2127,6 +2348,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	D3654
@@ -2146,6 +2369,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3655
@@ -2165,6 +2390,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3655
@@ -2184,6 +2411,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3655
@@ -2203,6 +2432,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3655
@@ -2222,6 +2453,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	D3654
@@ -2241,6 +2474,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3655
@@ -2260,6 +2495,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3655
@@ -2279,6 +2516,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	D3654
@@ -2298,6 +2537,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	D3655
@@ -2317,6 +2558,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	D3653
@@ -2336,6 +2579,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	D3654
@@ -2355,6 +2600,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	D3653
@@ -2374,6 +2621,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	D3653
@@ -2393,6 +2642,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	D3653
@@ -2414,6 +2665,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2433,6 +2686,8 @@
 @PRINCEPSTITLE:	Madrigali di giulio heremita, libro primo. A sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	E0742
@@ -2452,6 +2707,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	E0744
@@ -2471,6 +2728,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	E0745
@@ -2490,6 +2749,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	E0745
@@ -2509,6 +2770,8 @@
 @PRINCEPSTITLE:	Madrigaletti a una, due, tre e quatro voci, con alcune villanelle. Libro quinto. Opera nona
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	Magni
 @PRINCEPSYEAR:	1635
 @PRINCEPSRISM:	M0664
@@ -2528,6 +2791,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	E0744
@@ -2547,6 +2812,8 @@
 @PRINCEPSTITLE:	Madrigali a doi, tre, quatro et cinque voci con il basso continuo, libro secondo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	appresso B. Magni
 @PRINCEPSYEAR:	1636
 @PRINCEPSRISM:	F0045
@@ -2566,6 +2833,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	1603-11
@@ -2585,6 +2854,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1579
 @PRINCEPSRISM:	F203
@@ -2605,6 +2876,8 @@
 @PRINCEPSTITLE:	quinto libro delle muse a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1575
 @PRINCEPSRISM:	1575-12 
@@ -2624,6 +2897,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi et Amadino
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	1586-15
@@ -2643,6 +2918,8 @@
 @PRINCEPSTITLE:	Il primo libro di madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1579
 @PRINCEPSRISM:	1579-05
@@ -2662,6 +2939,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2681,6 +2960,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2700,6 +2981,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2719,6 +3002,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2738,6 +3023,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2757,6 +3044,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2776,6 +3065,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2795,6 +3086,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -2814,6 +3107,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	F0255
@@ -2833,6 +3128,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	F0254
@@ -2852,6 +3149,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	F0254
@@ -2871,6 +3170,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	F0254
@@ -2890,6 +3191,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	F0254
@@ -2909,6 +3212,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	1594-12
@@ -2928,6 +3233,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	1594-12
@@ -2949,6 +3256,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	1594-12
@@ -2969,6 +3278,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	1587-6
@@ -2988,6 +3299,8 @@
 @PRINCEPSTITLE:	Capricii et madrigali. A due voci
 @PRINCEPSLOC:	Verona
 @NORMLOC:	Verona
+@NORMPUB:	Dalle Donne
+@NORMPUBSHORT:	Dalle Donne
 @PRINCEPSPUB:	Dalle Donne
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	F1471
@@ -3007,6 +3320,8 @@
 @PRINCEPSTITLE:	Amorosi respiri
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	F1522
@@ -3026,6 +3341,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0002
@@ -3045,6 +3362,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0002
@@ -3064,6 +3383,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0002
@@ -3083,6 +3404,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	G0001
@@ -3102,6 +3425,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0002
@@ -3121,6 +3446,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0002
@@ -3140,6 +3467,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0002
@@ -3159,6 +3488,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	G0001
@@ -3178,6 +3509,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0002
@@ -3197,6 +3530,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1580
 @PRINCEPSRISM:	G0072
@@ -3217,6 +3552,8 @@
 @PRINCEPSTITLE:	Dialoghi musicali de diversi eccellentissimi autori
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	1590-11
@@ -3236,6 +3573,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	G0098
@@ -3255,6 +3594,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Stampa del Gardano
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	G116
@@ -3274,6 +3615,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1605
 @PRINCEPSRISM:	G0011
@@ -3293,6 +3636,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	G0123
@@ -3312,6 +3657,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	G0123
@@ -3331,6 +3678,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	G0123
@@ -3350,6 +3699,8 @@
 @PRINCEPSTITLE:	Le risa a vicenda. Vaghi e dilettevoli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenti
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Appresso Giacomo Vincenti
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	1598-08
@@ -3369,6 +3720,8 @@
 @PRINCEPSTITLE:	Madrigali e canzonette a due, tre, quattro e cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	Magni
 @PRINCEPSYEAR:	1629
 @PRINCEPSRISM:	G448
@@ -3388,6 +3741,8 @@
 @PRINCEPSTITLE:	Sacre lodi
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	G0480
@@ -3407,6 +3762,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0547
@@ -3426,6 +3783,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0547
@@ -3445,6 +3804,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G0547
@@ -3464,6 +3825,8 @@
 @PRINCEPSTITLE:	Libro secondo di madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1605
 @PRINCEPSRISM:	G1586
@@ -3483,6 +3846,8 @@
 @PRINCEPSTITLE:	Libro secondo di madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1605
 @PRINCEPSRISM:	G1586
@@ -3502,6 +3867,8 @@
 @PRINCEPSTITLE:	Libro secondo di madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1605
 @PRINCEPSRISM:	G1586
@@ -3521,6 +3888,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1721
@@ -3540,6 +3909,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1725
@@ -3559,6 +3930,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1721
@@ -3578,6 +3951,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1721
@@ -3597,6 +3972,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1721
@@ -3616,6 +3993,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594 
 @PRINCEPSRISM:	G1725
@@ -3635,6 +4014,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1725
@@ -3654,6 +4035,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1721
@@ -3673,6 +4056,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1721
@@ -3692,6 +4077,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	G1721
@@ -3711,6 +4098,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	1585-24
@@ -3730,6 +4119,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	1585-24
@@ -3749,6 +4140,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	1585-24
@@ -3768,6 +4161,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	G2459
@@ -3787,6 +4182,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	G2459
@@ -3806,6 +4203,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1593
 @PRINCEPSRISM:	G2479
@@ -3825,6 +4224,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1593
 @PRINCEPSRISM:	G2479
@@ -3844,6 +4245,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	G2480
@@ -3864,6 +4267,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-20
@@ -3911,6 +4316,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1593
 @PRINCEPSRISM:	G2479
@@ -3931,6 +4338,8 @@
 @PRINCEPSTITLE:	La gloria musicale. A cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1592
 @PRINCEPSRISM:	1592-14
@@ -3950,6 +4359,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1609
 @PRINCEPSRISM:	G3259
@@ -3969,6 +4380,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G3709
@@ -3988,6 +4401,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	G3709
@@ -4008,6 +4423,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	1587-6
@@ -4027,6 +4444,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a quattro, et a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	G 4800
@@ -4047,6 +4466,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-20
@@ -4066,6 +4487,8 @@
 @PRINCEPSTITLE:	Terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	Unknown
@@ -4086,6 +4509,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-20
@@ -4105,6 +4530,8 @@
 @PRINCEPSTITLE:	Madrigali da concertarsi a cinque voci et il basso continuo
 @PRINCEPSLOC:	Firenze
 @NORMLOC:	Florence
+@NORMPUB:	Zanobi Pignoni
+@NORMPUBSHORT:	Pignoni
 @PRINCEPSPUB:	Zanobi Pignoni
 @PRINCEPSYEAR:	1631
 @PRINCEPSRISM:	G4826
@@ -4124,6 +4551,8 @@
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
+@NORMPUB:	Valentin Schönigk
+@NORMPUBSHORT:	Schönigk
 @PRINCEPSPUB:	Schoenigk
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	H2339
@@ -4143,6 +4572,8 @@
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
+@NORMPUB:	Valentin Schönigk
+@NORMPUBSHORT:	Schönigk
 @PRINCEPSPUB:	Schoenigk
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	H2339
@@ -4162,6 +4593,8 @@
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
+@NORMPUB:	Valentin Schönigk
+@NORMPUBSHORT:	Schönigk
 @PRINCEPSPUB:	Schoenigk
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	H2339
@@ -4181,6 +4614,8 @@
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
+@NORMPUB:	Valentin Schönigk
+@NORMPUBSHORT:	Schönigk
 @PRINCEPSPUB:	Schoenigk
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	H2339
@@ -4200,6 +4635,8 @@
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
+@NORMPUB:	Valentin Schönigk
+@NORMPUBSHORT:	Schönigk
 @PRINCEPSPUB:	Schoenigk
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	H2339
@@ -4219,6 +4656,8 @@
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
+@NORMPUB:	Valentin Schönigk
+@NORMPUBSHORT:	Schönigk
 @PRINCEPSPUB:	Schoenigk
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	H2339
@@ -4238,6 +4677,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Norimberga
 @NORMLOC:	Nuremberg
+@NORMPUB:	Kaufman
+@NORMPUBSHORT:	Kaufman
 @PRINCEPSPUB:	Kaufman
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	H2345
@@ -4257,6 +4698,8 @@
 @PRINCEPSTITLE:	Armonica recreatione. Villanelli a tre voci con il basso continuo
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
+@NORMPUB:	Pierre Phalèse
+@NORMPUBSHORT:	Phalèse
 @PRINCEPSPUB:	Phalesio
 @PRINCEPSYEAR:	1625
 @PRINCEPSRISM:	H5668
@@ -4277,6 +4720,8 @@
 @PRINCEPSTITLE:	Scherzi amorosi. Canzonette ad una voce sola. Libro secondo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1620
 @PRINCEPSRISM:	
@@ -4296,6 +4741,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1579
 @PRINCEPSRISM:	I0053
@@ -4315,6 +4762,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	I0058
@@ -4334,6 +4783,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1580
 @PRINCEPSRISM:	I55
@@ -4353,6 +4804,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	I0058
@@ -4372,6 +4825,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	I0058
@@ -4391,6 +4846,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigli a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Guadazzi
+@NORMPUBSHORT:	Guadazzi
 @PRINCEPSPUB:	Guadazzi
 @PRINCEPSYEAR:	1606
 @PRINCEPSRISM:	I0059
@@ -4410,6 +4867,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	herede di Scotto
 @PRINCEPSYEAR:	1581
 @PRINCEPSRISM:	I0125
@@ -4429,6 +4888,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1577
 @PRINCEPSRISM:	I0124
@@ -4448,6 +4909,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1577
 @PRINCEPSRISM:	I0124
@@ -4467,6 +4930,8 @@
 @PRINCEPSTITLE:	Libro primo de madrigali a cinque voci
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Manelfi
+@NORMPUBSHORT:	Manelfi
 @PRINCEPSPUB:	Manelfi
 @PRINCEPSYEAR:	1608-9
 @PRINCEPSRISM:	K0182
@@ -4486,6 +4951,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino
+@NORMPUBSHORT:	Carlino
 @PRINCEPSPUB:	Carlino
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-14
@@ -4505,6 +4972,8 @@
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Vitale
+@NORMPUBSHORT:	Vitale
 @PRINCEPSPUB:	Vitale
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-15
@@ -4524,6 +4993,8 @@
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Vitale
+@NORMPUBSHORT:	Vitale
 @PRINCEPSPUB:	Vitale
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-15
@@ -4543,6 +5014,8 @@
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Vitale
+@NORMPUBSHORT:	Vitale
 @PRINCEPSPUB:	Vitale
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-15
@@ -4562,6 +5035,8 @@
 @PRINCEPSTITLE:	Il secondo libro delle villanelle a tre, quattro et a cinque
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino
+@NORMPUBSHORT:	Carlino
 @PRINCEPSPUB:	Carlino
 @PRINCEPSYEAR:	1614
 @PRINCEPSRISM:	L0361
@@ -4581,6 +5056,8 @@
 @PRINCEPSTITLE:	Il secondo libro delle villanelle a tre, quattro et a cinque
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino
+@NORMPUBSHORT:	Carlino
 @PRINCEPSPUB:	Carlino
 @PRINCEPSYEAR:	1614
 @PRINCEPSRISM:	L0361
@@ -4600,6 +5077,8 @@
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Vitale
+@NORMPUBSHORT:	Vitale
 @PRINCEPSPUB:	Vitale
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-15
@@ -4619,6 +5098,8 @@
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Vitale
+@NORMPUBSHORT:	Vitale
 @PRINCEPSPUB:	Vitale
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-15
@@ -4638,6 +5119,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	appresso Magni
 @PRINCEPSYEAR:	1619
 @PRINCEPSRISM:	L0529
@@ -4657,6 +5140,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1576
 @REPRINTS:	
@@ -4675,6 +5160,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1576
 @PRINCEPSRISM:	L3123
@@ -4694,6 +5181,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	L3125
@@ -4713,6 +5202,8 @@
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	L3130
@@ -4732,6 +5223,8 @@
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	L3130
@@ -4751,6 +5244,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Gardano-B.Magni
+@NORMPUBSHORT:	Gardano-Magni
 @PRINCEPSPUB:	Gardano apresso B. Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4770,6 +5265,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	B. Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4789,6 +5286,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	apresso B. Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4808,6 +5307,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	apresso B. Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4827,6 +5328,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	apresso B. Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4846,6 +5349,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	apresso B. Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4865,6 +5370,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	apresso B. Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4884,6 +5391,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	apresso Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4903,6 +5412,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	appresso Magni
 @PRINCEPSYEAR:	1617
 @PRINCEPSRISM:	M54
@@ -4922,6 +5433,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	M0090
@@ -4941,6 +5454,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	M0090
@@ -4960,6 +5475,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M0089
@@ -4979,6 +5496,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	M0090
@@ -4998,6 +5517,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Gargano & Nucci
+@NORMPUBSHORT:	Gargano & Nucci
 @PRINCEPSPUB:	Gargano & Nucci
 @PRINCEPSYEAR:	1610
 @PRINCEPSRISM:	M0095
@@ -5018,6 +5539,8 @@
 @PRINCEPSTITLE:	Le gioie. Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	1589-07
@@ -5037,6 +5560,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M0089
@@ -5056,6 +5581,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M0089
@@ -5075,6 +5602,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Opera terza
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Herede di Gardano
 @PRINCEPSYEAR:	1613
 @PRINCEPSRISM:	M0141
@@ -5094,6 +5623,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	M0253
@@ -5113,6 +5644,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	M0253
@@ -5132,6 +5665,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	M0253
@@ -5151,6 +5686,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	M0253
@@ -5170,6 +5707,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voi
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M0261
@@ -5189,6 +5728,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M0261
@@ -5208,6 +5749,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1605
 @PRINCEPSRISM:	M0294
@@ -5227,6 +5770,8 @@
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1595
 @PRINCEPSRISM:	1595-10
@@ -5246,6 +5791,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-21
@@ -5265,6 +5812,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M0510
@@ -5284,6 +5833,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M0510
@@ -5303,6 +5854,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci & Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M0549
@@ -5322,6 +5875,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M0504
@@ -5341,6 +5896,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M0504
@@ -5360,6 +5917,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1595
 @PRINCEPSRISM:	M0519
@@ -5379,6 +5938,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-21
@@ -5398,6 +5959,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1581
 @PRINCEPSRISM:	M500
@@ -5417,6 +5980,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1595
 @PRINCEPSRISM:	M0519
@@ -5436,6 +6001,8 @@
 @PRINCEPSTITLE:	Madrigali spirituali a cinque voci. Libro primo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M0525
@@ -5456,6 +6023,8 @@
 @PRINCEPSTITLE:	De floridi virtuosi d’italia il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci & Amadino
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	1583-11
@@ -5475,6 +6044,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	M0507
@@ -5494,6 +6065,8 @@
 @PRINCEPSTITLE:	Il terzo libro de' madrigali a sei voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	M0507
@@ -5513,6 +6086,8 @@
 @PRINCEPSTITLE:	Madrigali a quattro voci. Libro primo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	M578
@@ -5532,6 +6107,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M0504
@@ -5551,6 +6128,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	1596-13
@@ -5570,6 +6149,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	1596-13
@@ -5589,6 +6170,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	1596-13
@@ -5608,6 +6191,8 @@
 @PRINCEPSTITLE:	Aminta musicale
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	M0714
@@ -5627,6 +6212,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi et Amadino
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	M1254
@@ -5646,6 +6233,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	M1255
@@ -5665,6 +6254,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	M1292
@@ -5684,6 +6275,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	M1292
@@ -5703,6 +6296,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	M1489
@@ -5722,6 +6317,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -5741,6 +6338,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -5760,6 +6359,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -5779,6 +6380,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -5798,6 +6401,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -5817,6 +6422,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -5836,6 +6443,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -5855,6 +6464,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -5874,6 +6485,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -5893,6 +6506,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -5912,6 +6527,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -5931,6 +6548,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -5950,6 +6569,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -5969,6 +6590,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -5988,6 +6611,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -6007,6 +6632,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -6026,6 +6653,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1503
@@ -6045,6 +6674,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci e Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M1502
@@ -6064,6 +6695,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
+@NORMPUB:	Phalèse et Bellero
+@NORMPUBSHORT:	Phalèse et Bellero
 @PRINCEPSPUB:	Phalesio et Bellero
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	M2206
@@ -6083,6 +6716,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M2200
@@ -6102,6 +6737,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M2200
@@ -6121,6 +6758,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
+@NORMPUB:	Phalèse et Bellero
+@NORMPUBSHORT:	Phalèse et Bellero
 @PRINCEPSPUB:	Phalesio et Bellero
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	M2206
@@ -6140,6 +6779,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1575
 @PRINCEPSRISM:	M2216
@@ -6159,6 +6800,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1575
 @REPRINTS:	
@@ -6177,6 +6820,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1575
 @PRINCEPSRISM:	M2216
@@ -6196,6 +6841,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1575
 @PRINCEPSRISM:	M2216
@@ -6215,6 +6862,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali concertati. Opera quinta
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1624
 @PRINCEPSRISM:	M2346
@@ -6234,6 +6883,8 @@
 @PRINCEPSTITLE:	Il primo fiore della ghirlanda musicale
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1577
 @PRINCEPSRISM:	1577-7
@@ -6254,6 +6905,8 @@
 @PRINCEPSTITLE:	Corona de madrigali a sei voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1579
 @PRINCEPSRISM:	1579-2
@@ -6274,6 +6927,8 @@
 @PRINCEPSTITLE:	Corona de madrigali a sei voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1579
 @PRINCEPSRISM:	1579-2
@@ -6293,6 +6948,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M2800
@@ -6312,6 +6969,8 @@
 @PRINCEPSTITLE:	MS Mus.F.1358
 @PRINCEPSLOC:	Biblioteca Estense Universitaria, Modena
 @NORMLOC:	Biblioteca Estense Universitaria, Modena
+@NORMPUB:	
+@NORMPUBSHORT:	
 @PRINCEPSPUB:	
 @PRINCEPSYEAR:	1580
 @PRINCEPSRISM:	
@@ -6331,6 +6990,8 @@
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3383
@@ -6350,6 +7011,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6369,6 +7032,8 @@
 @PRINCEPSTITLE:	Il terzodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	M3382
@@ -6388,6 +7053,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6407,6 +7074,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6428,6 +7097,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Eredi di Scotto
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	1591-18
@@ -6447,6 +7118,8 @@
 @PRINCEPSTITLE:	L’Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	M3379
@@ -6466,6 +7139,8 @@
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3383
@@ -6485,6 +7160,8 @@
 @PRINCEPSTITLE:	L’Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	M3379
@@ -6504,6 +7181,8 @@
 @PRINCEPSTITLE:	Il terzodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	M3382
@@ -6523,6 +7202,8 @@
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3383
@@ -6543,6 +7224,8 @@
 @PRINCEPSTITLE:	Dialoghi musicali de diversi eccellentissimi autori
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	1590-11
@@ -6562,6 +7245,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6581,6 +7266,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	
@@ -6600,6 +7287,8 @@
 @PRINCEPSTITLE:	L’Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	M3379
@@ -6619,6 +7308,8 @@
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3383
@@ -6638,6 +7329,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6657,6 +7350,8 @@
 @PRINCEPSTITLE:	L’Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	M3379
@@ -6676,6 +7371,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6695,6 +7392,8 @@
 @PRINCEPSTITLE:	Il terzodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	M3382
@@ -6714,6 +7413,8 @@
 @PRINCEPSTITLE:	L’Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	M3379
@@ -6733,6 +7434,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali spirituali a sei et sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	M3322
@@ -6752,6 +7455,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6771,6 +7476,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6790,6 +7497,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6809,6 +7518,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6828,6 +7539,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	M3384
@@ -6847,6 +7560,8 @@
 @PRINCEPSTITLE:	Primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Stigliola
+@NORMPUBSHORT:	Stigliola
 @PRINCEPSPUB:	Stigliola
 @PRINCEPSYEAR:	1595
 @PRINCEPSRISM:	M3416
@@ -6866,6 +7581,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino
+@NORMPUBSHORT:	Carlino
 @PRINCEPSPUB:	Jacomo Carlino
 @PRINCEPSYEAR:	1602
 @PRINCEPSRISM:	M3418
@@ -6885,6 +7602,8 @@
 @PRINCEPSTITLE:	Primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	M3422
@@ -6904,6 +7623,8 @@
 @PRINCEPSTITLE:	Quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Antonio Pace
+@NORMPUBSHORT:	Pace
 @PRINCEPSPUB:	Pace
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	M3420
@@ -6923,6 +7644,8 @@
 @PRINCEPSTITLE:	Il settimo libro de madrigali a 1, 2, 3, 4 e 6 voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	Magni
 @PRINCEPSYEAR:	1619
 @PRINCEPSRISM:	M3494
@@ -6942,6 +7665,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M3453
@@ -6961,6 +7686,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -6980,6 +7707,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -6999,6 +7728,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -7018,6 +7749,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -7037,6 +7770,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -7056,6 +7791,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -7075,6 +7812,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -7094,6 +7833,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
@@ -7113,6 +7854,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M3615
@@ -7132,6 +7875,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M3615
@@ -7151,6 +7896,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M3615
@@ -7170,6 +7917,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M3615
@@ -7189,6 +7938,8 @@
 @PRINCEPSTITLE:	Gli encomii musicali
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	M3729
@@ -7208,6 +7959,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	M3814
@@ -7227,6 +7980,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti & Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	M3813
@@ -7246,6 +8001,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1595
 @PRINCEPSRISM:	M3816
@@ -7265,6 +8022,8 @@
 @PRINCEPSTITLE:	Il lauro secco
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1582
 @PRINCEPSRISM:	1582-05
@@ -7284,6 +8043,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	N0012
@@ -7303,6 +8064,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	1599-16
@@ -7322,6 +8085,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	1599-16
@@ -7341,6 +8106,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	1599-16
@@ -7360,6 +8127,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	1599-16
@@ -7379,6 +8148,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1609
 @PRINCEPSRISM:	N0034
@@ -7400,6 +8171,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venigia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Heredi di Scotto
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	S1135
@@ -7420,6 +8193,8 @@
 @PRINCEPSTITLE:	Vittoria amorosa. A cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	1596-11
@@ -7439,6 +8214,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1607
 @PRINCEPSRISM:	N0388
@@ -7458,6 +8235,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Gargano
+@NORMPUBSHORT:	Gargano
 @PRINCEPSPUB:	Gargano
 @PRINCEPSYEAR:	1613
 @PRINCEPSRISM:	N398
@@ -7477,6 +8256,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1607
 @PRINCEPSRISM:	N0388
@@ -7496,6 +8277,8 @@
 @PRINCEPSTITLE:	I finti amori
 @PRINCEPSLOC:	Venzia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi e Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	N0677
@@ -7515,6 +8298,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1606
 @PRINCEPSRISM:	N0687
@@ -7534,6 +8319,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	O0106
@@ -7553,6 +8340,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	O0106
@@ -7572,6 +8361,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro, cinque, et sei voci
 @PRINCEPSLOC:	Dresdae
 @NORMLOC:	Dresden
+@NORMPUB:	Typis Elect. Saxoniae
+@NORMPUBSHORT:	Typis Elect. Saxoniae
 @PRINCEPSPUB:	Typis Elect. Saxoniae
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	1589-15
@@ -7591,6 +8382,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1593
 @PRINCEPSRISM:	P0789
@@ -7610,6 +8403,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi e Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	P0779
@@ -7629,6 +8424,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	P793
@@ -7648,6 +8445,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1593
 @PRINCEPSRISM:	P0789
@@ -7667,6 +8466,8 @@
 @PRINCEPSTITLE:	L’Ottavo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1612
 @PRINCEPSRISM:	P0801
@@ -7686,6 +8487,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	P793
@@ -7705,6 +8508,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	P782
@@ -7724,6 +8529,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1579
 @PRINCEPSRISM:	P0772
@@ -7743,6 +8550,8 @@
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1604
 @REPRINTS:	
@@ -7761,6 +8570,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	P782
@@ -7780,6 +8591,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-28
@@ -7799,6 +8612,8 @@
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1604
 @REPRINTS:	
@@ -7817,6 +8632,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	P1137
@@ -7836,6 +8653,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardane
 @PRINCEPSYEAR:	1581
 @PRINCEPSRISM:	P1537
@@ -7855,6 +8674,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
+@NORMPUB:	Pierre Phalèse
+@NORMPUBSHORT:	Phalèse
 @PRINCEPSPUB:	Phalesio
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	P1927
@@ -7874,6 +8695,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	P2230
@@ -7893,6 +8716,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Sons of Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Figlioli di Gardano
 @PRINCEPSYEAR:	1573
 @PRINCEPSRISM:	P5104
@@ -7912,6 +8737,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1580
 @PRINCEPSRISM:	P5106
@@ -7931,6 +8758,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	P5190
@@ -7950,6 +8779,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Sons of Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Figliuoli di A. Gardano
 @PRINCEPSYEAR:	1573
 @PRINCEPSRISM:	P5189
@@ -7969,6 +8800,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Sons of Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Figliuoli di Gardano
 @PRINCEPSYEAR:	1573
 @PRINCEPSRISM:	P5189
@@ -7988,6 +8821,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G.Scotto
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	P5311
@@ -8007,6 +8842,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	P5313
@@ -8026,6 +8863,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	P5429
@@ -8047,6 +8886,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-28
@@ -8066,6 +8907,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1615
 @PRINCEPSRISM:	R0329
@@ -8085,6 +8928,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	R442
@@ -8105,6 +8950,8 @@
 @PRINCEPSTITLE:	L’amorosa caccia a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-14
@@ -8124,6 +8971,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1597
 @PRINCEPSRISM:	R 1253
@@ -8143,6 +8992,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Vitale
+@NORMPUBSHORT:	Vitale
 @PRINCEPSPUB:	Vitale
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	R1807
@@ -8163,6 +9014,8 @@
 @PRINCEPSTITLE:	Vittoria amorosa
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	1596-11
@@ -8182,6 +9035,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci con il basso continuo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1614
 @PRINCEPSRISM:	R2759
@@ -8201,6 +9056,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	2781
@@ -8220,6 +9077,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	R2786
@@ -8239,6 +9098,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	R2786
@@ -8258,6 +9119,8 @@
 @PRINCEPSTITLE:	Il lauro verde
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	1583-10
@@ -8277,6 +9140,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	R2786
@@ -8296,6 +9161,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1581
 @PRINCEPSRISM:	R2987
@@ -8315,6 +9182,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	appresso B. Magni
 @PRINCEPSYEAR:	1615
 @PRINCEPSRISM:	R3039
@@ -8334,6 +9203,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	R 3087
@@ -8353,6 +9224,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali concertati a due, tre, e quattro voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1625
 @PRINCEPSRISM:	S0011
@@ -8372,6 +9245,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali concertati a due, tre, e quattro voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1625
 @PRINCEPSRISM:	S0011
@@ -8391,6 +9266,8 @@
 @PRINCEPSTITLE:	Madrigali concertati a due, tre, e quattro voci: libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	Bartholomeo Magni
 @PRINCEPSYEAR:	1629
 @REPRINTS:	
@@ -8411,6 +9288,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti et Amadino
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	S0050
@@ -8430,6 +9309,8 @@
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti et Amadino
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	S0050
@@ -8449,6 +9330,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Giovanni Giacomo Carlino
+@NORMPUBSHORT:	Carlino
 @PRINCEPSPUB:	Carlino
 @PRINCEPSYEAR:	1611
 @PRINCEPSRISM:	1611-17
@@ -8468,6 +9351,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1602
 @PRINCEPSRISM:	S896
@@ -8487,6 +9372,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S1081
@@ -8506,6 +9393,8 @@
 @PRINCEPSTITLE:	Hymeneo
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
+@NORMPUB:	Rafelengio
+@NORMPUBSHORT:	Rafelengio
 @PRINCEPSPUB:	Raphelingen
 @PRINCEPSYEAR:	1611
 @PRINCEPSRISM:	S2542
@@ -8525,6 +9414,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
+@NORMPUB:	Rafelengio
+@NORMPUBSHORT:	Rafelengio
 @PRINCEPSPUB:	Rafelengio
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S2450
@@ -8544,6 +9435,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
+@NORMPUB:	Rafelengio
+@NORMPUBSHORT:	Rafelengio
 @PRINCEPSPUB:	Rafelengio
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S2450
@@ -8563,6 +9456,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
+@NORMPUB:	Rafelengio
+@NORMPUBSHORT:	Rafelengio
 @PRINCEPSPUB:	Rafelengio
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S2450
@@ -8582,6 +9477,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
+@NORMPUB:	Rafelengio
+@NORMPUBSHORT:	Rafelengio
 @PRINCEPSPUB:	Rafelengio
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S2450
@@ -8601,6 +9498,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
+@NORMPUB:	Rafelengio
+@NORMPUBSHORT:	Rafelengio
 @PRINCEPSPUB:	Rafelengio
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S2450
@@ -8620,6 +9519,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
+@NORMPUB:	Rafelengio
+@NORMPUBSHORT:	Rafelengio
 @PRINCEPSPUB:	Rafelengio
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S2450
@@ -8639,6 +9540,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti et Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	S2631
@@ -8658,6 +9561,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque et a sei voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1581
 @PRINCEPSRISM:	N0053
@@ -8677,6 +9582,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigaletti ariosi e villanelle a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Sottile
+@NORMPUBSHORT:	Sottile
 @PRINCEPSPUB:	Sottile
 @PRINCEPSYEAR:	1607
 @PRINCEPSRISM:	S4048
@@ -8696,6 +9603,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
+@NORMPUB:	Bonino
+@NORMPUBSHORT:	Bonino
 @PRINCEPSPUB:	Bonino
 @PRINCEPSYEAR:	1608
 @PRINCEPSRISM:	S4049
@@ -8715,6 +9624,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	S4168
@@ -8734,6 +9645,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	S4168
@@ -8753,6 +9666,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	S4168
@@ -8772,6 +9687,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	S4168
@@ -8792,6 +9709,8 @@
 @PRINCEPSTITLE:	De floridi virtuosi d’italia il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti e Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	1585-16
@@ -8811,6 +9730,8 @@
 @PRINCEPSTITLE:	Libro terzo de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	S4172
@@ -8830,6 +9751,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	S6444
@@ -8850,6 +9773,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	1587-6
@@ -8869,6 +9794,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenci et Amadino
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	S6444
@@ -8888,6 +9815,8 @@
 @PRINCEPSTITLE:	Madrigali e dialoghi a otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	S6450
@@ -8908,6 +9837,8 @@
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-20
@@ -8927,6 +9858,8 @@
 @PRINCEPSTITLE:	Madrigali e dialoghi a otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1598
 @PRINCEPSRISM:	S6450
@@ -8946,6 +9879,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Angelo Gardano
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	S6973
@@ -8965,6 +9900,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	Unknown
@@ -8984,6 +9921,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1612
 @PRINCEPSRISM:	T0227
@@ -9003,6 +9942,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1612
 @PRINCEPSRISM:	T0227
@@ -9022,6 +9963,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1612
 @PRINCEPSRISM:	T0227
@@ -9041,6 +9984,8 @@
 @PRINCEPSTITLE:	Il secondo libro delle canzonette a tre et a quatro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	1594-16
@@ -9060,6 +10005,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Genova
 @NORMLOC:	Genoa
+@NORMPUB:	Bartoli
+@NORMPUBSHORT:	Bartoli
 @PRINCEPSPUB:	Bartoli
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	T1024
@@ -9079,6 +10026,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Genova
 @NORMLOC:	Genoa
+@NORMPUB:	Bartoli
+@NORMPUBSHORT:	Bartoli
 @PRINCEPSPUB:	Bartoli
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	T1024
@@ -9098,6 +10047,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	T1173
@@ -9117,6 +10068,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1596
 @PRINCEPSRISM:	T1175
@@ -9136,6 +10089,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	T1170
@@ -9155,6 +10110,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	T2747
@@ -9174,6 +10131,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	T1170
@@ -9193,6 +10152,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	T1246
@@ -9212,6 +10173,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	T1274
@@ -9231,6 +10194,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	1586-21
@@ -9250,6 +10215,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Firenze
 @NORMLOC:	Florence
+@NORMPUB:	Zanobi Pignoni
+@NORMPUBSHORT:	Pignoni
 @PRINCEPSPUB:	Pignoni
 @PRINCEPSYEAR:	1614
 @PRINCEPSRISM:	D1499
@@ -9271,6 +10238,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Bartholomeo Magni
+@NORMPUBSHORT:	Magni
 @PRINCEPSPUB:	Magni
 @PRINCEPSYEAR:	1616
 @PRINCEPSRISM:	1616-21
@@ -9290,6 +10259,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Firenze
 @NORMLOC:	Florence
+@NORMPUB:	Zanobi Pignoni
+@NORMPUBSHORT:	Pignoni
 @PRINCEPSPUB:	Zanobi Pignoni
 @PRINCEPSYEAR:	1614
 @PRINCEPSRISM:	D1499
@@ -9309,6 +10280,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1615
 @PRINCEPSRISM:	U0030
@@ -9328,6 +10301,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci d'horatio vecchi. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	V1040
@@ -9347,6 +10322,8 @@
 @PRINCEPSTITLE:	Il lauro secco
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1582
 @PRINCEPSRISM:	1582-05
@@ -9366,6 +10343,8 @@
 @PRINCEPSTITLE:	Canzonette. Libro primo. A quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1580
 @PRINCEPSRISM:	V1010
@@ -9385,6 +10364,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
+@NORMPUB:	Le Roy et Ballard
+@NORMPUBSHORT:	Le Roy et Ballard
 @PRINCEPSPUB:	Le Roy et Ballard
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	V1084
@@ -9404,6 +10385,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
+@NORMPUB:	Le Roy et Ballard
+@NORMPUBSHORT:	Le Roy et Ballard
 @PRINCEPSPUB:	Le Roy et Ballard
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	V1086
@@ -9423,6 +10406,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
+@NORMPUB:	Le Roy et Ballard
+@NORMPUBSHORT:	Le Roy et Ballard
 @PRINCEPSPUB:	Le Roy et Ballard
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	V1086
@@ -9442,6 +10427,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
+@NORMPUB:	Le Roy et Ballard
+@NORMPUBSHORT:	Le Roy et Ballard
 @PRINCEPSPUB:	Le Roy et Ballard
 @PRINCEPSYEAR:	1586
 @PRINCEPSRISM:	V1086
@@ -9461,6 +10448,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parma
 @NORMLOC:	Parma
+@NORMPUB:	Viotto
+@NORMPUBSHORT:	Viotto
 @PRINCEPSPUB:	Viotto
 @PRINCEPSYEAR:	1574
 @PRINCEPSRISM:	V1089
@@ -9480,6 +10469,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Parma
 @NORMLOC:	Parma
+@NORMPUB:	Viotto
+@NORMPUBSHORT:	Viotto
 @PRINCEPSPUB:	Viotto
 @PRINCEPSYEAR:	1575
 @PRINCEPSRISM:	V1090
@@ -9500,6 +10491,8 @@
 @PRINCEPSTITLE:	Ghirlanda di madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
+@NORMPUB:	Pierre Phalèse
+@NORMPUBSHORT:	Phalèse
 @PRINCEPSPUB:	Phalesio
 @PRINCEPSYEAR:	1601
 @PRINCEPSRISM:	1601-05
@@ -9519,6 +10512,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
+@NORMPUB:	Pierre Phalèse
+@NORMPUBSHORT:	Phalèse
 @PRINCEPSPUB:	Phalesio
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	V1242
@@ -9538,6 +10533,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
+@NORMPUB:	Giovan Battista Maringo
+@NORMPUBSHORT:	Maringo
 @PRINCEPSPUB:	Maringo
 @PRINCEPSYEAR:	1607
 @PRINCEPSRISM:	1607-24
@@ -9557,6 +10554,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	1594-17
@@ -9576,6 +10575,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
+@NORMPUB:	Giovan Battista Maringo
+@NORMPUBSHORT:	Maringo
 @PRINCEPSPUB:	Maringo
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	I0005
@@ -9595,6 +10596,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	I0008
@@ -9614,6 +10617,8 @@
 @PRINCEPSTITLE:	L’Ottavo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1603
 @PRINCEPSRISM:	I0010
@@ -9633,6 +10638,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	1594-17
@@ -9652,6 +10659,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	I0008
@@ -9671,6 +10680,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	I0008
@@ -9690,6 +10701,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
+@NORMPUB:	Francesco Carrara
+@NORMPUBSHORT:	Carrara
 @PRINCEPSPUB:	Francesco Carrara
 @PRINCEPSYEAR:	1595
 @PRINCEPSRISM:	Unknown
@@ -9709,6 +10722,8 @@
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	I0008
@@ -9728,6 +10743,8 @@
 @PRINCEPSTITLE:	Madrigali a tre. Libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1605
 @PRINCEPSRISM:	I0011
@@ -9747,6 +10764,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
+@NORMPUB:	Giovan Battista Maringo
+@NORMPUBSHORT:	Maringo
 @PRINCEPSPUB:	Maringo
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	I0005
@@ -9766,6 +10785,8 @@
 @PRINCEPSTITLE:	Madrigali a sei voci. Libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1601
 @PRINCEPSRISM:	1601-14
@@ -9785,6 +10806,8 @@
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1640
 @PRINCEPSRISM:	V1484
@@ -9804,6 +10827,8 @@
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1640
 @PRINCEPSRISM:	V1484
@@ -9823,6 +10848,8 @@
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1640
 @PRINCEPSRISM:	V1484
@@ -9842,6 +10869,8 @@
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1640
 @PRINCEPSRISM:	V1484
@@ -9861,6 +10890,8 @@
 @PRINCEPSTITLE:	Il secondo libro delle toscanelle a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	V1550
@@ -9880,6 +10911,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
+@NORMPUB:	Heirs of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di G. Scotto
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	1584-11
@@ -9899,6 +10932,8 @@
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1573
 @PRINCEPSRISM:	V1679
@@ -9918,6 +10953,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	V2106
@@ -9937,6 +10974,8 @@
 @PRINCEPSTITLE:	Il lauro secco
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1582
 @PRINCEPSRISM:	1582-05
@@ -9956,6 +10995,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	V2107
@@ -9975,6 +11016,8 @@
 @PRINCEPSTITLE:	Il lauro verde
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
+@NORMPUB:	Baldini
+@NORMPUBSHORT:	Baldini
 @PRINCEPSPUB:	Baldini
 @PRINCEPSYEAR:	1583
 @PRINCEPSRISM:	1583-10
@@ -9994,6 +11037,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Amadino
+@NORMPUBSHORT:	Amadino
 @PRINCEPSPUB:	Amadino
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	V2107
@@ -10013,6 +11058,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti & Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	V2105
@@ -10032,6 +11079,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	V2106
@@ -10051,6 +11100,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenti & Amadino
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	V2105
@@ -10070,6 +11121,8 @@
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	V2106
@@ -10089,6 +11142,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1594
 @PRINCEPSRISM:	V2108
@@ -10108,6 +11163,8 @@
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci. Opera quartadecima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Gardano-B.Magni
+@NORMPUBSHORT:	Gardano-Magni
 @PRINCEPSPUB:	Stampa del Gardano, appresso B. Magni
 @PRINCEPSYEAR:	1629
 @PRINCEPSRISM:	1629-10
@@ -10127,6 +11184,8 @@
 @PRINCEPSTITLE:	Arie a voce sola
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Alessandro Vincenzi
+@NORMPUBSHORT:	A. Vincenzi
 @PRINCEPSPUB:	Alessandro Vincenti
 @PRINCEPSYEAR:	1649
 @PRINCEPSRISM:	V2186
@@ -10146,6 +11205,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	1585-30
@@ -10165,6 +11226,8 @@
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1581
 @PRINCEPSRISM:	W884
@@ -10184,6 +11247,8 @@
 @PRINCEPSTITLE:	Il nono libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	W0887
@@ -10203,6 +11268,8 @@
 @PRINCEPSTITLE:	Il nono libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	W0887
@@ -10222,6 +11289,8 @@
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
+@NORMPUB:	Heir of G. Scotto
+@NORMPUBSHORT:	Scotto
 @PRINCEPSPUB:	Herede di Scotto
 @PRINCEPSYEAR:	1577
 @PRINCEPSRISM:	W0881
@@ -10241,6 +11310,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0076
@@ -10260,6 +11331,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	Z0074
@@ -10279,6 +11352,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	Z0074
@@ -10298,6 +11373,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0160
@@ -10317,6 +11394,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0160
@@ -10336,6 +11415,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0160
@@ -10355,6 +11436,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0160
@@ -10374,6 +11457,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0160
@@ -10393,6 +11478,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0160
@@ -10412,6 +11499,8 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Vincenzi & Amadino
+@NORMPUBSHORT:	Vincenzi & Amadino
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1589
 @PRINCEPSRISM:	Z0160
@@ -10432,6 +11521,8 @@
 @PRINCEPSTITLE:	L’amorosa caccia. A cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
+@NORMPUB:	Angelo Gardano
+@NORMPUBSHORT:	Gardano
 @PRINCEPSPUB:	Gardano
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-14
@@ -10451,6 +11542,8 @@
 @PRINCEPSTITLE:	Musica di Camillo Cortellini il violino
 @PRINCEPSLOC:	Bologna
 @NORMLOC:	Bologna
+@NORMPUB:	Rossi
+@NORMPUBSHORT:	Rossi
 @PRINCEPSPUB:	Rossi
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	

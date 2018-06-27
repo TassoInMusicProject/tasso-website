@@ -101,7 +101,16 @@ function fillMusicBrowsePage() {
 
 	var works = filterData(RIMESETTINGLIST);
 
-console.log("MATCHES", works.length);
+	var count = works.length;
+	var countElement = document.querySelector("#work-count");
+	if (countElement) {
+		if (count == 1) {
+			countElement.innerHTML = count + " work";
+		} else {
+			countElement.innerHTML = count + " works";
+		}
+	}
+
 	displayBrowseEntries(works);
 }
 
@@ -175,7 +184,7 @@ function filterData(entries) {
 		output = filterByField(output, "PRINCEPSYEAR", year);
 	}
 	if (publisher) {
-		output = filterByField(output, "PRINCEPSPUB", publisher);
+		output = filterByField(output, ["NORMPUBSHORT", "NORMPUB", "PRINCEPSPUB"], publisher);
 	}
 	if (rism) {
 		output = filterByField(output, "PRINCEPSRISM", rism);
@@ -199,14 +208,31 @@ function filterByField(entries, field, value) {
 	if (entries.length == 0) {
 		return [];
 	}
+console.log("GOT HERE QQQ");
 	var output = [];
 	var re = new RegExp(value, "i");
 	for (var i=0; i<entries.length; i++) {
-		if (!entries[i][field]) {
-			continue;
-		}
-		if (entries[i][field].match(re)) {
-			output.push(entries[i]);
+		if (field instanceof Array) {
+			var found = 0;
+			for (var j=0; j<field.length; j++) {
+				if (!entries[i][field[j]]) {
+					continue;
+				}
+				if (entries[i][field[j]].match(re)) {
+					found = 1;
+					break;
+				}
+			}
+			if (found) {
+				output.push(entries[i]);
+			}
+		} else {
+			if (!entries[i][field]) {
+				continue;
+			}
+			if (entries[i][field].match(re)) {
+				output.push(entries[i]);
+			}
 		}
 	}
 
@@ -305,9 +331,6 @@ function setupMusicBrowseCallbacks() {
 
 
 }
-
-
-
 
 
 

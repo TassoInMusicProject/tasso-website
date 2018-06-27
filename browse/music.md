@@ -20,6 +20,8 @@ layout: simple
 	<option disabled>Aminta</option>
 	<option disabled>Gerusalemme</option>
 </select>
+<br>
+<div id="work-count"></div>
 </td><td>
 <input style="width:200px;" placeholder="Composer" id="browse-composer" value="" />
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />

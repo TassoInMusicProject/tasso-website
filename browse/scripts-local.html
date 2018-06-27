@@ -6,7 +6,7 @@
 <script>
 // vim: ts=3
 
-var RIMESETTINGLIST = {};
+var RIMESETTINGLIST = [];
 
 document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
@@ -218,7 +218,7 @@ function displayBrowseEntries(entries) {
 //
 
 window.addEventListener("DOMContentLoaded", function() {
-	if (sessionStorage.RIMESETTINGLIST) {
+	// if (sessionStorage.RIMESETTINGLIST) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.rime_settings}}");
 		request.addEventListener("load", function() {
@@ -229,7 +229,7 @@ window.addEventListener("DOMContentLoaded", function() {
 			fillMusicBrowsePage();
 		});
 		request.send();
-	}
+	// }
 });
 
 

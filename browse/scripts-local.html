@@ -149,6 +149,18 @@ function filterData(entries) {
 		year = yearElement.value;
 	}
 
+	var publisherElement = document.querySelector("#browse-publisher");
+	var publisher = "";
+	if (publisherElement) {
+		publisher = publisherElement.value;
+	}
+
+	var rismElement = document.querySelector("#browse-rism");
+	var rism = "";
+	if (rismElement) {
+		rism = rismElement.value;
+	}
+
 	if (composer) {
 		output = filterByField(output, "COMPOSER", composer);
 	}
@@ -161,6 +173,12 @@ function filterData(entries) {
 	}
 	if (year) {
 		output = filterByField(output, "PRINCEPSYEAR", year);
+	}
+	if (publisher) {
+		output = filterByField(output, "PRINCEPSPUB", publisher);
+	}
+	if (rism) {
+		output = filterByField(output, "PRINCEPSRISM", rism);
 	}
 
 
@@ -184,6 +202,9 @@ function filterByField(entries, field, value) {
 	var output = [];
 	var re = new RegExp(value, "i");
 	for (var i=0; i<entries.length; i++) {
+		if (!entries[i][field]) {
+			continue;
+		}
 		if (entries[i][field].match(re)) {
 			output.push(entries[i]);
 		}
@@ -264,6 +285,20 @@ function setupMusicBrowseCallbacks() {
 	var yearElement = document.querySelector("#browse-year");
 	if (yearElement) {
 		yearElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var publisherElement = document.querySelector("#browse-publisher");
+	if (publisherElement) {
+		publisherElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var rismElement = document.querySelector("#browse-rism");
+	if (rismElement) {
+		rismElement.addEventListener("input", function() { 
 			fillMusicBrowsePage();
 		});
 	}

@@ -2,11 +2,35 @@
 layout: simple
 ---
 
+<style>
 
-<input placeholder="Composer" id="browse-composer" value="" />
-<input placeholder="Title" id="browse-title" value="" />
-<input placeholder="Location" id="browse-location" value="" />
-<input placeholder="Year" id="browse-year" value="" />
+.xxx {
+	font-size: 18pt;
+	color: #959595;
+}
+
+</style>
+
+
+<table style="padding-top:20px; padding-bottom:20px" width="100%">
+<tr><td style="vertical-align:top">
+<select class="xxx">
+	<option disabled>All</option>
+	<option default>Rime</option>
+	<option disabled>Aminta</option>
+	<option disabled>Gerusalemme</option>
+</select>
+</td><td>
+<input style="width:200px;" placeholder="Composer" id="browse-composer" value="" />
+<input style="width:200px;" placeholder="Title" id="browse-title" value="" />
+<input style="width:200px;" placeholder="RISM" id="browse-rism" value="" />
+<br>
+<input style="width:200px;" placeholder="Location" id="browse-location" value="" />
+<input style="width:200px;" placeholder="Publisher" id="browse-publisher" value="" />
+<input style="width:200px;" placeholder="Year" id="browse-year" value="" />
+</td>
+</tr>
+</table>
 
 <div id="browse-results">
 

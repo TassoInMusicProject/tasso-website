@@ -24,7 +24,7 @@
 	{{#each this}}
 		<tr style="vertical-align:top">
 			<td><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
-			<td>{{shortComposer COMPOSER}}</td>
+			<td>{{shortName COMPOSER}}</td>
 			<td>{{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
 			<td>{{NORMLOC}}: {{NORMPUBSHORT}}, {{PRINCEPSYEAR}}</td>
 		</tr>
@@ -49,17 +49,19 @@
 <script id="literary-browse-template" type="text/x-handlebars-template">
 	<table class="literary-browse-list">
 	<thead>
-		<th style="width:130px; text-align:left;">Catalog&nbsp;#</th>
-		<th style="width:170px; text-align:left;">Literary genre</th>
+		<th style="text-align:left;">Catalog&nbsp;#</th>
+		<th style="text-align:left;">Literary&nbsp;genre</th>
 		<th style="text-align:left;">Title</th>
+		<th style="text-align:left;">Dedicatee</th>
 		<th style="text-align:left;">Sources</th>
 	<thead>
 	<tbody>
 	{{#each this}}
 		<tr style="vertical-align:top">
-			<td><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
-			<td>{{{GENRE}}}</td>
+			<td><span style="font-size:85%"><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></span></td>
+			<td>{{{shortGenre GENRE}}}</td>
 			<td>{{{TITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
+			<td style="padding-right:10px">{{{shortName DEDICATEE}}}</td>
 			<td>{{{MANUSRC}}}<br>{{{PRINTSRC}}}</td>
 		</tr>
 	{{/each}}
@@ -79,21 +81,23 @@
 
 //////////////////////////////
 //
-// shortComposer Handlebar helper  -- Prevent linebreak after RISM
+// shortName Handlebar helper  -- Prevent linebreak after RISM
 //      and its number.
 //
 
-Handlebars.registerHelper("shortComposer", function(text) {
+Handlebars.registerHelper("shortName", function(text) {
 	if (!text) {
 		return new Handlebars.SafeString("");
 	}
+	var output;
 	var matches;
+	var originaltext = text;
+
 	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
 	var lastname = text;
 	var firstname = text;
 	var abbrname = "";
 	var pieces;
-	var output;
 	if (!text.match(/(.*),\s+(.*)/)) {
 		text = text.replace(/\.\s*/, ", ");
 	}
@@ -115,23 +119,43 @@ Handlebars.registerHelper("shortComposer", function(text) {
 		}
 		var shortname;
 		if (abbrname.length > 0) {
-			shortname = lastname + "," + abbrname;
+			matches = abbrname.match(/(.*)\s?\?/);
+			if (matches) {
+				shortname = matches[1] + " " + lastname + "&nbsp;?";
+			} else {
+				shortname = lastname + "," + abbrname;
+			}
 		} else {
 			shortname = lastname;
 		}
 		if (shortname.length > 15) {
 			output = "<span style='letter-spacing:-1px; word-spacing:-1px; ";
-			output+= "cursor:help' title='" + firstname + " " + lastname +"'>";
+			output+= "cursor:help' title='" + originaltext +"'>";
 			output += shortname + "</a>";
 		} else {
 			output = "<span style='cursor:help' title='";
-			output += firstname + " " + lastname +"'>";
+			output += originaltext + "'>";
 			output += shortname + "</a>";
 		}
 		return new Handlebars.SafeString(output);
 	} else {
 		return new Handlebars.SafeString(text);
 	}
+});
+
+
+
+//////////////////////////////
+//
+// shortGenre Handlebar helper  -- add linebreak for slashes
+//
+
+Handlebars.registerHelper("shortGenre", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("");
+	}
+	text = text.replace("/", "&nbsp;/ ", "g");
+	return new Handlebars.SafeString(text);
 });
 
 </script>

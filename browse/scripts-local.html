@@ -258,6 +258,12 @@ function filterLiteraryData(entries) {
 		title = titleElement.value;
 	}
 
+	var dedicateeElement = document.querySelector("#browse-dedicatee");
+	var dedicatee = "";
+	if (dedicateeElement) {
+		dedicatee = dedicateeElement.value;
+	}
+
 	var litgenElement = document.querySelector("#browse-litgen");
 	var litgen = "";
 	if (litgenElement) {
@@ -278,6 +284,10 @@ function filterLiteraryData(entries) {
 
 	if (title) {
 		output = filterByField(output, "TITLE", title);
+	}
+
+	if (dedicatee) {
+		output = filterByField(output, "DEDICATEE", dedicatee);
 	}
 
 	if (litgen) {
@@ -480,6 +490,13 @@ function setupLiteraryBrowseCallbacks() {
 	var titleElement = document.querySelector("#browse-title");
 	if (titleElement) {
 		titleElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var dedicateeElement = document.querySelector("#browse-dedicatee");
+	if (dedicateeElement) {
+		dedicateeElement.addEventListener("input", function() { 
 			fillLiteraryBrowsePage();
 		});
 	}

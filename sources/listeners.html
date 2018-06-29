@@ -12,7 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
 	var cgi = GetCgiParameters();
    if (cgi.rime) {
 		Rime = cgi.rime;
-	   displayLiterarySources(cgi.rime, "#contents");
+	   displayLiterarySources(Rime, "#contents");
+   } else if (cgi.id) {
+		var matches = cgi.id.match(/Trm0+(\d+)/);
+		if (matches) {
+			Rime = matches[1];
+	   	displayLiterarySources(Rime, "#contents");
+		} else {
+	   	displayLiterarySources(0, "#contents");
+		}
    } else {
 	   displayLiterarySources(0, "#contents");
    }

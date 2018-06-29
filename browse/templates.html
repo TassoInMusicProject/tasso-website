@@ -3,11 +3,17 @@
 	vim: ts=3 ft=javascript
 	-->
 
-<!-- browse-template -->
+<!-- music-browse-template -->
 
 {% raw %}
-<script id="browse-template" type="text/x-handlebars-template">
-	<table class="browse-list">
+<style>
+	table.music-browse-list td { padding-bottom: 7px; }
+	table.music-browse-list th { padding-bottom: 12px; }
+	table.music-browse-list tr:hover { background: #f5f5f5; }
+</style>
+
+<script id="music-browse-template" type="text/x-handlebars-template">
+	<table class="music-browse-list">
 	<thead>
 		<th style="width:130px; text-align:left;">Catalog&nbsp;#</th>
 		<th style="width:170px; text-align:left;">Composer</th>
@@ -19,14 +25,55 @@
 		<tr style="vertical-align:top">
 			<td><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
 			<td>{{shortComposer COMPOSER}}</td>
-			<td>{{RIMETITLE}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
-			<td>{{NORMLOC}}: {{NORMPUBSHORT}}, {{PRINCEPSYEAR}}
+			<td>{{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
+			<td>{{NORMLOC}}: {{NORMPUBSHORT}}, {{PRINCEPSYEAR}}</td>
 		</tr>
 	{{/each}}
 	</tbody>
 	</table>
 </script>
 {% endraw %}
+
+
+
+
+<!-- literary-browse-template -->
+
+{% raw %}
+<style>
+	table.literary-browse-list td { padding-bottom: 7px; }
+	table.literary-browse-list th { padding-bottom: 12px; }
+	table.literary-browse-list tr:hover { background: #f5f5f5; }
+</style>
+
+<script id="literary-browse-template" type="text/x-handlebars-template">
+	<table class="literary-browse-list">
+	<thead>
+		<th style="width:130px; text-align:left;">Catalog&nbsp;#</th>
+		<th style="width:170px; text-align:left;">Literary genre</th>
+		<th style="text-align:left;">Title</th>
+		<th style="text-align:left;">Sources</th>
+	<thead>
+	<tbody>
+	{{#each this}}
+		<tr style="vertical-align:top">
+			<td><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
+			<td>{{{GENRE}}}</td>
+			<td>{{{TITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
+			<td>{{{MANUSRC}}}<br>{{{PRINTSRC}}}</td>
+		</tr>
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+
+
+
+
+
 
 <script>
 
@@ -37,6 +84,9 @@
 //
 
 Handlebars.registerHelper("shortComposer", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("");
+	}
 	var matches;
 	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
 	var lastname = text;

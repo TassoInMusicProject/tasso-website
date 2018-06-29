@@ -2,11 +2,16 @@
 
 {% include_relative templates.html %}
 
-
 <script>
 // vim: ts=3
 
+
+var MUSICFIELDS    = {};
+var LITERARYFIELDS = {};
+
+
 var RIMESETTINGLIST = [];
+var RIMEVERSELIST = [];
 
 document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
@@ -35,6 +40,7 @@ function displayMusicPolicies(target) {
 		if (this.readyState == 4 && this.status == 200) {
 			element.innerHTML = request.responseText;
 			setupMusicBrowseCallbacks();
+			fillMusicBrowsePage();
 		}
 	};
 	request.open("GET", "music.html", true);
@@ -62,6 +68,8 @@ function displayTextPolicies(target) {
 	request.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			element.innerHTML = request.responseText;
+			setupLiteraryBrowseCallbacks();
+			fillLiteraryBrowsePage();
 		}
 	};
 	request.open("GET", "text.html", true);
@@ -83,6 +91,7 @@ function showTab(hiid) {
 	text.className    = hiid == "text-heading"    ? "active" : "";
 
 	fillMusicBrowsePage();
+	fillLiteraryBrowsePage();
 
 }
 
@@ -94,34 +103,63 @@ function showTab(hiid) {
 //
 
 function fillMusicBrowsePage() {
+console.log("SHOWING MUSIC PAGE HEADING");
 	var music = document.querySelector("#music-heading");
+	if (!music) {
+		return;
+	}
 	if (!music.className.match(/active/)) {
 		return;
 	}
-
-	var works = filterData(RIMESETTINGLIST);
-
+	var works = filterMusicData(RIMESETTINGLIST);
 	var count = works.length;
 	var countElement = document.querySelector("#work-count");
 	if (countElement) {
 		if (count == 1) {
-			countElement.innerHTML = count + " work";
+			countElement.innerHTML = count + " entry";
 		} else {
-			countElement.innerHTML = count + " works";
+			countElement.innerHTML = count + " entries";
 		}
 	}
-
-	displayBrowseEntries(works);
+	displayMusicBrowseEntries(works);
 }
 
 
 
 //////////////////////////////
 //
-// filterData --
+// fillLiteraryBrowsePage --
 //
 
-function filterData(entries) {
+function fillLiteraryBrowsePage() {
+	var literary = document.querySelector("#text-heading");
+	if (!literary) {
+		return;
+	}
+	if (!literary.className.match(/active/)) {
+		return;
+	}
+	var works = filterLiteraryData(RIMEVERSELIST);
+	var count = works.length;
+	var countElement = document.querySelector("#work-count");
+	if (countElement) {
+		if (count == 1) {
+			countElement.innerHTML = count + " entry";
+		} else {
+			countElement.innerHTML = count + " entries";
+		}
+	}
+	displayLiteraryBrowseEntries(works);
+}
+
+
+
+//////////////////////////////
+//
+// filterMusicData --
+//
+
+function filterMusicData(entries) {
 	if (!entries) {
 		entries = RIMESETTINGLIST;
 	}
@@ -198,18 +236,73 @@ function filterData(entries) {
 
 //////////////////////////////
 //
+// filterLiteraryData --
+//
+
+function filterLiteraryData(entries) {
+	if (!entries) {
+		entries = RIMEVERSELIST;
+	}
+	if (!entries) {
+		return [];
+	}
+	if (!entries.length) {
+		return [];
+	}
+
+	output = entries;
+
+	var litgenElement = document.querySelector("#browse-litgen");
+	var litgen = "";
+	if (litgenElement) {
+		litgen = litgenElement.value;
+	}
+
+	var manusrcElement = document.querySelector("#browse-manusrc");
+	var manusrc = "";
+	if (manusrcElement) {
+		manusrc = manusrcElement.value;
+	}
+
+	var printsrcElement = document.querySelector("#browse-printsrc");
+	var printsrc = "";
+	if (printsrcElement) {
+		printsrc = printsrcElement.value;
+	}
+
+	if (litgen) {
+		output = filterByField(output, "GENRE", litgen);
+	}
+
+	if (manusrc) {
+		output = filterByField(output, "MANUSRC", manusrc);
+	}
+
+	if (printsrc) {
+		output = filterByField(output, "PRINTSRC", printsrc, true);
+	}
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
 // filterByField --
 //
 
-function filterByField(entries, field, value) {
+function filterByField(entries, field, value, bound) {
 	if (!entries) {
 		return [];
 	}
 	if (entries.length == 0) {
 		return [];
 	}
-console.log("GOT HERE QQQ");
 	var output = [];
+	if (bound) {
+		value = "\\b" + value + "\\b";
+	}
 	var re = new RegExp(value, "i");
 	for (var i=0; i<entries.length; i++) {
 		if (field instanceof Array) {
@@ -243,16 +336,34 @@ console.log("GOT HERE QQQ");
 
 //////////////////////////////
 //
-// displayBrowseEntries --
+// displayMusicBrowseEntries --
 //
 
-function displayBrowseEntries(entries) {
+function displayMusicBrowseEntries(entries) {
 	var element = document.querySelector("#browse-results");
 	if (!element) {
 		return;
 	}
 
-	var tsource = document.querySelector("#browse-template").textContent;
+	var tsource = document.querySelector("#music-browse-template").textContent;
+	var template = Handlebars.compile(tsource);
+	element.innerHTML = template(entries);
+}
+
+
+
+//////////////////////////////
+//
+// displayLiteraryBrowseEntries --
+//
+
+function displayLiteraryBrowseEntries(entries) {
+	var element = document.querySelector("#browse-results");
+	if (!element) {
+		return;
+	}
+
+	var tsource = document.querySelector("#literary-browse-template").textContent;
 	var template = Handlebars.compile(tsource);
 	element.innerHTML = template(entries);
 }
@@ -265,6 +376,7 @@ function displayBrowseEntries(entries) {
 //
 
 window.addEventListener("DOMContentLoaded", function() {
+
 	// if (sessionStorage.RIMESETTINGLIST) {
 		var request = new XMLHttpRequest();
 		request.open("GET", "{{site.rime_settings}}");
@@ -277,6 +389,21 @@ window.addEventListener("DOMContentLoaded", function() {
 		});
 		request.send();
 	// }
+
+	// if (sessionStorage.RIMEVERSELIST) {
+		var request = new XMLHttpRequest();
+		request.open("GET", "{{site.rime_verses}}");
+		request.addEventListener("load", function() {
+			var aton = new ATON;
+console.log("ATON:", aton.parse(this.responseText));
+			RIMEVERSELIST = aton.parse(this.responseText).RIME;
+			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
+			console.log("DOWNLOADED RIMEVERSE LIST");
+			fillLiteraryBrowsePage();
+		});
+		request.send();
+	// }
+
 });
 
 
@@ -329,9 +456,43 @@ function setupMusicBrowseCallbacks() {
 		});
 	}
 
+}
+
+
+
+//////////////////////////////
+//
+// setupLiteraryBrowseCallbacks --
+//
+
+function setupLiteraryBrowseCallbacks() {
+
+	var litgenElement = document.querySelector("#browse-litgen");
+	if (litgenElement) {
+		litgenElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var manusrcElement = document.querySelector("#browse-manusrc");
+	if (manusrcElement) {
+		manusrcElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var printsrcElement = document.querySelector("#browse-printsrc");
+	if (printsrcElement) {
+		printsrcElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
 
 }
 
+
+
+</script>
 
 
 </script>

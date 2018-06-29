@@ -12,8 +12,8 @@ layout: simple
 </style>
 
 
-<table style="padding-top:20px; padding-bottom:20px" width="100%">
-<tr><td style="vertical-align:top">
+<table style="padding-top:40px; padding-bottom:40px" width="100%">
+<tr><td style="width:200px; vertical-align:top">
 <select class="xxx">
 	<option disabled>All</option>
 	<option default>Rime</option>
@@ -22,7 +22,7 @@ layout: simple
 </select>
 <br>
 <div id="work-count"></div>
-</td><td>
+</td><td style="vertical-align:top">
 <input style="width:200px;" placeholder="Composer" id="browse-composer" value="" />
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />
 <input style="width:200px;" placeholder="RISM" id="browse-rism" value="" />

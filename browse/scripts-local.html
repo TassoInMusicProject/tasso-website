@@ -252,6 +252,12 @@ function filterLiteraryData(entries) {
 
 	output = entries;
 
+	var titleElement = document.querySelector("#browse-title");
+	var title = "";
+	if (titleElement) {
+		title = titleElement.value;
+	}
+
 	var litgenElement = document.querySelector("#browse-litgen");
 	var litgen = "";
 	if (litgenElement) {
@@ -268,6 +274,10 @@ function filterLiteraryData(entries) {
 	var printsrc = "";
 	if (printsrcElement) {
 		printsrc = printsrcElement.value;
+	}
+
+	if (title) {
+		output = filterByField(output, "TITLE", title);
 	}
 
 	if (litgen) {
@@ -466,6 +476,13 @@ function setupMusicBrowseCallbacks() {
 //
 
 function setupLiteraryBrowseCallbacks() {
+
+	var titleElement = document.querySelector("#browse-title");
+	if (titleElement) {
+		titleElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
 
 	var litgenElement = document.querySelector("#browse-litgen");
 	if (litgenElement) {

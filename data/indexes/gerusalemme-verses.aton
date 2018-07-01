@@ -3,7 +3,7 @@
 @@ Created 22 Jun 2018 by Emiliano Ricciardi
 @@ Last Edited 22 Jun 2018
 @@
-@@ RIME data fields:
+@@ Gerusalemme data fields:
 @@   CATALOGNUM:   Canto/Ottava
 @@   CANTO:        Canto roman numeral
 @@   OTTAVA:       Ottava arabic numeral
@@ -15,6 +15,8 @@
 
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	Tsg01002
+@CANTO:        	I 
+@OTTAVA:       	2
 @TITLE:		O musa, tu che di caduchi allori
 @MANUSRC:	
 @PRINTSRC:	
@@ -39,7 +41,1016 @@
     	S’intesso fregi al ver, s’adorno in parte
     	D’altri diletti, che de’ tuoi, le carte.
 @@END:		VERSES
-@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti (Bari: Laterza, 1967).
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg01003
+@TITLE:		Sai che là corre il mondo, ove più versi
+@CANTO:         I
+@OTTAVA:       	3
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbèra
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  36
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+		Sai che là corre il mondo, ove più versi
+		Di sue dolcezze il lusinghier Parnaso;
+		E che ’l vero condito in molli versi,
+		I più schivi allettando ha persuaso:
+		Così a l’egro fanciul porgiamo aspersi
+		Di soavi licor gli orli del vaso;
+		Succhi amari ingannato intanto ei beve,
+		E dall’inganno suo vita riceve.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg02011
+@TITLE:		Ma poi che ’l Re crudel vide occultarse
+@CANTO:		II
+@OTTAVA:	11-53
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbèra
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  71
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+ 	Ma poi che ’l Re crudel vide occultarse
+	Quel, che peccato de’ Fedeli ei pensa,
+	Tutto in lor d’odio infellonissi, ed arse
+	D’ira e di rabbia immoderata immensa.
+	Ogni rispetto oblia; vuol vendicarse,
+	Segua che puote, e sfogar l’alma accensa.
+	Morrà, dicea, non andrà l’ira a voto,
+	Nella strage comune il ladro ignoto.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg03008
+@TITLE:		Dunque ove tu, signor di mille rivi
+@CANTO:		III
+@OTTAVA:	8
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti	
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  104
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Dunque ove tu, Signor, di mille rivi,
+	Sanguinoso, il terren lasciasti asperso,
+	D’amaro pianto almen duo fonti vivi
+	In s&igrave acerba memoria oggi io non verso?
+	Agghiacciato mio cor, ch&eacute non derivi
+	Per gli occhi, e stilli in lagrime converso?
+	Duro mio cor, ch&eacute non ti spetri e frangi?
+	Pianger ben merti ognor, s’ora non piangi.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg04029
+@TITLE:		Argo non mai, non vide Cipro e Delo
+@CANTO:		IV
+@OTTAVA:	29
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  141-2
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Argo non mai, non vide Cipro o Delo,
+	D’abito o di belt&agrave forme s&igrave care.
+	D’auro ha la chioma, ed or dal bianco velo
+	Traluce involta, or discoperta appare:
+	Cos&igrave, qualor si rasserena il cielo,
+	Or da candida nube il sol traspare,
+	Or da la nube uscendo, i raggi intorno
+	Pi&ugrave chiari spiega, e ne raddoppia il giorno.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg04030
+@TITLE:		Fa nove crespe l'aura al crin disciolto
+@CANTO:		IV
+@OTTAVA:	3
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR: 	Angelo Solerti	
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  142
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Fa nove crespe l’aura al crin disciolto,
+	Che natura per s&eacute rincrespa in onde;
+	Stassi l’avaro sguardo in s&eacute raccolto,
+	E i tesori d’Amore e i suoi nasconde.
+	Dolce color di rose in quel bel v&oacute;lto
+	Fra l’avorio si sparge e si confonde:
+	Ma nella bocca, ond’esce aura amorosa,
+	Sola rosseggia e semplice la rosa.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg06103
+@TITLE:		Era la notte e 'l suo stellato velo
+@CANTO:		VI
+@OTTAVA:	103
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti	
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  246-47
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Era la notte, e ’l suo stellato velo
+	Chiaro spiegava e senza nube alcuna;
+	E gi&aacute spargea rai luminosi e gelo
+	Di vive perle la sorgente luna.
+	L’innamorata donna iva co 'l cielo
+	Le sue fiamme sfogando ad una ad una;
+	E secretari del suo amore antico
+	Fea i muti campi e quel silenzio amico.
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg06104
+@TITLE:		Poi rimirando il campo ella dicea
+@CANTO:		VI
+@OTTAVA:	104
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  247 
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Poi rimirando il campo, ella dicea:
+	O belle agli occh miei tende latine!
+	Aura spira da voi che mi ricrea,
+	E mi conforta, pur che m’avvicine:
+	Cos&igrave a mia vita combattuta e rea
+	Qualche onesto riposo il ciel destine,
+	Come in voi solo il cerco, e solo parmi
+	Che trovar pace io possa in mezzo a l’armi.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg06105
+@TITLE:		Raccogliete me dunque: e in voi si trove
+@CANTO:		VI
+@OTTAVA:	105
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  247 
+@TRANSLATOR:	Emiliano Ricciardi	
+@VERSE:
+	Raccogliete me dunque: e in voi si trove
+	Quella piet&agrave che mi promise Amore,
+	E ch’io gi&agrave vidi prigioniera altrove,
+	Nel mansueto mio dolce signore:
+	N&eacute gi&agrave des&igrave;o di racquistar mi move
+	Co 'l favor vostro, il mio regale onore:
+	Quando ci&ograve non avvenga, assai felice
+	Io mi terr&ograve, se in voi servir mi lice.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg07019
+@TITLE:		Sovente, allor che su gli estivi ardori
+@CANTO:		VII
+@OTTAVA:	19
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  260 
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Sovente, allor che su gli estivi ardori
+	Giacean le pecorelle a l’ombra assise,
+	Nella scorza de’ faggi e de gli allori
+	Segn&ograve l’amato nome in mille guise:
+	E de’ suoi strani ed infelici amori
+	Gli aspri successi in mille piante incise;
+	E in rileggendo poi le proprie note
+	Rig&ograve di belle lagrime le gote.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg07020
+@TITLE:		Indi dicea piangendo: in voi serbate
+@CANTO:		VII
+@OTTAVA:	20
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  260 
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Indi dicea piangendo: in voi serbate
+	Questa dolente istoria, amiche piante;
+	Perch&eacute;, se fia ch’a le vostr’ombre grate
+	Giammai soggiorni alcun fedele amante,
+	Senta svegliarsi al cor dolce pietate
+	De le sventure mie s&igrave varie e tante;
+	E dica: Ah troppo ingiusta empia mercede
+	Di&egrave fortuna ed amore a s&igrave gran fede!	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg07021
+@TITLE:		Forse avverrà se ’l Ciel benigno ascolta
+@CANTO:		VII
+@OTTAVA:	21
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	2
+@EDITION_PAGE:  260 
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Forse avverrà, se ’l Ciel benigno ascolta
+	Affettuoso alcun prego mortale,
+	Che venga in queste selve anco tal volta
+	Quegli a cui di me forse or nulla cale;
+	E rivolgendo gli occhi ove sepolta
+	Giacer&agrave questa spoglia inferma e frale,
+	Tardo premio conceda a’ miei mart&igrave;ri
+	Di poche lacrimette e di sospiri.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12052
+@TITLE:		Vuol ne l'armi provarla: un uom la stima
+@CANTO:		XII
+@OTTAVA:	52
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi	
+@VERSE:
+	Vuol nell’armi provarla: un uom la stima
+	Degno, a cui sua virtù si paragone.
+	Va girando colei l’alpestre cima
+	Verso altra porta, ove d’entrar dispone.
+	Segue egli impetuoso; onde assai prima
+	Che giunga, in guisa avvien che d’armi suone
+	Ch’ella si volge, e grida: o tu, chè porte,
+	Chè corri sì? Risponde: guerra, e morte.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12065
+@TITLE:		Segue egli la vittoria e la trafitta
+@CANTO:		XII
+@OTTAVA:	65
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi	
+@VERSE:
+	Segue egli la vittoria, e la trafitta
+	Vergine, minacciando, incalza e preme.
+	Ella, mentre cadea, la voce afflitta
+	Movendo, disse le parole estreme:
+	Parole ch’a lei novo un spirto ditta;
+	Spirto di fe, di carità, di speme:
+	Virtù ch’or Dio le infonde: e se rubella
+	In vita fu, la vuole in morte ancella.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12066
+@TITLE:		Amico hai vinto: io ti perdon...perdona
+@CANTO:		XII
+@OTTAVA:	66
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Amico hai vinto; io ti perdon: perdona
+	Tu ancora, al corpo no che nulla pave,
+	All’alma si: deh per lei prega, e dona
+	Battesmo a me, ch’ogni mia colpa lave.
+	In queste voci languide risuona
+	Un non so che di flebile e soave
+	Ch’al cor gli scende, ed ogni sdegno ammorza,
+	E gli occhj a lagrimar gli invoglia e sforza.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12067
+@TITLE:		Poco quindi lontan nel sen del monte
+@CANTO:		XII
+@OTTAVA:	67
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Poco quindi lontan nel sen del monte
+	Scaturia, mormorando, un picciol rio.
+	Egli v’accorse, e l’elmo empiè nel fonte,
+	E tornò mesto al grande uficio e pio.
+	Tremar sentì la man, mentre la fronte,
+	Non conosciuta ancor, sciolse e scoprío.
+	La vide, la conobbe; e restò senza
+	E voce, e moto. Ahi vista, ahi conoscenza!	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12068
+@TITLE:		Non morì già: ché sue virtuti accolse
+@CANTO:		XII
+@OTTAVA:	68
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Non morì già; chè sua virtute accolse
+	Tutta in quel punto, e in guardia al cor la mise:
+	E, premendo il suo affanno, a dar si volse
+	Vita con l’acqua a chi col ferro uccise.
+	Mentre egli il suon de’ sacri detti sciolse,
+	Colei di gioja trasmutossi, e rise:
+	E in atto di morir lieto e vivace
+	Dir parea: s’apre il Cielo: io vado in pace.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12069
+@TITLE:		D'un bel pallore ha il bianco volto asperso
+@CANTO:		XII
+@OTTAVA:	69
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	D’un bel pallore ha il bianco volto asperso,
+	Come a’ gigli sarian miste viole:
+	E gli occhj al Cielo affisa, e in lei converso
+	Sembra, per la pietate, il Cielo e ’l Sole:
+	E la man nuda e fredda alzando verso
+	Il cavaliero, in vece di parole,
+	Gli dà pegno di pace: in questa forma
+	Passa la bella donna, e par che dorma.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12075
+@TITLE:		Io vivo? Io spiro ancora? E gli odiosi
+@CANTO:		XII
+@OTTAVA:	75
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Io vivo? io spiro ancora? e gli odiosi
+	Rai miro ancor di questo infausto die?
+	Dì testimon de’ miei misfatti ascosi,
+	Che rimprovera a me le colpe mie.
+	Ahi man timida e lenta, or che non osi,
+	Tu che sai tutte del ferir le vie,
+	Tu ministra di morte empia ed infame,
+	Di questa vita rea troncar lo stame?
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12076
+@TITLE:		Passa per questo petto e feri scempi
+@CANTO:		XII
+@OTTAVA:	76
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Passa pur questo petto, e fieri scempi
+	Col ferro tuo crudel fà del mio core.
+	Ma forse, usata a’ fatti atroci ed empi,
+	Stimi pietà dar morte al mio dolore.
+	Dunque i’ vivrò tra memorandi esempi
+	Misero mostro d’infelice amore:
+	Misero mostro, a cui sol pena è degna
+	Dell’immensa empietà la vita indegna.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12077
+@TITLE:		Vivrò fra i miei tormenti e le mie cure
+@CANTO:		XII
+@OTTAVA:	77
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Vivrò fra i miei tormenti, e fra le cure
+	Mie giuste furie, forsennato errante.
+	Paventerò l’ombre solinghe e scure
+	Che ’l primo error mi recheranno innante;
+	E del Sol, che scoprì le mie sventure,
+	A schivo ed in orrore avrò il sembiante.
+	Temerò me medesmo, e da me stesso
+	Sempre fuggendo, avrò me sempre appresso.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12078
+@TITLE:		Ma dove, oh lasso, me! dove restaro
+@CANTO:		XII
+@OTTAVA:	78
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Ma dove (oh lasso me!) dove restaro
+	Le reliquie del corpo e bello e casto?
+	Ciò ch’in lui sano i miei furor lasciaro,
+	Dal furor delle fere è forse guasto.
+	Ahi troppo nobil preda! ahi dolce e caro
+	Troppo, e pur troppo prezioso pasto!
+	Ahi sfortunato! in cui l’ombre e le selve
+	Irritaron me prima, e poi le belve.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12079
+@TITLE:		Io verrò là dove sete; e voi
+@CANTO:		XII
+@OTTAVA:	79
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	o pur verrò là dove sete, e voi
+	Meco avrò, s’anco sete, amate spoglie.
+	Ma s’egli avvien che i vaghi membri suoi
+	Stati sian cibo di ferine voglie;
+	Vuò che la bocca stessa anco me ingoi,
+	E ’l ventre chiuda me che lor raccoglie.
+	Onorata per me tomba e felice,
+	Ovunque sia, s’esser con lor mi lice.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12082
+@TITLE:		O bella destra che 'l soave pegno
+@CANTO:		XII
+@OTTAVA:	82
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	O bella destra, che ’l soave pegno
+	D’amicizia e di pace a me porgesti;
+	Quali or, lasso, vi trovo? e qual ne vegno?
+	E voi leggiadre membra, or non son questi
+	Del mio ferino e scellerato sdegno
+	Vestigj miserabili e funesti?
+	O, di par con la man, luci spietate!
+	Essa le piaghe fè, voi le mirate.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12090
+@TITLE:		Lei nel partir, lei nel tornar del sole
+@CANTO:		XII
+@OTTAVA:	90
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi	
+@VERSE:
+	Lei nel partir, lei nel tornar del Sole
+	Chiama con voce stanca, e prega, e plora;
+	Come usignuol cui ’l villan duro invole
+	Dal nido i figlj non pennuti ancora;
+	Che in miserabil canto, afflitte e sole
+	Piange le notti, e n’empie i boschi, e l’ora.
+	Alfin col novo dì rinchiude alquanto
+	I lumi: e ’l sonno in lor serpe fra ’l pianto.
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12096
+@TITLE:		Giunto a la tomba ove al suo spirto vivo
+@CANTO:		XII
+@OTTAVA:	96
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Giunto alla tomba ove al suo spirto vivo
+	Dolorosa prigione il Ciel prescrisse;
+	Pallido, freddo, muto, e quasi privo
+	Di movimento, al marmo gli occhj affisse.
+	Alfin sgorgando un lagrimoso rivo,
+	In un languido oimè proruppe, e disse:
+	O sasso amato ed onorato tanto
+	Che dentro hai le mie fiamme, e fuori il pianto:
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12097
+@TITLE:		Non di morte sei tu ma di vivaci
+@CANTO:		XX
+@OTTAVA:	97
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Non di morte sei tu, ma di vivaci
+	Ceneri albergo, ove è riposto Amore:
+	E ben sento io da te le usate faci
+	Men dolci si, ma non men calde al core.
+	Deh prendi i miei sospiri, e questi baci
+	Prendi ch’io bagno di doglioso umore:
+	E dagli tu, poich’io non posso, almeno
+	Alle amate reliquie ch’hai nel seno.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12098
+@TITLE:		Dalli lor tu ché, se mai gli occhi gira
+@CANTO:		XII
+@OTTAVA:	98
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Dagli lor tu: chè se mai gli occhi gira
+	L’anima bella alle sue belle spoglie;
+	Tua pietate e mio ardir non avrà in ira,
+	Chè odio o sdegno là su non si raccoglie.
+	Perdona ella il mio fallo: e sol respira
+	In questa speme il cor fra tante doglie.
+	Sa ch’empia è sol la mano: e non l’è noia,
+	Che s’amando lei, vissi; amando moia.	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	Tsg12099
+@TITLE:		Ed amando morrò: felice giorno
+@CANTO:		XII
+@OTTAVA:	99
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	Ed amando morrò: felice giorno,
+	Quando che sia; ma più felice molto,
+	Se come errando or vado a te d’intorno,
+	Allor sarò dentro al tuo grembo accolto.
+	Faccian l’anime amiche in Ciel soggiorno;
+	Sia l’un cenere e l’altro in un sepolto:
+	Ciò che ’l viver non ebbe, abbia la morte.
+	Oh (se sperar ciò lice) altera sorte!	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -49,23 +1060,109 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -75,23 +1172,193 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -101,23 +1368,25 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -127,23 +1396,53 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi	
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -153,23 +1452,25 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -179,23 +1480,26 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -205,23 +1509,26 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -231,23 +1538,53 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME
+
+@@BEGIN:	GERUSALEMME
+@CATALOGNUM:	
+@TITLE:	
+@CANTO:
+@OTTAVA:
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
+@EDITION_VOL:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi	
+@VERSE:
+	
+@@END:		VERSES
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -257,23 +1594,26 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -283,23 +1623,26 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -309,23 +1652,25 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	
@@ -335,1063 +1680,25 @@
 @@BEGIN:	GERUSALEMME
 @CATALOGNUM:	
 @TITLE:		
+@CANTO:
+@OTTAVA:
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Gerusalemme liberata. Poema eroico di Torquato Tasso. Edizione critica sui manoscritti e le prime stampe.
+@EDITION_LOC:	Florence
+@EDITION_PUB:	G. Barbera
+@EDITION_DATE:  1895
 @EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
+@EDITION_PAGE:   
+@TRANSLATOR:	Emiliano Ricciardi
 @VERSE:
 	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		GERUSALEMME
-
-@@BEGIN:	GERUSALEMME
-@CATALOGNUM:	
-@TITLE:		
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	
-@VERSE:
-	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Gerusalemme liberata</i>, ed. Lanfranco Caretti, 2 vols. (Bari: Laterza, 1967).
 @ATTRIBUTION_ABOUT:	
 @DATING:	
 @DEDICATEE:	

@@ -4,14 +4,14 @@
 "reprole"	:	"repertory",
 "replong"	:	"Musical setings of the poetry of Torquato Tasso",
 "repshort"	:	"Tasso",
-"repwork"	:	33,
+"repwork"	:	37,
 "genres"	:
 	[
-	{"name":"madrigal", "count":37}
+	{"name":"madrigal", "count":41}
 	],
 "liststyle"	:	"genre",
-"notecount"	:	21507,
-"sec"		:	4461,
+"notecount"	:	24032,
+"sec"		:	4913,
 "pg"		:	60,
 "works"		:	
 	[
@@ -122,8 +122,8 @@
 	},
 	{
 	"id"		:	"Trm0048g",
-	"comshort"	:	"Ricci de Tingoli",
-	"comlong"	:	"Cesarina Ricci de Tingoli",
+	"comshort"	:	"Ricci",
+	"comlong"	:	"Cesarina Ricci",
 	"workdate"	:	"1597",
 	"title"		:	"Amor l’alma m’allaccia",
 	"genre"		:	"madrigal",
@@ -373,6 +373,26 @@
 	"ud"		:	20180304
 	},
 	{
+	"id"		:	"Trm0284c",
+	"comshort"	:	"Macque",
+	"comlong"	:	"Giovanni de Macque",
+	"title"		:	"Questa vostra pietate",
+	"genre"		:	"madrigal",
+	"voices"	:	"5",
+	"vname"		:	["Canto","Alto","Tenore","Quinto","Basso"],
+	"vabbr"		:	["C","A","T","Q","B"],
+	"text"		:	"true",
+	"ih"		:	970,
+	"barcount"	:	27,
+	"brevecount"	:	27,
+	"notecount"	:	472,
+	"sec"		:	100,
+	"pg"		:	0,
+	"vnotecount"	:	[95,118,92,98,69],
+	"ad"		:	20171100,
+	"ud"		:	20180707
+	},
+	{
 	"id"		:	"Trm0302a",
 	"comshort"	:	"Felis",
 	"comlong"	:	"Stefano Felis",
@@ -520,6 +540,26 @@
 	"ud"		:	20171118
 	},
 	{
+	"id"		:	"Trm0333e",
+	"comshort"	:	"Macque",
+	"comlong"	:	"Giovanni de Macque",
+	"title"		:	"Gelo ha Madonna il seno",
+	"genre"		:	"madrigal",
+	"voices"	:	"5",
+	"vname"		:	["Canto","Quinto","Alto","Tenore","Basso"],
+	"vabbr"		:	["C","Q","A","T","B"],
+	"text"		:	"true",
+	"ih"		:	970,
+	"barcount"	:	30,
+	"brevecount"	:	30,
+	"notecount"	:	516,
+	"sec"		:	110,
+	"pg"		:	0,
+	"vnotecount"	:	[112,120,123,93,68],
+	"ad"		:	20171100,
+	"ud"		:	20180707
+	},
+	{
 	"id"		:	"Trm0335d",
 	"comshort"	:	"Zenaro",
 	"comlong"	:	"Giulio Zenaro",
@@ -625,6 +665,26 @@
 	"ud"		:	20171118
 	},
 	{
+	"id"		:	"Trm0560f",
+	"comshort"	:	"Macque",
+	"comlong"	:	"Giovanni de Macque",
+	"title"		:	"Gi&agrave; non son io contento",
+	"genre"		:	"madrigal",
+	"voices"	:	"5",
+	"vname"		:	["Canto","Quinto","Alto","Tenore","Basso"],
+	"vabbr"		:	["C","Q","A","T","B"],
+	"text"		:	"true",
+	"ih"		:	445,
+	"barcount"	:	35,
+	"brevecount"	:	35,
+	"notecount"	:	718,
+	"sec"		:	129,
+	"pg"		:	0,
+	"vnotecount"	:	[180,182,144,123,89],
+	"ad"		:	20171100,
+	"ud"		:	20180707
+	},
+	{
 	"id"		:	"Trm0564b",
 	"comshort"	:	"Dueto",
 	"comlong"	:	"Antonio Dueto",
@@ -686,6 +746,26 @@
 	"vnotecount"	:	[245,246,225,219,172],
 	"ad"		:	20171100,
 	"ud"		:	20180304
+	},
+	{
+	"id"		:	"Trm0614j",
+	"comshort"	:	"Genvino",
+	"comlong"	:	"Francesco Genvino",
+	"title"		:	"Al dolce vostro azuro",
+	"genre"		:	"madrigal",
+	"voices"	:	"5",
+	"vname"		:	["Canto","Alto","Tenore","Quinto","Basso"],
+	"vabbr"		:	["C","A","T","Q","B"],
+	"text"		:	"true",
+	"ih"		:	969,
+	"barcount"	:	31,
+	"brevecount"	:	31,
+	"notecount"	:	819,
+	"sec"		:	114,
+	"pg"		:	0,
+	"vnotecount"	:	[198,181,152,149,139],
+	"ad"		:	20171100,
+	"ud"		:	20180707
 	},
 	{
 	"id"		:	"Trm0734b",

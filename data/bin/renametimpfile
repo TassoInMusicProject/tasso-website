@@ -1,0 +1,56 @@
+#!/usr/bin/perl
+
+use strict;
+
+my @filelist = @ARGV;
+
+if (@filelist == 0) {
+	die "Usage: $0 file(s)\n";
+}
+
+foreach my $file (@filelist) {
+	renamefile($file);
+}
+
+
+sub renamefile {
+	my ($file) = @_;
+	if ($file !~ /^([A-Z][a-z][a-z]\d+[a-z][a-z]?)-/) {
+		die "Invalid filename: $file\n";
+	}
+	my $catalog = $1;
+	if ($file =~ /--/) {
+		# assuming correctly named
+		#print "$file already has composer/year information\n";
+		next;
+	}
+	my @contents;
+	open (FILE, $file) or die "Cannot read $file\n";
+	@contents = <FILE>;
+	my $composer;
+	my $year;
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		if ($line =~ /^!!!COM1?\s*:\s*([^,]+)/) {
+			$composer = $1;
+		} elsif ($line =~ /^!!!PDT\s*:\s*(1\d\d\d)/) {
+			$year = $1;
+		}
+	}
+	#print "\tCOMPOSER $composer\n";
+	#print "\tYEAR $year\n";
+	if (!($composer && $year)) {
+		#print "Did not find both composer and year in reference records in $file\n";
+		return;
+	}
+	if ($file !~ /(.*)\.krn/) {
+		# print "Files does not end in .krn\n";
+		return;
+	}
+	my $newfile = "$1--${composer}_$year.krn";
+	print "NEW FILE $newfile\n";
+	`mv -i $file $newfile`;
+}
+
+
+

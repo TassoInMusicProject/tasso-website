@@ -26,17 +26,20 @@ open (IFILE, $indexfile) or die "Cannot read index file $indexfile\n";
 @indexcontents = <IFILE>;
 close IFILE;
 
-
 my @contents;
+
+my @filelist = @ARGV;
+#print join("\n", @ARGV);
 
 if (@ARGV == 0) {
 	die "Usage: $0 -f index.aton file.krn [file2.krn...]";
 } else {
-	foreach my $file (@ARGV) {
-		open(FILE, $file) or die "Cannot read $file\n";
-		@contents = <>;
-		my @newcontents = processFile($file, @contents);
-		open(FILE, ">$file") or die "Cannot write $file\n";
+	foreach my $xfile (@filelist) {
+		print "Processing $xfile\n";
+		open(FILE, $xfile) or die "Cannot read $xfile\n";
+		@contents = <FILE>;
+		my @newcontents = processFile($xfile, @contents);
+		open(FILE, ">$xfile") or die "Cannot write $xfile\n";
 		print FILE @newcontents;
 		close FILE;
 	}
@@ -86,7 +89,7 @@ if (@ARGV == 0) {
 
 sub processFile {
 	my ($file, @contents) = @_;
-	if ($file !~ /^([A-Z][a-z][a-z]\d+[a-z])-/) {
+	if ($file !~ /^([A-Z][a-z][a-z]\d+[a-z][a-z]?)-/) {
 		die "FILENAME IS INVALID: $file\n";
 	}
 	my $id = $1;
@@ -107,6 +110,7 @@ sub processFile {
 		if ($contents[$i] !~ /^!!!([^\s:]+)\s*:\s(.*)\s*/) {
 			next;
 		}
+print "LINE = $contents[$i]\n";
 		my $key = $1;
 		my $value = $2;
 		my $newkey = $keymap{$key};
@@ -127,6 +131,7 @@ sub processFile {
 
 sub getIndexEntry {
 	my ($id) = @_;
+print "GETTING INDEX ENTRY $id\n";
 	my $startindex = 0;
 	my $found = 0;
 	for (my $i = 0; $i < @indexcontents; $i++) {
@@ -160,6 +165,7 @@ sub getIndexEntry {
 			$output{$last1} .= " $line";
 		}
 	}
+print "DONE GETTING INDEX ENTRY $id\n";
 	return %output;
 }
 

@@ -99,8 +99,13 @@ sub processFile {
 		die "FILENAME IS INVALID: $filename\n";
 	}
 	my $id = $1;
+	#print "ID = $id\n";
 	my %entry = getIndexEntry($id);
 	next if $entry{"bad"};
+	#my @keys = keys %entry;
+	#foreach my $key (@keys) {
+	#	print "\t$key:\t$entry{$key}\n";
+	#}
 
 	my %keymap;
 	$keymap{"act"} = "ACT";

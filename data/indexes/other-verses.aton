@@ -18,68 +18,424 @@
 @@@ Ecloghe                                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@BEGIN:	AMINTA
-@CATALOGNUM:	Trm0003
-@TITLE:		Su l'ampia fronte il crespo oro lucente
+@@BEGIN:	ECLOGHE
+@CATALOGNUM:	Tec1001
+@ECLOGA:        I
+@VERSE:		1
+@TITLE:		Dimmi, mesto pastore	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	VERSES
-@ABOUTIT:	Segue la medesima descrizione. (i.e., "Descrive la bellezza de la sua donna e il principio del suo amore, il quale fu ne la sua prima giovinezza." <i>Rime</i> 2)
-@ABOUTEN:	
-@EDITOR:	Solerti, Angelo
-@EDITION_TITLE: Le Rime di Torquato Tasso
-@EDITION_LOC:	Bologna
-@EDITION_PUB:	Romagnoli-Dall’Acqua
-@EDITION_DATE:  1898-1902
-@EDITION_VOL:	2
-@EDITION_PAGE:  8-9
-@TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
-@VERSE:
-	Su l'ampia fronte il crespo oro lucente
-	Sparso ondeggiava, e de' begli occhi il raggio
-	Al terreno adducea fiorito maggio,
-	E luglio a i cori oltre misura ardente:
+@@BEGIN:	
+@ABOUTIT:	Licori
+@ABOUTEN:	Lycoris
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Dimmi, mesto pastore,
+	Qual muto pesce o quale è rozzo armento
+	Che non faccia d'amor qualche concento?
 @@END:		VERSES
-@NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
-		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
-		Vercingetorige Martignone, vol. 4 of <i>Edizione
-		Nazionale delle opere di Torquato Tasso</i>
-		(Alessandria: Edizioni Dell’Orso, 2004), 5.
-@ATTRIBUTION_ABOUT:	Secure	
-		<br>
-		Among other authoritative sources (see Literary
-		Sources), this poem appears in the autograph Chigiano
-		L.VIII.302 (Biblioteca Vaticana, Rome), compiled
-		around 1584&ndash;85.
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
 @DATING:	
-@DEDICATEE:	Lucrezia Bendidio?
+@DEDICATEE:	
 @COMMENTARY:    
-@@END:		AMINTA
+@@END:		ECLOGHE
+
+@@BEGIN:	ECLOGHE
+@CATALOGNUM:	Tec1089
+@ECLOGA:        I
+@VERSE:		89
+@TITLE:		Di che cantar degg'io	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	Tirsi
+@ABOUTEN:	Tyrsis
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Di che cantar degg'io?
+	Di Clori o d'Atalanta?
+	O pur, come m'invoglia alto desio,
+	Di Lei ch'in questa riva
+	S'è mostra in forma di celeste diva?
+	Oh felice fanciulla,
+	A cui di puro latte il fiume corse;
+	A cui le terre intatte
+	Di novi fior la culla
+	Sparsero in varie guise,
+	E l'aure sospirâro e 'l ciel sorrise:
+	Oh d'eroi figlia e sposa,
+	Desïata d'eroi madre famosa.
+	Oh, cresciuta in etate,
+	Felicissima donna,
+	Che, mentre erri scherzando in treccia e 'n gonna,
+	Vaghe di tua beltate
+	Rendi le valli e i monti,
+	Ch'ornano a te le verdi erbose fonti.
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		ECLOGHE
+
+@@BEGIN:	ECLOGHE
+@CATALOGNUM:	Tec2073
+@ECLOGA:        II
+@VERSE:		73
+@TITLE:		Ché qual tenera rosa	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	Arezia
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Chè, qual tenera rosa
+	A la rugiada, a l'ôra
+	De la nascente aurora
+	Non apre vergognosa
+	Il suo vermiglio ed odorato seno:
+	Ma, poi che più vicino il caldo sente
+	De 'l gran pianeta ardente,
+	Apre languendo le purpuree spoglie
+	E 'l bel raggio de 'l sole in grembo accoglie:
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		ECLOGHE
+
+
+@@BEGIN:	ECLOGHE
+@CATALOGNUM:	Tec2082
+@ECLOGA:        II
+@VERSE:		82
+@TITLE:		Così la verginella	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Così la verginella
+	A i pianti ed a i sospiri
+	Di novello amator che lunge miri,
+	Chiude il ritroso petto;
+	Ma, poi che s'avvicina il vivo ardore
+	D'un amoroso aspetto,
+	Languendo apre la via per gli occhi a 'l core,
+	E ne 'l vergineo sen riceve Amore.
+	Ma come t'udì Clori
+	Quando le apristi le tue pene ascose?
+	E come ti rispose?
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		ECLOGHE
+
+@@BEGIN:	ECLOGHE
+@CATALOGNUM:	Tec3108
+@ECLOGA:        III
+@VERSE:		118
+@TITLE:		Non sospirar pastor, non sospirare 	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	Amarilli
+@ABOUTEN:	Amarillys
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Non sospirar, Pastor, non sospirare;
+	Queste lagrime amare
+	Che spargi da' tuoi lumi,
+	Non spegneran scintilla de l'ardore
+	Ove ognor ti consumi:
+	Che se Amor da le fiamme de 'l tuo core
+	Può trarre umore e venti,
+	Trarrà da 'l pianto ancor faville ardenti.
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		ECLOGHE
+
+@@BEGIN:	ECLOGHE
+@CATALOGNUM:	
+@ECLOGA:        1
+@VERSE:
+@TITLE:			
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		ECLOGHE
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Rinaldo                                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@BEGIN:	RINALDO
+@CATALOGNUM:	Tri5016
+@CANTO:        	V
+@OTTAVA:       	16	
+@TITLE:		"Lasso," dicea, "Perché venisti Amore
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	"Lasso," dicea, "Perché venisti, Amore,
+	Amor d'ogni mio bene invidioso,
+	Con le tue fiamme a tormentarmi il core
+	E turbar la mia pace e 'l mio riposo?
+	Deh! qual gloria te aspetti e qual onore,
+	S'io tale schermo alcun non far pur oso,
+	S'a pena l'arco steso, a pena accinto
+	Eri a ferir, ch'io mi rendei per vinto?
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		RINALDO
+
+@@BEGIN:	RINALDO
+@CATALOGNUM:	Tri5018
+@CANTO:        	V
+@OTTAVA:       	18
+@TITLE:		Tu perfido signor, tu disleale	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Tu, perfido signor, tu disleale,
+	Che sotto ombra di ben copri il mal vero,
+	Oggetto desti impare e diseguale,
+	Onde a pieno m'affliga, al mio pensiero.
+	Deh! mie stelle crudeli, or quando tale
+	Scempio fu visto e così strano e fero?
+	Ché dove in altri amor da speme nasce,
+	Dal non sperar in me s'aviva e pasce.
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		RINALDO
 
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Lagrime della Beata Vergine                                         @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
+@@BEGIN:	LAGRIME DELLA BEATA VERGINE
+@CATALOGNUM:	TTbv0002
+@STANZA:        2
+@TITLE:		Chiaro sol che rotondo esci dal Gange	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Chiaro sol, che rotando esci del Gange,
+	D' alta corona di bei raggi adorno,
+	Piangi dolente or con Maria che piange
+	E piovoso ne porta e oscuro il giorno.
+	Tu piangi il duol che la scolora ed ange,
+	O luna, cinta di procelle intorno;
+	E voi spargete ancor di pianto un nembo,
+	Pallide stelle, a l' ampia terra in grembo.
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		LAGRIME DELLA BEATA VERGINE
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Re Torrismondo                                                      @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
+@@BEGIN:	RE TORRISMONDO
+@CATALOGNUM:	Trt0506
+@ACT:        	V
+@OSCENE:       	6
+@SECTION:	Coro
+@TITLE:		Ahi lagrime! ahi dolore	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Ahi lagrime, ahi dolore:
+	Passa la vita e si dilegua e fugge,
+	Come giel che si strugge.
+	Ogni altezza s'inchina, e sparge a terra
+	Ogni fermo sostegno,
+	Ogni possente regno
+	In pace cadde al fin, se crebbe in guerra.
+	E come raggio il verno, imbruna e more
+	Gloria d'altrui splendore;
+	E come alpestro e rapido torrente,
+	Come acceso baleno
+	In notturno sereno,
+	Come aura, o fumo, o come stral, repente
+	Volan le nostre fame, ed ogni onore
+	Sembra languido fiore.
+	Che più si spera o che s'attende omai?
+	Dopo trionfo e palma,
+	Sol qui restano a l'alma
+	Lutto e lamento e lagrimosi lai.
+	Che più giova amicizia, o giova amore?
+	Ahi lagrime, ahi dolore!
+@@END:		VERSES
+@OTHER_CRIT_ED:  
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		RE TORRISMONDO
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Gerusalemme conquistata                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-
+@@BEGIN:	GERUSALEMME CONQUISTATA
+@CATALOGNUM:	Tco0806
+@CANTO:        	VIII
+@OTTAVA:       	6
+@TITLE:		Piange, e sospira; e quando i caldi raggi	
+@MANUSRC:	
+@PRINTSRC:	
+@@BEGIN:	
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	
+@EDITION_TITLE: 
+@EDITION_LOC:	
+@EDITION_PUB:	
+@EDITION_DATE:  
+@EDITION_VOL:	
+@EDITION_PAGE:  
+@TRANSLATOR:	Emiliano Ricciardi 
+@VERSE:	
+	Piange, e sospira; e quando i caldi raggi
+	Fuggon le gregge, a la dolce ombra assise,
+	Ne la scorza de' pini o pur de' faggi
+	Segnò l'amato nome in mille guise:
+	E de la sua fortuna i gravi oltraggi,
+	E i vari casi in dura scorza incise:
+	E 'n rileggendo poi le proprie note
+	Spargea di pianto le vermiglie gote.
+@@END:		VERSES
+@OTHER_CRIT_ED: 
+@ATTRIBUTION_ABOUT:	
+@DATING:	
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		GERUSALEMME CONQUISTATA
 
 
 

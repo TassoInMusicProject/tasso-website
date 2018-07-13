@@ -84,18 +84,28 @@ if (@ARGV == 0) {
 # !!!SCA: @CATALOGNUM
 # !!!voices:
 #
-# AFTER data:
-#
+
+# AMINTA extras:
+# !!!act: @ACT
+# !!!scene: @SCENE
+# !!!verse: @VERSE
 
 sub processFile {
 	my ($file, @contents) = @_;
-	if ($file !~ /^([A-Z][a-z][a-z]\d+[a-z][a-z]?)-/) {
-		die "FILENAME IS INVALID: $file\n";
+	$file =~ /(.*)\/([^\/]+)/;
+	my $filebase = $1;
+	my $filename = $2;
+	if ($filename !~ /^([A-Z][a-z][a-z]\d+[a-z][a-z]?)-/) {
+		die "FILENAME IS INVALID: $filename\n";
 	}
 	my $id = $1;
 	my %entry = getIndexEntry($id);
+	next if $entry{"bad"};
 
 	my %keymap;
+	$keymap{"act"} = "ACT";
+	$keymap{"scene"} = "SCENE";
+	$keymap{"verse"} = "VERSE";
 	$keymap{"COM"} = "COMPOSER";
 	$keymap{"PTL"} = "PRINCEPSTITLE";
 	$keymap{"PPP"} = "NORMLOC";
@@ -110,7 +120,6 @@ sub processFile {
 		if ($contents[$i] !~ /^!!!([^\s:]+)\s*:\s(.*)\s*/) {
 			next;
 		}
-print "LINE = $contents[$i]\n";
 		my $key = $1;
 		my $value = $2;
 		my $newkey = $keymap{$key};
@@ -131,7 +140,6 @@ print "LINE = $contents[$i]\n";
 
 sub getIndexEntry {
 	my ($id) = @_;
-print "GETTING INDEX ENTRY $id\n";
 	my $startindex = 0;
 	my $found = 0;
 	for (my $i = 0; $i < @indexcontents; $i++) {
@@ -144,12 +152,14 @@ print "GETTING INDEX ENTRY $id\n";
 		}
 	}
 
+	my %output;
 	if (!$found) {
-		die "Cannot find entry for $id\n";
+		print "Error: cannot find entry for $id\n";
+		$output{"bad"} = 1;
+		return %output;
 	}
 
 
-	my %output;
 	my $last1;
 	for (my $i = $startindex + 1; $i < @indexcontents; $i++) {
 		my $line = $indexcontents[$i];
@@ -165,7 +175,6 @@ print "GETTING INDEX ENTRY $id\n";
 			$output{$last1} .= " $line";
 		}
 	}
-print "DONE GETTING INDEX ENTRY $id\n";
 	return %output;
 }
 

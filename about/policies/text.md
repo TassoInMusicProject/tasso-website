@@ -14,5 +14,7 @@ layout: simple
 
 ## **Erasures/Corrections/Marginalia**
 
+## **Encoding/Visualization**
+
 
 

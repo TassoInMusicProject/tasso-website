@@ -2,9 +2,17 @@
 layout: simple
 ---
 
-## **SOURCES**
+## **Sources**
 
-## **VOICE LAYOUT**
+## **Voice Layout**
 
-## **CLEFS**
+## **Clefs**
+
+## **Mensuration/Time Signatures**
+
+## **Rhythmic Values**
+
+## **Accidentals**
+
+## **Text Underlay**
 

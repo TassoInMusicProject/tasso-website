@@ -16,5 +16,9 @@ layout: simple
 
 ## **Text Underlay**
 
+## **Critical Apparatus**
+
+## **Commentary**
+
 ## **Encoding/Visualization/Download**
 

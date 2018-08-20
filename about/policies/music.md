@@ -2,9 +2,9 @@
 layout: simple
 ---
 
-# **SOURCES**
+## **SOURCES**
 
 ## **VOICE LAYOUT**
 
-### **CLEFS**
+## **CLEFS**
 

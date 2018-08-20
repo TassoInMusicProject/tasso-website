@@ -8,6 +8,8 @@ layout: simple
 
 ## **Work Pages**
 
+## **Literary Variants**
+
 ## **Browsing**
 
 ## **Searching**

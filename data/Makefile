@@ -1,5 +1,7 @@
 
+TASSOSCORES = ../../tasso-scores
 all: worklist
+
 
 worklist:
 	# Download a new version of the worklist according to the
@@ -11,6 +13,7 @@ worklist:
 
 humdrum: humdrum-rime humdrum-aminta
 
+
 rime: humdrum-rime
 humdrum-rime:
 	# Insert bibliographic information from files in indexes/*-settings.aton
@@ -18,12 +21,17 @@ humdrum-rime:
 	# in the Humdrum files unless the equivalent field in the index file
 	# is empty.
 	bin/index2humdrum -f indexes/rime-settings.aton \
-		../../tasso-scores/Trm/kern/*.krn
+		$(TASSOSCORES)/Trm/kern/*.krn
+
 
 aminta: humdrum-aminta
 humdrum-aminta:
 	bin/index2humdrum -f indexes/aminta-settings.aton \
-		../../tasso-scores/Tam/kern/*.krn
+		$(TASSOSCORES)/Tam/kern/*.krn
+
+
+aminta-composer-rename:
+	bin/renametimpfile $(TASSOSCORES)/Tam/kern/*.krn
 
 
 clean:

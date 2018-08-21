@@ -15,11 +15,24 @@ foreach my $file (@filelist) {
 
 sub renamefile {
 	my ($file) = @_;
-	if ($file !~ /^([A-Z][a-z][a-z]\d+[a-z][a-z]?)-/) {
+	my $directory;
+	my $filename;
+	if ($file !~ /(.*)\/([^\/]+)$/) {
+		$directory = ".";
+		$filename = $file;
+
+	} else {
+		$directory = $1;
+		$filename = $2;
+		if (!$directory) {
+			$directory = ".";
+		}
+	}
+	if ($filename !~ /^([A-Z][a-z][a-z]\d+[a-z][a-z]?)-/) {
 		die "Invalid filename: $file\n";
 	}
 	my $catalog = $1;
-	if ($file =~ /--/) {
+	if ($filename =~ /--/) {
 		# assuming correctly named
 		#print "$file already has composer/year information\n";
 		next;
@@ -43,11 +56,11 @@ sub renamefile {
 		#print "Did not find both composer and year in reference records in $file\n";
 		return;
 	}
-	if ($file !~ /(.*)\.krn/) {
+	if ($filename !~ /(.*)\.krn/) {
 		# print "Files does not end in .krn\n";
 		return;
 	}
-	my $newfile = "$1--${composer}_$year.krn";
+	my $newfile = "$directory/$1--${composer}_$year.krn";
 	print "NEW FILE $newfile\n";
 	`mv -i $file $newfile`;
 }

@@ -117,7 +117,7 @@ function displayAmintaList(target) {
 		request.open("GET", "/data/indexes/aminta-settings.aton");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			AMINTALIST = aton.parse(this.responseText).AMINTA;
+			AMINTALIST = aton.parse(this.responseText).SETTING;
 			sessionStorage.AMINTALIST = JSON.stringify(AMINTALIST);
 			continueProcessingAminta(element);
 		});
@@ -240,7 +240,7 @@ function displayGerusalemmeList(target) {
 		request.open("GET", "/data/indexes/gerusalemme-settings.aton");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			GLLIST = aton.parse(this.responseText).GERUSALEMME;
+			GLLIST = aton.parse(this.responseText).SETTING;
 			sessionStorage.GLLIST = JSON.stringify(GLLIST);
 			continueProcessingGL(element);
 		});
@@ -304,7 +304,6 @@ function continueProcessingRime(element) {
 	                      .textContent;
 	var rimeTemplate = Handlebars.compile(tsource);
 	element.innerHTML = rimeTemplate(RIMEVERSELIST);
-console.log("REVERSELIST", RIMEVERSELIST);
 	showTab("rime-heading");
 }
 
@@ -530,11 +529,45 @@ function continueProcessingOther(element) {
 	var lagrimeTemplate = Handlebars.compile(lsource);
 	var torrismondoTemplate = Handlebars.compile(tsource);
 
-	var conquistatalist = makeConquistataList(OTHERLIST.CONQUISTATA);
-	var ecloghelist = makeEclogheList(OTHERLIST.ECLOGHE);
-	var rinaldolist = makeRinaldoList(OTHERLIST.RINALDO);
-	var lagrimelist = makeLagrimeList(OTHERLIST.LAGRIME);
-	var torrismondolist = makeTorrismondoList(OTHERLIST.TORRISMONDO);
+	var otherlist = OTHERLIST;
+	var conquistatalist = [];
+	var ecloghelist = [];
+	var rinaldolist = [];
+	var lagrimelist = [];
+	var torrismondolist = [];
+
+	for (var k=0; k<OTHERLIST.length; k++) {
+		if (!OTHERLIST[k].GROUP) {
+			console.log("PROBLEM WITH SETTING", OTHERLIST[k]);
+			continue;
+		}
+		if (OTHERLIST[k].GROUP.match(/gerusalemme/i)) {
+			// @GROUP: Gerusalemme conquistata
+			conquistatalist.push(OTHERLIST[k]);
+		}
+		else if (OTHERLIST[k].GROUP.match(/ecloghe/i)) {
+			// @GROUP: Ecloghe settings
+			ecloghelist.push(OTHERLIST[k]);
+		}
+		else if (OTHERLIST[k].GROUP.match(/rinaldo/i)) {
+			// @GROUP: Rinaldo settings
+			rinaldolist.push(OTHERLIST[k]);
+		}
+		else if (OTHERLIST[k].GROUP.match(/lagrime/i)) {
+			// @GROUP: Lagrime della Beata Vergine settings
+			lagrimelist.push(OTHERLIST[k]);
+		}
+		else if (OTHERLIST[k].GROUP.match(/torrismondo/i)) {
+			// @GROUP: Re Torrismondo settings
+			torrismondolist.push(OTHERLIST[k]);
+		}
+	}
+	
+	var conquistatalist = makeConquistataList(conquistatalist);
+	var ecloghelist = makeEclogheList(ecloghelist);
+	var rinaldolist = makeRinaldoList(rinaldolist);
+	var lagrimelist = makeLagrimeList(lagrimelist);
+	var torrismondolist = makeTorrismondoList(torrismondolist);
 
 	var output = "<h2 style='margin-left:100px'>Ecloghe</h2>";
 	output += eclogheTemplate(ecloghelist);

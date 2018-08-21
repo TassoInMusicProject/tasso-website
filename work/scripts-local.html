@@ -264,7 +264,7 @@ function loadWorkList(url) {
 		request.open("GET", "{{site.rime_settings}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
+			RIMESETTINGLIST = aton.parse(this.responseText).SETTING;
 			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
 			counter++;
 			if (counter == targetcount) {
@@ -389,7 +389,6 @@ function displaySingleWork(id, target) {
 	setting.TITLE = work.title;
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
-console.log(setting);
 	var output = singleTemplate(setting);
 	document.title = ID + " workpage";
 	element.innerHTML = output;
@@ -1115,7 +1114,6 @@ function getRangeNoRecurse(id) {
 	request.open('GET', url);
 	request.addEventListener("load", function() {
 		var data = this.responseText;
-console.log("DATA2", data);
 		sessionStorage[tag] = data;
 	});
 	request.send()
@@ -1438,7 +1436,6 @@ function getTimeKey(id, row) {
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			var data = this.responseText;
-console.log("DATA3", data);
 			sessionStorage[tag] = data;
 			keysig = getKeySig(sessionStorage[tag]);
 			metsig = getMetSig(sessionStorage[tag]);

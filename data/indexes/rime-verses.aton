@@ -1,6 +1,5 @@
 @@
 @@ Rime poem texts.
-@@ Created 18 Oct 2012 by Emiliano Ricciardi
 @@ Last Edited 23 Mar 2016
 @@
 @@ RIME data fields:
@@ -527,7 +526,7 @@
 @@BEGIN:	RIME
 @SOLERTI:	46
 @CATALOGNUM:	Trm0046
-@TITLE:		Amore se fia giammai che dolce il tocchi
+@TITLE:		Amor, se fia giamai che dolce i' t&oacute;cchi
 @GENRE:		sonetto
 @MANUSRC:	Brn, C, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>, W
 @PRINTSRC:	4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
@@ -615,7 +614,7 @@
 @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
 
 @VERSE:
-	Non &egrave; questa la mano,
+	Non &egrave; questa la mano
 	Che tante e s&igrave; mortali
 	Avvent&ograve; nel mio cor fiammelle e strali?
 	Ecco che pur si trova
@@ -895,7 +894,7 @@
 @@BEGIN:	RIME
 @SOLERTI:	59
 @CATALOGNUM:	Trm0059
-@TITLE:		Lunge da voi ben mio
+@TITLE:		Lunge da voi, ben mio
 @GENRE:		madrigale
 @MANUSRC:	C, V<sub>8</sub>
 @PRINTSRC:	27, 48, 70, 141, 166, 169
@@ -923,7 +922,7 @@
 	Un lagrimevol suono,
 	Una voce dolente; e ci&ograve; mi resta
 	Solo per vostro dono:
-	Ma resta il male onde morir desio
+	Ma resta il male onde morir desio.
 @TVERSE:
 	Far from you, my dear,
 	I have no life nor heart and am not myself.
@@ -952,7 +951,7 @@
 @@BEGIN:	RIME
 @SOLERTI:	60
 @CATALOGNUM:	Trm0060
-@TITLE:		Lunge da voi mio core
+@TITLE:		Lunge da voi, mio core
 @GENRE:		madrigale
 @MANUSRC:	C, V<sub>8</sub>
 @PRINTSRC:	27, 48, 70, 141, 166, 169
@@ -1808,7 +1807,7 @@
 	E quel beato che per lei sospira!
 	Ch&eacute; se gl'inspira il core,
 	Puote al cielo aspirar col suo valore
-@VERSE:
+@TVERSE:
 	No fountain or river or breeze
 	Do I hear in sweeter tone than that of Laura;
 	Nor in laurel or in pine or in myrtle
@@ -2912,7 +2911,7 @@
 @PRINTSRC:	10, 11, 12, 13, 16, 21, 25, 25a), 30, 34, 64, 68, 78, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	IL LAURO SECCO.
-@ABOUTEN:	THE DRIED LAUREL.
+@ABOUTEN:	THE DRY LAUREL.
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
@@ -2970,7 +2969,7 @@
 @PRINTSRC:	27, 70, 78, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto. (i.e., "IL LAURO SECCO." Rime 189) 
-@ABOUTEN:	On the same subject. (i.e., "THE DRIED LAUREL." Rime 189)
+@ABOUTEN:	On the same subject. (i.e., "THE DRY LAUREL." Rime 189)
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
@@ -3022,7 +3021,7 @@
 @PRINTSRC:	27, 70, 78, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto. (i.e., "IL LAURO SECCO." Rime 189-190) 
-@ABOUTEN:	On the same subject. (i.e., "THE DRIED LAUREL." Rime 189-190)
+@ABOUTEN:	On the same subject. (i.e., "THE DRY LAUREL." Rime 189-190)
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Le Rime di Torquato Tasso
 @EDITION_LOC:	Bologna
@@ -3655,7 +3654,7 @@
 @TRANSLATOR:	Ricciardi, Emiliano
 @VERSE:
 	Al lume delle stelle
-	Tirsi sotto un'alloro
+	Tirsi sotto un alloro
 	Si dolea lagrimando in questi accenti: &mdash;
 	O celesti facelle
 	Di lei ch'amo ed adoro
@@ -3699,14 +3698,16 @@
 	Con lagrimoso rio,
 	E seco insieme impallidir anch'io,
 	Seco mutar sembiante,
-	Aventuroso amante
+	Avventuroso amante
 @@END:		VERSES
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Secure
 		<br>
-		This poem is attributed to Tasso in two independent prints, Delle rime et prose del Sig. Torquato Tasso</i> 
-(Venetia: Giulio Vasalini, 1586) and <i>Delle Rime, et prose del Sig. Torquato Tasso</i> ((Milan: Pietro Tini, 1586), as well as in reprints thereof (see Literary Sources).
-@DATING: In or before 1586	
+		This poem is attributed to Tasso in two independent prints, <i>Delle rime et prose del Sig. Torquato Tasso</i> 
+(Venetia: Giulio Vasalini, 1586) and <i>Delle Rime, et prose del Sig. Torquato Tasso</i> (Milan: Pietro Tini, 1586), as well as in reprints thereof (see Literary Sources).
+@DATING: In or before 1584
+	<br>
+	The earliest datable appearence of this poem is in Marenzio's setting of 1584 (see Trm0247a)
 @DEDICATEE:	
 @COMMENTARY:    
 @@END:		RIME
@@ -3743,8 +3744,8 @@
 @NEW_CRIT_ED:   None
 @ATTRIBUTION_ABOUT:	Not secure
 		<br>
-		This poem survives attributed to Tasso only in a literary print that was not supervised by the author, Delle rime et prose del Sig. Torquato Tasso</i> 
-(Venetia: Giulio Vasalini, 1586), and in reprints thereof. 
+		This poem survives attributed to Tasso only in a literary print that was not supervised by the author, <i>Delle rime et prose del Sig. Torquato Tasso</i> 
+(Venetia: Giulio Vasalini, 1586) and in reprints thereof. 
 @DATING:	In or before 1586
 @DEDICATEE:	
 @COMMENTARY:    
@@ -5261,6 +5262,46 @@
 		<br>
 		Among other sources, this poem appears in the authoritative manuscript It. 385, Biblioteca Estense Universitaria, Modena, Italy (see Literary Sources).
 @DATING:	Mid-1580s or earlier
+@DEDICATEE:	
+@COMMENTARY:    
+@@END:		RIME
+
+@@BEGIN:	RIME
+@SOLERTI:	338
+@CATALOGNUM:	Trm0338
+@TITLE:		Donna cortese e bella
+@GENRE:		madrigale
+@MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@@BEGIN:	VERSES
+@ABOUTIT:	
+@ABOUTEN:	
+@EDITOR:	Solerti, Angelo
+@EDITION_TITLE: Le Rime di Torquato Tasso
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Romagnoli-Dall’Acqua
+@EDITION_DATE:  1898-1902
+@EDITION_VOL:	2
+@EDITION_PAGE:  384
+@TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
+@VERSE:
+	Donna cortese e bella, 
+     	Deh! non voler ch’io moia 
+     	Di temenza e di noia; 
+     	Libera il corpo e fa l’anima ancella: 
+    	E se disdegni signoria s&igrave; bassa, 
+     	Altrui mi dona e lassa; 
+     	Ch&eacute; tra’ pastori forse o tra’ bifolci 
+     	Avr&ograve; l’ore piú dolci.
+@@END:		VERSES
+@NEW_CRIT_ED:   None
+@ATTRIBUTION_ABOUT:	Secure
+		<br>
+		Among other sources (see Literary Sources), this poem appears in the authoritative manuscript It. 385, Biblioteca Estense Universitaria, Modena.
+@DATING:	In or before 1583
+		<br>
+		The earliest datable appearance of this poem is in the print <i>Rime et prose del Signor Torquato Tasso. Parte terza. Novamente poste in luce.</i>
+		(Venetia: Giulio Vasalini, 1583). See Literary Sources.
 @DEDICATEE:	
 @COMMENTARY:    
 @@END:		RIME

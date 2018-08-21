@@ -402,7 +402,7 @@ window.addEventListener("DOMContentLoaded", function() {
 		request.open("GET", "{{site.rime_settings}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
+			RIMESETTINGLIST = aton.parse(this.responseText).SETTING;
 			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
 			console.log("DOWNLOADED RIMESETTING LIST");
 			fillMusicBrowsePage();

@@ -178,9 +178,8 @@ function displayOtherList(target) {
 		request.open("GET", "/data/indexes/other-settings.aton");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-			OTHERLIST = aton.parse(this.responseText).OTHER;
+			OTHERLIST = aton.parse(this.responseText).SETTING;
 			sessionStorage.OTHERLIST = JSON.stringify(OTHERLIST);
-console.log(sessionStorage.OTHERLIST);
 			continueProcessingOther(element);
 		});
 		request.send();
@@ -216,8 +215,8 @@ console.log(sessionStorage.OTHERLIST);
 
 //////////////////////////////
 //
-// displayGerusalemmeList -- Show the Gerusalemme Liberata list within the given
-//     target element.
+// displayGerusalemmeList -- Show the Gerusalemme Liberata list within
+//     the given target element.
 //
 
 function displayGerusalemmeList(target) {
@@ -354,7 +353,6 @@ function makeCantoList(gllist) {
 //
 
 function makeConquistataList(gllist) {
-console.log("conquistataList = ", gllist);
 	var output = {};
 	var data = output;
 
@@ -428,7 +426,8 @@ function makeRinaldoList(rlist) {
 //
 
 function makeLagrimeList(lentry) {
-	var llist = [lentry];
+	// var llist = [lentry];
+	var llist = lentry;
 	var output = {};
 	var data = output;
 	for (var i=0; i<llist.length; i++) {
@@ -451,7 +450,8 @@ function makeLagrimeList(lentry) {
 //
 
 function makeTorrismondoList(lentry) {
-	var llist = [lentry];
+	var llist = lentry;
+	// var llist = [lentry];
 	var output = {};
 	var data = output;
 	for (var i=0; i<llist.length; i++) {
@@ -504,7 +504,6 @@ function continueProcessingAminta(element) {
 	                      .textContent;
 	var amintaTemplate = Handlebars.compile(tsource);
 	var amintalist = makeAmintaVerseList(AMINTALIST);
-console.log("ALST", amintalist);
 	element.innerHTML = amintaTemplate(amintalist);
 	showTab("aminta-heading");
 }
@@ -541,7 +540,7 @@ function continueProcessingOther(element) {
 			console.log("PROBLEM WITH SETTING", OTHERLIST[k]);
 			continue;
 		}
-		if (OTHERLIST[k].GROUP.match(/gerusalemme/i)) {
+		if (OTHERLIST[k].GROUP.match(/conquistata/i)) {
 			// @GROUP: Gerusalemme conquistata
 			conquistatalist.push(OTHERLIST[k]);
 		}
@@ -562,12 +561,12 @@ function continueProcessingOther(element) {
 			torrismondolist.push(OTHERLIST[k]);
 		}
 	}
-	
-	var conquistatalist = makeConquistataList(conquistatalist);
-	var ecloghelist = makeEclogheList(ecloghelist);
-	var rinaldolist = makeRinaldoList(rinaldolist);
-	var lagrimelist = makeLagrimeList(lagrimelist);
-	var torrismondolist = makeTorrismondoList(torrismondolist);
+
+	conquistatalist = makeConquistataList(conquistatalist);
+	ecloghelist = makeEclogheList(ecloghelist);
+	rinaldolist = makeRinaldoList(rinaldolist);
+	lagrimelist = makeLagrimeList(lagrimelist);
+	torrismondolist = makeTorrismondoList(torrismondolist);
 
 	var output = "<h2 style='margin-left:100px'>Ecloghe</h2>";
 	output += eclogheTemplate(ecloghelist);

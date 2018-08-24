@@ -103,7 +103,6 @@ function showTab(hiid) {
 //
 
 function fillMusicBrowsePage() {
-console.log("SHOWING MUSIC PAGE HEADING");
 	var music = document.querySelector("#music-heading");
 	if (!music) {
 		return;
@@ -320,6 +319,10 @@ function filterByField(entries, field, value, bound) {
 		return [];
 	}
 	var output = [];
+
+	// fix for regular expressions:
+	//value = value.replace(/'/g, "\\\'");
+
 	if (bound) {
 		value = "\\b" + value + "\\b";
 	}
@@ -404,7 +407,6 @@ window.addEventListener("DOMContentLoaded", function() {
 			var aton = new ATON;
 			RIMESETTINGLIST = aton.parse(this.responseText).SETTING;
 			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
-			console.log("DOWNLOADED RIMESETTING LIST");
 			fillMusicBrowsePage();
 		});
 		request.send();
@@ -415,10 +417,8 @@ window.addEventListener("DOMContentLoaded", function() {
 		request.open("GET", "{{site.rime_verses}}");
 		request.addEventListener("load", function() {
 			var aton = new ATON;
-console.log("ATON:", aton.parse(this.responseText));
 			RIMEVERSELIST = aton.parse(this.responseText).RIME;
 			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
-			console.log("DOWNLOADED RIMEVERSE LIST");
 			fillLiteraryBrowsePage();
 		});
 		request.send();

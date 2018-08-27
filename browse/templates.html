@@ -26,7 +26,7 @@
 			<td><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
 			<td>{{shortName COMPOSER}}</td>
 			<td>{{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
-			<td><span style="cursor:help" title="{{{PRINCEPSTITLE}}}">{{NORMLOC}}: {{NORMPUBSHORT}}, {{PRINCEPSYEAR}}</span></td>
+			<td><span style="cursor:help" title="{{{PRINCEPSTITLE}}}">{{pubInfo NORMLOC NORMPUBSHORT}}, {{PRINCEPSYEAR}}</span></td>
 		</tr>
 	{{/each}}
 	</tbody>
@@ -62,7 +62,7 @@
 			<td>{{{shortGenre GENRE}}}</td>
 			<td>{{{TITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
 			<td style="padding-right:10px">{{{shortName DEDICATEE}}}</td>
-			<td>{{{MANUSRC}}}<br>{{{PRINTSRC}}}</td>
+			<td>{{{manuscriptSrc MANUSRC}}}<br>{{{printSrc PRINTSRC}}}</td>
 		</tr>
 	{{/each}}
 	</tbody>
@@ -77,10 +77,75 @@
 
 <script>
 
+
+//////////////////////////////
+//
+// manuscriptSrc Handlebar helper --
+//
+
+Handlebars.registerHelper("manuscriptSrc", function(src) {
+	var list = src.split(/,\s+/);
+	var output = "";
+	for (var i=0; i<list.length; i++) {
+		output += "<span class='tooltip'>" + list[i];
+		output += "   <span class='tooltiptext'>print info for " + list[i] + " goes here</span>";
+		output += "</span>";
+		if (i < list.length - 1) {
+			output += ", ";
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// printSrc Handlebar helper --
+//
+
+Handlebars.registerHelper("printSrc", function(src) {
+	var list = src.split(/,\s+/);
+	var output = "";
+	for (var i=0; i<list.length; i++) {
+		output += "<span class='tooltip'>" + list[i];
+		output += "   <span class='tooltiptext'>print info for " + list[i] + " goes here</span>";
+		output += "</span>";
+		if (i < list.length - 1) {
+			output += ", ";
+		}
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// pubInfo Handlebar helper  -- 
+// 
+//
+
+Handlebars.registerHelper("pubInfo", function(loc, pub) {
+	if (!(loc || pub)) {
+		return new Handlebars.SafeString("");
+	}
+	if (!loc) {
+		return new Handlebars.SafeString(pub);
+	}
+	if (!pub) {
+		return new Handlebars.SafeString(loc);
+	}
+	return new Handlebars.SafeString(loc + ": " + pub);
+});
+
+
+
 //////////////////////////////
 //
 // shortName Handlebar helper  -- Prevent linebreak after RISM
 //      and its number.
+// 
+// @COMPOSER:	Bottegari, Cosimo (?) => Bottegari, C.(?)
 //
 
 Handlebars.registerHelper("shortName", function(text) {
@@ -94,6 +159,12 @@ Handlebars.registerHelper("shortName", function(text) {
 	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
 	var lastname = text;
 	var firstname = text;
+	var question = "";
+	if (text.match(/\(\?\)/)) {
+		question = "(?)";
+		text = text.replace(/\(\?\)/, "");
+	}
+	text = text.replace(/\s+$/, "").replace(/^\s+/, "");
 	var abbrname = "";
 	var pieces;
 	if (!text.match(/(.*),\s+(.*)/)) {
@@ -117,12 +188,7 @@ Handlebars.registerHelper("shortName", function(text) {
 		}
 		var shortname;
 		if (abbrname.length > 0) {
-			matches = abbrname.match(/(.*)\s?\?/);
-			if (matches) {
-				shortname = matches[1] + " " + lastname + "&nbsp;?";
-			} else {
-				shortname = lastname + "," + abbrname;
-			}
+			shortname = lastname + "," + abbrname + question;
 		} else {
 			shortname = lastname;
 		}

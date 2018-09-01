@@ -1660,19 +1660,26 @@ function generatePdfFull(event) {
 		var blob = stream.toBlob('application/pdf');
 		var pdfFilename = "output.pdf";
 		var pdfFilename;
+		// The SAVEFILENAME should match the original filename.  This needs to be
+		// stored somewhere (such as in the settings index file).  Currently just
+		// use the catalog ID.
 		var SAVEFILENAME;
 		if (SAVEFILENAME) {
 			pdfFilename = SAVEFILENAME.replace(/\.[^.]*$/, "") + ".pdf";
 		} else {
-			pdfFilename = "output.pdf";
+			if (ID) {
+				pdfFilename = ID + ".pdf";
+			} else {
+				pdfFilename = "output.pdf";
+			}
 		}
 		saveAs(blob, pdfFilename);
 		$('html').css('cursor', 'auto');
 	});
 	var buffer = Uint8Array.from(atob(vrvTTF), c => c.charCodeAt(0));
 	pdf.registerFont('VerovioText', buffer);
-	var buffer2 = Uint8Array.from(atob(simonettaTTF), c => c.charCodeAt(0));
-	pdf.registerFont('Simonetta', buffer2);
+//	var buffer2 = Uint8Array.from(atob(simonettaTTF), c => c.charCodeAt(0));
+//	pdf.registerFont('Simonetta', buffer2);
 	var localOptions = {
 		pageHeight        : height,
 		pageWidth         : width,
@@ -1696,12 +1703,14 @@ function generatePdfFull(event) {
 
 	vrvToolkit.setOptions(localOptions);
 	vrvToolkit.redoLayout();
-	// for (var i=0; i<vrvToolkit.getPageCount(); i++) {
-	// 	pdf.addPage({size: format, layout: orientation});
-	// 	var x = 5;
-	// 	var y = 10;
-	// 	SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}), x, y, pdfOptions);
-	// }
+	for (var i=0; i<vrvToolkit.getPageCount(); i++) {
+		pdf.addPage({size: format, layout: orientation});
+	 	var x = 5;
+	 	var y = 10;
+	 	SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}), x, y, pdfOptions);
+	}
+
+/*
 	for (var i=0; i<vrvToolkit.getPageCount(); i++) {
 		pdf.addPage({size: format, layout: orientation});
 		var x = 5;
@@ -1725,6 +1734,7 @@ function generatePdfFull(event) {
 		}
 		SVGtoPDF(pdf, svg, x, y, pdfOptions);
 	}
+*/
 
 	vrvToolkit.redoLayout(oldOptions, true);
 	pdf.end();

@@ -14,21 +14,22 @@
 
 <script id="music-browse-template" type="text/x-handlebars-template">
 	<table class="music-browse-list">
-	<thead>
-		<th style="width:130px; text-align:left;">Catalog&nbsp;#</th>
-		<th style="width:170px; text-align:left;">Composer</th>
-		<th style="text-align:left;">Title</th>
-		<th style="text-align:left;">Publication information</th>
+	<thead style="color: #B19C5F;">
+		<th onclick="sortByText(0)" style="width:130px; cursor:pointer; text-align:left">Catalog</th>
+		<th onclick="sortByText(1)" style="width:170px; cursor:pointer; text-align:left">Composer</th>
+		<th onclick="sortByText(2)" style="cursor:pointer; text-align:left">Title</th>
+		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left">Publication&nbsp;information</th>
 	<thead>
 	<tbody>
 	{{#each this}}
-		<tr style="vertical-align:top">
-			<td><a href="/work?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
-			<td>{{shortName COMPOSER}}</td>
-			<td>{{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
-			<td><span style="cursor:help" title="{{{PRINCEPSTITLE}}}">{{pubInfo NORMLOC NORMPUBSHORT}}, {{PRINCEPSYEAR}}</span></td>
+		<tr class="data" style="vertical-align:top">
+			<td class="id" id="{{CATALOGNUM}}" onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{CATALOGNUM}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;"><nobr>{{shortName COMPOSER}}</nobr></td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'"><span title="{{{PRINCEPSTITLE}}}">{{pubInfo NORMLOC NORMPUBSHORT}}, {{PRINCEPSYEAR}}</span></td>
 		</tr>
 	{{/each}}
+
 	</tbody>
 	</table>
 </script>
@@ -193,11 +194,11 @@ Handlebars.registerHelper("shortName", function(text) {
 			shortname = lastname;
 		}
 		if (shortname.length > 15) {
-			output = "<span style='letter-spacing:-1px; word-spacing:-1px; ";
-			output+= "cursor:help' title='" + originaltext +"'>";
+			output = "<span style='letter-spacing:-1px; word-spacing:-1px;' ";
+			output+= "title='" + originaltext +"'>";
 			output += shortname + "</a>";
 		} else {
-			output = "<span style='cursor:help' title='";
+			output = "<span title='";
 			output += originaltext + "'>";
 			output += shortname + "</a>";
 		}

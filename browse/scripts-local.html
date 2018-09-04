@@ -525,8 +525,52 @@ function setupLiteraryBrowseCallbacks() {
 }
 
 
+//////////////////////////////
+//
+// sortByText --
+//
+
+function sortByText(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+	var body = document.querySelector("table.music-browse-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displaySingleWork --
+//
+
+function displaySingleWork(id) {
+	if (!id) {
+		return;
+	}
+	window.location.href = "/work?id=" + id;
+}
+
 
 </script>
 
-
-</script>

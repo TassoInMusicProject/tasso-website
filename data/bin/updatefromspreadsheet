@@ -1,0 +1,169 @@
+#!/usr/bin/perl
+# vim: ts=3
+# Description: This program reads a TSV version of a spreadsheet
+#     and replaces any content in an index file for a musical setting.
+#
+# Using spreadsheet data from 
+#    https://docs.google.com/spreadsheets/d/1YcaAQc-mxFFDWyOsT7HOlwZkEqB4rPEuOzXCMTKprMc/edit#gid=1098021743
+# which currently has to be download separately.
+#
+# Options:
+#          -c == Show entries that will change content.
+#          -E == Do not show cases where an empty field will be filled in.
+#          -o == Overwrite index file with updated contents.
+#          -f == Print data column (field) names in spreadsheet.
+#
+
+use strict;
+use Getopt::Long;
+
+my $fieldsQ = 0;
+my $overwriteQ = 0;
+my $changesQ = 0;
+my $noemptiesQ = 0;
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'f|fields' => \$fieldsQ,
+   'o|overwrite' => \$overwriteQ,
+   'c|change|changes' => \$changesQ,
+   'E|no-empties' => \$noemptiesQ
+);
+
+# if -E is used, then -c is implied:
+if ($noemptiesQ) {
+	$changesQ = 1;
+}
+
+die "Usage: $0 spreadsheet settings\n" if @ARGV != 2;
+
+my $sheetfile = $ARGV[0];
+my $datafile = $ARGV[1];
+
+my %COLUMN;
+my %SHEET;
+
+loadSheetInfo($sheetfile);
+
+if ($fieldsQ) {
+	my @keys = keys %COLUMN;
+	for (my $i=0; $i<@keys; $i++) {
+		print "$COLUMN{$keys[$i]}\t$keys[$i]\n";
+	}
+	exit(0);
+}
+
+
+my @newindexdata = updateIndex($datafile);
+
+if (!$changesQ) {
+	if ($overwriteQ) {
+		open (DFILE, ">$datafile") or die "Cannot write to $datafile\n";
+		print DFILE @newindexdata;
+		close DFILE;
+	} else {
+		print @newindexdata;
+	}
+}
+
+exit(0);
+
+
+###############################################################
+
+
+##############################
+##
+## updateIndex -- The catalog number is assumed to 
+##     be first in each entry.  If a spreadsheet cell
+##     is empty, then its contents will not be inserted
+##     into the index file (you will have to delete it
+##     manually if needed).
+##
+
+sub updateIndex {
+	my ($datafile) = @_;
+	my @output;
+	open (DFILE, $datafile) or die "Cannot read $datafile";
+	my $line;
+	my $active = "";
+	my $catalognum = "";
+	while ($line = <DFILE>) {
+		$output[@output] = $line;
+		if ($line =~ /^\@CATALOGNUM\s*:\s*([^\s]+)\s*$/) {
+			$catalognum = $1;
+			next;
+		}
+		if ($line =~ /^\@\@END\s*:\s*SETTING\s*$/) {
+			$catalognum = "";
+			next;
+		}
+		next if $catalognum =~ /^\s*$/;
+		if ($line =~ /^\@([A-Za-z_0-9-]+)\s*:\s*(.*)\s*$/) {
+			my $key = $1;
+			my $value = $2;
+			my $index = $COLUMN{$key};
+			next if $index =~ /^\s*$/;
+			my $newvalue = getValue($catalognum, $index);
+			next if $newvalue =~ /^\s*$/;
+			if ($changesQ) {
+				if ($noemptiesQ && ($value =~ /^\s*$/)) {
+					# don't do anything
+				} elsif ($value ne $newvalue) {
+					print "$catalognum $key::$value ==> $newvalue\n";
+				}
+			}
+			if ($value ne $newvalue) {
+				$output[-1] = "\@$key:\t$newvalue\n";
+			}
+		}
+	}
+	close DFILE;
+	return @output;
+}
+
+
+
+##############################
+##
+## getValue --
+##
+
+sub getValue {
+	my ($catalognum, $index) = @_;
+	my $line = $SHEET{$catalognum};
+	chomp $line;
+	my @data = split(/\t/, $line);
+	my $value = @data[$index];
+	return $value;
+}
+
+
+
+##############################
+##
+## loadSheetInfo --
+##
+
+sub loadSheetInfo {
+	my ($sheetfile) = @_;
+	open (SHEETFILE, $sheetfile) or die;
+	my $firstline = <SHEETFILE>;
+	chomp $firstline;
+	my @fields = split("\t", $firstline);
+	for (my $i=0; $i<@fields; $i++) {
+		$COLUMN{$fields[$i]} = $i;
+	}
+	my @rest = <SHEETFILE>;
+	for (my $i=0; $i<@rest; $i++) {
+		$rest[$i] =~ /(^[^\s]+)\t/;
+		my $id = $1;
+		if ($SHEET{$id} !~ /^\s*$/) {
+			print "ERROR: duplicate id: $id\n";
+		}
+		$SHEET{$id} = $rest[$i];
+	}
+	close SHEETFILE;
+}
+
+
+

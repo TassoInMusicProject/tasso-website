@@ -799,7 +799,7 @@
 @CATALOGNUM:	Trm0025c
 @RIMETITLE:	Come vivrò ne le mie pene, Amore
 @SOLERTI:	25
-@COMPOSER:	Billi, Lutio
+@COMPOSER:	Billi, Lucio
 @COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
@@ -1915,10 +1915,10 @@
 @PRINCEPSYEAR:	1585
 @PRINCEPSRISM:	1585-22
 @REPRINTS:	
-@VOICES:
-@EXTANT_VOICES:
-@OCLEFS:	
-@OMENSURATION:	
+@VOICES:	5
+@EXTANT_VOICES:	5
+@OCLEFS:	G2, C2, C3, C3, F3
+@OMENSURATION:	Cut-C
 @OKEYSIG:	
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
@@ -2072,7 +2072,7 @@
 @CATALOGNUM:	Trm0333l
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
-@COMPOSER:	Costanzo, Alessandro di
+@COMPOSER:	Di Costanzo, Alessandro
 @COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
@@ -3243,7 +3243,7 @@
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
-@TIMPEDITOR:	
+@TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
 
@@ -4071,7 +4071,7 @@
 @CATALOGNUM:	Trm0338d
 @RIMETITLE:	Donna cortese e bella
 @SOLERTI:	338
-@COMPOSER:	Gabreli, Giovanni
+@COMPOSER:	Gabrieli, Giovanni
 @COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro primo
@@ -4241,7 +4241,7 @@
 @CATALOGNUM:	Trm0433e
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
-@COMPOSER:	Fornaci, Giacomo
+@COMPOSER:	Galeno, Giovanni Battista
 @COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sette voci
 @PRINCEPSLOC:	Venetia
@@ -4257,7 +4257,7 @@
 @OCLEFS:	C1, F4
 @OMENSURATION:	cut-C
 @OKEYSIG:	
-@TIMPEDITOR:	Schleuse, Paul
+@TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
 
@@ -5426,7 +5426,7 @@
 @CATALOGNUM:	Trm0361c
 @RIMETITLE:	Io son la Primavera
 @SOLERTI:	361
-@COMPOSER:	Stefani, Giovanni
+@COMPOSER:	Stefani, Giovanni ?
 @COMDATES:
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Scherzi amorosi. Canzonette ad una voce sola. Libro secondo
@@ -5659,7 +5659,7 @@
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
-@TIMPEDITOR:	Ricciardi, Emiliano
+@TIMPEDITOR:	Donnelly, Daniel
 @NOTE:		
 @@END:		SETTING
 
@@ -5986,8 +5986,8 @@
 @PRINCEPSYEAR:	1584
 @PRINCEPSRISM:	L3125
 @REPRINTS:	L3131
-@VOICES:
-@EXTANT_VOICES:
+@VOICES:	5
+@EXTANT_VOICES:	5
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
@@ -6960,7 +6960,7 @@
 @CATALOGNUM:	Trm0433a
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
-@COMPOSER:	Vecchi, Orazio
+@COMPOSER:	Marenzio, Luca
 @COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	De floridi virtuosi d'italia il primo libro de madrigali a cinque voci
@@ -7236,8 +7236,8 @@
 @PRINCEPSYEAR:	1604
 @PRINCEPSRISM:	M1292
 @REPRINTS:	
-@VOICES:
-@EXTANT_VOICES:
+@VOICES:	6
+@EXTANT_VOICES:	1
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
@@ -7452,10 +7452,10 @@
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M1502
 @REPRINTS:	
-@VOICES:
-@EXTANT_VOICES:
-@OCLEFS:	
-@OMENSURATION:	
+@VOICES:	6
+@EXTANT_VOICES:	2
+@OCLEFS:	C3, C3
+@OMENSURATION:	C
 @OKEYSIG:	
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
@@ -8872,8 +8872,8 @@
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	M3453
 @REPRINTS:	M3454, M3455
-@VOICES:
-@EXTANT_VOICES:
+@VOICES:	5
+@EXTANT_VOICES:	5
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
@@ -9053,7 +9053,7 @@
 @CATALOGNUM:	Trm0433c
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
-@COMPOSER:	Gabussi, Giulio Cesare
+@COMPOSER:	Monteverdi, Claudio
 @COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
@@ -9064,8 +9064,8 @@
 @PRINCEPSYEAR:	1590
 @PRINCEPSRISM:	M3456
 @REPRINTS:	M3457, M3458
-@VOICES:
-@EXTANT_VOICES:
+@VOICES:	5
+@EXTANT_VOICES:	5
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
@@ -10038,7 +10038,7 @@
 @CATALOGNUM:	Trm0433d
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
-@COMPOSER:	Taroni, Antonio
+@COMPOSER:	Piccioni, Giovanni
 @COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
@@ -10267,8 +10267,8 @@
 @PRINCEPSYEAR:	1588
 @PRINCEPSRISM:	1588-28
 @REPRINTS:	P0786, P0787, P0788, P0800
-@VOICES:
-@EXTANT_VOICES:
+@VOICES:	5
+@EXTANT_VOICES:	5
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
@@ -10466,7 +10466,7 @@
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
-@TIMPEDITOR:	
+@TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
 
@@ -10610,7 +10610,7 @@
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
-@TIMPEDITOR:	
+@TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
 
@@ -10798,10 +10798,10 @@
 @PRINCEPSYEAR:	1602
 @PRINCEPSRISM:	S896
 @REPRINTS:	1604-12
-@VOICES:
-@EXTANT_VOICES:
-@OCLEFS:	
-@OMENSURATION:	
+@VOICES:	5
+@EXTANT_VOICES:	3
+@OCLEFS:	G2, C2, C3
+@OMENSURATION:	C
 @OKEYSIG:	
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
@@ -10891,8 +10891,8 @@
 @PRINCEPSYEAR:	1600
 @PRINCEPSRISM:	S2450
 @REPRINTS:	
-@VOICES:
-@EXTANT_VOICES:
+@VOICES:	5
+@EXTANT_VOICES:	5
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
@@ -11386,7 +11386,7 @@
 @CATALOGNUM:	Trm0433b
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
-@COMPOSER:	Hassler, Hans Leo
+@COMPOSER:	Stivori, Francesco
 @COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
@@ -11843,7 +11843,7 @@
 @CATALOGNUM:	Trm0284l
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
-@COMPOSER:	Costanzo, Alessandro di
+@COMPOSER:	Di Costanzo, Alessandro
 @COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR:	Vitali, Francesco
@@ -11909,7 +11909,7 @@
 @OCLEFS:	
 @OMENSURATION:	
 @OKEYSIG:	
-@TIMPEDITOR:	
+@TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
 
@@ -11989,7 +11989,7 @@
 @CATALOGNUM:	Trm0081a
 @RIMETITLE:	Costei, che su la fronte ha sparsa al vento
 @SOLERTI:	81
-@COMPOSER:	Vecoli, Pietro
+@COMPOSER:	Vecoli, Regolo
 @COMDATES:	
 @PRINCEPSTITLE:	in Pietro Vecoli, Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Parigi
@@ -12109,7 +12109,7 @@
 @CATALOGNUM:	Trm0290a
 @RIMETITLE:	Amorosa fenice
 @SOLERTI:	290
-@COMPOSER:	Massaino, Tiburtio
+@COMPOSER:	Veggio, Giovanni Agostino
 @COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Parma
@@ -13335,7 +13335,7 @@
 @CATALOGNUM:	Trm1370a
 @RIMETITLE:	Qui dove fan le piante
 @SOLERTI:	1370
-@COMPOSER:	Cortellini, Camillo
+@COMPOSER:	Camillo Cortellini
 @COMDATES:	
 @PRINCEPSTITLE:	Musica di Camillo Cortellini il violino
 @PRINCEPSLOC:	Bologna
@@ -13346,12 +13346,12 @@
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	
 @REPRINTS:	
-@VOICES:
-@EXTANT_VOICES:
-@OCLEFS:	
-@OMENSURATION:	
+@VOICES:	5
+@EXTANT_VOICES:	5
+@OCLEFS:	G2, G2, C2, C3, F3
+@OMENSURATION:	C
 @OKEYSIG:	
-@TIMPEDITOR:	
+@TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
 

@@ -207,6 +207,17 @@ function filterMusicData(entries) {
 		rism = rismElement.value;
 	}
 
+	var ovoicesElement = document.querySelector("#browse-ovoices");
+	var ovoices = "";
+	if (ovoicesElement) {
+		ovoices = ovoicesElement.value;
+	}
+	var evoicesElement = document.querySelector("#browse-evoices");
+	var evoices = "";
+	if (evoicesElement) {
+		evoices = evoicesElement.value;
+	}
+
 	if (composer) {
 		output = filterByField(output, "COMPOSER", composer);
 	}
@@ -225,6 +236,12 @@ function filterMusicData(entries) {
 	}
 	if (rism) {
 		output = filterByField(output, "PRINCEPSRISM", rism);
+	}
+	if (ovoices) {
+		output = filterByField(output, "OVOICES", ovoices);
+	}
+	if (evoices) {
+		output = filterByField(output, "EXTANTVOICES", evoices);
 	}
 
 
@@ -480,6 +497,20 @@ function setupMusicBrowseCallbacks() {
 	var rismElement = document.querySelector("#browse-rism");
 	if (rismElement) {
 		rismElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var ovoicesElement = document.querySelector("#browse-ovoices");
+	if (ovoicesElement) {
+		ovoicesElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var evoicesElement = document.querySelector("#browse-evoices");
+	if (evoicesElement) {
+		evoicesElement.addEventListener("input", function() { 
 			fillMusicBrowsePage();
 		});
 	}

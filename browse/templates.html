@@ -10,6 +10,7 @@
 	table.music-browse-list td { padding-bottom: 7px; }
 	table.music-browse-list th { padding-bottom: 12px; }
 	table.music-browse-list tr:hover { background: #f5f5f5; }
+	table.music-browse-list tr td.voices { padding-left: 5px }
 </style>
 
 <script id="music-browse-template" type="text/x-handlebars-template">
@@ -18,7 +19,8 @@
 		<th onclick="sortByText(0)" style="width:130px; cursor:pointer; text-align:left">Catalog</th>
 		<th onclick="sortByText(1)" style="width:170px; cursor:pointer; text-align:left">Composer</th>
 		<th onclick="sortByText(2)" style="cursor:pointer; text-align:left">Title</th>
-		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left">Publication&nbsp;information</th>
+		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left">Publication&nbsp;information&nbsp;</th>
+		<th onclick="sortByVoice(4)" style="cursor:pointer; text-align:left">Voices</th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -27,6 +29,7 @@
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;"><nobr>{{shortName COMPOSER}}</nobr></td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'"><span title="{{{PRINCEPSTITLE}}}">{{pubInfo NORMLOC NORMPUBSHORT}}, {{PRINCEPSYEAR}}</span></td>
+			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
 		</tr>
 	{{/each}}
 
@@ -221,4 +224,48 @@ Handlebars.registerHelper("shortGenre", function(text) {
 	return new Handlebars.SafeString(text);
 });
 
+
+
+//////////////////////////////
+//
+// voices Handlebar helper  -- display original and extant voices.
+//
+
+Handlebars.registerHelper("voices", function(ovoice, evoice) {
+	if ((!ovoice) && (!evoice)) {
+		return new Handlebars.SafeString("");
+	}
+	if (!ovoice) {
+		ovoice = "";
+	}
+	if (ovoice.match(/alfabeto/)) {
+		ovoice = ovoice.replace(/\+?alfabeto/, "");
+	}
+	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
+	if (!evoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	if (!evoice) {
+		evoice = "";
+	}
+	evoice = evoice.replace(/\s*\+\s*/g, "+");
+	if (evoice.match(/alfabeto/)) {
+		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");
+	}
+	if (evoice === ovoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
+	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
+	if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
+		evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+	}
+	var text = ovoice + "(" + evoice + ")";
+	return new Handlebars.SafeString(text);
+});
+
 </script>
+
+
+
+

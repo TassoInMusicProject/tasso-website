@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		Rime = cgi.rime;
 	   displayLiterarySources(Rime, "#contents");
    } else if (cgi.id) {
-		var matches = cgi.id.match(/Trm0+(\d+)/);
+		var matches = cgi.id.match(/Trm(\d+)/);
 		if (matches) {
 			Rime = matches[1];
 	   	displayLiterarySources(Rime, "#contents");

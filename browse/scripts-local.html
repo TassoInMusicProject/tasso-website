@@ -368,6 +368,10 @@ function displayMusicBrowseEntries(entries) {
 		return;
 	}
 
+	if (entries.length == 0) {
+		element.innerHTML = "No matches";
+		return;
+	}
 	var tsource = document.querySelector("#music-browse-template").textContent;
 	var template = Handlebars.compile(tsource);
 	element.innerHTML = template(entries);
@@ -386,6 +390,10 @@ function displayLiteraryBrowseEntries(entries) {
 		return;
 	}
 
+	if (entries.length == 0) {
+		element.innerHTML = "No matches";
+		return;
+	}
 	var tsource = document.querySelector("#literary-browse-template").textContent;
 	var template = Handlebars.compile(tsource);
 	element.innerHTML = template(entries);

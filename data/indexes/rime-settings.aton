@@ -435,7 +435,7 @@
 @@END:		SETTING
 
 @@BEGIN:	SETTING
-@CATALOGNUM:	Trm0060c
+@CATALOGNUM:	Trm0060d
 @RIMETITLE:	Lunge da voi, mio core
 @SOLERTI:	60
 @COMPOSER:	Felis, Stefano
@@ -1758,7 +1758,7 @@
 
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0495b
-@RIMETITLE:	Se cosí dolce è il duolo
+@RIMETITLE:	Se così dolce è il duolo
 @SOLERTI:	495
 @COMPOSER:	Cifra, Antonio
 @COMDATES:	
@@ -3465,7 +3465,7 @@
 @@END:		SETTING
 
 @@BEGIN:	SETTING
-@CATALOGNUM:	Trm0060b
+@CATALOGNUM:	Trm0060c
 @RIMETITLE:	Lunge da voi, mio core
 @SOLERTI:	60
 @COMPOSER:	Fontanelli, Alfonso
@@ -3800,6 +3800,30 @@
 @OMENSURATION:	C
 @OKEYSIG:	
 @TIMPEDITOR:	Schleuse, Paul
+@NOTE:		
+@@END:		SETTING
+
+@@BEGIN:	SETTING
+@CATALOGNUM:	Trm0060b
+@RIMETITLE:	Lunge da voi, mio core
+@SOLERTI:	60
+@COMPOSER:	Fontanelli, Alfonso
+@COMDATES:	
+@PRINCEPSTITLE:	MS. F.1525
+@PRINCEPSLOC:	Modena
+@NORMLOC:	Modena
+@NORMPUB:	Dalle Donne
+@NORMPUBSHORT:	Dalle Donne
+@PRINCEPSPUB:	Dalle Donne
+@PRINCEPSYEAR:	1598
+@PRINCEPSRISM:	Biblioteca Estense Universitaria
+@REPRINTS:	
+@OVOICES:	5
+@EXTANTVOICES:	5
+@OCLEFS:	
+@OMENSURATION:	
+@OKEYSIG:	
+@TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
 

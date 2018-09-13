@@ -29,6 +29,7 @@
 		<th onclick="sortByText(event, 0)" style="cursor:pointer; padding-bottom:20px">Catalog&nbsp;#</th>
 		<th onclick="sortByText(event, 1)" style="cursor:pointer; text-align:left">Composer</th>
 		<th onclick="sortByPublication(event, 2)" style="cursor:pointer; text-align:left">Source</th>
+		<th onclick="sortByVoice(event, 3)" style="cursor:pointer; text-align:left">Voices</th>
 	<thead>
 	<tbody>
 	{{#WORKS}}
@@ -36,6 +37,7 @@
 	<td>{{CATALOGNUM}}</td>
 	<td><nobr>{{{shortComposer COMPOSER}}}</nobr></td>
 	<td>{{{printSource PRINCEPSTITLE NORMLOC PRINCEPSPUB PRINCEPSYEAR PRINCEPSFORMAT PRINCEPSAUTHOR}}}</td>
+	<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
 	</tr>
 	{{/WORKS}}
 	</tbody>
@@ -277,7 +279,7 @@ function sortByText(event, index) {
 		element = element.parentNode;
 	}
 	if (!element) {
-		returnl;
+		return;
 	}
 	var data = element.querySelectorAll(".data");
 	var datalist = [];
@@ -291,6 +293,54 @@ function sortByText(event, index) {
 		var result = A.localeCompare(B);
 		return result;
 	});
+	var body = element.querySelector("tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+//////////////////////////////
+//
+// sortByVoice -- Currently the same as sortByText, but may change in the future.
+//
+
+function sortByVoice(event, index) {
+	var selector;
+	var element = event.target;
+	while (element && (element.nodeName !== "TABLE")) {
+		element = element.parentNode;
+	}
+	if (!element) {
+		return;
+	}
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+
 	var body = element.querySelector("tbody");
 	body.innerHTML = "";
 	for (i=0; i<datalist.length; i++) {
@@ -332,6 +382,44 @@ console.log("ID=",cleanid, "NEXT", nextid, "PREV", previousid);
 		body.appendChild(datalist[i]);
 	}
 }
+
+//////////////////////////////
+//
+// voices Handlebar helper  -- display original and extant voices.
+//
+
+Handlebars.registerHelper("voices", function(ovoice, evoice) {
+	if ((!ovoice) && (!evoice)) {
+		return new Handlebars.SafeString("");
+	}
+	if (!ovoice) {
+		ovoice = "";
+	}
+	if (ovoice.match(/alfabeto/)) {
+		ovoice = ovoice.replace(/\+?alfabeto/, "");
+	}
+	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
+	if (!evoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	if (!evoice) {
+		evoice = "";
+	}
+	evoice = evoice.replace(/\s*\+\s*/g, "+");
+	if (evoice.match(/alfabeto/)) {
+		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");
+	}
+	if (evoice === ovoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
+	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
+	if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
+		evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+	}
+	var text = ovoice + "(" + evoice + ")";
+	return new Handlebars.SafeString(text);
+});
 
 </script>
 

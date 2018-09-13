@@ -37,7 +37,7 @@
 	<td>{{CATALOGNUM}}</td>
 	<td><nobr>{{{shortComposer COMPOSER}}}</nobr></td>
 	<td>{{{printSource PRINCEPSTITLE NORMLOC PRINCEPSPUB PRINCEPSYEAR PRINCEPSFORMAT PRINCEPSAUTHOR}}}</td>
-	<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
+	<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES CATALOGNUM}}}</td>
 	</tr>
 	{{/WORKS}}
 	</tbody>
@@ -388,13 +388,14 @@ console.log("ID=",cleanid, "NEXT", nextid, "PREV", previousid);
 // voices Handlebar helper  -- display original and extant voices.
 //
 
-Handlebars.registerHelper("voices", function(ovoice, evoice) {
+Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
 	if ((!ovoice) && (!evoice)) {
 		return new Handlebars.SafeString("");
 	}
 	if (!ovoice) {
 		ovoice = "";
 	}
+console.log("OVOICE", ovoice, "CATALOG", catalog);
 	if (ovoice.match(/alfabeto/)) {
 		ovoice = ovoice.replace(/\+?alfabeto/, "");
 	}

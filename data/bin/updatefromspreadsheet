@@ -91,6 +91,7 @@ sub updateIndex {
 		$output[@output] = $line;
 		if ($line =~ /^\@CATALOGNUM\s*:\s*([^\s]+)\s*$/) {
 			$catalognum = $1;
+#print "CATALOG $catalognum\n" if $catalognum =~ /Trm0284/;
 			next;
 		}
 		if ($line =~ /^\@\@END\s*:\s*SETTING\s*$/) {
@@ -101,9 +102,12 @@ sub updateIndex {
 		if ($line =~ /^\@([A-Za-z_0-9-]+)\s*:\s*(.*)\s*$/) {
 			my $key = $1;
 			my $value = $2;
+#print "\tPROCESSING $key == $value\n" if $catalognum =~ /Trm0284/;
 			my $index = $COLUMN{$key};
+#print "\t\tINDEX = $index\n" if $catalognum =~ /Trm0284/;
 			next if $index =~ /^\s*$/;
 			my $newvalue = getValue($catalognum, $index);
+#print "\t\tNEW VALUE = $newvalue\n" if $catalognum =~ /Trm0284/;
 			next if $newvalue =~ /^\s*$/;
 			if ($changesQ) {
 				if ($noemptiesQ && ($value =~ /^\s*$/)) {
@@ -114,6 +118,7 @@ sub updateIndex {
 			}
 			if ($value ne $newvalue) {
 				$output[-1] = "\@$key:\t$newvalue\n";
+#print "\t\tUPDATED ENTRY: $output[-1]\n" if $catalognum =~ /Trm0284/;
 			}
 		}
 	}

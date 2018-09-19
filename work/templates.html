@@ -169,10 +169,12 @@
 
 	<div style="height:300px; margin-top:-10px;" id="verovio-display"></div>
 
+	{{#if TIMPEDITOR}}
 	<h3>EDITOR</h3>
 	<div class="indent">
-		<div id="editor">Emiliano Ricciardi</div>
+		<div id="editor">{{editor TIMPEDITOR}}</div>
 	</div>
+	{{/if}}
 
 	<h3>Data Transformations for {{CATALOGNUM}}</h3>
 	<div class="indent">
@@ -434,6 +436,19 @@ Handlebars.registerHelper("id2rime", function(text) {
 	return new Handlebars.SafeString(output);
 });
 
+
+//////////////////////////////
+//
+// editor Handlebar helper -- Reverse name so first name is first.
+//
+
+Handlebars.registerHelper("editor", function(name) {
+	var matches;
+	if (matches = name.match(/^(.*),\s+(.*)$/)) {
+		name = matches[2] + " " + matches[1];
+	}
+	return new Handlebars.SafeString(name);
+});
 
 </script>
 

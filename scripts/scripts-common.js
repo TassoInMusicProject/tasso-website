@@ -1,16 +1,17 @@
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 // Creation Date: Thu Aug 21 12:59:01 PDT 2014
-// Last Modified: Mon Sep  1 22:01:13 PDT 2014
+// Last Modified: Sat Sep 22 13:15:27 PDT 2018
 // Filename:      .../scripts/scripts-common.js
 // Web Address:   http://josquin.stanford.edu/scripts/scripts-common.js
 // Syntax:        JavaScript 1.8/ECMAScript 5
 // vim:				ts=3: ft=javascript
 //
-// Description:   JRP-specific JavaScript functions common to all pages.
+// Description:   Site-wide useful JavaScript functions common to all pages.
 //
 
 // GLOBAL VARIABLES:
+var CGI = {};                              // CGI parameters from URL
 var WORKLIST;										 // Master index of works in JRP database.
 var WORKLISTrecent = [];						 // List of works reverse sorted by add date.
 var WORKLISTjrpid  = {};						 // Hash of works by JRP ID.
@@ -19,15 +20,39 @@ var PDFTARGET      = 'target="new"';		 // Display PDF files in separate tab/wind
 var AUDIO          = null;						 // HTML5 audio interface ID.
 var AUDIOjrpid     = '';  						 // currently playing audio file.
 var AUDIOid        = '';                   // currently playing audio button.
-var RIMEVERSELIST;      // list of poems with verse contents
-var RIMESETTINGLIST;    // list of poems without verse contents
-var GERUSETTINGLIST;    // list of poems without verse contents
-var AMINTASETTINGLIST;  // list of Aminta settings
-var OTHERSETTINGLIST;   // list of other settings
-var ALLSETTINGLIST;
+
 var LITLIST;            // list of literary sources
 var WORKLIST;           // list of musical settings
 var LASTTIME = -1;
+
+var TASSODATA;          // master data structure for database
+
+
+// VARIABLES EXTRACTED FROM TASSODATA object:
+
+var RIMESETTINGLIST;    // list of poems without verse contents
+                        // from TASSODATA.SETTINGS.RIME_SETTINGS
+var GERUSETTINGLIST;    // list of poems without verse contents
+                        // from TASSODATA.SETTINGS.GERUSALEMME_SETTINGS
+var AMINTASETTINGLIST;  // list of Aminta settings
+                        // from TASSODATA.SETTINGS.AMINTA_SETTINGS
+var OTHERSETTINGLIST;   // list of other settings
+                        // from TASSODATA.SETTINGS.OTHER_SETTINGS
+var ALLSETTINGLIST;     // collapse of all settings in
+                        // TASSODATA.SETTINGS object
+
+// sorces of poems, to be accessed by RIME number.
+var SOURCES;            // TASSODATA.SOURCES.SOURCE;
+
+// verses of poems
+var RIMEVERSELIST;      // list of poems with rime verse contents
+								// TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+var AMINTAVERSELIST;    // list of poems with aminta verse contents
+								// TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
+var GERUVERSELIST;      // list of poems with Gerusalemme liberata verse contents
+								// TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
+var OTHERVERSELIST;     // list of poems with Gerusalemme liberata verse contents
+								// TASSODATA.VERSES.OTHER_VERSES.VERSEDATA;
 
 
 // List of Key Codes.  More can be extracted from this page:
@@ -1179,6 +1204,95 @@ function ExternalLinksToNewTab() {
 			links[i].target = "_blank";
 		}
 	}
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+// TASSODATA PROCESSING FUNCTIONS
+// 
+
+//////////////////////////////
+//
+// LoadTassoData --
+//
+
+function LoadTassoData(fn) {
+	if (sessionStorage["TASSODATA"]) {
+		console.log("Loaded Tasso database from session storage");
+		TASSODATA = JSON.parse(sessionStorage.TASSODATA);
+		if (fn) {
+			fn();
+		}
+	} else {
+		var request = new XMLHttpRequest();
+		request.open("GET", "/data/indexes/tasso-data.aton");
+		request.send();
+		request.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				console.log("Loaded Tasso database from server");
+				var aton = new ATON;
+				TASSODATA = aton.parse(this.responseText).TASSODATA;
+				sessionStorage.TASSODATA = JSON.stringify(TASSODATA);
+				fn();
+			}
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// PrepareGlobalTassoObjects -- This function creates contents for global variables
+//    which are derived from TASSODATA structure;
+// var RIMESETTINGLIST;    // list of poems without verse contents
+//                         // from TASSODATA->SETTINGS->RIME_SETTINGS
+// var GERUSETTINGLIST;    // list of poems without verse contents
+//                         // from TASSODATA->SETTINGS->GERUSALEMME_SETTINGS
+// var AMINTASETTINGLIST;  // list of Aminta settings
+//                         // from TASSODATA->SETTINGS->AMINTA_SETTINGS
+// var OTHERSETTINGLIST;   // list of other settings
+//                         // from TASSODATA->SETTINGS->OTHER_SETTINGS
+// var ALLSETTINGLIST;     // collapse of all settings in
+//                         // TASSODATA->SETTINGS object
+//
+
+function PrepareGlobalTassoObjects() {
+	if (!TASSODATA) {
+		console.log("TASSODATA is not defined");
+		return;
+	}
+	if (!RIMESETTINGLIST) {
+		RIMESETTINGLIST = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
+	}
+	if (!GERUSETTINGLIST) {
+		GERUSETTINGLIST = TASSODATA.SETTINGS.GERUSALEMME_SETTINGS.SETTING;
+	}
+	if (!AMINTASETTINGLIST) {
+		AMINTASETTINGLIST = TASSODATA.SETTINGS.AMINTA_SETTINGS.SETTING;
+	}
+	if (!OTHERSETTINGLIST) {
+		OTHERSETTINGLIST = TASSODATA.SETTINGS.OTHER_SETTINGS.SETTING;
+	}
+	if (!ALLSETTINGLIST) {
+		ALLSETTINGLIST = RIMESETTINGLIST.concat(AMINTASETTINGLIST,
+			GERUSETTINGLIST, OTHERSETTINGLIST);
+	}
+	if (!SOURCES) {
+		SOURCES = TASSODATA.SOURCES.SOURCE;
+	}
+
+	if (!RIMEVERSELIST) {
+		RIMEVERSELIST = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+	}
+	if (!AMINTAVERSELIST) {
+		AMINTAVERSELIST = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
+	}
+	if (!GERUVERSELIST) {
+		GERUVERSELIST = TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
+	}
+
 }
 
 

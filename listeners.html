@@ -9,21 +9,8 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
-	var cgi = GetCgiParameters();
-	if (cgi.c) {
-		if (cgi.c === "gerusalemme") {
-			displayGerusalemmeList("#contents");
-		} else if (cgi.c === "aminta") {
-			displayAmintaList("#contents");
-		} else if (cgi.c === "other") {
-			displayOtherList("#contents");
-		} else {
-			displayRimeList("#contents");
-		}
-
-	} else {
-		displayRimeList("#contents");
-	}
+	CGI = GetCgiParameters();
+	LoadTassoData(displayFrontPage);
 });
 
 

@@ -1,0 +1,26 @@
+---
+---
+
+@
+@ This file collects all of the information about musical texts
+@ into a single file.  This file is then included into the
+@ tasso-data.aton file which is typically loaded onto webpages
+@ on the Tasso in Music website.
+@
+
+@@BEGIN: RIME_VERSES
+{% include_relative rime-verses.aton %}
+@@END: RIME_VERSES
+
+@@BEGIN: AMINTA_VERSES
+{% include_relative aminta-verses.aton %}
+@@END: AMINTA_VERSES
+
+@@BEGIN: GERUSALEMME_VERSES
+{% include_relative gerusalemme-verses.aton %}
+@@END: GERUSALEMME_VERSES
+
+@@BEGIN: OTHER_VERSES
+{% include_relative other-verses.aton %}
+@@END: OTHER_VERSES
+

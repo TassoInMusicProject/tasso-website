@@ -1,4 +1,42 @@
 @@ Original data: https://docs.google.com/spreadsheets/d/17B4A7GlUiN35JiZemIpZhXIMmnmf-JvvX4kKz6yehWU/edit#gid=764229578
+@@
+@@ Aminta musical settings index.
+@@
+@@ Description: This database lists musical settings of Torquato
+@@ Tasso's Aminta play written in 1573.
+@@
+@@ Catalog number: Each entry below is sorted by the TMP catalog number
+@@ for the setting.  Each setting is assigned a unique catalog number
+@@ in the form:
+@@     Tsg99888z
+@@ where "Tsg" means "Tasso Gerusalemme liberata", "99" is a two-digit number
+@@ matching canto number (prefixed as necessary with zeros), "888" is a
+@@ three-digit ottava number (prefixed as necessary with zeros), and "z" is
+@@ a unique setting letter.  Settings are typically, but not guarantted
+@@ to be sorted alphabetically by composer's last name.
+@@
+@@  data fields:
+@@   BEGIN: SETTING    This is the start of an Aminta setting entry
+@@   CATALOGNUM:    The TMP catalog number for the particular musical setting
+@@   ACT:           Act number in the play for the verses
+@@   SCENE:         Scene number in the play for the verses
+@@   VERSE:         Verse number for the verses
+@@   COMPOSER:      Name of composer in form  Last, First
+@@   COMDATES:      Composer Birth/Death/Flourish dates
+@@   PRINCEPSTITLE: Title of book the setting was first published
+@@   PRINCEPSLOC:   Location first edtion was published
+@@   PRINCEPSPUB:   Publisher of the first edition
+@@   PRINCEPSYEAR:  Publication year of the first edition
+@@   PRINCEPSRISM:  RISM number of the first edition
+@@   PARTS:         Which section of a multi part work the setting belongs to
+@@   REPRINTS:      RISM number(s) of later copies
+@@   VOICES:        Number of voices in setting (parentheses for extant voices)
+@@   OCLEFS:        List of original clefs (high to low on system)
+@@   OTIME:         Original mensuration
+@@   OKEYSIG:       Original keysignature
+@@   NOTE:          Free-form note about the work.
+@@   END: SETTING     This is the end of a rime setting entry
+@@
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1010001a

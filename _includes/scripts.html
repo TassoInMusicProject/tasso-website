@@ -5,11 +5,23 @@
 	<!-- page.handlebars is disabled "{{page.handlebars}}" -->
 {% endif %}
 
+
+
 {% if page.aton == true %}
 	<script src="/scripts/external/aton/aton.js"></script>
 {% else %}
 	<!-- page.aton is disabled "{{page.aton}}" -->
 {% endif %}
+
+
+
+{% if page.loadjs == true %}
+	<script src="/scripts/external/loadjs/loadjs.js"></script>
+{% else %}
+	<!-- page.loadjs is disabled "{{page.aton}}" -->
+{% endif %}
+
+
 
 {% include verovio.html %}
 

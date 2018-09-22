@@ -18,14 +18,14 @@
 @@@ Ecloghe                                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@BEGIN:	ECLOGHE
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec1001
 @ECLOGA:        I
 @VERSE:		1
 @TITLE:		Dimmi, mesto pastore	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	Licori
 @ABOUTEN:	Lycoris
 @EDITOR:	
@@ -46,16 +46,16 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		ECLOGHE
+@@END:		VERSEDATA
 
-@@BEGIN:	ECLOGHE
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec1089
 @ECLOGA:        I
 @VERSE:		89
 @TITLE:		Di che cantar degg'io	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	Tirsi
 @ABOUTEN:	Tyrsis
 @EDITOR:	
@@ -92,16 +92,16 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		ECLOGHE
+@@END:		VERSEDATA
 
-@@BEGIN:	ECLOGHE
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec2073
 @ECLOGA:        II
 @VERSE:		73
 @TITLE:		Ché qual tenera rosa	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	Arezia
 @ABOUTEN:	
 @EDITOR:	
@@ -128,17 +128,17 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		ECLOGHE
+@@END:		VERSEDATA
 
 
-@@BEGIN:	ECLOGHE
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec2082
 @ECLOGA:        II
 @VERSE:		82
 @TITLE:		Così la verginella	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
@@ -167,16 +167,16 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		ECLOGHE
+@@END:		VERSEDATA
 
-@@BEGIN:	ECLOGHE
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec3108
 @ECLOGA:        III
 @VERSE:		118
 @TITLE:		Non sospirar pastor, non sospirare 	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	Amarilli
 @ABOUTEN:	Amarillys
 @EDITOR:	
@@ -202,16 +202,16 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		ECLOGHE
+@@END:		VERSEDATA
 
-@@BEGIN:	ECLOGHE
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	
 @ECLOGA:        1
 @VERSE:
 @TITLE:			
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
@@ -229,20 +229,21 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		ECLOGHE
+@@END:		VERSEDATA
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Rinaldo                                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@BEGIN:	RINALDO
+
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tri5016
 @CANTO:        	V
 @OTTAVA:       	16	
 @TITLE:		"Lasso," dicea, "Perché venisti Amore
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
@@ -268,16 +269,16 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		RINALDO
+@@END:		VERSEDATA
 
-@@BEGIN:	RINALDO
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tri5018
 @CANTO:        	V
 @OTTAVA:       	18
 @TITLE:		Tu perfido signor, tu disleale	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
@@ -303,20 +304,21 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		RINALDO
+@@END:		VERSEDATA
 
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Lagrime della Beata Vergine                                         @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@BEGIN:	LAGRIME DELLA BEATA VERGINE
+
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	TTbv0002
 @STANZA:        2
 @TITLE:		Chiaro sol che rotondo esci dal Gange	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
@@ -342,13 +344,14 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		LAGRIME DELLA BEATA VERGINE
+@@END:		VERSEDATA
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Re Torrismondo                                                      @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@BEGIN:	RE TORRISMONDO
+
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Trt0506
 @ACT:        	V
 @OSCENE:       	6
@@ -356,7 +359,7 @@
 @TITLE:		Ahi lagrime! ahi dolore	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
@@ -395,21 +398,21 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		RE TORRISMONDO
+@@END:		VERSEDATA
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Gerusalemme conquistata                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@BEGIN:	GERUSALEMME CONQUISTATA
+@@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tco0806
 @CANTO:        	VIII
 @OTTAVA:       	6
 @TITLE:		Piange, e sospira; e quando i caldi raggi	
 @MANUSRC:	
 @PRINTSRC:	
-@@BEGIN:	
+@@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
 @EDITOR:	
@@ -435,7 +438,7 @@
 @DATING:	
 @DEDICATEE:	
 @COMMENTARY:    
-@@END:		GERUSALEMME CONQUISTATA
+@@END:		VERSEDATA
 
 
 

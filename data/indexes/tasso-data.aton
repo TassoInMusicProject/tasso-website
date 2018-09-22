@@ -1,0 +1,23 @@
+---
+---
+
+@
+@ This file collects all of the database information needed for 
+@ most pages on the Tasso in Music Project website.
+@
+
+@@BEGIN: TASSODATA
+
+@@BEGIN: SETTINGS
+{% include_relative all-settings.aton %}
+@@END: SETTINGS
+
+@@BEGIN: VERSES
+{% include_relative all-verses.aton %}
+@@END: VERSES
+
+@@BEGIN: SOURCES
+{% include_relative sources.aton %}
+@@END: SOURCES
+
+@@END: TASSODATA

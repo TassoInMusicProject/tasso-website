@@ -8,7 +8,7 @@
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 // Creation Date: Thu Mar 24 21:40:22 PDT 2016
-// Last Modified: Sun Mar 26 23:35:44 PDT 2017
+// Last Modified: Sat Sep 22 11:34:46 PDT 2018
 // Filename:      tasso/scripts-local.html
 // Web Address:   http://www.tassomusic.org/scripts-local.html
 // Syntax:        JavaScript 1.8/ECMAScript 5
@@ -19,6 +19,32 @@
 
 
 var RWORKLIST = {};
+
+
+////////////////////////////
+//
+// displayFrontPage --
+//
+
+function displayFrontPage() {
+	PrepareGlobalTassoObjects();
+console.log("GOT HERE OOO");
+	if (CGI && CGI.c) {
+		if (CGI.c === "gerusalemme") {
+			displayGerusalemmeList("#contents");
+		} else if (CGI.c === "aminta") {
+			displayAmintaList("#contents");
+		} else if (CGI.c === "other") {
+			displayOtherList("#contents");
+		} else {
+			displayRimeList("#contents");
+		}
+	} else {
+		displayRimeList("#contents");
+	}
+console.log("GOT HERE OOO");
+}
+
 
 
 
@@ -40,31 +66,10 @@ function displayRimeList(target) {
 
 	var counter = 0;
 
-	if (sessionStorage.RIMEVERSELIST) {
-		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
-		counter++;
-	}
-
 	if (sessionStorage.WORKLIST) {
 		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
 	   buildReverseWorklist();
 		counter++;
-	}
-
-	if (!RIMEVERSELIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_verses}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMEVERSELIST = aton.parse(this.responseText).RIME;
-			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
-			counter++;
-			if (counter == 2) {
-				continueProcessingRime(element, counter);
-				counter++;
-			}
-		});
-		request.send();
 	}
 
 	if (!WORKLIST) {
@@ -75,7 +80,7 @@ function displayRimeList(target) {
 	      buildReverseWorklist();
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
-			if (counter == 2) {
+			if (counter == 1) {
 				continueProcessingRime(element, counter);
 				counter++;
 			}
@@ -83,7 +88,7 @@ function displayRimeList(target) {
 		request.send();
 	}
 
-	if (counter == 2) {
+	if (counter == 1) {
 		continueProcessingRime(element);
 		counter++;
 	}
@@ -109,21 +114,6 @@ function displayAmintaList(target) {
 
 	var counter = 0;
 
-	if (sessionStorage.AMINTALIST) {
-		AMINTALIST = JSON.parse(sessionStorage.AMINTALIST);
-		counter++;
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "/data/indexes/aminta-settings.aton");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			AMINTALIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.AMINTALIST = JSON.stringify(AMINTALIST);
-			continueProcessingAminta(element);
-		});
-		request.send();
-	}
-
 	if (sessionStorage.WORKLIST) {
 		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
 	   buildReverseWorklist();
@@ -136,15 +126,15 @@ function displayAmintaList(target) {
 	      buildReverseWorklist();
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
-			if (counter == 2) {
-				continueProcessingRime(element);
+			if (counter == 1) {
+				continueProcessingAminta(element);
 				counter++;
 			}
 		});
 		request.send();
 	}
 
-	if (counter == 2) {
+	if (counter == 1) {
 		continueProcessingAminta(element);
 		counter++;
 	}
@@ -198,7 +188,7 @@ function displayOtherList(target) {
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
 			if (counter == 2) {
-				continueProcessingRime(element);
+				continueProcessingOther(element);
 				counter++;
 			}
 		});
@@ -231,21 +221,6 @@ function displayGerusalemmeList(target) {
 
 	var counter = 0;
 
-	if (sessionStorage.GLLIST) {
-		GLLIST = JSON.parse(sessionStorage.GLLIST);
-		counter++;
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "/data/indexes/gerusalemme-settings.aton");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			GLLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.GLLIST = JSON.stringify(GLLIST);
-			continueProcessingGL(element);
-		});
-		request.send();
-	}
-
 	if (sessionStorage.WORKLIST) {
 		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
 	   buildReverseWorklist();
@@ -258,7 +233,7 @@ function displayGerusalemmeList(target) {
 	      buildReverseWorklist();
 			sessionStorage.WORKLIST = this.responseText;
 			counter++;
-			if (counter == 2) {
+			if (counter == 1) {
 				continueProcessingGL(element);
 				counter++;
 			}
@@ -266,7 +241,7 @@ function displayGerusalemmeList(target) {
 		request.send();
 	}
 
-	if (counter == 2) {
+	if (counter == 1) {
 		continueProcessingGL(element);
 		counter++;
 	}
@@ -317,7 +292,7 @@ function continueProcessingGL(element) {
 	var tsource = document.querySelector("#gerusalemme-template")
 	                      .textContent;
 	var gerusalemmeTemplate = Handlebars.compile(tsource);
-	var cantolist = makeCantoList(GLLIST);
+	var cantolist = makeCantoList(GERUSETTINGLIST);
 	element.innerHTML = gerusalemmeTemplate(cantolist);
 	showTab("gl-heading");
 }
@@ -503,7 +478,7 @@ function continueProcessingAminta(element) {
 	var tsource = document.querySelector("#aminta-template")
 	                      .textContent;
 	var amintaTemplate = Handlebars.compile(tsource);
-	var amintalist = makeAmintaVerseList(AMINTALIST);
+	var amintalist = makeAmintaVerseList(AMINTASETTINGLIST);
 	element.innerHTML = amintaTemplate(amintalist);
 	showTab("aminta-heading");
 }

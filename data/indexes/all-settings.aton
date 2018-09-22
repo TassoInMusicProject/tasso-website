@@ -1,0 +1,26 @@
+---
+---
+
+@
+@ This file collects all of the information about musical settings
+@ into a single file.  This file is then included into the
+@ tasso-data.aton file which is typically loaded onto webpages
+@ on the Tasso in Music website.
+@
+
+@@BEGIN: RIME_SETTINGS
+{% include_relative rime-settings.aton %}
+@@END: RIME_SETTINGS
+
+@@BEGIN: AMINTA_SETTINGS
+{% include_relative aminta-settings.aton %}
+@@END: AMINTA_SETTINGS
+
+@@BEGIN: GERUSALEMME_SETTINGS
+{% include_relative gerusalemme-settings.aton %}
+@@END: GERUSALEMME_SETTINGS
+
+@@BEGIN: OTHER_SETTINGS
+{% include_relative other-settings.aton %}
+@@END: OTHER_SETTINGS
+

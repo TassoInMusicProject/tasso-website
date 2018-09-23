@@ -23,7 +23,12 @@
 
 
 
-{% include verovio.html %}
+{% if page.verovio == true %}
+	<script src="http://verovio-script.humdrum.org/scripts/verovio-toolkit.js"></script>
+{% else %}
+	<!-- page.verovio is disabled "{{page.verovio}}" -->
+{% endif %}
+
 
 
 {% if page.scripts-local == true %}

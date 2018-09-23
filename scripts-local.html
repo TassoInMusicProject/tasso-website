@@ -28,7 +28,6 @@ var RWORKLIST = {};
 
 function displayFrontPage() {
 	PrepareGlobalTassoObjects();
-console.log("GOT HERE OOO");
 	if (CGI && CGI.c) {
 		if (CGI.c === "gerusalemme") {
 			displayGerusalemmeList("#contents");
@@ -42,7 +41,6 @@ console.log("GOT HERE OOO");
 	} else {
 		displayRimeList("#contents");
 	}
-console.log("GOT HERE OOO");
 }
 
 

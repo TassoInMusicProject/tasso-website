@@ -44,6 +44,8 @@ var ALLSETTINGLIST;     // collapse of all settings in
 // sorces of poems, to be accessed by RIME number.
 var SOURCES;            // TASSODATA.SOURCES.SOURCE;
 
+var SCORES;             // TASSODATA.SCORES.SCORE;
+
 // verses of poems
 var RIMEVERSELIST;      // list of poems with rime verse contents
 								// TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
@@ -1279,8 +1281,12 @@ function PrepareGlobalTassoObjects() {
 		ALLSETTINGLIST = RIMESETTINGLIST.concat(AMINTASETTINGLIST,
 			GERUSETTINGLIST, OTHERSETTINGLIST);
 	}
+
 	if (!SOURCES) {
 		SOURCES = TASSODATA.SOURCES.SOURCE;
+	}
+	if (!SCORES) {
+		SCORES = TASSODATA.SCORES.SCOREDATA;
 	}
 
 	if (!RIMEVERSELIST) {
@@ -1293,8 +1299,87 @@ function PrepareGlobalTassoObjects() {
 		GERUVERSELIST = TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
 	}
 
+	InsertVersesIntoSettings();
+	InsertScoresIntoSettings();
+	InsertSourcesIntoSettings();
+
 }
 
+
+//////////////////////////////
+//
+// InsertVersesIntoSettings --
+//
+
+function InsertVersesIntoSettings() {
+
+	// inserting RIMEVERSELIST entries into RIMESETTINGLIST:
+	var RVERSE = {};
+	var i;
+	var vid;
+	for (i=0; i<RIMEVERSELIST.length; i++) {
+		vid = RIMEVERSELIST[i].CATALOGNUM;
+		RVERSE[vid] = RIMEVERSELIST[i];
+	}
+	for (i=0; i<RIMESETTINGLIST.length; i++) {
+		var id = RIMESETTINGLIST[i].CATALOGNUM;
+		var matches;
+		if (!(matches = id.match(/(^[A-Z][a-z][a-z]\d+)[a-z]+/))) {
+			continue;
+		}
+		vid = matches[1];
+		RIMESETTINGLIST[i].VERSEDATA = RVERSE[vid];
+	}
+
+}
+
+
+
+//////////////////////////////
+//
+// InsertScoresIntoSettings --
+//
+
+function InsertScoresIntoSettings() {
+
+	// inserting SCORES entries into RIMESETTINGLIST:
+	var RSCORES = {};
+	var i;
+	var id;
+	for (i=0; i<SCORES.length; i++) {
+		id = SCORES[i].CATALOGNUM;
+		RSCORES[id] = SCORES[i];
+	}
+	for (i=0; i<RIMESETTINGLIST.length; i++) {
+		var id = RIMESETTINGLIST[i].CATALOGNUM;
+		RIMESETTINGLIST[i].SCOREDATA = RSCORES[id];
+	}
+
+}
+
+
+
+//////////////////////////////
+//
+// InsertSourcesIntoSettings --
+//
+
+function InsertSourcesIntoSettings() {
+
+	// inserting SOURCES entries into RIMESETTINGLIST:
+	var RSOURCES = {};
+	var i;
+	var id;
+	for (i=0; i<SOURCES.length; i++) {
+		id = SOURCES[i].RISM;
+		RSOURCES[id] = SOURCES[i];
+	}
+	for (i=0; i<RIMESETTINGLIST.length; i++) {
+		var id = RIMESETTINGLIST[i].PRINCEPSRISM;
+		RIMESETTINGLIST[i].SOURCE = RSOURCES[id];
+	}
+
+}
 
 
 

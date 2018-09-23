@@ -176,6 +176,40 @@
 	</div>
 	{{/if}}
 
+	{{#if VERSEDATA.VERSES}}
+		<h3>TEXT AND TRANSLATION</h3>
+		{{{verses VERSEDATA.VERSES CATALOGNUM}}}
+
+		<ul style="margin-left:60px;">
+		<li> <a taget="new" href="/lyrics?id={{CATALOGNUM}}">Lyric text</a>: automatic extraction of sung text by voice with word counts.
+		</ul>
+	{{/if}}
+
+
+
+	{{#if EXTANTVOICES}}
+	<h3>VOICES</h3>
+	<div class="indent">
+		{{{voices EXTANTVOICES OVOICES}}}
+	</div>
+	{{/if}}
+	<div id="range"></div>
+
+	{{#if SOURCE}}
+	<h3>MUSICAL SOURCES</h3>
+	<div class="indent">
+		{{{sourceinfo SOURCE}}}
+	</div>
+	{{/if}}
+
+	<h3>CRITICAL REPORT</h3>
+	<div class="indent">
+		{{{criticalreport this}}}
+	</div>
+
+
+
+
 	<h3>Data Transformations for {{CATALOGNUM}}</h3>
 	<div class="indent">
 	<table class="downloads">
@@ -196,15 +230,31 @@
 
 		<td>
 			<ul>
-				<li> <a class="icon-list" 
+
+<!--
+				<li> 
+					<a class="icon-list" 
 					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=humdrum&f={{CATALOGNUM}}">Humdrum</a></li>
-				<li> <a class="icon-list" 
-					taget="new" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
+
+-->
+
+				<li> <a class="icon-list" target="new" href="{{SCOREDATA.URL}}">Humdrum</a></li>
+				<li> &nbsp;&nbsp;&nbsp;<a class="icon-list" target="new" href="{{SCOREDATA.URL}}"><i>on Github</i></a></li>
+				<li> &nbsp;&nbsp;&nbsp;<a class="icon-list" target="new" href="https://verovio.humdrum.org/?file={{SCOREDATA.URL}}"><i>in VHV</i></a></li>
+
+
+
+
 			</ul>
 		</td>
 
 		<td>
 			<ul>
+
+
+				<li> <a class="icon-list" 
+					taget="new" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
+
 				<li> <a class="icon-list" 
 					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
 				<li> <a class="icon-list" 
@@ -226,15 +276,12 @@
 	<h3 style="margin-top:0; patting-top:0;"> Analysis Tools </h3>
 
 	<ul style="margin-left:60px;">
-	<li> <a taget="new" href="/lyrics?id={{CATALOGNUM}}">Lyric text</a>: automatically extraction of sung text by voice with word counts.
 	<li> <a target="new" href="/proll?id={{CATALOGNUM}}">proll</a>: graphical notation of pitch and rhythm, colored by voice.
 	<li> <a target="new" href="http://verovio.humdrum.org/?tasso={{CATALOGNUM}}">VHV</a>: Load work into the Verovio Humdrum Viewer, an interactive online Humdrum editor.
 	</ul>
 
-	<div id="range"></div>
 
 
-  {{{verses VERSES TRANSLATION CATALOGNUM}}}
 
 	<span id="report_{{CATALOGNUM}}"></span>
 
@@ -257,7 +304,7 @@
 //     dimension as verses.
 //
 
-Handlebars.registerHelper("verses", function(verses, translation, catnum) {
+Handlebars.registerHelper("verses", function(verses, catnum) {
 	var rime = catnum.match(/Trm0*(\d+)/)[1];
 	
 	if (!verses) {
@@ -265,15 +312,17 @@ Handlebars.registerHelper("verses", function(verses, translation, catnum) {
 	}
 	var v;
 	var t;
-	var output = "<h3> Text and Translation";
-	output += "<span class='variant'>(";
-	output += "<a href='/variants?rime=";
-	output += rime;
-	output += "'>";
-	output += "go to text variants";
-	output += "</a>";
-	output += ")</span>";
-	output += "</h3>";
+	var output = "";
+	// var output = "<h3> TEXT AND TRANSLATION";
+	// output += "<span class='variant'>(";
+	// output += "<a href='/variants?rime=";
+	// output += rime;
+	// output += "'>";
+	// output += "go to text variants";
+	// output += "</a>";
+	// output += ")</span>";
+	// output += "</h3>";
+
 	output += "<div class='indent'>";
 	output += "<table class=poem>";
 	if (verses.VERSE instanceof Array) {
@@ -290,7 +339,7 @@ Handlebars.registerHelper("verses", function(verses, translation, catnum) {
 		}
 		output += "</td>";
 		output += "<td>";
-		t = translation.VERSE.split(/\n/);
+		t = verses.TVERSE.split(/\n/);
 		for (var i in t) {
 			if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
 			} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
@@ -447,9 +496,177 @@ Handlebars.registerHelper("editor", function(name) {
 	if (matches = name.match(/^(.*),\s+(.*)$/)) {
 		name = matches[2] + " " + matches[1];
 	}
+	if (name == "Emiliano Ricciardi") {
+		name += " (University of Massachusetts, Amherst)";
+	} else if (name == "Seth Coluzzi") {
+		name += " (Colgate University)";
+	} else if (name == "Catherine Deutsch") {
+		name += " (University of Paris, Sorbonne)";
+	} else if (name == "Daniel Donnelly") {
+		name += " (University of Toronto)";
+	} else if (name == "Roseen Giles") {
+		name += " (Duke University)";
+	} else if (name == "Marcello Mazzetti") {
+		name += " (University of Southampton)";
+	} else if (name == "Anthony Newcomb") {
+		name += " (University of California, Berkeley)";
+	} else if (name == "Oaul Schleuse") {
+		name += " (Binghamton University)";
+	} else if (name == "Livio Ticli") {
+		name += " (University of Southampton)";
+	}
+
 	return new Handlebars.SafeString(name);
 });
 
+
+
+//////////////////////////////
+//
+// voices Handlebar helper  -- display original and extant voices.
+//
+
+Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
+	if ((!ovoice) && (!evoice)) {
+		return new Handlebars.SafeString("");
+	}
+	if (!ovoice) {
+		ovoice = "";
+	}
+	if (ovoice.match(/alfabeto/)) {
+		ovoice = ovoice.replace(/\+?alfabeto/, "");
+	}
+	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
+	if (!evoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	if (!evoice) {
+		evoice = "";
+	}
+	evoice = evoice.replace(/\s*\+\s*/g, "+");
+	if (evoice.match(/alfabeto/)) {
+		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");
+	}
+	if (evoice === ovoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
+	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
+	if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
+		evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+	}
+	var text = ovoice + " (" + evoice + ")";
+	return new Handlebars.SafeString(text);
+});
+
+
+//////////////////////////////
+//
+// sourceinfo Handlebar helper  -- display original and extant voices.
+//
+
+Handlebars.registerHelper("sourceinfo", function(source) {
+	var text = "";
+	text += "<h4>Principal Source</h4>";
+	text += "<table class='sourceinfo'>";
+
+/*
+	if (source.TITLESHORT) {
+		text += "<tr><td>Title</td><td>";
+		text += source.TITLESHORT;
+		text += "</td></tr>";
+	}
+*/
+
+	if (source.TITLEPAGE) {
+		text += "<tr><td><nobr>Title page</nobr></td><td>";
+		var tp = source.TITLEPAGE.replace(/\s*\/\s*/g, "<br>");
+		text += "<div style='margin-left: -20px; background-color:#f5f5f5; padding:8px; text-align:center;'>";
+		text += "<nobr>";
+		text += tp;
+		text += "</nobr>";
+		text += "</div>";
+		text += "</td></tr>";
+	} else if (source.TITLESHORT) {
+		text += "<tr><td><nobr>Title</nobr></td><td>";
+		text += source.TITLESHORT;
+		text += "</td></tr>";
+	}
+
+	if (source.EXTPARTBOOKS) {
+		text += "<tr><td><nobr>Extant part-books</nobr></td><td>";
+		text += source.EXTPARTBOOKS;
+		text += "</td></tr>";
+	}
+
+	if (source.RISM) {
+		var rism = source.RISM;
+		var xtitle = "";
+		if (rism.match(/^[A-Z] /)) {
+			xtitle = "A/I";
+		} else if (rism.match(/^\d\d\d\d/)) {
+			xtitle = "B/I";
+		}
+		text += "<tr><td>RISM " + xtitle + "</td><td>";
+		text += rism;
+		text += "</td></tr>";
+	}
+
+	if (source.SRCLOCSIGLA) {
+		text += "<tr><td><nobr>Library siglum</nobr></td><td>";
+		text += source.SRCLOCSIGLA;
+		if (source.SRCURL) {
+			text += "(<a target='new' href='" + source.SRCURL + "'>view source online</a>)";
+		}
+		text += "</td></tr>";
+	}
+
+	text += "</table>";
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// criticalreport Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("criticalreport", function(setting) {
+	var text = "";
+	text += "<table class='sourceinfo'>";
+
+	if (setting.OCLEFS) {
+		var oclefs = setting.OCLEFS.replace(/,\s*/g, ", ");
+		text += "<tr><td><nobr>Original Clefs</nobr></td><td>";
+		text += oclefs;
+		text += "</td></tr>";
+	}
+
+	if (setting.OMENSURATION) {
+		var mensuration = setting.OMENSURATION;
+		text += "<tr><td style='padding-top:8px;'><nobr>Mensuration sign</nobr></td><td>";
+		text += "<span style='display:inline-block; margin-top:-10px; font-size:150%'>";
+		// C or Cut-C: convert to c and  c|
+		if (mensuration === "C") {
+			text += "c";
+		} else if (mensuration === "Cut-C") {
+			text += "c<span style='position:relative; top:1px; margin-left:-0.30em'>|</span>";
+		} else {
+			// deal with other mensuration signs here, such as O
+			text += mensuration;
+		}
+		text += "</span>";
+		text += "</td></tr>";
+	}
+
+
+	text += "</table>";
+	return new Handlebars.SafeString(text);
+});
+
+
 </script>
+
 
 

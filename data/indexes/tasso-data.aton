@@ -20,4 +20,8 @@
 {% include_relative sources.aton %}
 @@END: SOURCES
 
+@@BEGIN: SCORES
+{% include_relative all-scores.aton %}
+@@END: SCORES
+
 @@END: TASSODATA

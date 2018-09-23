@@ -4,7 +4,7 @@ style-local: true
 handlebars: true
 aton: true
 jquery: true
-verovio: asm
+verovio: true
 pdfkit: true
 vim: ts=3
 permalink: /work/index.html

@@ -3,6 +3,10 @@
 # worklist: The worklist needs to be updated every time a work is added.
 # Type "make worklist" to download the new work list.
 
+si: scoreindex
+scoreindex:
+	../bin/makescoresaton ../../../tasso-scores/Trm/kern/*.krn ../../../tasso-scores/Tam/kern/*.krn > all-scores.aton
+
 worklist:
 	-cp -i worklist.json worklist-old.json
 	wget 'http://josquin.stanford.edu/cgi-bin/tasso?a=worklist-json-dynamic' -O worklist.json

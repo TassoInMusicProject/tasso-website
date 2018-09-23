@@ -5,9 +5,29 @@
 <script src="/scripts/scripts-worknav.js"></script>
 
 {% include_relative templates.html %}
-{% include_relative templates-report.html %}
+<!-- include_relative templates-report.html -->
 
 {% include_relative listeners.html %}
+
+<style>
+table.sourceinfo {
+	/* width: 100%; */
+	margin-left: 75px;
+}
+
+table.sourceinfo tr {
+}
+
+table.sourceinfo td {
+	vertical-align: top;
+	padding-bottom: 15px;
+}
+
+table.sourceinfo td:first-child {
+	width: 200px;
+	font-weight: bold;
+}
+</style>
 
 <script>
 //
@@ -23,6 +43,7 @@
 
 var REPORT = {};
 var SIGLALIST = {};
+var SETTING = {};
 
 var TIMEMAP = {};
 var QEVENTS = [];
@@ -229,6 +250,7 @@ function interpolateTstamp(timemap, qtime) {
 
 
 
+/*
 //////////////////////////////
 //
 // loadWorkList --
@@ -317,6 +339,7 @@ function loadWorkList(url) {
 	}
 }
 
+*/
 
 
 //////////////////////////////
@@ -325,6 +348,7 @@ function loadWorkList(url) {
 //
 
 function continueSetup() {
+	PrepareGlobalTassoObjects();
 	if (ID) {
 		displaySingleWork(ID)
 	} else {
@@ -375,21 +399,26 @@ function displaySingleWork(id, target) {
 		return;
 	}
 
+/*
 	workinfo = getWorkInfo(id);
 	if (!workinfo) {
 		console.log("Error: no workinfo: ", id);
 		return;
 	}
+*/
 	if (!target) {
 		target = "#contents";
 	}
-	var setting = GetSettingEntry(id);
-	var work = GetWorkEntry(id);
-	setting.ih = work.ih;
-	setting.TITLE = work.title;
+	SETTING = GetSettingEntry(id);
+console.log("ID", id, "SETTING", SETTING);
+	// var work = GetWorkEntry(id);
+	// SETTING.ih = work.ih;
+	if (!SETTING.TITLE) {
+		SETTING.TITLE = SETTING.RIMETITLE;
+	}
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
-	var output = singleTemplate(setting);
+	var output = singleTemplate(SETTING);
 	document.title = ID + " workpage";
 	element.innerHTML = output;
 	displayPartNumbers(id);
@@ -397,12 +426,11 @@ function displaySingleWork(id, target) {
 	displayIncipit(id);
 	getHumdrum(id);
 	getRange(id);
-	getCriticalNotes(id);
-	var cgi = GetCgiParameters();
-	if (cgi.q) {
+	// getCriticalNotes(id);
+	if (CGI.q) {
 		var query = document.querySelector("#query");
 		if (query) {
-			query.value = cgi.q;
+			query.value = CGI.q;
 			processMusicSearch();
 		}
 	}
@@ -421,15 +449,9 @@ function displayPartNumbers(id) {
 		return;
 	}
 	var vcount = 0;
-	var works = WORKLIST[0].works;
-	var vabbr;
-	var i;
-	for (i=0; i<works.length; i++) {
-		if (works[i].id === id) {
-			vabbr = works[i].vabbr;
-			vcount = vabbr.length;
-		}
-	}
+	// var works = WORKLIST[0].works;
+	var vabbr = SETTING.SCOREDATA.VABBR;
+	var vcount = SETTING.SCOREDATA.VABBR.length;
 	if (!vabbr) {
 		return;
 	}
@@ -445,6 +467,7 @@ function displayPartNumbers(id) {
 	//	"&#x2787;",
 	//	"&#x2788;"
 	//];
+	var i;
 	output += "<div style='font-size:1.5em;'>";
 	output += "<nobr>";
 	for (i=0; i<vcount; i++) {
@@ -976,7 +999,9 @@ function getHumdrum(id) {
 		initializeVerovioNotation("humdrum-data", "verovio-display");
 	} else {
 		var action = "humdrum";
-		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		var url = SETTING.SCOREDATA.URL;
+console.log("URL = ", url);
+		// var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
@@ -990,8 +1015,8 @@ function getHumdrum(id) {
 		request.send()
 	}
 
-	getHumdrumNoRecurse(ORDER[id].next);
-	getHumdrumNoRecurse(ORDER[id].previous);
+	// ggg getHumdrumNoRecurse(ORDER[id].next);
+	// ggg getHumdrumNoRecurse(ORDER[id].previous);
 }
 
 
@@ -1073,8 +1098,8 @@ function getRange(id) {
 		request.send()
 	}
 
-	getRangeNoRecurse(ORDER[id].next);
-	getRangeNoRecurse(ORDER[id].previous);
+	// ggg getRangeNoRecurse(ORDER[id].next);
+	// ggg getRangeNoRecurse(ORDER[id].previous);
 }
 
 
@@ -1121,6 +1146,7 @@ function getRangeNoRecurse(id) {
 
 
 
+/*
 //////////////////////////////
 //
 // getWorkInfo --
@@ -1140,6 +1166,7 @@ function getWorkInfo(id) {
 		}
 	}
 }
+*/
 
 
 
@@ -1613,6 +1640,7 @@ function processTextSearch(event) {
 //
 // generatePdfFull -- Write a multi-page PDF of the full score in the text editor.
 //
+
 function generatePdfFull(event) {
 	event.preventDefault();
 

@@ -383,6 +383,8 @@ console.log("ID=",cleanid, "NEXT", nextid, "PREV", previousid);
 	}
 }
 
+
+
 //////////////////////////////
 //
 // voices Handlebar helper  -- display original and extant voices.
@@ -395,7 +397,6 @@ Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
 	if (!ovoice) {
 		ovoice = "";
 	}
-console.log("OVOICE", ovoice, "CATALOG", catalog);
 	if (ovoice.match(/alfabeto/)) {
 		ovoice = ovoice.replace(/\+?alfabeto/, "");
 	}

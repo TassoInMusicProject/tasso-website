@@ -87,6 +87,10 @@ Franco Piperno (University of Rome)
 </div>
 
 <div class="person">
+Laurent Pugin (Swiss RISM)
+</div>
+
+<div class="person">
 Eugenio Refini (Johns Hopkins University)
 </div>
 

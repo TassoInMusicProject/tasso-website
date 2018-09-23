@@ -306,7 +306,6 @@
 
 Handlebars.registerHelper("verses", function(verses, catnum) {
 	var rime = catnum.match(/Trm0*(\d+)/)[1];
-	
 	if (!verses) {
 		return "";
 	}
@@ -326,10 +325,28 @@ Handlebars.registerHelper("verses", function(verses, catnum) {
 	output += "<div class='indent'>";
 	output += "<table class=poem>";
 	if (verses.VERSE instanceof Array) {
-		output += "<tr>";
-		output += "<td>";
-		output += verses.VERSE.length
+		var vv = verses.VERSE;
+		var tt = verses.TVERSE;
+		for (var q=0; q<vv.length; q++) {
+			output += "<tr>";
+			output += "<td>";
+			v = vv[q].split(/\n/);
+			for (var i in v) {
+				if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+			}
+			output += "</td>";
+			output += "<td>";
+			t = tt[q].split(/\n/);
+			for (var i in t) {
+				if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+			}
+			output += "</td>";
+			output += "</tr>";
+		}
 	} else {
+
 		output += "<tr>";
 		output += "<td>";
 		v = verses.VERSE.split(/\n/);
@@ -346,6 +363,7 @@ Handlebars.registerHelper("verses", function(verses, catnum) {
 		}
 		output += "</td>";
 		output += "</tr>";
+
 	}
 	output += "</table>";
 	output += "</div>";

@@ -631,7 +631,14 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 	}
 
 	if (source.SRCLOCSIGLA) {
-		text += "<tr><td><nobr>Library siglum</nobr></td><td>";
+		var sigla = source.SRCLOCSIGLA;
+		text += "<tr><td><nobr>Library ";
+		if (sigla.match(/,/)) {
+			text += "sigla";
+		} else {
+			text += "siglum";
+		}
+		text += "</nobr></td><td>";
 		text += source.SRCLOCSIGLA;
 		if (source.SRCURL) {
 			text += "(<a target='new' href='" + source.SRCURL + "'>view source online</a>)";
@@ -663,7 +670,7 @@ Handlebars.registerHelper("criticalreport", function(setting) {
 
 	if (setting.OMENSURATION) {
 		var mensuration = setting.OMENSURATION;
-		text += "<tr><td style='padding-top:8px;'><nobr>Mensuration sign</nobr></td><td>";
+		text += "<tr><td style='padding-top:5px;'><nobr>Mensuration sign</nobr></td><td>";
 		text += "<span style='display:inline-block; margin-top:-10px; font-size:150%'>";
 		// C or Cut-C: convert to c and  c|
 		if (mensuration === "C") {

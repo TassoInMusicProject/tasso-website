@@ -89,14 +89,14 @@ function displayPreviousSource() {
 //
 
 function displayLiteraryVariants(id, target) {
+	PrepareGlobalTassoObjects();
 	if (!target) {
 		target = "#contents";
 	}
 	if (id) {
 		id = id.replace(/[a-z]$/, "");
+		CurrentPoem = id;
 	}
-	CurrentPoem = id;
-
 
 	var element = document.querySelector(target);
 	if (!element) {
@@ -113,39 +113,12 @@ function getPoemList(id, target) {
 		CurrentPoem = id;
 	}
 
-	var counter = 0;
-	var maxcount = 1;
+//	buildPoemList(RIMEVERSELIST);
+//	reallyDisplayVariants(CurrentPoem, target);
 
-	if (sessionStorage.RIMEVERSELIST &&
-				(sessionStorage.RIMEVERSELIST != "undefined")) {
-		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
-		buildPoemList(RIMEVERSELIST);
-		reallyDisplayVariants(CurrentPoem, target);
-	} else if ((!sessionStorage.RIMEVERSELIST) ||
-				(sessionStorage.RIMEVERSELIST === "undefined")) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_verses}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMEVERSELIST = aton.parse(this.responseText).RIME;
-			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(CurrentPoem, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == maxcount) {
-		buildAllSettingList();
-		buildPoemList(ALLSETTINGLIST);
-		reallyDisplayVariants(id, target);
-		counter++;
-	}
+	buildAllSettingList();
+	buildPoemList(ALLSETTINGLIST);
+	reallyDisplayVariants(id, target);
 }
 
 
@@ -524,7 +497,6 @@ function setNextPreviousPoem(rime) {
 //
 
 function initializeTooltips() {
-console.log("GOT INTO INITIALIZETOOLTIPS");
    var footnotes = document.querySelectorAll(".footnote");
    if (footnotes.length == 0) {
       return;

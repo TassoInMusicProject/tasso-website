@@ -8,21 +8,23 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
-	var cgi = GetCgiParameters();
-	if (cgi.rime) {
+	CGI = GetCgiParameters();
+	if (CGI.rime) {
 		var id = "Trm";
-		if (cgi.rime < 1000) { id += "0"; }
-		if (cgi.rime < 100)  { id += "0"; }
-		if (cgi.rime < 10)   { id += "0"; }
-		id += cgi.rime;
+		if (CGI.rime < 1000) { id += "0"; }
+		if (CGI.rime < 100)  { id += "0"; }
+		if (CGI.rime < 10)   { id += "0"; }
+		id += CGI.rime;
 		CurrentPoem = id;
-	   displayLiteraryVariants(id, "#contents");
-	} else if (cgi.id) {
-			CurrentPoem = cgi.id;
-	   	displayLiteraryVariants(cgi.id, "#contents");
+	   // displayLiteraryVariants(id, "#contents");
+	} else if (CGI.id) {
+			CurrentPoem = CGI.id;
+	   	// displayLiteraryVariants(CGI.id, "#contents");
 	} else {
-	   displayLiteraryVariants(0, "#contents");
+		CurrentPoem = 0;
+	   // displayLiteraryVariants(0, "#contents");
 	}
+	LoadTassoData(displayLiteraryVariants);
 	initializeTooltips();
 });
 

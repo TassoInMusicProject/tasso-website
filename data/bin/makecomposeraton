@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+# https://docs.google.com/spreadsheets/d/1YcaAQc-mxFFDWyOsT7HOlwZkEqB4rPEuOzXCMTKprMc/edit#gid=2068334514
+my @spreadsheet = <>;
+
+for (my $i=1; $i<@spreadsheet; $i++) {
+	createComposerEntry($spreadsheet[$i]);
+}
+
+sub createComposerEntry {
+	my ($line) = @_;
+	chomp $line;
+	my @data = split(/\t/, $line);
+	
+	# Hardwired indexes, so be careful if spreadsheet columns are rearranged:
+	my $Icomposer     = 0;
+	my $Ialiases      = 1;
+	my $Ihumdrumbirth = 2;
+	my $Ihumdrumdeath = 3;
+	my $Iprintdates   = 4;
+	my $Iarea         = 5;
+	my $Inote         = 7;
+	my $Iurl          = 8;
+
+	my $composer      = $data[$Icomposer];
+	my $aliases       = $data[$Ialiases];
+	my $humdrumbirth  = $data[$Ihumdrumbirth];
+	my $humdrumdeath  = $data[$Ihumdrumdeath];
+	my $printdates    = $data[$Iprintdates];
+	my $area          = $data[$Iarea];
+	my $note          = $data[$Inote];
+	my $url           = $data[$Iurl];
+
+print <<"EOT";
+\@\@BEGIN:	COMPOSERDATA
+\@COMPOSER:	$composer
+\@ALIASES:	$aliases
+\@HUMBIRTH:	$humdrumbirth
+\@HUMDEATH:	$humdrumdeath
+\@DATES:		$printdates
+\@AREA:		$area
+\@NOTE:		$note
+\@COMURL:	$url
+\@\@END:		COMPOSERDATA
+
+EOT
+
+}
+
+

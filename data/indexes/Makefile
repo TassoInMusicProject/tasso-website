@@ -3,6 +3,11 @@
 # worklist: The worklist needs to be updated every time a work is added.
 # Type "make worklist" to download the new work list.
 
+com: composer
+composers: composer
+composer:
+	../bin/makecomposeraton composer.ss > composers.aton
+
 si: scoreindex
 scoreindex:
 	../bin/makescoresaton ../../../tasso-scores/Trm/kern/*.krn ../../../tasso-scores/Tam/kern/*.krn > all-scores.aton

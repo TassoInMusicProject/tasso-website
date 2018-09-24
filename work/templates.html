@@ -78,7 +78,6 @@
 
 	<table  class="notation-toolbar">
 	<tr style="padding:0">
-
 	<td style="width:10px; margin-left:5px !important;">
 		<div id="audio_{{CATALOGNUM}}" title="play (space)" 
 				style="position:relative; left:-5px; top:0px; cursor:pointer;" 
@@ -87,18 +86,15 @@
 			play
 		</div>
 	</td>
-
 	<td>
 		<div id="expand" style="text-align: center; font-size: 160%; position: relative; left:-14px; cursor:pointer" onclick="toggleIncipit()">
 			e
 		</div>
 	</td>
-
 	<td style="min-width: 200px;">
 		<div style="position:relative; top:-5px;" id="voice-buttons">
 		</div>
 	</td>
-
 	<td>
 		<div style="padding-left:10px">
 			<input id="query" onkeyup="processMusicSearch(event)" 
@@ -107,7 +103,6 @@
 			<div id="search-counts"></div>
 		</div>
 	</td>
-
 	<td width="100%">
 		<div style="padding-left:10px">
 			<input id="query-text" onkeyup="processTextSearch(event)" 
@@ -116,7 +111,6 @@
 			<div id="search-counts"></div>
 		</div>
 	</td>
-
 	<td>
 		<div style="position:relative; top: 0px; left: -20px;">
 		<nobr>
@@ -135,12 +129,10 @@
 		</nobr>
 		</div>
 	</td>
-
 	<td>
 	<div style="position:relative; top:-5px;" id="other-buttons">
 		<div style='font-size:1.5em;'>
 			<nobr>
-
 				<span id='text' class='text-icon' onclick='toggleText()'>
 					<span class='fa-stack fa-3x'>
 						<i class='fa fa-circle fa-stack-2x'></i>
@@ -149,7 +141,6 @@
 						</strong>
 					</span>
 				</span>
-
 				<span id='original' class='mens-icon' onclick='toggleMensuration()'>
 					<span class='fa-stack fa-3x'>
 						<i class='fa fa-circle fa-stack-2x'></i>
@@ -158,34 +149,73 @@
 						</strong>
 					</span>
 				</span>
-
 			</nobr>
 		</div>
 	</div>
 	</td>
-
 	</tr>
 	</table>
 
-	<div style="height:300px; margin-top:-10px;" id="verovio-display"></div>
+	<div style="height:300px; margin-bottom:20px; margin-top:-10px;" id="verovio-display"></div>
+
+	<table class="downloads">
+	<tr>
+		<td>
+			<ul>
+				<li> <a class="icon-file" onclick="generatePdfFull(event)" href="#">PDF</a></li>
+				<li> <a class="icon-midi"      
+					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
+				<li> <a class="icon-file-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li> <a class="icon-list" target="new" href="{{SCOREDATA.DATAURL}}">Humdrum</a></li>
+				<li> <nobr><a class="icon-list" target="new" href="{{SCOREDATA.EDITURL}}">Humdrum (Github)</a></nobr></li>
+				<li> <a class="icon-list" target="new" href="https://verovio.humdrum.org/?file={{SCOREDATA.DATAURL}}"><nobr>Humdrum (VHV)</nobr></a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li> <a class="icon-list" 
+					taget="new" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
+				<li> <a class="icon-list" 
+					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li> <a class="icon-list" target="new" href="/proll?id={{CATALOGNUM}}">Piano Roll</a></li>
+			</ul>
+		</td>
+	</tr>
+	</table>
+
+	{{#if COMPOSER}}
+	<h3>COMPOSER</h3>
+	<div class="indent">
+		<div id="composer">{{{composer COMPOSERDATA}}}</div>
+	</div>
+	{{/if}}
 
 	{{#if TIMPEDITOR}}
 	<h3>EDITOR</h3>
 	<div class="indent">
-		<div id="editor">{{editor TIMPEDITOR}}</div>
+		<div id="editor">{{{editor TIMPEDITOR}}}</div>
 	</div>
 	{{/if}}
 
-	{{#if VERSEDATA.VERSES}}
 		<h3>TEXT AND TRANSLATION</h3>
-		{{{verses VERSEDATA.VERSES CATALOGNUM}}}
+	<!--
+		%%%verses VERSEDATA.VERSES CATALOGNUM%%%
+	-->
 
-		<ul style="margin-left:60px;">
-		<li> <a taget="new" href="/lyrics?id={{CATALOGNUM}}">Lyric text</a>: automatic extraction of sung text by voice with word counts.
-		</ul>
-	{{/if}}
-
-
+	<div class="indent">
+		<p><a taget="new" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts.</p>
+	</div>
 
 	{{#if EXTANTVOICES}}
 	<h3>VOICES</h3>
@@ -206,82 +236,6 @@
 	<div class="indent">
 		{{{criticalreport this}}}
 	</div>
-
-
-
-
-	<h3>Data Transformations for {{CATALOGNUM}}</h3>
-	<div class="indent">
-	<table class="downloads">
-	<tr>
-		<td>
-			<ul>
-<!--
-				<li> <a class="icon-file"      
-					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notation&f={{CATALOGNUM}}">PDF&nbsp;score</a></li>
--->
-				<li> <a class="icon-file" onclick="generatePdfFull(event)" href="#">PDF&nbsp;score</a></li>
-				<li> <a class="icon-midi"      
-					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
-				<li> <a class="icon-file-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
-			</ul>
-		</td>
-
-		<td>
-			<ul>
-
-<!--
-				<li> 
-					<a class="icon-list" 
-					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=humdrum&f={{CATALOGNUM}}">Humdrum</a></li>
-
--->
-
-				<li> <a class="icon-list" target="new" href="{{SCOREDATA.URL}}">Humdrum</a></li>
-				<li> &nbsp;&nbsp;&nbsp;<a class="icon-list" target="new" href="{{SCOREDATA.URL}}"><i>on Github</i></a></li>
-				<li> &nbsp;&nbsp;&nbsp;<a class="icon-list" target="new" href="https://verovio.humdrum.org/?file={{SCOREDATA.URL}}"><i>in VHV</i></a></li>
-
-
-
-
-			</ul>
-		</td>
-
-		<td>
-			<ul>
-
-
-				<li> <a class="icon-list" 
-					taget="new" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
-
-				<li> <a class="icon-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
-				<li> <a class="icon-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
-<!--
-				<li> <a class="icon-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notearray&f={{CATALOGNUM}}">NoteArray</a></li>
-				<li> <a class="icon-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=proll&f={{CATALOGNUM}}">Piano Roll</a></li>
--->
-			</ul>
-		</td>
-
-	</tr>
-	</table>
-	</div>
-
-
-	<h3 style="margin-top:0; patting-top:0;"> Analysis Tools </h3>
-
-	<ul style="margin-left:60px;">
-	<li> <a target="new" href="/proll?id={{CATALOGNUM}}">proll</a>: graphical notation of pitch and rhythm, colored by voice.
-	<li> <a target="new" href="http://verovio.humdrum.org/?tasso={{CATALOGNUM}}">VHV</a>: Load work into the Verovio Humdrum Viewer, an interactive online Humdrum editor.
-	</ul>
-
-
-
 
 	<span id="report_{{CATALOGNUM}}"></span>
 
@@ -541,6 +495,59 @@ Handlebars.registerHelper("editor", function(name) {
 
 //////////////////////////////
 //
+// composer Handlebar helper -- Reverse name so first name is first.
+//
+
+Handlebars.registerHelper("composer", function(composerdata) {
+	if (!composerdata) {
+		return new Handlebars.SafeString("");
+	}
+	var cd = composerdata;
+	var name = cd.COMPOSER;
+
+	var matches;
+	if (matches = name.match(/^(.*),\s+(.*)$/)) {
+		name = matches[2] + " " + matches[1];
+	}
+
+	if (cd.COMURL) {
+		name = "<a target='new' href='" + cd.COMURL + "'>" + name + "</a>";
+	}
+
+	var date = "";
+	if (!cd.DATES.match(/^\s*$/)) {
+		date += "(" + cd.DATES + ")";
+	}
+	date = date.replace(/-/g, "&ndash;");
+	var output = name + " " + date;
+
+	var oinfo = "";
+	if (cd.ALIASES) {
+		oinfo += "<tr><td>Aliases</td><td>" + cd.ALIASES + "</td></tr>";
+	}
+	if (cd.AREA) {
+		if (cd.AREA.match(/,/)) {
+			oinfo += "<tr><td>Active Areas</td><td>" + cd.AREA + "</td></tr>";
+		} else {
+			oinfo += "<tr><td>Active Area</td><td>" + cd.AREA + "</td></tr>";
+		}
+	}
+	if (cd.NOTE) {
+		oinfo += "<tr><td>Note</td><td>" + cd.NOTE + "</td></tr>";
+	}
+	if (!oinfo.match(/^\s*$/)) {
+		oinfo = "<table style='margin-top:12px; margin-left:0 !important;' class='sourceinfo'>" + oinfo + "</table>";
+	}
+
+	output += oinfo;
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
 // voices Handlebar helper  -- display original and extant voices.
 //
 
@@ -585,7 +592,7 @@ Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
 
 Handlebars.registerHelper("sourceinfo", function(source) {
 	var text = "";
-	text += "<h4>Principal Source</h4>";
+	text += "<h4>PRINCIPAL SOURCE</h4>";
 	text += "<table class='sourceinfo'>";
 
 /*

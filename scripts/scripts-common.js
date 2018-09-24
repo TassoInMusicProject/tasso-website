@@ -1289,10 +1289,8 @@ function PrepareGlobalTassoObjects() {
 		SCORES = TASSODATA.SCORES.SCOREDATA;
 	}
 
-console.log("GOT HERE III", RIMEVERSELIST, TASSODATA);
 	if (!RIMEVERSELIST) {
 		RIMEVERSELIST = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
-console.log("SET RIMEVERSELIST TO", RIMEVERSELIST);
 	}
 	if (!AMINTAVERSELIST) {
 		AMINTAVERSELIST = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
@@ -1304,7 +1302,7 @@ console.log("SET RIMEVERSELIST TO", RIMEVERSELIST);
 	InsertVersesIntoSettings();
 	InsertScoresIntoSettings();
 	InsertSourcesIntoSettings();
-
+	InsertComposersIntoSettings();
 }
 
 
@@ -1382,6 +1380,32 @@ function InsertSourcesIntoSettings() {
 	}
 
 }
+
+
+//////////////////////////////
+//
+// InsertSourcesIntoSettings --
+//
+
+function InsertComposersIntoSettings() {
+	var COMPOSERS = TASSODATA.COMPOSERS.COMPOSERDATA;
+
+	// inserting SOURCES entries into RIMESETTINGLIST:
+	var RCOMPOSERS = {};
+	var i;
+	var id;
+	for (i=0; i<COMPOSERS.length; i++) {
+		id = COMPOSERS[i].COMPOSER;
+		RCOMPOSERS[id] = COMPOSERS[i];
+	}
+	for (i=0; i<RIMESETTINGLIST.length; i++) {
+		var id = RIMESETTINGLIST[i].COMPOSER;
+		RIMESETTINGLIST[i].COMPOSERDATA = RCOMPOSERS[id];
+	}
+
+}
+
+
 
 
 

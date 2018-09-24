@@ -21,7 +21,6 @@
 @@   OTTAVA:        Ottava number in Gerusalemme
 @@   TITLE:         The title of the setting
 @@   COMPOSER:      Name of composer in form  Last, First
-@@   COMDATES:      Composer Birth/Death/Flourish dates
 @@   PRINCEPSTITLE: Title of book the setting was first published
 @@   PRINCEPSLOC:   Location first edtion was published
 @@   PRINCEPSPUB:   Publisher of the first edition
@@ -47,6 +46,7 @@
 @TITLE:	O musa, tu che di caduchi allori
 @COMPOSER:	Bellanda, Lodovico
 @COMDATES:	c. 1575-aft. 1613
+@COMURL:	
 @PARTS:	2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Canzonette spirituali a due voci con altre a tre et a quattro da sonare
 @PRINCEPSLOC:	Verona
@@ -66,7 +66,6 @@
 @OTTAVA:	2
 @TITLE:	O musa, tu che di caduchi allori
 @COMPOSER:	Priuli, Giovanni
-@COMDATES:	1575 or 1580-1629
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci novamente posto in luce
 @PRINCEPSLOC:	Venice
@@ -86,7 +85,6 @@
 @OTTAVA:	3
 @TITLE:	Sai che là corre il mondo ove più versi
 @COMPOSER:	Priuli, Giovanni
-@COMDATES:	1575 or 1580-1629
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci novamente posto in luce
 @PRINCEPSLOC:	Venice
@@ -106,7 +104,6 @@
 @OTTAVA:	11-53
 @TITLE:	Ma poichè ’l Re crudel vide occultarse
 @COMPOSER:	Mazzocchi, Domenico
-@COMDATES:	1595-1662
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Dialoghi e sonetti posti in luce
 @PRINCEPSLOC:	Rome
@@ -126,7 +123,6 @@
 @OTTAVA:	11-53
 @TITLE:	Ma poichè ’l Re crudel vide occultarse
 @COMPOSER:	Fiamengo, Giovanni
-@COMDATES:	fl. 1620s
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Dialogo a quattri voci di Sofronia e Olindo del Tasso
 @PRINCEPSLOC:	Mdina
@@ -146,7 +142,6 @@
 @OTTAVA:	8
 @TITLE:	Dunque, ove tu signor di mille rivi
 @COMPOSER:	Mazzocchi, Domenico
-@COMDATES:	1595-1662
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Musiche sacre e morali a una, due e tre voci
 @PRINCEPSLOC:	Rome
@@ -166,7 +161,6 @@
 @OTTAVA:	29
 @TITLE:	Argo non mai, non vide Cipro e Delo
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	2 (verses 1-2; 3-4)
 @PRINCEPSTITLE:	Le musiche a due voci, novamente composte, et date in luce
 @PRINCEPSLOC:	Venice
@@ -186,7 +180,6 @@
 @OTTAVA:	30
 @TITLE:	Fa nove crespe l'aura al crin disciolto
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li diversi scherzi a una, a due, a tre et quattro voci. Libro quarto. Opera vigesima
 @PRINCEPSLOC:	Rome
@@ -206,7 +199,6 @@
 @OTTAVA:	30
 @TITLE:	Fa nove crespe l'aura al crin disciolto
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Le musiche a due voci, novamente composte, et date in luce
 @PRINCEPSLOC:	Venice
@@ -226,7 +218,6 @@
 @OTTAVA:	103
 @TITLE:	Era la notte e 'l suo stellato velo
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	1 of 3
 @PRINCEPSTITLE:	L'ottavo libro de'madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -246,7 +237,6 @@
 @OTTAVA:	103
 @TITLE:	Era la notte e 'l suo stellato velo
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -266,7 +256,6 @@
 @OTTAVA:	104
 @TITLE:	Poi rimirando il campo ella dicea
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	2 of 3
 @PRINCEPSTITLE:	L'ottavo libro de'madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -286,7 +275,6 @@
 @OTTAVA:	104
 @TITLE:	Poi rimirando il campo ella dicea
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	3-4 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -306,7 +294,6 @@
 @OTTAVA:	105
 @TITLE:	Raccogliete me dunque: e in voi si trove
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	3 of 3
 @PRINCEPSTITLE:	L'ottavo libro de'madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -326,7 +313,6 @@
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -346,7 +332,6 @@
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci. Nuovamente composto, dato in luce
 @PRINCEPSLOC:	Venice
@@ -366,7 +351,6 @@
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
 @PRINCEPSLOC:	Venice
@@ -386,7 +370,6 @@
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -406,7 +389,6 @@
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
 @COMPOSER:	Ghizzolo, Giovanni
-@COMDATES:	?-1625?
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	l terzo libro de madrigali a cinque voci, in parte ancor concertati co 'l clavicembalo. Opera decimaottava
 @PRINCEPSLOC:	Venice
@@ -426,7 +408,6 @@
 @OTTAVA:	20
 @TITLE:	Indi dicea piangendo: "In voi serbate
 @COMPOSER:	Angelo Gardano
-@COMDATES:	
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -446,7 +427,6 @@
 @OTTAVA:	20
 @TITLE:	Indi dicea piangendo: "In voi serbate
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	3 of 4
 @PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
 @PRINCEPSLOC:	Venice
@@ -466,7 +446,6 @@
 @OTTAVA:	20
 @TITLE:	Indi dicea piangendo: "In voi serbate
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	3-4 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -486,7 +465,6 @@
 @OTTAVA:	21
 @TITLE:	Forse avverrà se 'l ciel benigno ascolta
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	4 of 4
 @PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
 @PRINCEPSLOC:	Venice
@@ -506,7 +484,6 @@
 @OTTAVA:	52-64
 @TITLE:	Vuol ne l'armi provarla: un uom la stima
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Madrigali guerrieri, et amorosi. Libro ottavo
 @PRINCEPSLOC:	Venice
@@ -526,7 +503,6 @@
 @OTTAVA:	65
 @TITLE:	Segue egli la vittoria e la trafitta
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	bfr. 1550-aft. 1608
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci. Novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -546,7 +522,6 @@
 @OTTAVA:	65
 @TITLE:	Segue egli la vittoria e la trafitta
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 1 (continues from row 25)
 @PRINCEPSTITLE:	Madrigali guerrieri, et amorosi. Libro ottavo
 @PRINCEPSLOC:	Venice
@@ -566,7 +541,6 @@
 @OTTAVA:	66
 @TITLE:	Amico hai vinto: io ti perdon...perdona
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	bfr. 1550-aft. 1608
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci. Novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -586,7 +560,6 @@
 @OTTAVA:	66
 @TITLE:	Amico hai vinto: io ti perdon...perdona
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	1 of 4
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci. Novamente dato in luce. Opera trentesima sesta
 @PRINCEPSLOC:	Palermo
@@ -606,7 +579,6 @@
 @OTTAVA:	66
 @TITLE:	Amico hai vinto: io ti perdon...perdona
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	1 of 3
 @PRINCEPSTITLE:	Le Musiche del Cavalier Sigismondo D'India a una et due voci da cantarsi nel chitarrone, clavicembalo, arpa doppia et altri stromenti da corpo. Con alcune Arie, con l'alfabeto per la chitara alla spagnola. Novamente composta et data in luce con privilegio. Libro quarto
 @PRINCEPSLOC:	Venice
@@ -626,7 +598,6 @@
 @OTTAVA:	66
 @TITLE:	Amico hai vinto: io ti perdon...perdona
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 1 (continues from rows 25-27)
 @PRINCEPSTITLE:	Madrigali guerrieri, et amorosi. Libro ottavo
 @PRINCEPSLOC:	Venice
@@ -646,7 +617,6 @@
 @OTTAVA:	67
 @TITLE:	Poco quindi lontan nel sen del monte
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	2 of 4
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci. Novamente dato in luce. Opera trentesima sesta
 @PRINCEPSLOC:	Palermo
@@ -666,7 +636,6 @@
 @OTTAVA:	67
 @TITLE:	Poco quindi lontan nel sen del monte
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	2 of 3
 @PRINCEPSTITLE:	Le Musiche del Cavalier Sigismondo D'India a una et due voci da cantarsi nel chitarrone, clavicembalo, arpa doppia et altri stromenti da corpo. Con alcune Arie, con l'alfabeto per la chitara alla spagnola. Novamente composta et data in luce con privilegio. Libro quarto
 @PRINCEPSLOC:	Venice
@@ -686,7 +655,6 @@
 @OTTAVA:	67
 @TITLE:	Poco quindi lontan nel sen del monte
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 1 (continues from rows 25-27-31)
 @PRINCEPSTITLE:	Madrigali guerrieri, et amorosi. Libro ottavo
 @PRINCEPSLOC:	Venice
@@ -706,7 +674,6 @@
 @OTTAVA:	68
 @TITLE:	Non morì già: ché sue virtuti accolse
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	3 of 4
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci. Novamente dato in luce. Opera trentesima sesta
 @PRINCEPSLOC:	Palermo
@@ -726,7 +693,6 @@
 @OTTAVA:	68
 @TITLE:	Non morì già: ché sue virtuti accolse
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	3 of 3
 @PRINCEPSTITLE:	Le Musiche del Cavalier Sigismondo D'India a una et due voci da cantarsi nel chitarrone, clavicembalo, arpa doppia et altri stromenti da corpo. Con alcune Arie, con l'alfabeto per la chitara alla spagnola. Novamente composta et data in luce con privilegio. Libro quarto
 @PRINCEPSLOC:	Venice
@@ -746,7 +712,6 @@
 @OTTAVA:	68
 @TITLE:	Non morì già: ché sue virtuti accolse
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 1 (continues from rows 25-27-31-34)
 @PRINCEPSTITLE:	Madrigali guerrieri, et amorosi, Libro ottavo
 @PRINCEPSLOC:	Venice
@@ -766,7 +731,6 @@
 @OTTAVA:	69
 @TITLE:	D'un bel pallore ha il bianco volto asperso
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	4 of 4
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci. Novamente dato in luce. Opera trentesima sesta
 @PRINCEPSLOC:	Palermo
@@ -786,7 +750,6 @@
 @OTTAVA:	75
 @TITLE:	Io vivo? Io spiro ancora? E gli odiosi
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	1 of 3
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci. Novamente dato in luce. Opera trentesima sesta
 @PRINCEPSLOC:	Palermo
@@ -806,7 +769,6 @@
 @OTTAVA:	76
 @TITLE:	Passa per questo petto e feri scempi
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li diversi scherzi a due, a tre et quattro voci. Libro quinto. Opera vigesima terza
 @PRINCEPSLOC:	Rome
@@ -826,7 +788,6 @@
 @OTTAVA:	76
 @TITLE:	Passa per questo petto e feri scempi
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	2 of 3
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci. Novamente dato in luce. Opera trentesima sesta
 @PRINCEPSLOC:	Palermo
@@ -846,7 +807,6 @@
 @OTTAVA:	77
 @TITLE:	Vivrò fra i miei tormenti e le mie cure
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 3
 @PRINCEPSTITLE:	Di Claudio Monteverdi il Terzo Libro de Madrigali a cinque voci. Novamente composto et datto in luce
 @PRINCEPSLOC:	Venice
@@ -866,7 +826,6 @@
 @OTTAVA:	77
 @TITLE:	Vivrò fra i miei tormenti e le mie cure
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	3 of 3
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci. Novamente dato in luce. Opera trentesima sesta
 @PRINCEPSLOC:	Palermo
@@ -886,7 +845,6 @@
 @OTTAVA:	77
 @TITLE:	Vivrò fra i miei tormenti e le mie cure
 @COMPOSER:	Boschetti, Giovanni Boschetto
-@COMDATES:	?-1622
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Giardino musicale di varii eccellenti autori, dove si contengono sonetti, arie, & vilanelli, a una, e due voci
 @PRINCEPSLOC:	Rome
@@ -906,7 +864,6 @@
 @OTTAVA:	78
 @TITLE:	Ma dove, oh lasso, me! dove restaro
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	2 of 3
 @PRINCEPSTITLE:	Di Claudio Monteverdi il Terzo Libro de Madrigali a cinque voci. Novamente composto et datto in luce
 @PRINCEPSLOC:	Venice
@@ -926,7 +883,6 @@
 @OTTAVA:	79
 @TITLE:	Io verrò là dove sete; e voi
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	3 of 3
 @PRINCEPSTITLE:	Di Claudio Monteverdi il Terzo Libro de Madrigali a cinque voci. Novamente composto et datto in luce
 @PRINCEPSLOC:	Venice
@@ -946,7 +902,6 @@
 @OTTAVA:	82
 @TITLE:	O bella destra che 'l soave pegno
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Le Musiche del Sig.r Sigismondo d'India, Maestro della Musica di Camera del Serenissimo Sig.re Duca di Savoia. Libro Terzo a una e due voci. Nuovamente stampate
 @PRINCEPSLOC:	Milan
@@ -966,7 +921,6 @@
 @OTTAVA:	90
 @TITLE:	Lei nel partir, lei nel tornar del sole
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Li diversi scherzi a una, a due, a tre et quattro voci. Libro quarto. Opera vigesima
 @PRINCEPSLOC:	Rome
@@ -986,7 +940,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Di Giaches de Wert il settimo libro de madrigali a cinque voci. Novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -1006,7 +959,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	1553 or 54-1599
 @PARTS:	1 of 4
 @PRINCEPSTITLE:	Di Luca Marenzio il quarto libro de madrigali a cinque voci. Nuovamente composti, & dati in luce
 @PRINCEPSLOC:	Venice
@@ -1026,7 +978,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	Ricci, Cesarina
-@COMDATES:	c. 1573-?
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Di Madonna Cesarina de Tingoli il primo libro de madrigali à cinque voci. Con un Dialogo a otto. Novamente composti et dati in luce
 @PRINCEPSLOC:	Venice
@@ -1046,7 +997,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	1560-1633
 @PARTS:	1 of 4 (verses 1-6)
 @PRINCEPSTITLE:	Di Scipione Dentice il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Naples
@@ -1066,7 +1016,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	1 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci. Novamente composti e dati in luce
 @PRINCEPSLOC:	Rome
@@ -1086,7 +1035,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	Benedetti, Piero
-@COMDATES:	c. 1585-1649
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Musiche: Libro secondo a voce sola e basso continuo di Pietro Benedetti nell'Accademia de gli Elevati di Fiorenza detto l'Invaghito. Novamente poste in luce
 @PRINCEPSLOC:	Venice
@@ -1106,7 +1054,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Le Musiche del Sig.r Sigismondo d'India, Maestro della Musica di Camera del Serenissimo Sig.re Duca di Savoia. Libro Terzo a una e due voci. Nuovamente stampate
 @PRINCEPSLOC:	Milan
@@ -1126,7 +1073,6 @@
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Li diversi scherzi a due, a tre et quattro voci. Libro sesto
 @PRINCEPSLOC:	Rome?
@@ -1146,7 +1092,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Di Giaches de Wert il settimo libro de madrigali a cinque voci. Novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -1166,7 +1111,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	1553 or 54-1599
 @PARTS:	2 of 4
 @PRINCEPSTITLE:	Di Luca Marenzio il quarto libro de madrigali a cinque voci. Nuovamente composti, & dati in luce
 @PRINCEPSLOC:	Venice
@@ -1186,7 +1130,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Belli, Girolamo
-@COMDATES:	1552-1620
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Di Girolamo Belli d'Argenta il secondo libro de madrigali a cinque voci con un dialogo a otto. Novamente composti et dati in luce
 @PRINCEPSLOC:	Venice
@@ -1206,7 +1149,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Manenti, Giovanni Piero
-@COMDATES:	c. 1535-1597
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Li Pratolini di Giovampier Manenti bolognese musico del serenissimo gran duca di Toscana a cinque voci. Novamente composti et dati in luce
 @PRINCEPSLOC:	Venice
@@ -1226,7 +1168,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Ricci, Cesarina
-@COMDATES:	c. 1573-?
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Di Madonna Cesarina de Tingoli il primo libro de madrigali à cinque voci. Con un Dialogo a otto. Novamente composti et dati in luce
 @PRINCEPSLOC:	Venice
@@ -1246,7 +1187,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	1560-1633
 @PARTS:	2 of 4 (verses 7-8 of XII, 96 and verses 1-8 of XII, 97)
 @PRINCEPSTITLE:	Di Scipione Dentice il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Naples
@@ -1266,7 +1206,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	2 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci. Novamente composti e dati in luce
 @PRINCEPSLOC:	Rome
@@ -1286,7 +1225,6 @@
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
 @COMPOSER:	Giovan Battista Bartoli
-@COMDATES:	1588-1666
 @PARTS:	2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Florence
@@ -1306,7 +1244,6 @@
 @OTTAVA:	98
 @TITLE:	Dalli lor tu ché, se mai gli occhi gira
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	1553 or 54-1599
 @PARTS:	3 of 4
 @PRINCEPSTITLE:	Di Luca Marenzio il quarto libro de madrigali a cinque voci. Nuovamente composti, & dati in luce
 @PRINCEPSLOC:	Venice
@@ -1326,7 +1263,6 @@
 @OTTAVA:	98
 @TITLE:	Dalli lor tu ché, se mai gli occhi gira
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	1560-1633
 @PARTS:	3 of 4
 @PRINCEPSTITLE:	Di Scipione Dentice il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Naples
@@ -1346,7 +1282,6 @@
 @OTTAVA:	98
 @TITLE:	Dalli lor tu ché, se mai gli occhi gira
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	3 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci. Novamente composti e dati in luce
 @PRINCEPSLOC:	Rome
@@ -1366,7 +1301,6 @@
 @OTTAVA:	99
 @TITLE:	Ed amando morrò: felice giorno
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	1553 or 54-1599
 @PARTS:	4 of 4
 @PRINCEPSTITLE:	Di Luca Marenzio il quarto libro de madrigali a cinque voci. Nuovamente composti, & dati in luce
 @PRINCEPSLOC:	Venice
@@ -1386,7 +1320,6 @@
 @OTTAVA:	99
 @TITLE:	Ed amando morrò: felice giorno
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	1560-1633
 @PARTS:	4 of 4
 @PRINCEPSTITLE:	Di Scipione Dentice il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Naples
@@ -1406,7 +1339,6 @@
 @OTTAVA:	99
 @TITLE:	Ed amando morrò: felice giorno
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci. Novamente composti e dati in luce
 @PRINCEPSLOC:	Rome
@@ -1426,7 +1358,6 @@
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -1446,7 +1377,6 @@
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
 @COMPOSER:	Guami, Gioseffo
-@COMDATES:	1542-1611
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Quarto libro de madrigali a cinque et sei voci, con alcuni Dialoghi a otto et a dieci. Di Gioseffo Guami da Lucca organista della serenessima Signoria di Venetia in S. Marco. Novamente posti in luce
 @PRINCEPSLOC:	Venice
@@ -1466,7 +1396,6 @@
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
 @COMPOSER:	Venturi del Nibbio, Stefano
-@COMDATES:	fl. 1592-1600
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Di Stefano Venturi Del Nibbio il primo libro de madrigali a cinque voci. Novamente posto in luce
 @PRINCEPSLOC:	Venice
@@ -1486,7 +1415,6 @@
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
 @COMPOSER:	Raval, Sebastián
-@COMDATES:	c. 1550-bfr. 1604
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	l primo libro de madrigali a cinque voci, composti per il sig. Sebastiano Raval gentil'huomo spagnuolo dell'Ordine di Ubidientia di S. Gio. Battista Gierosolomitano
 @PRINCEPSLOC:	Venice
@@ -1506,7 +1434,6 @@
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	c. 1545-c. 1602
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Il terzo libro de madrigali a quattro voci del molto R.do sig.or Antonio Dueto piamontese canonico nel duomo di Genova
 @PRINCEPSLOC:	Venice
@@ -1526,7 +1453,6 @@
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
 @COMPOSER:	Caprioli, Giovanni Paolo
-@COMDATES:	?-c. 1627?
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Canzonette a tre voci. Libro primo. Nuovamente composte e date in luce
 @PRINCEPSLOC:	Venice
@@ -1546,7 +1472,6 @@
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Li diversi scherzi a una, a due, a tre et quattro voci. Libro quarto. Opera vigesima
 @PRINCEPSLOC:	Rome
@@ -1566,7 +1491,6 @@
 @OTTAVA:	62
 @TITLE:	O giovinetti mentre aprile e maggio
 @COMPOSER:	Piochi, Cristofano
-@COMDATES:	?-in or aft. 1675
 @PARTS:	2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Il primo libro delli madrigali concertati a due, tre e quattro voci con alcune arie nel fine da cantarsi nel cimbalo, chitarrone o simile stromento con il basso continuo. Nuovamente composti et dati in luce
 @PRINCEPSLOC:	Venice
@@ -1586,7 +1510,6 @@
 @OTTAVA:	62
 @TITLE:	O giovinetti mentre aprile e maggio
 @COMPOSER:	Camarella, Giovanni Battista
-@COMDATES:	fl. early 17th century
 @PARTS:	1 of 1?
 @PRINCEPSTITLE:	Madrigali et Arie. Opera prima
 @PRINCEPSLOC:	Venice
@@ -1606,7 +1529,6 @@
 @OTTAVA:	12
 @TITLE:	Vezzosi augelli infra le verdi fronde
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	1553 or 54-1599
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Madrigali a quattro voci, libro primo di Luca Marenzio, novamente con ogni diligenza stampati
 @PRINCEPSLOC:	Venice
@@ -1626,7 +1548,6 @@
 @OTTAVA:	12
 @TITLE:	Vezzosi augelli infra le verdi fronde
 @COMPOSER:	Tristabocca, Pasquale
-@COMDATES:	fl. 1586-91
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Di Pasquale Trista Bocca da l'Aquila il secondo libro di madrigali a cinque voci. Novamente posto in luce
 @PRINCEPSLOC:	Venice
@@ -1646,7 +1567,6 @@
 @OTTAVA:	12
 @TITLE:	Vezzosi augelli infra le verdi fronde
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -1666,7 +1586,6 @@
 @OTTAVA:	12
 @TITLE:	Vezzosi augelli infra le verdi fronde
 @COMPOSER:	Asola, Giammateo
-@COMDATES:	1532 or earlier-1609
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Fiori musicali di diversi auttori a tre voci. Libro secondo. Novamente composti, & dati in luce
 @PRINCEPSLOC:	Venice
@@ -1686,7 +1605,6 @@
 @OTTAVA:	12
 @TITLE:	Vezzosi augelli infra le verdi fronde
 @COMPOSER:	Molinaro, Simone
-@COMDATES:	c. 1570-aft. 1633
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Il secondo libro delle Canzonette a 3 voci
 @PRINCEPSLOC:	Venice
@@ -1706,7 +1624,6 @@
 @OTTAVA:	12
 @TITLE:	Vezzosi augelli infra le verdi fronde
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li Diversi Scherzi a una, a due et tre voci. Libro primo. Opera duedecima
 @PRINCEPSLOC:	Rome
@@ -1726,7 +1643,6 @@
 @OTTAVA:	12
 @TITLE:	Vezzosi augelli infra le verdi fronde
 @COMPOSER:	Massenzio, Domenico
-@COMDATES:	?-1650
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Scelta di Madrigali, canzonette, Villanelle, Romanesche, Ruggeri, et una Canzone sopra la Follia di sette partite, a una voce, et in fine un Dialogo a quattro voci, sopra le quattro stagioni dell'anno. Da cantarsi sopra qualsivoglia instromento. Composto da Domenico Massentio
 @PRINCEPSLOC:	Rome
@@ -1746,7 +1662,6 @@
 @OTTAVA:	13
 @TITLE:	Vola fra gli altri un che le piume ha sparte
 @COMPOSER:	Molinaro, Simone
-@COMDATES:	c. 1570-aft. 1633
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Il secondo libro delle Canzonette a 3 voci
 @PRINCEPSLOC:	Venice
@@ -1766,7 +1681,6 @@
 @OTTAVA:	14
 @TITLE:	"Deh mira," egli cantò, "spuntar la rosa
 @COMPOSER:	Molinaro, Simone
-@COMDATES:	c. 1570-aft. 1633
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Il secondo libro delle Canzonette a 3 voci
 @PRINCEPSLOC:	Venice
@@ -1786,7 +1700,6 @@
 @OTTAVA:	14
 @TITLE:	"Deh mira," egli cantò, "spuntar la rosa
 @COMPOSER:	Giramo, Pietro Antonio
-@COMDATES:	fl. 1619-1630 and aft.
 @PARTS:	1-4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Arie a più voci. Primo libro della Seconda Opera
 @PRINCEPSLOC:	?
@@ -1806,7 +1719,6 @@
 @OTTAVA:	15
 @TITLE:	Così trapassa al trapassar d'un giorno
 @COMPOSER:	Giramo, Pietro Antonio
-@COMDATES:	fl. 1619-1630 and aft.
 @PARTS:	5-8 (verses 1-2; 3-4; 5-6; 7-8) of 8
 @PRINCEPSTITLE:	Arie a più voci. Primo libro della Seconda Opera
 @PRINCEPSLOC:	?
@@ -1826,7 +1738,6 @@
 @OTTAVA:	22
 @TITLE:	Deh perché sdegni me, com'egli è vago
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Li diversi scherzi a due, a tre et quattro voci. Libro sesto
 @PRINCEPSLOC:	Rome?
@@ -1846,7 +1757,6 @@
 @OTTAVA:	40
 @TITLE:	Forsennata gridava: "O tu che porte
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -1866,7 +1776,6 @@
 @OTTAVA:	40
 @TITLE:	Forsennata gridava: "O tu che porte
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
 @PRINCEPSLOC:	Venice
@@ -1886,7 +1795,6 @@
 @OTTAVA:	40
 @TITLE:	Forsennata gridava: "O tu che porte
 @COMPOSER:	Giramo, Pietro Antonio
-@COMDATES:	fl. 1619-1630 and aft.
 @PARTS:	1-4 (verses 1-2; 3-4; 5-6; 7-8) of 12
 @PRINCEPSTITLE:	Arie a più voci. Primo libro della Seconda Opera
 @PRINCEPSLOC:	?
@@ -1906,7 +1814,6 @@
 @OTTAVA:	43
 @TITLE:	Qual musico gentil prima che chiara
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	1 of 5
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -1926,7 +1833,6 @@
 @OTTAVA:	43
 @TITLE:	Qual musico gentil prima che chiara
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	1 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -1946,7 +1852,6 @@
 @OTTAVA:	43
 @TITLE:	Qual musico gentil prima che chiara
 @COMPOSER:	Molinaro, Simone
-@COMDATES:	c. 1570-aft. 1633
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Il secondo libro delle Canzonette a 3 voci
 @PRINCEPSLOC:	Venice
@@ -1966,7 +1871,6 @@
 @OTTAVA:	44
 @TITLE:	Poi cominciò: "Non aspettar ch'io preghi
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	2 of 5
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -1986,7 +1890,6 @@
 @OTTAVA:	44
 @TITLE:	Poi cominciò: "Non aspettar ch'io preghi
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	2 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2006,7 +1909,6 @@
 @OTTAVA:	45
 @TITLE:	Se m'odii e in ciò diletto alcun tu senti
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	3 of 5
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -2026,7 +1928,6 @@
 @OTTAVA:	45
 @TITLE:	Se m'odii e in ciò diletto alcun tu senti
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	3 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2046,7 +1947,6 @@
 @OTTAVA:	46
 @TITLE:	Aggiungi a questo ancor quel ch'a maggiore
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	4 of 5
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -2066,7 +1966,6 @@
 @OTTAVA:	46
 @TITLE:	Aggiungi a questo ancor quel ch'a maggiore
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	4 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2086,7 +1985,6 @@
 @OTTAVA:	47
 @TITLE:	Sia questa pur tra le mie frodi, e vaglia
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	5 of 5
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -2106,7 +2004,6 @@
 @OTTAVA:	47
 @TITLE:	Sia questa pur tra le mie frodi, e vaglia
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	5 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2126,7 +2023,6 @@
 @OTTAVA:	56
 @TITLE:	Rimanti in pace: i' vado: a te non lice
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	1 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2146,7 +2042,6 @@
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	1 of 3
 @PRINCEPSTITLE:	Di Claudio Monteverdi il Terzo Libro de Madrigali a cinque voci. Novamente composto et datto in luce
 @PRINCEPSLOC:	Venice
@@ -2166,7 +2061,6 @@
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	6 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2186,7 +2080,6 @@
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	1564-1612
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7, & 8 voci
 @PRINCEPSLOC:	Augsburg
@@ -2206,7 +2099,6 @@
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li Diversi Scherzi a una, due et tre voci. Libro secondo. Opera decimaquarta
 @PRINCEPSLOC:	Rome
@@ -2226,7 +2118,6 @@
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Bartoli, Giovan Battista
-@COMDATES:	fl. 1617
 @PARTS:	1 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Florence
@@ -2246,7 +2137,6 @@
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	2 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2266,7 +2156,6 @@
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Giramo, Pietro Antonio
-@COMDATES:	fl. 1619-1630 and aft.
 @PARTS:	5-8 (verses 1-2; 3-4; 5-6; 7-8)  of 12; parts 1-4 at XVI 40 (row 92)
 @PRINCEPSTITLE:	Arie a più voci. Primo libro della Seconda Opera
 @PRINCEPSLOC:	?
@@ -2286,7 +2175,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	2 of 3
 @PRINCEPSTITLE:	Di Claudio Monteverdi il Terzo Libro de Madrigali a cinque voci. Novamente composto et datto in luce
 @PRINCEPSLOC:	Venice
@@ -2306,7 +2194,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	7 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2326,7 +2213,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	1564-1612
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7, & 8 voci
 @PRINCEPSLOC:	Augsburg
@@ -2346,7 +2232,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Freddi, Amadio
-@COMDATES:	fl. 1594-1634
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Il Primo Libro de Madrigali a sei voci. Nuovamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -2366,7 +2251,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	2 of 2 (1 at XVI, 40, row 91)
 @PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
 @PRINCEPSLOC:	Venice
@@ -2386,7 +2270,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li Diversi Scherzi a una, due et tre voci. Libro secondo. Opera decimaquarta
 @PRINCEPSLOC:	Rome
@@ -2406,7 +2289,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Bartoli, Giovan Battista
-@COMDATES:	fl. 1617
 @PARTS:	2-3 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Florence
@@ -2426,7 +2308,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	3 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2446,7 +2327,6 @@
 @OTTAVA:	60
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	Giramo, Pietro Antonio
-@COMDATES:	fl. 1619-1630 and aft.
 @PARTS:	8-12 (verses 1-2; 3-4; 5-6; 7-8) of 12
 @PRINCEPSTITLE:	Arie a più voci. Primo libro della Seconda Opera
 @PRINCEPSLOC:	?
@@ -2466,7 +2346,6 @@
 @OTTAVA:	61
 @TITLE:	Chiudesti i lumi Armida: il cielo avaro
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	8 of 8
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2486,7 +2365,6 @@
 @OTTAVA:	61
 @TITLE:	Chiudesti i lumi Armida: il cielo avaro
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	L'ottavo libro de'madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -2506,7 +2384,6 @@
 @OTTAVA:	61
 @TITLE:	Chiudesti i lumi Armida: il cielo avaro
 @COMPOSER:	Freddi, Amadio
-@COMDATES:	fl. 1594-1634
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Il Primo Libro de Madrigali a sei voci. Nuovamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -2526,7 +2403,6 @@
 @OTTAVA:	61
 @TITLE:	Chiudesti i lumi Armida: il cielo avaro
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li Diversi Scherzi a una, due et tre voci. Libro secondo. Opera decimaquarta
 @PRINCEPSLOC:	Rome
@@ -2546,7 +2422,6 @@
 @OTTAVA:	61
 @TITLE:	Chiudesti i lumi Armida: il cielo avaro
 @COMPOSER:	Bartoli, Giovan Battista
-@COMDATES:	fl. 1617
 @PARTS:	4 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Florence
@@ -2566,7 +2441,6 @@
 @OTTAVA:	61
 @TITLE:	Chiudesti i lumi Armida: il cielo avaro
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	4 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2586,7 +2460,6 @@
 @OTTAVA:	61
 @TITLE:	Chiudesti i lumi Armida: il cielo avaro
 @COMPOSER:	Mazzocchi, Domenico
-@COMDATES:	1595-1662
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Madrigali a cinque voci et altri varii Concerti
 @PRINCEPSLOC:	Rome
@@ -2606,7 +2479,6 @@
 @OTTAVA:	62
 @TITLE:	Or che farà? Dee su l'ignuda arena
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	5 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2626,7 +2498,6 @@
 @OTTAVA:	63
 @TITLE:	Poi ch'ella in sé tornò, deserto e muto
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	1567-1643
 @PARTS:	3 of 3 (parts 1-2 at XVI, 59-60, rows 105-112)
 @PRINCEPSTITLE:	Di Claudio Monteverdi il Terzo Libro de Madrigali a cinque voci. Novamente composto et datto in luce
 @PRINCEPSLOC:	Venice
@@ -2646,7 +2517,6 @@
 @OTTAVA:	63
 @TITLE:	Poi ch'ella in sé tornò, deserto e muto
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Il secondo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2666,7 +2536,6 @@
 @OTTAVA:	63
 @TITLE:	Poi ch'ella in sé tornò, deserto e muto
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	6 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2686,7 +2555,6 @@
 @OTTAVA:	64
 @TITLE:	Che fa più meco il pianto? Altr'arme, altr'arte
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	7 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2706,7 +2574,6 @@
 @OTTAVA:	65
 @TITLE:	Misera Armida, allor dovevi e degno
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Il secondo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2726,7 +2593,6 @@
 @OTTAVA:	65
 @TITLE:	Misera Armida, allor dovevi e degno
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	8 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2746,7 +2612,6 @@
 @OTTAVA:	66
 @TITLE:	Questa bellezza mia sarà mercede
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	9 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -2766,7 +2631,6 @@
 @OTTAVA:	61
 @TITLE:	Signor non sotto l'ombra in piaggia molle
 @COMPOSER:	Mazzocchi, Domenico
-@COMDATES:	1595-1662
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Musiche sacre e morali a una, due e tre voci
 @PRINCEPSLOC:	Rome
@@ -2786,7 +2650,6 @@
 @OTTAVA:	106
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -2806,7 +2669,6 @@
 @OTTAVA:	106
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2826,7 +2688,6 @@
 @OTTAVA:	106
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	1 of 2
 @PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
 @PRINCEPSLOC:	Venice
@@ -2846,7 +2707,6 @@
 @OTTAVA:	106
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -2866,7 +2726,6 @@
 @OTTAVA:	106
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	Il Verso, Antonio
-@COMDATES:	1565-1621
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Il quarto libro dei madrigali a tre voci. Opera trentesima quinta
 @PRINCEPSLOC:	Palermo
@@ -2886,7 +2745,6 @@
 @OTTAVA:	106
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	Piochi, Cristofano
-@COMDATES:	?-in or aft. 1675
 @PARTS:	2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Il primo libro delli madrigali concertati a due, tre e quattro voci con alcune arie nel fine da cantarsi nel cimbalo, chitarrone o simile stromento con il basso continuo. Nuovamente composti et dati in luce
 @PRINCEPSLOC:	Venice
@@ -2906,7 +2764,6 @@
 @OTTAVA:	106
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	Negri, Francesco
-@COMDATES:	c. 1609?-aft. 1635
 @PARTS:	1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Arie musicali di Francesco Negri canonico di S. Pietro della città di Guastalla da cantarsi nel clavecembalo chitarone o altro simile istromento a una e doi voci con alcune cantate in stille recitativo. Opera prima
 @PRINCEPSLOC:	Venice
@@ -2926,7 +2783,6 @@
 @OTTAVA:	107
 @TITLE:	Ma che? squallido e scuro anco mi piaci
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	1535-1596
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -2946,7 +2802,6 @@
 @OTTAVA:	107
 @TITLE:	Ma che? squallido e scuro anco mi piaci
 @COMPOSER:	Baccusi, Ippolito
-@COMDATES:	c. 1550-1609
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Di Ippolito Baccusi maestro di cappella nel domo di Verona il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venice
@@ -2966,7 +2821,6 @@
 @OTTAVA:	107
 @TITLE:	Ma che? squallido e scuro anco mi piaci
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
 @PRINCEPSLOC:	Venice
@@ -2986,7 +2840,6 @@
 @OTTAVA:	107
 @TITLE:	Ma che? squallido e scuro anco mi piaci
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	3-4 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -3006,7 +2859,6 @@
 @OTTAVA:	107
 @TITLE:	Ma che? squallido e scuro anco mi piaci
 @COMPOSER:	Negri, Francesco
-@COMDATES:	c. 1609?-aft. 1635
 @PARTS:	3-4 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Arie musicali di Francesco Negri canonico di S. Pietro della città di Guastalla da cantarsi nel clavecembalo chitarone o altro simile istromento a una e doi voci con alcune cantate in stille recitativo. Opera prima
 @PRINCEPSLOC:	Venice
@@ -3026,7 +2878,6 @@
 @OTTAVA:	108
 @TITLE:	Pietosa bocca che solevi in vita
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li Diversi Scherzi a una, a due et tre voci. Libro primo. Opera duedecima
 @PRINCEPSLOC:	Rome
@@ -3046,7 +2897,6 @@
 @OTTAVA:	108
 @TITLE:	Pietosa bocca che solevi in vita
 @COMPOSER:	Hayne, Gilles
-@COMDATES:	1590-1650
 @PARTS:	1 of 1
 @PRINCEPSTITLE:	Motetti overo madrigali a cinque voci. Opera seconda
 @PRINCEPSLOC:	Antwerp
@@ -3066,7 +2916,6 @@
 @OTTAVA:	123
 @TITLE:	Piacquele assai che 'n quelle valli ombrose
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	1 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3086,7 +2935,6 @@
 @OTTAVA:	124
 @TITLE:	Ah, ma non fia che fra tant'armi e tante
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	2 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3106,7 +2954,6 @@
 @OTTAVA:	125
 @TITLE:	Dimostratevi in me, ch'io vi perdono
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	3 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3126,7 +2973,6 @@
 @OTTAVA:	126
 @TITLE:	Felice me se nel morir non reco
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	4 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3146,7 +2992,6 @@
 @OTTAVA:	127
 @TITLE:	Qui tacque: e stabilito il suo pensiero
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	5 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3166,7 +3011,6 @@
 @OTTAVA:	128
 @TITLE:	Si volse Armida e 'l rimirò improvviso
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li Diversi Scherzi a una, a due et tre voci. Libro primo. Opera duedecima
 @PRINCEPSLOC:	Rome
@@ -3186,7 +3030,6 @@
 @OTTAVA:	128
 @TITLE:	Si volse Armida e 'l rimirò improvviso
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	6 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3206,7 +3049,6 @@
 @OTTAVA:	129
 @TITLE:	E 'l bel volto e 'l bel seno a la meschina
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	7 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3226,7 +3068,6 @@
 @OTTAVA:	130
 @TITLE:	E con man languidetta il forte braccio
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	8 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3246,7 +3087,6 @@
 @OTTAVA:	131
 @TITLE:	"O sempre, e quando parti e quando torni
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -3266,7 +3106,6 @@
 @OTTAVA:	131
 @TITLE:	"O sempre, e quando parti e quando torni
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	9 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice
@@ -3286,7 +3125,6 @@
 @OTTAVA:	132
 @TITLE:	Certo è scemo il tuo onor se non s'addita
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	1584?-1629
 @PARTS:	3-4 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
 @PRINCEPSLOC:	Venice
@@ -3306,7 +3144,6 @@
 @OTTAVA:	134
 @TITLE:	Così doleasi e con le flebil onde
 @COMPOSER:	Eredi, Francesco
-@COMDATES:	1575 or 1581-aft. 1635
 @PARTS:	10 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare. Opera terza
 @PRINCEPSLOC:	Venice

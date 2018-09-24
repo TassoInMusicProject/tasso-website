@@ -22,7 +22,6 @@
 @@   SCENE:         Scene number in the play for the verses
 @@   VERSE:         Verse number for the verses
 @@   COMPOSER:      Name of composer in form  Last, First
-@@   COMDATES:      Composer Birth/Death/Flourish dates
 @@   PRINCEPSTITLE: Title of book the setting was first published
 @@   PRINCEPSLOC:   Location first edtion was published
 @@   PRINCEPSPUB:   Publisher of the first edition
@@ -45,7 +44,6 @@
 @VERSE:	1
 @TITLE:	Vorrai dunque pur Silvia
 @COMPOSER:	Porto, Allegro
-@COMDATES:	1570 or 1575-aft. 1625
 @PRINCEPSTITLE:	Madrigali à cinque voci co'l basso continuo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -66,7 +64,6 @@
 @VERSE:	338
 @TITLE:	Ho visto al pianto mio
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -87,7 +84,6 @@
 @VERSE:	338
 @TITLE:	Ho visto al pianto mio
 @COMPOSER:	Melli, Domenico Maria
-@COMDATES:	1545-aft. 1615
 @PRINCEPSTITLE:	Le seconde musiche di Domenico Maria reggiano dottor di leggi: nelle quali si contengono Madrigali, Canzonette, Arie, et Dialoghi, à una et due voci. Per cantare nel chitarrone, clavicembalo, et altri instromenti, sì in Soprano, come in Tenore, et trasportate, comode per qual parte più piace.
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -108,7 +104,6 @@
 @VERSE:	338
 @TITLE:	Ho visto al pianto mio
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	bfr. 1550-aft. 1608
 @PRINCEPSTITLE:	Di Tiburtio Massaino il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -129,7 +124,6 @@
 @VERSE:	338
 @TITLE:	Ho visto al pianto mio
 @COMPOSER:	Boschetti, Giovanni Boschetto
-@COMDATES:	?-1622
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci di Gio. Boschetto Boschetti; con doi madrigali spirituali in fine
 @PRINCEPSLOC:	Rome
 @NORMLOC:	Rome
@@ -150,7 +144,6 @@
 @VERSE:	338
 @TITLE:	Ho visto al pianto mio
 @COMPOSER:	Benedetti, Piero
-@COMDATES:	c. 1585-1649
 @PRINCEPSTITLE:	Musiche a 1, e 2 voci e basso continuo con alcune spirituali nel fine: libro quarto
 @PRINCEPSLOC:	Florence
 @NORMLOC:	Florence
@@ -172,8 +165,6 @@
 @TITLE:	Ho visto al pianto mio
 @COMPOSER:	Macigni, Giovanni; Magni, Benedetto
 @COMPOSER2:	Magni, Benedetto
-@COMDATES:	?-?
-@COMDATES2:	fl. 1604-17
 @PRINCEPSTITLE:	Madrigali a cinque voci con il basso continuo: libro primo   di Giovanni Macingni gentil homo Fiorentino; con alcuni di Benedetto Magni suo maestro
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -194,7 +185,6 @@
 @VERSE:	401
 @TITLE:	Essendo io fanciulletto sì che a pena
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -215,7 +205,6 @@
 @VERSE:	410
 @TITLE:	Di questo parlo, ahi lasso! Vissi a questa
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -236,7 +225,6 @@
 @VERSE:	422
 @TITLE:	Ma mentre io fea rapina di animali
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -257,7 +245,6 @@
 @VERSE:	431
 @TITLE:	E bevea da' suoi lumi
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -278,7 +265,6 @@
 @VERSE:	441
 @TITLE:	A l'ombra di un bel faggio Silvia e Filli
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -299,7 +285,6 @@
 @VERSE:	452
 @TITLE:	Ma la mia bella Silvia disse: "Taci
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -320,7 +305,6 @@
 @VERSE:	459
 @TITLE:	Così dicendo avvicinò le labbra
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -341,7 +325,6 @@
 @VERSE:	468
 @TITLE:	Io che fin a quel punto altro non volsi
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -362,7 +345,6 @@
 @VERSE:	476
 @TITLE:	E fatto, non so come, astuto e scaltro
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -383,7 +365,6 @@
 @VERSE:	486
 @TITLE:	La semplicetta Silvia
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -404,7 +385,6 @@
 @VERSE:	494
 @TITLE:	Né l'api d'alcun fiore
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -425,7 +405,6 @@
 @VERSE:	502
 @TITLE:	Ma mentre al cor scendea
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -446,7 +425,6 @@
 @VERSE:	724
 @TITLE:	Picciola è l'ape e fa col picciol morso
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -467,7 +445,6 @@
 @VERSE:	1034
 @TITLE:	Vorrò veder ciò che Tirsi avrà fatto
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -488,7 +465,6 @@
 @VERSE:	1034
 @TITLE:	Vorrò veder ciò che Tirsi avrà fatto
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -509,7 +485,6 @@
 @VERSE:	1045
 @TITLE:	Nove, Aminta, t'annuncio di conforto
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -530,7 +505,6 @@
 @VERSE:	1045
 @TITLE:	Nove, Aminta, t'annuncio di conforto
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -551,7 +525,6 @@
 @VERSE:	1047
 @TITLE:	Ohimè, che di'? che porte?
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -572,7 +545,6 @@
 @VERSE:	1052
 @TITLE:	Qual ardir mi bisogna, e 'ncotra a cui?
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -593,7 +565,6 @@
 @VERSE:	1061
 @TITLE:	Bisogna a maggior prova ardir più grande
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -614,7 +585,6 @@
 @VERSE:	1067
 @TITLE:	Orsù scuoprimi il tutto. Odi. Di' tosto
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -635,7 +605,6 @@
 @VERSE:	1067
 @TITLE:	Orsù scuoprimi il tutto. Odi. Di' tosto
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -656,7 +625,6 @@
 @VERSE:	1075
 @TITLE:	Dura conclusion, che tutte affosca
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -677,7 +645,6 @@
 @VERSE:	1081
 @TITLE:	S'a mio senno farai, sarai felice
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -698,7 +665,6 @@
 @VERSE:	1089
 @TITLE:	Non sarà dunque ver ch'in quanto io posso
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -719,7 +685,6 @@
 @VERSE:	1096
 @TITLE:	Dunque tu l'ameresti a suo dispetto
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -740,7 +705,6 @@
 @VERSE:	1100
 @TITLE:	Perché dunque non osi oltre sua voglia
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -761,7 +725,6 @@
 @VERSE:	1106
 @TITLE:	Già per lungo uso a ragionar d'amore
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -782,7 +745,6 @@
 @VERSE:	1109
 @TITLE:	Dunque andar non vogliamo? Andare io voglio
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -803,7 +765,6 @@
 @VERSE:	1113
 @TITLE:	Credi tu dunque, sciocco, che mai Dafne
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -824,7 +785,6 @@
 @VERSE:	1121
 @TITLE:	E s'ella vuol che 'l tuo diletto sia
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -845,7 +805,6 @@
 @VERSE:	1126
 @TITLE:	Ecco tu chiedi pur quella certezza
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -866,7 +825,6 @@
 @VERSE:	1133
 @TITLE:	Tu taci: tu sei vinto. Ora confessa
 @COMPOSER:	Balsamino, Simone
-@COMDATES:	fl. 1591-96
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -887,7 +845,6 @@
 @VERSE:	1324
 @TITLE:	Dispietata pietate
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	c. 1582-bfr. 1629
 @PRINCEPSTITLE:	Di Sigismondo d'India il terzo libro de madrigali a cinque voci. Con il suo basso continuo da sonar con diversi instromenti da corpo a beneplacito; ma necessariamente per gli otto ultimi
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -908,7 +865,6 @@
 @VERSE:	1417
 @TITLE:	Dolor che sì mi crucii
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -929,7 +885,6 @@
 @VERSE:	1417
 @TITLE:	Dolor che sì mi crucii
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	bfr. 1550-aft. 1608
 @PRINCEPSTITLE:	Madrigali a sei voci: libro primo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -950,7 +905,6 @@
 @VERSE:	1430
 @TITLE:	Bello e dolce morir fu certo allora
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -971,7 +925,6 @@
 @VERSE:	1430
 @TITLE:	Bello e dolce morir fu certo allora
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	bfr. 1550-aft. 1608
 @PRINCEPSTITLE:	Madrigali a sei voci: libro primo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -992,7 +945,6 @@
 @VERSE:	1614
 @TITLE:	Misero Aminta!
 @COMPOSER:	Ghizzolo, Giovanni
-@COMDATES:	?-1625?
 @PRINCEPSTITLE:	Madrigali a cinque voci, novamente composti, et dati in luce: Libro primo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -1013,7 +965,6 @@
 @VERSE:	1717
 @TITLE:	Silvia io ti seguo, io vengo
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	1576-1641
 @PRINCEPSTITLE:	Aminta musicale di Erasmo Marotta. Il primo libro de madrigali a cinque voci, con un dialogo a otto
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -1034,7 +985,6 @@
 @VERSE:	1779
 @TITLE:	Pastor di che piangete?
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	bfr. 1550-aft. 1608
 @PRINCEPSTITLE:	Madrigali a sei voci: libro primo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -1055,7 +1005,6 @@
 @VERSE:	1827
 @TITLE:	Ciò che morte rallenta, Amor restringi
 @COMPOSER:	Boschetti, Giovanni Boschetto
-@COMDATES:	?-1622
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci di Gio. Boschetto Boschetti; con doi madrigali spirituali in fine
 @PRINCEPSLOC:	Rome
 @NORMLOC:	Rome
@@ -1076,7 +1025,6 @@
 @VERSE:	1833
 @TITLE:	Non sono ire la sù: gli umani ingegni
 @COMPOSER:	Boschetti, Giovanni Boschetto
-@COMDATES:	?-1622
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci di Gio. Boschetto Boschetti; con doi madrigali spirituali in fine
 @PRINCEPSLOC:	Rome
 @NORMLOC:	Rome
@@ -1097,7 +1045,6 @@
 @VERSE:	1850
 @TITLE:	Oh fortunato Aminta, oh te felice
 @COMPOSER:	Ghizzolo, Giovanni
-@COMDATES:	?-1625?
 @PRINCEPSTITLE:	Madrigali a cinque voci, novamente composti, et dati in luce: Libro primo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -1118,7 +1065,6 @@
 @VERSE:	1934
 @TITLE:	Ma come Silvia li riconobbe e vide
 @COMPOSER:	Ghizzolo, Giovanni
-@COMDATES:	?-1625?
 @PRINCEPSTITLE:	Madrigali a cinque voci, novamente composti, et dati in luce: Libro primo
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -1139,7 +1085,6 @@
 @VERSE:	1978
 @TITLE:	Non so se il molto amaro
 @COMPOSER:	Boschetti, Giovanni Boschetto
-@COMDATES:	?-1622
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci di Gio. Boschetto Boschetti; con doi madrigali spirituali in fine
 @PRINCEPSLOC:	Rome
 @NORMLOC:	Rome

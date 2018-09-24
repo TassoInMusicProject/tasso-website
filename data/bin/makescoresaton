@@ -27,6 +27,7 @@ sub processFile {
 	$catalognum =~ /^([A-Z][a-z][a-z])/;
 	my $compcode = $1;
 	my $url = "https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/$compcode/kern/$filename";
+	my $editurl = "https://github.com/TassoInMusicProject/tasso-scores/blob/master/$compcode/kern/$filename";
 
 	my @vnames = getVnames($file);
 	my @vabbrs = getVabbrs($file);
@@ -34,7 +35,8 @@ sub processFile {
 print <<"EOT";
 \@\@BEGIN:	SCOREDATA
 \@CATALOGNUM:	$catalognum
-\@URL:		$url
+\@DATAURL:		$url
+\@EDITURL:		$editurl
 EOT
 
 	for (my $i=0; $i<@vnames; $i++) {

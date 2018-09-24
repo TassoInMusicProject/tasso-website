@@ -24,4 +24,8 @@
 {% include_relative all-scores.aton %}
 @@END: SCORES
 
+@@BEGIN: COMPOSERS
+{% include_relative composers.aton %}
+@@END: COMPOSERS
+
 @@END: TASSODATA

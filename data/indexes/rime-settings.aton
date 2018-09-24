@@ -21,7 +21,6 @@
 @@   SETTINGTITLE:  The title of the setting if different from rime
 @@   SOLERTI:       Solerti number, should match that in catalog number
 @@   COMPOSER:      Name of composer in form  Last, First
-@@   COMDATES:      Composer Birth/Death/Flourish dates
 @@   PRINCEPSTITLE: Title of book the setting was first published
 @@   PRINCEPSLOC:   Location first edtion was published
 @@   NORMLOC:       Normalized PRINCEPSLOC (make source spelling uniform).
@@ -54,7 +53,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Aagesen, Truid
-@COMDATES:	
 @PRINCEPSTITLE:	Cantiones trium vocum
 @PRINCEPSLOC:	Hamburg
 @NORMLOC:	Hamburg
@@ -78,7 +76,6 @@
 @RIMETITLE:	Se 'l vostro volto è d'un aria gentile
 @SOLERTI:	297
 @COMPOSER:	Aagesen, Truid
-@COMDATES:	
 @PRINCEPSTITLE:	Cantiones trium vocum
 @PRINCEPSLOC:	Hamburg
 @NORMLOC:	Hamburg
@@ -102,7 +99,6 @@
 @RIMETITLE:	Se 'l vostro volto è d'un aria gentile
 @SOLERTI:	297
 @COMPOSER:	Bottegari, Cosimo (?)
-@COMDATES:	
 @PRINCEPSTITLE:	MS. C331
 @PRINCEPSLOC:	Modena: Biblioteca Estense Universitaria
 @NORMLOC:	Modena: Biblioteca Estense Universitaria
@@ -126,7 +122,6 @@
 @RIMETITLE:	Come cristallo in monte
 @SOLERTI:	327
 @COMPOSER:	Acelli, Cesare
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
@@ -151,7 +146,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Agostini, Lodovico
-@COMDATES:	
 @PRINCEPSTITLE:	Il nuovo echo
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -175,7 +169,6 @@
 @RIMETITLE:	Cantava in riva al fiume
 @SOLERTI:	346
 @COMPOSER:	Agostini, Lodovico
-@COMDATES:	
 @PRINCEPSTITLE:	Il nuovo echo
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -199,7 +192,6 @@
 @RIMETITLE:	Picciola verga e bella
 @SOLERTI:	202
 @COMPOSER:	Agostini, Lodovico
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali. Il terzo libro a sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -223,7 +215,6 @@
 @RIMETITLE:	Tra Giove in cielo e 'l mio signor in terra
 @SOLERTI:	707
 @COMPOSER:	Agostini, Lodovico
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali. Il terzo libro a sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -247,7 +238,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Alberti, Innocenzo
-@COMDATES:	
 @PRINCEPSTITLE:	Primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -271,7 +261,6 @@
 @RIMETITLE:	Mentre nubi di sdegno
 @SOLERTI:	90
 @COMPOSER:	Anerio, Giovanni Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque e sei voci. Libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -295,7 +284,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Angelini, Orazio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -319,7 +307,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	Angelini, Orazio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -343,7 +330,6 @@
 @RIMETITLE:	Dove rivolgi o lusinghier fallace
 @SOLERTI:	1653
 @COMPOSER:	Anonymous
-@COMDATES:	
 @PRINCEPSTITLE:	Lodi, et canzonette spirituali
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -366,7 +352,6 @@
 @RIMETITLE:	Più che Dïana è bella e più mi piace
 @SOLERTI:	276
 @COMPOSER:	Bacchini, Giovanni Maria
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	L'amorosa caccia. A cinque voci
 @PRINCEPSLOC:	Venetia
@@ -391,7 +376,6 @@
 @RIMETITLE:	Lunge da voi, ben mio
 @SOLERTI:	59
 @COMPOSER:	Bellante, Dionisio
-@COMDATES:	
 @PRINCEPSTITLE:	Concerti accademici a una, due, tre, quattro, cinque et sei voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -415,7 +399,6 @@
 @RIMETITLE:	Lunge da voi, mio core
 @SOLERTI:	60
 @COMPOSER:	Bellante, Dionisio
-@COMDATES:	
 @PRINCEPSTITLE:	Concerti accademici a una, due, tre, quattro, cinque et sei voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -439,7 +422,6 @@
 @RIMETITLE:	Come cristallo in monte
 @SOLERTI:	327
 @COMPOSER:	Bellasio, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -463,7 +445,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Bellasio, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -487,7 +468,6 @@
 @RIMETITLE:	Questa vita è la selva, il verde e l'ombra
 @SOLERTI:	443
 @COMPOSER:	Bellasio, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -511,7 +491,6 @@
 @RIMETITLE:	Soavissimo canto
 @SOLERTI:	343
 @COMPOSER:	Bellasio, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a tre, quattro, cinque, sei, sette et otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -535,7 +514,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Bellasio, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -559,7 +537,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Bellaver, Vincenzo
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
@@ -584,7 +561,6 @@
 @RIMETITLE:	Portano l'altre il velo
 @SOLERTI:	785
 @COMPOSER:	Belli, Girolamo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci. Libro primo
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -608,7 +584,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	Belli, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -632,7 +607,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Bertani, Lelio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -656,7 +630,6 @@
 @RIMETITLE:	Già fu dolce mia speme
 @SOLERTI:	342
 @COMPOSER:	Bertani, Lelio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -680,7 +653,6 @@
 @RIMETITLE:	La giovinetta scorza
 @SOLERTI:	194
 @COMPOSER:	Bertani, Lelio
-@COMDATES:	
 @PRINCEPSTITLE:	Il lauro verde
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -704,7 +676,6 @@
 @RIMETITLE:	Tu moristi in quel seno
 @SOLERTI:	1205
 @COMPOSER:	Bertani, Lelio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -728,7 +699,6 @@
 @RIMETITLE:	Vaghe Ninfe del Po, Ninfe sorelle
 @SOLERTI:	175
 @COMPOSER:	Biffi, Giuseppe
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci
 @PRINCEPSLOC:	Milano
 @NORMLOC:	Milan
@@ -752,7 +722,6 @@
 @RIMETITLE:	Che soave rapina
 @SOLERTI:	1177
 @COMPOSER:	Billi, Lucio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -776,7 +745,6 @@
 @RIMETITLE:	Come vivrò ne le mie pene, Amore
 @SOLERTI:	25
 @COMPOSER:	Billi, Lucio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -800,7 +768,6 @@
 @RIMETITLE:	Ben può ritrar le tue fattezze conte
 @SOLERTI:	893
 @COMPOSER:	Bonelli, Aurelio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro delle villanelle a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -824,7 +791,6 @@
 @RIMETITLE:	Amor l'alma m'allaccia
 @SOLERTI:	48
 @COMPOSER:	Bonini, Pietro Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -848,7 +814,6 @@
 @RIMETITLE:	Già tu volasti quattro volte e sei
 @SOLERTI:	289
 @COMPOSER:	Bonini, Pietro Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -872,7 +837,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Borchgrevink, Melchior
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	København, Waltkirch
 @NORMLOC:	Copenhagen
@@ -896,7 +860,6 @@
 @RIMETITLE:	Al lume delle stelle
 @SOLERTI:	246
 @COMPOSER:	Borelli, Francesco Maria
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -920,7 +883,6 @@
 @RIMETITLE:	Soletto Amor tendea
 @SOLERTI:	259
 @COMPOSER:	Borelli, Francesco Maria
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -944,7 +906,6 @@
 @RIMETITLE:	Se 'l vostro volto è d'un aria gentile
 @SOLERTI:	297
 @COMPOSER:	Borsaro, Arcangelo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro delle villanelle a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -968,7 +929,6 @@
 @RIMETITLE:	Ciò che morte rallenta, Amor ristringi
 @SOLERTI:	1263
 @COMPOSER:	Boschetti, Giovanni Boscehtto
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -992,7 +952,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1016,7 +975,6 @@
 @RIMETITLE:	Che soave rapina
 @SOLERTI:	1177
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1040,7 +998,6 @@
 @RIMETITLE:	Donna, quella saetta
 @SOLERTI:	167
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1064,7 +1021,6 @@
 @RIMETITLE:	Non fonte o fiume od aura
 @SOLERTI:	137
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1088,7 +1044,6 @@
 @RIMETITLE:	Questa vita è la selva, il verde e l'ombra
 @SOLERTI:	443
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1112,7 +1067,6 @@
 @RIMETITLE:	Queste note son nove, e queste Amore
 @SOLERTI:	1049
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1136,7 +1090,6 @@
 @RIMETITLE:	Questo tra gli altri fiori
 @SOLERTI:	408
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1160,7 +1113,6 @@
 @RIMETITLE:	Tre son le Grazie ancelle
 @SOLERTI:	371
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1184,7 +1136,6 @@
 @RIMETITLE:	Vorrei lagnarmi a pieno
 @SOLERTI:	165
 @COMPOSER:	Bozi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1208,7 +1159,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Caimo, Giuseppe
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1232,7 +1182,6 @@
 @RIMETITLE:	Vita de la mia vita
 @SOLERTI:	248
 @COMPOSER:	Caletti, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1256,7 +1205,6 @@
 @RIMETITLE:	Lunge da gli occhi vostri
 @SOLERTI:	326
 @COMPOSER:	Cancineo, Michelangelo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro, cinque, sei e otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1280,7 +1228,6 @@
 @RIMETITLE:	Mentre nubi di sdegno
 @SOLERTI:	90
 @COMPOSER:	Cancineo, Michelangelo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro, cinque, sei e otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1304,7 +1251,6 @@
 @RIMETITLE:	Perché la mia Dïana, anzi 'l mio sole
 @SOLERTI:	277
 @COMPOSER:	Cantino, Paolo
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	L'amorosa caccia. A cinque voci
 @PRINCEPSLOC:	Venetia
@@ -1329,7 +1275,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Sartorius, Paul
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali de cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1353,7 +1298,6 @@
 @RIMETITLE:	ANGIOLETTA cortese
 @SOLERTI:	734
 @COMPOSER:	Capece, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro, cinque, et otto voci: opera quinta
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -1377,7 +1321,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Capece, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali, et arie a una, due, et tre voci. Opera decimaquarta
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -1401,7 +1344,6 @@
 @RIMETITLE:	Voi sete bella, ma fugage e presta
 @SOLERTI:	1022
 @COMPOSER:	Capece, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -1425,7 +1367,6 @@
 @RIMETITLE:	Poi che non spira al mio soave foco
 @SOLERTI:	160
 @COMPOSER:	Capilupi, Geminiano
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1449,7 +1390,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Casentini, Marsilio
-@COMDATES:	
 @PRINCEPSTITLE:	Tirsi e clori. Terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1473,7 +1413,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Castro, Jean de
-@COMDATES:	
 @PRINCEPSTITLE:	Rose fresche. Madrigali novi a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1497,7 +1436,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Cavaccio, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Libro primo di madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1521,7 +1459,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Cavaccio, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Musica di giovanni cavaccio. A quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1545,7 +1482,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Cavalieri, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1569,7 +1505,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Cavalieri, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1593,7 +1528,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Cavalieri, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1617,7 +1551,6 @@
 @RIMETITLE:	Se da sì nobil mano
 @SOLERTI:	571
 @COMPOSER:	Cavalieri, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1641,7 +1574,6 @@
 @RIMETITLE:	Su l'ampia fronte il crespo oro lucente
 @SOLERTI:	3
 @COMPOSER:	Cavatoni, Pietro
-@COMDATES:	<1572->1579
 @PRINCEPSTITLE:	Scielta de' madrigali a quatro et cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -1665,7 +1597,6 @@
 @RIMETITLE:	Amarilli s'io te miro
 @SOLERTI:	358
 @COMPOSER:	Cerbello, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Novelli amori. A tre voci. Libro primo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -1689,7 +1620,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali concertati a cinque con il basso continuo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -1713,7 +1643,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali concertati a cinque con il basso continuo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -1737,7 +1666,6 @@
 @RIMETITLE:	Se così dolce è il duolo
 @SOLERTI:	495
 @COMPOSER:	Cifra, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali concertati a cinque con il basso continuo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -1761,7 +1689,6 @@
 @RIMETITLE:	Ferro in ferir pietoso
 @SOLERTI:	1497
 @COMPOSER:	Cirullo, Giovanni Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1785,7 +1712,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Civita, Davit
-@COMDATES:	
 @PRINCEPSTITLE:	Premitie armoniche a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1809,7 +1735,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Civita, Davide
-@COMDATES:	
 @PRINCEPSTITLE:	Premitie armoniche a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1833,7 +1758,6 @@
 @RIMETITLE:	Donna, nel mio ritorno
 @SOLERTI:	157
 @COMPOSER:	Clemsee, Christoforo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Jena
 @NORMLOC:	Jena
@@ -1857,7 +1781,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Colombi, Giovanni Bernardo
-@COMDATES:	
 @PRINCEPSTITLE:	Primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1881,7 +1804,6 @@
 @RIMETITLE:	Quel labbro che le rose han colorito
 @SOLERTI:	549
 @COMPOSER:	Coma, Annibale
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1905,7 +1827,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Corfini, Jacopo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -1929,7 +1850,6 @@
 @RIMETITLE:	Amor l'alma m'allaccia
 @SOLERTI:	48
 @COMPOSER:	Cortellini, Camillo
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -1953,7 +1873,6 @@
 @RIMETITLE:	Mentr'io mirava fiso
 @SOLERTI:	298
 @COMPOSER:	Cortellini, Camillo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Bologna
 @NORMLOC:	Bologna
@@ -1977,7 +1896,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Cortellini, Camillo
-@COMDATES:	1561/01/24-1640
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -2001,7 +1919,6 @@
 @RIMETITLE:	Poiché madonna sdegna
 @SOLERTI:	75
 @COMPOSER:	Cortellini, Camillo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Bologna
 @NORMLOC:	Bologna
@@ -2025,7 +1942,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Costa, Giovanni Maria
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a due, tre, e quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2049,7 +1965,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Di Costanzo, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2073,7 +1988,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Di Costanzo, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2097,7 +2011,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Preti, Alfonso
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2121,7 +2034,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Croce, Giovanni
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
@@ -2146,7 +2058,6 @@
 @RIMETITLE:	Al tuo vago pallore
 @SOLERTI:	615
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2170,7 +2081,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2194,7 +2104,6 @@
 @RIMETITLE:	Donna quanto più a dentro
 @SOLERTI:	96
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci, con il basso continuo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2218,7 +2127,6 @@
 @RIMETITLE:	Donna, lunge da voi
 @SOLERTI:	322
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ventia
 @NORMLOC:	Venice
@@ -2242,7 +2150,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2266,7 +2173,6 @@
 @RIMETITLE:	Là dove sono i pargoletti Amori
 @SOLERTI:	1021
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2290,7 +2196,6 @@
 @RIMETITLE:	La giovinetta scorza
 @SOLERTI:	194
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2314,7 +2219,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ventia
 @NORMLOC:	Venice
@@ -2338,7 +2242,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	D'India, Sigismondo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2362,7 +2265,6 @@
 @RIMETITLE:	Perché di seno in seno
 @SOLERTI:	314
 @COMPOSER:	Dalla Casa, Girolamo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2386,7 +2288,6 @@
 @RIMETITLE:	Bella ANGIOLETTA da le vaghe piume
 @SOLERTI:	735
 @COMPOSER:	Dalla Gostena, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2410,7 +2311,6 @@
 @RIMETITLE:	Di nettare amoroso ebro la mente
 @SOLERTI:	183
 @COMPOSER:	Dalla Gostena, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2434,7 +2334,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Dalla Gostena, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2458,7 +2357,6 @@
 @RIMETITLE:	Costei, che su la fronte ha sparsa al vento
 @SOLERTI:	81
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2482,7 +2380,6 @@
 @RIMETITLE:	Già fu dolce mia speme
 @SOLERTI:	342
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2506,7 +2403,6 @@
 @RIMETITLE:	Lunge da gli occhi vostri
 @SOLERTI:	326
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2530,7 +2426,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Dentice, Scipione
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2554,7 +2449,6 @@
 @RIMETITLE:	Lunge da voi, ben mio
 @SOLERTI:	59
 @COMPOSER:	Dering, Richard
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a quattro voci con il basso continuo
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
@@ -2578,7 +2472,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Di Costanzo, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2602,7 +2495,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Dragoni, Giovanni Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
@@ -2626,7 +2518,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Duc, Filippo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2650,7 +2541,6 @@
 @RIMETITLE:	Amor l'alma m'allaccia
 @SOLERTI:	48
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2674,7 +2564,6 @@
 @RIMETITLE:	ANGIOLETTA cortese
 @SOLERTI:	734
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2698,7 +2587,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Eremita, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -2722,7 +2610,6 @@
 @RIMETITLE:	Donna cortese e bella
 @SOLERTI:	338
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2746,7 +2633,6 @@
 @RIMETITLE:	Ecco mormorar l'onde
 @SOLERTI:	143
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2770,7 +2656,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2794,7 +2679,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2818,7 +2702,6 @@
 @RIMETITLE:	Ore fermate il volo
 @SOLERTI:	144
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2842,7 +2725,6 @@
 @RIMETITLE:	Padre del cielo, or ch'atra nube il calle
 @SOLERTI:	1688
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2866,7 +2748,6 @@
 @RIMETITLE:	Poiché madonna sdegna
 @SOLERTI:	75
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2890,7 +2771,6 @@
 @RIMETITLE:	Questo riposto bel vago boschetto
 @SOLERTI:	362
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2914,7 +2794,6 @@
 @RIMETITLE:	S'a sdegno voi prendete
 @SOLERTI:	154
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2938,7 +2817,6 @@
 @RIMETITLE:	Se l'alma è prigioniera
 @SOLERTI:	564
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2962,7 +2840,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -2986,7 +2863,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3010,7 +2886,6 @@
 @RIMETITLE:	Vorrei lagnarmi a pieno
 @SOLERTI:	165
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3034,7 +2909,6 @@
 @RIMETITLE:	Caro amoroso neo
 @SOLERTI:	602
 @COMPOSER:	Effrem, Muzio
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR: Felis, Stafano
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
@@ -3060,7 +2934,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Eremita, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali di giulio heremita, libro primo. A sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -3084,7 +2957,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3108,7 +2980,6 @@
 @RIMETITLE:	Fuggìa di poggio in poggio
 @SOLERTI:	243
 @COMPOSER:	Eremita, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3132,7 +3003,6 @@
 @RIMETITLE:	O vaga tortorella
 @SOLERTI:	399
 @COMPOSER:	Eremita, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3156,7 +3026,6 @@
 @RIMETITLE:	O vaga tortorella
 @SOLERTI:	399
 @COMPOSER:	Marini, Biagio
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigaletti a una, due, tre e quatro voci, con alcune villanelle. Libro quinto. Opera nona
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3180,7 +3049,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Eremita, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -3204,7 +3072,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Facchi, Agostino
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a doi, tre, quatro et cinque voci con il basso continuo, libro secondo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -3228,7 +3095,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	Falcone, Achille
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3252,7 +3118,6 @@
 @RIMETITLE:	D'aria un tempo nudrimmi, e cibo e vita
 @SOLERTI:	159
 @COMPOSER:	Feliciani, Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3276,7 +3141,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Feliciani, Andrea
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	quinto libro delle muse a cinque voci
 @PRINCEPSLOC:	Venetia
@@ -3301,7 +3165,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Feliciani, Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3325,7 +3188,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Felis, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro di madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3349,7 +3211,6 @@
 @RIMETITLE:	Forse è cagion l'aurora
 @SOLERTI:	896
 @COMPOSER:	Felis, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3373,7 +3234,6 @@
 @RIMETITLE:	Già non son io contento
 @SOLERTI:	24
 @COMPOSER:	Felis, Stefano
-@COMDATES:	~1538-1603/09/25
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3397,7 +3257,6 @@
 @RIMETITLE:	Io non posso gioire
 @SOLERTI:	23
 @COMPOSER:	Felis, Stefano
-@COMDATES:	~1538-1603/09/25
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3421,7 +3280,6 @@
 @RIMETITLE:	Lunge da voi, ben mio
 @SOLERTI:	59
 @COMPOSER:	Felis, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3445,7 +3303,6 @@
 @RIMETITLE:	Lunge da voi, mio core
 @SOLERTI:	60
 @COMPOSER:	Felis, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3469,7 +3326,6 @@
 @RIMETITLE:	Sarai termine ancora
 @SOLERTI:	303
 @COMPOSER:	Felis, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3493,7 +3349,6 @@
 @RIMETITLE:	Siepe, che gli orti vaghi
 @SOLERTI:	302
 @COMPOSER:	Felis, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3517,7 +3372,6 @@
 @RIMETITLE:	Voi sete bella, ma fugage e presta
 @SOLERTI:	1022
 @COMPOSER:	Felis, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3541,7 +3395,6 @@
 @RIMETITLE:	Bruna sei tu ma bella
 @SOLERTI:	372
 @COMPOSER:	Ferrabosco, Alfonso
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3565,7 +3418,6 @@
 @RIMETITLE:	Già fu dolce mia speme
 @SOLERTI:	342
 @COMPOSER:	Ferrabosco, Alfonso
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3589,7 +3441,6 @@
 @RIMETITLE:	Quant'io sono infelice
 @SOLERTI:	760
 @COMPOSER:	Ferrabosco, Alfonso
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3613,7 +3464,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Ferrabosco, Alfonso
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3637,7 +3487,6 @@
 @RIMETITLE:	Vorrei lagnarmi a pieno
 @SOLERTI:	165
 @COMPOSER:	Ferrabosco, Alfonso
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3661,7 +3510,6 @@
 @RIMETITLE:	Ecco mormorar l'onde
 @SOLERTI:	143
 @COMPOSER:	Ferro, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3685,7 +3533,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Ferro, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3709,7 +3556,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Ferro, Pier Matheo
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR:	Ferro, Giulio
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -3735,7 +3581,6 @@
 @RIMETITLE:	Già fu dolce mia speme
 @SOLERTI:	342
 @COMPOSER:	Florio, Giovanni
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
@@ -3760,7 +3605,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Fonghetti, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Capricii et madrigali. A due voci
 @PRINCEPSLOC:	Verona
 @NORMLOC:	Verona
@@ -3784,7 +3628,6 @@
 @RIMETITLE:	Lunge da voi, mio core
 @SOLERTI:	60
 @COMPOSER:	Fontanelli, Alfonso
-@COMDATES:	
 @PRINCEPSTITLE:	MS. F.1525
 @PRINCEPSLOC:	Modena
 @NORMLOC:	Modena
@@ -3808,7 +3651,6 @@
 @RIMETITLE:	Amor, che qui d'intorno
 @SOLERTI:	256
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3832,7 +3674,6 @@
 @RIMETITLE:	Eran velati i crespi e biondi crini
 @SOLERTI:	187
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3856,7 +3697,6 @@
 @RIMETITLE:	Io non posso gioire
 @SOLERTI:	23
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3880,7 +3720,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -3904,7 +3743,6 @@
 @RIMETITLE:	Le amare notti in ch'io m'affliggo e doglio
 @SOLERTI:	939
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3928,7 +3766,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3952,7 +3789,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -3976,7 +3812,6 @@
 @RIMETITLE:	Tre gran donne vid'io ch'in esser belle
 @SOLERTI:	126
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4000,7 +3835,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Gabella, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4024,7 +3858,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Gabrieli, Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4048,7 +3881,6 @@
 @RIMETITLE:	Donna cortese e bella
 @SOLERTI:	338
 @COMPOSER:	Gabrieli, Giovanni
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
@@ -4073,7 +3905,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Gabrieli, Giovanni
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Dialoghi musicali de diversi eccellentissimi autori
 @PRINCEPSLOC:	Venetia
@@ -4098,7 +3929,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Albano, Marcello
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro di canzoni e madrigaletti a tre et a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -4122,7 +3952,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Fornaci, Giacomo
-@COMDATES:	
 @PRINCEPSTITLE:	Amorosi respiri
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4146,7 +3975,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Gagliano, Marco da
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4170,7 +3998,6 @@
 @RIMETITLE:	Voi sete bella, ma fugage e presta
 @SOLERTI:	1022
 @COMPOSER:	Gagliano, Marco da
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4194,7 +4021,6 @@
 @RIMETITLE:	Ecco mormorar l'onde
 @SOLERTI:	143
 @COMPOSER:	Galeno, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4218,7 +4044,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Galeno, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4242,7 +4067,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Galeno, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4266,7 +4090,6 @@
 @RIMETITLE:	Non si levava ancor l'alba novella
 @SOLERTI:	379
 @COMPOSER:	Gallo, Vincenzo
-@COMDATES:	
 @PRINCEPSTITLE:	Le risa a vicenda. Vaghi e dilettevoli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4290,7 +4113,6 @@
 @RIMETITLE:	Lontano dal mio cuore
 @SOLERTI:	323
 @COMPOSER:	Garzi, Pietro Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali e canzonette a due, tre, quattro e cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4314,7 +4136,6 @@
 @RIMETITLE:	Anime sante e belle
 @SOLERTI:	1637
 @COMPOSER:	Gastoldi, Giovanni Giacomo
-@COMDATES:	
 @PRINCEPSTITLE:	Sacre lodi
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4338,7 +4159,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Gastoldi, Giovanni Giacomo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4362,7 +4182,6 @@
 @RIMETITLE:	Non può l'angusto loco
 @SOLERTI:	319
 @COMPOSER:	Gastoldi, Giovanni Giacomo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4386,7 +4205,6 @@
 @RIMETITLE:	Occhi leggiadri e belli,/Nel vostro dolce nero
 @SOLERTI:	272
 @COMPOSER:	Gastoldi, Giovanni Giacomo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4410,7 +4228,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Genvino, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Libro secondo di madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -4434,7 +4251,6 @@
 @RIMETITLE:	Vita de la mia vita
 @SOLERTI:	248
 @COMPOSER:	Genvino, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Libro secondo di madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -4458,7 +4274,6 @@
 @RIMETITLE:	Amorosa fenice
 @SOLERTI:	290
 @COMPOSER:	Genvino, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Libro secondo di madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -4482,7 +4297,6 @@
 @RIMETITLE:	Bella ANGIOLETTA da le vaghe piume
 @SOLERTI:	735
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4506,7 +4320,6 @@
 @RIMETITLE:	Caro amoroso neo
 @SOLERTI:	602
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4530,7 +4343,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4554,7 +4366,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4578,7 +4389,6 @@
 @RIMETITLE:	Mentre Madonna s'appoggiò pensosa
 @SOLERTI:	89
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4602,7 +4412,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4626,7 +4435,6 @@
 @RIMETITLE:	Se cosí dolce è il duolo
 @SOLERTI:	495
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4650,7 +4458,6 @@
 @RIMETITLE:	Se da sì nobil mano
 @SOLERTI:	571
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4674,7 +4481,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4698,7 +4504,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Gesualdo, Carlo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4722,7 +4527,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Gherardini, Arcangelo
-@COMDATES:	<1585->1587
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4746,7 +4550,6 @@
 @RIMETITLE:	Qual cavalier ardito
 @SOLERTI:	1203
 @COMPOSER:	Gherardini, Arcangelo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4770,7 +4573,6 @@
 @RIMETITLE:	Tu moristi in quel seno
 @SOLERTI:	1205
 @COMPOSER:	Gherardini, Arcangelo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -4794,7 +4596,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4818,7 +4619,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Masnelli, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4842,7 +4642,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4866,7 +4665,6 @@
 @RIMETITLE:	Dolcissimi legami
 @SOLERTI:	339
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4890,7 +4688,6 @@
 @RIMETITLE:	Mentre in grembo a la madre Amore un giorno
 @SOLERTI:	255
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4914,7 +4711,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
@@ -4967,7 +4763,6 @@
 @RIMETITLE:	O timida lepretta
 @SOLERTI:	901
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -4991,7 +4786,6 @@
 @RIMETITLE:	Tu nascesti di furto
 @SOLERTI:	1032
 @COMPOSER:	Giovannelli, Ruggiero
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	La gloria musicale. A cinque voci
 @PRINCEPSLOC:	Venetia
@@ -5016,7 +4810,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Mosto, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5040,7 +4833,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Graziani, Tommaso
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5064,7 +4856,6 @@
 @RIMETITLE:	Lunge da gli occhi vostri
 @SOLERTI:	326
 @COMPOSER:	Gregorii, Francesco di
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
@@ -5089,7 +4880,6 @@
 @RIMETITLE:	Amor, se fia giammai che dolce i' tócchi
 @SOLERTI:	46
 @COMPOSER:	Guami, Francesco
-@COMDATES:	1543-1602
 @PRINCEPSTITLE:	Il terzo libro de madrigali a quattro, et a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5113,7 +4903,6 @@
 @RIMETITLE:	Fuggi, fuggi, dolor, da questo petto
 @SOLERTI:	341
 @COMPOSER:	Guami, Francesco
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
@@ -5138,7 +4927,6 @@
 @RIMETITLE:	Tolse BARBARA gente il pregio a Roma
 @SOLERTI:	541
 @COMPOSER:	Guami, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5162,7 +4950,6 @@
 @RIMETITLE:	Queste note io vi dono
 @SOLERTI:	1048
 @COMPOSER:	Guami, Giuseppe
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
@@ -5187,7 +4974,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Guelfi, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali da concertarsi a cinque voci et il basso continuo
 @PRINCEPSLOC:	Firenze
 @NORMLOC:	Florence
@@ -5211,7 +4997,6 @@
 @RIMETITLE:	A chi creder degg'io
 @SOLERTI:	97
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
@@ -5235,7 +5020,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Grabbe, Johann
-@COMDATES:	
 @PRINCEPSTITLE:	Primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5259,7 +5043,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Taroni, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5283,7 +5066,6 @@
 @RIMETITLE:	Donna, quella saetta
 @SOLERTI:	167
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
@@ -5307,7 +5089,6 @@
 @RIMETITLE:	Mentre la donna mia cangiando aspetto
 @SOLERTI:	265
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
@@ -5331,7 +5112,6 @@
 @RIMETITLE:	O dolci lagrimette
 @SOLERTI:	325
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
@@ -5355,7 +5135,6 @@
 @RIMETITLE:	Qui dove i sacri e verdeggianti allori
 @SOLERTI:	363
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
@@ -5379,7 +5158,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Hassler, Jakob
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Norimberga
 @NORMLOC:	Nuremberg
@@ -5403,7 +5181,6 @@
 @RIMETITLE:	Io son la Primavera
 @SOLERTI:	361
 @COMPOSER:	Hodemont, Leonard Collet de
-@COMDATES:	
 @PRINCEPSTITLE:	Armonica recreatione. Villanelli a tre voci con il basso continuo
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
@@ -5427,7 +5204,6 @@
 @RIMETITLE:	Io son la Primavera
 @SOLERTI:	361
 @COMPOSER:	Stefani, Giovanni ?
-@COMDATES:
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Scherzi amorosi. Canzonette ad una voce sola. Libro secondo
 @PRINCEPSLOC:	Venice
@@ -5452,7 +5228,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Ingegneri, Marco Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5476,7 +5251,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Crisci, Orazio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5500,7 +5274,6 @@
 @RIMETITLE:	D'aria un tempo nudrimmi, e cibo e vita
 @SOLERTI:	159
 @COMPOSER:	Ingegneri, Marco Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5524,7 +5297,6 @@
 @RIMETITLE:	Gli augelletti diversi
 @SOLERTI:	240
 @COMPOSER:	Ingegneri, Marco Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5548,7 +5320,6 @@
 @RIMETITLE:	Mentr'io mirava fiso
 @SOLERTI:	298
 @COMPOSER:	Ingegneri, Marco Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5572,7 +5343,6 @@
 @RIMETITLE:	Se 'l mio core è con voi come desia
 @SOLERTI:	26
 @COMPOSER:	Ingegneri, Marco Antonio
-@COMDATES:	~1535-1592/07/01
 @PRINCEPSTITLE:	Il sesto libro de madrigli a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5596,7 +5366,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Isnardi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
@@ -5620,7 +5389,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Isnardi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5644,7 +5412,6 @@
 @RIMETITLE:	Quel labbro che le rose han colorito
 @SOLERTI:	549
 @COMPOSER:	Isnardi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5668,7 +5435,6 @@
 @RIMETITLE:	Lunge da voi, ben mio
 @SOLERTI:	59
 @COMPOSER:	Kapsberger, Johannes
-@COMDATES:	
 @PRINCEPSTITLE:	Libro primo de madrigali a cinque voci
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -5692,7 +5458,6 @@
 @RIMETITLE:	Voi sete bella, ma fugage e presta
 @SOLERTI:	1022
 @COMPOSER:	Lacorcia, Scipione
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5716,7 +5481,6 @@
 @RIMETITLE:	Amarilli s'io te miro
 @SOLERTI:	358
 @COMPOSER:	Lambardi, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5740,7 +5504,6 @@
 @RIMETITLE:	Correte, amanti, a le bellezze nove
 @SOLERTI:	356
 @COMPOSER:	Lambardi, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5764,7 +5527,6 @@
 @RIMETITLE:	Già fui caro agli occhi tuoi
 @SOLERTI:	353
 @COMPOSER:	Lambardi, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5788,7 +5550,6 @@
 @RIMETITLE:	Io son la Primavera
 @SOLERTI:	361
 @COMPOSER:	Lambardi, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro delle villanelle a tre, quattro et a cinque
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5812,7 +5573,6 @@
 @RIMETITLE:	Occhi leggiadri e belli/ Or che volete più dal petto mio?
 @SOLERTI:	nsm1
 @COMPOSER:	Lambardi, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro delle villanelle a tre, quattro et a cinque
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5836,7 +5596,6 @@
 @RIMETITLE:	Occhi miei mal accorti
 @SOLERTI:	354
 @COMPOSER:	Lambardi, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5860,7 +5619,6 @@
 @RIMETITLE:	Voi volete ch'io v'ami
 @SOLERTI:	359
 @COMPOSER:	Lambardi, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette a tre, quattro e cinque voci. Libro terzo
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -5884,7 +5642,6 @@
 @RIMETITLE:	Tu moristi in quel seno
 @SOLERTI:	1205
 @COMPOSER:	Landi, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5908,7 +5665,6 @@
 @RIMETITLE:	Se ti mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Landi, Stefano
-@COMDATES:	
 @PRINCEPSTITLE:	Arie a una voce
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5932,7 +5688,6 @@
 @RIMETITLE:	Geloso amante apro mill'occhi e giro
 @SOLERTI:	99
 @COMPOSER:	Luzzaschi, Luzzasco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5955,7 +5710,6 @@
 @RIMETITLE:	Aminta poi ch'a Filli non dispiacque
 @SOLERTI:	367
 @COMPOSER:	Luzzaschi. Luzzasco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -5979,7 +5733,6 @@
 @RIMETITLE:	Dolce mia fiamma, dolce
 @SOLERTI:	417
 @COMPOSER:	Luzzaschi. Luzzasco
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -6003,7 +5756,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Luzzaschi. Luzzasco
-@COMDATES:	
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6027,7 +5779,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Luzzaschi, Luzzasco
-@COMDATES:	
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6051,7 +5802,6 @@
 @RIMETITLE:	Dolce mia fiamma, dolce
 @SOLERTI:	417
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6075,7 +5825,6 @@
 @RIMETITLE:	In un fonte tranquillo
 @SOLERTI:	347
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6099,7 +5848,6 @@
 @RIMETITLE:	L'alma con voi mandai
 @SOLERTI:	410
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6123,7 +5871,6 @@
 @RIMETITLE:	Non sono in queste rive
 @SOLERTI:	307
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6147,7 +5894,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6171,7 +5917,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6195,7 +5940,6 @@
 @RIMETITLE:	Soavissimo canto
 @SOLERTI:	343
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6219,7 +5963,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6243,7 +5986,6 @@
 @RIMETITLE:	Vorrei lagnarmi a pieno
 @SOLERTI:	165
 @COMPOSER:	Macigni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci, con il basso continuo, libro primo
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -6267,7 +6009,6 @@
 @RIMETITLE:	Al tuo vago pallore
 @SOLERTI:	615
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6291,7 +6032,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6315,7 +6055,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6339,7 +6078,6 @@
 @RIMETITLE:	Già fu dolce mia speme
 @SOLERTI:	342
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6363,7 +6101,6 @@
 @RIMETITLE:	Mentre volgea il mio sole
 @SOLERTI:	261
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -6387,7 +6124,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Le gioie. Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venetia
@@ -6412,7 +6148,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6436,7 +6171,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Macque, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6460,7 +6194,6 @@
 @RIMETITLE:	Amor, che qui d'intorno
 @SOLERTI:	256
 @COMPOSER:	Magni, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Opera terza
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6484,7 +6217,6 @@
 @RIMETITLE:	Arsi mentre m'amaste
 @SOLERTI:	191
 @COMPOSER:	Malpigli, Gentile
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6508,7 +6240,6 @@
 @RIMETITLE:	Lunge da gli occhi vostri
 @SOLERTI:	326
 @COMPOSER:	Malpigli, Gentile
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6532,7 +6263,6 @@
 @RIMETITLE:	Questa lieve zanzara
 @SOLERTI:	1204
 @COMPOSER:	Malpigli, Gentile
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6556,7 +6286,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Malpigli, Gentile
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6580,7 +6309,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Malvezzi, Christofano
-@COMDATES:	1547/06/28-1599/01/22
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voi
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -6604,7 +6332,6 @@
 @RIMETITLE:	Padre del cielo, or ch'atra nube il calle
 @SOLERTI:	1688
 @COMPOSER:	Malvezzi, Christofano
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -6628,7 +6355,6 @@
 @RIMETITLE:	Donna cortese e bella
 @SOLERTI:	338
 @COMPOSER:	Mancini, Curzio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6652,7 +6378,6 @@
 @RIMETITLE:	Bruna sei tu ma bella
 @SOLERTI:	372
 @COMPOSER:	Mancini, Curzio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6676,7 +6401,6 @@
 @RIMETITLE:	Al lume delle stelle
 @SOLERTI:	246
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6700,7 +6424,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6724,7 +6447,6 @@
 @RIMETITLE:	Arsi gran tempo, e del mio foco indegno
 @SOLERTI:	107
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6748,7 +6470,6 @@
 @RIMETITLE:	Di nettare amoroso ebro la mente
 @SOLERTI:	183
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6772,7 +6493,6 @@
 @RIMETITLE:	Disdegno e gelosia
 @SOLERTI:	93
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6796,7 +6516,6 @@
 @RIMETITLE:	In un bel bosco leggiadre fronde
 @SOLERTI:	395
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6820,7 +6539,6 @@
 @RIMETITLE:	Io vidi già sotto l'ardente sole
 @SOLERTI:	247
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6844,7 +6562,6 @@
 @RIMETITLE:	Là dove sono i pargoletti Amori
 @SOLERTI:	1021
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6868,7 +6585,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6892,7 +6608,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	~1553-1599
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6916,7 +6631,6 @@
 @RIMETITLE:	O verdi selve, o dolci fonti, o rivi
 @SOLERTI:	309
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6940,7 +6654,6 @@
 @RIMETITLE:	Padre del cielo, or ch'atra nube il calle
 @SOLERTI:	1688
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali spirituali a cinque voci. Libro primo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -6964,7 +6677,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	De floridi virtuosi d'italia il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venezia
@@ -6989,7 +6701,6 @@
 @RIMETITLE:	Sovra un lucido rio
 @SOLERTI:	318
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -7013,7 +6724,6 @@
 @RIMETITLE:	Su l'ampia fronte il crespo oro lucente
 @SOLERTI:	3
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	~1553-1599
 @PRINCEPSTITLE:	Il terzo libro de' madrigali a sei voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -7037,7 +6747,6 @@
 @RIMETITLE:	Sul carro de la mente auriga siedi
 @SOLERTI:	553
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a quattro voci. Libro primo
 @PRINCEPSLOC:	Roma
 @NORMLOC:	Rome
@@ -7061,7 +6770,6 @@
 @RIMETITLE:	Vita de la mia vita
 @SOLERTI:	248
 @COMPOSER:	Marenzio, Luca
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7085,7 +6793,6 @@
 @RIMETITLE:	Cantava in riva al fiume
 @SOLERTI:	346
 @COMPOSER:	Marinis, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7109,7 +6816,6 @@
 @RIMETITLE:	Mentre volgea il mio sole
 @SOLERTI:	261
 @COMPOSER:	Marinis, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7133,7 +6839,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	Marinis, Giovanni de
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7157,7 +6862,6 @@
 @RIMETITLE:	Mentre Madonna s'appoggiò pensosa
 @SOLERTI:	89
 @COMPOSER:	Marotta, Erasmo
-@COMDATES:	
 @PRINCEPSTITLE:	Aminta musicale
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7181,7 +6885,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	L'Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7205,7 +6908,6 @@
 @RIMETITLE:	Soavissimo bacio
 @SOLERTI:	308
 @COMPOSER:	Masnelli, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7229,7 +6931,6 @@
 @RIMETITLE:	Amorosa fenice
 @SOLERTI:	290
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7253,7 +6954,6 @@
 @RIMETITLE:	Gli augelletti diversi
 @SOLERTI:	240
 @COMPOSER:	Massaino, Tiburtio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7277,7 +6977,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Mayone, Ascanio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -7301,7 +7000,6 @@
 @RIMETITLE:	Amor l'alma m'allaccia
 @SOLERTI:	48
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7325,7 +7023,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7349,7 +7046,6 @@
 @RIMETITLE:	Donna cortese e bella
 @SOLERTI:	338
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7373,7 +7069,6 @@
 @RIMETITLE:	Donna, quella saetta
 @SOLERTI:	167
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7397,7 +7092,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7421,7 +7115,6 @@
 @RIMETITLE:	Fummo felici un tempo
 @SOLERTI:	190
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7445,7 +7138,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7469,7 +7161,6 @@
 @RIMETITLE:	Io non posso gioire
 @SOLERTI:	23
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7493,7 +7184,6 @@
 @RIMETITLE:	Io veggio in cielo scintillar le stelle
 @SOLERTI:	33
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7517,7 +7207,6 @@
 @RIMETITLE:	Io vidi già sotto l'ardente sole
 @SOLERTI:	247
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7541,7 +7230,6 @@
 @RIMETITLE:	Lunge da voi, ben mio
 @SOLERTI:	59
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7565,7 +7253,6 @@
 @RIMETITLE:	Lunge da voi, mio core
 @SOLERTI:	60
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7589,7 +7276,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7613,7 +7299,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7637,7 +7322,6 @@
 @RIMETITLE:	Se l'alma è prigioniera
 @SOLERTI:	564
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7661,7 +7345,6 @@
 @RIMETITLE:	Se l'imagine vostra
 @SOLERTI:	155
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7685,7 +7368,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7709,7 +7391,6 @@
 @RIMETITLE:	Vita de la mia vita
 @SOLERTI:	248
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7733,7 +7414,6 @@
 @RIMETITLE:	Vorrei lagnarmi a pieno
 @SOLERTI:	165
 @COMPOSER:	Mazza, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7757,7 +7437,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Mel, Rinaldo del
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
@@ -7781,7 +7460,6 @@
 @RIMETITLE:	In un bel bosco leggiadre fronde
 @SOLERTI:	395
 @COMPOSER:	Mel, Rinaldo del
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7805,7 +7483,6 @@
 @RIMETITLE:	La natura compose
 @SOLERTI:	407
 @COMPOSER:	Mel, Rinaldo del
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7829,7 +7506,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	Mel, Rinaldo del
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
@@ -7853,7 +7529,6 @@
 @RIMETITLE:	Amor l'alma m'allaccia
 @SOLERTI:	48
 @COMPOSER:	Meldert, Leonardo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7877,7 +7552,6 @@
 @RIMETITLE:	Facelle son d'immortal luce ardenti
 @SOLERTI:	558
 @COMPOSER:	Meldert, Leonardo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7900,7 +7574,6 @@
 @RIMETITLE:	M'apre talor madonna il suo celeste
 @SOLERTI:	88
 @COMPOSER:	Meldert, Leonardo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7924,7 +7597,6 @@
 @RIMETITLE:	Negro era intorno e 'n bianche falde il cielo
 @SOLERTI:	237
 @COMPOSER:	Meldert, Leonardo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7948,7 +7620,6 @@
 @RIMETITLE:	Voi sete bella, ma fugage e presta
 @SOLERTI:	1022
 @COMPOSER:	Merula, Tarquinio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali concertati. Opera quinta
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7972,7 +7643,6 @@
 @RIMETITLE:	Caro amoroso neo
 @SOLERTI:	602
 @COMPOSER:	Merulo, Claudio
-@COMDATES:	1533/04/08-1604/05/04
 @PRINCEPSTITLE:	Il primo fiore della ghirlanda musicale
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7996,7 +7666,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Merulo, Claudio
-@COMDATES:	1533/04/08-1604/05/04
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Corona de madrigali a sei voci
 @PRINCEPSLOC:	Vineggia
@@ -8021,7 +7690,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Merulo, Claudio
-@COMDATES:	1533/04/08-1604/05/04
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Corona de madrigali a sei voci
 @PRINCEPSLOC:	Vineggia
@@ -8046,7 +7714,6 @@
 @RIMETITLE:	Amor, ch'aspro tormento
 @SOLERTI:	254
 @COMPOSER:	Milleville, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -8070,7 +7737,6 @@
 @RIMETITLE:	Amorosa fenice
 @SOLERTI:	290
 @COMPOSER:	Milleville, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	MS Mus.F.1358
 @PRINCEPSLOC:	Modena: Biblioteca Estense Universitaria
 @NORMLOC:	Modena: Biblioteca Estense Universitaria
@@ -8094,7 +7760,6 @@
 @RIMETITLE:	Amor l'alma m'allaccia
 @SOLERTI:	48
 @COMPOSER:	Monte, Filippo de
-@COMDATES:	
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8118,7 +7783,6 @@
 @RIMETITLE:	Disdegno e gelosia
 @SOLERTI:	93
 @COMPOSER:	Monte, Filippo de
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8142,7 +7806,6 @@
 @RIMETITLE:	Mentre nubi di sdegno
 @SOLERTI:	90
 @COMPOSER:	Monte, Filippo de
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8166,7 +7829,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Monte, Filippo de
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8190,7 +7852,6 @@
 @RIMETITLE:	Poiché madonna sdegna
 @SOLERTI:	75
 @COMPOSER:	Monte, Filippo de
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8214,7 +7875,6 @@
 @RIMETITLE:	Al discioglier d'un groppo
 @SOLERTI:	279
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR: Felis, Stefano
 @PRINCEPSTITLE:	in Stefano Felis, Il sesto libro de madrigali a cinque voci
@@ -8240,7 +7900,6 @@
 @RIMETITLE:	Al tuo vago pallore
 @SOLERTI:	615
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	L'Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8264,7 +7923,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8288,7 +7946,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Porta, Costanzo
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8312,7 +7969,6 @@
 @RIMETITLE:	Ardi, Amor, se ti piace
 @SOLERTI:	257
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8336,7 +7992,6 @@
 @RIMETITLE:	Caro amoroso neo
 @SOLERTI:	602
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8360,7 +8015,6 @@
 @RIMETITLE:	Deh! perché amar chi voi con pari affetto
 @SOLERTI:	865
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Dialoghi musicali de diversi eccellentissimi autori
 @PRINCEPSLOC:	Venetia
@@ -8385,7 +8039,6 @@
 @RIMETITLE:	Di nettare amoroso ebro la mente
 @SOLERTI:	183
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8409,7 +8062,6 @@
 @RIMETITLE:	Di nettare amoroso ebro la mente
 @SOLERTI:	183
 @COMPOSER:	Cirullo, Giovanni Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8433,7 +8085,6 @@
 @RIMETITLE:	Donna, se ben le chiome ho già ripiene
 @SOLERTI:	389
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	L'Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8457,7 +8108,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il quartodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8481,7 +8131,6 @@
 @RIMETITLE:	Già fu dolce mia speme
 @SOLERTI:	342
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8505,7 +8154,6 @@
 @RIMETITLE:	In un bel bosco leggiadre fronde
 @SOLERTI:	395
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	L'Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8529,7 +8177,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8553,7 +8200,6 @@
 @RIMETITLE:	Negli anni acerbi tua purpurea rosa
 @SOLERTI:	592
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzodecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8577,7 +8223,6 @@
 @RIMETITLE:	Odi, Filli, che tuona; odi che 'n gelo
 @SOLERTI:	366
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	L'Undecimo libro delli madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8601,7 +8246,6 @@
 @RIMETITLE:	Padre del cielo, or ch'atra nube il calle
 @SOLERTI:	1688
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali spirituali a sei et sette voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8625,7 +8269,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8649,7 +8292,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8673,7 +8315,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8697,7 +8338,6 @@
 @RIMETITLE:	Viviamo, amianci, o mia gradita Jelle
 @SOLERTI:	380
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8721,7 +8361,6 @@
 @RIMETITLE:	Vorrei lagnarmi a pieno
 @SOLERTI:	165
 @COMPOSER:	Monte, Filippo di
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8745,7 +8384,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Montella, Giovan Domenico
-@COMDATES:	
 @PRINCEPSTITLE:	Primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -8769,7 +8407,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Montella, Giovan Domenico
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -8793,7 +8430,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Montella, Giovan Domenico
-@COMDATES:	
 @PRINCEPSTITLE:	Primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -8817,7 +8453,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Montella, Giovanni Domenico
-@COMDATES:	
 @PRINCEPSTITLE:	Quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -8841,7 +8476,6 @@
 @RIMETITLE:	Al lume delle stelle
 @SOLERTI:	246
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il settimo libro de madrigali a 1, 2, 3, 4 e 6 voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8865,7 +8499,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8889,7 +8522,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8913,7 +8545,6 @@
 @RIMETITLE:	Dolcissimi legami
 @SOLERTI:	339
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8937,7 +8568,6 @@
 @RIMETITLE:	Donna, nel mio ritorno
 @SOLERTI:	157
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8961,7 +8591,6 @@
 @RIMETITLE:	Ecco mormorar l'onde
 @SOLERTI:	143
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -8985,7 +8614,6 @@
 @RIMETITLE:	Mentr'io mirava fiso
 @SOLERTI:	298
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9009,7 +8637,6 @@
 @RIMETITLE:	Non si levava ancor l'alba novella
 @SOLERTI:	379
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9033,7 +8660,6 @@
 @RIMETITLE:	Non sono in queste rive
 @SOLERTI:	307
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9057,7 +8683,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Monteverdi, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9081,7 +8706,6 @@
 @RIMETITLE:	Mentre nubi di sdegno
 @SOLERTI:	90
 @COMPOSER:	Morari, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9105,7 +8729,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Morari, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9129,7 +8752,6 @@
 @RIMETITLE:	Poiché madonna sdegna
 @SOLERTI:	75
 @COMPOSER:	Morari, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9153,7 +8775,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Morari, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9177,7 +8798,6 @@
 @RIMETITLE:	Tu moristi in quel seno
 @SOLERTI:	1205
 @COMPOSER:	Moro, Giacomo
-@COMDATES:	
 @PRINCEPSTITLE:	Gli encomii musicali
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9201,7 +8821,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Cantone, Serafino
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9225,7 +8844,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Hassler, Hans Leo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7 & 8 voci
 @PRINCEPSLOC:	Augusta
 @NORMLOC:	Augsburg
@@ -9249,7 +8867,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Gabussi, Giulio Cesare
-@COMDATES:	
 @PRINCEPSTITLE:	Secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9273,7 +8890,6 @@
 @RIMETITLE:	Geloso amante apro mill'occhi e giro
 @SOLERTI:	99
 @COMPOSER:	Mosto, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9297,7 +8913,6 @@
 @RIMETITLE:	Quella candida mano/Ch'a mezzo il verno i vaghi fiori accinse
 @SOLERTI:	315
 @COMPOSER:	Mosto, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9321,7 +8936,6 @@
 @RIMETITLE:	Secco è l'arbor gentile
 @SOLERTI:	189
 @COMPOSER:	Mosto, Giovanni Battista
-@COMDATES:	
 @PRINCEPSTITLE:	Il lauro secco
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -9345,7 +8959,6 @@
 @RIMETITLE:	La giovinetta scorza
 @SOLERTI:	194
 @COMPOSER:	Naldi, Romolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9369,7 +8982,6 @@
 @RIMETITLE:	Amor, che qui d'intorno
 @SOLERTI:	256
 @COMPOSER:	Nanino, Giovanni Bernardino
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9393,7 +9005,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Nanino, Giovanni Bernardino
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9417,7 +9028,6 @@
 @RIMETITLE:	Io non posso gioire
 @SOLERTI:	23
 @COMPOSER:	Nanino, Giovanni Bernardino
-@COMDATES:	~1560-1623
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9441,7 +9051,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Nanino, Giovanni Bernardino
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9465,7 +9074,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Nantermi, Michelangelo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9489,7 +9097,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Nanterni, Orazio
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR: Scaletta, Horatio
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -9515,7 +9122,6 @@
 @RIMETITLE:	Non sono in queste rive
 @SOLERTI:	307
 @COMPOSER:	Narducci, Benedetto
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Vittoria amorosa. A cinque voci
 @PRINCEPSLOC:	Venetia
@@ -9540,7 +9146,6 @@
 @RIMETITLE:	Quella candida mano/Ch'a mezzo il verno i vaghi fiori accinse
 @SOLERTI:	315
 @COMPOSER:	Nenna, Pomponio
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -9564,7 +9169,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Nenna, Pomponio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -9588,7 +9192,6 @@
 @RIMETITLE:	Viviamo, amianci, o mia gradita Jelle
 @SOLERTI:	380
 @COMPOSER:	Nenna, Pomponio
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -9612,7 +9215,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Dueto, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9636,7 +9238,6 @@
 @RIMETITLE:	Mentre i dipinti augelli
 @SOLERTI:	241
 @COMPOSER:	Nielsen, Hans
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9660,7 +9261,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Oristagno, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9684,7 +9284,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Oristagno, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9708,7 +9307,6 @@
 @RIMETITLE:	Mentr'io mirava fiso
 @SOLERTI:	298
 @COMPOSER:	Orologio, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a quattro, cinque, et sei voci
 @PRINCEPSLOC:	Dresdae
 @NORMLOC:	Dresden
@@ -9732,7 +9330,6 @@
 @RIMETITLE:	A chi creder degg'io
 @SOLERTI:	97
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9756,7 +9353,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9780,7 +9376,6 @@
 @RIMETITLE:	Come vivrò ne le mie pene, Amore
 @SOLERTI:	25
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	~1551-1601/11/26
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9804,7 +9399,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9828,7 +9422,6 @@
 @RIMETITLE:	Io non posso gioire
 @SOLERTI:	23
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	~1551-1601/11/26
 @PRINCEPSTITLE:	L'Ottavo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9852,7 +9445,6 @@
 @RIMETITLE:	Lunge da voi, ben mio
 @SOLERTI:	59
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9876,7 +9468,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9900,7 +9491,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	~1551-1601/11/26
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9924,7 +9514,6 @@
 @RIMETITLE:	Non sono in queste rive
 @SOLERTI:	307
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9947,7 +9536,6 @@
 @RIMETITLE:	Occhi leggiadri e belli,/Nel vostro dolce nero
 @SOLERTI:	272
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9971,7 +9559,6 @@
 @RIMETITLE:	Passa la nave tua che porta il core
 @SOLERTI:	1245
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9995,7 +9582,6 @@
 @RIMETITLE:	Voi mi chiedeste il core
 @SOLERTI:	152
 @COMPOSER:	Pallavicino, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10018,7 +9604,6 @@
 @RIMETITLE:	Se 'l vostro volto è d'un aria gentile
 @SOLERTI:	297
 @COMPOSER:	Peetrinus, Jacobus
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10042,7 +9627,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Pesciolini, Biagio
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10066,7 +9650,6 @@
 @RIMETITLE:	Deh ferma, ferma il tuo ribello, Amore
 @SOLERTI:	1082
 @COMPOSER:	Philips, Peter
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
@@ -10090,7 +9673,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Piccioni, Giovanni
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10114,7 +9696,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Pordenon, Marco Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10138,7 +9719,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Pordenon, Marco Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10162,7 +9742,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Trombetti, Ascanio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10186,7 +9765,6 @@
 @RIMETITLE:	Del puro lume onde i celesti giri
 @SOLERTI:	612
 @COMPOSER:	Porta, Costanzo
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10210,7 +9788,6 @@
 @RIMETITLE:	Stavasi Amor quasi in regno assiso
 @SOLERTI:	38
 @COMPOSER:	Porta, Costanzo
-@COMDATES:	~1528-1601/05/19
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10234,7 +9811,6 @@
 @RIMETITLE:	Or che l'aura mia dolce altrove spira
 @SOLERTI:	174
 @COMPOSER:	Pozzo, Vincenzo dal
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -10258,7 +9834,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Pozzo, Vincenzo dal
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10282,7 +9857,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Graziani, Tommaso
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10306,7 +9880,6 @@
 @RIMETITLE:	Tra mille fior già colti in dolce speco
 @SOLERTI:	345
 @COMPOSER:	Preti, Alfonso
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR:	Pallavicino, Benedetto
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
@@ -10332,7 +9905,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Ratti, Lorenzo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10356,7 +9928,6 @@
 @RIMETITLE:	La bella e vaga man che le sonore corde
 @SOLERTI:	862
 @COMPOSER:	Raval, Sebastiano
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
@@ -10380,7 +9951,6 @@
 @RIMETITLE:	O via più bianca e fredda
 @SOLERTI:	275
 @COMPOSER:	Recalchi, Giovanni Battista
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	L'amorosa caccia a cinque voci
 @PRINCEPSLOC:	Venetia
@@ -10405,7 +9975,6 @@
 @RIMETITLE:	Amor l'alma m'allaccia
 @SOLERTI:	48
 @COMPOSER:	Ricci, Cesarina
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10429,7 +9998,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Roccia, Dattilo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -10453,7 +10021,6 @@
 @RIMETITLE:	Che soave rapina
 @SOLERTI:	1177
 @COMPOSER:	Roinci, Luigi
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Vittoria amorosa
 @PRINCEPSLOC:	Venetia
@@ -10478,7 +10045,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Rossi, Salomone
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci con il basso continuo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10502,7 +10068,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Rota, Adriano de la
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10526,7 +10091,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Rota, Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10550,7 +10114,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Rota, Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10574,7 +10137,6 @@
 @RIMETITLE:	Sovra le verdi chiome
 @SOLERTI:	195
 @COMPOSER:	Rota, Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il lauro verde
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -10598,7 +10160,6 @@
 @RIMETITLE:	Sovra un lucido rio
 @SOLERTI:	318
 @COMPOSER:	Rota, Andrea
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10622,7 +10183,6 @@
 @RIMETITLE:	Caro amoroso neo
 @SOLERTI:	602
 @COMPOSER:	Rovigo, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10646,7 +10206,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Rubini, Niccolo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10670,7 +10229,6 @@
 @RIMETITLE:	Al tuo vago pallore
 @SOLERTI:	615
 @COMPOSER:	Ruffolo, Lucretio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10694,7 +10252,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Sabbatini, Galeazzo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali concertati a due, tre, e quattro voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10718,7 +10275,6 @@
 @RIMETITLE:	Mentr'io mirava fiso
 @SOLERTI:	298
 @COMPOSER:	Sabbatini, Galeazzo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali concertati a due, tre, e quattro voci: opera prima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10742,7 +10298,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Sabbatini, Vincenzo
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali concertati a due, tre, e quattro voci: libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10765,7 +10320,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Sabino, Giovanni Francesco
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR: Sabino, Ippolito
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque et sei voci
@@ -10791,7 +10345,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Sabino, Ippolito
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10815,7 +10368,6 @@
 @RIMETITLE:	O dolci lagrimette
 @SOLERTI:	325
 @COMPOSER:	Salzilli, Crescenzio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -10839,7 +10391,6 @@
 @RIMETITLE:	Cantava in riva al fiume
 @SOLERTI:	346
 @COMPOSER:	Santini, Marsilio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10863,7 +10414,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Saracini, Claudio
-@COMDATES:	
 @PRINCEPSTITLE:	Terze musiche a una voce
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10887,7 +10437,6 @@
 @RIMETITLE:	Amor, che qui d'intorno
 @SOLERTI:	256
 @COMPOSER:	Schuyt, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Hymeneo
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
@@ -10911,7 +10460,6 @@
 @RIMETITLE:	Dolce mia fiamma, dolce
 @SOLERTI:	417
 @COMPOSER:	Schuyt, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
@@ -10935,7 +10483,6 @@
 @RIMETITLE:	Dolcissimi legami
 @SOLERTI:	339
 @COMPOSER:	Schuyt, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
@@ -10959,7 +10506,6 @@
 @RIMETITLE:	Già tu volasti quattro volte e sei
 @SOLERTI:	289
 @COMPOSER:	Schuyt, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
@@ -10983,7 +10529,6 @@
 @RIMETITLE:	Mentre la donna mia cangiando aspetto
 @SOLERTI:	265
 @COMPOSER:	Schuyt, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
@@ -11007,7 +10552,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Schuyt, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
@@ -11031,7 +10575,6 @@
 @RIMETITLE:	Voi sete bella, ma fugage e presta
 @SOLERTI:	1022
 @COMPOSER:	Schuyt, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Leyda
 @NORMLOC:	Leiden
@@ -11055,7 +10598,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Scozzese, Agostino
-@COMDATES:	1550-1584
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11079,7 +10621,6 @@
 @RIMETITLE:	Non è questa la mano
 @SOLERTI:	47
 @COMPOSER:	Serafico, Benedetto
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque et a sei voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
@@ -11103,7 +10644,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Spano, Donato Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigaletti ariosi e villanelle a quattro voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -11127,7 +10667,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Spano, Donato Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -11151,7 +10690,6 @@
 @RIMETITLE:	ANGIOLETTA cortese
 @SOLERTI:	734
 @COMPOSER:	Spontone, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11175,7 +10713,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Spontone, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11199,7 +10736,6 @@
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
 @COMPOSER:	Spontone, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11223,7 +10759,6 @@
 @RIMETITLE:	Tre son le Grazie ancelle
 @SOLERTI:	371
 @COMPOSER:	Spontone, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11247,7 +10782,6 @@
 @RIMETITLE:	Forse è cagion l'aurora
 @SOLERTI:	896
 @COMPOSER:	Spontone, Bartolomeo
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	De floridi virtuosi d'italia il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
@@ -11272,7 +10806,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Spontone, Bartolomeo
-@COMDATES:	
 @PRINCEPSTITLE:	Libro terzo de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11296,7 +10829,6 @@
 @RIMETITLE:	Con la saetta de la punta d'oro
 @SOLERTI:	135
 @COMPOSER:	Stivori, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11320,7 +10852,6 @@
 @RIMETITLE:	Donna cortese e bella
 @SOLERTI:	338
 @COMPOSER:	Stivori, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11344,7 +10875,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Stivori, Francesco
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro primo
 @PRINCEPSLOC:	Venetia
@@ -11369,7 +10899,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Stivori, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11393,7 +10922,6 @@
 @RIMETITLE:	Felice Primavera
 @SOLERTI:	196
 @COMPOSER:	Stivori, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali e dialoghi a otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11417,7 +10945,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Stivori, Francesco
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Fiori musicali, libro secondo
 @PRINCEPSLOC:	Venetia
@@ -11442,7 +10969,6 @@
 @RIMETITLE:	Soavissimo canto
 @SOLERTI:	343
 @COMPOSER:	Stivori, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali e dialoghi a otto voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11466,7 +10992,6 @@
 @RIMETITLE:	Ha gigli e rose ed ha rubini ed oro
 @SOLERTI:	1050
 @COMPOSER:	Striggio, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11490,7 +11015,6 @@
 @RIMETITLE:	Tolse BARBARA gente il pregio a Roma
 @SOLERTI:	541
 @COMPOSER:	Striggio, Alessandro
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11514,7 +11038,6 @@
 @RIMETITLE:	Amatemi, ben mio
 @SOLERTI:	288
 @COMPOSER:	Taroni, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11538,7 +11061,6 @@
 @RIMETITLE:	Fuggi, fuggi, dolor, da questo petto
 @SOLERTI:	341
 @COMPOSER:	Taroni, Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11562,7 +11084,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Torelli, Gaspare
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro delle canzonette a tre et a quatro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11586,7 +11107,6 @@
 @RIMETITLE:	Arsi mentre m'amaste
 @SOLERTI:	191
 @COMPOSER:	Tosone, Marcello
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Genova
 @NORMLOC:	Genoa
@@ -11610,7 +11130,6 @@
 @RIMETITLE:	Secco è l'arbor gentile
 @SOLERTI:	189
 @COMPOSER:	Tosone, Marcello
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Genova
 @NORMLOC:	Genoa
@@ -11634,7 +11153,6 @@
 @RIMETITLE:	Amor, che qui d'intorno
 @SOLERTI:	256
 @COMPOSER:	Tresti, Flaminio
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11658,7 +11176,6 @@
 @RIMETITLE:	Come vivrò ne le mie pene, Amore
 @SOLERTI:	25
 @COMPOSER:	Tresti, Flaminio
-@COMDATES:	~1560-~1613
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11682,7 +11199,6 @@
 @RIMETITLE:	Dolcemente dormiva la mia Clori
 @SOLERTI:	376
 @COMPOSER:	Tresti, Flaminio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11706,7 +11222,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Tresti, Flaminio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11730,7 +11245,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Tresti, Flaminio
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11754,7 +11268,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Tristabocca, Pasquale
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -11778,7 +11291,6 @@
 @RIMETITLE:	Al tuo vago pallore
 @SOLERTI:	615
 @COMPOSER:	Trombetti, Ascanio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11802,7 +11314,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Ingegneri, Marco Antonio
-@COMDATES:	
 @PRINCEPSTITLE:	Il quinto libro de madrigali a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11826,7 +11337,6 @@
 @RIMETITLE:	Dolce mia fiamma, dolce
 @SOLERTI:	417
 @COMPOSER:	Turco, Giovanni del
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Firenze
 @NORMLOC:	Florence
@@ -11850,7 +11360,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Turco, Giovanni del
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSAUTHOR:	Vitali, Francesco
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -11876,7 +11385,6 @@
 @RIMETITLE:	Vorrei lagnarmi a pieno
 @SOLERTI:	165
 @COMPOSER:	Turco, Giovanni del
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Firenze
 @NORMLOC:	Florence
@@ -11900,7 +11408,6 @@
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
 @COMPOSER:	Ugolini, Vincenzo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11924,7 +11431,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Vecchi, Orazio
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci d'Horatio Vecchi. Libro primo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -11948,7 +11454,6 @@
 @RIMETITLE:	Ardi e gela a tua voglia
 @SOLERTI:	418
 @COMPOSER:	Nicoletti, Filippo
-@COMDATES:	
 @PRINCEPSTITLE:	I finti amori
 @PRINCEPSLOC:	Venezia
 @NORMLOC:	Venice
@@ -11972,7 +11477,6 @@
 @RIMETITLE:	Fummo felici un tempo
 @SOLERTI:	190
 @COMPOSER:	Vecchi, Orazio
-@COMDATES:	
 @PRINCEPSTITLE:	Il lauro secco
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -11996,7 +11500,6 @@
 @RIMETITLE:	Se 'l vostro volto è d'un aria gentile
 @SOLERTI:	297
 @COMPOSER:	Vecchi, Orazio
-@COMDATES:	
 @PRINCEPSTITLE:	Canzonette. Libro primo. A quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12020,7 +11523,6 @@
 @RIMETITLE:	Costei, che su la fronte ha sparsa al vento
 @SOLERTI:	81
 @COMPOSER:	Vecoli, Regolo
-@COMDATES:	
 @PRINCEPSTITLE:	in Pietro Vecoli, Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
@@ -12044,7 +11546,6 @@
 @RIMETITLE:	Chi la felice pianta d'orïente
 @SOLERTI:	198
 @COMPOSER:	Vecoli, Regolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
@@ -12068,7 +11569,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Vecoli, Regolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
@@ -12092,7 +11592,6 @@
 @RIMETITLE:	Ne i vostri dolci baci
 @SOLERTI:	305
 @COMPOSER:	Vecoli, Regolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parigi
 @NORMLOC:	Paris
@@ -12116,7 +11615,6 @@
 @RIMETITLE:	D'aria un tempo nudrimmi, e cibo e vita
 @SOLERTI:	159
 @COMPOSER:	Veggio, Giovanni Agostino
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Parma
 @NORMLOC:	Parma
@@ -12140,7 +11638,6 @@
 @RIMETITLE:	Amorosa fenice
 @SOLERTI:	290
 @COMPOSER:	Veggio, Giovanni Agostino
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
 @PRINCEPSLOC:	Parma
 @NORMLOC:	Parma
@@ -12164,7 +11661,6 @@
 @RIMETITLE:	L'aura con l'armonia dolce e soave
 @SOLERTI:	617
 @COMPOSER:	Verdonck, Cornelis
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	Ghirlanda di madrigali a sei voci
 @PRINCEPSLOC:	Anversa
@@ -12189,7 +11685,6 @@
 @RIMETITLE:	Né di feconda conca in ricco mare
 @SOLERTI:	770
 @COMPOSER:	Verdonck, Cornelis
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci
 @PRINCEPSLOC:	Anversa
 @NORMLOC:	Antwerp
@@ -12213,7 +11708,6 @@
 @RIMETITLE:	Al lume delle stelle
 @SOLERTI:	246
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a sei voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
@@ -12237,7 +11731,6 @@
 @RIMETITLE:	Al tuo vago pallore
 @SOLERTI:	615
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12261,7 +11754,6 @@
 @RIMETITLE:	Al vostro dolce azzurro
 @SOLERTI:	614
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
@@ -12285,7 +11777,6 @@
 @RIMETITLE:	Giammai più dolce raggio
 @SOLERTI:	204
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12309,7 +11800,6 @@
 @RIMETITLE:	Mentre ne' cari balli il loco adorno
 @SOLERTI:	51
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	L'Ottavo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12333,7 +11823,6 @@
 @RIMETITLE:	Questa vostra pietate
 @SOLERTI:	284
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12357,7 +11846,6 @@
 @RIMETITLE:	Se da sì nobil mano
 @SOLERTI:	571
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12381,7 +11869,6 @@
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12405,7 +11892,6 @@
 @RIMETITLE:	Soletto Amor tendea
 @SOLERTI:	259
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
@@ -12429,7 +11915,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12453,7 +11938,6 @@
 @RIMETITLE:	Vaghe Ninfe del Po, Ninfe sorelle
 @SOLERTI:	175
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a tre. Libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12477,7 +11961,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Palermo
 @NORMLOC:	Palermo
@@ -12501,7 +11984,6 @@
 @RIMETITLE:	Voi sete bella, ma fugage e presta
 @SOLERTI:	1022
 @COMPOSER:	Verso, Antonio il
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali a sei voci. Libro secondo
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12525,7 +12007,6 @@
 @RIMETITLE:	Bella e vaga brunetta
 @SOLERTI:	373
 @COMPOSER:	Vignali, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12549,7 +12030,6 @@
 @RIMETITLE:	Mentr'io mirava fiso
 @SOLERTI:	298
 @COMPOSER:	Vignali, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12573,7 +12053,6 @@
 @RIMETITLE:	Qual cavalier ardito
 @SOLERTI:	1203
 @COMPOSER:	Vignali, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12597,7 +12076,6 @@
 @RIMETITLE:	Tu, bianca e vaga Luna
 @SOLERTI:	1276
 @COMPOSER:	Vignali, Francesco
-@COMDATES:	
 @PRINCEPSTITLE:	Madrigali. Il primo libro a due, tre e quattro
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12621,7 +12099,6 @@
 @RIMETITLE:	Messaggera de l'alba
 @SOLERTI:	139
 @COMPOSER:	Villani, Gabriele
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro delle toscanelle a quattro voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12645,7 +12122,6 @@
 @RIMETITLE:	La bella pargoletta
 @SOLERTI:	611
 @COMPOSER:	Vinci, Pietro
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vinegia
 @NORMLOC:	Venice
@@ -12669,7 +12145,6 @@
 @RIMETITLE:	Tarquinia, se rimiri
 @SOLERTI:	560
 @COMPOSER:	Vinci, Pietro
-@COMDATES:	
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
@@ -12693,7 +12168,6 @@
 @RIMETITLE:	Amor, che qui d'intorno
 @SOLERTI:	256
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12717,7 +12191,6 @@
 @RIMETITLE:	Arsi mentre m'amaste
 @SOLERTI:	191
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il lauro secco
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -12741,7 +12214,6 @@
 @RIMETITLE:	Dolcissimi colori
 @SOLERTI:	266
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12765,7 +12237,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il lauro verde
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -12789,7 +12260,6 @@
 @RIMETITLE:	Ha gigli e rose ed ha rubini ed oro
 @SOLERTI:	1050
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12813,7 +12283,6 @@
 @RIMETITLE:	Non fonte o fiume od aura
 @SOLERTI:	137
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12837,7 +12306,6 @@
 @RIMETITLE:	O dolci lagrimette
 @SOLERTI:	325
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12861,7 +12329,6 @@
 @RIMETITLE:	Qual cervo errando suole
 @SOLERTI:	244
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12885,7 +12352,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Virchi, Paolo
-@COMDATES:	
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12909,7 +12375,6 @@
 @RIMETITLE:	Gelo ha Madonna il seno
 @SOLERTI:	333
 @COMPOSER:	Virgelli, Emilio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12933,7 +12398,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Vitali, Filippo
-@COMDATES:	
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci. Opera quartadecima
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12957,7 +12421,6 @@
 @RIMETITLE:	Geloso amante apro mill'occhi e giro
 @SOLERTI:	99
 @COMPOSER:	Vittori, Loreto
-@COMDATES:	
 @PRINCEPSTITLE:	Arie a voce sola
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -12981,7 +12444,6 @@
 @RIMETITLE:	Felice primavera
 @SOLERTI:	196
 @COMPOSER:	Vopa, Giovan Donato
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13005,7 +12467,6 @@
 @RIMETITLE:	Donna, se ben le chiome ho già ripiene
 @SOLERTI:	389
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13029,7 +12490,6 @@
 @RIMETITLE:	Ha ninfe adorne e belle
 @SOLERTI:	930
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	
 @PRINCEPSTITLE:	Il nono libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13053,7 +12513,6 @@
 @RIMETITLE:	Mesola, il Po da lati e 'l mar a fronte
 @SOLERTI:	929
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	
 @PRINCEPSTITLE:	Il nono libro de madrigali a cinque et sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13077,7 +12536,6 @@
 @RIMETITLE:	Tolse BARBARA gente il pregio a Roma
 @SOLERTI:	541
 @COMPOSER:	Wert, Giaches de
-@COMDATES:	
 @PRINCEPSTITLE:	Il sesto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Vineggia
 @NORMLOC:	Venice
@@ -13101,7 +12559,6 @@
 @RIMETITLE:	Di nettare amoroso ebro la mente
 @SOLERTI:	183
 @COMPOSER:	Zanotti, Camillo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13125,7 +12582,6 @@
 @RIMETITLE:	Giacea la mia virtù vinta e smarrita
 @SOLERTI:	28
 @COMPOSER:	Zanotti, Camillo
-@COMDATES:	~1545-1591
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13149,7 +12605,6 @@
 @RIMETITLE:	O nemica d'Amor che sì ti rendi
 @SOLERTI:	52
 @COMPOSER:	Zanotti, Camillo
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13173,7 +12628,6 @@
 @RIMETITLE:	Bella non è costei
 @SOLERTI:	267
 @COMPOSER:	Zenaro, Giulio
-@COMDATES:	<1588-1590
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13197,7 +12651,6 @@
 @RIMETITLE:	Non sono in queste rive
 @SOLERTI:	307
 @COMPOSER:	Zenaro, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13221,7 +12674,6 @@
 @RIMETITLE:	O fuggitiva e timidetta fiera
 @SOLERTI:	903
 @COMPOSER:	Zenaro, Giulio
-@COMDATES:	
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13245,7 +12697,6 @@
 @RIMETITLE:	Queste note son nove, e queste Amore
 @SOLERTI:	1049
 @COMPOSER:	Zenaro, Giulio
-@COMDATES:	<1588-1590
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13269,7 +12720,6 @@
 @RIMETITLE:	Sovra l'erbetta e i fiori
 @SOLERTI:	242
 @COMPOSER:	Zenaro, Giulio
-@COMDATES:	<1588-1590
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13293,7 +12743,6 @@
 @RIMETITLE:	Sovra un lucido rio
 @SOLERTI:	318
 @COMPOSER:	Zenaro, Giulio
-@COMDATES:	<1588-1590
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13317,7 +12766,6 @@
 @RIMETITLE:	Voi bramate, ben mio
 @SOLERTI:	335
 @COMPOSER:	Zenaro, Giulio
-@COMDATES:	<1588-1590
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13341,7 +12789,6 @@
 @RIMETITLE:	Questa vita è la selva, il verde e l'ombra
 @SOLERTI:	443
 @COMPOSER:	Zucca, Cesare
-@COMDATES:	
 @PRINCEPSFORMAT: anthology
 @PRINCEPSTITLE:	L'amorosa caccia. A cinque voci
 @PRINCEPSLOC:	Venetia
@@ -13366,7 +12813,6 @@
 @RIMETITLE:	Qui dove fan le piante
 @SOLERTI:	1370
 @COMPOSER:	Cortellini, Camillo
-@COMDATES:	
 @PRINCEPSTITLE:	Musica di Camillo Cortellini il violino
 @PRINCEPSLOC:	Bologna
 @NORMLOC:	Bologna

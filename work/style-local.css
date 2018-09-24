@@ -49,11 +49,19 @@ table.worklist {
 	margin-left: 20px;
 }
 
-.indent {
+.indent, .downloads {
 	text-align: justify;
 	text-justify: inter-word;
- 	margin-left: 75px;
- 	margin-right: 150px;
+ 	margin-left: 30px;
+ 	margin-right: 50px;
+}
+
+.downloads td, .downloads tr {
+	vertical-align: top;
+}
+
+.downloads {
+	margin-bottom: -40px;
 }
 
 .first-line {

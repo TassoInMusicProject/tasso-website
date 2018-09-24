@@ -1,6 +1,7 @@
 <script src="/scripts/scripts-common.js"></script>
 
 {% include_relative templates.html %}
+{% include_relative listeners.html %}
 
 <script>
 // vim: ts=3
@@ -41,6 +42,7 @@ function displayMusicPolicies(target) {
 			element.innerHTML = request.responseText;
 			setupMusicBrowseCallbacks();
 			fillMusicBrowsePage();
+			insertCgiSearchParameters();
 		}
 	};
 	request.open("GET", "music.html", true);
@@ -392,6 +394,39 @@ function displayMusicBrowseEntries(entries) {
 	var tsource = document.querySelector("#music-browse-template").textContent;
 	var template = Handlebars.compile(tsource);
 	element.innerHTML = template(entries);
+}
+
+
+
+//////////////////////////////
+//
+// insertCgiSearchParameters -- Take browse parameters from the
+//     URL and insert into search fields.
+//
+
+function insertCgiSearchParameters() {
+
+	if (CGI.year) {
+		var yearelement = document.querySelector("#browse-year");
+		if (yearelement) {
+			yearelement.value = CGI.year;
+		}
+	}
+
+	if (CGI.location) {
+		var locationelement = document.querySelector("#browse-location");
+		if (locationelement) {
+			locationelement.value = CGI.location;
+		}
+	}
+
+	if (CGI.publisher) {
+		var publisherelement = document.querySelector("#browse-publisher");
+		if (publisherelement) {
+			publisherelement.value = CGI.publisher;
+		}
+	}
+
 }
 
 

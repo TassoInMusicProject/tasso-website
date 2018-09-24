@@ -1,6 +1,10 @@
 
 <link rel="stylesheet" href="/styles/fonts/font-awesome/css/font-awesome.min.css">
 
+<!--
+	vim: ts=3
+-->
+
 <script src="/scripts/scripts-common.js"></script>
 <script src="/scripts/scripts-worknav.js"></script>
 
@@ -248,98 +252,6 @@ function interpolateTstamp(timemap, qtime) {
 	return newpoint;
 }
 
-
-
-/*
-//////////////////////////////
-//
-// loadWorkList --
-//
-
-function loadWorkList(url) {
-	if (!url) {
-		url = "{{site.worklist}}";
-	}
-	var targetcount = 3;
-	var counter = 0;
-
-	getTimemap(ID);
-
-	if (sessionStorage.RIMESETTINGLIST) {
-		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-		buildNextPreviousLists();
-		counter++;
-	}
-
-	if (sessionStorage.SIGLALIST) {
-		SIGLALIST = JSON.parse(sessionStorage.SIGLALIST);
-		counter++;
-	}
-
-	if (!sessionStorage.RIMESETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMESETTINGLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
-			counter++;
-			if (counter == targetcount) {
-				continueSetup();
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.WORKLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", url);
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-			buildNextPreviousLists();
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == targetcount) {
-				continueSetup();
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.SIGLALIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.sigla_list}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			var templist = aton.parse(this.responseText).SIGLUM;
-			SIGLALST = {};
-			for (var i=0; i<templist.length; i++) {
-				SIGLALIST[templist[i].SIGLUM] = templist[i];
-			}
-			sessionStorage.SIGLALIST = JSON.stringify(SIGLALIST);
-			counter++;
-			if (counter == targetcount) {
-				continueSetup();
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == targetcount) {
-		continueSetup();
-		counter++;
-	}
-}
-
-*/
 
 
 //////////////////////////////
@@ -994,17 +906,25 @@ function getHumdrum(id) {
 		return;
 	}
 
+	var scoreelement = document.querySelector("#musical-content");
+
 	if (sessionStorage[tag]) {
+		if (scoreelement) {
+			scoreelement.style.display = "block";
+		}
 		element.textContent = sessionStorage[tag];
 		initializeVerovioNotation("humdrum-data", "verovio-display");
 	} else {
 		var action = "humdrum";
 		var url = SETTING.SCOREDATA.DATAURL;
-console.log("URL = ", url);
+		// old url from CCARH server:
 		// var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
+			if (scoreelement) {
+				scoreelement.style.display = "block";
+			}
 			var data = this.responseText;
 			sessionStorage[tag] = data;
 			if (element) {

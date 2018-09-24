@@ -164,31 +164,31 @@
 			<ul>
 				<li> <a class="icon-file" onclick="generatePdfFull(event)" href="#">PDF</a></li>
 				<li> <a class="icon-midi"      
-					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
+					target="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
 				<li> <a class="icon-file-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
+					taget="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li> <a class="icon-list" target="new" href="{{SCOREDATA.DATAURL}}">Humdrum</a></li>
-				<li> <nobr><a class="icon-list" target="new" href="{{SCOREDATA.EDITURL}}">Humdrum (Github)</a></nobr></li>
-				<li> <a class="icon-list" target="new" href="https://verovio.humdrum.org/?file={{SCOREDATA.DATAURL}}"><nobr>Humdrum (VHV)</nobr></a></li>
+				<li> <a class="icon-list" target="_blank" href="{{SCOREDATA.DATAURL}}">Humdrum</a></li>
+				<li> <nobr><a class="icon-list" target="_blank" href="{{SCOREDATA.EDITURL}}">Humdrum (Github)</a></nobr></li>
+				<li> <a class="icon-list" target="_blank" href="https://verovio.humdrum.org/?file={{SCOREDATA.DATAURL}}"><nobr>Humdrum (VHV)</nobr></a></li>
 			</ul>
 		</td>
 		<td>
 			<ul>
 				<li> <a class="icon-list" 
-					taget="new" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
+					taget="_blank" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
 				<li> <a class="icon-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
+					taget="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
 				<li> <a class="icon-list" 
-					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
+					taget="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li> <a class="icon-list" target="new" href="/proll?id={{CATALOGNUM}}">Piano Roll</a></li>
+				<li> <a class="icon-list" target="_blank" href="/proll?id={{CATALOGNUM}}">Piano Roll</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -214,13 +214,13 @@
 	-->
 
 	<div class="indent">
-		<p><a taget="new" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts.</p>
+		<p><a taget="_blank" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts.</p>
 	</div>
 
 	{{#if EXTANTVOICES}}
 	<h3>VOICES</h3>
 	<div class="indent">
-		{{{voices EXTANTVOICES OVOICES}}}
+		{{{voices EXTANTVOICES OVOICES SOURCE}}}
 	</div>
 	{{/if}}
 	<div id="range"></div>
@@ -527,9 +527,9 @@ Handlebars.registerHelper("composer", function(composerdata) {
 	}
 	if (cd.AREA) {
 		if (cd.AREA.match(/,/)) {
-			oinfo += "<tr><td>Active Areas</td><td>" + cd.AREA + "</td></tr>";
+			oinfo += "<tr><td>Active areas</td><td>" + cd.AREA + "</td></tr>";
 		} else {
-			oinfo += "<tr><td>Active Area</td><td>" + cd.AREA + "</td></tr>";
+			oinfo += "<tr><td>Active area</td><td>" + cd.AREA + "</td></tr>";
 		}
 	}
 	if (cd.NOTE) {
@@ -551,7 +551,69 @@ Handlebars.registerHelper("composer", function(composerdata) {
 // voices Handlebar helper  -- display original and extant voices.
 //
 
-Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
+Handlebars.registerHelper("voices", function(evoice, ovoice, source) {
+	if ((!ovoice) && (!evoice)) {
+		return new Handlebars.SafeString("");
+	}
+	if (!ovoice) {
+		ovoice = "";
+	}
+	if (ovoice.match(/alfabeto/)) {
+		ovoice = ovoice.replace(/\+?alfabeto/, "");
+	}
+	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
+	if (!evoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	if (!evoice) {
+		evoice = "";
+	}
+	evoice = evoice.replace(/\s*\+\s*/g, "+");
+	if (evoice.match(/alfabeto/)) {
+		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");
+	}
+
+	// if (evoice === ovoice) {
+	// 	return new Handlebars.SafeString(ovoice);
+	// }
+
+	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
+	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
+	if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
+		evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+	}
+	// var text = ovoice + " (" + evoice + ")";
+
+	var epartbooks = "";
+	if (source.EXTPARTBOOKS && !source.EXTPARTBOOKS.match(/^\s*$/)) {
+		epartbooks = " (" + source.EXTPARTBOOKS + ")";
+	}
+
+	var opartbooks = "";
+	if (source.OPARTBOOKS && !source.OPARTBOOKS.match(/^\s*$/)) {
+		opartbooks = " (" + source.OPARTBOOKS + ")";
+	}
+
+	var output = "<table style='margin-top:12px; margin-left:0 !important;' class='sourceinfo'>";
+	output += "<tr><td>Original voices</td>";
+	output += "<td>";
+	output += ovoice + opartbooks;
+	output += "</td>";
+	output += "<tr><td>Extant voices</td>";
+	output += "<td>";
+	output += evoice + epartbooks;
+	output += "</td></tr>";
+	output += "</table>";
+
+	return new Handlebars.SafeString(output);
+});
+
+//
+// This version is similar to work lists, such as 6(3) for originally
+// 6 voices, but only 3 extant.
+//
+
+Handlebars.registerHelper("voices-simple", function(evoice, ovoice, catalog) {
 	if ((!ovoice) && (!evoice)) {
 		return new Handlebars.SafeString("");
 	}
@@ -603,6 +665,19 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 	}
 */
 
+	if (source.RISM) {
+		var rism = source.RISM;
+		var xtitle = "";
+		if (rism.match(/^[A-Z] /)) {
+			xtitle = "A/I";
+		} else if (rism.match(/^\d\d\d\d/)) {
+			xtitle = "B/I";
+		}
+		text += "<tr><td>RISM " + xtitle + "</td><td>";
+		text += rism;
+		text += "</td></tr>";
+	}
+
 	if (source.TITLEPAGE) {
 		text += "<tr><td><nobr>Title page</nobr></td><td>";
 		var tp = source.TITLEPAGE.replace(/\s*\/\s*/g, "<br>");
@@ -618,37 +693,61 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 		text += "</td></tr>";
 	}
 
-	if (source.EXTPARTBOOKS) {
-		text += "<tr><td><nobr>Extant part-books</nobr></td><td>";
-		text += source.EXTPARTBOOKS;
+	if (source.OPARTBOOKS && source.EXTPARTBOOKS && (source.OPARTBOOKS === source.EPARTBOOKS)) {
+			text += "<tr><td><nobr>Part-books</nobr></td><td>";
+			text += source.OPARTBOOKS;
+			text += "</td></tr>";
+	} else {
+		if (source.OPARTBOOKS) {
+			text += "<tr><td><nobr>Original part-books</nobr></td><td>";
+			text += source.OPARTBOOKS;
+			text += "</td></tr>";
+		}
+		if (source.EXTPARTBOOKS) {
+			text += "<tr><td><nobr>Extant part-books</nobr></td><td>";
+			text += source.EXTPARTBOOKS;
+			text += "</td></tr>";
+		}
+	}
+
+	if (source.SRCDEDICATEE) {
+		text += "<tr><td><nobr>Dedicatee</nobr></td><td>";
+		text += source.SRCDEDICATEE;
 		text += "</td></tr>";
 	}
 
-	if (source.RISM) {
-		var rism = source.RISM;
-		var xtitle = "";
-		if (rism.match(/^[A-Z] /)) {
-			xtitle = "A/I";
-		} else if (rism.match(/^\d\d\d\d/)) {
-			xtitle = "B/I";
-		}
-		text += "<tr><td>RISM " + xtitle + "</td><td>";
-		text += rism;
+	if (source.PUBLISHER) {
+		var pub = source.PUBLISHER;
+		text += "<tr><td>Publisher</td><td>";
+		text += pub;
+		text += "</td></tr>";
+	}
+
+	if (source.YEAR) {
+		text += "<tr><td><nobr>Publication year</nobr></td><td>";
+		text += source.YEAR;
+		text += "</td></tr>";
+	}
+
+	if (source.PUBNORMLOC) {
+		var loc = source.PUBNORMLOC;
+		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		text += loc;
+		text += "</td></tr>";
+	} else if (source.PUBLOC) {
+		var loc = source.PUBLOC;
+		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		text += loc;
 		text += "</td></tr>";
 	}
 
 	if (source.SRCLOCSIGLA) {
 		var sigla = source.SRCLOCSIGLA;
-		text += "<tr><td><nobr>Library ";
-		if (sigla.match(/,/)) {
-			text += "sigla";
-		} else {
-			text += "siglum";
-		}
+		text += "<tr><td><nobr>Library";
 		text += "</nobr></td><td>";
 		text += source.SRCLOCSIGLA;
 		if (source.SRCURL) {
-			text += "(<a target='new' href='" + source.SRCURL + "'>view source online</a>)";
+			text += " (<a target='new' href='" + source.SRCURL + "'>view digitized source</a>)";
 		}
 		text += "</td></tr>";
 	}
@@ -670,7 +769,28 @@ Handlebars.registerHelper("criticalreport", function(setting) {
 
 	if (setting.OCLEFS) {
 		var oclefs = setting.OCLEFS.replace(/,\s*/g, ", ");
-		text += "<tr><td><nobr>Original Clefs</nobr></td><td>";
+		var cleflist = oclefs.split(/\s*,\s*/);
+		if (setting.SCOREDATA && setting.SCOREDATA.VABBR) {
+			var vlist = setting.SCOREDATA.VABBR;
+			if (typeof vlist === "string") {
+				vlist = [vlist];
+			}
+			if (cleflist.length != vlist.length) {
+				console.log("CLEFS AND VOICE COUNTS DO NOT MATCH:", oclefs, cleflist, vlist);
+			} else {
+				var newoclefs = "";
+				for (var i=0; i<cleflist.length; i++) {
+					vlist[i] = vlist[i].replace(/Q/g, "V");
+					newoclefs += vlist[i] + " (" + cleflist[i] + ")";
+					if (i < cleflist.length - 1) {
+						newoclefs += "<br>";
+					}
+				}
+				oclefs = newoclefs;
+			}
+		}
+
+		text += "<tr><td><nobr>Original clefs</nobr></td><td>";
 		text += oclefs;
 		text += "</td></tr>";
 	}

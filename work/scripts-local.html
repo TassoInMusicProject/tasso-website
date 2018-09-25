@@ -923,7 +923,7 @@ function getHumdrum(id) {
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			var ses = document.querySelectorAll(".musical-content");
-			for (var ii=0; ii<ses.length; i++) {
+			for (var ii=0; ii<ses.length; ii++) {
 				ses[ii].style.display = "block";
 			}
 			var data = this.responseText;

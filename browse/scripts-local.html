@@ -13,10 +13,10 @@ var LITERARYFIELDS = {};
 
 //////////////////////////////
 //
-// displayMusicPolicies -- Show music editorial policy target element.
+// displayMusicBrowsing -- Show music editorial policy target element.
 //
 
-function displayMusicPolicies(target) {
+function displayMusicBrowsing(target) {
 	PrepareGlobalTassoObjects();
 	if (!target) {
 		target = "#contents";
@@ -32,8 +32,8 @@ function displayMusicPolicies(target) {
 		if (this.readyState == 4 && this.status == 200) {
 			element.innerHTML = request.responseText;
 			setupMusicBrowseCallbacks();
-			fillMusicBrowsePage();
 			insertCgiSearchParameters();
+			fillMusicBrowsePage();
 		}
 	};
 	request.open("GET", "music.html", true);
@@ -44,10 +44,11 @@ function displayMusicPolicies(target) {
 
 //////////////////////////////
 //
-// displayTextPolicies -- Show text editorial policy target element.
+// displayTextBrowsing -- Show text editorial policy target element.
 //
 
-function displayTextPolicies(target) {
+function displayTextBrowsing(target) {
+	PrepareGlobalTassoObjects();
 	if (!target) {
 		target = "#contents";
 	}
@@ -62,6 +63,7 @@ function displayTextPolicies(target) {
 		if (this.readyState == 4 && this.status == 200) {
 			element.innerHTML = request.responseText;
 			setupLiteraryBrowseCallbacks();
+			insertCgiSearchParameters();
 			fillLiteraryBrowsePage();
 		}
 	};
@@ -442,6 +444,42 @@ function insertCgiSearchParameters() {
 		}
 	}
 
+
+   // Literary-specific searching (automatically sets the type=literary
+	// in the DOMContentLoaded listener).
+
+	if (CGI.genre) {
+		var genreelement = document.querySelector("#browse-litgen");
+		var genre = CGI.genre;
+		if (genreelement) {
+			genreelement.value = genre;
+		}
+	}
+
+	if (CGI.manuscript) {
+		var manuscriptelement = document.querySelector("#browse-manusrc");
+		var manuscript = CGI.manuscript;
+		if (manuscriptelement) {
+			manuscriptelement.value = manuscript;
+		}
+	}
+
+	if (CGI.print) {
+		var printelement = document.querySelector("#browse-printsrc");
+		var print = CGI.print;
+		if (printelement) {
+			printelement.value = print;
+		}
+	}
+
+	if (CGI.dedicatee) {
+		var dedicateeelement = document.querySelector("#browse-dedicatee");
+		var dedicatee = CGI.dedicatee;
+		if (dedicateeelement) {
+			dedicateeelement.value = dedicatee;
+		}
+	}
+
 }
 
 
@@ -501,6 +539,7 @@ function displayLiteraryBrowseEntries(entries) {
 
 function setupMusicBrowseCallbacks() {
 
+console.log("SETUP MUSIC CALLBACKS");
 	var composerElement = document.querySelector("#browse-composer");
 	if (composerElement) {
 		composerElement.addEventListener("input", function() { 

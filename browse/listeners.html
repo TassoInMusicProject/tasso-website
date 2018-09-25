@@ -8,8 +8,30 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
+	CGI = GetCgiParameters();
+
+	if (CGI.genre) {
+		CGI.type = "literary";
+	}
+
+	if (CGI.manuscript) {
+		CGI.type = "literary";
+	}
+
+	if (CGI.print) {
+		CGI.type = "literary";
+	}
+
+	if (CGI.dedicatee) {
+		CGI.type = "literary";
+	}
+
 	HighlightNavigationBar();
-	LoadTassoData(displayMusicPolicies);
+	if (CGI.type === "literary") {
+		LoadTassoData(displayTextBrowsing);
+	} else {
+		LoadTassoData(displayMusicBrowsing);
+	}
 });
 
 </script>

@@ -906,11 +906,11 @@ function getHumdrum(id) {
 		return;
 	}
 
-	var scoreelement = document.querySelector("#musical-content");
 
 	if (sessionStorage[tag]) {
-		if (scoreelement) {
-			scoreelement.style.display = "block";
+		var scoreelements = document.querySelectorAll(".musical-content");
+		for (var i=0; i<scoreelements.length; i++) {
+			scoreelements[i].style.display = "block";
 		}
 		element.textContent = sessionStorage[tag];
 		initializeVerovioNotation("humdrum-data", "verovio-display");
@@ -922,8 +922,9 @@ function getHumdrum(id) {
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
-			if (scoreelement) {
-				scoreelement.style.display = "block";
+			var ses = document.querySelectorAll(".musical-content");
+			for (var ii=0; ii<ses.length; i++) {
+				ses[ii].style.display = "block";
 			}
 			var data = this.responseText;
 			sessionStorage[tag] = data;

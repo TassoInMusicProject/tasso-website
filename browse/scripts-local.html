@@ -33,6 +33,7 @@ function displayMusicPolicies(target) {
 			element.innerHTML = request.responseText;
 			setupMusicBrowseCallbacks();
 			fillMusicBrowsePage();
+			insertCgiSearchParameters();
 		}
 	};
 	request.open("GET", "music.html", true);
@@ -384,6 +385,88 @@ function displayMusicBrowseEntries(entries) {
 	var tsource = document.querySelector("#music-browse-template").textContent;
 	var template = Handlebars.compile(tsource);
 	element.innerHTML = template(entries);
+}
+
+
+
+//////////////////////////////
+//
+// insertCgiSearchParameters -- Take browse parameters from the
+//     URL and insert into search fields.
+//
+
+function insertCgiSearchParameters() {
+
+	if (CGI.year) {
+		var yearelement = document.querySelector("#browse-year");
+		if (yearelement) {
+			yearelement.value = CGI.year;
+		}
+	}
+
+	if (CGI.location) {
+		var locationelement = document.querySelector("#browse-location");
+		if (locationelement) {
+			locationelement.value = CGI.location;
+		}
+	}
+
+	if (CGI.publisher) {
+		var publisherelement = document.querySelector("#browse-publisher");
+		if (publisherelement) {
+			publisherelement.value = CGI.publisher;
+		}
+	}
+
+	if (CGI.rism) {
+		var rismelement = document.querySelector("#browse-rism");
+		var rism = cleanRismText(CGI.rism);
+		if (rismelement) {
+			rismelement.value = rism;
+		}
+	}
+
+	if (CGI.composer) {
+		var composerelement = document.querySelector("#browse-composer");
+		var composer = CGI.composer;
+		if (composerelement) {
+			composerelement.value = composer;
+		}
+	}
+
+	if (CGI.title) {
+		var titleelement = document.querySelector("#browse-title");
+		var title = CGI.title;
+		if (titleelement) {
+			titleelement.value = title;
+		}
+	}
+
+}
+
+
+
+///////////////////////////////
+//
+// cleanRismText -- Format RISM A/I correctly.
+//
+
+function cleanRismText(rism) {
+	var matches;
+	if (matches = rism.match(/^([A-Z])(\d+)$/)) {
+		rism = matches[1] + " " + matches[2];
+	} else if (matches = rism.match(/^([A-Z])-(\d+)$/)) {
+		rism = matches[1] + " " + matches[2];
+	} else if (matches = rism.match(/^([A-Z])_(\d+)$/)) {
+		rism = matches[1] + " " + matches[2];
+	} else if (matches = rism.match(/^([a-z])(\d+)$/)) {
+		rism = matches[1].toUpperCase() + " " + matches[2];
+	} else if (matches = rism.match(/^([a-z])-(\d+)$/)) {
+		rism = matches[1].toUpperCase() + " " + matches[2];
+	} else if (matches = rism.match(/^([a-z])_(\d+)$/)) {
+		rism = matches[1].toUpperCase() + " " + matches[2];
+	}
+	return rism;
 }
 
 

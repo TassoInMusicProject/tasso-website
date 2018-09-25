@@ -76,6 +76,7 @@
 		</table>
 	</center>
 
+	<div style="display:none" id="musical-content">
 	<table  class="notation-toolbar">
 	<tr style="padding:0">
 	<td style="width:10px; margin-left:5px !important;">
@@ -193,6 +194,8 @@
 		</td>
 	</tr>
 	</table>
+
+	</div>
 
 	{{#if COMPOSER}}
 	<h3>COMPOSER</h3>
@@ -522,6 +525,7 @@ Handlebars.registerHelper("composer", function(composerdata) {
 	var output = name + " " + date;
 
 	var oinfo = "";
+
 	if (cd.ALIASES) {
 		oinfo += "<tr><td>Aliases</td><td>" + cd.ALIASES + "</td></tr>";
 	}
@@ -535,6 +539,22 @@ Handlebars.registerHelper("composer", function(composerdata) {
 	if (cd.NOTE) {
 		oinfo += "<tr><td>Note</td><td>" + cd.NOTE + "</td></tr>";
 	}
+
+
+	var workcount = getWorkCountForComposer(cd.COMPOSER);
+	if (workcount > 1) {
+		oinfo += "<tr><td>Other Tasso settings</td><td>";
+		oinfo += "<a target='_new' href='/browse?composer=";
+		oinfo += cd.COMPOSER.replace(/ /, "%20");
+		oinfo += "'>";
+		oinfo += (workcount - 1)
+		oinfo += "</a>";
+
+		oinfo += "</td></tr>";
+
+	}
+
+
 	if (!oinfo.match(/^\s*$/)) {
 		oinfo = "<table style='margin-top:12px; margin-left:0 !important;' class='sourceinfo'>" + oinfo + "</table>";
 	}
@@ -544,6 +564,23 @@ Handlebars.registerHelper("composer", function(composerdata) {
 	return new Handlebars.SafeString(output);
 });
 
+
+
+//////////////////////////////
+//
+// getWorkCountForComposer -- Only for Rime settings for now.
+//
+
+function getWorkCountForComposer(composer) {
+	var data = RIMESETTINGLIST;
+	var counter = 0;
+	for (var i=0; i<data.length; i++) {
+		if (data[i].COMPOSER === composer) {
+			counter++;
+		}
+	}
+	return counter;
+}
 
 
 //////////////////////////////
@@ -674,7 +711,12 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 			xtitle = "B/I";
 		}
 		text += "<tr><td>RISM " + xtitle + "</td><td>";
+		text += "<a target='_new' href='/browse?rism=" + source.RISM.replace(/ /g, "%20") + "'";
+		text += " title='List of Tasso settings published in RISM " + xtitle + " ";
+		text += rism + "'";
+		text += ">";
 		text += rism;
+		text += "</a>";
 		text += "</td></tr>";
 	}
 
@@ -718,26 +760,42 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 
 	if (source.PUBLISHER) {
 		var pub = source.PUBLISHER;
-		text += "<tr><td>Publisher</td><td>";
+		text += "<tr><td><nobr>Publisher</nobr></td><td>";
+		text += "<a target='_new' href='/browse?publisher=" + source.PUBLISHER + "'";
+		text += " title='List of music published by " + source.PUBLISHER + "'";
+		text += ">";
 		text += pub;
+		text += "</a>";
 		text += "</td></tr>";
 	}
 
 	if (source.YEAR) {
 		text += "<tr><td><nobr>Publication year</nobr></td><td>";
+		text += "<a target='_new' href='/browse?year=" + source.YEAR + "'";
+		text += " title='List of music published in " + source.YEAR + "'";
+		text += ">";
 		text += source.YEAR;
+		text += "</a>";
 		text += "</td></tr>";
 	}
 
 	if (source.PUBNORMLOC) {
 		var loc = source.PUBNORMLOC;
 		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		text += "<a target='_new' href='/browse?location=" + source.PUBNORMLOC + "'";
+		text += " title='List of music published in " + source.PUBNORMLOC + "'";
+		text += ">";
 		text += loc;
+		text += "</a>";
 		text += "</td></tr>";
 	} else if (source.PUBLOC) {
 		var loc = source.PUBLOC;
 		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		text += "<a target='_new' href='/browse?location=" + source.PUBLOC + "'";
+		text += " title='List of music published in " + source.PUBLOC + "'";
+		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
 		text += loc;
+		text += "</a>";
 		text += "</td></tr>";
 	}
 

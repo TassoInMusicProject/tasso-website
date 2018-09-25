@@ -93,9 +93,14 @@ function displayMusicalSettings(id, target) {
 		target = "#contents";
 	}
 
+	if (!id) {
+		id = CurrentPoem;
+	}
 	if (id) {
 		id = id.replace(/[a-z]+$/, "");
 	}
+
+console.log("DISPLAYING ID", id);
 
 	var element = document.querySelector(target);
 	if (!element) {
@@ -103,154 +108,10 @@ function displayMusicalSettings(id, target) {
 		return;
 	}
 
-	var counter = 0;
-	var maxcount = 6;
-
-	if (sessionStorage.RIMEVERSELIST && 
-				(sessionStorage.RIMEVERSELIST != "undefined")) {
-		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
-		counter++;
-	}
-
-	if (sessionStorage.RIMESETTINGLIST) {
-		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.GERUSETTINGLIST) {
-		GERUSETTINGLIST = JSON.parse(sessionStorage.GERUSETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.AMINTASETTINGLIST) {
-		AMINTASETTINGLIST = JSON.parse(sessionStorage.AMINTASETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.OTHERSETTINGLIST) {
-		OTHERSETTINGLIST = JSON.parse(sessionStorage.OTHERSETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-		counter++;
-	}
-
-	if ((!sessionStorage.RIMEVERSELIST) || 
-				(sessionStorage.RIMEVERSELIST === "undefined")) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_verses}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMEVERSELIST = aton.parse(this.responseText).RIME;
-			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.RIMESETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMESETTINGLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.GERUSETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.gerusalemme_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			GERUSETTINGLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.GERUSETTINGLIST = JSON.stringify(GERUSETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.AMINTASETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.aminta_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			AMINTASETTINGLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.AMINTASETTINGLIST = JSON.stringify(AMINTASETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.OTHERSETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.other_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			OTHERSETTINGLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.OTHERSETTINGLIST = JSON.stringify(OTHERSETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.WORKLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.worklist}}");
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplaySettings(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == maxcount) {
-		buildAllSettingList();
-		buildPoemList(ALLSETTINGLIST);
-		reallyDisplaySettings(id, target);
-		counter++;
-	}
+	PrepareGlobalTassoObjects();
+	buildAllSettingList();
+	buildPoemList(ALLSETTINGLIST);
+	reallyDisplaySettings(id, target);
 }
 
 
@@ -343,10 +204,11 @@ function reallyDisplaySettings(id, target) {
 
 //////////////////////////////
 //
-// buildReveseWorklist --
+// buildReveseWorklist -- disabled for now. Rebuild from TASSODATA structure.
 //
 
 function buildReverseWorklist() {
+	return;
 	RWORKLIST = {};
 	var wl = WORKLIST[0].works;
 	for (var i in wl) {

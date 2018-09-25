@@ -110,8 +110,43 @@ Handlebars.registerHelper("printSrc", function(src) {
 	var list = src.split(/,\s+/);
 	var output = "";
 	for (var i=0; i<list.length; i++) {
+		var pinfo = RSOURCES[list[i]];
+		var info = "";
+		if (!pinfo) {
+			console.log("Error:", list[i], "is not found in print database");
+		} else {
+			if (pinfo.PRINTTITLE) {
+				info += "<i>" + pinfo.PRINTTITLE + "</i>";
+			}
+			var pub = "";
+			if (pinfo.PUBLISHER) {
+				pub = pinfo.PUBLISHER;
+			}
+			if (pinfo.PUBLOCATION) {
+				if (pub.match(/^\s*$/)) {
+					pub = pinfo.PUBLOCATION;
+				} else {
+					pub = pinfo.PUBLOCATION + ": " + pub;
+				}
+			}
+			if (pinfo.PUBYEAR) {
+				if (pub.match(/^\s*$/)) {
+					pub = pinfo.PUBYEAR;
+				} else {
+					pub += ", " + pinfo.PUBYEAR;
+				}
+			}
+			if (!pub.match(/^\s*$/)) {
+				info += " (" + pub + ")";
+			}
+		}
+		if (info.match(/^\s*$/)) {
+			info = "missing information for print" + list[i];
+		} else {
+			info = list[i] + ": " + info;
+		}
 		output += "<span class='tooltip'>" + list[i];
-		output += "   <span class='tooltiptext'>print info for " + list[i] + " goes here</span>";
+		output += "   <span class='tooltiptext'>" + info + "</span>";
 		output += "</span>";
 		if (i < list.length - 1) {
 			output += ", ";

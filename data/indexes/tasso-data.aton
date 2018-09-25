@@ -28,4 +28,20 @@
 {% include_relative composers.aton %}
 @@END: COMPOSERS
 
+@@BEGIN: PRINTS
+{% include_relative rime-prints.aton %}
+{% include_relative aminta-prints.aton %}
+{% include_relative gerusalemme-prints.aton %}
+{% include_relative other-prints.aton %}
+@@END: PRINTS
+
+@@BEGIN: MANUSCRIPTS
+{% include_relative rime-manuscripts.aton %}
+{% include_relative aminta-manuscripts.aton %}
+{% include_relative gerusalemme-manuscripts.aton %}
+{% include_relative other-manuscripts.aton %}
+@@END: MANUSCRIPTS
+
+literary-prints.aton
+
 @@END: TASSODATA

@@ -43,10 +43,10 @@ document.addEventListener("click", function(event) {
 		}
 		var lasttd = target.querySelector("td:first-child");
 		var id = lasttd.textContent;
-		if (!RWORKLIST[id]) {
-         // id has no workpage content
-			return;
-		}
+		// if (!RWORKLIST[id]) {
+      //    // id has no workpage content
+		// 	return;
+		// }
 
 		if (id.match("^T")) {
 			var url = "/work?id=" + id;

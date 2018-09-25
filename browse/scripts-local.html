@@ -1,6 +1,7 @@
 <script src="/scripts/scripts-common.js"></script>
 
 {% include_relative templates.html %}
+{% include_relative listeners.html %}
 
 <script>
 // vim: ts=3
@@ -10,22 +11,13 @@ var MUSICFIELDS    = {};
 var LITERARYFIELDS = {};
 
 
-var RIMESETTINGLIST = [];
-var RIMEVERSELIST = [];
-
-document.addEventListener("DOMContentLoaded", function() {
-	HighlightNavigationBar();
-	displayMusicPolicies();
-});
-
-
-
 //////////////////////////////
 //
 // displayMusicPolicies -- Show music editorial policy target element.
 //
 
 function displayMusicPolicies(target) {
+	PrepareGlobalTassoObjects();
 	if (!target) {
 		target = "#contents";
 	}
@@ -92,7 +84,6 @@ function showTab(hiid) {
 
 	fillMusicBrowsePage();
 	fillLiteraryBrowsePage();
-
 }
 
 
@@ -110,6 +101,7 @@ function fillMusicBrowsePage() {
 	if (!music.className.match(/active/)) {
 		return;
 	}
+
 	var works = filterMusicData(RIMESETTINGLIST);
 	var count = works.length;
 	var countElement = document.querySelector("#work-count");
@@ -417,39 +409,6 @@ function displayLiteraryBrowseEntries(entries) {
 }
 
 
-
-///////////////////////////////
-//
-//  "DOMContentLoaded" --
-//
-
-window.addEventListener("DOMContentLoaded", function() {
-
-	// if (sessionStorage.RIMESETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMESETTINGLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
-			fillMusicBrowsePage();
-		});
-		request.send();
-	// }
-
-	// if (sessionStorage.RIMEVERSELIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_verses}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMEVERSELIST = aton.parse(this.responseText).RIME;
-			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
-			fillLiteraryBrowsePage();
-		});
-		request.send();
-	// }
-
-});
 
 
 //////////////////////////////

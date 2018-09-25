@@ -1268,6 +1268,7 @@ function PrepareGlobalTassoObjects() {
 	if (!RIMESETTINGLIST) {
 		RIMESETTINGLIST = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
 	}
+console.log("GOT HERE YYY RIMESETTINGLIST", RIMESETTINGLIST);
 	if (!GERUSETTINGLIST) {
 		GERUSETTINGLIST = TASSODATA.SETTINGS.GERUSALEMME_SETTINGS.SETTING;
 	}
@@ -1382,6 +1383,7 @@ function InsertSourcesIntoSettings() {
 }
 
 
+
 //////////////////////////////
 //
 // InsertSourcesIntoSettings --
@@ -1404,8 +1406,6 @@ function InsertComposersIntoSettings() {
 	}
 
 }
-
-
 
 
 

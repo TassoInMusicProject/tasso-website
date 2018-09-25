@@ -7,19 +7,21 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
-	var cgi = GetCgiParameters();
-	if (cgi.rime) {
+	CGI = GetCgiParameters();
+	if (CGI.rime) {
 		Rime = "Trm";
-		if (cgi.rime < 1000) { Rime += "0"; }
-		if (cgi.rime < 100)  { Rime += "0"; }
-		if (cgi.rime < 10)   { Rime += "0"; }
-		Rime += cgi.rime;
-	   displayMusicalSettings(Rime, "#contents");
-	} else if (cgi.id) {
-	   	displayMusicalSettings(cgi.id, "#contents");
+		if (CGI.rime < 1000) { Rime += "0"; }
+		if (CGI.rime < 100)  { Rime += "0"; }
+		if (CGI.rime < 10)   { Rime += "0"; }
+		Rime += CGI.rime;
+		CurrentPoem = Rime;
+	} else if (CGI.id) {
+		CurrentPoem = CGI.id;
 	} else {
-	   displayMusicalSettings(0, "#contents");
+		CurrentPoem = 0;
 	}
+
+	LoadTassoData(displayMusicalSettings);
 });
 
 

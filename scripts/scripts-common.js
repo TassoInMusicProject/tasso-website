@@ -22,6 +22,8 @@ var AUDIOjrpid     = '';  						 // currently playing audio file.
 var AUDIOid        = '';                   // currently playing audio button.
 
 var LITLIST;            // list of literary sources
+var LITMANU;
+var LITPRINT;
 var WORKLIST;           // list of musical settings
 var LASTTIME = -1;
 
@@ -1297,6 +1299,13 @@ function PrepareGlobalTassoObjects() {
 	}
 	if (!GERUVERSELIST) {
 		GERUVERSELIST = TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
+	}
+
+	if (!LITMANU) {
+		LITMANU = TASSODATA.MANUSCRIPTS.MANUSCRIPT;
+	}
+	if (!LITPRINT) {
+		LITPRINT = TASSODATA.PRINTS.PRINT;
 	}
 
 	InsertVersesIntoSettings();

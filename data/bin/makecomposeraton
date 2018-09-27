@@ -7,7 +7,7 @@
 # vim:           ts=3
 #
 # Description:   This program downloads the composer index spreadsheet
-#                from Google Spreadsheets and creats an ATON file with
+#                from Google Spreadsheets and creates an ATON file with
 #                the same contents.  
 #
 # Note:          wget must be installed, which is common on linux computers by default.

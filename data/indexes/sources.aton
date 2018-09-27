@@ -2898,9 +2898,9 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080454
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -2918,8 +2918,8 @@
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://books.google.com/books?id=8MWHOfAAVYAC&source=gbs_navlinks_s
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -4226,8 +4226,8 @@
 @PUBLOC:	Vineggia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Cornelio Corniani
-@OPARTBOOKS:	C6AVTB
-@EXTPARTBOOKS:	C6AVTB
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://stimmbuecher.digitale-sammlungen.de/view?id=bsb00073082
@@ -5531,7 +5531,7 @@
 @TITLEPAGE:	
 @TITLESHORT:	Il sesto libro de madrigali a cinque et sei voci
 @PUBLISHER:	Vincenti et Amadino
-@YEAR:	1587
+@YEAR:	1588
 @PUBTYPE:	single-auhor
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
@@ -6211,12 +6211,12 @@
 
 @@BEGIN: SOURCE
 @RISM:	1601-05
-@AUTHOR:	Verdonck, Cornelis
+@AUTHOR:	Verdonck, Cornelis, etc.
 @TITLEPAGE:	
 @TITLESHORT:	Ghirlanda di madrigali a sei voci
 @PUBLISHER:	Phalesio
 @YEAR:	1601
-@PUBTYPE:	single-author
+@PUBTYPE:	anthology
 @PUBFORMAT:	part-books
 @PUBLOC:	Anversa
 @PUBNORMLOC:	Antwerp

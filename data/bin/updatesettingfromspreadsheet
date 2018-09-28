@@ -21,12 +21,21 @@ my $fieldsQ = 0;
 my $overwriteQ = 0;
 my $changesQ = 0;
 my $noemptiesQ = 0;
+
+# Spreadsheet ID on Google Sheets
+my $id = "1YcaAQc-mxFFDWyOsT7HOlwZkEqB4rPEuOzXCMTKprMc";
+
+# Group id (individidual page) on Google Sheets
+my $gid = "1098021743";
+
 Getopt::Long::Configure("bundling");
 GetOptions (
-   'f|fields' => \$fieldsQ,
-   'o|overwrite' => \$overwriteQ,
+   'id:s'             => \$id,
+   'gid:s'            => \$gid,
+   'f|fields'         => \$fieldsQ,
+   'o|overwrite'      => \$overwriteQ,
    'c|change|changes' => \$changesQ,
-   'E|no-empties' => \$noemptiesQ
+   'E|no-empties'     => \$noemptiesQ
 );
 
 # if -E is used, then -c is implied:
@@ -34,15 +43,23 @@ if ($noemptiesQ) {
 	$changesQ = 1;
 }
 
-die "Usage: $0 spreadsheet settings\n" if @ARGV != 2;
+die "Usage: $0 spreadsheet settings\n" if @ARGV != 1;
 
-my $sheetfile = $ARGV[0];
-my $datafile = $ARGV[1];
+
+# sources spreadsheet:
+my $url = "https://docs.google.com/spreadsheets/d/$id/export?gid=$gid&format=tsv";
+my $contents = `wget -O - "$url"`;
+die "Problem downloading data\n" if $contents =~ /^\s*$/;
+my @spreadsheet = split(/[\n\r]+/, $contents);
+my $linecount = @spreadsheet;
+die "Problem downloading data: not enough content.\n" if $linecount < 200;
+
+my $datafile = $ARGV[0];
 
 my %COLUMN;
 my %SHEET;
 
-loadSheetInfo($sheetfile);
+loadSheetInfo(@spreadsheet);
 
 if ($fieldsQ) {
 	my @keys = keys %COLUMN;
@@ -91,7 +108,6 @@ sub updateIndex {
 		$output[@output] = $line;
 		if ($line =~ /^\@CATALOGNUM\s*:\s*([^\s]+)\s*$/) {
 			$catalognum = $1;
-#print "CATALOG $catalognum\n" if $catalognum =~ /Trm0284/;
 			next;
 		}
 		if ($line =~ /^\@\@END\s*:\s*SETTING\s*$/) {
@@ -102,12 +118,9 @@ sub updateIndex {
 		if ($line =~ /^\@([A-Za-z_0-9-]+)\s*:\s*(.*)\s*$/) {
 			my $key = $1;
 			my $value = $2;
-#print "\tPROCESSING $key == $value\n" if $catalognum =~ /Trm0284/;
 			my $index = $COLUMN{$key};
-#print "\t\tINDEX = $index\n" if $catalognum =~ /Trm0284/;
 			next if $index =~ /^\s*$/;
 			my $newvalue = getValue($catalognum, $index);
-#print "\t\tNEW VALUE = $newvalue\n" if $catalognum =~ /Trm0284/;
 			next if $newvalue =~ /^\s*$/;
 			if ($changesQ) {
 				if ($noemptiesQ && ($value =~ /^\s*$/)) {
@@ -118,7 +131,6 @@ sub updateIndex {
 			}
 			if ($value ne $newvalue) {
 				$output[-1] = "\@$key:\t$newvalue\n";
-#print "\t\tUPDATED ENTRY: $output[-1]\n" if $catalognum =~ /Trm0284/;
 			}
 		}
 	}
@@ -150,24 +162,22 @@ sub getValue {
 ##
 
 sub loadSheetInfo {
-	my ($sheetfile) = @_;
-	open (SHEETFILE, $sheetfile) or die;
-	my $firstline = <SHEETFILE>;
+	my (@spreadsheet) = @_;
+	my $firstline = $spreadsheet[0];
 	chomp $firstline;
 	my @fields = split("\t", $firstline);
 	for (my $i=0; $i<@fields; $i++) {
 		$COLUMN{$fields[$i]} = $i;
 	}
-	my @rest = <SHEETFILE>;
-	for (my $i=0; $i<@rest; $i++) {
-		$rest[$i] =~ /(^[^\s]+)\t/;
+
+	for (my $i=1; $i<@spreadsheet; $i++) {
+		$spreadsheet[$i] =~ /(^[^\s]+)\t/;
 		my $id = $1;
 		if ($SHEET{$id} !~ /^\s*$/) {
 			print "ERROR: duplicate id: $id\n";
 		}
-		$SHEET{$id} = $rest[$i];
+		$SHEET{$id} = $spreadsheet[$i];
 	}
-	close SHEETFILE;
 }
 
 

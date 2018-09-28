@@ -9,21 +9,20 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
-	var cgi = GetCgiParameters();
-   if (cgi.rime) {
-		Rime = cgi.rime;
-	   displayLiterarySources(Rime, "#contents");
-   } else if (cgi.id) {
-		var matches = cgi.id.match(/Trm(\d+)/);
+	CGI = GetCgiParameters();
+   if (CGI.rime) {
+		Rime = CGI.rime;
+   } else if (CGI.id) {
+		var matches = CGI.id.match(/Trm(\d+)/);
 		if (matches) {
 			Rime = matches[1];
-	   	displayLiterarySources(Rime, "#contents");
 		} else {
-	   	displayLiterarySources(0, "#contents");
+			Rime = 0;
 		}
    } else {
-	   displayLiterarySources(0, "#contents");
+		Rime = 0;
    }
+	LoadTassoData(displayLiterarySources);
 });
 
 

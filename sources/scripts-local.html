@@ -81,7 +81,10 @@ function displayPreviousSource() {
 //
 
 function displayLiterarySources(rime, target) {
-
+	PrepareGlobalTassoObjects();
+	if (!rime) {
+		rime = Rime;
+	}
 	if (!target) {
 		target = "#contents";
 	}
@@ -90,78 +93,8 @@ function displayLiterarySources(rime, target) {
 		console.log("Error: cannot place Rime literary sources on page.");
 		return;
 	}
- 
-   var counter = 0;
 
-   if (sessionStorage.RIMEVERSELIST) {
-		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
-		setNextPreviousRime(rime);
-		counter++;
-	}
-
-   if (sessionStorage.LITPRINT) {
-		LITPRINT = JSON.parse(sessionStorage.LITPRINT);
-		counter++;
-	}
-
-   if (sessionStorage.LITMANU) {
-		LITMANU = JSON.parse(sessionStorage.LITMANU);
-		counter++;
-	}
-
-	if (!sessionStorage.RIMEVERSELIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_verses}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMEVERSELIST = aton.parse(this.responseText).RIME;
-			setNextPreviousRime(rime);
-         sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
-         counter++;
-         if (counter == 3) {
-            reallyDisplaySources(rime, target);
-				counter++;
-         }
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.LITPRINT) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.literary_prints}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			LITPRINT = aton.parse(this.responseText).PRINT;
-         sessionStorage.LITPRINT = JSON.stringify(LITPRINT);
-         counter++;
-         if (counter == 3) {
-            reallyDisplaySources(rime, target);
-				counter++;
-         }
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.LITMANU) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.literary_manuscripts}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			LITMANU = aton.parse(this.responseText).MANUSCRIPT;
-         sessionStorage.LITMANU = JSON.stringify(LITMANU);
-         counter++;
-         if (counter == 3) {
-            reallyDisplaySources(rime, target);
-				counter++;
-         }
-		});
-		request.send();
-	}
-
-	if (counter == 3) {
-      reallyDisplaySources(rime, target);
-		counter++;
-	}
+   reallyDisplaySources(rime, target);
 }
 
 

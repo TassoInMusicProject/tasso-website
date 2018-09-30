@@ -9,7 +9,7 @@
 <script src="/scripts/scripts-worknav.js"></script>
 
 {% include_relative templates.html %}
-<!-- include_relative templates-report.html -->
+{% include_relative templates-report.html %}
 
 {% include_relative listeners.html %}
 
@@ -322,7 +322,6 @@ function displaySingleWork(id, target) {
 		target = "#contents";
 	}
 	SETTING = GetSettingEntry(id);
-console.log("ID", id, "SETTING", SETTING);
 	// var work = GetWorkEntry(id);
 	// SETTING.ih = work.ih;
 	if (!SETTING.TITLE) {
@@ -338,7 +337,7 @@ console.log("ID", id, "SETTING", SETTING);
 	displayIncipit(id);
 	getHumdrum(id);
 	getRange(id);
-	// getCriticalNotes(id);
+	getCriticalNotes(id);
 	if (CGI.q) {
 		var query = document.querySelector("#query");
 		if (query) {
@@ -497,6 +496,7 @@ function emptyReportButton()  {
 
 function getCriticalNotes(id) {
 	var tag = "report_" + id;
+console.log("REPORT FOR ", id, "BEING GENERATED");
 	var tagcontent;
 	var element = document.querySelector("#" + tag);
 	element.innerHTML = emptyReportButton();
@@ -517,6 +517,7 @@ function getCriticalNotes(id) {
 						.replace(/---/g, "&mdash;")
 						.replace(/--/g, "&ndash;");
 				var data = aton.parse(raw).CRITICAL_REPORT;
+				SETTING.REPORT = data;
 				var tsource = document.querySelector("#criticalreport-template").textContent;
 				var template = Handlebars.compile(tsource);
 				var result = template(data);
@@ -526,6 +527,8 @@ function getCriticalNotes(id) {
 					// catalog links now done differently:
 					element.innerHTML = result;
 				}
+				fillInDedicatee(id);
+				fillInOtherSources(id);
 			}
 		});
 		request.send()
@@ -1711,6 +1714,76 @@ function gotoMeasure(measurenum) {
 //	});
 
 }
+
+
+
+//////////////////////////////
+//
+// fillInDedicatee --
+//
+
+function fillInDedicatee(id) {
+console.log("SETTING:::", SETTING);
+	var element = document.querySelector("#principal_dedicatee");
+	if (!element) {
+		return;
+	}
+	if (!SETTING.REPORT) {
+		return;
+	}
+	var dedicatee     = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE;
+	var dedicateeNote = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE_NOTE;
+
+	var tds = element.querySelectorAll("td");
+	if (tds.length != 2) {
+		return;
+	}
+	var datatd = tds[1];
+
+	var output = "";
+	if (dedicatee) {
+		output += dedicatee;
+	}
+	if (dedicatee && dedicateeNote) {
+		output += "<br/>";
+	}
+	if (dedicateeNote) {
+		output += dedicateeNote;
+	}
+	element.style.display = "display";
+}
+
+
+
+//////////////////////////////
+//
+// fillInOtherSources --
+//
+
+function fillInOtherSources(id) {
+	var element = document.querySelector("#other_sources");
+	if (!element) {
+		return;
+	}
+	var output = "";
+	var list = SETTING.REPORT.OTHER_SOURCE;
+	if (!list) {
+		element.innerHTML = "<div class='indent'>None</div>";
+		return ;
+	}
+	if (!(list instanceof Array)) {
+		list = [list];
+	}
+	var output = "<div class='indent'>";
+	for (var i=0; i<list.length; i++) {
+		output += "<p>";
+		output += list[i];
+	
+	}
+	output += "</div>";
+	element.innerHTML = output;
+}
+
 
 </script>
 

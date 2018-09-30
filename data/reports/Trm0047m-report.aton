@@ -2,8 +2,6 @@
 
 @CATALOGNUM: Trm0047m
 
-@EDITOR: Ricciardi, Emiliano
-
 @PRINCIPAL_SOURCE:
 	<i>Fiori musicali di diversi auttori a tre voci.
 	Libro secondo. Nuovamente composti, & dati in luce</i>.
@@ -12,19 +10,18 @@
 	[Princeps edition --- complete: CTB]
 	<br>
 	Digital reproduction of exemplar from {{siglum "A-Wn"}}
-	
-@PRINCIPAL_SOURCE_DEDICATEE:
-	Francesco Sugana
-	<br>
-	The dedication is signed by Iacomo (Giacomo) Vincenzi, the compiler of the anthology.
+
+@PRINCIPAL_SOURCE_DEDICATEE: Francesco Sugana
+@PRINCIPAL_SOURCE_DEDICATEE_NOTE: The dedication is signed by Iacomo (Giacomo)
+	Vincenzi, the compiler of the anthology.
 
 @OTHER_SOURCE:
 	<i>Fiori musicali di diversi auttori a tre voci. Libro secondo.
 	Nuovamente ristampati</i>. Venice: Giacomo Vincenti, 1598 (RISM B/I, 1598-10)
 	<br>
 	[Reprint of RISM B/I, 1588-20 --- complete: CTB]
-
-@OTHER_SOURCE: Microfilm reproduction of exemplar from {{siglum "I-Bc"}}
+	<b>
+	Microfilm reproduction of exemplar from {{siglum "I-Bc"}}
 
 @OTHER_SOURCE: <i>Fiori musicali a tre voci de diversi eccellentissimi auttori.
 	Di nuovo stampati & seguendo l’ordine de suoi Tuoni posti in luce</i>.
@@ -32,23 +29,29 @@
 	<br>
 	[Pierre Phalèse’s reprint of the first and second books of the anthology
 	<i>Fiori musicali</i> --- complete: CTB]
+	<br>
+	CB – Microfilm reproduction of exemplar from {{siglum "B-Br"}}
+	<br>
+	T – Digital reproduction of exemplar from {{siglum "DK-Kk"}}
 
-@OTHER_SOURCE: CB – Microfilm reproduction of exemplar from {{siglum "B-Br"}}
 
-@OTHER_SOURCE: T – Digital reproduction of exemplar from {{siglum "DK-Kk"}}
-
-@EMENDED_READING: None
-
-@CRITICAL_NOTE: {{MM 14}} and {{MMx 18}}, T, text reads “forza o d’arte”
+@CRITICAL_NOTE:
+	{{MM 14}} and {{MMx 18}}, T, text reads “forza o d’arte”
 	and “forza od arre,” respectively.
 
-@CRITICAL_NOTE: In corresponding sections from reprint RISM B/I,
-	1598-10, text reads “forza d’arte” consistently across the three
-	part-books. The variant “forza o d’arte” occurs again in T from
-	reprint RISM B/I, 1604-13.
+@CRITICAL_NOTE:
+	In corresponding sections from reprint RISM B/I, 1598-10,
+	text reads “forza d’arte” consistently across the three
+	part-books. The variant “forza o d’arte” occurs again in
+	T from reprint RISM B/I, 1604-13.
+
+@OTHER_CRITICAL_NOTES:
+	None
+
+@EMENDED_READING:
+	None
 
 @COMMENTARY:
-
 	This three-voice piece by Roman composer Giovannelli appeared
 	in the second book of the anthology <i>Fiori musicali</i>,
 	assembled by Giacomo Vincenzi and dedicated to Francesco
@@ -75,7 +78,8 @@
 	1581 setting of the same poem also features hexachords (see
 	{{work "Trm0047b"}}).
 
-@OTHER_MODERN_EDITION: none
+@OTHER_MODERN_EDITION:
+	None
 
 @@END: CRITICAL_REPORT
 

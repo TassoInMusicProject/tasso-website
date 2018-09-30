@@ -230,14 +230,20 @@
 
 	{{#if SOURCE}}
 	<h3>MUSICAL SOURCES</h3>
+
 	<div class="indent">
+		<h4>PRINCIPAL SOURCE</h4>
 		{{{sourceinfo SOURCE}}}
+
+		<h4>OTHER SOURCES</h4>
+		<div id="other_sources"></div>
 	</div>
+
 	{{/if}}
 
 	<h3>CRITICAL REPORT</h3>
 	<div class="indent">
-		{{{criticalreport this}}}
+		{{{criticalReport this}}}
 	</div>
 
 	<span id="report_{{CATALOGNUM}}"></span>
@@ -400,14 +406,14 @@ Handlebars.registerHelper("formatTitle", function(text) {
 
 //////////////////////////////
 //
-// principalsource Handlebar helper  -- format principal source information
+// principalSource Handlebar helper  -- format principal source information
 //
 
-Handlebars.registerHelper("principalsource", function(id) {
+Handlebars.registerHelper("principalSource", function(id) {
 	var entry = GetSettingEntry(id);
 	var text = entry.REPORT_PRINCIPALSOURCE;
 	if (!text) {
-		return new Handlebars.SafeString("None.");
+		return new Handlebars.SafeString("None");
 	}
 	return new Handlebars.SafeString(text);
 });
@@ -691,7 +697,6 @@ Handlebars.registerHelper("voices-simple", function(evoice, ovoice, catalog) {
 
 Handlebars.registerHelper("sourceinfo", function(source) {
 	var text = "";
-	text += "<h4>PRINCIPAL SOURCE</h4>";
 	text += "<table class='sourceinfo'>";
 
 /*
@@ -735,6 +740,14 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 		text += "</td></tr>";
 	}
 
+	text += "<tr id='principal_dedicatee' style='display:none'><td><nobr>Source Dedicatee</nobr></td><td></td></tr>";
+
+	if (source.SRCDEDICATEE) {
+		text += "<tr><td><nobr>Dedicatee</nobr></td><td>";
+		text += source.SRCDEDICATEE;
+		text += "</td></tr>";
+	}
+
 	if (source.OPARTBOOKS && source.EXTPARTBOOKS && (source.OPARTBOOKS === source.EPARTBOOKS)) {
 			text += "<tr><td><nobr>Part-books</nobr></td><td>";
 			text += source.OPARTBOOKS;
@@ -750,12 +763,6 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 			text += source.EXTPARTBOOKS;
 			text += "</td></tr>";
 		}
-	}
-
-	if (source.SRCDEDICATEE) {
-		text += "<tr><td><nobr>Dedicatee</nobr></td><td>";
-		text += source.SRCDEDICATEE;
-		text += "</td></tr>";
 	}
 
 	if (source.PUBLISHER) {
@@ -842,10 +849,10 @@ function cleanTitlePage(input) {
 
 //////////////////////////////
 //
-// criticalreport Handlebar helper  -- 
+// criticalReport Handlebar helper  -- 
 //
 
-Handlebars.registerHelper("criticalreport", function(setting) {
+Handlebars.registerHelper("criticalReport", function(setting) {
 	var text = "";
 	text += "<table class='sourceinfo'>";
 

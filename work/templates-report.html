@@ -5,25 +5,30 @@
 {% raw %}
 <script id="criticalreport-template" type="text/x-handlebars-template">
 
+<!--
 <h3>MUSICAL SOURCES</h3>
 
-{{githubReport CATALOGNUM}}
+x{githubReport CATALOGNUM}}
 
 <div style="width:800px" class='indent'>
-	{{ principalSources PRINCIPAL_SOURCE }}
-	{{ principalSourceDedicatee PRINCIPAL_SOURCE_DEDICATEE }}
-	{{ otherSources OTHER_SOURCE }}
+	x{ principalSources PRINCIPAL_SOURCE }}
+	x{ principalSourceDedicatee PRINCIPAL_SOURCE_DEDICATEE }}
+	x{ otherSources OTHER_SOURCE }}
 </div>
 
 <h3>CRITICAL REPORT</h3>
 <div style="width:800px" class='indent'>
-	{{ principalClefs CATALOGNUM }}
-	{{ principalMensuration CATALOGNUM }}
-	{{ principalEmended  EMENDED_READING }}
-	{{ criticalNotes CRITICAL_NOTE }}
+	x{ principalClefs CATALOGNUM }}
+	x{ principalMensuration CATALOGNUM }}
+	x{ criticalNotes CRITICAL_NOTE }}
 </div>
+-->
+
+<div class="indent">
+{{ principalEmended  EMENDED_READING }}
 
 {{ criticalCommentary COMMENTARY }}
+</div>
 
 {{ modernEditions OTHER_MODERN_EDITION }}
 
@@ -88,6 +93,7 @@ Handlebars.registerHelper("siglum",  function (siglum) {
 	if (!siglum) {
 		return new Handlebars.SafeString(output);
 	}
+	return new Handlebars.SafeString(siglum);
 	
 	if (typeof siglum === "string") {
 		if (!SIGLALIST[siglum].INSTITUTE) {
@@ -328,7 +334,7 @@ Handlebars.registerHelper("otherSources",  function(sources) {
 //
 
 Handlebars.registerHelper("principalMensuration", function(id) {
-	var output = "<h3>Mensuration Sign in Principal Source</h3>";
+	var output = "<h3>Mensuration sign in principal source</h3>";
 	var setting = GetSettingEntry(id);
 	if (!setting) {
 		return new Handlebars.SafeString("NO SETTING FOR " + id);
@@ -369,11 +375,14 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 	
 	var template;
 	if (typeof emendations === "string") {
-		output += "<h3>Emended Reading of Principal Source</h3>";
+		output += "<h4>EMENDED READINGS OF PRINCIPAL SOURCE</h4>";
 		template = Handlebars.compile(emendations);
+		output += "<div class='indent'>";
 		output += template();
+		output += "</div>";
 	} else if (emendations.length >= 1)  {
-		output += "<h3>Emended Readings of Principal Source</h3>";
+		output += "<h4>EMENDED READINGS OF PRINCIPAL SOURCE</h4>";
+		output += "<div class='indent'>";
 		for (var i=0; i<emendations.length; i++) {
 			output += emendations[i];
 			template = Handlebars.compile(emendations[i]);
@@ -382,6 +391,7 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 				output += "<p>";
 			}
 		}
+		output += "</div>";
 	}
 	return new Handlebars.SafeString(output);
 });
@@ -432,7 +442,7 @@ Handlebars.registerHelper("criticalCommentary",  function (commentary) {
 	
 	var template;
 	if (typeof commentary === "string") {
-		output += "<h3>COMMENTARY</h3>";
+		output += "<h4>COMMENTARY</h4>";
 		output += "<div class='indent'>";
 		template = Handlebars.compile(commentary);
 		output += template();
@@ -460,7 +470,7 @@ Handlebars.registerHelper("criticalCommentary",  function (commentary) {
 //
 
 Handlebars.registerHelper("principalClefs", function(id) {
-	var output = "<h3>Clefs in Principal Source</h3>";
+	var output = "<h3>Original clefs in principal source</h3>";
 	var setting = GetSettingEntry(id);
 	if (!setting) {
 		return new Handlebars.SafeString("NO SETTING FOR " + id);

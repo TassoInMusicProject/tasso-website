@@ -2,6 +2,13 @@
 
 @CATALOGNUM: Trm0047m
 
+@PRINCIPAL_SOURCE: {{risminfo 1588-20}}
+
+@OTHER_SOURCE: {{risminfo 1598-10}}
+
+@OTHER_SOURCE: {{risminfo 1604-13}}
+
+
 @PRINCIPAL_SOURCE:
 	<i>Fiori musicali di diversi auttori a tre voci.
 	Libro secondo. Nuovamente composti, & dati in luce</i>.
@@ -35,20 +42,17 @@
 	T – Digital reproduction of exemplar from {{siglum "DK-Kk"}}
 
 
-@CRITICAL_NOTE:
+@EMENDED_READING:
 	{{MM 14}} and {{MMx 18}}, T, text reads “forza o d’arte”
 	and “forza od arre,” respectively.
 
-@CRITICAL_NOTE:
+@EMENDED_READING:
 	In corresponding sections from reprint RISM B/I, 1598-10,
 	text reads “forza d’arte” consistently across the three
 	part-books. The variant “forza o d’arte” occurs again in
 	T from reprint RISM B/I, 1604-13.
 
 @OTHER_CRITICAL_NOTES:
-	None
-
-@EMENDED_READING:
 	None
 
 @COMMENTARY:
@@ -80,6 +84,34 @@
 
 @OTHER_MODERN_EDITION:
 	None
+
+
+@VERSE:
+	Non &egrave; questa la mano
+	Che tante e s&igrave; mortali
+	Avvent&ograve; nel mio cor fiammelle e strali?
+	Ecco che pur si trova
+	Fra le mie man ristretta
+	N&eacute; forza od arte per fuggir le giova,
+	N&eacute; tien face o saetta
+	Che da me la difenda.
+	Giusto &egrave; ben ch'io ne prenda,
+	Amor, qualche vendetta,
+	E se piaghe mi di&egrave; baci le renda.
+
+@TVERSE:
+	Is this not the hand                                               
+	That so many and indeed fatal
+	Flames and arrows hurled at my heart?
+	Yet here it is, to be found
+	Held fast between my hands.
+	Neither strength or craft can help it escape,
+	Nor does it hold a torch or a spear
+	To defend her against me.
+	It is just that I take,
+	Love, some kind of revenge,
+	And if she gave me wounds, I give her kisses.
+
 
 @@END: CRITICAL_REPORT
 

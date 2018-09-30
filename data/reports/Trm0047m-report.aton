@@ -1,4 +1,4 @@
-@@BEGIN: CRITICAL_REPORT
+@@BEGIN: REPORT
 
 @CATALOGNUM: Trm0047m
 
@@ -8,49 +8,15 @@
 
 @OTHER_SOURCE: {{risminfo 1604-13}}
 
-
-@PRINCIPAL_SOURCE:
-	<i>Fiori musicali di diversi auttori a tre voci.
-	Libro secondo. Nuovamente composti, & dati in luce</i>.
-	Venice: Giacomo Vincenzi, 1588 (RISM B/I, 1588-20)
-	<br>
-	[Princeps edition --- complete: CTB]
-	<br>
-	Digital reproduction of exemplar from {{siglum "A-Wn"}}
-
-@PRINCIPAL_SOURCE_DEDICATEE: Francesco Sugana
-@PRINCIPAL_SOURCE_DEDICATEE_NOTE: The dedication is signed by Iacomo (Giacomo)
-	Vincenzi, the compiler of the anthology.
-
-@OTHER_SOURCE:
-	<i>Fiori musicali di diversi auttori a tre voci. Libro secondo.
-	Nuovamente ristampati</i>. Venice: Giacomo Vincenti, 1598 (RISM B/I, 1598-10)
-	<br>
-	[Reprint of RISM B/I, 1588-20 --- complete: CTB]
-	<b>
-	Microfilm reproduction of exemplar from {{siglum "I-Bc"}}
-
-@OTHER_SOURCE: <i>Fiori musicali a tre voci de diversi eccellentissimi auttori.
-	Di nuovo stampati & seguendo l’ordine de suoi Tuoni posti in luce</i>.
-	Antwerp: Pietro Phalesio, 1604 (RISM B/I, 1604-13)
-	<br>
-	[Pierre Phalèse’s reprint of the first and second books of the anthology
-	<i>Fiori musicali</i> --- complete: CTB]
-	<br>
-	CB – Microfilm reproduction of exemplar from {{siglum "B-Br"}}
-	<br>
-	T – Digital reproduction of exemplar from {{siglum "DK-Kk"}}
-
-
 @EMENDED_READING:
 	{{MM 14}} and {{MMx 18}}, T, text reads “forza o d’arte”
 	and “forza od arre,” respectively.
 
 @EMENDED_READING:
-	In corresponding sections from reprint RISM B/I, 1598-10,
+	In corresponding sections from reprint {{rism 1598-10}},
 	text reads “forza d’arte” consistently across the three
 	part-books. The variant “forza o d’arte” occurs again in
-	T from reprint RISM B/I, 1604-13.
+	T from reprint {{rism 1604-13}}.
 
 @OTHER_CRITICAL_NOTES:
 	None
@@ -82,7 +48,7 @@
 	1581 setting of the same poem also features hexachords (see
 	{{work "Trm0047b"}}).
 
-@OTHER_MODERN_EDITION:
+@MODERN_EDITION:
 	None
 
 
@@ -113,6 +79,6 @@
 	And if she gave me wounds, I give her kisses.
 
 
-@@END: CRITICAL_REPORT
+@@END: REPORT
 
 

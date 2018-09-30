@@ -516,7 +516,7 @@ console.log("REPORT FOR ", id, "BEING GENERATED");
 				var raw = this.responseText
 						.replace(/---/g, "&mdash;")
 						.replace(/--/g, "&ndash;");
-				var data = aton.parse(raw).CRITICAL_REPORT;
+				var data = aton.parse(raw).REPORT;
 				SETTING.REPORT = data;
 				var tsource = document.querySelector("#criticalreport-template").textContent;
 				var template = Handlebars.compile(tsource);

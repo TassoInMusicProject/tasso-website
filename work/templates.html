@@ -542,11 +542,11 @@ Handlebars.registerHelper("composer", function(composerdata) {
 	var oinfo = "";
 
 	if (cd.ALIASES) {
-		oinfo += "<tr><td>Aliases</td><td>" + cd.ALIASES + "</td></tr>";
+		oinfo += "<tr><td><nobr>Alternate spellings/aliases</nobr></td><td>" + cd.ALIASES + "</td></tr>";
 	}
 	if (cd.AREA) {
 		if (cd.AREA.match(/,/)) {
-			oinfo += "<tr><td>Active areas</td><td>" + cd.AREA + "</td></tr>";
+			oinfo += "<tr><td><nobr>Active areas (alphabetical)</nobr></td><td>" + cd.AREA + "</td></tr>";
 		} else {
 			oinfo += "<tr><td>Active area</td><td>" + cd.AREA + "</td></tr>";
 		}

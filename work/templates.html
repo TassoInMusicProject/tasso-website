@@ -722,7 +722,7 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 
 	if (source.TITLEPAGE) {
 		text += "<tr><td><nobr>Title page</nobr></td><td>";
-		var tp = source.TITLEPAGE.replace(/\s*\/\s*/g, "<br>");
+		var tp = cleanTitlePage(source.TITLEPAGE);
 		text += "<div style='margin-left: -20px; background-color:#f5f5f5; padding:8px; text-align:center;'>";
 		text += "<nobr>";
 		text += tp;
@@ -813,6 +813,30 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 	text += "</table>";
 	return new Handlebars.SafeString(text);
 });
+
+
+
+//////////////////////////////
+//
+// cleanTitlePage -- Change "/" into newlines, but not when in strings like "</i>".
+//
+
+function cleanTitlePage(input) {
+	var output = "";
+	for (var i=0; i<input.length; i++) {
+		var letter = input.charAt(i);
+		if (letter === "/") {
+			if ((i > 0) && (input.charAt(i-1) == "<")) {
+				output += "/";
+			} else {
+				output += "<br/>";
+			}
+		} else {
+			output += letter;
+		}
+	}
+	return output;
+}
 
 
 

@@ -63,24 +63,24 @@ The repository of digital scores used on the TMP website:
 <a style="margin-left:50px;" target="_blank" href="https://github.com/TassoInMusicProject/tasso-scores">https://github.com/TassoInMusicProject/tasso-scores</a>
 
 
+Metadata
+---------------------
+
+Metadata index used on the website:
 
 
+<div style="margin-left:50px" id="tassodata"></div>
+<script>
+	{% include_relative renderjson.js %}
+</script>
+<script>
+	function displayTassoData() {
+		document.getElementById("tassodata").appendChild(renderjson(TASSODATA));
+	}
+</script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This data is used to search on the <a target="_new" href="/browse">Browse page</a>, as well as display most information about scores such as on the 
+<a target="_new" href="/work?id=Trm0047m">Work pages</a>.
 
 
 

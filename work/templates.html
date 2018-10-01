@@ -916,6 +916,44 @@ Handlebars.registerHelper("criticalReport", function(setting) {
 });
 
 
+
+//////////////////////////////
+//
+// rism Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("rism", function(rismid) {
+	if (!rismid) {
+		return new Handlebars.SafeString("RISM ID IS EMPTY: " + rismid);
+	}
+	var output = "";
+	if (rismid.match(/[A-Z]\s+(\d+)/)) {
+		output = "RISM A/I " + rismid;
+	} else if (rismid.match(/^(\d+)/)) {
+		output = "RISM B/I " + rismid;
+	} else {
+		// Might suppress later when id is not a rism number in one of the
+		// above two formats.
+		output = rismid;
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// risminfo Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("risminfo", function(rismid) {
+	output = "INFO FOR " + rismid + " will go here.";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+
 </script>
 
 

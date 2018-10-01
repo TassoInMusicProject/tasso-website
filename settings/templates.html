@@ -30,6 +30,8 @@
 		<th onclick="sortByText(event, 1)" style="cursor:pointer; text-align:left">Composer</th>
 		<th onclick="sortByPublication(event, 2)" style="cursor:pointer; text-align:left">Source</th>
 		<th onclick="sortByVoice(event, 3)" style="cursor:pointer; text-align:left">Voices</th>
+		<th onclick="sortByText(event, 4)" style="cursor:pointer; text-align:left">Clefs</th>
+		<th onclick="sortByText(event, 5)" style="cursor:pointer; text-align:left">Mensuration</th>
 	<thead>
 	<tbody>
 
@@ -39,6 +41,8 @@
 	<td><nobr>{{{shortComposer COMPOSER}}}</nobr></td>
 	<td>{{{printSource PRINCEPSTITLE NORMLOC PRINCEPSPUB PRINCEPSYEAR PRINCEPSFORMAT PRINCEPSAUTHOR}}}</td>
 	<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES CATALOGNUM}}}</td>
+	<td class="clefs" onclick="displaySingleWork('{{CATALOGNUM}}');" style="margin-right:20px'">{{{clefs OCLEFS}}}</td>
+	<td class="mensurations" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{mensuration OMENSURATION}}}</td>
 	</tr>
 	{{/WORKS}}
 
@@ -87,7 +91,7 @@ Handlebars.registerHelper("printSource", function(title, loc, pub, year, format,
 	if (loc || pub || year) {
 		output += "<span class='publication'>";
 		output += "&nbsp;&nbsp;";
-		output += "(";
+		output += "<br/>(";
 		if (loc && pub && year) {
 			output += loc + ": " + pub + ", " + year;
 		} else if (loc && pub) {
@@ -383,6 +387,37 @@ function sortByPublication(event, index) {
 		body.appendChild(datalist[i]);
 	}
 }
+
+
+//////////////////////////////
+//
+// clefs Handlebar helper  -- display original clefs.
+//
+//  OCLEFS
+
+Handlebars.registerHelper("clefs", function(clefs) {
+	if (!clefs) {
+		return new Handlebars.SafeString("");
+	}
+	clefs = clefs.replace(/\s+/g, "");
+	return new Handlebars.SafeString(clefs);
+});
+
+
+
+//////////////////////////////
+//
+// mensurations Handlebar helper  -- display original mensurations.
+//
+//  OMENSURATION
+
+Handlebars.registerHelper("mensuration", function(mensuration) {
+	if (!mensuration) {
+		return new Handlebars.SafeString("");
+	}
+	return new Handlebars.SafeString(mensuration);
+});
+
 
 
 

@@ -306,7 +306,19 @@ function displaySingleWork(id, target) {
 	// var work = GetWorkEntry(id);
 	// SETTING.ih = work.ih;
 	if (!SETTING.TITLE) {
-		SETTING.TITLE = SETTING.RIMETITLE;
+		if (SETTING.RIMETITLE && SETTING.SETTINGTITLE) {
+			SETTING.TITLE = SETTING.SETTINGTITLE;
+			SETTING.TITLE += " (<i>i.e.</i>, \"";
+			SETTING.TITLE += SETTING.RIMETITLE;
+			SETTING.TITLE += ",\" <i>Rime</i> ";
+			SETTING.TITLE += SETTING.SOLERTI;
+			SETTING.TITLE += ")";
+		} else {
+			SETTING.TITLE = SETTING.RIMETITLE;
+			SETTING.TITLE += " (<i>Rime</i> ";
+			SETTING.TITLE += SETTING.SOLERTI;
+			SETTING.TITLE += ")";
+		}
 	}
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
@@ -338,6 +350,12 @@ function displaySingleWork(id, target) {
 function displayPartNumbers(id) {
 	var element = document.querySelector("#voice-buttons");
 	if (!element) {
+		return;
+	}
+	if (!SETTING) {
+		return;
+	}
+	if (!SETTING.SCOREDATA) {
 		return;
 	}
 	var vcount = 0;
@@ -898,7 +916,7 @@ function getHumdrum(id) {
 		}
 		element.textContent = sessionStorage[tag];
 		initializeVerovioNotation("humdrum-data", "verovio-display");
-	} else {
+	} else if (SETTING.SCOREDATA && SETTING.SCOREDATA.DATAURL) {
 		var action = "humdrum";
 		var url = SETTING.SCOREDATA.DATAURL;
 		// old url from CCARH server:

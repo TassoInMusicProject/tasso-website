@@ -4,37 +4,21 @@
 
 {% raw %}
 <script id="criticalreport-template" type="text/x-handlebars-template">
-
 <!--
-<h3>MUSICAL SOURCES</h3>
-
-x{githubReport CATALOGNUM}}
-
-<div style="width:800px" class='indent'>
 	x{ principalSources PRINCIPAL_SOURCE }}
 	x{ principalSourceDedicatee PRINCIPAL_SOURCE_DEDICATEE }}
 	x{ otherSources OTHER_SOURCE }}
-</div>
-
-<h3>CRITICAL REPORT</h3>
-<div style="width:800px" class='indent'>
-	x{ principalClefs CATALOGNUM }}
-	x{ principalMensuration CATALOGNUM }}
 	x{ criticalNotes CRITICAL_NOTE }}
-</div>
 -->
 
 <div class="indent">
-{{ principalEmended  EMENDED_READING }}
-
-{{ criticalCommentary COMMENTARY }}
+	{{ principalEmended  EMENDED_READING }}
+	{{ criticalCommentary COMMENTARY }}
 </div>
-
 {{ modernEditions OTHER_MODERN_EDITION }}
 
 </script>
 {% endraw %}
-
 
 
 <script>
@@ -224,11 +208,11 @@ Handlebars.registerHelper("principalSources",  function (psources) {
 	
 	var template;
 	if (typeof psources === "string") {
-		output += "<h3>Principal Source</h3>";
+		output += "<h3>Principal source</h3>";
 		template = Handlebars.compile(psources);
 		output += template();
 	} else if (psources.length >= 1)  {
-		output += "<h3>Principal Sources</h3>";
+		output += "<h3>Principal sources</h3>";
 		for (var i=0; i<psources.length; i++) {
 			template = Handlebars.compile(psources[i]);
 			output += template();
@@ -298,72 +282,6 @@ Handlebars.registerHelper("principalSourceDedicatee",  function (psources) {
 
 //////////////////////////////
 //
-// { otherSources OTHER_SOURCE }
-//
-
-Handlebars.registerHelper("otherSources",  function(sources) {
-	var output = "";
-	if (!sources) {
-		return new Handlebars.SafeString(output);
-	}
-	
-	var template;
-	if (typeof sources === "string") {
-		output += "<h3>Other Source Consulted</h3>";
-		output += sources;
-		template = Handlebars.compile(sources);
-		output += template();
-	} else if (sources.length >= 1)  {
-		output += "<h3>Other Sources Consulted</h3>";
-		for (var i=0; i<sources.length; i++) {
-			template = Handlebars.compile(sources[i]);
-			output += template();
-			if (i < sources.length - 1) {
-				output += "<p>";
-			}
-		}
-	}
-	return new Handlebars.SafeString(output);
-});
-
-
-
-//////////////////////////////
-//
-// { pricipalMensuration }
-//
-
-Handlebars.registerHelper("principalMensuration", function(id) {
-	var output = "<h3>Mensuration sign in principal source</h3>";
-	var setting = GetSettingEntry(id);
-	if (!setting) {
-		return new Handlebars.SafeString("NO SETTING FOR " + id);
-	}
-	var mensuration = setting.OMENSURATION;
-	if (!mensuration) {
-		return new Handlebars.SafeString("NO MENSURATION FOR " + id);
-	}
-
-	mensuration = mensuration.replace(/^\s+/, "").replace(/\s+$/, "");
-
-	output += "<span style='display:inline-block; margin-top:-10px; font-size:200%'>";
-	// C or Cut-C: convert to c and  c|
-	if (mensuration === "C") {
-		output += "c";
-	} else if (mensuration === "Cut-C") {
-		output += "c<span style='position:relative; top:1px; margin-left:-0.30em'>|</span>";
-	} else {
-		output += mensuration;
-	}
-	output += "</span>";
-
-	return new Handlebars.SafeString(output);
-});
-
-
-
-//////////////////////////////
-//
 // { principalEmended EMENDED_READING }
 //
 
@@ -375,16 +293,15 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 	
 	var template;
 	if (typeof emendations === "string") {
-		output += "<h4>EMENDED READINGS OF PRINCIPAL SOURCE</h4>";
+		output += "<h4>Emended readings of principal source</h4>";
 		template = Handlebars.compile(emendations);
 		output += "<div class='indent'>";
 		output += template();
 		output += "</div>";
 	} else if (emendations.length >= 1)  {
-		output += "<h4>EMENDED READINGS OF PRINCIPAL SOURCE</h4>";
+		output += "<h4>Emended readings of principal source</h4>";
 		output += "<div class='indent'>";
 		for (var i=0; i<emendations.length; i++) {
-			output += emendations[i];
 			template = Handlebars.compile(emendations[i]);
 			output += template();
 			if (i < emendations.length - 1) {
@@ -442,13 +359,13 @@ Handlebars.registerHelper("criticalCommentary",  function (commentary) {
 	
 	var template;
 	if (typeof commentary === "string") {
-		output += "<h4>COMMENTARY</h4>";
+		output += "<h4>Commentary</h4>";
 		output += "<div class='indent'>";
 		template = Handlebars.compile(commentary);
 		output += template();
 		output += "</div>";
 	} else if (commentary.length >= 1)  {
-		output += "<h3>COMMENTARY</h3>";
+		uppercaseoutput += "<h4>Commentary</h4>";
 		output += "<div class='indent'>";
 		for (var i=0; i<commentary.length; i++) {
 			template = Handlebars.compile(commentary[i]);
@@ -458,57 +375,6 @@ Handlebars.registerHelper("criticalCommentary",  function (commentary) {
 			}
 		}
 	}
-	return new Handlebars.SafeString(output);
-});
-
-
-
-
-//////////////////////////////
-//
-// { pricipalClefs }
-//
-
-Handlebars.registerHelper("principalClefs", function(id) {
-	var output = "<h3>Original clefs in principal source</h3>";
-	var setting = GetSettingEntry(id);
-	if (!setting) {
-		return new Handlebars.SafeString("NO SETTING FOR " + id);
-	}
-	var clefs = setting.OCLEFS.replace(/^\s+/, "").replace(/\s+$/, "").split(/\)/);
-	if (!clefs) {
-		return new Handlebars.SafeString("NO CLEFS FOR " + id);
-	}
-
-	for (var i=0; i<clefs.length; i++) {
-		output += clefs[i];
-		if (i < clefs.length - 1) {
-			output += ")<br>";
-		}
-	}
-
-	return new Handlebars.SafeString(output);
-});
-
-
-
-//////////////////////////////
-//
-// githubReport -- go to the Github page for the report for editing.
-//
-
-Handlebars.registerHelper("githubReport", function(id) {
-	var url = "https://github.com/TassoInMusicProject/tasso-website";
-	url += "/blob/gh-pages/data/reports/";
-	url += id;
-	url += "-report.aton";
-
-	var output = "<div style='display:none' class='expert'>";
-	output += "<a target='_blank' style='floating:none;' class='ebutton' href='";
-	output += url;
-	output += "'>Edit on Github</a>";
-	output += "</div>";
-
 	return new Handlebars.SafeString(output);
 });
 

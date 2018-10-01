@@ -13,26 +13,6 @@
 
 {% include_relative listeners.html %}
 
-<style>
-table.sourceinfo {
-	/* width: 100%; */
-	margin-left: 75px;
-}
-
-table.sourceinfo tr {
-}
-
-table.sourceinfo td {
-	vertical-align: top;
-	padding-bottom: 15px;
-}
-
-table.sourceinfo td:first-child {
-	width: 200px;
-	font-weight: bold;
-}
-</style>
-
 <script>
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
@@ -286,6 +266,7 @@ function displayWorkList(target) {
 	var tsource = document.querySelector("#worklist-template").textContent;
 	var workTemplate = Handlebars.compile(tsource);
 	var output = workTemplate(WORKLIST[0]);
+
 	element.innerHTML = output;
 	fillInTimeKey();
 }
@@ -1777,8 +1758,8 @@ function fillInOtherSources(id) {
 	var output = "<div class='indent'>";
 	for (var i=0; i<list.length; i++) {
 		output += "<p>";
-		output += list[i];
-	
+		var otherTemplate = Handlebars.compile(list[i]);
+		output += otherTemplate();
 	}
 	output += "</div>";
 	element.innerHTML = output;

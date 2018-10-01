@@ -198,20 +198,20 @@
 	</div>
 
 	{{#if COMPOSER}}
-	<h3>COMPOSER</h3>
+	<h3>Composer</h3>
 	<div class="indent">
 		<div id="composer">{{{composer COMPOSERDATA}}}</div>
 	</div>
 	{{/if}}
 
 	{{#if TIMPEDITOR}}
-	<h3>EDITOR</h3>
+	<h3>Editor</h3>
 	<div class="indent">
 		<div id="editor">{{{editor TIMPEDITOR}}}</div>
 	</div>
 	{{/if}}
 
-		<h3>TEXT AND TRANSLATION</h3>
+		<h3>Text and translation</h3>
 	<!--
 		%%%verses VERSEDATA.VERSES CATALOGNUM%%%
 	-->
@@ -230,7 +230,7 @@
 
 
 	{{#if EXTANTVOICES}}
-	<h3>VOICES</h3>
+	<h3>Voices</h3>
 	<div class="indent">
 		{{{voices EXTANTVOICES OVOICES SOURCE}}}
 	</div>
@@ -238,19 +238,19 @@
 	<div id="range"></div>
 
 	{{#if SOURCE}}
-	<h3>MUSICAL SOURCES</h3>
+	<h3>Musical sources</h3>
 
 	<div class="indent">
-		<h4>PRINCIPAL SOURCE</h4>
+		<h4>Principal source</h4>
 		{{{sourceinfo SOURCE}}}
 
-		<h4>OTHER SOURCES CONSULTED</h4>
-		<div id="other_sources"></div>
+		<h4>Other sources consulted</h4>
+		<div id="other_sources">OTHER SOURCE GO HERE</div>
 	</div>
 
 	{{/if}}
 
-	<h3>CRITICAL REPORT</h3>
+	<h3>Critical report</h3>
 	<div class="indent">
 		{{{criticalReport this}}}
 	</div>
@@ -284,7 +284,7 @@ Handlebars.registerHelper("verses", function(verses, catnum) {
 	var v;
 	var t;
 	var output = "";
-	// var output = "<h3> TEXT AND TRANSLATION";
+	// var output = "<h3> Text and translation";
 	// output += "<span class='variant'>(";
 	// output += "<a href='/variants?rime=";
 	// output += rime;
@@ -705,6 +705,12 @@ Handlebars.registerHelper("voices-simple", function(evoice, ovoice, catalog) {
 //
 
 Handlebars.registerHelper("sourceinfo", function(source) {
+	return displaySourceInformation(source);
+});
+
+
+function displaySourceInformation(source) {
+
 	var text = "";
 	text += "<table class='sourceinfo'>";
 
@@ -737,7 +743,7 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 	if (source.TITLEPAGE) {
 		text += "<tr><td><nobr>Title page</nobr></td><td>";
 		var tp = cleanTitlePage(source.TITLEPAGE);
-		text += "<div style='margin-left: -20px; background-color:#f5f5f5; padding:8px; text-align:center;'>";
+		text += "<div style='width:600px; margin-left: -50px; background-color:#f5f5f5; padding:8px; text-align:center;'>";
 		text += "<nobr>";
 		text += tp;
 		text += "</nobr>";
@@ -828,7 +834,7 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 
 	text += "</table>";
 	return new Handlebars.SafeString(text);
-});
+}
 
 
 
@@ -947,11 +953,22 @@ Handlebars.registerHelper("rism", function(rismid) {
 //
 
 Handlebars.registerHelper("risminfo", function(rismid) {
+	if (!rismid) {
+		return new Handlebars.SafeString("Empty RISM ID");
+	}
 	output = "INFO FOR " + rismid + " will go here.";
-	return new Handlebars.SafeString(output);
+	var source;
+	for (var i=0; i<SOURCES.length; i++) {
+		if (SOURCES[i].RISM === rismid) {
+			source = SOURCES[i];
+		}
+	}
+	if (!source) {
+		return new Handlebars.SafeString("No information for RISM " + rismid);
+	}
+
+	return displaySourceInformation(source);
 });
-
-
 
 
 </script>

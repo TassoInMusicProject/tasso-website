@@ -219,5 +219,33 @@ g[id^="rest-"]:hover [stroke] {
 	stroke-width: 70px;
 }
 
+/* Headings */
+
+h3 {
+	text-transform: uppercase;
+}
+
+h4 {
+	/* font-variant: small-caps; */
+	text-transform: uppercase;
+}
+
+/* key/value tables on work pages */
+
+table.sourceinfo {
+	margin-left: 75px;
+}
+
+table.sourceinfo td {
+	vertical-align: top;
+	padding-bottom: 0px;
+}
+
+table.sourceinfo td:first-child {
+	width: 200px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
 
 

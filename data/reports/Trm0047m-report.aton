@@ -2,21 +2,21 @@
 
 @CATALOGNUM: Trm0047m
 
-@PRINCIPAL_SOURCE: {{risminfo 1588-20}}
+@PRINCIPAL_SOURCE: {{risminfo "1588-20"}}
 
-@OTHER_SOURCE: {{risminfo 1598-10}}
+@OTHER_SOURCE: {{risminfo "1598-10"}}
 
-@OTHER_SOURCE: {{risminfo 1604-13}}
+@OTHER_SOURCE: {{risminfo "1604-13"}}
 
 @EMENDED_READING:
 	{{MM 14}} and {{MMx 18}}, T, text reads “forza o d’arte”
 	and “forza od arre,” respectively.
 
 @EMENDED_READING:
-	In corresponding sections from reprint {{rism 1598-10}},
+	In corresponding sections from reprint {{rism "1598-10"}},
 	text reads “forza d’arte” consistently across the three
 	part-books. The variant “forza o d’arte” occurs again in
-	T from reprint {{rism 1604-13}}.
+	T from reprint {{rism "1604-13"}}.
 
 @OTHER_CRITICAL_NOTES:
 	None

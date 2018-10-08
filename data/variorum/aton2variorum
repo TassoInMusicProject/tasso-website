@@ -1,0 +1,493 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $FILE = $ARGV[0];
+
+die "Usage: $0 file.aton\n" if $FILE =~ /^\s*$/;
+my $BASE = $FILE;
+$BASE =~ s/\.[^.]+$//;
+$BASE =~ s/.*\///;
+
+open (FILE, $FILE) or die "Cannot read $FILE\n";
+my @CONTENTS = <FILE>;
+close FILE;
+my %PARAM = getParameters(@CONTENTS);
+
+printVariorumXml();
+
+exit 0;
+
+###########################################################################
+
+
+##############################
+##
+## printVaroirumXml -- Print the root element of the XML data.
+##
+
+sub printVariorumXml {
+	print <<"EOT";
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tassotei.rng" type="application/xml" schematypens="http://relaxng.orgns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+EOT
+	printTeiHeader(1);
+	printText(1);
+	print "</TEI>\n";
+
+}
+
+
+
+##############################
+##
+## printTeiHeader --
+## 
+## TEI
+##   *teiHeader
+##
+
+sub printTeiHeader {
+	my ($n) = @_;
+	indent($n); print "<teiHeader>\n";
+	printFileDesc($n+1);
+	indent($n); print "</teiHeader>\n";
+}
+
+
+##############################
+##
+## printFileDesc --
+##
+## TEI
+##    teiHeader
+##      *fileDesc
+
+sub printFileDesc {
+	my ($n) = @_;
+	indent($n); print "<fileDesc>\n";
+		printTitleStmt($n+1);
+		printPublicationStmt($n+1);
+		printSourceDesc($n+1);
+	indent($n); print "</fileDesc>\n";
+}
+
+
+
+##############################
+##
+## printSourceDesc --
+##
+## TEI
+##    teiHeader
+##       fileDesc
+##         *sourceDesc
+##
+
+sub printSourceDesc {
+	my ($n) = @_;
+	indent($n); print "<sourceDesc>\n";
+	my $type = $PARAM{"TYPE"};
+	if ($type eq "manuscript") {
+		printMsDesc($n+1);
+	} else {
+		die "Unknown media type: $type\n";
+	}
+	indent($n); print "</sourceDesc>\n";
+}
+
+
+
+##############################
+##
+## printMsDesc --
+##
+## TEI
+##    teiHeader
+##       fileDesc
+##          sourceDesc
+##            *msDesc
+##
+
+sub printMsDesc {
+	my ($n) = @_;
+	indent($n); print "<msDesc xml:id=\"$BASE\">\n";
+	printMsIdentifier($n+1);
+	printMsContents($n+1);
+	printHistory($n+1);
+	indent($n); print "</msDesc>\n";
+}
+
+
+
+##############################
+##
+## printHistory --
+##
+## TEI
+##    teiHeader
+##       fileDesc
+##         msDesc
+##           *history
+##              *origin
+##                 *originDate
+##
+
+sub printHistory {
+	my ($n) = @_;
+	my $date = $PARAM{"DATE"};
+	if ($date) {
+		indent($n);   print "<history>\n";
+		indent($n+1); print "<origin>\n";
+		indent($n+1); print "<origDate>$date</origDate>\n";
+		indent($n+1); print "</origin>\n";
+		indent($n);   print "</history>\n";
+	}
+}
+
+
+
+##############################
+##
+## printMsContents --
+##
+## TEI
+##    teiHeader
+##       fileDesc
+##          sourceDesc
+##             msDesc
+##               *msContents
+##
+
+sub printMsContents {
+	my ($n) = @_;
+	my $folio = $PARAM{"FOLIO"};
+	my $description = $PARAM{"DESCRIPTION"};
+	indent($n); print "<msContents>\n";
+	indent($n+1); print "<msItem>\n";
+	if ($folio) {
+		if ($folio !~ /^f\./i) {
+			$folio = "f. $folio";
+		}
+		indent($n+2); print "<locus>$folio</locus>\n";
+	}
+	if ($description) {
+		indent($n+2); print "<p>$description</p>\n";
+	}
+	indent($n+1); print "</msItem>\n";
+	indent($n); print "</msContents>\n";
+}
+
+
+
+##############################
+##
+## printMsIdentifier --
+## TEI
+##   teiHeader
+##      fileDesc
+##         sourceDesc
+##            msDesc
+##              *msIdentifier
+##                 *region
+##                 *settlement
+##                 *repository
+##
+
+sub printMsIdentifier {
+	my ($n) = @_;
+	my $library = $PARAM{"LIBRARY"};
+	my $city    = $PARAM{"LIBRARY_CITY"};
+	my $country = $PARAM{"LIBRARY_COUNTRY"};
+	indent($n); print "<msIdentifier>\n";
+	if ($country) {
+		indent($n+1); print "<region>$country</region>\n";
+	}
+	if ($city) {
+		indent($n+1); print "<settlement>$city</settlement>\n";
+	}
+	if ($library) {
+		indent($n+1); print "<repository>$library</repository>\n";
+	}
+	indent($n); print "</msIdentifier>\n";
+}
+
+
+
+
+##############################
+##
+## printPublicationStmt --
+## TEI
+##   teiHeader
+##      fileDesc
+##         titleStmt
+##        *publicationStmt
+##
+
+sub printPublicationStmt {
+	my ($n) = @_;
+	indent($n); print "<publicationStmt>\n";
+	indent($n+1); print "<publisher></publisher>\n";
+	indent($n+1); print "<availability status=\"\"></availability>\n";
+	my $idno = $PARAM{"SMSIGLUM"};
+	if ($idno) {
+		indent($n+1); print "<idno type=\"local\">$BASE</idno>\n";
+	}
+	indent($n); print "</publicationStmt>\n";
+}
+
+
+
+##############################
+##
+## printTitleStmt --
+## TEI
+##   teiHeader
+##     *fileDesc
+##
+
+sub printTitleStmt {
+	my ($n) = @_;
+	indent($n); print "<titleStmt>\n";
+	indent($n+1);
+	print "<title>";
+	print "TITLE GOES HERE";
+	print "</title>\n";
+	indent($n); print "</titleStmt>\n";
+}
+
+
+
+##############################
+##
+## printText --
+## TEI
+##    text
+##
+
+sub printText {
+	my ($n) = @_;
+	indent($n); print "<text>\n";
+	printBody($n+1);
+	indent($n); print "</text>\n";
+}
+
+
+
+##############################
+##
+## printBody --
+## TEI
+##    text
+##       body
+##
+
+sub printBody {
+	my ($n) = @_;
+	indent($n); print "<body xml:space=\"preserve\">\n";
+	printDivDedication($n+1);
+	printDivLg($n+1);
+	indent($n); print "</body>\n";
+}
+
+
+
+##############################
+##
+## printDivDedication --
+## TEI
+##    text
+##       body
+##          *div type="dedication"
+##
+
+sub printDivDedication {
+	my ($n) = @_;
+	my $dedication = $PARAM{"DEDICATION"};
+	indent($n);   print "<div type=\"dedication\">\n";
+	indent($n+1); print "<p xml:id=\"p1\">$dedication</p>\n";
+	indent($n);   print "</div>\n";
+
+
+}
+
+
+
+##############################
+##
+## printDivLg -- print verses (only one refrain processed correctly for now)
+##
+## TEI
+##    text
+##       body
+##           div type="dedication"
+##          *div
+##             *lg
+##
+
+sub printDivLg {
+	my ($n) = @_;
+	indent($n);   print "<div>\n";
+	indent($n+1);   print "<lg>\n";
+	printVerses($n+2);
+	indent($n+1);   print "</lg>\n";
+	indent($n);   print "</div>\n";
+}
+
+
+##############################
+##
+## printVerses --
+##
+
+sub printVerses {
+	my ($n) = @_;
+	my @verses = getVerses(@CONTENTS);
+	for (my $i=0; $i<@verses; $i++) {
+		printVerse($n, $verses[$i]);
+	}
+}
+
+
+
+##############################
+##
+## printVerse --
+##
+
+sub printVerse {
+	my ($n, $text) = @_;
+	my @lines = split(/^/m, $text);
+	my $vid = 1;
+	for (my $i = 0; $i<@lines; $i++) {
+		my $plusone = $i + 1;
+		indent($n);
+		print "<l xml:id=\"l$plusone\">";
+		$vid = printLineWithSegments($vid, $lines[$i]);
+		print "</l>\n";
+	}
+}
+
+
+##############################
+##
+## printLineWithSegments --
+##
+
+sub printLineWithSegments {
+	my ($vid, $line) = @_;
+	chomp $line;
+	$line =~ s/\}/<\/seg>/g;
+	$line =~ s/\{/<seg xml:id=\"XXXXX\">/g;
+	while ($line =~ /XXXXX/) {
+		$line =~ s/(XXXXX)/v$vid/;
+		$vid++;
+	}
+	print $line;
+	return $vid;
+}
+
+
+
+##############################
+##
+## getParameters --
+##
+
+sub getParameters {
+	my @contents = @_;
+	my %output;
+	my $key;
+	my $value;
+
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@\@BEGIN\s*:\s*/) {
+			$key = "";
+			next;
+		}
+		if ($line =~ /^\@\@END\s*:\s*/) {
+			$key = "";
+			next;
+		}
+		if ($line =~ /^\@([^:]+)\s*:\s*(.*)\s*$/) {
+			$key = $1;
+			$value = $2;
+			# overwriting if duplicate (maybe print a warning)
+			$output{$key} = $value;
+			next;
+		} elsif ($key eq "") {
+			# ignore this line as there is no associated key for an extended value.
+			next;
+		}
+		$line =~ s/^\s+//;
+		$line =~ s/\s+$//;
+		$output{$key} .= " $line";
+		$output{$key} =~ s/\s+$//;
+		$output{$key} =~ s/^\s+//;
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## getVerses --
+##
+
+sub getVerses {
+	my @contents = @_;
+	my @output;
+
+	my $vstart = -1;
+	for (my $i=0; $i<@contents; $i++) {
+		if ($contents[$i] =~ /^\@\@BEGIN\s*:\s*VERSES\s*$/) {
+			$vstart = $i+1;
+			last;
+		}
+	}
+	die "Cannot find verses.\n" if $vstart < 0;
+	my $counter = -1;
+	for (my $i=$vstart; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@\@END\s*:\s*VERSES\s*$/) {
+			last;
+		}
+		if ($line =~ /^\@VERSE\s*:\s*(.*)\s*$/) {
+			$counter++;
+			my $temp = $1;
+			$temp =~ s/^\s+//;
+			$temp =~ s/\s+$//;
+			if ($temp !~ /^\s*$/) {
+				$output[$counter] .= "$1\n";
+			}
+		} elsif ($line !~ /^\s*$/) {
+			$line =~ s/^\s+//;
+			$line =~ s/\s+$//;
+			$output[$counter] .= "$line\n";
+		}
+	}
+
+	return @output;
+}
+
+
+
+
+##############################
+##
+## indent -- Print indentation tabs.
+##
+
+sub indent {
+	my ($n) = @_;
+	for (my $i=0; $i<$n; $i++) {
+		print "\t";
+	}
+}

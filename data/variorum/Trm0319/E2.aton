@@ -1,28 +1,25 @@
-@@BEGIN: VARIORUM
-@CATALOGNUM:	Trm0319
-@TYPE:		manuscript
-@SMSIGLUM:	E<sub>2</sub>
-@LIBRARY:	Biblioteca Estense Universitaria
-@LIBRARY_CITY:	Modena 
-@LIBRARY_COUNTRY: Italy
-@CALLNUM:	Ms. It 379a
-@FOLIO:		5r
-@DATE:		c. 1585-87
-@DESCRIPTION:	Autograph manuscript
-@DEDICATION:	Alla signora Laura Peperara
 
-@@BEGIN: VERSES
+@@BEGIN: VARIORUM
+@ID:		E2
+@CATALOGNUM:	Trm0319
+@SMSIGLUM:	E<sub>2</sub>
+@SPRINT:
+@PAGE:		5r
+@PART:		
+
+@PARATEXT:	Alla signora Laura Peperara
+
 @VERSE:
 	Non {può l'angusto loco}
 	tra {pini} abeti e faggi
 	celare i vostri puri e lieti raggi
 	{e 'l dolce e vivo foco.}
 	{e chi nasconde il sole!}
-	perch&eacute; non splenda {fuor} com'egli {sole}?
+	perché non splenda {fuor} com'egli {sole}?
 	occhi {graditi} e cari,
 	{occhi sereni e chiari,}
 	voi somigliar sovente
 	fate {quest'umil} villa {un Oriente}.
-@@END: VERSES
+
 
 @@END: VARIORUM

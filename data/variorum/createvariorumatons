@@ -1,0 +1,390 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Tue Oct  9 16:33:40 PDT 2018
+# Last Modified: Tue Oct  9 16:33:43 PDT 2018
+# Filename:      createvariorumatons
+# Syntax:        perl 5
+# vim: ts=3
+#
+# Description:   Create an empty variorum file for rimes.  Do not overwrite any existing files.
+#
+
+use strict;
+
+my $indexdir = "../indexes";
+my $manuscriptfile = "rime-manuscripts.aton";
+my $printfile      = "rime-prints.aton";
+my $versefile      = "rime-verses.aton";
+my $settingfile    = "rime-settings.aton";
+
+my %MANUSCRIPTS = getManuscripts("$indexdir/$manuscriptfile");
+my %PRINTS      = getPrints("$indexdir/$printfile");
+my %SETTINGS    = getSettings("$indexdir/$settingfile");
+my %VERSES      = getVerses("$indexdir/$versefile");
+
+#print join "\n", sort keys %MANUSCRIPTS;
+#print join "\n", sort keys %PRINT;
+
+my @catkeys = sort keys %VERSES;
+my $counter = 0;
+
+foreach my $catkey (@catkeys) {
+	createVariorumFile($catkey);
+	$counter++;
+	last if $counter == 1;
+}
+
+
+exit 0;
+
+##############################
+##
+## createVariorumFile --
+##
+
+sub createVariorumFile {
+	my ($catalognum) = @_;
+
+	### MANUSCRIPTS ###
+	# get a list of the manuscripts for the catalog number
+	# @MANUSRC:	Amz, Ber, Brn, C, Mi, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
+
+print "catalognum $catalognum\n";
+	my $vv = $VERSES{$catalognum};
+print "HASH $vv\n";
+	my %v = %$vv;
+	my $script = $v{"MANUSRC"};
+	my @manuscripts = split(/\s*,\s*/, $script);
+	my @manids;
+	for (my $i=0; $i<@manuscripts; $i++) {
+		$manids[$i] = cleanKey($manuscripts[$i]);
+		print "Manuscript: $manids[$i]\n";
+	}
+
+
+	### PRINT       ###
+	# get a list of the prints for the catalog number
+	# @PRINTSRC:	3, 4, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 87, 141, 166, 169
+	my $prn = $v{"PRINTSRC"};
+	my @prints = split(/\s*,\s*/, $prn);
+	my @printids;
+	for (my $i=0; $i<@manuscripts; $i++) {
+		$printids[$i] = cleanKey($prints[$i]);
+		print "PRINT: $printids[$i]\n";
+	}
+
+	### MUSIC       ###
+
+	# get a list of the settings for the catalog number
+		# get a list of the voices for the catalog number
+
+
+}
+
+
+
+##############################
+##
+## createAtonTemplate --
+##
+
+sub createAtonTemplate {
+	my ($catkey) = @_;
+	my $catalognum;
+	my $id;
+	my $smsiglum;
+	my $sprint;
+	my $part;
+	my $type;
+
+print "PROCESSING $catkey\n";
+
+print AFILE <<"EOT";
+\@\@BEGIN: VARIORUM
+\@CATALOGNUM:	$catalognum
+\@ID:		$id
+EOT
+
+	if ($type eq "manuscript") {
+		print AFILE "\@SMSIGLUM:	$smsiglum\n";
+	} elsif ($type eq "print") {
+		print AFILE "\@SPRINT:	$sprint\n";
+	} else { # music
+		print AFILE "\@PART:		$part\n";
+	}
+
+print AFILE <<"EOT";
+\@PAGE:		
+\@PARATEXT:	
+\@VERSE:
+\@\@END: VARIORUM
+EOT
+
+}
+
+
+
+###############################
+##
+## getManuscripts -- Create a lookup index of all manuscripts.
+##
+## @@BEGIN: MANUSCRIPT
+## @SMSIGLUM: A<sub>1</sub>
+## @SIGLUM: R.96 sup.
+## @LOCATION: Biblioteca Ambrosiana, Milan, Italy
+## @DATING: 16th century
+## @DESCRIPTION: miscellaneous codex, containing copies of 6 lyric poems by Tasso
+## @@END: MANUSCRIPT
+## 
+
+sub getManuscripts {
+	my ($manuscriptfile) = @_;
+	return getAtonEntries($manuscriptfile, "MANUSCRIPT", "SMSIGLUM");
+}
+
+
+
+###############################
+##
+## getPrints -- Create a lookup index of all prints.
+##
+## @@BEGIN:	PRINT
+## @SPRINTNUM:	3
+## @PRINTTITLE:	De le rime di diversi nobili poeti toscani, raccolte da M. Dionigi Atanagi. Libro Primo
+## @PUBLISHER:	Lodovico Avanzo
+## @PUBLOCATION:	Venice
+## @PUBYEAR:	1565
+## @@END:		PRINT
+## 
+
+sub getPrints {
+	my ($printfile) = @_;
+	return getAtonEntries($printfile, "PRINT", "SPRINTNUM");
+}
+
+
+
+###############################
+##
+## getSettings -- Create a lookup index of all settings.
+## 
+## @@BEGIN:	SETTING
+## @CATALOGNUM:	Trm0288l
+## @RIMETITLE:	Amatemi, ben mio
+## @SOLERTI:	288
+## @COMPOSER:	Aagesen, Truid
+## @PRINCEPSTITLE:	Cantiones trium vocum
+## @PRINCEPSLOC:	Hamburg
+## @NORMLOC:	Hamburg
+## @NORMPUB:	von Ohr-Jauch
+## @NORMPUBSHORT:	von Ohr-Jauch
+## @PRINCEPSPUB:	von Ohr-Jauch
+## @PRINCEPSYEAR:	1608
+## @PRINCEPSRISM:	S 3549
+## @REPRINTS:	
+## @OVOICES:	3
+## @EXTANTVOICES:	3
+## @OCLEFS:	C3,C4,F4
+## @OMENSURATION:	C
+## @OKEYSIG:	
+## @TIMPEDITOR:	Ricciardi, Emiliano
+## @NOTE:		
+## @@END:		SETTING
+## 
+
+sub getSettings {
+	my ($settingfile) = @_;
+	return getAtonEntries($settingfile, "SETTING", "CATALOGNUM");
+}
+
+
+
+###############################
+##
+## getVerses -- Create a lookup index of all verses (rime).
+## 
+## @@BEGIN:	VERSEDATA
+## @SOLERTI:	33
+## @CATALOGNUM:	Trm0033
+## @TITLE:		Io veggio in cielo scintillar le stelle
+## @GENRE:		sonetto
+## @MANUSRC:	Brn, C, Ts<sub>2</sub>, V<sub>8</sub>
+## @PRINTSRC:	11, 12, 13, 22a), 26, 31, 35, 69, 85, 87, 141, 166, 169
+## @@BEGIN:	VERSES
+## @ABOUTIT:	Camminando di notte prega le stelle che guidino il suo corso.
+## @ABOUTEN:	Wandering at night he begs the starts to guide his course.
+## @EDITOR:	Solerti, Angelo
+## @EDITION_TITLE: Le Rime di Torquato Tasso
+## @EDITION_LOC:	Bologna
+## @EDITION_PUB:	Romagnoli-Dall’Acqua
+## @EDITION_DATE:  1898-1902
+## @EDITION_VOL:	2
+## @EDITION_PAGE:  49-50
+## @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
+## @VERSE:
+## 	Io veggio in cielo scintillar le stelle
+## 	Oltre l'usato e lampeggiar tremanti,
+## 	Come ne gli occhi de' cortesi amanti
+## 	Noi rimiriam talor vive facelle.
+## @VERSE:
+## 	Aman forse l&agrave; suso, o pur son elle
+## 	Pietose a' nostri affanni, a' nostri pianti?
+## 	Mentre scorgon le insidie e i passi erranti
+## 	L&agrave; dove altri d'Amor goda e favelle?
+## @VERSE:
+## 	Cortesi luci, se Leandro in mare
+## 	O trav&iuml;ato peregrin foss'io
+## 	Non mi sareste di soccorso avare:
+## @VERSE:
+## 	Cos&igrave; vi faccia il Sol pi&ugrave; belle e chiare,
+## 	Siate nel dubbio corso al desir mio
+## 	Fide mie duci e scorte amate e care.
+## @TVERSE:
+## 	I see, in the sky, the stars twinkling 
+## 	More than usual, and ablaze, trembling,
+## 	As in the eyes of gracious lovers
+## 	We see at times reflected lively lights.
+## @TVERSE:
+## 	Perhaps they are in love up there, or are they even
+## 	Sympathetic to our troubles, to our tears?
+## 	While they espy the dangers and the errant steps,
+## 	There, where others take pleasure in and tell tales of Love?
+## @TVERSE:
+## 	Gracious lights, if Leander in the sea
+## 	Or straying pilgrim were I,
+## 	You would not be so stingy with your aid:
+## @TVERSE:
+## 	Thus may the Sun make you more beautiful and bright;
+## 	May you be, upon the uncertain course towards my desire,
+## 	My faithful guides and beloved and dear guards.
+## @@END:		VERSES
+## @NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
+## 		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
+## 		Vercingetorige Martignone, vol. 4 of <i>Edizione
+## 		Nazionale delle opere di Torquato Tasso</i>
+##		(Alessandria: Edizioni Dell’Orso, 2004), 25.
+## @ATTRIBUTION_ABOUT:	Secure
+##		<br>
+##		Among other authoritative sources (see Literary
+##		Sources), this poem appears in the autograph Chigiano
+##		L.VIII.302 (Biblioteca Vaticana, Rome), compiled
+##		around 1584&ndash;85.
+## @DATING:	
+## @DEDICATEE:	Bendidio, Lucrezia 
+## @COMMENTARY:    
+## @@END:		VERSEDATA
+##
+
+sub getVerses {
+	my ($versefile) = @_;
+	return getAtonEntries($versefile, "VERSEDATA", "CATALOGNUM");
+}
+
+
+
+##############################
+##
+## cleanKey --
+##
+
+sub cleanKey {
+	my ($key) = @_;
+	$key =~ s/<.*?>//g;
+	$key =~ s/\///g;
+	$key =~ s/[^a-zA-Z0-9]//g;
+	$key = "S$key" if $key =~ /^\d/;
+	return $key;
+}
+
+
+
+##############################
+##
+## getAtonEntries --
+##
+
+sub getAtonEntries {
+	my ($datafile, $ATONTAG, $IDTAG) = @_;
+	my %output;
+	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
+	my @contents = <DFILE>;
+	close DFILE;
+	my $index = 0;
+	my $key;
+	my $hentry;
+	my %entry;
+	while (($index >= 0) && ($index < @contents)) {
+		($index, $hentry) = getAtonEntry($ATONTAG, $index, @contents);
+		if ($index > 0) {
+			%entry = %$hentry;
+			$key = cleanKey($entry{$IDTAG});
+			if ($output{$key} ne "") {
+				print "CURRENT VALUE: $output{$key}\n";
+				die "Duplicate key $key in manuscript list";
+			}
+			$output{$key} = \%entry;
+		}
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## getAtonEntry --
+##
+
+sub getAtonEntry {
+	my ($KEY, $index, @contents) = @_;
+	my $start = -1;
+	for (my $i=$index; $i<@contents; $i++) {
+		if ($contents[$i] =~ /\@\@BEGIN\s*:\s*$KEY\s*$/) {
+			$start = $i+1;
+			last;
+		}
+	}
+	if ($start < 0) {
+		# return -1 if there is no more data.
+		return (-1, "", 0);
+	}
+	my %entry;
+	my $key;
+	my $returnid;
+	my $outindex = -1;
+	my $value;
+	for (my $i=$start; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@\@END\s*:\s*$KEY\s*$/) {
+			$outindex = $i;
+			last;
+		} elsif ($line =~ /^\@([^:\@]+)\s*:\s*(.*)\s*$/) {
+			$key = $1;
+			$value = $2;
+			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+				$entry{$key} .= "\n$value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			} else {
+				$entry{$key} .= " $value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			}
+		} elsif ($line !~ /^\@/) {
+			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+				$entry{$key} .= "\n$value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			} elsif ($key ne "") {
+				$value = "$entry{$key} $line";
+				$value =~ s/\s*$//;
+				$value =~ s/^\s*//;
+				$entry{$key} = $value;
+			}
+		}
+	}
+	return ($outindex, \%entry);
+}
+

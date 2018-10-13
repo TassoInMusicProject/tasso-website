@@ -2,29 +2,53 @@
 #
 # Programmer:    Craig Stuart Sapp <craig.stanford.edu>
 # Creation Date: Tue Oct  9 16:33:40 PDT 2018
-# Last Modified: Tue Oct  9 16:33:43 PDT 2018
+# Last Modified: Sat Oct 13 09:27:21 PDT 2018
 # Filename:      createvariorumatons
 # Syntax:        perl 5
 # vim: ts=3
 #
-# Description:   Create an empty variorum file for rimes.  Do not overwrite any existing files.
+# Description:   Create an empty variorum file for rimes.  Do not overwrite
+#                any existing files.
 #
 
+
 use strict;
+
+my %NAMES;
+$NAMES{"A"}    = "Alto";            # 236
+$NAMES{"A1"}   = "Alto 1";          # 1
+$NAMES{"A2"}   = "Alto 2";          # 1
+$NAMES{"B"}    = "Basso";           # 261
+$NAMES{"B1"}   = "Basso 1";         # 1
+$NAMES{"B2"}   = "Basso 2";         # 1
+$NAMES{"Bc"}   = "Basso continuo";  # 17
+$NAMES{"C"}    = "Canto";           # 250
+$NAMES{"C1"}   = "Canto 1";         # 5
+$NAMES{"C2"}   = "Canto 2";         # 5
+$NAMES{"IX"}   = "Nono";            # 1
+$NAMES{"T"}    = "Tenore";          # 262
+$NAMES{"T1"}   = "Tenore 1";        # 3
+$NAMES{"T2"}   = "Tenore 2";        # 3
+$NAMES{"V"}    = "Quinto";          # 218
+$NAMES{"VI"}   = "Sesto";           # 38
+$NAMES{"VII"}  = "Settimo";         # 3
+$NAMES{"VIII"} = "Ottavo";          # 2
+$NAMES{"X"}    = "Decimo";          # 1
+$NAMES{"XI"}   = "Undicesimo";      # 1
+$NAMES{"XII"}  = "Dodicesimo";      # 1
 
 my $indexdir = "../indexes";
 my $manuscriptfile = "rime-manuscripts.aton";
 my $printfile      = "rime-prints.aton";
 my $versefile      = "rime-verses.aton";
 my $settingfile    = "rime-settings.aton";
+my $sourcefile     = "sources.aton";
 
 my %MANUSCRIPTS = getManuscripts("$indexdir/$manuscriptfile");
 my %PRINTS      = getPrints("$indexdir/$printfile");
 my %SETTINGS    = getSettings("$indexdir/$settingfile");
 my %VERSES      = getVerses("$indexdir/$versefile");
-
-#print join "\n", sort keys %MANUSCRIPTS;
-#print join "\n", sort keys %PRINT;
+my %SOURCES     = getSources("$indexdir/$sourcefile");
 
 my @catkeys = sort keys %VERSES;
 my $counter = 0;
@@ -32,11 +56,13 @@ my $counter = 0;
 foreach my $catkey (@catkeys) {
 	createVariorumFile($catkey);
 	$counter++;
-	last if $counter == 1;
+	# last if $counter == 2;
 }
 
 
 exit 0;
+
+
 
 ##############################
 ##
@@ -46,20 +72,27 @@ exit 0;
 sub createVariorumFile {
 	my ($catalognum) = @_;
 
+	my $filename = "$catalognum.aton";
+	if (-r $filename) {
+		print "$filename already exists.  Not overwriting...\n";
+		return;
+	}
+
+	open(VFILE, ">$filename") or die "Cannot write $filename\n";
+
 	### MANUSCRIPTS ###
 	# get a list of the manuscripts for the catalog number
 	# @MANUSRC:	Amz, Ber, Brn, C, Mi, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
 
-print "catalognum $catalognum\n";
 	my $vv = $VERSES{$catalognum};
-print "HASH $vv\n";
 	my %v = %$vv;
 	my $script = $v{"MANUSRC"};
 	my @manuscripts = split(/\s*,\s*/, $script);
 	my @manids;
 	for (my $i=0; $i<@manuscripts; $i++) {
 		$manids[$i] = cleanKey($manuscripts[$i]);
-		print "Manuscript: $manids[$i]\n";
+		#print "\tManuscript: $manids[$i]\n";
+		createAtonTemplate($catalognum, $manids[$i], "manuscript");
 	}
 
 
@@ -69,17 +102,102 @@ print "HASH $vv\n";
 	my $prn = $v{"PRINTSRC"};
 	my @prints = split(/\s*,\s*/, $prn);
 	my @printids;
-	for (my $i=0; $i<@manuscripts; $i++) {
+	for (my $i=0; $i<@printids; $i++) {
 		$printids[$i] = cleanKey($prints[$i]);
-		print "PRINT: $printids[$i]\n";
+		#print "\tPRINT: $printids[$i]\n";
+		createAtonTemplate($catalognum, $printids[$i], "print");
 	}
 
 	### MUSIC       ###
 
 	# get a list of the settings for the catalog number
 		# get a list of the voices for the catalog number
+	my @settings = getSettingsIds($catalognum);
+	# print "SETTINGS: ", join(" ", @settings), "\n";
+	for (my $i=0; $i<@settings; $i++) {
+		my $catalognum = $settings[$i];
+		$catalognum =~ s/[a-z]+$//;  # for rime
+		my $idbase = $settings[$i];  # for part
+		my @partlist = getPartList($idbase);
+		# print "\tPARTS: ", join(" ", @partlist), "\n";
+		for (my $j=0; $j<@partlist; $j++) {
+			next if $partlist[$j] =~ /bc/i;
+			my $jid = "$catalognum-$partlist[$j]";
+			createAtonTemplate($catalognum, $jid, "music", $partlist[$j]);
+		}
+	}
+
+	#my $ss
+	#my $vv = $SETTINGS{$catalognum};
+	#my %s = $ss;
+	#my $rism = $
+
+}
 
 
+
+##############################
+##
+## getPartList --
+##
+
+sub getPartList {
+	my ($catalognum) = @_;
+	my @output;
+	my $shash = $SETTINGS{$catalognum};
+	die "Cannot find setting for $catalognum" if $shash =~ /^\s*$/;
+
+	my $rism = $$shash{"PRINCEPSRISM"};
+	# die "RISM IS EMPTY FOR $catalognum" if $rism =~ /^\s*$/;
+	return @output if $rism =~ /^\s*$/;
+
+	my $rid = cleanKey($rism);
+	my $sourcehash = $SOURCES{$rid};
+
+	if ($rism eq "1605-07") {
+		return @output;
+	} elsif ($rism eq "M 664") {
+		return @output;
+	} elsif ($rism eq "1586-21") {
+		return @output;
+	} elsif ($rism eq "V 1190") {
+		return @output;
+	} elsif ($rism eq "V 2186") {
+		return @output;
+	} elsif ($rism eq "S 912") {
+		return @output;
+	} else {
+	die "CANNOT FIND SOURCE FOR $rism" if $sourcehash =~ /^\s*$/;
+	}
+
+	my %s = %$sourcehash;
+
+	my $eparts = $s{"EXTNAMES"};
+	# print "EPARTS $eparts\n";
+	return @output if $eparts =~ /^\s*$/;
+
+	@output = split(/\s*,\s*/, $eparts);
+	return @output;
+}
+
+
+
+##############################
+##
+## getSettingsIds --
+##
+
+sub getSettingsIds {
+	my ($catalognum) = @_;
+	my @output;
+	my @keys = sort keys %SETTINGS;
+	for (my $i=0; $i<@keys; $i++) {
+		next if $keys[$i] =~ /^\s*$/;
+		if ($keys[$i] =~ /$catalognum/) {
+			$output[@output] = $keys[$i];
+		}
+	}
+	return @output;
 }
 
 
@@ -90,36 +208,49 @@ print "HASH $vv\n";
 ##
 
 sub createAtonTemplate {
-	my ($catkey) = @_;
-	my $catalognum;
-	my $id;
-	my $smsiglum;
-	my $sprint;
-	my $part;
-	my $type;
+	my ($catalognum, $id, $type, $name) = @_;
+	
+print VFILE <<"EOT";
 
-print "PROCESSING $catkey\n";
-
-print AFILE <<"EOT";
 \@\@BEGIN: VARIORUM
 \@CATALOGNUM:	$catalognum
 \@ID:		$id
+\@TYPE:		$type
 EOT
 
+	my $hash;
+	
 	if ($type eq "manuscript") {
-		print AFILE "\@SMSIGLUM:	$smsiglum\n";
+		$hash = $MANUSCRIPTS{$id};
+		print VFILE "\@SMSIGLUM:	";
+		print VFILE $$hash{"SMSIGLUM"} if $hash;
+		print VFILE "\n";
 	} elsif ($type eq "print") {
-		print AFILE "\@SPRINT:	$sprint\n";
+		$hash = $PRINTS{$id};
+		print VFILE "\@SPRINT:	";
+		print VFILE $$hash{"SPRINT"} if $hash;
+		print VFILE "\n";
 	} else { # music
-		print AFILE "\@PART:		$part\n";
+		# fix this (should be an input parameter, or extracted from id)
+		print VFILE "\@PART:		";
+		if ($name) {
+			print VFILE $NAMES{$name};
+		}
+		# print $$hash{"PART"} if $hash;
+		print VFILE "\n";
 	}
 
-print AFILE <<"EOT";
-\@PAGE:		
-\@PARATEXT:	
-\@VERSE:
-\@\@END: VARIORUM
-EOT
+	print VFILE "\@PAGE:		\n";
+	print VFILE "\@PARATEXT:	\n";
+
+	my $vhash = $VERSES{$catalognum};
+	my $vcount = $$vhash{"VERSE_COUNT"};
+	$vcount = 1 if !$vcount;
+	for (my $i=0; $i<$vcount; $i++) {
+		print VFILE "\@VERSE:		\n";
+	}
+
+	print VFILE "\@\@END: VARIORUM\n\n";
 
 }
 
@@ -283,6 +414,38 @@ sub getVerses {
 
 
 
+###############################
+##
+## getSources -- Create a lookup index of all sources.
+## 
+## @@BEGIN: SOURCE
+## @RISM:	1588-20
+## @AUTHOR:	Acelli, Cesare; Croce, Giovanni; Giovannelli, Ruggiero; Guami, Francesco; Guami, Giuseppe; Stivori, Francesco
+## @TITLEPAGE:	FIORI MVSICALI / DI DIVERSI /AVTTORI A TRE VOCI. / <i>LIBRO SECONDO.</i> / <i>Nuouamente composti, & dati in luce.</i> / CON PRIVILEGIO: / <i>In Venetia Appresso Giacomo Vincenzi.</i> / MDLXXXVIII.
+## @TITLESHORT:	Fiori musicali, libro secondo
+## @PUBLISHER:	Vincenzi
+## @YEAR:	1588
+## @PUBTYPE:	anthology
+## @PUBFORMAT:	part-books
+## @PUBLOC:	Venetia
+## @PUBNORMLOC:	Venice
+## @SRCDEDICATEE:	Francesco Sugana
+## @OPARTBOOKS:	CTB
+## @EXTPARTBOOKS:	CTB
+## @EXTNAMES:	CTB
+## @SRCLOCSIGLA:	A-Wn
+## @REPRODUCTIONTYPE:	microfilm
+## @SRCURL:	
+## @@END: SOURCE
+## 
+
+sub getSources {
+	my ($sourcefile) = @_;
+	return getAtonEntries($sourcefile, "SOURCE", "RISM");
+}
+
+
+
 ##############################
 ##
 ## cleanKey --
@@ -317,13 +480,16 @@ sub getAtonEntries {
 	while (($index >= 0) && ($index < @contents)) {
 		($index, $hentry) = getAtonEntry($ATONTAG, $index, @contents);
 		if ($index > 0) {
-			%entry = %$hentry;
-			$key = cleanKey($entry{$IDTAG});
-			if ($output{$key} ne "") {
-				print "CURRENT VALUE: $output{$key}\n";
-				die "Duplicate key $key in manuscript list";
+			# %entry = %$hentry;
+			$key = cleanKey($$hentry{$IDTAG});
+			if ($key !~ /^\s*$/) {
+				# ignore entries with no ID (possible in sources.aton)
+				if ($output{$key} ne "") {
+					print "CURRENT VALUE: $output{$key}\n";
+					die "Duplicate key >>$key<< in list";
+				}
+				$output{$key} = $hentry;
 			}
-			$output{$key} = \%entry;
 		}
 	}
 	return %output;
@@ -364,6 +530,7 @@ sub getAtonEntry {
 			$key = $1;
 			$value = $2;
 			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+				$entry{"VERSE_COUNT"}++;
 				$entry{$key} .= "\n$value";
 				$entry{$key} =~ s/^\s*//;
 				$entry{$key} =~ s/\s*$//;

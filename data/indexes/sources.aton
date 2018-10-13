@@ -27,6 +27,7 @@
 @@   SRCDEDICATEE:     Dedicatee of the source.
 @@   OPARTBOOKS:       Original partbooks.
 @@   EXTPARTBOOKS:     Extant partbooks.
+@@   EXTNAMES:         Names of extant parts.
 @@   SRCLOCSIGLA:      Library sigla of the digital image of source.
 @@   REPRODUCTIONTYPE: Type of digital resource.
 @@   SRCURL:           Digital resource URL.
@@ -48,6 +49,7 @@
 @SRCDEDICATEE:	Amplissimis, Nobilissimis, ac omni virtutum genere ornatissimis viris, serenissimae regiae maiestatis im Dania a secretis
 @OPARTBOOKS:	Superna, Media, Infima
 @EXTPARTBOOKS:	Superna, Media, Infima
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	DK-Kk
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://img.kb.dk/ma/pre1700/aagesen.pdf
@@ -67,6 +69,7 @@
 @SRCDEDICATEE:	Francesco Sugana
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -86,6 +89,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7172
@@ -105,6 +109,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	B-Br (CB); DK-Kk (T)
 @REPRODUCTIONTYPE:	
 @SRCURL:	none http://img.kb.dk/ma/pre1700/fiori_mus_a3.pdf
@@ -124,6 +129,7 @@
 @SRCDEDICATEE:	Alfonso II d'Este
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	photocopy
 @SRCURL:	
@@ -143,6 +149,7 @@
 @SRCDEDICATEE:	Alfonso II d'Este
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	photocopy
 @SRCURL:	
@@ -162,6 +169,7 @@
 @SRCDEDICATEE:	Francesco Ruffo
 @OPARTBOOKS:	CC[B?]
 @EXTPARTBOOKS:	CC
+@EXTNAMES:	C,C2
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7084
@@ -181,6 +189,7 @@
 @SRCDEDICATEE:	Sig. Duca di Modena
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Nc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -200,6 +209,7 @@
 @SRCDEDICATEE:	Prospero Caetano
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00092740
@@ -219,6 +229,7 @@
 @SRCDEDICATEE:	Ottavio Accoromboni
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -238,15 +249,36 @@
 @SRCDEDICATEE:	Scipione Gonzaga
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	TV
+@EXTNAMES:	T,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	W 882
+@AUTHOR:	Wert, Giaches de
+@TITLEPAGE:	DI GIACHES DI VVERT / IL SESTO LIBRO DE MADRIGALI / A CINQUE VOCI. / Novamente posti in luce. / CON PRIVILEGGIO. / IN VINEGGIA. Appresso l'herede di Girolamo Scotto. / MDLXXVII.
+@TITLESHORT:	Il sesto libro de madrigali a cinque voci
+@PUBLISHER:	Herede di Gardano
+@YEAR:	1577
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Vineggia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Guglielmo Gonzaga
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	W 885
 @AUTHOR:	Wert, Giaches de
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIACHES DE WERT / L'OTTAVO LIBRO DE MADRIGALI / A CINQVE VOCI. / Nouamente Composto & dato in luce. / In Venetia Appresso Angelo Gardano / M.D. LXXXVI.
 @TITLESHORT:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PUBLISHER:	Angelo Gardano
 @YEAR:	1586
@@ -254,12 +286,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Duca di Ferrara
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00075248
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -276,6 +309,7 @@
 @SRCDEDICATEE:	—
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://stimmbuecher.digitale-sammlungen.de/view?id=bsb00103256
@@ -295,6 +329,7 @@
 @SRCDEDICATEE:	Alessandro Bevilacqua
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	I-Rsc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -312,8 +347,9 @@
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Francesco Maria, Duca d'Urbino
-@OPARTBOOKS:	CSATQB
-@EXTPARTBOOKS:	CSATQB
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Kub
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/search/-/SUPERDEFAULT%3A%28%224%C2%B0+mus.+78%22%29+OR+SUPERFULLTEXT%3A%28%224%C2%B0+mus.+78%22%29+OR+NORMDATATERMS%3A%28%224%C2%B0+mus.+78%22%29+OR+UGCTERMS%3A%28%224%C2%B0+mus.+78%22%29+OR+OVERVIEWPAGE_DESCRIPTION%3A%28%224%C2%B0+mus.+78%22%29+OR+OVERVIEWPAGE_PUBLICATIONTEXT%3A%28%224%C2%B0+mus.+78%22%29/1/-/-/
@@ -333,6 +369,7 @@
 @SRCDEDICATEE:	Vincenzo Grimani
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	scan from microfilm
 @SRCURL:	
@@ -341,38 +378,40 @@
 @@BEGIN: SOURCE
 @RISM:	B 1139
 @AUTHOR:	Bartoli, Giovan Battista
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI / <i>DI GIOVAN BATISTA</i> / <i>BARTOLI.</> / IN FERENZE. / <i>Nella Stamperia di Zanobi Pignoni. Con Licenza de' Sup. 1617.</i> 
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Zanobi Pignoni
 @YEAR:	1617
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Florence
 @PUBNORMLOC:	Florence
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Lorenzo Bonsi
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Rc (CBV); I-Bc (AT)
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	B 1706
 @AUTHOR:	Bellanda, Lodovico
-@TITLEPAGE:	
+@TITLEPAGE:	CANZONETTA / SPIRITVALI / A DVE VOCI / <i>Con altre à Tre, & à Quattro</I> / <i>da Sonare.</i> / Noumanete da Lodouico Bel-/ landà date in luce. / <i>In Verona per Francesco delle<i/> / Donne, et Scipione Vargna-</i> / <i>no suo Genero. 1599.</> / Con licenza de' Superiori. 
 @TITLESHORT:	Canzonette spirituali a due voci con altre a tre et a quattro da sonare
 @PUBLISHER:	Francesco dalle Donne et Scipione Vargnano
 @YEAR:	1599
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Verona
 @PUBNORMLOC:	Verona
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signore Cecilia et Caterina Ricciardelle 
+@OPARTBOOKS:	CTB
+@EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
+@SRCLOCSIGLA:	I-VEcap
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -390,6 +429,7 @@
 @SRCDEDICATEE:	Padre Giordano Moscatello
 @OPARTBOOKS:	CATBVbc
 @EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microflim
 @SRCURL:	
@@ -409,6 +449,7 @@
 @SRCDEDICATEE:	Alessandro and Carlo Tosi
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
@@ -428,6 +469,7 @@
 @SRCDEDICATEE:	Accademici filarmonici di Verona
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	A
+@EXTNAMES:	A
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
@@ -447,6 +489,7 @@
 @SRCDEDICATEE:	Conte Giordan Serego
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-VEcap
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -466,6 +509,7 @@
 @SRCDEDICATEE:	Girolamo Cappello, fu del Clarissimo Signor Alvigi
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	F-Psg
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -474,7 +518,7 @@
 @@BEGIN: SOURCE
 @RISM:	B 1739
 @AUTHOR:	Belli, Girolamo
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIROLAMO BELLI / D'ARGENTA, / IL SECONDO LIBRO / De' Madrigali à Cinque Voci, con un / Dialogo à Otto. / Nouamente composti, & dati in luce. / IN VENETIA / Presso Giacomo Vincenzi, & Ricciardo Amadino, compagni. / MDLXXXVI.
 @TITLESHORT:	Di Girolamo Belli d'Argenta il secondo libro de madrigali a cinque voci con un dialogo a otto. Novamente composti et dati in luce
 @PUBLISHER:	Giacomo Vincenzi e Ricciardo Amadino
 @YEAR:	1586
@@ -482,9 +526,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Duca di Parma
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -504,6 +549,7 @@
 @SRCDEDICATEE:	Duca di Ferrara (Alfonso II)
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	ATBVVI
+@EXTNAMES:	A,T,B,V,VI
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -512,7 +558,7 @@
 @@BEGIN: SOURCE
 @RISM:	B 1776
 @AUTHOR:	Belli, Giulio
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI A CINQVE, / ET A SEI VOCI. / DI GIVLIO BELLI DA LONGIANO. / Nouamente Composto, & dato in luce. / In Venetia, Appresso Angelo Gardano. / M.D. LXXXIX.
 @TITLESHORT:	Il primo libro de madrigali a cinque et a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1589
@@ -520,9 +566,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Baldassarre Ferraldi
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	BV
+@EXTNAMES:	B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -542,6 +589,7 @@
 @SRCDEDICATEE:	Nicolò Doni
 @OPARTBOOKS:	score
 @EXTPARTBOOKS:	score
+@EXTNAMES:	
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital scan
 @SRCURL:	http://ks4.imslp.info/files/imglnks/usimg/9/95/IMSLP440592-PMLP71873-Benedetti_-_Musiche_2.pdf
@@ -561,6 +609,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -580,6 +629,7 @@
 @SRCDEDICATEE:	Duca di Ferrara (Alfonso II)
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -599,6 +649,7 @@
 @SRCDEDICATEE:	[Laura Peperara]
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -607,7 +658,7 @@
 @@BEGIN: SOURCE
 @RISM:	B 2633
 @AUTHOR:	Biffi, Giuseppe
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIOSEFFO BIFFI / DA CESENA / MAESTRO DI CAPELLA / DELL'ILLVSTRISSIMO ET / REVERENDISS. SIGNOR / Cardinal Andrea Battorio. / MADRIGALI A CINQVE VOCI, / Con duoi Soprani. / IN MILANO / Per Agostino Tradato. M.D.XCVIII. / Con licenza de' Superiori.
 @TITLESHORT:	Madrigali a cinque voci
 @PUBLISHER:	Tradato
 @YEAR:	1598
@@ -615,9 +666,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Milano
 @PUBNORMLOC:	Milan
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Vincenzo Gonzaga, Duca di Mantova
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	TBV
+@EXTNAMES:	T,B,V
 @SRCLOCSIGLA:	GB-Lbl (BV); I-Vnm (T)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -637,6 +689,7 @@
 @SRCDEDICATEE:	Giuliano Feltrio Della Rovere
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ATB
+@EXTNAMES:	A,T,B
 @SRCLOCSIGLA:	B-Gu
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://books.google.be/books?id=8cpNAAAAcAAJ&source=gbs_navlinks_s
@@ -654,8 +707,9 @@
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Marco Siticho Altempse e Galara [Mark Sittich von Hohenems?]
-@OPARTBOOKS:	C C2 ?
+@OPARTBOOKS:	C C2
 @EXTPARTBOOKS:	C C2
+@EXTNAMES:	C,C2
 @SRCLOCSIGLA:	GB-L-bl
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -675,6 +729,7 @@
 @SRCDEDICATEE:	Cesare Pilonni
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	B-Br
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -694,6 +749,7 @@
 @SRCDEDICATEE:	Christian IV (King of Denmark)
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	DK-Kk
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://imslp.org/wiki/Giardino_Novo_(Borchgrevinck%2C_Melchior)
@@ -713,7 +769,8 @@
 @SRCDEDICATEE:	Cinzio Silvestri da Cingoli
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATB
-@SRCLOCSIGLA:	A-Wn (CB); T (I-Vnm); A?
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	A-Wn (CB); T (I-Vnm); A (Morell private collection)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
@@ -732,6 +789,7 @@
 @SRCDEDICATEE:	Giovanni Carpano
 @OPARTBOOKS:	? ? B
 @EXTPARTBOOKS:	B
+@EXTNAMES:	B
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -751,6 +809,7 @@
 @SRCDEDICATEE:	Paolo Quagliati
 @OPARTBOOKS:	score
 @EXTPARTBOOKS:	score
+@EXTNAMES:	
 @SRCLOCSIGLA:	I-Rvat
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -770,6 +829,7 @@
 @SRCDEDICATEE:	Monsignor Abate Sforza De Nobili
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsmile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b8426008s
@@ -789,6 +849,7 @@
 @SRCDEDICATEE:	Vettor Pasquaglio [according to Grove Music Online; there is no dedication in the 1591 print.]
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	D-Kl [now in D-Kub]
 @REPRODUCTIONTYPE:	PDF from facsimile
 @SRCURL:	-NA-
@@ -808,6 +869,7 @@
 @SRCDEDICATEE:	Alessandro Lanfranchino
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CB
+@EXTNAMES:	C,B
 @SRCLOCSIGLA:	I-VEaf (C); A-Wn (B)
 @REPRODUCTIONTYPE:	digital scan
 @SRCURL:	
@@ -827,6 +889,7 @@
 @SRCDEDICATEE:	Antonio Perez
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -846,6 +909,7 @@
 @SRCDEDICATEE:	Sigismondo Trecchi, Angela Pallavicina
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_X/X195/
@@ -865,6 +929,7 @@
 @SRCDEDICATEE:	Onofrio Santacroce
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R376/
@@ -884,6 +949,7 @@
 @SRCDEDICATEE:	Eccellentissimi Musici di Roma
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ATV
+@EXTNAMES:	A,T,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -903,6 +969,7 @@
 @SRCDEDICATEE:	Eccellentissimi Musici di Roma
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lcm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -911,7 +978,7 @@
 @@BEGIN: SOURCE
 @RISM:	C 888
 @AUTHOR:	Cantone, Serafino
-@TITLEPAGE:	
+@TITLEPAGE:	DI DON SERAFINO / CANTONE MILANESE / Organista della Chiesa di S. Simpli.- / ciano in Milano. / IL PRIMO LIBRO DE MADRIGALI / A Cinque Voci, / Nouamente Composti, & dati in luce. / Al Molto Illustre et Reuer Monsignor La Latta. / In Venetia Appresso Angelo Gardano. / M. D. LXXXXI.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1591
@@ -919,9 +986,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Don Giulio Cesare Prior la Latta
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/item/2008561293/
@@ -930,57 +998,60 @@
 @@BEGIN: SOURCE
 @RISM:	C 896
 @AUTHOR:	Capece, Alessandro
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A Quattro, Cinque, & Otto Voci. / DI ALESSANDRO CAPECE / ROMANO. / OPERA QVINTA. / IN ROMA. Appresso Gio. Battista Robletti. 1616. / Con licenza de' Superiori.
 @TITLESHORT:	Il primo libro de madrigali a quattro, cinque, et otto voci: opera quinta
 @PUBLISHER:	Robletti
 @YEAR:	1616
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Franciotto Orsino
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	C 897
 @AUTHOR:	Capece, Alessandro
-@TITLEPAGE:	
+@TITLEPAGE:	IL TERZO LIRBO / DE MADRIGALI / A CINQVE VOCI / DI ALESSANDRO / CAPECE ROMANO. / OPERA DECIMATERZA. / In Roma, Appresso Gio. Battista RObletti. 1625. / Con Licenza de' Superiori.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Robletti
 @YEAR:	1625
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Aurelio Briganti Colonna, Arciprete nel domo di Tivoli
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	C 898
 @AUTHOR:	Capece, Alessandro
-@TITLEPAGE:	
+@TITLEPAGE:	DI ALESSANDRO / CAPECE ROMANO. / IL SECONDO LIRBO / DE MADRIGALI, ET ARIE / A VNA, DVE, ET TRE VOCI. / Opera Decimaquarta. / IN ROMA, Appresso Gio. Battista Robletti. 1625. / CON  LICENZA DE' SVPERIORI.
 @TITLESHORT:	Il secondo libro de madrigali, et arie a una, due, et tre voci. Opera decimaquarta
 @PUBLISHER:	Robletti
 @YEAR:	1625
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Getulio Nardini, Vicario Generale et Arcidiacono de Tivoli
+@OPARTBOOKS:	score
+@EXTPARTBOOKS:	score
+@EXTNAMES:	
+@SRCLOCSIGLA:	I-Fn
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -998,6 +1069,7 @@
 @SRCDEDICATEE:	Don Alfonso d'Este
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	TV
+@EXTNAMES:	T,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://bibliotecaestense.beniculturali.it/info/img/mus/i-mo-beu-mus.f.137.pdf
@@ -1006,7 +1078,7 @@
 @@BEGIN: SOURCE
 @RISM:	C 943
 @AUTHOR:	Caprioli, Giovanni Paolo
-@TITLEPAGE:	
+@TITLEPAGE:	CANZONETTE / A TRE VOCI, / DI GIO. PAOLO CAPRIOLO / LIBRO PRIMO. / Nouamente Composte, e date in luce. / IN VENETIA, Appresso Giacomo Vincenti. MDCII.
 @TITLESHORT:	Canzonette a tre voci. Libro primo. Nuovamente composte e date in luce
 @PUBLISHER:	Giacomo Vincenti
 @YEAR:	1602
@@ -1014,11 +1086,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Conte Gio. Francesco Gambara
+@OPARTBOOKS:	CTB
+@EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -1036,6 +1109,7 @@
 @SRCDEDICATEE:	Vincenzo Prampero
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ATBV
+@EXTNAMES:	A,T,B,V
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -1055,6 +1129,7 @@
 @SRCDEDICATEE:	Herman van Wedich
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://stimmbuecher.digitale-sammlungen.de/view?id=bsb00094052
@@ -1074,6 +1149,7 @@
 @SRCDEDICATEE:	Giulio Secco Soardo
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-VEaf (ATB); A-Wn (CTV)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -1093,6 +1169,7 @@
 @SRCDEDICATEE:	Camillo Nicolini
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R395/
@@ -1112,6 +1189,7 @@
 @SRCDEDICATEE:	Cardinale Alessandrino
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsmile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R400/
@@ -1131,6 +1209,7 @@
 @SRCDEDICATEE:	Accademia dei novelli di Verona
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CAT
+@EXTNAMES:	C,A,T
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
@@ -1150,7 +1229,8 @@
 @SRCDEDICATEE:	Francesco Maria Serisale
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
-@SRCLOCSIGLA:	St Petersburg?
+@EXTNAMES:	
+@SRCLOCSIGLA:	RUS-SPsc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -1163,12 +1243,13 @@
 @PUBLISHER:	Luigi Zanetti
 @YEAR:	1605
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Rome
 @PUBNORMLOC:	Rome
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1188,6 +1269,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1207,6 +1289,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1226,6 +1309,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1245,25 +1329,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	C 2217Z
-@AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
-@TITLESHORT:	Li diversi scherzi a due, a tre et quattro voci. Libro sesto
-@PUBLISHER:	Giovanni Battista Robletti?
-@YEAR:	1619
-@PUBTYPE:	single-author
-@PUBFORMAT:	
-@PUBLOC:	Rome?
-@PUBNORMLOC:	Antwerp
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1283,6 +1349,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1302,6 +1369,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1310,19 +1378,20 @@
 @@BEGIN: SOURCE
 @RISM:	C 2224
 @AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / CONCERTATI / A CINQVE / CON IL BASSO CONTINVO. / D' ANTONIO CIFRA / ROMANO. / MAESTRO DI CAPPELLA / DELLA SANTA CASA DI LORETO. / LIBRO QVINTO / IN ROMA. Apprresso Luca Antonio Soldi. M.D.CXXI / CON LICENZA DE' SVPERIORI.
 @TITLESHORT:	Madrigali concertati a cinque con il basso continuo
 @PUBLISHER:	Soldi
 @YEAR:	1621
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Serenissimo Prencipe Ferdinando Gonzaga Duca di Mantoa
+@OPARTBOOKS:	C,C,A,T,B,bc
+@EXTPARTBOOKS:	C,C,T,B,bc
+@EXTNAMES:	C,C,T,B,Bc
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Y/Y121/
 @SRCURL:	
 @@END: SOURCE
 
@@ -1340,6 +1409,7 @@
 @SRCDEDICATEE:	Oratio Giustiniano
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-LEst
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://sachsen.digital/werkansicht/dlf/197344/3/0/#
@@ -1359,6 +1429,7 @@
 @SRCDEDICATEE:	Ferdinando Gonzaga
 @OPARTBOOKS:	[C] A B Bc
 @EXTPARTBOOKS:	A B Bc
+@EXTNAMES:	A,B,Bc
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -1378,6 +1449,7 @@
 @SRCDEDICATEE:	Antonio Heinrico Gunthero, Johanni Gunthero, Christiano Gunthero
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	F-Pc (CTB); D-W (A)
 @REPRODUCTIONTYPE:	microfilm; digital facsimile
 @SRCURL:	http://diglib.hab.de/drucke/2-6-7-1-musica-2s/start.htm
@@ -1397,6 +1469,7 @@
 @SRCDEDICATEE:	Conte Camillo Gonzaga
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://bibliotecaestense.beniculturali.it/info/img/mus/i-mo-beu-mus.e.34.pdf
@@ -1416,6 +1489,7 @@
 @SRCDEDICATEE:	Don Ferrante Gonzaga
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -1424,7 +1498,7 @@
 @@BEGIN: SOURCE
 @RISM:	C 3931
 @AUTHOR:	Corfini, Jacopo
-@TITLEPAGE:	
+@TITLEPAGE:	DI IACOPO CORFINI / ORGANISTA DEL DVOMO / DI LVCCA / <i>IL PRIMO LIBRO DE MADRIGALI</i> / <i>A SEI VOCI.</i>/ <i>Nuouamente posti in luce.</> / <i>IN VINEGIA.</> / APPRESSO L'HEREDE DI GIROLAMO SCOTTO / <i> MDLXXV.</i>
 @TITLESHORT:	Il primo libro de madrigali a sei voci
 @PUBLISHER:	Herede di G.Scotto
 @YEAR:	1575
@@ -1432,12 +1506,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Signor Cavaliero Gio. Galeazzo Rossi
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00073081-1
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -1454,6 +1529,7 @@
 @SRCDEDICATEE:	Laura Bovia
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	TV
+@EXTNAMES:	T,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S038/
@@ -1473,6 +1549,7 @@
 @SRCDEDICATEE:	Signori Pepoli Conti di Castioni dei Gatti, di Baragazza, e Sparvo ecc
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	T
+@EXTNAMES:	T
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S039/
@@ -1492,6 +1569,7 @@
 @SRCDEDICATEE:	Alfonso Gannassi
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S040/
@@ -1511,6 +1589,7 @@
 @SRCDEDICATEE:	Filippo Maria and Agostino Pinelli
 @OPARTBOOKS:	C/T T1 T2  B Bc
 @EXTPARTBOOKS:	C/T T1 T2 B Bc
+@EXTNAMES:	C,T1,T2,B,Bc
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z024/
@@ -1530,6 +1609,7 @@
 @SRCDEDICATEE:	No dedicatee
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	B
+@EXTNAMES:	B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z027/
@@ -1537,20 +1617,21 @@
 
 @@BEGIN: SOURCE
 @RISM:	1587-13
-@AUTHOR:	Crisci, Orazio
-@TITLEPAGE:	
+@AUTHOR:	Sabino, Ippolito; Sabino, Giovanni Francesco; Orazio Crisci
+@TITLEPAGE:	DI IPPOLITO/ SABINO / IL SESTO / LIBRO / DE MADRIGALI / A Cinque, & à Sei Voci. / Nuouamente Composti, & dati in luce. / IN VENETIA Presso Giacomo Vincenzi. / MDLXXXVII.
 @TITLESHORT:	Il sesto libro de madrigali a cinque et a sei voci
 @PUBLISHER:	Vincenzi
 @YEAR:	1587
-@PUBTYPE:	single-author
+@PUBTYPE:	single-author (with madrigals by Orazio Crisci and Giovanni Francesco Sabino)
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Ascanio di Capua
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Moe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -1568,6 +1649,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1587,6 +1669,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1606,6 +1689,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1625,6 +1709,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1633,7 +1718,7 @@
 @@BEGIN: SOURCE
 @RISM:	I 29
 @AUTHOR:	D'India, Sigismondo
-@TITLEPAGE:	
+@TITLEPAGE:	QVARTO LIBRO / DE MADRIGALI / A CINQVE VOCI / DI SIGISMONDO D'INDIA / Capo della Musica di Camera del Serenissimo, & / Inuitissimo Duca di Sauoia, / INDIRIZZATI / <i>ALL'ILLVSTISS. SIG. ABBATE FARNESE</i>/ Nouamente posto in luce. / CON PRIVILEGIO. / <i>IN VENETIA, M. DC. XVI. </i>/ <i> Appresso Ricciardo Amadino.</i>
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Amadino
 @YEAR:	1616
@@ -1641,18 +1726,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Sig. Abbate Farnese
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	GB-Ob
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	I 50
 @AUTHOR:	D'India, Sigismondo
-@TITLEPAGE:	
+@TITLEPAGE:	IL QVINTO LIBRO / DE MADRIGALI / A CINQVE VOCI / DI SIGISMONDO DINDIA / Capo della Musica di Camera del Serenissimo, & / Inuitissimo Duca di Sauoia, / Nouamente posto in luce. CON PRIVILEGIO. /  <i> IN VENETIA M. DC. XVI.</i> / <i>Appresso Ricciardo Amadino.</i>
 @TITLESHORT:	Il quinto libro de madrigali a cinque voci
 @PUBLISHER:	Amadino
 @YEAR:	1616
@@ -1660,11 +1746,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Sig. Cavagliero Henrico Vottone Ambascitore della Maesta di Inghilterra appresso la Serenissima Republica di Venetia
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	GB-Ob
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -1682,6 +1769,7 @@
 @SRCDEDICATEE:	Monsignor Marco Sittico, Conte d'Altemps, et Gallarata, Arcivescovo & Prencipe di Salzburg
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	Microfilm scan
 @SRCURL:	
@@ -1701,6 +1789,7 @@
 @SRCDEDICATEE:	Francesco Ferrari
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CABV
+@EXTNAMES:	C,A,B,V
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://data.onb.ac.at/rec/AC09168126
@@ -1720,6 +1809,7 @@
 @SRCDEDICATEE:	Emperor Rudolf II
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CTBV
+@EXTNAMES:	C,T,B,V
 @SRCLOCSIGLA:	A-Wn (CTV ); PL-GD (B)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -1739,46 +1829,29 @@
 @SRCDEDICATEE:	Raffaele Raggio
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00073112
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	D 1663
-@AUTHOR:	Dentice, Scipione
-@TITLEPAGE:	PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI / DI SCIPIONE DENTICE / Gentilhuomo Napolitano. / IN NAPOLI. / Appresso gli Eredi di Mattio Cancer. M.D.XCI.
-@TITLESHORT:	Di Scipione Dentice il terzo libro de madrigali a cinque voci
-@PUBLISHER:	Gio. Iacomo Carlino, & Antonio Pace
-@YEAR:	1598
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Naples
-@PUBNORMLOC:	Naples
-@SRCDEDICATEE:	Alphonso II d'Este, duca di Ferrara
-@OPARTBOOKS:	CATBV
-@EXTPARTBOOKS:	CAB
-@SRCLOCSIGLA:	C from GB-Ckc; A from I-MOe; B from D-W
-@REPRODUCTIONTYPE:	PDF from microfilm
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
 @RISM:	D 1660
 @AUTHOR:	Dentice, Scipione
-@TITLEPAGE:	
+@TITLEPAGE:	PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI / DI SCIPIONE DENTICE / Gentilhuomo Napolitano. / IN NAPOLI. / Appresso gli Eredi di Mattio Cancer. M.D.XCI.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Eredi di Cancer
 @YEAR:	1591
-@PUBTYPE:	
-@PUBFORMAT:	
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
 @PUBLOC:	Napoli
 @PUBNORMLOC:	Naples
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Dvca di Ferrara
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CAB
+@EXTNAMES:	C,A,B
+@SRCLOCSIGLA:	GB-Ckc (C); I-MOe (A); D-W (B)
+@REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -1796,7 +1869,8 @@
 @SRCDEDICATEE:	Leonora d'Este, principessa di Venosa
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATV
-@SRCLOCSIGLA:	C from GB-Ckc; A from B-Nn; T-V from GB-Lbm
+@EXTNAMES:	C,A,T,V
+@SRCLOCSIGLA:	GB-Ckc (C); B-Nn (A); GB-Lbm (TV)
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
 @@END: SOURCE
@@ -1815,6 +1889,7 @@
 @SRCDEDICATEE:	Cardinale Ottavio Acquaviva, arcivescovo di Napoli http://www.treccani.it/enciclopedia/ottavio-acquaviva-d-aragona_(Dizionario-Biografico)
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	digital
 @SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/image/1365591513538/82/
@@ -1823,7 +1898,7 @@
 @@BEGIN: SOURCE
 @RISM:	1620-16
 @AUTHOR:	Dering, Richard
-@TITLEPAGE:	
+@TITLEPAGE:	CANZONETTE / A QVATTRO VOCI, / <i>CON IL BASSO CONTINUO</> / DI Sr RICHARDO DIRINGO / GENTILHVOMO INGLESE, / <i>Nouamente Composte & date in luce.</> / IN ANVERSA / Appresso PIETRO PHALESIO al Re Dauid. / M. DC. XX.
 @TITLESHORT:	Canzonette a quattro voci con il basso continuo
 @PUBLISHER:	Phalesio
 @YEAR:	1620
@@ -1831,11 +1906,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Anversa
 @PUBNORMLOC:	Antwerp
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Tomaso Morgano Cavallero Inglese
+@OPARTBOOKS:	C1,C2,A,B,bc
+@EXTPARTBOOKS:	C1,C2,A,B,bc
+@EXTNAMES:	C1,C2,A,B,Bc
+@SRCLOCSIGLA:	GB-Lbm
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -1853,6 +1929,7 @@
 @SRCDEDICATEE:	Jacomo Boncompagno, Governator Generale di Santa Chiesa
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00080473-7
@@ -1872,6 +1949,7 @@
 @SRCDEDICATEE:	Giovanni Giacomo e Carlo Chiseli  
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/0005/bsb00051778/images/
@@ -1891,6 +1969,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -1910,6 +1989,7 @@
 @SRCDEDICATEE:	Bernardo Clavarezza
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CTBV
+@EXTNAMES:	C,T,B,V
 @SRCLOCSIGLA:	A-Wn (CV), PL-GD (TB)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -1929,6 +2009,7 @@
 @SRCDEDICATEE:	Gabriele Adorno
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CV
+@EXTNAMES:	C.V
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -1948,6 +2029,7 @@
 @SRCDEDICATEE:	Agostino Romeo
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -1960,35 +2042,17 @@
 @TITLESHORT:	Il sesto libro de madrigali a cinque voci
 @PUBLISHER:	Heredi di Scotto
 @YEAR:	1591
-@PUBTYPE:	single-author
+@PUBTYPE:	single-author (with some pieces by Monte, Effrem)
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Ettore Caracciolo
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://repository.royalholloway.ac.uk/items/6c44a5c0-7b2f-c907-0b76-ed699eecc929/1/
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	E 741
-@AUTHOR:	Eredi, Francesco
-@TITLEPAGE:	
-@TITLESHORT:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
-@PUBLISHER:	Alessandro Vincenti
-@YEAR:	1614
-@PUBTYPE:	single-author
-@PUBFORMAT:	
-@PUBLOC:	Venice
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -2005,6 +2069,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -2024,6 +2089,7 @@
 @SRCDEDICATEE:	Alfonso II d'Este
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2043,6 +2109,7 @@
 @SRCDEDICATEE:	Christoforo Boncompagni Arcivescovo di Ravenna
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2062,6 +2129,7 @@
 @SRCDEDICATEE:	Donna Leonora da Este
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2081,6 +2149,7 @@
 @SRCDEDICATEE:	Padre D. Orazio Barbisoni da Brescia Cassinense Abbate di San Felice di Vicenza
 @OPARTBOOKS:	CATBbc
 @EXTPARTBOOKS:	CATBbc
+@EXTNAMES:	C,A,T,B,Bc
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2089,20 +2158,21 @@
 @@BEGIN: SOURCE
 @RISM:	1603-11
 @AUTHOR:	Falcone, Achille
-@TITLEPAGE:	
+@TITLEPAGE:	ALLI SIGNORI MVSICI / DI ROMA / MADRIGALI A CINQVE VOCI / DI ACHILLE FALCONE / Musico & Acdemico Cusentino / Maestro di Cappella di Caltagirone, con alcune opere fatte / all'improuiso à competenza, con Sebastiano Raualle / Fra Capellano di Malta, e Maestro della Cap- / pellla Reale di Palermo, con vna nar-  ratione come veramente il / datto seguisse. / <i>Nouamente, dati in luce.</i> / IN VENETIA, / Appresso Giacomo Vincenti. MDCIII.
 @TITLESHORT:	Madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1603
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Tiberio Pignatello
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_B/B069/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -2119,6 +2189,7 @@
 @SRCDEDICATEE:	Ottavio Saracini
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Vnm (B), I-Bc (CATV)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7195
@@ -2127,7 +2198,7 @@
 @@BEGIN: SOURCE
 @RISM:	1586-15
 @AUTHOR:	Feliciani, Andrea
-@TITLEPAGE:	
+@TITLEPAGE:	DI ANDREA / FELICIANI SENESE / MAESTRO DI CAPPELLA / del Duomo di Siena. / IL PRIMO LIBRO DE MADRIGALI / à Sei Voci, nouamente composti, & dati in luce. / IN VENETIA, MDLXXXVI. / Presso Giacomo Vincenzi, & Ricciardo Amadino, Compagni.
 @TITLESHORT:	Il primo libro de madrigali a sei voci
 @PUBLISHER:	Vincenzi et Amadino
 @YEAR:	1586
@@ -2135,11 +2206,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Monsignor Camillo Borghesi
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	ATBV
+@EXTNAMES:	A,T,B,V
+@SRCLOCSIGLA:	PL-Kj
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -2155,36 +2227,18 @@
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Claudio Borghesi, Bishop of Grosseto
-@OPARTBOOKS:	CATB5
+@OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facismile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00083502
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	1591-18
-@AUTHOR:	Felis, Stafano
-@TITLEPAGE:	DI STEFANO FELIS / DA BARI / MAESTRO DI CAPPELLA / DEL DOMO DI NAPOLI. / IL SESTO LIBRO / De Madrigali à Cinque voci, con alcuni a Sei, / et un dialogo à Sette nel fine. / Nouamente composti, & dati in luce. / IN VENETIA, MDXCI. / Appresso l'Herede di Girolamo Scotto. / Ad istantia de Scipione Rizzo Napolitano al segno del Giesu
-@TITLESHORT:	Il sesto libro de madrigali a cinque voci
-@PUBLISHER:	Eredi di Scotto
-@YEAR:	1591
-@PUBTYPE:	single-authors (with some works by other authors)
-@PUBFORMAT:	Part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	Ettore Caracciolo
-@OPARTBOOKS:	CATBV
-@EXTPARTBOOKS:	CATBV
-@SRCLOCSIGLA:	GB-Lbl
-@REPRODUCTIONTYPE:	digital facismile
-@SRCURL:	https://repository.royalholloway.ac.uk/items/6c44a5c0-7b2f-c907-0b76-ed699eecc929/1/treenav.jsp?tempwn.b=close
-@@END: SOURCE
-
-@@BEGIN: SOURCE
 @RISM:	1579-05
 @AUTHOR:	Felis, Stefano
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI A SEI VOCI DI STEFANO / FELIS DA BARI MAESTRO DI CAPELLA / Dell'Arcivescouato di detta Città, Nouamente composto & dato in luce. / In Venetia Appresso / Angelo Gardano. / 1579.
 @TITLESHORT:	Il primo libro di madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1579
@@ -2192,18 +2246,19 @@
 @PUBFORMAT:	Part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Gio. Gadaleta, Signor di Binetto
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	TVI
+@EXTNAMES:	T,VI
+@SRCLOCSIGLA:	D-Mbs (VI); PL-Kj (T)
+@REPRODUCTIONTYPE:	digital facsimile (D-Mbs)
+@SRCURL:	D-Mbs (VI); https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00078786
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	F 254
 @AUTHOR:	Ferrabosco, Alfonso
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI A CINQVE / DI ALFONSO FERRABOSCO / Gentil'hhuomo de;;'Altezza di Sauoia. / AL SERENISSIMO CARLO EMANVELE / Duca di Sauoia & Prencipe di Piemonte. / In Venetia Appresso Angelo Gardano 1587.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1587
@@ -2211,18 +2266,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Serenissimo Signor Carlo Emanuele Duca di Savoia et Prencipe di Piemonte
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	F 255
 @AUTHOR:	Ferrabosco, Alfonso
-@TITLEPAGE:	
+@TITLEPAGE:	IL SECONDO LIBRO / DE MADRIGALIA CINQVE / DI ALFONSO FERRABOSCO / Gentil'huomo dell'Altezza di Sauoia. / ALLA SERENISSIMA D. CATERINA / d'Austria Infante di Spagna & Duchessa di Sauoia. / In Venetia Appresso Angelo Gardano 1587. 
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1587
@@ -2230,11 +2286,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Serenissima Infante la Signora Donna Caterina d'Austria Duchessa di Savoia
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
@@ -2252,6 +2309,7 @@
 @SRCDEDICATEE:	Clemente Bartholi
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S132/
@@ -2271,6 +2329,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -2290,6 +2349,7 @@
 @SRCDEDICATEE:	Gasparo Verità & Marc'antonio Verità
 @OPARTBOOKS:	C T
 @EXTPARTBOOKS:	C T
+@EXTNAMES:	C,T
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -2309,6 +2369,7 @@
 @SRCDEDICATEE:	Padre Don Giovanni Battista Onofrilli da Sulmona, Abbate Generale della Congregatione di Monaci Celestini
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	?
 @REPRODUCTIONTYPE:	PDFfrom scan
 @SRCURL:	
@@ -2317,19 +2378,20 @@
 @@BEGIN: SOURCE
 @RISM:	F 1827
 @AUTHOR:	Freddi, Amadio
-@TITLEPAGE:	
+@TITLEPAGE:	DI AMADIO FREDDI / PADOVANO / IL PRIMO LIBRO / de Madrigali à Sei Voci. / Nouamente composti,& dati in luce. / IN VENETIA / Appresso RIcciardo Amadino. / MDCV.
 @TITLESHORT:	Il Primo Libro de Madrigali a sei voci. Nuovamente composti, et dati in luce
 @PUBLISHER:	Ricciardo Amadino
 @YEAR:	1605
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	none
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Hs
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -2347,6 +2409,7 @@
 @SRCDEDICATEE:	Camillo Abbati da Cesena
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2366,6 +2429,7 @@
 @SRCDEDICATEE:	Francesco Guidi Bagno
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ATBV
+@EXTNAMES:	A,T,B,V
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2374,7 +2438,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 72
 @AUTHOR:	Gabrieli, Andrea
-@TITLEPAGE:	
+@TITLEPAGE:	DI ANDREA GABRIELI / ORGANISTA DELLA SERENISS. / Signoria di Venetia in S. Marco. / IL SECONDO LIBRO DE / Madrigalia Sei voci, Nouamente com- / posti & dati in Luce. / CON PRIVILEGIO. / IN VENETIA / Appresso Angelo Gardano, / M D LXXX.
 @TITLESHORT:	Il secondo libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1580
@@ -2382,18 +2446,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Sereniss. Arciduca Ferdinando d'Austria
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00073080-6
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	1590-11
 @AUTHOR:	Gabrieli, Giovanni; Monte, Filippo di etc.
-@TITLEPAGE:	
+@TITLEPAGE:	DIALOGHI MVSICALI / DE DIVERSI ECCELLEN- / TISSIMI AVTORI, / A Sette, Otto, Noue, Dieci, Vndeci & Dodici voci, / Nouamente posti in luce. / CON DVE BATTAGLIE A OTTO VOCI, / Per sonar de Istrumenti da Fiato, di Annibale Podoano. / & di Andrea Gabrieli, già Organisti della Serenissima Signoria di Venetia / in San Marco. / CON PRIVILEGIO. / In Venetia Appresso Angelo Gardano. / M. D. LXXXX.
 @TITLESHORT:	Dialoghi musicali de diversi eccellentissimi autori
 @PUBLISHER:	Gardano
 @YEAR:	1590
@@ -2401,18 +2466,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	none
+@OPARTBOOKS:	CATBVVI VII VIII IX X XI XII
+@EXTPARTBOOKS:	CATBVVI VII VIII IX X XI XII
+@EXTNAMES:	C,A,T,B,V,VI,VII,VIII,IX,X,XI,XII
+@SRCLOCSIGLA:	B-Br
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	G 98
 @AUTHOR:	Gabussi, Giulio Cesare
-@TITLEPAGE:	
+@TITLEPAGE:	IL SECONDO LIBRO DE MADRIGALI / A CINQVE VOCI / DI GIVLIO CESARE GABVCCI BOLOGNESE / Maestro di Capella del Duomo di Milano. / Nouamente composti, e dati in luce. / IN VENETIA, / Appresso Giacomo Vincenti 1598.
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1598
@@ -2420,18 +2486,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Conte Pirro Visconti Borromeo
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-LEm
+@REPRODUCTIONTYPE:	photocopy
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	G 11
 @AUTHOR:	Gagliano, Marco da
-@TITLEPAGE:	
+@TITLEPAGE:	DI MARCO / DA GAGLIANO / IL TERZO LIBRO / DE MADRIGALI / A CINQVE VOCI / Nouamente Stampato. / IN VENETIA. / APPRESSO ANGELO GARDANO. / M. DCV.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1605
@@ -2439,12 +2506,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Signore Cosimo Cini
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	dgital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z186/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -2461,6 +2529,7 @@
 @SRCDEDICATEE:	Signor Cosimo del Sera
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z189/
@@ -2469,7 +2538,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 123
 @AUTHOR:	Galeno, Giovanni Battista
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A SETTE VOCI, / DI GIO. BATTISTA GALENO / Nouamente composti, & dati in luce. / In Venetia, Appresso Ricciardo Amadino. / MDXCVIII.
 @TITLESHORT:	Il primo libro de madrigali a sette voci
 @PUBLISHER:	Amadino
 @YEAR:	1598
@@ -2477,18 +2546,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Rodolfo II Imperatore
+@OPARTBOOKS:	CATBVVIVII
+@EXTPARTBOOKS:	CATBVVIVII
+@EXTNAMES:	C,A,T,B,V,VI,VII
+@SRCLOCSIGLA:	B-Br
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://uurl.kbr.be/1563114
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	1598-08
-@AUTHOR:	Gallo, Vincenzo
-@TITLEPAGE:	
+@AUTHOR:	Gallo, Vincenzo etc.
+@TITLEPAGE:	LE RISA A VICENDA / VAGHI E DILETTEVOLI / MADRIGALI A CINQVE VOCI / Posti in Musica da diuersi Autori. / Raccolti & nouamente dati in luce da Gio. Pietro / Flaccomio Siciliano di Milazzo. / IN VENETIA, Appresso Giacomo Vincenti. 1598.
 @TITLESHORT:	Le risa a vicenda. Vaghi e dilettevoli madrigali a cinque voci
 @PUBLISHER:	Appresso Giacomo Vincenti
 @YEAR:	1598
@@ -2496,11 +2566,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Francesco Maria Cardinal dal Monte
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-FEc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -2518,6 +2589,7 @@
 @SRCDEDICATEE:	L'imperatore Ferdinando Secondo
 @OPARTBOOKS:	C1 C2 B
 @EXTPARTBOOKS:	C1 C2 B
+@EXTNAMES:	C1,C2,B
 @SRCLOCSIGLA:	S-Uu
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record%3A158473&dswid=6976
@@ -2526,7 +2598,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 480
 @AUTHOR:	Gastoldi, Giovanni Giacomo
-@TITLEPAGE:	
+@TITLEPAGE:	SACRE LODI / DI DIVERSI SANTI / CON VNA CANZONE / Al Glorioso Serafico S. Francesco. / DI GIO: GIACOMO GASTOLDI DA / Carauaggio, Nouamente poste in luce. / <i>A CINQVE VOCI.</i> /  IN VENETIA, MDLXXXVII. / Appresso Ricciardo Amadino.
 @TITLESHORT:	Sacre lodi
 @PUBLISHER:	Amadino
 @YEAR:	1587
@@ -2534,9 +2606,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	Signor Duca di Mantova e Monferrato
+@SRCDEDICATEE:	Signor Duca di Mantoa e  di Monferrato
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	Pl-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2545,7 +2618,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 547
 @AUTHOR:	Gastoldi, Giovanni Giacomo
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI, / DI GIO: GIACOMO GASTOLDI DA CARAVAGGIO / Maestro di Cappella nella Chiesa di Santa Barbara / di Mantoua. / Nouamente composti, & dati in luce. / IN VENETIA, MDLXXXVIII. / Appresso Ricciardo Amadino. 
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Amadino
 @YEAR:	1588
@@ -2553,9 +2626,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	Vincenzo Gonzaga, Duca di Mantova e Monferrato
+@SRCDEDICATEE:	Signor Vincenzo Gonzaga, Duca di Mantoua e Monferrato
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2575,6 +2649,7 @@
 @SRCDEDICATEE:	no dedicatee
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://orka.bibliothek.uni-kassel.de/viewer/image/1365591513538/129/LOG_0007/
@@ -2594,6 +2669,7 @@
 @SRCDEDICATEE:	Carlo Gesualdo
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://bibliotecaestense.beniculturali.it/info/img/mus/i-mo-beu-mus.f.496.html
@@ -2613,6 +2689,7 @@
 @SRCDEDICATEE:	Carlo Gesualdo
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S210/
@@ -2632,6 +2709,7 @@
 @SRCDEDICATEE:	Alfonso Fontanelli
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2651,6 +2729,7 @@
 @SRCDEDICATEE:	Filippo Zaffiri
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -2670,6 +2749,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -2689,6 +2769,7 @@
 @SRCDEDICATEE:	Mario Bevilacqua
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R270/
@@ -2697,7 +2778,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 2459
 @AUTHOR:	Giovannelli, Ruggiero
-@TITLEPAGE:	
+@TITLEPAGE:	DI RVGGIERO / GIOVANELLI / MAESTRO DI CAPELLA / IN S. PIETRO DI ROMA / IL PRIMO LIBRO DI MADRIGALI / A Cinque Voci,  Nouamente Ristampati. /  In Venetia, Appresso Angelo Gardano / 1600.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1586
@@ -2705,18 +2786,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Giovanni Ricci
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	G 2464
 @AUTHOR:	Giovannelli, Ruggiero
-@TITLEPAGE:	
+@TITLEPAGE:	DI RVGGIERO / GIOVANNELLI / MAESTRO DI CAPELLA / IN S. LVIGI DI ROMA, / IL PRIMO LIBRO DI MADRIGALI / A Cinque Voci. / Nouamente da lui Composti & dati in luce. / In Venetia Appresso Angelo Gardano / M. D. LXXXVI.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci, novamente ristampati.
 @PUBLISHER:	Gardano
 @YEAR:	1600
@@ -2724,9 +2806,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	none
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S236/
@@ -2746,6 +2829,7 @@
 @SRCDEDICATEE:	Diego Zappatta Corrier
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S237/
@@ -2754,7 +2838,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 2480
 @AUTHOR:	Giovannelli, Ruggiero
-@TITLEPAGE:	
+@TITLEPAGE:	DI RVGGIERO GIOVANELLI / MAESTRO DI CAPELLA IN S. PIETRO DI ROMA / IL TERZO LIBRO DE MADRIGALI / A Cinque Voci, Nouamente da lui composti, & dati in luce. / In Venetia, Appresso Angelo Gardano. 1599.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1599
@@ -2762,9 +2846,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	Cardinale Aldobrandini
+@SRCDEDICATEE:	Cardinale CIntio Aldobrandini
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2784,6 +2869,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -2792,7 +2878,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 3259
 @AUTHOR:	Grabbe, Johann
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIOANNI / GRABBE, / WESPHALO. / ORGANISTA / DEL ILLVSTRISSIMO ET ECCELLENTISSIMO / SIGNOR CONTE DI LIPPE / IL PRIMO LIBRO / De Madrigali a CInque Voci. / Nouamente Composti, & dati in luce. / IN VENETIA. / Appresso ANgelo Gardano, & Fratelli.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1609
@@ -2800,11 +2886,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Simone Conte et nobile Signor di Lippe
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-Kl
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -2822,6 +2909,7 @@
 @SRCDEDICATEE:	Gio. Battista Confaloniero
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S254/
@@ -2841,6 +2929,7 @@
 @SRCDEDICATEE:	Ludovico Buonvisi
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	T
+@EXTNAMES:	T
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -2860,6 +2949,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -2877,17 +2967,18 @@
 @PUBLOC:	Firenze
 @PUBNORMLOC:	Florence
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@OPARTBOOKS:	CATBVbc
+@EXTPARTBOOKS:	TV
+@EXTNAMES:	T,V
+@SRCLOCSIGLA:	I-Fn
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	H 2339
 @AUTHOR:	Hassler, Hans Leo
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / à 5.6.7. & 8 voci. di Giouanne Leone Has- / sler, Organista dell'Illustriss: signor Octauiano se- / condo Fugger, Barone di Kirchberg & Weis- / senhorn, &c. Consigliero della / S.M. Cesarea. / <i>Nouamente composti & dati in luce.</i> / Con gratia & priuilegio della s.C. Maestà. / <i>In Augusta, apresso Valentin Schönigk.</i> / M. D. XCVI.
 @TITLESHORT:	Madrigali a 5, 6, 7, & 8 voci
 @PUBLISHER:	Valentin Schönigk
 @YEAR:	1596
@@ -2895,9 +2986,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Augsburg
 @PUBNORMLOC:	Augsburg
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
+@SRCDEDICATEE:	Signor Mauritio, Lantgrauio d'Hassia
+@OPARTBOOKS:	CATBVVIVIIVIII
+@EXTPARTBOOKS:	CATBVVIVIIVIII
+@EXTNAMES:	C,A,T,B,V,VI,VI,IVIII
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080454
@@ -2906,7 +2998,7 @@
 @@BEGIN: SOURCE
 @RISM:	H 2345
 @AUTHOR:	Hassler, Jakob
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / à sei Voci / DI IACOBO HASSLER / DA NORIMBERGA, ORGANISTA / DEL ILL.mo SIGNOR EYTEL FRIDERICO, / Conte di Hohenzollern &c. / <i>Novamente composto & dato in luce.</i> / In NORIMBERGA appresso Paulo Kaufman. / M. DC.
 @TITLESHORT:	Madrigali a sei voci
 @PUBLISHER:	Kaufman
 @YEAR:	1600
@@ -2914,10 +3006,11 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Norimberga
 @PUBNORMLOC:	Nuremberg
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
+@SRCDEDICATEE:	Christofero Fugger Baron di Kirchberg & Weissenhorn
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://books.google.com/books?id=8MWHOfAAVYAC&source=gbs_navlinks_s
 @@END: SOURCE
@@ -2925,20 +3018,21 @@
 @@BEGIN: SOURCE
 @RISM:	H 4923
 @AUTHOR:	Hayne, Gilles
-@TITLEPAGE:	
+@TITLEPAGE:	MOTETTI . <i>ouero MADRIGALI A CINQVE VOCI,</i> / DI / EGIDIO HENNIO / CANONICO E CANTORE / DI S. GIOVANNI EVANGELISTA / IN LIEGI, E MAESTRO DI CAPELLA DEL / SER.mo SIGNOR DVCA FERDINANDO DI / BAVIERA, ELETTOR DI COLONIA, / VESCOVO, E PRENCIPE DI LIEGI, &c. /  FATTI SPIRITVALI DA VN / <i> diuoto Padre della Compagnia di GIESV,</i> / E DEDICATI / alla Giouentú Liegese amatrice della Musica. / <i>OPERA SECONDA</i> / IN ANVERSA, / Presso i heredi di Pietro Phalesio, al Re Dauid. / M. DC. XLIII.
 @TITLESHORT:	Motetti overo madrigali a cinque voci. Opera seconda
 @PUBLISHER:	Heredi di Pietro Phalesio
 @YEAR:	1643
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Antwerp
 @PUBNORMLOC:	Antwerp
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Alla gioventu liegese
+@OPARTBOOKS:	CATBVbc
+@EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
+@SRCLOCSIGLA:	F-Psg
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://archive.org/details/VM131_1RES/page/n5
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -2955,6 +3049,7 @@
 @SRCDEDICATEE:	Arnoldo Wachtendoncq
 @OPARTBOOKS:	Tenore over Canto [1], Tenore over Canto [2], Basso, Basso Continuo
 @EXTPARTBOOKS:	Tenore over Canto [1], Tenore over Canto [2], Basso, Basso Continuo
+@EXTNAMES:	T1,T2,B,Bc
 @SRCLOCSIGLA:	F-Psg
 @REPRODUCTIONTYPE:	scan
 @SRCURL:	http://www.sudoc.abes.fr/xslt//DB=2.1/SET=1/TTL=1/CLK?IKT=12&TRM=227551168
@@ -2963,7 +3058,7 @@
 @@BEGIN: SOURCE
 @RISM:	I 10
 @AUTHOR:	Il Verso, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	DI ANTONIO / IL VERSO SICILIANO / DA PIAZZA, / <i>L'OTTAVO LIBRO DE MADRIGALI</i> / A CINQVE VOCI.</i> / Nouamente composto, & dato in luce. / In Venetia appresso Ricciardo Amadino. 1603.
 @TITLESHORT:	L'ottavo libro de'madrigali a cinque voci
 @PUBLISHER:	Ricciardo Amadino
 @YEAR:	1603
@@ -2972,9 +3067,10 @@
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CV
+@EXTNAMES:	C.V
+@SRCLOCSIGLA:	I-Vnm (V); GB-Lbl (C)
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -2993,6 +3089,7 @@
 @SRCDEDICATEE:	Francesco Del Pomo
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
@@ -3006,13 +3103,14 @@
 @PUBLISHER:	Giovan Battista Maringo
 @YEAR:	1617
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Palermo
 @PUBNORMLOC:	Palermo
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
+@OPARTBOOKS:	C1,C2(?),B(?)
+@EXTPARTBOOKS:	C1
+@EXTNAMES:	C1
+@SRCLOCSIGLA:	E-bc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -3025,21 +3123,122 @@
 @PUBLISHER:	Giovan Battista Maringo
 @YEAR:	1619
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Palermo
 @PUBNORMLOC:	Palermo
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	1594-17
+@AUTHOR:	Il Verso, Antonio
+@TITLEPAGE:	IL PRIMO LIBRO / DE' MADRIGALI A SEI VOCI / DI ANTONIO IL VERSO / Siciliano, della Città di Piazza, Discepolo / di Pietro Vinci. / NOVAMENTE DATO IN LVCE. / IN VENETIA, Ad instanza di Achille Piffari. MDXCIV.
+@TITLESHORT:	Il primo libro de madrigali a sei voci
+@PUBLISHER:	Vincenzi
+@YEAR:	1594
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Don Gerardo Migliaccio, et Ventimiglia
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Rp
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	1601-14
+@AUTHOR:	Il Verso, Antonio
+@TITLEPAGE:	MADRIGALI / A SEI VOCI / DI ANTONIO IL VERSO / SICILIANO. / Nouamente da lui composti, & dati in luce. / LIBRO SECONDO. / In Venetia, Appresso Ricciardo Amadino. MDCI.
+@TITLESHORT:	Madrigali a sei voci. Libro secondo
+@PUBLISHER:	Amadino
+@YEAR:	1601
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Melchiorre Lampognano
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	ATBVVI
+@EXTNAMES:	A,T,B,V,VI
+@SRCLOCSIGLA:	D-Hs
+@REPRODUCTIONTYPE:	mcrofilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	1607-24
+@AUTHOR:	Il Verso, Antonio
+@TITLEPAGE:	IL TERZO LIBRO / DE' MADRIGALI / A SEI VOCI / <i>DI ANTONIO IL VERSO</i> / <i>Siciliano.</i> / NOVAMENTE DATO IN LUCE. / <i>IN PALERMO,</i> / Appresso Gio: Battista Maringo. M. DC. VII
+@TITLESHORT:	Il terzo libro de madrigali a sei voci
+@PUBLISHER:	Maringo
+@YEAR:	1607
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Palermo
+@PUBNORMLOC:	Palermo
+@SRCDEDICATEE:	Gio. Ferrante Pacecco, Marchese di Vigliena
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/CC/CC098/
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	I 5
+@AUTHOR:	Il Verso, Antonio
+@TITLEPAGE:	DI ANTONIO IL VERSO SICILIANO / DELLA CITTA DI PIAZZA. / IL PRIMO LIBRO / DE' MADRIGALI A CINQVE VOCI. / Nouamente dato in luce. / IN PALERMO.
+@TITLESHORT:	Il primo libro de madrigali a cinque voci
+@PUBLISHER:	Maringo
+@YEAR:	1590
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Palermo
+@PUBNORMLOC:	Palermo
+@SRCDEDICATEE:	Geronimo Caponetto
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-W
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	I 8
+@AUTHOR:	Il Verso, Antonio
+@TITLEPAGE:	MADRIGALI / DI ANTONIO / IL VERSO / A CINQVE VOCI. / <i>Nouamente da lui composti, & dati in luce.</i> / Libro Quarto. / In Venetia, Appresso Ricciardo Amadino. M D C.
+@TITLESHORT:	Madrigali a cinque voci. Libro quarto
+@PUBLISHER:	Amadino
+@YEAR:	1600
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Signor Giulio Grasso
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CB
+@EXTNAMES:	C,B
+@SRCLOCSIGLA:	A-Wn
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	I 53
 @AUTHOR:	Ingegneri, Marco Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	IL SECONDO LIBRO DE' MADRIGALI / DI MARC'ANTONIO INGEGNERI A QVATTRO / VOCI, CON DVE ARIE DI CANZON FRAN- / cese per sonare. Nouamente composti, & dati in luce. / In Venetia / Appresso Angelo Gardano. / 1579.
 @TITLESHORT:	Il secondo libro de madrigali a quattro voci
 @PUBLISHER:	Gardano
 @YEAR:	1579
@@ -3047,18 +3246,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Signor Barone Sfrondato
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075415-6
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	I 58
 @AUTHOR:	Ingegneri, Marco Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	IL QVINTO LIBRO / DE MADRIGALI A CINQVE VOCI / DI MARC"ANTONIO INGEGNERI, / Nouamente Composti, & dati in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXVII.
 @TITLESHORT:	Il quinto libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1587
@@ -3066,11 +3266,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Accademici Filarmonici di Verona
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-As
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -3088,6 +3289,7 @@
 @SRCDEDICATEE:	Bartolomeo Ariberti
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	C
+@EXTNAMES:	C
 @SRCLOCSIGLA:	I-Fb
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://iiif.lib.harvard.edu/manifests/view/drs:402293597$153i
@@ -3107,6 +3309,7 @@
 @SRCDEDICATEE:	Antonio Landonio
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-BC
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S276/
@@ -3125,7 +3328,8 @@
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Ippolito della Rovere
 @OPARTBOOKS:	CABT5
-@EXTPARTBOOKS:	CABT5
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -3145,6 +3349,7 @@
 @SRCDEDICATEE:	Lorenzo Bonvisi
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -3164,6 +3369,7 @@
 @SRCDEDICATEE:	Gio. Girolamo Kapsberger
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA130/
@@ -3183,6 +3389,7 @@
 @SRCDEDICATEE:	Alessandro Miroballo, Marchese di Bracigliano
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	US-ST.u
 @REPRODUCTIONTYPE:	Digital microfilm 
 @SRCURL:	https://books.google.com/books?id=Gpk5AQAAIAAJ&printsec=frontcover&source=gbs_ViewAPI#v=onepage&q&f=false
@@ -3202,6 +3409,7 @@
 @SRCDEDICATEE:	Luigi Carrafa della Marra
 @OPARTBOOKS:	?
 @EXTPARTBOOKS:	C B
+@EXTNAMES:	C,B
 @SRCLOCSIGLA:	C from GB-Lbl; B from I-Bc
 @REPRODUCTIONTYPE:	pdf from microfilm
 @SRCURL:	
@@ -3221,6 +3429,7 @@
 @SRCDEDICATEE:	Luigi Abbate Gallo.
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CT
+@EXTNAMES:	C,T
 @SRCLOCSIGLA:	I-Baf?
 @REPRODUCTIONTYPE:	pdf from microfilm
 @SRCURL:	
@@ -3240,6 +3449,7 @@
 @SRCDEDICATEE:	Giovanni Francesco Pavlella
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	ATB
+@EXTNAMES:	A,T,B
 @SRCLOCSIGLA:	D-BAUk
 @REPRODUCTIONTYPE:	photocopy
 @SRCURL:	
@@ -3259,6 +3469,7 @@
 @SRCDEDICATEE:	Monsignor Marco Cornaro Vescovo di Padova
 @OPARTBOOKS:	CATBVbc
 @EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -3278,6 +3489,7 @@
 @SRCDEDICATEE:	Paolo Savello
 @OPARTBOOKS:	score
 @EXTPARTBOOKS:	score
+@EXTNAMES:	
 @SRCLOCSIGLA:	US-STum
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://books.google.com/books?id=q78sAQAAMAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
@@ -3297,6 +3509,7 @@
 @SRCDEDICATEE:	Leonora d'Este
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00083513
@@ -3305,26 +3518,27 @@
 @@BEGIN: SOURCE
 @RISM:	L 3125
 @AUTHOR:	Luzzaschi. Luzzasco
-@TITLEPAGE:	
+@TITLEPAGE:	Il quarto Libro / DE' MADRIGALI / A CINQVE VOCI, / DI LVZZASCO LVZZASCHI / Organista del Serenissimo Signor / DVCA di Ferrara. / IN FERRARA, / Per Vittorio Baldini, Stampator Ducale. / M. D. XCIIII.
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Baldini
-@YEAR:	1584
+@YEAR:	1594
 @PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Ferrara
 @PUBNORMLOC:	Ferrara
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Don Carlo Giesoaldi
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	L 3130
 @AUTHOR:	Luzzaschi. Luzzasco
-@TITLEPAGE:	
+@TITLEPAGE:	SETTIMO LIBRO | DE MADRIGALI | A CINQVE VOCI, | DI LVZZASCO LUZZASCHI | Nouamente, dati in luce. | IN VENETIA, | Appresso Giacomo Vincenti MDCIIII.
 @TITLESHORT:	Il settimo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1604
@@ -3332,11 +3546,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Don Francesco Valdina
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CB
+@EXTNAMES:	C,B
+@SRCLOCSIGLA:	I-Bc (C); PL-Kj (B)
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -3354,6 +3569,7 @@
 @SRCDEDICATEE:	L'Autore a la sua donna.
 @OPARTBOOKS:	CATBV + Bc
 @EXTPARTBOOKS:	CATV
+@EXTNAMES:	C,A,T,V
 @SRCLOCSIGLA:	I-Bc (C); ATV (I-Fd)
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA218/
@@ -3362,7 +3578,7 @@
 @@BEGIN: SOURCE
 @RISM:	1589-07
 @AUTHOR:	Macque, Giovanni de, etc.
-@TITLEPAGE:	
+@TITLEPAGE:	LE GIOIE. / MADRIGALI / A CINQVE VOCI / DI DIVERSI ECCEL.mi MVSICI / DELLA COMPAGNIA DI ROMA, / Nouamente posti in luce. / <i>LIBRO PRIMO.</i> / IN VENETIA, M D LXXXIX. / Appresso Ricciardo Amadino.
 @TITLESHORT:	Le gioie. Madrigali a cinque voci. Libro primo
 @PUBLISHER:	Amadino
 @YEAR:	1589
@@ -3370,12 +3586,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Mos. Don Pietro Orsino, Vescovo di Spoleti.
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R260/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3392,6 +3609,7 @@
 @SRCDEDICATEE:	Cesare d'Avalos d'Aragona
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	Digital from microfilm
 @SRCURL:	
@@ -3409,8 +3627,9 @@
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Fabrizio Gesualdo, Principe di Venosa
-@OPARTBOOKS:	CV6ATB
+@OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	Q
+@EXTNAMES:	V
 @SRCLOCSIGLA:	GB-Lbm
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -3430,6 +3649,7 @@
 @SRCDEDICATEE:	Nicolò Ponsi
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -3449,6 +3669,7 @@
 @SRCDEDICATEE:	Sig. Giovanni Magni
 @OPARTBOOKS:	CATBVbc
 @EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA224/
@@ -3468,6 +3689,7 @@
 @SRCDEDICATEE:	Cardinal Aldobrandini
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CAB
+@EXTNAMES:	C,A,B
 @SRCLOCSIGLA:	I-Rdp
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
@@ -3487,6 +3709,7 @@
 @SRCDEDICATEE:	Hieronimo MIchelozzi
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -3506,6 +3729,7 @@
 @SRCDEDICATEE:	Cintio Aldobrandino
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA229/
@@ -3525,6 +3749,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -3532,20 +3757,21 @@
 
 @@BEGIN: SOURCE
 @RISM:	1583-11
-@AUTHOR:	Marenzio, Luca
+@AUTHOR:	Marenzio, Luca, etc.
 @TITLEPAGE:	
 @TITLESHORT:	De floridi virtuosi d’italia il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenci & Amadino
 @YEAR:	1583
-@PUBTYPE:	single-athor
+@PUBTYPE:	anthology
 @PUBFORMAT:	part-books
 @PUBLOC:	Venezia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Alberto Radzivil
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -3560,31 +3786,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	1591-21
-@AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
-@TITLESHORT:	Il quinto libro de madrigali a sei voci
-@PUBLISHER:	Gardano
-@YEAR:	1591
-@PUBTYPE:	single-athor
-@PUBFORMAT:	part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Don Virginio Orsino Duca di Bracciano
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T045/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3598,50 +3806,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	M 549
-@AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
-@TITLESHORT:	Di Luca Marenzio il quarto libro de madrigali a cinque voci. Nuovamente composti, & dati in luce
-@PUBLISHER:	Giacomo Vincenci, & Ricciardo Amadino compagni
-@YEAR:	1584
-@PUBTYPE:	single-athor
-@PUBFORMAT:	part-books
-@PUBLOC:	Venice
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	M 579
-@AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
-@TITLESHORT:	Madrigali a quattro voci, libro primo di Luca Marenzio, novamente con ogni diligenza stampati
-@PUBLISHER:	Giacomo Vincenzi
-@YEAR:	1585
-@PUBTYPE:	single-athor
-@PUBFORMAT:	part-books
-@PUBLOC:	Venice
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Don Diego de Campo
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://repository.royalholloway.ac.uk/items/8a2d1358-ebfa-9092-e20e-aa0328a01dcb/1/treenav.jsp?tempwn.b=close
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3655,31 +3826,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	M 507
-@AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
-@TITLESHORT:	Il terzo libro de madrigali a sei voci
-@PUBLISHER:	Herede di G. Scotto
-@YEAR:	1585
-@PUBTYPE:	single-athor
-@PUBFORMAT:	part-books
-@PUBLOC:	Vinegia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Signor Cardinale di Guisa
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T038/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3693,11 +3846,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Vinegia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Gran Duchessa di Toscana
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -3712,12 +3866,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Marchese di Pisani
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T043/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3731,18 +3886,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Duchessa di Ferrara
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	M 525
 @AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / SPIRITVALI DI LVCA / MARENZIO A CINQVE VOCI / Nouamente stampato & dato in Luce. / LIBRO PRIMO / CVM PRIVILEGIO. / In Roma per Alessandro Gardano. 1584. / Con licentia de i Superiori.
 @TITLESHORT:	Madrigali spirituali a cinque voci. Libro primo
 @PUBLISHER:	Gardano
 @YEAR:	1584
@@ -3750,11 +3906,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Lodovico Bianchetti
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-Kj
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -3769,18 +3926,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Girolamo Rvis
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T016/
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	M 500
 @AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
+@TITLEPAGE:	DI LVCA MARENZIO / MAESTRO DI CAPELLA DELL'ILLVSTRISSIMO / ET REVERENDISSIMO SIGNOR CARDINALE D'ESTE. / IL PRIMO LIBRO DE MADRIGALI A SEI VOCI / Nouamente composti, & dati in luce. / In Venetia Appresso Angelo Gardano / MDLXXXI.
 @TITLESHORT:	Il primo libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1581
@@ -3788,11 +3946,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Sig. Don Alfonso d'Este Duca di Ferrara
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc (C); I-PESc (A); D-Mbs(TBVVI)
+@REPRODUCTIONTYPE:	I-Bc (C); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T036/   D-Mbs (TBVVI); https://books.google.com/books?id=p48dkhOeM8AC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @SRCURL:	
 @@END: SOURCE
 
@@ -3808,10 +3967,11 @@
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	A-Wn
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -3829,6 +3989,7 @@
 @SRCDEDICATEE:	Guglielmo Gizzinosi
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	TV
+@EXTNAMES:	T,V
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -3848,6 +4009,7 @@
 @SRCDEDICATEE:	Cardinal Girolamo Mattei http://www.treccani.it/enciclopedia/girolamo-mattei_%28Dizionario-Biografico%29/
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CBV
+@EXTNAMES:	C,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
@@ -3856,7 +4018,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 1254
 @AUTHOR:	Masnelli, Paolo
-@TITLEPAGE:	
+@TITLEPAGE:	DI PAOLO MASENELLI / ORGANISTA DEL SERENISSIMO / Signor Duca di Mantoua. / IL PRIMO LIBRO DE / Madrigali à Cinque Voci, nouamente / composti & dati in luce. / IN VENETIA / presso Giacomo Vincenti, & Ricciardo Amadino, compagni. / MDLXXXVI.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenzi et Amadino
 @YEAR:	1586
@@ -3864,11 +4026,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Alessandro Bevilacqua
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-As
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -3886,6 +4049,7 @@
 @SRCDEDICATEE:	Alessandro Bevilacqua
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ATBV
+@EXTNAMES:	A,T,B,V
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
@@ -3905,6 +4069,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -3924,6 +4089,7 @@
 @SRCDEDICATEE:	Vincenzo Gonzaga
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-Rsc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -3943,6 +4109,7 @@
 @SRCDEDICATEE:	Conte Horatio Anguisciola
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	B
+@EXTNAMES:	B
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
@@ -3962,6 +4129,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -3981,6 +4149,7 @@
 @SRCDEDICATEE:	Giovanni Francesco Giordano
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://orka.bibliothek.uni-kassel.de/viewer/image/1365591513538/5/LOG_0002/
@@ -4000,6 +4169,7 @@
 @SRCDEDICATEE:	Tolomeo Gallio
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CTBV
+@EXTNAMES:	C,T,B,V
 @SRCLOCSIGLA:	I-MOe (CB), A-Wn (T-Q)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4019,6 +4189,7 @@
 @SRCDEDICATEE:	Anibale (i.e., Annibale) Tontulo
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	TV
+@EXTNAMES:	T,V
 @SRCLOCSIGLA:	CZ-Pnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4038,6 +4209,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -4057,6 +4229,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -4076,6 +4249,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -4095,6 +4269,7 @@
 @SRCDEDICATEE:	Mario Valionani
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facismile
 @SRCURL:	https://www.loc.gov/resource/ihas.200154733.0?st=gallery
@@ -4114,6 +4289,7 @@
 @SRCDEDICATEE:	Ernesto Duca dell'Alta et Bassa Baviera
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075261-1
@@ -4133,6 +4309,7 @@
 @SRCDEDICATEE:	Giulio della Rovere http://www.treccani.it/enciclopedia/della-rovere-giulio-feltrio_(Dizionario-Biografico)
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7580
@@ -4152,13 +4329,14 @@
 @SRCDEDICATEE:	Giovanni Augustino Marino
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	M 1754
+@RISM:	M 1755
 @AUTHOR:	Melli, Domenico Maria
 @TITLEPAGE:	LE SECONDE / MUSICHE / DEL SIGNOR / DOMENICO MARIA / MELLI REGGIANO / Nelle quali si contengono Madrigali, Canzonette, Arie, & / Dialoghi, à una, & due voci, per cantare nel Chittarone, / Clavicimbalo, & altri Instrumenti sì in Soprano / come in Tenore, & Trasportate com- / mode per qual parte / più piace. / Novamente ristampate, & corrette. / IN VENETIA, / APPRESSO GIACOMO VINCENTI. / MDCIX
 @TITLESHORT:	
@@ -4171,6 +4349,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA288/
@@ -4179,26 +4358,27 @@
 @@BEGIN: SOURCE
 @RISM:	M 2346
 @AUTHOR:	Merula, Tarquinio
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / CONCERTATI / A Quattro, Cinque, Sei, Sette, & Otto / Voci, con il suo Basso Continuo / DI TRAQVINIO MERVLA / Organista di Chiesa, e Camera del Serenissimo, & / Inuitissimo Rè di Polonia, e Suetia, &c. / OPERA QVINTA. / Nouamente composta, & data in luce. / Dedicata all'istesso Serenissimo Rè suo / Signore, e Patron Clementissimo. / IN VENETIA, / Appresso Alessandro Vincenti. MDCXXIIII.
 @TITLESHORT:	Il primo libro de madrigali concertati. Opera quinta
 @PUBLISHER:	Vincenti
 @YEAR:	1624
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Sigismondo III Re di Polonia
+@OPARTBOOKS:	CATBVbc
+@EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
+@SRCLOCSIGLA:	I-Bc (CTBVbc); PL-Kj (A)
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	I-Bc;  http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA296/ 
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	1577-7
 @AUTHOR:	Merulo, Claudio, et al.
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO FIORE / DELLA GHIRLANDA MVSICALE / A CINQVE VOCI / Con vn Dialogo a noue. / <i>DI DIVERSI ECCELLENTISSIMI MVSICI</i> / <i>Nouamente posto in luce.</i> / <i>IN VINEGGIA.</i> / Appresso l'herede di Girolamo Scotto. / <i>MDLXXVII.</i>
 @TITLESHORT:	Il primo fiore della ghirlanda musicale
 @PUBLISHER:	Herede di G. Scotto
 @YEAR:	1577
@@ -4206,12 +4386,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Signor Giulio Sansone, Fu del Magnifico Signor Leonardo Secretario dell'Illustrissima Signoria di Venetia
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CA
+@EXTNAMES:	C,A
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R230/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -4228,6 +4409,7 @@
 @SRCDEDICATEE:	Cornelio Corniani
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://stimmbuecher.digitale-sammlungen.de/view?id=bsb00073082
@@ -4247,6 +4429,7 @@
 @SRCDEDICATEE:	Carlo Emanuele Duca di Savoia e Principe di Piemonte
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Tn
 @REPRODUCTIONTYPE:	digital pictures
 @SRCURL:	
@@ -4266,6 +4449,7 @@
 @SRCDEDICATEE:	Costantino Pinello
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/item/2008561306/
@@ -4274,7 +4458,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 3382
 @AUTHOR:	Monte, Philippe de; Monte, Filippo di
-@TITLEPAGE:	
+@TITLEPAGE:	DI FILIPPO DI MONTE / MAESTRO DI CAPPELLA / DELLA SACRA CES: / MAIESTA DE L'IMPERATORE RODOLFO II / Il Terzodecimo Libro de Madrigali a Sei Voci, Nouamente posti in luce. / In Venetia appresso Angelo Gardano. / M. D. XXXVIII.
 @TITLESHORT:	Il terzodecimo libro delli madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1588
@@ -4282,11 +4466,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Gentilissima et Virtuosissima Signora Chiara Gabri
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -4304,6 +4489,7 @@
 @SRCDEDICATEE:	Alfonso II d'Este
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe (CATV); A-Wn (B)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4323,6 +4509,7 @@
 @SRCDEDICATEE:	Giacomo (i.e., Jakob) Curts 
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	ATV
+@EXTNAMES:	A,T,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T179/
@@ -4331,7 +4518,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 3322
 @AUTHOR:	Monte, Filippo di
-@TITLEPAGE:	
+@TITLEPAGE:	DI FILIPPO DI MONTE / MAESTRO DI CAPPELLA DELLA SAC. CES. MAESTA / DELL'IMPERATORE RODOLFO SECONDO, / IL SECONDO LIBRO DE MADRIGALI SPIRITVALI A SEI, / & Sette voci, nouamente da lui composti, & dati in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXIX.
 @TITLESHORT:	Il secondo libro de madrigali spirituali a sei et sette voci
 @PUBLISHER:	Gardano
 @YEAR:	1589
@@ -4339,12 +4526,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Arciduca Carlo d'Austria
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075258-3
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -4361,6 +4549,7 @@
 @SRCDEDICATEE:	Count Mario Bevilacqua
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4380,6 +4569,7 @@
 @SRCDEDICATEE:	Filippo d'Austria, Principe di Spagna
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
@@ -4399,6 +4589,7 @@
 @SRCDEDICATEE:	Nicolò Berardino Sanseverino Principe di Bisignano 
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATV
+@EXTNAMES:	C,A,T,V
 @SRCLOCSIGLA:	C-B-V from I-Fn; T  from US-SFsc
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
@@ -4418,6 +4609,7 @@
 @SRCDEDICATEE:	Ferrante di Capua
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	C-A-T from I-Nc; B from I-Fn
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
@@ -4426,7 +4618,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 3420
 @AUTHOR:	Montella, Giovanni Domenico
-@TITLEPAGE:	
+@TITLEPAGE:	QVINTO LIBRO / DE MADRIGALI / A CINQVE VOCI / <i>Di Giovan Domenico Montella Napolitano.</i> / IN NAPOLI, Per Antonio Pace. 1603. / <i>Con Licenza de' Superiori.</>
 @TITLESHORT:	Quinto libro de madrigali a cinque voci
 @PUBLISHER:	Pace
 @YEAR:	1603
@@ -4434,18 +4626,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Napoli
 @PUBNORMLOC:	Naples
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Astorgio Agnese
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	ATBV
+@EXTNAMES:	A,T,B,V
+@SRCLOCSIGLA:	I-Fn
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	M 3459
 @AUTHOR:	Monteverdi, Claudio
-@TITLEPAGE:	
+@TITLEPAGE:	DI CLAUDIO / MONTEVERDE / IL TERZO LIBRO DE MADRIGALI / A CINQVE VOCI / Nouamente composto & datto in luce. / IN VENETIA, / Appresso Ricciardo Amadino. / M D XCII.
 @TITLESHORT:	Di Claudio Monteverdi il Terzo Libro de Madrigali a cinque voci. Novamente composto et datto in luce
 @PUBLISHER:	Ricciardo Amadino
 @YEAR:	1592
@@ -4453,9 +4646,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Vincenzo I Gonzaga, Duke of Mantua
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7658
@@ -4475,6 +4669,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -4494,6 +4689,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -4502,7 +4698,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 3453
 @AUTHOR:	Monteverdi, Claudio
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI A CINQVE VOCI / DI CLAVDIO MONTEVERDE CREMONESE / DISCEPOLO DEL SIG> MARC'ANTONIO INGIGNERI / Nouamente Composti, & dati in luce. / LIBRO PRIMO. / In Venetia Appresso Angelo Gardano. M. D. LXXXVII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1587
@@ -4510,18 +4706,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Conte Marco Veirta
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	M 3456
 @AUTHOR:	Monteverdi, Claudio
-@TITLEPAGE:	
+@TITLEPAGE:	IL SECONDO LIBRO / DE MADRIGALI A CINQVE VOCI / DI CLAVDIO MONTEVERDE CREMONESE / Discepolo del Signor Ingegneri. / Nouamente posti in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXX.
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1590
@@ -4529,18 +4726,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Iacomo Ricardi
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	TBV
+@EXTNAMES:	T,B,V
 @SRCLOCSIGLA:	A-Wn
-@REPRODUCTIONTYPE:	
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	M 3457
 @AUTHOR:	Monteverdi, Claudio
-@TITLEPAGE:	
+@TITLEPAGE:	IL SECONDO / LIBRO  DE MADRIGALI A CINQVE VOCI / DI CLAVDIO MONTEVERDE CREMONESE / Nouamente con ogni diligenza corretto, & ristampato / IN VENETIA, / Appresso Alessandro Raverij. / MDCVII.
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci. Novamente con ogni diigenza corretto, & ristampato.
 @PUBLISHER:	Alessandro Raverij
 @YEAR:	1607
@@ -4551,6 +4749,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA392/
@@ -4570,6 +4769,7 @@
 @SRCDEDICATEE:	Caterina Medici Gonzaga
 @OPARTBOOKS:	CATBVbc
 @EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB003/
@@ -4589,6 +4789,7 @@
 @SRCDEDICATEE:	Accademia Filarmonica di Verona
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4608,6 +4809,7 @@
 @SRCDEDICATEE:	Barbara Sanseverina
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4616,7 +4818,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 3813
 @AUTHOR:	Mosto, Giovanni Battista
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIO. BATTISTA  / MOSTO MAESTRO / DI CAPELLA DEL DVOMO / Di Padoua: / IL SECONDO LIBRO DE MADRIGALI / A Cinque Voci, nouamente composto, & dato in luce. / IN VENETIA / Presso Giacomo Vincenti, & Ricciardo Amadino, compagni. / MDLXXXIIII.
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti & Amadino
 @YEAR:	1584
@@ -4624,18 +4826,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Signor Nicolao Christoforo Radzivil
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00080486-8
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	M 3814
 @AUTHOR:	Mosto, Giovanni Battista
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIO. BATTISTA MOSTI / MAESTRO DI CAPELLA NEL DOMO DI PADOA / IL TERZO LIBRO DE MADRIGALI A CINQVE VOCI, / Nouamente Composto & dato in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXVIII.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1588
@@ -4643,18 +4846,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Antonio Horologio
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	M 3816
 @AUTHOR:	Mosto, Giovanni Battista
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIOVANNI BATTISTA MOSTO MAESTRO / Di Capella del Serenissimo Prencipe di Transiluania, / IL PRIMO LIBRO DE MADRIGALI / A Sei Voci. / Nouamente Composti * dati in luce. / In Venetia Apresso Angelo Gardano. / M. D. LXXXXV.
 @TITLESHORT:	Il primo libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1595
@@ -4662,18 +4866,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Sigismondo Battori, Prencipe di Transilvania
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	1582-05
 @AUTHOR:	Mosto, Giovanni Battista; Vecchi, Orazio; Virchi, Paolo
-@TITLEPAGE:	IL LAVRO SECCO / Lirbo Primo / DI MADRIGALI / À CINQVE VOCI / DI DIVERSI AVTORI / IN FERRARA, Per Vittorio Baldini. 1582.
+@TITLEPAGE:	IL LAVRO SECCO / Libro Primo / DI MADRIGALI / À CINQVE VOCI / DI DIVERSI AVTORI / IN FERRARA, Per Vittorio Baldini. 1582.
 @TITLESHORT:	Il lauro secco
 @PUBLISHER:	Baldini
 @YEAR:	1582
@@ -4684,6 +4889,7 @@
 @SRCDEDICATEE:	[Laura Peperara]
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R233/
@@ -4692,7 +4898,7 @@
 @@BEGIN: SOURCE
 @RISM:	N 12
 @AUTHOR:	Naldi, Romolo
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI / Di Romolo Naldi. / Nouamente Composto & dato in luce. / In Venetia Appresso Angelo Gardano / M.D.LXXXIX.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1589
@@ -4703,6 +4909,7 @@
 @SRCDEDICATEE:	Archangelo, Horatio, Francesco, e Guido Cavalcanti
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4722,6 +4929,7 @@
 @SRCDEDICATEE:	Francesco Agliata
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	T
+@EXTNAMES:	T
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4741,6 +4949,7 @@
 @SRCDEDICATEE:	Cesare Rho
 @OPARTBOOKS:	CATBVbc
 @EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4760,6 +4969,7 @@
 @SRCDEDICATEE:	Teodoro Trivulzio
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ABV
+@EXTNAMES:	A,B,V
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4779,6 +4989,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -4798,6 +5009,7 @@
 @SRCDEDICATEE:	Diana Vittorio Carrafa, Marchese di Castel Vetere
 @OPARTBOOKS:	CV6ATB
 @EXTPARTBOOKS:	CV6ATB
+@EXTNAMES:	
 @SRCLOCSIGLA:	GB-Lbm
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
@@ -4817,6 +5029,7 @@
 @SRCDEDICATEE:	Alessandro Grandi http://www.treccani.it/enciclopedia/alessandro-grandi_%28Dizionario-Biografico%29/
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB + Bc
+@EXTNAMES:	C,A,T,B,Bc
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
@@ -4825,26 +5038,27 @@
 @@BEGIN: SOURCE
 @RISM:	N 677
 @AUTHOR:	Nicoletti, Filippo
-@TITLEPAGE:	
+@TITLEPAGE:	I FINTI AMORI / MVSICA A CINQVE VOCI / Del R.M. Filippo Nicoletti Ferrarese. / Nouamente posti in luce. / <i>OPERA SECONDA.</i> / IN VENETIA / .Appresso Giacomo Vincenzi, & Ricciardo Amadino compagni / M D LXXXV.
 @TITLESHORT:	I finti amori
 @PUBLISHER:	Vincenzi e Amadino
 @YEAR:	1585
-@PUBTYPE:	
-@PUBFORMAT:	
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
 @PUBLOC:	Venzia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Catarin Zeno, disnissimo Pdestà, e Capitano di Rovigo, e Proveditor di tutto il Polesene
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Moe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	N 687
 @AUTHOR:	Nielsen, Hans
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIOVANNI / FONTEIIO DANESE / MVSICO DELLA MAESTA / DEL RE DI DANIA. / IL PRIMO LIBRO / DE MADRIGALI / A Cinque Voci. / Nouamente Composto & dato in Luce. / IN VENETIA. / Appresso Angelo Gardano. / M D C VI.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1606
@@ -4852,9 +5066,10 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Prencipe Christiano IV Re di Dania
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/bpt6k45003550
@@ -4863,7 +5078,7 @@
 @@BEGIN: SOURCE
 @RISM:	O 106
 @AUTHOR:	Oristagno, Giulio
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIVLIO D'ORI- / STAGNO SICILIANO. / IL PRIMO LIBRO DE MADRIGALI / A CINQVE VOCI. / Nouamente Composti & dati in luce. / In Venetia Appresso Angelo Gardano / M. D. LXXXVIII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1588
@@ -4871,18 +5086,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Don Fr. Belvis
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	1589-15
 @AUTHOR:	Orologio, Alessandro
-@TITLEPAGE:	
+@TITLEPAGE:	DI ALESSANDRO / OROLOGIO / IL SECONDO LIBRO DE MADRI- / gali à Quatro, à Cinque, & a`Sei voci. / Nouamente composti & dati in luce. / DRESDAE, Typis Elect. Saxoniae, anno M. D. LXXXIX.
 @TITLESHORT:	Il secondo libro de madrigali a quattro, cinque, et sei voci
 @PUBLISHER:	Typis Elect. Saxoniae
 @YEAR:	1589
@@ -4890,18 +5106,39 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Dresdae
 @PUBNORMLOC:	Dresden
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Christiano Duci Saxoniae
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	TV
+@EXTNAMES:	T,V
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://repository.royalholloway.ac.uk/items/e2ab84bf-b7bf-f2e3-5b9b-c8d1bd3f0d99/1/treenav.jsp?tempwn.b=close
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	O 124
+@AUTHOR:	Orologio, Alessandro
+@TITLEPAGE:	DI ALESSANDRO / OROLOGIO / IL SECONDO LIBRO / De Madrigali à Cinque voci, / Nouamente Composti & dati in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXXV.
+@TITLESHORT:	Il secondo libro de madrigali a cinque voci
+@PUBLISHER:	Gardano
+@YEAR:	1595
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Prencipe Mauritio, Landgravio d'Hassia
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	1588-28
 @AUTHOR:	Pallavicino, Benedetto
-@TITLEPAGE:	
+@TITLEPAGE:	DI BENEDETTO PALLAVICINO / IL QVARTO LIBRO DE MADRIGALI / A CINQVE VOCI. / Nouamente Composto, & dato in luce. / In Venetia Appresso Angelo Gardano / M. D. LXXXVIII.
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1588
@@ -4909,18 +5146,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Vincenzo Gonzaga, Duca di Mantova e di Monferrato
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 772
 @AUTHOR:	Pallavicino, Benedetto
-@TITLEPAGE:	
+@TITLEPAGE:	DI BENEDETTO PALLAVICINO CREMONESE / IL PRIMO LIBRO DE MADRIGALI / A Quattro voci, nouamente composto & dato in luce. / In Venetia appresso / Angelo Gardano. / 1579.
 @TITLESHORT:	Il primo libro de madrigali a quattro voci
 @PUBLISHER:	Gardano
 @YEAR:	1579
@@ -4928,18 +5166,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signori Accademici Philarmonici
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 779
 @AUTHOR:	Pallavicino, Benedetto
-@TITLEPAGE:	
+@TITLEPAGE:	DI BENEDETTO / PALLAVICINO / IL TERZO LIBRO DE MADRIGALI / à Cinque Voci, nouamente composti, & dati in luce. / IN VENETIA / Presso Giacomo Vincenzi, & Ricciardo Amadino, compagni. / MDLXXXV.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenzi e Amadino
 @YEAR:	1585
@@ -4947,18 +5186,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Alfonso Gonzaga
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 789
 @AUTHOR:	Pallavicino, Benedetto
-@TITLEPAGE:	
+@TITLEPAGE:	DI BENEDETTO / PALLAVICINO / IL QVINTO LIBRO DE MADRIGALI / à Cinque Voci. / Nuouamente Composti, & dati in luce. / IN VENETIA, / Appresso Giacomo Vincenti. / M. D. XCIII.
 @TITLESHORT:	Il quinto libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1593
@@ -4966,37 +5206,39 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Gio. Battista Guerrieri
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 801
 @AUTHOR:	Pallavicino, Benedetto
-@TITLEPAGE:	
-@TITLESHORT:	L’Ottavo libro de madrigali a cinque voci
+@TITLEPAGE:	DI BENEDETTO / PALLAVICINO / L'OTTAVO LIBRO / de Madrigali a Cinque Voci, / con alcuni a otto. / Nouamente posto in luce. / In Venetia, Appresso Ricciardo Amadino. / MDCXII.
+@TITLESHORT:	L’ottavo libro de madrigali a cinque voci
 @PUBLISHER:	Amadino
 @YEAR:	1612
 @PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Francesco Mocenigo
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	GB-Och
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 782
 @AUTHOR:	Pallavicino, Benedetto
-@TITLEPAGE:	
+@TITLEPAGE:	DI BENEDETTO / PALLAVICINO / SERVITORE DEL SERENISSIMO SIGNOR DVCA / Di Mantoua, & di Monferrato. / Il Primo Libro de Madrigali à Sei Voci. / Nouamente composti & dati in luce. / In Venetia, Presso Giacomo Vincenzi. / M. D. LXXXVII.
 @TITLESHORT:	Il primo libro de madrigali a sei voci
 @PUBLISHER:	Vincenti
 @YEAR:	1587
@@ -5004,11 +5246,32 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Signor Duca di Mantoua, & di Monferrato
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	B
+@EXTNAMES:	B
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b8470190r/f2.image
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	P 783
+@AUTHOR:	Pallavicino, Benedetto
+@TITLEPAGE:	
+@TITLESHORT:	Il primo libro de madrigali a sei voci. Novamente ristampati et corretti
+@PUBLISHER:	Vincenti
+@YEAR:	1603
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Vinegia
+@PUBNORMLOC:	Venice
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -5026,6 +5289,7 @@
 @SRCDEDICATEE:	Alessandro Bevilacqua
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U028/
@@ -5034,7 +5298,7 @@
 @@BEGIN: SOURCE
 @RISM:	P 1137
 @AUTHOR:	Peetrinus, Jacobus
-@TITLEPAGE:	
+@TITLEPAGE:	DI IACOBO PEETRINO / DE MALINES / IL PRIMO LIBRO DE MADRIGALI A QVATRO VOCI / Nouamente composti, & dati in luce. / In Venetia Appresso Angelo Gardano / M D LXXXIII.
 @TITLESHORT:	Il primo libro de madrigali a quattro voci
 @PUBLISHER:	Gardano
 @YEAR:	1583
@@ -5042,18 +5306,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Conte de Bossu
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
+@SRCLOCSIGLA:	I-Vnm
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 1537
 @AUTHOR:	Pesciolini, Biagio
-@TITLEPAGE:	
+@TITLEPAGE:	IL TERZZO LIBRO / DE MADRIGALI A SEI VOCI DI M. / BIASIO PESCIOLINI DA PRATO CANONICO / & Maestro di Capella nella CHiesa Principale Nouamente posti in Luce. / IN VENETIA, / Appresso Alessandro Gardane. / M D LXXXI.
 @TITLESHORT:	Il terzo libro de madrigali a sei voci
 @PUBLISHER:	Gardane
 @YEAR:	1581
@@ -5061,18 +5326,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Ferdinando Medici Principe, e Cardinale di Santa Chiesa
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 1927
 @AUTHOR:	Philips, Peter
-@TITLEPAGE:	
+@TITLEPAGE:	DI PIETRO PHILIPPI / INGLESE / ORGANISTA DELLI SERENISS. / PRENCIPI ALBERTO ET ISABELLA / ARCHIDUCHI D'AVSTRIA &c. / Il Secondo Libro / DE MADRIGALI A SEI VOCI / </>Nouamente Composto & dato in luce / IN ANVERSA. / Appresso Pietro Phalesio MDCIII. 
 @TITLESHORT:	Il secondo libro de madrigali a sei voci
 @PUBLISHER:	Phalesio
 @YEAR:	1603
@@ -5080,18 +5346,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Anversa
 @PUBNORMLOC:	Antwerp
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Principi Alberto et Isabella Duchi d'Austria, di Borgogna
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b84469197.r=philips%20madrigali?rk=42918;4
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 2230
 @AUTHOR:	Piccioni, Giovanni
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIO. PICCIONI / ORGANISTA DEL DOMO / D'ORVIETO / IL QVARTO LIBRO / De Madrigali à Cinque Voci. / Nouamente Composto & dato in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXXVI.
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1596
@@ -5099,11 +5366,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Vespasiano Avveduti
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
@@ -5121,6 +5389,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -5129,7 +5398,7 @@
 @@BEGIN: SOURCE
 @RISM:	P 5104
 @AUTHOR:	Pordenon, Marco Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	IL QUARTO LIBRO / DE MADRIGALI DI MARC' ANTONIO / PORDENON PADOVANO. / Nouamente composte & dati in Luce. / A CINQUE VOCI / In Venetia Apresso li Figliuoli / di Antonio Gardano. / 1573
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Figlioli di Gardano
 @YEAR:	1573
@@ -5137,18 +5406,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Francesco Grimaldi
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-VEaf
+@REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 5106
 @AUTHOR:	Pordenon, Marco Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	DI MARC' ANTONIO PORDENON / IL PRIMO LIBRO DE MADRIGALI / A QUATTRO VOCI NOVAMENTE / Composti, & dati in luce. / In Venetia Appresso Angelo Gardano / MDLXXX
 @TITLESHORT:	Il primo libro de madrigali a quattro voci
 @PUBLISHER:	Gardano
 @YEAR:	1580
@@ -5156,18 +5426,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Accademia Olimpica di Vicenza
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CAB
+@EXTNAMES:	C,A,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U076/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 5189
 @AUTHOR:	Porta, Costanzo
-@TITLEPAGE:	
+@TITLEPAGE:	DI COSTANTIO PORTA / IL TERZO LIBRO DE MADRIGALI A CINQUE / VOCI NOVAMENTE COMPOSTI ET DATI IN LVCE. / A CINQUE VOCI / In Venetia Apresso li Flgliuoli / di Antonio Gardano. / 1573
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Figliuoli di A. Gardano
 @YEAR:	1573
@@ -5175,12 +5446,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Ercole Cattabene, Canonico di S. Pietro di Roma
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7799
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5197,6 +5469,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -5216,6 +5489,7 @@
 @SRCDEDICATEE:	Ferdinand II, Holy Roman Emperor http://www.treccani.it/enciclopedia/ferdinando-ii-d-asburgo-imperatore/
 @OPARTBOOKS:	CATBBc?
 @EXTPARTBOOKS:	AT
+@EXTNAMES:	A,T
 @SRCLOCSIGLA:	S-Uu
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
@@ -5235,6 +5509,7 @@
 @SRCDEDICATEE:	Sig. Gio. Maria Pantaleoni Balli d'Ancona
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/resource/ihas.200196636.0/?sp=1
@@ -5252,17 +5527,18 @@
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CB
+@EXTNAMES:	C,B
+@SRCLOCSIGLA:	GB-Lbm (C); US-LAur (B)
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 5429
 @AUTHOR:	Preti, Alfonso
-@TITLEPAGE:	
+@TITLEPAGE:	DI ALFONSO PRETI / IL PRIMO LIBRO / DE MADRIGALI / A Cinque Voci. / Nouamente Composti, & dati in luce. / In Venetia Appresso Angelo Gardano / M. D. LXXXVII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1587
@@ -5270,11 +5546,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Duca di Mantova
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-As
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -5282,7 +5559,7 @@
 @RISM:	P 5480
 @AUTHOR:	Priuli, Giovanni
 @TITLEPAGE:	
-@TITLESHORT:	Il primo libro de madrigali a cinque voci novamente posto in luce
+@TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Angelo Gardano
 @YEAR:	1604
 @PUBTYPE:	single-author
@@ -5292,6 +5569,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -5300,7 +5578,7 @@
 @@BEGIN: SOURCE
 @RISM:	R 329
 @AUTHOR:	Ratti, Lorenzo
-@TITLEPAGE:	
+@TITLEPAGE:	DI LORENZO / RATTI / Nepote, e Discepolo di Vincenzo Vgolini. / IL PRIMO LIBRO / De' MADRIGALI / A CINQVE VOCI / Nouamente composti, & dati in luce. / IN VENETIA, Appresso Giacomo Vincenti. 1615.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1615
@@ -5308,11 +5586,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Cardinale Givstiniano
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	digital picture
+@REPRODUCTIONTYPE:	I-Nc
 @SRCURL:	
 @@END: SOURCE
 
@@ -5330,6 +5609,7 @@
 @SRCDEDICATEE:	Michele Montalto
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -5349,6 +5629,7 @@
 @SRCDEDICATEE:	Cardinale San Giorgio (Cinzio Aldobrandini) http://www.treccani.it/enciclopedia/cinzio-aldobrandini_(Dizionario-Biografico)
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ATB
+@EXTNAMES:	A,T,B
 @SRCLOCSIGLA:	B-Gu
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	https://lib.ugent.be/nl/catalog?q=ricci%2C+cesarina
@@ -5368,6 +5649,7 @@
 @SRCDEDICATEE:	Benedetto Giustiniano, del quondam Bernardo Giustiniani de' Signori di Scio
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	V
+@EXTNAMES:	V
 @SRCLOCSIGLA:	I-Nc
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -5376,7 +5658,7 @@
 @@BEGIN: SOURCE
 @RISM:	R 2759
 @AUTHOR:	Rossi, Salomone
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI A QVATTRO VOCI / DI SALAMON ROSSI HEBREO / con il basso continuo, & vn Diaologo a 8. / nouamente posti in luce. / OPERA NONA. / IN VENETIA 1614. / Appresso Ricciardo Amadino. 
 @TITLESHORT:	Il primo libro de madrigali a quattro voci con il basso continuo
 @PUBLISHER:	Amadino
 @YEAR:	1614
@@ -5384,18 +5666,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Alfonso d'Este, Perncipe di Modona
+@OPARTBOOKS:	CATBbc
+@EXTPARTBOOKS:	CATBbc
+@EXTNAMES:	C,A,T,B,Bc
+@SRCLOCSIGLA:	I-VEaf
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	2781
 @AUTHOR:	Rota, Adriano de la
-@TITLEPAGE:	
+@TITLEPAGE:	DI ADRIANO / DE LA ROTA / IL PRIMO LIBRO DE MADRIGALI / A CINQVE VOCI, / Nouamente Composto, & dato in luce. / IN VENETIA, / Appresso Giacomo Vincenti. 1600.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1600
@@ -5403,10 +5686,11 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
+@SRCDEDICATEE:	Tiberio d'Ugno
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CB
+@EXTNAMES:	C,B
+@SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -5425,6 +5709,7 @@
 @SRCDEDICATEE:	Don Alfonso II
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://loc.gov/item/ihas.200196641
@@ -5444,6 +5729,7 @@
 @SRCDEDICATEE:	Duca di Mantova e Monferrato
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-VEacp
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -5451,8 +5737,8 @@
 
 @@BEGIN: SOURCE
 @RISM:	R 3039
-@AUTHOR:	Rubini, Niccolo
-@TITLEPAGE:	
+@AUTHOR:	Rubini, Niccolò
+@TITLEPAGE:	MADRIGALI / A CINQVE VOCI. / DI NICOLO RVBINI. / CON IL BASSO SEGVITO / Per seruire alla Thiorba, Apricordo, & simili / stromenti a beneplacito. / Ma necessaria- / mente per li sei ultimi. / STAMPA DEL GARDANO / IN VENETIA MDCXV. / Appresso Bartholomeo Magni.
 @TITLESHORT:	Madrigali a cinque voci
 @PUBLISHER:	appresso B. Magni
 @YEAR:	1615
@@ -5460,18 +5746,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Antonio Salvatico
 @OPARTBOOKS:	CATBVbc
 @EXTPARTBOOKS:	AB
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@EXTNAMES:	A,B,Bc
+@SRCLOCSIGLA:	I-Vnm (A); I-Bc (B)
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	R 3087
 @AUTHOR:	Ruffolo, Lucretio
-@TITLEPAGE:	
+@TITLEPAGE:	DI LVCRETIO RVFFVLO / IL PRIMO LIBRO / DI MADRIGALI / A Cinque Voci. / Nouamente Composti, & dati in luce. / IN VENETIA, / Appresso Giacomo Vincenti. 1598.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1598
@@ -5482,6 +5769,7 @@
 @SRCDEDICATEE:	Ferrando Gonzaga, Principe di Molfetta, e Signor di Guastalla
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -5490,7 +5778,7 @@
 @@BEGIN: SOURCE
 @RISM:	S 11
 @AUTHOR:	Sabbatini, Galeazzo
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / DI GALEAZZO / DE SABBATINI / DA PESARO. / Concertati à due, tre, e quattro voci. / OPERA PRIMA. / Nouamente composta, & data in luce. / CON PRIVILEGIO. / In Venetia, Appresso Alessandro Vincenti. 1625.
 @TITLESHORT:	Il primo libro de madrigali concertati a due, tre, e quattro voci: opera prima
 @PUBLISHER:	Vincenti
 @YEAR:	1625
@@ -5498,9 +5786,10 @@
 @PUBFORMAT:	
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
+@SRCDEDICATEE:	Fabio Barignani
+@OPARTBOOKS:	C1,C2,T,B,bc
+@EXTPARTBOOKS:	C1,T,B,bc
+@EXTNAMES:	C1,T,B,Bc
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB279/
@@ -5509,7 +5798,7 @@
 @@BEGIN: SOURCE
 @RISM:	S 50
 @AUTHOR:	Sabino, Giovanni Francesco; Sabino, Ippolito
-@TITLEPAGE:	
+@TITLEPAGE:	IDI IPPOLITO / SABINO / IL QVINTO LIBRO DE MADRIGALI / à Cinque, & à Sei Voci, nouamente / composti, & dati in luce. / IN VENETIA, / Presso Giacomo VINCENZI, & Ricciardo Amadino, compagni. / MDLXXXVI.
 @TITLESHORT:	Il quinto libro de madrigali a cinque et sei voci
 @PUBLISHER:	Vincenti et Amadino
 @YEAR:	1586
@@ -5517,30 +5806,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	S 50
-@AUTHOR:	Sabino, Ippolito
-@TITLEPAGE:	
-@TITLESHORT:	Il sesto libro de madrigali a cinque et sei voci
-@PUBLISHER:	Vincenti et Amadino
-@YEAR:	1588
-@PUBTYPE:	single-auhor
-@PUBFORMAT:	part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Alessandro Catinario Lignano
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Moe
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -5558,7 +5829,8 @@
 @SRCDEDICATEE:	Francesco Maria di Somma
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
-@SRCLOCSIGLA:	F-Pbn
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://gallica.bnf.fr/ark:/12148/btv1b84490674.r=crescentio%20salzilli?rk=21459;2
 @@END: SOURCE
@@ -5577,6 +5849,7 @@
 @SRCDEDICATEE:	Benedetto Todeschini
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	ATV
+@EXTNAMES:	A,T,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB308/
@@ -5585,7 +5858,7 @@
 @@BEGIN: SOURCE
 @RISM:	S 1081
 @AUTHOR:	Sartorius, Paul
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI A CINQVE VOCI / DI PAOLO SARTORIO ORGANISTA DEL SERENISS. / PRENCIPE MASSIMILIANO ARCIDVCA D'AVSTRIA, &c. / LIBRO PRIMO / NOVAMENTE COMPOSTO, ET DATO IN LVCE. / In Venetia, Appresso Angelo Gardano. / 1600.
 @TITLESHORT:	Madrigali a cinque voci. Libro primo
 @PUBLISHER:	Gardano
 @YEAR:	1600
@@ -5593,11 +5866,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Marquardo, libero Barone di Ech, et Ungherspach
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -5612,18 +5886,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venigia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Ottaviano Scotto, Cavaliero di S. Stefano, Recevitor di Lombardia et Piamonte
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	AT
+@EXTNAMES:	A,T
+@SRCLOCSIGLA:	I-Vnm
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	S 2450
 @AUTHOR:	Schuyt, Cornelis
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI / DI CORNELIO SCHVYT / HOLLANDESE / Organista della famosa Citta di Leyda, / IN LEYDA, / Nella Stampa del Plantino, / APRESSO CHRISTOFORO RAFELENGIO, / MDC.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Rafelengio
 @YEAR:	1600
@@ -5631,18 +5906,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Leyda
 @PUBNORMLOC:	Leiden
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signori il Pretore Consuli et Senato della fam. Citta di Leyda
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	S 2542
 @AUTHOR:	Schuyt, Cornelis
-@TITLEPAGE:	
+@TITLEPAGE:	Hymeneo, overo Madrigali nuptiali. Et Altri amorosi à 6 voci. Con un Echo à doppio à dodici di Cornelio Schuyt Hollandese Organista / In Leyda nella stampa de' Rafelengi 1611.
 @TITLESHORT:	Hymeneo
 @PUBLISHER:	Raphelingen
 @YEAR:	1611
@@ -5651,9 +5927,10 @@
 @PUBLOC:	Leyda
 @PUBNORMLOC:	Leiden
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -5661,7 +5938,7 @@
 @@BEGIN: SOURCE
 @RISM:	S 2631
 @AUTHOR:	Scozzese, Agostino
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI, / <i> DI DON AGOSTINO SCOZZESE DI LECCIO</i> / <i>Nouamente composti, & dati in luce.</i> / IN VENETIA / Presso Giacomo Vincenzi, & Ricciardo Amadino, compagni, / M D LXXXIIII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti et Amadino
 @YEAR:	1584
@@ -5669,18 +5946,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Cesare Labini, Sindico, & padre universale della nobile Città di Bitonte.
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	S-Uu
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	N 53
 @AUTHOR:	Serafico, Benedetto
-@TITLEPAGE:	
+@TITLEPAGE:	DI BENEDETTO SERAPHICO / DI NARDÒ / <i>IL TERZO LIBRO DI MADRIGALI</> / </> A CINQVE ET A SEI VOCI</> / <i> Con un Dialogo à diece</> / NOVAMENTE POSTI IN LVCE. / <i>IN VINEGGIA</> / <i> Appresso l'Herede di Girolamo Scotto.</i> / <i> M D LXXXI</>
 @TITLESHORT:	Il terzo libro de madrigali a cinque et a sei voci
 @PUBLISHER:	Herede di G. Scotto
 @YEAR:	1581
@@ -5688,18 +5966,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Vineggia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Francesco Gran Duca di Firenze
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	V
+@EXTNAMES:	V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U198/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	S 4048
 @AUTHOR:	Spano, Donato Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	DI / DONATO SPANO / OR / DISCEPOLO DEL S. GIOVANNI / De Macque Maestro della Regia / Cappella di Napoli. / <i>IL PRIMO LIBRO DE</> / <i> Madrigaletti Ariosi, & Villa-</i> nelle à quattro voci.</> / IN NAPOLI, / Nella Stampa di Gio. Battista Sottile, / Per Scipione Bonino. 1607. / Con licenza de' Superiori.
 @TITLESHORT:	Il primo libro de madrigaletti ariosi e villanelle a quattro voci
 @PUBLISHER:	Sottile
 @YEAR:	1607
@@ -5707,11 +5986,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Napoli
 @PUBNORMLOC:	Naples
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Monsignor Federico Metio Vescovo di Termoli
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	AT
+@EXTNAMES:	A,T
+@SRCLOCSIGLA:	I-Nn (A); I-Rsc (T)
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -5729,6 +6009,7 @@
 @SRCDEDICATEE:	Giovanni Battista Coppola
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB344/
@@ -5748,6 +6029,7 @@
 @SRCDEDICATEE:	Francesco Canobio
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U215/
@@ -5756,7 +6038,7 @@
 @@BEGIN: SOURCE
 @RISM:	1585-16
 @AUTHOR:	Spontone, Bartolomeo, etc.
-@TITLEPAGE:	
+@TITLEPAGE:	DE FLORIDI / VIRTUOSI / D'ITALIA: / IL SECONDO LIBRO DE MADRIGALI / à Cinque Voci, Nouamente composti, / & dati in luce. / <i>CON PRIVILEGGIO.</i> / IN VENETIA / Presso Giacomo Vincenzi, & Ricciardo Amadino, compagni: / MD LXXXV.
 @TITLESHORT:	De floridi virtuosi d’italia il secondo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti e Amadino
 @YEAR:	1585
@@ -5764,12 +6046,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Monsignor Mesin Forno, Dignissimo Canonico di Modona
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R240/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5786,6 +6069,7 @@
 @SRCDEDICATEE:	Hercole Bottrigaro
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/0005/bsb00051776/images/
@@ -5805,6 +6089,7 @@
 @SRCDEDICATEE:	Filippo Musitti
 @OPARTBOOKS:	[score]
 @EXTPARTBOOKS:	[score]
+@EXTNAMES:	
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V137/
@@ -5813,7 +6098,7 @@
 @@BEGIN: SOURCE
 @RISM:	S 6444
 @AUTHOR:	Stivori, Francesco
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A CINQVE VOCI. / DI FRANCESCO STIVORI / Organista dlle Magnifica Communità / di Montagnana, / <i>Nouamnete composti, & dati in luce.</> / IN VENETIA / Preso Giacomo Vincenzi, & Ricciardo Amadino, compagni. / M D LXXXV.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenci et Amadino
 @YEAR:	1585
@@ -5821,18 +6106,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Conte Alessandro Bevilacqua
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CTV
+@EXTNAMES:	C,T,V
+@SRCLOCSIGLA:	A-Wn
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	S 6450
 @AUTHOR:	Stivori, Francesco
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / E DIALOGHI / A OTTO VOCI, / Per cantar, & concertar con ogni sorte / de istrumenti. / DI FRANCESCO STIVORIO ORGANISTA / dell Magnifica Communità di Montagnana. / noumante composti, & dati in luce. / PRIMO CHORO. / IN VENETIA, appresso RIcciardo Amadino. / M D XCVIII.
 @TITLESHORT:	Madrigali e dialoghi a otto voci
 @PUBLISHER:	Amadino
 @YEAR:	1598
@@ -5840,18 +6126,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Signor Giulio Verita
+@OPARTBOOKS:	C1,C2,A1,A2,T1,T2,B1,B2
+@EXTPARTBOOKS:	C1,C2,A1,A2,T1,T2,B1,B2
+@EXTNAMES:	C1,C2,A1,A2,T1,T2,B1,B2
+@SRCLOCSIGLA:	GB-Lbm (C2,A1,A2,T1,B1,B2); I-VEaf (C1,T2)
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	S 6972
 @AUTHOR:	Striggio, Alessandro
-@TITLEPAGE:	
+@TITLEPAGE:	IL TERZO LIBRO / DE MADRIGALI / A CINQVE VOCI / Del Sig. Alessandro Striggio Gentil'huomo / Mantouano, / Nouamente posto in luce. / CON PRIVILEGIO. / In Venetia Appresso Angelo Gardano. / M.D> LXXXXVI.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Angelo Gardano
 @YEAR:	1596
@@ -5862,7 +6149,28 @@
 @SRCDEDICATEE:	Vincenzo Gonzaga
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	T
+@EXTNAMES:	T
 @SRCLOCSIGLA:	I-Vnm
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	S 6973
+@AUTHOR:	Striggio, Alessandro
+@TITLEPAGE:	IL QVARTO LIBRO / DE MADRIGALI / A CINQVE VOCI / Del Sig. Alessandro Striggio Gentil'huomo / Mantouano, / Nouamente posto in luce. / CON PRIVILEGIO. / In Venetia Appresso Angelo Gardano. / M.D> LXXXXVI.
+@TITLESHORT:	Il quarto libro de madrigali a cinque voci
+@PUBLISHER:	Angelo Gardano
+@YEAR:	1596
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Signor Duca di Ferrara
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Moe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
@@ -5881,6 +6189,7 @@
 @SRCDEDICATEE:	none (princeps edition lost)
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/CC/CC011/
@@ -5900,6 +6209,7 @@
 @SRCDEDICATEE:	Riccardi Benedetti Riccardi
 @OPARTBOOKS:	C ? ? ?
 @EXTPARTBOOKS:	C
+@EXTNAMES:	C
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
@@ -5919,6 +6229,7 @@
 @SRCDEDICATEE:	Camillo Pavese
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U246/
@@ -5927,7 +6238,7 @@
 @@BEGIN: SOURCE
 @RISM:	T 1170
 @AUTHOR:	Tresti, Flaminio
-@TITLEPAGE:	
+@TITLEPAGE:	IL SECONDO LIBRO / DE MADRIGALI A CINQVE VOCI / DI FLAMINIO TRESTI DA LODI, / Nouamente Composto, & dato in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXVII.
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1587
@@ -5935,11 +6246,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Giovanni Carlo Lercari
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -5957,6 +6269,7 @@
 @SRCDEDICATEE:	Vincenzo Gonzaga
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	TBV
+@EXTNAMES:	T,B,V
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -5965,7 +6278,7 @@
 @@BEGIN: SOURCE
 @RISM:	T 1175
 @AUTHOR:	Tresti, Flaminio
-@TITLEPAGE:	
+@TITLEPAGE:	Il QVARTO LIBRO / DE MADRIGALI A CINQVE VOCI / DI FLAMINIO TRESTI DA LODI, / Nouamente Composto, & dato in luce. / In Venetia Appresso Angelo Gardano. / M. D. LXXXVI.
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1596
@@ -5973,18 +6286,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Francesco Pontiroli
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	T 2747
 @AUTHOR:	Tresti, Flaminio
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI A CINQVE VOCI / DI FLAMINIO TRESTI DA LODI, / Nouamente posti in luce. / In Venetia Appresso Angelo Gardano / M. D. LXXXV.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1585
@@ -5992,11 +6306,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Ranuccio Farnese
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -6014,6 +6329,7 @@
 @SRCDEDICATEE:	Gran Duchessa di Toscana
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://repository.royalholloway.ac.uk/items/1891f4c7-9f4c-f795-4ec3-c50c6cf556e3/1/treenav.jsp?tempwn.b=close
@@ -6033,6 +6349,7 @@
 @SRCDEDICATEE:	Emilio Bolognini
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6041,7 +6358,7 @@
 @@BEGIN: SOURCE
 @RISM:	T 1274
 @AUTHOR:	Trombetti, Ascanio
-@TITLEPAGE:	
+@TITLEPAGE:	DI ASCANIO TROMBETTI / MVSICO DELLA LLVSTRISS. / SIGNORIA DI BOLOGNA: / IL PRIMO LIBRO DE MADRIGALI / A CINQVE VOCI / Nouamente composto, & dato in luce. / In venetia Appresso Angelo Gardano / MDLXXXIII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1583
@@ -6049,11 +6366,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Lorenzo Campeggi
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	ATBV
+@EXTNAMES:	A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -6071,6 +6389,7 @@
 @SRCDEDICATEE:	Cosimo II (Gran Duca di Toscana)
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6090,6 +6409,7 @@
 @SRCDEDICATEE:	Cardinale Montalto
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6109,6 +6429,7 @@
 @SRCDEDICATEE:	Mario Bevilacqua
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6117,7 +6438,7 @@
 @@BEGIN: SOURCE
 @RISM:	V 1040
 @AUTHOR:	Vecchi, Orazio
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / A SEI VOCI / D'HORATIO VECCHI / Nouamente stampati. / LIBRO PRIMO. / In Venetia Appresso Angelo Gardano. / M D LXXXIII.
 @TITLESHORT:	Madrigali a sei voci d'horatio vecchi. Libro primo
 @PUBLISHER:	Gardano
 @YEAR:	1583
@@ -6125,10 +6446,11 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
+@SRCDEDICATEE:	Sig. Alberto Radzivil Duca in Olica
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -6147,6 +6469,7 @@
 @SRCDEDICATEE:	Sebastiano Zammetti
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	A
+@EXTNAMES:	A
 @SRCLOCSIGLA:	F-Pc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6166,6 +6489,7 @@
 @SRCDEDICATEE:	Caterina Burlamacchi de Bernardini
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6174,24 +6498,26 @@
 @@BEGIN: SOURCE
 @RISM:	V 1089
 @AUTHOR:	Veggio, Giovanni Agostino
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIO.AGOSTINO VEGIO / Musico dell'Illustrissimo & Eccellentissimo / Sig. Duca di Parma, & Piacenza. / IL PRIMO LIBRO DE MADRIGALI / A CINQUE VOCI. / Novamente da lui posti in luce. / A CINQUE VOCI. / IN PARMA, Appresso Seth Viott. / MDLXXIIII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Viotto
 @YEAR:	1574
-@PUBTYPE:	
-@PUBFORMAT:	
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
 @PUBLOC:	Parma
 @PUBNORMLOC:	Parma
 @SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-VEcap
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	V 1190
+@ Note: Use to be V 1190, but it is likely V 1090 (need to check).
+@RISM:	V 1090
 @AUTHOR:	Venturi del Nibbio, Stefano
 @TITLEPAGE:	
 @TITLESHORT:	Di Stefano Venturi Del Nibbio il primo libro de madrigali a cinque voci. Novamente posto in luce
@@ -6204,6 +6530,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lwa
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6212,7 +6539,7 @@
 @@BEGIN: SOURCE
 @RISM:	1601-05
 @AUTHOR:	Verdonck, Cornelis, etc.
-@TITLEPAGE:	
+@TITLEPAGE:	GHIRLANDA / DI MADRIGALI / A SEI VOCI, DI DIVERSI ECCELLENTISSIMI / AVTORI DE NOSTRI TEMPI. / Raccolta di Giardini di Fiori odoriferi Musciali. / NVOVAMENTE POSTA IN LVCE. / CANTO. IN ANVERSA. / Appresso Pietro Phalesio. / M. D. CI.
 @TITLESHORT:	Ghirlanda di madrigali a sei voci
 @PUBLISHER:	Phalesio
 @YEAR:	1601
@@ -6220,18 +6547,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Anversa
 @PUBNORMLOC:	Antwerp
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Giovanni le Blon
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	V 1242
 @AUTHOR:	Verdonck, Cornelis
-@TITLEPAGE:	
+@TITLEPAGE:	DI CORNELIO / VERDONCH / MADRIGALI A SEI VOCI / NOVAMENTE POSTI IN LVCE / Con la Tauola nel fine & gli Autori delle parole. / IN ANVERSA. / Appresso Pietro Phalesio. / MDCIII.
 @TITLESHORT:	Madrigali a sei voci
 @PUBLISHER:	Phalesio
 @YEAR:	1603
@@ -6239,151 +6567,19 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Anversa
 @PUBNORMLOC:	Antwerp
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	1594-17
-@AUTHOR:	Verso, Antonio il
-@TITLEPAGE:	
-@TITLESHORT:	Il primo libro de madrigali a sei voci
-@PUBLISHER:	Vincenzi
-@YEAR:	1594
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	1601-14
-@AUTHOR:	Verso, Antonio il
-@TITLEPAGE:	
-@TITLESHORT:	Madrigali a sei voci. Libro secondo
-@PUBLISHER:	Amadino
-@YEAR:	1601
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	1607-24
-@AUTHOR:	Verso, Antonio il
-@TITLEPAGE:	
-@TITLESHORT:	Il terzo libro de madrigali a sei voci
-@PUBLISHER:	Maringo
-@YEAR:	1607
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Palermo
-@PUBNORMLOC:	Palermo
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	I 5
-@AUTHOR:	Verso, Antonio il
-@TITLEPAGE:	
-@TITLESHORT:	Il primo libro de madrigali a cinque voci
-@PUBLISHER:	Maringo
-@YEAR:	1590
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Palermo
-@PUBNORMLOC:	Palermo
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	I 8
-@AUTHOR:	Verso, Antonio il
-@TITLEPAGE:	
-@TITLESHORT:	Madrigali a cinque voci. Libro quarto
-@PUBLISHER:	Amadino
-@YEAR:	1600
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	I 10
-@AUTHOR:	Verso, Antonio il
-@TITLEPAGE:	
-@TITLESHORT:	L’ottavo libro de madrigali a cinque voci
-@PUBLISHER:	Amadino
-@YEAR:	1603
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
-@@END: SOURCE
-
-@@BEGIN: SOURCE
-@RISM:	I 11
-@AUTHOR:	Verso, Antonio il
-@TITLEPAGE:	
-@TITLESHORT:	Madrigali a tre. Libro secondo
-@PUBLISHER:	Amadino
-@YEAR:	1605
-@PUBTYPE:	single-author
-@PUBFORMAT:	part-books
-@PUBLOC:	Venetia
-@PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Giovanni de Cordes
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Rp
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	V 1484
 @AUTHOR:	Vignali, Francesco
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / IL PRIMO LIBRO / A Due, Tre, e Quattro, / DI FRANCESCO VIGNALI / DA RIVARVOLO / OPERA PRIMA / DEDICATI / All'Illustrissimo, & Eccellentissimo Signor / DVCA DI SABIONETA / PRENCIPE DI BOZZO / De Marchesi di Mantoa, Marchese di Ostiano, Conte di Pomponesco,&c. / Ambas. Ordinario per S.M.Ces. à N.S. & alla Santa Apost. Sede. / CON LICENZA DE' SVPERIORI, ET PRIVILEGIO. / IN VENETIA, / Appresso Alessandro Vincenti. MDCXXXX.
 @TITLESHORT:	Madrigali. Il primo libro a due, tre e quattro
 @PUBLISHER:	Vincenti
 @YEAR:	1640
@@ -6391,11 +6587,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
+@SRCDEDICATEE:	Duca di Sabioneta, Prencipe di Bozzo
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@EXTNAMES:	
+@SRCLOCSIGLA:	S-Uu
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -6413,6 +6610,7 @@
 @SRCDEDICATEE:	Giovanni Battista Barrattieri
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6432,6 +6630,7 @@
 @SRCDEDICATEE:	Don Antonio Londonio
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-BC (CABV); D-Mbs (T)
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U364/
@@ -6440,7 +6639,7 @@
 @@BEGIN: SOURCE
 @RISM:	V 1679
 @AUTHOR:	Vinci, Pietro
-@TITLEPAGE:	
+@TITLEPAGE:	DI PIETRO VINCI / SICILIANO DELLA / CITTÀ DI NICOSIA / Maestro di Cappella in Santa Maria maggiore di Bergamo / IL QVARTO LIBRO DE MADRIGALI / A CINQVE VOCI. / Nuouamente posti in luce. / IN VINEGGIA. / APPRESSO L'HEREDE DI GIROLAMO SCOTTO. / M D LXXIII. 
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Herede di Scotto
 @YEAR:	1573
@@ -6448,11 +6647,12 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Vineggia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCDEDICATEE:	Mons. Antonello Arcimboldi, Protonotario Apostolico, & Regio Senatore di Milano
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -6470,6 +6670,7 @@
 @SRCDEDICATEE:	Duca di Ferrara (Alfonso II)
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6489,6 +6690,7 @@
 @SRCDEDICATEE:	Don Alessandro d'Este
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6508,6 +6710,7 @@
 @SRCDEDICATEE:	Duca di Ferrara (Alfonso II)
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CABVVI
+@EXTNAMES:	C,A,B,V,VI
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6527,6 +6730,7 @@
 @SRCDEDICATEE:	Bonifatio Abbate Caetano
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://loc.gov/item/ihas.200154793
@@ -6535,20 +6739,21 @@
 @@BEGIN: SOURCE
 @RISM:	1629-10
 @AUTHOR:	Vitali, Filippo
-@TITLEPAGE:	
+@TITLEPAGE:	IL TERZO LIBRO / DE MADRIGALI / A Cinque Voci. / DI FILIPPO VITALI. / Opera Quartadecima. / STAMPA DEL GARDANO. / IN VENETIA. M. DC. XXIX.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci. Opera quartadecima
 @PUBLISHER:	Stampa del Gardano, appresso B. Magni
 @YEAR:	1629
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Alberto del Vivajo
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/CC/CC112/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6565,6 +6770,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
@@ -6584,6 +6790,7 @@
 @SRCDEDICATEE:	Matteo Di Bona
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
@@ -6600,18 +6807,19 @@
 @PUBFORMAT:	part books
 @PUBLOC:	Vineggia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	Duke Guglielmo Gonzaga of Mantua
-@OPARTBOOKS:	CATBQ
-@EXTPARTBOOKS:	CATBQ
-@SRCLOCSIGLA:	I-MOe Mus. F. 1289
-@REPRODUCTIONTYPE:	Digital
+@SRCDEDICATEE:	Serenissimo Principe di Mantova
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe 
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	W 887
 @AUTHOR:	Wert, Giaches de
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIACHES DE WERT / IL NONO LIBRO, DE MADRIGALI / A CINQVE ET SEI VOCI, / Nouamente Composto, & dato in luce. / CON PRIVILEGIO. / In Venetia Appresso Angelo Gardano. / M. D. LXXXVIII.
 @TITLESHORT:	Il nono libro de madrigali a cinque et sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1588
@@ -6619,18 +6827,19 @@
 @PUBFORMAT:	part books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Vincenzo Gonzaga, Duca di Mantova e di Monferato
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075249-8
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	W 884
 @AUTHOR:	Wert, Giaches de
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIACHES DE WERT / IL SETTIMO LIBRO DE MADRIGALI / A CINQVE VOCI, NOVAMENTE / Composto, & dato i luce. / In Venetia appresso Angelo Gardano / MDLXXXI.
 @TITLESHORT:	Il settimo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1581
@@ -6638,12 +6847,13 @@
 @PUBFORMAT:	part books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Margherita Farnese Gonzaga, Principessa di Mantova.
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U394/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6660,6 +6870,7 @@
 @SRCDEDICATEE:	Rodolfo II
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6679,6 +6890,7 @@
 @SRCDEDICATEE:	Rodolfo II
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -6698,6 +6910,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	CTB
 @EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/0009/bsb00094053/images/index.html?seite=00001&l=de
@@ -6717,13 +6930,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	Unknown
+@RISM:	Unknown 1
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Novelli amori. A tre voci. Libro primo
@@ -6736,13 +6950,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	Unknown
+@RISM:	Unknown 2
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci
@@ -6755,13 +6970,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	Unknown
+@RISM:	Unknown 3
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Terzo libro de madrigali a cinque voci
@@ -6774,13 +6990,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	Unknown
+@RISM:	Unknown 4
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
@@ -6793,13 +7010,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	Unknown
+@RISM:	Unknown 5
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
@@ -6812,13 +7030,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	
+@RISM:	Unknown 6
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Il secondo libro de madrigali a cinque voci
@@ -6831,13 +7050,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	
+@RISM:	Unknown 7
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
@@ -6850,13 +7070,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	
+@RISM:	Unknown 8
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Il settimo libro de madrigali a cinque voci
@@ -6869,13 +7090,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	
+@RISM:	Unknown 9
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Madrigali concertati a due, tre, e quattro voci: libro primo
@@ -6888,13 +7110,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	
+@RISM:	Unknown 10
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
@@ -6907,13 +7130,14 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	
+@RISM:	Unknown 11
 @AUTHOR:	
 @TITLEPAGE:	
 @TITLESHORT:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento. Novamente composti, et dati in luce
@@ -6926,6 +7150,7 @@
 @SRCDEDICATEE:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
+@EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	

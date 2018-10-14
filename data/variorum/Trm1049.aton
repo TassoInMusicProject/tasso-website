@@ -7,13 +7,13 @@
 @PAGE:		96r
 @PARATEXT:	stampa
 @VERSE:		
-        queste note son vive, e queste <del>undecifrable</del>Amore
+        queste note son {vive}, e {queste} <del>illegible</del>Amore
         comincia in novi modi
         queste note son nodi
-        che mi fa la mia donna intorno al core:
-        Anzi insieme ella et io
-        <del>e facciam</del> facciam soavi lacci, e 'l desir mio.
-        egli stringe il piacere, e la speranza.
+        che mi fa la {mia donna} intorno al core:
+        {Anzi insieme ella et io}
+        {<del>e facciam</del> facciam soavi lacci, e 'l desir mio.}
+        {egli} stringe il piacere, e la speranza.
         Tal che di libertà nulla m'avanza.
 @VERSE:		
 @@END: VARIORUM
@@ -24,9 +24,17 @@
 @ID:		Trm1049-C
 @TYPE:		music
 @PART:		Canto
-@PAGE:		
+@PAGE:		12
 @PARATEXT:	
 @VERSE:		
+        Queste notte son {noue} E {quest}'Amore
+        Comintia in noui modi
+        Queste note son nodi
+        Che mi fa la {donna mia} intorn'al core
+        {[omitted]}
+        {[omitted]}
+        {E li} stringe il piacer E la speranza
+        Tal che de liberta nulla mi auanza.
 @VERSE:		
 @@END: VARIORUM
 
@@ -36,9 +44,17 @@
 @ID:		Trm1049-T
 @TYPE:		music
 @PART:		Tenore
-@PAGE:		
+@PAGE:		12
 @PARATEXT:	
 @VERSE:		
+        Queste notte son {noue} E {quest}'Amore
+        Comintia in noui modi
+        Queste note son nodi
+        Che mi fa la {donna mia} intorn'al core
+        {[omitted]}
+        {[omitted]}
+        {E li} stringe il piacer E la speranza
+        Tal che de liberta nulla mi auanza.
 @VERSE:		
 @@END: VARIORUM
 
@@ -48,9 +64,17 @@
 @ID:		Trm1049-B
 @TYPE:		music
 @PART:		Basso
-@PAGE:		
+@PAGE:		12
 @PARATEXT:	
 @VERSE:		
+        Queste notte son {noue} E {quest}'Amore
+        Comintia in noui modi
+        Queste note son nodi
+        Che mi fa la {donna mia} intorn'al core
+        {[omitted]}
+        {[omitted]}
+        {E li} stringe il piacer E la speranza
+        Tal che de liberta nulla mi auanza.
 @VERSE:		
 @@END: VARIORUM
 
@@ -60,9 +84,18 @@
 @ID:		Trm1049-C
 @TYPE:		music
 @PART:		Canto
-@PAGE:		
+@PAGE:		1
 @PARATEXT:	
 @VERSE:		
+        Queste note son {noue} E {questo} amore
+        Comincia in noui modi
+        Queste note son nodi
+        Che mi fa la {mia Donna} intorn’al core
+        {[OMITTED]}
+        {[OMITTED]}
+        {E li} stringe il piacer e la speranza
+        Tal che di libertà nulla m’auanza.
+
 @VERSE:		
 @@END: VARIORUM
 
@@ -72,9 +105,18 @@
 @ID:		Trm1049-B
 @TYPE:		music
 @PART:		Basso
-@PAGE:		
+@PAGE:		1
 @PARATEXT:	
 @VERSE:		
+        [TACET] E {questo} amore
+        Comincia in novi modi
+        Queste note son nodi
+        Che mi fa la {mia Donna} intorn’al core
+        {[OMITTED]}
+        {[OMITTED]}
+        {E li} stringe il piacer e la speranza
+        Tal che di libertà nulla m’auanza.
+
 @VERSE:		
 @@END: VARIORUM
 

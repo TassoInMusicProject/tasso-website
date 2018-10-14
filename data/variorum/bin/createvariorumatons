@@ -154,21 +154,23 @@ sub getPartList {
 	my $rid = cleanKey($rism);
 	my $sourcehash = $SOURCES{$rid};
 
-	if ($rism eq "1605-07") {
-		return @output;
-	} elsif ($rism eq "M 664") {
-		return @output;
-	} elsif ($rism eq "1586-21") {
-		return @output;
-	} elsif ($rism eq "V 1190") {
-		return @output;
-	} elsif ($rism eq "V 2186") {
-		return @output;
-	} elsif ($rism eq "S 912") {
-		return @output;
-	} else {
+
+
+	#if ($rism eq "1605-07") {
+	#	return @output;
+	#} elsif ($rism eq "M 664") {
+	#	return @output;
+	#} elsif ($rism eq "1586-21") {
+	#	return @output;
+	#} elsif ($rism eq "V 1190") {
+	#	return @output;
+	#} elsif ($rism eq "V 2186") {
+	#	return @output;
+	#} elsif ($rism eq "S 912") {
+	#	return @output;
+	#} else {
 	die "CANNOT FIND SOURCE FOR $rism" if $sourcehash =~ /^\s*$/;
-	}
+	#}
 
 	my %s = %$sourcehash;
 

@@ -27,7 +27,6 @@
 @@   SRCDEDICATEE:     Dedicatee of the source.
 @@   OPARTBOOKS:       Original partbooks.
 @@   EXTPARTBOOKS:     Extant partbooks.
-@@   EXTNAMES:         Names of extant parts.
 @@   SRCLOCSIGLA:      Library sigla of the digital image of source.
 @@   REPRODUCTIONTYPE: Type of digital resource.
 @@   SRCURL:           Digital resource URL.
@@ -736,10 +735,10 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	B 3670
+@RISM:	1605-07
 @AUTHOR:	Borchgrevinck, Melchior etc.
-@TITLEPAGE:	GIARDINO NOVO / BELLISSIMO DI VARII / FIORI MVSICALI SCIELTISSIMI /  il Primo libro de / Madrigali A Cinque Voci /  Raccolti per Melchior Borchgrevinck Organista del / SERENISSIMO RE DI / DANEMARCA / Nouamente Stampato / NELLA CITTA REGIA COPENHAVE / Appresso Henrico Walrich l'anno del / M.D.C.V.
-@TITLESHORT:	Giardino musical. Il primo libro de madrigali a cinque voci
+@TITLEPAGE:	GIARDINO NOVO / BELLISSIMO DI VARII / FIORI MVSICALI SCIELTISSIMI /  il Primo libro de / Madrigali A Cinque Voci /  </>Raccolti per Melchior Borchgrevinck Organista del </i>/ SERENISSIMO RE DI / DANEMARCA / Nouamente Stampato / NELLA CITTA REGIA COPENHAVE / <i>Appresso Henrico Walrich l'anno del </i> / M.D.C.V.
+@TITLESHORT:	Giardino Novo. Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Waltkirch
 @YEAR:	1605
 @PUBTYPE:	anthology
@@ -3742,7 +3741,7 @@
 @TITLESHORT:	Li Pratolini di Giovampier Manenti bolognese musico del serenissimo gran duca di Toscana a cinque voci. Novamente composti et dati in luce
 @PUBLISHER:	Angelo Gardano
 @YEAR:	1586
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
@@ -3782,7 +3781,7 @@
 @TITLESHORT:	Il quinto libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1591
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
@@ -3802,7 +3801,7 @@
 @TITLESHORT:	Il settimo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1595
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
@@ -3822,7 +3821,7 @@
 @TITLESHORT:	Il secondo libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1584
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
@@ -3842,7 +3841,7 @@
 @TITLESHORT:	Il terzo libro de' madrigali a sei voci
 @PUBLISHER:	Herede di Scotto
 @YEAR:	1585
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Vinegia
 @PUBNORMLOC:	Venice
@@ -3862,7 +3861,7 @@
 @TITLESHORT:	Il quarto libro de madrigali a sei voci
 @PUBLISHER:	Vincenti
 @YEAR:	1587
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
@@ -3882,7 +3881,7 @@
 @TITLESHORT:	Il sesto libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1595
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
@@ -3902,7 +3901,7 @@
 @TITLESHORT:	Madrigali spirituali a cinque voci. Libro primo
 @PUBLISHER:	Gardano
 @YEAR:	1584
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
@@ -3922,7 +3921,7 @@
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Vincenci & Amadino
 @YEAR:	1584
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
@@ -3942,7 +3941,7 @@
 @TITLESHORT:	Il primo libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1581
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
@@ -3962,7 +3961,7 @@
 @TITLESHORT:	Madrigali a quattro voci. Libro primo
 @PUBLISHER:	Gardano
 @YEAR:	1585
-@PUBTYPE:	single-athor
+@PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
@@ -3971,6 +3970,26 @@
 @EXTPARTBOOKS:	CATB
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	A-Wn
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 664
+@AUTHOR:	Marini, Biagio
+@TITLEPAGE:	DI BIAGIO MARINI / ACCADEMICO OCCULTO / MADRIGALETTI A VNA DVE TRE / e Quatro Voci, con alcune Vilanelle per cantare nella / Chitariglia Spagnola Chitarone ò altro / simile instromento / Et con il suo Basso continuo. / <i>LIBRO QVINTO OPERA NONA.>/i> / MAESTRO DELLA MVSICA DEL SEREN>MO Signor VOLFGANGO VILLELMO Conte Palatino del / Reno, Duce di Bauiera Giuliers, Cleues, & Ber. &c. / <i> CON PRIVILEGIO.</i> / STAMPA DEL GARDANO / IN VENETIA< M. DC. XXXV. / Appresso Batolameo Magni.
+@TITLESHORT:	Madrigaletti a una, due, tre e quatro voci, con alcune villanelle. Libro quinto. Opera nona
+@PUBLISHER:	Magni
+@YEAR:	1635
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Gio. Friderico Dvca di VVirtenbergh, et Teccia
+@OPARTBOOKS:	C1C2BBc
+@EXTPARTBOOKS:	C1C2BBc
+@EXTNAMES:	C1,C2,B,Bc
+@SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
@@ -5856,6 +5875,26 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	S 912
+@AUTHOR:	Saracini, Claudio
+@TITLEPAGE:	LE TERZE / MVSICHE / DI CLAVDIO SARACINI / DETTO IL PALVSI / Nobile Senese / Per Cantar,& Sonar nel Chitarrone Arpicordo & altri stromenti. / Et nel fine il Pianto della Beata V.M. in stile recitatiuo / <i>Nouamente composte & date in luce</> / CON PRIVILEGIO. / IN VENETIA, / <i>Appresso Alessandro Vincenti. MDCXX. </i>
+@TITLESHORT:	Le terze musiche
+@PUBLISHER:	Vincenzi
+@YEAR:	1620
+@PUBTYPE:	single-auhor
+@PUBFORMAT:	score
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Cardinal Savelli, Legato a latere di Bologna
+@OPARTBOOKS:	
+@EXTPARTBOOKS:	
+@EXTNAMES:	C,Bc
+@SRCLOCSIGLA:	PL-Wru
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://imslp.org/wiki/Le_terze_Musiche_(Saracini%2C_Claudio)
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	S 1081
 @AUTHOR:	Sartorius, Paul
 @TITLEPAGE:	MADRIGALI A CINQVE VOCI / DI PAOLO SARTORIO ORGANISTA DEL SERENISS. / PRENCIPE MASSIMILIANO ARCIDVCA D'AVSTRIA, &c. / LIBRO PRIMO / NOVAMENTE COMPOSTO, ET DATO IN LVCE. / In Venetia, Appresso Angelo Gardano. / 1600.
@@ -6356,6 +6395,26 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	1586-21
+@AUTHOR:	Trombetti, Ascanio
+@TITLEPAGE:	DI ASCANIO TROMBETTI / MVSICO DELLA LLVSTRISS. / Signoria di Bologna. / IL PRIMO LIBRO DE MADRIGALI / A Quattro Voci / Nouamente Composto & dato in luce. / In venetia Appresso Angelo Gardano / M.D.LXXXVI.
+@TITLESHORT:	Il primo libro de madrigali a quattro voci
+@PUBLISHER:	Gardano
+@YEAR:	1586
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Emilio Bolognini
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	T 1274
 @AUTHOR:	Trombetti, Ascanio
 @TITLEPAGE:	DI ASCANIO TROMBETTI / MVSICO DELLA LLVSTRISS. / SIGNORIA DI BOLOGNA: / IL PRIMO LIBRO DE MADRIGALI / A CINQVE VOCI / Nouamente composto, & dato in luce. / In venetia Appresso Angelo Gardano / MDLXXXIII.
@@ -6498,7 +6557,7 @@
 @@BEGIN: SOURCE
 @RISM:	V 1089
 @AUTHOR:	Veggio, Giovanni Agostino
-@TITLEPAGE:	DI GIO.AGOSTINO VEGIO / Musico dell'Illustrissimo & Eccellentissimo / Sig. Duca di Parma, & Piacenza. / IL PRIMO LIBRO DE MADRIGALI / A CINQUE VOCI. / Novamente da lui posti in luce. / A CINQUE VOCI. / IN PARMA, Appresso Seth Viott. / MDLXXIIII.
+@TITLEPAGE:	DI GIO.AGOSTINO VEGIO / Musico dell'Illustrissimo & Eccellentissimo / Sig. Duca di Parma, & Piacenza. / IL PRIMO LIBRO DE MADRIGALI / A CINQUE VOCI. / <i>Nouamente da lui posti in luce.</i> / A CINQUE VOCI. / IN PARMA, Appresso Seth Viotto. / MDLXXIIII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Viotto
 @YEAR:	1574
@@ -6516,8 +6575,27 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@ Note: Use to be V 1190, but it is likely V 1090 (need to check).
 @RISM:	V 1090
+@AUTHOR:	Veggio, Giovanni Agostino
+@TITLEPAGE:	DI GIO.AGOSTINO VEGIO / Musico dell'Illustrissimo & Eccellentissimo / Sig. Duca di Parma, & Piacenza. / IL PRIMO LIBRO DE MADRIGALI. / A QVATTRO VOCI. / <i>Nouamente da lui posti in luce.</> / A QVATTRO VOCI. / IN PARMA, Appresso Seth Viotto. / MDLXXV.
+@TITLESHORT:	Il primo libro de madrigali a quattro voci
+@PUBLISHER:	Viotto
+@YEAR:	1575
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Parma
+@PUBNORMLOC:	Parma
+@SRCDEDICATEE:	Hercole Varano
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U399/
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	V 1190
 @AUTHOR:	Venturi del Nibbio, Stefano
 @TITLEPAGE:	
 @TITLESHORT:	Di Stefano Venturi Del Nibbio il primo libro de madrigali a cinque voci. Novamente posto in luce
@@ -6774,6 +6852,26 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	V 2186
+@AUTHOR:	Vittori, Loreto
+@TITLEPAGE:	ARIE A VOCE SOLA / DEL CAVALIER LORETO VITTORII / Musico della Cappella Pontifica. / DEDICATE  / ALLA ILL. MA ET ECCELL.MA / SIGNORA D. OLIMPIA / ALDOBRANDINI PANFILI / PRENCIPESA DI ROSANO, &c. / CON PRIVILEGIO. / IN VENETIA. Appresso Alessandro Vincenti. M. DC. XXXXIX.
+@TITLESHORT:	Arie a voce sola
+@PUBLISHER:	Vincenzi
+@YEAR:	1649
+@PUBTYPE:	single-author
+@PUBFORMAT:	score
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Signora D. Olimpia Aldobrandini Panfili Prencipesa di Rosano 
+@OPARTBOOKS:	
+@EXTPARTBOOKS:	
+@EXTNAMES:	C,Bc
+@SRCLOCSIGLA:	PL-Wru
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://imslp.org/wiki/Arie_a_voce_sola_(Vittori%2C_Loreto)
 @@END: SOURCE
 
 @@BEGIN: SOURCE

@@ -26,14 +26,22 @@ Modern renditions of other mensuration signs are derived accordingly. When mensu
 Original rhythmic values are retained in all pieces. Ligatures are spelled out and marked with continous brackets above the notes to which they refer. Coloration is typically rendered with triplets and marked with dashed brackets above the affected notes.
 
 ## **Accidentals**
-Accidentals, whether original or edtiorial, apply only to the note before or above which they are placed, with the exception of those given in the key signature. All accidentals in the principal source, including those redundant by modern practice, are reported in the edition and are placed before the note to which they refer. Sharps and flats in the principal source that are intended to cancel the opposite sign are rendered with modern naturals. Other accidentals are editorial and are placed above the note to which they refer. 
+All accidentals in the principal source are reported in the edition and are placed before the note to which they refer, even if they are redundant by modern practice (e.g., an accidental applied to multiple notes of the same pitch in a single measure). When sharps and flats in the principal source are intended to cancel the opposite sign, they are rendered with modern naturals. All other accidentals are editorial and are placed above the note to which they refer. Whether original or edtorial, accidentals other than those given in the key signature apply only to the note before or above which they are placed. 
 
 ## ** Basso Continuo**
 Basso continue figures are reported as they appear in the source and left unrealized to allow scholars and performers to craft their own renditions. The figures are placed below the staff to avoid possible overlap with the text underlay of the texted part placed above the continuo line.
 
 ## **Text Underlay**
+The text underlay in the editions follows as closely as possible that of the principal sources. For this reason, original spellings are generally retained, even when they reflect regional inflections. Likewise, following late sixteenth- and early seventeenth-century parctice, the first letter of each line of poetry is capitalized. Editorial intervention is limited to the following:
 
-## **Critical Apparatus**
+- Spellings are altered only when they may generate confusion or when they are inconsistent across parts, in which case they are normalized the more frequently occurring spelling.
+- Accents are normalized to modern Italian standards as early modern practice is not only incosistent but also potentially confusing to modern readers (e.g., the conjunction "e" is often spelled with a grave accent "è").
+- Punctuation is editorial as in the sources it is either completely missing or highly inconsistent. Textual repetitions are always separated by commas.
+- Abbreviations such as "&" are spelled.
+- The sympbol _ij_, indicating textual repetition, is resolved, with repeated text given in angled brackets (<>).  
+
+## **Critical Report**
+Bessides information about sources (full titles, dedicatees extant part-books, locations of examplars consulted, original clefs, original mensuration signs), the work pages feature a detailed critical report documenting emended readings of the principal source, whether in the music or in the text underlay, and other critical notes, such as variant readings in reprints. Emended readings and other critical notes are always given in the following format: measure, part, annotation (e.g., M. 2, T, second note is a minim). Measure numbers in the critical report are highlithed and clickable, directing the reader to the portions of the score to which the critical notes refer.
 
 ## **Commentary**
 Each edition is accompanied by a commentary that provides information about the composer, the overall style of the piece, and any distinctive features. Relationships between the piece and settings of the same poem by other composers or other Tasso settings by the same composer, when they exist, are also discussed. If the piece has been discussed by other scholars, bibliographic references to relevant articles, books, edition prefaces, etc. are provided in the body of the commentary, with hyperlinks if the cited items are available digitally.

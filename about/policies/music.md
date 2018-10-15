@@ -32,12 +32,12 @@ All accidentals in the principal source are reported in the edition and are plac
 Basso continue figures are reported as they appear in the source and left unrealized to allow scholars and performers to craft their own renditions. The figures are placed below the staff to avoid possible overlap with the text underlay of the texted part placed above the continuo line.
 
 ## **Text Underlay**
-The text underlay in the editions follows as closely as possible that of the principal sources. For this reason, original spellings are generally retained, even when they reflect regional inflections. Likewise, following late sixteenth- and early seventeenth-century parctice, the first letter of each line of poetry is capitalized. Editorial intervention is limited to the following:
+The text underlay in the editions follows as closely as possible that of the principal sources. For this reason, original spellings are generally retained, even when they reflect regional inflections. Likewise, following late sixteenth- and early seventeenth-century practice, the first letter of each line of poetry is capitalized. Editorial intervention is limited to the following:
 
 - Spellings are altered only when they may generate confusion or when they are inconsistent across parts, in which case they are normalized the more frequently occurring spelling.
 - Accents are normalized to modern Italian standards as early modern practice is not only incosistent but also potentially confusing to modern readers (e.g., the conjunction "e" is often spelled with a grave accent "è").
 - Punctuation is editorial as in the sources it is either completely missing or highly inconsistent. Textual repetitions are always separated by commas.
-- Abbreviations such as "&" are spelled.
+- Abbreviations such as "&" are spelled out.
 - The sympbol _ij_, indicating textual repetition, is resolved, with repeated text given in angled brackets (<>).  
 
 ## **Critical Report**

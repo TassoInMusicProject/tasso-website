@@ -26,12 +26,20 @@ Modern renditions of other mensuration signs are derived accordingly. When mensu
 Original rhythmic values are retained in all pieces. Ligatures are spelled out and marked with continous brackets above the notes to which they refer. Coloration is typically rendered with triplets and marked with dashed brackets above the affected notes.
 
 ## **Accidentals**
+Accidentals, whether original or edtiorial, apply only to the note before or above which they are placed, with the exception of those given in the key signature. All accidentals in the principal source, including those redundant by modern practice, are reported in the edition and are placed before the note to which they refer. Sharps and flats in the principal source that are intended to cancel the opposite sign are rendered with modern naturals. Other accidentals are editorial and are placed above the note to which they refer. 
+
+## ** Basso Continuo**
+Basso continue figures are reported as they appear in the source and left unrealized to allow scholars and performers to craft their own renditions. The figures are placed below the staff to avoid possible overlap with the text underlay of the texted part placed above the continuo line.
 
 ## **Text Underlay**
 
 ## **Critical Apparatus**
 
 ## **Commentary**
+Each edition is accompanied by a commentary that provides information about the composer, the overall style of the piece, and any distinctive features. Relationships between the piece and settings of the same poem by other composers or other Tasso settings by the same composer, when they exist, are also discussed. If the piece has been discussed by other scholars, bibliographic references to relevant articles, books, edition prefaces, etc. are provided in the body of the commentary, with hyperlinks if the cited items are available digitally.
+
+## **Other Modern Editions**
+When another modern edition of a piece exists, a bibliographic reference is provided at the bottom of the work page, with an hiperlink if the edition is available digitally.
 
 ## **Encoding/Visualization/Download**
 

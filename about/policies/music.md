@@ -28,7 +28,7 @@ Original rhythmic values are retained in all pieces. Ligatures are spelled out a
 ## **Accidentals**
 All accidentals in the principal source are reported in the edition and are placed before the note to which they refer, even if they are redundant by modern practice (e.g., an accidental applied to multiple notes of the same pitch in a single measure). When sharps and flats in the principal source are intended to cancel the opposite sign, they are rendered with modern naturals. All other accidentals are editorial and are placed above the note to which they refer. Whether original or editorial, accidentals other than those given in the key signature apply only to the note before or above which they are placed. 
 
-## ** Basso Continuo**
+## **Basso Continuo**
 Basso continue figures are reported as they appear in the source and left unrealized to allow scholars and performers to craft their own renditions. The figures are placed below the staff to avoid possible overlap with the text underlay of the texted part placed above the continuo line.
 
 ## **Text Underlay**

@@ -38,7 +38,7 @@ The text underlay in the editions follows as closely as possible that of the pri
 - Accents are normalized to modern Italian standards as early modern practice is not only incosistent but also potentially confusing to modern readers (e.g., the conjunction "e" is often spelled with a grave accent "è").
 - Punctuation is editorial as in the sources it is either completely missing or highly inconsistent. Textual repetitions are always separated by commas.
 - Abbreviations such as "&" are spelled out.
-- The sympbol _ij_, indicating textual repetition, is resolved, with repeated text given in angled brackets (<>).  
+- The symbol _ij_, indicating textual repetition, is resolved, with repeated text given in angled brackets (<>).  
 
 ## **Critical Report**
 Bessides information about sources (full titles, dedicatees extant part-books, locations of examplars consulted, original clefs, original mensuration signs), the work pages feature a detailed critical report documenting emended readings of the principal source, whether in the music or in the text underlay, and other critical notes, such as variant readings in reprints. Emended readings and other critical notes are always given in the following format: measure, part, annotation (e.g., M. 2, T, second note is a minim). Measure numbers in the critical report are highlithed and clickable, directing the reader to the portions of the score to which the critical notes refer.

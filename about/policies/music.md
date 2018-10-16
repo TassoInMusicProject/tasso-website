@@ -41,20 +41,20 @@ The text underlay in the editions follows as closely as possible that of the pri
 - The symbol _ij_, indicating textual repetition, is resolved, with repeated text given in angled brackets (<>).  
 
 ## **Critical Report**
-Besides information about sources (full titles, dedicatees extant part-books, locations of exemplars consulted, original clefs, original mensuration signs), the work pages feature a detailed critical report documenting emended readings of the principal source, whether in the music or in the text underlay, and other critical notes, such as variant readings in reprints. Emended readings and other critical notes are always given in the following format: measure, part, annotation (e.g., M. 2, T, second note is a minim). Measure numbers in the critical report are highlighted and clickable, directing the reader to the portions of the score to which the critical notes refer.
+The work page of each piece features a detailed critical report documenting emended readings of the principal source, whether in the music or in the text underlay, and other critical notes, such as variant readings in reprints. Emended readings and other critical notes are always given in the following format: measure, part, annotation (e.g., "M. 2, T, second note is a minim"). Measure numbers in the critical report are highlighted and clickable, and direct the reader to the portions of the score to which the critical notes refer.
 
 ## **Commentary**
 Each edition is accompanied by a commentary that provides information about the composer, the overall style of the piece, and any distinctive features. Relationships between the piece and settings of the same poem by other composers or other Tasso settings by the same composer, when they exist, are also discussed. If the piece has been discussed by other scholars, bibliographic references to relevant articles, books, edition prefaces, etc. are provided in the body of the commentary, with hyperlinks if the cited items are available digitally.
 
 ## **Other Modern Editions**
-When another modern edition of a piece exists, a bibliographic reference is provided at the bottom of the work page, with n hyperlink if the edition is available digitally.
+When another modern edition of a piece exists, a bibliographic reference is provided at the bottom of the work page, with a hyperlink if the edition is available digitally.
 
 ## **Encoding/Visualization/Download**
-The musical editions are encoded in Humdrum (www.humdrum.com), a non-commercial music notation software system created by David Huron of Ohio State University and further developed by Craig Sapp of Stanford’s Center for Computer Assisted Research in the Humanities. Although Humdrum is the primary data processing and archival format for the Tasso in Music Project, the editions can be viewed and downloaded in several other formats:
-- Verovio (http://www.verovio.org/index.xhtml), a scalable vector graphics (SVG) system through which users can visualize the score entirely online
+The musical editions are encoded in Humdrum (www.humdrum.com), a non-commercial music notation software system created by David Huron of Ohio State University and further developed by Craig Sapp of Stanford University’s Center for Computer Assisted Research in the Humanities. Although Humdrum is the primary data processing and archival format for the Tasso in Music Project, the editions can be viewed and downloaded in several other formats:
+- Verovio (http://www.verovio.org/index.xhtml), a scalable vector graphics (SVG) system through which users can visualize the score online.
 - PDF
-- MEI: Music Encoding Initiative XML format for music
-- MusicXML: another XML representation of music, used to transfer data entry of the musical texts from the music editor software (Finale) into the Humdrum format
-- MuseData: predecessor of MusicXML, used for generating music notation
-- MIDI: audio-file used to listen to computer-generated performances
-- MP3: converts symbolic MIDI data into audio files for a more stable website listening experience
+- MEI: Music Encoding Initiative XML format for music (http://music-encoding.org/).
+- MusicXML: another XML representation of music.
+- MuseData: predecessor of MusicXML, used for generating music notation.
+- MIDI: audio-file used to listen to computer-generated performances.
+- MP3: converts symbolic MIDI data into audio files for a more stable website listening experience.

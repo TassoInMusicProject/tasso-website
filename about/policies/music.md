@@ -50,3 +50,11 @@ Each edition is accompanied by a commentary that provides information about the 
 When another modern edition of a piece exists, a bibliographic reference is provided at the bottom of the work page, with n hyperlink if the edition is available digitally.
 
 ## **Encoding/Visualization/Download**
+The musical editions are encoded in Humdrum (www.humdrum.com), a non-commercial music notation software system created by David Huron of Ohio State University and further developed by Craig Sapp of Stanford’s Center for Computer Assisted Research in the Humanities. Although Humdrum is the primary data processing and archival format for the Tasso in Music Project, the editions can be viewed and downloaded in several other formats:
+- Verovio (http://www.verovio.org/index.xhtml), a scalable vector graphics (SVG) system through which users can visualize the score entirely online
+- PDF
+- MEI: Music Encoding Initiative XML format for music
+- MusicXML: another XML representation of music, used to transfer data entry of the musical texts from the music editor software (Finale) into the Humdrum format
+- MuseData: predecessor of MusicXML, used for generating music notation
+- MIDI: audio-file used to listen to computer-generated performances
+- MP3: converts symbolic MIDI data into audio files for a more stable website listening experience

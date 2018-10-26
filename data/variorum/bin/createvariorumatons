@@ -261,7 +261,7 @@ EOT
 
 	my $vhash = $VERSES{$catalognum};
 	my $vcount = $$vhash{"VERSE_COUNT"};
-print "VERSE COUNT: ", $vcount, "\n";
+	# print "VERSE COUNT: ", $vcount, "\n";
 	$vcount = 1 if !$vcount;
 	for (my $i=0; $i<$vcount; $i++) {
 		print VFILE "\@VERSE:		\n";

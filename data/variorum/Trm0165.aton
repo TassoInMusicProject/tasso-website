@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S93
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-T
+@ID:		Trm0165a-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-B
+@ID:		Trm0165a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-V
+@ID:		Trm0165a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-C
+@ID:		Trm0165a-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-T
+@ID:		Trm0165b-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-B
+@ID:		Trm0165b-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -229,9 +229,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-A
+@ID:		Trm0165b-Basso
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -241,9 +241,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-T
+@ID:		Trm0165b-Quinto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-V
+@ID:		Trm0165c-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -265,9 +265,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-C
+@ID:		Trm0165c-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -277,9 +277,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-A
+@ID:		Trm0165c-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-T
+@ID:		Trm0165c-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -301,9 +301,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-B
+@ID:		Trm0165c-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -313,9 +313,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-V
+@ID:		Trm0165d-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Bozi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-C
+@ID:		Trm0165d-Tenore
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Bozi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -337,9 +337,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-A
+@ID:		Trm0165d-Basso
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Bozi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -349,9 +349,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-T
+@ID:		Trm0165e-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,129 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
-@ID:		Trm0165-V
+@ID:		Trm0165e-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165e-Quinto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165f-Canto
+@TYPE:		music
+@COMPOSER:	Turco, Giovanni del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165f-Alto
+@TYPE:		music
+@COMPOSER:	Turco, Giovanni del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165f-Tenore
+@TYPE:		music
+@COMPOSER:	Turco, Giovanni del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165f-Basso
+@TYPE:		music
+@COMPOSER:	Turco, Giovanni del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165f-Quinto
+@TYPE:		music
+@COMPOSER:	Turco, Giovanni del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165g-Canto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165g-Alto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165g-Tenore
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0165
+@ID:		Trm0165g-Quinto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

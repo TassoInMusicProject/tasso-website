@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0276
-@ID:		Trm0276-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S78
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0276
-@ID:		Trm0276-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S174
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,33 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0276
-@ID:		Trm0276-V
+@ID:		Trm0276a-Alto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Bacchini, Giovanni Maria
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0276
+@ID:		Trm0276a-Tenore
+@TYPE:		music
+@COMPOSER:	Bacchini, Giovanni Maria
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0276
+@ID:		Trm0276a-Quinto
+@TYPE:		music
+@COMPOSER:	Bacchini, Giovanni Maria
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S49
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-T
+@ID:		Trm0247a-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Marenzio, Luca
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,81 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
-@ID:		Trm0247-V
+@ID:		Trm0247a-Alto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0247
+@ID:		Trm0247a-Tenore
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0247
+@ID:		Trm0247a-Basso
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0247
+@ID:		Trm0247a-Quinto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0247
+@ID:		Trm0247a-Sesto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0247
+@ID:		Trm0247b-Tenore
+@TYPE:		music
+@COMPOSER:	Mazza, Francesco
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0247
+@ID:		Trm0247b-Quinto
+@TYPE:		music
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

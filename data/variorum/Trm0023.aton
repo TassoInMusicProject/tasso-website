@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-C
+@ID:		Trm0023a-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-A
+@ID:		Trm0023a-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-T
+@ID:		Trm0023a-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-B
+@ID:		Trm0023a-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-V
+@ID:		Trm0023b-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-T
+@ID:		Trm0023b-Quinto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-C
+@ID:		Trm0023c-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-A
+@ID:		Trm0023c-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-T
+@ID:		Trm0023c-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-B
+@ID:		Trm0023c-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,81 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0023
-@ID:		Trm0023-V
+@ID:		Trm0023c-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Felis, Stefano
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0023
+@ID:		Trm0023d-Tenore
+@TYPE:		music
+@COMPOSER:	Nanino, Giovanni Bernardino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0023
+@ID:		Trm0023e-Canto
+@TYPE:		music
+@COMPOSER:	Pallavicino, Benedetto
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0023
+@ID:		Trm0023e-Alto
+@TYPE:		music
+@COMPOSER:	Pallavicino, Benedetto
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0023
+@ID:		Trm0023e-Tenore
+@TYPE:		music
+@COMPOSER:	Pallavicino, Benedetto
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0023
+@ID:		Trm0023e-Basso
+@TYPE:		music
+@COMPOSER:	Pallavicino, Benedetto
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0023
+@ID:		Trm0023e-Quinto
+@TYPE:		music
+@COMPOSER:	Pallavicino, Benedetto
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

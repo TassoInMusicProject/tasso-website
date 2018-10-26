@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S54
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S93
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
+@ID:		Trm0335a-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Croce, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-A
+@ID:		Trm0335a-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Croce, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
+@ID:		Trm0335a-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Croce, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-B
+@ID:		Trm0335b-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-V
+@ID:		Trm0335b-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
+@ID:		Trm0335b-Basso
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
+@ID:		Trm0335b-Quinto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-B
+@ID:		Trm0335c-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
+@ID:		Trm0335c-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-A
+@ID:		Trm0335c-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -229,9 +229,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
+@ID:		Trm0335c-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -241,9 +241,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-B
+@ID:		Trm0335c-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-V
+@ID:		Trm0335d-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Zenaro, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -265,9 +265,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
+@ID:		Trm0335d-Tenore
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Zenaro, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -277,9 +277,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
+@ID:		Trm0335d-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Zenaro, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
+@ID:		Trm0335e-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -301,9 +301,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-A
+@ID:		Trm0335e-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -313,9 +313,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-B
+@ID:		Trm0335e-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
+@ID:		Trm0335e-Basso
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -337,9 +337,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-A
+@ID:		Trm0335e-Quinto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -349,9 +349,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
+@ID:		Trm0335f-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Fonghetti, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-B
+@ID:		Trm0335f-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Fonghetti, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -373,9 +373,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-V
+@ID:		Trm0335g-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Malpigli, Gentile
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -385,9 +385,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-C
+@ID:		Trm0335g-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Malpigli, Gentile
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-A
+@ID:		Trm0335g-Basso
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Malpigli, Gentile
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -409,9 +409,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-T
+@ID:		Trm0335h-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Schuyt, Cornelis
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -421,9 +421,93 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
-@ID:		Trm0335-V
+@ID:		Trm0335h-Alto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Schuyt, Cornelis
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0335
+@ID:		Trm0335h-Tenore
+@TYPE:		music
+@COMPOSER:	Schuyt, Cornelis
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0335
+@ID:		Trm0335h-Basso
+@TYPE:		music
+@COMPOSER:	Schuyt, Cornelis
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0335
+@ID:		Trm0335h-Quinto
+@TYPE:		music
+@COMPOSER:	Schuyt, Cornelis
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0335
+@ID:		Trm0335i-Canto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0335
+@ID:		Trm0335i-Alto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0335
+@ID:		Trm0335i-Tenore
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0335
+@ID:		Trm0335i-Quinto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

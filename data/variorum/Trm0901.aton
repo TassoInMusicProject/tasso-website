@@ -34,9 +34,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
-@ID:		Trm0901-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -45,9 +45,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
-@ID:		Trm0901-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -56,9 +56,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
-@ID:		Trm0901-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S54
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -67,9 +67,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
-@ID:		Trm0901-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -78,9 +78,75 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
-@ID:		Trm0901-V
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0901
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0901
+@ID:		Trm0901a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0901
+@ID:		Trm0901a-Alto
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0901
+@ID:		Trm0901a-Tenore
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0901
+@ID:		Trm0901a-Basso
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0901
+@ID:		Trm0901a-Quinto
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

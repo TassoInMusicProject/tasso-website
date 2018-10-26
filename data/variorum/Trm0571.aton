@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S8
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S9
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S11
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S12
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S13
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S15
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S20
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S24
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S29
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S33
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S67
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,141 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0571
-@ID:		Trm0571-B
+@ID:		Trm0571a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Cavalieri, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571a-Alto
+@TYPE:		music
+@COMPOSER:	Cavalieri, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571a-Tenore
+@TYPE:		music
+@COMPOSER:	Cavalieri, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571a-Basso
+@TYPE:		music
+@COMPOSER:	Cavalieri, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571a-Quinto
+@TYPE:		music
+@COMPOSER:	Cavalieri, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571b-Canto
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571b-Alto
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571b-Tenore
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571b-Basso
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571b-Quinto
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571c-Canto
+@TYPE:		music
+@COMPOSER:	Il Verso, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0571
+@ID:		Trm0571c-Basso
+@TYPE:		music
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

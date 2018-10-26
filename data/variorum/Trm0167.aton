@@ -15,9 +15,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -29,9 +29,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -43,9 +43,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -57,9 +57,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -71,9 +71,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -99,9 +99,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S93
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -113,9 +113,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -127,9 +127,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -141,9 +141,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -155,9 +155,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-B
+@ID:		Trm0167a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-V
+@ID:		Trm0167a-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -183,9 +183,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-VI
+@ID:		Trm0167a-Basso
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -197,9 +197,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-VI
+@ID:		Trm0167a-Quinto
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -211,9 +211,149 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0167
-@ID:		Trm0167-IVIII
+@ID:		Trm0167b-Canto
 @TYPE:		music
-@PART:		
+@COMPOSER:	Bozi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167b-Tenore
+@TYPE:		music
+@COMPOSER:	Bozi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167b-Basso
+@TYPE:		music
+@COMPOSER:	Bozi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-Canto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-Alto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-Tenore
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-Basso
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-Quinto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-Sesto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-Sesto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0167
+@ID:		Trm0167c-
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

@@ -307,9 +307,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S8
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S9
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -343,9 +343,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S11
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S12
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -379,9 +379,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S13
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S15
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -415,9 +415,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S20
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -433,9 +433,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S24
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -451,9 +451,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S29
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -469,9 +469,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S33
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -487,9 +487,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S67
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -505,9 +505,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -523,9 +523,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -541,9 +541,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -559,9 +559,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-V
+@ID:		Trm0183a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Dalla Gostena, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -577,9 +577,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-VI
+@ID:		Trm0183a-Alto
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Dalla Gostena, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -595,9 +595,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-A
+@ID:		Trm0183a-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Dalla Gostena, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -613,9 +613,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-T
+@ID:		Trm0183a-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Dalla Gostena, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -631,9 +631,261 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
-@ID:		Trm0183-V
+@ID:		Trm0183b-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183b-Alto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183b-Tenore
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183b-Basso
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183b-Quinto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183b-Sesto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183c-Canto
+@TYPE:		music
+@COMPOSER:	Zanotti, Camillo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183c-Alto
+@TYPE:		music
+@COMPOSER:	Zanotti, Camillo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183c-Tenore
+@TYPE:		music
+@COMPOSER:	Zanotti, Camillo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183c-Basso
+@TYPE:		music
+@COMPOSER:	Zanotti, Camillo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183c-Quinto
+@TYPE:		music
+@COMPOSER:	Zanotti, Camillo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183c-Sesto
+@TYPE:		music
+@COMPOSER:	Zanotti, Camillo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183d-Alto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183d-Tenore
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0183
+@ID:		Trm0183d-Quinto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

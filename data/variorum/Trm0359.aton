@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0359
-@ID:		Trm0359-C
-@TYPE:		music
-@PART:		Canto
+@ID:		none
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,21 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0359
-@ID:		Trm0359-B
+@ID:		Trm0359a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Lambardi, Francesco
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0359
+@ID:		Trm0359a-Basso
+@TYPE:		music
+@COMPOSER:	Lambardi, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

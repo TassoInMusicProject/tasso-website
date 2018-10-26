@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-C
-@TYPE:		music
-@PART:		Canto
+@ID:		none
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-A
+@ID:		Trm0495a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-T
+@ID:		Trm0495a-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-B
+@ID:		Trm0495a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-V
+@ID:		Trm0495a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-C
+@ID:		Trm0495a-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-C
+@ID:		Trm0495b-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Cifra, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-T
+@ID:		Trm0495b-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Cifra, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,21 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0495
-@ID:		Trm0495-B
+@ID:		Trm0495b-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Cifra, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0495
+@ID:		Trm0495b-Basso
+@TYPE:		music
+@COMPOSER:	Cifra, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

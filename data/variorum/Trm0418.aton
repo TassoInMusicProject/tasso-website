@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S60
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S86
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S93
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S121
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S159bis
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-B
+@ID:		Trm0418a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Vecchi, Orazio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -229,9 +229,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-C
+@ID:		Trm0418a-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Vecchi, Orazio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -241,9 +241,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-A
+@ID:		Trm0418a-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Vecchi, Orazio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-T
+@ID:		Trm0418a-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Vecchi, Orazio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -265,9 +265,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-B
+@ID:		Trm0418a-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Vecchi, Orazio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -277,9 +277,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-V
+@ID:		Trm0418a-Sesto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Vecchi, Orazio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-C
+@ID:		Trm0418b-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Nicoletti, Filippo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -301,9 +301,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-A
+@ID:		Trm0418b-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Nicoletti, Filippo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -313,9 +313,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-T
+@ID:		Trm0418b-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Nicoletti, Filippo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-B
+@ID:		Trm0418b-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Nicoletti, Filippo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -337,9 +337,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-V
+@ID:		Trm0418b-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Nicoletti, Filippo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -349,9 +349,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-C
+@ID:		Trm0418c-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-A
+@ID:		Trm0418c-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -373,9 +373,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-T
+@ID:		Trm0418c-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -385,9 +385,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-B
+@ID:		Trm0418c-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-V
+@ID:		Trm0418d-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Eremita, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -409,9 +409,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-C
+@ID:		Trm0418d-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Eremita, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -421,9 +421,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-A
+@ID:		Trm0418d-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Eremita, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -433,9 +433,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-T
+@ID:		Trm0418d-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Eremita, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -445,9 +445,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-B
+@ID:		Trm0418d-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Eremita, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -457,9 +457,993 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
-@ID:		Trm0418-V
+@ID:		Trm0418e-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418e-Alto
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418e-Tenore
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418e-Basso
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418e-Quinto
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418f-Canto
+@TYPE:		music
+@COMPOSER:	Masnelli, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418f-Alto
+@TYPE:		music
+@COMPOSER:	Masnelli, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418f-Tenore
+@TYPE:		music
+@COMPOSER:	Masnelli, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418f-Basso
+@TYPE:		music
+@COMPOSER:	Masnelli, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418f-Quinto
+@TYPE:		music
+@COMPOSER:	Masnelli, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418g-Canto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418g-Alto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418g-Tenore
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418g-Basso
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418g-Quinto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418i-Canto
+@TYPE:		music
+@COMPOSER:	Trombetti, Ascanio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418i-Alto
+@TYPE:		music
+@COMPOSER:	Trombetti, Ascanio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418i-Tenore
+@TYPE:		music
+@COMPOSER:	Trombetti, Ascanio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418i-Basso
+@TYPE:		music
+@COMPOSER:	Trombetti, Ascanio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418j-Canto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418j-Alto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418j-Tenore
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418j-Basso
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418j-Quinto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418k-Canto
+@TYPE:		music
+@COMPOSER:	Preti, Alfonso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418k-Alto
+@TYPE:		music
+@COMPOSER:	Preti, Alfonso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418k-Tenore
+@TYPE:		music
+@COMPOSER:	Preti, Alfonso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418k-Basso
+@TYPE:		music
+@COMPOSER:	Preti, Alfonso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418k-Quinto
+@TYPE:		music
+@COMPOSER:	Preti, Alfonso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418l-Canto
+@TYPE:		music
+@COMPOSER:	Crisci, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418l-Alto
+@TYPE:		music
+@COMPOSER:	Crisci, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418l-Tenore
+@TYPE:		music
+@COMPOSER:	Crisci, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418l-Basso
+@TYPE:		music
+@COMPOSER:	Crisci, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418l-Quinto
+@TYPE:		music
+@COMPOSER:	Crisci, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418m-Canto
+@TYPE:		music
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418m-Alto
+@TYPE:		music
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418m-Tenore
+@TYPE:		music
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418m-Basso
+@TYPE:		music
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418m-Quinto
+@TYPE:		music
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418n-Canto
+@TYPE:		music
+@COMPOSER:	Graziani, Tommaso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418n-Alto
+@TYPE:		music
+@COMPOSER:	Graziani, Tommaso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418n-Tenore
+@TYPE:		music
+@COMPOSER:	Graziani, Tommaso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418n-Basso
+@TYPE:		music
+@COMPOSER:	Graziani, Tommaso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418n-Quinto
+@TYPE:		music
+@COMPOSER:	Graziani, Tommaso
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418o-Canto
+@TYPE:		music
+@COMPOSER:	Mosto, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418o-Alto
+@TYPE:		music
+@COMPOSER:	Mosto, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418o-Tenore
+@TYPE:		music
+@COMPOSER:	Mosto, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418o-Basso
+@TYPE:		music
+@COMPOSER:	Mosto, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418o-Quinto
+@TYPE:		music
+@COMPOSER:	Mosto, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418p-Canto
+@TYPE:		music
+@COMPOSER:	Cantone, Serafino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418p-Alto
+@TYPE:		music
+@COMPOSER:	Cantone, Serafino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418p-Tenore
+@TYPE:		music
+@COMPOSER:	Cantone, Serafino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418p-Basso
+@TYPE:		music
+@COMPOSER:	Cantone, Serafino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418p-Quinto
+@TYPE:		music
+@COMPOSER:	Cantone, Serafino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-Canto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-Alto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-Tenore
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-Basso
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-Quinto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-Sesto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-Sesto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418q-
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418r-Canto
+@TYPE:		music
+@COMPOSER:	Gabussi, Giulio Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418r-Alto
+@TYPE:		music
+@COMPOSER:	Gabussi, Giulio Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418r-Tenore
+@TYPE:		music
+@COMPOSER:	Gabussi, Giulio Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418r-Basso
+@TYPE:		music
+@COMPOSER:	Gabussi, Giulio Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418r-Quinto
+@TYPE:		music
+@COMPOSER:	Gabussi, Giulio Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418s-Canto
+@TYPE:		music
+@COMPOSER:	Sartorius, Paul
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418s-Alto
+@TYPE:		music
+@COMPOSER:	Sartorius, Paul
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418s-Tenore
+@TYPE:		music
+@COMPOSER:	Sartorius, Paul
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418s-Basso
+@TYPE:		music
+@COMPOSER:	Sartorius, Paul
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418t-Canto
+@TYPE:		music
+@COMPOSER:	Grabbe, Johann
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418t-Alto
+@TYPE:		music
+@COMPOSER:	Grabbe, Johann
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418t-Tenore
+@TYPE:		music
+@COMPOSER:	Grabbe, Johann
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418t-Basso
+@TYPE:		music
+@COMPOSER:	Grabbe, Johann
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418t-Quinto
+@TYPE:		music
+@COMPOSER:	Grabbe, Johann
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418u-Canto
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418u-Alto
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418u-Tenore
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418u-Basso
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418u-Quinto
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418v-Canto
+@TYPE:		music
+@COMPOSER:	Albano, Marcello
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0418
+@ID:		Trm0418v-Canto_2
+@TYPE:		music
+@COMPOSER:	Albano, Marcello
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

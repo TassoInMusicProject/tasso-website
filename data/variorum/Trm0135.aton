@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0135
-@ID:		Trm0135-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0135
-@ID:		Trm0135-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,129 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0135
-@ID:		Trm0135-V
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		S85
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		S87
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		Trm0135a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Stivori, Francesco
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		Trm0135a-Tenore
+@TYPE:		music
+@COMPOSER:	Stivori, Francesco
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0135
+@ID:		Trm0135a-Quinto
+@TYPE:		music
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

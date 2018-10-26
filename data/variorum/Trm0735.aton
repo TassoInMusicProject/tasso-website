@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S10
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S16
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S21
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S25
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S25a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S30
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S34
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S68
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,141 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
-@ID:		Trm0735-V
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Dalla Gostena, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735a-Tenore
+@TYPE:		music
+@COMPOSER:	Dalla Gostena, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735a-Basso
+@TYPE:		music
+@COMPOSER:	Dalla Gostena, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735a-Quinto
+@TYPE:		music
+@COMPOSER:	Dalla Gostena, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735b-Canto
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735b-Alto
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735b-Tenore
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735b-Basso
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0735
+@ID:		Trm0735b-Quinto
+@TYPE:		music
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

@@ -23,9 +23,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0929
-@ID:		Trm0929-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S174
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -34,9 +34,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0929
-@ID:		Trm0929-A
+@ID:		Trm0929a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Wert, Giaches de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -45,9 +45,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0929
-@ID:		Trm0929-T
+@ID:		Trm0929a-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Wert, Giaches de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -56,9 +56,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0929
-@ID:		Trm0929-B
+@ID:		Trm0929a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Wert, Giaches de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -67,9 +67,20 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0929
-@ID:		Trm0929-V
+@ID:		Trm0929a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Wert, Giaches de
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0929
+@ID:		Trm0929a-Quinto
+@TYPE:		music
+@COMPOSER:	Wert, Giaches de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

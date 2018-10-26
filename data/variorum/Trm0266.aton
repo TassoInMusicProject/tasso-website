@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
-@ID:		Trm0266-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
-@ID:		Trm0266-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
-@ID:		Trm0266-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S54
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
-@ID:		Trm0266-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,81 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
-@ID:		Trm0266-VI
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0266
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0266
+@ID:		Trm0266a-Canto
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Virchi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0266
+@ID:		Trm0266a-Alto
+@TYPE:		music
+@COMPOSER:	Virchi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0266
+@ID:		Trm0266a-Basso
+@TYPE:		music
+@COMPOSER:	Virchi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0266
+@ID:		Trm0266a-Quinto
+@TYPE:		music
+@COMPOSER:	Virchi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0266
+@ID:		Trm0266a-Sesto
+@TYPE:		music
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

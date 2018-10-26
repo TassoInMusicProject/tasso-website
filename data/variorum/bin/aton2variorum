@@ -3,19 +3,33 @@
 
 use strict;
 
-my $FILE = $ARGV[0];
+my $basedir = "../../variorum/data";
 
-die "Usage: $0 file.aton\n" if $FILE =~ /^\s*$/;
-my $BASE = $FILE;
-$BASE =~ s/\.[^.]+$//;
-$BASE =~ s/.*\///;
+`mkdir -p $basedir`;
 
-open (FILE, $FILE) or die "Cannot read $FILE\n";
-my @CONTENTS = <FILE>;
-close FILE;
-my %PARAM = getParameters(@CONTENTS);
+my $indexdir = "../indexes";
+my $manuscriptfile = "rime-manuscripts.aton";
+my $printfile      = "rime-prints.aton";
+my $versefile      = "rime-verses.aton";
+my $settingfile    = "rime-settings.aton";
+my $sourcefile     = "sources.aton";
 
-printVariorumXml();
+my %MANUSCRIPTS = getManuscripts("$indexdir/$manuscriptfile");
+my %PRINTS      = getPrints("$indexdir/$printfile");
+my %SETTINGS    = getSettings("$indexdir/$settingfile");
+my %VERSES      = getVerses("$indexdir/$versefile");
+my %SOURCES     = getSources("$indexdir/$sourcefile");
+
+my @contents = <>;
+
+my %PARAM;
+
+my $i = 0;
+while ($i < @contents) {
+	print "PROCESSING FROM LINE $i\n";
+	$i = createVariorumXml($i, @contents);
+}
+
 
 exit 0;
 
@@ -24,18 +38,219 @@ exit 0;
 
 ##############################
 ##
+## createVariorumXml --
+##
+## 
+## @@BEGIN: VARIORUM
+## @CATALOGNUM:	Trm1049
+## @ID:		E2
+## @TYPE:		manuscript
+## @SMSIGLUM:	E<sub>2</sub>
+## @PAGE:		96r
+## @PARATEXT:	stampa
+## @VERSE:		
+##         queste note son {vive}, e {queste} <del>illegible</del>Amore
+##         comincia in novi modi
+##         queste note son nodi
+##         che mi fa la {mia donna} intorno al core:
+##         {Anzi insieme ella et io}
+##         {<del>e facciam</del> facciam soavi lacci, e 'l desir mio.}
+##         {egli} stringe il piacere, e la speranza.
+##         Tal che di libertà nulla m'avanza.
+## @VERSE:		
+## @@END: VARIORUM
+##
+
+sub createVariorumXml {
+	my ($starti, @contents) = @_;
+	my $endi = @contents;
+	my $foundstart = 0;
+	
+	my %data;
+	my $key;
+	my $value;
+	for (my $i=$starti; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if (!$foundstart) {
+			if ($line =~ /^\@\@BEGIN\s*:\s*VARIORUM/) {
+				$foundstart = 1;
+				next;
+			}
+			if ($contents[$i] =~ /^\@BEGIN\s*:\s*VARIORUM/) {
+				my $ii = $i + 1;
+				die "Error at line $ii: Begin statment is not formatted correctly\n";
+			}
+		}
+		next if !$foundstart;
+		if ($line =~ /^\@\@END\s*:\s*VARIORUM/) {
+			$endi = $i+1;
+			last;
+		}
+		if ($line =~ /^\@END\s*:\s*VARIORUM/) {
+			my $ii = $i + 1;
+			die "Error at line $ii: End statment is not formatted correctly\n";
+		}
+		next if $line =~ /^\s*$/;
+		if ($line =~ /^\@([^@:\s]+)\s*:\s*(.*)\s*$/) {
+			$key = $1;
+			$value = $2;
+			if ($key !~ /^VERSE$/) {
+				$data{$key} .= " $value";
+				$data{$key} =~ s/^\s+//;
+			} else {
+				# add verse line to @VERSES
+				$data{$key} .= "\n$line";
+				$data{$key} =~ s/^\s+//;
+				$data{$key} =~ s/\s+$//;
+			}
+		} else {
+			# add line to current $key
+			if ($key !~ /^VERSE$/) {
+				$data{$key} .= " $line";
+				$data{$key} =~ s/^\s+//;
+			} else {
+				$data{$key} .= "\n$line";
+				$data{$key} =~ s/\s+$//;
+			}
+		}
+	}
+
+	return $endi if !$foundstart;
+
+	my $vtest = $data{"VERSE"};
+	$vtest =~ s/\@VERSE://g;
+	if ($vtest =~ /^\s*$/) {
+		# No verse content, so don't write a file.
+		return $endi;
+	}
+
+	# also need these parameters from index files:
+	# DATING:      MANUSCRIPT->DATING
+	# SIGLUM:      MANUSCRIPT->SIGLUM (this is the call number of manuscript)
+	# DESCRIPTION: MANUSCRIPT->DESCRIPTION
+	# MANUSCRIPT->LOCATION: Biblioteca Ambrosiana, Milan, Italy
+   #             LOCATION: Biblioteca Vaticana, Vatican City
+	# maps to these three parameters:
+	#    LIBRARY:      
+	#    LIBRARY_CITY:
+	#    LIBRARY_COUNTRY:
+	# DEDICATION: rempping of PARATEXT
+
+	my %m;
+	my @loc;
+	if ($data{"TYPE"} =~ /manuscript/i) {
+		my $mm = $MANUSCRIPTS{$data{"ID"}};
+		%m = %$mm;
+		$data{'DATING'} = $m{'DATING'};
+		$data{'CALLNUM'} = $m{'SIGLUM'};
+		$data{'DESCRIPTION'} = $m{'DESCRIPTION'};
+		@loc = split(/\s*,\s*/, $m{'LOCATION'});
+		if (@loc == 2) {
+			# MANUSCRIOT->LOCATION: Biblioteca Vaticana, Vatican City
+			$data{'LIBRARY'} = $loc[0];
+			$data{'LIBRARY_COUNTRY'} = $loc[1];
+		} elsif (@loc == 3) {
+			# MANUSCRIPT->LOCATION: Biblioteca Ambrosiana, Milan, Italy
+			$data{'LIBRARY'} = $loc[0];
+			$data{'LIBRARY_CITY'} = $loc[1];
+			$data{'LIBRARY_COUNTRY'} = $loc[2];
+		}
+	}
+	$data{'DEDICATION'} = $data{'PARATEXT'};
+
+
+	# SETTING->PRINCEPSTITLE: PRINCEPSTITLE (title of book containing first edition)
+	my %s;
+	if ($data{"TYPE"} =~ /music/i) {
+		my $sid = $data{"ID"};
+		if ($sid !~ /-/) {
+			die "Music-based ID must have a dash (followed by part abbreviation): $sid\n";
+		}
+		$sid =~ s/-.*//;
+		if ($data{"PART"} !~ /^\s*$/) {
+			$data{"ID"} = "$sid-$data{'PART'}";
+			$data{"ID"} =~ s/\s+//g;
+		}
+		my $ss = $SETTINGS{$sid};
+		%s = %$ss;
+		$data{'PRINCEPSTITLE'} = $s{'PRINCEPSTITLE'};     # title
+		$data{'COMPOSER'} = $s{'COMPOSER'};               # author@role="composer"
+		$data{'NORMPUBSHORT'} = $s{'NORMPUBSHORT'};       # publisher
+		$data{'NORMPUBSHORT'} = $s{'NORMPUBSHORT'};       # publisher
+		$data{'NORMLOC'} = $s{'NORMLOC'};                 # publisher location
+		$data{'PRINCEPSYEAR'} = $s{'PRINCEPSYEAR'};       # publication year
+		$data{'PRINCEPSRISM'} = $s{'PRINCEPSRISM'};       # idno  (RISM number)
+	}
+
+	my %p;
+	if ($data{"TYPE"} =~ /print/i) {
+		if ($data{"ID"} =~ /^\d/) {
+			# id must start with a letter, using "S":
+			$data{"ID"} = "S$data{'ID'}";
+		}
+		my $pid = $data{"ID"};
+		$pid =~ s/^S//;
+
+		my $pp = $SETTINGS{$pid};
+		%p = %$pp;
+		$data{'PRINTTITLE'} = $p{'PRINTTITLE'};     # title
+		$data{'PUBLISHER'} = $p{'PUBLISHER'};       # publisher
+		$data{'PUBLOCATION'} = $p{'PUBLOCATION'};   # pubPlace
+		$data{'PUBYEAR'} = $p{'PUBYEAR'};           # date
+	}
+
+	# VERSEDATA->TITLE: TITLE
+	# @TITLE:		Su l'ampia fronte il crespo oro lucente
+	my $vv = $VERSES{$data{'CATALOGNUM'}};
+	my %v = %$vv;
+	$data{'TITLE'} = $v{'TITLE'};
+
+	%PARAM = %data;
+	#print "PREPARING XMLDATA FOR:\n";
+	#my @keys = keys %data;
+	#foreach my $key (@keys) {
+	#	print "\t$key\t$data{$key}\n";
+	#}
+	#print "\n\n";
+
+	printVariorumXml($data{'CATALOGNUM'}, $data{'ID'});
+
+	return $endi;
+}
+
+
+
+##############################
+##
 ## printVaroirumXml -- Print the root element of the XML data.
 ##
 
 sub printVariorumXml {
-	print <<"EOT";
+	my ($catalognum, $id) = @_;
+
+	$catalognum =~ s/\s+//g;
+	if ($catalognum !~ /^Trm\d\d\d\d$/) {
+		die "Invalid catalog number: $catalognum\n";
+	}
+	$id =~ s/\s+//g;
+	if ($id =~ /^\s*$/) {
+		die "Id cannot be empty for $catalognum\n";
+	}
+
+	`mkdir -p $basedir/$catalognum`;
+	open (VFILE, ">$basedir/$catalognum/$id.xml") or die "Cannot write file";
+
+	print VFILE <<"EOT";
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="tassotei.rng" type="application/xml" schematypens="http://relaxng.orgns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 EOT
 	printTeiHeader(1);
 	printText(1);
-	print "</TEI>\n";
+	print VFILE "</TEI>\n";
+
+	close VFILE;
 
 }
 
@@ -51,9 +266,9 @@ EOT
 
 sub printTeiHeader {
 	my ($n) = @_;
-	indent($n); print "<teiHeader>\n";
+	indent($n); print VFILE "<teiHeader>\n";
 	printFileDesc($n+1);
-	indent($n); print "</teiHeader>\n";
+	indent($n); print VFILE "</teiHeader>\n";
 }
 
 
@@ -67,11 +282,11 @@ sub printTeiHeader {
 
 sub printFileDesc {
 	my ($n) = @_;
-	indent($n); print "<fileDesc>\n";
+	indent($n); print VFILE "<fileDesc>\n";
 		printTitleStmt($n+1);
 		printPublicationStmt($n+1);
 		printSourceDesc($n+1);
-	indent($n); print "</fileDesc>\n";
+	indent($n); print VFILE "</fileDesc>\n";
 }
 
 
@@ -88,14 +303,114 @@ sub printFileDesc {
 
 sub printSourceDesc {
 	my ($n) = @_;
-	indent($n); print "<sourceDesc>\n";
+	indent($n); print VFILE "<sourceDesc>\n";
 	my $type = $PARAM{"TYPE"};
 	if ($type eq "manuscript") {
 		printMsDesc($n+1);
+	} elsif ($type eq "music") {
+		printMusicDesc($n+1);
+	} elsif ($type eq "print") {
+		printPrintDesc($n+1);
 	} else {
 		die "Unknown media type: $type\n";
 	}
-	indent($n); print "</sourceDesc>\n";
+	indent($n); print VFILE "</sourceDesc>\n";
+}
+
+
+
+##############################
+##
+## printPrintDesc --
+##
+## TEI
+##    teiHeader
+##       fileDesc
+##          sourceDesc
+##            *bibl
+##
+
+sub printPrintDesc {
+	my ($n) = @_;
+	indent($n); print VFILE "<bibl xml:id=\"$PARAM{'ID'}\">\n";
+	printPrintBibl($n+1);
+	indent($n); print VFILE "</bibl>\n";
+}
+
+
+
+##############################
+##
+## printPrintBibl --
+## TEI
+##    teiHeader
+##       fileDesc
+##          sourceDesc
+##            bibl
+##              *title       <= PRINTTITLE
+##              *publisher   <= PUBLISHER
+##              *pubPlace    <= PUBLOCATION
+##              *date        <= PUBYEAR
+##              *biblScope   <= PAGE
+##
+
+sub printPrintBibl {
+	my ($n) = @_;
+	indent($n); print VFILE "<title>$PARAM{'PRINTTITLE'}</title>\n";
+	indent($n); print VFILE "<publisher>$PARAM{'PUBLISHER'}</publisher>\n";
+	indent($n); print VFILE "<pubPlace>$PARAM{'PUBLICATION'}</pubPlace>\n";
+	indent($n); print VFILE "<date when=\"$PARAM{'PUBYEAR'}\">$PARAM{'PUBYEAR'}</date>\n";
+	indent($n); print VFILE "<biblScope unit=\"page\">$PARAM{'PAGE'}</biblScope>\n";
+}
+
+
+
+##############################
+##
+## printMusicDesc --
+##
+## TEI
+##    teiHeader
+##       fileDesc
+##          sourceDesc
+##            *bibl
+##
+
+sub printMusicDesc {
+	my ($n) = @_;
+	indent($n); print VFILE "<bibl type=\"music\" xml:id=\"$PARAM{'ID'}\">\n";
+	printMusicBibl($n+1);
+	indent($n); print VFILE "</bibl>\n";
+}
+
+
+
+##############################
+##
+## printMusicBibl --
+## TEI
+##    teiHeader
+##       fileDesc
+##          sourceDesc
+##            bibl
+##              *title       <= PRINCEPSTITLE
+##              *author      <= COMPOSER
+##              *publisher   <= NORMPUBSHORT
+##              *pubPlace    <= NORMLOC
+##              *date        <= PRINCEPSYEAR
+##              *idno        <= PRINCEPSRISM
+##              *biblScope   <= PAGE
+##
+
+sub printMusicBibl {
+	my ($n) = @_;
+	indent($n); print VFILE "<title>$PARAM{'PRINCEPSTITLE'}</title>\n";
+	indent($n); print VFILE "<author role=\"composer\">$PARAM{'COMPOSER'}</author>\n";
+	indent($n); print VFILE "<publisher>$PARAM{'NORMPUBSHORT'}</publisher>\n";
+	indent($n); print VFILE "<pubPlace>$PARAM{'NORMLOC'}</pubPlace>\n";
+	indent($n); print VFILE "<date when=\"$PARAM{'PRINCEPSYEAR'}\">$PARAM{'PRINCEPSYEAR'}</date>\n";
+	indent($n); print VFILE "<idno type=\"RISM\">$PARAM{'PRINCEPSRISM'}</idno>\n";
+	indent($n); print VFILE "<biblScope unit=\"page\">$PARAM{'PAGE'}</biblScope>\n";
 }
 
 
@@ -113,11 +428,11 @@ sub printSourceDesc {
 
 sub printMsDesc {
 	my ($n) = @_;
-	indent($n); print "<msDesc xml:id=\"$BASE\">\n";
+	indent($n); print VFILE "<msDesc xml:id=\"$PARAM{'ID'}\">\n";
 	printMsIdentifier($n+1);
 	printMsContents($n+1);
 	printHistory($n+1);
-	indent($n); print "</msDesc>\n";
+	indent($n); print VFILE "</msDesc>\n";
 }
 
 
@@ -137,13 +452,13 @@ sub printMsDesc {
 
 sub printHistory {
 	my ($n) = @_;
-	my $date = $PARAM{"DATE"};
+	my $date = $PARAM{"DATING"};
 	if ($date) {
-		indent($n);   print "<history>\n";
-		indent($n+1); print "<origin>\n";
-		indent($n+1); print "<origDate>$date</origDate>\n";
-		indent($n+1); print "</origin>\n";
-		indent($n);   print "</history>\n";
+		indent($n);   print VFILE "<history>\n";
+		indent($n+1); print VFILE "<origin>\n";
+		indent($n+2); print VFILE "<origDate>$date</origDate>\n";
+		indent($n+1); print VFILE "</origin>\n";
+		indent($n);   print VFILE "</history>\n";
 	}
 }
 
@@ -163,21 +478,21 @@ sub printHistory {
 
 sub printMsContents {
 	my ($n) = @_;
-	my $folio = $PARAM{"FOLIO"};
+	my $folio = $PARAM{"PAGE"};  # used to be FOLIO but made similar to music
 	my $description = $PARAM{"DESCRIPTION"};
-	indent($n); print "<msContents>\n";
-	indent($n+1); print "<msItem>\n";
+	indent($n); print VFILE "<msContents>\n";
+	indent($n+1); print VFILE "<msItem>\n";
 	if ($folio) {
 		if ($folio !~ /^f\./i) {
 			$folio = "f. $folio";
 		}
-		indent($n+2); print "<locus>$folio</locus>\n";
+		indent($n+2); print VFILE "<locus>$folio</locus>\n";
 	}
 	if ($description) {
-		indent($n+2); print "<p>$description</p>\n";
+		indent($n+2); print VFILE "<p>$description</p>\n";
 	}
-	indent($n+1); print "</msItem>\n";
-	indent($n); print "</msContents>\n";
+	indent($n+1); print VFILE "</msItem>\n";
+	indent($n); print VFILE "</msContents>\n";
 }
 
 
@@ -198,20 +513,25 @@ sub printMsContents {
 
 sub printMsIdentifier {
 	my ($n) = @_;
-	my $library = $PARAM{"LIBRARY"};
-	my $city    = $PARAM{"LIBRARY_CITY"};
-	my $country = $PARAM{"LIBRARY_COUNTRY"};
-	indent($n); print "<msIdentifier>\n";
+	my $library  = $PARAM{"LIBRARY"};
+	my $city     = $PARAM{"LIBRARY_CITY"};
+	my $country  = $PARAM{"LIBRARY_COUNTRY"};
+	my $callnum  = $PARAM{"CALLNUM"};
+	indent($n); print VFILE "<msIdentifier>\n";
 	if ($country) {
-		indent($n+1); print "<region>$country</region>\n";
+		indent($n+1); print VFILE "<region>$country</region>\n";
 	}
 	if ($city) {
-		indent($n+1); print "<settlement>$city</settlement>\n";
+		indent($n+1); print VFILE "<settlement>$city</settlement>\n";
 	}
 	if ($library) {
-		indent($n+1); print "<repository>$library</repository>\n";
+		indent($n+1); print VFILE "<repository>$library</repository>\n";
 	}
-	indent($n); print "</msIdentifier>\n";
+	if ($callnum) {
+		indent($n+1); print VFILE "<idno>$callnum</idno>\n";
+	}
+	
+	indent($n); print VFILE "</msIdentifier>\n";
 }
 
 
@@ -229,14 +549,23 @@ sub printMsIdentifier {
 
 sub printPublicationStmt {
 	my ($n) = @_;
-	indent($n); print "<publicationStmt>\n";
-	indent($n+1); print "<publisher></publisher>\n";
-	indent($n+1); print "<availability status=\"\"></availability>\n";
+	indent($n); print VFILE "<publicationStmt>\n";
+	indent($n+1); print VFILE "<publisher></publisher>\n";
+	indent($n+1); print VFILE "<availability status=\"\"></availability>\n";
+	if ($PARAM{'TYPE'} =~ /music/i) {
+		my $pid;
+		my $voice;
+		die "Error in $PARAM{'ID'}\n" if $PARAM{"ID"} !~ /(Trm\d+[a-z])-(.*)/;
+		$pid = $1;
+		$voice = $2;
+		indent($n); print VFILE "<idno type=\"local\">$pid</idno>\n";
+		indent($n); print VFILE "<idno type=\"label\">$pid ($voice)</idno>\n";
+	}
 	my $idno = $PARAM{"SMSIGLUM"};
 	if ($idno) {
-		indent($n+1); print "<idno type=\"local\">$BASE</idno>\n";
+		indent($n+1); print VFILE "<idno type=\"local\">$PARAM{'ID'}</idno>\n";
 	}
-	indent($n); print "</publicationStmt>\n";
+	indent($n); print VFILE "</publicationStmt>\n";
 }
 
 
@@ -251,12 +580,12 @@ sub printPublicationStmt {
 
 sub printTitleStmt {
 	my ($n) = @_;
-	indent($n); print "<titleStmt>\n";
+	indent($n); print VFILE "<titleStmt>\n";
 	indent($n+1);
-	print "<title>";
-	print "TITLE GOES HERE";
-	print "</title>\n";
-	indent($n); print "</titleStmt>\n";
+	print VFILE "<title>";
+	print VFILE $PARAM{'TITLE'};
+	print VFILE "</title>\n";
+	indent($n); print VFILE "</titleStmt>\n";
 }
 
 
@@ -270,9 +599,9 @@ sub printTitleStmt {
 
 sub printText {
 	my ($n) = @_;
-	indent($n); print "<text>\n";
+	indent($n); print VFILE "<text>\n";
 	printBody($n+1);
-	indent($n); print "</text>\n";
+	indent($n); print VFILE "</text>\n";
 }
 
 
@@ -287,10 +616,10 @@ sub printText {
 
 sub printBody {
 	my ($n) = @_;
-	indent($n); print "<body xml:space=\"preserve\">\n";
+	indent($n); print VFILE "<body xml:space=\"preserve\">\n";
 	printDivDedication($n+1);
 	printDivLg($n+1);
-	indent($n); print "</body>\n";
+	indent($n); print VFILE "</body>\n";
 }
 
 
@@ -307,11 +636,9 @@ sub printBody {
 sub printDivDedication {
 	my ($n) = @_;
 	my $dedication = $PARAM{"DEDICATION"};
-	indent($n);   print "<div type=\"dedication\">\n";
-	indent($n+1); print "<p xml:id=\"p1\">$dedication</p>\n";
-	indent($n);   print "</div>\n";
-
-
+	indent($n);   print VFILE "<div type=\"dedication\">\n";
+	indent($n+1); print VFILE "<p xml:id=\"p1\">$dedication</p>\n";
+	indent($n);   print VFILE "</div>\n";
 }
 
 
@@ -330,24 +657,27 @@ sub printDivDedication {
 
 sub printDivLg {
 	my ($n) = @_;
-	indent($n);   print "<div>\n";
-	indent($n+1);   print "<lg>\n";
-	printVerses($n+2);
-	indent($n+1);   print "</lg>\n";
-	indent($n);   print "</div>\n";
+	indent($n);   print VFILE "<div>\n";
+	# indent($n+1);   print VFILE "<lg>\n";
+	printVersesX($n+1);
+	# indent($n+1);   print VFILE "</lg>\n";
+	indent($n);   print VFILE "</div>\n";
 }
+
 
 
 ##############################
 ##
-## printVerses --
+## printVersesX --
 ##
 
-sub printVerses {
+sub printVersesX {
 	my ($n) = @_;
-	my @verses = getVerses(@CONTENTS);
+	my @verses = getVersesX($PARAM{"VERSE"});
 	for (my $i=0; $i<@verses; $i++) {
-		printVerse($n, $verses[$i]);
+		indent($n);   print VFILE "<lg>\n";
+		printVerse($n+1, $verses[$i]);
+		indent($n);   print VFILE "</lg>\n";
 	}
 }
 
@@ -365,9 +695,9 @@ sub printVerse {
 	for (my $i = 0; $i<@lines; $i++) {
 		my $plusone = $i + 1;
 		indent($n);
-		print "<l xml:id=\"l$plusone\">";
+		print VFILE "<l xml:id=\"l$plusone\">";
 		$vid = printLineWithSegments($vid, $lines[$i]);
-		print "</l>\n";
+		print VFILE "</l>\n";
 	}
 }
 
@@ -386,7 +716,7 @@ sub printLineWithSegments {
 		$line =~ s/(XXXXX)/v$vid/;
 		$vid++;
 	}
-	print $line;
+	print VFILE $line;
 	return $vid;
 }
 
@@ -437,40 +767,28 @@ sub getParameters {
 
 ##############################
 ##
-## getVerses --
+## getVersesX --  
 ##
 
-sub getVerses {
-	my @contents = @_;
+sub getVersesX {
+	my ($contents) = @_;
 	my @output;
-
-	my $vstart = -1;
-	for (my $i=0; $i<@contents; $i++) {
-		if ($contents[$i] =~ /^\@\@BEGIN\s*:\s*VERSES\s*$/) {
-			$vstart = $i+1;
-			last;
-		}
-	}
-	die "Cannot find verses.\n" if $vstart < 0;
+	my @lines = split(/\n/, $contents);
 	my $counter = -1;
-	for (my $i=$vstart; $i<@contents; $i++) {
-		my $line = $contents[$i];
+	for (my $i=0; $i<@lines; $i++) {
+		my $line = $lines[$i];
 		chomp $line;
-		if ($line =~ /^\@\@END\s*:\s*VERSES\s*$/) {
-			last;
-		}
-		if ($line =~ /^\@VERSE\s*:\s*(.*)\s*$/) {
+		if ($line =~ /^\@VERSE\s*:\s*$/) {
 			$counter++;
-			my $temp = $1;
-			$temp =~ s/^\s+//;
-			$temp =~ s/\s+$//;
-			if ($temp !~ /^\s*$/) {
-				$output[$counter] .= "$1\n";
-			}
-		} elsif ($line !~ /^\s*$/) {
+		} elsif ($line =~ /^\@VERSE/) {
+			die "ERROR ON LINE $line\n";
+		} elsif ($counter >= 0) {
 			$line =~ s/^\s+//;
 			$line =~ s/\s+$//;
-			$output[$counter] .= "$line\n";
+			if ($line !~ /^\s*$/)  {
+				$output[$counter] .= "\n$line";
+				$output[$counter] =~ s/^\n//;
+			}
 		}
 	}
 
@@ -488,6 +806,317 @@ sub getVerses {
 sub indent {
 	my ($n) = @_;
 	for (my $i=0; $i<$n; $i++) {
-		print "\t";
+		print VFILE "\t";
 	}
 }
+
+
+
+
+
+
+########################################################################3
+##
+## Index loading functions
+##
+
+
+###############################
+##
+## getManuscripts -- Create a lookup index of all manuscripts.
+##
+## @@BEGIN: MANUSCRIPT
+## @SMSIGLUM: A<sub>1</sub>
+## @SIGLUM: R.96 sup.
+## @LOCATION: Biblioteca Ambrosiana, Milan, Italy
+## @DATING: 16th century
+## @DESCRIPTION: miscellaneous codex, containing copies of 6 lyric poems by Tasso
+## @@END: MANUSCRIPT
+## 
+
+sub getManuscripts {
+	my ($manuscriptfile) = @_;
+	return getAtonEntries($manuscriptfile, "MANUSCRIPT", "SMSIGLUM");
+}
+
+
+
+###############################
+##
+## getPrints -- Create a lookup index of all prints.
+##
+## @@BEGIN:	PRINT
+## @SPRINTNUM:	3
+## @PRINTTITLE:	De le rime di diversi nobili poeti toscani, raccolte da M. Dionigi Atanagi. Libro Primo
+## @PUBLISHER:	Lodovico Avanzo
+## @PUBLOCATION:	Venice
+## @PUBYEAR:	1565
+## @@END:		PRINT
+## 
+
+sub getPrints {
+	my ($printfile) = @_;
+	return getAtonEntries($printfile, "PRINT", "SPRINTNUM");
+}
+
+
+
+###############################
+##
+## getSettings -- Create a lookup index of all settings.
+## 
+## @@BEGIN:	SETTING
+## @CATALOGNUM:	Trm0288l
+## @RIMETITLE:	Amatemi, ben mio
+## @SOLERTI:	288
+## @COMPOSER:	Aagesen, Truid
+## @PRINCEPSTITLE:	Cantiones trium vocum
+## @PRINCEPSLOC:	Hamburg
+## @NORMLOC:	Hamburg
+## @NORMPUB:	von Ohr-Jauch
+## @NORMPUBSHORT:	von Ohr-Jauch
+## @PRINCEPSPUB:	von Ohr-Jauch
+## @PRINCEPSYEAR:	1608
+## @PRINCEPSRISM:	S 3549
+## @REPRINTS:	
+## @OVOICES:	3
+## @EXTANTVOICES:	3
+## @OCLEFS:	C3,C4,F4
+## @OMENSURATION:	C
+## @OKEYSIG:	
+## @TIMPEDITOR:	Ricciardi, Emiliano
+## @NOTE:		
+## @@END:		SETTING
+## 
+
+sub getSettings {
+	my ($settingfile) = @_;
+	return getAtonEntries($settingfile, "SETTING", "CATALOGNUM");
+}
+
+
+
+###############################
+##
+## getVerses -- Create a lookup index of all verses (rime).
+## 
+## @@BEGIN:	VERSEDATA
+## @SOLERTI:	33
+## @CATALOGNUM:	Trm0033
+## @TITLE:		Io veggio in cielo scintillar le stelle
+## @GENRE:		sonetto
+## @MANUSRC:	Brn, C, Ts<sub>2</sub>, V<sub>8</sub>
+## @PRINTSRC:	11, 12, 13, 22a), 26, 31, 35, 69, 85, 87, 141, 166, 169
+## @@BEGIN:	VERSES
+## @ABOUTIT:	Camminando di notte prega le stelle che guidino il suo corso.
+## @ABOUTEN:	Wandering at night he begs the starts to guide his course.
+## @EDITOR:	Solerti, Angelo
+## @EDITION_TITLE: Le Rime di Torquato Tasso
+## @EDITION_LOC:	Bologna
+## @EDITION_PUB:	Romagnoli-Dall’Acqua
+## @EDITION_DATE:  1898-1902
+## @EDITION_VOL:	2
+## @EDITION_PAGE:  49-50
+## @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
+## @VERSE:
+## 	Io veggio in cielo scintillar le stelle
+## 	Oltre l'usato e lampeggiar tremanti,
+## 	Come ne gli occhi de' cortesi amanti
+## 	Noi rimiriam talor vive facelle.
+## @VERSE:
+## 	Aman forse l&agrave; suso, o pur son elle
+## 	Pietose a' nostri affanni, a' nostri pianti?
+## 	Mentre scorgon le insidie e i passi erranti
+## 	L&agrave; dove altri d'Amor goda e favelle?
+## @VERSE:
+## 	Cortesi luci, se Leandro in mare
+## 	O trav&iuml;ato peregrin foss'io
+## 	Non mi sareste di soccorso avare:
+## @VERSE:
+## 	Cos&igrave; vi faccia il Sol pi&ugrave; belle e chiare,
+## 	Siate nel dubbio corso al desir mio
+## 	Fide mie duci e scorte amate e care.
+## @TVERSE:
+## 	I see, in the sky, the stars twinkling 
+## 	More than usual, and ablaze, trembling,
+## 	As in the eyes of gracious lovers
+## 	We see at times reflected lively lights.
+## @TVERSE:
+## 	Perhaps they are in love up there, or are they even
+## 	Sympathetic to our troubles, to our tears?
+## 	While they espy the dangers and the errant steps,
+## 	There, where others take pleasure in and tell tales of Love?
+## @TVERSE:
+## 	Gracious lights, if Leander in the sea
+## 	Or straying pilgrim were I,
+## 	You would not be so stingy with your aid:
+## @TVERSE:
+## 	Thus may the Sun make you more beautiful and bright;
+## 	May you be, upon the uncertain course towards my desire,
+## 	My faithful guides and beloved and dear guards.
+## @@END:		VERSES
+## @NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
+## 		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
+## 		Vercingetorige Martignone, vol. 4 of <i>Edizione
+## 		Nazionale delle opere di Torquato Tasso</i>
+##		(Alessandria: Edizioni Dell’Orso, 2004), 25.
+## @ATTRIBUTION_ABOUT:	Secure
+##		<br>
+##		Among other authoritative sources (see Literary
+##		Sources), this poem appears in the autograph Chigiano
+##		L.VIII.302 (Biblioteca Vaticana, Rome), compiled
+##		around 1584&ndash;85.
+## @DATING:	
+## @DEDICATEE:	Bendidio, Lucrezia 
+## @COMMENTARY:    
+## @@END:		VERSEDATA
+##
+
+sub getVerses {
+	my ($versefile) = @_;
+	return getAtonEntries($versefile, "VERSEDATA", "CATALOGNUM");
+}
+
+
+
+###############################
+##
+## getSources -- Create a lookup index of all sources.
+## 
+## @@BEGIN: SOURCE
+## @RISM:	1588-20
+## @AUTHOR:	Acelli, Cesare; Croce, Giovanni; Giovannelli, Ruggiero; Guami, Francesco; Guami, Giuseppe; Stivori, Francesco
+## @TITLEPAGE:	FIORI MVSICALI / DI DIVERSI /AVTTORI A TRE VOCI. / <i>LIBRO SECONDO.</i> / <i>Nuouamente composti, & dati in luce.</i> / CON PRIVILEGIO: / <i>In Venetia Appresso Giacomo Vincenzi.</i> / MDLXXXVIII.
+## @TITLESHORT:	Fiori musicali, libro secondo
+## @PUBLISHER:	Vincenzi
+## @YEAR:	1588
+## @PUBTYPE:	anthology
+## @PUBFORMAT:	part-books
+## @PUBLOC:	Venetia
+## @PUBNORMLOC:	Venice
+## @SRCDEDICATEE:	Francesco Sugana
+## @OPARTBOOKS:	CTB
+## @EXTPARTBOOKS:	CTB
+## @EXTNAMES:	CTB
+## @SRCLOCSIGLA:	A-Wn
+## @REPRODUCTIONTYPE:	microfilm
+## @SRCURL:	
+## @@END: SOURCE
+## 
+
+sub getSources {
+	my ($sourcefile) = @_;
+	return getAtonEntries($sourcefile, "SOURCE", "RISM");
+}
+
+
+
+##############################
+##
+## cleanKey --
+##
+
+sub cleanKey {
+	my ($key) = @_;
+	$key =~ s/<.*?>//g;
+	$key =~ s/\///g;
+	$key =~ s/[^a-zA-Z0-9]//g;
+	$key = "S$key" if $key =~ /^\d/;
+	return $key;
+}
+
+
+
+##############################
+##
+## getAtonEntries --
+##
+
+sub getAtonEntries {
+	my ($datafile, $ATONTAG, $IDTAG) = @_;
+	my %output;
+	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
+	my @contents = <DFILE>;
+	close DFILE;
+	my $index = 0;
+	my $key;
+	my $hentry;
+	my %entry;
+	while (($index >= 0) && ($index < @contents)) {
+		($index, $hentry) = getAtonEntry($ATONTAG, $index, @contents);
+		if ($index > 0) {
+			# %entry = %$hentry;
+			$key = cleanKey($$hentry{$IDTAG});
+			if ($key !~ /^\s*$/) {
+				# ignore entries with no ID (possible in sources.aton)
+				if ($output{$key} ne "") {
+					print "CURRENT VALUE: $output{$key}\n";
+					die "Duplicate key >>$key<< in list";
+				}
+				$output{$key} = $hentry;
+			}
+		}
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## getAtonEntry --
+##
+
+sub getAtonEntry {
+	my ($KEY, $index, @contents) = @_;
+	my $start = -1;
+	for (my $i=$index; $i<@contents; $i++) {
+		if ($contents[$i] =~ /\@\@BEGIN\s*:\s*$KEY\s*$/) {
+			$start = $i+1;
+			last;
+		}
+	}
+	if ($start < 0) {
+		# return -1 if there is no more data.
+		return (-1, "", 0);
+	}
+	my %entry;
+	my $key;
+	my $returnid;
+	my $outindex = -1;
+	my $value;
+	for (my $i=$start; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@\@END\s*:\s*$KEY\s*$/) {
+			$outindex = $i;
+			last;
+		} elsif ($line =~ /^\@([^:\@]+)\s*:\s*(.*)\s*$/) {
+			$key = $1;
+			$value = $2;
+			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+				$entry{"VERSE_COUNT"}++;
+				$entry{$key} .= "\n$value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			} else {
+				$entry{$key} .= " $value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			}
+		} elsif ($line !~ /^\@/) {
+			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+				$entry{$key} .= "\n$value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			} elsif ($key ne "") {
+				$value = "$entry{$key} $line";
+				$value =~ s/\s*$//;
+				$value =~ s/^\s*//;
+				$entry{$key} = $value;
+			}
+		}
+	}
+	return ($outindex, \%entry);
+}
+

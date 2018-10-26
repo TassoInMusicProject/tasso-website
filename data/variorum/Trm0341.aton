@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S49
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S93
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-A
+@ID:		Trm0341a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Guami, Giuseppe
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-T
+@ID:		Trm0341a-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Guami, Giuseppe
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-B
+@ID:		Trm0341a-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Guami, Giuseppe
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,57 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0341
-@ID:		Trm0341-V
+@ID:		Trm0341b-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0341
+@ID:		Trm0341b-Alto
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0341
+@ID:		Trm0341b-Tenore
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0341
+@ID:		Trm0341b-Basso
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0341
+@ID:		Trm0341b-Quinto
+@TYPE:		music
+@COMPOSER:	Taroni, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

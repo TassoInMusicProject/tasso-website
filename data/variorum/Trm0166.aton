@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S11
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S12
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S13
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S93
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
+@ID:		Trm0166a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
+@ID:		Trm0166a-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
+@ID:		Trm0166a-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
+@ID:		Trm0166a-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -229,9 +229,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
+@ID:		Trm0166b-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -241,9 +241,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
+@ID:		Trm0166b-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
+@ID:		Trm0166b-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -265,9 +265,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
+@ID:		Trm0166b-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -277,9 +277,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
+@ID:		Trm0166c-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
+@ID:		Trm0166c-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -301,9 +301,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
+@ID:		Trm0166c-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -313,9 +313,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
+@ID:		Trm0166c-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
+@ID:		Trm0166c-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Ferrabosco, Alfonso
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -337,9 +337,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
+@ID:		Trm0166d-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -349,9 +349,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
+@ID:		Trm0166d-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
+@ID:		Trm0166d-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -373,9 +373,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
+@ID:		Trm0166d-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -385,9 +385,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
+@ID:		Trm0166e-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Oristagno, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
+@ID:		Trm0166e-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Oristagno, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -409,9 +409,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
+@ID:		Trm0166e-Tenore
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Oristagno, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -421,9 +421,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
+@ID:		Trm0166e-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Oristagno, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -433,9 +433,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
+@ID:		Trm0166e-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Oristagno, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -445,9 +445,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
+@ID:		Trm0166f-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -457,9 +457,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
+@ID:		Trm0166f-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -469,9 +469,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
+@ID:		Trm0166f-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -481,9 +481,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
+@ID:		Trm0166g-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -493,9 +493,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
+@ID:		Trm0166g-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -505,9 +505,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
+@ID:		Trm0166g-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -517,9 +517,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
+@ID:		Trm0166g-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -529,9 +529,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-B
+@ID:		Trm0166g-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gesualdo, Carlo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -541,9 +541,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-C
+@ID:		Trm0166h-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Pozzo, Vincenzo dal
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -553,9 +553,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-A
+@ID:		Trm0166h-Basso
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Pozzo, Vincenzo dal
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -565,9 +565,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-T
+@ID:		Trm0166i-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -577,9 +577,165 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
-@ID:		Trm0166-V
+@ID:		Trm0166i-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Il Verso, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166j-Canto
+@TYPE:		music
+@COMPOSER:	Nantermi, Michelangelo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166j-Alto
+@TYPE:		music
+@COMPOSER:	Nantermi, Michelangelo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166j-Tenore
+@TYPE:		music
+@COMPOSER:	Nantermi, Michelangelo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166j-Basso
+@TYPE:		music
+@COMPOSER:	Nantermi, Michelangelo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166j-Quinto
+@TYPE:		music
+@COMPOSER:	Nantermi, Michelangelo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166k-Canto
+@TYPE:		music
+@COMPOSER:	Nenna, Pomponio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166k-Alto
+@TYPE:		music
+@COMPOSER:	Nenna, Pomponio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166k-Tenore
+@TYPE:		music
+@COMPOSER:	Nenna, Pomponio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166k-Basso
+@TYPE:		music
+@COMPOSER:	Nenna, Pomponio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166l-Canto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166l-Alto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166l-Tenore
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		Trm0166l-Quinto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

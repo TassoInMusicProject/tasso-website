@@ -55,9 +55,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -91,9 +91,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -127,9 +127,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -163,9 +163,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-A
+@ID:		Trm1022a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-T
+@ID:		Trm1022a-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -199,9 +199,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-B
+@ID:		Trm1022a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-V
+@ID:		Trm1022a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -235,9 +235,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-A
+@ID:		Trm1022a-Quinto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Felis, Stefano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-T
+@ID:		Trm1022b-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Schuyt, Cornelis
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -271,9 +271,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-B
+@ID:		Trm1022b-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Schuyt, Cornelis
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-V
+@ID:		Trm1022b-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Schuyt, Cornelis
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -307,9 +307,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-VI
+@ID:		Trm1022b-Basso
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Schuyt, Cornelis
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-C
+@ID:		Trm1022b-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Schuyt, Cornelis
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -343,9 +343,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-A
+@ID:		Trm1022c-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-T
+@ID:		Trm1022c-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -379,9 +379,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-B
+@ID:		Trm1022c-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-V
+@ID:		Trm1022c-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -415,9 +415,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-C
+@ID:		Trm1022c-Sesto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -433,9 +433,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-A
+@ID:		Trm1022d-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Gagliano, Marco da
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -451,9 +451,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-T
+@ID:		Trm1022d-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gagliano, Marco da
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -469,9 +469,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-B
+@ID:		Trm1022d-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gagliano, Marco da
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -487,9 +487,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-V
+@ID:		Trm1022d-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gagliano, Marco da
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -505,9 +505,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-C
+@ID:		Trm1022d-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Gagliano, Marco da
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -523,9 +523,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-A
+@ID:		Trm1022e-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Lacorcia, Scipione
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -541,9 +541,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-T
+@ID:		Trm1022e-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Lacorcia, Scipione
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -559,9 +559,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-B
+@ID:		Trm1022e-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Lacorcia, Scipione
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -577,9 +577,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-V
+@ID:		Trm1022e-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Lacorcia, Scipione
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -595,9 +595,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-C
+@ID:		Trm1022e-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Lacorcia, Scipione
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -613,9 +613,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-A
+@ID:		Trm1022f-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Merula, Tarquinio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -631,9 +631,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-T
+@ID:		Trm1022f-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Merula, Tarquinio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -649,9 +649,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-B
+@ID:		Trm1022f-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Merula, Tarquinio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -667,9 +667,117 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1022
-@ID:		Trm1022-V
+@ID:		Trm1022f-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Merula, Tarquinio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1022
+@ID:		Trm1022f-Quinto
+@TYPE:		music
+@COMPOSER:	Merula, Tarquinio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1022
+@ID:		Trm1022g-Canto
+@TYPE:		music
+@COMPOSER:	Capece, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1022
+@ID:		Trm1022g-Alto
+@TYPE:		music
+@COMPOSER:	Capece, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1022
+@ID:		Trm1022g-Tenore
+@TYPE:		music
+@COMPOSER:	Capece, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1022
+@ID:		Trm1022g-Basso
+@TYPE:		music
+@COMPOSER:	Capece, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1022
+@ID:		Trm1022g-Quinto
+@TYPE:		music
+@COMPOSER:	Capece, Alessandro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

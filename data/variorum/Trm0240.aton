@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0240
-@ID:		Trm0240-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0240
-@ID:		Trm0240-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0240
-@ID:		Trm0240-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0240
-@ID:		Trm0240-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,57 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0240
-@ID:		Trm0240-V
+@ID:		Trm0240a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0240
+@ID:		Trm0240a-Alto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0240
+@ID:		Trm0240a-Tenore
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0240
+@ID:		Trm0240a-Basso
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0240
+@ID:		Trm0240a-Quinto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

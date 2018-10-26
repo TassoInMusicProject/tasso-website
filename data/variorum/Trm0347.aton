@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
-@ID:		Trm0347-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
-@ID:		Trm0347-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
-@ID:		Trm0347-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,57 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
-@ID:		Trm0347-V
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0347
+@ID:		Trm0347a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0347
+@ID:		Trm0347a-Alto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0347
+@ID:		Trm0347a-Tenore
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0347
+@ID:		Trm0347a-Quinto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

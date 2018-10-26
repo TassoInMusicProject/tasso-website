@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0319
-@ID:		Trm0319-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S71
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0319
-@ID:		Trm0319-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0319
-@ID:		Trm0319-T
+@ID:		Trm0319a-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gastoldi, Giovanni Giacomo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0319
-@ID:		Trm0319-B
+@ID:		Trm0319a-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gastoldi, Giovanni Giacomo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,33 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0319
-@ID:		Trm0319-V
+@ID:		Trm0319a-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gastoldi, Giovanni Giacomo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0319
+@ID:		Trm0319a-Basso
+@TYPE:		music
+@COMPOSER:	Gastoldi, Giovanni Giacomo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0319
+@ID:		Trm0319a-Quinto
+@TYPE:		music
+@COMPOSER:	Gastoldi, Giovanni Giacomo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

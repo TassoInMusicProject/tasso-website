@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0267
-@ID:		Trm0267-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0267
-@ID:		Trm0267-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S49
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,45 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0267
-@ID:		Trm0267-B
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0267
+@ID:		Trm0267a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Zenaro, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0267
+@ID:		Trm0267a-Tenore
+@TYPE:		music
+@COMPOSER:	Zenaro, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0267
+@ID:		Trm0267a-Basso
+@TYPE:		music
+@COMPOSER:	Zenaro, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

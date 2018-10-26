@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0314
-@ID:		Trm0314-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0314
-@ID:		Trm0314-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0314
-@ID:		Trm0314-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,45 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0314
-@ID:		Trm0314-V
+@ID:		Trm0314a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Dalla Casa, Girolamo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0314
+@ID:		Trm0314a-Alto
+@TYPE:		music
+@COMPOSER:	Dalla Casa, Girolamo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0314
+@ID:		Trm0314a-Basso
+@TYPE:		music
+@COMPOSER:	Dalla Casa, Girolamo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0314
+@ID:		Trm0314a-Quinto
+@TYPE:		music
+@COMPOSER:	Dalla Casa, Girolamo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

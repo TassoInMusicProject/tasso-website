@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -65,9 +65,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -81,9 +81,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -113,9 +113,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-A
+@ID:		Trm0379a-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -129,9 +129,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-T
+@ID:		Trm0379a-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-B
+@ID:		Trm0379a-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -161,9 +161,73 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0379
-@ID:		Trm0379-V
+@ID:		Trm0379b-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gallo, Vincenzo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0379
+@ID:		Trm0379b-Alto
+@TYPE:		music
+@COMPOSER:	Gallo, Vincenzo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0379
+@ID:		Trm0379b-Tenore
+@TYPE:		music
+@COMPOSER:	Gallo, Vincenzo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0379
+@ID:		Trm0379b-Basso
+@TYPE:		music
+@COMPOSER:	Gallo, Vincenzo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0379
+@ID:		Trm0379b-Quinto
+@TYPE:		music
+@COMPOSER:	Gallo, Vincenzo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

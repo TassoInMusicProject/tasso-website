@@ -19,9 +19,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0939
-@ID:		Trm0939-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0939
-@ID:		Trm0939-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -55,9 +55,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0939
-@ID:		Trm0939-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S74
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,99 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0939
-@ID:		Trm0939-V
+@ID:		S74a
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0939
+@ID:		S162
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0939
+@ID:		Trm0939a-Alto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gabella, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0939
+@ID:		Trm0939a-Tenore
+@TYPE:		music
+@COMPOSER:	Gabella, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0939
+@ID:		Trm0939a-Basso
+@TYPE:		music
+@COMPOSER:	Gabella, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0939
+@ID:		Trm0939a-Quinto
+@TYPE:		music
+@COMPOSER:	Gabella, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

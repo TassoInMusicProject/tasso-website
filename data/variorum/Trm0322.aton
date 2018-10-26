@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
-@ID:		Trm0322-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
-@ID:		Trm0322-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
-@ID:		Trm0322-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
-@ID:		Trm0322-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,69 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
-@ID:		Trm0322-V
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0322
+@ID:		Trm0322a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0322
+@ID:		Trm0322a-Alto
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0322
+@ID:		Trm0322a-Tenore
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0322
+@ID:		Trm0322a-Basso
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0322
+@ID:		Trm0322a-Quinto
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

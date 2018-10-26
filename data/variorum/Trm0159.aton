@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S8
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -235,9 +235,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S9
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S11
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -271,9 +271,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S12
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S13
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -307,9 +307,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S15
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S20
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -343,9 +343,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S24
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S29
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -379,9 +379,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S33
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S67
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -415,9 +415,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S85
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -433,9 +433,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S87
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -451,9 +451,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -469,9 +469,297 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0159
-@ID:		Trm0159-V
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Veggio, Giovanni Agostino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159a-Alto
+@TYPE:		music
+@COMPOSER:	Veggio, Giovanni Agostino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159a-Tenore
+@TYPE:		music
+@COMPOSER:	Veggio, Giovanni Agostino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159a-Basso
+@TYPE:		music
+@COMPOSER:	Veggio, Giovanni Agostino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159a-Quinto
+@TYPE:		music
+@COMPOSER:	Veggio, Giovanni Agostino
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159b-Canto
+@TYPE:		music
+@COMPOSER:	Feliciani, Andrea
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159b-Alto
+@TYPE:		music
+@COMPOSER:	Feliciani, Andrea
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159b-Tenore
+@TYPE:		music
+@COMPOSER:	Feliciani, Andrea
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159b-Basso
+@TYPE:		music
+@COMPOSER:	Feliciani, Andrea
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159b-Quinto
+@TYPE:		music
+@COMPOSER:	Feliciani, Andrea
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159c-Canto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159c-Alto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159c-Tenore
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159c-Basso
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0159
+@ID:		Trm0159c-Quinto
+@TYPE:		music
+@COMPOSER:	Ingegneri, Marco Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

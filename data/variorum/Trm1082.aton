@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1082
-@ID:		Trm1082-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S78
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1082
-@ID:		Trm1082-A
+@ID:		Trm1082a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Philips, Peter
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1082
-@ID:		Trm1082-T
+@ID:		Trm1082a-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Philips, Peter
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1082
-@ID:		Trm1082-B
+@ID:		Trm1082a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Philips, Peter
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1082
-@ID:		Trm1082-V
+@ID:		Trm1082a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Philips, Peter
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,21 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1082
-@ID:		Trm1082-VI
+@ID:		Trm1082a-Quinto
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Philips, Peter
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1082
+@ID:		Trm1082a-Sesto
+@TYPE:		music
+@COMPOSER:	Philips, Peter
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

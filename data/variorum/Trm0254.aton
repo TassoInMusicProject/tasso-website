@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
-@ID:		Trm0254-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
-@ID:		Trm0254-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
-@ID:		Trm0254-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
-@ID:		Trm0254-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,69 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
-@ID:		Trm0254-V
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0254
+@ID:		Trm0254a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Milleville, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0254
+@ID:		Trm0254a-Alto
+@TYPE:		music
+@COMPOSER:	Milleville, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0254
+@ID:		Trm0254a-Tenore
+@TYPE:		music
+@COMPOSER:	Milleville, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0254
+@ID:		Trm0254a-Basso
+@TYPE:		music
+@COMPOSER:	Milleville, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0254
+@ID:		Trm0254a-Quinto
+@TYPE:		music
+@COMPOSER:	Milleville, Alessandro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

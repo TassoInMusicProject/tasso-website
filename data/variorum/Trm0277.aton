@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0277
-@ID:		Trm0277-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0277
-@ID:		Trm0277-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S78
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,45 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0277
-@ID:		Trm0277-V
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0277
+@ID:		Trm0277a-Alto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Cantino, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0277
+@ID:		Trm0277a-Tenore
+@TYPE:		music
+@COMPOSER:	Cantino, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0277
+@ID:		Trm0277a-Quinto
+@TYPE:		music
+@COMPOSER:	Cantino, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0190
-@ID:		Trm0190-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0190
-@ID:		Trm0190-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0190
-@ID:		Trm0190-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S78
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0190
-@ID:		Trm0190-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0190
-@ID:		Trm0190-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0190
-@ID:		Trm0190-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,81 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0190
-@ID:		Trm0190-V
+@ID:		Trm0190a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Vecchi, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0190
+@ID:		Trm0190a-Alto
+@TYPE:		music
+@COMPOSER:	Vecchi, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0190
+@ID:		Trm0190a-Tenore
+@TYPE:		music
+@COMPOSER:	Vecchi, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0190
+@ID:		Trm0190a-Basso
+@TYPE:		music
+@COMPOSER:	Vecchi, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0190
+@ID:		Trm0190a-Quinto
+@TYPE:		music
+@COMPOSER:	Vecchi, Orazio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0190
+@ID:		Trm0190b-Tenore
+@TYPE:		music
+@COMPOSER:	Mazza, Francesco
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0190
+@ID:		Trm0190b-Quinto
+@TYPE:		music
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S85
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S87
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-C
+@ID:		Trm0143a-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-A
+@ID:		Trm0143a-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-T
+@ID:		Trm0143a-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -229,9 +229,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-B
+@ID:		Trm0143a-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -241,9 +241,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-V
+@ID:		Trm0143b-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-VI
+@ID:		Trm0143b-Basso
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -265,9 +265,153 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
-@ID:		Trm0143-VII
+@ID:		Trm0143b-Quinto
 @TYPE:		music
-@PART:		Settimo
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143c-Canto
+@TYPE:		music
+@COMPOSER:	Ferro, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143c-Alto
+@TYPE:		music
+@COMPOSER:	Ferro, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143c-Tenore
+@TYPE:		music
+@COMPOSER:	Ferro, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143c-Basso
+@TYPE:		music
+@COMPOSER:	Ferro, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143c-Quinto
+@TYPE:		music
+@COMPOSER:	Ferro, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143d-Canto
+@TYPE:		music
+@COMPOSER:	Galeno, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143d-Alto
+@TYPE:		music
+@COMPOSER:	Galeno, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143d-Tenore
+@TYPE:		music
+@COMPOSER:	Galeno, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143d-Basso
+@TYPE:		music
+@COMPOSER:	Galeno, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143d-Quinto
+@TYPE:		music
+@COMPOSER:	Galeno, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143d-Sesto
+@TYPE:		music
+@COMPOSER:	Galeno, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0143
+@ID:		Trm0143d-Settimo
+@TYPE:		music
+@COMPOSER:	Galeno, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

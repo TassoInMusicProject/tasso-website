@@ -17,9 +17,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0358
-@ID:		Trm0358-C
-@TYPE:		music
-@PART:		Canto
+@ID:		none
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -33,9 +33,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0358
-@ID:		Trm0358-B
+@ID:		Trm0358a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Lambardi, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0358
-@ID:		Trm0358-A
+@ID:		Trm0358a-Basso
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Lambardi, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -65,9 +65,25 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0358
-@ID:		Trm0358-B
+@ID:		Trm0358b-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Cerbello, Giovanni Battista
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0358
+@ID:		Trm0358b-Basso
+@TYPE:		music
+@COMPOSER:	Cerbello, Giovanni Battista
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0367
-@ID:		Trm0367-C
-@TYPE:		music
-@PART:		Canto
+@ID:		none
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -55,9 +55,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0367
-@ID:		Trm0367-A
+@ID:		Trm0367a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Luzzaschi. Luzzasco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0367
-@ID:		Trm0367-T
+@ID:		Trm0367a-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Luzzaschi. Luzzasco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -91,9 +91,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0367
-@ID:		Trm0367-B
+@ID:		Trm0367a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Luzzaschi. Luzzasco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,27 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0367
-@ID:		Trm0367-V
+@ID:		Trm0367a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Luzzaschi. Luzzasco
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0367
+@ID:		Trm0367a-Quinto
+@TYPE:		music
+@COMPOSER:	Luzzaschi. Luzzasco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

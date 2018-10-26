@@ -19,9 +19,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S10
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S11
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -55,9 +55,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S12
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S13
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -91,9 +91,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S16
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S21
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -127,9 +127,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S25
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S25a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -163,9 +163,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S30
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S34
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -199,9 +199,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S68
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -235,9 +235,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -271,9 +271,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-B
+@ID:		Trm0395a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Mel, Rinaldo del
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,261 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0395
-@ID:		Trm0395-V
+@ID:		Trm0395a-Alto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Mel, Rinaldo del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395a-Tenore
+@TYPE:		music
+@COMPOSER:	Mel, Rinaldo del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395a-Basso
+@TYPE:		music
+@COMPOSER:	Mel, Rinaldo del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395a-Quinto
+@TYPE:		music
+@COMPOSER:	Mel, Rinaldo del
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395b-Canto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395b-Alto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395b-Tenore
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395b-Basso
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395b-Quinto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395b-Sesto
+@TYPE:		music
+@COMPOSER:	Marenzio, Luca
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395c-Canto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395c-Alto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395c-Tenore
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395c-Basso
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0395
+@ID:		Trm0395c-Quinto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

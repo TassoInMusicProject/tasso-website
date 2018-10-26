@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0259
-@ID:		Trm0259-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0259
-@ID:		Trm0259-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0259
-@ID:		Trm0259-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0259
-@ID:		Trm0259-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0259
-@ID:		Trm0259-T
+@ID:		Trm0259a-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Il Verso, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,57 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0259
-@ID:		Trm0259-B
+@ID:		Trm0259a-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Il Verso, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0259
+@ID:		Trm0259b-Canto
+@TYPE:		music
+@COMPOSER:	Borelli, Francesco Maria
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0259
+@ID:		Trm0259b-Alto
+@TYPE:		music
+@COMPOSER:	Borelli, Francesco Maria
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0259
+@ID:		Trm0259b-Tenore
+@TYPE:		music
+@COMPOSER:	Borelli, Francesco Maria
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0259
+@ID:		Trm0259b-Basso
+@TYPE:		music
+@COMPOSER:	Borelli, Francesco Maria
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

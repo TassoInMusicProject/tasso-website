@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S54
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,93 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1177
-@ID:		Trm1177-B
+@ID:		Trm1177a-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Roinci, Luigi
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1177
+@ID:		Trm1177a-Basso
+@TYPE:		music
+@COMPOSER:	Roinci, Luigi
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1177
+@ID:		Trm1177a-Quinto
+@TYPE:		music
+@COMPOSER:	Roinci, Luigi
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1177
+@ID:		Trm1177b-Canto
+@TYPE:		music
+@COMPOSER:	Bozi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1177
+@ID:		Trm1177b-Basso
+@TYPE:		music
+@COMPOSER:	Bozi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1177
+@ID:		Trm1177c-Alto
+@TYPE:		music
+@COMPOSER:	Billi, Lucio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1177
+@ID:		Trm1177c-Tenore
+@TYPE:		music
+@COMPOSER:	Billi, Lucio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1177
+@ID:		Trm1177c-Basso
+@TYPE:		music
+@COMPOSER:	Billi, Lucio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

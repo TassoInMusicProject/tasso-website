@@ -57,9 +57,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -71,9 +71,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S50
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S85
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -99,9 +99,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S87
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -113,9 +113,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -127,9 +127,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -141,9 +141,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -155,9 +155,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-T
+@ID:		Trm1050a-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-B
+@ID:		Trm1050a-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -183,9 +183,107 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1050
-@ID:		Trm1050-V
+@ID:		Trm1050a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Virchi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1050
+@ID:		Trm1050a-Quinto
+@TYPE:		music
+@COMPOSER:	Virchi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1050
+@ID:		Trm1050a-Sesto
+@TYPE:		music
+@COMPOSER:	Virchi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1050
+@ID:		Trm1050b-Canto
+@TYPE:		music
+@COMPOSER:	Striggio, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1050
+@ID:		Trm1050b-Alto
+@TYPE:		music
+@COMPOSER:	Striggio, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1050
+@ID:		Trm1050b-Tenore
+@TYPE:		music
+@COMPOSER:	Striggio, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1050
+@ID:		Trm1050b-Basso
+@TYPE:		music
+@COMPOSER:	Striggio, Alessandro
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1050
+@ID:		Trm1050b-Quinto
+@TYPE:		music
+@COMPOSER:	Striggio, Alessandro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

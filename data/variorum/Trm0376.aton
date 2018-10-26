@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376a-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-B
+@ID:		Trm0376a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-V
+@ID:		Trm0376a-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-C
+@ID:		Trm0376b-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Tresti, Flaminio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-A
+@ID:		Trm0376b-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Tresti, Flaminio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376b-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Tresti, Flaminio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-B
+@ID:		Trm0376b-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Tresti, Flaminio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-V
+@ID:		Trm0376b-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Tresti, Flaminio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-VI
+@ID:		Trm0376c-Canto
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-VII
+@ID:		Trm0376c-Alto
 @TYPE:		music
-@PART:		Settimo
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-VIII
+@ID:		Trm0376c-Tenore
 @TYPE:		music
-@PART:		Ottavo
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-IX
+@ID:		Trm0376c-Basso
 @TYPE:		music
-@PART:		Nono
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-X
+@ID:		Trm0376c-Quinto
 @TYPE:		music
-@PART:		Decimo
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -229,9 +229,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-XI
+@ID:		Trm0376c-Sesto
 @TYPE:		music
-@PART:		Undicesimo
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -241,9 +241,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-XII
+@ID:		Trm0376c-Settimo
 @TYPE:		music
-@PART:		Dodicesimo
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376c-Ottavo
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -265,9 +265,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-V
+@ID:		Trm0376c-Nono
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -277,9 +277,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376c-Decimo
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-B
+@ID:		Trm0376c-Undicesimo
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -301,9 +301,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-V
+@ID:		Trm0376c-Dodicesimo
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Gabrieli, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -313,9 +313,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-C
+@ID:		Trm0376d-Tenore
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-A
+@ID:		Trm0376d-Quinto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Mazza, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -337,9 +337,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376e-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -349,9 +349,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-B
+@ID:		Trm0376e-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-V
+@ID:		Trm0376e-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Monteverdi, Claudio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -373,9 +373,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-C
+@ID:		Trm0376f-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -385,9 +385,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-A
+@ID:		Trm0376f-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376f-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -409,9 +409,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-B
+@ID:		Trm0376f-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -421,9 +421,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-V
+@ID:		Trm0376f-Quinto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -433,9 +433,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-C
+@ID:		Trm0376g-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Pallavicino, Benedetto
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -445,9 +445,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-A
+@ID:		Trm0376g-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Pallavicino, Benedetto
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -457,9 +457,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376g-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Pallavicino, Benedetto
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -469,9 +469,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-B
+@ID:		Trm0376g-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Pallavicino, Benedetto
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -481,9 +481,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-T
+@ID:		Trm0376g-Quinto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Pallavicino, Benedetto
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -493,9 +493,69 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0376
-@ID:		Trm0376-V
+@ID:		Trm0376h-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Rossi, Salomone
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0376
+@ID:		Trm0376h-Alto
+@TYPE:		music
+@COMPOSER:	Rossi, Salomone
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0376
+@ID:		Trm0376h-Tenore
+@TYPE:		music
+@COMPOSER:	Rossi, Salomone
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0376
+@ID:		Trm0376h-Basso
+@TYPE:		music
+@COMPOSER:	Rossi, Salomone
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0376
+@ID:		Trm0376i-Tenore
+@TYPE:		music
+@COMPOSER:	Guelfi, Antonio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0376
+@ID:		Trm0376i-Quinto
+@TYPE:		music
+@COMPOSER:	Guelfi, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

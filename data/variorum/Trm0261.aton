@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0261
-@ID:		Trm0261-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S174
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0261
-@ID:		Trm0261-V
+@ID:		Trm0261a-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Marinis, Giovanni de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0261
-@ID:		Trm0261-C
+@ID:		Trm0261a-Quinto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Marinis, Giovanni de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0261
-@ID:		Trm0261-A
+@ID:		Trm0261b-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Macque, Giovanni de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0261
-@ID:		Trm0261-T
+@ID:		Trm0261b-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Macque, Giovanni de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,21 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0261
-@ID:		Trm0261-B
+@ID:		Trm0261b-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Macque, Giovanni de
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0261
+@ID:		Trm0261b-Basso
+@TYPE:		music
+@COMPOSER:	Macque, Giovanni de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

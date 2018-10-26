@@ -19,9 +19,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -55,9 +55,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -91,9 +91,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -127,9 +127,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,171 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
-@ID:		Trm0363-IVIII
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-Canto
 @TYPE:		music
-@PART:		
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-Alto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-Tenore
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-Basso
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-Quinto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-Sesto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-Sesto
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0363
+@ID:		Trm0363a-
+@TYPE:		music
+@COMPOSER:	Hassler, Hans Leo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1032
-@ID:		Trm1032-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1032
-@ID:		Trm1032-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S54
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1032
-@ID:		Trm1032-T
+@ID:		Trm1032a-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1032
-@ID:		Trm1032-B
+@ID:		Trm1032a-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,33 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1032
-@ID:		Trm1032-V
+@ID:		Trm1032a-Tenore
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1032
+@ID:		Trm1032a-Basso
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1032
+@ID:		Trm1032a-Quinto
+@TYPE:		music
+@COMPOSER:	Giovannelli, Ruggiero
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

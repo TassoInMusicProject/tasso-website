@@ -17,9 +17,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0361
-@ID:		Trm0361-C
-@TYPE:		music
-@PART:		Canto
+@ID:		none
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -33,9 +33,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0361
-@ID:		Trm0361-T
+@ID:		Trm0361a-Canto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Lambardi, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0361
-@ID:		Trm0361-T1
+@ID:		Trm0361a-Tenore
 @TYPE:		music
-@PART:		Tenore 1
+@COMPOSER:	Lambardi, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -65,9 +65,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0361
-@ID:		Trm0361-T2
+@ID:		Trm0361b-Tenore_1
 @TYPE:		music
-@PART:		Tenore 2
+@COMPOSER:	Hodemont, Leonard Collet de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -81,9 +81,25 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0361
-@ID:		Trm0361-B
+@ID:		Trm0361b-Tenore_2
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Hodemont, Leonard Collet de
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0361
+@ID:		Trm0361b-Basso
+@TYPE:		music
+@COMPOSER:	Hodemont, Leonard Collet de
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

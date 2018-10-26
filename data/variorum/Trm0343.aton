@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S49
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-B
+@ID:		Trm0343a-Canto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Bellasio, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-V
+@ID:		Trm0343a-Alto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Bellasio, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-C1
+@ID:		Trm0343a-Tenore
 @TYPE:		music
-@PART:		Canto 1
+@COMPOSER:	Bellasio, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-C2
+@ID:		Trm0343a-Basso
 @TYPE:		music
-@PART:		Canto 2
+@COMPOSER:	Bellasio, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-A1
+@ID:		Trm0343a-Quinto
 @TYPE:		music
-@PART:		Alto 1
+@COMPOSER:	Bellasio, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-A2
+@ID:		Trm0343b-Canto_1
 @TYPE:		music
-@PART:		Alto 2
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-T1
+@ID:		Trm0343b-Canto_2
 @TYPE:		music
-@PART:		Tenore 1
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-T2
+@ID:		Trm0343b-Alto_1
 @TYPE:		music
-@PART:		Tenore 2
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-B1
+@ID:		Trm0343b-Alto_2
 @TYPE:		music
-@PART:		Basso 1
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-B2
+@ID:		Trm0343b-Tenore_1
 @TYPE:		music
-@PART:		Basso 2
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-C
+@ID:		Trm0343b-Tenore_2
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-A
+@ID:		Trm0343b-Basso_1
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-T
+@ID:		Trm0343b-Basso_2
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Stivori, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,45 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
-@ID:		Trm0343-V
+@ID:		Trm0343c-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0343
+@ID:		Trm0343c-Alto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0343
+@ID:		Trm0343c-Tenore
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0343
+@ID:		Trm0343c-Quinto
+@TYPE:		music
+@COMPOSER:	Macigni, Giovanni
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

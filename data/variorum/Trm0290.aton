@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-C
-@TYPE:		music
-@PART:		Canto
+@ID:		none
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-A
+@ID:		Trm0290a-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Veggio, Giovanni Agostino
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-T
+@ID:		Trm0290a-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Veggio, Giovanni Agostino
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-B
+@ID:		Trm0290a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Veggio, Giovanni Agostino
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-C
+@ID:		Trm0290a-Basso
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Veggio, Giovanni Agostino
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-A
+@ID:		Trm0290d-Canto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Genvino, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-T
+@ID:		Trm0290d-Alto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Genvino, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-B
+@ID:		Trm0290d-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Genvino, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,21 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0290
-@ID:		Trm0290-V
+@ID:		Trm0290d-Basso
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Genvino, Francesco
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0290
+@ID:		Trm0290d-Quinto
+@TYPE:		music
+@COMPOSER:	Genvino, Francesco
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

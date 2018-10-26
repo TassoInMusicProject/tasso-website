@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S22a
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S26
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S31
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S35
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-VI
-@TYPE:		music
-@PART:		Sesto
+@ID:		S69
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S78
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -133,9 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-V
+@ID:		Trm0194a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Bertani, Lelio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -157,9 +157,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-C
+@ID:		Trm0194a-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Bertani, Lelio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -169,9 +169,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-A
+@ID:		Trm0194a-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Bertani, Lelio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-T
+@ID:		Trm0194a-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Bertani, Lelio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -193,9 +193,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-B
+@ID:		Trm0194a-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Bertani, Lelio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -205,9 +205,129 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0194
-@ID:		Trm0194-V
+@ID:		Trm0194a-Sesto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Bertani, Lelio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194b-Canto
+@TYPE:		music
+@COMPOSER:	Naldi, Romolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194b-Alto
+@TYPE:		music
+@COMPOSER:	Naldi, Romolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194b-Tenore
+@TYPE:		music
+@COMPOSER:	Naldi, Romolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194b-Basso
+@TYPE:		music
+@COMPOSER:	Naldi, Romolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194b-Quinto
+@TYPE:		music
+@COMPOSER:	Naldi, Romolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194c-Canto
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194c-Alto
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194c-Tenore
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194c-Basso
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0194
+@ID:		Trm0194c-Quinto
+@TYPE:		music
+@COMPOSER:	D'India, Sigismondo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

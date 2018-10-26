@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0443
-@ID:		Trm0443-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0443
-@ID:		Trm0443-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S50
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0443
-@ID:		Trm0443-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S78
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0443
-@ID:		Trm0443-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0443
-@ID:		Trm0443-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S164
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0443
-@ID:		Trm0443-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,93 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0443
-@ID:		Trm0443-B
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0443
+@ID:		Trm0443a-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Zucca, Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0443
+@ID:		Trm0443a-Tenore
+@TYPE:		music
+@COMPOSER:	Zucca, Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0443
+@ID:		Trm0443a-Quinto
+@TYPE:		music
+@COMPOSER:	Zucca, Cesare
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0443
+@ID:		Trm0443b-Alto
+@TYPE:		music
+@COMPOSER:	Bellasio, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0443
+@ID:		Trm0443c-Canto
+@TYPE:		music
+@COMPOSER:	Bozi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0443
+@ID:		Trm0443c-Tenore
+@TYPE:		music
+@COMPOSER:	Bozi, Paolo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0443
+@ID:		Trm0443c-Basso
+@TYPE:		music
+@COMPOSER:	Bozi, Paolo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

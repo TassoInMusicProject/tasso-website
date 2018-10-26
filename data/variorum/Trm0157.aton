@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0157
-@ID:		Trm0157-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S28
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0157
-@ID:		Trm0157-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S48
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0157
-@ID:		Trm0157-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S54
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0157
-@ID:		Trm0157-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0157
-@ID:		Trm0157-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -109,9 +109,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0157
-@ID:		Trm0157-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -121,9 +121,81 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0157
-@ID:		Trm0157-B
+@ID:		Trm0157a-Tenore
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0157
+@ID:		Trm0157a-Basso
+@TYPE:		music
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0157
+@ID:		Trm0157a-Quinto
+@TYPE:		music
+@COMPOSER:	Monteverdi, Claudio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0157
+@ID:		Trm0157b-Canto
+@TYPE:		music
+@COMPOSER:	Clemsee, Christoforo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0157
+@ID:		Trm0157b-Alto
+@TYPE:		music
+@COMPOSER:	Clemsee, Christoforo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0157
+@ID:		Trm0157b-Tenore
+@TYPE:		music
+@COMPOSER:	Clemsee, Christoforo
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0157
+@ID:		Trm0157b-Basso
+@TYPE:		music
+@COMPOSER:	Clemsee, Christoforo
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

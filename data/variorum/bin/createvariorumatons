@@ -16,19 +16,19 @@ use strict;
 
 my %NAMES;
 $NAMES{"A"}    = "Alto";            # 236
-$NAMES{"A1"}   = "Alto 1";          # 1
-$NAMES{"A2"}   = "Alto 2";          # 1
+$NAMES{"A1"}   = "Alto_1";          # 1
+$NAMES{"A2"}   = "Alto_2";          # 1
 $NAMES{"B"}    = "Basso";           # 261
-$NAMES{"B1"}   = "Basso 1";         # 1
-$NAMES{"B2"}   = "Basso 2";         # 1
-$NAMES{"Bc"}   = "Basso continuo";  # 17
+$NAMES{"B1"}   = "Basso_1";         # 1
+$NAMES{"B2"}   = "Basso_2";         # 1
+$NAMES{"Bc"}   = "Basso_continuo";  # 17
 $NAMES{"C"}    = "Canto";           # 250
-$NAMES{"C1"}   = "Canto 1";         # 5
-$NAMES{"C2"}   = "Canto 2";         # 5
+$NAMES{"C1"}   = "Canto_1";         # 5
+$NAMES{"C2"}   = "Canto_2";         # 5
 $NAMES{"IX"}   = "Nono";            # 1
 $NAMES{"T"}    = "Tenore";          # 262
-$NAMES{"T1"}   = "Tenore 1";        # 3
-$NAMES{"T2"}   = "Tenore 2";        # 3
+$NAMES{"T1"}   = "Tenore_1";        # 3
+$NAMES{"T2"}   = "Tenore_2";        # 3
 $NAMES{"V"}    = "Quinto";          # 218
 $NAMES{"VI"}   = "Sesto";           # 38
 $NAMES{"VII"}  = "Settimo";         # 3
@@ -74,8 +74,10 @@ sub createVariorumFile {
 
 	my $filename = "$catalognum.aton";
 	if (-r $filename) {
-		print "$filename already exists.  Not overwriting...\n";
+		# print "$filename already exists.  Not overwriting...\n";
 		return;
+	} else {
+		print "Creating $filename ...\n";
 	}
 
 	open(VFILE, ">$filename") or die "Cannot write $filename\n";
@@ -102,9 +104,8 @@ sub createVariorumFile {
 	my $prn = $v{"PRINTSRC"};
 	my @prints = split(/\s*,\s*/, $prn);
 	my @printids;
-	for (my $i=0; $i<@printids; $i++) {
+	for (my $i=0; $i<@prints; $i++) {
 		$printids[$i] = cleanKey($prints[$i]);
-		#print "\tPRINT: $printids[$i]\n";
 		createAtonTemplate($catalognum, $printids[$i], "print");
 	}
 
@@ -116,14 +117,16 @@ sub createVariorumFile {
 	# print "SETTINGS: ", join(" ", @settings), "\n";
 	for (my $i=0; $i<@settings; $i++) {
 		my $catalognum = $settings[$i];
-		$catalognum =~ s/[a-z]+$//;  # for rime
+		my $versecat = $catalognum;
+		$versecat =~ s/[a-z]+$//;  # for rime
 		my $idbase = $settings[$i];  # for part
 		my @partlist = getPartList($idbase);
+		my $composer = getComposer($catalognum);
 		# print "\tPARTS: ", join(" ", @partlist), "\n";
 		for (my $j=0; $j<@partlist; $j++) {
 			next if $partlist[$j] =~ /bc/i;
-			my $jid = "$catalognum-$partlist[$j]";
-			createAtonTemplate($catalognum, $jid, "music", $partlist[$j]);
+			my $jid = "$catalognum-$NAMES{$partlist[$j]}";
+			createAtonTemplate($versecat, $jid, "music", $composer);
 		}
 	}
 
@@ -134,6 +137,19 @@ sub createVariorumFile {
 
 }
 
+
+
+##############################
+##
+## getComposer --
+##
+
+sub getComposer {
+	my ($settingid) = @_;
+	my $ss = $SETTINGS{$settingid};
+	my %s = %$ss;
+	return $s{'COMPOSER'};
+}
 
 
 ##############################
@@ -210,7 +226,7 @@ sub getSettingsIds {
 ##
 
 sub createAtonTemplate {
-	my ($catalognum, $id, $type, $name) = @_;
+	my ($catalognum, $id, $type, $composer) = @_;
 	
 print VFILE <<"EOT";
 
@@ -233,12 +249,10 @@ EOT
 		print VFILE $$hash{"SPRINT"} if $hash;
 		print VFILE "\n";
 	} else { # music
-		# fix this (should be an input parameter, or extracted from id)
-		print VFILE "\@PART:		";
-		if ($name) {
-			print VFILE $NAMES{$name};
+		print VFILE "\@COMPOSER:	";
+		if ($composer) {
+			print VFILE $composer;
 		}
-		# print $$hash{"PART"} if $hash;
 		print VFILE "\n";
 	}
 
@@ -247,6 +261,7 @@ EOT
 
 	my $vhash = $VERSES{$catalognum};
 	my $vcount = $$vhash{"VERSE_COUNT"};
+print "VERSE COUNT: ", $vcount, "\n";
 	$vcount = 1 if !$vcount;
 	for (my $i=0; $i<$vcount; $i++) {
 		print VFILE "\@VERSE:		\n";
@@ -531,7 +546,7 @@ sub getAtonEntry {
 		} elsif ($line =~ /^\@([^:\@]+)\s*:\s*(.*)\s*$/) {
 			$key = $1;
 			$value = $2;
-			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+			if ($key eq "VERSE") {
 				$entry{"VERSE_COUNT"}++;
 				$entry{$key} .= "\n$value";
 				$entry{$key} =~ s/^\s*//;
@@ -542,7 +557,7 @@ sub getAtonEntry {
 				$entry{$key} =~ s/\s*$//;
 			}
 		} elsif ($line !~ /^\@/) {
-			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+			if ($key eq "VERSE") {
 				$entry{$key} .= "\n$value";
 				$entry{$key} =~ s/^\s*//;
 				$entry{$key} =~ s/\s*$//;

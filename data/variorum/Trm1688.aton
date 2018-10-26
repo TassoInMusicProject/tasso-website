@@ -145,9 +145,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S8
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -163,9 +163,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S22
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -181,9 +181,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S85
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -199,9 +199,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S118
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -217,9 +217,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-V
+@ID:		Trm1688a-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Malvezzi, Christofano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -235,9 +235,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-VI
+@ID:		Trm1688a-Alto
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Malvezzi, Christofano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -253,9 +253,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-C
+@ID:		Trm1688a-Tenore
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Malvezzi, Christofano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -271,9 +271,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-A
+@ID:		Trm1688a-Basso
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Malvezzi, Christofano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -289,9 +289,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-T
+@ID:		Trm1688a-Quinto
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Malvezzi, Christofano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -307,9 +307,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-B
+@ID:		Trm1688a-Sesto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Malvezzi, Christofano
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -325,9 +325,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-V
+@ID:		Trm1688b-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Marenzio, Luca
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -343,9 +343,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-C
+@ID:		Trm1688b-Alto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Marenzio, Luca
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -361,9 +361,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-A
+@ID:		Trm1688b-Tenore
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Marenzio, Luca
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -379,9 +379,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-T
+@ID:		Trm1688b-Basso
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Marenzio, Luca
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -397,9 +397,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-B
+@ID:		Trm1688b-Quinto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Marenzio, Luca
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -415,9 +415,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-C
+@ID:		Trm1688c-Canto
 @TYPE:		music
-@PART:		Canto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -433,9 +433,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-A
+@ID:		Trm1688c-Alto
 @TYPE:		music
-@PART:		Alto
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -451,9 +451,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-T
+@ID:		Trm1688c-Tenore
 @TYPE:		music
-@PART:		Tenore
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -469,9 +469,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-B
+@ID:		Trm1688c-Basso
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Dueto, Antonio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -487,9 +487,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-V
+@ID:		Trm1688d-Canto
 @TYPE:		music
-@PART:		Quinto
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -505,9 +505,81 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
-@ID:		Trm1688-VI
+@ID:		Trm1688d-Alto
 @TYPE:		music
-@PART:		Sesto
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1688
+@ID:		Trm1688d-Tenore
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1688
+@ID:		Trm1688d-Basso
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1688
+@ID:		Trm1688d-Quinto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm1688
+@ID:		Trm1688d-Sesto
+@TYPE:		music
+@COMPOSER:	Monte, Filippo di
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

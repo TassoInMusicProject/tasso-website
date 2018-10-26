@@ -13,9 +13,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-C
-@TYPE:		music
-@PART:		Canto
+@ID:		S27
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -25,9 +25,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-A
-@TYPE:		music
-@PART:		Alto
+@ID:		S70
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -37,9 +37,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-T
-@TYPE:		music
-@PART:		Tenore
+@ID:		S93
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -49,9 +49,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-B
-@TYPE:		music
-@PART:		Basso
+@ID:		S141
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -61,9 +61,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-V
-@TYPE:		music
-@PART:		Quinto
+@ID:		S166
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -73,9 +73,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-C1
-@TYPE:		music
-@PART:		Canto 1
+@ID:		S169
+@TYPE:		print
+@SPRINT:	
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -85,9 +85,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-C2
+@ID:		Trm0399a-Canto
 @TYPE:		music
-@PART:		Canto 2
+@COMPOSER:	Eremita, Giulio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -97,9 +97,81 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
-@ID:		Trm0399-B
+@ID:		Trm0399a-Alto
 @TYPE:		music
-@PART:		Basso
+@COMPOSER:	Eremita, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0399
+@ID:		Trm0399a-Tenore
+@TYPE:		music
+@COMPOSER:	Eremita, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0399
+@ID:		Trm0399a-Basso
+@TYPE:		music
+@COMPOSER:	Eremita, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0399
+@ID:		Trm0399a-Quinto
+@TYPE:		music
+@COMPOSER:	Eremita, Giulio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0399
+@ID:		Trm0399b-Canto_1
+@TYPE:		music
+@COMPOSER:	Marini, Biagio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0399
+@ID:		Trm0399b-Canto_2
+@TYPE:		music
+@COMPOSER:	Marini, Biagio
+@PAGE:		
+@PARATEXT:	
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0399
+@ID:		Trm0399b-Basso
+@TYPE:		music
+@COMPOSER:	Marini, Biagio
 @PAGE:		
 @PARATEXT:	
 @VERSE:		

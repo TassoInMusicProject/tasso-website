@@ -21,44 +21,72 @@
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
 @ID:		S28
-@TYPE:		print
-@SPRINT:	
-@PAGE:		
+@TYPE:		print	
+@PAGE:		24v
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+        Queste note son {noue}, e {questo} amore
+        Comincia in noui modi.
+        Queste note son nodi,
+        Che mi fà la {mia Donna} intorno al core,
+        {[OMITTED]}
+        {[OMITTED]}
+        {E li} stringe il piacere, e la speranza,
+        Tal che di libertà nulla m’auanza.     
 @@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
 @ID:		S141
-@TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@TYPE:		print	
+@PAGE:		Vol. 3, 72
+@PARATEXT:	Nella dedicatione d'una scelta di madriali in musica alla Sig.D. Marfisa d'Este
 @VERSE:		
+        Queste note son {noue}, e {questo} amore
+        Comincia in noui modi.
+        Queste note son nodi,
+        Che mi fà la {mia Donna} intorno al core,
+        {[OMITTED]}
+        {[OMITTED]}
+        {E li} stringe il piacere, e la speranza,
+        Tal che di libertà nulla m’auanza.
 @@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
 @ID:		S166
-@TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
+@TYPE:		print	
+@PAGE:		Vol. 3, 72
+@PARATEXT:	Nella dedicatione d'una scelta di madriali in musica alla Sig.D. Marfisa d'Este
+@VERSE:	
+        Queste note son {noue}, e {questo} amore
+        Comincia in noui modi.
+        Queste note son nodi,
+        Che mi fà la {mia Donna} intorno al core,
+        {[OMITTED]}
+        {[OMITTED]}
+        {E li} stringe il piacere, e la speranza,
+        Tal che di libertà nulla m’auanza.
 @@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
 @ID:		S169
-@TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
+@TYPE:		print	
+@PAGE:		Parte Prima [Rime Amorose], 184
+@PARATEXT:	Canto possente
+@VERSE:	
+        Queste note son {noue}, e {questo} amore
+        Comincia in noui modi.
+        Queste note son nodi,
+        Che mi fà la {mia Donna} intorno al core,
+        {[OMITTED]}
+        {[OMITTED]}
+        {E gli} stringe il piacere, e la speranza,
+        Tal che di libertà nulla m’auanza.
 @@END: VARIORUM
 
 
@@ -67,6 +95,7 @@
 @CATALOGNUM:	Trm1049
 @ID:		Trm1049a-Canto
 @TYPE:		music
+@COMPOSER:      Zenaro, Giulio
 @PART:		Canto
 @PAGE:		12
 @PARATEXT:	
@@ -84,8 +113,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
-@ID:		Trm1049a-T
+@ID:		Trm1049a-Tenore
 @TYPE:		music
+@COMPOSER:      Zenaro, Giulio
 @PART:		Tenore
 @PAGE:		12
 @PARATEXT:	
@@ -103,8 +133,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
-@ID:		Trm1049a-B
+@ID:		Trm1049a-Basso
 @TYPE:		music
+@COMPOSER:      Zenaro, Giulio
 @PART:		Basso
 @PAGE:		12
 @PARATEXT:	
@@ -122,8 +153,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
-@ID:		Trm1049b-C
+@ID:		Trm1049b-Canto
 @TYPE:		music
+@COMPOSER:      Bozi, Paolo
 @PART:		Canto
 @PAGE:		1
 @PARATEXT:	
@@ -142,8 +174,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1049
-@ID:		Trm1049b-B
+@ID:		Trm1049b-Basso
 @TYPE:		music
+@COMPOSER:      Bozi, Paolo
 @PART:		Basso
 @PAGE:		1
 @PARATEXT:	

@@ -655,8 +655,13 @@ sub printDivDedication {
 ##             *lg
 ##
 
+my $LINENUM = -1;
+my $VARIANT = -1;
+
 sub printDivLg {
 	my ($n) = @_;
+	$LINENUM = 1;
+	$VARIANT = 1;
 	indent($n);   print VFILE "<div>\n";
 	# indent($n+1);   print VFILE "<lg>\n";
 	printVersesX($n+1);
@@ -691,12 +696,11 @@ sub printVersesX {
 sub printVerse {
 	my ($n, $text) = @_;
 	my @lines = split(/^/m, $text);
-	my $vid = 1;
 	for (my $i = 0; $i<@lines; $i++) {
-		my $plusone = $i + 1;
 		indent($n);
-		print VFILE "<l xml:id=\"l$plusone\">";
-		$vid = printLineWithSegments($vid, $lines[$i]);
+		print VFILE "<l xml:id=\"l$LINENUM\">";
+		$LINENUM++;
+		printLineWithSegments($lines[$i]);
 		print VFILE "</l>\n";
 	}
 }
@@ -708,16 +712,15 @@ sub printVerse {
 ##
 
 sub printLineWithSegments {
-	my ($vid, $line) = @_;
+	my ($line) = @_;
 	chomp $line;
 	$line =~ s/\}/<\/seg>/g;
 	$line =~ s/\{/<seg xml:id=\"XXXXX\">/g;
 	while ($line =~ /XXXXX/) {
-		$line =~ s/(XXXXX)/v$vid/;
-		$vid++;
+		$line =~ s/(XXXXX)/v$VARIANT/;
+		$VARIANT++;
 	}
 	print VFILE $line;
-	return $vid;
 }
 
 

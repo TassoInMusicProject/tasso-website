@@ -15,6 +15,7 @@
 @@   PUBLOCATION:  Publication place of print source
 @@   PUBYEAR:      Date print source was published
 @@   URL:          URL to print online
+@@   URL-tag:      labeled URL (for multi-volume sources)
 @@
 @@ special codes:
 @@   double hash-tag is a marker for a SM-siglum reference in the descriptions.
@@ -26,7 +27,7 @@
 @PUBLISHER:	Lodovico Avanzo
 @PUBLOCATION:	Venice
 @PUBYEAR:	1565
-@URL: https://books.google.com/books/about/De_le_Rime_di_diversi_nobili_poeti_tosca.html?id=bmXLlj_rWKoC
+@URL:		https://books.google.com/books/about/De_le_Rime_di_diversi_nobili_poeti_tosca.html?id=bmXLlj_rWKoC
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -35,7 +36,7 @@
 @PUBLISHER:	Gli Eterei
 @PUBLOCATION:	Padua
 @PUBYEAR:	1567
-@URL: https://books.google.com/books?id=FR48AAAAcAAJ&dq=rime+academici+eterei+1567&source=gbs_navlinks_s
+@URL:		https://books.google.com/books?id=FR48AAAAcAAJ&dq=rime+academici+eterei+1567&source=gbs_navlinks_s
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -52,7 +53,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1581
-@URL: https://books.google.com/books?id=9CQ8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=9CQ8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -61,7 +62,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1582
-@URL: https://archive.org/details/bub_gb_wXSHRrk0uTQC/page/n3
+@URL:		https://archive.org/details/bub_gb_wXSHRrk0uTQC/page/n3
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -70,7 +71,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1582
-@URL: https://books.google.com/books?id=ooxqLK6qcdwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=ooxqLK6qcdwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -87,7 +88,7 @@
 @PUBLISHER:	Domenico Mammarelli, e Giulio Cesare Cagnacini Compagni
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1582
-@URL: https://archive.org/details/imageCII1561MiscellaneaOpal
+@URL:		https://archive.org/details/imageCII1561MiscellaneaOpal
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -112,7 +113,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1583
-@URL: https://books.google.com/books?id=_YW1k56G_M4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=_YW1k56G_M4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -121,7 +122,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1583
-@URL: https://books.google.com/books?id=QFVJkWrCamUC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=QFVJkWrCamUC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -146,7 +147,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Venice
 @PUBYEAR:	1584
-@URL: https://books.google.com/books?id=9yU8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=9yU8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -155,7 +156,7 @@
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1585
-@URL: https://archive.org/details/bub_gb_0l2IwBX_ZTMC
+@URL:		https://archive.org/details/bub_gb_0l2IwBX_ZTMC
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -196,7 +197,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Venice
 @PUBYEAR:	1586
-@URL: https://books.google.com/books?id=1gBmAAAAcAAJ&source=gbs_navlinks_s
+@URL:		https://books.google.com/books?id=1gBmAAAAcAAJ&source=gbs_navlinks_s
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -205,7 +206,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1587
-@URL: https://books.google.com/books?id=hKBIdaX8m4MC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=hKBIdaX8m4MC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -221,7 +222,7 @@
 @PRINTTITLE:	Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette
 @PUBLISHER:	Simon Vasalini
 @PUBLOCATION:	Ferrara
-@URL: https://books.google.com/books?id=vV-TwXBdOzsC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=vV-TwXBdOzsC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @PUBYEAR:	1585
 @@END:		PRINT
 
@@ -287,7 +288,7 @@
 @PUBLISHER:	Venice
 @PUBLOCATION:	Stamperia Nuova
 @PUBYEAR:	1585
-@URL: https://books.google.com/books?id=HMKf8T3A7T8C&dq=rime+curtio+gonzaga&source=gbs_navlinks_s
+@URL:		https://books.google.com/books?id=HMKf8T3A7T8C&dq=rime+curtio+gonzaga&source=gbs_navlinks_s
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -296,7 +297,7 @@
 @PUBLISHER:	Pietro Tini
 @PUBLOCATION:	Milan
 @PUBYEAR:	1585
-@URL: https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10208014_00005.html
+@URL:		https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10208014_00005.html
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -329,7 +330,7 @@
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1586
-@URL: https://books.google.com/books?id=qsNdAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=qsNdAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -338,7 +339,7 @@
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1587
-@URL: https://books.google.com/books?id=dRI8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=dRI8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -347,7 +348,7 @@
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1587
-@URL: https://books.google.com/books?id=bx88AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=bx88AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -356,7 +357,7 @@
 @PUBLISHER:	Girolamo Bartoli
 @PUBLOCATION:	Genoa
 @PUBYEAR:	1587
-@URL: https://books.google.com/books?id=tKRbAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=tKRbAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -365,7 +366,7 @@
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1588
-@URL: https://books.google.com/books?id=oUwD8J3UmBYC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=oUwD8J3UmBYC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -374,7 +375,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1589
-@URL: https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10190157_00005.html
+@URL:		https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10190157_00005.html
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -383,7 +384,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1589
-@URL: https://books.google.com/books?id=RiY8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=RiY8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -392,7 +393,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1589
-@URL: https://books.google.com/books?id=riY8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=riY8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -401,7 +402,7 @@
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1589
-@URL: https://reader.digitale-sammlungen.de/resolve/display/bsb10190160.html
+@URL:		https://reader.digitale-sammlungen.de/resolve/display/bsb10190160.html
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -418,7 +419,7 @@
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1589
-@URL: https://books.google.com/books?id=Zg-MYuT8X98C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=Zg-MYuT8X98C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -435,7 +436,7 @@
 @PUBLISHER:	Antonio Guerino, e Compagno
 @PUBLOCATION:	Casalmaggiore
 @PUBYEAR:	1590
-@URL: https://books.google.com/books?id=CWuISFFAdC0C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=CWuISFFAdC0C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -444,7 +445,7 @@
 @PUBLISHER:	Heredi di Gieronimo Bartoli
 @PUBLOCATION:	Genoa
 @PUBYEAR:	1591
-@URL: https://books.google.com/books?id=312xCrCb5j8C&source=gbs_navlinks_s
+@URL:		https://books.google.com/books?id=312xCrCb5j8C&source=gbs_navlinks_s
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -469,7 +470,7 @@
 @PUBLISHER:	Pietro Maria Marchetti
 @PUBLOCATION:	Brescia
 @PUBYEAR:	1592
-@URL: https://books.google.com/books?id=g_PKUXlv7VgC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=g_PKUXlv7VgC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -486,7 +487,7 @@
 @PUBLISHER:	Comin Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1594
-@URL: https://books.google.com/books?id=9cZdAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=9cZdAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -495,7 +496,7 @@
 @PUBLISHER:	Comin Ventura
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1597
-@URL: https://books.google.com/books?id=BWmIcfQRIV0C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=BWmIcfQRIV0C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -504,7 +505,7 @@
 @PUBLISHER:	Giovanni Battista Ciotti
 @PUBLOCATION:	Venice
 @PUBYEAR:	1598
-@URL: https://books.google.com/books?id=tTU8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL:		https://books.google.com/books?id=tTU8AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -513,12 +514,9 @@
 @PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
 @PUBLOCATION:	Venice
 @PUBYEAR:	1608
-@URL-1: https://books.google.com/books?id=Ym4UcSbkqQcC&dq=torquato+tasso+rime&source=gbs_navlinks_s
-@URL-2:
-@URL-3: https://books.google.com/books?id=kAgGM__e88cC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
-@URL-4: https://books.google.com/books?id=3OckSk3OMe0C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
-@URL-5:
-@URL-6:
+@URL-1:		https://books.google.com/books?id=Ym4UcSbkqQcC&dq=torquato+tasso+rime&source=gbs_navlinks_s
+@URL-3:		https://books.google.com/books?id=kAgGM__e88cC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@URL-4:		https://books.google.com/books?id=3OckSk3OMe0C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -535,7 +533,7 @@
 @PUBLISHER:	Bartolomeo Cochi
 @PUBLOCATION:	Bologna
 @PUBYEAR:	1616
-@URL: https://reader.digitale-sammlungen.de/resolve/display/bsb10352383.html
+@URL:		https://reader.digitale-sammlungen.de/resolve/display/bsb10352383.html
 @@END:		PRINT
 
 @@BEGIN:	PRINT
@@ -552,7 +550,7 @@
 @PUBLISHER:	Evangelista Deuchino
 @PUBLOCATION:	Venice
 @PUBYEAR:	1621
-@URL: https://babel.hathitrust.org/cgi/pt?id=mdp.39015063702826;view=1up;seq=15
+@URL:		https://babel.hathitrust.org/cgi/pt?id=mdp.39015063702826;view=1up;seq=15
 @@END:		PRINT
 
 @@BEGIN:	PRINT

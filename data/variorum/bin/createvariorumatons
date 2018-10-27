@@ -15,27 +15,27 @@
 use strict;
 
 my %NAMES;
-$NAMES{"A"}    = "Alto";            # 236
-$NAMES{"A1"}   = "Alto_1";          # 1
-$NAMES{"A2"}   = "Alto_2";          # 1
-$NAMES{"B"}    = "Basso";           # 261
-$NAMES{"B1"}   = "Basso_1";         # 1
-$NAMES{"B2"}   = "Basso_2";         # 1
-$NAMES{"Bc"}   = "Basso_continuo";  # 17
 $NAMES{"C"}    = "Canto";           # 250
 $NAMES{"C1"}   = "Canto_1";         # 5
 $NAMES{"C2"}   = "Canto_2";         # 5
-$NAMES{"IX"}   = "Nono";            # 1
+$NAMES{"A"}    = "Alto";            # 236
+$NAMES{"A1"}   = "Alto_1";          # 1
+$NAMES{"A2"}   = "Alto_2";          # 1
 $NAMES{"T"}    = "Tenore";          # 262
 $NAMES{"T1"}   = "Tenore_1";        # 3
 $NAMES{"T2"}   = "Tenore_2";        # 3
+$NAMES{"B"}    = "Basso";           # 261
+$NAMES{"B1"}   = "Basso_1";         # 1
+$NAMES{"B2"}   = "Basso_2";         # 1
 $NAMES{"V"}    = "Quinto";          # 218
 $NAMES{"VI"}   = "Sesto";           # 38
 $NAMES{"VII"}  = "Settimo";         # 3
 $NAMES{"VIII"} = "Ottavo";          # 2
+$NAMES{"IX"}   = "Nono";            # 1
 $NAMES{"X"}    = "Decimo";          # 1
 $NAMES{"XI"}   = "Undicesimo";      # 1
 $NAMES{"XII"}  = "Dodicesimo";      # 1
+$NAMES{"Bc"}   = "Basso_continuo";  # 17
 
 my $indexdir = "../indexes";
 my $manuscriptfile = "rime-manuscripts.aton";

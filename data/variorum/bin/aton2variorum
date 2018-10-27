@@ -177,7 +177,6 @@ sub createVariorumXml {
 		$data{'PRINCEPSTITLE'} = $s{'PRINCEPSTITLE'};     # title
 		$data{'COMPOSER'} = $s{'COMPOSER'};               # author@role="composer"
 		$data{'NORMPUBSHORT'} = $s{'NORMPUBSHORT'};       # publisher
-		$data{'NORMPUBSHORT'} = $s{'NORMPUBSHORT'};       # publisher
 		$data{'NORMLOC'} = $s{'NORMLOC'};                 # publisher location
 		$data{'PRINCEPSYEAR'} = $s{'PRINCEPSYEAR'};       # publication year
 		$data{'PRINCEPSRISM'} = $s{'PRINCEPSRISM'};       # idno  (RISM number)
@@ -190,9 +189,12 @@ sub createVariorumXml {
 			$data{"ID"} = "S$data{'ID'}";
 		}
 		my $pid = $data{"ID"};
-		$pid =~ s/^S//;
+		my $pp = $PRINTS{$pid};
 
-		my $pp = $SETTINGS{$pid};
+		if ($pp =~ /^\s*$/) {
+			"die: Cannot work without reference >>$pid<<";
+		}
+
 		%p = %$pp;
 		$data{'PRINTTITLE'} = $p{'PRINTTITLE'};     # title
 		$data{'PUBLISHER'} = $p{'PUBLISHER'};       # publisher
@@ -305,11 +307,13 @@ sub printSourceDesc {
 	my ($n) = @_;
 	indent($n); print VFILE "<sourceDesc>\n";
 	my $type = $PARAM{"TYPE"};
-	if ($type eq "manuscript") {
+	$type =~ s/^\s+//;
+	$type =~ s/\s+$//;
+	if ($type =~ /manuscript/i) {
 		printMsDesc($n+1);
-	} elsif ($type eq "music") {
+	} elsif ($type =~ /music/i) {
 		printMusicDesc($n+1);
-	} elsif ($type eq "print") {
+	} elsif ($type =~ /print/i) {
 		printPrintDesc($n+1);
 	} else {
 		die "Unknown media type: $type\n";
@@ -358,7 +362,7 @@ sub printPrintBibl {
 	my ($n) = @_;
 	indent($n); print VFILE "<title>$PARAM{'PRINTTITLE'}</title>\n";
 	indent($n); print VFILE "<publisher>$PARAM{'PUBLISHER'}</publisher>\n";
-	indent($n); print VFILE "<pubPlace>$PARAM{'PUBLICATION'}</pubPlace>\n";
+	indent($n); print VFILE "<pubPlace>$PARAM{'PUBLOCATION'}</pubPlace>\n";
 	indent($n); print VFILE "<date when=\"$PARAM{'PUBYEAR'}\">$PARAM{'PUBYEAR'}</date>\n";
 	indent($n); print VFILE "<biblScope unit=\"page\">$PARAM{'PAGE'}</biblScope>\n";
 }
@@ -560,10 +564,15 @@ sub printPublicationStmt {
 		$voice = $2;
 		indent($n); print VFILE "<idno type=\"local\">$pid</idno>\n";
 		indent($n); print VFILE "<idno type=\"label\">$pid ($voice)</idno>\n";
-	}
-	my $idno = $PARAM{"SMSIGLUM"};
-	if ($idno) {
-		indent($n+1); print VFILE "<idno type=\"local\">$PARAM{'ID'}</idno>\n";
+	} elsif ($PARAM{'TYPE'} =~ /print/i) {
+		my $sprint = $PARAM{"ID"};
+		$sprint =~ s/^S//;
+		indent($n+1); print VFILE "<idno type=\"local\">$sprint</idno>\n";
+	} else {
+		my $idno = $PARAM{"SMSIGLUM"};
+		if ($idno) {
+			indent($n+1); print VFILE "<idno type=\"local\">$PARAM{'ID'}</idno>\n";
+		}
 	}
 	indent($n); print VFILE "</publicationStmt>\n";
 }
@@ -656,12 +665,10 @@ sub printDivDedication {
 ##
 
 my $LINENUM = -1;
-my $VARIANT = -1;
 
 sub printDivLg {
 	my ($n) = @_;
 	$LINENUM = 1;
-	$VARIANT = 1;
 	indent($n);   print VFILE "<div>\n";
 	# indent($n+1);   print VFILE "<lg>\n";
 	printVersesX($n+1);
@@ -699,8 +706,8 @@ sub printVerse {
 	for (my $i = 0; $i<@lines; $i++) {
 		indent($n);
 		print VFILE "<l xml:id=\"l$LINENUM\">";
+		printLineWithSegments($lines[$i], $LINENUM);
 		$LINENUM++;
-		printLineWithSegments($lines[$i]);
 		print VFILE "</l>\n";
 	}
 }
@@ -712,13 +719,14 @@ sub printVerse {
 ##
 
 sub printLineWithSegments {
-	my ($line) = @_;
+	my ($line, $lineid) = @_;
 	chomp $line;
+	my $variant = 1;
 	$line =~ s/\}/<\/seg>/g;
 	$line =~ s/\{/<seg xml:id=\"XXXXX\">/g;
 	while ($line =~ /XXXXX/) {
-		$line =~ s/(XXXXX)/v$VARIANT/;
-		$VARIANT++;
+		$line =~ s/(XXXXX)/l${lineid}v$variant/;
+		$variant++;
 	}
 	print VFILE $line;
 }
@@ -1032,6 +1040,20 @@ sub cleanKey {
 
 ##############################
 ##
+## cleanForXml --
+##
+
+sub cleanForXml {
+	my ($text) = @_;
+	$text =~ s/\&ndash;/\&#x2013;/g;
+	$text =~ s/ \& / \&amp; /g;
+	return $text;
+}
+
+
+
+##############################
+##
 ## getAtonEntries --
 ##
 
@@ -1040,6 +1062,9 @@ sub getAtonEntries {
 	my %output;
 	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
 	my @contents = <DFILE>;
+	for (my $i=0; $i<@contents; $i++) {
+		$contents[$i] = cleanForXml($contents[$i]);
+	}
 	close DFILE;
 	my $index = 0;
 	my $key;

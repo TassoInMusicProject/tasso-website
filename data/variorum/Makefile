@@ -13,4 +13,7 @@ template:
 	bin/createvariorumatons
 
 
+c: collation
+collation:
+	bin/createcollation *.aton
 

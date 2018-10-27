@@ -1,0 +1,682 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $indexdir = "../indexes";
+my $versefile   = "rime-verses.aton";
+my %VERSES      = getVerses("$indexdir/$versefile");
+my $basedir = "../../variorum/data";
+
+
+foreach my $file (@ARGV) {
+	createCollationFile($file);
+}
+
+
+##############################
+##
+## createCollationFile --
+##
+
+sub createCollationFile {
+	my ($file) = @_;
+	open FILE, $file;
+	my @contents = <FILE>;
+	close FILE;
+	my $catalognum = getCatalogNum(@contents);
+	die "Unknown type of catalog number: $catalognum\n" if $catalognum !~ /^Trm\d+$/;
+	return if !-d "$basedir/$catalognum";
+	print "PREPARING $catalognum\n";
+	my $title = getTitle($catalognum);
+	#print "\tTITLE: $title\n";
+	open (COLFILE, ">$basedir/$catalognum/collation.xml") or die "Cannot write $basedir/$catalognum/collation.xml";
+	printHeader($title);
+	printMainContent($catalognum);
+	printFooter();
+	close COLFILE;
+
+}
+
+
+##############################
+##
+## printMainContent --
+##
+
+sub printMainContent {
+	my ($catalognum) = @_;
+	my @files = getCatalogFiles($catalognum);
+	my %lines = getLines($catalognum, @files);
+	my $linecount = getLineCount(%lines);
+
+	# printLine(0, %lines);
+	for (my $i=0; $i<$linecount; $i++) {
+		processLine($i, %lines);
+	}
+
+}
+
+
+
+##############################
+##
+## processLine --
+##
+
+sub processLine {
+	my ($index, %lines) = @_;
+
+	my $vcount = getVariantCount($index, %lines);
+	for (my $i=0; $i<$vcount; $i++) {
+		my %variants = getVariants($index, $i, %lines);
+		printVariantSet(%variants);
+	}
+}
+
+
+
+##############################
+##
+## getVariants -- Extract specified variant from lines
+##
+
+sub getVariants {
+	my ($lineindex, $segindex, %lines) = @_;
+	my %output;
+	my $counter;
+	my @keys = keys %lines;
+	@keys = sortIdList(@keys);
+	my @exline;
+	my $seg;
+	my $temp;
+	my $value;
+	for (my $i=0; $i<@keys; $i++) {
+		my $vv = $lines{$keys[$i]};
+		my @v = @$vv;
+		my $line = $v[$lineindex];
+		chomp $line;
+		$counter = 0;
+		while ($line =~ s/(<seg.*?>[^<]*<\/seg>)/XXX/) {
+			if ($counter == $segindex) {
+				$temp = $1;
+				$temp =~ /<seg [^>]*xml:id="([^"]*)"[^>]*>([^<]*)<\/seg>/;
+				my $id = $1;
+				my $match = $2;
+				$output{"_ID"} = $id;
+				$output{$keys[$i]} = $match;
+				last;
+			} else {
+				$counter++;
+			}
+		}
+	}
+
+	return %output;
+}
+
+
+##############################
+##
+## printVariantSet --
+##
+
+sub printVariantSet {
+	my %variants = @_;
+
+	my $vid = $variants{"_ID"};
+	delete $variants{"_ID"};
+
+	indent(4); print COLFILE "<app>\n";
+	my $counter = 1;
+
+	my @agree;
+	my $ttest;
+	my $xtest;
+	my $magic = "ZZZZZZZZZZ";
+	my @keys = keys %variants;
+	@keys = sortIdList(@keys);
+
+	for (my $i=0; $i<@keys; $i++) {
+		my $target = $keys[$i];
+		$ttest = $variants{$target};
+
+
+		$variants{$target} = $magic;
+		next if $ttest eq $magic;
+		$agree[@agree] = $target;
+		$ttest =~ s/[:'"*!.,?&\[\]]//g;  # remove punctuation
+		$ttest = uc $ttest;
+		for (my $j=$i+1; $j<@keys; $j++) {
+			$xtest = $variants{$keys[$j]};
+			next if $xtest eq $magic;
+			$xtest =~ s/[:'"*!.,?&\[\]]//g;  # remove punctuation
+			$xtest = uc $xtest;
+			next if $xtest ne $ttest;
+			$agree[@agree] = $keys[$j];
+			$variants{$keys[$j]} = $magic;
+		}
+		$counter = printReadingGroup($counter, $vid, @agree);
+		@agree = ();
+	}
+
+	#my @keys = sort keys %variants;
+	#foreach my $key (@keys) {
+	#	print COLFILE "\t$key\t\t$variants{$key}\n";
+	#}
+
+	indent(4); print COLFILE "</app>\n";
+}
+
+
+
+##############################
+##
+## printReadingGroup --
+##
+
+sub printReadingGroup {
+	my ($counter, $vid, @agree) = @_;
+	my $indent = 5;
+
+	if (@agree > 1) {
+		indent($indent++); print COLFILE "<rdgGrp n=\"$counter\">\n";
+	}
+
+	for (my $i=0; $i<@agree; $i++) {
+		indent($indent);   print COLFILE "<rdg wit=\"#$agree[$i]\">\n";
+		indent($indent+1); print COLFILE "<ptr target=\"$agree[$i].xml#$vid\"></ptr>\n";
+		indent($indent);   print COLFILE "</rdg>\n";
+	}
+
+	if (@agree > 1) {
+		indent(--$indent); print COLFILE "</rdgGrp>\n";
+	}
+
+	if (@agree > 1) {
+		return $counter + 1;
+	} else {
+		return $counter;
+	}
+}
+
+
+
+##############################
+##
+## indent --
+##
+
+sub indent {
+	my ($count) = @_;
+	for (my $i=0; $i<$count; $i++) {
+		print COLFILE "\t";
+	}
+}
+
+
+
+##############################
+##
+## getVariantCount --
+##
+
+sub getVariantCount { 
+	my ($index, %lines) = @_;
+	my @keys = keys %lines;
+	my $key = $keys[0];
+	my $aa = $lines{$key};
+	my @a = @$aa;
+	my $line = $a[$index];
+	my $count = () = ($line =~ /(<\/seg>)/g);
+	return $count;
+}
+
+
+
+
+
+##############################
+##
+## getLineCount --
+##
+
+sub getLineCount {
+	my (%lines) = @_;
+	my @keys = keys %lines;
+	my $key = $keys[0];
+	die "PROBLEM WITH KEY $key" if $key =~ /^\s*$/;
+	my $aa = $lines{$key};
+	my @a = @$aa;
+	my $output = @a;
+	return $output;
+}
+
+
+# <l xml:id="l1">queste note son <seg xml:id="l1v1">vive</seg>, e <seg xml:id="l1v2">queste</seg> <del>illegible</del>Amore</l>
+
+sub printLine {
+	my ($linenum, %data) = @_;
+	my @keys = sort keys %data;
+	foreach my $key (@keys) {
+		my $list = $data{$key};
+		my @a2 = @$list;
+		my $line = $a2[$linenum];
+		$line =~ /<seg [^>]*xml:id="([^"]+)"[^>]*>([^<]+)<\/seg>/;
+		my $id = $1;
+		my $target = $2;
+		print "$key\t$linenum\t$id\t$target\n";
+	}
+
+}
+
+
+
+##############################
+##
+## getLines -- return <1> elements in given files.
+##
+
+sub getLines {
+	my ($catalognum, @files) = @_;
+	my %output;
+	foreach my $file (@files) {
+		my $content = `grep '<l ' $basedir/$catalognum/$file`;
+		my @lines = split(/\n/, $content);
+		my $id = $file;
+		$id =~ s/\.xml$//;
+		$output{$id} = \@lines;
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## getCatalogFiles --
+##
+
+sub getCatalogFiles {
+	my ($catalognum) = @_;
+	my @list = glob "$basedir/$catalognum/*.xml";
+	my @output;
+	foreach my $item (@list) {
+		next if $item =~ /collat/i;
+		$item =~ s/.*\///;
+		$output[@output] = $item;
+	}
+
+	@output = sortIdList(@output);
+	return @output;
+}
+
+
+##############################
+##
+## sortIdList -- sort by manuscript ID, print ID, and then catalog ID.
+##
+
+sub sortIdList {
+	my @list = @_;
+	my @manuscripts;
+	my @prints;
+	my @music;
+	for (my $i=0; $i<@list; $i++) {
+		my $item = $list[$i];
+		if ($item =~ /^T[a-z][a-z]\d+[a-z]-/) {
+			$music[@music] = $item;
+		} elsif ($item =~ /^S\d+/) {
+			$prints[@prints] = $item;
+		} else {
+			$manuscripts[@manuscripts] = $item;
+		}
+	}
+	@manuscripts = sort @manuscripts;
+	@prints = sort {
+		my $A = $a;
+		my $B = $b;
+		$A =~ s/^S//;
+		$B =~ s/^S//;
+		return $A <=> $B;
+	} @prints;
+	@music = sortByPart(@music);
+	my @output = (@manuscripts, @prints, @music);
+	return @output;
+}
+
+
+
+##############################
+##
+## sortByPart --
+##
+
+sub sortByPart {
+	my @list = @_;
+
+	my %order;
+	$order{"Canto"          } = "XXX000XXX";
+	$order{"Canto_1"        } = "XXX001XXX";
+	$order{"Canto_2"        } = "XXX002XXX";
+	$order{"Alto"           } = "XXX003XXX";
+	$order{"Alto_1"         } = "XXX004XXX";
+	$order{"Alto_2"         } = "XXX005XXX";
+	$order{"Tenore"         } = "XXX006XXX";
+	$order{"Tenore_1"       } = "XXX007XXX";
+	$order{"Tenore_2"       } = "XXX008XXX";
+	$order{"Basso"          } = "XXX009XXX";
+	$order{"Basso_1"        } = "XXX010XXX";
+	$order{"Basso_2"        } = "XXX011XXX";
+	$order{"Quinto"         } = "XXX012XXX";
+	$order{"Sesto"          } = "XXX013XXX";
+	$order{"Settimo"        } = "XXX014XXX";
+	$order{"Ottavo"         } = "XXX015XXX";
+	$order{"Nono"           } = "XXX016XXX";
+	$order{"Decimo"         } = "XXX017XXX";
+	$order{"Undicesimo"     } = "XXX018XXX";
+	$order{"Dodicesimo"     } = "XXX019XXX";
+	$order{"Basso_continuo" } = "XXX020XXX";
+
+	for (my $i=0; $i<@list; $i++) {
+		next if $list[$i] !~ /^(T[a-z][a-z]\d+[a-z]-)(.*)$/;
+		my $prefix = $1;
+		my $postfix = $2;
+		my $voice = $postfix;
+		$voice =~ s/\..*//;
+		my $mapping = $order{$voice};
+		$list[$i] = "$prefix$mapping$postfix";
+	}
+	@list = sort @list;
+	for (my $i=0; $i<@list; $i++) {
+		$list[$i] =~ s/XXX\d\d\dXXX//;
+	}
+	return @list;
+}
+
+
+
+##############################
+##
+## getCatalogNum --
+##
+
+sub getCatalogNum {
+	my @contents = @_;
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		next if $line !~ /^\@CATALOGNUM\s*:\s*(.*)\s*$/;
+		my $catalognum = $1;
+		chomp $catalognum;
+		return $catalognum;
+	}
+	return "UNKNOWN";
+}
+
+
+
+##############################
+##
+## getTitle -- return title of rime.
+##
+
+sub getTitle {
+	my ($catalog) = @_;
+	my $vv = $VERSES{$catalog};
+	die "Unknown catalog number $catalog\n" if $vv =~ /^\s*$/;
+	my %v = %$vv;
+	my $title = $v{'TITLE'};
+	die "EMPTY TITLE FOR $catalog" if $title =~ /^\s*$/;
+	return $title;
+}
+
+
+
+###############################
+##
+## getVerses -- Create a lookup index of all verses (rime).
+## 
+## @@BEGIN:	VERSEDATA
+## @SOLERTI:	33
+## @CATALOGNUM:	Trm0033
+## @TITLE:		Io veggio in cielo scintillar le stelle
+## @GENRE:		sonetto
+## @MANUSRC:	Brn, C, Ts<sub>2</sub>, V<sub>8</sub>
+## @PRINTSRC:	11, 12, 13, 22a), 26, 31, 35, 69, 85, 87, 141, 166, 169
+## @@BEGIN:	VERSES
+## @ABOUTIT:	Camminando di notte prega le stelle che guidino il suo corso.
+## @ABOUTEN:	Wandering at night he begs the starts to guide his course.
+## @EDITOR:	Solerti, Angelo
+## @EDITION_TITLE: Le Rime di Torquato Tasso
+## @EDITION_LOC:	Bologna
+## @EDITION_PUB:	Romagnoli-Dall’Acqua
+## @EDITION_DATE:  1898-1902
+## @EDITION_VOL:	2
+## @EDITION_PAGE:  49-50
+## @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
+## @VERSE:
+## 	Io veggio in cielo scintillar le stelle
+## 	Oltre l'usato e lampeggiar tremanti,
+## 	Come ne gli occhi de' cortesi amanti
+## 	Noi rimiriam talor vive facelle.
+## @VERSE:
+## 	Aman forse l&agrave; suso, o pur son elle
+## 	Pietose a' nostri affanni, a' nostri pianti?
+## 	Mentre scorgon le insidie e i passi erranti
+## 	L&agrave; dove altri d'Amor goda e favelle?
+## @VERSE:
+## 	Cortesi luci, se Leandro in mare
+## 	O trav&iuml;ato peregrin foss'io
+## 	Non mi sareste di soccorso avare:
+## @VERSE:
+## 	Cos&igrave; vi faccia il Sol pi&ugrave; belle e chiare,
+## 	Siate nel dubbio corso al desir mio
+## 	Fide mie duci e scorte amate e care.
+## @TVERSE:
+## 	I see, in the sky, the stars twinkling 
+## 	More than usual, and ablaze, trembling,
+## 	As in the eyes of gracious lovers
+## 	We see at times reflected lively lights.
+## @TVERSE:
+## 	Perhaps they are in love up there, or are they even
+## 	Sympathetic to our troubles, to our tears?
+## 	While they espy the dangers and the errant steps,
+## 	There, where others take pleasure in and tell tales of Love?
+## @TVERSE:
+## 	Gracious lights, if Leander in the sea
+## 	Or straying pilgrim were I,
+## 	You would not be so stingy with your aid:
+## @TVERSE:
+## 	Thus may the Sun make you more beautiful and bright;
+## 	May you be, upon the uncertain course towards my desire,
+## 	My faithful guides and beloved and dear guards.
+## @@END:		VERSES
+## @NEW_CRIT_ED:   Torquato Tasso, <i>Rime d’amore (secondo il codice
+## 		Chigiano L VIII 302)</i>, eds. Franco Gavazzeni and
+## 		Vercingetorige Martignone, vol. 4 of <i>Edizione
+## 		Nazionale delle opere di Torquato Tasso</i>
+##		(Alessandria: Edizioni Dell’Orso, 2004), 25.
+## @ATTRIBUTION_ABOUT:	Secure
+##		<br>
+##		Among other authoritative sources (see Literary
+##		Sources), this poem appears in the autograph Chigiano
+##		L.VIII.302 (Biblioteca Vaticana, Rome), compiled
+##		around 1584&ndash;85.
+## @DATING:	
+## @DEDICATEE:	Bendidio, Lucrezia 
+## @COMMENTARY:    
+## @@END:		VERSEDATA
+##
+
+sub getVerses {
+	my ($versefile) = @_;
+	return getAtonEntries($versefile, "VERSEDATA", "CATALOGNUM");
+}
+
+
+
+
+##############################
+##
+## cleanKey --
+##
+
+sub cleanKey {
+	my ($key) = @_;
+	$key =~ s/<.*?>//g;
+	$key =~ s/\///g;
+	$key =~ s/[^a-zA-Z0-9]//g;
+	$key = "S$key" if $key =~ /^\d/;
+	return $key;
+}
+
+
+
+##############################
+##
+## getAtonEntries --
+##
+
+sub getAtonEntries {
+	my ($datafile, $ATONTAG, $IDTAG) = @_;
+	my %output;
+	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
+	my @contents = <DFILE>;
+	close DFILE;
+	my $index = 0;
+	my $key;
+	my $hentry;
+	my %entry;
+	while (($index >= 0) && ($index < @contents)) {
+		($index, $hentry) = getAtonEntry($ATONTAG, $index, @contents);
+		if ($index > 0) {
+			# %entry = %$hentry;
+			$key = cleanKey($$hentry{$IDTAG});
+			if ($key !~ /^\s*$/) {
+				# ignore entries with no ID (possible in sources.aton)
+				if ($output{$key} ne "") {
+					print "CURRENT VALUE: $output{$key}\n";
+					die "Duplicate key >>$key<< in list";
+				}
+				$output{$key} = $hentry;
+			}
+		}
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## getAtonEntry --
+##
+
+sub getAtonEntry {
+	my ($KEY, $index, @contents) = @_;
+	my $start = -1;
+	for (my $i=$index; $i<@contents; $i++) {
+		if ($contents[$i] =~ /\@\@BEGIN\s*:\s*$KEY\s*$/) {
+			$start = $i+1;
+			last;
+		}
+	}
+	if ($start < 0) {
+		# return -1 if there is no more data.
+		return (-1, "", 0);
+	}
+	my %entry;
+	my $key;
+	my $returnid;
+	my $outindex = -1;
+	my $value;
+	for (my $i=$start; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@\@END\s*:\s*$KEY\s*$/) {
+			$outindex = $i;
+			last;
+		} elsif ($line =~ /^\@([^:\@]+)\s*:\s*(.*)\s*$/) {
+			$key = $1;
+			$value = $2;
+			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+				$entry{"VERSE_COUNT"}++;
+				$entry{$key} .= "\n$value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			} else {
+				$entry{$key} .= " $value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			}
+		} elsif ($line !~ /^\@/) {
+			if (($key eq "VERSE") || ($key eq "TVERSE")) {
+				$entry{$key} .= "\n$value";
+				$entry{$key} =~ s/^\s*//;
+				$entry{$key} =~ s/\s*$//;
+			} elsif ($key ne "") {
+				$value = "$entry{$key} $line";
+				$value =~ s/\s*$//;
+				$value =~ s/^\s*//;
+				$entry{$key} = $value;
+			}
+		}
+	}
+	return ($outindex, \%entry);
+}
+
+
+
+##############################
+##
+## printHeader --
+##
+
+sub printHeader {
+	my ($title) = @_;
+
+print COLFILE <<"EOT";
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Stand-off apparatus for <title>$title</title></title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<ab>
+EOT
+}
+
+
+
+##############################
+##
+## printFooter --
+##
+
+sub printFooter {
+	my ($title) = @_;
+
+print COLFILE <<"EOT";
+			</ab>
+		</body>
+	</text>
+</TEI>
+EOT
+
+}
+
+
+

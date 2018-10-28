@@ -1097,7 +1097,7 @@
 @@BEGIN: SOURCE
 @RISM:	C 1431
 @AUTHOR:	Casentini, Marsilio
-@TITLEPAGE:	TIRSI E CLORI. / TERZO LIBRO ' DE MADRIGALI / A CINQVE VOCI / DI MARSILIO CASENTINI / LVCHESE / Maestro di Capella della Magnifica Communità di Genova. / Nouamente composti,& dati in luce. / CON PRIVILEGIO. / In Venetia, Appresso Giacomo Vincenti. 1607.
+@TITLEPAGE:	TIRSI E CLORI. / TERZO LIBRO ' DE MADRIGALI / A CINQVE VOCI / DI MARSILIO CASENTINI / LVCHESE / Maestro di Capella della Magnifica Communità di Gemona. / Nouamente composti,& dati in luce. / CON PRIVILEGIO. / In Venetia, Appresso Giacomo Vincenti. 1607.
 @TITLESHORT:	Tirsi e clori. Terzo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
 @YEAR:	1607
@@ -1766,9 +1766,9 @@
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Monsignor Marco Sittico, Conte d'Altemps, et Gallarata, Arcivescovo & Prencipe di Salzburg
-@OPARTBOOKS:	CATBV
-@EXTPARTBOOKS:	CATBV
-@EXTNAMES:	C,A,T,B,V
+@OPARTBOOKS:	CATBVBc
+@EXTPARTBOOKS:	CATBVBc
+@EXTNAMES:	C,A,T,B,V,Bc
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	Microfilm scan
 @SRCURL:	
@@ -5316,7 +5316,7 @@
 
 @@BEGIN: SOURCE
 @RISM:	P 1137
-@AUTHOR:	Peetrinus, Jacobus
+@AUTHOR:	
 @TITLEPAGE:	DI IACOBO PEETRINO / DE MALINES / IL PRIMO LIBRO DE MADRIGALI A QVATRO VOCI / Nouamente composti, & dati in luce. / In Venetia Appresso Angelo Gardano / M D LXXXIII.
 @TITLESHORT:	Il primo libro de madrigali a quattro voci
 @PUBLISHER:	Gardano
@@ -5332,6 +5332,26 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	1593-4
+@AUTHOR:	Pevernage, André; Monte, Philippe de; Marenzio, Luca; Felis, Stefano; Lasso, Orlando di; Macque, Giovanni de
+@TITLEPAGE:	HARMONIA CELESTE / DI DIVERSI ECCELLEN- / TISSIMI MUSICI A IIII. V. VI. ET VIII. / VOCI, NVOVAMENTE RACCOLTA / PER ANDREA PEVERNAGE / ET DATA IN LUCE. / Nella quale si contiene una Sielta di migliori Madrigali / che hoggidi si cantino. / IN ANVERSA. / Appresso Pietro Phalesio & Giouanni Bellero. / 1583.
+@TITLESHORT:	Harmonia celeste
+@PUBLISHER:	Phalesio et Bellero
+@YEAR:	1593
+@PUBTYPE:	anthology
+@PUBFORMAT:	part-books
+@PUBLOC:	Anversa
+@PUBNORMLOC:	Antwerp
+@SRCDEDICATEE:	Cesare Homodei de Milano
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00072030
 @@END: SOURCE
 
 @@BEGIN: SOURCE

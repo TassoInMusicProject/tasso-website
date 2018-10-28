@@ -130,7 +130,6 @@ table.choices {
 }
 
 
-
 ul#header2,
 ul#header {
 	list-style-type: none;
@@ -366,6 +365,33 @@ footer ul li {
 	padding-right: 5px;
 	padding-bottom: 10px;
 	max-width: 1140px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+#contents-plain {
+	/* min-height: 100%; */
+	position: relative;
+	font-size: 1.3rem;
+	min-height: 1000px;
+	width: 100%;
+	/* position: relative; */
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 6px 0 10px -7px #888, -6px 0 10px -7px #888;
+	padding:0;
+	margin:0;
+/*
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 40px;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+*/
+	/* max-width: 1140px; */
 	border-bottom-right-radius: 6px;
 	border-bottom-left-radius: 6px;
 }

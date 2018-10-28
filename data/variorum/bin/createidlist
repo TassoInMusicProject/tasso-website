@@ -1,0 +1,157 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $basedir = "../../variorum/data";
+my @output;
+
+opendir (DIR, $basedir);
+while (my $file = readdir(DIR)) {
+	next if !-d "$basedir/$file";
+	next if $file !~ /^T[a-z][a-z]\d+$/;
+	prepareDirectoryListing($file);
+	$output[@output] = $file;
+}
+closedir DIR;
+
+@output = sort @output;
+
+print "[\n";
+for (my $i=0; $i<@output; $i++) {
+	print "\"$output[$i]\"";
+	if ($i < @output - 1) {
+		print ",";
+	}
+	print "\n";
+}
+print "]\n";
+
+
+exit(0);
+
+
+
+##############################
+##
+## prepareDirectoryListing --
+##
+
+sub prepareDirectoryListing {
+	my ($dir) = @_;
+	opendir(MYDIR, "$basedir/$dir") or die "Cannot read directory $basedir/$dir\n";
+	my @files;
+	while (my $file = readdir(MYDIR)) {
+		next if -d "$basedir/$dir/$file";
+		next if $file =~ /^\./;
+		next if !-r "$basedir/$dir/$file";
+		next if $file !~ /\.xml$/;
+		next if $file eq "collation.xml";
+		$files[@files] = $file;
+	}
+	closedir(MYDIR);
+
+	@files = sortIdList(@files);
+	
+	open (MYFILE, ">$basedir/$dir/collation.json") or die "Cannot write collation.json";
+
+	print MYFILE "[\n";
+	for (my $i=0; $i<@files; $i++) {
+		print MYFILE "\"$files[$i]\"";
+		if ($i < @files - 1) {
+			print MYFILE ",";
+		}
+		print MYFILE "\n";
+	}
+	print MYFILE "]\n";
+
+	close MYFILE;
+}
+
+
+
+##############################
+##
+## sortIdList -- sort by manuscript ID, print ID, and then catalog ID.
+##
+
+sub sortIdList {
+	my @list = @_;
+	my @manuscripts;
+	my @prints;
+	my @music;
+	for (my $i=0; $i<@list; $i++) {
+		my $item = $list[$i];
+		if ($item =~ /^T[a-z][a-z]\d+[a-z]-/) {
+			$music[@music] = $item;
+		} elsif ($item =~ /^S\d+/) {
+			$prints[@prints] = $item;
+		} else {
+			$manuscripts[@manuscripts] = $item;
+		}
+	}
+	@manuscripts = sort @manuscripts;
+	@prints = sort {
+		my $A = $a;
+		my $B = $b;
+		$A =~ s/^S//;
+		$B =~ s/^S//;
+		return $A <=> $B;
+	} @prints;
+	@music = sortByPart(@music);
+	my @output = (@manuscripts, @prints, @music);
+	return @output;
+}
+
+
+
+##############################
+##
+## sortByPart --
+##
+
+sub sortByPart {
+	my @list = @_;
+
+	my %order;
+	$order{"Canto"          } = "XXX000XXX";
+	$order{"Canto_1"        } = "XXX001XXX";
+	$order{"Canto_2"        } = "XXX002XXX";
+	$order{"Alto"           } = "XXX003XXX";
+	$order{"Alto_1"         } = "XXX004XXX";
+	$order{"Alto_2"         } = "XXX005XXX";
+	$order{"Tenore"         } = "XXX006XXX";
+	$order{"Tenore_1"       } = "XXX007XXX";
+	$order{"Tenore_2"       } = "XXX008XXX";
+	$order{"Basso"          } = "XXX009XXX";
+	$order{"Basso_1"        } = "XXX010XXX";
+	$order{"Basso_2"        } = "XXX011XXX";
+	$order{"Quinto"         } = "XXX012XXX";
+	$order{"Sesto"          } = "XXX013XXX";
+	$order{"Settimo"        } = "XXX014XXX";
+	$order{"Ottavo"         } = "XXX015XXX";
+	$order{"Nono"           } = "XXX016XXX";
+	$order{"Decimo"         } = "XXX017XXX";
+	$order{"Undicesimo"     } = "XXX018XXX";
+	$order{"Dodicesimo"     } = "XXX019XXX";
+	$order{"Basso_continuo" } = "XXX020XXX";
+
+	for (my $i=0; $i<@list; $i++) {
+		next if $list[$i] !~ /^(T[a-z][a-z]\d+[a-z]-)(.*)$/;
+		my $prefix = $1;
+		my $postfix = $2;
+		my $voice = $postfix;
+		$voice =~ s/\..*//;
+		my $mapping = $order{$voice};
+		$list[$i] = "$prefix$mapping$postfix";
+	}
+	@list = sort @list;
+	for (my $i=0; $i<@list; $i++) {
+		$list[$i] =~ s/XXX\d\d\dXXX//;
+	}
+	return @list;
+}
+
+
+
+

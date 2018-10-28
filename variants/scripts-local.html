@@ -19,7 +19,7 @@ var CurrentPoem  = 0;  // ID of the current setting
 var PoemList     = {}; // List of next/previous settings
 
 var VARIORUM = {};
-
+var VARIORUM_DIRECTORIES = [];
 
 //////////////////////////////
 //
@@ -83,16 +83,86 @@ function displayPreviousSource() {
 
 //////////////////////////////
 //
-// displayLiteraryVariants -- Show the literary variants for the given
+// initializeVariantsPage -- Show the literary variants for the given
 // 	catalog number.
 //
 
-function displayLiteraryVariants(id, target) {
+function initializeVariantsPage(id, target) {
+
+	PrepareGlobalTassoObjects();
+	buildPoemList(ALLSETTINGLIST);
+	buildAllSettingList();
 
 	if (!target) {
 		target = "#contents";
 	}
+	if (!id) {
+		id = CGI.id;
+	}
+	if (id) {
+		id = id.replace(/[a-z]$/, "");
+	}
+	CurrentPoem = id;
 
+	url = "https://api.github.com/repos/TassoInMusicProject/variorum/contents/data/";
+	// url += CGI.id;
+	var request = new XMLHttpRequest();
+	request.open("GET", url);
+	request.send();
+	request.onload = function() {
+		var filelist = JSON.parse(this.responseText);
+		VARIORUM_DIRECTORIES = [];
+		for (var i=0; i<filelist.length; i++) {
+			if (!filelist[i].type) {
+				continue;
+			}
+			if (filelist[i].type !== "dir") {
+				continue;
+			}
+			var name = filelist[i].name;
+			if (!name) {
+				continue;
+			}
+			if (name === "collation.xml") {
+				continue;
+			}
+			if (name.match(/\.xml$/)) {
+				continue;
+			}
+			if (!name.match(/^T[a-z][a-z]\d+/)) {
+				continue;
+			}
+			VARIORUM_DIRECTORIES.push(name);
+		}
+
+		for (var i=0; i<VARIORUM_DIRECTORIES.length; i++) {
+			VARIORUM[VARIORUM_DIRECTORIES[i]] = 1;
+		}
+		console.log("VARIORUM", VARIORUM);
+		displayLiteraryVariants();
+
+		// console.log("Variorum poems to load:", VARIORUM_DIRECTORIES);
+
+/*
+		var script = document.createElement("script");
+		script.type = "text/javascript";
+		script.src = "dist/js/variorum.js";
+		script.onload = function() { console.log("LOADED VARIORUM SCRIPT"); }
+		document.head.appendChild(script);
+*/
+	};
+
+}
+
+
+function displayLiteraryVariants(id, target) {
+	if (!target) {
+		target = "#contents";
+	}
+
+	if (!id) {
+		id = CGI.id;
+	}
 	if (id) {
 		id = id.replace(/[a-z]$/, "");
 	}
@@ -105,179 +175,7 @@ function displayLiteraryVariants(id, target) {
 		return;
 	}
 
-	var counter = 0;
-	var maxcount = 7;
-
-   if (sessionStorage.VARIORUM) {
-		VARIORUM = JSON.parse(sessionStorage.VARIORUM);
-		counter++;
-	}
-
-	if (sessionStorage.RIMEVERSELIST &&
-				(sessionStorage.RIMEVERSELIST != "undefined")) {
-		RIMEVERSELIST = JSON.parse(sessionStorage.RIMEVERSELIST);
-		counter++;
-	}
-
-	if (sessionStorage.RIMESETTINGLIST) {
-		RIMESETTINGLIST = JSON.parse(sessionStorage.RIMESETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.GERUSETTINGLIST) {
-		GERUSETTINGLIST = JSON.parse(sessionStorage.GERUSETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.AMINTASETTINGLIST) {
-		AMINTASETTINGLIST = JSON.parse(sessionStorage.AMINTASETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.OTHERSETTINGLIST) {
-		OTHERSETTINGLIST = JSON.parse(sessionStorage.OTHERSETTINGLIST);
-		counter++;
-	}
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-		counter++;
-	}
-
-	if (!sessionStorage.VARIORUM) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "variorum.json");
-		request.addEventListener("load", function() {
-			var v = JSON.parse(this.responseText);
-			for (var i in v) {
-				VARIORUM[v[i]] = 1;
-			}
-         sessionStorage.VARIORUM = JSON.stringify(VARIORUM);
-         counter++;
-         if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-            reallyDisplayVariants(id, target);
-				counter++;
-         }
-		});
-		request.send();
-	}
-
-	if ((!sessionStorage.RIMEVERSELIST) ||
-				(sessionStorage.RIMEVERSELIST === "undefined")) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_verses}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMEVERSELIST = aton.parse(this.responseText).RIME;
-			sessionStorage.RIMEVERSELIST = JSON.stringify(RIMEVERSELIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.RIMESETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.rime_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			RIMESETTINGLIST = aton.parse(this.responseText).RIME_SETTING;
-			sessionStorage.RIMESETTINGLIST = JSON.stringify(RIMESETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.GERUSETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.gerusalemme_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			GERUSETTINGLIST = aton.parse(this.responseText).GERUSALEMME;
-			sessionStorage.GERUSETTINGLIST = JSON.stringify(GERUSETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.AMINTASETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.aminta_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			AMINTASETTINGLIST = aton.parse(this.responseText).AMINTA;
-			sessionStorage.AMINTASETTINGLIST = JSON.stringify(AMINTASETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.OTHERSETTINGLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.other_settings}}");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			OTHERSETTINGLIST = aton.parse(this.responseText).OTHER;
-			sessionStorage.OTHERSETTINGLIST = JSON.stringify(OTHERSETTINGLIST);
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (!sessionStorage.WORKLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.worklist}}");
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == maxcount) {
-				buildAllSettingList();
-				buildPoemList(ALLSETTINGLIST);
-				reallyDisplayVariants(id, target);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == maxcount) {
-		buildAllSettingList();
-		buildPoemList(ALLSETTINGLIST);
-		reallyDisplayVariants(id, target);
-		counter++;
-	}
+	reallyDisplayVariants(id, target);
 }
 
 
@@ -371,7 +269,9 @@ function reallyDisplayVariants(id, target) {
 		if (VARIORUM[id]) {
 			var innercontent = document.querySelector("#inner-content");
 			console.log(innercontent);
-			output += "<iframe src='variorum/index.html'></iframe>";
+			var url = "/variorum/index.html?id=" + id;
+console.log("URL", url);
+			output += "<iframe src='" + url + "'></iframe>";
 			if (innercontent) {
 				innercontent.innerHTML = output;
 			}

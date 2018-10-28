@@ -17,3 +17,7 @@ c: collation
 collation:
 	bin/createcollation *.aton
 
+l: list
+list:
+	bin/createidlist > ../../variorum/data/variorum.json
+

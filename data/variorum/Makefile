@@ -1,6 +1,5 @@
 
-all: 
-	echo "Check Makefile"
+update:  variorum collation list
 
 v: variorum
 variorum:

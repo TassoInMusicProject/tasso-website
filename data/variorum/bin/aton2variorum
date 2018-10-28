@@ -791,8 +791,15 @@ sub getVersesX {
 		chomp $line;
 		if ($line =~ /^\@VERSE\s*:\s*$/) {
 			$counter++;
-		} elsif ($line =~ /^\@VERSE/) {
-			die "ERROR ON LINE $line\n";
+		} elsif ($line =~ /^\@VERSE\s*:\s*(.*)\s*$/) {
+			$counter++;
+			my $newline = $1;
+			$newline =~ s/^\s+//;
+			$newline =~ s/\s+$//;
+			if ($newline !~ /^\s*$/)  {
+				$output[$counter] .= "\n$newline";
+				$output[$counter] =~ s/^\n//;
+			}
 		} elsif ($counter >= 0) {
 			$line =~ s/^\s+//;
 			$line =~ s/\s+$//;

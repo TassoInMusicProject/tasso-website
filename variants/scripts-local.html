@@ -104,14 +104,17 @@ function initializeVariantsPage(id, target) {
 	}
 	CurrentPoem = id;
 
-	url = "https://api.github.com/repos/TassoInMusicProject/variorum/contents/data/";
-	// url += CGI.id;
+	var url = "https://www.tassomusic.org/variorum/data/variorum.json";
+
+	// GITHUB API has a limit of 60/hour/computer:
+	// var url = "https://api.github.com/repos/TassoInMusicProject/variorum/contents/data/";
 	var request = new XMLHttpRequest();
 	request.open("GET", url);
 	request.send();
 	request.onload = function() {
 		var filelist = JSON.parse(this.responseText);
-		VARIORUM_DIRECTORIES = [];
+		VARIORUM_DIRECTORIES = filelist;
+/* GITHUB implementation:
 		for (var i=0; i<filelist.length; i++) {
 			if (!filelist[i].type) {
 				continue;
@@ -134,6 +137,7 @@ function initializeVariantsPage(id, target) {
 			}
 			VARIORUM_DIRECTORIES.push(name);
 		}
+*/
 
 		for (var i=0; i<VARIORUM_DIRECTORIES.length; i++) {
 			VARIORUM[VARIORUM_DIRECTORIES[i]] = 1;

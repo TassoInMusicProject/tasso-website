@@ -392,6 +392,7 @@ Handlebars.registerHelper("trclass", function(solerti) {
    len = solerti.length;
    var id = "Trm";
    switch (len) {
+		case 4: id +=         solerti; break;
 		case 3: id += "0"   + solerti; break;
 		case 2: id += "00"  + solerti; break;
 		case 1: id += "000" + solerti; break;

@@ -564,6 +564,27 @@ function continueProcessingOther(element) {
 
 function buildReverseWorklist() {
 	RWORKLIST = {};
+	var wl = TASSODATA.SCORES.SCOREDATA;
+	var rime;
+	for (var i in wl) {
+		if (!RWORKLIST[wl[i].CATALOGNUM]) {
+		   RWORKLIST[wl[i].CATALOGNUM] = 0;
+		}
+		RWORKLIST[wl[i].CATALOGNUM] += 1;
+		rime = wl[i].CATALOGNUM.replace(/[a-z]+$/, "");
+		if (!RWORKLIST[rime]) {
+			RWORKLIST[rime] = 0;
+		}
+		RWORKLIST[rime] += 1;
+	}
+}
+
+//
+// Old function used worklist.json, which is being retired:
+//
+
+function buildReverseWorklistOld() {
+	RWORKLIST = {};
 	var wl = WORKLIST[0].works;
 	var rime;
 	for (var i in wl) {

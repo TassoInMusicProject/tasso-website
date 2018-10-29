@@ -40,11 +40,11 @@ Roseen Giles (Duke University)
 </div>
 
 <div class="person">
-Janet Gomez, literary transcriptions (Johns Hopkins University)
+Janet Gomez (Johns Hopkins University)
 </div>
 
 <div class="person">
-Marcello Mazzetti (University of Southampton)
+Marcello Mazzetti (University of Huddersfield)
 </div>
 
 <div class="person">
@@ -60,7 +60,7 @@ Paul Schleuse (Binghamton University)
 </div>
 
 <div class="person">
-Livio Ticli (University of Southampton)
+Livio Ticli (University of Huddersfield)
 </div>
 
 
@@ -107,7 +107,7 @@ Eleanor Selfridge-Field (CCARH/Stanford University)
 </div>
 
 <div class="person">
-Laurie Stras (University of Southampton) 
+Laurie Stras (University of Huddersfield) 
 </div>
 
 <div class="person">

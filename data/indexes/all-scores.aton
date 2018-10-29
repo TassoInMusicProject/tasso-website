@@ -1416,8 +1416,8 @@
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0284c
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0284c-Questa_vostra_pietate--Macque_1587.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0284c-Questa_vostra_pietate--Macque_1587.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0284c-Questa_vostra_pietate.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0284c-Questa_vostra_pietate.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Tenore
@@ -1426,7 +1426,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	V
+@VABBR:	Q
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -1694,15 +1694,15 @@
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0333e
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0333e-Gelo_ha_Madonna_il_seno--Macque_1587.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0333e-Gelo_ha_Madonna_il_seno--Macque_1587.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0333e-Gelo_ha_Madonna_il_seno.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0333e-Gelo_ha_Madonna_il_seno.krn
 @VNAME:	Canto
 @VNAME:	Quinto
 @VNAME:	Alto
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	V
+@VABBR:	Q
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2052,15 +2052,15 @@
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0560f
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560f-Mentre_mia_stella_miri--Macque_1587.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560f-Mentre_mia_stella_miri--Macque_1587.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560f-Mentre_mia_stella_miri.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560f-Mentre_mia_stella_miri.krn
 @VNAME:	Canto
 @VNAME:	Quinto
 @VNAME:	Alto
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	V
+@VABBR:	Q
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2240,8 +2240,8 @@
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0611d
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0611d-La_bella_pargoletta--Isnardi_1575.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0611d-La_bella_pargoletta--Isnardi_1575.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0611d-La_bella_pargoletta--Isnardi_1577.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0611d-La_bella_pargoletta--Isnardi_1577.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Quinto
@@ -2305,9 +2305,23 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0614c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0614c-Al_vostro_dolce_azzurro--Ingegneri_1579.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0614c-Al_vostro_dolce_azzurro--Ingegneri_1579.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0614j
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0614j-Al_vostro_dolce_azzurro--Genvino_1605.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0614j-Al_vostro_dolce_azzurro--Genvino_1605.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0614j-Al_vostro_dolce_azzurro.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0614j-Al_vostro_dolce_azzurro.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Tenore
@@ -2316,7 +2330,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	V
+@VABBR:	Q
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2326,20 +2340,6 @@
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0615c-Al_tuo_vago_pallore--Macque_1589.krn
 @VNAME:	Quinto
 @VABBR:	Q
-@@END:	SCOREDATA
-
-@@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0641c
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0641c-Al_vostro_dolce_azzurro--Ingegneri_1579.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0641c-Al_vostro_dolce_azzurro--Ingegneri_1579.krn
-@VNAME:	Canto
-@VNAME:	Alto
-@VNAME:	Tenore
-@VNAME:	Basso
-@VABBR:	C
-@VABBR:	A
-@VABBR:	T
-@VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2469,6 +2469,20 @@
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	A
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm1688c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm1688c-Padre_del_cielo_or_chatra_nube_il_calle--Dueto_1586.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm1688c-Padre_del_cielo_or_chatra_nube_il_calle--Dueto_1586.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
 

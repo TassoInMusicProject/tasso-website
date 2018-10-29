@@ -86,11 +86,53 @@
 //
 
 Handlebars.registerHelper("manuscriptSrc", function(src) {
-	var list = src.split(/,\s+/);
+	var list = [];
+	if (src.match(/letter/)) {
+		// Manuscript letter to Giulio Segni (23 June, 1587)
+		// letter to G. Segni (23 June 1587)
+		list[0] = src.replace(/^Manuscript /, "").replace(/Giulio/, "G.");
+	} else {
+		list = src.split(/,\s+/);
+	}
 	var output = "";
+	var matches;
 	for (var i=0; i<list.length; i++) {
+		var minfo = RSOURCES[list[i]];
+		var info = "";
+		if (!minfo) {
+			console.log("Error:", list[i], "is not found in manuscript database");
+		} else {
+			if (minfo.SIGLUM) {
+				info += minfo.SIGLUM;
+			}
+			if (minfo.LOCATION) {
+				if (info) {
+					info += ", ";
+				}
+				if (matches = minfo.LOCATION.match(/([^,]+), ([^,]+), (.*)/)) {
+					// no country information
+					info += matches[1] + ", " + matches[2];
+				} else {
+					// Vatican city case
+					info += minfo.LOCATION;
+				}
+			}
+			if (minfo.DATING) {
+				if (info) {
+					info += ", ";
+				}
+				info += minfo.DATING;
+			}
+		}
+		if (list[i].match(/none/i)) {
+			info = "no manuscript sources for poem";
+		} else if (info.match(/^\s*$/)) {
+			info = "missing information for manuscript " + list[i];
+		} else {
+			info = list[i] + ": " + info;
+		}
 		output += "<span class='tooltip'>" + list[i];
-		output += "   <span class='tooltiptext'>print info for " + list[i] + " goes here</span>";
+		output += "   <span class='tooltiptext'>" + info + "</span>";
 		output += "</span>";
 		if (i < list.length - 1) {
 			output += ", ";
@@ -140,7 +182,9 @@ Handlebars.registerHelper("printSrc", function(src) {
 				info += " (" + pub + ")";
 			}
 		}
-		if (info.match(/^\s*$/)) {
+		if (list[i].match(/none/i)) {
+			info = "no print sources for poem";
+		} else if (info.match(/^\s*$/)) {
 			info = "missing information for print" + list[i];
 		} else {
 			info = list[i] + ": " + info;

@@ -36,11 +36,11 @@ div#contents {
 }
 
 .tooltip .tooltiptext {
-/* for top positining: 
-	bottom: 100%;
-	left: 50%; 
-*/
-	top: -5px;
+/* for top positining:  */
+	/* left: 50%;  */
+	bottom: 50%;
+
+	/* top: -5px; */
 	right: 105%;
 
 	margin-left: -110px; /* Use half of the width (120/2 = 60), to center the tooltip */

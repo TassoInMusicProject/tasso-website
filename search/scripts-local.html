@@ -1,4 +1,6 @@
 
+{% include_relative templates.html %}
+{% include_relative listeners.html %}
 
 <script src="/scripts/scripts-common.js"></script>
 
@@ -6,28 +8,6 @@
 // vim: ts=3
 
 var RWORKLIST;
-
-document.addEventListener("DOMContentLoaded", function() {
-	HighlightNavigationBar();
-
-	$("#pitch").focus(function() {
-		$(this).data("hasfocus", true);
-	});
-
-	$(document.body).keyup(function(event) {
-		//if (event.which == EnterKey) {
-			if ($("#pitch:focus")) {
-				doSearch();
-			} else if ($("#interval:focus")) {
-				doSearch();
-			} else if ($("#rhythm:focus")) {
-				doSearch();
-			}
-		//}
-	});
-
-	buildReverseWorklist();
-});
 
 
 
@@ -134,8 +114,20 @@ function displayResults(results) {
 
 function displayResultRow(entry) {
 	var meta = RWORKLIST[entry.id];
-	var title = meta.title;
-	var composer = meta.comshort;
+	var title;
+	if (meta) {
+		if (meta.TITLE) {
+			title = meta.TITLE;
+		} else if (meta.RIMETITLE) {
+			title = meta.RIMETITLE;
+		}
+	} else {
+		console.log("ID ", entry.id, " is empty (and has no title)");
+		console.log("This is probably because the search index needs to be updated");
+		return "";
+	}
+	var composer = meta.COMPOSER.replace(/,.*/, "");
+	
 	// var url = "http://www.tassomusic.org/work?"
 	var url = "/work?"
 	var rtext = "<tr>";
@@ -163,11 +155,17 @@ function displayResultRow(entry) {
 //
 
 function buildReverseWorklist() {
+	PrepareGlobalTassoObjects();
+
 	WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+
 	RWORKLIST = {};
-	var wl = WORKLIST[0].works;
+
+	var wl = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
+	// add other poems here later.
+
 	for (var i in wl) {
-		RWORKLIST[wl[i].id] = wl[i];
+		RWORKLIST[wl[i].CATALOGNUM] = wl[i];
 	}
 }
 

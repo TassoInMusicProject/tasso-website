@@ -1,0 +1,37 @@
+
+<script>
+// vim: ts=3 ft=javascript
+
+
+//////////////////////////////
+//
+// Function called when document has finished loading:
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	CGI = GetCgiParameters();
+	HighlightNavigationBar();
+
+	$("#pitch").focus(function() {
+		$(this).data("hasfocus", true);
+	});
+
+	$(document.body).keyup(function(event) {
+		//if (event.which == EnterKey) {
+			if ($("#pitch:focus")) {
+				doSearch();
+			} else if ($("#interval:focus")) {
+				doSearch();
+			} else if ($("#rhythm:focus")) {
+				doSearch();
+			}
+		//}
+	});
+
+	LoadTassoData(buildReverseWorklist);
+});
+
+
+
+</script>
+

@@ -23,9 +23,9 @@ Clicking on the main section headers displays a list of all the poems (or excerp
 ### **Poetic Repertoire**
 - <i>Rime</i>: these poems are catalogued after Angelo Solerti's numbering in his 1898-1902 edition. Although based on an often flawed and romanticized reconstruction of the chronology of Tasso’s <i>Rime</i>, Solerti’s numbering remains universally used in Tasso scholarship. Likewise, for the literary sources of the <i>Rime</i> the project employs Solerti's sigla, with integrations for manuscript sources from Vercingetorige Martignone, <i>Catalogo dei manoscritti delle Rime di Torquato Tasso </i> (Bergamo: Centro di Studi Tassiani, 2004).
 
-- <i>Gerusalemme liberata</i>: excerpts from this poem are arranged by Canto and Ottava. For manuscript sources, the project employs Solerti's sigla. Printed sources are catalogued by year of publication followed by publisher initials: e.g., 1581CV=(Torquato Tasso, <i>Gerusalemme liberata</i>, Casalmaggiore: Canacci & Viotti, 1581).
+- <i>Gerusalemme liberata</i>: excerpts from this poem are arranged by Canto and Ottava. For manuscript sources, the project employs Solerti's sigla. Printed sources are catalogued by year of publication followed by publisher initials: e.g., 1581CV=Torquato Tasso, <i>Gerusalemme liberata</i> (Casalmaggiore: Canacci & Viotti, 1581).
 
-### **Musical Repetroire**
+### **Musical Repertoire**
 
 ## **Work Pages**
 

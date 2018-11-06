@@ -5,17 +5,17 @@ layout: simple
 ## **Website Layout**
 Because the project is poetry-based, the website is structured around four main sections, each devoted to a particular poem or group of poems by Tasso. The four sections, headers for which are shown on the homepage, are the following:
 
-- Rime
+- <i>Rime
 - Gerusalemme liberata
 - Aminta
-- Other Poems (i.e., Ecloghe, Rinaldo, Lagrime della Beata Vergine, Re Torrismondo, Gerusalemme conquistata).
+- Other Poems<i> (i.e., Ecloghe, Rinaldo, Lagrime della Beata Vergine, Re Torrismondo, Gerusalemme conquistata).
   
-The ordering of these sections (arranged from left to right on the homepage), reflect the musical fortune of each poem or group of poems, the <i>Rime</i> having received over 500 settings and Other Poems having received collectively only around a dozen. 
+The ordering of these sections (arranged from left to right on the homepage), reflect the musical fortune of each poem or group of poems, the Rime having received over 500 settings and Other Poems having received collectively only around a dozen. 
 Clicking on the main section headers displays a list of all the poems (or excerpts of a larger poem) for that section. For each poem (or excerpt) there are four sub-headers: 
 
-- "About" links to pages that feature  the text of the poem in modern edition and line-by-line English translation, with information about attribution, date of composition, dedicatees, and other modern edition; 
-- "Literary Sources" leads to a list of 16th- and 17th-century literary sources for that poem (or excerpt), both manuscript and printed, with brief descriptions of each source and hyperlinks to digitized examplars, when they exist; 
-- "Musical Settings" links to a list of all musical settings for that poem, which in turn links to workpages where each setting is available in modern edition with critical apparatus and commentary; 
+- "About" links to pages that feature  the text of the poem in modern edition and line-by-line English translation. For the <i>Rime<i/>, the modern editions are drawn from Angelo Solerti, <i>Le rime di Torquato Tasso<i/>, 4 vols. (Bologna: Romagnoli-Dall-Acqua, 1898-1902), which although dated and far from current editorial standards, remains the only comphrensive edition of Tasso's <i>Rime<i/>. When a poem from the <i>Rime<i/> is available in the currently undergoing Edizione Nazionale delle Opere di Torquato Tasso (Alessandria: Edizioni Dall'Orso), bibliographic references to this edtion are provided. The "About" pages also feature information about attribution, date of composition, dedicatees of each poem.
+- "Literary Sources" leads to a list of 16th- and 17th-century literary sources for that poem (or excerpt), both manuscript and printed, with brief descriptions of each source and hyperlinks to digitized examplars, when they exist. 
+- "Musical Settings" links to a list of all musical settings for that poem, which in turn links to workpages where each setting is available in modern edition with critical apparatus and commentary.
 - "Literary Variants," links to pages featuring quasi-diplomatic transcriptions of each poem (or excerpt) as they appear in literary sources, both mnasucript and literary, and in the text underlay of the musical settings. The transcriptions are collated and variant readings across sources are displayed dynamically.
 
 ## **Repertorie Organization/Cataloguing**

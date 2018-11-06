@@ -190,16 +190,22 @@ sub createVariorumXml {
 		}
 		my $pid = $data{"ID"};
 		my $pp = $PRINTS{$pid};
+		
+		if ($pid eq "S21") {
+			# ignore this case for now as it is missing from index file.	
+		} elsif ($pp =~ /^\s*$/) {
+			die "Cannot work without print reference >>$pid<<\n";
+		} elsif (!$pp) {
+			die "Cannot work without print reference >>$pid<<\n";
+		} 
 
-		if ($pp =~ /^\s*$/) {
-			"die: Cannot work without reference >>$pid<<";
+		if ($pid ne "S21") {
+			%p = %$pp;
+			$data{'PRINTTITLE'} = $p{'PRINTTITLE'};     # title
+			$data{'PUBLISHER'} = $p{'PUBLISHER'};       # publisher
+			$data{'PUBLOCATION'} = $p{'PUBLOCATION'};   # pubPlace
+			$data{'PUBYEAR'} = $p{'PUBYEAR'};           # date
 		}
-
-		%p = %$pp;
-		$data{'PRINTTITLE'} = $p{'PRINTTITLE'};     # title
-		$data{'PUBLISHER'} = $p{'PUBLISHER'};       # publisher
-		$data{'PUBLOCATION'} = $p{'PUBLOCATION'};   # pubPlace
-		$data{'PUBYEAR'} = $p{'PUBYEAR'};           # date
 	}
 
 	# VERSEDATA->TITLE: TITLE

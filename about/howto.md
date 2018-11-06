@@ -8,7 +8,7 @@ Because the project is poetry-based, the website is structured around four main 
 - <i>Rime</i>
 - <i>Gerusalemme liberata</i>
 - <i>Aminta</i>
-- <i>Other Poems</i> (i.e., <i>Ecloghe<i/>, <i>Rinaldo</i>, <i>Lagrime della Beata Vergine</i>, <i>Re Torrismondo</i>, <i>Gerusalemme conquistata</i>).
+- <i>Other Poems</i> (i.e., <i>Ecloghe<i/>, <i>Rinaldo</i>, <i>Lagrime della Beata Vergine</i>, <i>Re Torrismondo</i>, <i>Gerusalemme conquistata</i>).</i>
   
 The ordering of these sections (arranged from left to right on the homepage), reflect the musical fortune of each poem or group of poems, the <i>Rime</i> having received over 500 settings and <i>Other Poems</i> having received collectively only around a dozen. 
 Clicking on the main section headers displays a list of all the poems (or excerpts of a larger poem) for that section. For each poem (or excerpt) there are four sub-headers: 

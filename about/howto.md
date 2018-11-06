@@ -6,7 +6,7 @@ layout: simple
 Because the project is poetry-based, the website is structured around four main sections, each devoted to a particular poem or group of poems by Tasso. The four sections, headers for which are shown on the homepage, are the following:
 
 - <i>Rime</i>
-- Gerusalemme liberata
+- <i>Gerusalemme liberata</i>
 - <i>Aminta</i>
 - <i>Other Poems </i> (i.e., <i>Ecloghe</i>, <i>Rinaldo</i>, <i>Lagrime della Beata Vergine</i>, <i>Re Torrismondo</i>, <i>Gerusalemme conquistata</i>).
   

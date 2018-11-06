@@ -5,10 +5,10 @@ layout: simple
 ## **Website Layout**
 Because the project is poetry-based, the website is structured around four main sections, each devoted to a particular poem or group of poems by Tasso. The four sections, headers for which are shown on the homepage, are the following:
 
-- Rime
+- <i>Rime
 - Gerusalemme liberata
 - Aminta
-- Other Poems (i.e., Ecloghe, Rinaldo, Lagrime della Beata Vergine, Re Torrismondo, Gerusalemme conquistata).
+- Other Poems </i> (i.e., Ecloghe, Rinaldo, Lagrime della Beata Vergine, Re Torrismondo, Gerusalemme conquistata).
   
 The ordering of these sections (arranged from left to right on the homepage), reflect the musical fortune of each poem or group of poems, the Rime having received over 500 settings and Other Poems having received collectively only around a dozen. 
 Clicking on the main section headers displays a list of all the poems (or excerpts of a larger poem) for that section. For each poem (or excerpt) there are four sub-headers: 

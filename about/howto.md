@@ -3,13 +3,16 @@ layout: simple
 ---
 
 ## **Website Layout**
-Because the project is poetry-based, the website is structured around four main sections, each devoted to a particular poem or group of poems by Tasso. The four sections, headers for which are shown on the homepage, are the following: 
+Because the project is poetry-based, the website is structured around four main sections, each devoted to a particular poem or group of poems by Tasso. The four sections, headers for which are shown on the homepage, are the following:
+
 - <i>Rime</i>
 - <i>Gerusalemme liberata</i>
 - <i>Aminta</i>
-- <i>Other Poems</i> (i.e., <i>Ecloghe<i/>, <i>Rinaldo</i>, <i>Lagrime della Beata Vergine</i>, <i>Re Torrismondo</i>, <i>Gerusalemme conquistata</i>). 
+- <i>Other Poems</i> (i.e., <i>Ecloghe<i/>, <i>Rinaldo</i>, <i>Lagrime della Beata Vergine</i>, <i>Re Torrismondo</i>, <i>Gerusalemme conquistata</i>).
+  
 The ordering of these sections (arranged from left to right on the homepage), reflect the musical fortune of each poem or group of poems, the <i>Rime</i> having received over 500 settings and <i>Other Poems</i> having received collectively only around a dozen. 
 Clicking on the main section headers displays a list of all the poems (or excerpts of a larger poem) for that section. For each poem (or excerpt) there are four sub-headers: 
+
 - "About" provides the text of the poem in modern edition and line-by-line English translation, with information about attribution, date of composition, dedicatees, and other modern edition; 
 - "Literary Sources" leads to a list of 16th- and 17th-century literary sources for that poem (or excerpt), both manuscript and printed, with brief descriptions of each source and hyperlinks to digitized examplars, when they exist; 
 - "Musical Settings" links to a list of all musical settings for that poem, which in turn links to workpages where each setting is available in modern edition with critical apparatus and commentary; 

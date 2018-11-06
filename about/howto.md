@@ -20,6 +20,10 @@ Clicking on the main section headers displays a list of all the poems (or excerp
 
 ## **Repertorie Organization/Cataloguing**
 
+### **Poetic Repertoire**
+
+### **Musical Repetroire**
+
 ## **Work Pages**
 
 ## **Literary Variants**

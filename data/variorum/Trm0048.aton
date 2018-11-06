@@ -238,9 +238,21 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		S29
 @TYPE:		print
 @SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@PAGE:		9
+@PARATEXT:	Ad Amore
 @VERSE:		
+Amor l’alma m’allaccia
+Di dolci aspri catene:
+Nò mi doglio io perciò, ma ben l’accuso,
+Che mi leghi, & affrene
+La lingua, acciò ch’io taccia
+Anzi a Madonna timido, e confuso,
+E’n mia ragion deluso,
+@VERSE:
+Sciogli, pietoso Amore,
+La lingua, e se non vuoi,
+Che mi stringa un sol men de’ lacci tuoi,
+Tanti n’aggiungi in quella vece al core.
 @@END: VARIORUM
 
 
@@ -326,9 +338,20 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048b-Canto
 @TYPE:		music
 @COMPOSER:	Mazza, Francesco
-@PAGE:		
+@PAGE:		10
 @PARATEXT:	
 @VERSE:		
+Amor l’alma m’allaccia
+Di dolci aspre catene
+Ne mi doglio per ciò ma ben l’accuso
+Che mi legh’& affrene
+La lingua acciò ch’io taccia
+Anzi a madonna timido & confuso
+E ’n mia ragion deluso
+Sciogli pietoso Amore
+La lingua & se non vuoi
+Che mi string’un sol men de lacci tuoi
+Tanti n’agiung’in quella vece al core.
 @@END: VARIORUM
 
 
@@ -337,9 +360,20 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048b-Tenore
 @TYPE:		music
 @COMPOSER:	Mazza, Francesco
-@PAGE:		
+@PAGE:		10
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Amor l’alma m’allaccia
+Di dolci aspre catene
+Ne mi doglio per ciò ma ben l’accuso
+Che mi legh’& affrene
+La lingua acciò ch’io taccia
+Anzi a madonna timido & confuso
+E ’n mia ragion deluso
+Sciogli pietoso Amore
+La lingua [TACET]
+Che mi string’un sol men de lacci tuoi
+Tanti n’agiung’in quella vece al core.
 @@END: VARIORUM
 
 
@@ -348,9 +382,20 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048b-Basso
 @TYPE:		music
 @COMPOSER:	Mazza, Francesco
-@PAGE:		
+@PAGE:		10
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+[TACET]
+Di dolci aspre catene
+Ne mi doglio per ciò ma ben l’accuso
+Che mi legh’& affrene
+La lingua [TACET]
+[TACET]
+E ’n mia ragion deluso
+Sciogli pietoso Amore
+La lingua & se non vuoi
+Che mi string’un sol men de lacci tuoi
+Tanti n’agiung’in quella vece al core.
 @@END: VARIORUM
 
 
@@ -359,20 +404,66 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048b-Quinto
 @TYPE:		music
 @COMPOSER:	Mazza, Francesco
-@PAGE:		
+@PAGE:		10
 @PARATEXT:	
 @VERSE:		
+Amor l’alma m’allaccia
+Di dolci aspre catene
+Ne mi doglio per ciò ma ben l’accuso
+Che mi legh’& affrene
+La lingua acciò ch’io taccia
+Anzi a madonna timido & confuso
+E ’n mia ragion deluso
+Sciogli pietoso Amore
+La lingua & se non vuoi
+Che mi string’un sol men de lacci tuoi
+Tanti n’agiung’in quella vece al core.
 @@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0048
-@ID:		Trm0048c-
+@ID:		Trm0048c-Canto
 @TYPE:		music
 @COMPOSER:	Dueto, Antonio
-@PAGE:		
+@PAGE:		3-4
 @PARATEXT:	
 @VERSE:		
+Amor l’alma m’allaccia
+Di dolci aspre catene
+Ne mi doglio io per ciò ma ben l’accuso
+Che mi legh’& affrene
+La lingua accio ch’io taccia
+Anzi Madonna timido e confuso
+E in mia raggion deluso.
+@VERSE:
+Sciogli pietoso Amore
+La lingua e se non vuoi
+Che mi stringa un sol men de lacci tuoi
+Tanti n’aggiungi in quella vece al core.
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0048
+@ID:		Trm0048c-Quinto
+@TYPE:		music
+@COMPOSER:	Dueto, Antonio
+@PAGE:		3-4
+@PARATEXT:	
+@VERSE:
+Amor l’alma m’allaccia
+Di dolci aspre catene
+Ne mi doglio per ciò ma ben l’accuso
+Che mi legh’& affrene
+La lingua accio ch’io taccia
+Anzi Madonna timido e confuso
+E in mia raggion deluso.
+@VERSE:
+Sciogli pietoso Amore
+La lingua e se non vuoi
+Che mi string’un sol men de lacci tuoi
+Tanti n’aggiungi in quella vece al core.
 @@END: VARIORUM
 
 

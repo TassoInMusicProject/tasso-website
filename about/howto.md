@@ -21,7 +21,7 @@ Clicking on the main section headers displays a list of all the poems (or excerp
 ## **Repertorie Organization/Cataloguing**
 
 ### **Poetic Repertoire**
-- <i>Rime</i>: these poems are catalogued after Angelo Solerti's numbering in his 1898-1902 edition. Although based on an often flawed and romanticized reconstruction of the chronology of Tasso’s <i>Rime</i>, Solerti’s numbering remains universally used in Tasso scholarship. Likewise, for the literary sources of the <i>Rime</i> the project employs Solerti's sigla, with integrations from Vercingetorige Martignone, <i>Catalogo dei manoscritti delle Rime di Torquato Tasso </i> (Bergamo: Centro di Studi Tassiani, 2004) for manuscript sources.
+- <i>Rime</i>: these poems are catalogued after Angelo Solerti's numbering in his 1898-1902 edition. Although based on an often flawed and romanticized reconstruction of the chronology of Tasso’s <i>Rime</i>, Solerti’s numbering remains universally used in Tasso scholarship. Likewise, for the literary sources of the <i>Rime</i> the project employs Solerti's sigla, with integrations for manuscript sources from Vercingetorige Martignone, <i>Catalogo dei manoscritti delle Rime di Torquato Tasso </i> (Bergamo: Centro di Studi Tassiani, 2004).
 
 ### **Musical Repetroire**
 

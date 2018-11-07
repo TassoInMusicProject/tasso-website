@@ -1060,6 +1060,10 @@ sub cleanForXml {
 	$text =~ s/\&ndash;/\&#x2013;/g;
 	$text =~ s/ \& / \&amp; /g;
 	$text =~ s/\& /\&amp; /g;
+	# Trm0126.aton:Lei sol vagheggio, &, se pur l’altre io miro,
+	# Trm0246.aton:Di le ch’am’&adoro
+	$text =~ s/&, /&amp;, /g;
+	$text =~ s/&adoro/&amp;adoro/g;
 	return $text;
 }
 

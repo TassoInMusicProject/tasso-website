@@ -36,7 +36,7 @@ By clicking on each header, users can visualize a list of all the poems (or exce
 
 - Each <i>Aminta</i> setting is assigned a catalog number composed of the prefix Tam followed by Act, Scene, and Verse of the excerpt set to music and by a letter corresponding to the piece’s place in the chronological list of that poem’s settings. For example, Allegro Porto’s setting of “Vorrai dunque pur Silvia” is catalogued as Tam1010001a, because the excerpt set to music corresponds to Act I, Scene I, Verse 1 and Porto’s is the only extant setting of this portion of Aminta.
 
-- Settings of <i>Other Poems</i> are catalogued following the same principles as <i>Rime</i>, <i>Gerusalemme</i>, and <i>Aminta<i/>, that is, they are assigned a prefix (Tri for <i>Rinaldo</i>, Trt for <i>Re Torrismondo</i>, etc.) followed by numbers indicating the excerpt’s position in the context of the larger work (Canto, Act, Scene, Ottava, Verse, etc.) and a letter indicating the piece’s placement in the chronology of the settings of that text.
+- Settings of <i>Other Poems</i> are catalogued following the same principles as <i>Rime</i>, <i>Gerusalemme</i>, and <i>Aminta</i>, that is, they are assigned a prefix (Tri for <i>Rinaldo</i>, Trt for <i>Re Torrismondo</i>, etc.) followed by numbers indicating the excerpt’s position in the context of the larger work (Canto, Act, Scene, Ottava, Verse, etc.) and a letter indicating the piece’s placement in the chronology of the settings of that text.
 
 
 ## **Work Pages**

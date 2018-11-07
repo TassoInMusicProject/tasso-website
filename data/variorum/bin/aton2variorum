@@ -21,6 +21,9 @@ my %VERSES      = getVerses("$indexdir/$versefile");
 my %SOURCES     = getSources("$indexdir/$sourcefile");
 
 my @contents = <>;
+for (my $i=0; $i<@contents; $i++) {
+	$contents[$i] = cleanForXml($contents[$i]);
+}
 
 my %PARAM;
 
@@ -1056,6 +1059,7 @@ sub cleanForXml {
 	my ($text) = @_;
 	$text =~ s/\&ndash;/\&#x2013;/g;
 	$text =~ s/ \& / \&amp; /g;
+	$text =~ s/\& /\&amp; /g;
 	return $text;
 }
 

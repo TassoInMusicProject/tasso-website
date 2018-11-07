@@ -26,6 +26,7 @@ sub createCollationFile {
 	close FILE;
 	my $catalognum = getCatalogNum(@contents);
 	die "Unknown type of catalog number: $catalognum\n" if $catalognum !~ /^Trm\d+$/;
+	# die "Cannot find source directory $basedir/$catalognum" if !-d "$basedir/$catalognum";
 	return if !-d "$basedir/$catalognum";
 	print "PREPARING $catalognum\n";
 	my $title = getTitle($catalognum);
@@ -308,6 +309,7 @@ sub getCatalogFiles {
 	}
 
 	@output = sortIdList(@output);
+	# print "CATALOG FILES FOR $catalognum: ", join(" ", @output), "\n";
 	return @output;
 }
 

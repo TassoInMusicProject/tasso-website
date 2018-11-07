@@ -23,6 +23,9 @@ sub createCollationFile {
 	my ($file) = @_;
 	open FILE, $file;
 	my @contents = <FILE>;
+	for (my $i=0; $i<@contents; $i++) {
+		$contents[$i] = cleanForXml($contents[$i]);
+	}
 	close FILE;
 	my $catalognum = getCatalogNum(@contents);
 	die "Unknown type of catalog number: $catalognum\n" if $catalognum !~ /^Trm\d+$/;
@@ -593,7 +596,7 @@ sub getAtonEntry {
 	my $outindex = -1;
 	my $value;
 	for (my $i=$start; $i<@contents; $i++) {
-		my $line = $contents[$i];
+		my $line = cleanForXml($contents[$i]);
 		chomp $line;
 		if ($line =~ /^\@\@END\s*:\s*$KEY\s*$/) {
 			$outindex = $i;
@@ -678,6 +681,57 @@ print COLFILE <<"EOT";
 </TEI>
 EOT
 
+}
+
+
+
+##############################
+##
+## cleanForXml --
+##
+
+sub cleanForXml {
+	my ($text) = @_;
+	return $text if $text !~ /\&/;
+	$text =~ s/\&ndash;/\&#x2013;/g;
+	$text =~ s/ \& / \&amp; /g;
+	$text =~ s/\& /\&amp; /g;
+	# Trm0126.aton:Lei sol vagheggio, &, se pur l’altre io miro,
+	# Trm0246.aton:Di le ch’am’&adoro
+	$text =~ s/\&, /&amp;, /g;
+	$text =~ s/\&adoro/&amp;adoro/g;
+	$text =~ s/\&c\./&amp;c./g;
+	$text =~ s/\&aacute;/á/g;
+	$text =~ s/\&eacute;/é/g;
+	$text =~ s/\&iacute;/í/g;
+	$text =~ s/\&oacute;/ó/g;
+	$text =~ s/\&uacute;/ú/g;
+	$text =~ s/\&agrave;/à/g;
+	$text =~ s/\&egrave;/è/g;
+	$text =~ s/\&igrave;/ì/g;
+	$text =~ s/\&ograve;/ò/g;
+	$text =~ s/\&ugrave;/ù/g;
+	$text =~ s/\&auml;/ä/g;
+	$text =~ s/\&euml;/ë/g;
+	$text =~ s/\&iuml;/ï/g;
+	$text =~ s/\&ouml;/ö/g;
+	$text =~ s/\&uuml;/ü/g;
+	$text =~ s/\&Aacute;/Á/g;
+	$text =~ s/\&Eacute;/É/g;
+	$text =~ s/\&Iacute;/Í/g;
+	$text =~ s/\&Oacute;/Ó/g;
+	$text =~ s/\&Uacute;/Ú/g;
+	$text =~ s/\&Agrave;/À/g;
+	$text =~ s/\&Egrave;/È/g;
+	$text =~ s/\&Igrave;/Ì/g;
+	$text =~ s/\&Ograve;/Ò/g;
+	$text =~ s/\&Ugrave;/Ù/g;
+	$text =~ s/\&Auml;/Ä/g;
+	$text =~ s/\&Euml;/Ë/g;
+	$text =~ s/\&Iuml;/Ï/g;
+	$text =~ s/\&Ouml;/Ö/g;
+	$text =~ s/\&Uuml;/Ü/g;
+	return $text;
 }
 
 

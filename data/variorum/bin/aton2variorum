@@ -177,12 +177,12 @@ sub createVariorumXml {
 		}
 		my $ss = $SETTINGS{$sid};
 		%s = %$ss;
-		$data{'PRINCEPSTITLE'} = $s{'PRINCEPSTITLE'};     # title
-		$data{'COMPOSER'} = $s{'COMPOSER'};               # author@role="composer"
-		$data{'NORMPUBSHORT'} = $s{'NORMPUBSHORT'};       # publisher
-		$data{'NORMLOC'} = $s{'NORMLOC'};                 # publisher location
-		$data{'PRINCEPSYEAR'} = $s{'PRINCEPSYEAR'};       # publication year
-		$data{'PRINCEPSRISM'} = $s{'PRINCEPSRISM'};       # idno  (RISM number)
+		$data{'PRINCEPSTITLE'} = $s{'PRINCEPSTITLE'};      # title
+		$data{'COMPOSER'}      = $s{'COMPOSER'};           # author@role="composer"
+		$data{'NORMPUBSHORT'}  = $s{'NORMPUBSHORT'};       # publisher
+		$data{'NORMLOC'}       = $s{'NORMLOC'};            # publisher location
+		$data{'PRINCEPSYEAR'}  = $s{'PRINCEPSYEAR'};       # publication year
+		$data{'PRINCEPSRISM'}  = $s{'PRINCEPSRISM'};       # idno  (RISM number)
 	}
 
 	my %p;
@@ -201,10 +201,10 @@ sub createVariorumXml {
 		} 
 
 		%p = %$pp;
-		$data{'PRINTTITLE'} = $p{'PRINTTITLE'};     # title
-		$data{'PUBLISHER'} = $p{'PUBLISHER'};       # publisher
+		$data{'PRINTTITLE'}  = $p{'PRINTTITLE'};    # title
+		$data{'PUBLISHER'}   = $p{'PUBLISHER'};     # publisher
 		$data{'PUBLOCATION'} = $p{'PUBLOCATION'};   # pubPlace
-		$data{'PUBYEAR'} = $p{'PUBYEAR'};           # date
+		$data{'PUBYEAR'}     = $p{'PUBYEAR'};       # date
 	}
 
 	# VERSEDATA->TITLE: TITLE
@@ -597,6 +597,7 @@ sub printTitleStmt {
 	indent($n); print VFILE "<titleStmt>\n";
 	indent($n+1);
 	print VFILE "<title>";
+print "TITLE : $PARAM{'TITLE'}\n";
 	print VFILE $PARAM{'TITLE'};
 	print VFILE "</title>\n";
 	indent($n); print VFILE "</titleStmt>\n";
@@ -1057,13 +1058,45 @@ sub cleanKey {
 
 sub cleanForXml {
 	my ($text) = @_;
+	return $text if $text !~ /\&/;
 	$text =~ s/\&ndash;/\&#x2013;/g;
 	$text =~ s/ \& / \&amp; /g;
 	$text =~ s/\& /\&amp; /g;
 	# Trm0126.aton:Lei sol vagheggio, &, se pur l’altre io miro,
 	# Trm0246.aton:Di le ch’am’&adoro
-	$text =~ s/&, /&amp;, /g;
-	$text =~ s/&adoro/&amp;adoro/g;
+	$text =~ s/\&, /&amp;, /g;
+	$text =~ s/\&adoro/&amp;adoro/g;
+	$text =~ s/\&c\./&amp;c./g;
+	$text =~ s/\&aacute;/á/g;
+	$text =~ s/\&eacute;/é/g;
+	$text =~ s/\&iacute;/í/g;
+	$text =~ s/\&oacute;/ó/g;
+	$text =~ s/\&uacute;/ú/g;
+	$text =~ s/\&agrave;/à/g;
+	$text =~ s/\&egrave;/è/g;
+	$text =~ s/\&igrave;/ì/g;
+	$text =~ s/\&ograve;/ò/g;
+	$text =~ s/\&ugrave;/ù/g;
+	$text =~ s/\&auml;/ä/g;
+	$text =~ s/\&euml;/ë/g;
+	$text =~ s/\&iuml;/ï/g;
+	$text =~ s/\&ouml;/ö/g;
+	$text =~ s/\&uuml;/ü/g;
+	$text =~ s/\&Aacute;/Á/g;
+	$text =~ s/\&Eacute;/É/g;
+	$text =~ s/\&Iacute;/Í/g;
+	$text =~ s/\&Oacute;/Ó/g;
+	$text =~ s/\&Uacute;/Ú/g;
+	$text =~ s/\&Agrave;/À/g;
+	$text =~ s/\&Egrave;/È/g;
+	$text =~ s/\&Igrave;/Ì/g;
+	$text =~ s/\&Ograve;/Ò/g;
+	$text =~ s/\&Ugrave;/Ù/g;
+	$text =~ s/\&Auml;/Ä/g;
+	$text =~ s/\&Euml;/Ë/g;
+	$text =~ s/\&Iuml;/Ï/g;
+	$text =~ s/\&Ouml;/Ö/g;
+	$text =~ s/\&Uuml;/Ü/g;
 	return $text;
 }
 

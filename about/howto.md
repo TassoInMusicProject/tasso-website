@@ -25,13 +25,36 @@ By clicking on each header, users can visualize a list of all the poems (or exce
 
 - <i>Gerusalemme liberata</i>: excerpts from this poem are arranged by Canto and Ottava. For manuscript sources, the project employs Solerti's sigla. Printed sources are catalogued by year of publication followed by publisher initials: e.g., 1581CV=Torquato Tasso, <i>Gerusalemme liberata</i> (Casalmaggiore: Canacci & Viotti, 1581).
 
+- <i>Aminta</i>: excerpts from this poem are arranged by Act, Scene, and Verse. For manuscript sources, the project employs Solerti's sigla. Printed sources are catalogued by year of publication followed by publisher initials.
+
+- <i>Other Poems</i>: excerpts from this poem are arranged according to their position in the larger work to which they belong. or manuscript sources, the project employs Solerti's sigla. Printed sources are catalogued by year of publication followed by publisher initials.
+
 ### **Musical Repertoire**
+- <i>Rime</i>: Each <i>Rime</i> setting is assigned a catalog number composed of the prefix Trm followed by the poem’s Solerti number and by a letter corresponding to the piece’s place in the chronological list of that poem’s settings. For instance, Giovanni Giacomo Gastoldi’s madrigal on “Non può l’angusto loco” is catalogued as Tas0319a because the poem is number 319 in Solerti’s edition and Gastoldi’s is the only extant setting of this text.
+
+- Each <i>Gerusalemme liberata</i> setting is assigned a catalog number composed of the prefix Tsg followed by Canto and Ottava of the excerpt set to music and by a letter corresponding to the piece’s place in the chronological list of that poem’s settings. For example, Francesco Eredi’s setting of “Rimanti in pace, io vado: a te non lice” is catalogued as Tsg16056a because the excerpt corresponds to Canto XVI, Ottave 56 and Eredi’s is the only extant setting of this text.
+
+- Each <i>Aminta</i> setting is assigned a catalog number composed of the prefix Tam followed by Act, Scene, and Verse of the excerpt set to music and by a letter corresponding to the piece’s place in the chronological list of that poem’s settings. For example, Allegro Porto’s setting of “Vorrai dunque pur Silvia” is catalogued as Tam1010001a, because the excerpt set to music corresponds to Act I, Scene I, Verse 1 and Porto’s is the only extant setting of this portion of Aminta.
+
+- Settings of <i>Other Poems</> are catalogued following the same principles as <i>Rime</i>, <i>Gerusalemme</i>, and <i>Aminta<i/>, that is, they are assigned a prefix (Tri for <i>Rinaldo</i>, Trt for <i>Re Torrismondo</i>, etc.) followed by numbers indicating the excerpt’s position in the context of the larger work (Canto, Act, Scene, Ottava, Verse, etc.) and a letter indicating the piece’s placement in the chronology of the settings of that text.
+
 
 ## **Work Pages**
+Each setting is assigned a work page (accessible from the list of settings of the poem). The work page features a newly made modern edition of the setting, viewable online through Verovio, an SVG (scalar vector graphic) format developed by Laurent Pugin of RISM, Switzerland. By using the commands placed at the top of the score, users may opt to view it in its entirety or only as an incipit, change modern clefs and time signatures to original ones and vice versa, extract individual parts, remove the text underlay, and play the score using the online playback function. The scores can also be downloaded in a variety of formats, such as PDF, MusicXML, MEI, MuseData, MIDI, MP3. 
 
-## **Literary Variants**
+The editions provided in the work pages are accompanied by a substantial critical apparatus featuring the text of poem as it appears in the underlay, with line-by-line English translation, bibliographic information about the sources consulted (both <i>princeps</i> and reprints, where available), emended readings of the principal source, other critical notes, and commentary discussing the placement of piece in the context of the composer’s output, the overall style of the piece as well as its relationship to other settings of the same poem.
 
-## **Browsing**
 
-## **Searching**
+## **Literary Transcriptions/Variants**
+For each poem (or excerpt of larger poem), under the tab "Literary Variants" users may find diplomatic transcriptions of the poetic text as it appears in literary sources, both manuscript and printed, and in literary sources. Variant readings across sources are hihglighted and displayed dynamically in the right column of the "Literary Variants" page of each poem. The goal of the transcriptions and of the dynamic collation of variants is to facilitate the study of the textual tradition of Tasso's poems and of their transmission to composers.
+
+
+## **Browse**
+Although the repertoire of the project is primarily laid out by poem, it may also be browsed in many other ways by clicking on the “Browse” tab at the top right of the homepage. Among other things, under this tab users may find a census of all the musical settings of the project, which can be sorted chronologically, by composer, by number of voices (original and extant), by publisher, by poem dedicatee, etc. Under the same tab, users may also find a census of poems and their literary sources, which can be sorted by poem dedicatee, poem genre,  number of poems per source, source publisher, source location, etc.
+
+
+## **Search**
+Representing the work of over two hundred composers, very often with parallel settings of the same poems, the repertoire of the project lends itself especially well to analytical and comparative studies. To facilitate quantitative and qualitative analysis of the music and text of the repertoire, the project is equipped with tools that allow users to search the entire corpus, groups of pieces, or individual pieces by pitch, interval, rhythmic pattern, string of words, individual word, and syllable. Boxes for searches applied to the entire corpus or to groups of pieces can be accessed through the “Search” tab at the top right of the homepage. Boxes for searches applied to an individual piece are located above the score in that piece’s work page.
+
+
 

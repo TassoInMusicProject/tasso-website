@@ -75,6 +75,10 @@ Giuseppe Gerbino (Columbia University)
 </div>
 
 <div class="person">
+Marco Mangani (University of Ferrara) 
+</div>
+
+<div class="person">
 Massimo Ossi (Indiana University Bloomington) 
 </div>
 

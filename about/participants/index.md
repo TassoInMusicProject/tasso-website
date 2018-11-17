@@ -99,6 +99,10 @@ Eugenio Refini (Johns Hopkins University)
 </div>
 
 <div class="person">
+Cesarino Ruini (University of Bologna)
+</div>
+
+<div class="person">
 Jesse Rodin (Stanford University) 
 </div>
 

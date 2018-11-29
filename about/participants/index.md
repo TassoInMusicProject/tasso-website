@@ -56,6 +56,10 @@ Anthony Newcomb (University of California, Berkeley)
 </div>
 
 <div class="person">
+Diego Perotti (University of Verona)
+</div>
+
+<div class="person">
 Paul Schleuse (Binghamton University)
 </div>
 

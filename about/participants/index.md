@@ -170,8 +170,12 @@ Comitato Nazionale Per Il V Centenario Dell'Orlando Furioso
 </tr>
 
 <tr>
-	<td align="center" colspan="2">
+	<td>
 		<a target="_new" href="http://www.furioso16.it"><img width="300" src="/images/furioso_2016-500.png"></a>
+	</td>
+
+	<td>
+		<a target="_new" href="http://stum.unife.it"><img width="250" src="/images/ferrara.png"></a>
 	</td>
 </tr>
 

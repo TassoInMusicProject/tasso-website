@@ -28,23 +28,27 @@
 @@BEGIN:	VERSES
 @ABOUTIT:	Licori
 @ABOUTEN:	Lycoris
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Opere minori in versi di Torquato Tasso
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Zanichelli
+@EDITION_DATE:  1895
+@EDITION_VOL:	III
+@EDITION_PAGE:  399
+@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
 	Dimmi, mesto pastore,
 	Qual muto pesce o quale è rozzo armento
 	Che non faccia d'amor qualche concento?
+@TVERSE:
+	Dimmi, mesto pastore,
+	Qual muto pesce o quale è rozzo armento
+	Che non faccia d'amor qualche concento?
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@DATING:	1579
+@DEDICATEE:	Margherita Gonzaga d'Este
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -58,14 +62,14 @@
 @@BEGIN:	VERSES
 @ABOUTIT:	Tirsi
 @ABOUTEN:	Tyrsis
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Opere minori in versi di Torquato Tasso
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Zanichelli
+@EDITION_DATE:  1895
+@EDITION_VOL:	III
+@EDITION_PAGE:  405
+@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
 	Di che cantar degg'io?
 	Di Clori o d'Atalanta?
@@ -86,11 +90,31 @@
 	Vaghe di tua beltate
 	Rendi le valli e i monti,
 	Ch'ornano a te le verdi erbose fonti.
+@TVERSE:
+	Of what must I sing?
+Of Chloris or of Atalanta?
+Or even, as utmost desire tempts me,
+Of She who, upon this shore,
+Shows herself in the form of a heavenly goddess?
+O happy maiden,
+For whom the river ran with pure milk;
+For whom the unsullied lands
+The cradle of new flowers
+Scattered in various manners,
+And the breezes sighed and the sky smiled:
+Oh, daughter and wife of heroes,
+Desired famous mother of heroes,
+Oh, grown in age,
+Happiest woman,
+Who, while you wander, playing in [your] braid and in [your] skirt,
+Lovely, with your beauty, [do]
+You make the valleys and the mountains
+That the green grassy springs decorate for you.
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@DATING:	1579
+@DEDICATEE:	Margherita Gonzaga d'Este
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -103,15 +127,15 @@
 @PRINTSRC:	
 @@BEGIN:	VERSES
 @ABOUTIT:	Arezia
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@ABOUTEN:	Arezia
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Opere minori in versi di Torquato Tasso
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Zanichelli
+@EDITION_DATE:  1895
+@EDITION_VOL:	III
+@EDITION_PAGE:  412
+@TRANSLATOR:	Amyrose McCue Gill Emiliano Ricciardi 
 @VERSE:	
 	Chè, qual tenera rosa
 	A la rugiada, a l'ôra
@@ -122,11 +146,21 @@
 	De 'l gran pianeta ardente,
 	Apre languendo le purpuree spoglie
 	E 'l bel raggio de 'l sole in grembo accoglie:
+@TVERSE:
+	For, that tender rose
+Bedewed, at the hour
+Of rising dawn
+Does not open, bashfully,
+Her vermilion and perfumed breast:
+But, now that nearer she feels the heat
+Of the great burning planet,
+She opens, languishing, her purpled petals
+And gathers to her bosom the beautiful ray of the sun. 
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	
 @DATING:	
-@DEDICATEE:	
+@DEDICATEE:	?
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -141,14 +175,14 @@
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Opere minori in versi di Torquato Tasso
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Zanichelli
+@EDITION_DATE:  1895
+@EDITION_VOL:	III	
+@EDITION_PAGE:  412-13
+@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
 	Così la verginella
 	A i pianti ed a i sospiri
@@ -161,32 +195,44 @@
 	Ma come t'udì Clori
 	Quando le apristi le tue pene ascose?
 	E come ti rispose?
+@TVERSE:
+Thus the maiden,
+To the laments and to the sighs
+Of a new lover who might gaze [upon her from] afar,
+Closes her timid heart;
+But, now that closer comes the lively ardor
+Of an amorous aspect,
+Languishing she opens the way through the eyes to the heart,
+And in her maiden’s breast receives Love.
+But how did Chloris hear you
+When you revealed your hidden pains to her?
+And how did she answer you?
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	
 @DATING:	
-@DEDICATEE:	
+@DEDICATEE:	?
 @COMMENTARY:    
 @@END:		VERSEDATA
 
 @@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec3108
 @ECLOGA:        III
-@VERSE:		118
+@VERSE:		108
 @TITLE:		Non sospirar pastor, non sospirare 	
 @MANUSRC:	
 @PRINTSRC:	
 @@BEGIN:	VERSES
 @ABOUTIT:	Amarilli
 @ABOUTEN:	Amarillys
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Opere minori in versi di Torquato Tasso
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Zanichelli
+@EDITION_DATE:  1895
+@EDITION_VOL:	III
+@EDITION_PAGE:  426
+@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
 	Non sospirar, Pastor, non sospirare;
 	Queste lagrime amare
@@ -196,40 +242,24 @@
 	Che se Amor da le fiamme de 'l tuo core
 	Può trarre umore e venti,
 	Trarrà da 'l pianto ancor faville ardenti.
+@TVERSE:
+	Do not sigh, Shepherd, do not sigh;
+These bitter tears
+That scatter from your eyes,
+Will not put out the flare of ardor
+That ever consumes you:
+For if Love from the flames of your heart
+Can draw humor[s] and vapors,
+It will again draw from your lament burning sparks.
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	
 @DATING:	
-@DEDICATEE:	
+@DEDICATEE:	?
 @COMMENTARY:    
 @@END:		VERSEDATA
 
-@@BEGIN:	VERSEDATA
-@CATALOGNUM:	
-@ECLOGA:        1
-@VERSE:
-@TITLE:			
-@MANUSRC:	
-@PRINTSRC:	
-@@BEGIN:	VERSES
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
-@VERSE:	
-@@END:		VERSES
-@OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		VERSEDATA
+
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

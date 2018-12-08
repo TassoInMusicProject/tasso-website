@@ -377,8 +377,17 @@ You, wicked sir, you disloyal one,
 @EDITION_DATE:  
 @EDITION_VOL:	
 @EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
+	Chiaro sol, che rotando esci del Gange,
+	D' alta corona di bei raggi adorno,
+	Piangi dolente or con Maria che piange
+	E piovoso ne porta e oscuro il giorno.
+	Tu piangi il duol che la scolora ed ange,
+	O luna, cinta di procelle intorno;
+	E voi spargete ancor di pianto un nembo,
+	Pallide stelle, a l' ampia terra in grembo.
+@TVERSE:
 	Chiaro sol, che rotando esci del Gange,
 	D' alta corona di bei raggi adorno,
 	Piangi dolente or con Maria che piange
@@ -389,8 +398,8 @@ You, wicked sir, you disloyal one,
 	Pallide stelle, a l' ampia terra in grembo.
 @@END:		VERSES
 @OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
+@ATTRIBUTION_ABOUT:	Secure
+@DATING:	Before 1593
 @DEDICATEE:	
 @COMMENTARY:    
 @@END:		VERSEDATA
@@ -403,7 +412,7 @@ You, wicked sir, you disloyal one,
 @@BEGIN:	VERSEDATA
 @CATALOGNUM:	Trt0506
 @ACT:        	V
-@OSCENE:       	6
+@SCENE:       	6
 @SECTION:	Coro
 @TITLE:		Ahi lagrime! ahi dolore	
 @MANUSRC:	
@@ -411,14 +420,14 @@ You, wicked sir, you disloyal one,
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
-@EDITION_VOL:	
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@EDITOR:	Angelo Solerti
+@EDITION_TITLE: Opere minori in versi di Torquato Tasso
+@EDITION_LOC:	Bologna
+@EDITION_PUB:	Zanichelli
+@EDITION_DATE:  1895
+@EDITION_VOL:	III
+@EDITION_PAGE:  358
+@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
 	Ahi lagrime, ahi dolore:
 	Passa la vita e si dilegua e fugge,
@@ -441,11 +450,33 @@ You, wicked sir, you disloyal one,
 	Lutto e lamento e lagrimosi lai.
 	Che più giova amicizia, o giova amore?
 	Ahi lagrime, ahi dolore!
+@TVERSE:
+Alas tears, alas sorrow:
+Life passes and it vanishes and flees,
+Like frost that melts away.
+Every height bends, and falls to earth;
+Every firm support,
+Every powerful realm
+In peace falls at the end, albeit increased with war.
+And, like a winter sunbeam, darkens and dies
+The glory others’ splendor;
+And like an alpine and fast-moving torrent,
+Like a flash of lightning 
+In nighttime calm,
+Like a breeze, or smoke, or like an arrow, [away] suddenly
+Fly our achievements, and every honor
+Seems a wilted flower.
+For what more can one hope or what expect now?
+After triumph and trophy,
+Alone here remain to the soul
+Grief and lament and tearful lays.
+Of what more use is friendship, or of benefit love?
+Alas tears, alas sorrow!
 @@END:		VERSES
 @OTHER_CRIT_ED:  
-@ATTRIBUTION_ABOUT:	
-@DATING:	
-@DEDICATEE:	
+@ATTRIBUTION_ABOUT:	Secure
+@DATING:	1586
+@DEDICATEE:	Vincenzo Gonzaga
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -471,7 +502,7 @@ You, wicked sir, you disloyal one,
 @EDITION_DATE:  
 @EDITION_VOL:	
 @EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi 
+@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
 	Piange, e sospira; e quando i caldi raggi
 	Fuggon le gregge, a la dolce ombra assise,
@@ -481,10 +512,19 @@ You, wicked sir, you disloyal one,
 	E i vari casi in dura scorza incise:
 	E 'n rileggendo poi le proprie note
 	Spargea di pianto le vermiglie gote.
+@TVERSE:
+	She weeps, and sighs; and when from the warm rays
+Flee the herds, to their assembly in the sweet shade,
+Where the bark of pines and indeed of beeches
+Marked the beloved name in a thousand ways:
+And of its fortune the serious offences,
+And the various fates in hard bark carved:
+And while re-reading, then, her own accounts,
+Were streaked with laments her reddened cheeks.
 @@END:		VERSES
 @OTHER_CRIT_ED: 
-@ATTRIBUTION_ABOUT:	
-@DATING:	
+@ATTRIBUTION_ABOUT:	Secure
+@DATING:	1582-93
 @DEDICATEE:	
 @COMMENTARY:    
 @@END:		VERSEDATA

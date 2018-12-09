@@ -639,12 +639,12 @@ Handlebars.registerHelper("voices", function(evoice, ovoice, source) {
 	// var text = ovoice + " (" + evoice + ")";
 
 	var epartbooks = "";
-	if (source.EXTPARTBOOKS && !source.EXTPARTBOOKS.match(/^\s*$/)) {
+	if (source && source.EXTPARTBOOKS && !source.EXTPARTBOOKS.match(/^\s*$/)) {
 		epartbooks = " (" + source.EXTPARTBOOKS + ")";
 	}
 
 	var opartbooks = "";
-	if (source.OPARTBOOKS && !source.OPARTBOOKS.match(/^\s*$/)) {
+	if (source && source.OPARTBOOKS && !source.OPARTBOOKS.match(/^\s*$/)) {
 		opartbooks = " (" + source.OPARTBOOKS + ")";
 	}
 
@@ -724,7 +724,7 @@ function displaySourceInformation(source) {
 	}
 */
 
-	if (source.RISM) {
+	if (source && source.RISM) {
 		var rism = source.RISM;
 		var xtitle = "";
 		if (rism.match(/^[A-Z] /)) {
@@ -742,7 +742,7 @@ function displaySourceInformation(source) {
 		text += "</td></tr>";
 	}
 
-	if (source.TITLEPAGE) {
+	if (source && source.TITLEPAGE) {
 		text += "<tr><td><nobr>Title page</nobr></td><td>";
 		var tp = cleanTitlePage(source.TITLEPAGE);
 		text += "<div style='width:600px; margin-left: -50px; background-color:#f5f5f5; padding:8px; text-align:center;'>";
@@ -751,7 +751,7 @@ function displaySourceInformation(source) {
 		text += "</nobr>";
 		text += "</div>";
 		text += "</td></tr>";
-	} else if (source.TITLESHORT) {
+	} else if (source && source.TITLESHORT) {
 		text += "<tr><td><nobr>Title</nobr></td><td>";
 		text += source.TITLESHORT;
 		text += "</td></tr>";
@@ -759,30 +759,30 @@ function displaySourceInformation(source) {
 
 	text += "<tr id='principal_dedicatee' style='display:none'><td><nobr>Source Dedicatee</nobr></td><td></td></tr>";
 
-	if (source.SRCDEDICATEE) {
+	if (source && source.SRCDEDICATEE) {
 		text += "<tr><td><nobr>Dedicatee</nobr></td><td>";
 		text += source.SRCDEDICATEE;
 		text += "</td></tr>";
 	}
 
-	if (source.OPARTBOOKS && source.EXTPARTBOOKS && (source.OPARTBOOKS === source.EPARTBOOKS)) {
+	if (source && source.OPARTBOOKS && source.EXTPARTBOOKS && (source.OPARTBOOKS === source.EPARTBOOKS)) {
 			text += "<tr><td><nobr>Part-books</nobr></td><td>";
 			text += source.OPARTBOOKS;
 			text += "</td></tr>";
 	} else {
-		if (source.OPARTBOOKS) {
+		if (source && source.OPARTBOOKS) {
 			text += "<tr><td><nobr>Original part-books</nobr></td><td>";
 			text += source.OPARTBOOKS;
 			text += "</td></tr>";
 		}
-		if (source.EXTPARTBOOKS) {
+		if (source && source.EXTPARTBOOKS) {
 			text += "<tr><td><nobr>Extant part-books</nobr></td><td>";
 			text += source.EXTPARTBOOKS;
 			text += "</td></tr>";
 		}
 	}
 
-	if (source.PUBLISHER) {
+	if (source && source.PUBLISHER) {
 		var pub = source.PUBLISHER;
 		text += "<tr><td><nobr>Publisher</nobr></td><td>";
 		text += "<a target='_new' href='/browse?publisher=" + source.PUBLISHER + "'";
@@ -793,7 +793,7 @@ function displaySourceInformation(source) {
 		text += "</td></tr>";
 	}
 
-	if (source.YEAR) {
+	if (source && source.YEAR) {
 		text += "<tr><td><nobr>Publication year</nobr></td><td>";
 		text += "<a target='_new' href='/browse?year=" + source.YEAR + "'";
 		text += " title='List of music published in " + source.YEAR + "'";
@@ -803,7 +803,7 @@ function displaySourceInformation(source) {
 		text += "</td></tr>";
 	}
 
-	if (source.PUBNORMLOC) {
+	if (source && source.PUBNORMLOC) {
 		var loc = source.PUBNORMLOC;
 		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
 		text += "<a target='_new' href='/browse?location=" + source.PUBNORMLOC + "'";
@@ -812,7 +812,7 @@ function displaySourceInformation(source) {
 		text += loc;
 		text += "</a>";
 		text += "</td></tr>";
-	} else if (source.PUBLOC) {
+	} else if (source && source.PUBLOC) {
 		var loc = source.PUBLOC;
 		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
 		text += "<a target='_new' href='/browse?location=" + source.PUBLOC + "'";
@@ -823,7 +823,7 @@ function displaySourceInformation(source) {
 		text += "</td></tr>";
 	}
 
-	if (source.SRCLOCSIGLA) {
+	if (source && source.SRCLOCSIGLA) {
 		var sigla = source.SRCLOCSIGLA;
 		text += "<tr><td><nobr>Library";
 		text += "</nobr></td><td>";

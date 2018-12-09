@@ -20,3 +20,9 @@ l: list
 list:
 	bin/createidlist > ../../variorum/data/variorum.json
 
+
+diff:
+	for i in *.aton; \
+	do \
+		bin/diffmark $$i > diff-input/`basename $$i .aton`.txt; \
+	done

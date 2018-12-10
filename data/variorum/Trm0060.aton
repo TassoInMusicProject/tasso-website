@@ -89,17 +89,9 @@ E quell felice ch’una volta muore.
 @ID:		S169
 @TYPE:		print
 @SPRINT:	
-@PAGE:		10
+@PAGE:		
 @PARATEXT:	
 @VERSE:	
-Lunge da voi mio core
-Mille volte m'uccide il mio dolore
-[TACET]
-Mi tolse l’alma E s'io ripenso in lei
-mi ritoglie la vita
-E tutti sono mort’i pensier miei.
-[TACET]
-E quel felice ch'una volta muore.
 @@END: VARIORUM
 
 
@@ -114,9 +106,9 @@ E quel felice ch'una volta muore.
 Lunge da voi mio core
 Mille volte m'uccide il mio dolore
 [TACET]
-[TACET] E s'io ripenso in lei
+Mi tolse l’alma E s'io ripenso in lei
 mi ritoglie la vita
-E tutti sono morti i pensier miei.
+E tutti sono mort’i pensier miei.
 [TACET]
 E quel felice ch'una volta muore.
 @@END: VARIORUM
@@ -127,9 +119,17 @@ E quel felice ch'una volta muore.
 @ID:		Trm0060a-Quinto
 @TYPE:		music
 @COMPOSER:	Mazza, Francesco
-@PAGE:		
+@PAGE:		10
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Lunge da voi mio core
+Mille volte m'uccide il mio dolore
+[TACET]
+[TACET] E s'io ripenso in lei
+mi ritoglie la vita
+E tutti sono morti i pensier miei.
+[TACET]
+E quel felice ch'una volta muore.
 @@END: VARIORUM
 
 
@@ -138,9 +138,17 @@ E quel felice ch'una volta muore.
 @ID:		Trm0060c-Canto
 @TYPE:		music
 @COMPOSER:	Felis, Stefano
-@PAGE:		
+@PAGE:		4
 @PARATEXT:	
 @VERSE:		
+Lunge da voi mio core
+Mille volte m’uccide il mio dolore
+[TACET]
+Me tolse l’alma s’io ripenso in lei
+me ritoglie la vita
+E tutti sono morti i pensier miei
+O miseria infinita
+E quel felice ch’una volta more. 
 @@END: VARIORUM
 
 
@@ -149,9 +157,17 @@ E quel felice ch'una volta muore.
 @ID:		Trm0060c-Alto
 @TYPE:		music
 @COMPOSER:	Felis, Stefano
-@PAGE:		
+@PAGE:		4-5
 @PARATEXT:	
 @VERSE:		
+Lunge da voi mio core
+Mille volte m’uccide il mio dolore
+Perche la mia partita
+Me tolse l’alma e s’io ripenso in lei
+me ritoglie la vita
+E tutti sono morti i pensier miei
+O miseria infinita
+E quel felice ch’una volta more. 
 @@END: VARIORUM
 
 
@@ -160,9 +176,17 @@ E quel felice ch'una volta muore.
 @ID:		Trm0060c-Tenore
 @TYPE:		music
 @COMPOSER:	Felis, Stefano
-@PAGE:		
+@PAGE:		4
 @PARATEXT:	
 @VERSE:		
+Lunge [TACET]
+Mille volte m’uccide il mio dolore
+Perche la mia partita
+Me tolse l’alma e s’io ripenso in lei
+me ritoglie la vita
+E tutti sono morti i pensier miei
+O miseria infinita
+E quel felice ch’una volta more. 
 @@END: VARIORUM
 
 
@@ -171,9 +195,17 @@ E quel felice ch'una volta muore.
 @ID:		Trm0060c-Basso
 @TYPE:		music
 @COMPOSER:	Felis, Stefano
-@PAGE:		
+@PAGE:		4
 @PARATEXT:	
 @VERSE:		
+Lunge da voi [TACET]
+[TACET]
+Perche la mia partita
+mi tolse l’alma e s’io ripenso in lei
+me ritoglie la vita
+E tutti sono morti i pensier miei
+O miseria infinita
+E quel felice ch’una volta more. 
 @@END: VARIORUM
 
 
@@ -182,9 +214,17 @@ E quel felice ch'una volta muore.
 @ID:		Trm0060c-Quinto
 @TYPE:		music
 @COMPOSER:	Felis, Stefano
-@PAGE:		
+@PAGE:		4
 @PARATEXT:	
 @VERSE:		
+Lunge da voi mio core
+Mille volte m’uccide il mio dolore
+Perche la mia partita
+Me tolse l’alma e s’io ripenso in lei
+Me ritoglie la vita
+E tutti sono morti i pensier miei
+O miseria infinita
+E quel felice ch’una volta more. 
 @@END: VARIORUM
 
 

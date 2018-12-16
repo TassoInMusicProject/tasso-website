@@ -26,3 +26,5 @@ diff:
 	do \
 		bin/diffmark $$i > diff-input/`basename $$i .aton`.txt; \
 	done
+
+

@@ -1395,7 +1395,7 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	?
+@RISM:	Unkown 15
 @AUTHOR:	Cirullo, Antonio
 @TITLEPAGE:	Il SECONDO LIBRO / DE MADRIGALI / A CINQVE VOCi / DI GIO. ANTONIO CIRVLLO / DI ANDRIA / Da lui nouamente composti, e dati in luce. / IN VENETIA, Appresso Giacomo Vincenti 1598.
 @TITLESHORT:	Il secondo libo de madrigali a cinque voci
@@ -1415,7 +1415,7 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	Unknown
+@RISM:	Unknown 14
 @AUTHOR:	Civita, Davit
 @TITLEPAGE:	PREMITIE / ARMONICHE / A TRE VOCI / DE DAVIT CIVITA / HEBREO / Al Serenissimo Signor Signor, e patron mio Col- / lendissimo Il Sig. D. Ferdinando Gonza- / ga Duca di Mantova, & di / Monferato. &c. / IN VENETIA, / Appresso Giacomo Vincenti. MDCXVI.
 @TITLESHORT:	Premitie armoniche a tre voci
@@ -1899,7 +1899,7 @@
 @AUTHOR:	Dering, Richard
 @TITLEPAGE:	CANZONETTE / A QVATTRO VOCI, / <i>CON IL BASSO CONTINUO</> / DI Sr RICHARDO DIRINGO / GENTILHVOMO INGLESE, / <i>Nouamente Composte & date in luce.</> / IN ANVERSA / Appresso PIETRO PHALESIO al Re Dauid. / M. DC. XX.
 @TITLESHORT:	Canzonette a quattro voci con il basso continuo
-@PUBLISHER:	Phalesio
+@PUBLISHER:	Petro Phalesio
 @YEAR:	1620
 @PUBTYPE:	single-author
 @PUBFORMAT:	part-books
@@ -3211,6 +3211,26 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-W
 @REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	I 6
+@AUTHOR:	Il Verso, Antonio
+@TITLEPAGE:	DI ANTONIO IL VERSO / SICILIANO DELLA CITTA / DI PIAZZA, / <i>IL TERZO LIBRO</i> / <i>De' Madrigali à Cinque Voci.</i> / Nouamente dato in luce. / IN PALERMO / Appresso Gio. Francesco Carrara, MDXCV.
+@TITLESHORT:	Il terzo libro de madrigali a cinque voci
+@PUBLISHER:	Carrara
+@YEAR:	1595
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Palermo
+@PUBNORMLOC:	Palermo
+@SRCDEDICATEE:	Don Mario Gambacorti
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	AT
+@EXTNAMES:	A,T
+@SRCLOCSIGLA:	GB-Ob
+@REPRODUCTIONTYPE:	scans
 @SRCURL:	
 @@END: SOURCE
 

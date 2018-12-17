@@ -29,8 +29,8 @@ my %PARAM;
 
 my $i = 0;
 while ($i < @contents) {
-	print "PROCESSING FROM LINE $i\n";
 	$i = createVariorumXml($i, @contents);
+print "PROCESSING FROM LINE $i\n";
 }
 
 
@@ -71,12 +71,17 @@ sub createVariorumXml {
 	
 	my %data;
 	my $key;
+	my $active = 0;
 	my $value;
 	for (my $i=$starti; $i<@contents; $i++) {
 		my $line = $contents[$i];
 		chomp $line;
 		if (!$foundstart) {
 			if ($line =~ /^\@\@BEGIN\s*:\s*VARIORUM/) {
+				if ($active) {
+					die ("Missing a closing tag at line $i: $line\nNext lines:" . $contents[$i+1] . "and: " . $contents[$i+2]);
+				}
+				$active = 1;
 				$foundstart = 1;
 				next;
 			}
@@ -87,6 +92,10 @@ sub createVariorumXml {
 		}
 		next if !$foundstart;
 		if ($line =~ /^\@\@END\s*:\s*VARIORUM/) {
+			if (!$active) {
+				print STDERR "Warning: Extra ending tag found on line $i\n";
+			}
+			$active = 0;
 			$endi = $i+1;
 			last;
 		}
@@ -119,12 +128,15 @@ sub createVariorumXml {
 		}
 	}
 
-	return $endi if !$foundstart;
+	if (!$foundstart) {
+print "GOT HERE SSS\n";
+		return $endi;
+	}
 
 	my $vtest = $data{"VERSE"};
 	$vtest =~ s/\@VERSE://g;
 	if ($vtest =~ /^\s*$/) {
-		# No verse content, so don't write a file.
+		print "No verse content for for $data{'DATA'}, so can't write a file.\n";
 		return $endi;
 	}
 
@@ -176,6 +188,10 @@ sub createVariorumXml {
 			$data{"ID"} =~ s/\s+//g;
 		}
 		my $ss = $SETTINGS{$sid};
+		if (!$ss) {
+			print STDERR ("================== Error reading source information for source id $sid\n");
+			return $endi;
+		}
 		%s = %$ss;
 		$data{'PRINCEPSTITLE'} = $s{'PRINCEPSTITLE'};      # title
 		$data{'COMPOSER'}      = $s{'COMPOSER'};           # author@role="composer"
@@ -210,6 +226,11 @@ sub createVariorumXml {
 	# VERSEDATA->TITLE: TITLE
 	# @TITLE:		Su l'ampia fronte il crespo oro lucente
 	my $vv = $VERSES{$data{'CATALOGNUM'}};
+	if (!$vv) {
+      print %data;
+		print "\n";
+		die "Cannot find VERSE DATA FOR $data{'CATALOGNUM'}";
+	}
 	my %v = %$vv;
 	$data{'TITLE'} = $v{'TITLE'};
 
@@ -221,6 +242,7 @@ sub createVariorumXml {
 	#}
 	#print "\n\n";
 
+print "VARIRUM XML FOR $data{'CATALOGNUM'} ID $data{'ID'}\n";
 	printVariorumXml($data{'CATALOGNUM'}, $data{'ID'});
 
 	return $endi;
@@ -290,9 +312,9 @@ sub printTeiHeader {
 sub printFileDesc {
 	my ($n) = @_;
 	indent($n); print VFILE "<fileDesc>\n";
-		printTitleStmt($n+1);
-		printPublicationStmt($n+1);
-		printSourceDesc($n+1);
+	printTitleStmt($n+1);
+	printPublicationStmt($n+1);
+	printSourceDesc($n+1);
 	indent($n); print VFILE "</fileDesc>\n";
 }
 

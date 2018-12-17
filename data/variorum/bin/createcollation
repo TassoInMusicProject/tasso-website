@@ -10,6 +10,7 @@ my $basedir = "../../variorum/data";
 
 
 foreach my $file (@ARGV) {
+print "CREATING COLLATION FILES FOR $file\n";
 	createCollationFile($file);
 }
 

@@ -331,41 +331,22 @@
 @CANTO:	VII
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
-@COMPOSER:	Monteverdi, Claudio
-@PARTS:	1 of 1
-@PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci. Nuovamente composto, dato in luce
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Ricciardo Amadino
-@NORMPUBSHORT:	Amadino
-@PRINCEPSPUB:	Ricciardo Amadino
-@PRINCEPSYEAR:	1603
-@PRINCEPSRISM:	M 3467
-@VOICES:	5
-@REPRINTS:	M 3468, M 3469, M 3470
-@@END: SETTING
-
-@@BEGIN: SETTING
-@CATALOGNUM:	Tsg07019c
-@CANTO:	VII
-@OTTAVA:	19
-@TITLE:	Sovente, allor che su gli estivi ardori
 @COMPOSER:	D'India, Sigismondo
 @PARTS:	1-2 (verses 1-4; 5-8) of 4
-@PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Fondo Canal, Biblioteca Marciana, Venice
-@NORMPUBSHORT:	Fondo Canal, Biblioteca Marciana, Venice
-@PRINCEPSPUB:	Manuscript, Biblioteca Marciana, Fondo Canal
+@PRINCEPSTITLE:	Musiche di Sigismondo d' India 
+@PRINCEPSLOC:	Milan
+@NORMLOC:	Milan
+@NORMPUB:	Simon Tini & Filippo Lomazzo
+@NORMPUBSHORT:	Tini & Lomazzo
+@PRINCEPSPUB:	Tini & Lomazzo
 @PRINCEPSYEAR:	1609
-@PRINCEPSRISM:	?
-@VOICES:	1
+@PRINCEPSRISM:	I 24
+@VOICES:	1+bc
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
-@CATALOGNUM:	Tsg07019d
+@CATALOGNUM:	Tsg07019c
 @CANTO:	VII
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
@@ -384,13 +365,13 @@
 @@END: SETTING
 
 @@BEGIN: SETTING
-@CATALOGNUM:	Tsg07019e
+@CATALOGNUM:	Tsg07019d
 @CANTO:	VII
 @OTTAVA:	19
 @TITLE:	Sovente, allor che su gli estivi ardori
 @COMPOSER:	Ghizzolo, Giovanni
 @PARTS:	1 of 1
-@PRINCEPSTITLE:	l terzo libro de madrigali a cinque voci, in parte ancor concertati co 'l clavicembalo. Opera decimaottava
+@PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci, in parte ancor concertati co 'l clavicembalo. Opera decimaottava
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
 @NORMPUB:	Alessandro Vincenzi
@@ -407,7 +388,7 @@
 @CANTO:	VII
 @OTTAVA:	20
 @TITLE:	Indi dicea piangendo: "In voi serbate
-@COMPOSER:	Angelo Gardano
+@COMPOSER:	Giaches de Wert
 @PARTS:	2 of 2
 @PRINCEPSTITLE:	Di Giaches de Wert l'ottavo libro de madrigali a cinque voci, novamente composto et dato in luce
 @PRINCEPSLOC:	Venice
@@ -428,15 +409,15 @@
 @TITLE:	Indi dicea piangendo: "In voi serbate
 @COMPOSER:	D'India, Sigismondo
 @PARTS:	3 of 4
-@PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Fondo Canal, Biblioteca Marciana, Venice
-@NORMPUBSHORT:	Fondo Canal, Biblioteca Marciana, Venice
-@PRINCEPSPUB:	Manuscript, Biblioteca Marciana, Fondo Canal
+@PRINCEPSTITLE:	Musiche di Sigismondo d' India 
+@PRINCEPSLOC:	Milan
+@NORMLOC:	Milan
+@NORMPUB:	Simon Tini & Filippo Lomazzo
+@NORMPUBSHORT:	Tini & Lomazzo
+@PRINCEPSPUB:	Tini & Lomazzo
 @PRINCEPSYEAR:	1609
-@PRINCEPSRISM:	?
-@VOICES:	1
+@PRINCEPSRISM:	I 24
+@VOICES:	1+bc
 @REPRINTS:	
 @@END: SETTING
 
@@ -466,15 +447,15 @@
 @TITLE:	Forse avverrà se 'l ciel benigno ascolta
 @COMPOSER:	D'India, Sigismondo
 @PARTS:	4 of 4
-@PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Fondo Canal, Biblioteca Marciana, Venice
-@NORMPUBSHORT:	Fondo Canal, Biblioteca Marciana, Venice
-@PRINCEPSPUB:	Manuscript, Biblioteca Marciana, Fondo Canal
+@PRINCEPSTITLE:	Musiche di Sigismondo d' India 
+@PRINCEPSLOC:	Milan
+@NORMLOC:	Milan
+@NORMPUB:	Simon Tini & Filippo Lomazzo
+@NORMPUBSHORT:	Tini & Lomazzo
+@PRINCEPSPUB:	Tini & Lomazzo
 @PRINCEPSYEAR:	1609
-@PRINCEPSRISM:	?
-@VOICES:	1
+@PRINCEPSRISM:	I 24
+@VOICES:	1+bc
 @REPRINTS:	
 @@END: SETTING
 
@@ -1777,15 +1758,15 @@
 @TITLE:	Forsennata gridava: "O tu che porte
 @COMPOSER:	D'India, Sigismondo
 @PARTS:	1 of 2
-@PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Fondo Canal, Biblioteca Marciana, Venice
-@NORMPUBSHORT:	Fondo Canal, Biblioteca Marciana, Venice
-@PRINCEPSPUB:	Manuscript, Biblioteca Marciana, Fondo Canal
+@PRINCEPSTITLE:	Musiche di Sigismondo d' India 
+@PRINCEPSLOC:	Milan
+@NORMLOC:	Milan
+@NORMPUB:	Simon Tini & Filippo Lomazzo
+@NORMPUBSHORT:	Tini & Lomazzo
+@PRINCEPSPUB:	Tini & Lomazzo
 @PRINCEPSYEAR:	1609
-@PRINCEPSRISM:	?
-@VOICES:	1
+@PRINCEPSRISM:	I 24
+@VOICES:	1+bc
 @REPRINTS:	
 @@END: SETTING
 
@@ -2252,15 +2233,15 @@
 @TITLE:	Là tra 'l sangue e le morti egro giacente
 @COMPOSER:	D'India, Sigismondo
 @PARTS:	2 of 2 (1 at XVI, 40, row 91)
-@PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Fondo Canal, Biblioteca Marciana, Venice
-@NORMPUBSHORT:	Fondo Canal, Biblioteca Marciana, Venice
-@PRINCEPSPUB:	Manuscript, Biblioteca Marciana, Fondo Canal
+@PRINCEPSTITLE:	Musiche di Sigismondo d' India 
+@PRINCEPSLOC:	Milan
+@NORMLOC:	Milan
+@NORMPUB:	Simon Tini & Filippo Lomazzo
+@NORMPUBSHORT:	Tini & Lomazzo
+@PRINCEPSPUB:	Tini & Lomazzo
 @PRINCEPSYEAR:	1609
-@PRINCEPSRISM:	?
-@VOICES:	1
+@PRINCEPSRISM:	I 24
+@VOICES:	1+bc
 @REPRINTS:	
 @@END: SETTING
 
@@ -2689,15 +2670,15 @@
 @TITLE:	Misera non credea ch'a gli occhi miei
 @COMPOSER:	D'India, Sigismondo
 @PARTS:	1 of 2
-@PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Fondo Canal, Biblioteca Marciana, Venice
-@NORMPUBSHORT:	Fondo Canal, Biblioteca Marciana, Venice
-@PRINCEPSPUB:	Manuscript, Biblioteca Marciana, Fondo Canal
+@PRINCEPSTITLE:	Musiche di Sigismondo d' India 
+@PRINCEPSLOC:	Milan
+@NORMLOC:	Milan
+@NORMPUB:	Simon Tini & Filippo Lomazzo
+@NORMPUBSHORT:	Tini & Lomazzo
+@PRINCEPSPUB:	Tini & Lomazzo
 @PRINCEPSYEAR:	1609
-@PRINCEPSRISM:	?
-@VOICES:	1
+@PRINCEPSRISM:	I 24
+@VOICES:	1+bc
 @REPRINTS:	
 @@END: SETTING
 
@@ -2822,15 +2803,15 @@
 @TITLE:	Ma che? squallido e scuro anco mi piaci
 @COMPOSER:	D'India, Sigismondo
 @PARTS:	2 of 2
-@PRINCEPSTITLE:	Saggi delle musiche di Sigismondo d' India nob. palermitano
-@PRINCEPSLOC:	Venice
-@NORMLOC:	Venice
-@NORMPUB:	Fondo Canal, Biblioteca Marciana, Venice
-@NORMPUBSHORT:	Fondo Canal, Biblioteca Marciana, Venice
-@PRINCEPSPUB:	Manuscript, Biblioteca Marciana, Fondo Canal
+@PRINCEPSTITLE:	Musiche di Sigismondo d' India 
+@PRINCEPSLOC:	Milan
+@NORMLOC:	Milan
+@NORMPUB:	Simon Tini & Filippo Lomazzo
+@NORMPUBSHORT:	Tini & Lomazzo
+@PRINCEPSPUB:	Tini & Lomazzo
 @PRINCEPSYEAR:	1609
-@PRINCEPSRISM:	?
-@VOICES:	1
+@PRINCEPSRISM:	I 24
+@VOICES:	1+bc
 @REPRINTS:	
 @@END: SETTING
 

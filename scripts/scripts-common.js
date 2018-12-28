@@ -1031,6 +1031,23 @@ function GetRimeSettingEntry(rimenum, rimelist) {
 }
 
 
+
+//////////////////////////////
+//
+// GetFlatVerseList --
+//
+
+function GetFlatVerseList() {
+	var settings = TASSODATA.VERSES;
+	var output = [];
+	for (var property in settings) {
+		if (settings[property].VERSEDATA && Array.isArray(settings[property].VERSEDATA)) {
+			output = output.concat(settings[property].VERSEDATA);
+		}
+	}
+	return output;
+}
+
 //////////////////////////////
 //
 // GetFlatSettingList --
@@ -1409,7 +1426,7 @@ function InsertSourcesIntoSettings() {
 		if (value) {
 			list[i].SOURCE = value;
 		} else {
-			console.log("ID", id, "HAS NO SOURCE", list[i]);
+			// console.log("ID", id, "HAS NO SOURCE", list[i]);
 		}
 	}
 

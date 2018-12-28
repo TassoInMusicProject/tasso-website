@@ -61,35 +61,7 @@ function displayRimeList(target) {
 		console.log("Error: cannot place Rime list on page.");
 		return;
 	}
-
-	var counter = 0;
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-	   buildReverseWorklist();
-		counter++;
-	}
-
-	if (!WORKLIST) {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.worklist}}");
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-	      buildReverseWorklist();
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == 1) {
-				continueProcessingRime(element, counter);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == 1) {
-		continueProcessingRime(element);
-		counter++;
-	}
+	continueProcessingRime(element);
 }
 
 
@@ -109,33 +81,7 @@ function displayAmintaList(target) {
 		console.log("Error: cannot place Aminta list on page.");
 		return;
 	}
-
-	var counter = 0;
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-	   buildReverseWorklist();
-		counter++;
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.worklist}}");
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-	      buildReverseWorklist();
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == 1) {
-				continueProcessingAminta(element);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == 1) {
-		continueProcessingAminta(element);
-		counter++;
-	}
+	continueProcessingAminta(element);
 }
 
 
@@ -155,48 +101,7 @@ function displayOtherList(target) {
 		console.log("Error: cannot place Other list on page.");
 		return;
 	}
-
-	var counter = 0;
-
-	if (sessionStorage.OTHERLIST) {
-		OTHERLIST = JSON.parse(sessionStorage.OTHERLIST);
-		continueProcessingOther(element);
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "/data/indexes/other-settings.aton");
-		request.addEventListener("load", function() {
-			var aton = new ATON;
-			OTHERLIST = aton.parse(this.responseText).SETTING;
-			sessionStorage.OTHERLIST = JSON.stringify(OTHERLIST);
-			continueProcessingOther(element);
-		});
-		request.send();
-	}
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-	   buildReverseWorklist();
-		counter++;
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.worklist}}");
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-	      buildReverseWorklist();
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == 2) {
-				continueProcessingOther(element);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == 2) {
-		continueProcessingOther(element);
-		counter++;
-	}
+	continueProcessingOther(element);
 }
 
 
@@ -216,33 +121,7 @@ function displayGerusalemmeList(target) {
 		console.log("Error: cannot place Gerusalemme list on page.");
 		return;
 	}
-
-	var counter = 0;
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
-	   buildReverseWorklist();
-		counter++;
-	} else {
-		var request = new XMLHttpRequest();
-		request.open("GET", "{{site.worklist}}");
-		request.addEventListener("load", function() {
-			WORKLIST = JSON.parse(this.responseText);
-	      buildReverseWorklist();
-			sessionStorage.WORKLIST = this.responseText;
-			counter++;
-			if (counter == 1) {
-				continueProcessingGL(element);
-				counter++;
-			}
-		});
-		request.send();
-	}
-
-	if (counter == 1) {
-		continueProcessingGL(element);
-		counter++;
-	}
+	continueProcessingGL(element);
 }
 
 
@@ -476,6 +355,7 @@ function continueProcessingAminta(element) {
 	var tsource = document.querySelector("#aminta-template")
 	                      .textContent;
 	var amintaTemplate = Handlebars.compile(tsource);
+console.log("AMINTASETTING LIST", AMINTASETTINGLIST);
 	var amintalist = makeAmintaVerseList(AMINTASETTINGLIST);
 	element.innerHTML = amintaTemplate(amintalist);
 	showTab("aminta-heading");

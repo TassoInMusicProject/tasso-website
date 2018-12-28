@@ -112,6 +112,7 @@ function getPoemList(id, target) {
 	if (id) {
 		CurrentPoem = id;
 	}
+console.log("CURRENT ID", id, "TARGET", target);
 
 //	buildPoemList(RIMEVERSELIST);
 //	reallyDisplayVariants(CurrentPoem, target);
@@ -305,12 +306,17 @@ function prepareReverseVerse(vlist) {
 	var output = {};
 	for (var i=0; i<vlist.length; i++) {
 		var id = vlist[i].SOLERTI;
-		var iid = "Trm";
-		if (id < 1000) { iid += "0"; }
-		if (id < 100)  { iid += "0"; }
-		if (id < 10)   { iid += "0"; }
-		iid += id;
-		output[iid] = vlist[i];
+		if (id) {
+			var iid = "Trm";
+			if (id < 1000) { iid += "0"; }
+			if (id < 100)  { iid += "0"; }
+			if (id < 10)   { iid += "0"; }
+			iid += id;
+			output[iid] = vlist[i];
+		} else {
+			id = vlist[i].CATALOGNUM;
+			output[id] = vlist[i];
+		}
 	}
 	console.log("VLIST ", output);
 	return output;
@@ -323,7 +329,8 @@ function prepareReverseVerse(vlist) {
 //
 
 function singlePoemVariantHeader(id) {
-	var REVERSEVERSE = prepareReverseVerse(RIMEVERSELIST);
+	var vlist = GetFlatVerseList();
+	var REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
 
 	var hsource = document.querySelector("#about-header-template").textContent;

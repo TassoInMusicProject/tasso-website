@@ -381,37 +381,37 @@ function continueProcessingOther(element) {
 	var lagrimeTemplate = Handlebars.compile(lsource);
 	var torrismondoTemplate = Handlebars.compile(tsource);
 
-	var otherlist = OTHERLIST;
+	var otherlist = OTHERSETTINGLIST;
 	var conquistatalist = [];
 	var ecloghelist = [];
 	var rinaldolist = [];
 	var lagrimelist = [];
 	var torrismondolist = [];
 
-	for (var k=0; k<OTHERLIST.length; k++) {
-		if (!OTHERLIST[k].GROUP) {
-			console.log("PROBLEM WITH SETTING", OTHERLIST[k]);
+	for (var k=0; k<OTHERSETTINGLIST.length; k++) {
+		if (!OTHERSETTINGLIST[k].GROUP) {
+			console.log("PROBLEM WITH SETTING", OTHERSETTINGLIST[k]);
 			continue;
 		}
-		if (OTHERLIST[k].GROUP.match(/conquistata/i)) {
+		if (OTHERSETTINGLIST[k].GROUP.match(/conquistata/i)) {
 			// @GROUP: Gerusalemme conquistata
-			conquistatalist.push(OTHERLIST[k]);
+			conquistatalist.push(OTHERSETTINGLIST[k]);
 		}
-		else if (OTHERLIST[k].GROUP.match(/ecloghe/i)) {
+		else if (OTHERSETTINGLIST[k].GROUP.match(/ecloghe/i)) {
 			// @GROUP: Ecloghe settings
-			ecloghelist.push(OTHERLIST[k]);
+			ecloghelist.push(OTHERSETTINGLIST[k]);
 		}
-		else if (OTHERLIST[k].GROUP.match(/rinaldo/i)) {
+		else if (OTHERSETTINGLIST[k].GROUP.match(/rinaldo/i)) {
 			// @GROUP: Rinaldo settings
-			rinaldolist.push(OTHERLIST[k]);
+			rinaldolist.push(OTHERSETTINGLIST[k]);
 		}
-		else if (OTHERLIST[k].GROUP.match(/lagrime/i)) {
+		else if (OTHERSETTINGLIST[k].GROUP.match(/lagrime/i)) {
 			// @GROUP: Lagrime della Beata Vergine settings
-			lagrimelist.push(OTHERLIST[k]);
+			lagrimelist.push(OTHERSETTINGLIST[k]);
 		}
-		else if (OTHERLIST[k].GROUP.match(/torrismondo/i)) {
+		else if (OTHERSETTINGLIST[k].GROUP.match(/torrismondo/i)) {
 			// @GROUP: Re Torrismondo settings
-			torrismondolist.push(OTHERLIST[k]);
+			torrismondolist.push(OTHERSETTINGLIST[k]);
 		}
 	}
 

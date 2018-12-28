@@ -495,7 +495,6 @@ function emptyReportButton()  {
 
 function getCriticalNotes(id) {
 	var tag = "report_" + id;
-console.log("REPORT FOR ", id, "BEING GENERATED");
 	var tagcontent;
 	var element = document.querySelector("#" + tag);
 	element.innerHTML = emptyReportButton();
@@ -1722,7 +1721,6 @@ function gotoMeasure(measurenum) {
 //
 
 function fillInDedicatee(id) {
-console.log("SETTING:::", SETTING);
 	var element = document.querySelector("#principal_dedicatee");
 	if (!element) {
 		return;

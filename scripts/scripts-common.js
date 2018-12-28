@@ -1031,28 +1031,47 @@ function GetRimeSettingEntry(rimenum, rimelist) {
 }
 
 
+//////////////////////////////
+//
+// GetFlatSettingList --
+//
+
+function GetFlatSettingList() {
+	var settings = TASSODATA.SETTINGS;
+	var output = [];
+	for (var property in settings) {
+		if (settings[property].SETTING && Array.isArray(settings[property].SETTING)) {
+			output = output.concat(settings[property].SETTING);
+		}
+	}
+	return output;
+}
+
+
 
 //////////////////////////////
 //
 // GetSettingEntry --
 //
 
-function GetSettingEntry(id, settinglist) {
-   if (!settinglist) {
-		settinglist = RIMESETTINGLIST;
-   }
-   if (!settinglist) {
-		return null;
-	}
-	if (!id) {
-		return null;
-	}
-	var list = settinglist;
-   for (var i=0; i<list.length; i++) {
-		if (id == list[i].CATALOGNUM) {
-			return list[i];
+function GetSettingEntry(id) {
+
+	var settings = TASSODATA.SETTINGS;
+	var reps = [];
+	for (var property in settings) {
+		if (settings[property].SETTING && Array.isArray(settings[property].SETTING)) {
+			reps.push(settings[property].SETTING);
 		}
 	}
+
+	for (var i=0; i<reps.length; i++) {
+		for (var j=0; j<reps[i].length; j++) {
+         if (id === reps[i][j].CATALOGNUM) {
+				return reps[i][j];
+			}
+		}
+	}
+	return null;
 }
 
 
@@ -1374,8 +1393,9 @@ function InsertScoresIntoSettings() {
 //
 
 function InsertSourcesIntoSettings() {
+	var list = GetFlatSettingList();
 
-	// inserting SOURCES entries into RIMESETTINGLIST:
+	// inserting SOURCES entries into list:
 	var RSOURCES = {};
 	var i;
 	var id;
@@ -1383,9 +1403,14 @@ function InsertSourcesIntoSettings() {
 		id = SOURCES[i].RISM;
 		RSOURCES[id] = SOURCES[i];
 	}
-	for (i=0; i<RIMESETTINGLIST.length; i++) {
-		var id = RIMESETTINGLIST[i].PRINCEPSRISM;
-		RIMESETTINGLIST[i].SOURCE = RSOURCES[id];
+	for (i=0; i<list.length; i++) {
+		var id = list[i].PRINCEPSRISM;
+		var value = RSOURCES[id];
+		if (value) {
+			list[i].SOURCE = value;
+		} else {
+			console.log("ID", id, "HAS NO SOURCE", list[i]);
+		}
 	}
 
 }
@@ -1399,8 +1424,9 @@ function InsertSourcesIntoSettings() {
 
 function InsertComposersIntoSettings() {
 	var COMPOSERS = TASSODATA.COMPOSERS.COMPOSERDATA;
+	var list = GetFlatSettingList();
 
-	// inserting SOURCES entries into RIMESETTINGLIST:
+	// inserting SOURCES entries into list:
 	var RCOMPOSERS = {};
 	var i;
 	var id;
@@ -1408,9 +1434,9 @@ function InsertComposersIntoSettings() {
 		id = COMPOSERS[i].COMPOSER;
 		RCOMPOSERS[id] = COMPOSERS[i];
 	}
-	for (i=0; i<RIMESETTINGLIST.length; i++) {
-		var id = RIMESETTINGLIST[i].COMPOSER;
-		RIMESETTINGLIST[i].COMPOSERDATA = RCOMPOSERS[id];
+	for (i=0; i<list.length; i++) {
+		var id = list[i].COMPOSER;
+		list[i].COMPOSERDATA = RCOMPOSERS[id];
 	}
 
 }

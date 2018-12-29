@@ -158,7 +158,7 @@ Picciola verga, e bella,
 	Tù mantien vivo frondeggiando il verde.
 	Fra tua chioma novella
   	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti Amori.
+  	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -172,13 +172,13 @@ Picciola verga, e bella,
 @VERSE:		
 Picciola verga, e bella,
 	D'Alloro trionfale,
-	Cresci à la pianta, onde sei svelta eguale,
+	Cresci à la pianta, [TACET]
 	Cresci felice, e s'ella
 	Secca non si rinverde,
 	Tù mantien vivo frondeggiando il verde.
 	[TACET]
   	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti Amori.
+  	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -187,9 +187,18 @@ Picciola verga, e bella,
 @ID:		Trm0202a-Tenore
 @TYPE:		music
 @COMPOSER:	Agostini, Lodovico
-@PAGE:		
-@PARATEXT:	
+@PAGE:		21
+@PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
+Picciola verga, e bella,
+	D'Alloro trionfale,
+	Cresci à la pianta, onde sei svelta eguale.
+	Cresci felice, e s'ella
+	Secca non si rinverde,
+	Tù mantien vivo frondeggiando il verde.
+	Fra tua chioma novella
+  	Scherzin con dolci errori,
+  	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -198,9 +207,18 @@ Picciola verga, e bella,
 @ID:		Trm0202a-Basso
 @TYPE:		music
 @COMPOSER:	Agostini, Lodovico
-@PAGE:		
-@PARATEXT:	
+@PAGE:		21
+@PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
+Picciola verga, e bella,
+	D'Alloro trionfale,
+	Cresci à la pianta, onde sei svelta eguale.
+	Cresci felice, e s'ella
+	Secca non si rinverde,
+	Tù mantien vivo frondeggiando il verde.
+	[TACET]
+  	Scherzin con dolci errori,
+  	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -209,8 +227,37 @@ Picciola verga, e bella,
 @ID:		Trm0202a-Quinto
 @TYPE:		music
 @COMPOSER:	Agostini, Lodovico
-@PAGE:		
-@PARATEXT:	
+@PAGE:		21
+@PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
+Picciola verga, e bella,
+	D'Alloro trionfale,
+	Cresci à la pianta, [TACET].
+	Cresci felice, e s'ella
+	Secca non si rinverde,
+	Tù mantien vivo frondeggiando il verde.
+	[TACET]
+  	Scherzin con dolci errori,
+  	L'aure mai sempre ei pargoletti amori.
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0202
+@ID:		Trm0202a-Sesto
+@TYPE:		music
+@COMPOSER:	Agostini, Lodovico
+@PAGE:		21
+@PARATEXT:	Sopra il Lauro Secco.
+@VERSE:		
+Picciola verga, e bella,
+	D'Alloro trionfale,
+	Cresci à la pianta onde sei svelta eguale.
+	Cresci felice, e s'ella
+	Secca non si rinverde,
+	Tù mantien vivo frondeggiando il verde.
+	[TACET]
+  	Scherzin con dolci errori,
+  	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 

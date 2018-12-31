@@ -421,7 +421,12 @@ function continueProcessingOther(element) {
 	lagrimelist = makeLagrimeList(lagrimelist);
 	torrismondolist = makeTorrismondoList(torrismondolist);
 
-	var output = "<h2 style='margin-left:100px'>Ecloghe</h2>";
+	var output = "";
+	output += '<div style="text-align:center; color:#bbb; font-style: italic;">';
+	output += 'N.B.: dark text indicates editions of one or more musical settings are now available.';
+	output += '</div>';
+
+	output += "<h2 style='margin-left:100px'>Ecloghe</h2>";
 	output += eclogheTemplate(ecloghelist);
 	output += "<h2 style='margin-top:-80px; margin-left:100px'>Rinaldo</h2>";
 	output += rinaldoTemplate(rinaldolist);

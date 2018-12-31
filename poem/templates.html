@@ -73,7 +73,7 @@
 </tr>
 
 {{{verses VERSES.VERSE VERSES.TVERSE}}}
-{{{edtrans VERSES.EDITOR VERSES.TRANSLATOR}}}
+{{{edtrans VERSES}}}
 
 </table>
 
@@ -537,22 +537,121 @@ function addLiterarySourceLink(text, solerti) {
 
 //////////////////////////////
 //
-// edtrans
+// getEditorPopup --
 //
 
-Handlebars.registerHelper("edtrans",  function (editor, translator) {
+function getEditorPopup(verses) {
+	var title = verses.EDITION_TITLE;
+	var loc   = verses.EDITION_LOC;
+	var pub   = verses.EDITION_PUB;
+	var date  = verses.EDITION_DATE;
+	var vol   = verses.EDITION_VOL;
+	var page  = verses.EDITION_PAGE;
+	if (!title) {
+		return "";
+	}
+	var output = title;
+	output += " (";
+	if (loc) {
+		output += loc + ": ";
+	}
+	output += pub;
+	if (date) {
+		output += ", " + date;
+	}
+	output += ")";
+	if (page) {
+		output += ", ";
+		if (vol) {
+			output += vol  + ": ";
+		}
+		output += page;
+	}
+	return output;
+}
+
+
+//////////////////////////////
+//
+// getTranslationPopup --
+//
+
+function getTranslationPopup(verses) {
+
+	var title = verses.TRANSLATION_TITLE;
+	var loc   = verses.TRANSLATION_LOC;
+	var pub   = verses.TRANSLATION_PUB;
+	var date  = verses.TRANSLATION_DATE;
+	var vol   = verses.TRANSLATION_VOL;
+	var page  = verses.TRANSLATION_PAGE;
+	if (!title) {
+		return "";
+	}
+	var output = title;
+	output += " (";
+	if (loc) {
+		output += loc + ": ";
+	}
+	output += pub;
+	if (date) {
+		output += ", " + date;
+	}
+	output += ")";
+	if (page) {
+		output += ", ";
+		if (vol) {
+			output += vol  + ": ";
+		}
+		output += page;
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// edtrans --
+//
+
+Handlebars.registerHelper("edtrans",  function (verses) {
+	var editor = verses.EDITOR;
+	var edpop = getEditorPopup(verses);
+	var transpop = getTranslationPopup(verses);
+	var translator = verses.TRANSLATOR;
 	var output = "<tr>";
 	output += "<td class='tcell'>";
 	var editor = reverseName(editor);
 	if (editor) {
+
+		if (transpop) {
+			output += "<span class='editor' title='";
+			output += edpop
+			output += "'>";
+		}
+
 		output += "Ed. " + editor;
+
+		if (edpop) {
+			output += "</span>";
+		}
 	}
 	output += "</td>";
 	output += "<td class='tcell'>";
 	var translator = reverseName(translator);
 	// translator = cleanCurlies(translator);
 	if (translator) {
+
+		if (transpop) {
+			output += "<span class='editor' title='";
+			output += transpop
+			output += "'>";
+		}
+
 		output += "Trans. " + translator;
+		if (transpop) {
+			output += "</span>";
+		}
 	}
 	output += "</td>";
 	output += "</tr>";

@@ -273,8 +273,8 @@ It will again draw from your lament burning sparks.
 @CANTO:        	V
 @OTTAVA:       	16	
 @TITLE:		"Lasso," dicea, "Perché venisti Amore
-@MANUSRC:	none
-@PRINTSRC:	1562S
+@MANUSRC:	
+@PRINTSRC:	1562S, 1582O, 1589V
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -317,8 +317,8 @@ You were to wound [me], I surrendered myself as vanquished?
 @CANTO:        	V
 @OTTAVA:       	18
 @TITLE:		Tu perfido signor, tu disleale	
-@MANUSRC:	none
-@PRINTSRC:	
+@MANUSRC:	
+@PRINTSRC:	1562S, 1582O, 1589V
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -350,10 +350,10 @@ You, wicked sir, you disloyal one,
 	For where, in others, love is born of hope,
 	On lack of hope in me it comes alive and feeds.	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Rinaldo</i>, ed. Matteo Navone, vol. 7 of <i>Edizione Nazionale delle opere di Torquato Tasso</i> (Alessandria: Edizioni Dell’Orso, 2012)
 @ATTRIBUTION_ABOUT:	Secure
 @DATING:	1562
-@DEDICATEE:	
+@DEDICATEE:	Cardinal Luigi d'Este
 @COMMENTARY:    
 @@END:		VERSEDATA
 

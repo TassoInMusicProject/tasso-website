@@ -308,16 +308,20 @@ function displaySingleWork(id, target) {
 	if (!SETTING.TITLE) {
 		if (SETTING.RIMETITLE && SETTING.SETTINGTITLE) {
 			SETTING.TITLE = SETTING.SETTINGTITLE;
-			SETTING.TITLE += " (<i>i.e.</i>, \"";
-			SETTING.TITLE += SETTING.RIMETITLE;
-			SETTING.TITLE += ",\" <i>Rime</i> ";
-			SETTING.TITLE += SETTING.SOLERTI;
-			SETTING.TITLE += ")";
+			if (SETTING.SOLERTI) {
+				SETTING.TITLE += " (<i>i.e.</i>, \"";
+				SETTING.TITLE += SETTING.RIMETITLE;
+				SETTING.TITLE += ",\" <i>Rime</i> ";
+				SETTING.TITLE += SETTING.SOLERTI;
+				SETTING.TITLE += ")";
+			}
 		} else {
 			SETTING.TITLE = SETTING.RIMETITLE;
-			SETTING.TITLE += " (<i>Rime</i> ";
-			SETTING.TITLE += SETTING.SOLERTI;
-			SETTING.TITLE += ")";
+			if (SETTING.SOLERTI) {
+				SETTING.TITLE += " (<i>Rime</i> ";
+				SETTING.TITLE += SETTING.SOLERTI;
+				SETTING.TITLE += ")";
+			}
 		}
 	}
 	var tsource = document.querySelector("#singlework-template").textContent;

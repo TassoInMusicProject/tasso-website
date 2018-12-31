@@ -78,7 +78,7 @@
 </table>
 
 <span class="infodata">
-	{{{newcrited NEW_CRIT_ED SOLERTI}}}
+	{{{newcrited OTHER_CRIT_ED SOLERTI}}}
 	{{{attribution ATTRIBUTION_ABOUT SOLERTI}}}
 	{{{dating DATING SOLERTI}}}
 	{{{dedicatee DEDICATEE SOLERTI}}}
@@ -483,7 +483,7 @@ Handlebars.registerHelper("newcrited",  function (newcrited) {
 	if (!newcrited) {
 		return new Handlebars.SafeString(output);
 	}
-	output += "<h3 class='header'>New Critical Edition</h3>";
+	output += "<h3 class='header'>Other Critical Edition</h3>";
 	output += "<div class='indent'>";
 	output += newcrited;
 	output += "</div>";

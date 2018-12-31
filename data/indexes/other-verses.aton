@@ -23,7 +23,7 @@
 @ECLOGA:        I
 @VERSE:		1
 @TITLE:		Dimmi, mesto pastore	
-@MANUSRC:	F1
+@MANUSRC:	E<sub>1</sub>, P, Pt
 @PRINTSRC:	
 @@BEGIN:	VERSES
 @ABOUTIT:	Licori
@@ -57,7 +57,7 @@
 @ECLOGA:        I
 @VERSE:		89
 @TITLE:		Di che cantar degg'io	
-@MANUSRC:	
+@MANUSRC:	E<sub>1</sub>, P, Pt
 @PRINTSRC:	
 @@BEGIN:	VERSES
 @ABOUTIT:	Tirsi
@@ -123,7 +123,7 @@ That the green grassy springs decorate for you.
 @ECLOGA:        II
 @VERSE:		73
 @TITLE:		Ché qual tenera rosa	
-@MANUSRC:	
+@MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
 @PRINTSRC:	
 @@BEGIN:	VERSES
 @ABOUTIT:	Arezia
@@ -159,6 +159,7 @@ And gathers to her bosom the beautiful ray of the sun.
 @@END:		VERSES
 @OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	Not secure
+The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 @DATING:	Before 1587
 @DEDICATEE:	?
 @COMMENTARY:    
@@ -170,7 +171,7 @@ And gathers to her bosom the beautiful ray of the sun.
 @ECLOGA:        II
 @VERSE:		82
 @TITLE:		Così la verginella	
-@MANUSRC:	
+@MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
 @PRINTSRC:	
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -210,6 +211,7 @@ And how did she answer you?
 @@END:		VERSES
 @OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	Not secure
+The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 @DATING:	Before 1587
 @DEDICATEE:	?
 @COMMENTARY:    
@@ -220,7 +222,7 @@ And how did she answer you?
 @ECLOGA:        III
 @VERSE:		108
 @TITLE:		Non sospirar pastor, non sospirare 	
-@MANUSRC:	
+@MANUSRC:	O<sub>2</sub>
 @PRINTSRC:	
 @@BEGIN:	VERSES
 @ABOUTIT:	Amarilli

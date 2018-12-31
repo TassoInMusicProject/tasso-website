@@ -18,7 +18,7 @@
 @CANTO:        	I 
 @OTTAVA:       	2
 @TITLE:		O musa, tu che di caduchi allori
-@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -53,7 +53,7 @@
 @TITLE:		Sai che là corre il mondo, ove più versi
 @CANTO:         I
 @OTTAVA:       	3
-@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -88,7 +88,7 @@
 @TITLE:		Ma poi che ’l Re crudel vide occultarse
 @CANTO:		II
 @OTTAVA:	11-53
-@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -123,7 +123,7 @@
 @TITLE:		Dunque ove tu, signor di mille rivi
 @CANTO:		III
 @OTTAVA:	8
-@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -158,7 +158,7 @@
 @TITLE:		Argo non mai, non vide Cipro e Delo
 @CANTO:		IV
 @OTTAVA:	29
-@MANUSRC:	Al, Am, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -193,7 +193,7 @@
 @TITLE:		Fa nove crespe l'aura al crin disciolto
 @CANTO:		IV
 @OTTAVA:	30
-@MANUSRC:	Al, Am, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Bm, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -228,7 +228,7 @@
 @TITLE:		Era la notte e 'l suo stellato velo
 @CANTO:		VI
 @OTTAVA:	103
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -263,7 +263,7 @@
 @TITLE:		Poi rimirando il campo ella dicea
 @CANTO:		VI
 @OTTAVA:	104
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -298,7 +298,7 @@
 @TITLE:		Raccogliete me dunque: e in voi si trove
 @CANTO:		VI
 @OTTAVA:	105
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -438,7 +438,7 @@
 @TITLE:		Vuol ne l'armi provarla: un uom la stima
 @CANTO:		XII
 @OTTAVA:	52
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -473,7 +473,7 @@
 @TITLE:		Segue egli la vittoria e la trafitta
 @CANTO:		XII
 @OTTAVA:	65
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -508,7 +508,7 @@
 @TITLE:		Amico hai vinto: io ti perdon...perdona
 @CANTO:		XII
 @OTTAVA:	66
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -543,7 +543,7 @@
 @TITLE:		Poco quindi lontan nel sen del monte
 @CANTO:		XII
 @OTTAVA:	67
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -578,7 +578,7 @@
 @TITLE:		Non morì già: ché sue virtuti accolse
 @CANTO:		XII
 @OTTAVA:	68
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -613,7 +613,7 @@
 @TITLE:		D'un bel pallore ha il bianco volto asperso
 @CANTO:		XII
 @OTTAVA:	69
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -648,7 +648,7 @@
 @TITLE:		Io vivo? Io spiro ancora? E gli odiosi
 @CANTO:		XII
 @OTTAVA:	75
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -683,7 +683,7 @@
 @TITLE:		Passa per questo petto e feri scempi
 @CANTO:		XII
 @OTTAVA:	76
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -718,7 +718,7 @@
 @TITLE:		Vivrò fra i miei tormenti e le mie cure
 @CANTO:		XII
 @OTTAVA:	77
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -753,7 +753,7 @@
 @TITLE:		Ma dove, oh lasso, me! dove restaro
 @CANTO:		XII
 @OTTAVA:	78
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -788,7 +788,7 @@
 @TITLE:		Io verrò là dove sete; e voi
 @CANTO:		XII
 @OTTAVA:	79
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -823,7 +823,7 @@
 @TITLE:		O bella destra che 'l soave pegno
 @CANTO:		XII
 @OTTAVA:	82
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -858,7 +858,7 @@
 @TITLE:		Lei nel partir, lei nel tornar del sole
 @CANTO:		XII
 @OTTAVA:	90
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -893,7 +893,7 @@
 @TITLE:		Giunto a la tomba ove al suo spirto vivo
 @CANTO:		XII
 @OTTAVA:	96
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -928,7 +928,7 @@
 @TITLE:		Non di morte sei tu ma di vivaci
 @CANTO:		XII
 @OTTAVA:	97
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -963,7 +963,7 @@
 @TITLE:		Dalli lor tu ché, se mai gli occhi gira
 @CANTO:		XII
 @OTTAVA:	98
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -998,7 +998,7 @@
 @TITLE:		Ed amando morrò: felice giorno
 @CANTO:		XII
 @OTTAVA:	99
-@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Am, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1103,7 +1103,7 @@
 @TITLE:		Vezzosi augelli infra le verdi fronde
 @CANTO:		XVI
 @OTTAVA:	12
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1138,7 +1138,7 @@
 @TITLE:		Vola fra gli altri un che le piume ha sparte
 @CANTO:		XVI
 @OTTAVA:	13
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1173,7 +1173,7 @@
 @TITLE:		"Deh mira," egli cantò, "spuntar la rosa
 @CANTO:		XVI
 @OTTAVA:	14
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1208,7 +1208,7 @@
 @TITLE:		Così trapassa al trapassar d'un giorno
 @CANTO:		XVI
 @OTTAVA:	15
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1243,7 +1243,7 @@
 @TITLE:		Deh perché sdegni me, com'egli è vago
 @CANTO:		XVI
 @OTTAVA:	22
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1278,7 +1278,7 @@
 @TITLE:		Forsennata gridava: "O tu che porte
 @CANTO:		XVI
 @OTTAVA:	40
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1313,7 +1313,7 @@
 @TITLE:		Qual musico gentil prima che chiara
 @CANTO:		XVI
 @OTTAVA:	43
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1348,7 +1348,7 @@
 @TITLE:		Poi cominciò: "Non aspettar ch'io preghi
 @CANTO:		XVI
 @OTTAVA:	44
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1383,7 +1383,7 @@
 @TITLE:		Se m'odii e in ciò diletto alcun tu senti
 @CANTO:		XVI
 @OTTAVA:	45
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1418,7 +1418,7 @@
 @TITLE:		Aggiungi a questo ancor quel ch'a maggiore
 @CANTO:		XVI
 @OTTAVA:	46
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1453,7 +1453,7 @@
 @TITLE:		Sia questa pur tra le mie frodi, e vaglia
 @CANTO:		XVI
 @OTTAVA:	47
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1488,7 +1488,7 @@
 @TITLE:		Rimanti in pace: i' vado: a te non lice	
 @CANTO:		XVI
 @OTTAVA:	56
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1523,7 +1523,7 @@
 @TITLE:		Vattene pur crudel con quella pace
 @CANTO:		XVI
 @OTTAVA:	59
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1558,7 +1558,7 @@
 @TITLE:		Là tra 'l sangue e le morti egro giacente
 @CANTO:		XVI
 @OTTAVA:	60
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1593,7 +1593,7 @@
 @TITLE:		Chiudesti i lumi Armida: il cielo avaro
 @CANTO:		XVI
 @OTTAVA:	61
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1629,7 +1629,7 @@
 @TITLE:		Or che farà? Dee su l'ignuda arena
 @CANTO:		XVI
 @OTTAVA:	62
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1665,7 +1665,7 @@
 @TITLE:		Poi ch'ella in sé tornò, deserto e muto
 @CANTO:		XVI
 @OTTAVA:	63
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1700,7 +1700,7 @@
 @TITLE:		Che fa più meco il pianto? Altr'arme, altr'arte
 @CANTO:		XVI
 @OTTAVA:	64
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1735,7 +1735,7 @@
 @TITLE:		Misera Armida, allor dovevi e degno
 @CANTO:		XVI
 @OTTAVA:	65
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	
@@ -1771,7 +1771,7 @@
 @TITLE:		Questa bellezza mia sarà mercede
 @CANTO:		XVI
 @OTTAVA:	66
-@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
+@MANUSRC:	Al, Au, Br<sub>1</sub>, Br<sub>2</sub>, Cv, Es<sub>1</sub>, Es<sub>2</sub>, Es<sub>3</sub>, F, Fr, Fr<sub>1</sub>, Fr<sub>2</sub>, Mc<sub>1</sub>, Mr, Mt, N
 @PRINTSRC:	1580CM, 1581B, 1581CV, 1581R, 1581MR, 1581P, 1581V, 1581Vbis, 1582C, 1582M, 1582MC, 1582P, 1582SC, 1582SCbis, 1583S, 1584O, 1584S, 1585C, 1585S, 1588S, 1589S, 1590B, 1590S, 1592S, 1593S, 1594C, 1595C, 1597C, 1598C, 1599C, 1600C, 1600S, 1601C, 1601R, 1602C, 1604C, 1604Cl, 1604F, 1604P, 1606B, 1606Bbis, 1606L, 1607ZF, 1608DP, 1609GC, 1610M, 1611S, 1611V, 1612P, 1613M, 1613P, 1613V, 1615P, 1616M, 1617P, 1619B, 1619V, 1620M, 1620S, 1621R, 1624I, 1624MT, 1625C, 1625S, 1625SS, 1626C, 1626Co, 1627M, 1628T, 1628Tu, 1630L, 1630T, 1632FT, 1639CF, 1642M, 1643I, 1644P, 1644S
 @@BEGIN:	VERSES
 @ABOUTIT:	

@@ -28,6 +28,7 @@ var RWORKLIST = {};
 
 function displayFrontPage() {
 	PrepareGlobalTassoObjects();
+	buildReverseWorklist();
 	if (CGI && CGI.c) {
 		if (CGI.c === "gerusalemme") {
 			displayGerusalemmeList("#contents");
@@ -448,6 +449,7 @@ function continueProcessingOther(element) {
 //
 
 function buildReverseWorklist() {
+console.log("BUILDING REVERSE WORKLIST");
 	RWORKLIST = {};
 	var wl = TASSODATA.SCORES.SCOREDATA;
 	var rime;

@@ -61,6 +61,7 @@
 //
 
 Handlebars.registerHelper("trclass", function(entry) {
+console.log("ENTRY", entry);
 	var output = "";
 	if (entry.SCOREDATA) {
 		output += "<tr class='data haswork'>";

@@ -21,7 +21,7 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<thead>
 	<tbody>
 	{{#each this}}
-	{{{trclass SOLERTI}}}
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 	<td>
 		<nobr>{{#if ATTRIBUTION}}<span class="attribution" style="cursor:pointer" title="Attribution to Tasso not secure">*</span>{{/if}}{{SOLERTI}}</nobr>
 	</td>
@@ -64,21 +64,21 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<tbody>
 	{{#each this}}
 
-	<tr>
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 	<td style="text-align:left;">
 		<table>
 		<tr>
 		<td style="width:100px;">
-			<span class="canto nowork">{{canto}}</span>
+			<span class="canto">{{canto}}</span>
 		</td>
 		<td style="width:150px text-align:right;">
-			<span class="ottava nowork"><nobr>{{ottava}}</nobr></span>
+			<span class="ottava"><nobr>{{ottava}}</nobr></span>
 		</td>
 		</tr>
 		</table>
 	</td>
 
-	<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{gtitle}}}
+	<td onmouseover="show(this)" onmouseout="hide(this)">{{{gtitle}}}
 		<table class="choices">
 		<tr>
 			<td><a href="/poem?id={{number catalogbase}}">About</a></td>
@@ -115,20 +115,20 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<tbody>
 	{{#each this}}
 
-	<tr>
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 		<td style="text-align:left;">
 			<table style="width:100px">
 			<tr>
 			<td style="width:30px; text-align:right;">
-				<span class="canto nowork"><nobr>{{canto}}</nobr></span>
+				<span class="canto"><nobr>{{canto}}</nobr></span>
 			</td>
 			<td style="width:70px; text-align:right;">
-				<span class="verse nowork"><nobr>{{ottava}}</nobr></span>
+				<span class="verse"><nobr>{{ottava}}</nobr></span>
 			</td>
 			</tr>
 			</table>
 		</td>
-		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{ctitle}}}
+		<td onmouseover="show(this)" onmouseout="hide(this)">{{{ctitle}}}
 			<table class="choices">
 			<tr>
 				<td><a href="/poem?id={{number catalogbase}}">About</a></td>
@@ -168,23 +168,23 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<tbody>
 	{{#each this}}
 
-	<tr>
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 		<td style="text-align:left;">
 			<table style="width:140px">
 			<tr>
 			<td style="width:40px;">
-				<span class="act nowork">{{act}}</span>
+				<span class="act">{{act}}</span>
 			</td>
 			<td style="width:30px; text-align:right;">
-				<span class="scene nowork"><nobr>{{scene}}</nobr></span>
+				<span class="scene"><nobr>{{scene}}</nobr></span>
 			</td>
 			<td style="width:70px; text-align:right;">
-				<span class="verse nowork"><nobr>{{verse}}</nobr></span>
+				<span class="verse"><nobr>{{verse}}</nobr></span>
 			</td>
 			</tr>
 			</table>
 		</td>
-		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{atitle}}}
+		<td onmouseover="show(this)" onmouseout="hide(this)">{{{atitle}}}
 			<table class="choices">
 			<tr>
 				<td><a href="/poem?id={{number catalogbase}}">About</a></td>
@@ -220,20 +220,20 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<tbody>
 	{{#each this}}
 
-	<tr>
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 		<td style="text-align:left;">
 			<table style="width:100px">
 			<tr>
 			<td style="width:30px; text-align:right;">
-				<span class="ecloga nowork"><nobr>{{ecloga}}</nobr></span>
+				<span class="ecloga"><nobr>{{ecloga}}</nobr></span>
 			</td>
 			<td style="width:70px; text-align:right;">
-				<span class="verse nowork"><nobr>{{verse}}</nobr></span>
+				<span class="verse"><nobr>{{verse}}</nobr></span>
 			</td>
 			</tr>
 			</table>
 		</td>
-		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{etitle}}}
+		<td onmouseover="show(this)" onmouseout="hide(this)">{{{etitle}}}
 			<table class="choices">
 			<tr>
 				<td><a href="/poem?id={{number catalogbase}}">About</a></td>
@@ -267,20 +267,20 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<tbody>
 	{{#each this}}
 
-	<tr>
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 		<td style="text-align:left;">
 			<table style="width:100px">
 			<tr>
 			<td style="width:30px; text-align:right;">
-				<span class="canto nowork"><nobr>{{canto}}</nobr></span>
+				<span class="canto"><nobr>{{canto}}</nobr></span>
 			</td>
 			<td style="width:70px; text-align:right;">
-				<span class="verse nowork"><nobr>{{ottava}}</nobr></span>
+				<span class="verse"><nobr>{{ottava}}</nobr></span>
 			</td>
 			</tr>
 			</table>
 		</td>
-		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{rtitle}}}
+		<td onmouseover="show(this)" onmouseout="hide(this)">{{{rtitle}}}
 			<table class="choices">
 			<tr>
 				<td><a href="/poem?id={{number catalogbase}}">About</a></td>
@@ -314,23 +314,23 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<tbody>
 	{{#each this}}
 
-	<tr>
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 		<td style="text-align:left;">
 			<table style="width:150px">
 			<tr>
 			<td style="width:30px; text-align:right;">
-				<span class="act nowork"><nobr>{{act}}</nobr></span>
+				<span class="act"><nobr>{{act}}</nobr></span>
 			</td>
 			<td style="width:40px; text-align:right;">
-				<span class="scene nowork"><nobr>{{scene}}</nobr></span>
+				<span class="scene"><nobr>{{scene}}</nobr></span>
 			</td>
 			<td style="width:80px; text-align:right;">
-				<span class="section nowork"><nobr>{{section}}</nobr></span>
+				<span class="section"><nobr>{{section}}</nobr></span>
 			</td>
 			</tr>
 			</table>
 		</td>
-		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{ttitle}}}
+		<td onmouseover="show(this)" onmouseout="hide(this)">{{{ttitle}}}
 			<table class="choices">
 			<tr>
 				<td><a href=/poem?id={{number catalogbase}}>About</a></td>
@@ -364,17 +364,17 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 	<tbody>
 	{{#each this}}
 
-	<tr>
+	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 		<td style="text-align:left;">
 			<table style="width:100px">
 			<tr>
 			<td style="width:30px; text-align:right;">
-				<span class="stanza nowork"><nobr>{{stanza}}</nobr></span>
+				<span class="stanza"><nobr>{{stanza}}</nobr></span>
 			</td>
 			</tr>
 			</table>
 		</td>
-		<td class="nowork" onmouseover="show(this)" onmouseout="hide(this)">{{{ltitle}}}
+		<td onmouseover="show(this)" onmouseout="hide(this)">{{{ltitle}}}
 			<table class="choices">
 			<tr>
 				<td><a href=/poem?id={{number catalogbase}}>About</a></td>
@@ -402,14 +402,24 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 //     a work page for this ID.
 //
 
-Handlebars.registerHelper("trclass", function(solerti) {
-   len = solerti.length;
-   var id = "Trm";
-   switch (len) {
-		case 4: id +=         solerti; break;
-		case 3: id += "0"   + solerti; break;
-		case 2: id += "00"  + solerti; break;
-		case 1: id += "000" + solerti; break;
+Handlebars.registerHelper("trclass", function(solerti, catalognum, catalogbase) {
+	var id = "";
+	if (solerti) {
+		len = solerti.length;
+		id = "Trm";
+		switch (len) {
+			case 4: id +=         solerti; break;
+			case 3: id += "0"   + solerti; break;
+			case 2: id += "00"  + solerti; break;
+			case 1: id += "000" + solerti; break;
+		}
+	} else if (catalognum){
+		id = catalognum;
+	} else if (catalogbase){
+		id = catalogbase;
+	}
+	if (!id) {
+		return new Handlebars.SafeString("<tr class='nowork'>");
 	}
 	var output = "";
 	if (RWORKLIST[id]) {

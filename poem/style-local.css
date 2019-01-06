@@ -12,6 +12,10 @@ iframe {
 	border: 0;
 }
 
+.editor:hover {
+	cursor: pointer;
+}
+
 .triangle {
 	color: #96835c;
 	margin:0;

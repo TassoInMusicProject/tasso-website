@@ -548,6 +548,7 @@ function getEditorPopup(verses) {
 	var vol   = verses.EDITION_VOL;
 	var page  = verses.EDITION_PAGE;
 	if (!title) {
+console.log("TITLE IS EMPTY");
 		return "";
 	}
 	var output = title;
@@ -615,18 +616,21 @@ function getTranslationPopup(verses) {
 //
 
 Handlebars.registerHelper("edtrans",  function (verses) {
+console.log("GOT HERE IN EDTRANS", verses);
 	var editor = verses.EDITOR;
 	var edpop = getEditorPopup(verses);
+console.log("EDPOP", edpop);
 	var transpop = getTranslationPopup(verses);
+console.log("TRANSPOP", transpop);
 	var translator = verses.TRANSLATOR;
 	var output = "<tr>";
 	output += "<td class='tcell'>";
 	var editor = reverseName(editor);
 	if (editor) {
 
-		if (transpop) {
+		if (edpop) {
 			output += "<span class='editor' title='";
-			output += edpop
+			output += edpop;
 			output += "'>";
 		}
 

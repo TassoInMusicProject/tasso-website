@@ -24,7 +24,7 @@
 @VERSE:		1
 @TITLE:		Dimmi, mesto pastore	
 @MANUSRC:	E<sub>1</sub>, P<sub>3</sub>, Pt
-@PRINTSRC:	
+@PRINTSRC:	1582B, 1582M, 1582MC, 1583O, 1585V, 1589V, 1608DP, 1619B, 1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Licori
 @ABOUTEN:	Lycoris
@@ -45,7 +45,7 @@
 	Qual muto pesce o quale è rozzo armento
 	Che non faccia d'amor qualche concento?
 @@END:		VERSES
-@OTHER_CRIT_ED:  None
+@OTHER_CRIT_ED:  none
 @ATTRIBUTION_ABOUT:	Secure
 @DATING:	1579
 @DEDICATEE:	Margherita Gonzaga d'Este
@@ -58,7 +58,7 @@
 @VERSE:		89
 @TITLE:		Di che cantar degg'io	
 @MANUSRC:	E<sub>1</sub>, P, Pt
-@PRINTSRC:	
+@PRINTSRC:	1582B, 1582M, 1582MC, 1583O, 1585V, 1589V, 1608DP, 1619B, 1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Tirsi
 @ABOUTEN:	Tyrsis
@@ -111,7 +111,7 @@ Lovely, with your beauty, [do]
 You make the valleys and the mountains
 That the green grassy springs decorate for you.
 @@END:		VERSES
-@OTHER_CRIT_ED:  None
+@OTHER_CRIT_ED:  none
 @ATTRIBUTION_ABOUT:	Secure
 @DATING:	1579
 @DEDICATEE:	Margherita Gonzaga d'Este
@@ -124,7 +124,7 @@ That the green grassy springs decorate for you.
 @VERSE:		73
 @TITLE:		Ché qual tenera rosa	
 @MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
-@PRINTSRC:	
+@PRINTSRC:	1587B, 1587CV, 1592CV, 1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Arezia
 @ABOUTEN:	Arezia
@@ -157,11 +157,11 @@ Of the great burning planet,
 She opens, languishing, her purpled petals
 And gathers to her bosom the beautiful ray of the sun. 
 @@END:		VERSES
-@OTHER_CRIT_ED:  None
+@OTHER_CRIT_ED:  none
 @ATTRIBUTION_ABOUT:	Not secure
 The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 @DATING:	Before 1587
-@DEDICATEE:	?
+@DEDICATEE:	
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -172,7 +172,7 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 @VERSE:		82
 @TITLE:		Così la verginella	
 @MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
-@PRINTSRC:	
+@PRINTSRC:	1587B, 1587CV, 1592CV, 1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -223,7 +223,7 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 @VERSE:		108
 @TITLE:		Non sospirar pastor, non sospirare 	
 @MANUSRC:	O<sub>2</sub>
-@PRINTSRC:	
+@PRINTSRC:	none
 @@BEGIN:	VERSES
 @ABOUTIT:	Amarilli
 @ABOUTEN:	Amarillys
@@ -257,7 +257,7 @@ It will again draw from your lament burning sparks.
 @OTHER_CRIT_ED:  None
 @ATTRIBUTION_ABOUT:	Not secure
 @DATING:	Before 1586
-@DEDICATEE:	?
+@DEDICATEE:	
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -274,7 +274,7 @@ It will again draw from your lament burning sparks.
 @OTTAVA:       	16	
 @TITLE:		"Lasso," dicea, "Perché venisti Amore
 @MANUSRC:	none
-@PRINTSRC:	
+@PRINTSRC:	1562S, 1570S, 1581O, 1582O, 1582M, 1583M, 1583V, 1585C, 1585V, 1585V<sub>bis</sub>, 1589B, 1608DP, 1618B, 1621D, 1637M
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -305,10 +305,10 @@ If I so not dare scorn anyone,
 If as soon as the bow was tightened, as soon as 
 You were to wound [me], I surrendered myself as vanquished?
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Rinaldo</i>, ed. Matteo Navone, vol. 7 of <i>Edizione Nazionale delle opere di Torquato Tasso</i> (Alessandria: Edizioni Dell’Orso, 2012)
 @ATTRIBUTION_ABOUT:	Secure
 @DATING:	1562
-@DEDICATEE:	
+@DEDICATEE:	Cardinal Luigi d'Este
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -318,7 +318,7 @@ You were to wound [me], I surrendered myself as vanquished?
 @OTTAVA:       	18
 @TITLE:		Tu perfido signor, tu disleale	
 @MANUSRC:	none
-@PRINTSRC:	
+@PRINTSRC:	1562S, 1570S, 1581O, 1582O, 1582M, 1583M, 1583V, 1585C, 1585V, 1585V<sub>bis</sub>, 1589B, 1608DP, 1618B, 1621D, 1637M
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -350,10 +350,10 @@ You, wicked sir, you disloyal one,
 	For where, in others, love is born of hope,
 	On lack of hope in me it comes alive and feeds.	
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Rinaldo</i>, ed. Matteo Navone, vol. 7 of <i>Edizione Nazionale delle opere di Torquato Tasso</i> (Alessandria: Edizioni Dell’Orso, 2012)
 @ATTRIBUTION_ABOUT:	Secure
 @DATING:	1562
-@DEDICATEE:	
+@DEDICATEE:	Cardinal Luigi d'Este
 @COMMENTARY:    
 @@END:		VERSEDATA
 
@@ -368,7 +368,7 @@ You, wicked sir, you disloyal one,
 @STANZA:        2
 @TITLE:		Chiaro sol che rotondo esci dal Gange	
 @MANUSRC:	none
-@PRINTSRC:	1593A, 1593B, 1593Bbis, 1593CV, 1593F, 1593Fbis, 1593M, 1594F, 1594O, 1596B, 1596F, 1596R, 1597S, 1599B, 1599S, 1602S
+@PRINTSRC:	1593A, 1593Bb, 1593Bl, 1593CV, 1593Fr, 1593Fs, 1593M, 1594F, 1594O, 1596B, 1596F, 1596R, 1597S, 1599B, 1599S, 1602S
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -419,7 +419,7 @@ The earliest datable appearance of this poem is in a literary print published in
 @SECTION:	Coro
 @TITLE:		Ahi lagrime! ahi dolore	
 @MANUSRC:	Au, Vau, R
-@PRINTSRC:	
+@PRINTSRC:	1587Bf, 1587Bg, 1587C, 1587CV, 1587CV<sub>bis</sub>, 1587Dc, 1587Dv, 1587O, 1587P, 1587R, 1587V, 1588Cf, 1588Ct, 1588Z, 1589B, 1607A, 1608A, 1608DP, 1617G, 1618B, 1622D, 1637M
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -476,7 +476,7 @@ Grief and lament and tearful lays.
 Of what more use is friendship, or of benefit love?
 Alas tears, alas sorrow!
 @@END:		VERSES
-@OTHER_CRIT_ED:  
+@OTHER_CRIT_ED:  Torquato Tasso, <i>Il Re Torrismondo</i>, ed. Vercingetorige Martignone (Parma: Guanda [Fondazione Bembo], 1993)
 @ATTRIBUTION_ABOUT:	Secure
 @DATING:	1586-87
 @DEDICATEE:	Vincenzo Gonzaga
@@ -494,15 +494,15 @@ Alas tears, alas sorrow!
 @OTTAVA:       	6
 @TITLE:		Piange, e sospira; e quando i caldi raggi	
 @MANUSRC:	N
-@PRINTSRC:	
+@PRINTSRC:	1593F, 1594V, 1595A
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
-@EDITOR:	
-@EDITION_TITLE: 
-@EDITION_LOC:	
-@EDITION_PUB:	
-@EDITION_DATE:  
+@EDITOR: Luigi Bonfigli	
+@EDITION_TITLE: Gerusalemme conquistata
+@EDITION_LOC:	Bari
+@EDITION_PUB:	Laterza
+@EDITION_DATE:  1934
 @EDITION_VOL:	
 @EDITION_PAGE:  
 @TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
@@ -525,10 +525,10 @@ And the various fates in hard bark carved:
 And while re-reading, then, her own accounts,
 Were streaked with laments her reddened cheeks.
 @@END:		VERSES
-@OTHER_CRIT_ED: 
+@OTHER_CRIT_ED: Torquato Tasso, <i>Gerusalemme conquistata secondo il Ms. Vind. Lat. 72 della Biblioteca Nazionale di Napoli</i>, ed. Claudio Gigante, vol. 3 of Edizione Nazionale delle opere di Torquato Tasso (Alessandria: Edizioni dell'Orso, 2010)
 @ATTRIBUTION_ABOUT:	Secure
 @DATING:	1582-93
-@DEDICATEE:	
+@DEDICATEE:	Cardinal Cinzio Aldobrandini
 @COMMENTARY:    
 @@END:		VERSEDATA
 

@@ -23,6 +23,88 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	PRINT
+@SPRINTNUM:	1582M
+@PRINTTITLE:	
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Venice
+@PUBYEAR:	1582
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1582B
+@PRINTTITLE:	
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1582
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1582MC
+@PRINTTITLE:	
+@PUBLISHER:	Domenico Mammarelli, e Giulio Cesare Cagnacini Compagni
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1582
+@URL:		https://archive.org/details/imageCII1561MiscellaneaOpal
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1583O
+@PRINTTITLE:	
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantua
+@PUBYEAR:	1582
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1585V
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1589V
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1608DP
+@PRINTTITLE:	
+@PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
+@PUBLOCATION:	Venice
+@PUBYEAR:	1608
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1619B
+@PRINTTITLE:	
+@PUBLISHER:	Giovanni Battista Bidelli
+@PUBLOCATION:	Milan
+@PUBYEAR:	1608
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1621D
+@PRINTTITLE:	
+@PUBLISHER:	Evangelista Deuchino
+@PUBLOCATION:	Venice
+@PUBYEAR:	1621
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
 @SPRINTNUM:	
 @PRINTTITLE:	
 @PUBLISHER:	
@@ -31,11 +113,284 @@
 @@END:		PRINT
 
 
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587B
+@PRINTTITLE:	
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587CV
+@PRINTTITLE:	
+@PUBLISHER:	Comino Ventura
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1592CV
+@PRINTTITLE:	
+@PUBLISHER:	Comino Ventura
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1592
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1621D
+@PRINTTITLE:	
+@PUBLISHER:	Evangelista Deuchino
+@PUBLOCATION:	Venice
+@PUBYEAR:	1621
+@@END:		PRINT
+
+
+
+
+
+
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Rinaldo                                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+@@BEGIN:	PRINT
+@SPRINTNUM:	1562S
+@PRINTTITLE:	Il Rinaldo di Torquato Tasso all'illustrissimo et reverendissimo D. Luigi d'Este Card.
+@PUBLISHER:	Francesco de' Franceschi Senese
+@PUBLOCATION:	Venice
+@PUBYEAR:	1562
+@URL: https://books.google.com/books?id=XD6rbPQQkrcC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@@END:		PRINT
 
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1570S
+@PRINTTITLE:	
+@PUBLISHER:	Francesco de' Franceschi Senese
+@PUBLOCATION:	Venice
+@PUBYEAR:	1570
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1581O
+@PRINTTITLE:	
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantua
+@PUBYEAR:	1581
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1582O
+@PRINTTITLE:	
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantua
+@PUBYEAR:	1582
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1582M
+@PRINTTITLE:	
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Venice
+@PUBYEAR:	1582
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1583V
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1583
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1583M
+@PRINTTITLE:	
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Venice
+@PUBYEAR:	1583
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1585C
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Cesare Cagnacini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1585V
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1585V<sub>bis</sub>
+@PRINTTITLE:	
+@PUBLISHER:	Simon Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1585
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1589B
+@PRINTTITLE:	
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1608DP
+@PRINTTITLE:	
+@PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
+@PUBLOCATION:	Venice
+@PUBYEAR:	1608
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1618B
+@PRINTTITLE:	
+@PUBLISHER:	Giovanni Battista Bidelli
+@PUBLOCATION:	Milan
+@PUBYEAR:	1618
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1621D
+@PRINTTITLE:	
+@PUBLISHER:	Evangelista Deuchino
+@PUBLOCATION:	Venice
+@PUBYEAR:	1621
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1637M
+@PRINTTITLE:	
+@PUBLISHER:	Giovanni Antonio & Giovanni Maria Misserini
+@PUBLOCATION:	Venice
+@PUBYEAR:	1637
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	
+@PRINTTITLE:	
+@PUBLISHER:	
+@PUBLOCATION:	
+@PUBYEAR:	
+@@END:		PRINT
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Lagrime della Beata Vergine                                         @@@
@@ -50,7 +405,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593B
+@SPRINTNUM:	1593Bb
 @PRINTTITLE:	
 @PUBLISHER:	Vittorio Benacci
 @PUBLOCATION:	Bologna
@@ -68,7 +423,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593F
+@SPRINTNUM:	1593Fr
 @PRINTTITLE:	
 @PUBLISHER:	Giorgio Ferrari
 @PUBLOCATION:	Rome
@@ -77,7 +432,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593Bbis
+@SPRINTNUM:	1593Bl
 @PRINTTITLE:	
 @PUBLISHER:	Busdrago
 @PUBLOCATION:	Lucca
@@ -86,7 +441,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593Fbis
+@SPRINTNUM:	1593Fs
 @PRINTTITLE:	
 @PUBLISHER:	Pietro Farri
 @PUBLOCATION:	Senigallia
@@ -187,14 +542,236 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Re Torrismondo                                                      @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587CV
+@PRINTTITLE:	
+@PUBLISHER:	Comino Ventura & Compagni
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1587
+@@END:		PRINT
 
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587CV<sub>bis</sub>
+@PRINTTITLE:	
+@PUBLISHER:	Comino Ventura & Compagni
+@PUBLOCATION:	Bergamo
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587R
+@PRINTTITLE:	
+@PUBLISHER:	Giovanni Rossi
+@PUBLOCATION:	Bologna
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587Dc
+@PRINTTITLE:	
+@PUBLISHER:	Cristoforo Draconi
+@PUBLOCATION:	Cremona
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587V
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Vasalini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587Bf
+@PRINTTITLE:	
+@PUBLISHER:	Vittorio Baldini [ad istanza di Giulio Vasalini]
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587C
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Cesare Cagnacini & fratelli
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1588Cf
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Cesare Cagnacini & fratelli
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587Bg
+@PRINTTITLE:	
+@PUBLISHER:	Girolamo Bartoli
+@PUBLOCATION:	Genova
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587O
+@PRINTTITLE:	
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantua
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587P
+@PRINTTITLE:	
+@PUBLISHER:	Girolamo Polo
+@PUBLOCATION:	Venice
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1587Dv
+@PRINTTITLE:	
+@PUBLISHER:	Girolamo Discepolo
+@PUBLOCATION:	Verona
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1588Ct
+@PRINTTITLE:	
+@PUBLISHER:	Giovanni Michele e Giovanni Vincenzo Cavalleri
+@PUBLOCATION:	Turin
+@PUBYEAR:	1588
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1588Z
+@PRINTTITLE:	
+@PUBLISHER:	Agostino e Fabio Zoppino
+@PUBLOCATION:	Venice
+@PUBYEAR:	1588
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1589B
+@PRINTTITLE:	
+@PUBLISHER:	Vittorio Baldini [ad istanza di Giulio Vasalini]
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1589
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1607A
+@PRINTTITLE:	
+@PUBLISHER:	Nella Stampa Augusta
+@PUBLOCATION:	Perugia
+@PUBYEAR:	1607
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1608A
+@PRINTTITLE:	
+@PUBLISHER:	Nella Stampa Augusta
+@PUBLOCATION:	Perugia
+@PUBYEAR:	1608
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1608DP
+@PRINTTITLE:	
+@PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
+@PUBLOCATION:	Venice
+@PUBYEAR:	1608
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1617G
+@PRINTTITLE:	
+@PUBLISHER:	Comino Gallina
+@PUBLOCATION:	Venice
+@PUBYEAR:	1617
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1618B
+@PRINTTITLE:	
+@PUBLISHER:	Giovanni Battista Bidelli
+@PUBLOCATION:	Milan
+@PUBYEAR:	1618
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1622D
+@PRINTTITLE:	
+@PUBLISHER:	Evangelista Deuchino
+@PUBLOCATION:	Venice
+@PUBYEAR:	1622
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1637M
+@PRINTTITLE:	
+@PUBLISHER:	Giovanni Antonio e Giovanni Maria Misserini
+@PUBLOCATION:	Venice
+@PUBYEAR:	1637
+@@END:		PRINT
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@ Gerusalemme conquistata                                             @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+@@BEGIN:	PRINT
+@SPRINTNUM:	1593F
+@PRINTTITLE:	
+@PUBLISHER:	Guglielmo Facciotti
+@PUBLOCATION:	Rome
+@PUBYEAR:	1593
+@URL: https://books.google.com/books?id=nBCCU9KttBMC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@@END:		PRINT
 
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1594V
+@PRINTTITLE:	
+@PUBLISHER:	Andrea Viani
+@PUBLOCATION:	Pavia
+@PUBYEAR:	1594
+@URL: https://books.google.com/books?id=qXleAAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:1595A
+@PRINTTITLE:	
+@PUBLISHER:	Abel L'Angelieri
+@PUBLOCATION:	Paris
+@PUBYEAR:	1595
+@URL: https://books.google.com/books?id=vhlIh7jI3dwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@@END:		PRINT
 
 
 

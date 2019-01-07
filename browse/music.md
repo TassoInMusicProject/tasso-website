@@ -4,9 +4,9 @@ layout: simple
 
 <style>
 
-.xxx {
+.genre {
 	font-size: 18pt;
-	color: #959595;
+	color: #333;
 }
 
 </style>
@@ -14,11 +14,10 @@ layout: simple
 
 <table style="padding-top:40px; padding-bottom:40px" width="100%">
 <tr><td style="width:200px; vertical-align:top">
-<select class="xxx">
-	<option disabled>All</option>
-	<option default>Rime</option>
-	<option disabled>Aminta</option>
-	<option disabled>Gerusalemme</option>
+<select class="genre">
+	<option value="rime">Rime</option>
+	<option value="aminta">Aminta</option>
+	<option value="gerusalemme">Gerusalemme</option>
 </select>
 <br>
 <div id="work-count"></div>

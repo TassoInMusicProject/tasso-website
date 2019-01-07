@@ -109,7 +109,23 @@ function fillMusicBrowsePage() {
 		return;
 	}
 
-	var works = filterMusicData(RIMESETTINGLIST);
+	var genrelist = document.querySelector("select.genre");
+	var searchlist = TASSODATA.SETTINGS.RIME_SETTINGS;
+	if (genrelist) {
+		var gvalue = genrelist[genrelist.selectedIndex].value;
+		if (gvalue.match(/aminta/i)) {
+			searchlist = TASSODATA.SETTINGS.AMINTA_SETTINGS.SETTING;
+		} else if (gvalue.match(/gerusalemme/i)) {
+			searchlist = TASSODATA.SETTINGS.GERUSALEMME_SETTINGS.SETTING;
+		} else if (gvalue.match(/^rime/i)) {
+			searchlist = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
+		} else {
+			console.log("GENRE IS NOT YET DEALT WITH", gvalue);
+		}
+	}
+
+	// var works = filterMusicData(RIMESETTINGLIST);
+	var works = filterMusicData(searchlist);
 	var count = works.length;
 	var countElement = document.querySelector("#work-count");
 	if (countElement) {
@@ -137,7 +153,25 @@ function fillLiteraryBrowsePage() {
 	if (!literary.className.match(/active/)) {
 		return;
 	}
-	var works = filterLiteraryData(RIMEVERSELIST);
+
+	var genrelist = document.querySelector("select.genre");
+	var searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+
+	if (genrelist) {
+		var gvalue = genrelist[genrelist.selectedIndex].value;
+		if (gvalue.match(/aminta/i)) {
+			searchlist = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
+		} else if (gvalue.match(/gerusalemme/i)) {
+			searchlist = TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
+		} else if (gvalue.match(/^rime/i)) {
+			searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+		} else {
+			console.log("GENRE IS NOT YET DEALT WITH", gvalue);
+		}
+	}
+
+	// var works = filterLiteraryData(RIMEVERSELIST);
+	var works = filterLiteraryData(searchlist);
 	var count = works.length;
 	var countElement = document.querySelector("#work-count");
 	if (countElement) {
@@ -543,7 +577,6 @@ function displayLiteraryBrowseEntries(entries) {
 
 function setupMusicBrowseCallbacks() {
 
-console.log("SETUP MUSIC CALLBACKS");
 	var composerElement = document.querySelector("#browse-composer");
 	if (composerElement) {
 		composerElement.addEventListener("input", function() { 
@@ -600,6 +633,13 @@ console.log("SETUP MUSIC CALLBACKS");
 		});
 	}
 
+	var genreList = document.querySelector("select.genre");
+	if (genreList) {
+		genreList.addEventListener("change", function () {
+			fillMusicBrowsePage();
+		});
+	}
+
 }
 
 
@@ -642,6 +682,13 @@ function setupLiteraryBrowseCallbacks() {
 	var printsrcElement = document.querySelector("#browse-printsrc");
 	if (printsrcElement) {
 		printsrcElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var genreList = document.querySelector("select.genre");
+	if (genreList) {
+		genreList.addEventListener("change", function () {
 			fillLiteraryBrowsePage();
 		});
 	}

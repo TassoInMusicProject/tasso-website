@@ -7,24 +7,13 @@
 // Function called when document has finished loading:
 //
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 	CGI = GetCgiParameters();
 
-	if (CGI.genre) {
-		CGI.type = "literary";
-	}
-
-	if (CGI.manuscript) {
-		CGI.type = "literary";
-	}
-
-	if (CGI.print) {
-		CGI.type = "literary";
-	}
-
-	if (CGI.dedicatee) {
-		CGI.type = "literary";
-	}
+	if (CGI.genre)      { CGI.type = "literary"; }
+	if (CGI.manuscript) { CGI.type = "literary"; }
+	if (CGI.print)      { CGI.type = "literary"; }
+	if (CGI.dedicatee)  { CGI.type = "literary"; }
 
 	HighlightNavigationBar();
 	if (CGI.type === "literary") {
@@ -33,5 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		LoadTassoData(displayMusicPolicies);
 	}
 });
+
+
 
 </script>

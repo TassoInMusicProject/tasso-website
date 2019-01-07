@@ -71,6 +71,10 @@ Livio Ticli (University of Huddersfield)
 <h1> Advisory Board </h1>
 
 <div class="person">
+Marco Bizzarini (University of Naples) 
+</div>
+
+<div class="person">
 Mauro Calcagno (University of Pennsylvania) 
 </div>
 

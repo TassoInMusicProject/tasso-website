@@ -20,10 +20,11 @@
 		<th onclick="sortByText(1)" style="width:170px; cursor:pointer; text-align:left">Composer</th>
 		<th onclick="sortByText(2)" style="cursor:pointer; text-align:left">Title</th>
 		<th onclick="sortByYear(3)" style="cursor:pointer; text-align:left">Year</th>
-		<th onclick="sortByText(4)" style="cursor:pointer; text-align:left">Clefs</th>
-		<th onclick="sortByText(5)" style="cursor:pointer; text-align:left">Key&nbsp;sig.</th>
-		<th onclick="sortByText(6)" style="cursor:pointer; text-align:left">Mens.</th>
-		<th onclick="sortByVoice(7)" style="cursor:pointer; text-align:left">Voices</th>
+		<th onclick="sortByVoice(4)" style="cursor:pointer; text-align:left">Voices</th>
+		<th onclick="sortByText(5)" style="cursor:pointer; text-align:left">Mens.</th>
+		<th onclick="sortByText(6)" style="cursor:pointer; text-align:left">Clefs</th>
+		<th onclick="sortByText(7)" style="cursor:pointer; text-align:left">Key&nbsp;sig.</th>
+		<th onclick="sortByText(8)" style="cursor:pointer; text-align:left">Final</th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -33,10 +34,11 @@
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;"><nobr>{{shortName COMPOSER}}</nobr></td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; max-width:450px; padding-right:20px;"> {{{title this}}}</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{publication this}}}</td>
+			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{mensuration this}}}</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{clefs this}}}</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{keysig this}}}</td>
-			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{mensuration this}}}</td>
-			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{finals this}}}</td>
 		</tr>
 	{{/each}}
 
@@ -163,6 +165,18 @@ Handlebars.registerHelper("keysig", function(object) {
 
 
 
+
+//////////////////////////////
+//
+// finals Handlebar helper -- display the final of the music.
+//
+
+Handlebars.registerHelper("finals", function(object) {
+	return new Handlebars.SafeString("?");
+});
+
+
+
 //////////////////////////////
 //
 // mensuration Handlebar helper --
@@ -170,10 +184,18 @@ Handlebars.registerHelper("keysig", function(object) {
 
 Handlebars.registerHelper("mensuration", function(object) {
 	var mensuration = object.OMENSURATION;
-	if (!mensuration) {
-		mensuration = "";
+	var output = "";
+	if (mensuration) {
+		if (mensuration === "C") {
+			output = "c";
+		} else if (mensuration === "C|") {
+			output = "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+		} else {
+			output = mensuration;
+		}
+	} else {
+		output = "";
 	}
-	var output = mensuration;
 	return new Handlebars.SafeString(output);
 });
 

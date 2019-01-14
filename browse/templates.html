@@ -184,14 +184,15 @@ Handlebars.registerHelper("finals", function(object) {
 
 Handlebars.registerHelper("mensuration", function(object) {
 	var mensuration = object.OMENSURATION;
+	mensuration = mensuration.replace(/,.*/, "");
 	var output = "";
 	if (mensuration) {
 		if (mensuration === "C") {
 			output = "c";
 		} else if (mensuration === "Cut-C") {
-			output = "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+			output = "c<span style='position:relative; top:1px; margin-left:-6px'>|</span>";
 		} else if (mensuration === "C|") {
-			output = "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+			output = "c<span style='position:relative; top:1px; margin-left:-6px'>|</span>";
 		} else {
 			output = mensuration;
 		}

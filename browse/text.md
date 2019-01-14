@@ -19,6 +19,11 @@ layout: simple
 	<option value="rime">Rime</option>
 	<option value="aminta">Aminta</option>
 	<option value="gerusalemme">Gerusalemme</option>
+	<option value="ecloghe">Ecloghe</option>
+	<option value="rinaldo">Rinaldo</option>
+	<option value="lagrime">Lagrime della Beata Vergine</option>
+	<option value="torrismondo">Re Torrismondo</option>
+	<option value="contuqistata">Gerusalemme conquistata</option>
 </select>
 
 <br>

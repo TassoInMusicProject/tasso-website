@@ -40,8 +40,16 @@ var AMINTASETTINGLIST;  // list of Aminta settings
                         // from TASSODATA.SETTINGS.AMINTA_SETTINGS
 var OTHERSETTINGLIST;   // list of other settings
                         // from TASSODATA.SETTINGS.OTHER_SETTINGS
-var ALLSETTINGLIST;     // collapse of all settings in
-                        // TASSODATA.SETTINGS object
+
+// subdivisions of the othersetting list:
+var ECLOGHESETTINGLIST;
+var RINALDOSETTINGLIST;
+var LAGRIMESETTINGLIST;
+var TORRISMONDOSETTINGLIST;
+var CONQUISTATASETTINGLIST;
+
+var ALLSETTINGLIST;     // collapse of all settings in TASSODATA.SETTINGS object
+
 
 // sorces of poems, to be accessed by RIME number.
 var SOURCES;            // TASSODATA.SOURCES.SOURCE;
@@ -1316,6 +1324,29 @@ function PrepareGlobalTassoObjects() {
 	if (!ALLSETTINGLIST) {
 		ALLSETTINGLIST = RIMESETTINGLIST.concat(AMINTASETTINGLIST,
 			GERUSETTINGLIST, OTHERSETTINGLIST);
+	}
+	if (!ECLOGHESETTINGLIST) {
+		ECLOGHESETTINGLIST = [];
+		RINALDOSETTINGLIST = [];
+		LAGRIMESETTINGLIST = [];
+		TORRISMONDOSETTINGLIST = [];
+		CONQUISTATASETTINGLIST = [];
+		for (var i=0; i<OTHERSETTINGLIST.length; i++) {
+			var s = OTHERSETTINGLIST[i];
+			if (s.CATALOGNUM.match(/^Tec/)) {
+				ECLOGHESETTINGLIST.push(s);
+			} else if (s.CATALOGNUM.match(/^Tri/)) {
+				RINALDOSETTINGLIST.push(s);
+			} else if (s.CATALOGNUM.match(/^Tbv/)) {
+				LAGRIMESETTINGLIST.push(s);
+			} else if (s.CATALOGNUM.match(/^Trt/)) {
+				TORRISMONDOSETTINGLIST.push(s);
+			} else if (s.CATALOGNUM.match(/^Tco/)) {
+				CONQUISTATASETTINGLIST.push(s);
+			} else {
+				console.log("Unknown genre for ", s.CATALOGNUM);
+			}
+		}
 	}
 
 	if (!SOURCES) {

@@ -18,6 +18,12 @@ layout: simple
 	<option value="rime">Rime</option>
 	<option value="aminta">Aminta</option>
 	<option value="gerusalemme">Gerusalemme</option>
+	<option value="ecloghe">Ecloghe</option>
+	<option value="rinaldo">Rinaldo</option>
+	<option value="lagrime">Lagrime della Beata Vergine</option>
+	<option value="torrismondo">Re Torrismondo</option>
+	<option value="conquistata">Gerusalemme conquistata</option>
+	<option value="all">all genres</option>
 </select>
 <br>
 <div id="work-count"></div>
@@ -26,7 +32,6 @@ layout: simple
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />
 <input style="width:200px;" placeholder="RISM" id="browse-rism" value="" />
 <input style="width:200px;" placeholder="Orig. voices" id="browse-ovoices" value="" />
-<br>
 <input style="width:200px;" placeholder="Location" id="browse-location" value="" />
 <input style="width:200px;" placeholder="Publisher" id="browse-publisher" value="" />
 <input style="width:200px;" placeholder="Year" id="browse-year" value="" />

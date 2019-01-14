@@ -110,6 +110,7 @@ function fillMusicBrowsePage() {
 	}
 
 	var genrelist = document.querySelector("select.genre");
+
 	var searchlist = TASSODATA.SETTINGS.RIME_SETTINGS;
 	if (genrelist) {
 		var gvalue = genrelist[genrelist.selectedIndex].value;
@@ -119,12 +120,23 @@ function fillMusicBrowsePage() {
 			searchlist = TASSODATA.SETTINGS.GERUSALEMME_SETTINGS.SETTING;
 		} else if (gvalue.match(/^rime/i)) {
 			searchlist = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
+		} else if (gvalue.match(/^ecloghe/i)) {
+			searchlist = ECLOGHESETTINGLIST;
+		} else if (gvalue.match(/^rinaldo/i)) {
+			searchlist = RINALDOSETTINGLIST;
+		} else if (gvalue.match(/^lagrime/i)) {
+			searchlist = LAGRIMESETTINGLIST;
+		} else if (gvalue.match(/^torrismondo/i)) {
+			searchlist = TORRISMONDOSETTINGLIST;
+		} else if (gvalue.match(/^conquistata/i)) {
+			searchlist = CONQUISTATASETTINGLIST;
+		} else if (gvalue.match(/^all/i)) {
+			searchlist = ALLSETTINGLIST;
 		} else {
 			console.log("GENRE IS NOT YET DEALT WITH", gvalue);
 		}
 	}
 
-	// var works = filterMusicData(RIMESETTINGLIST);
 	var works = filterMusicData(searchlist);
 	var count = works.length;
 	var countElement = document.querySelector("#work-count");

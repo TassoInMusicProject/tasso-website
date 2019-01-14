@@ -139,6 +139,7 @@ Handlebars.registerHelper("clefs", function(object) {
 		clefs = "";
 	}
 	clefs = clefs.replace(/[, ]+/g, ", ");
+	clefs = clefs.replace(/,\s*$/, "").replace(/^\s*,\s*/, "");
 	var output = "<div style='line-height:1.05rem; margin-top:7px; font-size:1.15rem;'>";
 	output +=  clefs;
 	output += "</div>";

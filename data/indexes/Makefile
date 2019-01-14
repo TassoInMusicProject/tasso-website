@@ -12,7 +12,7 @@ update: spreadsheets
 
 
 ss: spreadsheets
-spreadsheets: composer source rime
+spreadsheets: composer source rime aminta
 
 
 com: composer
@@ -59,5 +59,7 @@ xrime:
 rime:
 	../bin/updatesettingfromspreadsheet --overwrite rime-settings.aton
 
+aminta:
+	../bin/updatesettingfromspreadsheet --overwrite aminta-settings.aton
 
 

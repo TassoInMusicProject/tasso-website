@@ -57,6 +57,7 @@ var GERUVERSELIST;      // list of poems with Gerusalemme liberata verse content
 								// TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
 var OTHERVERSELIST;     // list of poems with Gerusalemme liberata verse contents
 								// TASSODATA.VERSES.OTHER_VERSES.VERSEDATA;
+var ALLVERSELIST;       // Collapse of all verse lists.
 
 
 // List of Key Codes.  More can be extracted from this page:
@@ -965,6 +966,11 @@ function GetAllSettingEntry(catalognum, worklist) {
 // GetRimeVerseEntry -- 
 //
 
+
+function GetVerseEntry(id, list) {
+	return GetRimeVerseEntry(id, list);
+}
+
 function GetRimeVerseEntry(id, list) {
 	if (id.match(/^\d+$/)) {
 		// convert rime # to catalog number
@@ -975,7 +981,7 @@ function GetRimeVerseEntry(id, list) {
 		id = newid + id;
 	}
    if (!list) {
-		list = RIMEVERSELIST;
+		list = ALLVERSELIST;
    }
    if (!list) {
 		return "";
@@ -983,23 +989,15 @@ function GetRimeVerseEntry(id, list) {
 	if (!id) {
 		return "";
 	}
-	var list = list;
 	if (!list.length) {
 		list = list.RIME;
 	}
-	var matches;
-	var rimenum 
-	if (matches = id.match(/T..0*(\d+)/)) {
-		rimenum = matches[1];
-	} else {
-		console.log("Error in id: ", id);
-		return;
-	}
    for (var i=0; i<list.length; i++) {
-		if (rimenum == list[i].SOLERTI) {
+		if (id === list[i].CATALOGNUM) {
 			return list[i];
 		}
 	}
+	return null;
 }
 
 
@@ -1336,6 +1334,22 @@ function PrepareGlobalTassoObjects() {
 	if (!GERUVERSELIST) {
 		GERUVERSELIST = TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
 	}
+	if (!OTHERVERSELIST) {
+		OTHERVERSELIST = TASSODATA.VERSES.OTHER_VERSES.VERSEDATA;
+	}
+	if (!ALLVERSELIST) {
+		ALLVERSELIST = RIMEVERSELIST.concat(AMINTAVERSELIST);
+		ALLVERSELIST = ALLVERSELIST.concat(GERUVERSELIST);
+		ALLVERSELIST = ALLVERSELIST.concat(OTHERVERSELIST);
+	}
+	for (var i=1; i<ALLVERSELIST.length-1; i++) {
+		ALLVERSELIST[i].PREVIOUS_VERSE = ALLVERSELIST[i-1];
+		ALLVERSELIST[i].NEXT_VERSE = ALLVERSELIST[i+1];
+	}
+	ALLVERSELIST[0].PREVIOUS_VERSE = ALLVERSELIST[ALLVERSELIST.length-1];
+	ALLVERSELIST[0].NEXT_VERSE = ALLVERSELIST[1];
+	ALLVERSELIST[ALLVERSELIST.length-1].NEXT_VERSE = ALLVERSELIST[0];
+	ALLVERSELIST[ALLVERSELIST.length-1].PREVIOUS_VERSE = ALLVERSELIST[ALLVERSELIST.length-2];
 
 	if (!LITMANU) {
 		LITMANU = TASSODATA.MANUSCRIPTS.MANUSCRIPT;

@@ -7,7 +7,7 @@
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 // Creation Date: Fri Mar 25 00:02:06 PDT 2016
-// Last Modified: Fri Mar 25 00:02:09 PDT 2016
+// Last Modified: Sun Jan 13 22:25:57 EST 2019
 // Filename:      sources/scripts-local.html
 // Web Address:   http://tassomusic.org/sources/scripts-local.html
 // Syntax:        JavaScript 1.8/ECMAScript 5
@@ -16,9 +16,8 @@
 // Description:   JavaScript management for the literary sources.
 //
 
-var Rime         = 3;
-var NextRime     = 3;
-var PreviousRime = 3;
+var ID = "Trm003";  // used for CGI input of ID
+var CURRENT_VERSE = null;
 
 
 
@@ -28,8 +27,8 @@ var PreviousRime = 3;
 //
 
 function displayVariant() {
-	if (Rime) {
-   	window.location = "/variants/?rime=" + Rime;
+	if (ID) {
+   	window.location = "/variants/?id=" + ID;
 	} else {
    	window.location = "/variants";
 	}
@@ -43,8 +42,8 @@ function displayVariant() {
 //
 
 function displaySetting() {
-	if (Rime) {
-   	window.location = "/settings/?rime=" + Rime;
+	if (ID) {
+   	window.location = "/settings/?id=" + ID;
 	} else {
    	window.location = "/settings";
 	}
@@ -58,7 +57,7 @@ function displaySetting() {
 //
 
 function displayNextSource() {
- 	displayLiterarySources(NextRime);
+ 	displayLiterarySources(CURRENT_VERSE.NEXT_VERSE);
 }
 
 
@@ -69,7 +68,7 @@ function displayNextSource() {
 //
 
 function displayPreviousSource() {
- 	displayLiterarySources(PreviousRime);
+ 	displayLiterarySources(CURRENT_VERSE.PREVIOUS_VERSE);
 }
 
 
@@ -77,48 +76,42 @@ function displayPreviousSource() {
 //////////////////////////////
 //
 // displayLiterarySources -- Show the literary sources for the given 
-// 	Rime.
+// 	ID.
 //
 
-function displayLiterarySources(rime, target) {
+function displayLiterarySources(id, target) {
 	PrepareGlobalTassoObjects();
-	if (!rime) {
-		rime = Rime;
+	if (!id) {
+		id = ID;
 	}
+	var verseinfo = null;
+	if (typeof id === "string" || id instanceof String) {
+		verseinfo = GetVerseEntry(id);
+	} else if (id && typeof id.NEXT_VERSE !== "undefined") {
+		verseinfo = id;
+	}
+
 	if (!target) {
 		target = "#contents";
 	}
 	var element = document.querySelector(target);
 	if (!element) {
-		console.log("Error: cannot place Rime literary sources on page.");
-		return;
-	}
-
-   reallyDisplaySources(rime, target);
-}
-
-
-
-//////////////////////////////
-//
-// reallyDisplaySources --
-//
-
-function reallyDisplaySources(rime, target) {
-	if (!target) {
-		target = "#contents";
-	}
-	var element = document.querySelector(target);
-	if (!element) {
-		console.log("Error: cannot place Rime literary sources on page.");
+		console.log("Error: cannot place literary sources on page.", id);
 		return;
 	}
 
    var output = "";
-   if (!rime) {
-		output += displayMultipleRimeSources();
+	if (!verseinfo) {
+		output = displayMultipleSources();
+		element.innerHTML = output;
+		return;
+	}
+
+	CURRENT_VERSE = verseinfo;
+   if (!id) {
+		output += displayMultipleSources();
 	} else {
-		output += displaySingleRimeSource(rime);
+		output += displaySingleSource(verseinfo);
 	}
 	element.innerHTML = output;
 }
@@ -127,38 +120,45 @@ function reallyDisplaySources(rime, target) {
 
 //////////////////////////////
 //
-// displayMultipleRimeSources --
+// displayMultipleSources --
 //
 
-function displayMultipleRimeSources() {
+function displayMultipleSources() {
 	var output = "";
 	output += "<div style='font-size:100%; margin-left:50px'>";
 	output += "<center>";
 	output += "<h1 style='padding-right:50px;'>Literary Sources</h1>";
 	output += "</center>";
 
-	var rimelist = RIMEVERSELIST;
-	var rime;
-   for (var i=0; i<rimelist.length; i++) {
+	var list = ALLVERSELIST;
+	var id;
+   for (var i=0; i<list.length; i++) {
 		output += "<center><table style='margin-top:10px; ";
 		output += "padding:0; padding-right:50px; width:100%'><tr>";
 		output += "<td>";
 		output += "</td><td style='width:100%; text-align:center'>";
 		output += "<h2>";
-		rime = rimelist[i].SOLERTI;
-		var rime_entry = rimelist[i];
-   	if (!rime_entry) {
-      	console.log("Error accessing rime:", rime);
+		id = list[i].CATALOGNUM;
+		var verseinfo = list[i];
+   	if (!verseinfo) {
+      	console.log("Error accessing poem:", id);
 			return;
 		}
-   	output += rime_entry.TITLE;
-   	output += " (<i>Rime</i> " + rime + ")<h2>";
+   	output += verseinfo.TITLE;
+		
+		if (id.match(/Trm/)) {
+			var matchb = id.match(/Trm0*(\d+)/);
+			if (matchb) {
+   			output += " (<i>Rime</i> " + matchb[1] + ")";
+			}
+		}
+		output += "<h2>";
 		output += "</td><td>";
 		output += "</td></tr>";
 		output += "</table></center>";
 
-   	output += getManuscriptSourceTable(rime_entry);
-   	output += getPrintSourceTable(rime_entry);
+   	output += getManuscriptSourceTable(verseinfo);
+   	output += getPrintSourceTable(verseinfo);
    }
 	output += "</div>\n";
 	return output;
@@ -168,30 +168,42 @@ function displayMultipleRimeSources() {
 
 //////////////////////////////
 //
-// displaySingleRimeSource --
+// displaySingleSource --
 //
 
-function displaySingleRimeSource(rime) {
+function displaySingleSource(id) {
+	var verseinfo = null;
+	if (!id) {
+		verseinfo = CURRENT_VERSE;
+	} else if (typeof id === "string" || id instanceof String) {
+		verseinfo = GetVerseEntry(id);
+	} else if (typeof id.PREVIOUS_VERSE !== "undefined") {
+		verseinfo = id;		
+	} else {
+		return "";
+	}
+	if (!verseinfo) {
+		return "";
+	}
+	CURRENT_VERSE = verseinfo;
+	id = verseinfo.CATALOGNUM;
+
    var output = "";
-//	output += "<div style='font-size:100%; margin-left:50px'>";
-//	output += "<center>";
-//	output += "<h1 style='padding-right:50px;'>Literary Sources</h1>";
-//	output += "</center>";
 
 	output += "<center><table style=' width=100%;";
 	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
 	output += "<td class='triangle'><span class='triangle' ";
 	output += " onclick='displaySetting();'";
-	output += "href='/sources?rime=";
-	output += PreviousRime + "'>";
+	output += "href='/sources?id=";
+	output += verseinfo.PREVIOUS_VERSE.CATALOGNUM + "'>";
 	output += "&#9664;<span style='position:relative; left:-9px;'>&#9664;</span>";
 	output += "</td><td style='width:100%; text-align:center'>";
 	output += "<h1>Literary Sources</h1>";
 	output += "</td><td class='triangle'>";
 	output += "<span class='triangle'";
 	output += " onclick='displayVariant();'";
-	output += " href='/sources?rime=";
-	output +=  NextRime + "'>";
+	output += " href='/sources?id=";
+	output +=  verseinfo.NEXT_VERSE.CATALOGNUM + "'>";
 	output += "<span class='backward' style='margin-right:-9px;'>";
 	output += "<span style='position:relative; left:9px;'>&#9664;</span>&#9664;</span>";
 	output += "</td></tr>";
@@ -201,38 +213,41 @@ function displaySingleRimeSource(rime) {
 	output += "padding-left:50px; padding-right:50px; width:100%'><tr>";
 	output += "<td class='triangle'><span class='triangle' ";
 	output += " onclick='displayPreviousSource();'";
-	output += "href='/sources?rime=";
-	output += PreviousRime + "'>";
+	output += "href='/sources?id=";
+	output += verseinfo.PREVIOUS_VERSE.CATALOGNUM + "'>";
 	output += "&#9664;</a>";
 	output += "</td><td style='width:100%; text-align:center'>";
 	output += "<h2>";
-	var rime_entry = GetRimeVerseEntry(rime);
-   if (!rime_entry) {
-      console.log("Error accessing rime:", rime);
-		return;
-	}
-	var title = rime_entry.RIMETITLE;
+
+	var title = verseinfo.RIMETITLE;
 	if (!title) {
-		title = rime_entry.TITLE;
+		title = verseinfo.TITLE;
 	}
 	title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
 	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
    output += title;
-   output += " (<i>Rime</i> " + rime + ")<h2>";
+	if (id.match(/Trm/)) {
+		var matchb = id.match(/Trm0*(\d+)/);
+		if (matchb) {
+  			output += " (<i>Rime</i> " + matchb[1] + ")";
+		}
+	}
+	output += "</h2>";
+
 	output += "</td><td class='triangle'>";
 	output += "<span class='triangle'";
 	output += " onclick='displayNextSource();'";
-	output += " href='/sources?rime=";
-	output +=  NextRime + "'>";
+	output += " href='/sources?id=";
+	output +=  verseinfo.NEXT_VERSE.CATALOGNUM + "'>";
 	output += "<span class='backward'>";
 	output += "&#9664;</span></span>";
 	output += "</td></tr>";
 	output += "</table></center>";
 
-   output += getManuscriptSourceTable(rime_entry);
-   output += getPrintSourceTable(rime_entry);
+   output += getManuscriptSourceTable(verseinfo);
+   output += getPrintSourceTable(verseinfo);
 	output += "</div>\n";
 
 	return output;
@@ -245,33 +260,20 @@ function displaySingleRimeSource(rime) {
 // getManuscriptSourceTable --
 //
 
-function getManuscriptSourceTable(rime_entry) {
-	if (!rime_entry) {
+function getManuscriptSourceTable(verseinfo) {
+	if (!verseinfo) {
 		return ""
 	}
-	if (!rime_entry.MANUSRC) {
+	if (!verseinfo.MANUSRC) {
 		return "";
 	}
-	var entry = rime_entry.MANUSRC.replace(/^\s+/, "")
-                                 .replace(/\s+$/, "");
+	var entry = verseinfo.MANUSRC.replace(/^\s+/, "")
 	var items = entry.split(/\s*,\s*/);
-
-//	if (items.length == 0) {
-//		return "";
-//	}
-// if ((items.length == 1) && (items[0].match(/^\s*$/))) {
-// 	return "";
-//	}
-
    var output = "";
 	
 	output += "<h2 class='heading'>Manuscripts</h2>";
 	output += "<div style='margin-left:50px'>";
 	output += "<table class='lit-src'>";
-//	output += "<thead>";
-//	output += "<th>Solerti #</th>";
-//	output += "<th>Title (Location) &mdash; Description </th>";
-//	output += "</thead>";
 
    if ((items.length == 1) && (items[0].match(/^\s*$/))) {
 		items[0] = "none";
@@ -360,7 +362,6 @@ function getDescriptionManuscript(item, tag, data) {
 
 
 
-
 //////////////////////////////
 //
 // getDescriptionPrint --
@@ -420,30 +421,18 @@ function getDescriptionPrint(item, tag, data) {
 // getPrintSourceTable --
 //
 
-function getPrintSourceTable(rime_entry) {
-	if (!rime_entry) {
+function getPrintSourceTable(verseinfo) {
+	if (!verseinfo) {
 		return ""
 	}
-//	if (!rime_entry.PRINTSRC) {
-//		return "";
-//	}
-	var entry = rime_entry.PRINTSRC.replace(/^\s+/, "")
+	var entry = verseinfo.PRINTSRC.replace(/^\s+/, "")
                                  .replace(/\s+$/, "");
 	var items = entry.split(/\s*,\s*/);
-//	if (items.length == 0) {
-//		return "";
-//	}
-//
    var output = "";
 
 	output += "<h2 class='heading'>Prints</h2>";
 	output += "<div style='margin-left:50px'>";
 	output += "<table class='lit-src'>";
-//	output += "<thead>";
-//	output += "<th>Solerti #</th>";
-//	output += "<th>Title (Location) &mdash; Description </th>";
-//	output += "</thead>";
-//
    if ((items.length == 1) && (items[0].match(/^\s*$/))) {
 		items[0] = "none";
 	} 
@@ -474,45 +463,6 @@ function getPrintSourceTable(rime_entry) {
 	output += "</div>";
 
    return output;
-}
-
-
-
-//////////////////////////////
-//
-// setNextPreviousRime --
-//
-
-function setNextPreviousRime(rime) {
-
-   Rime = rime;
-   NextRime = rime;
-   PreviousRime = rime;
-
-	var index = -1;
-	var list = RIMEVERSELIST;
-	for (var i=0; i<list.length; i++) {
-		if (rime == list[i].SOLERTI) {
-			index = i;
-         break;
-		}
-	}
-	
-	if (index < 0) {
-      return;
-   }
-
-	if (index < list.length - 1) {
-      NextRime = list[index+1].SOLERTI;
-	} else {
-      NextRime = list[0].SOLERTI;
-	}
-
-	if (index > 0) {
-      PreviousRime = list[index-1].SOLERTI;
-	} else {
-      PreviousRime = list[list.length-1].SOLERTI;
-	}
 }
 
 

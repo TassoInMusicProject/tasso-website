@@ -11,16 +11,16 @@
 document.addEventListener("DOMContentLoaded", function() {
 	CGI = GetCgiParameters();
    if (CGI.rime) {
-		Rime = CGI.rime;
+		var number = parseInt(CGI.rime);
+		var value = number;
+		if (number < 1000) { value = "0" + value; }
+		if (number < 100)  { value = "0" + value; }
+		if (number < 10)   { value = "0" + value; }
+		ID = "Trm" + value;
    } else if (CGI.id) {
-		var matches = CGI.id.match(/Trm(\d+)/);
-		if (matches) {
-			Rime = matches[1];
-		} else {
-			Rime = 0;
-		}
+		ID = CGI.id;
    } else {
-		Rime = 0;
+		ID = "Trm003"
    }
 	LoadTassoData(displayLiterarySources);
 });

@@ -14,17 +14,17 @@
 </style>
 
 <script id="music-browse-template" type="text/x-handlebars-template">
-	<table class="music-browse-list">
+	<table class="music-browse-list" style="border-collapse:collapse;">
 	<thead style="color: #B19C5F;">
-		<th onclick="sortByText(0)" style="width:130px; cursor:pointer; text-align:left">Catalog</th>
-		<th onclick="sortByText(1)" style="width:170px; cursor:pointer; text-align:left">Composer</th>
-		<th onclick="sortByText(2)" style="cursor:pointer; text-align:left">Title</th>
-		<th onclick="sortByYear(3)" style="cursor:pointer; text-align:left">Year</th>
-		<th onclick="sortByVoice(4)" style="cursor:pointer; text-align:left">Voices</th>
-		<th onclick="sortByText(5)" style="cursor:pointer; text-align:left">Mens.</th>
-		<th onclick="sortByText(6)" style="cursor:pointer; text-align:left">Clefs</th>
-		<th onclick="sortByText(7)" style="cursor:pointer; text-align:left">Key&nbsp;sig.</th>
-		<th onclick="sortByText(8)" style="cursor:pointer; text-align:left">Final</th>
+		<th onclick="sortByText(0)"  style="width:130px; cursor:pointer; text-align:left">Catalog</th>
+		<th onclick="sortByText(1)"  style="width:170px; cursor:pointer; text-align:left">Composer</th>
+		<th onclick="sortByText(2)"  style="cursor:pointer; text-align:left">Title</th>
+		<th onclick="sortByYear(3)"  style="cursor:pointer; text-align:center">Year</th>
+		<th onclick="sortByVoice(4)" style="cursor:pointer; text-align:center">Voices</th>
+		<th onclick="sortByText(5)"  style="cursor:pointer; text-align:center">Mens.</th>
+		<th onclick="sortByText(6)"  style="cursor:pointer; text-align:center">Clefs</th>
+		<th onclick="sortByText(7)"  style="cursor:pointer; text-align:center">Key&nbsp;sig.</th>
+		<th onclick="sortByText(8)"  style="cursor:pointer; text-align:center">Final</th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -33,12 +33,12 @@
 			<td class="id" id="{{CATALOGNUM}}" onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{CATALOGNUM}}</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;"><nobr>{{shortName COMPOSER}}</nobr></td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; max-width:450px; padding-right:20px;"> {{{title this}}}</td>
-			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{publication this}}}</td>
-			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
-			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{mensuration this}}}</td>
-			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{clefs this}}}</td>
-			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{keysig this}}}</td>
-			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{finals this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{publication this}}}</td>
+			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{mensuration this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{clefs this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{keysig this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{finalis this}}}</td>
 		</tr>
 	{{/each}}
 
@@ -168,11 +168,19 @@ Handlebars.registerHelper("keysig", function(object) {
 
 //////////////////////////////
 //
-// finals Handlebar helper -- display the final of the music.
+// finalis Handlebar helper -- display the final of the music.
 //
 
-Handlebars.registerHelper("finals", function(object) {
-	return new Handlebars.SafeString("?");
+Handlebars.registerHelper("finalis", function(object) {
+	if (!object) {
+		return new Handlebars.SafeString("ERROR");
+	}
+	if (!object.FINAL) {
+		// no FINAL information stored in entry (yet).
+		return new Handlebars.SafeString("");
+	}
+	// Force pitch name to upper case if it is not already:
+	return new Handlebars.SafeString(object.FINAL.toUpperCase());
 });
 
 

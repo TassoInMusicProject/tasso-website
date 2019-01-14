@@ -139,7 +139,9 @@ Handlebars.registerHelper("clefs", function(object) {
 		clefs = "";
 	}
 	clefs = clefs.replace(/[, ]+/g, ", ");
-	var output = "<small>" +  clefs + "</small>";
+	var output = "<div style='line-height:1.05rem; margin-top:7px; font-size:1.15rem;'>";
+	output +=  clefs;
+	output += "</div>";
 	return new Handlebars.SafeString(output);
 });
 

@@ -188,6 +188,8 @@ Handlebars.registerHelper("mensuration", function(object) {
 	if (mensuration) {
 		if (mensuration === "C") {
 			output = "c";
+		} else if (mensuration === "Cut-C") {
+			output = "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
 		} else if (mensuration === "C|") {
 			output = "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
 		} else {

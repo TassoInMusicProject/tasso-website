@@ -303,6 +303,7 @@ function displaySingleWork(id, target) {
 		target = "#contents";
 	}
 	SETTING = GetSettingEntry(id);
+console.log("GETTING SETTING ENTRY", SETTING);
 	// var work = GetWorkEntry(id);
 	// SETTING.ih = work.ih;
 	if (!SETTING.TITLE) {
@@ -457,9 +458,12 @@ function highlightPartIcon(partnum) {
 //
 
 function displayIncipit(id) {
+console.log("GOT HERE IN DISPLAY INCIPIT ", id);
 	if (!localStorage["svg_" + id]) {
+console.log("GIVING UP");
 		return;
 	}
+console.log("NOT GIVING UP");
 
 	var element = document.querySelector("#verovio-display");
 	element.style.height = "200px";
@@ -644,6 +648,7 @@ function getHumdrumSourceData(humid) {
 //
 
 function initializeVerovioNotation(sourceid, targetid, query) {
+console.log("GOT HERE IN INITIALIZE VEROVI NOTATION ", sourceid, targetid, query);
 	if (!targetid) {
 		targetid = "verovio-display";
 	}
@@ -667,6 +672,7 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 	var tcount = 0;
 	var content;
 	[content, kcount] = getHumdrumSourceData(sourceid);
+console.log("CONTENT", content, kcount);
 	if (content.match(/^\s*$/)) {
 		return;
 	}
@@ -904,15 +910,18 @@ function lastVerovioPage(direction) {
 //
 
 function getHumdrum(id) {
+console.log("GETTING HUMDRUM for ", id);
 	var tag = "humdrum_" + id;
 	var tagcontent;
 	var element = document.querySelector("#humdrum-data");
 	if (!element) {
+console.log("Error: #humdrum-data id does not exist on page");
 		return;
 	}
 
-
+console.log("GOT HERE", SETTING, SETTING.SCOREDATA);
 	if (sessionStorage[tag]) {
+console.log("SESSOINSTORAGE FOR ", tag, "IS", sessionStorage[tag]);
 		var scoreelements = document.querySelectorAll(".musical-content");
 		for (var i=0; i<scoreelements.length; i++) {
 			scoreelements[i].style.display = "block";
@@ -920,13 +929,16 @@ function getHumdrum(id) {
 		element.textContent = sessionStorage[tag];
 		initializeVerovioNotation("humdrum-data", "verovio-display");
 	} else if (SETTING.SCOREDATA && SETTING.SCOREDATA.DATAURL) {
+console.log("DOWNLOADING SCORE DATA FOR ", id);
 		var action = "humdrum";
 		var url = SETTING.SCOREDATA.DATAURL;
+console.log("URL", url);
 		// old url from CCARH server:
 		// var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
+console.log("RECEIVED SCORE DATA FOR ", id);
 			var ses = document.querySelectorAll(".musical-content");
 			for (var ii=0; ii<ses.length; ii++) {
 				ses[ii].style.display = "block";

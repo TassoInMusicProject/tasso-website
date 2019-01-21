@@ -1,6 +1,7 @@
 ---
 vim: ts=3
 scripts-local: true
+aton: true
 style-local: true
 permalink: /search/index.html
 jquery: true
@@ -31,8 +32,8 @@ jquery: true
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repertory:
 		<select>
 			<option>Rime</option>
-			<option disabled>Gerusalemme</option>
-			<option disabled>Aminta</option>
+			<option>Gerusalemme</option>
+			<option>Aminta</option>
 			<option disabled>All</option>
 		</select>
 	</span>

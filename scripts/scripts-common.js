@@ -1440,9 +1440,9 @@ function InsertScoresIntoSettings() {
 		id = SCORES[i].CATALOGNUM;
 		RSCORES[id] = SCORES[i];
 	}
-	for (i=0; i<RIMESETTINGLIST.length; i++) {
-		var id = RIMESETTINGLIST[i].CATALOGNUM;
-		RIMESETTINGLIST[i].SCOREDATA = RSCORES[id];
+	for (i=0; i<ALLSETTINGLIST.length; i++) {
+		var id = ALLSETTINGLIST[i].CATALOGNUM;
+		ALLSETTINGLIST[i].SCOREDATA = RSCORES[id];
 	}
 
 }

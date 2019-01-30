@@ -100,8 +100,6 @@ function displayMusicalSettings(id, target) {
 		id = id.replace(/[a-z]+$/, "");
 	}
 
-console.log("DISPLAYING ID", id);
-
 	var element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place on page since", target, " doesn't exist.");
@@ -309,16 +307,22 @@ function displaySinglePoem(id) {
 	output += "&#9664;</span>";
 	output += "</td><td style='width:100%; text-align:center'>";
 	output += "<h2>";
-	var entry = GetAllSettingEntry(id, ALLSETTINGLIST);
+	var entry = GetAllSettingEntryList(id, ALLSETTINGLIST);
 	if (!entry) {
 		console.log("Error accessing id b:", id);
-		console.log("ENTRY:", entry);
+		console.log("ZENTRY:", entry);
 		console.log("ALLSETTINGLIST", ALLSETTINGLIST);
 		return;
 	}
 	var title = entry.TITLE;
 	if (!title) {
 		title = entry.RIMETITLE;
+	}
+	if (!title) {
+		title = entry[0].TITLE;
+	}
+	if (!title) {
+		title = entry[0].RIMETITLE;
 	}
 	title = title.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	title = title.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
@@ -464,8 +468,11 @@ function getMusicalSettingTable(entry) {
 	if (!entry) {
 		return ""
 	}
-	if (!entry.WORKS) {
-		buildSetList(entry);
+	if (!(entry instanceof Array)) {
+		entry = [ entry ];
+	}
+	for (var i=0; i<entry.length; i++) {
+		buildSetList(entry[i]);
 	}
 	var tsource = document.querySelector("#settings-template")
 	                      .textContent;
@@ -473,5 +480,67 @@ function getMusicalSettingTable(entry) {
 	var output = settingTemplate(entry);
 	return output;
 }
+
+
+
+//////////////////////////////
+//
+// sortByYear --
+//
+
+function sortByYear(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		var matches;
+		if (matches = A.match(/(\d{4})/)) {
+			A = matches[1];
+		} else {
+			A = "";
+		}
+		if (matches = B.match(/(\d{4})/)) {
+			B = matches[1];
+		} else {
+			B = "";
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+
+	var body = document.querySelector("table.music-browse-list tbody");
+	if (body === null) {
+		body = document.querySelector("table.literary-browse-list tbody");
+	}
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displaySingleWork --
+//
 
 </script>

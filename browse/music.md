@@ -20,9 +20,9 @@ layout: simple
 	<option value="gerusalemme">Gerusalemme</option>
 	<option value="ecloghe">Ecloghe</option>
 	<option value="rinaldo">Rinaldo</option>
-	<option value="lagrime">Lagrime della Beata Vergine</option>
+	<option value="lagrime">Lagrime</option>
 	<option value="torrismondo">Re Torrismondo</option>
-	<option value="conquistata">Gerusalemme conquistata</option>
+	<option value="conquistata">Gerusalemme c.</option>
 	<option value="all">all genres</option>
 </select>
 <br>

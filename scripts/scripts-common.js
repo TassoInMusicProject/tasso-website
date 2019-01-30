@@ -967,6 +967,39 @@ function GetAllSettingEntry(catalognum, worklist) {
 	}
 }
 
+//////////////////////////////
+//
+// GetAllSettingEntryList -- 
+//
+
+function GetAllSettingEntryList(catalognum, worklist) {
+   if (!worklist) {
+		worklist = ALLSETTINGLIST;
+   }
+   if (!worklist) {
+		return "";
+	}
+	if (!catalognum) {
+		console.log("ERROR: catalognum undefined: ", catalognum);
+		return "";
+	}
+	if (catalognum.length == 0) {
+		console.log("ERROR: catalognum empty: ", catalognum);
+		return "";
+	}
+	var list = worklist;
+	if (!list.length) {
+		list = worklist.RIME;
+	}
+	var output = [];
+   for (var i=0; i<list.length; i++) {
+		if (list[i].CATALOGNUM.match(catalognum)) {
+			output.push(list[i]);
+		}
+	}
+	return output;
+}
+
 
 
 //////////////////////////////

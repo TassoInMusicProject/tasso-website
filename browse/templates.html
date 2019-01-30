@@ -7,12 +7,12 @@
 
 {% raw %}
 <style>
+	table.music-browse-list { width: 100%; margin-left: -40px; }
 	table.music-browse-list td { padding-bottom: 7px; }
 	table.music-browse-list th { padding-bottom: 12px; }
 	table.music-browse-list tr:hover { background: #f5f5f5; }
 	table.music-browse-list tr td.voices { padding-left: 5px }
 </style>
-
 <script id="music-browse-template" type="text/x-handlebars-template">
 	<table class="music-browse-list" style="border-collapse:collapse;">
 	<thead style="color: #B19C5F;">
@@ -41,7 +41,6 @@
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{finalis this}}}</td>
 		</tr>
 	{{/each}}
-
 	</tbody>
 	</table>
 </script>
@@ -55,6 +54,7 @@
 
 {% raw %}
 <style>
+	table.literary-browse-list { width: 100%; margin-left: -40px; }
 	table.literary-browse-list td { padding-bottom: 7px; }
 	table.literary-browse-list th { padding-bottom: 12px; }
 	table.literary-browse-list tr:hover { background: #f5f5f5; }
@@ -98,9 +98,10 @@
 Handlebars.registerHelper("printobject", function (object) {
 	// console.log("OBJECT", object);
 	// console.log("mensuration", object.OMENSURATION);
-
 	return new Handlebars.SafeString("");
 });
+
+
 
 //////////////////////////////
 //

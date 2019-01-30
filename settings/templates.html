@@ -23,34 +23,45 @@
 -->
 
 {% raw %}
+<style>
+	table.music-browse-list { width: 100%; }
+	table.music-browse-list td { padding-bottom: 7px; }
+	table.music-browse-list th { padding-bottom: 12px; }
+	table.music-browse-list tr:hover { background: #f5f5f5; }
+	table.music-browse-list tr td.voices { padding-left: 5px }
+</style>
 <script id="settings-template" type="text/x-handlebars-template">
-	<table class="settings">
-	<thead>
-		<th onclick="sortByText(event, 0)" style="cursor:pointer; padding-bottom:20px">Catalog&nbsp;#</th>
-		<th onclick="sortByText(event, 1)" style="cursor:pointer; text-align:left">Composer</th>
-		<th onclick="sortByPublication(event, 2)" style="cursor:pointer; text-align:left">Source</th>
-		<th onclick="sortByVoice(event, 3)" style="cursor:pointer; text-align:left">Voices</th>
-		<th onclick="sortByText(event, 4)" style="cursor:pointer; text-align:left">Clefs</th>
-		<th onclick="sortByText(event, 5)" style="cursor:pointer; text-align:left">Mensuration</th>
+	<table class="music-browse-list" style="border-collapse:collapse;">
+	<thead style="color: #B19C5F;">
+		<th onclick="sortByText(0)"  style="width:130px; cursor:pointer; text-align:left">Catalog</th>
+		<th onclick="sortByText(1)"  style="width:170px; cursor:pointer; text-align:left">Composer</th>
+		<th onclick="sortByText(2)"  style="cursor:pointer; text-align:left">Title</th>
+		<th onclick="sortByYear(3)"  style="cursor:pointer; text-align:center">Year</th>
+		<th onclick="sortByVoice(4)" style="cursor:pointer; text-align:center">Voices</th>
+		<th onclick="sortByText(5)"  style="cursor:pointer; text-align:center">Mens.</th>
+		<th onclick="sortByText(6)"  style="cursor:pointer; text-align:center">Clefs</th>
+		<th onclick="sortByText(7)"  style="cursor:pointer; text-align:center">Key&nbsp;sig.</th>
+		<th onclick="sortByText(8)"  style="cursor:pointer; text-align:center">Final</th>
 	<thead>
 	<tbody>
-
-	{{#WORKS}}
-	{{{trclass this}}}
-	<td>{{CATALOGNUM}}</td>
-	<td><nobr>{{{shortComposer COMPOSER}}}</nobr></td>
-	<td>{{{printSource PRINCEPSTITLE NORMLOC PRINCEPSPUB PRINCEPSYEAR PRINCEPSFORMAT PRINCEPSAUTHOR}}}</td>
-	<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES CATALOGNUM}}}</td>
-	<td class="clefs" onclick="displaySingleWork('{{CATALOGNUM}}');" style="margin-right:20px'">{{{clefs OCLEFS}}}</td>
-	<td class="mensurations" onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{mensuration OMENSURATION}}}</td>
-	</tr>
-	{{/WORKS}}
-
+	{{#each this}}
+{{{printobject this}}}
+		<tr class="data" style="vertical-align:top">
+			<td class="id" id="{{CATALOGNUM}}" onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{CATALOGNUM}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;"><nobr>{{shortName COMPOSER}}</nobr></td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; max-width:450px; padding-right:20px;"> {{{title this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{publication this}}}</td>
+			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{mensuration this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{clefs this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{keysig this}}}</td>
+			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{finalis this}}}</td>
+		</tr>
+	{{/each}}
 	</tbody>
 	</table>
 </script>
 {% endraw %}
-
 
 <script>
 
@@ -178,6 +189,7 @@ Handlebars.registerHelper("princepspub", function(loc, pub) {
 
 Handlebars.registerHelper("princepsyear", function(year) {
 	var output = "";
+console.log("YEAR IS ", year);
 	output = year.replace(/-+/g, "&ndash;");
 	output = "<nobr>" + output + "</nobr>";
 	return new Handlebars.SafeString(output);
@@ -193,6 +205,7 @@ Handlebars.registerHelper("princepsyear", function(year) {
 
 Handlebars.registerHelper("shortComposer", function(text) {
 	var matches;
+console.log("TEXT IS", text);
 	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
 	var lastname = text;
 	var firstname = text;
@@ -248,6 +261,7 @@ Handlebars.registerHelper("shortComposer", function(text) {
 //
 
 Handlebars.registerHelper("cleantitle", function(text) {
+console.log("TEXT CLEANTITLE IS", text);
 	return new Handlebars.SafeString(
 		text.replace(/RISM /g, "RISM&nbsp;")
 	);
@@ -390,36 +404,68 @@ function sortByPublication(event, index) {
 }
 
 
+
 //////////////////////////////
 //
-// clefs Handlebar helper  -- display original clefs.
+// clefs Handlebar helper --
+//			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{clefs this}}}</td>
 //
-//  OCLEFS
 
-Handlebars.registerHelper("clefs", function(clefs) {
+Handlebars.registerHelper("clefs", function(object) {
+	var clefs = object.OCLEFS;
 	if (!clefs) {
-		return new Handlebars.SafeString("");
+		clefs = "";
 	}
-	clefs = clefs.replace(/\s+/g, "");
-	return new Handlebars.SafeString(clefs);
+console.log("CLEFS", clefs);
+	clefs = clefs.replace(/[, ]+/g, ", ");
+	clefs = clefs.replace(/,\s*$/, "").replace(/^\s*,\s*/, "");
+	var output = "<div style='line-height:1.05rem; margin-top:7px; font-size:1.15rem;'>";
+	output +=  clefs;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
 });
 
 
 
 //////////////////////////////
 //
-// mensurations Handlebar helper  -- display original mensurations.
+// mensuration Handlebar helper --
 //
-//  OMENSURATION
 
-Handlebars.registerHelper("mensuration", function(mensuration) {
+Handlebars.registerHelper("mensuration", function(object) {
+	var mensuration = object.OMENSURATION;
 	if (!mensuration) {
 		return new Handlebars.SafeString("");
 	}
-	return new Handlebars.SafeString(mensuration);
+console.log("MENSURATION", mensuration);
+	mensuration = mensuration.replace(/,.*/, "");
+	var output = "";
+	if (mensuration) {
+		if (mensuration === "C") {
+			output = "c";
+		} else if (mensuration === "Cut-C") {
+			output = "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+		} else if (mensuration === "C|") {
+			output = "c<span style='position:relative; top:1px; margin-left:-5px'>|</span>";
+		} else if (mensuration === "C-dot 3/2") {
+			output = "C<span style='position:relative; top:-6px; margin-left:-8px'>.</span>";
+			output += "<span style='position:relative; font-size:0.9rem; top:-8px; margin-left:4px'>3</span>";
+			output += "<span style='position:relative; font-size:0.9rem; top:3px; margin-left:-7px'>2</span>";
+		} else if (mensuration === "O 3/2") {
+			output = "O";
+			output += "<span style='position:relative; font-size:0.9rem; top:-8px; margin-left:0px'>3</span>";
+			output += "<span style='position:relative; font-size:0.9rem; top:3px; margin-left:-7px'>2</span>";
+		} else if (mensuration === "Cut-Circle3") {
+			output = "o<span style='position:relative; top:1px; margin-left:-8px'>|</span>";
+			output += "<span style='position:relative; font-size:1rem; top:1px; margin-left:3px'>3</span>";
+		} else {
+			output = mensuration;
+		}
+	} else {
+		output = "";
+	}
+	return new Handlebars.SafeString(output);
 });
-
-
 
 
 //////////////////////////////
@@ -427,7 +473,7 @@ Handlebars.registerHelper("mensuration", function(mensuration) {
 // voices Handlebar helper  -- display original and extant voices.
 //
 
-Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
+Handlebars.registerHelper("voices", function(ovoice, evoice) {
 	if ((!ovoice) && (!evoice)) {
 		return new Handlebars.SafeString("");
 	}
@@ -435,6 +481,7 @@ Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
 		ovoice = "";
 	}
 	if (ovoice.match(/alfabeto/)) {
+console.log("OVOICE", ovoice);
 		ovoice = ovoice.replace(/\+?alfabeto/, "");
 	}
 	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
@@ -444,6 +491,7 @@ Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
 	if (!evoice) {
 		evoice = "";
 	}
+console.log("EVOICE", evoice);
 	evoice = evoice.replace(/\s*\+\s*/g, "+");
 	if (evoice.match(/alfabeto/)) {
 		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");
@@ -460,7 +508,189 @@ Handlebars.registerHelper("voices", function(ovoice, evoice, catalog) {
 	return new Handlebars.SafeString(text);
 });
 
+
+
+//////////////////////////////
+//
+// printobject Handlebar helper --
+//
+
+Handlebars.registerHelper("printobject", function (object) {
+	console.log("PRINT OBJECT", object);
+	// console.log("mensuration", object.OMENSURATION);
+	return new Handlebars.SafeString("");
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper --
+// 
+// title {{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})
+//
+
+Handlebars.registerHelper("title", function (object) {
+console.log("OBJECT", object);
+	var output = "";
+	if (object.RIMETITLE) {
+		output += object.RIMETITLE;
+//		output += " (<i>rime</i>&nbsp;";
+//		output += object.SOLERTI;
+//		output += ")";
+	} else if (object.TITLE) {
+		output += object.TITLE;
+	} else {
+		console.log("OBJECT", object);
+		output += "UNKNOWN";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// shortName Handlebar helper  -- Prevent linebreak after RISM
+//      and its number.
+// 
+// @COMPOSER:	Bottegari, Cosimo (?) => Bottegari, C.(?)
+//
+
+Handlebars.registerHelper("shortName", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("");
+	}
+	var output;
+	var matches;
+	var originaltext = text;
+
+console.log("SHORTNAME", text);
+	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
+	var lastname = text;
+	var firstname = text;
+	var question = "";
+	if (text.match(/\(\?\)/)) {
+		question = "(?)";
+		text = text.replace(/\(\?\)/, "");
+	}
+	text = text.replace(/\s+$/, "").replace(/^\s+/, "");
+	var abbrname = "";
+	var pieces;
+	if (!text.match(/(.*),\s+(.*)/)) {
+		text = text.replace(/\.\s*/, ", ");
+	}
+	if (matches = text.match(/(.*),\s+(.*)/)) {
+		lastname = matches[1];
+		firstname = matches[2];
+		pieces = firstname.split(/\s+/);
+		abbrname = "";
+		for (var i=0; i<pieces.length; i++) {
+			if (pieces[i][0] == pieces[i][0].toLowerCase()) {
+				// such as "del"
+				abbrname += " " + pieces[i];
+			} else if (pieces[i][0] == pieces[i][0].toUpperCase()) {
+				abbrname += " " + pieces[i][0] + ".";
+			} else {
+				// strange case
+				abbrname += " " + pieces[i];
+			}
+		}
+		var shortname;
+		if (abbrname.length > 0) {
+			shortname = lastname + "," + abbrname + question;
+		} else {
+			shortname = lastname;
+		}
+		if (shortname.length > 15) {
+			output = "<span style='letter-spacing:-1px; word-spacing:-1px;' ";
+			output+= "title='" + originaltext +"'>";
+			output += shortname + "</a>";
+		} else {
+			output = "<span title='";
+			output += originaltext + "'>";
+			output += shortname + "</a>";
+		}
+		return new Handlebars.SafeString(output);
+	} else {
+		return new Handlebars.SafeString(text);
+	}
+});
+
+
+
+//////////////////////////////
+//
+// publication Handlebar helper --
+// 
+// title {{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})
+// <span title="{{{PRINCEPSTITLE}}}">{{pubInfo NORMLOC NORMPUBSHORT}}, {{PRINCEPSYEAR}}</span>
+//
+
+Handlebars.registerHelper("publication", function(object) {
+	var loc  = object.NORMLOC;
+	var pub  = object.NORMPUBSHORT;
+	var pti  = object.PRINCEPSTITLE;
+	var year = object.PRINCEPSYEAR;
+
+	var title = "";
+	if (pti) {
+		title += pti;
+		title += " (";
+		title += loc + ": " + pub;
+		title += ")";
+	}
+
+	var output = "<span";
+	output += " title='";
+	output += title;
+	output += "'>";
+	output += year;
+	output += "</span>";
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// clefs Handlebar helper --
+//			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="padding-right:20px'">{{{clefs this}}}</td>
+//
+
+Handlebars.registerHelper("keysig", function(object) {
+	var keysig = object.OKEYSIG;
+	if (!keysig) {
+		keysig = "";
+	}
+	if (keysig.match(/b-flat/i)) {
+			keysig = "&flat;";
+	}
+	var output = keysig;
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// finalis Handlebar helper -- display the final of the music.
+//
+
+Handlebars.registerHelper("finalis", function(object) {
+	if (!object) {
+		return new Handlebars.SafeString("ERROR");
+	}
+	if (!object.FINAL) {
+		// no FINAL information stored in entry (yet).
+		return new Handlebars.SafeString("");
+	}
+	// Force pitch name to upper case if it is not already:
+	return new Handlebars.SafeString(object.FINAL.toUpperCase());
+});
+
+
+
 </script>
-
-
 

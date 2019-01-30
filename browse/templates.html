@@ -163,6 +163,9 @@ Handlebars.registerHelper("keysig", function(object) {
 	if (keysig.match(/b-flat/i)) {
 			keysig = "&flat;";
 	}
+	if (keysig.match(/b-/i)) {
+			keysig = "&flat;";
+	}
 	var output = keysig;
 	return new Handlebars.SafeString(output);
 });

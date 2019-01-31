@@ -797,46 +797,17 @@ The strike of my hand.
 @EDITION_PAGE:  
 @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
 @VERSE:	
-        Nove, Aminta, t'annuncio di conforto:
+        TIRSI: Nove, Aminta, t'annuncio di conforto:
         Lascia homai questo tanto lamentarti.
-@TVERSE:
-News, Aminta, I announce to you of comfort:
-Abandon already this great lamentation.
-@@END:		VERSES
-@NEW_CRIT_ED:   Torquato Tasso, <i>Aminta. "Princeps."</i>, ed. Matteo Navone, vol. 9 of Commissione Nazionale per l'Edizione delle opere del Tasso. Studi e Testi (Alessandria: Edizioni dell'Orso, 2014). 
-@ATTRIBUTION_ABOUT:	
-@DATING:	1573
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		VERSEDATA
-
-@@BEGIN:	VERSEDATA
-@CATALOGNUM:	Tam2031047
-@ACT:       II   
-@SCENE:     3    
-@VERSE:     1047  
-@TITLE:     Ohimè che di'? che porte? 
-@MANUSRC:      Am, Au, Br, CM, F, Ub
-@PRINTSRC:     1580D, 1581B, 1581B<sub>bis</sub>, 1581M, 1581M<sub>bis</sub>, 1581O, 1581V, 1582B, 1583M, 1583V, 1584A, 1585C, 1585V, 1585V<sub>bis</sub>, 1588B, 1589M, 1589V, 1590Mb, 1590Mv, 1591M, 1591W, 1592B, 1596B, 1596M, 1599Bf, 1599Bp, 1600R, 1601Bf, 1601Bp, 1602B, 1603Bf, 1603Bv, 1603Z, 1605R, 1606Z, 1608D, 1608DP, 1609Bf, 1609Bv, 1609Z, 1611D, 1614GT, 1617D, 1618B, 1619D, 1619I, 1620V, 1622D, 1623A, 1624M, 1624S, 1624T, 1625U, 1628U, 1632D, 1634R 
-@@BEGIN:	VERSES
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	Solerti, Angelo
-@EDITION_TITLE: Opere minori in versi di Torquato Tasso. Edizione critica sugli autografi e sulle antiche stampe.
-@EDITION_LOC:	Bologna
-@EDITION_PUB:	Zanichelli
-@EDITION_DATE:  1895
-@EDITION_VOL:	3
-@EDITION_PAGE:  
-@TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
-@VERSE:	
         AMINTA: Ohimè, che di'? che porti?
         0 la vita o la morte?
         TIRSI: Porto salute e vita, s'ardirai
         Di farti loro incontra: ma fa luogo
         D'esser un huomo, Aminta, e un huomo ardito.
 @TVERSE:
-Oh dear, what are you saying? What are you bringing?
+THYRSIS:News, Aminta, I announce to you of comfort:
+Abandon already this great lamentation.
+AMINTA: Oh dear, what are you saying? What are you bringing?
 Either life or death?
 THYRSIS: I bring health and life, if you will dare
 To make yourself face them: but make a place
@@ -848,6 +819,7 @@ To be a man, Aminta, and a daring man.
 @DEDICATEE:	
 @COMMENTARY:    
 @@END:		VERSEDATA
+
 
 @@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tam2031052

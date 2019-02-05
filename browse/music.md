@@ -4,7 +4,7 @@ layout: simple
 
 <style>
 
-.genre {
+.select {
 	font-size: 18pt;
 	color: #333;
 }
@@ -14,7 +14,8 @@ layout: simple
 
 <table style="padding-top:40px; padding-bottom:40px" width="100%">
 <tr><td style="width:200px; vertical-align:top">
-<select class="genre">
+
+<select class="genre select">
 	<option value="rime">Rime</option>
 	<option value="aminta">Aminta</option>
 	<option value="gerusalemme">Gerusalemme</option>
@@ -25,17 +26,21 @@ layout: simple
 	<option value="conquistata">Gerusalemme c.</option>
 	<option value="all">all genres</option>
 </select>
+
 <br>
 <div id="work-count"></div>
 </td><td style="vertical-align:top">
-<input style="width:200px;" placeholder="Composer" id="browse-composer" value="" />
+{% include_relative composer-select.txt %}
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />
-<input style="width:200px;" placeholder="RISM" id="browse-rism" value="" />
 <input style="width:200px;" placeholder="Orig. voices" id="browse-ovoices" value="" />
-<input style="width:200px;" placeholder="Location" id="browse-location" value="" />
-<input style="width:200px;" placeholder="Publisher" id="browse-publisher" value="" />
 <input style="width:200px;" placeholder="Year" id="browse-year" value="" />
 <input style="width:200px;" placeholder="Extant voices" id="browse-evoices" value="" />
+{% include_relative location-select.txt %}
+{% include_relative publisher-select.txt %}
+{% include_relative mensuration-select.txt %}
+{% include_relative key-select.txt %}
+{% include_relative final-select.txt %}
+
 </td>
 </tr>
 </table>

@@ -1,0 +1,5 @@
+<select id="browse-key" class="key select">
+	<option value="">any key signature</option>
+	<option value="-">no sharps/flats</option>
+	<option value="b-">B&flat;</option>
+</select>

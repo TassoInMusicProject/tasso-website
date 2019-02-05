@@ -222,6 +222,24 @@ function filterMusicData(entries) {
 		composer = composerElement.value;
 	}
 
+	var finalElement = document.querySelector("#browse-final");
+	var final = "";
+	if (finalElement) {
+		final = finalElement.value;
+	}
+
+	var mensurationElement = document.querySelector("#browse-mensuration");
+	var mensuration = "";
+	if (mensurationElement) {
+		mensuration = mensurationElement.value;
+	}
+
+	var keyElement = document.querySelector("#browse-key");
+	var key = "";
+	if (keyElement) {
+		key = keyElement.value;
+	}
+
 	var titleElement = document.querySelector("#browse-title");
 	var title = "";
 	if (titleElement) {
@@ -266,6 +284,19 @@ function filterMusicData(entries) {
 	if (composer) {
 		output = filterByField(output, "COMPOSER", composer);
 	}
+
+	if (final) {
+		output = filterByField(output, "FINAL", final);
+	}
+
+	if (mensuration) {
+		output = filterByField(output, "OMENSURATION", mensuration);
+	}
+
+	if (key) {
+		output = filterByField(output, "OKEYSIG", key);
+	}
+
 	if (title) {
 		// change this to title? But there is the setting title as well.
 		output = filterByField(output, "RIMETITLE", title);
@@ -486,6 +517,30 @@ function insertCgiSearchParameters() {
 		}
 	}
 
+	if (CGI.final) {
+		var finalelement = document.querySelector("#browse-final");
+		var final = CGI.final;
+		if (finalelement) {
+			finalelement.value = final;
+		}
+	}
+
+	if (CGI.mensuration) {
+		var mensurationelement = document.querySelector("#browse-mensuration");
+		var mensuration = CGI.mensuration;
+		if (mensurationelement) {
+			mensurationelement.value = mensuration;
+		}
+	}
+
+	if (CGI.key) {
+		var keyelement = document.querySelector("#browse-key");
+		var key = CGI.key;
+		if (keyelement) {
+			keyelement.value = key;
+		}
+	}
+
 	if (CGI.title) {
 		var titleelement = document.querySelector("#browse-title");
 		var title = CGI.title;
@@ -592,6 +647,27 @@ function setupMusicBrowseCallbacks() {
 	var composerElement = document.querySelector("#browse-composer");
 	if (composerElement) {
 		composerElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var finalElement = document.querySelector("#browse-final");
+	if (finalElement) {
+		finalElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var mensurationElement = document.querySelector("#browse-mensuration");
+	if (mensurationElement) {
+		mensurationElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var keyElement = document.querySelector("#browse-key");
+	if (keyElement) {
+		keyElement.addEventListener("input", function() { 
 			fillMusicBrowsePage();
 		});
 	}

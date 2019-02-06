@@ -2057,21 +2057,21 @@
 @@BEGIN: SOURCE
 @RISM:	E 741
 @AUTHOR:	Eredi, Francesco
-@TITLEPAGE:	
+@TITLEPAGE:	L'ARMIDA DEL TASSO / POSTA IN MVSICA / A CINQVE VOCI / Col suo Basso per Sonare / DA FRANCESCO EREDI / MAESTRO DI CAPELLA DI RAVENNA, / ET DEDICATA ALL’ILLUSTRISSIMO SIGNORE CAPITANO / CIRO PANTALONE / OPERA TERZA. / Nouamente composta, & data in luce. / CON LICENZA DE’ SUPERIORI, ET PRIVILEGIO. / IN VENETIA, / Appresso Alessandro Vincenti. MDCXXIX.
 @TITLESHORT:	L'Armida del Tasso. A cinque voci, col suo basso per suonare. Opera terza
 @PUBLISHER:	Alessandro Vincenti
 @YEAR:	1629
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCDEDICATEE:	Signore Capitano Ciro Pantalone
+@OPARTBOOKS:	CATBVbc
+@EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,V,Bc
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z082/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5287,8 +5287,8 @@
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Signor Duca di Mantoua, & di Monferrato
 @OPARTBOOKS:	CATBVVI
-@EXTPARTBOOKS:	B
-@EXTNAMES:	B
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b8470190r/f2.image

@@ -59,25 +59,35 @@
 	table.literary-browse-list th { padding-bottom: 12px; }
 	table.literary-browse-list tr:hover { background: #f5f5f5; }
 	table.literary-browse-list tr td:nth-child(3) { padding-right: 5px; }
+
+	table.literary-browse-list .genre-aminta { display: none; }
+	table.literary-browse-list .genre-gerusalemme { display: none; }
+
+	table.literary-browse-list .dedicatee-aminta { display: none; }
+	table.literary-browse-list .dedicatee-gerusalemme { display: none; }
+
+	table.literary-browse-list .title-aminta { min-width: 250px; }
+	table.literary-browse-list .title-gerusalemme { min-width: 250px; }
+
 </style>
 
 <script id="literary-browse-template" type="text/x-handlebars-template">
 	<table class="literary-browse-list">
 	<thead style="color: #B19C5F;">
-		<th onclick="sortByText(0)" style="width:130px; cursor:pointer; text-align:left">Catalog</th>
-		<th onclick="sortByText(1)" style="cursor:pointer; text-align:left;">Genre&nbsp;&nbsp;&nbsp;</th>
-		<th onclick="sortByText(2)" style="cursor:pointer; text-align:left;">Title</th>
-		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left;">Dedicatee</th>
-		<th onclick="sortByText(4)" style="cursor:pointer; text-align:left;">Sources</th>
+		<th onclick="sortByText(0)" class="catalog{{{displayclass this}}}" style="width:130px; cursor:pointer; text-align:left">Catalog</th>
+		<th onclick="sortByText(1)" class="genre{{{displayclass this}}}" style="cursor:pointer; text-align:left;">Genre&nbsp;&nbsp;&nbsp;</th>
+		<th onclick="sortByText(2)" class="title{{{displayclass this}}}" style="cursor:pointer; text-align:left;">Title</th>
+		<th onclick="sortByText(3)" class="dedicatee{{{displayclass this}}}" style="cursor:pointer; text-align:left;">Dedicatee</th>
+		<th onclick="sortByText(4)" class="sources{{{displayclass this}}}" style="cursor:pointer; text-align:left;">Sources</th>
 	<thead>
 	<tbody>
 	{{#each this}}
 		<tr class="data" style="vertical-align:top">
-			<td><span style="font-size:85%"><a href="/settings?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></span></td>
-			<td>{{{shortGenre GENRE}}}</td>
-			<td>{{{TITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})</td>
-			<td style="padding-right:10px">{{{shortName DEDICATEE}}}</td>
-			<td>{{{manuscriptSrc MANUSRC}}}<br>{{{printSrc PRINTSRC}}}</td>
+			<td class="catalog{{{displayclass this}}}"><span style="font-size:85%"><a href="/settings?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></span></td>
+			<td class="genre{{{displayclass this}}}">{{{shortGenre GENRE}}}</td>
+			<td class="title{{{displayclass this}}}">{{{TITLE}}} {{{parentheticalinfo this}}}</td>
+			<td class="dedicatee{{{displayclass this}}}" style="padding-right:10px">{{{shortName DEDICATEE}}}</td>
+			<td class="sources{{{displayclass this}}}">{{{manuscriptSrc MANUSRC}}}<br>{{{printSrc PRINTSRC}}}</td>
 		</tr>
 	{{/each}}
 	</tbody>
@@ -473,6 +483,43 @@ Handlebars.registerHelper("shortGenre", function(text) {
 
 //////////////////////////////
 //
+// displayclass Handlebar helper  -- display original and extant voices.
+//
+
+Handlebars.registerHelper("displayclass", function(obj) {
+	var output = "";
+	if (!obj) {
+		output = "";
+		return new Handlebars.SafeString(output);
+	}
+	console.log("=======================", obj);
+	var catalog = "";
+	if (Array.isArray(obj)) {
+		if (obj.length == 0) {
+			output = "";
+			return new Handlebars.SafeString(output);
+		}
+		catalog = obj[0].CATALOGNUM;
+	} else {
+		catalog = obj.CATALOGNUM;
+	}
+	if (!catalog) {
+		output = "";
+		return new Handlebars.SafeString(output);
+	}
+	if (catalog.match(/^Tam/)) {
+		output = "-aminta";
+	} else if (catalog.match(/^Tsg/)) {
+		output = "-gerusalemme";
+	}
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
 // voices Handlebar helper  -- display original and extant voices.
 //
 
@@ -507,6 +554,50 @@ Handlebars.registerHelper("voices", function(ovoice, evoice) {
 	}
 	var text = ovoice + "(" + evoice + ")";
 	return new Handlebars.SafeString(text);
+});
+
+///////////////////////////////
+//
+// parentheticalinfo --
+//
+
+Handlebars.registerHelper("parentheticalinfo",  function (obj) {
+	var output = "";
+console.log("OBJ", obj);
+	if (obj.SOLERTI) {
+		output = "(<i>Rime</i> " + obj.SOLERTI + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tam/) && obj.ACT && obj.SCENE && obj.VERSE) {
+		output = "(<i>Aminta</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tsg/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Gerusalemme</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tec/) && obj.ECLOGA && obj.VERSE) {
+		output = "(<i>Ecloga</i> " + obj.ECLOGA + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tri/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Rinaldo</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Trt/) && obj.ACT && obj.SCENE && obj.SECTION) {
+		output = "(<i>Torrismondo</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.SECTION + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tco/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>G. conquistata</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tbv/) && obj.STANZA) {
+		output = "(<i>Lagrime</i> " + obj.STANZA + ")";
+		return new Handlebars.SafeString(output);
+	}
+
+	return new Handlebars.SafeString(output);
 });
 
 </script>

@@ -30,12 +30,12 @@ layout: simple
 </td><td style="vertical-align:top">
 <input style="width:200px;" placeholder="Composer" id="browse-composer" value="" />
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />
-<input style="width:200px;" placeholder="RISM" id="browse-rism" value="" />
 <input style="width:200px;" placeholder="Orig. voices" id="browse-ovoices" value="" />
 <input style="width:200px;" placeholder="Location" id="browse-location" value="" />
 <input style="width:200px;" placeholder="Publisher" id="browse-publisher" value="" />
 <input style="width:200px;" placeholder="Year" id="browse-year" value="" />
 <input style="width:200px;" placeholder="Extant voices" id="browse-evoices" value="" />
+{% include_relative clef-options.txt %}
 </td>
 </tr>
 </table>

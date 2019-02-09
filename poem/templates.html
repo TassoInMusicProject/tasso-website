@@ -38,7 +38,7 @@
 				&#9664;
 			</td>
 			<td style='width:100%; text-align:center'>
-				<h2>{{{formatTitle TITLE}}}  (<i>Rime</i> {{{SOLERTI}}})</h2>
+				<h2>{{{formatTitle TITLE}}}  {{{parentheticalinfo this}}} </h2>
 			</td>
 			<td class='triangle'>
 				<span class='triangle' onclick='displayNextSource();'>
@@ -694,6 +694,53 @@ function reverseName(text) {
 	output += match[1];
 	return output;
 }
+
+
+
+///////////////////////////////
+//
+// parentheticalinfo --
+//
+
+Handlebars.registerHelper("parentheticalinfo",  function (obj) {
+	var output = "";
+console.log("OBJ", obj);
+	if (obj.SOLERTI) {
+		output = "(<i>Rime</i> " + obj.SOLERTI + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tam/) && obj.ACT && obj.SCENE && obj.VERSE) {
+		output = "(<i>Aminta</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tsg/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Gerusalemme</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tec/) && obj.ECLOGA && obj.VERSE) {
+		output = "(<i>Ecloga</i> " + obj.ECLOGA + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tri/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Rinaldo</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Trt/) && obj.ACT && obj.SCENE && obj.SECTION) {
+		output = "(<i>Torrismondo</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.SECTION + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tco/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>G. conquistata</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tbv/) && obj.STANZA) {
+		output = "(<i>Lagrime</i> " + obj.STANZA + ")";
+		return new Handlebars.SafeString(output);
+	}
+
+	return new Handlebars.SafeString(output);
+});
+
 
 
 ///////////////////////////////

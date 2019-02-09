@@ -296,30 +296,51 @@ Handlebars.registerHelper("workletter", function(text) {
 
 //////////////////////////////
 //
-// sortByText --
+// sortByYear --
 //
 
-function sortByText(event, index) {
-	var element = event.target;
-	while (element && (element.nodeName !== "TABLE")) {
-		element = element.parentNode;
-	}
-	if (!element) {
-		return;
-	}
-	var data = element.querySelectorAll(".data");
+function sortByYear(index, selector) {
+	var data = document.querySelectorAll(".data");
 	var datalist = [];
 	var i;
 	for (i=0; i<data.length; i++) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A = a.cells[index].textContent
-		var B = b.cells[index].textContent
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		var matches;
+		if (matches = A.match(/(\d{4})/)) {
+			A = matches[1];
+		} else {
+			A = "";
+		}
+		if (matches = B.match(/(\d{4})/)) {
+			B = matches[1];
+		} else {
+			B = "";
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
 		var result = A.localeCompare(B);
 		return result;
 	});
-	var body = element.querySelector("tbody");
+
+	var body = document.querySelector("table.music-browse-list tbody");
+	if (body === null) {
+		body = document.querySelector("table.literary-browse-list tbody");
+	}
 	body.innerHTML = "";
 	for (i=0; i<datalist.length; i++) {
 		body.appendChild(datalist[i]);
@@ -329,18 +350,10 @@ function sortByText(event, index) {
 
 //////////////////////////////
 //
-// sortByVoice -- Currently the same as sortByText, but may change in the future.
+// sortByText --
 //
 
-function sortByVoice(event, index) {
-	var selector;
-	var element = event.target;
-	while (element && (element.nodeName !== "TABLE")) {
-		element = element.parentNode;
-	}
-	if (!element) {
-		return;
-	}
+function sortByText(index, selector) {
 	var data = document.querySelectorAll(".data");
 	var datalist = [];
 	var i;
@@ -367,7 +380,54 @@ function sortByVoice(event, index) {
 		return result;
 	});
 
-	var body = element.querySelector("tbody");
+	var body = document.querySelector("table.music-browse-list tbody");
+	if (body === null) {
+		body = document.querySelector("table.literary-browse-list tbody");
+	}
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByVoice -- Currently the same as sortByText, but may change in the future.
+//
+
+function sortByVoice(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+
+	var body = document.querySelector("table.music-browse-list tbody");
+	if (body === null) {
+		body = document.querySelector("table.literary-browse-list tbody");
+	}
 	body.innerHTML = "";
 	for (i=0; i<datalist.length; i++) {
 		body.appendChild(datalist[i]);

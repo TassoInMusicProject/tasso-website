@@ -35,15 +35,12 @@
 	<thead style="color: #B19C5F;">
 		<th onclick="sortByText(0)"  style="cursor:pointer; text-align:left">Catalog</th>
 		<th onclick="sortByText(1)"  style="cursor:pointer; text-align:left">Composer</th>
-<!--
-		<th onclick="sortByText(2)"  style="cursor:pointer; text-align:left">Title</th>
--->
-		<th onclick="sortByYear(3)"  style="cursor:pointer; text-align:left">Publication information</th>
-		<th onclick="sortByVoice(4)" style="cursor:pointer; text-align:center">Voices</th>
-		<th onclick="sortByText(5)"  style="cursor:pointer; text-align:center">Mens.</th>
-		<th onclick="sortByText(6)"  style="cursor:pointer; text-align:center">Clefs</th>
-		<th onclick="sortByText(7)"  style="cursor:pointer; text-align:center">Key&nbsp;sig.</th>
-		<th onclick="sortByText(8)"  style="cursor:pointer; text-align:center">Final</th>
+		<th onclick="sortByPublisher(2)"  style="cursor:pointer; text-align:left">Publication information</th>
+		<th onclick="sortByVoice(3)" style="cursor:pointer; text-align:center">Voices</th>
+		<th onclick="sortByText(4)"  style="cursor:pointer; text-align:center">Mens.</th>
+		<th onclick="sortByText(5)"  style="cursor:pointer; text-align:center">Clefs</th>
+		<th onclick="sortByText(6)"  style="cursor:pointer; text-align:center">Key&nbsp;sig.&nbsp;&nbsp;&nbsp;&nbsp;</th>
+		<th onclick="sortByText(7)"  style="cursor:pointer; text-align:center">Final</th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -51,10 +48,6 @@
 		<tr class="data" style="vertical-align:top">
 			<td class="id" id="{{CATALOGNUM}}" onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{CATALOGNUM}}</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;"><nobr>{{shortName COMPOSER}}</nobr></td>
-<!--
-			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; max-width:450px; padding-right:20px;"> {{{title this}}}</td>
--->
-
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="left" style="padding-right:20px'">{{{publicationfull this}}}</td>
 			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{mensuration this}}}</td>
@@ -370,6 +363,54 @@ function sortByText(index, selector) {
 			A = a.cells[index].textContent;
 			B = b.cells[index].textContent;
 		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+
+	var body = document.querySelector("table.music-browse-list tbody");
+	if (body === null) {
+		body = document.querySelector("table.literary-browse-list tbody");
+	}
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByPublisher --
+//
+
+function sortByPublisher(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		A = A.replace(/.*:/, "");
+		B = B.replace(/.*:/, "");
+console.log("COMPARING ", A, " TO" , B );
+
 		if (A.match(/^\s*$/)) {
 			return +1;
 		}

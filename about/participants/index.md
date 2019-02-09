@@ -52,7 +52,7 @@ Amyrose McCue Gill, translations (TextFormations)
 </div>
 
 <div class="person">
-Anthony Newcomb (University of California, Berkeley)
+Anthony Newcomb (University of California, Berkeley) †
 </div>
 
 <div class="person">

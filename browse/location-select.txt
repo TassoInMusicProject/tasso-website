@@ -1,0 +1,27 @@
+<!--
+<input style="width:200px;" placeholder="Location" id="browse-location" value="" />
+-->
+<select id="browse-location" class="location select">
+	<option value="">any location</option>
+	<option value="Antwerp">Antwerp</option>
+	<option value="Augsburg">Augsburg</option>
+	<option value="Bologna">Bologna</option>
+	<option value="Copenhagen">Copenhagen</option>
+	<option value="Dresden">Dresden</option>
+	<option value="Ferrara">Ferrara</option>
+	<option value="Florence">Florence</option>
+	<option value="Genoa">Genoa</option>
+	<option value="Hamburg">Hamburg</option>
+	<option value="Jena">Jena</option>
+	<option value="Leiden">Leiden</option>
+	<option value="Milan">Milan</option>
+	<option value="Modena">Modena</option>
+	<option value="Naples">Naples</option>
+	<option value="Nuremberg">Nuremberg</option>
+	<option value="Palermo">Palermo</option>
+	<option value="Paris">Paris</option>
+	<option value="Parma">Parma</option>
+	<option value="Rome">Rome</option>
+	<option value="Venice">Venice</option>
+	<option value="Verona">Verona</option>
+</select>

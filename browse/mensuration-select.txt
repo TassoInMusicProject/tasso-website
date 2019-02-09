@@ -1,0 +1,12 @@
+<select id="browse-mensuration" class="mensuration select">
+	<option value="">any mensuration</option>
+	<option value="Cut-C">Cut-C</option>
+	<option value="C">C</option>
+	<option value="C-dot 3/2">C-dot 3/2</option>
+	<option value="C3">C3</option>
+	<option value="Cut-Circle3">Cut-Circle3</option>
+	<option value="O3/1">O3/1</option>
+	<option value="O3/2">O3/2</option>
+	<option value="\?">?</option>
+	<option value="N/A">N/A</option>
+</select>

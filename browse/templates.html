@@ -263,9 +263,9 @@ Handlebars.registerHelper("publication", function(object) {
 	}
 
 	var output = "<span";
-	output += " title='";
+	output += " title=\"";
 	output += title;
-	output += "'>";
+	output += "\">";
 	output += year;
 	output += "</span>";
 
@@ -569,11 +569,11 @@ console.log("OBJ", obj);
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tam/) && obj.ACT && obj.SCENE && obj.VERSE) {
-		output = "(<i>Aminta</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
+		output = "<br/>(<i>Aminta</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tsg/) && obj.CANTO && obj.OTTAVA) {
-		output = "(<i>Gerusalemme</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		output = "<br/>(<i>Gerusalemme</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tec/) && obj.ECLOGA && obj.VERSE) {

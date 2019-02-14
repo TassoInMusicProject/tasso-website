@@ -99,6 +99,10 @@ Franco Piperno (University of Rome)
 </div>
 
 <div class="person">
+Massimo Privitera (University of Palermo) 
+</div>
+
+<div class="person">
 Laurent Pugin (Swiss RISM)
 </div>
 

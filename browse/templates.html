@@ -62,12 +62,27 @@
 
 	table.literary-browse-list .genre-aminta { display: none; }
 	table.literary-browse-list .genre-gerusalemme { display: none; }
+	table.literary-browse-list .genre-rinaldo { display: none; }
+	table.literary-browse-list .genre-ecloghe { display: none; }
+	table.literary-browse-list .genre-torrismondo { display: none; }
+	table.literary-browse-list .genre-lagrime { display: none; }
+	table.literary-browse-list .genre-conquistata { display: none; }
 
 	table.literary-browse-list .dedicatee-aminta { display: none; }
 	table.literary-browse-list .dedicatee-gerusalemme { display: none; }
+	table.literary-browse-list .dedicatee-rinaldo { display: none; }
+	table.literary-browse-list .dedicatee-ecloghe { display: none; }
+	table.literary-browse-list .dedicatee-torrismondo { display: none; }
+	table.literary-browse-list .dedicatee-lagrime { display: none; }
+	table.literary-browse-list .dedicatee-conquistata { display: none; }
 
 	table.literary-browse-list .title-aminta { min-width: 250px; }
 	table.literary-browse-list .title-gerusalemme { min-width: 250px; }
+	table.literary-browse-list .title-rinaldo { min-width: 250px; }
+	table.literary-browse-list .title-ecloghe { min-width: 250px; }
+	table.literary-browse-list .title-torrismondo { min-width: 250px; }
+	table.literary-browse-list .title-lagrime { min-width: 250px; }
+	table.literary-browse-list .title-conquistata { min-width: 250px; }
 
 </style>
 
@@ -511,6 +526,16 @@ Handlebars.registerHelper("displayclass", function(obj) {
 		output = "-aminta";
 	} else if (catalog.match(/^Tsg/)) {
 		output = "-gerusalemme";
+	} else if (catalog.match(/^Tri/)) {
+		output = "-rinaldo";
+	} else if (catalog.match(/^Trt/)) {
+		output = "-torrismondo";
+	} else if (catalog.match(/^Tec/)) {
+		output = "-ecloghe";
+	} else if (catalog.match(/^Tbv/)) {
+		output = "-lagrime";
+	} else if (catalog.match(/^Tco/)) {
+		output = "-conquistata";
 	}
 
 	return new Handlebars.SafeString(output);

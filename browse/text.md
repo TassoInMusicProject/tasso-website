@@ -23,7 +23,7 @@ layout: simple
 	<option value="rinaldo">Rinaldo</option>
 	<option value="lagrime">Lagrime</option>
 	<option value="torrismondo">Re Torrismondo</option>
-	<option value="contuqistata">Gerusalemme c.</option>
+	<option value="conquistata">Gerusalemme c.</option>
 </select>
 
 <br>

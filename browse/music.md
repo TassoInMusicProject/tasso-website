@@ -24,7 +24,6 @@ layout: simple
 	<option value="lagrime">Lagrime</option>
 	<option value="torrismondo">Re Torrismondo</option>
 	<option value="conquistata">Gerusalemme c.</option>
-	<option value="all">all genres</option>
 </select>
 
 <br>

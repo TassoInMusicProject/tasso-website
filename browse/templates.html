@@ -310,7 +310,9 @@ Handlebars.registerHelper("manuscriptSrc", function(src) {
 		var minfo = RSOURCES[list[i]];
 		var info = "";
 		if (!minfo) {
-			console.log("Error:", list[i], "is not found in manuscript database");
+			if (!list[i].match(/none/i)) {
+				console.log("Error:", list[i], "is not found in manuscript database");
+			}
 		} else {
 			if (minfo.SIGLUM) {
 				info += minfo.SIGLUM;
@@ -365,7 +367,9 @@ Handlebars.registerHelper("printSrc", function(src) {
 		var pinfo = RSOURCES[list[i]];
 		var info = "";
 		if (!pinfo) {
-			console.log("Error:", list[i], "is not found in print database");
+			if (!list[i].match(/none/i)) {
+				console.log("Error:", list[i], "is not found in print database");
+			}
 		} else {
 			if (pinfo.PRINTTITLE) {
 				info += "<i>" + pinfo.PRINTTITLE + "</i>";
@@ -613,7 +617,7 @@ Handlebars.registerHelper("parentheticalinfo",  function (obj) {
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tco/) && obj.CANTO && obj.OTTAVA) {
-		output = "(<i>G. conquistata</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		output = "(<i>G.&nbsp;conquistata</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tbv/) && obj.STANZA) {

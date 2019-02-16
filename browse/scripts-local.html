@@ -114,6 +114,7 @@ function fillMusicBrowsePage() {
 	var searchlist = TASSODATA.SETTINGS.RIME_SETTINGS;
 	if (genrelist) {
 		var gvalue = genrelist[genrelist.selectedIndex].value;
+console.log("GENREVALUE IS ", gvalue);
 		if (gvalue.match(/aminta/i)) {
 			searchlist = TASSODATA.SETTINGS.AMINTA_SETTINGS.SETTING;
 		} else if (gvalue.match(/gerusalemme/i)) {
@@ -124,11 +125,11 @@ function fillMusicBrowsePage() {
 			searchlist = ECLOGHESETTINGLIST;
 		} else if (gvalue.match(/^rinaldo/i)) {
 			searchlist = RINALDOSETTINGLIST;
-		} else if (gvalue.match(/^lagrime/i)) {
+		} else if (gvalue.match(/lagrime/i)) {
 			searchlist = LAGRIMESETTINGLIST;
-		} else if (gvalue.match(/^torrismondo/i)) {
+		} else if (gvalue.match(/torrismondo/i)) {
 			searchlist = TORRISMONDOSETTINGLIST;
-		} else if (gvalue.match(/^conquistata/i)) {
+		} else if (gvalue.match(/conquistata/i)) {
 			searchlist = CONQUISTATASETTINGLIST;
 		} else if (gvalue.match(/^all/i)) {
 			searchlist = ALLSETTINGLIST;
@@ -171,7 +172,7 @@ function fillLiteraryBrowsePage() {
 
 	if (genrelist) {
 		var gvalue = genrelist[genrelist.selectedIndex].value;
-console.log("GAVLUE", gvalue);
+console.log("GAVLUE XXX", gvalue);
 		if (gvalue.match(/aminta/i)) {
 			searchlist = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
 		} else if (gvalue.match(/gerusalemme/i)) {
@@ -180,6 +181,8 @@ console.log("GAVLUE", gvalue);
 			searchlist = TASSODATA.VERSES.ECLOGHE_VERSES.VERSEDATA;
 		} else if (gvalue.match(/rinaldo/i)) {
 			searchlist = TASSODATA.VERSES.RINALDO_VERSES.VERSEDATA;
+		} else if (gvalue.match(/lagrime/i)) {
+			searchlist = TASSODATA.VERSES.LAGRIME_VERSES.VERSEDATA;
 		} else if (gvalue.match(/torrismondo/i)) {
 			searchlist = TASSODATA.VERSES.TORRISMONDO_VERSES.VERSEDATA;
 		} else if (gvalue.match(/conquistata/i)) {

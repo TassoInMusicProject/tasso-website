@@ -1,3 +1,4 @@
+b
 <!--
 <input style="width:200px;" placeholder="Publisher" id="browse-publisher" value="" />
 -->
@@ -6,7 +7,6 @@
 	<option value="Amadino">Amadino</option>
 	<option value="Baldini">Baldini</option>
 	<option value="Bartoli">Bartoli</option>
-	<option value="Biblioteca Estense Universitaria">Bib. Estense Uni.</option>
 	<option value="Bonino">Bonino</option>
 	<option value="Cancer">Cancer</option>
 	<option value="Carlino">Carlino</option>
@@ -45,11 +45,12 @@
 	<option value="Tradato">Tradato</option>
 	<option value="Typis Elect. Saxoniae">Typis Elect. Saxoniae</option>
 	<option value="Viotto">Viotto</option>
-	<option value="Vincenzi">A. Vincenzi, A.</option>
+	<option value="Vincenzi">Vincenzi, A.</option>
 	<option value="Vincenzi">Vincenzi, G.</option>
 	<option value="Vitale">Vitale</option>
 	<option value="Weidner">Weidner</option>
 	<option value="Zanetti">Zanetti</option>
 	<option value="von Ohr-Jauch">von Ohr-Jauch</option>
+	<option value="Biblioteca Estense Universitaria">Bib. Estense Uni.</option>
 	<option value="?">?</option>
 </select>

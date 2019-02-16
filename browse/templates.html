@@ -574,7 +574,8 @@ Handlebars.registerHelper("voices", function(ovoice, evoice) {
 	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
 	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
 	if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
-		evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+		// keep the "bc" information in the extant voices
+		// evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
 	}
 	var text = ovoice + "(" + evoice + ")";
 	return new Handlebars.SafeString(text);

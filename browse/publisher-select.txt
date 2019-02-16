@@ -3,7 +3,6 @@
 -->
 <select id="browse-publisher" class="location select">
 	<option value="">any publisher</option>
-	<option value="A. Vincenzi">A. Vincenzi</option>
 	<option value="Amadino">Amadino</option>
 	<option value="Baldini">Baldini</option>
 	<option value="Bartoli">Bartoli</option>
@@ -15,7 +14,6 @@
 	<option value="Carrara">Carrara</option>
 	<option value="Dalle Donne">Dalle Donne</option>
 	<option value="Dalle Donne & Vargnano">Dalle Donne & Vargnano</option>
-	<option value="G. Vincenzi">G. Vincenzi</option>
 	<option value="Gardano">Gardano</option>
 	<option value="Gardano-Magni">Gardano-Magni</option>
 	<option value="Gargano">Gargano</option>
@@ -47,10 +45,9 @@
 	<option value="Tini & Lomazzo">Tini & Lomazzo</option>
 	<option value="Tradato">Tradato</option>
 	<option value="Typis Elect. Saxoniae">Typis Elect. Saxoniae</option>
-	<option value="Vincenti">Vincenti</option>
-	<option value="Vincenzi">Vincenzi</option>
-	<option value="Vincenzi & Amadino">Vincenzi & Amadino</option>
 	<option value="Viotto">Viotto</option>
+	<option value="Vincenzi">A. Vincenzi, A.</option>
+	<option value="Vincenzi">Vincenzi, G.</option>
 	<option value="Vitale">Vitale</option>
 	<option value="Weidner">Weidner</option>
 	<option value="Zanetti">Zanetti</option>

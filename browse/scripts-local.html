@@ -171,6 +171,7 @@ function fillLiteraryBrowsePage() {
 
 	if (genrelist) {
 		var gvalue = genrelist[genrelist.selectedIndex].value;
+console.log("GAVLUE", gvalue);
 		if (gvalue.match(/aminta/i)) {
 			searchlist = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
 		} else if (gvalue.match(/gerusalemme/i)) {

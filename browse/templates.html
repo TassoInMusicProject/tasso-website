@@ -507,7 +507,6 @@ Handlebars.registerHelper("displayclass", function(obj) {
 		output = "";
 		return new Handlebars.SafeString(output);
 	}
-	console.log("=======================", obj);
 	var catalog = "";
 	if (Array.isArray(obj)) {
 		if (obj.length == 0) {
@@ -588,7 +587,6 @@ Handlebars.registerHelper("voices", function(ovoice, evoice) {
 
 Handlebars.registerHelper("parentheticalinfo",  function (obj) {
 	var output = "";
-console.log("OBJ", obj);
 	if (obj.SOLERTI) {
 		output = "(<i>Rime</i>&nbsp;" + obj.SOLERTI + ")";
 		return new Handlebars.SafeString(output);

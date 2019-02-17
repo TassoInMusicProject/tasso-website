@@ -172,7 +172,6 @@ function fillLiteraryBrowsePage() {
 
 	if (genrelist) {
 		var gvalue = genrelist[genrelist.selectedIndex].value;
-console.log("GAVLUE XXX", gvalue);
 		if (gvalue.match(/aminta/i)) {
 			searchlist = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
 		} else if (gvalue.match(/gerusalemme/i)) {
@@ -386,6 +385,14 @@ function filterLiteraryData(entries) {
 		printsrc = printsrcElement.value;
 	}
 
+	var publocationElement = document.querySelector("#browse-publocation");
+console.log("BROWSE PUBLOCATION", publocationElement);
+	var publocation = "";
+	if (publocationElement) {
+		publocation = publocationElement.value;
+console.log("PUBLOCATION SET TO " , publocation);
+	}
+
 	if (title) {
 		output = filterByField(output, "TITLE", title);
 	}
@@ -404,6 +411,12 @@ function filterLiteraryData(entries) {
 
 	if (printsrc) {
 		output = filterByField(output, "PRINTSRC", printsrc, true);
+	}
+
+console.log("PUBLOCATION IS SET TO ", publocation);
+	if (publocation) {
+console.log("SEARCHING FOR ", publocation, "IN PUBLOCATION");
+		output = filterByField(output, "PUBLOCATION", publocation);
 	}
 
 	return output;
@@ -503,6 +516,13 @@ function insertCgiSearchParameters() {
 		var locationelement = document.querySelector("#browse-location");
 		if (locationelement) {
 			locationelement.value = CGI.location;
+		}
+	}
+
+	if (CGI.publocation) {
+		var publocationelement = document.querySelector("#browse-publocation");
+		if (publocationelement) {
+			publocationelement.value = CGI.publocation;
 		}
 	}
 
@@ -789,6 +809,13 @@ function setupLiteraryBrowseCallbacks() {
 	var genreList = document.querySelector("select.genre");
 	if (genreList) {
 		genreList.addEventListener("change", function () {
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var publocationElement = document.querySelector("#browse-publocation");
+	if (publocationElement) {
+		publocationElement.addEventListener("input", function() { 
 			fillLiteraryBrowsePage();
 		});
 	}

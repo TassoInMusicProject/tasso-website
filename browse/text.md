@@ -4,7 +4,7 @@ layout: simple
 
 <style>
 
-.genre {
+.genre, .select {
 	font-size: 18pt;
 	color: #333;
 }
@@ -34,6 +34,7 @@ layout: simple
 <br/>
 <input style="width:200px;" placeholder="Literary genre" id="browse-litgen" value="" />
 <input style="width:200px;" placeholder="Print source" id="browse-printsrc" value="" />
+{% include_relative publocation-select.txt %}
 <input style="width:200px;" placeholder="Manuscript source" id="browse-manusrc" value="" />
 </td>
 </tr>

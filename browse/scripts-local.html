@@ -109,11 +109,11 @@ function fillMusicBrowsePage() {
 		return;
 	}
 
-	var genrelist = document.querySelector("select.genre");
+	var repertorylist = document.querySelector("select.genre");
 
 	var searchlist = TASSODATA.SETTINGS.RIME_SETTINGS;
-	if (genrelist) {
-		var gvalue = genrelist[genrelist.selectedIndex].value;
+	if (repertorylist) {
+		var gvalue = repertorylist[repertorylist.selectedIndex].value;
 console.log("GENREVALUE IS ", gvalue);
 		if (gvalue.match(/aminta/i)) {
 			searchlist = TASSODATA.SETTINGS.AMINTA_SETTINGS.SETTING;
@@ -169,12 +169,12 @@ function fillLiteraryBrowsePage() {
 		return;
 	}
 
-	var genrelist = document.querySelector("select.genre");
+	var repertorylist = document.querySelector("select.genre");
 	var searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
 	var gvalue = "";
 
-	if (genrelist) {
-		var gvalue = genrelist[genrelist.selectedIndex].value;
+	if (repertorylist) {
+		var gvalue = repertorylist[repertorylist.selectedIndex].value;
 		if (gvalue.match(/aminta/i)) {
 			searchlist = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
 		} else if (gvalue.match(/gerusalemme/i)) {
@@ -370,30 +370,28 @@ function filterLiteraryData(entries) {
 		dedicatee = dedicateeElement.value;
 	}
 
-	var litgenElement = document.querySelector("#browse-litgen");
-	var litgen = "";
-	if (litgenElement) {
-		litgen = litgenElement.value;
+	var litgenreElement = document.querySelector("#browse-litgenre");
+	var litgenre = "";
+	if (litgenreElement) {
+		litgenre = litgenreElement.value;
 	}
 
-	var manusrcElement = document.querySelector("#browse-manusrc");
-	var manusrc = "";
-	if (manusrcElement) {
-		manusrc = manusrcElement.value;
+	var manuscriptElement = document.querySelector("#browse-manuscript");
+	var manuscript = "";
+	if (manuscriptElement) {
+		manuscript = manuscriptElement.value;
 	}
 
-	var printsrcElement = document.querySelector("#browse-printsrc");
-	var printsrc = "";
-	if (printsrcElement) {
-		printsrc = printsrcElement.value;
+	var printElement = document.querySelector("#browse-print");
+	var print = "";
+	if (printElement) {
+		print = printElement.value;
 	}
 
 	var publocationElement = document.querySelector("#browse-publocation");
-console.log("BROWSE PUBLOCATION", publocationElement);
 	var publocation = "";
 	if (publocationElement) {
 		publocation = publocationElement.value;
-console.log("PUBLOCATION SET TO " , publocation);
 	}
 
 	if (title) {
@@ -404,16 +402,16 @@ console.log("PUBLOCATION SET TO " , publocation);
 		output = filterByField(output, "DEDICATEE", dedicatee);
 	}
 
-	if (litgen) {
-		output = filterByField(output, "GENRE", litgen);
+	if (litgenre) {
+		output = filterByField(output, "GENRE", litgenre);
 	}
 
-	if (manusrc) {
-		output = filterByField(output, "MANUSRC", manusrc);
+	if (manuscript) {
+		output = filterByField(output, "MANUSRC", manuscript);
 	}
 
-	if (printsrc) {
-		output = filterByField(output, "PRINTSRC", printsrc, true);
+	if (print) {
+		output = filterByField(output, "PRINTSRC", print, true);
 	}
 
 console.log("PUBLOCATION IS SET TO ", publocation);
@@ -589,7 +587,7 @@ function insertCgiSearchParameters() {
 	// in the DOMContentLoaded listener).
 
 	if (CGI.genre) {
-		var genreelement = document.querySelector("#browse-litgen");
+		var genreelement = document.querySelector("#browse-litgenre");
 		var genre = CGI.genre;
 		if (genreelement) {
 			genreelement.value = genre;
@@ -597,7 +595,7 @@ function insertCgiSearchParameters() {
 	}
 
 	if (CGI.manuscript) {
-		var manuscriptelement = document.querySelector("#browse-manusrc");
+		var manuscriptelement = document.querySelector("#browse-manuscript");
 		var manuscript = CGI.manuscript;
 		if (manuscriptelement) {
 			manuscriptelement.value = manuscript;
@@ -605,7 +603,7 @@ function insertCgiSearchParameters() {
 	}
 
 	if (CGI.print) {
-		var printelement = document.querySelector("#browse-printsrc");
+		var printelement = document.querySelector("#browse-print");
 		var print = CGI.print;
 		if (printelement) {
 			printelement.value = print;
@@ -671,8 +669,7 @@ function displayLiteraryBrowseEntries(entries, genre) {
 		var table = document.querySelector("#browse-results table");
 		var rows = table.querySelectorAll("tr");
 		for (var i=0; i<rows.length; i++) {
-			var tds = rows[i].
-			
+			// var tds = rows[i].
 // ggg
 		}
 	}
@@ -797,23 +794,23 @@ function setupLiteraryBrowseCallbacks() {
 		});
 	}
 
-	var litgenElement = document.querySelector("#browse-litgen");
-	if (litgenElement) {
-		litgenElement.addEventListener("input", function() { 
+	var litgenreElement = document.querySelector("#browse-litgenre");
+	if (litgenreElement) {
+		litgenreElement.addEventListener("input", function() { 
 			fillLiteraryBrowsePage();
 		});
 	}
 
-	var manusrcElement = document.querySelector("#browse-manusrc");
-	if (manusrcElement) {
-		manusrcElement.addEventListener("input", function() { 
+	var manuscriptElement = document.querySelector("#browse-manuscript");
+	if (manuscriptElement) {
+		manuscriptElement.addEventListener("input", function() { 
 			fillLiteraryBrowsePage();
 		});
 	}
 
-	var printsrcElement = document.querySelector("#browse-printsrc");
-	if (printsrcElement) {
-		printsrcElement.addEventListener("input", function() { 
+	var printElement = document.querySelector("#browse-print");
+	if (printElement) {
+		printElement.addEventListener("input", function() { 
 			fillLiteraryBrowsePage();
 		});
 	}

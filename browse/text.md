@@ -30,12 +30,13 @@ layout: simple
 <div id="work-count"></div>
 </td><td style="vertical-align:top; text-align:left">
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />
-<input style="width:200px;" placeholder="Poem dedicatee" id="browse-dedicatee" value="" />
-<br/>
-<input style="width:200px;" placeholder="Literary genre" id="browse-litgen" value="" />
-<input style="width:200px;" placeholder="Print source" id="browse-printsrc" value="" />
+{% include_relative litgenre-select.txt %}
 {% include_relative publocation-select.txt %}
-<input style="width:200px;" placeholder="Manuscript source" id="browse-manusrc" value="" />
+{% include_relative print-select.txt %}
+{% include_relative publocation-select.txt %}
+{% include_relative manuscript-select.txt %}
+{% include_relative dedicatee-select.txt %}
+
 </td>
 </tr>
 </table>

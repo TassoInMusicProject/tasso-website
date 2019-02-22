@@ -195,7 +195,9 @@ function reallyDisplaySettings(id, target) {
 	} else {
 		output += displaySinglePoem(id);
 	}
+
 	element.innerHTML = output;
+	applyNoWorkClass();
 	sortByText(0); // sort by catalog number (same as sorting by year)
 }
 
@@ -549,7 +551,44 @@ function sortByYear(index, selector) {
 
 //////////////////////////////
 //
-// displaySingleWork --
+// applyNoWorkClass --
 //
+
+function applyNoWorkClass() {
+	var data = TASSODATA;
+	if (!data) {
+		return;
+	}
+	var scores = data.SCORES;
+	if (!scores) {
+		return;
+	}
+	var sdata = scores.SCOREDATA;
+	if (!sdata) {
+		return;
+	}
+	var rlist = {};
+	var i;
+	for (i=0; i<sdata.length; i++) {
+		rlist[sdata[i].CATALOGNUM] = sdata[i];
+	}
+
+	var rows = document.querySelectorAll(".music-browse-list tr");
+	for (i=0; i<rows.length; i++) {
+		var td = rows[i].querySelector("td");
+		if (!td) {
+			continue;
+		}
+		var catalog = td.innerText;
+		if (!rlist[catalog]) {
+			rows[i].classList.add("nowork");
+			var tds = rows[i].querySelectorAll("td");
+			for (var j=0; j<tds.length; j++) {
+				tds[j].classList.add("nowork");
+			}
+		}
+	}
+}
+
 
 </script>

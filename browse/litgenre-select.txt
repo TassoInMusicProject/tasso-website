@@ -1,0 +1,14 @@
+<!--
+<input style="width:200px;" placeholder="Publisher" id="browse-litgenre" value="" />
+-->
+<select id="browse-litgenre" class="litgenre select">
+	<option value="">Literary genre</option>
+	<option value="ballata">ballata</option>
+	<option value="canzone$">canzone</option>
+	<option value="canzonetta">canzonetta</option>
+	<option value="corona">corona</option>
+	<option value="madrigale">madrigale</option>
+	<option value="ottava">ottava</option>
+	<option value="sestina ">sestina</option>
+	<option value="sonetto">sonetto</option>
+</select>

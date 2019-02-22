@@ -8,7 +8,7 @@ all:
 	@echo Look at the contents of the Makefile to figure out what to do.
 
 
-update: spreadsheets
+update: spreadsheets si
 
 
 ss: spreadsheets

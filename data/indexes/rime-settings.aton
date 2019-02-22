@@ -290,6 +290,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560m
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Alberti, Innocenzo
 @PRINCEPSTITLE:	Primo libro de madrigali a quattro voci
@@ -603,6 +604,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560b
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Bellasio, Paolo
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -1671,6 +1673,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560j
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Cavaccio, Giovanni
 @PRINCEPSTITLE:	Musica di giovanni cavaccio. A quattro voci
@@ -1983,6 +1986,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560p
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Civita, Davide
 @PRINCEPSTITLE:	Premitie armoniche a tre voci
@@ -2582,6 +2586,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0314a
 @RIMETITLE:	Perché di seno in seno
+SETTINGTITLE: 	Perché di sen'in seno
 @SOLERTI:	314
 @COMPOSER:	Dalla Casa, Girolamo
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
@@ -2594,10 +2599,10 @@
 @PRINCEPSRISM:	D 806
 @REPRINTS:	
 @OVOICES:	5
-@EXTANTVOICES:	5
+@EXTANTVOICES:	4
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	G2,C2,C3,C3,F3
+@OCLEFS:	G2,C2,C3,F3
 @OMENSURATION:	Cut-C
 @OKEYSIG:	b-
 @FINAL:	G
@@ -4748,6 +4753,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0319a
 @RIMETITLE:	Non può l'angusto loco
+SETTINGTITLE:   Non può l'humil terreno
 @SOLERTI:	319
 @COMPOSER:	Gastoldi, Giovanni Giacomo
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -4846,32 +4852,6 @@
 @OKEYSIG:	-
 @FINAL:	D
 @TIMPEDITOR:	Deutsch, Catherine
-@NOTE:		
-@@END:		SETTING
-
-@@BEGIN:	SETTING
-@CATALOGNUM:	Trm0290d
-@RIMETITLE:	Amorosa fenice
-@SOLERTI:	290
-@COMPOSER:	Genvino, Francesco
-@PRINCEPSTITLE:	Libro secondo di madrigali a cinque voci
-@PRINCEPSLOC:	Napoli
-@NORMLOC:	Naples
-@NORMPUB:	Sottile
-@NORMPUBSHORT:	Sottile
-@PRINCEPSPUB:	Sottile
-@PRINCEPSYEAR:	1605
-@PRINCEPSRISM:	G 1586
-@REPRINTS:	
-@OVOICES:	5
-@EXTANTVOICES:	5
-@PARTBOOKS:	
-@EXTPARTBOOKS:	
-@OCLEFS:	
-@OMENSURATION:	
-@OKEYSIG:	
-@FINAL:		
-@TIMPEDITOR:	
 @NOTE:		
 @@END:		SETTING
 
@@ -5112,6 +5092,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560i
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Gesualdo, Carlo
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -5182,7 +5163,7 @@
 @OCLEFS:	C1,C1,C3,C4,F4
 @OMENSURATION:	C
 @OKEYSIG:	b-
-@FINAL:	C
+@FINAL:	(C)F
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
@@ -5480,6 +5461,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560g
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Graziani, Tommaso
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -5960,7 +5942,7 @@
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
 @NORMPUB:	Giacomo Vincenzi
-@NORMPUBSHORT:	Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
 @PRINCEPSPUB:	Vincenzi
 @PRINCEPSYEAR:	1587
 @PRINCEPSRISM:	1587-13
@@ -6995,6 +6977,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560f
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Macque, Giovanni de
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
@@ -7852,32 +7835,6 @@
 @@END:		SETTING
 
 @@BEGIN:	SETTING
-@CATALOGNUM:	Trm0290c
-@RIMETITLE:	Amorosa fenice
-@SOLERTI:	290
-@COMPOSER:	Massaino, Tiburtio
-@PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
-@PRINCEPSLOC:	Venetia
-@NORMLOC:	Venice
-@NORMPUB:	Giacomo Vincenzi
-@NORMPUBSHORT:	G. Vincenzi
-@PRINCEPSPUB:	Vincenti
-@PRINCEPSYEAR:	1604
-@PRINCEPSRISM:	M 1292
-@REPRINTS:	
-@OVOICES:	6
-@EXTANTVOICES:	6
-@PARTBOOKS:	
-@EXTPARTBOOKS:	
-@OCLEFS:	C1,C1,C3,C4,C4,F4
-@OMENSURATION:	C
-@OKEYSIG:	
-@FINAL:	G
-@TIMPEDITOR:	
-@NOTE:		
-@@END:		SETTING
-
-@@BEGIN:	SETTING
 @CATALOGNUM:	Trm0240b
 @RIMETITLE:	Gli augelletti diversi
 @SOLERTI:	240
@@ -7906,6 +7863,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560n
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Mayone, Ascanio
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -8712,6 +8670,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560c
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Merulo, Claudio
 @PRINCEPSFORMAT: anthology
@@ -8759,32 +8718,6 @@
 @OKEYSIG:	-
 @FINAL:	A
 @TIMPEDITOR:	Ricciardi, Emiliano
-@NOTE:		
-@@END:		SETTING
-
-@@BEGIN:	SETTING
-@CATALOGNUM:	Trm0290b
-@RIMETITLE:	Amorosa fenice
-@SOLERTI:	290
-@COMPOSER:	Milleville, Alessandro
-@PRINCEPSTITLE:	MS Mus.F.1358
-@PRINCEPSLOC:	Modena: Biblioteca Estense Universitaria
-@NORMLOC:	Modena: Biblioteca Estense Universitaria
-@NORMPUB:	
-@NORMPUBSHORT:	
-@PRINCEPSPUB:	
-@PRINCEPSYEAR:	1580
-@PRINCEPSRISM:	
-@REPRINTS:	
-@OVOICES:	5
-@EXTANTVOICES:	5
-@PARTBOOKS:	
-@EXTPARTBOOKS:	
-@OCLEFS:	
-@OMENSURATION:	
-@OKEYSIG:	
-@FINAL:		
-@TIMPEDITOR:	
 @NOTE:		
 @@END:		SETTING
 
@@ -9173,7 +9106,7 @@
 @EXTANTVOICES:	5
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	C1,C3,C4,F4
+@OCLEFS:	C1,C1,C3,C4,F4
 @OMENSURATION:	C
 @OKEYSIG:	-
 @FINAL:	G
@@ -9355,10 +9288,10 @@
 @EXTANTVOICES:	6
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	
-@OMENSURATION:	
-@OKEYSIG:	
-@FINAL:		
+@OCLEFS:	C1,C1,C3,C3,C4,F4
+@OMENSURATION:	C
+@OKEYSIG:	-
+@FINAL:	E
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
@@ -9418,6 +9351,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560h
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Monte, Filippo di
 @PRINCEPSTITLE:	Il sesto libro de madrigali a sei voci
@@ -10250,6 +10184,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560k
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Nanino, Giovanni Bernardino
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
@@ -11005,6 +10940,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560d
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Pordenon, Marco Antonio
 @PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
@@ -11796,7 +11732,7 @@
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
 @NORMPUB:	Alessandro Vincenti
-@NORMPUBSHORT:	Vincenti
+@NORMPUBSHORT:	A. Vincenzi
 @PRINCEPSPUB:	Vincenti
 @PRINCEPSYEAR:	1620
 @PRINCEPSRISM:	S 912
@@ -12076,6 +12012,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560o
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Spano, Donato Antonio
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -12755,6 +12692,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560e
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Tristabocca, Pasquale
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
@@ -13171,32 +13109,6 @@
 @@END:		SETTING
 
 @@BEGIN:	SETTING
-@CATALOGNUM:	Trm0290a
-@RIMETITLE:	Amorosa fenice
-@SOLERTI:	290
-@COMPOSER:	Veggio, Giovanni Agostino
-@PRINCEPSTITLE:	Il primo libro de madrigali a quattro voci
-@PRINCEPSLOC:	Parma
-@NORMLOC:	Parma
-@NORMPUB:	Viotto
-@NORMPUBSHORT:	Viotto
-@PRINCEPSPUB:	Viotto
-@PRINCEPSYEAR:	1575
-@PRINCEPSRISM:	V 1090
-@REPRINTS:	
-@OVOICES:	4
-@EXTANTVOICES:	4
-@PARTBOOKS:	
-@EXTPARTBOOKS:	
-@OCLEFS:	
-@OMENSURATION:	
-@OKEYSIG:	
-@FINAL:		
-@TIMPEDITOR:	Ricciardi, Emiliano
-@NOTE:		
-@@END:		SETTING
-
-@@BEGIN:	SETTING
 @CATALOGNUM:	Trm0617a
 @RIMETITLE:	L'aura con l'armonia dolce e soave
 @SOLERTI:	617
@@ -13486,6 +13398,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0560l
 @RIMETITLE:	Tarquinia, se rimiri
+@SETTINGTITLE:	Mentre, mia stella, miri
 @SOLERTI:	560
 @COMPOSER:	Il Verso, Antonio
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro quarto
@@ -13877,6 +13790,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm1050a
 @RIMETITLE:	Ha gigli e rose ed ha rubini ed oro
+@SETTINGTITLE:	Ha gigli e rose e bei rubini e oro
 @SOLERTI:	1050
 @COMPOSER:	Virchi, Paolo
 @PRINCEPSTITLE:	Il primo libro de madrigali a sei voci
@@ -14152,7 +14066,7 @@
 @EXTANTVOICES:	6
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	G2,G2,C2,C3,C4
+@OCLEFS:	G2,G2,C2,C3,C3,C4
 @OMENSURATION:	C
 @OKEYSIG:	-
 @FINAL:	(G)C

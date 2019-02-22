@@ -196,6 +196,7 @@ function reallyDisplaySettings(id, target) {
 		output += displaySinglePoem(id);
 	}
 	element.innerHTML = output;
+	sortByText(0); // sort by catalog number (same as sorting by year)
 }
 
 
@@ -407,8 +408,16 @@ function getCatalogInfo(id) {
 		output += act + "/" + scene;
 		output += ")</h2>";
 
+	} else if (matches = id.match(/Tco(\d\d)(\d\d)/)) {
+		// Tco0806 :: 08 = Canto (Roman), 06 = Ottava
+		var canto = GetRomanNumeral(matches[1].replace(/^0*/, ""));
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>G. conquistata</i> ";
+		output += canto + "/" + ottava;
+		output += ")</h2>";
+
 	} else {
-		output = "ERROR";
+		output = "";
 	}
 	return output;
 

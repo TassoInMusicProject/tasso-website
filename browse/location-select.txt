@@ -15,7 +15,6 @@
 	<option value="Jena">Jena</option>
 	<option value="Leiden">Leiden</option>
 	<option value="Milan">Milan</option>
-	<option value="Modena">Modena</option>
 	<option value="Naples">Naples</option>
 	<option value="Nuremberg">Nuremberg</option>
 	<option value="Palermo">Palermo</option>
@@ -24,4 +23,5 @@
 	<option value="Rome">Rome</option>
 	<option value="Venice">Venice</option>
 	<option value="Verona">Verona</option>
+	<option value="Modena">[Modena]</option>
 </select>

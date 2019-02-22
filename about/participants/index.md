@@ -52,7 +52,7 @@ Amyrose McCue Gill, translations (TextFormations)
 </div>
 
 <div class="person">
-Anthony Newcomb (University of California, Berkeley)
+Anthony Newcomb (University of California, Berkeley) †
 </div>
 
 <div class="person">
@@ -96,6 +96,10 @@ Jessie Ann Owens (University of California, Davis)
 
 <div class="person">
 Franco Piperno (University of Rome) 
+</div>
+
+<div class="person">
+Massimo Privitera (University of Palermo) 
 </div>
 
 <div class="person">

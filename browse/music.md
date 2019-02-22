@@ -24,19 +24,21 @@ layout: simple
 	<option value="lagrime">Lagrime</option>
 	<option value="torrismondo">Re Torrismondo</option>
 	<option value="conquistata">Gerusalemme c.</option>
-	<option value="all">all genres</option>
 </select>
 
 <br>
 <div id="work-count"></div>
 </td><td style="vertical-align:top">
-{% include_relative composer-select.txt %}
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />
-<input style="width:200px;" placeholder="Orig. voices" id="browse-ovoices" value="" />
+{% include_relative composer-select.txt %}
 <input style="width:200px;" placeholder="Year" id="browse-year" value="" />
-<input style="width:200px;" placeholder="Extant voices" id="browse-evoices" value="" />
 {% include_relative location-select.txt %}
 {% include_relative publisher-select.txt %}
+<!--
+<input style="width:200px;" placeholder="Orig. voices" id="browse-ovoices" value="" />
+<input style="width:200px;" placeholder="Extant voices" id="browse-evoices" value="" />
+-->
+{% include_relative voices-select.txt %}
 {% include_relative mensuration-select.txt %}
 {% include_relative key-select.txt %}
 {% include_relative final-select.txt %}

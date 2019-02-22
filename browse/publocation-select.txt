@@ -1,0 +1,45 @@
+<!--
+<input style="width:200px;" placeholder="Location" id="browse-publocation" value="" />
+-->
+<select id="browse-publocation" class="publocation select">
+	<option value="">any pub. location</option>
+	<option value="Bergamo">Bergamo</option>
+	<option value="Bologna">Bologna</option>
+	<option value="Brescia">Brescia</option>
+	<option value="Casalmaggiore">Casalmaggiore</option>
+	<option value="Cesena">Cesena</option>
+	<option value="Cremona">Cremona</option>
+	<option value="Ferrara">Ferrara</option>
+	<option value="Ferrara/Venice">Ferrara/Venice</option>
+	<option value="Florence">Florence</option>
+	<option value="Frankfurt">Frankfurt</option>
+	<option value="Genoa">Genoa</option>
+	<option value="London">London</option>
+	<option value="Lucca">Lucca</option>
+	<option value="Lyon">Lyon</option>
+	<option value="Mantua">Mantua</option>
+	<option value="Milan">Milan</option>
+	<option value="Modena">Modena</option>
+	<option value="Montpellier">Montpellier</option>
+	<option value="Naples">Naples</option>
+	<option value="Padua">Padua</option>
+	<option value="Palermo">Palermo</option>
+	<option value="Paris">Paris</option>
+	<option value="Parma">Parma</option>
+	<option value="Pavia">Pavia</option>
+	<option value="Perugia">Perugia</option>
+	<option value="Pesaro">Pesaro</option>
+	<option value="Piacenza">Piacenza</option>
+	<option value="Ravenna">Ravenna</option>
+	<option value="Rome">Rome</option>
+	<option value="Senigallia">Senigallia</option>
+	<option value="Serravalle">Serravalle</option>
+	<option value="Sienna">Sienna</option>
+	<option value="Stamperia Nuova">Stamperia Nuova</option>
+	<option value="Tours">Tours</option>
+	<option value="Turin">Turin</option>
+	<option value="Vatican City">Vatican City</option>
+	<option value="Venice">Venice</option>
+	<option value="Verona">Verona</option>
+	<option value="Viterbo">Viterbo</option>
+</select>

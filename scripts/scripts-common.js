@@ -57,15 +57,25 @@ var SOURCES;            // TASSODATA.SOURCES.SOURCE;
 var SCORES;             // TASSODATA.SCORES.SCORE;
 
 // verses of poems
-var RIMEVERSELIST;      // list of poems with rime verse contents
-								// TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
-var AMINTAVERSELIST;    // list of poems with aminta verse contents
-								// TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
-var GERUVERSELIST;      // list of poems with Gerusalemme liberata verse contents
-								// TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
-var OTHERVERSELIST;     // list of poems with Gerusalemme liberata verse contents
-								// TASSODATA.VERSES.OTHER_VERSES.VERSEDATA;
-var ALLVERSELIST;       // Collapse of all verse lists.
+var RIMEVERSELIST;        // list of poems with rime verse contents
+								  // TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+var AMINTAVERSELIST;      // list of poems with aminta verse contents
+								  // TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
+var GERUVERSELIST;        // list of poems with Gerusalemme liberata verse contents
+								  // TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
+var OTHERVERSELIST;       // list of poems with Gerusalemme liberata verse contents
+								  // TASSODATA.VERSES.OTHER_VERSES.VERSEDATA;
+var ECLOGHEVERSELIST;     // list of poems with Ecloghe verse contents
+								  // TASSODATA.VERSES.ECLOGHE_VERSES.VERSEDATA;
+var RINALDOVERSELIST;     // list of poems with Rinaldo verse contents
+								  // TASSODATA.VERSES.RINALDO_VERSES.VERSEDATA;
+var TORRISMONDOVERSELIST; // list of poems with Torrismondo verse contents
+								  // TASSODATA.VERSES.TORRISMONDO_VERSES.VERSEDATA;
+var LAGRIMEVERSELIST;     // list of poems with Lagrime verse contents
+								  // TASSODATA.VERSES.LAGRIME_VERSES.VERSEDATA;
+var CONQUISTATAVERSELIST; // list of poems with Gerusalemme conquistata verse contents
+								  // TASSODATA.VERSES.CONQUISTATA_VERSES.VERSEDATA;
+var ALLVERSELIST;         // Collapse of all verse lists.
 
 
 // List of Key Codes.  More can be extracted from this page:
@@ -1400,6 +1410,31 @@ function PrepareGlobalTassoObjects() {
 	}
 	if (!OTHERVERSELIST) {
 		OTHERVERSELIST = TASSODATA.VERSES.OTHER_VERSES.VERSEDATA;
+		LAGRIMEVERSELIST = [];
+		CONQUISTATAVERSELIST = [];
+		RINALDOVERSELIST = [];
+		TORRISMONDOVERSELIST = [];
+		ECLOGHEVERSELIST = [];
+		for (var m=0; m<OTHERVERSELIST.length; m++) {
+			var mentry = OTHERVERSELIST[m];
+			var myid = mentry.CATALOGNUM;
+			if (myid.match(/Tec/)) {
+				ECLOGHEVERSELIST.push(mentry);
+			} else if (myid.match(/Tri/)) {
+				RINALDOVERSELIST.push(mentry);
+			} else if (myid.match(/Tbv/)) {
+				LAGRIMEVERSELIST.push(mentry);
+			} else if (myid.match(/Tco/)) {
+				CONQUISTATAVERSELIST.push(mentry);
+			} else if (myid.match(/Trt/)) {
+				TORRISMONDOVERSELIST.push(mentry);
+			}
+		}
+		TASSODATA.VERSES.LAGRIME_VERSES = {VERSEDATA: LAGRIMEVERSELIST};
+		TASSODATA.VERSES.TORRISMONDO_VERSES = {VERSEDATA: TORRISMONDOVERSELIST};
+		TASSODATA.VERSES.CONQUISTATA_VERSES = {VERSEDATA: CONQUISTATAVERSELIST};
+		TASSODATA.VERSES.ECLOGHE_VERSES = {VERSEDATA: ECLOGHEVERSELIST};
+		TASSODATA.VERSES.RINALDO_VERSES = {VERSEDATA: RINALDOVERSELIST};
 	}
 	if (!ALLVERSELIST) {
 		ALLVERSELIST = RIMEVERSELIST.concat(AMINTAVERSELIST);

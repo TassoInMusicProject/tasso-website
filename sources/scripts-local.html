@@ -18,6 +18,7 @@
 
 var ID = "Trm003";  // used for CGI input of ID
 var CURRENT_VERSE = null;
+var CGI = {};
 
 
 
@@ -145,14 +146,11 @@ function displayMultipleSources() {
 			return;
 		}
    	output += verseinfo.TITLE;
+
+		var catinfo = getCatalogInfo(id);
+		output += "xxx " + id + " " + catinfo;
 		
-		if (id.match(/Trm/)) {
-			var matchb = id.match(/Trm0*(\d+)/);
-			if (matchb) {
-   			output += " (<i>Rime</i> " + matchb[1] + ")";
-			}
-		}
-		output += "<h2>";
+		output += "</h2>";
 		output += "</td><td>";
 		output += "</td></tr>";
 		output += "</table></center>";
@@ -228,12 +226,8 @@ function displaySingleSource(id) {
 	title = title.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	title = title.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
    output += title;
-	if (id.match(/Trm/)) {
-		var matchb = id.match(/Trm0*(\d+)/);
-		if (matchb) {
-  			output += " (<i>Rime</i> " + matchb[1] + ")";
-		}
-	}
+	var catinfo = getCatalogInfo(id);
+	output += " " + catinfo;
 	output += "</h2>";
 
 	output += "</td><td class='triangle'>";
@@ -496,6 +490,82 @@ function getPrintSourceTable(verseinfo) {
 	output += "</div>";
 
    return output;
+}
+
+//////////////////////////////
+//
+// getCatalogInfo --
+//
+
+function getCatalogInfo(id) {
+	var output = "";
+	var matches;
+	if (matches = id.match(/Trm0*(\d+)/)) {
+		output += "&nbsp;&nbsp;(<i>Rime</i> ";
+		output += matches[1];
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tsg(\d\d)(\d\d\d)/)) {
+		// Tsg99888z :: 99 = canto, 888 = ottava
+		var canto = GetRomanNumeral(matches[1]);
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Gerusalemme</i> ";
+		output += canto + "/" + ottava;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tec(\d)(\d\d\d)/)) {
+		// Tec9888z :: 9 = ecloghe, 888 = verse
+		var ecloghe = GetRomanNumeral(matches[1]);
+		var verse = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Ecloghe</i> ";
+		output += ecloghe + "/" + verse;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tbv(\d\d\d\d)/)) {
+		// Tec9999z :: 9999 = stanza
+		var stanza = matches[1].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Lagrime</i> ";
+		output += " stanza " + stanza;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tri(\d)(\d\d\d)/)) {
+		// Tri9888z :: 9 = canto, 888 = ottava
+		var canto = GetRomanNumeral(matches[1]);
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Rinaldo</i> ";
+		output += canto + "/" + ottava;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tam(\d)(\d\d)(\d\d\d\d)/)) {
+		// Tam9887777z :: 9 = Act, 88 = scene, 7777 = verse
+		var act = GetRomanNumeral(matches[1]);
+		var scene = matches[2].replace(/^0*/, "");
+		var verse = matches[3].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Aminta</i> ";
+		output += act + "/" + scene + "/" + verse;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Trt(\d\d)(\d\d)/)) {
+		// Trt9988z :: 99 = Act, 88 = scene
+		var act = GetRomanNumeral(matches[1].replace(/^0*/, ""));
+		var scene = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Re Torrismondo</i> ";
+		output += act + "/" + scene;
+		output += ")</h2>";
+
+	} else if (matches = id.match(/Tco(\d\d)(\d\d)/)) {
+		// Tco0806 :: 08 = Canto (Roman), 06 = Ottava
+		var canto = GetRomanNumeral(matches[1].replace(/^0*/, ""));
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>G. conquistata</i> ";
+		output += canto + "/" + ottava;
+		output += ")</h2>";
+
+	} else {
+		output = "";
+	}
+	return output;
+
 }
 
 

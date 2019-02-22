@@ -28,9 +28,12 @@ for (my $i=0; $i<@contents; $i++) {
 my %PARAM;
 
 my $i = 0;
+my $lasti = $i;
 while ($i < @contents) {
 	$i = createVariorumXml($i, @contents);
 print "PROCESSING FROM LINE $i\n";
+	die "Strange error on line $i " if $i < $lasti;
+	$lasti = $i;
 }
 
 
@@ -76,6 +79,7 @@ sub createVariorumXml {
 	for (my $i=$starti; $i<@contents; $i++) {
 		my $line = $contents[$i];
 		chomp $line;
+print "READING FROM LINE $i : $line\n";
 		if (!$foundstart) {
 			if ($line =~ /^\@\@BEGIN\s*:\s*VARIORUM/) {
 				if ($active) {
@@ -136,7 +140,8 @@ print "GOT HERE SSS\n";
 	my $vtest = $data{"VERSE"};
 	$vtest =~ s/\@VERSE://g;
 	if ($vtest =~ /^\s*$/) {
-		print "No verse content for for $data{'DATA'}, so can't write a file.\n";
+		print "No verse content for ID $data{'CATALOGNUM'} data is: $data{'DATA'}, so can't write a file.\n";
+		print "STARTI $starti ENDI $endi\n";
 		return $endi;
 	}
 
@@ -190,6 +195,8 @@ print "GOT HERE SSS\n";
 		my $ss = $SETTINGS{$sid};
 		if (!$ss) {
 			print STDERR ("================== Error reading source information for source id $sid\n");
+			print STDERR ("================== DATA TYPE $data{'TYPE'}\n");
+			print STDERR ("================== DATA ID $data{'ID'}\n");
 			return $endi;
 		}
 		%s = %$ss;
@@ -242,7 +249,7 @@ print "GOT HERE SSS\n";
 	#}
 	#print "\n\n";
 
-print "VARIRUM XML FOR $data{'CATALOGNUM'} ID $data{'ID'}\n";
+print "VARIORUM XML FOR $data{'CATALOGNUM'} ID $data{'ID'}\n";
 	printVariorumXml($data{'CATALOGNUM'}, $data{'ID'});
 
 	return $endi;
@@ -1131,6 +1138,7 @@ sub cleanForXml {
 
 sub getAtonEntries {
 	my ($datafile, $ATONTAG, $IDTAG) = @_;
+print STDERR "GETTING ID ATONTAG $ATONTAG FOR IDTAG $IDTAG in file $datafile\n";
 	my %output;
 	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
 	my @contents = <DFILE>;

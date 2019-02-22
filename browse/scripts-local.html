@@ -158,6 +158,8 @@ function fillMusicBrowsePage() {
 //
 
 function fillLiteraryBrowsePage() {
+	var event = arguments[0];
+
 	var literary = document.querySelector("#text-heading");
 	if (!literary) {
 		return;
@@ -168,6 +170,7 @@ function fillLiteraryBrowsePage() {
 
 	var genrelist = document.querySelector("select.genre");
 	var searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+	var gvalue = "";
 
 	if (genrelist) {
 		var gvalue = genrelist[genrelist.selectedIndex].value;
@@ -193,7 +196,7 @@ function fillLiteraryBrowsePage() {
 			countElement.innerHTML = count + " entries";
 		}
 	}
-	displayLiteraryBrowseEntries(works);
+	displayLiteraryBrowseEntries(works, gvalue);
 }
 
 
@@ -619,7 +622,7 @@ function cleanRismText(rism) {
 // displayLiteraryBrowseEntries --
 //
 
-function displayLiteraryBrowseEntries(entries) {
+function displayLiteraryBrowseEntries(entries, genre) {
 	var element = document.querySelector("#browse-results");
 	if (!element) {
 		return;
@@ -632,6 +635,15 @@ function displayLiteraryBrowseEntries(entries) {
 	var tsource = document.querySelector("#literary-browse-template").textContent;
 	var template = Handlebars.compile(tsource);
 	element.innerHTML = template(entries);
+	if (genre == "aminta") {
+		var table = document.querySelector("#browse-results table");
+		var rows = table.querySelectorAll("tr");
+		for (var i=0; i<rows.length; i++) {
+			var tds = rows[i].
+			
+// ggg
+		}
+	}
 }
 
 

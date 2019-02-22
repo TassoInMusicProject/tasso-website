@@ -279,11 +279,28 @@ function getManuscriptSourceTable(verseinfo) {
 		items[0] = "none";
 	} 
 
-	if (!items[0].match(/none/)) {
-		output += "<tr>";
-		output += "<th class='yellowish' style='text-align:left'>Solerti&nbsp;sig.</th>";
-		output += "<th class='yellowish' style='text-align:left'>Source</th>";
-		output += "</tr>";
+	var catalog = verseinfo.CATALOGNUM;
+	var rimeQ = true;
+	if (catalog.match(/^Trm/)) {
+		rimeQ = true;
+	} else {
+		rimeQ = false;
+	}
+
+	if (rimeQ) {
+		if (!items[0].match(/none/)) {
+			output += "<tr>";
+			output += "<th class='yellowish' style='text-align:left'>Solerti&nbsp;sig.</th>";
+			output += "<th class='yellowish' style='text-align:left'>Source</th>";
+			output += "</tr>";
+		}
+	} else {
+		if (!items[0].match(/none/)) {
+			output += "<tr>";
+			output += "<th class='yellowish' style='text-align:left'>Sig.</th>";
+			output += "<th class='yellowish' style='text-align:left'>Source</th>";
+			output += "</tr>";
+		}
 	}
 
 	for (var i=0; i<items.length; i++) {
@@ -437,13 +454,29 @@ function getPrintSourceTable(verseinfo) {
 		items[0] = "none";
 	} 
 
-	if (!items[0].match(/none/)) {
-		output += "<tr>";
-		output += "<th class='yellowish' style='text-align:left'>Solerti&nbsp;#</th>";
-		output += "<th class='yellowish' style='text-align:left'>Source</th>";
-		output += "</tr>";
+	var catalog = verseinfo.CATALOGNUM;
+	var rimeQ = true;
+	if (catalog.match(/^Trm/)) {
+		rimeQ = true;
+	} else {
+		rimeQ = false;
 	}
 
+	if (rimeQ) {
+		if (!items[0].match(/none/)) {
+			output += "<tr>";
+			output += "<th class='yellowish' style='text-align:left'>Solerti&nbsp;#</th>";
+			output += "<th class='yellowish' style='text-align:left'>Source</th>";
+			output += "</tr>";
+		}
+	} else {
+		if (!items[0].match(/none/)) {
+			output += "<tr>";
+			output += "<th class='yellowish' style='text-align:left'>#</th>";
+			output += "<th class='yellowish' style='text-align:left'>Source</th>";
+			output += "</tr>";
+		}
+	}
 
 	for (var i=0; i<items.length; i++) {
 		output += "<tr><td>";

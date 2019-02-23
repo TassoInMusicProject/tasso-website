@@ -254,6 +254,12 @@ function filterMusicData(entries) {
 		key = keyElement.value;
 	}
 
+	var mdedicateeElement = document.querySelector("#browse-mdedicatee");
+	var mdedicatee = "";
+	if (mdedicateeElement) {
+		mdedicatee = mdedicateeElement.value;
+	}
+
 	var titleElement = document.querySelector("#browse-title");
 	var title = "";
 	if (titleElement) {
@@ -309,6 +315,10 @@ function filterMusicData(entries) {
 
 	if (key) {
 		output = filterByField(output, "OKEYSIG", key);
+	}
+
+	if (mdedicatee) {
+		output = filterByField(output, "SRCDEDICATEE", mdedicatee);
 	}
 
 	if (title) {
@@ -394,6 +404,12 @@ function filterLiteraryData(entries) {
 		publocation = publocationElement.value;
 	}
 
+	var manlocationElement = document.querySelector("#browse-manlocation");
+	var manlocation = "";
+	if (manlocationElement) {
+		manlocation = manlocationElement.value;
+	}
+
 	if (title) {
 		output = filterByField(output, "TITLE", title);
 	}
@@ -414,10 +430,12 @@ function filterLiteraryData(entries) {
 		output = filterByField(output, "PRINTSRC", print, true);
 	}
 
-console.log("PUBLOCATION IS SET TO ", publocation);
 	if (publocation) {
-console.log("SEARCHING FOR ", publocation, "IN PUBLOCATION");
 		output = filterByField(output, "PUBLOCATION", publocation);
+	}
+
+	if (manlocation) {
+		output = filterByField(output, "LOCATION", manlocation);
 	}
 
 	return output;
@@ -527,6 +545,13 @@ function insertCgiSearchParameters() {
 		}
 	}
 
+	if (CGI.manlocation) {
+		var manlocationelement = document.querySelector("#browse-manlocation");
+		if (manlocationelement) {
+			manlocationelement.value = CGI.manlocation;
+		}
+	}
+
 	if (CGI.publisher) {
 		var publisherelement = document.querySelector("#browse-publisher");
 		if (publisherelement) {
@@ -571,6 +596,14 @@ function insertCgiSearchParameters() {
 		var key = CGI.key;
 		if (keyelement) {
 			keyelement.value = key;
+		}
+	}
+
+	if (CGI.mdedicatee) {
+		var mdedicateeelement = document.querySelector("#browse-mdedicatee");
+		var mdedicatee = CGI.mdedicatee;
+		if (mdedicateeelement) {
+			mdedicateeelement.value = mdedicatee;
 		}
 	}
 
@@ -713,6 +746,13 @@ function setupMusicBrowseCallbacks() {
 		});
 	}
 
+	var mdedicateeElement = document.querySelector("#browse-mdedicatee");
+	if (mdedicateeElement) {
+		mdedicateeElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
 	var titleElement = document.querySelector("#browse-title");
 	if (titleElement) {
 		titleElement.addEventListener("input", function() { 
@@ -825,6 +865,13 @@ function setupLiteraryBrowseCallbacks() {
 	var publocationElement = document.querySelector("#browse-publocation");
 	if (publocationElement) {
 		publocationElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var manlocationElement = document.querySelector("#browse-manlocation");
+	if (manlocationElement) {
+		manlocationElement.addEventListener("input", function() { 
 			fillLiteraryBrowsePage();
 		});
 	}

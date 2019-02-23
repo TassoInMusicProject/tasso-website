@@ -1,0 +1,24 @@
+<!--
+<input style="width:200px;" placeholder="Location" id="browse-manlocation" value="" />
+-->
+<select id="browse-manlocation" class="manlocation select">
+	<option value="">any man. location</option>
+	<option value="Bergamo">Bergamo</option>
+	<option value="Bologna">Bologna</option>
+	<option value="Ferrara">Ferrara</option>
+	<option value="Ferrara/Venice">Ferrara/Venice</option>
+	<option value="Florence">Florence</option>
+	<option value="Paris">Paris</option>
+	<option value="London">London</option>
+	<option value="Milan">Milan</option>
+	<option value="Modena">Modena</option>
+	<option value="Montpellier">Montpellier</option>
+	<option value="Naples">Naples</option>
+	<option value="Pesaro">Pesaro</option>
+	<option value="Ravenna">Ravenna</option>
+	<option value="Rome">Rome</option>
+	<option value="Sienna">Sienna</option>
+	<option value="Vatican City">Vatican City</option>
+	<option value="Venice">Venice</option>
+	<option value="unknown">unknown</option>
+</select>

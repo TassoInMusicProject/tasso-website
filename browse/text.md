@@ -33,7 +33,7 @@ layout: simple
 {% include_relative litgenre-select.txt %}
 {% include_relative publocation-select.txt %}
 {% include_relative print-select.txt %}
-{% include_relative publocation-select.txt %}
+{% include_relative manlocation-select.txt %}
 {% include_relative manuscript-select.txt %}
 {% include_relative dedicatee-select.txt %}
 

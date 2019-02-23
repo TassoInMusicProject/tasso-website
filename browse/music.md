@@ -42,6 +42,7 @@ layout: simple
 {% include_relative mensuration-select.txt %}
 {% include_relative key-select.txt %}
 {% include_relative final-select.txt %}
+{% include_relative mdedicatee-select.txt %}
 
 </td>
 </tr>

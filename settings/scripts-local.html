@@ -580,7 +580,7 @@ function applyNoWorkClass() {
 			continue;
 		}
 		var catalog = td.innerText;
-		if (!rlist[catalog]) {
+		if ((!catalog.match(/Trm1643/)) && (!rlist[catalog])) {
 			rows[i].classList.add("nowork");
 			var tds = rows[i].querySelectorAll("td");
 			for (var j=0; j<tds.length; j++) {

@@ -422,7 +422,7 @@ Handlebars.registerHelper("trclass", function(solerti, catalognum, catalogbase) 
 		return new Handlebars.SafeString("<tr class='nowork'>");
 	}
 	var output = "";
-	if (RWORKLIST[id]) {
+	if (RWORKLIST[id] || id.match(/Trm1653/)) {
 		output += "<tr class='data haswork'>";
 	} else {
 		output += "<tr class='data nowork'>";

@@ -12,6 +12,7 @@ var LITERARYFIELDS = {};
 
 var RSOURCES = {};   // reverse index for source info for popups.
 
+var SOURCEHILIGHT = {};
 
 //////////////////////////////
 //
@@ -258,6 +259,7 @@ function filterMusicData(entries) {
 	var mdedicatee = "";
 	if (mdedicateeElement) {
 		mdedicatee = mdedicateeElement.value;
+console.log("MDEDICATEEE IS", mdedicatee);
 	}
 
 	var titleElement = document.querySelector("#browse-title");
@@ -318,7 +320,8 @@ function filterMusicData(entries) {
 	}
 
 	if (mdedicatee) {
-		output = filterByField(output, "SRCDEDICATEE", mdedicatee);
+console.log("OUTPUT", output);
+		output = filterBySubField(output, "SOURCE", "SRCDEDICATEESHORT", mdedicatee);
 	}
 
 	if (title) {
@@ -356,6 +359,7 @@ function filterMusicData(entries) {
 //
 
 function filterLiteraryData(entries) {
+	SOURCEHILIGHT = {};
 	if (!entries) {
 		entries = RIMEVERSELIST;
 	}
@@ -408,6 +412,7 @@ function filterLiteraryData(entries) {
 	var manlocation = "";
 	if (manlocationElement) {
 		manlocation = manlocationElement.value;
+		SOURCEHILIGHT["LOCATION"] = manlocation;
 	}
 
 	if (title) {
@@ -442,6 +447,61 @@ function filterLiteraryData(entries) {
 }
 
 
+
+//////////////////////////////
+//
+// filterBySubField --
+//
+
+function filterBySubField(entries, subfield, field, value, bound) {
+	if (!entries) {
+		return [];
+	}
+console.log("GOT HERE", entries);
+	if (entries.length == 0) {
+		return [];
+	}
+	var output = [];
+
+	// fix for regular expressions:
+	//value = value.replace(/'/g, "\\\'");
+
+	var entry;
+	if (bound) {
+		value = "\\b" + value + "\\b";
+	}
+	var re = new RegExp(value, "i");
+	for (var i=0; i<entries.length; i++) {
+		entry = entries[i][subfield];
+		if (!entry) {
+			continue;
+		}
+		if (field instanceof Array) {
+			var found = 0;
+			for (var j=0; j<field.length; j++) {
+				if (!entry[field[j]]) {
+					continue;
+				}
+				if (entry[field[j]].match(re)) {
+					found = 1;
+					break;
+				}
+			}
+			if (found) {
+				output.push(entries[i]);
+			}
+		} else {
+			if (!entry[field]) {
+				continue;
+			}
+			if (entry[field].match(re)) {
+				output.push(entries[i]);
+			}
+		}
+	}
+
+	return output;
+}
 
 //////////////////////////////
 //
@@ -706,8 +766,22 @@ function displayLiteraryBrowseEntries(entries, genre) {
 // ggg
 		}
 	}
+	if (Object.keys(SOURCEHILIGHT).length > 0) {
+		highlightSources();
+	}
 }
 
+
+
+//////////////////////////////
+//
+// highlightSources --
+//
+
+function highlightSources() {
+
+
+}
 
 
 

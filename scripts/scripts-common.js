@@ -1461,6 +1461,55 @@ function PrepareGlobalTassoObjects() {
 	InsertScoresIntoSettings();
 	InsertSourcesIntoSettings();
 	InsertComposersIntoSettings();
+	InsertManuscriptLocationsIntoVerseList();
+}
+
+
+
+//////////////////////////////
+//
+// insertManuscriptLocationsIntoVerseList --
+//
+
+function InsertManuscriptLocationsIntoVerseList() {
+	var verselist = ALLVERSELIST;
+	var manloc = LITMANU;
+	var rmanu = {};
+	var i;
+	var j;
+	var list;
+	var manlocation;
+	for (i=0; i<manloc.length; i++) {
+		var key = manloc[i].SMSIGLUM;
+		if (key.match(/^\s*$/)) {
+			continue;
+		}
+		rmanu[key] = manloc[i];
+	}
+	for (i=0; i<verselist.length; i++) {
+		if (verselist[i].MANUSCRIPTS) {
+			continue;
+		}
+		verselist[i].MANUSCRIPTS = {};
+		if (!verselist[i].MANUSRC) {
+			continue;
+		}
+		list = verselist[i].MANUSRC.split(/\s*,\s/);
+		if (!list) {
+			continue;
+		}
+		manlocation = "";
+		for (j=0; j<list.length; j++) {
+			var item = rmanu[list[j]];
+			if (item) {
+				verselist[i].MANUSCRIPTS[list[j]] = item;
+				manlocation += " " + item.LOCATION;
+			} else {
+				console.log("CANNOT FIND MANSUCRIPT INFO FOR", list[j]);
+			}
+		}
+		verselist[i].MANLOCATION = manlocation;
+	}
 }
 
 

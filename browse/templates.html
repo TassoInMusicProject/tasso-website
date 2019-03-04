@@ -343,8 +343,22 @@ Handlebars.registerHelper("manuscriptSrc", function(src) {
 		} else {
 			info = list[i] + ": " + info;
 		}
-		output += "<span class='tooltip'>" + list[i];
-		output += "   <span class='tooltiptext'>" + info + "</span>";
+		output += "<span class='tooltip'>";
+		var submatch = 0;
+		if (SOURCEHILIGHT.LOCATION) {
+			var source = RMANUSCRIPTS[list[i]];
+			if (source && source.LOCATION) {
+				if (source.LOCATION.match(SOURCEHILIGHT.LOCATION)) {
+					submatch = 1;
+				}
+			}
+		}
+		if (submatch) {
+			output += "<span style='font-weight:bold; color:#900;'>" + list[i] + "</span>";
+		} else {
+			output += list[i];
+		}
+		output += "<span class='tooltiptext'>" + info + "</span>";
 		output += "</span>";
 		if (i < list.length - 1) {
 			output += ", ";

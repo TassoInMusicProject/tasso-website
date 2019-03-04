@@ -13,6 +13,7 @@ var LITERARYFIELDS = {};
 var RSOURCES = {};   // reverse index for source info for popups.
 
 var SOURCEHILIGHT = {};
+var RMANUSCRIPTS = null; // lookup table for manuscripts.
 
 //////////////////////////////
 //
@@ -197,6 +198,8 @@ function fillLiteraryBrowsePage() {
 		}
 	}
 
+	fillReverseManuscripts();
+
 	// var works = filterLiteraryData(RIMEVERSELIST);
 	var works = filterLiteraryData(searchlist);
 	var count = works.length;
@@ -209,6 +212,25 @@ function fillLiteraryBrowsePage() {
 		}
 	}
 	displayLiteraryBrowseEntries(works, gvalue);
+}
+
+
+
+//////////////////////////////
+//
+// fillReverseManuscripts --
+//
+
+function fillReverseManuscripts() {
+	if (RMANUSCRIPTS) {
+		return;
+	}
+	RMANUSCRIPTS = {};
+	var mlist = TASSODATA.MANUSCRIPTS.MANUSCRIPT;
+	var i;
+	for (i=0; i<mlist.length; i++) {
+		RMANUSCRIPTS[mlist[i].SMSIGLUM] = mlist[i];
+	}
 }
 
 
@@ -766,9 +788,6 @@ function displayLiteraryBrowseEntries(entries, genre) {
 // ggg
 		}
 	}
-	if (Object.keys(SOURCEHILIGHT).length > 0) {
-		highlightSources();
-	}
 }
 
 
@@ -779,6 +798,8 @@ function displayLiteraryBrowseEntries(entries, genre) {
 //
 
 function highlightSources() {
+	var sources = document.querySelectorAll("td.sources");
+	console.log("HIGHLIGHTING SOURCES", sources);
 
 
 }

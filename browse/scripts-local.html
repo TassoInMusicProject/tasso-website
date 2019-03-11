@@ -6,6 +6,9 @@
 <script>
 // vim: ts=3
 
+{% include_relative sorting-functions.html %}
+{% include_relative music-code.html %}
+{% include_relative literary-code.html %}
 
 var MUSICFIELDS    = {};
 var LITERARYFIELDS = {};
@@ -14,6 +17,8 @@ var RSOURCES = {};   // reverse index for source info for popups.
 
 var SOURCEHILIGHT = {};
 var RMANUSCRIPTS = null; // lookup table for manuscripts.
+var RPRINTS = null; // lookup table for prints.
+
 
 //////////////////////////////
 //
@@ -70,7 +75,7 @@ function displayTextPolicies(target) {
 			element.innerHTML = request.responseText;
 			setupLiteraryBrowseCallbacks();
 			insertCgiSearchParameters();
-			fillLiteraryBrowsePage();
+			fillLiteraryBrowsePage({fillOptions: true});
 		}
 	};
 	request.open("GET", "text.html", true);
@@ -97,121 +102,151 @@ function showTab(hiid) {
 
 
 
+
 //////////////////////////////
 //
-// fillMusicBrowsePage --
+// fillSelectOptions2 --
 //
 
-function fillMusicBrowsePage() {
-	var music = document.querySelector("#music-heading");
-	if (!music) {
-		return;
+function fillSelectOptions2(field, subfield, searchlist) {
+	var options = getSelectOptions2(field, subfield, searchlist);
+
+	if (field == "MANUSCRIPTS" && subfield === "LOCATION") {
+		fillLiteraryManuscriptLocationSelect(options);
 	}
-	if (!music.className.match(/active/)) {
-		return;
+	if (field == "PRINTS" && subfield === "PUBLOCATION") {
+		fillLiteraryPrintLocationSelect(options);
+	}
+//function fillLiteraryPrintSelect(options) {
+//ggg
+}
+
+
+
+/////////////////////////////
+//
+// fillSelectOptionsKeys --
+//
+
+function fillSelectOptionsKeys(field, searchlist) {
+	var options = getSelectOptionsKey(field, searchlist);
+
+	if (field == "MANUSCRIPTS") {
+		fillLiteraryManuscriptsSelect(options);
 	}
 
-	var repertorylist = document.querySelector("select.genre");
-
-	var searchlist = TASSODATA.SETTINGS.RIME_SETTINGS;
-	if (repertorylist) {
-		var gvalue = repertorylist[repertorylist.selectedIndex].value;
-console.log("GENREVALUE IS ", gvalue);
-		if (gvalue.match(/aminta/i)) {
-			searchlist = TASSODATA.SETTINGS.AMINTA_SETTINGS.SETTING;
-		} else if (gvalue.match(/gerusalemme/i)) {
-			searchlist = TASSODATA.SETTINGS.GERUSALEMME_SETTINGS.SETTING;
-		} else if (gvalue.match(/^rime/i)) {
-			searchlist = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
-		} else if (gvalue.match(/^ecloghe/i)) {
-			searchlist = ECLOGHESETTINGLIST;
-		} else if (gvalue.match(/^rinaldo/i)) {
-			searchlist = RINALDOSETTINGLIST;
-		} else if (gvalue.match(/lagrime/i)) {
-			searchlist = LAGRIMESETTINGLIST;
-		} else if (gvalue.match(/torrismondo/i)) {
-			searchlist = TORRISMONDOSETTINGLIST;
-		} else if (gvalue.match(/conquistata/i)) {
-			searchlist = CONQUISTATASETTINGLIST;
-		} else if (gvalue.match(/^all/i)) {
-			searchlist = ALLSETTINGLIST;
-		} else {
-			console.log("GENRE IS NOT YET DEALT WITH", gvalue);
-		}
-	}
-
-	var works = filterMusicData(searchlist);
-	var count = works.length;
-	var countElement = document.querySelector("#work-count");
-	if (countElement) {
-		if (count == 1) {
-			countElement.innerHTML = count + " entry";
-		} else {
-			countElement.innerHTML = count + " entries";
-		}
-	}
-	displayMusicBrowseEntries(works);
 }
 
 
 
 //////////////////////////////
 //
-// fillLiteraryBrowsePage --
+// fillSelectOptions --
 //
 
-function fillLiteraryBrowsePage() {
-	var event = arguments[0];
+function fillSelectOptions(field, searchlist) {
+console.log("FILLSELECTOPTIONS ", field);
+	var options = getSelectOptions(field, searchlist);
 
-	var literary = document.querySelector("#text-heading");
-	if (!literary) {
-		return;
+	if (field == "GENRE") {
+		fillLiteraryGenreSelect(options);
 	}
-	if (!literary.className.match(/active/)) {
-		return;
+	if (field == "DEDICATEE") {
+		fillLiteraryDedicateeSelect(options);
 	}
 
-	var repertorylist = document.querySelector("select.genre");
-	var searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
-	var gvalue = "";
+}
 
-	if (repertorylist) {
-		var gvalue = repertorylist[repertorylist.selectedIndex].value;
-		if (gvalue.match(/aminta/i)) {
-			searchlist = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
-		} else if (gvalue.match(/gerusalemme/i)) {
-			searchlist = TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
-		} else if (gvalue.match(/ecloghe/i)) {
-			searchlist = TASSODATA.VERSES.ECLOGHE_VERSES.VERSEDATA;
-		} else if (gvalue.match(/rinaldo/i)) {
-			searchlist = TASSODATA.VERSES.RINALDO_VERSES.VERSEDATA;
-		} else if (gvalue.match(/lagrime/i)) {
-			searchlist = TASSODATA.VERSES.LAGRIME_VERSES.VERSEDATA;
-		} else if (gvalue.match(/torrismondo/i)) {
-			searchlist = TASSODATA.VERSES.TORRISMONDO_VERSES.VERSEDATA;
-		} else if (gvalue.match(/conquistata/i)) {
-			searchlist = TASSODATA.VERSES.CONQUISTATA_VERSES.VERSEDATA;
-		} else if (gvalue.match(/^rime/i)) {
-			searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
-		} else {
-			console.log("GENRE IS NOT YET DEALT WITH", gvalue);
+
+
+//////////////////////////////
+//
+// getOptionListText -- Prepare the list of <option> elements for a selection list.
+//
+
+function getOptionListText(options, remappings) {
+	var output = "";
+	for (var i=0; i<options.length; i++) {
+		var text = options[i];
+		var text2 = text;
+		if (remappings[text]) {
+			text = remappings[text];
+		}
+		output += "<option value='" + text + "'>" + text2 + "</option>";
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getSelectOptions --
+//
+
+function getSelectOptions(field, searchlist) {
+	var buffer = {};
+	var value;
+	for (var i=0; i<searchlist.length; i++) {
+		if (!searchlist[i][field]) {
+			continue;
+		}
+		value = searchlist[i][field];
+		value.replace(/\s+$/, "").replace(/^\s+/, "");
+		if (field === "DEDICATEE") {
+			value = value.replace(/\s*Although Solerti places .*/, "");
+		}
+		buffer[value] = 1;
+	}
+	var keys = Object.keys(buffer);
+	return keys.sort();
+}
+
+
+
+//////////////////////////////
+//
+// getSelectOptions2 --
+//
+
+function getSelectOptions2(field, subfield, searchlist) {
+	var buffer = {};
+
+	for (var i=0; i<searchlist.length; i++) {
+		if (!searchlist[i][field]) {
+			continue;
+		}
+		for (var property in searchlist[i][field]) {
+			if (!searchlist[i][field][property][subfield]) {
+				continue;
+			}
+		   buffer[searchlist[i][field][property][subfield]] = 1;
 		}
 	}
+	var keys = Object.keys(buffer);
+	return keys.sort();
+}
 
-	fillReverseManuscripts();
 
-	// var works = filterLiteraryData(RIMEVERSELIST);
-	var works = filterLiteraryData(searchlist);
-	var count = works.length;
-	var countElement = document.querySelector("#work-count");
-	if (countElement) {
-		if (count == 1) {
-			countElement.innerHTML = count + " entry";
-		} else {
-			countElement.innerHTML = count + " entries";
+
+//////////////////////////////
+//
+// getSelectOptionsKey --
+//
+
+function getSelectOptionsKey(field, searchlist) {
+	var buffer = {};
+
+	for (var i=0; i<searchlist.length; i++) {
+		if (!searchlist[i][field]) {
+			continue;
+		}
+		for (var property in searchlist[i][field]) {
+		   buffer[property] = 1;
 		}
 	}
-	displayLiteraryBrowseEntries(works, gvalue);
+	var keys = Object.keys(buffer);
+	return keys.sort();
 }
 
 
@@ -237,235 +272,19 @@ function fillReverseManuscripts() {
 
 //////////////////////////////
 //
-// filterMusicData --
+// fillReversePrints --
 //
 
-function filterMusicData(entries) {
-	if (!entries) {
-		entries = RIMESETTINGLIST;
+function fillReversePrints() {
+	if (RPRINTS) {
+		return;
 	}
-	if (!entries) {
-		return [];
+	RPRINTS = {};
+	var mlist = TASSODATA.PRINTS.PRINT;
+	var i;
+	for (i=0; i<mlist.length; i++) {
+		RPRINTS[mlist[i].SPRINTNUM] = mlist[i];
 	}
-	if (!entries.length) {
-		return [];
-	}
-
-	output = entries;
-
-	var composerElement = document.querySelector("#browse-composer");
-	var composer = "";
-	if (composerElement) {
-		composer = composerElement.value;
-	}
-
-	var finalElement = document.querySelector("#browse-final");
-	var final = "";
-	if (finalElement) {
-		final = finalElement.value;
-	}
-
-	var mensurationElement = document.querySelector("#browse-mensuration");
-	var mensuration = "";
-	if (mensurationElement) {
-		mensuration = mensurationElement.value;
-	}
-
-	var keyElement = document.querySelector("#browse-key");
-	var key = "";
-	if (keyElement) {
-		key = keyElement.value;
-	}
-
-	var mdedicateeElement = document.querySelector("#browse-mdedicatee");
-	var mdedicatee = "";
-	if (mdedicateeElement) {
-		mdedicatee = mdedicateeElement.value;
-console.log("MDEDICATEEE IS", mdedicatee);
-	}
-
-	var titleElement = document.querySelector("#browse-title");
-	var title = "";
-	if (titleElement) {
-		title = titleElement.value;
-	}
-
-	var locationElement = document.querySelector("#browse-location");
-	var location = "";
-	if (locationElement) {
-		location = locationElement.value;
-	}
-
-	var yearElement = document.querySelector("#browse-year");
-	var year = "";
-	if (yearElement) {
-		year = yearElement.value;
-	}
-
-	var publisherElement = document.querySelector("#browse-publisher");
-	var publisher = "";
-	if (publisherElement) {
-		publisher = publisherElement.value;
-	}
-
-	var rismElement = document.querySelector("#browse-rism");
-	var rism = "";
-	if (rismElement) {
-		rism = rismElement.value;
-	}
-
-	var ovoicesElement = document.querySelector("#browse-ovoices");
-	var ovoices = "";
-	if (ovoicesElement) {
-		ovoices = ovoicesElement.value;
-	}
-	var evoicesElement = document.querySelector("#browse-evoices");
-	var evoices = "";
-	if (evoicesElement) {
-		evoices = evoicesElement.value;
-	}
-
-	if (composer) {
-		output = filterByField(output, "COMPOSER", composer);
-	}
-
-	if (final) {
-		output = filterByField(output, "FINAL", final);
-	}
-
-	if (mensuration) {
-		output = filterByField(output, "OMENSURATION", mensuration);
-	}
-
-	if (key) {
-		output = filterByField(output, "OKEYSIG", key);
-	}
-
-	if (mdedicatee) {
-console.log("OUTPUT", output);
-		output = filterBySubField(output, "SOURCE", "SRCDEDICATEESHORT", mdedicatee);
-	}
-
-	if (title) {
-		// change this to title? But there is the setting title as well.
-		output = filterByField(output, "RIMETITLE", title);
-	}
-	if (location) {
-		output = filterByField(output, "NORMLOC", location);
-	}
-	if (year) {
-		output = filterByField(output, "PRINCEPSYEAR", year);
-	}
-	if (publisher) {
-		output = filterByField(output, ["NORMPUBSHORT", "NORMPUB", "PRINCEPSPUB"], publisher);
-	}
-	if (rism) {
-		output = filterByField(output, "PRINCEPSRISM", rism);
-	}
-	if (ovoices) {
-		output = filterByField(output, "OVOICES", ovoices);
-	}
-	if (evoices) {
-		output = filterByField(output, "EXTANTVOICES", evoices);
-	}
-
-
-	return output;
-}
-
-
-
-//////////////////////////////
-//
-// filterLiteraryData --
-//
-
-function filterLiteraryData(entries) {
-	SOURCEHILIGHT = {};
-	if (!entries) {
-		entries = RIMEVERSELIST;
-	}
-	if (!entries) {
-		return [];
-	}
-	if (!entries.length) {
-		return [];
-	}
-
-	output = entries;
-
-	var titleElement = document.querySelector("#browse-title");
-	var title = "";
-	if (titleElement) {
-		title = titleElement.value;
-	}
-
-	var dedicateeElement = document.querySelector("#browse-dedicatee");
-	var dedicatee = "";
-	if (dedicateeElement) {
-		dedicatee = dedicateeElement.value;
-	}
-
-	var litgenreElement = document.querySelector("#browse-litgenre");
-	var litgenre = "";
-	if (litgenreElement) {
-		litgenre = litgenreElement.value;
-	}
-
-	var manuscriptElement = document.querySelector("#browse-manuscript");
-	var manuscript = "";
-	if (manuscriptElement) {
-		manuscript = manuscriptElement.value;
-	}
-
-	var printElement = document.querySelector("#browse-print");
-	var print = "";
-	if (printElement) {
-		print = printElement.value;
-	}
-
-	var publocationElement = document.querySelector("#browse-publocation");
-	var publocation = "";
-	if (publocationElement) {
-		publocation = publocationElement.value;
-	}
-
-	var manlocationElement = document.querySelector("#browse-manlocation");
-	var manlocation = "";
-	if (manlocationElement) {
-		manlocation = manlocationElement.value;
-		SOURCEHILIGHT["LOCATION"] = manlocation;
-	}
-
-	if (title) {
-		output = filterByField(output, "TITLE", title);
-	}
-
-	if (dedicatee) {
-		output = filterByField(output, "DEDICATEE", dedicatee);
-	}
-
-	if (litgenre) {
-		output = filterByField(output, "GENRE", litgenre);
-	}
-
-	if (manuscript) {
-		output = filterByField(output, "MANUSRC", manuscript);
-	}
-
-	if (print) {
-		output = filterByField(output, "PRINTSRC", print, true);
-	}
-
-	if (publocation) {
-		output = filterByField(output, "PUBLOCATION", publocation);
-	}
-
-	if (manlocation) {
-		output = filterByField(output, "MANLOCATION", manlocation);
-	}
-
-	return output;
 }
 
 
@@ -524,6 +343,8 @@ console.log("GOT HERE", entries);
 
 	return output;
 }
+
+
 
 //////////////////////////////
 //
@@ -764,36 +585,6 @@ function cleanRismText(rism) {
 
 //////////////////////////////
 //
-// displayLiteraryBrowseEntries --
-//
-
-function displayLiteraryBrowseEntries(entries, genre) {
-	var element = document.querySelector("#browse-results");
-	if (!element) {
-		return;
-	}
-
-	if (entries.length == 0) {
-		element.innerHTML = "No matches";
-		return;
-	}
-	var tsource = document.querySelector("#literary-browse-template").textContent;
-	var template = Handlebars.compile(tsource);
-	element.innerHTML = template(entries);
-	if (genre == "aminta") {
-		var table = document.querySelector("#browse-results table");
-		var rows = table.querySelectorAll("tr");
-		for (var i=0; i<rows.length; i++) {
-			// var tds = rows[i].
-// ggg
-		}
-	}
-}
-
-
-
-//////////////////////////////
-//
 // highlightSources --
 //
 
@@ -801,318 +592,6 @@ function highlightSources() {
 	var sources = document.querySelectorAll("td.sources");
 	console.log("HIGHLIGHTING SOURCES", sources);
 
-
-}
-
-
-
-//////////////////////////////
-//
-// setupMusicBrowseCallbacks --
-//
-
-function setupMusicBrowseCallbacks() {
-
-	var composerElement = document.querySelector("#browse-composer");
-	if (composerElement) {
-		composerElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var finalElement = document.querySelector("#browse-final");
-	if (finalElement) {
-		finalElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var mensurationElement = document.querySelector("#browse-mensuration");
-	if (mensurationElement) {
-		mensurationElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var keyElement = document.querySelector("#browse-key");
-	if (keyElement) {
-		keyElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var mdedicateeElement = document.querySelector("#browse-mdedicatee");
-	if (mdedicateeElement) {
-		mdedicateeElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var titleElement = document.querySelector("#browse-title");
-	if (titleElement) {
-		titleElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var locationElement = document.querySelector("#browse-location");
-	if (locationElement) {
-		locationElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var yearElement = document.querySelector("#browse-year");
-	if (yearElement) {
-		yearElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var publisherElement = document.querySelector("#browse-publisher");
-	if (publisherElement) {
-		publisherElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var rismElement = document.querySelector("#browse-rism");
-	if (rismElement) {
-		rismElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var ovoicesElement = document.querySelector("#browse-ovoices");
-	if (ovoicesElement) {
-		ovoicesElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var evoicesElement = document.querySelector("#browse-evoices");
-	if (evoicesElement) {
-		evoicesElement.addEventListener("input", function() { 
-			fillMusicBrowsePage();
-		});
-	}
-
-	var genreList = document.querySelector("select.genre");
-	if (genreList) {
-		genreList.addEventListener("change", function () {
-			fillMusicBrowsePage();
-		});
-	}
-
-}
-
-
-
-//////////////////////////////
-//
-// setupLiteraryBrowseCallbacks --
-//
-
-function setupLiteraryBrowseCallbacks() {
-
-	var titleElement = document.querySelector("#browse-title");
-	if (titleElement) {
-		titleElement.addEventListener("input", function() { 
-			fillLiteraryBrowsePage();
-		});
-	}
-
-	var dedicateeElement = document.querySelector("#browse-dedicatee");
-	if (dedicateeElement) {
-		dedicateeElement.addEventListener("input", function() { 
-			fillLiteraryBrowsePage();
-		});
-	}
-
-	var litgenreElement = document.querySelector("#browse-litgenre");
-	if (litgenreElement) {
-		litgenreElement.addEventListener("input", function() { 
-			fillLiteraryBrowsePage();
-		});
-	}
-
-	var manuscriptElement = document.querySelector("#browse-manuscript");
-	if (manuscriptElement) {
-		manuscriptElement.addEventListener("input", function() { 
-			fillLiteraryBrowsePage();
-		});
-	}
-
-	var printElement = document.querySelector("#browse-print");
-	if (printElement) {
-		printElement.addEventListener("input", function() { 
-			fillLiteraryBrowsePage();
-		});
-	}
-
-	var genreList = document.querySelector("select.genre");
-	if (genreList) {
-		genreList.addEventListener("change", function () {
-			fillLiteraryBrowsePage();
-		});
-	}
-
-	var publocationElement = document.querySelector("#browse-publocation");
-	if (publocationElement) {
-		publocationElement.addEventListener("input", function() { 
-			fillLiteraryBrowsePage();
-		});
-	}
-
-	var manlocationElement = document.querySelector("#browse-manlocation");
-	if (manlocationElement) {
-		manlocationElement.addEventListener("input", function() { 
-			fillLiteraryBrowsePage();
-		});
-	}
-
-}
-
-
-//////////////////////////////
-//
-// sortByText --
-//
-
-function sortByText(index, selector) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
-	for (i=0; i<data.length; i++) {
-		datalist.push(data[i]);
-	}
-	datalist.sort(function(a, b) {
-		var A;
-		var B;
-		if (selector) {
-			A = a.cells[index].querySelector(selector).innerHTML;
-			B = b.cells[index].querySelector(selector).innerHTML;
-		} else {
-			A = a.cells[index].textContent;
-			B = b.cells[index].textContent;
-		}
-		if (A.match(/^\s*$/)) {
-			return +1;
-		}
-		if (B.match(/^\s*$/)) {
-			return -1;
-		}
-		var result = A.localeCompare(B);
-		return result;
-	});
-
-	var body = document.querySelector("table.music-browse-list tbody");
-	if (body === null) {
-		body = document.querySelector("table.literary-browse-list tbody");
-	}
-	body.innerHTML = "";
-	for (i=0; i<datalist.length; i++) {
-		body.appendChild(datalist[i]);
-	}
-}
-
-
-
-//////////////////////////////
-//
-// sortByVoice -- Currently the same as sortByText, but may change in the future.
-//
-
-function sortByVoice(index, selector) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
-	for (i=0; i<data.length; i++) {
-		datalist.push(data[i]);
-	}
-	datalist.sort(function(a, b) {
-		var A;
-		var B;
-		if (selector) {
-			A = a.cells[index].querySelector(selector).innerHTML;
-			B = b.cells[index].querySelector(selector).innerHTML;
-		} else {
-			A = a.cells[index].textContent;
-			B = b.cells[index].textContent;
-		}
-		if (A.match(/^\s*$/)) {
-			return +1;
-		}
-		if (B.match(/^\s*$/)) {
-			return -1;
-		}
-		var result = A.localeCompare(B);
-		return result;
-	});
-
-	var body = document.querySelector("table.music-browse-list tbody");
-	if (body === null) {
-		body = document.querySelector("table.literary-browse-list tbody");
-	}
-	body.innerHTML = "";
-	for (i=0; i<datalist.length; i++) {
-		body.appendChild(datalist[i]);
-	}
-}
-
-
-
-//////////////////////////////
-//
-// sortByYear --
-//
-
-function sortByYear(index, selector) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
-	for (i=0; i<data.length; i++) {
-		datalist.push(data[i]);
-	}
-	datalist.sort(function(a, b) {
-		var A;
-		var B;
-		if (selector) {
-			A = a.cells[index].querySelector(selector).innerHTML;
-			B = b.cells[index].querySelector(selector).innerHTML;
-		} else {
-			A = a.cells[index].textContent;
-			B = b.cells[index].textContent;
-		}
-		var matches;
-		if (matches = A.match(/(\d{4})/)) {
-			A = matches[1];
-		} else {
-			A = "";
-		}
-		if (matches = B.match(/(\d{4})/)) {
-			B = matches[1];
-		} else {
-			B = "";
-		}
-		if (A.match(/^\s*$/)) {
-			return +1;
-		}
-		if (B.match(/^\s*$/)) {
-			return -1;
-		}
-		var result = A.localeCompare(B);
-		return result;
-	});
-
-	var body = document.querySelector("table.music-browse-list tbody");
-	if (body === null) {
-		body = document.querySelector("table.literary-browse-list tbody");
-	}
-	body.innerHTML = "";
-	for (i=0; i<datalist.length; i++) {
-		body.appendChild(datalist[i]);
-	}
 }
 
 

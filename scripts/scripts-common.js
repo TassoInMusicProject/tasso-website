@@ -1462,13 +1462,14 @@ function PrepareGlobalTassoObjects() {
 	InsertSourcesIntoSettings();
 	InsertComposersIntoSettings();
 	InsertManuscriptLocationsIntoVerseList();
+	InsertPrintLocationsIntoVerseList();
 }
 
 
 
 //////////////////////////////
 //
-// insertManuscriptLocationsIntoVerseList --
+// InsertManuscriptLocationsIntoVerseList --
 //
 
 function InsertManuscriptLocationsIntoVerseList() {
@@ -1505,10 +1506,58 @@ function InsertManuscriptLocationsIntoVerseList() {
 				verselist[i].MANUSCRIPTS[list[j]] = item;
 				manlocation += " " + item.LOCATION;
 			} else {
-				console.log("CANNOT FIND MANSUCRIPT INFO FOR", list[j]);
+				// console.log("CANNOT FIND MANSUCRIPT INFO FOR", list[j]);
 			}
 		}
 		verselist[i].MANLOCATION = manlocation;
+	}
+}
+
+
+
+//////////////////////////////
+//
+// InsertPrintLocationsIntoVerseList --
+//
+
+function InsertPrintLocationsIntoVerseList() {
+	var verselist = ALLVERSELIST;
+	var printloc = LITPRINT;
+	var rprint = {};
+	var i;
+	var j;
+	var list;
+	var printlocation;
+	for (i=0; i<printloc.length; i++) {
+		var key = printloc[i].SPRINTNUM;
+		if (key.match(/^\s*$/)) {
+			continue;
+		}
+		rprint[key] = printloc[i];
+	}
+	for (i=0; i<verselist.length; i++) {
+		if (verselist[i].PRINTS) {
+			continue;
+		}
+		verselist[i].PRINTS = {};
+		if (!verselist[i].PRINTSRC) {
+			continue;
+		}
+		list = verselist[i].PRINTSRC.split(/\s*,\s/);
+		if (!list) {
+			continue;
+		}
+		printlocation = "";
+		for (j=0; j<list.length; j++) {
+			var item = rprint[list[j]];
+			if (item) {
+				verselist[i].PRINTS[list[j]] = item;
+				printlocation += " " + item.PUBLOCATION;
+			} else {
+				// console.log("CANNOT FIND PRINT INFO FOR", list[j]);
+			}
+		}
+		verselist[i].PRINTLOCATION = printlocation;
 	}
 }
 

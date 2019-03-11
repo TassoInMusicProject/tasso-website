@@ -1,0 +1,300 @@
+//
+// Music-tab related functions.
+//
+// vim: ts=3
+
+//////////////////////////////
+//
+// fillMusicBrowsePage --
+//
+
+function fillMusicBrowsePage() {
+	var music = document.querySelector("#music-heading");
+	if (!music) {
+		return;
+	}
+	if (!music.className.match(/active/)) {
+		return;
+	}
+
+	var repertorylist = document.querySelector("select.genre");
+
+	var searchlist = TASSODATA.SETTINGS.RIME_SETTINGS;
+	if (repertorylist) {
+		var gvalue = repertorylist[repertorylist.selectedIndex].value;
+		if (gvalue.match(/aminta/i)) {
+			searchlist = TASSODATA.SETTINGS.AMINTA_SETTINGS.SETTING;
+		} else if (gvalue.match(/gerusalemme/i)) {
+			searchlist = TASSODATA.SETTINGS.GERUSALEMME_SETTINGS.SETTING;
+		} else if (gvalue.match(/^rime/i)) {
+			searchlist = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
+		} else if (gvalue.match(/^ecloghe/i)) {
+			searchlist = ECLOGHESETTINGLIST;
+		} else if (gvalue.match(/^rinaldo/i)) {
+			searchlist = RINALDOSETTINGLIST;
+		} else if (gvalue.match(/lagrime/i)) {
+			searchlist = LAGRIMESETTINGLIST;
+		} else if (gvalue.match(/torrismondo/i)) {
+			searchlist = TORRISMONDOSETTINGLIST;
+		} else if (gvalue.match(/conquistata/i)) {
+			searchlist = CONQUISTATASETTINGLIST;
+		} else if (gvalue.match(/^all/i)) {
+			searchlist = ALLSETTINGLIST;
+		} else {
+			console.log("GENRE IS NOT YET DEALT WITH", gvalue);
+		}
+	}
+
+	var works = filterMusicData(searchlist);
+	var count = works.length;
+	var countElement = document.querySelector("#work-count");
+	if (countElement) {
+		if (count == 1) {
+			countElement.innerHTML = count + " entry";
+		} else {
+			countElement.innerHTML = count + " entries";
+		}
+	}
+	displayMusicBrowseEntries(works);
+}
+
+
+
+//////////////////////////////
+//
+// filterMusicData --
+//
+
+function filterMusicData(entries) {
+	if (!entries) {
+		entries = RIMESETTINGLIST;
+	}
+	if (!entries) {
+		return [];
+	}
+	if (!entries.length) {
+		return [];
+	}
+
+	output = entries;
+
+	var composerElement = document.querySelector("#browse-composer");
+	var composer = "";
+	if (composerElement) {
+		composer = composerElement.value;
+	}
+
+	var finalElement = document.querySelector("#browse-final");
+	var final = "";
+	if (finalElement) {
+		final = finalElement.value;
+	}
+
+	var mensurationElement = document.querySelector("#browse-mensuration");
+	var mensuration = "";
+	if (mensurationElement) {
+		mensuration = mensurationElement.value;
+	}
+
+	var keyElement = document.querySelector("#browse-key");
+	var key = "";
+	if (keyElement) {
+		key = keyElement.value;
+	}
+
+	var mdedicateeElement = document.querySelector("#browse-mdedicatee");
+	var mdedicatee = "";
+	if (mdedicateeElement) {
+		mdedicatee = mdedicateeElement.value;
+	}
+
+	var titleElement = document.querySelector("#browse-title");
+	var title = "";
+	if (titleElement) {
+		title = titleElement.value;
+	}
+
+	var locationElement = document.querySelector("#browse-location");
+	var location = "";
+	if (locationElement) {
+		location = locationElement.value;
+	}
+
+	var yearElement = document.querySelector("#browse-year");
+	var year = "";
+	if (yearElement) {
+		year = yearElement.value;
+	}
+
+	var publisherElement = document.querySelector("#browse-publisher");
+	var publisher = "";
+	if (publisherElement) {
+		publisher = publisherElement.value;
+	}
+
+	var rismElement = document.querySelector("#browse-rism");
+	var rism = "";
+	if (rismElement) {
+		rism = rismElement.value;
+	}
+
+	var ovoicesElement = document.querySelector("#browse-ovoices");
+	var ovoices = "";
+	if (ovoicesElement) {
+		ovoices = ovoicesElement.value;
+	}
+	var evoicesElement = document.querySelector("#browse-evoices");
+	var evoices = "";
+	if (evoicesElement) {
+		evoices = evoicesElement.value;
+	}
+
+	if (composer) {
+		output = filterByField(output, "COMPOSER", composer);
+	}
+
+	if (final) {
+		output = filterByField(output, "FINAL", final);
+	}
+
+	if (mensuration) {
+		output = filterByField(output, "OMENSURATION", mensuration);
+	}
+
+	if (key) {
+		output = filterByField(output, "OKEYSIG", key);
+	}
+
+	if (mdedicatee) {
+console.log("OUTPUT", output);
+		output = filterBySubField(output, "SOURCE", "SRCDEDICATEESHORT", mdedicatee);
+	}
+
+	if (title) {
+		// change this to title? But there is the setting title as well.
+		output = filterByField(output, "RIMETITLE", title);
+	}
+	if (location) {
+		output = filterByField(output, "NORMLOC", location);
+	}
+	if (year) {
+		output = filterByField(output, "PRINCEPSYEAR", year);
+	}
+	if (publisher) {
+		output = filterByField(output, ["NORMPUBSHORT", "NORMPUB", "PRINCEPSPUB"], publisher);
+	}
+	if (rism) {
+		output = filterByField(output, "PRINCEPSRISM", rism);
+	}
+	if (ovoices) {
+		output = filterByField(output, "OVOICES", ovoices);
+	}
+	if (evoices) {
+		output = filterByField(output, "EXTANTVOICES", evoices);
+	}
+
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// setupMusicBrowseCallbacks --
+//
+
+function setupMusicBrowseCallbacks() {
+
+	var composerElement = document.querySelector("#browse-composer");
+	if (composerElement) {
+		composerElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var finalElement = document.querySelector("#browse-final");
+	if (finalElement) {
+		finalElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var mensurationElement = document.querySelector("#browse-mensuration");
+	if (mensurationElement) {
+		mensurationElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var keyElement = document.querySelector("#browse-key");
+	if (keyElement) {
+		keyElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var mdedicateeElement = document.querySelector("#browse-mdedicatee");
+	if (mdedicateeElement) {
+		mdedicateeElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var titleElement = document.querySelector("#browse-title");
+	if (titleElement) {
+		titleElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var locationElement = document.querySelector("#browse-location");
+	if (locationElement) {
+		locationElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var yearElement = document.querySelector("#browse-year");
+	if (yearElement) {
+		yearElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var publisherElement = document.querySelector("#browse-publisher");
+	if (publisherElement) {
+		publisherElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var rismElement = document.querySelector("#browse-rism");
+	if (rismElement) {
+		rismElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var ovoicesElement = document.querySelector("#browse-ovoices");
+	if (ovoicesElement) {
+		ovoicesElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var evoicesElement = document.querySelector("#browse-evoices");
+	if (evoicesElement) {
+		evoicesElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var genreList = document.querySelector("select.genre");
+	if (genreList) {
+		genreList.addEventListener("change", function () {
+			fillMusicBrowsePage();
+		});
+	}
+
+}

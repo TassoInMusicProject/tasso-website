@@ -1,0 +1,477 @@
+//
+// Functions related to the Literary Browsing tab.
+//
+// vim: ts=3
+
+
+
+//////////////////////////////
+//
+// displayLiteraryBrowseEntries --
+//
+
+function displayLiteraryBrowseEntries(entries, genre) {
+	var element = document.querySelector("#browse-results");
+	if (!element) {
+		return;
+	}
+
+	if (entries.length == 0) {
+		element.innerHTML = "No matches";
+		return;
+	}
+	var tsource = document.querySelector("#literary-browse-template").textContent;
+	var template = Handlebars.compile(tsource);
+	element.innerHTML = template(entries);
+	if (genre == "aminta") {
+		var table = document.querySelector("#browse-results table");
+		var rows = table.querySelectorAll("tr");
+		for (var i=0; i<rows.length; i++) {
+			// var tds = rows[i].
+// ggg
+		}
+	}
+}
+
+
+//////////////////////////////
+//
+// fillLiteraryBrowsePage -- Select the list of poems to search based on the selected
+//    repertory (rime, aminta, gerusalemme, etc.).
+//
+
+function fillLiteraryBrowsePage(options) {
+	var event = arguments[0];
+
+	var literary = document.querySelector("#text-heading");
+	if (!literary) {
+		return;
+	}
+	if (!literary.className.match(/active/)) {
+		return;
+	}
+
+	var repertorylist = document.querySelector("select.genre");
+	var searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+	var gvalue = "";
+
+	var gvalue = "";
+	if (repertorylist) {
+		var gvalue = repertorylist[repertorylist.selectedIndex].value;
+		if (gvalue.match(/aminta/i)) {
+			searchlist = TASSODATA.VERSES.AMINTA_VERSES.VERSEDATA;
+		} else if (gvalue.match(/gerusalemme/i)) {
+			searchlist = TASSODATA.VERSES.GERUSALEMME_VERSES.VERSEDATA;
+		} else if (gvalue.match(/ecloghe/i)) {
+			searchlist = TASSODATA.VERSES.ECLOGHE_VERSES.VERSEDATA;
+		} else if (gvalue.match(/rinaldo/i)) {
+			searchlist = TASSODATA.VERSES.RINALDO_VERSES.VERSEDATA;
+		} else if (gvalue.match(/lagrime/i)) {
+			searchlist = TASSODATA.VERSES.LAGRIME_VERSES.VERSEDATA;
+		} else if (gvalue.match(/torrismondo/i)) {
+			searchlist = TASSODATA.VERSES.TORRISMONDO_VERSES.VERSEDATA;
+		} else if (gvalue.match(/conquistata/i)) {
+			searchlist = TASSODATA.VERSES.CONQUISTATA_VERSES.VERSEDATA;
+		} else if (gvalue.match(/^rime/i)) {
+			searchlist = TASSODATA.VERSES.RIME_VERSES.VERSEDATA;
+		} else {
+			console.log("GENRE IS NOT YET DEALT WITH", gvalue);
+		}
+	}
+
+	if (options && options.fillOptions === true) {
+			fillLiteraryOptions(gvalue, searchlist);
+	}
+
+	fillReverseManuscripts();
+	fillReversePrints();
+
+	// var works = filterLiteraryData(RIMEVERSELIST);
+	var works = filterLiteraryData(searchlist);
+	var count = works.length;
+	var countElement = document.querySelector("#work-count");
+	if (countElement) {
+		if (count == 1) {
+			countElement.innerHTML = count + " entry";
+		} else {
+			countElement.innerHTML = count + " entries";
+		}
+	}
+	displayLiteraryBrowseEntries(works, gvalue);
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryOptions -- Fill in the select menus with contextual information
+//     based on the poetic repertory being selected (rime, aminta, gerusalemme, etc).
+//
+
+function fillLiteraryOptions(gvalue, searchlist) {
+console.log("FILLING OPTIONS FOR", gvalue, "SEARCHLIST = ", searchlist);
+	fillSelectOptions("GENRE", searchlist);
+	fillSelectOptions2("MANUSCRIPTS", "LOCATION", searchlist);
+	fillSelectOptions2("PRINTS", "PUBLOCATION", searchlist);
+	fillSelectOptionsKeys("MANUSCRIPTS", searchlist);
+	fillSelectOptions("DEDICATEE", searchlist);
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryDedicateeSelect --
+//
+
+function fillLiteraryDedicateeSelect(options) {
+	var select = document.querySelector("select#browse-dedicatee");
+	if (!select) {
+		console.log("ERROR: no literary dedicatee select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var optionlist = '<option value="">any poem dedicatee</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryManuscriptLocationSelect --
+//
+
+function fillLiteraryManuscriptLocationSelect(options) {
+	var select = document.querySelector("select#browse-manlocation");
+	if (!select) {
+		console.log("ERROR: no literary manuscript location select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var newopts = {};
+	for (var i=0; i<options.length; i++) {
+		var text = options[i].replace(/[^,]*, ?/, "");
+		if (text.match(/,/)) {
+			text = text.replace(/,.*/, "");
+		}
+		newopts[text] = 1;
+	}
+	options = Object.keys(newopts).sort();
+	var optionlist = '<option value="">any man. location</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryPrintLocationSelect --
+//
+
+function fillLiteraryPrintLocationSelect(options) {
+console.log("FILLING LITERARY PRINT LOCATION ");
+	var select = document.querySelector("select#browse-publocation");
+	if (!select) {
+		console.log("ERROR: no literary print location select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var newopts = {};
+	for (var i=0; i<options.length; i++) {
+		var text = options[i].replace(/[^,]*, ?/, "");
+		if (text.match(/,/)) {
+			text = text.replace(/,.*/, "");
+		}
+		newopts[text] = 1;
+	}
+	options = Object.keys(newopts).sort();
+	var optionlist = '<option value="">any pub. location</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innserHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryGenreSelect --
+//
+
+function fillLiteraryGenreSelect(options) {
+	var select = document.querySelector("select#browse-litgenre");
+	if (!select) {
+		console.log("ERROR: no literary genre select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var optionlist = '<option value="">literary genre</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	remappings["canzone"] = "\\bcanzone\\b";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryManuscriptsSelect --
+//
+
+function fillLiteraryManuscriptsSelect(options) {
+	var select = document.querySelector("select#browse-manuscript");
+	if (!select) {
+		console.log("ERROR: no manuscript select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var optionlist = '<option value="">any manuscript</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryPrintSelect --
+//
+
+function fillLiteraryPrintSelect(options) {
+console.log("FILLING PRINT", options);
+	var select = document.querySelector("select#browse-print");
+	if (!select) {
+		console.log("ERROR: no print select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	if (options.length == 0) {
+		select.style.display = "none";
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	var optionlist = '<option value="">any print</option>';
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+
+//////////////////////////////
+//
+// filterLiteraryData --
+//
+
+function filterLiteraryData(entries) {
+	SOURCEHILIGHT = {};
+	if (!entries) {
+		entries = RIMEVERSELIST;
+	}
+	if (!entries) {
+		return [];
+	}
+	if (!entries.length) {
+		return [];
+	}
+
+	output = entries;
+
+	var titleElement = document.querySelector("#browse-title");
+	var title = "";
+	if (titleElement) {
+		title = titleElement.value;
+	}
+
+	var dedicateeElement = document.querySelector("#browse-dedicatee");
+	var dedicatee = "";
+	if (dedicateeElement) {
+		dedicatee = dedicateeElement.value;
+	}
+
+	var litgenreElement = document.querySelector("#browse-litgenre");
+	var litgenre = "";
+	if (litgenreElement) {
+		litgenre = litgenreElement.value;
+	}
+
+	var manuscriptElement = document.querySelector("#browse-manuscript");
+	var manuscript = "";
+	if (manuscriptElement) {
+		manuscript = manuscriptElement.value;
+		SOURCEHILIGHT["MANUSCRIPT"] = manuscript;
+	}
+
+	var printElement = document.querySelector("#browse-print");
+	var print = "";
+	if (printElement) {
+		print = printElement.value;
+		SOURCEHILIGHT["PRINT"] = print;
+	}
+
+	var publocationElement = document.querySelector("#browse-publocation");
+	var publocation = "";
+	if (publocationElement) {
+		publocation = publocationElement.value;
+		SOURCEHILIGHT["PUBLOCATION"] = publocation;
+	}
+
+	var manlocationElement = document.querySelector("#browse-manlocation");
+	var manlocation = "";
+	if (manlocationElement) {
+		manlocation = manlocationElement.value;
+		SOURCEHILIGHT["LOCATION"] = manlocation;
+	}
+
+	if (title) {
+		output = filterByField(output, "TITLE", title);
+	}
+
+	if (dedicatee) {
+		output = filterByField(output, "DEDICATEE", dedicatee);
+	}
+
+	if (litgenre) {
+		output = filterByField(output, "GENRE", litgenre);
+	}
+
+	if (manuscript) {
+		output = filterByField(output, "MANUSRC", manuscript);
+	}
+
+	if (print) {
+		output = filterByField(output, "PRINTSRC", print, true);
+	}
+
+	if (publocation) {
+		output = filterByField(output, "PRINTLOCATION", publocation);
+	}
+
+	if (manlocation) {
+		output = filterByField(output, "MANLOCATION", manlocation);
+	}
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// setupLiteraryBrowseCallbacks --
+//
+
+function setupLiteraryBrowseCallbacks() {
+
+	var titleElement = document.querySelector("#browse-title");
+	if (titleElement) {
+		titleElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var dedicateeElement = document.querySelector("#browse-dedicatee");
+	if (dedicateeElement) {
+		dedicateeElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var litgenreElement = document.querySelector("#browse-litgenre");
+	if (litgenreElement) {
+		litgenreElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var manuscriptElement = document.querySelector("#browse-manuscript");
+	if (manuscriptElement) {
+		manuscriptElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var printElement = document.querySelector("#browse-print");
+	if (printElement) {
+		printElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var genreList = document.querySelector("select.genre");
+	if (genreList) {
+		genreList.addEventListener("change", function () {
+			fillLiteraryBrowsePage({fillOptions: true});
+		});
+	}
+
+	var publocationElement = document.querySelector("#browse-publocation");
+	if (publocationElement) {
+		publocationElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+	var manlocationElement = document.querySelector("#browse-manlocation");
+	if (manlocationElement) {
+		manlocationElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
+}

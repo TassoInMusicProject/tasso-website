@@ -17,8 +17,8 @@ layout: simple
 
 <select class="genre select">
 	<option value="rime">Rime</option>
-	<option value="aminta">Aminta</option>
 	<option value="gerusalemme">Gerusalemme</option>
+	<option value="aminta">Aminta</option>
 	<option value="ecloghe">Ecloghe</option>
 	<option value="rinaldo">Rinaldo</option>
 	<option value="lagrime">Lagrime</option>

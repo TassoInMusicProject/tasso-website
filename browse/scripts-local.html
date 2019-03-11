@@ -117,8 +117,6 @@ function fillSelectOptions2(field, subfield, searchlist) {
 	if (field == "PRINTS" && subfield === "PUBLOCATION") {
 		fillLiteraryPrintLocationSelect(options);
 	}
-//function fillLiteraryPrintSelect(options) {
-//ggg
 }
 
 
@@ -133,6 +131,9 @@ function fillSelectOptionsKeys(field, searchlist) {
 
 	if (field == "MANUSCRIPTS") {
 		fillLiteraryManuscriptsSelect(options);
+	}
+	if (field == "PRINTS") {
+		fillLiteraryPrintsSelect(options);
 	}
 
 }
@@ -199,6 +200,9 @@ function getSelectOptions(field, searchlist) {
 		buffer[value] = 1;
 	}
 	var keys = Object.keys(buffer);
+	if (keys.length == 1) {
+		return [];
+	} 
 	return keys.sort();
 }
 

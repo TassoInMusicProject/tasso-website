@@ -4,6 +4,37 @@
 // vim: ts=3
 
 
+//////////////////////////////
+//
+// displayTextPolicies -- Show text editorial policy target element.
+//
+
+function displayTextPolicies(target) {
+	PrepareGlobalTassoObjects();
+	prepareRsources();
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Text Policy content on page.");
+		return;
+	}
+	showTab("text-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+			setupLiteraryBrowseCallbacks();
+			insertCgiSearchParameters();
+			fillLiteraryBrowsePage({fillOptions: true});
+		}
+	};
+	request.open("GET", "text.html", true);
+	request.send();
+}
+
+
 
 //////////////////////////////
 //
@@ -110,12 +141,12 @@ function fillLiteraryBrowsePage(options) {
 
 function fillLiteraryOptions(gvalue, searchlist) {
 console.log("FILLING OPTIONS FOR", gvalue, "SEARCHLIST = ", searchlist);
-	fillSelectOptions("GENRE", searchlist);
-	fillSelectOptions2("MANUSCRIPTS", "LOCATION", searchlist);
-	fillSelectOptions2("PRINTS", "PUBLOCATION", searchlist);
-	fillSelectOptionsKeys("MANUSCRIPTS", searchlist);
-	fillSelectOptionsKeys("PRINTS", searchlist);
-	fillSelectOptions("DEDICATEE", searchlist);
+	fillLiterarySelectOptions("GENRE", searchlist);
+	fillLiterarySelectOptions2("MANUSCRIPTS", "LOCATION", searchlist);
+	fillLiterarySelectOptions2("PRINTS", "PUBLOCATION", searchlist);
+	fillLiterarySelectOptionsKeys("MANUSCRIPTS", searchlist);
+	fillLiterarySelectOptionsKeys("PRINTS", searchlist);
+	fillLiterarySelectOptions("DEDICATEE", searchlist);
 }
 
 
@@ -497,4 +528,58 @@ function setupLiteraryBrowseCallbacks() {
 		});
 	}
 
+}
+
+
+//////////////////////////////
+//
+// fillLiterarySelectOptions2 --
+//
+
+function fillLiterarySelectOptions2(field, subfield, searchlist) {
+	var options = getSelectOptions2(field, subfield, searchlist);
+
+	if (field == "MANUSCRIPTS" && subfield === "LOCATION") {
+		fillLiteraryManuscriptLocationSelect(options);
+	}
+	if (field == "PRINTS" && subfield === "PUBLOCATION") {
+		fillLiteraryPrintLocationSelect(options);
+	}
+}
+
+
+
+/////////////////////////////
+//
+// fillLiterarySelectOptionsKeys --
+//
+
+function fillLiterarySelectOptionsKeys(field, searchlist) {
+	var options = getSelectOptionsKey(field, searchlist);
+
+	if (field == "MANUSCRIPTS") {
+		fillLiteraryManuscriptsSelect(options);
+	}
+	if (field == "PRINTS") {
+		fillLiteraryPrintsSelect(options);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// fillLiterarySelectOptions --
+//
+
+function fillLiterarySelectOptions(field, searchlist) {
+console.log("FILLSELECTOPTIONS ", field);
+	var options = getSelectOptions(field, searchlist);
+
+	if (field == "GENRE") {
+		fillLiteraryGenreSelect(options);
+	}
+	if (field == "DEDICATEE") {
+		fillLiteraryDedicateeSelect(options);
+	}
 }

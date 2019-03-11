@@ -3,12 +3,68 @@
 //
 // vim: ts=3
 
+
+
+//////////////////////////////
+//
+// displayMusicBrowseEntries --
+//
+
+function displayMusicBrowseEntries(entries) {
+	var element = document.querySelector("#browse-results");
+	if (!element) {
+		return;
+	}
+
+	if (entries.length == 0) {
+		element.innerHTML = "No matches";
+		return;
+	}
+	var tsource = document.querySelector("#music-browse-template").textContent;
+	var template = Handlebars.compile(tsource);
+	element.innerHTML = template(entries);
+}
+
+
+
+//////////////////////////////
+//
+// displayMusicPolicies -- Show music editorial policy target element.
+//
+
+function displayMusicPolicies(target) {
+	PrepareGlobalTassoObjects();
+	prepareRsources();
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Music Policy content on page.");
+		return;
+	}
+	showTab("music-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+			setupMusicBrowseCallbacks();
+			insertCgiSearchParameters();
+			fillMusicBrowsePage({fillOptions: true});
+		}
+	};
+	request.open("GET", "music.html", true);
+	request.send();
+}
+
+
+
 //////////////////////////////
 //
 // fillMusicBrowsePage --
 //
 
-function fillMusicBrowsePage() {
+function fillMusicBrowsePage(options) {
 	var music = document.querySelector("#music-heading");
 	if (!music) {
 		return;
@@ -45,6 +101,10 @@ function fillMusicBrowsePage() {
 		}
 	}
 
+	if (options && options.fillOptions === true) {
+			fillMusicOptions(gvalue, searchlist);
+	}
+
 	var works = filterMusicData(searchlist);
 	var count = works.length;
 	var countElement = document.querySelector("#work-count");
@@ -56,6 +116,27 @@ function fillMusicBrowsePage() {
 		}
 	}
 	displayMusicBrowseEntries(works);
+}
+
+
+
+//////////////////////////////
+//
+// fillMusicOptions -- Fill in the select menus with contextual information
+//     based on the poetic repertory being selected (rime, aminta, gerusalemme, etc).
+//
+
+function fillMusicOptions(gvalue, searchlist) {
+	// fillSelectOptions2("MANUSCRIPTS", "LOCATION", searchlist);
+	// fillSelectOptions2("PRINTS", "PUBLOCATION", searchlist);
+	// fillSelectOptionsKeys("MANUSCRIPTS", searchlist);
+	// fillSelectOptionsKeys("PRINTS", searchlist);
+
+	fillMusicSelectOptions("GENRE", searchlist);
+	fillMusicSelectOptions("NORMPUBSHORT", searchlist);
+	fillMusicSelectOptions("NORMLOC", searchlist);
+	// fillMusicSelectOptions("MDEDICATEE", searchlist);
+	// fillMusicSelectOptions("LOCATION", searchlist);
 }
 
 
@@ -166,7 +247,6 @@ function filterMusicData(entries) {
 	}
 
 	if (mdedicatee) {
-console.log("OUTPUT", output);
 		output = filterBySubField(output, "SOURCE", "SRCDEDICATEESHORT", mdedicatee);
 	}
 
@@ -293,8 +373,127 @@ function setupMusicBrowseCallbacks() {
 	var genreList = document.querySelector("select.genre");
 	if (genreList) {
 		genreList.addEventListener("change", function () {
-			fillMusicBrowsePage();
+			fillMusicBrowsePage({fillOptions:true});
 		});
 	}
 
 }
+
+
+
+//////////////////////////////
+//
+// fillMusicSelectOptions --
+//
+
+function fillMusicSelectOptions(field, searchlist) {
+	var options = getSelectOptions(field, searchlist);
+
+	if (field == "NORMPUBSHORT") {
+		fillMusicPublisherSelect(options);
+	}
+	if (field == "NORMLOC") {
+		fillMusicPublisherLocationSelect(options);
+	}
+	//if (field == "MDEDICATEE") {
+	//	fillMusicDedicateeSelect(options);
+	//}
+}
+
+
+
+//////////////////////////////
+//
+// fillMusicPublisherLocationSelect --
+//
+
+function fillMusicPublisherLocationSelect(options) {
+	var select = document.querySelector("select#browse-location");
+	if (!select) {
+		console.log("ERROR: no music publisher select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+
+	var newlist = [];
+	for (var i=0; i<options.length; i++) {
+		newlist.push(options[i].replace(/: Biblioteca Estense Universitaria\s*/, ""));
+	}
+	options = newlist;
+
+	var optionlist = '<option value="">any location</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillMusicPublisherSelect --
+//
+
+function fillMusicPublisherSelect(options) {
+	var select = document.querySelector("select#browse-publisher");
+	if (!select) {
+		console.log("ERROR: no music publisher select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var optionlist = '<option value="">any publisher</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillMusicDedicateeSelect --
+//
+
+function fillMusicDedicateeSelect(options) {
+	var select = document.querySelector("select#browse-mdedicatee");
+	if (!select) {
+		console.log("ERROR: no music dedicatee select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var optionlist = '<option value="">any music dedicatee</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+

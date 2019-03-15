@@ -342,6 +342,15 @@
 @@END:		PRINT
 
 @@BEGIN:	PRINT
+@SPRINTNUM:	50a)
+@PRINTTITLE:	Le piacevoli rime di Cesare Caporali, Perugino. Con una aggiunta di molte altre rime, fatte da diversi eccellentissimi et belli ingegni.
+@PUBLISHER:	Giorgio Angelieri
+@PUBLOCATION:	Venice
+@PUBYEAR:	1589
+@URL:		
+@@END:		PRINT
+
+@@BEGIN:	PRINT
 @SPRINTNUM:	54
 @PRINTTITLE:	Il rimanente delle rime nuove del Sig. Torquato Tasso
 @PUBLISHER:	Vittorio Baldini
@@ -545,11 +554,29 @@
 @@END:		PRINT
 
 @@BEGIN:	PRINT
+@SPRINTNUM:	164
+@PRINTTITLE:	Lettere familiari del Signor Torquato Tasso non pi&ugrave; stampate
+@PUBLISHER:	Tobia Leopoldi
+@PUBLOCATION:	Prague
+@PUBYEAR:	1617
+@URL:		
+@@END:		PRINT
+
+@@BEGIN:	PRINT
 @SPRINTNUM:	166
 @PRINTTITLE:	Rime del Signor Torquato Tasso, divise in sei parti
 @PUBLISHER:	Giovanni Battista Bidelli
 @PUBLOCATION:	Milan
 @PUBYEAR:	1619
+@@END:		PRINT
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	167
+@PRINTTITLE:	I nomi di donne per bellezza, e per valor' eccellenti da Peregrini Spiriti, con poetica lira raccolti
+@PUBLISHER:	Bortolamio Merlo
+@PUBLOCATION:	Verona
+@PUBYEAR:	1621
+@URL:		
 @@END:		PRINT
 
 @@BEGIN:	PRINT

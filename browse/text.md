@@ -32,6 +32,7 @@ layout: simple
 <input style="width:200px;" placeholder="Title" id="browse-title" value="" />
 {% include_relative litgenre-select.txt %}
 {% include_relative publocation-select.txt %}
+{% include_relative litpub-select.txt %}
 {% include_relative print-select.txt %}
 {% include_relative manlocation-select.txt %}
 {% include_relative manuscript-select.txt %}

@@ -1548,16 +1548,19 @@ function InsertPrintLocationsIntoVerseList() {
 			continue;
 		}
 		printlocation = "";
+		litpub = "";
 		for (j=0; j<list.length; j++) {
 			var item = rprint[list[j]];
 			if (item) {
 				verselist[i].PRINTS[list[j]] = item;
 				printlocation += " " + item.PUBLOCATION;
+				litpub += " " + item.PUBLISHER;
 			} else {
 				// console.log("CANNOT FIND PRINT INFO FOR", list[j]);
 			}
 		}
 		verselist[i].PRINTLOCATION = printlocation;
+		verselist[i].LITPUB = litpub;
 	}
 }
 

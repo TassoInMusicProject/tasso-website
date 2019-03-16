@@ -457,10 +457,27 @@ console.log("RPRINT SOURCE", source, "LISTI", list[i]);
 					submatch = 1;
 				}
 			}
+
 		} else if (!SOURCEHILIGHT.PUBLOCATION && SOURCEHILIGHT.PRINT) {
 			source = RPRINTS[list[i]];
 			if (source && source.SPRINTNUM) {
 				if (source.SPRINTNUM.match(SOURCEHILIGHT.PRINT)) {
+					submatch = 1;
+				}
+			}
+
+		} else if (SOURCEHILIGHT.LITPUB && SOURCEHILIGHT.PRINT) {
+			source = RPRINTS[list[i]];
+			if (source && source.LITPUB) {
+				if (source.LITPUB.match(SOURCEHILIGHT.PUBLISHER)) {
+					submatch = 1;
+				}
+			}
+
+		} else if (SOURCEHILIGHT.LITPUB && !SOURCEHILIGHT.PRINT) {
+			source = RPRINTS[list[i]];
+			if (source && source.PUBLISHER) {
+				if (source.PUBLISHER.match(SOURCEHILIGHT.LITPUB)) {
 					submatch = 1;
 				}
 			}

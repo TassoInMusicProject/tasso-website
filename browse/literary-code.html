@@ -144,6 +144,7 @@ console.log("FILLING OPTIONS FOR", gvalue, "SEARCHLIST = ", searchlist);
 	fillLiterarySelectOptions("GENRE", searchlist);
 	fillLiterarySelectOptions2("MANUSCRIPTS", "LOCATION", searchlist);
 	fillLiterarySelectOptions2("PRINTS", "PUBLOCATION", searchlist);
+	fillLiterarySelectOptions2("PRINTS", "PUBLISHER", searchlist);
 	fillLiterarySelectOptionsKeys("MANUSCRIPTS", searchlist);
 	fillLiterarySelectOptionsKeys("PRINTS", searchlist);
 	fillLiterarySelectOptions("DEDICATEE", searchlist);
@@ -242,6 +243,45 @@ console.log("FILLING LITERARY PRINT LOCATION ");
 	}
 	options = Object.keys(newopts).sort();
 	var optionlist = '<option value="">any pub. location</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innserHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
+// fillLiteraryPrintPublisherSelect --
+//
+
+function fillLiteraryPrintPublisherSelect(options) {
+console.log("FILLING LITERARY PRINT PUBLISHER ");
+	var select = document.querySelector("select#browse-litpub");
+	if (!select) {
+		console.log("ERROR: no literary print publisher select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+	var newopts = {};
+	for (var i=0; i<options.length; i++) {
+		var text = options[i].replace(/[^,]*, ?/, "");
+		if (text.match(/,/)) {
+			text = text.replace(/,.*/, "");
+		}
+		newopts[text] = 1;
+	}
+	options = Object.keys(newopts).sort();
+	var optionlist = '<option value="">any publisher</option>';
 	if (options.length == 0) {
 		select.style.display = "none";
 		select.innserHTML = optionlist;
@@ -425,6 +465,13 @@ function filterLiteraryData(entries) {
 		SOURCEHILIGHT["PUBLOCATION"] = publocation;
 	}
 
+	var litpubElement = document.querySelector("#browse-litpub");
+	var litpub = "";
+	if (litpubElement) {
+		litpub = litpubElement.value;
+		SOURCEHILIGHT["LITPUB"] = litpub;
+	}
+
 	var manlocationElement = document.querySelector("#browse-manlocation");
 	var manlocation = "";
 	if (manlocationElement) {
@@ -454,6 +501,10 @@ function filterLiteraryData(entries) {
 
 	if (publocation) {
 		output = filterByField(output, "PRINTLOCATION", publocation);
+	}
+
+	if (litpub) {
+		output = filterByField(output, "LITPUB", litpub);
 	}
 
 	if (manlocation) {
@@ -521,6 +572,13 @@ function setupLiteraryBrowseCallbacks() {
 		});
 	}
 
+	var litpubElement = document.querySelector("#browse-litpub");
+	if (litpubElement) {
+		litpubElement.addEventListener("input", function() { 
+			fillLiteraryBrowsePage();
+		});
+	}
+
 	var manlocationElement = document.querySelector("#browse-manlocation");
 	if (manlocationElement) {
 		manlocationElement.addEventListener("input", function() { 
@@ -537,6 +595,7 @@ function setupLiteraryBrowseCallbacks() {
 //
 
 function fillLiterarySelectOptions2(field, subfield, searchlist) {
+console.log("FILLING FIELD", field, "SUBFIELD", subfield);
 	var options = getSelectOptions2(field, subfield, searchlist);
 
 	if (field == "MANUSCRIPTS" && subfield === "LOCATION") {
@@ -544,6 +603,9 @@ function fillLiterarySelectOptions2(field, subfield, searchlist) {
 	}
 	if (field == "PRINTS" && subfield === "PUBLOCATION") {
 		fillLiteraryPrintLocationSelect(options);
+	}
+	if (field == "PRINTS" && subfield === "PUBLISHER") {
+		fillLiteraryPrintPublisherSelect(options);
 	}
 }
 

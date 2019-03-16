@@ -134,9 +134,11 @@ function fillMusicOptions(gvalue, searchlist) {
 
 	fillMusicSelectOptions("GENRE", searchlist);
 	fillMusicSelectOptions("NORMPUBSHORT", searchlist);
+	fillMusicSelectOptions("COMPOSER", searchlist);
 	fillMusicSelectOptions("NORMLOC", searchlist);
 	fillMusicSelectOptions("FINAL", searchlist);
-	// fillMusicSelectOptions("MDEDICATEE", searchlist);
+	fillMusicSelectOptions("OMENSURATION", searchlist);
+	fillMusicSelectOptions("MDEDICATEE", searchlist);
 	// fillMusicSelectOptions("LOCATION", searchlist);
 }
 
@@ -399,11 +401,52 @@ function fillMusicSelectOptions(field, searchlist) {
 	if (field == "FINAL") {
 		fillMusicFinalSelect(options);
 	}
-	//if (field == "MDEDICATEE") {
-	//	fillMusicDedicateeSelect(options);
-	//}
+	if (field == "OMENSURATION") {
+		fillMusicMensurationSelect(options);
+	}
+	if (field == "COMPOSER") {
+		fillMusicComposerSelect(options);
+	}
+	if (field == "MDEDICATEE") {
+		fillMusicDedicateeSelect(options);
+	}
 }
 
+
+
+//////////////////////////////
+//
+// fillMusicComposerSelect --
+//
+
+function fillMusicComposerSelect(options) {
+	var select = document.querySelector("select#browse-composer");
+	if (!select) {
+		console.log("ERROR: no music publisher select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+
+	var newlist = [];
+	for (var i=0; i<options.length; i++) {
+		newlist.push(options[i].replace(/,\s.*/, ""));
+	}
+	options = newlist;
+
+	var optionlist = '<option value="">any composer</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	remappings = {};
+	// remappings["canzone"] = "^canzone$";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
 
 
 //////////////////////////////
@@ -444,13 +487,52 @@ function fillMusicPublisherLocationSelect(options) {
 
 //////////////////////////////
 //
+// fillMusicMensurationSelect --
+//
+
+function fillMusicMensurationSelect(options) {
+	var select = document.querySelector("select#browse-mensuration");
+	if (!select) {
+		console.log("ERROR: no mensuration select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+
+	var i;
+	var newlist = {};
+	for (i=0; i<options.length; i++) {
+		var value = options[i].replace(/,.*/, "");
+		newlist[value] = 1;
+	}
+	options = Object.keys(newlist).sort();
+
+	var optionlist = '<option value="">any mensuration</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	var i;
+	remappings = {};
+	remappings["?"] = "^\\?";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
 // fillMusicFinalSelect --
 //
 
 function fillMusicFinalSelect(options) {
 	var select = document.querySelector("select#browse-final");
 	if (!select) {
-		console.log("ERROR: no music publisher select menu");
+		console.log("ERROR: no final select menu");
 		var sels = document.querySelectorAll("select");
 		console.log("SELECTORS:", sels);
 		return;
@@ -463,6 +545,7 @@ function fillMusicFinalSelect(options) {
 	} else {
 		select.style.display = "inline-block";
 	}
+
 	var i;
 	var newlist = {};
 	for (i=0; i<options.length; i++) {
@@ -481,8 +564,13 @@ function fillMusicFinalSelect(options) {
 	remappings["?"] = "^\\?";
 	remappings["A"] = "^A";
 	remappings["A?"] = "^A\\?";
+	remappings["B?"] = "^B\\?";
+	remappings["C?"] = "^C\\?";
+	remappings["D?"] = "^D\\?";
+	remappings["E?"] = "^E\\?";
+	remappings["F?"] = "^F\\?";
+	remappings["G?"] = "^G\\?";
 	optionlist += getOptionListText(options, remappings);
-console.log("FINAL LIST IS", optionlist);
 	select.innerHTML = optionlist;
 }
 
@@ -523,6 +611,7 @@ function fillMusicPublisherSelect(options) {
 //
 
 function fillMusicDedicateeSelect(options) {
+	console.log("FILLING MUSIC DEDICATEE");
 	var select = document.querySelector("select#browse-mdedicatee");
 	if (!select) {
 		console.log("ERROR: no music dedicatee select menu");

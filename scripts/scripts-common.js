@@ -1625,6 +1625,7 @@ function InsertScoresIntoSettings() {
 
 function InsertSourcesIntoSettings() {
 	var list = GetFlatSettingList();
+console.log("STARTING LIST", list);
 
 	// inserting SOURCES entries into list:
 	var RSOURCES = {};
@@ -1639,6 +1640,7 @@ function InsertSourcesIntoSettings() {
 		var value = RSOURCES[id];
 		if (value) {
 			list[i].SOURCE = value;
+			list[i].MDEDICATEE = value.SRCDEDICATEESHORT;
 		} else {
 			// console.log("ID", id, "HAS NO SOURCE", list[i]);
 		}

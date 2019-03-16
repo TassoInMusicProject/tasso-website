@@ -702,11 +702,11 @@ Handlebars.registerHelper("parentheticalinfo",  function (obj) {
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tam/) && obj.ACT && obj.SCENE && obj.VERSE) {
-		output = "(<i>Aminta</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
+		output = "(<i>Aminta</i>&nbsp;" + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tsg/) && obj.CANTO && obj.OTTAVA) {
-		output = "(<i>Gerusalemme</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		output = "(<i>Gerusalemme</i>&nbsp;" + obj.CANTO + "/" + obj.OTTAVA + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tec/) && obj.ECLOGA && obj.VERSE) {
@@ -714,19 +714,19 @@ Handlebars.registerHelper("parentheticalinfo",  function (obj) {
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tri/) && obj.CANTO && obj.OTTAVA) {
-		output = "(<i>Rinaldo</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		output = "(<i>Rinaldo</i>&nbsp;" + obj.CANTO + "/" + obj.OTTAVA + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Trt/) && obj.ACT && obj.SCENE && obj.SECTION) {
-		output = "(<i>Torrismondo</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.SECTION + ")";
+		output = "(<i>Torrismondo</i>&nbsp;" + obj.ACT + "/" + obj.SCENE + "/" + obj.SECTION + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tco/) && obj.CANTO && obj.OTTAVA) {
-		output = "(<i>G.&nbsp;conquistata</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		output = "(<i>G.&nbsp;conquistata</i>&nbsp;" + obj.CANTO + "/" + obj.OTTAVA + ")";
 		return new Handlebars.SafeString(output);
 	}
 	if (obj.CATALOGNUM.match(/^Tbv/) && obj.STANZA) {
-		output = "(<i>Lagrime</i> " + obj.STANZA + ")";
+		output = "(<i>Lagrime</i>&nbsp;" + obj.STANZA + ")";
 		return new Handlebars.SafeString(output);
 	}
 

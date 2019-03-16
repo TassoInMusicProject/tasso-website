@@ -1,0 +1,55 @@
+<!--
+<input style="width:200px;" placeholder="Literary Publisher" id="browse-litpub" value="" />
+-->
+<select id="browse-litpub" class="litpub select">
+	<option value="">any publisher</option>
+	<option value="Amadino">Amadino</option>
+	<option value="Baldini">Baldini</option>
+	<option value="Bartoli">Bartoli</option>
+	<option value="Bonino">Bonino</option>
+	<option value="Cancer">Cancer</option>
+	<option value="Carlino">Carlino</option>
+	<option value="Carlino & Pace">Carlino & Pace</option>
+	<option value="Carrara">Carrara</option>
+	<option value="Dalle Donne">Dalle Donne</option>
+	<option value="Dalle Donne & Vargnano">Dalle Donne & Vargnano</option>
+	<option value="Gardano">Gardano</option>
+	<option value="Gardano-Magni">Gardano-Magni</option>
+	<option value="Gargano">Gargano</option>
+	<option value="Gargano & Nucci">Gargano & Nucci</option>
+	<option value="Grignani">Grignani</option>
+	<option value="Kaufman">Kaufman</option>
+	<option value="Le Roy et Ballard">Le Roy et Ballard</option>
+	<option value="Lomazzo">Lomazzo</option>
+	<option value="Longo">Longo</option>
+	<option value="Magni">Magni</option>
+	<option value="Manelfi">Manelfi</option>
+	<option value="Maringo">Maringo</option>
+	<option value="Masotti">Masotti</option>
+	<option value="Pace">Pace</option>
+	<option value="Phalèse">Phalèse</option>
+	<option value="Phalèse et Bellero">Phalèse et Bellero</option>
+	<option value="Pignoni">Pignoni</option>
+	<option value="Rafelengio">Rafelengio</option>
+	<option value="Raverij">Raverij</option>
+	<option value="Robletti">Robletti</option>
+	<option value="Rossi">Rossi</option>
+	<option value="Rossi & Tottorino">Rossi & Tottorino</option>
+	<option value="Schönigk">Schönigk</option>
+	<option value="Scotto">Scotto</option>
+	<option value="Soldi">Soldi</option>
+	<option value="Sottile">Sottile</option>
+	<option value="Stigliola">Stigliola</option>
+	<option value="Tini & Lomazzo">Tini & Lomazzo</option>
+	<option value="Tradato">Tradato</option>
+	<option value="Typis Elect. Saxoniae">Typis Elect. Saxoniae</option>
+	<option value="Viotto">Viotto</option>
+	<option value="Vincenzi">Vincenzi, A.</option>
+	<option value="Vincenzi">Vincenzi, G.</option>
+	<option value="Vitale">Vitale</option>
+	<option value="Weidner">Weidner</option>
+	<option value="Zanetti">Zanetti</option>
+	<option value="von Ohr-Jauch">von Ohr-Jauch</option>
+	<option value="Biblioteca Estense Universitaria">[Bib. Estense Uni.]</option>
+	<option value="?">?</option>
+</select>

@@ -272,15 +272,17 @@ console.log("FILLING LITERARY PRINT PUBLISHER ");
 		console.log("SELECTORS:", sels);
 		return;
 	}
-	var newopts = {};
-	for (var i=0; i<options.length; i++) {
-		var text = options[i].replace(/[^,]*, ?/, "");
-		if (text.match(/,/)) {
-			text = text.replace(/,.*/, "");
-		}
-		newopts[text] = 1;
-	}
-	options = Object.keys(newopts).sort();
+
+//	var newopts = {};
+//	for (var i=0; i<options.length; i++) {
+//		var text = options[i].replace(/[^,]*, ?/, "");
+//		if (text.match(/,/)) {
+//			text = text.replace(/,.*/, "");
+//		}
+//		newopts[text] = 1;
+//	}
+//	options = Object.keys(newopts).sort();
+
 	var optionlist = '<option value="">any publisher</option>';
 	if (options.length == 0) {
 		select.style.display = "none";

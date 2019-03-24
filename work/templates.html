@@ -231,7 +231,7 @@
 	{{#if EXTANTVOICES}}
 	<h3>Voices</h3>
 	<div class="indent">
-		{{{voices EXTANTVOICES OVOICES SOURCE}}}
+		{{{voices EXTANTVOICES OVOICES SOURCE this}}}
 	</div>
 	{{/if}}
 	<div id="range"></div>
@@ -602,7 +602,7 @@ function getWorkCountForComposer(composer) {
 // voices Handlebar helper  -- display original and extant voices.
 //
 
-Handlebars.registerHelper("voices", function(evoice, ovoice, source) {
+Handlebars.registerHelper("voices", function(evoice, ovoice, source, setting) {
 	if ((!ovoice) && (!evoice)) {
 		return new Handlebars.SafeString("");
 	}
@@ -635,13 +635,22 @@ Handlebars.registerHelper("voices", function(evoice, ovoice, source) {
 	}
 	// var text = ovoice + " (" + evoice + ")";
 
+	// settings:
+	// @@   OPARTBOOKS:       Original partbooks (automatically inserted from sources.aton).
+	// @@   EXTPARTBOOKS:     Extant partbooks (automatically inserted from sources.aton).
+
 	var epartbooks = "";
-	if (source && source.EXTPARTBOOKS && !source.EXTPARTBOOKS.match(/^\s*$/)) {
+	if (setting && setting.EXTPARTBOOKS) {
+		epartbooks = " (" + setting.EXTPARTBOOKS + ")";
+	} else if (source && source.EXTPARTBOOKS && !source.EXTPARTBOOKS.match(/^\s*$/)) {
 		epartbooks = " (" + source.EXTPARTBOOKS + ")";
 	}
 
+console.log("GOT HERE SETTING IS", setting);
 	var opartbooks = "";
-	if (source && source.OPARTBOOKS && !source.OPARTBOOKS.match(/^\s*$/)) {
+	if (setting && setting.PARTBOOKS) {
+		opartbooks = " (" + setting.PARTBOOKS + ")";
+	} else if (source && source.OPARTBOOKS && !source.OPARTBOOKS.match(/^\s*$/)) {
 		opartbooks = " (" + source.OPARTBOOKS + ")";
 	}
 

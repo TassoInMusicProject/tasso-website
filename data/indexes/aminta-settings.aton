@@ -36,6 +36,7 @@
 @@   OTIME:            Original mensuration
 @@   OKEYSIG:          Original keysignature
 @@   FINAL:            Finale note of composition (root of last chord)
+@@   TIMPEDITOR:       TiMP Editor for the work.
 @@   NOTE:             Free-form note about the work.
 @@   END: SETTING     This is the end of a rime setting entry
 @@
@@ -62,6 +63,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	G
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -88,6 +90,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	G
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -114,6 +117,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	M 1755
 @@END: SETTING
@@ -140,6 +144,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	A
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -166,6 +171,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	D
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -192,6 +198,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	G
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -219,6 +226,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	E
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -245,6 +253,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)D
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 4
 @REPRINTS:	
 @@END: SETTING
@@ -271,6 +280,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)D
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	2 of 4
 @REPRINTS:	
 @@END: SETTING
@@ -297,6 +307,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)D
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	3 of 4
 @REPRINTS:	
 @@END: SETTING
@@ -323,6 +334,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	D
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	4 of 4
 @REPRINTS:	
 @@END: SETTING
@@ -349,6 +361,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(G)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -375,6 +388,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(E)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	2 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -401,6 +415,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(C)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	3 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -427,6 +442,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(C)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	4 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -453,6 +469,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(G)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	5 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -479,6 +496,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(G)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	6 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -505,6 +523,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(C)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	7 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -531,6 +550,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	8 of 8
 @REPRINTS:	
 @@END: SETTING
@@ -557,6 +577,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	G
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -583,6 +604,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(F)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -609,6 +631,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	A
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -635,6 +658,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(C)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -661,6 +685,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(C)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -688,6 +713,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(F)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -714,6 +740,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(C)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -740,6 +767,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(F)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -766,6 +794,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	2 of 2 (1 at setting Tam2031045b)
 @REPRINTS:	
 @@END: SETTING
@@ -792,6 +821,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(C)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -818,6 +848,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(C)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -844,6 +875,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(F)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -870,6 +902,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(C)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -896,6 +929,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(B-)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -922,6 +956,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(F)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -948,6 +983,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(C)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -974,6 +1010,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(F)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1000,6 +1037,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(F)F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1026,6 +1064,7 @@
 @OTIME:		
 @OKEYSIG:	
 @FINAL:		
+@TIMPEDITOR:	
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1052,6 +1091,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1078,6 +1118,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	A
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1104,6 +1145,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(E)A
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -1130,6 +1172,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)E
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -1156,6 +1199,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	A
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	2 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -1182,6 +1226,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	E
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	2 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -1208,6 +1253,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(C)C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -1234,6 +1280,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1260,6 +1307,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	E
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1286,6 +1334,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)D
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -1312,6 +1361,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	D
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	2 of 2
 @REPRINTS:	
 @@END: SETTING
@@ -1338,6 +1388,7 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	F
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING
@@ -1364,6 +1415,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	C
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	2 of 2 (1 at setting Tam4011614a)
 @REPRINTS:	
 @@END: SETTING
@@ -1390,6 +1442,7 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	G
+@TIMPEDITOR:	Coluzzi, Seth
 @PARTS:	1 of 1
 @REPRINTS:	
 @@END: SETTING

@@ -912,7 +912,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -1121,7 +1121,7 @@
 @VNAME:	Canto
 @VNAME:	Quinto
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -1134,7 +1134,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1323,11 +1323,11 @@
 @VNAME:	Basso
 @VNAME:	B.C.
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
-@VABBR:	B
+@VABBR:	B.C.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -1340,7 +1340,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1374,7 +1374,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -1387,7 +1387,7 @@
 @VNAME:	Quinto
 @VABBR:	C
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -1400,7 +1400,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1427,7 +1427,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	A
+@VABBR:	Alti
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -1470,7 +1470,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1485,7 +1485,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -1557,7 +1557,7 @@
 @VNAME:	Tenore
 @VNAME:	Quinto
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -1566,8 +1566,8 @@
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0164a-Vuol_che_lami_costei_ma_duro_freno--Barbarino_1616.krn
 @VNAME:	[Soprano o Tenore]
 @VNAME:	[B. C.]
-@VABBR:	[
-@VABBR:	[
+@VABBR:	Soprano o T
+@VABBR:	B. C.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -1694,7 +1694,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1734,7 +1734,7 @@
 @VNAME:	Basso
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -1787,7 +1787,7 @@
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	A
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -1826,7 +1826,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -1840,10 +1840,10 @@
 @VNAME:	Quinto
 @VNAME:	Tenore
 @VNAME:	Basso
-@VABBR:	C
-@VABBR:	S
-@VABBR:	A
-@VABBR:	Q
+@VABBR:	C (C I)
+@VABBR:	VI (C II)
+@VABBR:	A (C III)
+@VABBR:	V
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -1884,7 +1884,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1900,7 +1900,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1928,7 +1928,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -1944,7 +1944,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2012,7 +2012,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2034,7 +2034,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2075,9 +2075,9 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	S
+@VABBR:	VI
 @VABBR:	A
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -2092,9 +2092,9 @@
 @VNAME:	Quinto
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	S
+@VABBR:	VI
 @VABBR:	A
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2189,7 +2189,7 @@
 @VNAME:	B.C.
 @VABBR:	A
 @VABBR:	B
-@VABBR:	B
+@VABBR:	B.C.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2238,7 +2238,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2253,7 +2253,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	A
+@VABBR:	Alti
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -2390,7 +2390,7 @@
 @VNAME:	Alto
 @VNAME:	Tenore
 @VNAME:	Basso
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2406,7 +2406,7 @@
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	A
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2445,8 +2445,8 @@
 @VNAME:	Canto Primo
 @VNAME:	Canto Secondo
 @VNAME:	Basso
-@VABBR:	C
-@VABBR:	C
+@VABBR:	C1
+@VABBR:	C Secondo
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2628,7 +2628,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2690,7 +2690,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2701,7 +2701,7 @@
 @VNAME:	Quinto
 @VNAME:	Alto
 @VNAME:	Tenore
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @@END:	SCOREDATA
@@ -2717,7 +2717,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2758,7 +2758,7 @@
 @VNAME:	Canto secondo
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	C
+@VABBR:	C secondo
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2766,6 +2766,8 @@
 @CATALOGNUM:	Trm0359a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0359a-Voi_volete_chio_vami--Lambardi_1616.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0359a-Voi_volete_chio_vami--Lambardi_1616.krn
+@VNAME:	Canto
+@VABBR:	C
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2788,10 +2790,10 @@
 @VNAME:	Tenore over Canto
 @VNAME:	Basso
 @VNAME:	B.C.
-@VABBR:	T
-@VABBR:	T
+@VABBR:	T over C
+@VABBR:	T over C
 @VABBR:	B
-@VABBR:	B
+@VABBR:	B.C.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2799,7 +2801,7 @@
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0361c-Io_son_la_primavera--Stefani_1622.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0361c-Io_son_la_primavera--Stefani_1622.krn
 @VNAME:	B.C.
-@VABBR:	B
+@VABBR:	B.C.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2884,8 +2886,10 @@
 @CATALOGNUM:	Trm0399b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0399b-O_vaga_tortorella--Marini_1635.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0399b-O_vaga_tortorella--Marini_1635.krn
+@VNAME:	 
 @VNAME:	B.C.
-@VABBR:	B
+@VABBR:	 
+@VABBR:	B.C.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2898,7 +2902,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2927,7 +2931,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2941,7 +2945,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -3205,7 +3209,7 @@
 @VNAME:	B.C.
 @VABBR:	A
 @VABBR:	B
-@VABBR:	B
+@VABBR:	B.C.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -3259,7 +3263,7 @@
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	A
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -3515,8 +3519,8 @@
 @VNAME:	Basso
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
-@VABBR:	S
+@VABBR:	V
+@VABBR:	VI
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -3527,7 +3531,7 @@
 @VNAME:	Canto
 @VNAME:	Canto Sec.
 @VABBR:	C
-@VABBR:	C
+@VABBR:	C Sec.
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -3556,7 +3560,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -3600,7 +3604,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -3650,9 +3654,9 @@
 @VNAME:	Quinto
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	S
+@VABBR:	VI
 @VABBR:	A
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -3688,7 +3692,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -3716,7 +3720,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -3732,7 +3736,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -3940,10 +3944,10 @@
 @VNAME:	Basso continuo
 @VABBR:	C
 @VABBR:	A
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	T
 @VABBR:	B
-@VABBR:	BC
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA

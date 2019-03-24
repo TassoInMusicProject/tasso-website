@@ -508,7 +508,7 @@
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Accademici filarmonici di Verona
-@SRCDEDICATEESHORT:	Accademici filarmonici di Verona
+@SRCDEDICATEESHORT:	Accademici Filarmonici di Verona
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	A
@@ -3117,23 +3117,45 @@
 @@BEGIN: SOURCE
 @RISM:	G 2480
 @AUTHOR:	Giovannelli, Ruggiero
-@TITLEPAGE:	DI RVGGIERO GIOVANELLI / MAESTRO DI CAPELLA IN S. PIETRO DI ROMA / IL TERZO LIBRO DE MADRIGALI / A Cinque Voci, Nouamente da lui composti, & dati in luce. / In Venetia, Appresso Angelo Gardano. 1599.
-@TITLESHORT:	Il terzo libro de madrigali a cinque voci
+@TITLEPAGE:	DI RVGGIERO GIOVANELLI / MAESTRO DI CAPELLA IN S. PIETRO DI ROMA / IL SECONDO LIBRO DE MADRIGALI / A Cinque Voci, Nouamente ristampati et con diligenza corretti, con privilegio. / In Venetia, Appresso Angelo Gardano. 1599.
+@TITLESHORT:	Il secondo libro de madrigali a cinque voci, novamente ristampati et con diligenza riveduti
 @PUBLISHER:	Gardano
 @YEAR:	1599
 @PUBTYPE:	Single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	Cardinale CIntio Aldobrandini
-@SRCDEDICATEESHORT:	Cintio Aldobrandini
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATV
+@EXTNAMES:	C,A,T,V
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	G 2482
+@AUTHOR:	Giovannelli, Ruggiero
+@TITLEPAGE:	DI RVGGIERO GIOVANELLI / MAESTRO DI CAPELLA IN S. PIETRO DI ROMA / IL SECONDO LIBRO DE MADRIGALI / A Cinque Voci, Nouamente ristampati, & con ogni diligenza Corretti/ CON PRIVILEGIO / In Venetia, Angelo Gardano & Fratelli.  / 1607.
+@TITLESHORT:	Il secondo libro de madrigali a cinque voci, novamente ristampati et con ogni diligenza riveduti
+@PUBLISHER:	Gardano
+@YEAR:	1607
+@PUBTYPE:	Single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
-@SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCLOCSIGLA:	US-Wc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://www.loc.gov/resource/ihas.200182358.0/?sp=1
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5722,7 +5744,7 @@
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	Signori Accademici Philarmonici
-@SRCDEDICATEESHORT:	Accademici Filarmonici of Verona
+@SRCDEDICATEESHORT:	Accademici Filarmonici di Verona
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB

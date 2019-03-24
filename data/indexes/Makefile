@@ -28,7 +28,7 @@ source:
 
 si: scoreindex
 scoreindex:
-	../bin/makescoresaton ../../../tasso-scores/Trm/kern/*.krn ../../../tasso-scores/Tam/kern/*.krn > all-scores.aton
+	../bin/makescoresaton ../../../tasso-scores/*/kern/*.krn > all-scores.aton
 
 
 worklist:

@@ -1,4 +1,4 @@
-<select id="browse-ovoices" class="mensuration select">
+<select id="browse-ovoices" class="ovoices select">
 	<option value="">any voices</option>
 	<option value="1\+bc">1+bc</option>
 	<option value="2">2</option>

@@ -138,6 +138,7 @@ function fillMusicOptions(gvalue, searchlist) {
 	fillMusicSelectOptions("NORMLOC", searchlist);
 	fillMusicSelectOptions("FINAL", searchlist);
 	fillMusicSelectOptions("OMENSURATION", searchlist);
+	fillMusicSelectOptions("OVOICES", searchlist);
 	fillMusicSelectOptions("MDEDICATEE", searchlist);
 	// fillMusicSelectOptions("LOCATION", searchlist);
 }
@@ -391,6 +392,7 @@ function setupMusicBrowseCallbacks() {
 
 function fillMusicSelectOptions(field, searchlist) {
 	var options = getSelectOptions(field, searchlist);
+console.log("FIELD", field);
 
 	if (field == "NORMPUBSHORT") {
 		fillMusicPublisherSelect(options);
@@ -403,6 +405,9 @@ function fillMusicSelectOptions(field, searchlist) {
 	}
 	if (field == "OMENSURATION") {
 		fillMusicMensurationSelect(options);
+	}
+	if (field == "OVOICES") {
+		fillMusicOvoiceSelect(options);
 	}
 	if (field == "COMPOSER") {
 		fillMusicComposerSelect(options);
@@ -483,6 +488,59 @@ function fillMusicPublisherLocationSelect(options) {
 	select.innerHTML = optionlist;
 }
 
+
+
+//////////////////////////////
+//
+// fillMusicOvoiceSelect --
+//
+
+function fillMusicOvoiceSelect(options) {
+	var select = document.querySelector("select#browse-ovoices");
+	if (!select) {
+		console.log("ERROR: no ovoices select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+
+	var i;
+	var newlist = {};
+	for (i=0; i<options.length; i++) {
+		var value = options[i];
+		value = value.replace(/\s*\+\s*alfabeto/, "");
+		value = value.replace(/\s*\+\s*/g, "+");
+		value = value.replace(/bc/gi, "bc");
+		newlist[value] = 1;
+	}
+	options = Object.keys(newlist).sort(function(a, b) {
+		var A = a.match(/^(\d+)/);
+		var B = b.match(/^(\d+)/);
+		if (A && B) {
+			return parseInt(A[1]) - parseInt(B[1]);
+		} else if (A) {
+			return -1;
+		} else if (B) {
+			return +1;
+		} else {
+			return a < b;
+		}
+	});
+
+	var optionlist = '<option value="">any voices</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	var i;
+	remappings = {};
+	remappings["?"] = "^\\?";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
 
 
 //////////////////////////////

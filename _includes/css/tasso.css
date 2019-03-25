@@ -346,6 +346,14 @@ footer ul li {
 }
 
 
+.contents h2:first-of-type {
+	margin-top: 50px;
+}
+
+h2 {
+	color: #c2ab6c;
+}
+
 #contents {
 	/* min-height: 100%; */
 	position: relative;
@@ -406,10 +414,7 @@ footer ul li {
 	padding-bottom: -50px;
 	position: relative;
 	z-index: 1000;
-// ggg
 }
-
-
 
 
 #tabs a,
@@ -428,7 +433,7 @@ footer ul li {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
-	padding-bottom: 11px; /* using 10px will sometimes give a small border */
+	padding-bottom: 10.25px; /* using 10px will sometimes give a small border */
 	width: 250px;
 	text-align: center;
 }
@@ -508,8 +513,6 @@ svg g[id^="syl-"] {
 	fill: black;
 }
 */
-
-
 
 
 

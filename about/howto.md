@@ -3,25 +3,76 @@ layout: simple
 ---
 
 ## **Website Layout**
-Because the project is poetry-based, the website is structured around four main sections, each devoted to a particular poem or group of poems by Tasso. The four sections, headers for which are shown on the homepage, are the following:
+
+Since the project is poetry-based, the website is organized
+into four main repertories, each devoted to a particular poem or
+group of poems by Tasso. The four repertories, 
+shown in the tabs at the top of the homepage, are:
 
 - <i>Rime</i>
 - <i>Gerusalemme liberata</i>
 - <i>Aminta</i>
 - <i>Other Poems </i> (i.e., <i>Ecloghe</i>, <i>Rinaldo</i>, <i>Lagrime della Beata Vergine</i>, <i>Re Torrismondo</i>, <i>Gerusalemme conquistata</i>).
   
-The ordering of these sections (arranged from left to right on the homepage) reflects the musical fortune of each poem or group of poems, the <i>Rime</i> having received over 500 settings and <i>Other Poems</i> having received collectively only around a dozen. 
-By clicking on each header, users can visualize a list of all the poems (or excerpts from a larger poem) for that section. Each poem (or excerpt from a large poem) in turn features four subheaders: 
+The ordering of these repertories (from left to right on the homepage)
+reflects the musical fortune of each poem or group of poems, the
+<i>Rime</i> having received over 500 settings and <i>Other Poems</i>
+having received collectively only around a dozen.  By clicking on
+each header, users can visualize a list of all the poems (or excerpts
+from a larger poem) for that repertory.
 
-- ABOUT: links to a page displaying the text of the poem in modern edition and line-by-line English translation. For the <i>Rime</i>, the modern editions are drawn from Angelo Solerti, <i>Le rime di Torquato Tasso</i>, 4 vols. (Bologna: Romagnoli-Dall-Acqua, 1898-1902), which, although dated and far from current editorial standards, remains the only comphrensive edition of Tasso's <i>Rime</i>. When a poem from the <i>Rime</i> is available in the currently undergoing Edizione Nazionale delle Opere di Torquato Tasso (Alessandria: Edizioni Dall'Orso), bibliographic references to this edtion are provided. The "About" pages also feature information about attribution, date of composition, and dedicatees of each poem.
-- LITERARY SOURCES: links to a list of 16th- and 17th-century literary sources for the poem (or excerpt from a larger poem), both manuscript and printed, with brief descriptions of each source and hyperlinks to digitized examplars, when they exist. 
-- MUSICAL SOURCES: links to a list of musical settings for the poem (or excerpt from a larger poem). The list in turn links to workpages where each setting is available in modern edition with critical apparatus, commentary, and analytical tools.
-- LITERARY VARIANTS: links to a page featuring diplomatic transcriptions of the poem (or excerpt from a larger poem) as it appears in literary sources, both mnasucript and printed, and in the text underlay of its musical settings. The transcriptions are collated and variant readings across sources are displayed dynamically.
+Each poem (or excerpt from a large poem) in turn features four
+subheaders that become visible when moving the mouse over the title
+of a poem on the main page:
+
+- <a target="_new" href="/poem?id=Trm0047"><i>About</i></a>: links
+to a page displaying the text of the poem in modern edition and a
+line-by-line English translation. For the <i>Rime</i>, modern
+editions are drawn from Angelo Solerti, <i>Le rime di Torquato
+Tasso</i>, 4 vols. (Bologna: Romagnoli-Dall-Acqua, 1898-1902),
+which, although dated and far from current editorial standards,
+remains the only comphrensive edition of Tasso's <i>Rime</i>. When
+a poem from the <i>Rime</i> is available in the currently undergoing
+Edizione Nazionale delle Opere di Torquato Tasso (Alessandria:
+Edizioni Dall'Orso), bibliographic references to this edtion are
+provided. The "About" pages also feature information about attribution,
+date of composition, and dedicatees of the poem.
+
+- <a target="_new" href="/settings?id=Trm0047"><i>Musical
+settings</i></a>: links to a list of musical settings for the poem
+(or excerpt from a larger poem). The list in turn links to workpages
+where each setting is available in modern edition with critical
+apparatus, commentary, and analytical tools.
+
+- <a target="_new" href="/sources?id=Trm0047"><i>Literary
+sources</i></a>: links to a list of sixteenth- and seventeenth-century
+literary sources for the poem (or excerpt from a larger poem), both
+manuscript and printed, with brief descriptions of each source and
+hyperlinks to digitized examplars, when they exist.
+
+- <a target="_new" href="/variants?id=Trm0047"><i>Literary
+variants</i></a>: links to a page featuring diplomatic transcriptions
+of the poem (or excerpt from a larger poem) as it appears in literary
+sources, both mnasucript and printed, and in the text underlay of
+its musical settings. The transcriptions are collated and variant
+readings across sources are displayed dynamically.
+
+Examples of these sections for <i>Non è questa la mano</i> (Rime
+47) are given as links in the above list.
 
 ## **Repertorie Organization/Cataloguing**
 
 ### **Poetic Repertoire**
-- <i>Rime</i>: these poems are catalogued after Angelo Solerti's numbering in his 1898-1902 edition. Although based on an often flawed and romanticized reconstruction of the chronology of Tasso’s <i>Rime</i>, Solerti’s numbering remains universally used in Tasso scholarship. Likewise, the project employs Solerti's sigla for the <i>Rime</i>'s literary sources, with integrations for manuscript sources drawn from Vercingetorige Martignone, <i>Catalogo dei manoscritti delle Rime di Torquato Tasso </i> (Bergamo: Centro di Studi Tassiani, 2004).
+
+- <i>Rime</i>: these poems are catalogued after Angelo Solerti's
+numbering in his 1898&ndash;1902 edition. Although based on an often
+flawed and romanticized reconstruction of the chronology of Tasso’s
+<i>Rime</i>, Solerti’s numbering remains universally used in Tasso
+scholarship. Likewise, the project employs Solerti's sigla for the
+<i>Rime</i>'s literary sources, with integrations for manuscript
+sources drawn from Vercingetorige Martignone, <i>Catalogo dei
+manoscritti delle Rime di Torquato Tasso </i> (Bergamo: Centro di
+Studi Tassiani, 2004).
 
 - <i>Gerusalemme liberata</i>: excerpts from this poem are arranged by Canto and Ottava. For manuscript sources, the project employs Solerti's sigla. Printed sources are catalogued by year of publication followed by publisher initials: e.g., 1581CV=Torquato Tasso, <i>Gerusalemme liberata</i> (Casalmaggiore: Canacci & Viotti, 1581).
 
@@ -40,7 +91,17 @@ By clicking on each header, users can visualize a list of all the poems (or exce
 
 
 ## **Work Pages**
-Each setting is assigned a work page (accessible from the list of settings of the poem). The work page features a newly made modern edition of the setting, viewable online through Verovio, an SVG (scalar vector graphic) format developed by Laurent Pugin of RISM, Switzerland. By using the commands placed at the top of the score, users may opt to view it in its entirety or only as an incipit, change modern clefs and time signatures to original ones and vice versa, extract individual parts, remove the text underlay, and play the score using the online playback function. The scores can also be downloaded in a variety of formats, such as PDF, MusicXML, MEI, MuseData, MIDI, MP3. 
+Each setting is assigned a <a target="_new" href="/work?id=Trm0047m">work
+page</a> (accessible from the list of settings of the poem). The
+work page features a newly made modern edition of the setting,
+viewable online through Verovio, an SVG (scalar vector graphic)
+format developed by Laurent Pugin of RISM, Switzerland. By using
+the commands placed at the top of the score, users may opt to view
+it in its entirety or only as an incipit, change modern clefs and
+time signatures to original ones and vice versa, extract individual
+parts, remove the text underlay, and play the score using the online
+playback function.  The scores can also be downloaded in a variety
+of formats, such as PDF, MusicXML, MEI, MuseData, MIDI, MP3.
 
 The editions provided in the work pages are accompanied by a substantial critical apparatus featuring the text of poem as it appears in the underlay, with line-by-line English translation, bibliographic information about the sources consulted (both <i>princeps</i> and reprints, where available), emended readings of the principal source, other critical notes, and commentary discussing the placement of piece in the context of the composer’s output, the overall style of the piece as well as its relationship to other settings of the same poem.
 

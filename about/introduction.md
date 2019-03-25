@@ -3,7 +3,7 @@ layout: simple
 ---
 
 Torquato Tasso (1544-1595) was arguably the most prominent poet of
-late 16th-century Italy. His works, most notably the epic poem
+late sixteenth-century Italy. His works, most notably the epic poem
 *Gerusalemme liberata* (Jerusalem Delivered), achieved tremendous
 fame in literary circles, shaping the poetic culture of the time.
 Tasso’s influence extended also well beyond the literary realm.
@@ -31,9 +31,9 @@ technical support of the Stanford University’s Center for Computer
 Assisted Research in the Humanities (CCARH) and the University of
 Massachusetts Amherst, the Tasso in Music Project aims to fill this
 lacuna by creating a complete digital edition of the extant late
-16th- and early 17th-century settings of Tasso’s poetry. Funded by
-a $260,000 Scholarly Editions and Translations Grant from the
-National Endowment for the Humanities (NEH), the project provides
+sixteenth- and early seventeenth-century settings of Tasso’s poetry.
+Funded by a $260,000 Scholarly Editions and Translations Grant from
+the National Endowment for the Humanities (NEH), the project provides
 open access to one of the largest digital repositories of early
 modern music. Representing the work of over 200 composers from a
 variety of geographic areas and with different musical styles, this
@@ -66,7 +66,7 @@ about the editorial and encoding methods of the project, please
 visit the page “[Editorial Policies](/about/policies).” Any queries
 can be directed to the Project Director and General Editor, Emiliano
 Ricciardi, and to the Project Technical Director, Craig Sapp, through
-the FEEDBACK button at the bottom of the page. We hope that you
+the FEEDBACK button at the bottom of each page. We hope that you
 will find the project useful to your endeavors, scholarly and
 otherwise, and look forward to your feedback.
 

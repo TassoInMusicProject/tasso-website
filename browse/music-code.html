@@ -101,6 +101,38 @@ function fillMusicBrowsePage(options) {
 		}
 	}
 
+	var key;
+	var year;
+	var title;
+console.log("SEARCHLIST LENGTH = ", searchlist.length);
+	if (searchlist.length < 2) {
+		title = document.querySelector("input#browse-title");
+		if (title) {
+			title.style.display = "none";
+		}
+		year = document.querySelector("input#browse-year");
+		if (year) {
+			year.style.display = "none";
+		}
+		key = document.querySelector("input#browse-key");
+		if (key) {
+			key.style.display = "none";
+		}
+	} else {
+		title = document.querySelector("input#browse-title");
+		if (title) {
+			title.style.display = "inline";
+		}
+		year = document.querySelector("input#browse-year");
+		if (year) {
+			year.style.display = "inline";
+		}
+		key = document.querySelector("input#browse-key");
+		if (key) {
+			key.style.display = "inline";
+		}
+	}
+
 	if (options && options.fillOptions === true) {
 			fillMusicOptions(gvalue, searchlist);
 	}

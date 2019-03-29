@@ -12,19 +12,21 @@ and, most importantly, for composers, among whom they became true
 hits. From the 1570s through the 1630s, virtually all composers of
 secular vocal music in Italy and Europe, including notable ones
 like Luca Marenzio and Claudio Monteverdi, set one or more of his
-poems, producing a total of over 650 settings. Composers were
-especially drawn to Tasso’s lyric poems, collectively known as
-*Rime*, whose conciseness and wit reflected the taste for *concettismo*
-typical of the time and offered opportunities for equally clever
-musical renditions, but also proved fond of Tasso’s *Gerusalemme*
-and the pastoral drama *Aminta*, whose dramatic features resonated
-with a growing tendency toward quasi-operatic styles in secular
-vocal music around 1600. As with most of the repertoire from this
-time period, however, the majority of the settings, over three
-quarters, are unavailable in modern editions. As a result, this
-significant corpus of works has remained largely unexplored in both
-scholarship and performance, which has in turn hindered a serious
-assessment of Tasso’s influence on early modern musical culture.
+poems, producing a total of over 650 settings.
+
+Composers were especially drawn to Tasso’s lyric poems, collectively
+known as *Rime*, whose conciseness and wit reflected the taste for
+*concettismo* typical of the time and offered opportunities for
+equally clever musical renditions, but also proved fond of Tasso’s
+*Gerusalemme* and the pastoral drama *Aminta*, whose dramatic
+features resonated with a growing tendency toward quasi-operatic
+styles in secular vocal music around 1600. As with most of the
+repertoire from this time period, however, the majority of the
+settings, over three quarters, are unavailable in modern editions.
+As a result, this significant corpus of works has remained largely
+unexplored in both scholarship and performance, which has in turn
+hindered a serious assessment of Tasso’s influence on early modern
+musical culture.
 
 Carried out by a team of scholars from the US and Europe, with the
 technical support of the Stanford University’s Center for Computer
@@ -40,17 +42,19 @@ variety of geographic areas and with different musical styles, this
 repository represents a snapshot of secular vocal music in a age
 in which it underwent profound transformations and will allow users
 to trace influences and patterns of emulation among composers,
-especially for settings of the same poems. In addition to accessing
-critical editions of this repertoire, users of the Tasso in Music
-Project are able to browse and analyze it both quantitatively and
-qualitatively through innovative musical search tools embedded in
-the digital platform. The project features also a substantial
-literary component, with transcriptions of the poetic texts as they
-appear in the musical settings and in contemporaneous literary
-sources, both manuscript and printed, and tools for the dynamic
-visualization of literary variants across sources. This textual
-component is indispensable for an understanding of the transmission
-and dissemination of Tassian literary sources in musical environments.
+especially for settings of the same poems.
+
+In addition to accessing critical editions of this repertoire, users
+of the Tasso in Music Project are able to browse and analyze it
+both quantitatively and qualitatively through innovative musical
+search tools embedded in the digital platform. The project features
+also a substantial literary component, with transcriptions of the
+poetic texts as they appear in the musical settings and in
+contemporaneous literary sources, both manuscript and printed, and
+tools for the dynamic visualization of literary variants across
+sources. This textual component is indispensable for an understanding
+of the transmission and dissemination of Tassian literary sources
+in musical environments.
 
 Through its musical and literary content, as well as through its
 digital features, the project aims benefit a wide audience encompassing

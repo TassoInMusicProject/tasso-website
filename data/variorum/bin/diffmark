@@ -1,0 +1,123 @@
+#!/usr/bin/perl
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sun Dec  9 12:01:48 EST 2018
+# Last Modified: Sun Dec  9 14:08:30 EST 2018
+# Filename:      diffmark
+# Syntax:        perl 5
+# vim:           ts=3:ft=perl
+#
+#
+# Description:   Create an empty variorum file for rimes.  Do not overwrite
+#                any existing files.
+#
+
+use strict;
+
+my @LINES;
+my @CATALOG;
+my @IDS;
+
+my @CONTENTS = <>;
+
+extractLines();
+
+printLines();
+
+
+##############################
+##
+## printLines --
+##
+
+sub printLines {
+	my $size = @LINES;
+	for (my $i=0; $i<@LINES; $i++) {
+		my @a = @{$LINES[$i]};
+		my $vsize = @a;
+		for (my $j=0; $j<@a; $j++) {
+			my $line = $CONTENTS[$a[$j]];
+			chomp $line;
+			$line =~ s/^\s+//;
+			$line =~ s/\s+$//;
+			if ($line =~ /^\@VERSE\s*:\s*(.*)\s*$/) {
+				$line = $1;
+			}
+			my $versenum = $i + 1;
+			my $linenum = $a[$j] + 1;
+			my $id = $IDS[$a[$j]];
+			my $length = length($id);
+			my $dlen = 16-$length;
+			for (my $z=0; $z<$dlen; $z++) {
+				$id .= " ";
+			}
+			print "ID:$id\tL$linenum\tV$versenum:\t$line\n";
+		}
+		print "\n";
+	}
+}
+
+
+##############################
+##
+## extractLines --
+##
+
+sub extractLines {
+	my $catalog = "";
+	my $vcounter = 0;
+	my $id;
+	my $key = "";
+	my $other;
+	my $catcounter = -1;
+	for (my $i=0; $i<@CONTENTS; $i++) {
+		my $line = $CONTENTS[$i];
+		chomp $line;
+		if ($line =~ /CATALOGNUM\s*:\s*(.*)\s*$/) {
+			$catalog = $1;
+			$vcounter = 0;
+			$catcounter++;
+			next;
+		} elsif ($line =~ /ID\s*:\s*(.*)\s*$/) {
+			$id = $1;
+			next;
+		} elsif ($line =~ /^\@\@END\s*:\s*VARIORUM\s*$/) {
+			$catalog = "";
+			$id = "";
+			$vcounter = 0;
+			$key = "";
+			next;
+		}
+		$CATALOG[$i] = $catalog;
+		$IDS[$i] = $id;
+		if ($line =~ /^\@([A-Za-z0-9_-]+)\s*:\s*(.*)\s*$/) {
+			$key = $1;
+			$other = $2;
+		}
+		next if $key ne "VERSE";
+		if ($other !~ /^\s*$/) {
+			$line = $other;
+		}
+		next if $line =~ /^\s*$/;
+		next if $line =~ /^\@/;
+		#print "CAT $catalog\tLINE $i\tVERSE: $line\n";
+		if (!$LINES[$vcounter]) {
+			my @empty = ();
+			$LINES[$vcounter] = \@empty;
+		}
+		#print "PUSHING $i onto slot $vcounter: @{$LINES[$vcounter]}\n";
+		push @{$LINES[$vcounter]}, $i;
+		$vcounter++;
+	}
+}
+
+
+
+# Array for each line of poem
+#  Each line of poem is an array of associative arrays containing:
+#    index = line index in original file
+#    text  = text of the line
+
+
+
+
+

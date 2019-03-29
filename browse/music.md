@@ -39,6 +39,7 @@ layout: simple
 <input style="width:200px;" placeholder="Extant voices" id="browse-evoices" value="" />
 -->
 {% include_relative voices-select.txt %}
+{% include_relative clef-select.txt %}
 {% include_relative mensuration-select.txt %}
 {% include_relative key-select.txt %}
 {% include_relative final-select.txt %}

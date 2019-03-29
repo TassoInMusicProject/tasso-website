@@ -347,6 +347,14 @@ function insertCgiSearchParameters() {
 		}
 	}
 
+	if (CGI.clef) {
+		var clefelement = document.querySelector("#browse-clef");
+		var clef = CGI.clef;
+		if (clefelement) {
+			clefelement.value = clef;
+		}
+	}
+
 	if (CGI.mensuration) {
 		var mensurationelement = document.querySelector("#browse-mensuration");
 		var mensuration = CGI.mensuration;

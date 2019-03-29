@@ -138,6 +138,7 @@ function fillMusicOptions(gvalue, searchlist) {
 	fillMusicSelectOptions("NORMLOC", searchlist);
 	fillMusicSelectOptions("FINAL", searchlist);
 	fillMusicSelectOptions("OMENSURATION", searchlist);
+	fillMusicSelectOptions("OCLEFS", searchlist);
 	fillMusicSelectOptions("OVOICES", searchlist);
 	fillMusicSelectOptions("MDEDICATEE", searchlist);
 	// fillMusicSelectOptions("LOCATION", searchlist);
@@ -179,6 +180,12 @@ function filterMusicData(entries) {
 	var mensuration = "";
 	if (mensurationElement) {
 		mensuration = mensurationElement.value;
+	}
+
+	var clefElement = document.querySelector("#browse-clef");
+	var clef = "";
+	if (clefElement) {
+		clef = clefElement.value;
 	}
 
 	var keyElement = document.querySelector("#browse-key");
@@ -246,6 +253,10 @@ function filterMusicData(entries) {
 		output = filterByField(output, "OMENSURATION", mensuration);
 	}
 
+	if (clef) {
+		output = filterByField(output, "OCLEFS", clef);
+	}
+
 	if (key) {
 		output = filterByField(output, "OKEYSIG", key);
 	}
@@ -307,6 +318,13 @@ function setupMusicBrowseCallbacks() {
 	var mensurationElement = document.querySelector("#browse-mensuration");
 	if (mensurationElement) {
 		mensurationElement.addEventListener("input", function() { 
+			fillMusicBrowsePage();
+		});
+	}
+
+	var clefElement = document.querySelector("#browse-clef");
+	if (clefElement) {
+		clefElement.addEventListener("input", function() { 
 			fillMusicBrowsePage();
 		});
 	}
@@ -405,6 +423,9 @@ console.log("FIELD", field);
 	}
 	if (field == "OMENSURATION") {
 		fillMusicMensurationSelect(options);
+	}
+	if (field == "OCLEFS") {
+		fillMusicClefSelect(options);
 	}
 	if (field == "OVOICES") {
 		fillMusicOvoiceSelect(options);
@@ -541,6 +562,48 @@ function fillMusicOvoiceSelect(options) {
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;
 }
+
+
+
+//////////////////////////////
+//
+// fillMusicClefSelect --
+//
+
+function fillMusicClefSelect(options) {
+	var select = document.querySelector("select#browse-clef");
+	if (!select) {
+		console.log("ERROR: no clef select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+
+	//var i;
+	//var newlist = {};
+	//for (i=0; i<options.length; i++) {
+	//	var value = options[i].replace(/,.*/, "");
+	//	newlist[value] = 1;
+	//}
+	//options = Object.keys(newlist).sort();
+
+	var optionlist = '<option value="">any clef</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	var i;
+	remappings = {};
+	for (i=0; i<options.length; i++) {
+		remappings[options[i]] = "^" + options[i] + "$";
+	}
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
 
 
 //////////////////////////////

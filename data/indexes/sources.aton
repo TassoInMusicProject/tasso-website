@@ -607,6 +607,28 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	B 1741
+@AUTHOR:	Belli, Girolamo
+@TITLEPAGE:	GIROLAMO BELLI / D'ARGENTA. / IL TERZO LIBRO DE MADRIGALI / A SEI VOCI. / IN VENETIA, Appresso Ricciardo Amadino. / MDXCIII.
+@TITLESHORT:	Il terzo libro de madrigali a sei voci
+@PUBLISHER:	Amadino
+@YEAR:	1593
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Pietro Aldobrandini
+@SRCDEDICATEESHORT:	Pietro Aldobrandini
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	B 1776
 @AUTHOR:	Belli, Giulio
 @TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI A CINQVE, / ET A SEI VOCI. / DI GIVLIO BELLI DA LONGIANO. / Nouamente Composto, & dato in luce. / In Venetia, Appresso Angelo Gardano. / M.D. LXXXIX.
@@ -1635,6 +1657,28 @@
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-MOe
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	C 3478
+@AUTHOR:	Coma, Annibale
+@TITLEPAGE:	DI ANNIBALE / COMA / IL SECONDO LIBRO / DE MADRIGALI, / A Quatro Voci. / Nouamente Composti, & dati in luce. / In Venetia Presso Giacomo Vincenti. / MDLXXXVIII.
+@TITLESHORT:	Il secondo libro de madrigali a quattro voci
+@PUBLISHER:	Vincenti
+@YEAR:	1588
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Mario Bevilacqua
+@SRCDEDICATEESHORT:	Mario Bevilacqua
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4415,7 +4459,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 578
 @AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
+@TITLEPAGE:	MADRIGALI / A QVATRO VOCI / DI LVCA MARENZIO / Nuouamente stampati, & / dati in luce. / LIBRO PRIMO. / Con priuilegio, & Licentia de' Superiori. / IN ROMA / Appresso Alessandro Gardano. / M.D. LXXXV.
 @TITLESHORT:	Madrigali a quattro voci. Libro primo
 @PUBLISHER:	Gardano
 @YEAR:	1585
@@ -4423,8 +4467,8 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Marc'Antonio Serlupi
+@SRCDEDICATEESHORT:	Marc'Antonio Serlupi
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATB
 @EXTPARTBOOKS:	CATB
@@ -5207,7 +5251,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 3467
 @AUTHOR:	Monteverdi, Claudio
-@TITLEPAGE:	
+@TITLEPAGE:	IL QVARTO LIBRO / DE MADRIGALI / A CINQVE VOCI, / DI CLAVDIO MONTEVERDE / Maestro della Musica del Sereniss. Sig. / Duca di Mantoua. / Nouamente composto, dato in luce. / IN VENETIA / Appresso Ricciardo Amadino. / MDCIII.
 @TITLESHORT:	Il quarto libro de madrigali a cinque voci
 @PUBLISHER:	Ricciardo Amadino
 @YEAR:	1603
@@ -5215,15 +5259,15 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Accademici Intrepidi di Ferrara
+@SRCDEDICATEESHORT:	Accademici Intrepidi di Ferrara
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://imslp.org/wiki/Special:ImagefromIndex/297489/hfzn
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5689,6 +5733,28 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	O 107
+@AUTHOR:	Orlandi, Camillo
+@TITLEPAGE:	ARIE, A TRE / DVE ET VOCE / SOLA / DI CAMILLO ORLANDI / VERONESE / Musico dell'Illustrissimo & Reuerendissimo / Arciuescovo, et Prencipe di Salsburg. / OPERA SECONDA. / Nouamente composta, & data in luce. / IN VENETIA, / Appresso Giacomo Vincenti. MDCXVI.
+@TITLESHORT:	Arie, a tre, due et voce sola, opera seconda
+@PUBLISHER:	Vincenti
+@YEAR:	1616
+@PUBTYPE:	single-author
+@PUBFORMAT:	score
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Marco Sittico
+@SRCDEDICATEESHORT:	Marco Sittico
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	
+@EXTPARTBOOKS:	
+@EXTNAMES:	
+@SRCLOCSIGLA:	GB-Och
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	1589-15
 @AUTHOR:	Orologio, Alessandro
 @TITLEPAGE:	DI ALESSANDRO / OROLOGIO / IL SECONDO LIBRO DE MADRI- / gali à Quatro, à Cinque, & a`Sei voci. / Nouamente composti & dati in luce. / DRESDAE, Typis Elect. Saxoniae, anno M. D. LXXXIX.
@@ -5928,6 +5994,28 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	P 1473
+@AUTHOR:	Personè, Diego
+@TITLEPAGE:	MADRIGALI / A CINQVE VOCI / Del Sig. Diego Personè / Gentil'huomo de lecce / Libro quarto. / Opera sesta
+@TITLESHORT:	Madrigali a cinque voci, libro quarto
+@PUBLISHER:	Magnetta
+@YEAR:	1628
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Napoli
+@PUBNORMLOC:	Naples
+@SRCDEDICATEE:	Scipione Borghese
+@SRCDEDICATEESHORT:	Scipione Borghese
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b52501023v/f6.image
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6522,6 +6610,28 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://gallica.bnf.fr/ark:/12148/btv1b84490674.r=crescentio%20salzilli?rk=21459;2
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	S 6446
+@AUTHOR:	Stivori, Francesco
+@TITLEPAGE:	MADRIGALI / A TRE VOCI / DI DOMINICO LAVRO / ET DI FRANCESCO STIVORI / Nouamente composti, & dati in luce. / LIBRO PRIMO. / IN VENETIA / Appresso Ricciardo Amadino. / MDXC.
+@TITLESHORT:	Madrigali a tre voci, libro primo
+@PUBLISHER:	Amadino
+@YEAR:	1590
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	Agostino Giusti
+@SRCDEDICATEESHORT:	Agostino Giusti
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CTB
+@EXTPARTBOOKS:	CTB
+@EXTNAMES:	C,T,B
+@SRCLOCSIGLA:	I-VEaf
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -7341,7 +7451,7 @@
 @@BEGIN: SOURCE
 @RISM:	V 1190
 @AUTHOR:	Venturi del Nibbio, Stefano
-@TITLEPAGE:	
+@TITLEPAGE:	DI STEFANO / VENTVRI DEL NIBBIO / IL PRIMO LIBRO / De Madrigali à Cinque Voci. / Nouamente posto in luce. / In Venetia Appresso Angelo Gardano. / MDLXXXXII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Angelo Gardano
 @YEAR:	1592
@@ -7349,8 +7459,8 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Matteo Botti
+@SRCDEDICATEESHORT:	Matteo Botti
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV

@@ -49,10 +49,15 @@ my $sourcefile     = "sources.aton";
 #my $versefile      = "aminta-verses.aton";
 #my $settingfile    = "aminta-settings.aton";
 
-my $manuscriptfile = "gerusalemme-manuscripts.aton";
-my $printfile      = "gerusalemme-prints.aton";
-my $versefile      = "gerusalemme-verses.aton";
-my $settingfile    = "gerusalemme-settings.aton";
+#my $manuscriptfile = "gerusalemme-manuscripts.aton";
+#my $printfile      = "gerusalemme-prints.aton";
+#my $versefile      = "gerusalemme-verses.aton";
+#my $settingfile    = "gerusalemme-settings.aton";
+
+my $manuscriptfile = "other-manuscripts.aton";
+my $printfile      = "other-prints.aton";
+my $versefile      = "other-verses.aton";
+my $settingfile    = "other-settings.aton";
 
 my %MANUSCRIPTS = getManuscripts("$indexdir/$manuscriptfile");
 my %PRINTS      = getPrints("$indexdir/$printfile");
@@ -318,6 +323,7 @@ sub getManuscripts {
 
 sub getPrints {
 	my ($printfile) = @_;
+print "PRINTFILE: $printfile\n";
 	return getAtonEntries($printfile, "PRINT", "SPRINTNUM");
 }
 
@@ -496,6 +502,7 @@ sub cleanKey {
 
 sub getAtonEntries {
 	my ($datafile, $ATONTAG, $IDTAG) = @_;
+print "\n=============================================\n";
 	my %output;
 	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
 	my @contents = <DFILE>;
@@ -506,9 +513,13 @@ sub getAtonEntries {
 	my %entry;
 	while (($index >= 0) && ($index < @contents)) {
 		($index, $hentry) = getAtonEntry($ATONTAG, $index, @contents);
+print "INDEX $index, HENTRY, $hentry\n";
 		if ($index > 0) {
 			# %entry = %$hentry;
 			$key = cleanKey($$hentry{$IDTAG});
+print "\tKEY = $key\n";
+print "\tATONTAG = $ATONTAG\n";
+print "\tIDTAG = $IDTAG\n";
 			if ($key !~ /^\s*$/) {
 				# ignore entries with no ID (possible in sources.aton)
 				if ($output{$key} ne "") {

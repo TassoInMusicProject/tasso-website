@@ -104,7 +104,6 @@ function fillMusicBrowsePage(options) {
 	var key;
 	var year;
 	var title;
-console.log("SEARCHLIST LENGTH = ", searchlist.length);
 	if (searchlist.length < 2) {
 		title = document.querySelector("input#browse-title");
 		if (title) {
@@ -171,6 +170,7 @@ function fillMusicOptions(gvalue, searchlist) {
 	fillMusicSelectOptions("FINAL", searchlist);
 	fillMusicSelectOptions("OMENSURATION", searchlist);
 	fillMusicSelectOptions("OCLEFS", searchlist);
+	fillMusicSelectOptions("OKEYSIG", searchlist);
 	fillMusicSelectOptions("OVOICES", searchlist);
 	fillMusicSelectOptions("MDEDICATEE", searchlist);
 	// fillMusicSelectOptions("LOCATION", searchlist);
@@ -456,6 +456,9 @@ console.log("FIELD", field);
 	if (field == "OMENSURATION") {
 		fillMusicMensurationSelect(options);
 	}
+	if (field == "OKEYSIG") {
+		fillMusicKeySigSelect(options);
+	}
 	if (field == "OCLEFS") {
 		fillMusicClefSelect(options);
 	}
@@ -480,7 +483,7 @@ console.log("FIELD", field);
 function fillMusicComposerSelect(options) {
 	var select = document.querySelector("select#browse-composer");
 	if (!select) {
-		console.log("ERROR: no music publisher select menu");
+		console.log("ERROR: no music composer select menu");
 		var sels = document.querySelectorAll("select");
 		console.log("SELECTORS:", sels);
 		return;
@@ -679,6 +682,38 @@ function fillMusicMensurationSelect(options) {
 
 //////////////////////////////
 //
+// fillMusicKeySigSelect --
+//
+
+function fillMusicKeySigSelect(options) {
+	var select = document.querySelector("select#browse-key");
+	if (!select) {
+		console.log("ERROR: no key select menu");
+		var sels = document.querySelectorAll("select");
+		console.log("SELECTORS:", sels);
+		return;
+	}
+
+	var optionlist = '<option value="">any key sig.</option>';
+	if (options.length == 0) {
+		select.style.display = "none";
+		select.innerHTML = optionlist;
+		return;
+	} else {
+		select.style.display = "inline-block";
+	}
+	var i;
+	remappings = {};
+	remappings["-"] = "^-";
+	remappings["?"] = "^\\?";
+	optionlist += getOptionListText(options, remappings);
+	select.innerHTML = optionlist;
+}
+
+
+
+//////////////////////////////
+//
 // fillMusicFinalSelect --
 //
 
@@ -774,7 +809,7 @@ function fillMusicDedicateeSelect(options) {
 	}
 	var optionlist = '<option value="">any music dedicatee</option>';
 	if (options.length == 0) {
-		select.style.display = "none";
+		// select.style.display = "none";
 		select.innerHTML = optionlist;
 		return;
 	} else {

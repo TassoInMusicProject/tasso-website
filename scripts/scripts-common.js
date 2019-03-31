@@ -1637,6 +1637,13 @@ console.log("STARTING LIST", list);
 	}
 	for (i=0; i<list.length; i++) {
 		var id = list[i].PRINCEPSRISM;
+		if (!id) {
+			id = list[i].RISM;
+		}
+		if (!id) {
+			console.log("Warning: entry has no RISM:", list[i]);
+		}
+		var id = list[i].PRINCEPSRISM;
 		var value = RSOURCES[id];
 		if (value) {
 			list[i].SOURCE = value;

@@ -29,7 +29,7 @@ of a poem on the main page:
 to a page displaying the text of the poem in modern edition and a
 line-by-line English translation. For the <i>Rime</i>, modern
 editions are drawn from Angelo Solerti, <i>Le rime di Torquato
-Tasso</i>, 4 vols. (Bologna: Romagnoli-Dall-Acqua, 1898-1902),
+Tasso</i>, 4 vols. (Bologna: Romagnoli-Dall'Acqua, 1898-1902),
 which, although dated and far from current editorial standards,
 remains the only comphrensive edition of Tasso's <i>Rime</i>. When
 a poem from the <i>Rime</i> is available in the currently undergoing

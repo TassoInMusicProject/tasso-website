@@ -47,7 +47,7 @@ function doSearch() {
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
 		if (request.readyState == XMLHttpRequest.DONE) {
-			displayResults(request.responseText);
+			displayResults(request.responseText, {pquery: pquery, iquery: iquery, rquery: rquery});
 		} else if (request.status == 400) {
 			console.log("THERE WAS AN ERROR IN THE SEARCH");
 		} else {
@@ -65,9 +65,10 @@ function doSearch() {
 // displayResults
 //
 
-function displayResults(results) {
+function displayResults(results, options) {
 	var r = JSON.parse(results);
-	console.log("R", r);
+	// console.log("R", r);
+	// console.log("OPTIONS", options);
 
 	var results = document.querySelector("#results");
 	var summary = document.querySelector("#summary");
@@ -100,7 +101,7 @@ function displayResults(results) {
 	rtable += "<th>work</th>";
 	rtable += "</tr>";
 	for (var i=0; i<r.locations.length; i++) {
-		rtable += displayResultRow(r.locations[i]);
+		rtable += displayResultRow(r.locations[i], options);
 	}
 	rtable += "</table>";
 	results.innerHTML = rtable;
@@ -112,7 +113,7 @@ function displayResults(results) {
 // displayResultRow --
 //
 
-function displayResultRow(entry) {
+function displayResultRow(entry, options) {
 	var meta = RWORKLIST[entry.id];
 	var title;
 	if (meta) {
@@ -141,7 +142,11 @@ function displayResultRow(entry) {
 	rtext += "</td>";
 
 	rtext += "<td>";
-	rtext += "<a href='" + url + "id=" + entry.id + "'>" + title + "</a>";
+	rtext += "<a href='" + url + "id=" + entry.id;
+	if (options.pquery) {
+		rtext += "&mquery=" + options.pquery;  // URL escape pquery...
+	}
+	rtext += "'>" + title + "</a>";
 	rtext += "</td>";
 
 	rtext += "</tr>";
@@ -157,7 +162,9 @@ function displayResultRow(entry) {
 function buildReverseWorklist() {
 	PrepareGlobalTassoObjects();
 
-	WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+	if (sessionStorage.WORKLIST) {
+		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+	}
 
 	RWORKLIST = {};
 

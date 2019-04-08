@@ -2,6 +2,7 @@
 // Music-tab related functions.
 //
 // vim: ts=3
+//
 
 
 
@@ -591,9 +592,15 @@ function fillMusicOvoiceSelect(options) {
 	} else {
 		select.style.display = "inline-block";
 	}
-	var i;
 	remappings = {};
 	remappings["?"] = "^\\?";
+	for (i=0; i<options.length; i++) {
+		if (options[i].match("\\+")) {
+			var newval = options[i].replace(/\+/g, "\\s*\\+\\s*");
+			remappings[options[i]] = newval;
+		}
+	}
+	console.log("REMAPPING", remappings);
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;
 }

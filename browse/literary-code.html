@@ -117,7 +117,6 @@ function fillLiteraryBrowsePage(options) {
 	fillReverseManuscripts();
 	fillReversePrints();
 
-	// var works = filterLiteraryData(RIMEVERSELIST);
 	var works = filterLiteraryData(searchlist);
 	var count = works.length;
 	var countElement = document.querySelector("#work-count");
@@ -401,7 +400,9 @@ function fillLiteraryPrintsSelect(options) {
 	});
 	var optionlist = '<option value="">any print</option>';
 	remappings = {};
-	// remappings["canzone"] = "^canzone$";
+	for (i=0; i<options.length; i++) {
+		remappings[options[i]] = "^" + options[i] + "$";
+	}
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;
 }
@@ -511,6 +512,21 @@ function filterLiteraryData(entries) {
 
 	if (manlocation) {
 		output = filterByField(output, "MANLOCATION", manlocation);
+	}
+
+	if (manuscript && manlocation) {
+		output = filterByLinkedManuscriptFields(output, "LOCATION", manlocation, 
+			"SMSIGLUM", manuscript);
+	}
+
+	if (print && publocation) {
+		output = filterByLinkedPrintFields(output, "SPRINTNUM", print, 
+			"PUBLOCATION", publocation);
+	}
+
+	if (litpub && publocation) {
+		output = filterByLinkedPrintFields(output, "PUBLISHER", litpub, 
+			"PUBLOCATION", publocation);
 	}
 
 	return output;

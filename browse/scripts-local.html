@@ -231,6 +231,75 @@ console.log("GOT HERE", entries);
 
 //////////////////////////////
 //
+// filterbyLinkedPrintFields --
+//
+
+function filterByLinkedPrintFields(entries, tag1, value1, tag2, value2) {
+console.log("CHECKING TAG1", tag1, "TAG2", tag2);
+	if (!entries) {
+		return [];
+	}
+	if (entries.length == 0) {
+		return [];
+	}
+	var output = [];
+
+	var re1 = new RegExp(value1, "i");
+	var re2 = new RegExp(value2, "i");
+
+	for (var i=0; i<entries.length; i++) {
+		var entry = entries[i];
+		if (!entry.PRINTS) {
+			continue;
+		}
+		for (var prn in entry.PRINTS) {
+			if (entry.PRINTS[prn][tag1].match(re1) &&
+			    entry.PRINTS[prn][tag2].match(re2)) {
+				output.push(entry);
+			}
+		}
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// filterbyLinkedManuscriptFields --
+//
+
+function filterByLinkedManuscriptFields(entries, tag1, value1, tag2, value2) {
+	if (!entries) {
+		return [];
+	}
+	if (entries.length == 0) {
+		return [];
+	}
+	var output = [];
+
+	var re1 = new RegExp(value1, "i");
+	var re2 = new RegExp(value2, "i");
+
+	for (var i=0; i<entries.length; i++) {
+		var entry = entries[i];
+		if (!entry.MANUSCRIPTS) {
+			continue;
+		}
+		for (var manu in entry.MANUSCRIPTS) {
+			if (entry.MANUSCRIPTS[manu][tag1].match(re1) &&
+			    entry.MANUSCRIPTS[manu][tag2].match(re2)) {
+				output.push(entry);
+			}
+		}
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
 // filterByField --
 //
 

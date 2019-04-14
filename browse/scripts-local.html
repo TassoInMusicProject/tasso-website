@@ -235,7 +235,7 @@ console.log("GOT HERE", entries);
 //
 
 function filterByLinkedPrintFields(entries, tag1, value1, tag2, value2) {
-console.log("CHECKING TAG1", tag1, "TAG2", tag2);
+console.log("CHECKING TAG1", tag1, value1, "TAG2", tag2, value2);
 	if (!entries) {
 		return [];
 	}
@@ -256,6 +256,7 @@ console.log("CHECKING TAG1", tag1, "TAG2", tag2);
 			if (entry.PRINTS[prn][tag1].match(re1) &&
 			    entry.PRINTS[prn][tag2].match(re2)) {
 				output.push(entry);
+				break;
 			}
 		}
 	}

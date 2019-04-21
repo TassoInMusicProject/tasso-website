@@ -5,8 +5,8 @@ use strict;
 
 my $indexdir = "../indexes";
 # my $versefile   = "rime-verses.aton";
-#my $versefile   = "gerusalemme-verses.aton";
-my $versefile   = "aminta-verses.aton";
+my $versefile   = "gerusalemme-verses.aton";
+#my $versefile   = "aminta-verses.aton";
 my %VERSES      = getVerses("$indexdir/$versefile");
 my $basedir = "../../variorum/data";
 

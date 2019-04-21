@@ -305,18 +305,18 @@ function displayMultiplePoemVariants() {
 function prepareReverseVerse(vlist) {
 	var output = {};
 	for (var i=0; i<vlist.length; i++) {
-		var id = vlist[i].SOLERTI;
-		if (id) {
-			var iid = "Trm";
-			if (id < 1000) { iid += "0"; }
-			if (id < 100)  { iid += "0"; }
-			if (id < 10)   { iid += "0"; }
-			iid += id;
-			output[iid] = vlist[i];
-		} else {
+		var id = vlist[i].CATALOGNUM;
+		//if (id) {
+		//	var iid = "Trm";
+		//	if (id < 1000) { iid += "0"; }
+		//	if (id < 100)  { iid += "0"; }
+		//	if (id < 10)   { iid += "0"; }
+		//	iid += id;
+		//	output[iid] = vlist[i];
+		//} else {
 			id = vlist[i].CATALOGNUM;
 			output[id] = vlist[i];
-		}
+		//}
 	}
 	console.log("VLIST ", output);
 	return output;

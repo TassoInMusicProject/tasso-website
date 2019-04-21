@@ -4,7 +4,9 @@
 use strict;
 
 my $indexdir = "../indexes";
-my $versefile   = "rime-verses.aton";
+# my $versefile   = "rime-verses.aton";
+#my $versefile   = "gerusalemme-verses.aton";
+my $versefile   = "aminta-verses.aton";
 my %VERSES      = getVerses("$indexdir/$versefile");
 my $basedir = "../../variorum/data";
 
@@ -29,7 +31,7 @@ sub createCollationFile {
 	}
 	close FILE;
 	my $catalognum = getCatalogNum(@contents);
-	die "Unknown type of catalog number: $catalognum\n" if $catalognum !~ /^Trm\d+$/;
+	die "Unknown type of catalog number: $catalognum\n" if $catalognum !~ /^T..\d+$/;
 	# die "Cannot find source directory $basedir/$catalognum" if !-d "$basedir/$catalognum";
 	return if !-d "$basedir/$catalognum";
 	print "PREPARING $catalognum\n";

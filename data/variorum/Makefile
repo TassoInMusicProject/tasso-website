@@ -14,7 +14,9 @@ template:
 
 c: collation
 collation:
-	bin/createcollation *.aton
+	# bin/createcollation Trm*.aton
+	bin/createcollation Tam*.aton
+	# bin/createcollation Tsg*.aton
 
 l: list
 list:

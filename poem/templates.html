@@ -705,6 +705,9 @@ function reverseName(text) {
 Handlebars.registerHelper("parentheticalinfo",  function (obj) {
 	var output = "";
 console.log("OBJ", obj);
+	if (!obj) {
+		return new Handlebars.SafeString("");
+	}
 	if (obj.SOLERTI) {
 		output = "(<i>Rime</i> " + obj.SOLERTI + ")";
 		return new Handlebars.SafeString(output);

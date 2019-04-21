@@ -404,16 +404,17 @@ N.B.: dark text indicates editions of one or more musical settings are now avail
 
 Handlebars.registerHelper("trclass", function(solerti, catalognum, catalogbase) {
 	var id = "";
-	if (solerti) {
-		len = solerti.length;
-		id = "Trm";
-		switch (len) {
-			case 4: id +=         solerti; break;
-			case 3: id += "0"   + solerti; break;
-			case 2: id += "00"  + solerti; break;
-			case 1: id += "000" + solerti; break;
-		}
-	} else if (catalognum){
+//	if (solerti) {
+//		len = solerti.length;
+//		id = "Trm";
+//		switch (len) {
+//			case 4: id +=         solerti; break;
+//			case 3: id += "0"   + solerti; break;
+//			case 2: id += "00"  + solerti; break;
+//			case 1: id += "000" + solerti; break;
+//		}
+//	} else if (catalognum){
+	if (catalognum){
 		id = catalognum;
 	} else if (catalogbase){
 		id = catalogbase;
@@ -422,7 +423,7 @@ Handlebars.registerHelper("trclass", function(solerti, catalognum, catalogbase) 
 		return new Handlebars.SafeString("<tr class='nowork'>");
 	}
 	var output = "";
-	if (RWORKLIST[id] || id.match(/Trm1653/) || id.match(/Trm1263/)) {
+	if (RWORKLIST[id] || id.match(/Trm1653/) || id.match(/Trm1263/) || id.match(/NSM/i)) {
 		output += "<tr class='data haswork'>";
 	} else {
 		output += "<tr class='data nowork'>";

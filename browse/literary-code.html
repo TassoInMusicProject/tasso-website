@@ -402,7 +402,7 @@ function fillLiteraryPrintsSelect(options) {
 	var optionlist = '<option value="">any print</option>';
 	remappings = {};
 	for (i=0; i<options.length; i++) {
-		remappings[options[i]] = "^" + options[i] + "$";
+		remappings[options[i]] = "\\b" + options[i] + "\\b";
 	}
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;
@@ -500,7 +500,9 @@ function filterLiteraryData(entries) {
 	}
 
 	if (print) {
+console.log("FILTERING BY PRINT", print, "input count is", output.size);
 		output = filterByField(output, "PRINTSRC", print, true);
+console.log("FILTERING BY PRINT", print, "output count is", output.size);
 	}
 
 	if (publocation) {
@@ -521,11 +523,13 @@ function filterLiteraryData(entries) {
 	}
 
 	if (print && publocation) {
+console.log("FILTERING BY PRINT AND PUBLICATION", print, publication);
 		output = filterByLinkedPrintFields(output, "SPRINTNUM", print, 
 			"PUBLOCATION", publocation);
 	}
 
 	if (litpub && publocation) {
+console.log("FILTERING BY LITPUB AND PUBLICATION", litpub, publication);
 		output = filterByLinkedPrintFields(output, "PUBLISHER", litpub, 
 			"PUBLOCATION", publocation);
 	}

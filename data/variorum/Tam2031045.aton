@@ -748,10 +748,15 @@
 @ID:		Tam2031045a-Canto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:		
-@PARATEXT:	
+@PAGE:		2
+@PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-@VERSE:		
+[TACET]
+Hoime che di che porti
+O la vita o la morte
+Porto salut’e vita S’ardirai
+di farti lor incontra Ma fà d’huopo
+d’esser un’ huom’ Aminta un’ huom’ ardito.	
 @@END: VARIORUM
 
 
@@ -760,10 +765,15 @@
 @ID:		Tam2031045a-Alto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:		
-@PARATEXT:	
+@PAGE:		2
+@PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-@VERSE:		
+Nove Aminta t’annoncio di conforto
+Lascia homai questo tanto lamentarti
+[TACET]
+Porto salut’e vita s’ardirai
+Di farti lor incontra ma fà d’huopo
+D’esser un’ huom’ Aminta un’ huom’ ardito.	
 @@END: VARIORUM
 
 
@@ -772,10 +782,15 @@
 @ID:		Tam2031045a-Tenore
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:		
-@PARATEXT:	
+@PAGE:		2
+@PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-@VERSE:		
+[TACET]
+Hoime che di che porte
+O la vita o la morte
+Porto salut’ e vita s’ardirai
+Di farti lor incontra ma fà d’huopo
+D’esser un’ huom’ Aminta un’ huom’ ardito.	
 @@END: VARIORUM
 
 
@@ -784,10 +799,15 @@
 @ID:		Tam2031045a-Basso
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:		
-@PARATEXT:	
+@PAGE:		2
+@PARATEXT:	Li tre Aminta uniti.	
 @VERSE:		
-@VERSE:		
+[TACET]
+Hoime che di che porti
+O la vita o la morte
+Porto salut’e vita S’ardirai
+di farti lor incontra Ma fà d’huopo
+D’esser un’ huom’ Aminta un’ huom’ ardito.	
 @@END: VARIORUM
 
 
@@ -796,10 +816,15 @@
 @ID:		Tam2031045a-Quinto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:		
-@PARATEXT:	
+@PAGE:		2
+@PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-@VERSE:		
+Nove Aminta t’annoncio di conforto
+Lascia homai questo tanto lamentarti
+[TACET]
+Porto salut’e vita s’ardirai
+Di farti lor incontra ma fà d’huopo
+D’esser un’ huom’ Aminta un’ huom’ ardito.		
 @@END: VARIORUM
 
 
@@ -808,45 +833,72 @@
 @ID:		Tam2031045a-Sesto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:		
-@PARATEXT:	
+@PAGE:		2
+@PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-@VERSE:		
+Nove Aminta t’annoncio di conforto
+Lascia homai questo tanto lamentarti
+[TACET] 
+Porto salut’e vita s’ardirai
+Di farti lor incontra ma fà d’huopo
+D’esser un’ huom’ Aminta un’ huom’ ardito.
 @@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
-@ID:		Tam2031045b-Canto
+@ID:		Tam2031045b-Canto [Canto I]
 @TYPE:		music
 @COMPOSER:	Marotta, Erasmo
-@PAGE:		
-@PARATEXT:	
+@PAGE:		20
+@PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Tam2031045
+@ID:		Tam2031045b-Quinto [Canto II]
+@TYPE:		music
+@COMPOSER:	Marotta, Erasmo
+@PAGE:		20
+@PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Tam2031045
+@ID:		Tam2031045b-Quinto [Alto II]
+@TYPE:		music
+@COMPOSER:	Marotta, Erasmo
+@PAGE:		20
+@PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Tam2031045
+@ID:		Tam2031045b-Canto [Tenore I]
+@TYPE:		music
+@COMPOSER:	Marotta, Erasmo
+@PAGE:		20
+@PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
+@VERSE:		
+@VERSE:		
+@@END: VARIORUM
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
 @ID:		Tam2031045b-Basso
 @TYPE:		music
 @COMPOSER:	Marotta, Erasmo
-@PAGE:		
-@PARATEXT:	
+@PAGE:		20
+@PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
 
-@@BEGIN: VARIORUM
-@CATALOGNUM:	Tam2031045
-@ID:		Tam2031045b-Quinto
-@TYPE:		music
-@COMPOSER:	Marotta, Erasmo
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
-@VERSE:		
-@@END: VARIORUM
 

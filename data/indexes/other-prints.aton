@@ -546,19 +546,11 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	1587C
-@PRINTTITLE:	
+@PRINTTITLE:	Il Re Torrismondo tragedia del  Sig. Torquato Tasso. Accomodata di nuovo in molti luochi secondo la intentione dell'Autore con una gionta del medesmo
 @PUBLISHER:	Giulio Cesare Cagnacini & fratelli
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1587
-@@END:		PRINT
-
-
-@@BEGIN:	PRINT
-@SPRINTNUM:	1588Cf
-@PRINTTITLE:	
-@PUBLISHER:	Giulio Cesare Cagnacini & fratelli
-@PUBLOCATION:	Ferrara
-@PUBYEAR:	1587
+@URL: https://books.google.com/books?id=795mAAAAcAAJ&dq=tasso+torrismondo&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -595,6 +587,15 @@
 @PRINTTITLE:	
 @PUBLISHER:	Girolamo Discepolo
 @PUBLOCATION:	Verona
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1588Cf
+@PRINTTITLE:	
+@PUBLISHER:	Giulio Cesare Cagnacini & fratelli
+@PUBLOCATION:	Ferrara
 @PUBYEAR:	1587
 @@END:		PRINT
 

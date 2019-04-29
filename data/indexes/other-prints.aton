@@ -51,11 +51,12 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1583O
+@SPRINTNUM:	1582O
 @PRINTTITLE:	
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
 @PUBYEAR:	1582
+@URL: 
 @@END:		PRINT
 
 
@@ -167,10 +168,11 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	1582O
-@PRINTTITLE:	
+@PRINTTITLE:	Il Rinaldo del Signor Torquato Tasso. Novamente ricorretto e ristampato [...]
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
 @PUBYEAR:	1582
+@URL: https://books.google.com/books?id=bNNeTHdeqaQC&dq=tasso+rinaldo&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -234,6 +236,16 @@
 @PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
 @PUBLOCATION:	Venice
 @PUBYEAR:	1608
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1621D
+@PRINTTITLE:	Il Rinaldo del Sig. Torquato Tasso. Di nuovo riveduto, & con diligenza corretto [...]
+@PUBLISHER:	Evangelista Deuchino
+@PUBLOCATION:	Venice
+@PUBYEAR:	1621
+@URL: https://books.google.com/books?id=C1qYefRE7qcC&dq=tasso+rinaldo&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -339,7 +351,7 @@
 @@@ Lagrime della Beata Vergine                                         @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593CV
+@SPRINTNUM:	1593V
 @PRINTTITLE:	
 @PUBLISHER:	Comin Ventura
 @PUBLOCATION:	Bergamo
@@ -385,10 +397,11 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	1593Fs
-@PRINTTITLE:	
+@PRINTTITLE:	Stanze del Sig. Torquato Tasso per le Lagrime di Maria Vergine Santissima er di Giesu Christo Nostro Signore
 @PUBLISHER:	Pietro Farri
 @PUBLOCATION:	Senigallia
 @PUBYEAR:	1593
+@URL: https://books.google.com/books?id=ykglv12yAQwC&dq=tasso+lagrime&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -488,11 +501,12 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587CV<sub>bis</sub>
-@PRINTTITLE:	
+@SPRINTNUM:	1587Vb
+@PRINTTITLE:	Il Re Torrismondo tragedia del Sig. Torquato Tasso
 @PUBLISHER:	Comino Ventura & Compagni
 @PUBLOCATION:	Bergamo
 @PUBYEAR:	1587
+@URL: https://books.google.com/books?id=G3nRO6zOaWIC&dq=tasso+torrismondo&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -515,7 +529,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587V
+@SPRINTNUM:	1587Vf
 @PRINTTITLE:	
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
@@ -533,20 +547,12 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587C
-@PRINTTITLE:	
+@SPRINTNUM:	1587Cf
+@PRINTTITLE:	Il Re Torrismondo tragedia del  Sig. Torquato Tasso. Accomodata di nuovo in molti luochi secondo la intentione dell'Autore con una gionta del medesmo
 @PUBLISHER:	Giulio Cesare Cagnacini & fratelli
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1587
-@@END:		PRINT
-
-
-@@BEGIN:	PRINT
-@SPRINTNUM:	1588Cf
-@PRINTTITLE:	
-@PUBLISHER:	Giulio Cesare Cagnacini & fratelli
-@PUBLOCATION:	Ferrara
-@PUBYEAR:	1587
+@URL: https://books.google.com/books?id=795mAAAAcAAJ&dq=tasso+torrismondo&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -561,10 +567,11 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	1587O
-@PRINTTITLE:	
+@PRINTTITLE:	Il Re Torrismondo tragedia del Sig. Torquato Tasso
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
 @PUBYEAR:	1587
+@URL: https://books.google.com/books?id=XJcNDJrr2aYC&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -587,11 +594,21 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1588Ct
+@SPRINTNUM:	1588Cf
 @PRINTTITLE:	
+@PUBLISHER:	Giulio Cesare Cagnacini & fratelli
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1587
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	1588Ct
+@PRINTTITLE:	Il Re Torrismondo. Tragedia finita. Del Sig. Torquato Tasso. Di nuovo accommodata, & mandata in luce da lui medesimo
 @PUBLISHER:	Giovanni Michele e Giovanni Vincenzo Cavalleri
 @PUBLOCATION:	Turin
 @PUBYEAR:	1588
+@URL: https://books.google.com/books?id=lMtJmxgOT6EC&dq=tasso+torrismondo&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -624,10 +641,11 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	1617G
-@PRINTTITLE:	
+@PRINTTITLE:	Il Re Torrismondo tragedia del S. Torquato Tasso
 @PUBLISHER:	Comino Gallina
 @PUBLOCATION:	Venice
 @PUBYEAR:	1617
+@URL: https://books.google.com/books?id=73bRiPEH98wC&dq=tasso+torrismondo&source=gbs_navlinks_s
 @@END:		PRINT
 
 
@@ -655,7 +673,7 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	1593F
-@PRINTTITLE:	
+@PRINTTITLE:	Di Gerusalemme conquistata del Sig. Torquato Tasso libri XXIIII.
 @PUBLISHER:	Guglielmo Facciotti
 @PUBLOCATION:	Rome
 @PUBYEAR:	1593
@@ -665,7 +683,7 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:	1594V
-@PRINTTITLE:	
+@PRINTTITLE:	Della Gerusalemme conquistata del Sig. Torquato Tasso libri XXIV, novellamente ristampata con gli argomenti à ciascun libro del Signor Gio. Battista Msserengo
 @PUBLISHER:	Andrea Viani
 @PUBLOCATION:	Pavia
 @PUBYEAR:	1594
@@ -675,7 +693,7 @@
 
 @@BEGIN:	PRINT
 @SPRINTNUM:1595A
-@PRINTTITLE:	
+@PRINTTITLE:	Di Gerusalemme conquistata del Sig. Torquato Tasso. Libri XXIIII.
 @PUBLISHER:	Abel L'Angelieri
 @PUBLOCATION:	Paris
 @PUBYEAR:	1595

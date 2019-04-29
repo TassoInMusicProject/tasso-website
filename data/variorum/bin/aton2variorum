@@ -3,15 +3,22 @@
 
 use strict;
 
+my $rep = $ARGV[0];
+if ($rep =~ /^\s*$/) {
+	$rep = "rime";
+}
+
 my $basedir = "../../variorum/data";
 
 `mkdir -p $basedir`;
 
 my $indexdir = "../indexes";
-my $manuscriptfile = "rime-manuscripts.aton";
-my $printfile      = "rime-prints.aton";
-my $versefile      = "rime-verses.aton";
-my $settingfile    = "rime-settings.aton";
+
+my $manuscriptfile = "$rep-manuscripts.aton";
+my $printfile      = "$rep-prints.aton";
+my $versefile      = "$rep-verses.aton";
+my $settingfile    = "$rep-settings.aton";
+
 my $sourcefile     = "sources.aton";
 
 my %MANUSCRIPTS = getManuscripts("$indexdir/$manuscriptfile");
@@ -218,10 +225,12 @@ print "READING FROM LINE $i : $line\n";
 		} else {
 			$data{"XMLID"} = "$data{'ID'}";
 		}
+
+		if ($pp =~ /^\s*$/) {
+			$pp = $PRINTS{"S$pid"};
+		}
 		
 		if ($pp =~ /^\s*$/) {
-			die "Cannot work without print reference >>$pid<<\n";
-		} elsif (!$pp) {
 			die "Cannot work without print reference >>$pid<<\n";
 		} 
 

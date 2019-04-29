@@ -4,6 +4,7 @@
 <script>
 // vim: ts=3 ft=javascript
 
+var PITCHQUERY = "";
 
 //////////////////////////////
 //
@@ -20,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	$(document.body).keyup(function(event) {
 		//if (event.which == EnterKey) {
+		// Require pressing the search button for now:
+		/*
 			if ($("#pitch:focus")) {
 				doSearch();
 			} else if ($("#interval:focus")) {
@@ -27,11 +30,21 @@ document.addEventListener("DOMContentLoaded", function() {
 			} else if ($("#rhythm:focus")) {
 				doSearch();
 			}
+		*/
 		//}
 	});
 
+	var searchbutton = document.querySelector("#searchButton");
+	if (searchbutton) {
+		searchbutton.addEventListener("click", function() {
+			console.log("DOING SEARCH");
+			doSearch();
+		});
+	}
+
 	LoadTassoData(doActions);
 });
+
 
 
 function doActions() {

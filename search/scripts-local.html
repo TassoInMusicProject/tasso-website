@@ -41,6 +41,8 @@ function doSearch() {
 		return;
 	}
 
+	PITCHQUERY = pquery;
+
 	var url = "http://josquin.stanford.edu/cgi-bin/tasso?";
 	url += "C=" + repertory;
 	url += "&pitch="    + pquery;
@@ -210,7 +212,12 @@ function displaySingleWork(id) {
 	if (!id) {
 		return;
 	}
-	window.location.href = "/work?id=" + id;
+	var extra = "";
+	if (PITCHQUERY && !PITCHQUERY.match(/^\s*$/)) {
+		extra = "&k=e&q=" + encodeURI(PITCHQUERY);
+	} 
+	// window.location.href = "/work?id=" + id + extra;
+	window.open("/work?id=" + id + extra, "_blank");
 }
 
 

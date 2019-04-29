@@ -3,6 +3,7 @@ vim: ts=3
 scripts-local: true
 aton: true
 style-local: true
+handlebars: true
 permalink: /search/index.html
 jquery: true
 ---
@@ -14,27 +15,27 @@ jquery: true
 
 <td>
 
-	<div class="form-group">
-		<input autocomplete="off" id="pitch" type="text" class="form-control" placeholder="Enter Pitch">
-	</div>
+<div class="form-group">
+	<input autocomplete="off" id="pitch" type="text" class="form-control" placeholder="Enter pitch">
+</div>
 
-	<div class="form-group">
-		<input autocomplete="off" id="interval" type="text" class="form-control" placeholder="Enter Interval">
-	</div>
+<div class="form-group">
+	<input autocomplete="off" id="interval" type="text" class="form-control" placeholder="Enter interval">
+</div>
 
-	<div class="form-group">
-		<input autocomplete="off" id="rhythm" type="text" class="form-control" placeholder="Enter Rhythm">
-	</div>
+<div class="form-group">
+	<input autocomplete="off" id="rhythm" type="text" class="form-control" placeholder="Enter rhythm">
+</div>
 
 </td>
 <td>
 	<span class="form-group">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repertory:
-		<select>
-			<option>Rime</option>
-			<option>Gerusalemme</option>
-			<option>Aminta</option>
-			<option disabled>All</option>
+		<select id="repertory">
+			<option value="Trm">Rime</option>
+			<option value="Tsg">Gerusalemme</option>
+			<option value="Tam">Aminta</option>
+			<option disabled value="Trm,Tsg,Tam">All</option>
 		</select>
 	</span>
 		</td>
@@ -48,24 +49,6 @@ jquery: true
 
 <div style="margin-top:20px"></div>
 <div id="results"></div>
-
-<style>
-
-th {
-	font-style: italic;
-	text-align: left;
-}
-
-td {
-	vertical-align: top;
-}
-
-td:nth-child(2) {
-	vertical-align: top;
-	padding-right:20px;
-}
-
-</style>
 
 
 

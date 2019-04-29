@@ -1,4 +1,6 @@
 
+{% include_relative sorting-functions.html %}
+
 <script>
 // vim: ts=3 ft=javascript
 
@@ -28,8 +30,15 @@ document.addEventListener("DOMContentLoaded", function() {
 		//}
 	});
 
-	LoadTassoData(buildReverseWorklist);
+	LoadTassoData(doActions);
 });
+
+
+function doActions() {
+   PrepareGlobalTassoObjects();
+}
+
+
 
 
 

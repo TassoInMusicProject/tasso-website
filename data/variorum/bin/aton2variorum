@@ -133,7 +133,6 @@ print "READING FROM LINE $i : $line\n";
 	}
 
 	if (!$foundstart) {
-print "GOT HERE SSS\n";
 		return $endi;
 	}
 
@@ -210,12 +209,15 @@ print "GOT HERE SSS\n";
 
 	my %p;
 	if ($data{"TYPE"} =~ /print/i) {
-		if ($data{"ID"} =~ /^\d/) {
-			# id must start with a letter, using "S":
-			$data{"ID"} = "S$data{'ID'}";
-		}
 		my $pid = $data{"ID"};
 		my $pp = $PRINTS{$pid};
+
+		if ($data{"ID"} =~ /^\d/) {
+			# id must start with a letter, using "S":
+			$data{"XMLID"} = "S$data{'ID'}";
+		} else {
+			$data{"XMLID"} = "$data{'ID'}";
+		}
 		
 		if ($pp =~ /^\s*$/) {
 			die "Cannot work without print reference >>$pid<<\n";

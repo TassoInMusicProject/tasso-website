@@ -5,6 +5,7 @@ v: variorum
 variorum:
 	# cat Trm*.aton | bin/aton2variorum
 	cat Tsg*.aton | bin/aton2variorum
+	#cat Tam*.aton | bin/aton2variorum
 
 
 t: template
@@ -16,8 +17,8 @@ template:
 c: collation
 collation:
 	# bin/createcollation Trm*.aton
-	# bin/createcollation Tam*.aton
 	bin/createcollation Tsg*.aton
+	#bin/createcollation Tam*.aton
 
 l: list
 list:

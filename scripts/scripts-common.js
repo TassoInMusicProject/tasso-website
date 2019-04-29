@@ -28,6 +28,7 @@ var WORKLIST;           // list of musical settings
 var LASTTIME = -1;
 
 var TASSODATA;          // master data structure for database
+var RSETTINGS;          // setting entries indexed by catalog number
 
 
 // VARIABLES EXTRACTED FROM TASSODATA object:
@@ -1370,6 +1371,9 @@ function PrepareGlobalTassoObjects() {
 		ALLSETTINGLIST = RIMESETTINGLIST.concat(AMINTASETTINGLIST,
 			GERUSETTINGLIST, OTHERSETTINGLIST);
 	}
+	if (!RSETTINGS) {
+		RSETTINGS = GetRsettings(ALLSETTINGLIST);
+	}
 	if (!ECLOGHESETTINGLIST) {
 		ECLOGHESETTINGLIST = [];
 		RINALDOSETTINGLIST = [];
@@ -1465,6 +1469,21 @@ function PrepareGlobalTassoObjects() {
 	InsertComposersIntoSettings();
 	InsertManuscriptLocationsIntoVerseList();
 	InsertPrintLocationsIntoVerseList();
+}
+
+
+//////////////////////////////
+//
+// GetRsettings -- Return a list of settings indexed by catalog number.
+//
+
+function GetRsettings(data) {
+	var output = {};
+	for (var i=0; i<data.length; i++) {
+		var catalognum = data[i].CATALOGNUM;
+		output[catalognum] = data[i];
+	}
+	return output;
 }
 
 

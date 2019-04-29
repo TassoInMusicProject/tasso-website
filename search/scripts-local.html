@@ -26,6 +26,9 @@ function doSearch() {
 	var rhythm = document.getElementById("rhythm");
 	var rquery = rhythm.value;
 
+	var relement = document.getElementById("repertory");
+	var repertory = relement.value;
+
 	if (
 			pquery.match(/^\s*$/) &&
 			iquery.match(/^\s*$/) &&
@@ -39,7 +42,8 @@ function doSearch() {
 	}
 
 	var url = "http://josquin.stanford.edu/cgi-bin/tasso?";
-	url += "pitch="     + pquery;
+	url += "C=" + repertory;
+	url += "&pitch="    + pquery;
 	url += "&interval=" + iquery;
 	url += "&rhythm="   + rquery;
 
@@ -67,10 +71,16 @@ function doSearch() {
 
 function displayResults(results, options) {
 	var r = JSON.parse(results);
-	// console.log("R", r);
+	console.log("R", r);
 	// console.log("OPTIONS", options);
 
-	var results = document.querySelector("#results");
+	var element = document.querySelector("#results");
+	var tsource = document.querySelector("#music-search-template").textContent;
+	var template = Handlebars.compile(tsource);
+	element.innerHTML = template(r);
+	sortByNumber(0);
+
+	// var results = document.querySelector("#results");
 	var summary = document.querySelector("#summary");
 
 	var stext = "";
@@ -94,18 +104,55 @@ function displayResults(results, options) {
 	}
 	summary.innerHTML = stext;
 
-	var rtable = "<table>";
+/*
+
+	var rtable = "<table id='searchList'>";
+	rtable += "<thead>";
 	rtable += "<tr>";
 	rtable += "<th style='width:70px;'>count</th>";
 	rtable += "<th>composer</th>";
 	rtable += "<th>work</th>";
 	rtable += "</tr>";
+	rtable += "</thead>";
+	rtable += "<tbody>";
 	for (var i=0; i<r.locations.length; i++) {
 		rtable += displayResultRow(r.locations[i], options);
 	}
+	rtable += "</tbody>";
 	rtable += "</table>";
+	results.display = "none";
 	results.innerHTML = rtable;
+	sortResultsBy(0);
+	results.display = "block";
+*/
+
+
 }
+
+
+//////////////////////////////
+//
+// sortResultsBy --
+//
+
+function sortResultsBy(columnIndex) {
+	var rows = document.querySelector("table#searchList tbody tr")
+	var rowlist = [];
+	for (var i=0; i<rows.length; i++) {
+		rowlist.push(rows[i]);
+	}
+	if (columnIndex == 0) {
+		rowlist.sort(function(a, b) {
+			var A = a.querySelector("td").textContent;
+			var B = a.querySelector("td").textContent;
+			return B - A;
+		});
+	} else {
+	}
+
+
+}
+
 
 
 //////////////////////////////
@@ -114,7 +161,7 @@ function displayResults(results, options) {
 //
 
 function displayResultRow(entry, options) {
-	var meta = RWORKLIST[entry.id];
+	var meta = RSETTINGS[entry.id];
 	var title;
 	if (meta) {
 		if (meta.TITLE) {
@@ -156,27 +203,15 @@ function displayResultRow(entry, options) {
 
 //////////////////////////////
 //
-// buildReveseWorklist --
+// displaySingleWork --
 //
 
-function buildReverseWorklist() {
-	PrepareGlobalTassoObjects();
-
-	if (sessionStorage.WORKLIST) {
-		WORKLIST = JSON.parse(sessionStorage.WORKLIST);
+function displaySingleWork(id) {
+	if (!id) {
+		return;
 	}
-
-	RWORKLIST = {};
-
-	var wl = TASSODATA.SETTINGS.RIME_SETTINGS.SETTING;
-	// add other poems here later.
-
-	for (var i in wl) {
-		RWORKLIST[wl[i].CATALOGNUM] = wl[i];
-	}
+	window.location.href = "/work?id=" + id;
 }
-
-
 
 
 </script>

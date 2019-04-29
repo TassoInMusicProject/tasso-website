@@ -6,3 +6,22 @@ div#contents {
 	margin-top: 5px !important;
 	font-size: 1.35em;
 }
+
+
+th {
+	font-style: italic;
+	text-align: left;
+}
+
+td {
+	vertical-align: top;
+}
+
+td:nth-child(2) {
+	vertical-align: top;
+	padding-right:20px;
+}
+
+
+
+

@@ -293,6 +293,10 @@ sub printVariorumXml {
 		die "Id cannot be empty for $catalognum\n";
 	}
 
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+	}
+
 	`mkdir -p $basedir/$catalognum`;
 	open (VFILE, ">$basedir/$catalognum/$id.xml") or die "Cannot write file";
 
@@ -389,7 +393,11 @@ sub printSourceDesc {
 
 sub printPrintDesc {
 	my ($n) = @_;
-	indent($n); print VFILE "<bibl xml:id=\"$PARAM{'ID'}\">\n";
+	my $id = $PARAM{'ID'};
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+	}
+	indent($n); print VFILE "<bibl xml:id=\"$id\">\n";
 	printPrintBibl($n+1);
 	indent($n); print VFILE "</bibl>\n";
 }
@@ -435,7 +443,11 @@ sub printPrintBibl {
 
 sub printMusicDesc {
 	my ($n) = @_;
-	indent($n); print VFILE "<bibl type=\"music\" xml:id=\"$PARAM{'ID'}\">\n";
+	my $id = $PARAM{'ID'};
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+	}
+	indent($n); print VFILE "<bibl type=\"music\" xml:id=\"$id\">\n";
 	printMusicBibl($n+1);
 	indent($n); print VFILE "</bibl>\n";
 }
@@ -485,7 +497,11 @@ sub printMusicBibl {
 
 sub printMsDesc {
 	my ($n) = @_;
-	indent($n); print VFILE "<msDesc xml:id=\"$PARAM{'ID'}\">\n";
+	my $id = $PARAM{'ID'};
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+	}
+	indent($n); print VFILE "<msDesc xml:id=\"$id\">\n";
 	printMsIdentifier($n+1);
 	printMsContents($n+1);
 	printHistory($n+1);
@@ -619,7 +635,10 @@ sub printPublicationStmt {
 		indent($n); print VFILE "<idno type=\"label\">$pid ($voice)</idno>\n";
 	} elsif ($PARAM{'TYPE'} =~ /print/i) {
 		my $sprint = $PARAM{"ID"};
-		$sprint =~ s/^S//;
+		# $sprint =~ s/^S//;
+		if ($sprint =~ /^\d/) {
+			$sprint = "S$sprint";
+		}
 		indent($n+1); print VFILE "<idno type=\"local\">$sprint</idno>\n";
 	} else {
 		my $idno = $PARAM{"SMSIGLUM"};

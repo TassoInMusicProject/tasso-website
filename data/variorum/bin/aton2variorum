@@ -2,8 +2,16 @@
 # vim: ts=3
 
 use strict;
+use Getopt::Long;
 
-my $rep = $ARGV[0];
+my $rep = "rime";
+
+# $COLUMNSPACE is the text which separates each column of parameters.
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'r|repertory=s' => \$rep
+);
+
 if ($rep =~ /^\s*$/) {
 	$rep = "rime";
 }
@@ -277,7 +285,7 @@ sub printVariorumXml {
 	my ($catalognum, $id) = @_;
 
 	$catalognum =~ s/\s+//g;
-	if ($catalognum !~ /^Trm\d\d\d\d$/) {
+	if ($catalognum !~ /^T[a-z][a-z]\d+$/) {
 		die "Invalid catalog number: $catalognum\n";
 	}
 	$id =~ s/\s+//g;
@@ -604,7 +612,7 @@ sub printPublicationStmt {
 	if ($PARAM{'TYPE'} =~ /music/i) {
 		my $pid;
 		my $voice;
-		die "Error in $PARAM{'ID'}\n" if $PARAM{"ID"} !~ /(Trm\d+[a-z])-(.*)/;
+		die "Error in $PARAM{'ID'}\n" if $PARAM{"ID"} !~ /(T[a-z][a-z]\d+[a-z])-(.*)/;
 		$pid = $1;
 		$voice = $2;
 		indent($n); print VFILE "<idno type=\"local\">$pid</idno>\n";

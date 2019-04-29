@@ -3,9 +3,9 @@ update:  variorum collation list
 
 v: variorum
 variorum:
-	cat Trm*.aton | bin/aton2variorum rime
-	cat Tsg*.aton | bin/aton2variorum gerusalemme
-	cat Tam*.aton | bin/aton2variorum aminta
+	cat Trm*.aton | bin/aton2variorum -r rime
+	cat Tsg*.aton | bin/aton2variorum -r gerusalemme
+	cat Tam*.aton | bin/aton2variorum -r aminta
 
 
 t: template

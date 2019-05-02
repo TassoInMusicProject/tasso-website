@@ -70,24 +70,24 @@
 @ID:		Trm0255a-Canto
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:		
+@PAGE:		21-22
 @PARATEXT:	[text underlay from 1607 reprint]
 @VERSE:		
-Mentre in grembo a la madre Amore un giorno
-	Dolcemente dormiva,
-	Una zanzara zufolava intorno
-	Per quella dolce riva,
-	Disse allor, desto a quel susurro, Amore
-	Da s&igrave; picciola forma
-	Com'esce s&igrave; gran voce e tal rumore
-	Che sveglia ognun che dorma?
-	Con maniere vezzose
-	Lusingandogli il sonno col suo canto
-	Venere gli rispose
-	E tu picciolo sei,
-	Ma pur gli uomini in terra col tuo pianto
-	E 'n ciel desti gli 
-@TVERSE:
+Mentre in grembo à la madre Amore un giorno
+	Dolcemente dormiva
+	Una zanzara suffilava intorno
+	Per quella verde riva
+	Disse all'hor desto à quel sussuro Amore
+	[TACET]
+	Come esce sì gran voce e tal rumore
+	Che sveglia ognun che dorma.
+@VERSE:
+	[TACET]
+	[TACET]
+	[TACET]
+	E tu picciolo sei
+	Ma pur gli huomin'in terra co'l tuo pianto
+	E 'n ciel desti gli Dei.
 @@END: VARIORUM
 
 
@@ -96,9 +96,24 @@ Mentre in grembo a la madre Amore un giorno
 @ID:		Trm0255a-Alto
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:		
-@PARATEXT:	
+@PAGE:		21-22
+@PARATEXT:	[text underlay from 1607 reprint]
 @VERSE:		
+Mentre in grembo à la madre Amore un giorno
+	Dolcemente dormiva
+	Una zanzara suffilava intorno
+	Per quella verde riva
+	Disse all'hor desto à quel sussuro Amore
+	Da sì picciola forma
+	Come esce sì gran voce e tal rumore
+	Che sveglia ognun che dorma.
+@VERSE:
+	Con maniere vezzose
+	Lusingandolo il sonno E co'l suo canto
+	Venere hli rispose
+	E tu picciolo sei
+	Ma pur gli huomin'in terra co'l tuo pianto
+	E 'n ciel desti gli Dei.	
 @@END: VARIORUM
 
 
@@ -107,20 +122,49 @@ Mentre in grembo a la madre Amore un giorno
 @ID:		Trm0255a-Tenore
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:		
-@PARATEXT:	
+@PAGE:		21-22
+@PARATEXT:	[text underlay from 1607 reprint]
 @VERSE:		
+Mentre in grembo à la madre Amore un giorno
+	Dolcemente dormiva
+	Una zanzara suffilava intorno
+	Per quella verde riva
+	Disse all'hor desto à quel sussuro Amore
+	Da sì picciola forma
+	[TACET] e tal rumore
+	Che sveglia ognun che dorma.
+@VERSE:
+	Con maniere vezzose
+	Lusingandolo il sonno E co'l suo canto
+	Venere gli rispose
+	E tu picciolo sei
+	Ma pur gli huomin'in terra co'l tuo pianto
+	E 'n ciel desti gli Dei.
 @@END: VARIORUM
-
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0255
 @ID:		Trm0255a-Basso
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:		
-@PARATEXT:	
+@PAGE:		21-22?
+@PARATEXT:	[missing in 1607 reprint?]
 @VERSE:		
+[?]
+	[?]
+	[?]
+	[?]
+	[?]
+	[?]
+	[?]
+	[?]
+@VERSE:
+	[?]
+	[?]
+	[?]
+	[?]
+	[?]
+	[?]
 @@END: VARIORUM
 
 
@@ -129,8 +173,22 @@ Mentre in grembo a la madre Amore un giorno
 @ID:		Trm0255a-Quinto
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
+@PAGE:		21-22
+@PARATEXT:	[text underlay from 1607 reprint]
+Mentre in grembo à la madre Amore un giorno
+	Dolcemente dormiva
+	Una zanzara suffilava intorno
+	Per quella verde riva
+	Disse all'hor desto [TACET]
+	Da sì picciola forma
+	Come esce sì gran voce e tal rumore
+	Che sveglia ognun che dorma.
+@VERSE:
+	[TACET]
+	[TACET]
+	[TACET]
+	E tu picciolo sei
+	Ma pur gli huomin'in terra co'l tuo pianto
+	E 'n ciel desti gli Dei.		
 @@END: VARIORUM
 

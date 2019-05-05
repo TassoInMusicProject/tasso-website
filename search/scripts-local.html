@@ -10,6 +10,20 @@
 var RWORKLIST;
 
 
+//////////////////////////////
+//
+// showPopupHelp --
+//
+
+function showPopupHelp(url, title) {
+   var newwindow = window.open(url, title,
+      'left=20,top=20,width=500,height=600,resizable=no,scrollbars=no,directories=no,location=no,status=no,toolbar=no');
+   if (window.focus) {newwindow.focus()}
+   return false;
+}
+
+
+
 
 //////////////////////////////
 //
@@ -71,16 +85,22 @@ function doSearch() {
 // displayResults
 //
 
+var RESULTS = {};
+
 function displayResults(results, options) {
 	var r = JSON.parse(results);
-	console.log("R", r);
+	RESULTS = r;
 	// console.log("OPTIONS", options);
 
 	var element = document.querySelector("#results");
 	var tsource = document.querySelector("#music-search-template").textContent;
 	var template = Handlebars.compile(tsource);
-	element.innerHTML = template(r);
-	sortByNumber(0);
+	if (r.matchcount != 0) {
+		element.innerHTML = template(r);
+		sortByNumber(0);
+	} else {
+		element.innerHTML = "";
+	}
 
 	// var results = document.querySelector("#results");
 	var summary = document.querySelector("#summary");

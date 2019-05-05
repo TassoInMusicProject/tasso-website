@@ -24,7 +24,7 @@
 @VERSE:		1
 @TITLE:		Dimmi, mesto pastore	
 @MANUSRC:	E<sub>1</sub>, P<sub>3</sub>, Pt
-@PRINTSRC:	1582B, 1582M, 1582MC, 1582O, 1585V, 1589V, 1608DP, 1619B, 1621D
+@PRINTSRC:	1582B, 1582M, 1582MC, 1582O, 1585V, 1589V, 1608DP, 1618B, 1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Licori
 @ABOUTEN:	Lycoris
@@ -58,7 +58,7 @@
 @VERSE:		89
 @TITLE:		Di che cantar degg'io	
 @MANUSRC:	E<sub>1</sub>, Pt
-@PRINTSRC:	1582B, 1582M, 1582MC, 1583O, 1585V, 1589V, 1608DP, 1619B, 1621D
+@PRINTSRC:	1582B, 1582M, 1582MC, 1583O, 1585V, 1589V, 1608DP, 1618B, 1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Tirsi
 @ABOUTEN:	Tyrsis
@@ -124,7 +124,7 @@ That the green grassy springs decorate for you.
 @VERSE:		73
 @TITLE:		Ché qual tenera rosa	
 @MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
-@PRINTSRC:	1587B, 1587CV, 1592CV, 1621D
+@PRINTSRC:	1587B, 1587V, 1592V, 1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Arezia
 @ABOUTEN:	Arezia
@@ -138,7 +138,7 @@ That the green grassy springs decorate for you.
 @TRANSLATOR:	Amyrose McCue Gill Emiliano Ricciardi 
 @VERSE:	
 	Ché, qual tenera rosa
-	A la rugiada, a l'ôra
+	A la rugiada, a l'ora
 	De la nascente aurora
 	Non apre vergognosa
 	Il suo vermiglio ed odorato seno:
@@ -146,45 +146,6 @@ That the green grassy springs decorate for you.
 	De 'l gran pianeta ardente,
 	Apre languendo le purpuree spoglie
 	E 'l bel raggio de 'l sole in grembo accoglie:
-@TVERSE:
-	For, that tender rose
-Bedewed, at the hour
-Of rising dawn
-Does not open, bashfully,
-Her vermilion and perfumed breast:
-But, now that nearer she feels the heat
-Of the great burning planet,
-She opens, languishing, her purpled petals
-And gathers to her bosom the beautiful ray of the sun. 
-@@END:		VERSES
-@OTHER_CRIT_ED:  none
-@ATTRIBUTION_ABOUT:	Not secure
-The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
-@DATING:	Before 1587
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		VERSEDATA
-
-
-@@BEGIN:	VERSEDATA
-@CATALOGNUM:	Tec2082
-@ECLOGA:        II
-@VERSE:		82
-@TITLE:		Così la verginella	
-@MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
-@PRINTSRC:	1587B, 1587CV, 1592CV, 1621D
-@@BEGIN:	VERSES
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	Angelo Solerti
-@EDITION_TITLE: Opere minori in versi di Torquato Tasso
-@EDITION_LOC:	Bologna
-@EDITION_PUB:	Zanichelli
-@EDITION_DATE:  1895
-@EDITION_VOL:	III	
-@EDITION_PAGE:  412-13
-@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
-@VERSE:	
 	Così la verginella
 	A i pianti ed a i sospiri
 	Di novello amator che lunge miri,
@@ -197,6 +158,15 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	Quando le apristi le tue pene ascose?
 	E come ti rispose?
 @TVERSE:
+	For, that tender rose
+Bedewed, at the hour
+Of rising dawn
+Does not open, bashfully,
+Her vermilion and perfumed breast:
+But, now that nearer she feels the heat
+Of the great burning planet,
+She opens, languishing, her purpled petals
+And gathers to her bosom the beautiful ray of the sun:
 Thus the maiden,
 To the laments and to the sighs
 Of a new lover who might gaze [upon her from] afar,
@@ -209,13 +179,14 @@ But how did Chloris hear you
 When you revealed your hidden pains to her?
 And how did she answer you?
 @@END:		VERSES
-@OTHER_CRIT_ED:  None
+@OTHER_CRIT_ED:  none
 @ATTRIBUTION_ABOUT:	Not secure
 The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 @DATING:	Before 1587
-@DEDICATEE:	?
+@DEDICATEE:	
 @COMMENTARY:    
 @@END:		VERSEDATA
+
 
 @@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec3108
@@ -368,7 +339,7 @@ You, wicked sir, you disloyal one,
 @STANZA:        2
 @TITLE:		Chiaro sol che rotondo esci dal Gange	
 @MANUSRC:	none
-@PRINTSRC:	1593A, 1593Bb, 1593Bl, 1593Fr, 1593Fs, 1593M, 1593V, 1594F, 1594O, 1596B, 1596F, 1596R, 1597S, 1599B, 1599S, 1602S
+@PRINTSRC:	1593A, 1593Bb, 1593Bl, 1593Fr, 1593Fs, 1593M, 1593V, 1594F, 1594O, 1596B, 1596F, 1596R, 1597S, 1599S, 1602S
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	

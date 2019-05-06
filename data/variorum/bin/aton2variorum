@@ -225,17 +225,39 @@ print "READING FROM LINE $i : $line\n";
 	my %p;
 	if ($data{"TYPE"} =~ /print/i) {
 		my $pid = $data{"ID"};
+		print "PID = $pid\n";
 		my $pp = $PRINTS{$pid};
+
+		if ($pp =~ /^\s*$/) {
+			my $newpid = $pid;
+			$newpid =~ s/-//g;
+			$pp = $PRINTS{$newpid};
+		}
 
 		if ($data{"ID"} =~ /^\d/) {
 			# id must start with a letter, using "S":
 			$data{"XMLID"} = "S$data{'ID'}";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
 		} else {
 			$data{"XMLID"} = "$data{'ID'}";
 		}
 
+
 		if ($pp =~ /^\s*$/) {
+print STDERR "XPID = $pid\n";
 			$pp = $PRINTS{"S$pid"};
+print STDERR %PRINTS;
+print "\n";
+foreach my $item (keys %PRINTS) {
+	print "\tKEY = $item\n";
+}
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
 		}
 		
 		if ($pp =~ /^\s*$/) {
@@ -295,6 +317,10 @@ sub printVariorumXml {
 
 	if ($id =~ /^\d/) {
 		$id = "S$id";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
 	}
 
 	`mkdir -p $basedir/$catalognum`;
@@ -396,6 +422,10 @@ sub printPrintDesc {
 	my $id = $PARAM{'ID'};
 	if ($id =~ /^\d/) {
 		$id = "S$id";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
 	}
 	indent($n); print VFILE "<bibl xml:id=\"$id\">\n";
 	printPrintBibl($n+1);
@@ -446,6 +476,10 @@ sub printMusicDesc {
 	my $id = $PARAM{'ID'};
 	if ($id =~ /^\d/) {
 		$id = "S$id";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
 	}
 	indent($n); print VFILE "<bibl type=\"music\" xml:id=\"$id\">\n";
 	printMusicBibl($n+1);
@@ -500,6 +534,10 @@ sub printMsDesc {
 	my $id = $PARAM{'ID'};
 	if ($id =~ /^\d/) {
 		$id = "S$id";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
 	}
 	indent($n); print VFILE "<msDesc xml:id=\"$id\">\n";
 	printMsIdentifier($n+1);
@@ -638,6 +676,10 @@ sub printPublicationStmt {
 		# $sprint =~ s/^S//;
 		if ($sprint =~ /^\d/) {
 			$sprint = "S$sprint";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
 		}
 		indent($n+1); print VFILE "<idno type=\"local\">$sprint</idno>\n";
 	} else {
@@ -1240,6 +1282,7 @@ sub getAtonEntry {
 		} elsif ($line =~ /^\@([^:\@]+)\s*:\s*(.*)\s*$/) {
 			$key = $1;
 			$value = $2;
+print "KEY = $key\tVALUE = $value\n";
 			if (($key eq "VERSE") || ($key eq "TVERSE")) {
 				$entry{"VERSE_COUNT"}++;
 				$entry{$key} .= "\n$value";

@@ -114,7 +114,7 @@ blockquote {
 
 body {
 	min-width: 1010px;
-	font-family: "Lusitana", "serif";
+	font-family: "Simonetta", "serif";
 	background: #656672;
 	-webkit-font-smoothing: antialiased;
 }
@@ -166,7 +166,7 @@ body {
 	font-size: 14px;
 	height: 28px;
 	line-height: 28px;
-	font-family: "Lato", "sans-serif";
+	font-family: "Simonetta", "sans-serif";
 	padding-left: 5px;
 	padding-right: 5px;
 	width: 100%;
@@ -187,7 +187,7 @@ body {
 }
 
 .btn.btn-brown {
-	font-family: "Lato", "sans-serif";
+	font-family: "Simonetta", "sans-serif";
 	font-size: 18px;
 	color: white;
 	background: #c86843;
@@ -360,7 +360,7 @@ label {
 	display: block;
 	text-align: left;
 	color: #333333;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 	margin-top: 32px;
 	cursor: pointer;
@@ -368,14 +368,14 @@ label {
 
 span.grey {
 	color: #999999;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 	font-weight: 700;
 }
 
 .grey, .gray {
 	color: #999999;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 	font-weight: 700;
 }
@@ -383,7 +383,7 @@ span.grey {
 .passiveoption {
 	color: #ffffff;
 	background: #333333;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 	font-weight: 700;
 }
@@ -423,7 +423,7 @@ span.grey {
 	color: #c76743;
 	font-size: 14px;
 	font-weight: 700;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	display: block;
 	text-decoration: none;
 	padding: 0px 3px;
@@ -432,7 +432,7 @@ span.grey {
 .pagination ul li a, .pagination ul li span, .pagination ul li {
 	display: block;
 	color: #0066cc;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 	font-weight: 700;
 	text-decoration: none;
@@ -586,7 +586,7 @@ Version: 3.4.6 Timestamp: Sat Mar 22 22:30:15 EDT 2014
 	-ms-user-select: none;
 	user-select: none;
 	background-color: #f7f7f7;
-	font-family: "Lato", sans-serif;
+	font-family: "Simonetta", sans-serif;
 }
 .select2-container.select2-drop-above .select2-choice {
 	border-bottom-color: #aaa;
@@ -609,7 +609,7 @@ Version: 3.4.6 Timestamp: Sat Mar 22 22:30:15 EDT 2014
 	float: none;
 	width: auto;
 	color: #333;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 }
 .select2-container .select2-choice abbr {
@@ -838,7 +838,7 @@ Version: 3.4.6 Timestamp: Sat Mar 22 22:30:15 EDT 2014
 	display: list-item;
 	background-image: none;
 	font-size: 14px;
-	font-family: "Lato";
+	font-family: "Simonetta";
 }
 .select2-results li.select2-result-with-children > .select2-result-label {
 	font-weight: bold;
@@ -1208,7 +1208,7 @@ html[dir="rtl"] .select2-search-choice-close {
 .tricky-choice.tricky-only-arrow .select2-choice .select2-chosen {
 	white-space: normal;
 	color: #97897d;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 16px;
 	margin-right: 0;
 	padding-right: 3px;
@@ -1290,7 +1290,7 @@ html[dir="rtl"] .select2-search-choice-close {
 /* typography styles */
 h1 {
 	color: #634f29;
-	font-family: "Lusitana", "serif";
+	font-family: "Simonetta", "serif";
 	font-size: 36px;
 	font-weight: 400;
 	margin-bottom: 2px;
@@ -1300,7 +1300,7 @@ h2.blue-bar {
 	height: 36px;
 	background: #2b75af;
 	font-size: 16px;
-	font-family: "Lato", "sans-serif";
+	font-family: "Simonetta", "sans-serif";
 	font-weight: 700;
 	text-transform: uppercase;
 	color: white;
@@ -1339,7 +1339,7 @@ h2.sample-title a.sw span {
 
 h2.brown-heading {
 	color: #d7ab5b;
-	font-family: "Lusitana", "serif";
+	font-family: "Simonetta", "serif";
 	font-size: 24px;
 	font-weight: 700;
 	padding-top: 52px;
@@ -1348,7 +1348,7 @@ h2.brown-heading {
 
 h3.brown-heading {
 	color: #d7ab5b;
-	font-family: "Lusitana", "serif";
+	font-family: "Simonetta", "serif";
 	font-size: 18px;
 	font-weight: 700;
 	padding-top: 18px;
@@ -1366,7 +1366,7 @@ h3.brown-border {
 
 h3.grey-title {
 	color: #98897e;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 24px;
 	font-weight: 400;
 	border-bottom: 1px solid #e1e1e1;
@@ -1411,7 +1411,7 @@ header nav#primary-nav ul li a {
 	padding: 0px 0px;
 	text-transform: uppercase;
 	color: #838281;
-	font-family: "Lato", "sans-serif";
+	font-family: "Simonetta", "sans-serif";
 	font-size: 18px;
 	display: block;
 	text-decoration: none;
@@ -1469,7 +1469,7 @@ header #banner div.descr, header #bannernotitle div.descr {
 }
 header #banner div.descr p, header #bannernotitle div.descr p {
 	color: #634f29;
-	font-family: "Lusitana", "serif";
+	font-family: "Simonetta", "serif";
 	font-size: 24px;
 	font-weight: 400;
 	margin-top: 0;
@@ -1825,13 +1825,13 @@ table.search-results-table thead tr {
 	height: 40px;
 	vertical-align: middle;
 	color: #98897e;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 }
 table.search-results-table thead tr a {
 	display: block;
 	color: #98897e;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
@@ -2102,7 +2102,7 @@ table.search-results-table span.location span.point.point-green {
 #primary-content.work-content .downloads .col ul li > a,
 .xlink {
 	color: #97897d;
-	font-family: "Lato";
+	font-family: "Simonetta";
 	font-size: 16px;
 	text-decoration: none;
 	padding-left: 24px;
@@ -2324,13 +2324,13 @@ article.about.board h3 + ul {
 
 #tools ul li a small {
 	display: block;
-	font-family: "Lato", "sans-serif";
+	font-family: "Simonetta", "sans-serif";
 	font-size: 12px;
 }
 
 #tools ul li span small {
 	display: block;
-	font-family: "Lato", "sans-serif";
+	font-family: "Simonetta", "sans-serif";
 	font-size: 12px;
 }
 
@@ -2395,7 +2395,7 @@ footer ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #98897e;
-	font-family: "Lato", "sans-serif";
+	font-family: "Simonetta", "sans-serif";
 	font-size: 14px;
 }
 footer ul li a:hover {
@@ -2410,7 +2410,7 @@ footer ul li.logo:after {
 }
 footer ul li.logo a {
 	color: #c76541;
-	font-family: "Lusitana", "serif";
+	font-family: "Simonetta", "serif";
 	font-size: 18px;
 	text-transform: none;
 }
@@ -2445,7 +2445,7 @@ table.census td:nth-child(8) {
 table.census thead tr {
 	background:	#e6e6dd;
 	color:		#98897e;
-	font-family:	"Lato", sans-serif;
+	font-family:	"Simonetta", sans-serif;
 	font-size:	14px;
 	height:		40px;
 	vertical-align:	middle;

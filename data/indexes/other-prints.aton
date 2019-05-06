@@ -23,7 +23,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1582M
+@SPRINTNUM:	E-1582M
 @PRINTTITLE:	Rime del Signor Torquato Tasso. Parte seconda. Insieme con altri componimenti del medesimo
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
@@ -33,7 +33,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1582B
+@SPRINTNUM:	E-1582B
 @PRINTTITLE:	Scielta delle rime del Sig. Torquato Tasso. Parte prima [e seconda]
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
@@ -42,7 +42,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1582MC
+@SPRINTNUM:	E-1582MC
 @PRINTTITLE:	Scielta delle rime del Sig. Torquato Tasso. Prima e seconda parte
 @PUBLISHER:	Domenico Mammarelli, e Giulio Cesare Cagnacini Compagni
 @PUBLOCATION:	Ferrara
@@ -52,7 +52,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1582O
+@SPRINTNUM:	E-1582O
 @PRINTTITLE:	Scielta delle rime del Sig. Torquato Tasso. Prima, e seconda parte
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
@@ -61,7 +61,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1589V
+@SPRINTNUM:	E-1589V
 @PRINTTITLE:	Rime, et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, et corrette
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
@@ -71,7 +71,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1608DP
+@SPRINTNUM:	E-1608DP
 @PRINTTITLE:	Rime del Signor Torquato Tasso, divise in sei parti
 @PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
 @PUBLOCATION:	Venice
@@ -81,7 +81,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1618B
+@SPRINTNUM:	E-1618B
 @PRINTTITLE:	Rime del Signor Torquato Tasso, divise in sei parti
 @PUBLISHER:	Giovanni Battista Bidelli
 @PUBLOCATION:	Milan
@@ -90,7 +90,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1621D
+@SPRINTNUM:	E-1621D
 @PRINTTITLE:	Rime del Signor Torquato Tasso, divise in amorose, boscherezze, maritime, imenei, heroiche, morali, lugubri, sacre e varie. Con gli argomenti ad ogni compositione. Fatica del Sig. Carlo Fiamma. Aggiuntovi la vita, et sentenze dell'auttore scritta dell'illustrissimo Sig. Gio. Battista Manso
 @PUBLISHER:	Evangelista Deuchino
 @PUBLOCATION:	Venice
@@ -100,25 +100,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	
-@PRINTTITLE:	
-@PUBLISHER:	
-@PUBLOCATION:	
-@PUBYEAR:	
-@@END:		PRINT
-
-
-@@BEGIN:	PRINT
-@SPRINTNUM:	
-@PRINTTITLE:	
-@PUBLISHER:	
-@PUBLOCATION:	
-@PUBYEAR:	
-@@END:		PRINT
-
-
-@@BEGIN:	PRINT
-@SPRINTNUM:	1587B
+@SPRINTNUM:	E-1587B
 @PRINTTITLE:	Il rimanente delle rime nuove del Sig. Torquato Tasso
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
@@ -128,7 +110,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587V
+@SPRINTNUM:	E-1587V
 @PRINTTITLE:	Rime di diversi celebri poeti dell'et&agrave; nostra. Nuovamente raccolte, e poste in luce
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
@@ -138,7 +120,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1592V
+@SPRINTNUM:	E-1592V
 @PRINTTITLE:	Prima parte della nuova scielta di rime del Sig. Torquato Tasso
 @PUBLISHER:	Comino Ventura
 @PUBLOCATION:	Bergamo
@@ -153,7 +135,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1562S
+@SPRINTNUM:	R-1562S
 @PRINTTITLE:	Il Rinaldo di Torquato Tasso all'illustrissimo et reverendissimo D. Luigi d'Este Card.
 @PUBLISHER:	Francesco de' Franceschi Senese
 @PUBLOCATION:	Venice
@@ -163,7 +145,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1570S
+@SPRINTNUM:	R-1570S
 @PRINTTITLE:	Il Rinaldo di Torquato Tasso all'illustrissimo et reverendissimo signor D. Luigi d'Este Cardin.
 @PUBLISHER:	Francesco de' Franceschi Senese
 @PUBLOCATION:	Venice
@@ -173,7 +155,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1581O
+@SPRINTNUM:	R-1581O
 @PRINTTITLE:	Il Rinaldo del signor Torquato Tasso. Novamente ricorretto, et ristampato con gli argomenti a ciascun canto, & la tavola delle materie principali
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
@@ -182,7 +164,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1582M
+@SPRINTNUM:	R-1582M
 @PRINTTITLE:	Il Rinaldo [in Rime del Signor Torquato Tasso. Parte seconda. Insieme con altri componimenti del medesimo]
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
@@ -192,7 +174,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1582O
+@SPRINTNUM:	R-1582O
 @PRINTTITLE:	Il Rinaldo del signor Torquato Tasso. Novamente ricorretto, et ristampato con gli argomenti a ciascun canto, & la tavola delle materie principali
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
@@ -202,7 +184,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1583V
+@SPRINTNUM:	R-1583V
 @PRINTTITLE:	Il Rinaldo [in Rime, et prose del S. Torquato Tasso. Parte seconda. Di nuovo reviste, et corrette, con aggiunta di quanto manca nell'altre edizioni]
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
@@ -211,7 +193,7 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1583M
+@SPRINTNUM:	R-1583M
 @PRINTTITLE:	
 Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: aggiuntevi le figure, argomenti, & allegorie a ciascun canto. Con due tavole; l'una de principij di tutte le stanze, et l'altra delle cose più notabili
 @PUBLISHER:	Aldo [Manuzio]
@@ -221,7 +203,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1585C
+@SPRINTNUM:	R-1585C
 @PRINTTITLE:	Il Rinaldo [in Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette]
 @PUBLISHER:	Giulio Cesare Cagnacini
 @PUBLOCATION:	Ferrara
@@ -230,7 +212,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1585V
+@SPRINTNUM:	R-1585V
 @PRINTTITLE:	Il Rinaldo [in Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette]
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
@@ -239,7 +221,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1585V<sub>bis</sub>
+@SPRINTNUM:	R-1585V<sub>bis</sub>
 @PRINTTITLE:	Il Rinaldo [ in Delle rime et prose del Sig. Torquato Tasso. Parte seconda. Di nuovo ristampate, con diligenza rivedute, e corrette]
 @PUBLISHER:	Simon Vasalini
 @PUBLOCATION:	Ferrara
@@ -249,7 +231,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1589B
+@SPRINTNUM:	R-1589B
 @PRINTTITLE:	Il Rinaldo del signor Torquato Tasso, di novo riveduto, e con somma diligenza corretto; aggiuntovi gli Argomenti, & Allegorie à ciascun canto. Con la tavola delle cose più notabili
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
@@ -258,7 +240,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1608DP
+@SPRINTNUM:	R-1608DP
 @PRINTTITLE:	Il Rinaldo del sig. Torquato Tasso. i nuouo riueduto, & con diligenza corretto; Aggiuntovi gli argomenti, & le allegorie à ciascun canto. Con la tavola delle cose più notabili [in Rime del Signor Torquato Tasso, divise in sei parti]
 @PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
 @PUBLOCATION:	Venice
@@ -268,7 +250,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1618B
+@SPRINTNUM:	R-1618B
 @PRINTTITLE:	Il Rinaldo del sig. Torquato Tasso. i nuouo riueduto, & con diligenza corretto; Aggiuntovi gli argomenti, & le allegorie à ciascun canto. Con la tavola delle cose più notabili [in Rime del Signor Torquato Tasso, divise in sei parti]
 @PUBLISHER:	Giovanni Battista Bidelli
 @PUBLOCATION:	Milan
@@ -277,7 +259,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1621D
+@SPRINTNUM:	R-1621D
 @PRINTTITLE:	Il Rinaldo del sig. Torquato Tasso. i nuouo riueduto, & con diligenza corretto; Aggiuntovi gli argomenti, & le allegorie à ciascun canto. Con la tavola delle cose più notabili [in Rime del Signor Torquato Tasso, divise in amorose, boscherezze, maritime, imenei, heroiche, morali, lugubri, sacre e varie. Con gli argomenti ad ogni compositione. Fatica del Sig. Carlo Fiamma. Aggiuntovi la vita, et sentenze dell'auttore scritta dell'illustrissimo Sig. Gio. Battista Manso]
 @PUBLISHER:	Evangelista Deuchino
 @PUBLOCATION:	Venice
@@ -287,7 +269,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1637M
+@SPRINTNUM:	R-1637M
 @PRINTTITLE:	Rinaldo del sig. Torquato Tasso. i nuouo riueduto, & con diligenza corretto; Aggiuntovi gli argomenti, & le allegorie à ciascun canto. Con la tavola delle cose più notabili
 @PUBLISHER:	Giovanni Antonio & Giovanni Maria Misserini
 @PUBLOCATION:	Venice
@@ -300,7 +282,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 @@@ Lagrime della Beata Vergine                                         @@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593V
+@SPRINTNUM:	L-1593V
 @PRINTTITLE:	Nuova raccolta di lagrime di piu poeti illustri. Stanze del sig. Torquato Tasso per le lagrime di Maria Vergine santissima, & di Giesu Christo nostro signore
 @PUBLISHER:	Comin Ventura
 @PUBLOCATION:	Bergamo
@@ -310,7 +292,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593Bb
+@SPRINTNUM:	L-1593Bb
 @PRINTTITLE:	Stanze del s. Torquato Tasso per le lagrime di Maria Vergine beatissima, & di Giesu Christo N.S. con aggiunta d'altri pij componimenti del medesimo autore
 @PUBLISHER:	Vittorio Benacci
 @PUBLOCATION:	Bologna
@@ -319,7 +301,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593M
+@SPRINTNUM:	L-1593M
 @PRINTTITLE:	Stanze del sig. Torquato Tasso, per le lagrime di Maria vergine santissima, et di Giesù Christo nostro signore. Di nuouo poste in luce.
 @PUBLISHER:	Benedetto Mammarelli
 @PUBLOCATION:	Ferrara
@@ -328,7 +310,7 @@ Il Rinaldo del s. Torquato Tasso. Di nuouo riveduto, & con diligenza corretto: a
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593Fr
+@SPRINTNUM:	L-1593Fr
 @PRINTTITLE:	
 Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di Giesu Christo nostro signore
 @PUBLISHER:	Giorgio Ferrari
@@ -338,7 +320,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593Bl
+@SPRINTNUM:	L-1593Bl
 @PRINTTITLE:	Stanze per le lagrime di Maria vergine santissima et di Giesu Christo nostro signore
 @PUBLISHER:	Busdrago
 @PUBLOCATION:	Lucca
@@ -347,7 +329,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593Fs
+@SPRINTNUM:	L-1593Fs
 @PRINTTITLE:	Stanze del Sig. Torquato Tasso per le Lagrime di Maria Vergine Santissima et di Giesu Christo Nostro Signore
 @PUBLISHER:	Pietro Farri
 @PUBLOCATION:	Senigallia
@@ -357,7 +339,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593A
+@SPRINTNUM:	L-1593A
 @PRINTTITLE:	Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima, & di Giesu Christo nostro signore
 @PUBLISHER:	Giorgio Angelieri
 @PUBLOCATION:	Venice
@@ -366,7 +348,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1594O
+@SPRINTNUM:	L-1594O
 @PRINTTITLE:	Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di Giesu Christo nostro signore
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
@@ -375,7 +357,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1594F
+@SPRINTNUM:	L-1594F
 @PRINTTITLE:	Stanze del s. Torquato Tasso per le lagrime di Maria vergine beatissima & di Gesu Christo N.S. Con l'aggiunta d'altri pij componimenti del medesimo autore
 @PUBLISHER:	Giovanni Guglielmo Facciotti
 @PUBLOCATION:	Rome
@@ -385,7 +367,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1596B
+@SPRINTNUM:	L-1596B
 @PRINTTITLE:	Stanze per le lagrime di Maria Vergine Beatissima, et di Giesu Christo
 @PUBLISHER:	Benacci
 @PUBLOCATION:	Bologna
@@ -394,7 +376,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1596R
+@SPRINTNUM:	L-1596R
 @PRINTTITLE:	Stanze per le lagrime di Maria Vergine santissima e di Giesu
 @PUBLISHER:	Rosaccio
 @PUBLOCATION:	Milan
@@ -403,7 +385,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1596F
+@SPRINTNUM:	L-1596F
 @PRINTTITLE:	Stanze del s. Torquato Tasso per le lagrime di Maria vergine beatissima et di Giesu Christo nostro signore, con aggiunta d'altri pij componimenti del medesimo autore
 @PUBLISHER:	Giovanni Guglielmo Facciotti
 @PUBLOCATION:	Rome
@@ -412,7 +394,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1597S
+@SPRINTNUM:	L-1597S
 @PRINTTITLE:	Del sig. Torquato Tasso. Le lagrime della b. Vergine, et del Signore
 @PUBLISHER:	Stamperia nova
 @PUBLOCATION:	Palermo
@@ -421,7 +403,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1599S
+@SPRINTNUM:	L-1599S
 @PRINTTITLE:	Le Lagrime della beata vergine Maria, composte dal sig. Torquato Tasso
 @PUBLISHER:	Sermartelli
 @PUBLOCATION:	Florence
@@ -430,7 +412,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1602S
+@SPRINTNUM:	L-1602S
 @PRINTTITLE:	Lagrime della B. Vergine, et del Signore
 @PUBLISHER:	Giovanni Battista Sottile
 @PUBLOCATION:	Naples
@@ -444,7 +426,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587Vb
+@SPRINTNUM:	T-1587Vb
 @PRINTTITLE:	Il Re Torrismondo tragedia del Sig. Torquato Tasso
 @PUBLISHER:	Comino Ventura & Compagni
 @PUBLOCATION:	Bergamo
@@ -454,7 +436,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587R
+@SPRINTNUM:	T-1587R
 @PRINTTITLE:	Il re Torrismondo: tragedia finita del s. Torquato Tasso. Revista di nuovo in questa ultima impressione da lui medesimo in Bologna
 @PUBLISHER:	Giovanni Rossi
 @PUBLOCATION:	Bologna
@@ -463,7 +445,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587Dc
+@SPRINTNUM:	T-1587Dc
 @PRINTTITLE:	Il re Torrismondo, tragedia del sig. Torquato Tasso
 @PUBLISHER:	Cristoforo Draconi
 @PUBLOCATION:	Cremona
@@ -472,7 +454,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587Vf
+@SPRINTNUM:	T-1587Vf
 @PRINTTITLE:	Il re Torrismondo tragedia finita del s. Torq. Tasso, accomodata di nuovo in molti luochi da lui medesimo
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
@@ -481,7 +463,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587Bf
+@SPRINTNUM:	T-1587Bf
 @PRINTTITLE:	Il re Torrismondo tragedia finita del s. Torq. Tasso, accomodata di nuovo in molti luochi da lui medesimo
 @PUBLISHER:	Vittorio Baldini [ad istanza di Giulio Vasalini]
 @PUBLOCATION:	Ferrara
@@ -490,7 +472,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587Cf
+@SPRINTNUM:	T-1587Cf
 @PRINTTITLE:	Il Re Torrismondo tragedia del  Sig. Torquato Tasso. Accomodata di nuovo in molti luochi secondo la intentione dell'Autore con una gionta del medesmo
 @PUBLISHER:	Giulio Cesare Cagnacini & fratelli
 @PUBLOCATION:	Ferrara
@@ -500,7 +482,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587Bg
+@SPRINTNUM:	T-1587Bg
 @PRINTTITLE:	Il re Torrismondo tragedia del sig. Torquato Tasso
 @PUBLISHER:	Girolamo Bartoli
 @PUBLOCATION:	Genoa
@@ -510,7 +492,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587O
+@SPRINTNUM:	T-1587O
 @PRINTTITLE:	Il Re Torrismondo tragedia del Sig. Torquato Tasso
 @PUBLISHER:	Francesco Osanna
 @PUBLOCATION:	Mantua
@@ -520,7 +502,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587P
+@SPRINTNUM:	T-1587P
 @PRINTTITLE:	Il re Torrismondo tragedia del sig. Torquato Tasso
 @PUBLISHER:	Girolamo Polo
 @PUBLOCATION:	Venice
@@ -530,7 +512,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1587Dv
+@SPRINTNUM:	T-1587Dv
 @PRINTTITLE:	Il re Torrismondo tragedia del sig. Torquato Tasso
 @PUBLISHER:	Girolamo Discepolo
 @PUBLOCATION:	Verona
@@ -540,7 +522,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1588Cf
+@SPRINTNUM:	T-1588Cf
 @PRINTTITLE:	Il re Torrismondo tragedia del sig. Torquato Tasso. Accomodata di nuovo in molti luochi secondo la intentione dell'autore con una gionta del medesimo
 @PUBLISHER:	Giulio Cesare Cagnacini & fratelli
 @PUBLOCATION:	Ferrara
@@ -550,7 +532,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1588Ct
+@SPRINTNUM:	T-1588Ct
 @PRINTTITLE:	Il Re Torrismondo. Tragedia finita. Del Sig. Torquato Tasso. Di nuovo accommodata, & mandata in luce da lui medesimo
 @PUBLISHER:	Giovanni Michele e Giovanni Vincenzo Cavalleri
 @PUBLOCATION:	Turin
@@ -560,7 +542,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1588Z
+@SPRINTNUM:	T-1588Z
 @PRINTTITLE:	Il re Torrismondo tragedia del sig. Torq[u]ato Tasso. Accomodata di nuovo in molti luoghi secondo la intentione dell'autore con una gionta del medesimo
 @PUBLISHER:	Agostino e Fabio Zoppino
 @PUBLOCATION:	Venice
@@ -569,7 +551,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1607A
+@SPRINTNUM:	T-1607A
 @PRINTTITLE:	Il re Torrismondo tragedia del s. Torquato Tasso di nuovo rivista, et ricoretta
 @PUBLISHER:	Nella Stampa Augusta
 @PUBLOCATION:	Perugia
@@ -578,7 +560,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1608A
+@SPRINTNUM:	T-1608A
 @PRINTTITLE:	Il re Torrismondo tragedia del s. Torquato Tasso
 @PUBLISHER:	Nella Stampa Augusta
 @PUBLOCATION:	Perugia
@@ -588,7 +570,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1617G
+@SPRINTNUM:	T-1617G
 @PRINTTITLE:	Il Re Torrismondo tragedia del S. Torquato Tasso
 @PUBLISHER:	Comino Gallina
 @PUBLOCATION:	Venice
@@ -598,7 +580,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1618B
+@SPRINTNUM:	T-1618B
 @PRINTTITLE:	Il re Torrismondo tragedia [Rime del Signor Torquato Tasso, divise in sei parti]
 @PUBLISHER:	Giovanni Battista Bidelli
 @PUBLOCATION:	Milan
@@ -607,7 +589,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1622D
+@SPRINTNUM:	T-1622D
 @PRINTTITLE:	Il re Torrismondo [Rime del Signor Torquato Tasso, divise in amorose, boscherezze, maritime, imenei, heroiche, morali, lugubri, sacre e varie. Con gli argomenti ad ogni compositione. Fatica del Sig. Carlo Fiamma. Aggiuntovi la vita, et sentenze dell'auttore scritta dell'illustrissimo Sig. Gio. Battista Manso]
 @PUBLISHER:	Evangelista Deuchino
 @PUBLOCATION:	Venice
@@ -620,7 +602,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1593F
+@SPRINTNUM:	C-1593F
 @PRINTTITLE:	Di Gerusalemme conquistata del Sig. Torquato Tasso libri XXIIII.
 @PUBLISHER:	Guglielmo Facciotti
 @PUBLOCATION:	Rome
@@ -630,7 +612,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1594V
+@SPRINTNUM:	C-1594V
 @PRINTTITLE:	Della Gerusalemme conquistata del Sig. Torquato Tasso libri XXIV, novellamente ristampata con gli argomenti à ciascun libro del Signor Gio. Battista Msserengo
 @PUBLISHER:	Andrea Viani
 @PUBLOCATION:	Pavia
@@ -640,7 +622,7 @@ Stanze del sig. Torquato Tasso per le lagrime di Maria vergine santissima & di G
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:1595A
+@SPRINTNUM:	C-1595A
 @PRINTTITLE:	Di Gerusalemme conquistata del Sig. Torquato Tasso. Libri XXIIII.
 @PUBLISHER:	Abel L'Angelieri
 @PUBLOCATION:	Paris

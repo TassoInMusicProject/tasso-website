@@ -3,8 +3,9 @@ update:  variorum collation list
 
 v: variorum
 variorum:
-	# cat Trm*.aton | bin/aton2variorum
-	cat Tsg*.aton | bin/aton2variorum
+	cat Trm*.aton | bin/aton2variorum -r rime
+	cat Tsg*.aton | bin/aton2variorum -r gerusalemme
+	cat Tam*.aton | bin/aton2variorum -r aminta
 
 
 t: template
@@ -15,9 +16,9 @@ template:
 
 c: collation
 collation:
-	# bin/createcollation Trm*.aton
-	# bin/createcollation Tam*.aton
+	bin/createcollation Trm*.aton
 	bin/createcollation Tsg*.aton
+	bin/createcollation Tam*.aton
 
 l: list
 list:

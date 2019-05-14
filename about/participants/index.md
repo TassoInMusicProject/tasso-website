@@ -87,6 +87,10 @@ Marco Mangani (University of Ferrara)
 </div>
 
 <div class="person">
+Arnaldo Morelli (University of L'Aquila) 
+</div>
+
+<div class="person">
 Massimo Ossi (Indiana University Bloomington) 
 </div>
 

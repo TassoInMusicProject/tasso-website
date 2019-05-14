@@ -1,9 +1,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trt0506
-@ID:		Au
+@ID:		T-Au
 @TYPE:		manuscript
-@SMSIGLUM:	Au
+@SMSIGLUM:	T-Au
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -12,9 +12,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trt0506
-@ID:		Vau
+@ID:		T-Vau
 @TYPE:		manuscript
-@SMSIGLUM:	Vau
+@SMSIGLUM:	T-Vau
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -23,9 +23,9 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trt0506
-@ID:		R
+@ID:		T-R
 @TYPE:		manuscript
-@SMSIGLUM:	R
+@SMSIGLUM:	T-R
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
@@ -56,34 +56,20 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trt0506
-@ID:		S1587C
+@ID:		S1587Cf
 @TYPE:		print
 @SPRINT:	
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
-@@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
-@CATALOGNUM:	Trt0506
-@ID:		S1587CV
-@TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
-@@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
-@CATALOGNUM:	Trt0506
-@ID:		S1587CVbis
-@TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
+@PAGE:		54v
+@PARATEXT:	CHORO.
+@VERSE:	
+Ahi lacrime, ahi dolore,
+	Passa la vita, e si dilegua, e fugge,
+	Come giel che si strugge.
+	Ogni altezza s'inchina, e sparge à terra,
+	Ogni fermo sostegno,
+	Ogni possente Regno
+	In pace cadde al fin, se crebbe in guerra.
+	E come raggio il verno imbruna, e more
 @@END: VARIORUM
 
 
@@ -114,9 +100,17 @@
 @ID:		S1587O
 @TYPE:		print
 @SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@PAGE:		63r-v
+@PARATEXT:	Choro.
 @VERSE:		
+Ahi lacrime, ahi dolore,
+	Passa la vita, e si dilegua, e fugge,
+	Come giel che si strugge.
+	Ogni altezza s'inchina, e sparge à terra,
+	Ogni fermo sostegno,
+	Ogni possente Regno
+	In pace cadde al fin, se crebbe in guerra.
+	E come raggio il verno imbruna, e more
 @@END: VARIORUM
 
 
@@ -144,7 +138,26 @@
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trt0506
-@ID:		S1587V
+@ID:		S1587Vb
+@TYPE:		print
+@SPRINT:	
+@PAGE:		82
+@PARATEXT:	CHORO.
+@VERSE:	
+Ahi lacrime, ahi dolore,
+	Passa la vita, e si dilegua, e fugge,
+	Come giel che si strugge.
+	Ogni altezza s'inchina, e sparge à terra,
+	Ogni fermo sostegno,
+	Ogni possente Regno
+	In pace cadde al fin, se crebbe in guerra.
+	E come raggio il verno imbruna, e more
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trt0506
+@ID:		S1587Vf
 @TYPE:		print
 @SPRINT:	
 @PAGE:		
@@ -169,9 +182,17 @@
 @ID:		S1588Ct
 @TYPE:		print
 @SPRINT:	
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
+@PAGE:		60v
+@PARATEXT:	Choro.
+@VERSE:	
+Ahi lagrime, ahi dolore,
+	Passa la vita ,e si dilegua, e fugge,
+	Come giel, che si strugge.
+	Ogni altezza s'inchina, e sparge à terra,
+	Ogni fermo sostegno,
+	Ogni possente Regno
+	In pace cadde al fin se crebbe in guerra,
+	E come raggio il verno imbruna, e more
 @@END: VARIORUM
 
 
@@ -235,9 +256,16 @@
 @ID:		S1617G
 @TYPE:		print
 @SPRINT:	
-@PAGE:		
+@PAGE:		111
 @PARATEXT:	
 @VERSE:		
+[PAGE MISSING]
+[PAGE MISSING]
+[PAGE MISSING]
+[PAGE MISSING]
+[PAGE MISSING]
+[PAGE MISSING]
+[PAGE MISSING]
 @@END: VARIORUM
 
 
@@ -279,9 +307,17 @@
 @ID:		Trt0506a-Canto
 @TYPE:		music
 @COMPOSER:	Personè, Diego
-@PAGE:		
+@PAGE:		8
 @PARATEXT:	
 @VERSE:		
+Ahi lacrime ahi dolore
+	passa la vita e si dilegua il core
+	e sènpre da me fuggi
+	non più fuggir crudele
+	non più m'odiar infedele
+	ch'ogni fermo sostegno
+	& ogni gran martoro
+	sopporto per haver homai ristoro.
 @@END: VARIORUM
 
 
@@ -290,9 +326,17 @@
 @ID:		Trt0506a-Alto
 @TYPE:		music
 @COMPOSER:	Personè, Diego
-@PAGE:		
+@PAGE:		11
 @PARATEXT:	
 @VERSE:		
+Ahi lacrime ahi dolore
+	passa la vita e si dilegua il core
+	e sèmpre da me fuggi
+	non più fuggir crudele
+	non più m'odiar infedele
+	ch'ogni fermo sostegno
+	& ogni gran martoro
+	sopporto per haver homai ristoro.
 @@END: VARIORUM
 
 
@@ -301,9 +345,17 @@
 @ID:		Trt0506a-Tenore
 @TYPE:		music
 @COMPOSER:	Personè, Diego
-@PAGE:		
+@PAGE:		9
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Ahi lacrime ahi dolore
+	passa la vita e si dilegua il core
+	e sènpre da me fuggi
+	non più fuggir crudele
+	non più m'odiar infedele
+	ch'ogni fermo sostegno
+	& ogni gran martoro
+	sopporto per haver homai ristoro.
 @@END: VARIORUM
 
 
@@ -312,9 +364,17 @@
 @ID:		Trt0506a-Basso
 @TYPE:		music
 @COMPOSER:	Personè, Diego
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
+@PAGE:		12
+@PARATEXT:	[the page is incorrectly labeled "ALTO"]
+@VERSE:	
+Ahi lacrime ahi dolore
+	passa la vita e si dilegua il core
+	e sènpre da me fuggi
+	non più fuggir crudele
+	non più m'odiar infedele
+	ch'ogni fermo sostegno
+	& ogni gran martoro
+	sopporto per haver homai ristoro.
 @@END: VARIORUM
 
 
@@ -323,8 +383,16 @@
 @ID:		Trt0506a-Quinto
 @TYPE:		music
 @COMPOSER:	Personè, Diego
-@PAGE:		
+@PAGE:		2
 @PARATEXT:	
 @VERSE:		
+Ahi lacrime ahi dolore
+	passa la vita e si dilegua il core
+	e sènpre da me fuggi
+	non più fuggir crudele
+	non più m'odiar infedele
+	ch'ogni fermo sostegno
+	& ogni gran martoro
+	sopporto per haver homai ristoro.
 @@END: VARIORUM
 

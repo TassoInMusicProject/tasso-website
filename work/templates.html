@@ -86,15 +86,49 @@
 			play
 		</div>
 	</td>
+
 	<td>
 		<div id="expand" style="text-align: center; font-size: 160%; position: relative; left:-14px; cursor:pointer" onclick="toggleIncipit()">
 			e
 		</div>
 	</td>
+
+	<td style="margin-left: -10px;">
+		<div style="position:relative; top:-5px;" id="other-buttons">
+			<div style='font-size:1.5em;'>
+				<nobr>
+					<span id='text' class='text-icon' onclick='toggleText()'>
+						<span class='fa-stack fa-3x'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<strong class='fa-stack-1x text-primary'>
+								t
+							</strong>
+						</span>
+					</span>
+					<span id='original' class='mens-icon' onclick='toggleMensuration()'>
+						<span class='fa-stack fa-3x'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<strong class='fa-stack-1x text-primary'>
+								o
+							</strong>
+						</span>
+					</span>
+				</nobr>
+			</div>
+		</div>
+	</td>
+
+	<td>
+	|
+	</td>
+
 	<td style="min-width: 200px;">
 		<div style="position:relative; top:-5px;" id="voice-buttons">
 		</div>
 	</td>
+
+	<td width="100%"></td>
+
 	<td>
 		<div style="padding-left:10px">
 			<input id="query" onkeyup="processMusicSearch(event)" 
@@ -112,6 +146,19 @@
 		</div>
 	</td>
 	<td>
+		<div style='font-size:1.5em; margin-top:-10px;'>
+			<span id='search-help' class='text-icon' onclick='console.log("DISPLAY SEARCH HELP")'>
+				<span class='fa-stack fa-3x'>
+					<i class='fa fa-circle fa-stack-2x'></i>
+					<strong class='fa-stack-1x text-primary'>
+						?
+					</strong>
+				</span>
+			</span>
+		</div>
+	</td>
+
+	<td style="display:none;">
 		<div style="position:relative; top: 0px; left: -20px;">
 		<nobr>
 		<div title="go to first system" id="firstsys" style="display:inline-block; font-style:italic; cursor:pointer" onclick="firstVerovioPage()">
@@ -129,30 +176,7 @@
 		</nobr>
 		</div>
 	</td>
-	<td>
-	<div style="position:relative; top:-5px;" id="other-buttons">
-		<div style='font-size:1.5em;'>
-			<nobr>
-				<span id='text' class='text-icon' onclick='toggleText()'>
-					<span class='fa-stack fa-3x'>
-						<i class='fa fa-circle fa-stack-2x'></i>
-						<strong class='fa-stack-1x text-primary'>
-							t
-						</strong>
-					</span>
-				</span>
-				<span id='original' class='mens-icon' onclick='toggleMensuration()'>
-					<span class='fa-stack fa-3x'>
-						<i class='fa fa-circle fa-stack-2x'></i>
-						<strong class='fa-stack-1x text-primary'>
-							o
-						</strong>
-					</span>
-				</span>
-			</nobr>
-		</div>
-	</div>
-	</td>
+
 	</tr>
 	</table>
 

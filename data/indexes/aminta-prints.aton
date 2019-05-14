@@ -19,8 +19,8 @@
 @@
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1580D
-@PRINTTITLE:	
+@SPRINTNUM:	A-1580D
+@PRINTTITLE:	L'Aminta pastorale del sig. Torquato Tasso
 @PUBLISHER:	Cristoforo Draconi
 @PUBLOCATION:	Cremona
 @PUBYEAR:	1580
@@ -28,35 +28,47 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1581B
-@PRINTTITLE:	
-@PUBLISHER:	Vittorio Baldini
-@PUBLOCATION:	Ferrara
-@PUBYEAR:	1581
-@@END:		PRINT
-
-
-@@BEGIN:	PRINT
-@SPRINTNUM:	1581B<sub>bis</sub>
-@PRINTTITLE:	
-@PUBLISHER:	Vittorio Baldini
-@PUBLOCATION:	Ferrara
-@PUBYEAR:	1581
-@@END:		PRINT
-
-
-@@BEGIN:	PRINT
-@SPRINTNUM:	1581O
-@PRINTTITLE:	
-@PUBLISHER:	Francesco Osanna
-@PUBLOCATION:	Mantua
+@SPRINTNUM:	A-1580M
+@PRINTTITLE:	L’Aminta
+@PUBLISHER:	Aldo [Manuzio]
+@PUBLOCATION:	Venice
 @PUBYEAR:	1580
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1581V
-@PRINTTITLE:	
+@SPRINTNUM:	A-1581B
+@PRINTTITLE:	Aminta fauola boschereccia, del sig. Torquato Tasso. Corretta, & accresciuta
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1581
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	A-1581B<sub>bis</sub>
+@PRINTTITLE:	Aminta favola boschereccia del sig. Torquato Tasso. Accresciuta, et ricorretta
+@PUBLISHER:	Vittorio Baldini
+@PUBLOCATION:	Ferrara
+@PUBYEAR:	1581
+@URL: http://www.opal.unito.it/psixsite/Teatro%20italiano%20del%20XVI%20e%20XVII%20secolo/Elenco%20opere/image218.pdf
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	A-1581O
+@PRINTTITLE:	Aminta pastorale del sig. Torquato Tasso. Novamente ristampata, et con somma diligentia revista, ampliata e ricorretta
+
+@PUBLISHER:	Francesco Osanna
+@PUBLOCATION:	Mantua
+@PUBYEAR:	1581
+@URL: http://www.opal.unito.it/psixsite/Teatro%20italiano%20del%20XVI%20e%20XVII%20secolo/Elenco%20opere/image219.pdf
+@@END:		PRINT
+
+
+@@BEGIN:	PRINT
+@SPRINTNUM:	A-1581V
+@PRINTTITLE:	L'Aminta del sig. Torquato Tasso, tratto da fedeliss. copia di mano dell'istesso Auttore. Il qual non pur si vede più corretto di tutti gli altri, che fin qui siano usciti in luce, ma accresciuto di quanto a quelli in molti luochi mancava
 @PUBLISHER:	Erasmo Viotti
 @PUBLOCATION:	Parma
 @PUBYEAR:	1581
@@ -64,8 +76,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1581M
-@PRINTTITLE:
+@SPRINTNUM:	A-1581M
+@PRINTTITLE:	Aminta favola boscareccia di m. Torquato Tasso.
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1581
@@ -73,17 +85,18 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1581M<sub>bis</sub>
-@PRINTTITLE:	
+@SPRINTNUM:	A-1581M<sub>bis</sub>
+@PRINTTITLE:	Aminta favola boscareccia di m. Torquato Tasso.
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1581
+@URL: http://www.opal.unito.it/psixsite/Teatro%20italiano%20del%20XVI%20e%20XVII%20secolo/Elenco%20opere/image217.pdf
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1582B
-@PRINTTITLE:	
+@SPRINTNUM:	A-1582B
+@PRINTTITLE:	Aminta favola boschereccia del sig. Torquato Tasso. Accresciuta, et ricorretta
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1582
@@ -91,8 +104,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1583V
-@PRINTTITLE:	
+@SPRINTNUM:	A-1583V
+@PRINTTITLE:	Rime, et prose del S. Torquato Tasso. Parte prima. Di nuovo reviste, et corrette, con aggiunta di quanto manca nell'altre edittioni
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1583
@@ -100,17 +113,18 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1583M
-@PRINTTITLE:	
+@SPRINTNUM:	A-1583M
+@PRINTTITLE:	Aminta favola boscareccia del s. Torquato Tasso. Di novo corretta, & di vaghe figure adornata
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1583
+@URL: http://www.opal.unito.it/psixsite/Teatro%20italiano%20del%20XVI%20e%20XVII%20secolo/Elenco%20opere/image220.pdf
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1584A
-@PRINTTITLE:	
+@SPRINTNUM:	A-1584A
+@PRINTTITLE:	Aminta fauola boscareccia del s. Torquato Tasso
 @PUBLISHER:	Abel l'Angelieri
 @PUBLOCATION:	Paris
 @PUBYEAR:	1584
@@ -118,8 +132,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1585C
-@PRINTTITLE:	
+@SPRINTNUM:	A-1585C
+@PRINTTITLE:	Delle rime et prose del Sig. Torquato Tasso. Parte prima. Di nuovo ristampate, con diligenza rivedute, e corrette
 @PUBLISHER:	Giulio Cesare Cagnacini e fratelli
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1585
@@ -127,8 +141,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1585V
-@PRINTTITLE:	
+@SPRINTNUM:	A-1585V
+@PRINTTITLE:	Delle rime et prose del Sig. Torquato Tasso. Parte prima. Di nuovo ristampate, con diligenza rivedute, e corrette
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1585
@@ -136,8 +150,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1585Vbis
-@PRINTTITLE:	
+@SPRINTNUM:	A-1585Vbis
+@PRINTTITLE:	Delle rime, et prose del Sig. Torquato Tasso. Parte prima. Di nuovo ristampate, con diligenza rivedute, e corrette
 @PUBLISHER:	Simon Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1585
@@ -145,8 +159,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1588B
-@PRINTTITLE:	
+@SPRINTNUM:	A-1588B
+@PRINTTITLE:	Aminta favola boschereccia del s. Torquato Tasso
 @PUBLISHER:	Giovanni Bazzacchi
 @PUBLOCATION:	Piacenza
 @PUBYEAR:	1588
@@ -154,8 +168,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1589V
-@PRINTTITLE:	
+@SPRINTNUM:	A-1589V
+@PRINTTITLE:	L’Aminta favola boscheretia del sig. Torquato Tasso. Di nuovo ristampata, & corretta
 @PUBLISHER:	Giulio Vasalini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1585
@@ -163,8 +177,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1589M
-@PRINTTITLE:	
+@SPRINTNUM:	A-1589M
+@PRINTTITLE:	Aminta favola boschereccia del s. Torquato Tasso Di nuouo corretta, & di vaghe figure adornata
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1589
@@ -173,8 +187,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1590Mb
-@PRINTTITLE:	
+@SPRINTNUM:	A-1590Mb
+@PRINTTITLE:	L’Aminta
 @PUBLISHER:	Marchetti
 @PUBLOCATION:	Brescia
 @PUBYEAR:	1590
@@ -182,17 +196,18 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1590Mv
-@PRINTTITLE:	
+@SPRINTNUM:	A-1590Mv
+@PRINTTITLE:	Aminta favola boschereccia del sig. Torquato Tasso. Di nouo corretta, & di bellssime, & vaghe figure adornata
 @PUBLISHER:	Aldo [Manuzio]
 @PUBLOCATION:	Venice
 @PUBYEAR:	1590
+@URL: http://www.opal.unito.it/psixsite/Teatro%20italiano%20del%20XVI%20e%20XVII%20secolo/Elenco%20opere/image221.pdf
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1591W
-@PRINTTITLE:	
+@SPRINTNUM:	A-1591W
+@PRINTTITLE:	L’Aminta favola boschereccia
 @PUBLISHER:	John Wolf
 @PUBLOCATION:	London
 @PUBYEAR:	1591
@@ -200,8 +215,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1591M
-@PRINTTITLE:	
+@SPRINTNUM:	A-1591M
+@PRINTTITLE:	Aminta favola boschereccia di nuovo ristampata et corretta
 @PUBLISHER:	Jamet Mettayer
 @PUBLOCATION:	Tours
 @PUBYEAR:	1591
@@ -209,26 +224,28 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1592B
-@PRINTTITLE:	
+@SPRINTNUM:	A-1592B
+@PRINTTITLE:	Aminta favola boscareccia del s. Torquato Tasso. Di nuouo ristampata, & corretta.
 @PUBLISHER:	Giovanni Bazzacchi
 @PUBLOCATION:	Piacenza
 @PUBYEAR:	1592
+@URL: https://books.google.com/books?id=_ULvf1b8OVcC&dq=tasso+aminta&source=gbs_navlinks_s
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1596B
-@PRINTTITLE:	
+@SPRINTNUM:	A-1596B
+@PRINTTITLE:	Aminta fauola boscheretia del signor Torquato Tasso, di nuouo ristampata, et corretta
 @PUBLISHER:	Giovanni Battista Bellagamba [ad istanza di Simone Parlasca]
 @PUBLOCATION:	Bologna
 @PUBYEAR:	1596
+@URL: https://books.google.com/books?id=IM5yj7E8Q60C&dq=tasso+aminta&source=gbs_navlinks_s
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1596M
-@PRINTTITLE:	
+@SPRINTNUM:	A-1596M
+@PRINTTITLE:	Aminta
 @PUBLISHER:	Jamet Mettayer
 @PUBLOCATION:	Tours
 @PUBYEAR:	1591
@@ -236,8 +253,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1599Bf
-@PRINTTITLE:	
+@SPRINTNUM:	A-1599Bf
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta, & di bellissime, & vaghe figure adornata
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1599
@@ -245,17 +262,18 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1599Bp
-@PRINTTITLE:	
+@SPRINTNUM:	A-1599Bp
+@PRINTTITLE:	Aminta favola boscareccia del sig. Torquato Tasso. Di nuouo ristampata, & corretta
 @PUBLISHER:	Giovanni Bazzacchi
 @PUBLOCATION:	Piacenza
 @PUBYEAR:	1599
+@URL: http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3Abid.braidense.it%3A7%3AMI0185%3AMILE022267&mode=all&teca=Braidense
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1600R
-@PRINTTITLE:	
+@SPRINTNUM:	A-1600R
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo stampata, et con ogni diligenza corretta
 @PUBLISHER:	Francesco Raverio
 @PUBLOCATION:	Cesena
 @PUBYEAR:	1600
@@ -263,8 +281,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1601Bf
-@PRINTTITLE:	
+@SPRINTNUM:	A-1601Bf
+@PRINTTITLE:	Aminta favola boscareccia  del sig. Torquato Tasso. Di nuovo corretta
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1601
@@ -272,8 +290,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1601Bp
-@PRINTTITLE:	
+@SPRINTNUM:	A-1601Bp
+@PRINTTITLE:	Aminta favola boscareccia  del sig. Torquato Tasso. Di nuovo ristampata et corretta
 @PUBLISHER:	Giovanni Bazzacchi
 @PUBLOCATION:	Piacenza
 @PUBYEAR:	1601
@@ -281,8 +299,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1602B
-@PRINTTITLE:	
+@SPRINTNUM:	A-1602B
+@PRINTTITLE:	Aminta favola boschereccia. Del signor Torquato Tasso
 @PUBLISHER:	Vincenzo Colombara [ad istanza di Marco Naccarini]
 @PUBLOCATION:	Perugia
 @PUBYEAR:	1602
@@ -290,17 +308,18 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1603Bf
-@PRINTTITLE:	
+@SPRINTNUM:	A-1603Bf
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta, & di bellissime, & vaghe figure adornata
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1603
+@URL: http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3Abid.braidense.it%3A7%3AMI0185%3ALO1E001785&mode=all&teca=Braidense
 @@END:		PRINT
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1603Bv
-@PRINTTITLE:	
+@SPRINTNUM:	A-1603Bv
+@PRINTTITLE:	Aminta favola boscareccia del signor Torguato Tasso. Nuovamente ristampata, & ricorretta
 @PUBLISHER:	Daniele Bisuccio
 @PUBLOCATION:	Venice
 @PUBYEAR:	1603
@@ -308,8 +327,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1603Z
-@PRINTTITLE:	
+@SPRINTNUM:	A-1603Z
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta & di vaghe figure adornata
 @PUBLISHER:	Marc'Antonio Zaltieri
 @PUBLOCATION:	Venice
 @PUBYEAR:	1603
@@ -317,8 +336,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1605R
-@PRINTTITLE:	
+@SPRINTNUM:	A-1605R
+@PRINTTITLE:	Catharini Dulcis Schola Italica
 @PUBLISHER:	Wolfgang Richter
 @PUBLOCATION:	Frankfurt
 @PUBYEAR:	1605
@@ -326,8 +345,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1606Z
-@PRINTTITLE:	
+@SPRINTNUM:	A-1606Z
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta & di vaghe figure adornata
 @PUBLISHER:	Marc'Antonio Zaltieri
 @PUBLOCATION:	Venice
 @PUBYEAR:	1606
@@ -335,8 +354,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1608DP
-@PRINTTITLE:	
+@SPRINTNUM:	A-1608DP
+@PRINTTITLE:	Rime del Signor Torquato Tasso, divise in sei parti [Parte sesta]
 @PUBLISHER:	Evangelista Deuchino & Giovanni Battista Pulciani
 @PUBLOCATION:	Venice
 @PUBYEAR:	1608
@@ -344,8 +363,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1608D
-@PRINTTITLE:	
+@SPRINTNUM:	A-1608D
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta, & di bellissime, & vaghe figure adornata
 @PUBLISHER:	Girolamo Discepolo
 @PUBLOCATION:	Viterbo
 @PUBYEAR:	1608
@@ -353,8 +372,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1609Bf
-@PRINTTITLE:	
+@SPRINTNUM:	A-1609Bf
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta
 @PUBLISHER:	Vittorio Baldini
 @PUBLOCATION:	Ferrara
 @PUBYEAR:	1609
@@ -362,8 +381,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1609Bv
-@PRINTTITLE:	
+@SPRINTNUM:	A-1609Bv
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo stampata, et con ogni diligenza corretta
 @PUBLISHER:	Giorgio Bizzardo
 @PUBLOCATION:	Venice
 @PUBYEAR:	1609
@@ -371,8 +390,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1609Z
-@PRINTTITLE:	
+@SPRINTNUM:	A-1609Z
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta & di Vaghe Figure adornata
 @PUBLISHER:	Marc'Antonio Zaltieri
 @PUBLOCATION:	Venice
 @PUBYEAR:	1609
@@ -380,8 +399,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1611D
-@PRINTTITLE:	
+@SPRINTNUM:	A-1611D
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo corretta, & di bellissime & vaghe figure adornata
 @PUBLISHER:	Girolamo Discepolo
 @PUBLOCATION:	Viterbo
 @PUBYEAR:	1611
@@ -389,8 +408,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1614GT
-@PRINTTITLE:	
+@SPRINTNUM:	A-1614GT
+@PRINTTITLE:	Aminta favola boscareccia del S. Torquato Tasso. Coretta da L. Douët, per giovamento e commodità di quelli ch’imparar vorranno la lingua Toscana con il mezzo del suo methodo
 @PUBLISHER:	Matteo Guillemot & Samuel Thiboust
 @PUBLOCATION:	Paris
 @PUBYEAR:	1614
@@ -398,8 +417,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1617D
-@PRINTTITLE:	
+@SPRINTNUM:	A-1617D
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo con diligentia ricorretta
 @PUBLISHER:	Pietro Dusinelli
 @PUBLOCATION:	Venice
 @PUBYEAR:	1617
@@ -407,17 +426,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	
-@PRINTTITLE:	
-@PUBLISHER:	
-@PUBLOCATION:	
-@PUBYEAR:	
-@@END:		PRINT
-
-
-@@BEGIN:	PRINT
-@SPRINTNUM:	1618B
-@PRINTTITLE:	
+@SPRINTNUM:	A-1618B
+@PRINTTITLE:	Rime del Signor Torquato Tasso, divise in sei parti
 @PUBLISHER:	Giovanni Battista Bidelli
 @PUBLOCATION:	Milan
 @PUBYEAR:	1618-1619
@@ -425,8 +435,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1619I
-@PRINTTITLE:	
+@SPRINTNUM:	A-1619I
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo con diligentia ricorretta
 @PUBLISHER:	Domenico Imberti
 @PUBLOCATION:	Venice
 @PUBYEAR:	1619
@@ -434,8 +444,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1619D
-@PRINTTITLE:	
+@SPRINTNUM:	A-1619D
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso di nuovo corretta, & di bellissimi, & vaghe figure adornata
 @PUBLISHER:	Pietro e Agostino Discepolo
 @PUBLOCATION:	Viterbo
 @PUBYEAR:	1619
@@ -443,8 +453,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1620V
-@PRINTTITLE:	
+@SPRINTNUM:	A-1620V
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo con diligenza ricorretta
 @PUBLISHER:	Giorgio Valentini
 @PUBLOCATION:	Venice
 @PUBYEAR:	1620
@@ -452,8 +462,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1622D
-@PRINTTITLE:	
+@SPRINTNUM:	A-1622D
+@PRINTTITLE:	Aminta favola boscareccia del sig. Torquato Tasso. Di nouo corretta, et di vaghe figure adornata
 @PUBLISHER:	Evangelista Deuchino
 @PUBLOCATION:	Venice
 @PUBYEAR:	1622
@@ -461,8 +471,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1623A
-@PRINTTITLE:	
+@SPRINTNUM:	A-1623A
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. Di nuovo con diligentia ricorretta
 @PUBLISHER:	Gherardo e Iseppo Alberti
 @PUBLOCATION:	Venice
 @PUBYEAR:	1623
@@ -470,8 +480,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1624T
-@PRINTTITLE:	
+@SPRINTNUM:	A-1624T
+@PRINTTITLE:	Aminta, favola boscareccia, coretta da L. Douët
 @PUBLISHER:	Samuel Thiboust
 @PUBLOCATION:	Paris
 @PUBYEAR:	1624
@@ -479,8 +489,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1624M
-@PRINTTITLE:	
+@SPRINTNUM:	A-1624M
+@PRINTTITLE:	Aminta. Favola Boscareccia del Sig. Torquato Tasso
 @PUBLISHER:	Manelfo Manelfi
 @PUBLOCATION:	Rome
 @PUBYEAR:	1624
@@ -488,8 +498,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1624S
-@PRINTTITLE:	
+@SPRINTNUM:	A-1624S
+@PRINTTITLE:	Aminta favola boscareccia del signor Torquato Tasso. di nuovo con diligenza ricorretta
 @PUBLISHER:	Lucio Spineda
 @PUBLOCATION:	Venice
 @PUBYEAR:	1624
@@ -497,8 +507,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1625U
-@PRINTTITLE:	
+@SPRINTNUM:	A-1625U
+@PRINTTITLE:	Aminta favola boscareccia del Sig. Torquato Tasso. Di nuovo con diligenza ricorretta
 @PUBLISHER:	Domenico e Pietro Ussi
 @PUBLOCATION:	Venice
 @PUBYEAR:	1625
@@ -506,8 +516,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1628U
-@PRINTTITLE:	
+@SPRINTNUM:	A-1628U
+@PRINTTITLE:	Aminta favola boscareccia del Sig. Torquato Tasso. Di nuovo con diligenza ricorretta
 @PUBLISHER:	Domenico e Pietro Ussi
 @PUBLOCATION:	Venice
 @PUBYEAR:	1628
@@ -515,8 +525,8 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1632D
-@PRINTTITLE:	
+@SPRINTNUM:	A-1632D
+@PRINTTITLE:	Aminta Favola Boscareccia del Sig. Torquato Tasso. Di nuovo corretta, & di bellissime, & vaghe figure adornata
 @PUBLISHER:	Bernardino Diotallevi
 @PUBLOCATION:	Viterbo
 @PUBYEAR:	1632
@@ -524,12 +534,13 @@
 
 
 @@BEGIN:	PRINT
-@SPRINTNUM:	1634R
-@PRINTTITLE:	
+@SPRINTNUM:	A-1634R
+@PRINTTITLE:	Aminta
 @PUBLISHER:	Rosselli
 @PUBLOCATION:	Palermo
 @PUBYEAR:	1634
 @@END:		PRINT
+
 
 
 

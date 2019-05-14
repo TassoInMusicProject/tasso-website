@@ -55,7 +55,7 @@ var vrvOptions = {
 };
 
 var CURRENT_PAGE = 1;
-var INCIPIT_STYLE = 0;
+var INCIPIT_STYLE = 1;
 var ORIGINAL_CLEFS = 0;
 var INCLUDE_TEXT = 1;
 var CSS_TEXT = 1;
@@ -648,7 +648,6 @@ function getHumdrumSourceData(humid) {
 //
 
 function initializeVerovioNotation(sourceid, targetid, query) {
-console.log("GOT HERE IN INITIALIZE VEROVI NOTATION ", sourceid, targetid, query);
 	if (!targetid) {
 		targetid = "verovio-display";
 	}
@@ -1489,10 +1488,10 @@ function displayTextState() {
 	var elements = document.querySelectorAll(".text-icon");
 	for (var i=0; i<elements.length; i++) {
 		if (INCLUDE_TEXT) {
-			elements[i].className += " highlight";
+			elements[i].classList.remove("highlight");
 			elements[i].title = "hide text (t)";
 		} else {
-			elements[i].classList.remove("highlight");
+			elements[i].className += " highlight";
 			elements[i].title = "show text (t)";
 		}
 	}

@@ -2,16 +2,31 @@
 # vim: ts=3
 
 use strict;
+use Getopt::Long;
+
+my $rep = "rime";
+
+# $COLUMNSPACE is the text which separates each column of parameters.
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'r|repertory=s' => \$rep
+);
+
+if ($rep =~ /^\s*$/) {
+	$rep = "rime";
+}
 
 my $basedir = "../../variorum/data";
 
 `mkdir -p $basedir`;
 
 my $indexdir = "../indexes";
-my $manuscriptfile = "rime-manuscripts.aton";
-my $printfile      = "rime-prints.aton";
-my $versefile      = "rime-verses.aton";
-my $settingfile    = "rime-settings.aton";
+
+my $manuscriptfile = "$rep-manuscripts.aton";
+my $printfile      = "$rep-prints.aton";
+my $versefile      = "$rep-verses.aton";
+my $settingfile    = "$rep-settings.aton";
+
 my $sourcefile     = "sources.aton";
 
 my %MANUSCRIPTS = getManuscripts("$indexdir/$manuscriptfile");
@@ -133,7 +148,6 @@ print "READING FROM LINE $i : $line\n";
 	}
 
 	if (!$foundstart) {
-print "GOT HERE SSS\n";
 		return $endi;
 	}
 
@@ -210,16 +224,43 @@ print "GOT HERE SSS\n";
 
 	my %p;
 	if ($data{"TYPE"} =~ /print/i) {
+		my $pid = $data{"ID"};
+		print "PID = $pid\n";
+		my $pp = $PRINTS{$pid};
+
+		if ($pp =~ /^\s*$/) {
+			my $newpid = $pid;
+			$newpid =~ s/-//g;
+			$pp = $PRINTS{$newpid};
+		}
+
 		if ($data{"ID"} =~ /^\d/) {
 			# id must start with a letter, using "S":
-			$data{"ID"} = "S$data{'ID'}";
+			$data{"XMLID"} = "S$data{'ID'}";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+		} else {
+			$data{"XMLID"} = "$data{'ID'}";
 		}
-		my $pid = $data{"ID"};
-		my $pp = $PRINTS{$pid};
+
+
+		if ($pp =~ /^\s*$/) {
+print STDERR "XPID = $pid\n";
+			$pp = $PRINTS{"S$pid"};
+print STDERR %PRINTS;
+print "\n";
+foreach my $item (keys %PRINTS) {
+	print "\tKEY = $item\n";
+}
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
+print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
+		}
 		
 		if ($pp =~ /^\s*$/) {
-			die "Cannot work without print reference >>$pid<<\n";
-		} elsif (!$pp) {
 			die "Cannot work without print reference >>$pid<<\n";
 		} 
 
@@ -266,12 +307,20 @@ sub printVariorumXml {
 	my ($catalognum, $id) = @_;
 
 	$catalognum =~ s/\s+//g;
-	if ($catalognum !~ /^Trm\d\d\d\d$/) {
+	if ($catalognum !~ /^T[a-z][a-z]\d+$/) {
 		die "Invalid catalog number: $catalognum\n";
 	}
 	$id =~ s/\s+//g;
 	if ($id =~ /^\s*$/) {
 		die "Id cannot be empty for $catalognum\n";
+	}
+
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
+print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
 	}
 
 	`mkdir -p $basedir/$catalognum`;
@@ -370,7 +419,15 @@ sub printSourceDesc {
 
 sub printPrintDesc {
 	my ($n) = @_;
-	indent($n); print VFILE "<bibl xml:id=\"$PARAM{'ID'}\">\n";
+	my $id = $PARAM{'ID'};
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
+print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
+	}
+	indent($n); print VFILE "<bibl xml:id=\"$id\">\n";
 	printPrintBibl($n+1);
 	indent($n); print VFILE "</bibl>\n";
 }
@@ -416,7 +473,15 @@ sub printPrintBibl {
 
 sub printMusicDesc {
 	my ($n) = @_;
-	indent($n); print VFILE "<bibl type=\"music\" xml:id=\"$PARAM{'ID'}\">\n";
+	my $id = $PARAM{'ID'};
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
+print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
+	}
+	indent($n); print VFILE "<bibl type=\"music\" xml:id=\"$id\">\n";
 	printMusicBibl($n+1);
 	indent($n); print VFILE "</bibl>\n";
 }
@@ -466,7 +531,15 @@ sub printMusicBibl {
 
 sub printMsDesc {
 	my ($n) = @_;
-	indent($n); print VFILE "<msDesc xml:id=\"$PARAM{'ID'}\">\n";
+	my $id = $PARAM{'ID'};
+	if ($id =~ /^\d/) {
+		$id = "S$id";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
+print STDERR "GOT HERE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n";
+	}
+	indent($n); print VFILE "<msDesc xml:id=\"$id\">\n";
 	printMsIdentifier($n+1);
 	printMsContents($n+1);
 	printHistory($n+1);
@@ -593,14 +666,21 @@ sub printPublicationStmt {
 	if ($PARAM{'TYPE'} =~ /music/i) {
 		my $pid;
 		my $voice;
-		die "Error in $PARAM{'ID'}\n" if $PARAM{"ID"} !~ /(Trm\d+[a-z])-(.*)/;
+		die "Error in $PARAM{'ID'}\n" if $PARAM{"ID"} !~ /(T[a-z][a-z]\d+[a-z])-(.*)/;
 		$pid = $1;
 		$voice = $2;
 		indent($n); print VFILE "<idno type=\"local\">$pid</idno>\n";
 		indent($n); print VFILE "<idno type=\"label\">$pid ($voice)</idno>\n";
 	} elsif ($PARAM{'TYPE'} =~ /print/i) {
 		my $sprint = $PARAM{"ID"};
-		$sprint =~ s/^S//;
+		# $sprint =~ s/^S//;
+		if ($sprint =~ /^\d/) {
+			$sprint = "S$sprint";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
+print STDERR "GOT HERE GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n";
+		}
 		indent($n+1); print VFILE "<idno type=\"local\">$sprint</idno>\n";
 	} else {
 		my $idno = $PARAM{"SMSIGLUM"};
@@ -1202,6 +1282,7 @@ sub getAtonEntry {
 		} elsif ($line =~ /^\@([^:\@]+)\s*:\s*(.*)\s*$/) {
 			$key = $1;
 			$value = $2;
+print "KEY = $key\tVALUE = $value\n";
 			if (($key eq "VERSE") || ($key eq "TVERSE")) {
 				$entry{"VERSE_COUNT"}++;
 				$entry{$key} .= "\n$value";

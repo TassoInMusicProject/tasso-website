@@ -23,8 +23,8 @@
 @ECLOGA:        I
 @VERSE:		1
 @TITLE:		Dimmi, mesto pastore	
-@MANUSRC:	E<sub>1</sub>, P<sub>3</sub>, Pt
-@PRINTSRC:	1582B, 1582M, 1582MC, 1583O, 1585V, 1589V, 1608DP, 1619B, 1621D
+@MANUSRC:	E-E<sub>1</sub>, E-P<sub>3</sub>, E-Pt
+@PRINTSRC:	E-1582B, E-1582M, E-1582MC, E-1582O, E-1589V, E-1608DP, E-1618B, E-1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Licori
 @ABOUTEN:	Lycoris
@@ -57,8 +57,8 @@
 @ECLOGA:        I
 @VERSE:		89
 @TITLE:		Di che cantar degg'io	
-@MANUSRC:	E<sub>1</sub>, Pt
-@PRINTSRC:	1582B, 1582M, 1582MC, 1583O, 1585V, 1589V, 1608DP, 1619B, 1621D
+@MANUSRC:	E-E<sub>1</sub>, E-Pt
+@PRINTSRC:	E-1582B, E-1582M, E-1582MC, E-1582O, E-1589V, E-1608DP, E-1618B, E-1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Tirsi
 @ABOUTEN:	Tyrsis
@@ -123,8 +123,8 @@ That the green grassy springs decorate for you.
 @ECLOGA:        II
 @VERSE:		73
 @TITLE:		Ché qual tenera rosa	
-@MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
-@PRINTSRC:	1587B, 1587CV, 1592CV, 1621D
+@MANUSRC:	E-I<sub>2</sub>, E-O<sub>2</sub>
+@PRINTSRC:	E-1587B, E-1587V, E-1592V, E-1621D
 @@BEGIN:	VERSES
 @ABOUTIT:	Arezia
 @ABOUTEN:	Arezia
@@ -138,7 +138,7 @@ That the green grassy springs decorate for you.
 @TRANSLATOR:	Amyrose McCue Gill Emiliano Ricciardi 
 @VERSE:	
 	Ché, qual tenera rosa
-	A la rugiada, a l'ôra
+	A la rugiada, a l'ora
 	De la nascente aurora
 	Non apre vergognosa
 	Il suo vermiglio ed odorato seno:
@@ -146,45 +146,6 @@ That the green grassy springs decorate for you.
 	De 'l gran pianeta ardente,
 	Apre languendo le purpuree spoglie
 	E 'l bel raggio de 'l sole in grembo accoglie:
-@TVERSE:
-	For, that tender rose
-Bedewed, at the hour
-Of rising dawn
-Does not open, bashfully,
-Her vermilion and perfumed breast:
-But, now that nearer she feels the heat
-Of the great burning planet,
-She opens, languishing, her purpled petals
-And gathers to her bosom the beautiful ray of the sun. 
-@@END:		VERSES
-@OTHER_CRIT_ED:  none
-@ATTRIBUTION_ABOUT:	Not secure
-The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
-@DATING:	Before 1587
-@DEDICATEE:	
-@COMMENTARY:    
-@@END:		VERSEDATA
-
-
-@@BEGIN:	VERSEDATA
-@CATALOGNUM:	Tec2082
-@ECLOGA:        II
-@VERSE:		82
-@TITLE:		Così la verginella	
-@MANUSRC:	I<sub>2</sub>, O<sub>2</sub>
-@PRINTSRC:	1587B, 1587CV, 1592CV, 1621D
-@@BEGIN:	VERSES
-@ABOUTIT:	
-@ABOUTEN:	
-@EDITOR:	Angelo Solerti
-@EDITION_TITLE: Opere minori in versi di Torquato Tasso
-@EDITION_LOC:	Bologna
-@EDITION_PUB:	Zanichelli
-@EDITION_DATE:  1895
-@EDITION_VOL:	III	
-@EDITION_PAGE:  412-13
-@TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
-@VERSE:	
 	Così la verginella
 	A i pianti ed a i sospiri
 	Di novello amator che lunge miri,
@@ -197,6 +158,15 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	Quando le apristi le tue pene ascose?
 	E come ti rispose?
 @TVERSE:
+	For, that tender rose
+Bedewed, at the hour
+Of rising dawn
+Does not open, bashfully,
+Her vermilion and perfumed breast:
+But, now that nearer she feels the heat
+Of the great burning planet,
+She opens, languishing, her purpled petals
+And gathers to her bosom the beautiful ray of the sun:
 Thus the maiden,
 To the laments and to the sighs
 Of a new lover who might gaze [upon her from] afar,
@@ -209,20 +179,21 @@ But how did Chloris hear you
 When you revealed your hidden pains to her?
 And how did she answer you?
 @@END:		VERSES
-@OTHER_CRIT_ED:  None
+@OTHER_CRIT_ED:  none
 @ATTRIBUTION_ABOUT:	Not secure
 The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 @DATING:	Before 1587
-@DEDICATEE:	?
+@DEDICATEE:	
 @COMMENTARY:    
 @@END:		VERSEDATA
+
 
 @@BEGIN:	VERSEDATA
 @CATALOGNUM:	Tec3108
 @ECLOGA:        III
 @VERSE:		108
 @TITLE:		Non sospirar pastor, non sospirare 	
-@MANUSRC:	O<sub>2</sub>
+@MANUSRC:	E-O<sub>2</sub>
 @PRINTSRC:	none
 @@BEGIN:	VERSES
 @ABOUTIT:	Amarilli
@@ -274,7 +245,7 @@ It will again draw from your lament burning sparks.
 @OTTAVA:       	16	
 @TITLE:		"Lasso," dicea, "Perché venisti Amore
 @MANUSRC:	none
-@PRINTSRC:	1562S, 1570S, 1581O, 1582O, 1582M, 1583M, 1583V, 1585C, 1585V, 1585V<sub>bis</sub>, 1589B, 1608DP, 1618B, 1621D, 1637M
+@PRINTSRC:	R-1562S, R-1570S, R-1581O, R-1582O, R-1582M, R-1583M, R-1583V, R-1585C, R-1585V, R-1585V<sub>bis</sub>, R-1589B, R-1608DP, R-1618B, R-1621D, R-1637M
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -318,7 +289,7 @@ You were to wound [me], I surrendered myself as vanquished?
 @OTTAVA:       	18
 @TITLE:		Tu perfido signor, tu disleale	
 @MANUSRC:	none
-@PRINTSRC:	1562S, 1570S, 1581O, 1582O, 1582M, 1583M, 1583V, 1585C, 1585V, 1585V<sub>bis</sub>, 1589B, 1608DP, 1618B, 1621D, 1637M
+@PRINTSRC:	R-1562S, R-1570S, R-1581O, R-1582O, R-1582M, R-1583M, R-1583V, R-1585C, R-1585V, R-1585V<sub>bis</sub>, R-1589B, R-1608DP, R-1618B, R-1621D, R-1637M
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -368,7 +339,7 @@ You, wicked sir, you disloyal one,
 @STANZA:        2
 @TITLE:		Chiaro sol che rotondo esci dal Gange	
 @MANUSRC:	none
-@PRINTSRC:	1593A, 1593Bb, 1593Bl, 1593CV, 1593Fr, 1593Fs, 1593M, 1594F, 1594O, 1596B, 1596F, 1596R, 1597S, 1599B, 1599S, 1602S
+@PRINTSRC:	L-1593A, L-1593Bb, L-1593Bl, L-1593Fr, L-1593Fs, L-1593M, L-1593V, L-1594F, L-1594O, L-1596B, L-1596F, L-1596R, L-1597S, L-1599S, L-1602S
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -417,9 +388,9 @@ The earliest datable appearance of this poem is in a literary print published in
 @ACT:        	V
 @SCENE:       	6
 @SECTION:	Coro
-@TITLE:		Ahi lagrime! ahi dolore	
-@MANUSRC:	Au, Vau, R
-@PRINTSRC:	1587Bf, 1587Bg, 1587C, 1587CV, 1587CV<sub>bis</sub>, 1587Dc, 1587Dv, 1587O, 1587P, 1587R, 1587V, 1588Cf, 1588Ct, 1588Z, 1589B, 1607A, 1608A, 1608DP, 1617G, 1618B, 1622D, 1637M
+@TITLE:		Ahi lagrime! ahi dolore!	
+@MANUSRC:	T-Au, T-Vau, T-R
+@PRINTSRC:	T-1587Bf, T-1587Bg, T-1587Cf, T-1587Dc, T-1587Dv, T-1587O, T-1587P, T-1587R, T-1587Vb, T-1587Vf, T-1588Cf, T-1588Ct, T-1588Z, T-1607A, T-1608A, T-1617G, T-1618B, T-1622D
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -432,7 +403,7 @@ The earliest datable appearance of this poem is in a literary print published in
 @EDITION_PAGE:  358
 @TRANSLATOR:	Amyrose McCue Gill and Emiliano Ricciardi 
 @VERSE:	
-	Ahi lagrime, ahi dolore:
+	Ahi lagrime! ahi dolore!
 	Passa la vita e si dilegua e fugge,
 	Come giel che si strugge.
 	Ogni altezza s'inchina, e sparge a terra
@@ -452,7 +423,7 @@ The earliest datable appearance of this poem is in a literary print published in
 	Sol qui restano a l'alma
 	Lutto e lamento e lagrimosi lai.
 	Che più giova amicizia, o giova amore?
-	Ahi lagrime, ahi dolore!
+	Ahi lagrime! ahi dolore!
 @TVERSE:
 Alas tears, alas sorrow:
 Life passes and it vanishes and flees,
@@ -493,8 +464,8 @@ Alas tears, alas sorrow!
 @CANTO:        	VIII
 @OTTAVA:       	6
 @TITLE:		Piange, e sospira; e quando i caldi raggi	
-@MANUSRC:	N
-@PRINTSRC:	1593F, 1594V, 1595A
+@MANUSRC:	C-N
+@PRINTSRC:	C-1593F, C-1594V, C-1595A
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	

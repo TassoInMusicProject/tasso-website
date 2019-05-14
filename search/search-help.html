@@ -1,0 +1,209 @@
+---
+---
+<html lang="en">
+<head>
+<style>
+.qaz {
+   color:#2b75af;
+   font-weight: 700;
+   font-family: Courier,monospace;
+   font-size:90%;
+}
+.xtra {
+   margin-top:10px;
+}
+
+.entry {
+  color: #d7ab5b;
+  font-family: "Simonetta", "serif";
+  font-size: 110%;
+  font-weight: 700;
+  padding-top: 52px;
+  margin-bottom: 31px;
+}
+</style>
+<title>Search Help</title>
+{% include_relative usual-head-contents.html %}
+
+<body>
+
+<div class="page container" id="search-page">
+<div id="content">
+
+<article style="margin-left:-140px; margin-top:-50px;" class="about">
+
+<table class="xtra" width=500 cellpadding=0 cellspacing=0>
+<tr valign=baseline><td width=100%>
+<h2 class="brown-heading">Searching the Tasso in Music database</h2>
+</td><td>
+</td></tr></table>
+
+<p style="margin-top:0px;">
+<table width=500 cellpadding=0 cellspacing=2>
+
+<tr>
+   <td>
+   <span class=entry>Pitch</span>
+   </td>
+   <td colspan=2>
+      <span class="qaz">a</span><small>&nbsp;&nbsp;</small>through<small>&nbsp;&nbsp;</small><span class="qaz">g</span>
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">n</span>, <span class="qaz">#</span>, <span class="qaz">-</span>
+   </td>
+   <td>
+      specify a note's quality: natural, sharp, flat
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td></td>
+   <td><span class="qaz">r</span></td>
+   <td>
+     rest
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td></td>
+   <td><span class="qaz">*</span></td>
+   <td>
+     any single pitch<br><br>
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   <span class=entry>Interval</span>
+   </td>
+   <td>
+   <span class="qaz">1</span>,&nbsp;<span class="qaz">2</span>,&nbsp;<span class="qaz">3</span>,&nbsp;etc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </td>
+   <td valign=baseline>
+   unison, 2nd, 3rd, etc. (e.g., <span class="qaz">5</span> <span class="qaz">5</span> <span class="qaz">2</span> <span class="qaz">2</span>)
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+   <span class="qaz">+</span>, <span class="qaz">-</span>
+   </td>
+   <td valign=baseline>
+   ascending, descending<br>
+<table style="margin-left:20px;" cellpadding=0 cellspacing=0>
+<tr><td style="padding-right:20px;">
+      <span class="qaz">+5</span> <span class="qaz">-2</span>
+   </td>
+   <td> 
+       = &#8593;5th, &#8595;2nd <br>
+   </td>
+</tr>
+<tr>
+<td>
+   <span class="qaz">+</span>
+</td>
+<td>
+= any ascending interval
+</td>
+</tr>
+</table>
+
+	</ul>
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+   <span class="qaz">M</span>, <span class="qaz">m</span>, <span class="qaz">d</span>, <span class="qaz">a</span>
+   </td>
+   <td valign=baseline>
+   major, minor, diminished, augmented (e.g.,&nbsp;<span style="white-space:nowrap;" class="qaz">-m3&nbsp;+d4</span>)
+   <br><br>
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   <span class=entry>Duration</span>&nbsp;&nbsp;&nbsp;
+   </td>
+   <td valign=baseline>
+	<span class="qaz">0</span>, 
+	<span class="qaz">1</span>, 
+	<span class="qaz">2</span>, 
+	<span class="qaz">4</span>, 
+	<span class="qaz">8</span>
+   </td>
+   <td valign=baseline>
+	double whole, whole, half, quarter, eighth.
+   </td>
+</tr>
+
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+	<span class="qaz">.</span>
+   </td>
+   <td valign=baseline>
+	augmentation dot (e.g., <span class="qaz">2. 4</span>)
+   </td>
+</tr>
+
+</table>
+
+<br>
+
+<span class=entry>Tandem&nbsp;Searching</span><br>
+	Search for multiple parameters simultaneously:
+
+<ul style="margin-left:30px; margin-top:-10px;">
+<li style="font-size:100%; color:black;"> Two successive Cs an octave apart<br>
+      <span style="margin-left:30px;">
+	<span style="font-size:100%" class="entry">Pitch</span>: <span class="qaz">c</span> <span class="qaz">c</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="font-size:100%" class="entry">Interval</span>: <span class="qaz">8</span>
+      </span>
+<li style="margin-top:15px; color:black; font-size:100%;">
+	The motive <img valign=middle width=120 src=searchexample.svg> 
+         beginning on A<br>
+      <span style="margin-left:30px;">
+	<span style="font-size:100%;" class="entry">Pitch</span>: <span class="qaz">a</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="font-size:100%" class="entry">Interval</span>: <span class="qaz">-2</span> <span class="qaz">-2</span> <span class="qaz">-2</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="font-size:100%" class="entry">Rhythm</span>: <span class="qaz">1442</span>
+      </span>
+
+<!--
+<li style="margin-left:-30px; margin-top:15px;"> Use <span class="qaz">and</span> to search for works that contain two or more strings:
+<br>
+<span style="margin-left:60px;">
+   <span style="font-size:90%;" class=entry>Pitch</span>: <span class="qaz">agfe and efga</span>
+</span>
+-->
+
+</ul>
+
+<table class="xtra" width=500 cellpadding=0 cellspacing=0>
+<tr valign=baseline><td width=100%>
+</td><td>
+<button onclick="javascript:window.close();" class="btn btn-brown btn-medium">Close</button>
+</td></tr></table>
+
+
+</article>
+</div>
+</div>
+
+</body>
+</html>

@@ -4,10 +4,15 @@
 use strict;
 
 my $indexdir = "../indexes";
-# my $versefile   = "rime-verses.aton";
-my $versefile   = "gerusalemme-verses.aton";
-#my $versefile   = "aminta-verses.aton";
-my %VERSES      = getVerses("$indexdir/$versefile");
+my %VERSES;
+my $versefileRime        = "rime-verses.aton";
+my $versefileGerusalemme = "gerusalemme-verses.aton";
+my $versefileAminta      = "aminta-verses.aton";
+
+getVerses("$indexdir/$versefileRime");
+getVerses("$indexdir/$versefileGerusalemme");
+getVerses("$indexdir/$versefileAminta");
+
 my $basedir = "../../variorum/data";
 
 
@@ -518,7 +523,7 @@ sub getTitle {
 
 sub getVerses {
 	my ($versefile) = @_;
-	return getAtonEntries($versefile, "VERSEDATA", "CATALOGNUM");
+	getAtonEntries($versefile, "VERSEDATA", "CATALOGNUM");
 }
 
 
@@ -547,7 +552,7 @@ sub cleanKey {
 
 sub getAtonEntries {
 	my ($datafile, $ATONTAG, $IDTAG) = @_;
-	my %output;
+	# my %output;
 	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
 	my @contents = <DFILE>;
 	close DFILE;
@@ -562,15 +567,15 @@ sub getAtonEntries {
 			$key = cleanKey($$hentry{$IDTAG});
 			if ($key !~ /^\s*$/) {
 				# ignore entries with no ID (possible in sources.aton)
-				if ($output{$key} ne "") {
-					print "CURRENT VALUE: $output{$key}\n";
+				if ($VERSES{$key} ne "") {
+					print "CURRENT VALUE: $VERSES{$key}\n";
 					die "Duplicate key >>$key<< in list";
 				}
-				$output{$key} = $hentry;
+				$VERSES{$key} = $hentry;
 			}
 		}
 	}
-	return %output;
+	# return %output;
 }
 
 

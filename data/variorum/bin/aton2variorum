@@ -175,6 +175,14 @@ print "READING FROM LINE $i : $line\n";
 	my @loc;
 	if ($data{"TYPE"} =~ /manuscript/i) {
 		my $mm = $MANUSCRIPTS{$data{"ID"}};
+		if (!$mm) {
+			my $cleankey = cleanKey($data{"ID"});
+			$mm = $MANUSCRIPTS{$cleankey};
+			if (!$mm) {
+				print "ERROR Cannot find manuscripts for ID $data{'ID'}\n";
+				print join("\n", keys %MANUSCRIPTS), "\n";
+			}
+		}
 		%m = %$mm;
 		$data{'DATING'} = $m{'DATING'};
 		$data{'CALLNUM'} = $m{'SIGLUM'};
@@ -324,7 +332,8 @@ print STDERR "GOT HERE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\n";
 	}
 
 	`mkdir -p $basedir/$catalognum`;
-	open (VFILE, ">$basedir/$catalognum/$id.xml") or die "Cannot write file";
+	my $cleanid = cleanKey($id);
+	open (VFILE, ">$basedir/$catalognum/$cleanid.xml") or die "Cannot write file $basedir/$catalognum/$cleanid.xml";
 
 	print VFILE <<"EOT";
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1153,8 +1162,11 @@ sub cleanKey {
 	my ($key) = @_;
 	$key =~ s/<.*?>//g;
 	$key =~ s/\///g;
-	$key =~ s/[^a-zA-Z0-9]//g;
-	$key = "S$key" if $key =~ /^\d/;
+	$key =~ s/[^a-zA-Z0-9_-]//g;
+	if ($key =~ /^\d/) {
+		print "WARNING: KEY STARTS WITH DIGIT: $key, ADDING AN S BEFORE\n";
+		$key = "S$key";
+	}
 	return $key;
 }
 
@@ -1234,7 +1246,9 @@ print STDERR "GETTING ID ATONTAG $ATONTAG FOR IDTAG $IDTAG in file $datafile\n";
 		($index, $hentry) = getAtonEntry($ATONTAG, $index, @contents);
 		if ($index > 0) {
 			# %entry = %$hentry;
+			#$key = $$hentry{$IDTAG};
 			$key = cleanKey($$hentry{$IDTAG});
+print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>  CLEAN KEY IS SET TO $key\n";
 			if ($key !~ /^\s*$/) {
 				# ignore entries with no ID (possible in sources.aton)
 				if ($output{$key} ne "") {

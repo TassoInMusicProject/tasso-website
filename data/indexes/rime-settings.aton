@@ -9108,7 +9108,7 @@ SETTINGTITLE:   Non può l'humil terreno
 @EXTANTVOICES:	5
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	C1,C3,C4,F4
+@OCLEFS:	C1,C1,C3,C4,F4
 @OMENSURATION:	C
 @OKEYSIG:	-
 @FINAL:	G
@@ -10905,10 +10905,10 @@ SETTINGTITLE:   Non può l'humil terreno
 @EXTANTVOICES:	5
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	
-@OMENSURATION:	
-@OKEYSIG:	
-@FINAL:		
+@OCLEFS:	G2,G2,C2,C3,C4
+@OMENSURATION:	C
+@OKEYSIG:	-
+@FINAL:	(D)A
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
@@ -11338,7 +11338,7 @@ SETTINGTITLE:   Non può l'humil terreno
 @CATALOGNUM:	Trm0433f
 @RIMETITLE:	Se tu mi lasci, perfida, tuo danno
 @SOLERTI:	433
-@COMPOSER:	Rota, Adriano de la
+@COMPOSER:	Della Rota, Adriano 
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -13155,10 +13155,10 @@ SETTINGTITLE:   Non può l'humil terreno
 @EXTANTVOICES:	6
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	
-@OMENSURATION:	
-@OKEYSIG:	
-@FINAL:		
+@OCLEFS:	G2,G2,C2,C3,C3,F3
+@OMENSURATION:	C
+@OKEYSIG:	-
+@FINAL:	(G)C
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING

@@ -1218,8 +1218,8 @@
 @EXTPARTBOOKS:	CTB
 @EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_X/X220/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -1445,23 +1445,23 @@
 @@BEGIN: SOURCE
 @RISM:	C 2216
 @AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	SCHERZI / ET ARIE / A VNA, DVE, TRE, ET QVATTRO VOCI / Per cantar nel Clauicembalo, Chitarrone, / ò altro simile Istromento. / DI ANTONIO CIFRA ROMANO / Maestro di Capella nella Santa Casa / di Loreto. / <i>Nouamente composti, & dati in luce.</i> / CON PRIVILEGIO. / IN VENETIA / Appresso Giacomo Vincenti. MDCXIIII.
 @TITLESHORT:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento
 @PUBLISHER:	Giacomo Vincenzi
 @YEAR:	1614
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Michele Moroni
+@SRCDEDICATEESHORT:	Michele Moroni
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	B-Br
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://uurl.kbr.be/1561864
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -1863,23 +1863,23 @@
 @@BEGIN: SOURCE
 @RISM:	I 28
 @AUTHOR:	D'India, Sigismondo
-@TITLEPAGE:	
+@TITLEPAGE:	LE MVSICHE / A DVE VOCI / DI SIGISMONDO D'INDIA, SERVITORE / DEL SERENISSIMO ET INVITTISS. / SIGNOR DVCA DI SAVOIA, / & Capo della sua Musica di Camera. / <i>Nouamente composte, & date in luce.</i> / CON PRIVILEGIO. / <i>IN VENETIA MDCXV.</i> / <i>Appresso Ricciardo Amadino.</i>
 @TITLESHORT:	Le musiche a due voci, novamente composte, et date in luce
 @PUBLISHER:	Ricciardo Amadino
 @YEAR:	1615
 @PUBTYPE:	single-author
-@PUBFORMAT:	part-books
+@PUBFORMAT:	score
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Carlo Emanuele Duca di Savoia
+@SRCDEDICATEESHORT:	Carlo Emanuele Duca di Savoia
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	GB-Och
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://hz.imslp.info/files/imglnks/usimg/f/f7/IMSLP245236-PMLP397498-Sigismondo_d%C3%A2%E2%82%AC%E2%84%A2India_-_Le_musiche2.pdf
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3195,8 +3195,8 @@
 @SRCDEDICATEESHORT:	
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATBV
-@EXTPARTBOOKS:	CATV
-@EXTNAMES:	C,A,T,V
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -4628,7 +4628,7 @@
 @EXTPARTBOOKS:	CATBVVI
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-Rsc
-@REPRODUCTIONTYPE:	
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -4646,11 +4646,11 @@
 @SRCDEDICATEE:	Conte Horatio Anguisciola
 @SRCDEDICATEESHORT:	Horatio Anguisciola
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	B
-@EXTNAMES:	B
-@SRCLOCSIGLA:	A-Wn
-@REPRODUCTIONTYPE:	digital facsimile
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Rsc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -4789,23 +4789,23 @@
 @@BEGIN: SOURCE
 @RISM:	M 1676
 @AUTHOR:	Mazzocchi, Domenico
-@TITLEPAGE:	
+@TITLEPAGE:	MVSICHE SACRE E MORALI / AD VNA DUE E TRE VOCI. / DI DOMENICO MAZZOCCHI. / IN ROMA / Nella Stamperia di Lodouico Grignani. MDCXL. / <i>Con Licenza de' Superiori</i>
 @TITLESHORT:	Musiche sacre e morali a una, due e tre voci
 @PUBLISHER:	Lodovico Grignani
 @YEAR:	1640
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Rome
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Signora D. Olimpia Aldobrandina Borghese
+@SRCDEDICATEESHORT:	Olimpia Aldobrandina Borghese
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA278/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5134,8 +5134,8 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://jbc.bj.uj.edu.pl/dlibra/publication/329158/edition/314673/content?ref=desc
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6102,8 +6102,8 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	digital picture
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U060/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6438,7 +6438,7 @@
 
 @@BEGIN: SOURCE
 @RISM:	2781
-@AUTHOR:	Rota, Adriano de la
+@AUTHOR:	Della Rota, Adriano
 @TITLEPAGE:	DI ADRIANO / DE LA ROTA / IL PRIMO LIBRO DE MADRIGALI / A CINQVE VOCI, / Nouamente Composto, & dato in luce. / IN VENETIA, / Appresso Giacomo Vincenti. 1600.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti

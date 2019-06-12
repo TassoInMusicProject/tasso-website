@@ -630,6 +630,7 @@ Handlebars.registerHelper("voices", function(evoice, ovoice, source, setting) {
 	if ((!ovoice) && (!evoice)) {
 		return new Handlebars.SafeString("");
 	}
+console.log("EVOICE", evoice);
 	if (!ovoice) {
 		ovoice = "";
 	}
@@ -654,9 +655,9 @@ Handlebars.registerHelper("voices", function(evoice, ovoice, source, setting) {
 
 	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
 	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
-	if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
-		evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
-	}
+	//if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
+	//	evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+	//}
 	// var text = ovoice + " (" + evoice + ")";
 
 	// settings:

@@ -40,10 +40,6 @@ Roseen Giles (Duke University)
 </div>
 
 <div class="person">
-Janet Gomez (Johns Hopkins University)
-</div>
-
-<div class="person">
 Marcello Mazzetti (University of Huddersfield)
 </div>
 
@@ -87,6 +83,10 @@ Marco Mangani (University of Ferrara)
 </div>
 
 <div class="person">
+Arnaldo Morelli (University of L'Aquila) 
+</div>
+
+<div class="person">
 Massimo Ossi (Indiana University Bloomington) 
 </div>
 
@@ -111,11 +111,11 @@ Eugenio Refini (Johns Hopkins University)
 </div>
 
 <div class="person">
-Cesarino Ruini (University of Bologna)
+Jesse Rodin (Stanford University) 
 </div>
 
 <div class="person">
-Jesse Rodin (Stanford University) 
+Cesarino Ruini (University of Bologna)
 </div>
 
 <div class="person">

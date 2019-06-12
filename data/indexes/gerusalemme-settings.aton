@@ -2236,6 +2236,58 @@
 @TITLE:	Deh mira, egli cantò, "spuntar la rosa
 @COMPOSER:	Torscianello, Enrico
 @PARTS:	1-4 (verses 1-2; 3-4; 5-6; 7-8)
+@PRINCEPSTITLE:	in Vezzosetti fiori di varii autori
+@PRINCEPSLOC:	Rome
+@NORMLOC:	Rome
+@NORMPUB:	Robletti
+@NORMPUBSHORT:	Robletti
+@PRINCEPSPUB:	1622
+@PRINCEPSYEAR:	1622
+@PRINCEPSRISM:	1622-11
+@OVOICES:	1+bc
+@EXTANTVOICES:	1+bc
+@OMENSURATION:	C
+@OCLEFS:	C1,C4
+@OTIME:		
+@OKEYSIG:	b-
+@FINAL:	(G)(G)(G)G
+@TIMPEDITOR:	Ricciardi, Emiliano
+@REPRINTS:	
+@@END: SETTING
+
+@@BEGIN: SETTING
+@CATALOGNUM:	Tsg16014c
+@CANTO:	XVI
+@OTTAVA:	14
+@TITLE:	Deh mira, egli cantò, "spuntar la rosa
+@COMPOSER:	Piochi, Cristofano
+@PARTS:	1-2
+@PRINCEPSTITLE:	Il primo libro delli madrigali concertati a due, tre e quattro voci 
+@PRINCEPSLOC:	Venice
+@NORMLOC:	Venice
+@NORMPUB:	Alessandro Vincenzi
+@NORMPUBSHORT:	A. Vincenzi
+@PRINCEPSPUB:	Alessandro Vincenti
+@PRINCEPSYEAR:	1626
+@PRINCEPSRISM:	P 2414
+@OVOICES:	4+bc
+@EXTANTVOICES:	4+bc
+@OMENSURATION:	
+@OCLEFS:	
+@OTIME:		
+@OKEYSIG:	
+@FINAL:		
+@TIMPEDITOR:	Ricciardi, Emiliano
+@REPRINTS:	
+@@END: SETTING
+
+@@BEGIN: SETTING
+@CATALOGNUM:	Tsg16014d
+@CANTO:	XVI
+@OTTAVA:	14
+@TITLE:	Deh mira, egli cantò, "spuntar la rosa
+@COMPOSER:	Giramo, Pietro Antonio
+@PARTS:	1-4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Arie a più voci. Primo libro della Seconda Opera
 @PRINCEPSLOC:	Napoli
 @NORMLOC:	Naples
@@ -2676,6 +2728,7 @@
 @CANTO:	XVI
 @OTTAVA:	56
 @TITLE:	Rimanti in pace: i' vado: a te non lice
+@SETTINGTITLE: Rimanti in pace, io vado: a te non lice
 @COMPOSER:	Eredi, Francesco
 @PARTS:	1 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare
@@ -2832,6 +2885,7 @@
 @CANTO:	XVI
 @OTTAVA:	59
 @TITLE:	Vattene pur crudel con quella pace
+@SETTINGTITLE: Vatene pur crudel con quella pace
 @COMPOSER:	Eredi, Francesco
 @PARTS:	2 of 9
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare
@@ -4133,15 +4187,15 @@
 @OTTAVA:	131
 @TITLE:	O sempre, e quando parti e quando torni
 @COMPOSER:	Eredi, Francesco
-@PARTS:	1-2 (verses 1-4; 5-8) of 4
-@PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento
+@PARTS:	9 of 10
+@PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare
+@PRINCEPSLOC:	Venice
 @PRINCEPSLOC:	Venice
 @NORMLOC:	Venice
-@NORMPUB:	Giacomo Vincenzi
-@NORMPUBSHORT:	G. Vincenzi
-@PRINCEPSPUB:	Giacomo Vincenzi
-@PRINCEPSYEAR:	1614
-@PRINCEPSRISM:	C 2216
+@NORMPUB:	Alessandro Vincenzi
+@NORMPUBSHORT:	A. Vincenzi
+@PRINCEPSPUB:	Alessandro Vincenti
+@PRINCEPSRISM:	E 741
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
@@ -4159,15 +4213,14 @@
 @OTTAVA:	131
 @TITLE:	O sempre, e quando parti e quando torni
 @COMPOSER:	Cifra, Antonio
-@PARTS:	9 of 10
-@PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare
-@PRINCEPSLOC:	Venice
+@PARTS: 1-2 (verses 1-4; 5-8) of 4
+@PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento
 @NORMLOC:	Venice
-@NORMPUB:	Alessandro Vincenzi
-@NORMPUBSHORT:	A. Vincenzi
-@PRINCEPSPUB:	Alessandro Vincenti
-@PRINCEPSYEAR:	1629
-@PRINCEPSRISM:	E 741
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
+@PRINCEPSPUB:	Giacomo Vincenzi
+@PRINCEPSYEAR:	1614
+@PRINCEPSRISM:	C 2216
 @OVOICES:	2+bc
 @EXTANTVOICES:	2+bc
 @OMENSURATION:	C
@@ -4184,6 +4237,7 @@
 @CANTO:	XX
 @OTTAVA:	132
 @TITLE:	Certo è scemo il tuo onor se non s'addita
+@SETTINGTITLE: Certo è scorno il tuo honor se non s'addita
 @COMPOSER:	Cifra, Antonio
 @PARTS:	3-4 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento

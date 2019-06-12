@@ -8,10 +8,12 @@ my %VERSES;
 my $versefileRime        = "rime-verses.aton";
 my $versefileGerusalemme = "gerusalemme-verses.aton";
 my $versefileAminta      = "aminta-verses.aton";
+my $versefileOther       = "other-verses.aton";
 
 getVerses("$indexdir/$versefileRime");
 getVerses("$indexdir/$versefileGerusalemme");
 getVerses("$indexdir/$versefileAminta");
+getVerses("$indexdir/$versefileOther");
 
 my $basedir = "../../variorum/data";
 

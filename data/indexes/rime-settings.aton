@@ -2431,6 +2431,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0322a
 @RIMETITLE:	Donna, lunge da voi
+@SETTINGTITLE: Donna, longe da voi
 @SOLERTI:	322
 @COMPOSER:	D'India, Sigismondo
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
@@ -3917,6 +3918,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0760a
 @RIMETITLE:	Quant'io sono infelice
+@SETTINGTITLE: Quant'io son infelice
 @SOLERTI:	760
 @COMPOSER:	Ferrabosco, Alfonso
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -4651,6 +4653,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0379b
 @RIMETITLE:	Non si levava ancor l'alba novella
+@SETTINGTITLE: Non si levav'ancor l'alba novella
 @SOLERTI:	379
 @COMPOSER:	Gallo, Vincenzo
 @PRINCEPSTITLE:	Le risa a vicenda. Vaghi e dilettevoli madrigali a cinque voci
@@ -4755,7 +4758,7 @@
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0319a
 @RIMETITLE:	Non può l'angusto loco
-SETTINGTITLE:   Non può l'humil terreno
+@SETTINGTITLE:   Non può l'humil terreno
 @SOLERTI:	319
 @COMPOSER:	Gastoldi, Giovanni Giacomo
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -5015,7 +5018,7 @@ SETTINGTITLE:   Non può l'humil terreno
 
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0495a
-@RIMETITLE:	Se cosí dolce è il duolo
+@RIMETITLE:	Se così dolce è il duolo
 @SOLERTI:	495
 @COMPOSER:	Gesualdo, Carlo
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
@@ -5543,6 +5546,7 @@ SETTINGTITLE:   Non può l'humil terreno
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0341a
 @RIMETITLE:	Fuggi, fuggi, dolor, da questo petto
+@SETTINGTITLE: Fuggi, fuggi, dolor, fuor del mio petto
 @SOLERTI:	341
 @COMPOSER:	Guami, Giuseppe
 @PRINCEPSFORMAT: anthology
@@ -6459,7 +6463,7 @@ SETTINGTITLE:   Non può l'humil terreno
 @CATALOGNUM:	Trm0367a
 @RIMETITLE:	Aminta poi ch'a Filli non dispiacque
 @SOLERTI:	367
-@COMPOSER:	Luzzaschi. Luzzasco
+@COMPOSER:	Luzzaschi, Luzzasco
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -9250,6 +9254,7 @@ SETTINGTITLE:   Non può l'humil terreno
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0366a
 @RIMETITLE:	Odi, Filli, che tuona; odi che 'n gelo
+@SETTINGTITLE: Odi, Filli, che tuona; odi che 'n gielo
 @SOLERTI:	366
 @COMPOSER:	Monte, Filippo di
 @PRINCEPSTITLE:	L'undecimo libro delli madrigali a cinque voci
@@ -10215,7 +10220,7 @@ SETTINGTITLE:   Non può l'humil terreno
 @CATALOGNUM:	Trm0166j
 @RIMETITLE:	Se taccio, il duol s'avanza
 @SOLERTI:	166
-@COMPOSER:	Nantermi, Michelangelo
+@COMPOSER:	Nanterni, Michelangelo
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -10865,6 +10870,7 @@ SETTINGTITLE:   Non può l'humil terreno
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm1082a
 @RIMETITLE:	Deh ferma, ferma il tuo ribello, Amore
+@SETTINGTITLE: Deh ferma, ferm'il tuo rubello, Amore
 @SOLERTI:	1082
 @COMPOSER:	Philips, Peter
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
@@ -11179,7 +11185,8 @@ SETTINGTITLE:   Non può l'humil terreno
 
 @@BEGIN:	SETTING
 @CATALOGNUM:	Trm0862a
-@RIMETITLE:	La bella e vaga man che le sonore corde
+@RIMETITLE:	La bella e vaga man che le sonore 
+@SETTINGTITLE: La bella e vagha man che le sonore
 @SOLERTI:	862
 @COMPOSER:	Raval, Sebastiano
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci

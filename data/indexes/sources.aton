@@ -1401,12 +1401,12 @@
 @@BEGIN: SOURCE
 @RISM:	C 2214
 @AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	LI DIVERSI SCHERZI / DI ANTONIO CIFRA / ROMANO, / MAESTRO DI CAPPELLA / DELLA SANTA CASA / DI LORETO / A Vna, A Due, & Tre Voci. / LIBRO PRIMO. / OPERA Duodecima. / IN ROMA, / Appresso Gio: Battista Robletti. 1613. / CON LICENZA DE' SVPERIORI
 @TITLESHORT:	Li diversi scherzi a una, a due et tre voci. Libro primo. Opera duedecima
 @PUBLISHER:	Giovanni Battista Robletti
 @YEAR:	1613
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Rome
 @PUBNORMLOC:	Rome
 @SRCDEDICATEE:	
@@ -1423,23 +1423,23 @@
 @@BEGIN: SOURCE
 @RISM:	C 2215
 @AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	LI DIVERSI SCHERZI / DI ANTONIO CIFRA / ROMANO, / MAESTRO DI CAPPELLA / DELLA SANTA CASA / DI LORETO / A Vna, A Due, & Tre Voci. / LIBRO SECONDO. / Opera Decimaquarta. / IN ROMA, / Appresso Gio: Battista Robletti. 1613. / CON LICENZA DE' SVPERIORI
 @TITLESHORT:	Li diversi scherzi a una, due et tre voci. Libro secondo. Opera decimaquarta
 @PUBLISHER:	Giovanni Battista Robletti
 @YEAR:	1613
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Rome
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Cesare Glorieri
+@SRCDEDICATEESHORT:	Cesare Glorieri
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	US-Wc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://www.loc.gov/resource/ihas.200215631.0/?sp=5
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -1548,8 +1548,8 @@
 @EXTPARTBOOKS:	C,C,T,B,bc
 @EXTNAMES:	C,C,T,B,Bc
 @SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Y/Y121/
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Y/Y121/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -1863,23 +1863,23 @@
 @@BEGIN: SOURCE
 @RISM:	I 28
 @AUTHOR:	D'India, Sigismondo
-@TITLEPAGE:	
+@TITLEPAGE:	LE MVSICHE / A DVE VOCI / DI SIGISMONDO D'INDIA, SERVITORE / DEL SERENISSIMO ET INVITTISS. / SIGNOR DVCA DI SAVOIA, / & Capo della sua Musica di Camera. / <i>Nouamente composte, & date in luce.</i> / CON PRIVILEGIO. / <i>IN VENETIA MDCXV.</i> / <i>Appresso Ricciardo Amadino.</i>
 @TITLESHORT:	Le musiche a due voci, novamente composte, et date in luce
 @PUBLISHER:	Ricciardo Amadino
 @YEAR:	1615
 @PUBTYPE:	single-author
-@PUBFORMAT:	part-books
+@PUBFORMAT:	score
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Carlo Emanuele Duca di Savoia
+@SRCDEDICATEESHORT:	Carlo Emanuele Duca di Savoia
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	GB-Och
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://hz.imslp.info/files/imglnks/usimg/f/f7/IMSLP245236-PMLP397498-Sigismondo_d%C3%A2%E2%82%AC%E2%84%A2India_-_Le_musiche2.pdf
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -2780,8 +2780,8 @@
 @EXTPARTBOOKS:	CATBVVI VII VIII IX X XI XII
 @EXTNAMES:	C,A,T,B,V,VI,VII,VIII,IX,X,XI,XII
 @SRCLOCSIGLA:	B-Br
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://uurl.kbr.be/1563361
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3073,7 +3073,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 1807
 @AUTHOR:	Ghizzolo, Giovanni
-@TITLEPAGE:	
+@TITLEPAGE:	IL TERZO LIBRO / DE MADRIGALI / A CINQVE VOCI, / In parte anco Concertati co'l Clauicembalo / DI GIOVANNI GHIZZOLO / Maestro di Capella dell'Illustrissimo & Reuerendissimo / Sig. Cardinale Capponi nella sua Metropoli / di Rauenna. / OPERA DECIMAOTTAVA. / IN VENETIA, / Appresso Alessandro Vincenti. MDCXXI.
 @TITLESHORT:	ll terzo libro de madrigali a cinque voci, in parte ancor concertati co 'l clavicembalo. Opera decimaottava
 @PUBLISHER:	Alessandro Vincenti
 @YEAR:	1621
@@ -3081,8 +3081,8 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Filippo Capponi, tesoriero generale della Romagna
+@SRCDEDICATEESHORT:	Filippo Capponi
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
@@ -4628,7 +4628,7 @@
 @EXTPARTBOOKS:	CATBVVI
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-Rsc
-@REPRODUCTIONTYPE:	
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -4646,11 +4646,11 @@
 @SRCDEDICATEE:	Conte Horatio Anguisciola
 @SRCDEDICATEESHORT:	Horatio Anguisciola
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	B
-@EXTNAMES:	B
-@SRCLOCSIGLA:	A-Wn
-@REPRODUCTIONTYPE:	digital facsimile
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Rsc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -4789,23 +4789,23 @@
 @@BEGIN: SOURCE
 @RISM:	M 1676
 @AUTHOR:	Mazzocchi, Domenico
-@TITLEPAGE:	
+@TITLEPAGE:	MVSICHE SACRE E MORALI / AD VNA DUE E TRE VOCI. / DI DOMENICO MAZZOCCHI. / IN ROMA / Nella Stamperia di Lodouico Grignani. MDCXL. / <i>Con Licenza de' Superiori</i>
 @TITLESHORT:	Musiche sacre e morali a una, due e tre voci
 @PUBLISHER:	Lodovico Grignani
 @YEAR:	1640
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Rome
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Signora D. Olimpia Aldobrandina Borghese
+@SRCDEDICATEESHORT:	Olimpia Aldobrandina Borghese
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA278/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6102,29 +6102,29 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	digital picture
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U060/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	P 2414
 @AUTHOR:	Piochi, Cristofano
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DELLI MADRIGALI / CONCERTATI / <i>A Due, Tre, e Quattro Voci.</i> / Con alcune Arie nel fine da cantarsi nel Cimbalo / Chitarrone, o simile Stromento. / Con il Basso Continuo. / DI CRISTOFANO PIOCHI / Nouamente composti, & dati in luce. / CON PRIVILEGIO. / IN VENETIA, / Appresso Alessandro Vincenti. MDCXXVI.
 @TITLESHORT:	Il primo libro delli madrigali concertati a due, tre e quattro voci con alcune arie nel fine da cantarsi nel cimbalo, chitarrone o simile stromento con il basso continuo
 @PUBLISHER:	Alessandro Vincenti
 @YEAR:	1626
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	
 @SRCDEDICATEESHORT:	
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@OPARTBOOKS:	CATBbc
+@EXTPARTBOOKS:	CATBbc
+@EXTNAMES:	C,A,T,B,bc
+@SRCLOCSIGLA:	I-Sd
+@REPRODUCTIONTYPE:	digital scan
 @SRCURL:	
 @@END: SOURCE
 
@@ -6366,8 +6366,8 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U114/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6438,7 +6438,7 @@
 
 @@BEGIN: SOURCE
 @RISM:	2781
-@AUTHOR:	Rota, Adriano de la
+@AUTHOR:	Della Rota, Adriano
 @TITLEPAGE:	DI ADRIANO / DE LA ROTA / IL PRIMO LIBRO DE MADRIGALI / A CINQVE VOCI, / Nouamente Composto, & dato in luce. / IN VENETIA, / Appresso Giacomo Vincenti. 1600.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenti
@@ -7072,6 +7072,28 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	1622-11
+@AUTHOR:	Torscianello, Enrico, etc.
+@TITLEPAGE:	Vezzosetti fiori di varii autori
+@TITLESHORT:	VEZZOSETTI FIORI / DI VARII ECCELLENTI / AVTORI, / CIOE, / MADRIGALI, OTTAVE, DIALOGHI, / ARIE, ET VILLANELLE, A VNA, E DUE VOCI. / Da cantarsi con il Cembalo, Tiorba, Chitarra / Spagnola, &c. / IN ROMA, / Appresso Gio. Battista Robletti. 1622. /  Con Licenza de' Superiori
+@PUBLISHER:	Robletti
+@YEAR:	1622
+@PUBTYPE:	anthology
+@PUBFORMAT:	score
+@PUBLOC:	Roma
+@PUBNORMLOC:	Rome
+@SRCDEDICATEE:	Margherita Vermi
+@SRCDEDICATEESHORT:	Margherita Vermi
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	
+@EXTPARTBOOKS:	
+@EXTNAMES:	
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://books.google.com/books?id=0Q90E4idmrkC&dq=vezzosetti+fiori+1622&source=gbs_navlinks_s
 @@END: SOURCE
 
 @@BEGIN: SOURCE

@@ -505,8 +505,30 @@ Handlebars.registerHelper("id2rime", function(text) {
 //
 
 Handlebars.registerHelper("editor", function(name) {
+	var matches = name.match(/(.*);\s*(.*)/);
+	var output = "";
+	if (matches) {
+		var name1 = cleanName(matches[1]);
+		var name2 = cleanName(matches[2]);
+		output = name1 + "; " + name2;
+	} else {
+		output = cleanName(name);
+	}
+	
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// cleanName --
+//
+	
+function cleanName(original) {
 	var matches;
-	if (matches = name.match(/^(.*),\s+(.*)$/)) {
+	var name = original;
+	if (matches = original.match(/^(.*),\s+(.*)$/)) {
 		name = matches[2] + " " + matches[1];
 	}
 	if (name == "Emiliano Ricciardi") {
@@ -529,8 +551,8 @@ Handlebars.registerHelper("editor", function(name) {
 		name += " (University of Southampton)";
 	}
 
-	return new Handlebars.SafeString(name);
-});
+	return name;
+}
 
 
 

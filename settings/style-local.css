@@ -66,6 +66,10 @@ th {
 }
 
 
+.settings td {
+	cursor: pointer;
+}
+
 .settings td:nth-child(2),
 .settings th:nth-child(2) {
 	white-space: nowrap;

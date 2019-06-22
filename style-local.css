@@ -13,3 +13,8 @@ th {
 	color: #96835c;
 }
 
+
+table.choices tr {
+	white-space: nowrap;
+
+}

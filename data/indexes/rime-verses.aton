@@ -600,7 +600,7 @@
 @TITLE:		Non &egrave; questa la mano
 @GENRE:		madrigale/ballata
 @MANUSRC:	Amz, Brn, C, E<sub>1</sub>, F<sub>2</sub>, I<sub>3</sub>, M<sub>7</sub>, P<sub>4</sub>, Tr<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>
-@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 145
 @@BEGIN:	VERSES
 @ABOUTIT:	Ballando con la sua donna desidera di fare amorosa vendetta de la sua mano ch’egli teneva stretta. 
 @ABOUTEN:	Dancing with his lady he desires to take amorous revenge of the hand he held tight.
@@ -2144,7 +2144,7 @@
 @TITLE:		Se l'imagine vostra
 @GENRE:		madrigale
 @MANUSRC:	C, V<sub>8</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 48, 54, 69, 93, 141, 166, 169
+@PRINTSRC:	22, 22a), 26, 31, 35, 48, 54, 69, 93, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Rende la cagione perché avendola impressa nel core desideri la sua imagine.
 @ABOUTEN:	He explaines the reason why, having her [image] engraved in his heart, he [still] desires [to see] her image.
@@ -2574,7 +2574,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Se taccio, il duol s'avanza
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	11, 12, 13, 22, 22a), 26, 31, 35, 69, 93, 141, 166, 169
+@PRINTSRC:	11, 12, 13, 22, 22a), 26, 31, 35, 69, 93, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto (i.e., "Dice che la signora Laura desiderando ch'egli celi l'amor suo desidera cosa impossibile." Rime 164-165)
 @ABOUTEN:	On the same subject (i.e., "He says that lady Laura, in whishing that he hide his love, wishes something impossible." Rime 164-165)
@@ -3002,7 +3002,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Fummo felici un tempo
 @GENRE:		madrigale
 @MANUSRC:	Pt
-@PRINTSRC:	27, 70, 78, 141, 166, 169
+@PRINTSRC:	27, 70, 78, 141, 145 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto. (i.e., "IL LAURO SECCO." Rime 189) 
 @ABOUTEN:	On the same subject. (i.e., "THE DRY LAUREL." Rime 189)
@@ -3054,7 +3054,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Arsi mentre m'amaste
 @GENRE:		madrigale
 @MANUSRC:	P<sub>3</sub>, Pt, Z<sub>1</sub>
-@PRINTSRC:	27, 70, 78, 141, 166, 169
+@PRINTSRC:	27, 70, 78, 141, 145 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto. (i.e., "IL LAURO SECCO." Rime 189-190) 
 @ABOUTEN:	On the same subject. (i.e., "THE DRY LAUREL." Rime 189-190)
@@ -4616,7 +4616,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Amatemi, ben mio
 @GENRE:		madrigale
 @MANUSRC:	none
-@PRINTSRC:	25, 26, 36, 37, 69, 141, 166, 169
+@PRINTSRC:	25, 26, 36, 37, 69, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -4918,7 +4918,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Ne i vostri dolci baci
 @GENRE:		madrigale
 @MANUSRC:	Amz, Brn, C, Ts<sub>1</sub>, V<sub>8</sub>, V<sub>13/TS1</sub>
-@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 169
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 145, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Sovra i baci di una bella giovane
 @ABOUTEN:	On the kisses of a beautiful young lady
@@ -6721,7 +6721,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Bruna sei tu ma bella
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 166, 169
+@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	LA BRUNA. ANCELLA DI LEONORA THIENE SANVITALE CONTESSA DI SCANDIANO. 
 @ABOUTEN:	THE BRUNETTE. MAIDSERVANT OF LEONORA THIENE SANVITALE COUNTESS OF SCANDIANO.
@@ -6818,7 +6818,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Dolcemente dormiva la mia Clori
 @GENRE:		madrigale
 @MANUSRC:	none
-@PRINTSRC:	27, 70, 141, 166, 169
+@PRINTSRC:	27, 70, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -7941,7 +7941,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Tarquinia, se rimiri
 @GENRE:		madrigale
 @MANUSRC:	C, E<sub>1</sub>, F<sub>2</sub>, V<sub>8</sub>, V<sub>9</sub>, V<sub>13/E1</sub>
-@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 33, 67, 141, 166, 169
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 33, 67, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	A la signora Tarquinia Molza la quale studiando la sfera andava la sera a contemplar le stelle.
 @ABOUTEN:	To lady Tarquinia Molza who, studying the globe, went to contemplate the stars at night.
@@ -8443,7 +8443,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Al tuo vago pallore
 @GENRE:		madrigale
 @MANUSRC:	Amz, C, E<sub>1</sub>, F<sub>2</sub>, I<sub>4</sub>, M<sub>4</sub>, N<sub>13</sub>, N<sub>15</sub>, Ts<sub>1</sub>, V<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, W
-@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 166, 169
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 93, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Loda ne la medesima signora [i.e., Livia Pica, see Rime 614] la pallidezza del volto.
 @ABOUTEN:	He praises in the same lady [i.e., Livia Pica, see Rime 614] the paleness of the face.
@@ -8825,7 +8825,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Portano l'altre il velo
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 69, 141, 166, 169
+@PRINTSRC:	22, 22a), 26, 31, 69, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	A la signora Marfisa d'Este
 @ABOUTEN:	To lady Marfisa d'Este
@@ -9441,7 +9441,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Voi sete bella, ma fugage e presta
 @GENRE:		canzonetta
 @MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
-@PRINTSRC:	27, 48, 70, 141, 166, 169
+@PRINTSRC:	27, 48, 70, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Sovra la nana [Isabella] de la serenissima signora [Margherita d'Este] duchessa di Ferrara, bellissima di corpo e di mirabile ingegno.
 @ABOUTEN:	About the dwarf [Isabella] of the most serene lady [Margherita d'Este] duchess of Ferrara, [who had] a most beautiful body and admirable ingenuity.
@@ -9775,7 +9775,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Che soave rapina
 @GENRE:		madrigale
 @MANUSRC:	E<sub>1</sub>, F<sub>2</sub>, V<sub>13/E1</sub>
-@PRINTSRC:	27, 48, 54, 70, 141, 166, 169
+@PRINTSRC:	27, 48, 54, 70, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[A la medesima? (i.e., Livia d'Arco, see Rime 1171-1176)]
 @ABOUTEN:	[To the same lady? (i.e., Livia d'Arco, see Rime 1171-1176)]
@@ -9821,7 +9821,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Qual cavalier ardito
 @GENRE:		madrigale
 @MANUSRC:	I<sub>4</sub>
-@PRINTSRC:	27, 70, 141, 166, 169
+@PRINTSRC:	27, 70, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Loda la zanzara.
 @ABOUTEN:	It praises a mosquito.
@@ -9922,7 +9922,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Tu moristi in quel seno
 @GENRE:		madrigale
 @MANUSRC:	M<sub>7</sub>
-@PRINTSRC:	27, 49, 70, 141, 166, 169
+@PRINTSRC:	27, 49, 70, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Loda la zanzara.
 @ABOUTEN:	It praises a mosquito.

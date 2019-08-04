@@ -822,8 +822,8 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	B-Br
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://uurl.kbr.be/1562983
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3799,7 +3799,7 @@
 @@BEGIN: SOURCE
 @RISM:	K 182
 @AUTHOR:	Kapsberger, Johannes
-@TITLEPAGE:	LIBRO PRIMO / DE MADRIGALI / A CINQVE VOCI, / DEL SIGNOR / GIO. GIROLAMO KAPSBERGER / Nobile Alemanno. / Raccolti dal Sig. Caualier Marcantonio Stradella / dell'Ordine di S. Stefano. / IN ROMA, Appresso Pietro Manelfi, MDCVIII. / <i> Con Licenza de' SUperiori</i>
+@TITLEPAGE:	LIBRO PRIMO / DE MADRIGALI / A CINQVE VOCI, / <i>Col Basso Continuo.</> / DEL SIGNOR / GIO. GIROLAMO KAPSBERGER / Nobile Alemanno. / Raccolti dal Sig. Caualier Marcantonio Stradella / dell'Ordine di S. Stefano. / IN ROMA, Appresso Pietro Manelfi, MDCVIII. / <i> Con Licenza de' SUperiori</i>
 @TITLESHORT:	Libro primo de madrigali a cinque voci
 @PUBLISHER:	Manelfi
 @YEAR:	1608-9
@@ -3810,10 +3810,10 @@
 @SRCDEDICATEE:	Gio. Girolamo Kapsberger
 @SRCDEDICATEESHORT:	Giovanni Girolamo Kapsberger
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	CATBV
-@EXTPARTBOOKS:	CATBV
-@EXTNAMES:	C,A,T,B,V
-@SRCLOCSIGLA:	I-Bc
+@OPARTBOOKS:	CATBVbc
+@EXTPARTBOOKS:	CATBVbc
+@EXTNAMES:	C,A,T,B,Vbc
+@SRCLOCSIGLA:	I-Bc (CATBV); D (W)
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA130/
 @@END: SOURCE
@@ -3857,7 +3857,7 @@
 @OPARTBOOKS:	?
 @EXTPARTBOOKS:	C B
 @EXTNAMES:	C,B
-@SRCLOCSIGLA:	C from GB-Lbl; B from I-Bc
+@SRCLOCSIGLA:	GB-Lbl (C); I-Bc (B)
 @REPRODUCTIONTYPE:	pdf from microfilm
 @SRCURL:	
 @@END: SOURCE
@@ -7177,8 +7177,8 @@
 @SRCDEDICATEESHORT:	Francesco Pontiroli
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATBV
-@EXTPARTBOOKS:	CATBV
-@EXTNAMES:	C,A,T,B,V
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
@@ -7202,8 +7202,8 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=78004&from=&dirids=1&ver_id=&lp=1&QI=
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -7225,7 +7225,7 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://repository.royalholloway.ac.uk/items/1891f4c7-9f4c-f795-4ec3-c50c6cf556e3/1/treenav.jsp?tempwn.b=close
+@SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE

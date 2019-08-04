@@ -111,6 +111,28 @@ Con lettre di pietà l’occulto affetto.
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0166
+@ID:		S23
+@TYPE:		print
+@SPRINT:	
+@PAGE:		17
+@PARATEXT:	
+@VERSE:		
+Se taccio il duol s’avanza;
+Se parlo, accresco l’ira;
+Donna bella, e crudel; che mi martira.
+@VERSE:
+Ma pur prendo speranza,
+Che l’humiltà vi pieghi:
+Che nel silentio ancor son voci, e prieghi.
+@VERSE:
+E prego Amor, che spieghi
+Nel mio doglioso aspetto
+Con lettre di pietà l’occulto affetto.
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
 @ID:		S26
 @TYPE:		print
 @SPRINT:	
@@ -172,6 +194,26 @@ Con lettre di pietà l’occulto affetto.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0166
+@ID:		S145
+@TYPE:		print
+@SPRINT:	
+@PAGE:		Parte quinta, 75v
+@PARATEXT:	AMOR CELATO. / ALLA ILLUSTRISSIMA SIGNORA / D. Isabella Caraffa uchessa di / Quercia. / Torquato Tasso.
+@VERSE:		
+Se taccio il duol s’avanza,
+Se parlo accresco l’ira,
+Donna bella, e crudel, che mi martira
+Ma pur prendo speranza
+Che l’humiltà vi pieghi,
+Che nel silentio ancor son voci, e preghi.
+E prego Amor, che spieghi
+Nel mio doglioso aspetto
+Con lettre di pietà l’occulto affetto.
 @@END: VARIORUM
 
 
@@ -480,9 +522,18 @@ Se taccio il duol s’avanza
 @ID:		Trm0166f-Alto
 @TYPE:		music
 @COMPOSER:	Monte, Filippo di
-@PAGE:		
+@PAGE:		27
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Se taccio il duol s’avanza
+	[TACET]
+	Donna bella e crudel che mi martira
+	[TACET]
+	[TACET]
+	Che nel silentio ancor son voti e prieghi
+	E prego amor che spieghi
+	Nel mio doglioso aspetto
+	Con lettre di pietà l’occulto affetto.
 @@END: VARIORUM
 
 
@@ -491,9 +542,18 @@ Se taccio il duol s’avanza
 @ID:		Trm0166f-Tenore
 @TYPE:		music
 @COMPOSER:	Monte, Filippo di
-@PAGE:		
+@PAGE:		27
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Se taccio il duol s’avanza
+	[TACET]
+	Donna bella e crudel che mi martira
+	Ma pur prendo speranza
+	Che l'humiltà vi pieghi
+	[TACET]
+	E prego amor che spieghi
+	Nel mio doglioso aspetto
+	Con lettre di pietà l’occulto affetto.	
 @@END: VARIORUM
 
 
@@ -502,9 +562,18 @@ Se taccio il duol s’avanza
 @ID:		Trm0166f-Quinto
 @TYPE:		music
 @COMPOSER:	Monte, Filippo di
-@PAGE:		
+@PAGE:		27
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Se taccio il duol s’avanza
+	[TACET]
+	[TACET] che mi martira
+	Ma pur prendo speranza
+	Che l'humiltà vi pieghi
+	Che nel silentio ancor son voti e prieghi
+	E prego amor che spieghi
+	Nel mio doglioso aspetto
+	Con lettre di pietà l’occulto affetto.		
 @@END: VARIORUM
 
 
@@ -590,9 +659,18 @@ Se taccio il duol s’avanza
 @ID:		Trm0166i-Canto
 @TYPE:		music
 @COMPOSER:	Il Verso, Antonio
-@PAGE:		
+@PAGE:		22
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Se taccio il duol s’avanza
+Se parlo acresco l’ira
+Donna bell'e crudel che mi martira
+Ma pur prendo speranza
+Che l’humiltà vi pieghi
+[TACET] ancor son voci e prieghi
+E preg'amor che spieghi
+Nel mio doglioso aspetto
+Con lettre di pietà l’occulto affetto.
 @@END: VARIORUM
 
 
@@ -601,9 +679,18 @@ Se taccio il duol s’avanza
 @ID:		Trm0166i-Basso
 @TYPE:		music
 @COMPOSER:	Il Verso, Antonio
-@PAGE:		
+@PAGE:		22
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+[TACET]
+Se parlo acresco l’ira
+Donna bell'e crudel che mi martira
+Ma pur prendo speranza
+Che l’humiltà vi pieghi
+Che nel silentio ancor son voci e prieghi
+E preg'amor che spieghi
+Nel mio doglioso aspetto
+Con lettre di pietà l’occulto affetto.
 @@END: VARIORUM
 
 

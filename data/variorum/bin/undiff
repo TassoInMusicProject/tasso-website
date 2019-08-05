@@ -1,0 +1,59 @@
+#!/usr/bin/perl
+
+use strict;
+
+
+my @files = glob("diff-output/*.txt");
+
+for my $file (@files) {
+	processFile($file);
+}
+
+
+##############################
+##
+## processFile --
+##
+
+sub processFile {
+	my ($filename) = @_;
+
+	my $base = $filename;
+	$base =~ s/.*\///;
+	$base =~ s/\.txt$//;
+	my $target = "$base.aton";
+	open(TARGET, $target) or die "Cannot find $target\n";
+	my @contents = <TARGET>;
+	close TARGET;
+
+	open (DATA, $filename) or die "Cannot find $filename\n";
+	my @data = <DATA>;
+	close DATA;
+
+	# ID:E2              	L10	V1:	Non {può} l’{angusto loco}
+	foreach my $line (@data) {
+		chomp $line;
+		next if $line =~ /^\s*$/;
+		if ($line !~ /\tL(\d+)\tV\d+:\t(.*)$/) {
+			print stderr "WARNING: LINE HAS PROBLEM: $line";
+			next;
+		}
+		my $num = $1;
+		my $text = $2;
+		$num = $num - 1;
+		my $t = $contents[$num];
+		chomp $t;
+		print "\tLINE $num: REPLACE\t$t\tWITH\t$text\n";
+		if ($t =~ /^\@VERSE:/) {
+			$contents[$num] = "\@VERSE: \t$text\n";
+		} else {
+			$contents[$num] = "\t$text\n";
+		}
+	}
+	open (TARGET, ">$target") or die "Cannot open $target for writing\n";
+	print TARGET @contents;
+	close TARGET;
+}
+
+
+

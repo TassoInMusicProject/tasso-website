@@ -163,6 +163,7 @@ print "READING FROM LINE $i : $line\n";
 	# DATING:      MANUSCRIPT->DATING
 	# SIGLUM:      MANUSCRIPT->SIGLUM (this is the call number of manuscript)
 	# DESCRIPTION: MANUSCRIPT->DESCRIPTION
+   # URL:         MENUSCRIPT->URL
 	# MANUSCRIPT->LOCATION: Biblioteca Ambrosiana, Milan, Italy
    #             LOCATION: Biblioteca Vaticana, Vatican City
 	# maps to these three parameters:
@@ -187,6 +188,7 @@ print "READING FROM LINE $i : $line\n";
 		$data{'DATING'} = $m{'DATING'};
 		$data{'CALLNUM'} = $m{'SIGLUM'};
 		$data{'DESCRIPTION'} = $m{'DESCRIPTION'};
+		$data{'URL'} = $m{'URL'};
 		@loc = split(/\s*,\s*/, $m{'LOCATION'});
 		if (@loc == 2) {
 			# MANUSCRIOT->LOCATION: Biblioteca Vaticana, Vatican City
@@ -600,6 +602,7 @@ sub printMsContents {
 	my ($n) = @_;
 	my $folio = $PARAM{"PAGE"};  # used to be FOLIO but made similar to music
 	my $description = $PARAM{"DESCRIPTION"};
+	my $url = $PARAM{"URL"};
 	indent($n); print VFILE "<msContents>\n";
 	indent($n+1); print VFILE "<msItem>\n";
 	if ($folio) {
@@ -607,6 +610,9 @@ sub printMsContents {
 			$folio = "f. $folio";
 		}
 		indent($n+2); print VFILE "<locus>$folio</locus>\n";
+		if ($url) {
+			indent($n+2); print VFILE "<url>$url</url>\n";
+		}
 	}
 	if ($description) {
 		indent($n+2); print VFILE "<p>$description</p>\n";

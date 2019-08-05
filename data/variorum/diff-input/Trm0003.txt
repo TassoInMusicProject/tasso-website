@@ -1,154 +1,292 @@
-ID:S8              	L150	V1:	Sù l’ampia fronte il crespo oro lucente
-ID:S9              	L178	V1:	Sù l’ampia fronte il crespo oro lucente
-ID:S11             	L206	V1:	Sù l’ampia fronte il crespo oro lucente
-ID:S12             	L234	V1:	Sù l’ampia fronte il crespo oro lucente
-ID:S13             	L262	V1:	Sù l’ampia fronte il crespo oro lucente
-ID:S29             	L332	V1:	Sù l’ampia fronte il crespo oro lucente
-ID:S87             	L405	V1:	Su l’ampia fronte il crespo oro lucente,
-ID:Trm0003a-Canto  	L475	V1:	Su l’ampia fronte il cresp’oro lucente
-ID:Trm0003a-Alto   	L502	V1:	Su l’ampia fronte il cresp’oro lucente
-ID:Trm0003a-Tenore 	L527	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Ber             	L24	V1:	SÙ l’ampia fronte <del>il crespo oro</del> l'or crespo è lucente,
+ID:S3              	L136	V1:	Su l’ampia fronte il crespo oro lucente
+ID:S4              	L164	V1:	Su l’ampia fronte il crespo oro lucente
+ID:S8              	L192	V1:	Sù l’ampia fronte il crespo oro lucente
+ID:S9              	L220	V1:	Sù l’ampia fronte il crespo oro lucente
+ID:S11             	L248	V1:	Sù l’ampia fronte il crespo oro lucente
+ID:S12             	L276	V1:	Sù l’ampia fronte il crespo oro lucente
+ID:S13             	L304	V1:	Sù l’ampia fronte il crespo oro lucente
+ID:S29             	L374	V1:	Sù l’ampia fronte il crespo oro lucente
+ID:S85             	L433	V1:	SÙ l’ampia fronte il crespo oro lucente,
+ID:S87             	L461	V1:	SU l’ampia fronte il crespo oro lucente,
+ID:Trm0003a-Canto  	L531	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Trm0003a-Alto   	L558	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Trm0003a-Tenore 	L583	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Trm0003b-Canto  	L609	V1:	Su l’ampia [TACET] Il cresp’oro lucente
+ID:Trm0003b-Alto   	L635	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Trm0003b-Tenore 	L661	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Trm0003b-Basso  	L686	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Trm0003b-Quinto 	L711	V1:	Su l’ampia fronte il cresp’oro lucente
+ID:Trm0003b-Sesto  	L737	V1:	Su l’ampia fronte il cresp’oro lucente
 
-ID:S8              	L151	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
-ID:S9              	L179	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
-ID:S11             	L207	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
-ID:S12             	L235	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
-ID:S13             	L263	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
-ID:S29             	L333	V2:	Sparso ondeggiava, e de’ begli occhi il ragio
-ID:S87             	L406	V2:	Sparso ondeggiava, e de’ begli occhi il raggio,
-ID:Trm0003a-Canto  	L476	V2:	Spars’ondeggiava e de begl’occhi il raggio
-ID:Trm0003a-Alto   	L503	V2:	Spars’ondeggiava e de begl’occhi il raggio
-ID:Trm0003a-Tenore 	L528	V2:	Spars’ondeggiava e de begl’occhi il raggio
+ID:Ber             	L25	V2:	Sparso ondeggiava, e de’ begli occhi il raggio,
+ID:S3              	L137	V2:	Sparso ondeggiava; & de’ begli occhi il raggio
+ID:S4              	L165	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
+ID:S8              	L193	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
+ID:S9              	L221	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
+ID:S11             	L249	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
+ID:S12             	L277	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
+ID:S13             	L305	V2:	Sparso ondeggiava, e de’ begli occhi il raggio
+ID:S29             	L375	V2:	Sparso ondeggiava, e de’ begli occhi il ragio
+ID:S85             	L434	V2:	Sparso ondeggiava, e de’ begli occhi il raggio,
+ID:S87             	L462	V2:	Sparso ondeggiava, e de’ begli occhi il raggio,
+ID:Trm0003a-Canto  	L532	V2:	Spars’ondeggiava e de begl’occhi il raggio
+ID:Trm0003a-Alto   	L559	V2:	Spars’ondeggiava e de begl’occhi il raggio
+ID:Trm0003a-Tenore 	L584	V2:	Spars’ondeggiava e de begl’occhi il raggio
+ID:Trm0003b-Canto  	L610	V2:	Spars’ ondeggiava [TACET] il raggio
+ID:Trm0003b-Alto   	L636	V2:	Sparso ondeggiava e de begl’occhi il raggio
+ID:Trm0003b-Tenore 	L662	V2:	Sparso ondeggiava e de begl’occh’il raggio
+ID:Trm0003b-Basso  	L687	V2:	Sparso ondeggiava e de begl’occh’il raggio
+ID:Trm0003b-Quinto 	L712	V2:	Sparso ondeggiava e de begl’occh’il raggio
+ID:Trm0003b-Sesto  	L738	V2:	Sparso ondeggiava e de begl’occhi il raggio
 
-ID:S8              	L152	V3:	Al terreno adducea fiorito Maggio,
-ID:S9              	L180	V3:	Al terreno adducea fiorito Maggio,
-ID:S11             	L208	V3:	Al terreno adducea fiorito Maggio,
-ID:S12             	L236	V3:	Al terreno adducea fiorito Maggio,
-ID:S13             	L264	V3:	Al terreno adducea fiorito Maggio,
-ID:S29             	L334	V3:	Al terreno adducea fiorito Maggio,
-ID:S87             	L407	V3:	Al terreno adducea fiorito Maggio,
-ID:Trm0003a-Canto  	L477	V3:	Al terreno aducea fiorito maggio
-ID:Trm0003a-Alto   	L504	V3:	Al terreno aducea fiorito maggio
-ID:Trm0003a-Tenore 	L529	V3:	Al terreno aducea fiorito maggio
+ID:Ber             	L26	V3:	Al terreno adducea fiorito Maggio,
+ID:S3              	L138	V3:	Al terreno adducea fiorito Maggio,
+ID:S4              	L166	V3:	Al terreno adducea fiorito Maggio,
+ID:S8              	L194	V3:	Al terreno adducea fiorito Maggio,
+ID:S9              	L222	V3:	Al terreno adducea fiorito Maggio,
+ID:S11             	L250	V3:	Al terreno adducea fiorito Maggio,
+ID:S12             	L278	V3:	Al terreno adducea fiorito Maggio,
+ID:S13             	L306	V3:	Al terreno adducea fiorito Maggio,
+ID:S29             	L376	V3:	Al terreno adducea fiorito Maggio,
+ID:S85             	L435	V3:	Al terreno adducea fiorito Maggio,
+ID:S87             	L463	V3:	Al terreno adducea fiorito Maggio,
+ID:Trm0003a-Canto  	L533	V3:	Al terreno aducea fiorito maggio
+ID:Trm0003a-Alto   	L560	V3:	Al terreno aducea fiorito maggio
+ID:Trm0003a-Tenore 	L585	V3:	Al terreno aducea fiorito maggio
+ID:Trm0003b-Canto  	L611	V3:	Al terren’ adducea fiorito Maggio
+ID:Trm0003b-Alto   	L637	V3:	Al terren’ adducea fiorito Maggio
+ID:Trm0003b-Tenore 	L663	V3:	Al terren’ adducea fiorito [TACET]
+ID:Trm0003b-Basso  	L688	V3:	Al terren’ adducea fiorito Maggio
+ID:Trm0003b-Quinto 	L713	V3:	Al terren’ adducea fiorito Maggio
+ID:Trm0003b-Sesto  	L739	V3:	Al terren’ adducea fiorito Maggio
 
-ID:S8              	L153	V4:	E Luglio a i cori oltra misura ardente:
-ID:S9              	L181	V4:	E Luglio a i cori oltra misura ardente:
-ID:S11             	L209	V4:	E Luglio à i cori oltra misura ardente:
-ID:S12             	L237	V4:	E Luglio à i cori oltra misura ardente:
-ID:S13             	L265	V4:	E Luglio à i cori oltra misura ardente:
-ID:S29             	L335	V4:	E Luglio à i cori oltra misura ardente:
-ID:S87             	L408	V4:	E Luglio a i cori oltra misura ardente:
-ID:Trm0003a-Canto  	L478	V4:	E luglio ai cuori oltra misur’ardente
-ID:Trm0003a-Alto   	L505	V4:	E luglio ai cuori oltra misur’ardente
-ID:Trm0003a-Tenore 	L530	V4:	E luglio ai cuori oltra misura ardente
+ID:Ber             	L27	V4:	E Luglio à i cori oltra misura ardente:
+ID:S3              	L139	V4:	Et Luglio a i cori oltra misura ardente.
+ID:S4              	L167	V4:	E Luglio à i cori oltra misura ardente:
+ID:S8              	L195	V4:	E Luglio a i cori oltra misura ardente:
+ID:S9              	L223	V4:	E Luglio a i cori oltra misura ardente:
+ID:S11             	L251	V4:	E Luglio à i cori oltra misura ardente:
+ID:S12             	L279	V4:	E Luglio à i cori oltra misura ardente:
+ID:S13             	L307	V4:	E Luglio à i cori oltra misura ardente:
+ID:S29             	L377	V4:	E Luglio à i cori oltra misura ardente:
+ID:S85             	L436	V4:	E Luglio à i cori oltra misura ardente:
+ID:S87             	L464	V4:	E Luglio a i cori oltra misura ardente:
+ID:Trm0003a-Canto  	L534	V4:	E luglio ai cuori oltra misur’ardente
+ID:Trm0003a-Alto   	L561	V4:	E luglio ai cuori oltra misur’ardente
+ID:Trm0003a-Tenore 	L586	V4:	E luglio ai cuori oltra misura ardente
+ID:Trm0003b-Canto  	L612	V4:	e Luglio ai cori oltra misur’ ardente
+ID:Trm0003b-Alto   	L638	V4:	E Lugl’ ai cori oltra misur’ ardente
+ID:Trm0003b-Tenore 	L664	V4:	Nel bianco seno Amor [TACET]
+ID:Trm0003b-Basso  	L689	V4:	[TACET]
+ID:Trm0003b-Quinto 	L714	V4:	E Lugl’ai cori altra misur’ardente
+ID:Trm0003b-Sesto  	L740	V4:	E Lugl’ ai cori oltra misur’ ardente
 
-ID:S8              	L155	V5:	Nel bianco seno Amor vezzosamente
-ID:S9              	L183	V5:	Nel bianco seno Amor vezzosamente
-ID:S11             	L211	V5:	Nel bianco seno Amor vezzosamente
-ID:S12             	L239	V5:	Nel bianco seno Amor vezzosamente
-ID:S13             	L267	V5:	Nel bianco seno Amor vezzosamente
-ID:S29             	L337	V5:	Nel bianco seno Amor vezzosamente
-ID:S87             	L410	V5:	Nel bianco seno Amor vezzosamente
-ID:Trm0003a-Canto  	L479	V5:	Nel bianco seno amor vezzosamente
-ID:Trm0003a-Alto   	L506	V5:	Nel bianco seno amor vezzosamente
-ID:Trm0003a-Tenore 	L531	V5:	Nel bianco seno amor vezzosamente
+ID:Ber             	L29	V5:	Nel bianco seno Amor vezzosamente
+ID:S3              	L141	V5:	Nel bianco seno Amor vezzosamente
+ID:S4              	L169	V5:	Nel bianco seno Amor vezzosamente
+ID:S8              	L197	V5:	Nel bianco seno Amor vezzosamente
+ID:S9              	L225	V5:	Nel bianco seno Amor vezzosamente
+ID:S11             	L253	V5:	Nel bianco seno Amor vezzosamente
+ID:S12             	L281	V5:	Nel bianco seno Amor vezzosamente
+ID:S13             	L309	V5:	Nel bianco seno Amor vezzosamente
+ID:S29             	L379	V5:	Nel bianco seno Amor vezzosamente
+ID:S85             	L438	V5:	Nel bianco seno Amor vezzosamente
+ID:S87             	L466	V5:	Nel bianco seno Amor vezzosamente
+ID:Trm0003a-Canto  	L535	V5:	Nel bianco seno amor vezzosamente
+ID:Trm0003a-Alto   	L562	V5:	Nel bianco seno amor vezzosamente
+ID:Trm0003a-Tenore 	L587	V5:	Nel bianco seno amor vezzosamente
+ID:Trm0003b-Canto  	L613	V5:	Nel bianco seno Amor vezzosamente
+ID:Trm0003b-Alto   	L639	V5:	Nel bianco seno Amor vezzosamente
+ID:Trm0003b-Tenore 	L665	V5:	scherzava e non ardia di fargl’ oltraggio
+ID:Trm0003b-Basso  	L690	V5:	Nel bianco seno Amor [TACET]
+ID:Trm0003b-Quinto 	L715	V5:	Nel bianco seno Amor vezzosamente
+ID:Trm0003b-Sesto  	L741	V5:	Nel bianco seno Amor vezzosamente
 
-ID:S8              	L156	V6:	Scherzava, e non ardia di fargli oltraggio,
-ID:S9              	L184	V6:	Scherzava, e non ardia di fargli oltraggio,
-ID:S11             	L212	V6:	Scherzava, e non ardia di fargli oltraggio,
-ID:S12             	L240	V6:	Scherzava, e non ardia di fargli oltraggio,
-ID:S13             	L268	V6:	Scherzava, e non ardia di fargli oltraggio,
-ID:S29             	L338	V6:	Scherzava, e non ardia di fargli oltraggio,
-ID:S87             	L411	V6:	Scherzava, e non osò di fargli oltraggio:
-ID:Trm0003a-Canto  	L480	V6:	Scherzava e non ardia di fargli oltraggio
-ID:Trm0003a-Alto   	L507	V6:	Scherzava’e non ardia di fargli oltraggio
-ID:Trm0003a-Tenore 	L532	V6:	Scherzav’e non ardia di fargli oltraggio
+ID:Ber             	L30	V6:	Scherzava, e non osò di fargli oltraggio:
+ID:S3              	L142	V6:	Scherzava, & non ardia di fargli oltraggio:
+ID:S4              	L170	V6:	Scherzava, e non ardia di fargli oltraggio,
+ID:S8              	L198	V6:	Scherzava, e non ardia di fargli oltraggio,
+ID:S9              	L226	V6:	Scherzava, e non ardia di fargli oltraggio,
+ID:S11             	L254	V6:	Scherzava, e non ardia di fargli oltraggio,
+ID:S12             	L282	V6:	Scherzava, e non ardia di fargli oltraggio,
+ID:S13             	L310	V6:	Scherzava, e non ardia di fargli oltraggio,
+ID:S29             	L380	V6:	Scherzava, e non ardia di fargli oltraggio,
+ID:S85             	L439	V6:	Scherzava, e non osò di fargli oltraggio:
+ID:S87             	L467	V6:	Scherzava, e non osò di fargli oltraggio:
+ID:Trm0003a-Canto  	L536	V6:	Scherzava e non ardia di fargli oltraggio
+ID:Trm0003a-Alto   	L563	V6:	Scherzava’e non ardia di fargli oltraggio
+ID:Trm0003a-Tenore 	L588	V6:	Scherzav’e non ardia di fargli oltraggio
+ID:Trm0003b-Canto  	L614	V6:	scherzava e non ardia di fargl’ oltraggio
+ID:Trm0003b-Alto   	L640	V6:	scherzava e non ardia di fargl’ oltraggio
+ID:Trm0003b-Tenore 	L666	V6:	e l’aura del parlar cortese e saggio
+ID:Trm0003b-Basso  	L691	V6:	e non ardia di fargl’ oltraggio
+ID:Trm0003b-Quinto 	L716	V6:	Scherzava e non ardia di fargl’ oltraggio
+ID:Trm0003b-Sesto  	L742	V6:	Scherzava e non ardia di fargl’ oltraggio
 
-ID:S8              	L157	V7:	E l’aura del parlar cortese, e saggio
-ID:S9              	L185	V7:	E l’aura del parlar cortese, e saggio
-ID:S11             	L213	V7:	E l’aura del parlar cortese, e saggio
-ID:S12             	L241	V7:	E l’aura del parlar cortese, e saggio
-ID:S13             	L269	V7:	E l’aura del parlar cortese, e saggio
-ID:S29             	L339	V7:	E l’aura del parlar cortese, e saggio
-ID:S87             	L412	V7:	E l’aura del parlar cortese, e saggio,
-ID:Trm0003a-Canto  	L481	V7:	E l’aura del parlar cortes’e saggio
-ID:Trm0003a-Alto   	L508	V7:	E l’aura del parlar cortes’e saggio
-ID:Trm0003a-Tenore 	L533	V7:	E l’aura del parlar cortes’e saggio
+ID:Ber             	L31	V7:	E l’aura del parlar cortese, e saggio,
+ID:S3              	L143	V7:	Et l’aura del parlar cortese, & saggio
+ID:S4              	L171	V7:	E l’aura del parlar cortese, e saggio
+ID:S8              	L199	V7:	E l’aura del parlar cortese, e saggio
+ID:S9              	L227	V7:	E l’aura del parlar cortese, e saggio
+ID:S11             	L255	V7:	E l’aura del parlar cortese, e saggio
+ID:S12             	L283	V7:	E l’aura del parlar cortese, e saggio
+ID:S13             	L311	V7:	E l’aura del parlar cortese, e saggio
+ID:S29             	L381	V7:	E l’aura del parlar cortese, e saggio
+ID:S85             	L440	V7:	E l’aura del parlar cortese, e saggio,
+ID:S87             	L468	V7:	E l’aura del parlar cortese, e saggio,
+ID:Trm0003a-Canto  	L537	V7:	E l’aura del parlar cortes’e saggio
+ID:Trm0003a-Alto   	L564	V7:	E l’aura del parlar cortes’e saggio
+ID:Trm0003a-Tenore 	L589	V7:	E l’aura del parlar cortes’e saggio
+ID:Trm0003b-Canto  	L615	V7:	[TACET]
+ID:Trm0003b-Alto   	L641	V7:	e l’aura del parlar cortese e saggio
+ID:Trm0003b-Tenore 	L667	V7:	Frà le rose spirar s’udia sovente.
+ID:Trm0003b-Basso  	L692	V7:	e l’aura del parlar cortese e saggio
+ID:Trm0003b-Quinto 	L717	V7:	e l’aura del parlar cortese e saggio
+ID:Trm0003b-Sesto  	L743	V7:	E l’aura del parlar cortese e saggio
 
-ID:S8              	L158	V8:	Fra le rose spirar s’udia sovente.
-ID:S9              	L186	V8:	Fra le rose spirar s’udia sovente.
-ID:S11             	L214	V8:	Fra le rose spirar s’udia sovente.
-ID:S12             	L242	V8:	Fra le rose spirar s’udia sovente.
-ID:S13             	L270	V8:	Fra le rose spirar s’udia sovente.
-ID:S29             	L340	V8:	Fra le rose spirar s’udia sovente.
-ID:S87             	L413	V8:	Fra le rose spirar s’udia sovente.
-ID:Trm0003a-Canto  	L482	V8:	Fra le rose spirar s’udia sovente.
-ID:Trm0003a-Alto   	L509	V8:	Fra le rose spirar s’udia sovente.
-ID:Trm0003a-Tenore 	L534	V8:	Fra le rose spirar s’udia sovente.
+ID:Ber             	L32	V8:	Fra le rose spirar s’udia sovente.
+ID:S3              	L144	V8:	Fra le rose spirar s’udia sovente.
+ID:S4              	L172	V8:	Fra le rose spirar s’udia sovente.
+ID:S8              	L200	V8:	Fra le rose spirar s’udia sovente.
+ID:S9              	L228	V8:	Fra le rose spirar s’udia sovente.
+ID:S11             	L256	V8:	Fra le rose spirar s’udia sovente.
+ID:S12             	L284	V8:	Fra le rose spirar s’udia sovente.
+ID:S13             	L312	V8:	Fra le rose spirar s’udia sovente.
+ID:S29             	L382	V8:	Fra le rose spirar s’udia sovente.
+ID:S85             	L441	V8:	Fra le rose spirar s’udia sovente.
+ID:S87             	L469	V8:	Fra le rose spirar s’udia sovente.
+ID:Trm0003a-Canto  	L538	V8:	Fra le rose spirar s’udia sovente.
+ID:Trm0003a-Alto   	L565	V8:	Fra le rose spirar s’udia sovente.
+ID:Trm0003a-Tenore 	L590	V8:	Fra le rose spirar s’udia sovente.
+ID:Trm0003b-Canto  	L616	V8:	Fra le rose spirar s’udia sovente.
+ID:Trm0003b-Alto   	L642	V8:	Frà le rose spirar s’udia sovente.
+ID:Trm0003b-Tenore 	L669	V8:	Io che forma [TACET]
+ID:Trm0003b-Basso  	L693	V8:	Frà le rose spirar s’udia sovente.
+ID:Trm0003b-Quinto 	L718	V8:	Frà le rose spirar s’udia sovente.
+ID:Trm0003b-Sesto  	L744	V8:	Frà le rose spirar s’udia sovente.
 
-ID:S8              	L160	V9:	Io, che forma Celeste in terra scorsi,
-ID:S9              	L188	V9:	Io, che forma Celeste in terra scorsi,
-ID:S11             	L216	V9:	Io, che forma celeste in terra scorsi,
-ID:S12             	L244	V9:	Io, che forma celeste in terra scorsi,
-ID:S13             	L272	V9:	Io, che forma celeste in terra scorsi,
-ID:S29             	L342	V9:	Io, che forma celeste in terra scorsi,
-ID:S87             	L415	V9:	Io, che forma celeste in terra scorsi,
-ID:Trm0003a-Canto  	L484	V9:	Io che forma celest’in terra scorsi
-ID:Trm0003a-Alto   	L511	V9:	Io che forma celest’in terra scorsi
-ID:Trm0003a-Tenore 	L536	V9:	Io che forma celest’in terra scorsi
+ID:Ber             	L34	V9:	Io, che forma celeste in terra scorsi,
+ID:S3              	L146	V9:	Io, che forma celeste in terra scorsi,
+ID:S4              	L174	V9:	Io, che forma Celeste in terra scorsi,
+ID:S8              	L202	V9:	Io, che forma Celeste in terra scorsi,
+ID:S9              	L230	V9:	Io, che forma Celeste in terra scorsi,
+ID:S11             	L258	V9:	Io, che forma celeste in terra scorsi,
+ID:S12             	L286	V9:	Io, che forma celeste in terra scorsi,
+ID:S13             	L314	V9:	Io, che forma celeste in terra scorsi,
+ID:S29             	L384	V9:	Io, che forma celeste in terra scorsi,
+ID:S85             	L443	V9:	Io, che forma celeste in terra scorsi,
+ID:S87             	L471	V9:	Io, che forma celeste in terra scorsi,
+ID:Trm0003a-Canto  	L540	V9:	Io che forma celest’in terra scorsi
+ID:Trm0003a-Alto   	L567	V9:	Io che forma celest’in terra scorsi
+ID:Trm0003a-Tenore 	L592	V9:	Io che forma celest’in terra scorsi
+ID:Trm0003b-Canto  	L618	V9:	Io che forma celest’ in terra scorsi
+ID:Trm0003b-Alto   	L644	V9:	Io che forma celest’ in terra scorsi
+ID:Trm0003b-Tenore 	L670	V9:	Rinchiusi i lumi e dissi Ahi come è stolto
+ID:Trm0003b-Basso  	L695	V9:	Io che forma celeste in terra scorsi
+ID:Trm0003b-Quinto 	L720	V9:	Io che forma celeste in terra scorsi
+ID:Trm0003b-Sesto  	L746	V9:	Io che forma [TACET]
 
-ID:S8              	L161	V10:	Rinchiusi i lumi, e dissi: Ahi, come è stolto
-ID:S9              	L189	V10:	Rinchiusi i lumi, e dissi: Ahi, come è stolto
-ID:S11             	L217	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
-ID:S12             	L245	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
-ID:S13             	L273	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
-ID:S29             	L343	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
-ID:S87             	L416	V10:	Rinchiusi i lumi e dissi Ahi, come è stolto
-ID:Trm0003a-Canto  	L485	V10:	Rinchius’i lumi e dissi hai come è stolto
-ID:Trm0003a-Alto   	L512	V10:	Rinchius’i lumi e dissi hai come è stolto
-ID:Trm0003a-Tenore 	L537	V10:	Rinchius’i lumi e dissi hai come è stolto
+ID:Ber             	L35	V10:	Rinchiusi i lumi e dissi. Ahi, come è stolto
+ID:S3              	L147	V10:	Rinchiusi i lumi, & dissi. Ahi come è stolto
+ID:S4              	L175	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
+ID:S8              	L203	V10:	Rinchiusi i lumi, e dissi: Ahi, come è stolto
+ID:S9              	L231	V10:	Rinchiusi i lumi, e dissi: Ahi, come è stolto
+ID:S11             	L259	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
+ID:S12             	L287	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
+ID:S13             	L315	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
+ID:S29             	L385	V10:	Rinchiusi i lumi, e dissi: Ahi come è stolto
+ID:S85             	L444	V10:	Rinchiusi i lumi e dissi. Ahi, come è stolto
+ID:S87             	L472	V10:	Rinchiusi i lumi e dissi Ahi, come è stolto
+ID:Trm0003a-Canto  	L541	V10:	Rinchius’i lumi e dissi hai come è stolto
+ID:Trm0003a-Alto   	L568	V10:	Rinchius’i lumi e dissi hai come è stolto
+ID:Trm0003a-Tenore 	L593	V10:	Rinchius’i lumi e dissi hai come è stolto
+ID:Trm0003b-Canto  	L619	V10:	Rinchiusi i lumi e dissi Ahi come e stolto
+ID:Trm0003b-Alto   	L645	V10:	Rinchiusi i lumi e dissi [TACET]
+ID:Trm0003b-Tenore 	L671	V10:	Sguardo che ’n lei sia d’affisars’ardito
+ID:Trm0003b-Basso  	L696	V10:	Rinchiusi i lumi e dissi [TACET]
+ID:Trm0003b-Quinto 	L721	V10:	Rinchiusi i lumi e dissi Ahi come è stolto
+ID:Trm0003b-Sesto  	L747	V10:	Rinchiusi i lumi e dissi Ahi come è stolso
 
-ID:S8              	L162	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
-ID:S9              	L190	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
-ID:S11             	L218	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
-ID:S12             	L246	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
-ID:S13             	L274	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
-ID:S29             	L344	V11:	Sguardo, che’n lei sia d’affisarsi ardito?
-ID:S87             	L417	V11:	Sguardo, che ’n lei sia d’affissarsi ardito?
-ID:Trm0003a-Canto  	L486	V11:	Sguardo ch’in lei sia d’arrischiarsi ardito
-ID:Trm0003a-Alto   	L513	V11:	Sguardo ch’in lei sia d’arrischiarsi ardito
-ID:Trm0003a-Tenore 	L538	V11:	Sguardo ch’in lei sia d’arrischiarsi ardito
+ID:Ber             	L36	V11:	Sguardo, che’n lei sia d’affissarsi ardito?
+ID:S3              	L148	V11:	Sguardo, che’n lei sia d’arrischiarsi ardito.
+ID:S4              	L176	V11:	Sguardo, che’n lei sia d’affisarsi ardito:
+ID:S8              	L204	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
+ID:S9              	L232	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
+ID:S11             	L260	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
+ID:S12             	L288	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
+ID:S13             	L316	V11:	Sguardo, che’n lei sia d’affisarsi ardito.
+ID:S29             	L386	V11:	Sguardo, che’n lei sia d’affisarsi ardito?
+ID:S85             	L445	V11:	Sguardo, che’n lei sia d’affissarsi ardito?
+ID:S87             	L473	V11:	Sguardo, che’n lei sia d’affissarsi ardito?
+ID:Trm0003a-Canto  	L542	V11:	Sguardo ch’in lei sia d’arrischiarsi ardito
+ID:Trm0003a-Alto   	L569	V11:	Sguardo ch’in lei sia d’arrischiarsi ardito
+ID:Trm0003a-Tenore 	L594	V11:	Sguardo ch’in lei sia d’arrischiarsi ardito
+ID:Trm0003b-Canto  	L620	V11:	Sguardo che ’n lei sia d’affisars’ ardito
+ID:Trm0003b-Alto   	L646	V11:	che ’n lei sia d’affisars’ ardito
+ID:Trm0003b-Tenore 	L672	V11:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003b-Basso  	L697	V11:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003b-Quinto 	L722	V11:	Sguardo che ’n lei sia d’affisarsi ardito
+ID:Trm0003b-Sesto  	L748	V11:	sguardo [TACET]
 
-ID:S8              	L164	V12:	Ma de l’altro periglio non m’accorsi,
-ID:S9              	L192	V12:	Ma de l’altro periglio non m’accorsi,
-ID:S11             	L220	V12:	Ma de l’altro periglio non m’accorsi,
-ID:S12             	L248	V12:	Ma de l’altro periglio non m’accorsi,
-ID:S13             	L276	V12:	Ma de l’altro periglio non m’accorsi,
-ID:S29             	L346	V12:	Ma de l’altro periglio non m’accorsi,
-ID:S87             	L419	V12:	Ma del rischio minor tardi m’accorsi,
-ID:Trm0003a-Canto  	L487	V12:	Ma de l’altro periglio non m’accorsi
-ID:Trm0003a-Alto   	L514	V12:	Ma de l’altro periglio non m’accorsi
-ID:Trm0003a-Tenore 	L539	V12:	Ma de l’altro periglio non m’accorsi
+ID:Ber             	L38	V12:	Ma del rischio minor tardi m’accorsi,
+ID:S3              	L150	V12:	Ma de l’altro periglio non m’accorsi:
+ID:S4              	L178	V12:	Ma de l’altro periglio non m’accorsi,
+ID:S8              	L206	V12:	Ma de l’altro periglio non m’accorsi,
+ID:S9              	L234	V12:	Ma de l’altro periglio non m’accorsi,
+ID:S11             	L262	V12:	Ma de l’altro periglio non m’accorsi,
+ID:S12             	L290	V12:	Ma de l’altro periglio non m’accorsi,
+ID:S13             	L318	V12:	Ma de l’altro periglio non m’accorsi,
+ID:S29             	L388	V12:	Ma de l’altro periglio non m’accorsi,
+ID:S85             	L447	V12:	Ma del rischio minor tardi m’accorsi,
+ID:S87             	L475	V12:	Ma del rischio minor tardi m’accorsi,
+ID:Trm0003a-Canto  	L543	V12:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003a-Alto   	L570	V12:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003a-Tenore 	L595	V12:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003b-Canto  	L621	V12:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003b-Alto   	L647	V12:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003b-Tenore 	L673	V12:	Che mi fù per l’orecch’ il cor ferito
+ID:Trm0003b-Basso  	L698	V12:	Che mi fù per l’orecch’ il cor ferito
+ID:Trm0003b-Quinto 	L723	V12:	Ma de l’altro periglio non m’accorsi
+ID:Trm0003b-Sesto  	L749	V12:	Ma de l’altro periglio non m’accorsi
 
-ID:S8              	L165	V13:	Che mi fu per l’orecchie il cor ferito,
-ID:S9              	L193	V13:	Che mi fu per l’orecchie il cor ferito,
-ID:S11             	L221	V13:	Che mi fu per l’orecchie il cor ferito,
-ID:S12             	L249	V13:	Che mi fu per l’orecchie il cor ferito,
-ID:S13             	L277	V13:	Che mi fu per l’orecchie il cor ferito,
-ID:S29             	L347	V13:	Che mi fù per l’orecchie il cor ferito,
-ID:S87             	L420	V13:	Che mi fu per l’orecchie il cor ferito:
-ID:Trm0003a-Canto  	L488	V13:	Che mi fu per l’orrechie il cor ferito
-ID:Trm0003a-Alto   	L515	V13:	Che mi fu per l’orrechie’il cor ferito
-ID:Trm0003a-Tenore 	L540	V13:	Ché mi fu per l’orrechie il cor ferito
+ID:Ber             	L39	V13:	Che mi fu per l’orecchie il cor ferito:
+ID:S3              	L151	V13:	Che mi fu per l’orecchie il cor ferito,
+ID:S4              	L179	V13:	Che mi fù per l’orecchie il cor ferito,
+ID:S8              	L207	V13:	Che mi fu per l’orecchie il cor ferito,
+ID:S9              	L235	V13:	Che mi fu per l’orecchie il cor ferito,
+ID:S11             	L263	V13:	Che mi fu per l’orecchie il cor ferito,
+ID:S12             	L291	V13:	Che mi fu per l’orecchie il cor ferito,
+ID:S13             	L319	V13:	Che mi fu per l’orecchie il cor ferito,
+ID:S29             	L389	V13:	Che mi fù per l’orecchie il cor ferito,
+ID:S85             	L448	V13:	Che mi fu per l’orecchie il cor ferito:
+ID:S87             	L476	V13:	Che mi fu per l’orecchie il cor ferito:
+ID:Trm0003a-Canto  	L544	V13:	Che mi fu per l’orrechie il cor ferito
+ID:Trm0003a-Alto   	L571	V13:	Che mi fu per l’orrechie’il cor ferito
+ID:Trm0003a-Tenore 	L596	V13:	Ché mi fu per l’orrechie il cor ferito
+ID:Trm0003b-Canto  	L622	V13:	Che mi fù per l’orecch’ il cor ferito
+ID:Trm0003b-Alto   	L648	V13:	Che mi fù per l’orecch’ il cor ferito
+ID:Trm0003b-Tenore 	L674	V13:	Ei dett’ andaro ove non giuns’ in volto.
+ID:Trm0003b-Basso  	L699	V13:	Ei dett’ andaro ove non giuns’ in volto.
+ID:Trm0003b-Quinto 	L724	V13:	Che mi fù per l’orecch’ il cor ferito
+ID:Trm0003b-Sesto  	L750	V13:	Che mi fù per l’orech’ il cor ferito
 
-ID:S8              	L166	V14:	E i detti andaro, ove non giunse in volto.
-ID:S9              	L194	V14:	E i detti andaro, ove non giunse in volto.
-ID:S11             	L222	V14:	E i detti andaro, ove non giunse in volto.
-ID:S12             	L250	V14:	E i detti andaro, ove non giunse in volto.
-ID:S13             	L278	V14:	E i detti andaro, ove non giunse in volto.
-ID:S29             	L348	V14:	E i detti andaro, ove non giunse il volto.
-ID:S87             	L421	V14:	E i detti andaro ove non giunse il volto.
-ID:Trm0003a-Canto  	L489	V14:	E i detti andaro ove non gions’il volto.
-ID:Trm0003a-Alto   	L516	V14:	E i detti andaro ove non gions’il volto.
-ID:Trm0003a-Tenore 	L541	V14:	E i detti andaro ove non gions’il volto.
+ID:Ber             	L40	V14:	E i detti andaro ove non giunse il volto.
+ID:S3              	L152	V14:	Et giro i detti, ove non giunse in volto.
+ID:S4              	L180	V14:	E i detti andaro, ove non giunse in volto.
+ID:S8              	L208	V14:	E i detti andaro, ove non giunse in volto.
+ID:S9              	L236	V14:	E i detti andaro, ove non giunse in volto.
+ID:S11             	L264	V14:	E i detti andaro, ove non giunse in volto.
+ID:S12             	L292	V14:	E i detti andaro, ove non giunse in volto.
+ID:S13             	L320	V14:	E i detti andaro, ove non giunse in volto.
+ID:S29             	L390	V14:	E i detti andaro, ove non giunse il volto.
+ID:S85             	L449	V14:	E i detti andaro ove non giunse il volto.
+ID:S87             	L477	V14:	E i detti andaro ove non giunse il volto.
+ID:Trm0003a-Canto  	L545	V14:	E i detti andaro ove non gions’il volto.
+ID:Trm0003a-Alto   	L572	V14:	E i detti andaro ove non gions’il volto.
+ID:Trm0003a-Tenore 	L597	V14:	E i detti andaro ove non gions’il volto.
+ID:Trm0003b-Canto  	L623	V14:	Ei dett’ andaro ove non giuns’ in volto.
+ID:Trm0003b-Alto   	L649	V14:	Ei dett’ andaro ove non giuns’ in volto.
+ID:Trm0003b-Quinto 	L725	V14:	Ei dett’ andaro ove non giuns’ in volto.
+ID:Trm0003b-Sesto  	L751	V14:	[TACET] ove non giuns’ in volto.
 

@@ -1,126 +1,294 @@
-ID:W               	L150	V1:	D’aria un tempo nudrimmi, et cibo et vita
-ID:S8              	L192	V1:	D’aria un tempo nudrimmi, & cibo, & vita
-ID:S9              	L220	V1:	D’aria un tempo nudrimmi, & cibo, & vita
-ID:S11             	L248	V1:	D’aria un tempo nudrimmi, e cibo, e vita
-ID:S12             	L276	V1:	D’aria un tempo nudrimmi, e cibo, e vita
-ID:S13             	L304	V1:	D’aria un tempo nudrimmi, e cibo, e vita
-ID:S29             	L374	V1:	D’aria un tempo nudrimmi, e cibo, e vita
-ID:S87             	L444	V1:	D’Aria un tempo nudrimmi: e cibo, e vita,
+ID:Ber             	L38	V1:	D’ARIA un tempo nudrimmi: e cibo, e vita,
+ID:W               	L164	V1:	D’aria un tempo nudrimmi, et cibo et vita
+ID:S8              	L206	V1:	D’aria un tempo nudrimmi, & cibo, & vita
+ID:S9              	L234	V1:	D’aria un tempo nudrimmi, & cibo, & vita
+ID:S11             	L262	V1:	D’aria un tempo nudrimmi, e cibo, e vita
+ID:S12             	L290	V1:	D’aria un tempo nudrimmi, e cibo, e vita
+ID:S13             	L318	V1:	D’aria un tempo nudrimmi, e cibo, e vita
+ID:S29             	L388	V1:	D’aria un tempo nudrimmi, e cibo, e vita
+ID:S85             	L444	V1:	D’ARIA un tempo nudrimmi: e cibo, e vita,
+ID:S87             	L472	V1:	D’ARIA un tempo nudrimmi: e cibo, e vita,
+ID:Trm0159a-Canto  	L542	V1:	D’aria un tempo nodrimmi, e cibo e vita
+ID:Trm0159a-Alto   	L568	V1:	D’aria un tempo nodrimmi, e cibo e vita
+ID:Trm0159a-Tenore 	L594	V1:	D’aria un tempo nodrimmi, e cibo e vita
+ID:Trm0159a-Basso  	L620	V1:	[TACET] e cibo e vita
+ID:Trm0159a-Quinto 	L646	V1:	D’aria un tempo nodrimmi, e cibo e vita
+ID:Trm0159b-Canto  	L672	V1:	Daria un tempo nodrimm’e cibo e vita
+ID:Trm0159b-Alto   	L698	V1:	Daria un tempo nodrimm’e cibo e vita
+ID:Trm0159b-Tenore 	L724	V1:	Daria un tempo nodrimm’e cibo e vita
+ID:Trm0159b-Basso  	L750	V1:	[TACET]
+ID:Trm0159b-Quinto 	L777	V1:	Daria un tempo nodrimm’e cibo e vita
 
-ID:W               	L151	V2:	L’aura mi fu che d'un bel volto spira
-ID:S8              	L193	V2:	L’aura mi fu, che da un bel volto spira,
-ID:S9              	L221	V2:	L’aura mi fu, che da un bel volto spira,
-ID:S11             	L249	V2:	L’aura mi fu, che da un bel volto spira,
-ID:S12             	L277	V2:	L’aura mi fu, che da un bel volto spira,
-ID:S13             	L305	V2:	L’aura mi fu, che da un bel volto spira,
-ID:S29             	L375	V2:	L’aura mi fù, che da un bel volto spira,
-ID:S87             	L445	V2:	L’aura mi fù, che d’un bel volto spira;
+ID:Ber             	L39	V2:	L’aura mi fù, che d’un bel volto spira;
+ID:W               	L165	V2:	L’aura mi fu che d'un bel volto spira
+ID:S8              	L207	V2:	L’aura mi fu, che da un bel volto spira,
+ID:S9              	L235	V2:	L’aura mi fu, che da un bel volto spira,
+ID:S11             	L263	V2:	L’aura mi fu, che da un bel volto spira,
+ID:S12             	L291	V2:	L’aura mi fu, che da un bel volto spira,
+ID:S13             	L319	V2:	L’aura mi fu, che da un bel volto spira,
+ID:S29             	L389	V2:	L’aura mi fù, che da un bel volto spira,
+ID:S85             	L445	V2:	L’aura mi fù, che d’un bel volto spira;
+ID:S87             	L473	V2:	L’aura mi fù, che d’un bel volto spira;
+ID:Trm0159a-Canto  	L543	V2:	l’aura mi fu, che d’un bel volto spira,
+ID:Trm0159a-Alto   	L569	V2:	l’aura mi fu, che d’un bel volto spira,
+ID:Trm0159a-Tenore 	L595	V2:	l’aura mi fu, che d’un bel volto spira,
+ID:Trm0159a-Basso  	L621	V2:	l’aura mi fu, che d’un bel volto spira,
+ID:Trm0159a-Quinto 	L647	V2:	l’aura mi fu, che d’un bel volto spira,
+ID:Trm0159b-Canto  	L673	V2:	L’aura mi fu che d’un bel viso spira
+ID:Trm0159b-Alto   	L699	V2:	L’aura mi fu che d’un bel viso spira
+ID:Trm0159b-Tenore 	L725	V2:	L’aura mi fu che d’un bel viso spira
+ID:Trm0159b-Basso  	L751	V2:	[TACET]
+ID:Trm0159b-Quinto 	L778	V2:	L’aura mi fu che d’un bel viso spira
 
-ID:W               	L152	V3:	Or che lei mi contende orgoglio et ira
-ID:S8              	L194	V3:	Hor, che lei mi contende orgoglio, & ira,
-ID:S9              	L222	V3:	Hor, che lei mi contende orgoglio, & ira,
-ID:S11             	L250	V3:	Hor, che lei mi contende orgoglio, & ira,
-ID:S12             	L278	V3:	Hor, che lei mi contende orgoglio, & ira,
-ID:S13             	L306	V3:	Hor, che lei mi contende orgoglio, & ira,
-ID:S29             	L376	V3:	Hor, che lei mi contende orgoglio, & ira.
-ID:S87             	L446	V3:	Hor che lei mi contende orgoglio, ed ira:
+ID:Ber             	L40	V3:	Hor che lei mi contende orgoglio, ed ira:
+ID:W               	L166	V3:	Or che lei mi contende orgoglio et ira
+ID:S8              	L208	V3:	Hor, che lei mi contende orgoglio, & ira,
+ID:S9              	L236	V3:	Hor, che lei mi contende orgoglio, & ira,
+ID:S11             	L264	V3:	Hor, che lei mi contende orgoglio, & ira,
+ID:S12             	L292	V3:	Hor, che lei mi contende orgoglio, & ira,
+ID:S13             	L320	V3:	Hor, che lei mi contende orgoglio, & ira,
+ID:S29             	L390	V3:	Hor, che lei mi contende orgoglio, & ira.
+ID:S85             	L446	V3:	Hor che lei mi contende orgoglio, ed ira:
+ID:S87             	L474	V3:	Hor che lei mi contende orgoglio, ed ira:
+ID:Trm0159a-Canto  	L544	V3:	Or che lei mi contende orgoglio, et ira
+ID:Trm0159a-Alto   	L570	V3:	Or che lei mi contende orgoglio, et ira
+ID:Trm0159a-Tenore 	L596	V3:	Or che lei mi contende orgoglio, et ira
+ID:Trm0159a-Basso  	L622	V3:	Or che lei mi contende orgoglio, et ira.
+ID:Trm0159a-Quinto 	L648	V3:	Or che lei mi contende orgoglio, et ira
+ID:Trm0159b-Canto  	L674	V3:	Hor che lei mi contend’orgoglio & ira
+ID:Trm0159b-Alto   	L700	V3:	Hor che lei mi contend’orgoglio & ira
+ID:Trm0159b-Tenore 	L726	V3:	Hor che lei mi contend’orgoglio & ira
+ID:Trm0159b-Basso  	L752	V3:	Hor che lei mi contend’orgoglio & ira
+ID:Trm0159b-Quinto 	L779	V3:	Hor che lei mi contend’orgoglio & ira
 
-ID:W               	L153	V4:	Di qual altra esca fia l’alma nudrita?
-ID:S8              	L195	V4:	Di qual’altra esca fia l’alma nudrita?
-ID:S9              	L223	V4:	Di qual’altra esca fia l’alma nudrita?
-ID:S11             	L251	V4:	Di qual’altra esca fia l’alma nudrita?
-ID:S12             	L279	V4:	Di qual’altra esca fia l’alma nudrita?
-ID:S13             	L307	V4:	Di qual’altra esca fia l’alma nudrita?
-ID:S29             	L377	V4:	Di qual’altra esca fia l’alma nodrita?
-ID:S87             	L447	V4:	Di qual esca sarà l’alma nudrita?
+ID:Ber             	L41	V4:	Di qual esca sarà l’alma nudrita?
+ID:W               	L167	V4:	Di qual altra esca fia l’alma nudrita?
+ID:S8              	L209	V4:	Di qual’altra esca fia l’alma nudrita?
+ID:S9              	L237	V4:	Di qual’altra esca fia l’alma nudrita?
+ID:S11             	L265	V4:	Di qual’altra esca fia l’alma nudrita?
+ID:S12             	L293	V4:	Di qual’altra esca fia l’alma nudrita?
+ID:S13             	L321	V4:	Di qual’altra esca fia l’alma nudrita?
+ID:S29             	L391	V4:	Di qual’altra esca fia l’alma nodrita?
+ID:S85             	L447	V4:	Di qual esca sarà l’alma nudrita?
+ID:S87             	L475	V4:	Di qual esca sarà l’alma nudrita?
+ID:Trm0159a-Canto  	L545	V4:	Di qual’altr’esca fia l’alma nodrita?
+ID:Trm0159a-Alto   	L571	V4:	Di qual’altr’esca fia l’alma nodrita?
+ID:Trm0159a-Tenore 	L597	V4:	Di qual’altr’esca fia l’alma nodrita?
+ID:Trm0159a-Basso  	L623	V4:	Di qual’altr’esca fia l’alma nodrita?
+ID:Trm0159a-Quinto 	L649	V4:	Di qual’altr’esca fia l’alma nodrita?
+ID:Trm0159b-Canto  	L675	V4:	[TACET]
+ID:Trm0159b-Alto   	L701	V4:	Di qual’altr’esca fia l’alma nodrita
+ID:Trm0159b-Tenore 	L727	V4:	Di qual’altr’esca fia l’alma nodrita
+ID:Trm0159b-Basso  	L753	V4:	Di qual’altr’esca fia l’alma nodrita
+ID:Trm0159b-Quinto 	L780	V4:	Di qual’altr’esca fia l’alma nodrita
 
-ID:W               	L155	V5:	I famelici spirti indarno aita
-ID:S8              	L197	V5:	I famelici spirti indarno aita
-ID:S9              	L225	V5:	I famelici spirti indarno aita
-ID:S11             	L253	V5:	I famelici spirti indarno aita
-ID:S12             	L281	V5:	I famelici spirti indarno aita
-ID:S13             	L309	V5:	I famelici spirti indarno aita
-ID:S29             	L379	V5:	I famelici spirti indarno aita
-ID:S87             	L449	V5:	I famelici spirti in vano aita
+ID:Ber             	L43	V5:	I famelici spirti in vano aita
+ID:W               	L169	V5:	I famelici spirti indarno aita
+ID:S8              	L211	V5:	I famelici spirti indarno aita
+ID:S9              	L239	V5:	I famelici spirti indarno aita
+ID:S11             	L267	V5:	I famelici spirti indarno aita
+ID:S12             	L295	V5:	I famelici spirti indarno aita
+ID:S13             	L323	V5:	I famelici spirti indarno aita
+ID:S29             	L393	V5:	I famelici spirti indarno aita
+ID:S85             	L449	V5:	I famelici spirti in vano aita
+ID:S87             	L477	V5:	I famelici spirti in vano aita
+ID:Trm0159a-Canto  	L546	V5:	I famelici spirti indarno aita
+ID:Trm0159a-Alto   	L572	V5:	I famelici spirti indarno aita
+ID:Trm0159a-Tenore 	L598	V5:	I famelici spirti indarno aita
+ID:Trm0159a-Basso  	L624	V5:	[TACET]
+ID:Trm0159a-Quinto 	L650	V5:	I famelici spirti indarno aita
+ID:Trm0159b-Canto  	L676	V5:	I famelici spirti indarn’aita
+ID:Trm0159b-Alto   	L702	V5:	I famelici spirti indarn’aita
+ID:Trm0159b-Tenore 	L728	V5:	[TACET]
+ID:Trm0159b-Basso  	L754	V5:	[TACET]
+ID:Trm0159b-Quinto 	L781	V5:	I famelici spirti indarn’aita
 
-ID:W               	L156	V6:	Chiamano, e in darno il cuor langue et sospira
-ID:S8              	L198	V6:	Chiamano, e’ndarno il cor langue, & sospira;
-ID:S9              	L226	V6:	Chiamano, e’ndarno il cor langue, & sospira;
-ID:S11             	L254	V6:	Chiamano, e’ndarno il cor langue, e sospira;
-ID:S12             	L282	V6:	Chiamano, e’ndarno il cor langue, e sospira;
-ID:S13             	L310	V6:	Chiamano, e’ndarno il cor langue, e sospira;
-ID:S29             	L380	V6:	Chiamano, e’ndarno il cor langue, e sospira
-ID:S87             	L450	V6:	Chiamano, e ’n darno il cor langue, e sospira:
+ID:Ber             	L44	V6:	Chiamano, e’n darno il cor langue, e sospira:
+ID:W               	L170	V6:	Chiamano, e in darno il cuor langue et sospira
+ID:S8              	L212	V6:	Chiamano, e’ndarno il cor langue, & sospira;
+ID:S9              	L240	V6:	Chiamano, e’ndarno il cor langue, & sospira;
+ID:S11             	L268	V6:	Chiamano, e’ndarno il cor langue, e sospira;
+ID:S12             	L296	V6:	Chiamano, e’ndarno il cor langue, e sospira;
+ID:S13             	L324	V6:	Chiamano, e’ndarno il cor langue, e sospira;
+ID:S29             	L394	V6:	Chiamano, e’ndarno il cor langue, e sospira
+ID:S85             	L450	V6:	Chiamano, e’n darno il cor langue, e sospira:
+ID:S87             	L478	V6:	Chiamano, e’n darno il cor langue, e sospira:
+ID:Trm0159a-Canto  	L547	V6:	Chiamano, e’ndarno il cor langue e sospira,
+ID:Trm0159a-Alto   	L573	V6:	Chiamano, e’ndarno il cor langue e sospira,
+ID:Trm0159a-Tenore 	L599	V6:	Chiamano, e’ndarno il cor langue e sospira,
+ID:Trm0159a-Basso  	L625	V6:	[Tacet] e’ndarno il cor langue e sospira,
+ID:Trm0159a-Quinto 	L651	V6:	Chiamano, e’ndarno il cor langue e sospira,
+ID:Trm0159b-Canto  	L677	V6:	Chiamano e indarn’il cor langue e sospira
+ID:Trm0159b-Alto   	L703	V6:	Chiamano e indarn’il cor langue e sospira
+ID:Trm0159b-Tenore 	L729	V6:	Chiamano e indarn’il cor langue e sospira
+ID:Trm0159b-Basso  	L755	V6:	Chiamano e indarn’il cor langue e sospira
+ID:Trm0159b-Quinto 	L782	V6:	Chiamano [TACET]
 
-ID:W               	L157	V7:	Ma se pur l’empia a dargli morte aspira
-ID:S8              	L199	V7:	Ma, se pur l’empia a darli morte aspira
-ID:S9              	L227	V7:	Ma, se pur l’empia a darli morte aspira
-ID:S11             	L255	V7:	Ma, se pur l’empia à darli morte aspira
-ID:S12             	L283	V7:	Ma, se pur l’empia à darli morte aspira
-ID:S13             	L311	V7:	Ma, se pur l’empia à darli morte aspira
-ID:S29             	L381	V7:	Ma, se pur l’empia a darli morte aspira,
-ID:S87             	L451	V7:	Ma se pur l’empia à darle morte aspira
+ID:Ber             	L45	V7:	Ma se pur l’empia à darle morte aspira
+ID:W               	L171	V7:	Ma se pur l’empia a dargli morte aspira
+ID:S8              	L213	V7:	Ma, se pur l’empia a darli morte aspira
+ID:S9              	L241	V7:	Ma, se pur l’empia a darli morte aspira
+ID:S11             	L269	V7:	Ma, se pur l’empia à darli morte aspira
+ID:S12             	L297	V7:	Ma, se pur l’empia à darli morte aspira
+ID:S13             	L325	V7:	Ma, se pur l’empia à darli morte aspira
+ID:S29             	L395	V7:	Ma, se pur l’empia a darli morte aspira,
+ID:S85             	L451	V7:	Ma se pur l’empia à darle morte aspira
+ID:S87             	L479	V7:	Ma se pur l’empia à darle morte aspira
+ID:Trm0159a-Canto  	L548	V7:	Ma se pur l’empia à dargli morte aspira
+ID:Trm0159a-Alto   	L574	V7:	Ma se pur l’empia à dargli morte aspira
+ID:Trm0159a-Tenore 	L600	V7:	Ma se pur l’empia à dargli morte aspira
+ID:Trm0159a-Basso  	L626	V7:	Ma se pur l’empia à dargli morte aspira
+ID:Trm0159a-Quinto 	L652	V7:	Ma se pur l’empia à dargli morte aspira
+ID:Trm0159b-Canto  	L678	V7:	Ma se pur l’empi’a darli morte aspira
+ID:Trm0159b-Alto   	L704	V7:	Ma se pur l’empi’a darli morte aspira
+ID:Trm0159b-Tenore 	L730	V7:	Ma se pur l’empi’a darli morte aspira
+ID:Trm0159b-Basso  	L756	V7:	Ma se pur l’empi’a darli morte aspira
+ID:Trm0159b-Quinto 	L783	V7:	Ma se pur l’empi’a darli morte aspira
 
-ID:W               	L158	V8:	Muoia non non di digiun ma di ferita.
-ID:S8              	L200	V8:	Muoia non non di digiun, ma di ferita;
-ID:S9              	L228	V8:	Muoia non non di digiun, ma di ferita;
-ID:S11             	L256	V8:	Muoia non non di digiun, ma di ferita;
-ID:S12             	L284	V8:	Muoia non non di digiun, ma di ferita;
-ID:S13             	L312	V8:	Muoia non non di digiun, ma di ferita;
-ID:S29             	L382	V8:	Muoia non di digiun, ma di ferita;
-ID:S87             	L452	V8:	Muoia non per digiun, ma per ferita.
+ID:Ber             	L46	V8:	M<u>oia non per digiun, ma per ferita.
+ID:W               	L172	V8:	Muoia non non di digiun ma di ferita.
+ID:S8              	L214	V8:	Muoia non non di digiun, ma di ferita;
+ID:S9              	L242	V8:	Muoia non non di digiun, ma di ferita;
+ID:S11             	L270	V8:	Muoia non non di digiun, ma di ferita;
+ID:S12             	L298	V8:	Muoia non non di digiun, ma di ferita;
+ID:S13             	L326	V8:	Muoia non non di digiun, ma di ferita;
+ID:S29             	L396	V8:	Muoia non di digiun, ma di ferita;
+ID:S85             	L452	V8:	Moia non per digiun, ma per ferita.
+ID:S87             	L480	V8:	Muoia non per digiun, ma per ferita.
+ID:Trm0159a-Canto  	L549	V8:	Muoia non di digiun, ma di ferita.
+ID:Trm0159a-Alto   	L575	V8:	Muoia non di digiun, ma di ferita.
+ID:Trm0159a-Tenore 	L601	V8:	Muoia non di digiun, ma di ferita.
+ID:Trm0159a-Basso  	L627	V8:	Muoia non di digiun, ma di ferita.
+ID:Trm0159a-Quinto 	L653	V8:	Muoia non di digiun, ma di ferita.
+ID:Trm0159b-Canto  	L679	V8:	Muoia non di digiun ma di ferita.
+ID:Trm0159b-Alto   	L705	V8:	Muoia non di digiun ma di ferita.
+ID:Trm0159b-Tenore 	L731	V8:	Muoia non di digiun ma di ferita.
+ID:Trm0159b-Basso  	L757	V8:	Muoia non di digiun ma di ferita.
+ID:Trm0159b-Quinto 	L784	V8:	Muoia non di digiun ma di ferita.
 
-ID:W               	L160	V9:	Armi i begli occhi di sdegno et avventi
-ID:S8              	L202	V9:	Armi di sdegnoi begli occhi, & avventi
-ID:S9              	L230	V9:	Armi di sdegnoi begli occhi, & avventi
-ID:S11             	L258	V9:	Armi di sdegnoi begli occhi, & avventi
-ID:S12             	L286	V9:	Armi di sdegnoi begli occhi, & avventi
-ID:S13             	L314	V9:	Armi di sdegnoi begli occhi, & avventi
-ID:S29             	L384	V9:	Armi di sdegno i begli occhi, & avventi
-ID:S87             	L454	V9:	Armi gli occhi di sdegno, e strali aventi
+ID:Ber             	L48	V9:	Armi gli occhi di sdegno, e strali aventi
+ID:W               	L174	V9:	Armi i begli occhi di sdegno et avventi
+ID:S8              	L216	V9:	Armi di sdegnoi begli occhi, & avventi
+ID:S9              	L244	V9:	Armi di sdegnoi begli occhi, & avventi
+ID:S11             	L272	V9:	Armi di sdegnoi begli occhi, & avventi
+ID:S12             	L300	V9:	Armi di sdegnoi begli occhi, & avventi
+ID:S13             	L328	V9:	Armi di sdegnoi begli occhi, & avventi
+ID:S29             	L398	V9:	Armi di sdegno i begli occhi, & avventi
+ID:S85             	L454	V9:	Armi gli occhi di sdegno, e strali aventi
+ID:S87             	L482	V9:	Armi gli occhi di sdegno, e strali aventi
+ID:Trm0159a-Canto  	L551	V9:	Armi di sdegno i begli occhi, & aventi
+ID:Trm0159a-Alto   	L577	V9:	Armi di sdegno i begli occhi, & aventi
+ID:Trm0159a-Tenore 	L603	V9:	Armi di sdegno i begli occhi, & aventi
+ID:Trm0159a-Basso  	L629	V9:	Armi di sdegno i begli occhi, & aventi
+ID:Trm0159a-Quinto 	L655	V9:	Armi di sdegno i begli occhi, & aventi
+ID:Trm0159b-Canto  	L681	V9:	Arme di sdegn’i begl’occh’& aventi
+ID:Trm0159b-Alto   	L707	V9:	Armi disdegn’i begl’occh’& aventi
+ID:Trm0159b-Tenore 	L733	V9:	[TACET] & aventi
+ID:Trm0159b-Basso  	L759	V9:	Arme disdegn’i begl’occh’& aventi
+ID:Trm0159b-Quinto 	L786	V9:	Armi disdegn’i begl’occh’& aventi
 
-ID:W               	L161	V10:	Folgori a mille a mille ecco ch’ignuda
-ID:S8              	L203	V10:	Folgori à mille à mille: ecco, ch’ignuda
-ID:S9              	L231	V10:	Folgori à mille à mille: ecco, ch’ignuda
-ID:S11             	L259	V10:	Folgori à mille à mille: ecco, ch’ignuda
-ID:S12             	L287	V10:	Folgori à mille à mille: ecco, ch’ignuda
-ID:S13             	L315	V10:	Folgori à mille à mille: ecco, ch’ignuda
-ID:S29             	L385	V10:	Folgori à mille à mille: ecco, ch’ignuda
-ID:S87             	L455	V10:	À mille, à mille: à feri colpi, ignuda
+ID:Ber             	L49	V10:	A mille, à mille: à feri colpi, ignuda
+ID:W               	L175	V10:	Folgori a mille a mille ecco ch’ignuda
+ID:S8              	L217	V10:	Folgori à mille à mille: ecco, ch’ignuda
+ID:S9              	L245	V10:	Folgori à mille à mille: ecco, ch’ignuda
+ID:S11             	L273	V10:	Folgori à mille à mille: ecco, ch’ignuda
+ID:S12             	L301	V10:	Folgori à mille à mille: ecco, ch’ignuda
+ID:S13             	L329	V10:	Folgori à mille à mille: ecco, ch’ignuda
+ID:S29             	L399	V10:	Folgori à mille à mille: ecco, ch’ignuda
+ID:S85             	L455	V10:	A mille, à mille: à feri colpi, ignuda
+ID:S87             	L483	V10:	À mille, à mille: à feri colpi, ignuda
+ID:Trm0159a-Canto  	L552	V10:	Folgori à mille à mille, ecco, ch’ignuda
+ID:Trm0159a-Alto   	L578	V10:	Folgori à mille à mille Ecco, ch’ignuda
+ID:Trm0159a-Tenore 	L604	V10:	Folgori à mille à mille, ecco, ch’ignuda
+ID:Trm0159a-Basso  	L630	V10:	Folgori à mille à mille [TACET]
+ID:Trm0159a-Quinto 	L656	V10:	Folgori à mille à mille, ecco, ch’ignuda
+ID:Trm0159b-Canto  	L682	V10:	Folgor’a mill’a mille ecco ch’ignuda
+ID:Trm0159b-Alto   	L708	V10:	Folgor’a mill’a mille ecco ch’ignuda
+ID:Trm0159b-Tenore 	L734	V10:	Folgor’a mill’a mille ecco ch’ignuda
+ID:Trm0159b-Basso  	L760	V10:	Folgor’a mill’a mille ecco ch’ignuda
+ID:Trm0159b-Quinto 	L787	V10:	Folgor’a mill’a mille ecco ch’ignuda
 
-ID:W               	L162	V11:	Le porge l’alma, non ch’inerme il seno
-ID:S8              	L204	V11:	Le porgo l’alma non ch’inerme il seno;
-ID:S9              	L232	V11:	Le porgo l’alma non ch’inerme il seno;
-ID:S11             	L260	V11:	Le porgo l’alma non ch’inerme il seno;
-ID:S12             	L288	V11:	Le porgo l’alma non ch’inerme il seno;
-ID:S13             	L316	V11:	Le porgo l’alma non ch’inerme il seno;
-ID:S29             	L386	V11:	Le porgo l’alma non, ch’inerme il seno;
-ID:S87             	L456	V11:	Io porgo l’alma, non ch’inerme il seno.
+ID:Ber             	L50	V11:	Io porgo l’alma, non ch’inerme il seno.
+ID:W               	L176	V11:	Le porge l’alma, non ch’inerme il seno
+ID:S8              	L218	V11:	Le porgo l’alma non ch’inerme il seno;
+ID:S9              	L246	V11:	Le porgo l’alma non ch’inerme il seno;
+ID:S11             	L274	V11:	Le porgo l’alma non ch’inerme il seno;
+ID:S12             	L302	V11:	Le porgo l’alma non ch’inerme il seno;
+ID:S13             	L330	V11:	Le porgo l’alma non ch’inerme il seno;
+ID:S29             	L400	V11:	Le porgo l’alma non, ch’inerme il seno;
+ID:S85             	L456	V11:	Io porgo l’alma, non ch’inerme il seno.
+ID:S87             	L484	V11:	Io porgo l’alma, non ch’inerme il seno.
+ID:Trm0159a-Canto  	L553	V11:	Le porgo l’alma, non ch’inerme il seno.
+ID:Trm0159a-Alto   	L579	V11:	le porgo l’alma, non ch’inerme il seno.
+ID:Trm0159a-Tenore 	L605	V11:	Le porgo l’alma, non ch’inerme il seno.
+ID:Trm0159a-Basso  	L631	V11:	[TACET]
+ID:Trm0159a-Quinto 	L657	V11:	Le porgo l’alma, non ch’inerme il seno.
+ID:Trm0159b-Canto  	L683	V11:	le porge l’alma Non ch’inherm’il seno
+ID:Trm0159b-Alto   	L709	V11:	le porge l’alma Non ch’inherm’il seno
+ID:Trm0159b-Tenore 	L735	V11:	[TACET] Non ch’inherm’il seno
+ID:Trm0159b-Basso  	L761	V11:	le porge l’alma Non ch’inherm’il seno
+ID:Trm0159b-Quinto 	L788	V11:	le porge l’alma Non ch’inherm’il seno
 
-ID:W               	L164	V12:	Faccia il mio stratio i suoi desir contenti
-ID:S8              	L206	V12:	Faccia il mio stratio i suoi desir contenti,
-ID:S9              	L234	V12:	Faccia il mio stratio i suoi desir contenti,
-ID:S11             	L262	V12:	Faccia il mio stratio i suoi desir contenti,
-ID:S12             	L290	V12:	Faccia il mio stratio i suoi desir contenti,
-ID:S13             	L318	V12:	Faccia il mio stratio i suoi desir contenti,
-ID:S29             	L388	V12:	Faccia il mio stratio i suoi desir contenti,
-ID:S87             	L458	V12:	Faccia il mio stratio i suoi desir contenti.
+ID:Ber             	L52	V12:	Faccia il mio stratio i suoi desir contenti.
+ID:W               	L178	V12:	Faccia il mio stratio i suoi desir contenti
+ID:S8              	L220	V12:	Faccia il mio stratio i suoi desir contenti,
+ID:S9              	L248	V12:	Faccia il mio stratio i suoi desir contenti,
+ID:S11             	L276	V12:	Faccia il mio stratio i suoi desir contenti,
+ID:S12             	L304	V12:	Faccia il mio stratio i suoi desir contenti,
+ID:S13             	L332	V12:	Faccia il mio stratio i suoi desir contenti,
+ID:S29             	L402	V12:	Faccia il mio stratio i suoi desir contenti,
+ID:S85             	L458	V12:	Faccia il mio stratio i suoi desir contenti.
+ID:S87             	L486	V12:	Faccia il mio stratio i suoi desir contenti.
+ID:Trm0159a-Canto  	L554	V12:	Faccia il mio stratio i suoi desir contenti
+ID:Trm0159a-Alto   	L580	V12:	[TACET]
+ID:Trm0159a-Tenore 	L606	V12:	Faccia il mio stratio i suoi desir contenti
+ID:Trm0159a-Basso  	L632	V12:	Faccia il mio stratio I suoi desir contenti
+ID:Trm0159a-Quinto 	L658	V12:	Faccia il mio stratio i suoi desir contenti
+ID:Trm0159b-Canto  	L684	V12:	Facci il mio strati i suoi desir contenti
+ID:Trm0159b-Alto   	L710	V12:	Facci il mio strati i suoi desir contenti
+ID:Trm0159b-Tenore 	L736	V12:	Facci il mio strati i suoi desir contenti
+ID:Trm0159b-Basso  	L762	V12:	Facci il mio strati i suoi desir contenti
+ID:Trm0159b-Quinto 	L789	V12:	Facci il mio strati i suoi desir contenti
 
-ID:W               	L165	V13:	Ben fia pieta ch’io la riveggia almeno
-ID:S8              	L207	V13:	Ben fia pietà, ch’io la riveggia almeno,
-ID:S9              	L235	V13:	Ben fia pietà, ch’io la riveggia almeno,
-ID:S11             	L263	V13:	Ben fia pietà, ch’io la riveggia almeno,
-ID:S12             	L291	V13:	Ben fia pietà, ch’io la riveggia almeno,
-ID:S13             	L319	V13:	Ben fia pietà, ch’io la riveggia almeno,
-ID:S29             	L389	V13:	Ben fia pietà, ch’io la riveggia almeno,
-ID:S87             	L459	V13:	Ben fia pietà, ch’io la riveggia almeno;
+ID:Ber             	L53	V13:	Ben fia pietà, ch’io la riveggia almeno;
+ID:W               	L179	V13:	Ben fia pieta ch’io la riveggia almeno
+ID:S8              	L221	V13:	Ben fia pietà, ch’io la riveggia almeno,
+ID:S9              	L249	V13:	Ben fia pietà, ch’io la riveggia almeno,
+ID:S11             	L277	V13:	Ben fia pietà, ch’io la riveggia almeno,
+ID:S12             	L305	V13:	Ben fia pietà, ch’io la riveggia almeno,
+ID:S13             	L333	V13:	Ben fia pietà, ch’io la riveggia almeno,
+ID:S29             	L403	V13:	Ben fia pietà, ch’io la riveggia almeno,
+ID:S85             	L459	V13:	Ben fia pietà, ch’io la riveggia almeno;
+ID:S87             	L487	V13:	Ben fia pietà, ch’io la riveggia almeno;
+ID:Trm0159a-Canto  	L555	V13:	Ben fia pietà, ch’io la riveggia almeno
+ID:Trm0159a-Alto   	L581	V13:	Ben fia pietà, ch’io la riveggia almeno
+ID:Trm0159a-Tenore 	L607	V13:	Ben fia pietà, ch’io la riveggia almeno
+ID:Trm0159a-Basso  	L633	V13:	Ben fia pietà, ch’io la riveggia almeno
+ID:Trm0159a-Quinto 	L659	V13:	Ben fia pietà, ch’io la riveggia almeno,
+ID:Trm0159b-Canto  	L685	V13:	Ben fia pieta ch’io la riveggi almeno
+ID:Trm0159b-Alto   	L711	V13:	Ben fia pieta ch’io la riveggi almeno
+ID:Trm0159b-Tenore 	L737	V13:	Ben fia pieta ch’io la riveggi almeno
+ID:Trm0159b-Basso  	L763	V13:	Ben fia pieta ch’io la riveggi almeno
+ID:Trm0159b-Quinto 	L790	V13:	Ben fia pieta ch’io la riveggi almeno
 
-ID:W               	L166	V14:	Non dico pia, ma disdegnosa et cruda.
-ID:S8              	L208	V14:	Non dico pia, ma disdegnosa, & cruda.
-ID:S9              	L236	V14:	Non dico pia, ma disdegnosa, & cruda.
-ID:S11             	L264	V14:	Non dico pia, ma disdegnosa, e cruda.
-ID:S12             	L292	V14:	Non dico pia, ma disdegnosa, e cruda.
-ID:S13             	L320	V14:	Non dico pia, ma disdegnosa, e cruda.
-ID:S29             	L390	V14:	Non dico pia, ma disdegnosa, & cruda.
-ID:S87             	L460	V14:	Non dico pia: ma disdegnosa, e cruda.
+ID:Ber             	L54	V14:	Non dico pia: ma disdegnosa, e cruda.
+ID:W               	L180	V14:	Non dico pia, ma disdegnosa et cruda.
+ID:S8              	L222	V14:	Non dico pia, ma disdegnosa, & cruda.
+ID:S9              	L250	V14:	Non dico pia, ma disdegnosa, & cruda.
+ID:S11             	L278	V14:	Non dico pia, ma disdegnosa, e cruda.
+ID:S12             	L306	V14:	Non dico pia, ma disdegnosa, e cruda.
+ID:S13             	L334	V14:	Non dico pia, ma disdegnosa, e cruda.
+ID:S29             	L404	V14:	Non dico pia, ma disdegnosa, & cruda.
+ID:S85             	L460	V14:	Non dico pia: ma disdegnosa, e cruda.
+ID:S87             	L488	V14:	Non dico pia: ma disdegnosa, e cruda.
+ID:Trm0159a-Canto  	L556	V14:	Non dico pia, ma disdegnosa, e cruda.
+ID:Trm0159a-Alto   	L582	V14:	Non dico pia, ma disdegnosa, e cruda.
+ID:Trm0159a-Tenore 	L608	V14:	Non dico pia, ma disdegnosa, e cruda.
+ID:Trm0159a-Basso  	L634	V14:	Non dico pia, ma disdegnosa, e cruda
+ID:Trm0159a-Quinto 	L660	V14:	Non dico pia, ma disdegnosa, e cruda.
+ID:Trm0159b-Canto  	L686	V14:	Non dico pia ma disdegnosa e cruda.
+ID:Trm0159b-Alto   	L712	V14:	Non dico pia ma disdegnosa e cruda.
+ID:Trm0159b-Tenore 	L738	V14:	Non dico pia ma disdegnosa e cruda.
+ID:Trm0159b-Basso  	L764	V14:	Non dico pia ma disdegnosa e cruda.
+ID:Trm0159b-Quinto 	L791	V14:	Non dico pia ma disdegnosa e cruda.
 

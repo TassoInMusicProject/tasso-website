@@ -1,108 +1,351 @@
-ID:M4              	L77	V1:	Al vostro dolce azzurro
-ID:N13             	L97	V1:	Al vostro dolce azzurro
-ID:N15             	L117	V1:	Al vostro dolce azurro
-ID:P4              	L137	V1:	Al vostro dolc' azurro
-ID:W               	L191	V1:	Al vostro dolce azurro
-ID:S8              	L211	V1:	Al vostro dolce azurro
-ID:S9              	L231	V1:	Al vostro dolce azurro
-ID:S11             	L251	V1:	Al vostro dolce azurro
-ID:S12             	L271	V1:	Al vostro dolce azurro
-ID:S13             	L291	V1:	Al vostro dolce azurro
-ID:S29             	L344	V1:	Al vostro dolce azurro
+ID:E1              	L54	V1:	Al vostro dolce azurro
+ID:M4              	L86	V1:	Al vostro dolce azzurro
+ID:N13             	L106	V1:	Al vostro dolce azzurro
+ID:N15             	L126	V1:	Al vostro dolce azurro
+ID:P4              	L146	V1:	Al vostro dolc' azurro
+ID:W               	L200	V1:	Al vostro dolce azurro
+ID:S8              	L220	V1:	Al vostro dolce azurro
+ID:S9              	L240	V1:	Al vostro dolce azurro
+ID:S11             	L260	V1:	Al vostro dolce azurro
+ID:S12             	L280	V1:	Al vostro dolce azurro
+ID:S13             	L300	V1:	Al vostro dolce azurro
+ID:S29             	L353	V1:	Al vostro dolce azurro
+ID:S145            	L417	V1:	Al vostro dolce azurro
+ID:Trm0614a-Canto  	L459	V1:	Al vostro dolce azurro
+ID:Trm0614a-Alto   	L479	V1:	Al vostro dolce azurro
+ID:Trm0614a-Tenore 	L499	V1:	Al vostro dolce azurro
+ID:Trm0614a-Basso  	L519	V1:	[TACET]
+ID:Trm0614a-Quinto 	L539	V1:	Al vostro dolce azurro
+ID:Trm0614b-Canto  	L558	V1:	Al vostro dolce azuro
+ID:Trm0614b-Alto   	L578	V1:	Al vostro dolce azuro
+ID:Trm0614b-Tenore 	L598	V1:	Al vostro dolce azuro
+ID:Trm0614b-Basso  	L618	V1:	Al vostro dolce azuro
+ID:Trm0614b-Quinto 	L638	V1:	Al vostro dolce azuro
+ID:Trm0614b-Sesto  	L658	V1:	Al vostro dolce azuro
+ID:Trm0614c-Canto  	L678	V1:	Al vostro dolce azurro
+ID:Trm0614c-Alto   	L698	V1:	[TACET]
+ID:Trm0614c-Tenore 	L718	V1:	[TACET]
+ID:Trm0614c-Basso  	L738	V1:	Al vostro dolce azurro
+ID:Trm0614h-Canto  	L989	V1:	Al vostro dolce azurro
+ID:Trm0614h-Alto   	L1009	V1:	Al vostro dolce azurro
+ID:Trm0614h-Tenore 	L1029	V1:	Al vostro dolce azurro
+ID:Trm0614h-Basso  	L1049	V1:	[TACET]
+ID:Trm0614h-Quinto 	L1069	V1:	[TACET]
+ID:Trm0614j-Canto  	L1144	V1:	Al dolce vostro azuro
+ID:Trm0614j-Alto   	L1164	V1:	Al dolce vostro azuro
+ID:Trm0614j-Tenore 	L1184	V1:	Al dolce vostr’azuro
+ID:Trm0614j-Basso  	L1204	V1:	Al dolce vostr’azuro
+ID:Trm0614j-Quinto 	L1224	V1:	Al dolce vostro azuro
 
-ID:M4              	L78	V2:	Ceda ò luci serene,
-ID:N13             	L98	V2:	Ceda ò luci serene
-ID:N15             	L118	V2:	Ceda ò luci serene
-ID:P4              	L138	V2:	Ceda o luci serene
-ID:W               	L192	V2:	Ceda o luci serene,
-ID:S8              	L212	V2:	Ceda, o luci serene,
-ID:S9              	L232	V2:	Ceda, o luci serene,
-ID:S11             	L252	V2:	Ceda, ò luci serene,
-ID:S12             	L272	V2:	Ceda, ò luci serene,
-ID:S13             	L292	V2:	Ceda, ò luci serene,
-ID:S29             	L345	V2:	Ceda, ò luci serene,
+ID:E1              	L55	V2:	Ceda, o luci serene,
+ID:M4              	L87	V2:	Ceda ò luci serene,
+ID:N13             	L107	V2:	Ceda ò luci serene
+ID:N15             	L127	V2:	Ceda ò luci serene
+ID:P4              	L147	V2:	Ceda o luci serene
+ID:W               	L201	V2:	Ceda o luci serene,
+ID:S8              	L221	V2:	Ceda, o luci serene,
+ID:S9              	L241	V2:	Ceda, o luci serene,
+ID:S11             	L261	V2:	Ceda, ò luci serene,
+ID:S12             	L281	V2:	Ceda, ò luci serene,
+ID:S13             	L301	V2:	Ceda, ò luci serene,
+ID:S29             	L354	V2:	Ceda, ò luci serene,
+ID:S145            	L418	V2:	Ceda, o luci serene,
+ID:Trm0614a-Canto  	L460	V2:	Ceda o luci sereni
+ID:Trm0614a-Alto   	L480	V2:	Ceda o luci sereni
+ID:Trm0614a-Tenore 	L500	V2:	Ceda o luci sereni
+ID:Trm0614a-Basso  	L520	V2:	Ceda o luci sereni
+ID:Trm0614a-Quinto 	L540	V2:	Ceda o luci sereni
+ID:Trm0614b-Canto  	L559	V2:	Cedan luci serene
+ID:Trm0614b-Alto   	L579	V2:	Cedan luci serene
+ID:Trm0614b-Tenore 	L599	V2:	Cedan luci serene
+ID:Trm0614b-Basso  	L619	V2:	[TACET]
+ID:Trm0614b-Quinto 	L639	V2:	Cedan luci serene
+ID:Trm0614b-Sesto  	L659	V2:	Cedan luci serene
+ID:Trm0614c-Canto  	L679	V2:	ceda o luci serene
+ID:Trm0614c-Alto   	L699	V2:	Ceda o luci serene
+ID:Trm0614c-Tenore 	L719	V2:	Ceda o luci serene
+ID:Trm0614c-Basso  	L739	V2:	ceda o luci serene
+ID:Trm0614h-Canto  	L990	V2:	Ceda ò luci serene
+ID:Trm0614h-Alto   	L1010	V2:	Ceda ò luci serene
+ID:Trm0614h-Tenore 	L1030	V2:	Ceda ò luci serene
+ID:Trm0614h-Basso  	L1050	V2:	Ceda ò luci serene
+ID:Trm0614h-Quinto 	L1070	V2:	Ceda ò luci serene
+ID:Trm0614j-Canto  	L1145	V2:	ceda luci serene
+ID:Trm0614j-Alto   	L1165	V2:	ceda luci serene
+ID:Trm0614j-Tenore 	L1185	V2:	ceda luci serene
+ID:Trm0614j-Basso  	L1205	V2:	ceda luci serene
+ID:Trm0614j-Quinto 	L1225	V2:	ceda luci serene
 
-ID:M4              	L79	V3:	Qual piu bel nero Italia in pregio tiene.
-ID:N13             	L99	V3:	Qual piu bel <del>vago</del> negro Italia in pregio tiene
-ID:N15             	L119	V3:	Qual più bel nero Italia in pregio tiene.
-ID:P4              	L139	V3:	Qual piu bel negro Italia in pregio tiene
-ID:W               	L193	V3:	Qual piu bel negro Italia in pregio tiene.
-ID:S8              	L213	V3:	Qual più bel negro Italia in pregio tiene.
-ID:S9              	L233	V3:	Qual più bel negro Italia in pregio tiene.
-ID:S11             	L253	V3:	Qual più bel negro Italia in pregio tiene.
-ID:S12             	L273	V3:	Qual più bel negro Italia in pregio tiene.
-ID:S13             	L293	V3:	Qual più bel negro Italia in pregio tiene.
-ID:S29             	L346	V3:	Qual più bel negro Italia in pregio tiene.
+ID:E1              	L56	V3:	qual più bel nero Italia in pregio tiene :
+ID:M4              	L88	V3:	Qual piu bel nero Italia in pregio tiene.
+ID:N13             	L108	V3:	Qual piu bel <del>vago</del> negro Italia in pregio tiene
+ID:N15             	L128	V3:	Qual più bel nero Italia in pregio tiene.
+ID:P4              	L148	V3:	Qual piu bel negro Italia in pregio tiene
+ID:W               	L202	V3:	Qual piu bel negro Italia in pregio tiene.
+ID:S8              	L222	V3:	Qual più bel negro Italia in pregio tiene.
+ID:S9              	L242	V3:	Qual più bel negro Italia in pregio tiene.
+ID:S11             	L262	V3:	Qual più bel negro Italia in pregio tiene.
+ID:S12             	L282	V3:	Qual più bel negro Italia in pregio tiene.
+ID:S13             	L302	V3:	Qual più bel negro Italia in pregio tiene.
+ID:S29             	L355	V3:	Qual più bel negro Italia in pregio tiene.
+ID:S145            	L419	V3:	Qual più bel nero Italia in pregio tiene.
+ID:Trm0614a-Canto  	L461	V3:	Qual piu bel negro Italia in pregio tiene
+ID:Trm0614a-Alto   	L481	V3:	Qual piu bel negro Italia in pregio tiene
+ID:Trm0614a-Tenore 	L501	V3:	Qual piu bel negro Italia in pregio tiene
+ID:Trm0614a-Basso  	L521	V3:	Qual piu bel negro Italia in pregio tiene
+ID:Trm0614a-Quinto 	L541	V3:	Qual piu bel negro Italia in pregio tiene
+ID:Trm0614b-Canto  	L560	V3:	Quai piu bei neri Italia in preggio tiene
+ID:Trm0614b-Alto   	L580	V3:	Quai piu bei neri Italia in preggio tiene
+ID:Trm0614b-Tenore 	L600	V3:	Quai piu neri Italia in preggio tiene
+ID:Trm0614b-Basso  	L620	V3:	[TACET]
+ID:Trm0614b-Quinto 	L640	V3:	[TACET]
+ID:Trm0614b-Sesto  	L660	V3:	Quai piu neri Italia in preggio tiene
+ID:Trm0614c-Canto  	L680	V3:	Qual piu bel nero Italia in pregio tiene
+ID:Trm0614c-Alto   	L700	V3:	Qual piu bel nero Italia in pregio tiene
+ID:Trm0614c-Tenore 	L720	V3:	Qual piu bel nero Italia in pregio tiene
+ID:Trm0614c-Basso  	L740	V3:	Qual piu bel nero Italia in pregio tiene
+ID:Trm0614h-Canto  	L991	V3:	Qual più bel nero Italia in pregio tiene
+ID:Trm0614h-Alto   	L1011	V3:	Qual più bel nero Italia in pregio tiene
+ID:Trm0614h-Tenore 	L1031	V3:	Qual più bel nero Italia in pregio tiene
+ID:Trm0614h-Basso  	L1051	V3:	Qual più bel nero Italia in pregio tiene
+ID:Trm0614h-Quinto 	L1071	V3:	Qual più bel nero [TACET]
+ID:Trm0614j-Canto  	L1146	V3:	qual più bel nero Italia in pregio tiene
+ID:Trm0614j-Alto   	L1166	V3:	qual più bel nero Italia in pregio tiene
+ID:Trm0614j-Tenore 	L1186	V3:	qual più bel nero Italia in pregio tiene
+ID:Trm0614j-Basso  	L1206	V3:	qual più bel nero Italia in pregio tiene
+ID:Trm0614j-Quinto 	L1226	V3:	qual più bel nero Italia in pregio tiene
 
-ID:M4              	L80	V4:	Occhi Cielo d’Amore
-ID:N13             	L100	V4:	Occhi Cielo d’Amore
-ID:N15             	L120	V4:	Occhi cielo d’Amore
-ID:P4              	L141	V4:	Occhi cielo d’Amore
-ID:W               	L194	V4:	Occhi, cielo d’Amore,
-ID:S8              	L214	V4:	Occhi, Cielo d’Amore,
-ID:S9              	L234	V4:	Occhi, Cielo d’Amore,
-ID:S11             	L254	V4:	Occhi, Cielo d’Amore,
-ID:S12             	L274	V4:	Occhi, Cielo d’Amore,
-ID:S13             	L294	V4:	Occhi, Cielo d’Amore,
-ID:S29             	L347	V4:	Occhi, Cielo d’Amore,
+ID:E1              	L57	V4:	occhi cielo d’Amore
+ID:M4              	L89	V4:	Occhi Cielo d’Amore
+ID:N13             	L109	V4:	Occhi Cielo d’Amore
+ID:N15             	L129	V4:	Occhi cielo d’Amore
+ID:P4              	L150	V4:	Occhi cielo d’Amore
+ID:W               	L203	V4:	Occhi, cielo d’Amore,
+ID:S8              	L223	V4:	Occhi, Cielo d’Amore,
+ID:S9              	L243	V4:	Occhi, Cielo d’Amore,
+ID:S11             	L263	V4:	Occhi, Cielo d’Amore,
+ID:S12             	L283	V4:	Occhi, Cielo d’Amore,
+ID:S13             	L303	V4:	Occhi, Cielo d’Amore,
+ID:S29             	L356	V4:	Occhi, Cielo d’Amore,
+ID:S145            	L420	V4:	Occhi Cielo d’Amore,
+ID:Trm0614a-Canto  	L462	V4:	Occhi Cielo d’amore,
+ID:Trm0614a-Alto   	L482	V4:	Occhi Cielo d’amore
+ID:Trm0614a-Tenore 	L502	V4:	Occhi Cielo d’amore
+ID:Trm0614a-Basso  	L522	V4:	Occhi Cielo d’amore
+ID:Trm0614a-Quinto 	L542	V4:	Occhi Cielo d’amore,
+ID:Trm0614b-Canto  	L561	V4:	[OMITTED]
+ID:Trm0614b-Alto   	L581	V4:	[OMITTED]
+ID:Trm0614b-Tenore 	L601	V4:	[OMITTED]
+ID:Trm0614b-Basso  	L621	V4:	[OMITTED]
+ID:Trm0614b-Quinto 	L641	V4:	[OMITTED]
+ID:Trm0614b-Sesto  	L661	V4:	[OMITTED]
+ID:Trm0614c-Canto  	L681	V4:	Occhi cielo d’amore
+ID:Trm0614c-Alto   	L701	V4:	Occhi cielo d’amore
+ID:Trm0614c-Tenore 	L721	V4:	[TACET]
+ID:Trm0614c-Basso  	L741	V4:	[TACET]
+ID:Trm0614h-Canto  	L992	V4:	Occhi cielo d’Amore
+ID:Trm0614h-Alto   	L1012	V4:	Occhi cielo d’Amore
+ID:Trm0614h-Tenore 	L1032	V4:	Occhi cielo d’Amore
+ID:Trm0614h-Basso  	L1052	V4:	Occhi cielo d’Amore
+ID:Trm0614h-Quinto 	L1072	V4:	Occhi cielo d’Amore
+ID:Trm0614j-Canto  	L1147	V4:	occhi cielo d’amore
+ID:Trm0614j-Alto   	L1167	V4:	occhi cielo d’amore
+ID:Trm0614j-Tenore 	L1187	V4:	occhi cielo d’amore
+ID:Trm0614j-Basso  	L1207	V4:	occhi cielo d’amore
+ID:Trm0614j-Quinto 	L1227	V4:	occhi cielo d’amore
 
-ID:M4              	L81	V5:	Sole di questo core
-ID:N13             	L101	V5:	Sole di questo core
-ID:N15             	L121	V5:	Sole di questo core
-ID:P4              	L142	V5:	Luci di questo core
-ID:W               	L195	V5:	Sole di questo cuore;
-ID:S8              	L215	V5:	Sole di questo core,
-ID:S9              	L235	V5:	Sole di questo core,
-ID:S11             	L255	V5:	Sole di questo core,
-ID:S12             	L275	V5:	Sole di questo core,
-ID:S13             	L295	V5:	Sole di questo core,
-ID:S29             	L348	V5:	Sole di questo core,
+ID:E1              	L58	V5:	Sole di questo core
+ID:M4              	L90	V5:	Sole di questo core
+ID:N13             	L110	V5:	Sole di questo core
+ID:N15             	L130	V5:	Sole di questo core
+ID:P4              	L151	V5:	Luci di questo core
+ID:W               	L204	V5:	Sole di questo cuore;
+ID:S8              	L224	V5:	Sole di questo core,
+ID:S9              	L244	V5:	Sole di questo core,
+ID:S11             	L264	V5:	Sole di questo core,
+ID:S12             	L284	V5:	Sole di questo core,
+ID:S13             	L304	V5:	Sole di questo core,
+ID:S29             	L357	V5:	Sole di questo core,
+ID:S145            	L421	V5:	Sole di questo core,
+ID:Trm0614a-Canto  	L463	V5:	Sole di questo core
+ID:Trm0614a-Alto   	L483	V5:	Sole di questo core
+ID:Trm0614a-Tenore 	L503	V5:	Sole di questo core
+ID:Trm0614a-Basso  	L523	V5:	Sole di questo core
+ID:Trm0614a-Quinto 	L543	V5:	Sole di questo core
+ID:Trm0614b-Canto  	L562	V5:	[OMITTED]
+ID:Trm0614b-Alto   	L582	V5:	[OMITTED]
+ID:Trm0614b-Tenore 	L602	V5:	[OMITTED]
+ID:Trm0614b-Basso  	L622	V5:	[OMITTED]
+ID:Trm0614b-Quinto 	L642	V5:	[OMITTED]
+ID:Trm0614b-Sesto  	L662	V5:	[OMITTED]
+ID:Trm0614c-Canto  	L682	V5:	Sole di questo core
+ID:Trm0614c-Alto   	L702	V5:	sole di questo core
+ID:Trm0614c-Tenore 	L722	V5:	sole di questo core
+ID:Trm0614c-Basso  	L742	V5:	sole di questo core
+ID:Trm0614h-Canto  	L993	V5:	Sole di questo core
+ID:Trm0614h-Alto   	L1013	V5:	Sole di questo core
+ID:Trm0614h-Tenore 	L1033	V5:	Sole di questo core
+ID:Trm0614h-Basso  	L1053	V5:	Sole di questo core
+ID:Trm0614h-Quinto 	L1073	V5:	Sole di questo core
+ID:Trm0614j-Canto  	L1148	V5:	luci di questo core
+ID:Trm0614j-Alto   	L1168	V5:	luci di questo core
+ID:Trm0614j-Tenore 	L1188	V5:	luci di questo core
+ID:Trm0614j-Basso  	L1208	V5:	luci di questo core
+ID:Trm0614j-Quinto 	L1228	V5:	luci di questo core
 
-ID:M4              	L82	V6:	Sono gl'altri appo voi notte, et inferno.
-ID:N13             	L102	V6:	Son gl'altri occhi appo voi nott'e di inferno
-ID:N15             	L122	V6:	Son gli altri occhi appo voi notte et inferno.
-ID:P4              	L143	V6:	Son gl'altri occhi appo voi notte et inferno
-ID:W               	L196	V6:	Son gli altri occhi appo voi notte, et inferno.
-ID:S8              	L216	V6:	Sono gli altri appo voi notte, & inferno.
-ID:S9              	L236	V6:	Sono gli altri appo voi notte, & inferno.
-ID:S11             	L256	V6:	Sono gli altri appo voi notte, & inferno.
-ID:S12             	L276	V6:	Sono gli altri appo voi notte, & inferno.
-ID:S13             	L296	V6:	Sono gli altri appo voi notte, & inferno.
-ID:S29             	L349	V6:	Sono gli altri appo voi notte, & inferno.
+ID:E1              	L59	V6:	Son gl’altri oscuri qual notturno velo
+ID:M4              	L91	V6:	Sono gl'altri appo voi notte, et inferno.
+ID:N13             	L111	V6:	Son gl'altri occhi appo voi nott'e di inferno
+ID:N15             	L131	V6:	Son gli altri occhi appo voi notte et inferno.
+ID:P4              	L152	V6:	Son gl'altri occhi appo voi notte et inferno
+ID:W               	L205	V6:	Son gli altri occhi appo voi notte, et inferno.
+ID:S8              	L225	V6:	Sono gli altri appo voi notte, & inferno.
+ID:S9              	L245	V6:	Sono gli altri appo voi notte, & inferno.
+ID:S11             	L265	V6:	Sono gli altri appo voi notte, & inferno.
+ID:S12             	L285	V6:	Sono gli altri appo voi notte, & inferno.
+ID:S13             	L305	V6:	Sono gli altri appo voi notte, & inferno.
+ID:S29             	L358	V6:	Sono gli altri appo voi notte, & inferno.
+ID:S145            	L422	V6:	Sono gli altri appo voi notte, & inferno.
+ID:Trm0614a-Canto  	L464	V6:	Son gl’altr’occhi appo voi notte o d’Inferno
+ID:Trm0614a-Alto   	L484	V6:	Son gl’altr’occhi appo voi notte o d’Inferno
+ID:Trm0614a-Tenore 	L504	V6:	Son gl’altr’occhi appo voi notte o d’Inferno
+ID:Trm0614a-Basso  	L524	V6:	Son gl’altr’occhi appo voi notte o d’Inferno
+ID:Trm0614a-Quinto 	L544	V6:	[TACET]
+ID:Trm0614b-Canto  	L563	V6:	[TACET]
+ID:Trm0614b-Alto   	L583	V6:	[TACET]
+ID:Trm0614b-Tenore 	L603	V6:	Son gl’altr’occhi appo voi nott’et inferno
+ID:Trm0614b-Basso  	L623	V6:	Son gl’altr’occhi appo voi nott’et inferno
+ID:Trm0614b-Quinto 	L643	V6:	Son gl’altr’occh’appo voi nott’& inferno
+ID:Trm0614b-Sesto  	L663	V6:	[TACET]
+ID:Trm0614c-Canto  	L683	V6:	Son gl’altr’occhi appo voi nott’& inferno
+ID:Trm0614c-Alto   	L703	V6:	Son gl’altr’occhi appo voi nott’& inferno
+ID:Trm0614c-Tenore 	L723	V6:	Son gl’altr’occhi appo voi nott’& inferno
+ID:Trm0614c-Basso  	L743	V6:	Son gl’altr’occhi appo voi nott’& inferno
+ID:Trm0614h-Canto  	L994	V6:	Sono gl'altr'appo voi notte & inferno
+ID:Trm0614h-Alto   	L1014	V6:	Sono gl'altr'appo voi notte & inferno
+ID:Trm0614h-Tenore 	L1034	V6:	Sono gl'altr'appo voi notte & inferno
+ID:Trm0614h-Basso  	L1054	V6:	[TACET]
+ID:Trm0614h-Quinto 	L1074	V6:	Sono gl'altr'appo voi notte & inferno
+ID:Trm0614j-Canto  	L1149	V6:	sò gl’altr’occh’appo voi notte & inferno
+ID:Trm0614j-Alto   	L1169	V6:	son gl’altr’occh’appo voi notte & inferno
+ID:Trm0614j-Tenore 	L1189	V6:	son gl’altr’occh’appo voi notte & inferno
+ID:Trm0614j-Basso  	L1209	V6:	son gl’altr’occh’appo voi notte & inferno
+ID:Trm0614j-Quinto 	L1229	V6:	hole in the scorete & inferno
 
-ID:M4              	L83	V7:	Azzurro è l cielo eterno
-ID:N13             	L103	V7:	Azzurro è il Cielo eterno
-ID:N15             	L123	V7:	Azurro è ’l cielo eterno
-ID:P4              	L144	V7:	Azzurro è' l cielo eterno
-ID:W               	L197	V7:	Azurro è il <del>vio</del> cielo eterno;
-ID:S8              	L217	V7:	Azurro è’ Cielo eterno
-ID:S9              	L237	V7:	Azurro è’ Cielo eterno
-ID:S11             	L257	V7:	Azurro è’ Cielo eterno
-ID:S12             	L277	V7:	Azurro è’ Cielo eterno
-ID:S13             	L297	V7:	Azurro è’ Cielo eterno
-ID:S29             	L350	V7:	Azurro è’l Cielo eterno
+ID:E1              	L60	V7:	Azurro, e ‘l puro Cielo
+ID:M4              	L92	V7:	Azzurro è l cielo eterno
+ID:N13             	L112	V7:	Azzurro è il Cielo eterno
+ID:N15             	L132	V7:	Azurro è ’l cielo eterno
+ID:P4              	L153	V7:	Azzurro è' l cielo eterno
+ID:W               	L206	V7:	Azurro è il <del>vio</del> cielo eterno;
+ID:S8              	L226	V7:	Azurro è’ Cielo eterno
+ID:S9              	L246	V7:	Azurro è’ Cielo eterno
+ID:S11             	L266	V7:	Azurro è’ Cielo eterno
+ID:S12             	L286	V7:	Azurro è’ Cielo eterno
+ID:S13             	L306	V7:	Azurro è’ Cielo eterno
+ID:S29             	L359	V7:	Azurro è’l Cielo eterno
+ID:S145            	L423	V7:	Azurro è il Cielo eterno,
+ID:Trm0614a-Canto  	L465	V7:	Azurr’e il Ciel’eterno
+ID:Trm0614a-Alto   	L485	V7:	Azurr’e il Ciel’ eterno
+ID:Trm0614a-Tenore 	L505	V7:	Azurr’e il Ciel’eterno
+ID:Trm0614a-Basso  	L525	V7:	Azurr’e il Cielo eterno
+ID:Trm0614a-Quinto 	L545	V7:	Azurr’e il Ciel’eterno
+ID:Trm0614b-Canto  	L564	V7:	Azuro e’l ciel eterno
+ID:Trm0614b-Alto   	L584	V7:	Azuro e’l ciel eterno
+ID:Trm0614b-Tenore 	L604	V7:	Azuro e’l ciel eterno
+ID:Trm0614b-Basso  	L624	V7:	Azuro e’l ciel eterno
+ID:Trm0614b-Quinto 	L644	V7:	Azuro e’l ciel eterno
+ID:Trm0614b-Sesto  	L664	V7:	Azuro e’l ciel eterno
+ID:Trm0614c-Canto  	L684	V7:	Azuro e’l ciel eterno
+ID:Trm0614c-Alto   	L704	V7:	Azuro e’l ciel eterno
+ID:Trm0614c-Tenore 	L724	V7:	[TACET]
+ID:Trm0614c-Basso  	L744	V7:	[TACET]
+ID:Trm0614h-Canto  	L995	V7:	Azurro è’l cielo eterno
+ID:Trm0614h-Alto   	L1015	V7:	Azurro è’l cielo eterno
+ID:Trm0614h-Tenore 	L1035	V7:	[TACET]
+ID:Trm0614h-Basso  	L1055	V7:	Azurro è’l cielo eterno
+ID:Trm0614h-Quinto 	L1075	V7:	Azurro è’l cielo eterno
+ID:Trm0614j-Canto  	L1150	V7:	azuro è il ciel eterno
+ID:Trm0614j-Alto   	L1170	V7:	azuro è il ciel eterno
+ID:Trm0614j-Tenore 	L1190	V7:	azuro è il ciel eterno
+ID:Trm0614j-Basso  	L1210	V7:	azuro è il ciel eterno
+ID:Trm0614j-Quinto 	L1230	V7:	azuro è il ciel eterno
 
-ID:M4              	L84	V8:	E cio ch’è bello il bello ha sol da lui
-ID:N13             	L104	V8:	E cio che è bello, il bello ha sol da lui
-ID:N15             	L124	V8:	E ciò ch’è bello, il bello ha sol da lui
-ID:P4              	L145	V8:	E quanto bello ha il bello ha sol da vui
-ID:W               	L198	V8:	Et cio ch’è bello, il bello ha sol da lui;
-ID:S8              	L218	V8:	E quel, ch’è bello, il bello ha sol da lui,
-ID:S9              	L238	V8:	E quel, ch’è bello, il bello ha sol da lui,
-ID:S11             	L258	V8:	E quel, ch’è bello, il bello ha sol da lui,
-ID:S12             	L278	V8:	E quel, ch’è bello, il bello ha sol da lui,
-ID:S13             	L298	V8:	E quel, ch’è bello, il bello ha sol da lui,
-ID:S29             	L351	V8:	E quel, ch’è bello, il bello hà sol da lui,
+ID:E1              	L61	V8:	e quel ch’è bello, il bello ha sol da lui
+ID:M4              	L93	V8:	E cio ch’è bello il bello ha sol da lui
+ID:N13             	L113	V8:	E cio che è bello, il bello ha sol da lui
+ID:N15             	L133	V8:	E ciò ch’è bello, il bello ha sol da lui
+ID:P4              	L154	V8:	E quanto bello ha il bello ha sol da vui
+ID:W               	L207	V8:	Et cio ch’è bello, il bello ha sol da lui;
+ID:S8              	L227	V8:	E quel, ch’è bello, il bello ha sol da lui,
+ID:S9              	L247	V8:	E quel, ch’è bello, il bello ha sol da lui,
+ID:S11             	L267	V8:	E quel, ch’è bello, il bello ha sol da lui,
+ID:S12             	L287	V8:	E quel, ch’è bello, il bello ha sol da lui,
+ID:S13             	L307	V8:	E quel, ch’è bello, il bello ha sol da lui,
+ID:S29             	L360	V8:	E quel, ch’è bello, il bello hà sol da lui,
+ID:S145            	L424	V8:	E quel, ch’è bello, il bello ha sol da lui,
+ID:Trm0614a-Canto  	L466	V8:	E cio che bell’e il bello ha sol da lui
+ID:Trm0614a-Alto   	L486	V8:	E cio che bell’e il bello ha sol da lui
+ID:Trm0614a-Tenore 	L506	V8:	E cio che bell’e il bello ha sol da lui
+ID:Trm0614a-Basso  	L526	V8:	E cio che bell’e il bello ha sol da lui
+ID:Trm0614a-Quinto 	L546	V8:	E cio che bell’e il bell’ha sol da lui
+ID:Trm0614b-Canto  	L565	V8:	E cio c’ha bello il bel l’ha sol da lui
+ID:Trm0614b-Alto   	L585	V8:	E cio c’ha bello il bel l’ha sol da lui
+ID:Trm0614b-Tenore 	L605	V8:	E cio c’ha bello il bel l’ha sol da lui
+ID:Trm0614b-Basso  	L625	V8:	E cio c’ha bello il bel l’ha sol da lui
+ID:Trm0614b-Quinto 	L645	V8:	E cio c’ha bello il bel l’ha sol da lui
+ID:Trm0614b-Sesto  	L665	V8:	E cio c’ha bello il bel l’ha sol da lui
+ID:Trm0614c-Canto  	L685	V8:	Et cio che bel  e bello sol da lui
+ID:Trm0614c-Alto   	L705	V8:	Et cio che bell’ e bello sol da lui
+ID:Trm0614c-Tenore 	L725	V8:	Et cio che bell’ e bello sol da lui
+ID:Trm0614c-Basso  	L745	V8:	Et cio che bell’e bello sol da lui
+ID:Trm0614h-Canto  	L996	V8:	E quel ch’è bello il bello hà sol da lui
+ID:Trm0614h-Alto   	L1016	V8:	E quel ch’è bello il bello hà sol da lui
+ID:Trm0614h-Tenore 	L1036	V8:	E quel ch’è bello il bello hà sol da lui
+ID:Trm0614h-Basso  	L1056	V8:	E quel ch’è bello il bello hà sol da lui
+ID:Trm0614h-Quinto 	L1076	V8:	E quel ch’è bello il bello hà sol da lui
+ID:Trm0614j-Canto  	L1151	V8:	e quel ch’è bel è bello sol da lui
+ID:Trm0614j-Alto   	L1171	V8:	e quel ch’è bell'è bello sol da lui
+ID:Trm0614j-Tenore 	L1191	V8:	e quel ch’è bell'è bello sol da lui
+ID:Trm0614j-Basso  	L1211	V8:	e quel ch’è bel è bello sol da lui
+ID:Trm0614j-Quinto 	L1231	V8:	e quel ch’è bel è bello sol da lui
 
-ID:M4              	L85	V9:	Ei solo è bel, perche assomiglia a vui.
-ID:N13             	L105	V9:	E bello è <del>illegilble</del> sol perche simiglia a vui.
-ID:N15             	L125	V9:	Ei bello è sol perche somiglia à vui.
-ID:P4              	L146	V9:	E'l cielo è bel perche somiglia à vui
-ID:W               	L199	V9:	Ei bèllo è sol perche simiglia vui.
-ID:S8              	L219	V9:	Ei bello è sol, perch’assomiglia à vui.
-ID:S9              	L239	V9:	Ei bello è sol, perch’assomiglia à vui.
-ID:S11             	L259	V9:	Ei bello è sol, perch’assomiglia à vui.
-ID:S12             	L279	V9:	Ei bello è sol, perch’assomiglia à vui.
-ID:S13             	L299	V9:	Ei bello è sol, perch’assomiglia à vui.
-ID:S29             	L352	V9:	Ei bello è sol, perch’assomiglia à vui.
+ID:E1              	L62	V9:	ei bello e sol, perche assomiglia, a voi.
+ID:M4              	L94	V9:	Ei solo è bel, perche assomiglia a vui.
+ID:N13             	L114	V9:	E bello è <del>illegilble</del> sol perche simiglia a vui.
+ID:N15             	L134	V9:	Ei bello è sol perche somiglia à vui.
+ID:P4              	L155	V9:	E'l cielo è bel perche somiglia à vui
+ID:W               	L208	V9:	Ei bèllo è sol perche simiglia vui.
+ID:S8              	L228	V9:	Ei bello è sol, perch’assomiglia à vui.
+ID:S9              	L248	V9:	Ei bello è sol, perch’assomiglia à vui.
+ID:S11             	L268	V9:	Ei bello è sol, perch’assomiglia à vui.
+ID:S12             	L288	V9:	Ei bello è sol, perch’assomiglia à vui.
+ID:S13             	L308	V9:	Ei bello è sol, perch’assomiglia à vui.
+ID:S29             	L361	V9:	Ei bello è sol, perch’assomiglia à vui.
+ID:S145            	L425	V9:	E bello è il Sol, perche assomiglia vui.
+ID:Trm0614a-Canto  	L467	V9:	E bello e sol perche somiglia a vui.
+ID:Trm0614a-Alto   	L487	V9:	E bello e sol perche somiglia a vui.
+ID:Trm0614a-Tenore 	L507	V9:	E bello e sol perche somiglia a vui.
+ID:Trm0614a-Basso  	L527	V9:	E bello e sol perche somiglia a vui.
+ID:Trm0614a-Quinto 	L547	V9:	E bello e sol perche somiglia a vui.
+ID:Trm0614b-Canto  	L566	V9:	E bell’e sol perche somigl’a vui.
+ID:Trm0614b-Alto   	L586	V9:	E bell’e sol perche somigl’a vui.
+ID:Trm0614b-Tenore 	L606	V9:	E bell’e sol perche somigl’a vui.
+ID:Trm0614b-Basso  	L626	V9:	E bell’e sol perche somigl’a vui.
+ID:Trm0614b-Quinto 	L646	V9:	E bell’e sol perche somigl’a vui.
+ID:Trm0614b-Sesto  	L666	V9:	E bell’e sol perche somigl’a vui.
+ID:Trm0614c-Canto  	L686	V9:	Ei bell’e sol perche somiglia a vui.
+ID:Trm0614c-Alto   	L706	V9:	Ei bell’e sol perche somiglia a vui.
+ID:Trm0614c-Tenore 	L726	V9:	ei bell’e sol perche somiglia a vui.
+ID:Trm0614c-Basso  	L746	V9:	ei bell’e sol perche somiglia a vui.
+ID:Trm0614h-Canto  	L997	V9:	Ei bello è sol perch'assomiglia à vuoi.
+ID:Trm0614h-Alto   	L1017	V9:	Ei bello è sol perch'assomiglia à vui.
+ID:Trm0614h-Tenore 	L1037	V9:	Ei bello è sol perch'assomiglia à vuoi.
+ID:Trm0614h-Basso  	L1057	V9:	Ei bello è sol perch'assomiglia à vuoi.
+ID:Trm0614h-Quinto 	L1077	V9:	Ei bello è sol perch'assomiglia à vui.
+ID:Trm0614j-Canto  	L1152	V9:	ei bello è sol perche somiglia a voi.
+ID:Trm0614j-Alto   	L1172	V9:	ei bello è sol perche somiglia à vui.
+ID:Trm0614j-Tenore 	L1192	V9:	ei bello è sol perche somiglia à vui.
+ID:Trm0614j-Basso  	L1212	V9:	ei bello è sol perche somiglia à vui.
+ID:Trm0614j-Quinto 	L1232	V9:	ei bello è sol perche somiglia à voi.
 

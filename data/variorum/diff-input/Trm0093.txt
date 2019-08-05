@@ -1,105 +1,194 @@
-ID:M7              	L32	V1:	DisDEGNO, e Gelosia.
-ID:S22             	L103	V1:	Disdegno, e gelosia
-ID:S22a            	L132	V1:	Disdegno, e gelosia
-ID:Trm0093b-Alto   	L293	V1:	Disdegno, e gelosia
-ID:Trm0093b-Tenore 	L319	V1:	Disdegno, e gelosia
-ID:Trm0093b-Quinto 	L345	V1:	[TACET]
+ID:E1              	L21	V1:	Disdegno, e Gelosia
+ID:M7              	L47	V1:	DisDEGNO, e Gelosia.
+ID:S22             	L118	V1:	Disdegno, e gelosia
+ID:S22a            	L147	V1:	Disdegno, e gelosia
+ID:Trm0093a-Canto  	L253	V1:	Disdegno e Gelosia
+ID:Trm0093a-Alto   	L280	V1:	Disdegno e Gelosia
+ID:Trm0093a-Tenore 	L307	V1:	Disdegno e Gelosia
+ID:Trm0093a-Basso  	L334	V1:	Disdegno e Gelosia
+ID:Trm0093a-Quinto 	L360	V1:	Disdegno e Gelosia
+ID:Trm0093b-Alto   	L387	V1:	Disdegno, e gelosia
+ID:Trm0093b-Tenore 	L413	V1:	Disdegno, e gelosia
+ID:Trm0093b-Quinto 	L439	V1:	[TACET]
 
-ID:M7              	L33	V2:	Donna vostri Custodi, e miei Nemici,
-ID:S22             	L104	V2:	Vostri custodi, Donna e miei nemici;
-ID:S22a            	L133	V2:	Vostri custodi, Donna e miei nemici;
-ID:Trm0093b-Alto   	L294	V2:	Vostri custodi Donna e miei nemici
-ID:Trm0093b-Tenore 	L320	V2:	Vostri custodi Donna e miei nemici
-ID:Trm0093b-Quinto 	L346	V2:	[TACET]
+ID:E1              	L22	V2:	Donna nostri custodi, e miei nemici,
+ID:M7              	L48	V2:	Donna vostri Custodi, e miei Nemici,
+ID:S22             	L119	V2:	Vostri custodi, Donna e miei nemici;
+ID:S22a            	L148	V2:	Vostri custodi, Donna e miei nemici;
+ID:Trm0093a-Canto  	L254	V2:	Donna vostri custodi e miei nemici
+ID:Trm0093a-Alto   	L281	V2:	Donna vostri custodi e miei nemici
+ID:Trm0093a-Tenore 	L308	V2:	Donna vostri custodi e miei nemici
+ID:Trm0093a-Basso  	L335	V2:	Donna vostri custodi e miei nemici
+ID:Trm0093a-Quinto 	L361	V2:	Donna vostri custodi e miei nemici
+ID:Trm0093b-Alto   	L388	V2:	Vostri custodi Donna e miei nemici
+ID:Trm0093b-Tenore 	L414	V2:	Vostri custodi Donna e miei nemici
+ID:Trm0093b-Quinto 	L440	V2:	[TACET]
 
-ID:M7              	L34	V3:	Fan gl' occhi miei famelici, e mendici.
-ID:S22             	L105	V3:	Fan gli occhi miei famelici, e mendici.
-ID:S22a            	L134	V3:	Fan gli occhi miei famelici, e mendici.
-ID:Trm0093b-Alto   	L295	V3:	Fan gli occhi miei famelici e mendici
-ID:Trm0093b-Tenore 	L321	V3:	Fan gli occhi miei famelici e mendici
-ID:Trm0093b-Quinto 	L347	V3:	[TACET]
+ID:E1              	L23	V3:	Fan gl’occhi miei famelici, e mendici;
+ID:M7              	L49	V3:	Fan gl' occhi miei famelici, e mendici.
+ID:S22             	L120	V3:	Fan gli occhi miei famelici, e mendici.
+ID:S22a            	L149	V3:	Fan gli occhi miei famelici, e mendici.
+ID:Trm0093a-Canto  	L255	V3:	Fan gli occhi miei famelici e mendici
+ID:Trm0093a-Alto   	L282	V3:	Fan gli occhi miei famelici e mendici
+ID:Trm0093a-Tenore 	L309	V3:	Fan gli occhi miei famelici e mendici
+ID:Trm0093a-Basso  	L336	V3:	Fan gli occhi miei famelici e mendici
+ID:Trm0093a-Quinto 	L362	V3:	Fan gli occhi miei famelici e mendici
+ID:Trm0093b-Alto   	L389	V3:	Fan gli occhi miei famelici e mendici
+ID:Trm0093b-Tenore 	L415	V3:	Fan gli occhi miei famelici e mendici
+ID:Trm0093b-Quinto 	L441	V3:	[TACET]
 
-ID:M7              	L35	V4:	Ed insieme il dolce raggio
-ID:S22             	L107	V4:	Et insieme col raggio
-ID:S22a            	L136	V4:	Et insieme col raggio
-ID:Trm0093b-Alto   	L296	V4:	Et insieme col raggio
-ID:Trm0093b-Tenore 	L322	V4:	Et insieme col raggio
-ID:Trm0093b-Quinto 	L348	V4:	Et insieme col raggio
+ID:E1              	L24	V4:	et inviene co ‘l raggio
+ID:M7              	L50	V4:	Ed insieme il dolce raggio
+ID:S22             	L122	V4:	Et insieme col raggio
+ID:S22a            	L151	V4:	Et insieme col raggio
+ID:Trm0093a-Canto  	L256	V4:	E insieme il dolce raggio
+ID:Trm0093a-Alto   	L283	V4:	E insieme il dolce raggio
+ID:Trm0093a-Tenore 	L310	V4:	E insieme il dolce raggio
+ID:Trm0093a-Basso  	L337	V4:	E insieme il dolce raggio
+ID:Trm0093a-Quinto 	L363	V4:	E insieme il dolce raggio
+ID:Trm0093b-Alto   	L390	V4:	Et insieme col raggio
+ID:Trm0093b-Tenore 	L416	V4:	Et insieme col raggio
+ID:Trm0093b-Quinto 	L442	V4:	Et insieme col raggio
 
-ID:M7              	L36	V5:	De gl' occhi vostri, e i bei cortesi detti
-ID:S22             	L108	V5:	De bei vostr’occhi i bei cortesi detti
-ID:S22a            	L137	V5:	De bei vostr’occhi i bei cortesi detti
-ID:Trm0093b-Alto   	L297	V5:	De bei vostr’occhi i bei cortesi detti
-ID:Trm0093b-Tenore 	L323	V5:	De bei vostr’occhi i bei cortesi detti
-ID:Trm0093b-Quinto 	L349	V5:	De bei vostr’occhi i bei cortesi detti
+ID:E1              	L25	V5:	De’ be’ nostri occhi, i bei cortesi detti:
+ID:M7              	L51	V5:	De gl' occhi vostri, e i bei cortesi detti
+ID:S22             	L123	V5:	De bei vostr’occhi i bei cortesi detti
+ID:S22a            	L152	V5:	De bei vostr’occhi i bei cortesi detti
+ID:Trm0093a-Canto  	L257	V5:	De gli occhi vostri e i bei cortesi detti
+ID:Trm0093a-Alto   	L284	V5:	De gli occhi vostri e i bei cortesi detti
+ID:Trm0093a-Tenore 	L311	V5:	De gli occhi vostri e i bei cortesi detti
+ID:Trm0093a-Basso  	L338	V5:	[TACET]
+ID:Trm0093a-Quinto 	L364	V5:	De gli occhi vostri e i bei cortesi detti
+ID:Trm0093b-Alto   	L391	V5:	De bei vostr’occhi i bei cortesi detti
+ID:Trm0093b-Tenore 	L417	V5:	De bei vostr’occhi i bei cortesi detti
+ID:Trm0093b-Quinto 	L443	V5:	De bei vostr’occhi i bei cortesi detti
 
-ID:M7              	L37	V6:	Pien di spirti, e d’ Affetti
-ID:S22             	L109	V6:	Pien di spirti, e d’affetti
-ID:S22a            	L138	V6:	Pien di spirti, e d’affetti
-ID:Trm0093b-Alto   	L298	V6:	Pien di spirti e d’affetti
-ID:Trm0093b-Tenore 	L324	V6:	Pien di spirti e d’affetti
-ID:Trm0093b-Quinto 	L350	V6:	Pien di spirti e d’affetti
+ID:E1              	L26	V6:	Pien di spirti, e d’effetti:
+ID:M7              	L52	V6:	Pien di spirti, e d’ Affetti
+ID:S22             	L124	V6:	Pien di spirti, e d’affetti
+ID:S22a            	L153	V6:	Pien di spirti, e d’affetti
+ID:Trm0093a-Canto  	L258	V6:	Pien di spirti e d'affetti
+ID:Trm0093a-Alto   	L285	V6:	Pien di spirti e d'affetti
+ID:Trm0093a-Tenore 	L312	V6:	Pien di spirti e d'affetti
+ID:Trm0093a-Basso  	L339	V6:	Pien di spirti e d'affetti
+ID:Trm0093a-Quinto 	L365	V6:	Pien di spirti e d'affetti
+ID:Trm0093b-Alto   	L392	V6:	Pien di spirti e d’affetti
+ID:Trm0093b-Tenore 	L418	V6:	Pien di spirti e d’affetti
+ID:Trm0093b-Quinto 	L444	V6:	Pien di spirti e d’affetti
 
-ID:M7              	L38	V7:	Mi toglie de duo crudi il doppio oltraggio.
-ID:S22             	L110	V7:	Mi toglie de duo dardi il doppio oltraggio.
-ID:S22a            	L139	V7:	Mi toglie de duo dardi il doppio oltraggio.
-ID:Trm0093b-Alto   	L299	V7:	[TACET]
-ID:Trm0093b-Tenore 	L325	V7:	[TACET]
-ID:Trm0093b-Quinto 	L351	V7:	[TACET]
+ID:E1              	L27	V7:	Mi toglie de le guardie il doppio oltraggio:
+ID:M7              	L53	V7:	Mi toglie de duo crudi il doppio oltraggio.
+ID:S22             	L125	V7:	Mi toglie de duo dardi il doppio oltraggio.
+ID:S22a            	L154	V7:	Mi toglie de duo dardi il doppio oltraggio.
+ID:Trm0093a-Canto  	L259	V7:	Mi toglie de duo crudi il doppio oltraggio
+ID:Trm0093a-Alto   	L286	V7:	Mi toglie [TACET] il doppio oltraggio
+ID:Trm0093a-Tenore 	L313	V7:	Mi toglie de duo crudi il doppio oltraggio
+ID:Trm0093a-Basso  	L340	V7:	Mi toglie de duo crudi il doppio oltraggio
+ID:Trm0093a-Quinto 	L366	V7:	Mi toglie de duo crudi il doppio oltraggio.
+ID:Trm0093b-Alto   	L393	V7:	[TACET]
+ID:Trm0093b-Tenore 	L419	V7:	[TACET]
+ID:Trm0093b-Quinto 	L445	V7:	[TACET]
 
-ID:M7              	L40	V8:	Tal che lasso d’intorno
-ID:S22             	L112	V8:	Ond’io lasso d’intorno
-ID:S22a            	L141	V8:	Ond’io lasso d’intorno
-ID:Trm0093b-Alto   	L300	V8:	Ond’io lasso d’intorno
-ID:Trm0093b-Tenore 	L326	V8:	Ond’io lasso d’intorno
-ID:Trm0093b-Quinto 	L352	V8:	[TACET]
+ID:E1              	L28	V8:	Ond'io lasso d’intorno
+ID:M7              	L55	V8:	Tal che lasso d’intorno
+ID:S22             	L127	V8:	Ond’io lasso d’intorno
+ID:S22a            	L156	V8:	Ond’io lasso d’intorno
+ID:Trm0093a-Canto  	L261	V8:	Tal che lasso d'intorno
+ID:Trm0093a-Alto   	L288	V8:	Tal che lasso d'intorno
+ID:Trm0093a-Tenore 	L315	V8:	Tal che lasso d'intorno
+ID:Trm0093a-Basso  	L342	V8:	Tal che lasso [TACET]
+ID:Trm0093a-Quinto 	L368	V8:	Tal che lasso [TACET]
+ID:Trm0093b-Alto   	L394	V8:	Ond’io lasso d’intorno
+ID:Trm0093b-Tenore 	L420	V8:	Ond’io lasso d’intorno
+ID:Trm0093b-Quinto 	L446	V8:	[TACET]
 
-ID:M7              	L41	V9:	A le guardate mura
-ID:S22             	L113	V9:	A le guardate mura
-ID:S22a            	L142	V9:	A le guardate mura
-ID:Trm0093b-Alto   	L301	V9:	A le guardate mura
-ID:Trm0093b-Tenore 	L327	V9:	A le guardate mura
-ID:Trm0093b-Quinto 	L353	V9:	[TACET]
+ID:E1              	L29	V9:	A le guardate mura
+ID:M7              	L56	V9:	A le guardate mura
+ID:S22             	L128	V9:	A le guardate mura
+ID:S22a            	L157	V9:	A le guardate mura
+ID:Trm0093a-Canto  	L262	V9:	Alle guardate mura
+ID:Trm0093a-Alto   	L289	V9:	Alle guardate mura
+ID:Trm0093a-Tenore 	L316	V9:	Alle guardate mura
+ID:Trm0093a-Basso  	L343	V9:	Erro la notte solitario e’l giorno
+ID:Trm0093a-Quinto 	L369	V9:	Alle guardate mura
+ID:Trm0093b-Alto   	L395	V9:	A le guardate mura
+ID:Trm0093b-Tenore 	L421	V9:	A le guardate mura
+ID:Trm0093b-Quinto 	L447	V9:	[TACET]
 
-ID:M7              	L42	V10:	Erro la Notte solitario, e'l giorno;
-ID:S22             	L114	V10:	Erro la notte solitario, e’l giorno;
-ID:S22a            	L143	V10:	Erro la notte solitario, e’l giorno;
-ID:Trm0093b-Alto   	L302	V10:	Erro la notte solitario e ‘l giorno
-ID:Trm0093b-Tenore 	L328	V10:	[TACET]
-ID:Trm0093b-Quinto 	L354	V10:	Erro la notte solitario e ‘l giorno
+ID:E1              	L30	V10:	errò la notte, e ‘l giorno
+ID:M7              	L57	V10:	Erro la Notte solitario, e'l giorno;
+ID:S22             	L129	V10:	Erro la notte solitario, e’l giorno;
+ID:S22a            	L158	V10:	Erro la notte solitario, e’l giorno;
+ID:Trm0093a-Canto  	L263	V10:	Erro la notte solitario e’l giorno
+ID:Trm0093a-Alto   	L290	V10:	Erro la notte solitario e’l giorno
+ID:Trm0093a-Tenore 	L317	V10:	Erro la notte [TACET]
+ID:Trm0093a-Basso  	L344	V10:	Qual predator ch'insidi
+ID:Trm0093a-Quinto 	L370	V10:	Erro la notte solitario e’l giorno
+ID:Trm0093b-Alto   	L396	V10:	Erro la notte solitario e ‘l giorno
+ID:Trm0093b-Tenore 	L422	V10:	[TACET]
+ID:Trm0093b-Quinto 	L448	V10:	Erro la notte solitario e ‘l giorno
 
-ID:M7              	L43	V11:	Qual Predator ch’ insidi
-ID:S22             	L115	V11:	Qual predator c’insidi
-ID:S22a            	L144	V11:	Qual predator c’insidi
-ID:Trm0093b-Alto   	L303	V11:	Qual cacciator ch’insidi
-ID:Trm0093b-Tenore 	L329	V11:	[TACET]
-ID:Trm0093b-Quinto 	L355	V11:	Qual cacciator ch’insidi
+ID:E1              	L31	V11:	Qual cacciator circonda
+ID:M7              	L58	V11:	Qual Predator ch’ insidi
+ID:S22             	L130	V11:	Qual predator c’insidi
+ID:S22a            	L159	V11:	Qual predator c’insidi
+ID:Trm0093a-Canto  	L264	V11:	Qual predator ch'insidi
+ID:Trm0093a-Alto   	L291	V11:	Qual predator ch'insidi
+ID:Trm0093a-Tenore 	L318	V11:	Qual predator ch'insidi
+ID:Trm0093a-Basso  	L345	V11:	D'errante fera i boscharecci nidi
+ID:Trm0093a-Quinto 	L371	V11:	Qual predator ch'insidi
+ID:Trm0093b-Alto   	L397	V11:	Qual cacciator ch’insidi
+ID:Trm0093b-Tenore 	L423	V11:	[TACET]
+ID:Trm0093b-Quinto 	L449	V11:	Qual cacciator ch’insidi
 
-ID:M7              	L44	V12:	D’errante Fera i boscarecci nidi.
-ID:S22             	L116	V12:	D errante fera i boscarecci nidi.
-ID:S22a            	L145	V12:	D errante fera i boscarecci nidi.
-ID:Trm0093b-Alto   	L304	V12:	D’errante fera i boscarecci nidi
-ID:Trm0093b-Tenore 	L330	V12:	[TACET]
-ID:Trm0093b-Quinto 	L356	V12:	D’errante fera i boscarecci nidi
+ID:E1              	L32	V12:	La tana ond’ a la fera a lui s’arrenda
+ID:M7              	L59	V12:	D’errante Fera i boscarecci nidi.
+ID:S22             	L131	V12:	D errante fera i boscarecci nidi.
+ID:S22a            	L160	V12:	D errante fera i boscarecci nidi.
+ID:Trm0093a-Canto  	L265	V12:	D'errante fera i boscharecci nidi
+ID:Trm0093a-Alto   	L292	V12:	D'errante fera i boscharecci nidi
+ID:Trm0093a-Tenore 	L319	V12:	D'errante fera i boscharecci nidi
+ID:Trm0093a-Basso  	L346	V12:	Ma non vol mia ventura
+ID:Trm0093a-Quinto 	L372	V12:	D'errante fera i boscharecci nidi
+ID:Trm0093b-Alto   	L398	V12:	D’errante fera i boscarecci nidi
+ID:Trm0093b-Tenore 	L424	V12:	[TACET]
+ID:Trm0093b-Quinto 	L450	V12:	D’errante fera i boscarecci nidi
 
-ID:M7              	L45	V13:	Mà non vuol mia ventura,
-ID:S22             	L118	V13:	Ma non vuol mia ventura,
-ID:S22a            	L147	V13:	Ma non vuol mia ventura,
-ID:Trm0093b-Alto   	L305	V13:	Ma non vuol mia ventura
-ID:Trm0093b-Tenore 	L331	V13:	Ma non vuol mia ventura
-ID:Trm0093b-Quinto 	L357	V13:	[TACET]
+ID:E1              	L33	V13:	Ma non vuol mia ventura
+ID:M7              	L60	V13:	Mà non vuol mia ventura,
+ID:S22             	L133	V13:	Ma non vuol mia ventura,
+ID:S22a            	L162	V13:	Ma non vuol mia ventura,
+ID:Trm0093a-Canto  	L266	V13:	Ma non vuol mia ventura
+ID:Trm0093a-Alto   	L293	V13:	Ma non vuol mia ventura
+ID:Trm0093a-Tenore 	L320	V13:	Ma non vuol mia ventura
+ID:Trm0093a-Basso  	L347	V13:	Che senza pena invole onde divegno
+ID:Trm0093a-Quinto 	L373	V13:	Ma non vol mia ventura
+ID:Trm0093b-Alto   	L399	V13:	Ma non vuol mia ventura
+ID:Trm0093b-Tenore 	L425	V13:	Ma non vuol mia ventura
+ID:Trm0093b-Quinto 	L451	V13:	[TACET]
 
-ID:M7              	L46	V14:	Che senza pena invole, onde divegno
-ID:S22             	L119	V14:	Ch’involi senza pena onde devegno
-ID:S22a            	L148	V14:	Ch’involi senza pena onde devegno
-ID:Trm0093b-Alto   	L306	V14:	Ch’involi senza pena onde divegno
-ID:Trm0093b-Tenore 	L332	V14:	Ch’involi senza pena onde divegno
-ID:Trm0093b-Quinto 	L358	V14:	[TACET]
+ID:E1              	L34	V14:	Ch'immoli senza pena, anzi divegno
+ID:M7              	L61	V14:	Che senza pena invole, onde divegno
+ID:S22             	L134	V14:	Ch’involi senza pena onde devegno
+ID:S22a            	L163	V14:	Ch’involi senza pena onde devegno
+ID:Trm0093a-Canto  	L267	V14:	Che senza pena invole onde divegno
+ID:Trm0093a-Alto   	L294	V14:	Che senza pena invole onde divegno
+ID:Trm0093a-Tenore 	L321	V14:	Che senza pena invole onde divegno
+ID:Trm0093a-Basso  	L348	V14:	Preda di predator e d'arcier segno.
+ID:Trm0093a-Quinto 	L374	V14:	Che senza pena [TACET] onde divegno
+ID:Trm0093b-Alto   	L400	V14:	Ch’involi senza pena onde divegno
+ID:Trm0093b-Tenore 	L426	V14:	Ch’involi senza pena onde divegno
+ID:Trm0093b-Quinto 	L452	V14:	[TACET]
 
-ID:M7              	L47	V15:	Preda di predator, e d’ Arciero segno.
-ID:S22             	L120	V15:	Preda di predator, e d’arcier segno.
-ID:S22a            	L149	V15:	Preda di predator, e d’arcier segno.
-ID:Trm0093b-Alto   	L307	V15:	Preda di predator e d’arcier segno.
-ID:Trm0093b-Tenore 	L333	V15:	Preda di predator e d’arcier segno.
-ID:Trm0093b-Quinto 	L359	V15:	Preda di predator e d’arcier segno.
+ID:E1              	L35	V15:	Preda di predator, d’Arciero il segno.
+ID:M7              	L62	V15:	Preda di predator, e d’ Arciero segno.
+ID:S22             	L135	V15:	Preda di predator, e d’arcier segno.
+ID:S22a            	L164	V15:	Preda di predator, e d’arcier segno.
+ID:Trm0093a-Canto  	L268	V15:	Preda di predator e d'arcier segno.
+ID:Trm0093a-Alto   	L295	V15:	Preda di predator e d'arcier segno.
+ID:Trm0093a-Tenore 	L322	V15:	Preda di predator e d'arcier segno.
+ID:Trm0093a-Quinto 	L375	V15:	Preda di predator e d'arcier segno.
+ID:Trm0093b-Alto   	L401	V15:	Preda di predator e d’arcier segno.
+ID:Trm0093b-Tenore 	L427	V15:	Preda di predator e d’arcier segno.
+ID:Trm0093b-Quinto 	L453	V15:	Preda di predator e d’arcier segno.
 

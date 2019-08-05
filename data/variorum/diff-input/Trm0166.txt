@@ -1,72 +1,171 @@
 ID:S11             	L32	V1:	Se taccio il duol s’avanza
 ID:S12             	L54	V1:	Se taccio il duol s’avanza
 ID:S13             	L76	V1:	Se taccio il duol s’avanza
-ID:Trm0166b-Canto  	L252	V1:	Se taccio il duol s’avanza
-ID:Trm0166b-Tenore 	L272	V1:	[TACET]
-ID:Trm0166b-Basso  	L292	V1:	[TACET]
-ID:Trm0166b-Quinto 	L312	V1:	Se taccio il duol s’avanza
+ID:S23             	L120	V1:	Se taccio il duol s’avanza;
+ID:S145            	L208	V1:	Se taccio il duol s’avanza,
+ID:Trm0166b-Canto  	L294	V1:	Se taccio il duol s’avanza
+ID:Trm0166b-Tenore 	L314	V1:	[TACET]
+ID:Trm0166b-Basso  	L334	V1:	[TACET]
+ID:Trm0166b-Quinto 	L354	V1:	Se taccio il duol s’avanza
+ID:Trm0166f-Alto   	L528	V1:	Se taccio il duol s’avanza
+ID:Trm0166f-Tenore 	L548	V1:	Se taccio il duol s’avanza
+ID:Trm0166f-Quinto 	L568	V1:	Se taccio il duol s’avanza
+ID:Trm0166i-Canto  	L665	V1:	Se taccio il duol s’avanza
+ID:Trm0166i-Basso  	L685	V1:	[TACET]
+ID:Trm0166k-Canto  	L760	V1:	S’io taccio il duol s’avanza
+ID:Trm0166k-Alto   	L780	V1:	S’io taccio il duol s’avanza
+ID:Trm0166k-Tenore 	L800	V1:	S’io taccio il duol s’avanza
+ID:Trm0166k-Basso  	L820	V1:	S’io taccio il duol s’avanza
 
 ID:S11             	L33	V2:	Se parlo accresco l’ira
 ID:S12             	L55	V2:	Se parlo accresco l’ira
 ID:S13             	L77	V2:	Se parlo accresco l’ira
-ID:Trm0166b-Canto  	L253	V2:	Se parlo accresco l’ira
-ID:Trm0166b-Tenore 	L273	V2:	[TACET]
-ID:Trm0166b-Basso  	L293	V2:	[TACET]
-ID:Trm0166b-Quinto 	L313	V2:	Se parlo accresco l’ira
+ID:S23             	L121	V2:	Se parlo, accresco l’ira;
+ID:S145            	L209	V2:	Se parlo accresco l’ira,
+ID:Trm0166b-Canto  	L295	V2:	Se parlo accresco l’ira
+ID:Trm0166b-Tenore 	L315	V2:	[TACET]
+ID:Trm0166b-Basso  	L335	V2:	[TACET]
+ID:Trm0166b-Quinto 	L355	V2:	Se parlo accresco l’ira
+ID:Trm0166f-Alto   	L529	V2:	[TACET]
+ID:Trm0166f-Tenore 	L549	V2:	[TACET]
+ID:Trm0166f-Quinto 	L569	V2:	[TACET]
+ID:Trm0166i-Canto  	L666	V2:	Se parlo acresco l’ira
+ID:Trm0166i-Basso  	L686	V2:	Se parlo acresco l’ira
+ID:Trm0166k-Canto  	L761	V2:	S’io parlo accresco l’ira
+ID:Trm0166k-Alto   	L781	V2:	S’io parlo accresco l’ira
+ID:Trm0166k-Tenore 	L801	V2:	S’io parlo accresco l’ira
+ID:Trm0166k-Basso  	L821	V2:	S’io parlo accresco l’ira
 
 ID:S11             	L34	V3:	Donna bella, e crudel che mi martira,
 ID:S12             	L56	V3:	Donna bella, e crudel che mi martira,
 ID:S13             	L78	V3:	Donna bella, e crudel che mi martira,
-ID:Trm0166b-Canto  	L254	V3:	Donna bell’& crudel che mi martira
-ID:Trm0166b-Tenore 	L274	V3:	Donna bell’& crudel che mi martira
-ID:Trm0166b-Basso  	L294	V3:	Donna bell’& crudel che mi martira
-ID:Trm0166b-Quinto 	L314	V3:	Donna bell’& crudel che mi martira
+ID:S23             	L122	V3:	Donna bella, e crudel; che mi martira.
+ID:S145            	L210	V3:	Donna bella, e crudel, che mi martira
+ID:Trm0166b-Canto  	L296	V3:	Donna bell’& crudel che mi martira
+ID:Trm0166b-Tenore 	L316	V3:	Donna bell’& crudel che mi martira
+ID:Trm0166b-Basso  	L336	V3:	Donna bell’& crudel che mi martira
+ID:Trm0166b-Quinto 	L356	V3:	Donna bell’& crudel che mi martira
+ID:Trm0166f-Alto   	L530	V3:	Donna bella e crudel che mi martira
+ID:Trm0166f-Tenore 	L550	V3:	Donna bella e crudel che mi martira
+ID:Trm0166f-Quinto 	L570	V3:	[TACET] che mi martira
+ID:Trm0166i-Canto  	L667	V3:	Donna bell'e crudel che mi martira
+ID:Trm0166i-Basso  	L687	V3:	Donna bell'e crudel che mi martira
+ID:Trm0166k-Canto  	L762	V3:	Donna bella, e gentil che mi martira
+ID:Trm0166k-Alto   	L782	V3:	Donna bella, e gentil che mi martira
+ID:Trm0166k-Tenore 	L802	V3:	Donna bella, e gentil che mi martira
+ID:Trm0166k-Basso  	L822	V3:	Donna bella, e gentil che mi martira
 
 ID:S11             	L36	V4:	Ma pur prendo speranza
 ID:S12             	L58	V4:	Ma pur prendo speranza
 ID:S13             	L80	V4:	Ma pur prendo speranza
-ID:Trm0166b-Canto  	L255	V4:	Ma prendo al fin speranza
-ID:Trm0166b-Tenore 	L275	V4:	Ma prendo al fin speranza
-ID:Trm0166b-Basso  	L295	V4:	Ma prendo al fin speranza
-ID:Trm0166b-Quinto 	L315	V4:	Ma prendo al fin speranza
+ID:S23             	L124	V4:	Ma pur prendo speranza,
+ID:S145            	L211	V4:	Ma pur prendo speranza
+ID:Trm0166b-Canto  	L297	V4:	Ma prendo al fin speranza
+ID:Trm0166b-Tenore 	L317	V4:	Ma prendo al fin speranza
+ID:Trm0166b-Basso  	L337	V4:	Ma prendo al fin speranza
+ID:Trm0166b-Quinto 	L357	V4:	Ma prendo al fin speranza
+ID:Trm0166f-Alto   	L531	V4:	[TACET]
+ID:Trm0166f-Tenore 	L551	V4:	Ma pur prendo speranza
+ID:Trm0166f-Quinto 	L571	V4:	Ma pur prendo speranza
+ID:Trm0166i-Canto  	L668	V4:	Ma pur prendo speranza
+ID:Trm0166i-Basso  	L688	V4:	Ma pur prendo speranza
+ID:Trm0166k-Canto  	L763	V4:	Ma pur prendo speranza
+ID:Trm0166k-Alto   	L783	V4:	Ma pur prendo speranza
+ID:Trm0166k-Tenore 	L803	V4:	Ma pur prendo speranza
+ID:Trm0166k-Basso  	L823	V4:	Ma pur prendo speranza
 
 ID:S11             	L37	V5:	Che l’humiltà vi pieghi
 ID:S12             	L59	V5:	Che l’humiltà vi pieghi
 ID:S13             	L81	V5:	Che l’humiltà vi pieghi
-ID:Trm0166b-Canto  	L256	V5:	Che l’humiltà vi pieghi
-ID:Trm0166b-Tenore 	L276	V5:	Che l’humiltà vi pieghi
-ID:Trm0166b-Basso  	L296	V5:	Che l’humiltà vi pieghi
-ID:Trm0166b-Quinto 	L316	V5:	Che l’humiltà vi pieghi
+ID:S23             	L125	V5:	Che l’humiltà vi pieghi:
+ID:S145            	L212	V5:	Che l’humiltà vi pieghi,
+ID:Trm0166b-Canto  	L298	V5:	Che l’humiltà vi pieghi
+ID:Trm0166b-Tenore 	L318	V5:	Che l’humiltà vi pieghi
+ID:Trm0166b-Basso  	L338	V5:	Che l’humiltà vi pieghi
+ID:Trm0166b-Quinto 	L358	V5:	Che l’humiltà vi pieghi
+ID:Trm0166f-Alto   	L532	V5:	[TACET]
+ID:Trm0166f-Tenore 	L552	V5:	Che l'humiltà vi pieghi
+ID:Trm0166f-Quinto 	L572	V5:	Che l'humiltà vi pieghi
+ID:Trm0166i-Canto  	L669	V5:	Che l’humiltà vi pieghi
+ID:Trm0166i-Basso  	L689	V5:	Che l’humiltà vi pieghi
+ID:Trm0166k-Canto  	L764	V5:	Che l’humiltà vi pieghi
+ID:Trm0166k-Alto   	L784	V5:	Che l’humiltà vi pieghi
+ID:Trm0166k-Tenore 	L804	V5:	Che l’humiltà vi pieghi
+ID:Trm0166k-Basso  	L824	V5:	Che l’humiltà vi pieghi
 
 ID:S11             	L38	V6:	Che nel silentio ancor son voci, e prieghi
 ID:S12             	L60	V6:	Che nel silentio ancor son voci, e prieghi
 ID:S13             	L82	V6:	Che nel silentio ancor son voci, e prieghi
-ID:Trm0166b-Canto  	L257	V6:	Che nel silentio ancor son voci & prieghi
-ID:Trm0166b-Tenore 	L277	V6:	Che nel silentio ancor son voci & prieghi
-ID:Trm0166b-Basso  	L297	V6:	Che nel silentio ancor son voci & prieghi
-ID:Trm0166b-Quinto 	L317	V6:	Che nel silentio ancor son voci & prieghi
+ID:S23             	L126	V6:	Che nel silentio ancor son voci, e prieghi.
+ID:S145            	L213	V6:	Che nel silentio ancor son voci, e preghi.
+ID:Trm0166b-Canto  	L299	V6:	Che nel silentio ancor son voci & prieghi
+ID:Trm0166b-Tenore 	L319	V6:	Che nel silentio ancor son voci & prieghi
+ID:Trm0166b-Basso  	L339	V6:	Che nel silentio ancor son voci & prieghi
+ID:Trm0166b-Quinto 	L359	V6:	Che nel silentio ancor son voci & prieghi
+ID:Trm0166f-Alto   	L533	V6:	Che nel silentio ancor son voti e prieghi
+ID:Trm0166f-Tenore 	L553	V6:	[TACET]
+ID:Trm0166f-Quinto 	L573	V6:	Che nel silentio ancor son voti e prieghi
+ID:Trm0166i-Canto  	L670	V6:	[TACET] ancor son voci e prieghi
+ID:Trm0166i-Basso  	L690	V6:	Che nel silentio ancor son voci e prieghi
+ID:Trm0166k-Canto  	L765	V6:	Che nel silentio ancor son voci, e prieghi.
+ID:Trm0166k-Alto   	L785	V6:	Che nel silentio àncor son voci, e prieghi.
+ID:Trm0166k-Tenore 	L805	V6:	Che nel silentio àncor son voci, e prieghi.
+ID:Trm0166k-Basso  	L825	V6:	Che nel silentio àncor son voci, e prieghi.
 
 ID:S11             	L40	V7:	E prego Amor che spieghi
 ID:S12             	L62	V7:	E prego Amor che spieghi
 ID:S13             	L84	V7:	E prego Amor che spieghi
-ID:Trm0166b-Canto  	L258	V7:	Et prego amor che spieghi
-ID:Trm0166b-Tenore 	L278	V7:	Et prego amor che spieghi
-ID:Trm0166b-Basso  	L298	V7:	Et prego amor che spieghi
-ID:Trm0166b-Quinto 	L318	V7:	Et prego amor che spieghi
+ID:S23             	L128	V7:	E prego Amor, che spieghi
+ID:S145            	L214	V7:	E prego Amor, che spieghi
+ID:Trm0166b-Canto  	L300	V7:	Et prego amor che spieghi
+ID:Trm0166b-Tenore 	L320	V7:	Et prego amor che spieghi
+ID:Trm0166b-Basso  	L340	V7:	Et prego amor che spieghi
+ID:Trm0166b-Quinto 	L360	V7:	Et prego amor che spieghi
+ID:Trm0166f-Alto   	L534	V7:	E prego amor che spieghi
+ID:Trm0166f-Tenore 	L554	V7:	E prego amor che spieghi
+ID:Trm0166f-Quinto 	L574	V7:	E prego amor che spieghi
+ID:Trm0166i-Canto  	L671	V7:	E preg'amor che spieghi
+ID:Trm0166i-Basso  	L691	V7:	E preg'amor che spieghi
+ID:Trm0166k-Canto  	L766	V7:	[OMITTED]
+ID:Trm0166k-Alto   	L786	V7:	[OMITTED]
+ID:Trm0166k-Tenore 	L806	V7:	[OMITTED]
+ID:Trm0166k-Basso  	L826	V7:	[OMITTED]
 
 ID:S11             	L41	V8:	Nel mio doglioso aspetto
 ID:S12             	L63	V8:	Nel mio doglioso aspetto
 ID:S13             	L85	V8:	Nel mio doglioso aspetto
-ID:Trm0166b-Canto  	L259	V8:	Nel mio doglioso aspetto
-ID:Trm0166b-Tenore 	L279	V8:	Nel mio doglioso aspetto
-ID:Trm0166b-Basso  	L299	V8:	Nel mio doglioso aspetto
-ID:Trm0166b-Quinto 	L319	V8:	Nel mio doglioso aspetto
+ID:S23             	L129	V8:	Nel mio doglioso aspetto
+ID:S145            	L215	V8:	Nel mio doglioso aspetto
+ID:Trm0166b-Canto  	L301	V8:	Nel mio doglioso aspetto
+ID:Trm0166b-Tenore 	L321	V8:	Nel mio doglioso aspetto
+ID:Trm0166b-Basso  	L341	V8:	Nel mio doglioso aspetto
+ID:Trm0166b-Quinto 	L361	V8:	Nel mio doglioso aspetto
+ID:Trm0166f-Alto   	L535	V8:	Nel mio doglioso aspetto
+ID:Trm0166f-Tenore 	L555	V8:	Nel mio doglioso aspetto
+ID:Trm0166f-Quinto 	L575	V8:	Nel mio doglioso aspetto
+ID:Trm0166i-Canto  	L672	V8:	Nel mio doglioso aspetto
+ID:Trm0166i-Basso  	L692	V8:	Nel mio doglioso aspetto
+ID:Trm0166k-Canto  	L767	V8:	[OMITTED]
+ID:Trm0166k-Alto   	L787	V8:	[OMITTED]
+ID:Trm0166k-Tenore 	L807	V8:	[OMITTED]
+ID:Trm0166k-Basso  	L827	V8:	[OMITTED]
 
 ID:S11             	L42	V9:	Con lettre di pietà l’occulto affetto.
 ID:S12             	L64	V9:	Con lettre di pietà l’occulto affetto.
 ID:S13             	L86	V9:	Con lettre di pietà l’occulto affetto.
-ID:Trm0166b-Canto  	L260	V9:	Con lettre di pietà l’occulto affetto.
-ID:Trm0166b-Tenore 	L280	V9:	Con lettre di pietà l’occulto affetto.
-ID:Trm0166b-Basso  	L300	V9:	Con lettre di pietà l’occulto affetto.
-ID:Trm0166b-Quinto 	L320	V9:	Con lettre di pietà l’occulto affetto.
+ID:S23             	L130	V9:	Con lettre di pietà l’occulto affetto.
+ID:S145            	L216	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166b-Canto  	L302	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166b-Tenore 	L322	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166b-Basso  	L342	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166b-Quinto 	L362	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166f-Alto   	L536	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166f-Tenore 	L556	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166f-Quinto 	L576	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166i-Canto  	L673	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166i-Basso  	L693	V9:	Con lettre di pietà l’occulto affetto.
+ID:Trm0166k-Canto  	L768	V9:	[OMITTED]
+ID:Trm0166k-Alto   	L788	V9:	[OMITTED]
+ID:Trm0166k-Tenore 	L808	V9:	[OMITTED]
+ID:Trm0166k-Basso  	L828	V9:	[OMITTED]
 

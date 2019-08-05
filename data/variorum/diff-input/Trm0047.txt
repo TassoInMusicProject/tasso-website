@@ -1,176 +1,363 @@
-ID:M7              	L76	V1:	Non è questa la mano
-ID:P4              	L99	V1:	Non è questa la mano
-ID:Tr2             	L121	V1:	Non è questa la mano,
-ID:S8              	L165	V1:	Non è questa la mano,
-ID:S9              	L188	V1:	Non è questa la mano,
-ID:S11             	L212	V1:	Non è questa la mano,
-ID:S12             	L234	V1:	Non è questa la mano,
-ID:S13             	L256	V1:	Non è questa la mano,
-ID:S29             	L311	V1:	Non è questa la mano,
-ID:Trm0047d-Tenore 	L476	V1:	Non è questa la mano,
-ID:Trm0047d-Quinto 	L498	V1:	Non è questa la mano,
-ID:Trm0047f-Canto  	L586	V1:	Non è questa la mano
-ID:Trm0047f-Tenore 	L608	V1:	[TACET]
-ID:Trm0047f-Basso  	L630	V1:	[TACET]
-ID:Trm0047f-Quinto 	L652	V1:	Non è questa la mano
+ID:E1              	L43	V1:	Non è questa la mano
+ID:M7              	L87	V1:	Non è questa la mano
+ID:P4              	L110	V1:	Non è questa la mano
+ID:Tr2             	L132	V1:	Non è questa la mano,
+ID:S8              	L176	V1:	Non è questa la mano,
+ID:S9              	L198	V1:	Non è questa la mano,
+ID:S11             	L222	V1:	Non è questa la mano,
+ID:S12             	L244	V1:	Non è questa la mano,
+ID:S13             	L266	V1:	Non è questa la mano,
+ID:S29             	L321	V1:	Non è questa la mano,
+ID:S145            	L365	V1:	Non è questa la mano,
+ID:Trm0047d-Tenore 	L508	V1:	Non è questa la mano,
+ID:Trm0047d-Quinto 	L530	V1:	Non è questa la mano,
+ID:Trm0047f-Canto  	L618	V1:	Non è questa la mano
+ID:Trm0047f-Tenore 	L640	V1:	[TACET]
+ID:Trm0047f-Basso  	L662	V1:	[TACET]
+ID:Trm0047f-Quinto 	L684	V1:	Non è questa la mano
+ID:Trm0047l-Canto  	L970	V1:	Non è questa la mano
+ID:Trm0047l-Alto   	L992	V1:	Non è questa la mano
+ID:Trm0047l-Tenore 	L1014	V1:	Non è questa la mano
+ID:Trm0047l-Basso  	L1036	V1:	Non è questa la mano
+ID:Trm0047l-Quinto 	L1058	V1:	Non è questa la mano
+ID:Trm0047n-Canto  	L1113	V1:	Non è questa la mano
+ID:Trm0047n-Tenore 	L1135	V1:	Non è questa la mano
+ID:Trm0047n-Basso  	L1157	V1:	Non è questa la mano
+ID:Trm0047o-Alto   	L1179	V1:	[TACET]
+ID:Trm0047o-Quinto 	L1201	V1:	Non è questa la mano
+ID:Trm0047r-Quinto 	L1333	V1:	Non è questa la mano
+ID:Trm0047s-Canto  	L1357	V1:	Non è questa la mano
+ID:Trm0047s-Alto   	L1380	V1:	Non è questa la mano
+ID:Trm0047s-Tenore 	L1404	V1:	Non è questa la mano
+ID:Trm0047s-Basso  	L1427	V1:	Non è questa la mano
 
-ID:M7              	L77	V2:	Che tanti, e si mortali
-ID:P4              	L100	V2:	Che tante, e si mortali,
-ID:Tr2             	L122	V2:	Che tant'et si mortali
-ID:S8              	L166	V2:	Che tante, & si mortali
-ID:S9              	L189	V2:	Che tante, & si mortali
-ID:S11             	L213	V2:	Che tante, e si mortali
-ID:S12             	L235	V2:	Che tante, e si mortali
-ID:S13             	L257	V2:	Che tante, e si mortali
-ID:S29             	L312	V2:	Che tante, & si mortali
-ID:Trm0047d-Tenore 	L477	V2:	Che tante, e si mortali
-ID:Trm0047d-Quinto 	L499	V2:	Che tante, e si mortali
-ID:Trm0047f-Canto  	L587	V2:	Che tanti e si mortali
-ID:Trm0047f-Tenore 	L609	V2:	[TACET]
-ID:Trm0047f-Basso  	L631	V2:	[TACET]
-ID:Trm0047f-Quinto 	L653	V2:	Che tanti e si mortali
+ID:E1              	L44	V2:	Che tante, e si mortali
+ID:M7              	L88	V2:	Che tanti, e si mortali
+ID:P4              	L111	V2:	Che tante, e si mortali,
+ID:Tr2             	L133	V2:	Che tant'et si mortali
+ID:S8              	L177	V2:	Che tante, & si mortali
+ID:S9              	L199	V2:	Che tante, & si mortali
+ID:S11             	L223	V2:	Che tante, e si mortali
+ID:S12             	L245	V2:	Che tante, e si mortali
+ID:S13             	L267	V2:	Che tante, e si mortali
+ID:S29             	L322	V2:	Che tante, & si mortali
+ID:S145            	L366	V2:	Che tante, e si mortali
+ID:Trm0047d-Tenore 	L509	V2:	Che tante, e si mortali
+ID:Trm0047d-Quinto 	L531	V2:	Che tante, e si mortali
+ID:Trm0047f-Canto  	L619	V2:	Che tanti e si mortali
+ID:Trm0047f-Tenore 	L641	V2:	[TACET]
+ID:Trm0047f-Basso  	L663	V2:	[TACET]
+ID:Trm0047f-Quinto 	L685	V2:	Che tanti e si mortali
+ID:Trm0047l-Canto  	L971	V2:	Che tante e si mortali
+ID:Trm0047l-Alto   	L993	V2:	Che tante e si mortali
+ID:Trm0047l-Tenore 	L1015	V2:	Che tante e si mortali
+ID:Trm0047l-Basso  	L1037	V2:	Che tante e si mortali
+ID:Trm0047l-Quinto 	L1059	V2:	Che tante e si mortali
+ID:Trm0047n-Canto  	L1114	V2:	Che tant’e si mortali
+ID:Trm0047n-Tenore 	L1136	V2:	Che tant’e si mortali
+ID:Trm0047n-Basso  	L1158	V2:	Che tant’e si mortali
+ID:Trm0047o-Alto   	L1180	V2:	[TACET]
+ID:Trm0047o-Quinto 	L1202	V2:	Che tante e si mortali
+ID:Trm0047r-Quinto 	L1334	V2:	Che tant’è si mortali
+ID:Trm0047s-Canto  	L1358	V2:	Che tant’è sì mortali
+ID:Trm0047s-Alto   	L1381	V2:	Che tant’è sì mortali
+ID:Trm0047s-Tenore 	L1405	V2:	Che tant’è sì mortali
+ID:Trm0047s-Basso  	L1428	V2:	Che tant’è sì mortali
 
-ID:M7              	L78	V3:	Avventò nel mio cor fiammelle, e strali.
-ID:P4              	L101	V3:	Aventò nel mio cor fiamelle, e strali
-ID:Tr2             	L123	V3:	Aventò nel mio cor fiammelle e strali?
-ID:S8              	L167	V3:	Avventò nel mio cor fiammelle, e strali?
-ID:S9              	L190	V3:	Avventò nel mio cor fiammelle, e strali?
-ID:S11             	L214	V3:	Avventò nel mio cor fiammelle, e strali?
-ID:S12             	L236	V3:	Avventò nel mio cor fiammelle, e strali?
-ID:S13             	L258	V3:	Avventò nel mio cor fiammelle, e strali?
-ID:S29             	L313	V3:	Avventò nel mio cor fiammelle, e strali?
-ID:Trm0047d-Tenore 	L478	V3:	Aventò nel mio cor fiamelle, e strali?
-ID:Trm0047d-Quinto 	L500	V3:	Aventò nel mio cor fiamelle, e strali?
-ID:Trm0047f-Canto  	L588	V3:	Aventò nel mio cor fiammell’et strali
-ID:Trm0047f-Tenore 	L610	V3:	[TACET]
-ID:Trm0047f-Basso  	L632	V3:	[TACET]
-ID:Trm0047f-Quinto 	L654	V3:	Aventò nel mio cor fiammell’e strali
+ID:E1              	L45	V3:	Accendi nel mio cor facelle, e strali?
+ID:M7              	L89	V3:	Avventò nel mio cor fiammelle, e strali.
+ID:P4              	L112	V3:	Aventò nel mio cor fiamelle, e strali
+ID:Tr2             	L134	V3:	Aventò nel mio cor fiammelle e strali?
+ID:S8              	L178	V3:	Avventò nel mio cor fiammelle, e strali?
+ID:S9              	L200	V3:	Avventò nel mio cor fiammelle, e strali?
+ID:S11             	L224	V3:	Avventò nel mio cor fiammelle, e strali?
+ID:S12             	L246	V3:	Avventò nel mio cor fiammelle, e strali?
+ID:S13             	L268	V3:	Avventò nel mio cor fiammelle, e strali?
+ID:S29             	L323	V3:	Avventò nel mio cor fiammelle, e strali?
+ID:S145            	L367	V3:	Avventò nel mio cor fiammelle, e strali?
+ID:Trm0047d-Tenore 	L510	V3:	Aventò nel mio cor fiamelle, e strali?
+ID:Trm0047d-Quinto 	L532	V3:	Aventò nel mio cor fiamelle, e strali?
+ID:Trm0047f-Canto  	L620	V3:	Aventò nel mio cor fiammell’et strali
+ID:Trm0047f-Tenore 	L642	V3:	[TACET]
+ID:Trm0047f-Basso  	L664	V3:	[TACET]
+ID:Trm0047f-Quinto 	L686	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047l-Canto  	L972	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047l-Alto   	L994	V3:	Aventò nel mio cor fiammelle e strali
+ID:Trm0047l-Tenore 	L1016	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047l-Basso  	L1038	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047l-Quinto 	L1060	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047n-Canto  	L1115	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047n-Tenore 	L1137	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047n-Basso  	L1159	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047o-Alto   	L1181	V3:	[TACET]
+ID:Trm0047o-Quinto 	L1203	V3:	Avventò nel mio cor fiammelle e strali
+ID:Trm0047r-Quinto 	L1335	V3:	Aventò nel mio cor fiammell’e strali
+ID:Trm0047s-Canto  	L1359	V3:	avvento nel mio cor fiammell’e strali.
+ID:Trm0047s-Alto   	L1382	V3:	avvento nel mio cor fiammell’e strali.
+ID:Trm0047s-Tenore 	L1406	V3:	avvento nel mio cor fiammell’e strali.
+ID:Trm0047s-Basso  	L1429	V3:	avvento nel mio cor fiammell’e strali.
 
-ID:M7              	L80	V4:	Ecco ch’hor pur si trova
-ID:P4              	L102	V4:	Ecco che pur si trova
-ID:Tr2             	L124	V4:	Ecco che pur si trova
-ID:S8              	L168	V4:	Ecco, che pur si trova
-ID:S9              	L192	V4:	Ecco, che pur si trova
-ID:S11             	L215	V4:	Ecco, che pur si trova
-ID:S12             	L237	V4:	Ecco, che pur si trova
-ID:S13             	L259	V4:	Ecco, che pur si trova
-ID:S29             	L314	V4:	Ecco, che pur si trova
-ID:Trm0047d-Tenore 	L479	V4:	Ecco, che pur si trova,
-ID:Trm0047d-Quinto 	L501	V4:	Ecco, che pur si trova,
-ID:Trm0047f-Canto  	L589	V4:	Ecco che pur si trova
-ID:Trm0047f-Tenore 	L611	V4:	Ecco che pur si trova
-ID:Trm0047f-Basso  	L633	V4:	Ecco che pur si trova
-ID:Trm0047f-Quinto 	L655	V4:	Ecco che pur si trova
+ID:E1              	L46	V4:	Ecco pur si ritrova
+ID:M7              	L91	V4:	Ecco ch’hor pur si trova
+ID:P4              	L113	V4:	Ecco che pur si trova
+ID:Tr2             	L135	V4:	Ecco che pur si trova
+ID:S8              	L179	V4:	Ecco, che pur si trova
+ID:S9              	L202	V4:	Ecco, che pur si trova
+ID:S11             	L225	V4:	Ecco, che pur si trova
+ID:S12             	L247	V4:	Ecco, che pur si trova
+ID:S13             	L269	V4:	Ecco, che pur si trova
+ID:S29             	L324	V4:	Ecco, che pur si trova
+ID:S145            	L368	V4:	Ecco, che pur si trova
+ID:Trm0047d-Tenore 	L511	V4:	Ecco, che pur si trova,
+ID:Trm0047d-Quinto 	L533	V4:	Ecco, che pur si trova,
+ID:Trm0047f-Canto  	L621	V4:	Ecco che pur si trova
+ID:Trm0047f-Tenore 	L643	V4:	Ecco che pur si trova
+ID:Trm0047f-Basso  	L665	V4:	Ecco che pur si trova
+ID:Trm0047f-Quinto 	L687	V4:	Ecco che pur si trova
+ID:Trm0047l-Canto  	L973	V4:	Ecco che pur si trova
+ID:Trm0047l-Alto   	L995	V4:	Ecco che pur si trova
+ID:Trm0047l-Tenore 	L1017	V4:	Ecco che pur si trova
+ID:Trm0047l-Basso  	L1039	V4:	Ecco che pur si trova
+ID:Trm0047l-Quinto 	L1061	V4:	Ecco che pur si trova
+ID:Trm0047n-Canto  	L1116	V4:	Ecco che pur si trova
+ID:Trm0047n-Tenore 	L1138	V4:	Ecco che pur si trova
+ID:Trm0047n-Basso  	L1160	V4:	Ecco che pur si trova
+ID:Trm0047o-Alto   	L1182	V4:	Ecco che pur si trova
+ID:Trm0047o-Quinto 	L1204	V4:	Ecco che pur si trova
+ID:Trm0047r-Quinto 	L1336	V4:	Ecco che pur si trova
+ID:Trm0047s-Canto  	L1361	V4:	Ecco che pur si trova
+ID:Trm0047s-Alto   	L1384	V4:	Ecco che pur si trova
+ID:Trm0047s-Tenore 	L1408	V4:	Ecco che pur si trova
+ID:Trm0047s-Basso  	L1431	V4:	Ecco che pur si trova
 
-ID:M7              	L81	V5:	Ne le mie man ristretta
-ID:P4              	L103	V5:	Fra le mie man ristretta
-ID:Tr2             	L125	V5:	Fra le mie man ristretta
-ID:S8              	L169	V5:	Fra le mie man ristretta,
-ID:S9              	L193	V5:	Fra le mie man ristretta,
-ID:S11             	L216	V5:	Fra le mie man ristretta,
-ID:S12             	L238	V5:	Fra le mie man ristretta,
-ID:S13             	L260	V5:	Fra le mie man ristretta,
-ID:S29             	L315	V5:	Frà le mie man ristretta,
-ID:Trm0047d-Tenore 	L480	V5:	Fra le mie man ristretta,
-ID:Trm0047d-Quinto 	L502	V5:	Fra le mie man ristretta,
-ID:Trm0047f-Canto  	L590	V5:	Nelle mie man ristretta
-ID:Trm0047f-Tenore 	L612	V5:	Nelle mie man ristretta
-ID:Trm0047f-Basso  	L634	V5:	Nelle mie man ristretta
-ID:Trm0047f-Quinto 	L656	V5:	[TACET]
+ID:E1              	L47	V5:	Hor fra le mie ristretta:
+ID:M7              	L92	V5:	Ne le mie man ristretta
+ID:P4              	L114	V5:	Fra le mie man ristretta
+ID:Tr2             	L136	V5:	Fra le mie man ristretta
+ID:S8              	L180	V5:	Fra le mie man ristretta,
+ID:S9              	L203	V5:	Fra le mie man ristretta,
+ID:S11             	L226	V5:	Fra le mie man ristretta,
+ID:S12             	L248	V5:	Fra le mie man ristretta,
+ID:S13             	L270	V5:	Fra le mie man ristretta,
+ID:S29             	L325	V5:	Frà le mie man ristretta,
+ID:S145            	L369	V5:	Fra le mie man ristretta,
+ID:Trm0047d-Tenore 	L512	V5:	Fra le mie man ristretta,
+ID:Trm0047d-Quinto 	L534	V5:	Fra le mie man ristretta,
+ID:Trm0047f-Canto  	L622	V5:	Nelle mie man ristretta
+ID:Trm0047f-Tenore 	L644	V5:	Nelle mie man ristretta
+ID:Trm0047f-Basso  	L666	V5:	Nelle mie man ristretta
+ID:Trm0047f-Quinto 	L688	V5:	[TACET]
+ID:Trm0047l-Canto  	L974	V5:	Fra le mie man ristretta
+ID:Trm0047l-Alto   	L996	V5:	Fra le mie man ristretta
+ID:Trm0047l-Tenore 	L1018	V5:	Fra le mie man ristretta
+ID:Trm0047l-Basso  	L1040	V5:	Fra le mie man ristretta
+ID:Trm0047l-Quinto 	L1062	V5:	Fra le mie man ristretta
+ID:Trm0047n-Canto  	L1117	V5:	Nelle mie man ristretta
+ID:Trm0047n-Tenore 	L1139	V5:	Nelle mie man ristretta
+ID:Trm0047n-Basso  	L1161	V5:	Nelle mie man ristretta
+ID:Trm0047o-Alto   	L1183	V5:	Fra le mie man ristretta
+ID:Trm0047o-Quinto 	L1205	V5:	Fra le mie man ristretta
+ID:Trm0047r-Quinto 	L1337	V5:	fra le mie man ristretta.
+ID:Trm0047s-Canto  	L1362	V5:	Fra le mie man ristretta
+ID:Trm0047s-Alto   	L1385	V5:	Fra le mie man ristretta
+ID:Trm0047s-Tenore 	L1409	V5:	Fra le mie man ristretta
+ID:Trm0047s-Basso  	L1432	V5:	Fra le mie man ristretta
 
-ID:M7              	L82	V6:	Ne Forza, od’ Arte per fuggir le giova,
-ID:P4              	L104	V6:	Ne forza, od’arte, per fuggir li giova
-ID:Tr2             	L126	V6:	Ne forza od arte per uscir le giova
-ID:S8              	L170	V6:	Nè forza, od arte per fuggir le giova,
-ID:S9              	L194	V6:	Nè forza, od arte per fuggir le giova,
-ID:S11             	L217	V6:	Nè forza, od’arte per fuggir le giova,
-ID:S12             	L239	V6:	Nè forza, od’arte per fuggir le giova,
-ID:S13             	L261	V6:	Nè forza, od’arte per fuggir le giova,
-ID:S29             	L316	V6:	Nè forza, od arte per fuggir le giova,
-ID:Trm0047d-Tenore 	L481	V6:	Nè forza, od arte per fuggir le giova,
-ID:Trm0047d-Quinto 	L503	V6:	Nè forza, od arte per fuggir le giova,
-ID:Trm0047f-Canto  	L591	V6:	Ne forza d’arte per fuggir le giova
-ID:Trm0047f-Tenore 	L613	V6:	Ne forza d’arte per fuggir le giova
-ID:Trm0047f-Basso  	L635	V6:	Ne forza d’arte per fuggir le giova
-ID:Trm0047f-Quinto 	L657	V6:	Ne forza d’arte per fuggir le giova
+ID:E1              	L48	V6:	Ne forza, od arte per fuggir le giova
+ID:M7              	L93	V6:	Ne Forza, od’ Arte per fuggir le giova,
+ID:P4              	L115	V6:	Ne forza, od’arte, per fuggir li giova
+ID:Tr2             	L137	V6:	Ne forza od arte per uscir le giova
+ID:S8              	L181	V6:	Nè forza, od arte per fuggir le giova,
+ID:S9              	L204	V6:	Nè forza, od arte per fuggir le giova,
+ID:S11             	L227	V6:	Nè forza, od’arte per fuggir le giova,
+ID:S12             	L249	V6:	Nè forza, od’arte per fuggir le giova,
+ID:S13             	L271	V6:	Nè forza, od’arte per fuggir le giova,
+ID:S29             	L326	V6:	Nè forza, od arte per fuggir le giova,
+ID:S145            	L370	V6:	Nè forza ò d'arte per fuggir le giova,
+ID:Trm0047d-Tenore 	L513	V6:	Nè forza, od arte per fuggir le giova,
+ID:Trm0047d-Quinto 	L535	V6:	Nè forza, od arte per fuggir le giova,
+ID:Trm0047f-Canto  	L623	V6:	Ne forza d’arte per fuggir le giova
+ID:Trm0047f-Tenore 	L645	V6:	Ne forza d’arte per fuggir le giova
+ID:Trm0047f-Basso  	L667	V6:	Ne forza d’arte per fuggir le giova
+ID:Trm0047f-Quinto 	L689	V6:	Ne forza d’arte per fuggir le giova
+ID:Trm0047l-Canto  	L975	V6:	Ne forz'od arte per fuggir le giova
+ID:Trm0047l-Alto   	L997	V6:	Ne forz'od arte per fuggir le giova
+ID:Trm0047l-Tenore 	L1019	V6:	Ne forz'od arte per fuggir le giova
+ID:Trm0047l-Basso  	L1041	V6:	Ne forz'od arte per fuggir le giova
+ID:Trm0047l-Quinto 	L1063	V6:	Ne forz'od arte per fuggir le giova
+ID:Trm0047n-Canto  	L1118	V6:	Ne forza d’arte per fuggir le giova
+ID:Trm0047n-Tenore 	L1140	V6:	Ne forza d’arte per fuggir le giova
+ID:Trm0047n-Basso  	L1162	V6:	Ne forza d’arte per fuggir le giova
+ID:Trm0047o-Alto   	L1184	V6:	Ne forza od arte per fuggir le giova
+ID:Trm0047o-Quinto 	L1206	V6:	Ne forza od arte per fuggir le giova
+ID:Trm0047r-Quinto 	L1339	V6:	Ne forz’o d’arte per fuggir li giova
+ID:Trm0047s-Canto  	L1363	V6:	Ne forza ò d’arte per fuggir li giova
+ID:Trm0047s-Alto   	L1386	V6:	Ne forza ò d’arte per fuggir li giova
+ID:Trm0047s-Tenore 	L1410	V6:	Ne forza ò d’arte per fuggir li giova
+ID:Trm0047s-Basso  	L1433	V6:	Ne forza ò d’arte per fuggir li giova
 
-ID:M7              	L83	V7:	Ne tien Face, ò saetta
-ID:P4              	L105	V7:	Ne tien foco o' saetta
-ID:Tr2             	L127	V7:	Ne tien face o saetta
-ID:S8              	L171	V7:	Nè tien face, ò saetta,
-ID:S9              	L195	V7:	Nè tien face, ò saetta,
-ID:S11             	L218	V7:	Nè tien face, ò saetta,
-ID:S12             	L240	V7:	Nè tien face, ò saetta,
-ID:S13             	L262	V7:	Nè tien face, ò saetta,
-ID:S29             	L317	V7:	Nè tien face, ò saetta,
-ID:Trm0047d-Tenore 	L482	V7:	Nè tien face, ò saetta,
-ID:Trm0047d-Quinto 	L504	V7:	Nè tien face, ò saetta,
-ID:Trm0047f-Canto  	L592	V7:	Ne tien face o saetta
-ID:Trm0047f-Tenore 	L614	V7:	Ne tien face o saetta
-ID:Trm0047f-Basso  	L636	V7:	Ne tien face o saetta
-ID:Trm0047f-Quinto 	L658	V7:	Ne tien face o saetta
+ID:E1              	L49	V7:	Ne tien face, o saetta,
+ID:M7              	L94	V7:	Ne tien Face, ò saetta
+ID:P4              	L116	V7:	Ne tien foco o' saetta
+ID:Tr2             	L138	V7:	Ne tien face o saetta
+ID:S8              	L182	V7:	Nè tien face, ò saetta,
+ID:S9              	L205	V7:	Nè tien face, ò saetta,
+ID:S11             	L228	V7:	Nè tien face, ò saetta,
+ID:S12             	L250	V7:	Nè tien face, ò saetta,
+ID:S13             	L272	V7:	Nè tien face, ò saetta,
+ID:S29             	L327	V7:	Nè tien face, ò saetta,
+ID:S145            	L371	V7:	Ne tien face ò saetta,
+ID:Trm0047d-Tenore 	L514	V7:	Nè tien face, ò saetta,
+ID:Trm0047d-Quinto 	L536	V7:	Nè tien face, ò saetta,
+ID:Trm0047f-Canto  	L624	V7:	Ne tien face o saetta
+ID:Trm0047f-Tenore 	L646	V7:	Ne tien face o saetta
+ID:Trm0047f-Basso  	L668	V7:	Ne tien face o saetta
+ID:Trm0047f-Quinto 	L690	V7:	Ne tien face o saetta
+ID:Trm0047l-Canto  	L976	V7:	Ne tien face o saetta
+ID:Trm0047l-Alto   	L998	V7:	Ne tien face o saetta
+ID:Trm0047l-Tenore 	L1020	V7:	Ne tien face o saetta
+ID:Trm0047l-Basso  	L1042	V7:	Ne tien face o saetta
+ID:Trm0047l-Quinto 	L1064	V7:	Ne tien face o saetta
+ID:Trm0047n-Canto  	L1119	V7:	Ne tien face o saetta
+ID:Trm0047n-Tenore 	L1141	V7:	Ne tien face o saetta
+ID:Trm0047n-Basso  	L1163	V7:	Ne tien face o saetta
+ID:Trm0047o-Alto   	L1185	V7:	Ne tien face o saetta
+ID:Trm0047o-Quinto 	L1207	V7:	[TACET]
+ID:Trm0047r-Quinto 	L1340	V7:	Ne tien fac’ò saetta
+ID:Trm0047s-Canto  	L1364	V7:	Ne tien face ò saetta,
+ID:Trm0047s-Alto   	L1387	V7:	Ne tien face ò saetta,
+ID:Trm0047s-Tenore 	L1411	V7:	Ne tien face ò saetta,
+ID:Trm0047s-Basso  	L1434	V7:	Ne tien face ò saetta,
 
-ID:M7              	L84	V8:	Che da me la difenda,
-ID:P4              	L106	V8:	Che da me la difenda
-ID:Tr2             	L128	V8:	Che da me la difenda
-ID:S8              	L172	V8:	Che da me la difenda;
-ID:S9              	L196	V8:	Che da me la difenda;
-ID:S11             	L219	V8:	Che da me la difenda;
-ID:S12             	L241	V8:	Che da me la difenda;
-ID:S13             	L263	V8:	Che da me la difenda;
-ID:S29             	L318	V8:	Che da me la difenda.
-ID:Trm0047d-Tenore 	L483	V8:	Che da me la difenda,
-ID:Trm0047d-Quinto 	L505	V8:	Che da me la difenda,
-ID:Trm0047f-Canto  	L593	V8:	Che da me la difenda
-ID:Trm0047f-Tenore 	L615	V8:	Che da me la difenda
-ID:Trm0047f-Basso  	L637	V8:	Che da me la difenda
-ID:Trm0047f-Quinto 	L659	V8:	Che da me la difenda
+ID:E1              	L50	V8:	che da me la difendia:
+ID:M7              	L95	V8:	Che da me la difenda,
+ID:P4              	L117	V8:	Che da me la difenda
+ID:Tr2             	L139	V8:	Che da me la difenda
+ID:S8              	L183	V8:	Che da me la difenda;
+ID:S9              	L206	V8:	Che da me la difenda;
+ID:S11             	L229	V8:	Che da me la difenda;
+ID:S12             	L251	V8:	Che da me la difenda;
+ID:S13             	L273	V8:	Che da me la difenda;
+ID:S29             	L328	V8:	Che da me la difenda.
+ID:S145            	L372	V8:	Che da me la difenda.
+ID:Trm0047d-Tenore 	L515	V8:	Che da me la difenda,
+ID:Trm0047d-Quinto 	L537	V8:	Che da me la difenda,
+ID:Trm0047f-Canto  	L625	V8:	Che da me la difenda
+ID:Trm0047f-Tenore 	L647	V8:	Che da me la difenda
+ID:Trm0047f-Basso  	L669	V8:	Che da me la difenda
+ID:Trm0047f-Quinto 	L691	V8:	Che da me la difenda
+ID:Trm0047l-Canto  	L977	V8:	Che da me la diffenda
+ID:Trm0047l-Alto   	L999	V8:	Che da me la diffenda
+ID:Trm0047l-Tenore 	L1021	V8:	Che da me la diffenda
+ID:Trm0047l-Basso  	L1043	V8:	[TACET]
+ID:Trm0047l-Quinto 	L1065	V8:	Che da me la diffenda
+ID:Trm0047n-Canto  	L1120	V8:	Che da me la difenda
+ID:Trm0047n-Tenore 	L1142	V8:	Che da me la difenda
+ID:Trm0047n-Basso  	L1164	V8:	Che da me la difenda
+ID:Trm0047o-Alto   	L1186	V8:	Che da me la difenda
+ID:Trm0047o-Quinto 	L1208	V8:	Che da me la difenda
+ID:Trm0047r-Quinto 	L1341	V8:	che da me la difenda.
+ID:Trm0047s-Canto  	L1365	V8:	Che da me la difenda
+ID:Trm0047s-Alto   	L1388	V8:	Che da me la difenda
+ID:Trm0047s-Tenore 	L1412	V8:	Che da me la difenda
+ID:Trm0047s-Basso  	L1435	V8:	Che da me la difenda
 
-ID:M7              	L85	V9:	Giust’è ben, ch’io ne prenda
-ID:P4              	L107	V9:	Giust'è ben ch’io ne prenda
-ID:Tr2             	L129	V9:	Giusto è ben ch’io ne prenda
-ID:S8              	L173	V9:	Giusto è ben, ch’io ne prenda,
-ID:S9              	L197	V9:	Giusto è ben, ch’io ne prenda,
-ID:S11             	L220	V9:	Giusto è ben, ch’io ne prenda,
-ID:S12             	L242	V9:	Giusto è ben, ch’io ne prenda,
-ID:S13             	L264	V9:	Giusto è ben, ch’io ne prenda,
-ID:S29             	L319	V9:	Giusto è ben, ch’io ne prenda,
-ID:Trm0047d-Tenore 	L484	V9:	Giusto è ben, ch’io ne prenda,
-ID:Trm0047d-Quinto 	L506	V9:	Giusto è ben, ch’io ne prenda,
-ID:Trm0047f-Canto  	L594	V9:	Giust’è ben ch’io ne prenda
-ID:Trm0047f-Tenore 	L616	V9:	Giust’è ben ch’io ne prenda
-ID:Trm0047f-Basso  	L638	V9:	[TACET]
-ID:Trm0047f-Quinto 	L660	V9:	Giust’è ben ch’io ne prenda
+ID:E1              	L51	V9:	giusto, è ben ch’io ne prenda
+ID:M7              	L96	V9:	Giust’è ben, ch’io ne prenda
+ID:P4              	L118	V9:	Giust'è ben ch’io ne prenda
+ID:Tr2             	L140	V9:	Giusto è ben ch’io ne prenda
+ID:S8              	L184	V9:	Giusto è ben, ch’io ne prenda,
+ID:S9              	L207	V9:	Giusto è ben, ch’io ne prenda,
+ID:S11             	L230	V9:	Giusto è ben, ch’io ne prenda,
+ID:S12             	L252	V9:	Giusto è ben, ch’io ne prenda,
+ID:S13             	L274	V9:	Giusto è ben, ch’io ne prenda,
+ID:S29             	L329	V9:	Giusto è ben, ch’io ne prenda,
+ID:S145            	L373	V9:	Giusto è ben, ch’io ne prenda,
+ID:Trm0047d-Tenore 	L516	V9:	Giusto è ben, ch’io ne prenda,
+ID:Trm0047d-Quinto 	L538	V9:	Giusto è ben, ch’io ne prenda,
+ID:Trm0047f-Canto  	L626	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047f-Tenore 	L648	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047f-Basso  	L670	V9:	[TACET]
+ID:Trm0047f-Quinto 	L692	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047l-Canto  	L978	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047l-Alto   	L1000	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047l-Tenore 	L1022	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047l-Basso  	L1044	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047l-Quinto 	L1066	V9:	Giust’è ben ch’io ne prenda
+ID:Trm0047n-Canto  	L1121	V9:	Giusto è ben ch’io ne prend’
+ID:Trm0047n-Tenore 	L1143	V9:	Giusto è ben ch’io ne prend’
+ID:Trm0047n-Basso  	L1165	V9:	Giusto è ben ch’io ne prend’
+ID:Trm0047o-Alto   	L1187	V9:	Giusto è ben ch’io ne prenda
+ID:Trm0047o-Quinto 	L1209	V9:	Giusto è ben ch’io ne prenda
+ID:Trm0047r-Quinto 	L1342	V9:	Giust’è ben cheio ne prenda
+ID:Trm0047s-Canto  	L1366	V9:	Giusto è ben ch’io ne prenda
+ID:Trm0047s-Alto   	L1389	V9:	Giusto è ben ch’io ne prenda
+ID:Trm0047s-Tenore 	L1413	V9:	Giusto è ben ch’io ne prenda
+ID:Trm0047s-Basso  	L1436	V9:	Giusto è ben ch’io ne prenda
 
-ID:M7              	L86	V10:	Amor qualche vendetta,
-ID:P4              	L108	V10:	Amor' qualche vendetta
-ID:Tr2             	L130	V10:	Amor qualche vendetta
-ID:S8              	L174	V10:	Amor, qualche vendetta;
-ID:S9              	L198	V10:	Amor, qualche vendetta;
-ID:S11             	L221	V10:	Amor, qualche vendetta;
-ID:S12             	L243	V10:	Amor, qualche vendetta;
-ID:S13             	L265	V10:	Amor, qualche vendetta;
-ID:S29             	L320	V10:	Amor, qualche vendetta,
-ID:Trm0047d-Tenore 	L485	V10:	Amor, qualche vendetta,
-ID:Trm0047d-Quinto 	L507	V10:	Amor, qualche vendetta,
-ID:Trm0047f-Canto  	L595	V10:	Amor qualche vendetta
-ID:Trm0047f-Tenore 	L617	V10:	Amor qualche vendetta
-ID:Trm0047f-Basso  	L639	V10:	[TACET]
-ID:Trm0047f-Quinto 	L661	V10:	Amor qualche vendetta
+ID:E1              	L52	V10:	Amor qualche vendetta,
+ID:M7              	L97	V10:	Amor qualche vendetta,
+ID:P4              	L119	V10:	Amor' qualche vendetta
+ID:Tr2             	L141	V10:	Amor qualche vendetta
+ID:S8              	L185	V10:	Amor, qualche vendetta;
+ID:S9              	L208	V10:	Amor, qualche vendetta;
+ID:S11             	L231	V10:	Amor, qualche vendetta;
+ID:S12             	L253	V10:	Amor, qualche vendetta;
+ID:S13             	L275	V10:	Amor, qualche vendetta;
+ID:S29             	L330	V10:	Amor, qualche vendetta,
+ID:S145            	L374	V10:	Amor, qualche vendetta,
+ID:Trm0047d-Tenore 	L517	V10:	Amor, qualche vendetta,
+ID:Trm0047d-Quinto 	L539	V10:	Amor, qualche vendetta,
+ID:Trm0047f-Canto  	L627	V10:	Amor qualche vendetta
+ID:Trm0047f-Tenore 	L649	V10:	Amor qualche vendetta
+ID:Trm0047f-Basso  	L671	V10:	[TACET]
+ID:Trm0047f-Quinto 	L693	V10:	Amor qualche vendetta
+ID:Trm0047l-Canto  	L979	V10:	Amor qualche vendetta
+ID:Trm0047l-Alto   	L1001	V10:	Amor qualche vendetta
+ID:Trm0047l-Tenore 	L1023	V10:	Amor qualche vendetta
+ID:Trm0047l-Basso  	L1045	V10:	Amor qualche vendetta
+ID:Trm0047l-Quinto 	L1067	V10:	Amor qualche vendetta
+ID:Trm0047n-Canto  	L1122	V10:	amor qualche vendetta
+ID:Trm0047n-Tenore 	L1144	V10:	amor qualche vendetta
+ID:Trm0047n-Basso  	L1166	V10:	amor qualche vendetta
+ID:Trm0047o-Alto   	L1188	V10:	Amor qualche vendetta
+ID:Trm0047o-Quinto 	L1210	V10:	Amor qualche vendetta
+ID:Trm0047r-Quinto 	L1343	V10:	Amor qualche vendetta
+ID:Trm0047s-Canto  	L1367	V10:	Ancor qualche vendetta
+ID:Trm0047s-Alto   	L1390	V10:	Ancor qualche vendetta
+ID:Trm0047s-Tenore 	L1414	V10:	Ancor qualche vendetta
+ID:Trm0047s-Basso  	L1437	V10:	Ancor qualche vendetta
 
-ID:M7              	L87	V11:	E se piaghe mi diè, bacci le renda.
-ID:P4              	L109	V11:	E se piaghe mi diè baci le renda
-ID:Tr2             	L131	V11:	E se piaghe mi diè baci le renda.
-ID:S8              	L175	V11:	Et, se piaghe mi diè, baci le renda.
-ID:S9              	L199	V11:	Et, se piaghe mi diè, baci le renda.
-ID:S11             	L222	V11:	E se piaghe mi diè, baci le renda.
-ID:S12             	L244	V11:	E se piaghe mi diè, baci le renda.
-ID:S13             	L266	V11:	E se piaghe mi diè, baci le renda.
-ID:S29             	L321	V11:	E se piaghe mi diè, baci le renda.
-ID:Trm0047d-Tenore 	L486	V11:	E se piaghe mi diè, baci le renda.
-ID:Trm0047d-Quinto 	L508	V11:	E se piaghe mi diè, baci le renda.
-ID:Trm0047f-Canto  	L596	V11:	Et se piaghe mi diè baci le renda.
-ID:Trm0047f-Tenore 	L618	V11:	Et se piaghe mi diè baci le renda.
-ID:Trm0047f-Basso  	L640	V11:	Et se piaghe mi diè baci le renda.
-ID:Trm0047f-Quinto 	L662	V11:	Et se piaghe mi diè baci le renda.
+ID:E1              	L53	V11:	e se piaghe mi diè baci le renda
+ID:M7              	L98	V11:	E se piaghe mi diè, bacci le renda.
+ID:P4              	L120	V11:	E se piaghe mi diè baci le renda
+ID:Tr2             	L142	V11:	E se piaghe mi diè baci le renda.
+ID:S8              	L186	V11:	Et, se piaghe mi diè, baci le renda.
+ID:S9              	L209	V11:	Et, se piaghe mi diè, baci le renda.
+ID:S11             	L232	V11:	E se piaghe mi diè, baci le renda.
+ID:S12             	L254	V11:	E se piaghe mi diè, baci le renda.
+ID:S13             	L276	V11:	E se piaghe mi diè, baci le renda.
+ID:S29             	L331	V11:	E se piaghe mi diè, baci le renda.
+ID:S145            	L375	V11:	E se piaghe mi die, baci le renda.
+ID:Trm0047d-Tenore 	L518	V11:	E se piaghe mi diè, baci le renda.
+ID:Trm0047d-Quinto 	L540	V11:	E se piaghe mi diè, baci le renda.
+ID:Trm0047f-Canto  	L628	V11:	Et se piaghe mi diè baci le renda.
+ID:Trm0047f-Tenore 	L650	V11:	Et se piaghe mi diè baci le renda.
+ID:Trm0047f-Basso  	L672	V11:	Et se piaghe mi diè baci le renda.
+ID:Trm0047f-Quinto 	L694	V11:	Et se piaghe mi diè baci le renda.
+ID:Trm0047l-Canto  	L980	V11:	E se piaghe mi diè baci le renda.
+ID:Trm0047l-Alto   	L1002	V11:	E se piaghe mi diè baci le renda.
+ID:Trm0047l-Tenore 	L1024	V11:	E se piaghe mi diè baci le renda.
+ID:Trm0047l-Basso  	L1046	V11:	E se piaghe mi diè baci le renda.
+ID:Trm0047l-Quinto 	L1068	V11:	E se piaghe mi diè baci le renda.
+ID:Trm0047n-Canto  	L1123	V11:	E se piaghe mi die baci le renda.
+ID:Trm0047n-Tenore 	L1145	V11:	E se piaghe mi die baci le renda.
+ID:Trm0047n-Basso  	L1167	V11:	E se piaghe mi die baci le renda.
+ID:Trm0047o-Alto   	L1189	V11:	E se piaghe mi die baci le renda
+ID:Trm0047o-Quinto 	L1211	V11:	E se piaghe mi die baci le renda
+ID:Trm0047r-Quinto 	L1344	V11:	e se piaghe mi die baci le renda.
+ID:Trm0047s-Canto  	L1368	V11:	E se piaghe mi diè baci li renda.
+ID:Trm0047s-Alto   	L1391	V11:	E se piaghe mi diè baci li renda.
+ID:Trm0047s-Tenore 	L1415	V11:	E se piaghe mi diè baci li renda.
+ID:Trm0047s-Basso  	L1438	V11:	E se piaghe mi diè baci li renda.
 

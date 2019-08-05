@@ -1,195 +1,571 @@
-ID:H3              	L65	V1:	La bella pargoletta,
-ID:M4              	L104	V1:	La bella pargoletta,
-ID:N12             	L128	V1:	La bella pargoletta
-ID:N13             	L153	V1:	La bella pargoletta,
-ID:N15             	L177	V1:	La bella pargoletta
-ID:P4              	L201	V1:	La bella pargoletta
-ID:W               	L282	V1:	La bella pargoletta
-ID:S7              	L305	V1:	La bella pargoletta,
-ID:S8              	L330	V1:	La bella pargoletta
-ID:S9              	L354	V1:	La bella pargoletta
-ID:S11             	L379	V1:	La bella pargoletta
-ID:S12             	L403	V1:	La bella pargoletta
-ID:S13             	L427	V1:	La bella pargoletta
-ID:S29             	L484	V1:	La bella pargoletta
+ID:E1              	L54	V1:	La bella pargoletta
+ID:H3              	L77	V1:	La bella pargoletta,
+ID:M4              	L116	V1:	La bella pargoletta,
+ID:N12             	L140	V1:	La bella pargoletta
+ID:N13             	L165	V1:	La bella pargoletta,
+ID:N15             	L189	V1:	La bella pargoletta
+ID:P4              	L213	V1:	La bella pargoletta
+ID:W               	L294	V1:	La bella pargoletta
+ID:S7              	L317	V1:	La bella pargoletta,
+ID:S8              	L342	V1:	La bella pargoletta
+ID:S9              	L366	V1:	La bella pargoletta
+ID:S11             	L391	V1:	La bella pargoletta
+ID:S12             	L415	V1:	La bella pargoletta
+ID:S13             	L439	V1:	La bella pargoletta
+ID:S29             	L496	V1:	La bella pargoletta
+ID:S145            	L564	V1:	La bella Pargoletta,
+ID:Trm0611a-Canto  	L610	V1:	La bella pargoletta
+ID:Trm0611a-Alto   	L635	V1:	La bella pargoletta
+ID:Trm0611a-Tenore 	L660	V1:	La bella pargoletta
+ID:Trm0611a-Basso  	L685	V1:	La bella pargoletta
+ID:Trm0611a-Quinto 	L710	V1:	La bella pargoletta
+ID:Trm0611a-Sesto  	L735	V1:	La bella pargoletta
+ID:Trm0611b-Canto  	L760	V1:	La bella pargoletta
+ID:Trm0611b-Alto   	L784	V1:	La bella pargoletta
+ID:Trm0611b-Tenore 	L808	V1:	La bella pargoletta
+ID:Trm0611b-Basso  	L832	V1:	La bella pargoletta
+ID:Trm0611b-Quinto 	L856	V1:	La bella pargoletta
+ID:Trm0611c-Canto  	L880	V1:	La bella pargoletta
+ID:Trm0611c-Alto   	L904	V1:	La bella pargoletta
+ID:Trm0611c-Tenore 	L928	V1:	[TACET]
+ID:Trm0611c-Basso  	L952	V1:	[TACET]
+ID:Trm0611c-Quinto 	L976	V1:	La bella pargoletta
+ID:Trm0611d-Canto  	L1000	V1:	La bella Pargoletta
+ID:Trm0611d-Alto   	L1024	V1:	La bella Pargoletta
+ID:Trm0611d-Tenore 	L1048	V1:	La bella Pargoletta
+ID:Trm0611d-Basso  	L1072	V1:	La bella Pargoletta
+ID:Trm0611d-Quinto 	L1096	V1:	La bella Pargoletta
+ID:Trm0611m-Canto  	L1582	V1:	La bella Pargoletta
+ID:Trm0611m-Tenore 	L1607	V1:	La bella Pargoletta
+ID:Trm0611m-Basso  	L1632	V1:	[TACET]
+ID:Trm0611n-Alto   	L1657	V1:	La bella pargoletta
+ID:Trm0611n-Tenore 	L1681	V1:	La bella pargoletta
+ID:Trm0611n-Quinto 	L1705	V1:	La bella pargoletta
 
-ID:H3              	L66	V2:	Ch’ancor non sente amore
-ID:M4              	L105	V2:	Ch’ancor non sente Amore
-ID:N12             	L129	V2:	Ch’ancor non sente Amore
-ID:N13             	L154	V2:	Ch’ancor non sent'amore
-ID:N15             	L178	V2:	Che ancor non sente Amore
-ID:P4              	L202	V2:	Ch’ancor non sente Amore,
-ID:W               	L283	V2:	Ch’ancor non sent'amore
-ID:S7              	L306	V2:	Ch’ancor non sent’Amore
-ID:S8              	L331	V2:	Ch’ancor non sente amore,
-ID:S9              	L355	V2:	Ch’ancor non sente amore,
-ID:S11             	L380	V2:	Ch’ancor non sente amore,
-ID:S12             	L404	V2:	Ch’ancor non sente amore,
-ID:S13             	L428	V2:	Ch’ancor non sente amore,
-ID:S29             	L485	V2:	Ch’ancor non sente amore,
+ID:E1              	L55	V2:	Che non conosce Amore
+ID:H3              	L78	V2:	Ch’ancor non sente amore
+ID:M4              	L117	V2:	Ch’ancor non sente Amore
+ID:N12             	L141	V2:	Ch’ancor non sente Amore
+ID:N13             	L166	V2:	Ch’ancor non sent'amore
+ID:N15             	L190	V2:	Che ancor non sente Amore
+ID:P4              	L214	V2:	Ch’ancor non sente Amore,
+ID:W               	L295	V2:	Ch’ancor non sent'amore
+ID:S7              	L318	V2:	Ch’ancor non sent’Amore
+ID:S8              	L343	V2:	Ch’ancor non sente amore,
+ID:S9              	L367	V2:	Ch’ancor non sente amore,
+ID:S11             	L392	V2:	Ch’ancor non sente amore,
+ID:S12             	L416	V2:	Ch’ancor non sente amore,
+ID:S13             	L440	V2:	Ch’ancor non sente amore,
+ID:S29             	L497	V2:	Ch’ancor non sente amore,
+ID:S145            	L565	V2:	Ch’ancor non sente Amore,
+ID:Trm0611a-Canto  	L611	V2:	Ch’ancor non sente amore
+ID:Trm0611a-Alto   	L636	V2:	Ch’ancor non sente amore
+ID:Trm0611a-Tenore 	L661	V2:	Ch’ancor non sente amore
+ID:Trm0611a-Basso  	L686	V2:	Ch’ancor non sente amore
+ID:Trm0611a-Quinto 	L711	V2:	Ch’ancor non sente amore
+ID:Trm0611a-Sesto  	L736	V2:	Ch’ancor non sente amore
+ID:Trm0611b-Canto  	L761	V2:	Ch’ancor non sente Amore
+ID:Trm0611b-Alto   	L785	V2:	Ch’ancor non sente Amore
+ID:Trm0611b-Tenore 	L809	V2:	Ch’ancor non sente Amore
+ID:Trm0611b-Basso  	L833	V2:	Ch’ancor non sente Amore
+ID:Trm0611b-Quinto 	L857	V2:	Ch’ancor non sente Amore
+ID:Trm0611c-Canto  	L881	V2:	Ch’anchor non sent’Amore
+ID:Trm0611c-Alto   	L905	V2:	Ch’anchor non sent’Amore
+ID:Trm0611c-Tenore 	L929	V2:	Ch’anchor non sent’Amore
+ID:Trm0611c-Basso  	L953	V2:	[TACET]
+ID:Trm0611c-Quinto 	L977	V2:	Ch’anchor non sent’Amore
+ID:Trm0611d-Canto  	L1001	V2:	Ch’anchor non sent’amore
+ID:Trm0611d-Alto   	L1025	V2:	Ch’anchor non sent’amore
+ID:Trm0611d-Tenore 	L1049	V2:	Ch’anchor non sent’amore
+ID:Trm0611d-Basso  	L1073	V2:	Ch’anchor non sent’amore
+ID:Trm0611d-Quinto 	L1097	V2:	Ch’anchor non sent’amore
+ID:Trm0611m-Canto  	L1583	V2:	Ch’ancor non sente amore
+ID:Trm0611m-Tenore 	L1608	V2:	Ch’ancor non sente amore
+ID:Trm0611m-Basso  	L1633	V2:	Ch’ancor non sente amore
+ID:Trm0611n-Alto   	L1658	V2:	Ch’ancor non sente amore
+ID:Trm0611n-Tenore 	L1682	V2:	[TACET]
+ID:Trm0611n-Quinto 	L1706	V2:	[TACET]
 
-ID:H3              	L67	V3:	Ne pur noto ha per fama il suo valore
-ID:M4              	L106	V3:	Ne pur noto hà per fama il suo valore.
-ID:N12             	L130	V3:	Ne pur noto hà per fama il suo valore
-ID:N13             	L155	V3:	Ne pur noto hà per fama il suo valore
-ID:N15             	L179	V3:	Ne pur noto ha per fama il suo valore
-ID:P4              	L203	V3:	Ne pur not'hà per fama il suo valore
-ID:W               	L284	V3:	Ne per fama ha pur noto il suo valore
-ID:S7              	L307	V3:	Ne per fama hà pur noto il suo valore
-ID:S8              	L332	V3:	Ne pur noto ha per fama il suo valore,
-ID:S9              	L356	V3:	Ne pur noto ha per fama il suo valore,
-ID:S11             	L381	V3:	Ne pur noto ha per fama il suo valore,
-ID:S12             	L405	V3:	Ne pur noto ha per fama il suo valore,
-ID:S13             	L429	V3:	Ne pur noto ha per fama il suo valore,
-ID:S29             	L486	V3:	Nè pur noto ha per fama il suo valore,
+ID:E1              	L56	V3:	Ne pur noto hà per fama, il suo valore,
+ID:H3              	L79	V3:	Ne pur noto ha per fama il suo valore
+ID:M4              	L118	V3:	Ne pur noto hà per fama il suo valore.
+ID:N12             	L142	V3:	Ne pur noto hà per fama il suo valore
+ID:N13             	L167	V3:	Ne pur noto hà per fama il suo valore
+ID:N15             	L191	V3:	Ne pur noto ha per fama il suo valore
+ID:P4              	L215	V3:	Ne pur not'hà per fama il suo valore
+ID:W               	L296	V3:	Ne per fama ha pur noto il suo valore
+ID:S7              	L319	V3:	Ne per fama hà pur noto il suo valore
+ID:S8              	L344	V3:	Ne pur noto ha per fama il suo valore,
+ID:S9              	L368	V3:	Ne pur noto ha per fama il suo valore,
+ID:S11             	L393	V3:	Ne pur noto ha per fama il suo valore,
+ID:S12             	L417	V3:	Ne pur noto ha per fama il suo valore,
+ID:S13             	L441	V3:	Ne pur noto ha per fama il suo valore,
+ID:S29             	L498	V3:	Nè pur noto ha per fama il suo valore,
+ID:S145            	L566	V3:	Nè pur noto ha per fama il suo valore,
+ID:Trm0611a-Canto  	L612	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611a-Alto   	L637	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611a-Tenore 	L662	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611a-Basso  	L687	V3:	Ne pur nota ha per fama il suo valore
+ID:Trm0611a-Quinto 	L712	V3:	[TACET]
+ID:Trm0611a-Sesto  	L737	V3:	Ne pur not’ha per fama il suo valore
+ID:Trm0611b-Canto  	L762	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611b-Alto   	L786	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611b-Tenore 	L810	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611b-Basso  	L834	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611b-Quinto 	L858	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611c-Canto  	L882	V3:	Ne pur not’ha per fam’il suo valore
+ID:Trm0611c-Alto   	L906	V3:	Ne pur not’ha per fam’il suo valore
+ID:Trm0611c-Tenore 	L930	V3:	Ne pur not’ha per fam’il suo valore
+ID:Trm0611c-Basso  	L954	V3:	Ne pur not’ha per fam’il suo valore
+ID:Trm0611c-Quinto 	L978	V3:	Ne pur not’ha per fam’il suo valore
+ID:Trm0611d-Canto  	L1002	V3:	Ne pur noto ha per prova il suo valore
+ID:Trm0611d-Alto   	L1026	V3:	Ne pur noto ha per prova il suo valore
+ID:Trm0611d-Tenore 	L1050	V3:	Ne pur noto ha per prova  il suo valore
+ID:Trm0611d-Basso  	L1074	V3:	Ne pur noto ha per prova il suo valore
+ID:Trm0611d-Quinto 	L1098	V3:	Ne pur noto ha per prova il suo valore
+ID:Trm0611m-Canto  	L1584	V3:	Ne pur noto ha per fam'il suo valore
+ID:Trm0611m-Tenore 	L1609	V3:	Ne pur noto ha per fam'il suo valore
+ID:Trm0611m-Basso  	L1634	V3:	Ne pur noto ha per fam'il suo valore
+ID:Trm0611n-Alto   	L1659	V3:	Ne pur noto ha per fama il suo valore
+ID:Trm0611n-Tenore 	L1683	V3:	[TACET]
+ID:Trm0611n-Quinto 	L1707	V3:	Ne pur noto ha per fama il suo valore
 
-ID:H3              	L69	V4:	Con 'l bel guardo saetta
-ID:M4              	L107	V4:	Cò begl'occhi saetta
-ID:N12             	L131	V4:	Col bel guardo saetta
-ID:N13             	L156	V4:	Co begli occhi saetta
-ID:N15             	L180	V4:	Co begli occhi saetta
-ID:P4              	L205	V4:	Co'begli occhi saetta
-ID:W               	L285	V4:	Col bel guardo saetta
-ID:S7              	L308	V4:	Col bel guardo saetta
-ID:S8              	L333	V4:	Co’ begli occhi saetta,
-ID:S9              	L357	V4:	Co’ begli occhi saetta,
-ID:S11             	L382	V4:	Co’ begli occhi saetta;
-ID:S12             	L406	V4:	Co’ begli occhi saetta;
-ID:S13             	L430	V4:	Co’ begli occhi saetta;
-ID:S29             	L487	V4:	Co’ begli occhi saetta,
+ID:E1              	L57	V4:	Co' begli occhi saetta
+ID:H3              	L81	V4:	Con 'l bel guardo saetta
+ID:M4              	L119	V4:	Cò begl'occhi saetta
+ID:N12             	L143	V4:	Col bel guardo saetta
+ID:N13             	L168	V4:	Co begli occhi saetta
+ID:N15             	L192	V4:	Co begli occhi saetta
+ID:P4              	L217	V4:	Co'begli occhi saetta
+ID:W               	L297	V4:	Col bel guardo saetta
+ID:S7              	L320	V4:	Col bel guardo saetta
+ID:S8              	L345	V4:	Co’ begli occhi saetta,
+ID:S9              	L369	V4:	Co’ begli occhi saetta,
+ID:S11             	L394	V4:	Co’ begli occhi saetta;
+ID:S12             	L418	V4:	Co’ begli occhi saetta;
+ID:S13             	L442	V4:	Co’ begli occhi saetta;
+ID:S29             	L499	V4:	Co’ begli occhi saetta,
+ID:S145            	L567	V4:	Co’ begli occhi saetta,
+ID:Trm0611a-Canto  	L613	V4:	Co’l bel sguardo saetta
+ID:Trm0611a-Alto   	L638	V4:	Co’l bel sguardo saetta
+ID:Trm0611a-Tenore 	L663	V4:	Co’l bel sguardo saetta
+ID:Trm0611a-Basso  	L688	V4:	Co’l bel sguardo saetta
+ID:Trm0611a-Quinto 	L713	V4:	Co’l bel sguardo saetta
+ID:Trm0611a-Sesto  	L738	V4:	Co’l bel sguardo saetta
+ID:Trm0611b-Canto  	L763	V4:	Con begl’occhi saetta
+ID:Trm0611b-Alto   	L787	V4:	Con begl’occhi saetta
+ID:Trm0611b-Tenore 	L811	V4:	Con begl’occhi saetta
+ID:Trm0611b-Basso  	L835	V4:	Con begl’occhi saetta
+ID:Trm0611b-Quinto 	L859	V4:	Con begl’occhi saetta
+ID:Trm0611c-Canto  	L883	V4:	Col bel guardo saetta
+ID:Trm0611c-Alto   	L907	V4:	Col bel guardo saetta
+ID:Trm0611c-Tenore 	L931	V4:	Col bel guardo saetta
+ID:Trm0611c-Basso  	L955	V4:	Col bel guardo saetta
+ID:Trm0611c-Quinto 	L979	V4:	Col bel guardo saetta
+ID:Trm0611d-Canto  	L1003	V4:	Co’l bel guardo saetta
+ID:Trm0611d-Alto   	L1027	V4:	Co’l bel guardo saetta
+ID:Trm0611d-Tenore 	L1051	V4:	Co’l bel guardo saetta
+ID:Trm0611d-Basso  	L1075	V4:	Co’l bel guardo saetta
+ID:Trm0611d-Quinto 	L1099	V4:	Co’l bel guardo saetta
+ID:Trm0611m-Canto  	L1585	V4:	Co' begli occhi saetta
+ID:Trm0611m-Tenore 	L1610	V4:	Co' begli occhi saetta
+ID:Trm0611m-Basso  	L1635	V4:	Co' begli occhi saetta
+ID:Trm0611n-Alto   	L1660	V4:	[TACET]
+ID:Trm0611n-Tenore 	L1684	V4:	Co begli occhi saetta
+ID:Trm0611n-Quinto 	L1708	V4:	[TACET]
 
-ID:H3              	L70	V5:	Et col soave riso,
-ID:M4              	L108	V5:	E col suave riso,
-ID:N12             	L132	V5:	E col leggiadro riso
-ID:N13             	L157	V5:	E col soave riso
-ID:N15             	L181	V5:	E col soave riso
-ID:P4              	L206	V5:	E col soave riso,
-ID:W               	L286	V5:	Et col soave riso
-ID:S7              	L309	V5:	E col soave riso
-ID:S8              	L334	V5:	E co’l soave riso,
-ID:S9              	L358	V5:	E co’l soave riso,
-ID:S11             	L383	V5:	E co’l soave riso,
-ID:S12             	L407	V5:	E co’l soave riso,
-ID:S13             	L431	V5:	E co’l soave riso,
-ID:S29             	L488	V5:	E co’l soave riso,
+ID:E1              	L58	V5:	E col soave riso,
+ID:H3              	L82	V5:	Et col soave riso,
+ID:M4              	L120	V5:	E col suave riso,
+ID:N12             	L144	V5:	E col leggiadro riso
+ID:N13             	L169	V5:	E col soave riso
+ID:N15             	L193	V5:	E col soave riso
+ID:P4              	L218	V5:	E col soave riso,
+ID:W               	L298	V5:	Et col soave riso
+ID:S7              	L321	V5:	E col soave riso
+ID:S8              	L346	V5:	E co’l soave riso,
+ID:S9              	L370	V5:	E co’l soave riso,
+ID:S11             	L395	V5:	E co’l soave riso,
+ID:S12             	L419	V5:	E co’l soave riso,
+ID:S13             	L443	V5:	E co’l soave riso,
+ID:S29             	L500	V5:	E co’l soave riso,
+ID:S145            	L568	V5:	E col soave riso,
+ID:Trm0611a-Canto  	L614	V5:	E col suave riso
+ID:Trm0611a-Alto   	L639	V5:	E col suave riso
+ID:Trm0611a-Tenore 	L664	V5:	E col suave riso
+ID:Trm0611a-Basso  	L689	V5:	E col suave riso
+ID:Trm0611a-Quinto 	L714	V5:	E col suave riso
+ID:Trm0611a-Sesto  	L739	V5:	E col suave riso
+ID:Trm0611b-Canto  	L764	V5:	E col soave riso
+ID:Trm0611b-Alto   	L788	V5:	E col soave riso
+ID:Trm0611b-Tenore 	L812	V5:	E col soave riso
+ID:Trm0611b-Basso  	L836	V5:	E col soave riso
+ID:Trm0611b-Quinto 	L860	V5:	E col soave riso
+ID:Trm0611c-Canto  	L884	V5:	e col soave riso
+ID:Trm0611c-Alto   	L908	V5:	e col soave riso
+ID:Trm0611c-Tenore 	L932	V5:	e col soave riso
+ID:Trm0611c-Basso  	L956	V5:	e col soave riso
+ID:Trm0611c-Quinto 	L980	V5:	e col soave riso
+ID:Trm0611d-Canto  	L1004	V5:	E co’l soave riso
+ID:Trm0611d-Alto   	L1028	V5:	E co’l soave riso
+ID:Trm0611d-Tenore 	L1052	V5:	E co’l soave riso
+ID:Trm0611d-Basso  	L1076	V5:	E co’l soave riso
+ID:Trm0611d-Quinto 	L1100	V5:	E co’l soave riso
+ID:Trm0611m-Canto  	L1586	V5:	E co'l soave riso
+ID:Trm0611m-Tenore 	L1611	V5:	E co'l soave riso
+ID:Trm0611m-Basso  	L1636	V5:	E co'l soave riso
+ID:Trm0611n-Alto   	L1661	V5:	[TACET]
+ID:Trm0611n-Tenore 	L1685	V5:	E col soave riso
+ID:Trm0611n-Quinto 	L1709	V5:	E col soave riso
 
-ID:H3              	L71	V6:	Ne s’ accorge che l’arme ha nel bel viso
-ID:M4              	L109	V6:	Ne s’avvede, che l’Armi ha nel bel viso.
-ID:N12             	L133	V6:	Ne s’accorge che l'armi hà nel bel viso
-ID:N13             	L158	V6:	Nè s’accorge che l'armi ha nel bel viso.
-ID:N15             	L182	V6:	Ne s’accorge che l'armi ha nel bel viso.
-ID:P4              	L207	V6:	Ne s’ accorge che l’armi hà nel bel viso
-ID:W               	L287	V6:	Ne s’accorge che l’armi ha nel bel viso.
-ID:S7              	L310	V6:	Ne s’accorge che l’armi hà nel bel viso.
-ID:S8              	L335	V6:	Nè s’accorge, che l’arme ha nel bel viso.
-ID:S9              	L359	V6:	Nè s’accorge, che l’arme ha nel bel viso.
-ID:S11             	L384	V6:	Nè s’accorge, che l’arme ha nel bel viso.
-ID:S12             	L408	V6:	Nè s’accorge, che l’arme ha nel bel viso.
-ID:S13             	L432	V6:	Nè s’accorge, che l’arme ha nel bel viso.
-ID:S29             	L489	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:E1              	L59	V6:	Ne s’accorge ch’ancide il suo bel riso :
+ID:H3              	L83	V6:	Ne s’ accorge che l’arme ha nel bel viso
+ID:M4              	L121	V6:	Ne s’avvede, che l’Armi ha nel bel viso.
+ID:N12             	L145	V6:	Ne s’accorge che l'armi hà nel bel viso
+ID:N13             	L170	V6:	Nè s’accorge che l'armi ha nel bel viso.
+ID:N15             	L194	V6:	Ne s’accorge che l'armi ha nel bel viso.
+ID:P4              	L219	V6:	Ne s’ accorge che l’armi hà nel bel viso
+ID:W               	L299	V6:	Ne s’accorge che l’armi ha nel bel viso.
+ID:S7              	L322	V6:	Ne s’accorge che l’armi hà nel bel viso.
+ID:S8              	L347	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:S9              	L371	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:S11             	L396	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:S12             	L420	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:S13             	L444	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:S29             	L501	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:S145            	L569	V6:	Nè s’accorge, che l’arme ha nel bel viso.
+ID:Trm0611a-Canto  	L615	V6:	Ne s’accorge che l’arme ha nel bel viso.
+ID:Trm0611a-Alto   	L640	V6:	Ne s’accorge che l’arme ha nel bel viso.
+ID:Trm0611a-Tenore 	L665	V6:	Ne s’accorge che l’arme ha nel bel viso.
+ID:Trm0611a-Basso  	L690	V6:	Ne s’accorge che l’arme  ha nel bel viso.
+ID:Trm0611a-Quinto 	L715	V6:	Ne s’accorge che l’arme  ha nel bel viso.
+ID:Trm0611a-Sesto  	L740	V6:	Ne s’accorge che l’arme  ha nel bel viso.
+ID:Trm0611b-Canto  	L765	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611b-Alto   	L789	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611b-Tenore 	L813	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611b-Basso  	L837	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611b-Quinto 	L861	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611c-Canto  	L885	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611c-Alto   	L909	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611c-Tenore 	L933	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611c-Basso  	L957	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611c-Quinto 	L981	V6:	Ne s’accorge che l’arm’ha nel bel viso
+ID:Trm0611d-Canto  	L1005	V6:	Ne s’accorge che l’armi ha nel bel viso
+ID:Trm0611d-Alto   	L1029	V6:	Ne s’accorge che l’armi ha nel bel viso
+ID:Trm0611d-Tenore 	L1053	V6:	Ne s’accorge che l’armi ha nel bel viso
+ID:Trm0611d-Basso  	L1077	V6:	Ne s’accorge che l’armi ha nel bel viso
+ID:Trm0611d-Quinto 	L1101	V6:	Ne s’accorge che l’armi ha nel bel viso
+ID:Trm0611m-Canto  	L1587	V6:	Ne s’accorge che l'arme ha nel bel viso.
+ID:Trm0611m-Tenore 	L1612	V6:	Ne s’accorge che l'arme ha nel bel viso.
+ID:Trm0611m-Basso  	L1637	V6:	Ne s’accorge che l'arme ha nel bel viso.
+ID:Trm0611n-Alto   	L1662	V6:	Ne s’accorge c'ha l'arme nel bel viso
+ID:Trm0611n-Tenore 	L1686	V6:	Ne s’accorge c'ha l'arme nel bel viso
+ID:Trm0611n-Quinto 	L1710	V6:	[TACET]
 
-ID:H3              	L73	V7:	Che colpa hà del morire
-ID:M4              	L110	V7:	Che colpa ha del morire
-ID:N12             	L135	V7:	Che colpa hà del morire
-ID:N13             	L159	V7:	Qual colpa ha del morire
-ID:N15             	L183	V7:	Qual colpa ha del morire
-ID:P4              	L209	V7:	Qual colpa hà del morire,
-ID:W               	L288	V7:	Che colpa ha del morire
-ID:S7              	L311	V7:	Qual colpa hà del morire
-ID:S8              	L336	V7:	Qual colpa ha nel morire
-ID:S9              	L360	V7:	Qual colpa ha nel morire
-ID:S11             	L385	V7:	Qual colpa ha nel morire
-ID:S12             	L409	V7:	Qual colpa ha nel morire
-ID:S13             	L433	V7:	Qual colpa ha nel morire
-ID:S29             	L490	V7:	Qual colpa ha nel morire
+ID:E1              	L60	V7:	qual colpa ha del morire
+ID:H3              	L85	V7:	Che colpa hà del morire
+ID:M4              	L122	V7:	Che colpa ha del morire
+ID:N12             	L147	V7:	Che colpa hà del morire
+ID:N13             	L171	V7:	Qual colpa ha del morire
+ID:N15             	L195	V7:	Qual colpa ha del morire
+ID:P4              	L221	V7:	Qual colpa hà del morire,
+ID:W               	L300	V7:	Che colpa ha del morire
+ID:S7              	L323	V7:	Qual colpa hà del morire
+ID:S8              	L348	V7:	Qual colpa ha nel morire
+ID:S9              	L372	V7:	Qual colpa ha nel morire
+ID:S11             	L397	V7:	Qual colpa ha nel morire
+ID:S12             	L421	V7:	Qual colpa ha nel morire
+ID:S13             	L445	V7:	Qual colpa ha nel morire
+ID:S29             	L502	V7:	Qual colpa ha nel morire
+ID:S145            	L570	V7:	Qual colpa ha nel morire
+ID:Trm0611a-Canto  	L617	V7:	Che colpa ha del morire
+ID:Trm0611a-Alto   	L642	V7:	Che colpa ha del morire
+ID:Trm0611a-Tenore 	L667	V7:	Che colpa ha del morire
+ID:Trm0611a-Basso  	L692	V7:	Che colpa ha del morire
+ID:Trm0611a-Quinto 	L717	V7:	Che colpa ha del morire
+ID:Trm0611a-Sesto  	L742	V7:	Che colpa ha del morire
+ID:Trm0611b-Canto  	L766	V7:	Qual colpa  ha nel morire
+ID:Trm0611b-Alto   	L790	V7:	Qual colpa  ha nel morire
+ID:Trm0611b-Tenore 	L814	V7:	Qual colpa  ha nel morire
+ID:Trm0611b-Basso  	L838	V7:	Qual colpa  ha nel morire
+ID:Trm0611b-Quinto 	L862	V7:	Qual colpa ha nel morire
+ID:Trm0611c-Canto  	L886	V7:	[TACET]
+ID:Trm0611c-Alto   	L910	V7:	Che colp’ha nel morire
+ID:Trm0611c-Tenore 	L934	V7:	Che colp’ha nel morire
+ID:Trm0611c-Basso  	L958	V7:	Che colp’ha nel morire
+ID:Trm0611c-Quinto 	L982	V7:	Che colp’ha nel morire
+ID:Trm0611d-Canto  	L1006	V7:	Qual colp’ha del morire
+ID:Trm0611d-Alto   	L1030	V7:	Qual colp’ha del morire
+ID:Trm0611d-Tenore 	L1054	V7:	Qual colp’ha del morire
+ID:Trm0611d-Basso  	L1078	V7:	Qual colp’ha del morire
+ID:Trm0611d-Quinto 	L1102	V7:	Qual colp’ha del morire
+ID:Trm0611m-Canto  	L1589	V7:	Qual colp'ha nel morire
+ID:Trm0611m-Tenore 	L1614	V7:	Qual colp'ha nel morire
+ID:Trm0611m-Basso  	L1639	V7:	Qual colp'ha nel morire
+ID:Trm0611n-Alto   	L1663	V7:	Qual colp'ha nel morire
+ID:Trm0611n-Tenore 	L1687	V7:	Qual colp'ha nel morire
+ID:Trm0611n-Quinto 	L1711	V7:	Qual colp'ha nel morire
 
-ID:H3              	L74	V8:	Della trafitta gente
-ID:M4              	L111	V8:	Della trafitta gente
-ID:N12             	L136	V8:	Della trafitta gente
-ID:N13             	L160	V8:	Della trafitta gente
-ID:N15             	L184	V8:	Della trafitta gente
-ID:P4              	L210	V8:	De la trafitta gente.
-ID:W               	L289	V8:	Dela trafitta gente
-ID:S7              	L312	V8:	Della trafitta gente
-ID:S8              	L337	V8:	De la trafitta mente,
-ID:S9              	L361	V8:	De la trafitta mente,
-ID:S11             	L386	V8:	De la trafitta gente,
-ID:S12             	L410	V8:	De la trafitta gente,
-ID:S13             	L434	V8:	De la trafitta gente,
-ID:S29             	L491	V8:	De la trafitta gente,
+ID:E1              	L61	V8:	Di chi la vede, e sente
+ID:H3              	L86	V8:	Della trafitta gente
+ID:M4              	L123	V8:	Della trafitta gente
+ID:N12             	L148	V8:	Della trafitta gente
+ID:N13             	L172	V8:	Della trafitta gente
+ID:N15             	L196	V8:	Della trafitta gente
+ID:P4              	L222	V8:	De la trafitta gente.
+ID:W               	L301	V8:	Dela trafitta gente
+ID:S7              	L324	V8:	Della trafitta gente
+ID:S8              	L349	V8:	De la trafitta mente,
+ID:S9              	L373	V8:	De la trafitta mente,
+ID:S11             	L398	V8:	De la trafitta gente,
+ID:S12             	L422	V8:	De la trafitta gente,
+ID:S13             	L446	V8:	De la trafitta gente,
+ID:S29             	L503	V8:	De la trafitta gente,
+ID:S145            	L571	V8:	De la trafitta mente,
+ID:Trm0611a-Canto  	L618	V8:	Della trafitta gente
+ID:Trm0611a-Alto   	L643	V8:	Della trafitta gente
+ID:Trm0611a-Tenore 	L668	V8:	Della trafitta gente
+ID:Trm0611a-Basso  	L693	V8:	Della trafitta gente
+ID:Trm0611a-Quinto 	L718	V8:	Della trafitta gente
+ID:Trm0611a-Sesto  	L743	V8:	Della trafitta gente
+ID:Trm0611b-Canto  	L767	V8:	della trafitta gente
+ID:Trm0611b-Alto   	L791	V8:	della trafitta gente
+ID:Trm0611b-Tenore 	L815	V8:	della trafitta gente
+ID:Trm0611b-Basso  	L839	V8:	della trafitta gente
+ID:Trm0611b-Quinto 	L863	V8:	della trafitta gente
+ID:Trm0611c-Canto  	L887	V8:	[OMITTED]
+ID:Trm0611c-Alto   	L911	V8:	de la trafitta gente
+ID:Trm0611c-Tenore 	L935	V8:	de la trafitta gente
+ID:Trm0611c-Basso  	L959	V8:	de la trafitta gente
+ID:Trm0611c-Quinto 	L983	V8:	de la trafitta gente
+ID:Trm0611d-Canto  	L1007	V8:	Della misera gente
+ID:Trm0611d-Alto   	L1031	V8:	Della misera gente
+ID:Trm0611d-Tenore 	L1055	V8:	Della misera gente
+ID:Trm0611d-Basso  	L1079	V8:	Della misera gente
+ID:Trm0611d-Quinto 	L1103	V8:	Della misera gente
+ID:Trm0611m-Canto  	L1590	V8:	De la traffitta gente
+ID:Trm0611m-Tenore 	L1615	V8:	De la traffitta gente
+ID:Trm0611m-Basso  	L1640	V8:	De la traffitta gente
+ID:Trm0611n-Alto   	L1664	V8:	De la trafitta gente
+ID:Trm0611n-Tenore 	L1688	V8:	De la trafitta gente
+ID:Trm0611n-Quinto 	L1712	V8:	De la trafitta gente
 
-ID:H3              	L75	V9:	[OMITTED]
-ID:M4              	L112	V9:	[OMITTED]
-ID:N12             	L137	V9:	[OMITTED]
-ID:N13             	L161	V9:	[OMITTED]
-ID:N15             	L185	V9:	[OMITTED]
-ID:P4              	L211	V9:	Come si può punire,
-ID:W               	L290	V9:	[OMITTED]
-ID:S7              	L313	V9:	[OMITTED]
-ID:S8              	L338	V9:	[OMITTED]
-ID:S9              	L362	V9:	[OMITTED]
-ID:S11             	L387	V9:	[OMITTED]
-ID:S12             	L411	V9:	[OMITTED]
-ID:S13             	L435	V9:	[OMITTED]
-ID:S29             	L492	V9:	[OMITTED]
+ID:E1              	L62	V9:	Se non sà di ferrire :
+ID:H3              	L87	V9:	[OMITTED]
+ID:M4              	L124	V9:	[OMITTED]
+ID:N12             	L149	V9:	[OMITTED]
+ID:N13             	L173	V9:	[OMITTED]
+ID:N15             	L197	V9:	[OMITTED]
+ID:P4              	L223	V9:	Come si può punire,
+ID:W               	L302	V9:	[OMITTED]
+ID:S7              	L325	V9:	[OMITTED]
+ID:S8              	L350	V9:	[OMITTED]
+ID:S9              	L374	V9:	[OMITTED]
+ID:S11             	L399	V9:	[OMITTED]
+ID:S12             	L423	V9:	[OMITTED]
+ID:S13             	L447	V9:	[OMITTED]
+ID:S29             	L504	V9:	[OMITTED]
+ID:S145            	L572	V9:	[OMITTED]
+ID:Trm0611a-Canto  	L619	V9:	[OMITTED]
+ID:Trm0611a-Alto   	L644	V9:	[OMITTED]
+ID:Trm0611a-Tenore 	L669	V9:	[OMITTED]
+ID:Trm0611a-Basso  	L694	V9:	[OMITTED]
+ID:Trm0611a-Quinto 	L719	V9:	[OMITTED]
+ID:Trm0611a-Sesto  	L744	V9:	[OMITTED]
+ID:Trm0611b-Canto  	L768	V9:	[OMITTED]
+ID:Trm0611b-Alto   	L792	V9:	[OMITTED]
+ID:Trm0611b-Tenore 	L816	V9:	[OMITTED]
+ID:Trm0611b-Basso  	L840	V9:	[OMITTED]
+ID:Trm0611b-Quinto 	L864	V9:	[OMITTED]
+ID:Trm0611c-Canto  	L888	V9:	de la trafitta gente
+ID:Trm0611c-Alto   	L912	V9:	[OMITTED]
+ID:Trm0611c-Tenore 	L936	V9:	[OMITTED]
+ID:Trm0611c-Basso  	L960	V9:	[OMITTED]
+ID:Trm0611c-Quinto 	L984	V9:	[OMITTED]
+ID:Trm0611d-Canto  	L1008	V9:	[OMITTED]
+ID:Trm0611d-Alto   	L1032	V9:	[OMITTED]
+ID:Trm0611d-Tenore 	L1056	V9:	[OMITTED]
+ID:Trm0611d-Basso  	L1080	V9:	[OMITTED]
+ID:Trm0611d-Quinto 	L1104	V9:	[OMITTED]
+ID:Trm0611m-Canto  	L1591	V9:	[OMITTED]
+ID:Trm0611m-Tenore 	L1616	V9:	[OMITTED]
+ID:Trm0611m-Basso  	L1641	V9:	[OMITTED]
+ID:Trm0611n-Alto   	L1665	V9:	[OMITTED]
+ID:Trm0611n-Tenore 	L1689	V9:	[OMITTED]
+ID:Trm0611n-Quinto 	L1713	V9:	[OMITTED]
 
-ID:H3              	L76	V10:	Se non sa di ferire
-ID:M4              	L113	V10:	Se non sa di ferire?
-ID:N12             	L138	V10:	Se non sà di ferire?
-ID:N13             	L162	V10:	Se non sà di ferire?
-ID:N15             	L186	V10:	Se non sà di ferire?
-ID:P4              	L212	V10:	Se non sa di ferire?
-ID:W               	L291	V10:	Se non sa di ferire!
-ID:S7              	L314	V10:	Se non sa di ferire?
-ID:S8              	L339	V10:	Se non sà di ferire?
-ID:S9              	L363	V10:	Se non sà di ferire?
-ID:S11             	L388	V10:	Se non sà di ferire?
-ID:S12             	L412	V10:	Se non sà di ferire?
-ID:S13             	L436	V10:	Se non sà di ferire?
-ID:S29             	L493	V10:	Se non sa di ferire?
+ID:E1              	L63	V10:	O beltà micidiale, et innocente
+ID:H3              	L88	V10:	Se non sa di ferire
+ID:M4              	L125	V10:	Se non sa di ferire?
+ID:N12             	L150	V10:	Se non sà di ferire?
+ID:N13             	L174	V10:	Se non sà di ferire?
+ID:N15             	L198	V10:	Se non sà di ferire?
+ID:P4              	L224	V10:	Se non sa di ferire?
+ID:W               	L303	V10:	Se non sa di ferire!
+ID:S7              	L326	V10:	Se non sa di ferire?
+ID:S8              	L351	V10:	Se non sà di ferire?
+ID:S9              	L375	V10:	Se non sà di ferire?
+ID:S11             	L400	V10:	Se non sà di ferire?
+ID:S12             	L424	V10:	Se non sà di ferire?
+ID:S13             	L448	V10:	Se non sà di ferire?
+ID:S29             	L505	V10:	Se non sa di ferire?
+ID:S145            	L573	V10:	Se non sà di ferire?
+ID:Trm0611a-Canto  	L620	V10:	Se non sa di ferire
+ID:Trm0611a-Alto   	L645	V10:	Se non sa di ferire
+ID:Trm0611a-Tenore 	L670	V10:	Se non sa di ferire
+ID:Trm0611a-Basso  	L695	V10:	Se non sa di ferire
+ID:Trm0611a-Quinto 	L720	V10:	Se non sa di ferire
+ID:Trm0611a-Sesto  	L745	V10:	Se non sa di ferire
+ID:Trm0611b-Canto  	L769	V10:	Se non sa di ferire
+ID:Trm0611b-Alto   	L793	V10:	Se non sa di ferire
+ID:Trm0611b-Tenore 	L817	V10:	Se non sa di ferire
+ID:Trm0611b-Basso  	L841	V10:	Se non sa di ferire
+ID:Trm0611b-Quinto 	L865	V10:	Se non sa di ferire
+ID:Trm0611c-Canto  	L889	V10:	S’ei non sa di ferire
+ID:Trm0611c-Alto   	L913	V10:	S’ei non sa di ferire
+ID:Trm0611c-Tenore 	L937	V10:	S’ei non sa di ferire
+ID:Trm0611c-Basso  	L961	V10:	S’ei non sa di ferire
+ID:Trm0611c-Quinto 	L985	V10:	S’ei non sa di ferire
+ID:Trm0611d-Canto  	L1009	V10:	Se non sa di ferire
+ID:Trm0611d-Alto   	L1033	V10:	Se non sa di ferire
+ID:Trm0611d-Tenore 	L1057	V10:	Se non sa di ferire
+ID:Trm0611d-Basso  	L1081	V10:	Se non sa di ferire
+ID:Trm0611d-Quinto 	L1105	V10:	Se non sa di ferire
+ID:Trm0611m-Canto  	L1592	V10:	Se non sa di ferire
+ID:Trm0611m-Tenore 	L1617	V10:	Se non sa di ferire
+ID:Trm0611m-Basso  	L1642	V10:	Se non sa di ferire
+ID:Trm0611n-Alto   	L1666	V10:	Se non sa di ferire
+ID:Trm0611n-Tenore 	L1690	V10:	Se non sa di ferire
+ID:Trm0611n-Quinto 	L1714	V10:	Se non sa di ferire
 
-ID:H3              	L78	V11:	O bellezza homicida, ed innocente
-ID:M4              	L114	V11:	Oh bellezza homicida, et innocente
-ID:N12             	L139	V11:	O' bellezza homicida, et innocente
-ID:N13             	L163	V11:	Oh bellezza homicida et innocente
-ID:N15             	L187	V11:	Oh bellezza homicida et innocente
-ID:P4              	L213	V11:	O' bellezza homicida, et innocente
-ID:W               	L292	V11:	Oh bellezza homicida et innocente!
-ID:S7              	L316	V11:	O bellezza homicida & innocente,
-ID:S8              	L340	V11:	O bellezza homicida, & innocente.
-ID:S9              	L364	V11:	O bellezza homicida, & innocente.
-ID:S11             	L389	V11:	O bellezza homicida, & innocente.
-ID:S12             	L413	V11:	O bellezza homicida, & innocente.
-ID:S13             	L437	V11:	O bellezza homicida, & innocente.
-ID:S29             	L494	V11:	O bellezza homicida, e innocente.
+ID:E1              	L64	V11:	Tempo è ben che ti mostri
+ID:H3              	L90	V11:	O bellezza homicida, ed innocente
+ID:M4              	L126	V11:	Oh bellezza homicida, et innocente
+ID:N12             	L151	V11:	O' bellezza homicida, et innocente
+ID:N13             	L175	V11:	Oh bellezza homicida et innocente
+ID:N15             	L199	V11:	Oh bellezza homicida et innocente
+ID:P4              	L225	V11:	O' bellezza homicida, et innocente
+ID:W               	L304	V11:	Oh bellezza homicida et innocente!
+ID:S7              	L328	V11:	O bellezza homicida & innocente,
+ID:S8              	L352	V11:	O bellezza homicida, & innocente.
+ID:S9              	L376	V11:	O bellezza homicida, & innocente.
+ID:S11             	L401	V11:	O bellezza homicida, & innocente.
+ID:S12             	L425	V11:	O bellezza homicida, & innocente.
+ID:S13             	L449	V11:	O bellezza homicida, & innocente.
+ID:S29             	L506	V11:	O bellezza homicida, e innocente.
+ID:S145            	L574	V11:	O bellezza omicida, & innocente,
+ID:Trm0611a-Canto  	L621	V11:	O bellezza homicida & innocente
+ID:Trm0611a-Alto   	L646	V11:	O bellezza homicida & innocente
+ID:Trm0611a-Tenore 	L671	V11:	O bellezza homicida & innocente
+ID:Trm0611a-Basso  	L696	V11:	O bellezza homicida & innocente
+ID:Trm0611a-Quinto 	L721	V11:	O bellezza homicida & innocente
+ID:Trm0611a-Sesto  	L746	V11:	O bellezza homicida & innocente
+ID:Trm0611b-Canto  	L770	V11:	O bellezz’homicida et innocente
+ID:Trm0611b-Alto   	L794	V11:	O bellezz’homicida et innocente
+ID:Trm0611b-Tenore 	L818	V11:	O bellezz’homicida et innocente
+ID:Trm0611b-Basso  	L842	V11:	O bellezz’homicida et innocente
+ID:Trm0611b-Quinto 	L866	V11:	O bellezz’homicida et innocente
+ID:Trm0611c-Canto  	L890	V11:	O bellezz’homicida & innocente
+ID:Trm0611c-Alto   	L914	V11:	O bellezz’homicida & innocente,
+ID:Trm0611c-Tenore 	L938	V11:	O bellezz’homicida & innocente,
+ID:Trm0611c-Basso  	L962	V11:	O bellezz’homicida & innocente,
+ID:Trm0611c-Quinto 	L986	V11:	O bellezz’homicida & innocente,
+ID:Trm0611d-Canto  	L1010	V11:	O bellezz’homicid’et innocente
+ID:Trm0611d-Alto   	L1034	V11:	O bellezz’homicid’et innocente
+ID:Trm0611d-Tenore 	L1058	V11:	O bellezz’homicid’et innocente
+ID:Trm0611d-Basso  	L1082	V11:	O bellezz’homicid’et innocente
+ID:Trm0611d-Quinto 	L1106	V11:	O bellezz’homicida et  innocente
+ID:Trm0611m-Canto  	L1593	V11:	O bellezza homicida & innocente
+ID:Trm0611m-Tenore 	L1618	V11:	O bellezza homicida & innocente
+ID:Trm0611m-Basso  	L1643	V11:	O bellezza homicida & innocente
+ID:Trm0611n-Alto   	L1667	V11:	O bellezz'homicida & innocente
+ID:Trm0611n-Tenore 	L1691	V11:	O bellezz'homicida & innocente
+ID:Trm0611n-Quinto 	L1715	V11:	O bellezz'homicida & innocente
 
-ID:H3              	L79	V12:	Tempo è ch’amor ti mostri
-ID:M4              	L115	V12:	Tempo è, ch’Amor ti mostri
-ID:N12             	L140	V12:	Tempo è ch’Amor ti mostri
-ID:N13             	L164	V12:	Tempo è ch’Amor ti mostri
-ID:N15             	L188	V12:	Tempo è ch’Amor ti mostri
-ID:P4              	L214	V12:	Temp'è ch’Amor ti mostri
-ID:W               	L293	V12:	Tempo è ch’homai le mostri
-ID:S7              	L317	V12:	Tempo è ch’amor ti mostri
-ID:S8              	L341	V12:	Tempo è, ch’Amor ti mostri
-ID:S9              	L365	V12:	Tempo è, ch’Amor ti mostri
-ID:S11             	L390	V12:	Tempo è, ch’Amor ti mostri
-ID:S12             	L414	V12:	Tempo è, ch’Amor ti mostri
-ID:S13             	L438	V12:	Tempo è, ch’Amor ti mostri
-ID:S29             	L495	V12:	Tempo è, ch’Amor ti mostri
+ID:E1              	L65	V12:	Ne le tue piaghe <del>homai</del> Amor gl’ <del>affanni</del> affanni nostri.
+ID:H3              	L91	V12:	Tempo è ch’amor ti mostri
+ID:M4              	L127	V12:	Tempo è, ch’Amor ti mostri
+ID:N12             	L152	V12:	Tempo è ch’Amor ti mostri
+ID:N13             	L176	V12:	Tempo è ch’Amor ti mostri
+ID:N15             	L200	V12:	Tempo è ch’Amor ti mostri
+ID:P4              	L226	V12:	Temp'è ch’Amor ti mostri
+ID:W               	L305	V12:	Tempo è ch’homai le mostri
+ID:S7              	L329	V12:	Tempo è ch’amor ti mostri
+ID:S8              	L353	V12:	Tempo è, ch’Amor ti mostri
+ID:S9              	L377	V12:	Tempo è, ch’Amor ti mostri
+ID:S11             	L402	V12:	Tempo è, ch’Amor ti mostri
+ID:S12             	L426	V12:	Tempo è, ch’Amor ti mostri
+ID:S13             	L450	V12:	Tempo è, ch’Amor ti mostri
+ID:S29             	L507	V12:	Tempo è, ch’Amor ti mostri
+ID:S145            	L575	V12:	Tempo è, ch’Amor ti mostri
+ID:Trm0611a-Canto  	L622	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611a-Alto   	L647	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611a-Tenore 	L672	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611a-Basso  	L697	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611a-Quinto 	L722	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611a-Sesto  	L747	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611b-Canto  	L771	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611b-Alto   	L795	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611b-Tenore 	L819	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611b-Basso  	L843	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611b-Quinto 	L867	V12:	Tempo è ch’amor ti mostri
+ID:Trm0611c-Canto  	L891	V12:	Temp’e c’homai ti mostri
+ID:Trm0611c-Alto   	L915	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611c-Tenore 	L939	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611c-Basso  	L963	V12:	Temp’e c’homai ti mostri
+ID:Trm0611c-Quinto 	L987	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611d-Canto  	L1011	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611d-Alto   	L1035	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611d-Tenore 	L1059	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611d-Basso  	L1083	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611d-Quinto 	L1107	V12:	Temp’e ch’amor ti mostri
+ID:Trm0611m-Canto  	L1594	V12:	Temp'è ch’amor ti mostri
+ID:Trm0611m-Tenore 	L1619	V12:	Temp'è ch’amor ti mostri
+ID:Trm0611m-Basso  	L1644	V12:	Temp'è ch’amor ti mostri
+ID:Trm0611n-Alto   	L1668	V12:	[TACET]
+ID:Trm0611n-Tenore 	L1692	V12:	Temp'è ch'amor ti mostri
+ID:Trm0611n-Quinto 	L1716	V12:	Temp'è ch'amor ti mostri
 
-ID:H3              	L80	V13:	Homai nelle tue piaghe i dolor nostri.
-ID:M4              	L116	V13:	Homai nelle tue piaghe i dolor nostri.
-ID:N12             	L141	V13:	Homai nelle tue piaghe i dolor nostri.
-ID:N13             	L165	V13:	Homai nelle tue piaghe i dolor nostri.
-ID:N15             	L189	V13:	Homai nelle tue piaghe i dolor nostri.
-ID:P4              	L215	V13:	Hormai ne le tue piaghe i dolor nostri.
-ID:W               	L294	V13:	Amor nele sue piaghe i dolor nostri.
-ID:S7              	L318	V13:	Hormai nele tue piaghe i dolor nostri.
-ID:S8              	L342	V13:	Homai ne le tue piaghe i dolor nostri.
-ID:S9              	L366	V13:	Homai ne le tue piaghe i dolor nostri.
-ID:S11             	L391	V13:	Homai ne le tue piaghe i dolor nostri.
-ID:S12             	L415	V13:	Homai ne le tue piaghe i dolor nostri.
-ID:S13             	L439	V13:	Homai ne le tue piaghe i dolor nostri.
-ID:S29             	L496	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:H3              	L92	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:M4              	L128	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:N12             	L153	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:N13             	L177	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:N15             	L201	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:P4              	L227	V13:	Hormai ne le tue piaghe i dolor nostri.
+ID:W               	L306	V13:	Amor nele sue piaghe i dolor nostri.
+ID:S7              	L330	V13:	Hormai nele tue piaghe i dolor nostri.
+ID:S8              	L354	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:S9              	L378	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:S11             	L403	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:S12             	L427	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:S13             	L451	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:S29             	L508	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:S145            	L576	V13:	Omai ne le tue piaghe i dolor nostri.
+ID:Trm0611a-Canto  	L623	V13:	Hormai nelle tue piaghe i dolor nostri.
+ID:Trm0611a-Alto   	L648	V13:	Hormai nelle tue piaghe i dolor nostri.
+ID:Trm0611a-Tenore 	L673	V13:	Hormai nelle tue piaghe i dolor nostri.
+ID:Trm0611a-Basso  	L698	V13:	Hormai nelle tue piaghe i dolor nostri.
+ID:Trm0611a-Quinto 	L723	V13:	Hormai nelle tue piaghe i dolor nostri.
+ID:Trm0611a-Sesto  	L748	V13:	Hormai nelle tue piaghe i dolor nostri.
+ID:Trm0611b-Canto  	L772	V13:	homai nelle tue piaghe i dolor nostri.
+ID:Trm0611b-Alto   	L796	V13:	homai nelle tue piaghe i dolor nostri.
+ID:Trm0611b-Tenore 	L820	V13:	homai nelle tue piaghe i dolor nostri.
+ID:Trm0611b-Basso  	L844	V13:	homai nelle tue piaghe i dolor nostri.
+ID:Trm0611b-Quinto 	L868	V13:	homai nelle tue piaghe i dolor nostri.
+ID:Trm0611c-Canto  	L892	V13:	Omai nelle tue piagh’i dolor nostri.
+ID:Trm0611c-Alto   	L916	V13:	Omai nelle tue piagh’i dolor nostri.
+ID:Trm0611c-Tenore 	L940	V13:	Omai nelle tue piagh’i dolor nostri.
+ID:Trm0611c-Basso  	L964	V13:	Omai nelle tue piagh’i dolor nostri.
+ID:Trm0611c-Quinto 	L988	V13:	Omai nelle tue piagh’i dolor nostri.
+ID:Trm0611d-Canto  	L1012	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:Trm0611d-Alto   	L1036	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:Trm0611d-Tenore 	L1060	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:Trm0611d-Basso  	L1084	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:Trm0611d-Quinto 	L1108	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:Trm0611m-Canto  	L1595	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:Trm0611m-Tenore 	L1620	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:Trm0611m-Basso  	L1645	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:Trm0611n-Alto   	L1669	V13:	Homai nelle tue piaghe i dolor nostri.
+ID:Trm0611n-Tenore 	L1693	V13:	Homai ne le tue piaghe i dolor nostri.
+ID:Trm0611n-Quinto 	L1717	V13:	Homai ne le tue piaghe i dolor nostri.
 

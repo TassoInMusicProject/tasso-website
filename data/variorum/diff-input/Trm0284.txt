@@ -1,56 +1,152 @@
-ID:S8              	L72	V1:	Questa vostra pietate
-ID:S9              	L91	V1:	Questa vostra pietate
-ID:S11             	L110	V1:	Questa vostra pietate
-ID:S12             	L129	V1:	Questa vostra pietate
-ID:S13             	L148	V1:	Questa vostra pietate
-ID:S29             	L200	V1:	Questa vostra pietate
+ID:E1              	L21	V1:	Questa vostra pietate
+ID:S8              	L80	V1:	Questa vostra pietate
+ID:S9              	L99	V1:	Questa vostra pietate
+ID:S11             	L118	V1:	Questa vostra pietate
+ID:S12             	L137	V1:	Questa vostra pietate
+ID:S13             	L156	V1:	Questa vostra pietate
+ID:S29             	L208	V1:	Questa vostra pietate
+ID:Trm0284c-Canto  	L371	V1:	Questa vostra pietate
+ID:Trm0284c-Alto   	L390	V1:	Questa vostra pietate
+ID:Trm0284c-Tenore 	L409	V1:	Questa vostra pietate
+ID:Trm0284c-Basso  	L428	V1:	Questa vostra pietate
+ID:Trm0284c-Quinto 	L447	V1:	Questa vostra pietate
+ID:Trm0284e-Alto   	L510	V1:	Questa vostra pietate
+ID:Trm0284e-Tenore 	L529	V1:	[TACET]
+ID:Trm0284e-Quinto 	L548	V1:	Questa vostra pietate
+ID:Trm0284i-Basso  	L721	V1:	Questa vostra pietade
+ID:Trm0284k-Alto   	L762	V1:	Questa vostra pietate
+ID:Trm0284k-Basso  	L781	V1:	Questa vostra pietate
 
-ID:S8              	L73	V2:	Non refrigerio al core,
-ID:S9              	L92	V2:	Non refrigerio al core,
-ID:S11             	L111	V2:	Non refrigerio al core,
-ID:S12             	L130	V2:	Non refrigerio al core,
-ID:S13             	L149	V2:	Non refrigerio al core,
-ID:S29             	L201	V2:	Non refrigerio al core,
+ID:E1              	L22	V2:	Non refrigerio al core
+ID:S8              	L81	V2:	Non refrigerio al core,
+ID:S9              	L100	V2:	Non refrigerio al core,
+ID:S11             	L119	V2:	Non refrigerio al core,
+ID:S12             	L138	V2:	Non refrigerio al core,
+ID:S13             	L157	V2:	Non refrigerio al core,
+ID:S29             	L209	V2:	Non refrigerio al core,
+ID:Trm0284c-Canto  	L372	V2:	Non refrigerio al core
+ID:Trm0284c-Alto   	L391	V2:	Non refrigerio al core
+ID:Trm0284c-Tenore 	L410	V2:	Non refrigerio al core
+ID:Trm0284c-Basso  	L429	V2:	Non refrigerio al core
+ID:Trm0284c-Quinto 	L448	V2:	Non refrigerio al core
+ID:Trm0284e-Alto   	L511	V2:	Non refrigerio al core
+ID:Trm0284e-Tenore 	L530	V2:	[TACET]
+ID:Trm0284e-Quinto 	L549	V2:	Non refrigerio al core
+ID:Trm0284i-Basso  	L722	V2:	Non refrigerio al core
+ID:Trm0284k-Alto   	L763	V2:	Non refrigerio al core
+ID:Trm0284k-Basso  	L782	V2:	Non refrigerio al core
 
-ID:S8              	L74	V3:	Ma dà forza a l’ardore,
-ID:S9              	L93	V3:	Ma dà forza a l’ardore,
-ID:S11             	L112	V3:	Ma dà forza à l’ardore,
-ID:S12             	L131	V3:	Ma dà forza à l’ardore,
-ID:S13             	L150	V3:	Ma dà forza à l’ardore,
-ID:S29             	L202	V3:	Ma dà forza a l’ardore.
+ID:E1              	L23	V3:	Ma da forza à l’ardore;
+ID:S8              	L82	V3:	Ma dà forza a l’ardore,
+ID:S9              	L101	V3:	Ma dà forza a l’ardore,
+ID:S11             	L120	V3:	Ma dà forza à l’ardore,
+ID:S12             	L139	V3:	Ma dà forza à l’ardore,
+ID:S13             	L158	V3:	Ma dà forza à l’ardore,
+ID:S29             	L210	V3:	Ma dà forza a l’ardore.
+ID:Trm0284c-Canto  	L373	V3:	Ma giunge esca a l’ardore
+ID:Trm0284c-Alto   	L392	V3:	Ma giunge esca a l’ardore
+ID:Trm0284c-Tenore 	L411	V3:	Ma giunge esca a l’ardore
+ID:Trm0284c-Basso  	L430	V3:	Ma giunge esca a l’ardore
+ID:Trm0284c-Quinto 	L449	V3:	Ma giunge esca a l’ardore
+ID:Trm0284e-Alto   	L512	V3:	Ma da forz'à l’ardore
+ID:Trm0284e-Tenore 	L531	V3:	Ma da forz'à l’ardore
+ID:Trm0284e-Quinto 	L550	V3:	Ma da forz'à l’ardore
+ID:Trm0284i-Basso  	L723	V3:	Ma da forz’all’ardore
+ID:Trm0284k-Alto   	L764	V3:	Ma da forz’all’ardore
+ID:Trm0284k-Basso  	L783	V3:	Ma da forz’all’ardore
 
-ID:S8              	L75	V4:	Dunque d’esser pietosa homai cessate
-ID:S9              	L94	V4:	Dunque d’esser pietosa homai cessate
-ID:S11             	L113	V4:	Dunque d’esser pietosa homai cessate
-ID:S12             	L132	V4:	Dunque d’esser pietosa homai cessate
-ID:S13             	L151	V4:	Dunque d’esser pietosa homai cessate
-ID:S29             	L204	V4:	Dunque d’esser pietosa homai cessate,
+ID:E1              	L24	V4:	Dunque d’esser pietosa homai cessate,
+ID:S8              	L83	V4:	Dunque d’esser pietosa homai cessate
+ID:S9              	L102	V4:	Dunque d’esser pietosa homai cessate
+ID:S11             	L121	V4:	Dunque d’esser pietosa homai cessate
+ID:S12             	L140	V4:	Dunque d’esser pietosa homai cessate
+ID:S13             	L159	V4:	Dunque d’esser pietosa homai cessate
+ID:S29             	L212	V4:	Dunque d’esser pietosa homai cessate,
+ID:Trm0284c-Canto  	L374	V4:	Dunque d’esser pietos’homai cessate
+ID:Trm0284c-Alto   	L393	V4:	Dunque d’esser pietos’homai cessate
+ID:Trm0284c-Tenore 	L412	V4:	Dunque d’esser pietos’homai cessate
+ID:Trm0284c-Basso  	L431	V4:	Dunque d’esser pietos’homai cessate
+ID:Trm0284c-Quinto 	L450	V4:	Dunque d’esser pietos’homai cessate
+ID:Trm0284e-Alto   	L513	V4:	Dunque d’esser pietosa homai cessate
+ID:Trm0284e-Tenore 	L532	V4:	Dunque d’esser pietosa homai cessate
+ID:Trm0284e-Quinto 	L551	V4:	Dunque d’esser pietosa homai cessate
+ID:Trm0284i-Basso  	L724	V4:	Dunque d’esser pietosa hormai cessate
+ID:Trm0284k-Alto   	L765	V4:	Dunque d’esser pietos’homai cessate
+ID:Trm0284k-Basso  	L784	V4:	Donque d’esser pietos’homai cessate
 
-ID:S8              	L76	V5:	In questa strana guisa,
-ID:S9              	L95	V5:	In così strana guisa,
-ID:S11             	L114	V5:	In cosi strana guisa,
-ID:S12             	L133	V5:	In cosi strana guisa,
-ID:S13             	L152	V5:	In cosi strana guisa,
-ID:S29             	L205	V5:	In cosi strana guisa,
+ID:E1              	L25	V5:	In così strana guisa,
+ID:S8              	L84	V5:	In questa strana guisa,
+ID:S9              	L103	V5:	In così strana guisa,
+ID:S11             	L122	V5:	In cosi strana guisa,
+ID:S12             	L141	V5:	In cosi strana guisa,
+ID:S13             	L160	V5:	In cosi strana guisa,
+ID:S29             	L213	V5:	In cosi strana guisa,
+ID:Trm0284c-Canto  	L375	V5:	In cosi strana guisa
+ID:Trm0284c-Alto   	L394	V5:	In cosi strana guisa
+ID:Trm0284c-Tenore 	L413	V5:	In cosi strana guisa
+ID:Trm0284c-Basso  	L432	V5:	In cosi strana guisa
+ID:Trm0284c-Quinto 	L451	V5:	In cosi strana guisa
+ID:Trm0284e-Alto   	L514	V5:	In cosi strana guisa
+ID:Trm0284e-Tenore 	L533	V5:	In cosi strana guisa
+ID:Trm0284e-Quinto 	L552	V5:	In cosi strana guisa
+ID:Trm0284i-Basso  	L725	V5:	In così strana guisa,
+ID:Trm0284k-Alto   	L766	V5:	In cosi strana guisa
+ID:Trm0284k-Basso  	L785	V5:	In cosi strana guisa
 
-ID:S8              	L77	V6:	Che ne sia l’alma uccisa,
-ID:S9              	L96	V6:	Che ne sia l’alma uccisa,
-ID:S11             	L115	V6:	Che ne sia l’alma uccisa,
-ID:S12             	L134	V6:	Che ne sia l’alma uccisa,
-ID:S13             	L153	V6:	Che ne sia l’alma uccisa,
-ID:S29             	L206	V6:	Che ne sia l’alma uccisa;
+ID:E1              	L26	V6:	Che ne sia l’alma uccisa,
+ID:S8              	L85	V6:	Che ne sia l’alma uccisa,
+ID:S9              	L104	V6:	Che ne sia l’alma uccisa,
+ID:S11             	L123	V6:	Che ne sia l’alma uccisa,
+ID:S12             	L142	V6:	Che ne sia l’alma uccisa,
+ID:S13             	L161	V6:	Che ne sia l’alma uccisa,
+ID:S29             	L214	V6:	Che ne sia l’alma uccisa;
+ID:Trm0284c-Canto  	L376	V6:	Che ne sia l’alma uccisa
+ID:Trm0284c-Alto   	L395	V6:	Che ne sia l’alma uccisa
+ID:Trm0284c-Tenore 	L414	V6:	Che ne sia l’alma uccisa
+ID:Trm0284c-Basso  	L433	V6:	Che ne sia l’alma uccisa
+ID:Trm0284c-Quinto 	L452	V6:	Che ne sia l’alma uccisa
+ID:Trm0284e-Alto   	L515	V6:	Che ne sia l’alm'uccisa
+ID:Trm0284e-Tenore 	L534	V6:	Che ne sia l’alm'uccisa
+ID:Trm0284e-Quinto 	L553	V6:	Che ne sia l’alm'uccisa
+ID:Trm0284i-Basso  	L726	V6:	Che ne sia l’Alm’ancisa,
+ID:Trm0284k-Alto   	L767	V6:	Che ne sia l’alm’ucisa
+ID:Trm0284k-Basso  	L786	V6:	Che ne sia l’alm’uccisa
 
-ID:S8              	L78	V7:	Perch’ella vi desia
-ID:S9              	L97	V7:	Perch’ella vi desia
-ID:S11             	L116	V7:	Perch’ella vi desia
-ID:S12             	L135	V7:	Perch’ella vi desia
-ID:S13             	L154	V7:	Perch’ella vi desia
-ID:S29             	L207	V7:	Perch’ella vi desia
+ID:E1              	L27	V7:	Perch'ella vi desia
+ID:S8              	L86	V7:	Perch’ella vi desia
+ID:S9              	L105	V7:	Perch’ella vi desia
+ID:S11             	L124	V7:	Perch’ella vi desia
+ID:S12             	L143	V7:	Perch’ella vi desia
+ID:S13             	L162	V7:	Perch’ella vi desia
+ID:S29             	L215	V7:	Perch’ella vi desia
+ID:Trm0284c-Canto  	L377	V7:	Perch’ella vi desia
+ID:Trm0284c-Alto   	L396	V7:	Perch’ella vi desia
+ID:Trm0284c-Tenore 	L415	V7:	Perch’ella vi desia
+ID:Trm0284c-Basso  	L434	V7:	Perch’ella vi desia
+ID:Trm0284c-Quinto 	L453	V7:	Perch’ella vi desia
+ID:Trm0284e-Alto   	L516	V7:	Perch’ella vi desia
+ID:Trm0284e-Tenore 	L535	V7:	Perch’ella vi desia
+ID:Trm0284e-Quinto 	L554	V7:	Perch’ella vi desia
+ID:Trm0284i-Basso  	L727	V7:	Poi ch’ella vi desia
+ID:Trm0284k-Alto   	L768	V7:	Perch’ella vi desia
+ID:Trm0284k-Basso  	L787	V7:	Perch’ella vi desia
 
-ID:S8              	L79	V8:	O in estremo crudele, ò in tutto pia.
-ID:S9              	L98	V8:	O in estremo crudele, ò in tutto pia.
-ID:S11             	L117	V8:	O in estremo crudele, ò in tutto pia.
-ID:S12             	L136	V8:	O in estremo crudele, ò in tutto pia.
-ID:S13             	L155	V8:	O in estremo crudele, ò in tutto pia.
-ID:S29             	L208	V8:	O in estremo crudele, ò in tutto pia.
+ID:E1              	L28	V8:	crudele oltremisura, o ‘n tutto pia
+ID:S8              	L87	V8:	O in estremo crudele, ò in tutto pia.
+ID:S9              	L106	V8:	O in estremo crudele, ò in tutto pia.
+ID:S11             	L125	V8:	O in estremo crudele, ò in tutto pia.
+ID:S12             	L144	V8:	O in estremo crudele, ò in tutto pia.
+ID:S13             	L163	V8:	O in estremo crudele, ò in tutto pia.
+ID:S29             	L216	V8:	O in estremo crudele, ò in tutto pia.
+ID:Trm0284c-Canto  	L378	V8:	O in estremo crudel o in tutto pia.
+ID:Trm0284c-Alto   	L397	V8:	O in estremo crudel’o in tutto pia.
+ID:Trm0284c-Tenore 	L416	V8:	O in estremo crudel o in tutto pia.
+ID:Trm0284c-Basso  	L435	V8:	O in estremo crudel’o in tutto pia.
+ID:Trm0284c-Quinto 	L454	V8:	O in estremo crudel o in tutto pia.
+ID:Trm0284e-Alto   	L517	V8:	O in estremo crudel o in tutto pia.
+ID:Trm0284e-Tenore 	L536	V8:	O in estremo crudel o in tutto pia.
+ID:Trm0284e-Quinto 	L555	V8:	O in estremo crudel o in tutto pia.
+ID:Trm0284i-Basso  	L728	V8:	O in estremo crudel ò in tutto pia.
+ID:Trm0284k-Alto   	L769	V8:	O in estremo crudel’ò in tutto Pia.
+ID:Trm0284k-Basso  	L788	V8:	O in estremo crudel’ò in tutto Pia.
 

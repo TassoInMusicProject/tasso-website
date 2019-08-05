@@ -169,7 +169,7 @@ print "READING FROM LINE $i : $line\n";
 	#    LIBRARY:      
 	#    LIBRARY_CITY:
 	#    LIBRARY_COUNTRY:
-	# DEDICATION: rempping of PARATEXT
+	# DEDICATION: remapping of PARATEXT
 
 	my %m;
 	my @loc;

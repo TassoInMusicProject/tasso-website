@@ -33,4 +33,8 @@ diff:
 		bin/diffmark $$i > diff-input/`basename $$i .aton`.txt; \
 	done
 
+undiff:
+	bin/undiff
+
+
 

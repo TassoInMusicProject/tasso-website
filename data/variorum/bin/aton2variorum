@@ -189,6 +189,7 @@ print "READING FROM LINE $i : $line\n";
 		$data{'CALLNUM'} = $m{'SIGLUM'};
 		$data{'DESCRIPTION'} = $m{'DESCRIPTION'};
 		$data{'URL'} = $m{'URL'};
+		$data{'URL'} =~ s/&/\&amp;/g;
 		@loc = split(/\s*,\s*/, $m{'LOCATION'});
 		if (@loc == 2) {
 			# MANUSCRIOT->LOCATION: Biblioteca Vaticana, Vatican City
@@ -267,6 +268,7 @@ print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
 		%p = %$pp;
 		$data{'PRINTTITLE'}  = $p{'PRINTTITLE'};    # title
 		$data{'URL'}         = $p{'URL'};           # URL to scan
+		$data{'URL'} =~ s/&/\&amp;/g;
 		$data{'PUBLISHER'}   = $p{'PUBLISHER'};     # publisher
 		$data{'PUBLOCATION'} = $p{'PUBLOCATION'};   # pubPlace
 		$data{'PUBYEAR'}     = $p{'PUBYEAR'};       # date

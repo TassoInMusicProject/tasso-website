@@ -4,15 +4,16 @@
 @CATALOGNUM: Trm0275a
 
 @PRINCIPAL_SOURCE:
-{{RISM "1588-14"}}
+{{risminfo "1588-14"}}
 
-{{RISM "1592-12"}}
+@PRINCIPAL_SOURCE:
+{{risminfo "1592-12"}}
 
 @OTHER_SOURCE:
 
 @EMENDED_READING:
 {{M 26 27}}, B, text reads "venti"
-<br/>
+<br/> jytffr
 {{M 30 31}}, B, text reads "venti"
 
 @OTHER_CRITICAL_NOTES:

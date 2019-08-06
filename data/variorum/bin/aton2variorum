@@ -257,17 +257,7 @@ print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
 
 
 		if ($pp =~ /^\s*$/) {
-print STDERR "XPID = $pid\n";
 			$pp = $PRINTS{"S$pid"};
-print STDERR %PRINTS;
-print "\n";
-foreach my $item (keys %PRINTS) {
-	print "\tKEY = $item\n";
-}
-print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
-print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
-print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
-print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
 		}
 		
 		if ($pp =~ /^\s*$/) {
@@ -276,6 +266,7 @@ print STDERR "GOT HERE BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n";
 
 		%p = %$pp;
 		$data{'PRINTTITLE'}  = $p{'PRINTTITLE'};    # title
+		$data{'URL'}         = $p{'URL'};           # URL to scan
 		$data{'PUBLISHER'}   = $p{'PUBLISHER'};     # publisher
 		$data{'PUBLOCATION'} = $p{'PUBLOCATION'};   # pubPlace
 		$data{'PUBYEAR'}     = $p{'PUBYEAR'};       # date
@@ -433,10 +424,6 @@ sub printPrintDesc {
 	my $id = $PARAM{'ID'};
 	if ($id =~ /^\d/) {
 		$id = "S$id";
-print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
-print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
-print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
-print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
 	}
 	indent($n); print VFILE "<bibl xml:id=\"$id\">\n";
 	printPrintBibl($n+1);
@@ -463,6 +450,7 @@ print STDERR "GOT HERE DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n";
 sub printPrintBibl {
 	my ($n) = @_;
 	indent($n); print VFILE "<title>$PARAM{'PRINTTITLE'}</title>\n";
+	indent($n); print VFILE "<url>$PARAM{'URL'}</url>\n";
 	indent($n); print VFILE "<publisher>$PARAM{'PUBLISHER'}</publisher>\n";
 	indent($n); print VFILE "<pubPlace>$PARAM{'PUBLOCATION'}</pubPlace>\n";
 	indent($n); print VFILE "<date when=\"$PARAM{'PUBYEAR'}\">$PARAM{'PUBYEAR'}</date>\n";

@@ -46,7 +46,7 @@ my $i = 0;
 my $lasti = $i;
 while ($i < @contents) {
 	$i = createVariorumXml($i, @contents);
-print "PROCESSING FROM LINE $i\n";
+	# print "PROCESSING FROM LINE $i\n";
 	die "Strange error on line $i " if $i < $lasti;
 	$lasti = $i;
 }
@@ -94,7 +94,7 @@ sub createVariorumXml {
 	for (my $i=$starti; $i<@contents; $i++) {
 		my $line = $contents[$i];
 		chomp $line;
-print "READING FROM LINE $i : $line\n";
+#print "READING FROM LINE $i : $line\n";
 		if (!$foundstart) {
 			if ($line =~ /^\@\@BEGIN\s*:\s*VARIORUM/) {
 				if ($active) {
@@ -154,8 +154,8 @@ print "READING FROM LINE $i : $line\n";
 	my $vtest = $data{"VERSE"};
 	$vtest =~ s/\@VERSE://g;
 	if ($vtest =~ /^\s*$/) {
-		print "No verse content for ID $data{'CATALOGNUM'} data is: $data{'DATA'}, so can't write a file.\n";
-		print "STARTI $starti ENDI $endi\n";
+		# print "No verse content for ID $data{'CATALOGNUM'} data is: $data{'DATA'}, so can't write a file.\n";
+		# print "STARTI $starti ENDI $endi\n";
 		return $endi;
 	}
 
@@ -225,18 +225,29 @@ print "READING FROM LINE $i : $line\n";
 			return $endi;
 		}
 		%s = %$ss;
+		my $tid = $s{'PRINCEPSRISM'};
+		$tid =~ s/\s//g;
+		my $tt = $SOURCES{$tid};
+		my %t = ();
+		if ($tt) {
+			%t = %$tt;
+		}
 		$data{'PRINCEPSTITLE'} = $s{'PRINCEPSTITLE'};      # title
 		$data{'COMPOSER'}      = $s{'COMPOSER'};           # author@role="composer"
 		$data{'NORMPUBSHORT'}  = $s{'NORMPUBSHORT'};       # publisher
 		$data{'NORMLOC'}       = $s{'NORMLOC'};            # publisher location
 		$data{'PRINCEPSYEAR'}  = $s{'PRINCEPSYEAR'};       # publication year
 		$data{'PRINCEPSRISM'}  = $s{'PRINCEPSRISM'};       # idno  (RISM number)
+		my $surl = $t{'SRCURL'};
+		$surl =~ s/&/\&amp;/g;
+		$data{'URL'}           = $surl;
+		# @SRCURL:	http://img.kb.dk/ma/pre1700/aagesen.pdf
 	}
 
 	my %p;
 	if ($data{"TYPE"} =~ /print/i) {
 		my $pid = $data{"ID"};
-		print "PID = $pid\n";
+		# print "PID = $pid\n";
 		my $pp = $PRINTS{$pid};
 
 		if ($pp =~ /^\s*$/) {
@@ -248,10 +259,6 @@ print "READING FROM LINE $i : $line\n";
 		if ($data{"ID"} =~ /^\d/) {
 			# id must start with a letter, using "S":
 			$data{"XMLID"} = "S$data{'ID'}";
-print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
-print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
-print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
-print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
 		} else {
 			$data{"XMLID"} = "$data{'ID'}";
 		}
@@ -293,7 +300,7 @@ print STDERR "GOT HERE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
 	#}
 	#print "\n\n";
 
-print "VARIORUM XML FOR $data{'CATALOGNUM'} ID $data{'ID'}\n";
+	# print "VARIORUM XML FOR $data{'CATALOGNUM'} ID $data{'ID'}\n";
 	printVariorumXml($data{'CATALOGNUM'}, $data{'ID'});
 
 	return $endi;
@@ -509,6 +516,7 @@ print STDERR "GOT HERE EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n";
 sub printMusicBibl {
 	my ($n) = @_;
 	indent($n); print VFILE "<title>$PARAM{'PRINCEPSTITLE'}</title>\n";
+	indent($n); print VFILE "<url>$PARAM{'URL'}</url>\n";
 	indent($n); print VFILE "<author role=\"composer\">$PARAM{'COMPOSER'}</author>\n";
 	indent($n); print VFILE "<publisher>$PARAM{'NORMPUBSHORT'}</publisher>\n";
 	indent($n); print VFILE "<pubPlace>$PARAM{'NORMLOC'}</pubPlace>\n";
@@ -711,7 +719,7 @@ sub printTitleStmt {
 	indent($n); print VFILE "<titleStmt>\n";
 	indent($n+1);
 	print VFILE "<title>";
-print "TITLE : $PARAM{'TITLE'}\n";
+	# print "TITLE : $PARAM{'TITLE'}\n";
 	print VFILE $PARAM{'TITLE'};
 	print VFILE "</title>\n";
 	indent($n); print VFILE "</titleStmt>\n";
@@ -1226,7 +1234,7 @@ sub cleanForXml {
 
 sub getAtonEntries {
 	my ($datafile, $ATONTAG, $IDTAG) = @_;
-print STDERR "GETTING ID ATONTAG $ATONTAG FOR IDTAG $IDTAG in file $datafile\n";
+	# print STDERR "GETTING ID ATONTAG $ATONTAG FOR IDTAG $IDTAG in file $datafile\n";
 	my %output;
 	open (DFILE, $datafile) or die "Cannot read manuscripts from $datafile\n";
 	my @contents = <DFILE>;
@@ -1244,7 +1252,7 @@ print STDERR "GETTING ID ATONTAG $ATONTAG FOR IDTAG $IDTAG in file $datafile\n";
 			# %entry = %$hentry;
 			#$key = $$hentry{$IDTAG};
 			$key = cleanKey($$hentry{$IDTAG});
-print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>  CLEAN KEY IS SET TO $key\n";
+			# print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>  CLEAN KEY IS SET TO $key\n";
 			if ($key !~ /^\s*$/) {
 				# ignore entries with no ID (possible in sources.aton)
 				if ($output{$key} ne "") {
@@ -1292,7 +1300,7 @@ sub getAtonEntry {
 		} elsif ($line =~ /^\@([^:\@]+)\s*:\s*(.*)\s*$/) {
 			$key = $1;
 			$value = $2;
-print "KEY = $key\tVALUE = $value\n";
+			# print "KEY = $key\tVALUE = $value\n";
 			if (($key eq "VERSE") || ($key eq "TVERSE")) {
 				$entry{"VERSE_COUNT"}++;
 				$entry{$key} .= "\n$value";

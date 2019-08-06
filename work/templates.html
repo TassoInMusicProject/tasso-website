@@ -264,10 +264,10 @@
 	<h3>Musical sources</h3>
 
 	<div class="indent">
-		<h4>Principal source</h4>
-		{{{sourceinfo SOURCE}}}
+		<h4>Principal sources</h4>
+		<div id="primary_sources">PRIMARY SOURCE GO HERE</div>
 
-		<h4>Other sources consulted</h4>
+		<h4>Other sources</h4>
 		<div id="other_sources">OTHER SOURCE GO HERE</div>
 	</div>
 
@@ -652,7 +652,6 @@ Handlebars.registerHelper("voices", function(evoice, ovoice, source, setting) {
 	if ((!ovoice) && (!evoice)) {
 		return new Handlebars.SafeString("");
 	}
-console.log("EVOICE", evoice);
 	if (!ovoice) {
 		ovoice = "";
 	}
@@ -693,7 +692,6 @@ console.log("EVOICE", evoice);
 		epartbooks = " (" + source.EXTPARTBOOKS + ")";
 	}
 
-console.log("GOT HERE SETTING IS", setting);
 	var opartbooks = "";
 	if (setting && setting.PARTBOOKS) {
 		opartbooks = " (" + setting.PARTBOOKS + ")";
@@ -765,7 +763,6 @@ Handlebars.registerHelper("sourceinfo", function(source) {
 
 
 function displaySourceInformation(source) {
-
 	var text = "";
 	text += "<table class='sourceinfo'>";
 

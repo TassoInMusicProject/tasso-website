@@ -579,7 +579,7 @@ function applyNoWorkClass() {
 		if (!td) {
 			continue;
 		}
-		var catalog = td.innerText;
+		var catalog = td.innerText.replace(/^C/, "");  // replace needed for cycle marker.
 		if ((!catalog.match(/Trm1643/)) && (!rlist[catalog])) {
 			rows[i].classList.add("nowork");
 			var tds = rows[i].querySelectorAll("td");

@@ -46,7 +46,7 @@
 	{{#each this}}
 {{{printobject this}}}
 		<tr class="data" style="vertical-align:top">
-			<td class="id" id="{{CATALOGNUM}}" onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{CATALOGNUM}}</td>
+			<td class="id" id="{{CATALOGNUM}}" onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;">{{catalogNum CATALOGNUM}}</td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" style="cursor:pointer; padding-right:20px;"><nobr>{{shortName COMPOSER}}</nobr></td>
 			<td onclick="displaySingleWork('{{CATALOGNUM}}');" align="left" style="padding-right:20px'">{{{publicationfull this}}}</td>
 			<td class="voices" onclick="displaySingleWork('{{CATALOGNUM}}');" align="center" style="padding-right:20px'">{{{voices OVOICES EXTANTVOICES}}}</td>
@@ -70,7 +70,6 @@
 //
 
 Handlebars.registerHelper("trclass", function(entry) {
-console.log("ENTRY", entry);
 	var output = "";
 	if (entry.SCOREDATA) {
 		output += "<tr class='data haswork'>";
@@ -848,6 +847,60 @@ Handlebars.registerHelper("finalis", function(object) {
 	// Force pitch name to upper case if it is not already:
 	return new Handlebars.SafeString(object.FINAL.toUpperCase());
 });
+
+
+
+
+//////////////////////////////
+//
+// catalogNum Handlebar helper -- Displays a "C" superscript if the work is in a cycle.
+//
+
+Handlebars.registerHelper("catalogNum", function(catalognum) {
+	if (!catalognum) {
+		return new Handlebars.SafeString("ERROR");
+	}
+	var cycle = RCYCLE[catalognum];
+	if (cycle) {
+		var text = cycle.sequence;
+		if (text == 1) { text = "first" }
+		else if (text == 2) { text = "second" }
+		else if (text == 3) { text = "third" }
+		else if (text == 4) { text = "fourth" }
+		else if (text == 5) { text = "fifth" }
+		else if (text == 6) { text = "sixth" }
+		else if (text == 7) { text = "seventh" }
+		else if (text == 8) { text = "eighth" }
+		else if (text == 9) { text = "9th" }
+		else if (text == 10) { text = "10th" }
+		else if (text == 11) { text = "11th" }
+		else if (text == 12) { text = "12th" }
+		else if (text == 13) { text = "13th" }
+		else if (text == 14) { text = "14th" }
+		else if (text == 15) { text = "15th" }
+		else if (text == 16) { text = "16th" }
+		else if (text == 17) { text = "17th" }
+		else if (text == 18) { text = "18th" }
+		else if (text == 19) { text = "19th" }
+		else if (text == 20) { text = "20th" }
+		var output = "";
+		output += "<sup ";
+		output += " onclick='showCycle(\"" + catalognum + "\")'";
+		output += " title='" + text + " of " + cycle.count + " works in a cycle'";
+		output += "style='padding-right:5px; color:#96835c;'";
+		output += "><b>C</b></sup>";
+		output += catalognum;
+		return new Handlebars.SafeString(output);
+	} else {
+		return new Handlebars.SafeString(catalognum);
+	}
+});
+
+
+function showCycle(catalognum) {
+	window.open("/cycle/?id=" + catalognum, "_blank");
+}
+
 
 
 

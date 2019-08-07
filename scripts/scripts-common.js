@@ -1,3 +1,5 @@
+---
+---
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 // Creation Date: Thu Aug 21 12:59:01 PDT 2014
@@ -20,6 +22,18 @@ var PDFTARGET      = 'target="new"';		 // Display PDF files in separate tab/wind
 var AUDIO          = null;						 // HTML5 audio interface ID.
 var AUDIOjrpid     = '';  						 // currently playing audio file.
 var AUDIOid        = '';                   // currently playing audio button.
+
+var CYCLES = {% include cycles/cycle-list.json %}
+var RCYCLE = {};
+for (var i=0; i<CYCLES.length; i++) {
+	for (var j=0; j<CYCLES[i].length; j++) {
+		RCYCLE[CYCLES[i][j]] = {};
+		RCYCLE[CYCLES[i][j]].cycle    = CYCLES[i];
+		RCYCLE[CYCLES[i][j]].count    = CYCLES[i].length;
+		RCYCLE[CYCLES[i][j]].sequence = j+1;
+		
+	}
+}
 
 var LITLIST;            // list of literary sources
 var LITMANU;

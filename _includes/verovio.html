@@ -1,6 +1,6 @@
 
 {% if page.verovio == "asm" %}
-	<script src="http://verovio-script.humdrum.org/scripts/verovio-toolkit.js"></script>
+	<script src="https://verovio-script.humdrum.org/scripts/verovio-toolkit.js"></script>
 {% elsif page.verovio == "wasm" %}
 {% comment %}
    This downloads the web-assembly version of verovio, using basket.js
@@ -11,16 +11,16 @@
 <script src="/scripts/external/basket/basket-session.js"></script>
 
 <!-- downloaded by basket:
-<script src="http://verovio-script.humdrum.org/scripts/verovio.wasm"></script>
-<script src="http://verovio-script.humdrum.org/scripts/verovio-toolkit-wasm.js"></script>
+<script src="https://verovio-script.humdrum.org/scripts/verovio.wasm"></script>
+<script src="https://verovio-script.humdrum.org/scripts/verovio-toolkit-wasm.js"></script>
 -->
 
 
 <script>
 // vim: ts=3
 
-var basketurl1 = "http://verovio-script.humdrum.org/scripts/verovio.wasm";
-var basketurl2 = "http://verovio-script.humdrum.org/scripts/verovio-toolkit-wasm.js";
+var basketurl1 = "https://verovio-script.humdrum.org/scripts/verovio.wasm";
+var basketurl2 = "https://verovio-script.humdrum.org/scripts/verovio-toolkit-wasm.js";
 
 var WASMPREPARED = false;
 var basketVersion = 31;
@@ -73,7 +73,7 @@ function prepareVerovioWasm() {
 	}
 	WASMPREPARED = true;
 	console.log("Going to load WASM version of verovio");
-	// Reference: view-source:http://www.verovio.org/mei-viewer-wasm.xhtml
+	// Reference: view-source:https://www.verovio.org/mei-viewer-wasm.xhtml
 	// Initialize the WASM module:
 	var ba = Base64Binary.atob(basketSession.get("verovio.wasm").data);
 	BA = ba;

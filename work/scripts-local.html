@@ -1805,7 +1805,9 @@ function fillInPrimarySources(id) {
 	var output = "";
 	var list = SETTING.REPORT.PRINCIPAL_SOURCE;
 	if (!list) {
-		element.innerHTML = "<div class='indent'>None</div>";
+		// There is no principal source in the setting report,
+		// so it will be (was) filled in automatically with the
+		// princeps rism number information from sources.aton.
 		return ;
 	}
 	if (!(list instanceof Array)) {

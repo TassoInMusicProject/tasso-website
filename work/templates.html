@@ -264,11 +264,13 @@
 	<h3>Musical sources</h3>
 
 	<div class="indent">
-		<h4>Principal sources</h4>
-		<div id="primary_sources">PRIMARY SOURCE GO HERE</div>
+		<h4>Principal sources </h4>
+		<div id="primary_sources">
+		{{{sourceInfo SOURCE this}}}
+		</div>
 
 		<h4>Other sources</h4>
-		<div id="other_sources">OTHER SOURCE GO HERE</div>
+		<div id="other_sources">None</div>
 	</div>
 
 	{{/if}}
@@ -754,10 +756,10 @@ Handlebars.registerHelper("voices-simple", function(evoice, ovoice, catalog) {
 
 //////////////////////////////
 //
-// sourceinfo Handlebar helper  -- display original and extant voices.
+// sourceInfo Handlebar helper  -- display original and extant voices.
 //
 
-Handlebars.registerHelper("sourceinfo", function(source) {
+Handlebars.registerHelper("sourceInfo", function(source, setting) {
 	return displaySourceInformation(source);
 });
 

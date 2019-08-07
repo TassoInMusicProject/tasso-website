@@ -884,11 +884,11 @@ Handlebars.registerHelper("catalogNum", function(catalognum) {
 		else if (text == 19) { text = "19th" }
 		else if (text == 20) { text = "20th" }
 		var output = "";
-		output += "<sup ";
+		output += "<span ";
 		output += " onclick='showCycle(\"" + catalognum + "\")'";
 		output += " title='" + text + " of " + cycle.count + " works in a cycle'";
-		output += "style='padding-right:5px; color:#96835c;'";
-		output += "><b>C</b></sup>";
+		output += "style='padding-right:10px; color:#96835c;'";
+		output += "><b>C</b></span>";
 		output += catalognum;
 		return new Handlebars.SafeString(output);
 	} else {

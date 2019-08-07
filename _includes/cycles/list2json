@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+use strict;
+
+my @contents = <>;
+
+my $output = "";
+$output .= "[\n";
+
+foreach my $line (@contents) {
+	chomp $line;
+	next if $line =~ /^\s*$/;
+	$line =~ s/\t+$//;
+	$line =~ s/^\t+//;
+	$line =~ s/\t\t+/\t/;
+	my @list = split(/\t+/, $line);
+	$output .= "\t[";
+	for (my $i=0; $i<@list; $i++) {
+		$output .= "\"$list[$i]\"";
+		if ($i < $#list) {
+			$output .= ", ";
+		}
+	}
+	$output .= "],\n";
+}
+
+$output =~ s/,\n$/\n/s;
+$output .= "]\n";
+
+print $output;

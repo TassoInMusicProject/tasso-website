@@ -436,6 +436,19 @@ Handlebars.registerHelper("formatTitle", function(text, id) {
 
 	text += GetCatalogInfo(id);
 
+	var cycle = RCYCLE[id];
+	if (cycle) {
+		text += "<br/>";
+		text += "<a style='color:#aa0000;' target='_blank' href='/cycle?id=";
+		text += id;
+		text += "'>";
+		text += "part ";
+		text += cycle.sequence;
+		text += " of a ";
+		text += cycle.count + "-part cycle";
+		text += "</a>";
+	}
+
 	return new Handlebars.SafeString(text);
 });
 

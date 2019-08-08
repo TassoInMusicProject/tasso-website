@@ -29,6 +29,7 @@ var SETTING = {};
 var TIMEMAP = {};
 var QEVENTS = [];
 var REFRESH = null;
+var ID = "Tam4021833a";
 
 
 var vrvToolkit;
@@ -58,6 +59,7 @@ var ORIGINAL_CLEFS = 0;
 var INCLUDE_TEXT = 1;
 var CSS_TEXT = 1;
 var PART_FILTER = 0;
+
 
 
 //////////////////////////////
@@ -302,7 +304,25 @@ function displayWorkCycle(id, target) {
 	
 	var output = "";
 
+	output += "<table style='width:100%;'>"
+	output += "<tr>";
+
+	output += "<td class='triangle' style='width:30px;'>";
+	output += '<span class="triangle" onclick="displayPrevCycle();">◀</span>';
+	output += "</td>";
+
+	output += "<td style='text-align:center;'>";
 	output += "<h1>Cycle</h1>";
+	output += "</td>";
+
+	output += "<td style='width:30px;'>";
+	output += '<span class="triangle" onclick="displayNextCycle();"><span class="backward">◀</span></span>';
+	output += "</td>";
+
+	output += "</tr>";
+	output += "</table>";
+
+
  	output += "<table class='cycle'>";
 	output += "<tr>";
 
@@ -340,48 +360,46 @@ console.log("SETTING", setting);
 		output += "</td>";
 
 		output += "<td>";
+		output += "<a target='_blank' href='/work?id=";
+		output += setting.CATALOGNUM;
+		output += "'>";
 		output += setting.TITLE;
+		output == "</a>";
 		output += "</td>";
 
 		output += "</tr>"
 	}
 	output += "</table>";
 
-	for (i=0; i<clist.length; i++) {
-		setting = GetSettingEntry(clist[i]);
-		output += "<div style='width:100%;' id='div-";
-		output += setting.CATALOGNUM;
-		output += "'>";
-		output += "</div>";
-	}
-
 	element.innerHTML = output;
 
 	for (i=0; i<clist.length; i++) {
 		setting = GetSettingEntry(clist[i]);
-		var hhh = document.querySelector("#div-" + setting.CATALOGNUM);
-		if (!hhh) {
-			console.log("ERROR: missing element", hhh);
-			continue;
-		}
 		var s = document.createElement("script");
 		s.type = "text/x-humdrum";
 		s.id = setting.CATALOGNUM;
-		hhh.appendChild(s);
+		var iii = document.querySelector("#contents");
+		iii.appendChild(s);
 	}
 
 	var options = {};
+	options.minLastJustification = 0.30;
 	for (i=0; i<clist.length; i++) {
 		setting = GetSettingEntry(clist[i]);
 		options.source = setting.CATALOGNUM;
+		options.postFunction = widenTables;
 		options.url = setting.SCOREDATA.DATAURL;
-console.log("OPTIONS", options);
 		displayHumdrum(options);
 	}
-
-
 }
 
+
+function widenTables() {
+	var tables = document.querySelectorAll("table.humdrum-verovio");
+	for (i=0; i<tables.length; i++) {
+		tables[i].style.width = "100%";
+	}
+}
 
 
 ///////////////////////////////
@@ -1856,8 +1874,98 @@ function fillInPrimarySources(id) {
 }
 
 
+//////////////////////////////
+//
+// getNextCycle --
+//
+
+function getNextCycle(id) {
+	if (!id) {
+		id = ID;
+	}
+	var matchi = -1;
+	for (var i=0; i<CYCLES.length; i++) {
+		for (var j=0; j<CYCLES[i].length; j++) {
+			if (CYCLES[i][j] === id) {
+				matchi = i;
+				break;
+			}
+		}
+		if (matchi >= 0) {
+			break;
+		}
+	}
+	if (matchi < 0) {
+		return "";
+	}
+	if (i == CYCLES.length - 1) {
+		return CYCLES[0][0];
+	} else {
+		return CYCLES[matchi+1][0];
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getPrevCycle --
+//
+
+function getPrevCycle(id) {
+	if (!id) {
+		id = ID;
+	}
+	var matchi = -1;
+	for (var i=0; i<CYCLES.length; i++) {
+		for (var j=0; j<CYCLES[i].length; j++) {
+			if (CYCLES[i][j] === id) {
+				matchi = i;
+				break;
+			}
+		}
+		if (matchi >= 0) {
+			break;
+		}
+	}
+	if (matchi < 0) {
+		return "";
+	}
+	if (i == 0) {
+		return CYCLES[CYCLES.length - 1][0];
+	} else {
+		return CYCLES[matchi-1][0];
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayNextCycle --
+//
+
+function displayNextCycle() {
+	var ncycle = getNextCycle();
+	if (ncycle) {
+		displayWorkCycle(ncycle);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayPrevCycle --
+//
+
+function displayPrevCycle() {
+	var pcycle = getPrevCycle();
+	if (pcycle) {
+		displayWorkCycle(pcycle);
+	}
+}
 
 </script>
-
 
 

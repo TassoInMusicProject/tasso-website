@@ -886,9 +886,9 @@ Handlebars.registerHelper("catalogNum", function(catalognum) {
 		var output = "";
 		output += "<span ";
 		output += " onclick='showCycle(\"" + catalognum + "\")'";
-		output += " title='" + text + " of " + cycle.count + " works in a cycle'";
-		output += "style='padding-right:10px; color:#96835c;'";
-		output += "><b>C</b></span>";
+		output += " title='" + text + " section of a " + cycle.count + "-part cycle'";
+		output += "style='padding-right:10px; font-weight:bold; color:#a00000;'";
+		output += ">C</span>";
 		output += catalognum;
 		return new Handlebars.SafeString(output);
 	} else {

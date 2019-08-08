@@ -331,7 +331,7 @@ function displayWorkCycle(id, target) {
 	output += "</th>";
 
 	output += "<th>";
-	output += "Section";
+	output += "Part";
 	output += "</th>";
 
 	output += "<th>";
@@ -344,7 +344,7 @@ function displayWorkCycle(id, target) {
 	output += "</tr>";
 	for (i=0; i<clist.length; i++) {
 		setting = GetSettingEntry(clist[i]);
-console.log("SETTING", setting);
+console.log("XXX SETTING for ", clist[i],  "IS", setting);
 
 		output += "<tr>"
 
@@ -364,6 +364,7 @@ console.log("SETTING", setting);
 		output += setting.CATALOGNUM;
 		output += "'>";
 		output += setting.TITLE;
+		output += GetCatalogInfo(setting.CATALOGNUM);
 		output == "</a>";
 		output += "</td>";
 
@@ -386,9 +387,16 @@ console.log("SETTING", setting);
 	options.minLastJustification = 0.30;
 	for (i=0; i<clist.length; i++) {
 		setting = GetSettingEntry(clist[i]);
+
+		if (!setting.SCOREDATA) {
+			// score is not yet prepared, so don't try to show.
+			continue;
+		}
 		options.source = setting.CATALOGNUM;
 		options.postFunction = widenTables;
+console.log("SETTING YYYES FOR ID ", clist[i], "IS ", setting);
 		options.url = setting.SCOREDATA.DATAURL;
+console.log("GOT HERE QQQ");
 		displayHumdrum(options);
 	}
 }

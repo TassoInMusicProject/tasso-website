@@ -31,7 +31,7 @@
 		<td class="id" id="{{id}}" onclick="displaySingleWork('{{id}}');" style="cursor:pointer; color:#96835c; padding-right:20px;" >{{id}}</td>
 		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;"> <nobr>{{{shortComposer2 comlong}}}</nobr></td>
 		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{{workdate}}}</td>
-		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{formatTitle title}}}</td>
+		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{formatTitle title id}}}</td>
 		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{voices}}}</td>
 		<td class="keysig"     style="text-align:center"></td>
 		<td class="time"       style="text-align:center"></td>
@@ -66,7 +66,7 @@
 				</nobr>
 			</td>
 			<td style='width:100%; text-align:center'>
-				<h2>{{{formatComposer COMPOSER}}}<br>{{{formatTitle TITLE}}}</h2>
+				<h2>{{{formatComposer COMPOSER}}}<br>{{{formatTitle TITLE CATALOGNUM}}}</h2>
 			</td>
 			<td class='triangle'>
 				<span class="triangle backward" onclick="displayNextWork();">&#9664;</span>
@@ -425,7 +425,7 @@ Handlebars.registerHelper("shortComposer2", function(text) {
 // title Handlebar helper  -- format peoples' names.
 //
 
-Handlebars.registerHelper("formatTitle", function(text) {
+Handlebars.registerHelper("formatTitle", function(text, id) {
 	if (!text) {
 		return new Handlebars.SafeString("EMPTY");
 	}
@@ -433,6 +433,9 @@ Handlebars.registerHelper("formatTitle", function(text) {
 	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
 	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
 	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+
+	text += GetCatalogInfo(id);
+
 	return new Handlebars.SafeString(text);
 });
 

@@ -1717,3 +1717,75 @@ function InsertComposersIntoSettings() {
 
 
 
+//////////////////////////////
+//
+// GetCatalogInfo --
+//
+
+function GetCatalogInfo(id) {
+console.log("GETTING ID INFO FOR", id);
+	var output = "";
+	if (!id) {
+		return output;
+	}
+	var matches;
+	if (matches = id.match(/Trm0*(\d+)/)) {
+		output += "&nbsp;&nbsp;(<i>Rime</i> ";
+		output += matches[1];
+		output += ")";
+	} else if (matches = id.match(/Tsg(\d\d)(\d\d\d)/)) {
+		// Tsg99888z :: 99 = canto, 888 = ottava
+		var canto = GetRomanNumeral(matches[1]);
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Gerusalemme</i> ";
+		output += canto + "/" + ottava;
+		output += ")";
+	} else if (matches = id.match(/Tec(\d)(\d\d\d)/)) {
+		// Tec9888z :: 9 = ecloghe, 888 = verse
+		var ecloghe = GetRomanNumeral(matches[1]);
+		var verse = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Ecloghe</i> ";
+		output += ecloghe + "/" + verse;
+		output += ")";
+	} else if (matches = id.match(/Tbv(\d\d\d\d)/)) {
+		// Tec9999z :: 9999 = stanza
+		var stanza = matches[1].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Lagrime</i> ";
+		output += " stanza " + stanza;
+		output += ")";
+	} else if (matches = id.match(/Tri(\d)(\d\d\d)/)) {
+		// Tri9888z :: 9 = canto, 888 = ottava
+		var canto = GetRomanNumeral(matches[1]);
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Rinaldo</i> ";
+		output += canto + "/" + ottava;
+		output += ")";
+	} else if (matches = id.match(/Tam(\d)(\d\d)(\d\d\d\d)/)) {
+		// Tam9887777z :: 9 = Act, 88 = scene, 7777 = verse
+		var act = GetRomanNumeral(matches[1]);
+		var scene = matches[2].replace(/^0*/, "");
+		var verse = matches[3].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Aminta</i> ";
+		output += act + "/" + scene + "/" + verse;
+		output += ")";
+	} else if (matches = id.match(/Trt(\d\d)(\d\d)/)) {
+		// Trt9988z :: 99 = Act, 88 = scene
+		var act = GetRomanNumeral(matches[1].replace(/^0*/, ""));
+		var scene = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>Re Torrismondo</i> ";
+		output += act + "/" + scene;
+		output += ")";
+	} else if (matches = id.match(/Tco(\d\d)(\d\d)/)) {
+		// Tco0806 :: 08 = Canto (Roman), 06 = Ottava
+		var canto = GetRomanNumeral(matches[1].replace(/^0*/, ""));
+		var ottava = matches[2].replace(/^0*/, "");
+		output += "&nbsp;&nbsp;(<i>G. conquistata</i> ";
+		output += canto + "/" + ottava;
+		output += ")";
+	} else {
+		output = "";
+	}
+	return output;
+}
+
+

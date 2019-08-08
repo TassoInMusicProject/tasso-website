@@ -1,0 +1,1863 @@
+
+<link rel="stylesheet" href="/styles/fonts/font-awesome/css/font-awesome.min.css">
+
+<!--
+	vim: ts=3
+-->
+
+<script src="/scripts/scripts-common.js"></script>
+<script src="/scripts/scripts-worknav.js"></script>
+
+{% include_relative listeners.html %}
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Thu Mar 31 21:34:11 PDT 2016
+// Last Modified: Tue Mar 28 16:03:55 PDT 2017
+// Filename:      work/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
+//
+// Description:   JavaScript management for display of work pages.
+//
+
+var REPORT = {};
+var SIGLALIST = {};
+var SETTING = {};
+
+var TIMEMAP = {};
+var QEVENTS = [];
+var REFRESH = null;
+
+
+var vrvToolkit;
+
+var vrvOptions = {
+	humType           : 1,
+	adjustPageHeight  : 1,
+	pageWidth         : 2500,
+	pageHeight        : 1000,
+	spacingNonLinear  : 0.55,
+	spacingSystem     : 5,
+	spacingStaff      : 12,
+	font              : "Leipzig",
+	scale             : 40,
+	pageMarginLeft    : 20,
+	pageMarginRight   : 20,
+	pageMarginTop     : 80,
+	pageMarginBottom  : 80,
+	noFooter          : 1,
+	noHeader          : 1,
+	breaks            : "auto"
+};
+
+var CURRENT_PAGE = 1;
+var INCIPIT_STYLE = 1;
+var ORIGINAL_CLEFS = 0;
+var INCLUDE_TEXT = 1;
+var CSS_TEXT = 1;
+var PART_FILTER = 0;
+
+
+//////////////////////////////
+//
+// setupVariables -- Used with CGI parameter k to set default style for
+//   notation on page.
+//
+
+function setupVariables(string) {
+	for (var i=0; i<string.length; i++) {
+		var value = string.charAt(i);
+		switch (value) {
+
+			case 'e':
+				INCIPIT_STYLE = !INCIPIT_STYLE;
+				break;
+
+			case 'o':
+				ORIGINAL_CLEFS = !ORIGINAL_CLEFS;
+				break;
+
+			case 't':
+				INCLUDE_TEXT = !INCLUDE_TEXT;
+				break;
+
+			case 'T':
+				CSS_TEXT = !CSS_TEXT;
+				break;
+
+			case '1':
+				PART_FILTER = 1;
+				break;
+
+			case '2':
+				PART_FILTER = 2;
+				break;
+
+			case '3':
+				PART_FILTER = 3;
+				break;
+
+			case '4':
+				PART_FILTER = 4;
+				break;
+
+			case '5':
+				PART_FILTER = 5;
+				break;
+
+			case '6':
+				PART_FILTER = 6;
+				break;
+
+			case '7':
+				PART_FILTER = 7;
+				break;
+
+			case '8':
+				PART_FILTER = 8;
+				break;
+
+			case '9':
+				PART_FILTER = 9;
+				break;
+
+			case '0':
+				PART_FILTER = 0;
+				break;
+
+		}
+	}
+
+}
+
+
+
+//////////////////////////////
+//
+// getTimemap --
+//
+
+function getTimemap(id) {
+	if (!id) {
+		id = ID;
+	}
+	if (TIMEMAP[id]) {
+		return;
+	}
+
+	var request = new XMLHttpRequest();
+	request.open("GET", "{{site.tasso_data_url}}?a=timemap&f=" + id);
+	request.addEventListener("load", function() {
+		TIMEMAP[id] = JSON.parse(this.responseText);
+		interpolateIntegers(id);
+	});
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// interpolateIntegers --
+//
+
+function interpolateIntegers(id) {
+	timemap = TIMEMAP[id];
+	if (timemap.length == 0) {
+		return;
+	}
+
+	var newpoints = [];
+
+	var byindex = {};
+
+	for (var i=0; i<timemap.length; i++) {
+		var qstamp = timemap[i].qstamp;
+		byindex[qstamp] = {i: i, timemap: timemap[i]};
+	}
+	var maxval = timemap[timemap.length-1].qstamp;
+
+	for (i=8; i<maxval; i+=8) {
+		if (byindex[i]) {
+			continue;
+		}
+		var newpoint;
+		newpoint = interpolateTstamp(timemap, i);
+		newpoints.push(newpoint);
+		// console.log("MISSING: ", i, newpoint.tstamp);
+	}
+
+	TIMEMAP[id] = timemap.concat(newpoints);
+}
+
+
+
+//////////////////////////////
+//
+// interpolateTstamp --
+//
+
+function interpolateTstamp(timemap, qtime) {
+	var i;
+	var t1;
+	var t2;
+	var q1;
+	var q2;
+	for (i=0; i<timemap.length; i++) {
+		if (timemap[i].qstamp < qtime) {
+			continue;
+		}
+		if (i == 0) {
+			console.log("STRANGE PROBLEM");
+		}
+		t1 = timemap[i-1].tstamp;
+		t2 = timemap[i].tstamp;
+		q1 = timemap[i-1].qstamp;
+		q2 = timemap[i].qstamp;
+		break;
+	}
+
+	if (!t2) {
+			console.log("STRANGE PROBLEM 2");
+	}
+
+	var ttime = ((qtime-q1)/(q2-q1))*(t2-t1)+t1;
+
+	var newpoint = { qstamp: qtime, tstamp: ttime};
+	//console.log("NEWPOINT", newpoint);
+	return newpoint;
+}
+
+
+
+//////////////////////////////
+//
+// continueSetup --
+//
+
+function continueSetup() {
+	PrepareGlobalTassoObjects();
+	if (ID) {
+console.log("DISPLAYING WORK FOR ID", ID);
+		displayWorkCycle(ID)
+	} else {
+console.log("NO WORK TO DISPLAY");
+return;
+		displayWorkList();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayWorkList --
+//
+
+function displayWorkList(target) {
+return;
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		return;
+	}
+	var tsource = document.querySelector("#worklist-template").textContent;
+	var workTemplate = Handlebars.compile(tsource);
+	var output = workTemplate(WORKLIST[0]);
+
+	element.innerHTML = output;
+	fillInTimeKey();
+}
+
+
+
+//////////////////////////////
+//
+// displayWorkCycle --
+//
+
+function displayWorkCycle(id, target) {
+	if (!id) {
+		id = ID;
+	}
+	ID = id;
+
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: no element", target);
+		return;
+	}
+
+	var i;
+	var clist = RCYCLE[ID].cycle;
+	var count = RCYCLE[ID].count;
+	var sequence = RCYCLE[ID].sequence;
+	
+	var output = "";
+
+	output += "<h1>Cycle</h1>";
+ 	output += "<table class='cycle'>";
+	output += "<tr>";
+
+	output += "<th>";
+	output += "Composer";
+	output += "</th>";
+
+	output += "<th>";
+	output += "Section";
+	output += "</th>";
+
+	output += "<th>";
+	output += "Title";
+	output += "</th>";
+
+	var lastcomposer = "";
+
+	var setting;
+	output += "</tr>";
+	for (i=0; i<clist.length; i++) {
+		setting = GetSettingEntry(clist[i]);
+console.log("SETTING", setting);
+
+		output += "<tr>"
+
+		output += "<td>";
+		if (lastcomposer !== setting.COMPOSER) {
+			output += setting.COMPOSER;
+			lastcomposer = setting.COMPOSER;
+		}
+		output += "</td>";
+
+		output += "<td>";
+		output += (i+1);
+		output += "</td>";
+
+		output += "<td>";
+		output += setting.TITLE;
+		output += "</td>";
+
+		output += "</tr>"
+	}
+	output += "</table>";
+
+	for (i=0; i<clist.length; i++) {
+		setting = GetSettingEntry(clist[i]);
+		output += "<div style='width:100%;' id='div-";
+		output += setting.CATALOGNUM;
+		output += "'>";
+		output += "</div>";
+	}
+
+	element.innerHTML = output;
+
+	for (i=0; i<clist.length; i++) {
+		setting = GetSettingEntry(clist[i]);
+		var hhh = document.querySelector("#div-" + setting.CATALOGNUM);
+		if (!hhh) {
+			console.log("ERROR: missing element", hhh);
+			continue;
+		}
+		var s = document.createElement("script");
+		s.type = "text/x-humdrum";
+		s.id = setting.CATALOGNUM;
+		hhh.appendChild(s);
+	}
+
+	var options = {};
+	for (i=0; i<clist.length; i++) {
+		setting = GetSettingEntry(clist[i]);
+		options.source = setting.CATALOGNUM;
+		options.url = setting.SCOREDATA.DATAURL;
+console.log("OPTIONS", options);
+		displayHumdrum(options);
+	}
+
+
+}
+
+
+
+///////////////////////////////
+//
+// displayPartNumbers --
+//
+
+function displayPartNumbers(id) {
+	var element = document.querySelector("#voice-buttons");
+	if (!element) {
+		return;
+	}
+	if (!SETTING) {
+		return;
+	}
+	if (!SETTING.SCOREDATA) {
+		return;
+	}
+	var vcount = 0;
+	// var works = WORKLIST[0].works;
+	var vabbr = SETTING.SCOREDATA.VABBR;
+	if (!vabbr) {
+		return;
+	}
+	var vcount = SETTING.SCOREDATA.VABBR.length;
+	var output = ""
+	//var numlist = [
+	//	"&#x2780;",
+	//	"&#x2781;",
+	//	"&#x2782;",
+	//	"&#x2783;",
+	//	"&#x2784;",
+	//	"&#x2785;",
+	//	"&#x2786;",
+	//	"&#x2787;",
+	//	"&#x2788;"
+	//];
+	var i;
+	output += "<div style='font-size:1.5em;'>";
+	output += "<nobr>";
+	for (i=0; i<vcount; i++) {
+		var aaa = vabbr[i].replace(/[[]/g, "").replace(/\]/g, "");
+
+		output += "<span ";
+		output += "title='show only part " + (i+1) + " (" + (i+1) + ")"  + "' id='part" + (i+1);
+		output += "' class='voice-icon'"
+		output += " onclick='showPart(\"" + (i+1) + "\");'";
+		output += ">";
+		output += "<span class='fa-stack fa-3x'>";
+		output += "<i class='fa fa-circle fa-stack-2x'></i>";
+		output += "<strong class='fa-stack-1x text-primary'>";
+		output += aaa;
+		output += "</strong>";
+		output += "</span>";
+		output += "</span>";
+
+	}
+	output += "</nobr>";
+	output += "</div>";
+	
+	element.innerHTML = output;
+
+}
+
+
+
+///////////////////////////////
+//
+// showPart --
+//
+
+function showPart(partnum) {
+	if (partnum == PART_FILTER) {
+		partnum = 0;
+		PART_FILTER = 0;
+	} else {
+		PART_FILTER = partnum;
+	}
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
+// highlightPartIcon --
+//
+
+function highlightPartIcon(partnum) {
+	var elements = document.querySelectorAll(".voice-icon");
+	var number;
+	for (var i=0; i<elements.length; i++) {
+		var id = elements[i].id;
+		var num = id.match(/(\d+)$/)[1];
+		if (num == partnum) {
+			elements[i].className += " highlight";
+			elements[i].title = "show all parts (0)";
+		} else {
+			elements[i].classList.remove("highlight");
+			elements[i].title = "show only part " + num + " (" + num + ")";
+		}
+	}
+}
+
+
+
+///////////////////////////////
+//
+// displayIncipit -- Display incipit as a place holder before the verovio 
+//     toolkit generates its own display.
+//
+
+function displayIncipit(id) {
+	if (!localStorage["svg_" + id]) {
+		return;
+	}
+
+	var element = document.querySelector("#verovio-display");
+	element.style.height = "200px";
+	if (!element) {
+		return;
+	}
+
+	element.innerHTML = localStorage["svg_" + id];
+}
+
+
+
+////////////////////////////////
+//
+// emptyReportButton --
+//
+
+function emptyReportButton()  {
+	var url = "https://github.com/TassoInMusicProject/tasso-website";
+	url += "/blob/gh-pages/data/reports/";
+
+	var output = "<div style='display:none; floating:none;' class='expert'>";
+	output += "<a target='_blank' class='eebutton' href='";
+	output += url;
+	output += "'>Add critical report</a>";
+	output += "</div>";
+
+	return output;
+}
+
+
+
+///////////////////////////////
+//
+// getCriticalNotes --
+//
+
+function getCriticalNotes(id) {
+	var tag = "report_" + id;
+	var tagcontent;
+	var element = document.querySelector("#" + tag);
+	element.innerHTML = emptyReportButton();
+
+//	if (REPORT[id]) {
+//		if (element) {
+//			output += REPORT[id];
+//			element.innerHTML = addCatalogLinks(output);
+//		}
+//	} else {
+		var url = "{{site.critical_reports}}/" + id + "-report.aton";
+		var request = new XMLHttpRequest();
+		request.open('GET', url);
+		request.addEventListener("load", function() {
+			if (this.status == 200) {
+				var aton = new ATON;
+				var raw = this.responseText
+						.replace(/---/g, "&mdash;")
+						.replace(/--/g, "&ndash;");
+				var data = aton.parse(raw).REPORT;
+				SETTING.REPORT = data;
+				var tsource = document.querySelector("#criticalreport-template").textContent;
+				var template = Handlebars.compile(tsource);
+				var result = template(data);
+				REPORT[id] = result;
+				if (element) {
+					// element.innerHTML = addCatalogLinks(data);
+					// catalog links now done differently:
+					element.innerHTML = result;
+				}
+				fillInDedicatee(id);
+				fillInOtherSources(id);
+				fillInPrimarySources(id);
+			}
+		});
+		request.send()
+//	}
+
+//	getCriticalReportNoRecurse(ORDER[id].next);
+//	getCriticalReportNoRecurse(ORDER[id].previous);
+}
+
+
+
+//////////////////////////////
+//
+// addCatalogLinks --
+//
+
+function addCatalogLinks(text) {
+	var re = /(Trm\d\d\d\d[a-z]+)/g;
+	return text.replace(re, function(match, id) {
+		if (id) {
+			return "<a href='/work?id=" + id + "'>" + id + "</a>";
+		}
+	});
+}
+
+
+
+//////////////////////////////
+//
+// getCriticalReportNoRecurse --
+//
+
+function getCriticalReportNoRecurse(id) {
+	var tag = "report_" + id;
+	if (REPORT[id]) {
+		return;
+	}
+
+	var url = "/include/report/" + id + "-report.aton";
+	var request = new XMLHttpRequest();
+	request.open('GET', url);
+	request.addEventListener("load", function() {
+		if (this.status == 200) {
+			var data = this.responseText;
+			REPORT[id] = data;
+		}
+	});
+	request.send()
+}
+
+
+
+//////////////////////////////
+//
+// getHumdrumSourceData --
+//
+
+function getHumdrumSourceData(humid) {
+	var sourceid = humid ? humid : "humdrum-data";
+	var source = document.querySelector("#" + sourceid);
+	if (!source) {
+		console.log("Cannot find source id:", sourceid);
+		return;
+	}
+	var content = source.textContent;
+	var matches;
+
+	if (matches = content.match(/^(\*\*.*)/m)) {
+		var tokens = matches[1].split("\t");
+		var kcount = 0;
+		var tcount = 0;
+		for (var i=0; i<tokens.length; i++) {
+			if (tokens[i] === "**kern") {
+				kcount++;
+			} else if (tokens[i] === "**text") {
+				tcount++;
+			}
+		}
+	}
+
+	if (PART_FILTER) {
+		var kval = kcount - PART_FILTER + 1;
+		if (kval > 0) {
+			content += "\n!!!filter: extract -k " + kval + "\n";
+			kcount = 1;
+			tcount = 1;
+		}
+	}
+	if (!INCLUDE_TEXT) {
+		content += "\n!!!filter: extract -I **text\n";
+		vrvOptions.spacingStaff = 12;
+	} else {
+		vrvOptions.spacingStaff = 9;
+	}
+
+	if (LAST_QUERY) {
+		content += "\n!!!filter: msearch -q \"" + LAST_QUERY + "\" -c orange\n";
+	}
+	if (LAST_QUERY_TEXT) {
+		content += "\n!!!filter: msearch -t \"" + LAST_QUERY_TEXT + "\" -c hotpink\n";
+	}
+
+	return [content, kcount, tcount];
+}
+
+
+
+//////////////////////////////
+//
+// initializeVerovioNotation --
+//
+
+function initializeVerovioNotation(sourceid, targetid, query) {
+	if (!targetid) {
+		targetid = "verovio-display";
+	}
+	if (!sourceid) {
+		sourceid = "humdrum-data";
+	}
+
+	highlightPartIcon(PART_FILTER);
+	displayMensurationState();
+	displayTextState();
+
+	var target = document.querySelector("#" + targetid);
+	if (!target) {
+		console.log("Cannot find target id:", targetid);
+		return;
+	}
+
+	target.style.marginTop = "20px";
+
+	var kcount = 0;
+	var tcount = 0;
+	var content;
+	[content, kcount] = getHumdrumSourceData(sourceid);
+	// console.log("CONTENT", content, kcount);
+	if (content.match(/^\s*$/)) {
+		return;
+	}
+
+	if (!vrvToolkit) {
+		console.log("Error: verovio toolkit not available");
+		return;
+	}
+
+	vrvOptions.pageHeight = 1000;
+
+	if (kcount > 0) {
+		vrvOptions.pageHeight = 230 * kcount + 80 * tcount;
+		// target.style.height = parseInt(vrvOptions.pageHeight / 3.8 + 100 ) + "px";
+	}
+
+	if (INCIPIT_STYLE) {
+		// full-page display
+		vrvOptions.pageHeight = 60000;
+	}
+	showIncipitState();
+
+	if (ORIGINAL_CLEFS) {
+		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'original-clef')]"];
+	} else {
+		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'asdfghjkl')]"];
+	}
+
+
+	vrvToolkit.setOptions(vrvOptions);
+	vrvToolkit.loadData(content);
+
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE);
+	var matches;
+	if (matches = svg.match(/height="(\d+)px"/)) {
+		target.style.height = "";
+	}
+	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
+	processCssTextState();
+}
+
+
+
+//////////////////////////////
+//
+// prepareQEvents --
+//
+
+function prepareQEvents(target) {
+
+	var svgnotes = target.querySelectorAll("g[id^='note-']");
+	var qpre = {};
+	var matches;
+	var ques;
+	var obj;
+	for (var i=0; i<svgnotes.length; i++) {
+
+		if (matches = svgnotes[i].className.baseVal.match(/qon-([^\s]+)/)) {
+			ques = getQstampFloat(matches[1]);
+			if (!qpre[ques]) {
+				qpre[ques] = {qstamp: ques, on:[], off:[]};
+			}
+			qpre[ques].on.push(svgnotes[i]);
+		}
+
+		if (matches = svgnotes[i].className.baseVal.match(/qoff-([^\s]+)/)) {
+			ques = getQstampFloat(matches[1]);
+			if (!qpre[ques]) {
+				qpre[ques] = {qstamp: ques, on:[], off:[]};
+			}
+			qpre[ques].off.push(svgnotes[i]);
+		}
+
+	}
+	QEVENTS = [];
+	for (var qst in qpre) {
+		QEVENTS.push(qpre[qst])
+	}
+	QEVENTS.sort(function(a, b) {
+		return a.qstamp - b.qstamp;
+	});
+	// console.log("QEVENTS", QEVENTS);
+
+}
+
+
+
+//////////////////////////////
+//
+// prepareLyricSpaces --
+//
+
+function prepareLyricSpaces(target) {
+	return; // deactivate for now since text can have nested tspans now.
+	// add spaces after ends of words (for copy/paste from SVG):
+	var ends = target.querySelectorAll("svg g.syl.t text tspan")
+	for (i=0; i<ends.length; i++) {
+    	var text = ends[i].textContent;
+     	ends[i].textContent = text + " ";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getQstampFloat --
+//
+
+function getQstampFloat(str) {
+	var ques = -1;
+	if (str.match(/d/)) {
+		ques = parseFloat(str.replace(/d/, "."));
+	} else if (str.match(/_/)) {
+		var matches = str.match(/(\d+)_(\d+)/);
+		if (matches) {
+			ques = parseInt(matches[1]) / parseInt(matches[2]);
+		}
+	} else if (str.match(/^\d+$/)) {
+		ques = parseInt(str);
+	}
+	return ques;
+}
+
+
+
+//////////////////////////////
+//
+// incrementVerovioPage --
+//
+
+function incrementVerovioPage(direction) {
+	CURRENT_PAGE += direction;
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+
+	var target = document.querySelector("#verovio-display");
+	if (!target) {
+		console.log("Cannot find target id: #verovio-display");
+		return;
+	}
+
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
+	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
+}
+
+
+
+//////////////////////////////
+//
+// firstVerovioPage --
+//
+
+function firstVerovioPage(direction) {
+	CURRENT_PAGE = 1;
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+
+	var target = document.querySelector("#verovio-display");
+	if (!target) {
+		console.log("Cannot find target id: #verovio-display");
+		return;
+	}
+
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
+	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
+}
+
+
+
+//////////////////////////////
+//
+// lastVerovioPage --
+//
+
+function lastVerovioPage(direction) {
+	CURRENT_PAGE = -1;
+	var pagecount = vrvToolkit.getPageCount();
+	if (CURRENT_PAGE > 1) {
+		if (CURRENT_PAGE > pagecount) {
+			CURRENT_PAGE = 1;
+		}
+	} else if (CURRENT_PAGE < 1) {
+		CURRENT_PAGE = pagecount;
+	}
+
+	var target = document.querySelector("#verovio-display");
+	if (!target) {
+		console.log("Cannot find target id: #verovio-display");
+		return;
+	}
+
+	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
+	target.innerHTML = svg;
+
+	prepareQEvents(target);
+	prepareLyricSpaces(target);
+}
+
+
+
+
+//////////////////////////////
+//
+// getHumdrum --
+//
+
+function getHumdrum(id) {
+	var tag = "humdrum_" + id;
+	var tagcontent;
+	var element = document.querySelector("#humdrum-data");
+	if (!element) {
+		return;
+	}
+
+	if (sessionStorage[tag]) {
+		var scoreelements = document.querySelectorAll(".musical-content");
+		for (var i=0; i<scoreelements.length; i++) {
+			scoreelements[i].style.display = "block";
+		}
+		element.textContent = sessionStorage[tag];
+		initializeVerovioNotation("humdrum-data", "verovio-display");
+	} else if (SETTING.SCOREDATA && SETTING.SCOREDATA.DATAURL) {
+		var action = "humdrum";
+		var url = SETTING.SCOREDATA.DATAURL;
+		// old url from CCARH server:
+		// var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		var request = new XMLHttpRequest();
+		request.open('GET', url);
+		request.addEventListener("load", function() {
+			var ses = document.querySelectorAll(".musical-content");
+			for (var ii=0; ii<ses.length; ii++) {
+				ses[ii].style.display = "block";
+			}
+			var data = this.responseText;
+			sessionStorage[tag] = data;
+			if (element) {
+				element.textContent = data;
+				initializeVerovioNotation("humdrum-data", "verovio-display");
+			}
+		});
+		request.send()
+	}
+
+	// ggg getHumdrumNoRecurse(ORDER[id].next);
+	// ggg getHumdrumNoRecurse(ORDER[id].previous);
+}
+
+
+
+//////////////////////////////
+//
+// getHumdrumNoRecurse --
+//
+
+function getHumdrumNoRecurse(id) {
+	var tag = "humdrum_" + id;
+	if (sessionStorage[tag]) {
+		return;
+	}
+
+	var action = "humdrum";
+	var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	var request = new XMLHttpRequest();
+	request.open('GET', url);
+	request.addEventListener("load", function() {
+		var data = this.responseText;
+		sessionStorage[tag] = data;
+	});
+	request.send()
+}
+
+
+
+//////////////////////////////
+//
+// getRange --
+//
+
+function getRange(id) {
+	var tag = "range_" + id;
+	var element = document.querySelector("#" + "range");
+	if (!element) {
+		console.log("Could not find storage element #range");
+		return;
+	}
+	var output = "";
+	output += "<h4 style='margin-left:30px' id='vocal_ranges'>VOCAL RANGES</h4>";
+
+	if (sessionStorage[tag]) {
+		if (element) {
+			output += "<div class='indent'>";
+			if (!sessionStorage[tag].match(/no image found for/)) {
+				output += sessionStorage[tag];
+				output += "</div>";
+				element.innerHTML = output;
+				setSvgSize();
+			} else {
+				console.log("ERROR: No vocal range found");
+			}
+		}
+	} else {
+		var action = "prange-svg";
+		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		var request = new XMLHttpRequest();
+		request.open('GET', url);
+		request.addEventListener("load", function() {
+			var data = this.responseText;
+			if (data.match(/DOCTYPE HTML/)) {
+				return;
+			}
+			sessionStorage[tag] = data;
+			if (element) {
+				output += "<div class='indent'>";
+				if (!data.match(/no image found for/)) {
+					output += data;
+					output += "</div>";
+					element.innerHTML = output;
+					setSvgSize();
+				} else {
+					console.log("ERROR: No vocal range found online");
+				}
+			}
+		});
+		request.send()
+	}
+
+	// ggg getRangeNoRecurse(ORDER[id].next);
+	// ggg getRangeNoRecurse(ORDER[id].previous);
+}
+
+
+
+//////////////////////////////
+//
+// setSvgSize --
+//
+
+function setSvgSize() {
+	var svg = document.querySelector("#range svg");
+	var width = svg.getAttribute("width");
+	var height = svg.getAttribute("height");
+	var scale = 1.6;
+	width *= scale;
+	height *= scale;
+	svg.setAttribute("width", width);
+	svg.setAttribute("height", height);
+}
+
+
+
+//////////////////////////////
+//
+// getRangeNoRecurse --
+//
+
+function getRangeNoRecurse(id) {
+	var tag = "range_" + id;
+	if (sessionStorage[tag]) {
+		return;
+	}
+
+	var action = "prange-svg";
+	var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	var request = new XMLHttpRequest();
+	request.open('GET', url);
+	request.addEventListener("load", function() {
+		var data = this.responseText;
+		sessionStorage[tag] = data;
+	});
+	request.send()
+}
+
+
+
+/*
+//////////////////////////////
+//
+// getWorkInfo --
+//
+
+function getWorkInfo(id) {
+	if (!WORKLIST) {
+		return null;
+	}
+	var i, j;
+	for (i=0; i<WORKLIST.length; i++) {
+		var rep = WORKLIST[i];
+		for (j=0; j<rep.works.length; j++) {
+			if (rep.works[j].id === id) {
+				return rep.works[j];
+			}
+		}
+	}
+}
+*/
+
+
+
+//////////////////////////////
+//
+// getNextWork --
+//
+
+function getNextWork(id) {
+	return id;
+}
+
+
+
+//////////////////////////////
+//
+// getPreviousWork --
+//
+
+function getPreviousWork(id) {
+	return id;
+}
+
+
+
+//////////////////////////////
+//
+// sortByText --
+//
+
+function sortByText(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].innerHTML;
+			B = b.cells[index].innerHTML;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+	var body = document.querySelector("table.worklist tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByNumber --
+//
+
+function sortByNumber(index) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = parseInt(a.cells[index].innerHTML);
+		var B = parseInt(b.cells[index].innerHTML);
+		if (A < B)      { return -1 }
+		else if (A > B) { return +1 }
+		else            { return 0  }
+	});
+	var body = document.querySelector("table.worklist tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// ExpandIncipit --
+//
+
+function ExpandIncipit() {
+	if (INCIPIT_STYLE) {
+		// already expanded
+		return;
+	}
+	var element = document.querySelector("#expand");
+	var text = element.textContent;
+	INCIPIT_STYLE = 1;
+	showIncipitState();
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
+// toggleIncipit --
+//
+
+function toggleIncipit() {
+	var element = document.querySelector("#expand");
+	var text = element.textContent;
+	INCIPIT_STYLE = !INCIPIT_STYLE;
+	showIncipitState();
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
+// showIncipitState --
+//
+
+function showIncipitState() {
+	var element = document.querySelector("#expand");
+	var nelement = document.querySelector("#nextsys");
+	var pelement = document.querySelector("#prevsys");
+	var felement = document.querySelector("#firstsys");
+	var lelement = document.querySelector("#lastsys");
+	if (INCIPIT_STYLE) {
+		// element.textContent = "contract";
+		element.innerHTML = '<div title="collapse to incipit (e)" class="fa fa-compress" aria-hidden="true"></div>';
+		nelement.textContent = "";
+		pelement.textContent = "";
+		lelement.textContent = "";
+		felement.textContent = "";
+	} else {
+		//element.textContent = "expand";
+		element.innerHTML = '<div title="expand to complete score (e)" class="fa fa-expand" aria-hidden="true"></div>';
+		pelement.innerHTML = '<i class="fa fa-arrow-left" aria-hidden="true"></i>';
+		nelement.innerHTML = '<i class="fa fa-arrow-right" aria-hidden="true"></i>';
+		lelement.innerHTML = '<i class="fa fa-step-forward" aria-hidden="true"></i>';
+		felement.innerHTML = '<i class="fa fa-step-backward" aria-hidden="true"></i>';
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayNextWork --
+//
+//
+
+function displayNextWork(id) {
+	if (!id) {
+		id = ID;
+	}
+	var newid = ORDER[id].next;
+	ID = newid;
+	displaySingleWork(ID);
+}
+
+
+
+//////////////////////////////
+//
+// displayPreviousWork --
+//
+//
+
+function displayPreviousWork(id) {
+	if (!id) {
+		id = ID;
+	}
+	var newid = ORDER[id].previous;
+	ID = newid;
+	displaySingleWork(ID);
+}
+
+
+
+//////////////////////////////
+//
+// showMeiData --
+//
+
+function showMeiData(event) {
+	var data = vrvToolkit.getMEI(0, 1);
+	var prefix = "<textarea style='spellcheck=false; width:100%; height:100%;'>";
+	var postfix = "</textarea>";
+	var w = window.open("about:blank", "MEI transcoding", 'width=600,height=800,resizeable,scrollabars,location=false');
+	w.document.write(prefix + data + postfix);
+	w.document.close();
+	function checkTitle() {
+		if (w.document) {
+			w.document.title = "MEI transcoding";
+		} else {
+			setTimeout(checkTitle, 40);
+		}
+	}
+	checkTitle();
+	event.preventDefault();
+}
+
+
+
+//////////////////////////////
+//
+// getKeySig -- extract first key signature found in Humdrum data.
+//
+
+function getKeySig(text) {
+	var matches;
+	if (matches = text.match(/\*k\[(.*?)\]/)) {
+		if (matches[1] == "b-") {
+			return "&#x266d;"
+		}
+		return matches[1];
+	} else {
+		return "X";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getMetSig -- extract first metric signature found in Humdrum data.
+//
+
+function getMetSig(text) {
+	var matches;
+	if (matches = text.match(/\*omet\((.*?)\)/)) {
+		if (matches[1] === "C") {
+			return "c";
+		} else if (matches[1] === "C|") {
+			return "c<span style='position:relative; top:2px; margin-left:-7px'>|</span>";
+		} else {
+			return matches[1];
+		}
+	} else {
+		return "X";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// fillInTimeKey --
+//
+
+function fillInTimeKey() {
+	var rows = document.querySelectorAll(".worklist tr.data");
+	for (var i=0; i<rows.length; i++) {
+		var idcell = rows[i].querySelector("td.id");
+		var id = idcell.id;
+		if (!id) {
+			continue;
+		}
+		getTimeKey(id, rows[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getTimeKey --
+//
+
+function getTimeKey(id, row) {
+	var tag = "humdrum_" + id;
+	var tagcontent;
+	var keysig;
+	var metsig;
+
+	var keysigcell = row.querySelector("td.keysig");
+	var timecell = row.querySelector("td.time");
+
+	if (sessionStorage[tag]) {
+		keysig = getKeySig(sessionStorage[tag]);
+		metsig = getMetSig(sessionStorage[tag]);
+		keysigcell.innerHTML = keysig;
+		timecell.innerHTML = metsig;
+	} else {
+		var action = "humdrum";
+		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		var request = new XMLHttpRequest();
+		request.open('GET', url);
+		request.addEventListener("load", function() {
+			var data = this.responseText;
+			sessionStorage[tag] = data;
+			keysig = getKeySig(sessionStorage[tag]);
+			metsig = getMetSig(sessionStorage[tag]);
+			keysigcell.innerHTML = keysig;
+			timecell.innerHTML = metsig;
+		});
+		request.send()
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleExpertMode --
+//
+
+var EXPERT = 0;
+function toggleExpertMode() {
+	EXPERT = !EXPERT;
+	var elements = document.querySelectorAll(".expert");
+	if (EXPERT) {
+		for (var i=0; i<elements.length; i++) {
+			elements[i].style["display"] = "block";
+		}
+	} else {
+		for (i=0; i<elements.length; i++) {
+			elements[i].style["display"] = "none";
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleMensuration --
+//
+
+function toggleMensuration() {
+	ORIGINAL_CLEFS = !ORIGINAL_CLEFS;
+	initializeVerovioNotation();
+}
+
+
+
+/////////////////////////////
+//
+// displayMensurationState --
+//
+
+function displayMensurationState() {
+	var elements = document.querySelectorAll(".mens-icon");
+	var number;
+	for (var i=0; i<elements.length; i++) {
+		if (ORIGINAL_CLEFS) {
+			elements[i].className += " highlight";
+			elements[i].title = "show modern clefs/time signature (o)";
+		} else {
+			elements[i].classList.remove("highlight");
+			elements[i].title = "show original clefs/mensuration (o)";
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleText --
+//
+
+function toggleText() {
+	INCLUDE_TEXT = !INCLUDE_TEXT;
+	initializeVerovioNotation();
+}
+
+
+
+/////////////////////////////
+//
+// displayTextState --
+//
+
+function displayTextState() {
+	var elements = document.querySelectorAll(".text-icon");
+	for (var i=0; i<elements.length; i++) {
+		if (INCLUDE_TEXT) {
+			elements[i].classList.remove("highlight");
+			elements[i].title = "hide text (t)";
+		} else {
+			elements[i].className += " highlight";
+			elements[i].title = "show text (t)";
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleCssText --
+//
+
+function toggleCssText() {
+	CSS_TEXT = !CSS_TEXT;
+	processCssTextState();
+}
+
+
+
+
+/////////////////////////////
+//
+// processCssTextState --
+//
+
+function processCssTextState() {
+	var elements = document.querySelectorAll("svg g.syl");
+	for (var i=0; i<elements.length; i++) {
+		if (CSS_TEXT) {
+			elements[i].style.visibility = "visible";
+		} else {
+			elements[i].style.visibility = "hidden";
+		}
+	}
+}
+
+
+//////////////////////////////
+//
+// processMusicSearch --
+//
+
+var LAST_QUERY = "";
+function processMusicSearch(event) {
+	var queryElement = document.querySelector("#query");
+	var query = queryElement.value;
+	query = query.replace(/\\s/, "", "g");
+	if (query == LAST_QUERY) {
+		return;
+	}
+	LAST_QUERY = query;
+	initializeVerovioNotation(null, null, query);
+}
+
+
+
+//////////////////////////////
+//
+// processTextSearch --
+//
+
+var LAST_QUERY_TEXT = "";
+function processTextSearch(event) {
+	var queryElement = document.querySelector("#query-text");
+	var query = queryElement.value;
+	query = query.replace(/^\\s/, "").replace(/\\s$/, "");
+	if (query == LAST_QUERY_TEXT) {
+		return;
+	}
+	LAST_QUERY_TEXT = query;
+	initializeVerovioNotation(null, null, query);
+}
+
+
+</script>
+
+
+<script>
+// PDF generation code:
+
+
+//////////////////////////////
+//
+// generatePdfFull -- Write a multi-page PDF of the full score in the text editor.
+//
+
+function generatePdfFull(event) {
+	event.preventDefault();
+
+	var oldOptions = vrvOptions;
+
+	// need to explicitly disable mmOutput = 1 set by the printing process.
+	oldOptions.mmOutput = 0;
+
+	$('html').css('cursor', 'wait');
+	var format = "letter";
+	var orientation = "portrait";
+	var width = 2159;
+	var height = 2794;
+	if (format === "A4") {
+		width = 2100;
+		height = 2970;
+	} else if (format === "B3") {
+		width = 2500;
+		height = 3530;
+	}
+	if (orientation === "landscape") {
+		width = [height, height = width][0];
+	}
+	var fontCallback = function(family, bold, italic, options) {
+		if (family == "VerovioText") {
+			return family;
+		}
+		if (family.match(/(?:^|,)\s*sans-serif\s*$/) || true) {
+			if (bold && italic)    {return 'Times-BoldItalic'}
+			if (bold && !italic)   {return 'Times-Bold'      }
+			if (!bold && italic)   {return 'Times-Italic'    }
+			if (!bold && !italic)  {return 'Times-Roman'     }
+		}
+	};
+	var pdfOptions = {};
+	pdfOptions.fontCallback = fontCallback;
+	var pdf = new PDFDocument({
+		useCSS:        true,
+		compress:      true,
+		autoFirstPage: false,
+		layout:        orientation
+	});
+	var stream = pdf.pipe(blobStream());
+	stream.on('finish', function() {
+		var blob = stream.toBlob('application/pdf');
+		var pdfFilename = "output.pdf";
+		var pdfFilename;
+		// The SAVEFILENAME should match the original filename.  This needs to be
+		// stored somewhere (such as in the settings index file).  Currently just
+		// use the catalog ID.
+		var SAVEFILENAME;
+		if (SAVEFILENAME) {
+			pdfFilename = SAVEFILENAME.replace(/\.[^.]*$/, "") + ".pdf";
+		} else {
+			if (ID) {
+				pdfFilename = ID + ".pdf";
+			} else {
+				pdfFilename = "output.pdf";
+			}
+		}
+		saveAs(blob, pdfFilename);
+		$('html').css('cursor', 'auto');
+	});
+	var buffer = Uint8Array.from(atob(vrvTTF), c => c.charCodeAt(0));
+	pdf.registerFont('VerovioText', buffer);
+//	var buffer2 = Uint8Array.from(atob(simonettaTTF), c => c.charCodeAt(0));
+//	pdf.registerFont('Simonetta', buffer2);
+	var localOptions = {
+		pageHeight        : height,
+		pageWidth         : width,
+		scale             : 97,
+		spacingSystem     : 6,
+		spacingStaff      : 12,
+		adjustPageHeight  : 0,
+		humType           : 1,
+		mmOutput          : 1,
+		font              : "Leipzig",
+		pageMarginLeft    : 20,
+		pageMarginRight   : 20,
+		pageMarginTop     : 20,
+		pageMarginBottom  : 20,
+		noFooter          : 0,
+		noHeader          : 0,
+		breaks            : "auto"
+	}
+
+	var scoredata = getHumdrumSourceData();
+
+	vrvToolkit.setOptions(localOptions);
+	vrvToolkit.redoLayout();
+	for (var i=0; i<vrvToolkit.getPageCount(); i++) {
+		pdf.addPage({size: format, layout: orientation});
+	 	var x = 5;
+	 	var y = 10;
+	 	SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}), x, y, pdfOptions);
+	}
+
+/*
+	for (var i=0; i<vrvToolkit.getPageCount(); i++) {
+		pdf.addPage({size: format, layout: orientation});
+		var x = 5;
+		var y = 10;
+		var svg = vrvToolkit.renderToSVG(i+1, {});
+		if (i >= 0) {
+			var simonettacss = '</style>\n<style type="text/css">\n';
+			simonettacss += "@font-face {\n";
+			simonettacss += "   font-family: 'Simonetta';\n";
+			simonettacss += "   src: url(data:application/x-font-woff;charset=uft-8;base64,";
+			simonettacss += simonettaTTF;
+			simonettacss += ")\t format('woff');\nfont-weight: normal;\nfont-style: normal;\n}\n";
+			simonettacss += "</style>\n";
+			simonettacss += '<style type="text/css">g.page-margin{font-family:Simonetta;}';
+			simonettacss += ' g.tempo{font-weight:bold;} g.dir,';
+			simonettacss += ' g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>';
+			svg = svg.replace("</style>", simonettacss);
+			// svg = svg.replace(/font-family="Times"/g, 'font-family="Simonetta"');
+			svg = svg.replace(/<tspan /g, '<tspan font-family="Simonetta" ');
+			console.log("SVG XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", svg);
+		}
+		SVGtoPDF(pdf, svg, x, y, pdfOptions);
+	}
+*/
+
+	vrvToolkit.redoLayout(oldOptions, true);
+	pdf.end();
+	return false;
+}
+
+
+/////////////////////////////
+//
+// gotoMeasure --
+//
+
+function gotoMeasure(measurenum) {
+	ExpandIncipit();
+	var svg = document.querySelector("svg");
+	var measure = svg.querySelector(".m-"+measurenum);
+	measure.scrollIntoView();
+//	var offset = $(".m-"+measurenum).offset();
+//	offset.left -= 20;
+//	offset.top -= 20;
+//console.log("OFFSET", offset);
+//	$('html, body').animate({
+//		srollTop: offset.top,
+//		scrollLeft: offset.left
+//	});
+
+}
+
+
+
+//////////////////////////////
+//
+// fillInDedicatee --
+//
+
+function fillInDedicatee(id) {
+	var element = document.querySelector("#principal_dedicatee");
+	if (!element) {
+		return;
+	}
+	if (!SETTING.REPORT) {
+		return;
+	}
+	var dedicatee     = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE;
+	var dedicateeNote = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE_NOTE;
+
+	var tds = element.querySelectorAll("td");
+	if (tds.length != 2) {
+		return;
+	}
+	var datatd = tds[1];
+
+	var output = "";
+	if (dedicatee) {
+		output += dedicatee;
+	}
+	if (dedicatee && dedicateeNote) {
+		output += "<br/>";
+	}
+	if (dedicateeNote) {
+		output += dedicateeNote;
+	}
+	element.style.display = "display";
+}
+
+
+
+//////////////////////////////
+//
+// fillInOtherSources --
+//
+
+function fillInOtherSources(id) {
+	var element = document.querySelector("#other_sources");
+	if (!element) {
+		return;
+	}
+	var output = "";
+	var list = SETTING.REPORT.OTHER_SOURCE;
+	if (!list) {
+		element.innerHTML = "<div class='indent'>None</div>";
+		return ;
+	}
+	if (!(list instanceof Array)) {
+		list = [list];
+	}
+	var output = "<div class='indent'>";
+	for (var i=0; i<list.length; i++) {
+		output += "<p>";
+		var otherTemplate = Handlebars.compile(list[i]);
+		output += otherTemplate();
+	}
+	output += "</div>";
+	element.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// fillInPrimarySources --
+//
+
+function fillInPrimarySources(id) {
+	var element = document.querySelector("#primary_sources");
+	if (!element) {
+		return;
+	}
+	var output = "";
+	var list = SETTING.REPORT.PRINCIPAL_SOURCE;
+	if (!list) {
+		element.innerHTML = "<div class='indent'>None</div>";
+		return ;
+	}
+	if (!(list instanceof Array)) {
+		list = [list];
+	}
+	var output = "<div class='indent'>";
+	for (var i=0; i<list.length; i++) {
+		output += "<p>";
+		var otherTemplate = Handlebars.compile(list[i]);
+		output += otherTemplate();
+	}
+	output += "</div>";
+	element.innerHTML = output;
+}
+
+
+
+</script>
+
+
+

@@ -1,0 +1,263 @@
+/* 
+ * vim: ts=3
+ */
+
+h1 {
+	color: #96835c;
+}
+
+.cycle th {
+	color: #96835c;
+}
+
+.cycle th {
+	text-align: left;
+}
+
+#contents {
+	padding: 50px;
+	font-size: 130%;
+	border-top-right-radius: 0px !important;
+}
+
+#contents svg {
+	width: 100%;
+	height: auto;
+}
+
+table.cycle, table.worklist {
+	border-collapse: collapse;
+	font-size: 120%;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.cycle .worklist tbody tr:hover {
+	background: #eee;
+}
+
+.entry {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.triangle {
+	color: #96835c;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	font-size: 100%;
+}
+
+.triangle.above {
+	position: relative;
+	top: -30px;
+	left: -25px;
+}
+
+.variant {
+/*	float: right; */
+	margin-left: 20px;
+}
+
+.indent, .downloads {
+	text-align: justify;
+	text-justify: inter-word;
+ 	margin-left: 30px;
+ 	margin-right: 50px;
+}
+
+.downloads td, .downloads tr {
+	vertical-align: top;
+}
+
+.downloads {
+	margin-bottom: -40px;
+}
+
+.first-line {
+	padding-left: 0px;
+	white-space: nowrap;
+}
+
+.other-line {
+	padding-left: 40px;
+	white-space: nowrap;
+}
+
+table.poem td:first-child {
+	padding-right: 30px;
+}
+
+table.cycle th, table.worklist th {
+	padding-bottom: 15px;
+}
+
+table.cycle td, table.worklist td {
+	padding-bottom: 5px;
+}
+
+
+/* Downloads */
+
+table.downloads {
+	position: relative;
+	top: -20px;
+}
+
+.downloads ul {
+	margin-left: -21px;
+}
+
+.downloads td {
+	padding-right: 100px;
+}
+
+nobr[class^='mm'] {
+	cursor: pointer;
+	color: {{site.hyperlink_color}};
+}
+
+.error {
+	background-color: red;
+}
+
+
+.play  {
+	padding-bottom: 1px;
+
+}
+
+.ebutton {
+	float:right;
+	margin-top: -50px;
+	background-color: {{site.button_color}};
+	color: {{site.button_text_color}};
+	padding-left: 7px;
+	padding-bottom: 2px;
+	padding-right: 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: {{site.button_font}};
+	z-index: -100;
+}
+
+.eebutton {
+	background-color: {{site.button_color}};
+	color: {{site.button_text_color}};
+	padding-left: 7px;
+	padding-bottom: 2px;
+	padding-right: 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: {{site.button_font}};
+	z-index: -100;
+}
+
+
+.voice-icon {
+	cursor: pointer;
+	font-family: {{site.button_font}};
+	font-size: 18%;
+	color: black;
+}
+
+.voice-icon .text-primary {
+	color: {{site.tab_color}};
+}
+
+.mens-icon,
+.text-icon {
+	cursor: pointer;
+	font-family: {{site.button_font}};
+	font-size: 18%;
+	color: black;
+}
+
+.mens-icon .text-primary,
+.text-icon .text-primary {
+	color: {{site.tab_color}};
+}
+
+.highlight {
+	/* background-color: #c00; */
+	 color: #c00;
+}
+
+
+.notation-toolbar {
+	border-radius: 5px 30px 30px 5px; 
+	width: 97%; 	
+	opacity: 0.5; 
+	padding-left: 0; 
+	margin-left: 1em; 
+	margin-right: 5em; 
+	background-color: {{site.tab_color}};
+	margin-bottom: -40px;
+}
+
+
+g[id^="bline-"]:hover,
+g[id^="clef-"]:hover,
+g[id^="ksig-"]:hover,
+g[id^="msig-"]:hover,
+g[id^="note-"]:hover,
+g[id^="accid-"]:hover,
+g[id^="trill-"]:hover,
+g[id^="artic-"]:hover,
+g[id^="slur-"]:hover,
+g[id^="tie-"]:hover,
+g[id^="slur-"]:hover,
+g[id^="fermata-"]:hover,
+g[id^="rest-"]:hover {
+	fill: orange; 
+}
+
+g[id^="bline-"]:hover [stroke],
+g[id^="clef-"]:hover [stroke],
+g[id^="ksig-"]:hover [stroke],
+g[id^="msig-"]:hover [stroke],
+g[id^="note-"]:hover [stroke],
+g[id^="accid-"]:hover [stroke],
+g[id^="trill-"]:hover [stroke],
+g[id^="artic-"]:hover [stroke],
+g[id^="slur-"]:hover [stroke],
+g[id^="tie-"]:hover [stroke],
+g[id^="slur-"]:hover [stroke],
+g[id^="fermta-"]:hover [stroke],
+g[id^="rest-"]:hover [stroke] {
+	stroke: orange;
+	stroke-width: 70px;
+}
+
+/* Headings */
+
+h3 {
+	text-transform: uppercase;
+}
+
+h4 {
+	/* font-variant: small-caps; */
+	text-transform: uppercase;
+}
+
+/* key/value tables on work pages */
+
+table.sourceinfo {
+	margin-left: 75px;
+}
+
+table.sourceinfo td {
+	vertical-align: top;
+	padding-bottom: 0px;
+}
+
+table.sourceinfo td:first-child {
+	width: 200px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+
+

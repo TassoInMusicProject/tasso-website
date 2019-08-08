@@ -1,0 +1,1029 @@
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+<!--
+	vim: ts=3 ft=javascript
+-->
+
+<!-- worklist-template
+		The worklist template is used to fill in the list of available works.
+-->
+
+{% raw %}
+<script id="worklist-template" type="text/x-handlebars-template">
+	<table class="worklist">
+
+	<thead style="color: #B19C5F;">
+		<th onclick="sortByText(0)" style="cursor:pointer; text-align:left">Catalog</th>
+		<th onclick="sortByText(1, 'span')" style="cursor:pointer; text-align:left">Composer</th>
+		<th onclick="sortByNumber(2)" style="cursor:pointer; text-align:left">Date</th>
+		<th onclick="sortByText(3)" style="cursor:pointer; text-align:left">Title</th>
+		<th onclick="sortByText(4)" style="cursor:pointer; text-align:left">Voices</th>
+		<th onclick="sortByText(5)" style="cursor:pointer; padding-left:10px; padding-right:10px; text-align:left">Key</th>
+		<th onclick="sortByText(6)" style="cursor:pointer; text-align:left">Mens.</th>
+		<th style="cursor:pointer; text-align:left"></th>
+		<th></th>
+	<thead>
+
+	<tbody>
+
+	{{#works}}
+	<tr class="data">
+		<td class="id" id="{{id}}" onclick="displaySingleWork('{{id}}');" style="cursor:pointer; color:#96835c; padding-right:20px;" >{{id}}</td>
+		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;"> <nobr>{{{shortComposer2 comlong}}}</nobr></td>
+		<td onclick="displaySingleWork('{{id}}');" style="cursor:pointer; padding-right:20px;" >{{{workdate}}}</td>
+		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{formatTitle title}}}</td>
+		<td style="cursor:pointer;" onclick="displaySingleWork('{{id}}');"> {{{voices}}}</td>
+		<td class="keysig"     style="text-align:center"></td>
+		<td class="time"       style="text-align:center"></td>
+		<td>
+			<span id="audio_{{id}}" style="cursor:hand; cursor:pointer;"
+			onclick="PlayAudioFile('{{id}}', this);"
+			href="" class="play">play</span>
+		</td>
+	</tr>
+	{{/works}}
+
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+
+<!-- singlework-template
+		The singlework template is used to fill in work page for a particular work.
+-->
+
+{% raw %}
+<script id="singlework-template" type="text/x-handlebars-template">
+	<center>
+		<table style='width:100%; margin-top:-50px; padding-left:0px; padding-right:0px; width:100%'>
+		<tr>
+			<td class="triangle">
+				<nobr>
+				<span class="triangle" onclick="displayPreviousWork();">&#9664;</span>
+				<span class="triangle above" onclick="displayWorkList();">&#9650;</span>
+				</nobr>
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h2>{{{formatComposer COMPOSER}}}<br>{{{formatTitle TITLE}}}</h2>
+			</td>
+			<td class='triangle'>
+				<span class="triangle backward" onclick="displayNextWork();">&#9664;</span>
+			</td>
+		</tr>
+		</table>
+	</center>
+
+	<div style="display:none" class="musical-content">
+	<table  class="notation-toolbar">
+	<tr style="padding:0">
+	<td style="width:10px; margin-left:5px !important;">
+		<div id="audio_{{CATALOGNUM}}" title="play (space)" 
+				style="position:relative; left:-5px; top:0px; cursor:pointer;" 
+				onclick="PlayAudioFile('{{CATALOGNUM}}', this);" 
+				href="" class="play">
+			play
+		</div>
+	</td>
+
+	<td>
+		<div id="expand" style="text-align: center; font-size: 160%; position: relative; left:-14px; cursor:pointer" onclick="toggleIncipit()">
+			e
+		</div>
+	</td>
+
+	<td style="margin-left: -10px;">
+		<div style="position:relative; top:-5px;" id="other-buttons">
+			<div style='font-size:1.5em;'>
+				<nobr>
+					<span id='text' class='text-icon' onclick='toggleText()'>
+						<span class='fa-stack fa-3x'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<strong class='fa-stack-1x text-primary'>
+								t
+							</strong>
+						</span>
+					</span>
+					<span id='original' class='mens-icon' onclick='toggleMensuration()'>
+						<span class='fa-stack fa-3x'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<strong class='fa-stack-1x text-primary'>
+								o
+							</strong>
+						</span>
+					</span>
+				</nobr>
+			</div>
+		</div>
+	</td>
+
+	<td>
+	|
+	</td>
+
+	<td style="min-width: 200px;">
+		<div style="position:relative; top:-5px;" id="voice-buttons">
+		</div>
+	</td>
+
+	<td width="100%"></td>
+
+	<td>
+		<div style="padding-left:10px">
+			<input id="query" onkeyup="processMusicSearch(event)" 
+					type=text placeholder="music search..." 
+					style="width:150px">
+			<div id="search-counts"></div>
+		</div>
+	</td>
+	<td width="100%">
+		<div style="padding-left:10px">
+			<input id="query-text" onkeyup="processTextSearch(event)" 
+					type=text placeholder="text search..." 
+					style="width:150px">
+			<div id="search-counts"></div>
+		</div>
+	</td>
+	<td>
+		<div style='font-size:1.5em; margin-top:-10px;'>
+			<span id='search-help' class='text-icon' onclick='console.log("DISPLAY SEARCH HELP")'>
+				<span class='fa-stack fa-3x'>
+					<i class='fa fa-circle fa-stack-2x'></i>
+					<strong class='fa-stack-1x text-primary'>
+						?
+					</strong>
+				</span>
+			</span>
+		</div>
+	</td>
+
+	<td style="display:none;">
+		<div style="position:relative; top: 0px; left: -20px;">
+		<nobr>
+		<div title="go to first system" id="firstsys" style="display:inline-block; font-style:italic; cursor:pointer" onclick="firstVerovioPage()">
+			<i class="fa fa-step-forward" aria-hidden="true"></i>
+		</div>
+		<div title="go to previous system" id="prevsys" style="padding-left:10px; display:inline-block; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(-1)">
+			<i class="fa fa-arrow-left" aria-hidden="true"></i>
+		</div>
+		<div title="go to next system" id="nextsys" style="padding-left:10px; display:inline; font-style:italic; cursor:pointer" onclick="incrementVerovioPage(1)">
+			<i class="fa fa-arrow-right" aria-hidden="true"></i>
+		</div>
+		<div title="go to last system" id="lastsys" style="padding-left:10px; display:inline-block; font-style:italic; cursor:pointer" onclick="lastVerovioPage()">
+			<i class="fa fa-step-backward" aria-hidden="true"></i>
+		</div>
+		</nobr>
+		</div>
+	</td>
+
+	</tr>
+	</table>
+
+	<div style="height:300px; margin-bottom:20px; margin-top:-10px;" id="verovio-display"></div>
+
+	<table class="downloads">
+	<tr>
+		<td>
+			<ul>
+				<li> <a class="icon-file" onclick="generatePdfFull(event)" href="#">PDF</a></li>
+				<li> <a class="icon-midi"      
+					target="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
+				<li> <a class="icon-file-list" 
+					target="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li> <a class="icon-list" target="_blank" href="{{SCOREDATA.DATAURL}}">Humdrum</a></li>
+				<li> <nobr><a class="icon-list" target="_blank" href="{{SCOREDATA.EDITURL}}">Humdrum (Github)</a></nobr></li>
+				<li> <a class="icon-list" target="_blank" href="https://verovio.humdrum.org/?file={{SCOREDATA.DATAURL}}"><nobr>Humdrum (VHV)</nobr></a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li> <a class="icon-list" 
+					target="_blank" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
+				<li> <a class="icon-list" 
+					target="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
+				<li> <a class="icon-list" 
+					target="_blank" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li> <a class="icon-list" target="_blank" href="/proll?id={{CATALOGNUM}}">Piano Roll</a></li>
+			</ul>
+		</td>
+	</tr>
+	</table>
+
+	</div>
+
+	{{#if COMPOSER}}
+	<h3>Composer</h3>
+	<div class="indent">
+		<div id="composer">{{{composer COMPOSERDATA}}}</div>
+	</div>
+	{{/if}}
+
+	{{#if TIMPEDITOR}}
+	<h3>Editor</h3>
+	<div class="indent">
+		<div id="editor">{{{editor TIMPEDITOR}}}</div>
+	</div>
+	{{/if}}
+
+		<h3>Text and translation</h3>
+	<!--
+		%%%verses VERSEDATA.VERSES CATALOGNUM%%%
+	-->
+
+	<div class="indent musical-content" style="display:none">
+		<p><a target="_blank" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts.</p>
+	</div>
+
+	<div class="indent">
+		<a href="">Go to poem's About page</a>
+		<br/>
+		<br/>
+		<a href="">Go to poem's Literary Variants page</a>
+	</div>
+	
+
+
+	{{#if EXTANTVOICES}}
+	<h3>Voices</h3>
+	<div class="indent">
+		{{{voices EXTANTVOICES OVOICES SOURCE this}}}
+	</div>
+	{{/if}}
+	<div id="range"></div>
+
+	{{#if SOURCE}}
+	<h3>Musical sources</h3>
+
+	<div class="indent">
+		<h4>Principal sources</h4>
+		<div id="primary_sources">PRIMARY SOURCE GO HERE</div>
+
+		<h4>Other sources</h4>
+		<div id="other_sources">OTHER SOURCE GO HERE</div>
+	</div>
+
+	{{/if}}
+
+	<h3>Critical report</h3>
+	<div class="indent">
+		{{{criticalReport this}}}
+	</div>
+
+	<span id="report_{{CATALOGNUM}}"></span>
+
+	<script id="humdrum-data" type="application/x-humdrum"></script>
+
+</script>
+{% endraw %}
+
+<script>
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Handlebar helper functions --
+//
+
+
+//////////////////////////////
+//
+// verses Handlebar helper -- Assuming translation has the same
+//     dimension as verses.
+//
+
+Handlebars.registerHelper("verses", function(verses, catnum) {
+	var rime = catnum.match(/Trm0*(\d+)/)[1];
+	if (!verses) {
+		return "";
+	}
+	var v;
+	var t;
+	var output = "";
+	// var output = "<h3> Text and translation";
+	// output += "<span class='variant'>(";
+	// output += "<a href='/variants?rime=";
+	// output += rime;
+	// output += "'>";
+	// output += "go to text variants";
+	// output += "</a>";
+	// output += ")</span>";
+	// output += "</h3>";
+
+	output += "<div class='indent'>";
+	output += "<table class=poem>";
+	if (verses.VERSE instanceof Array) {
+		var vv = verses.VERSE;
+		var tt = verses.TVERSE;
+		for (var q=0; q<vv.length; q++) {
+			output += "<tr>";
+			output += "<td>";
+			v = vv[q].split(/\n/);
+			for (var i in v) {
+				if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+			}
+			output += "</td>";
+			output += "<td>";
+			t = tt[q].split(/\n/);
+			for (var i in t) {
+				if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+			}
+			output += "</td>";
+			output += "</tr>";
+		}
+	} else {
+
+		output += "<tr>";
+		output += "<td>";
+		v = verses.VERSE.split(/\n/);
+		for (var i in v) {
+			if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "<td>";
+		t = verses.TVERSE.split(/\n/);
+		for (var i in t) {
+			if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "</tr>";
+
+	}
+	output += "</table>";
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// composer Handlebar helper --
+//
+
+Handlebars.registerHelper("formatComposer", function(text) {
+	var matches;
+	var output = text;
+	if (matches = text.match(/(.*),\s*(.*)/)) {
+		output = matches[2] + " " + matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// shortComposer2 Handlebar helper  -- Prevent linebreak after RISM
+//      and its number.
+//
+
+Handlebars.registerHelper("shortComposer2", function(text) {
+	var fullname = text;
+	var matches;
+	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
+	var pieces = text.split(/\s+/);
+
+	var abbrname = "";
+	for (var i=0; i<pieces.length-1; i++) {
+		if (pieces[i][0] == pieces[i][0].toLowerCase()) {
+			// such as "del"
+			abbrname += " " + pieces[i];
+		} else if (pieces[i][0] == pieces[i][0].toUpperCase()) {
+			abbrname += " " + pieces[i][0] + ".";
+		} else {
+			// strange case
+			abbrname += " " + pieces[i];
+		}
+	}
+	abbrname += " " + pieces[pieces.length-1];
+	abbrname = abbrname.replace(/^\s+/, "");
+	abbrname = abbrname.replace(". ", ".");
+	abbrname = abbrname.replace(/.*\. ?/, "");
+	var output = "<span title='" + fullname + "'>" + abbrname + "</span>";
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper  -- format peoples' names.
+//
+
+Handlebars.registerHelper("formatTitle", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("EMPTY");
+	}
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// principalSource Handlebar helper  -- format principal source information
+//
+
+Handlebars.registerHelper("principalSource", function(id) {
+	var entry = GetSettingEntry(id);
+	var text = entry.REPORT_PRINCIPALSOURCE;
+	if (!text) {
+		return new Handlebars.SafeString("None");
+	}
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// emendation Handlebar helper  -- format principal source information
+//
+
+Handlebars.registerHelper("emendation", function(id) {
+	var entry = GetSettingEntry(id);
+	var text = entry.REPORT_EMENDATION;
+	if (!text) {
+		return new Handlebars.SafeString("None.");
+	}
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// reportnotes Handlebar helper  -- format principal source information
+//
+
+Handlebars.registerHelper("reportnotes", function(id) {
+	var entry = GetSettingEntry(id);
+	var text = entry.REPORT_NOTES;
+	if (!text) {
+		return new Handlebars.SafeString("None.");
+	}
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// id2rime Handlebar helper  -- Extract Rime number from catalog number.
+//
+
+Handlebars.registerHelper("id2rime", function(text) {
+	var matches;
+	var output = 0;
+	if (matches = text.match(/^Trm0*(\d+)/)) {
+		output = matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// editor Handlebar helper -- Reverse name so first name is first.
+//
+
+Handlebars.registerHelper("editor", function(name) {
+	var matches = name.match(/(.*);\s*(.*)/);
+	var output = "";
+	if (matches) {
+		var name1 = cleanName(matches[1]);
+		var name2 = cleanName(matches[2]);
+		output = name1 + "; " + name2;
+	} else {
+		output = cleanName(name);
+	}
+	
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// cleanName --
+//
+	
+function cleanName(original) {
+	var matches;
+	var name = original;
+	if (matches = original.match(/^(.*),\s+(.*)$/)) {
+		name = matches[2] + " " + matches[1];
+	}
+	if (name == "Emiliano Ricciardi") {
+		name += " (University of Massachusetts Amherst)";
+	} else if (name == "Seth Coluzzi") {
+		name += " (Colgate University)";
+	} else if (name == "Catherine Deutsch") {
+		name += " (University of Paris, Sorbonne)";
+	} else if (name == "Daniel Donnelly") {
+		name += " (University of Toronto)";
+	} else if (name == "Roseen Giles") {
+		name += " (Duke University)";
+	} else if (name == "Marcello Mazzetti") {
+		name += " (University of Huddersfield)";
+	} else if (name == "Anthony Newcomb") {
+		name += " (University of California, Berkeley)";
+	} else if (name == "Paul Schleuse") {
+		name += " (Binghamton University)";
+	} else if (name == "Livio Ticli") {
+		name += " (University of Huddersfield)";
+	}
+
+	return name;
+}
+
+
+
+//////////////////////////////
+//
+// composer Handlebar helper -- Reverse name so first name is first.
+//
+
+Handlebars.registerHelper("composer", function(composerdata) {
+	if (!composerdata) {
+		return new Handlebars.SafeString("");
+	}
+	var cd = composerdata;
+	var name = cd.COMPOSER;
+
+	var matches;
+	if (matches = name.match(/^(.*),\s+(.*)$/)) {
+		name = matches[2] + " " + matches[1];
+	}
+
+	if (cd.COMURL) {
+		name = "<a target='new' href='" + cd.COMURL + "'>" + name + "</a>";
+	}
+
+	var date = "";
+	if (!cd.DATES.match(/^\s*$/)) {
+		date += "(" + cd.DATES + ")";
+	}
+	date = date.replace(/-/g, "&ndash;");
+	var output = name + " " + date;
+
+	var oinfo = "";
+
+	if (cd.ALIASES) {
+		oinfo += "<tr><td><nobr>Alternate spellings/aliases</nobr></td><td>" + cd.ALIASES + "</td></tr>";
+	}
+	if (cd.AREA) {
+		if (cd.AREA.match(/,/)) {
+			oinfo += "<tr><td><nobr>Active areas (alphabetical)</nobr></td><td>" + cd.AREA + "</td></tr>";
+		} else {
+			oinfo += "<tr><td>Active area</td><td>" + cd.AREA + "</td></tr>";
+		}
+	}
+	if (cd.NOTE) {
+		oinfo += "<tr><td>Note</td><td>" + cd.NOTE + "</td></tr>";
+	}
+
+
+	var workcount = getWorkCountForComposer(cd.COMPOSER);
+	if (workcount > 1) {
+		oinfo += "<tr><td>Other Tasso settings</td><td>";
+		oinfo += "<a target='_new' href='/browse?composer=";
+		oinfo += cd.COMPOSER.replace(/ /, "%20");
+		oinfo += "'>";
+		oinfo += (workcount - 1)
+		oinfo += "</a>";
+
+		oinfo += "</td></tr>";
+
+	}
+
+
+	if (!oinfo.match(/^\s*$/)) {
+		oinfo = "<table style='margin-top:12px; margin-left:0 !important;' class='sourceinfo'>" + oinfo + "</table>";
+	}
+
+	output += oinfo;
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// getWorkCountForComposer -- Only for Rime settings for now.
+//
+
+function getWorkCountForComposer(composer) {
+	var data = ALLSETTINGLIST;
+	var counter = 0;
+	for (var i=0; i<data.length; i++) {
+		if (data[i].COMPOSER === composer) {
+			counter++;
+		}
+	}
+	return counter;
+}
+
+
+//////////////////////////////
+//
+// voices Handlebar helper  -- display original and extant voices.
+//
+
+Handlebars.registerHelper("voices", function(evoice, ovoice, source, setting) {
+	if ((!ovoice) && (!evoice)) {
+		return new Handlebars.SafeString("");
+	}
+	if (!ovoice) {
+		ovoice = "";
+	}
+	if (ovoice.match(/alfabeto/)) {
+		ovoice = ovoice.replace(/\+?alfabeto/, "");
+	}
+	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
+	if (!evoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	if (!evoice) {
+		evoice = "";
+	}
+	evoice = evoice.replace(/\s*\+\s*/g, "+");
+	if (evoice.match(/alfabeto/)) {
+		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");
+	}
+
+	// if (evoice === ovoice) {
+	// 	return new Handlebars.SafeString(ovoice);
+	// }
+
+	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
+	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
+	//if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
+	//	evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+	//}
+	// var text = ovoice + " (" + evoice + ")";
+
+	// settings:
+	// @@   OPARTBOOKS:       Original partbooks (automatically inserted from sources.aton).
+	// @@   EXTPARTBOOKS:     Extant partbooks (automatically inserted from sources.aton).
+
+	var epartbooks = "";
+	if (setting && setting.EXTPARTBOOKS) {
+		epartbooks = " (" + setting.EXTPARTBOOKS + ")";
+	} else if (source && source.EXTPARTBOOKS && !source.EXTPARTBOOKS.match(/^\s*$/)) {
+		epartbooks = " (" + source.EXTPARTBOOKS + ")";
+	}
+
+	var opartbooks = "";
+	if (setting && setting.PARTBOOKS) {
+		opartbooks = " (" + setting.PARTBOOKS + ")";
+	} else if (source && source.OPARTBOOKS && !source.OPARTBOOKS.match(/^\s*$/)) {
+		opartbooks = " (" + source.OPARTBOOKS + ")";
+	}
+
+	var output = "<table style='margin-top:12px; margin-left:0 !important;' class='sourceinfo'>";
+	output += "<tr><td>Original voices</td>";
+	output += "<td>";
+	output += ovoice + opartbooks;
+	output += "</td>";
+	output += "<tr><td>Extant voices</td>";
+	output += "<td>";
+	output += evoice + epartbooks;
+	output += "</td></tr>";
+	output += "</table>";
+
+	return new Handlebars.SafeString(output);
+});
+
+//
+// This version is similar to work lists, such as 6(3) for originally
+// 6 voices, but only 3 extant.
+//
+
+Handlebars.registerHelper("voices-simple", function(evoice, ovoice, catalog) {
+	if ((!ovoice) && (!evoice)) {
+		return new Handlebars.SafeString("");
+	}
+	if (!ovoice) {
+		ovoice = "";
+	}
+	if (ovoice.match(/alfabeto/)) {
+		ovoice = ovoice.replace(/\+?alfabeto/, "");
+	}
+	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
+	if (!evoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	if (!evoice) {
+		evoice = "";
+	}
+	evoice = evoice.replace(/\s*\+\s*/g, "+");
+	if (evoice.match(/alfabeto/)) {
+		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");
+	}
+	if (evoice === ovoice) {
+		return new Handlebars.SafeString(ovoice);
+	}
+	evoice = evoice.replace(/b\.?c\.?/gi, "bc");
+	ovoice = ovoice.replace(/b\.?c\.?/gi, "bc");
+	if (ovoice.match(/b\.?c\.?/i) && evoice.match(/b\.?c\.?/i)) {
+		evoice = evoice.replace(/\s*\+?\s*b\.?c\.?/i, "");
+	}
+	var text = ovoice + " (" + evoice + ")";
+	return new Handlebars.SafeString(text);
+});
+
+
+//////////////////////////////
+//
+// sourceinfo Handlebar helper  -- display original and extant voices.
+//
+
+Handlebars.registerHelper("sourceinfo", function(source) {
+	return displaySourceInformation(source);
+});
+
+
+function displaySourceInformation(source) {
+	var text = "";
+	text += "<table class='sourceinfo'>";
+
+/*
+	if (source.TITLESHORT) {
+		text += "<tr><td>Title</td><td>";
+		text += source.TITLESHORT;
+		text += "</td></tr>";
+	}
+*/
+
+	if (source && source.RISM) {
+		var rism = source.RISM;
+		var xtitle = "";
+		if (rism.match(/^[A-Z] /)) {
+			xtitle = "A/I";
+		} else if (rism.match(/^\d\d\d\d/)) {
+			xtitle = "B/I";
+		}
+		text += "<tr><td>RISM " + xtitle + "</td><td>";
+		text += "<a target='_new' href='/browse?rism=" + source.RISM.replace(/ /g, "%20") + "'";
+		text += " title='List of Tasso settings published in RISM " + xtitle + " ";
+		text += rism + "'";
+		text += ">";
+		text += rism;
+		text += "</a>";
+		text += "</td></tr>";
+	}
+
+	if (source && source.TITLEPAGE) {
+		text += "<tr><td><nobr>Title page</nobr></td><td>";
+		var tp = cleanTitlePage(source.TITLEPAGE);
+		text += "<div style='width:600px; margin-left: -50px; background-color:#f5f5f5; padding:8px; text-align:center;'>";
+		text += "<nobr>";
+		text += tp;
+		text += "</nobr>";
+		text += "</div>";
+		text += "</td></tr>";
+	} else if (source && source.TITLESHORT) {
+		text += "<tr><td><nobr>Title</nobr></td><td>";
+		text += source.TITLESHORT;
+		text += "</td></tr>";
+	}
+
+	text += "<tr id='principal_dedicatee' style='display:none'><td><nobr>Source Dedicatee</nobr></td><td></td></tr>";
+
+	if (source && source.SRCDEDICATEE) {
+		text += "<tr><td><nobr>Dedicatee</nobr></td><td>";
+		text += source.SRCDEDICATEE;
+		text += "</td></tr>";
+	}
+
+	if (source && source.OPARTBOOKS && source.EXTPARTBOOKS && (source.OPARTBOOKS === source.EPARTBOOKS)) {
+			text += "<tr><td><nobr>Part-books</nobr></td><td>";
+			text += source.OPARTBOOKS;
+			text += "</td></tr>";
+	} else {
+		if (source && source.OPARTBOOKS) {
+			text += "<tr><td><nobr>Original part-books</nobr></td><td>";
+			text += source.OPARTBOOKS;
+			text += "</td></tr>";
+		}
+		if (source && source.EXTPARTBOOKS) {
+			text += "<tr><td><nobr>Extant part-books</nobr></td><td>";
+			text += source.EXTPARTBOOKS;
+			text += "</td></tr>";
+		}
+	}
+
+	if (source && source.PUBLISHER) {
+		var pub = source.PUBLISHER;
+		text += "<tr><td><nobr>Publisher</nobr></td><td>";
+		text += "<a target='_new' href='/browse?publisher=" + source.PUBLISHER + "'";
+		text += " title='List of music published by " + source.PUBLISHER + "'";
+		text += ">";
+		text += pub;
+		text += "</a>";
+		text += "</td></tr>";
+	}
+
+	if (source && source.YEAR) {
+		text += "<tr><td><nobr>Publication year</nobr></td><td>";
+		text += "<a target='_new' href='/browse?year=" + source.YEAR + "'";
+		text += " title='List of music published in " + source.YEAR + "'";
+		text += ">";
+		text += source.YEAR;
+		text += "</a>";
+		text += "</td></tr>";
+	}
+
+	if (source && source.PUBNORMLOC) {
+		var loc = source.PUBNORMLOC;
+		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		text += "<a target='_new' href='/browse?location=" + source.PUBNORMLOC + "'";
+		text += " title='List of music published in " + source.PUBNORMLOC + "'";
+		text += ">";
+		text += loc;
+		text += "</a>";
+		text += "</td></tr>";
+	} else if (source && source.PUBLOC) {
+		var loc = source.PUBLOC;
+		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		text += "<a target='_new' href='/browse?location=" + source.PUBLOC + "'";
+		text += " title='List of music published in " + source.PUBLOC + "'";
+		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		text += loc;
+		text += "</a>";
+		text += "</td></tr>";
+	}
+
+	if (source && source.SRCLOCSIGLA) {
+		var sigla = source.SRCLOCSIGLA;
+		text += "<tr><td><nobr>Library";
+		text += "</nobr></td><td>";
+		text += source.SRCLOCSIGLA;
+		if (source.SRCURL) {
+			text += " (<a target='new' href='" + source.SRCURL + "'>view digitized source</a>)";
+		}
+		text += "</td></tr>";
+	}
+
+	text += "</table>";
+	return new Handlebars.SafeString(text);
+}
+
+
+
+//////////////////////////////
+//
+// cleanTitlePage -- Change "/" into newlines, but not when in strings like "</i>".
+//
+
+function cleanTitlePage(input) {
+	var output = "";
+	for (var i=0; i<input.length; i++) {
+		var letter = input.charAt(i);
+		if (letter === "/") {
+			if ((i > 0) && (input.charAt(i-1) == "<")) {
+				output += "/";
+			} else {
+				output += "<br/>";
+			}
+		} else {
+			output += letter;
+		}
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// criticalReport Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("criticalReport", function(setting) {
+	var text = "";
+	text += "<table class='sourceinfo'>";
+
+	if (setting.OCLEFS) {
+		var oclefs = setting.OCLEFS.replace(/,\s*/g, ", ");
+		var cleflist = oclefs.split(/\s*,\s*/);
+		if (setting.SCOREDATA && setting.SCOREDATA.VABBR) {
+			var vlist = setting.SCOREDATA.VABBR;
+			if (typeof vlist === "string") {
+				vlist = [vlist];
+			}
+			if (cleflist.length != vlist.length) {
+				console.log("CLEFS AND VOICE COUNTS DO NOT MATCH:", oclefs, cleflist, vlist);
+			} else {
+				var newoclefs = "";
+				for (var i=0; i<cleflist.length; i++) {
+					vlist[i] = vlist[i].replace(/Q/g, "V");
+					newoclefs += vlist[i] + " (" + cleflist[i] + ")";
+					if (i < cleflist.length - 1) {
+						newoclefs += "<br>";
+					}
+				}
+				oclefs = newoclefs;
+			}
+		}
+
+		text += "<tr><td><nobr>Original clefs</nobr></td><td>";
+		text += oclefs;
+		text += "</td></tr>";
+	}
+
+	if (setting.OMENSURATION) {
+		var mensuration = setting.OMENSURATION;
+		text += "<tr><td style='padding-top:5px;'><nobr>Mensuration sign</nobr></td><td>";
+		text += "<span style='display:inline-block; margin-top:-10px; font-size:150%'>";
+		// C or Cut-C: convert to c and  c|
+		if (mensuration === "C") {
+			text += "c";
+		} else if (mensuration === "Cut-C") {
+			text += "c<span style='position:relative; top:1px; margin-left:-0.30em'>|</span>";
+		} else {
+			// deal with other mensuration signs here, such as O
+			text += mensuration;
+		}
+		text += "</span>";
+		text += "</td></tr>";
+	}
+
+
+	text += "</table>";
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// rism Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("rism", function(rismid) {
+	if (!rismid) {
+		return new Handlebars.SafeString("RISM ID IS EMPTY: " + rismid);
+	}
+	var output = "";
+	if (rismid.match(/[A-Z]\s+(\d+)/)) {
+		output = "RISM A/I " + rismid;
+	} else if (rismid.match(/^(\d+)/)) {
+		output = "RISM B/I " + rismid;
+	} else {
+		// Might suppress later when id is not a rism number in one of the
+		// above two formats.
+		output = rismid;
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// risminfo Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("risminfo", function(rismid) {
+	if (!rismid) {
+		return new Handlebars.SafeString("Empty RISM ID");
+	}
+	output = "INFO FOR " + rismid + " will go here.";
+	var source;
+	for (var i=0; i<SOURCES.length; i++) {
+		if (SOURCES[i].RISM === rismid) {
+			source = SOURCES[i];
+		}
+	}
+	if (!source) {
+		return new Handlebars.SafeString("No information for RISM " + rismid);
+	}
+
+	return displaySourceInformation(source);
+});
+
+
+</script>
+
+
+

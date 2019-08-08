@@ -1,0 +1,184 @@
+<script>
+// vim: ts=3 ft=javascript
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	HighlightNavigationBar();
+
+	CGI = GetCgiParameters();
+	if (CGI.k) {
+		setupVariables(CGI.k);
+	}
+	ID = CGI.id;
+
+	LoadTassoData(continueSetup);
+});
+
+
+
+//////////////////////////////
+//
+// keydown event listener --
+//
+
+window.addEventListener('keydown',
+	function(event) {
+		if (event.metaKey) {
+			return;
+		}
+		
+		if (document.activeElement.id.match("query")) {
+			// In the query text box so don't interpret as a command.
+			return;
+		}
+
+		switch (event.keyCode) {
+
+			case ZeroKey:  showPart(0); break;
+			case OneKey:   showPart(1); break;
+			case TwoKey:   showPart(2); break;
+			case ThreeKey: showPart(3); break;
+			case FourKey:  showPart(4); break;
+			case FiveKey:  showPart(5); break;
+			case SixKey:   showPart(6); break;
+			case SevenKey: showPart(7); break;
+			case EightKey: showPart(8); break;
+			case NineKey:  showPart(9); break;
+
+			case EKey:
+				if (event.altKey) {
+					toggleExpertMode();
+				} else {
+				toggleIncipit();
+				}
+				event.preventDefault();
+				break;
+
+			case OKey:
+				toggleMensuration();
+				event.preventDefault();
+				break;
+
+			case TKey:
+				if (event.shiftKey) {
+					toggleCssText();
+				} else {
+					toggleText();
+				}
+				break;
+				event.preventDefault();
+
+			case SpaceKey:
+				if (AUDIO) {
+					var tag = "audio_" + ID;
+					var audioelement = document.querySelector("#" + tag);
+					if (audioelement) {
+						PlayAudioFile(ID, audioelement);
+					}
+				} else {
+					// play audio for the first time.
+					var tag = "audio_" + ID;
+					var aelement = document.querySelector("#" + tag);
+					if (aelement) {
+						PlayAudioFile(ID, aelement);
+					}
+				}
+				event.preventDefault();
+				break;
+
+			case LeftArrowKey:
+				displayPreviousWork();
+				event.preventDefault();
+				break;
+
+			case RightArrowKey:
+				displayNextWork();
+				event.preventDefault();
+				break;
+
+			case UpArrowKey:
+				if (event.shiftKey) {
+					displayWorkList();
+					event.preventDefault();
+				}
+				break;
+		}
+	}
+);
+
+
+
+//////////////////////////////
+//
+// click event listener --
+//
+
+window.addEventListener("click", function(event) {
+	var target = event.target;
+	target = target.parentNode;
+	var note = null;
+	if (target && target.id && target.id.match(/^note-/)) {
+		note = target;
+	} else {
+		while ((!note) && target) {
+			target = target.parentNode;
+			if (!target) {
+				break;
+			}
+			if (target && target.id && target.id.match(/^note-/)) {
+				node = target;
+				break;
+			}
+		}
+	}
+	if (!note) {
+		return;
+	}
+	var matches;
+	var ques = 0;
+	if (matches = note.className.baseVal.match(/qon-([^\s]+)/)) {
+		ques = getQstampFloat(matches[1]);
+	} else {
+		return;
+	}
+	var timemap = TIMEMAP[ID];
+	if (!timemap) {
+		return;
+	}
+	var i;
+	var tstamp = -1;
+	for (i=0; i<timemap.length; i++) {
+		if (Math.abs(timemap[i].qstamp - ques) < 0.01) {
+			tstamp = timemap[i].tstamp;
+		}
+	}
+	if (tstamp < 0) {
+		return;
+	}
+
+	var anticipation = 0.0;
+	if (!AUDIO) {
+		var element = document.querySelector("#audio_" + ID);
+		PlayAudioFile(ID, element, tstamp - anticipation);
+	} else if (AUDIO.paused) {
+		AUDIO.currentTime = tstamp - anticipation;
+		PlayAudioFile(ID, element, tstamp - anticipation);
+	} else {
+		AUDIO.pause();
+		TurnOffAllNotes();
+		AUDIO.currentTime = tstamp - anticipation;
+		AUDIO.play();
+	}
+
+});
+
+
+
+
+
+</script>
+

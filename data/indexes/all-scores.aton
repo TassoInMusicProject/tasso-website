@@ -565,24 +565,6 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
-@CATALOGNUM:	Tam2031127a
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tam/kern/Tam2031127a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tam/kern/Tam2031127a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.krn
-@VNAME:	Canto
-@VNAME:	Sesto
-@VNAME:	Alto
-@VNAME:	Tenore
-@VNAME:	Quinto
-@VNAME:	Basso
-@VABBR:	C
-@VABBR:	S
-@VABBR:	A
-@VABBR:	T
-@VABBR:	Q
-@VABBR:	B
-@@END:	SCOREDATA
-
-@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tam2031133a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tam/kern/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tam/kern/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.krn
@@ -817,6 +799,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tec2073a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tec/kern/Tec2073a-Che_qual_tenera_rosa--Tresti_1590.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tec/kern/Tec2073a-Che_qual_tenera_rosa--Tresti_1590.krn
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tri5016b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tri/kern/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tri/kern/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.krn
@@ -875,6 +869,20 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0023a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0023a-Io_non_posso_gioire--Gabella_1588.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0023a-Io_non_posso_gioire--Gabella_1588.krn
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0023b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0023b-Io_non_posso_gioire--Mazza_1590.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0023b-Io_non_posso_gioire--Mazza_1590.krn
@@ -909,6 +917,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0023e
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0023e-Io_non_posso_gioire--Pallavicino_1612.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0023e-Io_non_posso_gioire--Pallavicino_1612.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0024a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0024a-Gia_non_son_io_contento--Felis_1591.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0024a-Gia_non_son_io_contento--Felis_1591.krn
@@ -921,6 +945,36 @@
 @VABBR:	V
 @VABBR:	A
 @VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0025a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0025a-Come_vivro_ne_le_mie_pene_Amore--Tresti_1596.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0025a-Come_vivro_ne_le_mie_pene_Amore--Tresti_1596.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0025b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0025b-Come_vivro_ne_le_mie_pene_Amore--Pallavicino_1600.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0025b-Come_vivro_ne_le_mie_pene_Amore--Pallavicino_1600.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -1045,6 +1099,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0047l
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047l-Non_e_questa_la_mano--Gastoldi_1588.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047l-Non_e_questa_la_mano--Gastoldi_1588.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0047m
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047m-Non_e_questa_la_mano--Giovannelli_1588.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047m-Non_e_questa_la_mano--Giovannelli_1588.krn
@@ -1066,6 +1136,16 @@
 @VABBR:	C
 @VABBR:	T
 @VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0047o
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047o-Non_e_questa_la_mano--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047o-Non_e_questa_la_mano--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VABBR:	A
+@VABBR:	V
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -1144,6 +1224,38 @@
 @VNAME:	Quinto
 @VABBR:	C
 @VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0048e
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0048e-Amor_lalma_mallaccia--Monte_1590.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0048e-Amor_lalma_mallaccia--Monte_1590.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0048f
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0048f-Amor_lalma_mallaccia--Bonini_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0048f-Amor_lalma_mallaccia--Bonini_1591.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -1277,6 +1389,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0075d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0075d-Poiche_Madonna_sdegna--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0075d-Poiche_Madonna_sdegna--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0081a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0081a-Costei_che_su_la_fronte_ha_sparsa_al_vento--Vecoli_1587.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0081a-Costei_che_su_la_fronte_ha_sparsa_al_vento--Vecoli_1587.krn
@@ -1326,6 +1450,22 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0090b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0090b-Mentre_nubi_di_sdegno--Monte_1588.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0090b-Mentre_nubi_di_sdegno--Monte_1588.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -1689,6 +1829,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0165e
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0165e-Vorrei_lagnarmi_a_pieno--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0165e-Vorrei_lagnarmi_a_pieno--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VABBR:	A
+@VABBR:	T
+@VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0166a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0166a-Se_taccio_il_duol_savanza--Dueto_1584.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0166a-Se_taccio_il_duol_savanza--Dueto_1584.krn
@@ -1717,6 +1869,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0166f
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0166f-Se_taccio_il_duol_savanza--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0166f-Se_taccio_il_duol_savanza--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VABBR:	A
+@VABBR:	T
+@VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0166g
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0166g-Se_taccio_il_duol_s’avanza--Gesualdo_1594.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0166g-Se_taccio_il_duol_s’avanza--Gesualdo_1594.krn
@@ -1729,6 +1893,16 @@
 @VABBR:	A
 @VABBR:	T
 @VABBR:	V
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0166i
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0166i-Se_taccio_il_duol_savanza--IlVerso_1600.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0166i-Se_taccio_il_duol_savanza--IlVerso_1600.krn
+@VNAME:	Canto
+@VNAME:	Basso
+@VABBR:	C
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2181,6 +2355,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0256c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0256c-Amor_che_qui_dintorno--Tresti_1590.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0256c-Amor_che_qui_dintorno--Tresti_1590.krn
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0256d
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0256d-Amor_che_qui_dintorno--Nanino_1599.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0256d-Amor_che_qui_dintorno--Nanino_1599.krn
@@ -2368,6 +2554,18 @@
 @VABBR:	T
 @VABBR:	Q
 @VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0284e
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0284e-Questa_vostra-pietate--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0284e-Questa_vostra-pietate--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2613,6 +2811,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0307c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0307c-Non_sono_in_queste_rive--Narducci_1596.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0307c-Non_sono_in_queste_rive--Narducci_1596.krn
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Basso
+@VABBR:	V
+@VABBR:	A
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0308a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0308a-Soavissimo_bacio--Masnelli_1596.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0308a-Soavissimo_bacio--Masnelli_1596.krn
@@ -2839,6 +3049,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0333g
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0333g-Gelo_ha_madonna_il_seno--Monte_1590.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0333g-Gelo_ha_madonna_il_seno--Monte_1590.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0333h
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0333h-Gelo_ha_madonna_il_seno--Mazza_1590.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0333h-Gelo_ha_madonna_il_seno--Mazza_1590.krn
@@ -2950,6 +3176,18 @@
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0342d-Gia_fu_dolce_mia_speme--Macque_1589.krn
 @VNAME:	Quinto
 @VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0342e
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0342e-Gia_fu_mia_dolce_speme--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0342e-Gia_fu_mia_dolce_speme--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -3259,6 +3497,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0380a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0380a-Viviamo_amianci_o_mia_gradita_Jelle--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0380a-Viviamo_amianci_o_mia_gradita_Jelle--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0380b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0380b-Viviamo_amianci_o_mia_gradita_Jelle--Nenna_1607.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0380b-Viviamo_amianci_o_mia_gradita_Jelle--Nenna_1607.krn
@@ -3305,6 +3555,22 @@
 @VABBR:	Q
 @VABBR:	T
 @VABBR:	S
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0395c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0395c-In_un_bel_bosco_di_leggiadre_fronde--Monte_1586.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0395c-In_un_bel_bosco_di_leggiadre_fronde--Monte_1586.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -3375,6 +3641,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0418g
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0418g-Ardi_e_gela_a_tua_voglia--Monte_1586.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0418g-Ardi_e_gela_a_tua_voglia--Monte_1586.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0418v
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0418v-Ardi_e_gela_a_tua_voglia--Albano_1616.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0418v-Ardi_e_gela_a_tua_voglia--Albano_1616.krn
@@ -3419,6 +3701,16 @@
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0433f
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0433f-Se_tu_mi_lasci_perfida_tuo_danno--DellaRota_1600.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0433f-Se_tu_mi_lasci_perfida_tuo_danno--DellaRota_1600.krn
+@VNAME:	Canto
+@VNAME:	Basso
+@VABBR:	C
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -3607,6 +3899,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0560h
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560h-Tarquinia_se_rimiri--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560h-Tarquinia_se_rimiri--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0560i
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.krn
@@ -3637,6 +3941,20 @@
 @VNAME:	Canto
 @VNAME:	Basso
 @VABBR:	C
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0560m
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -3709,6 +4027,16 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0571c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0571c-Se_da_si_nobil_mano--IlVerso_1600.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0571c-Se_da_si_nobil_mano--IlVerso_1600.krn
+@VNAME:	Canto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0592a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0592a-Negli_anni_acerbi_tuoi_purpurea_rosa--Monte_1588.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0592a-Negli_anni_acerbi_tuoi_purpurea_rosa--Monte_1588.krn
@@ -3732,6 +4060,22 @@
 @VNAME:	Alto
 @VABBR:	C
 @VABBR:	A
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0602c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0602c-Caro_amoroso_neo--Monte_1590.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0602c-Caro_amoroso_neo--Monte_1590.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -3833,6 +4177,30 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0611m
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0611m-La_bella_pargoletta--Bellaver_1587.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0611m-La_bella_pargoletta--Bellaver_1587.krn
+@VNAME:	Canto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0611n
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0611n-La_bella_pargoletta--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0611n-La_bella_pargoletta--Monte_1591.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0612a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0612a-Del_puro_lume_onde_i_celesti_giri--Porta_1573.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0612a-Del_puro_lume_onde_i_celesti_giri--Porta_1573.krn
@@ -3897,6 +4265,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0614h
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0614h-Al_vostro_dolce_azzurro--Monte_1590.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0614h-Al_vostro_dolce_azzurro--Monte_1590.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0614j
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0614j-Al_vostro_dolce_azzurro.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0614j-Al_vostro_dolce_azzurro.krn
@@ -3909,6 +4293,22 @@
 @VABBR:	A
 @VABBR:	T
 @VABBR:	Q
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0615b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0615b-Al_tuo_vago_pallore--Monte_1586.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0615b-Al_tuo_vago_pallore--Monte_1586.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -4063,15 +4463,15 @@
 @VNAME:	Basso
 @VNAME:	Basso II [Decimo]
 @VABBR:	C
-@VABBR:	C II VI
-@VABBR:	C III Settimo
+@VABBR:	C II
+@VABBR:	C III
 @VABBR:	A
-@VABBR:	Ottava parte Ottavo
-@VABBR:	Nona parte Nono
+@VABBR:	VIII
+@VABBR:	IX
 @VABBR:	T
 @VABBR:	V
 @VABBR:	B
-@VABBR:	B II Decimo
+@VABBR:	B II
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -4297,6 +4697,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm1177a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm1177a-Che_soave_rapina--Roinci_1596.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm1177a-Che_soave_rapina--Roinci_1596.krn
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	A
+@VABBR:	V
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm1177b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm1177b-Che_soave_rapina--Bozi_1599.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm1177b-Che_soave_rapina--Bozi_1599.krn
@@ -4457,6 +4869,24 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm1688d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm1688d-Padre_del_cielo_or_chatra_nube_il_calle--Monte_1589.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm1688d-Padre_del_cielo_or_chatra_nube_il_calle--Monte_1589.krn
+@VNAME:	Canto
+@VNAME:	Sesto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	VI
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm9999a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm9999a-Occhi_leggiadri_e_belli--Lambardi_1614.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm9999a-Occhi_leggiadri_e_belli--Lambardi_1614.krn
@@ -4495,6 +4925,16 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg03008a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg03008a-Dunque_ove_tu_signor_di_mille_rivi--Mazzocchi_1640.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg03008a-Dunque_ove_tu_signor_di_mille_rivi--Mazzocchi_1640.krn
+@VNAME:	[Tenore]
+@VNAME:	[Basso continuo]
+@VABBR:	T
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg06103a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg06103a-Era_la_notte_el_suo_stellato_velo--IlVerso_1603.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg06103a-Era_la_notte_el_suo_stellato_velo--IlVerso_1603.krn
@@ -4522,6 +4962,36 @@
 @VNAME:	Quinto
 @VABBR:	C
 @VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg07019b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07019b-Sovente_allor_che_su_gli_estivi_ardori--DIndia_1609.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07019b-Sovente_allor_che_su_gli_estivi_ardori--DIndia_1609.krn
+@VNAME:	[Canto]
+@VNAME:	[Basso continuo]
+@VABBR:	C
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg07020b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.krn
+@VNAME:	[Canto]
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg07021a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07021a-Forse_avverra_sel_ciel_benigno_ascolta--DIndia_1609.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07021a-Forse_avverra_sel_ciel_benigno_ascolta--DIndia_1609.krn
+@VNAME:	[Canto]
+@VNAME:	[Basso continuo]
+@VABBR:	C
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -4650,6 +5120,28 @@
 @VABBR:	A
 @VABBR:	T
 @VABBR:	Q
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg14001f
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg14001f-Usciva_omai_dal_molle_e_fresco_grembo--Caprioli_1602.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg14001f-Usciva_omai_dal_molle_e_fresco_grembo--Caprioli_1602.krn
+@VNAME:	Canto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg14062b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg14062b-O_giovinetti_mentre_aprile_e_maggio--Camarella_1633.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg14062b-O_giovinetti_mentre_aprile_e_maggio--Camarella_1633.krn
+@VNAME:	[Canto]
+@VNAME:	[Basso continuo]
+@VABBR:	C
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -4918,6 +5410,186 @@
 @CATALOGNUM:	Tsg16066a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16066a-Questa_bellezza_mia_sara_mercede--Eredi_1629.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16066a-Questa_bellezza_mia_sara_mercede--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20123a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20123a-Piacquele_assai_che_n_quelle_valli_ombrose--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20123a-Piacquele_assai_che_n_quelle_valli_ombrose--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20124a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20124a-Ah_ma_non_fia_che_fra_tantarmi_e_tante--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20124a-Ah_ma_non_fia_che_fra_tantarmi_e_tante--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20125a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20125a-Dimostratevi_in_me_chio_vi_perdono--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20125a-Dimostratevi_in_me_chio_vi_perdono--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20126a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20126a-Felice_me_se_nel_morir_non_reco--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20126a-Felice_me_se_nel_morir_non_reco--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20127a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20127a-Qui_tacque_e_stabilito_il_suo_pensiero--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20127a-Qui_tacque_e_stabilito_il_suo_pensiero--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20128b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20128b-Si_volse_Armida_e_l_rimiro_improvviso--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20128b-Si_volse_Armida_e_l_rimiro_improvviso--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20129a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20129a-E_l_bel_volto_e_l_bel_seno_a_la_meschina--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20129a-E_l_bel_volto_e_l_bel_seno_a_la_meschina--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20130a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20130a-E_con_man_languidetta_il_forte_braccio--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20130a-E_con_man_languidetta_il_forte_braccio--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20131a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20134a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20134a-Cosi_doleasi_e_con_le_flebil_onde--Eredi_1629.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20134a-Cosi_doleasi_e_con_le_flebil_onde--Eredi_1629.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Quinto

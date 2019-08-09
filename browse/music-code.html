@@ -443,7 +443,6 @@ function setupMusicBrowseCallbacks() {
 
 function fillMusicSelectOptions(field, searchlist) {
 	var options = getSelectOptions(field, searchlist);
-console.log("FIELD", field);
 
 	if (field == "NORMPUBSHORT") {
 		fillMusicPublisherSelect(options);
@@ -680,6 +679,8 @@ function fillMusicMensurationSelect(options) {
 	}
 	var i;
 	remappings = {};
+	remappings["C"] = "^C$";
+	remappings["C-dot 3/2"] = "^C-dot 3\/2$";
 	remappings["?"] = "^\\?";
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;

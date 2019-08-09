@@ -1723,7 +1723,6 @@ function InsertComposersIntoSettings() {
 //
 
 function GetCatalogInfo(id) {
-console.log("GETTING ID INFO FOR", id);
 	var output = "";
 	if (!id) {
 		return output;

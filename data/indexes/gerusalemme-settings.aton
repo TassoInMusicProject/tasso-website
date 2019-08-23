@@ -2601,7 +2601,7 @@
 @CATALOGNUM:	Tsg16045b
 @CANTO:		XVI
 @OTTAVA:	45
-@TITLE:	Se m'odii, e in ciò diletto alcun tu senti
+@TITLE:	Se m'odii e in ciò diletto alcun tu senti
 @SETTINGTITLE: Se m'odij, e'n ciò diletto alcun tu senti
 @COMPOSER:	Baccusi, Ippolito
 @PARTS:		3 of 8
@@ -2760,7 +2760,7 @@
 @CATALOGNUM:	Tsg16059a
 @CANTO:		XVI
 @OTTAVA:	59
-@TITLE:	Vattene pur, crudel, con quella pace
+@TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Monteverdi, Claudio
 @PARTS:		1 of 3
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
@@ -2786,7 +2786,7 @@
 @CATALOGNUM:	Tsg16059b
 @CANTO:		XVI
 @OTTAVA:	59
-@TITLE:	Vattene pur, crudel, con quella pace
+@TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Baccusi, Ippolito
 @PARTS:		6 of 8
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
@@ -2812,7 +2812,7 @@
 @CATALOGNUM:	Tsg16059c
 @CANTO:		XVI
 @OTTAVA:	59
-@TITLE:	Vattene pur, crudel, con quella pace
+@TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Hassler, Hans Leo
 @PARTS:		1 of 2
 @PRINCEPSTITLE:	Madrigali a 5, 6, 7, & 8 voci
@@ -2838,7 +2838,7 @@
 @CATALOGNUM:	Tsg16059d
 @CANTO:		XVI
 @OTTAVA:	59
-@TITLE:	Vattene pur, crudel, con quella pace
+@TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Cifra, Antonio
 @PARTS:		4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li Diversi Scherzi a una, due et tre voci. Libro secondo
@@ -2864,7 +2864,7 @@
 @CATALOGNUM:	Tsg16059e
 @CANTO:		XVI
 @OTTAVA:	59
-@TITLE:	Vattene pur, crudel, con quella pace
+@TITLE:	Vattene pur crudel con quella pace
 @COMPOSER:	Bartoli, Giovan Battista
 @PARTS:		1 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -4196,6 +4196,31 @@
 @CANTO:		XX
 @OTTAVA:	131
 @TITLE:	O sempre, e quando parti e quando torni
+@COMPOSER:	Cifra, Antonio
+@PARTS:	 1-2 (verses 1-4; 5-8) of 4
+@PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento
+@NORMLOC:	Venice
+@NORMPUB:	Giacomo Vincenzi
+@NORMPUBSHORT:	G. Vincenzi
+@PRINCEPSPUB:	Giacomo Vincenzi
+@PRINCEPSYEAR:	1614
+@PRINCEPSRISM:	C 2216
+@OVOICES:	2+bc
+@EXTANTVOICES:	2+bc
+@OMENSURATION:	C
+@OCLEFS:	C1,C1,F4
+@OTIME:		
+@OKEYSIG:	
+@FINAL:		(G)(G)G
+@TIMPEDITOR:	Ricciardi, Emiliano
+@REPRINTS:	
+@@END: SETTING
+
+@@BEGIN: SETTING
+@CATALOGNUM:	Tsg20131b
+@CANTO:		XX
+@OTTAVA:	131
+@TITLE:	O sempre, e quando parti e quando torni
 @COMPOSER:	Eredi, Francesco
 @PARTS:		9 of 10
 @PRINCEPSTITLE:	L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare
@@ -4214,31 +4239,6 @@
 @OKEYSIG:	-
 @FINAL:		(D)G
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
-@REPRINTS:	
-@@END: SETTING
-
-@@BEGIN: SETTING
-@CATALOGNUM:	Tsg20131b
-@CANTO:		XX
-@OTTAVA:	131
-@TITLE:	O sempre, e quando parti e quando torni
-@COMPOSER:	Cifra, Antonio
-@PARTS:	 1-2 (verses 1-4; 5-8) of 4
-@PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento
-@NORMLOC:	Venice
-@NORMPUB:	Giacomo Vincenzi
-@NORMPUBSHORT:	G. Vincenzi
-@PRINCEPSPUB:	Giacomo Vincenzi
-@PRINCEPSYEAR:	1614
-@PRINCEPSRISM:	C 2216
-@OVOICES:	2+bc
-@EXTANTVOICES:	2+bc
-@OMENSURATION:	C
-@OCLEFS:	C1,C1,F4
-@OTIME:		
-@OKEYSIG:	
-@FINAL:		(G)(G)G
-@TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
 

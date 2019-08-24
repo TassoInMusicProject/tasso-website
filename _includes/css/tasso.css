@@ -177,8 +177,8 @@ ul#header {
 	color: {{site.heading_color}};
 	padding-top: 20px;
 	/* ggg change these values to add or remove links from headers */
-	padding-left:  34px;
-	padding-right: 34px;
+	padding-left:  28px;
+	padding-right: 28px;
 	font-size: 1.2rem;
 }
 

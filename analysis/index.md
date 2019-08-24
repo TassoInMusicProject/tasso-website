@@ -8,6 +8,6 @@ permalink: /analysis/index.html
 
 <ul>
 
-<li> <a target="_blank" href="keyscape">keyscapes</a>: Visualizations of the Harmonic structure of works.</li>
+<li> <a href="keyscape">Keyscapes</a>: Visualizations of the harmonic structure of works.</li>
 
 </ul>

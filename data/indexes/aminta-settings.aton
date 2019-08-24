@@ -35,7 +35,7 @@
 @@   OCLEFS:           List of original clefs (high to low on system)
 @@   OTIME:            Original mensuration
 @@   OKEYSIG:          Original keysignature
-@@   FINAL:            Finale note of composition (root of last chord)
+@@   FINAL:            Final note of composition (root of last chord)
 @@   TIMPEDITOR:       TiMP Editor for the work.
 @@   NOTE:             Free-form note about the work.
 @@   END: SETTING     This is the end of a rime setting entry
@@ -43,10 +43,10 @@
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1010001a
-@ACT:	I
-@SCENE:	1
-@VERSE:	1
-@TITLE:	Vorrai dunque pur Silvia
+@ACT:		I
+@SCENE:		1
+@VERSE:		1
+@TITLE:		Vorrai dunque pur Silvia
 @COMPOSER:	Porto, Allegro
 @PRINCEPSTITLE:	Madrigali à cinque voci co'l basso continuo
 @PRINCEPSLOC:	Venice
@@ -62,18 +62,18 @@
 @OCLEFS:	C3,C4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	G
+@FINAL:		G
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020338a
-@ACT:	I
-@SCENE:	2
-@VERSE:	338
-@TITLE:	Ho visto al pianto mio
+@ACT:		I
+@SCENE:		2
+@VERSE:		338
+@TITLE:		Ho visto al pianto mio
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -89,18 +89,18 @@
 @OCLEFS:	G2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	G
+@FINAL:		G
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020338b
-@ACT:	I
-@SCENE:	2
-@VERSE:	338
-@TITLE:	Ho visto al pianto mio
+@ACT:		I
+@SCENE:		2
+@VERSE:		338
+@TITLE:		Ho visto al pianto mio
 @COMPOSER:	Melli, Domenico Maria
 @PRINCEPSTITLE:	Le seconde musiche 
 @PRINCEPSLOC:	Venice
@@ -116,18 +116,18 @@
 @OCLEFS:	C1,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	F
+@FINAL:		F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	M 1755
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020338c
-@ACT:	I
-@SCENE:	2
-@VERSE:	338
-@TITLE:	Ho visto al pianto mio
+@ACT:		I
+@SCENE:		2
+@VERSE:		338
+@TITLE:		Ho visto al pianto mio
 @COMPOSER:	Massaino, Tiburtio
 @PRINCEPSTITLE:	Il secondo libro de madrigali a sei voci
 @PRINCEPSLOC:	Venice
@@ -143,18 +143,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	A
+@FINAL:		A
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020338d
-@ACT:	I
-@SCENE:	2
-@VERSE:	338
-@TITLE:	Ho visto al pianto mio
+@ACT:		I
+@SCENE:		2
+@VERSE:		338
+@TITLE:		Ho visto al pianto mio
 @COMPOSER:	Boschetti, Giovanni Boschetto
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci 
 @PRINCEPSLOC:	Rome
@@ -170,18 +170,18 @@
 @OCLEFS:	C1,C1,C3,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	D
+@FINAL:		D
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020338e
-@ACT:	I
-@SCENE:	2
-@VERSE:	338
-@TITLE:	Ho visto al pianto mio
+@ACT:		I
+@SCENE:		2
+@VERSE:		338
+@TITLE:		Ho visto al pianto mio
 @COMPOSER:	Benedetti, Piero
 @PRINCEPSTITLE:	Musiche a 1, e 2 voci e basso continuo. Libro quarto
 @PRINCEPSLOC:	Florence
@@ -197,18 +197,18 @@
 @OCLEFS:	C1,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	G
+@FINAL:		G
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020338f
-@ACT:	I
-@SCENE:	2
-@VERSE:	338
-@TITLE:	Ho visto al pianto mio
+@ACT:		I
+@SCENE:		2
+@VERSE:		338
+@TITLE:		Ho visto al pianto mio
 @COMPOSER:	Macigni, Giovanni
 @COMPOSER2:	Magni, Benedetto
 @PRINCEPSTITLE:	Madrigali a cinque voci con il basso continuo. Libro primo  
@@ -225,18 +225,18 @@
 @OCLEFS:	C1,C3,C4,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	E
+@FINAL:		E
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020401a
-@ACT:	I
-@SCENE:	2
-@VERSE:	401
-@TITLE:	Essendo io fanciulletto sì che a pena
+@ACT:		I
+@SCENE:		2
+@VERSE:		401
+@TITLE:		Essendo io fanciulletto sì che a pena
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -252,18 +252,18 @@
 @OCLEFS:	G2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(A)D
+@FINAL:		(A)D
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 4
+@PARTS:		1 of 4
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020410a
-@ACT:	I
-@SCENE:	2
-@VERSE:	410
-@TITLE:	Di questa parlo, ahi lasso! Vissi a questa
+@ACT:		I
+@SCENE:		2
+@VERSE:		410
+@TITLE:		Di questa parlo, ahi lasso! Vissi a questa
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -279,18 +279,18 @@
 @OCLEFS:	G2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(A)D
+@FINAL:		(A)D
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	2 of 4
+@PARTS:		2 of 4
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020422a
-@ACT:	I
-@SCENE:	2
-@VERSE:	422
-@TITLE:	Ma mentre io fea rapina di animali
+@ACT:		I
+@SCENE:		2
+@VERSE:		422
+@TITLE:		Ma mentre io fea rapina di animali
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -306,18 +306,18 @@
 @OCLEFS:	G2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(A)D
+@FINAL:		(A)D
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	3 of 4
+@PARTS:		3 of 4
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020431a
-@ACT:	I
-@SCENE:	2
-@VERSE:	431
-@TITLE:	E bevea da' suoi lumi
+@ACT:		I
+@SCENE:		2
+@VERSE:		431
+@TITLE:		E bevea da' suoi lumi
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -333,18 +333,18 @@
 @OCLEFS:	G2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	D
+@FINAL:		D
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	4 of 4
+@PARTS:		4 of 4
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020441a
-@ACT:	I
-@SCENE:	2
-@VERSE:	441
-@TITLE:	A l'ombra di un bel faggio Silvia e Filli
+@ACT:		I
+@SCENE:		2
+@VERSE:		441
+@TITLE:		A l'ombra di un bel faggio Silvia e Filli
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -360,18 +360,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(G)C
+@FINAL:		(G)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 8
+@PARTS:		1 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020452a
-@ACT:	I
-@SCENE:	2
-@VERSE:	452
-@TITLE:	Ma la mia bella Silvia disse: "Taci
+@ACT:		I
+@SCENE:		2
+@VERSE:		452
+@TITLE:		Ma la mia bella Silvia disse: "Taci
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -387,18 +387,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(E)C
+@FINAL:		(E)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	2 of 8
+@PARTS:		2 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020459a
-@ACT:	I
-@SCENE:	2
-@VERSE:	459
-@TITLE:	Così dicendo avvicinò le labbra
+@ACT:		I
+@SCENE:		2
+@VERSE:		459
+@TITLE:		Così dicendo avvicinò le labbra
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -414,18 +414,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(C)C
+@FINAL:		(C)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	3 of 8
+@PARTS:		3 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020468a
-@ACT:	I
-@SCENE:	2
-@VERSE:	468
-@TITLE:	Io che fin a quel punto altro non volsi
+@ACT:		I
+@SCENE:		2
+@VERSE:		468
+@TITLE:		Io che fin a quel punto altro non volsi
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -441,18 +441,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(C)C
+@FINAL:		(C)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	4 of 8
+@PARTS:		4 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020476a
-@ACT:	I
-@SCENE:	2
-@VERSE:	476
-@TITLE:	E fatto, non so come, astuto e scaltro
+@ACT:		I
+@SCENE:		2
+@VERSE:		476
+@TITLE:		E fatto, non so come, astuto e scaltro
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -468,18 +468,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(G)C
+@FINAL:		(G)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	5 of 8
+@PARTS:		5 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020486a
-@ACT:	I
-@SCENE:	2
-@VERSE:	486
-@TITLE:	La semplicetta Silvia
+@ACT:		I
+@SCENE:		2
+@VERSE:		486
+@TITLE:		La semplicetta Silvia
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -495,18 +495,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(G)C
+@FINAL:		(G)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	6 of 8
+@PARTS:		6 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020494a
-@ACT:	I
-@SCENE:	2
-@VERSE:	494
-@TITLE:	Né l'api d'alcun fiore
+@ACT:		I
+@SCENE:		2
+@VERSE:		494
+@TITLE:		Né l'api d'alcun fiore
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -522,18 +522,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(C)C
+@FINAL:		(C)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	7 of 8
+@PARTS:		7 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam1020502a
-@ACT:	I
-@SCENE:	2
-@VERSE:	502
-@TITLE:	Ma mentre al cor scendeva
+@ACT:		I
+@SCENE:		2
+@VERSE:		502
+@TITLE:		Ma mentre al cor scendeva
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -549,18 +549,18 @@
 @OCLEFS:	G2,G2,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	C
+@FINAL:		C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	8 of 8
+@PARTS:		8 of 8
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2010724a
-@ACT:	II
-@SCENE:	1
-@VERSE:	724
-@TITLE:	Picciola è l'ape e fa col picciol morso
+@ACT:		II
+@SCENE:		1
+@VERSE:		724
+@TITLE:		Picciola è l'ape e fa col picciol morso
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -576,18 +576,18 @@
 @OCLEFS:	G2,G2,C2,C3,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	G
+@FINAL:		G
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031034a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1034
-@TITLE:	Vorrò veder ciò che Tirsi avrà fatto
+@ACT:		II
+@SCENE:		3
+@VERSE:		1034
+@TITLE:		Vorrò veder ciò che Tirsi avrà fatto
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -603,18 +603,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(F)F
+@FINAL:		(F)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031034b
-@ACT:	II
-@SCENE:	3
-@VERSE:	1034
-@TITLE:	Vorrò veder ciò che Tirsi avrà fatto
+@ACT:		II
+@SCENE:		3
+@VERSE:		1034
+@TITLE:		Vorrò veder ciò che Tirsi avrà fatto
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -630,18 +630,18 @@
 @OCLEFS:	C1,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	A
+@FINAL:		A
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031045a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1045
-@TITLE:	Nove, Aminta, t'annuncio di conforto
+@ACT:		II
+@SCENE:		3
+@VERSE:		1045
+@TITLE:		Nove, Aminta, t'annuncio di conforto
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -657,18 +657,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(C)F
+@FINAL:		(C)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031045b
-@ACT:	II
-@SCENE:	3
-@VERSE:	1045
-@TITLE:	Nove, Aminta, t'annuncio di conforto
+@ACT:		II
+@SCENE:		3
+@VERSE:		1045
+@TITLE:		Nove, Aminta, t'annuncio di conforto
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -684,19 +684,19 @@
 @OCLEFS:	G2,G2,C2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(C)F
+@FINAL:		(C)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 2
+@PARTS:		1 of 2
 @REPRINTS:	
 @@END: SETTING
 
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031052a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1052
-@TITLE:	Qual ardir mi bisogna, e 'ncotra a cui?
+@ACT:		II
+@SCENE:		3
+@VERSE:		1052
+@TITLE:		Qual ardir mi bisogna, e 'ncotra a cui?
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -712,18 +712,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(F)F
+@FINAL:		(F)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031061a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1061
-@TITLE:	Bisogna a maggior prova ardir più grande
+@ACT:		II
+@SCENE:		3
+@VERSE:		1061
+@TITLE:		Bisogna a maggior prova ardir più grande
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -739,18 +739,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(C)F
+@FINAL:		(C)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031067a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1067
-@TITLE:	Orsù scuoprimi il tutto. Odi. Di' tosto
+@ACT:		II
+@SCENE:		3
+@VERSE:		1067
+@TITLE:		Orsù scuoprimi il tutto. Odi. Di' tosto
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -766,18 +766,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(F)F
+@FINAL:		(F)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031067b
-@ACT:	II
-@SCENE:	3
-@VERSE:	1067
-@TITLE:	Orsù scuoprimi il tutto. Odi. Di' tosto
+@ACT:		II
+@SCENE:		3
+@VERSE:		1067
+@TITLE:		Orsù scuoprimi il tutto. Odi. Di' tosto
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -793,18 +793,18 @@
 @OCLEFS:	G2,G2,C2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	C
+@FINAL:		C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	2 of 2 (1 at setting Tam2031045b)
+@PARTS:		2 of 2 (1 at setting Tam2031045b)
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031075a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1075
-@TITLE:	Dura conclusion, che tutte affosca
+@ACT:		II
+@SCENE:		3
+@VERSE:		1075
+@TITLE:		Dura conclusion, che tutte affosca
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -820,18 +820,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(C)F
+@FINAL:		(C)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031081a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1081
-@TITLE:	S'a mio senno farai, sarai felice
+@ACT:		II
+@SCENE:		3
+@VERSE:		1081
+@TITLE:		S'a mio senno farai, sarai felice
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -847,18 +847,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(C)F
+@FINAL:		(C)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031089a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1089
-@TITLE:	Non sarà dunque ver ch'in quanto io posso
+@ACT:		II
+@SCENE:		3
+@VERSE:		1089
+@TITLE:		Non sarà dunque ver ch'in quanto io posso
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -874,18 +874,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(F)F
+@FINAL:		(F)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031096a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1096
-@TITLE:	Dunque tu l'ameresti a suo dispetto
+@ACT:		II
+@SCENE:		3
+@VERSE:		1096
+@TITLE:		Dunque tu l'ameresti a suo dispetto
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -901,18 +901,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(C)F
+@FINAL:		(C)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031100a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1100
-@TITLE:	Perché dunque non osi oltre sua voglia
+@ACT:		II
+@SCENE:		3
+@VERSE:		1100
+@TITLE:		Perché dunque non osi oltre sua voglia
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -928,18 +928,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(B-)F
+@FINAL:		(B-)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031106a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1106
-@TITLE:	Già per lungo uso a ragionar d'amore
+@ACT:		II
+@SCENE:		3
+@VERSE:		1106
+@TITLE:		Già per lungo uso a ragionar d'amore
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -955,18 +955,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(F)F
+@FINAL:		(F)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031109a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1109
-@TITLE:	Dunque andar non vogliamo? Andare io voglio
+@ACT:		II
+@SCENE:		3
+@VERSE:		1109
+@TITLE:		Dunque andar non vogliamo? Andare io voglio
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -982,18 +982,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(C)F
+@FINAL:		(C)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031113a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1113
-@TITLE:	Credi tu dunque, sciocco, che mai Dafne
+@ACT:		II
+@SCENE:		3
+@VERSE:		1113
+@TITLE:		Credi tu dunque, sciocco, che mai Dafne
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -1009,18 +1009,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(F)F
+@FINAL:		(F)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031121a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1121
-@TITLE:	E s'ella vuol che 'l tuo diletto sia
+@ACT:		II
+@SCENE:		3
+@VERSE:		1121
+@TITLE:		E s'ella vuol che 'l tuo diletto sia
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -1036,18 +1036,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(F)F
+@FINAL:		(F)F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031126a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1126
-@TITLE:	Ecco tu chiedi pur quella certezza
+@ACT:		II
+@SCENE:		3
+@VERSE:		1126
+@TITLE:		Ecco tu chiedi pur quella certezza
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -1065,16 +1065,16 @@
 @OKEYSIG:	b-
 @FINAL:		(A)F
 @TIMPEDITOR:	
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam2031133a
-@ACT:	II
-@SCENE:	3
-@VERSE:	1133
-@TITLE:	Tu taci: tu sei vinto. Ora confessa
+@ACT:		II
+@SCENE:		3
+@VERSE:		1133
+@TITLE:		Tu taci: tu sei vinto. Ora confessa
 @COMPOSER:	Balsamino, Simone
 @PRINCEPSTITLE:	Novellette a sei voci
 @PRINCEPSLOC:	Venice
@@ -1090,18 +1090,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	F
+@FINAL:		F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam3021324a
-@ACT:	III
-@SCENE:	2
-@VERSE:	1324
-@TITLE:	Dispietata pietate
+@ACT:		III
+@SCENE:		2
+@VERSE:		1324
+@TITLE:		Dispietata pietate
 @COMPOSER:	D'India, Sigismondo
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -1117,18 +1117,18 @@
 @OCLEFS:	C1,C1,C3,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	A
+@FINAL:		A
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam3021417a
-@ACT:	III
-@SCENE:	2
-@VERSE:	1417
-@TITLE:	Dolor che sì mi crucii
+@ACT:		III
+@SCENE:		2
+@VERSE:		1417
+@TITLE:		Dolor che sì mi crucii
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -1144,18 +1144,18 @@
 @OCLEFS:	C1,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(E)A
+@FINAL:		(E)A
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 2
+@PARTS:		1 of 2
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam3021417b
-@ACT:	III
-@SCENE:	2
-@VERSE:	1417
-@TITLE:	Dolor che sì mi crucii
+@ACT:		III
+@SCENE:		2
+@VERSE:		1417
+@TITLE:		Dolor che sì mi crucii
 @COMPOSER:	Massaino, Tiburtio
 @PRINCEPSTITLE:	Madrigali a sei voci. Libro primo
 @PRINCEPSLOC:	Venice
@@ -1171,18 +1171,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(A)E
+@FINAL:		(A)E
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 2
+@PARTS:		1 of 2
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam3021430a
-@ACT:	III
-@SCENE:	2
-@VERSE:	1430
-@TITLE:	Bello e dolce morir fu certo allora
+@ACT:		III
+@SCENE:		2
+@VERSE:		1430
+@TITLE:		Bello e dolce morir fu certo allora
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -1198,18 +1198,18 @@
 @OCLEFS:	C1,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	A
+@FINAL:		A
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	2 of 2
+@PARTS:		2 of 2
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam3021430b
-@ACT:	III
-@SCENE:	2
-@VERSE:	1430
-@TITLE:	Bello e dolce morir fu certo allora
+@ACT:		III
+@SCENE:		2
+@VERSE:		1430
+@TITLE:		Bello e dolce morir fu certo allora
 @COMPOSER:	Massaino, Tiburtio
 @PRINCEPSTITLE:	Madrigali a sei voci. Libro primo
 @PRINCEPSLOC:	Venice
@@ -1225,18 +1225,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	E
+@FINAL:		E
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	2 of 2
+@PARTS:		2 of 2
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam4011614a
-@ACT:	IV
-@SCENE:	1
-@VERSE:	1614
-@TITLE:	Misero Aminta!
+@ACT:		IV
+@SCENE:		1
+@VERSE:		1614
+@TITLE:		Misero Aminta!
 @COMPOSER:	Ghizzolo, Giovanni
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venice
@@ -1252,18 +1252,18 @@
 @OCLEFS:	G2,G2,C3,C4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(C)C
+@FINAL:		(C)C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 2
+@PARTS:		1 of 2
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam4021717a
-@ACT:	IV
-@SCENE:	2
-@VERSE:	1717
-@TITLE:	Silvia io ti seguo, io vengo
+@ACT:		IV
+@SCENE:		2
+@VERSE:		1717
+@TITLE:		Silvia io ti seguo, io vengo
 @COMPOSER:	Marotta, Erasmo
 @PRINCEPSTITLE:	Aminta musicale. Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venice
@@ -1279,18 +1279,18 @@
 @OCLEFS:	C1,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	F
+@FINAL:		F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam4021779a
-@ACT:	IV
-@SCENE:	2
-@VERSE:	1779
-@TITLE:	Pastor di che piangete?
+@ACT:		IV
+@SCENE:		2
+@VERSE:		1779
+@TITLE:		Pastor di che piangete?
 @COMPOSER:	Massaino, Tiburtio
 @PRINCEPSTITLE:	Madrigali a sei voci. Libro primo
 @PRINCEPSLOC:	Venice
@@ -1306,18 +1306,18 @@
 @OCLEFS:	C1,C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	E
+@FINAL:		E
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam4021827a
-@ACT:	IV
-@SCENE:	2
-@VERSE:	1827
-@TITLE:	Ciò che morte rallenta, Amor restringi
+@ACT:		IV
+@SCENE:		2
+@VERSE:		1827
+@TITLE:		Ciò che morte rallenta, Amor restringi
 @COMPOSER:	Boschetti, Giovanni Boschetto
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci 
 @PRINCEPSLOC:	Rome
@@ -1333,18 +1333,18 @@
 @OCLEFS:	C1,C1,C3,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	(A)D
+@FINAL:		(A)D
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 2
+@PARTS:		1 of 2
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam4021833a
-@ACT:	IV
-@SCENE:	2
-@VERSE:	1833
-@TITLE:	Non sono ire la sù: gli umani ingegni
+@ACT:		IV
+@SCENE:		2
+@VERSE:		1833
+@TITLE:		Non sono ire la sù: gli umani ingegni
 @COMPOSER:	Boschetti, Giovanni Boschetto
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci 
 @PRINCEPSLOC:	Rome
@@ -1360,18 +1360,18 @@
 @OCLEFS:	C1,C1,C3,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	D
+@FINAL:		D
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	2 of 2
+@PARTS:		2 of 2
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam5011850a
-@ACT:	V
-@SCENE:	1
-@VERSE:	1850
-@TITLE:	Oh fortunato Aminta, oh te felice
+@ACT:		V
+@SCENE:		1
+@VERSE:		1850
+@TITLE:		Oh fortunato Aminta, oh te felice
 @COMPOSER:	Ghizzolo, Giovanni
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venice
@@ -1387,18 +1387,18 @@
 @OCLEFS:	C1,C3,C4,C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	F
+@FINAL:		F
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam5011934a
-@ACT:	V
-@SCENE:	1
-@VERSE:	1934
-@TITLE:	Ma come Silvia li riconobbe e vide
+@ACT:		V
+@SCENE:		1
+@VERSE:		1934
+@TITLE:		Ma come Silvia li riconobbe e vide
 @COMPOSER:	Ghizzolo, Giovanni
 @PRINCEPSTITLE:	Madrigali a cinque voci. Libro primo
 @PRINCEPSLOC:	Venice
@@ -1414,18 +1414,18 @@
 @OCLEFS:	G2,G2,C2,C3,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	C
+@FINAL:		C
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	2 of 2 (1 at setting Tam4011614a)
+@PARTS:		2 of 2 (1 at setting Tam4011614a)
 @REPRINTS:	
 @@END: SETTING
 
 @@BEGIN: SETTING
 @CATALOGNUM:	Tam5011978a
-@ACT:	V
-@SCENE:	1
-@VERSE:	1978
-@TITLE:	Non so se il molto amaro
+@ACT:		V
+@SCENE:		1
+@VERSE:		1978
+@TITLE:		Non so se il molto amaro
 @COMPOSER:	Boschetti, Giovanni Boschetto
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Rome
@@ -1441,9 +1441,9 @@
 @OCLEFS:	C1,C1,C3,C4,F4
 @OTIME:		
 @OKEYSIG:	-
-@FINAL:	G
+@FINAL:		G
 @TIMPEDITOR:	Coluzzi, Seth
-@PARTS:	1 of 1
+@PARTS:		1 of 1
 @REPRINTS:	
 @@END: SETTING
 

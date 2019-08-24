@@ -1,0 +1,54 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my $imgdir = "img";
+
+my $mkeyscape = `which mkeyscape`;
+chomp $mkeyscape;
+die "Cannot find mkeyscape" if $mkeyscape =~ /^\s*$/;
+
+my $convert = `which convert`;
+chomp $convert;
+die "Cannot find convert" if $convert =~ /^\s*$/;
+
+my @files = glob("$scoredir/*/kern/*.krn");
+
+`mkdir -p $imgdir`;
+
+foreach my $file (@files) {
+	processFile($file);
+}
+
+
+sub processFile {
+	my ($file) = @_;
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	close FILE;
+	my $complete = "N";
+	foreach my $line (@contents) {
+		if ($line =~ /^\!\!\!complete:\s*(.*)\s*/) {
+			$complete = $1;
+			if ($complete =~ /Y/i) {
+				last;
+			} else {
+				# ignore since not complete
+				return;
+			}
+		}
+	}
+	return if $complete !~ /Y/i;
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+	return if -r "$imgdir/$base.png";
+	print "Creating image $imgdir/$base.png\n";
+	`$mkeyscape --trim -nl --bb $file | $convert - $imgdir/$base.png`;
+}
+
+
+
+

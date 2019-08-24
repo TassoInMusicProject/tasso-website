@@ -1,0 +1,118 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my $imgdir = "img";
+my @files = glob("$scoredir/*/kern/*.krn");
+
+my $width = 425;
+
+print <<"EOT";
+---
+vim: ts=3
+scripts-local: true
+style-local: true
+permalink: /analysis/keyscape/index.html
+---
+EOT
+
+foreach my $file (@files) {
+	processFile($file);
+}
+
+sub processFile {
+	my ($file) = @_;
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	close FILE;
+	my $complete = "N";
+	my $composer = "";
+	my $title = "";
+	my $final = "";
+	my $publicationdate = "";
+	my $rime = "";
+	my $id = $file;
+	$id =~ s/.*\///;
+	$id =~ s/-.*//;
+	foreach my $line (@contents) {
+		if ($line =~ /^\!\!\!complete:\s*(.*)\s*/) {
+			$complete = $1;
+		}
+		if ($line =~ /^\!\!\!COM:\s*(.*)\s*/) {
+			$composer = $1;
+		}
+		if ($line =~ /^\!\!\!OTL:\s*(.*)\s*/) {
+			$title = $1;
+		}
+		if ($line =~ /^\!\!\!rime:\s*(.*)\s*/) {
+			$rime = "(rime $1)";
+		}
+		if ($line =~ /^\!\!\!PDT:\s*(.*)\s*/) {
+			$publicationdate = $1;
+		}
+		if ($line =~ /^\!\!\!final:\s*(.*)\s*/) {
+			$final = $1;
+		}
+	}
+	return if $complete !~ /Y/i;
+
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+	return if !-r "$imgdir/$base.png";
+
+	print << "EOT";
+<table style="display:inline-block; vertical-align: top; width:${width}px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="$imgdir/$base.png"><img width="$width" style="width:${width}px" src="$imgdir/$base.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=$id">$id</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		$composer / $publicationdate
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>$title</i> $rime
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		$final
+	</td>
+</tr>
+
+</table>
+
+EOT
+
+}
+
+
+
+

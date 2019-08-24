@@ -7,1491 +7,6 @@ permalink: /analysis/keyscape/index.html
 <table style="display:inline-block; vertical-align: top; width:425px;">
 <tr>
 	<td colspan="2">
-		<a target="_blank" href="img/Tam1020338b-Ho_visto_al_pianto_mio--Melli_1602.png"><img width="425" style="width:425px" src="img/Tam1020338b-Ho_visto_al_pianto_mio--Melli_1602.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338b">Tam1020338b</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Melli, Domenico Maria / 1602
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Ho visto al pianto mio</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam1020338c-Ho_visto_al_pianto_mio--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam1020338c-Ho_visto_al_pianto_mio--Massaino_1604.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338c">Tam1020338c</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Massaino, Tiburtio / 1604
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		A
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam1020338d-Ho_visto_al_pianto_mio--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam1020338d-Ho_visto_al_pianto_mio--Boschetti_1613.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338d">Tam1020338d</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		D
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2010724a">Tam2010724a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Picciola è l'ape e fa col picciol morso (Aminta II/1)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		G
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031034a-Vorro_veder_cio_che_Tirsi_avra_fatto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031034a-Vorro_veder_cio_che_Tirsi_avra_fatto--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031034a">Tam2031034a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Vorrò veder ciò che Tirsi avrà fatto (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(F)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031045a-Nove_Aminta_tannuncio_di_conforto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031045a-Nove_Aminta_tannuncio_di_conforto--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031045a">Tam2031045a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Nove, Aminta, t'annuncio di conforto (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(C)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031052a-Qual_ardir_mi_bisogna_e_ncontra_a_cui--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031052a-Qual_ardir_mi_bisogna_e_ncontra_a_cui--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031052a">Tam2031052a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(F)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031061a-Bisogna_a_maggior_prova_ardir_piu_grande--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031061a-Bisogna_a_maggior_prova_ardir_piu_grande--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031061a">Tam2031061a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(C)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031067a-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031067a-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031067a">Tam2031067a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Orsù scuoprimi il tutto. Odi. Di' tosto (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(F)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031075a-Dura_conclusion_che_tutte_affosca--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031075a-Dura_conclusion_che_tutte_affosca--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031075a">Tam2031075a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Dura conclusion, che tutte affosca (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(C)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031081a-Sa_mio_senno_farai_sarai_felice--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031081a-Sa_mio_senno_farai_sarai_felice--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031081a">Tam2031081a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>S'a mio senno farai, sarai felice (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(C)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031089a-Non_sara_dunque_ver_chin_quanto_io_posso--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031089a-Non_sara_dunque_ver_chin_quanto_io_posso--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031089a">Tam2031089a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Non sarà dunque ver ch'in quanto io posso (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(F)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031096a-Dunque_tu_lameresti_a_suo_dispetto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031096a-Dunque_tu_lameresti_a_suo_dispetto--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031096a">Tam2031096a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Dunque tu l'ameresti a suo dispetto (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(C)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031100a-Perche_dunque_non_osi_oltra_sua_voglia--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031100a-Perche_dunque_non_osi_oltra_sua_voglia--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031100a">Tam2031100a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Perché dunque non osi oltra sua voglia (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(B-)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031106a-Gia_per_lungo_uso_a_ragionar_damore--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031106a-Gia_per_lungo_uso_a_ragionar_damore--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031106a">Tam2031106a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Già per lungo uso a ragionar d'amore (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(F)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031109a-Dunque_andar_non_vogliamo_Andare_io_voglio--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031109a-Dunque_andar_non_vogliamo_Andare_io_voglio--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031109a">Tam2031109a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Dunque andar non vogliamo? Andare io voglio (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(C)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031113a-Credi_tu_dunque_sciocco_che_mai_Dafne--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031113a-Credi_tu_dunque_sciocco_che_mai_Dafne--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031113a">Tam2031113a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Credi tu dunque, sciocco, che mai Dafne (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(F)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031121a-E_sella_vuol_che_l_tuo_diletto_sia--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031121a-E_sella_vuol_che_l_tuo_diletto_sia--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031121a">Tam2031121a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>E s'ella vuol che 'l tuo diletto sia (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(F)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031126a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031126a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031126a">Tam2031126a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Ecco tu chiedi pur quella certezza (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(A)F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031133a">Tam2031133a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Balsamino, Simone / 1594
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Tu taci: tu sei vinto. Ora confessa (Aminta II/3)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam3021324a-Dispietata_pietate--DIndia_1615.png"><img width="425" style="width:425px" src="img/Tam3021324a-Dispietata_pietate--DIndia_1615.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam3021324a">Tam3021324a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		D'India, Sigismondo / 1615
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Dispietata pietate (Aminta III/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		A
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam3021417b-Dolor_che_si_mi_crucii--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam3021417b-Dolor_che_si_mi_crucii--Massaino_1604.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam3021417b">Tam3021417b</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Massaino, Tiburtio / 1604
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Dolor che sì mi crucii (Aminta III/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(A)E
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam3021430b-Bello_e_dolce_morir_fu_certo_allora--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam3021430b-Bello_e_dolce_morir_fu_certo_allora--Massaino_1604.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam3021430b">Tam3021430b</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Massaino, Tiburtio / 1604
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Bello e dolce morir fu certo allora (Aminta III/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		E
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam4011614a-Misero_Aminta--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam4011614a-Misero_Aminta--Ghizzolo_1608.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4011614a">Tam4011614a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Ghizzolo, Giovanni / 1608
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>O sfortunato Aminta</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(C)C
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam4021779a-Pastor_di_che_piangete--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam4021779a-Pastor_di_che_piangete--Massaino_1604.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4021779a">Tam4021779a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Massaino, Tiburtio / 1604
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Pastor di che piangete? (Aminta IV/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		E
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam4021827a-Cio_che_morte_rallenta,_Amor_restringi--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam4021827a-Cio_che_morte_rallenta,_Amor_restringi--Boschetti_1613.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4021827a">Tam4021827a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Ciò che morte rallenta, Amor restringi (Aminta IV/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(A)D
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam4021833a-Non_sono_ire_la_su,_gli_umani_ingegni--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam4021833a-Non_sono_ire_la_su,_gli_umani_ingegni--Boschetti_1613.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4021833a">Tam4021833a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Non sono ire là su: gli umani ingegni (Aminta IV/2)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		D
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam5011850a-Oh_fortunato_Aminta_oh_te_felice--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam5011850a-Oh_fortunato_Aminta_oh_te_felice--Ghizzolo_1608.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam5011850a">Tam5011850a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Ghizzolo, Giovanni / 1608
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>O fortunato Aminta, o te felice</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		F
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam5011934a-Ma_come_Silvia_il_riconobbe_e_vide--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam5011934a-Ma_come_Silvia_il_riconobbe_e_vide--Ghizzolo_1608.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam5011934a">Tam5011934a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Ghizzolo, Giovanni / 1608
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Ma come Silvia il riconobbe e vide</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		C
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tam5011978a-Non_so_se_il_molto_amaro--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam5011978a-Non_so_se_il_molto_amaro--Boschetti_1613.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tam5011978a">Tam5011978a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Non so se il molto amaro (Aminta V/1)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		G
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tec1089a-Di_che_cantar_deggio--Coma_1588.png"><img width="425" style="width:425px" src="img/Tec1089a-Di_che_cantar_deggio--Coma_1588.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tec1089a">Tec1089a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Coma, Annibale / 1588
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Di che cantar degg'io (Ecloghe I/89)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.png"><img width="425" style="width:425px" src="img/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tri5016b">Tri5016b</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Stivori, Francesco / 1590
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>"Lasso," dicea, " perché venisti Amore" (Rinaldo V/16)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		D
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
-		<a target="_blank" href="img/Tri5018a-Tu_perfido_signor_tu_disleale--Felis_1591.png"><img width="425" style="width:425px" src="img/Tri5018a-Tu_perfido_signor_tu_disleale--Felis_1591.png"></a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tri5018a">Tri5018a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Felis, Stefano / 1591
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>Tu perfido Signor, tu disleale (Rinaldo V/18)</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		A
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; vertical-align: top; width:425px;">
-<tr>
-	<td colspan="2">
 		<a target="_blank" href="img/Trm0003b-Su_lampia_fronte_il_crespo_oro_lucente--Marenzio_1585.png"><img width="425" style="width:425px" src="img/Trm0003b-Su_lampia_fronte_il_crespo_oro_lucente--Marenzio_1585.png"></a>
 	</td>
 </tr>
@@ -9584,6 +8099,1491 @@ permalink: /analysis/keyscape/index.html
 	</td>
 	<td>
 		G
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam1020338b-Ho_visto_al_pianto_mio--Melli_1602.png"><img width="425" style="width:425px" src="img/Tam1020338b-Ho_visto_al_pianto_mio--Melli_1602.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338b">Tam1020338b</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Melli, Domenico Maria / 1602
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ho visto al pianto mio</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam1020338c-Ho_visto_al_pianto_mio--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam1020338c-Ho_visto_al_pianto_mio--Massaino_1604.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338c">Tam1020338c</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Massaino, Tiburtio / 1604
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		A
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam1020338d-Ho_visto_al_pianto_mio--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam1020338d-Ho_visto_al_pianto_mio--Boschetti_1613.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338d">Tam1020338d</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Boschetti, Giovanni Boschetto / 1613
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		D
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2010724a">Tam2010724a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Picciola è l'ape e fa col picciol morso (Aminta II/1)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		G
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031034a-Vorro_veder_cio_che_Tirsi_avra_fatto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031034a-Vorro_veder_cio_che_Tirsi_avra_fatto--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031034a">Tam2031034a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Vorrò veder ciò che Tirsi avrà fatto (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(F)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031045a-Nove_Aminta_tannuncio_di_conforto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031045a-Nove_Aminta_tannuncio_di_conforto--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031045a">Tam2031045a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Nove, Aminta, t'annuncio di conforto (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(C)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031052a-Qual_ardir_mi_bisogna_e_ncontra_a_cui--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031052a-Qual_ardir_mi_bisogna_e_ncontra_a_cui--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031052a">Tam2031052a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(F)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031061a-Bisogna_a_maggior_prova_ardir_piu_grande--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031061a-Bisogna_a_maggior_prova_ardir_piu_grande--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031061a">Tam2031061a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(C)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031067a-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031067a-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031067a">Tam2031067a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Orsù scuoprimi il tutto. Odi. Di' tosto (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(F)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031075a-Dura_conclusion_che_tutte_affosca--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031075a-Dura_conclusion_che_tutte_affosca--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031075a">Tam2031075a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Dura conclusion, che tutte affosca (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(C)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031081a-Sa_mio_senno_farai_sarai_felice--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031081a-Sa_mio_senno_farai_sarai_felice--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031081a">Tam2031081a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>S'a mio senno farai, sarai felice (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(C)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031089a-Non_sara_dunque_ver_chin_quanto_io_posso--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031089a-Non_sara_dunque_ver_chin_quanto_io_posso--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031089a">Tam2031089a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Non sarà dunque ver ch'in quanto io posso (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(F)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031096a-Dunque_tu_lameresti_a_suo_dispetto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031096a-Dunque_tu_lameresti_a_suo_dispetto--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031096a">Tam2031096a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Dunque tu l'ameresti a suo dispetto (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(C)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031100a-Perche_dunque_non_osi_oltra_sua_voglia--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031100a-Perche_dunque_non_osi_oltra_sua_voglia--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031100a">Tam2031100a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Perché dunque non osi oltra sua voglia (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(B-)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031106a-Gia_per_lungo_uso_a_ragionar_damore--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031106a-Gia_per_lungo_uso_a_ragionar_damore--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031106a">Tam2031106a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Già per lungo uso a ragionar d'amore (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(F)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031109a-Dunque_andar_non_vogliamo_Andare_io_voglio--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031109a-Dunque_andar_non_vogliamo_Andare_io_voglio--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031109a">Tam2031109a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Dunque andar non vogliamo? Andare io voglio (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(C)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031113a-Credi_tu_dunque_sciocco_che_mai_Dafne--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031113a-Credi_tu_dunque_sciocco_che_mai_Dafne--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031113a">Tam2031113a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Credi tu dunque, sciocco, che mai Dafne (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(F)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031121a-E_sella_vuol_che_l_tuo_diletto_sia--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031121a-E_sella_vuol_che_l_tuo_diletto_sia--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031121a">Tam2031121a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>E s'ella vuol che 'l tuo diletto sia (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(F)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031126a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031126a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031126a">Tam2031126a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ecco tu chiedi pur quella certezza (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(A)F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2031133a">Tam2031133a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Balsamino, Simone / 1594
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Tu taci: tu sei vinto. Ora confessa (Aminta II/3)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam3021324a-Dispietata_pietate--DIndia_1615.png"><img width="425" style="width:425px" src="img/Tam3021324a-Dispietata_pietate--DIndia_1615.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam3021324a">Tam3021324a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		D'India, Sigismondo / 1615
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Dispietata pietate (Aminta III/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		A
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam3021417b-Dolor_che_si_mi_crucii--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam3021417b-Dolor_che_si_mi_crucii--Massaino_1604.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam3021417b">Tam3021417b</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Massaino, Tiburtio / 1604
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Dolor che sì mi crucii (Aminta III/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(A)E
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam3021430b-Bello_e_dolce_morir_fu_certo_allora--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam3021430b-Bello_e_dolce_morir_fu_certo_allora--Massaino_1604.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam3021430b">Tam3021430b</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Massaino, Tiburtio / 1604
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Bello e dolce morir fu certo allora (Aminta III/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		E
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam4011614a-Misero_Aminta--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam4011614a-Misero_Aminta--Ghizzolo_1608.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4011614a">Tam4011614a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Ghizzolo, Giovanni / 1608
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>O sfortunato Aminta</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(C)C
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam4021779a-Pastor_di_che_piangete--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam4021779a-Pastor_di_che_piangete--Massaino_1604.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4021779a">Tam4021779a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Massaino, Tiburtio / 1604
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Pastor di che piangete? (Aminta IV/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		E
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam4021827a-Cio_che_morte_rallenta,_Amor_restringi--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam4021827a-Cio_che_morte_rallenta,_Amor_restringi--Boschetti_1613.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4021827a">Tam4021827a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Boschetti, Giovanni Boschetto / 1613
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ciò che morte rallenta, Amor restringi (Aminta IV/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(A)D
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam4021833a-Non_sono_ire_la_su,_gli_umani_ingegni--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam4021833a-Non_sono_ire_la_su,_gli_umani_ingegni--Boschetti_1613.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam4021833a">Tam4021833a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Boschetti, Giovanni Boschetto / 1613
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Non sono ire là su: gli umani ingegni (Aminta IV/2)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		D
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam5011850a-Oh_fortunato_Aminta_oh_te_felice--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam5011850a-Oh_fortunato_Aminta_oh_te_felice--Ghizzolo_1608.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam5011850a">Tam5011850a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Ghizzolo, Giovanni / 1608
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>O fortunato Aminta, o te felice</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		F
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam5011934a-Ma_come_Silvia_il_riconobbe_e_vide--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam5011934a-Ma_come_Silvia_il_riconobbe_e_vide--Ghizzolo_1608.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam5011934a">Tam5011934a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Ghizzolo, Giovanni / 1608
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ma come Silvia il riconobbe e vide</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		C
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tam5011978a-Non_so_se_il_molto_amaro--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam5011978a-Non_so_se_il_molto_amaro--Boschetti_1613.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam5011978a">Tam5011978a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Boschetti, Giovanni Boschetto / 1613
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Non so se il molto amaro (Aminta V/1)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		G
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tec1089a-Di_che_cantar_deggio--Coma_1588.png"><img width="425" style="width:425px" src="img/Tec1089a-Di_che_cantar_deggio--Coma_1588.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tec1089a">Tec1089a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Coma, Annibale / 1588
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Di che cantar degg'io (Ecloghe I/89)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.png"><img width="425" style="width:425px" src="img/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tri5016b">Tri5016b</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Stivori, Francesco / 1590
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>"Lasso," dicea, " perché venisti Amore" (Rinaldo V/16)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		D
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; vertical-align: top; width:425px;">
+<tr>
+	<td colspan="2">
+		<a target="_blank" href="img/Tri5018a-Tu_perfido_signor_tu_disleale--Felis_1591.png"><img width="425" style="width:425px" src="img/Tri5018a-Tu_perfido_signor_tu_disleale--Felis_1591.png"></a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tri5018a">Tri5018a</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Felis, Stefano / 1591
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Tu perfido Signor, tu disleale (Rinaldo V/18)</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		A
 	</td>
 </tr>
 

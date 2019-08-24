@@ -7,6 +7,17 @@ my $scoredir = "../../../tasso-scores";
 my $imgdir = "img";
 my @files = glob("$scoredir/*/kern/*.krn");
 
+my @rimefiles;
+my @nonrimefiles;
+
+for (my $i=0; $i<@files; $i++) {
+	if ($files[$i] =~ /Trm\d{4}[a-z]+-/) {
+		push(@rimefiles, $files[$i]);
+	} else {
+		push(@nonrimefiles, $files[$i]);
+	}
+}
+
 my $width = 425;
 
 print <<"EOT";
@@ -18,7 +29,12 @@ permalink: /analysis/keyscape/index.html
 ---
 EOT
 
-foreach my $file (@files) {
+my $file;
+foreach $file (@rimefiles) {
+	processFile($file);
+}
+
+foreach $file (@nonrimefiles) {
 	processFile($file);
 }
 

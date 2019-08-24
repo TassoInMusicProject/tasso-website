@@ -4,10 +4,11 @@ scripts-local: true
 style-local: true
 permalink: /analysis/keyscape/index.html
 ---
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0003b-Su_lampia_fronte_il_crespo_oro_lucente--Marenzio_1585.png"><img width="425" style="width:425px" src="img/Trm0003b-Su_lampia_fronte_il_crespo_oro_lucente--Marenzio_1585.png"></a>
+		<div id="audio_Trm0003b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0003b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -49,10 +50,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0023c-Io_non_posso_gioire--Felis_1591.png"><img width="425" style="width:425px" src="img/Trm0023c-Io_non_posso_gioire--Felis_1591.png"></a>
+		<div id="audio_Trm0023c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0023c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -94,10 +96,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0023e-Io_non_posso_gioire--Pallavicino_1612.png"><img width="425" style="width:425px" src="img/Trm0023e-Io_non_posso_gioire--Pallavicino_1612.png"></a>
+		<div id="audio_Trm0023e" style="cursor:pointer;" onclick="PlayAudioFile('Trm0023e', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -139,10 +142,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0024a-Gia_non_son_io_contento--Felis_1591.png"><img width="425" style="width:425px" src="img/Trm0024a-Gia_non_son_io_contento--Felis_1591.png"></a>
+		<div id="audio_Trm0024a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0024a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -184,10 +188,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0025b-Come_vivro_ne_le_mie_pene_Amore--Pallavicino_1600.png"><img width="425" style="width:425px" src="img/Trm0025b-Come_vivro_ne_le_mie_pene_Amore--Pallavicino_1600.png"></a>
+		<div id="audio_Trm0025b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0025b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -229,10 +234,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0028a-Giacea_la_mia_virtu_vinta_e_smarrita--Zanotti_1587.png"><img width="425" style="width:425px" src="img/Trm0028a-Giacea_la_mia_virtu_vinta_e_smarrita--Zanotti_1587.png"></a>
+		<div id="audio_Trm0028a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0028a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -274,10 +280,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0038a-Stavasi_Amor_quasi_in_regno_assiso--Porta_1573.png"><img width="425" style="width:425px" src="img/Trm0038a-Stavasi_Amor_quasi_in_regno_assiso--Porta_1573.png"></a>
+		<div id="audio_Trm0038a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0038a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -319,10 +326,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0047a-Non_egrave_questa_la_mano--Pallavicino_1579.png"><img width="425" style="width:425px" src="img/Trm0047a-Non_egrave_questa_la_mano--Pallavicino_1579.png"></a>
+		<div id="audio_Trm0047a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0047a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -364,10 +372,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0047l-Non_e_questa_la_mano--Gastoldi_1588.png"><img width="425" style="width:425px" src="img/Trm0047l-Non_e_questa_la_mano--Gastoldi_1588.png"></a>
+		<div id="audio_Trm0047l" style="cursor:pointer;" onclick="PlayAudioFile('Trm0047l', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -409,10 +418,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0047m-Non_e_questa_la_mano--Giovannelli_1588.png"><img width="425" style="width:425px" src="img/Trm0047m-Non_e_questa_la_mano--Giovannelli_1588.png"></a>
+		<div id="audio_Trm0047m" style="cursor:pointer;" onclick="PlayAudioFile('Trm0047m', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -454,10 +464,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0047n-Non_e_questa_la_mano--Castro_1591.png"><img width="425" style="width:425px" src="img/Trm0047n-Non_e_questa_la_mano--Castro_1591.png"></a>
+		<div id="audio_Trm0047n" style="cursor:pointer;" onclick="PlayAudioFile('Trm0047n', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -499,10 +510,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0047q-Non_e_questa_la_mano--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0047q-Non_e_questa_la_mano--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0047q" style="cursor:pointer;" onclick="PlayAudioFile('Trm0047q', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -544,10 +556,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0047s-Non_e_questa_la_mano--Montella_1604.png"><img width="425" style="width:425px" src="img/Trm0047s-Non_e_questa_la_mano--Montella_1604.png"></a>
+		<div id="audio_Trm0047s" style="cursor:pointer;" onclick="PlayAudioFile('Trm0047s', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -589,10 +602,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0048a-Amor_lalma_mallaccia--Meldert_1575.png"><img width="425" style="width:425px" src="img/Trm0048a-Amor_lalma_mallaccia--Meldert_1575.png"></a>
+		<div id="audio_Trm0048a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0048a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -634,10 +648,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0048e-Amor_lalma_mallaccia--Monte_1590.png"><img width="425" style="width:425px" src="img/Trm0048e-Amor_lalma_mallaccia--Monte_1590.png"></a>
+		<div id="audio_Trm0048e" style="cursor:pointer;" onclick="PlayAudioFile('Trm0048e', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -679,10 +694,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0048f-Amor_lalma_mallaccia--Bonini_1591.png"><img width="425" style="width:425px" src="img/Trm0048f-Amor_lalma_mallaccia--Bonini_1591.png"></a>
+		<div id="audio_Trm0048f" style="cursor:pointer;" onclick="PlayAudioFile('Trm0048f', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -724,10 +740,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0052a-O_nemica_dAmor_che_si_ti_rendi--Zanotti_1587.png"><img width="425" style="width:425px" src="img/Trm0052a-O_nemica_dAmor_che_si_ti_rendi--Zanotti_1587.png"></a>
+		<div id="audio_Trm0052a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0052a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -769,10 +786,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0059b-Lunge_da_voi_ben_mio--Felis_1591.png"><img width="425" style="width:425px" src="img/Trm0059b-Lunge_da_voi_ben_mio--Felis_1591.png"></a>
+		<div id="audio_Trm0059b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0059b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -814,10 +832,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0059c-Lunge_da_voi_ben_mio--Pallavicino_1600.png"><img width="425" style="width:425px" src="img/Trm0059c-Lunge_da_voi_ben_mio--Pallavicino_1600.png"></a>
+		<div id="audio_Trm0059c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0059c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -859,10 +878,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0060c-Lunge_da_voi_mio_core--Felis_1591.png"><img width="425" style="width:425px" src="img/Trm0060c-Lunge_da_voi_mio_core--Felis_1591.png"></a>
+		<div id="audio_Trm0060c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0060c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -904,10 +924,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0088a-Mapre_talor_madonna_il_suo_celeste--Meldert_1575.png"><img width="425" style="width:425px" src="img/Trm0088a-Mapre_talor_madonna_il_suo_celeste--Meldert_1575.png"></a>
+		<div id="audio_Trm0088a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0088a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -949,10 +970,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0089a-Mentre_Madonna_il_fianco_lasso_posa--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0089a-Mentre_Madonna_il_fianco_lasso_posa--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0089a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0089a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -994,10 +1016,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0090b-Mentre_nubi_di_sdegno--Monte_1588.png"><img width="425" style="width:425px" src="img/Trm0090b-Mentre_nubi_di_sdegno--Monte_1588.png"></a>
+		<div id="audio_Trm0090b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0090b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1039,10 +1062,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0090c-Mentre_nubi_di_sdegno--Cancineo_1590.png"><img width="425" style="width:425px" src="img/Trm0090c-Mentre_nubi_di_sdegno--Cancineo_1590.png"></a>
+		<div id="audio_Trm0090c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0090c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1084,10 +1108,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0093a-Disdegno_e_gelosia--Marenzio_1584.png"><img width="425" style="width:425px" src="img/Trm0093a-Disdegno_e_gelosia--Marenzio_1584.png"></a>
+		<div id="audio_Trm0093a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0093a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1129,10 +1154,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0096a-Donna_quanto_piu_a_dentro--DIndia_1615.png"><img width="425" style="width:425px" src="img/Trm0096a-Donna_quanto_piu_a_dentro--DIndia_1615.png"></a>
+		<div id="audio_Trm0096a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0096a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1174,10 +1200,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0097b-A_chi_creder_deggio--Hassler_1596.png"><img width="425" style="width:425px" src="img/Trm0097b-A_chi_creder_deggio--Hassler_1596.png"></a>
+		<div id="audio_Trm0097b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0097b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1219,10 +1246,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0099a-Geloso_amante_apro_millocchi_e_giro--Luzzaschi_1576.png"><img width="425" style="width:425px" src="img/Trm0099a-Geloso_amante_apro_millocchi_e_giro--Luzzaschi_1576.png"></a>
+		<div id="audio_Trm0099a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0099a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1264,10 +1292,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0107a-Arsi_gran_tempo_e_del_mio_foco_indegno--Marenzio_1587.png"><img width="425" style="width:425px" src="img/Trm0107a-Arsi_gran_tempo_e_del_mio_foco_indegno--Marenzio_1587.png"></a>
+		<div id="audio_Trm0107a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0107a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1309,10 +1338,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0126a-Tre_gran_donne_vidio_chin_esser_belle--Gabella_1585.png"><img width="425" style="width:425px" src="img/Trm0126a-Tre_gran_donne_vidio_chin_esser_belle--Gabella_1585.png"></a>
+		<div id="audio_Trm0126a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0126a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1354,10 +1384,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0137a-Non_fonte_o_fiume_od_aura--Virchi_1584.png"><img width="425" style="width:425px" src="img/Trm0137a-Non_fonte_o_fiume_od_aura--Virchi_1584.png"></a>
+		<div id="audio_Trm0137a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0137a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1399,10 +1430,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0137b-Non_fonte_o_fiume_od_aura--Bozi_1591.png"><img width="425" style="width:425px" src="img/Trm0137b-Non_fonte_o_fiume_od_aura--Bozi_1591.png"></a>
+		<div id="audio_Trm0137b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0137b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1444,10 +1476,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0139a-Messaggera_de_lalba--Villani_1591.png"><img width="425" style="width:425px" src="img/Trm0139a-Messaggera_de_lalba--Villani_1591.png"></a>
+		<div id="audio_Trm0139a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0139a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1489,10 +1522,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0143a-Ecco_mormorar_londe--Dueto_1586.png"><img width="425" style="width:425px" src="img/Trm0143a-Ecco_mormorar_londe--Dueto_1586.png"></a>
+		<div id="audio_Trm0143a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0143a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1534,10 +1568,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0144a-Ore_fermate_il_volo--Dueto_1586.png"><img width="425" style="width:425px" src="img/Trm0144a-Ore_fermate_il_volo--Dueto_1586.png"></a>
+		<div id="audio_Trm0144a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0144a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1579,10 +1614,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0152a-Voi_mi_chiedeste_il_core--Pallavicino_1604.png"><img width="425" style="width:425px" src="img/Trm0152a-Voi_mi_chiedeste_il_core--Pallavicino_1604.png"></a>
+		<div id="audio_Trm0152a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0152a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1624,10 +1660,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0159a-Daria_un_tempo_nudrimmi_e_cibo_e_vita--Veggio_1574.png"><img width="425" style="width:425px" src="img/Trm0159a-Daria_un_tempo_nudrimmi_e_cibo_e_vita--Veggio_1574.png"></a>
+		<div id="audio_Trm0159a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0159a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1669,10 +1706,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0159b-Daria_un_tempo_nudrimmi_e_cibo_e_vita--Feliciani_1579.png"><img width="425" style="width:425px" src="img/Trm0159b-Daria_un_tempo_nudrimmi_e_cibo_e_vita--Feliciani_1579.png"></a>
+		<div id="audio_Trm0159b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0159b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1714,10 +1752,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0164a-Vuol_che_lami_costei_ma_duro_freno--Barbarino_1616.png"><img width="425" style="width:425px" src="img/Trm0164a-Vuol_che_lami_costei_ma_duro_freno--Barbarino_1616.png"></a>
+		<div id="audio_Trm0164a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0164a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1759,10 +1798,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0165d-Vorrei_lagnarmi_a_pieno--Bozi_1591.png"><img width="425" style="width:425px" src="img/Trm0165d-Vorrei_lagnarmi_a_pieno--Bozi_1591.png"></a>
+		<div id="audio_Trm0165d" style="cursor:pointer;" onclick="PlayAudioFile('Trm0165d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1804,10 +1844,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0166g-Se_taccio_il_duol_s’avanza--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0166g-Se_taccio_il_duol_s’avanza--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0166g" style="cursor:pointer;" onclick="PlayAudioFile('Trm0166g', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1849,10 +1890,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0166k-Se_taccio_il_duol_savanza--Nenna_1613.png"><img width="425" style="width:425px" src="img/Trm0166k-Se_taccio_il_duol_savanza--Nenna_1613.png"></a>
+		<div id="audio_Trm0166k" style="cursor:pointer;" onclick="PlayAudioFile('Trm0166k', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1894,10 +1936,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0174a-Or_che_laura_mia_dolce_altrove_spira--Pozzo_1585.png"><img width="425" style="width:425px" src="img/Trm0174a-Or_che_laura_mia_dolce_altrove_spira--Pozzo_1585.png"></a>
+		<div id="audio_Trm0174a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0174a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1939,10 +1982,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0175b-Vaghe_Ninfe_del_Po_Ninfe_sorelle--Verso_1605.png"><img width="425" style="width:425px" src="img/Trm0175b-Vaghe_Ninfe_del_Po_Ninfe_sorelle--Verso_1605.png"></a>
+		<div id="audio_Trm0175b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0175b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -1984,10 +2028,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0183b-Di_nettare_amoroso_ebro_la_mente--Marenzio_1587.png"><img width="425" style="width:425px" src="img/Trm0183b-Di_nettare_amoroso_ebro_la_mente--Marenzio_1587.png"></a>
+		<div id="audio_Trm0183b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0183b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2029,10 +2074,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0189b-Secco_e_larbor_gentile--Tosone_1590.png"><img width="425" style="width:425px" src="img/Trm0189b-Secco_e_larbor_gentile--Tosone_1590.png"></a>
+		<div id="audio_Trm0189b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0189b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2074,10 +2120,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0191b-Arsi_mentre_mamaste--Tosone_1590.png"><img width="425" style="width:425px" src="img/Trm0191b-Arsi_mentre_mamaste--Tosone_1590.png"></a>
+		<div id="audio_Trm0191b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0191b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2119,10 +2166,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0194b-La_giovinetta_scorza--Naldi_1589.png"><img width="425" style="width:425px" src="img/Trm0194b-La_giovinetta_scorza--Naldi_1589.png"></a>
+		<div id="audio_Trm0194b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0194b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2164,10 +2212,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0198a-Chi_la_felice_pianta_dOriente--Vecoli_1586.png"><img width="425" style="width:425px" src="img/Trm0198a-Chi_la_felice_pianta_dOriente--Vecoli_1586.png"></a>
+		<div id="audio_Trm0198a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0198a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2209,10 +2258,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0202a-Picciola_verga_e_bella--Agostini_1582.png"><img width="425" style="width:425px" src="img/Trm0202a-Picciola_verga_e_bella--Agostini_1582.png"></a>
+		<div id="audio_Trm0202a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0202a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2254,10 +2304,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0237a-Negro_era_intorno_e_n_bianche_falde_il_cielo--Meldert_1575.png"><img width="425" style="width:425px" src="img/Trm0237a-Negro_era_intorno_e_n_bianche_falde_il_cielo--Meldert_1575.png"></a>
+		<div id="audio_Trm0237a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0237a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2299,10 +2350,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0241a-Mentre_i_dipinti_augelli--Nielsen_1606.png"><img width="425" style="width:425px" src="img/Trm0241a-Mentre_i_dipinti_augelli--Nielsen_1606.png"></a>
+		<div id="audio_Trm0241a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0241a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2344,10 +2396,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0242a-Sovra_lherbette_e_i_fiori--Zenaro_1589.png"><img width="425" style="width:425px" src="img/Trm0242a-Sovra_lherbette_e_i_fiori--Zenaro_1589.png"></a>
+		<div id="audio_Trm0242a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0242a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2389,10 +2442,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0243a-Fuggia_di_poggio_in_poggio--Eremita_1589.png"><img width="425" style="width:425px" src="img/Trm0243a-Fuggia_di_poggio_in_poggio--Eremita_1589.png"></a>
+		<div id="audio_Trm0243a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0243a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2434,10 +2488,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0244a-Qual_cervo_errando_suole--Virchi_1584.png"><img width="425" style="width:425px" src="img/Trm0244a-Qual_cervo_errando_suole--Virchi_1584.png"></a>
+		<div id="audio_Trm0244a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0244a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2479,10 +2534,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0246a-Al_lume_delle_stelle--Marenzio_1595.png"><img width="425" style="width:425px" src="img/Trm0246a-Al_lume_delle_stelle--Marenzio_1595.png"></a>
+		<div id="audio_Trm0246a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0246a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2524,10 +2580,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0247a-Io_vidi_gia_sotto_lardente_sole--Marenzio_1584.png"><img width="425" style="width:425px" src="img/Trm0247a-Io_vidi_gia_sotto_lardente_sole--Marenzio_1584.png"></a>
+		<div id="audio_Trm0247a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0247a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2569,10 +2626,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0248a-Vita_de_la_mia_vita--Marenzio_1584.png"><img width="425" style="width:425px" src="img/Trm0248a-Vita_de_la_mia_vita--Marenzio_1584.png"></a>
+		<div id="audio_Trm0248a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0248a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2614,10 +2672,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0248d-Vita_de_la_mia_vita--Genvino_1605.png"><img width="425" style="width:425px" src="img/Trm0248d-Vita_de_la_mia_vita--Genvino_1605.png"></a>
+		<div id="audio_Trm0248d" style="cursor:pointer;" onclick="PlayAudioFile('Trm0248d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2659,10 +2718,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0255a-Mentre_in_grembo_a_la_madre_un_giorno--Giovannelli_1599.png"><img width="425" style="width:425px" src="img/Trm0255a-Mentre_in_grembo_a_la_madre_un_giorno--Giovannelli_1599.png"></a>
+		<div id="audio_Trm0255a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0255a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2704,10 +2764,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0257a-Ardi_Amor_se_ti_piace--Monte_1588.png"><img width="425" style="width:425px" src="img/Trm0257a-Ardi_Amor_se_ti_piace--Monte_1588.png"></a>
+		<div id="audio_Trm0257a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0257a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2749,10 +2810,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0261b-Mentre_volgea_il_mio_sole--Macque_1610.png"><img width="425" style="width:425px" src="img/Trm0261b-Mentre_volgea_il_mio_sole--Macque_1610.png"></a>
+		<div id="audio_Trm0261b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0261b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2794,10 +2856,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0265a-Mentre_la_donna_mia_cangiando_aspetto--Hassler_1596.png"><img width="425" style="width:425px" src="img/Trm0265a-Mentre_la_donna_mia_cangiando_aspetto--Hassler_1596.png"></a>
+		<div id="audio_Trm0265a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0265a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2839,10 +2902,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0267a-Bella_non_e_costei--Zenaro_1589.png"><img width="425" style="width:425px" src="img/Trm0267a-Bella_non_e_costei--Zenaro_1589.png"></a>
+		<div id="audio_Trm0267a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0267a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2884,10 +2948,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0272b-Occhi_leggiadri_e_belli--Gastoldi_1588.png"><img width="425" style="width:425px" src="img/Trm0272b-Occhi_leggiadri_e_belli--Gastoldi_1588.png"></a>
+		<div id="audio_Trm0272b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0272b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2929,10 +2994,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0275a-O_via_piu_bianca_e_fredda--Recalchi_1588.png"><img width="425" style="width:425px" src="img/Trm0275a-O_via_piu_bianca_e_fredda--Recalchi_1588.png"></a>
+		<div id="audio_Trm0275a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0275a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -2974,10 +3040,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0276a-Piu_che_Diana_e_bella_e_piu_mi_piace--Bacchini_1588.png"><img width="425" style="width:425px" src="img/Trm0276a-Piu_che_Diana_e_bella_e_piu_mi_piace--Bacchini_1588.png"></a>
+		<div id="audio_Trm0276a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0276a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3019,10 +3086,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0277a-Perche_la_mia_Diana_anzi_il_mio_sole--Cantino_1588.png"><img width="425" style="width:425px" src="img/Trm0277a-Perche_la_mia_Diana_anzi_il_mio_sole--Cantino_1588.png"></a>
+		<div id="audio_Trm0277a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0277a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3064,10 +3132,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0279a-Al_discioglier_dun_groppo--Monte_1591.png"><img width="425" style="width:425px" src="img/Trm0279a-Al_discioglier_dun_groppo--Monte_1591.png"></a>
+		<div id="audio_Trm0279a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0279a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3109,10 +3178,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0284c-Questa_vostra_pietate.png"><img width="425" style="width:425px" src="img/Trm0284c-Questa_vostra_pietate.png"></a>
+		<div id="audio_Trm0284c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0284c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3154,10 +3224,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0288g-Amatemi_ben_mio--Bozi_1591.png"><img width="425" style="width:425px" src="img/Trm0288g-Amatemi_ben_mio--Bozi_1591.png"></a>
+		<div id="audio_Trm0288g" style="cursor:pointer;" onclick="PlayAudioFile('Trm0288g', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3199,10 +3270,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0288h-Amatemi_ben_mio--Marenzio_1591.png"><img width="425" style="width:425px" src="img/Trm0288h-Amatemi_ben_mio--Marenzio_1591.png"></a>
+		<div id="audio_Trm0288h" style="cursor:pointer;" onclick="PlayAudioFile('Trm0288h', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3244,10 +3316,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0288i-Amatemi_ben_mio--Montella_1595.png"><img width="425" style="width:425px" src="img/Trm0288i-Amatemi_ben_mio--Montella_1595.png"></a>
+		<div id="audio_Trm0288i" style="cursor:pointer;" onclick="PlayAudioFile('Trm0288i', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3289,10 +3362,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0289a-Gia_tu_volasti_quattro_volte_e_sei--Bonini_1591.png"><img width="425" style="width:425px" src="img/Trm0289a-Gia_tu_volasti_quattro_volte_e_sei--Bonini_1591.png"></a>
+		<div id="audio_Trm0289a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0289a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3334,10 +3408,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0297a-Sel_vostro_volto_e_dun_aria_gentile--Vecchi_1580.png"><img width="425" style="width:425px" src="img/Trm0297a-Sel_vostro_volto_e_dun_aria_gentile--Vecchi_1580.png"></a>
+		<div id="audio_Trm0297a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0297a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3379,10 +3454,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0302a-Siepe_cha_gli_orti_vaghi--Felix_1591.png"><img width="425" style="width:425px" src="img/Trm0302a-Siepe_cha_gli_orti_vaghi--Felix_1591.png"></a>
+		<div id="audio_Trm0302a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0302a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3424,10 +3500,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0303a-Sarai_termine_ancora--Felix_1591.png"><img width="425" style="width:425px" src="img/Trm0303a-Sarai_termine_ancora--Felix_1591.png"></a>
+		<div id="audio_Trm0303a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0303a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3469,10 +3546,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0307a-Non_sono_in_queste_rive--Zenaro_1589.png"><img width="425" style="width:425px" src="img/Trm0307a-Non_sono_in_queste_rive--Zenaro_1589.png"></a>
+		<div id="audio_Trm0307a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0307a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3514,10 +3592,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0309a-O_verdi_selve_o_dolci_fonti_o_rivi--Marenzio_1595.png"><img width="425" style="width:425px" src="img/Trm0309a-O_verdi_selve_o_dolci_fonti_o_rivi--Marenzio_1595.png"></a>
+		<div id="audio_Trm0309a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0309a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3559,10 +3638,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0315b-Quella_candida_mano--Nenna_1607.png"><img width="425" style="width:425px" src="img/Trm0315b-Quella_candida_mano--Nenna_1607.png"></a>
+		<div id="audio_Trm0315b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0315b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3604,10 +3684,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0318a-Sovra_un_lucido_rio--Marenzio_1585.png"><img width="425" style="width:425px" src="img/Trm0318a-Sovra_un_lucido_rio--Marenzio_1585.png"></a>
+		<div id="audio_Trm0318a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0318a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3649,10 +3730,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0318c-Sovra_un_lucido_rio--Zenaro_1589.png"><img width="425" style="width:425px" src="img/Trm0318c-Sovra_un_lucido_rio--Zenaro_1589.png"></a>
+		<div id="audio_Trm0318c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0318c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3694,10 +3776,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0319a-Non_puo_langusto_loco--Gastoldi_1588.png"><img width="425" style="width:425px" src="img/Trm0319a-Non_puo_langusto_loco--Gastoldi_1588.png"></a>
+		<div id="audio_Trm0319a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0319a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3739,10 +3822,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0322a-Donna_lunge_da_voi--DIndia_1616.png"><img width="425" style="width:425px" src="img/Trm0322a-Donna_lunge_da_voi--DIndia_1616.png"></a>
+		<div id="audio_Trm0322a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0322a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3784,10 +3868,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0323a-Lontano_dal_mio_core--Garzi_1629.png"><img width="425" style="width:425px" src="img/Trm0323a-Lontano_dal_mio_core--Garzi_1629.png"></a>
+		<div id="audio_Trm0323a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0323a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3829,10 +3914,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0325c-O_dolci_lagrimette--Salzilli_1611.png"><img width="425" style="width:425px" src="img/Trm0325c-O_dolci_lagrimette--Salzilli_1611.png"></a>
+		<div id="audio_Trm0325c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0325c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3874,10 +3960,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0326d-Lunge_da_gli_occhi_vostri--Dentice_1607.png"><img width="425" style="width:425px" src="img/Trm0326d-Lunge_da_gli_occhi_vostri--Dentice_1607.png"></a>
+		<div id="audio_Trm0326d" style="cursor:pointer;" onclick="PlayAudioFile('Trm0326d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3919,10 +4006,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0333a-Gelo_ha_Madonna_il_seno--Bellasio_1578.png"><img width="425" style="width:425px" src="img/Trm0333a-Gelo_ha_Madonna_il_seno--Bellasio_1578.png"></a>
+		<div id="audio_Trm0333a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0333a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -3964,10 +4052,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0333b-Gelo_ha_Madonna_il_seno--Merulo_1579.png"><img width="425" style="width:425px" src="img/Trm0333b-Gelo_ha_Madonna_il_seno--Merulo_1579.png"></a>
+		<div id="audio_Trm0333b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0333b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4009,10 +4098,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0333e-Gelo_ha_Madonna_il_seno.png"><img width="425" style="width:425px" src="img/Trm0333e-Gelo_ha_Madonna_il_seno.png"></a>
+		<div id="audio_Trm0333e" style="cursor:pointer;" onclick="PlayAudioFile('Trm0333e', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4054,10 +4144,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0333g-Gelo_ha_madonna_il_seno--Monte_1590.png"><img width="425" style="width:425px" src="img/Trm0333g-Gelo_ha_madonna_il_seno--Monte_1590.png"></a>
+		<div id="audio_Trm0333g" style="cursor:pointer;" onclick="PlayAudioFile('Trm0333g', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4099,10 +4190,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0333i-Gelo_ha_Madonna_il_seno--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0333i-Gelo_ha_Madonna_il_seno--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0333i" style="cursor:pointer;" onclick="PlayAudioFile('Trm0333i', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4144,10 +4236,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0335d-Voi_bramate_ben_mio--Zenaro_1589.png"><img width="425" style="width:425px" src="img/Trm0335d-Voi_bramate_ben_mio--Zenaro_1589.png"></a>
+		<div id="audio_Trm0335d" style="cursor:pointer;" onclick="PlayAudioFile('Trm0335d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4189,10 +4282,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0335f-Voi_bramate_ben_mio--Fonghetti_1598.png"><img width="425" style="width:425px" src="img/Trm0335f-Voi_bramate_ben_mio--Fonghetti_1598.png"></a>
+		<div id="audio_Trm0335f" style="cursor:pointer;" onclick="PlayAudioFile('Trm0335f', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4234,10 +4328,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0339b-Dolcissimi_legami--Giovannelli_1593.png"><img width="425" style="width:425px" src="img/Trm0339b-Dolcissimi_legami--Giovannelli_1593.png"></a>
+		<div id="audio_Trm0339b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0339b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4279,10 +4374,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0341a-Fuggi_fuggi_dolor_da_questo_petto--Guami_1588.png"><img width="425" style="width:425px" src="img/Trm0341a-Fuggi_fuggi_dolor_da_questo_petto--Guami_1588.png"></a>
+		<div id="audio_Trm0341a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0341a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4324,10 +4420,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0343a-Soavissimo_canto--Bellasio_1591.png"><img width="425" style="width:425px" src="img/Trm0343a-Soavissimo_canto--Bellasio_1591.png"></a>
+		<div id="audio_Trm0343a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0343a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4369,10 +4466,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0345a-Tra_mille_fior_gia_colti_in_dolce_speco--Preti_1588.png"><img width="425" style="width:425px" src="img/Trm0345a-Tra_mille_fior_gia_colti_in_dolce_speco--Preti_1588.png"></a>
+		<div id="audio_Trm0345a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0345a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4414,10 +4512,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0358b-Amarilli_sio_te_miro--Cerbello_1619.png"><img width="425" style="width:425px" src="img/Trm0358b-Amarilli_sio_te_miro--Cerbello_1619.png"></a>
+		<div id="audio_Trm0358b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0358b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4459,10 +4558,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0361a-Io_son_la_primavera--Lambardi_1614.png"><img width="425" style="width:425px" src="img/Trm0361a-Io_son_la_primavera--Lambardi_1614.png"></a>
+		<div id="audio_Trm0361a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0361a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4504,10 +4604,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0361b-Io_son_la_primavera--Hodemont_1625.png"><img width="425" style="width:425px" src="img/Trm0361b-Io_son_la_primavera--Hodemont_1625.png"></a>
+		<div id="audio_Trm0361b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0361b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4549,10 +4650,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0361c-Io_son_la_primavera--Stefani_1622.png"><img width="425" style="width:425px" src="img/Trm0361c-Io_son_la_primavera--Stefani_1622.png"></a>
+		<div id="audio_Trm0361c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0361c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4594,10 +4696,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0362a-Questo_riposto_bel_vago_boschetto--Dueto_1586.png"><img width="425" style="width:425px" src="img/Trm0362a-Questo_riposto_bel_vago_boschetto--Dueto_1586.png"></a>
+		<div id="audio_Trm0362a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0362a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4639,10 +4742,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0363a-Qui_dove_i_sacri_e_verdeggianti_allori--Hassler_1596.png"><img width="425" style="width:425px" src="img/Trm0363a-Qui_dove_i_sacri_e_verdeggianti_allori--Hassler_1596.png"></a>
+		<div id="audio_Trm0363a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0363a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4684,10 +4788,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0366a-Odi_Filli_che_tuona_odi_chen_gelo--Monte_1586.png"><img width="425" style="width:425px" src="img/Trm0366a-Odi_Filli_che_tuona_odi_chen_gelo--Monte_1586.png"></a>
+		<div id="audio_Trm0366a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0366a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4729,10 +4834,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0367a-Aminta_poi_cha_Filli_non_dispiacque--Luzzaschi_1576.png"><img width="425" style="width:425px" src="img/Trm0367a-Aminta_poi_cha_Filli_non_dispiacque--Luzzaschi_1576.png"></a>
+		<div id="audio_Trm0367a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0367a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4774,10 +4880,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0371b-Tre_son_le_Grazie_ancelle--Bozi_1591.png"><img width="425" style="width:425px" src="img/Trm0371b-Tre_son_le_Grazie_ancelle--Bozi_1591.png"></a>
+		<div id="audio_Trm0371b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0371b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4819,10 +4926,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0372b-Bruna_sei_tu_ma_bella--Mancini_1605.png"><img width="425" style="width:425px" src="img/Trm0372b-Bruna_sei_tu_ma_bella--Mancini_1605.png"></a>
+		<div id="audio_Trm0372b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0372b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4864,10 +4972,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0373a-Bella_e_vaga_brunetta--Vignali_1640.png"><img width="425" style="width:425px" src="img/Trm0373a-Bella_e_vaga_brunetta--Vignali_1640.png"></a>
+		<div id="audio_Trm0373a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0373a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4909,10 +5018,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0378f-Nel_dolce_seno_de_la_bella_Clori--Marenzio_1591.png"><img width="425" style="width:425px" src="img/Trm0378f-Nel_dolce_seno_de_la_bella_Clori--Marenzio_1591.png"></a>
+		<div id="audio_Trm0378f" style="cursor:pointer;" onclick="PlayAudioFile('Trm0378f', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4954,10 +5064,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0379b-Non_si_leveva_ancor_lalba_novella--Gallo_1598.png"><img width="425" style="width:425px" src="img/Trm0379b-Non_si_leveva_ancor_lalba_novella--Gallo_1598.png"></a>
+		<div id="audio_Trm0379b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0379b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -4999,10 +5110,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0380b-Viviamo_amianci_o_mia_gradita_Jelle--Nenna_1607.png"><img width="425" style="width:425px" src="img/Trm0380b-Viviamo_amianci_o_mia_gradita_Jelle--Nenna_1607.png"></a>
+		<div id="audio_Trm0380b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0380b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5044,10 +5156,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0389b-Donna_se_ben_le_chiome_ho_gia_ripiene--Monte_1586.png"><img width="425" style="width:425px" src="img/Trm0389b-Donna_se_ben_le_chiome_ho_gia_ripiene--Monte_1586.png"></a>
+		<div id="audio_Trm0389b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0389b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5089,10 +5202,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0395b-In_un_bel_bosco_di_leggiadre_fronde--Marenzio_1584.png"><img width="425" style="width:425px" src="img/Trm0395b-In_un_bel_bosco_di_leggiadre_fronde--Marenzio_1584.png"></a>
+		<div id="audio_Trm0395b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0395b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5134,10 +5248,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0395c-In_un_bel_bosco_di_leggiadre_fronde--Monte_1586.png"><img width="425" style="width:425px" src="img/Trm0395c-In_un_bel_bosco_di_leggiadre_fronde--Monte_1586.png"></a>
+		<div id="audio_Trm0395c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0395c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5179,10 +5294,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0399b-O_vaga_tortorella--Marini_1635.png"><img width="425" style="width:425px" src="img/Trm0399b-O_vaga_tortorella--Marini_1635.png"></a>
+		<div id="audio_Trm0399b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0399b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5224,10 +5340,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0407a-La_natura_compose--Mel_1584.png"><img width="425" style="width:425px" src="img/Trm0407a-La_natura_compose--Mel_1584.png"></a>
+		<div id="audio_Trm0407a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0407a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5269,10 +5386,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0408a-Questo_tra_gli_altri_fiori--Bozi_1591.png"><img width="425" style="width:425px" src="img/Trm0408a-Questo_tra_gli_altri_fiori--Bozi_1591.png"></a>
+		<div id="audio_Trm0408a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0408a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5314,10 +5432,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0418g-Ardi_e_gela_a_tua_voglia--Monte_1586.png"><img width="425" style="width:425px" src="img/Trm0418g-Ardi_e_gela_a_tua_voglia--Monte_1586.png"></a>
+		<div id="audio_Trm0418g" style="cursor:pointer;" onclick="PlayAudioFile('Trm0418g', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5359,10 +5478,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0418w-Ardi_e_gela_a_tua_voglia--Fornaci_1617.png"><img width="425" style="width:425px" src="img/Trm0418w-Ardi_e_gela_a_tua_voglia--Fornaci_1617.png"></a>
+		<div id="audio_Trm0418w" style="cursor:pointer;" onclick="PlayAudioFile('Trm0418w', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5404,10 +5524,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0433a-Se_tu_mi_lasci_perfida_tuo_danno--Marenzio_1583.png"><img width="425" style="width:425px" src="img/Trm0433a-Se_tu_mi_lasci_perfida_tuo_danno--Marenzio_1583.png"></a>
+		<div id="audio_Trm0433a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0433a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5449,10 +5570,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0433b-Se_tu_mi_lasci_perfida_tuo_danno--Stivori_1588.png"><img width="425" style="width:425px" src="img/Trm0433b-Se_tu_mi_lasci_perfida_tuo_danno--Stivori_1588.png"></a>
+		<div id="audio_Trm0433b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0433b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5494,10 +5616,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0443c-Questa_vita_e_la_selva_il_verde_e_lombra--Bozi_1591.png"><img width="425" style="width:425px" src="img/Trm0443c-Questa_vita_e_la_selva_il_verde_e_lombra--Bozi_1591.png"></a>
+		<div id="audio_Trm0443c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0443c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5539,10 +5662,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0495a-Se_cosi_dolce_e_l_duolo--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0495a-Se_cosi_dolce_e_l_duolo--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0495a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0495a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5584,10 +5708,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0541a-Tolse_Barbara_gente_il_pregio_a_Roma--Wert_1577.png"><img width="425" style="width:425px" src="img/Trm0541a-Tolse_Barbara_gente_il_pregio_a_Roma--Wert_1577.png"></a>
+		<div id="audio_Trm0541a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0541a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5629,10 +5754,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0549a-Quel_labbro_che_le_rose_han_colorito--Isnardi_1577.png"><img width="425" style="width:425px" src="img/Trm0549a-Quel_labbro_che_le_rose_han_colorito--Isnardi_1577.png"></a>
+		<div id="audio_Trm0549a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0549a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5674,10 +5800,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0553a-Sul_carro_de_la_mente_auriga_siedi--Marenzio_1585.png"><img width="425" style="width:425px" src="img/Trm0553a-Sul_carro_de_la_mente_auriga_siedi--Marenzio_1585.png"></a>
+		<div id="audio_Trm0553a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0553a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5719,10 +5846,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0558a-Facelle_son_dimmortal_luce_ardenti--Meldert_1575.png"><img width="425" style="width:425px" src="img/Trm0558a-Facelle_son_dimmortal_luce_ardenti--Meldert_1575.png"></a>
+		<div id="audio_Trm0558a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0558a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5764,10 +5892,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0560a-Tarquinia_se_rimiri--Vinci_1573.png"><img width="425" style="width:425px" src="img/Trm0560a-Tarquinia_se_rimiri--Vinci_1573.png"></a>
+		<div id="audio_Trm0560a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5809,10 +5938,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0560b-Tarquinia_se_rimiri--Bellasio_1578.png"><img width="425" style="width:425px" src="img/Trm0560b-Tarquinia_se_rimiri--Bellasio_1578.png"></a>
+		<div id="audio_Trm0560b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5854,10 +5984,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0560c-Tarquinia_se_rimiri--Merulo_1579.png"><img width="425" style="width:425px" src="img/Trm0560c-Tarquinia_se_rimiri--Merulo_1579.png"></a>
+		<div id="audio_Trm0560c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5899,10 +6030,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0560f-Mentre_mia_stella_miri.png"><img width="425" style="width:425px" src="img/Trm0560f-Mentre_mia_stella_miri.png"></a>
+		<div id="audio_Trm0560f" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560f', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5944,10 +6076,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0560i" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560i', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5989,10 +6122,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.png"><img width="425" style="width:425px" src="img/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.png"></a>
+		<div id="audio_Trm0560m" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560m', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6034,10 +6168,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0560o-Mentre_mia_stella_miri--Spano_1608.png"><img width="425" style="width:425px" src="img/Trm0560o-Mentre_mia_stella_miri--Spano_1608.png"></a>
+		<div id="audio_Trm0560o" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560o', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6079,10 +6214,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0571b-Se_da_si_nobil_mano--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0571b-Se_da_si_nobil_mano--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0571b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0571b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6124,10 +6260,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0592a-Negli_anni_acerbi_tuoi_purpurea_rosa--Monte_1588.png"><img width="425" style="width:425px" src="img/Trm0592a-Negli_anni_acerbi_tuoi_purpurea_rosa--Monte_1588.png"></a>
+		<div id="audio_Trm0592a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0592a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6169,10 +6306,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0602c-Caro_amoroso_neo--Monte_1590.png"><img width="425" style="width:425px" src="img/Trm0602c-Caro_amoroso_neo--Monte_1590.png"></a>
+		<div id="audio_Trm0602c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0602c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6214,10 +6352,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0602d-Caro_amoroso_neo--Effrem_1591.png"><img width="425" style="width:425px" src="img/Trm0602d-Caro_amoroso_neo--Effrem_1591.png"></a>
+		<div id="audio_Trm0602d" style="cursor:pointer;" onclick="PlayAudioFile('Trm0602d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6259,10 +6398,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0602e-Caro_amoroso_neo--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0602e-Caro_amoroso_neo--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0602e" style="cursor:pointer;" onclick="PlayAudioFile('Trm0602e', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6304,10 +6444,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0611a-La_bella_pargoletta--Corfini_1575.png"><img width="425" style="width:425px" src="img/Trm0611a-La_bella_pargoletta--Corfini_1575.png"></a>
+		<div id="audio_Trm0611a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0611a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6349,10 +6490,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0611b-La_bella_pargoletta--Dragoni_1575.png"><img width="425" style="width:425px" src="img/Trm0611b-La_bella_pargoletta--Dragoni_1575.png"></a>
+		<div id="audio_Trm0611b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0611b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6394,10 +6536,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0611c-La_bella_pargoletta--Feliciani_1575.png"><img width="425" style="width:425px" src="img/Trm0611c-La_bella_pargoletta--Feliciani_1575.png"></a>
+		<div id="audio_Trm0611c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0611c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6439,10 +6582,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0611d-La_bella_pargoletta--Isnardi_1577.png"><img width="425" style="width:425px" src="img/Trm0611d-La_bella_pargoletta--Isnardi_1577.png"></a>
+		<div id="audio_Trm0611d" style="cursor:pointer;" onclick="PlayAudioFile('Trm0611d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6484,10 +6628,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0611m-La_bella_pargoletta--Bellaver_1587.png"><img width="425" style="width:425px" src="img/Trm0611m-La_bella_pargoletta--Bellaver_1587.png"></a>
+		<div id="audio_Trm0611m" style="cursor:pointer;" onclick="PlayAudioFile('Trm0611m', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6529,10 +6674,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0612a-Del_puro_lume_onde_i_celesti_giri--Porta_1573.png"><img width="425" style="width:425px" src="img/Trm0612a-Del_puro_lume_onde_i_celesti_giri--Porta_1573.png"></a>
+		<div id="audio_Trm0612a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0612a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6574,10 +6720,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0614a-Al_vostro_dolce_azzurro--Pordenon_1573.png"><img width="425" style="width:425px" src="img/Trm0614a-Al_vostro_dolce_azzurro--Pordenon_1573.png"></a>
+		<div id="audio_Trm0614a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0614a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6619,10 +6766,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0614b-Al_vostro_dolce_azzurro--Felis_1579.png"><img width="425" style="width:425px" src="img/Trm0614b-Al_vostro_dolce_azzurro--Felis_1579.png"></a>
+		<div id="audio_Trm0614b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0614b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6664,10 +6812,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0614c-Al_vostro_dolce_azzurro--Ingegneri_1579.png"><img width="425" style="width:425px" src="img/Trm0614c-Al_vostro_dolce_azzurro--Ingegneri_1579.png"></a>
+		<div id="audio_Trm0614c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0614c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6709,10 +6858,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0614h-Al_vostro_dolce_azzurro--Monte_1590.png"><img width="425" style="width:425px" src="img/Trm0614h-Al_vostro_dolce_azzurro--Monte_1590.png"></a>
+		<div id="audio_Trm0614h" style="cursor:pointer;" onclick="PlayAudioFile('Trm0614h', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6754,10 +6904,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0614j-Al_vostro_dolce_azzurro.png"><img width="425" style="width:425px" src="img/Trm0614j-Al_vostro_dolce_azzurro.png"></a>
+		<div id="audio_Trm0614j" style="cursor:pointer;" onclick="PlayAudioFile('Trm0614j', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6799,10 +6950,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0615b-Al_tuo_vago_pallore--Monte_1586.png"><img width="425" style="width:425px" src="img/Trm0615b-Al_tuo_vago_pallore--Monte_1586.png"></a>
+		<div id="audio_Trm0615b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0615b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6844,10 +6996,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0707a-Tra_Giove_in_cielo_el_mio_signor_in_terra--Agostini_1582.png"><img width="425" style="width:425px" src="img/Trm0707a-Tra_Giove_in_cielo_el_mio_signor_in_terra--Agostini_1582.png"></a>
+		<div id="audio_Trm0707a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0707a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6889,10 +7042,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0734b-ANGIOLETTA_cortese--Dueto_1586.png"><img width="425" style="width:425px" src="img/Trm0734b-ANGIOLETTA_cortese--Dueto_1586.png"></a>
+		<div id="audio_Trm0734b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0734b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6934,10 +7088,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0735b-Bella_ANGIOLETTA_da_le_vaghe_piume--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0735b-Bella_ANGIOLETTA_da_le_vaghe_piume--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0735b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0735b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6979,10 +7134,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0760a-Quantio_sono_infelice--Ferrabosco_1587.png"><img width="425" style="width:425px" src="img/Trm0760a-Quantio_sono_infelice--Ferrabosco_1587.png"></a>
+		<div id="audio_Trm0760a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0760a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7024,10 +7180,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0770a-Ne_di_feconda_conca_in_ricco_mare--Verdonck_1603.png"><img width="425" style="width:425px" src="img/Trm0770a-Ne_di_feconda_conca_in_ricco_mare--Verdonck_1603.png"></a>
+		<div id="audio_Trm0770a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0770a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7069,10 +7226,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0862a-La_bella_e_vaga_man_che_le_sonore_corde--Raval_1593.png"><img width="425" style="width:425px" src="img/Trm0862a-La_bella_e_vaga_man_che_le_sonore_corde--Raval_1593.png"></a>
+		<div id="audio_Trm0862a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0862a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7114,10 +7272,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0865a-Deh_perche_amar_chi_voi_con_pari_affetto--Monte_1590.png"><img width="425" style="width:425px" src="img/Trm0865a-Deh_perche_amar_chi_voi_con_pari_affetto--Monte_1590.png"></a>
+		<div id="audio_Trm0865a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0865a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7159,10 +7318,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0896b-Forse_e_cagion_laurora--Felis_1591.png"><img width="425" style="width:425px" src="img/Trm0896b-Forse_e_cagion_laurora--Felis_1591.png"></a>
+		<div id="audio_Trm0896b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0896b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7204,10 +7364,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0901a-O_timida_lepretta--Giovannelli_1593.png"><img width="425" style="width:425px" src="img/Trm0901a-O_timida_lepretta--Giovannelli_1593.png"></a>
+		<div id="audio_Trm0901a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0901a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7249,10 +7410,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0903a-O_fuggitiva_e_timidetta_fiera--Zenaro_1589.png"><img width="425" style="width:425px" src="img/Trm0903a-O_fuggitiva_e_timidetta_fiera--Zenaro_1589.png"></a>
+		<div id="audio_Trm0903a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0903a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7294,10 +7456,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0929a-Mesola_il_Po_da_lati_el_mare_a_fronte--Wert_1588.png"><img width="425" style="width:425px" src="img/Trm0929a-Mesola_il_Po_da_lati_el_mare_a_fronte--Wert_1588.png"></a>
+		<div id="audio_Trm0929a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0929a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7339,10 +7502,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0930a-Ha_ninfe_adorne_e_belle--Wert_1588.png"><img width="425" style="width:425px" src="img/Trm0930a-Ha_ninfe_adorne_e_belle--Wert_1588.png"></a>
+		<div id="audio_Trm0930a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0930a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7384,10 +7548,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1021a-La_dove_sono_i_pargoletti_Amori--Marenzio_1595.png"><img width="425" style="width:425px" src="img/Trm1021a-La_dove_sono_i_pargoletti_Amori--Marenzio_1595.png"></a>
+		<div id="audio_Trm1021a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1021a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7429,10 +7594,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1022a-Voi_sete_bella_ma_fugace_e_presta--Felis_1591.png"><img width="425" style="width:425px" src="img/Trm1022a-Voi_sete_bella_ma_fugace_e_presta--Felis_1591.png"></a>
+		<div id="audio_Trm1022a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1022a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7474,10 +7640,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1032a-Tu_nascesti_di_furto--Giovannelli_1592.png"><img width="425" style="width:425px" src="img/Trm1032a-Tu_nascesti_di_furto--Giovannelli_1592.png"></a>
+		<div id="audio_Trm1032a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1032a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7519,10 +7686,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1048a-Queste_note_io_vi_dono--Guami_1588.png"><img width="425" style="width:425px" src="img/Trm1048a-Queste_note_io_vi_dono--Guami_1588.png"></a>
+		<div id="audio_Trm1048a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1048a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7564,10 +7732,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1049a-Queste_note_son_nove_e_queste_Amore--Zenaro_1589.png"><img width="425" style="width:425px" src="img/Trm1049a-Queste_note_son_nove_e_queste_Amore--Zenaro_1589.png"></a>
+		<div id="audio_Trm1049a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1049a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7609,10 +7778,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1082a-Deh_ferma_ferma_il_tuo_ribello_Amore--Philips_1603.png"><img width="425" style="width:425px" src="img/Trm1082a-Deh_ferma_ferma_il_tuo_ribello_Amore--Philips_1603.png"></a>
+		<div id="audio_Trm1082a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1082a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7654,10 +7824,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1203a-Qual_cavalier_ardito--Gherardini_1585.png"><img width="425" style="width:425px" src="img/Trm1203a-Qual_cavalier_ardito--Gherardini_1585.png"></a>
+		<div id="audio_Trm1203a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1203a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7699,10 +7870,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1205b-Tu_moristi_in_quel_seno--Gherardini_1585.png"><img width="425" style="width:425px" src="img/Trm1205b-Tu_moristi_in_quel_seno--Gherardini_1585.png"></a>
+		<div id="audio_Trm1205b" style="cursor:pointer;" onclick="PlayAudioFile('Trm1205b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7744,10 +7916,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1276a-Tu_bianca_e_vaga_luna--Vignali_1640.png"><img width="425" style="width:425px" src="img/Trm1276a-Tu_bianca_e_vaga_luna--Vignali_1640.png"></a>
+		<div id="audio_Trm1276a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1276a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7789,10 +7962,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1370a-Qui_dove_fan_le_piante--Cortellini_1587.png"><img width="425" style="width:425px" src="img/Trm1370a-Qui_dove_fan_le_piante--Cortellini_1587.png"></a>
+		<div id="audio_Trm1370a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1370a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7834,10 +8008,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1497a-Ferro_in_ferir_pietoso--Cirullo_1598.png"><img width="425" style="width:425px" src="img/Trm1497a-Ferro_in_ferir_pietoso--Cirullo_1598.png"></a>
+		<div id="audio_Trm1497a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1497a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7879,10 +8054,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1637a-Anime_sante_e_belle--Gastoldi_1587.png"><img width="425" style="width:425px" src="img/Trm1637a-Anime_sante_e_belle--Gastoldi_1587.png"></a>
+		<div id="audio_Trm1637a" style="cursor:pointer;" onclick="PlayAudioFile('Trm1637a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7924,10 +8100,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1688b-Padre_del_cielo_or_chaltra_nube_il_calle--Marenzio_1584.png"><img width="425" style="width:425px" src="img/Trm1688b-Padre_del_cielo_or_chaltra_nube_il_calle--Marenzio_1584.png"></a>
+		<div id="audio_Trm1688b" style="cursor:pointer;" onclick="PlayAudioFile('Trm1688b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -7969,10 +8146,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1688c-Padre_del_cielo_or_chatra_nube_il_calle--Dueto_1586.png"><img width="425" style="width:425px" src="img/Trm1688c-Padre_del_cielo_or_chatra_nube_il_calle--Dueto_1586.png"></a>
+		<div id="audio_Trm1688c" style="cursor:pointer;" onclick="PlayAudioFile('Trm1688c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8014,10 +8192,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm1688d-Padre_del_cielo_or_chatra_nube_il_calle--Monte_1589.png"><img width="425" style="width:425px" src="img/Trm1688d-Padre_del_cielo_or_chatra_nube_il_calle--Monte_1589.png"></a>
+		<div id="audio_Trm1688d" style="cursor:pointer;" onclick="PlayAudioFile('Trm1688d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8059,10 +8238,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm9999a-Occhi_leggiadri_e_belli--Lambardi_1614.png"><img width="425" style="width:425px" src="img/Trm9999a-Occhi_leggiadri_e_belli--Lambardi_1614.png"></a>
+		<div id="audio_Trm9999a" style="cursor:pointer;" onclick="PlayAudioFile('Trm9999a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8104,10 +8284,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam1020338b-Ho_visto_al_pianto_mio--Melli_1602.png"><img width="425" style="width:425px" src="img/Tam1020338b-Ho_visto_al_pianto_mio--Melli_1602.png"></a>
+		<div id="audio_Tam1020338b" style="cursor:pointer;" onclick="PlayAudioFile('Tam1020338b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8149,10 +8330,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam1020338c-Ho_visto_al_pianto_mio--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam1020338c-Ho_visto_al_pianto_mio--Massaino_1604.png"></a>
+		<div id="audio_Tam1020338c" style="cursor:pointer;" onclick="PlayAudioFile('Tam1020338c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8194,10 +8376,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam1020338d-Ho_visto_al_pianto_mio--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam1020338d-Ho_visto_al_pianto_mio--Boschetti_1613.png"></a>
+		<div id="audio_Tam1020338d" style="cursor:pointer;" onclick="PlayAudioFile('Tam1020338d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8239,10 +8422,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"></a>
+		<div id="audio_Tam2010724a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2010724a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8284,10 +8468,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031034a-Vorro_veder_cio_che_Tirsi_avra_fatto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031034a-Vorro_veder_cio_che_Tirsi_avra_fatto--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031034a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031034a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8329,10 +8514,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031045a-Nove_Aminta_tannuncio_di_conforto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031045a-Nove_Aminta_tannuncio_di_conforto--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031045a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031045a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8374,10 +8560,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031052a-Qual_ardir_mi_bisogna_e_ncontra_a_cui--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031052a-Qual_ardir_mi_bisogna_e_ncontra_a_cui--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031052a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031052a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8419,10 +8606,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031061a-Bisogna_a_maggior_prova_ardir_piu_grande--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031061a-Bisogna_a_maggior_prova_ardir_piu_grande--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031061a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031061a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8464,10 +8652,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031067a-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031067a-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031067a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031067a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8509,10 +8698,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031075a-Dura_conclusion_che_tutte_affosca--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031075a-Dura_conclusion_che_tutte_affosca--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031075a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031075a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8554,10 +8744,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031081a-Sa_mio_senno_farai_sarai_felice--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031081a-Sa_mio_senno_farai_sarai_felice--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031081a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031081a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8599,10 +8790,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031089a-Non_sara_dunque_ver_chin_quanto_io_posso--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031089a-Non_sara_dunque_ver_chin_quanto_io_posso--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031089a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031089a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8644,10 +8836,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031096a-Dunque_tu_lameresti_a_suo_dispetto--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031096a-Dunque_tu_lameresti_a_suo_dispetto--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031096a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031096a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8689,10 +8882,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031100a-Perche_dunque_non_osi_oltra_sua_voglia--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031100a-Perche_dunque_non_osi_oltra_sua_voglia--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031100a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031100a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8734,10 +8928,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031106a-Gia_per_lungo_uso_a_ragionar_damore--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031106a-Gia_per_lungo_uso_a_ragionar_damore--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031106a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031106a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8779,10 +8974,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031109a-Dunque_andar_non_vogliamo_Andare_io_voglio--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031109a-Dunque_andar_non_vogliamo_Andare_io_voglio--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031109a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031109a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8824,10 +9020,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031113a-Credi_tu_dunque_sciocco_che_mai_Dafne--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031113a-Credi_tu_dunque_sciocco_che_mai_Dafne--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031113a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031113a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8869,10 +9066,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031121a-E_sella_vuol_che_l_tuo_diletto_sia--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031121a-E_sella_vuol_che_l_tuo_diletto_sia--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031121a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031121a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8914,10 +9112,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031126a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031126a-Ecco_tu_chiedi_pur_quella_certezza--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031126a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031126a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -8959,10 +9158,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2031133a-Tu_taci_tu_sei_vinto_Ora_confessa--Balsamino_1594.png"></a>
+		<div id="audio_Tam2031133a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2031133a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9004,10 +9204,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam3021324a-Dispietata_pietate--DIndia_1615.png"><img width="425" style="width:425px" src="img/Tam3021324a-Dispietata_pietate--DIndia_1615.png"></a>
+		<div id="audio_Tam3021324a" style="cursor:pointer;" onclick="PlayAudioFile('Tam3021324a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9049,10 +9250,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam3021417b-Dolor_che_si_mi_crucii--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam3021417b-Dolor_che_si_mi_crucii--Massaino_1604.png"></a>
+		<div id="audio_Tam3021417b" style="cursor:pointer;" onclick="PlayAudioFile('Tam3021417b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9094,10 +9296,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam3021430b-Bello_e_dolce_morir_fu_certo_allora--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam3021430b-Bello_e_dolce_morir_fu_certo_allora--Massaino_1604.png"></a>
+		<div id="audio_Tam3021430b" style="cursor:pointer;" onclick="PlayAudioFile('Tam3021430b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9139,10 +9342,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam4011614a-Misero_Aminta--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam4011614a-Misero_Aminta--Ghizzolo_1608.png"></a>
+		<div id="audio_Tam4011614a" style="cursor:pointer;" onclick="PlayAudioFile('Tam4011614a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9184,10 +9388,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam4021779a-Pastor_di_che_piangete--Massaino_1604.png"><img width="425" style="width:425px" src="img/Tam4021779a-Pastor_di_che_piangete--Massaino_1604.png"></a>
+		<div id="audio_Tam4021779a" style="cursor:pointer;" onclick="PlayAudioFile('Tam4021779a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9229,10 +9434,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam4021827a-Cio_che_morte_rallenta,_Amor_restringi--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam4021827a-Cio_che_morte_rallenta,_Amor_restringi--Boschetti_1613.png"></a>
+		<div id="audio_Tam4021827a" style="cursor:pointer;" onclick="PlayAudioFile('Tam4021827a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9274,10 +9480,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam4021833a-Non_sono_ire_la_su,_gli_umani_ingegni--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam4021833a-Non_sono_ire_la_su,_gli_umani_ingegni--Boschetti_1613.png"></a>
+		<div id="audio_Tam4021833a" style="cursor:pointer;" onclick="PlayAudioFile('Tam4021833a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9319,10 +9526,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam5011850a-Oh_fortunato_Aminta_oh_te_felice--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam5011850a-Oh_fortunato_Aminta_oh_te_felice--Ghizzolo_1608.png"></a>
+		<div id="audio_Tam5011850a" style="cursor:pointer;" onclick="PlayAudioFile('Tam5011850a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9364,10 +9572,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam5011934a-Ma_come_Silvia_il_riconobbe_e_vide--Ghizzolo_1608.png"><img width="425" style="width:425px" src="img/Tam5011934a-Ma_come_Silvia_il_riconobbe_e_vide--Ghizzolo_1608.png"></a>
+		<div id="audio_Tam5011934a" style="cursor:pointer;" onclick="PlayAudioFile('Tam5011934a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9409,10 +9618,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam5011978a-Non_so_se_il_molto_amaro--Boschetti_1613.png"><img width="425" style="width:425px" src="img/Tam5011978a-Non_so_se_il_molto_amaro--Boschetti_1613.png"></a>
+		<div id="audio_Tam5011978a" style="cursor:pointer;" onclick="PlayAudioFile('Tam5011978a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9454,10 +9664,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tec1089a-Di_che_cantar_deggio--Coma_1588.png"><img width="425" style="width:425px" src="img/Tec1089a-Di_che_cantar_deggio--Coma_1588.png"></a>
+		<div id="audio_Tec1089a" style="cursor:pointer;" onclick="PlayAudioFile('Tec1089a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9499,10 +9710,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.png"><img width="425" style="width:425px" src="img/Tri5016b-Lasso_dicea_perche_venisti_Amore--Stivori_1590.png"></a>
+		<div id="audio_Tri5016b" style="cursor:pointer;" onclick="PlayAudioFile('Tri5016b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9544,10 +9756,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tri5018a-Tu_perfido_signor_tu_disleale--Felis_1591.png"><img width="425" style="width:425px" src="img/Tri5018a-Tu_perfido_signor_tu_disleale--Felis_1591.png"></a>
+		<div id="audio_Tri5018a" style="cursor:pointer;" onclick="PlayAudioFile('Tri5018a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9589,10 +9802,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trt0506a-Ahi_lagrime_ahi_dolore--Persone_1628.png"><img width="425" style="width:425px" src="img/Trt0506a-Ahi_lagrime_ahi_dolore--Persone_1628.png"></a>
+		<div id="audio_Trt0506a" style="cursor:pointer;" onclick="PlayAudioFile('Trt0506a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9634,10 +9848,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg01002a-O_musa_tu_che_di_caduchi_allori--Bellanda_1599.png"><img width="425" style="width:425px" src="img/Tsg01002a-O_musa_tu_che_di_caduchi_allori--Bellanda_1599.png"></a>
+		<div id="audio_Tsg01002a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg01002a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9679,10 +9894,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg01002b-O_musa_tu_che_di_caduchi_allori--Priuli_1604.png"><img width="425" style="width:425px" src="img/Tsg01002b-O_musa_tu_che_di_caduchi_allori--Priuli_1604.png"></a>
+		<div id="audio_Tsg01002b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg01002b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9724,10 +9940,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg01003a-Sai_che_la_corre_il_mondo_ove_piu_versi--Priuli_1604.png"><img width="425" style="width:425px" src="img/Tsg01003a-Sai_che_la_corre_il_mondo_ove_piu_versi--Priuli_1604.png"></a>
+		<div id="audio_Tsg01003a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg01003a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9769,10 +9986,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg03008a-Dunque_ove_tu_signor_di_mille_rivi--Mazzocchi_1640.png"><img width="425" style="width:425px" src="img/Tsg03008a-Dunque_ove_tu_signor_di_mille_rivi--Mazzocchi_1640.png"></a>
+		<div id="audio_Tsg03008a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg03008a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9814,10 +10032,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg07019b-Sovente_allor_che_su_gli_estivi_ardori--DIndia_1609.png"><img width="425" style="width:425px" src="img/Tsg07019b-Sovente_allor_che_su_gli_estivi_ardori--DIndia_1609.png"></a>
+		<div id="audio_Tsg07019b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg07019b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9859,10 +10078,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.png"><img width="425" style="width:425px" src="img/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.png"></a>
+		<div id="audio_Tsg07020b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg07020b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9904,10 +10124,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg07021a-Forse_avverra_sel_ciel_benigno_ascolta--DIndia_1609.png"><img width="425" style="width:425px" src="img/Tsg07021a-Forse_avverra_sel_ciel_benigno_ascolta--DIndia_1609.png"></a>
+		<div id="audio_Tsg07021a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg07021a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9949,10 +10170,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg12077a-Vivro_fra_i_miei_tormenti_e_le_mie_cure--Monteverdi_1592.png"><img width="425" style="width:425px" src="img/Tsg12077a-Vivro_fra_i_miei_tormenti_e_le_mie_cure--Monteverdi_1592.png"></a>
+		<div id="audio_Tsg12077a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg12077a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -9994,10 +10216,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg12078a-Ma-dove_o_lasso_me_dove_restaro--Monteverdi_1592.png"><img width="425" style="width:425px" src="img/Tsg12078a-Ma-dove_o_lasso_me_dove_restaro--Monteverdi_1592.png"></a>
+		<div id="audio_Tsg12078a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg12078a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10039,10 +10262,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg12079a-Io_pur_verro_la_dove_sete_e_voi--Monteverdi_1592.png"><img width="425" style="width:425px" src="img/Tsg12079a-Io_pur_verro_la_dove_sete_e_voi--Monteverdi_1592.png"></a>
+		<div id="audio_Tsg12079a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg12079a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10084,10 +10308,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg14001f-Usciva_omai_dal_molle_e_fresco_grembo--Caprioli_1602.png"><img width="425" style="width:425px" src="img/Tsg14001f-Usciva_omai_dal_molle_e_fresco_grembo--Caprioli_1602.png"></a>
+		<div id="audio_Tsg14001f" style="cursor:pointer;" onclick="PlayAudioFile('Tsg14001f', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10129,10 +10354,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg14062b-O_giovinetti_mentre_aprile_e_maggio--Camarella_1633.png"><img width="425" style="width:425px" src="img/Tsg14062b-O_giovinetti_mentre_aprile_e_maggio--Camarella_1633.png"></a>
+		<div id="audio_Tsg14062b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg14062b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10174,10 +10400,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16012d-Vezzosi_augelli_infra_le_verdi_fronde--Asola_1588.png"><img width="425" style="width:425px" src="img/Tsg16012d-Vezzosi_augelli_infra_le_verdi_fronde--Asola_1588.png"></a>
+		<div id="audio_Tsg16012d" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16012d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10219,10 +10446,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16012e-Vezzosi_augelli_infra_le_verdi_fronde--Molinaro_1600.png"><img width="425" style="width:425px" src="img/Tsg16012e-Vezzosi_augelli_infra_le_verdi_fronde--Molinaro_1600.png"></a>
+		<div id="audio_Tsg16012e" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16012e', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10264,10 +10492,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16013a-Vola_fra_gli_altri_un_che_le_piume_ha_sparte--Molinaro_1600.png"><img width="425" style="width:425px" src="img/Tsg16013a-Vola_fra_gli_altri_un_che_le_piume_ha_sparte--Molinaro_1600.png"></a>
+		<div id="audio_Tsg16013a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16013a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10309,10 +10538,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16014a-Deh_mira_egli_canto_spuntar_la_rosa--Molinaro_1600.png"><img width="425" style="width:425px" src="img/Tsg16014a-Deh_mira_egli_canto_spuntar_la_rosa--Molinaro_1600.png"></a>
+		<div id="audio_Tsg16014a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16014a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10354,10 +10584,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16043b-Qual_musico_gentil_prima_che_chiara--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16043b-Qual_musico_gentil_prima_che_chiara--Baccusi_1594.png"></a>
+		<div id="audio_Tsg16043b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16043b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10399,10 +10630,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16043c-Qual_musico_gentil_prima_che_chiara--Molinaro_1600.png"><img width="425" style="width:425px" src="img/Tsg16043c-Qual_musico_gentil_prima_che_chiara--Molinaro_1600.png"></a>
+		<div id="audio_Tsg16043c" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16043c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10444,10 +10676,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16044b-Poi_comincio_Non_aspettar_chio_preghi--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16044b-Poi_comincio_Non_aspettar_chio_preghi--Baccusi_1594.png"></a>
+		<div id="audio_Tsg16044b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16044b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10489,10 +10722,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16045b-Se_modii_e_in_cio_diletto_alcun_tu_senti--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16045b-Se_modii_e_in_cio_diletto_alcun_tu_senti--Baccusi_1594.png"></a>
+		<div id="audio_Tsg16045b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16045b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10534,10 +10768,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16046b-Aggiungi_a_questo_ancor_quel_cha_maggiore-Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16046b-Aggiungi_a_questo_ancor_quel_cha_maggiore-Baccusi_1594.png"></a>
+		<div id="audio_Tsg16046b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16046b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10579,10 +10814,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16047b-Sia_questa_pur_tra_le_mie_frodi_e_vaglia--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16047b-Sia_questa_pur_tra_le_mie_frodi_e_vaglia--Baccusi_1594.png"></a>
+		<div id="audio_Tsg16047b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16047b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10624,10 +10860,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16056a-Rimanti_in_pace_i_vado_a_te_non_lice--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16056a-Rimanti_in_pace_i_vado_a_te_non_lice--Eredi_1629.png"></a>
+		<div id="audio_Tsg16056a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16056a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10669,10 +10906,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16059a-Vattene_pur_crudel_con_quella_pace--Monteverdi_1592.png"><img width="425" style="width:425px" src="img/Tsg16059a-Vattene_pur_crudel_con_quella_pace--Monteverdi_1592.png"></a>
+		<div id="audio_Tsg16059a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16059a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10714,10 +10952,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16059b-Vattene_pur_crudel_con_quella_pace--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16059b-Vattene_pur_crudel_con_quella_pace--Baccusi_1594.png"></a>
+		<div id="audio_Tsg16059b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16059b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10759,10 +10998,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16059f-Vattene_pur_crudel_con_quella_pace--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16059f-Vattene_pur_crudel_con_quella_pace--Eredi_1629.png"></a>
+		<div id="audio_Tsg16059f" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16059f', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10804,10 +11044,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16060a-La_tra_l_sangue_e_le_morti_egro_giacente--Monteverdi_1592.png"><img width="425" style="width:425px" src="img/Tsg16060a-La_tra_l_sangue_e_le_morti_egro_giacente--Monteverdi_1592.png"></a>
+		<div id="audio_Tsg16060a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16060a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10849,10 +11090,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16060b-La_tral_sangue_e_le_morti_egro_giacente--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16060b-La_tral_sangue_e_le_morti_egro_giacente--Baccusi_1594.png"></a>
+		<div id="audio_Tsg16060b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16060b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10894,10 +11136,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16060h-La_tral_sangue_e_le_morti_egro_giacente--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16060h-La_tral_sangue_e_le_morti_egro_giacente--Eredi_1629.png"></a>
+		<div id="audio_Tsg16060h" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16060h', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10939,10 +11182,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16061a-Chiudesti_i_lumi_Armida_il_cielo_avaro--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg16061a-Chiudesti_i_lumi_Armida_il_cielo_avaro--Baccusi_1594.png"></a>
+		<div id="audio_Tsg16061a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16061a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -10984,10 +11228,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16061f-Chiudesti_i_lumi_Armida_il_cielo_avaro--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16061f-Chiudesti_i_lumi_Armida_il_cielo_avaro--Eredi_1629.png"></a>
+		<div id="audio_Tsg16061f" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16061f', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11029,10 +11274,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16062a-Or_che_fara_Dee_su_lignuda_arena--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16062a-Or_che_fara_Dee_su_lignuda_arena--Eredi_1629.png"></a>
+		<div id="audio_Tsg16062a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16062a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11074,10 +11320,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16063a-Poi_chella_in_se_torno_deserto_e_muto--Montverdi_1592.png"><img width="425" style="width:425px" src="img/Tsg16063a-Poi_chella_in_se_torno_deserto_e_muto--Montverdi_1592.png"></a>
+		<div id="audio_Tsg16063a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16063a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11119,10 +11366,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16063c-Poi_chella_in_se_torno_deserto_e_muto--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16063c-Poi_chella_in_se_torno_deserto_e_muto--Eredi_1629.png"></a>
+		<div id="audio_Tsg16063c" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16063c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11164,10 +11412,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16064a-Che_fa_piu_meco_il_pianto_Altrarme_altrarte--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16064a-Che_fa_piu_meco_il_pianto_Altrarme_altrarte--Eredi_1629.png"></a>
+		<div id="audio_Tsg16064a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16064a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11209,10 +11458,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16065b-Misera_Armida_allor_dovevi_e_degno--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16065b-Misera_Armida_allor_dovevi_e_degno--Eredi_1629.png"></a>
+		<div id="audio_Tsg16065b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16065b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11254,10 +11504,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg16066a-Questa_bellezza_mia_sara_mercede--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg16066a-Questa_bellezza_mia_sara_mercede--Eredi_1629.png"></a>
+		<div id="audio_Tsg16066a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg16066a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11299,10 +11550,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg19106b-Misera_non_credea_cha_gli_occhi_miei--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg19106b-Misera_non_credea_cha_gli_occhi_miei--Baccusi_1594.png"></a>
+		<div id="audio_Tsg19106b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg19106b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11344,10 +11596,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg19107b-Ma_che_squallido_e_scuro_anco_mi_piaci--Baccusi_1594.png"><img width="425" style="width:425px" src="img/Tsg19107b-Ma_che_squallido_e_scuro_anco_mi_piaci--Baccusi_1594.png"></a>
+		<div id="audio_Tsg19107b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg19107b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11389,10 +11642,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20123a-Piacquele_assai_che_n_quelle_valli_ombrose--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20123a-Piacquele_assai_che_n_quelle_valli_ombrose--Eredi_1629.png"></a>
+		<div id="audio_Tsg20123a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20123a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11434,10 +11688,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20124a-Ah_ma_non_fia_che_fra_tantarmi_e_tante--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20124a-Ah_ma_non_fia_che_fra_tantarmi_e_tante--Eredi_1629.png"></a>
+		<div id="audio_Tsg20124a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20124a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11479,10 +11734,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20125a-Dimostratevi_in_me_chio_vi_perdono--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20125a-Dimostratevi_in_me_chio_vi_perdono--Eredi_1629.png"></a>
+		<div id="audio_Tsg20125a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20125a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11524,10 +11780,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20126a-Felice_me_se_nel_morir_non_reco--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20126a-Felice_me_se_nel_morir_non_reco--Eredi_1629.png"></a>
+		<div id="audio_Tsg20126a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20126a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11569,10 +11826,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20127a-Qui_tacque_e_stabilito_il_suo_pensiero--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20127a-Qui_tacque_e_stabilito_il_suo_pensiero--Eredi_1629.png"></a>
+		<div id="audio_Tsg20127a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20127a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11614,10 +11872,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20128b-Si_volse_Armida_e_l_rimiro_improvviso--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20128b-Si_volse_Armida_e_l_rimiro_improvviso--Eredi_1629.png"></a>
+		<div id="audio_Tsg20128b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20128b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11659,10 +11918,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20129a-E_l_bel_volto_e_l_bel_seno_a_la_meschina--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20129a-E_l_bel_volto_e_l_bel_seno_a_la_meschina--Eredi_1629.png"></a>
+		<div id="audio_Tsg20129a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20129a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11704,10 +11964,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20130a-E_con_man_languidetta_il_forte_braccio--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20130a-E_con_man_languidetta_il_forte_braccio--Eredi_1629.png"></a>
+		<div id="audio_Tsg20130a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20130a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11749,10 +12010,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.png"></a>
+		<div id="audio_Tsg20131a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20131a', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -11794,10 +12056,11 @@ permalink: /analysis/keyscape/index.html
 
 </table>
 
-<table style="display:inline-block; vertical-align: top; width:425px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20134a-Cosi_doleasi_e_con_le_flebil_onde--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20134a-Cosi_doleasi_e_con_le_flebil_onde--Eredi_1629.png"></a>
+		<div id="audio_Tsg20134a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20134a', this);" class="play">play</div>
 	</td>
 </tr>
 

@@ -80,10 +80,11 @@ sub processFile {
 	return if !-r "$imgdir/$base.png";
 
 	print << "EOT";
-<table style="display:inline-block; vertical-align: top; width:${width}px;">
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:${width}px;">
 <tr>
-	<td colspan="2">
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="$imgdir/$base.png"><img width="$width" style="width:${width}px" src="$imgdir/$base.png"></a>
+		<div id="audio_$id" style="cursor:pointer;" onclick="PlayAudioFile('$id', this);" class="play">play</div>
 	</td>
 </tr>
 

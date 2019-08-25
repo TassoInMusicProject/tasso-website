@@ -4,6 +4,22 @@ scripts-local: true
 style-local: true
 permalink: /analysis/keyscape/index.html
 ---
+
+<h1> Keyscapes </h1>
+
+<a target="_blank"
+href="http://extras.humdrum.org/man/mkeyscape">Keyscapes</a> display
+the harmonic structure of musical works.  Each color in the following
+plot indicates a different key region, with lighter colors representing
+major-like modes and darker colors representing minor-like modes.
+A key-to-color map is given underneath each plot for reference.
+Black tick marks below each plot show the location of barlines in
+the score, while the vertical axis shows the strength/duration of
+the key region.  Click on the ID for a particular work to view the
+music notation.  Only complete works with no missing parts are
+included on this page.
+
+
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">

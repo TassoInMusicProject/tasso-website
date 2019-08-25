@@ -680,6 +680,10 @@ function initializeVerovioNotation(sourceid, targetid, query) {
 		return;
 	}
 
+	if (CGI.filter) {
+		content += "!!!filter: " + CGI.filter + "\n";
+	}
+
 	if (!vrvToolkit) {
 		console.log("Error: verovio toolkit not available");
 		return;
@@ -1662,6 +1666,9 @@ function generatePdfFull(event) {
 	}
 
 	var scoredata = getHumdrumSourceData();
+	if (CGI.filter) {
+		scoredata += "\n!!!filter: " + CGI.filter + "\n";
+	}
 
 	vrvToolkit.setOptions(localOptions);
 	vrvToolkit.redoLayout();

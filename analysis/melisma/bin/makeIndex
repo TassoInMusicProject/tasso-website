@@ -1,0 +1,149 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my @files = glob("$scoredir/*/kern/*.krn");
+
+my @rimefiles;
+my @nonrimefiles;
+
+for (my $i=0; $i<@files; $i++) {
+	if ($files[$i] =~ /Trm\d{4}[a-z]+-/) {
+		push(@rimefiles, $files[$i]);
+	} else {
+		push(@nonrimefiles, $files[$i]);
+	}
+}
+
+my $width = 425;
+
+print <<"EOT";
+---
+vim: ts=3
+scripts-local: true
+style-local: true
+permalink: /analysis/melisma/index.html
+---
+
+<h1> Melisma analysis </h1>
+
+<style>
+table.entry td.blank {
+	width:40px;
+}
+table.entry {
+	margin-bottom: 50px;
+}
+
+
+</style>
+
+
+EOT
+
+my $file;
+foreach $file (@rimefiles) {
+	processFile($file);
+}
+
+foreach $file (@nonrimefiles) {
+	processFile($file);
+}
+
+sub processFile {
+	my ($file) = @_;
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	close FILE;
+	my $complete = "N";
+	my $composer = "";
+	my $title = "";
+	my $final = "";
+	my $publicationdate = "";
+	my $rime = "";
+	my $id = $file;
+	$id =~ s/.*\///;
+	$id =~ s/-.*//;
+	foreach my $line (@contents) {
+		if ($line =~ /^\!\!\!complete:\s*(.*)\s*/) {
+			$complete = $1;
+		}
+		if ($line =~ /^\!\!\!COM:\s*(.*)\s*/) {
+			$composer = $1;
+		}
+		if ($line =~ /^\!\!\!OTL:\s*(.*)\s*/) {
+			$title = $1;
+		}
+		if ($line =~ /^\!\!\!rime:\s*(.*)\s*/) {
+			$rime = "(rime $1)";
+		}
+		if ($line =~ /^\!\!\!PDT:\s*(.*)\s*/) {
+			$publicationdate = $1;
+		}
+		if ($line =~ /^\!\!\!final:\s*(.*)\s*/) {
+			$final = $1;
+		}
+	}
+
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+
+	print << "EOT";
+
+<a name="$id"></a>
+<table class="entry">
+
+<tr>
+	<td colspan="3">
+		$id
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		$composer / $publicationdate
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>Title:</b>
+	</td>
+	<td>
+		<i>$title</i> $rime
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>View:</b>
+	</td>
+	<td>
+		<a target="_blank" href="/work?id=$id&filter=melisma">2+ notes</a>,
+		<a target="_blank" href="/work?id=$id&filter=melisma%20-m3">3+ notes</a>,
+		<a target="_blank" href="/work?id=$id&filter=melisma%20-m4">4+ notes</a>,
+		<a target="_blank" href="/work?id=$id&filter=melisma%20-m5">5+ notes</a>
+	</td>
+</tr>
+
+</table>
+
+EOT
+
+}
+
+
+
+

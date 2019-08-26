@@ -1,0 +1,36 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my $datadir = "data";
+
+my $melisma = `which melisma`;
+chomp $melisma;
+die "Cannot find melisma" if $melisma =~ /^\s*$/;
+
+my @files = sort glob("$scoredir/*/kern/*.krn");
+
+`mkdir -p $datadir`;
+
+foreach my $file (@files) {
+	processFile($file);
+}
+
+
+sub processFile {
+	my ($file) = @_;
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+	my $id = $base;
+	$id =~ s/-.*//;
+	return if -r "$datadir/$id.aton";
+	print "Creating file $datadir/$id.aton\n";
+	`$melisma -w $file > $datadir/$id.aton`;
+}
+
+
+
+

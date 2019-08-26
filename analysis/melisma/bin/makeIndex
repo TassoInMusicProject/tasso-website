@@ -33,8 +33,26 @@ permalink: /analysis/melisma/index.html
 table.entry td.blank {
 	width:40px;
 }
+table.entry td {
+	vertical-align: top;
+}
 table.entry {
 	margin-bottom: 50px;
+}
+.two {
+	color: purple;
+}
+.three {
+	color: dodgerblue;
+}
+.four {
+	color: green;
+}
+.five {
+	color: orange;
+}
+.ten {
+	color: red;
 }
 
 
@@ -56,8 +74,8 @@ sub processFile {
 	my ($file) = @_;
 	open (FILE, $file) or die "Cannot read $file\n";
 	my @contents = <FILE>;
+	chomp @contents;
 	close FILE;
-	my $complete = "N";
 	my $composer = "";
 	my $title = "";
 	my $final = "";
@@ -66,10 +84,8 @@ sub processFile {
 	my $id = $file;
 	$id =~ s/.*\///;
 	$id =~ s/-.*//;
+	my $score = getMelismaScore($id);
 	foreach my $line (@contents) {
-		if ($line =~ /^\!\!\!complete:\s*(.*)\s*/) {
-			$complete = $1;
-		}
 		if ($line =~ /^\!\!\!COM:\s*(.*)\s*/) {
 			$composer = $1;
 		}
@@ -86,6 +102,8 @@ sub processFile {
 			$final = $1;
 		}
 	}
+
+	my $wordlist = getWordlist($id);
 
 	my $base = $file;
 	$base =~ s/.*\///;
@@ -128,6 +146,17 @@ sub processFile {
 	<td class="blank">
 	</td>
 	<td>
+		<b>Score:</b>
+	</td>
+	<td>
+		$score of notes are in a melisma
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
 		<b>View:</b>
 	</td>
 	<td>
@@ -138,10 +167,126 @@ sub processFile {
 	</td>
 </tr>
 
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>Words:</b>
+	</td>
+	<td>
+	$wordlist
+	</td>
+</tr>
+
+
+
 </table>
 
 EOT
 
+}
+
+
+
+##############################
+##
+## getWordlist --
+##
+
+sub getWordlist {
+	my ($id) = @_;
+	my $filename = "data/$id.aton";
+	open (FILE, $filename) or return "ERROR";
+	# open (FILE, $filename) or die "Cannot read data for $filename\n";
+	my @contents = <FILE>;
+	close FILE;
+	chomp @contents;
+	my $output;
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		next if $line !~ /^\@\@BEGIN:\s*WORD\s*$/;
+		$output .= getWord($i, @contents);
+	}
+	$output =~ s/\,\s*$//;
+	return $output;
+}
+
+
+
+##############################
+##
+## getMelismaScore --
+##
+
+sub getMelismaScore {
+	my ($id) = @_;
+	my $filename = "data/$id.aton";
+	open (TFILE, $filename) or return "0%";
+	my @contents = <TFILE>;
+	close TFILE;
+	chomp @contents;
+
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@MELISMASCORE:\s*(.*)\s*$/) {
+			return $1;
+		}
+	}
+
+	return "0%";
+}
+
+
+
+##############################
+##
+## getWord --
+##
+
+sub getWord {
+	my ($index, @contents) = @_;
+	my %params;
+	my $output = "";
+	my $i;
+	for ($i = $index+1; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		last if $line =~ /^\@\@END:\s*WORD\s*$/;
+		if ($line =~ /^\@([^ :]+):\s*(.*)\s*$/) {
+			$params{$1} = $2;
+		}
+	}
+	my @syllables = split(/\s+/, $params{"SYLLABLES"});
+	my @notecounts = split(/\s+/, $params{"NOTECOUNTS"});
+	for ($i=0; $i<@syllables; $i++) {
+		my $count = $notecounts[$i];
+		my $syllable = $syllables[$i];
+		if ($count > 10) {
+			$output .= "<span class='ten'>$syllable</span>";
+			next;
+		}
+		if ($count == 1) {
+			$output .= $syllable;
+			next;
+		}
+		if ($count == 2) {
+			$output .= "<span class='two'>$syllable</span>";
+			next;
+		}
+		if ($count == 3) {
+			$output .= "<span class='three'>$syllable</span>";
+			next;
+		}
+		if ($count == 4) {
+			$output .= "<span class='four'>$syllable</span>";
+			next;
+		}
+		if ($count <= 10) {
+			$output .= "<span class='five'>$syllable</span>";
+		}
+	}
+	$output .= ", ";
+	return $output;
 }
 
 

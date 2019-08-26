@@ -1,8 +1,111 @@
 <script src="/scripts/scripts-common.js"></script>
 <script>
+// vim: ts=3
 
 document.addEventListener("DOMContentLoaded", function() {
    HighlightNavigationBar();
 });
+
+
+
+//////////////////////////////
+//
+// sortList --
+//     id = sort by poem id, placing Rime first
+//     score = sort by melisma score
+//     composer = sort by composer name
+//     date = sort by publication date
+//
+
+function sortList(method) {
+	console.log("Sorting method:", method);
+
+	var sortdiv = document.querySelector("div#sort");
+	if (!sortdiv) {
+		console.log("Error: cannot find sort list");
+		return;
+	} else {
+		console.log("SORTDIV", sortdiv);
+	}
+	var entries = sortdiv.querySelectorAll("div.sortable");
+	console.log("THERE ARE", entries.length, "ENTRIES TO SORT");
+
+	var sortlist = [];
+	var i;
+	var e;
+	var matches;
+	for (i=0; i<entries.length; i++) {
+		var entry = {};
+		entry.element = entries[i];
+		if (method === "date") {
+			e = entry.element.querySelector(".date");
+			entry.feature = e.textContent;
+		} else if (method === "composer") {
+			e = entry.element.querySelector(".composer");
+			entry.feature = e.textContent;
+		} else if (method === "score") {
+			e = entry.element.querySelector(".score");
+			entry.feature = e.textContent;
+			matches = entry.feature.match(/^\s*([\d.]+)/);
+			if (matches) {
+				entry.feature = matches[1];
+			}
+		} else { // by "id"
+			e = entry.element.querySelector(".id");
+			entry.feature = e.textContent;
+		}
+		sortlist.push(entry);
+	}
+
+	console.log("UNSORTED LIST", sortlist);
+
+
+	if (method === "date") {
+		console.log("Sorting by date");
+		sortlist.sort(function (a, b) {
+			var A = a.feature;
+			var B = b.feature;
+			return A - B;
+		});
+	} else if (method === "composer") {
+		console.log("Sorting by composer");
+		sortlist.sort(function (a, b) {
+			var A = a.feature.replace(/^\s*/, "");
+			var B = b.feature.replace(/^\s*/, "");
+			return A.localeCompare(B);
+		});
+	} else if (method === "score") {
+		console.log("Sorting by score");
+		sortlist.sort(function (a, b) {
+			var A = parseFloat(a.feature);
+			var B = parseFloat(b.feature);
+			return B - A;
+		});
+	} else { // id
+		console.log("Sorting by ID");
+		sortlist.sort(function (a, b) { 
+			var A = a.feature;
+			var B = b.feature;
+			if (A.match(/Trm/) && !B.match(/Trm/)) {
+				return -1;
+			}
+			if ((!A.match(/Trm/)) && B.match(/Trm/)) {
+				return +1;
+			}
+			return A.localeCompare(B);
+		});
+	}
+
+	console.log("SORTED LIST", sortlist);
+
+	var output = "";
+	for (i=0; i<sortlist.length; i++) {
+		output += sortlist[i].element.outerHTML;
+	}
+	sortdiv.innerHTML = output;
+}
+
+
+
 
 </script>

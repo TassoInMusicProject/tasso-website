@@ -7,6 +7,21 @@ permalink: /analysis/melisma/index.html
 
 <h1> Melisma analysis </h1>
 
+This page extracts information about melimas in the music. By default
+the following list is sorted by poem for comparison of melismas in
+the same poem by different composers, but the order can be changed
+to sort by the relative amount of melismas in each work, by composer,
+or by publication date.  The "Score" entry lists the percentage of
+notes in the music that are involved in a melisma.  Click on a link
+in the "View" section to view the melismas highlighted in the score.
+The different links are select the smallest melisma size that will
+be highlighted.  For example, "4+ notes" will highlight notes when
+there are at least four notes for a single syllable.  The "Words"
+list contains a list of all of the words possessing more than one
+note.  The color code: black=single note, purple=2 notes, blue=3
+notes, green=4 notes, orange=5&ndash;10 notes, and red=11 or more
+notes.
+
 <style>
 table.entry td.blank {
 	width:40px;
@@ -32,17 +47,32 @@ table.entry {
 .ten {
 	color: red;
 }
-
+div#form {
+	margin-bottom: 25px;
+}
 
 </style>
 
 
+<div id="form">
+	Sort by:
+	<select onchange="sortList(this.value)">
+		<option value="poem">Poem</option>
+		<option value="score">Melisma score</option>
+		<option value="composer">Composer</option>
+		<option value="date">Publication date</option>
+	</select>
+</div>
 
+<div id="sort">
+
+
+<div class="sortable">
 <a name="Trm0003a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0003a
 	</td>
 </tr>
@@ -53,8 +83,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cavatoni, Pietro / 1572
+	<td class="composer">
+		Cavatoni, Pietro / <span class="date">1572</span>
 	</td>
 </tr>
 
@@ -75,7 +105,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.2% of notes are in a melisma
 	</td>
 </tr>
@@ -105,16 +135,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0003b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0003b
 	</td>
 </tr>
@@ -125,8 +155,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1585
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -147,7 +177,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		26.4% of notes are in a melisma
 	</td>
 </tr>
@@ -177,16 +207,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0023a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0023a
 	</td>
 </tr>
@@ -197,8 +227,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gabella, Giovanni Battista / 1588
+	<td class="composer">
+		Gabella, Giovanni Battista / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -219,7 +249,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12% of notes are in a melisma
 	</td>
 </tr>
@@ -249,16 +279,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0023b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0023b
 	</td>
 </tr>
@@ -269,8 +299,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -291,7 +321,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.6% of notes are in a melisma
 	</td>
 </tr>
@@ -321,16 +351,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0023c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0023c
 	</td>
 </tr>
@@ -341,8 +371,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -363,7 +393,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		31.6% of notes are in a melisma
 	</td>
 </tr>
@@ -393,16 +423,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0023d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0023d
 	</td>
 </tr>
@@ -413,8 +443,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nanino, Giovanni Bernardino / 1599
+	<td class="composer">
+		Nanino, Giovanni Bernardino / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -435,7 +465,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.2% of notes are in a melisma
 	</td>
 </tr>
@@ -465,16 +495,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0023e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0023e
 	</td>
 </tr>
@@ -485,8 +515,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pallavicino, Benedetto / 1612
+	<td class="composer">
+		Pallavicino, Benedetto / <span class="date">1612</span>
 	</td>
 </tr>
 
@@ -507,7 +537,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.7% of notes are in a melisma
 	</td>
 </tr>
@@ -537,16 +567,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0024a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0024a
 	</td>
 </tr>
@@ -557,8 +587,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -579,7 +609,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.9% of notes are in a melisma
 	</td>
 </tr>
@@ -609,16 +639,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0025a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0025a
 	</td>
 </tr>
@@ -629,8 +659,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Tresti, Flaminio / 1596
+	<td class="composer">
+		Tresti, Flaminio / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -651,7 +681,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.8% of notes are in a melisma
 	</td>
 </tr>
@@ -681,16 +711,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0025b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0025b
 	</td>
 </tr>
@@ -701,8 +731,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pallavicino, Benedetto / 1600
+	<td class="composer">
+		Pallavicino, Benedetto / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -723,7 +753,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.8% of notes are in a melisma
 	</td>
 </tr>
@@ -753,16 +783,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0025c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0025c
 	</td>
 </tr>
@@ -773,8 +803,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Billi, Lucio / 1602
+	<td class="composer">
+		Billi, Lucio / <span class="date">1602</span>
 	</td>
 </tr>
 
@@ -795,7 +825,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.3% of notes are in a melisma
 	</td>
 </tr>
@@ -825,16 +855,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0026a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0026a
 	</td>
 </tr>
@@ -845,8 +875,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ingegneri, Marco Antonio / 1606
+	<td class="composer">
+		Ingegneri, Marco Antonio / <span class="date">1606</span>
 	</td>
 </tr>
 
@@ -867,7 +897,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.5% of notes are in a melisma
 	</td>
 </tr>
@@ -897,16 +927,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0028a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0028a
 	</td>
 </tr>
@@ -917,8 +947,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zanotti, Camillo / 1587
+	<td class="composer">
+		Zanotti, Camillo / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -939,7 +969,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.3% of notes are in a melisma
 	</td>
 </tr>
@@ -969,16 +999,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0033a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0033a
 	</td>
 </tr>
@@ -989,8 +1019,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -1011,7 +1041,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.5% of notes are in a melisma
 	</td>
 </tr>
@@ -1041,16 +1071,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0038a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0038a
 	</td>
 </tr>
@@ -1061,8 +1091,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Porta, Costanzo / 1573
+	<td class="composer">
+		Porta, Costanzo / <span class="date">1573</span>
 	</td>
 </tr>
 
@@ -1083,7 +1113,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.2% of notes are in a melisma
 	</td>
 </tr>
@@ -1113,16 +1143,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0046a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0046a
 	</td>
 </tr>
@@ -1133,8 +1163,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Guami, Francesco / 1598
+	<td class="composer">
+		Guami, Francesco / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -1155,7 +1185,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		31.4% of notes are in a melisma
 	</td>
 </tr>
@@ -1185,16 +1215,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047a
 	</td>
 </tr>
@@ -1205,8 +1235,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pallavicino, Benedetto / 1579
+	<td class="composer">
+		Pallavicino, Benedetto / <span class="date">1579</span>
 	</td>
 </tr>
 
@@ -1227,7 +1257,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.6% of notes are in a melisma
 	</td>
 </tr>
@@ -1257,16 +1287,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047c
 	</td>
 </tr>
@@ -1277,8 +1307,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Serafico, Benedetto / 1581
+	<td class="composer">
+		Serafico, Benedetto / <span class="date">1581</span>
 	</td>
 </tr>
 
@@ -1299,7 +1329,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		0% of notes are in a melisma
 	</td>
 </tr>
@@ -1329,16 +1359,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047d
 	</td>
 </tr>
@@ -1349,8 +1379,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cortellini, Camillo / 1583
+	<td class="composer">
+		Cortellini, Camillo / <span class="date">1583</span>
 	</td>
 </tr>
 
@@ -1371,7 +1401,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		23.1% of notes are in a melisma
 	</td>
 </tr>
@@ -1401,16 +1431,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047f
 	</td>
 </tr>
@@ -1421,8 +1451,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -1443,7 +1473,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21% of notes are in a melisma
 	</td>
 </tr>
@@ -1473,16 +1503,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047l"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047l
 	</td>
 </tr>
@@ -1493,8 +1523,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gastoldi, Giovanni Giacomo / 1588
+	<td class="composer">
+		Gastoldi, Giovanni Giacomo / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -1515,7 +1545,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.2% of notes are in a melisma
 	</td>
 </tr>
@@ -1545,16 +1575,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047m"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047m
 	</td>
 </tr>
@@ -1565,8 +1595,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Giovannelli, Ruggiero / 1588
+	<td class="composer">
+		Giovannelli, Ruggiero / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -1587,7 +1617,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.9% of notes are in a melisma
 	</td>
 </tr>
@@ -1617,16 +1647,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047n"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047n
 	</td>
 </tr>
@@ -1637,8 +1667,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Castro, Jean de / 1591
+	<td class="composer">
+		Castro, Jean de / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -1659,7 +1689,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.2% of notes are in a melisma
 	</td>
 </tr>
@@ -1689,16 +1719,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047o"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047o
 	</td>
 </tr>
@@ -1709,8 +1739,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -1731,7 +1761,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		0% of notes are in a melisma
 	</td>
 </tr>
@@ -1761,16 +1791,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047q"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047q
 	</td>
 </tr>
@@ -1781,8 +1811,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594 
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594 </span>
 	</td>
 </tr>
 
@@ -1803,7 +1833,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.4% of notes are in a melisma
 	</td>
 </tr>
@@ -1833,16 +1863,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047r"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047r
 	</td>
 </tr>
@@ -1853,8 +1883,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Roccia, Dattilo / 1603
+	<td class="composer">
+		Roccia, Dattilo / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -1875,7 +1905,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.3% of notes are in a melisma
 	</td>
 </tr>
@@ -1905,16 +1935,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0047s"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0047s
 	</td>
 </tr>
@@ -1925,8 +1955,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Montella, Giovan Domenico / 1604
+	<td class="composer">
+		Montella, Giovan Domenico / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -1947,7 +1977,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		2.3% of notes are in a melisma
 	</td>
 </tr>
@@ -1977,16 +2007,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0048a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0048a
 	</td>
 </tr>
@@ -1997,8 +2027,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Meldert, Leonardo / 1575
+	<td class="composer">
+		Meldert, Leonardo / <span class="date">1575</span>
 	</td>
 </tr>
 
@@ -2019,7 +2049,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10% of notes are in a melisma
 	</td>
 </tr>
@@ -2049,16 +2079,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0048b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0048b
 	</td>
 </tr>
@@ -2069,8 +2099,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -2091,7 +2121,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		25.7% of notes are in a melisma
 	</td>
 </tr>
@@ -2121,16 +2151,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0048c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0048c
 	</td>
 </tr>
@@ -2141,8 +2171,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1585
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -2163,7 +2193,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.9% of notes are in a melisma
 	</td>
 </tr>
@@ -2193,16 +2223,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0048e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0048e
 	</td>
 </tr>
@@ -2213,8 +2243,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1590
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -2235,7 +2265,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5% of notes are in a melisma
 	</td>
 </tr>
@@ -2265,16 +2295,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0048f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0048f
 	</td>
 </tr>
@@ -2285,8 +2315,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bonini, Pietro Andrea / 1591
+	<td class="composer">
+		Bonini, Pietro Andrea / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -2307,7 +2337,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.6% of notes are in a melisma
 	</td>
 </tr>
@@ -2337,16 +2367,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0048g"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0048g
 	</td>
 </tr>
@@ -2357,8 +2387,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ricci, Cesarina / 1597
+	<td class="composer">
+		Ricci, Cesarina / <span class="date">1597</span>
 	</td>
 </tr>
 
@@ -2379,7 +2409,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.9% of notes are in a melisma
 	</td>
 </tr>
@@ -2409,16 +2439,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0051a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0051a
 	</td>
 </tr>
@@ -2429,8 +2459,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1603
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -2451,7 +2481,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.4% of notes are in a melisma
 	</td>
 </tr>
@@ -2481,16 +2511,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0052a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0052a
 	</td>
 </tr>
@@ -2501,8 +2531,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zanotti, Camillo / 1587
+	<td class="composer">
+		Zanotti, Camillo / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -2523,7 +2553,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.9% of notes are in a melisma
 	</td>
 </tr>
@@ -2553,16 +2583,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0059a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0059a
 	</td>
 </tr>
@@ -2573,8 +2603,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -2595,7 +2625,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22% of notes are in a melisma
 	</td>
 </tr>
@@ -2625,16 +2655,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0059b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0059b
 	</td>
 </tr>
@@ -2645,8 +2675,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -2667,7 +2697,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.5% of notes are in a melisma
 	</td>
 </tr>
@@ -2697,16 +2727,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0059c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0059c
 	</td>
 </tr>
@@ -2717,8 +2747,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pallavicino, Benedetto / 1600
+	<td class="composer">
+		Pallavicino, Benedetto / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -2739,7 +2769,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.8% of notes are in a melisma
 	</td>
 </tr>
@@ -2769,16 +2799,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0059e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0059e
 	</td>
 </tr>
@@ -2789,8 +2819,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dering, Richard / 1620
+	<td class="composer">
+		Dering, Richard / <span class="date">1620</span>
 	</td>
 </tr>
 
@@ -2811,7 +2841,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.6% of notes are in a melisma
 	</td>
 </tr>
@@ -2841,16 +2871,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0060a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0060a
 	</td>
 </tr>
@@ -2861,8 +2891,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -2883,7 +2913,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.5% of notes are in a melisma
 	</td>
 </tr>
@@ -2913,16 +2943,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0060c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0060c
 	</td>
 </tr>
@@ -2933,8 +2963,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -2955,7 +2985,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.6% of notes are in a melisma
 	</td>
 </tr>
@@ -2985,16 +3015,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0075a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0075a
 	</td>
 </tr>
@@ -3005,8 +3035,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cortellini, Camillo / 1584
+	<td class="composer">
+		Cortellini, Camillo / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -3027,7 +3057,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.9% of notes are in a melisma
 	</td>
 </tr>
@@ -3057,16 +3087,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0075b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0075b
 	</td>
 </tr>
@@ -3077,8 +3107,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1585
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -3099,7 +3129,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.4% of notes are in a melisma
 	</td>
 </tr>
@@ -3129,16 +3159,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0075d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0075d
 	</td>
 </tr>
@@ -3149,8 +3179,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -3171,7 +3201,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.1% of notes are in a melisma
 	</td>
 </tr>
@@ -3201,16 +3231,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0081a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0081a
 	</td>
 </tr>
@@ -3221,8 +3251,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Vecoli, Regolo / 1587
+	<td class="composer">
+		Vecoli, Regolo / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -3243,7 +3273,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.8% of notes are in a melisma
 	</td>
 </tr>
@@ -3273,16 +3303,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0081b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0081b
 	</td>
 </tr>
@@ -3293,8 +3323,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1598
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -3315,7 +3345,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		28.9% of notes are in a melisma
 	</td>
 </tr>
@@ -3345,16 +3375,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0088a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0088a
 	</td>
 </tr>
@@ -3365,8 +3395,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Meldert, Leonardo / 1575
+	<td class="composer">
+		Meldert, Leonardo / <span class="date">1575</span>
 	</td>
 </tr>
 
@@ -3387,7 +3417,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.7% of notes are in a melisma
 	</td>
 </tr>
@@ -3417,16 +3447,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0089a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0089a
 	</td>
 </tr>
@@ -3437,8 +3467,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -3459,7 +3489,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.4% of notes are in a melisma
 	</td>
 </tr>
@@ -3489,16 +3519,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0090b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0090b
 	</td>
 </tr>
@@ -3509,8 +3539,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1588
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -3531,7 +3561,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.8% of notes are in a melisma
 	</td>
 </tr>
@@ -3561,16 +3591,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0090c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0090c
 	</td>
 </tr>
@@ -3581,8 +3611,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cancineo, Michelangelo / 1590
+	<td class="composer">
+		Cancineo, Michelangelo / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -3603,7 +3633,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		34.3% of notes are in a melisma
 	</td>
 </tr>
@@ -3633,16 +3663,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0093a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0093a
 	</td>
 </tr>
@@ -3653,8 +3683,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1584
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -3675,7 +3705,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.5% of notes are in a melisma
 	</td>
 </tr>
@@ -3705,16 +3735,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0093b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0093b
 	</td>
 </tr>
@@ -3725,8 +3755,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -3747,7 +3777,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.3% of notes are in a melisma
 	</td>
 </tr>
@@ -3777,16 +3807,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0096a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0096a
 	</td>
 </tr>
@@ -3797,8 +3827,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		D'India, Sigismondo / 1615
+	<td class="composer">
+		D'India, Sigismondo / <span class="date">1615</span>
 	</td>
 </tr>
 
@@ -3819,7 +3849,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.5% of notes are in a melisma
 	</td>
 </tr>
@@ -3849,16 +3879,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0097b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0097b
 	</td>
 </tr>
@@ -3869,8 +3899,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Hassler, Hans Leo / 1596
+	<td class="composer">
+		Hassler, Hans Leo / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -3891,7 +3921,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.5% of notes are in a melisma
 	</td>
 </tr>
@@ -3921,16 +3951,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0099a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0099a
 	</td>
 </tr>
@@ -3941,8 +3971,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Luzzaschi, Luzzasco / 1576
+	<td class="composer">
+		Luzzaschi, Luzzasco / <span class="date">1576</span>
 	</td>
 </tr>
 
@@ -3963,7 +3993,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.4% of notes are in a melisma
 	</td>
 </tr>
@@ -3993,16 +4023,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0107a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0107a
 	</td>
 </tr>
@@ -4013,8 +4043,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1587
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -4035,7 +4065,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		25.6% of notes are in a melisma
 	</td>
 </tr>
@@ -4065,16 +4095,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0126a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0126a
 	</td>
 </tr>
@@ -4085,8 +4115,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gabella, Giovanni Battista / 1585
+	<td class="composer">
+		Gabella, Giovanni Battista / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -4107,7 +4137,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.3% of notes are in a melisma
 	</td>
 </tr>
@@ -4137,16 +4167,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0135a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0135a
 	</td>
 </tr>
@@ -4157,8 +4187,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Stivori, Francesco / 1585
+	<td class="composer">
+		Stivori, Francesco / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -4179,7 +4209,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.1% of notes are in a melisma
 	</td>
 </tr>
@@ -4209,16 +4239,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0137a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0137a
 	</td>
 </tr>
@@ -4229,8 +4259,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Virchi, Paolo / 1584
+	<td class="composer">
+		Virchi, Paolo / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -4251,7 +4281,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		34.7% of notes are in a melisma
 	</td>
 </tr>
@@ -4281,16 +4311,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0137b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0137b
 	</td>
 </tr>
@@ -4301,8 +4331,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1591
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -4323,7 +4353,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		31.4% of notes are in a melisma
 	</td>
 </tr>
@@ -4353,16 +4383,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0139a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0139a
 	</td>
 </tr>
@@ -4373,8 +4403,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Villani, Gabriele / 1591
+	<td class="composer">
+		Villani, Gabriele / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -4395,7 +4425,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		44.2% of notes are in a melisma
 	</td>
 </tr>
@@ -4425,16 +4455,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0143a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0143a
 	</td>
 </tr>
@@ -4445,8 +4475,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1586
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -4467,7 +4497,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.8% of notes are in a melisma
 	</td>
 </tr>
@@ -4497,16 +4527,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0144a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0144a
 	</td>
 </tr>
@@ -4517,8 +4547,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1586
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -4539,7 +4569,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.5% of notes are in a melisma
 	</td>
 </tr>
@@ -4569,16 +4599,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0152a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0152a
 	</td>
 </tr>
@@ -4589,8 +4619,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pallavicino, Benedetto / 1604
+	<td class="composer">
+		Pallavicino, Benedetto / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -4611,7 +4641,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.7% of notes are in a melisma
 	</td>
 </tr>
@@ -4641,16 +4671,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0154a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0154a
 	</td>
 </tr>
@@ -4661,8 +4691,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1584
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -4683,7 +4713,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19% of notes are in a melisma
 	</td>
 </tr>
@@ -4713,16 +4743,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0155a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0155a
 	</td>
 </tr>
@@ -4733,8 +4763,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -4755,7 +4785,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.2% of notes are in a melisma
 	</td>
 </tr>
@@ -4785,16 +4815,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0157b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0157b
 	</td>
 </tr>
@@ -4805,8 +4835,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Clemsee, Christoforo / 1613
+	<td class="composer">
+		Clemsee, Christoforo / <span class="date">1613</span>
 	</td>
 </tr>
 
@@ -4827,7 +4857,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.1% of notes are in a melisma
 	</td>
 </tr>
@@ -4857,16 +4887,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0159a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0159a
 	</td>
 </tr>
@@ -4877,8 +4907,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Veggio, Giovanni Agostino / 1574
+	<td class="composer">
+		Veggio, Giovanni Agostino / <span class="date">1574</span>
 	</td>
 </tr>
 
@@ -4899,7 +4929,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.6% of notes are in a melisma
 	</td>
 </tr>
@@ -4929,16 +4959,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0159b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0159b
 	</td>
 </tr>
@@ -4949,8 +4979,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Feliciani, Andrea / 1579
+	<td class="composer">
+		Feliciani, Andrea / <span class="date">1579</span>
 	</td>
 </tr>
 
@@ -4971,7 +5001,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.2% of notes are in a melisma
 	</td>
 </tr>
@@ -5001,16 +5031,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0160a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0160a
 	</td>
 </tr>
@@ -5021,8 +5051,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Capilupi, Geminiano / 1608
+	<td class="composer">
+		Capilupi, Geminiano / <span class="date">1608</span>
 	</td>
 </tr>
 
@@ -5043,7 +5073,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.1% of notes are in a melisma
 	</td>
 </tr>
@@ -5073,16 +5103,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0164a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0164a
 	</td>
 </tr>
@@ -5093,8 +5123,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Barbarino, Bartolomeo / 1616
+	<td class="composer">
+		Barbarino, Bartolomeo / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -5115,7 +5145,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		23.8% of notes are in a melisma
 	</td>
 </tr>
@@ -5145,16 +5175,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0165a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0165a
 	</td>
 </tr>
@@ -5165,8 +5195,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1584
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -5187,7 +5217,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.9% of notes are in a melisma
 	</td>
 </tr>
@@ -5217,16 +5247,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0165b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0165b
 	</td>
 </tr>
@@ -5237,8 +5267,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -5259,7 +5289,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.1% of notes are in a melisma
 	</td>
 </tr>
@@ -5289,16 +5319,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0165d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0165d
 	</td>
 </tr>
@@ -5309,8 +5339,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1591
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -5331,7 +5361,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.1% of notes are in a melisma
 	</td>
 </tr>
@@ -5361,16 +5391,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0165e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0165e
 	</td>
 </tr>
@@ -5381,8 +5411,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -5403,7 +5433,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.6% of notes are in a melisma
 	</td>
 </tr>
@@ -5433,16 +5463,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0166a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0166a
 	</td>
 </tr>
@@ -5453,8 +5483,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1584
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -5475,7 +5505,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.4% of notes are in a melisma
 	</td>
 </tr>
@@ -5505,16 +5535,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0166b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0166b
 	</td>
 </tr>
@@ -5525,8 +5555,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -5547,7 +5577,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.9% of notes are in a melisma
 	</td>
 </tr>
@@ -5577,16 +5607,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0166f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0166f
 	</td>
 </tr>
@@ -5597,8 +5627,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -5619,7 +5649,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		1% of notes are in a melisma
 	</td>
 </tr>
@@ -5649,16 +5679,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0166g"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0166g
 	</td>
 </tr>
@@ -5669,8 +5699,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -5691,7 +5721,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.3% of notes are in a melisma
 	</td>
 </tr>
@@ -5721,16 +5751,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0166i"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0166i
 	</td>
 </tr>
@@ -5741,8 +5771,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1600
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -5763,7 +5793,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.1% of notes are in a melisma
 	</td>
 </tr>
@@ -5793,16 +5823,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0166k"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0166k
 	</td>
 </tr>
@@ -5813,8 +5843,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nenna, Pomponio / 1613
+	<td class="composer">
+		Nenna, Pomponio / <span class="date">1613</span>
 	</td>
 </tr>
 
@@ -5835,7 +5865,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.3% of notes are in a melisma
 	</td>
 </tr>
@@ -5865,16 +5895,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0167a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0167a
 	</td>
 </tr>
@@ -5885,8 +5915,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -5907,7 +5937,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.4% of notes are in a melisma
 	</td>
 </tr>
@@ -5937,16 +5967,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0174a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0174a
 	</td>
 </tr>
@@ -5957,8 +5987,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pozzo, Vincenzo dal / 1585
+	<td class="composer">
+		Pozzo, Vincenzo dal / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -5979,7 +6009,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.1% of notes are in a melisma
 	</td>
 </tr>
@@ -6009,16 +6039,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0175b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0175b
 	</td>
 </tr>
@@ -6029,8 +6059,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1605
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1605</span>
 	</td>
 </tr>
 
@@ -6051,7 +6081,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		36.4% of notes are in a melisma
 	</td>
 </tr>
@@ -6081,16 +6111,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0183b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0183b
 	</td>
 </tr>
@@ -6101,8 +6131,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1587
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -6123,7 +6153,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		23.1% of notes are in a melisma
 	</td>
 </tr>
@@ -6153,16 +6183,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0183d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0183d
 	</td>
 </tr>
@@ -6173,8 +6203,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -6195,7 +6225,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.7% of notes are in a melisma
 	</td>
 </tr>
@@ -6225,16 +6255,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0187a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0187a
 	</td>
 </tr>
@@ -6245,8 +6275,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gabella, Giovanni Battista / 1588
+	<td class="composer">
+		Gabella, Giovanni Battista / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -6267,7 +6297,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.7% of notes are in a melisma
 	</td>
 </tr>
@@ -6297,16 +6327,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0189b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0189b
 	</td>
 </tr>
@@ -6317,8 +6347,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Tosone, Marcello / 1590
+	<td class="composer">
+		Tosone, Marcello / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -6339,7 +6369,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.8% of notes are in a melisma
 	</td>
 </tr>
@@ -6369,16 +6399,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0190b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0190b
 	</td>
 </tr>
@@ -6389,8 +6419,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -6411,7 +6441,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.9% of notes are in a melisma
 	</td>
 </tr>
@@ -6441,16 +6471,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0191b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0191b
 	</td>
 </tr>
@@ -6461,8 +6491,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Tosone, Marcello / 1590
+	<td class="composer">
+		Tosone, Marcello / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -6483,7 +6513,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.9% of notes are in a melisma
 	</td>
 </tr>
@@ -6513,16 +6543,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0194b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0194b
 	</td>
 </tr>
@@ -6533,8 +6563,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Naldi, Romolo / 1589
+	<td class="composer">
+		Naldi, Romolo / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -6555,7 +6585,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.4% of notes are in a melisma
 	</td>
 </tr>
@@ -6585,16 +6615,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0195d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0195d
 	</td>
 </tr>
@@ -6605,8 +6635,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Belli, Giulio / 1589
+	<td class="composer">
+		Belli, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -6627,7 +6657,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		32.6% of notes are in a melisma
 	</td>
 </tr>
@@ -6657,16 +6687,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0196b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0196b
 	</td>
 </tr>
@@ -6677,8 +6707,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -6699,7 +6729,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7% of notes are in a melisma
 	</td>
 </tr>
@@ -6729,16 +6759,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0198a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0198a
 	</td>
 </tr>
@@ -6749,8 +6779,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Vecoli, Regolo / 1586
+	<td class="composer">
+		Vecoli, Regolo / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -6771,7 +6801,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15% of notes are in a melisma
 	</td>
 </tr>
@@ -6801,16 +6831,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0202a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0202a
 	</td>
 </tr>
@@ -6821,8 +6851,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Agostini, Lodovico / 1582
+	<td class="composer">
+		Agostini, Lodovico / <span class="date">1582</span>
 	</td>
 </tr>
 
@@ -6843,7 +6873,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.9% of notes are in a melisma
 	</td>
 </tr>
@@ -6873,16 +6903,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0204a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0204a
 	</td>
 </tr>
@@ -6893,8 +6923,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1600
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -6915,7 +6945,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		41.4% of notes are in a melisma
 	</td>
 </tr>
@@ -6945,16 +6975,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0237a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0237a
 	</td>
 </tr>
@@ -6965,8 +6995,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Meldert, Leonardo / 1575
+	<td class="composer">
+		Meldert, Leonardo / <span class="date">1575</span>
 	</td>
 </tr>
 
@@ -6987,7 +7017,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.2% of notes are in a melisma
 	</td>
 </tr>
@@ -7017,16 +7047,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0240b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0240b
 	</td>
 </tr>
@@ -7037,8 +7067,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Massaino, Tiburtio / 1604
+	<td class="composer">
+		Massaino, Tiburtio / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -7059,7 +7089,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12% of notes are in a melisma
 	</td>
 </tr>
@@ -7089,16 +7119,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0241a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0241a
 	</td>
 </tr>
@@ -7109,8 +7139,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nielsen, Hans / 1606
+	<td class="composer">
+		Nielsen, Hans / <span class="date">1606</span>
 	</td>
 </tr>
 
@@ -7131,7 +7161,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.6% of notes are in a melisma
 	</td>
 </tr>
@@ -7161,16 +7191,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0242a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0242a
 	</td>
 </tr>
@@ -7181,8 +7211,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zenaro, Giulio / 1589
+	<td class="composer">
+		Zenaro, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -7203,7 +7233,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		37.9% of notes are in a melisma
 	</td>
 </tr>
@@ -7233,16 +7263,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0243a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0243a
 	</td>
 </tr>
@@ -7253,8 +7283,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eremita, Giulio / 1589
+	<td class="composer">
+		Eremita, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -7275,7 +7305,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.3% of notes are in a melisma
 	</td>
 </tr>
@@ -7305,16 +7335,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0244a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0244a
 	</td>
 </tr>
@@ -7325,8 +7355,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Virchi, Paolo / 1584
+	<td class="composer">
+		Virchi, Paolo / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -7347,7 +7377,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.8% of notes are in a melisma
 	</td>
 </tr>
@@ -7377,16 +7407,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0246a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0246a
 	</td>
 </tr>
@@ -7397,8 +7427,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1595
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1595</span>
 	</td>
 </tr>
 
@@ -7419,7 +7449,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		27.6% of notes are in a melisma
 	</td>
 </tr>
@@ -7449,16 +7479,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0246b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0246b
 	</td>
 </tr>
@@ -7469,8 +7499,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Borelli, Francesco Maria / 1599
+	<td class="composer">
+		Borelli, Francesco Maria / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -7491,7 +7521,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.6% of notes are in a melisma
 	</td>
 </tr>
@@ -7521,16 +7551,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0247a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0247a
 	</td>
 </tr>
@@ -7541,8 +7571,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1584
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -7563,7 +7593,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.1% of notes are in a melisma
 	</td>
 </tr>
@@ -7593,16 +7623,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0247b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0247b
 	</td>
 </tr>
@@ -7613,8 +7643,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -7635,7 +7665,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.9% of notes are in a melisma
 	</td>
 </tr>
@@ -7665,16 +7695,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0248a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0248a
 	</td>
 </tr>
@@ -7685,8 +7715,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1584
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -7707,7 +7737,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		30.7% of notes are in a melisma
 	</td>
 </tr>
@@ -7737,16 +7767,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0248b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0248b
 	</td>
 </tr>
@@ -7757,8 +7787,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -7779,7 +7809,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		32% of notes are in a melisma
 	</td>
 </tr>
@@ -7809,16 +7839,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0248d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0248d
 	</td>
 </tr>
@@ -7829,8 +7859,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Genvino, Francesco / 1605
+	<td class="composer">
+		Genvino, Francesco / <span class="date">1605</span>
 	</td>
 </tr>
 
@@ -7851,7 +7881,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.8% of notes are in a melisma
 	</td>
 </tr>
@@ -7881,16 +7911,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0254a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0254a
 	</td>
 </tr>
@@ -7901,8 +7931,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Milleville, Alessandro / 1584
+	<td class="composer">
+		Milleville, Alessandro / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -7923,7 +7953,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.5% of notes are in a melisma
 	</td>
 </tr>
@@ -7953,16 +7983,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0255a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0255a
 	</td>
 </tr>
@@ -7973,8 +8003,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Giovannelli, Ruggiero / 1599
+	<td class="composer">
+		Giovannelli, Ruggiero / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -7995,7 +8025,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		26.4% of notes are in a melisma
 	</td>
 </tr>
@@ -8025,16 +8055,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0256c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0256c
 	</td>
 </tr>
@@ -8045,8 +8075,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Tresti, Flaminio / 1590
+	<td class="composer">
+		Tresti, Flaminio / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -8067,7 +8097,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14% of notes are in a melisma
 	</td>
 </tr>
@@ -8097,16 +8127,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0256d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0256d
 	</td>
 </tr>
@@ -8117,8 +8147,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nanino, Giovanni Bernardino / 1599
+	<td class="composer">
+		Nanino, Giovanni Bernardino / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -8139,7 +8169,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		34.4% of notes are in a melisma
 	</td>
 </tr>
@@ -8169,16 +8199,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0257a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0257a
 	</td>
 </tr>
@@ -8189,8 +8219,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1588
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -8211,7 +8241,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.1% of notes are in a melisma
 	</td>
 </tr>
@@ -8241,16 +8271,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0259a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0259a
 	</td>
 </tr>
@@ -8261,8 +8291,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1595
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1595</span>
 	</td>
 </tr>
 
@@ -8283,7 +8313,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.5% of notes are in a melisma
 	</td>
 </tr>
@@ -8313,16 +8343,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0261b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0261b
 	</td>
 </tr>
@@ -8333,8 +8363,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macque, Giovanni de / 1610
+	<td class="composer">
+		Macque, Giovanni de / <span class="date">1610</span>
 	</td>
 </tr>
 
@@ -8355,7 +8385,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6% of notes are in a melisma
 	</td>
 </tr>
@@ -8385,16 +8415,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0265a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0265a
 	</td>
 </tr>
@@ -8405,8 +8435,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Hassler, Hans Leo / 1596
+	<td class="composer">
+		Hassler, Hans Leo / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -8427,7 +8457,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.8% of notes are in a melisma
 	</td>
 </tr>
@@ -8457,16 +8487,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0266a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0266a
 	</td>
 </tr>
@@ -8477,8 +8507,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Virchi, Paolo / 1591
+	<td class="composer">
+		Virchi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -8499,7 +8529,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.9% of notes are in a melisma
 	</td>
 </tr>
@@ -8529,16 +8559,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0267a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0267a
 	</td>
 </tr>
@@ -8549,8 +8579,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zenaro, Giulio / 1589
+	<td class="composer">
+		Zenaro, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -8571,7 +8601,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		30.8% of notes are in a melisma
 	</td>
 </tr>
@@ -8601,16 +8631,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0272b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0272b
 	</td>
 </tr>
@@ -8621,8 +8651,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gastoldi, Giovanni Giacomo / 1588
+	<td class="composer">
+		Gastoldi, Giovanni Giacomo / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -8643,7 +8673,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		35.4% of notes are in a melisma
 	</td>
 </tr>
@@ -8673,16 +8703,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0275a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0275a
 	</td>
 </tr>
@@ -8693,8 +8723,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Recalchi, Giovanni Battista / 1588
+	<td class="composer">
+		Recalchi, Giovanni Battista / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -8715,7 +8745,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		26.3% of notes are in a melisma
 	</td>
 </tr>
@@ -8745,16 +8775,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0276a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0276a
 	</td>
 </tr>
@@ -8765,8 +8795,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bacchini, Giovanni Maria / 1588
+	<td class="composer">
+		Bacchini, Giovanni Maria / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -8787,7 +8817,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		23% of notes are in a melisma
 	</td>
 </tr>
@@ -8817,16 +8847,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0277a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0277a
 	</td>
 </tr>
@@ -8837,8 +8867,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cantino, Paolo / 1588
+	<td class="composer">
+		Cantino, Paolo / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -8859,7 +8889,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		33.5% of notes are in a melisma
 	</td>
 </tr>
@@ -8889,16 +8919,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0279a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0279a
 	</td>
 </tr>
@@ -8909,8 +8939,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -8931,7 +8961,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.7% of notes are in a melisma
 	</td>
 </tr>
@@ -8961,16 +8991,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0284c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0284c
 	</td>
 </tr>
@@ -8981,8 +9011,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macque, Giovanni de / 1587
+	<td class="composer">
+		Macque, Giovanni de / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -9003,7 +9033,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.7% of notes are in a melisma
 	</td>
 </tr>
@@ -9033,16 +9063,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0284e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0284e
 	</td>
 </tr>
@@ -9053,8 +9083,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -9075,7 +9105,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.2% of notes are in a melisma
 	</td>
 </tr>
@@ -9105,16 +9135,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0284g"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0284g
 	</td>
 </tr>
@@ -9125,8 +9155,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1598
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -9147,7 +9177,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11% of notes are in a melisma
 	</td>
 </tr>
@@ -9177,16 +9207,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0284i"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0284i
 	</td>
 </tr>
@@ -9197,8 +9227,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Di Costanzo, Alessandro / 1604
+	<td class="composer">
+		Di Costanzo, Alessandro / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -9219,7 +9249,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		2.8% of notes are in a melisma
 	</td>
 </tr>
@@ -9249,16 +9279,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0284k"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0284k
 	</td>
 </tr>
@@ -9269,8 +9299,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Civita, Davit / 1616
+	<td class="composer">
+		Civita, Davit / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -9291,7 +9321,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.1% of notes are in a melisma
 	</td>
 </tr>
@@ -9321,16 +9351,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0288e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0288e
 	</td>
 </tr>
@@ -9341,8 +9371,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macque, Giovanni de / 1589
+	<td class="composer">
+		Macque, Giovanni de / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -9363,7 +9393,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9% of notes are in a melisma
 	</td>
 </tr>
@@ -9393,16 +9423,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0288g"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0288g
 	</td>
 </tr>
@@ -9413,8 +9443,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1591
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -9435,7 +9465,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20% of notes are in a melisma
 	</td>
 </tr>
@@ -9465,16 +9495,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0288h"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0288h
 	</td>
 </tr>
@@ -9485,8 +9515,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1591
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -9507,7 +9537,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.2% of notes are in a melisma
 	</td>
 </tr>
@@ -9537,16 +9567,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0288i"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0288i
 	</td>
 </tr>
@@ -9557,8 +9587,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Montella, Giovan Domenico / 1595
+	<td class="composer">
+		Montella, Giovan Domenico / <span class="date">1595</span>
 	</td>
 </tr>
 
@@ -9579,7 +9609,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.5% of notes are in a melisma
 	</td>
 </tr>
@@ -9609,16 +9639,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0289a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0289a
 	</td>
 </tr>
@@ -9629,8 +9659,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bonini, Pietro Andrea / 1591
+	<td class="composer">
+		Bonini, Pietro Andrea / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -9651,7 +9681,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.6% of notes are in a melisma
 	</td>
 </tr>
@@ -9681,16 +9711,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0297a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0297a
 	</td>
 </tr>
@@ -9701,8 +9731,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Vecchi, Orazio / 1580
+	<td class="composer">
+		Vecchi, Orazio / <span class="date">1580</span>
 	</td>
 </tr>
 
@@ -9723,7 +9753,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.8% of notes are in a melisma
 	</td>
 </tr>
@@ -9753,16 +9783,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0297c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0297c
 	</td>
 </tr>
@@ -9773,8 +9803,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Borsaro, Arcangelo / 1587
+	<td class="composer">
+		Borsaro, Arcangelo / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -9795,7 +9825,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.6% of notes are in a melisma
 	</td>
 </tr>
@@ -9825,16 +9855,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0298a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0298a
 	</td>
 </tr>
@@ -9845,8 +9875,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cortellini, Camillo / 1584
+	<td class="composer">
+		Cortellini, Camillo / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -9867,7 +9897,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.5% of notes are in a melisma
 	</td>
 </tr>
@@ -9897,16 +9927,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0302a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0302a
 	</td>
 </tr>
@@ -9917,8 +9947,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -9939,7 +9969,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.8% of notes are in a melisma
 	</td>
 </tr>
@@ -9969,16 +9999,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0303a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0303a
 	</td>
 </tr>
@@ -9989,8 +10019,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -10011,7 +10041,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4% of notes are in a melisma
 	</td>
 </tr>
@@ -10041,16 +10071,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0305b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0305b
 	</td>
 </tr>
@@ -10061,8 +10091,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -10083,7 +10113,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.3% of notes are in a melisma
 	</td>
 </tr>
@@ -10113,16 +10143,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0305c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0305c
 	</td>
 </tr>
@@ -10133,8 +10163,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1585
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -10155,7 +10185,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.6% of notes are in a melisma
 	</td>
 </tr>
@@ -10185,16 +10215,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0305d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0305d
 	</td>
 </tr>
@@ -10205,8 +10235,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nanterni, Orazio / 1585
+	<td class="composer">
+		Nanterni, Orazio / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -10227,7 +10257,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.7% of notes are in a melisma
 	</td>
 </tr>
@@ -10257,16 +10287,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0305h"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0305h
 	</td>
 </tr>
@@ -10277,8 +10307,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Torelli, Gaspare / 1594
+	<td class="composer">
+		Torelli, Gaspare / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -10299,7 +10329,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		0% of notes are in a melisma
 	</td>
 </tr>
@@ -10329,16 +10359,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0305j"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0305j
 	</td>
 </tr>
@@ -10349,8 +10379,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Montella, Giovan Domenico / 1602
+	<td class="composer">
+		Montella, Giovan Domenico / <span class="date">1602</span>
 	</td>
 </tr>
 
@@ -10371,7 +10401,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		0% of notes are in a melisma
 	</td>
 </tr>
@@ -10401,16 +10431,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0305k"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0305k
 	</td>
 </tr>
@@ -10421,8 +10451,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Di Costanzo, Alessandro / 1604
+	<td class="composer">
+		Di Costanzo, Alessandro / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -10443,7 +10473,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.4% of notes are in a melisma
 	</td>
 </tr>
@@ -10473,16 +10503,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0307a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0307a
 	</td>
 </tr>
@@ -10493,8 +10523,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zenaro, Giulio / 1589
+	<td class="composer">
+		Zenaro, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -10515,7 +10545,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		42.8% of notes are in a melisma
 	</td>
 </tr>
@@ -10545,16 +10575,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0307c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0307c
 	</td>
 </tr>
@@ -10565,8 +10595,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Narducci, Benedetto / 1596
+	<td class="composer">
+		Narducci, Benedetto / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -10587,7 +10617,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.1% of notes are in a melisma
 	</td>
 </tr>
@@ -10617,16 +10647,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0308a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0308a
 	</td>
 </tr>
@@ -10637,8 +10667,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Masnelli, Paolo / 1596
+	<td class="composer">
+		Masnelli, Paolo / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -10659,7 +10689,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.6% of notes are in a melisma
 	</td>
 </tr>
@@ -10689,16 +10719,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0309a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0309a
 	</td>
 </tr>
@@ -10709,8 +10739,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1595
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1595</span>
 	</td>
 </tr>
 
@@ -10731,7 +10761,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		36.2% of notes are in a melisma
 	</td>
 </tr>
@@ -10761,16 +10791,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0314a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0314a
 	</td>
 </tr>
@@ -10781,8 +10811,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dalla Casa, Girolamo / 1590
+	<td class="composer">
+		Dalla Casa, Girolamo / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -10803,7 +10833,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		23.5% of notes are in a melisma
 	</td>
 </tr>
@@ -10833,16 +10863,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0315b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0315b
 	</td>
 </tr>
@@ -10853,8 +10883,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nenna, Pomponio / 1607
+	<td class="composer">
+		Nenna, Pomponio / <span class="date">1607</span>
 	</td>
 </tr>
 
@@ -10875,7 +10905,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.4% of notes are in a melisma
 	</td>
 </tr>
@@ -10905,16 +10935,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0318a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0318a
 	</td>
 </tr>
@@ -10925,8 +10955,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1585
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -10947,7 +10977,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.9% of notes are in a melisma
 	</td>
 </tr>
@@ -10977,16 +11007,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0318c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0318c
 	</td>
 </tr>
@@ -10997,8 +11027,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zenaro, Giulio / 1589
+	<td class="composer">
+		Zenaro, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -11019,7 +11049,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.1% of notes are in a melisma
 	</td>
 </tr>
@@ -11049,16 +11079,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0319a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0319a
 	</td>
 </tr>
@@ -11069,8 +11099,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gastoldi, Giovanni Giacomo / 1588
+	<td class="composer">
+		Gastoldi, Giovanni Giacomo / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -11091,7 +11121,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.5% of notes are in a melisma
 	</td>
 </tr>
@@ -11121,16 +11151,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0322a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0322a
 	</td>
 </tr>
@@ -11141,8 +11171,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		D'India, Sigismondo / 1616
+	<td class="composer">
+		D'India, Sigismondo / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -11163,7 +11193,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.6% of notes are in a melisma
 	</td>
 </tr>
@@ -11193,16 +11223,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0323a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0323a
 	</td>
 </tr>
@@ -11213,8 +11243,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Garzi, Pietro Francesco / 1629
+	<td class="composer">
+		Garzi, Pietro Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -11235,7 +11265,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.2% of notes are in a melisma
 	</td>
 </tr>
@@ -11265,16 +11295,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0325c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0325c
 	</td>
 </tr>
@@ -11285,8 +11315,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Salzilli, Crescenzio / 1611
+	<td class="composer">
+		Salzilli, Crescenzio / <span class="date">1611</span>
 	</td>
 </tr>
 
@@ -11307,7 +11337,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.7% of notes are in a melisma
 	</td>
 </tr>
@@ -11337,16 +11367,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0326d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0326d
 	</td>
 </tr>
@@ -11357,8 +11387,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1607
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1607</span>
 	</td>
 </tr>
 
@@ -11379,7 +11409,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.7% of notes are in a melisma
 	</td>
 </tr>
@@ -11409,16 +11439,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0327b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0327b
 	</td>
 </tr>
@@ -11429,8 +11459,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bellasio, Paolo / 1590
+	<td class="composer">
+		Bellasio, Paolo / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -11451,7 +11481,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14% of notes are in a melisma
 	</td>
 </tr>
@@ -11481,16 +11511,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333a
 	</td>
 </tr>
@@ -11501,8 +11531,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bellasio, Paolo / 1578
+	<td class="composer">
+		Bellasio, Paolo / <span class="date">1578</span>
 	</td>
 </tr>
 
@@ -11523,7 +11553,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.7% of notes are in a melisma
 	</td>
 </tr>
@@ -11553,16 +11583,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333b
 	</td>
 </tr>
@@ -11573,8 +11603,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Merulo, Claudio / 1579
+	<td class="composer">
+		Merulo, Claudio / <span class="date">1579</span>
 	</td>
 </tr>
 
@@ -11595,7 +11625,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.7% of notes are in a melisma
 	</td>
 </tr>
@@ -11625,16 +11655,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333e
 	</td>
 </tr>
@@ -11645,8 +11675,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macque, Giovanni de / 1587
+	<td class="composer">
+		Macque, Giovanni de / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -11667,7 +11697,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.4% of notes are in a melisma
 	</td>
 </tr>
@@ -11697,16 +11727,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333g"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333g
 	</td>
 </tr>
@@ -11717,8 +11747,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1590
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -11739,7 +11769,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.5% of notes are in a melisma
 	</td>
 </tr>
@@ -11769,16 +11799,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333h"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333h
 	</td>
 </tr>
@@ -11789,8 +11819,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -11811,7 +11841,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		23.4% of notes are in a melisma
 	</td>
 </tr>
@@ -11841,16 +11871,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333i"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333i
 	</td>
 </tr>
@@ -11861,8 +11891,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -11883,7 +11913,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.8% of notes are in a melisma
 	</td>
 </tr>
@@ -11913,16 +11943,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333k"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333k
 	</td>
 </tr>
@@ -11933,8 +11963,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nanino, Giovanni Bernardino / 1599
+	<td class="composer">
+		Nanino, Giovanni Bernardino / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -11955,7 +11985,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.1% of notes are in a melisma
 	</td>
 </tr>
@@ -11985,16 +12015,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0333l"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0333l
 	</td>
 </tr>
@@ -12005,8 +12035,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Di Costanzo, Alessandro / 1604
+	<td class="composer">
+		Di Costanzo, Alessandro / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -12027,7 +12057,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.7% of notes are in a melisma
 	</td>
 </tr>
@@ -12057,16 +12087,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0335d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0335d
 	</td>
 </tr>
@@ -12077,8 +12107,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zenaro, Giulio / 1589
+	<td class="composer">
+		Zenaro, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -12099,7 +12129,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.6% of notes are in a melisma
 	</td>
 </tr>
@@ -12129,16 +12159,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0335f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0335f
 	</td>
 </tr>
@@ -12149,8 +12179,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Fonghetti, Paolo / 1598
+	<td class="composer">
+		Fonghetti, Paolo / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -12171,7 +12201,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.4% of notes are in a melisma
 	</td>
 </tr>
@@ -12201,16 +12231,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0338a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0338a
 	</td>
 </tr>
@@ -12221,8 +12251,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -12243,7 +12273,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.7% of notes are in a melisma
 	</td>
 </tr>
@@ -12273,16 +12303,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0339b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0339b
 	</td>
 </tr>
@@ -12293,8 +12323,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Giovannelli, Ruggiero / 1593
+	<td class="composer">
+		Giovannelli, Ruggiero / <span class="date">1593</span>
 	</td>
 </tr>
 
@@ -12315,7 +12345,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20% of notes are in a melisma
 	</td>
 </tr>
@@ -12345,16 +12375,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0341a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0341a
 	</td>
 </tr>
@@ -12365,8 +12395,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Guami, Giuseppe / 1588
+	<td class="composer">
+		Guami, Giuseppe / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -12387,7 +12417,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4% of notes are in a melisma
 	</td>
 </tr>
@@ -12417,16 +12447,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0342d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0342d
 	</td>
 </tr>
@@ -12437,8 +12467,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macque, Giovanni de / 1589
+	<td class="composer">
+		Macque, Giovanni de / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -12459,7 +12489,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.9% of notes are in a melisma
 	</td>
 </tr>
@@ -12489,16 +12519,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0342e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0342e
 	</td>
 </tr>
@@ -12509,8 +12539,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -12531,7 +12561,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		1.2% of notes are in a melisma
 	</td>
 </tr>
@@ -12561,16 +12591,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0342f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0342f
 	</td>
 </tr>
@@ -12581,8 +12611,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1591
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -12603,7 +12633,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.4% of notes are in a melisma
 	</td>
 </tr>
@@ -12633,16 +12663,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0343a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0343a
 	</td>
 </tr>
@@ -12653,8 +12683,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bellasio, Paolo / 1591
+	<td class="composer">
+		Bellasio, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -12675,7 +12705,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		23.7% of notes are in a melisma
 	</td>
 </tr>
@@ -12705,16 +12735,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0345a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0345a
 	</td>
 </tr>
@@ -12725,8 +12755,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Preti, Alfonso / 1588
+	<td class="composer">
+		Preti, Alfonso / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -12747,7 +12777,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.2% of notes are in a melisma
 	</td>
 </tr>
@@ -12777,16 +12807,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0346c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0346c
 	</td>
 </tr>
@@ -12797,8 +12827,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Santini, Marsilio / 1602
+	<td class="composer">
+		Santini, Marsilio / <span class="date">1602</span>
 	</td>
 </tr>
 
@@ -12819,7 +12849,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		27.3% of notes are in a melisma
 	</td>
 </tr>
@@ -12849,16 +12879,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0347a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0347a
 	</td>
 </tr>
@@ -12869,8 +12899,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macigni, Giovanni / 1617
+	<td class="composer">
+		Macigni, Giovanni / <span class="date">1617</span>
 	</td>
 </tr>
 
@@ -12891,7 +12921,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		2.9% of notes are in a melisma
 	</td>
 </tr>
@@ -12921,16 +12951,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0353a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0353a
 	</td>
 </tr>
@@ -12941,8 +12971,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Lambardi, Francesco / 1616
+	<td class="composer">
+		Lambardi, Francesco / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -12963,7 +12993,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.1% of notes are in a melisma
 	</td>
 </tr>
@@ -12993,16 +13023,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0354a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0354a
 	</td>
 </tr>
@@ -13013,8 +13043,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Lambardi, Francesco / 1616
+	<td class="composer">
+		Lambardi, Francesco / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -13035,7 +13065,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		0% of notes are in a melisma
 	</td>
 </tr>
@@ -13065,16 +13095,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0358a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0358a
 	</td>
 </tr>
@@ -13085,8 +13115,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Lambardi, Francesco / 1616
+	<td class="composer">
+		Lambardi, Francesco / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -13107,7 +13137,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.3% of notes are in a melisma
 	</td>
 </tr>
@@ -13137,16 +13167,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0358b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0358b
 	</td>
 </tr>
@@ -13157,8 +13187,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cerbello, Giovanni Battista / 1619
+	<td class="composer">
+		Cerbello, Giovanni Battista / <span class="date">1619</span>
 	</td>
 </tr>
 
@@ -13179,7 +13209,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.7% of notes are in a melisma
 	</td>
 </tr>
@@ -13209,16 +13239,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0359a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0359a
 	</td>
 </tr>
@@ -13229,8 +13259,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Lambardi, Francesco / 1616
+	<td class="composer">
+		Lambardi, Francesco / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -13251,7 +13281,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.3% of notes are in a melisma
 	</td>
 </tr>
@@ -13281,16 +13311,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0361a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0361a
 	</td>
 </tr>
@@ -13301,8 +13331,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Lambardi, Francesco / 1614
+	<td class="composer">
+		Lambardi, Francesco / <span class="date">1614</span>
 	</td>
 </tr>
 
@@ -13323,7 +13353,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.6% of notes are in a melisma
 	</td>
 </tr>
@@ -13353,16 +13383,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0361b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0361b
 	</td>
 </tr>
@@ -13373,8 +13403,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Hodemont, Leonard Collet de / 1625
+	<td class="composer">
+		Hodemont, Leonard Collet de / <span class="date">1625</span>
 	</td>
 </tr>
 
@@ -13395,7 +13425,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.6% of notes are in a melisma
 	</td>
 </tr>
@@ -13425,16 +13455,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0361c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0361c
 	</td>
 </tr>
@@ -13445,8 +13475,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Stefani, Giovanni ? / 1620
+	<td class="composer">
+		Stefani, Giovanni ? / <span class="date">1620</span>
 	</td>
 </tr>
 
@@ -13467,7 +13497,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		1.7% of notes are in a melisma
 	</td>
 </tr>
@@ -13497,16 +13527,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0362a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0362a
 	</td>
 </tr>
@@ -13517,8 +13547,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1586
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -13539,7 +13569,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.4% of notes are in a melisma
 	</td>
 </tr>
@@ -13569,16 +13599,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0363a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0363a
 	</td>
 </tr>
@@ -13589,8 +13619,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Hassler, Hans Leo / 1596
+	<td class="composer">
+		Hassler, Hans Leo / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -13611,7 +13641,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.3% of notes are in a melisma
 	</td>
 </tr>
@@ -13641,16 +13671,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0366a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0366a
 	</td>
 </tr>
@@ -13661,8 +13691,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1586
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -13683,7 +13713,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.5% of notes are in a melisma
 	</td>
 </tr>
@@ -13713,16 +13743,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0367a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0367a
 	</td>
 </tr>
@@ -13733,8 +13763,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Luzzaschi. Luzzasco / 1576
+	<td class="composer">
+		Luzzaschi. Luzzasco / <span class="date">1576</span>
 	</td>
 </tr>
 
@@ -13755,7 +13785,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.7% of notes are in a melisma
 	</td>
 </tr>
@@ -13785,16 +13815,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0371b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0371b
 	</td>
 </tr>
@@ -13805,8 +13835,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1591
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -13827,7 +13857,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.3% of notes are in a melisma
 	</td>
 </tr>
@@ -13857,16 +13887,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0372b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0372b
 	</td>
 </tr>
@@ -13877,8 +13907,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mancini, Curzio / 1605
+	<td class="composer">
+		Mancini, Curzio / <span class="date">1605</span>
 	</td>
 </tr>
 
@@ -13899,7 +13929,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.3% of notes are in a melisma
 	</td>
 </tr>
@@ -13929,16 +13959,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0373a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0373a
 	</td>
 </tr>
@@ -13949,8 +13979,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Vignali, Francesco / 1640
+	<td class="composer">
+		Vignali, Francesco / <span class="date">1640</span>
 	</td>
 </tr>
 
@@ -13971,7 +14001,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		40.8% of notes are in a melisma
 	</td>
 </tr>
@@ -14001,16 +14031,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0376d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0376d
 	</td>
 </tr>
@@ -14021,8 +14051,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1590
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -14043,7 +14073,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.9% of notes are in a melisma
 	</td>
 </tr>
@@ -14073,16 +14103,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0378f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0378f
 	</td>
 </tr>
@@ -14093,8 +14123,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1591
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -14115,7 +14145,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16% of notes are in a melisma
 	</td>
 </tr>
@@ -14145,16 +14175,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0378h"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0378h
 	</td>
 </tr>
@@ -14165,8 +14195,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Luzzaschi. Luzzasco / 1604
+	<td class="composer">
+		Luzzaschi. Luzzasco / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -14187,7 +14217,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.1% of notes are in a melisma
 	</td>
 </tr>
@@ -14217,16 +14247,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0379b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0379b
 	</td>
 </tr>
@@ -14237,8 +14267,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gallo, Vincenzo / 1598
+	<td class="composer">
+		Gallo, Vincenzo / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -14259,7 +14289,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.1% of notes are in a melisma
 	</td>
 </tr>
@@ -14289,16 +14319,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0380a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0380a
 	</td>
 </tr>
@@ -14309,8 +14339,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -14331,7 +14361,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.9% of notes are in a melisma
 	</td>
 </tr>
@@ -14361,16 +14391,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0380b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0380b
 	</td>
 </tr>
@@ -14381,8 +14411,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nenna, Pomponio / 1607
+	<td class="composer">
+		Nenna, Pomponio / <span class="date">1607</span>
 	</td>
 </tr>
 
@@ -14403,7 +14433,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.3% of notes are in a melisma
 	</td>
 </tr>
@@ -14433,16 +14463,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0389b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0389b
 	</td>
 </tr>
@@ -14453,8 +14483,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1586
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -14475,7 +14505,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.2% of notes are in a melisma
 	</td>
 </tr>
@@ -14505,16 +14535,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0395b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0395b
 	</td>
 </tr>
@@ -14525,8 +14555,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1584
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -14547,7 +14577,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.6% of notes are in a melisma
 	</td>
 </tr>
@@ -14577,16 +14607,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0395c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0395c
 	</td>
 </tr>
@@ -14597,8 +14627,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1586
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -14619,7 +14649,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.4% of notes are in a melisma
 	</td>
 </tr>
@@ -14649,16 +14679,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0399b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0399b
 	</td>
 </tr>
@@ -14669,8 +14699,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marini, Biagio / 1635
+	<td class="composer">
+		Marini, Biagio / <span class="date">1635</span>
 	</td>
 </tr>
 
@@ -14691,7 +14721,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.2% of notes are in a melisma
 	</td>
 </tr>
@@ -14721,16 +14751,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0407a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0407a
 	</td>
 </tr>
@@ -14741,8 +14771,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mel, Rinaldo del / 1584
+	<td class="composer">
+		Mel, Rinaldo del / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -14763,7 +14793,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.2% of notes are in a melisma
 	</td>
 </tr>
@@ -14793,16 +14823,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0408a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0408a
 	</td>
 </tr>
@@ -14813,8 +14843,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1591
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -14835,7 +14865,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.7% of notes are in a melisma
 	</td>
 </tr>
@@ -14865,16 +14895,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0410a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0410a
 	</td>
 </tr>
@@ -14885,8 +14915,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macigni, Giovanni / 1617
+	<td class="composer">
+		Macigni, Giovanni / <span class="date">1617</span>
 	</td>
 </tr>
 
@@ -14907,7 +14937,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.2% of notes are in a melisma
 	</td>
 </tr>
@@ -14937,16 +14967,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0417d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0417d
 	</td>
 </tr>
@@ -14957,8 +14987,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macigni, Giovanni / 1617
+	<td class="composer">
+		Macigni, Giovanni / <span class="date">1617</span>
 	</td>
 </tr>
 
@@ -14979,7 +15009,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4% of notes are in a melisma
 	</td>
 </tr>
@@ -15009,16 +15039,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0418g"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0418g
 	</td>
 </tr>
@@ -15029,8 +15059,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1586
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -15051,7 +15081,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.5% of notes are in a melisma
 	</td>
 </tr>
@@ -15081,16 +15111,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0418v"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0418v
 	</td>
 </tr>
@@ -15101,8 +15131,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Albano, Marcello / 1616
+	<td class="composer">
+		Albano, Marcello / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -15123,7 +15153,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.7% of notes are in a melisma
 	</td>
 </tr>
@@ -15153,16 +15183,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0418w"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0418w
 	</td>
 </tr>
@@ -15173,8 +15203,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Fornaci, Giacomo / 1617
+	<td class="composer">
+		Fornaci, Giacomo / <span class="date">1617</span>
 	</td>
 </tr>
 
@@ -15195,7 +15225,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.1% of notes are in a melisma
 	</td>
 </tr>
@@ -15225,16 +15255,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0433a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0433a
 	</td>
 </tr>
@@ -15245,8 +15275,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1583
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1583</span>
 	</td>
 </tr>
 
@@ -15267,7 +15297,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.1% of notes are in a melisma
 	</td>
 </tr>
@@ -15297,16 +15327,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0433b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0433b
 	</td>
 </tr>
@@ -15317,8 +15347,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Stivori, Francesco / 1588
+	<td class="composer">
+		Stivori, Francesco / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -15339,7 +15369,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.8% of notes are in a melisma
 	</td>
 </tr>
@@ -15369,16 +15399,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0433f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0433f
 	</td>
 </tr>
@@ -15389,8 +15419,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Della Rota, Adriano  / 1600
+	<td class="composer">
+		Della Rota, Adriano  / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -15411,7 +15441,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.2% of notes are in a melisma
 	</td>
 </tr>
@@ -15441,16 +15471,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0443b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0443b
 	</td>
 </tr>
@@ -15461,8 +15491,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bellasio, Paolo / 1590
+	<td class="composer">
+		Bellasio, Paolo / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -15483,7 +15513,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.7% of notes are in a melisma
 	</td>
 </tr>
@@ -15513,16 +15543,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0443c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0443c
 	</td>
 </tr>
@@ -15533,8 +15563,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1591
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -15555,7 +15585,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		28.6% of notes are in a melisma
 	</td>
 </tr>
@@ -15585,16 +15615,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0495a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0495a
 	</td>
 </tr>
@@ -15605,8 +15635,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -15627,7 +15657,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.1% of notes are in a melisma
 	</td>
 </tr>
@@ -15657,16 +15687,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0541a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0541a
 	</td>
 </tr>
@@ -15677,8 +15707,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Wert, Giaches de / 1577
+	<td class="composer">
+		Wert, Giaches de / <span class="date">1577</span>
 	</td>
 </tr>
 
@@ -15699,7 +15729,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.1% of notes are in a melisma
 	</td>
 </tr>
@@ -15729,16 +15759,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0541c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0541c
 	</td>
 </tr>
@@ -15749,8 +15779,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Striggio, Alessandro / 1596
+	<td class="composer">
+		Striggio, Alessandro / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -15771,7 +15801,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.2% of notes are in a melisma
 	</td>
 </tr>
@@ -15801,16 +15831,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0549a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0549a
 	</td>
 </tr>
@@ -15821,8 +15851,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Isnardi, Paolo / 1577
+	<td class="composer">
+		Isnardi, Paolo / <span class="date">1577</span>
 	</td>
 </tr>
 
@@ -15843,7 +15873,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.9% of notes are in a melisma
 	</td>
 </tr>
@@ -15873,16 +15903,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0553a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0553a
 	</td>
 </tr>
@@ -15893,8 +15923,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1585
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -15915,7 +15945,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		25.7% of notes are in a melisma
 	</td>
 </tr>
@@ -15945,16 +15975,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0558a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0558a
 	</td>
 </tr>
@@ -15965,8 +15995,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Meldert, Leonardo / 1575
+	<td class="composer">
+		Meldert, Leonardo / <span class="date">1575</span>
 	</td>
 </tr>
 
@@ -15987,7 +16017,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.7% of notes are in a melisma
 	</td>
 </tr>
@@ -16017,16 +16047,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560a
 	</td>
 </tr>
@@ -16037,8 +16067,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Vinci, Pietro / 1573
+	<td class="composer">
+		Vinci, Pietro / <span class="date">1573</span>
 	</td>
 </tr>
 
@@ -16059,7 +16089,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		26.7% of notes are in a melisma
 	</td>
 </tr>
@@ -16089,16 +16119,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560b
 	</td>
 </tr>
@@ -16109,8 +16139,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bellasio, Paolo / 1578
+	<td class="composer">
+		Bellasio, Paolo / <span class="date">1578</span>
 	</td>
 </tr>
 
@@ -16131,7 +16161,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		2.6% of notes are in a melisma
 	</td>
 </tr>
@@ -16161,16 +16191,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560c
 	</td>
 </tr>
@@ -16181,8 +16211,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Merulo, Claudio / 1579
+	<td class="composer">
+		Merulo, Claudio / <span class="date">1579</span>
 	</td>
 </tr>
 
@@ -16203,7 +16233,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.4% of notes are in a melisma
 	</td>
 </tr>
@@ -16233,16 +16263,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560d
 	</td>
 </tr>
@@ -16253,8 +16283,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pordenon, Marco Antonio / 1580
+	<td class="composer">
+		Pordenon, Marco Antonio / <span class="date">1580</span>
 	</td>
 </tr>
 
@@ -16275,7 +16305,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.8% of notes are in a melisma
 	</td>
 </tr>
@@ -16305,16 +16335,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560f
 	</td>
 </tr>
@@ -16325,8 +16355,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macque, Giovanni de / 1587
+	<td class="composer">
+		Macque, Giovanni de / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -16347,7 +16377,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.8% of notes are in a melisma
 	</td>
 </tr>
@@ -16377,16 +16407,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560h"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560h
 	</td>
 </tr>
@@ -16397,8 +16427,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -16419,7 +16449,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.1% of notes are in a melisma
 	</td>
 </tr>
@@ -16449,16 +16479,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560i"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560i
 	</td>
 </tr>
@@ -16469,8 +16499,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -16491,7 +16521,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.3% of notes are in a melisma
 	</td>
 </tr>
@@ -16521,16 +16551,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560k"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560k
 	</td>
 </tr>
@@ -16541,8 +16571,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Nanino, Giovanni Bernardino / 1599
+	<td class="composer">
+		Nanino, Giovanni Bernardino / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -16563,7 +16593,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.7% of notes are in a melisma
 	</td>
 </tr>
@@ -16593,16 +16623,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560l"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560l
 	</td>
 </tr>
@@ -16613,8 +16643,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1600
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -16635,7 +16665,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.7% of notes are in a melisma
 	</td>
 </tr>
@@ -16665,16 +16695,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560m"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560m
 	</td>
 </tr>
@@ -16685,8 +16715,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Alberti, Innocenzo / 1603
+	<td class="composer">
+		Alberti, Innocenzo / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -16707,7 +16737,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.3% of notes are in a melisma
 	</td>
 </tr>
@@ -16737,16 +16767,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560o"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560o
 	</td>
 </tr>
@@ -16757,8 +16787,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Spano, Donato Antonio / 1608
+	<td class="composer">
+		Spano, Donato Antonio / <span class="date">1608</span>
 	</td>
 </tr>
 
@@ -16779,7 +16809,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.9% of notes are in a melisma
 	</td>
 </tr>
@@ -16809,16 +16839,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0560p"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0560p
 	</td>
 </tr>
@@ -16829,8 +16859,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Civita, Davide / 1616
+	<td class="composer">
+		Civita, Davide / <span class="date">1616</span>
 	</td>
 </tr>
 
@@ -16851,7 +16881,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.7% of notes are in a melisma
 	</td>
 </tr>
@@ -16881,16 +16911,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0564a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0564a
 	</td>
 </tr>
@@ -16901,8 +16931,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazza, Francesco / 1584
+	<td class="composer">
+		Mazza, Francesco / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -16923,7 +16953,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.8% of notes are in a melisma
 	</td>
 </tr>
@@ -16953,16 +16983,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0564b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0564b
 	</td>
 </tr>
@@ -16973,8 +17003,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1585
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -16995,7 +17025,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.9% of notes are in a melisma
 	</td>
 </tr>
@@ -17025,16 +17055,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0571b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0571b
 	</td>
 </tr>
@@ -17045,8 +17075,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -17067,7 +17097,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.1% of notes are in a melisma
 	</td>
 </tr>
@@ -17097,16 +17127,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0571c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0571c
 	</td>
 </tr>
@@ -17117,8 +17147,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1600
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -17139,7 +17169,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.4% of notes are in a melisma
 	</td>
 </tr>
@@ -17169,16 +17199,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0592a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0592a
 	</td>
 </tr>
@@ -17189,8 +17219,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1588
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -17211,7 +17241,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.3% of notes are in a melisma
 	</td>
 </tr>
@@ -17241,16 +17271,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0602a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0602a
 	</td>
 </tr>
@@ -17261,8 +17291,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Merulo, Claudio / 1577
+	<td class="composer">
+		Merulo, Claudio / <span class="date">1577</span>
 	</td>
 </tr>
 
@@ -17283,7 +17313,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		26.4% of notes are in a melisma
 	</td>
 </tr>
@@ -17313,16 +17343,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0602c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0602c
 	</td>
 </tr>
@@ -17333,8 +17363,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1590
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -17355,7 +17385,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.6% of notes are in a melisma
 	</td>
 </tr>
@@ -17385,16 +17415,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0602d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0602d
 	</td>
 </tr>
@@ -17405,8 +17435,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Effrem, Muzio / 1591
+	<td class="composer">
+		Effrem, Muzio / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -17427,7 +17457,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.6% of notes are in a melisma
 	</td>
 </tr>
@@ -17457,16 +17487,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0602e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0602e
 	</td>
 </tr>
@@ -17477,8 +17507,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -17499,7 +17529,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.1% of notes are in a melisma
 	</td>
 </tr>
@@ -17529,16 +17559,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0611a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0611a
 	</td>
 </tr>
@@ -17549,8 +17579,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Corfini, Jacopo / 1575
+	<td class="composer">
+		Corfini, Jacopo / <span class="date">1575</span>
 	</td>
 </tr>
 
@@ -17571,7 +17601,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.2% of notes are in a melisma
 	</td>
 </tr>
@@ -17601,16 +17631,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0611b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0611b
 	</td>
 </tr>
@@ -17621,8 +17651,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dragoni, Giovanni Andrea / 1575
+	<td class="composer">
+		Dragoni, Giovanni Andrea / <span class="date">1575</span>
 	</td>
 </tr>
 
@@ -17643,7 +17673,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.3% of notes are in a melisma
 	</td>
 </tr>
@@ -17673,16 +17703,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0611c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0611c
 	</td>
 </tr>
@@ -17693,8 +17723,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Feliciani, Andrea / 1575
+	<td class="composer">
+		Feliciani, Andrea / <span class="date">1575</span>
 	</td>
 </tr>
 
@@ -17715,7 +17745,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.2% of notes are in a melisma
 	</td>
 </tr>
@@ -17745,16 +17775,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0611d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0611d
 	</td>
 </tr>
@@ -17765,8 +17795,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Isnardi, Paolo / 1577
+	<td class="composer">
+		Isnardi, Paolo / <span class="date">1577</span>
 	</td>
 </tr>
 
@@ -17787,7 +17817,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.8% of notes are in a melisma
 	</td>
 </tr>
@@ -17817,16 +17847,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0611m"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0611m
 	</td>
 </tr>
@@ -17837,8 +17867,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bellaver, Vincenzo / 1587
+	<td class="composer">
+		Bellaver, Vincenzo / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -17859,7 +17889,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.7% of notes are in a melisma
 	</td>
 </tr>
@@ -17889,16 +17919,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0611n"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0611n
 	</td>
 </tr>
@@ -17909,8 +17939,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1591
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -17931,7 +17961,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.4% of notes are in a melisma
 	</td>
 </tr>
@@ -17961,16 +17991,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0612a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0612a
 	</td>
 </tr>
@@ -17981,8 +18011,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Porta, Costanzo / 1573
+	<td class="composer">
+		Porta, Costanzo / <span class="date">1573</span>
 	</td>
 </tr>
 
@@ -18003,7 +18033,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.1% of notes are in a melisma
 	</td>
 </tr>
@@ -18033,16 +18063,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0614a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0614a
 	</td>
 </tr>
@@ -18053,8 +18083,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Pordenon, Marco Antonio / 1573
+	<td class="composer">
+		Pordenon, Marco Antonio / <span class="date">1573</span>
 	</td>
 </tr>
 
@@ -18075,7 +18105,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.4% of notes are in a melisma
 	</td>
 </tr>
@@ -18105,16 +18135,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0614b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0614b
 	</td>
 </tr>
@@ -18125,8 +18155,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1579
+	<td class="composer">
+		Felis, Stefano / <span class="date">1579</span>
 	</td>
 </tr>
 
@@ -18147,7 +18177,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.9% of notes are in a melisma
 	</td>
 </tr>
@@ -18177,16 +18207,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0614c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0614c
 	</td>
 </tr>
@@ -18197,8 +18227,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ingegneri, Marco Antonio / 1579
+	<td class="composer">
+		Ingegneri, Marco Antonio / <span class="date">1579</span>
 	</td>
 </tr>
 
@@ -18219,7 +18249,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		27.7% of notes are in a melisma
 	</td>
 </tr>
@@ -18249,16 +18279,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0614h"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0614h
 	</td>
 </tr>
@@ -18269,8 +18299,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1590
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -18291,7 +18321,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.1% of notes are in a melisma
 	</td>
 </tr>
@@ -18321,16 +18351,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0614j"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0614j
 	</td>
 </tr>
@@ -18341,8 +18371,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Genvino, Francesco / 1605
+	<td class="composer">
+		Genvino, Francesco / <span class="date">1605</span>
 	</td>
 </tr>
 
@@ -18363,7 +18393,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.4% of notes are in a melisma
 	</td>
 </tr>
@@ -18393,16 +18423,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0615b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0615b
 	</td>
 </tr>
@@ -18413,8 +18443,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1586
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -18435,7 +18465,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.9% of notes are in a melisma
 	</td>
 </tr>
@@ -18465,16 +18495,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0615c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0615c
 	</td>
 </tr>
@@ -18485,8 +18515,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macque, Giovanni de / 1589
+	<td class="composer">
+		Macque, Giovanni de / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -18507,7 +18537,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.3% of notes are in a melisma
 	</td>
 </tr>
@@ -18537,16 +18567,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0617a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0617a
 	</td>
 </tr>
@@ -18557,8 +18587,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Verdonck, Cornelis / 1601
+	<td class="composer">
+		Verdonck, Cornelis / <span class="date">1601</span>
 	</td>
 </tr>
 
@@ -18579,7 +18609,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.7% of notes are in a melisma
 	</td>
 </tr>
@@ -18609,16 +18639,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0707a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0707a
 	</td>
 </tr>
@@ -18629,8 +18659,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Agostini, Lodovico / 1582
+	<td class="composer">
+		Agostini, Lodovico / <span class="date">1582</span>
 	</td>
 </tr>
 
@@ -18651,7 +18681,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.9% of notes are in a melisma
 	</td>
 </tr>
@@ -18681,16 +18711,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0734b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0734b
 	</td>
 </tr>
@@ -18701,8 +18731,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1586
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -18723,7 +18753,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15% of notes are in a melisma
 	</td>
 </tr>
@@ -18753,16 +18783,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0735b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0735b
 	</td>
 </tr>
@@ -18773,8 +18803,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gesualdo, Carlo / 1594
+	<td class="composer">
+		Gesualdo, Carlo / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -18795,7 +18825,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.7% of notes are in a melisma
 	</td>
 </tr>
@@ -18825,16 +18855,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0760a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0760a
 	</td>
 </tr>
@@ -18845,8 +18875,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ferrabosco, Alfonso / 1587
+	<td class="composer">
+		Ferrabosco, Alfonso / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -18867,7 +18897,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.6% of notes are in a melisma
 	</td>
 </tr>
@@ -18897,16 +18927,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0770a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0770a
 	</td>
 </tr>
@@ -18917,8 +18947,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Verdonck, Cornelis / 1603
+	<td class="composer">
+		Verdonck, Cornelis / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -18939,7 +18969,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		25.9% of notes are in a melisma
 	</td>
 </tr>
@@ -18969,16 +18999,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0785a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0785a
 	</td>
 </tr>
@@ -18989,8 +19019,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Belli, Girolamo / 1583
+	<td class="composer">
+		Belli, Girolamo / <span class="date">1583</span>
 	</td>
 </tr>
 
@@ -19011,7 +19041,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.7% of notes are in a melisma
 	</td>
 </tr>
@@ -19041,16 +19071,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0862a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0862a
 	</td>
 </tr>
@@ -19061,8 +19091,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Raval, Sebastiano / 1593
+	<td class="composer">
+		Raval, Sebastiano / <span class="date">1593</span>
 	</td>
 </tr>
 
@@ -19083,7 +19113,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		41.4% of notes are in a melisma
 	</td>
 </tr>
@@ -19113,16 +19143,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0865a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0865a
 	</td>
 </tr>
@@ -19133,8 +19163,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1590
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -19155,7 +19185,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.4% of notes are in a melisma
 	</td>
 </tr>
@@ -19185,16 +19215,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0893a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0893a
 	</td>
 </tr>
@@ -19205,8 +19235,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bonelli, Aurelio / 1596
+	<td class="composer">
+		Bonelli, Aurelio / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -19227,7 +19257,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.3% of notes are in a melisma
 	</td>
 </tr>
@@ -19257,16 +19287,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0896b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0896b
 	</td>
 </tr>
@@ -19277,8 +19307,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -19299,7 +19329,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		25.4% of notes are in a melisma
 	</td>
 </tr>
@@ -19329,16 +19359,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0901a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0901a
 	</td>
 </tr>
@@ -19349,8 +19379,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Giovannelli, Ruggiero / 1593
+	<td class="composer">
+		Giovannelli, Ruggiero / <span class="date">1593</span>
 	</td>
 </tr>
 
@@ -19371,7 +19401,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.8% of notes are in a melisma
 	</td>
 </tr>
@@ -19401,16 +19431,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0903a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0903a
 	</td>
 </tr>
@@ -19421,8 +19451,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zenaro, Giulio / 1589
+	<td class="composer">
+		Zenaro, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -19443,7 +19473,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		30.3% of notes are in a melisma
 	</td>
 </tr>
@@ -19473,16 +19503,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0929a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0929a
 	</td>
 </tr>
@@ -19493,8 +19523,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Wert, Giaches de / 1588
+	<td class="composer">
+		Wert, Giaches de / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -19515,7 +19545,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21% of notes are in a melisma
 	</td>
 </tr>
@@ -19545,16 +19575,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0930a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0930a
 	</td>
 </tr>
@@ -19565,8 +19595,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Wert, Giaches de / 1588
+	<td class="composer">
+		Wert, Giaches de / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -19587,7 +19617,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.5% of notes are in a melisma
 	</td>
 </tr>
@@ -19617,16 +19647,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm0939a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm0939a
 	</td>
 </tr>
@@ -19637,8 +19667,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gabella, Giovanni Battista / 1588
+	<td class="composer">
+		Gabella, Giovanni Battista / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -19659,7 +19689,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.9% of notes are in a melisma
 	</td>
 </tr>
@@ -19689,16 +19719,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1021a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1021a
 	</td>
 </tr>
@@ -19709,8 +19739,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1595
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1595</span>
 	</td>
 </tr>
 
@@ -19731,7 +19761,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		40.5% of notes are in a melisma
 	</td>
 </tr>
@@ -19761,16 +19791,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1022a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1022a
 	</td>
 </tr>
@@ -19781,8 +19811,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -19803,7 +19833,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		34.2% of notes are in a melisma
 	</td>
 </tr>
@@ -19833,16 +19863,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1032a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1032a
 	</td>
 </tr>
@@ -19853,8 +19883,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Giovannelli, Ruggiero / 1592
+	<td class="composer">
+		Giovannelli, Ruggiero / <span class="date">1592</span>
 	</td>
 </tr>
 
@@ -19875,7 +19905,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14% of notes are in a melisma
 	</td>
 </tr>
@@ -19905,16 +19935,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1048a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1048a
 	</td>
 </tr>
@@ -19925,8 +19955,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Guami, Giuseppe / 1588
+	<td class="composer">
+		Guami, Giuseppe / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -19947,7 +19977,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17% of notes are in a melisma
 	</td>
 </tr>
@@ -19977,16 +20007,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1049a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1049a
 	</td>
 </tr>
@@ -19997,8 +20027,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Zenaro, Giulio / 1589
+	<td class="composer">
+		Zenaro, Giulio / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -20019,7 +20049,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		25% of notes are in a melisma
 	</td>
 </tr>
@@ -20049,16 +20079,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1049b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1049b
 	</td>
 </tr>
@@ -20069,8 +20099,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1599
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -20091,7 +20121,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.1% of notes are in a melisma
 	</td>
 </tr>
@@ -20121,16 +20151,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1050a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1050a
 	</td>
 </tr>
@@ -20141,8 +20171,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Virchi, Paolo / 1591
+	<td class="composer">
+		Virchi, Paolo / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -20163,7 +20193,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.5% of notes are in a melisma
 	</td>
 </tr>
@@ -20193,16 +20223,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1082a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1082a
 	</td>
 </tr>
@@ -20213,8 +20243,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Philips, Peter / 1603
+	<td class="composer">
+		Philips, Peter / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -20235,7 +20265,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.1% of notes are in a melisma
 	</td>
 </tr>
@@ -20265,16 +20295,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1177a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1177a
 	</td>
 </tr>
@@ -20285,8 +20315,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Roinci, Luigi / 1596
+	<td class="composer">
+		Roinci, Luigi / <span class="date">1596</span>
 	</td>
 </tr>
 
@@ -20307,7 +20337,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.1% of notes are in a melisma
 	</td>
 </tr>
@@ -20337,16 +20367,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1177b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1177b
 	</td>
 </tr>
@@ -20357,8 +20387,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bozi, Paolo / 1599
+	<td class="composer">
+		Bozi, Paolo / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -20379,7 +20409,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.9% of notes are in a melisma
 	</td>
 </tr>
@@ -20409,16 +20439,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1177c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1177c
 	</td>
 </tr>
@@ -20429,8 +20459,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Billi, Lucio / 1602
+	<td class="composer">
+		Billi, Lucio / <span class="date">1602</span>
 	</td>
 </tr>
 
@@ -20451,7 +20481,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.1% of notes are in a melisma
 	</td>
 </tr>
@@ -20481,16 +20511,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1203a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1203a
 	</td>
 </tr>
@@ -20501,8 +20531,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gherardini, Arcangelo / 1585
+	<td class="composer">
+		Gherardini, Arcangelo / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -20523,7 +20553,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19.8% of notes are in a melisma
 	</td>
 </tr>
@@ -20553,16 +20583,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1204a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1204a
 	</td>
 </tr>
@@ -20573,8 +20603,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Malpigli, Gentile / 1598
+	<td class="composer">
+		Malpigli, Gentile / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -20595,7 +20625,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		32.4% of notes are in a melisma
 	</td>
 </tr>
@@ -20625,16 +20655,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1205b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1205b
 	</td>
 </tr>
@@ -20645,8 +20675,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gherardini, Arcangelo / 1585
+	<td class="composer">
+		Gherardini, Arcangelo / <span class="date">1585</span>
 	</td>
 </tr>
 
@@ -20667,7 +20697,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7% of notes are in a melisma
 	</td>
 </tr>
@@ -20697,16 +20727,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1276a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1276a
 	</td>
 </tr>
@@ -20717,8 +20747,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Vignali, Francesco / 1640
+	<td class="composer">
+		Vignali, Francesco / <span class="date">1640</span>
 	</td>
 </tr>
 
@@ -20739,7 +20769,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.4% of notes are in a melisma
 	</td>
 </tr>
@@ -20769,16 +20799,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1370a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1370a
 	</td>
 </tr>
@@ -20789,8 +20819,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cortellini, Camillo / 1587
+	<td class="composer">
+		Cortellini, Camillo / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -20811,7 +20841,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		38.7% of notes are in a melisma
 	</td>
 </tr>
@@ -20841,16 +20871,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1497a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1497a
 	</td>
 </tr>
@@ -20861,8 +20891,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cirullo, Giovanni Antonio / 1598
+	<td class="composer">
+		Cirullo, Giovanni Antonio / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -20883,7 +20913,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.2% of notes are in a melisma
 	</td>
 </tr>
@@ -20913,16 +20943,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1637a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1637a
 	</td>
 </tr>
@@ -20933,8 +20963,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Gastoldi, Giovanni Giacomo / 1587
+	<td class="composer">
+		Gastoldi, Giovanni Giacomo / <span class="date">1587</span>
 	</td>
 </tr>
 
@@ -20955,7 +20985,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		26.9% of notes are in a melisma
 	</td>
 </tr>
@@ -20985,16 +21015,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1688b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1688b
 	</td>
 </tr>
@@ -21005,8 +21035,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marenzio, Luca / 1584
+	<td class="composer">
+		Marenzio, Luca / <span class="date">1584</span>
 	</td>
 </tr>
 
@@ -21027,7 +21057,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		30.6% of notes are in a melisma
 	</td>
 </tr>
@@ -21057,16 +21087,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1688c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1688c
 	</td>
 </tr>
@@ -21077,8 +21107,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dueto, Antonio / 1586
+	<td class="composer">
+		Dueto, Antonio / <span class="date">1586</span>
 	</td>
 </tr>
 
@@ -21099,7 +21129,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		30.9% of notes are in a melisma
 	</td>
 </tr>
@@ -21129,16 +21159,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm1688d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm1688d
 	</td>
 </tr>
@@ -21149,8 +21179,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monte, Filippo di / 1589
+	<td class="composer">
+		Monte, Filippo di / <span class="date">1589</span>
 	</td>
 </tr>
 
@@ -21171,7 +21201,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.4% of notes are in a melisma
 	</td>
 </tr>
@@ -21201,16 +21231,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trm9999a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trm9999a
 	</td>
 </tr>
@@ -21221,8 +21251,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Lambardi, Francesco / 1614
+	<td class="composer">
+		Lambardi, Francesco / <span class="date">1614</span>
 	</td>
 </tr>
 
@@ -21243,7 +21273,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.8% of notes are in a melisma
 	</td>
 </tr>
@@ -21273,16 +21303,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1010001a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1010001a
 	</td>
 </tr>
@@ -21293,8 +21323,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Porto, Allegro / 1625
+	<td class="composer">
+		Porto, Allegro / <span class="date">1625</span>
 	</td>
 </tr>
 
@@ -21315,7 +21345,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		33.3% of notes are in a melisma
 	</td>
 </tr>
@@ -21345,16 +21375,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020338a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020338a
 	</td>
 </tr>
@@ -21365,8 +21395,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -21387,7 +21417,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.3% of notes are in a melisma
 	</td>
 </tr>
@@ -21417,16 +21447,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020338b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020338b
 	</td>
 </tr>
@@ -21437,8 +21467,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Melli, Domenico Maria / 1602
+	<td class="composer">
+		Melli, Domenico Maria / <span class="date">1602</span>
 	</td>
 </tr>
 
@@ -21459,7 +21489,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.6% of notes are in a melisma
 	</td>
 </tr>
@@ -21489,16 +21519,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020338c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020338c
 	</td>
 </tr>
@@ -21509,8 +21539,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Massaino, Tiburtio / 1604
+	<td class="composer">
+		Massaino, Tiburtio / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -21531,7 +21561,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.4% of notes are in a melisma
 	</td>
 </tr>
@@ -21561,16 +21591,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020338d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020338d
 	</td>
 </tr>
@@ -21581,8 +21611,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
+	<td class="composer">
+		Boschetti, Giovanni Boschetto / <span class="date">1613</span>
 	</td>
 </tr>
 
@@ -21603,7 +21633,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.3% of notes are in a melisma
 	</td>
 </tr>
@@ -21633,16 +21663,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020338e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020338e
 	</td>
 </tr>
@@ -21653,8 +21683,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Benedetti, Piero / 1617
+	<td class="composer">
+		Benedetti, Piero / <span class="date">1617</span>
 	</td>
 </tr>
 
@@ -21675,7 +21705,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.5% of notes are in a melisma
 	</td>
 </tr>
@@ -21705,16 +21735,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020338f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020338f
 	</td>
 </tr>
@@ -21725,8 +21755,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Macigni, Giovanni / 1617
+	<td class="composer">
+		Macigni, Giovanni / <span class="date">1617</span>
 	</td>
 </tr>
 
@@ -21747,7 +21777,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.1% of notes are in a melisma
 	</td>
 </tr>
@@ -21777,16 +21807,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020401a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020401a
 	</td>
 </tr>
@@ -21797,8 +21827,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -21819,7 +21849,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.2% of notes are in a melisma
 	</td>
 </tr>
@@ -21849,16 +21879,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020410a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020410a
 	</td>
 </tr>
@@ -21869,8 +21899,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -21891,7 +21921,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.6% of notes are in a melisma
 	</td>
 </tr>
@@ -21921,16 +21951,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020422a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020422a
 	</td>
 </tr>
@@ -21941,8 +21971,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -21963,7 +21993,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.8% of notes are in a melisma
 	</td>
 </tr>
@@ -21993,16 +22023,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020431a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020431a
 	</td>
 </tr>
@@ -22013,8 +22043,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22035,7 +22065,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.6% of notes are in a melisma
 	</td>
 </tr>
@@ -22065,16 +22095,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020441a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020441a
 	</td>
 </tr>
@@ -22085,8 +22115,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22107,7 +22137,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.9% of notes are in a melisma
 	</td>
 </tr>
@@ -22137,16 +22167,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020452a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020452a
 	</td>
 </tr>
@@ -22157,8 +22187,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22179,7 +22209,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.4% of notes are in a melisma
 	</td>
 </tr>
@@ -22209,16 +22239,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020459a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020459a
 	</td>
 </tr>
@@ -22229,8 +22259,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22251,7 +22281,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.3% of notes are in a melisma
 	</td>
 </tr>
@@ -22281,16 +22311,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020468a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020468a
 	</td>
 </tr>
@@ -22301,8 +22331,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22323,7 +22353,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.5% of notes are in a melisma
 	</td>
 </tr>
@@ -22353,16 +22383,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020476a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020476a
 	</td>
 </tr>
@@ -22373,8 +22403,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22395,7 +22425,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.8% of notes are in a melisma
 	</td>
 </tr>
@@ -22425,16 +22455,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020486a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020486a
 	</td>
 </tr>
@@ -22445,8 +22475,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22467,7 +22497,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.4% of notes are in a melisma
 	</td>
 </tr>
@@ -22497,16 +22527,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020494a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020494a
 	</td>
 </tr>
@@ -22517,8 +22547,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22539,7 +22569,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17% of notes are in a melisma
 	</td>
 </tr>
@@ -22569,16 +22599,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam1020502a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam1020502a
 	</td>
 </tr>
@@ -22589,8 +22619,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22611,7 +22641,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.4% of notes are in a melisma
 	</td>
 </tr>
@@ -22641,16 +22671,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2010724a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2010724a
 	</td>
 </tr>
@@ -22661,8 +22691,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -22683,7 +22713,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		0.6% of notes are in a melisma
 	</td>
 </tr>
@@ -22713,16 +22743,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031034a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031034a
 	</td>
 </tr>
@@ -22733,8 +22763,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -22755,7 +22785,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.1% of notes are in a melisma
 	</td>
 </tr>
@@ -22785,16 +22815,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031034b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031034b
 	</td>
 </tr>
@@ -22805,8 +22835,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22827,7 +22857,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.6% of notes are in a melisma
 	</td>
 </tr>
@@ -22857,16 +22887,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031045a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031045a
 	</td>
 </tr>
@@ -22877,8 +22907,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -22899,7 +22929,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.9% of notes are in a melisma
 	</td>
 </tr>
@@ -22929,16 +22959,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031045b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031045b
 	</td>
 </tr>
@@ -22949,8 +22979,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -22971,7 +23001,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.4% of notes are in a melisma
 	</td>
 </tr>
@@ -23001,16 +23031,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031052a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031052a
 	</td>
 </tr>
@@ -23021,8 +23051,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23043,7 +23073,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		27% of notes are in a melisma
 	</td>
 </tr>
@@ -23073,16 +23103,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031061a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031061a
 	</td>
 </tr>
@@ -23093,8 +23123,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23115,7 +23145,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.8% of notes are in a melisma
 	</td>
 </tr>
@@ -23145,16 +23175,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031067a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031067a
 	</td>
 </tr>
@@ -23165,8 +23195,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23187,7 +23217,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.2% of notes are in a melisma
 	</td>
 </tr>
@@ -23217,16 +23247,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031067b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031067b
 	</td>
 </tr>
@@ -23237,8 +23267,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -23259,7 +23289,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.1% of notes are in a melisma
 	</td>
 </tr>
@@ -23289,16 +23319,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031075a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031075a
 	</td>
 </tr>
@@ -23309,8 +23339,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23331,7 +23361,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.7% of notes are in a melisma
 	</td>
 </tr>
@@ -23361,16 +23391,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031081a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031081a
 	</td>
 </tr>
@@ -23381,8 +23411,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23403,7 +23433,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		2.4% of notes are in a melisma
 	</td>
 </tr>
@@ -23433,16 +23463,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031089a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031089a
 	</td>
 </tr>
@@ -23453,8 +23483,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23475,7 +23505,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.7% of notes are in a melisma
 	</td>
 </tr>
@@ -23505,16 +23535,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031096a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031096a
 	</td>
 </tr>
@@ -23525,8 +23555,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23547,7 +23577,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.1% of notes are in a melisma
 	</td>
 </tr>
@@ -23577,16 +23607,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031100a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031100a
 	</td>
 </tr>
@@ -23597,8 +23627,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23619,7 +23649,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.7% of notes are in a melisma
 	</td>
 </tr>
@@ -23649,16 +23679,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031106a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031106a
 	</td>
 </tr>
@@ -23669,8 +23699,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23691,7 +23721,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.4% of notes are in a melisma
 	</td>
 </tr>
@@ -23721,16 +23751,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031109a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031109a
 	</td>
 </tr>
@@ -23741,8 +23771,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23763,7 +23793,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.9% of notes are in a melisma
 	</td>
 </tr>
@@ -23793,16 +23823,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031113a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031113a
 	</td>
 </tr>
@@ -23813,8 +23843,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23835,7 +23865,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.5% of notes are in a melisma
 	</td>
 </tr>
@@ -23865,16 +23895,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031121a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031121a
 	</td>
 </tr>
@@ -23885,8 +23915,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23907,7 +23937,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		29.5% of notes are in a melisma
 	</td>
 </tr>
@@ -23937,16 +23967,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031126a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031126a
 	</td>
 </tr>
@@ -23957,8 +23987,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -23979,7 +24009,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.2% of notes are in a melisma
 	</td>
 </tr>
@@ -24009,16 +24039,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam2031133a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam2031133a
 	</td>
 </tr>
@@ -24029,8 +24059,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Balsamino, Simone / 1594
+	<td class="composer">
+		Balsamino, Simone / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -24051,7 +24081,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.7% of notes are in a melisma
 	</td>
 </tr>
@@ -24081,16 +24111,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam3021324a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam3021324a
 	</td>
 </tr>
@@ -24101,8 +24131,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		D'India, Sigismondo / 1615
+	<td class="composer">
+		D'India, Sigismondo / <span class="date">1615</span>
 	</td>
 </tr>
 
@@ -24123,7 +24153,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.4% of notes are in a melisma
 	</td>
 </tr>
@@ -24153,16 +24183,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam3021417a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam3021417a
 	</td>
 </tr>
@@ -24173,8 +24203,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -24195,7 +24225,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.1% of notes are in a melisma
 	</td>
 </tr>
@@ -24225,16 +24255,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam3021417b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam3021417b
 	</td>
 </tr>
@@ -24245,8 +24275,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Massaino, Tiburtio / 1604
+	<td class="composer">
+		Massaino, Tiburtio / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -24267,7 +24297,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.8% of notes are in a melisma
 	</td>
 </tr>
@@ -24297,16 +24327,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam3021430a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam3021430a
 	</td>
 </tr>
@@ -24317,8 +24347,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -24339,7 +24369,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.2% of notes are in a melisma
 	</td>
 </tr>
@@ -24369,16 +24399,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam3021430b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam3021430b
 	</td>
 </tr>
@@ -24389,8 +24419,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Massaino, Tiburtio / 1604
+	<td class="composer">
+		Massaino, Tiburtio / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -24411,7 +24441,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.6% of notes are in a melisma
 	</td>
 </tr>
@@ -24441,16 +24471,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam4011614a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam4011614a
 	</td>
 </tr>
@@ -24461,8 +24491,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ghizzolo, Giovanni / 1608
+	<td class="composer">
+		Ghizzolo, Giovanni / <span class="date">1608</span>
 	</td>
 </tr>
 
@@ -24483,7 +24513,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.2% of notes are in a melisma
 	</td>
 </tr>
@@ -24513,16 +24543,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam4021717a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam4021717a
 	</td>
 </tr>
@@ -24533,8 +24563,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Marotta, Erasmo / 1600
+	<td class="composer">
+		Marotta, Erasmo / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -24555,7 +24585,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.3% of notes are in a melisma
 	</td>
 </tr>
@@ -24585,16 +24615,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam4021779a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam4021779a
 	</td>
 </tr>
@@ -24605,8 +24635,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Massaino, Tiburtio / 1604
+	<td class="composer">
+		Massaino, Tiburtio / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -24627,7 +24657,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.4% of notes are in a melisma
 	</td>
 </tr>
@@ -24657,16 +24687,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam4021827a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam4021827a
 	</td>
 </tr>
@@ -24677,8 +24707,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
+	<td class="composer">
+		Boschetti, Giovanni Boschetto / <span class="date">1613</span>
 	</td>
 </tr>
 
@@ -24699,7 +24729,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		43.4% of notes are in a melisma
 	</td>
 </tr>
@@ -24729,16 +24759,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam4021833a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam4021833a
 	</td>
 </tr>
@@ -24749,8 +24779,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
+	<td class="composer">
+		Boschetti, Giovanni Boschetto / <span class="date">1613</span>
 	</td>
 </tr>
 
@@ -24771,7 +24801,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		33.5% of notes are in a melisma
 	</td>
 </tr>
@@ -24801,16 +24831,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam5011850a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam5011850a
 	</td>
 </tr>
@@ -24821,8 +24851,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ghizzolo, Giovanni / 1608
+	<td class="composer">
+		Ghizzolo, Giovanni / <span class="date">1608</span>
 	</td>
 </tr>
 
@@ -24843,7 +24873,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.5% of notes are in a melisma
 	</td>
 </tr>
@@ -24873,16 +24903,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam5011934a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam5011934a
 	</td>
 </tr>
@@ -24893,8 +24923,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ghizzolo, Giovanni / 1608
+	<td class="composer">
+		Ghizzolo, Giovanni / <span class="date">1608</span>
 	</td>
 </tr>
 
@@ -24915,7 +24945,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.7% of notes are in a melisma
 	</td>
 </tr>
@@ -24945,16 +24975,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tam5011978a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tam5011978a
 	</td>
 </tr>
@@ -24965,8 +24995,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Boschetti, Giovanni Boschetto / 1613
+	<td class="composer">
+		Boschetti, Giovanni Boschetto / <span class="date">1613</span>
 	</td>
 </tr>
 
@@ -24987,7 +25017,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.4% of notes are in a melisma
 	</td>
 </tr>
@@ -25017,16 +25047,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tec1089a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tec1089a
 	</td>
 </tr>
@@ -25037,8 +25067,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Coma, Annibale / 1588
+	<td class="composer">
+		Coma, Annibale / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -25059,7 +25089,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.2% of notes are in a melisma
 	</td>
 </tr>
@@ -25089,16 +25119,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tec2073a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tec2073a
 	</td>
 </tr>
@@ -25109,8 +25139,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Tresti, Flaminio / 1590
+	<td class="composer">
+		Tresti, Flaminio / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -25131,7 +25161,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10% of notes are in a melisma
 	</td>
 </tr>
@@ -25161,16 +25191,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tri5016b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tri5016b
 	</td>
 </tr>
@@ -25181,8 +25211,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Stivori, Francesco / 1590
+	<td class="composer">
+		Stivori, Francesco / <span class="date">1590</span>
 	</td>
 </tr>
 
@@ -25203,7 +25233,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		39.1% of notes are in a melisma
 	</td>
 </tr>
@@ -25233,16 +25263,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tri5018a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tri5018a
 	</td>
 </tr>
@@ -25253,8 +25283,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Felis, Stefano / 1591
+	<td class="composer">
+		Felis, Stefano / <span class="date">1591</span>
 	</td>
 </tr>
 
@@ -25275,7 +25305,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.1% of notes are in a melisma
 	</td>
 </tr>
@@ -25305,16 +25335,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Trt0506a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Trt0506a
 	</td>
 </tr>
@@ -25325,8 +25355,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Personè, Diego / 1628
+	<td class="composer">
+		Personè, Diego / <span class="date">1628</span>
 	</td>
 </tr>
 
@@ -25347,7 +25377,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.4% of notes are in a melisma
 	</td>
 </tr>
@@ -25377,16 +25407,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg01002a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg01002a
 	</td>
 </tr>
@@ -25397,8 +25427,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Bellanda, Lodovico / 1599
+	<td class="composer">
+		Bellanda, Lodovico / <span class="date">1599</span>
 	</td>
 </tr>
 
@@ -25419,7 +25449,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		43.5% of notes are in a melisma
 	</td>
 </tr>
@@ -25449,16 +25479,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg01002b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg01002b
 	</td>
 </tr>
@@ -25469,8 +25499,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Priuli, Giovanni / 1604
+	<td class="composer">
+		Priuli, Giovanni / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -25491,7 +25521,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.8% of notes are in a melisma
 	</td>
 </tr>
@@ -25521,16 +25551,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg01003a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg01003a
 	</td>
 </tr>
@@ -25541,8 +25571,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Priuli, Giovanni / 1604
+	<td class="composer">
+		Priuli, Giovanni / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -25563,7 +25593,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.5% of notes are in a melisma
 	</td>
 </tr>
@@ -25593,16 +25623,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg03008a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg03008a
 	</td>
 </tr>
@@ -25613,8 +25643,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Mazzocchi, Domenico / 1640
+	<td class="composer">
+		Mazzocchi, Domenico / <span class="date">1640</span>
 	</td>
 </tr>
 
@@ -25635,7 +25665,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		34.8% of notes are in a melisma
 	</td>
 </tr>
@@ -25665,16 +25695,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg06103a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg06103a
 	</td>
 </tr>
@@ -25685,8 +25715,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1603
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -25707,7 +25737,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.9% of notes are in a melisma
 	</td>
 </tr>
@@ -25737,16 +25767,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg06104a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg06104a
 	</td>
 </tr>
@@ -25757,8 +25787,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1603
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -25779,7 +25809,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.4% of notes are in a melisma
 	</td>
 </tr>
@@ -25809,16 +25839,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg06105a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg06105a
 	</td>
 </tr>
@@ -25829,8 +25859,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1603
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -25851,7 +25881,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		14.7% of notes are in a melisma
 	</td>
 </tr>
@@ -25881,16 +25911,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg07019b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg07019b
 	</td>
 </tr>
@@ -25901,8 +25931,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		D'India, Sigismondo / 1609
+	<td class="composer">
+		D'India, Sigismondo / <span class="date">1609</span>
 	</td>
 </tr>
 
@@ -25923,7 +25953,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		41.1% of notes are in a melisma
 	</td>
 </tr>
@@ -25953,16 +25983,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg07020b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg07020b
 	</td>
 </tr>
@@ -25973,8 +26003,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		D'India, Sigismondo / 1609
+	<td class="composer">
+		D'India, Sigismondo / <span class="date">1609</span>
 	</td>
 </tr>
 
@@ -25995,7 +26025,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		60.9% of notes are in a melisma
 	</td>
 </tr>
@@ -26025,16 +26055,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg07021a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg07021a
 	</td>
 </tr>
@@ -26045,8 +26075,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		D'India, Sigismondo / 1609
+	<td class="composer">
+		D'India, Sigismondo / <span class="date">1609</span>
 	</td>
 </tr>
 
@@ -26067,7 +26097,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		57.3% of notes are in a melisma
 	</td>
 </tr>
@@ -26097,16 +26127,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12077a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12077a
 	</td>
 </tr>
@@ -26117,8 +26147,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monteverdi, Claudio / 1592
+	<td class="composer">
+		Monteverdi, Claudio / <span class="date">1592</span>
 	</td>
 </tr>
 
@@ -26139,7 +26169,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.1% of notes are in a melisma
 	</td>
 </tr>
@@ -26169,16 +26199,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12078a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12078a
 	</td>
 </tr>
@@ -26189,8 +26219,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monteverdi, Claudio / 1592
+	<td class="composer">
+		Monteverdi, Claudio / <span class="date">1592</span>
 	</td>
 </tr>
 
@@ -26211,7 +26241,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7% of notes are in a melisma
 	</td>
 </tr>
@@ -26241,16 +26271,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12079a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12079a
 	</td>
 </tr>
@@ -26261,8 +26291,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monteverdi, Claudio / 1592
+	<td class="composer">
+		Monteverdi, Claudio / <span class="date">1592</span>
 	</td>
 </tr>
 
@@ -26283,7 +26313,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.6% of notes are in a melisma
 	</td>
 </tr>
@@ -26313,16 +26343,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12096c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12096c
 	</td>
 </tr>
@@ -26333,8 +26363,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ricci, Cesarina / 1597
+	<td class="composer">
+		Ricci, Cesarina / <span class="date">1597</span>
 	</td>
 </tr>
 
@@ -26355,7 +26385,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		22.3% of notes are in a melisma
 	</td>
 </tr>
@@ -26385,16 +26415,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12096d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12096d
 	</td>
 </tr>
@@ -26405,8 +26435,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1598
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -26427,7 +26457,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		15.2% of notes are in a melisma
 	</td>
 </tr>
@@ -26457,16 +26487,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12097e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12097e
 	</td>
 </tr>
@@ -26477,8 +26507,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Ricci, Cesarina / 1597
+	<td class="composer">
+		Ricci, Cesarina / <span class="date">1597</span>
 	</td>
 </tr>
 
@@ -26499,7 +26529,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5.8% of notes are in a melisma
 	</td>
 </tr>
@@ -26529,16 +26559,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12097f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12097f
 	</td>
 </tr>
@@ -26549,8 +26579,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1598
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -26571,7 +26601,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.7% of notes are in a melisma
 	</td>
 </tr>
@@ -26601,16 +26631,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12098b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12098b
 	</td>
 </tr>
@@ -26621,8 +26651,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1598
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -26643,7 +26673,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.8% of notes are in a melisma
 	</td>
 </tr>
@@ -26673,16 +26703,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg12099b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg12099b
 	</td>
 </tr>
@@ -26693,8 +26723,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Dentice, Scipione / 1598
+	<td class="composer">
+		Dentice, Scipione / <span class="date">1598</span>
 	</td>
 </tr>
 
@@ -26715,7 +26745,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.5% of notes are in a melisma
 	</td>
 </tr>
@@ -26745,16 +26775,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg14001f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg14001f
 	</td>
 </tr>
@@ -26765,8 +26795,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Caprioli, Giovanni Paolo / 1602
+	<td class="composer">
+		Caprioli, Giovanni Paolo / <span class="date">1602</span>
 	</td>
 </tr>
 
@@ -26787,7 +26817,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		33.6% of notes are in a melisma
 	</td>
 </tr>
@@ -26817,16 +26847,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg14062b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg14062b
 	</td>
 </tr>
@@ -26837,8 +26867,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Camarella, Giovanni Battista / 1633
+	<td class="composer">
+		Camarella, Giovanni Battista / <span class="date">1633</span>
 	</td>
 </tr>
 
@@ -26859,7 +26889,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		55.4% of notes are in a melisma
 	</td>
 </tr>
@@ -26889,16 +26919,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16012d"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16012d
 	</td>
 </tr>
@@ -26909,8 +26939,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Asola, Giammateo / 1588
+	<td class="composer">
+		Asola, Giammateo / <span class="date">1588</span>
 	</td>
 </tr>
 
@@ -26931,7 +26961,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		20.8% of notes are in a melisma
 	</td>
 </tr>
@@ -26961,16 +26991,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16012e"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16012e
 	</td>
 </tr>
@@ -26981,8 +27011,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Molinaro, Simone / 1600
+	<td class="composer">
+		Molinaro, Simone / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -27003,7 +27033,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.3% of notes are in a melisma
 	</td>
 </tr>
@@ -27033,16 +27063,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16013a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16013a
 	</td>
 </tr>
@@ -27053,8 +27083,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Molinaro, Simone / 1600
+	<td class="composer">
+		Molinaro, Simone / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -27075,7 +27105,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.1% of notes are in a melisma
 	</td>
 </tr>
@@ -27105,16 +27135,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16014a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16014a
 	</td>
 </tr>
@@ -27125,8 +27155,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Molinaro, Simone / 1600
+	<td class="composer">
+		Molinaro, Simone / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -27147,7 +27177,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.8% of notes are in a melisma
 	</td>
 </tr>
@@ -27177,16 +27207,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16043b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16043b
 	</td>
 </tr>
@@ -27197,8 +27227,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -27219,7 +27249,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		32.9% of notes are in a melisma
 	</td>
 </tr>
@@ -27249,16 +27279,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16043c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16043c
 	</td>
 </tr>
@@ -27269,8 +27299,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Molinaro, Simone / 1600
+	<td class="composer">
+		Molinaro, Simone / <span class="date">1600</span>
 	</td>
 </tr>
 
@@ -27291,7 +27321,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.9% of notes are in a melisma
 	</td>
 </tr>
@@ -27321,16 +27351,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16044b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16044b
 	</td>
 </tr>
@@ -27341,8 +27371,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -27363,7 +27393,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.9% of notes are in a melisma
 	</td>
 </tr>
@@ -27393,16 +27423,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16045b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16045b
 	</td>
 </tr>
@@ -27413,8 +27443,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -27435,7 +27465,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		25.9% of notes are in a melisma
 	</td>
 </tr>
@@ -27465,16 +27495,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16046b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16046b
 	</td>
 </tr>
@@ -27485,8 +27515,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -27507,7 +27537,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		8.9% of notes are in a melisma
 	</td>
 </tr>
@@ -27537,16 +27567,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16047b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16047b
 	</td>
 </tr>
@@ -27557,8 +27587,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -27579,7 +27609,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.1% of notes are in a melisma
 	</td>
 </tr>
@@ -27609,16 +27639,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16056a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16056a
 	</td>
 </tr>
@@ -27629,8 +27659,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -27651,7 +27681,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		2.9% of notes are in a melisma
 	</td>
 </tr>
@@ -27681,16 +27711,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16059a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16059a
 	</td>
 </tr>
@@ -27701,8 +27731,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monteverdi, Claudio / 1592
+	<td class="composer">
+		Monteverdi, Claudio / <span class="date">1592</span>
 	</td>
 </tr>
 
@@ -27723,7 +27753,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		17.1% of notes are in a melisma
 	</td>
 </tr>
@@ -27753,16 +27783,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16059b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16059b
 	</td>
 </tr>
@@ -27773,8 +27803,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -27795,7 +27825,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		21.8% of notes are in a melisma
 	</td>
 </tr>
@@ -27825,16 +27855,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16059f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16059f
 	</td>
 </tr>
@@ -27845,8 +27875,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -27867,7 +27897,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		7.7% of notes are in a melisma
 	</td>
 </tr>
@@ -27897,16 +27927,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16060a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16060a
 	</td>
 </tr>
@@ -27917,8 +27947,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monteverdi, Claudio / 1592
+	<td class="composer">
+		Monteverdi, Claudio / <span class="date">1592</span>
 	</td>
 </tr>
 
@@ -27939,7 +27969,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.8% of notes are in a melisma
 	</td>
 </tr>
@@ -27969,16 +27999,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16060b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16060b
 	</td>
 </tr>
@@ -27989,8 +28019,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -28011,7 +28041,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.4% of notes are in a melisma
 	</td>
 </tr>
@@ -28041,16 +28071,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16060h"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16060h
 	</td>
 </tr>
@@ -28061,8 +28091,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28083,7 +28113,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.4% of notes are in a melisma
 	</td>
 </tr>
@@ -28113,16 +28143,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16061a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16061a
 	</td>
 </tr>
@@ -28133,8 +28163,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -28155,7 +28185,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		16.2% of notes are in a melisma
 	</td>
 </tr>
@@ -28185,16 +28215,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16061b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16061b
 	</td>
 </tr>
@@ -28205,8 +28235,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Il Verso, Antonio / 1603
+	<td class="composer">
+		Il Verso, Antonio / <span class="date">1603</span>
 	</td>
 </tr>
 
@@ -28227,7 +28257,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		12.1% of notes are in a melisma
 	</td>
 </tr>
@@ -28257,16 +28287,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16061f"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16061f
 	</td>
 </tr>
@@ -28277,8 +28307,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28299,7 +28329,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.2% of notes are in a melisma
 	</td>
 </tr>
@@ -28329,16 +28359,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16062a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16062a
 	</td>
 </tr>
@@ -28349,8 +28379,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28371,7 +28401,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.3% of notes are in a melisma
 	</td>
 </tr>
@@ -28401,16 +28431,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16063a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16063a
 	</td>
 </tr>
@@ -28421,8 +28451,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Monteverdi, Claudio / 1592
+	<td class="composer">
+		Monteverdi, Claudio / <span class="date">1592</span>
 	</td>
 </tr>
 
@@ -28443,7 +28473,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		5% of notes are in a melisma
 	</td>
 </tr>
@@ -28473,16 +28503,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16063c"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16063c
 	</td>
 </tr>
@@ -28493,8 +28523,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28515,7 +28545,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		9.1% of notes are in a melisma
 	</td>
 </tr>
@@ -28545,16 +28575,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16064a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16064a
 	</td>
 </tr>
@@ -28565,8 +28595,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28587,7 +28617,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		1.9% of notes are in a melisma
 	</td>
 </tr>
@@ -28617,16 +28647,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16065b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16065b
 	</td>
 </tr>
@@ -28637,8 +28667,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28659,7 +28689,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		10.8% of notes are in a melisma
 	</td>
 </tr>
@@ -28689,16 +28719,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg16066a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg16066a
 	</td>
 </tr>
@@ -28709,8 +28739,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28731,7 +28761,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.7% of notes are in a melisma
 	</td>
 </tr>
@@ -28761,16 +28791,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg19106b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg19106b
 	</td>
 </tr>
@@ -28781,8 +28811,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -28803,7 +28833,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.8% of notes are in a melisma
 	</td>
 </tr>
@@ -28833,16 +28863,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg19107b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg19107b
 	</td>
 </tr>
@@ -28853,8 +28883,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Baccusi, Ippolito / 1594
+	<td class="composer">
+		Baccusi, Ippolito / <span class="date">1594</span>
 	</td>
 </tr>
 
@@ -28875,7 +28905,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		18.5% of notes are in a melisma
 	</td>
 </tr>
@@ -28905,16 +28935,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20123a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20123a
 	</td>
 </tr>
@@ -28925,8 +28955,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -28947,7 +28977,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		24.3% of notes are in a melisma
 	</td>
 </tr>
@@ -28977,16 +29007,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20124a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20124a
 	</td>
 </tr>
@@ -28997,8 +29027,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29019,7 +29049,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		2.4% of notes are in a melisma
 	</td>
 </tr>
@@ -29049,16 +29079,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20125a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20125a
 	</td>
 </tr>
@@ -29069,8 +29099,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29091,7 +29121,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		6.2% of notes are in a melisma
 	</td>
 </tr>
@@ -29121,16 +29151,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20126a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20126a
 	</td>
 </tr>
@@ -29141,8 +29171,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29163,7 +29193,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		4.5% of notes are in a melisma
 	</td>
 </tr>
@@ -29193,16 +29223,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20127a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20127a
 	</td>
 </tr>
@@ -29213,8 +29243,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29235,7 +29265,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.6% of notes are in a melisma
 	</td>
 </tr>
@@ -29265,16 +29295,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20128b"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20128b
 	</td>
 </tr>
@@ -29285,8 +29315,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29307,7 +29337,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		19% of notes are in a melisma
 	</td>
 </tr>
@@ -29337,16 +29367,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20129a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20129a
 	</td>
 </tr>
@@ -29357,8 +29387,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29379,7 +29409,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		13.6% of notes are in a melisma
 	</td>
 </tr>
@@ -29409,16 +29439,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20130a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20130a
 	</td>
 </tr>
@@ -29429,8 +29459,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29451,7 +29481,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		11.5% of notes are in a melisma
 	</td>
 </tr>
@@ -29481,16 +29511,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20131a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20131a
 	</td>
 </tr>
@@ -29501,8 +29531,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Cifra, Antonio / 1614
+	<td class="composer">
+		Cifra, Antonio / <span class="date">1614</span>
 	</td>
 </tr>
 
@@ -29523,7 +29553,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3% of notes are in a melisma
 	</td>
 </tr>
@@ -29553,16 +29583,16 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
 
+<div class="sortable">
 <a name="Tsg20134a"></a>
 <table class="entry">
 
 <tr>
-	<td colspan="3">
+	<td colspan="3" class="id">
 		Tsg20134a
 	</td>
 </tr>
@@ -29573,8 +29603,8 @@ table.entry {
 	<td>
 		<b>Composer:</b>
 	</td>
-	<td>
-		Eredi, Francesco / 1629
+	<td class="composer">
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -29595,7 +29625,7 @@ table.entry {
 	<td>
 		<b>Score:</b>
 	</td>
-	<td>
+	<td class="score">
 		3.8% of notes are in a melisma
 	</td>
 </tr>
@@ -29625,7 +29655,7 @@ table.entry {
 	</td>
 </tr>
 
-
-
 </table>
+</div>
 
+</div>

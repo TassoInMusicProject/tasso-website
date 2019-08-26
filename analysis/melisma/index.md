@@ -106,7 +106,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.2% of notes are in a melisma
+		19.2% of notes are in a melisma, C: 18.9%, A: 20.1%, T: 18.5%
 	</td>
 </tr>
 
@@ -178,7 +178,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		26.4% of notes are in a melisma
+		26.4% of notes are in a melisma, C: 29.8%, A: 22.4%, S: 29.1%, T: 26%, Q: 26%, B: 24.4%
 	</td>
 </tr>
 
@@ -250,7 +250,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12% of notes are in a melisma
+		12% of notes are in a melisma, V: 23.3%, A: 13.7%, T: 6.9%, B: 2.4%
 	</td>
 </tr>
 
@@ -322,7 +322,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.6% of notes are in a melisma
+		18.6% of notes are in a melisma, T: 22%, V: 15.1%
 	</td>
 </tr>
 
@@ -394,7 +394,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		31.6% of notes are in a melisma
+		31.6% of notes are in a melisma, C: 37.2%, Q: 31.5%, A: 22%, T: 38.3%, B: 27.7%
 	</td>
 </tr>
 
@@ -466,7 +466,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.2% of notes are in a melisma
+		22.2% of notes are in a melisma, T: 22.2%
 	</td>
 </tr>
 
@@ -538,7 +538,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.7% of notes are in a melisma
+		17.7% of notes are in a melisma, C: 19.7%, V: 22.1%, A: 12.8%, T: 16%, B: 16.5%
 	</td>
 </tr>
 
@@ -610,7 +610,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.9% of notes are in a melisma
+		24.9% of notes are in a melisma, C: 30.3%, V: 34.3%, A: 23.4%, T: 16.1%, B: 13.2%
 	</td>
 </tr>
 
@@ -682,7 +682,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.8% of notes are in a melisma
+		18.8% of notes are in a melisma, C: 30.3%, A: 11.5%, T: 17.5%, B: 12.7%
 	</td>
 </tr>
 
@@ -754,7 +754,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.8% of notes are in a melisma
+		7.8% of notes are in a melisma, C: 6.3%, A: 7.4%, T: 8.9%, V: 11.2%, B: 4.3%
 	</td>
 </tr>
 
@@ -826,7 +826,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.3% of notes are in a melisma
+		14.3% of notes are in a melisma, A: 8.5%, T: 18%, B: 19.8%
 	</td>
 </tr>
 
@@ -898,7 +898,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.5% of notes are in a melisma
+		17.5% of notes are in a melisma, C: 17.5%
 	</td>
 </tr>
 
@@ -970,7 +970,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.3% of notes are in a melisma
+		6.3% of notes are in a melisma, C: 4.4%, A: 6.9%, T: 13.8%, V: 4%, B: 1.6%
 	</td>
 </tr>
 
@@ -1042,7 +1042,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.5% of notes are in a melisma
+		12.5% of notes are in a melisma, C: 7.1%, T: 11.1%, V: 20.7%, B: 12.4%
 	</td>
 </tr>
 
@@ -1114,7 +1114,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.2% of notes are in a melisma
+		7.2% of notes are in a melisma, C: 11.9%, A: 11.1%, T: 6.7%, Q: 4.5%, B: 0%
 	</td>
 </tr>
 
@@ -1186,7 +1186,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		31.4% of notes are in a melisma
+		31.4% of notes are in a melisma, T: 31.4%
 	</td>
 </tr>
 
@@ -1258,7 +1258,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.6% of notes are in a melisma
+		9.6% of notes are in a melisma, C: 12.2%, A: 9.8%, T: 10.9%, B: 4.5%
 	</td>
 </tr>
 
@@ -1330,7 +1330,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		0% of notes are in a melisma
+		0% of notes are in a melisma, V: 0%
 	</td>
 </tr>
 
@@ -1402,7 +1402,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		23.1% of notes are in a melisma
+		23.1% of notes are in a melisma, V: 21.6%, T: 24.4%
 	</td>
 </tr>
 
@@ -1474,7 +1474,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21% of notes are in a melisma
+		21% of notes are in a melisma, C: 16.9%, T: 23.6%, V: 18.1%, B: 27.4%
 	</td>
 </tr>
 
@@ -1546,7 +1546,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.2% of notes are in a melisma
+		14.2% of notes are in a melisma, C: 14.2%, V: 13.7%, A: 14.4%, T: 15.2%, B: 13.4%
 	</td>
 </tr>
 
@@ -1618,7 +1618,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.9% of notes are in a melisma
+		12.9% of notes are in a melisma, C: 12%, T: 14.1%, B: 12.8%
 	</td>
 </tr>
 
@@ -1690,7 +1690,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.2% of notes are in a melisma
+		11.2% of notes are in a melisma, C: 7.9%, T: 10.2%, B: 16.7%
 	</td>
 </tr>
 
@@ -1762,7 +1762,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		0% of notes are in a melisma
+		0% of notes are in a melisma, A: 0%, V: 0%
 	</td>
 </tr>
 
@@ -1834,7 +1834,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.4% of notes are in a melisma
+		8.4% of notes are in a melisma, C: 7.2%, V: 8.9%, A: 6.4%, T: 15.3%, B: 0%
 	</td>
 </tr>
 
@@ -1906,7 +1906,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.3% of notes are in a melisma
+		5.3% of notes are in a melisma, V: 5.3%
 	</td>
 </tr>
 
@@ -1978,7 +1978,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		2.3% of notes are in a melisma
+		2.3% of notes are in a melisma, C: 2.5%, A: 3%, T: 3.3%, B: 0%
 	</td>
 </tr>
 
@@ -2050,7 +2050,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10% of notes are in a melisma
+		10% of notes are in a melisma, C: 10%, A: 12.9%, Q: 7.9%, T: 14.6%, B: 1.7%
 	</td>
 </tr>
 
@@ -2122,7 +2122,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		25.7% of notes are in a melisma
+		25.7% of notes are in a melisma, C: 28.1%, T: 24.8%, V: 27%, B: 21.3%
 	</td>
 </tr>
 
@@ -2194,7 +2194,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.9% of notes are in a melisma
+		13.9% of notes are in a melisma, C: 12.3%, V: 15.4%
 	</td>
 </tr>
 
@@ -2266,7 +2266,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5% of notes are in a melisma
+		5% of notes are in a melisma, C: 4.8%, V: 5.2%, A: 10.3%, T: 0%, B: 4.3%
 	</td>
 </tr>
 
@@ -2338,7 +2338,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.6% of notes are in a melisma
+		9.6% of notes are in a melisma, C: 5%, V: 7.2%, A: 12.8%, T: 12.4%, B: 9.2%
 	</td>
 </tr>
 
@@ -2410,7 +2410,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.9% of notes are in a melisma
+		21.9% of notes are in a melisma, A: 23.7%, T: 22.7%, B: 18.7%
 	</td>
 </tr>
 
@@ -2482,7 +2482,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.4% of notes are in a melisma
+		19.4% of notes are in a melisma, C: 27.2%, V: 12.1%
 	</td>
 </tr>
 
@@ -2554,7 +2554,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.9% of notes are in a melisma
+		3.9% of notes are in a melisma, C: 2.3%, V: 2.3%, A: 7.6%, T: 3.2%, B: 3.2%
 	</td>
 </tr>
 
@@ -2626,7 +2626,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22% of notes are in a melisma
+		22% of notes are in a melisma, T: 24.1%, V: 18.5%
 	</td>
 </tr>
 
@@ -2698,7 +2698,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.5% of notes are in a melisma
+		8.5% of notes are in a melisma, C: 13.5%, V: 15.9%, A: 9.1%, T: 0%, B: 0%
 	</td>
 </tr>
 
@@ -2770,7 +2770,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.8% of notes are in a melisma
+		17.8% of notes are in a melisma, C: 20.9%, V: 21.7%, A: 15.6%, T: 18.3%, B: 8.1%
 	</td>
 </tr>
 
@@ -2842,7 +2842,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.6% of notes are in a melisma
+		9.6% of notes are in a melisma, C: 3.2%, C2: 15.3%, A: 12.7%, B: 15.1%, : 0%
 	</td>
 </tr>
 
@@ -2914,7 +2914,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.5% of notes are in a melisma
+		20.5% of notes are in a melisma, T: 21.8%, V: 19.3%
 	</td>
 </tr>
 
@@ -2986,7 +2986,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.6% of notes are in a melisma
+		12.6% of notes are in a melisma, C: 17%, V: 19.4%, A: 7.6%, T: 11.5%, B: 5%
 	</td>
 </tr>
 
@@ -3058,7 +3058,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.9% of notes are in a melisma
+		21.9% of notes are in a melisma, T: 21.9%
 	</td>
 </tr>
 
@@ -3130,7 +3130,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.4% of notes are in a melisma
+		12.4% of notes are in a melisma, C: 8.3%, V: 15.8%
 	</td>
 </tr>
 
@@ -3202,7 +3202,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.1% of notes are in a melisma
+		8.1% of notes are in a melisma, A: 10.1%, V: 10.1%, T: 3.7%
 	</td>
 </tr>
 
@@ -3274,7 +3274,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.8% of notes are in a melisma
+		20.8% of notes are in a melisma, A: 20.8%
 	</td>
 </tr>
 
@@ -3346,7 +3346,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		28.9% of notes are in a melisma
+		28.9% of notes are in a melisma, C: 21.4%, A: 27.6%, T: 28.8%, V: 37%
 	</td>
 </tr>
 
@@ -3418,7 +3418,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.7% of notes are in a melisma
+		9.7% of notes are in a melisma, C: 10.9%, A: 15.9%, Q: 8.6%, T: 8.5%, B: 2.1%
 	</td>
 </tr>
 
@@ -3490,7 +3490,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.4% of notes are in a melisma
+		10.4% of notes are in a melisma, C: 7.6%, A: 12.4%, V: 17.3%, T: 10.6%, B: 0%
 	</td>
 </tr>
 
@@ -3562,7 +3562,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.8% of notes are in a melisma
+		6.8% of notes are in a melisma, C: 12.5%, V: 7.1%, A: 10.3%, T: 0%, B: 0%
 	</td>
 </tr>
 
@@ -3634,7 +3634,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		34.3% of notes are in a melisma
+		34.3% of notes are in a melisma, C: 33.2%, A: 34.5%, T: 38.8%, B: 29.5%
 	</td>
 </tr>
 
@@ -3706,7 +3706,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.5% of notes are in a melisma
+		21.5% of notes are in a melisma, C: 22.4%, A: 28.1%, Q: 19.5%, T: 22.6%, B: 10.1%
 	</td>
 </tr>
 
@@ -3778,7 +3778,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.3% of notes are in a melisma
+		9.3% of notes are in a melisma, A: 12.6%, T: 8.7%, V: 3%
 	</td>
 </tr>
 
@@ -3850,7 +3850,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.5% of notes are in a melisma
+		5.5% of notes are in a melisma, C: 6.3%, V: 11.1%, A: 4.7%, T: 12.1%, B: 0%, B.C.: 0%
 	</td>
 </tr>
 
@@ -3922,7 +3922,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.5% of notes are in a melisma
+		12.5% of notes are in a melisma, C: 12.9%, V: 10.2%, A: 18%, T: 16.6%, B: 0%
 	</td>
 </tr>
 
@@ -3994,7 +3994,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.4% of notes are in a melisma
+		19.4% of notes are in a melisma, C: 21.9%, A: 18.5%, T: 17%, Q: 22.2%, B: 16.6%
 	</td>
 </tr>
 
@@ -4066,7 +4066,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		25.6% of notes are in a melisma
+		25.6% of notes are in a melisma, C: 33%, A: 30.9%, Q: 24.3%, T: 20.3%, S: 17.9%, B: 21%
 	</td>
 </tr>
 
@@ -4138,7 +4138,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.3% of notes are in a melisma
+		4.3% of notes are in a melisma, C: 9.6%, A: 3.5%, T: 2.4%, V: 4.5%, B: 0%
 	</td>
 </tr>
 
@@ -4210,7 +4210,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.1% of notes are in a melisma
+		20.1% of notes are in a melisma, C: 8.2%, T: 24.2%, V: 26.4%
 	</td>
 </tr>
 
@@ -4282,7 +4282,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		34.7% of notes are in a melisma
+		34.7% of notes are in a melisma, C: 38.5%, V: 27.6%, A: 38.9%, T: 36.3%, B: 30.7%
 	</td>
 </tr>
 
@@ -4354,7 +4354,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		31.4% of notes are in a melisma
+		31.4% of notes are in a melisma, C: 35.2%, T: 34%, B: 24.5%
 	</td>
 </tr>
 
@@ -4426,7 +4426,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		44.2% of notes are in a melisma
+		44.2% of notes are in a melisma, C: 49.6%, Alti: 46.1%, T: 43.7%, B: 35.3%
 	</td>
 </tr>
 
@@ -4498,7 +4498,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.8% of notes are in a melisma
+		24.8% of notes are in a melisma, C: 26.3%, A: 22.4%, T: 31.3%, B: 17.6%
 	</td>
 </tr>
 
@@ -4570,7 +4570,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.5% of notes are in a melisma
+		12.5% of notes are in a melisma, C: 6.3%, A: 11.6%, T: 17.4%, B: 14.1%
 	</td>
 </tr>
 
@@ -4642,7 +4642,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.7% of notes are in a melisma
+		5.7% of notes are in a melisma, C: 6.6%, V: 9.7%, A: 4.4%, T: 5%, B: 0%
 	</td>
 </tr>
 
@@ -4714,7 +4714,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19% of notes are in a melisma
+		19% of notes are in a melisma, C: 19.8%, V: 16.6%, T: 18.6%, B: 21.5%
 	</td>
 </tr>
 
@@ -4786,7 +4786,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.2% of notes are in a melisma
+		14.2% of notes are in a melisma, C: 12.8%, T: 16.8%, V: 17.4%, B: 7.6%
 	</td>
 </tr>
 
@@ -4858,7 +4858,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.1% of notes are in a melisma
+		9.1% of notes are in a melisma, C: 10%, A: 13.7%, T: 2.5%, B: 9.6%
 	</td>
 </tr>
 
@@ -4930,7 +4930,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.6% of notes are in a melisma
+		6.6% of notes are in a melisma, C: 7.4%, A: 2.4%, T: 6%, Q: 9.2%, B: 8%
 	</td>
 </tr>
 
@@ -5002,7 +5002,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.2% of notes are in a melisma
+		14.2% of notes are in a melisma, C: 17.1%, Q: 11.1%, A: 9.5%, T: 18.9%, B: 14.9%
 	</td>
 </tr>
 
@@ -5074,7 +5074,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.1% of notes are in a melisma
+		24.1% of notes are in a melisma, T: 22%, V: 26.3%
 	</td>
 </tr>
 
@@ -5146,7 +5146,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		23.8% of notes are in a melisma
+		23.8% of notes are in a melisma, Soprano o T: 36.9%, B. C.: 0%
 	</td>
 </tr>
 
@@ -5218,7 +5218,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.9% of notes are in a melisma
+		5.9% of notes are in a melisma, C: 2.6%, V: 9%, T: 6.3%, B: 5.5%
 	</td>
 </tr>
 
@@ -5290,7 +5290,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.1% of notes are in a melisma
+		13.1% of notes are in a melisma, C: 15%, V: 10.2%, T: 20.2%, B: 3.1%
 	</td>
 </tr>
 
@@ -5362,7 +5362,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.1% of notes are in a melisma
+		18.1% of notes are in a melisma, C: 20.9%, T: 16.9%, B: 16.7%
 	</td>
 </tr>
 
@@ -5434,7 +5434,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.6% of notes are in a melisma
+		11.6% of notes are in a melisma, A: 15%, T: 13.9%, V: 5.8%
 	</td>
 </tr>
 
@@ -5506,7 +5506,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.4% of notes are in a melisma
+		14.4% of notes are in a melisma, C: 21%, V: 10%, T: 9.5%, B: 16.9%
 	</td>
 </tr>
 
@@ -5578,7 +5578,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.9% of notes are in a melisma
+		11.9% of notes are in a melisma, C: 12.3%, T: 11.9%, V: 11.1%, B: 12.5%
 	</td>
 </tr>
 
@@ -5650,7 +5650,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		1% of notes are in a melisma
+		1% of notes are in a melisma, A: 0%, T: 0%, V: 2.7%
 	</td>
 </tr>
 
@@ -5722,7 +5722,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.3% of notes are in a melisma
+		9.3% of notes are in a melisma, C: 10.6%, A: 14%, T: 10.3%, V: 10.3%, B: 0%
 	</td>
 </tr>
 
@@ -5794,7 +5794,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.1% of notes are in a melisma
+		20.1% of notes are in a melisma, C: 25.2%, B: 14.8%
 	</td>
 </tr>
 
@@ -5866,7 +5866,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.3% of notes are in a melisma
+		13.3% of notes are in a melisma, C: 17.9%, A: 17.1%, T: 19.2%, B: 11%, BC: 0%
 	</td>
 </tr>
 
@@ -5938,7 +5938,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.4% of notes are in a melisma
+		13.4% of notes are in a melisma, C: 9.7%, T: 16.5%, V: 17.1%, B: 9.3%
 	</td>
 </tr>
 
@@ -6010,7 +6010,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.1% of notes are in a melisma
+		24.1% of notes are in a melisma, C: 22%, V: 14.4%, A: 19%, T: 16.3%, B: 60.1%
 	</td>
 </tr>
 
@@ -6082,7 +6082,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		36.4% of notes are in a melisma
+		36.4% of notes are in a melisma, C: 34.1%, T: 39.1%, B: 35.8%
 	</td>
 </tr>
 
@@ -6154,7 +6154,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		23.1% of notes are in a melisma
+		23.1% of notes are in a melisma, C: 33%, Q: 35.4%, A: 20.5%, T: 21.1%, S: 8.7%, B: 2.5%
 	</td>
 </tr>
 
@@ -6226,7 +6226,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.7% of notes are in a melisma
+		7.7% of notes are in a melisma, A: 6.5%, Q: 14.1%, T: 4.3%
 	</td>
 </tr>
 
@@ -6298,7 +6298,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.7% of notes are in a melisma
+		5.7% of notes are in a melisma, A: 9.6%, T: 4.2%, V: 3.8%, B: 4.2%
 	</td>
 </tr>
 
@@ -6370,7 +6370,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.8% of notes are in a melisma
+		10.8% of notes are in a melisma, C: 11.8%, A: 9.7%, T: 10.1%, B: 11.7%
 	</td>
 </tr>
 
@@ -6442,7 +6442,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.9% of notes are in a melisma
+		19.9% of notes are in a melisma, T: 20.2%, V: 19.5%
 	</td>
 </tr>
 
@@ -6514,7 +6514,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.9% of notes are in a melisma
+		13.9% of notes are in a melisma, C: 15.1%, A: 17.5%, T: 11.9%, B: 9.3%
 	</td>
 </tr>
 
@@ -6586,7 +6586,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.4% of notes are in a melisma
+		24.4% of notes are in a melisma, C: 23.9%, A: 21%, V: 15.3%, T: 33.3%, B: 29%
 	</td>
 </tr>
 
@@ -6658,7 +6658,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		32.6% of notes are in a melisma
+		32.6% of notes are in a melisma, Q: 32.6%
 	</td>
 </tr>
 
@@ -6730,7 +6730,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7% of notes are in a melisma
+		7% of notes are in a melisma, C: 10.8%, T: 9.2%, V: 1.9%, B: 6%
 	</td>
 </tr>
 
@@ -6802,7 +6802,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15% of notes are in a melisma
+		15% of notes are in a melisma, C: 7.9%, A: 21.7%, T: 14.4%, V: 16.9%, B: 12.8%
 	</td>
 </tr>
 
@@ -6874,7 +6874,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.9% of notes are in a melisma
+		20.9% of notes are in a melisma, C (C I): 25.2%, VI (C II): 25.2%, A (C III): 21.1%, V: 22.5%, T: 19.9%, B: 10.2%
 	</td>
 </tr>
 
@@ -6946,7 +6946,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		41.4% of notes are in a melisma
+		41.4% of notes are in a melisma, C: 39.1%, B: 44%
 	</td>
 </tr>
 
@@ -7018,7 +7018,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.2% of notes are in a melisma
+		10.2% of notes are in a melisma, C: 10.7%, A: 12.7%, Q: 10%, T: 11.6%, B: 4.7%
 	</td>
 </tr>
 
@@ -7090,7 +7090,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12% of notes are in a melisma
+		12% of notes are in a melisma, C: 13.5%, V: 7.2%, A: 20.9%, T: 9.6%, B: 0%
 	</td>
 </tr>
 
@@ -7162,7 +7162,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.6% of notes are in a melisma
+		18.6% of notes are in a melisma, C: 16.2%, V: 17.8%, A: 19.9%, T: 22.3%, B: 16.5%
 	</td>
 </tr>
 
@@ -7234,7 +7234,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		37.9% of notes are in a melisma
+		37.9% of notes are in a melisma, C: 42.8%, T: 40.8%, B: 27.6%
 	</td>
 </tr>
 
@@ -7306,7 +7306,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.3% of notes are in a melisma
+		4.3% of notes are in a melisma, C: 7.8%, V: 3.8%, A: 0%, T: 9.3%, B: 0%
 	</td>
 </tr>
 
@@ -7378,7 +7378,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.8% of notes are in a melisma
+		21.8% of notes are in a melisma, C: 21%, V: 18.6%, A: 19.5%, T: 30.8%, B: 14.9%
 	</td>
 </tr>
 
@@ -7450,7 +7450,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		27.6% of notes are in a melisma
+		27.6% of notes are in a melisma, C: 30.8%, A: 31.8%, Q: 23.7%, T: 25%, B: 21.9%
 	</td>
 </tr>
 
@@ -7522,7 +7522,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.6% of notes are in a melisma
+		8.6% of notes are in a melisma, C: 4.6%, A: 14.7%, T: 10.2%, B: 3.6%
 	</td>
 </tr>
 
@@ -7594,7 +7594,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.1% of notes are in a melisma
+		13.1% of notes are in a melisma, C: 12.3%, A: 23.5%, T: 10.3%, Q: 20%, S: 5.8%, B: 4.3%
 	</td>
 </tr>
 
@@ -7666,7 +7666,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.9% of notes are in a melisma
+		8.9% of notes are in a melisma, T: 3.3%, V: 14%
 	</td>
 </tr>
 
@@ -7738,7 +7738,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		30.7% of notes are in a melisma
+		30.7% of notes are in a melisma, C: 31.6%, Q: 38.5%, A: 33.9%, T: 23.5%, S: 29.8%, B: 22.4%
 	</td>
 </tr>
 
@@ -7810,7 +7810,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		32% of notes are in a melisma
+		32% of notes are in a melisma, T: 36.6%, V: 27.4%
 	</td>
 </tr>
 
@@ -7882,7 +7882,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.8% of notes are in a melisma
+		4.8% of notes are in a melisma, C: 7.5%, A: 1.4%, T: 11.5%, V: 2.6%, B: 0%
 	</td>
 </tr>
 
@@ -7954,7 +7954,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.5% of notes are in a melisma
+		14.5% of notes are in a melisma, C: 14.9%, A: 13.3%, T: 19.2%, V: 19.5%, B: 3.1%
 	</td>
 </tr>
 
@@ -8026,7 +8026,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		26.4% of notes are in a melisma
+		26.4% of notes are in a melisma, C: 26%, V: 23.5%, A: 30.8%, T: 25.1%, B: 25.3%
 	</td>
 </tr>
 
@@ -8098,7 +8098,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14% of notes are in a melisma
+		14% of notes are in a melisma, V: 19.1%, T: 11.8%, B: 8.4%
 	</td>
 </tr>
 
@@ -8170,7 +8170,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		34.4% of notes are in a melisma
+		34.4% of notes are in a melisma, T: 34.4%
 	</td>
 </tr>
 
@@ -8242,7 +8242,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.1% of notes are in a melisma
+		6.1% of notes are in a melisma, C: 5.5%, V: 3.4%, A: 2.3%, T: 13.8%, B: 9%
 	</td>
 </tr>
 
@@ -8314,7 +8314,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.5% of notes are in a melisma
+		9.5% of notes are in a melisma, A: 14.6%, T: 4.3%
 	</td>
 </tr>
 
@@ -8386,7 +8386,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6% of notes are in a melisma
+		6% of notes are in a melisma, C: 6.1%, A: 5.4%, T: 8.8%, B: 3.1%
 	</td>
 </tr>
 
@@ -8458,7 +8458,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.8% of notes are in a melisma
+		19.8% of notes are in a melisma, C: 15.1%, VI: 20%, A: 21.7%, V: 16.7%, T: 20.6%, B: 25%
 	</td>
 </tr>
 
@@ -8530,7 +8530,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.9% of notes are in a melisma
+		11.9% of notes are in a melisma, C: 16.4%, VI: 9.1%, A: 17.3%, V: 10.1%, B: 4.6%
 	</td>
 </tr>
 
@@ -8602,7 +8602,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		30.8% of notes are in a melisma
+		30.8% of notes are in a melisma, C: 35.4%, T: 36%, B: 19.7%
 	</td>
 </tr>
 
@@ -8674,7 +8674,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		35.4% of notes are in a melisma
+		35.4% of notes are in a melisma, C: 35.6%, V: 34.9%, A: 38.3%, T: 29.7%, B: 38.9%
 	</td>
 </tr>
 
@@ -8746,7 +8746,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		26.3% of notes are in a melisma
+		26.3% of notes are in a melisma, C: 22.6%, A: 28.7%, T: 26.4%, V: 30%, B: 22.9%
 	</td>
 </tr>
 
@@ -8818,7 +8818,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		23% of notes are in a melisma
+		23% of notes are in a melisma, C: 21.1%, A: 16.8%, T: 25%, V: 31.2%, B: 20.1%
 	</td>
 </tr>
 
@@ -8890,7 +8890,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		33.5% of notes are in a melisma
+		33.5% of notes are in a melisma, C: 30.6%, V: 43.8%, A: 31.1%, T: 35.9%, B: 20.1%
 	</td>
 </tr>
 
@@ -8962,7 +8962,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.7% of notes are in a melisma
+		10.7% of notes are in a melisma, C: 16%, V: 15.3%, A: 9.6%, T: 0%, B: 9.4%
 	</td>
 </tr>
 
@@ -9034,7 +9034,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.7% of notes are in a melisma
+		4.7% of notes are in a melisma, C: 2.1%, A: 16.9%, T: 0%, Q: 0%, B: 0%
 	</td>
 </tr>
 
@@ -9106,7 +9106,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.2% of notes are in a melisma
+		5.2% of notes are in a melisma, A: 6.6%, V: 0%, T: 8.7%
 	</td>
 </tr>
 
@@ -9178,7 +9178,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11% of notes are in a melisma
+		11% of notes are in a melisma, C: 10.6%, A: 15.4%, T: 8.3%, V: 8.8%
 	</td>
 </tr>
 
@@ -9250,7 +9250,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		2.8% of notes are in a melisma
+		2.8% of notes are in a melisma, B: 2.8%
 	</td>
 </tr>
 
@@ -9322,7 +9322,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.1% of notes are in a melisma
+		3.1% of notes are in a melisma, A: 8.5%, B: 0%, B.C.: 0%
 	</td>
 </tr>
 
@@ -9394,7 +9394,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9% of notes are in a melisma
+		9% of notes are in a melisma, V: 9%
 	</td>
 </tr>
 
@@ -9466,7 +9466,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20% of notes are in a melisma
+		20% of notes are in a melisma, C: 24.8%, T: 22.7%, B: 11.5%
 	</td>
 </tr>
 
@@ -9538,7 +9538,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.2% of notes are in a melisma
+		14.2% of notes are in a melisma, C: 12.1%, Q: 19%, A: 13.5%, T: 11.3%, S: 24.7%, B: 4.5%
 	</td>
 </tr>
 
@@ -9610,7 +9610,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.5% of notes are in a melisma
+		3.5% of notes are in a melisma, C: 3.7%, V: 1.3%, A: 7.8%, T: 2.9%, B: 1.8%
 	</td>
 </tr>
 
@@ -9682,7 +9682,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.6% of notes are in a melisma
+		12.6% of notes are in a melisma, C: 17.1%, V: 16.1%, A: 14.4%, T: 8%, B: 0%
 	</td>
 </tr>
 
@@ -9754,7 +9754,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.8% of notes are in a melisma
+		5.8% of notes are in a melisma, C: 8.7%, Alti: 0%, T: 0%, B: 14.5%
 	</td>
 </tr>
 
@@ -9826,7 +9826,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.6% of notes are in a melisma
+		11.6% of notes are in a melisma, B: 11.6%
 	</td>
 </tr>
 
@@ -9898,7 +9898,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.5% of notes are in a melisma
+		11.5% of notes are in a melisma, T: 11.5%
 	</td>
 </tr>
 
@@ -9970,7 +9970,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.8% of notes are in a melisma
+		20.8% of notes are in a melisma, C: 23.1%, V: 28.2%, A: 15.2%, T: 14.3%, B: 22.5%
 	</td>
 </tr>
 
@@ -10042,7 +10042,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4% of notes are in a melisma
+		4% of notes are in a melisma, C: 2.4%, V: 3.4%, A: 10.2%, T: 0%, B: 0%
 	</td>
 </tr>
 
@@ -10114,7 +10114,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.3% of notes are in a melisma
+		7.3% of notes are in a melisma, C: 11.5%, T: 8%, V: 3.4%, B: 5.5%
 	</td>
 </tr>
 
@@ -10186,7 +10186,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.6% of notes are in a melisma
+		6.6% of notes are in a melisma, C: 7.6%, V: 5.5%
 	</td>
 </tr>
 
@@ -10258,7 +10258,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.7% of notes are in a melisma
+		14.7% of notes are in a melisma, A: 20.1%, T: 7.1%
 	</td>
 </tr>
 
@@ -10330,7 +10330,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		0% of notes are in a melisma
+		0% of notes are in a melisma, C: 0%
 	</td>
 </tr>
 
@@ -10402,7 +10402,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		0% of notes are in a melisma
+		0% of notes are in a melisma, C: 0%, T: 0%, V: 0%, B: 0%
 	</td>
 </tr>
 
@@ -10474,7 +10474,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.4% of notes are in a melisma
+		16.4% of notes are in a melisma, B: 16.4%
 	</td>
 </tr>
 
@@ -10546,7 +10546,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		42.8% of notes are in a melisma
+		42.8% of notes are in a melisma, C: 47.4%, T: 51.7%, B: 25.7%
 	</td>
 </tr>
 
@@ -10618,7 +10618,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.1% of notes are in a melisma
+		14.1% of notes are in a melisma, V: 18.5%, A: 16%, B: 4.7%
 	</td>
 </tr>
 
@@ -10690,7 +10690,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.6% of notes are in a melisma
+		19.6% of notes are in a melisma, V: 19.9%, A: 22.2%, T: 24%, B: 7.5%
 	</td>
 </tr>
 
@@ -10762,7 +10762,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		36.2% of notes are in a melisma
+		36.2% of notes are in a melisma, C: 48.2%, Q: 40.8%, S: 31.4%, A: 35.6%, T: 27.4%, B: 28.8%
 	</td>
 </tr>
 
@@ -10834,7 +10834,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		23.5% of notes are in a melisma
+		23.5% of notes are in a melisma, C: 38.3%, A: 20.9%, V: 4.3%, B: 21.2%
 	</td>
 </tr>
 
@@ -10906,7 +10906,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.4% of notes are in a melisma
+		15.4% of notes are in a melisma, C: 13.4%, V: 16.2%, A: 14.7%, T: 14.2%, B: 19.3%
 	</td>
 </tr>
 
@@ -10978,7 +10978,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.9% of notes are in a melisma
+		15.9% of notes are in a melisma, C: 20.8%, A: 20%, Q: 25.5%, T: 6.3%, S: 2.8%, B: 8.1%
 	</td>
 </tr>
 
@@ -11050,7 +11050,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.1% of notes are in a melisma
+		18.1% of notes are in a melisma, C: 14.1%, T: 27.5%, B: 11.5%
 	</td>
 </tr>
 
@@ -11122,7 +11122,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.5% of notes are in a melisma
+		12.5% of notes are in a melisma, C: 17%, V: 6.8%, A: 21.9%, T: 11.2%, B: 2.4%
 	</td>
 </tr>
 
@@ -11194,7 +11194,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.6% of notes are in a melisma
+		9.6% of notes are in a melisma, C: 14.5%, V: 14%, A: 8.6%, T: 3.1%, B: 5.4%
 	</td>
 </tr>
 
@@ -11266,7 +11266,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.2% of notes are in a melisma
+		6.2% of notes are in a melisma, C1: 7.1%, C Secondo: 8.9%, B: 2.2%
 	</td>
 </tr>
 
@@ -11338,7 +11338,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.7% of notes are in a melisma
+		16.7% of notes are in a melisma, C: 16.2%, A: 12.3%, T: 20%, V: 19.8%, B: 15.1%
 	</td>
 </tr>
 
@@ -11410,7 +11410,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.7% of notes are in a melisma
+		22.7% of notes are in a melisma, C: 16.8%, A: 27.3%, V: 24%, T: 26.2%, B: 17.2%
 	</td>
 </tr>
 
@@ -11482,7 +11482,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14% of notes are in a melisma
+		14% of notes are in a melisma, A: 14%
 	</td>
 </tr>
 
@@ -11554,7 +11554,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.7% of notes are in a melisma
+		9.7% of notes are in a melisma, C: 10.1%, Q: 13.1%, A: 1.7%, T: 15.4%, B: 7%
 	</td>
 </tr>
 
@@ -11626,7 +11626,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.7% of notes are in a melisma
+		20.7% of notes are in a melisma, C: 23.7%, S: 25.5%, A: 18.1%, T: 25.7%, Q: 18.6%, B: 10.7%
 	</td>
 </tr>
 
@@ -11698,7 +11698,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.4% of notes are in a melisma
+		12.4% of notes are in a melisma, C: 12.5%, Q: 14.2%, A: 13%, T: 12.9%, B: 7.4%
 	</td>
 </tr>
 
@@ -11770,7 +11770,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.5% of notes are in a melisma
+		6.5% of notes are in a melisma, C: 3.3%, V: 16.8%, A: 9.8%, T: 0%, B: 0%
 	</td>
 </tr>
 
@@ -11842,7 +11842,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		23.4% of notes are in a melisma
+		23.4% of notes are in a melisma, T: 36%, V: 10.9%
 	</td>
 </tr>
 
@@ -11914,7 +11914,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.8% of notes are in a melisma
+		20.8% of notes are in a melisma, C: 10.7%, A: 25.9%, T: 23.6%, V: 21.4%, B: 22.1%
 	</td>
 </tr>
 
@@ -11986,7 +11986,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.1% of notes are in a melisma
+		24.1% of notes are in a melisma, T: 24.1%
 	</td>
 </tr>
 
@@ -12058,7 +12058,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.7% of notes are in a melisma
+		8.7% of notes are in a melisma, B: 8.7%
 	</td>
 </tr>
 
@@ -12130,7 +12130,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.6% of notes are in a melisma
+		13.6% of notes are in a melisma, C: 6.9%, T: 16.8%, B: 16.4%
 	</td>
 </tr>
 
@@ -12202,7 +12202,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.4% of notes are in a melisma
+		8.4% of notes are in a melisma, C: 6.4%, T: 10.3%
 	</td>
 </tr>
 
@@ -12274,7 +12274,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.7% of notes are in a melisma
+		20.7% of notes are in a melisma, C: 25.8%, T: 31.2%, V: 7.1%, B: 17.1%
 	</td>
 </tr>
 
@@ -12346,7 +12346,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20% of notes are in a melisma
+		20% of notes are in a melisma, C: 19.3%, V: 33.3%, A: 22.5%, T: 11.3%, B: 7.3%
 	</td>
 </tr>
 
@@ -12418,7 +12418,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4% of notes are in a melisma
+		4% of notes are in a melisma, C: 3.6%, T: 3.1%, B: 5.5%
 	</td>
 </tr>
 
@@ -12490,7 +12490,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.9% of notes are in a melisma
+		5.9% of notes are in a melisma, V: 5.9%
 	</td>
 </tr>
 
@@ -12562,7 +12562,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		1.2% of notes are in a melisma
+		1.2% of notes are in a melisma, A: 0%, V: 3.3%, T: 0%
 	</td>
 </tr>
 
@@ -12634,7 +12634,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.4% of notes are in a melisma
+		6.4% of notes are in a melisma, C: 6.1%, A: 11.2%, B: 0%
 	</td>
 </tr>
 
@@ -12706,7 +12706,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		23.7% of notes are in a melisma
+		23.7% of notes are in a melisma, C: 24.9%, A: 30.5%, T: 14.2%
 	</td>
 </tr>
 
@@ -12778,7 +12778,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.2% of notes are in a melisma
+		8.2% of notes are in a melisma, C: 7.4%, A: 13.7%, T: 12.5%, V: 4.2%, B: 0%
 	</td>
 </tr>
 
@@ -12850,7 +12850,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		27.3% of notes are in a melisma
+		27.3% of notes are in a melisma, V: 29.5%, A: 30.5%, T: 19.7%
 	</td>
 </tr>
 
@@ -12922,7 +12922,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		2.9% of notes are in a melisma
+		2.9% of notes are in a melisma, C: 2.1%, A: 1.5%, T: 3.3%, V: 4.4%
 	</td>
 </tr>
 
@@ -12994,7 +12994,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.1% of notes are in a melisma
+		16.1% of notes are in a melisma, C: 17.6%, B: 14.5%
 	</td>
 </tr>
 
@@ -13066,7 +13066,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		0% of notes are in a melisma
+		0% of notes are in a melisma, C: 0%, B: 0%
 	</td>
 </tr>
 
@@ -13138,7 +13138,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.3% of notes are in a melisma
+		4.3% of notes are in a melisma, C: 5.2%, B: 3.5%
 	</td>
 </tr>
 
@@ -13210,7 +13210,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.7% of notes are in a melisma
+		6.7% of notes are in a melisma, C: 0%, C secondo: 10.9%, B: 8.9%
 	</td>
 </tr>
 
@@ -13282,7 +13282,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.3% of notes are in a melisma
+		13.3% of notes are in a melisma, C: 13.3%
 	</td>
 </tr>
 
@@ -13354,7 +13354,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.6% of notes are in a melisma
+		10.6% of notes are in a melisma, C: 7.5%, A: 23.9%, B: 0%
 	</td>
 </tr>
 
@@ -13426,7 +13426,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.6% of notes are in a melisma
+		7.6% of notes are in a melisma, T over C: 9.1%, T over C: 13.6%, B: 4.3%, B.C.: 0%
 	</td>
 </tr>
 
@@ -13498,7 +13498,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		1.7% of notes are in a melisma
+		1.7% of notes are in a melisma, : 3.1%, B.C.: 0%
 	</td>
 </tr>
 
@@ -13570,7 +13570,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.4% of notes are in a melisma
+		9.4% of notes are in a melisma, C: 8.7%, A: 12.2%, T: 8%, B: 8.2%
 	</td>
 </tr>
 
@@ -13642,7 +13642,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.3% of notes are in a melisma
+		24.3% of notes are in a melisma, C: 29.3%, V: 26.8%, A: 26.7%, T: 17.1%, B: 17.5%
 	</td>
 </tr>
 
@@ -13714,7 +13714,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.5% of notes are in a melisma
+		11.5% of notes are in a melisma, C: 15.6%, V: 11.5%, A: 14.7%, T: 7.5%, B: 6.1%
 	</td>
 </tr>
 
@@ -13786,7 +13786,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.7% of notes are in a melisma
+		17.7% of notes are in a melisma, C: 15.9%, A: 17.3%, T: 15.4%, Q: 26.9%, B: 12.2%
 	</td>
 </tr>
 
@@ -13858,7 +13858,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.3% of notes are in a melisma
+		13.3% of notes are in a melisma, C: 14.1%, T: 14.1%, B: 11.4%
 	</td>
 </tr>
 
@@ -13930,7 +13930,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.3% of notes are in a melisma
+		20.3% of notes are in a melisma, C: 22.7%, V: 25.1%, A: 15%, T: 14.7%, B: 23.6%
 	</td>
 </tr>
 
@@ -14002,7 +14002,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		40.8% of notes are in a melisma
+		40.8% of notes are in a melisma, C 1: 56.5%, C 2: 57%, Bc: 0%
 	</td>
 </tr>
 
@@ -14074,7 +14074,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.9% of notes are in a melisma
+		10.9% of notes are in a melisma, T: 11.1%, V: 10.7%
 	</td>
 </tr>
 
@@ -14146,7 +14146,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16% of notes are in a melisma
+		16% of notes are in a melisma, C: 12.3%, A: 16.3%, Q: 13.4%, T: 19.2%, S: 20.4%, B: 13.3%
 	</td>
 </tr>
 
@@ -14218,7 +14218,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.1% of notes are in a melisma
+		11.1% of notes are in a melisma, C: 18.1%, B: 2.7%
 	</td>
 </tr>
 
@@ -14290,7 +14290,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.1% of notes are in a melisma
+		13.1% of notes are in a melisma, C: 13.2%, A: 12%, T: 15%, V: 13.4%, B: 11.6%
 	</td>
 </tr>
 
@@ -14362,7 +14362,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.9% of notes are in a melisma
+		9.9% of notes are in a melisma, A: 6.1%, V: 11.4%, T: 11.9%
 	</td>
 </tr>
 
@@ -14434,7 +14434,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.3% of notes are in a melisma
+		6.3% of notes are in a melisma, C: 7.1%, V: 5.9%, A: 5%, T: 8.9%, B: 4.5%
 	</td>
 </tr>
 
@@ -14506,7 +14506,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.2% of notes are in a melisma
+		8.2% of notes are in a melisma, C: 7.8%, V: 16.3%, A: 5.9%, T: 8.8%, B: 0%
 	</td>
 </tr>
 
@@ -14578,7 +14578,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.6% of notes are in a melisma
+		21.6% of notes are in a melisma, C: 19.2%, A: 29.3%, Q: 30.3%, T: 18.5%, S: 14.9%, B: 10.3%
 	</td>
 </tr>
 
@@ -14650,7 +14650,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.4% of notes are in a melisma
+		15.4% of notes are in a melisma, C: 16.5%, V: 15.1%, A: 17.1%, T: 12.9%, B: 14.1%
 	</td>
 </tr>
 
@@ -14722,7 +14722,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.2% of notes are in a melisma
+		12.2% of notes are in a melisma, : 22.2%, B.C.: 0%
 	</td>
 </tr>
 
@@ -14794,7 +14794,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.2% of notes are in a melisma
+		20.2% of notes are in a melisma, C: 21.7%, V: 24.5%, A: 18.8%, T: 25.4%, B: 3.1%
 	</td>
 </tr>
 
@@ -14866,7 +14866,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.7% of notes are in a melisma
+		18.7% of notes are in a melisma, C: 23.8%, T: 18.6%, B: 12.9%
 	</td>
 </tr>
 
@@ -14938,7 +14938,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.2% of notes are in a melisma
+		9.2% of notes are in a melisma, C: 6.9%, A: 6.7%, T: 10.6%, V: 12.4%
 	</td>
 </tr>
 
@@ -15010,7 +15010,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4% of notes are in a melisma
+		4% of notes are in a melisma, C: 5.4%, A: 7.6%, T: 0%, V: 1.9%
 	</td>
 </tr>
 
@@ -15082,7 +15082,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.5% of notes are in a melisma
+		7.5% of notes are in a melisma, C: 8.3%, V: 10.2%, A: 9.5%, T: 7.8%, B: 0%
 	</td>
 </tr>
 
@@ -15154,7 +15154,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.7% of notes are in a melisma
+		18.7% of notes are in a melisma, C: 11.1%, A: 25.2%
 	</td>
 </tr>
 
@@ -15226,7 +15226,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.1% of notes are in a melisma
+		19.1% of notes are in a melisma, C: 30.7%, BC: 0%
 	</td>
 </tr>
 
@@ -15298,7 +15298,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.1% of notes are in a melisma
+		15.1% of notes are in a melisma, C: 12.9%, A: 21.2%, T: 13.2%, Q: 14.9%, B: 11.3%
 	</td>
 </tr>
 
@@ -15370,7 +15370,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.8% of notes are in a melisma
+		24.8% of notes are in a melisma, C: 24.5%, T: 36.1%, B: 8.8%
 	</td>
 </tr>
 
@@ -15442,7 +15442,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.2% of notes are in a melisma
+		7.2% of notes are in a melisma, C: 8.5%, B: 5.6%
 	</td>
 </tr>
 
@@ -15514,7 +15514,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.7% of notes are in a melisma
+		24.7% of notes are in a melisma, A: 24.7%
 	</td>
 </tr>
 
@@ -15586,7 +15586,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		28.6% of notes are in a melisma
+		28.6% of notes are in a melisma, C: 37.6%, T: 36.9%, B: 6.4%
 	</td>
 </tr>
 
@@ -15658,7 +15658,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.1% of notes are in a melisma
+		8.1% of notes are in a melisma, C: 16.5%, A: 8.6%, T: 6.5%, V: 6.1%, B: 0%
 	</td>
 </tr>
 
@@ -15730,7 +15730,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.1% of notes are in a melisma
+		16.1% of notes are in a melisma, C: 21.7%, A: 17.8%, Q: 15.2%, T: 15.6%, B: 9.1%
 	</td>
 </tr>
 
@@ -15802,7 +15802,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.2% of notes are in a melisma
+		12.2% of notes are in a melisma, T: 12.2%
 	</td>
 </tr>
 
@@ -15874,7 +15874,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.9% of notes are in a melisma
+		10.9% of notes are in a melisma, C: 14.2%, A: 5.3%, T: 13%, Q: 12.3%, B: 9.3%
 	</td>
 </tr>
 
@@ -15946,7 +15946,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		25.7% of notes are in a melisma
+		25.7% of notes are in a melisma, C: 28.1%, A: 24.1%, T: 29%, B: 19.8%
 	</td>
 </tr>
 
@@ -16018,7 +16018,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.7% of notes are in a melisma
+		14.7% of notes are in a melisma, C: 12%, A: 19.9%, Q: 15.6%, T: 14%, B: 10.1%
 	</td>
 </tr>
 
@@ -16090,7 +16090,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		26.7% of notes are in a melisma
+		26.7% of notes are in a melisma, C: 33.1%, A: 21.2%, T: 30.7%, Q: 16.2%, B: 30.2%
 	</td>
 </tr>
 
@@ -16162,7 +16162,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		2.6% of notes are in a melisma
+		2.6% of notes are in a melisma, C: 6.9%, A: 3%, Q: 0%, T: 1.9%, B: 0%
 	</td>
 </tr>
 
@@ -16234,7 +16234,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.4% of notes are in a melisma
+		8.4% of notes are in a melisma, C: 10.3%, S: 10.5%, A: 6%, T: 11.5%, Q: 9.5%, B: 0%
 	</td>
 </tr>
 
@@ -16306,7 +16306,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.8% of notes are in a melisma
+		8.8% of notes are in a melisma, C: 7.8%, A: 10.1%, B: 8.6%
 	</td>
 </tr>
 
@@ -16378,7 +16378,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.8% of notes are in a melisma
+		12.8% of notes are in a melisma, C: 16.1%, Q: 16.5%, A: 14.6%, T: 9.8%, B: 0%
 	</td>
 </tr>
 
@@ -16450,7 +16450,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.1% of notes are in a melisma
+		4.1% of notes are in a melisma, A: 4.5%, V: 2.1%, T: 5.9%
 	</td>
 </tr>
 
@@ -16522,7 +16522,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.3% of notes are in a melisma
+		5.3% of notes are in a melisma, C: 1.3%, A: 18.7%, V: 3.6%, T: 0%, B: 0%
 	</td>
 </tr>
 
@@ -16594,7 +16594,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.7% of notes are in a melisma
+		19.7% of notes are in a melisma, T: 19.7%
 	</td>
 </tr>
 
@@ -16666,7 +16666,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.7% of notes are in a melisma
+		22.7% of notes are in a melisma, C: 25.5%, B: 17.8%
 	</td>
 </tr>
 
@@ -16738,7 +16738,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.3% of notes are in a melisma
+		10.3% of notes are in a melisma, C: 7.6%, A: 8.8%, T: 22.9%, B: 0%
 	</td>
 </tr>
 
@@ -16810,7 +16810,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.9% of notes are in a melisma
+		13.9% of notes are in a melisma, C: 12.6%, A: 13.5%, T: 9.4%, V: 19%, B: 15.5%
 	</td>
 </tr>
 
@@ -16882,7 +16882,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.7% of notes are in a melisma
+		7.7% of notes are in a melisma, A: 20.9%, B: 0%, B.C.: 0%
 	</td>
 </tr>
 
@@ -16954,7 +16954,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.8% of notes are in a melisma
+		17.8% of notes are in a melisma, C: 18.4%, T: 21.9%, V: 9.1%, B: 23.5%
 	</td>
 </tr>
 
@@ -17026,7 +17026,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.9% of notes are in a melisma
+		9.9% of notes are in a melisma, C: 12.9%, V: 6.9%
 	</td>
 </tr>
 
@@ -17098,7 +17098,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.1% of notes are in a melisma
+		9.1% of notes are in a melisma, C: 8.2%, A: 13.1%, V: 13.2%, T: 3.9%, B: 4.9%
 	</td>
 </tr>
 
@@ -17170,7 +17170,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.4% of notes are in a melisma
+		24.4% of notes are in a melisma, C: 24.4%, B: 24.5%
 	</td>
 </tr>
 
@@ -17242,7 +17242,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.3% of notes are in a melisma
+		8.3% of notes are in a melisma, C: 4.6%, A: 14.6%, V: 11.5%, T: 3.2%, B: 3.9%
 	</td>
 </tr>
 
@@ -17314,7 +17314,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		26.4% of notes are in a melisma
+		26.4% of notes are in a melisma, C: 25.9%, A: 26.8%
 	</td>
 </tr>
 
@@ -17386,7 +17386,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.6% of notes are in a melisma
+		10.6% of notes are in a melisma, C: 8%, V: 15.4%, A: 16.1%, T: 6.5%, B: 4.9%
 	</td>
 </tr>
 
@@ -17458,7 +17458,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.6% of notes are in a melisma
+		7.6% of notes are in a melisma, C: 9%, A: 9.8%, T: 7.6%, V: 7.8%, B: 2.3%
 	</td>
 </tr>
 
@@ -17530,7 +17530,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.1% of notes are in a melisma
+		4.1% of notes are in a melisma, C: 0%, V: 6.4%, A: 6.3%, T: 6.3%, B: 0%
 	</td>
 </tr>
 
@@ -17602,7 +17602,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.2% of notes are in a melisma
+		9.2% of notes are in a melisma, C: 6.6%, S: 10.2%, A: 1.4%, T: 10%, Q: 15.1%, B: 13%
 	</td>
 </tr>
 
@@ -17674,7 +17674,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.3% of notes are in a melisma
+		20.3% of notes are in a melisma, C: 16.9%, A: 26%, T: 13.1%, Q: 25.2%, B: 18.4%
 	</td>
 </tr>
 
@@ -17746,7 +17746,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.2% of notes are in a melisma
+		11.2% of notes are in a melisma, C: 14.1%, Q: 14.6%, A: 8%, T: 13.6%, B: 3.7%
 	</td>
 </tr>
 
@@ -17818,7 +17818,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.8% of notes are in a melisma
+		11.8% of notes are in a melisma, C: 15.7%, A: 15.3%, Q: 12.6%, T: 9.6%, B: 5.2%
 	</td>
 </tr>
 
@@ -17890,7 +17890,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.7% of notes are in a melisma
+		20.7% of notes are in a melisma, C: 15.4%, T: 29%, B: 16.3%
 	</td>
 </tr>
 
@@ -17962,7 +17962,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.4% of notes are in a melisma
+		12.4% of notes are in a melisma, A: 20.4%, V: 12.5%, T: 4.1%
 	</td>
 </tr>
 
@@ -18034,7 +18034,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.1% of notes are in a melisma
+		9.1% of notes are in a melisma, C: 8.7%, A: 12.5%, T: 11.4%, Q: 8.6%, B: 3.3%
 	</td>
 </tr>
 
@@ -18106,7 +18106,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.4% of notes are in a melisma
+		7.4% of notes are in a melisma, C: 6.4%, A: 7.6%, T: 5%, Q: 9.5%, B: 8.8%
 	</td>
 </tr>
 
@@ -18178,7 +18178,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.9% of notes are in a melisma
+		12.9% of notes are in a melisma, C: 21.3%, S: 13.8%, A: 13.4%, T: 11.1%, Q: 7.9%, B: 5.4%
 	</td>
 </tr>
 
@@ -18250,7 +18250,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		27.7% of notes are in a melisma
+		27.7% of notes are in a melisma, C: 15%, A: 35.5%, T: 40%, B: 13.3%
 	</td>
 </tr>
 
@@ -18322,7 +18322,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.1% of notes are in a melisma
+		3.1% of notes are in a melisma, C: 9.8%, V: 0%, A: 3.3%, T: 0%, B: 0%
 	</td>
 </tr>
 
@@ -18394,7 +18394,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.4% of notes are in a melisma
+		5.4% of notes are in a melisma, C: 5.6%, A: 4.4%, T: 0%, Q: 16.8%, B: 0%
 	</td>
 </tr>
 
@@ -18466,7 +18466,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.9% of notes are in a melisma
+		12.9% of notes are in a melisma, C: 10.6%, V: 20.6%, A: 12.7%, T: 10.5%, B: 6.5%
 	</td>
 </tr>
 
@@ -18538,7 +18538,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.3% of notes are in a melisma
+		3.3% of notes are in a melisma, Q: 3.3%
 	</td>
 </tr>
 
@@ -18610,7 +18610,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.7% of notes are in a melisma
+		20.7% of notes are in a melisma, C: 23.6%, A: 29.1%, T: 15.1%, B: 11.7%
 	</td>
 </tr>
 
@@ -18682,7 +18682,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.9% of notes are in a melisma
+		16.9% of notes are in a melisma, C I: 15%, VI C II: 16.3%, A: 15%, T: 28.1%, V: 21.1%, B: 13.1%
 	</td>
 </tr>
 
@@ -18754,7 +18754,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15% of notes are in a melisma
+		15% of notes are in a melisma, C: 19.3%, A: 8.8%, T: 20.5%, B: 11.2%
 	</td>
 </tr>
 
@@ -18826,7 +18826,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.7% of notes are in a melisma
+		10.7% of notes are in a melisma, C: 1.9%, A: 18.4%, V: 13.2%, T: 11.5%, B: 6.5%
 	</td>
 </tr>
 
@@ -18898,7 +18898,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.6% of notes are in a melisma
+		20.6% of notes are in a melisma, C: 24.9%, V: 32.6%, A: 15.9%, T: 13.2%, B: 13.6%
 	</td>
 </tr>
 
@@ -18970,7 +18970,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		25.9% of notes are in a melisma
+		25.9% of notes are in a melisma, C: 27.2%, VI: 23.4%, A: 20.9%, T: 17.5%, V: 19.7%, B: 57.1%
 	</td>
 </tr>
 
@@ -19042,7 +19042,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.7% of notes are in a melisma
+		15.7% of notes are in a melisma, A: 11.8%, T: 21.3%, V: 20.1%, VI: 18.3%, B: 4.3%
 	</td>
 </tr>
 
@@ -19114,7 +19114,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		41.4% of notes are in a melisma
+		41.4% of notes are in a melisma, C: 46.9%, A: 39.8%, T: 40.4%, V: 29.3%, B: 48.9%
 	</td>
 </tr>
 
@@ -19186,7 +19186,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.4% of notes are in a melisma
+		13.4% of notes are in a melisma, C: 17%, C II: 17.9%, C III: 18.9%, A: 9.9%, VIII: 7.5%, IX: 14.7%, T: 15.9%, V: 7.2%, B: 14.3%, B II: 8.1%
 	</td>
 </tr>
 
@@ -19258,7 +19258,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.3% of notes are in a melisma
+		11.3% of notes are in a melisma, C: 0%, C Sec.: 20.9%
 	</td>
 </tr>
 
@@ -19330,7 +19330,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		25.4% of notes are in a melisma
+		25.4% of notes are in a melisma, C: 22.7%, V: 31.3%, A: 14.8%, T: 33.9%, B: 24.3%
 	</td>
 </tr>
 
@@ -19402,7 +19402,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.8% of notes are in a melisma
+		6.8% of notes are in a melisma, C: 5.3%, V: 11%, A: 10.5%, T: 4.3%, B: 0%
 	</td>
 </tr>
 
@@ -19474,7 +19474,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		30.3% of notes are in a melisma
+		30.3% of notes are in a melisma, C: 30.6%, T: 23.7%, B: 36.8%
 	</td>
 </tr>
 
@@ -19546,7 +19546,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21% of notes are in a melisma
+		21% of notes are in a melisma, C: 28.4%, C 2.: 31%, A: 19.3%, V: 19.1%, T: 13.2%, B: 12.1%
 	</td>
 </tr>
 
@@ -19618,7 +19618,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.5% of notes are in a melisma
+		9.5% of notes are in a melisma, C: 10.2%, C 2.: 8.7%, A: 15.5%, T: 6.5%, V: 5.1%, B: 10.1%
 	</td>
 </tr>
 
@@ -19690,7 +19690,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.9% of notes are in a melisma
+		12.9% of notes are in a melisma, A: 12.7%, T: 16.8%, V: 15.7%, B: 5%
 	</td>
 </tr>
 
@@ -19762,7 +19762,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		40.5% of notes are in a melisma
+		40.5% of notes are in a melisma, C: 40.8%, Q: 42.7%, A: 44.1%, S: 34.3%, T: 43.1%, B: 38%
 	</td>
 </tr>
 
@@ -19834,7 +19834,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		34.2% of notes are in a melisma
+		34.2% of notes are in a melisma, C: 40.4%, V: 37%, A: 32.6%, T: 31.8%, B: 25.3%
 	</td>
 </tr>
 
@@ -19906,7 +19906,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14% of notes are in a melisma
+		14% of notes are in a melisma, C: 18.3%, V: 14.2%, A: 12.1%, T: 12.6%, B: 12.3%
 	</td>
 </tr>
 
@@ -19978,7 +19978,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17% of notes are in a melisma
+		17% of notes are in a melisma, C: 14.3%, T: 21.9%, B: 13.5%
 	</td>
 </tr>
 
@@ -20050,7 +20050,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		25% of notes are in a melisma
+		25% of notes are in a melisma, C: 16.1%, T: 35.4%, B: 22.4%
 	</td>
 </tr>
 
@@ -20122,7 +20122,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.1% of notes are in a melisma
+		8.1% of notes are in a melisma, C: 10.1%, B: 4.9%
 	</td>
 </tr>
 
@@ -20194,7 +20194,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.5% of notes are in a melisma
+		17.5% of notes are in a melisma, C: 20.2%, VI: 21.3%, A: 13.7%, V: 15.2%, B: 16.4%
 	</td>
 </tr>
 
@@ -20266,7 +20266,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.1% of notes are in a melisma
+		8.1% of notes are in a melisma, C: 7.7%, V: 11.8%, A: 6.5%, T: 1.8%, VI: 14.6%, B: 4.8%
 	</td>
 </tr>
 
@@ -20338,7 +20338,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.1% of notes are in a melisma
+		18.1% of notes are in a melisma, A: 18.4%, V: 18.9%, B: 16.6%
 	</td>
 </tr>
 
@@ -20410,7 +20410,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.9% of notes are in a melisma
+		17.9% of notes are in a melisma, C: 0%, B: 36.2%
 	</td>
 </tr>
 
@@ -20482,7 +20482,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.1% of notes are in a melisma
+		15.1% of notes are in a melisma, A: 19.8%, T: 13.3%, B: 10.6%
 	</td>
 </tr>
 
@@ -20554,7 +20554,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19.8% of notes are in a melisma
+		19.8% of notes are in a melisma, C: 20.8%, V: 24.7%, A: 15%, T: 19.2%, B: 18.9%
 	</td>
 </tr>
 
@@ -20626,7 +20626,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		32.4% of notes are in a melisma
+		32.4% of notes are in a melisma, C: 37.1%, A: 30.2%, B: 28.8%
 	</td>
 </tr>
 
@@ -20698,7 +20698,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7% of notes are in a melisma
+		7% of notes are in a melisma, C: 7%, V: 0%, A: 2.6%, T: 12.7%, B: 13.6%
 	</td>
 </tr>
 
@@ -20770,7 +20770,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.4% of notes are in a melisma
+		4.4% of notes are in a melisma, C: 7.6%, A: 3.5%, T: 9.8%, B: 1.9%, Bc: 0%
 	</td>
 </tr>
 
@@ -20842,7 +20842,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		38.7% of notes are in a melisma
+		38.7% of notes are in a melisma, C: 43.8%, V: 43.1%, A: 39%, T: 34.4%, B: 29.7%
 	</td>
 </tr>
 
@@ -20914,7 +20914,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.2% of notes are in a melisma
+		14.2% of notes are in a melisma, C: 10.1%, V: 26.2%, A: 17.7%, T: 8.4%, B: 6.6%
 	</td>
 </tr>
 
@@ -20986,7 +20986,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		26.9% of notes are in a melisma
+		26.9% of notes are in a melisma, C: 31.4%, V: 34.3%, A: 24.9%, T: 22.4%, B: 15%
 	</td>
 </tr>
 
@@ -21058,7 +21058,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		30.6% of notes are in a melisma
+		30.6% of notes are in a melisma, C: 42.1%, A: 30.6%, T: 26.6%, Q: 24.2%, B: 28.3%
 	</td>
 </tr>
 
@@ -21130,7 +21130,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		30.9% of notes are in a melisma
+		30.9% of notes are in a melisma, C: 29.8%, A: 30.5%, T: 33.7%, B: 29.1%
 	</td>
 </tr>
 
@@ -21202,7 +21202,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.4% of notes are in a melisma
+		20.4% of notes are in a melisma, C: 16.1%, VI: 27.7%, A: 27.1%, V: 7.1%, T: 18.5%, B: 21.5%
 	</td>
 </tr>
 
@@ -21274,7 +21274,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.8% of notes are in a melisma
+		12.8% of notes are in a melisma, C: 5.6%, A: 30.2%, B: 0%
 	</td>
 </tr>
 
@@ -21346,7 +21346,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		33.3% of notes are in a melisma
+		33.3% of notes are in a melisma, A: 28.7%, T: 38.4%
 	</td>
 </tr>
 
@@ -21418,7 +21418,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.3% of notes are in a melisma
+		22.3% of notes are in a melisma, C: 21.7%, Q: 20.6%, B: 25.2%
 	</td>
 </tr>
 
@@ -21490,7 +21490,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.6% of notes are in a melisma
+		22.6% of notes are in a melisma, C: 35.6%, B: 0%
 	</td>
 </tr>
 
@@ -21562,7 +21562,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.4% of notes are in a melisma
+		14.4% of notes are in a melisma, C: 11.5%, Q: 14.6%, A: 20.1%, T: 7.3%, S: 16%, B: 13.6%
 	</td>
 </tr>
 
@@ -21634,7 +21634,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.3% of notes are in a melisma
+		6.3% of notes are in a melisma, C: 4.1%, Q: 6.6%, A: 10.5%, T: 7.4%, B: 1.9%
 	</td>
 </tr>
 
@@ -21706,7 +21706,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.5% of notes are in a melisma
+		24.5% of notes are in a melisma, C: 39.5%, B: 0%
 	</td>
 </tr>
 
@@ -21778,7 +21778,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.1% of notes are in a melisma
+		14.1% of notes are in a melisma, Tr.: 21.6%, A.: 6.8%, T.: 11.8%, : 16.4%
 	</td>
 </tr>
 
@@ -21850,7 +21850,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.2% of notes are in a melisma
+		15.2% of notes are in a melisma, C: 16.3%, Q: 15.1%, B: 13.9%
 	</td>
 </tr>
 
@@ -21922,7 +21922,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.6% of notes are in a melisma
+		15.6% of notes are in a melisma, C: 13.8%, Q: 16.5%, B: 16.8%
 	</td>
 </tr>
 
@@ -21994,7 +21994,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.8% of notes are in a melisma
+		9.8% of notes are in a melisma, C: 9.1%, Q: 8.7%, B: 11.6%
 	</td>
 </tr>
 
@@ -22066,7 +22066,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.6% of notes are in a melisma
+		11.6% of notes are in a melisma, C: 12.4%, Q: 14.2%, B: 6.8%
 	</td>
 </tr>
 
@@ -22138,7 +22138,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.9% of notes are in a melisma
+		13.9% of notes are in a melisma, C: 14.7%, Q: 10.5%, B: 16.6%
 	</td>
 </tr>
 
@@ -22210,7 +22210,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.4% of notes are in a melisma
+		12.4% of notes are in a melisma, C: 11.4%, Q: 18.5%, B: 5.6%
 	</td>
 </tr>
 
@@ -22282,7 +22282,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.3% of notes are in a melisma
+		15.3% of notes are in a melisma, C: 14.3%, Q: 14%, B: 18.3%
 	</td>
 </tr>
 
@@ -22354,7 +22354,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.5% of notes are in a melisma
+		11.5% of notes are in a melisma, C: 15.9%, Q: 14.3%, B: 3.7%
 	</td>
 </tr>
 
@@ -22426,7 +22426,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.8% of notes are in a melisma
+		8.8% of notes are in a melisma, C: 12.7%, Q: 7.2%, B: 6.1%
 	</td>
 </tr>
 
@@ -22498,7 +22498,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.4% of notes are in a melisma
+		22.4% of notes are in a melisma, C: 27.3%, Q: 23.6%, B: 14.3%
 	</td>
 </tr>
 
@@ -22570,7 +22570,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17% of notes are in a melisma
+		17% of notes are in a melisma, C: 17.5%, Q: 17.6%, B: 15.7%
 	</td>
 </tr>
 
@@ -22642,7 +22642,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.4% of notes are in a melisma
+		12.4% of notes are in a melisma, C: 16.8%, Q: 13.9%, B: 6.5%
 	</td>
 </tr>
 
@@ -22714,7 +22714,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		0.6% of notes are in a melisma
+		0.6% of notes are in a melisma, C: 0%, S: 1.4%, A: 0%, T: 1%, Q: 0%, B: 1.4%
 	</td>
 </tr>
 
@@ -22786,7 +22786,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.1% of notes are in a melisma
+		13.1% of notes are in a melisma, C: 14%, S: 13%, A: 19.4%, T: 10.4%, Q: 8.4%, B: 13.4%
 	</td>
 </tr>
 
@@ -22858,7 +22858,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.6% of notes are in a melisma
+		20.6% of notes are in a melisma, C: 20.4%, Q: 28.1%, B: 9.9%
 	</td>
 </tr>
 
@@ -22930,7 +22930,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.9% of notes are in a melisma
+		6.9% of notes are in a melisma, C: 13.8%, S: 13.6%, A: 3.2%, T: 6.9%, Q: 1.5%, B: 1.9%
 	</td>
 </tr>
 
@@ -23002,7 +23002,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.4% of notes are in a melisma
+		14.4% of notes are in a melisma, C: 16.3%, T: 12.2%, C: 18.1%, A: 15%, B: 10%
 	</td>
 </tr>
 
@@ -23074,7 +23074,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		27% of notes are in a melisma
+		27% of notes are in a melisma, C: 32.9%, S: 29.4%, A: 18.1%, T: 30.4%, Q: 19.9%, B: 30.7%
 	</td>
 </tr>
 
@@ -23146,7 +23146,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.8% of notes are in a melisma
+		22.8% of notes are in a melisma, C: 30.1%, S: 21.4%, A: 14.3%, T: 20.9%, Q: 27.1%, B: 21.5%
 	</td>
 </tr>
 
@@ -23218,7 +23218,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.2% of notes are in a melisma
+		7.2% of notes are in a melisma, C: 3.2%, S: 3.8%, A: 17.7%, T: 8.4%, Q: 3.8%, B: 6.3%
 	</td>
 </tr>
 
@@ -23290,7 +23290,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.1% of notes are in a melisma
+		16.1% of notes are in a melisma, C: 18.7%, T: 14.8%, C: 13.3%, A: 19.4%, B: 14%
 	</td>
 </tr>
 
@@ -23362,7 +23362,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.7% of notes are in a melisma
+		13.7% of notes are in a melisma, C: 12.7%, S: 14.6%, A: 13.6%, T: 10.3%, Q: 11.1%, B: 20.5%
 	</td>
 </tr>
 
@@ -23434,7 +23434,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		2.4% of notes are in a melisma
+		2.4% of notes are in a melisma, C: 1.2%, S: 4%, A: 0%, T: 2.4%, Q: 4.3%, B: 2.8%
 	</td>
 </tr>
 
@@ -23506,7 +23506,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.7% of notes are in a melisma
+		5.7% of notes are in a melisma, C: 5.6%, S: 4.5%, A: 6.2%, T: 3.8%, Q: 8.3%, B: 6.5%
 	</td>
 </tr>
 
@@ -23578,7 +23578,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.1% of notes are in a melisma
+		3.1% of notes are in a melisma, C: 3.5%, S: 2.9%, A: 4.9%, T: 1.7%, Q: 3.4%, B: 1.9%
 	</td>
 </tr>
 
@@ -23650,7 +23650,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.7% of notes are in a melisma
+		5.7% of notes are in a melisma, C: 3.1%, S: 8.8%, A: 7.2%, T: 5.4%, Q: 4.3%, B: 4.7%
 	</td>
 </tr>
 
@@ -23722,7 +23722,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.4% of notes are in a melisma
+		7.4% of notes are in a melisma, C: 7.8%, S: 7.5%, A: 10%, T: 2.5%, Q: 6.7%, B: 10.5%
 	</td>
 </tr>
 
@@ -23794,7 +23794,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.9% of notes are in a melisma
+		4.9% of notes are in a melisma, C: 8.8%, S: 7.2%, A: 1.8%, T: 3.9%, Q: 2%, B: 5.2%
 	</td>
 </tr>
 
@@ -23866,7 +23866,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.5% of notes are in a melisma
+		15.5% of notes are in a melisma, C: 12.4%, S: 15.7%, A: 16.9%, T: 15.6%, Q: 14.1%, B: 17.8%
 	</td>
 </tr>
 
@@ -23938,7 +23938,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		29.5% of notes are in a melisma
+		29.5% of notes are in a melisma, C: 27.1%, S: 33.6%, A: 26.5%, T: 27.9%, Q: 29.7%, B: 32.9%
 	</td>
 </tr>
 
@@ -24010,7 +24010,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.2% of notes are in a melisma
+		18.2% of notes are in a melisma, C: 18.6%, S: 15.1%, A: 19.3%, T: 24%, Q: 16.9%, B: 14.6%
 	</td>
 </tr>
 
@@ -24082,7 +24082,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.7% of notes are in a melisma
+		12.7% of notes are in a melisma, C: 14.8%, S: 10%, A: 11.2%, T: 14%, Q: 13.3%, B: 12.1%
 	</td>
 </tr>
 
@@ -24154,7 +24154,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.4% of notes are in a melisma
+		16.4% of notes are in a melisma, C: 15.5%, Q: 18%, A: 12.2%, T: 14.7%, B: 22.5%
 	</td>
 </tr>
 
@@ -24226,7 +24226,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.1% of notes are in a melisma
+		18.1% of notes are in a melisma, C: 21.1%, Q: 17.2%, B: 15.5%
 	</td>
 </tr>
 
@@ -24298,7 +24298,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.8% of notes are in a melisma
+		17.8% of notes are in a melisma, C: 21.8%, Q: 15.7%, A: 14.9%, T: 20.5%, S: 12.4%, B: 23.5%
 	</td>
 </tr>
 
@@ -24370,7 +24370,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.2% of notes are in a melisma
+		15.2% of notes are in a melisma, C: 16.7%, Q: 17.3%, B: 11.5%
 	</td>
 </tr>
 
@@ -24442,7 +24442,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.6% of notes are in a melisma
+		21.6% of notes are in a melisma, C: 25.5%, Q: 24.8%, A: 15.2%, T: 26.1%, S: 10.5%, B: 27.9%
 	</td>
 </tr>
 
@@ -24514,7 +24514,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.2% of notes are in a melisma
+		15.2% of notes are in a melisma, C: 22.3%, Q: 10.1%, A: 15.6%, T: 12.4%, B: 13.5%
 	</td>
 </tr>
 
@@ -24586,7 +24586,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.3% of notes are in a melisma
+		8.3% of notes are in a melisma, C: 12.3%, Q: 7.2%, B: 3.7%
 	</td>
 </tr>
 
@@ -24658,7 +24658,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.4% of notes are in a melisma
+		13.4% of notes are in a melisma, C: 12.8%, Q: 15.4%, A: 13.9%, T: 13.8%, S: 13.4%, B: 7.7%
 	</td>
 </tr>
 
@@ -24730,7 +24730,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		43.4% of notes are in a melisma
+		43.4% of notes are in a melisma, C: 31.1%, Q: 49.5%, A: 43.6%, T: 42.5%, B: 51.2%
 	</td>
 </tr>
 
@@ -24802,7 +24802,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		33.5% of notes are in a melisma
+		33.5% of notes are in a melisma, C: 36.2%, Q: 33.3%, A: 35.1%, T: 37.2%, B: 21.6%
 	</td>
 </tr>
 
@@ -24874,7 +24874,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.5% of notes are in a melisma
+		21.5% of notes are in a melisma, C: 20.5%, A: 21.5%, T: 23.8%, Q: 19.9%, B: 21.4%
 	</td>
 </tr>
 
@@ -24946,7 +24946,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.7% of notes are in a melisma
+		7.7% of notes are in a melisma, C: 9.8%, Q: 6.3%, A: 8.6%, T: 6.9%, B: 7.1%
 	</td>
 </tr>
 
@@ -25018,7 +25018,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.4% of notes are in a melisma
+		8.4% of notes are in a melisma, C: 9.4%, Q: 9.5%, A: 12.3%, T: 3.5%, B: 6.3%
 	</td>
 </tr>
 
@@ -25090,7 +25090,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.2% of notes are in a melisma
+		10.2% of notes are in a melisma, C: 7.3%, A: 13.3%, T: 13.3%, B: 5.3%
 	</td>
 </tr>
 
@@ -25162,7 +25162,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10% of notes are in a melisma
+		10% of notes are in a melisma, V: 9.2%, T: 10.6%, B: 10.2%
 	</td>
 </tr>
 
@@ -25234,7 +25234,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		39.1% of notes are in a melisma
+		39.1% of notes are in a melisma, C: 45.7%, T: 44.1%, B: 24.7%
 	</td>
 </tr>
 
@@ -25306,7 +25306,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.1% of notes are in a melisma
+		8.1% of notes are in a melisma, C: 7.1%, A: 4.9%, Q: 13.1%, T: 8.5%, B: 6.1%
 	</td>
 </tr>
 
@@ -25378,7 +25378,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.4% of notes are in a melisma
+		6.4% of notes are in a melisma, C: 7.8%, V: 6.3%, A: 7.8%, T: 6.8%, B: 2.8%
 	</td>
 </tr>
 
@@ -25450,7 +25450,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		43.5% of notes are in a melisma
+		43.5% of notes are in a melisma, C: 43.7%, T: 43.3%
 	</td>
 </tr>
 
@@ -25522,7 +25522,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.8% of notes are in a melisma
+		11.8% of notes are in a melisma, C: 15.7%, A: 9.5%, T: 13%, V: 13.6%, B: 6.5%
 	</td>
 </tr>
 
@@ -25594,7 +25594,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.5% of notes are in a melisma
+		20.5% of notes are in a melisma, C: 29.9%, A: 22.2%, T: 15.2%, V: 15.8%, B: 18.2%
 	</td>
 </tr>
 
@@ -25666,7 +25666,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		34.8% of notes are in a melisma
+		34.8% of notes are in a melisma, T: 24.4%, Bc: 66.7%
 	</td>
 </tr>
 
@@ -25738,7 +25738,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.9% of notes are in a melisma
+		17.9% of notes are in a melisma, C: 6.1%, V: 26.4%
 	</td>
 </tr>
 
@@ -25810,7 +25810,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.4% of notes are in a melisma
+		15.4% of notes are in a melisma, C: 14.1%, V: 16.5%
 	</td>
 </tr>
 
@@ -25882,7 +25882,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		14.7% of notes are in a melisma
+		14.7% of notes are in a melisma, C: 13.9%, V: 15.5%
 	</td>
 </tr>
 
@@ -25954,7 +25954,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		41.1% of notes are in a melisma
+		41.1% of notes are in a melisma, C: 58.7%, Bc: 0%
 	</td>
 </tr>
 
@@ -26026,7 +26026,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		60.9% of notes are in a melisma
+		60.9% of notes are in a melisma, C: 74%, Bc: 0%
 	</td>
 </tr>
 
@@ -26098,7 +26098,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		57.3% of notes are in a melisma
+		57.3% of notes are in a melisma, C: 70.1%, Bc: 0%
 	</td>
 </tr>
 
@@ -26170,7 +26170,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.1% of notes are in a melisma
+		3.1% of notes are in a melisma, C: 6.7%, Q: 1.8%, A: 7.3%, T: 0%, B: 0%
 	</td>
 </tr>
 
@@ -26242,7 +26242,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7% of notes are in a melisma
+		7% of notes are in a melisma, C: 7.4%, Q: 5.6%, A: 12.9%, T: 2.3%, B: 5.3%
 	</td>
 </tr>
 
@@ -26314,7 +26314,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.6% of notes are in a melisma
+		5.6% of notes are in a melisma, C: 4.3%, Q: 4.6%, A: 4.7%, T: 10.3%, B: 3.7%
 	</td>
 </tr>
 
@@ -26386,7 +26386,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		22.3% of notes are in a melisma
+		22.3% of notes are in a melisma, A: 21.2%, T: 23.4%, B: 22.7%
 	</td>
 </tr>
 
@@ -26458,7 +26458,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		15.2% of notes are in a melisma
+		15.2% of notes are in a melisma, C: 9.4%, A: 15.4%, T: 25.4%, Q: 12.9%
 	</td>
 </tr>
 
@@ -26530,7 +26530,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5.8% of notes are in a melisma
+		5.8% of notes are in a melisma, A: 4.8%, T: 8%, B: 4.6%
 	</td>
 </tr>
 
@@ -26602,7 +26602,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.7% of notes are in a melisma
+		7.7% of notes are in a melisma, C: 2.5%, A: 8.4%, T: 11.3%, Q: 8.7%
 	</td>
 </tr>
 
@@ -26674,7 +26674,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.8% of notes are in a melisma
+		17.8% of notes are in a melisma, C: 11.9%, A: 20%, T: 14.2%, Q: 25%
 	</td>
 </tr>
 
@@ -26746,7 +26746,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.5% of notes are in a melisma
+		9.5% of notes are in a melisma, C: 9.5%, A: 6.9%, T: 17%, Q: 5.1%
 	</td>
 </tr>
 
@@ -26818,7 +26818,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		33.6% of notes are in a melisma
+		33.6% of notes are in a melisma, C: 24.3%, T: 31.1%, B: 44.7%
 	</td>
 </tr>
 
@@ -26890,7 +26890,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		55.4% of notes are in a melisma
+		55.4% of notes are in a melisma, C: 68%, Bc: 0%
 	</td>
 </tr>
 
@@ -26962,7 +26962,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		20.8% of notes are in a melisma
+		20.8% of notes are in a melisma, C: 24.7%, T: 25.1%, B: 12.4%
 	</td>
 </tr>
 
@@ -27034,7 +27034,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.3% of notes are in a melisma
+		7.3% of notes are in a melisma, C: 2.3%, T: 13.2%, B: 5.5%
 	</td>
 </tr>
 
@@ -27106,7 +27106,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.1% of notes are in a melisma
+		21.1% of notes are in a melisma, C: 23.8%, T: 21.9%, B: 17.4%
 	</td>
 </tr>
 
@@ -27178,7 +27178,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.8% of notes are in a melisma
+		13.8% of notes are in a melisma, C: 16.7%, T: 16.7%, B: 6.6%
 	</td>
 </tr>
 
@@ -27250,7 +27250,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		32.9% of notes are in a melisma
+		32.9% of notes are in a melisma, C: 31.4%, T: 40.9%, B: 25.2%
 	</td>
 </tr>
 
@@ -27322,7 +27322,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.9% of notes are in a melisma
+		10.9% of notes are in a melisma, C: 13.3%, T: 15.1%, B: 3.3%
 	</td>
 </tr>
 
@@ -27394,7 +27394,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.9% of notes are in a melisma
+		7.9% of notes are in a melisma, C: 8%, T: 15%, B: 0%
 	</td>
 </tr>
 
@@ -27466,7 +27466,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		25.9% of notes are in a melisma
+		25.9% of notes are in a melisma, C: 25.5%, T: 32.5%, B: 19.1%
 	</td>
 </tr>
 
@@ -27538,7 +27538,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		8.9% of notes are in a melisma
+		8.9% of notes are in a melisma, C: 9.6%, T: 12.8%, B: 4.1%
 	</td>
 </tr>
 
@@ -27610,7 +27610,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.1% of notes are in a melisma
+		11.1% of notes are in a melisma, C: 15.2%, T: 10.3%, B: 7.7%
 	</td>
 </tr>
 
@@ -27682,7 +27682,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		2.9% of notes are in a melisma
+		2.9% of notes are in a melisma, C: 5.3%, A: 2.7%, V: 6.8%, T: 1.8%, B: 0%, Bc: 0%
 	</td>
 </tr>
 
@@ -27754,7 +27754,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		17.1% of notes are in a melisma
+		17.1% of notes are in a melisma, C: 18.9%, Q: 15%, A: 12.1%, T: 20.7%, B: 19.6%
 	</td>
 </tr>
 
@@ -27826,7 +27826,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		21.8% of notes are in a melisma
+		21.8% of notes are in a melisma, C: 22.4%, T: 25.2%, B: 17.6%
 	</td>
 </tr>
 
@@ -27898,7 +27898,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		7.7% of notes are in a melisma
+		7.7% of notes are in a melisma, C: 3.1%, A: 4.1%, V: 2%, T: 3.9%, B: 44.9%, Bc: 0%
 	</td>
 </tr>
 
@@ -27970,7 +27970,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.8% of notes are in a melisma
+		3.8% of notes are in a melisma, C: 5.6%, Q: 3.7%, A: 0%, T: 9.3%, B: 0%
 	</td>
 </tr>
 
@@ -28042,7 +28042,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.4% of notes are in a melisma
+		18.4% of notes are in a melisma, C: 14.5%, T: 26.9%, B: 12.7%
 	</td>
 </tr>
 
@@ -28114,7 +28114,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.4% of notes are in a melisma
+		6.4% of notes are in a melisma, C: 1.9%, A: 13.6%, V: 15.1%, T: 4.1%, B: 3.5%, Bc: 0%
 	</td>
 </tr>
 
@@ -28186,7 +28186,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		16.2% of notes are in a melisma
+		16.2% of notes are in a melisma, C: 19.6%, T: 22.5%, B: 3.7%
 	</td>
 </tr>
 
@@ -28258,7 +28258,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		12.1% of notes are in a melisma
+		12.1% of notes are in a melisma, C: 16.1%, V: 7.3%
 	</td>
 </tr>
 
@@ -28330,7 +28330,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.2% of notes are in a melisma
+		6.2% of notes are in a melisma, C: 4.2%, A: 7.3%, V: 11.2%, T: 7%, B: 7.8%, Bc: 0%
 	</td>
 </tr>
 
@@ -28402,7 +28402,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.3% of notes are in a melisma
+		10.3% of notes are in a melisma, C: 5.4%, A: 10.9%, V: 17.3%, T: 19.7%, B: 5.4%, Bc: 0%
 	</td>
 </tr>
 
@@ -28474,7 +28474,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		5% of notes are in a melisma
+		5% of notes are in a melisma, C: 5.1%, Q: 4.4%, A: 6%, T: 4.4%, B: 4.4%
 	</td>
 </tr>
 
@@ -28546,7 +28546,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		9.1% of notes are in a melisma
+		9.1% of notes are in a melisma, C: 0%, A: 0%, V: 14.1%, T: 22.9%, B: 22.3%, Bc: 0%
 	</td>
 </tr>
 
@@ -28618,7 +28618,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		1.9% of notes are in a melisma
+		1.9% of notes are in a melisma, C: 4.9%, A: 0%, V: 3.6%, T: 1.9%, B: 0%, Bc: 0%
 	</td>
 </tr>
 
@@ -28690,7 +28690,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		10.8% of notes are in a melisma
+		10.8% of notes are in a melisma, C: 9.7%, A: 13.3%, V: 17.2%, T: 14.2%, B: 13.3%, Bc: 0%
 	</td>
 </tr>
 
@@ -28762,7 +28762,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.7% of notes are in a melisma
+		3.7% of notes are in a melisma, C: 0%, A: 9.7%, V: 4.5%, T: 8.5%, B: 0%, Bc: 0%
 	</td>
 </tr>
 
@@ -28834,7 +28834,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.8% of notes are in a melisma
+		11.8% of notes are in a melisma, C: 18.6%, C secondo: 11.4%, B: 4.6%
 	</td>
 </tr>
 
@@ -28906,7 +28906,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		18.5% of notes are in a melisma
+		18.5% of notes are in a melisma, C: 23.3%, C secondo: 17.4%, B: 14.3%
 	</td>
 </tr>
 
@@ -28978,7 +28978,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		24.3% of notes are in a melisma
+		24.3% of notes are in a melisma, C: 10.7%, A: 13.9%, V: 17.1%, T: 99.1%, B: 5.8%, Bc: 0%
 	</td>
 </tr>
 
@@ -29050,7 +29050,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		2.4% of notes are in a melisma
+		2.4% of notes are in a melisma, C: 0%, A: 3.3%, V: 7.3%, T: 3.8%, B: 0%, Bc: 0%
 	</td>
 </tr>
 
@@ -29122,7 +29122,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		6.2% of notes are in a melisma
+		6.2% of notes are in a melisma, C: 0%, A: 10.1%, V: 9.1%, T: 12.3%, B: 7.6%, Bc: 0%
 	</td>
 </tr>
 
@@ -29194,7 +29194,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		4.5% of notes are in a melisma
+		4.5% of notes are in a melisma, C: 0%, A: 8.6%, V: 8.1%, T: 6.7%, B: 3.7%, Bc: 0%
 	</td>
 </tr>
 
@@ -29266,7 +29266,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.6% of notes are in a melisma
+		3.6% of notes are in a melisma, C: 2.6%, A: 6.8%, V: 7.2%, T: 1.4%, B: 1.5%, Bc: 0%
 	</td>
 </tr>
 
@@ -29338,7 +29338,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		19% of notes are in a melisma
+		19% of notes are in a melisma, C: 4.7%, A: 5.7%, V: 2.1%, T: 3.4%, B: 9%, Bc: 94.3%
 	</td>
 </tr>
 
@@ -29410,7 +29410,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		13.6% of notes are in a melisma
+		13.6% of notes are in a melisma, C: 15%, A: 15.7%, V: 17.2%, T: 20.2%, B: 10.9%, Bc: 0%
 	</td>
 </tr>
 
@@ -29482,7 +29482,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		11.5% of notes are in a melisma
+		11.5% of notes are in a melisma, C: 15.5%, A: 13%, V: 12.1%, T: 10%, B: 19.4%, Bc: 0%
 	</td>
 </tr>
 
@@ -29554,7 +29554,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3% of notes are in a melisma
+		3% of notes are in a melisma, C: 5.7%, A: 4.8%, V: 0%, T: 5.9%, B: 1.9%, Bc: 0%
 	</td>
 </tr>
 
@@ -29626,7 +29626,7 @@ div#form {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		3.8% of notes are in a melisma
+		3.8% of notes are in a melisma, C: 0%, A: 8.6%, V: 3.8%, T: 5%, B: 7.4%, Bc: 0%
 	</td>
 </tr>
 

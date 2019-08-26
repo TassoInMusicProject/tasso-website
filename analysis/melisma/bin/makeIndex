@@ -126,7 +126,11 @@ sub processFile {
 	my $id = $file;
 	$id =~ s/.*\///;
 	$id =~ s/-.*//;
-	my $score = getMelismaScore($id);
+	my %parameters = getParameters($id);
+	my @names = getPartNames(%parameters);
+	my @abbrs = getPartAbbreviations(%parameters);
+	my @scores = getPartScores(%parameters);
+	my $score = $parameters{"MELISMASCORE"};
 	foreach my $line (@contents) {
 		if ($line =~ /^\!\!\!COM:\s*(.*)\s*/) {
 			$composer = $1;
@@ -150,6 +154,11 @@ sub processFile {
 	my $base = $file;
 	$base =~ s/.*\///;
 	$base =~ s/\.krn$//;
+
+	my $pscores = "";
+	for (my $i=@scores - 1; $i>=0; $i--) {
+		$pscores .= ", $abbrs[$i]: $scores[$i]";
+	}
 
 	print << "EOT";
 
@@ -192,7 +201,7 @@ sub processFile {
 		<b>Score:</b>
 	</td>
 	<td class="score">
-		$score of notes are in a melisma
+		$score of notes are in a melisma$pscores
 	</td>
 </tr>
 
@@ -232,6 +241,57 @@ EOT
 
 ##############################
 ##
+## getPartScores --
+##
+
+sub getPartScores {
+	my %parameters = @_;
+	my $count = $parameters{"PARTCOUNT"};
+	my @output;
+	for (my $i=1; $i<=$count; $i++) {
+		$output[@output] = $parameters{"PARTSCORE-$i"};
+	}
+	return @output;
+}
+
+
+
+##############################
+##
+## getPartNames --
+##
+
+sub getPartNames {
+	my %parameters = @_;
+	my $count = $parameters{"PARTCOUNT"};
+	my @output;
+	for (my $i=1; $i<=$count; $i++) {
+		$output[@output] = $parameters{"PARTNAME-$i"};
+	}
+	return @output;
+}
+
+
+
+##############################
+##
+## getPartAbbreviations --
+##
+
+sub getPartAbbreviations {
+	my %parameters = @_;
+	my $count = $parameters{"PARTCOUNT"};
+	my @output;
+	for (my $i=1; $i<=$count; $i++) {
+		$output[@output] = $parameters{"PARTABBR-$i"};
+	}
+	return @output;
+}
+
+
+
+##############################
+##
 ## getWordlist --
 ##
 
@@ -260,7 +320,7 @@ sub getWordlist {
 ## getMelismaScore --
 ##
 
-sub getMelismaScore {
+sub getParameters {
 	my ($id) = @_;
 	my $filename = "data/$id.aton";
 	open (TFILE, $filename) or return "0%";
@@ -268,15 +328,19 @@ sub getMelismaScore {
 	close TFILE;
 	chomp @contents;
 
+	my %output;
 	for (my $i=0; $i<@contents; $i++) {
 		my $line = $contents[$i];
 		chomp $line;
-		if ($line =~ /^\@MELISMASCORE:\s*(.*)\s*$/) {
-			return $1;
+		if ($line =~ /^\@\@BEGIN\s*:\s*WORD\s*$/) {
+			last;
+		}
+		if ($line =~ /^\@([^ :]+)\s*:\s*(.*)\s*$/) {
+			$output{$1} = $2;
 		}
 	}
 
-	return "0%";
+	return %output;
 }
 
 

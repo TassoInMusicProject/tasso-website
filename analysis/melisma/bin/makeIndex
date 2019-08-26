@@ -8,6 +8,7 @@ my @files = glob("$scoredir/*/kern/*.krn");
 
 my @rimefiles;
 my @nonrimefiles;
+my @ABBRS;
 
 for (my $i=0; $i<@files; $i++) {
 	if ($files[$i] =~ /Trm\d{4}[a-z]+-/) {
@@ -29,20 +30,20 @@ permalink: /analysis/melisma/index.html
 
 <h1> Melisma analysis </h1>
 
-This page extracts information about melimas in the music. By default
-the following list is sorted by poem for comparison of melismas in
-the same poem by different composers, but the order can be changed
-to sort by the relative amount of melismas in each work, by composer,
-or by publication date.  The "Score" entry lists the percentage of
-notes in the music that are involved in a melisma.  Click on a link
-in the "View" section to view the melismas highlighted in the score.
-The different links are select the smallest melisma size that will
-be highlighted.  For example, "4+ notes" will highlight notes when
-there are at least four notes for a single syllable.  The "Words"
-list contains a list of all of the words possessing more than one
-note.  The color code: black=single note, purple=2 notes, blue=3
-notes, green=4 notes, orange=5&ndash;10 notes, and red=11 or more
-notes.
+This page extracts information about melimas from the musical
+settings. By default the following list is sorted by poem for
+comparison of melismas in the same poem by different composers, but
+the order can be changed to sort by the relative amount of melismas
+in each work, by composer, or by publication date.  The "Score"
+entry lists the percentage of notes in the music that are involved
+in a melisma.  Click on a link in the "View" section to view the
+melismas highlighted in the score.  The different links are select
+the smallest melisma size that will be highlighted.  For example,
+"4+ notes" will highlight notes when there are at least four notes
+for a single syllable.  The "Words" list contains a list of all of
+the words possessing more than one note.  The color code: black=single
+note, purple=2 notes, blue=3 notes, green=4 notes, orange=5&ndash;10
+notes, and red=11 or more notes.
 
 <style>
 table.entry td.blank {
@@ -129,6 +130,7 @@ sub processFile {
 	my %parameters = getParameters($id);
 	my @names = getPartNames(%parameters);
 	my @abbrs = getPartAbbreviations(%parameters);
+	@ABBRS = @abbrs;
 	my @scores = getPartScores(%parameters);
 	my $score = $parameters{"MELISMASCORE"};
 	foreach my $line (@contents) {
@@ -150,6 +152,9 @@ sub processFile {
 	}
 
 	my $wordlist = getWordlist($id);
+	if ($wordlist =~ /^\s*$/) {
+		$wordlist = "<i>no melismas</i>";
+	}
 
 	my $base = $file;
 	$base =~ s/.*\///;
@@ -304,13 +309,48 @@ sub getWordlist {
 	close FILE;
 	chomp @contents;
 	my $output;
+	my @parts;
+	my %params;
+	my $word;
+	my $counter = 0;
+
 	for (my $i=0; $i<@contents; $i++) {
 		my $line = $contents[$i];
 		next if $line !~ /^\@\@BEGIN:\s*WORD\s*$/;
-		$output .= getWord($i, @contents);
+		%params = getWordParams($i, @contents);
+		$word = getWord($i, @contents);
+		$counter++;
+		$parts[$params{"PARTNUM"} - 1] .= "$word, ";
 	}
-	$output =~ s/\,\s*$//;
-	return $output;
+
+	my $output = "";
+	$output .= "<table>\n";
+	
+	for (my $i=@parts - 1; $i>=0; $i--) {
+		$output .= "\t<tr>";
+
+		$output .= "<td>";
+		$output .= "$ABBRS[$i]:";
+		$output .= "</td>";
+
+		$output .= "<td>";
+		$parts[$i] =~ s/, $//;
+		my $value = $parts[$i];
+		if ($value =~ /^\s*$/) {
+			$value = "<i>no melismas</i>";
+		}
+		$output .= $value;
+		$output .= "</td>";
+
+		$output .= "</tr>\t";
+
+	}
+	$output .= "</table>\n";
+
+	if ($counter == 0) {
+		return "";
+	}
+	return "$output";
 }
 
 
@@ -347,6 +387,28 @@ sub getParameters {
 
 ##############################
 ##
+## getWordParams --
+##
+
+sub getWordParams {
+	my ($index, @contents) = @_;
+	my %params;
+	my $output = "";
+	my $i;
+	for ($i = $index+1; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		last if $line =~ /^\@\@END:\s*WORD\s*$/;
+		if ($line =~ /^\@([^ :]+):\s*(.*)\s*$/) {
+			$params{$1} = $2;
+		}
+	}
+	return %params;
+}
+
+
+
+##############################
+##
 ## getWord --
 ##
 
@@ -363,35 +425,37 @@ sub getWord {
 		}
 	}
 	my @syllables = split(/\s+/, $params{"SYLLABLES"});
+	my @barlines = split(/\s+/, $params{"BARLINES"});
 	my @notecounts = split(/\s+/, $params{"NOTECOUNTS"});
 	for ($i=0; $i<@syllables; $i++) {
 		my $count = $notecounts[$i];
 		my $syllable = $syllables[$i];
 		if ($count > 10) {
-			$output .= "<span class='ten'>$syllable</span>";
+			$output .= "<span title='$count notes starting in m. $barlines[$i]' class='ten'>$syllable</span>";
 			next;
 		}
 		if ($count == 1) {
-			$output .= $syllable;
+			$output .= "<span title='m. $barlines[$i]' class='one'>$syllable</span>";
 			next;
 		}
 		if ($count == 2) {
-			$output .= "<span class='two'>$syllable</span>";
+			$output .= "<span title='$count notes starting in m. $barlines[$i]' class='two'>$syllable</span>";
 			next;
 		}
 		if ($count == 3) {
-			$output .= "<span class='three'>$syllable</span>";
+			$output .= "<span title='$count notes starting in m. $barlines[$i]' class='three'>$syllable</span>";
 			next;
 		}
 		if ($count == 4) {
-			$output .= "<span class='four'>$syllable</span>";
+			$output .= "<span title='$count notes starting in m. $barlines[$i]' class='four'>$syllable</span>";
 			next;
 		}
 		if ($count <= 10) {
-			$output .= "<span class='five'>$syllable</span>";
+			my $v = $barlines[$i];
+			$v =~ s/'//;
+			$output .= "<span title='$count notes starting in m. $v' class='five'>$syllable</span>";
 		}
 	}
-	$output .= ", ";
 	return $output;
 }
 

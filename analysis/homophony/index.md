@@ -7,6 +7,13 @@ permalink: /analysis/homophony/index.html
 
 <h1> Homophonic analysis </h1>
 
+The following table lists homophonic texture percentages found
+in each work.  Identification of homophony is done automatically, so
+the measurements are approximate.  The click on the percentage for a work
+to view the homophonic textures highlighted in red on the work pages.
+Raw data for further analysis can be found on the spreadsheet:
+<a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
+
 
 <style>
 div#form {
@@ -53,11 +60,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.9%
+		<a target="_blank" href="/work?id=Trm0003b&filter=homophonic">60.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0003b&filter=homophonic">Trm0003b</a>
+		Trm0003b
 	</td>
 
 	<td class="composer">
@@ -82,11 +89,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.7%
+		<a target="_blank" href="/work?id=Trm0023c&filter=homophonic">45.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0023c&filter=homophonic">Trm0023c</a>
+		Trm0023c
 	</td>
 
 	<td class="composer">
@@ -111,11 +118,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			46.6%
+		<a target="_blank" href="/work?id=Trm0023e&filter=homophonic">46.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0023e&filter=homophonic">Trm0023e</a>
+		Trm0023e
 	</td>
 
 	<td class="composer">
@@ -140,11 +147,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			50.3%
+		<a target="_blank" href="/work?id=Trm0024a&filter=homophonic">50.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0024a&filter=homophonic">Trm0024a</a>
+		Trm0024a
 	</td>
 
 	<td class="composer">
@@ -169,11 +176,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.8%
+		<a target="_blank" href="/work?id=Trm0025b&filter=homophonic">60.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0025b&filter=homophonic">Trm0025b</a>
+		Trm0025b
 	</td>
 
 	<td class="composer">
@@ -198,11 +205,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.2%
+		<a target="_blank" href="/work?id=Trm0028a&filter=homophonic">59.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0028a&filter=homophonic">Trm0028a</a>
+		Trm0028a
 	</td>
 
 	<td class="composer">
@@ -227,11 +234,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			49.4%
+		<a target="_blank" href="/work?id=Trm0038a&filter=homophonic">49.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0038a&filter=homophonic">Trm0038a</a>
+		Trm0038a
 	</td>
 
 	<td class="composer">
@@ -256,11 +263,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.4%
+		<a target="_blank" href="/work?id=Trm0047a&filter=homophonic">63.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0047a&filter=homophonic">Trm0047a</a>
+		Trm0047a
 	</td>
 
 	<td class="composer">
@@ -285,11 +292,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57.5%
+		<a target="_blank" href="/work?id=Trm0047l&filter=homophonic">57.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0047l&filter=homophonic">Trm0047l</a>
+		Trm0047l
 	</td>
 
 	<td class="composer">
@@ -314,11 +321,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			46.7%
+		<a target="_blank" href="/work?id=Trm0047m&filter=homophonic">46.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0047m&filter=homophonic">Trm0047m</a>
+		Trm0047m
 	</td>
 
 	<td class="composer">
@@ -343,11 +350,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.2%
+		<a target="_blank" href="/work?id=Trm0047n&filter=homophonic">45.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0047n&filter=homophonic">Trm0047n</a>
+		Trm0047n
 	</td>
 
 	<td class="composer">
@@ -372,11 +379,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			67%
+		<a target="_blank" href="/work?id=Trm0047q&filter=homophonic">67%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0047q&filter=homophonic">Trm0047q</a>
+		Trm0047q
 	</td>
 
 	<td class="composer">
@@ -401,11 +408,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			42.7%
+		<a target="_blank" href="/work?id=Trm0047s&filter=homophonic">42.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0047s&filter=homophonic">Trm0047s</a>
+		Trm0047s
 	</td>
 
 	<td class="composer">
@@ -430,11 +437,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			56.4%
+		<a target="_blank" href="/work?id=Trm0048a&filter=homophonic">56.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0048a&filter=homophonic">Trm0048a</a>
+		Trm0048a
 	</td>
 
 	<td class="composer">
@@ -459,11 +466,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			55.1%
+		<a target="_blank" href="/work?id=Trm0048e&filter=homophonic">55.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0048e&filter=homophonic">Trm0048e</a>
+		Trm0048e
 	</td>
 
 	<td class="composer">
@@ -488,11 +495,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			62.8%
+		<a target="_blank" href="/work?id=Trm0048f&filter=homophonic">62.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0048f&filter=homophonic">Trm0048f</a>
+		Trm0048f
 	</td>
 
 	<td class="composer">
@@ -517,11 +524,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			55.8%
+		<a target="_blank" href="/work?id=Trm0052a&filter=homophonic">55.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0052a&filter=homophonic">Trm0052a</a>
+		Trm0052a
 	</td>
 
 	<td class="composer">
@@ -546,11 +553,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.5%
+		<a target="_blank" href="/work?id=Trm0059b&filter=homophonic">37.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0059b&filter=homophonic">Trm0059b</a>
+		Trm0059b
 	</td>
 
 	<td class="composer">
@@ -575,11 +582,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			27.7%
+		<a target="_blank" href="/work?id=Trm0059c&filter=homophonic">27.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0059c&filter=homophonic">Trm0059c</a>
+		Trm0059c
 	</td>
 
 	<td class="composer">
@@ -604,11 +611,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.5%
+		<a target="_blank" href="/work?id=Trm0060c&filter=homophonic">45.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0060c&filter=homophonic">Trm0060c</a>
+		Trm0060c
 	</td>
 
 	<td class="composer">
@@ -633,11 +640,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			48.5%
+		<a target="_blank" href="/work?id=Trm0088a&filter=homophonic">48.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0088a&filter=homophonic">Trm0088a</a>
+		Trm0088a
 	</td>
 
 	<td class="composer">
@@ -662,11 +669,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.3%
+		<a target="_blank" href="/work?id=Trm0089a&filter=homophonic">53.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0089a&filter=homophonic">Trm0089a</a>
+		Trm0089a
 	</td>
 
 	<td class="composer">
@@ -691,11 +698,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			68.8%
+		<a target="_blank" href="/work?id=Trm0090b&filter=homophonic">68.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0090b&filter=homophonic">Trm0090b</a>
+		Trm0090b
 	</td>
 
 	<td class="composer">
@@ -720,11 +727,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.4%
+		<a target="_blank" href="/work?id=Trm0090c&filter=homophonic">37.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0090c&filter=homophonic">Trm0090c</a>
+		Trm0090c
 	</td>
 
 	<td class="composer">
@@ -749,11 +756,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			33.2%
+		<a target="_blank" href="/work?id=Trm0093a&filter=homophonic">33.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0093a&filter=homophonic">Trm0093a</a>
+		Trm0093a
 	</td>
 
 	<td class="composer">
@@ -778,11 +785,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57.6%
+		<a target="_blank" href="/work?id=Trm0096a&filter=homophonic">57.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0096a&filter=homophonic">Trm0096a</a>
+		Trm0096a
 	</td>
 
 	<td class="composer">
@@ -807,11 +814,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			48.1%
+		<a target="_blank" href="/work?id=Trm0097b&filter=homophonic">48.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0097b&filter=homophonic">Trm0097b</a>
+		Trm0097b
 	</td>
 
 	<td class="composer">
@@ -836,11 +843,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			50.9%
+		<a target="_blank" href="/work?id=Trm0099a&filter=homophonic">50.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0099a&filter=homophonic">Trm0099a</a>
+		Trm0099a
 	</td>
 
 	<td class="composer">
@@ -865,11 +872,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.7%
+		<a target="_blank" href="/work?id=Trm0107a&filter=homophonic">37.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0107a&filter=homophonic">Trm0107a</a>
+		Trm0107a
 	</td>
 
 	<td class="composer">
@@ -894,11 +901,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			82.3%
+		<a target="_blank" href="/work?id=Trm0126a&filter=homophonic">82.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0126a&filter=homophonic">Trm0126a</a>
+		Trm0126a
 	</td>
 
 	<td class="composer">
@@ -923,11 +930,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			31.8%
+		<a target="_blank" href="/work?id=Trm0137a&filter=homophonic">31.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0137a&filter=homophonic">Trm0137a</a>
+		Trm0137a
 	</td>
 
 	<td class="composer">
@@ -952,11 +959,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			70.8%
+		<a target="_blank" href="/work?id=Trm0137b&filter=homophonic">70.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0137b&filter=homophonic">Trm0137b</a>
+		Trm0137b
 	</td>
 
 	<td class="composer">
@@ -981,11 +988,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			51.1%
+		<a target="_blank" href="/work?id=Trm0139a&filter=homophonic">51.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0139a&filter=homophonic">Trm0139a</a>
+		Trm0139a
 	</td>
 
 	<td class="composer">
@@ -1010,11 +1017,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			42.5%
+		<a target="_blank" href="/work?id=Trm0143a&filter=homophonic">42.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0143a&filter=homophonic">Trm0143a</a>
+		Trm0143a
 	</td>
 
 	<td class="composer">
@@ -1039,11 +1046,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			49.5%
+		<a target="_blank" href="/work?id=Trm0144a&filter=homophonic">49.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0144a&filter=homophonic">Trm0144a</a>
+		Trm0144a
 	</td>
 
 	<td class="composer">
@@ -1068,11 +1075,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			58.5%
+		<a target="_blank" href="/work?id=Trm0152a&filter=homophonic">58.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0152a&filter=homophonic">Trm0152a</a>
+		Trm0152a
 	</td>
 
 	<td class="composer">
@@ -1097,11 +1104,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.5%
+		<a target="_blank" href="/work?id=Trm0159a&filter=homophonic">63.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0159a&filter=homophonic">Trm0159a</a>
+		Trm0159a
 	</td>
 
 	<td class="composer">
@@ -1126,11 +1133,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			52.3%
+		<a target="_blank" href="/work?id=Trm0159b&filter=homophonic">52.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0159b&filter=homophonic">Trm0159b</a>
+		Trm0159b
 	</td>
 
 	<td class="composer">
@@ -1155,11 +1162,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Trm0164a&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0164a&filter=homophonic">Trm0164a</a>
+		Trm0164a
 	</td>
 
 	<td class="composer">
@@ -1184,11 +1191,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			68.6%
+		<a target="_blank" href="/work?id=Trm0165d&filter=homophonic">68.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0165d&filter=homophonic">Trm0165d</a>
+		Trm0165d
 	</td>
 
 	<td class="composer">
@@ -1213,11 +1220,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			65.8%
+		<a target="_blank" href="/work?id=Trm0166g&filter=homophonic">65.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0166g&filter=homophonic">Trm0166g</a>
+		Trm0166g
 	</td>
 
 	<td class="composer">
@@ -1242,11 +1249,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			67%
+		<a target="_blank" href="/work?id=Trm0166k&filter=homophonic">67%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0166k&filter=homophonic">Trm0166k</a>
+		Trm0166k
 	</td>
 
 	<td class="composer">
@@ -1271,11 +1278,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			47.1%
+		<a target="_blank" href="/work?id=Trm0174a&filter=homophonic">47.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0174a&filter=homophonic">Trm0174a</a>
+		Trm0174a
 	</td>
 
 	<td class="composer">
@@ -1300,11 +1307,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.1%
+		<a target="_blank" href="/work?id=Trm0175b&filter=homophonic">45.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0175b&filter=homophonic">Trm0175b</a>
+		Trm0175b
 	</td>
 
 	<td class="composer">
@@ -1329,11 +1336,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			47.7%
+		<a target="_blank" href="/work?id=Trm0183b&filter=homophonic">47.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0183b&filter=homophonic">Trm0183b</a>
+		Trm0183b
 	</td>
 
 	<td class="composer">
@@ -1358,11 +1365,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.6%
+		<a target="_blank" href="/work?id=Trm0189b&filter=homophonic">59.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0189b&filter=homophonic">Trm0189b</a>
+		Trm0189b
 	</td>
 
 	<td class="composer">
@@ -1387,11 +1394,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.3%
+		<a target="_blank" href="/work?id=Trm0191b&filter=homophonic">37.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0191b&filter=homophonic">Trm0191b</a>
+		Trm0191b
 	</td>
 
 	<td class="composer">
@@ -1416,11 +1423,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			54.3%
+		<a target="_blank" href="/work?id=Trm0194b&filter=homophonic">54.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0194b&filter=homophonic">Trm0194b</a>
+		Trm0194b
 	</td>
 
 	<td class="composer">
@@ -1445,11 +1452,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.7%
+		<a target="_blank" href="/work?id=Trm0198a&filter=homophonic">63.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0198a&filter=homophonic">Trm0198a</a>
+		Trm0198a
 	</td>
 
 	<td class="composer">
@@ -1474,11 +1481,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.2%
+		<a target="_blank" href="/work?id=Trm0202a&filter=homophonic">59.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0202a&filter=homophonic">Trm0202a</a>
+		Trm0202a
 	</td>
 
 	<td class="composer">
@@ -1503,11 +1510,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.9%
+		<a target="_blank" href="/work?id=Trm0237a&filter=homophonic">45.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0237a&filter=homophonic">Trm0237a</a>
+		Trm0237a
 	</td>
 
 	<td class="composer">
@@ -1532,11 +1539,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			70.6%
+		<a target="_blank" href="/work?id=Trm0241a&filter=homophonic">70.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0241a&filter=homophonic">Trm0241a</a>
+		Trm0241a
 	</td>
 
 	<td class="composer">
@@ -1561,11 +1568,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			20.6%
+		<a target="_blank" href="/work?id=Trm0242a&filter=homophonic">20.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0242a&filter=homophonic">Trm0242a</a>
+		Trm0242a
 	</td>
 
 	<td class="composer">
@@ -1590,11 +1597,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			55%
+		<a target="_blank" href="/work?id=Trm0243a&filter=homophonic">55%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0243a&filter=homophonic">Trm0243a</a>
+		Trm0243a
 	</td>
 
 	<td class="composer">
@@ -1619,11 +1626,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			39.3%
+		<a target="_blank" href="/work?id=Trm0244a&filter=homophonic">39.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0244a&filter=homophonic">Trm0244a</a>
+		Trm0244a
 	</td>
 
 	<td class="composer">
@@ -1648,11 +1655,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			42.5%
+		<a target="_blank" href="/work?id=Trm0246a&filter=homophonic">42.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0246a&filter=homophonic">Trm0246a</a>
+		Trm0246a
 	</td>
 
 	<td class="composer">
@@ -1677,11 +1684,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			73.1%
+		<a target="_blank" href="/work?id=Trm0247a&filter=homophonic">73.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0247a&filter=homophonic">Trm0247a</a>
+		Trm0247a
 	</td>
 
 	<td class="composer">
@@ -1706,11 +1713,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			74.5%
+		<a target="_blank" href="/work?id=Trm0248a&filter=homophonic">74.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0248a&filter=homophonic">Trm0248a</a>
+		Trm0248a
 	</td>
 
 	<td class="composer">
@@ -1735,11 +1742,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			42.9%
+		<a target="_blank" href="/work?id=Trm0248d&filter=homophonic">42.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0248d&filter=homophonic">Trm0248d</a>
+		Trm0248d
 	</td>
 
 	<td class="composer">
@@ -1764,11 +1771,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			33.1%
+		<a target="_blank" href="/work?id=Trm0255a&filter=homophonic">33.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0255a&filter=homophonic">Trm0255a</a>
+		Trm0255a
 	</td>
 
 	<td class="composer">
@@ -1793,11 +1800,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.3%
+		<a target="_blank" href="/work?id=Trm0257a&filter=homophonic">45.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0257a&filter=homophonic">Trm0257a</a>
+		Trm0257a
 	</td>
 
 	<td class="composer">
@@ -1822,11 +1829,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			20.2%
+		<a target="_blank" href="/work?id=Trm0261b&filter=homophonic">20.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0261b&filter=homophonic">Trm0261b</a>
+		Trm0261b
 	</td>
 
 	<td class="composer">
@@ -1851,11 +1858,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			80.8%
+		<a target="_blank" href="/work?id=Trm0265a&filter=homophonic">80.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0265a&filter=homophonic">Trm0265a</a>
+		Trm0265a
 	</td>
 
 	<td class="composer">
@@ -1880,11 +1887,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			38.6%
+		<a target="_blank" href="/work?id=Trm0267a&filter=homophonic">38.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0267a&filter=homophonic">Trm0267a</a>
+		Trm0267a
 	</td>
 
 	<td class="composer">
@@ -1909,11 +1916,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			38.7%
+		<a target="_blank" href="/work?id=Trm0272b&filter=homophonic">38.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0272b&filter=homophonic">Trm0272b</a>
+		Trm0272b
 	</td>
 
 	<td class="composer">
@@ -1938,11 +1945,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57%
+		<a target="_blank" href="/work?id=Trm0275a&filter=homophonic">57%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0275a&filter=homophonic">Trm0275a</a>
+		Trm0275a
 	</td>
 
 	<td class="composer">
@@ -1967,11 +1974,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			58.6%
+		<a target="_blank" href="/work?id=Trm0276a&filter=homophonic">58.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0276a&filter=homophonic">Trm0276a</a>
+		Trm0276a
 	</td>
 
 	<td class="composer">
@@ -1996,11 +2003,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.2%
+		<a target="_blank" href="/work?id=Trm0277a&filter=homophonic">60.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0277a&filter=homophonic">Trm0277a</a>
+		Trm0277a
 	</td>
 
 	<td class="composer">
@@ -2025,11 +2032,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			34%
+		<a target="_blank" href="/work?id=Trm0279a&filter=homophonic">34%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0279a&filter=homophonic">Trm0279a</a>
+		Trm0279a
 	</td>
 
 	<td class="composer">
@@ -2054,11 +2061,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			44.4%
+		<a target="_blank" href="/work?id=Trm0284c&filter=homophonic">44.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0284c&filter=homophonic">Trm0284c</a>
+		Trm0284c
 	</td>
 
 	<td class="composer">
@@ -2083,11 +2090,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			51.9%
+		<a target="_blank" href="/work?id=Trm0288g&filter=homophonic">51.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0288g&filter=homophonic">Trm0288g</a>
+		Trm0288g
 	</td>
 
 	<td class="composer">
@@ -2112,11 +2119,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61%
+		<a target="_blank" href="/work?id=Trm0288h&filter=homophonic">61%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0288h&filter=homophonic">Trm0288h</a>
+		Trm0288h
 	</td>
 
 	<td class="composer">
@@ -2141,11 +2148,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			40.4%
+		<a target="_blank" href="/work?id=Trm0288i&filter=homophonic">40.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0288i&filter=homophonic">Trm0288i</a>
+		Trm0288i
 	</td>
 
 	<td class="composer">
@@ -2170,11 +2177,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.2%
+		<a target="_blank" href="/work?id=Trm0289a&filter=homophonic">63.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0289a&filter=homophonic">Trm0289a</a>
+		Trm0289a
 	</td>
 
 	<td class="composer">
@@ -2199,11 +2206,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			70.2%
+		<a target="_blank" href="/work?id=Trm0297a&filter=homophonic">70.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0297a&filter=homophonic">Trm0297a</a>
+		Trm0297a
 	</td>
 
 	<td class="composer">
@@ -2228,11 +2235,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.9%
+		<a target="_blank" href="/work?id=Trm0302a&filter=homophonic">45.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0302a&filter=homophonic">Trm0302a</a>
+		Trm0302a
 	</td>
 
 	<td class="composer">
@@ -2257,11 +2264,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			44.4%
+		<a target="_blank" href="/work?id=Trm0303a&filter=homophonic">44.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0303a&filter=homophonic">Trm0303a</a>
+		Trm0303a
 	</td>
 
 	<td class="composer">
@@ -2286,11 +2293,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			39.4%
+		<a target="_blank" href="/work?id=Trm0307a&filter=homophonic">39.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0307a&filter=homophonic">Trm0307a</a>
+		Trm0307a
 	</td>
 
 	<td class="composer">
@@ -2315,11 +2322,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			44.3%
+		<a target="_blank" href="/work?id=Trm0309a&filter=homophonic">44.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0309a&filter=homophonic">Trm0309a</a>
+		Trm0309a
 	</td>
 
 	<td class="composer">
@@ -2344,11 +2351,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			44.9%
+		<a target="_blank" href="/work?id=Trm0315b&filter=homophonic">44.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0315b&filter=homophonic">Trm0315b</a>
+		Trm0315b
 	</td>
 
 	<td class="composer">
@@ -2373,11 +2380,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.8%
+		<a target="_blank" href="/work?id=Trm0318a&filter=homophonic">53.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0318a&filter=homophonic">Trm0318a</a>
+		Trm0318a
 	</td>
 
 	<td class="composer">
@@ -2402,11 +2409,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			43.3%
+		<a target="_blank" href="/work?id=Trm0318c&filter=homophonic">43.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0318c&filter=homophonic">Trm0318c</a>
+		Trm0318c
 	</td>
 
 	<td class="composer">
@@ -2431,11 +2438,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			43.9%
+		<a target="_blank" href="/work?id=Trm0319a&filter=homophonic">43.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0319a&filter=homophonic">Trm0319a</a>
+		Trm0319a
 	</td>
 
 	<td class="composer">
@@ -2460,11 +2467,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			34.5%
+		<a target="_blank" href="/work?id=Trm0322a&filter=homophonic">34.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0322a&filter=homophonic">Trm0322a</a>
+		Trm0322a
 	</td>
 
 	<td class="composer">
@@ -2489,11 +2496,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			34.2%
+		<a target="_blank" href="/work?id=Trm0323a&filter=homophonic">34.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0323a&filter=homophonic">Trm0323a</a>
+		Trm0323a
 	</td>
 
 	<td class="composer">
@@ -2518,11 +2525,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.4%
+		<a target="_blank" href="/work?id=Trm0325c&filter=homophonic">60.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0325c&filter=homophonic">Trm0325c</a>
+		Trm0325c
 	</td>
 
 	<td class="composer">
@@ -2547,11 +2554,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.5%
+		<a target="_blank" href="/work?id=Trm0326d&filter=homophonic">53.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0326d&filter=homophonic">Trm0326d</a>
+		Trm0326d
 	</td>
 
 	<td class="composer">
@@ -2576,11 +2583,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			74.7%
+		<a target="_blank" href="/work?id=Trm0333a&filter=homophonic">74.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0333a&filter=homophonic">Trm0333a</a>
+		Trm0333a
 	</td>
 
 	<td class="composer">
@@ -2605,11 +2612,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61%
+		<a target="_blank" href="/work?id=Trm0333b&filter=homophonic">61%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0333b&filter=homophonic">Trm0333b</a>
+		Trm0333b
 	</td>
 
 	<td class="composer">
@@ -2634,11 +2641,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			52.7%
+		<a target="_blank" href="/work?id=Trm0333e&filter=homophonic">52.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0333e&filter=homophonic">Trm0333e</a>
+		Trm0333e
 	</td>
 
 	<td class="composer">
@@ -2663,11 +2670,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61.9%
+		<a target="_blank" href="/work?id=Trm0333g&filter=homophonic">61.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0333g&filter=homophonic">Trm0333g</a>
+		Trm0333g
 	</td>
 
 	<td class="composer">
@@ -2692,11 +2699,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.8%
+		<a target="_blank" href="/work?id=Trm0333i&filter=homophonic">59.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0333i&filter=homophonic">Trm0333i</a>
+		Trm0333i
 	</td>
 
 	<td class="composer">
@@ -2721,11 +2728,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			31.7%
+		<a target="_blank" href="/work?id=Trm0335d&filter=homophonic">31.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0335d&filter=homophonic">Trm0335d</a>
+		Trm0335d
 	</td>
 
 	<td class="composer">
@@ -2750,11 +2757,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Trm0335f&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0335f&filter=homophonic">Trm0335f</a>
+		Trm0335f
 	</td>
 
 	<td class="composer">
@@ -2779,11 +2786,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			26.3%
+		<a target="_blank" href="/work?id=Trm0339b&filter=homophonic">26.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0339b&filter=homophonic">Trm0339b</a>
+		Trm0339b
 	</td>
 
 	<td class="composer">
@@ -2808,11 +2815,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			51.8%
+		<a target="_blank" href="/work?id=Trm0341a&filter=homophonic">51.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0341a&filter=homophonic">Trm0341a</a>
+		Trm0341a
 	</td>
 
 	<td class="composer">
@@ -2837,11 +2844,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			28%
+		<a target="_blank" href="/work?id=Trm0343a&filter=homophonic">28%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0343a&filter=homophonic">Trm0343a</a>
+		Trm0343a
 	</td>
 
 	<td class="composer">
@@ -2866,11 +2873,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			62.5%
+		<a target="_blank" href="/work?id=Trm0345a&filter=homophonic">62.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0345a&filter=homophonic">Trm0345a</a>
+		Trm0345a
 	</td>
 
 	<td class="composer">
@@ -2895,11 +2902,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			18.8%
+		<a target="_blank" href="/work?id=Trm0358b&filter=homophonic">18.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0358b&filter=homophonic">Trm0358b</a>
+		Trm0358b
 	</td>
 
 	<td class="composer">
@@ -2924,11 +2931,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			84.3%
+		<a target="_blank" href="/work?id=Trm0361a&filter=homophonic">84.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0361a&filter=homophonic">Trm0361a</a>
+		Trm0361a
 	</td>
 
 	<td class="composer">
@@ -2953,11 +2960,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			36.7%
+		<a target="_blank" href="/work?id=Trm0361b&filter=homophonic">36.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0361b&filter=homophonic">Trm0361b</a>
+		Trm0361b
 	</td>
 
 	<td class="composer">
@@ -2982,11 +2989,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Trm0361c&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0361c&filter=homophonic">Trm0361c</a>
+		Trm0361c
 	</td>
 
 	<td class="composer">
@@ -3011,11 +3018,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			69.5%
+		<a target="_blank" href="/work?id=Trm0362a&filter=homophonic">69.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0362a&filter=homophonic">Trm0362a</a>
+		Trm0362a
 	</td>
 
 	<td class="composer">
@@ -3040,11 +3047,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			40.7%
+		<a target="_blank" href="/work?id=Trm0363a&filter=homophonic">40.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0363a&filter=homophonic">Trm0363a</a>
+		Trm0363a
 	</td>
 
 	<td class="composer">
@@ -3069,11 +3076,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61.2%
+		<a target="_blank" href="/work?id=Trm0366a&filter=homophonic">61.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0366a&filter=homophonic">Trm0366a</a>
+		Trm0366a
 	</td>
 
 	<td class="composer">
@@ -3098,11 +3105,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			40.8%
+		<a target="_blank" href="/work?id=Trm0367a&filter=homophonic">40.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0367a&filter=homophonic">Trm0367a</a>
+		Trm0367a
 	</td>
 
 	<td class="composer">
@@ -3127,11 +3134,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			65.7%
+		<a target="_blank" href="/work?id=Trm0371b&filter=homophonic">65.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0371b&filter=homophonic">Trm0371b</a>
+		Trm0371b
 	</td>
 
 	<td class="composer">
@@ -3156,11 +3163,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.7%
+		<a target="_blank" href="/work?id=Trm0372b&filter=homophonic">59.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0372b&filter=homophonic">Trm0372b</a>
+		Trm0372b
 	</td>
 
 	<td class="composer">
@@ -3185,11 +3192,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			15.4%
+		<a target="_blank" href="/work?id=Trm0373a&filter=homophonic">15.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0373a&filter=homophonic">Trm0373a</a>
+		Trm0373a
 	</td>
 
 	<td class="composer">
@@ -3214,11 +3221,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			66.1%
+		<a target="_blank" href="/work?id=Trm0378f&filter=homophonic">66.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0378f&filter=homophonic">Trm0378f</a>
+		Trm0378f
 	</td>
 
 	<td class="composer">
@@ -3243,11 +3250,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			33.1%
+		<a target="_blank" href="/work?id=Trm0379b&filter=homophonic">33.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0379b&filter=homophonic">Trm0379b</a>
+		Trm0379b
 	</td>
 
 	<td class="composer">
@@ -3272,11 +3279,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.6%
+		<a target="_blank" href="/work?id=Trm0380b&filter=homophonic">53.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0380b&filter=homophonic">Trm0380b</a>
+		Trm0380b
 	</td>
 
 	<td class="composer">
@@ -3301,11 +3308,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			67.2%
+		<a target="_blank" href="/work?id=Trm0389b&filter=homophonic">67.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0389b&filter=homophonic">Trm0389b</a>
+		Trm0389b
 	</td>
 
 	<td class="composer">
@@ -3330,11 +3337,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			43.7%
+		<a target="_blank" href="/work?id=Trm0395b&filter=homophonic">43.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0395b&filter=homophonic">Trm0395b</a>
+		Trm0395b
 	</td>
 
 	<td class="composer">
@@ -3359,11 +3366,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.9%
+		<a target="_blank" href="/work?id=Trm0395c&filter=homophonic">53.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0395c&filter=homophonic">Trm0395c</a>
+		Trm0395c
 	</td>
 
 	<td class="composer">
@@ -3388,11 +3395,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Trm0399b&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0399b&filter=homophonic">Trm0399b</a>
+		Trm0399b
 	</td>
 
 	<td class="composer">
@@ -3417,11 +3424,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			56.3%
+		<a target="_blank" href="/work?id=Trm0407a&filter=homophonic">56.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0407a&filter=homophonic">Trm0407a</a>
+		Trm0407a
 	</td>
 
 	<td class="composer">
@@ -3446,11 +3453,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.9%
+		<a target="_blank" href="/work?id=Trm0408a&filter=homophonic">53.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0408a&filter=homophonic">Trm0408a</a>
+		Trm0408a
 	</td>
 
 	<td class="composer">
@@ -3475,11 +3482,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			55.1%
+		<a target="_blank" href="/work?id=Trm0418g&filter=homophonic">55.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0418g&filter=homophonic">Trm0418g</a>
+		Trm0418g
 	</td>
 
 	<td class="composer">
@@ -3504,11 +3511,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Trm0418w&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0418w&filter=homophonic">Trm0418w</a>
+		Trm0418w
 	</td>
 
 	<td class="composer">
@@ -3533,11 +3540,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			72.3%
+		<a target="_blank" href="/work?id=Trm0433a&filter=homophonic">72.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0433a&filter=homophonic">Trm0433a</a>
+		Trm0433a
 	</td>
 
 	<td class="composer">
@@ -3562,11 +3569,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			31.3%
+		<a target="_blank" href="/work?id=Trm0433b&filter=homophonic">31.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0433b&filter=homophonic">Trm0433b</a>
+		Trm0433b
 	</td>
 
 	<td class="composer">
@@ -3591,11 +3598,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			58.3%
+		<a target="_blank" href="/work?id=Trm0443c&filter=homophonic">58.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0443c&filter=homophonic">Trm0443c</a>
+		Trm0443c
 	</td>
 
 	<td class="composer">
@@ -3620,11 +3627,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.6%
+		<a target="_blank" href="/work?id=Trm0495a&filter=homophonic">53.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0495a&filter=homophonic">Trm0495a</a>
+		Trm0495a
 	</td>
 
 	<td class="composer">
@@ -3649,11 +3656,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			52.4%
+		<a target="_blank" href="/work?id=Trm0541a&filter=homophonic">52.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0541a&filter=homophonic">Trm0541a</a>
+		Trm0541a
 	</td>
 
 	<td class="composer">
@@ -3678,11 +3685,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.2%
+		<a target="_blank" href="/work?id=Trm0549a&filter=homophonic">60.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0549a&filter=homophonic">Trm0549a</a>
+		Trm0549a
 	</td>
 
 	<td class="composer">
@@ -3707,11 +3714,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			28.9%
+		<a target="_blank" href="/work?id=Trm0553a&filter=homophonic">28.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0553a&filter=homophonic">Trm0553a</a>
+		Trm0553a
 	</td>
 
 	<td class="composer">
@@ -3736,11 +3743,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.1%
+		<a target="_blank" href="/work?id=Trm0558a&filter=homophonic">63.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0558a&filter=homophonic">Trm0558a</a>
+		Trm0558a
 	</td>
 
 	<td class="composer">
@@ -3765,11 +3772,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			43.8%
+		<a target="_blank" href="/work?id=Trm0560a&filter=homophonic">43.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0560a&filter=homophonic">Trm0560a</a>
+		Trm0560a
 	</td>
 
 	<td class="composer">
@@ -3794,11 +3801,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			81%
+		<a target="_blank" href="/work?id=Trm0560b&filter=homophonic">81%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0560b&filter=homophonic">Trm0560b</a>
+		Trm0560b
 	</td>
 
 	<td class="composer">
@@ -3823,11 +3830,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			72.8%
+		<a target="_blank" href="/work?id=Trm0560c&filter=homophonic">72.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0560c&filter=homophonic">Trm0560c</a>
+		Trm0560c
 	</td>
 
 	<td class="composer">
@@ -3852,11 +3859,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			41.9%
+		<a target="_blank" href="/work?id=Trm0560f&filter=homophonic">41.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0560f&filter=homophonic">Trm0560f</a>
+		Trm0560f
 	</td>
 
 	<td class="composer">
@@ -3881,11 +3888,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			78%
+		<a target="_blank" href="/work?id=Trm0560i&filter=homophonic">78%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0560i&filter=homophonic">Trm0560i</a>
+		Trm0560i
 	</td>
 
 	<td class="composer">
@@ -3910,11 +3917,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			76.6%
+		<a target="_blank" href="/work?id=Trm0560m&filter=homophonic">76.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0560m&filter=homophonic">Trm0560m</a>
+		Trm0560m
 	</td>
 
 	<td class="composer">
@@ -3939,11 +3946,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			40.5%
+		<a target="_blank" href="/work?id=Trm0560o&filter=homophonic">40.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0560o&filter=homophonic">Trm0560o</a>
+		Trm0560o
 	</td>
 
 	<td class="composer">
@@ -3968,11 +3975,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61.4%
+		<a target="_blank" href="/work?id=Trm0571b&filter=homophonic">61.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0571b&filter=homophonic">Trm0571b</a>
+		Trm0571b
 	</td>
 
 	<td class="composer">
@@ -3997,11 +4004,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			69.2%
+		<a target="_blank" href="/work?id=Trm0592a&filter=homophonic">69.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0592a&filter=homophonic">Trm0592a</a>
+		Trm0592a
 	</td>
 
 	<td class="composer">
@@ -4026,11 +4033,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			73.6%
+		<a target="_blank" href="/work?id=Trm0602c&filter=homophonic">73.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0602c&filter=homophonic">Trm0602c</a>
+		Trm0602c
 	</td>
 
 	<td class="composer">
@@ -4055,11 +4062,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.4%
+		<a target="_blank" href="/work?id=Trm0602d&filter=homophonic">59.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0602d&filter=homophonic">Trm0602d</a>
+		Trm0602d
 	</td>
 
 	<td class="composer">
@@ -4084,11 +4091,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57.1%
+		<a target="_blank" href="/work?id=Trm0602e&filter=homophonic">57.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0602e&filter=homophonic">Trm0602e</a>
+		Trm0602e
 	</td>
 
 	<td class="composer">
@@ -4113,11 +4120,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			58.4%
+		<a target="_blank" href="/work?id=Trm0611a&filter=homophonic">58.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0611a&filter=homophonic">Trm0611a</a>
+		Trm0611a
 	</td>
 
 	<td class="composer">
@@ -4142,11 +4149,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			55.5%
+		<a target="_blank" href="/work?id=Trm0611b&filter=homophonic">55.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0611b&filter=homophonic">Trm0611b</a>
+		Trm0611b
 	</td>
 
 	<td class="composer">
@@ -4171,11 +4178,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			68.4%
+		<a target="_blank" href="/work?id=Trm0611c&filter=homophonic">68.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0611c&filter=homophonic">Trm0611c</a>
+		Trm0611c
 	</td>
 
 	<td class="composer">
@@ -4200,11 +4207,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			43.2%
+		<a target="_blank" href="/work?id=Trm0611d&filter=homophonic">43.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0611d&filter=homophonic">Trm0611d</a>
+		Trm0611d
 	</td>
 
 	<td class="composer">
@@ -4229,11 +4236,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			36.4%
+		<a target="_blank" href="/work?id=Trm0611m&filter=homophonic">36.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0611m&filter=homophonic">Trm0611m</a>
+		Trm0611m
 	</td>
 
 	<td class="composer">
@@ -4258,11 +4265,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			56.5%
+		<a target="_blank" href="/work?id=Trm0612a&filter=homophonic">56.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0612a&filter=homophonic">Trm0612a</a>
+		Trm0612a
 	</td>
 
 	<td class="composer">
@@ -4287,11 +4294,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			67.4%
+		<a target="_blank" href="/work?id=Trm0614a&filter=homophonic">67.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0614a&filter=homophonic">Trm0614a</a>
+		Trm0614a
 	</td>
 
 	<td class="composer">
@@ -4316,11 +4323,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			64.4%
+		<a target="_blank" href="/work?id=Trm0614b&filter=homophonic">64.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0614b&filter=homophonic">Trm0614b</a>
+		Trm0614b
 	</td>
 
 	<td class="composer">
@@ -4345,11 +4352,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			30.3%
+		<a target="_blank" href="/work?id=Trm0614c&filter=homophonic">30.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0614c&filter=homophonic">Trm0614c</a>
+		Trm0614c
 	</td>
 
 	<td class="composer">
@@ -4374,11 +4381,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			81.5%
+		<a target="_blank" href="/work?id=Trm0614h&filter=homophonic">81.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0614h&filter=homophonic">Trm0614h</a>
+		Trm0614h
 	</td>
 
 	<td class="composer">
@@ -4403,11 +4410,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			51.2%
+		<a target="_blank" href="/work?id=Trm0614j&filter=homophonic">51.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0614j&filter=homophonic">Trm0614j</a>
+		Trm0614j
 	</td>
 
 	<td class="composer">
@@ -4432,11 +4439,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			64.2%
+		<a target="_blank" href="/work?id=Trm0615b&filter=homophonic">64.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0615b&filter=homophonic">Trm0615b</a>
+		Trm0615b
 	</td>
 
 	<td class="composer">
@@ -4461,11 +4468,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.5%
+		<a target="_blank" href="/work?id=Trm0707a&filter=homophonic">60.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0707a&filter=homophonic">Trm0707a</a>
+		Trm0707a
 	</td>
 
 	<td class="composer">
@@ -4490,11 +4497,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59%
+		<a target="_blank" href="/work?id=Trm0734b&filter=homophonic">59%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0734b&filter=homophonic">Trm0734b</a>
+		Trm0734b
 	</td>
 
 	<td class="composer">
@@ -4519,11 +4526,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			62.2%
+		<a target="_blank" href="/work?id=Trm0735b&filter=homophonic">62.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0735b&filter=homophonic">Trm0735b</a>
+		Trm0735b
 	</td>
 
 	<td class="composer">
@@ -4548,11 +4555,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.9%
+		<a target="_blank" href="/work?id=Trm0760a&filter=homophonic">63.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0760a&filter=homophonic">Trm0760a</a>
+		Trm0760a
 	</td>
 
 	<td class="composer">
@@ -4577,11 +4584,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			55.9%
+		<a target="_blank" href="/work?id=Trm0770a&filter=homophonic">55.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0770a&filter=homophonic">Trm0770a</a>
+		Trm0770a
 	</td>
 
 	<td class="composer">
@@ -4606,11 +4613,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			42.7%
+		<a target="_blank" href="/work?id=Trm0862a&filter=homophonic">42.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0862a&filter=homophonic">Trm0862a</a>
+		Trm0862a
 	</td>
 
 	<td class="composer">
@@ -4635,11 +4642,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			78.8%
+		<a target="_blank" href="/work?id=Trm0865a&filter=homophonic">78.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0865a&filter=homophonic">Trm0865a</a>
+		Trm0865a
 	</td>
 
 	<td class="composer">
@@ -4664,11 +4671,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			44.2%
+		<a target="_blank" href="/work?id=Trm0896b&filter=homophonic">44.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0896b&filter=homophonic">Trm0896b</a>
+		Trm0896b
 	</td>
 
 	<td class="composer">
@@ -4693,11 +4700,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.8%
+		<a target="_blank" href="/work?id=Trm0901a&filter=homophonic">63.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0901a&filter=homophonic">Trm0901a</a>
+		Trm0901a
 	</td>
 
 	<td class="composer">
@@ -4722,11 +4729,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			25%
+		<a target="_blank" href="/work?id=Trm0903a&filter=homophonic">25%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0903a&filter=homophonic">Trm0903a</a>
+		Trm0903a
 	</td>
 
 	<td class="composer">
@@ -4751,11 +4758,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			58.9%
+		<a target="_blank" href="/work?id=Trm0929a&filter=homophonic">58.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0929a&filter=homophonic">Trm0929a</a>
+		Trm0929a
 	</td>
 
 	<td class="composer">
@@ -4780,11 +4787,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			73.2%
+		<a target="_blank" href="/work?id=Trm0930a&filter=homophonic">73.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm0930a&filter=homophonic">Trm0930a</a>
+		Trm0930a
 	</td>
 
 	<td class="composer">
@@ -4809,11 +4816,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.2%
+		<a target="_blank" href="/work?id=Trm1021a&filter=homophonic">37.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1021a&filter=homophonic">Trm1021a</a>
+		Trm1021a
 	</td>
 
 	<td class="composer">
@@ -4838,11 +4845,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			43.3%
+		<a target="_blank" href="/work?id=Trm1022a&filter=homophonic">43.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1022a&filter=homophonic">Trm1022a</a>
+		Trm1022a
 	</td>
 
 	<td class="composer">
@@ -4867,11 +4874,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			51.9%
+		<a target="_blank" href="/work?id=Trm1032a&filter=homophonic">51.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1032a&filter=homophonic">Trm1032a</a>
+		Trm1032a
 	</td>
 
 	<td class="composer">
@@ -4896,11 +4903,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			17.9%
+		<a target="_blank" href="/work?id=Trm1048a&filter=homophonic">17.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1048a&filter=homophonic">Trm1048a</a>
+		Trm1048a
 	</td>
 
 	<td class="composer">
@@ -4925,11 +4932,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			47.5%
+		<a target="_blank" href="/work?id=Trm1049a&filter=homophonic">47.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1049a&filter=homophonic">Trm1049a</a>
+		Trm1049a
 	</td>
 
 	<td class="composer">
@@ -4954,11 +4961,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			49.5%
+		<a target="_blank" href="/work?id=Trm1082a&filter=homophonic">49.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1082a&filter=homophonic">Trm1082a</a>
+		Trm1082a
 	</td>
 
 	<td class="composer">
@@ -4983,11 +4990,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			70%
+		<a target="_blank" href="/work?id=Trm1203a&filter=homophonic">70%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1203a&filter=homophonic">Trm1203a</a>
+		Trm1203a
 	</td>
 
 	<td class="composer">
@@ -5012,11 +5019,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			75%
+		<a target="_blank" href="/work?id=Trm1205b&filter=homophonic">75%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1205b&filter=homophonic">Trm1205b</a>
+		Trm1205b
 	</td>
 
 	<td class="composer">
@@ -5041,11 +5048,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.5%
+		<a target="_blank" href="/work?id=Trm1276a&filter=homophonic">37.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1276a&filter=homophonic">Trm1276a</a>
+		Trm1276a
 	</td>
 
 	<td class="composer">
@@ -5070,11 +5077,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			35.3%
+		<a target="_blank" href="/work?id=Trm1370a&filter=homophonic">35.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1370a&filter=homophonic">Trm1370a</a>
+		Trm1370a
 	</td>
 
 	<td class="composer">
@@ -5099,11 +5106,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.1%
+		<a target="_blank" href="/work?id=Trm1497a&filter=homophonic">63.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1497a&filter=homophonic">Trm1497a</a>
+		Trm1497a
 	</td>
 
 	<td class="composer">
@@ -5128,11 +5135,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			36.7%
+		<a target="_blank" href="/work?id=Trm1637a&filter=homophonic">36.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1637a&filter=homophonic">Trm1637a</a>
+		Trm1637a
 	</td>
 
 	<td class="composer">
@@ -5157,11 +5164,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.4%
+		<a target="_blank" href="/work?id=Trm1688b&filter=homophonic">60.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1688b&filter=homophonic">Trm1688b</a>
+		Trm1688b
 	</td>
 
 	<td class="composer">
@@ -5186,11 +5193,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			51.8%
+		<a target="_blank" href="/work?id=Trm1688c&filter=homophonic">51.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1688c&filter=homophonic">Trm1688c</a>
+		Trm1688c
 	</td>
 
 	<td class="composer">
@@ -5215,11 +5222,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			48.5%
+		<a target="_blank" href="/work?id=Trm1688d&filter=homophonic">48.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm1688d&filter=homophonic">Trm1688d</a>
+		Trm1688d
 	</td>
 
 	<td class="composer">
@@ -5244,11 +5251,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			77.8%
+		<a target="_blank" href="/work?id=Trm9999a&filter=homophonic">77.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trm9999a&filter=homophonic">Trm9999a</a>
+		Trm9999a
 	</td>
 
 	<td class="composer">
@@ -5273,11 +5280,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Tam1020338b&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam1020338b&filter=homophonic">Tam1020338b</a>
+		Tam1020338b
 	</td>
 
 	<td class="composer">
@@ -5302,11 +5309,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			84.9%
+		<a target="_blank" href="/work?id=Tam1020338c&filter=homophonic">84.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam1020338c&filter=homophonic">Tam1020338c</a>
+		Tam1020338c
 	</td>
 
 	<td class="composer">
@@ -5331,11 +5338,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			66.5%
+		<a target="_blank" href="/work?id=Tam1020338d&filter=homophonic">66.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam1020338d&filter=homophonic">Tam1020338d</a>
+		Tam1020338d
 	</td>
 
 	<td class="composer">
@@ -5360,11 +5367,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			96.7%
+		<a target="_blank" href="/work?id=Tam2010724a&filter=homophonic">96.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2010724a&filter=homophonic">Tam2010724a</a>
+		Tam2010724a
 	</td>
 
 	<td class="composer">
@@ -5389,11 +5396,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			78%
+		<a target="_blank" href="/work?id=Tam2031034a&filter=homophonic">78%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031034a&filter=homophonic">Tam2031034a</a>
+		Tam2031034a
 	</td>
 
 	<td class="composer">
@@ -5418,11 +5425,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			68.1%
+		<a target="_blank" href="/work?id=Tam2031045a&filter=homophonic">68.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031045a&filter=homophonic">Tam2031045a</a>
+		Tam2031045a
 	</td>
 
 	<td class="composer">
@@ -5447,11 +5454,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			81%
+		<a target="_blank" href="/work?id=Tam2031052a&filter=homophonic">81%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031052a&filter=homophonic">Tam2031052a</a>
+		Tam2031052a
 	</td>
 
 	<td class="composer">
@@ -5476,11 +5483,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			91.9%
+		<a target="_blank" href="/work?id=Tam2031061a&filter=homophonic">91.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031061a&filter=homophonic">Tam2031061a</a>
+		Tam2031061a
 	</td>
 
 	<td class="composer">
@@ -5505,11 +5512,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			39.3%
+		<a target="_blank" href="/work?id=Tam2031067a&filter=homophonic">39.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031067a&filter=homophonic">Tam2031067a</a>
+		Tam2031067a
 	</td>
 
 	<td class="composer">
@@ -5534,11 +5541,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57.7%
+		<a target="_blank" href="/work?id=Tam2031075a&filter=homophonic">57.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031075a&filter=homophonic">Tam2031075a</a>
+		Tam2031075a
 	</td>
 
 	<td class="composer">
@@ -5563,11 +5570,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			85.5%
+		<a target="_blank" href="/work?id=Tam2031081a&filter=homophonic">85.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031081a&filter=homophonic">Tam2031081a</a>
+		Tam2031081a
 	</td>
 
 	<td class="composer">
@@ -5592,11 +5599,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			87%
+		<a target="_blank" href="/work?id=Tam2031089a&filter=homophonic">87%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031089a&filter=homophonic">Tam2031089a</a>
+		Tam2031089a
 	</td>
 
 	<td class="composer">
@@ -5621,11 +5628,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			72.5%
+		<a target="_blank" href="/work?id=Tam2031096a&filter=homophonic">72.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031096a&filter=homophonic">Tam2031096a</a>
+		Tam2031096a
 	</td>
 
 	<td class="composer">
@@ -5650,11 +5657,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			86.7%
+		<a target="_blank" href="/work?id=Tam2031100a&filter=homophonic">86.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031100a&filter=homophonic">Tam2031100a</a>
+		Tam2031100a
 	</td>
 
 	<td class="composer">
@@ -5679,11 +5686,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			49.4%
+		<a target="_blank" href="/work?id=Tam2031106a&filter=homophonic">49.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031106a&filter=homophonic">Tam2031106a</a>
+		Tam2031106a
 	</td>
 
 	<td class="composer">
@@ -5708,11 +5715,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			78.5%
+		<a target="_blank" href="/work?id=Tam2031109a&filter=homophonic">78.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031109a&filter=homophonic">Tam2031109a</a>
+		Tam2031109a
 	</td>
 
 	<td class="composer">
@@ -5737,11 +5744,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			74.4%
+		<a target="_blank" href="/work?id=Tam2031113a&filter=homophonic">74.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031113a&filter=homophonic">Tam2031113a</a>
+		Tam2031113a
 	</td>
 
 	<td class="composer">
@@ -5766,11 +5773,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			73.8%
+		<a target="_blank" href="/work?id=Tam2031121a&filter=homophonic">73.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031121a&filter=homophonic">Tam2031121a</a>
+		Tam2031121a
 	</td>
 
 	<td class="composer">
@@ -5795,11 +5802,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			76.9%
+		<a target="_blank" href="/work?id=Tam2031126a&filter=homophonic">76.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031126a&filter=homophonic">Tam2031126a</a>
+		Tam2031126a
 	</td>
 
 	<td class="composer">
@@ -5824,11 +5831,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			75.8%
+		<a target="_blank" href="/work?id=Tam2031133a&filter=homophonic">75.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam2031133a&filter=homophonic">Tam2031133a</a>
+		Tam2031133a
 	</td>
 
 	<td class="composer">
@@ -5853,11 +5860,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			42.1%
+		<a target="_blank" href="/work?id=Tam3021324a&filter=homophonic">42.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam3021324a&filter=homophonic">Tam3021324a</a>
+		Tam3021324a
 	</td>
 
 	<td class="composer">
@@ -5882,11 +5889,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			68.9%
+		<a target="_blank" href="/work?id=Tam3021417b&filter=homophonic">68.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam3021417b&filter=homophonic">Tam3021417b</a>
+		Tam3021417b
 	</td>
 
 	<td class="composer">
@@ -5911,11 +5918,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			44.1%
+		<a target="_blank" href="/work?id=Tam3021430b&filter=homophonic">44.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam3021430b&filter=homophonic">Tam3021430b</a>
+		Tam3021430b
 	</td>
 
 	<td class="composer">
@@ -5940,11 +5947,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			39.2%
+		<a target="_blank" href="/work?id=Tam4011614a&filter=homophonic">39.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam4011614a&filter=homophonic">Tam4011614a</a>
+		Tam4011614a
 	</td>
 
 	<td class="composer">
@@ -5969,11 +5976,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			47.9%
+		<a target="_blank" href="/work?id=Tam4021779a&filter=homophonic">47.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam4021779a&filter=homophonic">Tam4021779a</a>
+		Tam4021779a
 	</td>
 
 	<td class="composer">
@@ -5998,11 +6005,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			52.2%
+		<a target="_blank" href="/work?id=Tam4021827a&filter=homophonic">52.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam4021827a&filter=homophonic">Tam4021827a</a>
+		Tam4021827a
 	</td>
 
 	<td class="composer">
@@ -6027,11 +6034,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			60.1%
+		<a target="_blank" href="/work?id=Tam4021833a&filter=homophonic">60.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam4021833a&filter=homophonic">Tam4021833a</a>
+		Tam4021833a
 	</td>
 
 	<td class="composer">
@@ -6056,11 +6063,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			50.7%
+		<a target="_blank" href="/work?id=Tam5011850a&filter=homophonic">50.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam5011850a&filter=homophonic">Tam5011850a</a>
+		Tam5011850a
 	</td>
 
 	<td class="composer">
@@ -6085,11 +6092,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.3%
+		<a target="_blank" href="/work?id=Tam5011934a&filter=homophonic">37.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam5011934a&filter=homophonic">Tam5011934a</a>
+		Tam5011934a
 	</td>
 
 	<td class="composer">
@@ -6114,11 +6121,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			41.6%
+		<a target="_blank" href="/work?id=Tam5011978a&filter=homophonic">41.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tam5011978a&filter=homophonic">Tam5011978a</a>
+		Tam5011978a
 	</td>
 
 	<td class="composer">
@@ -6143,11 +6150,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			21.9%
+		<a target="_blank" href="/work?id=Tec1089a&filter=homophonic">21.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tec1089a&filter=homophonic">Tec1089a</a>
+		Tec1089a
 	</td>
 
 	<td class="composer">
@@ -6172,11 +6179,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			39.8%
+		<a target="_blank" href="/work?id=Tri5016b&filter=homophonic">39.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tri5016b&filter=homophonic">Tri5016b</a>
+		Tri5016b
 	</td>
 
 	<td class="composer">
@@ -6201,11 +6208,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			38.4%
+		<a target="_blank" href="/work?id=Tri5018a&filter=homophonic">38.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tri5018a&filter=homophonic">Tri5018a</a>
+		Tri5018a
 	</td>
 
 	<td class="composer">
@@ -6230,11 +6237,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			66.6%
+		<a target="_blank" href="/work?id=Trt0506a&filter=homophonic">66.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Trt0506a&filter=homophonic">Trt0506a</a>
+		Trt0506a
 	</td>
 
 	<td class="composer">
@@ -6259,11 +6266,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Tsg01002a&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg01002a&filter=homophonic">Tsg01002a</a>
+		Tsg01002a
 	</td>
 
 	<td class="composer">
@@ -6288,11 +6295,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.4%
+		<a target="_blank" href="/work?id=Tsg01002b&filter=homophonic">59.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg01002b&filter=homophonic">Tsg01002b</a>
+		Tsg01002b
 	</td>
 
 	<td class="composer">
@@ -6317,11 +6324,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			50.8%
+		<a target="_blank" href="/work?id=Tsg01003a&filter=homophonic">50.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg01003a&filter=homophonic">Tsg01003a</a>
+		Tsg01003a
 	</td>
 
 	<td class="composer">
@@ -6346,11 +6353,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Tsg03008a&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg03008a&filter=homophonic">Tsg03008a</a>
+		Tsg03008a
 	</td>
 
 	<td class="composer">
@@ -6375,11 +6382,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Tsg07019b&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg07019b&filter=homophonic">Tsg07019b</a>
+		Tsg07019b
 	</td>
 
 	<td class="composer">
@@ -6404,11 +6411,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Tsg07020b&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg07020b&filter=homophonic">Tsg07020b</a>
+		Tsg07020b
 	</td>
 
 	<td class="composer">
@@ -6433,11 +6440,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Tsg07021a&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg07021a&filter=homophonic">Tsg07021a</a>
+		Tsg07021a
 	</td>
 
 	<td class="composer">
@@ -6462,11 +6469,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			69.3%
+		<a target="_blank" href="/work?id=Tsg12077a&filter=homophonic">69.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg12077a&filter=homophonic">Tsg12077a</a>
+		Tsg12077a
 	</td>
 
 	<td class="composer">
@@ -6491,11 +6498,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			41.9%
+		<a target="_blank" href="/work?id=Tsg12078a&filter=homophonic">41.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg12078a&filter=homophonic">Tsg12078a</a>
+		Tsg12078a
 	</td>
 
 	<td class="composer">
@@ -6520,11 +6527,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.4%
+		<a target="_blank" href="/work?id=Tsg12079a&filter=homophonic">37.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg12079a&filter=homophonic">Tsg12079a</a>
+		Tsg12079a
 	</td>
 
 	<td class="composer">
@@ -6549,11 +6556,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			22%
+		<a target="_blank" href="/work?id=Tsg14001f&filter=homophonic">22%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg14001f&filter=homophonic">Tsg14001f</a>
+		Tsg14001f
 	</td>
 
 	<td class="composer">
@@ -6578,11 +6585,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			0%
+		<a target="_blank" href="/work?id=Tsg14062b&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg14062b&filter=homophonic">Tsg14062b</a>
+		Tsg14062b
 	</td>
 
 	<td class="composer">
@@ -6607,11 +6614,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			45.5%
+		<a target="_blank" href="/work?id=Tsg16012d&filter=homophonic">45.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16012d&filter=homophonic">Tsg16012d</a>
+		Tsg16012d
 	</td>
 
 	<td class="composer">
@@ -6636,11 +6643,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			69.6%
+		<a target="_blank" href="/work?id=Tsg16012e&filter=homophonic">69.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16012e&filter=homophonic">Tsg16012e</a>
+		Tsg16012e
 	</td>
 
 	<td class="composer">
@@ -6665,11 +6672,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			70%
+		<a target="_blank" href="/work?id=Tsg16013a&filter=homophonic">70%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16013a&filter=homophonic">Tsg16013a</a>
+		Tsg16013a
 	</td>
 
 	<td class="composer">
@@ -6694,11 +6701,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			44%
+		<a target="_blank" href="/work?id=Tsg16014a&filter=homophonic">44%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16014a&filter=homophonic">Tsg16014a</a>
+		Tsg16014a
 	</td>
 
 	<td class="composer">
@@ -6723,11 +6730,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			86.6%
+		<a target="_blank" href="/work?id=Tsg16043b&filter=homophonic">86.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16043b&filter=homophonic">Tsg16043b</a>
+		Tsg16043b
 	</td>
 
 	<td class="composer">
@@ -6752,11 +6759,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			65.5%
+		<a target="_blank" href="/work?id=Tsg16043c&filter=homophonic">65.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16043c&filter=homophonic">Tsg16043c</a>
+		Tsg16043c
 	</td>
 
 	<td class="composer">
@@ -6781,11 +6788,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61.4%
+		<a target="_blank" href="/work?id=Tsg16044b&filter=homophonic">61.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16044b&filter=homophonic">Tsg16044b</a>
+		Tsg16044b
 	</td>
 
 	<td class="composer">
@@ -6810,11 +6817,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			54.8%
+		<a target="_blank" href="/work?id=Tsg16045b&filter=homophonic">54.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16045b&filter=homophonic">Tsg16045b</a>
+		Tsg16045b
 	</td>
 
 	<td class="composer">
@@ -6839,11 +6846,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61.6%
+		<a target="_blank" href="/work?id=Tsg16046b&filter=homophonic">61.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16046b&filter=homophonic">Tsg16046b</a>
+		Tsg16046b
 	</td>
 
 	<td class="composer">
@@ -6868,11 +6875,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			65%
+		<a target="_blank" href="/work?id=Tsg16047b&filter=homophonic">65%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16047b&filter=homophonic">Tsg16047b</a>
+		Tsg16047b
 	</td>
 
 	<td class="composer">
@@ -6897,11 +6904,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			46.7%
+		<a target="_blank" href="/work?id=Tsg16056a&filter=homophonic">46.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16056a&filter=homophonic">Tsg16056a</a>
+		Tsg16056a
 	</td>
 
 	<td class="composer">
@@ -6926,11 +6933,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			52.9%
+		<a target="_blank" href="/work?id=Tsg16059a&filter=homophonic">52.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16059a&filter=homophonic">Tsg16059a</a>
+		Tsg16059a
 	</td>
 
 	<td class="composer">
@@ -6955,11 +6962,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			59.2%
+		<a target="_blank" href="/work?id=Tsg16059b&filter=homophonic">59.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16059b&filter=homophonic">Tsg16059b</a>
+		Tsg16059b
 	</td>
 
 	<td class="composer">
@@ -6984,11 +6991,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			41.1%
+		<a target="_blank" href="/work?id=Tsg16059f&filter=homophonic">41.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16059f&filter=homophonic">Tsg16059f</a>
+		Tsg16059f
 	</td>
 
 	<td class="composer">
@@ -7013,11 +7020,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			54.1%
+		<a target="_blank" href="/work?id=Tsg16060a&filter=homophonic">54.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16060a&filter=homophonic">Tsg16060a</a>
+		Tsg16060a
 	</td>
 
 	<td class="composer">
@@ -7042,11 +7049,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57.6%
+		<a target="_blank" href="/work?id=Tsg16060b&filter=homophonic">57.6%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16060b&filter=homophonic">Tsg16060b</a>
+		Tsg16060b
 	</td>
 
 	<td class="composer">
@@ -7071,11 +7078,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			37.7%
+		<a target="_blank" href="/work?id=Tsg16060h&filter=homophonic">37.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16060h&filter=homophonic">Tsg16060h</a>
+		Tsg16060h
 	</td>
 
 	<td class="composer">
@@ -7100,11 +7107,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			36.7%
+		<a target="_blank" href="/work?id=Tsg16061a&filter=homophonic">36.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16061a&filter=homophonic">Tsg16061a</a>
+		Tsg16061a
 	</td>
 
 	<td class="composer">
@@ -7129,11 +7136,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			38.9%
+		<a target="_blank" href="/work?id=Tsg16061f&filter=homophonic">38.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16061f&filter=homophonic">Tsg16061f</a>
+		Tsg16061f
 	</td>
 
 	<td class="composer">
@@ -7158,11 +7165,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			63.3%
+		<a target="_blank" href="/work?id=Tsg16062a&filter=homophonic">63.3%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16062a&filter=homophonic">Tsg16062a</a>
+		Tsg16062a
 	</td>
 
 	<td class="composer">
@@ -7187,11 +7194,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			53.2%
+		<a target="_blank" href="/work?id=Tsg16063a&filter=homophonic">53.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16063a&filter=homophonic">Tsg16063a</a>
+		Tsg16063a
 	</td>
 
 	<td class="composer">
@@ -7216,11 +7223,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			32.8%
+		<a target="_blank" href="/work?id=Tsg16063c&filter=homophonic">32.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16063c&filter=homophonic">Tsg16063c</a>
+		Tsg16063c
 	</td>
 
 	<td class="composer">
@@ -7245,11 +7252,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			39.2%
+		<a target="_blank" href="/work?id=Tsg16064a&filter=homophonic">39.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16064a&filter=homophonic">Tsg16064a</a>
+		Tsg16064a
 	</td>
 
 	<td class="composer">
@@ -7274,11 +7281,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			40.5%
+		<a target="_blank" href="/work?id=Tsg16065b&filter=homophonic">40.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16065b&filter=homophonic">Tsg16065b</a>
+		Tsg16065b
 	</td>
 
 	<td class="composer">
@@ -7303,11 +7310,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			42%
+		<a target="_blank" href="/work?id=Tsg16066a&filter=homophonic">42%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg16066a&filter=homophonic">Tsg16066a</a>
+		Tsg16066a
 	</td>
 
 	<td class="composer">
@@ -7332,11 +7339,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			69%
+		<a target="_blank" href="/work?id=Tsg19106b&filter=homophonic">69%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg19106b&filter=homophonic">Tsg19106b</a>
+		Tsg19106b
 	</td>
 
 	<td class="composer">
@@ -7361,11 +7368,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			68%
+		<a target="_blank" href="/work?id=Tsg19107b&filter=homophonic">68%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg19107b&filter=homophonic">Tsg19107b</a>
+		Tsg19107b
 	</td>
 
 	<td class="composer">
@@ -7390,11 +7397,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			72.4%
+		<a target="_blank" href="/work?id=Tsg20123a&filter=homophonic">72.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20123a&filter=homophonic">Tsg20123a</a>
+		Tsg20123a
 	</td>
 
 	<td class="composer">
@@ -7419,11 +7426,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			67.5%
+		<a target="_blank" href="/work?id=Tsg20124a&filter=homophonic">67.5%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20124a&filter=homophonic">Tsg20124a</a>
+		Tsg20124a
 	</td>
 
 	<td class="composer">
@@ -7448,11 +7455,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			61.7%
+		<a target="_blank" href="/work?id=Tsg20125a&filter=homophonic">61.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20125a&filter=homophonic">Tsg20125a</a>
+		Tsg20125a
 	</td>
 
 	<td class="composer">
@@ -7477,11 +7484,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57.8%
+		<a target="_blank" href="/work?id=Tsg20126a&filter=homophonic">57.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20126a&filter=homophonic">Tsg20126a</a>
+		Tsg20126a
 	</td>
 
 	<td class="composer">
@@ -7506,11 +7513,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			58.9%
+		<a target="_blank" href="/work?id=Tsg20127a&filter=homophonic">58.9%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20127a&filter=homophonic">Tsg20127a</a>
+		Tsg20127a
 	</td>
 
 	<td class="composer">
@@ -7535,11 +7542,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			54.8%
+		<a target="_blank" href="/work?id=Tsg20128b&filter=homophonic">54.8%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20128b&filter=homophonic">Tsg20128b</a>
+		Tsg20128b
 	</td>
 
 	<td class="composer">
@@ -7564,11 +7571,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			65.7%
+		<a target="_blank" href="/work?id=Tsg20129a&filter=homophonic">65.7%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20129a&filter=homophonic">Tsg20129a</a>
+		Tsg20129a
 	</td>
 
 	<td class="composer">
@@ -7593,11 +7600,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			66.1%
+		<a target="_blank" href="/work?id=Tsg20130a&filter=homophonic">66.1%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20130a&filter=homophonic">Tsg20130a</a>
+		Tsg20130a
 	</td>
 
 	<td class="composer">
@@ -7622,11 +7629,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			57.4%
+		<a target="_blank" href="/work?id=Tsg20131a&filter=homophonic">57.4%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20131a&filter=homophonic">Tsg20131a</a>
+		Tsg20131a
 	</td>
 
 	<td class="composer">
@@ -7651,11 +7658,11 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-			51.2%
+		<a target="_blank" href="/work?id=Tsg20134a&filter=homophonic">51.2%</a>
 	</td>
 
 	<td class="id">
-		<a target="_blank" href="/work?id=Tsg20134a&filter=homophonic">Tsg20134a</a>
+		Tsg20134a
 	</td>
 
 	<td class="composer">

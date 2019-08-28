@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title />
+            </titleStmt>
+            <pubStmt />
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate="2019-08-27T17:27:54" version="2.2.0-dev-864a430">
+                    <name>Verovio</name>
+                    <p>Transcoded from Humdrum</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title />
+            </work>
+        </workList>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv xml:id="mdiv-0000001580730289">
+                <score xml:id="score-0000000813770186">
+                    <scoreDef xml:id="scoredef-0000000078163458">
+                        <staffGrp xml:id="staffgrp-0000001131275864">
+                            <staffDef xml:id="staffdef-0000000694266404" clef.shape="G" clef.line="2" meter.count="4" meter.unit="8" n="1" lines="5">
+                                <label xml:id="label-0000000187176802" />
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="section-L1F1">
+                        <measure xml:id="measure-L1" right="invis" n="0">
+                            <staff xml:id="staff-0000000923679665" n="1">
+                                <layer xml:id="layer-L1F1N1" n="1">
+                                    <tuplet xml:id="tuplet-L7F1-L9F1" num="3" numbase="2" num.visible="false" bracket.visible="false" num.format="count">
+                                        <note xml:id="note-L7F1" dur="8" oct="4" pname="f" accid.ges="n" />
+                                        <rest xml:id="rest-L9F1" dur="16" ploc="d" oloc="5" />
+                                    </tuplet>
+                                    <tuplet xml:id="tuplet-L10F1-L12F1" num="3" numbase="2" num.visible="false" bracket.visible="false" num.format="count">
+                                        <note xml:id="note-L10F1" dur="8" oct="4" pname="g" accid.ges="n" />
+                                        <rest xml:id="rest-L12F1" dur="16" ploc="f" oloc="5" />
+                                    </tuplet>
+                                    <tuplet xml:id="tuplet-L13F1-L16F1" num="3" numbase="2" num.visible="false" bracket.visible="false" num.format="count">
+                                        <note xml:id="note-L13F1" dots="1" dur="8" oct="4" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L16F1" dots="1" dur="8" oct="4" pname="b" accid.ges="n" />
+                                    </tuplet>
+                                </layer>
+                                <layer xml:id="layer-L7F2N2" n="2">
+                                    <tuplet xml:id="tuplet-L7F2-L9F2" num="3" numbase="2" num.visible="false" bracket.visible="false" num.format="count">
+                                        <beam xml:id="beam-L7F2-L9F2">
+                                            <note xml:id="note-L7F2" dur="16" oct="4" pname="d" accid.ges="n" />
+                                            <note xml:id="note-L8F2" dur="16" oct="4" pname="e" accid.ges="n" />
+                                            <note xml:id="note-L9F2" dur="16" oct="4" pname="f" accid.ges="n" />
+                                        </beam>
+                                    </tuplet>
+                                    <tuplet xml:id="tuplet-L10F2-L12F2" num="3" numbase="2" num.visible="false" bracket.visible="false" num.format="count">
+                                        <beam xml:id="beam-L10F2-L12F2">
+                                            <note xml:id="note-L10F2" dur="16" oct="4" pname="e" accid.ges="n" />
+                                            <note xml:id="note-L11F2" dur="16" oct="4" pname="f" accid.ges="n" />
+                                            <note xml:id="note-L12F2" dur="16" oct="4" pname="g" accid.ges="n" />
+                                        </beam>
+                                    </tuplet>
+                                    <tuplet xml:id="tuplet-L13F2-L15F2" num="3" numbase="2" num.visible="false" bracket.visible="false" num.format="count">
+                                        <beam xml:id="beam-L13F2-L15F2">
+                                            <note xml:id="note-L13F2" dur="16" oct="4" pname="f" accid.ges="n" />
+                                            <note xml:id="note-L14F2" dur="16" oct="4" pname="e" accid.ges="n" />
+                                            <note xml:id="note-L15F2" dur="16" oct="4" pname="d" accid.ges="n" />
+                                        </beam>
+                                    </tuplet>
+                                    <tuplet xml:id="tuplet-L16F2-L18F2" num="3" numbase="2" num.visible="false" bracket.visible="false" num.format="count">
+                                        <beam xml:id="beam-L16F2-L18F2">
+                                            <note xml:id="note-L16F2" dur="16" oct="4" pname="g" accid.ges="n" />
+                                            <note xml:id="note-L17F2" dur="16" oct="4" pname="f" accid.ges="n" />
+                                            <note xml:id="note-L18F2" dur="16" oct="4" pname="e" accid.ges="n" />
+                                        </beam>
+                                    </tuplet>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

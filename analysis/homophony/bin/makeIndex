@@ -1,0 +1,209 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my @files = glob("$scoredir/*/kern/*.krn");
+
+my @rimefiles;
+my @nonrimefiles;
+my @ABBRS;
+
+for (my $i=0; $i<@files; $i++) {
+	if ($files[$i] =~ /Trm\d{4}[a-z]+-/) {
+		push(@rimefiles, $files[$i]);
+	} else {
+		push(@nonrimefiles, $files[$i]);
+	}
+}
+
+my $width = 425;
+
+print <<"EOT";
+---
+vim: ts=3
+scripts-local: true
+style-local: true
+permalink: /analysis/homophony/index.html
+---
+
+<h1> Homophonic analysis </h1>
+
+
+<style>
+div#form {
+	margin-bottom: 25px;
+}
+table th {
+	margin-left: 15px;
+	text-align: left;
+}
+table tbody tr td:first-child {
+	text-align: right;
+}
+table td {
+	vertical-align: top;
+}
+
+</style>
+
+
+<div id="form">
+	Sort by:
+	<select onchange="sortList(this.value)">
+		<option value="poem">Poem</option>
+		<option value="score">Homophonic score</option>
+		<option value="score2">Homophonic score, model 2</option>
+		<option value="composer">Composer</option>
+		<option value="date">Publication date</option>
+	</select>
+</div>
+
+EOT
+
+print <<"EOT";
+<table>
+<thead>
+<tr>
+	<th>Score</th>
+	<th>ID</th>
+	<th>Composer</th>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Model&nbsp;2</th>
+</tr>
+</thead>
+<tbody id="sort">
+EOT
+
+my $file;
+foreach $file (@rimefiles) {
+	processFile($file);
+}
+
+foreach $file (@nonrimefiles) {
+	processFile($file);
+}
+
+
+print "</tbody>\n</table>\n";
+
+
+###########################################################################
+
+
+
+##############################
+##
+## processFile --
+##
+
+sub processFile {
+	my ($file) = @_;
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	chomp @contents;
+	close FILE;
+	my $composer = "";
+	my $title = "";
+	my $final = "";
+	my $date = "";
+	my $rime = "";
+	my $id = $file;
+	$id =~ s/.*\///;
+	$id =~ s/-.*//;
+
+	return if !-r "data/$id.aton";
+
+	foreach my $line (@contents) {
+		if ($line =~ /^\!\!\!COM:\s*(.*)\s*/) {
+			$composer = $1;
+		}
+		if ($line =~ /^\!\!\!OTL:\s*(.*)\s*/) {
+			$title = $1;
+		}
+		if ($line =~ /^\!\!\!rime:\s*(.*)\s*/) {
+			$rime = "(rime $1)";
+		}
+		if ($line =~ /^\!\!\!PDT:\s*(.*)\s*/) {
+			$date = $1;
+		}
+		if ($line =~ /^\!\!\!final:\s*(.*)\s*/) {
+			$final = $1;
+		}
+	}
+
+	my ($score1, $score2) = getHomophonicScores($id);
+
+	$composer =~ s/,.*//;
+
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+
+	print << "EOT";
+
+<tr class="sortable">
+
+	<td class="score">
+			$score1%
+	</td>
+
+	<td class="id">
+		<a target="_blank" href="/work?id=$id&filter=homophonic">$id</a>
+	</td>
+
+	<td class="composer">
+		$composer
+	</td>
+
+	<td class="date">
+		$date
+	</td>
+
+	<td class="title">
+			<i>$title</i> $rime
+	</td>
+
+	<td class="score2">
+		<a target="_blank" href="/work?id=$id&filter=homophonic2">$score2%</a>
+	</td>
+
+</tr>
+
+EOT
+
+}
+
+
+
+##############################
+##
+## getHomophonicScore --
+##
+
+sub getHomophonicScores {
+	my ($id) = @_;
+	my $filename = "data/$id.aton";
+	open (TFILE, $filename) or return "0%";
+	my @contents = <TFILE>;
+	close TFILE;
+	chomp @contents;
+	my $value1 = -1;
+	my $value2 = -1;
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@HOMOPHONIC\s*:\s*(.*)\s*$/) {
+			$value1 = $1;
+		}
+		if ($line =~ /^\@HOMOPHONIC2\s*:\s*(.*)\s*$/) {
+			$value2 = $1;
+		}
+	}
+	return ($value1, $value2);
+}
+
+
+

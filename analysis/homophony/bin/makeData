@@ -1,0 +1,74 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my $datadir = "data";
+
+my $homophonic = `which homophonic`;
+chomp $homophonic;
+die "Cannot find homophonic" if $homophonic =~ /^\s*$/;
+
+my $homophonic2 = `which homophonic2`;
+chomp $homophonic2;
+die "Cannot find homophonic2" if $homophonic2 =~ /^\s*$/;
+
+my @files = sort glob("$scoredir/*/kern/*.krn");
+
+`mkdir -p $datadir`;
+
+foreach my $file (@files) {
+	my $complete = getComplete($file);
+	if ($complete =~ /Y/i) {
+		processFile($file);
+	}
+}
+
+
+##############################
+##
+## processFile --
+##
+
+sub processFile {
+	my ($file) = @_;
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+	my $id = $base;
+	$id =~ s/-.*//;
+	return if -r "$datadir/$id.aton";
+	print "Creating file $datadir/$id.aton\n";
+	my $value1 = `$homophonic -f $file`;
+	chomp $value1;
+	my $value2 = `$homophonic2 -f $file`;
+	chomp $value2;
+	open (OFILE, ">$datadir/$id.aton") or die "Cannot write to $datadir/$id.aton\n";
+	print OFILE <<"EOT";
+\@HOMOPHONIC:\t$value1
+\@HOMOPHONIC2:\t$value2
+EOT
+	close OFILE;
+}
+
+
+
+##############################
+##
+## getComplete --
+##
+
+sub getComplete {
+	my ($file) = @_;
+	my $value = `grep "^\!\!\!complete" $file`;
+	chop $value;
+	if ($value =~ /Y/i) {
+		return "Y";
+	} else {
+		return "N";
+	}
+}
+
+
+

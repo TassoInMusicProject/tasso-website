@@ -1653,6 +1653,8 @@ function generatePdfFull(event) {
 		spacingSystem     : 6,
 		spacingStaff      : 12,
 		adjustPageHeight  : 0,
+		justifyVertically:  1,
+		justifyIncludeLastPage: 1,
 		humType           : 1,
 		mmOutput          : 1,
 		font              : "Leipzig",
@@ -1664,6 +1666,7 @@ function generatePdfFull(event) {
 		noHeader          : 0,
 		breaks            : "auto"
 	}
+console.log("LOCAL OPTIONS", localOptions);
 
 	var scoredata = getHumdrumSourceData();
 	if (CGI.filter) {

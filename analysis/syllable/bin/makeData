@@ -1,0 +1,115 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my $datadir = "data";
+
+my %syllables = getSyllables("syllables.txt");
+
+my $scordur = `which scordur`;
+chomp $scordur;
+die "Cannot find scordur" if $scordur =~ /^\s*$/;
+
+my @files = sort glob("$scoredir/*/kern/*.krn");
+
+`mkdir -p $datadir`;
+
+foreach my $file (@files) {
+	my $complete = getComplete($file);
+	if ($complete =~ /Y/i) {
+		processFile($file);
+	} else {
+		processFile($file);
+	}
+}
+
+
+
+##############################
+##
+## processFile --
+##
+
+sub processFile {
+	my ($file) = @_;
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+	my $id = $base;
+	$id =~ s/-.*//;
+	my $id2 = $id;
+	$id2 =~ s/[a-z]+$//;
+	my $scount = $syllables{$id2};
+	if ($scount =~ /^\s*$/) {
+		print STDERR "Warning: missing syllables for ID $id2\n";
+		return;
+	}
+	return if -r "$datadir/$id.aton";
+	print "Creating file $datadir/$id.aton\n";
+	my $dur = `$scordur $file`;
+	chomp $dur;
+	$dur = $dur / 2;
+	my $ratio = $dur / $scount;
+	$ratio = int($ratio * 100.0 + 0.5) / 100.0;
+
+	open (OFILE, ">$datadir/$id.aton") or die "Cannot write to $datadir/$id.aton\n";
+	print OFILE <<"EOT";
+
+\@\@BEGIN:\tENTRY
+\@\@ID:\t\t$id
+\@MINIMDUR:\t$dur
+\@SYLLABLES:\t$scount
+\@RATIO:\t\t$ratio
+\@\@END:\tENTRY
+
+
+EOT
+	close OFILE;
+}
+
+
+
+##############################
+##
+## getComplete --
+##
+
+sub getComplete {
+	my ($file) = @_;
+	my $value = `grep "^\!\!\!complete" $file`;
+	chop $value;
+	if ($value =~ /Y/i) {
+		return "Y";
+	} else {
+		return "N";
+	}
+}
+
+
+##############################
+##
+## getSyllables --
+##
+
+sub getSyllables {
+	my ($filename) = @_;
+	my %output;
+	open(FILE, $filename) or die "Cannot read $filename\n";
+	my @contents = <FILE>;
+	close FILE;
+	chomp @contents;
+	foreach my $line (@contents) {
+		next if $line =~ /^\!/;
+		next if $line =~ /^\*/;
+		next if $line =~ /^\s*$/;
+		my @data = split(/\t/, $line);
+		next if @data != 2;
+		$output{$data[0]} = $data[1];
+	}
+	return %output;
+}
+
+
+

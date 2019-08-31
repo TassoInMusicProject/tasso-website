@@ -1,0 +1,45 @@
+
+{% include_relative sorting-functions.html %}
+
+<script>
+// vim: ts=3 ft=javascript
+
+var PITCHQUERY = "";
+
+//////////////////////////////
+//
+// Function called when document has finished loading:
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	CGI = GetCgiParameters();
+	HighlightNavigationBar();
+
+	$("#pitch").focus(function() {
+		$(this).data("hasfocus", true);
+	});
+
+	$(document.body).keyup(function(event) {
+		//if (event.which == EnterKey) {
+			if ($("#textquery:focus")) {
+				doSearch();
+			}
+		//}
+	});
+
+	LoadTassoData(doActions);
+});
+
+
+
+function doActions() {
+   PrepareGlobalTassoObjects();
+	loadLyricIndex();
+}
+
+
+
+
+
+</script>
+

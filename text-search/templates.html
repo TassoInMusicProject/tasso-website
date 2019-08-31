@@ -1,0 +1,232 @@
+
+{% raw %}
+<style>
+	table.music-search-list { border-collapse: collapse; width: 100%; margin-left: -40px; margin-right:-20px; padding-right:-20px; }
+	table.music-search-list td { padding-bottom: 7px; padding-right:20px; cursor:pointer; }
+	table.music-search-list th { padding-bottom: 12px; }
+	table.music-search-list thead { color: #B19C5F; }
+	.gold { color: #B19C5F }
+	table.music-search-list tr:hover { background: #f5f5f5; }
+	table.music-search-list tr td.voices { padding-left: 5px }
+	table.music-search-list th {
+		cursor: pointer;
+		text-align:left;
+	}
+	table.music-search-list tr {
+		vertical-align: baseline;
+	}
+</style>
+<script id="music-search-template" type="text/x-handlebars-template">
+	<table class="music-search-list" style="border-collapse:collapse;">
+	<thead>
+		<th onclick="sortByNumber(0)">Count</th>
+		<th onclick="sortByText(1)">Composer</th>
+		<th onclick="sortByText(2)">Title</th>
+	</thead>
+	<tbody>
+	{{#each this.locations}}
+{{{printobject this}}}
+		<tr class="data">
+			<td class="count" onclick="displaySingleWork('{{id}}');">{{count}}</td>
+			<td onclick="displaySingleWork('{{id}}');"><nobr>{{shortNameById id}}</nobr></td>
+			<td onclick="displaySingleWork('{{id}}');" style="max-width:450px;"> <span class="gold">{{{titleById id}}}</span> {{{parentheticalInfoById id}}}</td>
+		</tr>
+	{{/each}}
+	</tbody>
+	</table>
+</script>
+{% endraw %}
+
+
+<script>
+
+//////////////////////////////
+//
+// printobject Handlebar helper --
+//
+
+Handlebars.registerHelper("printobject", function (object) {
+	// console.log("OBJECT", object);
+	// console.log("mensuration", object.OMENSURATION);
+	return new Handlebars.SafeString("");
+});
+
+
+//////////////////////////////
+//
+// shortNameById Handlebar helper  -- Prevent linebreak after RISM
+//      and its number.
+// 
+// @COMPOSER:	Bottegari, Cosimo (?) => Bottegari, C.(?)
+//
+
+Handlebars.registerHelper("shortNameById", function(id) {
+	var object = RSETTINGS[id];
+	if (!object) {
+		console.log("CANNOT FIND INFO FOR ", id);
+		return "";
+	}
+	var text = RSETTINGS[id].COMPOSER;
+console.log("COMPOSER", text);
+	if (!text) {
+		return new Handlebars.SafeString("");
+	}
+	var output;
+	var matches;
+	var originaltext = text;
+
+	text = text.replace(/^\s+/, "").replace(/\s+$/, "");
+	var lastname = text;
+	var firstname = text;
+	var question = "";
+	if (text.match(/\(\?\)/)) {
+		question = "(?)";
+		text = text.replace(/\(\?\)/, "");
+	}
+	text = text.replace(/\s+$/, "").replace(/^\s+/, "");
+	var abbrname = "";
+	var pieces;
+	if (!text.match(/(.*),\s+(.*)/)) {
+		text = text.replace(/\.\s*/, ", ");
+	}
+	if (matches = text.match(/(.*),\s+(.*)/)) {
+		lastname = matches[1];
+		firstname = matches[2];
+		pieces = firstname.split(/\s+/);
+		abbrname = "";
+		for (var i=0; i<pieces.length; i++) {
+			if (pieces[i][0] == pieces[i][0].toLowerCase()) {
+				// such as "del"
+				abbrname += " " + pieces[i];
+			} else if (pieces[i][0] == pieces[i][0].toUpperCase()) {
+				abbrname += " " + pieces[i][0] + ".";
+			} else {
+				// strange case
+				abbrname += " " + pieces[i];
+			}
+		}
+		var shortname;
+		if (abbrname.length > 0) {
+			shortname = lastname + "," + abbrname + question;
+		} else {
+			shortname = lastname;
+		}
+		if (shortname.length > 15) {
+			output = "<span style='letter-spacing:-1px; word-spacing:-1px;' ";
+			output+= "title='" + originaltext +"'>";
+			output += shortname + "</a>";
+		} else {
+			output = "<span title='";
+			output += originaltext + "'>";
+			output += shortname + "</a>";
+		}
+
+		if (output.match(/Este.*Medici/)) {
+			output = "d'Este &amp; de'Medici";
+		}
+		if (output.match(/Este.*Gonzaga/)) {
+			output = "d'Este &amp; Gonzaga";
+		}
+		if (output.match(/Vincenzo.*Farnese/)) {
+			output = "Vincenzo &amp; Farnese";
+		}
+		return new Handlebars.SafeString(output.replace(/\s+/g, "&nbsp;"));
+	} else {
+
+		if (text.match(/Este.*Medici/)) {
+			text = "d'Este &amp; de'Medici";
+		}
+		if (text.match(/Este.*Gonzaga/)) {
+			text = "d'Este &amp; Gonzaga";
+		}
+		if (text.match(/Vincenzo.*Farnese/)) {
+			text = "Vincenzo &amp; Farnese";
+		}
+		return new Handlebars.SafeString(text.replace(/\s+/g, "&nbsp;"));
+	}
+});
+
+
+
+//////////////////////////////
+//
+// titleById Handlebar helper --
+// 
+// title {{{RIMETITLE}}} (<i>rime</i>&nbsp;{{SOLERTI}})
+//
+
+Handlebars.registerHelper("titleById", function (id) {
+	var object = RSETTINGS[id];
+	if (!object) {
+		console.log("CANNOT FIND TITLE INFO FOR ID ", id);
+		return "";
+	}
+
+	var output = "";
+	if (object.RIMETITLE) {
+		output += object.RIMETITLE;
+		// output += " (<i>rime</i>&nbsp;";
+		// output += object.SOLERTI;
+		// output += ")";
+	} else if (object.TITLE) {
+		output += object.TITLE;
+	} else {
+		// console.log("OBJECT", object);
+		// output += "UNKNOWN";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+///////////////////////////////
+//
+// parentheticalInfoById --
+//
+
+Handlebars.registerHelper("parentheticalInfoById",  function (id) {
+	obj = RSETTINGS[id];
+	if (!obj) {
+		console.log("CANNOT FIND ID ", id);
+		return "";
+	}
+	var output = "";
+	if (obj.SOLERTI) {
+		output = "(<i>Rime</i>&nbsp;" + obj.SOLERTI + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tam/) && obj.ACT && obj.SCENE && obj.VERSE) {
+		output = "(<i>Aminta</i>&nbsp;" + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tsg/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Gerusalemme</i>&nbsp;" + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tec/) && obj.ECLOGA && obj.VERSE) {
+		output = "(<i>Ecloga</i>&nbsp;" + obj.ECLOGA + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tri/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Rinaldo</i>&nbsp;" + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Trt/) && obj.ACT && obj.SCENE && obj.SECTION) {
+		output = "(<i>Torrismondo</i>&nbsp;" + obj.ACT + "/" + obj.SCENE + "/" + obj.SECTION + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tco/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>G.&nbsp;conquistata</i>&nbsp;" + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tbv/) && obj.STANZA) {
+		output = "(<i>Lagrime</i>&nbsp;" + obj.STANZA + ")";
+		return new Handlebars.SafeString(output);
+	}
+
+	return new Handlebars.SafeString(output);
+});
+
+
+</script>
+

@@ -1,0 +1,182 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my @files = glob("$scoredir/*/kern/*.krn");
+
+my @rimefiles;
+my @nonrimefiles;
+
+for (my $i=0; $i<@files; $i++) {
+	if ($files[$i] =~ /Trm\d{4}[a-z]+-/) {
+		push(@rimefiles, $files[$i]);
+	} else {
+		push(@nonrimefiles, $files[$i]);
+	}
+}
+
+my $width = 425;
+
+print <<"EOT";
+<table>
+<thead>
+<tr>
+	<th>Ratio</th>
+	<th>Duration</th>
+	<th>Syllables</th>
+	<th>ID</th>
+	<th>Composer</th>
+	<th>Date</th>
+	<th>Time&nbsp;sig.</th>
+	<th>Title</th>
+</tr>
+</thead>
+<tbody id="sort">
+EOT
+
+my $file;
+foreach $file (@rimefiles) {
+	processFile($file);
+}
+
+foreach $file (@nonrimefiles) {
+	processFile($file);
+}
+
+
+print "</tbody>\n</table>\n";
+
+
+###########################################################################
+
+
+
+##############################
+##
+## processFile --
+##
+
+sub processFile {
+	my ($file) = @_;
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	chomp @contents;
+	close FILE;
+	my $composer = "";
+	my $title = "";
+	my $final = "";
+	my $timesig = "";
+	my $date = "";
+	my $rime = "";
+	my $id = $file;
+	$id =~ s/.*\///;
+	$id =~ s/-.*//;
+
+	return if !-r "data/$id.aton";
+
+	foreach my $line (@contents) {
+		if ($line =~ /^\!\!\!COM:\s*(.*)\s*/) {
+			$composer = $1;
+		}
+		if ($line =~ /^\!\!\!OTL:\s*(.*)\s*/) {
+			$title = $1;
+		}
+		if ($line =~ /^\!\!\!rime:\s*(.*)\s*/) {
+			$rime = "(rime $1)";
+			$rime = "";  # line too long, so suppressing
+		}
+		if ($line =~ /^\!\!\!PDT:\s*(.*)\s*/) {
+			$date = $1;
+		}
+		if ($line =~ /^\!\!\!final:\s*(.*)\s*/) {
+			$final = $1;
+		}
+		if ($line =~ /^\*M(\d+\/\d+)/) {
+			my $tempval = $1;
+			if ($timesig =~ /^\s*$/) {
+				$timesig = $tempval;
+			}
+		}
+	}
+
+	my %data = getData($id);
+
+	$composer =~ s/,.*//;
+
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+
+	print << "EOT";
+
+<tr class="sortable">
+
+	<td class="ratio">
+		$data{'RATIO'}
+	</td>
+
+	<td class="duration">
+		$data{'MINIMDUR'}
+	</td>
+
+	<td class="syllable">
+		$data{'SYLLABLES'}
+	</td>
+
+	<td class="id">
+		<a target="_blank" href="/work?id=$id">$id</a>
+	</td>
+
+	<td class="composer">
+		$composer
+	</td>
+
+	<td class="date">
+		$date
+	</td>
+
+	<td class="timesig">
+		$timesig
+	</td>
+
+	<td class="title">
+			<i>$title</i> $rime
+	</td>
+
+</tr>
+
+EOT
+
+}
+
+
+
+##############################
+##
+## getData --
+##
+
+sub getData {
+	my ($id) = @_;
+	my $filename = "data/$id.aton";
+	open (TFILE, $filename) or return "0%";
+	my @contents = <TFILE>;
+	close TFILE;
+	chomp @contents;
+	my %output;
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		chomp $line;
+		if ($line =~ /^\@([^:\s]+)\s*:\s*(.*)\s*$/) {
+			my $key = $1;
+			my $value = $2;
+			$output{$key} = $value;
+		}
+	}
+	return %output;
+}
+
+
+

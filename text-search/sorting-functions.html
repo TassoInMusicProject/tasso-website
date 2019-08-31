@@ -1,0 +1,178 @@
+
+<script>
+
+//////////////////////////////
+//
+// sortByText --
+//
+
+function sortByText(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+
+	var body = document.querySelector("table.music-search-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByVoice -- Currently the same as sortByText, but may change in the future.
+//
+
+function sortByVoice(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+
+	var body = document.querySelector("table.music-search-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByYear --
+//
+
+function sortByYear(index, selector) {
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		var matches;
+		if (matches = A.match(/(\d{4})/)) {
+			A = matches[1];
+		} else {
+			A = "";
+		}
+		if (matches = B.match(/(\d{4})/)) {
+			B = matches[1];
+		} else {
+			B = "";
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = A.localeCompare(B);
+		return result;
+	});
+
+	var body = document.querySelector("table.music-search-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+//////////////////////////////
+//
+// sortByNumber --
+//
+
+function sortByNumber(index, selector) {
+console.log("INDEX", index, "SELECTOR", selector);
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A;
+		var B;
+		if (selector) {
+			A = a.cells[index].querySelector(selector).innerHTML;
+			B = b.cells[index].querySelector(selector).innerHTML;
+		} else {
+			A = a.cells[index].textContent;
+			B = b.cells[index].textContent;
+		}
+		if (A.match(/^\s*$/)) {
+			return +1;
+		}
+		if (B.match(/^\s*$/)) {
+			return -1;
+		}
+		var result = parseInt(B) - parseInt(A);
+		return result;
+	});
+
+	var body = document.querySelector("table.music-search-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+</script>

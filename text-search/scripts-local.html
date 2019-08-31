@@ -1,0 +1,341 @@
+
+{% include_relative templates.html %}
+{% include_relative listeners.html %}
+
+<script src="/scripts/scripts-common.js"></script>
+
+<script>
+// vim: ts=3
+
+var RWORKLIST;
+var LINES = [];
+var BYWORK = {};
+var WORDS = [];
+
+
+
+//////////////////////////////
+//
+// loadLyricIndex --
+//
+
+function loadLyricIndex() {
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+    	if (this.readyState == 4 && this.status == 200) {
+			prepareIndex(request.responseText);
+    	}
+	};
+	request.open("GET", "/data/lyrics/lyrics-index.txt");
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// prepareIndex --
+//
+
+function prepareIndex(text) {
+	LINES = text.split(/\r?\n/);
+	var prep = {};
+	for (var i=0; i<LINES.length; i++) {
+		var data = LINES[i].split("\t");
+		var catalog = data[0];
+		BYWORK[catalog] = [];
+		for (var j=1; j<data.length; j++) {
+			var subdata = data[j].split(/\s+/);
+			var word = subdata[1];
+			if (!word) {
+				continue;
+			}
+			if (!prep[word]) {
+				prep[word] = 1;
+			} else {
+				prep[word]++;
+			}
+			BYWORK[catalog].push(word);
+		}
+	}
+	WORDS = Object.keys(prep);
+	WORDS.sort();
+	console.log("BYWORK", BYWORK);
+}
+
+
+
+//////////////////////////////
+//
+// getMatches --
+//
+
+function getMatches(query) {
+	query  = query.replace(/\d/g, " ");
+	var matches = [];
+	var qq ="\t.*" + query;
+	var re = new RegExp(qq);
+	for (var i=0; i<LINES.length; i++) {
+		if (LINES[i].match(re)) {
+			matches.push(LINES[i]);
+		}
+	}
+	return matches;
+}
+
+
+
+//////////////////////////////
+//
+// doSearch --
+// 
+
+function doSearch() {
+	var textquery = document.getElementById("textquery");
+	var tquery = textquery.value;
+
+	var results = document.querySelector("#results");
+	var summary = document.querySelector("#summary");
+
+	var matches = getMatches(tquery);
+	var output = printResults(matches, tquery);
+
+	var counter = matches.length;
+	if (counter == 1) {
+		counter += " work matches";
+	} else {
+		counter += " works match";
+	}
+	summary.innerHTML = counter;
+
+	results.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// printResults
+//
+
+function printResults(results, query) {
+	var output = "";
+	output += "<table class='matches'>";
+
+	output += "<tr>";
+
+	output += "<th>";
+	output += "Catalog #";
+	output += "</th>";
+
+	output += "<th>";
+	output += "Composer";
+	output += "</th>";
+
+	output += "<th>";
+	output += "Title";
+	output += "</th>";
+
+	output += "</tr>";
+
+	for (var i=0; i<results.length; i++) {
+		var m = results[i].match(/^([^\s]+)\t/);
+		if (!m) {
+			continue;
+		}
+		var catalog = m[1];
+		var setting = GetSettingEntry(catalog);
+		var composer = setting.COMPOSER;
+		var title = setting.TITLE;
+		if (!title) {
+			title = setting.RIMETITLE;
+		}
+
+		output += "<tr>";
+
+		output += "<td>";
+		output += "<small>";
+		output += catalog;
+		output += "</small>";
+		output += "</td>";
+
+		output += "<td>";
+		output += "<div style='whitespace:nowrap;'>";
+		output += shortName(composer);
+		output += "</div>";
+		output += "</td>";
+
+		output += "<td>";
+		output += "<a target='_blank' href='/work/?id=" + catalog + "'>";
+		output += title;
+		output += GetCatalogInfo(catalog);
+		output += "</a>";
+		output += "</td>";
+
+		output += "</tr>";
+
+		output += "<tr>";
+
+		output += "<td>";
+		output += "</td>";
+
+		output += "<td>";
+		output += "</td>";
+
+		output += "<td style='padding-left:10px;'>";
+		output += getWordList(catalog, query);
+		output += "</td>";
+
+
+		output += "</tr>";
+	}
+
+	return output;
+}
+
+
+
+/////////////////////////////
+//
+// getWordList
+//
+
+function getWordList(catalog, query) {
+	var list = BYWORK[catalog];
+	if (!list) {
+		return "";
+	}
+	var output ="<span class='wordlist' style='font-size:80%; color=#cccccc;'>";
+	for (var i=0; i<list.length; i++) {
+		if (list[i].match(query)) {
+			output += " " + list[i];
+		}
+	}
+	output += "</span>";
+	return output;
+}
+
+
+
+
+//////////////////////////////
+//
+// shortName --
+//
+
+function shortName(fullname) {
+	var matches = fullname.match(/(.*),\s*(.*)/);
+	if (!matches) {
+		return fullname;
+	}
+	var lastname = matches[1];
+	var firstname = matches[2];
+	var pieces = firstname.split(/\s+/);
+	var fname = "";
+	for (var i=0; i<pieces.length; i++) {
+		if (/^[A-Z]/.test(pieces[i])) {
+			fname += pieces[i][0] + "." + " ";
+		} else {
+			fname += pieces[i] + " ";
+		}
+	}
+	var name = "<span class='initials'>" + fname + "</span><span class='lastname'>" + lastname + "</span>";
+	if (name.match(/\?/)) {
+		name = name.replace(/\?/g, "");
+		name += "?";
+	}
+	return name;
+}
+
+
+
+//////////////////////////////
+//
+// sortResultsBy --
+//
+
+function sortResultsBy(columnIndex) {
+	var rows = document.querySelector("table#searchList tbody tr")
+	var rowlist = [];
+	for (var i=0; i<rows.length; i++) {
+		rowlist.push(rows[i]);
+	}
+	if (columnIndex == 0) {
+		rowlist.sort(function(a, b) {
+			var A = a.querySelector("td").textContent;
+			var B = a.querySelector("td").textContent;
+			return B - A;
+		});
+	} else {
+	}
+
+
+}
+
+
+
+//////////////////////////////
+//
+// displayResultRow --
+//
+
+function displayResultRow(entry, options) {
+	var meta = RSETTINGS[entry.id];
+	var title;
+	if (meta) {
+		if (meta.TITLE) {
+			title = meta.TITLE;
+		} else if (meta.RIMETITLE) {
+			title = meta.RIMETITLE;
+		}
+	} else {
+		console.log("ID ", entry.id, " is empty (and has no title)");
+		console.log("This is probably because the search index needs to be updated");
+		return "";
+	}
+	var composer = meta.COMPOSER.replace(/,.*/, "");
+	
+	// var url = "http://www.tassomusic.org/work?"
+	var url = "/work?"
+	var rtext = "<tr>";
+
+	rtext += "<td>";
+	rtext += entry.count;
+	rtext += "</td>";
+
+	rtext += "<td>";
+	rtext += composer;
+	rtext += "</td>";
+
+	rtext += "<td>";
+	rtext += "<a href='" + url + "id=" + entry.id;
+	if (options.pquery) {
+		rtext += "&mquery=" + options.pquery;  // URL escape pquery...
+	}
+	rtext += "'>" + title + "</a>";
+	rtext += "</td>";
+
+	rtext += "</tr>";
+	return rtext;
+}
+
+
+//////////////////////////////
+//
+// displaySingleWork --
+//
+
+function displaySingleWork(id) {
+	if (!id) {
+		return;
+	}
+	var extra = "";
+	if (PITCHQUERY && !PITCHQUERY.match(/^\s*$/)) {
+		extra = "&q=" + encodeURI(PITCHQUERY);
+	} 
+	// window.location.href = "/work?id=" + id + extra;
+	window.open("/work?id=" + id + extra, "_blank");
+}
+
+
+</script>

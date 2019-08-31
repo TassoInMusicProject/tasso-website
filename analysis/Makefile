@@ -2,7 +2,7 @@
 
 .PHONY: keyscape melisma homophony
 
-all:	keyscape melisma homophony
+all:	keyscape melisma homophony syllable
 
 
 keyscape:
@@ -15,4 +15,7 @@ melisma:
 
 homophony:
 	(cd homophony; make)
+
+syllable:
+	(cd syllable; make)
 	

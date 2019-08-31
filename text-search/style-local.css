@@ -1,0 +1,64 @@
+
+
+h1 {
+	color: #96835c;
+}
+
+.matches th {
+	color: #96835c;
+}
+
+.matches th {
+	text-align: left;
+}
+
+div#contents {
+	padding-left: 60px;
+	border-top-left-radius: 5px;
+	margin-top: 5px !important;
+	font-size: 1.35em;
+}
+
+
+th {
+	font-style: italic;
+	text-align: left;
+}
+
+td {
+	vertical-align: top;
+}
+
+td:nth-child(2) {
+	vertical-align: top;
+	padding-right:20px;
+}
+
+
+
+
+
+table.matches, table.worklist {
+	border-collapse: collapse;
+	font-size: 120%;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.matches .worklist tbody tr:hover {
+	background: #eee;
+}
+
+table.matches th, table.worklist th {
+	padding-bottom: 15px;
+}
+
+table.matches td, table.worklist td {
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+
+
+
+

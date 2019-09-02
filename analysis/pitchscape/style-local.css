@@ -1,0 +1,34 @@
+
+
+div#contents {
+	padding-left: 60px;
+	border-top-left-radius: 5px;
+	margin-top: 5px !important;
+	font-size: 1.35em;
+}
+
+
+.play {
+	display: inline-block;
+	text-indent: -19999px;
+	background: url(/images/mp4.svg) no-repeat 0 0;
+	width: 56px;
+	height: 27px;
+	position: absolute;
+	top: 270px;
+	left: 20px;
+}
+
+
+.pause {
+	display: inline-block;
+	text-indent: -19999px;
+	background: url(/images/mp4-pause.svg) no-repeat 0 0;
+	width: 52px;
+	height: 27px;
+	position: absolute;
+	top: 270px;
+	left: 20px;
+}
+
+

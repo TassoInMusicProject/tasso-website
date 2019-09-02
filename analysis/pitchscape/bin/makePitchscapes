@@ -1,0 +1,61 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my $imgdir = "img";
+
+my $mkeyscape = `which mkeyscape`;
+chomp $mkeyscape;
+die "Cannot find mkeyscape" if $mkeyscape =~ /^\s*$/;
+
+my $pnmtopng = `which pnmtopng`;
+chomp $pnmtopng;
+die "Cannot find pnmtopng" if $pnmtopng =~ /^\s*$/;
+
+my @files = glob("$scoredir/*/kern/*.krn");
+
+`mkdir -p $imgdir`;
+
+foreach my $file (@files) {
+	processFile($file);
+}
+
+
+sub processFile {
+	my ($file) = @_;
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	close FILE;
+	my $complete = "N";
+	foreach my $line (@contents) {
+		if ($line =~ /^\!\!\!complete:\s*(.*)\s*/) {
+			$complete = $1;
+			if ($complete =~ /Y/i) {
+				last;
+			} else {
+				# ignore since not complete
+				return;
+			}
+		}
+	}
+	return if $complete !~ /Y/i;
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+	my $id = $base;
+	$id =~ s/-.*//;
+	if (!-r "$imgdir/$id-trim.png") {
+		print STDERR "Creating image $imgdir/$base-trim.png\n";
+		`$mkeyscape --max -nl --trim $file | $pnmtopng > $imgdir/$id-trim.png`;
+	}
+	if (!-r "$imgdir/$id-raw.png") {
+		print STDERR "Creating image $imgdir/$base-raw.png\n";
+		`$mkeyscape --max -nl $file | $pnmtopng > $imgdir/$id-raw.png`;
+	}
+}
+
+
+
+

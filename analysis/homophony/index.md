@@ -11,7 +11,9 @@ The following table lists homophonic texture percentages found
 in each work.  Identification of homophony is done automatically, so
 the measurements are approximate.  The click on the percentage for a work
 to view the homophonic textures highlighted in red on the work pages.
-Raw data for further analysis can be found on the spreadsheet.
+Raw data for further analysis can be found on the spreadsheet:
+<a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
+
 
 The algroithm to identify homophonic regions in the music: first
 identify sonorities containing three or more simultaneous note
@@ -26,8 +28,6 @@ homphonic regions are color with red and green: the red notes
 indicate an attack sonority, and the green notes indicate a low-attack
 region between two attack-sonorities.
 
-
-<a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
 
 
 <style>

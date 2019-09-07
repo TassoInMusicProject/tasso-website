@@ -8,25 +8,40 @@ permalink: /analysis/homophony/index.html
 <h1> Homophonic analysis </h1>
 
 The following table lists homophonic texture percentages found
-in each work.  Identification of homophony is done automatically, so
-the measurements are approximate.  The click on the percentage for a work
-to view the homophonic textures highlighted in red on the work pages.
-Raw data for further analysis can be found on the spreadsheet:
-<a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
+in each work.  Identification of homophony is done with an algorithm, so
+the measurements are approximate.  
 
 
-The algorithm to identify homophonic regions in the music: first
-identify sonorities containing three or more simultaneous note
-attacks.  These sonorities are assigned a score of 1.  The assign
+
+The algorithm to identify homophonic regions in the music is as follows:
+<ul>
+
+<li> First identify sonorities containing three or more simultaneous note
+attacks.  These sonorities are assigned a score of 1.  
+</li>
+
+<li> Then assign
 a score of 1/2 to any sonority sandwiched between two sonorities
-with a score of 1.  Then search for contiguous regions of music
+with a score of 1.
+</li>
+
+<li> Then search for contiguous regions of music
 with non-zero scores that exceed a total score threshold, which for
 this analysis was set to 4 (at least three successive attack
-sonorities with up to one low-attack sonority between them).  In
-the music notation display of the sonorities on the work pages, the
-homophonic regions are color with red and green: the red notes
-indicate an attack sonority, and the green notes indicate a low-attack
-region between two attack-sonorities.
+sonorities with up to one low-attack sonority between them). 
+</li>
+
+</ul>
+
+The click on the percentage for a work to view the homophonic
+textures highlighted in red on the work pages.  In the music notation
+display of the sonorities on the work pages, the homophonic regions
+are color with red and green: the red notes indicate an attack
+sonority, and the green notes indicate a low-attack region between
+two attack-sonorities.
+
+Raw data for further analysis can be found on the spreadsheet:
+<a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
 
 
 <style>

@@ -11,7 +11,22 @@ The following table lists homophonic texture percentages found
 in each work.  Identification of homophony is done automatically, so
 the measurements are approximate.  The click on the percentage for a work
 to view the homophonic textures highlighted in red on the work pages.
-Raw data for further analysis can be found on the spreadsheet:
+Raw data for further analysis can be found on the spreadsheet.
+
+The algroithm to identify homophonic regions in the music: first
+identify sonorities containing three or more simultaneous note
+attacks.  These sonorities are assigned a score of 1.  The assign
+a score of 1/2 to any sonority sandwiched between two sonorities
+with a score of 1.  Then search for contiguous regions of music
+with non-zero scores that exceed a total score threshold, which for
+this analysis was set to 4 (at least three successive attack
+sonorities with up to one low-attack sonority between them).  In
+the music notation display of the sonorities on the work pages, the
+homphonic regions are color with red and green: the red notes
+indicate an attack sonority, and the green notes indicate a low-attack
+region between two attack-sonorities.
+
+
 <a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
 
 
@@ -38,7 +53,9 @@ table td {
 	<select onchange="sortList(this.value)">
 		<option value="poem">Poem</option>
 		<option value="score">Homophonic score</option>
+<!--
 		<option value="score2">Homophonic score, model 2</option>
+-->
 		<option value="composer">Composer</option>
 		<option value="date">Publication date</option>
 	</select>
@@ -52,7 +69,9 @@ table td {
 	<th>Composer</th>
 	<th>Date</th>
 	<th>Title</th>
+<!--
 	<th>Model&nbsp;2</th>
+-->
 </tr>
 </thead>
 <tbody id="sort">
@@ -79,9 +98,11 @@ table td {
 			<i>Su l'ampia fronte il crespo oro lucente</i> (rime 3)
 	</td>
 
+<!--
 	<td class="score2">
 		<a target="_blank" href="/work?id=Trm0003b&filter=homophonic2">26.2%</a>
 	</td>
+-->
 
 </tr>
 

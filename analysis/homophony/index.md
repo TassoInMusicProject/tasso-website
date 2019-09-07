@@ -15,7 +15,7 @@ Raw data for further analysis can be found on the spreadsheet:
 <a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
 
 
-The algroithm to identify homophonic regions in the music: first
+The algorithm to identify homophonic regions in the music: first
 identify sonorities containing three or more simultaneous note
 attacks.  These sonorities are assigned a score of 1.  The assign
 a score of 1/2 to any sonority sandwiched between two sonorities
@@ -24,7 +24,7 @@ with non-zero scores that exceed a total score threshold, which for
 this analysis was set to 4 (at least three successive attack
 sonorities with up to one low-attack sonority between them).  In
 the music notation display of the sonorities on the work pages, the
-homphonic regions are color with red and green: the red notes
+homophonic regions are color with red and green: the red notes
 indicate an attack sonority, and the green notes indicate a low-attack
 region between two attack-sonorities.
 
@@ -129,9 +129,11 @@ table td {
 			<i>Io non posso gioire</i> (rime 23)
 	</td>
 
+<!--
 	<td class="score2">
 		<a target="_blank" href="/work?id=Trm0023c&filter=homophonic2">20.5%</a>
 	</td>
+-->
 
 </tr>
 

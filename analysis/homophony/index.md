@@ -677,6 +677,37 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
+		<a target="_blank" href="/work?id=Trm0059e&filter=homophonic">!!!COM: Dering, Richard%</a>
+	</td>
+
+	<td class="id">
+		Trm0059e
+	</td>
+
+	<td class="composer">
+		Dering
+	</td>
+
+	<td class="date">
+		1620
+	</td>
+
+	<td class="title">
+			<i>Lunge da voi, ben mio</i> (rime 59)
+	</td>
+
+<!--
+	<td class="score2">
+		<a target="_blank" href="/work?id=Trm0059e&filter=homophonic2">50%</a>
+	</td>
+-->
+
+</tr>
+
+
+<tr class="sortable">
+
+	<td class="score">
 		<a target="_blank" href="/work?id=Trm0060c&filter=homophonic">45.5%</a>
 	</td>
 
@@ -5715,7 +5746,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ho visto al pianto mio (Aminta I/2)</i> 
+			<i>Ho visto al pianto mio</i> 
 	</td>
 
 <!--
@@ -5746,12 +5777,43 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ho visto al pianto mio (Aminta I/2)</i> 
+			<i>Ho visto al pianto mio</i> 
 	</td>
 
 <!--
 	<td class="score2">
 		<a target="_blank" href="/work?id=Tam1020338d&filter=homophonic2">49.3%</a>
+	</td>
+-->
+
+</tr>
+
+
+<tr class="sortable">
+
+	<td class="score">
+		<a target="_blank" href="/work?id=Tam1020338e&filter=homophonic">!!!COM: Benedetti, Piero%</a>
+	</td>
+
+	<td class="id">
+		Tam1020338e
+	</td>
+
+	<td class="composer">
+		Benedetti
+	</td>
+
+	<td class="date">
+		1617
+	</td>
+
+	<td class="title">
+			<i>Ho visto al pianto mio</i> 
+	</td>
+
+<!--
+	<td class="score2">
+		<a target="_blank" href="/work?id=Tam1020338e&filter=homophonic2">0%</a>
 	</td>
 -->
 
@@ -5777,7 +5839,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Picciola è l'ape e fa col picciol morso (Aminta II/1)</i> 
+			<i>Picciola è l'ape e fa col picciol morso</i> 
 	</td>
 
 <!--
@@ -5808,7 +5870,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vorrò veder ciò che Tirsi avrà fatto (Aminta II/3)</i> 
+			<i>Vorrò veder ciò che Tirsi avrà fatto</i> 
 	</td>
 
 <!--
@@ -5839,7 +5901,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Nove, Aminta, t'annuncio di conforto (Aminta II/3)</i> 
+			<i>Nove, Aminta, t'annuncio di conforto</i> 
 	</td>
 
 <!--
@@ -5870,7 +5932,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+			<i>Qual ardir mi bisogna, e 'ncotra a cui?</i> 
 	</td>
 
 <!--
@@ -5901,7 +5963,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+			<i>Bisogna a maggior prova ardir più grande</i> 
 	</td>
 
 <!--
@@ -5932,7 +5994,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Orsù scuoprimi il tutto. Odi. Di' tosto (Aminta II/3)</i> 
+			<i>Orsù scuoprimi il tutto. Odi. Di' tosto</i> 
 	</td>
 
 <!--
@@ -5963,7 +6025,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Dura conclusion, che tutte affosca (Aminta II/3)</i> 
+			<i>Dura conclusion, che tutte affosca</i> 
 	</td>
 
 <!--
@@ -5994,7 +6056,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>S'a mio senno farai, sarai felice (Aminta II/3)</i> 
+			<i>S'a mio senno farai, sarai felice</i> 
 	</td>
 
 <!--
@@ -6025,7 +6087,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Non sarà dunque ver ch'in quanto io posso (Aminta II/3)</i> 
+			<i>Non sarà dunque ver ch'in quanto io posso</i> 
 	</td>
 
 <!--
@@ -6056,7 +6118,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Dunque tu l'ameresti a suo dispetto (Aminta II/3)</i> 
+			<i>Dunque tu l'ameresti a suo dispetto</i> 
 	</td>
 
 <!--
@@ -6087,7 +6149,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Perché dunque non osi oltra sua voglia (Aminta II/3)</i> 
+			<i>Perché dunque non osi oltre sua voglia</i> 
 	</td>
 
 <!--
@@ -6118,7 +6180,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Già per lungo uso a ragionar d'amore (Aminta II/3)</i> 
+			<i>Già per lungo uso a ragionar d'amore</i> 
 	</td>
 
 <!--
@@ -6149,7 +6211,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Dunque andar non vogliamo? Andare io voglio (Aminta II/3)</i> 
+			<i>Dunque andar non vogliamo? Andare io voglio</i> 
 	</td>
 
 <!--
@@ -6180,7 +6242,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Credi tu dunque, sciocco, che mai Dafne (Aminta II/3)</i> 
+			<i>Credi tu dunque, sciocco, che mai Dafne</i> 
 	</td>
 
 <!--
@@ -6211,7 +6273,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>E s'ella vuol che 'l tuo diletto sia (Aminta II/3)</i> 
+			<i>E s'ella vuol che 'l tuo diletto sia</i> 
 	</td>
 
 <!--
@@ -6242,7 +6304,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ecco tu chiedi pur quella certezza (Aminta II/3)</i> 
+			<i>Ecco tu chiedi pur quella certezza</i> 
 	</td>
 
 <!--
@@ -6273,7 +6335,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Tu taci: tu sei vinto. Ora confessa (Aminta II/3)</i> 
+			<i>Tu taci: tu sei vinto. Ora confessa</i> 
 	</td>
 
 <!--
@@ -6304,7 +6366,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Dispietata pietate (Aminta III/2)</i> 
+			<i>Dispietata pietate</i> 
 	</td>
 
 <!--
@@ -6335,7 +6397,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Dolor che sì mi crucii (Aminta III/2)</i> 
+			<i>Dolor che sì mi crucii</i> 
 	</td>
 
 <!--
@@ -6366,7 +6428,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Bello e dolce morir fu certo allora (Aminta III/2)</i> 
+			<i>Bello e dolce morir fu certo allora</i> 
 	</td>
 
 <!--
@@ -6397,7 +6459,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>O sfortunato Aminta</i> 
+			<i>Misero Aminta!</i> 
 	</td>
 
 <!--
@@ -6428,7 +6490,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Pastor di che piangete? (Aminta IV/2)</i> 
+			<i>Pastor di che piangete?</i> 
 	</td>
 
 <!--
@@ -6459,7 +6521,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ciò che morte rallenta, Amor restringi (Aminta IV/2)</i> 
+			<i>Ciò che morte rallenta, Amor restringi</i> 
 	</td>
 
 <!--
@@ -6490,7 +6552,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Non sono ire là su: gli umani ingegni (Aminta IV/2)</i> 
+			<i>Non sono ire la sù: gli umani ingegni</i> 
 	</td>
 
 <!--
@@ -6521,7 +6583,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>O fortunato Aminta, o te felice</i> 
+			<i>Oh fortunato Aminta, oh te felice</i> 
 	</td>
 
 <!--
@@ -6552,7 +6614,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ma come Silvia il riconobbe e vide</i> 
+			<i>Ma come Silvia li riconobbe e vide</i> 
 	</td>
 
 <!--
@@ -6583,7 +6645,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Non so se il molto amaro (Aminta V/1)</i> 
+			<i>Non so se il molto amaro</i> 
 	</td>
 
 <!--
@@ -6614,7 +6676,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Di che cantar degg'io (Ecloghe I/89)</i> 
+			<i>Di che cantar degg'io</i> 
 	</td>
 
 <!--
@@ -6645,7 +6707,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>"Lasso," dicea, " perché venisti Amore" (Rinaldo V/16)</i> 
+			<i>Lasso, dicea, "Perché venisti Amore</i> 
 	</td>
 
 <!--
@@ -6676,7 +6738,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Tu perfido Signor, tu disleale (Rinaldo V/18)</i> 
+			<i>Tu perfido signor, tu disleale</i> 
 	</td>
 
 <!--
@@ -6707,7 +6769,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ahi lacrime! ahi dolore (Re Torrismondo V/6)</i> 
+			<i>Ahi lagrime! ahi dolore</i> 
 	</td>
 
 <!--
@@ -6738,7 +6800,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>O Musa, tu che di caduchi allori (Gerusalemme I/2)</i> 
+			<i>O musa, tu che di caduchi allori</i> 
 	</td>
 
 <!--
@@ -6769,7 +6831,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>O Musa, tu che di caduchi Allori (Gerusalemme I/2)</i> 
+			<i>O musa, tu che di caduchi allori</i> 
 	</td>
 
 <!--
@@ -6800,7 +6862,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Sai che là corre il mondo ove più versi (Gerusalemme I/3)</i> 
+			<i>Sai che là corre il mondo ove più versi</i> 
 	</td>
 
 <!--
@@ -6831,7 +6893,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Dunque ove tu, Signor, di mille rivi (Gerusalemme III/8)</i> 
+			<i>Dunque, ove tu signor di mille rivi</i> 
 	</td>
 
 <!--
@@ -6862,7 +6924,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Sovente, all'hor ch'in su gli estivi ardori (i.e., "Sovente, allor che su gli estivi ardori," Gerusalemme VII/19)</i> 
+			<i>Sovente, allor che su gli estivi ardori</i> 
 	</td>
 
 <!--
@@ -6893,7 +6955,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>E diceva piangendo: "in voi serbate (i.e., Indi dicea piangendo: "in voi serbate, Gerusalemme VII/20)</i> 
+			<i>Indi dicea piangendo: "In voi serbate @SETTINGTITLE" E diceva piangendo: "in voi serbate</i> 
 	</td>
 
 <!--
@@ -6924,7 +6986,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Forse avverrà, se'l ciel benigno ascolta (Gerusalemme VII/21)</i> 
+			<i>Forse avverrà se 'l ciel benigno ascolta</i> 
 	</td>
 
 <!--
@@ -6955,7 +7017,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vivrò fra i miei tormenti e le mie cure (Gerusalemme XII/77)</i> 
+			<i>Vivrò fra i miei tormenti e le mie cure</i> 
 	</td>
 
 <!--
@@ -6986,7 +7048,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ma dove, o lasso me!, dove restaro (Gerusalemme XII/78)</i> 
+			<i>Ma dove, oh lasso, me! dove restaro</i> 
 	</td>
 
 <!--
@@ -7017,7 +7079,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Io pur verrò là dove sete; e voi (Gerusalemme XII/79)</i> 
+			<i>Io verrò là dove sete; e voi</i> 
 	</td>
 
 <!--
@@ -7048,7 +7110,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Usciva omai del molle e fresco grembo (i.e., "Usciva omai dal molle e fresco grembo," Gerusalemme XIV/1)</i> 
+			<i>Usciva omai dal molle e fresco grembo</i> 
 	</td>
 
 <!--
@@ -7079,7 +7141,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>O giovinetti, mentre aprile e maggio (Gerusalemme XIV/62)</i> 
+			<i>O giovinetti mentre aprile e maggio</i> 
 	</td>
 
 <!--
@@ -7110,7 +7172,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i></i> 
+			<i>Vezzosi augelli infra le verdi fronde</i> 
 	</td>
 
 <!--
@@ -7141,7 +7203,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i></i> 
+			<i>Vezzosi augelli infra le verdi fronde</i> 
 	</td>
 
 <!--
@@ -7172,7 +7234,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vola fra gli altri un che le piume ha sparte (Gerusalemme XVI/13)</i> 
+			<i>Vola fra gli altri un che le piume ha sparte</i> 
 	</td>
 
 <!--
@@ -7203,7 +7265,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>"Deh mira," egli cantò, "spuntar la rosa (Gerusalemme XVI/14)</i> 
+			<i>Deh mira, egli cantò, "spuntar la rosa</i> 
 	</td>
 
 <!--
@@ -7234,7 +7296,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Qual Musico gentil, prima che chiara (Gerusalemme XVI/43)</i> 
+			<i>Qual musico gentil prima che chiara</i> 
 	</td>
 
 <!--
@@ -7265,7 +7327,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i></i> 
+			<i>Qual musico gentil prima che chiara</i> 
 	</td>
 
 <!--
@@ -7296,7 +7358,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Poi cominciò: non aspettar ch'io prieghi (i.e., Poi cominciò: non aspettar ch'io preghi, Gerusalemme XVI/44)</i> 
+			<i>Poi cominciò: "Non aspettar ch'io preghi</i> 
 	</td>
 
 <!--
@@ -7327,7 +7389,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Se m'odij, e'n ciò diletto alcun tu senti (i.e., Se m'odii, e in ciò diletto alcun tu senti, Gerusalemme XVI/45)</i> 
+			<i>Se m'odii e in ciò diletto alcun tu senti</i> 
 	</td>
 
 <!--
@@ -7358,7 +7420,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Aggiungi a quest'ancor quel ch'a maggiore (i.e., Aggiungi a questo ancor quel ch'a maggiore, Gerusalemme, XVI 46)</i> 
+			<i>Aggiungi a questo ancor quel ch'a maggiore</i> 
 	</td>
 
 <!--
@@ -7389,7 +7451,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Sia pur questa tra le mie frodi, e vaglia (Gerusalemme XVI/47)</i> 
+			<i>Sia questa pur tra le mie frodi, e vaglia</i> 
 	</td>
 
 <!--
@@ -7420,7 +7482,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Rimanti in pace, io vado: a te non lice</i> 
+			<i>Rimanti in pace: i' vado: a te non lice</i> 
 	</td>
 
 <!--
@@ -7451,7 +7513,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur, crudel, con quella pace (Gerusalemme XVI/59)</i> 
+			<i>Vattene pur crudel con quella pace</i> 
 	</td>
 
 <!--
@@ -7482,7 +7544,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur, crudel, con quella pace (Gerusalemme XVI/59)</i> 
+			<i>Vattene pur crudel con quella pace</i> 
 	</td>
 
 <!--
@@ -7544,7 +7606,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Là tra ̒l sangue e le morti egro giacente (Gerusalemme XVI/60)</i> 
+			<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 
 <!--
@@ -7575,7 +7637,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Là tra'l sangue e le morti egro giacente (Gerusalemme XVI/60)</i> 
+			<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 
 <!--
@@ -7606,7 +7668,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 
 <!--
@@ -7637,7 +7699,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Chiudesti i lumi, Armida: il cielo avaro (Gerusalemme XVI/61)</i> 
+			<i>Chiudesti i lumi Armida: il cielo avaro</i> 
 	</td>
 
 <!--
@@ -7699,7 +7761,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Or che farà? Dee su l'ignuda arena</i> 
 	</td>
 
 <!--
@@ -7730,7 +7792,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Poi chʼella in sé tornò, deserto e muto (Gerusalemme XVI/63)</i> 
+			<i>Poi ch'ella in sé tornò, deserto e muto</i> 
 	</td>
 
 <!--
@@ -7823,7 +7885,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Misera Armida, all'hor dovevi</i> 
+			<i>Misera Armida, allor dovevi e degno</i> 
 	</td>
 
 <!--
@@ -7885,7 +7947,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Misera, non credea ch'a gli occhi miei (Gerusalemme XIX/106)</i> 
+			<i>Misera non credea ch'a gli occhi miei</i> 
 	</td>
 
 <!--
@@ -7916,7 +7978,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Ma che? squalido e scuro anco mi piaci (i.e., "Ma che? squallido e scuro anco mi piaci,"Gerusalemme XIX/107)</i> 
+			<i>Ma che? squallido e scuro anco mi piaci</i> 
 	</td>
 
 <!--
@@ -7947,7 +8009,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Piacquele assai che 'n quelle valli ombrose</i> 
 	</td>
 
 <!--
@@ -7978,7 +8040,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Ah, ma non fia che fra tant'armi e tante</i> 
 	</td>
 
 <!--
@@ -8009,7 +8071,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Dimostratevi in me, ch'io vi perdono</i> 
 	</td>
 
 <!--
@@ -8040,7 +8102,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Felice me se nel morir non reco</i> 
 	</td>
 
 <!--
@@ -8071,7 +8133,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Qui tacque: e stabilito il suo pensiero</i> 
 	</td>
 
 <!--
@@ -8102,7 +8164,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Si volse Armida e 'l rimirò improvviso</i> 
 	</td>
 
 <!--
@@ -8133,7 +8195,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>E 'l bel volto e 'l bel seno a la meschina</i> 
 	</td>
 
 <!--
@@ -8164,7 +8226,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>E con man languidetta il forte braccio</i> 
 	</td>
 
 <!--
@@ -8195,7 +8257,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>O sempre, e quando parti e quando torni</i> 
 	</td>
 
 <!--
@@ -8226,7 +8288,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Vattene pur crudel con quella pace</i> 
+			<i>Così doleasi e con le flebil onde</i> 
 	</td>
 
 <!--

@@ -677,7 +677,7 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-		<a target="_blank" href="/work?id=Trm0059e&filter=homophonic">!!!COM: Dering, Richard%</a>
+		<a target="_blank" href="/work?id=Trm0059e&filter=homophonic">67.2%</a>
 	</td>
 
 	<td class="id">
@@ -5792,7 +5792,7 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-		<a target="_blank" href="/work?id=Tam1020338e&filter=homophonic">!!!COM: Benedetti, Piero%</a>
+		<a target="_blank" href="/work?id=Tam1020338e&filter=homophonic">0%</a>
 	</td>
 
 	<td class="id">
@@ -6955,7 +6955,7 @@ table td {
 	</td>
 
 	<td class="title">
-			<i>Indi dicea piangendo: "In voi serbate @SETTINGTITLE" E diceva piangendo: "in voi serbate</i> 
+			<i>Indi dicea piangendo: "In voi serbate</i> 
 	</td>
 
 <!--

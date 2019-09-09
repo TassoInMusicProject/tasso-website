@@ -28,7 +28,7 @@ table.listing td:first-child {
 
 <h2> Analytic tools </h2>
 
-This page lists tools for genre and cross-genre analysis of music from
+This page lists tools for analysis of music from
 the Tasso in Music project.  Some tools link to the work pages with 
 analysis results highlighted in the music notation, while other tools
 are tables of extracted information (occasionally with links to the raw

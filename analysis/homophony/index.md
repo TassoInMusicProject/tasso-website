@@ -3382,7 +3382,7 @@ table td {
 	</td>
 
 	<td class="composer">
-		Luzzaschi. Luzzasco
+		Luzzaschi
 	</td>
 
 	<td class="date">

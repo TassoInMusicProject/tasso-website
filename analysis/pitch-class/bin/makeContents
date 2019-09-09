@@ -173,10 +173,17 @@ td.right:after {
 
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:${width}px;">
 <tr>
+
 	<td>
 		$html
 	</td>
 
+</tr>
+</table>
+
+
+<table style="display:inline-block; margins: auto; padding-left:20px; padding-right:20px; vertical-align:top; max-width:${width}px;">
+<tr>
 	<td style="position:relative">
 		<a target="_blank" href="$imgdir/$id.png"><img width="$width" style="width:${width}px" src="$imgdir/$id.png"></a>
 		<div id="audio_$id" style="cursor:pointer;" onclick="PlayAudioFile('$id', this);" class="play">play</div>

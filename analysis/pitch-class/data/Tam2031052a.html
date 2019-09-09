@@ -1,0 +1,102 @@
+<div id="id_Tam2031052a"></div>
+
+<script>
+var data_Tam2031052a =
+[
+	{"percent":15.1341, "pitch class":"C", "voice":"Basso"},
+	{"percent":5.17241, "pitch class":"D", "voice":"Basso"},
+	{"percent":0.574713, "pitch class":"E♭", "voice":"Basso"},
+	{"percent":0.957854, "pitch class":"E", "voice":"Basso"},
+	{"percent":35.4406, "pitch class":"F", "voice":"Basso"},
+	{"percent":13.41, "pitch class":"G", "voice":"Basso"},
+	{"percent":3.06513, "pitch class":"A", "voice":"Basso"},
+	{"percent":7.08812, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":18.5824, "pitch class":"C", "voice":"Quinto"},
+	{"percent":3.83142, "pitch class":"D", "voice":"Quinto"},
+	{"percent":2.68199, "pitch class":"E", "voice":"Quinto"},
+	{"percent":14.3678, "pitch class":"F", "voice":"Quinto"},
+	{"percent":16.2835, "pitch class":"G", "voice":"Quinto"},
+	{"percent":11.4943, "pitch class":"A", "voice":"Quinto"},
+	{"percent":13.6015, "pitch class":"B♭", "voice":"Quinto"},
+	{"percent":23.3716, "pitch class":"C", "voice":"Tenore"},
+	{"percent":6.32184, "pitch class":"D", "voice":"Tenore"},
+	{"percent":6.32184, "pitch class":"E", "voice":"Tenore"},
+	{"percent":8.23755, "pitch class":"F", "voice":"Tenore"},
+	{"percent":9.77011, "pitch class":"G", "voice":"Tenore"},
+	{"percent":15.9004, "pitch class":"A", "voice":"Tenore"},
+	{"percent":8.62069, "pitch class":"B♭", "voice":"Tenore"},
+	{"percent":25.4789, "pitch class":"C", "voice":"Alto"},
+	{"percent":0.766284, "pitch class":"C♯", "voice":"Alto"},
+	{"percent":23.1801, "pitch class":"D", "voice":"Alto"},
+	{"percent":18.7739, "pitch class":"E", "voice":"Alto"},
+	{"percent":8.42912, "pitch class":"F", "voice":"Alto"},
+	{"percent":1.53257, "pitch class":"G", "voice":"Alto"},
+	{"percent":0.574713, "pitch class":"A", "voice":"Alto"},
+	{"percent":4.40613, "pitch class":"B♭", "voice":"Alto"},
+	{"percent":0.766284, "pitch class":"B", "voice":"Alto"},
+	{"percent":8.04598, "pitch class":"C", "voice":"Sesto"},
+	{"percent":5.36398, "pitch class":"D", "voice":"Sesto"},
+	{"percent":2.10728, "pitch class":"E", "voice":"Sesto"},
+	{"percent":13.6015, "pitch class":"F", "voice":"Sesto"},
+	{"percent":27.5862, "pitch class":"G", "voice":"Sesto"},
+	{"percent":15.3257, "pitch class":"A", "voice":"Sesto"},
+	{"percent":10.3448, "pitch class":"B♭", "voice":"Sesto"},
+	{"percent":9.38697, "pitch class":"C", "voice":"Canto"},
+	{"percent":7.85441, "pitch class":"D", "voice":"Canto"},
+	{"percent":3.83142, "pitch class":"E", "voice":"Canto"},
+	{"percent":13.6015, "pitch class":"F", "voice":"Canto"},
+	{"percent":1.53257, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":11.6858, "pitch class":"G", "voice":"Canto"},
+	{"percent":18.1992, "pitch class":"A", "voice":"Canto"},
+	{"percent":7.85441, "pitch class":"B♭", "voice":"Canto"}
+]
+;
+
+var vega_Tam2031052a =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tam2031052a},
+	"title": "Duration-weighted pitch-class distribution for Tam2031052a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Sesto", "Alto", "Tenore", "Quinto", "Basso"],
+				"range": ["#e49689", "#c8f0bb", "#f4c6a1", "#ecdf7a", "#e3f5f8", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"F", "percent":93.6782}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tam2031052a', vega_Tam2031052a);
+</script>

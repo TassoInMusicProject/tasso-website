@@ -1,0 +1,106 @@
+<div id="id_Tri5018a"></div>
+
+<script>
+var data_Tri5018a =
+[
+	{"percent":9.39227, "pitch class":"C", "voice":"Basso"},
+	{"percent":9.39227, "pitch class":"D", "voice":"Basso"},
+	{"percent":12.7072, "pitch class":"E", "voice":"Basso"},
+	{"percent":10.221, "pitch class":"F", "voice":"Basso"},
+	{"percent":1.10497, "pitch class":"F♯", "voice":"Basso"},
+	{"percent":16.5746, "pitch class":"G", "voice":"Basso"},
+	{"percent":0.552486, "pitch class":"G♯", "voice":"Basso"},
+	{"percent":17.6796, "pitch class":"A", "voice":"Basso"},
+	{"percent":1.10497, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":2.48619, "pitch class":"B", "voice":"Basso"},
+	{"percent":11.6022, "pitch class":"C", "voice":"Tenore"},
+	{"percent":17.4033, "pitch class":"D", "voice":"Tenore"},
+	{"percent":20.7182, "pitch class":"E", "voice":"Tenore"},
+	{"percent":8.83978, "pitch class":"F", "voice":"Tenore"},
+	{"percent":1.65746, "pitch class":"F♯", "voice":"Tenore"},
+	{"percent":16.5746, "pitch class":"G", "voice":"Tenore"},
+	{"percent":2.76243, "pitch class":"G♯", "voice":"Tenore"},
+	{"percent":21.547, "pitch class":"A", "voice":"Tenore"},
+	{"percent":2.20994, "pitch class":"B♭", "voice":"Tenore"},
+	{"percent":6.07735, "pitch class":"B", "voice":"Tenore"},
+	{"percent":23.2044, "pitch class":"C", "voice":"Quinto"},
+	{"percent":0.552486, "pitch class":"C♯", "voice":"Quinto"},
+	{"percent":12.1547, "pitch class":"D", "voice":"Quinto"},
+	{"percent":8.01105, "pitch class":"E", "voice":"Quinto"},
+	{"percent":7.18232, "pitch class":"F", "voice":"Quinto"},
+	{"percent":1.10497, "pitch class":"F♯", "voice":"Quinto"},
+	{"percent":8.56354, "pitch class":"G", "voice":"Quinto"},
+	{"percent":3.8674, "pitch class":"G♯", "voice":"Quinto"},
+	{"percent":22.6519, "pitch class":"A", "voice":"Quinto"},
+	{"percent":24.8619, "pitch class":"B", "voice":"Quinto"},
+	{"percent":14.3646, "pitch class":"C", "voice":"Alto"},
+	{"percent":4.14365, "pitch class":"D", "voice":"Alto"},
+	{"percent":21.547, "pitch class":"E", "voice":"Alto"},
+	{"percent":5.24862, "pitch class":"F", "voice":"Alto"},
+	{"percent":3.8674, "pitch class":"F♯", "voice":"Alto"},
+	{"percent":19.0608, "pitch class":"G", "voice":"Alto"},
+	{"percent":2.20994, "pitch class":"G♯", "voice":"Alto"},
+	{"percent":25.4144, "pitch class":"A", "voice":"Alto"},
+	{"percent":3.31492, "pitch class":"B♭", "voice":"Alto"},
+	{"percent":7.45856, "pitch class":"B", "voice":"Alto"},
+	{"percent":12.8453, "pitch class":"C", "voice":"Canto"},
+	{"percent":7.18232, "pitch class":"C♯", "voice":"Canto"},
+	{"percent":25, "pitch class":"D", "voice":"Canto"},
+	{"percent":35.6354, "pitch class":"E", "voice":"Canto"},
+	{"percent":11.6022, "pitch class":"F", "voice":"Canto"},
+	{"percent":7.18232, "pitch class":"G", "voice":"Canto"},
+	{"percent":1.65746, "pitch class":"G♯", "voice":"Canto"},
+	{"percent":12.7072, "pitch class":"A", "voice":"Canto"},
+	{"percent":0.552486, "pitch class":"B♭", "voice":"Canto"},
+	{"percent":7.73481, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Tri5018a =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tri5018a},
+	"title": "Duration-weighted pitch-class distribution for Tri5018a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Alto", "Quinto", "Tenore", "Basso"],
+				"range": ["#e49689", "#f4c6a1", "#e3f5f8", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"A", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tri5018a', vega_Tri5018a);
+</script>

@@ -1,0 +1,103 @@
+<div id="id_Tam2031133a"></div>
+
+<script>
+var data_Tam2031133a =
+[
+	{"percent":4.79452, "pitch class":"C", "voice":"Basso"},
+	{"percent":5.06849, "pitch class":"D", "voice":"Basso"},
+	{"percent":3.56164, "pitch class":"E♭", "voice":"Basso"},
+	{"percent":0.958904, "pitch class":"E", "voice":"Basso"},
+	{"percent":26.8493, "pitch class":"F", "voice":"Basso"},
+	{"percent":2.32877, "pitch class":"G", "voice":"Basso"},
+	{"percent":1.78082, "pitch class":"A", "voice":"Basso"},
+	{"percent":10, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":14.5205, "pitch class":"C", "voice":"Quinto"},
+	{"percent":8.90411, "pitch class":"D", "voice":"Quinto"},
+	{"percent":0.684932, "pitch class":"E", "voice":"Quinto"},
+	{"percent":17.6712, "pitch class":"F", "voice":"Quinto"},
+	{"percent":8.21918, "pitch class":"G", "voice":"Quinto"},
+	{"percent":8.76712, "pitch class":"A", "voice":"Quinto"},
+	{"percent":6.16438, "pitch class":"B♭", "voice":"Quinto"},
+	{"percent":17.9452, "pitch class":"C", "voice":"Tenore"},
+	{"percent":3.69863, "pitch class":"D", "voice":"Tenore"},
+	{"percent":0.821918, "pitch class":"E", "voice":"Tenore"},
+	{"percent":10.6849, "pitch class":"F", "voice":"Tenore"},
+	{"percent":3.15068, "pitch class":"G", "voice":"Tenore"},
+	{"percent":10, "pitch class":"A", "voice":"Tenore"},
+	{"percent":10.9589, "pitch class":"B♭", "voice":"Tenore"},
+	{"percent":0.547945, "pitch class":"B", "voice":"Tenore"},
+	{"percent":5.20548, "pitch class":"C", "voice":"Alto"},
+	{"percent":12.1918, "pitch class":"D", "voice":"Alto"},
+	{"percent":2.87671, "pitch class":"E♭", "voice":"Alto"},
+	{"percent":9.72603, "pitch class":"E", "voice":"Alto"},
+	{"percent":28.2192, "pitch class":"F", "voice":"Alto"},
+	{"percent":1.64384, "pitch class":"F♯", "voice":"Alto"},
+	{"percent":1.50685, "pitch class":"G", "voice":"Alto"},
+	{"percent":1.78082, "pitch class":"A", "voice":"Alto"},
+	{"percent":0.684932, "pitch class":"B♭", "voice":"Alto"},
+	{"percent":5.20548, "pitch class":"C", "voice":"Sesto"},
+	{"percent":4.10959, "pitch class":"D", "voice":"Sesto"},
+	{"percent":9.31507, "pitch class":"F", "voice":"Sesto"},
+	{"percent":2.19178, "pitch class":"F♯", "voice":"Sesto"},
+	{"percent":5.34247, "pitch class":"G", "voice":"Sesto"},
+	{"percent":18.2192, "pitch class":"A", "voice":"Sesto"},
+	{"percent":7.39726, "pitch class":"B♭", "voice":"Sesto"},
+	{"percent":18.4932, "pitch class":"C", "voice":"Canto"},
+	{"percent":6.30137, "pitch class":"D", "voice":"Canto"},
+	{"percent":0.410959, "pitch class":"E", "voice":"Canto"},
+	{"percent":7.26027, "pitch class":"F", "voice":"Canto"},
+	{"percent":0.547945, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":8.21918, "pitch class":"G", "voice":"Canto"},
+	{"percent":15.8904, "pitch class":"A", "voice":"Canto"},
+	{"percent":10.274, "pitch class":"B♭", "voice":"Canto"}
+]
+;
+
+var vega_Tam2031133a =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tam2031133a},
+	"title": "Duration-weighted pitch-class distribution for Tam2031133a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Sesto", "Alto", "Tenore", "Quinto", "Basso"],
+				"range": ["#e49689", "#c8f0bb", "#f4c6a1", "#ecdf7a", "#e3f5f8", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"F", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tam2031133a', vega_Tam2031133a);
+</script>

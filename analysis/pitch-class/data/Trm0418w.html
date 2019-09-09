@@ -1,0 +1,76 @@
+<div id="id_Trm0418w"></div>
+
+<script>
+var data_Trm0418w =
+[
+	{"percent":30.9148, "pitch class":"C", "voice":"[Basso Continuo]"},
+	{"percent":5.04732, "pitch class":"C♯", "voice":"[Basso Continuo]"},
+	{"percent":54.8896, "pitch class":"D", "voice":"[Basso Continuo]"},
+	{"percent":47.9495, "pitch class":"E", "voice":"[Basso Continuo]"},
+	{"percent":15.142, "pitch class":"F", "voice":"[Basso Continuo]"},
+	{"percent":7.57098, "pitch class":"F♯", "voice":"[Basso Continuo]"},
+	{"percent":54.2587, "pitch class":"G", "voice":"[Basso Continuo]"},
+	{"percent":35.3312, "pitch class":"A", "voice":"[Basso Continuo]"},
+	{"percent":16.4038, "pitch class":"B", "voice":"[Basso Continuo]"},
+	{"percent":28.0757, "pitch class":"C", "voice":"[Canto]"},
+	{"percent":15.142, "pitch class":"C♯", "voice":"[Canto]"},
+	{"percent":25.2366, "pitch class":"D", "voice":"[Canto]"},
+	{"percent":3.78549, "pitch class":"D♯", "voice":"[Canto]"},
+	{"percent":16.4038, "pitch class":"E", "voice":"[Canto]"},
+	{"percent":4.4164, "pitch class":"F", "voice":"[Canto]"},
+	{"percent":11.3565, "pitch class":"F♯", "voice":"[Canto]"},
+	{"percent":45.7413, "pitch class":"G", "voice":"[Canto]"},
+	{"percent":15.7729, "pitch class":"G♯", "voice":"[Canto]"},
+	{"percent":46.0568, "pitch class":"A", "voice":"[Canto]"},
+	{"percent":46.6877, "pitch class":"B", "voice":"[Canto]"}
+]
+;
+
+var vega_Trm0418w =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0418w},
+	"title": "Duration-weighted pitch-class distribution for Trm0418w ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["[Canto]", "[Basso Continuo]"],
+				"range": ["#e49689", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0418w', vega_Trm0418w);
+</script>

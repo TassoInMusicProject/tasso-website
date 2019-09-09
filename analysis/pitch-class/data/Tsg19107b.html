@@ -1,0 +1,86 @@
+<div id="id_Tsg19107b"></div>
+
+<script>
+var data_Tsg19107b =
+[
+	{"percent":13.6986, "pitch class":"C", "voice":"Basso"},
+	{"percent":2.73973, "pitch class":"C♯", "voice":"Basso"},
+	{"percent":20.0913, "pitch class":"D", "voice":"Basso"},
+	{"percent":42.4658, "pitch class":"E", "voice":"Basso"},
+	{"percent":27.8539, "pitch class":"F", "voice":"Basso"},
+	{"percent":0.913242, "pitch class":"F♯", "voice":"Basso"},
+	{"percent":31.9635, "pitch class":"G", "voice":"Basso"},
+	{"percent":31.0502, "pitch class":"A", "voice":"Basso"},
+	{"percent":2.73973, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":28.3105, "pitch class":"C", "voice":"Canto secondo"},
+	{"percent":11.8721, "pitch class":"C♯", "voice":"Canto secondo"},
+	{"percent":18.2648, "pitch class":"D", "voice":"Canto secondo"},
+	{"percent":8.6758, "pitch class":"E", "voice":"Canto secondo"},
+	{"percent":1.82648, "pitch class":"F", "voice":"Canto secondo"},
+	{"percent":5.93607, "pitch class":"F♯", "voice":"Canto secondo"},
+	{"percent":10.5023, "pitch class":"G", "voice":"Canto secondo"},
+	{"percent":14.6119, "pitch class":"G♯", "voice":"Canto secondo"},
+	{"percent":33.79, "pitch class":"A", "voice":"Canto secondo"},
+	{"percent":0.913242, "pitch class":"B♭", "voice":"Canto secondo"},
+	{"percent":34.2466, "pitch class":"B", "voice":"Canto secondo"},
+	{"percent":25.5708, "pitch class":"C", "voice":"Canto"},
+	{"percent":5.47945, "pitch class":"C♯", "voice":"Canto"},
+	{"percent":31.0502, "pitch class":"D", "voice":"Canto"},
+	{"percent":31.5068, "pitch class":"E", "voice":"Canto"},
+	{"percent":4.10959, "pitch class":"F", "voice":"Canto"},
+	{"percent":4.10959, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":4.56621, "pitch class":"G", "voice":"Canto"},
+	{"percent":5.93607, "pitch class":"G♯", "voice":"Canto"},
+	{"percent":35.1598, "pitch class":"A", "voice":"Canto"},
+	{"percent":31.5068, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Tsg19107b =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tsg19107b},
+	"title": "Duration-weighted pitch-class distribution for Tsg19107b ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Canto secondo", "Basso"],
+				"range": ["#e49689", "#d67365", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"A", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tsg19107b', vega_Tsg19107b);
+</script>

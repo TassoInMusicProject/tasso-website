@@ -1,0 +1,117 @@
+<div id="id_Trm0309a"></div>
+
+<script>
+var data_Trm0309a =
+[
+	{"percent":14.0123, "pitch class":"C", "voice":"Basso"},
+	{"percent":10.0478, "pitch class":"D", "voice":"Basso"},
+	{"percent":3.69105, "pitch class":"E♭", "voice":"Basso"},
+	{"percent":1.2987, "pitch class":"E", "voice":"Basso"},
+	{"percent":11.2782, "pitch class":"F", "voice":"Basso"},
+	{"percent":0.546822, "pitch class":"F♯", "voice":"Basso"},
+	{"percent":17.3616, "pitch class":"G", "voice":"Basso"},
+	{"percent":5.87833, "pitch class":"A", "voice":"Basso"},
+	{"percent":13.5338, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":15.311, "pitch class":"C", "voice":"Tenore"},
+	{"percent":0.546822, "pitch class":"C♯", "voice":"Tenore"},
+	{"percent":21.7362, "pitch class":"D", "voice":"Tenore"},
+	{"percent":1.64046, "pitch class":"E♭", "voice":"Tenore"},
+	{"percent":5.74163, "pitch class":"E", "voice":"Tenore"},
+	{"percent":4.71634, "pitch class":"F", "voice":"Tenore"},
+	{"percent":10.7314, "pitch class":"G", "voice":"Tenore"},
+	{"percent":4.16951, "pitch class":"A", "voice":"Tenore"},
+	{"percent":12.782, "pitch class":"B♭", "voice":"Tenore"},
+	{"percent":0.273411, "pitch class":"B", "voice":"Tenore"},
+	{"percent":4.16951, "pitch class":"C", "voice":"Alto"},
+	{"percent":13.6022, "pitch class":"D", "voice":"Alto"},
+	{"percent":2.18729, "pitch class":"E♭", "voice":"Alto"},
+	{"percent":8.06562, "pitch class":"E", "voice":"Alto"},
+	{"percent":15.5161, "pitch class":"F", "voice":"Alto"},
+	{"percent":1.09364, "pitch class":"F♯", "voice":"Alto"},
+	{"percent":19.3438, "pitch class":"G", "voice":"Alto"},
+	{"percent":9.02256, "pitch class":"A", "voice":"Alto"},
+	{"percent":7.10868, "pitch class":"B♭", "voice":"Alto"},
+	{"percent":0.546822, "pitch class":"B", "voice":"Alto"},
+	{"percent":9.02256, "pitch class":"C", "voice":"Sesto"},
+	{"percent":0.820232, "pitch class":"C♯", "voice":"Sesto"},
+	{"percent":5.46822, "pitch class":"D", "voice":"Sesto"},
+	{"percent":2.66576, "pitch class":"E", "voice":"Sesto"},
+	{"percent":12.0301, "pitch class":"F", "voice":"Sesto"},
+	{"percent":2.4607, "pitch class":"F♯", "voice":"Sesto"},
+	{"percent":23.1716, "pitch class":"G", "voice":"Sesto"},
+	{"percent":18.1135, "pitch class":"A", "voice":"Sesto"},
+	{"percent":13.1921, "pitch class":"B♭", "voice":"Sesto"},
+	{"percent":3.28093, "pitch class":"B", "voice":"Sesto"},
+	{"percent":13.0554, "pitch class":"C", "voice":"Quinto"},
+	{"percent":0.683527, "pitch class":"C♯", "voice":"Quinto"},
+	{"percent":30.8271, "pitch class":"D", "voice":"Quinto"},
+	{"percent":3.34928, "pitch class":"E♭", "voice":"Quinto"},
+	{"percent":6.90362, "pitch class":"E", "voice":"Quinto"},
+	{"percent":9.22761, "pitch class":"F", "voice":"Quinto"},
+	{"percent":1.09364, "pitch class":"F♯", "voice":"Quinto"},
+	{"percent":10.7997, "pitch class":"G", "voice":"Quinto"},
+	{"percent":7.6555, "pitch class":"A", "voice":"Quinto"},
+	{"percent":4.16951, "pitch class":"B♭", "voice":"Quinto"},
+	{"percent":1.91388, "pitch class":"B", "voice":"Quinto"},
+	{"percent":8.9542, "pitch class":"C", "voice":"Canto"},
+	{"percent":0.546822, "pitch class":"C♯", "voice":"Canto"},
+	{"percent":18.3185, "pitch class":"D", "voice":"Canto"},
+	{"percent":1.91388, "pitch class":"E♭", "voice":"Canto"},
+	{"percent":5.80998, "pitch class":"E", "voice":"Canto"},
+	{"percent":12.3718, "pitch class":"F", "voice":"Canto"},
+	{"percent":1.09364, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":11.7567, "pitch class":"G", "voice":"Canto"},
+	{"percent":7.04033, "pitch class":"A", "voice":"Canto"},
+	{"percent":8.47573, "pitch class":"B♭", "voice":"Canto"},
+	{"percent":4.64798, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Trm0309a =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0309a},
+	"title": "Duration-weighted pitch-class distribution for Trm0309a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Quinto", "Sesto", "Alto", "Tenore", "Basso"],
+				"range": ["#e49689", "#e3f5f8", "#c8f0bb", "#f4c6a1", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "percent":93.1647}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0309a', vega_Trm0309a);
+</script>

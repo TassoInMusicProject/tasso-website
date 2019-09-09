@@ -1,0 +1,103 @@
+<div id="id_Trm0302a"></div>
+
+<script>
+var data_Trm0302a =
+[
+	{"percent":1.94805, "pitch class":"C", "voice":"Basso"},
+	{"percent":3.57143, "pitch class":"D", "voice":"Basso"},
+	{"percent":20.6169, "pitch class":"E", "voice":"Basso"},
+	{"percent":3.8961, "pitch class":"F", "voice":"Basso"},
+	{"percent":10.8766, "pitch class":"G", "voice":"Basso"},
+	{"percent":0.324675, "pitch class":"G♯", "voice":"Basso"},
+	{"percent":24.026, "pitch class":"A", "voice":"Basso"},
+	{"percent":0.649351, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":0.974026, "pitch class":"B", "voice":"Basso"},
+	{"percent":16.2338, "pitch class":"C", "voice":"Tenore"},
+	{"percent":1.94805, "pitch class":"C♯", "voice":"Tenore"},
+	{"percent":14.6104, "pitch class":"D", "voice":"Tenore"},
+	{"percent":12.3377, "pitch class":"E", "voice":"Tenore"},
+	{"percent":0.649351, "pitch class":"F", "voice":"Tenore"},
+	{"percent":2.11039, "pitch class":"G", "voice":"Tenore"},
+	{"percent":0.324675, "pitch class":"G♯", "voice":"Tenore"},
+	{"percent":16.7208, "pitch class":"A", "voice":"Tenore"},
+	{"percent":14.2857, "pitch class":"B", "voice":"Tenore"},
+	{"percent":0.324675, "pitch class":"C", "voice":"Alto"},
+	{"percent":3.40909, "pitch class":"D", "voice":"Alto"},
+	{"percent":33.1169, "pitch class":"E", "voice":"Alto"},
+	{"percent":7.62987, "pitch class":"F", "voice":"Alto"},
+	{"percent":1.2987, "pitch class":"F♯", "voice":"Alto"},
+	{"percent":15.9091, "pitch class":"G", "voice":"Alto"},
+	{"percent":1.2987, "pitch class":"G♯", "voice":"Alto"},
+	{"percent":16.8831, "pitch class":"A", "voice":"Alto"},
+	{"percent":16.3961, "pitch class":"C", "voice":"Quinto"},
+	{"percent":1.94805, "pitch class":"C♯", "voice":"Quinto"},
+	{"percent":3.8961, "pitch class":"D", "voice":"Quinto"},
+	{"percent":6.81818, "pitch class":"E", "voice":"Quinto"},
+	{"percent":0.974026, "pitch class":"F", "voice":"Quinto"},
+	{"percent":1.62338, "pitch class":"G", "voice":"Quinto"},
+	{"percent":9.74026, "pitch class":"G♯", "voice":"Quinto"},
+	{"percent":29.7078, "pitch class":"A", "voice":"Quinto"},
+	{"percent":1.2987, "pitch class":"B♭", "voice":"Quinto"},
+	{"percent":14.6104, "pitch class":"B", "voice":"Quinto"},
+	{"percent":8.11688, "pitch class":"C", "voice":"Canto"},
+	{"percent":9.09091, "pitch class":"C♯", "voice":"Canto"},
+	{"percent":9.74026, "pitch class":"D", "voice":"Canto"},
+	{"percent":21.4286, "pitch class":"E", "voice":"Canto"},
+	{"percent":1.2987, "pitch class":"F", "voice":"Canto"},
+	{"percent":0.649351, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":7.14286, "pitch class":"G", "voice":"Canto"},
+	{"percent":2.5974, "pitch class":"G♯", "voice":"Canto"},
+	{"percent":12.6623, "pitch class":"A", "voice":"Canto"},
+	{"percent":0.649351, "pitch class":"B♭", "voice":"Canto"},
+	{"percent":12.987, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Trm0302a =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0302a},
+	"title": "Duration-weighted pitch-class distribution for Trm0302a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Quinto", "Alto", "Tenore", "Basso"],
+				"range": ["#e49689", "#e3f5f8", "#f4c6a1", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"A", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0302a', vega_Trm0302a);
+</script>

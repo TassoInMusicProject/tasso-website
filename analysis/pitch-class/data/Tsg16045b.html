@@ -1,0 +1,86 @@
+<div id="id_Tsg16045b"></div>
+
+<script>
+var data_Tsg16045b =
+[
+	{"percent":34.1121, "pitch class":"C", "voice":"Basso"},
+	{"percent":35.9813, "pitch class":"D", "voice":"Basso"},
+	{"percent":0.934579, "pitch class":"E♭", "voice":"Basso"},
+	{"percent":8.8785, "pitch class":"E", "voice":"Basso"},
+	{"percent":25.2336, "pitch class":"F", "voice":"Basso"},
+	{"percent":0.934579, "pitch class":"F♯", "voice":"Basso"},
+	{"percent":17.2897, "pitch class":"G", "voice":"Basso"},
+	{"percent":28.972, "pitch class":"A", "voice":"Basso"},
+	{"percent":24.2991, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":10.2804, "pitch class":"C", "voice":"Tenore"},
+	{"percent":0.934579, "pitch class":"C♯", "voice":"Tenore"},
+	{"percent":16.3551, "pitch class":"D", "voice":"Tenore"},
+	{"percent":33.6449, "pitch class":"E", "voice":"Tenore"},
+	{"percent":41.1215, "pitch class":"F", "voice":"Tenore"},
+	{"percent":4.6729, "pitch class":"F♯", "voice":"Tenore"},
+	{"percent":25.7009, "pitch class":"G", "voice":"Tenore"},
+	{"percent":1.86916, "pitch class":"G♯", "voice":"Tenore"},
+	{"percent":32.243, "pitch class":"A", "voice":"Tenore"},
+	{"percent":9.81308, "pitch class":"B♭", "voice":"Tenore"},
+	{"percent":0.934579, "pitch class":"B", "voice":"Tenore"},
+	{"percent":28.972, "pitch class":"C", "voice":"Canto"},
+	{"percent":10.7477, "pitch class":"C♯", "voice":"Canto"},
+	{"percent":33.1776, "pitch class":"D", "voice":"Canto"},
+	{"percent":8.41121, "pitch class":"E", "voice":"Canto"},
+	{"percent":10.7477, "pitch class":"F", "voice":"Canto"},
+	{"percent":1.86916, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":23.3645, "pitch class":"G", "voice":"Canto"},
+	{"percent":38.785, "pitch class":"A", "voice":"Canto"},
+	{"percent":22.8972, "pitch class":"B♭", "voice":"Canto"},
+	{"percent":5.14019, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Tsg16045b =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tsg16045b},
+	"title": "Duration-weighted pitch-class distribution for Tsg16045b ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Tenore", "Basso"],
+				"range": ["#e49689", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"A", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tsg16045b', vega_Tsg16045b);
+</script>

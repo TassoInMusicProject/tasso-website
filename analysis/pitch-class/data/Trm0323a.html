@@ -1,0 +1,89 @@
+<div id="id_Trm0323a"></div>
+
+<script>
+var data_Trm0323a =
+[
+	{"percent":28.5714, "pitch class":"C", "voice":"Basso"},
+	{"percent":4.7619, "pitch class":"C♯", "voice":"Basso"},
+	{"percent":38.8889, "pitch class":"D", "voice":"Basso"},
+	{"percent":4.7619, "pitch class":"E♭", "voice":"Basso"},
+	{"percent":1.5873, "pitch class":"E", "voice":"Basso"},
+	{"percent":25.3968, "pitch class":"F", "voice":"Basso"},
+	{"percent":4.7619, "pitch class":"F♯", "voice":"Basso"},
+	{"percent":39.6825, "pitch class":"G", "voice":"Basso"},
+	{"percent":3.1746, "pitch class":"G♯", "voice":"Basso"},
+	{"percent":18.254, "pitch class":"A", "voice":"Basso"},
+	{"percent":18.254, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":3.1746, "pitch class":"B", "voice":"Basso"},
+	{"percent":15.0794, "pitch class":"C", "voice":"Canto Secondo"},
+	{"percent":20.6349, "pitch class":"D", "voice":"Canto Secondo"},
+	{"percent":3.1746, "pitch class":"E♭", "voice":"Canto Secondo"},
+	{"percent":1.5873, "pitch class":"E", "voice":"Canto Secondo"},
+	{"percent":17.4603, "pitch class":"F", "voice":"Canto Secondo"},
+	{"percent":11.1111, "pitch class":"F♯", "voice":"Canto Secondo"},
+	{"percent":47.619, "pitch class":"G", "voice":"Canto Secondo"},
+	{"percent":42.8571, "pitch class":"A", "voice":"Canto Secondo"},
+	{"percent":22.2222, "pitch class":"B♭", "voice":"Canto Secondo"},
+	{"percent":3.1746, "pitch class":"B", "voice":"Canto Secondo"},
+	{"percent":23.0159, "pitch class":"C", "voice":"Canto Primo"},
+	{"percent":3.1746, "pitch class":"C♯", "voice":"Canto Primo"},
+	{"percent":31.746, "pitch class":"D", "voice":"Canto Primo"},
+	{"percent":6.34921, "pitch class":"E♭", "voice":"Canto Primo"},
+	{"percent":17.4603, "pitch class":"E", "voice":"Canto Primo"},
+	{"percent":21.4286, "pitch class":"F", "voice":"Canto Primo"},
+	{"percent":7.14286, "pitch class":"F♯", "voice":"Canto Primo"},
+	{"percent":12.6984, "pitch class":"G", "voice":"Canto Primo"},
+	{"percent":32.5397, "pitch class":"A", "voice":"Canto Primo"},
+	{"percent":27.7778, "pitch class":"B♭", "voice":"Canto Primo"},
+	{"percent":12.6984, "pitch class":"B", "voice":"Canto Primo"}
+]
+;
+
+var vega_Trm0323a =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0323a},
+	"title": "Duration-weighted pitch-class distribution for Trm0323a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto Primo", "Canto Secondo", "Basso"],
+				"range": ["#e49689", "#d67365", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0323a', vega_Trm0323a);
+</script>

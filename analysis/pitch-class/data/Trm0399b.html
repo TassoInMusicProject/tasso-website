@@ -1,0 +1,76 @@
+<div id="id_Trm0399b"></div>
+
+<script>
+var data_Trm0399b =
+[
+	{"percent":46.1538, "pitch class":"C", "voice":"B.C."},
+	{"percent":29.4872, "pitch class":"D", "voice":"B.C."},
+	{"percent":5.12821, "pitch class":"E♭", "voice":"B.C."},
+	{"percent":7.69231, "pitch class":"E", "voice":"B.C."},
+	{"percent":50, "pitch class":"F", "voice":"B.C."},
+	{"percent":2.5641, "pitch class":"F♯", "voice":"B.C."},
+	{"percent":37.1795, "pitch class":"G", "voice":"B.C."},
+	{"percent":23.0769, "pitch class":"A", "voice":"B.C."},
+	{"percent":34.6154, "pitch class":"B♭", "voice":"B.C."},
+	{"percent":7.69231, "pitch class":"B", "voice":"B.C."},
+	{"percent":42.3077, "pitch class":"C", "voice":" "},
+	{"percent":23.0769, "pitch class":"D", "voice":" "},
+	{"percent":5.12821, "pitch class":"E♭", "voice":" "},
+	{"percent":8.97436, "pitch class":"E", "voice":" "},
+	{"percent":50, "pitch class":"F", "voice":" "},
+	{"percent":5.12821, "pitch class":"F♯", "voice":" "},
+	{"percent":38.4615, "pitch class":"G", "voice":" "},
+	{"percent":25.641, "pitch class":"A", "voice":" "},
+	{"percent":33.3333, "pitch class":"B♭", "voice":" "},
+	{"percent":6.41026, "pitch class":"B", "voice":" "}
+]
+;
+
+var vega_Trm0399b =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0399b},
+	"title": "Duration-weighted pitch-class distribution for Trm0399b ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": [" ", "B.C."],
+				"range": ["black", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"F", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0399b', vega_Trm0399b);
+</script>

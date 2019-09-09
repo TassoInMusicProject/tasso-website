@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $scoredir = "../../../tasso-scores";
+my $datadir = "data";
+
+my $pccount = `which pccount`;
+chomp $pccount;
+die "Cannot find pccount" if $pccount =~ /^\s*$/;
+
+my @files = glob("$scoredir/*/kern/*.krn");
+
+`mkdir -p $datadir`;
+
+foreach my $file (@files) {
+	processFile($file);
+}
+
+
+sub processFile {
+	my ($file) = @_;
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	close FILE;
+	my $complete = "N";
+	foreach my $line (@contents) {
+		if ($line =~ /^\!\!\!complete:\s*(.*)\s*/) {
+			$complete = $1;
+			if ($complete =~ /Y/i) {
+				last;
+			} else {
+				# ignore since not complete
+				return;
+			}
+		}
+	}
+	return if $complete !~ /Y/i;
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.krn$//;
+	my $id = $base;
+	$id =~ s/-.*//;
+	if (!-r "$datadir/$id.html") {
+		print STDERR "Creating data $datadir/$base.html\n";
+		`$pccount -h $file > $datadir/$id.html`;
+	}
+}
+
+
+
+

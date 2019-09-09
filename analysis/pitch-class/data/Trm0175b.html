@@ -1,0 +1,84 @@
+<div id="id_Trm0175b"></div>
+
+<script>
+var data_Trm0175b =
+[
+	{"percent":37.6812, "pitch class":"C", "voice":"Basso"},
+	{"percent":10.352, "pitch class":"D", "voice":"Basso"},
+	{"percent":3.72671, "pitch class":"E", "voice":"Basso"},
+	{"percent":26.294, "pitch class":"F", "voice":"Basso"},
+	{"percent":0.828157, "pitch class":"F♯", "voice":"Basso"},
+	{"percent":22.1532, "pitch class":"G", "voice":"Basso"},
+	{"percent":19.4617, "pitch class":"A", "voice":"Basso"},
+	{"percent":16.1491, "pitch class":"B♭", "voice":"Basso"},
+	{"percent":1.65631, "pitch class":"B", "voice":"Basso"},
+	{"percent":14.0787, "pitch class":"C", "voice":"Tenore"},
+	{"percent":20.4969, "pitch class":"D", "voice":"Tenore"},
+	{"percent":1.24224, "pitch class":"E♭", "voice":"Tenore"},
+	{"percent":30.8489, "pitch class":"E", "voice":"Tenore"},
+	{"percent":46.9979, "pitch class":"F", "voice":"Tenore"},
+	{"percent":0.828157, "pitch class":"F♯", "voice":"Tenore"},
+	{"percent":18.8406, "pitch class":"G", "voice":"Tenore"},
+	{"percent":13.2505, "pitch class":"A", "voice":"Tenore"},
+	{"percent":2.48447, "pitch class":"B♭", "voice":"Tenore"},
+	{"percent":2.07039, "pitch class":"B", "voice":"Tenore"},
+	{"percent":48.2402, "pitch class":"C", "voice":"Canto"},
+	{"percent":0.828157, "pitch class":"C♯", "voice":"Canto"},
+	{"percent":19.8758, "pitch class":"D", "voice":"Canto"},
+	{"percent":4.14079, "pitch class":"E", "voice":"Canto"},
+	{"percent":9.10973, "pitch class":"F", "voice":"Canto"},
+	{"percent":18.6335, "pitch class":"G", "voice":"Canto"},
+	{"percent":31.2629, "pitch class":"A", "voice":"Canto"},
+	{"percent":17.1843, "pitch class":"B♭", "voice":"Canto"},
+	{"percent":3.10559, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Trm0175b =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0175b},
+	"title": "Duration-weighted pitch-class distribution for Trm0175b ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Tenore", "Basso"],
+				"range": ["#e49689", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"F", "percent":82.4017}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0175b', vega_Trm0175b);
+</script>

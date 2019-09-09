@@ -13,6 +13,14 @@
 	<!-- page.aton is disabled "{{page.aton}}" -->
 {% endif %}
 
+{% if page.vega-lite == true %}
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.4.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@5"></script>
+{% else %}
+	<!-- page.vegalite is disabled "{{page.vegalite}}" -->
+{% endif %}
+
 
 
 {% if page.loadjs == true %}

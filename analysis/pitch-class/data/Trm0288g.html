@@ -1,0 +1,79 @@
+<div id="id_Trm0288g"></div>
+
+<script>
+var data_Trm0288g =
+[
+	{"percent":19.5312, "pitch class":"C", "voice":"Basso"},
+	{"percent":36.7188, "pitch class":"D", "voice":"Basso"},
+	{"percent":10.1562, "pitch class":"E", "voice":"Basso"},
+	{"percent":11.7188, "pitch class":"F", "voice":"Basso"},
+	{"percent":42.1875, "pitch class":"G", "voice":"Basso"},
+	{"percent":14.8438, "pitch class":"A", "voice":"Basso"},
+	{"percent":11.7188, "pitch class":"B", "voice":"Basso"},
+	{"percent":23.8281, "pitch class":"C", "voice":"Tenore"},
+	{"percent":20.3125, "pitch class":"D", "voice":"Tenore"},
+	{"percent":8.59375, "pitch class":"E", "voice":"Tenore"},
+	{"percent":4.29688, "pitch class":"F", "voice":"Tenore"},
+	{"percent":11.7188, "pitch class":"F♯", "voice":"Tenore"},
+	{"percent":30.4688, "pitch class":"G", "voice":"Tenore"},
+	{"percent":26.5625, "pitch class":"A", "voice":"Tenore"},
+	{"percent":26.5625, "pitch class":"B", "voice":"Tenore"},
+	{"percent":23.8281, "pitch class":"C", "voice":"Canto"},
+	{"percent":20.3125, "pitch class":"D", "voice":"Canto"},
+	{"percent":8.59375, "pitch class":"E", "voice":"Canto"},
+	{"percent":4.29688, "pitch class":"F", "voice":"Canto"},
+	{"percent":11.7188, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":27.3438, "pitch class":"G", "voice":"Canto"},
+	{"percent":26.5625, "pitch class":"A", "voice":"Canto"},
+	{"percent":29.6875, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Trm0288g =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0288g},
+	"title": "Duration-weighted pitch-class distribution for Trm0288g ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "D", "E", "F", "F♯", "G", "A", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Tenore", "Basso"],
+				"range": ["#e49689", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0288g', vega_Trm0288g);
+</script>

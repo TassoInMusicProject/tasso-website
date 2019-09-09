@@ -26,7 +26,18 @@ table.listing td:first-child {
 
 </style>
 
-<h2> Music analyses </h2>
+<h2> Analytic tools </h2>
+
+This page lists tools for genre and cross-genre analysis of music from
+the Tasso in Music project.  Some tools link to the work pages with 
+analysis results highlighted in the music notation, while other tools
+are tables of extracted information (occasionally with links to the raw
+data in spreadsheets for further use in analysis).
+
+
+<hr noshade>
+
+<h2> Resources for music analysis </h2>
 
 
 <table class="listing">
@@ -46,14 +57,14 @@ table.listing td:first-child {
 	<a href="homophony">Homophony</a>
 	</td> 
 	<td>
-		Analysis of homophonic textures in each work.
+		Counts and display of homophonic textures.
 	</td>
 </tr>
 
 <table>
 	
 
-<h2> Music &amp; text analyses </h2>
+<h2> Resources for music &amp; text analysis </h2>
 
 <table class="listing">
 
@@ -71,7 +82,7 @@ table.listing td:first-child {
 	<a href="melisma">Melismas</a>
 	</td> 
 	<td>
-		Analysis of melismas in each work.
+		Counts and display of homophonic textures.
 	</td>
 </tr>
 

@@ -94,7 +94,7 @@ td.right:after {
 <tr style="width:100%;">
 <td style="width:600px;">
 
-<table style="width:600px; display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top;">
+<table style="width:600px; display:inline-block; margin-bottom:50px; padding-left:20px; padding-right:20px; vertical-align:top;">
 
 <tr>
 	<td class="right">
@@ -187,7 +187,6 @@ td.right:after {
 </table>
 
 <hr noshade>
-<br/>
 
 EOT
 }

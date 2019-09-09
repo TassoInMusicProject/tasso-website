@@ -26,7 +26,7 @@ table.listing td:first-child {
 
 </style>
 
-<h2> Music analysis </h2>
+<h2> Music analyses </h2>
 
 
 <table class="listing">
@@ -53,7 +53,7 @@ table.listing td:first-child {
 <table>
 	
 
-<h2> Music &amp; text analysis </h2>
+<h2> Music &amp; text analyses </h2>
 
 <table class="listing">
 

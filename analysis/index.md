@@ -82,7 +82,7 @@ data in spreadsheets for further use in analysis).
 	<a href="melisma">Melismas</a>
 	</td> 
 	<td>
-		Counts and display of homophonic textures.
+		Counts and display of melismas.
 	</td>
 </tr>
 

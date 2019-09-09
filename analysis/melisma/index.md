@@ -14134,7 +14134,7 @@ div#form {
 		<b>Composer:</b>
 	</td>
 	<td class="composer">
-		Luzzaschi. Luzzasco / <span class="date">1576</span>
+		Luzzaschi, Luzzasco / <span class="date">1576</span>
 	</td>
 </tr>
 
@@ -14578,7 +14578,7 @@ div#form {
 		<b>Composer:</b>
 	</td>
 	<td class="composer">
-		Luzzaschi. Luzzasco / <span class="date">1604</span>
+		Luzzaschi, Luzzasco / <span class="date">1604</span>
 	</td>
 </tr>
 
@@ -22137,7 +22137,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+		<i>Ho visto al pianto mio</i> 
 	</td>
 </tr>
 
@@ -22211,7 +22211,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+		<i>Ho visto al pianto mio</i> 
 	</td>
 </tr>
 
@@ -22285,7 +22285,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+		<i>Ho visto al pianto mio</i> 
 	</td>
 </tr>
 
@@ -22359,7 +22359,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+		<i>Ho visto al pianto mio</i> 
 	</td>
 </tr>
 
@@ -22433,7 +22433,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Essendo io fanciulletto, sì che a pena</i> 
+		<i>Essendo io fanciulletto sì che a pena</i> 
 	</td>
 </tr>
 
@@ -22507,7 +22507,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Di questo parlo, ahi lasso! Vissi a questa</i> 
+		<i>Di questa parlo, ahi lasso! Vissi a questa</i> 
 	</td>
 </tr>
 
@@ -22581,7 +22581,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ma mentre io fea rapina di animali (Aminta 1/2)</i> 
+		<i>Ma mentre io fea rapina di animali</i> 
 	</td>
 </tr>
 
@@ -22655,7 +22655,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>E bevea da' suoi lumi (Aminta 1/2)</i> 
+		<i>E bevea da' suoi lumi</i> 
 	</td>
 </tr>
 
@@ -22803,7 +22803,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ma la mia bella Silvia disse, "Taci</i> 
+		<i>Ma la mia bella Silvia disse: "Taci</i> 
 	</td>
 </tr>
 
@@ -23247,7 +23247,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ma mentre il cor scendeva</i> 
+		<i>Ma mentre al cor scendeva</i> 
 	</td>
 </tr>
 
@@ -23321,7 +23321,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Picciola è l'ape e fa col picciol morso (Aminta II/1)</i> 
+		<i>Picciola è l'ape e fa col picciol morso</i> 
 	</td>
 </tr>
 
@@ -23395,7 +23395,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vorrò veder ciò che Tirsi avrà fatto (Aminta II/3)</i> 
+		<i>Vorrò veder ciò che Tirsi avrà fatto</i> 
 	</td>
 </tr>
 
@@ -23543,7 +23543,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Nove, Aminta, t'annuncio di conforto (Aminta II/3)</i> 
+		<i>Nove, Aminta, t'annuncio di conforto</i> 
 	</td>
 </tr>
 
@@ -23691,7 +23691,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+		<i>Qual ardir mi bisogna, e 'ncotra a cui?</i> 
 	</td>
 </tr>
 
@@ -23765,7 +23765,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+		<i>Bisogna a maggior prova ardir più grande</i> 
 	</td>
 </tr>
 
@@ -23839,7 +23839,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Orsù scuoprimi il tutto. Odi. Di' tosto (Aminta II/3)</i> 
+		<i>Orsù scuoprimi il tutto. Odi. Di' tosto</i> 
 	</td>
 </tr>
 
@@ -23913,7 +23913,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Orsù scuoprimi il tutto. Odi. Di' tosto. (Aminta 2/3)</i> 
+		<i>Orsù scuoprimi il tutto. Odi. Di' tosto</i> 
 	</td>
 </tr>
 
@@ -23987,7 +23987,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dura conclusion, che tutte affosca (Aminta II/3)</i> 
+		<i>Dura conclusion, che tutte affosca</i> 
 	</td>
 </tr>
 
@@ -24061,7 +24061,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>S'a mio senno farai, sarai felice (Aminta II/3)</i> 
+		<i>S'a mio senno farai, sarai felice</i> 
 	</td>
 </tr>
 
@@ -24135,7 +24135,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Non sarà dunque ver ch'in quanto io posso (Aminta II/3)</i> 
+		<i>Non sarà dunque ver ch'in quanto io posso</i> 
 	</td>
 </tr>
 
@@ -24209,7 +24209,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dunque tu l'ameresti a suo dispetto (Aminta II/3)</i> 
+		<i>Dunque tu l'ameresti a suo dispetto</i> 
 	</td>
 </tr>
 
@@ -24283,7 +24283,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Perché dunque non osi oltra sua voglia (Aminta II/3)</i> 
+		<i>Perché dunque non osi oltre sua voglia</i> 
 	</td>
 </tr>
 
@@ -24357,7 +24357,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Già per lungo uso a ragionar d'amore (Aminta II/3)</i> 
+		<i>Già per lungo uso a ragionar d'amore</i> 
 	</td>
 </tr>
 
@@ -24431,7 +24431,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dunque andar non vogliamo? Andare io voglio (Aminta II/3)</i> 
+		<i>Dunque andar non vogliamo? Andare io voglio</i> 
 	</td>
 </tr>
 
@@ -24505,7 +24505,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Credi tu dunque, sciocco, che mai Dafne (Aminta II/3)</i> 
+		<i>Credi tu dunque, sciocco, che mai Dafne</i> 
 	</td>
 </tr>
 
@@ -24579,7 +24579,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>E s'ella vuol che 'l tuo diletto sia (Aminta II/3)</i> 
+		<i>E s'ella vuol che 'l tuo diletto sia</i> 
 	</td>
 </tr>
 
@@ -24653,7 +24653,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ecco tu chiedi pur quella certezza (Aminta II/3)</i> 
+		<i>Ecco tu chiedi pur quella certezza</i> 
 	</td>
 </tr>
 
@@ -24727,7 +24727,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Tu taci: tu sei vinto. Ora confessa (Aminta II/3)</i> 
+		<i>Tu taci: tu sei vinto. Ora confessa</i> 
 	</td>
 </tr>
 
@@ -24801,7 +24801,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dispietata pietate (Aminta III/2)</i> 
+		<i>Dispietata pietate</i> 
 	</td>
 </tr>
 
@@ -24875,7 +24875,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dolor che sì mi crucii (Aminta 3/2)</i> 
+		<i>Dolor che sì mi crucii</i> 
 	</td>
 </tr>
 
@@ -24949,7 +24949,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dolor che sì mi crucii (Aminta III/2)</i> 
+		<i>Dolor che sì mi crucii</i> 
 	</td>
 </tr>
 
@@ -25097,7 +25097,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Bello e dolce morir fu certo allora (Aminta III/2)</i> 
+		<i>Bello e dolce morir fu certo allora</i> 
 	</td>
 </tr>
 
@@ -25171,7 +25171,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>O sfortunato Aminta</i> 
+		<i>Misero Aminta!</i> 
 	</td>
 </tr>
 
@@ -25319,7 +25319,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Pastor di che piangete? (Aminta IV/2)</i> 
+		<i>Pastor di che piangete?</i> 
 	</td>
 </tr>
 
@@ -25393,7 +25393,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ciò che morte rallenta, Amor restringi (Aminta IV/2)</i> 
+		<i>Ciò che morte rallenta, Amor restringi</i> 
 	</td>
 </tr>
 
@@ -25467,7 +25467,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Non sono ire là su: gli umani ingegni (Aminta IV/2)</i> 
+		<i>Non sono ire la sù: gli umani ingegni</i> 
 	</td>
 </tr>
 
@@ -25541,7 +25541,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>O fortunato Aminta, o te felice</i> 
+		<i>Oh fortunato Aminta, oh te felice</i> 
 	</td>
 </tr>
 
@@ -25615,7 +25615,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ma come Silvia il riconobbe e vide</i> 
+		<i>Ma come Silvia li riconobbe e vide</i> 
 	</td>
 </tr>
 
@@ -25689,7 +25689,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Non so se il molto amaro (Aminta V/1)</i> 
+		<i>Non so se il molto amaro</i> 
 	</td>
 </tr>
 
@@ -25763,7 +25763,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Di che cantar degg'io (Ecloghe I/89)</i> 
+		<i>Di che cantar degg'io</i> 
 	</td>
 </tr>
 
@@ -25837,7 +25837,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Come tenera rosa (i.e., "Ché qual tenera rosa," Ecloghe II/73)</i> 
+		<i>Ché qual tenera rosa</i> 
 	</td>
 </tr>
 
@@ -25911,7 +25911,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>"Lasso," dicea, " perché venisti Amore" (Rinaldo V/16)</i> 
+		<i>Lasso, dicea, "Perché venisti Amore</i> 
 	</td>
 </tr>
 
@@ -25985,7 +25985,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Tu perfido Signor, tu disleale (Rinaldo V/18)</i> 
+		<i>Tu perfido signor, tu disleale</i> 
 	</td>
 </tr>
 
@@ -26059,7 +26059,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ahi lacrime! ahi dolore (Re Torrismondo V/6)</i> 
+		<i>Ahi lagrime! ahi dolore</i> 
 	</td>
 </tr>
 
@@ -26133,7 +26133,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>O Musa, tu che di caduchi allori (Gerusalemme I/2)</i> 
+		<i>O musa, tu che di caduchi allori</i> 
 	</td>
 </tr>
 
@@ -26207,7 +26207,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>O Musa, tu che di caduchi Allori (Gerusalemme I/2)</i> 
+		<i>O musa, tu che di caduchi allori</i> 
 	</td>
 </tr>
 
@@ -26281,7 +26281,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Sai che là corre il mondo ove più versi (Gerusalemme I/3)</i> 
+		<i>Sai che là corre il mondo ove più versi</i> 
 	</td>
 </tr>
 
@@ -26355,7 +26355,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dunque ove tu, Signor, di mille rivi (Gerusalemme III/8)</i> 
+		<i>Dunque, ove tu signor di mille rivi</i> 
 	</td>
 </tr>
 
@@ -26429,7 +26429,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Era la notte, e'l suo stellato velo (Gerusalemme VI/103)</i> 
+		<i>Era la notte e 'l suo stellato velo</i> 
 	</td>
 </tr>
 
@@ -26503,7 +26503,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Poi rimirando il campo, ella dicea (Gerusalemme VI/104)</i> 
+		<i>Poi rimirando il campo ella dicea</i> 
 	</td>
 </tr>
 
@@ -26577,7 +26577,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Raccogliete me dunque: e in voi si trove (Gerusalemme VI/105)</i> 
+		<i>Raccogliete me dunque: e in voi si trove</i> 
 	</td>
 </tr>
 
@@ -26651,7 +26651,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Sovente, all'hor ch'in su gli estivi ardori (i.e., "Sovente, allor che su gli estivi ardori," Gerusalemme VII/19)</i> 
+		<i>Sovente, allor che su gli estivi ardori</i> 
 	</td>
 </tr>
 
@@ -26725,7 +26725,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>E diceva piangendo: "in voi serbate (i.e., Indi dicea piangendo: "in voi serbate, Gerusalemme VII/20)</i> 
+		<i>Indi dicea piangendo: "In voi serbate</i> 
 	</td>
 </tr>
 
@@ -26799,7 +26799,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Forse avverrà, se'l ciel benigno ascolta (Gerusalemme VII/21)</i> 
+		<i>Forse avverrà se 'l ciel benigno ascolta</i> 
 	</td>
 </tr>
 
@@ -26873,7 +26873,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vivrò fra i miei tormenti e le mie cure (Gerusalemme XII/77)</i> 
+		<i>Vivrò fra i miei tormenti e le mie cure</i> 
 	</td>
 </tr>
 
@@ -26947,7 +26947,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ma dove, o lasso me!, dove restaro (Gerusalemme XII/78)</i> 
+		<i>Ma dove, oh lasso, me! dove restaro</i> 
 	</td>
 </tr>
 
@@ -27021,7 +27021,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Io pur verrò là dove sete; e voi (Gerusalemme XII/79)</i> 
+		<i>Io verrò là dove sete; e voi</i> 
 	</td>
 </tr>
 
@@ -27095,7 +27095,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Giunto a la tomba ove al suo spirto vivo (Gerusalemme XII/96)</i> 
+		<i>Giunto a la tomba ove al suo spirto vivo</i> 
 	</td>
 </tr>
 
@@ -27169,7 +27169,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Giunto a la tomba (Gerusalemme XII, 96)</i> 
+		<i>Giunto a la tomba ove al suo spirto vivo</i> 
 	</td>
 </tr>
 
@@ -27243,7 +27243,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Non di morte sei tu ma di vivaci (Gerusalemme XII/97)</i> 
+		<i>Non di morte sei tu ma di vivaci</i> 
 	</td>
 </tr>
 
@@ -27317,7 +27317,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Non di morte sei tu, ma di vivaci (Gerusalemme XII, 97)</i> 
+		<i>Non di morte sei tu ma di vivaci</i> 
 	</td>
 </tr>
 
@@ -27391,7 +27391,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Dalli lor tu ché, se mai gli occhi gira (Gerusalemme XII, 98)</i> 
+		<i>Dalli lor tu ché, se mai gli occhi gira</i> 
 	</td>
 </tr>
 
@@ -27465,7 +27465,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ed amando morrò: felice giorno (Gerusalemme XII, 98)</i> 
+		<i>Ed amando morrò: felice giorno</i> 
 	</td>
 </tr>
 
@@ -27539,7 +27539,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Usciva omai del molle e fresco grembo (i.e., "Usciva omai dal molle e fresco grembo," Gerusalemme XIV/1)</i> 
+		<i>Usciva omai dal molle e fresco grembo</i> 
 	</td>
 </tr>
 
@@ -27613,7 +27613,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>O giovinetti, mentre aprile e maggio (Gerusalemme XIV/62)</i> 
+		<i>O giovinetti mentre aprile e maggio</i> 
 	</td>
 </tr>
 
@@ -27687,7 +27687,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i></i> 
+		<i>Vezzosi augelli infra le verdi fronde</i> 
 	</td>
 </tr>
 
@@ -27761,7 +27761,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i></i> 
+		<i>Vezzosi augelli infra le verdi fronde</i> 
 	</td>
 </tr>
 
@@ -27835,7 +27835,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vola fra gli altri un che le piume ha sparte (Gerusalemme XVI/13)</i> 
+		<i>Vola fra gli altri un che le piume ha sparte</i> 
 	</td>
 </tr>
 
@@ -27909,7 +27909,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>"Deh mira," egli cantò, "spuntar la rosa (Gerusalemme XVI/14)</i> 
+		<i>Deh mira, egli cantò, "spuntar la rosa</i> 
 	</td>
 </tr>
 
@@ -27983,7 +27983,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Qual Musico gentil, prima che chiara (Gerusalemme XVI/43)</i> 
+		<i>Qual musico gentil prima che chiara</i> 
 	</td>
 </tr>
 
@@ -28057,7 +28057,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i></i> 
+		<i>Qual musico gentil prima che chiara</i> 
 	</td>
 </tr>
 
@@ -28131,7 +28131,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Poi cominciò: non aspettar ch'io prieghi (i.e., Poi cominciò: non aspettar ch'io preghi, Gerusalemme XVI/44)</i> 
+		<i>Poi cominciò: "Non aspettar ch'io preghi</i> 
 	</td>
 </tr>
 
@@ -28205,7 +28205,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Se m'odij, e'n ciò diletto alcun tu senti (i.e., Se m'odii, e in ciò diletto alcun tu senti, Gerusalemme XVI/45)</i> 
+		<i>Se m'odii e in ciò diletto alcun tu senti</i> 
 	</td>
 </tr>
 
@@ -28279,7 +28279,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Aggiungi a quest'ancor quel ch'a maggiore (i.e., Aggiungi a questo ancor quel ch'a maggiore, Gerusalemme, XVI 46)</i> 
+		<i>Aggiungi a questo ancor quel ch'a maggiore</i> 
 	</td>
 </tr>
 
@@ -28353,7 +28353,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Sia pur questa tra le mie frodi, e vaglia (Gerusalemme XVI/47)</i> 
+		<i>Sia questa pur tra le mie frodi, e vaglia</i> 
 	</td>
 </tr>
 
@@ -28427,7 +28427,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Rimanti in pace, io vado: a te non lice</i> 
+		<i>Rimanti in pace: i' vado: a te non lice</i> 
 	</td>
 </tr>
 
@@ -28501,7 +28501,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur, crudel, con quella pace (Gerusalemme XVI/59)</i> 
+		<i>Vattene pur crudel con quella pace</i> 
 	</td>
 </tr>
 
@@ -28575,7 +28575,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur, crudel, con quella pace (Gerusalemme XVI/59)</i> 
+		<i>Vattene pur crudel con quella pace</i> 
 	</td>
 </tr>
 
@@ -28723,7 +28723,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Là tra ̒l sangue e le morti egro giacente (Gerusalemme XVI/60)</i> 
+		<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 </tr>
 
@@ -28797,7 +28797,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Là tra'l sangue e le morti egro giacente (Gerusalemme XVI/60)</i> 
+		<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 </tr>
 
@@ -28871,7 +28871,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 </tr>
 
@@ -28945,7 +28945,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Chiudesti i lumi, Armida: il cielo avaro (Gerusalemme XVI/61)</i> 
+		<i>Chiudesti i lumi Armida: il cielo avaro</i> 
 	</td>
 </tr>
 
@@ -29019,7 +29019,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Chiudesti i lumi, Armida: il Cielo avaro (Gerusalemme XVI/61)</i> 
+		<i>Chiudesti i lumi Armida: il cielo avaro</i> 
 	</td>
 </tr>
 
@@ -29167,7 +29167,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Or che farà? Dee su l'ignuda arena</i> 
 	</td>
 </tr>
 
@@ -29241,7 +29241,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Poi chʼella in sé tornò, deserto e muto (Gerusalemme XVI/63)</i> 
+		<i>Poi ch'ella in sé tornò, deserto e muto</i> 
 	</td>
 </tr>
 
@@ -29463,7 +29463,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Misera Armida, all'hor dovevi</i> 
+		<i>Misera Armida, allor dovevi e degno</i> 
 	</td>
 </tr>
 
@@ -29611,7 +29611,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Misera, non credea ch'a gli occhi miei (Gerusalemme XIX/106)</i> 
+		<i>Misera non credea ch'a gli occhi miei</i> 
 	</td>
 </tr>
 
@@ -29685,7 +29685,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Ma che? squalido e scuro anco mi piaci (i.e., "Ma che? squallido e scuro anco mi piaci,"Gerusalemme XIX/107)</i> 
+		<i>Ma che? squallido e scuro anco mi piaci</i> 
 	</td>
 </tr>
 
@@ -29759,7 +29759,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Piacquele assai che 'n quelle valli ombrose</i> 
 	</td>
 </tr>
 
@@ -29833,7 +29833,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Ah, ma non fia che fra tant'armi e tante</i> 
 	</td>
 </tr>
 
@@ -29907,7 +29907,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Dimostratevi in me, ch'io vi perdono</i> 
 	</td>
 </tr>
 
@@ -29981,7 +29981,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Felice me se nel morir non reco</i> 
 	</td>
 </tr>
 
@@ -30055,7 +30055,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Qui tacque: e stabilito il suo pensiero</i> 
 	</td>
 </tr>
 
@@ -30129,7 +30129,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Si volse Armida e 'l rimirò improvviso</i> 
 	</td>
 </tr>
 
@@ -30203,7 +30203,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>E 'l bel volto e 'l bel seno a la meschina</i> 
 	</td>
 </tr>
 
@@ -30277,7 +30277,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>E con man languidetta il forte braccio</i> 
 	</td>
 </tr>
 
@@ -30351,7 +30351,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>O sempre, e quando parti e quando torni</i> 
 	</td>
 </tr>
 
@@ -30425,7 +30425,7 @@ div#form {
 		<b>Title:</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Così doleasi e con le flebil onde</i> 
 	</td>
 </tr>
 

@@ -4146,10 +4146,10 @@
 @EXTANTVOICES:	5
 @PARTBOOKS:	
 @EXTPARTBOOKS:	
-@OCLEFS:	
-@OMENSURATION:	
-@OKEYSIG:	
-@FINAL:		
+@OCLEFS:	C1,C1,C3,C4,F4
+@OMENSURATION:	C
+@OKEYSIG:	b-
+@FINAL:	G
 @TIMPEDITOR:	Ricciardi, Emiliano
 @NOTE:		
 @@END:		SETTING
@@ -6464,7 +6464,7 @@
 @CATALOGNUM:	Trm0367a
 @RIMETITLE:	Aminta poi ch'a Filli non dispiacque
 @SOLERTI:	367
-@COMPOSER:	Luzzaschi. Luzzasco
+@COMPOSER:	Luzzaschi, Luzzasco
 @PRINCEPSTITLE:	Il secondo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -6490,7 +6490,7 @@
 @CATALOGNUM:	Trm0417a
 @RIMETITLE:	Dolce mia fiamma, dolce
 @SOLERTI:	417
-@COMPOSER:	Luzzaschi. Luzzasco
+@COMPOSER:	Luzzaschi, Luzzasco
 @PRINCEPSTITLE:	Il quarto libro de madrigali a cinque voci
 @PRINCEPSLOC:	Ferrara
 @NORMLOC:	Ferrara
@@ -6516,7 +6516,7 @@
 @CATALOGNUM:	Trm0378h
 @RIMETITLE:	Nel dolce seno de la bella Clori
 @SOLERTI:	378
-@COMPOSER:	Luzzaschi. Luzzasco
+@COMPOSER:	Luzzaschi, Luzzasco
 @PRINCEPSTITLE:	Il settimo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Venetia
 @NORMLOC:	Venice
@@ -7289,7 +7289,7 @@
 @OCLEFS:	C1,C2,C3,C4,C4,F4
 @OMENSURATION:	C
 @OKEYSIG:	-
-@FINAL:	F
+@FINAL:	D
 @TIMPEDITOR:	Coluzzi, Seth
 @NOTE:		
 @@END:		SETTING

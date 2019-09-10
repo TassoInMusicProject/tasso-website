@@ -72,7 +72,7 @@ sub processFile {
 	my $id = $base;
 	$id =~ s/-.*//;
 
-	my $html = `cat $datadir/$id.html`;
+	my $html = `cat $datadir/$id-duration.html`;
 	my $keysig = getKeySig($file);
 	my $clefs = getClefs($file);;
 

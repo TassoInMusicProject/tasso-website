@@ -42,9 +42,9 @@ sub processFile {
 	$base =~ s/\.krn$//;
 	my $id = $base;
 	$id =~ s/-.*//;
-	if (!-r "$datadir/$id.html") {
+	if (!-r "$datadir/$id-duration.html") {
 		print STDERR "Creating data $datadir/$base.html\n";
-		`$pccount -h $file > $datadir/$id.html`;
+		`$pccount -h $file > $datadir/$id-duration.html`;
 	}
 }
 

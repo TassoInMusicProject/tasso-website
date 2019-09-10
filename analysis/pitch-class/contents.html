@@ -4176,6 +4176,224 @@ td.right:after {
 		<b>ID</b>
 	</td>
 	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0059e">Trm0059e</a>
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Composer</b>
+	</td>
+	<td>
+		Dering, Richard / 1620
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Lunge da voi, ben mio</i> (rime 59)
+	</td>
+</tr>
+
+<!--
+
+</table>
+
+</td>
+
+<td>
+
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:100%px;">
+
+-->
+
+<tr>
+	<td class="right">
+		<b>Final</b>
+	</td>
+	<td>
+		G
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Key sig.</b>
+	</td>
+	<td>
+		&#x266e;
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Clefs</b>
+	</td>
+	<td>
+		G2, G2, C2, C4, C4
+	</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+
+</table>
+
+
+
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:100%px;">
+<tr>
+
+	<td>
+		<div id="id_Trm0059e"></div>
+
+<script>
+var data_Trm0059e =
+[
+	{"percent":7.01031, "pitch class":"C", "voice":"Basso"},
+	{"percent":0.412371, "pitch class":"C♯", "voice":"Basso"},
+	{"percent":17.3196, "pitch class":"D", "voice":"Basso"},
+	{"percent":4.94845, "pitch class":"E", "voice":"Basso"},
+	{"percent":2.06186, "pitch class":"F", "voice":"Basso"},
+	{"percent":1.23711, "pitch class":"F♯", "voice":"Basso"},
+	{"percent":33.4021, "pitch class":"G", "voice":"Basso"},
+	{"percent":10.3093, "pitch class":"A", "voice":"Basso"},
+	{"percent":2.47423, "pitch class":"B", "voice":"Basso"},
+	{"percent":5.15464, "pitch class":"C", "voice":"Alto"},
+	{"percent":0.412371, "pitch class":"C♯", "voice":"Alto"},
+	{"percent":12.7835, "pitch class":"D", "voice":"Alto"},
+	{"percent":4.3299, "pitch class":"E", "voice":"Alto"},
+	{"percent":2.26804, "pitch class":"F", "voice":"Alto"},
+	{"percent":0.412371, "pitch class":"F♯", "voice":"Alto"},
+	{"percent":23.7113, "pitch class":"G", "voice":"Alto"},
+	{"percent":10.5155, "pitch class":"A", "voice":"Alto"},
+	{"percent":2.68041, "pitch class":"B", "voice":"Alto"},
+	{"percent":7.01031, "pitch class":"C", "voice":"Canto II"},
+	{"percent":0.412371, "pitch class":"C♯", "voice":"Canto II"},
+	{"percent":2.47423, "pitch class":"D", "voice":"Canto II"},
+	{"percent":5.7732, "pitch class":"E", "voice":"Canto II"},
+	{"percent":2.47423, "pitch class":"F", "voice":"Canto II"},
+	{"percent":2.8866, "pitch class":"F♯", "voice":"Canto II"},
+	{"percent":21.4433, "pitch class":"G", "voice":"Canto II"},
+	{"percent":1.64948, "pitch class":"G♯", "voice":"Canto II"},
+	{"percent":14.0206, "pitch class":"A", "voice":"Canto II"},
+	{"percent":11.5464, "pitch class":"B", "voice":"Canto II"},
+	{"percent":9.07216, "pitch class":"C", "voice":"Canto"},
+	{"percent":4.94845, "pitch class":"C♯", "voice":"Canto"},
+	{"percent":22.6804, "pitch class":"D", "voice":"Canto"},
+	{"percent":8.24742, "pitch class":"E", "voice":"Canto"},
+	{"percent":3.29897, "pitch class":"F", "voice":"Canto"},
+	{"percent":3.29897, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":16.9072, "pitch class":"G", "voice":"Canto"},
+	{"percent":1.64948, "pitch class":"A", "voice":"Canto"},
+	{"percent":4.53608, "pitch class":"B", "voice":"Canto"},
+	{"percent":9.48454, "pitch class":"C", "voice":""},
+	{"percent":0.412371, "pitch class":"C♯", "voice":""},
+	{"percent":21.0309, "pitch class":"D", "voice":""},
+	{"percent":8.24742, "pitch class":"E", "voice":""},
+	{"percent":1.64948, "pitch class":"F", "voice":""},
+	{"percent":4.53608, "pitch class":"G", "voice":""},
+	{"percent":10.7216, "pitch class":"A", "voice":""},
+	{"percent":11.9588, "pitch class":"B", "voice":""}
+]
+;
+
+var vega_Trm0059e =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0059e},
+	"title": "Duration-weighted pitch-class distribution for Trm0059e ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E", "F", "F♯", "G", "G♯", "A", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Canto II", "Alto", "Basso"],
+				"range": ["#e49689", "#d67365", "#f4c6a1", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "percent":100}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0059e', vega_Trm0059e);
+</script>
+
+	</td>
+
+</tr>
+</table>
+
+
+<table style="display:inline-block; margins: auto; padding-left:20px; padding-right:20px; vertical-align:top; max-width:100%px;">
+<tr>
+	<td style="position:relative">
+		<a target="_blank" href="img/Trm0059e.png"><img width="100%" style="width:100%px" src="img/Trm0059e.png"></a>
+		<div id="audio_Trm0059e" style="cursor:pointer;" onclick="PlayAudioFile('Trm0059e', this);" class="play">play</div>
+	</td>
+
+</tr>
+
+</table>
+
+<hr noshade>
+
+
+<style>
+td.right {
+	text-align: right;
+	font-weight: bold;
+}
+td.right:after {
+	content: ":";
+}
+</style>
+
+<table style="width:100%;">
+
+<tr style="width:100%;">
+<td style="width:600px;">
+
+<table style="width:600px; display:inline-block; margin-bottom:50px; padding-left:20px; padding-right:20px; vertical-align:top;">
+
+<tr>
+	<td class="right">
+		<b>ID</b>
+	</td>
+	<td>
 		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0060c">Trm0060c</a>
 	</td>
 </tr>
@@ -15542,7 +15760,7 @@ td.right:after {
 		<b>Final</b>
 	</td>
 	<td>
-		F
+		D
 	</td>
 </tr>
 
@@ -15678,7 +15896,7 @@ var vega_Trm0288h =
 		{"mark": "bar"},
 		{
 			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
-			"data": {"values": [ {"pitch class":"F", "percent":31.6271}]},
+			"data": {"values": [ {"pitch class":"D", "percent":63.2541}]},
 			"encoding": {"text": {"value":"final"}}
 		}
 	]
@@ -22786,7 +23004,7 @@ td.right:after {
 		<b>Composer</b>
 	</td>
 	<td>
-		Luzzaschi. Luzzasco / 1576
+		Luzzaschi, Luzzasco / 1576
 	</td>
 </tr>
 
@@ -39398,7 +39616,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+		<i>Ho visto al pianto mio</i> 
 	</td>
 </tr>
 
@@ -39634,7 +39852,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ho visto al pianto mio (Aminta I/2)</i> 
+		<i>Ho visto al pianto mio</i> 
 	</td>
 </tr>
 
@@ -39837,6 +40055,200 @@ td.right:after {
 		<b>ID</b>
 	</td>
 	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338e">Tam1020338e</a>
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Composer</b>
+	</td>
+	<td>
+		Benedetti, Piero / 1617
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ho visto al pianto mio</i> 
+	</td>
+</tr>
+
+<!--
+
+</table>
+
+</td>
+
+<td>
+
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:100%px;">
+
+-->
+
+<tr>
+	<td class="right">
+		<b>Final</b>
+	</td>
+	<td>
+		G
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Key sig.</b>
+	</td>
+	<td>
+		&#x266d;
+	</td>
+</tr>
+
+<tr>
+	<td class="right">
+		<b>Clefs</b>
+	</td>
+	<td>
+		
+	</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+
+</table>
+
+
+
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:100%px;">
+<tr>
+
+	<td>
+		<div id="id_Tam1020338e"></div>
+
+<script>
+var data_Tam1020338e =
+[
+	{"percent":14.1104, "pitch class":"C", "voice":"B.c."},
+	{"percent":1.22699, "pitch class":"C♯", "voice":"B.c."},
+	{"percent":53.3742, "pitch class":"D", "voice":"B.c."},
+	{"percent":12.2699, "pitch class":"E♭", "voice":"B.c."},
+	{"percent":3.68098, "pitch class":"E", "voice":"B.c."},
+	{"percent":33.1288, "pitch class":"F", "voice":"B.c."},
+	{"percent":11.0429, "pitch class":"F♯", "voice":"B.c."},
+	{"percent":55.8282, "pitch class":"G", "voice":"B.c."},
+	{"percent":3.98773, "pitch class":"A", "voice":"B.c."},
+	{"percent":14.4172, "pitch class":"B♭", "voice":"B.c."},
+	{"percent":7.97546, "pitch class":"B", "voice":"B.c."},
+	{"percent":24.2331, "pitch class":"C", "voice":"Canto"},
+	{"percent":46.6258, "pitch class":"D", "voice":"Canto"},
+	{"percent":12.5767, "pitch class":"E♭", "voice":"Canto"},
+	{"percent":4.90798, "pitch class":"E", "voice":"Canto"},
+	{"percent":8.28221, "pitch class":"F", "voice":"Canto"},
+	{"percent":10.4294, "pitch class":"F♯", "voice":"Canto"},
+	{"percent":31.2883, "pitch class":"G", "voice":"Canto"},
+	{"percent":30.0613, "pitch class":"A", "voice":"Canto"},
+	{"percent":30.3681, "pitch class":"B♭", "voice":"Canto"},
+	{"percent":1.22699, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Tam1020338e =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tam1020338e},
+	"title": "Duration-weighted pitch-class distribution for Tam1020338e ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "percent",
+			"title": "Percent of maximum pitch class",
+			"type": "quantitative",
+			"scale": {"domain": [0, 100]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "B.c."],
+				"range": ["#e49689", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "percent":87.1166}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tam1020338e', vega_Tam1020338e);
+</script>
+
+	</td>
+
+</tr>
+</table>
+
+
+<table style="display:inline-block; margins: auto; padding-left:20px; padding-right:20px; vertical-align:top; max-width:100%px;">
+<tr>
+	<td style="position:relative">
+		<a target="_blank" href="img/Tam1020338e.png"><img width="100%" style="width:100%px" src="img/Tam1020338e.png"></a>
+		<div id="audio_Tam1020338e" style="cursor:pointer;" onclick="PlayAudioFile('Tam1020338e', this);" class="play">play</div>
+	</td>
+
+</tr>
+
+</table>
+
+<hr noshade>
+
+
+<style>
+td.right {
+	text-align: right;
+	font-weight: bold;
+}
+td.right:after {
+	content: ":";
+}
+</style>
+
+<table style="width:100%;">
+
+<tr style="width:100%;">
+<td style="width:600px;">
+
+<table style="width:600px; display:inline-block; margin-bottom:50px; padding-left:20px; padding-right:20px; vertical-align:top;">
+
+<tr>
+	<td class="right">
+		<b>ID</b>
+	</td>
+	<td>
 		<a target="_blank" href="http://tassomusic.org/work/?id=Tam2010724a">Tam2010724a</a>
 	</td>
 </tr>
@@ -39855,7 +40267,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Picciola è l'ape e fa col picciol morso (Aminta II/1)</i> 
+		<i>Picciola è l'ape e fa col picciol morso</i> 
 	</td>
 </tr>
 
@@ -40088,7 +40500,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vorrò veder ciò che Tirsi avrà fatto (Aminta II/3)</i> 
+		<i>Vorrò veder ciò che Tirsi avrà fatto</i> 
 	</td>
 </tr>
 
@@ -40309,7 +40721,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Nove, Aminta, t'annuncio di conforto (Aminta II/3)</i> 
+		<i>Nove, Aminta, t'annuncio di conforto</i> 
 	</td>
 </tr>
 
@@ -40534,7 +40946,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+		<i>Qual ardir mi bisogna, e 'ncotra a cui?</i> 
 	</td>
 </tr>
 
@@ -40753,7 +41165,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Qual ardir mi bisogna, e 'ncontra a cui? (Aminta II/3)</i> 
+		<i>Bisogna a maggior prova ardir più grande</i> 
 	</td>
 </tr>
 
@@ -40975,7 +41387,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Orsù scuoprimi il tutto. Odi. Di' tosto (Aminta II/3)</i> 
+		<i>Orsù scuoprimi il tutto. Odi. Di' tosto</i> 
 	</td>
 </tr>
 
@@ -41190,7 +41602,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Dura conclusion, che tutte affosca (Aminta II/3)</i> 
+		<i>Dura conclusion, che tutte affosca</i> 
 	</td>
 </tr>
 
@@ -41416,7 +41828,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>S'a mio senno farai, sarai felice (Aminta II/3)</i> 
+		<i>S'a mio senno farai, sarai felice</i> 
 	</td>
 </tr>
 
@@ -41639,7 +42051,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Non sarà dunque ver ch'in quanto io posso (Aminta II/3)</i> 
+		<i>Non sarà dunque ver ch'in quanto io posso</i> 
 	</td>
 </tr>
 
@@ -41861,7 +42273,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Dunque tu l'ameresti a suo dispetto (Aminta II/3)</i> 
+		<i>Dunque tu l'ameresti a suo dispetto</i> 
 	</td>
 </tr>
 
@@ -42084,7 +42496,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Perché dunque non osi oltra sua voglia (Aminta II/3)</i> 
+		<i>Perché dunque non osi oltre sua voglia</i> 
 	</td>
 </tr>
 
@@ -42306,7 +42718,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Già per lungo uso a ragionar d'amore (Aminta II/3)</i> 
+		<i>Già per lungo uso a ragionar d'amore</i> 
 	</td>
 </tr>
 
@@ -42531,7 +42943,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Dunque andar non vogliamo? Andare io voglio (Aminta II/3)</i> 
+		<i>Dunque andar non vogliamo? Andare io voglio</i> 
 	</td>
 </tr>
 
@@ -42755,7 +43167,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Credi tu dunque, sciocco, che mai Dafne (Aminta II/3)</i> 
+		<i>Credi tu dunque, sciocco, che mai Dafne</i> 
 	</td>
 </tr>
 
@@ -42976,7 +43388,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>E s'ella vuol che 'l tuo diletto sia (Aminta II/3)</i> 
+		<i>E s'ella vuol che 'l tuo diletto sia</i> 
 	</td>
 </tr>
 
@@ -43193,7 +43605,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ecco tu chiedi pur quella certezza (Aminta II/3)</i> 
+		<i>Ecco tu chiedi pur quella certezza</i> 
 	</td>
 </tr>
 
@@ -43419,7 +43831,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Tu taci: tu sei vinto. Ora confessa (Aminta II/3)</i> 
+		<i>Tu taci: tu sei vinto. Ora confessa</i> 
 	</td>
 </tr>
 
@@ -43639,7 +44051,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Dispietata pietate (Aminta III/2)</i> 
+		<i>Dispietata pietate</i> 
 	</td>
 </tr>
 
@@ -43861,7 +44273,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Dolor che sì mi crucii (Aminta III/2)</i> 
+		<i>Dolor che sì mi crucii</i> 
 	</td>
 </tr>
 
@@ -44094,7 +44506,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Bello e dolce morir fu certo allora (Aminta III/2)</i> 
+		<i>Bello e dolce morir fu certo allora</i> 
 	</td>
 </tr>
 
@@ -44323,7 +44735,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>O sfortunato Aminta</i> 
+		<i>Misero Aminta!</i> 
 	</td>
 </tr>
 
@@ -44541,7 +44953,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Pastor di che piangete? (Aminta IV/2)</i> 
+		<i>Pastor di che piangete?</i> 
 	</td>
 </tr>
 
@@ -44775,7 +45187,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ciò che morte rallenta, Amor restringi (Aminta IV/2)</i> 
+		<i>Ciò che morte rallenta, Amor restringi</i> 
 	</td>
 </tr>
 
@@ -44998,7 +45410,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Non sono ire là su: gli umani ingegni (Aminta IV/2)</i> 
+		<i>Non sono ire la sù: gli umani ingegni</i> 
 	</td>
 </tr>
 
@@ -45218,7 +45630,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>O fortunato Aminta, o te felice</i> 
+		<i>Oh fortunato Aminta, oh te felice</i> 
 	</td>
 </tr>
 
@@ -45439,7 +45851,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ma come Silvia il riconobbe e vide</i> 
+		<i>Ma come Silvia li riconobbe e vide</i> 
 	</td>
 </tr>
 
@@ -45662,7 +46074,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Non so se il molto amaro (Aminta V/1)</i> 
+		<i>Non so se il molto amaro</i> 
 	</td>
 </tr>
 
@@ -45888,7 +46300,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Di che cantar degg'io (Ecloghe I/89)</i> 
+		<i>Di che cantar degg'io</i> 
 	</td>
 </tr>
 
@@ -46089,7 +46501,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>"Lasso," dicea, " perché venisti Amore" (Rinaldo V/16)</i> 
+		<i>Lasso, dicea, "Perché venisti Amore</i> 
 	</td>
 </tr>
 
@@ -46291,7 +46703,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Tu perfido Signor, tu disleale (Rinaldo V/18)</i> 
+		<i>Tu perfido signor, tu disleale</i> 
 	</td>
 </tr>
 
@@ -46514,7 +46926,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ahi lacrime! ahi dolore (Re Torrismondo V/6)</i> 
+		<i>Ahi lagrime! ahi dolore</i> 
 	</td>
 </tr>
 
@@ -46734,7 +47146,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>O Musa, tu che di caduchi allori (Gerusalemme I/2)</i> 
+		<i>O musa, tu che di caduchi allori</i> 
 	</td>
 </tr>
 
@@ -46924,7 +47336,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>O Musa, tu che di caduchi Allori (Gerusalemme I/2)</i> 
+		<i>O musa, tu che di caduchi allori</i> 
 	</td>
 </tr>
 
@@ -47145,7 +47557,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Sai che là corre il mondo ove più versi (Gerusalemme I/3)</i> 
+		<i>Sai che là corre il mondo ove più versi</i> 
 	</td>
 </tr>
 
@@ -47366,7 +47778,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Dunque ove tu, Signor, di mille rivi (Gerusalemme III/8)</i> 
+		<i>Dunque, ove tu signor di mille rivi</i> 
 	</td>
 </tr>
 
@@ -47562,7 +47974,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Sovente, all'hor ch'in su gli estivi ardori (i.e., "Sovente, allor che su gli estivi ardori," Gerusalemme VII/19)</i> 
+		<i>Sovente, allor che su gli estivi ardori</i> 
 	</td>
 </tr>
 
@@ -47755,7 +48167,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>E diceva piangendo: "in voi serbate (i.e., Indi dicea piangendo: "in voi serbate, Gerusalemme VII/20)</i> 
+		<i>Indi dicea piangendo: "In voi serbate</i> 
 	</td>
 </tr>
 
@@ -47944,7 +48356,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Forse avverrà, se'l ciel benigno ascolta (Gerusalemme VII/21)</i> 
+		<i>Forse avverrà se 'l ciel benigno ascolta</i> 
 	</td>
 </tr>
 
@@ -48134,7 +48546,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vivrò fra i miei tormenti e le mie cure (Gerusalemme XII/77)</i> 
+		<i>Vivrò fra i miei tormenti e le mie cure</i> 
 	</td>
 </tr>
 
@@ -48346,7 +48758,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ma dove, o lasso me!, dove restaro (Gerusalemme XII/78)</i> 
+		<i>Ma dove, oh lasso, me! dove restaro</i> 
 	</td>
 </tr>
 
@@ -48565,7 +48977,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Io pur verrò là dove sete; e voi (Gerusalemme XII/79)</i> 
+		<i>Io verrò là dove sete; e voi</i> 
 	</td>
 </tr>
 
@@ -48783,7 +49195,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Usciva omai del molle e fresco grembo (i.e., "Usciva omai dal molle e fresco grembo," Gerusalemme XIV/1)</i> 
+		<i>Usciva omai dal molle e fresco grembo</i> 
 	</td>
 </tr>
 
@@ -48980,7 +49392,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>O giovinetti, mentre aprile e maggio (Gerusalemme XIV/62)</i> 
+		<i>O giovinetti mentre aprile e maggio</i> 
 	</td>
 </tr>
 
@@ -49173,7 +49585,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i></i> 
+		<i>Vezzosi augelli infra le verdi fronde</i> 
 	</td>
 </tr>
 
@@ -49372,7 +49784,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i></i> 
+		<i>Vezzosi augelli infra le verdi fronde</i> 
 	</td>
 </tr>
 
@@ -49572,7 +49984,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vola fra gli altri un che le piume ha sparte (Gerusalemme XVI/13)</i> 
+		<i>Vola fra gli altri un che le piume ha sparte</i> 
 	</td>
 </tr>
 
@@ -49774,7 +50186,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>"Deh mira," egli cantò, "spuntar la rosa (Gerusalemme XVI/14)</i> 
+		<i>Deh mira, egli cantò, "spuntar la rosa</i> 
 	</td>
 </tr>
 
@@ -49974,7 +50386,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Qual Musico gentil, prima che chiara (Gerusalemme XVI/43)</i> 
+		<i>Qual musico gentil prima che chiara</i> 
 	</td>
 </tr>
 
@@ -50175,7 +50587,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i></i> 
+		<i>Qual musico gentil prima che chiara</i> 
 	</td>
 </tr>
 
@@ -50375,7 +50787,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Poi cominciò: non aspettar ch'io prieghi (i.e., Poi cominciò: non aspettar ch'io preghi, Gerusalemme XVI/44)</i> 
+		<i>Poi cominciò: "Non aspettar ch'io preghi</i> 
 	</td>
 </tr>
 
@@ -50575,7 +50987,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Se m'odij, e'n ciò diletto alcun tu senti (i.e., Se m'odii, e in ciò diletto alcun tu senti, Gerusalemme XVI/45)</i> 
+		<i>Se m'odii e in ciò diletto alcun tu senti</i> 
 	</td>
 </tr>
 
@@ -50778,7 +51190,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Aggiungi a quest'ancor quel ch'a maggiore (i.e., Aggiungi a questo ancor quel ch'a maggiore, Gerusalemme, XVI 46)</i> 
+		<i>Aggiungi a questo ancor quel ch'a maggiore</i> 
 	</td>
 </tr>
 
@@ -50978,7 +51390,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Sia pur questa tra le mie frodi, e vaglia (Gerusalemme XVI/47)</i> 
+		<i>Sia questa pur tra le mie frodi, e vaglia</i> 
 	</td>
 </tr>
 
@@ -51180,7 +51592,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Rimanti in pace, io vado: a te non lice</i> 
+		<i>Rimanti in pace: i' vado: a te non lice</i> 
 	</td>
 </tr>
 
@@ -51411,7 +51823,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur, crudel, con quella pace (Gerusalemme XVI/59)</i> 
+		<i>Vattene pur crudel con quella pace</i> 
 	</td>
 </tr>
 
@@ -51626,7 +52038,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur, crudel, con quella pace (Gerusalemme XVI/59)</i> 
+		<i>Vattene pur crudel con quella pace</i> 
 	</td>
 </tr>
 
@@ -52056,7 +52468,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Là tra ̒l sangue e le morti egro giacente (Gerusalemme XVI/60)</i> 
+		<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 </tr>
 
@@ -52282,7 +52694,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Là tra'l sangue e le morti egro giacente (Gerusalemme XVI/60)</i> 
+		<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 </tr>
 
@@ -52485,7 +52897,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Là tra 'l sangue e le morti egro giacente</i> 
 	</td>
 </tr>
 
@@ -52714,7 +53126,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Chiudesti i lumi, Armida: il cielo avaro (Gerusalemme XVI/61)</i> 
+		<i>Chiudesti i lumi Armida: il cielo avaro</i> 
 	</td>
 </tr>
 
@@ -53151,7 +53563,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Or che farà? Dee su l'ignuda arena</i> 
 	</td>
 </tr>
 
@@ -53376,7 +53788,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Poi chʼella in sé tornò, deserto e muto (Gerusalemme XVI/63)</i> 
+		<i>Poi ch'ella in sé tornò, deserto e muto</i> 
 	</td>
 </tr>
 
@@ -54052,7 +54464,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Misera Armida, all'hor dovevi</i> 
+		<i>Misera Armida, allor dovevi e degno</i> 
 	</td>
 </tr>
 
@@ -54508,7 +54920,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Misera, non credea ch'a gli occhi miei (Gerusalemme XIX/106)</i> 
+		<i>Misera non credea ch'a gli occhi miei</i> 
 	</td>
 </tr>
 
@@ -54707,7 +55119,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Ma che? squalido e scuro anco mi piaci (i.e., "Ma che? squallido e scuro anco mi piaci,"Gerusalemme XIX/107)</i> 
+		<i>Ma che? squallido e scuro anco mi piaci</i> 
 	</td>
 </tr>
 
@@ -54910,7 +55322,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Piacquele assai che 'n quelle valli ombrose</i> 
 	</td>
 </tr>
 
@@ -55133,7 +55545,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Ah, ma non fia che fra tant'armi e tante</i> 
 	</td>
 </tr>
 
@@ -55362,7 +55774,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Dimostratevi in me, ch'io vi perdono</i> 
 	</td>
 </tr>
 
@@ -55589,7 +56001,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Felice me se nel morir non reco</i> 
 	</td>
 </tr>
 
@@ -55812,7 +56224,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Qui tacque: e stabilito il suo pensiero</i> 
 	</td>
 </tr>
 
@@ -56042,7 +56454,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Si volse Armida e 'l rimirò improvviso</i> 
 	</td>
 </tr>
 
@@ -56273,7 +56685,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>E 'l bel volto e 'l bel seno a la meschina</i> 
 	</td>
 </tr>
 
@@ -56506,7 +56918,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>E con man languidetta il forte braccio</i> 
 	</td>
 </tr>
 
@@ -56733,7 +57145,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>O sempre, e quando parti e quando torni</i> 
 	</td>
 </tr>
 
@@ -56961,7 +57373,7 @@ td.right:after {
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vattene pur crudel con quella pace</i> 
+		<i>Così doleasi e con le flebil onde</i> 
 	</td>
 </tr>
 

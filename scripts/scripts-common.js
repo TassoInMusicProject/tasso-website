@@ -5,7 +5,7 @@
 // Creation Date: Thu Aug 21 12:59:01 PDT 2014
 // Last Modified: Sat Sep 22 13:15:27 PDT 2018
 // Filename:      .../scripts/scripts-common.js
-// Web Address:   http://josquin.stanford.edu/scripts/scripts-common.js
+// Web Address:   https://www.tassomusic.org/scripts/scripts-common.js
 // Syntax:        JavaScript 1.8/ECMAScript 5
 // vim:				ts=3: ft=javascript
 //
@@ -270,7 +270,7 @@ function GetDataFile(jrpid, prefix, action) {
    }
 
    // content is not in sessionStorage, so download, store, and return.
-   var imagedata = ReadFile('http://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid);
+   var imagedata = ReadFile('https://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid);
    sessionStorage[variable] = imagedata;
    return imagedata;
 }
@@ -308,7 +308,7 @@ function GetDataFileAsync(jrpid, prefix, action, callback) {
    }
 
    // content is not in sessionStorage, so download, store, and return.
-   ReadFileAsync('http://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid, callback);
+   ReadFileAsync('https://' + BASEADDR + '/data?a=' + action + '&f=' + jrpid, callback);
    //sessionStorage[variable] = imagedata;
    // return imagedata;
 }
@@ -703,9 +703,9 @@ function PlayAudioFile(jrpid, element, starttime) {
 		// Can't have seekable dynamic content in audio element:
 		//source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
 		if (window.location.href.match(/tasso/i)) {
-			source += '<source src="http://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="https://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
 		} else {
-			source += '<source src="http://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="https://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
 		}
 		source += 'type="audio/mpeg"/>\n';
 		AUDIO.innerHTML = source;
@@ -1206,7 +1206,7 @@ function HighlightNavigationBar(target) {
 	var newtext;
 	var newnode;
 	for (var i=0; i<list.length; i++) {
-      var link = list[i].href.replace(/^http:\/\/[^\/]+/, "");
+      var link = list[i].href.replace(/^https?:\/\/[^\/]+/, "");
 		if (pname == link) {
 			text = list[i].innerHTML;
 			newnode = document.createElement("span");

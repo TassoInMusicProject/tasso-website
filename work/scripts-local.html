@@ -1298,7 +1298,7 @@ function displayPreviousWork(id) {
 function downloadMeiData(event) {
 	var data = vrvToolkit.getMEI(0, 1);
 	var link = document.createElement("a");
-	link.href = "data:text/octet-stream;base64," + btoa(data);
+	link.href = "data:text/octet-stream;base64," + btoa(unescape(encodeURIComponent(data)));
 	var setting = RSETTINGS[ID];
 	if (setting) {
 		var scoredata = setting.SCOREDATA;

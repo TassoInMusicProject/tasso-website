@@ -441,6 +441,9 @@ function sortByYear(index, selector) {
 			A = a.cells[index].textContent;
 			B = b.cells[index].textContent;
 		}
+		A = A.replace(/^\s*C\s*/, "");
+		B = A.replace(/^\s*C\s*/, "");
+console.log("A", A, "B", B);
 		var matches;
 		if (matches = A.match(/(\d{4})/)) {
 			A = matches[1];

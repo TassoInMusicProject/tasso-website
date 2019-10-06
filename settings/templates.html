@@ -362,6 +362,8 @@ function sortByText(index, selector) {
 			A = a.cells[index].textContent;
 			B = b.cells[index].textContent;
 		}
+		A = A.replace(/^\s*C\s*/, "");
+		B = A.replace(/^\s*C\s*/, "");
 		if (A.match(/^\s*$/)) {
 			return +1;
 		}

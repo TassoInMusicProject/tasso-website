@@ -94,7 +94,7 @@ var ALLVERSELIST;         // Collapse of all verse lists.
 
 
 // List of Key Codes.  More can be extracted from this page:
-// http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+// https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
 const AKey            = 65; // Letters
 const BKey            = 66;
 const CKey            = 67;
@@ -320,13 +320,13 @@ function GetDataFileAsync(jrpid, prefix, action, callback) {
 // ReadFile -- Download URL content which is returned as a string.
 //      The URL must be on the same domain as index.html due to
 //      JavaScript Same-Origin policy:
-//         http://en.wikipedia.org/wiki/Same-origin_policy
+//         https://en.wikipedia.org/wiki/Same-origin_policy
 // XMLHttpRequest object:
-//         http://www.w3.org/TR/2007/WD-XMLHttpRequest-20070618
-//         http://xhr.spec.whatwg.org
+//         https://www.w3.org/TR/2007/WD-XMLHttpRequest-20070618
+//         https://xhr.spec.whatwg.org
 //         
 //         See:
-//  http://codingforums.com/ajax-design/123705-make-script-wait-until-request-comes-back.html
+//  https://codingforums.com/ajax-design/123705-make-script-wait-until-request-comes-back.html
 //
 
 function ReadFile(url) {

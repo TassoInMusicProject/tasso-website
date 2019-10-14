@@ -57,7 +57,7 @@ function doSearch() {
 
 	PITCHQUERY = pquery;
 
-	var url = "http://josquin.stanford.edu/cgi-bin/tasso?";
+	var url = "https://josquin.stanford.edu/cgi-bin/tasso?";
 	url += "C=" + repertory;
 	url += "&pitch="    + pquery;
 	url += "&interval=" + iquery;
@@ -198,7 +198,7 @@ function displayResultRow(entry, options) {
 	}
 	var composer = meta.COMPOSER.replace(/,.*/, "");
 	
-	// var url = "http://www.tassomusic.org/work?"
+	// var url = "https://www.tassomusic.org/work?"
 	var url = "/work?"
 	var rtext = "<tr>";
 

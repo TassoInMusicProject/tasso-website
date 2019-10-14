@@ -22,7 +22,7 @@ a {
 	text-decoration: none;
 }
 
-/* http://webdesign.tutsplus.com/articles/quick-tip-styling-scrollbars-to-match-your-ui-design--webdesign-9430 */
+/* https://webdesign.tutsplus.com/articles/quick-tip-styling-scrollbars-to-match-your-ui-design--webdesign-9430 */
 
 ::-webkit-scrollbar {
 	width: 15px;
@@ -516,7 +516,7 @@ Version: 3.4.6 Timestamp: Sat Mar 22 22:30:15 EDT 2014
 	/*
 	Force border-box so that % widths fit the parent
 	container without overlap because of margin/padding.
-	More Info : http://www.quirksmode.org/css/box.html
+	More Info : https://www.quirksmode.org/css/box.html
 	*/
 	-webkit-box-sizing: border-box;
 	/* webkit */
@@ -530,7 +530,7 @@ Version: 3.4.6 Timestamp: Sat Mar 22 22:30:15 EDT 2014
 	/*
 	Force border-box so that % widths fit the parent
 	container without overlap because of margin/padding.
-	More Info : http://www.quirksmode.org/css/box.html
+	More Info : https://www.quirksmode.org/css/box.html
 	*/
 	-webkit-box-sizing: border-box;
 	/* webkit */
@@ -544,7 +544,7 @@ Version: 3.4.6 Timestamp: Sat Mar 22 22:30:15 EDT 2014
 	/*
 	Force border-box so that % widths fit the parent
 	container without overlap because of margin/padding.
-	More Info : http://www.quirksmode.org/css/box.html
+	More Info : https://www.quirksmode.org/css/box.html
 	*/
 	-webkit-box-sizing: border-box;
 	/* webkit */
@@ -557,7 +557,7 @@ Version: 3.4.6 Timestamp: Sat Mar 22 22:30:15 EDT 2014
 	/*
 	Force border-box so that % widths fit the parent
 	container without overlap because of margin/padding.
-	More Info : http://www.quirksmode.org/css/box.html
+	More Info : https://www.quirksmode.org/css/box.html
 	*/
 	-webkit-box-sizing: border-box;
 	/* webkit */

@@ -56,6 +56,7 @@ function doSearch() {
 	}
 
 	PITCHQUERY = pquery;
+	RHYTHMQUERY = rquery;
 
 	var url = "https://josquin.stanford.edu/cgi-bin/tasso?";
 	url += "C=" + repertory;
@@ -233,9 +234,16 @@ function displaySingleWork(id) {
 		return;
 	}
 	var extra = "";
-	if (PITCHQUERY && !PITCHQUERY.match(/^\s*$/)) {
+	if (PITCHQUERY && RHYTHMQUERY && (!PITCHQUERY.match(/^\s*$/)) && (!RHYTHMQUERY.match(/^\s*$/))) {
+		// interleave rhythm and pitch queryies.  For now just pass
+		// pitch query.
 		extra = "&q=" + encodeURI(PITCHQUERY);
+	} else if (PITCHQUERY && !PITCHQUERY.match(/^\s*$/)) {
+		extra = "&q=" + encodeURI(PITCHQUERY);
+	} else if (RHYTHMQUERY && !RHYTHMQUERY.match(/^\s*$/)) {
+		extra = "&q=" + encodeURI(RHYTHMQUERY);
 	} 
+
 	// window.location.href = "/work?id=" + id + extra;
 	window.open("/work?id=" + id + extra, "_blank");
 }

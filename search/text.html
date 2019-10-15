@@ -1,0 +1,54 @@
+---
+layout: simple
+---
+
+<style>
+
+.select {
+	font-size: 18pt;
+	color: #333;
+}
+
+</style>
+
+
+<table style="padding-top:40px; padding-bottom:40px">
+<tr><td vertical-align:baseline">
+
+	<span class="form-group">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repertory:
+		<select onchange="doTextSearch()" id="repertory">
+			<option value="Trm">Rime</option>
+			<option value="Tsg">Gerusalemme</option>
+			<option value="Tam">Aminta</option>
+			<option disabled value="Tec">Ecloghe</option>
+			<option disabled value="Tri">Rinaldo</option>
+			<option disabled value="Tbv">Lagrime della Beata Virgine</option>
+			<option disabled value="Trt">Re Torrismondo</option>
+			<option disabled value="Tco">G. conquistata</option>
+			<option value="Trm,Tsg,Tam,Tec,Tri,Tbv,Trt,Tco">All</option>
+		</select>
+	</span>
+
+</td>
+
+<td>
+
+<div class="form-group">
+	<input autocomplete="off" size="40" id="textquery" type="text" onkeyup="doTextSearch()" class="form-control" placeholder="Enter search text">
+</div>
+
+</td>
+</tr>
+</table>
+
+
+<div style="margin-top:0px"></div>
+<div id="summary"></div>
+
+<div style="margin-top:20px"></div>
+<div id="results"></div>
+
+
+</div>
+

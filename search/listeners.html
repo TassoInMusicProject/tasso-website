@@ -15,6 +15,7 @@ var RHYTHMQUERY = "";
 document.addEventListener("DOMContentLoaded", function() {
 	CGI = GetCgiParameters();
 	HighlightNavigationBar();
+	loadLyricIndex();
 
 	$("#pitch").focus(function() {
 		$(this).data("hasfocus", true);
@@ -25,23 +26,25 @@ document.addEventListener("DOMContentLoaded", function() {
 		// Require pressing the search button for now:
 		/*
 			if ($("#pitch:focus")) {
-				doSearch();
+				doMusicSearch();
 			} else if ($("#interval:focus")) {
-				doSearch();
+				doMusicSearch();
 			} else if ($("#rhythm:focus")) {
-				doSearch();
+				doMusicSearch();
 			}
 		*/
 		//}
 	});
 
+	/*
 	var searchbutton = document.querySelector("#searchButton");
 	if (searchbutton) {
 		searchbutton.addEventListener("click", function() {
 			console.log("DOING SEARCH");
-			doSearch();
+			doMusicSearch();
 		});
 	}
+	*/
 
 	LoadTassoData(doActions);
 });
@@ -50,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function doActions() {
    PrepareGlobalTassoObjects();
+	displayMusicSearch();
 }
 
 

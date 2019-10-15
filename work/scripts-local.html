@@ -342,6 +342,7 @@ function displaySingleWork(id, target) {
 	getHumdrum(id);
 	getRange(id);
 	getCriticalNotes(id);
+
 	if (CGI.q) {
 		var query = document.querySelector("#query");
 		if (query) {
@@ -349,6 +350,15 @@ function displaySingleWork(id, target) {
 			processMusicSearch();
 		}
 	}
+
+	if (CGI.text) {
+		var querytext = document.querySelector("#query-text");
+		if (querytext) {
+			querytext.value = CGI.text;
+			processTextSearch();
+		}
+	}
+
 }
 
 
@@ -651,7 +661,7 @@ function getHumdrumSourceData(humid) {
 // initializeVerovioNotation --
 //
 
-function initializeVerovioNotation(sourceid, targetid, query) {
+function initializeVerovioNotation(sourceid, targetid, query, textquery) {
 	if (!targetid) {
 		targetid = "verovio-display";
 	}
@@ -1588,13 +1598,13 @@ function processMusicSearch(event) {
 var LAST_QUERY_TEXT = "";
 function processTextSearch(event) {
 	var queryElement = document.querySelector("#query-text");
-	var query = queryElement.value;
-	query = query.replace(/^\\s/, "").replace(/\\s$/, "");
-	if (query == LAST_QUERY_TEXT) {
+	var querytext = queryElement.value;
+	querytext = querytext.replace(/\\s/, "", "g");
+	if (querytext == LAST_QUERY_TEXT) {
 		return;
 	}
 	LAST_QUERY_TEXT = query;
-	initializeVerovioNotation(null, null, query);
+	initializeVerovioNotation(null, null, null, querytext);
 }
 
 

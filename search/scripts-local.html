@@ -9,6 +9,11 @@
 
 var RWORKLIST;
 
+// text searching variables
+var LINES = [];
+var BYWORK = {};
+var WORDS = [];
+
 
 //////////////////////////////
 //
@@ -27,10 +32,10 @@ function showPopupHelp(url, title) {
 
 //////////////////////////////
 //
-// doSearch --
+// doMusicSearch --
 // 
 
-function doSearch() {
+function doMusicSearch() {
 	var pitch = document.getElementById("pitch");
 	var pquery = pitch.value;
 
@@ -249,4 +254,377 @@ function displaySingleWork(id) {
 }
 
 
+
+
+/////////////////////////////
+//
+// displayMusicSearch --
+//
+
+function displayMusicSearch(target) {
+	console.log("DISPLAY MUSIC SEARCH");
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Music Search content on page.");
+		return;
+	}
+	showTab("music-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+
+			var music = document.querySelector("#music-heading");
+			music.className = "active";
+			var text = document.querySelector("#text-heading");
+			text.className = "";
+
+			// setupMusicBrowseCallbacks();
+			// insertCgiSearchParameters();
+			// fillMusicBrowsePage({fillOptions: true});
+		}
+	};
+	request.open("GET", "music.html", true);
+	request.send();
+}
+
+
+
+
+/////////////////////////////
+//
+// displayTextSearch --
+//
+
+function displayTextSearch(target) {
+	console.log("DISPLAY TEXT SEARCH");
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Text Search content on page.");
+		return;
+	}
+	showTab("music-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+
+			var music = document.querySelector("#music-heading");
+			music.className = "";
+			var text = document.querySelector("#text-heading");
+			text.className = "active";
+
+			// setupMusicBrowseCallbacks();
+			// insertCgiSearchParameters();
+			// fillMusicBrowsePage({fillOptions: true});
+		}
+	};
+	request.open("GET", "text.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// showTab --
+//
+
+function showTab(hiid) {
+	var music     = document.querySelector("#music-heading");
+	var text      = document.querySelector("#text-heading");
+
+	music.className   = hiid == "music-heading"   ? "active" : "";
+	text.className    = hiid == "text-heading"    ? "active" : "";
+
+	fillMusicSearchPage();
+	fillTextSearchPage();
+}
+
+
+
+//////////////////////////////
+//
+// fillMusicSearchPage --
+//
+
+function fillMusicSearchPage() {
+	console.log("FILL MUSIC SEARCH PAGE");
+}
+
+
+
+//////////////////////////////
+//
+// fillTextSearchPage --
+//
+
+function fillTextSearchPage() {
+	console.log("FILL TEXT SEARCH PAGE");
+}
+
+
+
+//////////////////////////////
+//
+// doTextSearch --
+// 
+
+function doTextSearch() {
+	var textquery = document.getElementById("textquery");
+	var tquery = textquery.value;
+
+	var results = document.querySelector("#results");
+	var summary = document.querySelector("#summary");
+
+	if (tquery.match(/^\s*$/)) {
+		summary.innerHTML = "";
+		results.innerHTML = "";
+		return;
+	}
+
+	var matches = getTextMatches(tquery);
+	var output = printTextResults(matches, tquery);
+
+	var counter = matches.length;
+	if (counter == 1) {
+		counter += " work matches";
+	} else {
+		counter += " works match";
+	}
+	summary.innerHTML = counter;
+
+	results.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// printTextResults --
+//
+
+function printTextResults(results, query) {
+	var output = "";
+	output += "<table class='matches'>";
+
+	output += "<tr>";
+
+	output += "<th style='min-width:150px; text-align:left;'>";
+	output += "Catalog #";
+	output += "</th>";
+
+	output += "<th style='padding-left:20px; min-width:200px; text-align:left;'>";
+	output += "Composer";
+	output += "</th>";
+
+	output += "<th style='padding-left:10px; text-align:left;'>";
+	output += "Title / matched word(s)";
+	output += "</th>";
+
+	output += "</tr>";
+
+	for (var i=0; i<results.length; i++) {
+		var m = results[i].match(/^([^\s]+)\t/);
+		if (!m) {
+			continue;
+		}
+		var catalog = m[1];
+		var setting = GetSettingEntry(catalog);
+		var composer = setting.COMPOSER;
+		var title = setting.TITLE;
+		if (!title) {
+			title = setting.RIMETITLE;
+		}
+
+		output += "<tr>";
+
+		output += "<td>";
+		output += "<small>";
+		output += catalog;
+		output += "</small>";
+		output += "</td>";
+
+		output += "<td style='padding-left:20px'>";
+		output += "<div style='whitespace:nowrap;'>";
+		output += shortName(composer);
+		output += "</div>";
+		output += "</td>";
+
+		output += "<td style='padding-left:20px'>";
+
+
+		var extra = "&text=" + encodeURI(query);
+		output += "<a target='_blank' href='/work/?id=" + catalog + extra + "'>";
+		output += title;
+		output += GetCatalogInfo(catalog);
+		output += "</a>";
+		output += "</td>";
+
+		output += "</tr>";
+
+		output += "<tr>";
+
+		output += "<td>";
+		output += "</td>";
+
+		output += "<td>";
+		output += "</td>";
+
+		output += "<td style='padding-left:30px;'>";
+		output += getWordList(catalog, query);
+		output += "</td>";
+
+
+		output += "</tr>";
+	}
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// shortName --
+//
+
+function shortName(fullname) {
+	var matches = fullname.match(/(.*),\s*(.*)/);
+	if (!matches) {
+		return fullname;
+	}
+	var lastname = matches[1];
+	var firstname = matches[2];
+	var pieces = firstname.split(/\s+/);
+	var fname = "";
+	for (var i=0; i<pieces.length; i++) {
+		if (/^[A-Z]/.test(pieces[i])) {
+			fname += pieces[i][0] + "." + " ";
+		} else {
+			fname += pieces[i] + " ";
+		}
+	}
+	var name = "<span class='initials'>" + fname + "</span><span class='lastname'>" + lastname + "</span>";
+	if (name.match(/\?/)) {
+		name = name.replace(/\?/g, "");
+		name += "?";
+	}
+	return name;
+}
+
+
+
+/////////////////////////////
+//
+// getWordList --
+//
+
+function getWordList(catalog, query) {
+	var list = BYWORK[catalog];
+	if (!list) {
+		return "";
+	}
+	var output ="<span class='wordlist' style='font-size:80%; color=#cccccc;'>";
+	for (var i=0; i<list.length; i++) {
+		if (list[i].match(query)) {
+			output += " " + list[i];
+		}
+	}
+	output += "</span>";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// getTextMatches --
+//
+
+function getTextMatches(query) {
+	query  = query.replace(/\d/g, " ");
+	var matches = [];
+	var qq ="\t.*" + query;
+	var re = new RegExp(qq);
+
+	var repertoryElement = document.querySelector("#repertory");
+	var repertory = "";
+	if (repertoryElement) {
+		repertory = repertoryElement.value;
+	}
+
+	for (var i=0; i<LINES.length; i++) {
+		var rep = LINES[i].substring(0, 3);
+		if (!repertory.match(rep)) {
+			continue;
+		}
+		if (LINES[i].match(re)) {
+			matches.push(LINES[i]);
+		}
+	}
+	return matches;
+}
+
+
+
+//////////////////////////////
+//
+// prepareTextIndex --
+//
+
+function prepareTextIndex(text) {
+	LINES = text.split(/\r?\n/);
+	var prep = {};
+	for (var i=0; i<LINES.length; i++) {
+		var data = LINES[i].split("\t");
+		var catalog = data[0];
+		BYWORK[catalog] = [];
+		for (var j=1; j<data.length; j++) {
+			var subdata = data[j].split(/\s+/);
+			var word = subdata[1];
+			if (!word) {
+				continue;
+			}
+			if (!prep[word]) {
+				prep[word] = 1;
+			} else {
+				prep[word]++;
+			}
+			BYWORK[catalog].push(word);
+		}
+	}
+	WORDS = Object.keys(prep);
+	WORDS.sort();
+	console.log("BYWORK", BYWORK);
+}
+
+
+
+//////////////////////////////
+//
+// loadLyricIndex --
+//
+
+function loadLyricIndex() {
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+    	if (this.readyState == 4 && this.status == 200) {
+			prepareTextIndex(request.responseText);
+    	}
+	};
+	request.open("GET", "/data/lyrics/lyrics-index.txt");
+	request.send();
+}
+
+
+
 </script>
+
+

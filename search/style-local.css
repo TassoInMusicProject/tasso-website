@@ -23,5 +23,41 @@ td:nth-child(2) {
 }
 
 
+select {
+	font-size: 1.25rem;
+}
+
+div#searchButton:hover,
+.help:hover {
+	background-color: #aa0000;
+}
+
+div#searchButton {
+	background-color: #B19C5F;
+	cursor: pointer;
+	width:66px;
+	border-radius: 1rem;
+	font-family: Arial;
+	color: #fafafa;
+	padding: 0px 5px 0px 5px;
+	text-decoration: none;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+div.help {
+	background-color: #B19C5F;
+	cursor: pointer;
+	width:16px;
+	border-radius: 1rem;
+	font-family: Arial;
+	color: #fafafa;
+	padding: 3px 5px 0px 8px;
+	text-decoration: none;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+
 
 

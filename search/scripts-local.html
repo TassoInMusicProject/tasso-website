@@ -355,7 +355,7 @@ function showTab(hiid) {
 //
 
 function fillMusicSearchPage() {
-	console.log("FILL MUSIC SEARCH PAGE");
+	// do nothing?
 }
 
 
@@ -366,7 +366,7 @@ function fillMusicSearchPage() {
 //
 
 function fillTextSearchPage() {
-	console.log("FILL TEXT SEARCH PAGE");
+	// do nothing?
 }
 
 
@@ -412,24 +412,31 @@ function doTextSearch() {
 
 function printTextResults(results, query) {
 	var output = "";
-	output += "<table class='matches'>";
+	output += "<table class='music-search-list'>";
 
+	output += "<thead>";
 	output += "<tr>";
 
-	output += "<th style='min-width:150px; text-align:left;'>";
+	output += "<th onclick='sortByNumber(0)' style='width:70px; padding-left:20px; text-align:left;'>";
+	output += "Count";
+	output += "</th>";
+
+	output += "<th onclick='sortByText(1)' style='min-width:120px; text-align:left;'>";
 	output += "Catalog #";
 	output += "</th>";
 
-	output += "<th style='padding-left:20px; min-width:200px; text-align:left;'>";
+	output += "<th onclick='sortByText(2)' style='padding-left:20px; max-width:230px; text-align:left;'>";
 	output += "Composer";
 	output += "</th>";
 
-	output += "<th style='padding-left:10px; text-align:left;'>";
+	output += "<th onclick='sortByText(3)' style='padding-left:10px; text-align:left;'>";
 	output += "Title / matched word(s)";
 	output += "</th>";
 
 	output += "</tr>";
+	output += "</thead>";
 
+	output += "<tbody>";
 	for (var i=0; i<results.length; i++) {
 		var m = results[i].match(/^([^\s]+)\t/);
 		if (!m) {
@@ -443,7 +450,11 @@ function printTextResults(results, query) {
 			title = setting.RIMETITLE;
 		}
 
-		output += "<tr>";
+		output += "<tr class='data'>";
+
+		output += "<td style='text-align:right; margin-left:20px;'>";
+		output += getWordCount(catalog, query);
+		output += "</td>";
 
 		output += "<td>";
 		output += "<small>";
@@ -465,25 +476,17 @@ function printTextResults(results, query) {
 		output += title;
 		output += GetCatalogInfo(catalog);
 		output += "</a>";
-		output += "</td>";
 
-		output += "</tr>";
-
-		output += "<tr>";
-
-		output += "<td>";
-		output += "</td>";
-
-		output += "<td>";
-		output += "</td>";
-
-		output += "<td style='padding-left:30px;'>";
+		output += "<div style='margin-left:40px;''>";
 		output += getWordList(catalog, query);
 		output += "</td>";
 
+		output += "</td>";
 
 		output += "</tr>";
 	}
+	output += "</tbody>";
+	output += "</table>";
 
 	return output;
 }
@@ -520,6 +523,28 @@ function shortName(fullname) {
 }
 
 
+		output += getWordCount(catalog, query);
+
+/////////////////////////////
+//
+// getWordCount --
+//
+
+function getWordCount(catalog, query) {
+	var list = BYWORK[catalog];
+	if (!list) {
+		return "";
+	}
+	var output = 0;
+	for (var i=0; i<list.length; i++) {
+		if (list[i].word.match(query)) {
+			output += list[i].count;
+		}
+	}
+	output += "</span>";
+	return output;
+}
+
 
 /////////////////////////////
 //
@@ -533,8 +558,8 @@ function getWordList(catalog, query) {
 	}
 	var output ="<span class='wordlist' style='font-size:80%; color=#cccccc;'>";
 	for (var i=0; i<list.length; i++) {
-		if (list[i].match(query)) {
-			output += " " + list[i];
+		if (list[i].word.match(query)) {
+			output += " " + list[i].word;
 		}
 	}
 	output += "</span>";
@@ -588,6 +613,7 @@ function prepareTextIndex(text) {
 		BYWORK[catalog] = [];
 		for (var j=1; j<data.length; j++) {
 			var subdata = data[j].split(/\s+/);
+			var count = parseInt(subdata[0]);
 			var word = subdata[1];
 			if (!word) {
 				continue;
@@ -597,12 +623,14 @@ function prepareTextIndex(text) {
 			} else {
 				prep[word]++;
 			}
-			BYWORK[catalog].push(word);
+			var obj = {};
+			obj.word = word;
+			obj.count = count;
+			BYWORK[catalog].push(obj);
 		}
 	}
 	WORDS = Object.keys(prep);
 	WORDS.sort();
-	console.log("BYWORK", BYWORK);
 }
 
 

@@ -644,6 +644,7 @@ function getHumdrumSourceData(humid) {
 		vrvOptions.spacingStaff = 9;
 	}
 
+console.log("LASTQUERYTEXT", LAST_QUERY_TEXT);
 	if (LAST_QUERY) {
 		content += "\n!!!filter: msearch -q \"" + LAST_QUERY + "\" -c orange\n";
 	}
@@ -1576,6 +1577,7 @@ function processCssTextState() {
 // processMusicSearch --
 //
 
+var musicTimeout = null;
 var LAST_QUERY = "";
 function processMusicSearch(event) {
 	var queryElement = document.querySelector("#query");
@@ -1584,8 +1586,14 @@ function processMusicSearch(event) {
 	if (query == LAST_QUERY) {
 		return;
 	}
+	clearTimeout(musicTimeout);
 	LAST_QUERY = query;
-	initializeVerovioNotation(null, null, query);
+	clearTimeout(musicTimeout);
+	musicTimeout = setTimeout(function() {
+		// Wait 0.5 seconds after stop typing to do search
+		// since it takes a while to re-render notation.
+		initializeVerovioNotation(null, null, query);
+	}, 500);
 }
 
 
@@ -1595,6 +1603,7 @@ function processMusicSearch(event) {
 // processTextSearch --
 //
 
+var textTimeout = null;
 var LAST_QUERY_TEXT = "";
 function processTextSearch(event) {
 	var queryElement = document.querySelector("#query-text");
@@ -1603,8 +1612,13 @@ function processTextSearch(event) {
 	if (querytext == LAST_QUERY_TEXT) {
 		return;
 	}
-	LAST_QUERY_TEXT = query;
-	initializeVerovioNotation(null, null, null, querytext);
+	LAST_QUERY_TEXT = querytext;
+	clearTimeout(textTimeout);
+	textTimeout = setTimeout(function() {
+		// Wait 0.5 seconds after stop typing to do search
+		// since it takes a while to re-render notation.
+		initializeVerovioNotation(null, null, null, querytext);
+	}, 500);
 }
 
 

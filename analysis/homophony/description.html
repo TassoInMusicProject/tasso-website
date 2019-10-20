@@ -1,0 +1,37 @@
+
+<details style="margin-bottom: 50px; margin-top:-20px;">
+
+<summary> Description </summary>
+
+The following table lists homophonic texture percentages found in
+each work.  Identification of homophony is done with an algorithm,
+so measurements are approximate.  The algorithm to identify
+homophonic regions in the music works as follows:
+
+<ul>
+
+<li> First identify sonorities containing three or more simultaneous note
+attacks.  These sonorities are assigned a score of 1.  
+</li>
+
+<li> Then assign
+a score of 1/2 to any sonority sandwiched between two sonorities
+with a score of 1.
+</li>
+
+<li> Then search for contiguous regions of music
+with non-zero scores that exceed a total score threshold, which for
+this analysis was set to 4 (at least three successive attack
+sonorities with up to one low-attack sonority between them). 
+</li>
+
+</ul>
+
+To view the homophonic textures in the musical notation, click on
+the percentage for a work.  Textures are highlighted in red and
+green: red indicates a high-attack region, and green indicates a
+low-attack region between two high-attack regions.
+Raw data for further analysis can be found on the spreadsheet:
+<a target="_blank" href="http://bit.ly/tasso-homophony">http://bit.ly/tasso-homophony</a>.
+
+</details>

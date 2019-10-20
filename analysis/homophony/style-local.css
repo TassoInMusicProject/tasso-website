@@ -8,4 +8,35 @@ div#contents {
 }
 
 
+div#form {
+	margin-bottom: 25px;
+}
+table th {
+	margin-left: 15px;
+	text-align: left;
+}
+table tbody tr td:first-child {
+	text-align: right;
+}
+table td {
+	vertical-align: top;
+}
+
+
+summary {
+	color: #c2ab6c;
+}
+
+.active-page {
+	color: #c2ab6c;
+	cursor: pointer;
+}
+
+
+summary:focus {
+	outline: none;
+}
+
+
+
 

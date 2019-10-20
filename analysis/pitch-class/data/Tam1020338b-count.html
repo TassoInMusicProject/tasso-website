@@ -1,0 +1,74 @@
+<div class="vega-svg" id="id_Tam1020338b_count"></div>
+
+<script>
+var data_Tam1020338b_count =
+[
+	{"count":11, "pitch class":"C", "voice":"B.c."},
+	{"count":14, "pitch class":"D", "voice":"B.c."},
+	{"count":4, "pitch class":"E♭", "voice":"B.c."},
+	{"count":13, "pitch class":"F", "voice":"B.c."},
+	{"count":14, "pitch class":"G", "voice":"B.c."},
+	{"count":9, "pitch class":"A", "voice":"B.c."},
+	{"count":12, "pitch class":"B♭", "voice":"B.c."},
+	{"count":26, "pitch class":"C", "voice":"Canto"},
+	{"count":2, "pitch class":"C♯", "voice":"Canto"},
+	{"count":21, "pitch class":"D", "voice":"Canto"},
+	{"count":3, "pitch class":"E♭", "voice":"Canto"},
+	{"count":7, "pitch class":"E", "voice":"Canto"},
+	{"count":9, "pitch class":"F", "voice":"Canto"},
+	{"count":7, "pitch class":"F♯", "voice":"Canto"},
+	{"count":20, "pitch class":"G", "voice":"Canto"},
+	{"count":19, "pitch class":"A", "voice":"Canto"},
+	{"count":19, "pitch class":"B♭", "voice":"Canto"},
+	{"count":2, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Tam1020338b_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tam1020338b_count},
+	"title": "Note-count pitch-class distribution for Tam1020338b ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 37]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "B.c."],
+				"range": ["#e49689", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"F", "count":22}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tam1020338b_count', vega_Tam1020338b_count);
+</script>

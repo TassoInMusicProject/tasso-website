@@ -8241,19 +8241,19 @@ table td {
 <tr class="sortable">
 
 	<td class="score">
-		<a target="_blank" href="/work?id=Tsg20131a&filter=homophonic">57.4%</a>
+		<a target="_blank" href="/work?id=Tsg20131b&filter=homophonic">!!!CDT:%</a>
 	</td>
 
 	<td class="id">
-		Tsg20131a
+		Tsg20131b
 	</td>
 
 	<td class="composer">
-		Cifra
+		Eredi
 	</td>
 
 	<td class="date">
-		1614
+		1629
 	</td>
 
 	<td class="title">
@@ -8262,7 +8262,7 @@ table td {
 
 <!--
 	<td class="score2">
-		<a target="_blank" href="/work?id=Tsg20131a&filter=homophonic2">10.2%</a>
+		<a target="_blank" href="/work?id=Tsg20131b&filter=homophonic2">10.2%</a>
 	</td>
 -->
 

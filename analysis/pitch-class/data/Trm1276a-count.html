@@ -1,0 +1,109 @@
+<div class="vega-svg" id="id_Trm1276a_count"></div>
+
+<script>
+var data_Trm1276a_count =
+[
+	{"count":39, "pitch class":"C", "voice":"Basso continuo"},
+	{"count":3, "pitch class":"C♯", "voice":"Basso continuo"},
+	{"count":36, "pitch class":"D", "voice":"Basso continuo"},
+	{"count":32, "pitch class":"E", "voice":"Basso continuo"},
+	{"count":29, "pitch class":"F", "voice":"Basso continuo"},
+	{"count":7, "pitch class":"F♯", "voice":"Basso continuo"},
+	{"count":50, "pitch class":"G", "voice":"Basso continuo"},
+	{"count":2, "pitch class":"G♯", "voice":"Basso continuo"},
+	{"count":37, "pitch class":"A", "voice":"Basso continuo"},
+	{"count":3, "pitch class":"B♭", "voice":"Basso continuo"},
+	{"count":17, "pitch class":"B", "voice":"Basso continuo"},
+	{"count":30, "pitch class":"C", "voice":"Basso"},
+	{"count":3, "pitch class":"C♯", "voice":"Basso"},
+	{"count":33, "pitch class":"D", "voice":"Basso"},
+	{"count":27, "pitch class":"E", "voice":"Basso"},
+	{"count":29, "pitch class":"F", "voice":"Basso"},
+	{"count":7, "pitch class":"F♯", "voice":"Basso"},
+	{"count":40, "pitch class":"G", "voice":"Basso"},
+	{"count":31, "pitch class":"A", "voice":"Basso"},
+	{"count":4, "pitch class":"B♭", "voice":"Basso"},
+	{"count":11, "pitch class":"B", "voice":"Basso"},
+	{"count":47, "pitch class":"C", "voice":"Tenore"},
+	{"count":3, "pitch class":"C♯", "voice":"Tenore"},
+	{"count":41, "pitch class":"D", "voice":"Tenore"},
+	{"count":25, "pitch class":"E", "voice":"Tenore"},
+	{"count":7, "pitch class":"F", "voice":"Tenore"},
+	{"count":1, "pitch class":"F♯", "voice":"Tenore"},
+	{"count":31, "pitch class":"G", "voice":"Tenore"},
+	{"count":2, "pitch class":"G♯", "voice":"Tenore"},
+	{"count":44, "pitch class":"A", "voice":"Tenore"},
+	{"count":1, "pitch class":"B♭", "voice":"Tenore"},
+	{"count":32, "pitch class":"B", "voice":"Tenore"},
+	{"count":23, "pitch class":"C", "voice":"Alto"},
+	{"count":7, "pitch class":"C♯", "voice":"Alto"},
+	{"count":49, "pitch class":"D", "voice":"Alto"},
+	{"count":2, "pitch class":"D♯", "voice":"Alto"},
+	{"count":56, "pitch class":"E", "voice":"Alto"},
+	{"count":27, "pitch class":"F", "voice":"Alto"},
+	{"count":15, "pitch class":"F♯", "voice":"Alto"},
+	{"count":48, "pitch class":"G", "voice":"Alto"},
+	{"count":19, "pitch class":"A", "voice":"Alto"},
+	{"count":12, "pitch class":"B", "voice":"Alto"},
+	{"count":31, "pitch class":"C", "voice":"Canto"},
+	{"count":5, "pitch class":"C♯", "voice":"Canto"},
+	{"count":26, "pitch class":"D", "voice":"Canto"},
+	{"count":25, "pitch class":"E", "voice":"Canto"},
+	{"count":11, "pitch class":"F", "voice":"Canto"},
+	{"count":5, "pitch class":"F♯", "voice":"Canto"},
+	{"count":28, "pitch class":"G", "voice":"Canto"},
+	{"count":2, "pitch class":"G♯", "voice":"Canto"},
+	{"count":43, "pitch class":"A", "voice":"Canto"},
+	{"count":2, "pitch class":"B♭", "voice":"Canto"},
+	{"count":33, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Trm1276a_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm1276a_count},
+	"title": "Note-count pitch-class distribution for Trm1276a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 197]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Alto", "Tenore", "Basso", "Basso continuo"],
+				"range": ["#e49689", "#f4c6a1", "#ecdf7a", "#d2aef7", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "count":197}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm1276a_count', vega_Trm1276a_count);
+</script>

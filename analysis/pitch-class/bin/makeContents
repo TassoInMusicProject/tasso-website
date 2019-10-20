@@ -3,6 +3,11 @@
 
 use strict;
 
+my @PAGESCRIPT;
+my $PAGE = 1;
+my $COUNT = 0;
+my $PAGESIZE = 20;
+
 my $scoredir = "../../../tasso-scores";
 my $imgdir = "img";
 my $datadir = "data";
@@ -19,16 +24,35 @@ for (my $i=0; $i<@files; $i++) {
 	}
 }
 
+my @allfiles = @rimefiles;
+push(@allfiles, @nonrimefiles);
+
 my $width = "100%";
 
-my $file;
-foreach $file (@rimefiles) {
-	processFile($file);
-}
+print "<div style='margin-bottom:50px;'  class=\"page-list\"></div>\n";
 
-foreach $file (@nonrimefiles) {
+print "<div style=\"display:none;\" id=\"page1\">\n";
+my $file;
+foreach $file (@allfiles) {
 	processFile($file);
 }
+print "</div>\n";
+
+my $pagefunctions = createPageFunctions();
+print $pagefunctions, "\n";
+
+print "<div style='margin-bottom:50px;'  class=\"page-list\"></div>\n";
+
+exit(0);
+
+
+###########################################################################
+
+
+##############################
+##
+## processFile --
+##
 
 sub processFile {
 	my ($file) = @_;
@@ -42,6 +66,14 @@ sub processFile {
 	my $publicationdate = "";
 	my $rime = "";
 	my $id = $file;
+
+	if ($COUNT >= $PAGESIZE) {
+		print "</div>\n";
+		$PAGE++;
+		print "<div style=\"display:none;\" id=\"page$PAGE\">\n";
+		$COUNT = 0;
+	}
+
 	$id =~ s/.*\///;
 	$id =~ s/-.*//;
 	foreach my $line (@contents) {
@@ -66,13 +98,27 @@ sub processFile {
 	}
 	return if $complete !~ /Y/i;
 
+	$COUNT++;
+
 	my $base = $file;
 	$base =~ s/.*\///;
 	$base =~ s/\.krn$//;
 	my $id = $base;
 	$id =~ s/-.*//;
 
-	my $html = `cat $datadir/$id-duration.html`;
+	my $htmldur = `cat $datadir/$id-duration.html`;
+	my $htmlcount = `cat $datadir/$id-count.html`;
+
+	if ($htmldur =~ s/^(vegaEmbed.*)$//m) {
+		$PAGESCRIPT[$PAGE] .= "\n\t$1";
+		# print STDERR "VEGADUR: $1\n";
+	}
+
+	if ($htmlcount =~ s/^(vegaEmbed.*)$//m) {
+		$PAGESCRIPT[$PAGE] .= "\n\t$1";
+		# print STDERR "VEGACOUNT: $1\n";
+	}
+
 	my $keysig = getKeySig($file);
 	my $clefs = getClefs($file);;
 
@@ -124,15 +170,10 @@ td.right:after {
 </tr>
 
 <!--
-
 </table>
-
 </td>
-
 <td>
-
-<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:${width}px;">
-
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top;">
 -->
 
 <tr>
@@ -171,29 +212,41 @@ td.right:after {
 
 
 
-<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:${width}px;">
+<table style="display:inline-block; margin-left:-40px; padding-left:-40px; padding-right:20px; vertical-align:top; width:100%;">
 <tr>
 
 	<td>
-		$html
+		$htmldur
+	</td>
+
+	<td>
+		$htmlcount
 	</td>
 
 </tr>
 </table>
 
+<br/>
 
-<table style="display:inline-block; margins: auto; padding-left:20px; padding-right:20px; vertical-align:top; max-width:${width}px;">
+<table style="display:inline-block; margins: auto; padding-left:0px; padding-right:0px; vertical-align:top;">
 <tr>
-	<td style="position:relative">
-		<a target="_blank" href="$imgdir/$id.png"><img width="$width" style="width:${width}px" src="$imgdir/$id.png"></a>
+	<td style="text-align: center; position:relative;">
+		<div style="text-align:center; padding-right:100px; padding-left:100px;">
+			<b>Pitchscape</b> (The most common duration-weighted pitch class at 
+			various timescales in the piece. The apex of the pitchscape 
+			indicates the maximum pitch class for the entire duration of 
+			the piece as shown in the above/left histogram.  The lower right
+			corner of the plot indicates the final pitch.)
+		</div>
+		<a target="_blank" href="$imgdir/$id.png"><img width="65%" src="$imgdir/$id.png"></a>
 		<div id="audio_$id" style="cursor:pointer;" onclick="PlayAudioFile('$id', this);" class="play">play</div>
 	</td>
-
 </tr>
-
 </table>
 
+<br/>
 <hr noshade>
+<br/>
 
 EOT
 }
@@ -245,6 +298,88 @@ sub getClefs {
 		}
 	}
 	$output =~ s/^, //;
+	return $output;
+}
+
+
+##############################
+##
+## createPageFunctions --
+##
+
+sub createPageFunctions {
+	my $output = "";
+	$output .= "<script>\n";
+	for (my $page = 1; $page <= $PAGE; $page++) {
+		$output .= "\nfunction displayPage$page() {\n";
+		$output .= "\tclearAllPagesExcept($page);";
+		$output .= $PAGESCRIPT[$page];
+		$output .= "\n";
+		$output .= "}\n";
+	}
+
+	$output .= "\nfunction clearAllPagesExcept(page) {\n";
+
+	$output .= "	displayPageList(page);\n";
+	$output .= "	var pages = document.querySelectorAll('[id^=page]');\n";
+	$output .= "	for (var i=0; i<pages.length; i++) {\n";
+	$output .= "		var pid = pages[i].id;\n";
+	$output .= "		var matches = pid.match(/^page(\\d+)\$/);\n";
+	$output .= "		if (!matches) {\n";
+	$output .= "			continue;\n";
+	$output .= "		}\n";
+	$output .= "		var pnum = parseInt(matches[1]);\n";
+	$output .= "		if (pnum == page) {\n";
+	$output .= "			continue;\n";
+	$output .= "		}\n";
+	$output .= "		pages[i].style.display = 'none';\n";
+	$output .= "		// clear out old images\n";
+	$output .= "		var svgs = pages[i].querySelectorAll('.vega-svg');\n";
+	$output .= "		for (var j=0; j<svgs.length; j++) {\n";
+	$output .= "			svgs[j].innerHTML = '';\n";
+	$output .= "		}\n";
+	$output .= "	}\n";
+	$output .= "	var target = document.querySelector('#page' + page);\n";
+	$output .= "	if (!target) {\n";
+	$output .= "		return;\n";
+	$output .= "	}\n";
+	$output .= "	target.style.display = 'block';\n";
+
+	$output .= "}\n\n";
+
+	$output .= "	document.addEventListener('DOMContentLoaded', function () {\n";
+	$output .= "		displayPage1();\n";
+	$output .= "	});\n\n";
+
+
+	$output .= "function displayPageList(page) {\n";
+
+	$output .= "	var lists = document.querySelectorAll('.page-list');\n";
+	$output .= "	var output;\n";
+	$output .= "	var maxpage = $PAGE;\n";
+	$output .= "	for (var i=0; i<lists.length; i++) {\n";
+	$output .= "		output = '';\n";
+	$output .= "		output += 'Go to page: ';\n";
+	$output .= "		for (var j=1; j<=maxpage; j++) {\n";
+	$output .= "			if (j == page) {\n";
+	$output .= "				output += j;\n";
+	$output .= "			} else {\n";
+	$output .= "				output += \"<span class='active-page' onclick='displayPage\" + j + \"()'>\" + j + \"</span>\";\n";
+	$output .= "			}\n";
+	$output .= "			if (j < maxpage) {\n";
+	$output .= "				output += ', ';\n";
+	$output .= "			}\n";
+	$output .= "		}\n";
+	$output .= "		output += '<br/>'\n";
+	$output .= "		lists[i].innerHTML = output;\n";
+	$output .= "	}\n";
+
+	$output .= "}\n\n";
+
+	$output .= "</script>\n\n";
+
+
+
 	return $output;
 }
 

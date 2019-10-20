@@ -1,0 +1,78 @@
+<div class="vega-svg" id="id_Trm0164a_count"></div>
+
+<script>
+var data_Trm0164a_count =
+[
+	{"count":24, "pitch class":"C", "voice":"[B. C.]"},
+	{"count":1, "pitch class":"C♯", "voice":"[B. C.]"},
+	{"count":2, "pitch class":"D♭", "voice":"[B. C.]"},
+	{"count":24, "pitch class":"D", "voice":"[B. C.]"},
+	{"count":1, "pitch class":"E♭♭", "voice":"[B. C.]"},
+	{"count":8, "pitch class":"E♭", "voice":"[B. C.]"},
+	{"count":4, "pitch class":"E", "voice":"[B. C.]"},
+	{"count":23, "pitch class":"F", "voice":"[B. C.]"},
+	{"count":16, "pitch class":"G", "voice":"[B. C.]"},
+	{"count":1, "pitch class":"A♭", "voice":"[B. C.]"},
+	{"count":10, "pitch class":"A", "voice":"[B. C.]"},
+	{"count":22, "pitch class":"B♭", "voice":"[B. C.]"},
+	{"count":3, "pitch class":"B", "voice":"[B. C.]"},
+	{"count":35, "pitch class":"C", "voice":"[Soprano o Tenore]"},
+	{"count":24, "pitch class":"D", "voice":"[Soprano o Tenore]"},
+	{"count":4, "pitch class":"E♭", "voice":"[Soprano o Tenore]"},
+	{"count":21, "pitch class":"E", "voice":"[Soprano o Tenore]"},
+	{"count":26, "pitch class":"F", "voice":"[Soprano o Tenore]"},
+	{"count":40, "pitch class":"G", "voice":"[Soprano o Tenore]"},
+	{"count":2, "pitch class":"A♭", "voice":"[Soprano o Tenore]"},
+	{"count":50, "pitch class":"A", "voice":"[Soprano o Tenore]"},
+	{"count":50, "pitch class":"B♭", "voice":"[Soprano o Tenore]"}
+]
+;
+
+var vega_Trm0164a_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0164a_count},
+	"title": "Note-count pitch-class distribution for Trm0164a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 72]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D♭", "D", "E♭♭", "E♭", "E", "F", "G", "A♭", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["[Soprano o Tenore]", "[B. C.]"],
+				"range": ["#e49689", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"F", "count":49}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0164a_count', vega_Trm0164a_count);
+</script>

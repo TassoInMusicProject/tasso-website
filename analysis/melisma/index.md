@@ -21296,6 +21296,80 @@ div#form {
 
 
 <div class="sortable">
+<a name="Trm1245a"></a>
+<table class="entry">
+
+<tr>
+	<td colspan="3" class="id">
+		Trm1245a
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td class="composer">
+		Pallavicino, Benedetto / <span class="date">1588</span>
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>Title:</b>
+	</td>
+	<td>
+		<i>Passa la nave tua che porta il core </i> (rime 1245)
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>Score:</b>
+	</td>
+	<td class="score">
+		33.4% of notes are in a melisma, C: 37.5%, A: 36%, T: 36.8%, V: 27.7%, B: 26%
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>View:</b>
+	</td>
+	<td>
+		<a target="_blank" href="/work?id=Trm1245a&filter=melisma">2+ notes</a>,
+		<a target="_blank" href="/work?id=Trm1245a&filter=melisma%20-m3">3+ notes</a>,
+		<a target="_blank" href="/work?id=Trm1245a&filter=melisma%20-m4">4+ notes</a>,
+		<a target="_blank" href="/work?id=Trm1245a&filter=melisma%20-m5">5+ notes</a>
+	</td>
+</tr>
+
+<tr>
+	<td class="blank">
+	</td>
+	<td>
+		<b>Words:</b>
+	</td>
+	<td>
+	<table>
+	<tr><td>C:</td><td><span title='8 notes starting in m. 3' class='five'>por</span><span title='m. 5' class='one'>ta</span>, <span title='5 notes starting in m. 11' class='five'>por</span><span title='m. 12' class='one'>ta</span>, <span title='2 notes starting in m. 12' class='two'>co</span><span title='m. 13' class='one'>re</span>, <span title='m. 22' class='one'>a</span><span title='6 notes starting in m. 22' class='five'>dor</span><span title='m. 23' class='one'>no</span>, <span title='10 notes starting in m. 29' class='five'>ven</span><span title='m. 30' class='one'>ti</span>, <span title='5 notes starting in m. 31' class='five'>ven</span><span title='m. 31' class='one'>ti</span>, <span title='m. 42' class='one'>for</span><span title='6 notes starting in m. 42' class='five'>tu</span><span title='m. 43' class='one'>n'</span>, <span title='6 notes starting in m. 44' class='five'>scor</span><span title='m. 45' class='one'>no</span>, <span title='20 notes starting in m. 47' class='ten'>ve</span><span title='m. 49' class='one'>la</span>, <span title='9 notes starting in m. 50' class='five'>ve</span><span title='m. 50' class='one'>la</span>, <span title='m. 52' class='one'>ras</span><span title='m. 52' class='one'>se</span><span title='5 notes starting in m. 52' class='five'>re</span><span title='m. 53' class='one'>na</span>, <span title='m. 56' class='one'>ar</span><span title='11 notes starting in m. 56' class='ten'>do</span><span title='m. 57' class='one'>re</span>, <span title='m. 58' class='one'>ar</span><span title='4 notes starting in m. 58' class='four'>do</span><span title='m. 59' class='one'>re</span>, <span title='m. 62' class='one'>ar</span><span title='6 notes starting in m. 62' class='five'>do</span><span title='m. 63' class='one'>re</span>, <span title='7 notes starting in m. 64' class='five'>neb</span><span title='m. 66' class='one'>bia</span>, <span title='4 notes starting in m. 71' class='four'>sde</span><span title='m. 72' class='one'>gni</span>, <span title='5 notes starting in m. 72' class='five'>neb</span><span title='m. 74' class='one'>bia</span>, <span title='9 notes starting in m. 75' class='five'>neb</span><span title='m. 77' class='one'>bia</span>, <span title='4 notes starting in m. 79' class='four'>sde</span><span title='m. 80' class='one'>gni</span>, <span title='6 notes starting in m. 80' class='five'>sar</span><span title='m. 81' class='one'>te</span>, <span title='6 notes starting in m. 84' class='five'>sar</span><span title='m. 85' class='one'>te</span>, <span title='m. 92' class='one'>at</span><span title='2 notes starting in m. 93' class='two'>tor</span><span title='m. 94' class='one'>to</span>, <span title='19 notes starting in m. 95' class='ten'>se</span><span title='m. 97' class='one'>gni</span>, <span title='4 notes starting in m. 107' class='four'>por</span><span title='m. 108' class='one'>to</span>, <span title='5 notes starting in m. 110' class='five'>de</span><span title='m. 110' class='one'>si</span><span title='m. 111' class='one'>a</span><span title='m. 111' class='one'>to</span></td></tr>		<tr><td>A:</td><td><span title='4 notes starting in m. 5' class='four'>co</span><span title='m. 6' class='one'>re</span>, <span title='4 notes starting in m. 17' class='four'>co</span><span title='m. 18' class='one'>re</span>, <span title='7 notes starting in m. 19' class='five'>ciel</span>, <span title='m. 22' class='one'>a</span><span title='10 notes starting in m. 22' class='five'>dor</span><span title='m. 23' class='one'>no</span>, <span title='3 notes starting in m. 28' class='three'>gior</span><span title='m. 29' class='one'>no</span>, <span title='10 notes starting in m. 29' class='five'>ven</span><span title='m. 30' class='one'>ti</span>, <span title='m. 31' class='one'>a</span><span title='2 notes starting in m. 31' class='two'>mo</span><span title='m. 31' class='one'>re</span>, <span title='7 notes starting in m. 33' class='five'>ven</span><span title='m. 33' class='one'>ti</span>, <span title='m. 34' class='one'>a</span><span title='2 notes starting in m. 35' class='two'>mo</span><span title='m. 35' class='one'>re</span>, <span title='m. 40' class='one'>d'ho</span><span title='3 notes starting in m. 40' class='three'>no</span><span title='m. 41' class='one'>re</span>, <span title='m. 42' class='one'>for</span><span title='5 notes starting in m. 42' class='five'>tu</span><span title='m. 43' class='one'>n'</span>, <span title='5 notes starting in m. 43' class='five'>scor</span><span title='m. 44' class='one'>no</span>, <span title='14 notes starting in m. 45' class='ten'>ve</span><span title='m. 47' class='one'>la</span>, <span title='5 notes starting in m. 47' class='five'>ve</span><span title='m. 48' class='one'>la</span>, <span title='5 notes starting in m. 48' class='five'>ve</span><span title='m. 48' class='one'>la</span>, <span title='m. 56' class='one'>ar</span><span title='6 notes starting in m. 57' class='five'>do</span><span title='m. 57' class='one'>re</span>, <span title='m. 60' class='one'>ar</span><span title='10 notes starting in m. 60' class='five'>do</span><span title='m. 61' class='one'>re</span>, <span title='m. 62' class='one'>ar</span><span title='4 notes starting in m. 62' class='four'>do</span><span title='m. 63' class='one'>re</span>, <span title='5 notes starting in m. 65' class='five'>ne</span><span title='m. 67' class='one'>bia</span>, <span title='2 notes starting in m. 68' class='two'>len</span><span title='m. 69' class='one'>ta</span>, <span title='5 notes starting in m. 73' class='five'>neb</span><span title='m. 74' class='one'>bia</span>, <span title='5 notes starting in m. 75' class='five'>neb</span><span title='m. 76' class='one'>bia</span>, <span title='4 notes starting in m. 77' class='four'>len</span><span title='m. 78' class='one'>ta</span>, <span title='5 notes starting in m. 79' class='five'>sde</span><span title='m. 80' class='one'>ni</span>, <span title='6 notes starting in m. 80' class='five'>sar</span><span title='m. 81' class='one'>te</span>, <span title='6 notes starting in m. 82' class='five'>sar</span><span title='m. 83' class='one'>te</span>, <span title='m. 86' class='one'>spe</span><span title='3 notes starting in m. 86' class='three'>ran</span><span title='m. 87' class='one'>za</span>, <span title='16 notes starting in m. 96' class='ten'>se</span><span title='m. 97' class='one'>gni</span>, <span title='3 notes starting in m. 102' class='three'>mor</span><span title='m. 103' class='one'>ta</span>, <span title='2 notes starting in m. 105' class='two'>por</span><span title='m. 106' class='one'>to</span>, <span title='3 notes starting in m. 109' class='three'>por</span><span title='m. 109' class='one'>to</span></td></tr>		<tr><td>T:</td><td><span title='5 notes starting in m. 29' class='five'>ven</span><span title='m. 30' class='one'>ti</span>, <span title='11 notes starting in m. 30' class='ten'>ven</span><span title='m. 31' class='one'>ti</span>, <span title='11 notes starting in m. 32' class='ten'>ven</span><span title='m. 33' class='one'>ti</span>, <span title='5 notes starting in m. 33' class='five'>ven</span><span title='m. 33' class='one'>ti</span>, <span title='m. 37' class='one'>d'ho</span><span title='4 notes starting in m. 37' class='four'>no</span><span title='m. 38' class='one'>re</span>, <span title='m. 42' class='one'>for</span><span title='5 notes starting in m. 42' class='five'>tu</span><span title='m. 43' class='one'>n'</span>, <span title='10 notes starting in m. 45' class='five'>ve</span><span title='m. 46' class='one'>la</span>, <span title='13 notes starting in m. 48' class='ten'>ve</span><span title='m. 49' class='one'>la</span>, <span title='9 notes starting in m. 49' class='five'>ve</span><span title='m. 50' class='one'>la</span>, <span title='m. 52' class='one'>in</span><span title='11 notes starting in m. 52' class='ten'>tor</span><span title='m. 53' class='one'>no</span>, <span title='m. 57' class='one'>ar</span><span title='10 notes starting in m. 58' class='five'>do</span><span title='m. 59' class='one'>re</span>, <span title='m. 60' class='one'>ar</span><span title='16 notes starting in m. 60' class='ten'>do</span><span title='m. 61' class='one'>re</span>, <span title='m. 62' class='one'>ar</span><span title='4 notes starting in m. 62' class='four'>do</span><span title='m. 63' class='one'>re</span>, <span title='7 notes starting in m. 65' class='five'>neb</span><span title='m. 67' class='one'>bia</span>, <span title='5 notes starting in m. 72' class='five'>neb</span><span title='m. 74' class='one'>bia</span>, <span title='6 notes starting in m. 81' class='five'>sar</span><span title='m. 82' class='one'>te</span>, <span title='8 notes starting in m. 82' class='five'>sar</span><span title='m. 83' class='one'>te</span>, <span title='6 notes starting in m. 84' class='five'>sar</span><span title='m. 84' class='one'>te</span>, <span title='m. 89' class='one'>at</span><span title='3 notes starting in m. 89' class='three'>tor</span><span title='m. 90' class='one'>to</span>, <span title='m. 110' class='one'>de</span><span title='m. 110' class='one'>si</span><span title='5 notes starting in m. 110' class='five'>a</span><span title='m. 110' class='one'>to</span>, <span title='6 notes starting in m. 110' class='five'>por</span><span title='m. 111' class='one'>to</span></td></tr>		<tr><td>V:</td><td><span title='4 notes starting in m. 7' class='four'>co</span><span title='m. 8' class='one'>re</span>, <span title='m. 21' class='one'>a</span><span title='4 notes starting in m. 21' class='four'>dor</span><span title='m. 22' class='one'>no</span>, <span title='5 notes starting in m. 30' class='five'>ven</span><span title='m. 30' class='one'>ti</span>, <span title='7 notes starting in m. 33' class='five'>ven</span><span title='m. 33' class='one'>ti</span>, <span title='m. 42' class='one'>for</span><span title='5 notes starting in m. 42' class='five'>tu</span><span title='m. 43' class='one'>n'</span>, <span title='13 notes starting in m. 46' class='ten'>ve</span><span title='m. 47' class='one'>la</span>, <span title='5 notes starting in m. 48' class='five'>ve</span><span title='m. 48' class='one'>la</span>, <span title='13 notes starting in m. 50' class='ten'>ve</span><span title='m. 51' class='one'>la</span>, <span title='m. 52' class='one'>in</span><span title='11 notes starting in m. 52' class='ten'>tor</span><span title='m. 53' class='one'>no</span>, <span title='4 notes starting in m. 54' class='four'>gio</span><span title='m. 54' class='one'>ia</span>, <span title='m. 56' class='one'>ar</span><span title='6 notes starting in m. 56' class='five'>do</span><span title='m. 57' class='one'>re</span>, <span title='m. 61' class='one'>ar</span><span title='6 notes starting in m. 62' class='five'>do</span><span title='m. 63' class='one'>re</span>, <span title='5 notes starting in m. 71' class='five'>sde</span><span title='m. 72' class='one'>gni</span>, <span title='9 notes starting in m. 73' class='five'>neb</span><span title='m. 75' class='one'>bia</span>, <span title='6 notes starting in m. 81' class='five'>sar</span><span title='m. 82' class='one'>te</span>, <span title='6 notes starting in m. 83' class='five'>sar</span><span title='m. 84' class='one'>te</span>, <span title='m. 93' class='one'>at</span><span title='4 notes starting in m. 93' class='four'>tor</span><span title='m. 94' class='one'>to</span></td></tr>		<tr><td>B:</td><td><span title='4 notes starting in m. 15' class='four'>co</span><span title='m. 16' class='one'>re</span>, <span title='7 notes starting in m. 30' class='five'>ven</span><span title='m. 31' class='one'>ti</span>, <span title='6 notes starting in m. 32' class='five'>ven</span><span title='m. 32' class='one'>ti</span>, <span title='m. 33' class='one'>a</span><span title='2 notes starting in m. 33' class='two'>mo</span><span title='m. 34' class='one'>re</span>, <span title='m. 37' class='one'>d'ho</span><span title='3 notes starting in m. 37' class='three'>no</span><span title='m. 38' class='one'>re</span>, <span title='m. 42' class='one'>for</span><span title='5 notes starting in m. 42' class='five'>tu</span><span title='m. 43' class='one'>n'</span>, <span title='5 notes starting in m. 44' class='five'>scor</span><span title='m. 45' class='one'>no</span>, <span title='14 notes starting in m. 49' class='ten'>ve</span><span title='m. 50' class='one'>la</span>, <span title='m. 52' class='one'>in</span><span title='5 notes starting in m. 52' class='five'>tor</span><span title='m. 53' class='one'>no</span>, <span title='m. 60' class='one'>ar</span><span title='6 notes starting in m. 60' class='five'>do</span><span title='m. 61' class='one'>re</span>, <span title='7 notes starting in m. 72' class='five'>neb</span><span title='m. 74' class='one'>bia</span>, <span title='7 notes starting in m. 74' class='five'>neb</span><span title='m. 76' class='one'>bia</span>, <span title='6 notes starting in m. 82' class='five'>sar</span><span title='m. 83' class='one'>te</span></td></tr>	</table>
+
+	</td>
+</tr>
+
+</table>
+</div>
+
+
+<div class="sortable">
 <a name="Trm1276a"></a>
 <table class="entry">
 
@@ -30324,12 +30398,12 @@ div#form {
 
 
 <div class="sortable">
-<a name="Tsg20131a"></a>
+<a name="Tsg20131b"></a>
 <table class="entry">
 
 <tr>
 	<td colspan="3" class="id">
-		Tsg20131a
+		Tsg20131b
 	</td>
 </tr>
 
@@ -30340,7 +30414,7 @@ div#form {
 		<b>Composer:</b>
 	</td>
 	<td class="composer">
-		Cifra, Antonio / <span class="date">1614</span>
+		Eredi, Francesco / <span class="date">1629</span>
 	</td>
 </tr>
 
@@ -30373,10 +30447,10 @@ div#form {
 		<b>View:</b>
 	</td>
 	<td>
-		<a target="_blank" href="/work?id=Tsg20131a&filter=melisma">2+ notes</a>,
-		<a target="_blank" href="/work?id=Tsg20131a&filter=melisma%20-m3">3+ notes</a>,
-		<a target="_blank" href="/work?id=Tsg20131a&filter=melisma%20-m4">4+ notes</a>,
-		<a target="_blank" href="/work?id=Tsg20131a&filter=melisma%20-m5">5+ notes</a>
+		<a target="_blank" href="/work?id=Tsg20131b&filter=melisma">2+ notes</a>,
+		<a target="_blank" href="/work?id=Tsg20131b&filter=melisma%20-m3">3+ notes</a>,
+		<a target="_blank" href="/work?id=Tsg20131b&filter=melisma%20-m4">4+ notes</a>,
+		<a target="_blank" href="/work?id=Tsg20131b&filter=melisma%20-m5">5+ notes</a>
 	</td>
 </tr>
 

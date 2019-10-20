@@ -1,0 +1,109 @@
+<div class="vega-svg" id="id_Tam5011978a_count"></div>
+
+<script>
+var data_Tam5011978a_count =
+[
+	{"count":7, "pitch class":"C", "voice":"Basso"},
+	{"count":4, "pitch class":"C♯", "voice":"Basso"},
+	{"count":17, "pitch class":"D", "voice":"Basso"},
+	{"count":27, "pitch class":"E", "voice":"Basso"},
+	{"count":14, "pitch class":"F", "voice":"Basso"},
+	{"count":1, "pitch class":"F♯", "voice":"Basso"},
+	{"count":22, "pitch class":"G", "voice":"Basso"},
+	{"count":1, "pitch class":"G♯", "voice":"Basso"},
+	{"count":25, "pitch class":"A", "voice":"Basso"},
+	{"count":9, "pitch class":"B", "voice":"Basso"},
+	{"count":19, "pitch class":"C", "voice":"Tenore"},
+	{"count":4, "pitch class":"C♯", "voice":"Tenore"},
+	{"count":27, "pitch class":"D", "voice":"Tenore"},
+	{"count":1, "pitch class":"D♯", "voice":"Tenore"},
+	{"count":17, "pitch class":"E", "voice":"Tenore"},
+	{"count":4, "pitch class":"F", "voice":"Tenore"},
+	{"count":1, "pitch class":"F♯", "voice":"Tenore"},
+	{"count":13, "pitch class":"G", "voice":"Tenore"},
+	{"count":8, "pitch class":"G♯", "voice":"Tenore"},
+	{"count":26, "pitch class":"A", "voice":"Tenore"},
+	{"count":22, "pitch class":"B", "voice":"Tenore"},
+	{"count":14, "pitch class":"C", "voice":"Alto"},
+	{"count":4, "pitch class":"C♯", "voice":"Alto"},
+	{"count":29, "pitch class":"D", "voice":"Alto"},
+	{"count":27, "pitch class":"E", "voice":"Alto"},
+	{"count":10, "pitch class":"F", "voice":"Alto"},
+	{"count":2, "pitch class":"F♯", "voice":"Alto"},
+	{"count":14, "pitch class":"G", "voice":"Alto"},
+	{"count":5, "pitch class":"G♯", "voice":"Alto"},
+	{"count":20, "pitch class":"A", "voice":"Alto"},
+	{"count":21, "pitch class":"B", "voice":"Alto"},
+	{"count":16, "pitch class":"C", "voice":"Quinto"},
+	{"count":5, "pitch class":"C♯", "voice":"Quinto"},
+	{"count":20, "pitch class":"D", "voice":"Quinto"},
+	{"count":18, "pitch class":"E", "voice":"Quinto"},
+	{"count":5, "pitch class":"F", "voice":"Quinto"},
+	{"count":7, "pitch class":"F♯", "voice":"Quinto"},
+	{"count":19, "pitch class":"G", "voice":"Quinto"},
+	{"count":10, "pitch class":"G♯", "voice":"Quinto"},
+	{"count":32, "pitch class":"A", "voice":"Quinto"},
+	{"count":2, "pitch class":"B♭", "voice":"Quinto"},
+	{"count":24, "pitch class":"B", "voice":"Quinto"},
+	{"count":30, "pitch class":"C", "voice":"Canto"},
+	{"count":6, "pitch class":"C♯", "voice":"Canto"},
+	{"count":31, "pitch class":"D", "voice":"Canto"},
+	{"count":24, "pitch class":"E", "voice":"Canto"},
+	{"count":5, "pitch class":"F", "voice":"Canto"},
+	{"count":6, "pitch class":"F♯", "voice":"Canto"},
+	{"count":10, "pitch class":"G", "voice":"Canto"},
+	{"count":8, "pitch class":"G♯", "voice":"Canto"},
+	{"count":30, "pitch class":"A", "voice":"Canto"},
+	{"count":1, "pitch class":"B♭", "voice":"Canto"},
+	{"count":30, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Tam5011978a_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tam5011978a_count},
+	"title": "Note-count pitch-class distribution for Tam5011978a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 133]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Quinto", "Alto", "Tenore", "Basso"],
+				"range": ["#e49689", "#e3f5f8", "#f4c6a1", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "count":78}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tam5011978a_count', vega_Tam5011978a_count);
+</script>

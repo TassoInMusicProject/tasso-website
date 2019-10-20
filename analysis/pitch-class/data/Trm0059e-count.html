@@ -1,0 +1,101 @@
+<div class="vega-svg" id="id_Trm0059e_count"></div>
+
+<script>
+var data_Trm0059e_count =
+[
+	{"count":8, "pitch class":"C", "voice":"Basso"},
+	{"count":1, "pitch class":"C♯", "voice":"Basso"},
+	{"count":9, "pitch class":"D", "voice":"Basso"},
+	{"count":4, "pitch class":"E", "voice":"Basso"},
+	{"count":2, "pitch class":"F", "voice":"Basso"},
+	{"count":2, "pitch class":"F♯", "voice":"Basso"},
+	{"count":17, "pitch class":"G", "voice":"Basso"},
+	{"count":6, "pitch class":"A", "voice":"Basso"},
+	{"count":4, "pitch class":"B", "voice":"Basso"},
+	{"count":8, "pitch class":"C", "voice":"Alto"},
+	{"count":1, "pitch class":"C♯", "voice":"Alto"},
+	{"count":9, "pitch class":"D", "voice":"Alto"},
+	{"count":4, "pitch class":"E", "voice":"Alto"},
+	{"count":4, "pitch class":"F", "voice":"Alto"},
+	{"count":1, "pitch class":"F♯", "voice":"Alto"},
+	{"count":14, "pitch class":"G", "voice":"Alto"},
+	{"count":7, "pitch class":"A", "voice":"Alto"},
+	{"count":5, "pitch class":"B", "voice":"Alto"},
+	{"count":7, "pitch class":"C", "voice":"Canto II"},
+	{"count":1, "pitch class":"C♯", "voice":"Canto II"},
+	{"count":5, "pitch class":"D", "voice":"Canto II"},
+	{"count":6, "pitch class":"E", "voice":"Canto II"},
+	{"count":2, "pitch class":"F", "voice":"Canto II"},
+	{"count":4, "pitch class":"F♯", "voice":"Canto II"},
+	{"count":17, "pitch class":"G", "voice":"Canto II"},
+	{"count":2, "pitch class":"G♯", "voice":"Canto II"},
+	{"count":15, "pitch class":"A", "voice":"Canto II"},
+	{"count":12, "pitch class":"B", "voice":"Canto II"},
+	{"count":11, "pitch class":"C", "voice":"Canto"},
+	{"count":2, "pitch class":"C♯", "voice":"Canto"},
+	{"count":17, "pitch class":"D", "voice":"Canto"},
+	{"count":10, "pitch class":"E", "voice":"Canto"},
+	{"count":4, "pitch class":"F", "voice":"Canto"},
+	{"count":4, "pitch class":"F♯", "voice":"Canto"},
+	{"count":16, "pitch class":"G", "voice":"Canto"},
+	{"count":3, "pitch class":"A", "voice":"Canto"},
+	{"count":5, "pitch class":"B", "voice":"Canto"},
+	{"count":12, "pitch class":"C", "voice":""},
+	{"count":1, "pitch class":"C♯", "voice":""},
+	{"count":16, "pitch class":"D", "voice":""},
+	{"count":11, "pitch class":"E", "voice":""},
+	{"count":3, "pitch class":"F", "voice":""},
+	{"count":6, "pitch class":"G", "voice":""},
+	{"count":5, "pitch class":"A", "voice":""},
+	{"count":9, "pitch class":"B", "voice":""}
+]
+;
+
+var vega_Trm0059e_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0059e_count},
+	"title": "Note-count pitch-class distribution for Trm0059e ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 70]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E", "F", "F♯", "G", "G♯", "A", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Canto II", "Alto", "Basso"],
+				"range": ["#e49689", "#d67365", "#f4c6a1", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "count":70}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0059e_count', vega_Trm0059e_count);
+</script>

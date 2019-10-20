@@ -12029,52 +12029,6 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.png"></a>
-		<div id="audio_Tsg20131a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20131a', this);" class="play">play</div>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>ID:</b>
-	</td>
-	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Tsg20131a">Tsg20131a</a>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Composer:</b>
-	</td>
-	<td>
-		Cifra, Antonio / 1614
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Title</b>
-	</td>
-	<td>
-		<i>O sempre, e quando parti e quando torni</i> 
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<b>Final</b>
-	</td>
-	<td>
-		(G)(G)G
-	</td>
-</tr>
-
-</table>
-
-<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
-<tr>
-	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tsg20134a-Cosi_doleasi_e_con_le_flebil_onde--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20134a-Cosi_doleasi_e_con_le_flebil_onde--Eredi_1629.png"></a>
 		<div id="audio_Tsg20134a" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20134a', this);" class="play">play</div>
 	</td>

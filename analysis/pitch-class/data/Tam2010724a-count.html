@@ -1,0 +1,116 @@
+<div class="vega-svg" id="id_Tam2010724a_count"></div>
+
+<script>
+var data_Tam2010724a_count =
+[
+	{"count":114, "pitch class":"C", "voice":"Basso"},
+	{"count":1, "pitch class":"C♯", "voice":"Basso"},
+	{"count":67, "pitch class":"D", "voice":"Basso"},
+	{"count":10, "pitch class":"E", "voice":"Basso"},
+	{"count":73, "pitch class":"F", "voice":"Basso"},
+	{"count":2, "pitch class":"F♯", "voice":"Basso"},
+	{"count":102, "pitch class":"G", "voice":"Basso"},
+	{"count":84, "pitch class":"A", "voice":"Basso"},
+	{"count":23, "pitch class":"B♭", "voice":"Basso"},
+	{"count":16, "pitch class":"B", "voice":"Basso"},
+	{"count":170, "pitch class":"C", "voice":"Quinto"},
+	{"count":1, "pitch class":"C♯", "voice":"Quinto"},
+	{"count":90, "pitch class":"D", "voice":"Quinto"},
+	{"count":25, "pitch class":"E", "voice":"Quinto"},
+	{"count":15, "pitch class":"F", "voice":"Quinto"},
+	{"count":2, "pitch class":"F♯", "voice":"Quinto"},
+	{"count":39, "pitch class":"G", "voice":"Quinto"},
+	{"count":97, "pitch class":"A", "voice":"Quinto"},
+	{"count":2, "pitch class":"B♭", "voice":"Quinto"},
+	{"count":19, "pitch class":"B", "voice":"Quinto"},
+	{"count":11, "pitch class":"C", "voice":"Tenore"},
+	{"count":6, "pitch class":"C♯", "voice":"Tenore"},
+	{"count":85, "pitch class":"D", "voice":"Tenore"},
+	{"count":77, "pitch class":"E", "voice":"Tenore"},
+	{"count":92, "pitch class":"F", "voice":"Tenore"},
+	{"count":24, "pitch class":"F♯", "voice":"Tenore"},
+	{"count":148, "pitch class":"G", "voice":"Tenore"},
+	{"count":1, "pitch class":"G♯", "voice":"Tenore"},
+	{"count":47, "pitch class":"A", "voice":"Tenore"},
+	{"count":10, "pitch class":"B", "voice":"Tenore"},
+	{"count":37, "pitch class":"C", "voice":"Alto"},
+	{"count":20, "pitch class":"D", "voice":"Alto"},
+	{"count":45, "pitch class":"E", "voice":"Alto"},
+	{"count":19, "pitch class":"F", "voice":"Alto"},
+	{"count":13, "pitch class":"F♯", "voice":"Alto"},
+	{"count":147, "pitch class":"G", "voice":"Alto"},
+	{"count":5, "pitch class":"G♯", "voice":"Alto"},
+	{"count":144, "pitch class":"A", "voice":"Alto"},
+	{"count":18, "pitch class":"B♭", "voice":"Alto"},
+	{"count":39, "pitch class":"B", "voice":"Alto"},
+	{"count":105, "pitch class":"C", "voice":"Sesto"},
+	{"count":46, "pitch class":"C♯", "voice":"Sesto"},
+	{"count":107, "pitch class":"D", "voice":"Sesto"},
+	{"count":2, "pitch class":"D♯", "voice":"Sesto"},
+	{"count":107, "pitch class":"E", "voice":"Sesto"},
+	{"count":37, "pitch class":"F", "voice":"Sesto"},
+	{"count":1, "pitch class":"G", "voice":"Sesto"},
+	{"count":6, "pitch class":"G♯", "voice":"Sesto"},
+	{"count":34, "pitch class":"A", "voice":"Sesto"},
+	{"count":65, "pitch class":"B", "voice":"Sesto"},
+	{"count":52, "pitch class":"C", "voice":"Canto"},
+	{"count":20, "pitch class":"C♯", "voice":"Canto"},
+	{"count":68, "pitch class":"D", "voice":"Canto"},
+	{"count":2, "pitch class":"D♯", "voice":"Canto"},
+	{"count":124, "pitch class":"E", "voice":"Canto"},
+	{"count":82, "pitch class":"F", "voice":"Canto"},
+	{"count":3, "pitch class":"F♯", "voice":"Canto"},
+	{"count":59, "pitch class":"G", "voice":"Canto"},
+	{"count":32, "pitch class":"A", "voice":"Canto"},
+	{"count":32, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Tam2010724a_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tam2010724a_count},
+	"title": "Note-count pitch-class distribution for Tam2010724a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 496]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Sesto", "Alto", "Tenore", "Quinto", "Basso"],
+				"range": ["#e49689", "#c8f0bb", "#f4c6a1", "#ecdf7a", "#e3f5f8", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "count":496}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tam2010724a_count', vega_Tam2010724a_count);
+</script>

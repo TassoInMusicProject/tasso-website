@@ -32,3 +32,20 @@ div#contents {
 }
 
 
+summary {
+	color: #c2ab6c;
+}
+
+.active-page {
+	color: #c2ab6c;
+	cursor: pointer;
+}
+
+
+summary:focus {
+	outline: none;
+}
+
+
+
+

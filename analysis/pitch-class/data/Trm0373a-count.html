@@ -1,0 +1,89 @@
+<div class="vega-svg" id="id_Trm0373a_count"></div>
+
+<script>
+var data_Trm0373a_count =
+[
+	{"count":37, "pitch class":"C", "voice":"Basso continuo"},
+	{"count":1, "pitch class":"C♯", "voice":"Basso continuo"},
+	{"count":41, "pitch class":"D", "voice":"Basso continuo"},
+	{"count":29, "pitch class":"E", "voice":"Basso continuo"},
+	{"count":22, "pitch class":"F", "voice":"Basso continuo"},
+	{"count":6, "pitch class":"F♯", "voice":"Basso continuo"},
+	{"count":55, "pitch class":"G", "voice":"Basso continuo"},
+	{"count":1, "pitch class":"G♯", "voice":"Basso continuo"},
+	{"count":35, "pitch class":"A", "voice":"Basso continuo"},
+	{"count":4, "pitch class":"B♭", "voice":"Basso continuo"},
+	{"count":20, "pitch class":"B", "voice":"Basso continuo"},
+	{"count":53, "pitch class":"C", "voice":"[Canto 2]"},
+	{"count":10, "pitch class":"C♯", "voice":"[Canto 2]"},
+	{"count":55, "pitch class":"D", "voice":"[Canto 2]"},
+	{"count":1, "pitch class":"D♯", "voice":"[Canto 2]"},
+	{"count":34, "pitch class":"E", "voice":"[Canto 2]"},
+	{"count":11, "pitch class":"F", "voice":"[Canto 2]"},
+	{"count":10, "pitch class":"F♯", "voice":"[Canto 2]"},
+	{"count":36, "pitch class":"G", "voice":"[Canto 2]"},
+	{"count":39, "pitch class":"A", "voice":"[Canto 2]"},
+	{"count":6, "pitch class":"B♭", "voice":"[Canto 2]"},
+	{"count":50, "pitch class":"B", "voice":"[Canto 2]"},
+	{"count":45, "pitch class":"C", "voice":"[Canto 1]"},
+	{"count":4, "pitch class":"C♯", "voice":"[Canto 1]"},
+	{"count":45, "pitch class":"D", "voice":"[Canto 1]"},
+	{"count":44, "pitch class":"E", "voice":"[Canto 1]"},
+	{"count":31, "pitch class":"F", "voice":"[Canto 1]"},
+	{"count":13, "pitch class":"F♯", "voice":"[Canto 1]"},
+	{"count":56, "pitch class":"G", "voice":"[Canto 1]"},
+	{"count":5, "pitch class":"G♯", "voice":"[Canto 1]"},
+	{"count":49, "pitch class":"A", "voice":"[Canto 1]"},
+	{"count":2, "pitch class":"B♭", "voice":"[Canto 1]"},
+	{"count":42, "pitch class":"B", "voice":"[Canto 1]"}
+]
+;
+
+var vega_Trm0373a_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0373a_count},
+	"title": "Note-count pitch-class distribution for Trm0373a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 147]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["[Canto 1]", "[Canto 2]", "Basso continuo"],
+				"range": ["#e49689", "#d67365", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "count":147}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0373a_count', vega_Trm0373a_count);
+</script>

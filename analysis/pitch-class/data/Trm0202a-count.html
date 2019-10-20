@@ -1,0 +1,117 @@
+<div class="vega-svg" id="id_Trm0202a_count"></div>
+
+<script>
+var data_Trm0202a_count =
+[
+	{"count":18, "pitch class":"C", "voice":"Basso"},
+	{"count":21, "pitch class":"D", "voice":"Basso"},
+	{"count":21, "pitch class":"E", "voice":"Basso"},
+	{"count":15, "pitch class":"F", "voice":"Basso"},
+	{"count":14, "pitch class":"G", "voice":"Basso"},
+	{"count":3, "pitch class":"G♯", "voice":"Basso"},
+	{"count":29, "pitch class":"A", "voice":"Basso"},
+	{"count":2, "pitch class":"B♭", "voice":"Basso"},
+	{"count":4, "pitch class":"B", "voice":"Basso"},
+	{"count":25, "pitch class":"C", "voice":"Tenore"},
+	{"count":1, "pitch class":"C♯", "voice":"Tenore"},
+	{"count":21, "pitch class":"D", "voice":"Tenore"},
+	{"count":27, "pitch class":"E", "voice":"Tenore"},
+	{"count":6, "pitch class":"F", "voice":"Tenore"},
+	{"count":1, "pitch class":"F♯", "voice":"Tenore"},
+	{"count":11, "pitch class":"G", "voice":"Tenore"},
+	{"count":33, "pitch class":"A", "voice":"Tenore"},
+	{"count":2, "pitch class":"B♭", "voice":"Tenore"},
+	{"count":24, "pitch class":"B", "voice":"Tenore"},
+	{"count":14, "pitch class":"C", "voice":"Quinto"},
+	{"count":1, "pitch class":"C♯", "voice":"Quinto"},
+	{"count":25, "pitch class":"D", "voice":"Quinto"},
+	{"count":43, "pitch class":"E", "voice":"Quinto"},
+	{"count":26, "pitch class":"F", "voice":"Quinto"},
+	{"count":2, "pitch class":"F♯", "voice":"Quinto"},
+	{"count":14, "pitch class":"G", "voice":"Quinto"},
+	{"count":1, "pitch class":"G♯", "voice":"Quinto"},
+	{"count":23, "pitch class":"A", "voice":"Quinto"},
+	{"count":1, "pitch class":"B♭", "voice":"Quinto"},
+	{"count":10, "pitch class":"B", "voice":"Quinto"},
+	{"count":23, "pitch class":"C", "voice":"Alto (Canto III)"},
+	{"count":3, "pitch class":"C♯", "voice":"Alto (Canto III)"},
+	{"count":17, "pitch class":"D", "voice":"Alto (Canto III)"},
+	{"count":23, "pitch class":"E", "voice":"Alto (Canto III)"},
+	{"count":8, "pitch class":"F", "voice":"Alto (Canto III)"},
+	{"count":1, "pitch class":"F♯", "voice":"Alto (Canto III)"},
+	{"count":15, "pitch class":"G", "voice":"Alto (Canto III)"},
+	{"count":3, "pitch class":"G♯", "voice":"Alto (Canto III)"},
+	{"count":18, "pitch class":"A", "voice":"Alto (Canto III)"},
+	{"count":17, "pitch class":"B", "voice":"Alto (Canto III)"},
+	{"count":21, "pitch class":"C", "voice":"Sesto (Canto II)"},
+	{"count":2, "pitch class":"C♯", "voice":"Sesto (Canto II)"},
+	{"count":17, "pitch class":"D", "voice":"Sesto (Canto II)"},
+	{"count":27, "pitch class":"E", "voice":"Sesto (Canto II)"},
+	{"count":7, "pitch class":"F", "voice":"Sesto (Canto II)"},
+	{"count":2, "pitch class":"F♯", "voice":"Sesto (Canto II)"},
+	{"count":18, "pitch class":"G", "voice":"Sesto (Canto II)"},
+	{"count":4, "pitch class":"G♯", "voice":"Sesto (Canto II)"},
+	{"count":35, "pitch class":"A", "voice":"Sesto (Canto II)"},
+	{"count":2, "pitch class":"B♭", "voice":"Sesto (Canto II)"},
+	{"count":16, "pitch class":"B", "voice":"Sesto (Canto II)"},
+	{"count":21, "pitch class":"C", "voice":"Canto (Canto I)"},
+	{"count":3, "pitch class":"C♯", "voice":"Canto (Canto I)"},
+	{"count":14, "pitch class":"D", "voice":"Canto (Canto I)"},
+	{"count":20, "pitch class":"E", "voice":"Canto (Canto I)"},
+	{"count":8, "pitch class":"F", "voice":"Canto (Canto I)"},
+	{"count":17, "pitch class":"G", "voice":"Canto (Canto I)"},
+	{"count":2, "pitch class":"G♯", "voice":"Canto (Canto I)"},
+	{"count":33, "pitch class":"A", "voice":"Canto (Canto I)"},
+	{"count":2, "pitch class":"B♭", "voice":"Canto (Canto I)"},
+	{"count":23, "pitch class":"B", "voice":"Canto (Canto I)"}
+]
+;
+
+var vega_Trm0202a_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0202a_count},
+	"title": "Note-count pitch-class distribution for Trm0202a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 171]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E", "F", "F♯", "G", "G♯", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto (Canto I)", "Sesto (Canto II)", "Alto (Canto III)", "Quinto", "Tenore", "Basso"],
+				"range": ["#e49689", "#c8f0bb", "#f4c6a1", "#e3f5f8", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"E", "count":161}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0202a_count', vega_Trm0202a_count);
+</script>

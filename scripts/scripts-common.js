@@ -665,8 +665,9 @@ function PlayAudioFile(jrpid, element, starttime) {
 	   AUDIO = document.getElementById('audio');
    }
 	if (!AUDIO) {
-		document.body.innerHTML += '<audio id="audio"></audio>\n';
-	   AUDIO = document.getElementById('audio');
+		AUDIO = document.createElement("AUDIO");
+		AUDIO.id = "audio";
+		document.body.appendChild(AUDIO);
 	}
    if (!AUDIO) {
 		console.log('Error: could not set up audio interface\n');
@@ -681,6 +682,7 @@ function PlayAudioFile(jrpid, element, starttime) {
 	AUDIO.onpause = function () {
 		TurnOffAllNotes();
 	}
+
 
 	var audiobutton;
    if (jrpid != AUDIOjrpid) {
@@ -734,6 +736,7 @@ function PlayAudioFile(jrpid, element, starttime) {
 
 		return;
 	}
+
 
 	// The audio file is the same, so start it or pause it depending
 	// on its current state:
@@ -865,6 +868,7 @@ function ProcessNoteEvents(event) {
 		xoff.style.fill = "";
 	}
 }
+
 
 
 //////////////////////////////

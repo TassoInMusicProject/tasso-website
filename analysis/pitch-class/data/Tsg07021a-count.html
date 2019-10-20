@@ -1,0 +1,73 @@
+<div class="vega-svg" id="id_Tsg07021a_count"></div>
+
+<script>
+var data_Tsg07021a_count =
+[
+	{"count":7, "pitch class":"C", "voice":"[Basso continuo]"},
+	{"count":24, "pitch class":"D", "voice":"[Basso continuo]"},
+	{"count":11, "pitch class":"E♭", "voice":"[Basso continuo]"},
+	{"count":14, "pitch class":"F", "voice":"[Basso continuo]"},
+	{"count":20, "pitch class":"G", "voice":"[Basso continuo]"},
+	{"count":3, "pitch class":"A", "voice":"[Basso continuo]"},
+	{"count":9, "pitch class":"B♭", "voice":"[Basso continuo]"},
+	{"count":65, "pitch class":"C", "voice":"[Canto]"},
+	{"count":59, "pitch class":"D", "voice":"[Canto]"},
+	{"count":14, "pitch class":"E♭", "voice":"[Canto]"},
+	{"count":20, "pitch class":"E", "voice":"[Canto]"},
+	{"count":37, "pitch class":"F", "voice":"[Canto]"},
+	{"count":3, "pitch class":"F♯", "voice":"[Canto]"},
+	{"count":60, "pitch class":"G", "voice":"[Canto]"},
+	{"count":64, "pitch class":"A", "voice":"[Canto]"},
+	{"count":71, "pitch class":"B♭", "voice":"[Canto]"},
+	{"count":2, "pitch class":"B", "voice":"[Canto]"}
+]
+;
+
+var vega_Tsg07021a_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Tsg07021a_count},
+	"title": "Note-count pitch-class distribution for Tsg07021a ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 83]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["[Canto]", "[Basso continuo]"],
+				"range": ["#e49689", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "count":80}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Tsg07021a_count', vega_Tsg07021a_count);
+</script>

@@ -1,0 +1,76 @@
+<div class="vega-svg" id="id_Trm0399b_count"></div>
+
+<script>
+var data_Trm0399b_count =
+[
+	{"count":14, "pitch class":"C", "voice":"B.C."},
+	{"count":8, "pitch class":"D", "voice":"B.C."},
+	{"count":2, "pitch class":"E♭", "voice":"B.C."},
+	{"count":3, "pitch class":"E", "voice":"B.C."},
+	{"count":13, "pitch class":"F", "voice":"B.C."},
+	{"count":1, "pitch class":"F♯", "voice":"B.C."},
+	{"count":10, "pitch class":"G", "voice":"B.C."},
+	{"count":10, "pitch class":"A", "voice":"B.C."},
+	{"count":12, "pitch class":"B♭", "voice":"B.C."},
+	{"count":1, "pitch class":"B", "voice":"B.C."},
+	{"count":15, "pitch class":"C", "voice":" "},
+	{"count":8, "pitch class":"D", "voice":" "},
+	{"count":2, "pitch class":"E♭", "voice":" "},
+	{"count":4, "pitch class":"E", "voice":" "},
+	{"count":16, "pitch class":"F", "voice":" "},
+	{"count":3, "pitch class":"F♯", "voice":" "},
+	{"count":14, "pitch class":"G", "voice":" "},
+	{"count":13, "pitch class":"A", "voice":" "},
+	{"count":13, "pitch class":"B♭", "voice":" "},
+	{"count":2, "pitch class":"B", "voice":" "}
+]
+;
+
+var vega_Trm0399b_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0399b_count},
+	"title": "Note-count pitch-class distribution for Trm0399b ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 29]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": [" ", "B.C."],
+				"range": ["black", "#a071ec"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"F", "count":29}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0399b_count', vega_Trm0399b_count);
+</script>

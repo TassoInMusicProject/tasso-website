@@ -43,8 +43,12 @@ sub processFile {
 	my $id = $base;
 	$id =~ s/-.*//;
 	if (!-r "$datadir/$id-duration.html") {
-		print STDERR "Creating data $datadir/$base.html\n";
+		print STDERR "Creating $datadir/$id-duration.html\n";
 		`$pccount -h $file > $datadir/$id-duration.html`;
+	}
+	if (!-r "$datadir/$id-count.html") {
+		print STDERR "Creating $datadir/$id-count.html\n";
+		`$pccount -ha $file > $datadir/$id-count.html`;
 	}
 }
 

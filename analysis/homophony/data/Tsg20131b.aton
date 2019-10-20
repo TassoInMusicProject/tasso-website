@@ -1,0 +1,412 @@
+@HOMOPHONIC:	!!!CDT:
+!!!PTL: L'Armida del Tasso posta in musica a cinque voci, col suo basso per suonare
+!!!PPP: Venice
+!!!PPR: Alessandro Vincenzi
+!!!PDT: 1629
+!!!RISM: E 741
+!!!AGN: Madrigal
+!!!SCT: Tsg20131b
+!!!SCA: Tsg20131b
+!!!original-voices: 5+bc
+!!!extant-voices: 5+bc
+!!!complete: Y
+!!!final: (D)G
+!!!COM: Eredi, Francesco
+!!!OTL: O sempre, e quando parti e quando torni
+**kern	**fb	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**color
+*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1	*
+*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1	*
+*I"Basso continuo	*	*I"Basso	*	*I"Tenore	*	*I"Quinto	*	*I"Alto	*	*I"Canto	*	*
+*I'Bc	*	*I'B	*	*I'T	*	*I'V	*	*I'A	*	*I'C	*	*
+*clefF4	*	*clefF4	*	*clefGv2	*	*clefGv2	*	*clefGv2	*	*clefG2	*	*
+*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*
+*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*
+*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*
+=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Nona parte	!	!
+1GG	.	1r	.	1r	.	1r	.	1r	.	2dd	O	black
+.	.	.	.	.	.	.	.	.	.	8b	sem-	black
+.	.	.	.	.	.	.	.	.	.	8dd	-pre e	black
+.	.	.	.	.	.	.	.	.	.	8cc	quan-	black
+.	.	.	.	.	.	.	.	.	.	8b	-do	black
+=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+4C	.	1r	.	1r	.	2r	.	2r	.	8cc	par-	black
+.	.	.	.	.	.	.	.	.	.	8b	-ti e	black
+4E	.	.	.	.	.	.	.	.	.	8a	quan-	black
+.	.	.	.	.	.	.	.	.	.	8g	-do	black
+2D	.	.	.	.	.	2d	O	4r	.	2a	tor-	red
+.	.	.	.	.	.	.	.	[4d	E-	.	.	chartreuse
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+4GG	.	1r	.	1r	.	8B	sem-	4d]	.	2g	-ni	red
+.	.	.	.	.	.	8d	-pre e	.	.	.	.	chartreuse
+4C	.	.	.	.	.	8c	quan-	4e	-gual-	.	.	red
+.	.	.	.	.	.	8B	-do	.	.	.	.	chartreuse
+4AA	#6	.	.	.	.	8c	par-	8.f#i	-men-	2r	.	red
+.	.	.	.	.	.	8B	-ti e	.	.	.	.	black
+.	.	.	.	.	.	.	.	16f#X	-te	.	.	black
+4E	.	.	.	.	.	8A	quan-	4g	cru-	.	.	red
+.	.	.	.	.	.	8G	-do	.	.	.	.	chartreuse
+=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+2D	#	1r	.	2d	O	2A	tor-	4g	-de-	4r	.	red
+.	.	.	.	.	.	.	.	4f#X	.	2d	E-	chartreuse
+4GG	.	.	.	8B	sem-	2G	-ni	2g	-le	.	.	red
+.	.	.	.	8d	-pre e	.	.	.	.	.	.	chartreuse
+4C	.	.	.	8c	quan-	.	.	.	.	4e	-gual-	chartreuse
+.	.	.	.	8B	-do	.	.	.	.	.	.	chartreuse
+=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+4AA	#6	1r	.	8c	par-	1r	.	1r	.	8.f#X	-men-	red
+.	.	.	.	8B	-ti e	.	.	.	.	.	.	black
+.	.	.	.	.	.	.	.	.	.	16f#i	-te	black
+4E	.	.	.	8A	quand-	.	.	.	.	4g	cru-	red
+.	.	.	.	8G	-do	.	.	.	.	.	.	chartreuse
+2D	#	.	.	2A	tor-	.	.	.	.	4g	-de-	red
+.	.	.	.	.	.	.	.	.	.	4f#X	.	chartreuse
+=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
+4GG	.	2G	O	4G	-ni	4r	.	4d	O	2g	-le,	red
+4G	.	.	.	2G	E-	2B	E-	8B	sem-	.	.	chartreuse
+.	.	.	.	.	.	.	.	8d	-pre e	.	.	chartreuse
+8E	.	8E	sem-	.	.	.	.	8c	quan-	2r	.	chartreuse
+8G	.	8G	-pre e	.	.	.	.	8B	-do	.	.	chartreuse
+8F	.	8F	quan-	4A	-gual-	4c	-gual-	8A	par-	.	.	red
+8E	.	8E	-do	.	.	.	.	8e	-ti e	.	.	chartreuse
+=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
+4D	.	8F	par-	4B	-men-	8.d	-men-	4d	quan-	2r	.	red
+.	.	8E	-ti e	.	.	.	.	.	.	.	.	black
+.	.	.	.	.	.	16d	-te	.	.	.	.	black
+4C	.	8D	quan-	2c	-te	4e	cru-	4G	-do	.	.	red
+.	.	8C	-do	.	.	.	.	.	.	.	.	chartreuse
+2D	.	2D	tor-	.	.	2f	-de-	4d	tor-	4r	.	red
+.	.	.	.	4B	cru-	.	.	4d	-ni	4dd	O	chartreuse
+=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+2C	.	2C	-ni	4c	-de-	2e	-le,	4r	.	8ee	sem-	red
+.	.	.	.	.	.	.	.	.	.	8dd	-pre e	chartreuse
+.	.	.	.	4G	-le	.	.	4d	E-	8cc	quan-	chartreuse
+.	.	.	.	.	.	.	.	.	.	8b	-do	chartreuse
+4C	.	2r	.	2r	.	2r	.	4e	-gual-	8cc	par-	red
+.	.	.	.	.	.	.	.	.	.	8b	-ti e	chartreuse
+4E	.	.	.	.	.	.	.	[4g	-men-	8a	quan-	red
+.	.	.	.	.	.	.	.	.	.	8g	-do	chartreuse
+=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
+2D	#	4D	E-	1r	.	4r	.	4g]	.	2a	tor-	red
+.	.	4D	-gual-	.	.	4d	O	4f#X	.	.	.	chartreuse
+2E	.	4.E	-men-	.	.	8B	sem-	2g	-te	2g	-ni	red
+.	.	.	.	.	.	8d	-pre e	.	.	.	.	black
+.	.	.	.	.	.	8c	quan-	.	.	.	.	black
+.	.	8E	-te	.	.	8B	-do	.	.	.	.	black
+=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
+4F#X	.	4F#X	cru-	1r	.	8A	par-	4a	cru-	4r	.	red
+.	.	.	.	.	.	8c	-ti e	.	.	.	.	chartreuse
+4G	.	2G	-de-	.	.	8B	quan-	4d	-de-	4g	E-	red
+.	.	.	.	.	.	8c	-do	.	.	.	.	chartreuse
+2D	#	.	.	.	.	4A	tor-	4d	-le,	2a	-gual-	red
+.	.	4F#X	.	.	.	4A	-ni	[4d	<E-	.	.	chartreuse
+=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
+2GG	.	2G	-le	1r	.	4G	E-	4d]	.	4.b	-men-	red
+.	.	.	.	.	.	4F	-gual-	4d	-gual-	.	.	black
+.	.	.	.	.	.	.	.	.	.	8b	-te	black
+2C	.	2r	.	.	.	4E	-men-	4e	-men-	2cc	cru-	black
+.	.	.	.	.	.	8F	-te	8d	-te	.	.	black
+.	.	.	.	.	.	8E	cru-	8e	cru-	.	.	black
+=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
+1D	7:6	1r	.	1r	.	1D	-de-	1f	-de-	2cc	-de-	black
+.	.	.	.	.	.	.	.	.	.	2b	.	black
+=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
+1C	.	2r	.	2r	.	1C	-le	1e	-le>	1cc	-le	black
+.	.	2C	hor	4r	.	.	.	.	.	.	.	black
+.	.	.	.	4c	hor	.	.	.	.	.	.	black
+=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
+4G	.	4G	chi	4B	chi	2r	.	1r	.	2r	.	red
+4E	6	4E	ti	4c	ti	.	.	.	.	.	.	red
+2F#X	.	2F#X	gui-	2A	gui-	4r	.	.	.	4r	.	red
+.	.	.	.	.	.	4D	hor	.	.	4dd	hor	chartreuse
+=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
+4G	.	2G	-da,	4B	-da,	4G	chi	2r	.	4b	chi	red
+4C	.	.	.	4r	.	4E	ti	.	.	4cc	ti	red
+2D	#	4r	.	4A	<hor	2F#X	gui-	4r	.	2a	gui-	red
+.	.	4D	<hor	4d	chi	.	.	4d	hor	.	.	chartreuse
+=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
+4G	.	4G	chi	4B	ti	2G	-da,	4B	chi	2g	-da,	red
+4E	6	4E	ti	2c	gui-	.	.	4c	ti	.	.	chartreuse
+2F	.	2F	gui-	.	.	4r	.	[2A	gui-	4r	.	red
+.	.	.	.	4d	-da>	4A	<hor	.	.	4a	<hor	chartreuse
+=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
+4D	.	4D	-da,>	1r	.	4d	chi	4A]	.	4f	chi	red
+4G	.	4G	<hor	.	.	4B	ti	4G	-da,	4g	ti	red
+4A	#	4A	chi	.	.	2c#X	gui-	2r	.	2e	gui-	red
+4A	.	4A	ti	.	.	.	.	.	.	.	.	chartreuse
+=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18
+2F#X	.	2F#X	gui-	1r	.	2d	-da>	4r	.	4d	-da,>	red
+.	.	.	.	.	.	.	.	4a	<hor	4dd	<hor	chartreuse
+4G	.	2G	-da>	.	.	2r	.	4g	chi	4b	chi	red
+4C	.	.	.	.	.	.	.	4g	ti	4cc	ti	red
+=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19
+2D	#	1r	.	1r	.	1r	.	2f#X	gui-	2a	gui-	red
+2GG	.	.	.	.	.	.	.	2g	-da>	2g	-da>	red
+=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20
+2C	.	4r	.	4r	.	4r	.	4r	.	4r	.	red
+.	.	4C	Gran	4G	Gran	4c	Gran	4e	Gran	4g	Gran	red
+4C	.	8C	ma-	8G	ma-	8c	ma-	8e	ma-	8g	ma-	red
+.	.	8C	-ra-	8G	-ra-	8c	-ra-	8e	-ra-	8g	-ra-	red
+4C	.	8C	-vi-	8G	-vi-	8c	-vi-	8e	-vi-	8g	-vi-	red
+.	.	8C	-glia	8c	-glia	8c	-glia	8e	-glia	8g	-glia	red
+=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21
+4F	.	8F	che’l	8A	che’l	4.c	che’l	8f	che’l	8a	che’l	red
+.	.	8F	mo-	8A	mo-	.	.	8f	mo-	8a	mo-	chartreuse
+2F	.	2F	-rir	2A	-rir	.	.	4f	-rir	4.a	-rir	red
+.	.	.	.	.	.	8c	mo-	.	.	.	.	black
+.	.	.	.	.	.	[2c	-rir	4r	.	.	.	black
+.	.	.	.	.	.	.	.	.	.	16g	.	black
+.	.	.	.	.	.	.	.	.	.	16f	.	black
+4E	.	4E	dis-	4G	di-	.	.	4c	di-	4g	.	black
+=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
+1D	#	1D	-tor-	4F#X	-stor-	4c]	.	1d	-stor-	4r	.	black
+.	.	.	.	2G	.	4B	di-	.	.	4g	di-	black
+.	.	.	.	.	.	2A	-stor-	.	.	2a	-stor-	black
+.	.	.	.	4F#X	.	.	.	.	.	.	.	black
+=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23
+1GG	.	1GG	-ni	1G	-ni	1G	-ni	1d	-ni	2b	-ni	black
+.	.	.	.	.	.	.	.	.	.	4r	.	black
+.	.	.	.	.	.	.	.	.	.	8g	E	black
+.	.	.	.	.	.	.	.	.	.	8a	di	black
+=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
+4G	.	4r	.	1r	.	1r	.	1r	.	4b	vi-	black
+8E	6	8E	E	.	.	.	.	.	.	2cc	-ta	black
+8F	.	8F	di	.	.	.	.	.	.	.	.	black
+2G	.	2G	vi-	.	.	.	.	.	.	.	.	black
+.	.	.	.	.	.	.	.	.	.	4b	ca-	black
+=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25
+4A	.	4A	-ta	1r	.	2r	.	4r	.	2cc	-gion	black
+4A	.	4A	ca-	.	.	.	.	8e	E	.	.	black
+.	.	.	.	.	.	.	.	8f	di	.	.	black
+2G	.	2G	-gion	.	.	4r	.	2g	vi-	4r	.	black
+.	.	.	.	.	.	8G	E	.	.	[4g	sia	black
+.	.	.	.	.	.	8A	di	.	.	.	.	black
+=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26
+4G	.	4G	sia	1r	.	4B	vi-	4d	-ta	4g]	.	red
+8E	.	8E	l’ho-	.	.	2c	-ta	4c	ca-	8g	l’ho-	red
+8F	.	8F	-mi-	.	.	.	.	.	.	8a	-mi-	chartreuse
+2D	7:6	2D	-ci-	.	.	.	.	2d	-gion	2f	-ci-	red
+.	.	.	.	.	.	4B	ca-	.	.	.	.	chartreuse
+=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
+2C	.	2C	-da,	1r	.	2c	-gion	4r	.	2e	-da,	red
+.	.	.	.	.	.	.	.	4e	sia	.	.	black
+4GG	.	4r	.	.	.	2r	.	8d	l’ho-	4r	.	black
+.	.	.	.	.	.	.	.	8e	-mi-	.	.	black
+8C	.	8C	E	.	.	.	.	[4c	-ci-	[4ee	<sia	black
+8D	.	8D	di	.	.	.	.	.	.	.	.	black
+=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28
+4E	6	4E	vi-	1r	.	4c	sia	4c]	.	4ee]	.	black
+2F	.	2F	-ta	.	.	8A	l’ho-	4c	-da,	8cc	l’ho-	black
+.	.	.	.	.	.	8B-X	-mi-	.	.	8dd	-mi-	black
+.	.	.	.	.	.	2G	-ci-	2r	.	2b-X	-ci-	black
+4E	-5	4E	ca-	.	.	.	.	.	.	.	.	black
+=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
+2F	.	2F	-gion	2r	.	4F	-da,	1r	.	4a	-da>,	black
+.	.	.	.	.	.	8F	E	.	.	8a	E	black
+.	.	.	.	.	.	8G	di	.	.	8b	di	black
+4F	.	2r	.	4r	.	4A	vi-	.	.	4cc	vi-	red
+4D	#	.	.	8D	E	4A	-ta,	.	.	[4dd	-ta	red
+.	.	.	.	8E	di	.	.	.	.	.	.	chartreuse
+=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30
+4D	.	4D	sia	4F#X	vi-	2r	.	4d	<sia	4dd]	.	red
+8BB	.	8BB	l’ho-	2G	-ta	.	.	8d	l’ho-	4g	ca-	red
+8C	.	8C	-mi-	.	.	.	.	8e	-mi-	.	.	chartreuse
+2AA	#6	2AA	-ci-	.	.	4r	.	2c	-ci-	2a	-gion	red
+.	.	.	.	4F#X	ca-	8A	E	.	.	.	.	black
+.	.	.	.	.	.	8A	di	.	.	.	.	black
+=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
+2GG	.	2GG	-da,	2G	-gion,	4d	vi-	2B	-da,>	4b	sia	black
+.	.	.	.	.	.	2G	-ta	.	.	8b	l’ho-	black
+.	.	.	.	.	.	.	.	.	.	8cc	-mi-	black
+2D	#	2r	.	4r	.	.	.	2r	.	2a	-ci-	black
+.	.	.	.	8A	<E	4F#X	ca-	.	.	.	.	black
+.	.	.	.	8A	di	.	.	.	.	.	.	black
+=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32
+4G	.	4G	<sia	4B	vi-	2G	-gion	4g	<sia	2g	-da,	red
+8E	6	8E	l’ho-	2c	-ta	.	.	8g	l’ho-	.	.	chartreuse
+8F	.	8F	-mi-	.	.	.	.	8a	-mi-	.	.	chartreuse
+2D	7:6	2D	-ci-	.	.	2r	.	2f	-ci-	2r	.	red
+.	.	.	.	4B	ca-	.	.	.	.	.	.	chartreuse
+=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33
+2C	.	1C	-da>	2c	-gion>	2r	.	1e	-da>	4g	<sia	red
+.	.	.	.	.	.	.	.	.	.	8e	l’ho-	black
+.	.	.	.	.	.	.	.	.	.	8f	-mi-	black
+4C	.	.	.	4c	sia	4e	sia	.	.	[2g	-ci-	chartreuse
+8BB	.	.	.	8B	l’ho-	8d	l’ho-	.	.	.	.	chartreuse
+8C	.	.	.	8c	-mi-	8e	-mi-	.	.	.	.	chartreuse
+=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34
+1AA	7:6	1r	.	1A	-ci-	1c	-ci-	1r	.	2g]	.	red
+.	.	.	.	.	.	.	.	.	.	2f#X	.	chartreuse
+=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
+1GG	.	1r	.	1G	-da	1d	-da	1r	.	1g	-da>	red
+=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
+1GG	.	1r	.	1r	.	1r	.	1r	.	2r	.	black
+.	.	.	.	.	.	.	.	.	.	2dd	Tu,	black
+=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
+2D	#	1r	.	1r	.	1r	.	1r	.	8r	.	black
+.	.	.	.	.	.	.	.	.	.	8a	tu	black
+.	.	.	.	.	.	.	.	.	.	8a	di	black
+.	.	.	.	.	.	.	.	.	.	8a	sal-	black
+4D	.	.	.	.	.	.	.	.	.	8a	-var-	black
+.	.	.	.	.	.	.	.	.	.	8g	-mi	black
+4G	.	.	.	.	.	.	.	.	.	4b	cer-	black
+=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
+2G	.	1r	.	1r	.	1r	.	1r	.	4b	-chi,	black
+.	.	.	.	.	.	.	.	.	.	8b	di	black
+.	.	.	.	.	.	.	.	.	.	8b	sal-	black
+4G	.	.	.	.	.	.	.	.	.	8b	-var-	black
+.	.	.	.	.	.	.	.	.	.	8a	-mi	black
+4C	.	.	.	.	.	.	.	.	.	[4cc	cer-	black
+=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39
+2C	.	1r	.	1r	.	1r	.	1r	.	4cc]	.	black
+.	.	.	.	.	.	.	.	.	.	4cc	-chi	black
+[2GG	-	.	.	.	.	.	.	.	.	8r	.	black
+.	.	.	.	.	.	.	.	.	.	8b-X	a	black
+.	.	.	.	.	.	.	.	.	.	8b-i	qua-	black
+.	.	.	.	.	.	.	.	.	.	8b-i	-li	black
+=40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40
+2GG]	.	1r	.	1r	.	1r	.	1r	.	2b-i	scor-	black
+2D	.	.	.	.	.	.	.	.	.	2a	-ni	black
+=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41
+2.AA	.	1r	.	1r	.	1r	.	1r	.	4r	.	black
+.	.	.	.	.	.	.	.	.	.	4a	A	black
+.	.	.	.	.	.	.	.	.	.	8.cc	qua-	black
+.	.	.	.	.	.	.	.	.	.	16b	-li	black
+4E	.	.	.	.	.	.	.	.	.	8.b	pe-	black
+.	.	.	.	.	.	.	.	.	.	16a	-ne è	black
+=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42
+4F	.	1r	.	1r	.	1r	.	1r	.	8.a	ri-	black
+.	.	.	.	.	.	.	.	.	.	16g	-ser-	black
+4C	.	.	.	.	.	.	.	.	.	2g	-ba-	black
+2D	.	.	.	.	.	.	.	.	.	.	.	black
+.	.	.	.	.	.	.	.	.	.	4f	-ta Ar-	black
+=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43
+2AA	.	1r	.	1r	.	1r	.	1r	.	2e	-mi-	black
+2D	.	.	.	.	.	.	.	.	.	2d	-da	black
+=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44
+2D	.	2r	.	2r	.	2r	.	2r	.	8r	.	black
+.	.	.	.	.	.	.	.	.	.	8a	Co-	black
+.	.	.	.	.	.	.	.	.	.	8dd	-no-	black
+.	.	.	.	.	.	.	.	.	.	8dd	-sco	black
+4D	#	8r	.	8r	.	8r	.	8r	.	4dd	l’ar-	black
+.	.	8D	Co-	8A	Co-	8d	Co-	8f#X	Co-	.	.	chartreuse
+4G	.	8G	-no-	8B	-no-	8d	-no-	8g	-no-	4dd	-ti	red
+.	.	8G	-sco	8B	-sco	8d	-sco	8g	-sco	.	.	chartreuse
+=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45
+4G	.	8G	l’ar-	8B	l’ar-	8d	l’ar-	8g	l’ar-	4r	.	red
+.	.	8G	-te	8B	-ti	8d	-ti	8g	-ti	.	.	red
+4G	.	8G	del	8B	del	8d	del	8g	del	8dd	del	red
+.	.	8G	fel-	8B	fel-	8d	fel-	8g	fel-	8dd	fel-	red
+4G	.	4G	-lo-	4B	-lo-	4d	-lo-	4g	-lo-	4dd	-lo-	red
+4A	.	4A	-ne i-	4A	-ne i-	4c	-ne i-	4e	-ne i-	4a	-ne i-	red
+=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46
+2.E	#	2.E	-gno-	2.G#X	-gno-	2.B	-gno-	2.e	-gno-	2.b	-gno-	red
+4E	.	4E	-te	4G#i	-te	4B	-te	4e	-te	4b	-te	red
+=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47
+4E	#	1r	.	8r	.	8r	.	1r	.	1r	.	black
+.	.	.	.	8G#i	Ma	8B	Ma	.	.	.	.	black
+2A	.	.	.	8A	ben	8c	ben	.	.	.	.	black
+.	.	.	.	8B	può	8d	può	.	.	.	.	black
+.	.	.	.	8c	nul-	8e	nul-	.	.	.	.	black
+.	.	.	.	8A	-la	8c	-la	.	.	.	.	black
+4D	.	.	.	8d	chi	8f	chi	.	.	.	.	red
+.	.	.	.	8c	mo-	8e	mo-	.	.	.	.	red
+=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48
+4G	.	1r	.	4B	-rir	4d	-rir	1r	.	1r	.	red
+4A	.	.	.	4A	non	4c	non	.	.	.	.	red
+2E	#	.	.	4A	puo-	2B	puo-	.	.	.	.	red
+.	.	.	.	4G#X	.	.	.	.	.	.	.	chartreuse
+=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49
+2AA	.	1r	.	2A	-te,	2A	-te,	8r	.	1r	.	red
+.	.	.	.	.	.	.	.	8e	Ma	.	.	black
+.	.	.	.	.	.	.	.	8f	ben	.	.	black
+.	.	.	.	.	.	.	.	8g	può	.	.	black
+2AA	.	.	.	8r	.	8r	.	4.a	nul-	.	.	black
+.	.	.	.	8c	<Ma	8A	<Ma	.	.	.	.	black
+.	.	.	.	8d	ben	8B	ben	.	.	.	.	black
+.	.	.	.	8e	può	8c	può	8g	-la	.	.	red
+=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50
+4D	.	8r	.	4.f	nul-	4.d	nul-	4f	chi	1r	.	red
+.	.	8D	Ma	.	.	.	.	.	.	.	.	chartreuse
+8E	.	8E	ben	.	.	.	.	4g	mo-	.	.	chartreuse
+8F	.	8F	può	8e	-la	8c	-la	.	.	.	.	red
+8G	.	8G	nul-	8d	chi	8B	chi	4g	-rir	.	.	red
+8F	.	8F	-la	8d	mo-	8A	mo-	.	.	.	.	red
+8E	.	8E	chi	[4e	-rir	4G	-rir	4g	non	.	.	red
+8D	.	8D	mo-	.	.	.	.	.	.	.	.	chartreuse
+=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51
+1C	.	1C	-rir	4e]	.	4E	non	2g	puo-	8r	.	red
+.	.	.	.	.	.	.	.	.	.	8cc	Ma	chartreuse
+.	.	.	.	4c	non	2e	puo-	.	.	8cc	ben	chartreuse
+.	.	.	.	.	.	.	.	.	.	8dd	può	chartreuse
+.	.	.	.	4G	puo-	.	.	2g	-te,	8ee	nul-	chartreuse
+.	.	.	.	.	.	.	.	.	.	8dd	-la	chartreuse
+.	.	.	.	4c	-te,>	4e	-te>,	.	.	8cc	chi	chartreuse
+.	.	.	.	.	.	.	.	.	.	8b	mo-	chartreuse
+=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52
+1D	.	1D	non	8r	.	8r	.	2r	.	2a	-rir,	red
+.	.	.	.	8A	<Ma	8d	Ma	.	.	.	.	black
+.	.	.	.	8B	ben	8d	ben	.	.	.	.	black
+.	.	.	.	8c	può	8e	può	.	.	.	.	black
+.	.	.	.	8d	nul-	8f	nul-	2f	non	4r	.	chartreuse
+.	.	.	.	8c	-la	8e	-la	.	.	.	.	chartreuse
+.	.	.	.	8B	chi	8d	chi	.	.	8dd	chi	chartreuse
+.	.	.	.	8A	mo-	8c	mo-	.	.	8a	mo-	chartreuse
+=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53
+1E	#	1E	puo-	4G#X	-rir	4B	-rir	1e	puo-	4ee	-rir	red
+.	.	.	.	4A	non	4A	non	.	.	4cc	non	chartreuse
+.	.	.	.	4A	puo-	2B	puo-	.	.	2b	puo-	chartreuse
+.	.	.	.	4G#X	.	.	.	.	.	.	.	chartreuse
+=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54
+1AA	.	1AA	-te,	1A	-te>,	2c	-te,	2e	-te	1a	-te,	red
+.	.	.	.	.	.	8r	.	8r	.	.	.	black
+.	.	.	.	.	.	8E	Ma	8A	Ma	.	.	black
+.	.	.	.	.	.	8A	ben	8c	ben	.	.	black
+.	.	.	.	.	.	8B	può	8d	può	.	.	black
+=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
+1AA	.	1r	.	8r	.	4.c	nul-	4.e	nul-	2r	.	black
+.	.	.	.	8E	Ma	.	.	.	.	.	.	black
+.	.	.	.	8F	ben	.	.	.	.	.	.	black
+.	.	.	.	8G	può	8B	-la	8d	-la	.	.	red
+.	.	.	.	8A	nul-	8A	chi	8c	chi	8r	.	red
+.	.	.	.	8G	-la	8B	mo-	8B	mo-	8e	Ma	red
+.	.	.	.	8F	chi	4c	-rir,	4A	-rir	8f	ben	red
+.	.	.	.	8E	mo-	.	.	.	.	8g	può	chartreuse
+=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56
+2AA	.	8r	.	2A	-rir,	8r	.	4r	.	8a	nul-	red
+.	.	8AA	<Ma	.	.	8c	Ma	.	.	8g	-la	chartreuse
+.	.	8BB	ben	.	.	8d	ben	4d	non	8f	chi	chartreuse
+.	.	8C	può	.	.	8e	può	.	.	8e	mo-	chartreuse
+8D	.	8D	nul-	2r	.	8f	nul-	2d	puo-	8d	-rir,	red
+8C	.	8C	-la	.	.	8e	-la	.	.	8a	<Ma	red
+8BB-X	.	8BB-X	chi	.	.	8d	chi	.	.	8b-X	ben	red
+8AA	.	8AA	mo-	.	.	8c	mo-	.	.	8cc	può	red
+=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57
+2GG	-	2GG	-rir	2r	.	2B-X	-rir	8d	-te,	4.dd	nul-	red
+.	.	.	.	.	.	.	.	8d	<Ma	.	.	black
+.	.	.	.	.	.	.	.	8e	ben	.	.	black
+.	.	.	.	.	.	.	.	8f	può	8cc	-la	black
+2GG	.	2GG	non	4r	.	2B-i	non	8g	nul-	8b-X	chi	red
+.	.	.	.	.	.	.	.	8f	-la	8a	mo-	chartreuse
+.	.	.	.	8G	chi	.	.	8e	chi	[4g	-rir>	chartreuse
+.	.	.	.	8D	mo-	.	.	8d	mo-	.	.	chartreuse
+=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58
+1AA	#	1AA	puo-	4A	-rir	1A	puo-	4c#X	-rir	4g]	.	red
+.	.	.	.	4D	non	.	.	4d	non	4f	non	chartreuse
+.	.	.	.	2E	puo-	.	.	4d	puo-	2e	puo-	chartreuse
+.	.	.	.	.	.	.	.	4c#X	.	.	.	chartreuse
+=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59
+1Dl	.	1Dl	-te>.	1Dl	-te.	1Al	-te.	1dl	-te>.	1f#Xl	-te.	red
+==	==	==	==	==	==	==	==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [(s1)(s2)(s3)(s4)(s5)]s6
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: l = terminal long
+!!!ENC: Emiliano Ricciardi
+!!!END: 2019/08/08
+!!!EED: Mazzetti, Marcello; Ticli, Livio
+!!!EEV: 2019/08/08
+!!!YEC: Copyright 2018 Emiliano Ricciardi, All Rights Reserved
+!!!ONB: Translated from MusicXML on 2019/08/08 and edited by Craig Stuart Sapp
+57.4
+@HOMOPHONIC2:	10.2

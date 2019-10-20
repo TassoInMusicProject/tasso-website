@@ -1,0 +1,106 @@
+<div class="vega-svg" id="id_Trm0611c_count"></div>
+
+<script>
+var data_Trm0611c_count =
+[
+	{"count":16, "pitch class":"C", "voice":"Basso"},
+	{"count":18, "pitch class":"D", "voice":"Basso"},
+	{"count":10, "pitch class":"E♭", "voice":"Basso"},
+	{"count":22, "pitch class":"F", "voice":"Basso"},
+	{"count":26, "pitch class":"G", "voice":"Basso"},
+	{"count":9, "pitch class":"A", "voice":"Basso"},
+	{"count":34, "pitch class":"B♭", "voice":"Basso"},
+	{"count":32, "pitch class":"C", "voice":"Tenore"},
+	{"count":1, "pitch class":"C♯", "voice":"Tenore"},
+	{"count":44, "pitch class":"D", "voice":"Tenore"},
+	{"count":4, "pitch class":"E♭", "voice":"Tenore"},
+	{"count":8, "pitch class":"E", "voice":"Tenore"},
+	{"count":22, "pitch class":"F", "voice":"Tenore"},
+	{"count":16, "pitch class":"G", "voice":"Tenore"},
+	{"count":13, "pitch class":"A", "voice":"Tenore"},
+	{"count":28, "pitch class":"B♭", "voice":"Tenore"},
+	{"count":1, "pitch class":"B", "voice":"Tenore"},
+	{"count":9, "pitch class":"C", "voice":"Alto"},
+	{"count":3, "pitch class":"C♯", "voice":"Alto"},
+	{"count":24, "pitch class":"D", "voice":"Alto"},
+	{"count":3, "pitch class":"E♭", "voice":"Alto"},
+	{"count":7, "pitch class":"E", "voice":"Alto"},
+	{"count":47, "pitch class":"F", "voice":"Alto"},
+	{"count":1, "pitch class":"F♯", "voice":"Alto"},
+	{"count":31, "pitch class":"G", "voice":"Alto"},
+	{"count":26, "pitch class":"A", "voice":"Alto"},
+	{"count":24, "pitch class":"B♭", "voice":"Alto"},
+	{"count":1, "pitch class":"B", "voice":"Alto"},
+	{"count":19, "pitch class":"C", "voice":"Quinto"},
+	{"count":1, "pitch class":"C♯", "voice":"Quinto"},
+	{"count":28, "pitch class":"D", "voice":"Quinto"},
+	{"count":7, "pitch class":"E♭", "voice":"Quinto"},
+	{"count":13, "pitch class":"E", "voice":"Quinto"},
+	{"count":27, "pitch class":"F", "voice":"Quinto"},
+	{"count":6, "pitch class":"F♯", "voice":"Quinto"},
+	{"count":23, "pitch class":"G", "voice":"Quinto"},
+	{"count":25, "pitch class":"A", "voice":"Quinto"},
+	{"count":34, "pitch class":"B♭", "voice":"Quinto"},
+	{"count":2, "pitch class":"B", "voice":"Quinto"},
+	{"count":26, "pitch class":"C", "voice":"Canto"},
+	{"count":3, "pitch class":"C♯", "voice":"Canto"},
+	{"count":44, "pitch class":"D", "voice":"Canto"},
+	{"count":6, "pitch class":"E♭", "voice":"Canto"},
+	{"count":6, "pitch class":"E", "voice":"Canto"},
+	{"count":13, "pitch class":"F", "voice":"Canto"},
+	{"count":7, "pitch class":"F♯", "voice":"Canto"},
+	{"count":22, "pitch class":"G", "voice":"Canto"},
+	{"count":22, "pitch class":"A", "voice":"Canto"},
+	{"count":29, "pitch class":"B♭", "voice":"Canto"},
+	{"count":6, "pitch class":"B", "voice":"Canto"}
+]
+;
+
+var vega_Trm0611c_count =
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+	"data": {"values": data_Trm0611c_count},
+	"title": "Note-count pitch-class distribution for Trm0611c ",
+	"width": 400,
+	"height": 268,
+	"encoding": {
+		"y": {
+			"field": "count",
+			"title": "Number of note attacks",
+			"type": "quantitative",
+			"scale": {"domain": [0, 158]},
+			"aggregate": "sum"
+		},
+		"x": {
+			"field": "pitch class",
+			"type": "nominal",
+			"scale": {
+				"domain": ["C", "C♯", "D", "E♭", "E", "F", "F♯", "G", "A", "B♭", "B"]
+			},
+			"axis": {
+				"labelAngle": 0
+			}
+		},
+		"order": {"type": "quantitative"},
+		"color": {
+			"field": "voice",
+			"type": "nominal",
+			"legend": {"title": "Voices"},
+			"scale": {
+				"domain": ["Canto", "Quinto", "Alto", "Tenore", "Basso"],
+				"range": ["#e49689", "#e3f5f8", "#f4c6a1", "#ecdf7a", "#d2aef7"],
+				}
+		}
+	},
+	"layer": [
+		{"mark": "bar"},
+		{
+			"mark": {"type":"text", "align":"center", "fill":"black", "baseline":"bottom"},
+			"data": {"values": [ {"pitch class":"G", "count":118}]},
+			"encoding": {"text": {"value":"final"}}
+		}
+	]
+}
+;
+vegaEmbed('#id_Trm0611c_count', vega_Trm0611c_count);
+</script>

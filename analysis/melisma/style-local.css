@@ -8,4 +8,47 @@ div#contents {
 }
 
 
+table.entry td.blank {
+	width:40px;
+}
+table.entry td {
+	vertical-align: top;
+}
+table.entry {
+	margin-bottom: 50px;
+}
+.two {
+	color: purple;
+}
+.three {
+	color: dodgerblue;
+}
+.four {
+	color: green;
+}
+.five {
+	color: orange;
+}
+.ten {
+	color: red;
+}
+div#form {
+	margin-bottom: 25px;
+}
+
+
+summary {
+	color: #c2ab6c;
+}
+
+.active-page {
+	color: #c2ab6c;
+	cursor: pointer;
+}
+
+
+summary:focus {
+	outline: none;
+}
+
 

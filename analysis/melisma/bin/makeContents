@@ -20,77 +20,6 @@ for (my $i=0; $i<@files; $i++) {
 
 my $width = 425;
 
-print <<"EOT";
----
-vim: ts=3
-scripts-local: true
-style-local: true
-permalink: /analysis/melisma/index.html
----
-
-<h1> Melisma analysis </h1>
-
-This page extracts information about melimas from the musical
-settings. By default the following list is sorted by poem for
-comparison of melismas in the same poem by different composers, but
-the order can be changed to sort by the relative amount of melismas
-in each work, by composer, or by publication date.  The "Score"
-entry lists the percentage of notes in the music that are involved
-in a melisma.  Click on a link in the "View" section to view the
-melismas highlighted in the score.  The different links are select
-the smallest melisma size that will be highlighted.  For example,
-"4+ notes" will highlight notes when there are at least four notes
-for a single syllable.  The "Words" list contains a list of all of
-the words possessing more than one note.  The color code: black=single
-note, purple=2 notes, blue=3 notes, green=4 notes, orange=5&ndash;10
-notes, and red=11 or more notes.
-
-<style>
-table.entry td.blank {
-	width:40px;
-}
-table.entry td {
-	vertical-align: top;
-}
-table.entry {
-	margin-bottom: 50px;
-}
-.two {
-	color: purple;
-}
-.three {
-	color: dodgerblue;
-}
-.four {
-	color: green;
-}
-.five {
-	color: orange;
-}
-.ten {
-	color: red;
-}
-div#form {
-	margin-bottom: 25px;
-}
-
-</style>
-
-
-<div id="form">
-	Sort by:
-	<select onchange="sortList(this.value)">
-		<option value="poem">Poem</option>
-		<option value="score">Melisma score</option>
-		<option value="composer">Composer</option>
-		<option value="date">Publication date</option>
-	</select>
-</div>
-
-<div id="sort">
-
-EOT
-
 my $file;
 foreach $file (@rimefiles) {
 	processFile($file);
@@ -99,9 +28,6 @@ foreach $file (@rimefiles) {
 foreach $file (@nonrimefiles) {
 	processFile($file);
 }
-
-
-print "</div>"; # end if id="sort"
 
 
 ###########################################################################

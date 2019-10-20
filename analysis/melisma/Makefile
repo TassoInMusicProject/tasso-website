@@ -1,13 +1,13 @@
 
 .PHONY: data
 
-all: data index
+all: data contents
 
 data:
 	bin/makeData 
 
-index:
-	bin/makeIndex > index.md
+contents:
+	bin/makeContents > contents.html
 
 clean:
 	rm -rf data

@@ -7,6 +7,7 @@ div#contents {
 	font-size: 1.35em;
 }
 
+
 div#form {
 	margin-bottom: 25px;
 }
@@ -19,10 +20,7 @@ table tbody tr td:first-child {
 }
 table td {
 	vertical-align: top;
-	padding-right: 15px;
-	margin-right: 15px;
 }
-
 
 
 summary {
@@ -38,5 +36,7 @@ summary {
 summary:focus {
 	outline: none;
 }
+
+
 
 

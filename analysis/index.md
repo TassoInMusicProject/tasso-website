@@ -89,3 +89,22 @@ data in spreadsheets for further use in analysis).
 </table>
 
 
+<h2> Metadata analysis </h2>
+
+<table class="listing">
+
+<tr>
+	<td>
+	<a href="publication-date">Publication dates</a>
+	</td> 
+	<td>
+		Histogram of musical-setting publication dates.
+	</td>
+</tr>
+
+</table>
+
+
+
+
+

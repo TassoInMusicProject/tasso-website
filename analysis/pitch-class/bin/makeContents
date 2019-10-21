@@ -228,17 +228,13 @@ td.right:after {
 
 <br/>
 
-<table style="display:inline-block; margins: auto; padding-left:0px; padding-right:0px; vertical-align:top;">
+<table style="display:inline-block; margins: auto; padding-left:180px; padding-right:0px; vertical-align:top;">
 <tr>
-	<td style="text-align: center; position:relative;">
-		<div style="text-align:center; padding-right:100px; padding-left:100px;">
-			<b>Pitchscape</b> (The most common duration-weighted pitch class at 
-			various timescales in the piece. The apex of the pitchscape 
-			indicates the maximum pitch class for the entire duration of 
-			the piece as shown in the above/left histogram.  The lower right
-			corner of the plot indicates the final pitch.)
+	<td style="text-align: center; margin-left:200px; position:relative;">
+		<div style="text-align:center; width:100%; padding-right:20px;">
+			<b>Pitchscape</b> 
 		</div>
-		<a target="_blank" href="$imgdir/$id.png"><img width="65%" src="$imgdir/$id.png"></a>
+		<a target="_blank" href="$imgdir/$id.png"><img width="100%" src="$imgdir/$id.png"></a>
 		<div id="audio_$id" style="cursor:pointer;" onclick="PlayAudioFile('$id', this);" class="play">play</div>
 	</td>
 </tr>
@@ -254,6 +250,12 @@ EOT
 
 }
 
+
+# (The most common duration-weighted pitch class at 
+# 			various timescales in the piece. The apex of the pitchscape 
+# 			indicates the maximum pitch class for the entire duration of 
+# 			the piece as shown in the above/left histogram.  The lower right
+# 			corner of the plot indicates the final pitch.)
 
 
 ##############################

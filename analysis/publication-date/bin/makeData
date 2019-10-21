@@ -6,6 +6,7 @@ use strict;
 my $output = "";
 my @contents = <>;
 my $year;
+my $repertory;
 my $id;
 foreach my $line (@contents) {
 	chomp $line;
@@ -22,10 +23,19 @@ foreach my $line (@contents) {
 	}
 	if ($line =~ /^\@\@END:\s*SETTING\s*$/) {
 		if (($id ne "") && ($year ne "")) {
-			$output .= "\n\t{\"ID\": \"$id\", \"PDT\": $year},";
+			if ($id =~ /^(T..)/) {
+				my $prefix = $1;
+				$repertory = "Rime" if $prefix eq "Trm";
+				$repertory = "Gerusalemme" if $prefix eq "Tsg";
+				$repertory = "Aminta" if $prefix eq "Tam";
+			} else {
+				$repertory = "";
+			}
+			$output .= "\n\t{\"ID\": \"$id\", \"repertory\": \"$repertory\", \"PDT\": $year},";
 		}
 		$id = "";
 		$year = "";
+		$repertory = "";
 	}
 }
 $output =~ s/,$//;

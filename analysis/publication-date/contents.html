@@ -1,13 +1,17 @@
 
+<script>
+var urlbase = "https://www.tassomusic.org/analysis/publication-date/";
+</script>
 
 <h2> Rime settings publication dates by year </h2>
 
 <div id="plotByYear"></div>
 <script>
-var urlbase = "https://www.tassomusic.org/analysis/publication-date/";
 var plotByYear = {
    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
    "data": {"url": urlbase + "data/rime.json"},
+   "width": 1000,
+   "height": 300,
    "mark": "bar",
    "encoding": {
       "x": {
@@ -70,6 +74,251 @@ vegaEmbed('#plotByHalfDecade', plotByHalfDecade);
 
 </script>
 
+
+
+
+<h2> Gerusalemme settings publication dates by year </h2>
+
+<div id="plotByYearTsg"></div>
+<script>
+var plotByYearTsg = {
+   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+   "data": {"url": urlbase + "data/gerusalemme.json"},
+   "width": 1000,
+   "height": 300,
+   "mark": "bar",
+   "encoding": {
+      "x": {
+         "bin": true,
+         "field": "PDT",
+         "title": "Publication year",
+         "bin": {
+            "binned": true,
+            "step": 1
+         },
+         "type": "ordinal"
+      },
+      "y": {
+         "aggregate": "count",
+         "title": "Number of settings published",
+         "type": "quantitative"
+      }
+   }
+}
+
+vegaEmbed('#plotByYearTsg', plotByYearTsg);
+
+</script>
+
+
+<h2> Gerusalemme settings publication dates by half-decade </h2>
+
+<div id="plotByHalfDecadeTsg"></div>
+<script>
+var plotByHalfDecadeTsg = {
+   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+   "width": 800,
+   "height": 300,
+   "data": {"url": urlbase + "data/gerusalemme.json"},
+   "mark": "bar",
+   "encoding": {
+      "x": {
+         "bin": true,
+         "field": "PDT",
+         "title": "Publication year by half-decade",
+         "axis": {
+            "labelAngle": 0,
+            "labelAlign": "left",
+            "labelExpr": "datum.label[0] + datum.label[2] + datum.label[3] + datum.label[4]"
+         },
+         "bin": {
+            "step": 5
+         },
+         "type": "quantitative"
+      },
+      "y": {
+         "aggregate": "count",
+         "title": "Number of settings published",
+         "type": "quantitative"
+      }
+   }
+}
+
+vegaEmbed('#plotByHalfDecadeTsg', plotByHalfDecadeTsg);
+
+</script>
+
+
+
+
+<h2> Aminta settings publication dates by year </h2>
+
+<div id="plotByYearTam"></div>
+<script>
+var plotByYearTam = {
+   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+   "data": {"url": urlbase + "data/aminta.json"},
+   "width": 1000,
+   "height": 300,
+   "mark": "bar",
+   "encoding": {
+      "x": {
+         "bin": true,
+         "field": "PDT",
+         "title": "Publication year",
+         "bin": {
+            "binned": true,
+            "step": 1
+         },
+         "type": "ordinal"
+      },
+      "y": {
+         "aggregate": "count",
+         "title": "Number of settings published",
+         "type": "quantitative"
+      }
+   }
+}
+
+vegaEmbed('#plotByYearTam', plotByYearTam);
+
+</script>
+
+
+<h2> Aminta settings publication dates by half-decade </h2>
+
+<div id="plotByHalfDecadeTam"></div>
+<script>
+var plotByHalfDecadeTam = {
+   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+   "width": 800,
+   "height": 300,
+   "data": {"url": urlbase + "data/aminta.json"},
+   "mark": "bar",
+   "encoding": {
+      "x": {
+         "bin": true,
+         "field": "PDT",
+         "title": "Publication year by half-decade",
+         "axis": {
+            "labelAngle": 0,
+            "labelAlign": "left",
+            "labelExpr": "datum.label[0] + datum.label[2] + datum.label[3] + datum.label[4]"
+         },
+         "bin": {
+            "step": 5
+         },
+         "type": "quantitative"
+      },
+      "y": {
+         "aggregate": "count",
+         "title": "Number of settings published",
+         "type": "quantitative"
+      }
+   }
+}
+
+vegaEmbed('#plotByHalfDecadeTam', plotByHalfDecadeTam);
+
+</script>
+
+
+
+
+<h2> Rime, Gerusalemme and Aminta settings publication dates by year </h2>
+
+<div id="plotByYearAll"></div>
+<script>
+var plotByYearAll = {
+   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+   "data": {"url": urlbase + "data/all.json"},
+   "width": 900,
+   "height": 300,
+   "mark": "bar",
+   "encoding": {
+      "x": {
+         "bin": true,
+         "field": "PDT",
+         "title": "Publication year",
+         "bin": {
+            "binned": true,
+            "step": 1
+         },
+         "type": "ordinal"
+      },
+      "y": {
+         "aggregate": "count",
+         "title": "Number of settings published",
+         "type": "quantitative"
+      },
+      "color": {
+         "field": "repertory",
+         "type": "nominal",
+         "legend": {
+            "title": "Repertory"
+         },
+         "scale": {
+            "domain": ["Rime", "Gerusalemme", "Aminta"],
+            "range": ["#4c78a8", "#a84c78", "#78a84c"],
+         }
+      }
+   }
+}
+
+vegaEmbed('#plotByYearAll', plotByYearAll);
+
+</script>
+
+
+<h2> Rime, Gerusalemme, and Aminta settings publication dates by half-decade </h2>
+
+<div id="plotByHalfDecadeAll"></div>
+<script>
+var plotByHalfDecadeAll = {
+   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+   "width": 800,
+   "height": 300,
+   "data": {"url": urlbase + "data/all.json"},
+   "mark": "bar",
+   "encoding": {
+      "x": {
+         "bin": true,
+         "field": "PDT",
+         "title": "Publication year by half-decade",
+         "axis": {
+            "labelAngle": 0,
+            "labelAlign": "left",
+            "labelExpr": "datum.label[0] + datum.label[2] + datum.label[3] + datum.label[4]"
+         },
+         "bin": {
+            "step": 5
+         },
+         "type": "quantitative"
+      },
+      "y": {
+         "aggregate": "count",
+         "title": "Number of settings published",
+         "type": "quantitative"
+      },
+
+      "color": {
+         "field": "repertory",
+         "type": "nominal",
+         "legend": {
+            "title": "Repertory"
+         },
+         "scale": {
+            "domain": ["Rime", "Gerusalemme", "Aminta"],
+            "range": ["#4c78a8", "#a84c78", "#78a84c"],
+         }
+      }
+
+   }
+}
+
+vegaEmbed('#plotByHalfDecadeAll', plotByHalfDecadeAll);
+
+</script>
 
 
 

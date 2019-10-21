@@ -60,4 +60,12 @@ table.poem {
 
 
 
+/* temporary hiding of arrow button */
+
+span.triangle, span.backward {
+	display:none;
+}
+
+
+
 

@@ -3,7 +3,6 @@
  */
 
 
-
 #contents {
 	padding: 50px;
 	font-size: 130%;
@@ -250,4 +249,9 @@ table.sourceinfo td:first-child {
 }
 
 
+/* temporary hiding of arrow button */
 
+span.triangle, span.backward {
+	display:none;
+
+}

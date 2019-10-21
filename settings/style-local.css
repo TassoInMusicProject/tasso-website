@@ -155,3 +155,10 @@ th {
 	margin-left:40px;
 }
 
+
+/* temporary hiding of arrow button */
+
+span.triangle, span.backward {
+	display:none;
+
+}

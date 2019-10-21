@@ -73,6 +73,7 @@ function doMusicSearch() {
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
 		if (request.readyState == XMLHttpRequest.DONE) {
+			// console.log("SEARCH RESULTS:", request.responseText);
 			displayResults(request.responseText, {pquery: pquery, iquery: iquery, rquery: rquery});
 		} else if (request.status == 400) {
 			console.log("THERE WAS AN ERROR IN THE SEARCH");
@@ -523,7 +524,6 @@ function shortName(fullname) {
 }
 
 
-		output += getWordCount(catalog, query);
 
 /////////////////////////////
 //

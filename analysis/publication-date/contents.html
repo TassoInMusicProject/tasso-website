@@ -4,9 +4,10 @@
 
 <div id="plotByYear"></div>
 <script>
+var urlbase = "https://www.tassomusic.org/analysis/publication-date/";
 var plotByYear = {
    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-   "data": {"url": "data/rime.json"},
+   "data": {"url": urlbase + "data/rime.json"},
    "mark": "bar",
    "encoding": {
       "x": {
@@ -40,7 +41,7 @@ var plotByHalfDecade = {
    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
    "width": 800,
    "height": 300,
-   "data": {"url": "data/rime.json"},
+   "data": {"url": urlbase + "data/rime.json"},
    "mark": "bar",
    "encoding": {
       "x": {

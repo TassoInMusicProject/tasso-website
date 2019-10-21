@@ -98,7 +98,7 @@ data in spreadsheets for further use in analysis).
 	<a href="publication-date">Publication dates</a>
 	</td> 
 	<td>
-		Histogram of musical-setting publication dates.
+		Histograms of musical-setting publication dates.
 	</td>
 </tr>
 

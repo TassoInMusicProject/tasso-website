@@ -3,45 +3,33 @@
 
 use strict;
 
-my $directory = $ARGV[0];
-my @files = glob("$directory/*.krn");
-
-my %dates;
 my $output = "";
-foreach my $file (@files) {
-	my $id = $file;
-	$id =~ s/.*\///;
-	$id =~ s/-.*//;
-	my $date = getReferenceRecord("PDT", $file);
-	continue if $date !~ /\b(\d{4})\b/;
-	$output .= "\n\t{\"ID\": \"$id\", \"PDT\": $1},";
+my @contents = <>;
+my $year;
+my $id;
+foreach my $line (@contents) {
+	chomp $line;
+	if ($line =~ /^\@CATALOGNUM\s*:\s*(.*)\s*$/) {
+		$id = $1;
+	}
+	if ($line =~ /^\@PRINCEPSYEAR\s*:\s*(.*)\s*$/) {
+		$year = $1;
+		if ($year =~ /\b(\d{4})\b/) {
+			$year = $1;
+		} else {
+			$year = "";
+		}
+	}
+	if ($line =~ /^\@\@END:\s*SETTING\s*$/) {
+		if (($id ne "") && ($year ne "")) {
+			$output .= "\n\t{\"ID\": \"$id\", \"PDT\": $year},";
+		}
+		$id = "";
+		$year = "";
+	}
 }
 $output =~ s/,$//;
 print "[$output\n]\n";
-
-
-exit(0);
-
-###########################################################################
-
-
-##############################
-##
-## getReferenceRecord --
-##
-
-sub getReferenceRecord {
-	my ($key, $file) = @_;
-	open(FILE, $file) or die "Cannot read file $file\n";
-	my @contents = <FILE>;
-	close FILE;
-	chomp @contents;
-	foreach my $line (@contents) {
-		next if $line !~ /^\!\!\!$key:\s*(.*)\s*$/;
-		return $1;
-	}
-	return "";
-}
 
 
 

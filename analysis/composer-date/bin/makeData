@@ -1,0 +1,51 @@
+#!/usr/local/bin/perl
+# vim: ts=3
+
+use strict;
+
+my $output = "";
+my @contents = <>;
+my $year;
+my $repertory;
+my $composer;
+my $id;
+foreach my $line (@contents) {
+	chomp $line;
+	if ($line =~ /^\@CATALOGNUM\s*:\s*(.*)\s*$/) {
+		$id = $1;
+	}
+	if ($line =~ /^\@COMPOSER:\s*(.*)\s*$/) {
+		$composer = $1;
+		$composer =~ s/,.*//;
+	}
+	if ($line =~ /^\@PRINCEPSYEAR\s*:\s*(.*)\s*$/) {
+		$year = $1;
+		if ($year =~ /\b(\d{4})\b/) {
+			$year = $1;
+		} else {
+			$year = "";
+		}
+	}
+	if ($line =~ /^\@\@END:\s*SETTING\s*$/) {
+		if (($id ne "") && ($year ne "")) {
+			if ($id =~ /^(T..)/) {
+				my $prefix = $1;
+				$repertory = "Rime" if $prefix eq "Trm";
+				$repertory = "Gerusalemme" if $prefix eq "Tsg";
+				$repertory = "Aminta" if $prefix eq "Tam";
+			} else {
+				$repertory = "";
+			}
+			$output .= "\n\t{\"ID\": \"$id\", \"repertory\": \"$repertory\", \"composer\": \"$composer\", \"PDT\": $year},";
+		}
+		$id = "";
+		$year = "";
+		$composer = "";
+		$repertory = "";
+	}
+}
+$output =~ s/,$//;
+print "[$output\n]\n";
+
+
+

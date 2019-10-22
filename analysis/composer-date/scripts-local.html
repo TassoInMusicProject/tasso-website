@@ -1,0 +1,158 @@
+<script src="/scripts/scripts-common.js"></script>
+<script>
+// vim: ts=3
+
+document.addEventListener("DOMContentLoaded", function() {
+   HighlightNavigationBar();
+	displayComposerList("#composer-list");
+});
+
+
+
+//////////////////////////////
+//
+// getComposerList --
+//
+
+function getComposerList(list) {
+	var clist = {};
+	for (var i=0; i<list.length; i++) {
+		var composer = list[i].composer;
+		if (clist[composer]) {
+			clist[composer]++;
+		} else {
+			clist[composer] = 1;
+		}
+	}
+	return clist;
+}
+
+
+
+//////////////////////////////
+//
+// displayComposerList --
+//
+
+function displayComposerList (id) {
+	var target = document.querySelector(id);
+	if (!target) {
+		return;
+	}
+	var composers = getComposerList(DATA);
+	var names = Object.keys(composers).sort();
+	var ccount = names.length;
+	var columns = 5;
+	var amount = [];
+	var i;
+	for (i=0; i<columns; i++) {
+		amount[i] = parseInt(ccount / columns);
+	}
+	var remainder = ccount - parseInt(ccount / columns) * columns;
+	for (i=0; i<remainder; i++) {
+		amount[i]++;
+	}
+	var output = "";
+	output += "<table class='composer'>\n";
+	output += "<tr>";
+
+	var index = 0;
+	for (i=0; i<columns; i++) {
+		output += "<td class='data-column'>";
+		for (var j=0; j<amount[i]; j++) {
+			output += "<div onclick='toggleComposer(event)' class='composer'>";
+			var name = names[index++];
+			output += name;
+			output += "&nbsp;(";
+			output += composers[name];
+			output += ")";
+			output += "</div>";
+		}
+		output += "</td>";
+	}
+
+	output += "</tr>";
+	output += "</table>";
+
+	target.innerHTML = output;
+}
+
+	
+
+//////////////////////////////
+//
+// toggleComposer --
+//
+
+function toggleComposer(event) {
+	if (!event) {
+		return;
+	}
+	var target = event.target;
+	console.log("TARGET", target);
+	var classname = target.className;
+	console.log("CLASS", classname);
+	target.classList.toggle("active");
+	updateHistogram();
+}
+
+
+//////////////////////////////
+//
+// updateHistogram --
+//
+
+function updateHistogram() {
+	var i;
+	var composers = getActiveComposers();
+	var plotdata = [];
+	var keys = Object.keys(composers);
+	if (keys.length == 0) {
+		plotdata = DATA;
+	} else {
+		for (i=0; i<DATA.length; i++) {
+			if (composers[DATA[i].composer]) {
+				plotdata.push(DATA[i]);
+			}
+		}
+	}
+	var years = {};
+	for (i=0; i<plotdata.length; i++) {
+		years[plotdata[i].PDT] = 1;
+	}
+	var yearcount = Object.keys(years).length;
+	if (yearcount < 20) {
+			plotByComposer.encoding.x.axis = {};
+			plotByComposer.encoding.x.axis.labelAngle = 0;
+	} else {
+			if (plotByComposer.encoding.x.axis) {
+				delete plotByComposer.encoding.x.axis;
+			}
+	}
+
+	plotByComposer.data.values = plotdata;
+	vegaEmbed('#plotByComposer', plotByComposer);
+}
+
+
+
+//////////////////////////////
+//
+// getActiveComposers --
+//
+
+function getActiveComposers() {
+	var elements = document.querySelectorAll("div.composer.active");
+	var output = {};
+	for (var i=0; i<elements.length; i++) {
+		var text = elements[i].textContent.replace(/\s*\(\d+\)/, "");
+		output[text] = 1;
+	}
+	return output;
+}
+
+
+
+
+
+</script>

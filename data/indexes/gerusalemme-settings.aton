@@ -1468,11 +1468,11 @@
 @PRINCEPSRISM:	B 1739
 @OVOICES:	5
 @EXTANTVOICES:	5
-@OMENSURATION:	
-@OCLEFS:	
+@OMENSURATION:	Cut-C
+@OCLEFS:	G2,G2,C2,C3,F4
 @OTIME:		
-@OKEYSIG:	
-@FINAL:		
+@OKEYSIG:	b-
+@FINAL:	F
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1586,7 +1586,7 @@
 @CANTO:		XII
 @OTTAVA:	97
 @TITLE:	Non di morte sei tu ma di vivaci
-@COMPOSER:	Giovan Battista Bartoli
+@COMPOSER:	Bartoli, Giovan Battista
 @PARTS:		2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Florence
@@ -1599,10 +1599,10 @@
 @OVOICES:	5
 @EXTANTVOICES:	5
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,C4,F4
+@OCLEFS:	G2,C2,C3,C3,C4
 @OTIME:		
-@OKEYSIG:	
-@FINAL:		
+@OKEYSIG:	b-
+@FINAL:	(D)G
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING

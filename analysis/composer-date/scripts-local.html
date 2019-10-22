@@ -16,14 +16,59 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function getComposerList(list) {
 	var clist = {};
-	for (var i=0; i<list.length; i++) {
-		var composer = list[i].composer;
+	var earliest = {};
+	var latest = {};
+	var i;
+	var composer;
+	var date;
+	for (i=0; i<list.length; i++) {
+		composer = list[i].composer;
+		date = list[i].PDT;
+
+		if (!earliest[composer]) {
+			earliest[composer] = date;
+		} else {
+			if (earliest[composer] > date) {
+				earliest[composer] = date;
+			}
+		}
+
+		if (!latest[composer]) {
+			latest[composer] = date;
+		} else {
+			if (latest[composer] < date) {
+				latest[composer] = date;
+			}
+		}
+
 		if (clist[composer]) {
 			clist[composer]++;
 		} else {
 			clist[composer] = 1;
 		}
 	}
+
+	var keys = Object.keys(clist);
+	for (i=0; i<keys.length; i++) {
+		composer = keys[i];
+		if (!clist[composer]) {
+			continue;
+		}
+		var date1 = earliest[composer];
+		var date2 = latest[composer];
+		if (!date1) {
+			continue;
+		}
+		if (!date2) {
+			continue;
+		}
+		if (date1 == date2) {
+			clist[composer] += ": " + date1;
+		} else {
+			clist[composer] += ": " + date1 + "&ndash;" + date2;
+		}
+	}
+
 	return clist;
 }
 
@@ -42,7 +87,7 @@ function displayComposerList (id) {
 	var composers = getComposerList(DATA);
 	var names = Object.keys(composers).sort();
 	var ccount = names.length;
-	var columns = 5;
+	var columns = 4;
 	var amount = [];
 	var i;
 	for (i=0; i<columns; i++) {
@@ -145,7 +190,7 @@ function getActiveComposers() {
 	var elements = document.querySelectorAll("div.composer.active");
 	var output = {};
 	for (var i=0; i<elements.length; i++) {
-		var text = elements[i].textContent.replace(/\s*\(\d+\)/, "");
+		var text = elements[i].textContent.replace(/\s*\(\d+.*\)/, "");
 		output[text] = 1;
 	}
 	return output;

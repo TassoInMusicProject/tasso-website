@@ -27,7 +27,9 @@ Javascript tools
 [ATON](http://aton.sapp.org) is a hierarchical data format for 
 storing most metadata for the TMP website, with conversions
 in and out of JSON.  It allows multi-line content as well as
-comments within the data.
+comments within the data.  Most of the 
+[metadata for the website](https://github.com/TassoInMusicProject/tasso-website/tree/gh-pages/data/indexes)
+is stored in this format.
 
 ### Handlebars ###
 
@@ -48,10 +50,22 @@ for displaying textual variants, developed by Raffaele Viglianti at
 the [Maryland Institute for Technology in the Humanities](http://mith.umd.edu/).
 
 
+### Vega-Lite ###
+
+[Vega-Lite](https://vega.github.io/vega-lite/) is a javascript data plotting
+library that is used on some analysis pages such as for the histograms plots
+display on the [pitch-class](/analysis/pitch-class) analysis page and the
+[publication date](/analysis/publication-date) analysis page.
+
+
 ### Verovio ###
 
-[Verovio](http://www.verovio.org) is an SVG music notation renderer developed
-primarily by Laurent Pugin at the [Swiss office of RISM](http://rism-ch.org/?locale=en).
+[Verovio](http://www.verovio.org) is an SVG music notation renderer
+developed primarily by Laurent Pugin at the [Swiss office of
+RISM](http://rism-ch.org/?locale=en).  The [humlib](https://humlib.humdrum.org)
+library is embedded within verovio and is used to process and analyze the
+Humdrum scores for the website as well as convert the scores into the 
+[MEI](https://www.music-encoding.org) format for rendering in verovio.
 
 
 
@@ -80,7 +94,8 @@ Metadata index used on the website:
 </script>
 
 This data is used to search on the <a target="_new" href="/browse">Browse page</a>, as well as display most information about scores such as on the 
-<a target="_new" href="/work?id=Trm0047m">Work pages</a>.
-
+<a target="_new" href="/work?id=Trm0047m">Work pages</a>.  The JSON data is
+constructed from the ATON data files found in  the
+[website source code](https://github.com/TassoInMusicProject/tasso-website/tree/gh-pages/data/indexes) on github.
 
 

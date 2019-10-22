@@ -8,6 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("click", function(event) {
+	console.log("CLICK EVENT", event);
+	var target = event.target;
+	var name = target.nodeName;
+console.log("NAME = ", name);
+	if (name === "path") {
+		console.log("PATH = ", target);
+	}
+});
+
 
 //////////////////////////////
 //
@@ -176,7 +186,7 @@ function updateHistogram() {
 	}
 
 	plotByComposer.data.values = plotdata;
-	vegaEmbed('#plotByComposer', plotByComposer);
+	vegaEmbed('#plotByComposer', plotByComposer, vegaOptions);
 }
 
 

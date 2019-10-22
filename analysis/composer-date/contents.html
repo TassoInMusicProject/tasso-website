@@ -5,6 +5,11 @@
 var urlbase = "";
 var DATA = {% include_relative all.json %};
 
+// https://github.com/vega/vega-embed/#options
+vegaOptions = {
+	"renderer": "svg"
+};
+
 </script>
 
 <h2> Rime settings publication dates by year </h2>
@@ -37,7 +42,7 @@ var plotByComposer = {
    }
 }
 
-vegaEmbed('#plotByComposer', plotByComposer);
+vegaEmbed('#plotByComposer', plotByComposer, vegaOptions);
 
 </script>
 

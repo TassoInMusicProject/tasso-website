@@ -26,20 +26,22 @@ layout: simple
 			<option disabled value="Tbv">Lagrime della Beata Virgine</option>
 			<option disabled value="Trt">Re Torrismondo</option>
 			<option disabled value="Tco">G. conquistata</option>
-			<option value="Trm,Tsg,Tam,Tec,Tri,Tbv,Trt,Tco">All</option>
+			<option value="all">All</option>
 		</select>
 		</nobr>
 	</span>
-
 </td>
 
 <td>
-
-<div class="form-group">
-	<input autocomplete="off" size="40" id="textquery" type="text" onkeyup="doTextSearch()" class="form-control" placeholder="Enter search text">
-</div>
-
+	<div class="form-group">
+		<input autocomplete="off" size="40" id="textquery" type="text" onkeyup="doTextSearch()" class="form-control" placeholder="Enter search text">
+	</div>
 </td>
+
+<td>
+	<div style="margin-left:20px; margin-top:30px;" title="Copy link for search." id="link" class="link" onclick="copyMusicSearchLink()"><i class="fa fa-link" aria-hidden="true"></i></div>
+</td>
+
 </tr>
 </table>
 

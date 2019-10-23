@@ -28,7 +28,8 @@ select {
 }
 
 div#searchButton:hover,
-.help:hover {
+.help:hover,
+.link:hover {
 	background-color: #aa0000;
 }
 
@@ -50,6 +51,20 @@ div.help {
 	cursor: pointer;
 	width:16px;
 	border-radius: 1rem;
+	font-family: Arial;
+	color: #fafafa;
+	padding: 3px 5px 0px 8px;
+	text-decoration: none;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+div.link {
+	background-color: #B19C5F;
+	cursor: pointer;
+	width: 25px;
+	border-radius: 1rem;
+	display: none;
 	font-family: Arial;
 	color: #fafafa;
 	padding: 3px 5px 0px 8px;

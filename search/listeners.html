@@ -6,6 +6,9 @@
 
 var PITCHQUERY = "";
 var RHYTHMQUERY = "";
+var INTERVALQUERY = "";
+var REPERTORY = "";
+var FIRSTTIME = 1;
 
 //////////////////////////////
 //
@@ -22,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
 	$(document.body).keyup(function(event) {
+		hideMusicSearchCopyLink();
 		//if (event.which == EnterKey) {
 		// Require pressing the search button for now:
 		/*
@@ -53,7 +57,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function doActions() {
    PrepareGlobalTassoObjects();
-	displayMusicSearch();
+	if (CGI.text) {
+		displayTextSearch();
+	} else {
+		displayMusicSearch();
+	}
 }
 
 

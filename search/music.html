@@ -4,8 +4,6 @@
 <tr>
 
 <td>
-
-
 	<span class="form-group">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repertory:
 		<select onchange="doMusicSearch()" id="repertory">
@@ -17,7 +15,7 @@
 			<option value="Tbv">Lagrime della Beata Virgine</option>
 			<option value="Trt">Re Torrismondo</option>
 			<option disabled value="Tco">G. conquistata</option>
-			<option value="Trm,Tsg,Tam,Tec,Tri,Tbv,Trt,Tco">All</option>
+			<option value="all">All</option>
 		</select>
 	</span>
 
@@ -28,6 +26,9 @@
 		</td>
 		<td>
 			<div style="margin-left:20px; margin-top:30px;" title="Click for search instructions." id="help" class="help" onclick="return showPopupHelp('search-help.html', 'Search Help');">?</div>
+		</td>
+		<td>
+			<div style="margin-left:20px; margin-top:30px;" title="Copy link for search." id="link" class="link" onclick="copyMusicSearchLink()"><i class="fa fa-link" aria-hidden="true"></i></div>
 		</td>
 	</tr>
 	</table>

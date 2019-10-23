@@ -2,6 +2,8 @@
 {% include_relative templates.html %}
 {% include_relative listeners.html %}
 
+<link rel="stylesheet" href="/styles/fonts/font-awesome/css/font-awesome.min.css">
+
 <script src="/scripts/scripts-common.js"></script>
 
 <script>
@@ -13,6 +15,7 @@ var RWORKLIST;
 var LINES = [];
 var BYWORK = {};
 var WORDS = [];
+
 
 
 //////////////////////////////
@@ -57,11 +60,20 @@ function doMusicSearch() {
 		var summary = document.querySelector("#summary");
 		results.textContent = "";
 		summary.textContent = "";
+		hideMusicSearchCopyLink();
 		return;
 	}
 
+	document.body.style.cursor = "wait !important";
+
+	displayMusicSearchCopyLink();
+
 	PITCHQUERY = pquery;
 	RHYTHMQUERY = rquery;
+
+	if (repertory.match(/all/i)) {
+			repertory = "Trm,Tsg,Tam,Tec,Tri,Tbv,Trt,Tco";
+	}
 
 	var url = "https://josquin.stanford.edu/cgi-bin/tasso?";
 	url += "C=" + repertory;
@@ -75,6 +87,7 @@ function doMusicSearch() {
 		if (request.readyState == XMLHttpRequest.DONE) {
 			// console.log("SEARCH RESULTS:", request.responseText);
 			displayResults(request.responseText, {pquery: pquery, iquery: iquery, rquery: rquery});
+			document.body.style.cursor = "auto";
 		} else if (request.status == 400) {
 			console.log("THERE WAS AN ERROR IN THE SEARCH");
 		} else {
@@ -85,6 +98,35 @@ function doMusicSearch() {
 	request.send();
 }
 
+
+
+//////////////////////////////
+//
+// displayMusicSearchCopyLink --
+//
+
+function displayMusicSearchCopyLink() {
+	var element = document.querySelector("#link");
+	if (!element) {
+		return;
+	}
+	element.style.display = "block";
+}
+
+
+
+//////////////////////////////
+//
+//hideMusicSearchCopyLink --
+//
+
+function hideMusicSearchCopyLink() {
+	var element = document.querySelector("#link");
+	if (!element) {
+		return;
+	}
+	element.style.display = "none";
+}
 
 
 //////////////////////////////
@@ -286,12 +328,95 @@ function displayMusicSearch(target) {
 			// setupMusicBrowseCallbacks();
 			// insertCgiSearchParameters();
 			// fillMusicBrowsePage({fillOptions: true});
+
+			if (FIRSTTIME) {
+				FIRSTTIME = 0;
+				loadMusicCgiParameters();
+			}
 		}
 	};
 	request.open("GET", "music.html", true);
 	request.send();
 }
 
+
+
+//////////////////////////////
+//
+// loadMusicCgiParameters --
+//
+
+function loadMusicCgiParameters() {
+	var pitch = CGI.pitch;
+	var interval = CGI.interval;
+	var rhythm = CGI.rhythm;
+	var repertory = CGI.repertory;
+	if (pitch.match(/^\s*$/) && interval.match(/^\s*$/) && rhythm.match(/^\s*$/)) {
+		// nothing to do
+		return;
+	}
+	var pelem = document.querySelector("#pitch");
+	var ielem = document.querySelector("#interval");
+	var relem = document.querySelector("#rhythm");
+
+	if (pitch) {
+		pelem.value = pitch;
+	}
+	if (interval) {
+		ielem.value = interval;
+	}
+	if (rhythm) {
+		relem.value = rhythm;
+	}
+	
+	if (repertory) {
+		var repelement = document.querySelector("#repertory");
+		var i;
+		var options = repelement.querySelectorAll("option");
+		for (i=0; i<options.length; i++) {
+			if (repertory === options[i].value) {
+				options[i].selected = "selected";
+				break;
+			}
+		}
+	}
+	doMusicSearch();
+}
+
+
+
+
+//////////////////////////////
+//
+// loadTextCgiParameters --
+//
+
+function loadTextCgiParameters() {
+	var text = CGI.text;
+	var repertory = CGI.repertory;
+	if (text.match(/^\s*$/)) {
+		// nothing to do
+		return;
+	}
+	var telem = document.querySelector("#textquery");
+
+	if (text) {
+		telem.value = text;
+	}
+	
+	if (repertory) {
+		var repelement = document.querySelector("#repertory");
+		var i;
+		var options = repelement.querySelectorAll("option");
+		for (i=0; i<options.length; i++) {
+			if (repertory === options[i].value) {
+				options[i].selected = "selected";
+				break;
+			}
+		}
+	}
+	doTextSearch();
+}
 
 
 
@@ -324,6 +449,11 @@ function displayTextSearch(target) {
 			// setupMusicBrowseCallbacks();
 			// insertCgiSearchParameters();
 			// fillMusicBrowsePage({fillOptions: true});
+			if (FIRSTTIME) {
+console.log("LOADING TEXT SEARCH");
+				FIRSTTIME = 0;
+				loadTextCgiParameters();
+			}
 		}
 	};
 	request.open("GET", "text.html", true);
@@ -389,6 +519,7 @@ function doTextSearch() {
 		results.innerHTML = "";
 		return;
 	}
+console.log("DOING TEXT SEARCH", tquery);
 
 	var matches = getTextMatches(tquery);
 	var output = printTextResults(matches, tquery);
@@ -584,6 +715,9 @@ function getTextMatches(query) {
 	if (repertoryElement) {
 		repertory = repertoryElement.value;
 	}
+	if (repertory.match(/all/i)) {
+			repertory = "Trm,Tsg,Tam,Tec,Tri,Tbv,Trt,Tco";
+	}
 
 	for (var i=0; i<LINES.length; i++) {
 		var rep = LINES[i].substring(0, 3);
@@ -651,6 +785,88 @@ function loadLyricIndex() {
 	request.send();
 }
 
+
+//////////////////////////////
+//
+// copyMusicSearchLink --
+//
+
+function copyMusicSearchLink() {
+	var pitch = document.getElementById("pitch");
+	var pquery = pitch.value;
+
+	var interval = document.getElementById("interval");
+	var iquery = interval.value;
+
+	var rhythm = document.getElementById("rhythm");
+	var rquery = rhythm.value;
+
+	var relement = document.getElementById("repertory");
+	var repertory = relement.value;
+
+	var added = 0;
+	var baseurl = "https://www.tassomusic.org/search";
+	var url = baseurl;
+
+	if (repertory) {
+		if (!added) {
+			url += "?";
+			added = 1;
+		} else {
+			url += "&";
+		}
+		url += "repertory=" + encodeURI(repertory);
+	}
+
+	if (pquery) {
+		if (!added) {
+			url += "?";
+			added = 1;
+		} else {
+			url += "&";
+		}
+		url += "pitch=" + encodeURI(pquery);
+	}
+
+	if (iquery) {
+		if (!added) {
+			url += "?";
+			added = 1;
+		} else {
+			url += "&";
+		}
+		url += "interval=" + encodeURI(iquery);
+	}
+
+	if (rquery) {
+		if (!added) {
+			url += "?";
+			added = 1;
+		} else {
+			url += "&";
+		}
+		url += "rhythm=" + encodeURI(rquery);
+	}
+
+	copyToClipboard(url);
+}
+
+
+
+//////////////////////////////
+//
+// copyToClipboard --
+//
+
+function copyToClipboard(text) {
+	console.log("Copying", text);
+	element = document.createElement('textarea');
+	element.value = text;
+	document.body.appendChild(element);
+	element.select();
+	document.execCommand('copy');
+	document.body.removeChild(element);
+};
 
 
 </script>

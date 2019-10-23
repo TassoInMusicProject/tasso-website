@@ -54,6 +54,9 @@ div.active {
 }
 
 
+svg path.selected {
+	fill: #880000 !important;
+}
 
 
 

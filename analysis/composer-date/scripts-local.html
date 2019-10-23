@@ -12,11 +12,84 @@ document.addEventListener("click", function(event) {
 	console.log("CLICK EVENT", event);
 	var target = event.target;
 	var name = target.nodeName;
-console.log("NAME = ", name);
 	if (name === "path") {
-		console.log("PATH = ", target);
+		if (target.className.baseVal.match("selected")) {
+			// unhighlight bar in graph
+			unhighlightSelectedYear();
+		} else {
+			// highlight bar in graph, but first unhighlight any
+			// previous ones.
+			highlightSelectedYear(target);
+		}
 	}
 });
+
+
+
+///////////////////////////////
+//
+// highlightSelectedYear --
+//
+
+function highlightSelectedYear(target) {
+	console.log("HIGHLIGHT SELECTED YEAR TARGET", target);
+	console.log("TARGET STYLE", target.style.fill);
+	if (!target.style.fill.match("168")) {
+		// not a data bar to highlight
+		return;
+	}
+	unhighlightSelectedYear(target);
+	target.className.baseVal = "selected";
+	console.log("PATH = ", target);
+	// Now find the year associated with the 
+	// target bar.
+
+	var dstring = target.getAttribute("d");
+	console.log("DSTRING", dstring);
+	var matches = dstring.match(/^M([\d.]+/);
+	var hpos = parseFloat(matches[1]);
+	console.log("HPOS", hpos);
+
+	var svg = document.querySelector("svg");
+	var labels = svg.querySelectorAll("g.mark-text.role-axis-label text");
+	console.log("LABELS", labels);
+}
+
+
+
+///////////////////////////////
+//
+// unhighlightSelectedYear -- remove highlighted composers
+//     for a selected year.
+//
+
+function unhighlightSelectedYear(target) {
+	console.log("UNHIGHLIGHT SELECTED YEAR TARGET", target);
+	console.log("=================================");
+	var composers = document.querySelectorAll("div.selected");
+	var i;
+	for (i=0; i<composers.length; i++) {
+		composers[i].classList.toggle("selected");
+	}
+	var svg = document.querySelector("svg");
+	var bars = svg.querySelectorAll("path.selected");
+	for (i=0; i<bars.length; i++) {
+		if (!bars[i].style.fill.match("168")) {
+			continue;
+		}
+		if (!bars[i].className) {
+			console.log("BAR DOES NOT HAVE A CLASS LIST", bars[i].className);
+			continue;
+		}
+		if (bars[i].className.baseVal.match("selected")) {
+			// Assuming no extra class values involved.
+			bars[i].className.baseVal = "";
+			bars[i].className.animVal = "";
+			console.log("CLEARING BAR FOR CLASS LIST ", bars[i]);
+		}
+	}
+}
+
 
 
 //////////////////////////////

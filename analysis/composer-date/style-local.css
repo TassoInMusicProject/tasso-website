@@ -54,6 +54,16 @@ div.active {
 }
 
 
+div.composer.selected {
+	background: #880000;
+	color: #ffffff;
+}
+
+div.composer.selected.active {
+	color: skyblue !important;
+}
+
+
 svg path.selected {
 	fill: #880000 !important;
 }

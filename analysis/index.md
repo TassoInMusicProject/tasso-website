@@ -102,6 +102,15 @@ data in spreadsheets for further use in analysis).
 	</td>
 </tr>
 
+<tr>
+	<td>
+	<a href="composer-date">Dates by composer</a>
+	</td> 
+	<td>
+		Histograms of musical-setting by publication date and composer.
+	</td>
+</tr>
+
 </table>
 
 

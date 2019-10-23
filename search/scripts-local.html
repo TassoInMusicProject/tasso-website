@@ -351,6 +351,9 @@ function loadMusicCgiParameters() {
 	var interval = CGI.interval;
 	var rhythm = CGI.rhythm;
 	var repertory = CGI.repertory;
+	if (!pitch) { pitch = ""; }
+	if (!interval) { interval = ""; }
+	if (!rhythm) { rhythm = ""; }
 	if (pitch.match(/^\s*$/) && interval.match(/^\s*$/) && rhythm.match(/^\s*$/)) {
 		// nothing to do
 		return;
@@ -450,7 +453,6 @@ function displayTextSearch(target) {
 			// insertCgiSearchParameters();
 			// fillMusicBrowsePage({fillOptions: true});
 			if (FIRSTTIME) {
-console.log("LOADING TEXT SEARCH");
 				FIRSTTIME = 0;
 				loadTextCgiParameters();
 			}
@@ -501,6 +503,32 @@ function fillTextSearchPage() {
 }
 
 
+//////////////////////////////
+//
+// prepareTextSearchLink --
+//
+
+function prepareTextSearchLink() {
+	var textquery = document.getElementById("textquery");
+	if (!textquery) {
+		console.log("CANNOT FIND TEXT SEARCH FIELD");
+		return;
+	}
+	var tquery = textquery.value;
+	console.log("TEXT QUERY IS", tquery);
+	var element = document.querySelector("#textlink");
+	if (!element) {
+		console.log("CANNOT FIND LINK ELEMENT", element);
+		return;
+	}
+	if (tquery.match(/^\s*$/)) {
+		element.style.display = "none";
+	} else {
+		element.style.display = "block";
+	}
+}
+
+
 
 //////////////////////////////
 //
@@ -510,6 +538,7 @@ function fillTextSearchPage() {
 function doTextSearch() {
 	var textquery = document.getElementById("textquery");
 	var tquery = textquery.value;
+	prepareTextSearchLink();
 
 	var results = document.querySelector("#results");
 	var summary = document.querySelector("#summary");
@@ -519,7 +548,6 @@ function doTextSearch() {
 		results.innerHTML = "";
 		return;
 	}
-console.log("DOING TEXT SEARCH", tquery);
 
 	var matches = getTextMatches(tquery);
 	var output = printTextResults(matches, tquery);
@@ -784,6 +812,51 @@ function loadLyricIndex() {
 	request.open("GET", "/data/lyrics/lyrics-index.txt");
 	request.send();
 }
+
+
+
+//////////////////////////////
+//
+// copyTextSearchLink --
+//
+
+function copyTextSearchLink() {
+	var element = document.getElementById("textquery");
+	if (!element) {
+		return;
+	}
+	var text = element.value;
+
+	var relement = document.getElementById("repertory");
+	var repertory = relement.value;
+
+	var added = 0;
+	var baseurl = "https://www.tassomusic.org/search";
+	var url = baseurl;
+
+	if (repertory) {
+		if (!added) {
+			url += "?";
+			added = 1;
+		} else {
+			url += "&";
+		}
+		url += "repertory=" + encodeURI(repertory);
+	}
+
+	if (text) {
+		if (!added) {
+			url += "?";
+			added = 1;
+		} else {
+			url += "&";
+		}
+		url += "text=" + encodeURI(text);
+	}
+
+	copyToClipboard(url);
+}
+
 
 
 //////////////////////////////

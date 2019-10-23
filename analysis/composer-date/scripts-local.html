@@ -46,13 +46,94 @@ function highlightSelectedYear(target) {
 
 	var dstring = target.getAttribute("d");
 	console.log("DSTRING", dstring);
-	var matches = dstring.match(/^M([\d.]+/);
+	var matches = dstring.match(/^M([\d.]+)/);
 	var hpos = parseFloat(matches[1]);
 	console.log("HPOS", hpos);
 
 	var svg = document.querySelector("svg");
 	var labels = svg.querySelectorAll("g.mark-text.role-axis-label text");
-	console.log("LABELS", labels);
+	var i;
+	var closei = -1;
+	var mindiff = 10000;
+	var tpos;
+	for (i=0; i<labels.length; i++) {
+		var tstring = labels[i].getAttribute("transform");
+		matches = tstring.match(/translate\(([\d.]+)/);
+		if (!matches) {
+			continue;
+		}
+		tpos = parseFloat(matches[1])
+		diff = Math.abs(tpos - hpos);
+		if (closei < 0) {
+			mindiff = diff;
+			closei = i;
+		} else if (diff < mindiff) {
+			mindiff = diff;
+			closei = i;
+		}
+	}
+	if (closei < 0) {
+		return;
+	}
+	var element = labels[closei];
+	var text = element.textContent;
+	if (!text.match(/^\d{4}$/)) {
+		return;
+	}
+	var year = parseInt(text);
+console.log("YEAR IS ", year);
+	highlightSelectedComposers(year);
+}
+
+
+
+//////////////////////////////
+//
+// highlightSelectedComposers --
+//
+
+function highlightSelectedComposers(year) {
+	unhighlightSelectedComposers();
+	var clist = getComposersForYear(year, DATA);
+	var composers = document.querySelectorAll("div.composer");
+	for (var i=0; i<composers.length; i++) {
+		var composer = composers[i].textContent.replace(/\s*\(.*/, "");
+		if (clist[composer]) {
+			composers[i].classList.add("selected");
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getComposersForYear --
+//
+
+function getComposersForYear(year, data) {
+	var output = {};
+	for (var i=0; i<data.length; i++) {
+		if (data[i].PDT == year) {
+			output[data[i].composer] = year;
+		}
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// unhighlightSelectedComposers --
+//
+
+function unhighlightSelectedComposers() {
+	var composers = document.querySelectorAll("div.composer.selected");
+	for (var i=0; i<composers.length; i++) {
+		composers.classList.toggle("selected");
+		composers[i].classList.toggle("selected");
+	}
 }
 
 

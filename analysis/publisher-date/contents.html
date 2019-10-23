@@ -1,0 +1,53 @@
+
+
+<script>
+// var urlbase = "https://www.tassomusic.org/analysis/publisher-date/";
+var urlbase = "";
+var DATA = {% include_relative all.json %};
+
+// https://github.com/vega/vega-embed/#options
+vegaOptions = {
+	"renderer": "svg"
+};
+
+</script>
+
+<h2> Rime settings publication dates by year </h2>
+
+<div id="plotByPublisher"></div>
+<script>
+
+var plotByPublisher = {
+   "$schema": "https://vega.github.io/schema/vega-lite/v4.0.0-beta.1.json",
+   "data": {"values": DATA},
+   "width": 1000,
+   "height": 300,
+   "mark": "bar",
+   "encoding": {
+      "x": {
+         "bin": true,
+         "field": "PDT",
+         "title": "Publication year",
+         "bin": {
+            "binned": true,
+            "step": 1
+         },
+         "type": "ordinal"
+      },
+      "y": {
+         "aggregate": "count",
+         "title": "Number of settings published",
+         "type": "quantitative"
+      }
+   }
+}
+
+vegaEmbed('#plotByPublisher', plotByPublisher, vegaOptions);
+
+</script>
+
+
+<div id="publisher-list"></div>
+
+
+

@@ -111,6 +111,15 @@ data in spreadsheets for further use in analysis).
 	</td>
 </tr>
 
+<tr>
+	<td>
+	<a href="publisher-date">Dates by publisher</a>
+	</td> 
+	<td>
+		Histograms of musical-setting by publication date and publisher.
+	</td>
+</tr>
+
 </table>
 
 

@@ -1,0 +1,72 @@
+
+
+div#contents {
+	padding-left: 60px;
+	border-top-left-radius: 5px;
+	margin-top: 5px !important;
+	font-size: 1.35em;
+}
+
+
+div#form {
+	margin-bottom: 25px;
+}
+table th {
+	margin-left: 15px;
+	text-align: left;
+}
+table td {
+	vertical-align: top;
+}
+
+
+summary {
+	color: #c2ab6c;
+}
+
+.active-page {
+	color: #c2ab6c;
+	cursor: pointer;
+}
+
+
+summary:focus {
+	outline: none;
+}
+
+
+
+.data-column {
+	padding-right: 20px;
+}
+
+
+table.publisher {
+	width: 100%;
+}
+
+div.publisher {
+	cursor: pointer;
+}
+
+div.active {
+	color: dodgerblue;
+}
+
+
+div.publisher.selected {
+	background: #880000;
+	color: #ffffff;
+}
+
+div.publisher.selected.active {
+	color: skyblue !important;
+}
+
+
+svg path.selected {
+	fill: #880000 !important;
+}
+
+
+

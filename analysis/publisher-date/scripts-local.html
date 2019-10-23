@@ -1,0 +1,389 @@
+<script src="/scripts/scripts-common.js"></script>
+<script>
+// vim: ts=3
+
+document.addEventListener("DOMContentLoaded", function() {
+   HighlightNavigationBar();
+	displayPublisherList("#publisher-list");
+});
+
+
+
+document.addEventListener("click", function(event) {
+	var target = event.target;
+	var name = target.nodeName;
+	if (name === "path") {
+		if (target.className.baseVal.match("selected")) {
+			// unhighlight bar in graph
+			unhighlightSelectedYear();
+		} else {
+			// highlight bar in graph, but first unhighlight any
+			// previous ones.
+			highlightSelectedYear(target);
+		}
+	}
+});
+
+
+
+///////////////////////////////
+//
+// highlightSelectedYear --
+//
+
+function highlightSelectedYear(target) {
+	if (!target.style.fill.match("168")) {
+		// not a data bar to highlight
+		return;
+	}
+	unhighlightSelectedYear(target);
+	target.className.baseVal = "selected";
+	// Now find the year associated with the 
+	// target bar.
+
+	var dstring = target.getAttribute("d");
+	var matches = dstring.match(/^M([\d.]+)/);
+	var hpos = parseFloat(matches[1]);
+	console.log("HPOS", hpos);
+
+	var svg = document.querySelector("svg");
+	var labels = svg.querySelectorAll("g.mark-text.role-axis-label text");
+	var i;
+	var closei = -1;
+	var mindiff = 10000;
+	var tpos;
+	for (i=0; i<labels.length; i++) {
+		var tstring = labels[i].getAttribute("transform");
+		matches = tstring.match(/translate\(([\d.]+)/);
+		if (!matches) {
+			continue;
+		}
+		tpos = parseFloat(matches[1])
+		diff = Math.abs(tpos - hpos);
+		if (closei < 0) {
+			mindiff = diff;
+			closei = i;
+		} else if (diff < mindiff) {
+			mindiff = diff;
+			closei = i;
+		}
+	}
+	if (closei < 0) {
+		return;
+	}
+	var element = labels[closei];
+	var text = element.textContent;
+	if (!text.match(/^\d{4}$/)) {
+		return;
+	}
+	var year = parseInt(text);
+	highlightSelectedPublishers(year);
+}
+
+
+
+//////////////////////////////
+//
+// highlightSelectedPublishers --
+//
+
+function highlightSelectedPublishers(year) {
+	unhighlightSelectedPublishers();
+	var clist = getPublishersForYear(year, DATA);
+	var publishers = document.querySelectorAll("div.publisher");
+	for (var i=0; i<publishers.length; i++) {
+		var publisher = publishers[i].textContent.replace(/\s*\(.*/, "");
+		if (clist[publisher]) {
+			publishers[i].classList.add("selected");
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getPublishersForYear --
+//
+
+function getPublishersForYear(year, data) {
+	var output = {};
+	for (var i=0; i<data.length; i++) {
+		if (data[i].PDT == year) {
+			var key = data[i].publisher;
+			if (!key) {
+				continue;
+			}
+			if (key.match(/^\s*$/)) {
+				continue;
+			}
+			var location = data[i].location;
+			if (location && !location.match(/^\s*$/)) {
+				key += "; " + location;
+			}
+			output[key] = year;
+		}
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// unhighlightSelectedPublishers --
+//
+
+function unhighlightSelectedPublishers() {
+	var publishers = document.querySelectorAll("div.publisher.selected");
+	for (var i=0; i<publishers.length; i++) {
+		publishers.classList.toggle("selected");
+		publishers[i].classList.toggle("selected");
+	}
+}
+
+
+
+///////////////////////////////
+//
+// unhighlightSelectedYear -- remove highlighted publishers
+//     for a selected year.
+//
+
+function unhighlightSelectedYear(target) {
+	var publishers = document.querySelectorAll("div.selected");
+	var i;
+	for (i=0; i<publishers.length; i++) {
+		publishers[i].classList.toggle("selected");
+	}
+	var svg = document.querySelector("svg");
+	var bars = svg.querySelectorAll("path.selected");
+	for (i=0; i<bars.length; i++) {
+		if (!bars[i].style.fill.match("168")) {
+			continue;
+		}
+		if (!bars[i].className) {
+			continue;
+		}
+		if (bars[i].className.baseVal.match("selected")) {
+			// Assuming no extra class values involved.
+			bars[i].className.baseVal = "";
+			bars[i].className.animVal = "";
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// getPublisherList --
+//
+
+function getPublisherList(list) {
+	var clist = {};
+	var earliest = {};
+	var latest = {};
+	var i;
+	var publisher;
+	var location;
+	var date;
+	for (i=0; i<list.length; i++) {
+		publisher = list[i].publisher;
+		location = list[i].location;
+		if (!publisher) {
+			continue;
+		}
+		if (publisher.match(/^\s*$/)) {
+			continue;
+		}
+		if (location && !location.match(/^\s*$/)) {
+			publisher += "; " + location;
+		}
+		date = list[i].PDT;
+
+		if (!earliest[publisher]) {
+			earliest[publisher] = date;
+		} else {
+			if (earliest[publisher] > date) {
+				earliest[publisher] = date;
+			}
+		}
+
+		if (!latest[publisher]) {
+			latest[publisher] = date;
+		} else {
+			if (latest[publisher] < date) {
+				latest[publisher] = date;
+			}
+		}
+
+		if (clist[publisher]) {
+			clist[publisher]++;
+		} else {
+			clist[publisher] = 1;
+		}
+	}
+
+	var keys = Object.keys(clist);
+	for (i=0; i<keys.length; i++) {
+		publisher = keys[i];
+		if (!clist[publisher]) {
+			continue;
+		}
+		var date1 = earliest[publisher];
+		var date2 = latest[publisher];
+		if (!date1) {
+			continue;
+		}
+		if (!date2) {
+			continue;
+		}
+		if (date1 == date2) {
+			clist[publisher] += ": " + date1;
+		} else {
+			clist[publisher] += ": " + date1 + "&ndash;" + date2;
+		}
+	}
+console.log("CLIST", clist);
+
+	return clist;
+}
+
+
+
+//////////////////////////////
+//
+// displayPublisherList --
+//
+
+function displayPublisherList (id) {
+	var target = document.querySelector(id);
+	if (!target) {
+		return;
+	}
+	var publishers = getPublisherList(DATA);
+	var names = Object.keys(publishers).sort();
+	var ccount = names.length;
+	var columns = 2;
+	var amount = [];
+	var i;
+	for (i=0; i<columns; i++) {
+		amount[i] = parseInt(ccount / columns);
+	}
+	var remainder = ccount - parseInt(ccount / columns) * columns;
+	for (i=0; i<remainder; i++) {
+		amount[i]++;
+	}
+	var output = "";
+	output += "<table class='publisher'>\n";
+	output += "<tr>";
+
+	var index = 0;
+	for (i=0; i<columns; i++) {
+		output += "<td class='data-column'>";
+		for (var j=0; j<amount[i]; j++) {
+			output += "<div onclick='togglePublisher(event)' class='publisher'>";
+			var name = names[index++];
+			output += name;
+			output += "&nbsp;(";
+			output += publishers[name];
+			output += ")";
+			output += "</div>";
+		}
+		output += "</td>";
+	}
+
+	output += "</tr>";
+	output += "</table>";
+
+	target.innerHTML = output;
+}
+
+	
+
+//////////////////////////////
+//
+// togglePublisher --
+//
+
+function togglePublisher(event) {
+	if (!event) {
+		return;
+	}
+	var target = event.target;
+	var classname = target.className;
+	target.classList.toggle("active");
+	updateHistogram();
+}
+
+
+
+//////////////////////////////
+//
+// updateHistogram --
+//
+
+function updateHistogram() {
+	var i;
+	var publishers = getActivePublishers();
+	var plotdata = [];
+	var keys = Object.keys(publishers);
+	if (keys.length == 0) {
+		plotdata = DATA;
+	} else {
+		for (i=0; i<DATA.length; i++) {
+			var key = DATA[i].publisher;
+			if (!key) {
+				continue;
+			}
+			if (key.match(/^\s*$/)) {
+				continue;
+			}
+			var location = DATA[i].location;
+			if (location && !location.match(/^\s*$/)) {
+				key += "; " + location;
+			}
+			if (publishers[key]) {
+				plotdata.push(DATA[i]);
+			}
+		}
+	}
+	var years = {};
+	for (i=0; i<plotdata.length; i++) {
+		years[plotdata[i].PDT] = 1;
+	}
+	var yearcount = Object.keys(years).length;
+	if (yearcount < 20) {
+			plotByPublisher.encoding.x.axis = {};
+			plotByPublisher.encoding.x.axis.labelAngle = 0;
+	} else {
+			if (plotByPublisher.encoding.x.axis) {
+				delete plotByPublisher.encoding.x.axis;
+			}
+	}
+
+	plotByPublisher.data.values = plotdata;
+	vegaEmbed('#plotByPublisher', plotByPublisher, vegaOptions);
+}
+
+
+
+//////////////////////////////
+//
+// getActivePublishers --
+//
+
+function getActivePublishers() {
+	var elements = document.querySelectorAll("div.publisher.active");
+	var output = {};
+	for (var i=0; i<elements.length; i++) {
+		var text = elements[i].textContent.replace(/\s*\(\d+.*\)/, "");
+		output[text] = 1;
+	}
+	return output;
+}
+
+
+
+</script>

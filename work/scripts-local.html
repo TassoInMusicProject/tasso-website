@@ -720,6 +720,11 @@ function initializeVerovioNotation(sourceid, targetid, query, textquery) {
 		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'asdfghjkl')]"];
 	}
 
+	// add header footer information to data
+	content += "\n!!!footer-right: %P";
+	content += "\n!!!footer-center: @{SCA}";
+	content += "\n!!!footer-left: @{YEC}";
+	content += "\n!!!header-left: @{EED}";
 
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);

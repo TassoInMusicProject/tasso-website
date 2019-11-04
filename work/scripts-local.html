@@ -1735,7 +1735,7 @@ console.log("LOCAL OPTIONS", localOptions);
 		pdf.addPage({size: format, layout: orientation});
 	 	var x = 5;
 	 	var y = 10;
-	 	SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}), x, y, pdfOptions);
+	 	SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}).replace(/\bcurrentColor\b/g, "black"), x, y, pdfOptions);
 	}
 
 /*

@@ -1,5 +1,5 @@
 
-update:  variorum collation list
+update:  variorum collation list checkxml
 
 v: variorum
 variorum:
@@ -35,6 +35,16 @@ diff:
 
 undiff:
 	bin/undiff
+
+
+checkxml:
+	for i in ../../variorum/data/*/*.xml; \
+	do \
+		xmllint $$i > /dev/null; \
+	done 
+
+
+
 
 
 

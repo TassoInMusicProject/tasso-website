@@ -849,6 +849,7 @@ sub printVerse {
 sub printLineWithSegments {
 	my ($line, $lineid) = @_;
 	chomp $line;
+	$line =~ s/ & / &amp; /g;
 	my $variant = 1;
 	$line =~ s/\}/<\/seg>/g;
 	$line =~ s/\{/<seg xml:id=\"XXXXX\">/g;

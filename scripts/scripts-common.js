@@ -1340,12 +1340,12 @@ console.log("GETTING TITLE NAME FOR", id);
 	var matches;
 	if (matches = id.match(/Trm0*(\d+)/)) {
 		return "<i>Rime</i> " + matches[1];
-	} else if (matches = id.match(/Tsg*(\d\d)0*(\d+)/)) {
+	} else if (matches = id.match(/Tsg(\d\d)0*(\d+)/)) {
 		canto = matches[1];
 		cantoroman = getRomanNumeralUpper(canto);
 		ottava = matches[2];
 		return "<i>Gerusalemme</i> " + cantoroman + "/" + ottava;
-	} else if (matches = id.match(/Tam*(\d)(\d\d)(\d\d\d\d)/)) {
+	} else if (matches = id.match(/Tam(\d)(\d\d)(\d\d\d\d)/)) {
 		act = matches[1];
 		actroman = getRomanNumeralUpper(act);
 		scene = matches[2].replace(/^0/, "");

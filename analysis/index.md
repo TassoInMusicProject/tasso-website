@@ -54,10 +54,10 @@ data in spreadsheets for further use in analysis).
 
 <tr>
 	<td>
-	<a href="homophony">Homophony</a>
+	<a href="homorhythm">Homorhythm</a>
 	</td> 
 	<td>
-		Counts and display of homophonic textures.
+		Counts and display of homorhythm textures.
 	</td>
 </tr>
 

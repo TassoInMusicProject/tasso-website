@@ -1334,19 +1334,26 @@ function getRomanNumeralUpper(input) {
 
 function GetTitleName(id) {
 console.log("GETTING TITLE NAME FOR", id);
+	var canto;
+	var cantoroman;
+	var ottava;
 	var matches;
 	if (matches = id.match(/Trm0*(\d+)/)) {
 		return "<i>Rime</i> " + matches[1];
 	} else if (matches = id.match(/Tsg*(\d\d)0*(\d+)/)) {
-		var canto = matches[1];
-		var cantoroman = getRomanNumeralUpper(canto);
-		var ottava = matches[2];
+		canto = matches[1];
+		cantoroman = getRomanNumeralUpper(canto);
+		ottava = matches[2];
 		return "<i>Gerusalemme</i> " + cantoroman + "/" + ottava;
+	} else if (matches = id.match(/Tam*(\d)(\d\d)(\d\d\d\d)/)) {
+		act = matches[1];
+		actroman = getRomanNumeralUpper(act);
+		scene = matches[2].replace(/^0/, "");
+		verse = matches[3].replace(/^0/, "");
+		return "<i>Aminta</i> " + actroman + "/" + scene + "/" + verse;
 	} else {
 		return "ERROR " + id;
 	}
-
-	return "ERROR " + id;
 }
 
 /*

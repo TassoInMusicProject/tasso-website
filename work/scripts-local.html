@@ -9,6 +9,7 @@
 <script src="/scripts/scripts-common.js"></script>
 <script src="/scripts/scripts-worknav.js"></script>
 
+{% include_relative scripts-pdf.html %}
 {% include_relative templates.html %}
 {% include_relative templates-report.html %}
 {% include_relative listeners.html %}
@@ -50,8 +51,8 @@ var vrvOptions = {
 	pageMarginRight   : 20,
 	pageMarginTop     : 80,
 	pageMarginBottom  : 80,
-	noFooter          : 1,
-	noHeader          : 1,
+	footer            : "none",
+	header            : "none",
 	minLastJustification: 0.5,
 	breaks            : "auto"
 };
@@ -1628,151 +1629,6 @@ function processTextSearch(event) {
 }
 
 
-</script>
-
-
-<script>
-// PDF generation code:
-
-
-//////////////////////////////
-//
-// generatePdfFull -- Write a multi-page PDF of the full score in the text editor.
-//
-
-function generatePdfFull(event) {
-	event.preventDefault();
-
-	var oldOptions = vrvOptions;
-
-	// need to explicitly disable mmOutput = 1 set by the printing process.
-	oldOptions.mmOutput = 0;
-
-	$('html').css('cursor', 'wait');
-	var format = "letter";
-	var orientation = "portrait";
-	var width = 2159;
-	var height = 2794;
-	if (format === "A4") {
-		width = 2100;
-		height = 2970;
-	} else if (format === "B3") {
-		width = 2500;
-		height = 3530;
-	}
-	if (orientation === "landscape") {
-		width = [height, height = width][0];
-	}
-	var fontCallback = function(family, bold, italic, options) {
-		if (family == "VerovioText") {
-			return family;
-		}
-		if (family.match(/(?:^|,)\s*sans-serif\s*$/) || true) {
-			if (bold && italic)    {return 'Times-BoldItalic'}
-			if (bold && !italic)   {return 'Times-Bold'      }
-			if (!bold && italic)   {return 'Times-Italic'    }
-			if (!bold && !italic)  {return 'Times-Roman'     }
-		}
-	};
-	var pdfOptions = {};
-	pdfOptions.fontCallback = fontCallback;
-	var pdf = new PDFDocument({
-		useCSS:        true,
-		compress:      true,
-		autoFirstPage: false,
-		layout:        orientation
-	});
-	var stream = pdf.pipe(blobStream());
-	stream.on('finish', function() {
-		var blob = stream.toBlob('application/pdf');
-		var pdfFilename = "output.pdf";
-		var pdfFilename;
-		// The SAVEFILENAME should match the original filename.  This needs to be
-		// stored somewhere (such as in the settings index file).  Currently just
-		// use the catalog ID.
-		var SAVEFILENAME;
-		if (SAVEFILENAME) {
-			pdfFilename = SAVEFILENAME.replace(/\.[^.]*$/, "") + ".pdf";
-		} else {
-			if (ID) {
-				pdfFilename = ID + ".pdf";
-			} else {
-				pdfFilename = "output.pdf";
-			}
-		}
-		saveAs(blob, pdfFilename);
-		$('html').css('cursor', 'auto');
-	});
-	var buffer = Uint8Array.from(atob(vrvTTF), c => c.charCodeAt(0));
-	pdf.registerFont('VerovioText', buffer);
-//	var buffer2 = Uint8Array.from(atob(simonettaTTF), c => c.charCodeAt(0));
-//	pdf.registerFont('Simonetta', buffer2);
-	var localOptions = {
-		pageHeight        : height,
-		pageWidth         : width,
-		scale             : 97,
-		spacingSystem     : 6,
-		spacingStaff      : 12,
-		adjustPageHeight  : 0,
-		justifyVertically:  1,
-		justifyIncludeLastPage: 1,
-		humType           : 1,
-		mmOutput          : 1,
-		font              : "Leipzig",
-		pageMarginLeft    : 20,
-		pageMarginRight   : 20,
-		pageMarginTop     : 20,
-		pageMarginBottom  : 20,
-		noFooter          : 0,
-		noHeader          : 0,
-		breaks            : "auto"
-	}
-console.log("LOCAL OPTIONS", localOptions);
-
-	var scoredata = getHumdrumSourceData();
-	if (CGI.filter) {
-		scoredata += "\n!!!filter: " + CGI.filter + "\n";
-	}
-
-	vrvToolkit.setOptions(localOptions);
-	vrvToolkit.redoLayout();
-	for (var i=0; i<vrvToolkit.getPageCount(); i++) {
-		pdf.addPage({size: format, layout: orientation});
-	 	var x = 5;
-	 	var y = 10;
-	 	SVGtoPDF(pdf, vrvToolkit.renderToSVG(i+1, {}).replace(/\bcurrentColor\b/g, "black"), x, y, pdfOptions);
-	}
-
-/*
-	for (var i=0; i<vrvToolkit.getPageCount(); i++) {
-		pdf.addPage({size: format, layout: orientation});
-		var x = 5;
-		var y = 10;
-		var svg = vrvToolkit.renderToSVG(i+1, {});
-		if (i >= 0) {
-			var simonettacss = '</style>\n<style type="text/css">\n';
-			simonettacss += "@font-face {\n";
-			simonettacss += "   font-family: 'Simonetta';\n";
-			simonettacss += "   src: url(data:application/x-font-woff;charset=uft-8;base64,";
-			simonettacss += simonettaTTF;
-			simonettacss += ")\t format('woff');\nfont-weight: normal;\nfont-style: normal;\n}\n";
-			simonettacss += "</style>\n";
-			simonettacss += '<style type="text/css">g.page-margin{font-family:Simonetta;}';
-			simonettacss += ' g.tempo{font-weight:bold;} g.dir,';
-			simonettacss += ' g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>';
-			svg = svg.replace("</style>", simonettacss);
-			// svg = svg.replace(/font-family="Times"/g, 'font-family="Simonetta"');
-			svg = svg.replace(/<tspan /g, '<tspan font-family="Simonetta" ');
-			console.log("SVG XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", svg);
-		}
-		SVGtoPDF(pdf, svg, x, y, pdfOptions);
-	}
-*/
-
-	vrvToolkit.redoLayout(oldOptions, true);
-	pdf.end();
-	return false;
-}
 
 
 /////////////////////////////

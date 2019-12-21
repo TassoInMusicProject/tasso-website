@@ -312,7 +312,7 @@ function displayMultiplePoemVariants() {
 		rime = settinglist[i].SOLERTI;
 		var entry = settinglist[i];
    	if (!entry) {
-      	console.log("Error accessing rime:", rime);
+      	console.log("Error1 accessing rime:", rime);
 			return;
 		}
    	var title = entry.TITLE;
@@ -379,7 +379,7 @@ function singlePoemVariantHeader(id) {
 	output += "<h2>";
 	var entry = GetAllSettingEntry(id);
    if (!entry) {
-      console.log("Error accessing id:", id);
+      console.log("Error2 accessing id:", id);
 		return;
 	}
    var title = entry.TITLE;

@@ -1335,54 +1335,54 @@ function getRomanNumeralUpper(input) {
 function GetTitleName(id) {
 console.log("GETTING TITLE NAME FOR", id);
 	var canto;
+	var echo;
+	var echoroman;
 	var cantoroman;
 	var ottava;
+	var verse;
 	var matches;
 	if (matches = id.match(/Trm0*(\d+)/)) {
 		return "<i>Rime</i> " + matches[1];
 	} else if (matches = id.match(/Tsg(\d\d)0*(\d+)/)) {
 		canto = matches[1];
-		cantoroman = getRomanNumeralUpper(canto);
+		cantoroman = GetRomanNumeral(canto);
 		ottava = matches[2];
 		return "<i>Gerusalemme</i> " + cantoroman + "/" + ottava;
 	} else if (matches = id.match(/Tam(\d)(\d\d)(\d\d\d\d)/)) {
 		act = matches[1];
-		actroman = getRomanNumeralUpper(act);
+		actroman = GetRomanNumeral(act);
 		scene = matches[2].replace(/^0/, "");
 		verse = matches[3].replace(/^0/, "");
 		return "<i>Aminta</i> " + actroman + "/" + scene + "/" + verse;
+	} else if (matches = id.match(/Tec(\d)(\d\d\d)/)) {
+		echo = matches[1];
+		echoroman = GetRomanNumeral(echo);
+		verse = matches[2].replace(/^0/, "");
+		return "<i>Ecloghe</i> " + echoroman + "/" + verse;
+	} else if (matches = id.match(/Tri(\d)(\d\d\d)/)) {
+		echo = matches[1];
+		echoroman = GetRomanNumeral(echo);
+		verse = matches[2].replace(/^0/, "");
+		return "<i>Rinaldo</i> " + echoroman + "/" + verse;
+	} else if (matches = id.match(/Tbv(\d\d\d\d)/)) {
+		stanza = matches[1].replace(/^0/, "");
+		return "<i>Lagrime</i> " + stanza;
+	} else if (matches = id.match(/Tco(\d\d)(\d\d)/)) {
+		echo = matches[1];
+		echoroman = GetRomanNumeral(echo);
+		verse = matches[2].replace(/^0/, "");
+		return "<i>G. conquistata</i> " + echoroman + "/" + verse;
+	} else if (matches = id.match(/Trt(\d\d)(\d\d)/)) {
+		act = matches[1].replace(/^0/, "");
+		actroman = GetRomanNumeral(act);
+		scene = matches[2].replace(/^0/, "");
+		verse = "Coro";
+		return "<i>Aminta</i> " + actroman + "/" + scene + "/" + verse;
 	} else {
-		return "ERROR " + id;
+		return id;
 	}
 }
 
-/*
-	if (obj.CATALOGNUM.match(/^Tam/) && obj.ACT && obj.SCENE && obj.VERSE) {
-		output = "(<i>Aminta</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
-		return new Handlebars.SafeString(output);
-	}
-	if (obj.CATALOGNUM.match(/^Tec/) && obj.ECLOGA && obj.VERSE) {
-		output = "(<i>Ecloga</i> " + obj.ECLOGA + "/" + obj.VERSE + ")";
-		return new Handlebars.SafeString(output);
-	}
-	if (obj.CATALOGNUM.match(/^Tri/) && obj.CANTO && obj.OTTAVA) {
-		output = "(<i>Rinaldo</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
-		return new Handlebars.SafeString(output);
-	}
-	if (obj.CATALOGNUM.match(/^Trt/) && obj.ACT && obj.SCENE && obj.SECTION) {
-		output = "(<i>Torrismondo</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.SECTION + ")";
-		return new Handlebars.SafeString(output);
-	}
-	if (obj.CATALOGNUM.match(/^Tco/) && obj.CANTO && obj.OTTAVA) {
-		output = "(<i>G. conquistata</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
-		return new Handlebars.SafeString(output);
-	}
-	if (obj.CATALOGNUM.match(/^Tbv/) && obj.STANZA) {
-		output = "(<i>Lagrime</i> " + obj.STANZA + ")";
-		return new Handlebars.SafeString(output);
-	}
-
-*/
 
 
 //////////////////////////////
@@ -1471,8 +1471,11 @@ function PrepareGlobalTassoObjects() {
 	if (!OTHERSETTINGLIST) {
 		OTHERSETTINGLIST = TASSODATA.SETTINGS.OTHER_SETTINGS.SETTING;
 	}
-	ALLSETTINGLIST = RIMESETTINGLIST.concat(AMINTASETTINGLIST,
-		GERUSETTINGLIST, OTHERSETTINGLIST);
+	if (!ALLSETTINGLIST) {
+		ALLSETTINGLIST = RIMESETTINGLIST.concat(AMINTASETTINGLIST,
+				GERUSETTINGLIST, OTHERSETTINGLIST);
+console.log("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO THERSETTINGLIST", OTHERSETTINGLIST);
+	}
 	if (!RSETTINGS) {
 		RSETTINGS = GetRsettings(ALLSETTINGLIST);
 	}

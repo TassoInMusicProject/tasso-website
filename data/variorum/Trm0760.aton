@@ -4,9 +4,20 @@
 @ID:		Ts2
 @TYPE:		manuscript
 @SMSIGLUM:	Ts<sub>2</sub>
-@PAGE:		
+@PAGE:		10v
 @PARATEXT:	
 @VERSE:		
+Quant’<del>io son</del> ^io sono^ infelice,
+Tanto voi bella sete
+E con gli occhi il mio duol temprar potete.
+@VERSE:
+Nè miracol, nè mostro
+Altro è di <del>voi</del> ^noi^ maggiore
+Io di fortuna mostro, e voi d’Amore.
+@VERSE:
+Ma s’ad un guardo vostro
+In me ^pur^ tanto <del>pur</del> lice
+Debbo <del>forsi</del> sperar ^giammai^ d’esser felice?	
 @@END: VARIORUM
 
 
@@ -18,17 +29,7 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-Quant’io sono infelice,
-Tanto voi bella sete
-E con gli occhi il mio duol temprar potete.
-@VERSE:
-Nè miracol, nè mostro
-Altro è di voi maggiore
-Io di fortuna mostro, e voi d’Amore.
-@VERSE:
-Ma s’ad un guardo vostro
-In me tanto pur lice
-Debbo forsi sperar d’esser felice?
+
 @@END: VARIORUM
 
 
@@ -40,7 +41,7 @@ Debbo forsi sperar d’esser felice?
 @PAGE:		10v
 @PARATEXT:	
 @VERSE:		
-Quant’io sono infelice,
+Quant’io son infelice,
 Tanto voi bella sete
 E con gli occhi il mio duol temprar potete.
 @VERSE:
@@ -61,7 +62,18 @@ Debbo forsi sperar d’esser felice?
 @SPRINT:	
 @PAGE:		10v
 @PARATEXT:	
-@VERSE:		
+@VERSE:
+Quant’io son infelice,
+Tanto voi bella sete
+E con gli occhi il mio duol temprar potete.
+@VERSE:
+Nè miracol, nè mostro
+Altro è di voi maggiore
+Io di fortuna mostro, e voi d’Amore.
+@VERSE:
+Ma s’ad un guardo vostro
+In me tanto pur lice
+Debbo forsi sperar d’esser felice?
 @@END: VARIORUM
 
 

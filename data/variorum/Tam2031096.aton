@@ -40,10 +40,13 @@
 @ID:		A-CM
 @TYPE:		manuscript
 @SMSIGLUM:	A-CM
-@PAGE:		
+@PAGE:		33r
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
+.T[IRSI]. Dunque tu l’amaresti à suo dispetto
+Quando potessi far di non amarla
+.A[MINTA]. Al suo dispetto nò ma l’amarei
+.T[IRSI]. Dunque fuor di sua voglia .A[MINTA]. Si per certo		
 @@END: VARIORUM
 
 
@@ -754,8 +757,7 @@
 TIRSI Dunque tu l’amaresti al suo dispetto
 Quando potessi far di non amarla
 AMINTA Al suo dispetto nò ma l’amarei
-[TACET]
-AMINTA Si per certo.	
+[TACET] AMINTA Si per certo.	
 @@END: VARIORUM
 
 
@@ -770,8 +772,7 @@ AMINTA Si per certo.
 TIRSI Dunque tu l’amaresti al suo dispetto
 Quando potessi far di non amarla
 AMINTA al suo dispetto nò ma l’amarei
-TIRSI Dunque fuor di sua voglia
-AMINTA Si per certo.		
+TIRSI Dunque fuor di sua voglia AMINTA Si per certo.		
 @@END: VARIORUM
 
 
@@ -786,8 +787,7 @@ AMINTA Si per certo.
 TIRSI Dunque tu l’amaresti al suo dispetto
 Quando potessi far di non amarla
 AMINTA Al suo dispetto nò ma l’amarei
-TIRSI [TACET]
-AMINTA Si per certo.
+TIRSI [TACET] AMINTA Si per certo.
 @@END: VARIORUM
 
 
@@ -802,8 +802,7 @@ AMINTA Si per certo.
 TIRSI Dunque tu l’amaresti al suo dispetto
 Quando potessi far di non amarla
 AMINTA Al suo dispetto nò ma l’amarei
-[TACET]
-Si per certo.	
+[TACET] Si per certo.	
 @@END: VARIORUM
 
 
@@ -818,8 +817,7 @@ Si per certo.
 TIRSI Dunque tu l’amaresti al suo dispetto
 Quando potessi far di non amarla
 AMINTA Al suo dispetto nò ma l’amarei
-TIRSI Dunque fuor di sua voglia
-AMINTA Si per certo.	
+TIRSI Dunque fuor di sua voglia AMINTA Si per certo.	
 @@END: VARIORUM
 
 
@@ -834,7 +832,6 @@ AMINTA Si per certo.
 TIRSI Dunque tu l’amaresti al suo dispetto
 Quando potessi far di non amarla
 AMINTA al suo dispetto nò ma l’amarei
-TIRSI Dunque fuor di sua voglia
-AMINTA Si per certo.	
+TIRSI Dunque fuor di sua voglia AMINTA Si per certo.	
 @@END: VARIORUM
 

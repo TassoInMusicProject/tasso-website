@@ -219,9 +219,10 @@ sub createVariorumXml {
 		}
 		my $ss = $SETTINGS{$sid};
 		if (!$ss) {
-			print STDERR ("================== Error reading source information for source id $sid\n");
-			print STDERR ("================== DATA TYPE $data{'TYPE'}\n");
-			print STDERR ("================== DATA ID $data{'ID'}\n");
+			print STDERR "================== Error reading source information for source id $sid\n";
+			print STDERR "================== DATA TYPE $data{'TYPE'}\n";
+			print STDERR "================== DATA ID $data{'ID'}\n";
+			print STDERR "================== SID: $sid\n";
 			return $endi;
 		}
 		%s = %$ss;

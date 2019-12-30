@@ -1,5 +1,8 @@
 
 <!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+<!--
+	vim: ts=3
+-->
 
 <!-- worklist-template
 		The worklist template is used to fill in the list of available works.
@@ -892,16 +895,54 @@ function displaySourceInformation(source) {
 		var sigla = source.SRCLOCSIGLA;
 		text += "<tr><td><nobr>Library";
 		text += "</nobr></td><td>";
-		text += source.SRCLOCSIGLA;
-		if (source.SRCURL) {
-			text += " (<a target='new' href='" + source.SRCURL + "'>view digitized source</a>)";
-		}
+		text += generateSiglaEntryText(source.SRCLOCSIGLA, source.SRCURL);
 		text += "</td></tr>";
 	}
 
 	text += "</table>";
 	return new Handlebars.SafeString(text);
 }
+
+
+
+//////////////////////////////
+//
+// generateSiglaEntryText -- If sigla has semi colon, then
+//  there are multiple libraries.  url may have a space in that case
+//
+
+function generateSiglaEntryText(sigla, url) {
+	if (!url) {
+		url = "";
+	}
+	var output = "";
+	url = url.replace(/\s+$/, "").replace(/^\s+/, "");
+	if (!sigla.match(/;/)) {
+		// single sigla entry
+		output = sigla;
+		if (url) {
+			output += " (<a target='_blank' href='" + url + "'>view digitized source</a>)";
+		}
+	} else {
+		// double sigla entry
+		var siglas = sigla.split(/\s*;\s*/);
+		var urls = url.split(/\s+/);
+		var xxx = "";
+		for (var i=0; i<siglas.length; i++) {
+			xxx = siglas[i]
+			if (urls[i]) {
+				xxx += " (<a target='_blank' href='" + urls[i] + "'>view digitized source</a>)";
+			}
+			output += xxx;
+			if (i < siglas.length - 1) {
+				output += "; ";
+			}
+		}
+	}
+
+	return output;
+}
+
 
 
 

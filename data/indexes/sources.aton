@@ -734,8 +734,8 @@
 @EXTPARTBOOKS:	CATBVVI
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	PL-GD
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=79478&from=&dirids=1&ver_id=&lp=3&QI=
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -4430,8 +4430,8 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T016/
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T016/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -4452,8 +4452,8 @@
 @EXTPARTBOOKS:	CATBVVI
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-Bc (C); I-PESc (A); D-Mbs(TBVVI)
-@REPRODUCTIONTYPE:	I-Bc (C); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T036/   D-Mbs (TBVVI); https://books.google.com/books?id=p48dkhOeM8AC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile, microfilm
+@SRCURL:	I-Bc (C); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T036/ D-Mbs (TBVVI); https://books.google.com/books?id=p48dkhOeM8AC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -4591,7 +4591,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 1292
 @AUTHOR:	Massaino, Tiburtio
-@TITLEPAGE:	
+@TITLEPAGE:	IL TERZO LIBRO / DE MADRIGALI A CINQVE VOCI / DI TIBVRTIO MASSAINO, / Nouamente Composto, & dato in luce. / In Venetia Appresso Angelo Gardano. / M.D. LXXXVII.
 @TITLESHORT:	Il terzo libro de madrigali a cinque voci
 @PUBLISHER:	Angelo Gardano
 @YEAR:	1587
@@ -4599,15 +4599,15 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Ridolfo Gonzaga Marchese di Castiglione
+@SRCDEDICATEESHORT:	Ridolfo Gonzaga
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=79137&from=&dirids=1&ver_id=&lp=1&QI=
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5507,9 +5507,31 @@
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
-@SRCLOCSIGLA:	I-Bc
+@SRCLOCSIGLA:	PL-GD; I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R233/
+@SRCURL:	PL-GD (CATBV); http://pbc.gda.pl/dlibra/docmetadata?id=79477&from=&dirids=1&ver_id=&lp=2&QI=  I-Bc (CATBV); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R233/
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	1596-12
+@AUTHOR:	
+@TITLEPAGE:	IL LAVRO SECCO / LIBRO PRIMO / DI MADRIGALI / A Cinque Voci, / DI DIVERSI AVTORI. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano. / M. D. LXXXXVI.
+@TITLESHORT:	Il lauro secco
+@PUBLISHER:	Gardano
+@YEAR:	1596
+@PUBTYPE:	anthology
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc; F-Bn
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	I-Bc; http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R234/ F-Pn; https://gallica.bnf.fr/ark:/12148/btv1b8449068j.r=lauro%20secco?rk=21459;2
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5531,7 +5553,7 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T216/
 @@END: SOURCE
 
 @@BEGIN: SOURCE

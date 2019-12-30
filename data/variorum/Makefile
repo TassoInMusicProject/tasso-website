@@ -2,10 +2,18 @@
 update:  variorum collation list checkxml
 
 v: variorum
-variorum:
+variorum: vtam vtrm vtsg vtec
+
+vtrm:
 	cat Trm*.aton | bin/aton2variorum -r rime
-	cat Tsg*.aton | bin/aton2variorum -r gerusalemme
+
+vtam: 
 	cat Tam*.aton | bin/aton2variorum -r aminta
+
+vtsg:
+	cat Tsg*.aton | bin/aton2variorum -r gerusalemme
+
+vtec:
 	cat Tec*.aton Trt*.aton Tri*.aton | bin/aton2variorum -r other
 
 

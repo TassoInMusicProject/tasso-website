@@ -16,7 +16,7 @@
 			</td>
 			<td style='width:100%; text-align:center'>
 				<h2>{{{comlong}}}<br>{{{formatTitle title}}}
-				(<i>Rime</i> {{{id2rime id}}})</h2>
+				(<i>Rime</i> {{{id2rime this}}})</h2>
 			</td>
 			<td class='triangle'>
 				<span class="triangle" onclick="displayNextWork();">&#9654;</span>
@@ -37,7 +37,8 @@
 // id2rime Handlebar helper  -- Extract Rime number from catalog number.
 //
 
-Handlebars.registerHelper("id2rime", function(text) {
+Handlebars.registerHelper("id2rime", function(data) {
+	var text = data.id;
 	var matches;
 	var output = 0;
 	if (matches = text.match(/^Trm0*(\d+[a-z])/)) {

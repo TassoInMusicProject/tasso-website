@@ -9,14 +9,13 @@
 //
 // Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 // Creation Date: Thu Mar 31 21:34:11 PDT 2016
-// Last Modified: Tue Mar 28 16:03:55 PDT 2017
+// Last Modified: Mon Dec 30 05:53:43 PST 2019
 // Filename:      work/scripts-local.html
 // Syntax:        JavaScript 1.8/ECMAScript 5
 // vim:           ts=3: ft=javascript
 //
 // Description:   JavaScript management for display of work pages.
 //
-
 
 var SORT = "alphabetic";
 var SORTALPHABETIC = [];
@@ -25,13 +24,13 @@ var LASTWORD = "";
 var WORDLIST = {};
 var ZCOUNT = 0;
 
+
 //////////////////////////////
 //
 // getLyrics -- extract catalog number from  CGI variable "id"
 //
 
 function getLyrics(id) {
-
 	 SORT = "alphabetic";
 	 SORTALPHABETIC = [];
 	 SORTNUMERIC = [];
@@ -70,7 +69,6 @@ function getLyrics(id) {
 
 
 
-
 //////////////////////////////
 //
 // loadWorkList --
@@ -80,6 +78,7 @@ function loadWorkList(url) {
 	if (!url) {
 		url = "{{site.worklist}}";
 	}
+console.log("URL", url);
 	var counter = 0;
 
 	if (sessionStorage.WORKLIST) {
@@ -119,7 +118,6 @@ function loadWorkList(url) {
 
 function continueSetup() {
 	displayHeader();
-
 }
 
 
@@ -168,7 +166,6 @@ function getWorkInfo(id) {
 
 
 
-
 //////////////////////////////
 //
 // displayPreviousWork --
@@ -200,6 +197,10 @@ function displayNextWork(id) {
 }
 
 
+//////////////////////////////
+//
+// setupLyrics --
+//
 
 function setupLyrics() {
 	if (ZCOUNT > 0) {
@@ -228,6 +229,12 @@ document.addEventListener("mouseover", function(event) {
 });
 
 
+
+//////////////////////////////
+//
+// unhighlightWord --
+//
+
 function unhighlightWord(word) {
 	var list = WORDLIST[word]
 	if (!list) {
@@ -237,6 +244,13 @@ function unhighlightWord(word) {
 		list[i].style.color = "";
 	}
 }
+
+
+
+//////////////////////////////
+//
+// highlightWord --
+//
 
 function highlightWord(word) {
 	var list = WORDLIST[word]
@@ -248,6 +262,12 @@ function highlightWord(word) {
 	}
 }
 
+
+
+//////////////////////////////
+//
+// prepareWordlist --
+//
 
 function prepareWordlist() {
 	var words = document.querySelectorAll("span.word");
@@ -262,6 +282,12 @@ function prepareWordlist() {
 	}
 }
 
+
+
+//////////////////////////////
+//
+// toggleSort --
+//
 
 function toggleSort() {
 	event.preventDefault();
@@ -281,6 +307,12 @@ function toggleSort() {
 	
 }
 
+
+
+//////////////////////////////
+//
+// sortNumeric --
+//
 
 function sortNumeric() {
 	var entries = document.querySelectorAll("table.wordlist tr");
@@ -356,6 +388,12 @@ function sortNumeric() {
 }
 
 
+
+//////////////////////////////
+//
+// sortAlphabetic --
+//
+
 function sortAlphabetic() {
 	var entries = document.querySelectorAll("table.wordlist tr");
 
@@ -372,6 +410,11 @@ function sortAlphabetic() {
 }
 
 
+
+//////////////////////////////
+//
+// addSortButton --
+//
 
 function addSortButton() {
 	var wf = document.querySelector("#wf");
@@ -413,7 +456,6 @@ function addDataButton() {
 //
 // displayData --
 //
-
 
 var DATAWINDOW;
 

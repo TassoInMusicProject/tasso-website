@@ -11,10 +11,12 @@
 @EMENDED_READING: 
 {M 13}, VI, last note is a semiminin; RISM 1591-8 and RISM 1593-2 emend with a minim
 {M 39}, C, semibreve is dotted; RISM 1591-8 and RISM 1593-2 emend with semebreve without dot
-{M 41 51}, A, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
+{M 42}, A, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
 {M 44}, C, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
 
-@OTHER_CRITICAL_NOTES: {M 44 49} C, text reads "Scerzan" in RISM 1591-8
+@OTHER_CRITICAL_NOTES: 
+{M 42 51}, A, text reads "Scerzan" in RISM 1591-8
+{M 44 49} C, text reads "Scerzan" in RISM 1591-8
 
 @COMMENTARY:
 

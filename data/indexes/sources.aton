@@ -739,6 +739,50 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	1591-8
+@AUTHOR:	
+@TITLEPAGE:	IL LAVRO VERDE MADRIGALI A SEI VOCI, / COMPOSTI DI DIVERSI ECCEL- / LENTISSIMI MVSICI. / <i>Aggiontoui di più doi Madrigali à Otto voci, l'vno d'Alessandro</i> / <i>Striggio, & di Gio. Gabrieli.</i> / IN ANVERSA, / Appresso Pietro Phalesio & Giouanni Bellero. / 1591.
+@TITLESHORT:	Il lauro verde
+@PUBLISHER:	Phalese
+@YEAR:	1591
+@PUBTYPE:	anthology
+@PUBFORMAT:	part-books
+@PUBLOC:	Anversa
+@PUBNORMLOC:	Antwerp
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Mbs
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00074758
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	1593-2
+@AUTHOR:	
+@TITLEPAGE:	IL LAVRO VERDE / MADRIGALI / A SEI VOCI/ Di diuersi Autori. / Nuouamente con ogni diligenza Ristampati. / In Venetia appresso Angelo Gardano. / M. D. LXXXXIII 
+@TITLESHORT:	Il lauro verde
+@PUBLISHER:	Gardano
+@YEAR:	1593
+@PUBTYPE:	anthology
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Kl
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/image/1384758684812/59/LOG_0008/
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	B 2633
 @AUTHOR:	Biffi, Giuseppe
 @TITLEPAGE:	DI GIOSEFFO BIFFI / DA CESENA / MAESTRO DI CAPELLA / DELL'ILLVSTRISSIMO ET / REVERENDISS. SIGNOR / Cardinal Andrea Battorio. / MADRIGALI A CINQVE VOCI, / Con duoi Soprani. / IN MILANO / Per Agostino Tradato. M.D.XCVIII. / Con licenza de' Superiori.
@@ -1907,21 +1951,21 @@
 @@BEGIN: SOURCE
 @RISM:	I 31
 @AUTHOR:	D'India, Sigismondo
-@TITLEPAGE:	
+@TITLEPAGE:	LE MVSICHE / DEL / SIG. SIGISMONDO / D'INDIA. / Maestro della Musica di Camera del Sere- / nissimo Sig. Duca di Sauoia. / LIBRO TERZO A VNA e DVE VOCI. / Nouamente stampate. / <i>IN MILANO, Appresso Filippo Lomazzo. 1618.</i> / <i>CON LICENZA DE' SUPERIORI.</i>
 @TITLESHORT:	Le musiche del Sig.r Sigismondo d'India. Libro Terzo a una e due voci
 @PUBLISHER:	Filippo Lomazzo
 @YEAR:	1618
 @PUBTYPE:	single-author
-@PUBFORMAT:	part-books
+@PUBFORMAT:	score
 @PUBLOC:	Milan
 @PUBNORMLOC:	Milan
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Don Alfonso d'Este, Prencipe di Modena
+@SRCDEDICATEESHORT:	Don Alfonso d'Este
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
+@SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -1934,7 +1978,7 @@
 @PUBLISHER:	Alessandro Vincenti
 @YEAR:	1621
 @PUBTYPE:	single-author
-@PUBFORMAT:	part-books
+@PUBFORMAT:	score
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
 @SRCDEDICATEE:	
@@ -4891,9 +4935,9 @@
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA288/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -6285,7 +6329,7 @@
 @@BEGIN: SOURCE
 @RISM:	P 5313
 @AUTHOR:	Pozzo, Vincenzo dal
-@TITLEPAGE:	
+@TITLEPAGE:	DI VINCENZO DAL POZZO / MAESTRO DI CAPPELLA NEL DUOMO D'IMOLA / IL PRIMO LIBRO DE MADRIGALI A QVATTRO VOCI / con un dialogo a otto fatto nelle nozze del signor Alessandro Naldi, e della signora Barbara Spadi / In Venetia, appresso Ricciardo Amadino. / 1600.
 @TITLESHORT:	Il primo libro de madrigali a quattro voci
 @PUBLISHER:	Amadino
 @YEAR:	1600
@@ -6293,13 +6337,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Alessandro Naldi
+@SRCDEDICATEESHORT:	Alessandro Naldi
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	CATB
-@EXTPARTBOOKS:	CB
-@EXTNAMES:	C,B
-@SRCLOCSIGLA:	GB-Lbm (C); US-LAur (B)
+@EXTPARTBOOKS:	C
+@EXTNAMES:	C
+@SRCLOCSIGLA:	GB-Lbm (C)
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE

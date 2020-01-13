@@ -1,416 +1,440 @@
-ID:E1              	L21	V1:	Tarquinia se rimiri
-ID:S8              	L84	V1:	Mentre, mia stella, miri
-ID:S9              	L103	V1:	Mentre, mia stella, miri
-ID:S11             	L122	V1:	Mentre, mia stella, miri
-ID:S12             	L141	V1:	Mentre, mia stella, miri
-ID:S13             	L160	V1:	Mentre, mia stella, miri
-ID:S145            	L245	V1:	Mentre mia stella miri
-ID:Trm0560a-Canto  	L286	V1:	Mentre mia stella miri
-ID:Trm0560a-Alto   	L305	V1:	Mentre mia stella miri
-ID:Trm0560a-Tenore 	L324	V1:	Mentre mia stella miri
-ID:Trm0560a-Basso  	L343	V1:	Mentre mia stella miri
-ID:Trm0560a-Quinto 	L362	V1:	Mentre mia stella miri
-ID:Trm0560b-Canto  	L381	V1:	Mentre mia stella miri
-ID:Trm0560b-Alto   	L400	V1:	Mentre mia stella miri
-ID:Trm0560b-Tenore 	L419	V1:	Mentre mia stella miri
-ID:Trm0560b-Basso  	L438	V1:	Mentre mia stella miri
-ID:Trm0560b-Quinto 	L457	V1:	Mentre mia stella miri
-ID:Trm0560c-Canto  	L476	V1:	Mentre mia stella miri
-ID:Trm0560c-Alto   	L495	V1:	Mentre mia stella miri
-ID:Trm0560c-Tenore 	L514	V1:	Mentre mia stella miri
-ID:Trm0560c-Basso  	L533	V1:	Mentre mia stella miri
-ID:Trm0560c-Quinto 	L552	V1:	Mentre mia stella miri
-ID:Trm0560c-Sesto  	L571	V1:	Mentre mia stella miri
-ID:Trm0560d-Canto  	L590	V1:	Mentre mia stella miri
-ID:Trm0560d-Alto   	L609	V1:	Mentre mia stella miri
-ID:Trm0560d-Basso  	L628	V1:	Mentre mia stella miri
-ID:Trm0560f-Canto  	L702	V1:	Mentre mia stella miri
-ID:Trm0560f-Alto   	L721	V1:	Mentre mia stella miri
-ID:Trm0560f-Tenore 	L740	V1:	Mentre mia stella miri
-ID:Trm0560f-Basso  	L759	V1:	Mentre mia stella [TACET]
-ID:Trm0560f-Quinto 	L779	V1:	Mentre mia stella miri
-ID:Trm0560h-Alto   	L853	V1:	Mentre mia stella miri
-ID:Trm0560h-Tenore 	L872	V1:	Mentre mia stella miri
-ID:Trm0560h-Quinto 	L891	V1:	Mentre mia stella miri
-ID:Trm0560k-Tenore 	L1009	V1:	Mentre mia stella miri
-ID:Trm0560m-Canto  	L1050	V1:	Mentre mia stella miri
-ID:Trm0560m-Alto   	L1069	V1:	Mentre mia stella miri
-ID:Trm0560m-Tenore 	L1088	V1:	Mentre mia stella miri
-ID:Trm0560m-Basso  	L1107	V1:	Mentre mia stella miri
-ID:Trm0560n-Canto  	L1126	V1:	Mentre mia stella miri
-ID:Trm0560n-Alto   	L1145	V1:	Mentre mia stella miri
-ID:Trm0560n-Tenore 	L1164	V1:	Mentre mia stella miri
-ID:Trm0560n-Basso  	L1183	V1:	Mentre mia stella miri
-ID:Trm0560n-Quinto 	L1202	V1:	Mentre mia stella miri
-ID:Trm0560o-Canto  	L1221	V1:	Mentre mia stella miri
-ID:Trm0560o-Alto   	L1240	V1:	Mentre mia stella miri
-ID:Trm0560o-Tenore 	L1259	V1:	Mentre mia stella miri
-ID:Trm0560o-Basso  	L1278	V1:	Mentre mia stella miri
-ID:Trm0560o-Quinto 	L1297	V1:	Mentre mia stella miri
-ID:Trm0560p-Alto   	L1316	V1:	Mentre mia stella miri
-ID:Trm0560p-Basso  	L1335	V1:	Mentre mia stella miri
+ID:A3              	L9	V1:	Mentre mia stella miri
+ID:E1              	L39	V1:	Tarquinia se rimiri
+ID:E7              	L57	V1:	Mentre mia stella miri
+ID:S8              	L120	V1:	Mentre, mia stella, miri
+ID:S9              	L139	V1:	Mentre, mia stella, miri
+ID:S11             	L158	V1:	Mentre, mia stella, miri
+ID:S12             	L177	V1:	Mentre, mia stella, miri
+ID:S13             	L196	V1:	Mentre, mia stella, miri
+ID:S20             	L226	V1:	Mentre, mia stella, miri
+ID:S145            	L289	V1:	Mentre mia stella miri
+ID:Trm0560a-Canto  	L330	V1:	Mentre mia stella miri
+ID:Trm0560a-Alto   	L349	V1:	Mentre mia stella miri
+ID:Trm0560a-Tenore 	L368	V1:	Mentre mia stella miri
+ID:Trm0560a-Basso  	L387	V1:	Mentre mia stella miri
+ID:Trm0560a-Quinto 	L406	V1:	Mentre mia stella miri
+ID:Trm0560b-Canto  	L425	V1:	Mentre mia stella miri
+ID:Trm0560b-Alto   	L444	V1:	Mentre mia stella miri
+ID:Trm0560b-Tenore 	L463	V1:	Mentre mia stella miri
+ID:Trm0560b-Basso  	L482	V1:	Mentre mia stella miri
+ID:Trm0560b-Quinto 	L501	V1:	Mentre mia stella miri
+ID:Trm0560c-Canto  	L520	V1:	Mentre mia stella miri
+ID:Trm0560c-Alto   	L539	V1:	Mentre mia stella miri
+ID:Trm0560c-Tenore 	L558	V1:	Mentre mia stella miri
+ID:Trm0560c-Basso  	L577	V1:	Mentre mia stella miri
+ID:Trm0560c-Quinto 	L596	V1:	Mentre mia stella miri
+ID:Trm0560c-Sesto  	L615	V1:	Mentre mia stella miri
+ID:Trm0560d-Canto  	L634	V1:	Mentre mia stella miri
+ID:Trm0560d-Alto   	L653	V1:	Mentre mia stella miri
+ID:Trm0560d-Basso  	L672	V1:	Mentre mia stella miri
+ID:Trm0560f-Canto  	L746	V1:	Mentre mia stella miri
+ID:Trm0560f-Alto   	L765	V1:	Mentre mia stella miri
+ID:Trm0560f-Tenore 	L784	V1:	Mentre mia stella miri
+ID:Trm0560f-Basso  	L803	V1:	Mentre mia stella [TACET]
+ID:Trm0560f-Quinto 	L823	V1:	Mentre mia stella miri
+ID:Trm0560h-Alto   	L897	V1:	Mentre mia stella miri
+ID:Trm0560h-Tenore 	L916	V1:	Mentre mia stella miri
+ID:Trm0560h-Quinto 	L935	V1:	Mentre mia stella miri
+ID:Trm0560k-Tenore 	L1053	V1:	Mentre mia stella miri
+ID:Trm0560m-Canto  	L1094	V1:	Mentre mia stella miri
+ID:Trm0560m-Alto   	L1113	V1:	Mentre mia stella miri
+ID:Trm0560m-Tenore 	L1132	V1:	Mentre mia stella miri
+ID:Trm0560m-Basso  	L1151	V1:	Mentre mia stella miri
+ID:Trm0560n-Canto  	L1170	V1:	Mentre mia stella miri
+ID:Trm0560n-Alto   	L1189	V1:	Mentre mia stella miri
+ID:Trm0560n-Tenore 	L1208	V1:	Mentre mia stella miri
+ID:Trm0560n-Basso  	L1227	V1:	Mentre mia stella miri
+ID:Trm0560n-Quinto 	L1246	V1:	Mentre mia stella miri
+ID:Trm0560o-Canto  	L1265	V1:	Mentre mia stella miri
+ID:Trm0560o-Alto   	L1284	V1:	Mentre mia stella miri
+ID:Trm0560o-Tenore 	L1303	V1:	Mentre mia stella miri
+ID:Trm0560o-Basso  	L1322	V1:	Mentre mia stella miri
+ID:Trm0560o-Quinto 	L1341	V1:	Mentre mia stella miri
+ID:Trm0560p-Alto   	L1360	V1:	Mentre mia stella miri
+ID:Trm0560p-Basso  	L1379	V1:	Mentre mia stella miri
 
-ID:E1              	L22	V2:	I bei celesti giri
-ID:S8              	L85	V2:	I bei celesti giri,
-ID:S9              	L104	V2:	I bei celesti giri,
-ID:S11             	L123	V2:	I bei celesti giri,
-ID:S12             	L142	V2:	I bei celesti giri,
-ID:S13             	L161	V2:	I bei celesti giri,
-ID:S145            	L246	V2:	I bei celesti giri,
-ID:Trm0560a-Canto  	L287	V2:	I bei celesti giri
-ID:Trm0560a-Alto   	L306	V2:	I bei celesti giri
-ID:Trm0560a-Tenore 	L325	V2:	I bei celesti giri
-ID:Trm0560a-Basso  	L344	V2:	I bei celesti giri
-ID:Trm0560a-Quinto 	L363	V2:	I bei celesti giri
-ID:Trm0560b-Canto  	L382	V2:	I bei celesti giri
-ID:Trm0560b-Alto   	L401	V2:	I bei celesti giri
-ID:Trm0560b-Tenore 	L420	V2:	I bei celesti giri
-ID:Trm0560b-Basso  	L439	V2:	I bei celesti giri
-ID:Trm0560b-Quinto 	L458	V2:	I bei celesti giri
-ID:Trm0560c-Canto  	L477	V2:	I bei celesti giri
-ID:Trm0560c-Alto   	L496	V2:	I bei celesti giri
-ID:Trm0560c-Tenore 	L515	V2:	I bei celesti giri
-ID:Trm0560c-Basso  	L534	V2:	I bei celesti giri
-ID:Trm0560c-Quinto 	L553	V2:	I bei celesti giri
-ID:Trm0560c-Sesto  	L572	V2:	I bei celesti giri
-ID:Trm0560d-Canto  	L591	V2:	I bei celesti giri
-ID:Trm0560d-Alto   	L610	V2:	I bei celesti giri
-ID:Trm0560d-Basso  	L629	V2:	I bei celesti giri
-ID:Trm0560f-Canto  	L703	V2:	I bei celesti giri
-ID:Trm0560f-Alto   	L722	V2:	I bei celesti giri
-ID:Trm0560f-Tenore 	L741	V2:	I bei celesti giri
-ID:Trm0560f-Basso  	L760	V2:	[TACET]
-ID:Trm0560f-Quinto 	L780	V2:	I bei celesti giri
-ID:Trm0560h-Alto   	L854	V2:	I bei celesti giri
-ID:Trm0560h-Tenore 	L873	V2:	I bei celesti giri
-ID:Trm0560h-Quinto 	L892	V2:	I bei celesti giri
-ID:Trm0560k-Tenore 	L1010	V2:	I bei celesti giri
-ID:Trm0560m-Canto  	L1051	V2:	I bei stellati giri
-ID:Trm0560m-Alto   	L1070	V2:	I bei stellati giri
-ID:Trm0560m-Tenore 	L1089	V2:	I bei stellati giri
-ID:Trm0560m-Basso  	L1108	V2:	I bei stellati giri
-ID:Trm0560n-Canto  	L1127	V2:	i bei celesti giri
-ID:Trm0560n-Alto   	L1146	V2:	i bei celesti giri
-ID:Trm0560n-Tenore 	L1165	V2:	i bei celesti giri
-ID:Trm0560n-Basso  	L1184	V2:	i bei celesti giri
-ID:Trm0560n-Quinto 	L1203	V2:	i bei celesti giri
-ID:Trm0560o-Canto  	L1222	V2:	I bei celesti giri
-ID:Trm0560o-Alto   	L1241	V2:	I bei celesti giri
-ID:Trm0560o-Tenore 	L1260	V2:	I bei celesti giri
-ID:Trm0560o-Basso  	L1279	V2:	I bei celesti giri
-ID:Trm0560o-Quinto 	L1298	V2:	I bei celesti giri
-ID:Trm0560p-Alto   	L1317	V2:	I bei celesti giri
-ID:Trm0560p-Basso  	L1336	V2:	I bei celesti giri
+ID:A3              	L10	V2:	I bei celesti giri
+ID:E1              	L40	V2:	I bei celesti giri
+ID:E7              	L58	V2:	I bei celesti giri
+ID:S8              	L121	V2:	I bei celesti giri,
+ID:S9              	L140	V2:	I bei celesti giri,
+ID:S11             	L159	V2:	I bei celesti giri,
+ID:S12             	L178	V2:	I bei celesti giri,
+ID:S13             	L197	V2:	I bei celesti giri,
+ID:S20             	L227	V2:	I bei celesti giri,
+ID:S145            	L290	V2:	I bei celesti giri,
+ID:Trm0560a-Canto  	L331	V2:	I bei celesti giri
+ID:Trm0560a-Alto   	L350	V2:	I bei celesti giri
+ID:Trm0560a-Tenore 	L369	V2:	I bei celesti giri
+ID:Trm0560a-Basso  	L388	V2:	I bei celesti giri
+ID:Trm0560a-Quinto 	L407	V2:	I bei celesti giri
+ID:Trm0560b-Canto  	L426	V2:	I bei celesti giri
+ID:Trm0560b-Alto   	L445	V2:	I bei celesti giri
+ID:Trm0560b-Tenore 	L464	V2:	I bei celesti giri
+ID:Trm0560b-Basso  	L483	V2:	I bei celesti giri
+ID:Trm0560b-Quinto 	L502	V2:	I bei celesti giri
+ID:Trm0560c-Canto  	L521	V2:	I bei celesti giri
+ID:Trm0560c-Alto   	L540	V2:	I bei celesti giri
+ID:Trm0560c-Tenore 	L559	V2:	I bei celesti giri
+ID:Trm0560c-Basso  	L578	V2:	I bei celesti giri
+ID:Trm0560c-Quinto 	L597	V2:	I bei celesti giri
+ID:Trm0560c-Sesto  	L616	V2:	I bei celesti giri
+ID:Trm0560d-Canto  	L635	V2:	I bei celesti giri
+ID:Trm0560d-Alto   	L654	V2:	I bei celesti giri
+ID:Trm0560d-Basso  	L673	V2:	I bei celesti giri
+ID:Trm0560f-Canto  	L747	V2:	I bei celesti giri
+ID:Trm0560f-Alto   	L766	V2:	I bei celesti giri
+ID:Trm0560f-Tenore 	L785	V2:	I bei celesti giri
+ID:Trm0560f-Basso  	L804	V2:	[TACET]
+ID:Trm0560f-Quinto 	L824	V2:	I bei celesti giri
+ID:Trm0560h-Alto   	L898	V2:	I bei celesti giri
+ID:Trm0560h-Tenore 	L917	V2:	I bei celesti giri
+ID:Trm0560h-Quinto 	L936	V2:	I bei celesti giri
+ID:Trm0560k-Tenore 	L1054	V2:	I bei celesti giri
+ID:Trm0560m-Canto  	L1095	V2:	I bei stellati giri
+ID:Trm0560m-Alto   	L1114	V2:	I bei stellati giri
+ID:Trm0560m-Tenore 	L1133	V2:	I bei stellati giri
+ID:Trm0560m-Basso  	L1152	V2:	I bei stellati giri
+ID:Trm0560n-Canto  	L1171	V2:	i bei celesti giri
+ID:Trm0560n-Alto   	L1190	V2:	i bei celesti giri
+ID:Trm0560n-Tenore 	L1209	V2:	i bei celesti giri
+ID:Trm0560n-Basso  	L1228	V2:	i bei celesti giri
+ID:Trm0560n-Quinto 	L1247	V2:	i bei celesti giri
+ID:Trm0560o-Canto  	L1266	V2:	I bei celesti giri
+ID:Trm0560o-Alto   	L1285	V2:	I bei celesti giri
+ID:Trm0560o-Tenore 	L1304	V2:	I bei celesti giri
+ID:Trm0560o-Basso  	L1323	V2:	I bei celesti giri
+ID:Trm0560o-Quinto 	L1342	V2:	I bei celesti giri
+ID:Trm0560p-Alto   	L1361	V2:	I bei celesti giri
+ID:Trm0560p-Basso  	L1380	V2:	I bei celesti giri
 
-ID:E1              	L23	V3:	Il cielo esser vorrei
-ID:S8              	L86	V3:	Il Cielo esser vorrei,
-ID:S9              	L105	V3:	Il Cielo esser vorrei,
-ID:S11             	L124	V3:	Il Cielo esser vorrei,
-ID:S12             	L143	V3:	Il Cielo esser vorrei,
-ID:S13             	L162	V3:	Il Cielo esser vorrei,
-ID:S145            	L247	V3:	Il Cielo esser vorrei
-ID:Trm0560a-Canto  	L288	V3:	Il ciel esser vorrei
-ID:Trm0560a-Alto   	L307	V3:	Il ciel esser vorrei
-ID:Trm0560a-Tenore 	L326	V3:	Il ciel esser vorrei
-ID:Trm0560a-Basso  	L345	V3:	Il ciel esser vorrei
-ID:Trm0560a-Quinto 	L364	V3:	Il ciel esser vorrei
-ID:Trm0560b-Canto  	L383	V3:	Il ciel esser vorrei
-ID:Trm0560b-Alto   	L402	V3:	Il ciel esser vorrei
-ID:Trm0560b-Tenore 	L421	V3:	Il ciel esser vorrei
-ID:Trm0560b-Basso  	L440	V3:	Il ciel esser vorrei
-ID:Trm0560b-Quinto 	L459	V3:	Il ciel esser vorrei
-ID:Trm0560c-Canto  	L478	V3:	Il ciel’ esser vorrei
-ID:Trm0560c-Alto   	L497	V3:	Il ciel’ esser vorrei
-ID:Trm0560c-Tenore 	L516	V3:	Il ciel’esser vorrei
-ID:Trm0560c-Basso  	L535	V3:	Il ciel’ esser vorrei
-ID:Trm0560c-Quinto 	L554	V3:	Il ciel’ esser vorrei
-ID:Trm0560c-Sesto  	L573	V3:	Il ciel’ esser vorrei
-ID:Trm0560d-Canto  	L592	V3:	Il cielo esser vorrei
-ID:Trm0560d-Alto   	L611	V3:	Il cielo esser vorrei
-ID:Trm0560d-Basso  	L630	V3:	Il cielo esser vorrei
-ID:Trm0560f-Canto  	L704	V3:	Il ciel esser vorrei
-ID:Trm0560f-Alto   	L723	V3:	Il ciel esser vorrei
-ID:Trm0560f-Tenore 	L742	V3:	[TACET]
-ID:Trm0560f-Basso  	L761	V3:	Il ciel esser vorrei
-ID:Trm0560f-Quinto 	L781	V3:	Il ciel esser vorrei
-ID:Trm0560h-Alto   	L855	V3:	Il ciel esser vorrei
-ID:Trm0560h-Tenore 	L874	V3:	Il ciel esser vorrei
-ID:Trm0560h-Quinto 	L893	V3:	Il ciel esser vorrei
-ID:Trm0560k-Tenore 	L1011	V3:	Il Ciel esser vorrei
-ID:Trm0560m-Canto  	L1052	V3:	Il ciel esser vorrei
-ID:Trm0560m-Alto   	L1071	V3:	Il ciel esser vorrei
-ID:Trm0560m-Tenore 	L1090	V3:	Il ciel esser vorrei
-ID:Trm0560m-Basso  	L1109	V3:	Il ciel esser vorrei
-ID:Trm0560n-Canto  	L1128	V3:	il Ciel’esser vorrei
-ID:Trm0560n-Alto   	L1147	V3:	il Ciel’esser vorrei
-ID:Trm0560n-Tenore 	L1166	V3:	il Ciel’esser vorrei
-ID:Trm0560n-Basso  	L1185	V3:	il Ciel’esser vorrei
-ID:Trm0560n-Quinto 	L1204	V3:	il Ciel’esser vorrei
-ID:Trm0560o-Canto  	L1223	V3:	Il ciel esser vorrei
-ID:Trm0560o-Alto   	L1242	V3:	Il ciel esser vorrei
-ID:Trm0560o-Tenore 	L1261	V3:	Il ciel esser vorrei
-ID:Trm0560o-Basso  	L1280	V3:	Il ciel esser vorrei
-ID:Trm0560o-Quinto 	L1299	V3:	Il ciel esser vorrei
-ID:Trm0560p-Alto   	L1318	V3:	Il Ciel esser vorrei
-ID:Trm0560p-Basso  	L1337	V3:	Il Ciel esser vorrei
+ID:A3              	L11	V3:	Il ciel esser vorrei
+ID:E1              	L41	V3:	Il cielo esser vorrei
+ID:E7              	L59	V3:	Il Ciel esser vorrei
+ID:S8              	L122	V3:	Il Cielo esser vorrei,
+ID:S9              	L141	V3:	Il Cielo esser vorrei,
+ID:S11             	L160	V3:	Il Cielo esser vorrei,
+ID:S12             	L179	V3:	Il Cielo esser vorrei,
+ID:S13             	L198	V3:	Il Cielo esser vorrei,
+ID:S20             	L228	V3:	Il Cielo esser vorrei,
+ID:S145            	L291	V3:	Il Cielo esser vorrei
+ID:Trm0560a-Canto  	L332	V3:	Il ciel esser vorrei
+ID:Trm0560a-Alto   	L351	V3:	Il ciel esser vorrei
+ID:Trm0560a-Tenore 	L370	V3:	Il ciel esser vorrei
+ID:Trm0560a-Basso  	L389	V3:	Il ciel esser vorrei
+ID:Trm0560a-Quinto 	L408	V3:	Il ciel esser vorrei
+ID:Trm0560b-Canto  	L427	V3:	Il ciel esser vorrei
+ID:Trm0560b-Alto   	L446	V3:	Il ciel esser vorrei
+ID:Trm0560b-Tenore 	L465	V3:	Il ciel esser vorrei
+ID:Trm0560b-Basso  	L484	V3:	Il ciel esser vorrei
+ID:Trm0560b-Quinto 	L503	V3:	Il ciel esser vorrei
+ID:Trm0560c-Canto  	L522	V3:	Il ciel’ esser vorrei
+ID:Trm0560c-Alto   	L541	V3:	Il ciel’ esser vorrei
+ID:Trm0560c-Tenore 	L560	V3:	Il ciel’esser vorrei
+ID:Trm0560c-Basso  	L579	V3:	Il ciel’ esser vorrei
+ID:Trm0560c-Quinto 	L598	V3:	Il ciel’ esser vorrei
+ID:Trm0560c-Sesto  	L617	V3:	Il ciel’ esser vorrei
+ID:Trm0560d-Canto  	L636	V3:	Il cielo esser vorrei
+ID:Trm0560d-Alto   	L655	V3:	Il cielo esser vorrei
+ID:Trm0560d-Basso  	L674	V3:	Il cielo esser vorrei
+ID:Trm0560f-Canto  	L748	V3:	Il ciel esser vorrei
+ID:Trm0560f-Alto   	L767	V3:	Il ciel esser vorrei
+ID:Trm0560f-Tenore 	L786	V3:	[TACET]
+ID:Trm0560f-Basso  	L805	V3:	Il ciel esser vorrei
+ID:Trm0560f-Quinto 	L825	V3:	Il ciel esser vorrei
+ID:Trm0560h-Alto   	L899	V3:	Il ciel esser vorrei
+ID:Trm0560h-Tenore 	L918	V3:	Il ciel esser vorrei
+ID:Trm0560h-Quinto 	L937	V3:	Il ciel esser vorrei
+ID:Trm0560k-Tenore 	L1055	V3:	Il Ciel esser vorrei
+ID:Trm0560m-Canto  	L1096	V3:	Il ciel esser vorrei
+ID:Trm0560m-Alto   	L1115	V3:	Il ciel esser vorrei
+ID:Trm0560m-Tenore 	L1134	V3:	Il ciel esser vorrei
+ID:Trm0560m-Basso  	L1153	V3:	Il ciel esser vorrei
+ID:Trm0560n-Canto  	L1172	V3:	il Ciel’esser vorrei
+ID:Trm0560n-Alto   	L1191	V3:	il Ciel’esser vorrei
+ID:Trm0560n-Tenore 	L1210	V3:	il Ciel’esser vorrei
+ID:Trm0560n-Basso  	L1229	V3:	il Ciel’esser vorrei
+ID:Trm0560n-Quinto 	L1248	V3:	il Ciel’esser vorrei
+ID:Trm0560o-Canto  	L1267	V3:	Il ciel esser vorrei
+ID:Trm0560o-Alto   	L1286	V3:	Il ciel esser vorrei
+ID:Trm0560o-Tenore 	L1305	V3:	Il ciel esser vorrei
+ID:Trm0560o-Basso  	L1324	V3:	Il ciel esser vorrei
+ID:Trm0560o-Quinto 	L1343	V3:	Il ciel esser vorrei
+ID:Trm0560p-Alto   	L1362	V3:	Il Ciel esser vorrei
+ID:Trm0560p-Basso  	L1381	V3:	Il Ciel esser vorrei
 
-ID:E1              	L24	V4:	Perche ne gl’occhi miei
-ID:S8              	L87	V4:	Perche ne gli occhi miei
-ID:S9              	L106	V4:	Perche ne gli occhi miei
-ID:S11             	L125	V4:	Perche ne gli occhi miei
-ID:S12             	L144	V4:	Perche ne gli occhi miei
-ID:S13             	L163	V4:	Perche ne gli occhi miei
-ID:S145            	L248	V4:	Perche ne gli occhi miei
-ID:Trm0560a-Canto  	L289	V4:	Perche tu rivolgesti
-ID:Trm0560a-Alto   	L308	V4:	Perche tu rivolgesti
-ID:Trm0560a-Tenore 	L327	V4:	Perche tu rivolgesti
-ID:Trm0560a-Basso  	L346	V4:	Perche tu rivolgesti
-ID:Trm0560a-Quinto 	L365	V4:	Perche tu rivolgesti
-ID:Trm0560b-Canto  	L384	V4:	Acciò tu rivolgessi
-ID:Trm0560b-Alto   	L403	V4:	Acciò tu rivolgessi
-ID:Trm0560b-Tenore 	L422	V4:	Acciò tu rivolgessi
-ID:Trm0560b-Basso  	L441	V4:	Acciò tu rivolgessi
-ID:Trm0560b-Quinto 	L460	V4:	Acciò tu rivolgessi
-ID:Trm0560c-Canto  	L479	V4:	Perche tu rivolgessi
-ID:Trm0560c-Alto   	L498	V4:	Perche tu rivolgessi
-ID:Trm0560c-Tenore 	L517	V4:	Perche tu rivolgessi
-ID:Trm0560c-Basso  	L536	V4:	Perche tu rivolgessi
-ID:Trm0560c-Quinto 	L555	V4:	Perche tu rivolgessi
-ID:Trm0560c-Sesto  	L574	V4:	Perche tu rivolgessi
-ID:Trm0560d-Canto  	L593	V4:	Perche tu rivolgessi
-ID:Trm0560d-Alto   	L612	V4:	Perche tu rivolgessi
-ID:Trm0560d-Basso  	L631	V4:	Perche tu rivolgessi
-ID:Trm0560f-Canto  	L705	V4:	Perche tu rivolgessi
-ID:Trm0560f-Alto   	L724	V4:	Perche tu rivolgessi
-ID:Trm0560f-Tenore 	L743	V4:	Perche tu rivolgessi
-ID:Trm0560f-Basso  	L762	V4:	Perche tu rivolgessi
-ID:Trm0560f-Quinto 	L782	V4:	Perche tu rivolgessi
-ID:Trm0560h-Alto   	L856	V4:	[TACET]
-ID:Trm0560h-Tenore 	L875	V4:	[TACET]
-ID:Trm0560h-Quinto 	L894	V4:	Perche ne gl'occhi miei
-ID:Trm0560k-Tenore 	L1012	V4:	Perche ne gli occhi miei
-ID:Trm0560m-Canto  	L1053	V4:	Perche ne lumi miei
-ID:Trm0560m-Alto   	L1072	V4:	Perche ne lumi miei
-ID:Trm0560m-Tenore 	L1091	V4:	Perche ne lumi miei
-ID:Trm0560m-Basso  	L1110	V4:	Perche ne lumi miei
-ID:Trm0560n-Canto  	L1129	V4:	perche ne gli occhi miei
-ID:Trm0560n-Alto   	L1148	V4:	perche ne gli occhi miei
-ID:Trm0560n-Tenore 	L1167	V4:	perche ne gl’occhi miei
-ID:Trm0560n-Basso  	L1186	V4:	perche ne gl’occhi miei
-ID:Trm0560n-Quinto 	L1205	V4:	[LACUNA IN SOURCE]
-ID:Trm0560o-Canto  	L1224	V4:	Perche ne gl’occhi miei
-ID:Trm0560o-Alto   	L1243	V4:	Perche ne gl’occhi miei
-ID:Trm0560o-Tenore 	L1262	V4:	Perche ne gl’occhi miei
-ID:Trm0560o-Basso  	L1281	V4:	[TACET]
-ID:Trm0560o-Quinto 	L1300	V4:	Perche ne gl’occhi miei
-ID:Trm0560p-Alto   	L1319	V4:	Perche nell’occhi miei
-ID:Trm0560p-Basso  	L1338	V4:	Perche nell’occhi miei
+ID:A3              	L12	V4:	Perche ne gl'occhi miei
+ID:E1              	L42	V4:	Perche ne gl’occhi miei
+ID:E7              	L60	V4:	Perche negli occhi miei
+ID:S8              	L123	V4:	Perche ne gli occhi miei
+ID:S9              	L142	V4:	Perche ne gli occhi miei
+ID:S11             	L161	V4:	Perche ne gli occhi miei
+ID:S12             	L180	V4:	Perche ne gli occhi miei
+ID:S13             	L199	V4:	Perche ne gli occhi miei
+ID:S20             	L229	V4:	Perche ne gli occhi miei
+ID:S145            	L292	V4:	Perche ne gli occhi miei
+ID:Trm0560a-Canto  	L333	V4:	Perche tu rivolgesti
+ID:Trm0560a-Alto   	L352	V4:	Perche tu rivolgesti
+ID:Trm0560a-Tenore 	L371	V4:	Perche tu rivolgesti
+ID:Trm0560a-Basso  	L390	V4:	Perche tu rivolgesti
+ID:Trm0560a-Quinto 	L409	V4:	Perche tu rivolgesti
+ID:Trm0560b-Canto  	L428	V4:	Acciò tu rivolgessi
+ID:Trm0560b-Alto   	L447	V4:	Acciò tu rivolgessi
+ID:Trm0560b-Tenore 	L466	V4:	Acciò tu rivolgessi
+ID:Trm0560b-Basso  	L485	V4:	Acciò tu rivolgessi
+ID:Trm0560b-Quinto 	L504	V4:	Acciò tu rivolgessi
+ID:Trm0560c-Canto  	L523	V4:	Perche tu rivolgessi
+ID:Trm0560c-Alto   	L542	V4:	Perche tu rivolgessi
+ID:Trm0560c-Tenore 	L561	V4:	Perche tu rivolgessi
+ID:Trm0560c-Basso  	L580	V4:	Perche tu rivolgessi
+ID:Trm0560c-Quinto 	L599	V4:	Perche tu rivolgessi
+ID:Trm0560c-Sesto  	L618	V4:	Perche tu rivolgessi
+ID:Trm0560d-Canto  	L637	V4:	Perche tu rivolgessi
+ID:Trm0560d-Alto   	L656	V4:	Perche tu rivolgessi
+ID:Trm0560d-Basso  	L675	V4:	Perche tu rivolgessi
+ID:Trm0560f-Canto  	L749	V4:	Perche tu rivolgessi
+ID:Trm0560f-Alto   	L768	V4:	Perche tu rivolgessi
+ID:Trm0560f-Tenore 	L787	V4:	Perche tu rivolgessi
+ID:Trm0560f-Basso  	L806	V4:	Perche tu rivolgessi
+ID:Trm0560f-Quinto 	L826	V4:	Perche tu rivolgessi
+ID:Trm0560h-Alto   	L900	V4:	[TACET]
+ID:Trm0560h-Tenore 	L919	V4:	[TACET]
+ID:Trm0560h-Quinto 	L938	V4:	Perche ne gl'occhi miei
+ID:Trm0560k-Tenore 	L1056	V4:	Perche ne gli occhi miei
+ID:Trm0560m-Canto  	L1097	V4:	Perche ne lumi miei
+ID:Trm0560m-Alto   	L1116	V4:	Perche ne lumi miei
+ID:Trm0560m-Tenore 	L1135	V4:	Perche ne lumi miei
+ID:Trm0560m-Basso  	L1154	V4:	Perche ne lumi miei
+ID:Trm0560n-Canto  	L1173	V4:	perche ne gli occhi miei
+ID:Trm0560n-Alto   	L1192	V4:	perche ne gli occhi miei
+ID:Trm0560n-Tenore 	L1211	V4:	perche ne gl’occhi miei
+ID:Trm0560n-Basso  	L1230	V4:	perche ne gl’occhi miei
+ID:Trm0560n-Quinto 	L1249	V4:	[LACUNA IN SOURCE]
+ID:Trm0560o-Canto  	L1268	V4:	Perche ne gl’occhi miei
+ID:Trm0560o-Alto   	L1287	V4:	Perche ne gl’occhi miei
+ID:Trm0560o-Tenore 	L1306	V4:	Perche ne gl’occhi miei
+ID:Trm0560o-Basso  	L1325	V4:	[TACET]
+ID:Trm0560o-Quinto 	L1344	V4:	Perche ne gl’occhi miei
+ID:Trm0560p-Alto   	L1363	V4:	Perche nell’occhi miei
+ID:Trm0560p-Basso  	L1382	V4:	Perche nell’occhi miei
 
-ID:E1              	L25	V5:	fiso tu rivolgessi,
-ID:S8              	L88	V5:	Fiso tu rivolgessi
-ID:S9              	L107	V5:	Fiso tu rivolgessi
-ID:S11             	L126	V5:	Fiso tu rivolgessi
-ID:S12             	L145	V5:	Fiso tu rivolgessi
-ID:S13             	L164	V5:	Fiso tu rivolgessi
-ID:S145            	L249	V5:	Fiso, tù rivolgessi
-ID:Trm0560a-Canto  	L290	V5:	Fiso ne lumi miei
-ID:Trm0560a-Alto   	L309	V5:	Fiso ne lumi miei
-ID:Trm0560a-Tenore 	L328	V5:	Fiso ne lumi miei
-ID:Trm0560a-Basso  	L347	V5:	Fiso [TACET]
-ID:Trm0560a-Quinto 	L366	V5:	Fiso ne lumi miei
-ID:Trm0560b-Canto  	L385	V5:	Spesso ne lumi miei
-ID:Trm0560b-Alto   	L404	V5:	Spesso ne lumi miei
-ID:Trm0560b-Tenore 	L423	V5:	[TACET]
-ID:Trm0560b-Basso  	L442	V5:	Spesso ne lumi miei
-ID:Trm0560b-Quinto 	L461	V5:	Spesso ne lumi miei
-ID:Trm0560c-Canto  	L480	V5:	Fisso ne’ lumi miei
-ID:Trm0560c-Alto   	L499	V5:	Fisso ne’ lumi miei
-ID:Trm0560c-Tenore 	L518	V5:	Fisso ne’ lumi miei
-ID:Trm0560c-Basso  	L537	V5:	Fisso ne’ lumi miei
-ID:Trm0560c-Quinto 	L556	V5:	Fisso ne’ lumi miei
-ID:Trm0560c-Sesto  	L575	V5:	Fisso ne’ lumi miei
-ID:Trm0560d-Canto  	L594	V5:	Fisso ne gl’occhi miei
-ID:Trm0560d-Alto   	L613	V5:	Fisso ne gl’occhi miei
-ID:Trm0560d-Basso  	L632	V5:	Fisso ne gl’occhi miei
-ID:Trm0560f-Canto  	L706	V5:	fiso ne lumi miei
-ID:Trm0560f-Alto   	L725	V5:	fiso [TACET]
-ID:Trm0560f-Tenore 	L744	V5:	fiso [TACET]
-ID:Trm0560f-Basso  	L763	V5:	fiso [TACET]
-ID:Trm0560f-Quinto 	L783	V5:	fiso ne’ lumi miei
-ID:Trm0560h-Alto   	L857	V5:	Fiso tu rivolgessi
-ID:Trm0560h-Tenore 	L876	V5:	Fiso tu rivolgessi
-ID:Trm0560h-Quinto 	L895	V5:	Fiso tu rivolgessi
-ID:Trm0560k-Tenore 	L1013	V5:	fisso tu rivolgessi
-ID:Trm0560m-Canto  	L1054	V5:	Fisso tu rivolgessi
-ID:Trm0560m-Alto   	L1073	V5:	Fisso tu rivolgessi
-ID:Trm0560m-Tenore 	L1092	V5:	Fisso tu rivolgessi
-ID:Trm0560m-Basso  	L1111	V5:	Fisso tu rivolgessi
-ID:Trm0560n-Canto  	L1130	V5:	fiso tu rivolgessi
-ID:Trm0560n-Alto   	L1149	V5:	fiso tu rivolgessi
-ID:Trm0560n-Tenore 	L1168	V5:	fiso tu rivolgessi
-ID:Trm0560n-Basso  	L1187	V5:	fiso tu rivolgessi
-ID:Trm0560n-Quinto 	L1206	V5:	[LACUNA IN SCOURE]
-ID:Trm0560o-Canto  	L1225	V5:	Fiso tu rivolgessi
-ID:Trm0560o-Alto   	L1244	V5:	Fiso tu rivolgessi
-ID:Trm0560o-Tenore 	L1263	V5:	Fiso tu rivolgessi
-ID:Trm0560o-Basso  	L1282	V5:	Fiso tu rivolgessi
-ID:Trm0560o-Quinto 	L1301	V5:	Fiso tu rivolgessi
-ID:Trm0560p-Alto   	L1320	V5:	Fisso tu rivolgessi
-ID:Trm0560p-Basso  	L1339	V5:	Fisso tu rivolgessi
+ID:A3              	L13	V5:	Fiso tu rivolgessi
+ID:E1              	L43	V5:	fiso tu rivolgessi,
+ID:E7              	L61	V5:	Fiso tu rivolgessi
+ID:S8              	L124	V5:	Fiso tu rivolgessi
+ID:S9              	L143	V5:	Fiso tu rivolgessi
+ID:S11             	L162	V5:	Fiso tu rivolgessi
+ID:S12             	L181	V5:	Fiso tu rivolgessi
+ID:S13             	L200	V5:	Fiso tu rivolgessi
+ID:S20             	L230	V5:	Fiso tu rivolgessi
+ID:S145            	L293	V5:	Fiso, tù rivolgessi
+ID:Trm0560a-Canto  	L334	V5:	Fiso ne lumi miei
+ID:Trm0560a-Alto   	L353	V5:	Fiso ne lumi miei
+ID:Trm0560a-Tenore 	L372	V5:	Fiso ne lumi miei
+ID:Trm0560a-Basso  	L391	V5:	Fiso [TACET]
+ID:Trm0560a-Quinto 	L410	V5:	Fiso ne lumi miei
+ID:Trm0560b-Canto  	L429	V5:	Spesso ne lumi miei
+ID:Trm0560b-Alto   	L448	V5:	Spesso ne lumi miei
+ID:Trm0560b-Tenore 	L467	V5:	[TACET]
+ID:Trm0560b-Basso  	L486	V5:	Spesso ne lumi miei
+ID:Trm0560b-Quinto 	L505	V5:	Spesso ne lumi miei
+ID:Trm0560c-Canto  	L524	V5:	Fisso ne’ lumi miei
+ID:Trm0560c-Alto   	L543	V5:	Fisso ne’ lumi miei
+ID:Trm0560c-Tenore 	L562	V5:	Fisso ne’ lumi miei
+ID:Trm0560c-Basso  	L581	V5:	Fisso ne’ lumi miei
+ID:Trm0560c-Quinto 	L600	V5:	Fisso ne’ lumi miei
+ID:Trm0560c-Sesto  	L619	V5:	Fisso ne’ lumi miei
+ID:Trm0560d-Canto  	L638	V5:	Fisso ne gl’occhi miei
+ID:Trm0560d-Alto   	L657	V5:	Fisso ne gl’occhi miei
+ID:Trm0560d-Basso  	L676	V5:	Fisso ne gl’occhi miei
+ID:Trm0560f-Canto  	L750	V5:	fiso ne lumi miei
+ID:Trm0560f-Alto   	L769	V5:	fiso [TACET]
+ID:Trm0560f-Tenore 	L788	V5:	fiso [TACET]
+ID:Trm0560f-Basso  	L807	V5:	fiso [TACET]
+ID:Trm0560f-Quinto 	L827	V5:	fiso ne’ lumi miei
+ID:Trm0560h-Alto   	L901	V5:	Fiso tu rivolgessi
+ID:Trm0560h-Tenore 	L920	V5:	Fiso tu rivolgessi
+ID:Trm0560h-Quinto 	L939	V5:	Fiso tu rivolgessi
+ID:Trm0560k-Tenore 	L1057	V5:	fisso tu rivolgessi
+ID:Trm0560m-Canto  	L1098	V5:	Fisso tu rivolgessi
+ID:Trm0560m-Alto   	L1117	V5:	Fisso tu rivolgessi
+ID:Trm0560m-Tenore 	L1136	V5:	Fisso tu rivolgessi
+ID:Trm0560m-Basso  	L1155	V5:	Fisso tu rivolgessi
+ID:Trm0560n-Canto  	L1174	V5:	fiso tu rivolgessi
+ID:Trm0560n-Alto   	L1193	V5:	fiso tu rivolgessi
+ID:Trm0560n-Tenore 	L1212	V5:	fiso tu rivolgessi
+ID:Trm0560n-Basso  	L1231	V5:	fiso tu rivolgessi
+ID:Trm0560n-Quinto 	L1250	V5:	[LACUNA IN SCOURE]
+ID:Trm0560o-Canto  	L1269	V5:	Fiso tu rivolgessi
+ID:Trm0560o-Alto   	L1288	V5:	Fiso tu rivolgessi
+ID:Trm0560o-Tenore 	L1307	V5:	Fiso tu rivolgessi
+ID:Trm0560o-Basso  	L1326	V5:	Fiso tu rivolgessi
+ID:Trm0560o-Quinto 	L1345	V5:	Fiso tu rivolgessi
+ID:Trm0560p-Alto   	L1364	V5:	Fisso tu rivolgessi
+ID:Trm0560p-Basso  	L1383	V5:	Fisso tu rivolgessi
 
-ID:E1              	L26	V6:	Le tue dolci faville,
-ID:S8              	L89	V6:	Le tue dolci faville,
-ID:S9              	L108	V6:	Le tue dolci faville,
-ID:S11             	L127	V6:	Le tue dolci faville,
-ID:S12             	L146	V6:	Le tue dolci faville,
-ID:S13             	L165	V6:	Le tue dolci faville,
-ID:S145            	L250	V6:	Le tue dolci faville,
-ID:Trm0560a-Canto  	L291	V6:	Le tue dolci faville
-ID:Trm0560a-Alto   	L310	V6:	Le tue dolci faville
-ID:Trm0560a-Tenore 	L329	V6:	Le tue dolci faville
-ID:Trm0560a-Basso  	L348	V6:	Le tue dolci faville
-ID:Trm0560a-Quinto 	L367	V6:	Le tue dolci faville
-ID:Trm0560b-Canto  	L386	V6:	Le tue ardenti faville
-ID:Trm0560b-Alto   	L405	V6:	Le tue ardenti faville
-ID:Trm0560b-Tenore 	L424	V6:	Le tue ardenti faville
-ID:Trm0560b-Basso  	L443	V6:	Le tue ardenti faville
-ID:Trm0560b-Quinto 	L462	V6:	Le tue ardenti faville
-ID:Trm0560c-Canto  	L481	V6:	Le tue dolci faville
-ID:Trm0560c-Alto   	L500	V6:	Le tue dolci faville
-ID:Trm0560c-Tenore 	L519	V6:	Le tue dolci faville
-ID:Trm0560c-Basso  	L538	V6:	Le tue dolci faville
-ID:Trm0560c-Quinto 	L557	V6:	Le tue dolci faville
-ID:Trm0560c-Sesto  	L576	V6:	Le tue dolci faville
-ID:Trm0560d-Canto  	L595	V6:	Le tue dolci faville
-ID:Trm0560d-Alto   	L614	V6:	Le tue dolci faville
-ID:Trm0560d-Basso  	L633	V6:	[TACET]
-ID:Trm0560f-Canto  	L707	V6:	Le tue dolci faville
-ID:Trm0560f-Alto   	L726	V6:	Le tue dolci faville
-ID:Trm0560f-Tenore 	L745	V6:	Le tue dolci faville
-ID:Trm0560f-Basso  	L764	V6:	Le tue dolci faville
-ID:Trm0560f-Quinto 	L784	V6:	Le tue dolci faville
-ID:Trm0560h-Alto   	L858	V6:	Le tue dolci faville
-ID:Trm0560h-Tenore 	L877	V6:	Le tue dolci faville
-ID:Trm0560h-Quinto 	L896	V6:	Le tue dolci faville
-ID:Trm0560k-Tenore 	L1014	V6:	le tue dolci faville
-ID:Trm0560m-Canto  	L1055	V6:	le tue dolci faville
-ID:Trm0560m-Alto   	L1074	V6:	le tue dolci faville
-ID:Trm0560m-Tenore 	L1093	V6:	le tue dolci faville
-ID:Trm0560m-Basso  	L1112	V6:	le tue dolci faville
-ID:Trm0560n-Canto  	L1131	V6:	le tue dolci faville
-ID:Trm0560n-Alto   	L1150	V6:	le tue dolci faville
-ID:Trm0560n-Tenore 	L1169	V6:	le tue dolci faville
-ID:Trm0560n-Basso  	L1188	V6:	le tue dolci faville
-ID:Trm0560n-Quinto 	L1207	V6:	[LACUNA IN SOURCE]
-ID:Trm0560o-Canto  	L1226	V6:	Le tue dolci faville
-ID:Trm0560o-Alto   	L1245	V6:	Le tue dolci faville
-ID:Trm0560o-Tenore 	L1264	V6:	Le tue dolci faville
-ID:Trm0560o-Basso  	L1283	V6:	Le tue dolci faville
-ID:Trm0560o-Quinto 	L1302	V6:	Le tue dolci faville
-ID:Trm0560p-Alto   	L1321	V6:	Le tue dolci faville
-ID:Trm0560p-Basso  	L1340	V6:	Le tue dolci faville
+ID:A3              	L14	V6:	Le tue dolci faville
+ID:E1              	L44	V6:	Le tue dolci faville,
+ID:E7              	L62	V6:	Le tue dolci faville
+ID:S8              	L125	V6:	Le tue dolci faville,
+ID:S9              	L144	V6:	Le tue dolci faville,
+ID:S11             	L163	V6:	Le tue dolci faville,
+ID:S12             	L182	V6:	Le tue dolci faville,
+ID:S13             	L201	V6:	Le tue dolci faville,
+ID:S20             	L231	V6:	Le tue dolci faville,
+ID:S145            	L294	V6:	Le tue dolci faville,
+ID:Trm0560a-Canto  	L335	V6:	Le tue dolci faville
+ID:Trm0560a-Alto   	L354	V6:	Le tue dolci faville
+ID:Trm0560a-Tenore 	L373	V6:	Le tue dolci faville
+ID:Trm0560a-Basso  	L392	V6:	Le tue dolci faville
+ID:Trm0560a-Quinto 	L411	V6:	Le tue dolci faville
+ID:Trm0560b-Canto  	L430	V6:	Le tue ardenti faville
+ID:Trm0560b-Alto   	L449	V6:	Le tue ardenti faville
+ID:Trm0560b-Tenore 	L468	V6:	Le tue ardenti faville
+ID:Trm0560b-Basso  	L487	V6:	Le tue ardenti faville
+ID:Trm0560b-Quinto 	L506	V6:	Le tue ardenti faville
+ID:Trm0560c-Canto  	L525	V6:	Le tue dolci faville
+ID:Trm0560c-Alto   	L544	V6:	Le tue dolci faville
+ID:Trm0560c-Tenore 	L563	V6:	Le tue dolci faville
+ID:Trm0560c-Basso  	L582	V6:	Le tue dolci faville
+ID:Trm0560c-Quinto 	L601	V6:	Le tue dolci faville
+ID:Trm0560c-Sesto  	L620	V6:	Le tue dolci faville
+ID:Trm0560d-Canto  	L639	V6:	Le tue dolci faville
+ID:Trm0560d-Alto   	L658	V6:	Le tue dolci faville
+ID:Trm0560d-Basso  	L677	V6:	[TACET]
+ID:Trm0560f-Canto  	L751	V6:	Le tue dolci faville
+ID:Trm0560f-Alto   	L770	V6:	Le tue dolci faville
+ID:Trm0560f-Tenore 	L789	V6:	Le tue dolci faville
+ID:Trm0560f-Basso  	L808	V6:	Le tue dolci faville
+ID:Trm0560f-Quinto 	L828	V6:	Le tue dolci faville
+ID:Trm0560h-Alto   	L902	V6:	Le tue dolci faville
+ID:Trm0560h-Tenore 	L921	V6:	Le tue dolci faville
+ID:Trm0560h-Quinto 	L940	V6:	Le tue dolci faville
+ID:Trm0560k-Tenore 	L1058	V6:	le tue dolci faville
+ID:Trm0560m-Canto  	L1099	V6:	le tue dolci faville
+ID:Trm0560m-Alto   	L1118	V6:	le tue dolci faville
+ID:Trm0560m-Tenore 	L1137	V6:	le tue dolci faville
+ID:Trm0560m-Basso  	L1156	V6:	le tue dolci faville
+ID:Trm0560n-Canto  	L1175	V6:	le tue dolci faville
+ID:Trm0560n-Alto   	L1194	V6:	le tue dolci faville
+ID:Trm0560n-Tenore 	L1213	V6:	le tue dolci faville
+ID:Trm0560n-Basso  	L1232	V6:	le tue dolci faville
+ID:Trm0560n-Quinto 	L1251	V6:	[LACUNA IN SOURCE]
+ID:Trm0560o-Canto  	L1270	V6:	Le tue dolci faville
+ID:Trm0560o-Alto   	L1289	V6:	Le tue dolci faville
+ID:Trm0560o-Tenore 	L1308	V6:	Le tue dolci faville
+ID:Trm0560o-Basso  	L1327	V6:	Le tue dolci faville
+ID:Trm0560o-Quinto 	L1346	V6:	Le tue dolci faville
+ID:Trm0560p-Alto   	L1365	V6:	Le tue dolci faville
+ID:Trm0560p-Basso  	L1384	V6:	Le tue dolci faville
 
-ID:E1              	L27	V7:	Io vaghegiar potessi
-ID:S8              	L90	V7:	Io vagheggiar potessi
-ID:S9              	L109	V7:	Io vagheggiar potessi
-ID:S11             	L128	V7:	Io vagheggiar potessi
-ID:S12             	L147	V7:	Io vagheggiar potessi
-ID:S13             	L166	V7:	Io vagheggiar potessi
-ID:S145            	L251	V7:	Io vagheggiar potessi
-ID:Trm0560a-Canto  	L292	V7:	Io vagheggiar potessi
-ID:Trm0560a-Alto   	L311	V7:	Io vagheggiar potessi
-ID:Trm0560a-Tenore 	L330	V7:	Io vagheggiar  potessi
-ID:Trm0560a-Basso  	L349	V7:	Io vagheggiar  potessi
-ID:Trm0560a-Quinto 	L368	V7:	Io vagheggiare potessi
-ID:Trm0560b-Canto  	L387	V7:	Io vagheggiar potessi
-ID:Trm0560b-Alto   	L406	V7:	Io vagheggiar potessi
-ID:Trm0560b-Tenore 	L425	V7:	Io vagheggiar potessi
-ID:Trm0560b-Basso  	L444	V7:	Io vagheggiar potessi
-ID:Trm0560b-Quinto 	L463	V7:	Io vagheggiar potessi
-ID:Trm0560c-Canto  	L482	V7:	Io vagheggiar potessi
-ID:Trm0560c-Alto   	L501	V7:	Io vagheggiar potessi
-ID:Trm0560c-Tenore 	L520	V7:	Io vagheggiar potessi
-ID:Trm0560c-Basso  	L539	V7:	Io vagheggiar potessi
-ID:Trm0560c-Quinto 	L558	V7:	Io vagheggiar potessi
-ID:Trm0560c-Sesto  	L577	V7:	Io vagheggiar potessi
-ID:Trm0560d-Canto  	L596	V7:	Io vagheggiar potessi
-ID:Trm0560d-Alto   	L615	V7:	Io vagheggiar potessi
-ID:Trm0560d-Basso  	L634	V7:	Io vagheggiar potessi
-ID:Trm0560f-Canto  	L708	V7:	Io vagheggiar potessi
-ID:Trm0560f-Alto   	L727	V7:	Io vagheggiar potessi
-ID:Trm0560f-Tenore 	L746	V7:	Io vagheggiar potessi
-ID:Trm0560f-Basso  	L765	V7:	Io vagheggiar potessi
-ID:Trm0560f-Quinto 	L785	V7:	Io vagheggiar potessi
-ID:Trm0560h-Alto   	L859	V7:	Io vagheggiar potessi
-ID:Trm0560h-Tenore 	L878	V7:	Io vagheggiar potessi
-ID:Trm0560h-Quinto 	L897	V7:	Io vagheggiar potessi
-ID:Trm0560k-Tenore 	L1015	V7:	Io vagheggiar potessi
-ID:Trm0560m-Canto  	L1056	V7:	Io vagheggiar potessi
-ID:Trm0560m-Alto   	L1075	V7:	Io vagheggiar potessi
-ID:Trm0560m-Tenore 	L1094	V7:	Io vagheggiar potessi
-ID:Trm0560m-Basso  	L1113	V7:	Io vagheggiar potessi
-ID:Trm0560n-Canto  	L1132	V7:	io vagheggiar potessi
-ID:Trm0560n-Alto   	L1151	V7:	io vagheggiar potessi
-ID:Trm0560n-Tenore 	L1170	V7:	io vagheggiar potessi
-ID:Trm0560n-Basso  	L1189	V7:	io vagheggiar potessi
-ID:Trm0560n-Quinto 	L1208	V7:	[LACUNA IN SOURCE]
-ID:Trm0560o-Canto  	L1227	V7:	Io vagheggiar potessi
-ID:Trm0560o-Alto   	L1246	V7:	Io vagheggiar potessi
-ID:Trm0560o-Tenore 	L1265	V7:	Io vagheggiar potessi
-ID:Trm0560o-Basso  	L1284	V7:	Io vagheggiar potessi
-ID:Trm0560o-Quinto 	L1303	V7:	Io vagheggiar potessi
-ID:Trm0560p-Alto   	L1322	V7:	Io vagheggiar potessi
-ID:Trm0560p-Basso  	L1341	V7:	Io vagheggiar potessi
+ID:A3              	L15	V7:	Io vaghegiar potessi
+ID:E1              	L45	V7:	Io vaghegiar potessi
+ID:E7              	L63	V7:	Io vaghegiar potessi
+ID:S8              	L126	V7:	Io vagheggiar potessi
+ID:S9              	L145	V7:	Io vagheggiar potessi
+ID:S11             	L164	V7:	Io vagheggiar potessi
+ID:S12             	L183	V7:	Io vagheggiar potessi
+ID:S13             	L202	V7:	Io vagheggiar potessi
+ID:S20             	L232	V7:	Io vagheggiar potessi
+ID:S145            	L295	V7:	Io vagheggiar potessi
+ID:Trm0560a-Canto  	L336	V7:	Io vagheggiar potessi
+ID:Trm0560a-Alto   	L355	V7:	Io vagheggiar potessi
+ID:Trm0560a-Tenore 	L374	V7:	Io vagheggiar  potessi
+ID:Trm0560a-Basso  	L393	V7:	Io vagheggiar  potessi
+ID:Trm0560a-Quinto 	L412	V7:	Io vagheggiare potessi
+ID:Trm0560b-Canto  	L431	V7:	Io vagheggiar potessi
+ID:Trm0560b-Alto   	L450	V7:	Io vagheggiar potessi
+ID:Trm0560b-Tenore 	L469	V7:	Io vagheggiar potessi
+ID:Trm0560b-Basso  	L488	V7:	Io vagheggiar potessi
+ID:Trm0560b-Quinto 	L507	V7:	Io vagheggiar potessi
+ID:Trm0560c-Canto  	L526	V7:	Io vagheggiar potessi
+ID:Trm0560c-Alto   	L545	V7:	Io vagheggiar potessi
+ID:Trm0560c-Tenore 	L564	V7:	Io vagheggiar potessi
+ID:Trm0560c-Basso  	L583	V7:	Io vagheggiar potessi
+ID:Trm0560c-Quinto 	L602	V7:	Io vagheggiar potessi
+ID:Trm0560c-Sesto  	L621	V7:	Io vagheggiar potessi
+ID:Trm0560d-Canto  	L640	V7:	Io vagheggiar potessi
+ID:Trm0560d-Alto   	L659	V7:	Io vagheggiar potessi
+ID:Trm0560d-Basso  	L678	V7:	Io vagheggiar potessi
+ID:Trm0560f-Canto  	L752	V7:	Io vagheggiar potessi
+ID:Trm0560f-Alto   	L771	V7:	Io vagheggiar potessi
+ID:Trm0560f-Tenore 	L790	V7:	Io vagheggiar potessi
+ID:Trm0560f-Basso  	L809	V7:	Io vagheggiar potessi
+ID:Trm0560f-Quinto 	L829	V7:	Io vagheggiar potessi
+ID:Trm0560h-Alto   	L903	V7:	Io vagheggiar potessi
+ID:Trm0560h-Tenore 	L922	V7:	Io vagheggiar potessi
+ID:Trm0560h-Quinto 	L941	V7:	Io vagheggiar potessi
+ID:Trm0560k-Tenore 	L1059	V7:	Io vagheggiar potessi
+ID:Trm0560m-Canto  	L1100	V7:	Io vagheggiar potessi
+ID:Trm0560m-Alto   	L1119	V7:	Io vagheggiar potessi
+ID:Trm0560m-Tenore 	L1138	V7:	Io vagheggiar potessi
+ID:Trm0560m-Basso  	L1157	V7:	Io vagheggiar potessi
+ID:Trm0560n-Canto  	L1176	V7:	io vagheggiar potessi
+ID:Trm0560n-Alto   	L1195	V7:	io vagheggiar potessi
+ID:Trm0560n-Tenore 	L1214	V7:	io vagheggiar potessi
+ID:Trm0560n-Basso  	L1233	V7:	io vagheggiar potessi
+ID:Trm0560n-Quinto 	L1252	V7:	[LACUNA IN SOURCE]
+ID:Trm0560o-Canto  	L1271	V7:	Io vagheggiar potessi
+ID:Trm0560o-Alto   	L1290	V7:	Io vagheggiar potessi
+ID:Trm0560o-Tenore 	L1309	V7:	Io vagheggiar potessi
+ID:Trm0560o-Basso  	L1328	V7:	Io vagheggiar potessi
+ID:Trm0560o-Quinto 	L1347	V7:	Io vagheggiar potessi
+ID:Trm0560p-Alto   	L1366	V7:	Io vagheggiar potessi
+ID:Trm0560p-Basso  	L1385	V7:	Io vagheggiar potessi
 
-ID:E1              	L28	V8:	Mille bellezze tue, con luci mille :
-ID:S8              	L91	V8:	Mille bellezze tue, con luci mille.
-ID:S9              	L110	V8:	Mille bellezze tue, con luci mille.
-ID:S11             	L129	V8:	Mille bellezze tue, con luci mille.
-ID:S12             	L148	V8:	Mille bellezze tue, con luci mille.
-ID:S13             	L167	V8:	Mille bellezze tue, con luci mille.
-ID:S145            	L252	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560a-Canto  	L293	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560a-Alto   	L312	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560a-Tenore 	L331	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560a-Basso  	L350	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560a-Quinto 	L369	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560b-Canto  	L388	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560b-Alto   	L407	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560b-Tenore 	L426	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560b-Basso  	L445	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560b-Quinto 	L464	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560c-Canto  	L483	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560c-Alto   	L502	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560c-Tenore 	L521	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560c-Basso  	L540	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560c-Quinto 	L559	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560c-Sesto  	L578	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560d-Canto  	L597	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560d-Alto   	L616	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560d-Basso  	L635	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560f-Canto  	L709	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560f-Alto   	L728	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560f-Tenore 	L747	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560f-Basso  	L766	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560f-Quinto 	L786	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560h-Alto   	L860	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560h-Tenore 	L879	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560h-Quinto 	L898	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560k-Tenore 	L1016	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560m-Canto  	L1057	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560m-Alto   	L1076	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560m-Tenore 	L1095	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560m-Basso  	L1114	V8:	Mille bellezze tue con occhi mille.
-ID:Trm0560n-Canto  	L1133	V8:	mille bellezze tue con luce mille.
-ID:Trm0560n-Alto   	L1152	V8:	mille bellezze tue con luce mille.
-ID:Trm0560n-Tenore 	L1171	V8:	mille bellezze tue con luce mille.
-ID:Trm0560n-Basso  	L1190	V8:	mille bellezze tue con luce mille.
-ID:Trm0560n-Quinto 	L1209	V8:	[LACUNA IN SOURCE]
-ID:Trm0560o-Canto  	L1228	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560o-Alto   	L1247	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560o-Tenore 	L1266	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560o-Basso  	L1285	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560o-Quinto 	L1304	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560p-Alto   	L1323	V8:	Mille bellezze tue con luci mille.
-ID:Trm0560p-Basso  	L1342	V8:	Mille bellezze tue con luci mille.
+ID:A3              	L16	V8:	Mille bellezze tue con luci mille.
+ID:E1              	L46	V8:	Mille bellezze tue, con luci mille :
+ID:E7              	L64	V8:	Mille bellezze tue con luci mille.
+ID:S8              	L127	V8:	Mille bellezze tue, con luci mille.
+ID:S9              	L146	V8:	Mille bellezze tue, con luci mille.
+ID:S11             	L165	V8:	Mille bellezze tue, con luci mille.
+ID:S12             	L184	V8:	Mille bellezze tue, con luci mille.
+ID:S13             	L203	V8:	Mille bellezze tue, con luci mille.
+ID:S20             	L233	V8:	Mille bellezze tue, con luci mille.
+ID:S145            	L296	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560a-Canto  	L337	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560a-Alto   	L356	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560a-Tenore 	L375	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560a-Basso  	L394	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560a-Quinto 	L413	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560b-Canto  	L432	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560b-Alto   	L451	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560b-Tenore 	L470	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560b-Basso  	L489	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560b-Quinto 	L508	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560c-Canto  	L527	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560c-Alto   	L546	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560c-Tenore 	L565	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560c-Basso  	L584	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560c-Quinto 	L603	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560c-Sesto  	L622	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560d-Canto  	L641	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560d-Alto   	L660	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560d-Basso  	L679	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560f-Canto  	L753	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560f-Alto   	L772	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560f-Tenore 	L791	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560f-Basso  	L810	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560f-Quinto 	L830	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560h-Alto   	L904	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560h-Tenore 	L923	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560h-Quinto 	L942	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560k-Tenore 	L1060	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560m-Canto  	L1101	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560m-Alto   	L1120	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560m-Tenore 	L1139	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560m-Basso  	L1158	V8:	Mille bellezze tue con occhi mille.
+ID:Trm0560n-Canto  	L1177	V8:	mille bellezze tue con luce mille.
+ID:Trm0560n-Alto   	L1196	V8:	mille bellezze tue con luce mille.
+ID:Trm0560n-Tenore 	L1215	V8:	mille bellezze tue con luce mille.
+ID:Trm0560n-Basso  	L1234	V8:	mille bellezze tue con luce mille.
+ID:Trm0560n-Quinto 	L1253	V8:	[LACUNA IN SOURCE]
+ID:Trm0560o-Canto  	L1272	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560o-Alto   	L1291	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560o-Tenore 	L1310	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560o-Basso  	L1329	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560o-Quinto 	L1348	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560p-Alto   	L1367	V8:	Mille bellezze tue con luci mille.
+ID:Trm0560p-Basso  	L1386	V8:	Mille bellezze tue con luci mille.
 

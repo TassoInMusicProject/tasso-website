@@ -1,252 +1,322 @@
-ID:F1              	L66	V1:	Viviamo, amianci, o mia gradita Jelle,
-ID:P4              	L122	V1:	Viviamo, amianci o' mia gradita Jelle;
-ID:R7              	L165	V1:	Viviamo, amianci, o mia gradita J
-ID:S8              	L263	V1:	Viviamo, amianci, o mia gradita Hielle,
-ID:S9              	L291	V1:	Viviamo, amianci, o mia gradita Hielle,
-ID:S11             	L319	V1:	Viviamo, amianci, ò mia gradita Hielle,
-ID:S12             	L347	V1:	Viviamo, amianci, ò mia gradita Hielle,
-ID:S13             	L375	V1:	Viviamo, amianci, ò mia gradita Hielle,
-ID:S29             	L431	V1:	Viviamo, amianci, ò mia gradita Hielle,
-ID:Trm0380a-Alto   	L529	V1:	[TACET]
-ID:Trm0380a-Tenore 	L555	V1:	[TACET]
-ID:Trm0380a-Quinto 	L581	V1:	Viviamo amianci o mia gradita Hielle
-ID:Trm0380b-Canto  	L607	V1:	Viviamo amianci ò mia gradita Ielle
-ID:Trm0380b-Alto   	L632	V1:	Viviamo amianci ò mia gradita Ielle
-ID:Trm0380b-Tenore 	L657	V1:	Viviamo amianci ò mia gradita Ielle
-ID:Trm0380b-Basso  	L682	V1:	Viviamo amianci ò mia gradita Ielle
-ID:Trm0380b-Quinto 	L707	V1:	Viviamo amianci ò mia gradita Ielle
+ID:A3              	L10	V1:	Viviamo amianci o mia gradita Hielle
+ID:F1              	L80	V1:	Viviamo, amianci, o mia gradita Jelle,
+ID:P4              	L136	V1:	Viviamo, amianci o' mia gradita Jelle;
+ID:R7              	L179	V1:	Viviamo, amianci, o mia gradita J
+ID:Ts1             	L207	V1:	Viviamo, amianci, ò mia gradita Hielle,
+ID:VE1             	L263	V1:	Viviamo, amianci, ò mia gradita Jelle
+ID:Y               	L291	V1:	Godiamci amianci o mia gradita Hielle
+ID:S8              	L319	V1:	Viviamo, amianci, o mia gradita Hielle,
+ID:S9              	L347	V1:	Viviamo, amianci, o mia gradita Hielle,
+ID:S11             	L375	V1:	Viviamo, amianci, ò mia gradita Hielle,
+ID:S12             	L403	V1:	Viviamo, amianci, ò mia gradita Hielle,
+ID:S13             	L431	V1:	Viviamo, amianci, ò mia gradita Hielle,
+ID:S20             	L459	V1:	Viviamo, amiamci, ò mia gradita Hielle,
+ID:S29             	L515	V1:	Viviamo, amianci, ò mia gradita Hielle,
+ID:Trm0380a-Alto   	L613	V1:	[TACET]
+ID:Trm0380a-Tenore 	L639	V1:	[TACET]
+ID:Trm0380a-Quinto 	L665	V1:	Viviamo amianci o mia gradita Hielle
+ID:Trm0380b-Canto  	L691	V1:	Viviamo amianci ò mia gradita Ielle
+ID:Trm0380b-Alto   	L716	V1:	Viviamo amianci ò mia gradita Ielle
+ID:Trm0380b-Tenore 	L741	V1:	Viviamo amianci ò mia gradita Ielle
+ID:Trm0380b-Basso  	L766	V1:	Viviamo amianci ò mia gradita Ielle
+ID:Trm0380b-Quinto 	L791	V1:	Viviamo amianci ò mia gradita Ielle
 
-ID:F1              	L67	V2:	Hedra sia tù, che’l caro tronco abbraccia,
-ID:P4              	L123	V2:	Edra sia tu ch'il caro tronco abbraccia
-ID:R7              	L166	V2:	Hedera sij, ch'il caro tronco abbraccia,
-ID:S8              	L264	V2:	Hedra sia tu, che’l caro tronco abbraccia,
-ID:S9              	L292	V2:	Hedra sia tu, che’l caro tronco abbraccia,
-ID:S11             	L320	V2:	Hedra sia tù, che’l caro tronco abbraccia,
-ID:S12             	L348	V2:	Hedra sia tù, che’l caro tronco abbraccia,
-ID:S13             	L376	V2:	Hedra sia tù, che’l caro tronco abbraccia,
-ID:S29             	L432	V2:	Hedra sia tu, che’l caro tronco abbraccia,
-ID:Trm0380a-Alto   	L530	V2:	Hedra sia tu che’l caro tronc'abbraccia
-ID:Trm0380a-Tenore 	L556	V2:	Hedra sia tu che’l caro tronc'abbraccia
-ID:Trm0380a-Quinto 	L582	V2:	Hedra sia tu che’l caro tronc'abbraccia
-ID:Trm0380b-Canto  	L608	V2:	Hedra sij tu ch’il caro tronco abbraccia
-ID:Trm0380b-Alto   	L633	V2:	Hedra sij tu ch’il caro tronco abbraccia
-ID:Trm0380b-Tenore 	L658	V2:	Hedra sij tu ch’il caro tronco abbraccia
-ID:Trm0380b-Basso  	L683	V2:	Hedra sij tu ch’il caro tronco abbraccia
-ID:Trm0380b-Quinto 	L708	V2:	Hedra sij tu, ch’il caro tronco abbraccia
+ID:A3              	L11	V2:	Hedra sia tu che’l caro tronco abbraccia
+ID:F1              	L81	V2:	Hedra sia tù, che’l caro tronco abbraccia,
+ID:P4              	L137	V2:	Edra sia tu ch'il caro tronco abbraccia
+ID:R7              	L180	V2:	Hedera sij, ch'il caro tronco abbraccia,
+ID:Ts1             	L208	V2:	Hedra sia tù, che’l caro tronco abbraccia,
+ID:VE1             	L264	V2:	Hedra sii tù che’l caro tronco abbraccia
+ID:Y               	L292	V2:	Hedera sij tu che’l caro tronco abraccia
+ID:S8              	L320	V2:	Hedra sia tu, che’l caro tronco abbraccia,
+ID:S9              	L348	V2:	Hedra sia tu, che’l caro tronco abbraccia,
+ID:S11             	L376	V2:	Hedra sia tù, che’l caro tronco abbraccia,
+ID:S12             	L404	V2:	Hedra sia tù, che’l caro tronco abbraccia,
+ID:S13             	L432	V2:	Hedra sia tù, che’l caro tronco abbraccia,
+ID:S20             	L460	V2:	Hedra sia tu, che il caro tronco abbraccia,
+ID:S29             	L516	V2:	Hedra sia tu, che’l caro tronco abbraccia,
+ID:Trm0380a-Alto   	L614	V2:	Hedra sia tu che’l caro tronc'abbraccia
+ID:Trm0380a-Tenore 	L640	V2:	Hedra sia tu che’l caro tronc'abbraccia
+ID:Trm0380a-Quinto 	L666	V2:	Hedra sia tu che’l caro tronc'abbraccia
+ID:Trm0380b-Canto  	L692	V2:	Hedra sij tu ch’il caro tronco abbraccia
+ID:Trm0380b-Alto   	L717	V2:	Hedra sij tu ch’il caro tronco abbraccia
+ID:Trm0380b-Tenore 	L742	V2:	Hedra sij tu ch’il caro tronco abbraccia
+ID:Trm0380b-Basso  	L767	V2:	Hedra sij tu ch’il caro tronco abbraccia
+ID:Trm0380b-Quinto 	L792	V2:	Hedra sij tu, ch’il caro tronco abbraccia
 
-ID:F1              	L68	V3:	Baciamci, e i baci, e'l numero non taccia,
-ID:P4              	L124	V3:	Baciami, e de tuo' baci il numer taccia
-ID:R7              	L167	V3:	Baciami, et de tuoi basci il numer taccia
-ID:S8              	L265	V3:	Baciamci, e i baci, e le lusinghe taccia
-ID:S9              	L293	V3:	Baciamci, e i baci, e le lusinghe taccia
-ID:S11             	L321	V3:	Baciamo, e i baci, e le lusinghe taccia
-ID:S12             	L349	V3:	Baciamo, e i baci, e le lusinghe taccia
-ID:S13             	L377	V3:	Baciamo, e i baci, e le lusinghe taccia
-ID:S29             	L433	V3:	Baciamci, e i baci, e le lusinghe taccia
-ID:Trm0380a-Alto   	L531	V3:	Baciamci e i baci e le lusinghe taccia
-ID:Trm0380a-Tenore 	L557	V3:	[TACET]
-ID:Trm0380a-Quinto 	L583	V3:	Baciamci e i baci e le lusinghe taccia
-ID:Trm0380b-Canto  	L609	V3:	Baciami E i baci, e le lusinghe taccia,
-ID:Trm0380b-Alto   	L634	V3:	Baciami e i baci, e le lusinghe taccia,
-ID:Trm0380b-Tenore 	L659	V3:	Baciami E i baci, e le lusinghe taccia,
-ID:Trm0380b-Basso  	L684	V3:	Baciami E i baci, e le lusinghe taccia,
-ID:Trm0380b-Quinto 	L709	V3:	Baciami E i baci, e le lusinghe taccia,
+ID:A3              	L12	V3:	Baciamci, e i baci, e le lusinghe taccia
+ID:F1              	L82	V3:	Baciamci, e i baci, e'l numero non taccia,
+ID:P4              	L138	V3:	Baciami, e de tuo' baci il numer taccia
+ID:R7              	L181	V3:	Baciami, et de tuoi basci il numer taccia
+ID:Ts1             	L209	V3:	Baciamo, e i baci, e le lusinghe taccia
+ID:VE1             	L265	V3:	Bagianci, e i baci, e le lusinghe taccia
+ID:Y               	L293	V3:	Baciamci e de tuoi baci il numer taccia
+ID:S8              	L321	V3:	Baciamci, e i baci, e le lusinghe taccia
+ID:S9              	L349	V3:	Baciamci, e i baci, e le lusinghe taccia
+ID:S11             	L377	V3:	Baciamo, e i baci, e le lusinghe taccia
+ID:S12             	L405	V3:	Baciamo, e i baci, e le lusinghe taccia
+ID:S13             	L433	V3:	Baciamo, e i baci, e le lusinghe taccia
+ID:S20             	L461	V3:	Baciamci, e i baci, e le lusinghe taccia
+ID:S29             	L517	V3:	Baciamci, e i baci, e le lusinghe taccia
+ID:Trm0380a-Alto   	L615	V3:	Baciamci e i baci e le lusinghe taccia
+ID:Trm0380a-Tenore 	L641	V3:	[TACET]
+ID:Trm0380a-Quinto 	L667	V3:	Baciamci e i baci e le lusinghe taccia
+ID:Trm0380b-Canto  	L693	V3:	Baciami E i baci, e le lusinghe taccia,
+ID:Trm0380b-Alto   	L718	V3:	Baciami e i baci, e le lusinghe taccia,
+ID:Trm0380b-Tenore 	L743	V3:	Baciami E i baci, e le lusinghe taccia,
+ID:Trm0380b-Basso  	L768	V3:	Baciami E i baci, e le lusinghe taccia,
+ID:Trm0380b-Quinto 	L793	V3:	Baciami E i baci, e le lusinghe taccia,
 
-ID:F1              	L69	V4:	Chi non ardisce annoverar le stelle.
-ID:P4              	L125	V4:	Chi non ardisce annoverar le stelle:
-ID:R7              	L168	V4:	Chi non ardisce annoverar le stelle.
-ID:S8              	L266	V4:	Chi non ardisce annoverar le stelle.
-ID:S9              	L294	V4:	Chi non ardisce annoverar le stelle.
-ID:S11             	L322	V4:	Chi non ardisce annoverar le stelle.
-ID:S12             	L350	V4:	Chi non ardisce annoverar le stelle.
-ID:S13             	L378	V4:	Chi non ardisce annoverar le stelle.
-ID:S29             	L434	V4:	Chi non ardisce annoverar le stelle.
-ID:Trm0380a-Alto   	L532	V4:	Chi non ardisce annoverar le stelle
-ID:Trm0380a-Tenore 	L558	V4:	Chi non ardisce annoverar le stelle
-ID:Trm0380a-Quinto 	L584	V4:	Chi non ardisce annoverar le stelle
-ID:Trm0380b-Canto  	L610	V4:	Chi non ardisce annoverar le stelle.
-ID:Trm0380b-Alto   	L635	V4:	Chi non ardisce annoverar le stelle.
-ID:Trm0380b-Tenore 	L660	V4:	Chi non ardisce annoverar le stelle.
-ID:Trm0380b-Basso  	L685	V4:	Chi non ardisce annoverar le stelle.
-ID:Trm0380b-Quinto 	L710	V4:	Chi non ardisce annoverar le stelle.
+ID:A3              	L13	V4:	Chi non ardisce annoverar le stelle.
+ID:F1              	L83	V4:	Chi non ardisce annoverar le stelle.
+ID:P4              	L139	V4:	Chi non ardisce annoverar le stelle:
+ID:R7              	L182	V4:	Chi non ardisce annoverar le stelle.
+ID:Ts1             	L210	V4:	Chi non ardisce <del>annoverar</del> ^numerar^ le stelle.
+ID:VE1             	L266	V4:	Chi non ardisce annoverar le stelle.
+ID:Y               	L294	V4:	Chi non ardisce annoverar le stelle
+ID:S8              	L322	V4:	Chi non ardisce annoverar le stelle.
+ID:S9              	L350	V4:	Chi non ardisce annoverar le stelle.
+ID:S11             	L378	V4:	Chi non ardisce annoverar le stelle.
+ID:S12             	L406	V4:	Chi non ardisce annoverar le stelle.
+ID:S13             	L434	V4:	Chi non ardisce annoverar le stelle.
+ID:S20             	L462	V4:	Chi non ardisce annoverar le stelle.
+ID:S29             	L518	V4:	Chi non ardisce annoverar le stelle.
+ID:Trm0380a-Alto   	L616	V4:	Chi non ardisce annoverar le stelle
+ID:Trm0380a-Tenore 	L642	V4:	Chi non ardisce annoverar le stelle
+ID:Trm0380a-Quinto 	L668	V4:	Chi non ardisce annoverar le stelle
+ID:Trm0380b-Canto  	L694	V4:	Chi non ardisce annoverar le stelle.
+ID:Trm0380b-Alto   	L719	V4:	Chi non ardisce annoverar le stelle.
+ID:Trm0380b-Tenore 	L744	V4:	Chi non ardisce annoverar le stelle.
+ID:Trm0380b-Basso  	L769	V4:	Chi non ardisce annoverar le stelle.
+ID:Trm0380b-Quinto 	L794	V4:	Chi non ardisce annoverar le stelle.
 
-ID:F1              	L71	V5:	Bacinsi insieme, l’alme nostre anch’elle,
-ID:P4              	L127	V5:	Bacinsi insieme le nostre Alme anch’elle
-ID:R7              	L170	V5:	Bacinsi insieme l’alme nostre anch’elle
-ID:S8              	L268	V5:	Bacinsi insieme l’alme nostre anch’elle,
-ID:S9              	L296	V5:	Bacinsi insieme l’alme nostre anch’elle,
-ID:S11             	L324	V5:	Bacinsi insieme l’alme nostre anch’elle,
-ID:S12             	L352	V5:	Bacinsi insieme l’alme nostre anch’elle,
-ID:S13             	L380	V5:	Bacinsi insieme l’alme nostre anch’elle,
-ID:S29             	L436	V5:	Bacinsi insieme l’alme nostre anch’elle,
-ID:Trm0380a-Alto   	L533	V5:	[TACET]
-ID:Trm0380a-Tenore 	L559	V5:	[TACET]
-ID:Trm0380a-Quinto 	L585	V5:	[TACET]
-ID:Trm0380b-Canto  	L611	V5:	[OMITTED]
-ID:Trm0380b-Alto   	L636	V5:	[OMITTED]
-ID:Trm0380b-Tenore 	L661	V5:	[OMITTED]
-ID:Trm0380b-Basso  	L686	V5:	[OMITTED]
-ID:Trm0380b-Quinto 	L711	V5:	[OMITTED]
+ID:A3              	L15	V5:	Baci<del>a</del>nsi insieme l’alme nostre anc^h’^elle,
+ID:F1              	L85	V5:	Bacinsi insieme, l’alme nostre anch’elle,
+ID:P4              	L141	V5:	Bacinsi insieme le nostre Alme anch’elle
+ID:R7              	L184	V5:	Bacinsi insieme l’alme nostre anch’elle
+ID:Ts1             	L212	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:VE1             	L268	V5:	Baginsi insieme l’alme nostre anch’elle,
+ID:Y               	L296	V5:	Bacinsi <del>illegible</del> insieme le nostr'alme anch'elle
+ID:S8              	L324	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:S9              	L352	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:S11             	L380	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:S12             	L408	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:S13             	L436	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:S20             	L464	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:S29             	L520	V5:	Bacinsi insieme l’alme nostre anch’elle,
+ID:Trm0380a-Alto   	L617	V5:	[TACET]
+ID:Trm0380a-Tenore 	L643	V5:	[TACET]
+ID:Trm0380a-Quinto 	L669	V5:	[TACET]
+ID:Trm0380b-Canto  	L695	V5:	[OMITTED]
+ID:Trm0380b-Alto   	L720	V5:	[OMITTED]
+ID:Trm0380b-Tenore 	L745	V5:	[OMITTED]
+ID:Trm0380b-Basso  	L770	V5:	[OMITTED]
+ID:Trm0380b-Quinto 	L795	V5:	[OMITTED]
 
-ID:F1              	L72	V6:	Fabro Amor sia, che le distempri, e sfaccia,
-ID:P4              	L128	V6:	Fabro Amor sia che le distempre e sfaccia
-ID:R7              	L171	V6:	Sia fabbro amor, che le distempre, e sfaccia
-ID:S8              	L269	V6:	Fabro sia Amor, che le distempri, e sfaccia,
-ID:S9              	L297	V6:	Fabro sia Amor, che le distempri, e sfaccia,
-ID:S11             	L325	V6:	Fabro sia Amor, che le distempri, e sfaccia,
-ID:S12             	L353	V6:	Fabro sia Amor, che le distempri, e sfaccia,
-ID:S13             	L381	V6:	Fabro sia Amor, che le distempri, e sfaccia,
-ID:S29             	L437	V6:	Fabro sia Amor, che le distempri, e sfaccia,
-ID:Trm0380a-Alto   	L534	V6:	Fabro sia Amor che le distempri e sfaccia
-ID:Trm0380a-Tenore 	L560	V6:	Fabro sia Amor che le distempri e sfaccia
-ID:Trm0380a-Quinto 	L586	V6:	Fabro sia Amor che le distempri e sfaccia
-ID:Trm0380b-Canto  	L612	V6:	[OMITTED]
-ID:Trm0380b-Alto   	L637	V6:	[OMITTED]
-ID:Trm0380b-Tenore 	L662	V6:	[OMITTED]
-ID:Trm0380b-Basso  	L687	V6:	[OMITTED]
-ID:Trm0380b-Quinto 	L712	V6:	[OMITTED]
+ID:A3              	L16	V6:	Fabro amor sia che le distempri e sfaccia
+ID:F1              	L86	V6:	Fabro Amor sia, che le distempri, e sfaccia,
+ID:P4              	L142	V6:	Fabro Amor sia che le distempre e sfaccia
+ID:R7              	L185	V6:	Sia fabbro amor, che le distempre, e sfaccia
+ID:Ts1             	L213	V6:	^sia^ Fabro <del>sia</del> Amor, che le distempri, e sfaccia,
+ID:VE1             	L269	V6:	Fabro Amor sia che le distempre, e sfaccia
+ID:Y               	L297	V6:	Sia Fabro amor che le distempri e sfaccia
+ID:S8              	L325	V6:	Fabro sia Amor, che le distempri, e sfaccia,
+ID:S9              	L353	V6:	Fabro sia Amor, che le distempri, e sfaccia,
+ID:S11             	L381	V6:	Fabro sia Amor, che le distempri, e sfaccia,
+ID:S12             	L409	V6:	Fabro fia Amor, che le distempri, e sfaccia,
+ID:S13             	L437	V6:	Fabro sia Amor, che le distempri, e sfaccia,
+ID:S20             	L465	V6:	Fabro sia Amor, che le distempri, e sfaccia,
+ID:S29             	L521	V6:	Fabro sia Amor, che le distempri, e sfaccia,
+ID:Trm0380a-Alto   	L618	V6:	Fabro sia Amor che le distempri e sfaccia
+ID:Trm0380a-Tenore 	L644	V6:	Fabro sia Amor che le distempri e sfaccia
+ID:Trm0380a-Quinto 	L670	V6:	Fabro sia Amor che le distempri e sfaccia
+ID:Trm0380b-Canto  	L696	V6:	[OMITTED]
+ID:Trm0380b-Alto   	L721	V6:	[OMITTED]
+ID:Trm0380b-Tenore 	L746	V6:	[OMITTED]
+ID:Trm0380b-Basso  	L771	V6:	[OMITTED]
+ID:Trm0380b-Quinto 	L796	V6:	[OMITTED]
 
-ID:F1              	L73	V7:	e d'ambe in un confuse una rifaccia,
-ID:P4              	L129	V7:	E di lor due confuse una ne faccia,]
-ID:R7              	L172	V7:	E di lor due confuse una ne faccia,
-ID:S8              	L270	V7:	Et che di due confuse una rifaccia,
-ID:S9              	L298	V7:	Et che di due confuse una rifaccia,
-ID:S11             	L326	V7:	Et che di due confuse una rifaccia,
-ID:S12             	L354	V7:	Et che di due confuse una rifaccia,
-ID:S13             	L382	V7:	Et che di due confuse una rifaccia,
-ID:S29             	L438	V7:	E che di due confuse una rifaccia,
-ID:Trm0380a-Alto   	L535	V7:	E che di due confuse una rifaccia
-ID:Trm0380a-Tenore 	L561	V7:	E che di due confuse una rifaccia
-ID:Trm0380a-Quinto 	L587	V7:	E che di due confuse una rifaccia
-ID:Trm0380b-Canto  	L613	V7:	[OMITTED]
-ID:Trm0380b-Alto   	L638	V7:	[OMITTED]
-ID:Trm0380b-Tenore 	L663	V7:	[OMITTED]
-ID:Trm0380b-Basso  	L688	V7:	[OMITTED]
-ID:Trm0380b-Quinto 	L713	V7:	[OMITTED]
+ID:A3              	L17	V7:	E di lor due in un confuse una rifaccia
+ID:F1              	L87	V7:	e d'ambe in un confuse una rifaccia,
+ID:P4              	L143	V7:	E di lor due confuse una ne faccia,
+ID:R7              	L186	V7:	E di lor due confuse una ne faccia,
+ID:Ts1             	L214	V7:	<del>Et che di due</del> ^e d'ambe due^ confuse una rifaccia,
+ID:VE1             	L270	V7:	E di lor due confuse una ne faccia
+ID:Y               	L298	V7:	E di due confuse una rifaccia
+ID:S8              	L326	V7:	Et che di due confuse una rifaccia,
+ID:S9              	L354	V7:	Et che di due confuse una rifaccia,
+ID:S11             	L382	V7:	Et che di due confuse una rifaccia,
+ID:S12             	L410	V7:	Et che di due confuse una rifaccia,
+ID:S13             	L438	V7:	Et che di due confuse una rifaccia,
+ID:S20             	L466	V7:	Et che di due confuse una rifaccia,
+ID:S29             	L522	V7:	E che di due confuse una rifaccia,
+ID:Trm0380a-Alto   	L619	V7:	E che di due confuse una rifaccia
+ID:Trm0380a-Tenore 	L645	V7:	E che di due confuse una rifaccia
+ID:Trm0380a-Quinto 	L671	V7:	E che di due confuse una rifaccia
+ID:Trm0380b-Canto  	L697	V7:	[OMITTED]
+ID:Trm0380b-Alto   	L722	V7:	[OMITTED]
+ID:Trm0380b-Tenore 	L747	V7:	[OMITTED]
+ID:Trm0380b-Basso  	L772	V7:	[OMITTED]
+ID:Trm0380b-Quinto 	L797	V7:	[OMITTED]
 
-ID:F1              	L74	V8:	Che per un spirto sol spiri, e favelle.
-ID:P4              	L130	V8:	Che per un' spirto sol spiri, e favelle.
-ID:R7              	L173	V8:	Che per un spirto sol spiri, e favelle.
-ID:S8              	L271	V8:	Che per un spirto Sol spiri, e favelle.
-ID:S9              	L299	V8:	Che per un spirto Sol spiri, e favelle.
-ID:S11             	L327	V8:	Che per un spirto Sol spiri, e favelle.
-ID:S12             	L355	V8:	Che per un spirto Sol spiri, e favelle.
-ID:S13             	L383	V8:	Che per un spirto Sol spiri, e favelle.
-ID:S29             	L439	V8:	Che per un spirto sol spiri, e favelle.
-ID:Trm0380a-Alto   	L536	V8:	Che per un spirto sol spiri e favelle.
-ID:Trm0380a-Tenore 	L562	V8:	Che per un spirto sol spiri e favelle.
-ID:Trm0380a-Quinto 	L588	V8:	Che per un spirto sol spiri e favelle.
-ID:Trm0380b-Canto  	L614	V8:	[OMITTED]
-ID:Trm0380b-Alto   	L639	V8:	[OMITTED]
-ID:Trm0380b-Tenore 	L664	V8:	[OMITTED]
-ID:Trm0380b-Basso  	L689	V8:	[OMITTED]
-ID:Trm0380b-Quinto 	L714	V8:	[OMITTED]
+ID:A3              	L18	V8:	Che per un spirto sol spiri e favelle
+ID:F1              	L88	V8:	Che per un spirto sol spiri, e favelle.
+ID:P4              	L144	V8:	Che per un' spirto sol spiri, e favelle.
+ID:R7              	L187	V8:	Che per un spirto sol spiri, e favelle.
+ID:Ts1             	L215	V8:	Che per un spirto Sol spiri, e favelle.
+ID:VE1             	L271	V8:	Che per un spirto sol spiri, e favelle.
+ID:Y               	L299	V8:	Che per un spirto sol spiri e favelle
+ID:S8              	L327	V8:	Che per un spirto Sol spiri, e favelle.
+ID:S9              	L355	V8:	Che per un spirto Sol spiri, e favelle.
+ID:S11             	L383	V8:	Che per un spirto Sol spiri, e favelle.
+ID:S12             	L411	V8:	Che per un spirto Sol spiri, e favelle.
+ID:S13             	L439	V8:	Che per un spirto Sol spiri, e favelle.
+ID:S20             	L467	V8:	Che per un spirto sol spiri, e favelle.
+ID:S29             	L523	V8:	Che per un spirto sol spiri, e favelle.
+ID:Trm0380a-Alto   	L620	V8:	Che per un spirto sol spiri e favelle.
+ID:Trm0380a-Tenore 	L646	V8:	Che per un spirto sol spiri e favelle.
+ID:Trm0380a-Quinto 	L672	V8:	Che per un spirto sol spiri e favelle.
+ID:Trm0380b-Canto  	L698	V8:	[OMITTED]
+ID:Trm0380b-Alto   	L723	V8:	[OMITTED]
+ID:Trm0380b-Tenore 	L748	V8:	[OMITTED]
+ID:Trm0380b-Basso  	L773	V8:	[OMITTED]
+ID:Trm0380b-Quinto 	L798	V8:	[OMITTED]
 
-ID:F1              	L76	V9:	Cara Salmace mia, come s’inesta,
-ID:P4              	L132	V9:	Cara Salmace mia come s’innesta
-ID:R7              	L175	V9:	C mia gentile, come s’inesta
-ID:S8              	L273	V9:	Cara Salmace mia, come s’innesta
-ID:S9              	L301	V9:	Cara Salmace mia, come s’innesta
-ID:S11             	L329	V9:	Cara Salmace mia, come s’innesta
-ID:S12             	L357	V9:	Cara Salmace mia, come s’innesta
-ID:S13             	L385	V9:	Cara Salmace mia, come s’innesta
-ID:S29             	L441	V9:	Cara Salmace mia, come s’innesta
-ID:Trm0380a-Alto   	L538	V9:	[TACET] come s’innesta
-ID:Trm0380a-Tenore 	L564	V9:	Cara Salmace mia come s'innesta
-ID:Trm0380a-Quinto 	L590	V9:	Cara Salmace mia come s’innesta
-ID:Trm0380b-Canto  	L615	V9:	[OMITTED]
-ID:Trm0380b-Alto   	L640	V9:	[OMITTED]
-ID:Trm0380b-Tenore 	L665	V9:	[OMITTED]
-ID:Trm0380b-Basso  	L690	V9:	[OMITTED]
-ID:Trm0380b-Quinto 	L715	V9:	[OMITTED]
+ID:A3              	L20	V9:	Cara Salmace mia, come s’inesta
+ID:F1              	L90	V9:	Cara Salmace mia, come s’inesta,
+ID:P4              	L146	V9:	Cara Salmace mia come s’innesta
+ID:R7              	L189	V9:	C mia gentile, come s’inesta
+ID:Ts1             	L217	V9:	Cara Salmace mia, come s’innesta
+ID:VE1             	L273	V9:	Cara Salmace mia come s’innesta
+ID:Y               	L301	V9:	Cara Salmace mia come s’inesta
+ID:S8              	L329	V9:	Cara Salmace mia, come s’innesta
+ID:S9              	L357	V9:	Cara Salmace mia, come s’innesta
+ID:S11             	L385	V9:	Cara Salmace mia, come s’innesta
+ID:S12             	L413	V9:	Cara Salmace mia, come s’innesta
+ID:S13             	L441	V9:	Cara Salmace mia, come s’innesta
+ID:S20             	L469	V9:	Cara Salmace mia, come s’innesta
+ID:S29             	L525	V9:	Cara Salmace mia, come s’innesta
+ID:Trm0380a-Alto   	L622	V9:	[TACET] come s’innesta
+ID:Trm0380a-Tenore 	L648	V9:	Cara Salmace mia come s'innesta
+ID:Trm0380a-Quinto 	L674	V9:	Cara Salmace mia come s’innesta
+ID:Trm0380b-Canto  	L699	V9:	[OMITTED]
+ID:Trm0380b-Alto   	L724	V9:	[OMITTED]
+ID:Trm0380b-Tenore 	L749	V9:	[OMITTED]
+ID:Trm0380b-Basso  	L774	V9:	[OMITTED]
+ID:Trm0380b-Quinto 	L799	V9:	[OMITTED]
 
-ID:F1              	L77	V10:	L’una pianta nel’altra, e sovra l’orno,
-ID:P4              	L133	V10:	L’una pianta nel’altra; e sovra l’orno
-ID:R7              	L176	V10:	L’una pianta nell’altra, e sovra l’orno
-ID:S8              	L274	V10:	L’una pianta nel’altra, e sovra l’orno
-ID:S9              	L302	V10:	L’una pianta nel’altra, e sovra l’orno
-ID:S11             	L330	V10:	L’una pianta ne l’altra, e sovra l’Orno
-ID:S12             	L358	V10:	L’una pianta ne l’altra, e sovra l’Orno
-ID:S13             	L386	V10:	L’una pianta ne l’altra, e sovra l’Orno
-ID:S29             	L442	V10:	L’una pianta ne l’altra, e sovra l’orno
-ID:Trm0380a-Alto   	L539	V10:	L’una pianta ne l’altra e sovra l’orno
-ID:Trm0380a-Tenore 	L565	V10:	L’una pianta ne l’altra e sovra l’orno
-ID:Trm0380a-Quinto 	L591	V10:	[TACET]
-ID:Trm0380b-Canto  	L616	V10:	[OMITTED]
-ID:Trm0380b-Alto   	L641	V10:	[OMITTED]
-ID:Trm0380b-Tenore 	L666	V10:	[OMITTED]
-ID:Trm0380b-Basso  	L691	V10:	[OMITTED]
-ID:Trm0380b-Quinto 	L716	V10:	[OMITTED]
+ID:A3              	L21	V10:	L’una pianta nel’altra, e sovra l’orno
+ID:F1              	L91	V10:	L’una pianta nel’altra, e sovra l’orno,
+ID:P4              	L147	V10:	L’una pianta nel’altra; e sovra l’orno
+ID:R7              	L190	V10:	L’una pianta nell’altra, e sovra l’orno
+ID:Ts1             	L218	V10:	L’una pianta ne l’altra, e sovra l’Orno
+ID:VE1             	L274	V10:	L’una pianta nel’altra, e sopra l’orno
+ID:Y               	L302	V10:	L’una pianta con l’altra e sovra l’orno
+ID:S8              	L330	V10:	L’una pianta nel’altra, e sovra l’orno
+ID:S9              	L358	V10:	L’una pianta nel’altra, e sovra l’orno
+ID:S11             	L386	V10:	L’una pianta ne l’altra, e sovra l’Orno
+ID:S12             	L414	V10:	L’una pianta ne l’altra, e sovra l’Orno
+ID:S13             	L442	V10:	L’una pianta ne l’altra, e sovra l’Orno
+ID:S20             	L470	V10:	L’una pianta ne l’altra, e sovra l’orno
+ID:S29             	L526	V10:	L’una pianta ne l’altra, e sovra l’orno
+ID:Trm0380a-Alto   	L623	V10:	L’una pianta ne l’altra e sovra l’orno
+ID:Trm0380a-Tenore 	L649	V10:	L’una pianta ne l’altra e sovra l’orno
+ID:Trm0380a-Quinto 	L675	V10:	[TACET]
+ID:Trm0380b-Canto  	L700	V10:	[OMITTED]
+ID:Trm0380b-Alto   	L725	V10:	[OMITTED]
+ID:Trm0380b-Tenore 	L750	V10:	[OMITTED]
+ID:Trm0380b-Basso  	L775	V10:	[OMITTED]
+ID:Trm0380b-Quinto 	L800	V10:	[OMITTED]
 
-ID:F1              	L78	V11:	Vedeggia il pero, e l’un l’altro è vago,
-ID:P4              	L134	V11:	Vedeggia il pero, e l’uno, e l’altro è vago
-ID:R7              	L177	V11:	Vedeggia 'l pero, e l’un per l’altro e vago
-ID:S8              	L275	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
-ID:S9              	L303	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
-ID:S11             	L331	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
-ID:S12             	L359	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
-ID:S13             	L387	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
-ID:S29             	L443	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
-ID:Trm0380a-Alto   	L540	V11:	Vedeggia il pero e l’un l’altro è vago
-ID:Trm0380a-Tenore 	L566	V11:	Vedeggia il pero e l’un l’altro è vago
-ID:Trm0380a-Quinto 	L592	V11:	Vedeggia il pero e l’un l’altro è vago
-ID:Trm0380b-Canto  	L617	V11:	[OMITTED]
-ID:Trm0380b-Alto   	L642	V11:	[OMITTED]
-ID:Trm0380b-Tenore 	L667	V11:	[OMITTED]
-ID:Trm0380b-Basso  	L692	V11:	[OMITTED]
-ID:Trm0380b-Quinto 	L717	V11:	[OMITTED]
+ID:A3              	L22	V11:	Vedeggia il Pero, e l’un per l’altro e vago
+ID:F1              	L92	V11:	Vedeggia il pero, e l’un l’altro è vago,
+ID:P4              	L148	V11:	Vedeggia il pero, e l’uno, e l’altro è vago
+ID:R7              	L191	V11:	Vedeggia 'l pero, e l’un per l’altro e vago
+ID:Ts1             	L219	V11:	Vedeggia il Pero, <del>onde</del> l’un ^per^ l’altro è vago,
+ID:VE1             	L275	V11:	Vedeggia il Pero, e l’un per l’altro è vago.
+ID:Y               	L303	V11:	Vedeggia il pero e l’un per l’altro è vago
+ID:S8              	L331	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
+ID:S9              	L359	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
+ID:S11             	L387	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
+ID:S12             	L415	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
+ID:S13             	L443	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
+ID:S20             	L471	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
+ID:S29             	L527	V11:	Vedeggia il Pero, onde l’un l’altro è vago,
+ID:Trm0380a-Alto   	L624	V11:	Vedeggia il pero e l’un l’altro è vago
+ID:Trm0380a-Tenore 	L650	V11:	Vedeggia il pero e l’un l’altro è vago
+ID:Trm0380a-Quinto 	L676	V11:	Vedeggia il pero e l’un l’altro è vago
+ID:Trm0380b-Canto  	L701	V11:	[OMITTED]
+ID:Trm0380b-Alto   	L726	V11:	[OMITTED]
+ID:Trm0380b-Tenore 	L751	V11:	[OMITTED]
+ID:Trm0380b-Basso  	L776	V11:	[OMITTED]
+ID:Trm0380b-Quinto 	L801	V11:	[OMITTED]
 
-ID:F1              	L80	V12:	Tale io n’andrò, de’ tuoi colori adorno,
-ID:P4              	L136	V12:	Tal’io n’andrò de tuò colori adorno
-ID:R7              	L179	V12:	Tal’io n’andro de tuoi colori adorno,
-ID:S8              	L277	V12:	Tal’io n’andrò de’ tuoi colori adorno,
-ID:S9              	L305	V12:	Tal’io n’andrò de’ tuoi colori adorno,
-ID:S11             	L333	V12:	Tal’io n’andrò de’ tuoi colori adorno,
-ID:S12             	L361	V12:	Tal’io n’andrò de’ tuoi colori adorno,
-ID:S13             	L389	V12:	Tal’io n’andrò de’ tuoi colori adorno,
-ID:S29             	L445	V12:	Tal’io n’andrò de’ tuoi colori adorno,
-ID:Trm0380a-Alto   	L541	V12:	Tal io n’andrò de tuoi color adorno
-ID:Trm0380a-Tenore 	L567	V12:	Tal io n’andrò de tuoi color adorno
-ID:Trm0380a-Quinto 	L593	V12:	Tal io n’andrò de tuoi color adorno
-ID:Trm0380b-Canto  	L618	V12:	[OMITTED]
-ID:Trm0380b-Alto   	L643	V12:	[OMITTED]
-ID:Trm0380b-Tenore 	L668	V12:	[OMITTED]
-ID:Trm0380b-Basso  	L693	V12:	[OMITTED]
-ID:Trm0380b-Quinto 	L718	V12:	[OMITTED]
+ID:A3              	L24	V12:	Tal<del>e</del>' io n’andrò de tuoi colori adorno
+ID:F1              	L94	V12:	Tale io n’andrò, de’ tuoi colori adorno,
+ID:P4              	L150	V12:	Tal’io n’andrò de tuò colori adorno
+ID:R7              	L193	V12:	Tal’io n’andro de tuoi colori adorno,
+ID:Ts1             	L221	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:VE1             	L277	V12:	Cosi n’andrò de’ tuoi colori adorno
+ID:Y               	L305	V12:	Tal io n’andrò de tuoi pensieri adorno
+ID:S8              	L333	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:S9              	L361	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:S11             	L389	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:S12             	L417	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:S13             	L445	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:S20             	L473	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:S29             	L529	V12:	Tal’io n’andrò de’ tuoi colori adorno,
+ID:Trm0380a-Alto   	L625	V12:	Tal io n’andrò de tuoi color adorno
+ID:Trm0380a-Tenore 	L651	V12:	Tal io n’andrò de tuoi color adorno
+ID:Trm0380a-Quinto 	L677	V12:	Tal io n’andrò de tuoi color adorno
+ID:Trm0380b-Canto  	L702	V12:	[OMITTED]
+ID:Trm0380b-Alto   	L727	V12:	[OMITTED]
+ID:Trm0380b-Tenore 	L752	V12:	[OMITTED]
+ID:Trm0380b-Basso  	L777	V12:	[OMITTED]
+ID:Trm0380b-Quinto 	L802	V12:	[OMITTED]
 
-ID:F1              	L81	V13:	Tale il tuo cor de’ miei pensier si vesta,
-ID:P4              	L137	V13:	Tal il tuo cor de miè pensier si vesta
-ID:R7              	L180	V13:	Tal' il tuo cor de miei pensier si vesta
-ID:S8              	L278	V13:	Tal il tuo cor de’ miei pensier si vesta,
-ID:S9              	L306	V13:	Tal il tuo cor de’ miei pensier si vesta,
-ID:S11             	L334	V13:	E il tuo cor de’ miei pensier si vesta,
-ID:S12             	L362	V13:	E il tuo cor de’ miei pensier si vesta,
-ID:S13             	L390	V13:	E il tuo cor de’ miei pensier si vesta,
-ID:S29             	L446	V13:	Tal il tuo cor de’ miei pensier si vesta,
-ID:Trm0380a-Alto   	L542	V13:	Tal il tuo cor de miei pensier si vesta
-ID:Trm0380a-Tenore 	L568	V13:	Tal il tuo cor de miei pensier si vesta
-ID:Trm0380a-Quinto 	L594	V13:	Tal il tuo cor de miei pensier si vesta
-ID:Trm0380b-Canto  	L619	V13:	[OMITTED]
-ID:Trm0380b-Alto   	L644	V13:	[OMITTED]
-ID:Trm0380b-Tenore 	L669	V13:	[OMITTED]
-ID:Trm0380b-Basso  	L694	V13:	[OMITTED]
-ID:Trm0380b-Quinto 	L719	V13:	[OMITTED]
+ID:A3              	L25	V13:	Tale il tuo cor de miei pensier si vesta
+ID:F1              	L95	V13:	Tale il tuo cor de’ miei pensier si vesta,
+ID:P4              	L151	V13:	Tal il tuo cor de miè pensier si vesta
+ID:R7              	L194	V13:	Tal' il tuo cor de miei pensier si vesta
+ID:Ts1             	L222	V13:	E il tuo cor de’ miei pensier si vesta,
+ID:VE1             	L278	V13:	Cosi il tuo cuor di miei pensier si vesta
+ID:Y               	L306	V13:	Tal il tuo cor de miei <del>illegible</del> desir si vesta
+ID:S8              	L334	V13:	Tal il tuo cor de’ miei pensier si vesta,
+ID:S9              	L362	V13:	Tal il tuo cor de’ miei pensier si vesta,
+ID:S11             	L390	V13:	E il tuo cor de’ miei pensier si vesta,
+ID:S12             	L418	V13:	E il tuo cor de’ miei pensier si vesta,
+ID:S13             	L446	V13:	E il tuo cor de’ miei pensier si vesta,
+ID:S20             	L474	V13:	E il tuo cor de’ miei pensier si vesta,
+ID:S29             	L530	V13:	Tal il tuo cor de’ miei pensier si vesta,
+ID:Trm0380a-Alto   	L626	V13:	Tal il tuo cor de miei pensier si vesta
+ID:Trm0380a-Tenore 	L652	V13:	Tal il tuo cor de miei pensier si vesta
+ID:Trm0380a-Quinto 	L678	V13:	Tal il tuo cor de miei pensier si vesta
+ID:Trm0380b-Canto  	L703	V13:	[OMITTED]
+ID:Trm0380b-Alto   	L728	V13:	[OMITTED]
+ID:Trm0380b-Tenore 	L753	V13:	[OMITTED]
+ID:Trm0380b-Basso  	L778	V13:	[OMITTED]
+ID:Trm0380b-Quinto 	L803	V13:	[OMITTED]
 
-ID:F1              	L82	V14:	e comun sia fra noi la penna, e l’ago.
-ID:P4              	L138	V14:	E comun sia fra noi la penna, e l’ago.
-ID:R7              	L181	V14:	E comun sia fra noi la penna, e l’ago.
-ID:S8              	L279	V14:	E commun sia fra noi la penna, e l’ago.
-ID:S9              	L307	V14:	E commun sia fra noi la penna, e l’ago.
-ID:S11             	L335	V14:	E commun sia fra noi la penna, e l’ago.
-ID:S12             	L363	V14:	E commun sia fra noi la penna, e l’ago.
-ID:S13             	L391	V14:	E commun sia fra noi la penna, e l’ago.
-ID:S29             	L447	V14:	E commun sia fra noi la penna, e l’ago.
-ID:Trm0380a-Alto   	L543	V14:	E comun sia fra noi la penna e l’ago.
-ID:Trm0380a-Tenore 	L569	V14:	E comun sia fra noi la penna e l’ago.
-ID:Trm0380a-Quinto 	L595	V14:	E comun sia fra noi la penna e l’ago.
-ID:Trm0380b-Canto  	L620	V14:	[OMITTED]
-ID:Trm0380b-Alto   	L645	V14:	[OMITTED]
-ID:Trm0380b-Tenore 	L670	V14:	[OMITTED]
-ID:Trm0380b-Basso  	L695	V14:	[OMITTED]
-ID:Trm0380b-Quinto 	L720	V14:	[OMITTED]
+ID:A3              	L26	V14:	E commun sia fra noi la penna, e l’ago.
+ID:F1              	L96	V14:	e comun sia fra noi la penna, e l’ago.
+ID:P4              	L152	V14:	E comun sia fra noi la penna, e l’ago.
+ID:R7              	L195	V14:	E comun sia fra noi la penna, e l’ago.
+ID:Ts1             	L223	V14:	E commun sia fra noi la penna, e l’ago.
+ID:VE1             	L279	V14:	E commun sia trà noi la penna e l’ago.
+ID:Y               	L307	V14:	Et commun sia fra noi la penna et l’ago.
+ID:S8              	L335	V14:	E commun sia fra noi la penna, e l’ago.
+ID:S9              	L363	V14:	E commun sia fra noi la penna, e l’ago.
+ID:S11             	L391	V14:	E commun sia fra noi la penna, e l’ago.
+ID:S12             	L419	V14:	E commun sia fra noi la penna, e l’ago.
+ID:S13             	L447	V14:	E commun sia fra noi la penna, e l’ago.
+ID:S20             	L475	V14:	E commun sia fra noi la penna, e l’ago.
+ID:S29             	L531	V14:	E commun sia fra noi la penna, e l’ago.
+ID:Trm0380a-Alto   	L627	V14:	E comun sia fra noi la penna e l’ago.
+ID:Trm0380a-Tenore 	L653	V14:	E comun sia fra noi la penna e l’ago.
+ID:Trm0380a-Quinto 	L679	V14:	E comun sia fra noi la penna e l’ago.
+ID:Trm0380b-Canto  	L704	V14:	[OMITTED]
+ID:Trm0380b-Alto   	L729	V14:	[OMITTED]
+ID:Trm0380b-Tenore 	L754	V14:	[OMITTED]
+ID:Trm0380b-Basso  	L779	V14:	[OMITTED]
+ID:Trm0380b-Quinto 	L804	V14:	[OMITTED]
 

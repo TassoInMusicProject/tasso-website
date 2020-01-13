@@ -1445,7 +1445,7 @@
 @@BEGIN: SOURCE
 @RISM:	C 2212
 @AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A V. VOCI. / D'Antonio Cifra Romano, / Nouamente composti e dati in luce. / IN ROMA, / Appresso Luigi Zannetti. MDCV. / <i>Con Licenza de' Superiori</i>
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Luigi Zanetti
 @YEAR:	1605
@@ -1453,13 +1453,13 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Rome
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Ascanio Colonna
+@SRCDEDICATEESHORT:	Ascanio Colonna
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@EXTNAMES:	
-@SRCLOCSIGLA:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Nc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -1538,7 +1538,7 @@
 @PUBLISHER:	Giovanni Battista Robletti?
 @YEAR:	1619
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Rome?
 @PUBNORMLOC:	Rome?
 @SRCDEDICATEE:	Antonio de' Medicij
@@ -1555,44 +1555,44 @@
 @@BEGIN: SOURCE
 @RISM:	C 2219
 @AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	LI DIVERSI SCHERZI / DI ANTONIO CIFRA / ROMANO. / MAESTRO DI CAPPELLA / DELLA SANTA CASA / DI LORETO / A Vuna, a Due, a Tre, & Quattro Voci. / LIBRO QVARTO / Opera vigesima. / IN ROMA, / Appresso Gio. Battista Robletti. 1615. / CON LICENZA DE' SVPERIORI.
 @TITLESHORT:	Li diversi scherzi a una, a due, a tre et quattro voci. Libro quarto. Opera vigesima
 @PUBLISHER:	Giovanni Battista Robletti
 @YEAR:	1615
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Monsignor L'Abbate Farnese
+@SRCDEDICATEESHORT:	Monsignor L'Abbate Farnese
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCLOCSIGLA:	I-Rsc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	C 2221
 @AUTHOR:	Cifra, Antonio
-@TITLEPAGE:	
+@TITLEPAGE:	LI DIVERSI SCHERZI / DI ANTONIO CIFRA / ROMANO. / MAESTRO DI CAPPELLA / DELLA SANTA CASA / DI LORETO. / A Vna, a Due, a Tre, & a Quattro Voci. / LIBRO QVINTO. / Opera Vigesima terza. / IN ROMA, / Appresso Gio. Battista Robletti. 1617. / CON LICENZA DE' SVPERIORI.
 @TITLESHORT:	Li diversi scherzi a due, a tre et quattro voci. Libro quinto. Opera vigesima terza
 @PUBLISHER:	Giovanni Battista Robletti
 @YEAR:	1617
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Roma
 @PUBNORMLOC:	Rome
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Donna Cornelia Caetana de Cesarini
+@SRCDEDICATEESHORT:	Cornelia Caetana de' Cesarini
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCLOCSIGLA:	I-Rsc
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 
@@ -1973,7 +1973,7 @@
 @@BEGIN: SOURCE
 @RISM:	I 33
 @AUTHOR:	D'India, Sigismondo
-@TITLEPAGE:	
+@TITLEPAGE:	LE MVSICHE / DEL CAVALIER / SIGISMONDO D'INDIA / A VNA ET DVE VOCI / <i>DA CANTARSI NEL' CHITARRONE CLAVICEMBALO,</i> / ARPA DOPPIA ET ALTRI STROMENTI / DA CORPO. / <i>Con alcune Arie, Con l'Alfabetto Per la Chitara alla Spagnola.</i> / NOVAMENTE COMPOSTA ET DATA IN LVCE / CON PRIVILEGIO. / LIBRO QVARTO. / IN VENETIA. / APPRESSO ALESSANDRO VINCENTI / MDCXXI.
 @TITLESHORT:	Le musiche del Cavalier Sigismondo D'India a una et due voci. Libro quarto
 @PUBLISHER:	Alessandro Vincenti
 @YEAR:	1621
@@ -1981,14 +1981,14 @@
 @PUBFORMAT:	score
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Conte Federico Rossi di San Secondo
+@SRCDEDICATEESHORT:	Conte Federico Rossi di San Secondo
 @SRCDEDICATEEURL:	
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@SRCLOCSIGLA:	GB-Och
+@REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
 @@END: SOURCE
 

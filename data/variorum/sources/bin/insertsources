@@ -1,0 +1,406 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Mon Jan 13 14:29:42 PST 2020
+# Last Modified: Mon Jan 13 14:29:45 PST 2020
+# Filename:      insertsources
+# Syntax:        perl 5
+#
+# Description:   Takes poem data from sources/*.txt files and inserts them
+#                info source/../*.aton files.
+#
+
+
+use strict;
+use Getopt::Long;
+
+my $raw = 0;
+my $overwrite = 0;
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'r|raw' => \$raw,
+   'w|write' => \$overwrite
+);
+
+my @contents = <>;
+chomp @contents;
+
+my @list;
+my @header;
+my @current;
+
+foreach my $line (@contents) {
+	next if $line =~ /^\s*$/;
+	if ($line =~ /^\@\@[^\@]+\s*:\s*(.*)\s*/) {
+		processHeaderRecord($line);
+		next;
+	}
+	if ($line =~ /^\@CATALOGNUM\s*:\s*(.*)\s*$/) {
+		storeCurrent();
+		push(@current, $line);
+		storeHeaderRecords();
+	} else {
+		push(@current, $line);
+	}
+}
+if (@current > 3) {
+	storeCurrent();
+}
+
+
+if ($raw) {
+	for (my $i=0; $i<@list; $i++) {
+		print "======================================================\n\n";
+		print $list[$i];
+		print "\n";
+	}
+	exit(0);
+}
+
+
+foreach my $item (@list) {
+	processListItem($item);
+}
+
+
+exit(0);
+
+###########################################################################
+
+
+##############################
+##
+## insertPoem --
+##
+## @@BEGIN: VARIORUM
+## @CATALOGNUM:	Tsg01002
+## @ID:		G-Au
+## @TYPE:		manuscript
+## @SMSIGLUM:	G-Au
+## @PAGE:		
+## @PARATEXT:	
+## @VERSE:	
+## @@END: VARIORUM
+##
+
+sub insertPoem {
+	my ($filename, $item, %parameters) = @_;
+	open (FILE, "../$filename") or die "Cannot read $filename\n";
+	my @contents = <FILE>;
+	close FILE;
+	chomp @contents;
+	my @raw;
+	my @manuscripts;
+	my @prints;
+	my @music;
+
+	my $id = $parameters{"ID"};
+	my $catalognum = $parameters{"CATALOGNUM"};
+	
+	my $type;
+	my $entry;
+	my $found = 0;
+	foreach my $line (@contents) {
+		if ($line =~ /^\@TYPE\s*:\s*(.*)\s*$/) {
+			$type = lc($1);
+			
+		}
+		$entry .= "$line\n";
+
+		if ($line =~ /^\@\@END\s*:\s*VARIORUM\s*$/) {
+			my %eparams = makeParameters($entry);
+			my $eid = $eparams{"ID"};
+			my $ecatalognum = $eparams{"CATALOGNUM"};
+
+			if (($eid eq $id) && ($ecatalognum eq $catalognum)) {
+				if ($eparams{"VERSE"} !~ /^\s*$/) {
+					#print STDERR "===================================\n";
+					print STDERR "WARNING: poem contents already exists $eid $ecatalognum (not replacing)\n";
+					#print STDERR "VERSE CONTENT IN FILE:\n$eparams{'VERSE'}\n\n";
+					#print STDERR "===================================\n";
+					$entry = "";
+					$type = "";
+					last;
+				}
+				#print "==== KEYORDER: ", join("\t", @keyorder), "\n";
+				#print "$entry\n";
+				#print "REPLACE WITH ===========\n";
+				#print "$item\n\n";
+				$entry = replaceEntry($entry, $item, $type);
+				if (!$overwrite) {
+					print STDERR "=== REPLACEMENT ======================= \n";
+					print STDERR $entry;
+					print STDERR "=======================================\n\n";
+				}
+				$found = 1;
+			}
+
+			if ($type eq "print") {
+				push(@prints, $entry);
+			} elsif ($type eq "manuscript") {
+				push(@manuscripts, $entry);
+			} elsif ($type eq "music") {
+				push(@music, $entry);
+			} else {
+				die "Invalid type ($type) in $entry from $filename\n";
+			}
+			$entry = "";
+			$type = "";
+		}
+	}
+
+	if (!$found) {
+		print STDERR "WARNING: Did not find $id $catalognum in $filename\n";
+		return;
+	}
+
+	if (!$overwrite) {
+		return;
+	}
+
+	open (FILE, ">../$filename") or die "Cannot write $filename\n";
+	for (my $i=0; $i<@manuscripts; $i++) {
+		print FILE "$manuscripts[$i]";
+	}
+	for (my $i=0; $i<@prints; $i++) {
+		print FILE "$prints[$i]";
+	}
+	for (my $i=0; $i<@music; $i++) {
+		print FILE "$music[$i]";
+	}
+	print FILE "\n\n";
+	close FILE;
+
+}
+
+
+
+##############################
+##
+## replaceEntry --
+##
+
+sub replaceEntry {
+	my ($entry, $item, $type) = @_;
+	my @keyorder = getKeyOrder($entry, $item, $type);
+	my %eparams = makeParameters($entry);
+	my %iparams = makeParameters($item);
+	my $output = "\@\@BEGIN:	VARIORUM\n";
+	my $etype = lc($eparams{"TYPE"});
+	my $itype = lc($iparams{"TYPE"});
+	if ($etype ne $itype) {
+		die "Error: TYPES DO NOT MATCH: $etype compared to $itype for $item";
+	}
+	if ($etype =~ /^\s*$/) {
+		die "Error: type is undefined for $entry\n";
+	}
+
+	# manuscript has only SMSIGLUM not SPRINT
+	# print has only SPRINT not SMSIGLUM
+	if ($etype eq "manuscript") {
+		if (($eparams{"SPRINT"} !~ /^\s*$/) && ($eparams{"SMSIGLUM"} =~ /^\s*$/)) {
+			$eparams{"SMSIGLUM"} = $eparams{"SPRINT"};
+		}
+	}
+	if ($etype eq "print") {
+		if (($eparams{"SMSIGLUM"} !~ /^\s*$/) && ($eparams{"SPRINT"} =~ /^\s*$/)) {
+			$eparams{"SPRINT"} = $eparams{"SMSIGLUM"};
+		}
+	}
+	if ($itype eq "manuscript") {
+		if (($iparams{"SPRINT"} !~ /^\s*$/) && ($iparams{"SMSIGLUM"} =~ /^\s*$/)) {
+			$iparams{"SMSIGLUM"} = $iparams{"SPRINT"};
+		}
+	}
+	if ($itype eq "print") {
+		if (($iparams{"SMSIGLUM"} !~ /^\s*$/) && ($iparams{"SPRINT"} =~ /^\s*$/)) {
+			$iparams{"SPRINT"} = $iparams{"SMSIGLUM"};
+		}
+	}
+	foreach my $key (@keyorder) {
+		my $ivalue = $iparams{$key};
+		my $evalue = $eparams{$key};
+		if ($key eq "TYPE") {
+			$evalue = lc($evalue);  # force lower case for medium type
+			$ivalue = lc($ivalue);  # force lower case for medium type
+		}
+		my $value = $ivalue;
+		if (($ivalue !~ /^\s*$/) && ($evalue !~ /^\s*$/)) {
+			if ($ivalue ne $evalue) {
+				print STDERR "WARNING: not replacing $ivalue with $evalue for $iparams{'ID'} $iparams{'CATALOGNUM'}\n";
+			}
+		} elsif ($ivalue =~ /^\s*$/) {
+			$value = $evalue;
+		}
+		$value =~ s/\s+$//;
+		my $tab = "\t";
+		my $length = length $key;
+		if ($length < 6) {
+			$tab .= "\t";
+		}
+		if ($value !~ /^\s*$/) {
+			$output .= "\@$key:$tab$value\n";
+		} else {
+			$output .= "\@$key:\n";
+		}
+	}
+	$output .= "\@\@END:\t\tVARIORUM\n";
+	return $output;
+}
+
+
+
+##############################
+##
+## getKeyOrder --
+##
+
+sub getKeyOrder {
+	my ($target, $source, $type) = @_;
+	my %found;
+	my @contents1 = split("\n", $target);
+	my @contents2 = split("\n", $source);
+	chomp @contents1;
+	chomp @contents2;
+	my @output;
+
+	for (my $i=0; $i<@contents2; $i++) {
+		my $line = $contents2[$i];
+		if ($line =~ /^\@([^\@]+)\s*:\s*(.*)\s*$/) {
+			my $key = $1;
+			my $value = $2;
+			# mansucripts only has SMSIGLUM field.
+			# prints only have SPRINT field.
+			if (($type eq "manuscript") && ($key eq "SPRINT")) {
+				$key = "SMSIGLUM";
+			} elsif (($type eq "print") && ($key eq "SMSIGLUM")) {
+				$key = "SPRINT";
+			}
+			if (!$found{$key}) {
+				$found{$key} = 1;
+				push(@output, $key);
+			}
+		}
+	}
+
+	for (my $i=0; $i<@contents1; $i++) {
+		my $line = $contents1[$i];
+		if ($line =~ /^\@([^\@]+)\s*:\s*(.*)\s*$/) {
+			my $key = $1;
+			my $value = $2;
+			if (!$found{$key}) {
+				$found{$key} = 1;
+				push(@output, $key);
+			}
+		}
+	}
+
+	return @output;
+}
+
+
+
+##############################
+##
+## processListItem --
+##
+
+sub processListItem {
+	my ($item) = @_;
+	my %parameters = makeParameters($item);
+	my $filename = $parameters{"CATALOGNUM"};
+	die "INVALID EMPTY CATALOGNUM FOR $item\n" if $filename =~ /^\s*$/;
+	$filename .= ".aton";
+	die "Cannot find $filename" if !-r "../$filename";
+	insertPoem($filename, $item, %parameters);
+}
+
+
+##############################
+##
+## makeParameters
+##
+
+sub makeParameters {
+	my ($item) = @_;
+	my %output;
+	my $key;
+	my $value;
+	my @lines = split("\n", $item);
+	chomp @lines;
+	for (my $i=0; $i<@lines; $i++) {
+		my $line = $lines[$i];
+		next if $line =~ /^\s*$/;
+		next if $line =~ /^\@\@/;
+		if ($line =~ /^\@([^\@]+)\s*:\s*(.*)\s*/) {
+			$key = $1;
+			$value = $2;
+			$output{$key} .= $value;
+		} else {
+			$output{$key} .= "\n$line";
+		}
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## storeHeaderRecords --
+##
+
+sub storeHeaderRecords {
+	for (my $i=0; $i<@header; $i++) {
+		my $line = $header[$i];
+		next if $line !~ /^\@\@([^\@]+)\s*:\s*(.*)\s*$/;
+		$line =~ s/^\@//;
+		push(@current, $line);
+	}
+}
+
+
+
+##############################
+##
+## storeCurrent --
+##
+
+sub storeCurrent {
+	my $output;
+	return if @current == 0;
+	$output = join("\n", @header);
+	$output .= "\n";
+	$output = join("\n", @current);
+	$output .= "\n";
+	push(@list, $output);
+	@current = ();
+}
+
+
+
+##############################
+##
+## processHeaderRecord --
+##
+
+sub processHeaderRecord {
+	my ($line) = @_;
+	return if $line !~ /^\@\@([^\@]+)\s*:\s*(.*)\s*/;
+	my $key = $1;
+	my $value = $2;
+	my $found = 0;
+	for (my $i=0; $i<@header; $i++) {
+		if ($header[$i] =~ /^\@$key\s*:/) {
+			$header[$i] = $line;
+			$found = 1;
+		}
+		last if $found;
+	}
+	if (!$found) {
+		push(@header, $line);
+	}
+}
+
+
+

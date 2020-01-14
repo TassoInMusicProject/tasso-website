@@ -1,5 +1,5 @@
 
-update:  variorum collation list checkxml
+update:  variorum collation list checkxml diff
 
 v: variorum
 variorum: vtam vtrm vtsg vtec
@@ -40,6 +40,7 @@ diff:
 	do \
 		bin/diffmark $$i > diff-input/`basename $$i .aton`.txt; \
 	done
+	git status
 
 undiff:
 	bin/undiff

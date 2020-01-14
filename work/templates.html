@@ -449,6 +449,26 @@ Handlebars.registerHelper("formatTitle", function(text, id) {
 		text += "</a>";
 	}
 
+console.log("TEXT:", text);
+	if (text.match(/\<i>i\.e\.<\/i>,/)) {
+		// clean case where there is a setting title and a poem title for not rime.
+		text = text.replace(/\(/, "ZZZ");
+		var matches = text.match(/\(([^\(]+)\)/);
+		if (matches) {
+			text = text.replace(matches[1], "");
+			text = text.replace(/\)/, ", " + matches[1] + ")");
+		}
+		text = text.replace("ZZZ", "(");
+		text = text.replace("()", "");
+console.log("OUTPUT TEXT:", text);
+		
+	}
+
+	if (text.match(/Rime.*Rime/)) {
+		// clean case where there is a setting title and a poem title for rime.
+		text = text.replace(/\(<i>Rime<\/i> \d+\)\s*$/, "");
+	}
+
 	return new Handlebars.SafeString(text);
 });
 

@@ -96,12 +96,27 @@ function generatePdfFull(event) {
 		header            : "encoded",
 		breaks            : "auto"
 	}
-console.log("LOCAL OPTIONS", localOptions);
 
 	var scoredata = getHumdrumSourceData();
+	var staffcount = getStaffCount(scoredata[0]);
 	if (CGI.filter) {
 		scoredata += "\n!!!filter: " + CGI.filter + "\n";
 	}
+	// Need to check for staff count after filtering (so need to 
+	// pull from verovio toolkit to check staff count).
+
+	if (staffcount == 3) {
+		localOptions.spacingStaff = 10;
+		localOptions.spacingSystem = 12;
+	} else if (staffcount == 4) {
+		localOptions.spacingStaff = 15;
+		localOptions.spacingSystem = 12;
+	} else if (staffcount == 6) {
+		localOptions.spacingStaff = 0;
+		localOptions.spacingSystem = 1;
+	}
+
+console.log("PDF OPTIONS", localOptions);
 
 	vrvToolkit.setOptions(localOptions);
 	vrvToolkit.redoLayout();
@@ -144,6 +159,35 @@ console.log("LOCAL OPTIONS", localOptions);
 }
 
 
+
+//////////////////////////////
+//
+// getStaffCount --
+//
+
+function getStaffCount(scoredata) {
+	var data = scoredata.split("\n");
+	var matches;
+	var counter = 0;
+	for (var i=0; i<data.length; i++) {
+		matches = data[i].match(/^\*\*/);
+		if (!matches) {
+			continue;
+		}
+		var fields = data[i].split("\t");
+		for (var j=0; j<fields.length; j++) {
+			if (fields[j] === "**kern") {
+				counter++;
+			}
+		}
+	}
+	return counter;
+}
+
+
 </script>
+
+
+
 
 

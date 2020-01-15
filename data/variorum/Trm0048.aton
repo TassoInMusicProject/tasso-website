@@ -26,9 +26,20 @@
 @ID:		C
 @TYPE:		manuscript
 @SMSIGLUM:	C
-@PAGE:		
-@PARATEXT:	
+@PAGE:		19r
+@PARATEXT:	 [the entire poem is deleted with a diagonal strike-through] Non havendo ardire di parlar <del>nella</del> con la sua donna nel ballo: prego, Amore, che sciolga il legami della lingua, e raddoppi quelli del core.
 @VERSE:		
+Amor l’alma m’allaccia
+D'aspre, e dolci catene,
+Ne mi doglio perciò, ma ben l’accuso,
+Che mi leghi, et affrene
+la lingua, accio ch’io taccia,
+Anzi Madonna timido, e confuso.
+[OMITTED]
+Sciogli pietoso Amore
+la lingua, e se pur non vuoi
+Meno stringere un sol de' lacci tuoi
+Tanti n'aggiungi in quella vece al core.
 @@END: VARIORUM
 
 
@@ -46,6 +57,7 @@ Ne mi doglio per ciò, ma ben l’accuso,
 Che mi leghi, et affrene
 la lingua a ciò, ch’io taccia,
 Anzi madonna. timido, e confuso
+[OMITTED]
 Questo pietoso Amore
 <del>La disciogli,</del> Disciogli, e se non vuoi
 fieno stringer un sol de’ lacci tuoi
@@ -102,9 +114,21 @@ Mille n’aggiungi in quella vece al core!
 @ID:		Ts1
 @TYPE:		manuscript
 @SMSIGLUM:	Ts<sub>1</sub>
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
+@PAGE:		Parte Prima, 8
+@PARATEXT:	Ad Amore
+@VERSE:	
+Amor l’alma m’allaccia
+Di <del>dolci</del> aspr<del>i</del>e dolci catene:
+Nè mi doglio io perciò, ma ben l’accuso,
+Che mi leghi, & affrene
+La lingua, acciò ch’io taccia
+Anzi à Madonna timido, e confuso,
+<del>E’n mia ragion deluso.</del>
+@VERSE:
+Sciogli pietoso Amore
+La lingua, e se non vuoi
+<del>Che mi stringa un sol men</del> ^Meno stringete un sol^ de’ lacci tuoi,
+Tanti n’aggiungi in quella vece al core.	
 @@END: VARIORUM
 
 
@@ -208,16 +232,16 @@ Tanti n’aggiungi in quella vece al core.
 @PARATEXT:	Ad Amore
 @VERSE:	
 Amor l’alma m’allaccia
-Di <del>dolci</del> aspr<del>i</del>e dolci catene:
+Di dolci aspri catene:
 Nè mi doglio io perciò, ma ben l’accuso,
 Che mi leghi, & affrene
 La lingua, acciò ch’io taccia
 Anzi à Madonna timido, e confuso,
-<del>E’n mia ragion deluso.</del>
+E’n mia ragion deluso.
 @VERSE:
 Sciogli pietoso Amore
 La lingua, e se non vuoi
-<del>Che mi stringa un sol men</del> ^Meno stringete un sol^ de’ lacci tuoi,
+Che mi stringa un sol men de’ lacci tuoi,
 Tanti n’aggiungi in quella vece al core.
 @@END: VARIORUM
 

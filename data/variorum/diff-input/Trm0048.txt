@@ -1,393 +1,416 @@
-ID:E1              	L43	V1:	Amore il cor m’allaccia
-ID:Flc2            	L75	V1:	Amor l’alma m’allaccia
-ID:S4              	L141	V1:	Amor l’alma m’allaccia
-ID:S8              	L164	V1:	Amor l’alma m’allaccia
-ID:S9              	L187	V1:	Amor l’alma m’allaccia
-ID:S11             	L210	V1:	Amor l’alma m’allaccia
-ID:S12             	L233	V1:	Amor l’alma m’allaccia
-ID:S13             	L256	V1:	Amor l’alma m’allaccia
-ID:S20             	L290	V1:	Amor l’alma m’allaccia
-ID:S29             	L324	V1:	Amor l’alma m’allaccia
-ID:S145            	L369	V1:	Amor l’alma m’allaccia,
-ID:Trm0048a-Canto  	L391	V1:	Amor L’alma m’allaccia
-ID:Trm0048a-Alto   	L412	V1:	Amor L’alma m’allaccia
-ID:Trm0048a-Tenore 	L434	V1:	Amor L’alma m’allaccia
-ID:Trm0048a-Basso  	L456	V1:	Amor L’alma m’allaccia
-ID:Trm0048a-Quinto 	L478	V1:	Amor L’alma m’allaccia
-ID:Trm0048b-Canto  	L499	V1:	Amor l’alma m’allaccia
-ID:Trm0048b-Tenore 	L521	V1:	Amor l’alma m’allaccia
-ID:Trm0048b-Basso  	L543	V1:	[TACET]
-ID:Trm0048b-Quinto 	L565	V1:	Amor l’alma m’allaccia
-ID:Trm0048c-Canto  	L587	V1:	Amor l’alma m’allaccia
-ID:Trm0048c-Quinto 	L610	V1:	Amor l’alma m’allaccia
-ID:Trm0048e-Canto  	L688	V1:	Amor l'alma m'allaccia
-ID:Trm0048e-Alto   	L710	V1:	Amor l'alma m'allaccia
-ID:Trm0048e-Tenore 	L732	V1:	[TACET]
-ID:Trm0048e-Basso  	L754	V1:	[TACET]
-ID:Trm0048e-Quinto 	L776	V1:	Amor l'alma m'allaccia
-ID:Trm0048f-Canto  	L798	V1:	Amor L’alma m’allaccia
-ID:Trm0048f-Alto   	L820	V1:	[TACET]
-ID:Trm0048f-Tenore 	L842	V1:	Amor L’alma m’allaccia
-ID:Trm0048f-Basso  	L864	V1:	[TACET]
-ID:Trm0048f-Quinto 	L886	V1:	Amor L’alma m’allaccia
-ID:Trm0048g-Alto   	L908	V1:	Amor l’alma m’allaccia
-ID:Trm0048g-Tenore 	L930	V1:	Amor l’alma m’allaccia
-ID:Trm0048g-Basso  	L952	V1:	Amor l’alma m’allaccia
+ID:C               	L32	V1:	Amor l’alma m’allaccia
+ID:E1              	L54	V1:	Amore il cor m’allaccia
+ID:Flc2            	L87	V1:	Amor l’alma m’allaccia
+ID:Ts1             	L120	V1:	Amor l’alma m’allaccia
+ID:S4              	L165	V1:	Amor l’alma m’allaccia
+ID:S8              	L188	V1:	Amor l’alma m’allaccia
+ID:S9              	L211	V1:	Amor l’alma m’allaccia
+ID:S11             	L234	V1:	Amor l’alma m’allaccia
+ID:S12             	L257	V1:	Amor l’alma m’allaccia
+ID:S13             	L280	V1:	Amor l’alma m’allaccia
+ID:S20             	L314	V1:	Amor l’alma m’allaccia
+ID:S29             	L348	V1:	Amor l’alma m’allaccia
+ID:S145            	L393	V1:	Amor l’alma m’allaccia,
+ID:Trm0048a-Canto  	L415	V1:	Amor L’alma m’allaccia
+ID:Trm0048a-Alto   	L436	V1:	Amor L’alma m’allaccia
+ID:Trm0048a-Tenore 	L458	V1:	Amor L’alma m’allaccia
+ID:Trm0048a-Basso  	L480	V1:	Amor L’alma m’allaccia
+ID:Trm0048a-Quinto 	L502	V1:	Amor L’alma m’allaccia
+ID:Trm0048b-Canto  	L523	V1:	Amor l’alma m’allaccia
+ID:Trm0048b-Tenore 	L545	V1:	Amor l’alma m’allaccia
+ID:Trm0048b-Basso  	L567	V1:	[TACET]
+ID:Trm0048b-Quinto 	L589	V1:	Amor l’alma m’allaccia
+ID:Trm0048c-Canto  	L611	V1:	Amor l’alma m’allaccia
+ID:Trm0048c-Quinto 	L634	V1:	Amor l’alma m’allaccia
+ID:Trm0048e-Canto  	L712	V1:	Amor l'alma m'allaccia
+ID:Trm0048e-Alto   	L734	V1:	Amor l'alma m'allaccia
+ID:Trm0048e-Tenore 	L756	V1:	[TACET]
+ID:Trm0048e-Basso  	L778	V1:	[TACET]
+ID:Trm0048e-Quinto 	L800	V1:	Amor l'alma m'allaccia
+ID:Trm0048f-Canto  	L822	V1:	Amor L’alma m’allaccia
+ID:Trm0048f-Alto   	L844	V1:	[TACET]
+ID:Trm0048f-Tenore 	L866	V1:	Amor L’alma m’allaccia
+ID:Trm0048f-Basso  	L888	V1:	[TACET]
+ID:Trm0048f-Quinto 	L910	V1:	Amor L’alma m’allaccia
+ID:Trm0048g-Alto   	L932	V1:	Amor l’alma m’allaccia
+ID:Trm0048g-Tenore 	L954	V1:	Amor l’alma m’allaccia
+ID:Trm0048g-Basso  	L976	V1:	Amor l’alma m’allaccia
 
-ID:E1              	L44	V2:	D'aspre, e dolci catene
-ID:Flc2            	L76	V2:	Di dolci aspre catene,
-ID:S4              	L142	V2:	Di dolci aspri catene:
-ID:S8              	L165	V2:	Di dolci aspri catene:
-ID:S9              	L188	V2:	Di dolci aspri catene:
-ID:S11             	L211	V2:	Di <del>dolci</del> aspr<del>i</del>e dolci catene:
-ID:S12             	L234	V2:	Di dolci aspri catene:
-ID:S13             	L257	V2:	Di dolci aspri catene:
-ID:S20             	L291	V2:	Di dolci aspre catene:
-ID:S29             	L325	V2:	Di dolci aspri catene:
-ID:S145            	L370	V2:	Di dolci aspre catene:
-ID:Trm0048a-Canto  	L392	V2:	Di dolc’aspri catene
-ID:Trm0048a-Alto   	L413	V2:	Di dolci aspri catene
-ID:Trm0048a-Tenore 	L435	V2:	Di dolci aspri catene
-ID:Trm0048a-Basso  	L457	V2:	Di dolci aspri catene
-ID:Trm0048a-Quinto 	L479	V2:	Di dolci aspri catene
-ID:Trm0048b-Canto  	L500	V2:	Di dolci aspre catene
-ID:Trm0048b-Tenore 	L522	V2:	Di dolci aspre catene
-ID:Trm0048b-Basso  	L544	V2:	Di dolci aspre catene
-ID:Trm0048b-Quinto 	L566	V2:	Di dolci aspre catene
-ID:Trm0048c-Canto  	L588	V2:	Di dolci aspre catene
-ID:Trm0048c-Quinto 	L611	V2:	Di dolci aspre catene
-ID:Trm0048e-Canto  	L689	V2:	Di dolci aspre catene
-ID:Trm0048e-Alto   	L711	V2:	Di dolci aspre catene
-ID:Trm0048e-Tenore 	L733	V2:	[TACET]
-ID:Trm0048e-Basso  	L755	V2:	[TACET]
-ID:Trm0048e-Quinto 	L777	V2:	Di dolci aspre catene
-ID:Trm0048f-Canto  	L799	V2:	[TACET]
-ID:Trm0048f-Alto   	L821	V2:	Di dolc'aspre catene
-ID:Trm0048f-Tenore 	L843	V2:	di dolc'aspre catene
-ID:Trm0048f-Basso  	L865	V2:	Di dolc'aspre catene
-ID:Trm0048f-Quinto 	L887	V2:	di dolc'aspre catene
-ID:Trm0048g-Alto   	L909	V2:	Di dolci aspre catene
-ID:Trm0048g-Tenore 	L931	V2:	Di dolci aspre catene
-ID:Trm0048g-Basso  	L953	V2:	Di dolci aspre catene
+ID:C               	L33	V2:	D'aspre, e dolci catene,
+ID:E1              	L55	V2:	D'aspre, e dolci catene
+ID:Flc2            	L88	V2:	Di dolci aspre catene,
+ID:Ts1             	L121	V2:	Di <del>dolci</del> aspr<del>i</del>e dolci catene:
+ID:S4              	L166	V2:	Di dolci aspri catene:
+ID:S8              	L189	V2:	Di dolci aspri catene:
+ID:S9              	L212	V2:	Di dolci aspri catene:
+ID:S11             	L235	V2:	Di dolci aspri catene:
+ID:S12             	L258	V2:	Di dolci aspri catene:
+ID:S13             	L281	V2:	Di dolci aspri catene:
+ID:S20             	L315	V2:	Di dolci aspre catene:
+ID:S29             	L349	V2:	Di dolci aspri catene:
+ID:S145            	L394	V2:	Di dolci aspre catene:
+ID:Trm0048a-Canto  	L416	V2:	Di dolc’aspri catene
+ID:Trm0048a-Alto   	L437	V2:	Di dolci aspri catene
+ID:Trm0048a-Tenore 	L459	V2:	Di dolci aspri catene
+ID:Trm0048a-Basso  	L481	V2:	Di dolci aspri catene
+ID:Trm0048a-Quinto 	L503	V2:	Di dolci aspri catene
+ID:Trm0048b-Canto  	L524	V2:	Di dolci aspre catene
+ID:Trm0048b-Tenore 	L546	V2:	Di dolci aspre catene
+ID:Trm0048b-Basso  	L568	V2:	Di dolci aspre catene
+ID:Trm0048b-Quinto 	L590	V2:	Di dolci aspre catene
+ID:Trm0048c-Canto  	L612	V2:	Di dolci aspre catene
+ID:Trm0048c-Quinto 	L635	V2:	Di dolci aspre catene
+ID:Trm0048e-Canto  	L713	V2:	Di dolci aspre catene
+ID:Trm0048e-Alto   	L735	V2:	Di dolci aspre catene
+ID:Trm0048e-Tenore 	L757	V2:	[TACET]
+ID:Trm0048e-Basso  	L779	V2:	[TACET]
+ID:Trm0048e-Quinto 	L801	V2:	Di dolci aspre catene
+ID:Trm0048f-Canto  	L823	V2:	[TACET]
+ID:Trm0048f-Alto   	L845	V2:	Di dolc'aspre catene
+ID:Trm0048f-Tenore 	L867	V2:	di dolc'aspre catene
+ID:Trm0048f-Basso  	L889	V2:	Di dolc'aspre catene
+ID:Trm0048f-Quinto 	L911	V2:	di dolc'aspre catene
+ID:Trm0048g-Alto   	L933	V2:	Di dolci aspre catene
+ID:Trm0048g-Tenore 	L955	V2:	Di dolci aspre catene
+ID:Trm0048g-Basso  	L977	V2:	Di dolci aspre catene
 
-ID:E1              	L45	V3:	Ne mi doglio per ciò, ma ben l’accuso,
-ID:Flc2            	L77	V3:	Ne mi doglio io di ciò, ma ben l’accuso,
-ID:S4              	L143	V3:	Nè mi doglio io perciò, ma ben l’accuso,
-ID:S8              	L166	V3:	Nè mi doglio io perciò, ma ben l’accuso,
-ID:S9              	L189	V3:	Nè mi doglio io perciò, ma ben l’accuso,
-ID:S11             	L212	V3:	Nè mi doglio io perciò, ma ben l’accuso,
-ID:S12             	L235	V3:	Nè mi doglio io perciò, ma ben l’accuso,
-ID:S13             	L258	V3:	Nè mi doglio io perciò, ma ben l’accuso,
-ID:S20             	L292	V3:	Nè mi doglio io perciò, ma ben l’accuso,
-ID:S29             	L326	V3:	Nò mi doglio io perciò, ma ben l’accuso,
-ID:S145            	L371	V3:	Ne mi doglio io per ciò, ma ben l’accuso,
-ID:Trm0048a-Canto  	L393	V3:	Ne mi doglio per cio ma ben l’accuso
-ID:Trm0048a-Alto   	L414	V3:	Ne mi doglio per cio ma ben l’accuso
-ID:Trm0048a-Tenore 	L436	V3:	Ne mi doglio per cio ma ben l’accuso
-ID:Trm0048a-Basso  	L458	V3:	Ne mi doglio per cio ma ben l’accuso
-ID:Trm0048a-Quinto 	L480	V3:	Ne mi dogl'io per cio, ma ben l’accuso
-ID:Trm0048b-Canto  	L501	V3:	Ne mi doglio per ciò ma ben l’accuso
-ID:Trm0048b-Tenore 	L523	V3:	Ne mi doglio per ciò ma ben l’accuso
-ID:Trm0048b-Basso  	L545	V3:	Ne mi doglio per ciò ma ben l’accuso
-ID:Trm0048b-Quinto 	L567	V3:	Ne mi doglio per ciò ma ben l’accuso
-ID:Trm0048c-Canto  	L589	V3:	Ne mi doglio io per ciò ma ben l’accuso
-ID:Trm0048c-Quinto 	L612	V3:	Ne mi doglio per ciò ma ben l’accuso
-ID:Trm0048e-Canto  	L690	V3:	Ne mi dogl'io perciò ma ben l’accuso
-ID:Trm0048e-Alto   	L712	V3:	Ne mi doglio io perciò ma ben l’accuso
-ID:Trm0048e-Tenore 	L734	V3:	Ne mi doglio io perciò ma ben l’accuso
-ID:Trm0048e-Basso  	L756	V3:	Ne mi dogl'io perciò ma ben l’accuso
-ID:Trm0048e-Quinto 	L778	V3:	Ne mi doglio io perciò ma ben l’accuso
-ID:Trm0048f-Canto  	L800	V3:	Ne mi doglio io per ciò ma ben l’accuso
-ID:Trm0048f-Alto   	L822	V3:	Ne mi doglio io per ciò ma ben l’accuso
-ID:Trm0048f-Tenore 	L844	V3:	Ne mi doglio io per ciò ma ben l’accuso
-ID:Trm0048f-Basso  	L866	V3:	Ne mi doglio io per cio ma ben l’accuso
-ID:Trm0048f-Quinto 	L888	V3:	Ne mi doglio io per cio ma ben l’accuso
-ID:Trm0048g-Alto   	L910	V3:	Non mi doglio io perciò ma ben l’accuso
-ID:Trm0048g-Tenore 	L932	V3:	Non mi doglio io perciò ma ben l’accuso
-ID:Trm0048g-Basso  	L954	V3:	Non mi doglio io perciò ma ben l’accuso
+ID:C               	L34	V3:	Ne mi doglio perciò, ma ben l’accuso,
+ID:E1              	L56	V3:	Ne mi doglio per ciò, ma ben l’accuso,
+ID:Flc2            	L89	V3:	Ne mi doglio io di ciò, ma ben l’accuso,
+ID:Ts1             	L122	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S4              	L167	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S8              	L190	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S9              	L213	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S11             	L236	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S12             	L259	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S13             	L282	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S20             	L316	V3:	Nè mi doglio io perciò, ma ben l’accuso,
+ID:S29             	L350	V3:	Nò mi doglio io perciò, ma ben l’accuso,
+ID:S145            	L395	V3:	Ne mi doglio io per ciò, ma ben l’accuso,
+ID:Trm0048a-Canto  	L417	V3:	Ne mi doglio per cio ma ben l’accuso
+ID:Trm0048a-Alto   	L438	V3:	Ne mi doglio per cio ma ben l’accuso
+ID:Trm0048a-Tenore 	L460	V3:	Ne mi doglio per cio ma ben l’accuso
+ID:Trm0048a-Basso  	L482	V3:	Ne mi doglio per cio ma ben l’accuso
+ID:Trm0048a-Quinto 	L504	V3:	Ne mi dogl'io per cio, ma ben l’accuso
+ID:Trm0048b-Canto  	L525	V3:	Ne mi doglio per ciò ma ben l’accuso
+ID:Trm0048b-Tenore 	L547	V3:	Ne mi doglio per ciò ma ben l’accuso
+ID:Trm0048b-Basso  	L569	V3:	Ne mi doglio per ciò ma ben l’accuso
+ID:Trm0048b-Quinto 	L591	V3:	Ne mi doglio per ciò ma ben l’accuso
+ID:Trm0048c-Canto  	L613	V3:	Ne mi doglio io per ciò ma ben l’accuso
+ID:Trm0048c-Quinto 	L636	V3:	Ne mi doglio per ciò ma ben l’accuso
+ID:Trm0048e-Canto  	L714	V3:	Ne mi dogl'io perciò ma ben l’accuso
+ID:Trm0048e-Alto   	L736	V3:	Ne mi doglio io perciò ma ben l’accuso
+ID:Trm0048e-Tenore 	L758	V3:	Ne mi doglio io perciò ma ben l’accuso
+ID:Trm0048e-Basso  	L780	V3:	Ne mi dogl'io perciò ma ben l’accuso
+ID:Trm0048e-Quinto 	L802	V3:	Ne mi doglio io perciò ma ben l’accuso
+ID:Trm0048f-Canto  	L824	V3:	Ne mi doglio io per ciò ma ben l’accuso
+ID:Trm0048f-Alto   	L846	V3:	Ne mi doglio io per ciò ma ben l’accuso
+ID:Trm0048f-Tenore 	L868	V3:	Ne mi doglio io per ciò ma ben l’accuso
+ID:Trm0048f-Basso  	L890	V3:	Ne mi doglio io per cio ma ben l’accuso
+ID:Trm0048f-Quinto 	L912	V3:	Ne mi doglio io per cio ma ben l’accuso
+ID:Trm0048g-Alto   	L934	V3:	Non mi doglio io perciò ma ben l’accuso
+ID:Trm0048g-Tenore 	L956	V3:	Non mi doglio io perciò ma ben l’accuso
+ID:Trm0048g-Basso  	L978	V3:	Non mi doglio io perciò ma ben l’accuso
 
-ID:E1              	L46	V4:	Che mi leghi, et affrene
-ID:Flc2            	L78	V4:	Che mi leghi, et affrene
-ID:S4              	L144	V4:	Che mi leghi, & affrene
-ID:S8              	L167	V4:	Che mi leghi, & affrene
-ID:S9              	L190	V4:	Che mi leghi, & affrene
-ID:S11             	L213	V4:	Che mi leghi, & affrene
-ID:S12             	L236	V4:	Che mi leghi, & affrene
-ID:S13             	L259	V4:	Che mi leghi, & affrene
-ID:S20             	L293	V4:	Che mi leghi, & affrene
-ID:S29             	L327	V4:	Che mi leghi, & affrene
-ID:S145            	L372	V4:	Che mi leghi, & affrene
-ID:Trm0048a-Canto  	L394	V4:	Che mi leghi et affrene
-ID:Trm0048a-Alto   	L415	V4:	Che mi leghi e affrene
-ID:Trm0048a-Tenore 	L437	V4:	Che mi leghi & affrene
-ID:Trm0048a-Basso  	L459	V4:	Che mi leghi et affrene
-ID:Trm0048a-Quinto 	L481	V4:	Che mi leghi et affrene
-ID:Trm0048b-Canto  	L502	V4:	Che mi legh’& affrene
-ID:Trm0048b-Tenore 	L524	V4:	Che mi legh’& affrene
-ID:Trm0048b-Basso  	L546	V4:	Che mi legh’& affrene
-ID:Trm0048b-Quinto 	L568	V4:	Che mi legh’& affrene
-ID:Trm0048c-Canto  	L590	V4:	Che mi legh’& affrene
-ID:Trm0048c-Quinto 	L613	V4:	Che mi legh’& affrene
-ID:Trm0048e-Canto  	L691	V4:	Che mi leghi & affreni
-ID:Trm0048e-Alto   	L713	V4:	Che mi leghi & affrene
-ID:Trm0048e-Tenore 	L735	V4:	Che mi leghi & affrene
-ID:Trm0048e-Basso  	L757	V4:	Che mi leghi & affrene
-ID:Trm0048e-Quinto 	L779	V4:	Che mi leghi & affrene
-ID:Trm0048f-Canto  	L801	V4:	Che mi leghi & affrene
-ID:Trm0048f-Alto   	L823	V4:	Che mi leghi & affrene
-ID:Trm0048f-Tenore 	L845	V4:	Che mi leghi & affrene
-ID:Trm0048f-Basso  	L867	V4:	Che mi leghi & affrene
-ID:Trm0048f-Quinto 	L889	V4:	Che mi leghi & affrene
-ID:Trm0048g-Alto   	L911	V4:	Che mi legh’& affrene
-ID:Trm0048g-Tenore 	L933	V4:	Che mi legh’& affrene
-ID:Trm0048g-Basso  	L955	V4:	Che mi legh’& affrene
+ID:C               	L35	V4:	Che mi leghi, et affrene
+ID:E1              	L57	V4:	Che mi leghi, et affrene
+ID:Flc2            	L90	V4:	Che mi leghi, et affrene
+ID:Ts1             	L123	V4:	Che mi leghi, & affrene
+ID:S4              	L168	V4:	Che mi leghi, & affrene
+ID:S8              	L191	V4:	Che mi leghi, & affrene
+ID:S9              	L214	V4:	Che mi leghi, & affrene
+ID:S11             	L237	V4:	Che mi leghi, & affrene
+ID:S12             	L260	V4:	Che mi leghi, & affrene
+ID:S13             	L283	V4:	Che mi leghi, & affrene
+ID:S20             	L317	V4:	Che mi leghi, & affrene
+ID:S29             	L351	V4:	Che mi leghi, & affrene
+ID:S145            	L396	V4:	Che mi leghi, & affrene
+ID:Trm0048a-Canto  	L418	V4:	Che mi leghi et affrene
+ID:Trm0048a-Alto   	L439	V4:	Che mi leghi e affrene
+ID:Trm0048a-Tenore 	L461	V4:	Che mi leghi & affrene
+ID:Trm0048a-Basso  	L483	V4:	Che mi leghi et affrene
+ID:Trm0048a-Quinto 	L505	V4:	Che mi leghi et affrene
+ID:Trm0048b-Canto  	L526	V4:	Che mi legh’& affrene
+ID:Trm0048b-Tenore 	L548	V4:	Che mi legh’& affrene
+ID:Trm0048b-Basso  	L570	V4:	Che mi legh’& affrene
+ID:Trm0048b-Quinto 	L592	V4:	Che mi legh’& affrene
+ID:Trm0048c-Canto  	L614	V4:	Che mi legh’& affrene
+ID:Trm0048c-Quinto 	L637	V4:	Che mi legh’& affrene
+ID:Trm0048e-Canto  	L715	V4:	Che mi leghi & affreni
+ID:Trm0048e-Alto   	L737	V4:	Che mi leghi & affrene
+ID:Trm0048e-Tenore 	L759	V4:	Che mi leghi & affrene
+ID:Trm0048e-Basso  	L781	V4:	Che mi leghi & affrene
+ID:Trm0048e-Quinto 	L803	V4:	Che mi leghi & affrene
+ID:Trm0048f-Canto  	L825	V4:	Che mi leghi & affrene
+ID:Trm0048f-Alto   	L847	V4:	Che mi leghi & affrene
+ID:Trm0048f-Tenore 	L869	V4:	Che mi leghi & affrene
+ID:Trm0048f-Basso  	L891	V4:	Che mi leghi & affrene
+ID:Trm0048f-Quinto 	L913	V4:	Che mi leghi & affrene
+ID:Trm0048g-Alto   	L935	V4:	Che mi legh’& affrene
+ID:Trm0048g-Tenore 	L957	V4:	Che mi legh’& affrene
+ID:Trm0048g-Basso  	L979	V4:	Che mi legh’& affrene
 
-ID:E1              	L47	V5:	la lingua a ciò, ch’io taccia,
-ID:Flc2            	L79	V5:	La lingua, acciò ch’io taccia
-ID:S4              	L145	V5:	La lingua, acciò ch’io taccia
-ID:S8              	L168	V5:	La lingua, acciò ch’io taccia
-ID:S9              	L191	V5:	La lingua, acciò ch’io taccia
-ID:S11             	L214	V5:	La lingua, acciò ch’io taccia
-ID:S12             	L237	V5:	La lingua, acciò ch’io taccia
-ID:S13             	L260	V5:	La lingua, acciò ch’io taccia
-ID:S20             	L294	V5:	La lingua, acciò ch’io taccia
-ID:S29             	L328	V5:	La lingua, acciò ch’io taccia
-ID:S145            	L373	V5:	La lingua, acciò ch’io taccia
-ID:Trm0048a-Canto  	L395	V5:	La l’ingua acciò ch’io faccia
-ID:Trm0048a-Alto   	L416	V5:	La lingua acciò ch’io taccia
-ID:Trm0048a-Tenore 	L438	V5:	La lingua acciò ch’io taccia
-ID:Trm0048a-Basso  	L460	V5:	La lingua acciò ch’io taccia
-ID:Trm0048a-Quinto 	L482	V5:	La lingua acciò ch’io taccia
-ID:Trm0048b-Canto  	L503	V5:	La lingua acciò ch’io taccia
-ID:Trm0048b-Tenore 	L525	V5:	La lingua acciò ch’io taccia
-ID:Trm0048b-Basso  	L547	V5:	La lingua [TACET]
-ID:Trm0048b-Quinto 	L569	V5:	La lingua acciò ch’io taccia
-ID:Trm0048c-Canto  	L591	V5:	La lingua accio ch’io taccia
-ID:Trm0048c-Quinto 	L614	V5:	La lingua accio ch’io taccia
-ID:Trm0048e-Canto  	L692	V5:	La lingu'acciò ch’io taccia
-ID:Trm0048e-Alto   	L714	V5:	La lingu'accio ch’io taccia
-ID:Trm0048e-Tenore 	L736	V5:	La lingu'acciò ch’io taccia
-ID:Trm0048e-Basso  	L758	V5:	La lingu'acciò ch’io taccia
-ID:Trm0048e-Quinto 	L780	V5:	La lingu'acciò ch’io taccia
-ID:Trm0048f-Canto  	L802	V5:	La lingua acciò ch’io taccia
-ID:Trm0048f-Alto   	L824	V5:	La lingua acciò ch’io taccia
-ID:Trm0048f-Tenore 	L846	V5:	La lingua acciò ch’io taccia
-ID:Trm0048f-Basso  	L868	V5:	La lingua acciò ch’io taccia
-ID:Trm0048f-Quinto 	L890	V5:	La lingua acciò ch’io taccia
-ID:Trm0048g-Alto   	L912	V5:	La lingua acciò ch’io taccia,
-ID:Trm0048g-Tenore 	L934	V5:	La lingua acciò ch’io taccia,
-ID:Trm0048g-Basso  	L956	V5:	La lingua acciò ch’io taccia,
+ID:C               	L36	V5:	la lingua, accio ch’io taccia,
+ID:E1              	L58	V5:	la lingua a ciò, ch’io taccia,
+ID:Flc2            	L91	V5:	La lingua, acciò ch’io taccia
+ID:Ts1             	L124	V5:	La lingua, acciò ch’io taccia
+ID:S4              	L169	V5:	La lingua, acciò ch’io taccia
+ID:S8              	L192	V5:	La lingua, acciò ch’io taccia
+ID:S9              	L215	V5:	La lingua, acciò ch’io taccia
+ID:S11             	L238	V5:	La lingua, acciò ch’io taccia
+ID:S12             	L261	V5:	La lingua, acciò ch’io taccia
+ID:S13             	L284	V5:	La lingua, acciò ch’io taccia
+ID:S20             	L318	V5:	La lingua, acciò ch’io taccia
+ID:S29             	L352	V5:	La lingua, acciò ch’io taccia
+ID:S145            	L397	V5:	La lingua, acciò ch’io taccia
+ID:Trm0048a-Canto  	L419	V5:	La l’ingua acciò ch’io faccia
+ID:Trm0048a-Alto   	L440	V5:	La lingua acciò ch’io taccia
+ID:Trm0048a-Tenore 	L462	V5:	La lingua acciò ch’io taccia
+ID:Trm0048a-Basso  	L484	V5:	La lingua acciò ch’io taccia
+ID:Trm0048a-Quinto 	L506	V5:	La lingua acciò ch’io taccia
+ID:Trm0048b-Canto  	L527	V5:	La lingua acciò ch’io taccia
+ID:Trm0048b-Tenore 	L549	V5:	La lingua acciò ch’io taccia
+ID:Trm0048b-Basso  	L571	V5:	La lingua [TACET]
+ID:Trm0048b-Quinto 	L593	V5:	La lingua acciò ch’io taccia
+ID:Trm0048c-Canto  	L615	V5:	La lingua accio ch’io taccia
+ID:Trm0048c-Quinto 	L638	V5:	La lingua accio ch’io taccia
+ID:Trm0048e-Canto  	L716	V5:	La lingu'acciò ch’io taccia
+ID:Trm0048e-Alto   	L738	V5:	La lingu'accio ch’io taccia
+ID:Trm0048e-Tenore 	L760	V5:	La lingu'acciò ch’io taccia
+ID:Trm0048e-Basso  	L782	V5:	La lingu'acciò ch’io taccia
+ID:Trm0048e-Quinto 	L804	V5:	La lingu'acciò ch’io taccia
+ID:Trm0048f-Canto  	L826	V5:	La lingua acciò ch’io taccia
+ID:Trm0048f-Alto   	L848	V5:	La lingua acciò ch’io taccia
+ID:Trm0048f-Tenore 	L870	V5:	La lingua acciò ch’io taccia
+ID:Trm0048f-Basso  	L892	V5:	La lingua acciò ch’io taccia
+ID:Trm0048f-Quinto 	L914	V5:	La lingua acciò ch’io taccia
+ID:Trm0048g-Alto   	L936	V5:	La lingua acciò ch’io taccia,
+ID:Trm0048g-Tenore 	L958	V5:	La lingua acciò ch’io taccia,
+ID:Trm0048g-Basso  	L980	V5:	La lingua acciò ch’io taccia,
 
-ID:E1              	L48	V6:	Anzi madonna. timido, e confuso
-ID:Flc2            	L80	V6:	Anzi Madonna timido, e confuso;
-ID:S4              	L146	V6:	Anzi a Madonna timido, e confuso,
-ID:S8              	L169	V6:	Anzi a Madonna timido, e confuso,
-ID:S9              	L192	V6:	Anzi a Madonna timido, e confuso,
-ID:S11             	L215	V6:	Anzi à Madonna timido, e confuso,
-ID:S12             	L238	V6:	Anzi à Madonna timido, e confuso,
-ID:S13             	L261	V6:	Anzi à Madonna timido, e confuso,
-ID:S20             	L295	V6:	Anzi à Madonna timido, e confuso,
-ID:S29             	L329	V6:	Anzi a Madonna timido, e confuso,
-ID:S145            	L374	V6:	Anzi a Madonna timido, e confuso,
-ID:Trm0048a-Canto  	L396	V6:	[TACET]
-ID:Trm0048a-Alto   	L417	V6:	Anzi madonna timido e confuso
-ID:Trm0048a-Tenore 	L439	V6:	Anzi madonna timido e confuso
-ID:Trm0048a-Basso  	L461	V6:	Anzi madonna timido e confuso
-ID:Trm0048a-Quinto 	L483	V6:	Anzi madonna timido e confuso
-ID:Trm0048b-Canto  	L504	V6:	Anzi a madonna timido & confuso
-ID:Trm0048b-Tenore 	L526	V6:	Anzi a madonna timido & confuso
-ID:Trm0048b-Basso  	L548	V6:	[TACET]
-ID:Trm0048b-Quinto 	L570	V6:	Anzi a madonna timido & confuso
-ID:Trm0048c-Canto  	L592	V6:	Anzi Madonna timido e confuso
-ID:Trm0048c-Quinto 	L615	V6:	Anzi Madonna timido e confuso
-ID:Trm0048e-Canto  	L693	V6:	Anzi Madonna timido e confuso
-ID:Trm0048e-Alto   	L715	V6:	Anzi a Madonna timido e confuso
-ID:Trm0048e-Tenore 	L737	V6:	Anzi a Madonna timido e confuso
-ID:Trm0048e-Basso  	L759	V6:	Anzi Madonna timido e confuso
-ID:Trm0048e-Quinto 	L781	V6:	[TACET]
-ID:Trm0048f-Canto  	L803	V6:	Anzi à Madonna timido e confuso
-ID:Trm0048f-Alto   	L825	V6:	Anzi à Madonna timido e confuso
-ID:Trm0048f-Tenore 	L847	V6:	Anzi à Madonna timido e confuso
-ID:Trm0048f-Basso  	L869	V6:	Anzi à Madonna timido e confuso
-ID:Trm0048f-Quinto 	L891	V6:	Anzi à Madonna timido e confuso
-ID:Trm0048g-Alto   	L913	V6:	Anzi à Madonna timido e confuso
-ID:Trm0048g-Tenore 	L935	V6:	Anzi à Madonna timido e confuso
-ID:Trm0048g-Basso  	L957	V6:	Anzi à Madonna timido e confuso
+ID:C               	L37	V6:	Anzi Madonna timido, e confuso.
+ID:E1              	L59	V6:	Anzi madonna. timido, e confuso
+ID:Flc2            	L92	V6:	Anzi Madonna timido, e confuso;
+ID:Ts1             	L125	V6:	Anzi à Madonna timido, e confuso,
+ID:S4              	L170	V6:	Anzi a Madonna timido, e confuso,
+ID:S8              	L193	V6:	Anzi a Madonna timido, e confuso,
+ID:S9              	L216	V6:	Anzi a Madonna timido, e confuso,
+ID:S11             	L239	V6:	Anzi à Madonna timido, e confuso,
+ID:S12             	L262	V6:	Anzi à Madonna timido, e confuso,
+ID:S13             	L285	V6:	Anzi à Madonna timido, e confuso,
+ID:S20             	L319	V6:	Anzi à Madonna timido, e confuso,
+ID:S29             	L353	V6:	Anzi a Madonna timido, e confuso,
+ID:S145            	L398	V6:	Anzi a Madonna timido, e confuso,
+ID:Trm0048a-Canto  	L420	V6:	[TACET]
+ID:Trm0048a-Alto   	L441	V6:	Anzi madonna timido e confuso
+ID:Trm0048a-Tenore 	L463	V6:	Anzi madonna timido e confuso
+ID:Trm0048a-Basso  	L485	V6:	Anzi madonna timido e confuso
+ID:Trm0048a-Quinto 	L507	V6:	Anzi madonna timido e confuso
+ID:Trm0048b-Canto  	L528	V6:	Anzi a madonna timido & confuso
+ID:Trm0048b-Tenore 	L550	V6:	Anzi a madonna timido & confuso
+ID:Trm0048b-Basso  	L572	V6:	[TACET]
+ID:Trm0048b-Quinto 	L594	V6:	Anzi a madonna timido & confuso
+ID:Trm0048c-Canto  	L616	V6:	Anzi Madonna timido e confuso
+ID:Trm0048c-Quinto 	L639	V6:	Anzi Madonna timido e confuso
+ID:Trm0048e-Canto  	L717	V6:	Anzi Madonna timido e confuso
+ID:Trm0048e-Alto   	L739	V6:	Anzi a Madonna timido e confuso
+ID:Trm0048e-Tenore 	L761	V6:	Anzi a Madonna timido e confuso
+ID:Trm0048e-Basso  	L783	V6:	Anzi Madonna timido e confuso
+ID:Trm0048e-Quinto 	L805	V6:	[TACET]
+ID:Trm0048f-Canto  	L827	V6:	Anzi à Madonna timido e confuso
+ID:Trm0048f-Alto   	L849	V6:	Anzi à Madonna timido e confuso
+ID:Trm0048f-Tenore 	L871	V6:	Anzi à Madonna timido e confuso
+ID:Trm0048f-Basso  	L893	V6:	Anzi à Madonna timido e confuso
+ID:Trm0048f-Quinto 	L915	V6:	Anzi à Madonna timido e confuso
+ID:Trm0048g-Alto   	L937	V6:	Anzi à Madonna timido e confuso
+ID:Trm0048g-Tenore 	L959	V6:	Anzi à Madonna timido e confuso
+ID:Trm0048g-Basso  	L981	V6:	Anzi à Madonna timido e confuso
 
-ID:E1              	L49	V7:	Questo pietoso Amore
-ID:Flc2            	L81	V7:	E in mia ragion deluso.
-ID:S4              	L147	V7:	E’n mia ragion deluso.
-ID:S8              	L170	V7:	E’n mia ragion deluso,
-ID:S9              	L193	V7:	E’n mia ragion deluso,
-ID:S11             	L216	V7:	<del>E’n mia ragion deluso.</del>
-ID:S12             	L239	V7:	E’n mia ragion deluso.
-ID:S13             	L262	V7:	E’n mia ragion deluso.
-ID:S20             	L296	V7:	E’n mia ragion deluso.
-ID:S29             	L330	V7:	E’n mia ragion deluso,
-ID:S145            	L375	V7:	E’n mia ragion deluso.
-ID:Trm0048a-Canto  	L397	V7:	Sciogli pietoso amore
-ID:Trm0048a-Alto   	L418	V7:	E’n mia ragion deluso.
-ID:Trm0048a-Tenore 	L440	V7:	E’n mia ragion deluso
-ID:Trm0048a-Basso  	L462	V7:	E’n mia ragion deluso
-ID:Trm0048a-Quinto 	L484	V7:	E’n mia ragion deluso
-ID:Trm0048b-Canto  	L505	V7:	E ’n mia ragion deluso
-ID:Trm0048b-Tenore 	L527	V7:	E ’n mia ragion deluso
-ID:Trm0048b-Basso  	L549	V7:	E ’n mia ragion deluso
-ID:Trm0048b-Quinto 	L571	V7:	E ’n mia ragion deluso
-ID:Trm0048c-Canto  	L593	V7:	E in mia raggion deluso.
-ID:Trm0048c-Quinto 	L616	V7:	E in mia raggion deluso.
-ID:Trm0048e-Canto  	L694	V7:	E’n mia ragion deluso
-ID:Trm0048e-Alto   	L716	V7:	E’n mia ragion deluso
-ID:Trm0048e-Tenore 	L738	V7:	E’n mia ragion deluso
-ID:Trm0048e-Basso  	L760	V7:	E’n mia ragion deluso
-ID:Trm0048e-Quinto 	L782	V7:	[TACET]
-ID:Trm0048f-Canto  	L804	V7:	E in mia raggion deluso
-ID:Trm0048f-Alto   	L826	V7:	E in mia raggion deluso
-ID:Trm0048f-Tenore 	L848	V7:	E in mia raggion deluso
-ID:Trm0048f-Basso  	L870	V7:	E in mia raggion deluso
-ID:Trm0048f-Quinto 	L892	V7:	E in mia raggion deluso
-ID:Trm0048g-Alto   	L914	V7:	E in mia ragion deluso,
-ID:Trm0048g-Tenore 	L936	V7:	E in mia ragion deluso,
-ID:Trm0048g-Basso  	L958	V7:	E in mia ragion deluso,
+ID:C               	L38	V7:	[OMITTED]
+ID:E1              	L60	V7:	[OMITTED]
+ID:Flc2            	L93	V7:	E in mia ragion deluso.
+ID:Ts1             	L126	V7:	<del>E’n mia ragion deluso.</del>
+ID:S4              	L171	V7:	E’n mia ragion deluso.
+ID:S8              	L194	V7:	E’n mia ragion deluso,
+ID:S9              	L217	V7:	E’n mia ragion deluso,
+ID:S11             	L240	V7:	E’n mia ragion deluso.
+ID:S12             	L263	V7:	E’n mia ragion deluso.
+ID:S13             	L286	V7:	E’n mia ragion deluso.
+ID:S20             	L320	V7:	E’n mia ragion deluso.
+ID:S29             	L354	V7:	E’n mia ragion deluso,
+ID:S145            	L399	V7:	E’n mia ragion deluso.
+ID:Trm0048a-Canto  	L421	V7:	Sciogli pietoso amore
+ID:Trm0048a-Alto   	L442	V7:	E’n mia ragion deluso.
+ID:Trm0048a-Tenore 	L464	V7:	E’n mia ragion deluso
+ID:Trm0048a-Basso  	L486	V7:	E’n mia ragion deluso
+ID:Trm0048a-Quinto 	L508	V7:	E’n mia ragion deluso
+ID:Trm0048b-Canto  	L529	V7:	E ’n mia ragion deluso
+ID:Trm0048b-Tenore 	L551	V7:	E ’n mia ragion deluso
+ID:Trm0048b-Basso  	L573	V7:	E ’n mia ragion deluso
+ID:Trm0048b-Quinto 	L595	V7:	E ’n mia ragion deluso
+ID:Trm0048c-Canto  	L617	V7:	E in mia raggion deluso.
+ID:Trm0048c-Quinto 	L640	V7:	E in mia raggion deluso.
+ID:Trm0048e-Canto  	L718	V7:	E’n mia ragion deluso
+ID:Trm0048e-Alto   	L740	V7:	E’n mia ragion deluso
+ID:Trm0048e-Tenore 	L762	V7:	E’n mia ragion deluso
+ID:Trm0048e-Basso  	L784	V7:	E’n mia ragion deluso
+ID:Trm0048e-Quinto 	L806	V7:	[TACET]
+ID:Trm0048f-Canto  	L828	V7:	E in mia raggion deluso
+ID:Trm0048f-Alto   	L850	V7:	E in mia raggion deluso
+ID:Trm0048f-Tenore 	L872	V7:	E in mia raggion deluso
+ID:Trm0048f-Basso  	L894	V7:	E in mia raggion deluso
+ID:Trm0048f-Quinto 	L916	V7:	E in mia raggion deluso
+ID:Trm0048g-Alto   	L938	V7:	E in mia ragion deluso,
+ID:Trm0048g-Tenore 	L960	V7:	E in mia ragion deluso,
+ID:Trm0048g-Basso  	L982	V7:	E in mia ragion deluso,
 
-ID:E1              	L50	V8:	<del>La disciogli,</del> Disciogli, e se non vuoi
-ID:Flc2            	L82	V8:	Deh la mia lingua Amore
-ID:S4              	L149	V8:	Sciogli, pietoso Amore
-ID:S8              	L172	V8:	Sciogli, pietoso Amore,
-ID:S9              	L195	V8:	Sciogli, pietoso Amore,
-ID:S11             	L218	V8:	Sciogli pietoso Amore
-ID:S12             	L241	V8:	Sciogli pietoso Amore
-ID:S13             	L264	V8:	Sciogli pietoso Amore
-ID:S20             	L298	V8:	Sciogli, pietoso Amore,
-ID:S29             	L332	V8:	Sciogli, pietoso Amore,
-ID:S145            	L376	V8:	Sciogli, pietoso Amore,
-ID:Trm0048a-Canto  	L398	V8:	La lingua e se non vuoi
-ID:Trm0048a-Alto   	L419	V8:	Sciogli pietoso amore
-ID:Trm0048a-Tenore 	L441	V8:	Sciogli pietoso amore
-ID:Trm0048a-Basso  	L463	V8:	Sciogli pietoso amore
-ID:Trm0048a-Quinto 	L485	V8:	Sciogli pietoso amore
-ID:Trm0048b-Canto  	L506	V8:	Sciogli pietoso Amore
-ID:Trm0048b-Tenore 	L528	V8:	Sciogli pietoso Amore
-ID:Trm0048b-Basso  	L550	V8:	Sciogli pietoso Amore
-ID:Trm0048b-Quinto 	L572	V8:	Sciogli pietoso Amore
-ID:Trm0048c-Canto  	L595	V8:	Sciogli pietoso Amore
-ID:Trm0048c-Quinto 	L618	V8:	Sciogli pietoso Amore
-ID:Trm0048e-Canto  	L695	V8:	Sciogli pietoso Amore
-ID:Trm0048e-Alto   	L717	V8:	[TACET]
-ID:Trm0048e-Tenore 	L739	V8:	Sciogli pietoso Amore
-ID:Trm0048e-Basso  	L761	V8:	Sciogli pietoso Amore
-ID:Trm0048e-Quinto 	L783	V8:	Sciogli pietoso Amore
-ID:Trm0048f-Canto  	L805	V8:	Sciogli pietoso Amore
-ID:Trm0048f-Alto   	L827	V8:	Sciogli pietoso Amore
-ID:Trm0048f-Tenore 	L849	V8:	Sciogli pietoso Amore
-ID:Trm0048f-Basso  	L871	V8:	Sciogli pietoso Amore
-ID:Trm0048f-Quinto 	L893	V8:	Sciogli pietoso Amore
-ID:Trm0048g-Alto   	L915	V8:	Sciogli pietoso amore
-ID:Trm0048g-Tenore 	L937	V8:	Sciogli pietoso amore
-ID:Trm0048g-Basso  	L959	V8:	Sciogli pietoso amore
+ID:C               	L39	V8:	Sciogli pietoso Amore
+ID:E1              	L61	V8:	Questo pietoso Amore
+ID:Flc2            	L94	V8:	Deh la mia lingua Amore
+ID:Ts1             	L128	V8:	Sciogli pietoso Amore
+ID:S4              	L173	V8:	Sciogli, pietoso Amore
+ID:S8              	L196	V8:	Sciogli, pietoso Amore,
+ID:S9              	L219	V8:	Sciogli, pietoso Amore,
+ID:S11             	L242	V8:	Sciogli pietoso Amore
+ID:S12             	L265	V8:	Sciogli pietoso Amore
+ID:S13             	L288	V8:	Sciogli pietoso Amore
+ID:S20             	L322	V8:	Sciogli, pietoso Amore,
+ID:S29             	L356	V8:	Sciogli, pietoso Amore,
+ID:S145            	L400	V8:	Sciogli, pietoso Amore,
+ID:Trm0048a-Canto  	L422	V8:	La lingua e se non vuoi
+ID:Trm0048a-Alto   	L443	V8:	Sciogli pietoso amore
+ID:Trm0048a-Tenore 	L465	V8:	Sciogli pietoso amore
+ID:Trm0048a-Basso  	L487	V8:	Sciogli pietoso amore
+ID:Trm0048a-Quinto 	L509	V8:	Sciogli pietoso amore
+ID:Trm0048b-Canto  	L530	V8:	Sciogli pietoso Amore
+ID:Trm0048b-Tenore 	L552	V8:	Sciogli pietoso Amore
+ID:Trm0048b-Basso  	L574	V8:	Sciogli pietoso Amore
+ID:Trm0048b-Quinto 	L596	V8:	Sciogli pietoso Amore
+ID:Trm0048c-Canto  	L619	V8:	Sciogli pietoso Amore
+ID:Trm0048c-Quinto 	L642	V8:	Sciogli pietoso Amore
+ID:Trm0048e-Canto  	L719	V8:	Sciogli pietoso Amore
+ID:Trm0048e-Alto   	L741	V8:	[TACET]
+ID:Trm0048e-Tenore 	L763	V8:	Sciogli pietoso Amore
+ID:Trm0048e-Basso  	L785	V8:	Sciogli pietoso Amore
+ID:Trm0048e-Quinto 	L807	V8:	Sciogli pietoso Amore
+ID:Trm0048f-Canto  	L829	V8:	Sciogli pietoso Amore
+ID:Trm0048f-Alto   	L851	V8:	Sciogli pietoso Amore
+ID:Trm0048f-Tenore 	L873	V8:	Sciogli pietoso Amore
+ID:Trm0048f-Basso  	L895	V8:	Sciogli pietoso Amore
+ID:Trm0048f-Quinto 	L917	V8:	Sciogli pietoso Amore
+ID:Trm0048g-Alto   	L939	V8:	Sciogli pietoso amore
+ID:Trm0048g-Tenore 	L961	V8:	Sciogli pietoso amore
+ID:Trm0048g-Basso  	L983	V8:	Sciogli pietoso amore
 
-ID:E1              	L51	V9:	fieno stringer un sol de’ lacci tuoi
-ID:Flc2            	L83	V9:	Sciogli, e se pur non vuoi
-ID:S4              	L150	V9:	La lingua, e se non vuoi
-ID:S8              	L173	V9:	La lingua, e se non vuoi,
-ID:S9              	L196	V9:	La lingua, e se non vuoi,
-ID:S11             	L219	V9:	La lingua, e se non vuoi
-ID:S12             	L242	V9:	La lingua, e se non vuoi
-ID:S13             	L265	V9:	La lingua, e se non vuoi
-ID:S20             	L299	V9:	La lingua, e, se non vuoi,
-ID:S29             	L333	V9:	La lingua, e se non vuoi,
-ID:S145            	L377	V9:	La lingua, e se non vuoi,
-ID:Trm0048a-Canto  	L399	V9:	Che mi string’un sol men di lacci tuoi
-ID:Trm0048a-Alto   	L420	V9:	la lingua e se non vuoi
-ID:Trm0048a-Tenore 	L442	V9:	La lingua e se non vuoi
-ID:Trm0048a-Basso  	L464	V9:	la lingua e se non vuoi
-ID:Trm0048a-Quinto 	L486	V9:	La lingua [TACET]
-ID:Trm0048b-Canto  	L507	V9:	La lingua & se non vuoi
-ID:Trm0048b-Tenore 	L529	V9:	La lingua [TACET]
-ID:Trm0048b-Basso  	L551	V9:	La lingua & se non vuoi
-ID:Trm0048b-Quinto 	L573	V9:	La lingua & se non vuoi
-ID:Trm0048c-Canto  	L596	V9:	La lingua e se non vuoi
-ID:Trm0048c-Quinto 	L619	V9:	La lingua e se non vuoi
-ID:Trm0048e-Canto  	L696	V9:	La lingua e se non vuoi
-ID:Trm0048e-Alto   	L718	V9:	[TACET]
-ID:Trm0048e-Tenore 	L740	V9:	La lingua e se non vuoi
-ID:Trm0048e-Basso  	L762	V9:	La lingu'e se non vuoi
-ID:Trm0048e-Quinto 	L784	V9:	La lingua e se non vuoi
-ID:Trm0048f-Canto  	L806	V9:	La lingua e se non vuoi
-ID:Trm0048f-Alto   	L828	V9:	La lingua e se non vuoi
-ID:Trm0048f-Tenore 	L850	V9:	La lingua e se non vuoi
-ID:Trm0048f-Basso  	L872	V9:	La lingua e se non vuoi
-ID:Trm0048f-Quinto 	L894	V9:	La lingua e se non vuoi
-ID:Trm0048g-Alto   	L916	V9:	La lingua, e se non vuoi
-ID:Trm0048g-Tenore 	L938	V9:	La lingua, e se non vuoi
-ID:Trm0048g-Basso  	L960	V9:	La lingua, e se non vuoi
+ID:C               	L40	V9:	la lingua, e se pur non vuoi
+ID:E1              	L62	V9:	<del>La disciogli,</del> Disciogli, e se non vuoi
+ID:Flc2            	L95	V9:	Sciogli, e se pur non vuoi
+ID:Ts1             	L129	V9:	La lingua, e se non vuoi
+ID:S4              	L174	V9:	La lingua, e se non vuoi
+ID:S8              	L197	V9:	La lingua, e se non vuoi,
+ID:S9              	L220	V9:	La lingua, e se non vuoi,
+ID:S11             	L243	V9:	La lingua, e se non vuoi
+ID:S12             	L266	V9:	La lingua, e se non vuoi
+ID:S13             	L289	V9:	La lingua, e se non vuoi
+ID:S20             	L323	V9:	La lingua, e, se non vuoi,
+ID:S29             	L357	V9:	La lingua, e se non vuoi,
+ID:S145            	L401	V9:	La lingua, e se non vuoi,
+ID:Trm0048a-Canto  	L423	V9:	Che mi string’un sol men di lacci tuoi
+ID:Trm0048a-Alto   	L444	V9:	la lingua e se non vuoi
+ID:Trm0048a-Tenore 	L466	V9:	La lingua e se non vuoi
+ID:Trm0048a-Basso  	L488	V9:	la lingua e se non vuoi
+ID:Trm0048a-Quinto 	L510	V9:	La lingua [TACET]
+ID:Trm0048b-Canto  	L531	V9:	La lingua & se non vuoi
+ID:Trm0048b-Tenore 	L553	V9:	La lingua [TACET]
+ID:Trm0048b-Basso  	L575	V9:	La lingua & se non vuoi
+ID:Trm0048b-Quinto 	L597	V9:	La lingua & se non vuoi
+ID:Trm0048c-Canto  	L620	V9:	La lingua e se non vuoi
+ID:Trm0048c-Quinto 	L643	V9:	La lingua e se non vuoi
+ID:Trm0048e-Canto  	L720	V9:	La lingua e se non vuoi
+ID:Trm0048e-Alto   	L742	V9:	[TACET]
+ID:Trm0048e-Tenore 	L764	V9:	La lingua e se non vuoi
+ID:Trm0048e-Basso  	L786	V9:	La lingu'e se non vuoi
+ID:Trm0048e-Quinto 	L808	V9:	La lingua e se non vuoi
+ID:Trm0048f-Canto  	L830	V9:	La lingua e se non vuoi
+ID:Trm0048f-Alto   	L852	V9:	La lingua e se non vuoi
+ID:Trm0048f-Tenore 	L874	V9:	La lingua e se non vuoi
+ID:Trm0048f-Basso  	L896	V9:	La lingua e se non vuoi
+ID:Trm0048f-Quinto 	L918	V9:	La lingua e se non vuoi
+ID:Trm0048g-Alto   	L940	V9:	La lingua, e se non vuoi
+ID:Trm0048g-Tenore 	L962	V9:	La lingua, e se non vuoi
+ID:Trm0048g-Basso  	L984	V9:	La lingua, e se non vuoi
 
-ID:E1              	L52	V10:	Tanti n’agiungi in quella vece al core
-ID:Flc2            	L84	V10:	Che mi stringa un sol men de lacci tuoi,
-ID:S4              	L151	V10:	Che mi stringa un sol men de’ lacci tuoi,
-ID:S8              	L174	V10:	Che mi stringa un sol men de’ lacci tuoi,
-ID:S9              	L197	V10:	Che mi stringa un sol men de’ lacci tuoi,
-ID:S11             	L220	V10:	<del>Che mi stringa un sol men</del> ^Meno stringete un sol^ de’ lacci tuoi,
-ID:S12             	L243	V10:	Che mi stringa un sol men de’ lacci tuoi,
-ID:S13             	L266	V10:	Che mi stringa un sol men de’ lacci tuoi,
-ID:S20             	L300	V10:	Che mi stringa un sol men de’ lacci tuoi,
-ID:S29             	L334	V10:	Che mi stringa un sol men de’ lacci tuoi,
-ID:S145            	L378	V10:	Che mi stringa un sol men de lacci tuoi,
-ID:Trm0048a-Canto  	L400	V10:	Tanti n’aggiungi in quella vec’al core.
-ID:Trm0048a-Alto   	L421	V10:	Che mi string’un sol men di lacci tuoi
-ID:Trm0048a-Tenore 	L443	V10:	Che mi string’un sol men di lacci tuoi
-ID:Trm0048a-Basso  	L465	V10:	Che mi string’un sol men di lacci tuoi
-ID:Trm0048a-Quinto 	L487	V10:	Tanti n’aggiungi in quella vece al core.
-ID:Trm0048b-Canto  	L508	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048b-Tenore 	L530	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048b-Basso  	L552	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048b-Quinto 	L574	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048c-Canto  	L597	V10:	Che mi stringa un sol men de lacci tuoi
-ID:Trm0048c-Quinto 	L620	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048e-Canto  	L697	V10:	Che mi stringa un sol men de lacci tuoi
-ID:Trm0048e-Alto   	L719	V10:	Che mi stringa un sol men de lacci tuoi
-ID:Trm0048e-Tenore 	L741	V10:	Che mi string'un sol men de lacci tuoi
-ID:Trm0048e-Basso  	L763	V10:	[TACET]
-ID:Trm0048e-Quinto 	L785	V10:	Che mi string'un sol men de lacci tuoi
-ID:Trm0048f-Canto  	L807	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048f-Alto   	L829	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048f-Tenore 	L851	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048f-Basso  	L873	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048f-Quinto 	L895	V10:	Che mi string’un sol men de lacci tuoi
-ID:Trm0048g-Alto   	L917	V10:	Che mi stringa un sol men de lacci tuoi
-ID:Trm0048g-Tenore 	L939	V10:	Che mi stringa un sol men de lacci tuoi,
-ID:Trm0048g-Basso  	L961	V10:	Che mi stringa un sol men de lacci tuoi,
+ID:C               	L41	V10:	Meno stringere un sol de' lacci tuoi
+ID:E1              	L63	V10:	fieno stringer un sol de’ lacci tuoi
+ID:Flc2            	L96	V10:	Che mi stringa un sol men de lacci tuoi,
+ID:Ts1             	L130	V10:	<del>Che mi stringa un sol men</del> ^Meno stringete un sol^ de’ lacci tuoi,
+ID:S4              	L175	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S8              	L198	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S9              	L221	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S11             	L244	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S12             	L267	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S13             	L290	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S20             	L324	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S29             	L358	V10:	Che mi stringa un sol men de’ lacci tuoi,
+ID:S145            	L402	V10:	Che mi stringa un sol men de lacci tuoi,
+ID:Trm0048a-Canto  	L424	V10:	Tanti n’aggiungi in quella vec’al core.
+ID:Trm0048a-Alto   	L445	V10:	Che mi string’un sol men di lacci tuoi
+ID:Trm0048a-Tenore 	L467	V10:	Che mi string’un sol men di lacci tuoi
+ID:Trm0048a-Basso  	L489	V10:	Che mi string’un sol men di lacci tuoi
+ID:Trm0048a-Quinto 	L511	V10:	Tanti n’aggiungi in quella vece al core.
+ID:Trm0048b-Canto  	L532	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048b-Tenore 	L554	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048b-Basso  	L576	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048b-Quinto 	L598	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048c-Canto  	L621	V10:	Che mi stringa un sol men de lacci tuoi
+ID:Trm0048c-Quinto 	L644	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048e-Canto  	L721	V10:	Che mi stringa un sol men de lacci tuoi
+ID:Trm0048e-Alto   	L743	V10:	Che mi stringa un sol men de lacci tuoi
+ID:Trm0048e-Tenore 	L765	V10:	Che mi string'un sol men de lacci tuoi
+ID:Trm0048e-Basso  	L787	V10:	[TACET]
+ID:Trm0048e-Quinto 	L809	V10:	Che mi string'un sol men de lacci tuoi
+ID:Trm0048f-Canto  	L831	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048f-Alto   	L853	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048f-Tenore 	L875	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048f-Basso  	L897	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048f-Quinto 	L919	V10:	Che mi string’un sol men de lacci tuoi
+ID:Trm0048g-Alto   	L941	V10:	Che mi stringa un sol men de lacci tuoi
+ID:Trm0048g-Tenore 	L963	V10:	Che mi stringa un sol men de lacci tuoi,
+ID:Trm0048g-Basso  	L985	V10:	Che mi stringa un sol men de lacci tuoi,
 
-ID:Flc2            	L85	V11:	Mille n’aggiungi in quella vece al core!
-ID:S4              	L152	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S8              	L175	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S9              	L198	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S11             	L221	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S12             	L244	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S13             	L267	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S20             	L301	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S29             	L335	V11:	Tanti n’aggiungi in quella vece al core.
-ID:S145            	L379	V11:	Tanti n’aggiungi in quella vece al core.
-ID:Trm0048a-Alto   	L422	V11:	Tanti n’aggiungi in quella vec’al core.
-ID:Trm0048a-Tenore 	L444	V11:	Tanti n'aggiungi in quella vec’al core.
-ID:Trm0048a-Basso  	L466	V11:	Tanti n’aggiungi in quella vece al core.
-ID:Trm0048b-Canto  	L509	V11:	Tanti n’agiung’in quella vece al core.
-ID:Trm0048b-Tenore 	L531	V11:	Tanti n’agiung’in quella vece al core.
-ID:Trm0048b-Basso  	L553	V11:	Tanti n’agiung’in quella vece al core.
-ID:Trm0048b-Quinto 	L575	V11:	Tanti n’agiung’in quella vece al core.
-ID:Trm0048c-Canto  	L598	V11:	Tanti n’aggiungi in quella vece al core.
-ID:Trm0048c-Quinto 	L621	V11:	Tanti n’aggiungi in quella vece al core.
-ID:Trm0048e-Canto  	L698	V11:	Tanti n’aggiungi in quella voce al core.
-ID:Trm0048e-Alto   	L720	V11:	Tanti n’aggiung'in quella voce al core.
-ID:Trm0048e-Tenore 	L742	V11:	Tanti n’aggiung'in quella voce al core.
-ID:Trm0048e-Basso  	L764	V11:	Tanti n’aggiung'in quella voce al core.
-ID:Trm0048e-Quinto 	L786	V11:	Tanti n’aggiung'in quella voce al core.
-ID:Trm0048f-Canto  	L808	V11:	Tanti n'aggiungi in quella vece al core.
-ID:Trm0048f-Alto   	L830	V11:	Tanti n'aggiungi in quella vece al core.
-ID:Trm0048f-Tenore 	L852	V11:	Tanti n'aggiungi in quella vece al core.
-ID:Trm0048f-Basso  	L874	V11:	Tanti n'aggiungi in quella vece al core.
-ID:Trm0048f-Quinto 	L896	V11:	Tanti n'aggiungi in quella vece al core.
-ID:Trm0048g-Alto   	L918	V11:	Tanti n’aggiung’in quella vece al core.
-ID:Trm0048g-Tenore 	L940	V11:	Tanti n’aggiung’in quella vece al core.
-ID:Trm0048g-Basso  	L962	V11:	Tanti n’aggiung’in quella vece al core.
+ID:C               	L42	V11:	Tanti n'aggiungi in quella vece al core.
+ID:E1              	L64	V11:	Tanti n’agiungi in quella vece al core
+ID:Flc2            	L97	V11:	Mille n’aggiungi in quella vece al core!
+ID:Ts1             	L131	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S4              	L176	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S8              	L199	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S9              	L222	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S11             	L245	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S12             	L268	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S13             	L291	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S20             	L325	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S29             	L359	V11:	Tanti n’aggiungi in quella vece al core.
+ID:S145            	L403	V11:	Tanti n’aggiungi in quella vece al core.
+ID:Trm0048a-Alto   	L446	V11:	Tanti n’aggiungi in quella vec’al core.
+ID:Trm0048a-Tenore 	L468	V11:	Tanti n'aggiungi in quella vec’al core.
+ID:Trm0048a-Basso  	L490	V11:	Tanti n’aggiungi in quella vece al core.
+ID:Trm0048b-Canto  	L533	V11:	Tanti n’agiung’in quella vece al core.
+ID:Trm0048b-Tenore 	L555	V11:	Tanti n’agiung’in quella vece al core.
+ID:Trm0048b-Basso  	L577	V11:	Tanti n’agiung’in quella vece al core.
+ID:Trm0048b-Quinto 	L599	V11:	Tanti n’agiung’in quella vece al core.
+ID:Trm0048c-Canto  	L622	V11:	Tanti n’aggiungi in quella vece al core.
+ID:Trm0048c-Quinto 	L645	V11:	Tanti n’aggiungi in quella vece al core.
+ID:Trm0048e-Canto  	L722	V11:	Tanti n’aggiungi in quella voce al core.
+ID:Trm0048e-Alto   	L744	V11:	Tanti n’aggiung'in quella voce al core.
+ID:Trm0048e-Tenore 	L766	V11:	Tanti n’aggiung'in quella voce al core.
+ID:Trm0048e-Basso  	L788	V11:	Tanti n’aggiung'in quella voce al core.
+ID:Trm0048e-Quinto 	L810	V11:	Tanti n’aggiung'in quella voce al core.
+ID:Trm0048f-Canto  	L832	V11:	Tanti n'aggiungi in quella vece al core.
+ID:Trm0048f-Alto   	L854	V11:	Tanti n'aggiungi in quella vece al core.
+ID:Trm0048f-Tenore 	L876	V11:	Tanti n'aggiungi in quella vece al core.
+ID:Trm0048f-Basso  	L898	V11:	Tanti n'aggiungi in quella vece al core.
+ID:Trm0048f-Quinto 	L920	V11:	Tanti n'aggiungi in quella vece al core.
+ID:Trm0048g-Alto   	L942	V11:	Tanti n’aggiung’in quella vece al core.
+ID:Trm0048g-Tenore 	L964	V11:	Tanti n’aggiung’in quella vece al core.
+ID:Trm0048g-Basso  	L986	V11:	Tanti n’aggiung’in quella vece al core.
 

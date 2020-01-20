@@ -1,72 +1,81 @@
-ID:S28             	L32	V1:	Messaggiera de l’Alba
-ID:S48             	L54	V1:	Messagiera de l’alba
-ID:S167            	L98	V1:	Messaggera de l’Alba
-ID:Trm0139a-Canto  	L130	V1:	Messaggiera de l’Alba
-ID:Trm0139a-Alto   	L152	V1:	Messaggiera de l’Alba
-ID:Trm0139a-Tenore 	L174	V1:	Messaggiera de l’Alba
-ID:Trm0139a-Basso  	L196	V1:	Messaggiera de l’Alba
+ID:C               	L10	V1:	Messaggiera de l’Alba,
+ID:S28             	L43	V1:	Messaggiera de l’Alba
+ID:S48             	L65	V1:	Messagiera de l’alba
+ID:S167            	L109	V1:	Messaggera de l’Alba
+ID:Trm0139a-Canto  	L141	V1:	Messaggiera de l’Alba
+ID:Trm0139a-Alto   	L163	V1:	Messaggiera de l’Alba
+ID:Trm0139a-Tenore 	L185	V1:	Messaggiera de l’Alba
+ID:Trm0139a-Basso  	L207	V1:	Messaggiera de l’Alba
 
-ID:S28             	L33	V2:	E quest’aura terrena,
-ID:S48             	L55	V2:	È quest’aura terrena
-ID:S167            	L99	V2:	E quest’Aura serena,
-ID:Trm0139a-Canto  	L131	V2:	E quest’aura terrena
-ID:Trm0139a-Alto   	L153	V2:	E quest’aura terrena
-ID:Trm0139a-Tenore 	L175	V2:	E quest’aura terrena
-ID:Trm0139a-Basso  	L197	V2:	E quest’aura terrena
+ID:C               	L11	V2:	e quest’aura terrena
+ID:S28             	L44	V2:	E quest’aura terrena,
+ID:S48             	L66	V2:	È quest’aura terrena
+ID:S167            	L110	V2:	E quest’Aura serena,
+ID:Trm0139a-Canto  	L142	V2:	E quest’aura terrena
+ID:Trm0139a-Alto   	L164	V2:	E quest’aura terrena
+ID:Trm0139a-Tenore 	L186	V2:	E quest’aura terrena
+ID:Trm0139a-Basso  	L208	V2:	E quest’aura terrena
 
-ID:S28             	L34	V3:	E torbida talhor, talhor serena.
-ID:S48             	L56	V3:	E torbida talhor serena.
-ID:S167            	L100	V3:	E torbida tal'hor, tal'hor serena;
-ID:Trm0139a-Canto  	L132	V3:	E torbida tal hor tal hor serena.
-ID:Trm0139a-Alto   	L154	V3:	E torbida tal hor tal hor serena.
-ID:Trm0139a-Tenore 	L176	V3:	E torbida tal hor tal hor serena.
-ID:Trm0139a-Basso  	L198	V3:	E torbida tal hor tal hor serena.
+ID:C               	L12	V3:	e torbida talhor, talhor serena.
+ID:S28             	L45	V3:	E torbida talhor, talhor serena.
+ID:S48             	L67	V3:	E torbida talhor serena.
+ID:S167            	L111	V3:	E torbida tal'hor, tal'hor serena;
+ID:Trm0139a-Canto  	L143	V3:	E torbida tal hor tal hor serena.
+ID:Trm0139a-Alto   	L165	V3:	E torbida tal hor tal hor serena.
+ID:Trm0139a-Tenore 	L187	V3:	E torbida tal hor tal hor serena.
+ID:Trm0139a-Basso  	L209	V3:	E torbida tal hor tal hor serena.
 
-ID:S28             	L36	V4:	L’aura mia par celeste,
-ID:S48             	L58	V4:	Laura mia par celeste,
-ID:S167            	L102	V4:	L’Aura mia par celeste,
-ID:Trm0139a-Canto  	L134	V4:	L’aura mia par celeste
-ID:Trm0139a-Alto   	L156	V4:	L’aura mia par celeste
-ID:Trm0139a-Tenore 	L178	V4:	L’aura mia par celeste
-ID:Trm0139a-Basso  	L200	V4:	L’aura mia par celeste
+ID:C               	L14	V4:	Laura mia par celeste
+ID:S28             	L47	V4:	L’aura mia par celeste,
+ID:S48             	L69	V4:	Laura mia par celeste,
+ID:S167            	L113	V4:	L’Aura mia par celeste,
+ID:Trm0139a-Canto  	L145	V4:	L’aura mia par celeste
+ID:Trm0139a-Alto   	L167	V4:	L’aura mia par celeste
+ID:Trm0139a-Tenore 	L189	V4:	L’aura mia par celeste
+ID:Trm0139a-Basso  	L211	V4:	L’aura mia par celeste
 
-ID:S28             	L37	V5:	Così bella io la veggio
-ID:S48             	L59	V5:	Cosi bella io la veggio
-ID:S167            	L103	V5:	Così bella io la veggio
-ID:Trm0139a-Canto  	L135	V5:	Cosi bella io la veggio
-ID:Trm0139a-Alto   	L157	V5:	Cosi bella io la veggio
-ID:Trm0139a-Tenore 	L179	V5:	Cosi bella io la veggio
-ID:Trm0139a-Basso  	L201	V5:	Cosi bella Idea veggio
+ID:C               	L15	V5:	cosi bella io la veggio
+ID:S28             	L48	V5:	Così bella io la veggio
+ID:S48             	L70	V5:	Cosi bella io la veggio
+ID:S167            	L114	V5:	Così bella io la veggio
+ID:Trm0139a-Canto  	L146	V5:	Cosi bella io la veggio
+ID:Trm0139a-Alto   	L168	V5:	Cosi bella io la veggio
+ID:Trm0139a-Tenore 	L190	V5:	Cosi bella io la veggio
+ID:Trm0139a-Basso  	L212	V5:	Cosi bella Idea veggio
 
-ID:S28             	L38	V6:	Dopo l’Aurora in fresco; e verde seggio.
-ID:S48             	L60	V6:	Dopo l’Aurora in fresco e verde seggio.
-ID:S167            	L104	V6:	Doppo l’Aurora in fresco, e verde seggio.
-ID:Trm0139a-Canto  	L136	V6:	Dopo l’aurora in fresco e verde seggio.
-ID:Trm0139a-Alto   	L158	V6:	Dopo l’aurora in fresco e verde seggio.
-ID:Trm0139a-Tenore 	L180	V6:	Dopo l’aurora in fresco e verde seggio.
-ID:Trm0139a-Basso  	L202	V6:	Dopo l’aurora in fresco e verde seggio.
+ID:C               	L16	V6:	Dopo l’aurora in <del>questo</del> ^fresco^ e verde seggio:
+ID:S28             	L49	V6:	Dopo l’Aurora in fresco; e verde seggio.
+ID:S48             	L71	V6:	Dopo l’Aurora in fresco e verde seggio.
+ID:S167            	L115	V6:	Doppo l’Aurora in fresco, e verde seggio.
+ID:Trm0139a-Canto  	L147	V6:	Dopo l’aurora in fresco e verde seggio.
+ID:Trm0139a-Alto   	L169	V6:	Dopo l’aurora in fresco e verde seggio.
+ID:Trm0139a-Tenore 	L191	V6:	Dopo l’aurora in fresco e verde seggio.
+ID:Trm0139a-Basso  	L213	V6:	Dopo l’aurora in fresco e verde seggio.
 
-ID:S28             	L40	V7:	Di fior l’una riveste
-ID:S48             	L62	V7:	Di fior l’una si veste
-ID:S167            	L105	V7:	Di fior l’una riveste
-ID:Trm0139a-Canto  	L138	V7:	Di fior l’una si veste
-ID:Trm0139a-Alto   	L160	V7:	Di fior l’una si veste
-ID:Trm0139a-Tenore 	L182	V7:	Di fior l’una si veste
-ID:Trm0139a-Basso  	L204	V7:	Di fior l’una si veste
+ID:C               	L18	V7:	<del>l'una di fior</del> ^Di fior l’una ri^veste
+ID:S28             	L51	V7:	Di fior l’una riveste
+ID:S48             	L73	V7:	Di fior l’una si veste
+ID:S167            	L116	V7:	Di fior l’una riveste
+ID:Trm0139a-Canto  	L149	V7:	Di fior l’una si veste
+ID:Trm0139a-Alto   	L171	V7:	Di fior l’una si veste
+ID:Trm0139a-Tenore 	L193	V7:	Di fior l’una si veste
+ID:Trm0139a-Basso  	L215	V7:	Di fior l’una si veste
 
-ID:S28             	L41	V8:	Il dilettoso Aprile,
-ID:S48             	L63	V8:	Il dilettoso Aprile
-ID:S167            	L106	V8:	Il dilettoso Aprile,
-ID:Trm0139a-Canto  	L139	V8:	Del dilettoso Aprile
-ID:Trm0139a-Alto   	L161	V8:	Del dilettoso Aprile
-ID:Trm0139a-Tenore 	L183	V8:	Del dilettoso Aprile
-ID:Trm0139a-Basso  	L205	V8:	Del dilettoso Aprile
+ID:C               	L19	V8:	il dilettoso Aprile,
+ID:S28             	L52	V8:	Il dilettoso Aprile,
+ID:S48             	L74	V8:	Il dilettoso Aprile
+ID:S167            	L117	V8:	Il dilettoso Aprile,
+ID:Trm0139a-Canto  	L150	V8:	Del dilettoso Aprile
+ID:Trm0139a-Alto   	L172	V8:	Del dilettoso Aprile
+ID:Trm0139a-Tenore 	L194	V8:	Del dilettoso Aprile
+ID:Trm0139a-Basso  	L216	V8:	Del dilettoso Aprile
 
-ID:S28             	L42	V9:	L’altra fiorir fà l’amoroso stile.
-ID:S48             	L64	V9:	L’altra fiorir fà l’amoroso stile.
-ID:S167            	L107	V9:	L’altra fiorir fà l’amoroso stile.
-ID:Trm0139a-Canto  	L140	V9:	L’altra fiorir fà l’amoroso stile.
-ID:Trm0139a-Alto   	L162	V9:	L’altra fiorir fà l’amoroso stile.
-ID:Trm0139a-Tenore 	L184	V9:	L’altra fiorir fà l’amoroso stile.
-ID:Trm0139a-Basso  	L206	V9:	L’altra fiorir fà l’amoroso stile.
+ID:C               	L20	V9:	l’altra fiorir fà l’amoroso stile.
+ID:S28             	L53	V9:	L’altra fiorir fà l’amoroso stile.
+ID:S48             	L75	V9:	L’altra fiorir fà l’amoroso stile.
+ID:S167            	L118	V9:	L’altra fiorir fà l’amoroso stile.
+ID:Trm0139a-Canto  	L151	V9:	L’altra fiorir fà l’amoroso stile.
+ID:Trm0139a-Alto   	L173	V9:	L’altra fiorir fà l’amoroso stile.
+ID:Trm0139a-Tenore 	L195	V9:	L’altra fiorir fà l’amoroso stile.
+ID:Trm0139a-Basso  	L217	V9:	L’altra fiorir fà l’amoroso stile.
 

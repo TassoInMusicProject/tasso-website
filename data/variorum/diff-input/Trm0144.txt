@@ -1,104 +1,136 @@
-ID:Ts2             	L21	V1:	Hore fermate il volo
-ID:S22             	L68	V1:	Hore fermate il volo
-ID:S22a            	L93	V1:	Hore fermate il volo
-ID:S48             	L151	V1:	Hore fermate il volo
-ID:S85             	L191	V1:	Hore fermate il volo
-ID:S87             	L216	V1:	Hore fermate il volo
+ID:C               	L10	V1:	Hore fermate il volo
+ID:Ts2             	L39	V1:	Hore fermate il volo
+ID:S22             	L89	V1:	Hore fermate il volo
+ID:S22a            	L117	V1:	Hore fermate il volo
+ID:S48             	L178	V1:	Hore fermate il volo
+ID:S85             	L218	V1:	Hore fermate il volo
+ID:S87             	L246	V1:	Hore fermate il volo
 
-ID:Ts2             	L22	V2:	Mentre sen vola il Ciel rapidamente
-ID:S22             	L69	V2:	Mentre sen vola il Ciel rapidamente
-ID:S22a            	L94	V2:	Mentre sen vola il Ciel rapidamente
-ID:S48             	L152	V2:	Ne l'oriente hor ch'un bel dì vien fore
-ID:S85             	L192	V2:	Nel lucido Oriente,
-ID:S87             	L217	V2:	Nel lucido Oriente,
+ID:C               	L11	V2:	Ne l'oriente hor ch'un bel di vien fore
+ID:Ts2             	L40	V2:	Mentre sen vola il Ciel rapidamente
+ID:S22             	L90	V2:	Mentre sen vola il Ciel rapidamente
+ID:S22a            	L118	V2:	Mentre sen vola il Ciel rapidamente
+ID:S48             	L179	V2:	Ne l'oriente hor ch'un bel dì vien fore
+ID:S85             	L219	V2:	Nel lucido Oriente,
+ID:S87             	L247	V2:	Nel lucido Oriente,
 
-ID:Ts2             	L23	V3:	Nel lucido Oriente.
-ID:S22             	L70	V3:	Nel lucido Oriente.
-ID:S22a            	L95	V3:	Nel lucido Oriente.
-ID:S48             	L153	V3:	Con si lieto splendore,
-ID:S85             	L193	V3:	Mentre se’n vola il Ciel rapidamente;
-ID:S87             	L218	V3:	Mentre se ’n vola il Ciel rapidamente;
+ID:C               	L12	V3:	con si lieto splendore.
+ID:Ts2             	L41	V3:	Nel lucido Oriente.
+ID:S22             	L91	V3:	Nel lucido Oriente.
+ID:S22a            	L119	V3:	Nel lucido Oriente.
+ID:S48             	L180	V3:	Con si lieto splendore,
+ID:S85             	L220	V3:	Mentre se’n vola il Ciel rapidamente;
+ID:S87             	L248	V3:	Mentre se ’n vola il Ciel rapidamente;
 
-ID:Ts2             	L24	V4:	E carolando intorno
-ID:S22             	L71	V4:	E carolando intorno
-ID:S22a            	L96	V4:	E carolando intorno
-ID:S48             	L154	V4:	E carolando intorno
-ID:S85             	L194	V4:	E carolando intorno
-ID:S87             	L219	V4:	E carolando intorno
+ID:C               	L13	V4:	E <del>girandosi</del> ^carolando^ intorno
+ID:Ts2             	L42	V4:	E carolando intorno
+ID:S22             	L92	V4:	E carolando intorno
+ID:S22a            	L120	V4:	E carolando intorno
+ID:S48             	L181	V4:	E carolando intorno
+ID:S85             	L221	V4:	E carolando intorno
+ID:S87             	L249	V4:	E carolando intorno
 
-ID:Ts2             	L25	V5:	A l’aura mattutina,
-ID:S22             	L72	V5:	A l’aura mattutina,
-ID:S22a            	L97	V5:	A l’aura mattutina,
-ID:S48             	L155	V5:	A l’alba matutina,
-ID:S85             	L195	V5:	A l’Alba mattutina,
-ID:S87             	L220	V5:	A l’Alba mattutina,
+ID:C               	L14	V5:	A l’Alba matutina,
+ID:Ts2             	L43	V5:	A l’aura mattutina,
+ID:S22             	L93	V5:	A l’aura mattutina,
+ID:S22a            	L121	V5:	A l’aura mattutina,
+ID:S48             	L182	V5:	A l’alba matutina,
+ID:S85             	L222	V5:	A l’Alba mattutina,
+ID:S87             	L250	V5:	A l’Alba mattutina,
 
-ID:Ts2             	L26	V6:	Ch’esce da la marina,
-ID:S22             	L73	V6:	Ch’esce da la marina,
-ID:S22a            	L98	V6:	Ch’esce da la marina,
-ID:S48             	L156	V6:	Ch’esce de la marina,
-ID:S85             	L196	V6:	Ch’esce da la marina,
-ID:S87             	L221	V6:	Ch’esce da la marina,
+ID:C               	L15	V6:	ch’esce de la marina
+ID:Ts2             	L44	V6:	Ch’esce da la marina,
+ID:S22             	L94	V6:	Ch’esce da la marina,
+ID:S22a            	L122	V6:	Ch’esce da la marina,
+ID:S48             	L183	V6:	Ch’esce de la marina,
+ID:S85             	L223	V6:	Ch’esce da la marina,
+ID:S87             	L251	V6:	Ch’esce da la marina,
 
-ID:Ts2             	L27	V7:	L’humana vita prolungate, e’l giorno.
-ID:S22             	L74	V7:	L’humana vita prolungate, e’l giorno.
-ID:S22a            	L99	V7:	L’humana vita prolungate, e’l giorno.
-ID:S48             	L157	V7:	La nostra vita ritardate e’l giorno,
-ID:S85             	L197	V7:	L’humana vita ritardate, e’l giorno.
-ID:S87             	L222	V7:	L’humana vita ritardate, e ’l giorno.
+ID:C               	L16	V7:	la nostra vita <del>prolungate</del> ^ritardate^, e’l giorno.
+ID:Ts2             	L45	V7:	L’humana vita prolungate, e’l giorno.
+ID:S22             	L95	V7:	L’humana vita prolungate, e’l giorno.
+ID:S22a            	L123	V7:	L’humana vita prolungate, e’l giorno.
+ID:S48             	L184	V7:	La nostra vita ritardate e’l giorno,
+ID:S85             	L224	V7:	L’humana vita ritardate, e’l giorno.
+ID:S87             	L252	V7:	L’humana vita ritardate, e ’l giorno.
 
-ID:Ts2             	L28	V8:	E voi, aure veloci,
-ID:S22             	L75	V8:	E voi, aure veloci,
-ID:S22a            	L100	V8:	E voi, aure veloci,
-ID:S48             	L158	V8:	Il qual nel suo ritorno
-ID:S85             	L198	V8:	E voi, aure veloci,
-ID:S87             	L223	V8:	E voi, aure veloci,
+ID:C               	L17	V8:	il qual nel suo ritorno
+ID:Ts2             	L46	V8:	[OMITTED]
+ID:S22             	L96	V8:	[OMITTED]
+ID:S22a            	L124	V8:	[OMITTED]
+ID:S48             	L185	V8:	Il qual nel suo ritorno
+ID:S85             	L225	V8:	[OMITTED]
+ID:S87             	L253	V8:	[OMITTED]
 
-ID:Ts2             	L29	V9:	Portate i miei sospiri
-ID:S22             	L76	V9:	Portate i miei sospiri
-ID:S22a            	L101	V9:	Portate i miei sospiri
-ID:S48             	L159	V9:	Benche più bel rinasca ò ver maggiore
-ID:S85             	L199	V9:	Portate i miei sospiri
-ID:S87             	L224	V9:	Portate i miei sospiri
+ID:C               	L18	V9:	<del>perche</del> ^benche^ piu bel rinasca, o ver maggiore,
+ID:Ts2             	L47	V9:	[OMITTED]
+ID:S22             	L97	V9:	[OMITTED]
+ID:S22a            	L125	V9:	[OMITTED]
+ID:S48             	L186	V9:	Benche più bel rinasca ò ver maggiore
+ID:S85             	L226	V9:	[OMITTED]
+ID:S87             	L254	V9:	[OMITTED]
 
-ID:Ts2             	L30	V10:	Là, dove l’aura spiri;
-ID:S22             	L77	V10:	Là, dove l’aura spiri;
-ID:S22a            	L102	V10:	Là, dove l’aura spiri;
-ID:S48             	L160	V10:	Non la rende à chi more.
-ID:S85             	L200	V10:	Là, dove laura spiri;
-ID:S87             	L225	V10:	Là, dove laura spiri;
+ID:C               	L19	V10:	Non la rende a chi more.
+ID:Ts2             	L48	V10:	[OMITTED]
+ID:S22             	L98	V10:	[OMITTED]
+ID:S22a            	L126	V10:	[OMITTED]
+ID:S48             	L187	V10:	Non la rende à chi more.
+ID:S85             	L227	V10:	[OMITTED]
+ID:S87             	L255	V10:	[OMITTED]
 
-ID:Ts2             	L31	V11:	E riportate à me <del>sue dolci</del> ^le bramate^ voci
-ID:S22             	L78	V11:	E riportate à me sue dolci voci
-ID:S22a            	L103	V11:	E riportate à me sue dolci voci
-ID:S48             	L162	V11:	Aure veloci, e voi
-ID:S85             	L201	V11:	E riportate à me sue chiare voci
-ID:S87             	L226	V11:	E riportate à me sue chiare voci
+ID:C               	L21	V11:	Aure veloci, e voi
+ID:Ts2             	L49	V11:	E voi, aure veloci,
+ID:S22             	L99	V11:	E voi, aure veloci,
+ID:S22a            	L127	V11:	E voi, aure veloci,
+ID:S48             	L189	V11:	Aure veloci, e voi
+ID:S85             	L228	V11:	E voi, aure veloci,
+ID:S87             	L256	V11:	E voi, aure veloci,
 
-ID:Ts2             	L32	V12:	Sì, che l’ascolti io solo
-ID:S22             	L79	V12:	Sì, che l’ascolti io solo
-ID:S22a            	L104	V12:	Sì, che l’ascolti io solo
-ID:S48             	L163	V12:	Portate i miei sospiri
-ID:S85             	L202	V12:	Sì, che l’ascolti io solo,
-ID:S87             	L227	V12:	Sì, che l’ascolti io solo,
+ID:C               	L22	V12:	portate i miei sospiri,
+ID:Ts2             	L50	V12:	Portate i miei sospiri
+ID:S22             	L100	V12:	Portate i miei sospiri
+ID:S22a            	L128	V12:	Portate i miei sospiri
+ID:S48             	L190	V12:	Portate i miei sospiri
+ID:S85             	L229	V12:	Portate i miei sospiri
+ID:S87             	L257	V12:	Portate i miei sospiri
 
-ID:Ts2             	L33	V13:	Sol voi presenti, e’l Signor nostro Amore,
-ID:S22             	L80	V13:	Sol voi presenti, e’l Signor nostro Amore,
-ID:S22a            	L105	V13:	Sol voi presenti, e’l Signor nostro Amore,
-ID:S48             	L164	V13:	La dove l'aura spiri,
-ID:S85             	L203	V13:	Sol voi presenti, e’l signor nostro Amore,
-ID:S87             	L228	V13:	Sol voi presenti, e ’l Signor nostro Amore,
+ID:C               	L23	V13:	la dove l’aura spiri
+ID:Ts2             	L51	V13:	Là, dove l’aura spiri;
+ID:S22             	L101	V13:	Là, dove l’aura spiri;
+ID:S22a            	L129	V13:	Là, dove l’aura spiri;
+ID:S48             	L191	V13:	La dove l'aura spiri,
+ID:S85             	L230	V13:	Là, dove laura spiri;
+ID:S87             	L258	V13:	Là, dove laura spiri;
 
-ID:Ts2             	L34	V14:	Aure soavi, & hore.
-ID:S22             	L81	V14:	Aure soavi, & hore.
-ID:S22a            	L106	V14:	Aure soavi, & hore.
-ID:S48             	L165	V14:	E riportate i chiari accenti suoi
-ID:S85             	L204	V14:	Aure soavi, & hore.
-ID:S87             	L229	V14:	Aure soavi, & hore.
+ID:C               	L24	V14:	e riportate i <del>dolci</del> ^chiari^ accenti suoi,
+ID:Ts2             	L52	V14:	E riportate à me <del>sue dolci</del> ^le bramate^ voci
+ID:S22             	L102	V14:	E riportate à me sue dolci voci
+ID:S22a            	L130	V14:	E riportate à me sue dolci voci
+ID:S48             	L192	V14:	E riportate i chiari accenti suoi
+ID:S85             	L231	V14:	E riportate à me sue chiare voci
+ID:S87             	L259	V14:	E riportate à me sue chiare voci
 
-ID:S48             	L166	V15:	Ov'io gli ascolti poi
+ID:C               	L25	V15:	ov'io gli ascolti poi,
+ID:Ts2             	L53	V15:	Sì, che l’ascolti io solo
+ID:S22             	L103	V15:	Sì, che l’ascolti io solo
+ID:S22a            	L131	V15:	Sì, che l’ascolti io solo
+ID:S48             	L193	V15:	Ov'io gli ascolti poi
+ID:S85             	L232	V15:	Sì, che l’ascolti io solo,
+ID:S87             	L260	V15:	Sì, che l’ascolti io solo,
 
-ID:S48             	L167	V16:	Sol voi presenti, e'l Signor nostro Amore
+ID:C               	L26	V16:	Sol voi presenti, e’l Signor nostro Amore,
+ID:Ts2             	L54	V16:	Sol voi presenti, e’l Signor nostro Amore,
+ID:S22             	L104	V16:	Sol voi presenti, e’l Signor nostro Amore,
+ID:S22a            	L132	V16:	Sol voi presenti, e’l Signor nostro Amore,
+ID:S48             	L194	V16:	Sol voi presenti, e'l Signor nostro Amore
+ID:S85             	L233	V16:	Sol voi presenti, e’l signor nostro Amore,
+ID:S87             	L261	V16:	Sol voi presenti, e ’l Signor nostro Amore,
 
-ID:S48             	L168	V17:	Aure soavi & hore.
+ID:C               	L27	V17:	Aure soavi, et ore.
+ID:Ts2             	L55	V17:	Aure soavi, & hore.
+ID:S22             	L105	V17:	Aure soavi, & hore.
+ID:S22a            	L133	V17:	Aure soavi, & hore.
+ID:S48             	L195	V17:	Aure soavi & hore.
+ID:S85             	L234	V17:	Aure soavi, & hore.
+ID:S87             	L262	V17:	Aure soavi, & hore.
 

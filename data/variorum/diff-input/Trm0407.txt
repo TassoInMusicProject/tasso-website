@@ -7,11 +7,12 @@ ID:S13             	L151	V1:	La natura compose
 ID:S16             	L175	V1:	La natura compose
 ID:S21             	L199	V1:	La natura compose
 ID:S30             	L245	V1:	La natura compose
-ID:Trm0407a-Canto  	L324	V1:	La Natura compose
-ID:Trm0407a-Alto   	L347	V1:	La Natura compose
-ID:Trm0407a-Tenore 	L370	V1:	La Natura compose
-ID:Trm0407a-Basso  	L393	V1:	[TACET]
-ID:Trm0407a-Quinto 	L416	V1:	La Natura compose
+ID:S169            	L311	V1:	La natura compose,
+ID:Trm0407a-Canto  	L334	V1:	La Natura compose
+ID:Trm0407a-Alto   	L357	V1:	La Natura compose
+ID:Trm0407a-Tenore 	L380	V1:	La Natura compose
+ID:Trm0407a-Basso  	L403	V1:	[TACET]
+ID:Trm0407a-Quinto 	L426	V1:	La Natura compose
 
 ID:E1              	L11	V2:	quest’odorato fiore
 ID:W               	L56	V2:	Cotesto vago fiore
@@ -22,11 +23,12 @@ ID:S13             	L152	V2:	Cotesto vago fiore,
 ID:S16             	L176	V2:	Cotesto vago fiore,
 ID:S21             	L200	V2:	Cotesto vago fiore,
 ID:S30             	L246	V2:	Cotesto vago fiore,
-ID:Trm0407a-Canto  	L325	V2:	cotesto vago fiore
-ID:Trm0407a-Alto   	L348	V2:	cotesto vago fiore
-ID:Trm0407a-Tenore 	L371	V2:	cotesto vago fiore
-ID:Trm0407a-Basso  	L394	V2:	[TACET]
-ID:Trm0407a-Quinto 	L417	V2:	cotesto vago fiore
+ID:S169            	L312	V2:	Cotesto vago fiore,
+ID:Trm0407a-Canto  	L335	V2:	cotesto vago fiore
+ID:Trm0407a-Alto   	L358	V2:	cotesto vago fiore
+ID:Trm0407a-Tenore 	L381	V2:	cotesto vago fiore
+ID:Trm0407a-Basso  	L404	V2:	[TACET]
+ID:Trm0407a-Quinto 	L427	V2:	cotesto vago fiore
 
 ID:E1              	L12	V3:	o pur bel magistero egli è d’Amore?
 ID:W               	L57	V3:	O pur del magistero è egli d’amore?
@@ -37,11 +39,12 @@ ID:S13             	L153	V3:	O pur del magistero è egli d’Amore?
 ID:S16             	L177	V3:	O pur del magistero è egli d’Amore?
 ID:S21             	L201	V3:	O pur del magistero è egli d’amore?
 ID:S30             	L247	V3:	O' pur del magistero egl'è d’Amore?
-ID:Trm0407a-Canto  	L326	V3:	O pur del Magisterio egli è d’amore
-ID:Trm0407a-Alto   	L349	V3:	O pur del Magisterio egli è d’amore
-ID:Trm0407a-Tenore 	L372	V3:	O pur del Magisterio egli è d’amore
-ID:Trm0407a-Basso  	L395	V3:	[TACET]
-ID:Trm0407a-Quinto 	L418	V3:	O pur del Magisterio egli è d’amore
+ID:S169            	L313	V3:	O pur bel magistero egli è d’Amore?
+ID:Trm0407a-Canto  	L336	V3:	O pur del Magisterio egli è d’amore
+ID:Trm0407a-Alto   	L359	V3:	O pur del Magisterio egli è d’amore
+ID:Trm0407a-Tenore 	L382	V3:	O pur del Magisterio egli è d’amore
+ID:Trm0407a-Basso  	L405	V3:	[TACET]
+ID:Trm0407a-Quinto 	L428	V3:	O pur del Magisterio egli è d’amore
 
 ID:E1              	L13	V4:	Deh chi tanto vicine
 ID:W               	L59	V4:	Deh chi cosi vicine
@@ -52,11 +55,12 @@ ID:S13             	L155	V4:	Deh chi così vicine
 ID:S16             	L179	V4:	Deh, chi così vicine
 ID:S21             	L203	V4:	Deh chi cosi vicine
 ID:S30             	L249	V4:	Deh, chi cosi vicine
-ID:Trm0407a-Canto  	L327	V4:	Deh chi cosi vicine
-ID:Trm0407a-Alto   	L350	V4:	Deh chi cosi vicine
-ID:Trm0407a-Tenore 	L373	V4:	Deh chi cosi vicine
-ID:Trm0407a-Basso  	L396	V4:	Deh chi cosi vicine
-ID:Trm0407a-Quinto 	L419	V4:	Deh chi cosi vicine
+ID:S169            	L314	V4:	Deh chi cosi vicine
+ID:Trm0407a-Canto  	L337	V4:	Deh chi cosi vicine
+ID:Trm0407a-Alto   	L360	V4:	Deh chi cosi vicine
+ID:Trm0407a-Tenore 	L383	V4:	Deh chi cosi vicine
+ID:Trm0407a-Basso  	L406	V4:	Deh chi cosi vicine
+ID:Trm0407a-Quinto 	L429	V4:	Deh chi cosi vicine
 
 ID:E1              	L14	V5:	Le pene, e i dolci premi <del>i sui</del> in lui ripose
 ID:W               	L60	V5:	Le pene ei dolci premij in lui ripose
@@ -67,11 +71,12 @@ ID:S13             	L156	V5:	Le pene, e i dolci premi in lui ripose?
 ID:S16             	L180	V5:	Le pene, e i dolci premi in lui ripose?
 ID:S21             	L204	V5:	Le pene, e i dolci premi in lui ripose?
 ID:S30             	L250	V5:	Le pene, e i dolci premi in lui ripose?
-ID:Trm0407a-Canto  	L328	V5:	le pene ei dolci premi in lui ripose
-ID:Trm0407a-Alto   	L351	V5:	le pene ei dolci prem'in lui ripose
-ID:Trm0407a-Tenore 	L374	V5:	le pene ei dolci prem'in lui ripose
-ID:Trm0407a-Basso  	L397	V5:	le pene ei dolci prem'in lui ripose
-ID:Trm0407a-Quinto 	L420	V5:	le pene ei dolci prem'in lui ripose
+ID:S169            	L315	V5:	Le pene, e i dolci premi in lui ripose?
+ID:Trm0407a-Canto  	L338	V5:	le pene ei dolci premi in lui ripose
+ID:Trm0407a-Alto   	L361	V5:	le pene ei dolci prem'in lui ripose
+ID:Trm0407a-Tenore 	L384	V5:	le pene ei dolci prem'in lui ripose
+ID:Trm0407a-Basso  	L407	V5:	le pene ei dolci prem'in lui ripose
+ID:Trm0407a-Quinto 	L430	V5:	le pene ei dolci prem'in lui ripose
 
 ID:E1              	L15	V6:	e chi d’acute spine
 ID:W               	L61	V6:	Et chi d’acute spine?
@@ -82,11 +87,12 @@ ID:S13             	L157	V6:	E chi d’acute SPINE
 ID:S16             	L181	V6:	E chi d’acute spine
 ID:S21             	L205	V6:	E chi d’acute spine
 ID:S30             	L251	V6:	E chi d’acute spine
-ID:Trm0407a-Canto  	L329	V6:	e chi d’acute spine
-ID:Trm0407a-Alto   	L352	V6:	e chi d’acute spine
-ID:Trm0407a-Tenore 	L375	V6:	e chi d’acute spine
-ID:Trm0407a-Basso  	L398	V6:	e chi d’acute spine
-ID:Trm0407a-Quinto 	L421	V6:	e chi d’acute spine
+ID:S169            	L316	V6:	E chi d’acute spine
+ID:Trm0407a-Canto  	L339	V6:	e chi d’acute spine
+ID:Trm0407a-Alto   	L362	V6:	e chi d’acute spine
+ID:Trm0407a-Tenore 	L385	V6:	e chi d’acute spine
+ID:Trm0407a-Basso  	L408	V6:	e chi d’acute spine
+ID:Trm0407a-Quinto 	L431	V6:	e chi d’acute spine
 
 ID:E1              	L16	V7:	Cinse le belle foglie
 ID:W               	L62	V7:	Cinse le belle foglie?
@@ -97,11 +103,12 @@ ID:S13             	L158	V7:	Cinse le belle foglie
 ID:S16             	L182	V7:	Cinse le belle foglie?
 ID:S21             	L206	V7:	Cinse le belle foglie
 ID:S30             	L252	V7:	Cinse le belle foglie?
-ID:Trm0407a-Canto  	L330	V7:	Cinse le belle foglie
-ID:Trm0407a-Alto   	L353	V7:	Cinse le belle foglie
-ID:Trm0407a-Tenore 	L376	V7:	Cinse le belle foglie
-ID:Trm0407a-Basso  	L399	V7:	Cinse le belle foglie
-ID:Trm0407a-Quinto 	L422	V7:	Cinse le belle foglie
+ID:S169            	L317	V7:	Cinse le belle foglie?
+ID:Trm0407a-Canto  	L340	V7:	Cinse le belle foglie
+ID:Trm0407a-Alto   	L363	V7:	Cinse le belle foglie
+ID:Trm0407a-Tenore 	L386	V7:	Cinse le belle foglie
+ID:Trm0407a-Basso  	L409	V7:	Cinse le belle foglie
+ID:Trm0407a-Quinto 	L432	V7:	Cinse le belle foglie
 
 ID:E1              	L17	V8:	onde s’incauta man talhor il coglie,
 ID:W               	L63	V8:	Onde s’incauta man talor il coglie,
@@ -112,11 +119,12 @@ ID:S13             	L159	V8:	Onde s’incauta man talhora il coglie,
 ID:S16             	L183	V8:	Onde, s’incauta man tal'hora il coglie,
 ID:S21             	L207	V8:	Onde s’incauta man tal’hora il coglie,
 ID:S30             	L253	V8:	Onde, s’incauta man tal’hora il coglie,
-ID:Trm0407a-Canto  	L331	V8:	Onde s’incauta man tal'hor'il coglie
-ID:Trm0407a-Alto   	L354	V8:	Onde s’incauta man tal'hor'il coglie
-ID:Trm0407a-Tenore 	L377	V8:	Onde s’incauta man tal'hor'il coglie
-ID:Trm0407a-Basso  	L400	V8:	Onde s’incauta man tal'hor'il coglie
-ID:Trm0407a-Quinto 	L423	V8:	Onde s’incauta man tal'hor'il coglie
+ID:S169            	L318	V8:	Onde, s’incauta man talhora coglie,
+ID:Trm0407a-Canto  	L341	V8:	Onde s’incauta man tal'hor'il coglie
+ID:Trm0407a-Alto   	L364	V8:	Onde s’incauta man tal'hor'il coglie
+ID:Trm0407a-Tenore 	L387	V8:	Onde s’incauta man tal'hor'il coglie
+ID:Trm0407a-Basso  	L410	V8:	Onde s’incauta man tal'hor'il coglie
+ID:Trm0407a-Quinto 	L433	V8:	Onde s’incauta man tal'hor'il coglie
 
 ID:E1              	L18	V9:	punta, in un punto solo
 ID:W               	L64	V9:	Punta, in un punto solo
@@ -127,11 +135,12 @@ ID:S13             	L160	V9:	Punta, in un punto solo
 ID:S16             	L184	V9:	Punta in un punto solo
 ID:S21             	L208	V9:	Punta in un punto solo
 ID:S30             	L254	V9:	Punta in un punto solo
-ID:Trm0407a-Canto  	L332	V9:	[TACET] Solo
-ID:Trm0407a-Alto   	L355	V9:	punta in un punto [TACET]
-ID:Trm0407a-Tenore 	L378	V9:	punta in un punto Solo
-ID:Trm0407a-Basso  	L401	V9:	punta in un punto [TACET]
-ID:Trm0407a-Quinto 	L424	V9:	punta in un punto [TACET]
+ID:S169            	L319	V9:	Punta, in un punto solo
+ID:Trm0407a-Canto  	L342	V9:	[TACET] Solo
+ID:Trm0407a-Alto   	L365	V9:	punta in un punto [TACET]
+ID:Trm0407a-Tenore 	L388	V9:	punta in un punto Solo
+ID:Trm0407a-Basso  	L411	V9:	punta in un punto [TACET]
+ID:Trm0407a-Quinto 	L434	V9:	punta in un punto [TACET]
 
 ID:E1              	L19	V10:	<del>N’have</del> Sente allegrezza e duolo?
 ID:W               	L65	V10:	N’have allegrezza et duolo:
@@ -142,11 +151,12 @@ ID:S13             	L161	V10:	N’have allegrezza, e duolo:
 ID:S16             	L185	V10:	N’have allegrezza, e duolo:
 ID:S21             	L209	V10:	N’have allegrezza, e duolo:
 ID:S30             	L255	V10:	N’have allegrezza, e duolo:
-ID:Trm0407a-Canto  	L333	V10:	N'have allegrezza e duolo
-ID:Trm0407a-Alto   	L356	V10:	N'have allegrezza e duolo
-ID:Trm0407a-Tenore 	L379	V10:	N'have allegrezza e duolo
-ID:Trm0407a-Basso  	L402	V10:	N'have allegrezza e duolo
-ID:Trm0407a-Quinto 	L425	V10:	N'have allegrezza e duolo
+ID:S169            	L320	V10:	N' have allegrezza, e duolo:
+ID:Trm0407a-Canto  	L343	V10:	N'have allegrezza e duolo
+ID:Trm0407a-Alto   	L366	V10:	N'have allegrezza e duolo
+ID:Trm0407a-Tenore 	L389	V10:	N'have allegrezza e duolo
+ID:Trm0407a-Basso  	L412	V10:	N'have allegrezza e duolo
+ID:Trm0407a-Quinto 	L435	V10:	N'have allegrezza e duolo
 
 ID:E1              	L20	V11:	o fior maraviglioso ond’ancor dura
 ID:W               	L66	V11:	O fior maraviglioso, onde ancor dura
@@ -157,11 +167,12 @@ ID:S13             	L162	V11:	O fior meraviglioso, ond’ancor dura
 ID:S16             	L186	V11:	O' fior meraviglioso, ond’ancor dura
 ID:S21             	L210	V11:	O fior maraviglioso, ond’ancor dura
 ID:S30             	L256	V11:	O' fior meraviglioso, ond’ancor dura
-ID:Trm0407a-Canto  	L334	V11:	O fior maraviglioso ond’ancor dura
-ID:Trm0407a-Alto   	L357	V11:	O fior maraviglioso ond’ancor dura
-ID:Trm0407a-Tenore 	L380	V11:	O fior maraviglioso ond’ancor dura
-ID:Trm0407a-Basso  	L403	V11:	O fior maraviglioso ond’ancor dura
-ID:Trm0407a-Quinto 	L426	V11:	O fior maraviglioso ond’ancor dura
+ID:S169            	L321	V11:	O fior meraviglioso, ond’ancor dura
+ID:Trm0407a-Canto  	L344	V11:	O fior maraviglioso ond’ancor dura
+ID:Trm0407a-Alto   	L367	V11:	O fior maraviglioso ond’ancor dura
+ID:Trm0407a-Tenore 	L390	V11:	O fior maraviglioso ond’ancor dura
+ID:Trm0407a-Basso  	L413	V11:	O fior maraviglioso ond’ancor dura
+ID:Trm0407a-Quinto 	L436	V11:	O fior maraviglioso ond’ancor dura
 
 ID:E1              	L21	V12:	Lite incerta d’Amore, e di Natura!
 ID:W               	L67	V12:	Fra l’Amor lite incerta, et la Natura.
@@ -172,9 +183,10 @@ ID:S13             	L163	V12:	Fra l’Amor lite incerta, e la natura.
 ID:S16             	L187	V12:	Frà l’amor lite incerta, e la natura.
 ID:S21             	L211	V12:	Fra l’amor lite incerta, e la natura.
 ID:S30             	L257	V12:	Frà l’amor lite incerta, e la natura.
-ID:Trm0407a-Canto  	L335	V12:	frà l'amor lite incerta e la natura.
-ID:Trm0407a-Alto   	L358	V12:	frà l'amor lite incerta e la natura.
-ID:Trm0407a-Tenore 	L381	V12:	frà l'amor lite incerta e la natura.
-ID:Trm0407a-Basso  	L404	V12:	[TACET] e la natura.
-ID:Trm0407a-Quinto 	L427	V12:	frà l'amor lite incerta e la natura.
+ID:S169            	L322	V12:	Frà l' amor lite incerta, e la natura.
+ID:Trm0407a-Canto  	L345	V12:	frà l'amor lite incerta e la natura.
+ID:Trm0407a-Alto   	L368	V12:	frà l'amor lite incerta e la natura.
+ID:Trm0407a-Tenore 	L391	V12:	frà l'amor lite incerta e la natura.
+ID:Trm0407a-Basso  	L414	V12:	[TACET] e la natura.
+ID:Trm0407a-Quinto 	L437	V12:	frà l'amor lite incerta e la natura.
 

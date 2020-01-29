@@ -740,11 +740,20 @@ Handlebars.registerHelper("voices", function(evoice, ovoice, source, setting) {
 	var output = "<table style='margin-top:12px; margin-left:0 !important;' class='sourceinfo'>";
 	output += "<tr><td>Original voices</td>";
 	output += "<td>";
-	output += ovoice + opartbooks;
+	if (ovoice.match(/\(/)) {
+		output += ovoice;
+	} else {
+		output += ovoice + opartbooks;
+	}
 	output += "</td>";
 	output += "<tr><td>Extant voices</td>";
 	output += "<td>";
-	output += evoice + epartbooks;
+	
+	if (evoice.match(/\(/)) {
+		output += evoice;
+	} else {
+		output += evoice + epartbooks;
+	}
 	output += "</td></tr>";
 	output += "</table>";
 

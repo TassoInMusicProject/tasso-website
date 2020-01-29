@@ -588,9 +588,9 @@ Handlebars.registerHelper("voices", function(ovoice, evoice) {
 		ovoice = "";
 	}
 	if (ovoice.match(/alfabeto/)) {
-console.log("OVOICE", ovoice);
 		ovoice = ovoice.replace(/\+?alfabeto/, "");
 	}
+	ovoice = ovoice.replace(/\(.*\)/, "");
 	ovoice = ovoice.replace(/\s*\+\s*/g, "+");
 	if (!evoice) {
 		return new Handlebars.SafeString(ovoice);
@@ -598,7 +598,7 @@ console.log("OVOICE", ovoice);
 	if (!evoice) {
 		evoice = "";
 	}
-console.log("EVOICE", evoice);
+	evoice = ovoice.replace(/\(.*\)/, "");
 	evoice = evoice.replace(/\s*\+\s*/g, "+");
 	if (evoice.match(/alfabeto/)) {
 		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");

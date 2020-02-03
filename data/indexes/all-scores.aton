@@ -1364,7 +1364,7 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	A
 @VABBR:	T
 @VABBR:	B
@@ -2068,7 +2068,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2133,10 +2133,10 @@
 @VNAME:	Quinto
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	S
+@VABBR:	VI
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2731,7 +2731,7 @@
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0288o-Amatemi_ben_mio--Sabbatini_1629.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0288o-Amatemi_ben_mio--Sabbatini_1629.krn
 @VNAME:	Canto Primo
-@VABBR:	C
+@VABBR:	C1
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -3048,7 +3048,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -5156,7 +5156,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -5172,7 +5172,7 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -5183,7 +5183,7 @@
 @VNAME:	Canto
 @VNAME:	Basso continuo
 @VABBR:	C
-@VABBR:	BC
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5193,7 +5193,7 @@
 @VNAME:	Canto
 @VNAME:	Basso continuo
 @VABBR:	C
-@VABBR:	BC
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5203,7 +5203,17 @@
 @VNAME:	Canto
 @VNAME:	Basso continuo
 @VABBR:	C
-@VABBR:	BC
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12076a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12076a-Passa_pur_questo_petto_e_feri_scempi--Cifra_1617.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12076a-Passa_pur_questo_petto_e_feri_scempi--Cifra_1617.krn
+@VNAME:	Canto
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5260,8 +5270,8 @@
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12082a-O_bella_destra_chel_soave_sdegno--DIndia_1618.krn
 @VNAME:	[Canto]
 @VNAME:	[Basso continuo]
-@VABBR:	[
-@VABBR:	BC
+@VABBR:	C
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5421,7 +5431,7 @@
 @VNAME:	Canto
 @VNAME:	Basso continuo
 @VABBR:	C
-@VABBR:	BC
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5431,7 +5441,7 @@
 @VNAME:	Canto
 @VNAME:	Basso continuo
 @VABBR:	C
-@VABBR:	BC
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5945,6 +5955,18 @@
 @VABBR:	V
 @VABBR:	T
 @VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20132a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20132a-Certo_e_scemo_il_tuo_onor_se_non_saddita--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20132a-Certo_e_scemo_il_tuo_onor_se_non_saddita--Cifra_1614.krn
+@VNAME:	Canto I
+@VNAME:	Canto II
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
 @VABBR:	Bc
 @@END:	SCOREDATA
 

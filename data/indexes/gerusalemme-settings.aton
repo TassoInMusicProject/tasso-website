@@ -60,8 +60,8 @@
 @PRINCEPSPUB:	Francesco dalle Donne et Scipione Vargnano
 @PRINCEPSYEAR:	1599
 @PRINCEPSRISM:	B 1706
-@OVOICES:	2
-@EXTANTVOICES:	2
+@OVOICES:	2 (CT)
+@EXTANTVOICES:	2 (CT)
 @OMENSURATION:	C
 @OCLEFS:	C1,C3
 @OTIME:		
@@ -127,7 +127,7 @@
 @CATALOGNUM:	Tsg03008a
 @CANTO:		III
 @OTTAVA:	8
-@TITLE:	Dunque, ove tu signor di mille rivi
+@TITLE:	Dunque ove tu, Signor, di mille rivi
 @COMPOSER:	Mazzocchi, Domenico
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Musiche sacre e morali a una, due e tre voci
@@ -964,7 +964,7 @@
 @CATALOGNUM:	Tsg12076a
 @CANTO:		XII
 @OTTAVA:	76
-@TITLE:	Passa per questo petto e feri scempi
+@TITLE:	Passa pur questo petto, e feri scempi
 @COMPOSER:	Cifra, Antonio
 @PARTS:		4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Li diversi scherzi a due, a tre et quattro voci. Libro quinto
@@ -990,7 +990,7 @@
 @CATALOGNUM:	Tsg12076b
 @CANTO:		XII
 @OTTAVA:	76
-@TITLE:	Passa per questo petto e feri scempi
+@TITLE:	Passa pur questo petto, e feri scempi
 @COMPOSER:	Il Verso, Antonio
 @PARTS:		2 of 3
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci
@@ -3951,7 +3951,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
@@ -3978,7 +3978,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
@@ -4004,7 +4004,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
@@ -4030,7 +4030,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C, 3/2
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
@@ -4056,7 +4056,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)G
@@ -4109,7 +4109,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
@@ -4135,7 +4135,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)G
@@ -4161,7 +4161,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
@@ -4212,7 +4212,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)G
@@ -4224,7 +4224,7 @@
 @CATALOGNUM:	Tsg20132a
 @CANTO:		XX
 @OTTAVA:	132
-@TITLE:	Certo è scemo il tuo onor se non s'addita
+@TITLE:	Certo è scemo il tuo onor, se non s'addita
 @SETTINGTITLE: Certo è scorno il tuo honor se non s'addita
 @COMPOSER:	Cifra, Antonio
 @PARTS:		3-4 (verses 1-4; 5-8) of 4
@@ -4265,7 +4265,7 @@
 @OVOICES:	5+bc
 @EXTANTVOICES:	5+bc
 @OMENSURATION:	C, 3/2, C
-@OCLEFS:	C1,C3,C4,F4,C4,F4
+@OCLEFS:	C1,C3,C4,C4,F4,F4
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		G

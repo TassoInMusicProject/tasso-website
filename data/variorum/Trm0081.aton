@@ -71,6 +71,34 @@ Chiedi qual sia la rota, onde gl'amanti
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0081
+@ID:		C
+@TYPE:		manuscript
+@SMSIGLUM:	C
+@PAGE:		32r
+@PARATEXT:	Assomiglia ^alla fortuna^ la sua donna donna [sic], la quale egli haveva veduta co' capelli sparsi su la fronte:
+@VERSE:	
+Costei che su la fronte ha sparso al vento,
+	<del>L’errante</del> ^la vaga^ chioma d’or, fortuna pare,
+	Anzi è vera fortuna, e può beare
+	e misero può far del piu contento:
+@VERSE:
+Dispensatrice nò, d’oro, o d’argento,
+	O di gemme, che mandi estranio mare:
+	Ma i thesori d’amor, cose piu care
+	Fura, dona, ritoglie in un momento.
+@VERSE:
+Cieca non gia, <del>se non quando à i</del> ^ma solo a' miei^ martiri
+	<del>Nostri</del> perché s'infinge tal, ciechi ne rende
+	Con due luci serene, e fiammeggianti.
+@VERSE:
+Chiedi, qual sia la rota, ove gli amanti
+	Travolve, e’l corso lor <del>dubbio</del> ^ferma e^ sospende?
+	La rota son de' begli occhi i giri.	
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0081
 @ID:		I4
 @TYPE:		manuscript
 @SMSIGLUM:	I<sub>4</sub>
@@ -556,20 +584,29 @@ La rota sua son de’ begli occhi i giri.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
+@@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0081
 @ID:		S169
 @TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@SPRINT:	S169
+@PAGE:		RIME DEL TASSO AMOROSE. P. I., 7
+@PARATEXT:	Crine sparso.
 @VERSE:		
-@VERSE:		
-@VERSE:		
-@VERSE:		
-@@END: VARIORUM
+Costei, che sù la fronte ha sparsa al vento
+	L’errante chioma d’or, Fortuna pare;
+	Anzi è vera fortuna, e può beare.
+	E misero può far il più contento.
+Dispensatrice nò d’oro, o d’argento
+	O di gemme, che mandi estraneo Mare:
+	Ma tesori d’Amor, cose più care
+	Fura, dona, e ritoglie in un momento:
+Cieca non già, ma solo a miei martiri,
+	Par, che s’infinga tale, e cieco huom' rende:
+	Con due luci serene, e sfavillanti.
+Chiedi qual sia la Rota, ove gli amanti
+	Travolve, e ’l corso lor ferma, e sospende?
+	La Rota fanno hor de’begli occhi i giri.
+@@END:		VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -666,4 +703,5 @@ La ruota sua son’ de begli occh’i giri.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
+
 

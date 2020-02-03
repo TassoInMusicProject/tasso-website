@@ -26,9 +26,14 @@
 @ID:		C
 @TYPE:		manuscript
 @SMSIGLUM:	C
-@PAGE:		
-@PARATEXT:	
+@PAGE:		84r
+@PARATEXT:	Sovra i baci d'una bella donna giovane.
 @VERSE:		
+Ne vostri dolci baci
+De l’api è il dolce mele,
+e v'è il morso de l’api aspro, e crudele,
+Dunque addolcito e punto
+Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -241,17 +246,20 @@ E vi è il morso de l’Api anco crudele.
 Dunque addolcito, e punto
 Da voi parto in un punto.
 @@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
+@@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0305
 @ID:		S169
 @TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@SPRINT:	S169
+@PAGE:		RIME DEL TASSO. AMOROSE. P. I., 133
+@PARATEXT:	Baci dolci.
 @VERSE:		
-@@END: VARIORUM
+Ne i vostri dolci baci
+	De l’Api è il dolce mele
+	E vi è il morso de l'Api anco crudele,
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
+@@END:		VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -817,4 +825,5 @@ Da voi parte in un punto.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
+
 

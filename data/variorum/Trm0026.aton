@@ -4,9 +4,19 @@
 @ID:		C
 @TYPE:		manuscript
 @SMSIGLUM:	C
-@PAGE:		
-@PARATEXT:	
+@PAGE:		10r
+@PARATEXT:	A la sua donna nel soggetto med:mo [the entire poem is deleted with a diagonal strike-through]
 @VERSE:		
+Se’l mio core e con voi come desia,
+	Dove è l’anima mia?
+	Credo sia col pensier, e’l pensier vago
+ è con la bella imago,
+	e l’imagine bella
+	Della vostra bellezza è ne la mente
+	Viva, e vera, e presente.
+	e vi spira, e favella
+	Ma pur senza il mio core è la mia vita
+	Dolente, e sbigottita.
 @@END: VARIORUM
 
 
@@ -176,17 +186,25 @@ E la mia vita è pena.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
+@@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0026
 @ID:		S169
 @TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@SPRINT:	S169
+@PAGE:		RIME DEL TASSO AMOROSE. P. I., 75
+@PARATEXT:	Continova il medesimo.
 @VERSE:		
-@@END: VARIORUM
+Se ’l mio core è con voi, come desia,
+	Dov’è l’anima mia?
+	Credo sia col pensiero, e ’l pensier vago,
+	È con la bella imago:
+	E l’imagine bella
+	De la vostra bellezza è ne la mente,
+	Viva, vera, e presente;
+	E vi spira, e favella:
+	Ma pur senza il mio core, è la mia vita
+	Dolente e sbigottita.
+@@END:		VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -208,4 +226,5 @@ E vi spir’e favella
 Ma pur senz’il mio cor’è la mia vita
 Dolente e sbigotita.
 @@END: VARIORUM
+
 

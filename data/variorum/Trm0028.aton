@@ -32,12 +32,26 @@
 @ID:		C
 @TYPE:		manuscript
 @SMSIGLUM:	C
-@PAGE:		
-@PARATEXT:	
+@PAGE:		11r
+@PARATEXT:	Dice, ch'essendo vinto dal dolore gli apparve in sogno la sua donna, e'l racconsolò.
 @VERSE:		
-@VERSE:		
-@VERSE:		
-@VERSE:		
+Giacea la mia virtù vinta, e smarrita
+	<del>Dal</del> ^nel^ duol<del>o</del> ^ch'è sempre^ in sua ragion <del>sempre</del> piu forte,
+	quando il <del>sonno</del> pietosa di <del>mia</del> ^si dura^ sorte,
+	<del>Seco addusse Madonna</del> ^Venne in sogno Madonna^ a darle aita.
+@VERSE:	
+	Che rostprò gli spirti, e'n me sopita
+	la doglia à nova speme apri le porte:
+	e cosi <del>allhor</del> ne l’immagine di morte,
+	Trovò l’egro mio cor salute, e vita.
+@VERSE:
+	ella volse in me gli occhi, e le parole
+	Di pieta vera ardenti, a che pur tanto,
+	O mio fedel t’affligi, e ti consumi?
+@VERSE:	
+	Ben tempo anchor verrà, ch’al chiaro sole
+	Di queste amate luci asciughi il pianto,
+	e’l foco di tua vita in lui rallumi.		
 @@END: VARIORUM
 
 
@@ -471,20 +485,29 @@ Giacea la mia virtù vinta, e smarrita
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
+@@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0028
 @ID:		S169
 @TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@SPRINT:	S169
+@PAGE:		RIME DEL TASSO AMOROSE. P. I., 39
+@PARATEXT:	Sogno felice.
 @VERSE:		
-@VERSE:		
-@VERSE:		
-@VERSE:		
-@@END: VARIORUM
+Giacea la mia virtù vinta, e smarrita
+	Nel duol, ch' è sempre in sua ragion più forte:
+	Quando pietosa di si dura sorte,
+	Venne in sogno madonna, a darle aita,
+E ristorò gli spirti, e ’n me sopita
+	La doglia a nova speme aprì le porte:
+	E cosi ne l’imagine di Morte,
+	Trovò l’egro mio cor salute, e vita:
+Ella volgendo gli occhi in dolci giri,
+	Parea, che mi dicesse, a che pur tanto,
+	O mio fedel t’affliggi, e ti consumi?
+E perche non fai tregua a’ tuoi sospiri,
+	E ’n queste amate luci, asciughi il pianto?
+	Speri forse  d’haver più fidi lumi?
+@@END:		VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -555,4 +578,5 @@ Giacea la mia virtù vinta, e smarrita
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
+
 

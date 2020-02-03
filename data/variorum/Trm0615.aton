@@ -15,9 +15,18 @@
 @ID:		C
 @TYPE:		manuscript
 @SMSIGLUM:	C
-@PAGE:		
-@PARATEXT:	
+@PAGE:		84v
+@PARATEXT:	Loda nella medesima sig.ra la pallidezza del volto: [the entire poem is deleted with three diagonal strike-throughs]
 @VERSE:		
+Al tuo dolce pallore
+	La rosa il pregio cede
+	che per suo scorno piu arrossir si vede:
+	Questo è’l color, ch’Amore
+	Di sua man tigne, e segna,
+	Ne vanni i suoi guerrier sotto altro insegna!
+	e l'Alba no'l disdegna,
+	Anzi invaghisce il ciel di tue viole,
+	e teco brama impallidirsi il sole.
 @@END: VARIORUM
 
 
@@ -437,17 +446,24 @@ E teco brama impallidire il Sole.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
+@@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0615
 @ID:		S169
 @TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@SPRINT:	S169
+@PAGE:		RIME DEL TASSO.AMOROSE. P. I., 35
+@PARATEXT:	Pallore diMadonna.
 @VERSE:		
-@@END: VARIORUM
+Al tuo vago pallore
+	La rosa il pregio cede,
+	Che per lo scorno hor più arrossir si vede.
+Quest' è ’l color, che Amore,
+	Di sua man tinge, e segna,
+	Nè vanno i suoi guerrier sott’altra insegna.
+Che più l’Alba homai sdegna
+	L’Ostro e 'nvaghisce il Ciel di tue viole,
+	E teco brama impallidirsi il Sole.
+@@END:		VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -788,4 +804,5 @@ E teco brama impallidirs’il sole.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
+
 

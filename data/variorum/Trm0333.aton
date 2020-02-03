@@ -33,9 +33,17 @@ Gelo ha Madonna il seno e fiamma il volto
 @ID:		C
 @TYPE:		manuscript
 @SMSIGLUM:	C
-@PAGE:		
-@PARATEXT:	
+@PAGE:		83v
+@PARATEXT:	<del>Desidera che</del> <del>Dice ch'Amore sta sempre</del> Rende la cagione perche la sua donna sia amate, et egli amante. [The entire poem is deleted with a three diagonal strike-throughs]
 @VERSE:		
+Gelo ha Madonna il seno, e fiamma il volto
+	io son ghiaccio di fore,
+	e'l foco ho dentro accolto.
+@VERSE:
+	questo avien perch’Amore
+	Ne la sua fronte alberg,a e nel mio petto
+	Ne mai cangia ricetto,
+	Si ch’io l’habbia negli occhi ella nel core.
 @@END: VARIORUM
 
 
@@ -410,17 +418,22 @@ Sì ch’io l’habbia ne gli occhi, ella nel core.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
+@@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0333
 @ID:		S169
 @TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@SPRINT:	S169
+@PAGE:		RIME DEL TASSO. AMOROSE. P. I., 35
+@PARATEXT:	Vario colore, per vario affetto.
 @VERSE:		
-@@END: VARIORUM
+Gelo ha Madonna il seno, e fiamma il volto,
+	Io son ghiaccio di fore:
+	E ’l foco ho dentro accolto.
+Quest' avvien, perche Amore
+	Ne la sua fronte alberga, e nel mio petto,
+	Ne mai cangia ricetto,
+	Sì, ch’io l’habbia negli occhi, ella nel core.
+@@END:		VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -1190,4 +1203,5 @@ Si ch’io l’habbia ne gl’occhi ella nel core.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
+
 

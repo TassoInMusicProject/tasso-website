@@ -37,9 +37,18 @@
 @ID:		C
 @TYPE:		manuscript
 @SMSIGLUM:	C
-@PAGE:		
-@PARATEXT:	
+@PAGE:		84r
+@PARATEXT:	Loda gli occhi Azurri della Sig.ra Livia Pica Dama Nobiliss:ma e principaliss:ma ne la corte di Francia.
 @VERSE:		
+Al vostro dolce azurro
+Ceda, o luci serene,
+qual piu bel nero Italia in pregio tiene: 
+occhi cielo d’Amore 
+Sole di questo core
+Son gli altri <del>occhi appo voi notte, et</del> ^al paragone ombre d'^ inferno.
+Azurro è il cielo eterno,
+e quel ch’è bello il bello ha sol da lui,
+ei bello è sol, perch'assomiglia à vui. 
 @@END: VARIORUM
 
 
@@ -445,17 +454,24 @@ E bello è il Sol, perche assomiglia vui.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-
-
-@@BEGIN: VARIORUM
+@@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0614
 @ID:		S169
 @TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
+@SPRINT:	S169
+@PAGE:		RIME DEL TASSO.AMOROSE. P. II., 238
+@PARATEXT:	Occhi azurri lodati.
 @VERSE:		
-@@END: VARIORUM
+Al vostro dolce azurro
+	Ceda; ò luci serene
+	Qual più bel nero Italia in pregio tiene;
+	Occhi Cielo d’Amore,
+	Sole di questo core,
+	Sono gli altri appo voi notte, & Inferno;
+	Azurro è ’l Cielo eterno,
+	E quel ch’è bello, il bello ha sol da lui,
+	Ei bello è sol perche assomiglia à voi.
+@@END:		VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -1296,4 +1312,5 @@ ei bello è sol perche somiglia à voi.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
+
 

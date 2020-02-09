@@ -1170,7 +1170,7 @@ sub cleanKey {
 	$key =~ s/\///g;
 	$key =~ s/[^a-zA-Z0-9_-]//g;
 	if ($key =~ /^\d/) {
-		print "WARNING: KEY STARTS WITH DIGIT: $key, ADDING AN S BEFORE\n";
+		# print "WARNING: KEY STARTS WITH DIGIT: $key, ADDING AN S BEFORE\n";
 		$key = "S$key";
 	}
 	return $key;

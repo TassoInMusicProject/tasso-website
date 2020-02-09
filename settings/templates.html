@@ -598,7 +598,7 @@ Handlebars.registerHelper("voices", function(ovoice, evoice) {
 	if (!evoice) {
 		evoice = "";
 	}
-	evoice = ovoice.replace(/\(.*\)/, "");
+	evoice = evoice.replace(/\(.*\)/, "");
 	evoice = evoice.replace(/\s*\+\s*/g, "+");
 	if (evoice.match(/alfabeto/)) {
 		evoice = evoice.replace(/\s*\+?\s*alfabeto/, "");

@@ -300,8 +300,16 @@ function filterMusicData(entries) {
 
 	if (title) {
 		// change this to title? But there is the setting title as well.
-		output = filterByField(output, "RIMETITLE", title);
+		// output = filterByField(output, "RIMETITLE", title);
+		// If not TITLE, then other genres will not match
+		var output1 = filterByField(output, "RIMETITLE", title);
+		if (output1.length == 0) {
+			output = filterByField(output, "TITLE", title);
+		} else {
+			output = output1;
+		}
 	}
+
 	if (location) {
 		output = filterByField(output, "NORMLOC", location);
 	}

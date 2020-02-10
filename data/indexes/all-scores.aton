@@ -785,6 +785,24 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tbv0002a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tbv/kern/Tbv0002a-Chiaro_sol_che_rotando_esci_del_Gange--Belli_1593.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tbv/kern/Tbv0002a-Chiaro_sol_che_rotando_esci_del_Gange--Belli_1593.krn
+@VNAME:	Canto
+@VNAME:	Sesto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	VI
+@VABBR:	A
+@VABBR:	T
+@VABBR:	V
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tec1089a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tec/kern/Tec1089a-Di_che_cantar_deggio--Coma_1588.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tec/kern/Tec1089a-Di_che_cantar_deggio--Coma_1588.krn
@@ -806,6 +824,22 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	V
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tec3108a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tec/kern/Tec3108a-Non_sospirar_pastor_non_sospirare--Wert_1586.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tec/kern/Tec3108a-Non_sospirar_pastor_non_sospirare--Wert_1586.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -5085,6 +5119,30 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg04029a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg04029a-Argo_non_mai_non_vide_Cipro_o_Delo--DIndia_1615.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg04029a-Argo_non_mai_non_vide_Cipro_o_Delo--DIndia_1615.krn
+@VNAME:	Canto I
+@VNAME:	Canto II
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg04030a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg04030a-Fa_nove_crespe_laura_al_crin_disciolto--Cifra_1615.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg04030a-Fa_nove_crespe_laura_al_crin_disciolto--Cifra_1615.krn
+@VNAME:	Canto I
+@VNAME:	Canto II
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg06103a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg06103a-Era_la_notte_el_suo_stellato_velo--IlVerso_1603.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg06103a-Era_la_notte_el_suo_stellato_velo--IlVerso_1603.krn
@@ -5275,6 +5333,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12090a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12090a-Lei_nel_partir_lei_nel_tornar_del_sole--Cifra_1615.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12090a-Lei_nel_partir_lei_nel_tornar_del_sole--Cifra_1615.krn
+@VNAME:	Canto I
+@VNAME:	Canto II
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg12096c
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12096c-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Ricci_1597.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12096c-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Ricci_1597.krn
@@ -5420,6 +5490,20 @@
 @VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg16015a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16015a-Cosi_trapassa_al_trapassar_dun_giorno--Giramo_1630.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16015a-Cosi_trapassa_al_trapassar_dun_giorno--Giramo_1630.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Tenore]
+@VNAME:	[Basso]
+@VABBR:	C I
+@VABBR:	C II
 @VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
@@ -5773,6 +5857,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg17061a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg17061a-Signor_non_sotto_lombra_in_piaggia_molle--Mazzocchi_1640.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg17061a-Signor_non_sotto_lombra_in_piaggia_molle--Mazzocchi_1640.krn
+@VNAME:	Canto I
+@VNAME:	Canto II
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg19106b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg19106b-Misera_non_credea_cha_gli_occhi_miei--Baccusi_1594.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg19106b-Misera_non_credea_cha_gli_occhi_miei--Baccusi_1594.krn
@@ -5794,6 +5890,18 @@
 @VABBR:	C
 @VABBR:	C secondo
 @VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg19108a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg19108a-Pietosa_bocca_che_solevi_in_vita--Cifra_1613.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg19108a-Pietosa_bocca_che_solevi_in_vita--Cifra_1613.krn
+@VNAME:	Canto I
+@VNAME:	Canto II
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA

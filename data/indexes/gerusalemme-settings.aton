@@ -1016,7 +1016,7 @@
 @CATALOGNUM:	Tsg12077a
 @CANTO:		XII
 @OTTAVA:	77
-@TITLE:	Vivrò fra i miei tormenti e le mie cure
+@TITLE:	Vivrò fra i miei tormenti e fra le cure
 @COMPOSER:	Monteverdi, Claudio
 @PARTS:		1 of 3
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
@@ -1042,7 +1042,7 @@
 @CATALOGNUM:	Tsg12077b
 @CANTO:		XII
 @OTTAVA:	77
-@TITLE:	Vivrò fra i miei tormenti e le mie cure
+@TITLE:	Vivrò fra i miei tormenti e fra le cure
 @COMPOSER:	Il Verso, Antonio
 @PARTS:		3 of 3
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci
@@ -1068,7 +1068,7 @@
 @CATALOGNUM:	Tsg12077c
 @CANTO:		XII
 @OTTAVA:	77
-@TITLE:	Vivrò fra i miei tormenti e le mie cure
+@TITLE:	Vivrò fra i miei tormenti e fra le cure
 @COMPOSER:	Boschetti, Giovanni Boschetto
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Giardino musicale di varii eccellenti autori
@@ -2213,7 +2213,7 @@
 @CATALOGNUM:	Tsg16014a
 @CANTO:		XVI
 @OTTAVA:	14
-@TITLE:	Deh mira, egli cantò, "spuntar la rosa
+@TITLE:	"Deh mira," egli cantò, "spuntar la rosa
 @COMPOSER:	Molinaro, Simone
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Il secondo libro delle canzonette a 3 voci
@@ -2239,7 +2239,7 @@
 @CATALOGNUM:	Tsg16014b
 @CANTO:		XVI
 @OTTAVA:	14
-@TITLE:	Deh mira, egli cantò, "spuntar la rosa
+@TITLE:	"Deh mira," egli cantò, "spuntar la rosa
 @COMPOSER:	Torscianello, Enrico
 @PARTS:		1-4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	in Vezzosetti fiori di varii autori
@@ -2265,7 +2265,7 @@
 @CATALOGNUM:	Tsg16014c
 @CANTO:		XVI
 @OTTAVA:	14
-@TITLE:	Deh mira, egli cantò, "spuntar la rosa
+@TITLE:	"Deh mira," egli cantò, "spuntar la rosa
 @COMPOSER:	Piochi, Cristofano
 @PARTS:		1-2
 @PRINCEPSTITLE:	Il primo libro delli madrigali concertati a due, tre e quattro voci 
@@ -2278,11 +2278,11 @@
 @PRINCEPSRISM:	P 2414
 @OVOICES:	4+bc
 @EXTANTVOICES:	4+bc
-@OMENSURATION:	
-@OCLEFS:	
+@OMENSURATION:	C
+@OCLEFS:	C1,C3,C4,F4,F4
 @OTIME:		
-@OKEYSIG:	
-@FINAL:		
+@OKEYSIG:	b-
+@FINAL:	(G)G
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2291,7 +2291,7 @@
 @CATALOGNUM:	Tsg16014d
 @CANTO:		XVI
 @OTTAVA:	14
-@TITLE:	Deh mira, egli cantò, "spuntar la rosa
+@TITLE:	"Deh mira," egli cantò, "spuntar la rosa
 @COMPOSER:	Giramo, Pietro Antonio
 @PARTS:		1-4 (verses 1-2; 3-4; 5-6; 7-8)
 @PRINCEPSTITLE:	Arie a più voci. Primo libro della Seconda Opera
@@ -3597,7 +3597,7 @@
 @CATALOGNUM:	Tsg19106a
 @CANTO:		XIX
 @OTTAVA:	106
-@TITLE:	Misera non credea ch'a gli occhi miei
+@TITLE:	Misera, non credea ch'a gli occhi miei
 @COMPOSER:	Wert, Giaches de
 @PARTS:		1 of 2
 @PRINCEPSTITLE:	L'ottavo libro de madrigali a cinque voci
@@ -3623,7 +3623,7 @@
 @CATALOGNUM:	Tsg19106b
 @CANTO:		XIX
 @OTTAVA:	106
-@TITLE:	Misera non credea ch'a gli occhi miei
+@TITLE:	Misera, non credea ch'a gli occhi miei
 @COMPOSER:	Baccusi, Ippolito
 @PARTS:		1 of 2
 @PRINCEPSTITLE:	Il primo libro de madrigali a tre voci
@@ -3649,7 +3649,7 @@
 @CATALOGNUM:	Tsg19106c
 @CANTO:		XIX
 @OTTAVA:	106
-@TITLE:	Misera non credea ch'a gli occhi miei
+@TITLE:	Misera, non credea ch'a gli occhi miei
 @COMPOSER:	D'India, Sigismondo
 @PARTS:		1 of 2
 @PRINCEPSTITLE:	Musiche di Sigismondo d' India 
@@ -3675,7 +3675,7 @@
 @CATALOGNUM:	Tsg19106d
 @CANTO:		XIX
 @OTTAVA:	106
-@TITLE:	Misera non credea ch'a gli occhi miei
+@TITLE:	Misera, non credea ch'a gli occhi miei
 @COMPOSER:	Cifra, Antonio
 @PARTS:		1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Scherzi et arie a une, due, tre, et quattro voci per cantare nel clavicembalo ò altro simile istromento
@@ -3701,7 +3701,7 @@
 @CATALOGNUM:	Tsg19106e
 @CANTO:		XIX
 @OTTAVA:	106
-@TITLE:	Misera non credea ch'a gli occhi miei
+@TITLE:	Misera, non credea ch'a gli occhi miei
 @COMPOSER:	Il Verso, Antonio
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Il quarto libro dei madrigali a tre voci
@@ -3727,7 +3727,7 @@
 @CATALOGNUM:	Tsg19106f
 @CANTO:		XIX
 @OTTAVA:	106
-@TITLE:	Misera non credea ch'a gli occhi miei
+@TITLE:	Misera, non credea ch'a gli occhi miei
 @COMPOSER:	Piochi, Cristofano
 @PARTS:		2 (verses 1-4; 5-8)
 @PRINCEPSTITLE:	Il primo libro delli madrigali concertati a due, tre e quattro voci 
@@ -3753,7 +3753,7 @@
 @CATALOGNUM:	Tsg19106g
 @CANTO:		XIX
 @OTTAVA:	106
-@TITLE:	Misera non credea ch'a gli occhi miei
+@TITLE:	Misera, non credea ch'a gli occhi miei
 @COMPOSER:	Negri, Francesco
 @PARTS:		1-2 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Arie musicali da cantarsi nel clavecembalo chitarone o altro simile istromento a una e doi voci 
@@ -3901,7 +3901,7 @@
 @OCLEFS:	C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:		G
+@FINAL:	(G)G
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING

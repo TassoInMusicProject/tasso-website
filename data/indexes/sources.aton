@@ -426,8 +426,8 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Rc (CBV); I-Bc (AT)
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	scans
+@SRCURL:	I-Bc (AT); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V244/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3975,7 +3975,7 @@
 @@BEGIN: SOURCE
 @RISM:	L 530
 @AUTHOR:	Landi, Stefano
-@TITLEPAGE:	ARIE / A Una Voce. / DI STEFANO LANDI / DEDICATE ALL"ILLVSTR> ET ECCELL. / SIGNOR PAOLO SAVELLO / Prencipe d'Albano per S.M. Cesarea / Ambasciatore Straordinario alla / Santita di Nost. Sig. Paolo / Quinto, è Luogotenente / Generale di Santa Chiesa. / STAMPA DEL GARDANO / IN VENETIA MDCXX. / Appresso Bartholomeo Magni.
+@TITLEPAGE:	ARIE / A Una Voce. / DI STEFANO LANDI / DEDICATE ALL'ILLVSTR. ET ECCELL. / SIGNOR PAOLO SAVELLO / Prencipe d'Albano per S.M. Cesarea / Ambasciatore Straordinario alla / Santita di Nost. Sig. Paolo / Quinto, è Luogotenente / Generale di Santa Chiesa. / STAMPA DEL GARDANO / IN VENETIA MDCXX. / Appresso Bartholomeo Magni.
 @TITLESHORT:	Arie a una voce
 @PUBLISHER:	Stampa del Gardano appresso Magni
 @YEAR:	1620
@@ -4706,7 +4706,7 @@
 @PUBLISHER:	Paolo Masotti
 @YEAR:	1629
 @PUBTYPE:	single-author
-@PUBFORMAT:	
+@PUBFORMAT:	score
 @PUBLOC:	Rome
 @PUBNORMLOC:	Rome
 @SRCDEDICATEE:	
@@ -4715,7 +4715,7 @@
 @OPARTBOOKS:	
 @EXTPARTBOOKS:	
 @EXTNAMES:	
-@SRCLOCSIGLA:	
+@SRCLOCSIGLA:	I-Vc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
 @@END: SOURCE
@@ -7165,8 +7165,8 @@
 @@BEGIN: SOURCE
 @RISM:	1622-11
 @AUTHOR:	Torscianello, Enrico, etc.
-@TITLEPAGE:	Vezzosetti fiori di varii autori
-@TITLESHORT:	VEZZOSETTI FIORI / DI VARII ECCELLENTI / AVTORI, / CIOE, / MADRIGALI, OTTAVE, DIALOGHI, / ARIE, ET VILLANELLE, A VNA, E DUE VOCI. / Da cantarsi con il Cembalo, Tiorba, Chitarra / Spagnola, &c. / IN ROMA, / Appresso Gio. Battista Robletti. 1622. /  Con Licenza de' Superiori
+@TITLEPAGE:	VEZZOSETTI FIORI / DI VARII ECCELLENTI / AVTORI, / CIOE, / MADRIGALI, OTTAVE, DIALOGHI, / ARIE, ET VILLANELLE, A VNA, E DUE VOCI. / Da cantarsi con il Cembalo, Tiorba, Chitarra / Spagnola, &c. / IN ROMA, / Appresso Gio. Battista Robletti. 1622. /  Con Licenza de' Superiori
+@TITLESHORT:	Vezzosetti fiori di varii autori
 @PUBLISHER:	Robletti
 @YEAR:	1622
 @PUBTYPE:	anthology

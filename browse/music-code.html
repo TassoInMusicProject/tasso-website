@@ -275,7 +275,7 @@ function filterMusicData(entries) {
 	}
 
 	if (composer) {
-		output = filterByField(output, "COMPOSER", "^" + composer + "$");
+		output = filterByField(output, "COMPOSER", "\\b" + composer + "\\b");
 	}
 
 	if (final) {

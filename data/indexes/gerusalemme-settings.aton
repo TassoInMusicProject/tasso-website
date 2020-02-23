@@ -1016,7 +1016,8 @@
 @CATALOGNUM:	Tsg12077a
 @CANTO:		XII
 @OTTAVA:	77
-@TITLE:	Vivrò fra i miei tormenti e fra le cure
+@TITLE: Vivrò fra i miei tormenti e fra le cure
+@SETTINGTITLE: Vivrò fra i miei tormenti e le mie cure
 @COMPOSER:	Monteverdi, Claudio
 @PARTS:		1 of 3
 @PRINCEPSTITLE:	Il terzo libro de madrigali a cinque voci
@@ -1042,7 +1043,8 @@
 @CATALOGNUM:	Tsg12077b
 @CANTO:		XII
 @OTTAVA:	77
-@TITLE:	Vivrò fra i miei tormenti e fra le cure
+@TITLE: Vivrò fra i miei tormenti e fra le cure
+@SETTINGTITLE: Vivrò fra i miei tormenti e le mie cure
 @COMPOSER:	Il Verso, Antonio
 @PARTS:		3 of 3
 @PRINCEPSTITLE:	Il decimoquinto libro de' madrigali à cinque voci
@@ -1069,6 +1071,7 @@
 @CANTO:		XII
 @OTTAVA:	77
 @TITLE:	Vivrò fra i miei tormenti e fra le cure
+@SETTINGTITLE: Vivrò fra miei tormenti e le mie pene
 @COMPOSER:	Boschetti, Giovanni Boschetto
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Giardino musicale di varii eccellenti autori
@@ -1308,7 +1311,7 @@
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
 @PRINCEPSLOC:	Rome
 @NORMLOC:	Rome
-@NORMPUB:	Lugii Zanetti
+@NORMPUB:	Luigi Zanetti
 @NORMPUBSHORT:	Zanetti
 @PRINCEPSPUB:	Luigi Zanetti
 @PRINCEPSYEAR:	1605
@@ -1329,6 +1332,7 @@
 @CANTO:		XII
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
+@SETTINGTITLE: Giunt'alla tomba, ov'al suo spirto vivo
 @COMPOSER:	Benedetti, Piero
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Musiche: Libro secondo a voce sola e basso continuo 
@@ -1381,6 +1385,7 @@
 @CANTO:		XII
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
+@SETTINGTITLE:	Giunto a la tomba ov'al suo spirto vivo
 @COMPOSER:	Cifra, Antonio
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Li diversi scherzi a due, a tre et quattro voci. Libro sesto
@@ -3833,6 +3838,7 @@
 @CANTO:		XIX
 @OTTAVA:	107
 @TITLE:	Ma che? squallido e scuro anco mi piaci
+@SETTINGTITLE: Ma che, squallid'e oscuro anco mi piaci
 @COMPOSER:	D'India, Sigismondo
 @PARTS:		2 of 2
 @PRINCEPSTITLE:	Musiche di Sigismondo d' India 
@@ -3885,6 +3891,7 @@
 @CANTO:		XIX
 @OTTAVA:	107
 @TITLE:	Ma che? squallido e scuro anco mi piaci
+@SETTINGTITLE: Ma che? squallido e scuro ancor mi piaci
 @COMPOSER:	Negri, Francesco
 @PARTS:		3-4 (verses 1-4; 5-8) of 4
 @PRINCEPSTITLE:	Arie musicali da cantarsi nel clavecembalo chitarone o altro simile istromento a una e doi voci 
@@ -3901,7 +3908,7 @@
 @OCLEFS:	C4,F4
 @OTIME:		
 @OKEYSIG:	b-
-@FINAL:	(G)G
+@FINAL:		(G)G
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING

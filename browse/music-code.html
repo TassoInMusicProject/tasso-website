@@ -575,6 +575,7 @@ function fillMusicOvoiceSelect(options) {
 		value = value.replace(/\s*\+\s*alfabeto/, "");
 		value = value.replace(/\s*\+\s*/g, "+");
 		value = value.replace(/bc/gi, "bc");
+		value = value.replace(/\s*\(.*\)\s*/g, "");
 		newlist[value] = 1;
 	}
 	options = Object.keys(newlist).sort(function(a, b) {

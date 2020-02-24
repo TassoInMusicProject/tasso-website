@@ -897,6 +897,52 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
+		<a target="_blank" href="img/Trm0059e-Lunge_da_voi_ben_mio--Dering_1620.png"><img width="425" style="width:425px" src="img/Trm0059e-Lunge_da_voi_ben_mio--Dering_1620.png"></a>
+		<div id="audio_Trm0059e" style="cursor:pointer;" onclick="PlayAudioFile('Trm0059e', this);" class="play">play</div>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0059e">Trm0059e</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Dering, Richard / 1620
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Lunge da voi, ben mio</i> (rime 59)
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		G
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
+<tr>
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Trm0060c-Lunge_da_voi_mio_core--Felis_1591.png"><img width="425" style="width:425px" src="img/Trm0060c-Lunge_da_voi_mio_core--Felis_1591.png"></a>
 		<div id="audio_Trm0060c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0060c', this);" class="play">play</div>
 	</td>
@@ -5911,8 +5957,8 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Trm0560a-Tarquinia_se_rimiri--Vinci_1573.png"><img width="425" style="width:425px" src="img/Trm0560a-Tarquinia_se_rimiri--Vinci_1573.png"></a>
-		<div id="audio_Trm0560a" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560a', this);" class="play">play</div>
+		<a target="_blank" href="img/Trm0560b-Tarquinia_se_rimiri--Vinci_1573.png"><img width="425" style="width:425px" src="img/Trm0560b-Tarquinia_se_rimiri--Vinci_1573.png"></a>
+		<div id="audio_Trm0560b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560b', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5921,7 +5967,7 @@ included on this page.
 		<b>ID:</b>
 	</td>
 	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560a">Trm0560a</a>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560b">Trm0560b</a>
 	</td>
 </tr>
 
@@ -5957,8 +6003,8 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Trm0560b-Tarquinia_se_rimiri--Bellasio_1578.png"><img width="425" style="width:425px" src="img/Trm0560b-Tarquinia_se_rimiri--Bellasio_1578.png"></a>
-		<div id="audio_Trm0560b" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560b', this);" class="play">play</div>
+		<a target="_blank" href="img/Trm0560c-Tarquinia_se_rimiri--Bellasio_1578.png"><img width="425" style="width:425px" src="img/Trm0560c-Tarquinia_se_rimiri--Bellasio_1578.png"></a>
+		<div id="audio_Trm0560c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560c', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -5967,7 +6013,7 @@ included on this page.
 		<b>ID:</b>
 	</td>
 	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560b">Trm0560b</a>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560c">Trm0560c</a>
 	</td>
 </tr>
 
@@ -6003,8 +6049,8 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Trm0560c-Tarquinia_se_rimiri--Merulo_1579.png"><img width="425" style="width:425px" src="img/Trm0560c-Tarquinia_se_rimiri--Merulo_1579.png"></a>
-		<div id="audio_Trm0560c" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560c', this);" class="play">play</div>
+		<a target="_blank" href="img/Trm0560d-Tarquinia_se_rimiri--Merulo_1579.png"><img width="425" style="width:425px" src="img/Trm0560d-Tarquinia_se_rimiri--Merulo_1579.png"></a>
+		<div id="audio_Trm0560d" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560d', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6013,7 +6059,7 @@ included on this page.
 		<b>ID:</b>
 	</td>
 	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560c">Trm0560c</a>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560d">Trm0560d</a>
 	</td>
 </tr>
 
@@ -6049,8 +6095,8 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Trm0560f-Mentre_mia_stella_miri.png"><img width="425" style="width:425px" src="img/Trm0560f-Mentre_mia_stella_miri.png"></a>
-		<div id="audio_Trm0560f" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560f', this);" class="play">play</div>
+		<a target="_blank" href="img/Trm0560g-Mentre_mia_stella_miri--Macque_1587.png"><img width="425" style="width:425px" src="img/Trm0560g-Mentre_mia_stella_miri--Macque_1587.png"></a>
+		<div id="audio_Trm0560g" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560g', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6059,7 +6105,7 @@ included on this page.
 		<b>ID:</b>
 	</td>
 	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560f">Trm0560f</a>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560g">Trm0560g</a>
 	</td>
 </tr>
 
@@ -6095,8 +6141,8 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.png"></a>
-		<div id="audio_Trm0560i" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560i', this);" class="play">play</div>
+		<a target="_blank" href="img/Trm0560j-Tarquinia_se_rimiri--Gesualdo_1594.png"><img width="425" style="width:425px" src="img/Trm0560j-Tarquinia_se_rimiri--Gesualdo_1594.png"></a>
+		<div id="audio_Trm0560j" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560j', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6105,7 +6151,7 @@ included on this page.
 		<b>ID:</b>
 	</td>
 	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560i">Trm0560i</a>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560j">Trm0560j</a>
 	</td>
 </tr>
 
@@ -6141,8 +6187,8 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.png"><img width="425" style="width:425px" src="img/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.png"></a>
-		<div id="audio_Trm0560m" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560m', this);" class="play">play</div>
+		<a target="_blank" href="img/Trm0560n-Tarquinia_se_rimiri--Alberti_1603.png"><img width="425" style="width:425px" src="img/Trm0560n-Tarquinia_se_rimiri--Alberti_1603.png"></a>
+		<div id="audio_Trm0560n" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560n', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6151,7 +6197,7 @@ included on this page.
 		<b>ID:</b>
 	</td>
 	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560m">Trm0560m</a>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560n">Trm0560n</a>
 	</td>
 </tr>
 
@@ -6187,8 +6233,8 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
-		<a target="_blank" href="img/Trm0560o-Mentre_mia_stella_miri--Spano_1608.png"><img width="425" style="width:425px" src="img/Trm0560o-Mentre_mia_stella_miri--Spano_1608.png"></a>
-		<div id="audio_Trm0560o" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560o', this);" class="play">play</div>
+		<a target="_blank" href="img/Trm0560p-Mentre_mia_stella_miri--Spano_1608.png"><img width="425" style="width:425px" src="img/Trm0560p-Mentre_mia_stella_miri--Spano_1608.png"></a>
+		<div id="audio_Trm0560p" style="cursor:pointer;" onclick="PlayAudioFile('Trm0560p', this);" class="play">play</div>
 	</td>
 </tr>
 
@@ -6197,7 +6243,7 @@ included on this page.
 		<b>ID:</b>
 	</td>
 	<td>
-		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560o">Trm0560o</a>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Trm0560p">Trm0560p</a>
 	</td>
 </tr>
 
@@ -8441,6 +8487,52 @@ included on this page.
 <table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
 <tr>
 	<td style="position:relative" colspan="2">
+		<a target="_blank" href="img/Tam1020338e-Ho_visto_al_pianto_mio--Benedetti_1617.png"><img width="425" style="width:425px" src="img/Tam1020338e-Ho_visto_al_pianto_mio--Benedetti_1617.png"></a>
+		<div id="audio_Tam1020338e" style="cursor:pointer;" onclick="PlayAudioFile('Tam1020338e', this);" class="play">play</div>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tam1020338e">Tam1020338e</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Benedetti, Piero / 1617
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>Ho visto al pianto mio</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		G
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
+<tr>
+	<td style="position:relative" colspan="2">
 		<a target="_blank" href="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"><img width="425" style="width:425px" src="img/Tam2010724a-Picciola_e_lape_e_fa_col_picciol_morso--Balsamino_1594.png"></a>
 		<div id="audio_Tam2010724a" style="cursor:pointer;" onclick="PlayAudioFile('Tam2010724a', this);" class="play">play</div>
 	</td>
@@ -9720,7 +9812,7 @@ included on this page.
 		<b>Final</b>
 	</td>
 	<td>
-		
+		G
 	</td>
 </tr>
 
@@ -10033,7 +10125,7 @@ included on this page.
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Dunque, ove tu signor di mille rivi</i> 
+		<i>Dunque ove tu, Signor, di mille rivi</i> 
 	</td>
 </tr>
 
@@ -10217,7 +10309,7 @@ included on this page.
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Vivrò fra i miei tormenti e le mie cure</i> 
+		<i>Vivrò fra i miei tormenti e fra le cure</i> 
 	</td>
 </tr>
 
@@ -10585,7 +10677,7 @@ included on this page.
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Deh mira, egli cantò, "spuntar la rosa</i> 
+		<i>"Deh mira," egli cantò, "spuntar la rosa</i> 
 	</td>
 </tr>
 
@@ -11597,7 +11689,7 @@ included on this page.
 		<b>Title</b>
 	</td>
 	<td>
-		<i>Misera non credea ch'a gli occhi miei</i> 
+		<i>Misera, non credea ch'a gli occhi miei</i> 
 	</td>
 </tr>
 
@@ -12021,6 +12113,52 @@ included on this page.
 	</td>
 	<td>
 		(G)G
+	</td>
+</tr>
+
+</table>
+
+<table style="display:inline-block; padding-left:20px; padding-right:20px; vertical-align:top; max-width:425px;">
+<tr>
+	<td style="position:relative" colspan="2">
+		<a target="_blank" href="img/Tsg20131b-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.png"><img width="425" style="width:425px" src="img/Tsg20131b-O_sempre_e_quando_parti_e_quando_torni--Eredi_1629.png"></a>
+		<div id="audio_Tsg20131b" style="cursor:pointer;" onclick="PlayAudioFile('Tsg20131b', this);" class="play">play</div>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>ID:</b>
+	</td>
+	<td>
+		<a target="_blank" href="http://tassomusic.org/work/?id=Tsg20131b">Tsg20131b</a>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Composer:</b>
+	</td>
+	<td>
+		Eredi, Francesco / 1629
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Title</b>
+	</td>
+	<td>
+		<i>O sempre, e quando parti e quando torni</i> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<b>Final</b>
+	</td>
+	<td>
+		(D)G
 	</td>
 </tr>
 

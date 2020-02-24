@@ -46,6 +46,7 @@ sub processFile {
 	$base =~ s/\.krn$//;
 	return if -r "$imgdir/$base.png";
 	print "Creating image $imgdir/$base.png\n";
+	print "$mkeyscape --trim -nl --bb $file | $convert - $imgdir/$base.png\n";
 	`$mkeyscape --trim -nl --bb $file | $convert - $imgdir/$base.png`;
 }
 

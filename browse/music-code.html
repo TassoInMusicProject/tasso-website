@@ -437,6 +437,7 @@ function setupMusicBrowseCallbacks() {
 	if (genreList) {
 		genreList.addEventListener("change", function () {
 			fillMusicBrowsePage({fillOptions:true});
+			sortByText(1);
 		});
 	}
 

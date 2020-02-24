@@ -4003,41 +4003,41 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0560a
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560a-Tarquinia_se_rimiri--Vinci_1573.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560a-Tarquinia_se_rimiri--Vinci_1573.krn
-@VNAME:	Canto
-@VNAME:	Alto
-@VNAME:	Tenore
-@VNAME:	Quinto
-@VNAME:	Basso
-@VABBR:	C
-@VABBR:	A
-@VABBR:	T
-@VABBR:	Q
-@VABBR:	B
-@@END:	SCOREDATA
-
-@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0560b
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560b-Tarquinia_se_rimiri--Bellasio_1578.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560b-Tarquinia_se_rimiri--Bellasio_1578.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560b-Tarquinia_se_rimiri--Vinci_1573.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560b-Tarquinia_se_rimiri--Vinci_1573.krn
 @VNAME:	Canto
 @VNAME:	Alto
-@VNAME:	Quinto
 @VNAME:	Tenore
+@VNAME:	Quinto
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	A
-@VABBR:	Q
 @VABBR:	T
+@VABBR:	Q
 @VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0560c
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560c-Tarquinia_se_rimiri--Merulo_1579.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560c-Tarquinia_se_rimiri--Merulo_1579.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560c-Tarquinia_se_rimiri--Bellasio_1578.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560c-Tarquinia_se_rimiri--Bellasio_1578.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Quinto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	Q
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0560d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560d-Tarquinia_se_rimiri--Merulo_1579.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560d-Tarquinia_se_rimiri--Merulo_1579.krn
 @VNAME:	Canto
 @VNAME:	Sesto
 @VNAME:	Alto
@@ -4053,9 +4053,9 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0560d
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560d-Tarquinia_se_rimiri--Pordenon_1580.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560d-Tarquinia_se_rimiri--Pordenon_1580.krn
+@CATALOGNUM:	Trm0560e
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560e-Tarquinia_se_rimiri--Pordenon_1580.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560e-Tarquinia_se_rimiri--Pordenon_1580.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Basso
@@ -4065,9 +4065,9 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0560f
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560f-Mentre_mia_stella_miri.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560f-Mentre_mia_stella_miri.krn
+@CATALOGNUM:	Trm0560g
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560g-Mentre_mia_stella_miri--Macque_1587.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560g-Mentre_mia_stella_miri--Macque_1587.krn
 @VNAME:	Canto
 @VNAME:	Quinto
 @VNAME:	Alto
@@ -4081,9 +4081,9 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0560h
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560h-Tarquinia_se_rimiri--Monte_1591.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560h-Tarquinia_se_rimiri--Monte_1591.krn
+@CATALOGNUM:	Trm0560i
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560i-Tarquinia_se_rimiri--Monte_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560i-Tarquinia_se_rimiri--Monte_1591.krn
 @VNAME:	Alto
 @VNAME:	Quinto
 @VNAME:	Tenore
@@ -4093,9 +4093,9 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0560i
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560i-Tarquinia_se_rimiri--Gesualdo_1594.krn
+@CATALOGNUM:	Trm0560j
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560j-Tarquinia_se_rimiri--Gesualdo_1594.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560j-Tarquinia_se_rimiri--Gesualdo_1594.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Quinto
@@ -4106,60 +4106,60 @@
 @VABBR:	V
 @VABBR:	T
 @VABBR:	B
-@@END:	SCOREDATA
-
-@@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0560k
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560k-Tarquinia_se_rimiri--Nanino_1599.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560k-Tarquinia_se_rimiri--Nanino_1599.krn
-@VNAME:	Tenore
-@VABBR:	T
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0560l
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560l-Tarquinia_se_rimiri--IlVerso_1600.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560l-Tarquinia_se_rimiri--IlVerso_1600.krn
-@VNAME:	Canto
-@VNAME:	Basso
-@VABBR:	C
-@VABBR:	B
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560l-Tarquinia_se_rimiri--Nanino_1599.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560l-Tarquinia_se_rimiri--Nanino_1599.krn
+@VNAME:	Tenore
+@VABBR:	T
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0560m
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560m-Tarquinia_se_rimiri--Alberti_1603.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560m-Tarquinia_se_rimiri--IlVerso_1600.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560m-Tarquinia_se_rimiri--IlVerso_1600.krn
 @VNAME:	Canto
-@VNAME:	Alto
-@VNAME:	Tenore
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	A
-@VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
-@CATALOGNUM:	Trm0560o
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560o-Mentre_mia_stella_miri--Spano_1608.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560o-Mentre_mia_stella_miri--Spano_1608.krn
+@CATALOGNUM:	Trm0560n
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560n-Tarquinia_se_rimiri--Alberti_1603.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560n-Tarquinia_se_rimiri--Alberti_1603.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Tenore
-@VNAME:	Quinto
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0560p
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560p-Tarquinia_se_rimiri--Civita_1616.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560p-Tarquinia_se_rimiri--Civita_1616.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560p-Mentre_mia_stella_miri--Spano_1608.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560p-Mentre_mia_stella_miri--Spano_1608.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	V
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0560q
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0560q-Tarquinia_se_rimiri--Civita_1616.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0560q-Tarquinia_se_rimiri--Civita_1616.krn
 @VNAME:	Alto
 @VNAME:	Basso
 @VNAME:	B.C.

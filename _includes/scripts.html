@@ -67,14 +67,8 @@
 
 
 {% if page.pdfkit == true %}
-	<script src="/scripts/pdfkit/blobstream.js"></script>
-	<script src="/scripts/pdfkit/pdfkit.js"></script>
-	<script src="/scripts/pdfkit/source.js"></script>
-	<script src="/scripts/pdfkit/vrv-ttf.js"></script>
-<!--
-	<script src="/scripts/pdfkit/simonetta-ttf.js"></script>
--->
-	<script src="/scripts/pdfkit/FileSaver.min.js"></script>
+	{% include header/pdfkit.html %}
+
 {% else %}
 	<!-- page.pdfkit is disabled "{{page.pdfkit}}" -->
 {% endif %}

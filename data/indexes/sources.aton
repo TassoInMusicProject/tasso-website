@@ -119,7 +119,7 @@
 @EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	B-Br (CB); DK-Kk (T)
 @REPRODUCTIONTYPE:	
-@SRCURL:	none http://img.kb.dk/ma/pre1700/fiori_mus_a3.pdf
+@SRCURL:	http://img.kb.dk/ma/pre1700/fiori_mus_a3.pdf
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -427,7 +427,7 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Rc (CBV); I-Bc (AT)
 @REPRODUCTIONTYPE:	scans
-@SRCURL:	I-Bc (AT); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V244/
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V244/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -3183,7 +3183,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 2459
 @AUTHOR:	Giovannelli, Ruggiero
-@TITLEPAGE:	DI RVGGIERO / GIOVANELLI / MAESTRO DI CAPELLA / IN S. PIETRO DI ROMA / IL PRIMO LIBRO DI MADRIGALI / A Cinque Voci,  Nouamente Ristampati. /  In Venetia, Appresso Angelo Gardano / 1600.
+@TITLEPAGE:	DI RVGGIERO / GIOVANNELLI / MAESTRO DI CAPELLA / IN S. LVIGI DI ROMA, / IL PRIMO LIBRO DI MADRIGALI / A Cinque Voci. / Nouamente da lui Composti & dati in luce. / In Venetia Appresso Angelo Gardano / M. D. LXXXVI.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1586
@@ -3198,14 +3198,14 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=78003&from=&dirids=1&ver_id=&lp=1&QI=
 @@END: SOURCE
 
 @@BEGIN: SOURCE
 @RISM:	G 2464
 @AUTHOR:	Giovannelli, Ruggiero
-@TITLEPAGE:	DI RVGGIERO / GIOVANNELLI / MAESTRO DI CAPELLA / IN S. LVIGI DI ROMA, / IL PRIMO LIBRO DI MADRIGALI / A Cinque Voci. / Nouamente da lui Composti & dati in luce. / In Venetia Appresso Angelo Gardano / M. D. LXXXVI.
+@TITLEPAGE:	DI RVGGIERO / GIOVANELLI / MAESTRO DI CAPELLA / IN S. PIETRO DI ROMA / IL PRIMO LIBRO DI MADRIGALI / A Cinque Voci, Nouamente Ristampati. / In Venetia, Appresso Angelo Gardano / 1600.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci, novamente ristampati.
 @PUBLISHER:	Gardano
 @YEAR:	1600
@@ -3381,7 +3381,7 @@
 @@BEGIN: SOURCE
 @RISM:	G 4805
 @AUTHOR:	Guami, Gioseffo
-@TITLEPAGE:	
+@TITLEPAGE:	DI GIOSEFFO / GVAMI DA LVCCA / Organista della Serenissima / Signoria di Venetia / in S. Marco. / IL QVARTO LIBRO / De Madrigali à Cinq; & Sei voci, con / alcuni Dialoghi à Otto & à Dieci / Nouamente posti in luce. / In Venetia Appresso Angelo Gardano. M.D. LXXXXI.
 @TITLESHORT:	Quarto libro de madrigali a cinque et sei voci, con alcuni Dialoghi a otto et a dieci. 
 @PUBLISHER:	Angelo Gardano
 @YEAR:	1591
@@ -3389,14 +3389,14 @@
 @PUBFORMAT:	part-books
 @PUBLOC:	Venice
 @PUBNORMLOC:	Venice
-@SRCDEDICATEE:	
-@SRCDEDICATEESHORT:	
+@SRCDEDICATEE:	Ferdinando Gran Duca di Toscana
+@SRCDEDICATEESHORT:	Ferdinando Gran Duca di Toscana
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	
-@EXTPARTBOOKS:	
-@EXTNAMES:	
-@SRCLOCSIGLA:	
-@REPRODUCTIONTYPE:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CAB
+@EXTNAMES:	C,A,B
+@SRCLOCSIGLA:	B-Bc (CBVI); US-BEm (A)
+@REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
 @@END: SOURCE
 
@@ -3903,7 +3903,7 @@
 @EXTNAMES:	C,B
 @SRCLOCSIGLA:	GB-Lbl (C); I-Bc (B)
 @REPRODUCTIONTYPE:	Digital facsimile; PDF from microfilm
-@SRCURL:	I-Bc (B); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA144/
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA144/
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -4519,7 +4519,7 @@
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-Bc (C); I-PESc (A); D-Mbs(TBVVI)
 @REPRODUCTIONTYPE:	digital facsimile, microfilm
-@SRCURL:	I-Bc (C); http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T036/ D-Mbs (TBVVI); https://books.google.com/books?id=p48dkhOeM8AC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T036/ https://books.google.com/books?id=p48dkhOeM8AC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @@END: SOURCE
 
 @@BEGIN: SOURCE
@@ -5003,7 +5003,7 @@
 @EXTNAMES:	C,A,T,B,V,Bc
 @SRCLOCSIGLA:	I-Bc (CTBVbc); PL-Kj (A)
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	I-Bc;  http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA296/ 
+@SRCURL:	 http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA296/ 
 @@END: SOURCE
 
 @@BEGIN: SOURCE

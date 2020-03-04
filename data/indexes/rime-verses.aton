@@ -388,7 +388,7 @@
 @TITLE:		Io veggio in cielo scintillar le stelle
 @GENRE:		sonetto
 @MANUSRC:	Brn, C, Ts<sub>2</sub>, V<sub>8</sub>
-@PRINTSRC:	11, 12, 13, 22a), 26, 31, 35, 69, 85, 87, 141, 166, 169
+@PRINTSRC:	11, 12, 13, 26, 31, 35, 69, 85, 87, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Camminando di notte prega le stelle che guidino il suo corso.
 @ABOUTEN:	Wandering at night he begs the starts to guide his course.
@@ -1344,7 +1344,7 @@
 @TITLE:		Disdegno e gelosia
 @GENRE:		madrigale
 @MANUSRC:	C, E<sub>1</sub>, M<sub>7</sub>, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/E1</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Dice che disdegno e gelosia gli tolgono la vista de la sua donna.
 @ABOUTEN:	He says that disdain and jealousy take away from him the sight of his lady.
@@ -1750,7 +1750,7 @@
 @TITLE:		Con la saetta de la punta d'oro
 @GENRE:		madrigale
 @MANUSRC:	C, V<sub>8</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 85, 87, 141, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 85, 87, 141, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Dice che Amore scrisse con la sua saetta d'oro le leggi de la sua vita in un lauro.
 @ABOUTEN:	He says that Love wrote with its golden arrow the laws of his life in a laurel.
@@ -1908,7 +1908,7 @@
 @TITLE:		Ecco mormorar l'onde
 @GENRE:		madrigale
 @MANUSRC:	C, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 48, 69, 85, 87, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 48, 69, 85, 87, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Descrive l'apparir de l'aurora e de la sua donna.
 @ABOUTEN:	He describes the appearance of dawn and of his lady.
@@ -1972,7 +1972,7 @@
 @TITLE:		Ore fermate il volo
 @GENRE:		madrigale/ballata
 @MANUSRC:	C, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 48, 69, 85, 87, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 48, 69, 85, 87, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Parla con l'Aure e con l'Ore, pregando l'une che si fermino, l'altre che portino i suoi lamenti a la sua donna.
 @ABOUTEN:	He speaks with Breezes and with Hours, begging the former to stop and the latter to bring his laments to his lady.
@@ -2090,7 +2090,7 @@
 @TITLE:		S'a sdegno voi prendete
 @GENRE:		madrigale
 @MANUSRC:	C, Ts<sub>2</sub>, V<sub>8</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Prega la sua donna che, se non gli vuol dare il suo core, gli dia almeno la sua imagine, e poi conclude che gli debba donar l'una e render l'altro.
 @ABOUTEN:	He begs his lady that, if she does not want to give her heart, she at least give him her image, and concludes that she should give one and give back the other.
@@ -2144,7 +2144,7 @@
 @TITLE:		Se l'imagine vostra
 @GENRE:		madrigale
 @MANUSRC:	C, V<sub>8</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 48, 54, 69, 93, 141, 145, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 48, 54, 69, 93, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Rende la cagione perché avendola impressa nel core desideri la sua imagine.
 @ABOUTEN:	He explaines the reason why, having her [image] engraved in his heart, he [still] desires [to see] her image.
@@ -2520,7 +2520,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Vorrei lagnarmi a pieno
 @GENRE:		madrigale
 @MANUSRC:	C, Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 93, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto (i.e., "Dice che la signora Laura desiderando ch'egli celi l'amor suo desidera cosa impossibile." Rime 164)
 @ABOUTEN:	On the same subject (i.e., "He says that lady Laura, in whishing that he hide his love, wishes something impossible." Rime 164)
@@ -2574,7 +2574,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Se taccio, il duol s'avanza
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	11, 12, 13, 22, 22a), 23, 26, 31, 35, 69, 93, 141, 145, 166, 169
+@PRINTSRC:	11, 12, 13, 22, 23, 26, 31, 35, 69, 93, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto (i.e., "Dice che la signora Laura desiderando ch'egli celi l'amor suo desidera cosa impossibile." Rime 164-165)
 @ABOUTEN:	On the same subject (i.e., "He says that lady Laura, in whishing that he hide his love, wishes something impossible." Rime 164-165)
@@ -2623,7 +2623,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Donna, quella saetta
 @GENRE:		ballata
 @MANUSRC:	I<sub>4</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 85, 87, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 85, 87, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Dice che il suo desiderio non è amoroso ma di vendetta.
 @ABOUTEN:	He says that his desire is not [desire] of love but of revenge.
@@ -3106,7 +3106,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		La giovinetta scorza
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 78, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 78, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto. (i.e., "Questo sonetto con l'altro accompagnano un libro di madrigali dedicati a la signora Laura." Rime 193)
 @ABOUTEN:	On the same subject. (i.e., "This sonnet and the other accompany a book of madrigals dedicated to lady Laura." Rime 193).
@@ -3161,7 +3161,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Sovra le verdi chiome
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 78, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 78, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto. (i.e., "Questo sonetto con l'altro accompagnano un libro di madrigali dedicati a la signora Laura." Rime 193-94)
 @ABOUTEN:	On the same subject. (i.e., "This sonnet and the other accompany a book of madrigals dedicated to lady Laura." Rime 193-194)
@@ -3220,7 +3220,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Felice primavera
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo soggetto. (i.e., "Questo sonetto con l'altro accompagnano un libro di madrigali dedicati a la signora Laura." Rime 193-194-195)
 @ABOUTEN:	On the same subject. (i.e., "This sonnet and the other accompany a book of madrigals dedicated to lady Laura." Rime 193-194-195)
@@ -3319,7 +3319,7 @@ If it emerges, nature and itself are at fault.
 @TITLE:		Picciola verga e bella
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[Per la nascita di una figlia di Laura Peperara. 1583]
 @ABOUTEN:	[For the birth of a daughter of Laura Peperara. 1583]
@@ -5639,7 +5639,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Donna cortese e bella
 @GENRE:		madrigale
 @MANUSRC:	E<sub>1</sub>, F<sub>2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -5782,7 +5782,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Gi&agrave; fu mia dolce speme
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 23, 26, 31, 32, 35, 36, 37, 69, 141, 145, 166, 169
+@PRINTSRC:	22, 23, 26, 31, 32, 35, 36, 37, 69, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -5923,7 +5923,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Cantava in riva al fiume
 @GENRE:		madrigale
 @MANUSRC:	none
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 145, 166, 167, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 93, 141, 145, 166, 167, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	
 @ABOUTEN:	
@@ -6391,7 +6391,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Questo riposto bel vago boschetto
 @GENRE:		sonetto
 @MANUSRC:	Ts<sub>2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[Fillide]
 @ABOUTEN:	
@@ -6458,7 +6458,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Qui dove i sacri e verdeggianti allori
 @GENRE:		sonetto
 @MANUSRC:	Ts<sub>2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[Fillide]
 @ABOUTEN:	[Fillide]
@@ -6525,7 +6525,7 @@ The earliest written appearance of this poem is in a literary print published in
 @TITLE:		Odi, Filli, che tuona; odi che 'n gelo
 @GENRE:		sonetto
 @MANUSRC:	Amz, Ts<sub>2</sub>, W, Y
-@PRINTSRC:	8, 9, 11, 12, 13, 15, 22, 22a), 24, 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	8, 9, 11, 12, 13, 15, 22, 24, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[Fillide]
 @ABOUTEN:	[Fillide]
@@ -6722,7 +6722,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Bruna sei tu ma bella
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 93, 141, 145, 166, 169
+@PRINTSRC:	22, 26, 31, 93, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	LA BRUNA. ANCELLA DI LEONORA THIENE SANVITALE CONTESSA DI SCANDIANO. 
 @ABOUTEN:	THE BRUNETTE. MAIDSERVANT OF LEONORA THIENE SANVITALE COUNTESS OF SCANDIANO.
@@ -7322,7 +7322,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Questo tra gli altri fiori
 @GENRE:		madrigale
 @MANUSRC:	F<sub>2</sub>, Ts<sub>2</sub>
-@PRINTSRC:	22, 22a), 28, 141, 166, 169
+@PRINTSRC:	22, 28, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Nel medesimo argomento (i.e., "Ad istanza del signor Giulio Mosti [...] [per] una gentildonna ragusea chiamata Fiordispina." Rime 403-407)
 @ABOUTEN:	On the same subject. (i.e., "On behalf of sir Giulio Mosti [...] [for] a lady for Ragusa named Fiordispina." Rime 403-407)
@@ -7466,7 +7466,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Ardi e gela a tua voglia
 @GENRE:		madrigale
 @MANUSRC:	E<sub>1</sub>, M<sub>7</sub>, N<sub>21</sub>, V<sub>13/E1</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 60, 69, 86, 93, 121, 141, 145, 159<sup>bis</sup>, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 60, 69, 86, 93, 121, 141, 145, 159<sup>bis</sup>, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[Risposta in nome di una dama ad un madrigale di B. Guarini]
 @ABOUTEN:	[Response on behalf of a lady to a madrigale by B. Guarini]
@@ -8113,7 +8113,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Negli anni acerbi tua purpurea rosa
 @GENRE:		sonetto
 @MANUSRC:	Amz, Ar, Brn, E<sub>1</sub>, F<sub>2</sub>, I<sub>4</sub>, N<sub>22</sub>, Ts<sub>1</sub>, V<sub>13/TS1</sub>, W
-@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 69, 85, 86, 87, 141, 166, 169
+@PRINTSRC:	7, 8, 9, 11, 12, 13, 15, 20, 24, 29, 33, 67, 85, 86, 87, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Loda la bellezza de la signora Lucrezia d'Este duchessa d'Urbino, la quale non scema perché cresca l'età.
 @ABOUTEN:	He praises the beauty of lady Lucrezia d'Este duchess of Urbino, which does not fade as the age increases.
@@ -8713,7 +8713,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Quant'io sono infelice
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[A una gentildonna che lo visitò in S. Anna.]
 @ABOUTEN:	[To a gentlewoman who visited him in S. Anna.]
@@ -8826,7 +8826,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Portano l'altre il velo
 @GENRE:		madrigale
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 69, 141, 145, 166, 169
+@PRINTSRC:	22, 26, 31, 69, 141, 145, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	A la signora Marfisa d'Este
 @ABOUTEN:	To lady Marfisa d'Este
@@ -8876,7 +8876,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		La bella e vaga man che le sonore
 @GENRE:		sonetto
 @MANUSRC:	Ts<sub>2</sub>, VE<sub>3</sub>
-@PRINTSRC:	22, 22a), 26, 31, 36, 40, 50a), 69, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 36, 40, 50a), 69, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	[Loda la signora Vittoria Castellini]
 @ABOUTEN:	[He praises lady Vittoria Castellini]
@@ -8941,7 +8941,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 @TITLE:		Deh! perch&eacute; amar chi voi con pari affetto
 @GENRE:		sonetto
 @MANUSRC:	Ts<sub>2</sub>, V<sub>13/TS2</sub>
-@PRINTSRC:	22, 22a), 26, 31, 35, 69, 87, 141, 166, 169
+@PRINTSRC:	22, 26, 31, 35, 69, 87, 141, 166, 169
 @@BEGIN:	VERSES
 @ABOUTIT:	Persuade una gentildonna a non amare altro che di vicendevole amore.
 @ABOUTEN:	He persuades a gentlewoman not to love any other way but mutually.

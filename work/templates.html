@@ -244,10 +244,10 @@
 	</div>
 
 	<div class="indent">
-		<a href="">Go to poem's About page</a>
+		<a target="_blank" href="/poem/?id={{poemid CATALOGNUM}}">Go to poem's About page</a>
 		<br/>
 		<br/>
-		<a href="">Go to poem's Literary Variants page</a>
+		<a target="_blank" href="/variants/?id={{poemid CATALOGNUM}}">Go to poem's Literary Variants page</a>
 	</div>
 	
 
@@ -1079,6 +1079,21 @@ Handlebars.registerHelper("rism", function(rismid) {
 		// above two formats.
 		output = rismid;
 	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// poemid Handlebar helper  -- 
+//
+
+Handlebars.registerHelper("poemid", function(workid) {
+	if (!workid) {
+		return new Handlebars.SafeString("");
+	}
+	var output = workid.replace(/[a-z]$/, "");
 	return new Handlebars.SafeString(output);
 });
 

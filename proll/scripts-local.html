@@ -192,12 +192,12 @@ function PlayAudioFile2(jrpid, element, time) {
 		AUDIOid = element.id;
 		var source = '';
 		// Can't have seekable dynamic content in audio element:
-		//source += '<source src="http://josquin.stanford.edu/data?a=mp3&id=' + jrpid + '" ';
+		//source += '<source src="https://josquin.stanford.edu/data?a=mp3&id=' + jrpid + '" ';
 		if (window.location.href.match(/tasso/i)) {
-			source += '<source src="http://josquin.stanford.edu/audio/mp3/'
+			source += '<source src="https://josquin.stanford.edu/audio/mp3/'
  						+ jrpid + '.mp3" ';
 		} else {
-			source += '<source src="http://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
+			source += '<source src="https://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
 		}
 		source += 'type="audio/mpeg"/>\n';
 		AUDIO.innerHTML = source;
@@ -441,7 +441,7 @@ function loadSvgImage(selector) {
    // request.open("GET", "piano-roll.svg");
    var jrpid = getJrpid();
    sessionStorage.PROLLjrpid = jrpid;
-   var url = "http://josquin.stanford.edu/cgi-bin/tasso?a=prollsvg&id=" + jrpid;
+   var url = "https://josquin.stanford.edu/cgi-bin/tasso?a=prollsvg&id=" + jrpid;
    request.open("GET", url);
    request.addEventListener("load", function() {
       var element = document.querySelector(selector);

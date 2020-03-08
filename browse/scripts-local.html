@@ -46,14 +46,55 @@ function showTab(hiid) {
 
 function getOptionListText(options, remappings) {
 	var output = "";
+	var hasCelf = 0;
 	for (var i=0; i<options.length; i++) {
 		var text = options[i];
+		if (text === "C1,C1") {
+			return getOptionListTextClefList(options, remappings);
+		}
 		var text2 = text;
 		if (remappings[text]) {
 			text = remappings[text];
 		}
 		output += "<option value='" + text + "'>" + text2 + "</option>";
 	}
+	return output;
+}
+
+
+// sort by clef number then by clef type
+
+function getOptionListTextClefList(options, remappings) {
+	var max = 0;
+	var newlist = [];
+	var i;
+	var j;
+	for (i=0; i<options.length; i++) {
+		var count = (options[i].match(/,/g) || []).length;
+		if (options[i] === "N/A") {
+			continue;
+		}
+		if (!newlist[count]) {
+			newlist[count] = [];
+		}
+		newlist[count].push(options[i]);
+	}
+	var output = "";
+	for (i=0; i<newlist.length; i++) {
+		if (!newlist[i]) {
+			continue;
+		}
+		for (j=0; j<newlist[i].length; j++) {
+			var text = newlist[i][j];
+			var text2 = text;
+			if (remappings[text]) {
+				text = remappings[text];
+			}
+			output += "<option value='" + text + "'>" + text2 + "</option>";
+		}
+	}
+	output += "<option value='" + "N/A" + "'>" + "N/A" + "</option>";
+	
 	return output;
 }
 

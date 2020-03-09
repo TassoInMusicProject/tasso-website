@@ -130,6 +130,25 @@
 	<td width="100%"></td>
 
 	<td>
+		<div style="padding-left: 10px; white-space:pre">
+			<select onchange="updateTransposition()" id="transpose">
+				<option value="">Transpose (none)</option>
+				<option value="+m2">+m2</option>
+				<option value="-m2">-m2</option>
+				<option value="+M2">+M2</option>
+				<option value="-M2">-M2</option>
+				<option value="+m3">+m3</option>
+				<option value="-m3">-m3</option>
+				<option value="+M3">+M3</option>
+				<option value="-M3">-M3</option>
+				<option value="+P4">+P4</option>
+				<option value="-P4">-P4</option>
+				<option value="+P5">+P5</option>
+				<option value="-P5">-P5</option>
+			</select>
+		</div>
+	</td>
+	<td>
 		<div style="padding-left:10px">
 			<input id="query" onkeyup="processMusicSearch(event)" 
 					type=text placeholder="music search..." 
@@ -137,7 +156,7 @@
 			<div id="search-counts"></div>
 		</div>
 	</td>
-	<td width="100%">
+	<td>
 		<div style="padding-left:10px">
 			<input id="query-text" onkeyup="processTextSearch(event)" 
 					type=text placeholder="text search..." 

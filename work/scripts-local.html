@@ -34,6 +34,7 @@ var SETTING = {};
 var TIMEMAP = {};
 var QEVENTS = [];
 var REFRESH = null;
+var TRANSPOSE = "";
 
 var vrvToolkit;
 
@@ -697,6 +698,10 @@ function initializeVerovioNotation(sourceid, targetid, query, textquery) {
 
 	if (CGI.filter) {
 		content += "!!!filter: " + CGI.filter + "\n";
+	}
+
+	if (TRANSPOSE) {
+		content += "!!!filter: transpose -t " + TRANSPOSE + "\n";
 	}
 
 	if (!vrvToolkit) {
@@ -1526,6 +1531,22 @@ function displayMensurationState() {
 
 function toggleText() {
 	INCLUDE_TEXT = !INCLUDE_TEXT;
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
+// updateTransposition --
+//
+
+function updateTransposition() {
+	var element = document.querySelector("#transpose");
+	if (!element) {
+		return;
+	}
+	TRANSPOSE = element.value;
 	initializeVerovioNotation();
 }
 

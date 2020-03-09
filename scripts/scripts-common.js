@@ -1766,7 +1766,7 @@ function InsertSourcesIntoSettings() {
 			id = list[i].RISM;
 		}
 		if (!id) {
-			console.log("Warning: entry has no RISM:", list[i]);
+			// console.log("Warning: entry has no RISM:", list[i]);
 		}
 		var id = list[i].PRINCEPSRISM;
 		var value = RSOURCES[id];
@@ -1774,7 +1774,7 @@ function InsertSourcesIntoSettings() {
 			list[i].SOURCE = value;
 			list[i].MDEDICATEE = value.SRCDEDICATEESHORT;
 		} else {
-			console.log("ID", id, "HAS NO SOURCE", list[i]);
+			// console.log("ID", id, "HAS NO SOURCE", list[i]);
 		}
 	}
 

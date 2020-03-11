@@ -252,6 +252,7 @@ Mille bellezze tue, con luci mille.
 @VERSE:		
 @@END: VARIORUM
 @@BEGIN:	VARIORUM
+
 @CATALOGNUM:	Trm0560
 @ID:		S33
 @TYPE:		print
@@ -268,6 +269,7 @@ Mentre mia stella, miri
 	Io vagheggiar potessi
 	Mille bellezze tue, con luci mille.
 @@END:		VARIORUM
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Trm0560
 @ID:		S67
@@ -327,6 +329,7 @@ Mille bellezze tue con luci mille.
 @VERSE:		
 @@END: VARIORUM
 @@BEGIN:	VARIORUM
+
 @CATALOGNUM:	Trm0560
 @ID:		S169
 @TYPE:		print
@@ -344,6 +347,58 @@ Mentre mia stella, miri
 	Mille bellezze tue, con luci mille.
 @@END:		VARIORUM
 
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0560
+@ID:		Trm0560a-Alto
+@TYPE:		music
+@COMPOSER:	Luzzaschi, Luzzasco
+@PAGE:		34
+@PARATEXT:	
+@VERSE:	
+Mentre l'ardenti stelle
+Con due più chiare e belle
+Tarquinia contemplate,
+Il ciel esser vorrei
+Per poter la beltate,
+Che tutta non appare,
+Ahi deboli occhi miei,
+Con mille altri in un sol sguardo mirare.
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0560
+@ID:		Trm0560a-Tenore
+@TYPE:		music
+@COMPOSER:	Luzzaschi, Luzzasco
+@PAGE:		34
+@PARATEXT:	
+@VERSE:	
+Mentre l'ardenti stelle
+Con due più chiare e belle
+Tarquinia contemplate,
+Il ciel esser vorrei
+Per poter la beltate,
+Che tutta non appare,
+Ahi deboli occhi miei,
+Con mille altri in un sol sguardo mirare.
+
+@@BEGIN: VARIORUM
+@CATALOGNUM:	Trm0560
+@ID:		Trm0560a-Quinto
+@TYPE:		music
+@COMPOSER:	Luzzaschi, Luzzasco
+@PAGE:		34
+@PARATEXT:	
+@VERSE:	
+Mentre l'ardenti stelle
+Con due più chiare e belle
+Tarquinia contemplate,
+Il ciel esser vorrei
+Per poter la beltate,
+Che tutta non appare,
+Ahi deboli occhi miei,
+Con mille altri in un sol sguardo mirare.
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
@@ -711,9 +766,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560f-Canto
 @TYPE:		music
 @COMPOSER:	Tristabocca, Pasquale
-@PAGE:		
+@PAGE:		6
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Mentre mia stella miri
+I bei celesti giri
+Il cielo esser vorrei
+Perche ne gli occhi miei
+Fiso tu rivolgessi
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.
 @@END: VARIORUM
 
 
@@ -722,9 +785,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560f-Alto
 @TYPE:		music
 @COMPOSER:	Tristabocca, Pasquale
-@PAGE:		
+@PAGE:		6
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Mentre mia stella miri
+I bei celesti giri
+Il cielo esser vorrei
+Perche ne gli occhi miei
+Fiso tu rivolgessi
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -733,9 +804,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560f-Tenore
 @TYPE:		music
 @COMPOSER:	Tristabocca, Pasquale
-@PAGE:		
+@PAGE:		6
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Mentre mia stella miri
+I bei celesti giri
+Il cielo esser vorrei
+Perche ne gli occhi miei
+Fiso tu rivolgessi
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -744,9 +823,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560f-Basso
 @TYPE:		music
 @COMPOSER:	Tristabocca, Pasquale
-@PAGE:		
+@PAGE:		6
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Mentre mia stella miri
+I bei celesti giri
+Il cielo esser vorrei
+[TACET]
+[TACET]
+[TACET]
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -755,9 +842,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560f-Quinto
 @TYPE:		music
 @COMPOSER:	Tristabocca, Pasquale
-@PAGE:		
+@PAGE:		6
 @PARATEXT:	
-@VERSE:		
+@VERSE:	
+Mentre mia stella miri
+I bei celesti giri
+Il cielo esser vorrei
+[TACET]
+[TACET]
+[TACET]
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -862,9 +957,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560h-Canto
 @TYPE:		music
 @COMPOSER:	Graziani, Tommaso
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il ciel esser vorrei
+Perche ne gl'occhi miei
+Fisso tu rivolgessi
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.
 @@END: VARIORUM
 
 
@@ -873,9 +976,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560h-Alto
 @TYPE:		music
 @COMPOSER:	Graziani, Tommaso
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il ciel esser vorrei
+Perche ne gl'occhi miei
+Fisso tu rivolgessi
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -884,9 +995,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560h-Tenore
 @TYPE:		music
 @COMPOSER:	Graziani, Tommaso
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il ciel esser vorrei
+Perche ne gl'occhi miei
+[TACET]
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -895,9 +1014,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560h-Basso
 @TYPE:		music
 @COMPOSER:	Graziani, Tommaso
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il ciel esser vorrei
+Perche ne gl'occhi miei
+[TACET]
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -906,9 +1033,17 @@ Mille bellezze tue con occhi mille.
 @ID:		Trm0560h-Quinto
 @TYPE:		music
 @COMPOSER:	Graziani, Tommaso
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il ciel esser vorrei
+Perche ne gl'occhi miei
+Fisso tu rivolgessi
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -974,9 +1109,17 @@ Mille bellezze tue con luci mille.
 @ID:		Trm0560j-Canto
 @TYPE:		music
 @COMPOSER:	Gesualdo, Carlo
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il Ciel'esser vorrei
+Perche tu rivolgessi
+Fiso ne gli occhi miei
+Le tue dolci faville
+Io vagheggiar' potessi
+mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -985,9 +1128,17 @@ Mille bellezze tue con luci mille.
 @ID:		Trm0560j-Alto
 @TYPE:		music
 @COMPOSER:	Gesualdo, Carlo
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il Ciel'esser vorrei
+Perche tu rivolgessi
+Fiso ne gli occhi miei
+Le tue dolci faville
+Io vagheggiar' potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -996,9 +1147,17 @@ Mille bellezze tue con luci mille.
 @ID:		Trm0560j-Tenore
 @TYPE:		music
 @COMPOSER:	Gesualdo, Carlo
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il Ciel'esser vorrei
+Perche tu rivolgessi
+Fiso ne' gli occhi miei
+Le tue dolci faville
+Io vagheggiar' potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -1007,9 +1166,17 @@ Mille bellezze tue con luci mille.
 @ID:		Trm0560j-Basso
 @TYPE:		music
 @COMPOSER:	Gesualdo, Carlo
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il Ciel'esser vorrei
+Per che tu rivolgessi
+Fiso ne gli occhi miei
+Le tue dolci faville
+Io vagheggiar' potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -1018,9 +1185,17 @@ Mille bellezze tue con luci mille.
 @ID:		Trm0560j-Quinto
 @TYPE:		music
 @COMPOSER:	Gesualdo, Carlo
-@PAGE:		
+@PAGE:		16
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il Ciel'esser vorrei
+Per che tu rivolgessi
+Fiso [TACET]
+Le tue dolci faville
+Io vagheggiar' potessi
+Mille bellezze tue con luci mille.	
 @@END: VARIORUM
 
 
@@ -1092,9 +1267,17 @@ Mille bellezze tue con luci mille.
 @ID:		Trm0560m-Canto
 @TYPE:		music
 @COMPOSER:	Il Verso, Antonio
-@PAGE:		
+@PAGE:		21
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+Il cielo esser vorrei
+Perche tu rivolgessi
+Fiso ne i lumi miei
+Le tue dolci faville
+Io vagheggiar potessi
+Mille bellezze tue con occhi mille.
 @@END: VARIORUM
 
 
@@ -1103,9 +1286,17 @@ Mille bellezze tue con luci mille.
 @ID:		Trm0560m-Basso
 @TYPE:		music
 @COMPOSER:	Il Verso, Antonio
-@PAGE:		
+@PAGE:		21
 @PARATEXT:	
 @VERSE:		
+Mentre mia stella miri
+I bei celesti giri
+[TACET]
+Per che tu rivolgessi
+Fiso ne i lumi miei
+Le tue dolci faville
+[TACET]
+Mille bellezze tue con occhi mille.	
 @@END: VARIORUM
 
 

@@ -50,9 +50,9 @@ if (@current > 3) {
 
 if ($raw) {
 	for (my $i=0; $i<@list; $i++) {
-		print "======================================================\n\n";
-		print $list[$i];
-		print "\n";
+		print STDERR "======================================================\n\n";
+		print STDERR $list[$i];
+		print STDERR "\n";
 	}
 	exit(0);
 }
@@ -62,6 +62,7 @@ foreach my $item (@list) {
 	processListItem($item);
 }
 
+print STDERR "FINISHED\n";
 
 exit(0);
 
@@ -85,6 +86,7 @@ exit(0);
 
 sub insertPoem {
 	my ($filename, $item, %parameters) = @_;
+	print STDERR "ENTERING INSERTPOEM $filename $item\n";
 	open (FILE, "../$filename") or die "Cannot read $filename\n";
 	my @contents = <FILE>;
 	close FILE;
@@ -307,7 +309,9 @@ sub getKeyOrder {
 
 sub processListItem {
 	my ($item) = @_;
+	print "\n\nPROCESSING ITEM >>> $item <<< \n";
 	my %parameters = makeParameters($item);
+	print "\tFINISHED MAKING PARAMETERS\n";
 	my $filename = $parameters{"CATALOGNUM"};
 	die "INVALID EMPTY CATALOGNUM FOR $item\n" if $filename =~ /^\s*$/;
 	$filename .= ".aton";

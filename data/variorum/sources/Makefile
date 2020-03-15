@@ -24,4 +24,4 @@ write:
 	do				\
 		$(PROG) -w $$i;		\
 	done
-		
+

@@ -86,7 +86,7 @@ exit(0);
 
 sub insertPoem {
 	my ($filename, $item, %parameters) = @_;
-	print STDERR "ENTERING INSERTPOEM $filename $item\n";
+	print STDERR "======================== ENTERING INSERTPOEM $filename\n";
 	open (FILE, "../$filename") or die "Cannot read $filename\n";
 	my @contents = <FILE>;
 	close FILE;
@@ -102,10 +102,10 @@ sub insertPoem {
 	my $type;
 	my $entry;
 	my $found = 0;
-	foreach my $line (@contents) {
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
 		if ($line =~ /^\@TYPE\s*:\s*(.*)\s*$/) {
 			$type = lc($1);
-			
 		}
 		$entry .= "$line\n";
 
@@ -144,7 +144,7 @@ sub insertPoem {
 			} elsif ($type eq "music") {
 				push(@music, $entry);
 			} else {
-				die "Invalid type ($type) in $entry from $filename\n";
+				die "Invalid type ($type) in $entry from $filename on line index $i\n";
 			}
 			$entry = "";
 			$type = "";
@@ -173,6 +173,7 @@ sub insertPoem {
 	print FILE "\n\n";
 	close FILE;
 
+	print STDERR "===== DONE INSERT POEM\n";
 }
 
 
@@ -309,9 +310,7 @@ sub getKeyOrder {
 
 sub processListItem {
 	my ($item) = @_;
-	print "\n\nPROCESSING ITEM >>> $item <<< \n";
 	my %parameters = makeParameters($item);
-	print "\tFINISHED MAKING PARAMETERS\n";
 	my $filename = $parameters{"CATALOGNUM"};
 	die "INVALID EMPTY CATALOGNUM FOR $item\n" if $filename =~ /^\s*$/;
 	$filename .= ".aton";

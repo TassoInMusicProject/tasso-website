@@ -284,6 +284,7 @@ sub createVariorumXml {
 
 	# VERSEDATA->TITLE: TITLE
 	# @TITLE:		Su l'ampia fronte il crespo oro lucente
+print STDERR "CATALOGNUM == $data{'CATALOGNUM'}\n";
 	my $vv = $VERSES{$data{'CATALOGNUM'}};
 	if (!$vv) {
       print %data;

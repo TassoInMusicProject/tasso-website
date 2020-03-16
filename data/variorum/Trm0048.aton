@@ -541,7 +541,7 @@ Tanti n’aggiungi in quella vece al core.
 Amor l’alma m’allaccia
 Di dolci aspre catene
 Ne mi doglio per ciò ma ben l’accuso
-Che mi legh’& affrene
+Che mi legh’&amp; affrene
 La lingua acciò ch’io taccia
 Anzi a madonna timido &amp; confuso
 E ’n mia ragion deluso
@@ -563,7 +563,7 @@ Tanti n’agiung’in quella vece al core.
 Amor l’alma m’allaccia
 Di dolci aspre catene
 Ne mi doglio per ciò ma ben l’accuso
-Che mi legh’& affrene
+Che mi legh’&amp; affrene
 La lingua acciò ch’io taccia
 Anzi a madonna timido &amp; confuso
 E ’n mia ragion deluso
@@ -585,7 +585,7 @@ Tanti n’agiung’in quella vece al core.
 [TACET]
 Di dolci aspre catene
 Ne mi doglio per ciò ma ben l’accuso
-Che mi legh’& affrene
+Che mi legh’&amp; affrene
 La lingua [TACET]
 [TACET]
 E ’n mia ragion deluso
@@ -607,7 +607,7 @@ Tanti n’agiung’in quella vece al core.
 Amor l’alma m’allaccia
 Di dolci aspre catene
 Ne mi doglio per ciò ma ben l’accuso
-Che mi legh’& affrene
+Che mi legh’&amp; affrene
 La lingua acciò ch’io taccia
 Anzi a madonna timido &amp; confuso
 E ’n mia ragion deluso
@@ -629,7 +629,7 @@ Tanti n’agiung’in quella vece al core.
 Amor l’alma m’allaccia
 Di dolci aspre catene
 Ne mi doglio io per ciò ma ben l’accuso
-Che mi legh’& affrene
+Che mi legh’&amp; affrene
 La lingua accio ch’io taccia
 Anzi Madonna timido e confuso
 E in mia raggion deluso.
@@ -652,7 +652,7 @@ Tanti n’aggiungi in quella vece al core.
 Amor l’alma m’allaccia
 Di dolci aspre catene
 Ne mi doglio per ciò ma ben l’accuso
-Che mi legh’& affrene
+Che mi legh’&amp; affrene
 La lingua accio ch’io taccia
 Anzi Madonna timido e confuso
 E in mia raggion deluso.
@@ -669,9 +669,20 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048d-Canto
 @TYPE:		music
 @COMPOSER:	Cortellini, Camillo
-@PAGE:		
+@PAGE:		12-13
 @PARATEXT:	
 @VERSE:		
+Amor l’alma m’allaccia
+[TACET]
+Ne mi doglio perciò ma ben l’accuso,
+Che mi leghi, &amp; affrene
+La lingua acciò ch’io taccia,
+Anzi à Madonna timido, e confuso,
+E ’n mia ragion deluso.
+Sciogli pietoso Amore
+La lingua e se non vuoi
+Che mi stringa un sol men de' lacci tuoi
+Tanti n’agiung’in quella vece al core.
 @@END: VARIORUM
 
 
@@ -680,9 +691,20 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048d-Alto
 @TYPE:		music
 @COMPOSER:	Cortellini, Camillo
-@PAGE:		
+@PAGE:		12-13
 @PARATEXT:	
 @VERSE:		
+Amor l’alma m’allaccia
+Di dolci aspri catene,
+Nè mi doglio perciò, ma ben l’accuso,
+Che mi leghi, &amp; affrene
+La lingua acciò ch’io taccia,
+Anzi à Madonna timido, e confuso,
+E ’n mia ragion deluso.
+Sciogli pietoso Amore
+La lingua, e se non vuoi
+Che mi stringa un sol men de' lacci tuoi
+Tanti n’agiung’in quella vece al core.	
 @@END: VARIORUM
 
 
@@ -691,9 +713,20 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048d-Tenore
 @TYPE:		music
 @COMPOSER:	Cortellini, Camillo
-@PAGE:		
+@PAGE:		12-13
 @PARATEXT:	
 @VERSE:		
+Amor l’alma m’allaccia
+Di dolci aspri catene,
+Nè mi doglio perciò, ma ben l’accuso,
+Che mi leghi, &amp; affrene
+La lingua acciò ch’io taccia,
+Anzi à Madonna timido, e confuso;
+E ’n mia ragion deluso.
+Sciogli pietoso Amore
+La lingua, e se non vuoi
+Che mi stringa un sol men de' lacci tuoi
+Tanti n’agiung’in quella vece al core.	
 @@END: VARIORUM
 
 
@@ -702,20 +735,41 @@ Tanti n’aggiungi in quella vece al core.
 @ID:		Trm0048d-Basso
 @TYPE:		music
 @COMPOSER:	Cortellini, Camillo
-@PAGE:		
-@PARATEXT:	
+@PAGE:		12-13
+@PARATEXT:	[The text is given not only in the underlay, but also as a "poem" in a box underneath the bottom staff. The transcription below reflects the text as it appears in the box.]
 @VERSE:		
+Amor l’alma m’allaccia
+Di dolci aspri catene,
+Nè mi doglio perciò, ma ben l’accuso,
+Che mi leghi, &amp; affrene
+La lingua, acciò ch’io taccia,
+Anzi à Madonna timido, e confuso,
+E ’n mia ragion deluso.
+Sciogli pietoso Amore
+La lingua, e se non vuoi,
+Che mi stringa un sol men de' lacci tuoi,
+Tanti n’agiung’in quella vece al core.	
 @@END: VARIORUM
-
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0048
 @ID:		Trm0048d-Quinto
 @TYPE:		music
 @COMPOSER:	Cortellini, Camillo
-@PAGE:		
+@PAGE:		12-13
 @PARATEXT:	
 @VERSE:		
+Amor l’alma m’allaccia
+[TACET]
+Nè mi doglio perciò, ma ben l’accuso,
+Che mi leghi, &amp; affrene
+La lingua acciò ch’io taccia,
+Anzi à Madonna timido, e confuso,
+E ’n mia ragion deluso.
+Sciogli pietoso Amore
+La lingua, e se non vuoi,
+Che mi stringa un sol men de' lacci tuoi
+Tanti n’agiung’in quella vece al core.	
 @@END: VARIORUM
 
 

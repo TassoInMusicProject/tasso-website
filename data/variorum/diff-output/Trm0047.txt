@@ -37,8 +37,8 @@ ID:Trm0047e-Basso  	L835	V1:	{Non è questa la} mano
 ID:Trm0047e-Quinto 	L857	V1:	{Non è questa la} mano
 ID:Trm0047e-Sesto  	L879	V1:	{Non è questa la} mano
 ID:Trm0047f-Canto  	L901	V1:	{Non è questa la} mano
-ID:Trm0047f-Tenore 	L923	V1:	{[TACET]}
-ID:Trm0047f-Basso  	L945	V1:	{[TACET]}
+ID:Trm0047f-Tenore 	L923	V1:	[TACET]
+ID:Trm0047f-Basso  	L945	V1:	[TACET]
 ID:Trm0047f-Quinto 	L967	V1:	{Non è questa la} mano
 ID:Trm0047g-Canto  	L989	V1:	{Non è questa la} mano
 ID:Trm0047g-Alto   	L1011	V1:	{Non è questa la} mano
@@ -75,7 +75,7 @@ ID:Trm0047m-Basso  	L1680	V1:	{Non è questa la} mano
 ID:Trm0047n-Canto  	L1702	V1:	{Non è questa la} mano
 ID:Trm0047n-Tenore 	L1724	V1:	{Non è questa la} mano
 ID:Trm0047n-Basso  	L1746	V1:	{Non è questa la} mano
-ID:Trm0047o-Alto   	L1768	V1:	{[TACET]}
+ID:Trm0047o-Alto   	L1768	V1:	[TACET]
 ID:Trm0047o-Quinto 	L1790	V1:	{Non è questa la} mano
 ID:Trm0047p-Canto  	L1812	V1:	{Non è questa la} mano
 ID:Trm0047p-Alto   	L1834	V1:	{Non è questa la} mano
@@ -134,29 +134,29 @@ ID:Trm0047b-Tenore 	L612	V2:	Che {tante e si mortali}
 ID:Trm0047b-Basso  	L635	V2:	Che {tante e si mortali}
 ID:Trm0047b-Quinto 	L658	V2:	Che {tante e si mortali}
 ID:Trm0047b-Sesto  	L681	V2:	Che {tante e si mortali}
-ID:Trm0047c-Quinto 	L704	V2:	{[TACET]}
+ID:Trm0047c-Quinto 	L704	V2:	[TACET]
 ID:Trm0047d-Tenore 	L726	V2:	Che {tante, e si mortali}
 ID:Trm0047d-Quinto 	L748	V2:	Che {tante, e si mortali}
 ID:Trm0047e-Canto  	L770	V2:	Che {tanti e si mortali}
-ID:Trm0047e-Alto   	L792	V2:	{[TACET]}
-ID:Trm0047e-Tenore 	L814	V2:	{[TACET]}
-ID:Trm0047e-Basso  	L836	V2:	{[TACET]}
+ID:Trm0047e-Alto   	L792	V2:	[TACET]
+ID:Trm0047e-Tenore 	L814	V2:	[TACET]
+ID:Trm0047e-Basso  	L836	V2:	[TACET]
 ID:Trm0047e-Quinto 	L858	V2:	Che {tanti e si mortali}
 ID:Trm0047e-Sesto  	L880	V2:	Che {tant'e si mortali}
 ID:Trm0047f-Canto  	L902	V2:	Che {tanti e si mortali}
-ID:Trm0047f-Tenore 	L924	V2:	{[TACET]}
-ID:Trm0047f-Basso  	L946	V2:	{[TACET]}
+ID:Trm0047f-Tenore 	L924	V2:	[TACET]
+ID:Trm0047f-Basso  	L946	V2:	[TACET]
 ID:Trm0047f-Quinto 	L968	V2:	Che {tanti e si mortali}
 ID:Trm0047g-Canto  	L990	V2:	Che {tante e si mortali}
 ID:Trm0047g-Alto   	L1012	V2:	Che {tant'e si mortali}
 ID:Trm0047g-Tenore 	L1034	V2:	Che {tante e si mortali}
 ID:Trm0047g-Basso  	L1056	V2:	Che {tante e si mortali}
 ID:Trm0047g-Quinto 	L1078	V2:	Che {tante e si mortali}
-ID:Trm0047h-Canto  	L1100	V2:	{[TACET]}
+ID:Trm0047h-Canto  	L1100	V2:	[TACET]
 ID:Trm0047h-Alto   	L1122	V2:	che {tant',e sì mortali}
 ID:Trm0047h-Tenore 	L1144	V2:	che {tant',e sì mortali}
 ID:Trm0047h-Basso  	L1166	V2:	che {tant',e sì mortali}
-ID:Trm0047h-Quinto 	L1188	V2:	{[TACET]}
+ID:Trm0047h-Quinto 	L1188	V2:	[TACET]
 ID:Trm0047i-Canto  	L1210	V2:	Che {tanto e si mortali}
 ID:Trm0047i-Alto   	L1233	V2:	Che {tanto e si mortali}
 ID:Trm0047i-Tenore 	L1256	V2:	Che {tanto e si mortali}
@@ -182,18 +182,18 @@ ID:Trm0047m-Basso  	L1681	V2:	che {tant'è si mortali}
 ID:Trm0047n-Canto  	L1703	V2:	Che {tant'e si mortali}
 ID:Trm0047n-Tenore 	L1725	V2:	Che {tant'e si mortali}
 ID:Trm0047n-Basso  	L1747	V2:	Che {tant'e si mortali}
-ID:Trm0047o-Alto   	L1769	V2:	{[TACET]}
+ID:Trm0047o-Alto   	L1769	V2:	[TACET]
 ID:Trm0047o-Quinto 	L1791	V2:	Che {tante e si mortali}
 ID:Trm0047p-Canto  	L1813	V2:	Che {tante &amp; si mortali}
 ID:Trm0047p-Alto   	L1835	V2:	Che {tante &amp; si mortali}
 ID:Trm0047p-Tenore 	L1857	V2:	Che {tante &amp; si mortali}
 ID:Trm0047p-Basso  	L1879	V2:	Che {tante &amp; si mortali}
 ID:Trm0047p-Quinto 	L1901	V2:	Che {tante &amp; si mortali}
-ID:Trm0047q-Canto  	L1923	V2:	{[TACET]}
+ID:Trm0047q-Canto  	L1923	V2:	[TACET]
 ID:Trm0047q-Alto   	L1946	V2:	che {tant'e si mortale}
 ID:Trm0047q-Tenore 	L1969	V2:	che {tant'e si mortale}
 ID:Trm0047q-Basso  	L1992	V2:	che {tant'e si mortale}
-ID:Trm0047q-Quinto 	L2015	V2:	{[TACET]}
+ID:Trm0047q-Quinto 	L2015	V2:	[TACET]
 ID:Trm0047r-Quinto 	L2038	V2:	Che {tant'è si mortali}
 ID:Trm0047s-Canto  	L2062	V2:	Che {tant'è sì mortali}
 ID:Trm0047s-Alto   	L2085	V2:	Che {tant'è sì mortali}
@@ -251,8 +251,8 @@ ID:Trm0047e-Basso  	L837	V3:	{Avventò nel mio} cor {fiammell'e strali}
 ID:Trm0047e-Quinto 	L859	V3:	{Avventò nel mio} cor {fiammell'e strali}
 ID:Trm0047e-Sesto  	L881	V3:	{Avventò nel mio} cor {fiammell'e strali}
 ID:Trm0047f-Canto  	L903	V3:	{Aventò nel mio} cor {fiammell'et strali}
-ID:Trm0047f-Tenore 	L925	V3:	{[TACET]}
-ID:Trm0047f-Basso  	L947	V3:	{[TACET]}
+ID:Trm0047f-Tenore 	L925	V3:	[TACET]
+ID:Trm0047f-Basso  	L947	V3:	[TACET]
 ID:Trm0047f-Quinto 	L969	V3:	{Aventò nel mio} cor {fiammell'e strali}
 ID:Trm0047g-Canto  	L991	V3:	{Avventò nel mio} cor {fiammell'e strali}
 ID:Trm0047g-Alto   	L1013	V3:	{Avventò nel mio} cor {fiammell'e strali}
@@ -261,7 +261,7 @@ ID:Trm0047g-Basso  	L1057	V3:	{Avventò nel mio} cor {fiammell'e strali}
 ID:Trm0047g-Quinto 	L1079	V3:	{Avventò nel mio} cor {fiammell'e strali}
 ID:Trm0047h-Canto  	L1101	V3:	{Avventò nel mio} cor {fiammell',ò strali,}
 ID:Trm0047h-Alto   	L1123	V3:	{Avventò nel mio} cor {fiammell',ò strali,}
-ID:Trm0047h-Tenore 	L1145	V3:	{[TACET]} {fiammell',ò strai,}
+ID:Trm0047h-Tenore 	L1145	V3:	[TACET] {fiammell',ò strai,}
 ID:Trm0047h-Basso  	L1167	V3:	{[source torn]} {fiammell',ò strai,}
 ID:Trm0047h-Quinto 	L1189	V3:	{Avventò nel mio} cor {fiammell',ò strai,}
 ID:Trm0047i-Canto  	L1211	V3:	{Avventò nel mio} cor {fiammelle e strali.}
@@ -289,7 +289,7 @@ ID:Trm0047m-Basso  	L1682	V3:	{Avento nel mio} cor {fiammelle e strali}
 ID:Trm0047n-Canto  	L1704	V3:	{Aventò nel mio} cor {fiammell'e strali}
 ID:Trm0047n-Tenore 	L1726	V3:	{Aventò nel mio} cor {fiammell'e strali}
 ID:Trm0047n-Basso  	L1748	V3:	{Aventò nel mio} cor {fiammell'e strali}
-ID:Trm0047o-Alto   	L1770	V3:	{[TACET]}
+ID:Trm0047o-Alto   	L1770	V3:	[TACET]
 ID:Trm0047o-Quinto 	L1792	V3:	{Avventò nel mio} cor {fiammelle e strali}
 ID:Trm0047p-Canto  	L1814	V3:	{Avento nel mio} cor {fiammelle e strali}
 ID:Trm0047p-Alto   	L1836	V3:	{Aventò nel mio} cor {fiammelle e strali}
@@ -355,9 +355,9 @@ ID:Trm0047d-Quinto 	L750	V4:	{Ecco, che pur si trova,}
 ID:Trm0047e-Canto  	L772	V4:	{Ecco che pur si trova}
 ID:Trm0047e-Alto   	L794	V4:	{Ecco che pur si trova}
 ID:Trm0047e-Tenore 	L816	V4:	{Ecco che pur si trova}
-ID:Trm0047e-Basso  	L838	V4:	{[TACET]}
-ID:Trm0047e-Quinto 	L860	V4:	{[TACET]}
-ID:Trm0047e-Sesto  	L882	V4:	{[TACET]}
+ID:Trm0047e-Basso  	L838	V4:	[TACET]
+ID:Trm0047e-Quinto 	L860	V4:	[TACET]
+ID:Trm0047e-Sesto  	L882	V4:	[TACET]
 ID:Trm0047f-Canto  	L904	V4:	{Ecco che pur si trova}
 ID:Trm0047f-Tenore 	L926	V4:	{Ecco che pur si trova}
 ID:Trm0047f-Basso  	L948	V4:	{Ecco che pur si trova}
@@ -462,23 +462,23 @@ ID:Trm0047d-Quinto 	L751	V5:	{Fra le mie man ristretta,}
 ID:Trm0047e-Canto  	L773	V5:	{Fra le mie man ristretta}
 ID:Trm0047e-Alto   	L795	V5:	{Tra le mie man ristretta}
 ID:Trm0047e-Tenore 	L817	V5:	{Tra le mie man ristretta}
-ID:Trm0047e-Basso  	L839	V5:	{[TACET]}
-ID:Trm0047e-Quinto 	L861	V5:	{[TACET]}
-ID:Trm0047e-Sesto  	L883	V5:	{[TACET]}
+ID:Trm0047e-Basso  	L839	V5:	[TACET]
+ID:Trm0047e-Quinto 	L861	V5:	[TACET]
+ID:Trm0047e-Sesto  	L883	V5:	[TACET]
 ID:Trm0047f-Canto  	L905	V5:	{Nelle mie man ristretta}
 ID:Trm0047f-Tenore 	L927	V5:	{Nelle mie man ristretta}
 ID:Trm0047f-Basso  	L949	V5:	{Nelle mie man ristretta}
-ID:Trm0047f-Quinto 	L971	V5:	{[TACET]}
+ID:Trm0047f-Quinto 	L971	V5:	[TACET]
 ID:Trm0047g-Canto  	L993	V5:	{Tra le mie man ristretta}
 ID:Trm0047g-Alto   	L1015	V5:	{Tra le mie man ristretta}
 ID:Trm0047g-Tenore 	L1037	V5:	{Tra le mie man ristretta}
 ID:Trm0047g-Basso  	L1059	V5:	{Tra le mie man ristretta}
 ID:Trm0047g-Quinto 	L1081	V5:	{Tra le mie man ristretta}
-ID:Trm0047h-Canto  	L1103	V5:	{[TACET]}
+ID:Trm0047h-Canto  	L1103	V5:	[TACET]
 ID:Trm0047h-Alto   	L1125	V5:	{Nelle mie man ristretta,}
 ID:Trm0047h-Tenore 	L1147	V5:	{Nelle mie man ristretta,}
 ID:Trm0047h-Basso  	L1169	V5:	{Nelle mie man ristretta,}
-ID:Trm0047h-Quinto 	L1191	V5:	{[TACET]}
+ID:Trm0047h-Quinto 	L1191	V5:	[TACET]
 ID:Trm0047i-Canto  	L1214	V5:	{Frà le mie man ristretta}
 ID:Trm0047i-Alto   	L1237	V5:	{Frà le mie man ristretta}
 ID:Trm0047i-Tenore 	L1260	V5:	{Frà le mie man ristretta}
@@ -508,8 +508,8 @@ ID:Trm0047o-Alto   	L1772	V5:	{Fra le mie man ristretta}
 ID:Trm0047o-Quinto 	L1794	V5:	{Fra le mie man ristretta}
 ID:Trm0047p-Canto  	L1816	V5:	{Fra le mie man ristretta}
 ID:Trm0047p-Alto   	L1838	V5:	{Fra le mie man ristretta}
-ID:Trm0047p-Tenore 	L1860	V5:	{[TACET]}
-ID:Trm0047p-Basso  	L1882	V5:	{[TACET]}
+ID:Trm0047p-Tenore 	L1860	V5:	[TACET]
+ID:Trm0047p-Basso  	L1882	V5:	[TACET]
 ID:Trm0047p-Quinto 	L1904	V5:	{Fra le mie man ristretta}
 ID:Trm0047q-Canto  	L1926	V5:	{nelle mie man ristretta}
 ID:Trm0047q-Alto   	L1949	V5:	{nelle mie man ristretta}
@@ -563,7 +563,7 @@ ID:Trm0047b-Tenore 	L617	V6:	{Ne forza od arte per fuggir le giova}
 ID:Trm0047b-Basso  	L640	V6:	{Ne forza od arte per fuggir le giova}
 ID:Trm0047b-Quinto 	L663	V6:	{Ne forza od arte per fuggir le giova}
 ID:Trm0047b-Sesto  	L686	V6:	{Ne forza od arte per fuggir le giova}
-ID:Trm0047c-Quinto 	L708	V6:	{[TACET?]}
+ID:Trm0047c-Quinto 	L708	V6:	[TACET?]
 ID:Trm0047d-Tenore 	L730	V6:	{Nè forza, od arte per fuggir le giova,}
 ID:Trm0047d-Quinto 	L752	V6:	{Nè forza, od arte per fuggir le giova,}
 ID:Trm0047e-Canto  	L774	V6:	{Ne forz'od'arte per fuggir li giova}
@@ -719,7 +719,7 @@ ID:Trm0047n-Canto  	L1708	V7:	{Ne tien face o saetta}
 ID:Trm0047n-Tenore 	L1730	V7:	{Ne tien face o saetta}
 ID:Trm0047n-Basso  	L1752	V7:	{Ne tien face o saetta}
 ID:Trm0047o-Alto   	L1774	V7:	{Ne tien face o saetta}
-ID:Trm0047o-Quinto 	L1796	V7:	{[TACET]}
+ID:Trm0047o-Quinto 	L1796	V7:	[TACET]
 ID:Trm0047p-Canto  	L1818	V7:	{Ne tien face o saetta}
 ID:Trm0047p-Alto   	L1840	V7:	{Ne tien face o saetta}
 ID:Trm0047p-Tenore 	L1862	V7:	{Ne tien face o saetta}
@@ -739,7 +739,7 @@ ID:Trm0047t-Canto  	L2160	V7:	{Ne tien face o saetta}
 ID:Trm0047t-Alto   	L2182	V7:	{Ne tien face o saetta}
 ID:Trm0047t-Tenore 	L2204	V7:	{Ne tien face o saetta}
 ID:Trm0047t-Basso  	L2226	V7:	{Ne tien face o saetta}
-ID:Trm0047t-Quinto 	L2248	V7:	{[TACET]}
+ID:Trm0047t-Quinto 	L2248	V7:	[TACET]
 ID:Trm0047u-Canto_1	L2271	V7:	{Ne tien face ò saetta}
 ID:Trm0047u-Canto_2	L2294	V7:	{Ne tien face ò saetta}
 ID:Trm0047u-Tenore 	L2317	V7:	{Ne tien face ò saetta}
@@ -781,10 +781,10 @@ ID:Trm0047c-Quinto 	L710	V8:	{Che da me la difenda}
 ID:Trm0047d-Tenore 	L732	V8:	{Che da me la difenda,}
 ID:Trm0047d-Quinto 	L754	V8:	{Che da me la difenda,}
 ID:Trm0047e-Canto  	L776	V8:	{Che da me la difenda}
-ID:Trm0047e-Alto   	L798	V8:	{[TACET]}
+ID:Trm0047e-Alto   	L798	V8:	[TACET]
 ID:Trm0047e-Tenore 	L820	V8:	{Che da me la difenda}
-ID:Trm0047e-Basso  	L842	V8:	{[TACET]}
-ID:Trm0047e-Quinto 	L864	V8:	{[TACET]}
+ID:Trm0047e-Basso  	L842	V8:	[TACET]
+ID:Trm0047e-Quinto 	L864	V8:	[TACET]
 ID:Trm0047e-Sesto  	L886	V8:	{Che da me la difenda}
 ID:Trm0047f-Canto  	L908	V8:	{Che da me la difenda}
 ID:Trm0047f-Tenore 	L930	V8:	{Che da me la difenda}
@@ -813,11 +813,11 @@ ID:Trm0047j-Quinto 	L1419	V8:	{Che da me la diffenda}
 ID:Trm0047k-Canto  	L1442	V8:	{Che da me la difenda}
 ID:Trm0047k-Alto   	L1465	V8:	{Che da me la difenda}
 ID:Trm0047k-Tenore 	L1488	V8:	{Che da me la difenda}
-ID:Trm0047k-Basso  	L1511	V8:	{[TACET]}
+ID:Trm0047k-Basso  	L1511	V8:	[TACET]
 ID:Trm0047l-Canto  	L1533	V8:	{Che da me la diffenda}
 ID:Trm0047l-Alto   	L1555	V8:	{Che da me la diffenda}
 ID:Trm0047l-Tenore 	L1577	V8:	{Che da me la diffenda}
-ID:Trm0047l-Basso  	L1599	V8:	{[TACET]}
+ID:Trm0047l-Basso  	L1599	V8:	[TACET]
 ID:Trm0047l-Quinto 	L1621	V8:	{Che da me la diffenda}
 ID:Trm0047m-Canto  	L1643	V8:	{che da me la difenda}
 ID:Trm0047m-Tenore 	L1665	V8:	{che da me la difenda}
@@ -827,8 +827,8 @@ ID:Trm0047n-Tenore 	L1731	V8:	{Che da me la difenda}
 ID:Trm0047n-Basso  	L1753	V8:	{Che da me la difenda}
 ID:Trm0047o-Alto   	L1775	V8:	{Che da me la difenda}
 ID:Trm0047o-Quinto 	L1797	V8:	{Che da me la difenda}
-ID:Trm0047p-Canto  	L1819	V8:	{[TACET]}
-ID:Trm0047p-Alto   	L1841	V8:	{[TACET]}
+ID:Trm0047p-Canto  	L1819	V8:	[TACET]
+ID:Trm0047p-Alto   	L1841	V8:	[TACET]
 ID:Trm0047p-Tenore 	L1863	V8:	{Che da me la difenda}
 ID:Trm0047p-Basso  	L1885	V8:	{Che da me la difenda}
 ID:Trm0047p-Quinto 	L1907	V8:	{Che da me la difenda}
@@ -895,7 +895,7 @@ ID:Trm0047e-Quinto 	L865	V9:	{Giusto è ben ch'io ne prend'}
 ID:Trm0047e-Sesto  	L887	V9:	{Giusto è ben ch'io ne prend'}
 ID:Trm0047f-Canto  	L909	V9:	{Giust'è ben ch'io ne prenda}
 ID:Trm0047f-Tenore 	L931	V9:	{Giust'è ben ch'io ne prenda}
-ID:Trm0047f-Basso  	L953	V9:	{[TACET]}
+ID:Trm0047f-Basso  	L953	V9:	[TACET]
 ID:Trm0047f-Quinto 	L975	V9:	{Giust'è ben ch'io ne prenda}
 ID:Trm0047g-Canto  	L997	V9:	{Giust'è ben ch'io ne prenda}
 ID:Trm0047g-Alto   	L1019	V9:	{Giust'è ben ch'io ne prenda}
@@ -912,7 +912,7 @@ ID:Trm0047i-Alto   	L1241	V9:	{Giusto è ben ch'io ne prenda}
 ID:Trm0047i-Tenore 	L1264	V9:	{Giusto è ben ch'io ne prenda}
 ID:Trm0047i-Basso  	L1287	V9:	{Giusto è ben ch'io ne prenda}
 ID:Trm0047i-Quinto 	L1310	V9:	{Giusto è ben ch'io ne prenda}
-ID:Trm0047j-Canto  	L1332	V9:	{[TACET]}
+ID:Trm0047j-Canto  	L1332	V9:	[TACET]
 ID:Trm0047j-Alto   	L1354	V9:	{Giusto è ben ch'io ne prenda}
 ID:Trm0047j-Tenore 	L1376	V9:	{Giusto è ben ch'io ne prenda}
 ID:Trm0047j-Basso  	L1398	V9:	{Giusto è ben ch'io ne prenda}
@@ -1002,7 +1002,7 @@ ID:Trm0047e-Quinto 	L866	V10:	{Amor qualche vendetta}
 ID:Trm0047e-Sesto  	L888	V10:	{Amor qualche vendetta}
 ID:Trm0047f-Canto  	L910	V10:	{Amor qualche vendetta}
 ID:Trm0047f-Tenore 	L932	V10:	{Amor qualche vendetta}
-ID:Trm0047f-Basso  	L954	V10:	{[TACET]}
+ID:Trm0047f-Basso  	L954	V10:	[TACET]
 ID:Trm0047f-Quinto 	L976	V10:	{Amor qualche vendetta}
 ID:Trm0047g-Canto  	L998	V10:	{Amor qualche vendetta}
 ID:Trm0047g-Alto   	L1020	V10:	{Amor qualche vendetta}

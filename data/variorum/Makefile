@@ -1,5 +1,5 @@
 
-update:  variorum collation list checkxml diff
+update:  undiff variorum collation list checkxml diff
 
 v: variorum
 variorum: vtam vtrm vtsg vtec

@@ -85,7 +85,7 @@ function doMusicSearch() {
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
 		if (request.readyState == XMLHttpRequest.DONE) {
-			// console.log("SEARCH RESULTS:", request.responseText);
+			console.log("SEARCH RESULTS:", request.responseText);
 			displayResults(request.responseText, {pquery: pquery, iquery: iquery, rquery: rquery});
 			document.body.style.cursor = "auto";
 		} else if (request.status == 400) {
@@ -137,6 +137,7 @@ function hideMusicSearchCopyLink() {
 var RESULTS = {};
 
 function displayResults(results, options) {
+console.log("RESULTS:", results);
 	var r = JSON.parse(results);
 	RESULTS = r;
 	// console.log("OPTIONS", options);

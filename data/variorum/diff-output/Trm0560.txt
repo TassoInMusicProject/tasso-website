@@ -64,7 +64,7 @@ ID:Trm0560j-Quinto 	L1215	V1:	{Mentre mia stella miri}
 ID:Trm0560k-Canto  	L1234	V1:	{Mentre mia stella miri}
 ID:Trm0560k-Alto   	L1253	V1:	{Mentre mia stella miri}
 ID:Trm0560k-Tenore 	L1272	V1:	{Mentre mia stella miri}
-ID:Trm0560k-Basso  	L1291	V1:	{[TACET]}
+ID:Trm0560k-Basso  	L1291	V1:	[TACET]
 ID:Trm0560l-Tenore 	L1310	V1:	{Mentre mia stella miri}
 ID:Trm0560m-Canto  	L1329	V1:	{Mentre mia stella miri}
 ID:Trm0560m-Basso  	L1348	V1:	{Mentre mia stella miri}
@@ -90,20 +90,20 @@ ID:C               	L29	V2:	{i bei celesti giri}
 ID:E1              	L48	V2:	{I bei celesti giri}
 ID:E7              	L66	V2:	{I bei celesti giri}
 ID:F2              	L85	V2:	{I bei celesti giri}
-ID:S8              	L137	V2:	{I bei celesti giri,}
-ID:S9              	L156	V2:	{I bei celesti giri,}
-ID:S11             	L175	V2:	{I bei celesti giri,}
-ID:S12             	L194	V2:	{I bei celesti giri,}
-ID:S13             	L213	V2:	{I bei celesti giri,}
-ID:S15             	L232	V2:	{I bei celesti giri,}
-ID:S20             	L251	V2:	{I bei celesti giri,}
-ID:S24             	L270	V2:	{I bei celesti giri,}
-ID:S33             	L288	V2:	{I bei celesti giri,}
-ID:S67             	L306	V2:	{I bei celesti giri,}
-ID:S141            	L325	V2:	{I bei celesti giri,}
-ID:S145            	L344	V2:	{I bei celesti giri,}
-ID:S166            	L363	V2:	{I bei celesti giri,}
-ID:S169            	L381	V2:	{I bei celesti giri,}
+ID:S8              	L137	V2:	{I bei celesti giri},
+ID:S9              	L156	V2:	{I bei celesti giri},
+ID:S11             	L175	V2:	{I bei celesti giri},
+ID:S12             	L194	V2:	{I bei celesti giri},
+ID:S13             	L213	V2:	{I bei celesti giri},
+ID:S15             	L232	V2:	{I bei celesti giri},
+ID:S20             	L251	V2:	{I bei celesti giri},
+ID:S24             	L270	V2:	{I bei celesti giri},
+ID:S33             	L288	V2:	{I bei celesti giri},
+ID:S67             	L306	V2:	{I bei celesti giri},
+ID:S141            	L325	V2:	{I bei celesti giri},
+ID:S145            	L344	V2:	{I bei celesti giri},
+ID:S166            	L363	V2:	{I bei celesti giri},
+ID:S169            	L381	V2:	{I bei celesti giri},
 ID:Trm0560a-Alto   	L399	V2:	{Con due più chiare e belle}
 ID:Trm0560a-Tenore 	L418	V2:	{Con due più chiare e belle}
 ID:Trm0560a-Quinto 	L437	V2:	{Con due più chiare e belle}
@@ -133,7 +133,7 @@ ID:Trm0560f-Quinto 	L874	V2:	{I bei celesti giri}
 ID:Trm0560g-Canto  	L893	V2:	{I bei celesti giri}
 ID:Trm0560g-Alto   	L912	V2:	{I bei celesti giri}
 ID:Trm0560g-Tenore 	L931	V2:	{I bei celesti giri}
-ID:Trm0560g-Basso  	L950	V2:	{[TACET]}
+ID:Trm0560g-Basso  	L950	V2:	[TACET]
 ID:Trm0560g-Quinto 	L969	V2:	{I bei celesti giri}
 ID:Trm0560h-Canto  	L988	V2:	{I bei celesti giri}
 ID:Trm0560h-Alto   	L1007	V2:	{I bei celesti giri}
@@ -151,7 +151,7 @@ ID:Trm0560j-Quinto 	L1216	V2:	{I bei celesti giri}
 ID:Trm0560k-Canto  	L1235	V2:	{I bei celesti giri}
 ID:Trm0560k-Alto   	L1254	V2:	{I bei celesti giri}
 ID:Trm0560k-Tenore 	L1273	V2:	{I bei celesti giri}
-ID:Trm0560k-Basso  	L1292	V2:	{[TACET]}
+ID:Trm0560k-Basso  	L1292	V2:	[TACET]
 ID:Trm0560l-Tenore 	L1311	V2:	{I bei celesti giri}
 ID:Trm0560m-Canto  	L1330	V2:	{I bei celesti giri}
 ID:Trm0560m-Basso  	L1349	V2:	{I bei celesti giri}
@@ -177,23 +177,23 @@ ID:C               	L30	V3:	{il cielo esser vorrei}
 ID:E1              	L49	V3:	{Il cielo esser vorrei}
 ID:E7              	L67	V3:	{Il Ciel esser vorrei}
 ID:F2              	L86	V3:	{Il Ciel esser vorrei}
-ID:S8              	L138	V3:	{Il Cielo esser vorrei,}
-ID:S9              	L157	V3:	{Il Cielo esser vorrei,}
-ID:S11             	L176	V3:	{Il Cielo esser vorrei,}
-ID:S12             	L195	V3:	{Il Cielo esser vorrei,}
-ID:S13             	L214	V3:	{Il Cielo esser vorrei,}
-ID:S15             	L233	V3:	{Il Cielo esser vorrei,}
-ID:S20             	L252	V3:	{Il Cielo esser vorrei,}
-ID:S24             	L271	V3:	{Il Cielo esser vorrei,}
-ID:S33             	L289	V3:	{Il Cielo esser vorrei,}
-ID:S67             	L307	V3:	{Il Cielo esser vorrei,}
-ID:S141            	L326	V3:	{Il Cielo esser vorrei,}
+ID:S8              	L138	V3:	{Il Cielo esser vorrei},
+ID:S9              	L157	V3:	{Il Cielo esser vorrei},
+ID:S11             	L176	V3:	{Il Cielo esser vorrei},
+ID:S12             	L195	V3:	{Il Cielo esser vorrei},
+ID:S13             	L214	V3:	{Il Cielo esser vorrei},
+ID:S15             	L233	V3:	{Il Cielo esser vorrei},
+ID:S20             	L252	V3:	{Il Cielo esser vorrei},
+ID:S24             	L271	V3:	{Il Cielo esser vorrei},
+ID:S33             	L289	V3:	{Il Cielo esser vorrei},
+ID:S67             	L307	V3:	{Il Cielo esser vorrei},
+ID:S141            	L326	V3:	{Il Cielo esser vorrei},
 ID:S145            	L345	V3:	{Il Cielo esser vorrei}
-ID:S166            	L364	V3:	{Il Cielo esser vorrei,}
-ID:S169            	L382	V3:	{Il Cielo esser vorrei,}
-ID:Trm0560a-Alto   	L400	V3:	{Tarquinia contemplate,}
-ID:Trm0560a-Tenore 	L419	V3:	{Tarquinia contemplate,}
-ID:Trm0560a-Quinto 	L438	V3:	{Tarquinia contemplate,}
+ID:S166            	L364	V3:	{Il Cielo esser vorrei},
+ID:S169            	L382	V3:	{Il Cielo esser vorrei},
+ID:Trm0560a-Alto   	L400	V3:	{Tarquinia contemplate},
+ID:Trm0560a-Tenore 	L419	V3:	{Tarquinia contemplate},
+ID:Trm0560a-Quinto 	L438	V3:	{Tarquinia contemplate},
 ID:Trm0560b-Canto  	L457	V3:	{Il ciel esser vorrei}
 ID:Trm0560b-Alto   	L476	V3:	{Il ciel esser vorrei}
 ID:Trm0560b-Tenore 	L495	V3:	{Il ciel esser vorrei}
@@ -219,7 +219,7 @@ ID:Trm0560f-Basso  	L856	V3:	{Il cielo esser vorrei}
 ID:Trm0560f-Quinto 	L875	V3:	{Il cielo esser vorrei}
 ID:Trm0560g-Canto  	L894	V3:	{Il ciel esser vorrei}
 ID:Trm0560g-Alto   	L913	V3:	{Il ciel esser vorrei}
-ID:Trm0560g-Tenore 	L932	V3:	{[TACET]}
+ID:Trm0560g-Tenore 	L932	V3:	[TACET]
 ID:Trm0560g-Basso  	L951	V3:	{Il ciel esser vorrei}
 ID:Trm0560g-Quinto 	L970	V3:	{Il ciel esser vorrei}
 ID:Trm0560h-Canto  	L989	V3:	{Il ciel esser vorrei}
@@ -241,7 +241,7 @@ ID:Trm0560k-Tenore 	L1274	V3:	{Il Ciel esser vorrei}
 ID:Trm0560k-Basso  	L1293	V3:	{Il Ciel esser vorrei}
 ID:Trm0560l-Tenore 	L1312	V3:	{Il Ciel esser vorrei}
 ID:Trm0560m-Canto  	L1331	V3:	{Il cielo esser vorrei}
-ID:Trm0560m-Basso  	L1350	V3:	{[TACET]}
+ID:Trm0560m-Basso  	L1350	V3:	[TACET]
 ID:Trm0560n-Canto  	L1369	V3:	{Il ciel esser vorrei}
 ID:Trm0560n-Alto   	L1388	V3:	{Il ciel esser vorrei}
 ID:Trm0560n-Tenore 	L1407	V3:	{Il ciel esser vorrei}
@@ -277,7 +277,7 @@ ID:S67             	L308	V4:	{Perche ne gli occhi miei}
 ID:S141            	L327	V4:	{Perche ne gli occhi miei}
 ID:S145            	L346	V4:	{Perche ne gli occhi miei}
 ID:S166            	L365	V4:	{Perche ne gli occhi miei}
-ID:S169            	L383	V4:	{Perche ne gli occhi miei,}
+ID:S169            	L383	V4:	{Perche ne gli occhi miei},
 ID:Trm0560a-Alto   	L401	V4:	{Il ciel esser vorrei}
 ID:Trm0560a-Tenore 	L420	V4:	{Il ciel esser vorrei}
 ID:Trm0560a-Quinto 	L439	V4:	{Il ciel esser vorrei}
@@ -302,8 +302,8 @@ ID:Trm0560e-Alto   	L781	V4:	{Perche tu rivolgessi}
 ID:Trm0560e-Basso  	L800	V4:	{Perche tu rivolgessi}
 ID:Trm0560f-Canto  	L819	V4:	{Perche ne gli occhi miei}
 ID:Trm0560f-Alto   	L838	V4:	{Perche ne gli occhi miei}
-ID:Trm0560f-Basso  	L857	V4:	{[TACET]}
-ID:Trm0560f-Quinto 	L876	V4:	{[TACET]}
+ID:Trm0560f-Basso  	L857	V4:	[TACET]
+ID:Trm0560f-Quinto 	L876	V4:	[TACET]
 ID:Trm0560g-Canto  	L895	V4:	{Perche tu rivolgessi}
 ID:Trm0560g-Alto   	L914	V4:	{Perche tu rivolgessi}
 ID:Trm0560g-Tenore 	L933	V4:	{Perche tu rivolgessi}
@@ -314,8 +314,8 @@ ID:Trm0560h-Alto   	L1009	V4:	{Perche ne gl'occhi miei}
 ID:Trm0560h-Tenore 	L1028	V4:	{Perche ne gl'occhi miei}
 ID:Trm0560h-Basso  	L1047	V4:	{Perche ne gl'occhi miei}
 ID:Trm0560h-Quinto 	L1066	V4:	{Perche ne gl'occhi miei}
-ID:Trm0560i-Alto   	L1085	V4:	{[TACET]}
-ID:Trm0560i-Tenore 	L1104	V4:	{[TACET]}
+ID:Trm0560i-Alto   	L1085	V4:	[TACET]
+ID:Trm0560i-Tenore 	L1104	V4:	[TACET]
 ID:Trm0560i-Quinto 	L1123	V4:	{Perche ne gl'occhi miei}
 ID:Trm0560j-Canto  	L1142	V4:	{Perche tu rivolgessi}
 ID:Trm0560j-Alto   	L1161	V4:	{Perche tu rivolgessi}
@@ -337,18 +337,18 @@ ID:Trm0560o-Canto  	L1446	V4:	{perche ne gli occhi miei}
 ID:Trm0560o-Alto   	L1465	V4:	{perche ne gli occhi miei}
 ID:Trm0560o-Tenore 	L1484	V4:	{perche ne gl'occhi miei}
 ID:Trm0560o-Basso  	L1503	V4:	{perche ne gl'occhi miei}
-ID:Trm0560o-Quinto 	L1522	V4:	[{LACUNA IN SOURCE]}
+ID:Trm0560o-Quinto 	L1522	V4:	{LACUNA IN SOURCE]
 ID:Trm0560p-Canto  	L1541	V4:	{Perche ne gl'occhi miei}
 ID:Trm0560p-Alto   	L1560	V4:	{Perche ne gl'occhi miei}
 ID:Trm0560p-Tenore 	L1579	V4:	{Perche ne gl'occhi miei}
-ID:Trm0560p-Basso  	L1598	V4:	{[TACET]}
+ID:Trm0560p-Basso  	L1598	V4:	[TACET]
 ID:Trm0560p-Quinto 	L1617	V4:	{Perche ne gl'occhi miei}
 ID:Trm0560q-Alto   	L1636	V4:	{Perche nell'occhi miei}
 ID:Trm0560q-Basso  	L1655	V4:	{Perche nell'occhi miei}
 
 ID:A3              	L13	V5:	{Fiso tu rivolgessi}
 ID:C               	L32	V5:	{fiso tu rivolgessi}
-ID:E1              	L51	V5:	{fiso tu rivolgessi,}
+ID:E1              	L51	V5:	{fiso tu rivolgessi},
 ID:E7              	L69	V5:	{Fiso tu rivolgessi}
 ID:F2              	L88	V5:	{Fisso tu rivolgessi}
 ID:S8              	L140	V5:	{Fiso tu rivolgessi}
@@ -364,10 +364,10 @@ ID:S67             	L309	V5:	{Fiso, tu rivolgessi}
 ID:S141            	L328	V5:	{Fiso, tu rivolgessi}
 ID:S145            	L347	V5:	{Fiso, tù rivolgessi}
 ID:S166            	L366	V5:	{Fiso, tu rivolgessi}
-ID:S169            	L384	V5:	{Fisso tù rivolgessi,}
-ID:Trm0560a-Alto   	L402	V5:	{Per poter la beltate,}
-ID:Trm0560a-Tenore 	L421	V5:	{Per poter la beltate,}
-ID:Trm0560a-Quinto 	L440	V5:	{Per poter la beltate,}
+ID:S169            	L384	V5:	{Fisso tù rivolgessi},
+ID:Trm0560a-Alto   	L402	V5:	{Per poter la beltate},
+ID:Trm0560a-Tenore 	L421	V5:	{Per poter la beltate},
+ID:Trm0560a-Quinto 	L440	V5:	{Per poter la beltate},
 ID:Trm0560b-Canto  	L459	V5:	{Fiso ne lumi miei}
 ID:Trm0560b-Alto   	L478	V5:	{Fiso ne lumi miei}
 ID:Trm0560b-Tenore 	L497	V5:	{Fiso ne lumi miei}
@@ -375,7 +375,7 @@ ID:Trm0560b-Basso  	L516	V5:	{Fiso [TACET]}
 ID:Trm0560b-Quinto 	L535	V5:	{Fiso ne lumi miei}
 ID:Trm0560c-Canto  	L554	V5:	{Spesso ne lumi miei}
 ID:Trm0560c-Alto   	L573	V5:	{Spesso ne lumi miei}
-ID:Trm0560c-Tenore 	L592	V5:	{[TACET]}
+ID:Trm0560c-Tenore 	L592	V5:	[TACET]
 ID:Trm0560c-Basso  	L611	V5:	{Spesso ne lumi miei}
 ID:Trm0560c-Quinto 	L630	V5:	{Spesso ne lumi miei}
 ID:Trm0560d-Canto  	L649	V5:	{Fisso ne' lumi miei}
@@ -389,8 +389,8 @@ ID:Trm0560e-Alto   	L782	V5:	{Fisso ne gl'occhi miei}
 ID:Trm0560e-Basso  	L801	V5:	{Fisso ne gl'occhi miei}
 ID:Trm0560f-Canto  	L820	V5:	{Fiso tu rivolgessi}
 ID:Trm0560f-Alto   	L839	V5:	{Fiso tu rivolgessi}
-ID:Trm0560f-Basso  	L858	V5:	{[TACET]}
-ID:Trm0560f-Quinto 	L877	V5:	{[TACET]}
+ID:Trm0560f-Basso  	L858	V5:	[TACET]
+ID:Trm0560f-Quinto 	L877	V5:	[TACET]
 ID:Trm0560g-Canto  	L896	V5:	{fiso ne lumi miei}
 ID:Trm0560g-Alto   	L915	V5:	{fiso [TACET]}
 ID:Trm0560g-Tenore 	L934	V5:	{fiso [TACET]}
@@ -398,8 +398,8 @@ ID:Trm0560g-Basso  	L953	V5:	{fiso [TACET]}
 ID:Trm0560g-Quinto 	L972	V5:	{fiso ne' lumi miei}
 ID:Trm0560h-Canto  	L991	V5:	{Fisso tu rivolgessi}
 ID:Trm0560h-Alto   	L1010	V5:	{Fisso tu rivolgessi}
-ID:Trm0560h-Tenore 	L1029	V5:	{[TACET]}
-ID:Trm0560h-Basso  	L1048	V5:	{[TACET]}
+ID:Trm0560h-Tenore 	L1029	V5:	[TACET]
+ID:Trm0560h-Basso  	L1048	V5:	[TACET]
 ID:Trm0560h-Quinto 	L1067	V5:	{Fisso tu rivolgessi}
 ID:Trm0560i-Alto   	L1086	V5:	{Fiso tu rivolgessi}
 ID:Trm0560i-Tenore 	L1105	V5:	{Fiso tu rivolgessi}
@@ -424,7 +424,7 @@ ID:Trm0560o-Canto  	L1447	V5:	{fiso tu rivolgessi}
 ID:Trm0560o-Alto   	L1466	V5:	{fiso tu rivolgessi}
 ID:Trm0560o-Tenore 	L1485	V5:	{fiso tu rivolgessi}
 ID:Trm0560o-Basso  	L1504	V5:	{fiso tu rivolgessi}
-ID:Trm0560o-Quinto 	L1523	V5:	{[LACUNA IN SCOURE]}
+ID:Trm0560o-Quinto 	L1523	V5:	[LACUNA IN SCOURE]
 ID:Trm0560p-Canto  	L1542	V5:	{Fiso tu rivolgessi}
 ID:Trm0560p-Alto   	L1561	V5:	{Fiso tu rivolgessi}
 ID:Trm0560p-Tenore 	L1580	V5:	{Fiso tu rivolgessi}
@@ -435,26 +435,26 @@ ID:Trm0560q-Basso  	L1656	V5:	{Fisso tu rivolgessi}
 
 ID:A3              	L14	V6:	{Le tue dolci faville}
 ID:C               	L33	V6:	{le tue dolci faville}
-ID:E1              	L52	V6:	{Le tue dolci faville,}
+ID:E1              	L52	V6:	{Le tue dolci faville},
 ID:E7              	L70	V6:	{Le tue dolci faville}
 ID:F2              	L89	V6:	{Le tue dolci faville}
-ID:S8              	L141	V6:	{Le tue dolci faville,}
-ID:S9              	L160	V6:	{Le tue dolci faville,}
-ID:S11             	L179	V6:	{Le tue dolci faville,}
-ID:S12             	L198	V6:	{Le tue dolci faville,}
-ID:S13             	L217	V6:	{Le tue dolci faville,}
-ID:S15             	L236	V6:	{Le tue dolci faville,}
-ID:S20             	L255	V6:	{Le tue dolci faville,}
-ID:S24             	L274	V6:	{Le tue dolci faville,}
-ID:S33             	L292	V6:	{Le tue dolci faville,}
-ID:S67             	L310	V6:	{Le tue dolci faville,}
-ID:S141            	L329	V6:	{Le tue dolce faville,}
-ID:S145            	L348	V6:	{Le tue dolci faville,}
-ID:S166            	L367	V6:	{Le tue dolce faville,}
-ID:S169            	L385	V6:	{Le tue dolci faville;}
-ID:Trm0560a-Alto   	L403	V6:	{Che tutta non appare,}
-ID:Trm0560a-Tenore 	L422	V6:	{Che tutta non appare,}
-ID:Trm0560a-Quinto 	L441	V6:	{Che tutta non appare,}
+ID:S8              	L141	V6:	{Le tue dolci faville},
+ID:S9              	L160	V6:	{Le tue dolci faville},
+ID:S11             	L179	V6:	{Le tue dolci faville},
+ID:S12             	L198	V6:	{Le tue dolci faville},
+ID:S13             	L217	V6:	{Le tue dolci faville},
+ID:S15             	L236	V6:	{Le tue dolci faville},
+ID:S20             	L255	V6:	{Le tue dolci faville},
+ID:S24             	L274	V6:	{Le tue dolci faville},
+ID:S33             	L292	V6:	{Le tue dolci faville},
+ID:S67             	L310	V6:	{Le tue dolci faville},
+ID:S141            	L329	V6:	{Le tue dolce faville},
+ID:S145            	L348	V6:	{Le tue dolci faville},
+ID:S166            	L367	V6:	{Le tue dolce faville},
+ID:S169            	L385	V6:	{Le tue dolci faville};
+ID:Trm0560a-Alto   	L403	V6:	{Che tutta non appare},
+ID:Trm0560a-Tenore 	L422	V6:	{Che tutta non appare},
+ID:Trm0560a-Quinto 	L441	V6:	{Che tutta non appare},
 ID:Trm0560b-Canto  	L460	V6:	{Le tue dolci faville}
 ID:Trm0560b-Alto   	L479	V6:	{Le tue dolci faville}
 ID:Trm0560b-Tenore 	L498	V6:	{Le tue dolci faville}
@@ -473,11 +473,11 @@ ID:Trm0560d-Quinto 	L726	V6:	{Le tue dolci faville}
 ID:Trm0560d-Sesto  	L745	V6:	{Le tue dolci faville}
 ID:Trm0560e-Canto  	L764	V6:	{Le tue dolci faville}
 ID:Trm0560e-Alto   	L783	V6:	{Le tue dolci faville}
-ID:Trm0560e-Basso  	L802	V6:	{[TACET]}
+ID:Trm0560e-Basso  	L802	V6:	[TACET]
 ID:Trm0560f-Canto  	L821	V6:	{Le tue dolci faville}
 ID:Trm0560f-Alto   	L840	V6:	{Le tue dolci faville}
-ID:Trm0560f-Basso  	L859	V6:	{[TACET]}
-ID:Trm0560f-Quinto 	L878	V6:	{[TACET]}
+ID:Trm0560f-Basso  	L859	V6:	[TACET]
+ID:Trm0560f-Quinto 	L878	V6:	[TACET]
 ID:Trm0560g-Canto  	L897	V6:	{Le tue dolci faville}
 ID:Trm0560g-Alto   	L916	V6:	{Le tue dolci faville}
 ID:Trm0560g-Tenore 	L935	V6:	{Le tue dolci faville}
@@ -511,7 +511,7 @@ ID:Trm0560o-Canto  	L1448	V6:	{le tue dolci faville}
 ID:Trm0560o-Alto   	L1467	V6:	{le tue dolci faville}
 ID:Trm0560o-Tenore 	L1486	V6:	{le tue dolci faville}
 ID:Trm0560o-Basso  	L1505	V6:	{le tue dolci faville}
-ID:Trm0560o-Quinto 	L1524	V6:	{[LACUNA IN SOURCE]}
+ID:Trm0560o-Quinto 	L1524	V6:	[LACUNA IN SOURCE]
 ID:Trm0560p-Canto  	L1543	V6:	{Le tue dolci faville}
 ID:Trm0560p-Alto   	L1562	V6:	{Le tue dolci faville}
 ID:Trm0560p-Tenore 	L1581	V6:	{Le tue dolci faville}
@@ -538,7 +538,7 @@ ID:S67             	L311	V7:	{Io vagheggiar potessi}
 ID:S141            	L330	V7:	{Io vagheggiar potessi}
 ID:S145            	L349	V7:	{Io vagheggiar potessi}
 ID:S166            	L368	V7:	{Io vagheggiar potessi}
-ID:S169            	L386	V7:	{Io vagheggiar potessi,}
+ID:S169            	L386	V7:	{Io vagheggiar potessi},
 ID:Trm0560a-Alto   	L404	V7:	{Ahi deboli occhi miei}
 ID:Trm0560a-Tenore 	L423	V7:	{Ahi deboli occhi miei}
 ID:Trm0560a-Quinto 	L442	V7:	{Ahi deboli occhi miei}
@@ -589,7 +589,7 @@ ID:Trm0560k-Tenore 	L1278	V7:	{Io vagheggiar potessi}
 ID:Trm0560k-Basso  	L1297	V7:	{Io vagheggiar potessi}
 ID:Trm0560l-Tenore 	L1316	V7:	{Io vagheggiar potessi}
 ID:Trm0560m-Canto  	L1335	V7:	{Io vagheggiar potessi}
-ID:Trm0560m-Basso  	L1354	V7:	{[TACET]}
+ID:Trm0560m-Basso  	L1354	V7:	[TACET]
 ID:Trm0560n-Canto  	L1373	V7:	{Io vagheggiar potessi}
 ID:Trm0560n-Alto   	L1392	V7:	{Io vagheggiar potessi}
 ID:Trm0560n-Tenore 	L1411	V7:	{Io vagheggiar potessi}
@@ -598,7 +598,7 @@ ID:Trm0560o-Canto  	L1449	V7:	{io vagheggiar potessi}
 ID:Trm0560o-Alto   	L1468	V7:	{io vagheggiar potessi}
 ID:Trm0560o-Tenore 	L1487	V7:	{io vagheggiar potessi}
 ID:Trm0560o-Basso  	L1506	V7:	{io vagheggiar potessi}
-ID:Trm0560o-Quinto 	L1525	V7:	{[LACUNA IN SOURCE]}
+ID:Trm0560o-Quinto 	L1525	V7:	[LACUNA IN SOURCE]
 ID:Trm0560p-Canto  	L1544	V7:	{Io vagheggiar potessi}
 ID:Trm0560p-Alto   	L1563	V7:	{Io vagheggiar potessi}
 ID:Trm0560p-Tenore 	L1582	V7:	{Io vagheggiar potessi}
@@ -607,90 +607,90 @@ ID:Trm0560p-Quinto 	L1620	V7:	{Io vagheggiar potessi}
 ID:Trm0560q-Alto   	L1639	V7:	{Io vagheggiar potessi}
 ID:Trm0560q-Basso  	L1658	V7:	{Io vagheggiar potessi}
 
-ID:A3              	L16	V8:	{Mille bellezze tue con luci mille.}
-ID:C               	L35	V8:	{Mille bellezze tue, con luci mille.}
-ID:E1              	L54	V8:	{Mille bellezze tue, con luci mille :}
-ID:E7              	L72	V8:	{Mille bellezze tue con luci mille.}
+ID:A3              	L16	V8:	{Mille bellezze tue con luci mille}.
+ID:C               	L35	V8:	{Mille bellezze tue, con luci mille}.
+ID:E1              	L54	V8:	{Mille bellezze tue, con luci mille} :
+ID:E7              	L72	V8:	{Mille bellezze tue con luci mille}.
 ID:F2              	L91	V8:	{Mille bellezze tue con luci mille}
-ID:S8              	L143	V8:	{Mille bellezze tue, con luci mille.}
-ID:S9              	L162	V8:	{Mille bellezze tue, con luci mille.}
-ID:S11             	L181	V8:	{Mille bellezze tue, con luci mille.}
-ID:S12             	L200	V8:	{Mille bellezze tue, con luci mille.}
-ID:S13             	L219	V8:	{Mille bellezze tue, con luci mille.}
-ID:S15             	L238	V8:	{Mille bellezze tue, con luci mille.}
-ID:S20             	L257	V8:	{Mille bellezze tue, con luci mille.}
-ID:S24             	L276	V8:	{Mille bellezze tue, con luci mille.}
-ID:S33             	L294	V8:	{Mille bellezze tue, con luci mille.}
-ID:S67             	L312	V8:	{Mille bellezze tue, con luci mille.}
-ID:S141            	L331	V8:	{Mille bellezze tue, con luci mille.}
-ID:S145            	L350	V8:	{Mille bellezze tue con luci mille.}
-ID:S166            	L369	V8:	{Mille bellezze tue, con luci mille.}
-ID:S169            	L387	V8:	{Mille bellezze tue, con luci mille.}
-ID:Trm0560a-Alto   	L405	V8:	{Con mille altri in un sol sguardo mirare.}
-ID:Trm0560a-Tenore 	L424	V8:	{Con mille altri in un sol sguardo mirare.}
-ID:Trm0560a-Quinto 	L443	V8:	{Con mille altri in un sol sguardo mirare.}
-ID:Trm0560b-Canto  	L462	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560b-Alto   	L481	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560b-Tenore 	L500	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560b-Basso  	L519	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560b-Quinto 	L538	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560c-Canto  	L557	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560c-Alto   	L576	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560c-Tenore 	L595	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560c-Basso  	L614	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560c-Quinto 	L633	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560d-Canto  	L652	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560d-Alto   	L671	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560d-Tenore 	L690	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560d-Basso  	L709	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560d-Quinto 	L728	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560d-Sesto  	L747	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560e-Canto  	L766	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560e-Alto   	L785	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560e-Basso  	L804	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560f-Canto  	L823	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560f-Alto   	L842	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560f-Basso  	L861	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560f-Quinto 	L880	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560g-Canto  	L899	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560g-Alto   	L918	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560g-Tenore 	L937	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560g-Basso  	L956	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560g-Quinto 	L975	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560h-Canto  	L994	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560h-Alto   	L1013	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560h-Tenore 	L1032	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560h-Basso  	L1051	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560h-Quinto 	L1070	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560i-Alto   	L1089	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560i-Tenore 	L1108	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560i-Quinto 	L1127	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560j-Canto  	L1146	V8:	{mille bellezze tue con luci mille.}
-ID:Trm0560j-Alto   	L1165	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560j-Tenore 	L1184	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560j-Basso  	L1203	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560j-Quinto 	L1222	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560k-Canto  	L1241	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560k-Alto   	L1260	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560k-Tenore 	L1279	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560k-Basso  	L1298	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560l-Tenore 	L1317	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560m-Canto  	L1336	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560m-Basso  	L1355	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560n-Canto  	L1374	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560n-Alto   	L1393	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560n-Tenore 	L1412	V8:	{Mille bellezze tue con occhi mille.}
+ID:S8              	L143	V8:	{Mille bellezze tue, con luci mille}.
+ID:S9              	L162	V8:	{Mille bellezze tue, con luci mille}.
+ID:S11             	L181	V8:	{Mille bellezze tue, con luci mille}.
+ID:S12             	L200	V8:	{Mille bellezze tue, con luci mille}.
+ID:S13             	L219	V8:	{Mille bellezze tue, con luci mille}.
+ID:S15             	L238	V8:	{Mille bellezze tue, con luci mille}.
+ID:S20             	L257	V8:	{Mille bellezze tue, con luci mille}.
+ID:S24             	L276	V8:	{Mille bellezze tue, con luci mille}.
+ID:S33             	L294	V8:	{Mille bellezze tue, con luci mille}.
+ID:S67             	L312	V8:	{Mille bellezze tue, con luci mille}.
+ID:S141            	L331	V8:	{Mille bellezze tue, con luci mille}.
+ID:S145            	L350	V8:	{Mille bellezze tue con luci mille}.
+ID:S166            	L369	V8:	{Mille bellezze tue, con luci mille}.
+ID:S169            	L387	V8:	{Mille bellezze tue, con luci mille}.
+ID:Trm0560a-Alto   	L405	V8:	{Con mille altri in un sol sguardo mirare}.
+ID:Trm0560a-Tenore 	L424	V8:	{Con mille altri in un sol sguardo mirare}.
+ID:Trm0560a-Quinto 	L443	V8:	{Con mille altri in un sol sguardo mirare}.
+ID:Trm0560b-Canto  	L462	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560b-Alto   	L481	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560b-Tenore 	L500	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560b-Basso  	L519	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560b-Quinto 	L538	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560c-Canto  	L557	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560c-Alto   	L576	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560c-Tenore 	L595	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560c-Basso  	L614	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560c-Quinto 	L633	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560d-Canto  	L652	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560d-Alto   	L671	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560d-Tenore 	L690	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560d-Basso  	L709	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560d-Quinto 	L728	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560d-Sesto  	L747	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560e-Canto  	L766	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560e-Alto   	L785	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560e-Basso  	L804	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560f-Canto  	L823	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560f-Alto   	L842	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560f-Basso  	L861	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560f-Quinto 	L880	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560g-Canto  	L899	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560g-Alto   	L918	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560g-Tenore 	L937	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560g-Basso  	L956	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560g-Quinto 	L975	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560h-Canto  	L994	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560h-Alto   	L1013	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560h-Tenore 	L1032	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560h-Basso  	L1051	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560h-Quinto 	L1070	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560i-Alto   	L1089	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560i-Tenore 	L1108	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560i-Quinto 	L1127	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560j-Canto  	L1146	V8:	{mille bellezze tue con luci mille}.
+ID:Trm0560j-Alto   	L1165	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560j-Tenore 	L1184	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560j-Basso  	L1203	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560j-Quinto 	L1222	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560k-Canto  	L1241	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560k-Alto   	L1260	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560k-Tenore 	L1279	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560k-Basso  	L1298	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560l-Tenore 	L1317	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560m-Canto  	L1336	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560m-Basso  	L1355	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560n-Canto  	L1374	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560n-Alto   	L1393	V8:	{Mille bellezze tue con occhi mille}.
+ID:Trm0560n-Tenore 	L1412	V8:	{Mille bellezze tue con occhi mille}.
 ID:Trm0560n-Basso  	L1431	V8:	{Mille bellezze tue con occhi mille.}
-ID:Trm0560o-Canto  	L1450	V8:	{mille bellezze tue con luce mille.}
-ID:Trm0560o-Alto   	L1469	V8:	{mille bellezze tue con luce mille.}
-ID:Trm0560o-Tenore 	L1488	V8:	{mille bellezze tue con luce mille.}
-ID:Trm0560o-Basso  	L1507	V8:	{mille bellezze tue con luce mille.}
-ID:Trm0560o-Quinto 	L1526	V8:	{[LACUNA IN SOURCE]}
-ID:Trm0560p-Canto  	L1545	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560p-Alto   	L1564	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560p-Tenore 	L1583	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560p-Basso  	L1602	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560p-Quinto 	L1621	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560q-Alto   	L1640	V8:	{Mille bellezze tue con luci mille.}
-ID:Trm0560q-Basso  	L1659	V8:	{Mille bellezze tue con luci mille.}
+ID:Trm0560o-Canto  	L1450	V8:	{mille bellezze tue con luce mille}.
+ID:Trm0560o-Alto   	L1469	V8:	{mille bellezze tue con luce mille}.
+ID:Trm0560o-Tenore 	L1488	V8:	{mille bellezze tue con luce mille}.
+ID:Trm0560o-Basso  	L1507	V8:	{mille bellezze tue con luce mille}.
+ID:Trm0560o-Quinto 	L1526	V8:	[LACUNA IN SOURCE]
+ID:Trm0560p-Canto  	L1545	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560p-Alto   	L1564	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560p-Tenore 	L1583	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560p-Basso  	L1602	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560p-Quinto 	L1621	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560q-Alto   	L1640	V8:	{Mille bellezze tue con luci mille}.
+ID:Trm0560q-Basso  	L1659	V8:	{Mille bellezze tue con luci mille}.
 

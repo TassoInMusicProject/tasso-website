@@ -849,12 +849,12 @@ function displaySourceInformation(source) {
 			xtitle = "B/I";
 		}
 		text += "<tr><td>RISM " + xtitle + "</td><td>";
-		text += "<a target='_new' href='/browse?rism=" + source.RISM.replace(/ /g, "%20") + "'";
-		text += " title='List of Tasso settings published in RISM " + xtitle + " ";
-		text += rism + "'";
-		text += ">";
+		// text += "<a target='_new' href='/browse?rism=" + source.RISM.replace(/ /g, "%20") + "'";
+		// text += " title='List of Tasso settings published in RISM " + xtitle + " ";
+		// text += rism + "'";
+		// text += ">";
 		text += rism;
-		text += "</a>";
+		// text += "</a>";
 		text += "</td></tr>";
 	}
 
@@ -901,11 +901,11 @@ function displaySourceInformation(source) {
 	if (source && source.PUBLISHER) {
 		var pub = source.PUBLISHER;
 		text += "<tr><td><nobr>Publisher</nobr></td><td>";
-		text += "<a target='_new' href='/browse?publisher=" + source.PUBLISHER + "'";
-		text += " title='List of music published by " + source.PUBLISHER + "'";
-		text += ">";
+		//text += "<a target='_new' href='/browse?publisher=" + source.PUBLISHER + "'";
+		//text += " title='List of music published by " + source.PUBLISHER + "'";
+		//text += ">";
 		text += pub;
-		text += "</a>";
+		//text += "</a>";
 		text += "</td></tr>";
 	}
 
@@ -922,20 +922,20 @@ function displaySourceInformation(source) {
 	if (source && source.PUBNORMLOC) {
 		var loc = source.PUBNORMLOC;
 		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
-		text += "<a target='_new' href='/browse?location=" + source.PUBNORMLOC + "'";
-		text += " title='List of music published in " + source.PUBNORMLOC + "'";
-		text += ">";
+		//text += "<a target='_new' href='/browse?location=" + source.PUBNORMLOC + "'";
+		//text += " title='List of music published in " + source.PUBNORMLOC + "'";
+		//text += ">";
 		text += loc;
-		text += "</a>";
+		//text += "</a>";
 		text += "</td></tr>";
 	} else if (source && source.PUBLOC) {
 		var loc = source.PUBLOC;
 		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
-		text += "<a target='_new' href='/browse?location=" + source.PUBLOC + "'";
-		text += " title='List of music published in " + source.PUBLOC + "'";
-		text += "<tr><td><nobr>Publisher location</nobr></td><td>";
+		//text += "<a target='_new' href='/browse?location=" + source.PUBLOC + "'";
+		//text += " title='List of music published in " + source.PUBLOC + "'";
+		//text += "<tr><td><nobr>Publisher location</nobr></td><td>";
 		text += loc;
-		text += "</a>";
+		//text += "</a>";
 		text += "</td></tr>";
 	}
 

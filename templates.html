@@ -211,12 +211,13 @@
 	<tbody>
 	{{#each this}}
 
+
 	{{{trclass SOLERTI CATALOGNUM catalogbase}}}
 		<td style="text-align:left;">
 			<table style="width:100px">
 			<tr>
 			<td style="width:30px; text-align:right;">
-				<span class="ecloga"><nobr>{{ecloga}}</nobr></span>
+			<nobr>{{#if ATTRIBUTION}}<span class="attribution" style="cursor:pointer" title="Attribution to Tasso not secure">*</span>{{/if}}<span class="ecloga"><nobr>{{ecloga}}</nobr></span></nobr>
 			</td>
 			<td style="width:70px; text-align:right;">
 				<span class="verse"><nobr>{{verse}}</nobr></span>

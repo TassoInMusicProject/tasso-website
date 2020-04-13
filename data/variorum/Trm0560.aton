@@ -589,7 +589,7 @@
 	{I bei celesti giri}
 	{Il ciel esser vorrei}
 	{Acciò tu rivolgessi}
-	[TACET]
+	{[TACET]}
 	{Le tue ardenti faville}
 	{Io vagheggiar potessi}
 	{Mille bellezze tue con occhi mille}.
@@ -799,7 +799,7 @@
 	{Il cielo esser vorrei}
 	{Perche tu rivolgessi}
 	{Fisso ne gl'occhi miei}
-	[TACET]
+	{[TACET]}
 	{Io vagheggiar potessi}
 	{Mille bellezze tue con occhi mille}.
 @@END: VARIORUM
@@ -854,9 +854,9 @@
 	{Mentre mia stella miri}
 	{I bei celesti giri}
 	{Il cielo esser vorrei}
-	[TACET]
-	[TACET]
-	[TACET]
+	{[TACET]}
+	{[TACET]}
+	{[TACET]}
 	{Io vagheggiar potessi}
 	{Mille bellezze tue con luci mille}.
 @@END: VARIORUM
@@ -873,9 +873,9 @@
 	{Mentre mia stella miri}
 	{I bei celesti giri}
 	{Il cielo esser vorrei}
-	[TACET]
-	[TACET]
-	[TACET]
+	{[TACET]}
+	{[TACET]}
+	{[TACET]}
 	{Io vagheggiar potessi}
 	{Mille bellezze tue con luci mille}.
 @@END: VARIORUM
@@ -929,7 +929,7 @@
 @VERSE:		
 	{Mentre mia stella miri}
 	{I bei celesti giri}
-	[TACET]
+	{[TACET]}
 	{Perche tu rivolgessi}
 	{fiso [TACET]}
 	{Le tue dolci faville}
@@ -947,7 +947,7 @@
 @PARATEXT:	
 @VERSE:		
 	{Mentre mia stella [TACET]}
-	[TACET]
+	{[TACET]}
 	{Il ciel esser vorrei}
 	{Perche tu rivolgessi}
 	{fiso [TACET]}
@@ -1026,7 +1026,7 @@
 	{I bei celesti giri}
 	{Il ciel esser vorrei}
 	{Perche ne gl'occhi miei}
-	[TACET]
+	{[TACET]}
 	{Le tue dolci faville}
 	{Io vagheggiar potessi}
 	{Mille bellezze tue con luci mille}.
@@ -1045,7 +1045,7 @@
 	{I bei celesti giri}
 	{Il ciel esser vorrei}
 	{Perche ne gl'occhi miei}
-	[TACET]
+	{[TACET]}
 	{Le tue dolci faville}
 	{Io vagheggiar potessi}
 	{Mille bellezze tue con luci mille}.
@@ -1082,7 +1082,7 @@
 	{Mentre mia stella miri}
 	{I bei celesti giri}
 	{Il ciel esser vorrei}
-	[TACET]
+	{[TACET]}
 	{Fiso tu rivolgessi}
 	{Le tue dolci faville}
 	{Io vagheggiar potessi}
@@ -1101,7 +1101,7 @@
 	{Mentre mia stella miri}
 	{I bei celesti giri}
 	{Il ciel esser vorrei}
-	[TACET]
+	{[TACET]}
 	{Fiso tu rivolgessi}
 	{Le tue dolci faville}
 	{Io vagheggiar potessi}
@@ -1288,8 +1288,8 @@
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-	[TACET]
-	[TACET]
+	{[TACET]}
+	{[TACET]}
 	{Il Ciel esser vorrei}
 	{Perche negl'occhi miei}
 	{Fisso tu rivolgessi}
@@ -1347,11 +1347,11 @@
 @VERSE:		
 	{Mentre mia stella miri}
 	{I bei celesti giri}
-	[TACET]
+	{[TACET]}
 	{Per che tu rivolgessi}
 	{Fiso ne i lumi miei}
 	{Le tue dolci faville}
-	[TACET]
+	{[TACET]}
 	{Mille bellezze tue con occhi mille}.
 @@END: VARIORUM
 
@@ -1595,7 +1595,7 @@
 	{Mentre mia stella miri}
 	{I bei celesti giri}
 	{Il ciel esser vorrei}
-	[TACET]
+	{[TACET]}
 	{Fiso tu rivolgessi}
 	{Le tue dolci faville}
 	{Io vagheggiar potessi}

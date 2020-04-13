@@ -5,25 +5,25 @@
 @TYPE:		manuscript
 @SMSIGLUM:	Amz
 @PAGE:		43	
-@PARATEXT:	
+@PARATEXT:	[The entire poem is deleted with a diagonal strikethrough]
 @VERSE:	
-Negli anni acerbi tuoi purpurea rosa
-Sembravi tu, che a i rai tepidi,  l’ora
-Non apre’l sen, ma nel suo verde ancora
-Verginella s’asconde, et vergognosa;
+Ne gli anni acerbi tuoi purpurea rosa
+Sembravi tu, ch<del>e</del> ^'^ a <del>i</del> rai tepidi, <del>a l’ora</del> ^allhora^
+Non apre <del>’</del>^i^l sen, ma nel suo verde ancora
+V<del>e</del>^i^rginella s’asconde, e<del>t</del> vergognosa;
 @VERSE:
-O piu tosto parei (che mortal cosa
+O piu tosto pare^v^i (che mortal cosa
 Non s’assomiglia à te) celeste Aurora,
-Che le campagne imperla, e i monti indora
-Lucida in Ciel sereno, &amp; ruggiadosa;
+<del>Che le campagne imperla</del> ^Ch'imperla le Campagne^, e i monti indora
+Lucida in <del>Ciel</del> ^bel^ seren<del>o</del>^a^, <del>&amp;</del>^e^ ru<del>g</del>giadosa;
 @VERSE:
 Hor la men verde età nulla à te toglie;
 Nè te, benche negletta, in manto adorno
-Giovinetta beltà vince, ò pareggia;
+Giov<del>i</del>^a^netta beltà vince, o pareggia;
 @VERSE:
-Cosi più vago è’l fior, poi che le foglie
-Spiega odorate, e’l Sol nel mezzo giorno
-Via più, che nel mattin luce, &amp; fiammeggia.		
+<del>Cosi è più vago il</del> ^Così più vago è 'l^ fior, poi che le foglie
+Spiega <del>d</del>orate; e ’l Sol nel mezzo giorno
+Vi<del>a</del>^e^ più, che nel mattin^,^ luce, <del>&amp;</del>^e^ fiammeggia.		
 @@END: VARIORUM
 
 
@@ -56,15 +56,15 @@ Verginella s’asconde, e vergognosa;
 @VERSE:
 O’ più tosto parei (che mortal cosa
 Non s’assomiglia à te) celeste Aurora,
-Che le campagne imperla, e i monti indora
+<del>Che le campagne imperla</del> ^Ch'imperla le Campagne^, e i monti indora
 Lucida in Ciel sereno, e ruggiadosa;
 @VERSE:
 Hor la men verde età nulla à te toglie;
 Nè te, benche negletta, in manto adorno
 Giovinetta beltà vince, ò pareggia;
 @VERSE:
-Cosi più vago è’l fior, poi che le foglie
-Spiega odorate, e’l Sol nel mezzo giorno
+Cosi più vago è ’l fior, poi che le foglie
+Spiega <del>d</del>orate, e ’l Sol nel mezzo giorno
 Via più, che nel mattin luce, e fiammeggia.	
 @@END: VARIORUM
 
@@ -77,7 +77,7 @@ Via più, che nel mattin luce, e fiammeggia.
 @PAGE:		22
 @PARATEXT:	Loda la bellezza della Signora Duchessa d'Urbino la qual non scema perché cresca l'età
 @VERSE:
-Già [illegible]<del>solevi</del> parer vermiglia rosa, 
+Già solevi<del>volevi[?]</del> parer vermiglia rosa, 
 	Ch’à <del>caldi</del>dolci raggi, a lo spirar de l’ora 
 	Rinchiude il grembo, e nel suo verde ancora
 	Verginella s’asconde, e vergognosa.	
@@ -87,7 +87,7 @@ Già [illegible]<del>solevi</del> parer vermiglia rosa,
 	Che le campagne imperla, e i monti indora,
 	Lucida in Ciel sereno e rugiadosa:
 @VERSE:		
-      Ma nulla a te l’età men fresca hor toglie 
+      Ma nulla a te l’età men fresca ^hor^ toglie 
 	Ne beltà giovinetta in manto adorno, 
 	Vince la tua negletta, ò la pareggia. 
 @VERSE:		
@@ -105,8 +105,8 @@ Già [illegible]<del>solevi</del> parer vermiglia rosa,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-Già [illegible]<del>solevi</del> parer vermiglia rosa, 
-	Ch’à <del>caldi</del>dolci raggi, a lo spirar de l’ora 
+Già solevi parer vermiglia rosa, 
+	Ch’à dolci raggi, a lo spirar de l’ora 
 	Rinchiude il grembo, e nel suo verde ancora
 	Verginella s’asconde, e vergognosa.	
 @VERSE:	
@@ -119,7 +119,7 @@ Già [illegible]<del>solevi</del> parer vermiglia rosa,
 	Ne beltà giovinetta in manto adorno, 
 	Vince la tua negletta, ò la pareggia. 
 @VERSE:		
-      Così più vago <del>e</del> l’odorate foglie,
+      Così più vago l’odorate foglie,
 	Il fior dispiega, e’l sol a mezzo giorno  
 	Via piu, che nel mattino, arde e fiammeggia.	
 @@END: VARIORUM
@@ -130,12 +130,26 @@ Già [illegible]<del>solevi</del> parer vermiglia rosa,
 @ID:		I4
 @TYPE:		manuscript
 @SMSIGLUM:	I<sub>4</sub>
-@PAGE:		
-@PARATEXT:	
+@PAGE:		39r
+@PARATEXT:	Stamp.to poi. Di Torq.to Tasso.
 @VERSE:		
-@VERSE:		
-@VERSE:		
-@VERSE:		
+Ne gli acerbi annj tuoi purpurea rosa
+	Sembravi tu; ch'ài rai tepidi à l’hora
+	Non apre il sen: ma nel suo verde anchora
+	Verginella s’asconde, e vergognosa.
+@VERSE:
+O piu tosto parei, (che mortal cosa
+	Non s’assomigla à te,) celeste Aurora;
+	Ch'imperla le campagne, e i monti indora,
+	Lucida in bel sereno et rugiadosa.
+@VERSE:
+Hor la men verde età nulla a te toglie,
+	Ne te, benche negletta in manto adorno
+	Giovinetta beltà vince e pareggia.
+@VERSE:
+Cosi piu vago è fior, poiche le foglie
+	Spiega odorate, il sol nel mezo giorno
+	Via piu che nel mattin luce, et fiammeggia.	
 @@END: VARIORUM
 
 
@@ -259,9 +273,9 @@ Cosi piu vago è fior, poi che le foglie
 @PAGE:		43	
 @PARATEXT:	
 @VERSE:	
-Negli anni acerbi tuoi purpurea rosa
-Sembravi tu, che a i rai tepidi,  l’ora
-Non apre’l sen, ma nel suo verde ancora
+Ne gli anni acerbi tuoi purpurea rosa
+Sembravi tu, che a i rai tepidi, a l’ora
+Non apre ’l sen, ma nel suo verde ancora
 Verginella s’asconde, et vergognosa;
 @VERSE:
 O piu tosto parei (che mortal cosa
@@ -273,8 +287,8 @@ Hor la men verde età nulla à te toglie;
 Nè te, benche negletta, in manto adorno
 Giovinetta beltà vince, ò pareggia;
 @VERSE:
-Cosi più vago è’l fior, poi che le foglie
-Spiega odorate, e’l Sol nel mezzo giorno
+Cosi è più vago il fior, poi che le foglie
+Spiega odorate, e ’l Sol nel mezzo giorno
 Via più, che nel mattin luce, &amp; fiammeggia.	
 @@END: VARIORUM
 
@@ -287,7 +301,7 @@ Via più, che nel mattin luce, &amp; fiammeggia.
 @PAGE:		43
 @PARATEXT:	A Mad. Lucrezia, D. di Urbino
 @VERSE:	
-Negli anni acerbi tuoi purpurea rosa
+Ne gli anni acerbi tuoi purpurea rosa
 Sembravi tu, che a i rai tepidi,  l’ora
 Non apre’l sen, ma nel suo verde ancora
 Verginella s’asconde, et vergognosa;
@@ -315,7 +329,7 @@ Via più, che nel mattin luce, &amp; fiammeggia.
 @PAGE:		Parte Prima, 32
 @PARATEXT:	All’Illustriss. Madama Lucretia Duchessa d’Urbino
 @VERSE:		
-Negli anni acerbi tuoi purpurea rosa
+Ne gli anni acerbi tuoi purpurea rosa
 Sembravi tù, che à i rai tepidi, à l’ora
 Non apre’l sen, ma nel suo verde ancora
 Verginella s’asconde, e vergognosa;
@@ -452,12 +466,26 @@ Via più, che nel mattin luce, &amp; fiammeggia.
 @ID:		S24
 @TYPE:		print
 @SPRINT:	
-@PAGE:		
+@PAGE:		Parte Prima, 43
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
-@VERSE:		
-@VERSE:		
+Negli anni acerbi tuoi purpurea rosa
+Sembravi tu, che a i rai tepidi, à l’ora
+Non apre’l sen, ma nel suo verde ancora
+Verginella s’asconde, &amp; vergognosa.
+@VERSE:
+O più tosto parei (che mortal cosa
+Non s’assomiglia à te) celeste Aurora,
+Che le campagne imperla, e i Monti indora
+Lucida in Ciel sereno, &amp; rugiadosa,
+@VERSE:
+Hor la men verde età nulla à te toglie;
+Nè te, benche negletta, in manto adorno
+Giovinetta beltà vince, ò pareggia:
+@VERSE:
+Cosi è più vago il fior, poi che le foglie
+Spiega odorate, e’l Sol nel mezzo giorno
+Via più, che nel mattin luce, &amp; fiammeggia.		
 @@END: VARIORUM
 
 
@@ -541,20 +569,6 @@ Cosi più vago il fior poi che le foglie
 	Spiega odorate, e ’l Sol nel mezo giorno
 	Via più, che nel mattin, luce, e fiammeggia.
 @@END:		VARIORUM
-
-
-@@BEGIN: VARIORUM
-@CATALOGNUM:	Trm0592
-@ID:		S69
-@TYPE:		print
-@SPRINT:	
-@PAGE:		
-@PARATEXT:	
-@VERSE:		
-@VERSE:		
-@VERSE:		
-@VERSE:		
-@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

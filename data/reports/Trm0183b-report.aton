@@ -3,13 +3,18 @@
 
 @CATALOGNUM: Trm0183b
 
-@PRINCIPAL_SOURCE:
+@PRINCIPAL_SOURCE: {{risminfo "M 510"}}
 
-@OTHER_SOURCE:
+@OTHER_SOURCE: {{risminfo "M 524"}}
 
 @EMENDED_READING:
+{{M 36}}, C, first note is a dotted semiminim
 
 @OTHER_CRITICAL_NOTES:
+{{M 36}}, C, RISM M 524, fifth note is a D-sharp 
+
+@OTHER_CRITICAL_NOTES:
+{{M 69}}, A, RISM M 524, minim rest is missing
 
 @COMMENTARY:
 

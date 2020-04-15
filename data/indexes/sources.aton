@@ -4415,7 +4415,7 @@
 @@BEGIN: SOURCE
 @RISM:	M 510
 @AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
+@TITLEPAGE:	DI LVCA / MARENZIO / IL QVARTO LIBRO DE MADRIGALI / a Sei Voci Nouamente composti, & dati in luce. / CON PRIVILEGGIO. / In Venetia Presso Giacomo Vincenzi. / MDLXXXVII.
 @TITLESHORT:	Il quarto libro de madrigali a sei voci
 @PUBLISHER:	Vincenti
 @YEAR:	1587
@@ -4476,6 +4476,28 @@
 @SRCLOCSIGLA:	S-Su
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.alvin-portal.org/alvin/imageViewer.jsf?dsId=ATTACHMENT-0059&pid=alvin-record%3A187665&dswid=-6642
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 524
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / MVSICO ECCELLENTISS. / Il Primo, Secondo, Terzo, Quarto & Quinto Libro / DE MADRIGALI / A SEI VOCI / Nouamente Ristampati & in vn Corpo ridotti. / IN ANVERSA / Appresso Pietro Phalesio al Re Dauid. |/M.DCX.
+@TITLESHORT:	Il primo, secondo, terzo, quarto & quinto libro de madrigali a sei voci
+@PUBLISHER:	Phalèse
+@YEAR:	1610
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-boos
+@PUBLOC:	Anversa
+@PUBNORMLOC:	Antwerp
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-Dl
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://digital.slub-dresden.de/werkansicht/dlf/163403/1/
 @@END: SOURCE
 
 @@BEGIN: SOURCE

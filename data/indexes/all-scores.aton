@@ -1167,6 +1167,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0047i
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047i-Non_e_questa_la_mano--Duc_1586.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047i-Non_e_questa_la_mano--Duc_1586.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	Q
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0047l
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047l-Non_e_questa_la_mano--Gastoldi_1588.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047l-Non_e_questa_la_mano--Gastoldi_1588.krn
@@ -1214,6 +1230,22 @@
 @VNAME:	Quinto
 @VABBR:	A
 @VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0047p
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047p-Non_e_questa_la_mano--Ferro_1594.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047p-Non_e_questa_la_mano--Ferro_1594.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	Q
+@VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -2067,6 +2099,20 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0183a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0183a-Di_nettare_amoroso_ebro_la_mente--DallaGostena_1582.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0183a-Di_nettare_amoroso_ebro_la_mente--DallaGostena_1582.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0183b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0183b-Di_nettare_amoroso_ebro_la_mente--Marenzio_1587.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0183b-Di_nettare_amoroso_ebro_la_mente--Marenzio_1587.krn
@@ -2081,6 +2127,24 @@
 @VABBR:	A
 @VABBR:	T
 @VABBR:	S
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0183c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0183c-Di_nettare_amoroso_ebro_la_mente--Zanotti_1589.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0183c-Di_nettare_amoroso_ebro_la_mente--Zanotti_1589.krn
+@VNAME:	Canto
+@VNAME:	Sesto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	S
+@VABBR:	A
+@VABBR:	T
+@VABBR:	Q
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2395,6 +2459,22 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0246c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0246c-Al_lume_delle_stelle--IlVerso_1607.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0246c-Al_lume_delle_stelle--IlVerso_1607.krn
+@VNAME:	Canto
+@VNAME:	Sesto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	S
+@VABBR:	T
+@VABBR:	Q
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -3458,6 +3538,16 @@
 @CATALOGNUM:	Trm0354a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0354a-Occhi_miei_mal_accorti--Lambardi_1614.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0354a-Occhi_miei_mal_accorti--Lambardi_1614.krn
+@VNAME:	Canto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0356a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0356a-Correte_amanti_a_le_bellezze_nove--Lambardi_1616.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0356a-Correte_amanti_a_le_bellezze_nove--Lambardi_1616.krn
 @VNAME:	Canto
 @VNAME:	Basso
 @VABBR:	C
@@ -5348,6 +5438,22 @@
 @CATALOGNUM:	Tsg12069a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12069a-Dun_bel_pallore_ha_il_bianco_volto_asperso--IlVerso_1619.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12069a-Dun_bel_pallore_ha_il_bianco_volto_asperso--IlVerso_1619.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	Q
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12075a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12075a-Io_vivo_Io_spiro_ancora_E_gli_odiosi--IlVerso_1619.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12075a-Io_vivo_Io_spiro_ancora_E_gli_odiosi--IlVerso_1619.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Tenore

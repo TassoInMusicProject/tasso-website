@@ -29,7 +29,7 @@ ID:Trm0592a-Tenore 	L797	V1:	{[TACET]}
 ID:Trm0592a-Basso  	L822	V1:	{[TACET]}
 ID:Trm0592a-Quinto 	L847	V1:	{Già solevi parer vermiglia} rosa
 
-ID:Amz             	L11	V2:	{Sembravi tu, ch<del>e</del> ^'^ a <del>i</del> rai tepidi, <del>a} l’ora</del> ^allhora^
+ID:Amz             	L11	V2:	{Sembravi tu, ch<del>e</del> ^'^ a <del>i</del> rai tepidi, <del>a l’ora</del>} ^allhora^
 ID:Brn             	L53	V2:	{Sembravi tù, che à i rai tepidi, à} l’ora
 ID:E1              	L81	V2:	{Ch’à <del>caldi</del>dolci raggi, a lo spirar de} l’ora
 ID:F2              	L109	V2:	{Ch’à dolci raggi, a lo spirar de} l’ora
@@ -210,10 +210,10 @@ ID:S141            	L672	V7:	{Che le Campagne imperla}, e i Monti indora
 ID:S166            	L699	V7:	{Che le Campagne imperla}, e i Monti indora
 ID:S169            	L726	V7:	{Che le campagne imperla}, e i Monti indora,
 ID:Trm0592a-Canto  	L753	V7:	{Che le campagne imperl’}e i monti indora
-ID:Trm0592a-Alto   	L778	V7:	Che le campagne imperl’}e i monti indora
-ID:Trm0592a-Tenore 	L803	V7:	Che le campagne imperl’}e i monti indora
-ID:Trm0592a-Basso  	L828	V7:	Che le campagne imperl’}e i monti indora
-ID:Trm0592a-Quinto 	L853	V7:	Che le campagne imperl’}e i monti indora
+ID:Trm0592a-Alto   	L778	V7:	{Che le campagne imperl’}e i monti indora
+ID:Trm0592a-Tenore 	L803	V7:	{Che le campagne imperl’}e i monti indora
+ID:Trm0592a-Basso  	L828	V7:	{Che le campagne imperl’}e i monti indora
+ID:Trm0592a-Quinto 	L853	V7:	{Che le campagne imperl’}e i monti indora
 
 ID:Amz             	L18	V8:	Lucida in {<del>Ciel</del> ^bel^} seren<del>o</del>^a^, <del>&amp;</del>^e^ ru<del>g</del>giadosa;
 ID:Brn             	L60	V8:	Lucida in {Ciel} sereno, e ruggiadosa;

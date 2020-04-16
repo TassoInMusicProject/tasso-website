@@ -14,6 +14,7 @@
 
 <div class="indent">
 	{{ principalEmended  EMENDED_READING }}
+	{{ otherCriticalNotes  OTHER_CRITICAL_NOTES }}
 	{{ criticalCommentary COMMENTARY }}
 </div>
 {{ modernEditions OTHER_MODERN_EDITION }}
@@ -307,6 +308,42 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 			template = Handlebars.compile(emendations[i]);
 			output += "<li>" + template() + "</li>";
 			// if (i < emendations.length - 1) {
+			// 	output += "<p>";
+			// }
+		}
+		output += "</div>";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// { otherCriticalNotes notes }
+//
+
+Handlebars.registerHelper("otherCriticalNotes",  function (notes) {
+	var output = "";
+	if (!notes) {
+		return new Handlebars.SafeString(output);
+	}
+	
+	var template;
+	if (typeof notes === "string") {
+		output += "<h4>Other critical notes</h4>";
+		template = Handlebars.compile(notes);
+		output += "<div class='indent'>";
+		output += template();
+		output += "</div>";
+	} else if (notes.length >= 1)  {
+		output += "<h4>Other critical notes</h4>";
+		output += "<div class='indent'>";
+		output += "<ul style='padding-left:0 !important; margin-left:0 !important; list-style:none;'>";
+		for (var i=0; i<notes.length; i++) {
+			template = Handlebars.compile(notes[i]);
+			output += "<li>" + template() + "</li>";
+			// if (i < notes.length - 1) {
 			// 	output += "<p>";
 			// }
 		}

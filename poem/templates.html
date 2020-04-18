@@ -509,6 +509,9 @@ function makeId(solerti, prefix) {
 //
 
 function addLiterarySourceLink(text, solerti) {
+	if (Array.isArray(text)) {
+		return "LITERARY SOURCE LINK PROBLEM IN ATON ENTRY";
+	}
 	if (!text) {
 		console.log("TEXT IS EMPTY", text);
 		console.log("Solerti", solerti);

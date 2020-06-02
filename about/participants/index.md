@@ -75,6 +75,10 @@ Mauro Calcagno (University of Pennsylvania)
 </div>
 
 <div class="person">
+Kate Driscoll (Freie Universität Berlin) 
+</div>
+
+<div class="person">
 Giuseppe Gerbino (Columbia University) 
 </div>
 

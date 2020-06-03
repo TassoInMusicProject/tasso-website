@@ -6,13 +6,13 @@ use strict;
 my $scoredir = "../../../tasso-scores";
 my $datadir = "data";
 
-my $homophonic = `which homophonic`;
-chomp $homophonic;
-die "Cannot find homophonic" if $homophonic =~ /^\s*$/;
+my $homorhythm = `which homorhythm`;
+chomp $homorhythm;
+die "Cannot find homorhythm" if $homorhythm =~ /^\s*$/;
 
-my $homophonic2 = `which homophonic2`;
-chomp $homophonic2;
-die "Cannot find homophonic2" if $homophonic2 =~ /^\s*$/;
+my $homorhythm2 = `which homorhythm2`;
+chomp $homorhythm2;
+die "Cannot find homorhythm2" if $homorhythm2 =~ /^\s*$/;
 
 my @files = sort glob("$scoredir/*/kern/*.krn");
 
@@ -40,9 +40,9 @@ sub processFile {
 	$id =~ s/-.*//;
 	return if -r "$datadir/$id.aton";
 	print "Creating file $datadir/$id.aton\n";
-	my $value1 = `$homophonic -f $file`;
+	my $value1 = `$homorhythm -f $file`;
 	chomp $value1;
-	my $value2 = `$homophonic2 -f $file`;
+	my $value2 = `$homorhythm2 -f $file`;
 	chomp $value2;
 	open (OFILE, ">$datadir/$id.aton") or die "Cannot write to $datadir/$id.aton\n";
 	print OFILE <<"EOT";

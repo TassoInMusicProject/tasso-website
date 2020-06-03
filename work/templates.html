@@ -661,11 +661,14 @@ Handlebars.registerHelper("composer", function(composerdata) {
 	var workcount = getWorkCountForComposer(cd.COMPOSER);
 	if (workcount > 1) {
 		oinfo += "<tr><td>Other Tasso settings</td><td>";
-		oinfo += "<a target='_new' href='/browse?composer=";
-		oinfo += cd.COMPOSER.replace(/ /, "%20");
-		oinfo += "'>";
+		// The link to the browse page is currently deactivated because the
+		// composer search via url needs updating (it went from a free-form
+		// search to a select/option search).
+		// oinfo += "<a target='_new' href='/browse?composer=";
+		// oinfo += cd.COMPOSER.replace(/ /, "%20");
+		// oinfo += "'>";
 		oinfo += (workcount - 1)
-		oinfo += "</a>";
+		// oinfo += "</a>";
 
 		oinfo += "</td></tr>";
 

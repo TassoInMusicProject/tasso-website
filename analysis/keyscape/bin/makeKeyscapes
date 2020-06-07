@@ -25,6 +25,9 @@ foreach my $file (@files) {
 
 sub processFile {
 	my ($file) = @_;
+	if ($file =~ /183/) {
+		print "PROCESSING $file\n";
+	}
 	open (FILE, $file) or die "Cannot read $file\n";
 	my @contents = <FILE>;
 	close FILE;

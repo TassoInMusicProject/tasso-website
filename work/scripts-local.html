@@ -1328,13 +1328,13 @@ function downloadMeiData(event) {
 	if (setting) {
 		var scoredata = setting.SCOREDATA;
 		if (scoredata) {
-			var dataurl = scoredata.DATAURL.replace(/.*\//, "").replace(/\.krn/, ".xml");
+			var dataurl = scoredata.DATAURL.replace(/.*\//, "").replace(/\.krn/, ".mei");
 			link.download = dataurl;
 		} else {
-			link.download = ID + ".xml";
+			link.download = ID + ".mei";
 		}
 	} else {
-		link.download = ID + ".xml";
+		link.download = ID + ".mei";
 	}
 	document.body.appendChild(link);
 	link.click();

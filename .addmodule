@@ -1,0 +1,2 @@
+git submodule add -f https://github.com/TassoInMusicProject/variorum.git variorum
+#git submodule add -f https://github.com/TassoInMusicProject/tasso-scores.git data/scores

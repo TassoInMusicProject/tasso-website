@@ -549,7 +549,7 @@ function fillMusicPublisherLocationSelect(options) {
 	}
 	remappings = {};
 	// remappings["canzone"] = "^canzone$";
-	optionlist += getOptionListText(options, remappings);
+	optionlist += getOptionListText(options, remappings, CGI.location);
 	select.innerHTML = optionlist;
 }
 
@@ -805,7 +805,7 @@ function fillMusicPublisherSelect(options) {
 	}
 	remappings = {};
 	remappings["?"] = "\\?";
-	optionlist += getOptionListText(options, remappings);
+	optionlist += getOptionListText(options, remappings, CGI.publisher);
 	select.innerHTML = optionlist;
 }
 

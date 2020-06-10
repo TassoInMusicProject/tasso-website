@@ -44,11 +44,20 @@ function showTab(hiid) {
 // getOptionListText -- Prepare the list of <option> elements for a selection list.
 //
 
-function getOptionListText(options, remappings) {
+function getOptionListText(options, remappings, searching) {
 	var output = "";
 	var hasCelf = 0;
+	var selected = 0;
 	for (var i=0; i<options.length; i++) {
 		var text = options[i];
+		if (searching) {
+			if (text.match(searching) || searching.match(text)) {
+				console.log("MATCH", text, searching);
+				selected = 1;
+			} else {
+				selected = 0;
+			}
+		}
 		if (text.match(/G2/)) {
 			return getOptionListTextClefList(options, remappings);
 		}
@@ -56,7 +65,11 @@ function getOptionListText(options, remappings) {
 		if (remappings[text]) {
 			text = remappings[text];
 		}
-		output += "<option value='" + text + "'>" + text2 + "</option>";
+		output += "<option ";
+		if (selected) {
+			output += "selected ";
+		}
+		output += "value='" + text + "'>" + text2 + "</option>";
 	}
 	return output;
 }

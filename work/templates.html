@@ -645,8 +645,10 @@ Handlebars.registerHelper("composer", function(composerdata) {
 	var name = cd.COMPOSER;
 
 	var matches;
+	var lastname = name;
 	if (matches = name.match(/^(.*),\s+(.*)$/)) {
 		name = matches[2] + " " + matches[1];
+		lastname = matches[1];
 	}
 
 	if (cd.COMURL) {
@@ -683,11 +685,11 @@ Handlebars.registerHelper("composer", function(composerdata) {
 		// The link to the browse page is currently deactivated because the
 		// composer search via url needs updating (it went from a free-form
 		// search to a select/option search).
-		// oinfo += "<a target='_new' href='/browse?composer=";
-		// oinfo += cd.COMPOSER.replace(/ /, "%20");
-		// oinfo += "'>";
+		oinfo += "<a target='_new' href='/browse?composer=";
+		oinfo += cd.COMPOSER.replace(/\s*,.*/, "").replace(/ /, "%20");
+		oinfo += "'>";
 		oinfo += (workcount - 1)
-		// oinfo += "</a>";
+		oinfo += "</a>";
 
 		oinfo += "</td></tr>";
 

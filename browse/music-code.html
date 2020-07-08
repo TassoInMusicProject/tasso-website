@@ -516,6 +516,13 @@ function fillMusicComposerSelect(options) {
 	// remappings["canzone"] = "^canzone$";
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;
+
+	if (CGI.composer) {
+		// this needs to be redone for some reason.
+		// tried to do it in:
+		// scripts-local.html:  insertCgiSearchParameters()
+		select.value = CGI.composer;
+	}
 }
 
 

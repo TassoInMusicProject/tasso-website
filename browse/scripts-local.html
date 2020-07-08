@@ -459,6 +459,9 @@ function insertCgiSearchParameters() {
 		var composerelement = document.querySelector("#browse-composer");
 		var composer = CGI.composer;
 		if (composerelement) {
+			// composer list is constructed later for some
+			// reason, so needed to redo this in music-code.html:
+			//     fillMusicComposerSelect();
 			composerelement.value = composer;
 		}
 	}

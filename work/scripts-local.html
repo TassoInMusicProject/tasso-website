@@ -542,9 +542,11 @@ function getCriticalNotes(id) {
 						.replace(/--/g, "&ndash;");
 				var data = aton.parse(raw).REPORT;
 				SETTING.REPORT = data;
+
 				var tsource = document.querySelector("#criticalreport-template").textContent;
 				var template = Handlebars.compile(tsource);
 				var result = template(data);
+
 				REPORT[id] = result;
 				if (element) {
 					// element.innerHTML = addCatalogLinks(data);
@@ -554,6 +556,8 @@ function getCriticalNotes(id) {
 				fillInDedicatee(id);
 				fillInOtherSources(id);
 				fillInPrimarySources(id);
+
+				fillInPoemText(SETTING);
 			}
 		});
 		request.send()
@@ -563,6 +567,26 @@ function getCriticalNotes(id) {
 //	getCriticalReportNoRecurse(ORDER[id].previous);
 }
 
+
+//////////////////////////////
+//
+// fillInPoemText --
+//
+
+function fillInPoemText(SETTING) {
+	var element = document.querySelector("#poem-text");
+	if (!element) {
+		return;
+	}
+	console.log("SETTING.REPORT", SETTING.REPORT);
+
+	var tsource = document.querySelector("#poem-template").textContent;
+	var template = Handlebars.compile(tsource);
+	var result = template(SETTING.REPORT);
+
+	element.innerHTML = result;
+
+}
 
 
 //////////////////////////////
@@ -649,7 +673,6 @@ function getHumdrumSourceData(humid) {
 		vrvOptions.spacingStaff = 9;
 	}
 
-console.log("LASTQUERYTEXT", LAST_QUERY_TEXT);
 	if (LAST_QUERY) {
 		content += "\n!!!filter: msearch -q \"" + LAST_QUERY + "\" -c orange\n";
 	}

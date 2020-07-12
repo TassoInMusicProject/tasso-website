@@ -277,6 +277,8 @@ table.data td {
 		%%%verses VERSEDATA.VERSES CATALOGNUM%%%
 	-->
 
+	<div id="poem-text"></div>
+
 	<div class="indent musical-content" style="display:none">
 		<p><a target="_blank" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts.</p>
 	</div>
@@ -339,7 +341,10 @@ table.data td {
 //     dimension as verses.
 //
 
-Handlebars.registerHelper("verses", function(verses, catnum) {
+Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum) {
+	var verses = {};
+	verses.VERSE = VERSE;
+	verses.TVERSE = TRANSLATION;
 	var rime = catnum.match(/Trm0*(\d+)/)[1];
 	if (!verses) {
 		return "";
@@ -1170,3 +1175,116 @@ Handlebars.registerHelper("risminfo", function(rismid) {
 
 
 
+
+//////////////////////////////
+//
+// verses Handlebar helper -- Assuming translation has the same
+//     dimension as verses.
+//
+
+Handlebars.registerHelper("verses", function(italian, english) {
+	var output = "";
+	if (!italian) {
+		return output;
+	}
+
+	if (italian instanceof Array) {
+		// deal with later
+		for (var i=0; i<italian.length; i++) {
+			if (english) {
+				output += generateDualVerse(italian[i], english[i]);
+			} else {
+				output += generateDualVerse(italian[i], undefined);
+			}
+		}
+	} else {
+		output += generateDualVerse(italian, english);
+	}
+	return new Handlebars.SafeString(output);
+});
+
+//////////////////////////////
+//
+// edtrans --
+//
+
+Handlebars.registerHelper("edtrans",  function (verses) {
+	var editor = verses.EDITOR;
+	var edpop = getEditorPopup(verses);
+	var transpop = getTranslationPopup(verses);
+	var translator = verses.TRANSLATOR;
+	var output = "<tr>";
+	output += "<td class='tcell'>";
+	var editor = reverseName(editor);
+	if (editor) {
+
+		if (edpop) {
+			output += "<span class='editor' title='";
+			output += edpop;
+			output += "'>";
+		}
+
+		output += "Ed. " + editor;
+
+		if (edpop) {
+			output += "</span>";
+		}
+	}
+	output += "</td>";
+	output += "<td class='tcell'>";
+	var translator = reverseName(translator);
+	// translator = cleanCurlies(translator);
+	if (translator) {
+
+		if (transpop) {
+			output += "<span class='editor' title='";
+			output += transpop
+			output += "'>";
+		}
+
+		output += "Trans. " + translator;
+		if (transpop) {
+			output += "</span>";
+		}
+	}
+	output += "</td>";
+	output += "</tr>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// generateDualVerse --
+//
+
+function generateDualVerse(italian, english) {
+	var output = "";
+	var v = [];
+	var vv = [];
+	if (italian) {
+		v = italian.split(/\n/);
+	}
+	if (english) {
+		vv = english.split(/\n/);
+	}
+	for (var i=0; i<v.length; i++) {
+		output += "<tr>";
+		output += "<td>";
+		if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+		} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+		output += "</td>";
+		output += "<td>";
+		if (vv.length > i) {
+			if (vv[i]) {
+				if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
+			} else {
+			}
+		}
+		output += "</td>";
+		output += "</tr>";
+	}
+	return output;
+}

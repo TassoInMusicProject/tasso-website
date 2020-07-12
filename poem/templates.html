@@ -621,12 +621,9 @@ function getTranslationPopup(verses) {
 //
 
 Handlebars.registerHelper("edtrans",  function (verses) {
-console.log("GOT HERE IN EDTRANS", verses);
 	var editor = verses.EDITOR;
 	var edpop = getEditorPopup(verses);
-console.log("EDPOP", edpop);
 	var transpop = getTranslationPopup(verses);
-console.log("TRANSPOP", transpop);
 	var translator = verses.TRANSLATOR;
 	var output = "<tr>";
 	output += "<td class='tcell'>";

@@ -9,6 +9,9 @@ main_subtitle: Digital Edition of the Settings of Torquato Tasso's Poetry, c. 15
 # last_modified: The date that the website was last modified:
 last_modified: 2020/07/12
 
+# variorum_modified: The date that the variorum was last regenerated:
+variorum_modified: 2020/06/01
+
 # deployment: either "local" for loading javascripts from the website
 # or "external" for loading from content deployment networks or other
 # non-website sources.

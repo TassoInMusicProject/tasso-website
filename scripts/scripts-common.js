@@ -1879,3 +1879,18 @@ function GetCatalogInfo(id) {
 }
 
 
+function DisplayWebsiteDate() {
+	var element = document.querySelector("#last-modified");
+	if (!element) {
+		return;
+	}
+	var date = '{{ site.time | date: "%-d&nbsp;%b&nbsp;%Y" }}';
+	var output = "website&nbsp;last&nbsp;updated&nbsp;&nbsp;&nbsp;";
+	output += "<br>";
+	output += date;
+	element.innerHTML = output;
+}
+
+
+
+

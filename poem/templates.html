@@ -140,6 +140,8 @@ td.tcell {
 
 </style>
 
+{{ lastModified LAST_MODIFIED }}
+
 
 </script>
 {% endraw %}
@@ -777,6 +779,60 @@ function processFootnotes(text) {
 	return newtext;
 
 }
+
+//////////////////////////////
+//
+// { lastModified LAST_MODIFIED }
+//
+
+Handlebars.registerHelper("lastModified",  function (ymd_date) {
+console.log("DATE:", ymd_date);
+	var matches = ymd_date.match(/(20\d{2})\/0*(\d+)\/0*(\d+)/);
+	if (matches) {
+		var year = matches[1];
+		var month = parseInt(matches[2]);
+		var day = matches[3];
+		var date = day;
+		date += "&nbsp;";
+		if (month == 1) {
+			date += "January";
+		} else if (month == 2) {
+			date += "February";
+		} else if (month == 3) {
+			date += "March";
+		} else if (month == 4) {
+			date += "April";
+		} else if (month == 5) {
+			date += "May";
+		} else if (month == 6) {
+			date += "June";
+		} else if (month == 7) {
+			date += "July";
+		} else if (month == 8) {
+			date += "August";
+		} else if (month == 9) {
+			date += "September";
+		} else if (month == 10) {
+			date += "October";
+		} else if (month == 11) {
+			date += "November";
+		} else if (month == 12) {
+			date += "December";
+		}
+		date += "&nbsp;";
+		date += year;
+		var element = document.querySelector("#last-modified");
+		if (element) {
+			var output = "page&nbsp;last&nbsp;modified&nbsp;&nbsp;&nbsp;";
+			output += "<br>";
+			output += date;
+			element.innerHTML = output;
+		}
+	}
+
+	return new Handlebars.SafeString("");
+
+});
 
 
 </script>

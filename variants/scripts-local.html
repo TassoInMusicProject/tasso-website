@@ -551,6 +551,48 @@ function setNextPreviousPoem(rime) {
 }
 
 
+
+//////////////////////////////
+//
+// displayVariorumDate -- the date should be in the format 2020/05/15 and stored
+//   in the _config.yml file for the website in a variable called variorum_modified.
+//
+
+function displayVariorumDate() {
+	var element = document.querySelector("#last-modified");
+	if (!element) {
+		return;
+	}
+	var date = '{{ site.variorum_modified }}';
+	var matches = date.match(/(\d{4})\/0*(\d+)\/0*(\d+)/);
+	if (matches) {
+		var year  = matches[1];
+		var month = parseInt(matches[2]);
+		var day   = matches[3];
+		date = day;
+		date += "&nbsp;";
+		if (month == 1) { date += "Jan"; }
+		else if (month == 2) { date += "Feb"; }
+		else if (month == 3) { date += "Mar"; }
+		else if (month == 4) { date += "Apr"; }
+		else if (month == 5) { date += "May"; }
+		else if (month == 6) { date += "Jun"; }
+		else if (month == 7) { date += "Jul"; }
+		else if (month == 8) { date += "Aug"; }
+		else if (month == 9) { date += "Sep"; }
+		else if (month == 10) { date += "Oct"; }
+		else if (month == 11) { date += "Nov"; }
+		else if (month == 12) { date += "Dec"; }
+		date += "&nbsp;";
+		date += year;
+	}
+	var output = "variorum&nbsp;last&nbsp;updated&nbsp;&nbsp;&nbsp;";
+	output += "<br>";
+	output += date;
+	element.innerHTML = output;
+}
+
+
 </script>
 
 

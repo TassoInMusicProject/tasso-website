@@ -43,7 +43,7 @@ updatesf:
 
 
 update:	updates
-updates:
+updates: si
 	../bin/updatesettingfromspreadsheet -c -E rime-settings.aton
 
 

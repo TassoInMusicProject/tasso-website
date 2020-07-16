@@ -488,8 +488,12 @@ function fillMusicSelectOptions(field, searchlist) {
 //
 // fillMusicComposerSelect --
 //
+// Two Belli should not to be merged.
+//
 
 function fillMusicComposerSelect(options) {
+
+console.log("testing", options);
 	var select = document.querySelector("select#browse-composer");
 	if (!select) {
 		console.log("ERROR: no music composer select menu");
@@ -514,6 +518,7 @@ function fillMusicComposerSelect(options) {
 	}
 	remappings = {};
 	// remappings["canzone"] = "^canzone$";
+console.log("OPTIOSN", options, "REMAPP", remappings);
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;
 

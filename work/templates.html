@@ -691,7 +691,8 @@ Handlebars.registerHelper("composer", function(composerdata) {
 		// composer search via url needs updating (it went from a free-form
 		// search to a select/option search).
 		oinfo += "<a target='_new' href='/browse?composer=";
-		oinfo += cd.COMPOSER.replace(/\s*,.*/, "").replace(/ /, "%20");
+		// oinfo += cd.COMPOSER.replace(/\s*,.*/, "").replace(/ /, "%20");
+		oinfo += cd.COMPOSER.replace(/ /, "%20");
 		oinfo += "'>";
 		oinfo += (workcount - 1)
 		oinfo += "</a>";
@@ -709,6 +710,7 @@ Handlebars.registerHelper("composer", function(composerdata) {
 
 	return new Handlebars.SafeString(output);
 });
+
 
 
 

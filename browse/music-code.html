@@ -502,9 +502,37 @@ console.log("testing", options);
 		return;
 	}
 
+	remappings = {};
 	var newlist = [];
 	for (var i=0; i<options.length; i++) {
-		newlist.push(options[i].replace(/,\s.*/, ""));
+		var lastname = options[i];
+		var finalname = lastname;
+		if (!lastname.match(/Belli/)) {
+			var opti = options[i].replace(/\s+$/, "").replace(/^\s+/, "");
+			var mm = opti.match(/^(.+),\s+(.*)/);
+			var rest = "";
+			if (mm) {
+				lastname = mm[1];
+				rest = mm[2];
+			}
+			var pieces = rest.split(/\s+/);
+			var initials = "";
+			for (var j=0; j<pieces.length; j++) {
+				if (pieces[j].charAt(0) === "?") {
+					continue;
+				}
+				if (pieces[j].charAt(0) !== pieces[j].charAt(0).toUpperCase()) {
+					continue;
+				}
+				initials += pieces[j].charAt(0) + ".";
+			}
+			finalname = lastname;
+			if (!initials.match(/^[\s.]*$/)) {
+				finalname += ", " + initials;
+			}
+		}
+		remappings[finalname] = options[i];
+		newlist.push(finalname);
 	}
 	options = newlist;
 
@@ -516,9 +544,7 @@ console.log("testing", options);
 	} else {
 		select.style.display = "inline-block";
 	}
-	remappings = {};
 	// remappings["canzone"] = "^canzone$";
-console.log("OPTIOSN", options, "REMAPP", remappings);
 	optionlist += getOptionListText(options, remappings);
 	select.innerHTML = optionlist;
 

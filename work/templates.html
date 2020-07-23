@@ -283,7 +283,7 @@ table.data td {
 		<p><a target="_blank" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts.</p>
 	</div>
 
-	<div class="indent">
+	<div class="indent" style="margin-top:20px;">
 		<a target="_blank" href="/poem/?id={{poemid CATALOGNUM}}">Go to poem's About page</a>
 		<br/>
 		<br/>
@@ -341,7 +341,7 @@ table.data td {
 //     dimension as verses.
 //
 
-Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum) {
+Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum, translator) {
 	var verses = {};
 	verses.VERSE = VERSE;
 	verses.TVERSE = TRANSLATION;
@@ -386,7 +386,6 @@ Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum) {
 			output += "</tr>";
 		}
 	} else {
-
 		output += "<tr>";
 		output += "<td>";
 		v = verses.VERSE.split(/\n/);
@@ -404,6 +403,13 @@ Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum) {
 		output += "</td>";
 		output += "</tr>";
 
+	}
+
+	if (translator) {
+		output += "<tr><td></td><td style='padding-top:30px;'>";
+		output += "Trans. ";
+		output += translator;
+		output += "</td></tr>";
 	}
 	output += "</table>";
 	output += "</div>";

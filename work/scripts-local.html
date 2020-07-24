@@ -675,6 +675,20 @@ function getHumdrumSourceData(humid) {
 
 	if (LAST_QUERY) {
 		content += "\n!!!filter: msearch -q \"" + LAST_QUERY + "\" -c orange\n";
+	} else {
+		if (CGI.p || CGI.i || CGI.r) {
+		   // do the searches in parallel
+			content += "\n!!!filter: msearch ";
+			if (CGI.p) {
+				content += ' -p "' + CGI.p + '"';
+			}
+			if (CGI.i) {
+				content += ' -i "' + CGI.i + '"';
+			}
+			if (CGI.r) {
+				content += ' -r "' + CGI.r + '"';
+			}
+		}
 	}
 	if (LAST_QUERY_TEXT) {
 		content += "\n!!!filter: msearch -t \"" + LAST_QUERY_TEXT + "\" -c hotpink\n";

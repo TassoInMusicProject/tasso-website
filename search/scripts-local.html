@@ -10,6 +10,9 @@
 // vim: ts=3
 
 var RWORKLIST;
+var PITCHQUERY;
+var RHYTHMQUERY;
+var INTERVALQUERY;
 
 // text searching variables
 var LINES = [];
@@ -70,6 +73,7 @@ function doMusicSearch() {
 
 	PITCHQUERY = pquery;
 	RHYTHMQUERY = rquery;
+	INTERVALQUERY = iquery;
 
 	if (repertory.match(/all/i)) {
 			repertory = "Trm,Tsg,Tam,Tec,Tri,Tbv,Trt,Tco";
@@ -283,14 +287,14 @@ function displaySingleWork(id) {
 		return;
 	}
 	var extra = "";
-	if (PITCHQUERY && RHYTHMQUERY && (!PITCHQUERY.match(/^\s*$/)) && (!RHYTHMQUERY.match(/^\s*$/))) {
-		// interleave rhythm and pitch queryies.  For now just pass
-		// pitch query.
-		extra = "&q=" + encodeURI(PITCHQUERY);
-	} else if (PITCHQUERY && !PITCHQUERY.match(/^\s*$/)) {
-		extra = "&q=" + encodeURI(PITCHQUERY);
-	} else if (RHYTHMQUERY && !RHYTHMQUERY.match(/^\s*$/)) {
-		extra = "&q=" + encodeURI(RHYTHMQUERY);
+	if (PITCHQUERY) {
+		extra += "&p=" + encodeURI(PITCHQUERY);
+	}
+	if (INTERVALQUERY) {
+		extra += "&i=" + encodeURI(INTERVALQUERY);
+	}
+	if (RHYTHMQUERY && !RHYTHMQUERY.match(/^\s*$/)) {
+		extra += "&r=" + encodeURI(RHYTHMQUERY);
 	} 
 
 	// window.location.href = "/work?id=" + id + extra;

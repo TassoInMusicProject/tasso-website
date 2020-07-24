@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
 
 	CGI = GetCgiParameters();
+console.log("CGI PARAMETERS", CGI);
 	if (CGI.k) {
 		setupVariables(CGI.k);
 	}

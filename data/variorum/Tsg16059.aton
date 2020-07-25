@@ -1168,7 +1168,7 @@ Li scogli e l’onde &amp; che a la pugna arrivi.
 @TYPE:		music
 @COMPOSER:	Monteverdi, Claudio
 @PAGE:		8-9
-@PARATEXT:	
+@PARATEXT:	Prima parte.
 @VERSE:		
 Vattene pur crudel con quella pace
 Che lasci a me Vattene iniquo homai
@@ -1187,7 +1187,7 @@ Li scogli e l’onde &amp; che’a la pugna arrivi.
 @TYPE:		music
 @COMPOSER:	Monteverdi, Claudio
 @PAGE:	9	
-@PARATEXT:	
+@PARATEXT:	Prima parte.
 @VERSE:		
 [TACET]
 [TACET]
@@ -1225,7 +1225,7 @@ Li scogli è l’onde &amp; che’a la pugna arrivi.
 @TYPE:		music
 @COMPOSER:	Monteverdi, Claudio
 @PAGE:		9-10
-@PARATEXT:	
+@PARATEXT:	Prima parte.
 @VERSE:	
 Vattene pur crudel con quela pace
 Che lasci a me Vattene iniquo homai
@@ -1372,14 +1372,47 @@ Vattene pur crudel con quella pace
 @@END: VARIORUM
 
 
-@@BEGIN: VARIORUM
+@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg16059
-@ID:		Tsg16059c-
+@ID:		Tsg16059d-Canto_I
 @TYPE:		music
-@COMPOSER:	Hassler, Hans Leo
-@PAGE:		
-@PARATEXT:	
+@COMPOSER:	Cifra, Antonio
+@PAGE:		7-8
+@PARATEXT:	Aria prima di Romanesca à due Soprani.
 @VERSE:		
+Vattene pur crudel con quella pace
+  Che lasci a me vattene iniquo homai.
+@VERSE:
+  Me tost'ignudo e spirt'ombra seguace
+  Ch'indivisibilmente a tergo havrai.
+@VERSE:
+  Nova furia co serpi e con la face
+  Tanto t’agiterò quanto t’amai.
+@VERSE:
+  E se destin ch’esca del mar che schivi
+  Gli scogl'e l’onde e ch'a la pugn'arrivi.	
+@@END: VARIORUM
+
+
+@BEGIN: VARIORUM
+@CATALOGNUM:	Tsg16059
+@ID:		Tsg16059d-Canto_II
+@TYPE:		music
+@COMPOSER:	Cifra, Antonio
+@PAGE:		7-8
+@PARATEXT:	Aria prima di Romanesca à due Soprani.
+@VERSE:		
+Vattene pur crudel con quella pace
+  Che lasci a me vattene iniquo homai.
+@VERSE:
+  Me tost'ignudo e spirt'ombra seguace
+  Ch'indivisibilmente a tergo havrai.
+@VERSE:
+  Nova furia co serpi e con la face
+  Tanto t’agiterò quanto t’amai.
+@VERSE:
+  E se destin ch’esca del mar che schivi
+  Gli scogl'e l’onde e ch'a la pugn'arrivi.	
 @@END: VARIORUM
 
 

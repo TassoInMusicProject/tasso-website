@@ -1,5 +1,5 @@
 
-update:  undiff variorum collation list checkxml diff
+update:  undiff variorum collation list checkxml diff config-date
 
 v: variorum
 variorum: vtam vtrm vtsg vtec
@@ -52,6 +52,8 @@ checkxml:
 		xmllint $$i > /dev/null; \
 	done 
 
+config-date:
+	
 
 
 

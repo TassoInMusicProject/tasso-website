@@ -1185,6 +1185,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0047g
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047g-Non_e_questa_la_mano--Scozzese_1584.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047g-Non_e_questa_la_mano--Scozzese_1584.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0047i
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0047i-Non_e_questa_la_mano--Duc_1586.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0047i-Non_e_questa_la_mano--Duc_1586.krn
@@ -2849,6 +2865,16 @@
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0284i-Questa_vostra_pietate--DiCostanzo_1604.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0284i-Questa_vostra_pietate--DiCostanzo_1604.krn
 @VNAME:	Basso
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Trm0284j
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0284j-Questa_vostra_pietate--Luzzaschi_1604.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0284j-Questa_vostra_pietate--Luzzaschi_1604.krn
+@VNAME:	Canto
+@VNAME:	Basso
+@VABBR:	C
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -5377,6 +5403,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg04030b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg04030b-Fa_nove_crespe_laura_al_crin_disciolto--DIndia_1615.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg04030b-Fa_nove_crespe_laura_al_crin_disciolto--DIndia_1615.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg06103a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg06103a-Era_la_notte_el_suo_stellato_velo--IlVerso_1603.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg06103a-Era_la_notte_el_suo_stellato_velo--IlVerso_1603.krn
@@ -5384,6 +5422,22 @@
 @VNAME:	Quinto
 @VABBR:	C
 @VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg06103b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg06103b-Era_la_notte_el_tuo_stellato_velo--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg06103b-Era_la_notte_el_tuo_stellato_velo--Cifra_1614.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Tenore]
+@VNAME:	[Basso]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5823,6 +5877,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg14001g
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg14001g-Usciva_omai_dal_molle_e_fresco_grembo--Cifra_1615.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg14001g-Usciva_omai_dal_molle_e_fresco_grembo--Cifra_1615.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg14062b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg14062b-O_giovinetti_mentre_aprile_e_maggio--Camarella_1633.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg14062b-O_giovinetti_mentre_aprile_e_maggio--Camarella_1633.krn
@@ -5858,8 +5924,8 @@
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg16012f
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16012f--Vezzosi_augelli_infra_le_verdi_fronde--Cifra_1613.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16012f--Vezzosi_augelli_infra_le_verdi_fronde--Cifra_1613.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16012f-Vezzosi_augelli_infra_le_verdi_fronde--Cifra_1613.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16012f-Vezzosi_augelli_infra_le_verdi_fronde--Cifra_1613.krn
 @VNAME:	[Canto I]
 @VNAME:	[Canto II]
 @VNAME:	[Basso continuo]
@@ -6055,6 +6121,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg16059d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16059d-Vattene_pur_crudel_con_quella_pace--Cifra_1613.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16059d-Vattene_pur_crudel_con_quella_pace--Cifra_1613.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg16059f
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16059f-Vattene_pur_crudel_con_quella_pace--Eredi_1629.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16059f-Vattene_pur_crudel_con_quella_pace--Eredi_1629.krn
@@ -6111,6 +6189,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg16060f
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16060f-La_tra_l_sangue_e_le_morti_egro_giacente--Cifra_1613.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16060f-La_tra_l_sangue_e_le_morti_egro_giacente--Cifra_1613.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg16060h
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16060h-La_tral_sangue_e_le_morti_egro_giacente--Eredi_1629.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16060h-La_tral_sangue_e_le_morti_egro_giacente--Eredi_1629.krn
@@ -6148,6 +6238,18 @@
 @VNAME:	Quinto
 @VABBR:	C
 @VABBR:	V
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg16061d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg16061d-Chiudesti_i_lumi_Armida_il_cielo_avaro--Cifra_1613.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg16061d-Chiudesti_i_lumi_Armida_il_cielo_avaro--Cifra_1613.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -6333,6 +6435,18 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg19106d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg19106d-Misera_non_credea_cha_gli_occhi_miei--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg19106d-Misera_non_credea_cha_gli_occhi_miei--Cifra_1614.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg19106g
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg19106g-Misera_non_credea_cha_gli_occhi_miei--Negri_1635.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg19106g-Misera_non_credea_cha_gli_occhi_miei--Negri_1635.krn
@@ -6361,6 +6475,18 @@
 @VNAME:	[Canto]
 @VNAME:	[Basso continuo]
 @VABBR:	C
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg19107d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg19107d-Ma_che_squallido_e_scuro_anco_mi_piaci--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg19107d-Ma_che_squallido_e_scuro_anco_mi_piaci--Cifra_1614.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	C II
 @VABBR:	Bc
 @@END:	SCOREDATA
 
@@ -6541,6 +6667,18 @@
 @VABBR:	V
 @VABBR:	T
 @VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg20131a
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg20131a-O_sempre_e_quando_parti_e_quando_torni--Cifra_1614.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
 @VABBR:	Bc
 @@END:	SCOREDATA
 

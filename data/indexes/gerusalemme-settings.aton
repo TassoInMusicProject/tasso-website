@@ -1309,6 +1309,7 @@
 @CANTO:		XII
 @OTTAVA:	96
 @TITLE:	Giunto a la tomba ove al suo spirto vivo
+@SETTINGTITLE: Giunt'a la tomb'ov'al suo spirto vivo
 @COMPOSER:	Cifra, Antonio
 @PARTS:		1 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -1674,7 +1675,8 @@
 @CATALOGNUM:	Tsg12098c
 @CANTO:		XII
 @OTTAVA:	98
-@TITLE:	Dalli lor tu ché, se mai gli occhi gira
+@TITLE:	Dalli lor tu, ché se mai gli occhi gira
+@SETTINGTITLE: Dagli lor tu, ché se mai gl'occhi gira
 @COMPOSER:	Cifra, Antonio
 @PARTS:		3 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -1753,6 +1755,7 @@
 @CANTO:		XII
 @OTTAVA:	99
 @TITLE:	Ed amando morrò: felice giorno
+@SETTINGTITLE: Et amando morrò: felice giorno
 @COMPOSER:	Cifra, Antonio
 @PARTS:		4 of 4
 @PRINCEPSTITLE:	Il primo libro de madrigali a cinque voci
@@ -1805,6 +1808,7 @@
 @CANTO:		XIV
 @OTTAVA:	1
 @TITLE:	Usciva omai dal molle e fresco grembo
+@SETTINGTITLE: Usciva homai dal molle e fresco grembo
 @COMPOSER:	Guami, Gioseffo
 @PARTS:		1 of 1
 @PRINCEPSTITLE:	Quarto libro de madrigali a cinque et sei voci, con alcuni Dialoghi a otto et a dieci
@@ -1815,8 +1819,8 @@
 @PRINCEPSPUB:	Angelo Gardano
 @PRINCEPSYEAR:	1591
 @PRINCEPSRISM:	G 4805
-@OVOICES:	5
-@EXTANTVOICES:	3
+@OVOICES:	5 (CATBV)
+@EXTANTVOICES:	2 (CB)
 @OMENSURATION:	Cut-c
 @OCLEFS:	C1,F4
 @OTIME:		

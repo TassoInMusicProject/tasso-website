@@ -32,19 +32,10 @@
 
 
 {% if page.verovio == true %}
-	<script src="https://verovio-script.humdrum.org/scripts/verovio-toolkit.js"></script>
+	<script src="https://plugin.humdrum.org/scripts/humdrum-notation-plugin-worker.js"></script>
 {% else %}
 	<!-- page.verovio is disabled "{{page.verovio}}" -->
 {% endif %}
-
-
-
-{% if page.hnp == true %}
-	<script src="https://plugin.humdrum.org/scripts/humdrum-notation-plugin-worker.js"></script>
-{% else %}
-	<!-- page.hnp is disabled "{{page.hnp}}" -->
-{% endif %}
-
 
 
 {% if page.scripts-local == true %}

@@ -10,12 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
 
 	CGI = GetCgiParameters();
-console.log("CGI PARAMETERS", CGI);
 	if (CGI.k) {
 		setupVariables(CGI.k);
 	}
 	ID = CGI.id;
-	vrvToolkit = new verovio.toolkit;
+//	vrvToolkit = new verovio.toolkit;
 
 	LoadTassoData(continueSetup);
 });
@@ -132,18 +131,20 @@ window.addEventListener("click", function(event) {
 				break;
 			}
 			if (target && target.id && target.id.match(/^note-/)) {
-				node = target;
+				note = target;
 				break;
 			}
 		}
 	}
 	if (!note) {
+		console.log("Not a note");
 		return;
 	}
 	var matches;
 	var ques = 0;
 	if (matches = note.className.baseVal.match(/qon-([^\s]+)/)) {
 		ques = getQstampFloat(matches[1]);
+console.log("QTIMESTAMP IS ", ques);
 	} else {
 		return;
 	}
@@ -153,11 +154,14 @@ window.addEventListener("click", function(event) {
 	}
 	var i;
 	var tstamp = -1;
+	var qstamp = -1;
 	for (i=0; i<timemap.length; i++) {
 		if (Math.abs(timemap[i].qstamp - ques) < 0.01) {
 			tstamp = timemap[i].tstamp;
+			qstamp = timemap[i].qstamp;
 		}
 	}
+console.log("CLOSEST TIMESTAMP IS ", tstamp, "FOR QSTAMP", qstamp);
 	if (tstamp < 0) {
 		return;
 	}
@@ -167,6 +171,7 @@ window.addEventListener("click", function(event) {
 		var element = document.querySelector("#audio_" + ID);
 		PlayAudioFile(ID, element, tstamp - anticipation);
 	} else if (AUDIO.paused) {
+		TurnOffAllNotes();
 		AUDIO.currentTime = tstamp - anticipation;
 		PlayAudioFile(ID, element, tstamp - anticipation);
 	} else {

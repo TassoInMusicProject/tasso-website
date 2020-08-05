@@ -2042,8 +2042,8 @@
 
 @@BEGIN:	SCOREDATA
 @CATALOGNUM:	Trm0166g
-@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0166g-Se_taccio_il_duol_s’avanza--Gesualdo_1594.krn
-@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0166g-Se_taccio_il_duol_s’avanza--Gesualdo_1594.krn
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0166g-Se_taccio_il_duol_savanza--Gesualdo_1594.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0166g-Se_taccio_il_duol_savanza--Gesualdo_1594.krn
 @VNAME:	Canto
 @VNAME:	Alto
 @VNAME:	Tenore
@@ -5451,6 +5451,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg06104b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg06104b-Poi_rimirando_il_campo_ella_dicea--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg06104b-Poi_rimirando_il_campo_ella_dicea--Cifra_1614.krn
+@VNAME:	[Canto I]
+@VNAME:	[Canto II]
+@VNAME:	Tenore
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C I
+@VABBR:	C II
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg06105a
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg06105a-Raccogliete_in_me_dunque_e_in_voi_si_trove--IlVerso_1603.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg06105a-Raccogliete_in_me_dunque_e_in_voi_si_trove--IlVerso_1603.krn
@@ -5471,12 +5487,44 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg07019c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07019c-Sovente_allor_che_su_gli_estivi_ardori--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07019c-Sovente_allor_che_su_gli_estivi_ardori--Cifra_1614.krn
+@VNAME:	[Canto I]
+@VNAME:	[Alto]
+@VNAME:	[Tenore]
+@VNAME:	[Basso]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg07020b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.krn
 @VNAME:	[Canto]
 @VNAME:	Basso continuo
 @VABBR:	C
+@VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg07020c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07020c-Indi_dicea_piangendo_In_voi_serbate--Cifra_1614.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07020c-Indi_dicea_piangendo_In_voi_serbate--Cifra_1614.krn
+@VNAME:	[Canto I]
+@VNAME:	[Alto]
+@VNAME:	[Tenore]
+@VNAME:	[Basso]
+@VNAME:	[Basso continuo]
+@VABBR:	C I
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
 @VABBR:	Bc
 @@END:	SCOREDATA
 
@@ -5781,6 +5829,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12096e
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12096e-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Cifra_1605.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12096e-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Cifra_1605.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg12096f
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12096f-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Benedetti_1613.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12096f-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Benedetti_1613.krn
@@ -5837,6 +5901,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12097h
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12097h-Non_di_morte_sei_tu_ma_di_vivaci--Cifra_1605.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12097h-Non_di_morte_sei_tu_ma_di_vivaci--Cifra_1605.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg12098b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12098b-Dalli_lor_tu_che_se_mai_gli_occhi_gira--Dentice_1598.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12098b-Dalli_lor_tu_che_se_mai_gli_occhi_gira--Dentice_1598.krn
@@ -5851,6 +5931,22 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12098c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12098c-Dalli_lor_tu_che_se_mai_gli_occhi_gira--Cifra_1605.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12098c-Dalli_lor_tu_che_se_mai_gli_occhi_gira--Cifra_1605.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg12099b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12099b-Ed_amando_morro_felice_giorno-Dentice_1598.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12099b-Ed_amando_morro_felice_giorno-Dentice_1598.krn
@@ -5862,6 +5958,32 @@
 @VABBR:	A
 @VABBR:	T
 @VABBR:	Q
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12099c
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12099c-Ed_amando_morro_felice_giorno--Cifra_1605.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12099c-Ed_amando_morro_felice_giorno--Cifra_1605.krn
+@VNAME:	Canto
+@VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	V
+@VABBR:	A
+@VABBR:	T
+@VABBR:	B
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg14001b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg14001b-Usciva_omai_dal_molle_e_fresco_grembo--Guami_1591.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg14001b-Usciva_omai_dal_molle_e_fresco_grembo--Guami_1591.krn
+@VNAME:	Canto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA

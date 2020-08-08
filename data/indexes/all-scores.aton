@@ -905,16 +905,16 @@
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0003b-Su_lampia_fronte_il_crespo_oro_lucente--Marenzio_1585.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0003b-Su_lampia_fronte_il_crespo_oro_lucente--Marenzio_1585.krn
 @VNAME:	Canto
-@VNAME:	Alto
-@VNAME:	Sesto
-@VNAME:	Tenore
 @VNAME:	Quinto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Sesto
 @VNAME:	Basso
 @VABBR:	C
-@VABBR:	A
-@VABBR:	S
-@VABBR:	T
 @VABBR:	Q
+@VABBR:	A
+@VABBR:	T
+@VABBR:	S
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -2396,13 +2396,13 @@
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0237a-Negro_era_intorno_e_n_bianche_falde_il_cielo--Meldert_1575.krn
 @VNAME:	Canto
 @VNAME:	Alto
-@VNAME:	Quinto
 @VNAME:	Tenore
+@VNAME:	Quinto
 @VNAME:	Basso
 @VABBR:	C
 @VABBR:	A
-@VABBR:	Q
 @VABBR:	T
+@VABBR:	Q
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -5503,6 +5503,24 @@
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg07019d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07019d-Sovente_allor_che_su_gli_estivi_ardori--Ghizzolo_1621.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07019d-Sovente_allor_che_su_gli_estivi_ardori--Ghizzolo_1621.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	Q
+@VABBR:	B
+@VABBR:	BC
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
 @CATALOGNUM:	Tsg07020b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07020b-Indi_dicea_piangendo_in_voi_serbate--DIndia_1609.krn
@@ -5526,6 +5544,24 @@
 @VABBR:	T
 @VABBR:	B
 @VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg07020d
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg07020d-Indi_dicea_piangendo_In_voi_serbate--Ghizzolo_1621.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg07020d-Indi_dicea_piangendo_In_voi_serbate--Ghizzolo_1621.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VNAME:	Basso continuo
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	Q
+@VABBR:	B
+@VABBR:	BC
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA

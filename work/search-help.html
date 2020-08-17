@@ -1,0 +1,186 @@
+---
+---
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css?family=Simonetta" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="normalize.css"/>
+<link rel="stylesheet" type="text/css" href="josquin-style.css"/>
+<!-- vim: set ts=3: -->
+
+<style>
+.qaz {
+   color:#2b75af;
+   font-weight: 700;
+   font-family: Courier,monospace;
+   font-size:90%;
+}
+.xtra {
+   margin-top:10px;
+}
+
+.entry {
+  color: #d7ab5b;
+  font-family: "Simonetta", "serif";
+  font-size: 110%;
+  font-weight: 700;
+  padding-top: 52px;
+  margin-bottom: 31px;
+}
+
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: white;
+	font-family: "Simonetta", "serif";
+	-webkit-font-smoothing: antialiased;
+}
+
+h2 {
+	color: #d7ab5b;
+	font-family: "Simonetta", "serif";
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 0;
+	margin-bottom: 0px;
+}
+</style>
+<title>Search Help</title>
+
+<body>
+
+<h2>Search help</h2>
+
+<div style="margin-top:10px;">
+For text searches, type any full or partial word to highlight
+matching words in the score.  For music searches, both rhythm and/or pitch can be specified.
+Each note starts with a rhythm, followed by a pitch (see below).  When notes have both rhythm and
+pitch or pitches only, spaces are optional.  Spaces between successive rhythms are required.
+</div>
+
+<p>
+<table width=500 cellpadding=0 cellspacing=2>
+
+<!-- RHYTHM --------------------------------------------------------------- -->
+<tr valign=baseline>
+   <td>
+   <span class=entry>Rhythm</span>&nbsp;&nbsp;&nbsp;
+   </td>
+   <td valign=baseline>
+	<span class="qaz">0</span>, 
+	<span class="qaz">1</span>, 
+	<span class="qaz">2</span>, 
+	<span class="qaz">4</span>, 
+	<span class="qaz">8</span>
+   </td>
+   <td valign=baseline>
+	breve, whole, half, quarter, eighth.
+   </td>
+</tr>
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+	<span class="qaz">.</span>
+   </td>
+   <td valign=baseline>
+	augmentation dot (e.g., <span class="qaz">2. 4</span>)
+   </td>
+</tr>
+
+
+<!-- PITCH ---------------------------------------------------------------- -->
+<tr>
+   <td>
+   <span class=entry>Pitch</span>
+   </td>
+   <td>
+      <span class="qaz">a</span><small>&nbsp;&nbsp;</small>through<small>&nbsp;&nbsp;</small><span class="qaz">g</span>
+   </td>
+   <td>
+		Diatonic pitch names (any chromatic alteration).
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">n</span>, <span class="qaz">#</span>, <span class="qaz">-</span>
+   </td>
+   <td>
+      Optional chromatic alteration.
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td></td>
+   <td><span class="qaz">r</span></td>
+   <td>
+     rest
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td></td>
+   <td><span class="qaz">*</span></td>
+   <td>
+     any single pitch<br><br>
+   </td>
+</tr>
+
+</table>
+
+<br>
+
+<h2>Example music searches</h2>
+
+<style>
+
+table.examples {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+table.examples td:first-child {
+	padding-right: 10px;
+}
+
+</style>
+
+<table class="examples">
+
+<tr>
+	<td><span class="qaz">cdefg</span></td>
+	<td>Pitches C, D, E, F, and G in sequence with any duration.</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">1cdefg</span></td>
+	<td>C whole note followed by D, E, F, and G with any duration.
+</tr>
+
+<tr>
+	<td><span class="qaz">2 1 2</span></td>
+	<td>half note, then whole note, then half note on any pitches.
+</tr>
+
+</table>
+
+
+<pre>
+
+
+
+
+</pre>
+
+<table class="xtra" width=500 cellpadding=0 cellspacing=0>
+<tr valign=baseline><td width=100%>
+</td><td>
+<button onclick="javascript:window.close();" class="btn btn-brown btn-medium">Close</button>
+</td></tr></table>
+
+
+</body>
+</html>

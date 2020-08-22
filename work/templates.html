@@ -130,9 +130,9 @@
 	<td width="100%"></td>
 
 	<td>
-		<div style="padding-left: 10px; white-space:pre">
+		<div style="font-size:90%;" padding-left:10px; white-space:pre">
 			<select onchange="updateTransposition()" id="transpose">
-				<option value="">Transpose (none)</option>
+				<option value="">Transposition</option>
 				<option value="+m2">+m2</option>
 				<option value="-m2">-m2</option>
 				<option value="+M2">+M2</option>
@@ -149,20 +149,42 @@
 		</div>
 	</td>
 	<td>
-		<div style="padding-left:10px">
-			<input id="query" onkeyup="processMusicSearch(event)" 
-					type=text placeholder="music search..." 
-					style="width:150px">
-			<div id="search-counts"></div>
-		</div>
-	</td>
-	<td>
-		<div style="padding-left:10px">
-			<input id="query-text" onkeyup="processTextSearch(event)" 
-					type=text placeholder="text search..." 
-					style="width:150px">
-			<div id="search-counts"></div>
-		</div>
+		<table class="search">
+			<tr>
+				<td>
+					<div>
+						<input id="query-pitch" onkeyup="processMusicSearch(event)" 
+								type=text placeholder="pitch search..." 
+								style="width:120px">
+					</div>
+				</td>
+				<td>
+					<div>
+						<input id="query-text" onkeyup="processTextSearch(event)" 
+								type=text placeholder="text search..." 
+								style="width:120px">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<input id="query-interval" onkeyup="processMusicSearch(event)" 
+								type=text placeholder="interval search..." 
+								style="width:120px">
+					</div>
+				</td>
+				<td>
+					<div>
+						<input id="query-rhythm" onkeyup="processMusicSearch(event)" 
+								type=text placeholder="rhythm search..." 
+								style="width:120px">
+					</div>
+				</td>
+			</tr>
+
+		</table>
 	</td>
 	<td>
 		<div style='font-size:1.5em; margin-top:-10px;'>
@@ -206,6 +228,30 @@
 
 
 <style>
+
+
+table.search {
+	font-size: 75%;
+	border-collapse: collapse;
+}
+
+table.search tr:nth-child(2) td {
+	margin-top: -5px;
+	padding-top: -5px;
+	background: blue;
+}
+
+table.search tr,
+table.search td {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding: 0;
+	marign-top: 0;
+	marign-bottom: 0;
+	margin: 0;
+}
+
+
 table.data {
 	border-collapse: collapse;
 	width: 100%;

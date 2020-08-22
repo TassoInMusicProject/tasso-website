@@ -257,7 +257,7 @@ span.triangle, span.backward {
 }
 
 table.verovio-humdrum {
-	width: 100%;
+	width: 100% !important;
 }
 
 

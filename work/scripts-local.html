@@ -1003,9 +1003,9 @@ function createMusicSearchFilter(query) {
 	}
 	var marg = "";
 	if (query.query)    { marg += " -q '" + query.query    + "'"; }
-	if (query.pitch)    { marg += " -q '" + query.pitch    + "'"; }
-	if (query.interval) { marg += " -q '" + query.interval + "'"; }
-	if (query.rhythm)   { marg += " -q '" + query.rhythm   + "'"; }
+	if (query.pitch)    { marg += " -p '" + query.pitch    + "'"; }
+	if (query.interval) { marg += " -i '" + query.interval + "'"; }
+	if (query.rhythm)   { marg += " -r '" + query.rhythm   + "'"; }
 	var output = ""
 	if (!marg.match(/^\s*$/)) {
 		output = "msearch" + marg + " -c orange";

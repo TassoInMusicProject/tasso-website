@@ -1661,7 +1661,7 @@ function showMeiData(event) {
 	var data = vrvToolkit.getMEI(0, 1);
 	var prefix = "<textarea style='spellcheck=false; width:100%; height:100%;'>";
 	var postfix = "</textarea>";
-	var w = window.open("about:blank", "MEI transcoding", 'width=600,height=800,resizeable,scrollabars,location=false');
+	var w = window.open("about:blank", "MEI transcoding", 'width=700,height=820,resizeable,scrollabars,location=false');
 	w.document.write(prefix + data + postfix);
 	w.document.close();
 	function checkTitle() {
@@ -2151,7 +2151,7 @@ function fillInPrimarySources(id) {
 
 function showPopupHelp(url, title) {
    var newwindow = window.open(url, title,
-      'left=20,top=20,width=550,height=675,resizable=no,scrollbars=no,directories=no,location=no,status=no,toolbar=no');
+      'left=20,top=20,width=600,height=800,resizable=no,scrollbars=no,directories=no,location=no,status=no,toolbar=no');
    // if (window.focus) {newwindow.focus()}
    return false;
 }

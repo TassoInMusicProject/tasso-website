@@ -10,7 +10,7 @@
 
 <style>
 .qaz {
-   color:#2b75af;
+   color: #2b75af;
    font-weight: 700;
    font-family: Courier,monospace;
    font-size:90%;
@@ -20,7 +20,7 @@
 }
 
 .entry {
-  color: #d7ab5b;
+  color: #c2ab6c;
   font-family: "Simonetta", "serif";
   font-size: 110%;
   font-weight: 700;
@@ -37,7 +37,7 @@ body {
 }
 
 h2 {
-	color: #d7ab5b;
+	color: #c2ab6c;
 	font-family: "Simonetta", "serif";
 	font-size: 24px;
 	font-weight: 700;
@@ -52,14 +52,87 @@ h2 {
 <h2>Search help</h2>
 
 <div style="margin-top:10px;">
-For text searches, type any full or partial word to highlight
-matching words in the score.  For music searches, both rhythm and/or pitch can be specified.
-Each note starts with a rhythm, followed by a pitch (see below).  When notes have both rhythm and
-pitch or pitches only, spaces are optional.  Spaces between successive rhythms are required.
+
+For text searches, type any full or partial word to highlight words
+in the score.  Phrases are not currently allowed.  Music searches
+are independent of text searches: there are three features that can
+be mixed and matched:
+
 </div>
 
 <p>
 <table width=500 cellpadding=0 cellspacing=2>
+
+<!-- PITCH ---------------------------------------------------------------- -->
+<tr>
+   <td>
+   <span class=entry>Pitches</span>
+   </td>
+   <td>
+      <span class="qaz">a</span><small>&nbsp;&nbsp;</small>through<small>&nbsp;&nbsp;</small><span class="qaz">g</span>
+   </td>
+   <td>
+		Diatonic pitch names (any chromatic inflection).
+   </td>
+</tr>
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">n</span>, <span class="qaz">#</span>, <span class="qaz">-</span>
+   </td>
+   <td>
+      Optional chromatic quality (natural, sharp, flat).
+   </td>
+</tr>
+<tr valign=baseline>
+   <td></td>
+   <td><span class="qaz">r</span></td>
+   <td>
+     Rest.
+   </td>
+</tr>
+
+<!-- INTERVAL ------------------------------------------------------------- -->
+<tr>
+   <td>
+   <span class=entry>Interval</span>
+   </td>
+   <td>
+      <span class="qaz">1</span>
+   </td>
+   <td>
+		Repeated note
+   </td>
+</tr>
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">2</span>, <span class="qaz">-2</span>
+   </td>
+   <td>
+      Up a second or down a second.
+   </td>
+</tr>
+<tr valign=baseline>
+   <td></td>
+   <td>
+		<span class="qaz">3</span>, <span class="qaz">-3</span>
+	</td>
+   <td>
+     Up third or down a third.
+   </td>
+</tr>
+<tr valign=baseline>
+   <td></td>
+   <td>
+		<span class="qaz">8</span>, <span class="qaz">-8</span>
+	</td>
+   <td>
+     Up or down an octave.
+   </td>
+</tr>
 
 <!-- RHYTHM --------------------------------------------------------------- -->
 <tr valign=baseline>
@@ -88,52 +161,15 @@ pitch or pitches only, spaces are optional.  Spaces between successive rhythms a
    </td>
 </tr>
 
-
-<!-- PITCH ---------------------------------------------------------------- -->
-<tr>
-   <td>
-   <span class=entry>Pitch</span>
-   </td>
-   <td>
-      <span class="qaz">a</span><small>&nbsp;&nbsp;</small>through<small>&nbsp;&nbsp;</small><span class="qaz">g</span>
-   </td>
-   <td>
-		Diatonic pitch names (any chromatic alteration).
-   </td>
-</tr>
-
-<tr valign=baseline>
-   <td>
-   </td>
-   <td>
-      <span class="qaz">n</span>, <span class="qaz">#</span>, <span class="qaz">-</span>
-   </td>
-   <td>
-      Optional chromatic alteration.
-   </td>
-</tr>
-
-<tr valign=baseline>
-   <td></td>
-   <td><span class="qaz">r</span></td>
-   <td>
-     rest
-   </td>
-</tr>
-
-<tr valign=baseline>
-   <td></td>
-   <td><span class="qaz">*</span></td>
-   <td>
-     any single pitch<br><br>
-   </td>
-</tr>
-
 </table>
 
-<br>
 
 <h2>Example music searches</h2>
+
+Spaces are usually optional in the search fields, as demonstrated
+in the following examples.  Searches in separate features can also 
+be done at the same time, such as searching for C, D, E, F, G, that starts
+with a whole note on C, by adding "1" in the rhythm search box.
 
 <style>
 
@@ -146,34 +182,76 @@ table.examples td:first-child {
 	padding-right: 10px;
 }
 
+table.examples td {
+	vertical-align: top;
+}
+
 </style>
 
 <table class="examples">
 
 <tr>
 	<td><span class="qaz">cdefg</span></td>
-	<td>Pitches C, D, E, F, and G in sequence with any duration.</td>
+	<td>
+		(in pitch search box) Diatonic pitch classes C, D, E, F, and G in sequence
+		with any duration. (spaces between notes are optional).  This
+		will also match to C, D, E-flat, F, G, since any chromatic
+		inflection is allowed for each note. 
+	</td>
 </tr>
 
 <tr>
-	<td><span class="qaz">1cdefg</span></td>
-	<td>C whole note followed by D, E, F, and G with any duration.
+	<td><span style="white-space:nowrap;" class="qaz">cndne-fngn</span></td>
+	<td>
+		(in pitch search box) Search for C-natural, D-natural, E-flat, F-natural,
+		and G-natural in sequence.
+	</td>
 </tr>
 
 <tr>
-	<td><span class="qaz">2 1 2</span></td>
-	<td>half note, then whole note, then half note on any pitches.
+	<td><span class="qaz">2-31</span></td>
+	<td>
+
+		(in interval search box) up a step, then down a third then repeat the pitch.
+
+	</td>
 </tr>
+
+<tr>
+	<td><span class="qaz">1442</span></td>
+	<td>
+
+		(in rhythm search box) Whole note (or rest), then
+		two quarter notes then a half note.
+
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">2c4def1g</span></td>
+	<td>
+		(in pitch search box) Half-note C, quarter note D,
+		E with any rhythm, F, whole-note G.  Pitches and
+		rhythms can be interleaved in pitch searches.  Place
+		the rhythm before the pitch.  Do not put spaces
+		between a rhythm and its pitch, but spaces between notes
+		are optional.  If a note does not have
+		a rhythm, then it will match to any rhythm.
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">ceg</span> / <span class="qaz">33</span></td>
+	<td>
+		(in pitch and interval search boxes) Search for C, E, and G in sequence,
+		with the requirement that the E is a third above the C and the G is
+		a third above the E.
+	</td>
+</tr>
+
 
 </table>
 
-
-<pre>
-
-
-
-
-</pre>
 
 <table class="xtra" width=500 cellpadding=0 cellspacing=0>
 <tr valign=baseline><td width=100%>

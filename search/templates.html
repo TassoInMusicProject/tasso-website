@@ -52,7 +52,6 @@ Handlebars.registerHelper("shortNameById", function(id) {
 		return "";
 	}
 	var text = RSETTINGS[id].COMPOSER;
-console.log("COMPOSER", text);
 	if (!text) {
 		return new Handlebars.SafeString("");
 	}

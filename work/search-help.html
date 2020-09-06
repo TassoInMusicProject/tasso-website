@@ -28,6 +28,10 @@
   margin-bottom: 31px;
 }
 
+table.features td:nth-child(2) {
+	vertical-align: top;
+}
+
 body {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -61,7 +65,7 @@ be mixed and matched:
 </div>
 
 <p>
-<table width=500 cellpadding=0 cellspacing=2>
+<table class="features" width=500 cellpadding=0 cellspacing=2>
 
 <!-- PITCH ---------------------------------------------------------------- -->
 <tr>
@@ -94,6 +98,7 @@ be mixed and matched:
 </tr>
 
 <!-- INTERVAL ------------------------------------------------------------- -->
+
 <tr>
    <td>
    <span class=entry>Interval</span>
@@ -102,9 +107,21 @@ be mixed and matched:
       <span class="qaz">1</span>
    </td>
    <td>
-		Repeated note
+		Repeated note (but can have a chromatic alteration).
    </td>
 </tr>
+
+<tr>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">P1</span>
+   </td>
+   <td>
+		Repeated note, or perfect unison (with same accidental).
+   </td>
+</tr>
+
 <tr valign=baseline>
    <td>
    </td>
@@ -112,18 +129,61 @@ be mixed and matched:
       <span class="qaz">2</span>, <span class="qaz">-2</span>
    </td>
    <td>
-      Up a second or down a second.
+      Up a second or down a second (can be major, minor, augmented, or diminished).
    </td>
 </tr>
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">M2</span>, <span class="qaz">-M2</span>
+   </td>
+   <td>
+      Up a second or down a major second.
+   </td>
+</tr>
+
 <tr valign=baseline>
    <td></td>
    <td>
 		<span class="qaz">3</span>, <span class="qaz">-3</span>
 	</td>
    <td>
-     Up third or down a third.
+     Up third or down a third (can be major, minor, augmented or diminished)..
    </td>
 </tr>
+
+<tr valign=baseline>
+   <td></td>
+   <td>
+		<span class="qaz">m3</span>, <span class="qaz">-m3</span>
+	</td>
+   <td>
+     Up third or down a minor third.
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td></td>
+   <td>
+		<span class="qaz">P4</span>, <span class="qaz">-A4</span>
+	</td>
+   <td>
+     Up a perect fourth, down an augmented fourth.
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td></td>
+   <td>
+		<span class="qaz">P5</span>, <span class="qaz">-d5</span>
+	</td>
+   <td>
+     Up a perect fifth, down a diminished fifth.
+   </td>
+</tr>
+
 <tr valign=baseline>
    <td></td>
    <td>
@@ -188,42 +248,66 @@ table.examples td {
 
 </style>
 
+
+
 <table class="examples">
 
 <tr>
 	<td><span class="qaz">cdefg</span></td>
 	<td>
-		(in pitch search box) Diatonic pitch classes C, D, E, F, and G in sequence
-		with any duration. (spaces between notes are optional).  This
-		will also match to C, D, E-flat, F, G, since any chromatic
-		inflection is allowed for each note. 
+		(in pitch search box) Diatonic pitch classes C, D,
+		E, F, and G in sequence with any duration. (spaces
+		between notes are optional).  This will also match
+		to C, D, E-flat, F, G, since any chromatic inflection
+		is allowed for each note.
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">cdefg</span></td>
+	<td>
+		(in interval search box) Converted to the diatonic interval sequence "2222".
 	</td>
 </tr>
 
 <tr>
 	<td><span style="white-space:nowrap;" class="qaz">cndne-fngn</span></td>
 	<td>
-		(in pitch search box) Search for C-natural, D-natural, E-flat, F-natural,
-		and G-natural in sequence.
+		(in pitch search box) Search for C-natural, D-natural,
+		E-flat, F-natural, and G-natural in sequence.
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">cndne-fngn</span></td>
+	<td>
+		(in interval search box) Converted to the chromatic interval sequence "M2m2M2M2".
 	</td>
 </tr>
 
 <tr>
 	<td><span class="qaz">2-31</span></td>
 	<td>
+		(in interval search box) up a diatonc step, then
+		down a diatonic third then repeat the pitch (chromatic
+		alteraion allowed).
+	</td>
+</tr>
 
-		(in interval search box) up a step, then down a third then repeat the pitch.
-
+<tr>
+	<td><span class="qaz">M2-m3P1</span></td>
+	<td>
+		(in interval search box) Up a major second, then
+		down a minor third and repeat the note without a
+		change in chromatic alteration.
 	</td>
 </tr>
 
 <tr>
 	<td><span class="qaz">1442</span></td>
 	<td>
-
 		(in rhythm search box) Whole note (or rest), then
 		two quarter notes then a half note.
-
 	</td>
 </tr>
 

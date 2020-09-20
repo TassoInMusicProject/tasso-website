@@ -80,7 +80,7 @@ function generatePdfFull(event) {
 		pageHeight        : height,
 		pageWidth         : width,
 		scale             : 97,
-		spacingSystem     : 6,
+		spacingSystem     : 24,
 		spacingStaff      : 12,
 		adjustPageHeight  : 0,
 		justifyVertically:  1,
@@ -107,16 +107,14 @@ function generatePdfFull(event) {
 
 	if (staffcount == 3) {
 		localOptions.spacingStaff = 10;
-		localOptions.spacingSystem = 12;
+		localOptions.spacingSystem = 22;
 	} else if (staffcount == 4) {
 		localOptions.spacingStaff = 15;
-		localOptions.spacingSystem = 12;
+		localOptions.spacingSystem = 27;
 	} else if (staffcount == 6) {
-		localOptions.spacingStaff = 0;
-		localOptions.spacingSystem = 1;
+		localOptions.spacingStaff = 6;
+		localOptions.spacingSystem = 6;
 	}
-
-console.log("PDF OPTIONS", localOptions);
 
 	vrvToolkit.setOptions(localOptions);
 	vrvToolkit.redoLayout();
@@ -183,6 +181,23 @@ function getStaffCount(scoredata) {
 	}
 	return counter;
 }
+
+
+//////////////////////////////
+//
+// getHumdrumSourceData --
+//
+
+function getHumdrumSourceData() {
+	var element = document.querySelector("#humdrum-data");
+	if (!element) {
+		return "";
+	} else {
+		value = element.textContent.replace(/^\s+/, "");
+		return value;
+	}
+}
+
 
 
 </script>

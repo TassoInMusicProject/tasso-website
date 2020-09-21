@@ -353,12 +353,10 @@ function displaySingleWork(id, target) {
 	initializeSearchBoxes(CGI);
 
 	if (DISPLAYCGISEARCH) {
-console.log("GOT HERE QQQ");
 		setTimeout(function() {
 			processMusicSearch();
 			processTextSearch();
 			DISPLAYCGISEARCH = false;
-console.log("DID SEARCH");
 		}, 10);
 	}
 }
@@ -911,9 +909,7 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 		textquery = LAST_QUERY_TEXT;
 	}
 
-console.log("MUSIC QUERY", musicquery);
 	var musicsearch = createMusicSearchFilter(musicquery);
-console.log("MUSIC SEARCH", musicsearch);
 	var textsearch = createTextSearchFilter(textquery);
 
 	if (!musicsearch.match(/^\s*$/)) {
@@ -932,7 +928,6 @@ console.log("MUSIC SEARCH", musicsearch);
 		vrvOptions.filter.push("transpose -t " + TRANSPOSE);
 	}
 
-console.log("FILTERS", vrvOptions.filter);
 
 	//if (!vrvToolkit) {
 	//	console.log("Error: verovio toolkit not available");
@@ -1627,7 +1622,20 @@ function displayPreviousWork(id) {
 //
 
 function downloadMeiData(event) {
-	var data = vrvToolkit.getMEI(0, 1);
+	vrvWorker.getMEI()
+	.then(function(data) {
+		data = data.replace(/\btype=".*?"/g, "");
+		saveMei(data, "ID.mei");
+	});
+}
+
+
+//////////////////////////////
+//
+// saveMei --
+//
+
+function saveMei(data, filename) {
 	var link = document.createElement("a");
 	link.href = "data:text/octet-stream;base64," + btoa(unescape(encodeURIComponent(data)));
 	var setting = RSETTINGS[ID];
@@ -1637,10 +1645,10 @@ function downloadMeiData(event) {
 			var dataurl = scoredata.DATAURL.replace(/.*\//, "").replace(/\.krn/, ".mei");
 			link.download = dataurl;
 		} else {
-			link.download = ID + ".mei";
+			link.download = filename;
 		}
 	} else {
-		link.download = ID + ".mei";
+		link.download = filename;
 	}
 	document.body.appendChild(link);
 	link.click();
@@ -1916,12 +1924,10 @@ function processCssTextState() {
 
 var MusicTimeout = null;
 function processMusicSearch(event) {
-console.log("GOT HERE IN PROCESSMUSIC SEARCH");
 	var queryElement = document.querySelector("#query");
 	var pitchQueryElement = document.querySelector("#query-pitch");
 	var intervalQueryElement = document.querySelector("#query-interval");
 	var rhythmQueryElement = document.querySelector("#query-rhythm");
-console.log("PITCH QUERY ELEMENT", pitchQueryElement);
 
 	var query = "";
 	var pitchQuery = "";
@@ -1964,7 +1970,6 @@ console.log("PITCH QUERY ELEMENT", pitchQueryElement);
 
 	clearTimeout(MusicTimeout);
 	LAST_QUERY_MUSIC = queryobj;
-console.log("LAST QUERY MUSIC = ", queryobj);
 	clearTimeout(MusicTimeout);
 	MusicTimeout = setTimeout(function() {
 		// Wait 0.5 seconds after stop typing to do search

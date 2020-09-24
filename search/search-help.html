@@ -2,9 +2,15 @@
 ---
 <html lang="en">
 <head>
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css?family=Simonetta" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="normalize.css"/>
+<link rel="stylesheet" type="text/css" href="josquin-style.css"/>
+<!-- vim: set ts=3: -->
+
 <style>
 .qaz {
-   color:#2b75af;
+   color: #2b75af;
    font-weight: 700;
    font-family: Courier,monospace;
    font-size:90%;
@@ -14,42 +20,80 @@
 }
 
 .entry {
-  color: #d7ab5b;
+  color: #c2ab6c;
   font-family: "Simonetta", "serif";
   font-size: 110%;
   font-weight: 700;
   padding-top: 52px;
   margin-bottom: 31px;
 }
+
+table.features td:nth-child(2) {
+	vertical-align: top;
+}
+
+body {
+	width: 800px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: white;
+	font-family: "Simonetta", "serif";
+	-webkit-font-smoothing: antialiased;
+}
+
+h2 {
+	color: #c2ab6c;
+	font-family: "Simonetta", "serif";
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 0;
+	margin-bottom: 0px;
+}
+
+h3 {
+	color: #c2ab6c;
+	font-family: "Simonetta", "serif";
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 0;
+	margin-bottom: 0px;
+}
+
 </style>
 <title>Search Help</title>
-{% include_relative usual-head-contents.html %}
 
 <body>
 
-<div class="page container" id="search-page">
-<div id="content">
+<h2>Search help</h2>
 
-<article style="margin-left:-140px; margin-top:-50px;" class="about">
+<div style="width:500px; margin-top:10px;">
 
-<table class="xtra" width=500 cellpadding=0 cellspacing=0>
-<tr valign=baseline><td width=100%>
-<h2 class="brown-heading">Searching the Tasso in Music database</h2>
-</td><td>
-</td></tr></table>
+For text searches, type any full or partial word to highlight words
+in the score.  Sequences of words are not currently allowed.  Text
+searching is independent from music searching.  For music searches,
+please follow the instructions below. Note that music searches can
+be combined with one another (i.e., you can search by pitch, interval,
+and rhythm at the same time in any combination).
 
-<p style="margin-top:0px;">
-<table width=500 cellpadding=0 cellspacing=2>
+</div>
 
+<h2>Melodic searching</h2>
+
+<p>
+<table class="features" width=500 cellpadding=0 cellspacing=2>
+
+<!-- PITCH ---------------------------------------------------------------- -->
 <tr>
    <td>
    <span class=entry>Pitch</span>
    </td>
-   <td colspan=2>
+   <td>
       <span class="qaz">a</span><small>&nbsp;&nbsp;</small>through<small>&nbsp;&nbsp;</small><span class="qaz">g</span>
    </td>
+   <td>
+		Diatonic pitch names (any chromatic inflection).
+   </td>
 </tr>
-
 <tr valign=baseline>
    <td>
    </td>
@@ -57,80 +101,115 @@
       <span class="qaz">n</span>, <span class="qaz">#</span>, <span class="qaz">-</span>
    </td>
    <td>
-      specify a note's quality: natural, sharp, flat
+      Optional chromatic quality (natural, sharp, flat).
    </td>
 </tr>
-
 <tr valign=baseline>
    <td></td>
    <td><span class="qaz">r</span></td>
    <td>
-     rest
+     Rest.
+   </td>
+</tr>
+
+<!-- INTERVAL ------------------------------------------------------------- -->
+
+<tr>
+   <td>
+   <span class=entry>Interval</span>
+   </td>
+   <td>
+      <span class="qaz">1</span>
+   </td>
+   <td>
+		Repeated note (but can have a chromatic alteration).
+   </td>
+</tr>
+
+<tr>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">P1</span>
+   </td>
+   <td>
+		Repeated note, or perfect unison (with same accidental).
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">2</span>, <span class="qaz">-2</span>
+   </td>
+   <td>
+      Up a second or down a second (can be major, minor, augmented, or diminished).
+   </td>
+</tr>
+
+<tr valign=baseline>
+   <td>
+   </td>
+   <td>
+      <span class="qaz">M2</span>, <span class="qaz">-M2</span>
+   </td>
+   <td>
+      Up a second or down a major second.
    </td>
 </tr>
 
 <tr valign=baseline>
    <td></td>
-   <td><span class="qaz">*</span></td>
    <td>
-     any single pitch<br><br>
+		<span class="qaz">3</span>, <span class="qaz">-3</span>
+	</td>
+   <td>
+     Up third or down a third (can be major, minor, augmented or diminished)..
    </td>
 </tr>
 
 <tr valign=baseline>
+   <td></td>
    <td>
-   <span class=entry>Interval</span>
-   </td>
+		<span class="qaz">m3</span>, <span class="qaz">-m3</span>
+	</td>
    <td>
-   <span class="qaz">1</span>,&nbsp;<span class="qaz">2</span>,&nbsp;<span class="qaz">3</span>,&nbsp;etc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   </td>
-   <td valign=baseline>
-   unison, 2nd, 3rd, etc. (e.g., <span class="qaz">5</span> <span class="qaz">5</span> <span class="qaz">2</span> <span class="qaz">2</span>)
+     Up third or down a minor third.
    </td>
 </tr>
 
 <tr valign=baseline>
+   <td></td>
    <td>
-   </td>
+		<span class="qaz">P4</span>, <span class="qaz">-A4</span>
+	</td>
    <td>
-   <span class="qaz">+</span>, <span class="qaz">-</span>
-   </td>
-   <td valign=baseline>
-   ascending, descending<br>
-<table style="margin-left:20px;" cellpadding=0 cellspacing=0>
-<tr><td style="padding-right:20px;">
-      <span class="qaz">+5</span> <span class="qaz">-2</span>
-   </td>
-   <td> 
-       = &#8593;5th, &#8595;2nd <br>
-   </td>
-</tr>
-<tr>
-<td>
-   <span class="qaz">+</span>
-</td>
-<td>
-= any ascending interval
-</td>
-</tr>
-</table>
-
-	</ul>
+     Up a perfect fourth, down an augmented fourth.
    </td>
 </tr>
 
 <tr valign=baseline>
+   <td></td>
    <td>
-   </td>
+		<span class="qaz">P5</span>, <span class="qaz">-d5</span>
+	</td>
    <td>
-   <span class="qaz">M</span>, <span class="qaz">m</span>, <span class="qaz">d</span>, <span class="qaz">a</span>
-   </td>
-   <td valign=baseline>
-   major, minor, diminished, augmented (e.g.,&nbsp;<span style="white-space:nowrap;" class="qaz">-m3&nbsp;+d4</span>)
-   <br><br>
+     Up a perfect fifth, down a diminished fifth.
    </td>
 </tr>
 
+<tr valign=baseline>
+   <td></td>
+   <td>
+		<span class="qaz">8</span>, <span class="qaz">-8</span>
+	</td>
+   <td>
+     Up or down an octave.
+   </td>
+</tr>
+
+<!-- RHYTHM --------------------------------------------------------------- -->
 <tr valign=baseline>
    <td>
    <span class=entry>Rhythm</span>&nbsp;&nbsp;&nbsp;
@@ -143,11 +222,9 @@
 	<span class="qaz">8</span>
    </td>
    <td valign=baseline>
-	breve, whole, half, quarter, eighth.
+	breve, whole, half, quarter, eighth (both pitches and rests).
    </td>
 </tr>
-
-
 <tr valign=baseline>
    <td>
    </td>
@@ -155,44 +232,128 @@
 	<span class="qaz">.</span>
    </td>
    <td valign=baseline>
-	augmentation dot (e.g., <span class="qaz">2. 4</span>)
+	augmentation dot (e.g., <span class="qaz">2.</span> for a dotted half note)
    </td>
 </tr>
 
 </table>
 
-<br>
 
-<span class=entry>Tandem&nbsp;Searching</span><br>
-	Search for multiple parameters simultaneously:
+<h3>Sample melodic searches</h3>
 
-<ul style="margin-left:30px; margin-top:-10px;">
-<li style="font-size:100%; color:black;"> Two successive Cs an octave apart<br>
-      <span style="margin-left:30px;">
-	<span style="font-size:100%" class="entry">Pitch</span>: <span class="qaz">c</span> <span class="qaz">c</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<span style="font-size:100%" class="entry">Interval</span>: <span class="qaz">8</span>
-      </span>
-<li style="margin-top:15px; color:black; font-size:100%;">
-	The motive <img valign=middle width=120 src=searchexample.svg> 
-         beginning on A<br>
-      <span style="margin-left:30px;">
-	<span style="font-size:100%;" class="entry">Pitch</span>: <span class="qaz">a</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<span style="font-size:100%" class="entry">Interval</span>: <span class="qaz">-2</span> <span class="qaz">-2</span> <span class="qaz">-2</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<span style="font-size:100%" class="entry">Rhythm</span>: <span class="qaz">1442</span>
-      </span>
+<style>
+
+table.examples {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 500px;
+}
+
+table.examples td:first-child {
+	padding-right: 10px;
+}
+
+table.examples td {
+	vertical-align: top;
+}
+
+</style>
+
+
+
+<table class="examples">
+
+<tr>
+	<td><span class="qaz">cdefg</span></td>
+	<td>
+		(in pitch search box) Diatonic pitch classes C, D,
+		E, F, and G in sequence with any duration. (spaces
+		between notes are optional).  This will also match
+		to C, D, E-flat, F, G, since it will allow any chromatic inflections.
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">cdefg</span></td>
+	<td>
+		(in interval search box) This search will be treated as
+		the diatonic interval search "2222".
+	</td>
+</tr>
+
+<tr>
+	<td><span style="white-space:nowrap;" class="qaz">cndne-fngn</span></td>
+	<td>
+		(in pitch search box) Search for C-natural, D-natural,
+		E-flat, F-natural, and G-natural in sequence.
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">cndne-fngn</span></td>
+	<td>
+		(in interval search box) This search will convert automatically 
+		to the chromatic interval search "M2m2M2M2".
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">2-31</span></td>
+	<td>
+		(in interval search box) Up a second, 
+		down a third, then a repeated pitch (with any
+		chromatic inflections).
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">M2-m3P1</span></td>
+	<td>
+		(in interval search box) Up a major second, 
+		down a minor third, then a repeated pitch (with
+		specific chromatic inflections).
+	</td>
+</tr>
+
+<tr>
+	<td><span class="qaz">1442</span></td>
+	<td>
+		(in rhythm search box) Whole note (or rest),
+		two quarter notes (or rests), then a half note (or rest).
+	</td>
+</tr>
 
 <!--
-<li style="margin-left:-30px; margin-top:15px;"> Use <span class="qaz">and</span> to search for works that contain two or more strings:
-<br>
-<span style="margin-left:60px;">
-   <span style="font-size:90%;" class=entry>Pitch</span>: <span class="qaz">agfe and efga</span>
-</span>
+<tr>
+	<td><span class="qaz">2c4def1g</span></td>
+	<td>
+		(in pitch search box) Half-note C, quarter note D,
+		E with any rhythm, F, whole-note G.  Pitches and
+		rhythms can be interleaved in pitch searches.  Place
+		the rhythm before the pitch.  Do not put spaces
+		between a rhythm and its pitch, but spaces between notes
+		are optional.  If a note does not have
+		a rhythm, then it will match to any rhythm.
+	</td>
+</tr>
 -->
 
-</ul>
+<tr>
+	<td><span class="qaz">ceg</span> / <span class="qaz">33</span></td>
+	<td>
+
+		(in pitch / interval search boxes) Search for
+		C, E, and G in the pitch search box.  Enter "33" in the 
+		interval search box to require the C-E interval to be
+		a third (instead of a sixth) and E-G to be a third
+		(instead of a sixth).
+
+	</td>
+</tr>
+
+
+</table>
+
 
 <table class="xtra" width=500 cellpadding=0 cellspacing=0>
 <tr valign=baseline><td width=100%>
@@ -201,9 +362,6 @@
 </td></tr></table>
 
 
-</article>
-</div>
-</div>
 
 </body>
 </html>

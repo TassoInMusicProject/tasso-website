@@ -48,6 +48,16 @@ h2 {
 	padding-top: 0;
 	margin-bottom: 0px;
 }
+
+h3 {
+	color: #c2ab6c;
+	font-family: "Simonetta", "serif";
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 0;
+	margin-bottom: 0px;
+}
+
 </style>
 <title>Search Help</title>
 
@@ -58,11 +68,15 @@ h2 {
 <div style="margin-top:10px;">
 
 For text searches, type any full or partial word to highlight words
-in the score.  Phrases are not currently allowed.  Music searches
-are independent of text searches: there are three features that can
-be mixed and matched:
+in the score.  Sequences of words are not currently allowed.  Text
+searching is independent from music searching.  For music searches,
+please follow the instructions below. Note that music searches can
+be combined with one another (i.e., you can search by pitch, interval,
+and rhythm at the same time in any combination).
 
 </div>
+
+<h2>Melodic searching</h2>
 
 <p>
 <table class="features" width=500 cellpadding=0 cellspacing=2>
@@ -70,7 +84,7 @@ be mixed and matched:
 <!-- PITCH ---------------------------------------------------------------- -->
 <tr>
    <td>
-   <span class=entry>Pitches</span>
+   <span class=entry>Pitch</span>
    </td>
    <td>
       <span class="qaz">a</span><small>&nbsp;&nbsp;</small>through<small>&nbsp;&nbsp;</small><span class="qaz">g</span>
@@ -170,7 +184,7 @@ be mixed and matched:
 		<span class="qaz">P4</span>, <span class="qaz">-A4</span>
 	</td>
    <td>
-     Up a perect fourth, down an augmented fourth.
+     Up a perfect fourth, down an augmented fourth.
    </td>
 </tr>
 
@@ -180,7 +194,7 @@ be mixed and matched:
 		<span class="qaz">P5</span>, <span class="qaz">-d5</span>
 	</td>
    <td>
-     Up a perect fifth, down a diminished fifth.
+     Up a perfect fifth, down a diminished fifth.
    </td>
 </tr>
 
@@ -207,7 +221,7 @@ be mixed and matched:
 	<span class="qaz">8</span>
    </td>
    <td valign=baseline>
-	breve, whole, half, quarter, eighth.
+	breve, whole, half, quarter, eighth (both pitches and rests).
    </td>
 </tr>
 <tr valign=baseline>
@@ -217,19 +231,14 @@ be mixed and matched:
 	<span class="qaz">.</span>
    </td>
    <td valign=baseline>
-	augmentation dot (e.g., <span class="qaz">2. 4</span>)
+	augmentation dot (e.g., <span class="qaz">2.</span> for a dotted half note)
    </td>
 </tr>
 
 </table>
 
 
-<h2>Example music searches</h2>
-
-Spaces are usually optional in the search fields, as demonstrated
-in the following examples.  Searches in separate features can also 
-be done at the same time, such as searching for C, D, E, F, G, that starts
-with a whole note on C, by adding "1" in the rhythm search box.
+<h3>Sample melodic searches</h3>
 
 <style>
 
@@ -258,15 +267,15 @@ table.examples td {
 		(in pitch search box) Diatonic pitch classes C, D,
 		E, F, and G in sequence with any duration. (spaces
 		between notes are optional).  This will also match
-		to C, D, E-flat, F, G, since any chromatic inflection
-		is allowed for each note.
+		to C, D, E-flat, F, G, since it will allow any chromatic inflections.
 	</td>
 </tr>
 
 <tr>
 	<td><span class="qaz">cdefg</span></td>
 	<td>
-		(in interval search box) Converted to the diatonic interval sequence "2222".
+		(in interval search box) This search will be treated as
+		the diatonic interval search "2222".
 	</td>
 </tr>
 
@@ -281,36 +290,38 @@ table.examples td {
 <tr>
 	<td><span class="qaz">cndne-fngn</span></td>
 	<td>
-		(in interval search box) Converted to the chromatic interval sequence "M2m2M2M2".
+		(in interval search box) This search will convert automatically 
+		to the chromatic interval search "M2m2M2M2".
 	</td>
 </tr>
 
 <tr>
 	<td><span class="qaz">2-31</span></td>
 	<td>
-		(in interval search box) up a diatonc step, then
-		down a diatonic third then repeat the pitch (chromatic
-		alteraion allowed).
+		(in interval search box) Up a second, 
+		down a third, then a repeated pitch (with any
+		chromatic inflections).
 	</td>
 </tr>
 
 <tr>
 	<td><span class="qaz">M2-m3P1</span></td>
 	<td>
-		(in interval search box) Up a major second, then
-		down a minor third and repeat the note without a
-		change in chromatic alteration.
+		(in interval search box) Up a major second, 
+		down a minor third, then a repeated pitch (with
+		specific chromatic inflections).
 	</td>
 </tr>
 
 <tr>
 	<td><span class="qaz">1442</span></td>
 	<td>
-		(in rhythm search box) Whole note (or rest), then
-		two quarter notes then a half note.
+		(in rhythm search box) Whole note (or rest),
+		two quarter notes (or rests), then a half note (or rest).
 	</td>
 </tr>
 
+<!--
 <tr>
 	<td><span class="qaz">2c4def1g</span></td>
 	<td>
@@ -323,16 +334,92 @@ table.examples td {
 		a rhythm, then it will match to any rhythm.
 	</td>
 </tr>
+-->
 
 <tr>
 	<td><span class="qaz">ceg</span> / <span class="qaz">33</span></td>
 	<td>
-		(in pitch and interval search boxes) Search for C, E, and G in sequence,
-		with the requirement that the E is a third above the C and the G is
-		a third above the E.
+
+		(in pitch / interval search boxes) Search for
+		C, E, and G in the pitch search box.  Enter "33" in the 
+		interval search box to require the C-E interval to be
+		a third (instead of a sixth) and E-G to be a third
+		(instead of a sixth).
+
 	</td>
 </tr>
 
+
+</table>
+
+<h2>Harmonic searching</h2>
+
+<p>
+<table class="features" width=500 cellpadding=0 cellspacing=2>
+
+<!-- PITCH ---------------------------------------------------------------- -->
+
+<tr style="vertical-align: baseline;">
+   <td style="width: 60px;">
+   <span class=entry>Pitch</span>
+   </td>
+   <td style="width:60px; padding-top:3px;">
+      <span class="qaz">(ace)<span class="qaz"></span>
+   </td>
+   <td style="padding-left:5px;">
+		Parentheses indicate pitches that must sound at the same time.
+   </td>
+</tr>
+
+<tr style="vertical-align: baseline;">
+   <td style="width: 60px;">
+   <span class=entry></span>
+   </td>
+   <td style="width:60px; padding-top:3px;">
+      <span class="qaz">(=ace)<span class="qaz"></span>
+   </td>
+   <td style="padding-left:5px;">
+		Adding an equals sign requires that only the given pitches be
+		present in the vertical sonority.
+   </td>
+</tr>
+
+<tr style="vertical-align: baseline;">
+   <td style="width: 60px;">
+   <span class=entry></span>
+   </td>
+   <td style="width:60px; padding-top:3px;">
+      <span class="qaz">(==acce)<span class="qaz"></span>
+   </td>
+   <td style="padding-left:5px;">
+		Adding two equals signs requires an exact number of pitches
+		in the vertical sonority.  In this example, the sonority must have
+		one A, two C's, and one E.
+   </td>
+</tr>
+
+</table>
+
+
+<h2>Mixed harmonic and melodic searching</h2>
+
+<p>
+<table class="features" width=500 cellpadding=0 cellspacing=2>
+
+<!-- PITCH ---------------------------------------------------------------- -->
+
+<tr style="vertical-align: baseline;">
+   <td style="width: 60px;">
+   <span class=entry>Pitch</span>
+   </td>
+   <td style="width:60px; padding-top:3px;">
+      <span class="qaz">g(ace)b<span class="qaz"></span>
+   </td>
+   <td style="padding-left:5px;">
+		Search for the melodic sequence G, A, B, with the pitches
+		C and E occuring at the same time as the A in other voices.
+   </td>
+</tr>
 
 </table>
 
@@ -342,6 +429,7 @@ table.examples td {
 </td><td>
 <button onclick="javascript:window.close();" class="btn btn-brown btn-medium">Close</button>
 </td></tr></table>
+
 
 
 </body>

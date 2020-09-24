@@ -260,5 +260,9 @@ table.verovio-humdrum {
 	width: 100% !important;
 }
 
+#search-results {
+	font-size: 75%;
+	visibility: hidden;
+}
 
 

@@ -30,6 +30,7 @@
 var REPORT = {};
 var SIGLALIST = {};
 var SETTING = {};
+var SEARCHFILTER = "";
 
 var LAST_QUERY_MUSIC = {};
 var LAST_QUERY_TEXT = {};
@@ -38,6 +39,7 @@ var QEVENTS = [];
 var REFRESH = null;
 var TRANSPOSE = "";
 var DISPLAYCGISEARCH = false;
+var ABBREVIATEDMATCHES = false;
 
 var vrvToolkit;
 
@@ -910,6 +912,9 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	}
 
 	var musicsearch = createMusicSearchFilter(musicquery);
+	SEARCHFILTER = musicsearch;
+console.log("SEARCH FILTER SET TO:", SEARCHFILTER);
+
 	var textsearch = createTextSearchFilter(textquery);
 
 	if (!musicsearch.match(/^\s*$/)) {
@@ -1041,8 +1046,60 @@ function notationCallback(id) {
 	prepareQEvents(id);
 	prepareLyricSpaces(id);
 	processCssTextState();
+	processMatches();
 }
 	
+
+//////////////////////////////
+//
+// processMatches --
+//
+
+function processMatches() {
+	if (SEARCHFILTER) {
+		// extract the filtered Humdrum data from verovio, and
+		// pull out the match count from the data and report
+		// search toolbar
+		vrvWorker.getHumdrum()
+		.then(function(humdrumdata) {
+			var data = humdrumdata.match(/[^\r\n]+/g);
+			var count = -1;
+			var matches;
+			for (var i=data.length - 1; i > 0; i--) {
+				matches = data[i].match(/^!!@MATCHES:\s*(\d+)/);
+				if (matches) {
+					count = parseInt(matches[1]);
+					break;
+				}
+			}
+			console.log("COUNT", count);
+			var eresults = document.querySelector("#search-results");
+			if (eresults) {
+				var output = "";
+				if (count < 0) {
+					eresults.style.visibility = "hidden";
+					output = "0 matches";
+				} else if (count == 0) {
+					eresults.style.visibility = "visible";
+					output = "0 matches";
+				} else if (count == 1) {
+					eresults.style.visibility = "visible";
+					output = "1 match";
+				} else {
+					eresults.style.visibility = "visible";
+					output = count + " matches";
+				}
+				eresults.innerHTML = output;
+				// showSearchLinkIcon();
+			}
+		});
+	} else {
+		var eresults = document.querySelector("#search-results");
+		if (eresults) {
+			eresults.style.visibility = "hidden";
+		}
+	}
+}
 
 
 //////////////////////////////
@@ -1972,12 +2029,12 @@ function processMusicSearch(event) {
 	LAST_QUERY_MUSIC = queryobj;
 	clearTimeout(MusicTimeout);
 	MusicTimeout = setTimeout(function() {
-		// Wait 0.5 seconds after stop typing to do search
+		// Wait 0.0 seconds after stop typing to do search
 		// since it takes a while to re-render notation.
 		// Searching can be done indepdently of rendering
 		// in the future to speed the display of results faster.
 		initializeVerovioNotation(null, LAST_QUERY_MUSIC, LAST_QUERY_TEXT);
-	}, 500);
+	}, 0);
 }
 
 

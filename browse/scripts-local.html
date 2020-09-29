@@ -383,16 +383,48 @@ function filterByField(entries, field, value, bound) {
 					found = 1;
 					break;
 				}
+				if ((field[j] === "RIMETITLE") && entries[i].SETTINGTITLE) {
+					// also search "SETTINGTITLE"
+					if (entries[i]["SETTINGTITLE"].match(re)) {
+						found = 1;
+						break;
+					}
+				}
 			}
 			if (found) {
 				output.push(entries[i]);
 			}
 		} else {
+			if ((field === "RIMETITLE") && entries[i].SETTINGTITLE) {
+				// also search "SETTINGTITLE"
+				if (entries[i]["SETTINGTITLE"].match(re)) {
+					output.push(entries[i]);
+					continue;
+				}
+			}
 			if (!entries[i][field]) {
 				continue;
 			}
-			if (entries[i][field].match(re)) {
-				output.push(entries[i]);
+			if (entries[i][field] instanceof Array) {
+				// multiple titles
+				for (var k=0; k<entries[i][field].length; k++) {
+					if (entries[i][field][k].match(re)) {
+						output.push(entries[i]);
+						break;
+					}
+					if ((field === "RIMETITLE") && entries[i].SETTINGTITLE) {
+						// also search "SETTINGTITLE"
+						if (entries[i]["SETTINGTITLE"].match(re)) {
+							output.push(entries[i]);
+							break;
+						}
+					}
+				}
+			} else {
+				// single title
+				if (entries[i][field].match(re)) {
+					output.push(entries[i]);
+				}
 			}
 		}
 	}

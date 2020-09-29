@@ -81,10 +81,9 @@ function doMusicSearch() {
 
 	var url = "https://josquin.stanford.edu/cgi-bin/tasso?";
 	url += "C=" + repertory;
-	url += "&pitch="    + pquery;
-	url += "&interval=" + iquery;
-	url += "&rhythm="   + rquery;
-
+	url += "&pitch="    + encodeURIComponent(pquery);
+	url += "&interval=" + encodeURIComponent(iquery);
+	url += "&rhythm="   + encodeURIComponent(rquery);
 
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
@@ -288,13 +287,13 @@ function displaySingleWork(id) {
 	}
 	var extra = "";
 	if (PITCHQUERY) {
-		extra += "&p=" + encodeURI(PITCHQUERY);
+		extra += "&p=" + encodeURIComponent(PITCHQUERY);
 	}
 	if (INTERVALQUERY) {
-		extra += "&i=" + encodeURI(INTERVALQUERY);
+		extra += "&i=" + encodeURIComponent(INTERVALQUERY);
 	}
 	if (RHYTHMQUERY && !RHYTHMQUERY.match(/^\s*$/)) {
-		extra += "&r=" + encodeURI(RHYTHMQUERY);
+		extra += "&r=" + encodeURIComponent(RHYTHMQUERY);
 	} 
 
 	// window.location.href = "/work?id=" + id + extra;
@@ -637,7 +636,7 @@ function printTextResults(results, query) {
 		output += "<td style='padding-left:20px'>";
 
 
-		var extra = "&text=" + encodeURI(query);
+		var extra = "&text=" + encodeURIComponent(query);
 		output += "<a target='_blank' href='/work/?id=" + catalog + extra + "'>";
 		output += title;
 		output += GetCatalogInfo(catalog);
@@ -847,7 +846,7 @@ function copyTextSearchLink() {
 		} else {
 			url += "&";
 		}
-		url += "repertory=" + encodeURI(repertory);
+		url += "repertory=" + encodeURIComponent(repertory);
 	}
 
 	if (text) {
@@ -857,7 +856,7 @@ function copyTextSearchLink() {
 		} else {
 			url += "&";
 		}
-		url += "text=" + encodeURI(text);
+		url += "text=" + encodeURIComponent(text);
 	}
 
 	copyToClipboard(url);
@@ -894,7 +893,7 @@ function copyMusicSearchLink() {
 		} else {
 			url += "&";
 		}
-		url += "repertory=" + encodeURI(repertory);
+		url += "repertory=" + encodeURIComponent(repertory);
 	}
 
 	if (pquery) {
@@ -904,7 +903,7 @@ function copyMusicSearchLink() {
 		} else {
 			url += "&";
 		}
-		url += "pitch=" + encodeURI(pquery);
+		url += "pitch=" + encodeURIComponent(pquery);
 	}
 
 	if (iquery) {
@@ -914,7 +913,7 @@ function copyMusicSearchLink() {
 		} else {
 			url += "&";
 		}
-		url += "interval=" + encodeURI(iquery);
+		url += "interval=" + encodeURIComponent(iquery);
 	}
 
 	if (rquery) {
@@ -924,7 +923,7 @@ function copyMusicSearchLink() {
 		} else {
 			url += "&";
 		}
-		url += "rhythm=" + encodeURI(rquery);
+		url += "rhythm=" + encodeURIComponent(rquery);
 	}
 
 	copyToClipboard(url);

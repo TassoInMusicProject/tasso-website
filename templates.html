@@ -13,8 +13,8 @@
 <script id="rime-template" type="text/x-handlebars-template">
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByNumber(0);" style="cursor:pointer">Solerti&nbsp;#</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span> <span onclick="sortByGenre(1)" class="genre">(poetic genre)</span></th>
+		<th title="Click to sort by Solerti number." onclick="sortByNumber(0);" style="cursor:pointer">Solerti&nbsp;#</th>
+		<th style="cursor:pointer"><span title="Click to sort by title." onclick="sortByText(1)">Title</span> <span onclick="sortByGenre(1)" title="Click to sort by poetic genre." class="genre">(poetic genre)</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -52,8 +52,8 @@
 <script id="gerusalemme-template" type="text/x-handlebars-template">
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByCantoOttava()" style="cursor:pointer">Canto/Ottava</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+		<th title="Click to sort by canto." onclick="sortByCantoOttava()" style="cursor:pointer">Canto/Ottava</th>
+		<th style="cursor:pointer"><span title="Click to sort by title." onclick="sortByText(1)">Title</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -103,8 +103,8 @@
 <script id="conquistata-template" type="text/x-handlebars-template">
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByNumber(0)" style="cursor:pointer">Canto/Ottava</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+		<th>Canto/Ottava</th>
+		<th><span>Title</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -153,8 +153,8 @@
 <script id="aminta-template" type="text/x-handlebars-template">
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByNumber(0)" style="cursor:pointer">Act/scene/verse</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+		<th title="Click to sort by act." onclick="sortByActSceneVerse()" style="cursor:pointer">Act/scene/verse</th>
+		<th style="cursor:pointer"><span title="Click to sort by title." onclick="sortByText(1)">Title</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -205,8 +205,8 @@
 
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByNumber(0)" style="cursor:pointer">ecloga/verse</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+		<th>ecloga/verse</th>
+		<th><span>Title</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -253,8 +253,8 @@
 <script id="rinaldo-template" type="text/x-handlebars-template">
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByNumber(0)" style="cursor:pointer">canto/ottava</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+		<th>canto/ottava</th>
+		<th><span>Title</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -300,8 +300,8 @@
 <script id="torrismondo-template" type="text/x-handlebars-template">
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByNumber(0)" style="cursor:pointer">act/scene/section</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+		<th>act/scene/section</th>
+		<th><span>Title</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}
@@ -350,8 +350,8 @@
 <script id="lagrime-template" type="text/x-handlebars-template">
 	<table class="poem-list">
 	<thead>
-		<th onclick="sortByNumber(0)" style="cursor:pointer">stanza</th>
-		<th style="cursor:pointer"><span onclick="sortByText(1)">Title</span></th>
+		<th>stanza</th>
+		<th><span>Title</span></th>
 	<thead>
 	<tbody>
 	{{#each this}}

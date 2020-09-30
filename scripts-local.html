@@ -356,7 +356,6 @@ function continueProcessingAminta(element) {
 	var tsource = document.querySelector("#aminta-template")
 	                      .textContent;
 	var amintaTemplate = Handlebars.compile(tsource);
-console.log("AMINTASETTING LIST", AMINTASETTINGLIST);
 	var amintalist = makeAmintaVerseList(AMINTASETTINGLIST);
 	element.innerHTML = amintaTemplate(amintalist);
 	showTab("aminta-heading");
@@ -571,7 +570,7 @@ function sortByGenre(index) {
 
 //////////////////////////////
 //
-// sortByCantoOttava --
+// sortByCantoOttava -- Used in the Gerusalemme tab
 //
 
 function sortByCantoOttava() {
@@ -612,6 +611,69 @@ function sortByCantoOttava() {
 		if (Aroman > Broman) { return +1 }
 		if (Aindic < Bindic) { return -1 }
 		if (Aindic > Bindic) { return +1 }
+		return 0;
+
+	});
+	var body = document.querySelector("table.poem-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// sortByActSceneVerse -- Used on the Aminta tab.
+//
+
+function sortByActSceneVerse() {
+	var index = 0;
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = a.cells[index].textContent.trim().replace(/\s+/g, " ");
+		var B = b.cells[index].textContent.trim().replace(/\s+/g, " ");
+		var Aact;
+		var Ascene;
+		var Averse;
+		var Bact;
+		var Bscene;
+		var Bverse;
+
+		var matches = A.match(/^([XVI]+)\s*(\d+)\s+(\d+)/);
+		if (matches) {
+			Aact = convertToIndic(matches[1]);
+			Ascene = parseInt(matches[2]);
+			Averse = parseInt(matches[3]);
+	 	} else {
+			Aact = 9999;
+			Ascene = 9999;
+			Averse = 9999;
+		}
+
+		matches = B.match(/^([XVI]+)\s*(\d+)\s+(\d+)/);
+		if (matches) {
+			Bact = convertToIndic(matches[1]);
+			Bscene = parseInt(matches[2]);
+			Bverse = parseInt(matches[3]);
+	 	} else {
+			Bact = 9999;
+			Bscene = 9999;
+			Bverse = 9999;
+		}
+
+		if (Aact < Bact) { return -1 }
+		if (Aact > Bact) { return +1 }
+		if (Ascene < Bscene) { return -1 }
+		if (Ascene > Bscene) { return +1 }
+		if (Averse < Bverse) { return -1 }
+		if (Averse > Bverse) { return +1 }
 		return 0;
 
 	});

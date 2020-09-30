@@ -527,8 +527,9 @@ function sortByText(index) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A = a.cells[index].innerHTML;
-		var B = b.cells[index].innerHTML;
+		var A = a.cells[index].textContent.replace(/["']/g, "");
+		var B = b.cells[index].textContent.replace(/["']/g, "");
+
 		var result = A.localeCompare(B);
 		return result;
 	});
@@ -554,8 +555,8 @@ function sortByGenre(index) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A = a.cells[index].querySelector(".genre").textContent;
-		var B = b.cells[index].querySelector(".genre").textContent;
+		var A = a.cells[index].querySelector(".genre").textContent.replace(/["']/g, "");
+		var B = b.cells[index].querySelector(".genre").textContent.replace(/["']/g, "");
 		var result = A.localeCompare(B);
 		return result;
 	});
@@ -570,10 +571,11 @@ function sortByGenre(index) {
 
 //////////////////////////////
 //
-// sortByNumber --
+// sortByCantoOttava --
 //
 
-function sortByNumber(index) {
+function sortByCantoOttava() {
+	var index = 0;
 	var data = document.querySelectorAll(".data");
 	var datalist = [];
 	var i;
@@ -581,20 +583,110 @@ function sortByNumber(index) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A;
-		var B;
-		if (a.cells[index].textContent.match(/^\s*\d/)) {
-			A = parseInt(a.cells[index].innerHTML);
-		} else {
-			return +1;
-			A = a.cells[index].textContent;
+		var A = a.cells[index].textContent.trim().replace(/\s+/g, " ");
+		var B = b.cells[index].textContent.trim().replace(/\s+/g, " ");
+		var Aroman;
+		var Aindic;
+		var Broman;
+		var Bindic;
+
+		var matches = A.match(/^([XVI]+)\s*([\d]+)/);
+		if (matches) {
+			Aroman = convertToIndic(matches[1]);
+			Aindic = parseInt(matches[2]);
+	 	} else {
+			Aroman = 9999;
+			Aindic = 9999;
 		}
-		if (b.cells[index].textContent.match(/^\s*\d/)) {
-			B = parseInt(b.cells[index].innerHTML);
-		} else {
-			return -1;
-			B = b.cells[index].textContent;
+
+		matches = B.match(/^([XVI]+)\s*([\d]+)/);
+		if (matches) {
+			Broman = convertToIndic(matches[1]);
+			Bindic = parseInt(matches[2]);
+	 	} else {
+			Broman = 9999;
+			Bindic = 9999;
 		}
+
+		if (Aroman < Broman) { return -1 }
+		if (Aroman > Broman) { return +1 }
+		if (Aindic < Bindic) { return -1 }
+		if (Aindic > Bindic) { return +1 }
+		return 0;
+
+	});
+	var body = document.querySelector("table.poem-list tbody");
+	body.innerHTML = "";
+	for (i=0; i<datalist.length; i++) {
+		body.appendChild(datalist[i]);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// convertToIndic -- Roman number to indic.  Using simple algorithm for now.
+//    Uppercase presumed.
+//
+
+function convertToIndic(value) {
+	if (value === "I") { return 1; }
+	if (value === "II") { return 2; }
+	if (value === "III") { return 3; }
+	if (value === "IV") { return 4; }
+	if (value === "V") { return 5; }
+	if (value === "VI") { return 6; }
+	if (value === "VII") { return 7; }
+	if (value === "VIII") { return 8; }
+	if (value === "IX") { return 9; }
+	if (value === "X") { return 10; }
+	if (value === "XI") { return 11; }
+	if (value === "XII") { return 12; }
+	if (value === "XIII") { return 13; }
+	if (value === "XIV") { return 14; }
+	if (value === "XV") { return 15; }
+	if (value === "XVI") { return 16; }
+	if (value === "XVII") { return 17; }
+	if (value === "XVIII") { return 18; }
+	if (value === "XIX") { return 19; }
+	if (value === "XX") { return 20; }
+}
+
+
+
+//////////////////////////////
+//
+// sortByNumber --
+//
+
+function sortByNumber(index) {
+console.log("SORTING BY NUMBER", index);
+	var data = document.querySelectorAll(".data");
+	var datalist = [];
+	var i;
+	for (i=0; i<data.length; i++) {
+		datalist.push(data[i]);
+	}
+	datalist.sort(function(a, b) {
+		var A = a.cells[index].textContent.replace(/[^NSM\d]/g, "");
+		var B = b.cells[index].textContent.replace(/[^NSM\d]/g, "");
+
+		if (A.match(/NSM/)) {
+			A = 99999;
+		} else if (!A) {
+			A = 0;
+		}
+
+		if (B.match(/NSM/)) {
+			B = 99999;
+		} else if (!B) {
+			B = 0;
+		}
+
+		A = parseInt(A);
+		B = parseInt(B);
+
 		if (A < B)      { return -1 }
 		else if (A > B) { return +1 }
 		else            { return 0  }

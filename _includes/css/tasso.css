@@ -235,14 +235,15 @@ footer ul {
 
 footer ul li.logo {
 	margin-right: 0;
+	margin-left: -25px;
 	font-size: 1.45rem;
 	letter-spacing: -1px;
-	word-spacing: 3px;
+	word-spacing: -1px;
 }
 
 footer ul li:not(:first-child) {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 

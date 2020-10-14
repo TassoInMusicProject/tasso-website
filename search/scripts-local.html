@@ -85,11 +85,18 @@ function doMusicSearch() {
 	url += "&interval=" + encodeURIComponent(iquery);
 	url += "&rhythm="   + encodeURIComponent(rquery);
 
+	setTimeout(function () {
+		document.body.classList.add("waiting");
+	}, 0);
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
 		if (request.readyState == XMLHttpRequest.DONE) {
 			console.log("SEARCH RESULTS:", request.responseText);
 			displayResults(request.responseText, {pquery: pquery, iquery: iquery, rquery: rquery});
+			
+			setTimeout(function () {
+				document.body.classList.remove("waiting");
+			}, 10);
 			document.body.style.cursor = "auto";
 		} else if (request.status == 400) {
 			console.log("THERE WAS AN ERROR IN THE SEARCH");

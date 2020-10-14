@@ -4,6 +4,10 @@
  * vim: ts=3
  */
 
+body.waiting * {
+	cursor: progress;
+}
+
 html, body {
 	background-color: #404040;
 	font-family: simonetta;

@@ -7,6 +7,10 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
+	setTimeout(function () {
+		document.body.classList.add("waiting");
+	}, 0);
+
 	HighlightNavigationBar();
 
 	CGI = GetCgiParameters();

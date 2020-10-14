@@ -278,6 +278,9 @@ function displayWorkList(target) {
 
 	element.innerHTML = output;
 	fillInTimeKey();
+	setTimeout(function () {
+		document.body.classList.remove("waiting");
+	}, 10);
 }
 
 
@@ -361,6 +364,9 @@ function displaySingleWork(id, target) {
 			DISPLAYCGISEARCH = false;
 		}, 10);
 	}
+	setTimeout(function () {
+		document.body.classList.remove("waiting");
+	}, 10);
 }
 
 

@@ -8,6 +8,12 @@
 //
 
 document.addEventListener("DOMContentLoaded", function() {
+	setTimeout(function () {
+		document.body.classList.add("waiting");
+	}, 0);
+	setTimeout(function () {
+		document.body.classList.remove("waiting");
+	}, 2000);
 	displayVariorumDate();
 	CGI = GetCgiParameters();
 	var id = "";

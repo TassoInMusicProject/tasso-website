@@ -876,14 +876,8 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	displayMensurationState();
 	displayTextState();
 
+	// If filters is empty, it will be deleted later.
 	vrvOptions.filter = [];
-
-	//var target = document.querySelector("#" + targetid);
-	//if (!target) {
-	//	console.log("Cannot find target id:", targetid);
-	//	return;
-	//}
-	//target.style.marginTop = "20px";
 
 	var kcount = 0;
 	var tcount = 0;
@@ -922,18 +916,22 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 
 	var textsearch = createTextSearchFilter(textquery);
 
+	// Add music search filter:
 	if (!musicsearch.match(/^\s*$/)) {
 		vrvOptions.filter.push(musicsearch);
 	}
+
+	// Add text search filter:
 	if (!textsearch.match(/^\s*$/)) {
 		vrvOptions.filter.push(textsearch);
 	}
 
+	// Add URL parameter filter (for analysis usually):
 	if (CGI.filter) {
-		// content += "!!!filter: " + CGI.filter + "\n";
-		vrvOptions.filter.push = CGI.filter;
+		vrvOptions.filter.push(CGI.filter);
 	}
 
+	// Add transposition:
 	if (TRANSPOSE) {
 		vrvOptions.filter.push("transpose -t " + TRANSPOSE);
 	}

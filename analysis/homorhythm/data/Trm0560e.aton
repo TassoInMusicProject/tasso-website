@@ -1,0 +1,243 @@
+@HOMOPHONIC:	!!!COM: Pordenon, Marco Antonio
+!!!CDT:
+!!!PTL: Il primo libro de madrigali a quattro voci
+!!!PPP: Venice
+!!!PPR: Angelo Gardano
+!!!PDT: 1580
+!!!RISM: P 5106
+!!!rime: 560
+!!!OTL: Mentre mia stella miri (i.e., Tarquinia se rimiri, Rime 560)
+!!!AGN: Madrigal
+!!!SCT: Trm0560e
+!!!SCA: Trm0560e
+!!!original-voices: 4
+!!!extant-voices: 4
+!!!complete: Y
+!!!final: E
+**kern	**text	**kern	**text	**kern	**text	**kern	**text	**color
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1	*
+*I"Basso	*	*I"Tenore	*	*I"Alto	*	*I"Canto	*	*
+*I'B	*	*I'T	*	*I'A	*	*I'C	*	*
+*oclefF4	*	*oclefC4	*	*oclefC3	*	*oclefC1	*	*
+*clefF4	*	*clefGv2	*	*clefG2	*	*clefG2	*	*
+*k[]	*	*k[]	*	*k[]	*	*k[]	*	*
+*C:	*	*C:	*	*C:	*	*C:	*	*
+*omet(C|)	*	*omet(C|)	*	*omet(C|)	*	*omet(C|)	*	*
+*M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*	*
+=1	=1	=1	=1	=1	=1	=1	=1	=1
+0r	.	0r	.	1e	Men-	2r	.	black
+.	.	.	.	.	.	2b	Men-	black
+.	.	.	.	2d	-tre,	2.dd	-tre,	black
+.	.	.	.	2g	mia	.	.	black
+.	.	.	.	.	.	4b	mia	black
+=2	=2	=2	=2	=2	=2	=2	=2	=2
+1r	.	1r	.	4f#X	stel-	4a	stel-	black
+.	.	.	.	4g	-la,	4dd	-la,	black
+.	.	.	.	2a	mi-	2cc	mi-	black
+1E	Men-	1B	Men-	2g#X	-ri,	2b	-ri,	red
+.	.	.	.	2e	Men-	2g#X	Men-	chartreuse
+=3	=3	=3	=3	=3	=3	=3	=3	=3
+2D	-tre,	2.d	-tre,	2f#X	-tre,	2a	-tre,	red
+2G	mia	.	.	2g	mia	4b	mia	red
+.	.	4B	mia	.	.	2dd	stel-	chartreuse
+4F#X	stel-	4A	stel-	4a	stel-	.	.	red
+4G	-la,	4d	-la,	4g	-la	4b	-la	red
+2A	mi-	2c	mi-	2e	mi-	[2a	mi-	red
+=4	=4	=4	=4	=4	=4	=4	=4	=4
+1E	-ri	1B	-ri,	0e	-ri,	2a]	.	red
+.	.	.	.	.	.	2g#X	-ri,	black
+2A	I	2c	I	.	.	1r	.	black
+4A	bei	4c	bei	.	.	.	.	black
+4G	ce-	4B	ce-	.	.	.	.	black
+=5	=5	=5	=5	=5	=5	=5	=5	=5
+4.F	-le-	2A	-le-	4r	.	2r	.	black
+.	.	.	.	2a	I	.	.	black
+8G	.	.	.	.	.	.	.	black
+4A	.	2c	-sti	.	.	2ee	I	red
+4c	-sti	.	.	2g	bei	.	.	chartreuse
+2B-X	gi-	2d	gi-	.	.	4dd	bei	red
+.	.	.	.	4f	ce-	4dd	ce-	chartreuse
+2A	-ri,	4e	-ri,	4a	-le-	4.cc	-le-	red
+.	.	4c	I	[4e	-sti	.	.	black
+.	.	.	.	.	.	8dd	.	black
+=6	=6	=6	=6	=6	=6	=6	=6	=6
+1r	.	4c	bei	4e]	.	4ee	.	black
+.	.	4A	ce-	2a	gi-	4cc	-sti	black
+.	.	4e	-le-	.	.	2b	gi-	black
+.	.	4e	-sti	4g	-ri,	.	.	black
+2A	I	2c	gi-	2e	I	4a	-ri,	red
+.	.	.	.	.	.	4cc	I	chartreuse
+4G	bei	4d	-ri,	4g	bei	4b	bei	red
+4G	ce-	4B	I	4d	ce-	4b	ce-	red
+=7	=7	=7	=7	=7	=7	=7	=7	=7
+4.F	-le-	4c	bei	4f	-le-	4a	-le-	red
+.	.	4A	ce-	4f	-sti	2cc	-sti	red
+8G	.	.	.	.	.	.	.	chartreuse
+4A	.	4A	-le-	4e	gi-	.	.	red
+4F	-sti	4A	-sti	4d	.	2a	gi-	red
+1E	gi-	4c	gi-	1e	.	.	.	red
+.	.	8BL	.	.	.	8g#iL	.	black
+.	.	8AJ	.	.	.	8f#iJ	.	black
+.	.	2B	.	.	.	2g#i	.	black
+=8	=8	=8	=8	=8	=8	=8	=8	=8
+2AA	-ri,	2A	-ri,	2c#X	-ri,	2a	-ri,	red
+2A	Il	2c	Il	2e	Il	4r	.	red
+.	.	.	.	.	.	4a	Il	chartreuse
+4F	cie-	4A	cie-	4d	cie-	4a	cie-	red
+4E	-lo es-	4B	-lo es-	4e	-lo es-	4g	-lo es-	red
+4D	-ser	4d	-ser	4f	-ser	4a	-ser	red
+4F	vor-	4d	vor-	4a	vor-	4a	vor-	red
+=9	=9	=9	=9	=9	=9	=9	=9	=9
+2C	-re-	2e	-re-	2g	-re-	2cc	-re-	red
+2G	-i,	2d	-i,	2g	-i,	2b	-i,	red
+2r	.	2r	.	2r	.	2r	.	red
+2A	Il	2c	Il	2e	Il	2a	Il	red
+=10	=10	=10	=10	=10	=10	=10	=10	=10
+4F	cie-	4A	cie-	4d	cie-	4a	cie-	red
+4E	-lo es-	4B	-lo	4e	-lo es-	4g	-lo es-	red
+4D	-ser	4d	es-	4f	-ser	4a	-ser	red
+4F	vor-	4d	-ser	4a	vor-	4a	vor-	red
+2C	-re-	2e	vor-	2g	-re-	2cc	-re-	red
+4G	-i;	2d	-rei;	2g	-i;	2b	-i;	red
+4G	Per-	.	.	.	.	.	.	black
+=11	=11	=11	=11	=11	=11	=11	=11	=11
+4A	-ché	4r	.	4r	.	1r	.	black
+4E	tu	4c	Per-	4g	Per-	.	.	red
+4F	ri-	2c	-ché,	4a	-ché,	.	.	red
+4A	-vol-	.	.	4e	per-	.	.	red
+2G#X	-ges-	2r	.	2.e	-ché	2b	Per-	red
+4A	-si,	4r	.	.	.	2cc	-ché,	red
+4A	Per-	4e	Per-	[4c	tu	.	.	red
+=12	=12	=12	=12	=12	=12	=12	=12	=12
+2F	-ché	2f	-ché	4c]	.	2a	per-	red
+.	.	.	.	2d	ri-	.	.	chartreuse
+2G	tu	2d	tu	.	.	4b	-ché	red
+.	.	.	.	2B	-vol-	4b	tu	chartreuse
+2E	ri-	2e	ri-	.	.	2g	ri-	red
+.	.	.	.	4c	-ges-	.	.	chartreuse
+2F	-vol-	2c	-vol-	4A	.	2a	-vol-	red
+.	.	.	.	[4c	.	.	.	chartreuse
+=13	=13	=13	=13	=13	=13	=13	=13	=13
+2D	-ges-	2f	-ges-	8c]L	.	2dd	-ges-	red
+.	.	.	.	16B	.	.	.	black
+.	.	.	.	16AJ	.	.	.	black
+.	.	.	.	4B	.	.	.	black
+2C	-si	2e	-si	2c	-si	1g	-si	black
+1c	Fis-	2r	.	1e	Fis-	.	.	black
+.	.	[2c	Fis-	.	.	2g	Fis-	black
+=14	=14	=14	=14	=14	=14	=14	=14	=14
+2A	-so	4c]	.	2e	-so	2a	-so	red
+.	.	4c	-no	.	.	.	.	chartreuse
+2G	ne	2d	ne-	2g	ne	2b	ne	red
+4A	gl'oc-	4c	-gl'oc-	4e	gl'oc-	4cc	gl'oc-	red
+4A	-chi	4c	-chi	4e	-chi	4a	-chi	red
+2E	mie-	2B	mie-	2e	mie-	2g#X	mie-	red
+=15	=15	=15	=15	=15	=15	=15	=15	=15
+1AA	-i	2A	-i	2c#X	-i	2a	-i	red
+.	.	2A	Le	2c#i	Le	2e	Le	red
+1r	.	2d	tue	2d	tue	2f#X	tue	red
+.	.	[2c	dol-	[2e	dol-	[2g	dol-	red
+=16	=16	=16	=16	=16	=16	=16	=16	=16
+0r	.	4c]	.	4e]	.	4g]	.	chartreuse
+.	.	4c	-ci	4e	-ci	4g	-ci	red
+.	.	2d	fa-	2d	fa-	2f	fa-	red
+.	.	2A	-vil-	2c#X	-vil-	2e	-vil-	red
+.	.	2A	-le,	2c#i	-le,	2e	-le,	red
+=17	=17	=17	=17	=17	=17	=17	=17	=17
+2D	Io	2d	Io	1r	.	2f	Io	red
+4E	va-	4B	va-	.	.	4g	va-	red
+4F	-gheg-	4A	-gheg-	.	.	4a	-gheg-	red
+4G	-giar,	4B	-giar,	4r	.	4d	-giar,	red
+4G	Io	4B	Io	4d	Io	4g	Io	red
+4E	va-	4B	va-	4e	va-	4g	vag-	red
+4D	-gheg-	4d	-gheg-	4f	-gheg-	4a	-gheg-	red
+=18	=18	=18	=18	=18	=18	=18	=18	=18
+4C	-giar	4e	-giar	4g	-giar	4cc	-giar	red
+4G	po-	4d	po-	4g	po-	4b	po-	red
+2A	-tes-	2c#X	-tes-	2e	-tes-	2a	-tes-	red
+2D	-si	4d	-si	1f#X	-si	1a	-si	red
+.	.	4A	Mil-	.	.	.	.	black
+2D	Mil-	2d	-le	.	.	.	.	black
+=19	=19	=19	=19	=19	=19	=19	=19	=19
+4G	-le	4B	bel-	2r	.	0r	.	black
+4E	bel-	2cnXi	-lez-	.	.	.	.	black
+4F	-lez-	.	.	4r	.	.	.	black
+4F	-ze	4A	-ze	4d	Mil-	.	.	red
+2E	tue	4B	tue	2g	-le	.	.	red
+.	.	4B	con	.	.	.	.	chartreuse
+2C	con	2c	oc-	2e	bel-	.	.	red
+=20	=20	=20	=20	=20	=20	=20	=20	=20
+4D	oc-	4A	-chi	2f	-lez-	2a	Mil-	red
+4D	-chi	2A	mil-	.	.	.	.	chartreuse
+2BB	mil-	.	.	2d	-ze	4dd	-le	red
+.	.	4G	.	.	.	4b	bel-	chartreuse
+2AA	-le,	2A	-le,	4c	tue	4cc	-lez-	red
+.	.	.	.	4e	con	4cc	-ze	chartreuse
+2E	con	2G#X	con	4e	oc-	4b	tue	red
+.	.	.	.	4e	-chi	4b	con	chartreuse
+=21	=21	=21	=21	=21	=21	=21	=21	=21
+4F	oc-	4A	oc-	4.c	mil-	4a	oc-	red
+4F	-chi	4A	-chi	.	.	4a	-chi	red
+.	.	.	.	8d	.	.	.	chartreuse
+2E	mil-	2B	mil-	2e	.	2g	mil-	red
+2AA	-le,	2A	-le,	2c#X	-le,	4a	-le,	red
+.	.	.	.	.	.	2a	Mil-	black
+2r	.	2r	.	2d	Mil-	.	.	black
+.	.	.	.	.	.	4dd	-le	black
+=22	=22	=22	=22	=22	=22	=22	=22	=22
+0r	.	0r	.	4g	-le	4b	bel-	black
+.	.	.	.	4e	bel-	2cc	-lez-	black
+.	.	.	.	4f	-lez-	.	.	black
+.	.	.	.	4f	-ze	4a	-ze	black
+.	.	.	.	2e	tue	4b	tue	black
+.	.	.	.	.	.	4b	con	black
+.	.	.	.	2c	con	2cc	oc-	black
+=23	=23	=23	=23	=23	=23	=23	=23	=23
+1r	.	1r	.	4d	oc-	4a	-chi	black
+.	.	.	.	4d	-chi	2a	mil-	black
+.	.	.	.	2B	mil-	.	.	black
+.	.	.	.	.	.	4g#i	.	black
+2r	.	4r	.	2A	-le,	2a	-le,	black
+.	.	2A	Mil-	.	.	.	.	black
+2D	Mil-	.	.	2r	.	2r	.	black
+.	.	4d	-le	.	.	.	.	black
+=24	=24	=24	=24	=24	=24	=24	=24	=24
+4G	-le	4B	bel-	2r	.	0r	.	black
+4E	bel-	2c	-lez-	.	.	.	.	black
+4F	-lez-	.	.	4r	.	.	.	black
+4F	-ze	4A	-ze	4d	Mil-	.	.	red
+2E	tue	4B	tue	4g	-le	.	.	red
+.	.	4B	con	4g	bel-	.	.	red
+2C	con	2c	oc-	4e	-lez-	.	.	red
+.	.	.	.	4e	-ze	.	.	chartreuse
+=25	=25	=25	=25	=25	=25	=25	=25	=25
+4D	oc-	4A	-chi	2f	tue	2a	Mil-	red
+4D	-chi	2A	mil-	.	.	.	.	chartreuse
+2BB	mil-	.	.	2d	con	4dd	-le	red
+.	.	4G	.	.	.	4b	bel-	chartreuse
+2AA	-le,	2A	-le,	4c	oc-	4cc	-lez-	red
+.	.	.	.	4e	-chi	4cc	-ze	chartreuse
+2E	con	2G#X	con	2e	mil-	2b	tue	red
+=26	=26	=26	=26	=26	=26	=26	=26	=26
+2.F	oc-	2.A	oc-	2c	-le,	2a	con	red
+.	.	.	.	2f	con	2.a	oc-	black
+4G	.	4B	.	.	.	.	.	black
+4A	.	4c	.	4e	oc-	.	.	red
+4E	-chi	4B	-chi	4e	-chi	4g#X	-chi	red
+2AA	mil-	2c	mil-	2e	mil-	2a	mil-	red
+=27	=27	=27	=27	=27	=27	=27	=27	=27
+0El	-le.	0Bl	-le.	0el	-le.	0g#Xl	-le.	red
+==	==	==	==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [*]
+!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: l = terminal long
+!!!ENC: Emiliano Ricciardi
+!!!END:
+!!!EED: Donnelly, Daniel
+!!!EEV: 2020/07/15
+!!!YEC: Copyright 2018 Emiliano Ricciardi, All Rights Reserved
+!!!ONB: Translated from MusicXML on 2020/07/15
+60.9
+@HOMOPHONIC2:	37.3

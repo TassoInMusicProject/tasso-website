@@ -108,7 +108,7 @@ sub processFile {
 <tr class="sortable">
 
 	<td class="score">
-		<a target="_blank" href="/work?id=$id&filter=homophonic">$score1%</a>
+		<a target="_blank" href="/work?id=$id&filter=homorhythm">$score1%</a>
 	</td>
 
 	<td class="id">
@@ -129,7 +129,7 @@ sub processFile {
 
 <!--
 	<td class="score2">
-		<a target="_blank" href="/work?id=$id&filter=homophonic2">$score2%</a>
+		<a target="_blank" href="/work?id=$id&filter=homorhythm2">$score2%</a>
 	</td>
 -->
 

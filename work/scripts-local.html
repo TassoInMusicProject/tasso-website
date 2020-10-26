@@ -1298,10 +1298,11 @@ function getHumdrum(id) {
 
 	var text = "";
 	var postdata = "";
-	postdata += "\n!!!footer-right: %P";
-	postdata += "\n!!!footer-center: @{SCA}, @{EEV}";
-	postdata += "\n!!!footer-left: @{YEC}";
+	postdata += "\n!!!footer-right: \\n\\n\\n%P";
+	postdata += "\n!!!footer-center: \\n\\n\\n@{SCA}, @{EEV}";
+	postdata += "\n!!!footer-left: \\n\\n\\n@{YEC}";
 	postdata += "\n!!!header-left: @{EED:n}, ed.";
+console.log("POSTDATA", postdata);
 
 	if (sessionStorage[tag]) {
 		var scoreelements = document.querySelectorAll(".musical-content");

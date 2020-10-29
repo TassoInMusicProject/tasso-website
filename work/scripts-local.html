@@ -879,11 +879,13 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	// If filters is empty, it will be deleted later.
 	vrvOptions.filter = [];
 
+	// Get the number of **kern and **text spines for dealing
+	// with part extraction.
 	var kcount = 0;
 	var tcount = 0;
 	var content;
 	[kcount, tcount] = getHumdrumKernCount(targetid);
-	// console.log("KernCount", kcount, "TextCount", tcount);
+	//console.log("KernCount", kcount, "TextCount", tcount);
 
 	if (!kcount) {
 		return;
@@ -964,7 +966,11 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	// add header footer information to data
 
 	if (vrvOptions.filter.length == 0) {
-		delete vrvOptions.filter;
+		// delete vrvOptions.filter;
+		// The filter has to exist and be empty in order for
+		// an old filter to be flushed from some cache.
+		// Deleting an empty filter will not do that.
+		vrvOptions.filter = "";
 	} else if (vrvOptions.filter.length == 1) {
 		vrvOptions.filter = vrvOptions.filter[0];
 	}
@@ -973,6 +979,7 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	vrvOptions.source = targetid;
 
 	displayHumdrum(vrvOptions);
+
 
 	/*
 	vrvToolkit.setOptions(vrvOptions);

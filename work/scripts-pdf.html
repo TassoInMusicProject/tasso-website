@@ -67,8 +67,19 @@ function generatePdfFull(format, orientation) {
 		$('html').css('cursor', 'auto');
 	});
 
+	var selement = document.querySelector("#humdrum-data");
+	var scoredata = selement.textContent;
+	var staffcount = getStaffCount(scoredata);
+
 	// var scale = 110;
 	var scale = 100;
+
+	if (staffcount == 6) {
+		scale = 85;
+	} else if (staffcount == 10) {
+		scale = 90;
+	}
+
 	height /= scale / 100;
 	width  /= scale / 100;
 
@@ -85,7 +96,7 @@ function generatePdfFull(format, orientation) {
 		pageMarginTop          : pageMarginTop,
 		pageMarginBottom       : pageMarginBottom,
 		scale                  : scale,
-//		spacingSystem          : 18,
+// spacingSystem          : 18,
 //		spacingStaff           : 18,
 		justifyVertically      : 1,
 		adjustPageHeight       : 0,
@@ -102,14 +113,13 @@ function generatePdfFull(format, orientation) {
 		font                   : "Leipzig"
 	}
 
-	// var scoredata = EDITOR.getValue().replace(/^\s+/, ""); // from VHV
-	var selement = document.querySelector("#humdrum-data");
-	var scoredata = selement.textContent;
-
-console.log("SCORE ", scoredata);
+	if (staffcount == 6) {
+		vrvOptions.spacingStaff = 0;
+	} else if (staffcount == 10) {
+		vrvOptions.spacingStaff = 4;
+	}
 
 	vrvOptions = cleanOptions2(scoredata, vrvOptions);
-console.log("VRVOPTIONS FOR PRINTING", vrvOptions);
 
 	RSVP.hash({
 		fonts: loadPdfFonts(pdf),
@@ -134,6 +144,7 @@ console.log("VRVOPTIONS FOR PRINTING", vrvOptions);
 		vrvWorker.options = oldOptions;
 	});
 }
+
 
 
 

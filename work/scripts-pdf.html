@@ -10,9 +10,10 @@
 //
 
 function generatePdfFull(format, orientation) {
-	var oldOptions = vrvWorker.options;
+	// var oldOptions = vrvWorker.options;
 	// need to explicitly disable mmOutput = 1 set by the printing process.
-	oldOptions.mmOutput = 0;
+	// oldOptions.mmOutput = 0;
+
 
 	$('html').css('cursor', 'wait');
 	// var format = format ? format : "letter";
@@ -67,14 +68,23 @@ function generatePdfFull(format, orientation) {
 		$('html').css('cursor', 'auto');
 	});
 
+	var vrvPdfOptions = JSON.parse(JSON.stringify(vrvOptions));
+
 	var selement = document.querySelector("#humdrum-data");
 	var scoredata = selement.textContent;
 	var staffcount = getStaffCount(scoredata);
+
+	filters = generateVerovioFilters("humdrum-data", LAST_QUERY_MUSIC, LAST_QUERY_TEXT);
+	for (var i=0; i<filters.length; i++) {
+	    scoredata += "\n!!!filter: " + filters[i] + "\n";
+   }
 
 	// var scale = 110;
 	var scale = 100;
 
 	if (staffcount == 6) {
+		scale = 85;
+	} else if (staffcount == 4) {
 		scale = 85;
 	} else if (staffcount == 10) {
 		scale = 90;
@@ -88,42 +98,42 @@ function generatePdfFull(format, orientation) {
 	var pageMarginLeft = 50;
 	var pageMarginRight = 50;
 
-	var vrvOptions = {
-		pageHeight             : height - pageMarginTop,
-		pageWidth              : width,
-		pageMarginLeft         : pageMarginLeft,
-		pageMarginRight        : pageMarginRight,
-		pageMarginTop          : pageMarginTop,
-		pageMarginBottom       : pageMarginBottom,
-		scale                  : scale,
-// spacingSystem          : 18,
-//		spacingStaff           : 18,
-		justifyVertically      : 1,
-		adjustPageHeight       : 0,
-		breaks                 : "auto",
-		mmOutput               : 1,
-		// justifyIncludeLastPage : 1, // no longer a verovio option?
-		// justifySystemsOnly     : 1, // no longer a verovio option?
-		header                 : "auto",
-		footer                 : "none",
-		barLineWidth           : 0.12,
-		staffLineWidth         : 0.12,
-		usePgFooterForAll      : 1,
-      footer                 : "encoded",
-		font                   : "Leipzig"
-	}
+	vrvPdfOptions.pageHeight             = height - pageMarginTop;
+	vrvPdfOptions.pageWidth              = width;
+	vrvPdfOptions.pageMarginLeft         = pageMarginLeft;
+	vrvPdfOptions.pageMarginRight        = pageMarginRight;
+	vrvPdfOptions.pageMarginTop          = pageMarginTop;
+	vrvPdfOptions.pageMarginBottom       = pageMarginBottom;
+	vrvPdfOptions.scale                  = scale;
+	vrvPdfOptions.justifyVertically      = 1;
+	vrvPdfOptions.adjustPageHeight       = 0;
+	vrvPdfOptions.breaks                 = "auto";
+	vrvPdfOptions.mmOutput               = 1;
+	vrvPdfOptions.header                 = "auto";
+	vrvPdfOptions.footer                 = "none";
+	vrvPdfOptions.barLineWidth           = 0.12;
+	vrvPdfOptions.staffLineWidth         = 0.12;
+	vrvPdfOptions.usePgFooterForAll      = 1;
+   vrvPdfOptions.footer                 = "encoded";
+	vrvPdfOptions.font                   = "Bravura";
+	// vrvPdfOptions.spacingSystem          = 18;
+	// vrvPdfOptions.spacingStaff           = 18;
+	// vrvPdfOptions.justifyIncludeLastPage = 1; // no longer a verovio option?
+	// vrvPdfOptions.justifySystemsOnly     = 1; // no longer a verovio option?
 
 	if (staffcount == 6) {
-		vrvOptions.spacingStaff = 0;
+		vrvPdfOptions.spacingStaff = 0;
+	} else if (staffcount == 4) {
+		vrvPdfOptions.spacingStaff = 0;
 	} else if (staffcount == 10) {
-		vrvOptions.spacingStaff = 4;
+		vrvPdfOptions.spacingStaff = 4;
 	}
 
-	vrvOptions = cleanOptions2(scoredata, vrvOptions);
+	vrvPdfOptions = cleanOptions2(scoredata, vrvPdfOptions);
 
 	RSVP.hash({
 		fonts: loadPdfFonts(pdf),
-		svglist: vrvWorker.renderAllPages(scoredata, vrvOptions)
+		svglist: vrvWorker.renderAllPages(scoredata, vrvPdfOptions)
 	})
 	.then(function(data) {
 		for (var i=0; i < data.svglist.length; i++) {
@@ -137,11 +147,16 @@ function generatePdfFull(format, orientation) {
 	})
 	.finally(function() {
 		// restore the old layout for the VHV  webpage:
-		var force = false;
-		var page = vrvWorker.page;
-		var cleanoldoptions = cleanOptions2(scoredata, oldOptions);
-		vrvWorker.redoLayout(oldOptions, true);
-		vrvWorker.options = oldOptions;
+console.log("OPTIONS FOR REPRINTING", vrvOptions)
+		displayHumdrum(vrvOptions);
+		// var force = false;
+		// var page = vrvWorker.page;
+		// var cleanoldoptions = cleanOptions2(scoredata, vrvOptions);
+		// vrvWorker.redoLayout(vrvOptions, true);
+		// vrvWorker.options = vrvOptionsOptions;
+		// // var cleanoldoptions = cleanOptions2(scoredata, vrvOptions);
+		// // vrvWorker.redoLayout(oldOptions, true);
+		// // vrvWorker.options = oldOptions;
 	});
 }
 
@@ -198,6 +213,9 @@ function cleanOptions2(content, options) {
 			}
 		}
 	}
+
+	delete options.filter;
+	delete options.source;
 
 	return output;
 }

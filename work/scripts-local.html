@@ -861,23 +861,13 @@ function getHumdrumKernCount(humid) {
 }
 
 
-
-//////////////////////////////
+///////////////////////////////
 //
-// initializeVerovioNotation --
+// generateVerovioFilters --
 //
 
-function initializeVerovioNotation(targetid, musicquery, textquery) {
-	if (!targetid) {
-		targetid = "humdrum-data";
-	}
-
-	highlightPartIcon(PART_FILTER);
-	displayMensurationState();
-	displayTextState();
-
-	// If filters is empty, it will be deleted later.
-	vrvOptions.filter = [];
+function generateVerovioFilters(targetid, musicquery, textquery) {
+	var output = [];
 
 	// Get the number of **kern and **text spines for dealing
 	// with part extraction.
@@ -887,23 +877,17 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	[kcount, tcount] = getHumdrumKernCount(targetid);
 	//console.log("KernCount", kcount, "TextCount", tcount);
 
-	if (!kcount) {
-		return;
-	}
-
 	if (PART_FILTER) {
 		var kval = kcount - PART_FILTER + 1;
 		if (kval > 0) {
-			vrvOptions.filter.push("extract -k " + kval);
+			output.push("extract -k " + kval);
 			kcount = 1;
 			tcount = 1;
 		}
 	}
+
 	if (!INCLUDE_TEXT) {
-		vrvOptions.filter.push("extract -I **text");
-		vrvOptions.spacingStaff = 12;
-	} else {
-		vrvOptions.spacingStaff = 9;
+		output.push("extract -I **text");
 	}
 
 	if (!musicquery) {
@@ -920,31 +904,66 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 
 	// Add music search filter:
 	if (!musicsearch.match(/^\s*$/)) {
-		vrvOptions.filter.push(musicsearch);
+		output.push(musicsearch);
 	}
 
 	// Add text search filter:
 	if (!textsearch.match(/^\s*$/)) {
-		vrvOptions.filter.push(textsearch);
+		output.push(textsearch);
 	}
 
 	// Add URL parameter filter (for analysis usually):
 	if (CGI.filter) {
-		vrvOptions.filter.push(CGI.filter);
+		output.push(CGI.filter);
 	}
 
 	// Add transposition:
 	if (TRANSPOSE) {
-		vrvOptions.filter.push("transpose -t " + TRANSPOSE);
+		output.push("transpose -t " + TRANSPOSE);
 	}
 
+	return output;
+}
 
-	//if (!vrvToolkit) {
-	//	console.log("Error: verovio toolkit not available");
-	//	return;
-	//}
+
+
+//////////////////////////////
+//
+// initializeVerovioNotation --
+//
+
+function initializeVerovioNotation(targetid, musicquery, textquery) {
+	if (!targetid) {
+		targetid = "humdrum-data";
+	}
+
+	highlightPartIcon(PART_FILTER);
+	displayMensurationState();
+	displayTextState();
+
+	// Get the number of **kern and **text spines for dealing
+	// with part extraction.
+	var kcount = 0;
+	var tcount = 0;
+	var content;
+	[kcount, tcount] = getHumdrumKernCount(targetid);
+	//console.log("KernCount", kcount, "TextCount", tcount);
+
+	if (!kcount) {
+		return;
+	}
+
+	// If filters is empty, it will be deleted later.
+	// vrvOptions.filter = [];
+	vrvOptions.filter = generateVerovioFilters(targetid, musicquery, textquery);
 
 	vrvOptions.pageHeight = 1000;
+
+	if (!INCLUDE_TEXT) {
+		vrvOptions.spacingStaff = 12;
+	} else {
+		vrvOptions.spacingStaff = 9;
+	}
 
 	if (kcount > 0) {
 		vrvOptions.pageHeight = 230 * kcount + 80 * tcount;

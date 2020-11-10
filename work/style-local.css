@@ -2,6 +2,9 @@
  * vim: ts=3
  */
 
+table.humdrum-verovio {
+	width: 100%;
+}
 
 #contents {
 	padding: 50px;

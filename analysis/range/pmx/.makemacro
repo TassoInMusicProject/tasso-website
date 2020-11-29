@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sun Jun  7 05:27:12 PDT 2015
+# Last Modified: Sun Jun  7 05:27:15 PDT 2015
+# Filename:      makemacro
+# Syntax:        perl 5
+#
+# Description:   Create a SCORE macro which will print all given MUS files.
+#
+# ./makemacro *.mus
+# 
+
+use strict;
+
+my @list = @ARGV;
+
+foreach my $file (sort @list) {
+	$file =~ s/^T[a-z][a-z]//;  # Only 8 characters allowed in MS-DOS filenames.
+   my $base = $file;
+   $base =~ s/\.[^.]*$//;
+   print "RS\n";
+   print "RE $file\n";
+   print "PRINT\n";
+   print "1 $base\n";
+   print "4 0.5 5.0\n";
+   print "G\n";
+   print "\n";
+}
+
+

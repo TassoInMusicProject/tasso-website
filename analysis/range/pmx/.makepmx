@@ -14,7 +14,7 @@ for my $file (@files) {
 	my $basename = $file;
 	$basename =~ s/.*\///;
 	$basename =~ s/-.*//;
-	my $command = "$prange --score $file";
+	my $command = "$prange --score --hover $file";
 	#print "$command\n";
 	my $contents = `$command`;
 	if ($contents =~ /^\s*$/) {

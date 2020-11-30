@@ -1,0 +1,49 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sun Nov 29 12:35:48 PST 2020
+# Last Modified: Sun Nov 29 12:35:50 PST 2020
+# Filename:      makemacro
+# Syntax:        perl 5
+#
+# Description:   SCORE requires short filenames.  This script reconstructs
+#                the original file names for the output EPS files from SCORE.
+# 
+# Usage:          ./.makerename file(s)
+#                 where files(s) are the files to rename.  Files ending in
+#                 *.txt will be used to reconstruct the long names.
+#
+
+use strict;
+use File::Copy qw(move);
+
+my @original = glob("*.txt");
+my %lookup;
+for my $file (@original) {
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.[^.]*$//;
+	my $value = $base;
+	$value =~ s/^[A-Z][a-z][a-z]//;
+	$lookup{$value} = $base;
+}
+
+
+for my $file (@ARGV) {
+	my $ext = "";
+	if ($file =~ /(\.[^.]*)$/) {
+		$ext = $1;
+	}
+	my $base = $file;
+	$base =~ s/.*\///;
+	$base =~ s/\.[^.]*$//;
+	my $value = $lookup{$base};
+	if ($value =~ /^\s*$/) {
+		print STDERR "Warning: no conversion for $file\n";
+		next;
+	}
+	move $file, "$value$ext";
+}
+
+
+

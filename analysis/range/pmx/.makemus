@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sun Nov 29 12:35:48 PST 2020
+# Last Modified: Sun Nov 29 12:35:50 PST 2020
+# Filename:      makemacro
+# Syntax:        perl 5
+#
+# Description:   Convert PMX data files to MUS format, creating filenames that
+#                have only 8 characters in the base of the filename.
+#                
+#
+# ./makemacro *.mus
+# 
+
+use strict;
+
+my $pmx2mus = `which pmx2mus`;
+chomp $pmx2mus;
+die "Cannot find pmx2mus command" if $pmx2mus =~ /^\s*$/;
+
+my @list = @ARGV;
+foreach my $file (sort @list) {
+   my $base = $file;
+   $base =~ s/\.[^.]*$//;
+	$base =~ s/^T[a-z][a-z]//;  # Only 8 characters allowed in MS-DOS filenames.
+	my $command = "cpp $file | perl -pe 's/\\\\n/\\n/g' > z.txt && $pmx2mus z.txt $base.mus && rm z.txt";
+	`$command`;
+}
+
+

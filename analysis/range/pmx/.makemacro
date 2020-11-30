@@ -2,7 +2,7 @@
 #
 # Programmer:    Craig Stuart Sapp <craig.stanford.edu>
 # Creation Date: Sun Jun  7 05:27:12 PDT 2015
-# Last Modified: Sun Jun  7 05:27:15 PDT 2015
+# Last Modified: Sun Nov 29 12:35:59 PST 2020
 # Filename:      makemacro
 # Syntax:        perl 5
 #
@@ -20,7 +20,7 @@ foreach my $file (sort @list) {
    my $base = $file;
    $base =~ s/\.[^.]*$//;
    print "RS\n";
-   print "RE $file\n";
+   print "G $base.mus\n";
    print "PRINT\n";
    print "1 $base\n";
    print "4 0.5 5.0\n";

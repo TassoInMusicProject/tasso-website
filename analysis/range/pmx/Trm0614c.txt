@@ -1,4 +1,5 @@
 #define SVG t 1 1 \n_99%svg%
+SVG <style type="text\css">.bar:hover &#123;color:red;stroke:red&#125;<\style>
 t 2 10 14 1 1 0 0 0 0 -1.35
 _00
 8 1 0 0 0 200
@@ -8,64 +9,150 @@ _00
 14 1 0 2 8
 3 2 2
 3 1 2 0 1
+SVG <g class="bar"><title>1 D4<\title>
 1 2 25 2 0 -1 4 0 0 0 99 0 0 2.85095
+SVG <\g>
+SVG <g class="bar"><title>2 E4s<\title>
 1 2 25 3 0 -1 4 0 0 0 99 0 0 3.36859
+SVG <\g>
+SVG <g class="bar"><title>8 F4s<\title>
 1 2 25 4 0 -1 4 0 0 0 99 0 0 6.47448
+SVG <\g>
+SVG <g class="bar"><title>13 G4s<\title>
 1 2 25 5 0 -1 4 0 0 0 99 0 0 9.06271
+SVG <\g>
+SVG <g class="bar"><title>31 A4s<\title>
 1 2 25 6 0 -1 4 0 0 0 99 0 0 18.3804
+SVG <\g>
+SVG <g class="bar"><title>23 B4s<\title>
 1 2 25 7 0 -1 4 0 0 0 99 0 0 14.2392
+SVG <\g>
+SVG <g class="bar"><title>34 C5s<\title>
 1 2 25 8 0 -1 4 0 0 0 99 0 0 19.9333
+SVG <\g>
+SVG <g class="bar"><title>20 D5s<\title>
 1 2 25 9 0 -1 4 0 0 0 99 0 0 12.6862
+SVG <\g>
+SVG <g class="bar"><title>10 E5s<\title>
 1 2 25 10 0 -1 4 0 0 0 99 0 0 7.50977
+SVG <\g>
+SVG <g class="bar"><title>5 F5s<\title>
 1 2 25 11 0 -1 4 0 0 0 99 0 0 4.92154
+SVG <\g>
 t 1 25 -3 1 1 0 0 0 0 -2
 _00Canto
 1 2 25 2 0 0 4 0 0 -2
 1 2 25 11 0 0 4 0 0 -2
 1 2 25 107 0 1 4 0 0 -1.66
+SVG <g class="bar"><title>3 A3s<\title>
 1 1 73.3333 11 0 -1 4 0 0 0 99 0 0 3.41085
+SVG <\g>
+SVG <g class="bar"><title>1 B3<\title>
 1 1 73.3333 12 0 -1 4 0 0 0 99 0 0 2.69248
+SVG <\g>
+SVG <g class="bar"><title>11 C4s<\title>
 1 2 73.3333 1 0 -1 4 0 0 0 99 0 0 6.28432
+SVG <\g>
+SVG <g class="bar"><title>21 D4s<\title>
 1 2 73.3333 2 0 -1 4 0 0 0 99 0 0 9.87616
+SVG <\g>
+SVG <g class="bar"><title>32 E4s<\title>
 1 2 73.3333 3 0 -1 4 0 0 0 99 0 0 13.8272
+SVG <\g>
+SVG <g class="bar"><title>49 F4s<\title>
 1 2 73.3333 4 0 -1 4 0 0 0 99 0 0 19.9333
+SVG <\g>
+SVG <g class="bar"><title>25 G4s<\title>
 1 2 73.3333 5 0 -1 4 0 0 0 99 0 0 11.3129
+SVG <\g>
+SVG <g class="bar"><title>33 A4s<\title>
 1 2 73.3333 6 0 -1 4 0 0 0 99 0 0 14.1864
+SVG <\g>
+SVG <g class="bar"><title>5 B4s<\title>
 1 2 73.3333 7 0 -1 4 0 0 0 99 0 0 4.12922
+SVG <\g>
+SVG <g class="bar"><title>3 B4s<\title>
 1 2 73.3333 7 0 -1 4 0 0 0 99 0 0 3.41085
+SVG <\g>
+SVG <g class="bar"><title>10 C5s<\title>
 1 2 73.3333 8 0 -1 4 0 0 0 99 0 0 5.92514
+SVG <\g>
+SVG <g class="bar"><title>4 D5s<\title>
 1 2 73.3333 9 0 -1 4 0 0 0 99 0 0 3.77003
+SVG <\g>
 t 1 73.3333 -3 1 1 0 0 0 0 -2
 _00Alto
 1 1 73.3333 11 0 0 4 0 0 -2
 1 2 73.3333 9 0 0 4 0 0 -2
 1 2 73.3333 104 0 1 4 0 0 -1.66
+SVG <g class="bar"><title>7 F3s<\title>
 1 1 121.667 9 0 -1 4 0 0 0 99 0 0 5.75552
+SVG <\g>
+SVG <g class="bar"><title>8 G3s<\title>
 1 1 121.667 10 0 -1 4 0 0 0 99 0 0 6.24441
+SVG <\g>
+SVG <g class="bar"><title>20 A3s<\title>
 1 1 121.667 11 0 -1 4 0 0 0 99 0 0 12.1111
+SVG <\g>
+SVG <g class="bar"><title>12 B3s<\title>
 1 1 121.667 12 0 -1 4 0 0 0 99 0 0 8.19997
+SVG <\g>
+SVG <g class="bar"><title>36 C4s<\title>
 1 2 121.667 1 0 -1 4 0 0 0 99 0 0 19.9333
+SVG <\g>
+SVG <g class="bar"><title>25 D4s<\title>
 1 2 121.667 2 0 -1 4 0 0 0 99 0 0 14.5555
+SVG <\g>
+SVG <g class="bar"><title>16 E4s<\title>
 1 2 121.667 3 0 -1 4 0 0 0 99 0 0 10.1555
+SVG <\g>
+SVG <g class="bar"><title>24 F4s<\title>
 1 2 121.667 4 0 -1 4 0 0 0 99 0 0 14.0666
+SVG <\g>
+SVG <g class="bar"><title>8 G4s<\title>
 1 2 121.667 5 0 -1 4 0 0 0 99 0 0 6.24441
+SVG <\g>
+SVG <g class="bar"><title>4 A4s<\title>
 1 2 121.667 6 0 -1 4 0 0 0 99 0 0 4.28886
+SVG <\g>
 t 1 121.667 -3 1 1 0 0 0 0 -2
 _00Tenore
 1 1 121.667 9 0 0 4 0 0 -2
 1 2 121.667 6 0 0 4 0 0 -2
 1 2 121.667 101 0 1 4 0 0 -1.66
+SVG <g class="bar"><title>1 A2<\title>
 1 1 170 4 0 -1 4 0 0 0 99 0 0 2.98515
+SVG <\g>
+SVG <g class="bar"><title>2 B2s<\title>
 1 1 170 5 0 -1 4 0 0 0 99 0 0 3.637
+SVG <\g>
+SVG <g class="bar"><title>9 C3s<\title>
 1 1 170 6 0 -1 4 0 0 0 99 0 0 8.19997
+SVG <\g>
+SVG <g class="bar"><title>11 D3s<\title>
 1 1 170 7 0 -1 4 0 0 0 99 0 0 9.50367
+SVG <\g>
+SVG <g class="bar"><title>3 E3s<\title>
 1 1 170 8 0 -1 4 0 0 0 99 0 0 4.28886
+SVG <\g>
+SVG <g class="bar"><title>27 F3s<\title>
 1 1 170 9 0 -1 4 0 0 0 99 0 0 19.9333
+SVG <\g>
+SVG <g class="bar"><title>11 G3s<\title>
 1 1 170 10 0 -1 4 0 0 0 99 0 0 9.50367
+SVG <\g>
+SVG <g class="bar"><title>19 A3s<\title>
 1 1 170 11 0 -1 4 0 0 0 99 0 0 14.7185
+SVG <\g>
+SVG <g class="bar"><title>12 B3s<\title>
 1 1 170 12 0 -1 4 0 0 0 99 0 0 10.1555
+SVG <\g>
+SVG <g class="bar"><title>13 C4s<\title>
 1 2 170 1 0 -1 4 0 0 0 99 0 0 10.8074
+SVG <\g>
+SVG <g class="bar"><title>5 D4s<\title>
 1 2 170 2 0 -1 4 0 0 0 99 0 0 5.59256
+SVG <\g>
 t 1 170 -3 1 1 0 0 0 0 -2
 _00Basso
 1 1 170 4 0 0 4 0 0 -2

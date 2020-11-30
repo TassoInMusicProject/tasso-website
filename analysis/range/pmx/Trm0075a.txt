@@ -1,4 +1,5 @@
 #define SVG t 1 1 \n_99%svg%
+SVG <style type="text\css">.bar:hover &#123;color:red;stroke:red&#125;<\style>
 t 2 10 14 1 1 0 0 0 0 -1.35
 _00
 8 1 0 0 0 200
@@ -8,17 +9,39 @@ _00
 14 1 0 2 8
 3 2 2
 3 1 2 0 1
+SVG <g class="bar"><title>2 F3s<\title>
 1 1 170 9 0 -1 4 0 0 0 99 0 0 2.81549
+SVG <\g>
+SVG <g class="bar"><title>17 G3s<\title>
 1 1 170 10 0 -1 4 0 0 0 99 0 0 6.43193
+SVG <\g>
+SVG <g class="bar"><title>20 A3s<\title>
 1 1 170 11 0 -1 4 0 0 0 99 0 0 7.15522
+SVG <\g>
+SVG <g class="bar"><title>23 B3s<\title>
 1 1 170 12 0 -1 4 0 0 0 99 0 0 7.87851
+SVG <\g>
+SVG <g class="bar"><title>35 C4s<\title>
 1 2 170 1 0 -1 4 0 0 0 99 0 0 10.7717
+SVG <\g>
+SVG <g class="bar"><title>3 C4s<\title>
 1 2 170 1 0 -1 4 0 0 0 99 0 0 3.05659
+SVG <\g>
+SVG <g class="bar"><title>73 D4s<\title>
 1 2 170 2 0 -1 4 0 0 0 99 0 0 19.9333
+SVG <\g>
+SVG <g class="bar"><title>24 E4s<\title>
 1 2 170 3 0 -1 4 0 0 0 99 0 0 8.1196
+SVG <\g>
+SVG <g class="bar"><title>15 F4s<\title>
 1 2 170 4 0 -1 4 0 0 0 99 0 0 5.94974
+SVG <\g>
+SVG <g class="bar"><title>6 F4s<\title>
 1 2 170 4 0 -1 4 0 0 0 99 0 0 3.77988
+SVG <\g>
+SVG <g class="bar"><title>24 G4s<\title>
 1 2 170 5 0 -1 4 0 0 0 99 0 0 8.1196
+SVG <\g>
 t 1 170 -3 1 1 0 0 0 0 -2
 _00Tenore
 1 1 170 9 0 0 4 0 0 -2

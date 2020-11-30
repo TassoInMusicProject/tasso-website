@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+use strict;
+
+my @files = glob("svg/*.svg");
+
+my $table = createMdContents(@files);
+
+print $table;
+print "\n\n{% include_relative styles-local.html %}\n";
+
+sub createMdContents {
+	my @files = @_;
+	my $output = "";
+	$output .= "<table class='ranges'>\n";
+	for my $file (@files) {
+		$output .= "\n<tr>";
+		$output .= "<td>";
+		$output .= "<img src='";
+		$output .= $file;
+		$output .= "'>";
+		$output .= "</td>";
+		$output .= "</tr>\n";
+	}
+	return $output;
+}
+
+
+

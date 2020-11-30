@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+use strict;
+
+my $seps2svg = `which seps2svg`;
+chomp $seps2svg;
+if ($seps2svg =~ /^\s*$/) {
+	die "Cannot find seps2svg\n";
+	exit(1);
+}
+
+for my $file (@ARGV) {
+	print "Converting $file to SVG...\n";
+	`$seps2svg $file`;
+}
+
+
+

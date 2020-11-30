@@ -1,0 +1,3 @@
+
+all:
+	./.makeindex > index.md

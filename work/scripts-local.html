@@ -1425,8 +1425,7 @@ function getRange(id) {
 			}
 		}
 	} else {
-		var action = "prange-svg";
-		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		var url = "https://raw.githubusercontent.com/TassoInMusicProject/tasso-website/gh-pages/analysis/range/svg/" + id + ".svg";
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {

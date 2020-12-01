@@ -2068,6 +2068,7 @@ function processMusicSearch(event) {
 }
 
 
+
 //////////////////////////////
 //
 // queriesMatch --
@@ -2080,6 +2081,7 @@ function queriesMatch(q1, q2) {
 	if (q1.rhythm   !== q2.rhythm)   { return false; }
 	return true;
 }
+
 
 
 //////////////////////////////
@@ -2112,26 +2114,59 @@ function processTextSearch(event) {
 
 
 
+/////////////////////////////
+//
+// clearActiveMeasures --
+//
+
+function clearActiveMeasures(svgElement) {
+	var actives = svgElement.querySelectorAll(".active");
+	for (var i=0; i<actives.length; i++) {
+console.log("ELEMENT", actives[i]);
+		actives[i].classList.remove("active");
+	}
+}
+
+
 
 /////////////////////////////
 //
 // gotoMeasure --
 //
 
-function gotoMeasure(measurenum) {
+function gotoMeasure(startmeasure, endmeasure) {
 	ExpandIncipit();
 	var svg = document.querySelector("svg");
-	var measure = svg.querySelector(".m-"+measurenum);
-	measure.scrollIntoView();
-//	var offset = $(".m-"+measurenum).offset();
-//	offset.left -= 20;
-//	offset.top -= 20;
-//console.log("OFFSET", offset);
-//	$('html, body').animate({
-//		srollTop: offset.top,
-//		scrollLeft: offset.left
-//	});
+	clearActiveMeasures(svg);
+	var measure;
 
+	if (!endmeasure) {
+		measure = svg.querySelector(".m-"+startmeasure);
+		measure.classList.add("active");
+		measure.scrollIntoView();
+		return;
+	}
+	if (startmeasure >= endmeasure) {
+		// Problem with the range so do nothing.
+		return;
+	}
+
+	var i;
+	for (i=startmeasure; i<=endmeasure; i++) {
+		measure = svg.querySelector(".m-"+i);
+		measure.classList.add("active");
+	}
+	measure = svg.querySelector(".m-"+startmeasure);
+	measure.scrollIntoView();
+
+   //var offset = $(".m-"+measurenum).offset();
+  	//offset.left -= 20;
+  	//offset.top -= 20;
+   //console.log("OFFSET", offset);
+  	// $('html, body').animate({
+  	//   srollTop: offset.top,
+  	//   scrollLeft: offset.left
+  	// });
 }
 
 

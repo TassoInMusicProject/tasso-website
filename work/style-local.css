@@ -172,6 +172,11 @@ nobr[class^='mm'] {
 	color: {{site.tab_color}};
 }
 
+.active {
+	fill: mediumvioletred;
+}
+
+
 .highlight {
 	/* background-color: #c00; */
 	 color: #c00;

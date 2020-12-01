@@ -158,10 +158,13 @@ function createMeasureRange() {
 		return new Handlebars.SafeString("<span class='error'>ERROR: need at least one measure number</span>");
 	}
 	var range = startval;
+	var output = "";
 	if (endval !== false) {
 		range += "-" + endval;
+		output = "<nobr onclick='gotoMeasure(" + startval + "," + endval + ");' class='mm" + range + "'>";
+	} else {
+		output = "<nobr onclick='gotoMeasure(" + startval + ");' class='mm" + range + "'>";
 	}
-	var output = "<nobr onclick='gotoMeasure(" + startval + ");' class='mm" + range + "'>";
 	if (!name.match(/x/i)) {
 		output += name;
 		if (!nodot) {

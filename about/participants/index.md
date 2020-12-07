@@ -83,7 +83,7 @@ Giuseppe Gerbino (Columbia University)
 </div>
 
 <div class="person">
-Marco Mangani (University of Ferrara) 
+Marco Mangani (University of Florence) 
 </div>
 
 <div class="person">
@@ -124,6 +124,10 @@ Cesarino Ruini (University of Bologna)
 
 <div class="person">
 Emilio Russo (University of Rome)
+</div>
+
+<div class="person">
+Enrico Scavo (University of Ferrara)
 </div>
 
 <div class="person">

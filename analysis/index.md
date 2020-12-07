@@ -44,6 +44,15 @@ data in spreadsheets for further use in analysis).
 
 <tr>
 	<td>
+	<a href="range">Vocal ranges</a>
+	</td> 
+	<td>
+		Vocal ranges and pitch histograms for each voice.
+	</td>
+</tr>
+
+<tr>
+	<td>
 	<a href="pitch-class">Pitch class</a>
 	</td> 
 	<td>

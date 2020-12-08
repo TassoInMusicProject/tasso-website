@@ -1,0 +1,174 @@
+
+<script src="/scripts/scripts-common.js"></script>
+
+<script>
+// vim: ts=3
+
+
+//////////////////////////////
+//
+// addWorkInfo --
+//
+
+function addWorkInfo() {
+	var settings = TASSODATA.SETTINGS;
+	var lookup = {};
+	var i;
+	var aminta = settings.AMINTA_SETTINGS.SETTING;
+	var rime = settings.RIME_SETTINGS.SETTING;
+	var gerusalemme = settings.GERUSALEMME_SETTINGS.SETTING;
+	var other = settings.OTHER_SETTINGS.SETTING;
+	var all = [];
+	for (i=0; i<aminta.length; i++) {
+		aminta[i].genre = "aminta";
+	}
+	for (i=0; i<gerusalemme.length; i++) {
+		gerusalemme[i].genre = "gerusalemme";
+	}
+	all.push(gerusalemme);
+	all.push(rime);
+	all.push(aminta);
+	all.push(other);
+	var final = [].concat.apply([], all);
+	var rlist = {};
+	var id;
+	for (i=0; i<final.length; i++) {
+		id = final[i].CATALOGNUM;
+		rlist[id] = final[i];
+	}
+
+	var rows = document.querySelectorAll("tr.row");
+	for (var i=0; i<rows.length; i++) {
+		id = rows[i].dataset.id;
+		if (!id) {
+			console.log("WARNING: ROW", rows[i], "DOES NOT HAVE AN ID");
+			continue;
+		}
+		var entry = rlist[id];
+		if (!entry) {
+			continue;
+		}
+		var title = entry.TITLE;
+		if (!title) {
+			title = entry.RIMETITLE;
+		}
+		var composer = entry.COMPOSER;
+		var evoices = entry.EXTANTVOICES;
+		var ovoices = entry.OVOICES;
+		var pyear = entry.PRINCEPSYEAR;
+		var etitle = rows[i].querySelector(".title");
+		if (etitle) {
+			var toutput = "";
+			toutput = "<i><a target='_blank' href='/work/index.html?id=";
+			toutput += id;
+			toutput += "'>";
+			toutput += title;
+			toutput += "</a></i>";
+			if (entry.SOLERTI) {
+				toutput += " (<i>Rime</i>&nbsp;" + entry.SOLERTI + ")";
+			} else if (entry.genre == "aminta") {
+				toutput += " (<i>Aminta</i>";
+				if (entry.ACT) {
+					toutput += "&nbsp;" + entry.ACT;
+				}
+				if (entry.SCENE) {
+					toutput += "/" + entry.SCENE;
+				}
+				if (entry.VERSE) {
+					toutput += "/" + entry.VERSE;
+				}
+				toutput += ")";
+			} else if (entry.genre == "gerusalemme") {
+				toutput += " (<i>Gerusalemme</i>";
+				if (entry.CANTO) {
+					toutput += "&nbsp;" + entry.CANTO;
+				}
+				if (entry.OTTAVA) {
+					toutput += "/" + entry.OTTAVA;
+				}
+				toutput += ")";
+
+			} else if (entry.GROUP.match("Ecloghe")) {
+				toutput += " (<i>Ecloghe</i>";
+				if (entry.ECLOGHA) {
+					toutput += "&nbsp;" + entry.ECLOGHA;
+				}
+				else if (entry.ECLOGA) {
+					toutput += "&nbsp;" + entry.ECLOGA;
+				}
+				if (entry.VERSE) {
+					toutput += "/" + entry.VERSE;
+				}
+				toutput += ")";
+
+			} else if (entry.GROUP.match("Rinaldo")) {
+				toutput += " (<i>Rinaldo</i>";
+				if (entry.CANTO) {
+					toutput += "&nbsp;" + entry.CANTO;
+				}
+				if (entry.OTTAVA) {
+					toutput += "/" + entry.OTTAVA;
+				}
+				toutput += ")";
+
+			} else if (entry.GROUP.match("Lagrime")) {
+				toutput += " (<i>Lagrime</i>";
+				if (entry.STANZA) {
+					toutput += "&nbsp;" + entry.STANZA;
+				}
+				toutput += ")";
+
+			} else if (entry.GROUP.match("Torrismondo")) {
+				toutput += " (<i>Re&nbsp;Torrismondo</i>";
+				if (entry.ACT) {
+					toutput += "&nbsp;" + entry.ACT;
+				}
+				if (entry.SCENE) {
+					toutput += "/" + entry.SCENE;
+				}
+				if (entry.SECTION) {
+					toutput += "/" + entry.SECTION;
+				}
+				toutput += ")";
+
+			} else if (entry.GROUP.match("conquistata")) {
+				toutput += " (<i>Conquistata</i>";
+				if (entry.CANTO) {
+					toutput += "&nbsp;" + entry.CANTO;
+				}
+				if (entry.OTTAVA) {
+					toutput += "/" + entry.OTTAVA;
+				}
+				toutput += ")";
+			}
+
+			etitle.innerHTML = toutput;
+		}
+		var ecomposer = rows[i].querySelector(".composer");
+		if (ecomposer) {
+			ecomposer.innerHTML = composer;
+		}
+		var eyear = rows[i].querySelector(".publication");
+		if (eyear && pyear) {
+			eyear.innerHTML = "(" + pyear + ")";
+		}
+		var evoice = rows[i].querySelector(".voices");
+		if (evoice) {
+			var vtext = "";
+			if (ovoices) {
+				ovoices = ovoices.replace(/\s/g, "");
+				vtext = ovoices;
+			}
+			if (evoices) {
+				evoices = evoices.replace(/\s/g, "");
+				if (evoices != ovoices) {
+					vtext += "(" + evoices + ")";
+				}
+			}
+			evoice.innerHTML = "voices: " + vtext;
+		}
+	}
+}
+
+
+</script>

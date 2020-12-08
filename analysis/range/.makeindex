@@ -6,20 +6,42 @@ my @files = glob("svg/*.svg");
 
 my $table = createMdContents(@files);
 
+print "<input type='radio'checked> Show works with missing parts\n";
 print $table;
 print "\n\n{% include_relative styles-local.html %}\n";
+print "\n\n{% include_relative scripts-local.html %}\n";
+print "\n\n{% include_relative listeners.html %}\n";
 
 sub createMdContents {
 	my @files = @_;
 	my $output = "";
 	$output .= "<table class='ranges'>\n";
 	for my $file (@files) {
-		$output .= "\n<tr>";
-		$output .= "<td>";
+		my $id = $file;
+		$id =~ s/\.svg$//;
+		$id =~ s/.*\///;
+		$output .= "\n<tr class='row' data-id='";
+		$output .= $id;
+		$output .= "'>\n";
+		$output .= "\t<td>";
 		$output .= "<img src='";
 		$output .= $file;
 		$output .= "'>";
-		$output .= "</td>";
+		$output .= "</td>\n";
+		$output .= "\t<td style='width:100%; font-size:85%;' class='info'>";
+
+		$output .= "\n\t\t<div class='title'></div>";
+
+		$output .= "<div>\n";
+
+		$output .= "\n\t\t<span class='composer'></span>";
+		$output .= "\n\t\t<span class='publication'></span>";
+
+		$output .= "</div>\n";
+
+		$output .= "\n\t\t<div class='voices'></div>";
+
+		$output .= "\n\t</td>\n";
 		$output .= "</tr>\n";
 	}
 	return $output;

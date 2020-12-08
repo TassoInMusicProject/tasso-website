@@ -1,3 +1,3 @@
 
 all:
-	./.makeindex > index.md
+	./.makeindex > table.html

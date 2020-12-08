@@ -6,11 +6,7 @@ my @files = glob("svg/*.svg");
 
 my $table = createMdContents(@files);
 
-print "<input type='radio'checked> Show works with missing parts\n";
 print $table;
-print "\n\n{% include_relative styles-local.html %}\n";
-print "\n\n{% include_relative scripts-local.html %}\n";
-print "\n\n{% include_relative listeners.html %}\n";
 
 sub createMdContents {
 	my @files = @_;
@@ -24,9 +20,9 @@ sub createMdContents {
 		$output .= $id;
 		$output .= "'>\n";
 		$output .= "\t<td>";
-		$output .= "<img src='";
+		$output .= "<object data='";
 		$output .= $file;
-		$output .= "'>";
+		$output .= "' type='image/svg+xml'></object>";
 		$output .= "</td>\n";
 		$output .= "\t<td style='width:100%; font-size:85%;' class='info'>";
 

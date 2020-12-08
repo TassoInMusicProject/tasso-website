@@ -64,84 +64,7 @@ function addWorkInfo() {
 			toutput += "'>";
 			toutput += title;
 			toutput += "</a></i>";
-			if (entry.SOLERTI) {
-				toutput += " (<i>Rime</i>&nbsp;" + entry.SOLERTI + ")";
-			} else if (entry.genre == "aminta") {
-				toutput += " (<i>Aminta</i>";
-				if (entry.ACT) {
-					toutput += "&nbsp;" + entry.ACT;
-				}
-				if (entry.SCENE) {
-					toutput += "/" + entry.SCENE;
-				}
-				if (entry.VERSE) {
-					toutput += "/" + entry.VERSE;
-				}
-				toutput += ")";
-			} else if (entry.genre == "gerusalemme") {
-				toutput += " (<i>Gerusalemme</i>";
-				if (entry.CANTO) {
-					toutput += "&nbsp;" + entry.CANTO;
-				}
-				if (entry.OTTAVA) {
-					toutput += "/" + entry.OTTAVA;
-				}
-				toutput += ")";
-
-			} else if (entry.GROUP.match("Ecloghe")) {
-				toutput += " (<i>Ecloghe</i>";
-				if (entry.ECLOGHA) {
-					toutput += "&nbsp;" + entry.ECLOGHA;
-				}
-				else if (entry.ECLOGA) {
-					toutput += "&nbsp;" + entry.ECLOGA;
-				}
-				if (entry.VERSE) {
-					toutput += "/" + entry.VERSE;
-				}
-				toutput += ")";
-
-			} else if (entry.GROUP.match("Rinaldo")) {
-				toutput += " (<i>Rinaldo</i>";
-				if (entry.CANTO) {
-					toutput += "&nbsp;" + entry.CANTO;
-				}
-				if (entry.OTTAVA) {
-					toutput += "/" + entry.OTTAVA;
-				}
-				toutput += ")";
-
-			} else if (entry.GROUP.match("Lagrime")) {
-				toutput += " (<i>Lagrime</i>";
-				if (entry.STANZA) {
-					toutput += "&nbsp;" + entry.STANZA;
-				}
-				toutput += ")";
-
-			} else if (entry.GROUP.match("Torrismondo")) {
-				toutput += " (<i>Re&nbsp;Torrismondo</i>";
-				if (entry.ACT) {
-					toutput += "&nbsp;" + entry.ACT;
-				}
-				if (entry.SCENE) {
-					toutput += "/" + entry.SCENE;
-				}
-				if (entry.SECTION) {
-					toutput += "/" + entry.SECTION;
-				}
-				toutput += ")";
-
-			} else if (entry.GROUP.match("conquistata")) {
-				toutput += " (<i>Conquistata</i>";
-				if (entry.CANTO) {
-					toutput += "&nbsp;" + entry.CANTO;
-				}
-				if (entry.OTTAVA) {
-					toutput += "/" + entry.OTTAVA;
-				}
-				toutput += ")";
-			}
-
+			toutput += makeVerseSource(entry);
 			etitle.innerHTML = toutput;
 		}
 		var ecomposer = rows[i].querySelector(".composer");
@@ -163,11 +86,97 @@ function addWorkInfo() {
 				evoices = evoices.replace(/\s/g, "");
 				if (evoices != ovoices) {
 					vtext += "(" + evoices + ")";
+					rows[i].dataset.complete = "false";
+				} else {
+					rows[i].dataset.complete = "true";
 				}
 			}
 			evoice.innerHTML = "voices: " + vtext;
 		}
 	}
+}
+
+
+//////////////////////////////
+//
+// makeVerseSource --
+//
+
+function makeVerseSource(entry) {
+	var toutput = "";
+	if (entry.SOLERTI) {
+		toutput += " (<i>Rime</i>&nbsp;" + entry.SOLERTI + ")";
+	} else if (entry.genre == "aminta") {
+		toutput += " (<i>Aminta</i>";
+		if (entry.ACT) {
+			toutput += "&nbsp;" + entry.ACT;
+		}
+		if (entry.SCENE) {
+			toutput += "/" + entry.SCENE;
+		}
+		if (entry.VERSE) {
+			toutput += "/" + entry.VERSE;
+		}
+		toutput += ")";
+	} else if (entry.genre == "gerusalemme") {
+		toutput += " (<i>Gerusalemme</i>";
+		if (entry.CANTO) {
+			toutput += "&nbsp;" + entry.CANTO;
+		}
+		if (entry.OTTAVA) {
+			toutput += "/" + entry.OTTAVA;
+		}
+		toutput += ")";
+	} else if (entry.GROUP.match("Ecloghe")) {
+		toutput += " (<i>Ecloghe</i>";
+		if (entry.ECLOGHA) {
+			toutput += "&nbsp;" + entry.ECLOGHA;
+		}
+		else if (entry.ECLOGA) {
+			toutput += "&nbsp;" + entry.ECLOGA;
+		}
+		if (entry.VERSE) {
+			toutput += "/" + entry.VERSE;
+		}
+		toutput += ")";
+	} else if (entry.GROUP.match("Rinaldo")) {
+		toutput += " (<i>Rinaldo</i>";
+		if (entry.CANTO) {
+			toutput += "&nbsp;" + entry.CANTO;
+		}
+		if (entry.OTTAVA) {
+			toutput += "/" + entry.OTTAVA;
+		}
+		toutput += ")";
+	} else if (entry.GROUP.match("Lagrime")) {
+		toutput += " (<i>Lagrime</i>";
+		if (entry.STANZA) {
+			toutput += "&nbsp;" + entry.STANZA;
+		}
+		toutput += ")";
+	} else if (entry.GROUP.match("Torrismondo")) {
+		toutput += " (<i>Re&nbsp;Torrismondo</i>";
+		if (entry.ACT) {
+			toutput += "&nbsp;" + entry.ACT;
+		}
+		if (entry.SCENE) {
+			toutput += "/" + entry.SCENE;
+		}
+		if (entry.SECTION) {
+			toutput += "/" + entry.SECTION;
+		}
+		toutput += ")";
+	} else if (entry.GROUP.match("conquistata")) {
+		toutput += " (<i>Conquistata</i>";
+		if (entry.CANTO) {
+			toutput += "&nbsp;" + entry.CANTO;
+		}
+		if (entry.OTTAVA) {
+			toutput += "/" + entry.OTTAVA;
+		}
+		toutput += ")";
+	}
+	return toutput;
 }
 
 

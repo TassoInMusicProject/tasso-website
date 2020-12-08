@@ -1,0 +1,41 @@
+
+<h1> Vocal ranges </h1>
+
+<input onclick="toggleComplete(event)" type="checkbox" id="complete" name="complete" value="false">
+<label for="complete"> Hide works with missing parts </label><br>
+
+
+<script>
+// vim: ts=3
+
+
+//////////////////////////////
+//
+// toggleComplete --
+//
+
+function toggleComplete(event) {
+	var toggle = document.querySelector("#complete");
+	if (!toggle) {
+		return;
+	}
+	var rows = document.querySelectorAll("tr.row");
+	for (var i=0; i<rows.length; i++) {
+		var status = rows[i].dataset.complete;
+		if (status === "false") {
+			if (toggle.checked) {
+				rows[i].style.display = "none";
+			} else {
+				rows[i].style.display = "inline-block";
+				rows[i].style.background = "#f3f3ff";
+			}
+		} else {
+			rows[i].style.display = "inline-block";
+		}
+	}
+}
+
+
+
+</script>
+

@@ -1,4 +1,7 @@
 
+
+{% include_relative listeners.html %}
+
 <script src="/scripts/scripts-common.js"></script>
 
 <script>
@@ -81,6 +84,11 @@ function addWorkInfo() {
 			if (ovoices) {
 				ovoices = ovoices.replace(/\s/g, "");
 				vtext = ovoices;
+				matches = ovoices.match(/(\d+)/);
+				if (matches) {
+					var vcount = matches[1];
+					rows[i].dataset.vcount = vcount;
+				}
 			}
 			if (evoices) {
 				evoices = evoices.replace(/\s/g, "");
@@ -95,6 +103,7 @@ function addWorkInfo() {
 		}
 	}
 }
+
 
 
 //////////////////////////////

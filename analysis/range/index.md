@@ -1,5 +1,14 @@
+---
+scripts-local: true
+style-local: true
+aton: true
+handlebars: false
+jquery: false
+verovio: false
+pdfkit: false
+vim: ts=3
+permalink: /analysis/range/index.html
+---
+
 {% include_relative header.html %}
 {% include_relative table.html %}
-{% include_relative styles-local.html %}
-{% include_relative scripts-local.html %}
-{% include_relative listeners.html %}

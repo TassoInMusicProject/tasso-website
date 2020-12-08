@@ -3,6 +3,7 @@
 use strict;
 
 my @files = glob("svg/*.svg");
+@files = sort @files;
 
 my $table = createMdContents(@files);
 

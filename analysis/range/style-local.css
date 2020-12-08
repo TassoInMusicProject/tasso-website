@@ -1,4 +1,8 @@
 
+body {
+	cursor: progress;
+}
+
 table.ranges td {
 	padding-bottom: 10px;
 }

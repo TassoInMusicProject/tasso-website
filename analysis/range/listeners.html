@@ -1,7 +1,7 @@
 
 <script>
 
-document.body.classList.add("waiting");
+// document.body.classList.add("waiting");
 
 document.addEventListener("DOMContentLoaded", function () {
 	LoadTassoData(continueSetup);
@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function continueSetup() {
-	document.body.classList.remove("waiting");
 	addWorkInfo();
+	document.body.style.cursor = "auto";
 }
 
 

@@ -1,59 +1,518 @@
 
+<!--
+vim: ts=3:nowrap
+-->
+
 <h1> Vocal ranges </h1>
 
 <table>
 <tr>
 
-<!--
 <td>
+	Genre:
+	<select onchange="showWorks();" id="genre">
+		<option value="all">all</option>
+		<option value="rime">rime</option>
+		<option value="gerusalemme">gerusalemme</option>
+		<option value="aminta">aminta</option>
+		<option value="other">other</option>
+	</select>
+</td>
+
+<td style="pading-left:30px;">
 	Sort&nbsp;by:&nbsp;
-	<select id="sort">
-		<option value="catalog">catalog # (work)</option>
+	<select onchange="sortWorks();" id="sort">
+		<option value="title">title</option>
 		<option value="voices">voices</option>
 		<option value="composer">composer</option>
 		<option value="date">publication date</option>
 	</select>
 </td>
--->
 
-<td style="padding-left:50px;">
-	<input onclick="toggleComplete(event)" type="checkbox" id="complete" name="complete" value="false">
-	<label for="complete"> Hide works with missing parts </label><br>
+<td style="padding-left:30px;">
+	<input onclick="toggleHighlightMissingParts(event);" type="checkbox" id="highlight" name="highlight">
+	<label for="highlight"> Highlight / </label><br>
+</td>
+
+<td>
+	<input onclick="showWorks(event)" type="checkbox" id="complete" name="complete">
+	<label for="complete"> Hide works with missing parts</label><br>
 </td>
 
 </tr>
 
+</table>
+
+
+<div style="margin-top:50px;"></div>
+
+
 
 <script>
-// vim: ts=3
 
 
 //////////////////////////////
 //
-// toggleComplete --
+// sortWorks --
 //
 
-function toggleComplete(event) {
-	var toggle = document.querySelector("#complete");
-	if (!toggle) {
+function sortWorks(event) {
+	var esort = document.querySelector("#sort");
+	if (!esort) {
 		return;
 	}
-	var rows = document.querySelectorAll("tr.row");
-	for (var i=0; i<rows.length; i++) {
-		var status = rows[i].dataset.complete;
-		if (status === "false") {
-			if (toggle.checked) {
-				rows[i].style.display = "none";
-			} else {
-				rows[i].style.display = "inline-block";
-				rows[i].style.background = "#f3f3ff";
-			}
-		} else {
-			rows[i].style.display = "inline-block";
-		}
+	var sort = esort.value;
+
+	var table = document.querySelector("table.ranges");
+	if (!table) {
+		return;
+	}
+	var tbody = table.querySelector("tbody");
+	if (!tbody) {
+		return;
+	}
+	var rows = tbody.querySelectorAll("tr");
+
+	var list = [];
+	var i;
+	for (i=0; i<rows.length; i++) {
+		list.push(rows[i]);
+	}
+
+	if (sort === "composer") {
+		list = sortByComposer(list);
+	} else if (sort === "voices") {
+		list = sortByVoice(list);
+	} else if (sort ===  "poem") {
+		list = sortByPoem(list);
+	} else if (sort ===  "date") {
+		list = sortByPublicationYear(list);
+	} else {
+		return;
+	}
+
+	tbody.innerHTML = "";
+	for (i=0; i<list.length; i++) {
+		tbody.appendChild(list[i]);
 	}
 }
 
+
+
+//////////////////////////////
+//
+// sortByComposer --
+//
+
+function sortByComposer(rows) {
+	rows.sort(function (a, b) {
+
+		var composerA = getComposer(a);
+		var composerB = getComposer(b);
+		lcomp = composerA.localeCompare(composerB);
+		if (lcomp) {
+			return lcomp;
+		}
+
+		var titleA = getTitle(a);
+		var titleB = getTitle(b);
+		var lcomp = titleA.localeCompare(titleB);
+		if (lcomp) {
+			return lcomp;
+		}
+
+		var yearA = getYear(a);
+		var yearB = getYear(b);
+		if (yearA < yearB) {
+			return -1;
+		} else if (yearA > yearB) {
+			return +1;
+		}
+		return 0;
+
+	});
+	return rows;
+}
+
+
+
+//////////////////////////////
+//
+// sortByVoice --
+//
+
+function sortByVoice(rows) {
+
+	rows.sort(function (a, b) {
+		var voiceA = getVoiceCount(a);
+		var voiceB = getVoiceCount(b);
+		if (voiceA > voiceB) {
+			return -1;
+		}
+		if (voiceA < voiceB) {
+			return +1;
+		}
+		// voices are equal so next sort by partial/complete voices
+		var completeA = a.dataset.complete;
+		var completeB = b.dataset.complete;
+		if ((completeA === "true") && (completeB === "false")) {
+			return -1;
+		}
+		if ((completeB === "true") && (completeA === "false")) {
+			return +1;
+		}
+
+		var composerA = getComposer(a);
+		var composerB = getComposer(b);
+		var lcomp = composerA.localeCompare(composerB);
+		if (lcomp) {
+			return lcomp;
+		}
+
+		var yearA = getYear(a);
+		var yearB = getYear(b);
+		if (yearA < yearB) {
+			return -1;
+		} else if (yearA > yearB) {
+			return +1;
+		}
+
+		var titleA = getTitle(a);
+		var titleB = getTitle(b);
+
+		return titleA.localeCompare(titleB);
+	});
+
+	return rows;
+}
+
+
+
+//////////////////////////////
+//
+// sortByPoem -- Convert later into sorting by catalog number and make
+//    this sortByTitle.
+//
+
+function sortByPoem(rows) {
+
+	rows.sort(function (a, b) {
+
+		var titleA = getTitle(a);
+		var titleB = getTitle(b);
+		var lcomp = titleA.localeCompare(titleB);
+		if (lcomp) {
+			return lcomp;
+		}
+
+		var composerA = getComposer(a);
+		var composerB = getComposer(b);
+		lcomp = composerA.localeCompare(composerB);
+		if (lcomp) {
+			return lcomp;
+		}
+
+		var yearA = getYear(a);
+		var yearB = getYear(b);
+		if (yearA < yearB) {
+			return -1;
+		} else if (yearA > yearB) {
+			return +1;
+		}
+		return 0;
+
+	});
+
+	return rows;
+}
+
+
+
+//////////////////////////////
+//
+// sortByPublicationYear --  Sort by year, if tied: then by composer,
+//     then by title.
+//
+
+function sortByPublicationYear(rows) {
+
+	rows.sort(function (a, b) {
+		var yearA = getYear(a);
+		var yearB = getYear(b);
+		if (yearA < yearB) {
+			return -1;
+		} else if (yearA > yearB) {
+			return +1;
+		}
+		var composerA = getComposer(a);
+		var composerB = getComposer(b);
+		var lcomp = composerA.localeCompare(composerB);
+		if (lcomp) {
+			return lcomp;
+		}
+		var titleA = getTitle(a);
+		var titleB = getTitle(b);
+		return titleA.localeCompare(titleB);
+	});
+
+	return rows;
+}
+
+
+
+//////////////////////////////
+//
+// getVoiceCount -- Returns the original voice count.
+//
+
+function getVoiceCount(row) {
+	var voices = row.querySelector(".voices");
+	var count = 0;
+	var matches;
+	if (voices) {
+		matches = voices.textContent.match(/(\d+)/);
+		if (matches) {
+			count = parseInt(matches[1]);
+		}
+	}
+	return count;
+}
+
+
+
+//////////////////////////////
+//
+// getYear --
+//
+
+function getYear(row) {
+	var publication = row.querySelector(".publication");
+	var year = 0;
+	var matches;
+	if (publication) {
+		matches = publication.textContent.match(/(\d+)/);
+		if (matches) {
+			year = parseInt(matches[1]);
+		}
+	}
+	return year;
+}
+
+
+
+
+//////////////////////////////
+//
+// getComposer --
+//
+
+function getComposer(row) {
+	var composer = row.querySelector(".composer");
+	if (composer) {
+		return composer.textContent;
+	}
+	return "";
+}
+
+
+
+//////////////////////////////
+//
+// getTitle --
+//
+
+function getTitle(row) {
+	var title = row.querySelector(".title");
+	if (title) {
+		return title.textContent.replace(/"/g, "");
+	}
+	return "";
+}
+
+
+
+
+//////////////////////////////
+//
+// showWorks --
+//
+
+function showWorks(event) {
+
+	var ecomplete = document.querySelector("#complete");
+	if (!ecomplete) {
+		return;
+	}
+
+	var egenre = document.querySelector("#genre");
+	if (!egenre) {
+		return;
+	}
+
+	var hideincomplete = ecomplete.checked;
+	var genre = egenre.value;
+
+	var rows = document.querySelectorAll("tr.row");
+	var iscomplete;
+	var i;
+
+	if (hideincomplete) {
+		for (i=0; i<rows.length; i++) {
+			iscomplete = rows[i].dataset.complete;
+			if (iscomplete === "false") {
+				rows[i].style.display = "none";
+			} else if (iscomplete === "true") {
+				rows[i].style.display = "table-row";
+			} else if (!iscomplete) {
+				rows[i].style.display = "none";
+			} else {
+				rows[i].style.display = "table-row";
+			}
+			rows[i].style.display = "none";
+		}	
+	}
+
+	if (genre === "all") {
+		for (i=0; i<rows.length; i++) {
+			if (hideincomplete) {
+				iscomplete = rows[i].dataset.complete;
+				if (!iscomplete) {
+					continue;
+				} else if (iscomplete === "false") {
+					continue;
+				}
+			}
+			rows[i].style.display = "table-row";
+		}
+		return;
+	}
+
+	var id;
+
+	if (genre === "rime") {
+		for (i=0; i<rows.length; i++) {
+			if (hideincomplete) {
+				iscomplete = rows[i].dataset.complete;
+				if (!iscomplete) {
+					continue;
+				} else if (iscomplete === "false") {
+					continue;
+				}
+			}
+			id = rows[i].dataset.id;
+			if (!id) {
+				id = "";
+			}
+			if (id.match(/Trm/)) {
+				rows[i].style.display = "table-row";
+			} else {
+				rows[i].style.display = "none";
+			}
+		}
+		return;
+	}
+
+	if (genre === "gerusalemme") {
+		for (i=0; i<rows.length; i++) {
+			if (hideincomplete) {
+				iscomplete = rows[i].dataset.complete;
+				if (!iscomplete) {
+					continue;
+				} else if (iscomplete === "false") {
+					continue;
+				}
+			}
+			id = rows[i].dataset.id;
+			if (!id) {
+				id = "";
+			}
+			if (id.match(/Tsg/)) {
+				rows[i].style.display = "table-row";
+			} else {
+				rows[i].style.display = "none";
+			}
+		}
+		return;
+	}
+
+	if (genre === "aminta") {
+		for (i=0; i<rows.length; i++) {
+			if (hideincomplete) {
+				iscomplete = rows[i].dataset.complete;
+				if (!iscomplete) {
+					continue;
+				} else if (iscomplete === "false") {
+					continue;
+				}
+			}
+			id = rows[i].dataset.id;
+			if (!id) {
+				id = "";
+			}
+			if (id.match(/Tam/)) {
+				rows[i].style.display = "table-row";
+			} else {
+				rows[i].style.display = "none";
+			}
+		}
+		return;
+	}
+
+	if (genre === "other") {
+		for (i=0; i<rows.length; i++) {
+			if (hideincomplete) {
+				iscomplete = rows[i].dataset.complete;
+				if (!iscomplete) {
+					continue;
+				} else if (iscomplete === "false") {
+					continue;
+				}
+			}
+			id = rows[i].dataset.id;
+			if (!id) {
+				id = "";
+			}
+			if (id.match(/Trm/)) {
+				rows[i].style.display = "none";
+			} else if (id.match(/Tsg/)) {
+				rows[i].style.display = "none";
+			} else if (id.match(/Tam/)) {
+				rows[i].style.display = "none";
+			} else {
+				rows[i].style.display = "table-row";
+			}
+		}
+		return;
+	}
+
+}
+
+
+
+//////////////////////////////
+//
+// toggleHighlightMissingParts --
+//
+
+function toggleHighlightMissingParts(event) {
+	var highlight = document.querySelector("#highlight");
+	if (!highlight) {
+		return;
+	}
+	var state = highlight.checked;
+	var rows = document.querySelectorAll("tr.row");
+	for (var i=0; i<rows.length; i++) {
+		var complete = rows[i].dataset.complete;
+		if (complete === "true") {
+			continue;
+		}
+		if (state) {
+			rows[i].classList.add("highlight");
+		} else {
+			rows[i].classList.remove("highlight");
+		}
+	}
+}
 
 
 </script>

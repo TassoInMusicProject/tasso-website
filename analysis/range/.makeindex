@@ -2,8 +2,26 @@
 
 use strict;
 
-my @files = glob("svg/*.svg");
-@files = sort @files;
+my @rimefiles = glob("svg/Trm*.svg");
+my @gerusalemmefiles = glob("svg/Tsg*.svg");
+my @amintafiles = glob("svg/Tam*.svg");
+my @allfiles = glob("svg/*.svg");
+@rimefiles = sort @rimefiles;
+@gerusalemmefiles = sort @gerusalemmefiles;
+@amintafiles = sort @amintafiles;
+@allfiles = sort @allfiles;
+
+my @files = @rimefiles;
+push(@files, @gerusalemmefiles);
+push(@files, @amintafiles);
+
+for (my $i=0; $i<@allfiles; $i++) {
+	my $file = $allfiles[$i];
+	next if $file =~ /Trm/;
+	next if $file =~ /Tam/;
+	next if $file =~ /Tsg/;
+	push(@files, $file);
+}
 
 my $table = createMdContents(@files);
 

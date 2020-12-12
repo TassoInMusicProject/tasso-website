@@ -316,7 +316,7 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 	} else if (emendations.length >= 1)  {
 		output += "<h4>Emended readings of principal source</h4>";
 		output += "<div class='indent'>";
-		output += "<ul style='list-style:none;'>";
+		output += "<ul id='emended' style='list-style:none;'>";
 		for (var i=0; i<emendations.length; i++) {
 			template = Handlebars.compile(emendations[i]);
 			output += "<li>" + template() + "</li>";

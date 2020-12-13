@@ -69,6 +69,7 @@ var CURRENT_PAGE = 1;
 var INCIPIT_STYLE = 1;
 var ORIGINAL_CLEFS = 0;
 var INCLUDE_TEXT = 1;
+var INCLUDE_ACCID = 1;
 var CSS_TEXT = 1;
 var PART_FILTER = 0;
 
@@ -83,6 +84,10 @@ function setupVariables(string) {
 	for (var i=0; i<string.length; i++) {
 		var value = string.charAt(i);
 		switch (value) {
+
+			case 'a':
+				INCLUDE_ACCID = !INCLUDE_ACCID;
+				break;
 
 			case 'e':
 				INCIPIT_STYLE = !INCIPIT_STYLE;
@@ -891,6 +896,9 @@ function generateVerovioFilters(targetid, musicquery, textquery) {
 	if (!INCLUDE_TEXT) {
 		output.push("extract -I **text");
 	}
+	if (!INCLUDE_ACCID) {
+		output.push("shed -ke 's/i/y/g'");
+	}
 
 	if (!musicquery) {
 		musicquery = LAST_QUERY_MUSIC;
@@ -942,6 +950,7 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	highlightPartIcon(PART_FILTER);
 	displayMensurationState();
 	displayTextState();
+	displayAccidState();
 
 	// Get the number of **kern and **text spines for dealing
 	// with part extraction.
@@ -1941,6 +1950,19 @@ function toggleText() {
 
 //////////////////////////////
 //
+// toggleAccid --
+//
+
+function toggleAccid() {
+	INCLUDE_ACCID = !INCLUDE_ACCID;
+console.log("TOGGLING ACCID", INCLUDE_ACCID);
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
 // updateTransposition --
 //
 
@@ -1965,10 +1987,30 @@ function displayTextState() {
 	for (var i=0; i<elements.length; i++) {
 		if (INCLUDE_TEXT) {
 			elements[i].classList.remove("highlight");
-			elements[i].title = "hide text (t)";
+			elements[i].title = "hide text (t or T)";
 		} else {
-			elements[i].className += " highlight";
+			elements[i].classList.add("highlight");
 			elements[i].title = "show text (t)";
+		}
+	}
+}
+
+
+
+/////////////////////////////
+//
+// displayAccidState --
+//
+
+function displayAccidState() {
+	var elements = document.querySelectorAll(".accid-icon");
+	for (var i=0; i<elements.length; i++) {
+		if (INCLUDE_ACCID) {
+			elements[i].classList.remove("highlight");
+			elements[i].title = "hide editorial accidentals (a)";
+		} else {
+			elements[i].classList.add("highlight");
+			elements[i].title = "show editorial accidentals (a)";
 		}
 	}
 }

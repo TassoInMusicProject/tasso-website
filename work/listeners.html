@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	HighlightNavigationBar();
 
 	CGI = GetCgiParameters();
-console.log("CGI", CGI);
 	if (CGI.k) {
 		setupVariables(CGI.k);
 	}
@@ -54,11 +53,15 @@ window.addEventListener('keydown',
 			case EightKey: showPart(8); break;
 			case NineKey:  showPart(9); break;
 
+			case AKey:
+					toggleAccid();
+					break;
+
 			case EKey:
 				if (event.altKey) {
 					toggleExpertMode();
 				} else {
-				toggleIncipit();
+					toggleIncipit();
 				}
 				event.preventDefault();
 				break;
@@ -148,7 +151,6 @@ window.addEventListener("click", function(event) {
 	var ques = 0;
 	if (matches = note.className.baseVal.match(/qon-([^\s]+)/)) {
 		ques = getQstampFloat(matches[1]);
-console.log("QTIMESTAMP IS ", ques);
 	} else {
 		return;
 	}
@@ -165,7 +167,6 @@ console.log("QTIMESTAMP IS ", ques);
 			qstamp = timemap[i].qstamp;
 		}
 	}
-console.log("CLOSEST TIMESTAMP IS ", tstamp, "FOR QSTAMP", qstamp);
 	if (tstamp < 0) {
 		return;
 	}

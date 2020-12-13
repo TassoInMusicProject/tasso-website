@@ -97,7 +97,7 @@
 		<div style="position:relative; top:-5px;" id="other-buttons">
 			<div style='font-size:1.5em;'>
 				<nobr>
-					<span id='text' class='text-icon' onclick='toggleText()'>
+					<span id='text' class='text-icon notation-button' onclick='toggleText()'>
 						<span class='fa-stack fa-3x'>
 							<i class='fa fa-circle fa-stack-2x'></i>
 							<strong class='fa-stack-1x text-primary'>
@@ -105,11 +105,19 @@
 							</strong>
 						</span>
 					</span>
-					<span id='original' class='mens-icon' onclick='toggleMensuration()'>
+					<span id='original' class='mens-icon notation-button' onclick='toggleMensuration()'>
 						<span class='fa-stack fa-3x'>
 							<i class='fa fa-circle fa-stack-2x'></i>
 							<strong class='fa-stack-1x text-primary'>
 								o
+							</strong>
+						</span>
+					</span>
+					<span id='accid' class='accid-icon notation-button' onclick='toggleAccid()'>
+						<span class='fa-stack fa-3x'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<strong class='fa-stack-1x text-primary'>
+								a
 							</strong>
 						</span>
 					</span>
@@ -201,7 +209,7 @@
 	</td>
 	<td>
 		<div style='font-size:1.5em; margin-top:-10px;'>
-			<span id='search-help' class='text-icon' onclick='showPopupHelp("search-help.html", "Search Help")'>
+			<span id='search-help' class='text-icon notation-button' onclick='showPopupHelp("search-help.html", "Search Help")'>
 				<span class='fa-stack fa-3x'>
 					<i class='fa fa-circle fa-stack-2x'></i>
 					<strong class='fa-stack-1x text-primary'>

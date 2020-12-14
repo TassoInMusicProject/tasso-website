@@ -895,6 +895,7 @@ function generateVerovioFilters(targetid, musicquery, textquery) {
 
 	if (!INCLUDE_TEXT) {
 		output.push("extract -I **text");
+		output.push("autobeam");
 	}
 	if (!INCLUDE_ACCID) {
 		output.push("shed -ke 's/i/y/g'");

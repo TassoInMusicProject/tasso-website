@@ -893,6 +893,14 @@ function generateVerovioFilters(targetid, musicquery, textquery) {
 		}
 	}
 
+	if (ORIGINAL_CLEFS) {
+		output.push("modori -o");
+		// previous method was to use x-path, which is now disabled in the converter:
+		// vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'original-clef')]"];
+	} else {
+		// vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'asdfghjkl')]"];
+	}
+
 	if (!INCLUDE_TEXT) {
 		output.push("extract -I **text");
 		output.push("autobeam");
@@ -987,12 +995,6 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 		vrvOptions.pageHeight = 60000;
 	}
 	showIncipitState();
-
-	if (ORIGINAL_CLEFS) {
-		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'original-clef')]"];
-	} else {
-		vrvOptions.appXPathQuery = ["./rdg[contains(@label, 'asdfghjkl')]"];
-	}
 
 	// add header footer information to data
 

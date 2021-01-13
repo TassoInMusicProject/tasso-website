@@ -107,11 +107,11 @@ Massimo Privitera (University of Palermo)
 </div>
 
 <div class="person">
-Laurent Pugin (Swiss RISM)
+Laurent Pugin (RISM Digital Center)
 </div>
 
 <div class="person">
-Eugenio Refini (Johns Hopkins University)
+Eugenio Refini (New York University)
 </div>
 
 <div class="person">

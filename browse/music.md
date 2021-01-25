@@ -16,6 +16,7 @@ layout: simple
 <tr><td style="width:200px; vertical-align:top">
 
 <select class="genre select">
+	<option value="all">all genres</option>
 	<option value="rime">Rime</option>
 	<option value="gerusalemme">Gerusalemme</option>
 	<option value="aminta">Aminta</option>
@@ -24,7 +25,6 @@ layout: simple
 	<option value="lagrime">Lagrime</option>
 	<option value="torrismondo">Re Torrismondo</option>
 	<option value="conquistata">Gerusalemme c.</option>
-	<option value="all">all genres</option>
 </select>
 
 <br>

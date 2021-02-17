@@ -10,14 +10,10 @@ Events and Publications
 ----------------------
 
 
-
-## Grants ##
+## Honors ##
 
 
 ## Events ##
-
-
-## Presentations ##
 
 
 ## Publications ## 

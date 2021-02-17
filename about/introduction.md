@@ -65,7 +65,7 @@ modern period with an interest in the intersection of music and
 poetry.
 
 For further information on how to use the website, please click on
-the tab “How to use TiMP” at the top of this page. For information
+the tab “How to use” at the top of this page. For information
 about the editorial and encoding methods of the project, please
 visit the page “[Editorial Policies](/about/policies).” Any queries
 can be directed to the Project Director and General Editor, Emiliano

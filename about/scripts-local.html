@@ -65,15 +65,102 @@ function displayHowto(target) {
 
 //////////////////////////////
 //
+// displayHonors -- Show Honors page
+//
+
+function displayHonors(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Honors page.");
+		return;
+	}
+	showTab("honors-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+		}
+	};
+	request.open("GET", "honors.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// displayEvents -- Show Events page
+//
+
+function displayEvents(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Events page.");
+		return;
+	}
+	showTab("events-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+		}
+	};
+	request.open("GET", "events.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
+// displayPublications -- Show Publications page
+//
+
+function displayPublications(target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Publications page.");
+		return;
+	}
+	showTab("publications-heading");
+	var request = new XMLHttpRequest();
+	request.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			element.innerHTML = request.responseText;
+		}
+	};
+	request.open("GET", "publications.html", true);
+	request.send();
+}
+
+
+
+//////////////////////////////
+//
 // showTab --
 //
 
 function showTab(hiid) {
-	var intro     = document.querySelector("#introduction-heading");
-	var hotwo     = document.querySelector("#howto-heading");
+	var intro        = document.querySelector("#introduction-heading");
+	var hotwo        = document.querySelector("#howto-heading");
+	var honors       = document.querySelector("#honors-heading");
+	var events       = document.querySelector("#events-heading");
+	var publications = document.querySelector("#publications-heading");
 
-	intro.className   = hiid == "introduction-heading"   ? "active" : "";
-	hotwo.className   = hiid == "howto-heading"          ? "active" : "";
+	intro.className          = hiid == "introduction-heading"   ? "active" : "";
+	hotwo.className          = hiid == "howto-heading"          ? "active" : "";
+	honors.className         = hiid == "honors-heading"         ? "active" : "";
+	events.className         = hiid == "events-heading"         ? "active" : "";
+	publications.className   = hiid == "publications-heading"   ? "active" : "";
 }
 
 

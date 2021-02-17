@@ -6,10 +6,6 @@ permalink: /about/events-and-publications/index.html
 ---
 
 
-Events and Publications
-----------------------
-
-
 ## Honors ##
 
 

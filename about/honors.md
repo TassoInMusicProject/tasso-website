@@ -7,9 +7,8 @@ layout: simple
 <tr>
 	<td>2021</td>
 	<td>
-		Honorable Mention, <a target="_blank" href="https://www.rsa.org/news/552148/Awards--Prizes-Winners.htm">
-			Digital Innovation Award, Renaissance Society of America
-		</a>
+		<a target="_blank" href="https://www.rsa.org/news/552148/Awards--Prizes-Winners.htm">
+			Honorable Mention, Digital Innovation Award</a>, Renaissance Society of America
 	</td>
 </tr>
 
@@ -48,8 +47,7 @@ layout: simple
 	<td>2016</td>
 	<td>
 		<a target="_blank" href="https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=RQ-249857-16">
-			Scholarly Editions and Translations Grant
-		</a>, National Endowment&nbsp;for the&nbsp;Humanities (3 years, $260,000)
+			Scholarly Editions and Translations Grant</a>, National Endowment&nbsp;for the&nbsp;Humanities (3 years, $260,000)
 	</td>
 </tr>
 
@@ -57,8 +55,7 @@ layout: simple
 	<td>2015</td>
 	<td>
 		<a target="_blank" href="https://www.umass.edu/research/faculty-research-granthealey-endowment-grant-frgheg">
-			Healey Endowment Faculty Research Grant
-		</a>, University&nbsp;of Massachusetts Amherst ($11,675)
+			Faculty Research Grant/Healey Endowment</a>, University&nbsp;of Massachusetts Amherst ($11,675)
 	</td>
 </tr>
 

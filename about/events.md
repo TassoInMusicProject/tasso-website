@@ -11,8 +11,7 @@ layout: simple
 	<td>2020</td>
 	<td>
 		<a target="_blank" href="https://www.umass.edu/music/tasso-and-music-symposium-concerts">
-			Tasso and Music Symposium, University of Massachusetts Amherst 
-		</a>
+			Tasso and Music Symposium</a>, University of Massachusetts Amherst, April 17&ndash;19  (virtual)
 	</td>
 </tr>
 </table>
@@ -25,18 +24,16 @@ layout: simple
 <tr>
 	<td>2021</td>
 	<td>
+		Tasso and Ferrara,
 		<a target="_blank" href="http://www.lacompagniadelmadrigale.com/en/home-en">
-			Tasso and Ferrara, La Compagnia del Madrigale
-		</a><br/>
-		Date TBA
+			La Compagnia del Madrigale</a>, Date TBA (virtual)
 	</td>
 </tr>
 <tr>
 	<td>2020</td>
 	<td>
 		<a target="_blank" href="https://www.youtube.com/watch?v=-mksGYNbqC4">
-			Singing Tasso, Palma Choralis
-		</a>
+			Singing Tasso</a>, Palma Choralis, April 18 (virtual)
 	</td>
 </tr>
 </table>
@@ -49,63 +46,73 @@ layout: simple
 <tr>
 	<td>2020</td>
 	<td>
-		<i>Editing Madrigals in the Digital Age: The Tasso in Music Project</i>
+		"Editing Madrigals in the Digital World: The Tasso in Music Project"
 		<div class="entry">
-			Digital Humanities Conference, The University of British Columbia (virtual)
+			<a target="_blank" href="https://www.youtube.com/watch?v=zXxe7F5G3qM&f&t=649">Digital Humanities Conference</a>, The University of British Columbia, Vancouver, October 28&ndash;31 (virtual)
 		</div>
 		<div class="entry">
-			Music Encoding Conference, Tufts University (virtual)
+			Music Encoding Conference, Tufts University, May 26&ndash;29 (virtual)
 		</div>
 	</td>
 </tr>
 <tr>
 	<td>2018</td>
+
 	<td>
-		<i>Tasso in Music Project</i>
+		"Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso's Poetry"
 		<div class="entry">
-			Centro di Studi Tassiani, Bergamo
+			Ateneo di Brescia, Italy, November 14
 		</div>
 		<div class="entry">
-			University of Bologna
+			University of Bologna, Italy, November 13
 		</div>
 		<div class="entry">
-			Ateneo di Brescia, Brescia
+			Centro di Studi Tassiani, Bergamo, Italy, November 12
 		</div>
+
+		"Corpus Studies and Late Italian Madrigals: The Tasso in Music Project"
 		<div class="entry">
-			Johns Hopkins University
+			University of Ferrara, Italy, November 8
 		</div>
+
+		"Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso’s Poetry"
+		<div class="entry">
+			Johns Hopkins University, March 13
+		</div>
+
 	</td>
 </tr>
 <tr>
 	<td>2017</td>
 	<td>
-		<i>Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso’s Poetry</i>
+		"Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso’s Poetry"
 		<div class="entry">
-			Music Encoding Conference, Tours, France
+			Music Encoding Conference, Tours, France, May 16&ndash;19
+
 		</div>
 	</td>
 </tr>
 <tr>
 	<td>2016</td>
 	<td>
-		<i>Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso’s Poetry</i>
+		"Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso’s Poetry"
 		<div class="entry">
-			Annual Meeting of the North Eastern Modern Languages Association, Hartford, CT 
+			Northeast Modern Languages Association, Hartford, CT, March 17&ndash;20
 		</div>
 	</td>
 </tr>
 <tr>
 	<td>2015</td>
 	<td>
-		Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso’s Poetry
+		"Tasso in Music Project: Digital Edition of the Settings of Torquato Tasso’s Poetry"
 		<div class="entry">
-			Annual Meeting of the American Musicological Society, Louisville, KY
+			American Musicological Society, Louisville, KY, November 12&ndash;15
 		</div>
 		<div class="entry">
-			Meeting of the International Musicological Society, New York
+			International Musicological Society, New York, June 21-26
 		</div>
 		<div class="entry">
-			Music Encoding Initiative Conference, Florence, Italy
+			Music Encoding Initiative Conference, Florence, Italy, May 18&ndash;21
 		</div>
 	</td>
 </tr>
@@ -139,7 +146,9 @@ table.events tr {
 }
 
 div.entry {
+	padding-bottom: 10px;
 	padding-left: 50px;
+	padding-bottom: 10px;
 }
 
 </style>

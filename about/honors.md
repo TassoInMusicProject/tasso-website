@@ -27,8 +27,8 @@ layout: simple
 	<td>2018</td>
 	<td>
 		<i>Patrocinio</i>&nbsp;&nbsp;(honorary sponsorship),
-		<a target="_blank" href="http://www.unife.it/international">
-			University of Ferrara
+		<a target="_blank" href="http://stum.unife.it">
+			University of Ferrara, Department of Humanities
 		</a>
 	</td>
 </tr>

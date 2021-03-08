@@ -76,6 +76,18 @@ function displayNextPoem(id) {
 //
 
 function displayPreviousSetting() {
+	if (!CurrentPoem) {
+		console.log("Error: CurrentPoem is empty");
+		return;
+	}
+	if (!PoemList[CurrentPoem]) {
+		console.log("Error: cannot find", CurrentPoem, " in PoemList", PoemList);
+		return;
+	}
+	if (!PoemList[CurrentPoem].previous) {
+		console.log("Error: PoemList .previous entry for", CurrentPoem, "does not exist see", PoemList);
+		return;
+	}
 	var id = PoemList[CurrentPoem].previous;
 	displayMusicalSettings(nid);
 }
@@ -272,6 +284,10 @@ function displayMultipleWorks() {
 //
 
 function displaySinglePoem(id) {
+	if (!id) {
+		console.log("Error: id is empty in displaySinglePoem");
+		return;
+	}
 
 	document.title = id + " settings";
 	var output = "";
@@ -281,6 +297,15 @@ function displaySinglePoem(id) {
 //	output += "</center>";
 
 	var cleanid    = id.replace(/[a-z]+$/, "");
+	if (!cleanid) {
+		console.log("Error: cleanid in displaysinglePoem is empty");
+		return;
+	}
+	var entry = PoemList[cleanid];
+	if (!entry) {
+		console.log("Error: no entry for", cleanid, "in", PoemList);
+		return;
+	}
 	var previousid = PoemList[cleanid].previous;
 	var nextid     = PoemList[cleanid].next;
 

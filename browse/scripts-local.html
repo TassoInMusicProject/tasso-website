@@ -39,7 +39,7 @@ function showTab(hiid) {
 
 
 
-//////////////////////////////
+/////////////////////////////
 //
 // getOptionListText -- Prepare the list of <option> elements for a selection list.
 //
@@ -51,9 +51,10 @@ function getOptionListText(options, remappings, searching) {
 	for (var i=0; i<options.length; i++) {
 		var text = options[i];
 		if (searching) {
-			if (text.match(searching) || searching.match(text)) {
-				console.log("MATCH", text, searching);
-				selected = 1;
+			// if (text.match(searching) || searching.match(text)) {
+			if (text == searching) {
+				selected++;
+				console.log("MATCH", text, searching, "SELECTED:", selected);
 			} else {
 				selected = 0;
 			}
@@ -66,7 +67,7 @@ function getOptionListText(options, remappings, searching) {
 			text = remappings[text];
 		}
 		output += "<option ";
-		if (selected) {
+		if (selected == 1) {
 			output += "selected ";
 		}
 		output += "value='" + text + "'>" + text2 + "</option>";

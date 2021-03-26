@@ -158,6 +158,7 @@ console.log("FILLING OPTIONS FOR", gvalue, "SEARCHLIST = ", searchlist);
 
 function fillLiteraryDedicateeSelect(options) {
 	var select = document.querySelector("select#browse-dedicatee");
+	select.style["max-width"] = "300px";
 	if (!select) {
 		console.log("ERROR: no literary dedicatee select menu");
 		var sels = document.querySelectorAll("select");

@@ -92,7 +92,7 @@
 		<th onclick="sortByText(0)" class="catalog{{{displayclass this}}}" style="margin-right:10px; cursor:pointer; text-align:left">Catalog</th>
 		<th onclick="sortByText(1)" class="genre{{{displayclass this}}}" style="margin-right:10px; cursor:pointer; text-align:left; color:#B19C5F">Genre&nbsp;&nbsp;&nbsp;</th>
 		<th onclick="sortByText(2)" class="title{{{displayclass this}}}" style="padding-right:15px; cursor:pointer; text-align:left;">Title</th>
-		<th onclick="sortByText(3)" class="dedicatee{{{displayclass this}}}" style="cursor:pointer; text-align:left;">Dedicatee</th>
+		<th onclick="sortByText(3)" class="dedicatee{{{displayclass this}}}" style="max-width:200px; cursor:pointer; text-align:left;">Dedicatee</th>
 		<th onclick="sortByText(4)" class="sources{{{displayclass this}}}" style="cursor:pointer; text-align:left;">Sources</th>
 	<thead>
 	<tbody>
@@ -101,7 +101,7 @@
 			<td style="padding-right:15px !important;" class="catalog{{{displayclass this}}}"><a href="/settings?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
 			<td style="padding-right:10px !important;" class="genre{{{displayclass this}}}">{{{shortGenre GENRE}}}</td>
 			<td class="title{{{displayclass this}}}">{{{TITLE}}} {{{parentheticalinfo this}}}</td>
-			<td class="dedicatee{{{displayclass this}}}" style="padding-right:10px">{{{shortName DEDICATEE}}}</td>
+			<td class="dedicatee{{{displayclass this}}}" style="max-width:200px; padding-right:10px">{{{shortName DEDICATEE}}}</td>
 			<td class="sources{{{displayclass this}}}">{{{manuscriptSrc MANUSRC}}}<br>{{{printSrc PRINTSRC}}}</td>
 		</tr>
 	{{/each}}

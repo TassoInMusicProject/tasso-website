@@ -50,6 +50,9 @@ function getOptionListText(options, remappings, searching) {
 	var selected = 0;
 	for (var i=0; i<options.length; i++) {
 		var text = options[i];
+		if (text) {
+			text = text.replace(/<br>.*/s, "");
+		}
 		if (searching) {
 			// if (text.match(searching) || searching.match(text)) {
 			if (text == searching) {
@@ -66,6 +69,7 @@ function getOptionListText(options, remappings, searching) {
 		if (remappings[text]) {
 			text = remappings[text];
 		}
+		text2 = text2.replace(/<br>.*/s, "");
 		output += "<option ";
 		if (selected == 1) {
 			output += "selected ";

@@ -513,6 +513,7 @@ Handlebars.registerHelper("shortName", function(text) {
 	if (!text) {
 		return new Handlebars.SafeString("");
 	}
+	text = text.replace(/<br>.*/s, "");
 	var output;
 	var matches;
 	var originaltext = text;

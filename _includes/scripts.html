@@ -38,6 +38,15 @@
 {% endif %}
 
 
+
+{% if page.hnp == true %}
+	<script src="https://plugin.humdrum.org/scripts/humdrum-notation-plugin-worker.js"></script>
+{% else %}
+	<!-- page.hnp is disabled "{{page.hnp}}" -->
+{% endif %}
+
+
+
 {% if page.scripts-local == true %}
 	{% include_relative scripts-local.html %}
 {% else %}

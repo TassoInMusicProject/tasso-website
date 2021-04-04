@@ -242,10 +242,8 @@ function interpolateTstamp(timemap, qtime) {
 function continueSetup() {
 	PrepareGlobalTassoObjects();
 	if (ID) {
-console.log("DISPLAYING WORK FOR ID", ID);
 		displayWorkCycle(ID)
 	} else {
-console.log("NO WORK TO DISPLAY");
 return;
 		displayWorkList();
 	}
@@ -344,8 +342,6 @@ function displayWorkCycle(id, target) {
 	output += "</tr>";
 	for (i=0; i<clist.length; i++) {
 		setting = GetSettingEntry(clist[i]);
-console.log("XXX SETTING for ", clist[i],  "IS", setting);
-
 		output += "<tr>"
 
 		output += "<td>";
@@ -374,31 +370,33 @@ console.log("XXX SETTING for ", clist[i],  "IS", setting);
 
 	element.innerHTML = output;
 
-	for (i=0; i<clist.length; i++) {
-		setting = GetSettingEntry(clist[i]);
-		var s = document.createElement("script");
-		s.type = "text/x-humdrum";
-		s.id = setting.CATALOGNUM;
-		var iii = document.querySelector("#contents");
-		iii.appendChild(s);
-	}
-
-	var options = {};
-	options.minLastJustification = 0.30;
-	for (i=0; i<clist.length; i++) {
-		setting = GetSettingEntry(clist[i]);
-
-		if (!setting.SCOREDATA) {
-			// score is not yet prepared, so don't try to show.
-			continue;
+	setTimeout(function() {
+		for (i=0; i<clist.length; i++) {
+			setting = GetSettingEntry(clist[i]);
+			var s = document.createElement("script");
+			s.type = "text/x-humdrum";
+			s.id = setting.CATALOGNUM;
+			var iii = document.querySelector("#contents");
+			iii.appendChild(s);
 		}
-		options.source = setting.CATALOGNUM;
-		options.postFunction = widenTables;
-console.log("SETTING YYYES FOR ID ", clist[i], "IS ", setting);
-		options.url = setting.SCOREDATA.DATAURL;
-console.log("GOT HERE QQQ");
-		displayHumdrum(options);
-	}
+
+		var options = {};
+		options.minLastJustification = 0.30;
+		for (i=0; i<clist.length; i++) {
+			setting = GetSettingEntry(clist[i]);
+
+			if (!setting.SCOREDATA) {
+				// score is not yet prepared, so don't try to show.
+				continue;
+			}
+			options.source = setting.CATALOGNUM;
+			options.postFunction = widenTables;
+			options.url = setting.SCOREDATA.DATAURL;
+			var ostring = JSON.stringify(options);
+			var newoptions = JSON.parse(ostring);
+			displayHumdrum(newoptions);
+		}
+	}, 10);
 }
 
 

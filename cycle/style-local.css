@@ -260,4 +260,8 @@ table.sourceinfo td:first-child {
 }
 
 
+table.humdrum-verovio td, table.humdrum-verovio, div.humdrum-notation-plugin {
+	width: 1028px;
+}
+
 

@@ -353,6 +353,7 @@ function displaySingleWork(id, target) {
 	}
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
+console.log("================= SETTING", SETTING);
 	var output = singleTemplate(SETTING);
 	document.title = ID + " workpage";
 	element.innerHTML = output;

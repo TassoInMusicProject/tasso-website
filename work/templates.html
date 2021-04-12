@@ -332,7 +332,7 @@ table.data td {
 	{{#if COMPOSER}}
 	<h3>Composer</h3>
 	<div class="indent">
-		<div id="composer">{{{composer COMPOSERDATA}}}</div>
+		<div id="composer">{{{composer COMPOSERDATA COMPOSER}}}</div>
 	</div>
 	{{/if}}
 
@@ -416,7 +416,6 @@ Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum, transla
 	var verses = {};
 	verses.VERSE = VERSE;
 	verses.TVERSE = TRANSLATION;
-	var rime = catnum.match(/Trm0*(\d+)/)[1];
 	if (!verses) {
 		return "";
 	}
@@ -719,12 +718,30 @@ function cleanName(original) {
 // composer Handlebar helper -- Reverse name so first name is first.
 //
 
-Handlebars.registerHelper("composer", function(composerdata) {
+Handlebars.registerHelper("composer", function(composerdata, composername) {
+	var cd;
+	var name = "";
+	var url = "";
+	var aliases = "";
+	var area = "";
+	var dates = "";
+	var note = "";
 	if (!composerdata) {
+		cd = null;
+		name = composername;
+	} else {
+		cd = composerdata;
+		name  = cd.COMPOSER;
+		url   = cd.COMURL;
+		dates = cd.DATES;
+		area  = cd.AREA;
+		aliases = cd.ALIASES;
+		note = cd.NOTE;
+	}
+	if (!name) {
+		console.log("NO COMPOSERDATA", composerdata, composername);
 		return new Handlebars.SafeString("");
 	}
-	var cd = composerdata;
-	var name = cd.COMPOSER;
 
 	var matches;
 	var lastname = name;
@@ -733,35 +750,35 @@ Handlebars.registerHelper("composer", function(composerdata) {
 		lastname = matches[1];
 	}
 
-	if (cd.COMURL) {
-		name = "<a target='new' href='" + cd.COMURL + "'>" + name + "</a>";
+	if (url) {
+		name = "<a target='new' href='" + url + "'>" + name + "</a>";
 	}
 
 	var date = "";
-	if (!cd.DATES.match(/^\s*$/)) {
-		date += "(" + cd.DATES + ")";
+	if (!dates.match(/^\s*$/)) {
+		date += "(" + dates + ")";
 	}
 	date = date.replace(/-/g, "&ndash;");
 	var output = name + " " + date;
 
 	var oinfo = "";
 
-	if (cd.ALIASES) {
-		oinfo += "<tr><td><nobr>Alternate spellings/aliases</nobr></td><td>" + cd.ALIASES + "</td></tr>";
+	if (aliases) {
+		oinfo += "<tr><td><nobr>Alternate spellings/aliases</nobr></td><td>" + aliases + "</td></tr>";
 	}
-	if (cd.AREA) {
-		if (cd.AREA.match(/,/)) {
-			oinfo += "<tr><td><nobr>Active areas (alphabetical)</nobr></td><td>" + cd.AREA + "</td></tr>";
+	if (area) {
+		if (area.match(/,/)) {
+			oinfo += "<tr><td><nobr>Active areas (alphabetical)</nobr></td><td>" + area + "</td></tr>";
 		} else {
-			oinfo += "<tr><td>Active area</td><td>" + cd.AREA + "</td></tr>";
+			oinfo += "<tr><td>Active area</td><td>" + area + "</td></tr>";
 		}
 	}
-	if (cd.NOTE) {
-		oinfo += "<tr><td>Note</td><td>" + cd.NOTE + "</td></tr>";
+	if (note) {
+		oinfo += "<tr><td>Note</td><td>" + note + "</td></tr>";
 	}
 
 
-	var workcount = getWorkCountForComposer(cd.COMPOSER);
+	var workcount = getWorkCountForComposer(name);
 	if (workcount > 1) {
 		oinfo += "<tr><td>Other Tasso settings</td><td>";
 		// The link to the browse page is currently deactivated because the

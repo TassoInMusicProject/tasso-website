@@ -1027,6 +1027,10 @@ function displaySourceInformation(source) {
 		var pub = source.PUBLISHER;
 		var shortpub = source.NORMPUBSHORT;
 		if (!shortpub) {
+			// The source list does not have NORMPUBSHORT.  This is
+			// in the *-settings.aton files, so extract the data from
+			// there, since this is the indexing parameter for the publisher
+			// on the browse pages (not the PUBLISHER or NORMPUB parameters).
 			let settingdata = RSETTINGS[ID];
 			if (settingdata) {
 				console.log("GETTING NORMPUBSHORT FROM", settingdata);

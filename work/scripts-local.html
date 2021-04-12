@@ -1477,6 +1477,10 @@ function getRange(id) {
 
 function setSvgSize() {
 	var svg = document.querySelector("#range svg");
+	if (!svg) {
+		// no range, so give up
+		return;
+	}
 	var width = svg.getAttribute("width");
 	var height = svg.getAttribute("height");
 	var scale = 1.6;

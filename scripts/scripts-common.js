@@ -1803,7 +1803,6 @@ function InsertComposersIntoSettings() {
 		var id = list[i].COMPOSER;
 		list[i].COMPOSERDATA = RCOMPOSERS[id];
 	}
-
 }
 
 

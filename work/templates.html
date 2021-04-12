@@ -1025,12 +1025,24 @@ function displaySourceInformation(source) {
 
 	if (source && source.PUBLISHER) {
 		var pub = source.PUBLISHER;
+		var shortpub = source.NORMPUBSHORT;
+		if (!shortpub) {
+			let settingdata = RSETTINGS[ID];
+			if (settingdata) {
+				console.log("GETTING NORMPUBSHORT FROM", settingdata);
+				shortpub = settingdata.NORMPUBSHORT;
+			}
+		}
 		text += "<tr><td><nobr>Publisher</nobr></td><td>";
-		text += "<a target='_new' href='/browse?publisher=" + source.PUBLISHER + "'";
-		text += " title='List of music published by " + source.PUBLISHER + "'";
-		text += ">";
+		text += "<a target='_new' href='/browse?publisher=" + shortpub + "'";
+		if (shortpub) {
+			text += " title='List of music published by " + source.PUBLISHER + "'";
+			text += ">";
+		}
 		text += pub;
-		text += "</a>";
+		if (shortpub) {
+			text += "</a>";
+		}
 		text += "</td></tr>";
 	}
 

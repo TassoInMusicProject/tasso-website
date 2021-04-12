@@ -135,7 +135,9 @@ function displayHeader(target) {
 	if (!element) {
 		return;
 	}
+console.log("+++ ID = ", ID);
 	var workinfo = getWorkInfo(ID);
+console.log("WORKINFO", workinfo);
 	var tsource = document.querySelector("#worknav-template").textContent;
 	var worknavTemplate = Handlebars.compile(tsource);
 	var text = worknavTemplate(workinfo);

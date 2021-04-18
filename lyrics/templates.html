@@ -39,6 +39,9 @@
 
 Handlebars.registerHelper("id2rime", function(data) {
 console.log("DDDDDDDDDDDDDDDDDDDDDDDDDDATA", data);
+	if (!data) {
+		return new Handlebars.SafeString("");
+	}
 	var text = data.id;
 	var matches;
 	var output = 0;

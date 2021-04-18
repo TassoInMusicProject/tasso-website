@@ -1110,7 +1110,7 @@ function generateSiglaEntryText(sigla, url) {
 		// single sigla entry
 		output = sigla;
 		if (url) {
-			output += " (<a target='_blank' href='" + url + "'>view digitized source</a>)";
+			output += " (<a target='_blank' href='" + url + "'>view scanned source</a>)";
 		}
 	} else {
 		// double sigla entry
@@ -1120,7 +1120,7 @@ function generateSiglaEntryText(sigla, url) {
 		for (var i=0; i<siglas.length; i++) {
 			xxx = siglas[i]
 			if (urls[i]) {
-				xxx += " (<a target='_blank' href='" + urls[i] + "'>view digitized source</a>)";
+				xxx += " (<a target='_blank' href='" + urls[i] + "'>view scanned source</a>)";
 			}
 			output += xxx;
 			if (i < siglas.length - 1) {

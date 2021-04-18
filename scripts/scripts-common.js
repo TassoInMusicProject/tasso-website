@@ -1414,9 +1414,11 @@ function ExternalLinksToNewTab() {
 //
 
 function LoadTassoData(fn) {
+console.log("GETTING TASSODATA");
 	if (sessionStorage["TASSODATA"]) {
 		console.log("Loaded Tasso database from session storage");
 		TASSODATA = JSON.parse(sessionStorage.TASSODATA);
+console.log("GOT TASSODATA FROM SESSION STORAGE", TASSODATA);
 		if (fn) {
 			fn();
 		}
@@ -1429,6 +1431,7 @@ function LoadTassoData(fn) {
 				console.log("Loaded Tasso database from server");
 				var aton = new ATON;
 				TASSODATA = aton.parse(this.responseText).TASSODATA;
+console.log("GOT TASSODATA2 FROM WEBSITE", TASSODATA);
 				sessionStorage.TASSODATA = JSON.stringify(TASSODATA);
 				fn();
 			}

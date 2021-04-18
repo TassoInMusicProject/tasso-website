@@ -55,6 +55,8 @@ function getLyrics(id) {
 			return;
 		}
 		var text = this.responseText.replace(/<style>[\S\s]*?<\/style>/, "");
+
+
 		text = text.replace(/<script>[\S\s]*?<\/script>/, "");
 		// (replace above does not work)
 		element.innerHTML = this.responseText;
@@ -64,7 +66,7 @@ function getLyrics(id) {
 	});
 	request.send();
 
-	loadWorkList();
+	// loadWorkList();
 }
 
 
@@ -75,10 +77,10 @@ function getLyrics(id) {
 //
 
 function loadWorkList(url) {
+/*
 	if (!url) {
 		url = "{{site.worklist}}";
 	}
-console.log("URL", url);
 	var counter = 0;
 
 	if (sessionStorage.WORKLIST) {
@@ -118,6 +120,7 @@ console.log("URL", url);
 
 function continueSetup() {
 	displayHeader();
+*/
 }
 
 
@@ -135,9 +138,7 @@ function displayHeader(target) {
 	if (!element) {
 		return;
 	}
-console.log("+++ ID = ", ID);
 	var workinfo = getWorkInfo(ID);
-console.log("WORKINFO", workinfo);
 	var tsource = document.querySelector("#worknav-template").textContent;
 	var worknavTemplate = Handlebars.compile(tsource);
 	var text = worknavTemplate(workinfo);
@@ -152,18 +153,9 @@ console.log("WORKINFO", workinfo);
 //
 
 function getWorkInfo(id) {
-	if (!WORKLIST) {
-		return null;
-	}
-	var i, j;
-	for (i=0; i<WORKLIST.length; i++) {
-		var rep = WORKLIST[i];
-		for (j=0; j<rep.works.length; j++) {
-			if (rep.works[j].id === id) {
-				return rep.works[j];
-			}
-		}
-	}
+	let value = RSETTING[id];
+	console.log("XXXXXXXXXXXXXXXXXX WORKINFO:", value);
+	return value;
 }
 
 
@@ -420,6 +412,10 @@ function sortAlphabetic() {
 
 function addSortButton() {
 	var wf = document.querySelector("#wf");
+	if (!wf) {
+		console.log("Cannot find #wf in addSortButton");
+		return;
+	}
 	var button = document.createElement("div");
 	button.id = "sortbutton";
 	button.className = "wfbutton";
@@ -437,6 +433,10 @@ function addSortButton() {
 
 function addDataButton() {
 	var wf = document.querySelector("#wf");
+	if (!wf) {
+		console.log("Cannot find #wf in addDataButton");
+		return;
+	}
 	var button = document.createElement("input");
 	button.id = "databutton";
 	button.className = "wfbutton";

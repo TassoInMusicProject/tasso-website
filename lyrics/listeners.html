@@ -7,8 +7,15 @@
 //
 
 document.addEventListener("DOMContentLoaded", function (event) {
-	getLyrics();
+	LoadTassoData(continueSetup);
 });
+
+
+function continueSetup() {
+	PrepareGlobalTassoObjects();
+	getLyrics();
+}
+
 
 
 window.addEventListener("keydown", function (event) {

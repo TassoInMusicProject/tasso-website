@@ -24,9 +24,9 @@ layout: simple
 <tr>
 	<td>2021</td>
 	<td>
-		Tasso and Ferrara,
+		<a target="_blank" href="https://www.umass.edu/music/event/tasso-concert-vocal-ensemble-la-compagnia-del-madrigale">Tasso and Ferrara</a>,
 		<a target="_blank" href="http://www.lacompagniadelmadrigale.com/en/home-en">
-			La Compagnia del Madrigale</a>, Date TBA (virtual)
+			La Compagnia del Madrigale</a>, Saturday May 15, 2 p.m. EST (virtual)
 	</td>
 </tr>
 <tr>

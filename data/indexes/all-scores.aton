@@ -303,14 +303,14 @@
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tam/kern/Tam2031045b-Nove_Aminta_tannuncio_di_conforto--Marotta_1600.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tam/kern/Tam2031045b-Nove_Aminta_tannuncio_di_conforto--Marotta_1600.krn
 @VNAME:	Canto I
-@VNAME:	Tenore
 @VNAME:	Canto II
 @VNAME:	Alto II
+@VNAME:	Tenore I
 @VNAME:	Basso II
 @VABBR:	C
-@VABBR:	T
 @VABBR:	C
 @VABBR:	A
+@VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -373,14 +373,14 @@
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tam/kern/Tam2031067b-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Marotta_1600.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tam/kern/Tam2031067b-Orsu_scuoprimi_il_tutto_Odi_Di_tosto--Marotta_1600.krn
 @VNAME:	Canto I
-@VNAME:	Tenore
 @VNAME:	Canto II
 @VNAME:	Alto II
+@VNAME:	Tenore I
 @VNAME:	Basso II
 @VABBR:	C
-@VABBR:	T
 @VABBR:	C
 @VABBR:	A
+@VABBR:	T
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -693,7 +693,7 @@
 @VNAME:	Canto
 @VNAME:	Quinto
 @VNAME:	Alto
-@VNAME:	Tenor
+@VNAME:	Tenore
 @VNAME:	Sesto
 @VNAME:	Basso
 @VABBR:	C
@@ -5515,9 +5515,9 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
-@VABBR:	BC
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5559,9 +5559,9 @@
 @VABBR:	C
 @VABBR:	A
 @VABBR:	T
-@VABBR:	Q
+@VABBR:	V
 @VABBR:	B
-@VABBR:	BC
+@VABBR:	Bc
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA
@@ -5836,6 +5836,22 @@
 @VABBR:	C I
 @VABBR:	C II
 @VABBR:	Bc
+@@END:	SCOREDATA
+
+@@BEGIN:	SCOREDATA
+@CATALOGNUM:	Tsg12096b
+@DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Tsg/kern/Tsg12096b-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Marenzio_1584.krn
+@EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Tsg/kern/Tsg12096b-Giunto_a_la_tomba_ove_al_suo_spirto_vivo--Marenzio_1584.krn
+@VNAME:	Canto
+@VNAME:	Alto
+@VNAME:	Tenore
+@VNAME:	Quinto
+@VNAME:	Basso
+@VABBR:	C
+@VABBR:	A
+@VABBR:	T
+@VABBR:	V
+@VABBR:	B
 @@END:	SCOREDATA
 
 @@BEGIN:	SCOREDATA

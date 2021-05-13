@@ -83,6 +83,10 @@ Giuseppe Gerbino (Columbia University)
 </div>
 
 <div class="person">
+Marco Giuliani (Conservatory of Bolzano) 
+</div>
+
+<div class="person">
 Marco Mangani (University of Florence) 
 </div>
 

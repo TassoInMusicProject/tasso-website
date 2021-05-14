@@ -568,7 +568,6 @@ Handlebars.registerHelper("formatTitle", function(text, id) {
 		text += "</a>";
 	}
 
-console.log("TEXT:", text);
 	if (text.match(/\<i>i\.e\.<\/i>,/)) {
 		// clean case where there is a setting title and a poem title for not rime.
 		text = text.replace(/\(/, "ZZZ");
@@ -579,7 +578,6 @@ console.log("TEXT:", text);
 		}
 		text = text.replace("ZZZ", "(");
 		text = text.replace("()", "");
-console.log("OUTPUT TEXT:", text);
 		
 	}
 

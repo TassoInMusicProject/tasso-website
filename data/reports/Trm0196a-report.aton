@@ -7,19 +7,22 @@
 
 @PRINCIPAL_SOURCE: {{risminfo "1583-10"}}
 
+@OTHER_SOURCE: {{risminfo "V 2105"}}
+
 @OTHER_SOURCE: {{risminfo "1591-8"}}
+
 @OTHER_SOURCE: {{risminfo "1593-2"}}
 
 @EMENDED_READING: 
-{M 13}, VI, last note is a semiminin; RISM 1591-8 and RISM 1593-2 emend with a minim
-@EMENDED_READING: {M 22 23}, TVB, text reads "gia-ci-ti,"  RISM 1591-8 and RISM 1593-2 emend with "gia-cin-ti"
-@EMENDED_READING: {M 39}, C, semibreve is dotted; RISM 1591-8 and RISM 1593-2 emend with semebreve without dot
-@EMENDED_READING: {M 42}, AT, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
-@EMENDED_READING: {M 43}, VVI, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
-@EMENDED_READING: {M 44}, C, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
+{{M 13}}, VI, last note is a semiminin; RISM 1591-8 and RISM 1593-2 emend with a minim
+@EMENDED_READING: {{M 22 23}}, TVB, text reads "gia-ci-ti,"  RISM 1591-8 and RISM 1593-2 emend with "gia-cin-ti"
+@EMENDED_READING: {{M 39}}, C, semibreve is dotted; RISM 1591-8 and RISM 1593-2 emend with semebreve without dot
+@EMENDED_READING: {{M 42}}, AT, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
+@EMENDED_READING: {{M 43}}, VVI, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
+@EMENDED_READING: {{M 44}}, C, text reads "Scerzan"; RISM 1593-2 emends with "Scherzan"
 
 @OTHER_CRITICAL_NOTES: 
-{M 42 51}, CATBVVI, text reads "Scerzan" in RISM 1591-8
+{{M 42 51}}, CATBVVI, text reads "Scerzan" in RISM 1591-8
 
 
 @COMMENTARY:
@@ -27,8 +30,27 @@
 @MODERN_EDITION:
 
 @VERSE:
-
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d'Amore,
+	A cui ride la terra e 'l Ciel d'intorno;
+	E di bel manto adorno
+	Di giacinti e viole il Pò si veste.
+	Danzan le ninfe honeste e i pastorelli;
+	E cantano gli augelli infra le fronde
+	Al mormorar de l'onde; e 'n grembo a i fiori
+	Scherzan le Gratie e i pargoletti Amori.
 @TVERSE:
+	A happy spring
+	Of beautiful thoughts blooms in my heart
+	A new laurel of love,
+	Upon which the earth and the sky smile nearby:
+	And with a beautiful mantle adorned
+	With hyacinths and violets the Pò clothes itself:
+	The honest nymphs and the young shepherds dance;
+	And the birds sing among the leafy branches
+	To the murmuring of the waves: and amid flowers
+	Play the Graces and the little Cupids.
 
 @@END: REPORT
 

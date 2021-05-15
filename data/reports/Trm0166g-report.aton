@@ -5,21 +5,43 @@
 
 @LAST_MODIFIED: 2020/07/07
 
-@PRINCIPAL_SOURCE:
+@PRINCIPAL_SOURCE: {{risminfo "G 1721"}} 
 
-@OTHER_SOURCE:
+@OTHER_SOURCE: {{risminfo "G 1722'}}
 
-@EMENDED_READING:
+@OTHER_SOURCE: {{risminfo "G 1723'}}
+
+@OTHER_SOURCE: {{risminfo "G 1743'}}
+
+@EMENDED_READING: {{M 21}}, B, final note is a C; Molinaro's 1616 corrects it to an A
 
 @OTHER_CRITICAL_NOTES:
+{M 18}, A, in Molinaro's edition the second note is a C sharp
+
+@OTHER_CRITICAL_NOTES:
+{M 21}, C, in Molinaro's edition the second and third notes are a G sharp
+
 
 @COMMENTARY:
 
 @MODERN_EDITION:
 
 @VERSE:
+Se taccio, il duol s’avanza;
+Se parlo, accresco l’ira,
+Donna bell’e crudel, che mi martira.
+Ma pur prendo speranza 
+Che l’humiltà vi pieghi,
+Ché nel silentio ancor son voc’e prieghi. 
+
 
 @TVERSE:
+If I am silent, the pain advances;
+	If I speak, I increase the anger,
+	Beautiful and cruel woman who torments me.
+	But in the end I take hope
+	That humility may persuade you,
+	For in my silence there are still words and prayers.
 
 @@END: REPORT
 

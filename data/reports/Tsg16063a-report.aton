@@ -5,11 +5,16 @@
 
 @LAST_MODIFIED: 2020/07/07
 
-@PRINCIPAL_SOURCE:
+@PRINCIPAL_SOURCE: {{risminfo "M 3459"}}
 
-@OTHER_SOURCE:
+@OTHER_SOURCE: {{risminfo "M 3461"}}
 
-@EMENDED_READING:
+@OTHER_SOURCE: {{risminfo "M 3464'}}
+
+@EMENDED_READING: {{M 6}}, T, the first B is missing.
+
+@EMENDED_READING: {{M 21}}, A, text syllables missing under forth
+
 
 @OTHER_CRITICAL_NOTES:
 
@@ -18,8 +23,24 @@
 @MODERN_EDITION:
 
 @VERSE:
+Poi ch’ella in sé tornò, deserto e muto
+Quanto mirar poté d’intorno scorse.
+“Ito se n’è pur,” disse “ed ha potuto
+Me qui lasciar de la mia vita in forse?
+Né un momento indugiò, né un breve aiuto
+Nel caso estremo il traditor mi porse?
+Ed io pur anco l’amo, e in questo lido
+Invendicata ancor piango e m’assido?
 
 @TVERSE:
+Then, when she came to, she found it deserted and silent
+As far as she could see around her.
+“So he is gone,” she said “and was able
+To leave me here, uncertain of my own life?
+Could not that traitor have tarried a moment, nor could he have offered me a brief help in my desperation?
+And yet still do I love him, and on this shore,
+Unavenged, I sit me down to weep again?
+
 
 @@END: REPORT
 

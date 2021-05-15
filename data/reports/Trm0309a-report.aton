@@ -5,11 +5,13 @@
 
 @LAST_MODIFIED: 2020/07/07
 
-@PRINCIPAL_SOURCE:
+@PRINCIPAL_SOURCE: {{risminfo "M 519"}}
 
-@OTHER_SOURCE:
+@OTHER_SOURCE: {{risminfo "M 520"}}
 
-@EMENDED_READING:
+@OTHER_SOURCE: {{risminfo "M 524"}}
+
+@EMENDED_READING: none
 
 @OTHER_CRITICAL_NOTES:
 
@@ -18,8 +20,33 @@
 @MODERN_EDITION:
 
 @VERSE:
-
+	O verdi selve, o dolci fonti, o rivi,
+	O luoghi ermi e selvaggi,
+	Pini, abeti, ginepri, allori e faggi;
+	O vaghi augelli, semplici e lascivi,
+	Eco, e tu che rispondi al mio lamento,
+	Chi pu&ograve; dar fine a s&igrave; crudel fortuna?
+	"<i>Una</i>." Dunque sol una,
+	È la cagion del mio mesto concento?
+	"<i>Cento</i>." Non son gi&agrave; cento, e pur son molte
+	In bella festa accolte:
+	Come una potr&agrave; dunque il mal fornire? 
+	"<i>Ire</i>," Per ira mia n&eacute; per dispetto
+	Non avr&agrave; fine amor nel nostro petto?
 @TVERSE:
+	O green forests, o sweet springs, o streams,
+	O places secluded and wild,
+	Pines, firs, junipers, laurels and beeches;
+	O lovely birds, simple and wanton,
+	Echo, and you who answer my lament,
+	Who can make an end to such cruel fortune?
+	"<i>One</i>." So, only one,
+	Is the cause of my miserable harmony?
+	"<i>One hundred</i>." They are not quite one hundred, and yet many are
+	Gathered for a beautiful fest:
+	How will one therefore produce evil?
+	"<i>Ires</i>," [Not] for my ire, nor out of spite,
+	Will love come to an end in our breast?
 
 @@END: REPORT
 

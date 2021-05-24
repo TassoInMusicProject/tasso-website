@@ -9,6 +9,20 @@ layout: simple
 	<td>
 		<a target="_blank" href="https://www.rsa.org/news/552148/Awards--Prizes-Winners.htm">
 			Honorable Mention, Digital Innovation Award</a>, Renaissance Society of America
+	<div style="line-height:24px; text-align: justify; text-justify: inter-word; font-size:14pt; margin-left:80px; margin-right:100px;" class="citation">
+		"The honourable mention for the RSA Digital Innovation Prize goes
+		to the <i>Tasso In Music Project</i>, directed by Emiliano Ricciardi of
+		the University of Massachusetts Amherst. This project offers not
+		only a digital edition, but also the opportunity to explore musical
+		settings for Tasso’s work using both qualitative and quantitative
+		means. The <i>Tasso in Music Project</i> is an exciting approach to Tasso's
+		work using multimedia and textual studies and the intersection of
+		literature and music. The Digital Innovation Awards committee
+		appreciated the transparent and substantial technical documentation,
+		intuitive interface, the manifold approaches to analysis, and the
+		innovative search functions. Congratulations to the <i>Tasso in Music
+		Project</i> team."
+	</div>
 	</td>
 </tr>
 

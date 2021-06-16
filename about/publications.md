@@ -21,3 +21,13 @@ World: The Tasso in Music Project,” <i><a href="https://music-encoding.org/con
 
 Emiliano Ricciardi, “The Tasso in Music Project,” <i>Early Music</i> 43, no. 4 (2015): 667&ndash;71.
 
+<h2> Reviews </h2>
+
+
+Lucia Marchi, “<a target="_blank"
+href="https://online.ucpress.edu/jams/article-abstract/74/1/187/116881/Tasso-in-Music-Project-TiMP-Digital-Edition-of-the?redirectedFrom=fulltext">Tasso
+in Music Project (TiMP): Digital Edition of the Settings of Torquato
+Tasso’s Poetry, c. 1570–1640</a>,” <i>Journal of the American Musicological
+Society</i> 74, no. 1 (2021): 187&ndash;195.
+
+

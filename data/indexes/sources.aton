@@ -4789,7 +4789,7 @@
 @@BEGIN: SOURCE
 @RISM:	1583-11
 @AUTHOR:	Marenzio, Luca, etc.
-@TITLEPAGE:	
+@TITLEPAGE:	DE FLORIDI / VIRTVOSI / D'ITALIA / <i>IL PRIMO LIBRO DE MADRIGALI</i> / <i>a Cinque Voci, nouamente composti, </i> / <i>& dati in luce. </i> / <i> CON PRIVILEGIO. </i> / <i> IN VENETIA </i> / <i> Appresso Giacomo Vincenci, & Ricciardo Amadino compagni, </i> / <i> MDLXXXIII.</i>
 @TITLESHORT:	De floridi virtuosi d’italia il primo libro de madrigali a cinque voci
 @PUBLISHER:	Vincenci & Amadino
 @YEAR:	1583
@@ -4804,16 +4804,40 @@
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
-@REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R238/
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	1591-21
+@RISM:	1586-8
+@AUTHOR:	Marenzio, Luca, etc.
+@TITLEPAGE:	DE FLORIDI / VIRTVOSI / D'ITALIA, / IL PRIMO LIBRO DE MADRIGALI / à Cinque Voci, nouamente ristampato. / IN VENETIA / Presso Giacomo Vincenzi, & Ricciardo Amadino, compagni / MDLXXXVI.
+@TITLESHORT:	De floridi virtuosi d’italia il primo libro de madrigali a cinque voci
+@PUBLISHER:	Vincenzi & Amadino
+@YEAR:	1586
+@PUBTYPE:	anthology
+@PUBFORMAT:	part-books
+@PUBLOC:	Venezia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R239/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 515
 @AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
+@TITLEPAGE:	IL QVINTO LIBRO / DE MADRIGALI / A SEI VOCI / <i>Di Luca Marenzio</i>. / Nouamente dato in luce. / In Venetia Appresso Angelo Gardano. / M.D. LXXXXI. 
 @TITLESHORT:	Il quinto libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1591
@@ -4835,9 +4859,81 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
-@RISM:	1595-10
+@RISM:	M 516
 @AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
+@TITLEPAGE:	DI LVCA MAREN- / TIO IL QVINTO LIBRO / DE MADRIGALI / A Sei Voci. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano. / M.D. LXXXV.
+@TITLESHORT:	Il quinto libro de madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1595
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T046/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 517
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL QVINTO LIBRO / DE MADRIGALI / A SEI VOCI. / <i>Nouamente Ristampato.</i> / <i>IN VENETIA</i>, MDCXV. / Appresso l'Herede di Girolamo Scotto.
+@TITLESHORT:	Il quinto libro de madrigali a sei voci
+@PUBLISHER:	Herede di G. Scotto
+@YEAR:	1595
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b8426026q
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 518
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENTIO / Il QVINTO LIBRO/ DE MADRIGALI / A SEI VOCI. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano e fratelli. / MDCX.
+@TITLESHORT:	Il quinto libro de madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1610
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	F-Pn
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 560
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL SETTIMO LIBRO DE MADRIGALI / A CINQVE VOCI, / Nouamente Composto & dato in luce. / In Venetia Appresso Angelo Gardano. / M.D. LXXXXV.
 @TITLESHORT:	Il settimo libro de madrigali a cinque voci
 @PUBLISHER:	Gardano
 @YEAR:	1595
@@ -4848,9 +4944,9 @@
 @SRCDEDICATEE:	Don Diego de Campo
 @SRCDEDICATEESHORT:	Diego de Campo
 @SRCDEDICATEEURL:	
-@OPARTBOOKS:	CATBVVI
-@EXTPARTBOOKS:	CATBVVI
-@EXTNAMES:	C,A,T,B,V,VI
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://repository.royalholloway.ac.uk/items/8a2d1358-ebfa-9092-e20e-aa0328a01dcb/1/treenav.jsp?tempwn.b=close
@@ -4859,9 +4955,81 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	M 561
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL SETTIMO LIBRO DE MADRIGALI / A CINQVE VOCI, /Di novo Ristampati & Corretti. / In Venetia, Appresso Angelo Gardano. 1600.
+@TITLESHORT:	Il settimo libro de madrigali a cinque voci
+@PUBLISHER:	Gardano
+@YEAR:	1600
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 562
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL SETTIMO LIBRO DE MADRIGALI / A CINQVE VOCI, /Di novo Ristampati & Corretti. / In Venetia, Appresso Angelo Gardano. 1069 [sic]
+@TITLESHORT:	Il settimo libro de madrigali a cinque voci
+@PUBLISHER:	Gardano
+@YEAR:	1609
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T026/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 563
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL SETTIMO LIBRO DE MADRIGALI / A CINQVE VOCI. / Nouamente ristampato. / In Venetia Appresso l'Herede di Girolamo Scotto. / MDCV. 
+@TITLESHORT:	Il settimo libro de madrigali a cinque voci
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1609
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	CATB
+@SRCLOCSIGLA:	I-PAc
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	M 504
 @AUTHOR:	Marenzio, Luca
-@TITLEPAGE:	
+@TITLEPAGE:	IL SECONDO LIBRO / DE MADRIGALI / A SEI VOCI, / Di Luca Marenzio, Nouamente Composto, / & dato in luce. / In Venetia Appresso Angelo Gardano. / M D LXXXIIII.
 @TITLESHORT:	Il secondo libro de madrigali a sei voci
 @PUBLISHER:	Gardano
 @YEAR:	1584
@@ -4878,6 +5046,54 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T038/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 505
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL SECONDO LIBRO / DE MADRIGALI / A SEI VOCI. / Nouamente Ristampato. / IN VENETIA, MDXCVI. / Appresso l'Herede di Girolamo Scoto [sic].
+@TITLESHORT:	Il secondo libro de madrigali a sei voci
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1596
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	US-CA
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 506
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	IL SECONDO LIBRO / DE MADRIGALI / A SEI VOCI / DI LVCA MARENZIO/ Di nouo Ristampato, & con diligenza / Corretto. / In Venetia, Appresso Angelo Gardano. / 1600.
+@TITLESHORT:	Il secondo libro de madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1600
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-As
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4907,6 +5123,54 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	M 508
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL TERZO LIBRO / DE MADRIGALI A SEI VOCI. / <i>Nouamente ristampati.</i> / <i>IN VENETIA Appresso l'Herede di Girolamo Scotto.</i> / <i>MDLXXXIX.</i>
+@TITLESHORT:	Il terzo libro de' madrigali a sei voci
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1589
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T041/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 509
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL TERZO LIBRO DE MADRIGALI / a Sei Voci. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano. / M.D. LXXXXIIII.
+@TITLESHORT:	Il terzo libro de' madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1594
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-As
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	M 510
 @AUTHOR:	Marenzio, Luca
 @TITLEPAGE:	DI LVCA / MARENZIO / IL QVARTO LIBRO DE MADRIGALI / a Sei Voci Nouamente composti, & dati in luce. / CON PRIVILEGGIO. / In Venetia Presso Giacomo Vincenzi. / MDLXXXVII.
@@ -4926,6 +5190,102 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T043/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 511
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA / MARENZIO / IL QVARTO LIBRO / DE MADRIGALI A SEI VOCI/ Nouamente ristampato, & da molti errori / diligentissimamente emedndato.  / II VENETIA /  Appresso Ricciardo Amadino. / MDLXXXVII.
+@TITLESHORT:	Il quarto libro de madrigali a sei voci
+@PUBLISHER:	Amadino
+@YEAR:	1587
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/86131/edition/78101/content
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 512
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	IL QVARTO LIBRO / DE MADRIGALI / A SEI VOCI / DI LVCA MARENZIO / Nouamente Ristampato. / In Venetia Appreso Angelo Gardano. / MDLXXXXIII.
+@TITLESHORT:	Il quarto libro de madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1593
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	D-As
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 513
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL QVARTO LIBRO / DE MADRIGALI / A Sei Voci. / <i>Nouamente ristampati</i> / <i>IN VENETIA, Appresso l'herede di Girolamo Scotto. MDCIII. </i>
+@TITLESHORT:	Il quarto libro de madrigali a sei voci
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1603
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	US-Wc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://loc.gov/item/ihas.200154754
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 514
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	LIBRO QVARTO / DE MADRIGALI / A SEI VOCI. / DI LVCA MARENZIO. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano. / MDCV.
+@TITLESHORT:	Il quarto libro de madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1605
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5003,6 +5363,54 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	M 526
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	 DI LVCA MARENZIO / IL PRIMO LIBRO / DE' Madrigali Spirituali à Cinque Voci. / Nouamente Ristampati. / IN VENETIA, Appresso l' Herede di Girolamo Scotto. / MDLXXXVIII.
+@TITLESHORT:	Madrigali spirituali a cinque voci. Libro primo
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1588
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/86128/edition/78098
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 527
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	 DI LVCA MARENZIO / IL PRIMO LIBRO / DE' Madrigali Spirituali à Cinque Voci. / Nouamente Ristampati. / IN VENETIA, Appresso l' Herede di Girolamo Scotto. / MDCVI.
+@TITLESHORT:	Madrigali spirituali a cinque voci. Libro primo
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1606
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-Rv
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	M 524
 @AUTHOR:	Marenzio, Luca
 @TITLEPAGE:	DI LVCA MARENZIO / MVSICO ECCELLENTISS. / Il Primo, Secondo, Terzo, Quarto & Quinto Libro / DE MADRIGALI / A SEI VOCI / Nouamente Ristampati & in vn Corpo ridotti. / IN ANVERSA / Appresso Pietro Phalesio al Re Dauid. |/M.DCX.
@@ -5051,6 +5459,78 @@
 @@END: SOURCE
 
 @@BEGIN: SOURCE
+@RISM:	M 550
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL QVARTO LIBRO / DE MADRIGALI A CINQVE VOCI / Nouamente Ristampati. / IN VENETIA / Appresso Giacomo Vincenti. / MDLXXXIX.
+@TITLESHORT:	Il quarto libro de madrigali a cinque voci
+@PUBLISHER:	Vincenti
+@YEAR:	1589
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	A-Wn
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 551
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / Il QVARTO LIBRO DE MADRI- / GALI A CINQVE VOCI. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano. / M.D. LXXXXIIII
+@TITLESHORT:	Il quarto libro de madrigali a cinque voci
+@PUBLISHER:	Gardano
+@YEAR:	1594
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	B-Br
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://uurl.kbr.be/1563256
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 552
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / Il QVARTO LIBRO DE MADRIGALI A CINQVE VOCI. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano & Fratelli. / MDCVII.
+@TITLESHORT:	Il quarto libro de madrigali a cinque voci
+@PUBLISHER:	Gardano
+@YEAR:	1607
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBV
+@EXTPARTBOOKS:	CATBV
+@EXTNAMES:	C,A,T,B,V
+@SRCLOCSIGLA:	I-VEcap
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
 @RISM:	M 500
 @AUTHOR:	Marenzio, Luca
 @TITLEPAGE:	DI LVCA MARENZIO / MAESTRO DI CAPELLA DELL'ILLVSTRISSIMO / ET REVERENDISSIMO SIGNOR CARDINALE D'ESTE. / IL PRIMO LIBRO DE MADRIGALI A SEI VOCI / Nouamente composti, & dati in luce. / In Venetia Appresso Angelo Gardano / MDLXXXI.
@@ -5070,6 +5550,78 @@
 @SRCLOCSIGLA:	I-Bc (C); I-PESc (A); D-Mbs(TBVVI)
 @REPRODUCTIONTYPE:	digital facsimile, microfilm
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T036/ https://books.google.com/books?id=p48dkhOeM8AC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 501
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALI / A SEI VOCI. / Di Luca Marenzio Maestro di Cappella dell'Illustrissimo / & Reverendissimo Signor Cardinal d'Este. / Nouamente Ristampato. / In Venetia Appresso Angelo Gardano. / MDLXXXIIII.
+@TITLESHORT:	Il primo libro de madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1584
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T037/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 502
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL PRIMO LIBRO / DE MADRIGALI / A SEI VOCI. / Nouamente Ristampato. / IN VENETIA, MDXCVI. / Appresso l'Heredi di Girolamo Scoto [sic].
+@TITLESHORT:	Il primo libro de madrigali a sei voci
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1596
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	I-Nc
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 503
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	IL PRIMO LIBRO / DE MADRIGALi / A SEI VOCI. / DI LVCA MARENZIO / Nouamente Ristampato. / IN VENETIA. / Appresso Angelo Gardano. / M.D. CIIII.
+@TITLESHORT:	Il primo libro de madrigali a sei voci
+@PUBLISHER:	Gardano
+@YEAR:	1604
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATBVVI
+@EXTPARTBOOKS:	CATBVVI
+@EXTNAMES:	C,A,T,B,V,VI
+@SRCLOCSIGLA:	GB-Lbl
+@REPRODUCTIONTYPE:	microfilm
+@SRCURL:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5190,6 +5742,126 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 579
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	MADRIGALI / A QVATRO VOCI / DI LVCA MARENZIO / Nuouamente con ogni diligenza ristampati. / LIBRO PRIMO. / In Venetia, Presso Giacomo Vincenzi. / MDLXXXVII.
+@TITLESHORT:	Madrigali a quattro voci. Libro primo
+@PUBLISHER:	Amadino
+@YEAR:	1587
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	PL-GD
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/86126/edition/78096/content
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 580
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	MADRIGALI / A QVATRO VOCI / DI LVCA MARENZIO / Nuouamente con ogni diligenza / ristampati. / LIBRO PRIMO. / IN VENETIA / Appresso Ricciardo Amadino. / MDLXXXVII.
+@TITLESHORT:	Madrigali a quattro voci. Libro primo
+@PUBLISHER:	Vincenzi
+@YEAR:	1587
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	T
+@EXTNAMES:	T
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S408/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 581
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	MADRIGALI / A QVATTRO VOCI / DI LVCA MARENZIO. / Nouamente con ogni diligenza ristampati. / LIBRO PRIMO. / In Venetia Appresso Angelo Gardano. / M.D. LXXXXII.
+@TITLESHORT:	Madrigali a quattro voci. Libro primo
+@PUBLISHER:	Gardano
+@YEAR:	1592
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T001/
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 584
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	MADRIGALI / à Quattro Voci, / DI / LVCA MARENZIO. / Novamente con ogni diligenza ristampati. / NORIBERGÆ / Excudebat Paulus Kauffmannus. / M D C III.
+@TITLESHORT:	Madrigali a quattro voci. Libro primo
+@PUBLISHER:	Kaufman
+@YEAR:	1603
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Norimberga
+@PUBNORMLOC:	Nuremberg
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	D-Dl
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	https://sachsen.digital/werkansicht/10802/5/0?cHash=32fc71c819cddbae4555fda30930b0c1
+@MODERNED:	
+@MODERNEDURL:	
+@@END: SOURCE
+
+@@BEGIN: SOURCE
+@RISM:	M 586
+@AUTHOR:	Marenzio, Luca
+@TITLEPAGE:	DI LVCA MARENZIO / IL PRIMO LIBRO / DE MADRIGALI / A Quattro Voci. / <i>Nouamente ristampati.</i> / IN VENETIA Appresso l'Herede di Girolamo Scoto [sic]. / MDCVIII.
+@TITLESHORT:	Madrigali a quattro voci. Libro primo
+@PUBLISHER:	Herede di Scotto
+@YEAR:	1608
+@PUBTYPE:	single-author
+@PUBFORMAT:	part-books
+@PUBLOC:	Venetia
+@PUBNORMLOC:	Venice
+@SRCDEDICATEE:	
+@SRCDEDICATEESHORT:	
+@SRCDEDICATEEURL:	
+@OPARTBOOKS:	CATB
+@EXTPARTBOOKS:	CATB
+@EXTNAMES:	C,A,T,B
+@SRCLOCSIGLA:	I-Bc
+@REPRODUCTIONTYPE:	digital facsimile
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T002/
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE

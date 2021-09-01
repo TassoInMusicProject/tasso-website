@@ -87,6 +87,10 @@ Marco Giuliani (Conservatory of Bolzano)
 </div>
 
 <div class="person">
+Cecilia Luzzi (Liceo Musicale of Arezzo) 
+</div>
+
+<div class="person">
 Marco Mangani (University of Florence) 
 </div>
 

@@ -150,6 +150,10 @@ Laurie Stras (University of Huddersfield)
 Raffaele Viglianti (University of Maryland)
 </div>
 
+<div class="person">
+Christopher White (University of Massachusetts Amherst)
+</div>
+
 <h1>Institutional Project Supporters</h1>
 
 <!--

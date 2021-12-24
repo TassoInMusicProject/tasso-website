@@ -85,7 +85,7 @@ Handlebars.registerHelper("M.x",  createMeasureRange);
 //
 
 Handlebars.registerHelper("siglum",  function (siglum) {
-	var output = "";
+	let output = "";
 	if (!siglum) {
 		return new Handlebars.SafeString(output);
 	}
@@ -125,19 +125,19 @@ Handlebars.registerHelper("siglum",  function (siglum) {
 //
 
 function createMeasureRange() {
-	var startval = Number.isInteger(arguments[0]) && arguments[0];
-	var endval   = Number.isInteger(arguments[1]) && arguments[1];
-	var name = arguments[arguments.length-1].name;
+	let startval = Number.isInteger(arguments[0]) && arguments[0];
+	let endval   = Number.isInteger(arguments[1]) && arguments[1];
+	let name = arguments[arguments.length-1].name;
 
-	var matches;
+	let matches;
 	if ((typeof arguments[0] === "string") && 
 			(matches = arguments[0].match(/(\d+)[^\d]+(\d+)/))) {
 		startval = matches[1];
 		endval   = matches[2];
 	}
 
-	var nodot = false;
-	for (var i=0; i<arguments.length-1; i++) {
+	let nodot = false;
+	for (let i=0; i<arguments.length-1; i++) {
 		if (arguments[i] === "nodot") {
 			nodot = true;
 		}
@@ -147,8 +147,8 @@ function createMeasureRange() {
 		nodot = true;
 	}
 
-	var nospace = false;
-	for (var i=0; i<arguments.length-1; i++) {
+	let nospace = false;
+	for (let i=0; i<arguments.length-1; i++) {
 		if (arguments[i] === "nospace") {
 			nospace = true;
 		}
@@ -157,8 +157,8 @@ function createMeasureRange() {
 	if (startval === false) {
 		return new Handlebars.SafeString("<span class='error'>ERROR: need at least one measure number</span>");
 	}
-	var range = startval;
-	var output = "";
+	let range = startval;
+	let output = "";
 	if (endval !== false) {
 		range += "-" + endval;
 		output = "<nobr onclick='gotoMeasure(" + startval + "," + endval + ");' class='mm" + range + "'>";
@@ -202,7 +202,7 @@ function createWorkPageLink() {
 	if (arguments[0].charAt(0) !== "T") {
 		return new Handlebars.SafeString("<span class='error'>ERROR: catalog number must start with a T</span>");
 	}
-	var output = "<a href='/work?id=" + arguments[0] + "'>";
+	let output = "<a href='/work?id=" + arguments[0] + "'>";
 	output += arguments[0];
 	output += "</a>";
 	return new Handlebars.SafeString(output);
@@ -216,19 +216,19 @@ function createWorkPageLink() {
 //
 
 Handlebars.registerHelper("principalSources",  function (psources) {
-	var output = "";
+	let output = "";
 	if (!psources) {
 		return new Handlebars.SafeString(output);
 	}
 	
-	var template;
+	let template;
 	if (typeof psources === "string") {
 		output += "<h3>Principal source</h3> QQQQQQQQQQQQQQQQQQ ";
 		template = Handlebars.compile(psources);
 		output += template();
 	} else if (psources.length >= 1)  {
 		output += "<h3>Principal sources</h3>";
-		for (var i=0; i<psources.length; i++) {
+		for (let i=0; i<psources.length; i++) {
 			template = Handlebars.compile(psources[i]);
 			output += template();
 			if (i < psources.length - 1) {
@@ -245,12 +245,12 @@ Handlebars.registerHelper("principalSources",  function (psources) {
 //
 
 Handlebars.registerHelper("modernEditions",  function (text) {
-	var output = "";
+	let output = "";
 	if (!text) {
 		return new Handlebars.SafeString(output);
 	}
 	
-	var template;
+	let template;
 	if (typeof text === "string") {
 		output += "<h3>OTHER MODERN EDITIONS</h3>";
 		output += "<div class='indent'>";
@@ -260,7 +260,7 @@ Handlebars.registerHelper("modernEditions",  function (text) {
 	} else if (text.length >= 1)  {
 		output += "<h3>OTHER MODERN EDITIONS</h3>";
 		output += "<div class='indent'>";
-		for (var i=0; i<text.length; i++) {
+		for (let i=0; i<text.length; i++) {
 			template = Handlebars.compile(text[i]);
 			output += template();
 			if (i < text.length - 1) {
@@ -279,12 +279,12 @@ Handlebars.registerHelper("modernEditions",  function (text) {
 //
 
 Handlebars.registerHelper("principalSourceDedicatee",  function (psources) {
-	var output = "";
+	let output = "";
 	if (!psources) {
 		return new Handlebars.SafeString(output);
 	}
 	
-	var template;
+	let template;
 	if (typeof psources === "string") {
 		output += "<h3>Principal Source Dedicatee</h3>";
 		template = Handlebars.compile(psources);
@@ -301,23 +301,29 @@ Handlebars.registerHelper("principalSourceDedicatee",  function (psources) {
 //
 
 Handlebars.registerHelper("principalEmended",  function (emendations) {
-	var output = "";
+
+	let output = "";
 	if (!emendations) {
 		return new Handlebars.SafeString(output);
 	}
 	
-	var template;
+	let template;
 	if (typeof emendations === "string") {
 		output += "<h4>Emended readings of principal source</h4>";
-		template = Handlebars.compile(emendations);
-		output += "<div class='indent'>";
-		output += template();
-		output += "</div>";
+
+		// pull out IIIF strings
+		let matches = emendations.match(/\{\{iiif[^}].*\}\}/g);
+		if (matches) {
+			emendations = emendations.replace(/\{\{iiif[^}].*\}\}/g, "");
+			//matches.shift();
+		}
+		output += prepareEmendation(emendations, matches);
+
 	} else if (emendations.length >= 1)  {
 		output += "<h4>Emended readings of principal source</h4>";
 		output += "<div class='indent'>";
 		output += "<ul id='emended' style='list-style:none;'>";
-		for (var i=0; i<emendations.length; i++) {
+		for (let i=0; i<emendations.length; i++) {
 			template = Handlebars.compile(emendations[i]);
 			output += "<li>" + template() + "</li>";
 			// if (i < emendations.length - 1) {
@@ -333,16 +339,66 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 
 //////////////////////////////
 //
+// prepareEmendation --
+//
+
+function prepareEmendation(emendation, iiifs) {
+	let output = "";
+	template = Handlebars.compile(emendation);
+	output += "<div class='indent'>";
+	if (iiifs) {
+		output += "<details>\n";
+		output += "<summary>\n";
+	}
+	output += template();
+	if (iiifs && (iiifs.length > 0)) {
+		output += "</summary>\n";
+		for (let i=0; i<iiifs.length; i++) {
+			output += prepareIiifEntry(iiifs[i]);
+		}
+		output += "</details>\n";
+	}
+	output += "</div>";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// prepareIiifEntry --
+//
+
+function prepareIiifEntry(entry) {
+	let output = "";
+	let matches = entry.match(/(\d+),(\d+),(\d+),(\d+)/);
+	let xywh = "full";
+	if (matches) {
+		xywh = `${matches[1]},${matches[2]},${matches[3]},${matches[4]}`;
+	}
+	matches = entry.match(/(https?:\/\/[^\s]+)/);
+	let url = "";
+	if (matches) {
+		url = matches[1].replace(/["';{}]*$/, "");
+	}
+	output = `<img src="${url}/${xywh}/full/0/default.jpg">`;
+	return output;
+}
+
+
+
+//////////////////////////////
+//
 // { otherCriticalNotes notes }
 //
 
 Handlebars.registerHelper("otherCriticalNotes",  function (notes) {
-	var output = "";
+	let output = "";
 	if (!notes) {
 		return new Handlebars.SafeString(output);
 	}
 	
-	var template;
+	let template;
 	if (typeof notes === "string") {
 		output += "<h4>Other critical notes</h4>";
 		template = Handlebars.compile(notes);
@@ -353,7 +409,7 @@ Handlebars.registerHelper("otherCriticalNotes",  function (notes) {
 		output += "<h4>Other critical notes</h4>";
 		output += "<div class='indent'>";
 		output += "<ul style='padding-left:0 !important; margin-left:0 !important; list-style:none;'>";
-		for (var i=0; i<notes.length; i++) {
+		for (let i=0; i<notes.length; i++) {
 			template = Handlebars.compile(notes[i]);
 			output += "<li>" + template() + "</li>";
 			// if (i < notes.length - 1) {
@@ -373,19 +429,19 @@ Handlebars.registerHelper("otherCriticalNotes",  function (notes) {
 //
 
 Handlebars.registerHelper("criticalNotes", function(notes) {
-	var output = "";
+	let output = "";
 	if (!notes) {
 		return new Handlebars.SafeString(output);
 	}
 	
-	var template;
+	let template;
 	if (typeof notes === "string") {
 		output += "<h3>Other Critical Notes</h3>";
 		template = Handlebars.compile(notes);
 		output += template();
 	} else if (notes.length >= 1)  {
 		output += "<h3>Other Critical Notes</h3>";
-		for (var i=0; i<notes.length; i++) {
+		for (let i=0; i<notes.length; i++) {
 			template = Handlebars.compile(notes[i]);
 			output += template();
 			if (i < notes.length - 1) {
@@ -404,12 +460,12 @@ Handlebars.registerHelper("criticalNotes", function(notes) {
 //
 
 Handlebars.registerHelper("criticalCommentary",  function (commentary) {
-	var output = "";
+	let output = "";
 	if (!commentary) {
 		return new Handlebars.SafeString(output);
 	}
 	
-	var template;
+	let template;
 	if (typeof commentary === "string") {
 		output += "<h4>Commentary</h4>";
 		output += "<div class='indent'>";
@@ -419,7 +475,7 @@ Handlebars.registerHelper("criticalCommentary",  function (commentary) {
 	} else if (commentary.length >= 1)  {
 		uppercaseoutput += "<h4>Commentary</h4>";
 		output += "<div class='indent'>";
-		for (var i=0; i<commentary.length; i++) {
+		for (let i=0; i<commentary.length; i++) {
 			template = Handlebars.compile(commentary[i]);
 			output += template();
 			if (i < commentary.length - 1) {
@@ -437,12 +493,12 @@ Handlebars.registerHelper("criticalCommentary",  function (commentary) {
 //
 
 Handlebars.registerHelper("lastModified",  function (ymd_date) {
-	var matches = ymd_date.match(/(20\d{2})\/0*(\d+)\/0*(\d+)/);
+	let matches = ymd_date.match(/(20\d{2})\/0*(\d+)\/0*(\d+)/);
 	if (matches) {
-		var year = matches[1];
-		var month = parseInt(matches[2]);
-		var day = matches[3];
-		var date = day;
+		let year = matches[1];
+		let month = parseInt(matches[2]);
+		let day = matches[3];
+		let date = day;
 		date += "&nbsp;";
 		if (month == 1) {
 			date += "Jan";
@@ -471,9 +527,9 @@ Handlebars.registerHelper("lastModified",  function (ymd_date) {
 		}
 		date += "&nbsp;";
 		date += year;
-		var element = document.querySelector("#last-modified");
+		let element = document.querySelector("#last-modified");
 		if (element) {
-			var output = "page&nbsp;last&nbsp;modified&nbsp;&nbsp;&nbsp;";
+			let output = "page&nbsp;last&nbsp;modified&nbsp;&nbsp;&nbsp;";
 			output += "<br>";
 			output += date;
 			element.innerHTML = output;

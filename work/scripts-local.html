@@ -592,7 +592,16 @@ function displayPartNumbers(id) {
 	if (!vabbr) {
 		return;
 	}
-	var vcount = SETTING.SCOREDATA.VABBR.length;
+
+	// remove alternate abbreviation names:
+	for (let i=0; i<vabbr.length; i++) {
+		var newvabbr = vabbr[i].replace(/\([^)]*\)/g, "").replace(/\s*$/, "");
+		if (newvabbr) {
+			vabbr[i] = newvabbr;
+		}
+	}
+
+	var vcount = vabbr.length;
 	var output = ""
 	//var numlist = [
 	//	"&#x2780;",

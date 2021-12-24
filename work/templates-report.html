@@ -312,10 +312,9 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 		output += "<h4>Emended readings of principal source</h4>";
 
 		// pull out IIIF strings
-		let matches = emendations.match(/\{\{iiif[^}].*\}\}/g);
+		let matches = emendations.match(/\{\{iiif[^}].*\}\}/gs);
 		if (matches) {
-			emendations = emendations.replace(/\{\{iiif[^}].*\}\}/g, "");
-			//matches.shift();
+			emendations = emendations.replace(/\{\{iiif[^}].*\}\}/gs, "");
 		}
 		output += prepareEmendation(emendations, matches);
 
@@ -324,11 +323,13 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 		output += "<div class='indent'>";
 		output += "<ul id='emended' style='list-style:none;'>";
 		for (let i=0; i<emendations.length; i++) {
-			template = Handlebars.compile(emendations[i]);
-			output += "<li>" + template() + "</li>";
-			// if (i < emendations.length - 1) {
-			// 	output += "<p>";
-			// }
+			let matches = emendations.match(/\{\{iiif[^}].*\}\}/g);
+			if (matches) {
+				emendations = emendations.replace(/\{\{iiif[^}].*\}\}/g, "");
+			}
+			output += "<li>";
+			output += prepareEmendation(emendations[i], matches);
+ 			output += "</li>";
 		}
 		output += "</div>";
 	}
@@ -370,18 +371,41 @@ function prepareEmendation(emendation, iiifs) {
 //
 
 function prepareIiifEntry(entry) {
+	entry = entry.replace(/\{\{/gs, "").replace(/\}\}/gs, "");
 	let output = "";
-	let matches = entry.match(/(\d+),(\d+),(\d+),(\d+)/);
+
+	let matches = entry.match(/xywh\s*[=:]+\s*["']?(\d+),(\d+),(\d+),(\d+)["']?/s);
 	let xywh = "full";
 	if (matches) {
 		xywh = `${matches[1]},${matches[2]},${matches[3]},${matches[4]}`;
 	}
-	matches = entry.match(/(https?:\/\/[^\s]+)/);
+
+	matches = entry.match(/iiifurlbase\s*[=:]+\s*["']?(https?:\/\/[^\s]+)/s);
 	let url = "";
 	if (matches) {
 		url = matches[1].replace(/["';{}]*$/, "");
 	}
-	output = `<img src="${url}/${xywh}/full/0/default.jpg">`;
+
+	matches = entry.match(/scanurl\s*[=:]+\s*["']?(https?:\/\/[^\s]+)/s);
+	let scanurl = "";
+	if (matches) {
+		scanurl = matches[1].replace(/["';{}]*$/, "");
+	}
+
+	let style = "margin-top:20px;";
+	style += "max-width:400px;";
+	style += "margin-left:50px;";
+	if (scanurl) {
+		output += `<a target="_blank" href="${scanurl}">`;
+	}
+	output += `<img`
+	if (scanurl) {
+		output += " title='Click on the image to view full page'";
+	}
+	output +=  ` style="${style}" src="${url}/${xywh}/full/0/default.jpg">`;
+	if (scanurl) {
+		output += "</a>";
+	}
 	return output;
 }
 

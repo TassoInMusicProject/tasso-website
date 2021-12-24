@@ -12,7 +12,11 @@
 @EMENDED_READING:
 
 {{m 25}}, A, last note (G) has a sharp sign
-{{iiif "1072,1355,508,239" "https://jarvis.edl.beniculturali.it/images/iiif/db/f5dd4a90-7038-420a-8bb8-303c5b828ca0"}}
+
+{{iiif 
+	xywh="1072,1355,508,239"
+	iiifurlbase="https://jarvis.edl.beniculturali.it/images/iiif/db/f5dd4a90-7038-420a-8bb8-303c5b828ca0"
+}}
 
 @OTHER_CRITICAL_NOTES:
 none

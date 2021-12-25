@@ -310,18 +310,23 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 	let template;
 	if (typeof emendations === "string") {
 		output += "<h4>Emended readings of principal source</h4>";
+		output += "<div class='indent'>";
+		output += "<ul class='emended' style='list-style:none;'>";
 
 		// pull out IIIF strings
 		let matches = emendations.match(/\{\{iiif[^}].*\}\}/gs);
 		if (matches) {
 			emendations = emendations.replace(/\{\{iiif[^}].*\}\}/gs, "");
 		}
+		output += "<li>";
 		output += prepareEmendation(emendations, matches);
+		output += "</li>";
+		output += "</ul>";
 
 	} else if (emendations.length >= 1)  {
 		output += "<h4>Emended readings of principal source</h4>";
 		output += "<div class='indent'>";
-		output += "<ul id='emended' style='list-style:none;'>";
+		output += "<ul class='emended' style='list-style:none;'>";
 		for (let i=0; i<emendations.length; i++) {
 			let matches = emendations.match(/\{\{iiif[^}].*\}\}/g);
 			if (matches) {
@@ -331,6 +336,7 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 			output += prepareEmendation(emendations[i], matches);
  			output += "</li>";
 		}
+		output += "</ul>";
 		output += "</div>";
 	}
 	return new Handlebars.SafeString(output);

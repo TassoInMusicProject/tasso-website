@@ -14,19 +14,19 @@
 //
 
 function addFootnotes(id) {
-	var svg = document.querySelector("#" + id + "-container svg");
+	let svg = document.querySelector("#" + id + "-container svg");
 	if (!svg) {
 		console.log("CANNOT FIND SVG IMAGE");
 		return;
 	}
 
-	var emendations = getEmendations();
+	let emendations = getEmendations();
 	if (!emendations) {
 		console.log("CANNOT FIND EMENDATIONS");
 		return;
 	}
 
-	for (var i=0; i<emendations.length; i++) {
+	for (let i=0; i<emendations.length; i++) {
 		emendations[i].markText = "*";
 		emendations[i].color = "chocolate";
 		emendations[i].placement = "above";
@@ -42,19 +42,23 @@ function addFootnotes(id) {
 //
 
 function getEmendations() {
-	var element = document.querySelector("#emended");
-	if (!element) {
-		console.log("CANNOT FIND #emended");
+	let list = document.querySelectorAll(".emended");
+	if ((!list) || (list.length === 0)) {
+		console.log("CANNOT FIND .emended");
 		return [];
 	}
-	var items = element.querySelectorAll("li");
-	// var items = element.querySelectorAll("li nobr[class^='mm']");
-	var output = [];
-	var ooo;
-	var matches;
-	var cn;
-	var nobr;
-	for (var i=0; i<items.length; i++) {
+
+	// only deal with a single emendation entry on page.
+	let element = list[0];
+	
+	let items = element.querySelectorAll("li");
+	// let items = element.querySelectorAll("li nobr[class^='mm']");
+	let output = [];
+	let ooo;
+	let matches;
+	let cn;
+	let nobr;
+	for (let i=0; i<items.length; i++) {
 		ooo = {};
 		measureStart = -1;
 		measureStop  = -1;
@@ -128,7 +132,7 @@ function getEmendations() {
 
 function addFootnote(options, svg) {
 	// locate SVG image to apply footnote to:
-	var svgselector = options.svgSelector;
+	let svgselector = options.svgSelector;
 	if (!svg) {
 		if (!svgselector) {
 			svg = document.querySelector("svg");
@@ -141,39 +145,39 @@ function addFootnote(options, svg) {
 	}
 
 	// Prepare parameters from options:
-	var measure = options.measureStart;
+	let measure = options.measureStart;
 	if (measure < 0) {
 		return;
 	}
-	var endmeasure = options.measureStop;
-	var measureString = "" + measure;
+	let endmeasure = options.measureStop;
+	let measureString = "" + measure;
 	if (endmeasure > measure) {
 		measureString += "-" + endmeasure;
 	}
-	var color = options.color;
+	let color = options.color;
 	if (!color) {
 		color = "darkorange";
 	}
-	var infotext = options.text;
+	let infotext = options.text;
 	if (!infotext) {
 		infotext = "";
 	}
-	var marktext = options.markText;
+	let marktext = options.markText;
 	if (!marktext) {
 		marktext = "*";
 	}
-	var classname = options.className;
+	let classname = options.className;
 	if (!classname) {
 		classname = "footnote";
 	}
-	var placement = options.placement;
+	let placement = options.placement;
 	if (!placement) {
 		placement = "above";
 	}
 
 
 	// Select the measure that the footnote will be attached to:
-	var mclass = "m-" + measure;
+	let mclass = "m-" + measure;
 	emeasure = svg.querySelector("." + mclass);
 	if (!emeasure) {
 		console.log("Cannot find measure", mclass);
@@ -181,22 +185,21 @@ function addFootnote(options, svg) {
 	}
 
 	// Get the bounding box to locate where the footnote will be placed:
-	var bbox = emeasure.getBBox();
-	var textx = bbox.x;
-	var texty = bbox.y;
+	let bbox = emeasure.getBBox();
+	let textx = bbox.x;
+	let texty = bbox.y;
 	if (placement === "below") {
 		// Allow placing below measure in the future.
 		// texty = texty + bbox.height;
 	}
 
-	var prev = emeasure.previousElementSibling;
-	var etype = "";
+	let prev = emeasure.previousElementSibling;
+	let etype = "";
 	if (prev) {
 		etype = prev.nodeName;
 	}
-	var textnode;
-	var tspan;
-	var contents;
+	let textnode;
+	let tspan;
 	if (etype.match(/text/i)) {
 		textnode = prev;
 	} else {
@@ -216,11 +219,11 @@ function addFootnote(options, svg) {
 	tspan.setAttribute("onmouseout", "unhighlightMeasure('" + measureString + "')");
 	tspan.style.fill = color;
 	textnode.appendChild(tspan);
-	var contents = document.createTextNode(marktext);
+	let contents = document.createTextNode(marktext);
 	tspan.appendChild(contents);
-	var etitle = document.createElementNS("http://www.w3.org/2000/svg", "title");
+	let etitle = document.createElementNS("http://www.w3.org/2000/svg", "title");
 	tspan.appendChild(etitle);
-	var titletext = document.createTextNode(infotext);
+	let titletext = document.createTextNode(infotext);
 	etitle.appendChild(titletext);
 }
 
@@ -236,9 +239,9 @@ function highlightMeasure(measure, color) {
 		color = "darkorange";
 	}
 
-	var matches;
-	var startMeasure = -1;
-	var endMeasure = -1;
+	let matches;
+	let startMeasure = -1;
+	let endMeasure = -1;
 	if (typeof measure === "string") {
 		matches = measure.match(/(\d+)-(\d+)/);
 		if (matches) {
@@ -262,14 +265,14 @@ function highlightMeasure(measure, color) {
 		endMeasure = startMeasure;
 	}
 
-	var svg = document.querySelector("svg");
+	let svg = document.querySelector("svg");
 	if (!svg) {
 		return;
 	}
 
-	var i;
+	let i;
 	for (i=startMeasure; i<=endMeasure; i++) {
-		var mclass = "m-" + i;
+		let mclass = "m-" + i;
 		emeasure = svg.querySelector("." + mclass);
 		if (!emeasure) {
 			continue;

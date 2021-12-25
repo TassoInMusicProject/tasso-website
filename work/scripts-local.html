@@ -353,7 +353,6 @@ function displaySingleWork(id, target) {
 	}
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
-console.log("================= SETTING", SETTING);
 	var output = singleTemplate(SETTING);
 	document.title = ID + " workpage";
 	element.innerHTML = output;
@@ -1096,11 +1095,11 @@ function createTextSearchFilter(query) {
 //
 
 function notationCallback(id) {
-	addFootnotes(id);
 	prepareQEvents(id);
 	prepareLyricSpaces(id);
 	processCssTextState();
 	processMatches();
+	addFootnotes(id);
 }
 	
 
@@ -1353,7 +1352,6 @@ function getHumdrum(id) {
 	postdata += "\n!!!footer-center: \\n\\n\\n@{SCA}, @{EEV}";
 	postdata += "\n!!!footer-left: \\n\\n\\n@{YEC}";
 	postdata += "\n!!!header-left: @{EED:n}, ed.";
-console.log("POSTDATA", postdata);
 
 	if (sessionStorage[tag]) {
 		var scoreelements = document.querySelectorAll(".musical-content");
@@ -1972,7 +1970,6 @@ function toggleText() {
 
 function toggleAccid() {
 	INCLUDE_ACCID = !INCLUDE_ACCID;
-console.log("TOGGLING ACCID", INCLUDE_ACCID);
 	initializeVerovioNotation();
 }
 
@@ -2183,7 +2180,6 @@ function processTextSearch(event) {
 function clearActiveMeasures(svgElement) {
 	var actives = svgElement.querySelectorAll(".active");
 	for (var i=0; i<actives.length; i++) {
-console.log("ELEMENT", actives[i]);
 		actives[i].classList.remove("active");
 	}
 }

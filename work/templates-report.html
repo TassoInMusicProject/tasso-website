@@ -398,15 +398,25 @@ function prepareIiifEntry(entry) {
 		scanurl = matches[1].replace(/["';{}]*$/, "");
 	}
 
+	matches = entry.match(/imagenum\s*[=:]+\s*["']([^\s]+)/s);
+	let imagenum = "";
+	if (matches) {
+		imagenum = matches[1].replace(/["';{}]*$/, "");
+	}
+
 	let style = "margin-top:20px;";
 	style += "max-width:400px;";
 	style += "margin-left:50px;";
 	if (scanurl) {
 		output += `<a target="_blank" href="${scanurl}">`;
 	}
-	output += `<img`
+	output += `<img`;
 	if (scanurl) {
-		output += " title='Click on the image to view full page'";
+		output += " title='Click on the image to view full page";
+		if (imagenum) {
+			output += ` (Go to image number ${imagenum})`;
+		}
+		output += "'";
 	}
 	output +=  ` style="${style}" src="${url}/${xywh}/full/0/default.jpg">`;
 	if (scanurl) {

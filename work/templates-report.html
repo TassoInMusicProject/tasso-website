@@ -216,6 +216,7 @@ function createWorkPageLink() {
 //
 
 Handlebars.registerHelper("principalSources",  function (psources) {
+console.log("PRINCIPAL SOURCES", psources);
 	let output = "";
 	if (!psources) {
 		return new Handlebars.SafeString(output);
@@ -307,6 +308,8 @@ console.warn("=== EMENDATIONS", emendations);
 	if (!emendations) {
 		return new Handlebars.SafeString(output);
 	}
+
+console.log("EMENDATIONS", emendations);
 	
 	let template;
 	if (typeof emendations === "string") {
@@ -331,9 +334,12 @@ console.warn("=== EMENDATIONS", emendations);
 		output += "<div class='indent'>";
 		output += "<ul class='emended' style='list-style:none;'>";
 		for (let i=0; i<emendations.length; i++) {
-			let matches = emendations.match(/\[\[iiif[^}].*\]\]/g);
+			if (!emendations[i]) {
+				continue;
+			}
+			let matches = emendations[i].match(/\[\[iiif[^}].*\]\]/g);
 			if (matches) {
-				emendations = emendations.replace(/\[\[iiif[^\]].*\]]}/g, "");
+				emendations = emendations[i].replace(/\[\[iiif[^\]].*\]]}/g, "");
 			}
 			output += "<li>";
 			output += prepareEmendation(emendations[i], matches);

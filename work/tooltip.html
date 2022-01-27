@@ -1,0 +1,93 @@
+
+<script>
+// vim: ts=3
+
+let IIIFIMAGES = {};
+
+// myimage = 'https://jarvis.edl.beniculturali.it/images/iiif/db/f5dd4a90-7038-420a-8bb8-303c5b828ca0/1072,1355,508,239/full/0/default.jpg';
+
+
+
+//////////////////////////////
+//
+// showEmendationTooltip -- 
+//
+
+function showEmendationTooltip(event, emendationNumber) {
+	console.log("SHOWTOOLTIP", arguments);
+
+	let tooltips = document.querySelectorAll("#footnotes .tooltip");
+console.warn("   EVENT", event);
+	let tooltip = tooltips[emendationNumber];
+	tooltip.style.display = "block";
+
+	let leftpos = event.pageX - 0;
+	if (leftpos < 0) {
+		leftpos = 0;
+	}
+
+	let toppos = event.pageY - 0;
+	if (toppos < 0) {
+		toppos = 0;
+	}
+
+	tooltip.style.left = leftpos + 'px';
+	tooltip.style.top = toppos + 'px';
+	console.log(tooltip);
+}
+
+
+
+//////////////////////////////
+//
+// hideEmendationTooltip -- 
+//
+
+function hideEmendationTooltip(event, emendationNumber) {
+	let tooltips = document.querySelectorAll("#footnotes .tooltip");
+console.error("HIDEEMENDATIONTOOLTIP", tooltips);
+	let tooltip = tooltips[emendationNumber];
+console.log("EMENDATION NUMBER", emendationNumber);
+console.log("TOOLTIP", tooltip);
+	tooltip.style.display = "none";
+}
+
+
+
+//////////////////////////////
+//
+// blobToBase64 -- 
+//
+
+function blobToBase64(blob) {
+	return new Promise((resolve, _) => {
+		const reader = new FileReader();
+		reader.onloadend = () => resolve(reader.result);
+		reader.readAsDataURL(blob);
+	});
+}
+
+
+</script>
+
+
+
+<style>
+.tooltip {
+	background: cornsilk;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+</style>
+
+
+<!-- 
+<div id="tooltip" display="none" style="position: absolute; display: none;"></div>
+<svg>
+	<rect width="800" height="550" style="fill: blue;" 
+			onmouseenter="showEmendationTooltip(event, 0);" onmouseout="hideTooltip(event, 0);" >
+	</rect>
+</svg>
+-->
+

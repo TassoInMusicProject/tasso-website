@@ -14,23 +14,35 @@
 //
 
 function addFootnotes(id) {
+
+	// clear list of old foot notes
+	let footnotes = document.querySelector("#footnotes");
+	if (footnotes) {
+		footnotes.innerHTML = "";
+	} else {
+		console.log("CANNOT FIND #FOOTNOTES");
+	}
+
 	let svg = document.querySelector("#" + id + "-container svg");
 	if (!svg) {
 		console.log("CANNOT FIND SVG IMAGE");
 		return;
 	}
 
-	let emendations = getEmendations();
+	let emendations = getEmendationsForFootnotes();
 	if (!emendations) {
 		console.log("CANNOT FIND EMENDATIONS");
 		return;
 	}
+console.error("EMENDATIONS", emendations);
 
 	for (let i=0; i<emendations.length; i++) {
 		emendations[i].markText = "*";
 		emendations[i].color = "chocolate";
 		emendations[i].placement = "above";
-		addFootnote(emendations[i], svg);
+console.error("ADDING EMENDATION", i, emendations[i]);
+		addFootnote(emendations[i], svg, "tooltip");
+		// addFootnote(emendations[i], `footnote-${i}-${id}}`, svg);
 	}
 }
 
@@ -38,19 +50,19 @@ function addFootnotes(id) {
 
 //////////////////////////////
 //
-// getEmendations --
+// getEmendationsForFootnotes --
 //
 
-function getEmendations() {
-	let list = document.querySelectorAll(".emended");
+function getEmendationsForFootnotes() {
+	let list = document.querySelectorAll("ul.emended");
 	if ((!list) || (list.length === 0)) {
 		console.log("CANNOT FIND .emended");
 		return [];
 	}
 
-	// only deal with a single emendation entry on page.
+	// only deal with a single emendation list for now.
 	let element = list[0];
-	
+
 	let items = element.querySelectorAll("li");
 	// let items = element.querySelectorAll("li nobr[class^='mm']");
 	let output = [];
@@ -86,7 +98,12 @@ function getEmendations() {
 		}
 		ooo.measureStart = measureStart;
 		ooo.measureStop = measureStop;
-		ooo.text = items[i].textContent;
+		let datatext = items[i].dataset.text;
+		if (datatext) {
+			ooo.text = window.decodeURIComponent(datatext);
+		} else {
+			ooo.text = items[i].textContent;
+		}
 		if (!ooo.text) {
 			console.log("NO TEXT FOUND FOR EMENDATION", items[i]);
 			continue;
@@ -94,6 +111,7 @@ function getEmendations() {
 
 		output.push(ooo);
 	}
+console.error("RETURNING EMENDATION", output);
 	return output;
 }
 
@@ -131,6 +149,7 @@ function getEmendations() {
 //
 
 function addFootnote(options, svg) {
+console.log("ENTERING ADD FOOTNOTE", arguments);
 	// locate SVG image to apply footnote to:
 	let svgselector = options.svgSelector;
 	if (!svg) {
@@ -213,18 +232,34 @@ function addFootnote(options, svg) {
 		textnode.style.cursor = "help";
 	}
 
-	// Add a tspan with the infotext contents as a title:
+	console.error("ADDING FOOTNOTES HERE");
+	// Add footer content in #footer area
+	let footerdiv = document.createElement("DIV");
+	footerdiv.style.position = "absolute";
+	footerdiv.style.display = "none";
+	footerdiv.classList.add("tooltip");
+	footerdiv.dataset.contents = infotext;
+	footerdiv.innerHTML = infotext;
+	let footnotes = document.querySelector("#footnotes");
+console.error("*************** FOOTNOTES", footnotes);
+	if (footnotes) {
+console.error("ADDING FOOTNOTES TO #FOOTNOTE ==================================");
+		footnotes.appendChild(footerdiv);
+	}
+
+	console.error("ADDING TSPAN");
+	// Add a tspan in SVG with the infotext contents as a title:
 	tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
-	tspan.setAttribute("onmouseenter", "highlightMeasure('" + measureString + "', '" + color + "')");
-	tspan.setAttribute("onmouseout", "unhighlightMeasure('" + measureString + "')");
+	tspan.setAttribute("onmouseenter", "highlightMeasure(event, '" + measureString + "', '" + color + "')");
+	tspan.setAttribute("onmouseout", "unhighlightMeasure(event, '" + measureString + "')");
 	tspan.style.fill = color;
 	textnode.appendChild(tspan);
 	let contents = document.createTextNode(marktext);
 	tspan.appendChild(contents);
-	let etitle = document.createElementNS("http://www.w3.org/2000/svg", "title");
-	tspan.appendChild(etitle);
-	let titletext = document.createTextNode(infotext);
-	etitle.appendChild(titletext);
+	// let etitle = document.createElementNS("http://www.w3.org/2000/svg", "title");
+	// tspan.appendChild(etitle);
+	// let titletext = document.createTextNode(infotext);
+	// etitle.appendChild(titletext);
 }
 
 
@@ -234,9 +269,13 @@ function addFootnote(options, svg) {
 // highlightMeasure --
 //
 
-function highlightMeasure(measure, color) {
+function highlightMeasure(event, measure, color, suppress) {
 	if (!color) {
 		color = "darkorange";
+	}
+
+	if (!suppress) {
+		showEmendationTooltip(event, 0);
 	}
 
 	let matches;
@@ -295,8 +334,9 @@ function highlightMeasure(measure, color) {
 // unhighlightMeasure --
 //
 
-function unhighlightMeasure(measure) {
-	highlightMeasure(measure, "currentColor");
+function unhighlightMeasure(event, measure) {
+	highlightMeasure(event, measure, "currentColor", 1);
+	hideEmendationTooltip(event, 0);
 }
 
 </script>

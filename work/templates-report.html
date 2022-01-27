@@ -301,6 +301,7 @@ Handlebars.registerHelper("principalSourceDedicatee",  function (psources) {
 //
 
 Handlebars.registerHelper("principalEmended",  function (emendations) {
+console.warn("=== EMENDATIONS", emendations);
 
 	let output = "";
 	if (!emendations) {
@@ -314,11 +315,13 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 		output += "<ul class='emended' style='list-style:none;'>";
 
 		// pull out IIIF strings
-		let matches = emendations.match(/\{\{iiif[^}].*\}\}/gs);
+		let matches = emendations.match(/\[\[iiif[^\]].*\]\]/gs);
+		let base64emend = window.encodeURIComponent(emendations);
 		if (matches) {
-			emendations = emendations.replace(/\{\{iiif[^}].*\}\}/gs, "");
+			emendations = emendations.replace(/\[\[iiif[^\]].*\]\]/gs, "");
 		}
-		output += "<li>";
+		output += `<li data-text="${base64emend}"`
+		output += ">";
 		output += prepareEmendation(emendations, matches);
 		output += "</li>";
 		output += "</ul>";
@@ -328,9 +331,9 @@ Handlebars.registerHelper("principalEmended",  function (emendations) {
 		output += "<div class='indent'>";
 		output += "<ul class='emended' style='list-style:none;'>";
 		for (let i=0; i<emendations.length; i++) {
-			let matches = emendations.match(/\{\{iiif[^}].*\}\}/g);
+			let matches = emendations.match(/\[\[iiif[^}].*\]\]/g);
 			if (matches) {
-				emendations = emendations.replace(/\{\{iiif[^}].*\}\}/g, "");
+				emendations = emendations.replace(/\[\[iiif[^\]].*\]]}/g, "");
 			}
 			output += "<li>";
 			output += prepareEmendation(emendations[i], matches);

@@ -14,6 +14,7 @@
 {% include_relative templates-report.html %}
 {% include_relative listeners.html %}
 {% include_relative footnote.html %}
+{% include_relative tooltip.html %}
 
 
 <script>
@@ -353,9 +354,13 @@ function displaySingleWork(id, target) {
 	}
 	var tsource = document.querySelector("#singlework-template").textContent;
 	var singleTemplate = Handlebars.compile(tsource);
+
 	var output = singleTemplate(SETTING);
 	document.title = ID + " workpage";
 	element.innerHTML = output;
+	let footnotes = document.createElement("DIV");
+	footnotes.id = "footnotes";
+	element.appendChild(footnotes);
 	displayPartNumbers(id);
 	CURRENT_PAGE = 1;
 	displayIncipit(id);

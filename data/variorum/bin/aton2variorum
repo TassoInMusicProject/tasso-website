@@ -1260,7 +1260,7 @@ sub getAtonEntries {
 				# ignore entries with no ID (possible in sources.aton)
 				if ($output{$key} ne "") {
 					print "CURRENT VALUE: $output{$key}\n";
-					die "Duplicate key >>$key<< in list";
+					die "Duplicate key >>$key<< in list ATON TAG $ATONTAG IDTAG $IDTAG";
 				}
 				$output{$key} = $hentry;
 			}

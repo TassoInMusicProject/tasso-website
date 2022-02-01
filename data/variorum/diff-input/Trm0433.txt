@@ -190,7 +190,7 @@ ID:Trm0433k-Alto   	L1041	V4:	{misero} {io ben sarei}
 ID:Trm0433k-Tenore 	L1064	V4:	[TACET]
 ID:Trm0433k-Basso  	L1087	V4:	[TACET]
 
-ID:S27             	L26	V5:	Se miseria [i' stimassi}, e non ventura
+ID:S27             	L26	V5:	Se miseria {i' stimassi}, e non ventura
 ID:S70             	L50	V5:	Se miseria {i' stimassi}, e non ventura
 ID:S78             	L72	V5:	Se miseria {stimassi}, è non ventura
 ID:S141            	L94	V5:	Se miseria {i’ stimassi}, e non ventura
@@ -215,8 +215,8 @@ ID:Trm0433d-Alto   	L505	V5:	Se miseria {stimassi} e non ventura
 ID:Trm0433d-Tenore 	L529	V5:	Se miseria {stimassi} e non ventura
 ID:Trm0433d-Basso  	L553	V5:	Se miseria {stimassi} e non ventura
 ID:Trm0433d-Quinto 	L577	V5:	Se miseria {stimassi} e non ventura
-ID:Trm0433e-Canto  	L601	V5:	[TACET] & non ventura
-ID:Trm0433e-Alto   	L624	V5:	[TACET] & non ventura
+ID:Trm0433e-Canto  	L601	V5:	[TACET] &amp; non ventura
+ID:Trm0433e-Alto   	L624	V5:	[TACET] &amp; non ventura
 ID:Trm0433e-Tenore 	L647	V5:	Se miseria {stimassi} & non ventura
 ID:Trm0433e-Basso  	L670	V5:	Se miseria {stimassi} & non ventura
 ID:Trm0433e-Quinto 	L693	V5:	Se miseria {stimassi} & non ventura
@@ -478,11 +478,11 @@ ID:Trm0433k-Alto   	L1047	V10:	[TACET]
 ID:Trm0433k-Tenore 	L1070	V10:	ch'era piu tuo che tu di te non sei
 ID:Trm0433k-Basso  	L1093	V10:	ch'era piu tuo che tu di te non sei
 
-ID:S27             	L32	V11:	[Ma'l] tuo già non {perd’io},
-ID:S70             	L56	V11:	[Ma il] tuo già non {perd’io},
-ID:S78             	L78	V11:	[Ma'l] tuo già non {perd’Io},
-ID:S141            	L100	V11:	[Ma il] tuo già non {perd’io},
-ID:S145            	L122	V11:	[Ma'l} tuo già non {perd’io},
+ID:S27             	L32	V11:	{Ma'l} tuo già non {perd’io},
+ID:S70             	L56	V11:	{Ma il} tuo già non {perd’io},
+ID:S78             	L78	V11:	{Ma'l} tuo già non {perd’Io},
+ID:S141            	L100	V11:	{Ma il} tuo già non {perd’io},
+ID:S145            	L122	V11:	{Ma'l} tuo già non {perd’io},
 ID:S166            	L144	V11:	{Ma il} tuo già non {perd’io},
 ID:S169            	L167	V11:	{Ma il} tuo già non {perd’io},
 ID:Trm0433a-Canto  	L190	V11:	{Ma il} tuo gia non {perd’io}

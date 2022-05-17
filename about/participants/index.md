@@ -135,6 +135,10 @@ Emilio Russo (University of Rome)
 </div>
 
 <div class="person">
+Elisa Sala (University of Brescia)
+</div>
+
+<div class="person">
 Enrico Scavo (University of Ferrara)
 </div>
 

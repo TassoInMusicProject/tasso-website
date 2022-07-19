@@ -75,7 +75,11 @@ Mauro Calcagno (University of Pennsylvania)
 </div>
 
 <div class="person">
-Kate Driscoll (Freie Universität Berlin) 
+Corrado Confalonieri (University of Parma) 
+</div>
+
+<div class="person">
+Kate Driscoll (Duke University) 
 </div>
 
 <div class="person">

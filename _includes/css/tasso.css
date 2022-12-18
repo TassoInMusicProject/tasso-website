@@ -481,8 +481,9 @@ h2 {
 
 
 svg tspan {
-	font-family: simonetta, VerovioText !important;
+	font-family: simonetta, Leipzig !important;
 }
+
 
 input::placeholder {
 	color: #aaa;

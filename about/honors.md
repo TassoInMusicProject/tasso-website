@@ -5,6 +5,14 @@ layout: simple
 <table class="honors">
 
 <tr>
+	<td>2022</td>
+	<td>
+		<a target="_blank" href="https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HAA-287804-22">
+			Digital Humanities Advancement Grant</a>, National Endowment&nbsp;for the&nbsp;Humanities (3&nbsp;years, $185,244)
+	</td>
+</tr>
+
+<tr>
 	<td>2021</td>
 	<td>
 		<a target="_blank" href="https://www.rsa.org/news/552148/Awards--Prizes-Winners.htm">
@@ -61,7 +69,7 @@ layout: simple
 	<td>2016</td>
 	<td>
 		<a target="_blank" href="https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=RQ-249857-16">
-			Scholarly Editions and Translations Grant</a>, National Endowment&nbsp;for the&nbsp;Humanities (3 years, $260,000)
+			Scholarly Editions and Translations Grant</a>, National Endowment&nbsp;for the&nbsp;Humanities (3&nbsp;years, $260,000)
 	</td>
 </tr>
 

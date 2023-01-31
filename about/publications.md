@@ -24,6 +24,9 @@ Emiliano Ricciardi, “The Tasso in Music Project,” <i>Early Music</i> 43, no.
 <h2> Reviews </h2>
 
 
+Dori Coblentz, “<a target="_blank" href="https://jps.library.utoronto.ca/index.php/emdr/article/view/39838/30391">Tasso in Music Project (TiMP): Digital Edition of the Settings of Torquato Tasso’s Poetry, c. 1570–1640.</a>” <i>Early Modern Digital Review</i>, vol. 5, no. 1 (2022), <a target="_blank" href="https://doi.org/10.33137/rr.v45i2.39770">https://doi.org/10.33137/rr.v45i2.39770</a>.  <i>Renaissance and Reformation / Renaissance et Réforme</i>, vol. 45, no. 2 (2022), pp. 275-278, <a target="_blank" href="https://doi.org/10.33137/rr.v45i2.39770">https://doi.org/10.33137/rr.v45i2.39770</a>.
+
+
 Lucia Marchi, “<a target="_blank"
 href="https://online.ucpress.edu/jams/article-abstract/74/1/187/116881/Tasso-in-Music-Project-TiMP-Digital-Edition-of-the?redirectedFrom=fulltext">Tasso
 in Music Project (TiMP): Digital Edition of the Settings of Torquato

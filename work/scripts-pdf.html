@@ -78,6 +78,7 @@ function generatePdfFull(format, orientation) {
 	for (var i=0; i<filters.length; i++) {
 	    scoredata += "\n!!!filter: " + filters[i] + "\n";
    }
+	scoredata += "\n!!!filter: shed -x text -e 's/ /_/g'\n"'
 
 	// var scale = 110;
 	var scale = 100;
@@ -130,6 +131,7 @@ function generatePdfFull(format, orientation) {
 	}
 
 	vrvPdfOptions = cleanOptions2(scoredata, vrvPdfOptions);
+	vrvPdfOptions.lyricElision = "narrow";
 
 	RSVP.hash({
 		fonts: loadPdfFonts(pdf),

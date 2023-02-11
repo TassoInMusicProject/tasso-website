@@ -78,7 +78,9 @@ function generatePdfFull(format, orientation) {
 	for (var i=0; i<filters.length; i++) {
 	    scoredata += "\n!!!filter: " + filters[i] + "\n";
    }
-	scoredata += "\n!!!filter: shed -x text -e 's/ /_/g'\n";
+	scoredata += "\n!!!filter: shed -x text -e 's/ /=/g'\n";
+	scoredata += "\n!!!verovio: spacingLinear 0.60\n";
+	scoredata += "\n!!!verovio: spacingNonLinear 0.45\n";
 
 	// var scale = 110;
 	var scale = 100;

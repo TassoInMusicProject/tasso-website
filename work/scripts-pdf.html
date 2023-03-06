@@ -78,7 +78,7 @@ function generatePdfFull(format, orientation) {
 	for (var i=0; i<filters.length; i++) {
 	    scoredata += "\n!!!filter: " + filters[i] + "\n";
    }
-	scoredata += "\n!!!filter: shed -x text -e 's/ /=/g'\n";
+	// scoredata += "\n!!!filter: shed -x text -e 's/ /=/g'\n";
 	scoredata += "\n!!!verovio: spacingLinear 0.60\n";
 	scoredata += "\n!!!verovio: spacingNonLinear 0.45\n";
 
@@ -118,7 +118,7 @@ function generatePdfFull(format, orientation) {
 	vrvPdfOptions.staffLineWidth         = 0.12;
 	vrvPdfOptions.usePgFooterForAll      = 1;
    vrvPdfOptions.footer                 = "encoded";
-	vrvPdfOptions.font                   = "Bravura";
+	vrvPdfOptions.font                   = "Leipzig";
 	// vrvPdfOptions.spacingSystem          = 18;
 	// vrvPdfOptions.spacingStaff           = 18;
 	// vrvPdfOptions.justifyIncludeLastPage = 1; // no longer a verovio option?
@@ -232,7 +232,13 @@ function cleanOptions2(content, options) {
 //
 
 function svgFontCallback(family, bold, italic, options) {
-   if (family == "VerovioText") {
+   if (family == "Leipzig") {
+      return family;
+   }
+   if (family == "Bravura") {
+      return family;
+   }
+   if (family == "Leland") {
       return family;
    }
    if (family.match(/(?:^|,)\s*sans-serif\s*$/) || true) {
@@ -260,7 +266,7 @@ function loadPdfFonts(pdf) {
       loadFontResource(pdf, 'TimesItalic', '/scripts/pdfkit/EBGaramond-Italic.ttf'),
       loadFontResource(pdf, 'TimesBold', '/scripts/pdfkit/EBGaramond-Bold.ttf'),
       loadFontResource(pdf, 'TimesBoldItalic', '/scripts/pdfkit/EBGaramond-BoldItalic.ttf'),
-      loadFontResource(pdf, 'VerovioText', '/scripts/pdfkit/VerovioText-1.0.ttf'),
+      loadFontResource(pdf, 'Leipzig', '/scripts/pdfkit/Leipzig.ttf'),
    ]);
 }
 

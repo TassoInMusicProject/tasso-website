@@ -91,7 +91,7 @@ Marco Giuliani (Conservatory of Bolzano)
 </div>
 
 <div class="person">
-Cecilia Luzzi (Liceo Musicale of Arezzo) 
+Cecilia Luzzi (Conservatory of Perugia) 
 </div>
 
 <div class="person">

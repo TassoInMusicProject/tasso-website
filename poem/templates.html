@@ -80,6 +80,7 @@
 	{{{dating DATING SOLERTI}}}
 	{{{dedicatee DEDICATEE SOLERTI}}}
 	{{{commentary COMMENTARY SOLERTI}}}
+	{{{links SOLERTI}}}
 <span>
 
 <div>
@@ -166,36 +167,36 @@ td.tcell {
 		<td>
 			<ul>
 <!--
-				<li> <a class="icon-file"      
+				<li> <a class="icon-file"
 					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notation&f={{CATALOGNUM}}">PDF&nbsp;score</a></li>
 -->
 				<li> <a class="icon-file" onclick="generatePdfFull(event)" href="#">PDF&nbsp;score</a></li>
-				<li> <a class="icon-midi"      
+				<li> <a class="icon-midi"
 					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=midi&f={{CATALOGNUM}}">MIDI</a></li>
-				<li> <a class="icon-file-list" 
+				<li> <a class="icon-file-list"
 					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=mp3&f={{CATALOGNUM}}">MP3</a></li>
 			</ul>
 		</td>
 
 		<td>
 			<ul>
-				<li> <a class="icon-list" 
+				<li> <a class="icon-list"
 					target="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=humdrum&f={{CATALOGNUM}}">Humdrum</a></li>
-				<li> <a class="icon-list" 
+				<li> <a class="icon-list"
 					taget="new" onclick="showMeiData(); return false;"  href="#">MEI</a></li>
 			</ul>
 		</td>
 
 		<td>
 			<ul>
-				<li> <a class="icon-list" 
+				<li> <a class="icon-list"
 					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musedata&f={{CATALOGNUM}}">MuseData</a></li>
-				<li> <a class="icon-list" 
+				<li> <a class="icon-list"
 					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=musicxml&f={{CATALOGNUM}}">MusicXML</a></li>
 <!--
-				<li> <a class="icon-list" 
+				<li> <a class="icon-list"
 					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=notearray&f={{CATALOGNUM}}">NoteArray</a></li>
-				<li> <a class="icon-list" 
+				<li> <a class="icon-list"
 					taget="new" href="{%endraw%}{{site.tasso_data_url}}{%raw%}?a=proll&f={{CATALOGNUM}}">Piano Roll</a></li>
 -->
 			</ul>
@@ -407,8 +408,51 @@ Handlebars.registerHelper("attribution",  function (attribution, solerti) {
 	var id = makeId(solerti, "Trm");
 	output += "<h3 class='header'>Attribution</h3>";
 	output += "<div class='indent'>";
+	attribution = attribution.replace("Soucres", "Sources");
 	attribution = addLiterarySourceLink(attribution, solerti);
+	attribution = addMusicalSettingsLink(attribution, solerti);
+	attribution = attribution.replace("see ", "see&nbsp;");
 	output += attribution;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// links --
+//
+
+Handlebars.registerHelper("links",  function (solerti) {
+	var output = "";
+	if (!solerti) {
+		return new Handlebars.SafeString(output);
+	}
+
+	var id = makeId(solerti, "Trm");
+
+	output += "<h3 class='header'>Links</h3>";
+	output += "<div class='indent'>";
+
+	var text = "";
+
+	text += "<a target='_blank' href='/variants/?id=";
+	text += solerti;
+	text += "'>Literary Variants</a>";
+
+	text += "\n<br/>";
+
+	text += "<a target='_blank' href='/sources/?rime=";
+	text += solerti;
+	text += "'>Literary Sources</a>";
+
+	text += "\n<br/>";
+
+	text += "<a target='_blank' href='/settings/?rime=";
+	text += solerti;
+	text += "'>Musical Setting</a>";
+
+	output += text;
 	output += "</div>";
 	return new Handlebars.SafeString(output);
 });
@@ -420,11 +464,15 @@ Handlebars.registerHelper("attribution",  function (attribution, solerti) {
 // dating --
 //
 
-Handlebars.registerHelper("dating",  function (dating) {
+Handlebars.registerHelper("dating",  function (dating, solerti) {
 	var output = "";
 	if (!dating) {
 		return new Handlebars.SafeString(output);
 	}
+	dating = dating.replace("Soucres", "Sources");
+	dating = addLiterarySourceLink(dating, solerti);
+	dating = addMusicalSettingsLink(dating, solerti);
+	dating = dating.replace("see ", "see&nbsp;");
 	output += "<h3 class='header'>Dating</h3>";
 	output += "<div class='indent'>";
 	output += dating;
@@ -505,6 +553,45 @@ function makeId(solerti, prefix) {
 }
 
 
+
+//////////////////////////////
+//
+// addMusicalSettingsLink --
+//
+
+function addMusicalSettingsLink(text, solerti) {
+	if (Array.isArray(text)) {
+		return "Musical Setting LINK PROBLEM IN ATON ENTRY";
+	}
+	if (!text) {
+		console.log("TEXT IS EMPTY", text);
+		console.log("Solerti", solerti);
+		return "";
+	}
+	var pieces = [];
+	if (text) {
+		pieces = text.split("\n");
+	}
+	text = "";
+	for (var i=0; i<pieces.length; i++) {
+		text += " " + pieces[i];
+	}
+	match = text.match(/(.*)(see\s+Musical\s+Settings)(.*)/i);
+	if (!match) {
+		return text;
+	}
+	var prefix = match[1];
+	var postfix = match[3];
+	var output = prefix;
+	output += "<a target='_blank' href='/settings/?rime=";
+	output += solerti;
+	output += "'>see Musical Setting</a>";
+	output += postfix;
+	return output;
+}
+
+
+
 //////////////////////////////
 //
 // addLiterarySourceLink --
@@ -527,6 +614,7 @@ function addLiterarySourceLink(text, solerti) {
 	for (var i=0; i<pieces.length; i++) {
 		text += " " + pieces[i];
 	}
+	text.replace("Soucres", "Sources");
 	match = text.match(/(.*)(see\s+Literary\s+Sources)(.*)/);
 	if (!match) {
 		return text;
@@ -534,7 +622,7 @@ function addLiterarySourceLink(text, solerti) {
 	var prefix = match[1];
 	var postfix = match[3];
 	var output = prefix;
-	output += "<a target='_new' href='/sources/?rime=";
+	output += "<a target='_blank' href='/sources/?rime=";
 	output += solerti;
 	output += "'>see Literary Sources</a>";
 	output += postfix;

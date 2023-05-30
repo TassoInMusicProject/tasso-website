@@ -450,7 +450,7 @@ Handlebars.registerHelper("links",  function (solerti) {
 
 	text += "<a target='_blank' href='/settings/?rime=";
 	text += solerti;
-	text += "'>Musical Setting</a>";
+	text += "'>Musical Settings</a>";
 
 	output += text;
 	output += "</div>";
@@ -561,7 +561,7 @@ function makeId(solerti, prefix) {
 
 function addMusicalSettingsLink(text, solerti) {
 	if (Array.isArray(text)) {
-		return "Musical Setting LINK PROBLEM IN ATON ENTRY";
+		return "Musical Settings LINK PROBLEM IN ATON ENTRY";
 	}
 	if (!text) {
 		console.log("TEXT IS EMPTY", text);
@@ -576,7 +576,7 @@ function addMusicalSettingsLink(text, solerti) {
 	for (var i=0; i<pieces.length; i++) {
 		text += " " + pieces[i];
 	}
-	match = text.match(/(.*)(see\s+Musical\s+Settings)(.*)/i);
+	match = text.match(/(.*)(see\s+Musical\s+Settings?)(.*)/i);
 	if (!match) {
 		return text;
 	}
@@ -585,7 +585,7 @@ function addMusicalSettingsLink(text, solerti) {
 	var output = prefix;
 	output += "<a target='_blank' href='/settings/?rime=";
 	output += solerti;
-	output += "'>see Musical Setting</a>";
+	output += "'>see Musical Settings</a>";
 	output += postfix;
 	return output;
 }

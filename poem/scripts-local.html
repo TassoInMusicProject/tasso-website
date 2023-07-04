@@ -339,6 +339,7 @@ function singlePoemVariantHeader(id) {
 
 	var asource = document.querySelector("#about-template").textContent;
 	var atemplate = Handlebars.compile(asource);
+	console.error("ID", id, REVERSEVERSE[id]);
 	output += atemplate(REVERSEVERSE[id]);
 
 	return output;

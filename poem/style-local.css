@@ -63,6 +63,32 @@ table.poem {
 }
 
 
+table.verse-line {
+	border-collapse: collapse;
+}
+
+
+td.verse-rhyme {
+	padding-left: 60px;
+}
+
+tr.verse-line:hover {
+	background: #ff000033;
+}
+
+span.syl {
+	display: inline-block;
+}
+
+.accent {
+	color: darkred;
+	font-weight: bold;
+}
+
+span.syl.even {
+	background-color: #eeeeff;
+	border-radius: 10px;
+}
 
 /* temporary hiding of arrow button */
 

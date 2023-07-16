@@ -53,10 +53,10 @@ data in spreadsheets for further use in analysis).
 
 <tr>
 	<td>
-	<a href="pitch-class">Pitch class</a>
+	<a href="pitch-density">Pitch densities</a>
 	</td> 
 	<td>
-		Counts of the pitch classes in each work and
+		Pitch-class counts in each work and
 		pitchscapes plotting how they change over time.
 	</td>
 </tr>

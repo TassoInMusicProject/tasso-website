@@ -5,6 +5,13 @@ layout: simple
 <table class="honors">
 
 <tr>
+	<td>2023</td>
+	<td>
+		<a target="_blank" href="medren2023.jpg">First prize, MedRen 2023 (Munich) Poster Session</a>
+	</td>
+</tr>
+
+<tr>
 	<td>2022</td>
 	<td>
 		<a target="_blank" href="https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HAA-287804-22">

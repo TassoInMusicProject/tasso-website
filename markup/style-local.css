@@ -88,6 +88,12 @@ span.syllable {
 	border-radius: 10px;
 }
 
+span.syllable.beginning.showSyllable::after,
+span.syllable.medial.showSyllable::after {
+	content: "-";
+}
+
+/* 
 span.syllable.even.showSyllable {
 	background-color: #ccffaa;
 	border-radius: 10px;
@@ -97,6 +103,7 @@ span.syllable.odd.showSyllable {
 	background-color: #cceeff;
 	border-radius: 10px;
 }
+*/
 
 /* temporary hiding of arrow button */
 

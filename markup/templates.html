@@ -58,9 +58,11 @@
 
 <div class="options">
 	<input onchange="toggleSyllable(event)", type=checkbox>&nbsp;syllable
+<!--
 	<input onchange="toggleSyllableCount(event)", type=checkbox>&nbsp;count
-	<input onchange="toggleStress(event)", type=checkbox>&nbsp;stress
 	<input onchange="toggleElision(event)", type=checkbox>&nbsp;elision
+-->
+	<input onchange="toggleStress(event)", type=checkbox>&nbsp;stress
 	<input onchange="toggleRhyme(event)", type=checkbox>&nbsp;rhyme
 	<input onchange="toggleEnjambment(event)", type=checkbox>&nbsp;enjambment
 </div>
@@ -207,20 +209,32 @@ console.warn("     SYLLABLES: ", syls);
 				syl = matches[1];
 			}
 
-
-			if (stress) {
-				if (sylCount % 2) {
-					output += `<span class="syllable even stress">${syl}</span>`;
-				} else {
-					output += `<span class="syllable odd stress">${syl}</span>`;
-				}
+			let evenodd = "";
+			if (sylCount % 2) {
+				evenodd = "even";
 			} else {
-				if (sylCount % 2) {
-					output += `<span class="syllable even">${syl}</span>`;
+				evenodd = "odd";
+			}
+
+			let stressclass = "";
+			if (stress) {
+				stressclass = "stress"
+			}
+
+			let position = "";
+			if (syls.length == 1) {
+				position = "single";
+			} else {
+				if (j == 0) {
+					position = "beginning";
+				} else if (j == syls.length - 1) {
+					position = "ending";
 				} else {
-					output += `<span class="syllable odd">${syl}</span>`;
+					position = "medial";
 				}
 			}
+
+			output += `<span class="syllable ${evenodd} ${position} ${stressclass}">${syl}</span>`;
 		}
 		if (i <words.length - 1) {
 			output += " ";

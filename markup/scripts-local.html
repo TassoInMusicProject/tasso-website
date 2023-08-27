@@ -362,6 +362,8 @@ function showSyllable() {
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("showSyllable");
 	}
+	showSyllableCount();
+	showElision();
 }
 
 
@@ -377,6 +379,8 @@ function hideSyllable() {
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("showSyllable");
 	}
+	hideSyllableCount();
+	hideElision();
 }
 
 
@@ -402,7 +406,7 @@ function toggleSyllableCount(event) {
 //
 
 function showSyllableCount() {
-	console.log("Show syllable");
+	console.log("Show syllable count");
 	let syls = document.querySelectorAll("td.syllable-count");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("hide-count");
@@ -417,7 +421,7 @@ function showSyllableCount() {
 //
 
 function hideSyllableCount() {
-	console.log("Hide syllable");
+	console.log("Hide syllable count");
 	let syls = document.querySelectorAll("td.syllable-count");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("hide-count");

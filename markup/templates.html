@@ -196,7 +196,7 @@ console.warn("     SYLLABLES: ", syls);
 
 		for (let j=0; j<syls.length; j++) {
 			sylCount++;
-			syls[j] = syls[j].replace(/_/, "<span class='elision hide-elision'>‿</span>", "g");
+			syls[j] = syls[j].replace(/_/g, "<span class='elision hide-elision'>‿</span>");
 			let syl = syls[j];
 			console.log("SYL", syl);
 

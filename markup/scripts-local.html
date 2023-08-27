@@ -1,0 +1,572 @@
+
+<script src="/scripts/scripts-common.js"></script>
+
+{% include_relative listeners.html %}
+{% include_relative templates.html %}
+
+<script>
+//
+// Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+// Creation Date: Fri Mar 25 00:02:06 PDT 2016
+// Last Modified: Sun Apr  9 09:57:44 PDT 2017
+// Filename:      variants/scripts-local.html
+// Syntax:        JavaScript 1.8/ECMAScript 5
+// vim:           ts=3: ft=javascript
+//
+// Description:   JavaScript management for the literary variants.
+//
+
+var CurrentPoem  = 0;  // ID of the current setting
+var PoemList     = {}; // List of next/previous settings
+
+var VARIORUM = {};
+
+
+//////////////////////////////
+//
+// displaySetting --
+//
+
+function displaySetting(poem) {
+	if (!poem) {
+		poem = CurrentPoem;
+	}
+	if (poem) {
+   	window.location = "/settings/?id=" + poem;
+	} else {
+   	window.location = "/settings";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displaySource --
+//
+
+function displaySource(poem) {
+	if (!poem) {
+		poem = CurrentPoem;
+	}
+	if (poem) {
+		window.location = "/sources/?id=" + poem;
+	} else {
+		window.location = "/sources";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayNextSource --
+//
+
+function displayNextPoem() {
+	var nid = PoemList[CurrentPoem].next;
+ 	displayMarkup(nid);
+}
+
+
+
+//////////////////////////////
+//
+// displayPreviousSource --
+//
+
+function displayPreviousPoem() {
+	var nid = PoemList[CurrentPoem].previous;
+ 	displayMarkup(nid);
+}
+
+
+
+//////////////////////////////
+//
+// displayMarkupInitialize -- Show the literary variants for the given
+// 	catalog number.
+//
+
+function displayMarkupInitialize(id, target) {
+	PrepareGlobalTassoObjects();
+	if (!target) {
+		target = "#contents";
+	}
+	if (id) {
+		id = id.replace(/[a-z]$/, "");
+		CurrentPoem = id;
+	} else {
+		id = CurrentPoem;
+		id = id.replace(/[a-z]$/, "");
+		CurrentPoem = id;
+	}
+
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place on page since", target, " doesn't exist.");
+		return;
+	}
+	getPoemList(CurrentPoem, target);
+	displayMarkup(id, target);
+}
+
+
+
+//////////////////////////////
+//
+// getPoemList --
+//
+
+function getPoemList(id, target) {
+
+	if (id) {
+		CurrentPoem = id;
+	}
+	buildAllSettingList();
+	buildPoemList(ALLSETTINGLIST);
+}
+
+
+
+//////////////////////////////
+//
+// buildAllSettingList --
+//
+
+function buildAllSettingList() {
+	ALLSETTINGLIST = RIMESETTINGLIST
+// for now only incude rime settings in list of variants
+// since there is only poetic text for the rime.
+//		.concat(GERUSETTINGLIST)
+//		.concat(AMINTASETTINGLIST)
+//		.concat(OTHERSETTINGLIST.ECLOGHE)
+//		.concat(OTHERSETTINGLIST.RINALDO)
+//		.concat(OTHERSETTINGLIST.LAGRIME)
+//		.concat(OTHERSETTINGLIST.TORRISMONDO)
+	;
+}
+
+
+
+//////////////////////////////
+//
+// buildPoemList --
+//
+
+function	buildPoemList(list) {
+	var tosort = {};
+	var id;
+	if (!list) {
+		// list = ALLSETTINGLIST;
+		list = RIMEVERSELIST;
+	}
+	for (var i=0; i<list.length; i++) {
+		if (!list[i].CATALOGNUM) {
+			if (list[i].SOLERTI) {
+				id = "Trm";
+				if (parseInt(list[i].SOLERTI) < 1000) {
+					id += "0";
+				}
+				if (parseInt(list[i].SOLERTI) < 100) {
+					id += "0";
+				}
+				if (parseInt(list[i].SOLERTI) < 10) {
+					id += "0";
+				}
+				id += list[i].SOLERTI;
+			}
+		} else {
+			id = list[i].CATALOGNUM.replace(/[a-z]$/, "");
+		}
+		tosort[id] = 1;
+	}
+	var ids = Object.keys(tosort);
+	ids.sort();
+	PoemList = {};
+	for (i=1; i<=ids.length-1; i++) {
+		PoemList[ids[i]] = {};
+		PoemList[ids[i]].next     = ids[i+1];
+		PoemList[ids[i]].previous = ids[i-1];
+	}
+
+	if (ids.length == 1) {
+		PoemList[ids[0]] = {};
+		PoemList[ids[0]].next = ids[0];
+		PoemList[ids[0]].previous = ids[0];
+		return;
+	}
+
+	PoemList[ids[0]] = {};
+	PoemList[ids[0]].next = ids[1];
+	PoemList[ids[0]].previous = ids[ids.length-1];
+
+	PoemList[ids[ids.length-1]] = {};
+	PoemList[ids[ids.length-1]].next = ids[0];
+	PoemList[ids[ids.length-1]].previous = ids[ids.length-2];
+
+}
+
+
+
+//////////////////////////////
+//
+// displayMarkup --
+//
+
+function displayMarkup(id, target) {
+	if (!target) {
+		target = "#contents";
+	}
+	var element = document.querySelector(target);
+	if (!element) {
+		console.log("Error: cannot place Poem markup on page.");
+		return;
+	}
+console.warn("reallyDisplayMarkup", id, target);
+
+   var output = "";
+   if (!id) {
+		element.innerHTML = " no multiple variant view allowed ";
+		return;
+	}
+
+	output += singlePoemMarkup(id);
+	output += "<div style='margin-bottom:200px;'></div>";
+	element.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// prepareReverseVerse --
+//
+
+function prepareReverseVerse(vlist) {
+	var output = {};
+	for (var i=0; i<vlist.length; i++) {
+		var id = vlist[i].CATALOGNUM;
+		//if (id) {
+		//	var iid = "Trm";
+		//	if (id < 1000) { iid += "0"; }
+		//	if (id < 100)  { iid += "0"; }
+		//	if (id < 10)   { iid += "0"; }
+		//	iid += id;
+		//	output[iid] = vlist[i];
+		//} else {
+			id = vlist[i].CATALOGNUM;
+			output[id] = vlist[i];
+		//}
+	}
+	console.log("VLIST ", output);
+	return output;
+}
+
+
+//////////////////////////////
+//
+// singlePoemMarkup --
+//
+
+function singlePoemMarkup(id) {
+	var vlist = GetFlatVerseList();
+	var REVERSEVERSE = prepareReverseVerse(vlist);
+   REVERSEVERSE.id  = id;
+
+console.warn("DATA ===============>", REVERSEVERSE[id]);
+
+	var hsource = document.querySelector("#about-header-template").textContent;
+	var htemplate = Handlebars.compile(hsource);
+	var output = htemplate(REVERSEVERSE[id]);
+
+	var asource = document.querySelector("#about-template").textContent;
+	var atemplate = Handlebars.compile(asource);
+	console.error("ID", id, REVERSEVERSE[id]);
+	output += atemplate(REVERSEVERSE[id]);
+
+	return output;
+}
+
+
+//////////////////////////////
+//
+// toggleStress --
+//
+
+function toggleStress(event) {
+console.log("EVENT", event);
+	if (event.currentTarget.checked) {
+		showStress();
+	} else {
+		hideStress();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showStress --
+//
+
+function showStress() {
+	console.log("Show stress");
+	let syls = document.querySelectorAll(".stress");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("showStress");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideStress --
+//
+
+function hideStress() {
+	console.log("Hide stress");
+	let syls = document.querySelectorAll(".stress");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("showStress");
+	}
+}
+
+
+
+
+//////////////////////////////
+//
+// toggleSyllable --
+//
+
+function toggleSyllable(event) {
+	if (event.currentTarget.checked) {
+		showSyllable();
+	} else {
+		hideSyllable();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showSyllable --
+//
+
+function showSyllable() {
+	console.log("Show syllable");
+	let syls = document.querySelectorAll(".syllable");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("showSyllable");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideSyllable --
+//
+
+function hideSyllable() {
+	console.log("Hide syllable");
+	let syls = document.querySelectorAll(".syllable");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("showSyllable");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleSyllableCount --
+//
+
+function toggleSyllableCount(event) {
+	if (event.currentTarget.checked) {
+		showSyllableCount();
+	} else {
+		hideSyllableCount();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showSyllableCount --
+//
+
+function showSyllableCount() {
+	console.log("Show syllable");
+	let syls = document.querySelectorAll("td.syllable-count");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("hide-count");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideSyllableCount --
+//
+
+function hideSyllableCount() {
+	console.log("Hide syllable");
+	let syls = document.querySelectorAll("td.syllable-count");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("hide-count");
+	}
+}
+
+
+
+
+//////////////////////////////
+//
+// toggleRhyme --
+//
+
+function toggleRhyme(event) {
+	if (event.currentTarget.checked) {
+		showRhyme();
+	} else {
+		hideRhyme();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showRhyme --
+//
+
+function showRhyme() {
+	console.log("Show rhyme");
+	let syls = document.querySelectorAll("span.rhyme");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("hide-rhyme");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideRhyme --
+//
+
+function hideRhyme() {
+	console.log("Hide rhyme");
+	let syls = document.querySelectorAll("span.rhyme");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("hide-rhyme");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleElision --
+//
+
+function toggleElision(event) {
+	if (event.currentTarget.checked) {
+		showElision();
+	} else {
+		hideElision();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showElision --
+//
+
+function showElision() {
+	console.log("Show elision");
+	let syls = document.querySelectorAll("span.elision");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("hide-elision");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideElision --
+//
+
+function hideElision() {
+	console.log("Hide elision");
+	let syls = document.querySelectorAll("span.elision");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("hide-elision");
+	}
+}
+
+
+
+
+
+//////////////////////////////
+//
+// toggleEnjambment --
+//
+
+function toggleEnjambment(event) {
+	if (event.currentTarget.checked) {
+		showEnjambment();
+	} else {
+		hideEnjambment();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showEnjambment --
+//
+
+function showEnjambment() {
+	console.log("Show enjambment");
+	let syls = document.querySelectorAll("span.enjambment");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("hide-enjambment");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideEnjambment --
+//
+
+function hideEnjambment() {
+	console.log("Hide enjambment");
+	let syls = document.querySelectorAll("span.enjambment");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("hide-enjambment");
+	}
+}
+
+
+
+
+</script>
+
+
+
+

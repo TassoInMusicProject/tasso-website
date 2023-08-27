@@ -1,0 +1,211 @@
+
+#contents {
+	border-top-right-radius: 0px !important;
+}
+
+
+iframe {
+	width:100%;
+	height:1000px;
+	padding:0;
+	margin:0;
+	border: 0;
+}
+
+.editor:hover {
+	cursor: pointer;
+}
+
+.triangle {
+	color: #96835c;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	font-size: 100%;
+}
+
+
+table.poem {
+	margin-top: 50px;
+	margin-left: 300px;
+	font-size: 110%;
+	margin-bottom: 100px;
+}
+
+
+.poem tr {
+	vertical-align: top;
+}
+
+
+.poem td {
+	padding-left: 50px;
+	font-size: 90%;
+	padding-right: 0px;
+	padding-bottom: 3px;
+}
+
+
+.poem td.first-line {
+	padding-left: 0px;
+}
+
+
+.manuscript {
+	color: brown;
+	font-weight: bold;
+}
+
+
+.print {
+	color: goldenrod;
+	font-weight: bold;
+}
+
+
+table.verse-line {
+	font-size: 1.75rem;
+	border-collapse: collapse;
+}
+
+
+td.verse-text {
+	word-spacing: 6px;
+}
+
+tr.verse-line:hover {
+	background: #eee;
+}
+
+span.syllable {
+	display: inline-block;
+}
+
+
+.stress.showStress {
+	font-weight: bold;
+	color: #cc0000 !important;
+	border-radius: 10px;
+}
+
+span.syllable.even.showSyllable {
+	background-color: #ccffaa;
+	border-radius: 10px;
+}
+
+span.syllable.odd.showSyllable {
+	background-color: #cceeff;
+	border-radius: 10px;
+}
+
+/* temporary hiding of arrow button */
+
+span.triangle, span.backward {
+	display:none;
+
+}
+
+
+.infodata {
+	line-height: 150%;
+}
+
+.indent {
+	margin-left: 75px;
+	margin-right: 150px;
+}
+
+.maincontent {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+table.poem {
+	width: 100%;
+	margin-left:  -40px;
+	margin-right: 10px;
+}
+
+.poem td {
+	backgound-color: blue;
+}
+
+.htext {
+	font-size: 80%;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.header {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.first-line {
+	padding-left: 0px;
+	white-space: nowrap;
+}
+
+.other-line {
+	padding-left: 40px;
+	white-space: nowrap;
+}
+
+td.syllable-count.hide-count {
+	display: none;
+}
+
+span.rhyme.hide-rhyme {
+	display: none;
+}
+
+span.enjambment.hide-enjambment {
+	display: none;
+}
+
+
+td.syllable-count {
+	padding-left: 30px;
+}
+
+td.verse-rhyme {
+	padding-left: 30px;
+}
+
+
+td.tcell {
+	padding-left: 70px;
+	padding-top: 40px;
+}
+
+div.options {
+	padding-left: 150px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	font-size: 1.5rem;
+}
+
+span.rhyme {
+	font-weight: bold;
+}
+
+span.hide-elision {
+	visibility: hidden;
+}
+
+
+span.elision {
+	display:inline-block;
+	-webkit-transform:scale(0.4,1); /* Safari and Chrome */
+	-moz-transform:scale(0.4,1); /* Firefox */
+	-ms-transform:scale(0.4,1); /* IE 9 */
+	-o-transform:scale(0.4,1); /* Opera */
+	transform:scale(0.4,1); /* W3C */
+	margin-left: -0.40rem;
+	margin-right: -0.40rem;
+	color: #999;
+}
+
+
+

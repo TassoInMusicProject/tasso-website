@@ -1,0 +1,63 @@
+<script>
+// vim: ts=3 ft=javascript
+
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	CGI = GetCgiParameters();
+	if (CGI.rime) {
+		var id = "Trm";
+		if (CGI.rime < 1000) { id += "0"; }
+		if (CGI.rime < 100)  { id += "0"; }
+		if (CGI.rime < 10)   { id += "0"; }
+		id += CGI.rime;
+		CurrentPoem = id;
+	   // displayMarkup(id, "#contents");
+	} else if (CGI.id) {
+			CurrentPoem = CGI.id;
+	} else {
+		CurrentPoem = "Trm0048";
+	}
+	LoadTassoData(displayMarkupInitialize);
+});
+
+
+
+//////////////////////////////
+//
+// process Window keys down:
+//
+
+window.addEventListener('keydown', function(event) {
+   if (event.metaKey) {
+		return;
+	}
+
+	switch (event.keyCode) {
+		case LeftArrowKey:
+			if (event.shiftKey) {
+				displaySource();
+			} else {
+				displayPreviousPoem();
+			}
+			break;
+		case RightArrowKey:
+			if (event.shiftKey) {
+				displaySetting();
+			} else {
+				displayNextPoem();
+			}
+			break;
+		case UpArrowKey:
+   		window.location = "/variants";
+			break;
+	}
+
+});
+
+
+</script>

@@ -1,0 +1,927 @@
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+
+
+<!-- Markup-page header -->
+
+{% raw %}
+<script id="about-header-template" type="text/x-handlebars-template">
+	<center>
+		<table style=' width=100%; padding-left:50px; padding-right:50px; width:100%'>
+		<tr>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayPreviousSource();'>
+					<span style='letter-spacing:-7pt;'>
+						&#9664;&#9664;
+					</span>
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h1>Poetic markup</h1>
+			</td>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayNextSource();'>
+				<span style='position:relative;left:-8px; letter-spacing:-7pt;'>
+					&#9654;&#9654;
+				</span>
+			</td>
+	</tr>
+	</table>
+</center>
+
+<center>
+	<table style='margin-top:-50px; padding-left:50px; padding-right:50px; width:100%'>
+		<tr>
+			<td class='triangle'><span class='triangle' onclick='displayPreviousSource();'>
+				&#9664;
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h2>{{{formatTitle TITLE}}}  {{{parentheticalinfo this}}} </h2>
+			</td>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayNextSource();'>
+					&#9654;
+				</span>
+			</td>
+		</tr>
+	</table>
+</center>
+
+</script>
+{% endraw %}
+
+
+
+<!-- About template -->
+
+{% raw %}
+<script id="about-template" type="text/x-handlebars-template">
+
+<div class="options">
+	<input onchange="toggleSyllable(event)", type=checkbox>&nbsp;syllable
+	<input onchange="toggleSyllableCount(event)", type=checkbox>&nbsp;count
+	<input onchange="toggleStress(event)", type=checkbox>&nbsp;stress
+	<input onchange="toggleElision(event)", type=checkbox>&nbsp;elision
+	<input onchange="toggleRhyme(event)", type=checkbox>&nbsp;rhyme
+	<input onchange="toggleEnjambment(event)", type=checkbox>&nbsp;enjambment
+</div>
+
+<div class="maincontent">
+	{{{mverse VERSES.MVERSE}}}
+</div>
+
+{{lastModified LAST_MODIFIED }}
+
+
+</script>
+{% endraw %}
+
+
+
+<script>
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Handlebar helper functions --
+//
+
+
+//////////////////////////////
+//
+// mverse --
+//
+
+Handlebars.registerHelper("mverse",  function (mverse) {
+	let output = "";
+	if (!mverse) {
+		console.warn("MVERSE IS EMPTY");
+		return new Handlebars.SafeString(output);
+	}
+	output += "<div class='indent'>";
+	// single verse for now:
+	output += prepareMverseTable(mverse);
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// prepareMverseTable --
+//
+
+function prepareMverseTable(mverse) {
+	if (!mverse) {
+		return "";
+	}
+	let lines = mverse.split(/\r?\n/);
+	let output = "";
+	output += "<table class='verse-line'>\n";
+
+	for (let i=0; i<lines.length; i++) {
+		let line = lines[i];
+		let matches = line.match(/^\s*(.*)\s*=(.*)\s*$/);
+		if (!matches) {
+			continue;
+		}
+		let text = matches[1];
+		let side = matches[2];
+		let rhyme = "";
+		let matches2 = side.match(/^([a-zA-Z]+)/);
+		if (matches2) {
+			rhyme = matches2[1];
+		}
+		let enjambment = "";
+		matches2 = side.match(/(\++)/);
+		if (matches2) {
+			enjambment = matches2[1];
+		}
+
+		output += "<tr class='verse-line'>\n";
+
+		output += "<td class='verse-text'>\n";
+		[content, count] = prepareLineMarkup(text, side);
+		output += content;
+		output += "</td>\n";
+
+		output += "<td class='syllable-count hide-count'>\n";
+		output += count;
+		output += "</td>\n";
+
+		output += "<td class='verse-rhyme'>\n";
+		output += `<span class="rhyme hide-rhyme">${rhyme}</span>`;
+		if (enjambment !== "") {
+			output += `<span class="enjambment hide-enjambment">${enjambment}</span>`;
+		}
+		output += "</td>\n";
+
+		output += "</tr>\n";
+	}
+
+	output += "</table>\n";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// prepareLineMarkup --
+//
+
+function prepareLineMarkup(text, side) {
+console.warn("=====================================");
+	console.log("TEXT", text);
+
+	// Move punctuation before syllable boundaries.
+	let ztext = text.replace(/(\|+)([,.:;!?])/, "$2$1");
+	console.log("ZTEXT", ztext);
+
+	// Convert stress mark into ZZZ:
+	ztext = ztext.replace(/\|\|/g, "ZZZ|").trim();
+
+	console.log("ZTEXT2", ztext);
+
+	let words = ztext.split(/\s+/);
+	console.log("WORDS:", words);
+
+	let output = "";
+	let sylCount = 0;
+	for (let i=0; i<words.length; i++) {
+		let word = words[i];
+		console.log("      WORD:", word);
+
+		let syls = words[i].replace(/\|$/, "").split(/\|/);
+console.warn("     SYLLABLES: ", syls);
+		console.log("SYLS:", syls);
+
+		for (let j=0; j<syls.length; j++) {
+			sylCount++;
+			syls[j] = syls[j].replace(/_/, "<span class='elision hide-elision'>‿</span>", "g");
+			let syl = syls[j];
+			console.log("SYL", syl);
+
+			let stress = false;
+			let matches = syl.match(/(.*)ZZZ$/);
+			if (matches) {
+				stress = true;
+				syl = matches[1];
+			}
+
+
+			if (stress) {
+				if (sylCount % 2) {
+					output += `<span class="syllable even stress">${syl}</span>`;
+				} else {
+					output += `<span class="syllable odd stress">${syl}</span>`;
+				}
+			} else {
+				if (sylCount % 2) {
+					output += `<span class="syllable even">${syl}</span>`;
+				} else {
+					output += `<span class="syllable odd">${syl}</span>`;
+				}
+			}
+		}
+		if (i <words.length - 1) {
+			output += " ";
+		}
+	}
+console.log("==============================================");
+	return [output, sylCount];
+}
+
+
+
+//////////////////////////////
+//
+// verses Handlebar helper -- Assuming translation has the same
+//     dimension as verses.
+//
+
+Handlebars.registerHelper("verses", function(italian, english) {
+	var output = "";
+	if (!italian) {
+		return output;
+	}
+
+	if (italian instanceof Array) {
+		// deal with later
+		for (var i=0; i<italian.length; i++) {
+			if (english) {
+				output += generateDualVerse(italian[i], english[i]);
+			} else {
+				output += generateDualVerse(italian[i], undefined);
+			}
+		}
+	} else {
+		output += generateDualVerse(italian, english);
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// generateDualVerse --
+//
+
+function generateDualVerse(italian, english) {
+	var output = "";
+	var v = [];
+	var vv = [];
+	if (italian) {
+		v = italian.split(/\n/);
+	}
+	if (english) {
+		vv = english.split(/\n/);
+	}
+	for (var i=0; i<v.length; i++) {
+		output += "<tr>";
+		output += "<td>";
+		if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+		} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+		output += "</td>";
+		output += "<td>";
+		if (vv.length > i) {
+			if (vv[i]) {
+				if (i==0) { output += "<div class='first-line'>" + vv[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + vv[i] + "</div>"; }
+			} else {
+			}
+		}
+		output += "</td>";
+		output += "</tr>";
+	}
+	return output;
+}
+
+
+
+
+
+//////////////////////////////
+//
+// oldverses Handlebar helper -- Assuming translation has the same
+//     dimension as verses.
+//
+
+Handlebars.registerHelper("oldverses", function(verses, translation, catnum) {
+	var rime = catnum.match(/Trm0*(\d+)/)[1];
+	
+	if (!verses) {
+		return "";
+	}
+	var v = [];
+	var t = [];
+	var output = "<h3> Text and Translation";
+	output += "<span class='variant'>(";
+	output += "<a href='/variants?rime=";
+	output += rime;
+	output += "'>";
+	output += "go to text variants";
+	output += "</a>";
+	output += ")</span>";
+	output += "</h3>";
+	output += "<div class='indent'>";
+	output += "<table class=poem>";
+	if (verses.VERSE instanceof Array) {
+		output += "<tr>";
+		output += "<td>";
+		output += verses.VERSE.length
+	} else {
+		output += "<tr>";
+		output += "<td>";
+		if (verses.VERSE) {
+			v = verses.VERSE.split(/\n/);
+		}
+		for (var i in v) {
+			if (i==0) { output += "<div class='first-line'>" + v[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + v[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "<td>";
+		if (translation.VERSE) {
+			t = translation.VERSE.split(/\n/);
+		}
+		for (var i in t) {
+			if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+			} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+		}
+		output += "</td>";
+		output += "</tr>";
+	}
+	output += "</table>";
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// title Handlebar helper  -- format peoples' names.
+//
+
+Handlebars.registerHelper("formatTitle", function(text) {
+	if (!text) {
+		return new Handlebars.SafeString("EMPTY");
+	}
+	text = text.replace("ANGIOLETTA", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("BARBARA", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	text = text.replace("Angioletta", "<span class=name>A<font style=\"font-variant:small-caps\">ngioletta</font></span>");
+	text = text.replace("Barbara", "<span class=name>B<font style=\"font-variant:small-caps\">arbara</font></span>");
+	return new Handlebars.SafeString(text);
+});
+
+
+
+//////////////////////////////
+//
+// id2rime Handlebar helper  -- Extract Rime number from catalog number.
+//
+
+Handlebars.registerHelper("id2rime", function(text) {
+	var matches;
+	var output = 0;
+	if (matches = text.match(/^Trm0*(\d+)/)) {
+		output = matches[1];
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// attribution --
+//
+
+Handlebars.registerHelper("attribution",  function (attribution, solerti) {
+	var output = "";
+	if (!attribution) {
+		return new Handlebars.SafeString(output);
+	}
+	var id = makeId(solerti, "Trm");
+	output += "<h3 class='header'>Attribution</h3>";
+	output += "<div class='indent'>";
+	attribution = attribution.replace("Soucres", "Sources");
+	attribution = addLiterarySourceLink(attribution, solerti);
+	attribution = addMusicalSettingsLink(attribution, solerti);
+	attribution = attribution.replace("see ", "see&nbsp;");
+	output += attribution;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// links --
+//
+
+Handlebars.registerHelper("links",  function (solerti) {
+	var output = "";
+	if (!solerti) {
+		return new Handlebars.SafeString(output);
+	}
+
+	var id = makeId(solerti, "Trm");
+
+	output += "<h3 class='header'>Links</h3>";
+	output += "<div class='indent'>";
+
+	var text = "";
+
+	text += "<a target='_blank' href='/variants/?id=";
+	text += id;
+	text += "'>Literary Variants</a>";
+
+	text += "\n<br/>";
+
+	text += "<a target='_blank' href='/sources/?rime=";
+	text += id;
+	text += "'>Literary Sources</a>";
+
+	text += "\n<br/>";
+
+	text += "<a target='_blank' href='/settings/?rime=";
+	text += id;
+	text += "'>Musical Settings</a>";
+
+	output += text;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// dating --
+//
+
+Handlebars.registerHelper("dating",  function (dating, solerti) {
+	var output = "";
+	if (!dating) {
+		return new Handlebars.SafeString(output);
+	}
+	dating = dating.replace("Soucres", "Sources");
+	dating = addLiterarySourceLink(dating, solerti);
+	dating = addMusicalSettingsLink(dating, solerti);
+	dating = dating.replace("see ", "see&nbsp;");
+	output += "<h3 class='header'>Dating</h3>";
+	output += "<div class='indent'>";
+	output += dating;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// dedicatee --
+//
+
+Handlebars.registerHelper("dedicatee",  function (dedicatee) {
+	var output = "";
+	if (!dedicatee) {
+		return new Handlebars.SafeString(output);
+	}
+	output += "<h3 class='header'>Dedicatee</h3>";
+	output += "<div class='indent'>";
+	output += dedicatee;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// commentary --
+//
+
+Handlebars.registerHelper("commentary",  function (commentary) {
+	var output = "";
+	if (!commentary) {
+		return new Handlebars.SafeString(output);
+	}
+	output += "<h3 class='header'>Commentary</h3>";
+	output += "<div class='indent'>";
+	output += processFootnotes(commentary);
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// newcrited --
+//
+
+Handlebars.registerHelper("newcrited",  function (newcrited) {
+	var output = "";
+	if (!newcrited) {
+		return new Handlebars.SafeString(output);
+	}
+	output += "<h3 class='header'>Other Critical Edition</h3>";
+	output += "<div class='indent'>";
+	output += newcrited;
+	output += "</div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+//////////////////////////////
+//
+// makeId -- Create Catalog number from Solerti Rime #.
+//
+
+function makeId(solerti, prefix) {
+	var id = prefix;
+	if (solerti < 1000) { id += "0"; }
+	if (solerti < 100 ) { id += "0"; }
+	if (solerti < 10  ) { id += "0"; }
+	id += solerti;
+	return id;
+}
+
+
+
+//////////////////////////////
+//
+// addMusicalSettingsLink --
+//
+
+function addMusicalSettingsLink(text, solerti) {
+	if (Array.isArray(text)) {
+		return "Musical Settings LINK PROBLEM IN ATON ENTRY";
+	}
+	if (!text) {
+		console.log("TEXT IS EMPTY", text);
+		console.log("Solerti", solerti);
+		return "";
+	}
+	var pieces = [];
+	if (text) {
+		pieces = text.split("\n");
+	}
+	text = "";
+	for (var i=0; i<pieces.length; i++) {
+		text += " " + pieces[i];
+	}
+	match = text.match(/(.*)(see\s+Musical\s+Settings?)(.*)/i);
+	if (!match) {
+		return text;
+	}
+	var prefix = match[1];
+	var postfix = match[3];
+	var output = prefix;
+	output += "<a target='_blank' href='/settings/?rime=";
+	output += solerti;
+	output += "'>see Musical Settings</a>";
+	output += postfix;
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// addLiterarySourceLink --
+//
+
+function addLiterarySourceLink(text, solerti) {
+	if (Array.isArray(text)) {
+		return "LITERARY SOURCE LINK PROBLEM IN ATON ENTRY";
+	}
+	if (!text) {
+		console.log("TEXT IS EMPTY", text);
+		console.log("Solerti", solerti);
+		return "";
+	}
+	var pieces = [];
+	if (text) {
+		pieces = text.split("\n");
+	}
+	text = "";
+	for (var i=0; i<pieces.length; i++) {
+		text += " " + pieces[i];
+	}
+	text.replace("Soucres", "Sources");
+	match = text.match(/(.*)(see\s+Literary\s+Sources)(.*)/);
+	if (!match) {
+		return text;
+	}
+	var prefix = match[1];
+	var postfix = match[3];
+	var output = prefix;
+	output += "<a target='_blank' href='/sources/?rime=";
+	output += solerti;
+	output += "'>see Literary Sources</a>";
+	output += postfix;
+	return output;
+}
+
+
+//////////////////////////////
+//
+// getEditorPopup --
+//
+
+function getEditorPopup(verses) {
+	var title = verses.EDITION_TITLE;
+	var loc   = verses.EDITION_LOC;
+	var pub   = verses.EDITION_PUB;
+	var date  = verses.EDITION_DATE;
+	var vol   = verses.EDITION_VOL;
+	var page  = verses.EDITION_PAGE;
+	if (!title) {
+console.log("TITLE IS EMPTY");
+		return "";
+	}
+	var output = title;
+	output += " (";
+	if (loc) {
+		output += loc + ": ";
+	}
+	output += pub;
+	if (date) {
+		output += ", " + date;
+	}
+	output += ")";
+	if (page) {
+		output += ", ";
+		if (vol) {
+			output += vol  + ": ";
+		}
+		output += page;
+	}
+	return output;
+}
+
+
+//////////////////////////////
+//
+// getTranslationPopup --
+//
+
+function getTranslationPopup(verses) {
+
+	var title = verses.TRANSLATION_TITLE;
+	var loc   = verses.TRANSLATION_LOC;
+	var pub   = verses.TRANSLATION_PUB;
+	var date  = verses.TRANSLATION_DATE;
+	var vol   = verses.TRANSLATION_VOL;
+	var page  = verses.TRANSLATION_PAGE;
+	if (!title) {
+		return "";
+	}
+	var output = title;
+	output += " (";
+	if (loc) {
+		output += loc + ": ";
+	}
+	output += pub;
+	if (date) {
+		output += ", " + date;
+	}
+	output += ")";
+	if (page) {
+		output += ", ";
+		if (vol) {
+			output += vol  + ": ";
+		}
+		output += page;
+	}
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// edtrans --
+//
+
+Handlebars.registerHelper("edtrans",  function (verses) {
+	var editor = verses.EDITOR;
+	var edpop = getEditorPopup(verses);
+	var transpop = getTranslationPopup(verses);
+	var translator = verses.TRANSLATOR;
+	var output = "<tr>";
+	output += "<td class='tcell'>";
+	var editor = reverseName(editor);
+	if (editor) {
+
+		if (edpop) {
+			output += "<span class='editor' title='";
+			output += edpop;
+			output += "'>";
+		}
+
+		output += "Ed. " + editor;
+
+		if (edpop) {
+			output += "</span>";
+		}
+	}
+	output += "</td>";
+	output += "<td class='tcell'>";
+	var translator = reverseName(translator);
+	// translator = cleanCurlies(translator);
+	if (translator) {
+
+		if (transpop) {
+			output += "<span class='editor' title='";
+			output += transpop
+			output += "'>";
+		}
+
+		output += "Trans. " + translator;
+		if (transpop) {
+			output += "</span>";
+		}
+	}
+	output += "</td>";
+	output += "</tr>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// cleanCurlies --
+//
+
+function cleanCurlies(text) {
+	text = text.replace(/\{.*?\}/g, "");
+	return text;
+}
+
+
+
+//////////////////////////////
+//
+// reverseName --
+//
+
+function reverseName(text) {
+console.log("RNTEXT", text);
+	if (!text) {
+		return "";
+	}
+	match = text.match(/(.*),\s+(.*)/);
+	if (!match) {
+		return text;
+	}
+	var output = match[2];
+	output += " ";
+	output += match[1];
+	return output;
+}
+
+
+
+///////////////////////////////
+//
+// parentheticalinfo --
+//
+
+Handlebars.registerHelper("parentheticalinfo",  function (obj) {
+	var output = "";
+console.log("OBJ", obj);
+	if (!obj) {
+		return new Handlebars.SafeString("");
+	}
+	if (obj.SOLERTI) {
+		output = "(<i>Rime</i> " + obj.SOLERTI + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tam/) && obj.ACT && obj.SCENE && obj.VERSE) {
+		output = "(<i>Aminta</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tsg/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Gerusalemme</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tec/) && obj.ECLOGA && obj.VERSE) {
+		output = "(<i>Ecloga</i> " + obj.ECLOGA + "/" + obj.VERSE + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tri/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>Rinaldo</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Trt/) && obj.ACT && obj.SCENE && obj.SECTION) {
+		output = "(<i>Torrismondo</i> " + obj.ACT + "/" + obj.SCENE + "/" + obj.SECTION + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tco/) && obj.CANTO && obj.OTTAVA) {
+		output = "(<i>G. conquistata</i> " + obj.CANTO + "/" + obj.OTTAVA + ")";
+		return new Handlebars.SafeString(output);
+	}
+	if (obj.CATALOGNUM.match(/^Tbv/) && obj.STANZA) {
+		output = "(<i>Lagrime</i> " + obj.STANZA + ")";
+		return new Handlebars.SafeString(output);
+	}
+
+	return new Handlebars.SafeString(output);
+});
+
+
+
+///////////////////////////////
+//
+// processFootnotes --
+//
+
+var ZZZ = ""
+function processFootnotes(text) {
+	var lines = text.split(/\n/);
+	var newtext = "";
+	for (var i=0; i<lines.length; i++) {
+		newtext += lines[i] + " ";
+	}
+	var match = newtext.match(/(.*)\[(.*?)\]{footnote:(.*?)}(.*)/);
+	if (match) {
+		var pre = match[1];
+		var highlight = match[2];
+		var footnote = match[3];
+		var post = match[4];
+		newtext = pre;
+		newtext += "<span style='cursor:help; color:#d6835c' class='footnote' text='" + footnote + "'>" + highlight + "</span>" + post;
+		console.log("NEW TEXT", newtext);
+	} else {
+		console.log("NO FOOTNOTE FOR ", newtext);
+	}
+
+	return newtext;
+
+}
+
+//////////////////////////////
+//
+// { lastModified LAST_MODIFIED }
+//
+
+Handlebars.registerHelper("lastModified",  function (ymd_date) {
+console.log("DATE:", ymd_date);
+	var matches = ymd_date.match(/(20\d{2})\/0*(\d+)\/0*(\d+)/);
+	if (matches) {
+		var year = matches[1];
+		var month = parseInt(matches[2]);
+		var day = matches[3];
+		var date = day;
+		date += "&nbsp;";
+		if (month == 1) {
+			date += "January";
+		} else if (month == 2) {
+			date += "February";
+		} else if (month == 3) {
+			date += "March";
+		} else if (month == 4) {
+			date += "April";
+		} else if (month == 5) {
+			date += "May";
+		} else if (month == 6) {
+			date += "June";
+		} else if (month == 7) {
+			date += "July";
+		} else if (month == 8) {
+			date += "August";
+		} else if (month == 9) {
+			date += "September";
+		} else if (month == 10) {
+			date += "October";
+		} else if (month == 11) {
+			date += "November";
+		} else if (month == 12) {
+			date += "December";
+		}
+		date += "&nbsp;";
+		date += year;
+		var element = document.querySelector("#last-modified");
+		if (element) {
+			var output = "page&nbsp;last&nbsp;modified&nbsp;&nbsp;&nbsp;";
+			output += "<br>";
+			output += date;
+			element.innerHTML = output;
+		}
+	}
+
+	return new Handlebars.SafeString("");
+
+});
+
+
+</script>
+
+
+
+

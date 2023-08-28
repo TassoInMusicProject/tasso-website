@@ -10,6 +10,63 @@ vim: ts=3
 permalink: /markup/index.html
 ---
 
-Markup for this work is in preparation and not yet available.
+
+<div id="contents-markup-header"></div>
+
+<div class="options">
+<input id="check-syllable" onchange="toggleSyllable(event)" type=checkbox>&nbsp;syllable
+<input id="check-stress" onchange="toggleStress(event)" type=checkbox>&nbsp;stress
+<input id="check-rhyme" onchange="toggleRhyme(event)" type=checkbox>&nbsp;rhyme
+<input id="check-enjambment" onchange="toggleEnjambment(event)" type=checkbox>&nbsp;enjambment
+</div>
+<!--
+<input onchange="toggleSyllableCount(event)", type=checkbox>&nbsp;count
+<input onchange="toggleElision(event)", type=checkbox>&nbsp;elision
+<input onchange="toggleGrid(event)", type=checkbox>&nbsp;grid
+-->
+
+<div id="contents-markup"></div>
+
+<center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="visibility:hidden; width:90%; height:200px; margin-top:30px;"></textarea></center>
+
+<div style='margin-bottom:200px;'></div>
+
+<script>
+
+function updateDisplay(event) {
+		console.warn("UPDATE DISPLAY", event.target.value);
+		displayTextareaContents();
+}
+
+function handleTabKeyPressInTextArea(e) {
+
+	console.warn("KEY", e.key);
+
+	if (e.key === "Tab") {
+		e.preventDefault(); // Prevent the default tab behavior
+            
+		var textarea = e.target;
+		var start = textarea.selectionStart;
+		var end = textarea.selectionEnd;
+            
+		// Insert a tab character at the current cursor position
+		var tabCharacter = "\t";
+		textarea.value = textarea.value.substring(0, start) + tabCharacter + textarea.value.substring(end);
+            
+		// Move the cursor to the end of the inserted tab
+		textarea.selectionStart = textarea.selectionEnd = start + tabCharacter.length;
+	} else if (e.key == "ArrowRight") {
+		e.stopPropagation();
+	} else if (e.key == "ArrowLeft") {
+		e.stopPropagation();
+	} else if (e.key == "ArrowUp") {
+		e.stopPropagation();
+	} else if (e.key == "ArrowDown") {
+		e.stopPropagation();
+	}
+}
+
+</script>
+
 
 

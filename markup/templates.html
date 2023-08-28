@@ -50,22 +50,10 @@
 {% endraw %}
 
 
-
-<!-- About template -->
+<!-- Main contents template -->
 
 {% raw %}
 <script id="about-template" type="text/x-handlebars-template">
-
-<div class="options">
-	<input onchange="toggleSyllable(event)", type=checkbox>&nbsp;syllable
-<!--
-	<input onchange="toggleSyllableCount(event)", type=checkbox>&nbsp;count
-	<input onchange="toggleElision(event)", type=checkbox>&nbsp;elision
--->
-	<input onchange="toggleStress(event)", type=checkbox>&nbsp;stress
-	<input onchange="toggleRhyme(event)", type=checkbox>&nbsp;rhyme
-	<input onchange="toggleEnjambment(event)", type=checkbox>&nbsp;enjambment
-</div>
 
 <div class="maincontent">
 	{{{mverse VERSES.MVERSE}}}
@@ -93,6 +81,20 @@
 //
 
 Handlebars.registerHelper("mverse",  function (mverse) {
+	let textarea = document.querySelector("textarea");
+	if (textarea) {
+		if (textarea.style.visibility === "hidden") {
+			if (mverse[0] != "\t") {
+				textarea.value = "\t" + mverse;
+			} else {
+				textarea.value = mverse;
+			}
+			textarea.style.visibility = "visible";
+		} else {
+			mverse = textarea.value;
+		}
+	}
+
 	let output = "";
 	if (!mverse) {
 		console.warn("MVERSE IS EMPTY");
@@ -135,7 +137,8 @@ function prepareMverseTable(mverse) {
 		let enjambment = "";
 		matches2 = side.match(/(\++)/);
 		if (matches2) {
-			enjambment = matches2[1];
+			// enjambment = matches2[1];
+			enjambment = "+";
 		}
 
 		output += "<tr class='verse-line'>\n";
@@ -171,36 +174,26 @@ function prepareMverseTable(mverse) {
 //
 
 function prepareLineMarkup(text, side) {
-console.warn("=====================================");
-	console.log("TEXT", text);
 
 	// Move punctuation before syllable boundaries.
 	let ztext = text.replace(/(\|+)([,.:;!?])/, "$2$1");
-	console.log("ZTEXT", ztext);
 
 	// Convert stress mark into ZZZ:
 	ztext = ztext.replace(/\|\|/g, "ZZZ|").trim();
 
-	console.log("ZTEXT2", ztext);
-
 	let words = ztext.split(/\s+/);
-	console.log("WORDS:", words);
 
 	let output = "";
 	let sylCount = 0;
 	for (let i=0; i<words.length; i++) {
 		let word = words[i];
-		console.log("      WORD:", word);
 
 		let syls = words[i].replace(/\|$/, "").split(/\|/);
-console.warn("     SYLLABLES: ", syls);
-		console.log("SYLS:", syls);
 
 		for (let j=0; j<syls.length; j++) {
 			sylCount++;
 			syls[j] = syls[j].replace(/_/g, "<span class='elision hide-elision'>‿</span>");
 			let syl = syls[j];
-			console.log("SYL", syl);
 
 			let stress = false;
 			let matches = syl.match(/(.*)ZZZ$/);
@@ -240,7 +233,6 @@ console.warn("     SYLLABLES: ", syls);
 			output += " ";
 		}
 	}
-console.log("==============================================");
 	return [output, sylCount];
 }
 

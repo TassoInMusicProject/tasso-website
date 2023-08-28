@@ -7,8 +7,15 @@
 // DOMContentLoaded event listener --
 //
 
+let Editor = false;
+
 document.addEventListener("DOMContentLoaded", function() {
 	CGI = GetCgiParameters();
+	console.log("CGI", CGI);
+	if (CGI.edit) {
+		Editor = true;
+		console.log("EDITOR TRUE");
+	}
 	if (CGI.rime) {
 		var id = "Trm";
 		if (CGI.rime < 1000) { id += "0"; }
@@ -25,6 +32,22 @@ document.addEventListener("DOMContentLoaded", function() {
 	LoadTassoData(displayMarkupInitialize);
 });
 
+
+//////////////////////////////
+//
+// Show editor if &edit=true is present in the URL.
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+	if (!Editor) {
+		return;
+	}
+	let element = document.querySelector("textarea");
+	if (!element) {
+		return;
+	}
+	element.style.visibility = "visible";
+});
 
 
 //////////////////////////////

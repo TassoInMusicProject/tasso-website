@@ -91,7 +91,7 @@ function displayPreviousPoem() {
 function displayMarkupInitialize(id, target) {
 	PrepareGlobalTassoObjects();
 	if (!target) {
-		target = "#contents";
+		target = "#contents-markup";
 	}
 	if (id) {
 		id = id.replace(/[a-z]$/, "");
@@ -215,25 +215,32 @@ function	buildPoemList(list) {
 //
 
 function displayMarkup(id, target) {
+console.warn("DISPLAY MARKUP");
 	if (!target) {
-		target = "#contents";
+		target = "#contents-markup";
 	}
+
+	let targetheader = "#contents-markup-header";
+	
+	
 	var element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place Poem markup on page.");
 		return;
 	}
-console.warn("reallyDisplayMarkup", id, target);
 
-   var output = "";
    if (!id) {
 		element.innerHTML = " no multiple variant view allowed ";
 		return;
 	}
+	element.innerHTML = singlePoemMarkup(id);
 
-	output += singlePoemMarkup(id);
-	output += "<div style='margin-bottom:200px;'></div>";
-	element.innerHTML = output;
+	element = document.querySelector(targetheader);
+	if (!element) {
+		console.log("Error: cannot place Poem markup header on page.");
+		return;
+	}
+	element.innerHTML = singlePoemMarkupHeader(id);
 }
 
 
@@ -266,26 +273,85 @@ function prepareReverseVerse(vlist) {
 
 //////////////////////////////
 //
-// singlePoemMarkup --
+// singlePoemMarkupHeader --
 //
 
-function singlePoemMarkup(id) {
+function singlePoemMarkupHeader(id) {
+console.warn("SINGLE POEM MARKUP HEADER");
 	var vlist = GetFlatVerseList();
 	var REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
-
-console.warn("DATA ===============>", REVERSEVERSE[id]);
 
 	var hsource = document.querySelector("#about-header-template").textContent;
 	var htemplate = Handlebars.compile(hsource);
 	var output = htemplate(REVERSEVERSE[id]);
 
+	return output;
+}
+
+
+
+function singlePoemMarkup(id) {
+console.warn("SINGLE POEM MARKUP");
+	var vlist = GetFlatVerseList();
+	var REVERSEVERSE = prepareReverseVerse(vlist);
+   REVERSEVERSE.id  = id;
+
 	var asource = document.querySelector("#about-template").textContent;
 	var atemplate = Handlebars.compile(asource);
-	console.error("ID", id, REVERSEVERSE[id]);
-	output += atemplate(REVERSEVERSE[id]);
+	var output = atemplate(REVERSEVERSE[id]);
 
 	return output;
+}
+
+
+
+//////////////////////////////
+//
+// displayTextareaContents --
+//
+
+function displayTextareaContents() {
+
+console.error("========= DISPLAYING TEXTAREA CONTENTS");
+
+	let data = {};
+	data.VERSES = {};
+	let textarea = document.querySelector("textarea");
+	if (!textarea) {
+		return;
+	}
+	data.VERSES.MVERSE = textarea.value;
+	data.CATALOGNUM = "NONE";
+	data.LAST_MODIFIED = "NONE";
+
+	var asource = document.querySelector("#about-template").textContent;
+	var atemplate = Handlebars.compile(asource);
+	let output = atemplate(data);
+
+	let element = document.querySelector("#contents-markup");
+	if (element) {
+		element.innerHTML = output;
+	}
+
+	let sylElement = document.querySelector("#check-syllable");
+	let stressElement = document.querySelector("#check-stress");
+	let rhymeElement = document.querySelector("#check-rhyme");
+	let enjambmentElement = document.querySelector("#check-enjambment");
+
+	if (sylElement && sylElement.checked) {
+		showSyllable();
+	}
+	if (stressElement && stressElement.checked) {
+		showStress();
+	}
+	if (rhymeElement && rhymeElement.checked) {
+		showRhyme();
+	}
+	if (enjambmentElement && enjambmentElement.checked) {
+		showEnjambment();
+	}
+
 }
 
 
@@ -568,9 +634,79 @@ function hideEnjambment() {
 
 
 
+//////////////////////////////
+//
+// toggleGrid --
+//
+
+function toggleGrid(event) {
+	if (event.currentTarget.checked) {
+		showGrid();
+	} else {
+		hideGrid();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showGrid --
+//
+
+function showGrid() {
+	console.log("Show grid");
+	let lines = document.querySelectorAll("tr.verse-line");
+	let cells = [];
+	maxlength = 0;
+	for (let i=0; i<lines.length; i++) {
+		cells[i] = lines[i].querySelectorAll("span.syllable");
+		if (maxlength < cells[i].length) {
+			maxlength = cells[i].length;
+		}
+	}
+
+	let maxwidth = [];
+	for (let i=0; i<maxlength; i++) {
+		maxwidth[i] = 0;
+	}
+
+	for (let i=0; i<cells.length; i++) {
+		for (let j=0; j<cells[i].length; j++) {
+			let width = cells[i][j].offsetWidth;
+			if (maxwidth[j] < width) {
+				maxwidth[j] = width;
+			}
+		}
+	}
+
+	console.error("================================");
+	console.warn("MAXWIDTH", maxwidth);
+	console.error("================================");
+
+	for (let i=0; i<cells.length; i++) {
+		for (let j=0; j<cells[i].length; j++) {
+			cells[i][j].style.width = `${maxwidth[j]}px`;
+		}
+	}
+
+}
+
+
+
+//////////////////////////////
+//
+// hideGrid --
+//
+
+function hideGrid() {
+	console.log("Hide grid");
+}
+
+
+
 
 </script>
-
 
 
 

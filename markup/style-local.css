@@ -203,7 +203,7 @@ textarea {
 	font-size: 1.25rem;
 }
 
-span.rhyme {
+span.rhyme, td.syllable-count {
 	font-weight: bold;
 }
 

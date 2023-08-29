@@ -71,6 +71,7 @@ table.verse-line {
 
 td.verse-text {
 	word-spacing: 6px;
+	white-space: nowrap;
 }
 
 tr.verse-line:hover {
@@ -150,11 +151,13 @@ table.poem {
 }
 
 .first-line {
+	display: inline-block;
 	padding-left: 0px;
 	white-space: nowrap;
 }
 
 .other-line {
+	display: inline-block;
 	padding-left: 40px;
 	white-space: nowrap;
 }
@@ -191,6 +194,13 @@ div.options {
 	margin-bottom: 50px;
 	margin-top: 30px;
 	font-size: 1.5rem;
+}
+
+textarea {
+	width:90%;
+	height:300px;
+	margin-top:30px;
+	font-size: 1.25rem;
 }
 
 span.rhyme {

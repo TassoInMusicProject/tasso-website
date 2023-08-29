@@ -1,0 +1,319 @@
+
+<script>
+// Function to automatically parse syllables.
+// vim: ts=3
+
+function autoMarkup(verse) {
+	if (!verse) {
+		return "";
+	}
+
+	let matches = verse.match(/[=\|]/);
+	if (matches) {
+		// there is already some markup so do not try
+		// to add more.
+		return verse;
+	}
+
+	let lines = verse.split(/\n/);
+	let words = [];
+	for (let i=0; i<lines.length; i++) {
+		lines[i] = lines[i].replace(/^\s+/, "");
+		lines[i] = lines[i].replace(/\s+$/, "");
+		if (lines[i].match(/^\s*$/)) {
+			words[i] = [];
+		} else {
+			words[i] = lines[i].split(/\s+/);
+		}
+	}
+
+	for (let i=0; i<words.length; i++) {
+		for (let j=0; j<words[i].length; j++) {
+			words[i][j] = addSyllables(words[i][j]);
+		}
+	}
+
+	let newlines = [];
+	for (let i=0; i<words.length; i++) {
+		newlines[i] = "";
+		for (let j=0; j<words[i].length; j++) {
+			newlines[i] += words[i][j];
+			if (j < words[i].length - 1) {
+				newlines[i] += " ";
+			}
+		}
+	}
+
+	// Add elisions
+	for (let i=0; i<newlines.length; i++) {
+		newlines[i] = newlines[i].replace(/([aeiouàèéìòóù][,.:;?!]?) (['aeiouàèéìòóù])/gi, "$1_$2");
+		newlines[i] = newlines[i].replace(/([aeiouàèéìòóù][,.:;?!']?) ([aeiouàèéìòóù])/gi, "$1_$2");
+	}
+
+	// Calculate the length of each processed line:
+	let maxlen = 0;
+	let lengths = [];
+	for (let i=0; i<newlines.length; i++) {
+		lengths[i] = newlines[i].length;
+		if (lengths[i] > maxlen) {
+			maxlen = lengths[i];
+		}
+	}
+	let intval = parseInt(maxlen / 8);
+	let remain = maxlen % 8;
+	if (remain == 0) {
+		intval++;
+	}
+	intval++;
+
+	// Add tabs at ends of lines for rhythm schemes:
+	for (let i=0; i<newlines.length; i++) {
+		if (newlines[i].match(/^\s*$/)) {
+			continue;
+		}
+		let ival = parseInt(lengths[i] / 8);
+		let tcount = intval - ival;
+		for (let j=0; j<tcount; j++) {
+			newlines[i] += "\t";
+		}
+	}
+
+
+	// Add rhyme scheme placeholders:
+	for (let i=0; i<newlines.length; i++) {
+		newlines[i] += "=x";
+	}
+
+	// Add prefix tab character and newlines:
+	for (let i=0; i<newlines.length; i++) {
+		newlines[i] = `\t${newlines[i]}\n`;
+	}
+
+	let output = newlines.join("");
+
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// addSyllables --
+//
+
+function addSyllables(word) {
+	let matches;
+
+console.log("PROCESSING WORD: ", word);
+	matches = word.match(/^(miei)([,.!?:']?)$/i);
+	if (matches) {
+		return `mi|ei${matches[2]}`;
+	}
+
+	matches = word.match(/^(.*sa)(et.*[,.!?:']?)$/i);
+	if (matches) {
+		let word1 = addSyllables(matches[1]);
+		let word2 = addSyllables(matches[2]);
+		word = `${word1}|${word2}`;
+		return word;
+	}
+
+	matches = word.match(/^(.*io)(ia.*[,.!?:']?)$/i);
+	if (matches) {
+		let word1 = addSyllables(matches[1]);
+		let word2 = addSyllables(matches[2]);
+		word = `${word1}|${word2}`;
+		return word;
+	}
+
+	word = word.replace(/([bcdfghjklmnpqrstvwxz])\1/g, '$1|$1');
+	if (word.match(/\|/)) {
+		let pieces = word.split("|");
+		for (let i=0; i<pieces.length; i++) {
+			pieces[i] = addSyllables(pieces[i]);
+		}
+		return pieces.join("|");
+	}
+
+	if (word.match(/^[^aeiouàèéìòóù]+[aeiouàèéìòóù]+[^aeiouàèéìòóù]*[,.?!:;]?$/i)) {
+		// single syllable
+		return word;
+	}
+
+	// C+V+
+	matches = word.match(/^[^aeiouàèéìòóù]+[aeiouàèéìòóù]+[,.?!:;]?$/);
+	if (matches) {
+console.log("GOT HERE AAA");
+		return word;
+	}
+
+	// C+V+Ch?V+ => C+V|Ch?V+
+	matches = word.match(/^([^aeiouàèéìòóù]+[aeiouàèéìòóù]+)([^aeiouàèéìòóù]h?[aeiouàèéìòóù]+[,.?!:;]?)$/i);
+	if (matches) {
+		let word1 = addSyllables(matches[1]);
+		let word2 = addSyllables(matches[2]);
+		word = `${word1}|${word2}`;
+console.log("GOT HERE BBB");
+		return word;
+	}
+
+	// C+V+Ch?V+C+ => C+V|Ch?V+C+
+	matches = word.match(/^([^aeiouàèéìòóù]+[aeiouàèéìòóù]+)([^aeiouàèéìòóù]h?[aeiouàèéìòóù]+[^aeiouàèéìòóù]*[,.?!:;]?)$/i);
+	if (matches) {
+		let word1 = addSyllables(matches[1]);
+		let word2 = addSyllables(matches[2]);
+		word = `${word1}|${word2}`;
+console.log("GOT HERE CCC");
+		return word;
+	}
+
+	// VCh?VC* => V|Ch?VC*
+	matches = word.match(/^([aeiouàèéìòóù]+)([^aeiouàèéìòóù]h?[aeiouàèéìòóù][^aeiouàèéìòóù]*.*)$/i);
+	if (matches) {
+		let word1 = addSyllables(matches[1]);
+		let word2 = addSyllables(matches[2]);
+		word = `${word1}|${word2}`;
+console.log("GOT HERE DDD");
+		return word;
+	}
+
+	// ^CV+CV+.*$ => CV|CV.*
+	matches = word.match(/^([^aeiouàèéìòóù]+[aeiouàèéìòóù]+)([^aeiouàèéìòóù]h?[aeiouàèéìòóù]+.*[,.?!:;]?)$/i);
+	if (matches) {
+		let word1 = addSyllables(matches[1]);
+		let word2 = addSyllables(matches[2]);
+		word = `${word1}|${word2}`;
+console.log("GOT HERE EEE");
+		return word;
+	}
+
+	// .+gl.+ => .+|gl.+
+	matches = word.match(/^(.+)(gl.+)$/);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+console.log("GOT HERE FFF");
+			return pieces.join("|");
+		}
+	}
+
+	// .+mb.+ => .+|mb.+
+	matches = word.match(/^(.+m)(b.+)$/);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+console.log("GOT HERE FFF");
+			return pieces.join("|");
+		}
+	}
+
+	// .*n[fds].+
+	matches = word.match(/^(.*n)([fds].+)/);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+console.log("GOT HERE GGG");
+			return pieces.join("|");
+		}
+	}
+
+	// .*[rn]t.+
+	matches = word.match(/^(.*[nr])([ntz].+)/);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+			return pieces.join("|");
+		}
+	}
+
+	// .*l[smt].+
+	matches = word.match(/^(.*l)([mst].+)/);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+			return pieces.join("|");
+		}
+	}
+
+	// .+Vst.+ => .V|st
+	matches = word.match(/^(.+[aeiouàèéìòóù])((st|br|pr|gr).+)$/i);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+			return pieces.join("|");
+		}
+	}
+
+	// .+Vs[cp].+ => .Vs|[cp]
+	matches = word.match(/^(.+[aeiouàèéìòóù]s)([cp].+)$/i);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+			return pieces.join("|");
+		}
+	}
+
+	// .*n[gv].+
+	matches = word.match(/^(.*n)([gv].+)/);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+			return pieces.join("|");
+		}
+	}
+
+	// .*[lr][bcdg]h?.+
+	matches = word.match(/^(.*[lr])([bcdg]h?.+)/);
+	if (matches) {
+		word = `${matches[1]}|${matches[2]}`;
+		if (word.match(/\|/)) {
+			let pieces = word.split("|");
+			for (let i=0; i<pieces.length; i++) {
+				pieces[i] = addSyllables(pieces[i]);
+			}
+			return pieces.join("|");
+		}
+	}
+
+	return word;
+}
+
+
+
+
+</script>
+
+
+

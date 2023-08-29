@@ -56,7 +56,7 @@
 <script id="about-template" type="text/x-handlebars-template">
 
 <div class="maincontent">
-	{{{mverse VERSES.MVERSE}}}
+	{{{mverse VERSES.MVERSE VERSES.VERSE}}}
 </div>
 
 {{lastModified LAST_MODIFIED }}
@@ -77,21 +77,55 @@
 
 //////////////////////////////
 //
-// mverse --
+// mverse -- Need to deal with multiple strophes.
 //
 
-Handlebars.registerHelper("mverse",  function (mverse) {
+Handlebars.registerHelper("mverse",  function (mverse, verse) {
 	let textarea = document.querySelector("textarea");
+
+	if (!mverse || mverse.match(/^\s*$/)) {
+		element = document.querySelector("#status");
+		if (element) {
+			element.innerHTML = "N.B.: No markup for this poem, type alt/option-e to display editor for adding markup";
+			element.style["margin-bottom"] = "50px";
+			element.style["margin-left"] = "100px";
+			element.style["color"] = "#990000";
+		}
+		// No VERSES.MVERSE entry, so display use VERSES.VERSE
+		if (typeof verse === "string") {
+			verse = [verse];
+		}
+		mverse = [];
+		for (let i=0; i<verse.length; i++) {
+			mverse[i] = autoMarkup(verse[i]);
+		}
+	}
+
+	if (typeof mverse === "string") {
+		mverse = [ mverse ];
+	}
+
 	if (textarea) {
 		if (textarea.style.visibility === "hidden") {
-			if (mverse[0] != "\t") {
-				textarea.value = "\t" + mverse;
+			if (mverse.length == 1) {
+				if (mverse[0][0] != "\t") {
+					textarea.value = "\t" + mverse[0];
+				} else {
+					textarea.value = mverse[0];
+				}
 			} else {
-				textarea.value = mverse;
+				let text = "";
+				for (let i=0; i<mverse.length; i++) {
+					text += mverse[i];
+					if (i < mverse.length - 1) {
+						text += "\n";
+					}
+				}
+				textarea.value = text;
 			}
 			textarea.style.visibility = "visible";
 		} else {
-			mverse = textarea.value;
+			mverse = splitByBlankLine(textarea.value);
 		}
 	}
 
@@ -100,12 +134,43 @@ Handlebars.registerHelper("mverse",  function (mverse) {
 		console.warn("MVERSE IS EMPTY");
 		return new Handlebars.SafeString(output);
 	}
-	output += "<div class='indent'>";
-	// single verse for now:
-	output += prepareMverseTable(mverse);
-	output += "</div>";
+	for (let i=0; i<mverse.length; i++) {
+		output += "<div style='margin-bottom:30px;' class='indent'>";
+		let contents = prepareMverseTable(mverse[i]);
+		output += contents;
+		output += "</div>";
+	}
 	return new Handlebars.SafeString(output);
 });
+
+
+
+//////////////////////////////
+//
+// splitByBlankLine --
+//
+
+function splitByBlankLine(text) {
+	text = text.replace(/^\n+/, "");
+	text = text.replace(/\n+$/, "");
+	text = text.replace(/\n+/g, "\n");
+	text = text.split("\n");
+	let output = [];
+	let index = 0;
+	for (let i=0; i<text.length; i++) {
+		if (text[i].match(/^\s*$/)) {
+			index++;
+			continue;
+		}
+		if (typeof output[index] !== "undefined") {
+			output[index] += text[i] + "\n";
+		} else {
+			output[index] = text[i] + "\n";
+		}
+	}
+	return output;
+}
+
 
 
 //////////////////////////////
@@ -124,11 +189,23 @@ function prepareMverseTable(mverse) {
 	for (let i=0; i<lines.length; i++) {
 		let line = lines[i];
 		let matches = line.match(/^\s*(.*)\s*=(.*)\s*$/);
-		if (!matches) {
+		let text = "";
+		let side = "";
+		if (matches) {
+			text = matches[1];
+			side = matches[2];
+		} else {
+			matches = line.match(/^\s*(.*)\s*/);
+			if (matches) {
+				text = matches[1];
+				side = "";
+			} else {
+				continue;
+			}
+		}
+		if (text.match(/^\s*$/)) {
 			continue;
 		}
-		let text = matches[1];
-		let side = matches[2];
 		let rhyme = "";
 		let matches2 = side.match(/^([a-zA-Z]+)/);
 		if (matches2) {
@@ -141,11 +218,18 @@ function prepareMverseTable(mverse) {
 			enjambment = "+";
 		}
 
-		output += "<tr class='verse-line'>\n";
+		output += "<tr class='verse-line";
+		output += "'>\n";
 
 		output += "<td class='verse-text'>\n";
+		if (i == 0) {
+			output += "<div class='first-line'>";
+		} else {
+			output += "<div class='other-line'>";
+		}
 		[content, count] = prepareLineMarkup(text, side);
 		output += content;
+		output += "</div>\n";
 		output += "</td>\n";
 
 		output += "<td class='syllable-count hide-count'>\n";
@@ -646,7 +730,6 @@ function getEditorPopup(verses) {
 	var vol   = verses.EDITION_VOL;
 	var page  = verses.EDITION_PAGE;
 	if (!title) {
-console.log("TITLE IS EMPTY");
 		return "";
 	}
 	var output = title;
@@ -777,7 +860,6 @@ function cleanCurlies(text) {
 //
 
 function reverseName(text) {
-console.log("RNTEXT", text);
 	if (!text) {
 		return "";
 	}
@@ -800,7 +882,6 @@ console.log("RNTEXT", text);
 
 Handlebars.registerHelper("parentheticalinfo",  function (obj) {
 	var output = "";
-console.log("OBJ", obj);
 	if (!obj) {
 		return new Handlebars.SafeString("");
 	}
@@ -928,6 +1009,8 @@ console.log("DATE:", ymd_date);
 
 </script>
 
+
+{% include_relative automarkup.html %}
 
 
 

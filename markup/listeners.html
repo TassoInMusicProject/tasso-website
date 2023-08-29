@@ -12,9 +12,8 @@ let Editor = false;
 document.addEventListener("DOMContentLoaded", function() {
 	CGI = GetCgiParameters();
 	console.log("CGI", CGI);
-	if (CGI.edit) {
+	if (CGI.edit && CGI.edit === "true") {
 		Editor = true;
-		console.log("EDITOR TRUE");
 	}
 	if (CGI.rime) {
 		var id = "Trm";
@@ -33,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
 //////////////////////////////
 //
 // Show editor if &edit=true is present in the URL.
@@ -40,14 +40,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
 	if (!Editor) {
-		return;
+		let element = document.querySelector("textarea");
+		if (!element) {
+			return;
+		}
+		element.style.visibility = "hidden";
+	} else {
+		let element = document.querySelector("textarea");
+		if (!element) {
+			return;
+		}
+		element.style.visibility = "visible";
 	}
-	let element = document.querySelector("textarea");
-	if (!element) {
-		return;
-	}
-	element.style.visibility = "visible";
 });
+
 
 
 //////////////////////////////
@@ -58,6 +64,77 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('keydown', function(event) {
    if (event.metaKey) {
 		return;
+	}
+
+	if (event.altKey) {
+		if (event.code == "KeyE") {
+			toggleEditor();
+		}
+
+		if (event.code == "KeyJ") {
+			console.log("Toggling Enjambment checkmark");
+			// toggle enjambment check mark
+			let element = document.querySelector("#check-enjambment");
+			if (element) {
+				let state = element.checked;
+				state = !state;
+				element.checked = state;
+				if (state) {
+					showEnjambment();
+				} else {
+					hideEnjambment();
+				}
+			}
+		}
+
+		if (event.code == "KeyR") {
+			console.log("Toggling Rhyme checkmark");
+			// toggle rhyme check mark
+			let element = document.querySelector("#check-rhyme");
+			if (element) {
+				let state = element.checked;
+				state = !state;
+				element.checked = state;
+				if (state) {
+					showRhyme();
+				} else {
+					hideRhyme();
+				}
+			}
+		}
+
+		if (event.code == "KeyS") {
+			console.log("Toggling Syllable checkmark");
+			// toggle syllable check mark
+			let element = document.querySelector("#check-syllable");
+			if (element) {
+				let state = element.checked;
+				state = !state;
+				element.checked = state;
+				if (state) {
+					showSyllable();
+				} else {
+					hideSyllable();
+				}
+			}
+		}
+
+		if (event.code == "KeyT") {
+			console.log("Toggling Stress checkmark");
+			// toggle stress check mark
+			let element = document.querySelector("#check-stress");
+			if (element) {
+				let state = element.checked;
+				state = !state;
+				element.checked = state;
+				if (state) {
+					showStress();
+				} else {
+					hideStress();
+				}
+			}
+		}
+
 	}
 
 	switch (event.keyCode) {

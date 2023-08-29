@@ -14,10 +14,10 @@ permalink: /markup/index.html
 <div id="contents-markup-header"></div>
 
 <div class="options">
-<input id="check-syllable" onchange="toggleSyllable(event)" type=checkbox>&nbsp;syllable
-<input id="check-stress" onchange="toggleStress(event)" type=checkbox>&nbsp;stress
-<input id="check-rhyme" onchange="toggleRhyme(event)" type=checkbox>&nbsp;rhyme
-<input id="check-enjambment" onchange="toggleEnjambment(event)" type=checkbox>&nbsp;enjambment
+<input id="check-syllable" onchange="toggleSyllable(event)" type=checkbox>&nbsp;<span title="alt/option-s">syllable</span>
+<input id="check-stress" onchange="toggleStress(event)" type=checkbox>&nbsp;<span title="alt/option-t">stress</span>
+<input id="check-rhyme" onchange="toggleRhyme(event)" type=checkbox>&nbsp;<span title="alt/option-r">rhyme</span>
+<input id="check-enjambment" onchange="toggleEnjambment(event)" type=checkbox>&nbsp;<span title="alt/option-j">enjambment</span>
 </div>
 <!--
 <input onchange="toggleSyllableCount(event)", type=checkbox>&nbsp;count
@@ -25,16 +25,17 @@ permalink: /markup/index.html
 <input onchange="toggleGrid(event)", type=checkbox>&nbsp;grid
 -->
 
+<div id="status"></div>
+
 <div id="contents-markup"></div>
 
-<center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="visibility:hidden; width:90%; height:200px; margin-top:30px;"></textarea></center>
+<center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="visibility:hidden;"></textarea></center>
 
 <div style='margin-bottom:200px;'></div>
 
 <script>
 
 function updateDisplay(event) {
-		console.warn("UPDATE DISPLAY", event.target.value);
 		displayTextareaContents();
 }
 

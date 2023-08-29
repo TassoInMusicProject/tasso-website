@@ -301,6 +301,8 @@ console.warn("SINGLE POEM MARKUP");
 	var atemplate = Handlebars.compile(asource);
 	var output = atemplate(REVERSEVERSE[id]);
 
+	applyOptions();
+
 	return output;
 }
 
@@ -333,6 +335,17 @@ console.error("========= DISPLAYING TEXTAREA CONTENTS");
 	if (element) {
 		element.innerHTML = output;
 	}
+
+	applyOptions();
+}
+
+
+//////////////////////////////
+//
+// applyOptions --
+//
+
+function applyOptions() {
 
 	let sylElement = document.querySelector("#check-syllable");
 	let stressElement = document.querySelector("#check-stress");
@@ -636,6 +649,55 @@ function hideEnjambment() {
 
 //////////////////////////////
 //
+// toggleEditor --
+//
+
+function toggleEditor(event) {
+	Editor = !Editor;
+	if (Editor) {
+		showEditor();
+	} else {
+		hideEditor();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showEditor --
+//
+
+function showEditor() {
+	console.log("Show editor");
+	let element = document.querySelector("textarea");
+	if (!element) {
+		return;
+	}
+	element.style.visibility = "visible";
+}
+
+
+
+//////////////////////////////
+//
+// hideEditor --
+//
+
+function hideEditor() {
+	console.log("Hide editor");
+	let element = document.querySelector("textarea");
+	if (!element) {
+		return;
+	}
+	element.style.visibility = "hidden";
+}
+
+
+
+
+//////////////////////////////
+//
 // toggleGrid --
 //
 
@@ -651,7 +713,7 @@ function toggleGrid(event) {
 
 //////////////////////////////
 //
-// showGrid --
+// showGrid -- Not used, might need fixing otherwise.
 //
 
 function showGrid() {
@@ -680,10 +742,6 @@ function showGrid() {
 		}
 	}
 
-	console.error("================================");
-	console.warn("MAXWIDTH", maxwidth);
-	console.error("================================");
-
 	for (let i=0; i<cells.length; i++) {
 		for (let j=0; j<cells[i].length; j++) {
 			cells[i][j].style.width = `${maxwidth[j]}px`;
@@ -702,6 +760,7 @@ function showGrid() {
 function hideGrid() {
 	console.log("Hide grid");
 }
+
 
 
 

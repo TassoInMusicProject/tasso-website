@@ -215,7 +215,6 @@ function	buildPoemList(list) {
 //
 
 function displayMarkup(id, target) {
-console.warn("DISPLAY MARKUP");
 	if (!target) {
 		target = "#contents-markup";
 	}
@@ -277,7 +276,6 @@ function prepareReverseVerse(vlist) {
 //
 
 function singlePoemMarkupHeader(id) {
-console.warn("SINGLE POEM MARKUP HEADER");
 	var vlist = GetFlatVerseList();
 	var REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
@@ -292,7 +290,6 @@ console.warn("SINGLE POEM MARKUP HEADER");
 
 
 function singlePoemMarkup(id) {
-console.warn("SINGLE POEM MARKUP");
 	var vlist = GetFlatVerseList();
 	var REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
@@ -314,8 +311,6 @@ console.warn("SINGLE POEM MARKUP");
 //
 
 function displayTextareaContents() {
-
-console.error("========= DISPLAYING TEXTAREA CONTENTS");
 
 	let data = {};
 	data.VERSES = {};
@@ -374,7 +369,6 @@ function applyOptions() {
 //
 
 function toggleStress(event) {
-console.log("EVENT", event);
 	if (event.currentTarget.checked) {
 		showStress();
 	} else {
@@ -653,6 +647,7 @@ function hideEnjambment() {
 //
 
 function toggleEditor(event) {
+	console.warn("TOGGLING EDITOR DISPLAY");
 	Editor = !Editor;
 	if (Editor) {
 		showEditor();
@@ -669,7 +664,7 @@ function toggleEditor(event) {
 //
 
 function showEditor() {
-	console.log("Show editor");
+	console.error("===================== Show editor");
 	let element = document.querySelector("textarea");
 	if (!element) {
 		return;
@@ -685,12 +680,13 @@ function showEditor() {
 //
 
 function hideEditor() {
-	console.log("Hide editor");
+	console.warn("===================== Hide editor");
 	let element = document.querySelector("textarea");
 	if (!element) {
 		return;
 	}
 	element.style.display = "none";
+	console.log("TEXTAREA", element);
 }
 
 

@@ -44,12 +44,14 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (!element) {
 			return;
 		}
+		console.warn("HIDING textarea");
 		element.style.display = "none";
 	} else {
 		let element = document.querySelector("textarea");
 		if (!element) {
 			return;
 		}
+		console.error("SHOWING textarea");
 		element.style.display = "block";
 	}
 });

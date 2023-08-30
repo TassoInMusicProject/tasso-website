@@ -384,14 +384,17 @@ table.data td {
 	<div id="poem-text"></div>
 
 	<div class="indent musical-content" style="display:none">
-		<p><a target="_blank" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts.</p>
+		<!-- only display this entry if there is a musical score to extract text from -->
+		<ul>
+		<li><a target="_blank" href="/lyrics?id={{CATALOGNUM}}">Lyric text tool</a>: automatic extraction of sung text by voice with word counts. </li>
+		</ul>
 	</div>
-
-	<div class="indent" style="margin-top:20px;">
-		<a target="_blank" href="/poem/?id={{poemid CATALOGNUM}}">Go to poem's About page</a>
-		<br/>
-		<br/>
-		<a target="_blank" href="/variants/?id={{poemid CATALOGNUM}}">Go to poem's Literary Variants page</a>
+	<div class="indent" style="margin-top:-20px;">
+		<ul>
+		<li> <a target="_blank" href="/poem/?id={{poemid CATALOGNUM}}">Information about poem</a> </li>
+		<li> <a target="_blank" href="/variants/?id={{poemid CATALOGNUM}}">Literary Variants page for poem</a> </li>
+		<li> <a target="_blank" href="/markup/?id={{poemid CATALOGNUM}}">Poem markup page</a> </li>
+		</ul>
 	</div>
 	
 

@@ -29,7 +29,7 @@ permalink: /markup/index.html
 
 <div id="contents-markup"></div>
 
-<center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="visibility:hidden;"></textarea></center>
+<center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="display:none;"></textarea></center>
 
 <div style='margin-bottom:200px;'></div>
 

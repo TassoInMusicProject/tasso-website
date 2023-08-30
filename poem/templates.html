@@ -74,8 +74,6 @@
 
 </table>
 
-{{{mverse VERSES.MVERSE}}}
-
 <span class="infodata">
 	{{{newcrited OTHER_CRIT_ED SOLERTI}}}
 	{{{attribution ATTRIBUTION_ABOUT SOLERTI}}}
@@ -235,114 +233,6 @@ td.tcell {
 //
 // Handlebar helper functions --
 //
-
-
-//////////////////////////////
-//
-// mverse --
-//
-
-Handlebars.registerHelper("mverse",  function (mverse) {
-	let output = "";
-	if (!mverse) {
-		console.warn("MVERSE IS EMPTY");
-		return new Handlebars.SafeString(output);
-	}
-	output += "<h3 class='header'>Markup</h3>";
-	output += "<div class='indent'>";
-	// single verse for now:
-	output += prepareMverseTable(mverse);
-	output += "</div>";
-	return new Handlebars.SafeString(output);
-});
-
-
-//////////////////////////////
-//
-// prepareMverseTable --
-//
-
-function prepareMverseTable(mverse) {
-	if (!mverse) {
-		return "";
-	}
-	let lines = mverse.split(/\r?\n/);
-	let output = "";
-	output += "<table class='verse-line'>\n";
-
-	for (let i=0; i<lines.length; i++) {
-		let line = lines[i];
-		let matches = line.match(/^\s*(.*)\s*=(.*)\s*$/);
-		if (!matches) {
-			continue;
-		}
-		let text = matches[1];
-		let side = matches[2];
-		output += "<tr class='verse-line'>\n";
-		output += "<td class='verse-text'>\n";
-		output += prepareLineMarkup(text, side);
-		output += "</td>\n";
-		output += "<td class='verse-rhyme'>\n";
-		output += side;
-		output += "</td>\n";
-		output += "</tr>\n";
-	}
-
-	output += "</table>\n";
-	return output;
-}
-
-
-
-//////////////////////////////
-//
-// prepareLineMarkup --
-//
-
-function prepareLineMarkup(text, side) {
-	let ztext = text.replace(/\|\|/g, "ZZZ|").trim();
-console.log("ZTEXT", ztext);
-	let words = ztext.split(/\s+/);
-console.log("WORDS", words);
-	let output = "";
-	let sylCount = 0;
-	for (let i=0; i<words.length; i++) {
-		let word = words[i];
-console.log("WORD", word);
-		let syls = words[i].split(/\|/);
-console.log("SYLS", syls);
-		for (let j=0; j<syls.length; j++) {
-			sylCount++;
-			let syl = syls[j];
-console.log("SYL", syl);
-			let accent = false;
-			let matches = syl.match(/(.*)ZZZ$/);
-			if (matches) {
-				accent = true;
-				syl = matches[1];
-			}
-console.error("FINAL SYLLABLE", syl);
-			if (accent) {
-				if (sylcount % 2) {
-					output += `<span class="syl even accent">${syl}</span>`;
-				} else {
-					output += `<span class="syl odd accent">${syl}</span>`;
-				}
-			} else {
-				if (sylcount % 2) {
-					output += `<span class="syl even">${syl}</span>`;
-				} else {
-					output += `<span class="syl odd">${syl}</span>`;
-				}
-			}
-		}
-		if (i <words.length - 1) {
-			output += " ";
-		}
-	}
-	return output;
-}
-
 
 
 //////////////////////////////
@@ -552,15 +442,21 @@ Handlebars.registerHelper("links",  function (solerti) {
 
 	text += "\n<br/>";
 
-	text += "<a target='_blank' href='/sources/?rime=";
+	text += "<a target='_blank' href='/sources/?id=";
 	text += id;
 	text += "'>Literary Sources</a>";
 
 	text += "\n<br/>";
 
-	text += "<a target='_blank' href='/settings/?rime=";
+	text += "<a target='_blank' href='/settings/?id=";
 	text += id;
 	text += "'>Musical Settings</a>";
+
+	text += "\n<br/>";
+
+	text += "<a target='_blank' href='/markup/?id=";
+	text += id;
+	text += "'>Poem Markup</a>";
 
 	output += text;
 	output += "</div>";

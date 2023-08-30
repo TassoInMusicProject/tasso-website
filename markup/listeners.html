@@ -44,13 +44,13 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (!element) {
 			return;
 		}
-		element.style.visibility = "hidden";
+		element.style.display = "none";
 	} else {
 		let element = document.querySelector("textarea");
 		if (!element) {
 			return;
 		}
-		element.style.visibility = "visible";
+		element.style.display = "block";
 	}
 });
 
@@ -69,6 +69,34 @@ window.addEventListener('keydown', function(event) {
 	if (event.altKey) {
 		if (event.code == "KeyE") {
 			toggleEditor();
+		}
+
+		if (event.code == "KeyA") {
+			console.log("Toggling all checkmarks");
+			let element1 = document.querySelector("#check-syllable");
+			let element2 = document.querySelector("#check-stress");
+			let element3 = document.querySelector("#check-rhyme");
+			let element4 = document.querySelector("#check-enjambment");
+
+			if (element1) {
+				let state = element1.checked;
+				state = !state;
+				element1.checked = state;
+				element2.checked = state;
+				element3.checked = state;
+				element4.checked = state;
+				if (state) {
+					showSyllable();
+					showStress();
+					showRhyme();
+					showEnjambment();
+				} else {
+					hideSyllable();
+					hideStress();
+					hideRhyme();
+					hideEnjambment();
+				}
+			}
 		}
 
 		if (event.code == "KeyJ") {

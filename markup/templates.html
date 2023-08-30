@@ -16,7 +16,7 @@
 					</span>
 			</td>
 			<td style='width:100%; text-align:center'>
-				<h1>Poetic markup</h1>
+				<h1>Poem markup</h1>
 			</td>
 			<td class='triangle'>
 				<span class='triangle' onclick='displayNextSource();'>
@@ -81,7 +81,6 @@
 //
 
 Handlebars.registerHelper("mverse",  function (mverse, verse) {
-	let textarea = document.querySelector("textarea");
 
 	if (!mverse || mverse.match(/^\s*$/)) {
 		element = document.querySelector("#status");
@@ -105,8 +104,9 @@ Handlebars.registerHelper("mverse",  function (mverse, verse) {
 		mverse = [ mverse ];
 	}
 
+	let textarea = document.querySelector("textarea");
 	if (textarea) {
-		if (textarea.style.visibility === "hidden") {
+		if (textarea.style.display === "none") {
 			if (mverse.length == 1) {
 				if (mverse[0][0] != "\t") {
 					textarea.value = "\t" + mverse[0];
@@ -123,7 +123,7 @@ Handlebars.registerHelper("mverse",  function (mverse, verse) {
 				}
 				textarea.value = text;
 			}
-			textarea.style.visibility = "visible";
+			textarea.style.display = "block";
 		} else {
 			mverse = splitByBlankLine(textarea.value);
 		}

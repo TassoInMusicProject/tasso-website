@@ -240,6 +240,11 @@ function displayMarkup(id, target) {
 		return;
 	}
 	element.innerHTML = singlePoemMarkupHeader(id);
+
+	if (ShowAllOptions) {
+		showAllOptions();
+	}
+	applyOptions();
 }
 
 
@@ -298,7 +303,6 @@ function singlePoemMarkup(id) {
 	var atemplate = Handlebars.compile(asource);
 	var output = atemplate(REVERSEVERSE[id]);
 
-	applyOptions();
 
 	return output;
 }
@@ -342,10 +346,17 @@ function displayTextareaContents() {
 
 function applyOptions() {
 
-	let sylElement = document.querySelector("#check-syllable");
-	let stressElement = document.querySelector("#check-stress");
-	let rhymeElement = document.querySelector("#check-rhyme");
+	let sylElement        = document.querySelector("#check-syllable");
+	let stressElement     = document.querySelector("#check-stress");
+	let rhymeElement      = document.querySelector("#check-rhyme");
 	let enjambmentElement = document.querySelector("#check-enjambment");
+
+	if (!sylElement)        { return; }
+	if (!stressElement)     { return; }
+	if (!rhymeElement)      { return; }
+	if (!enjambmentElement) { return; }
+
+console.warn("APPLY OPTIONS");
 
 	if (sylElement && sylElement.checked) {
 		showSyllable();

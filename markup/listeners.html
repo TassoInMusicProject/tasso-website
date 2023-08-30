@@ -8,6 +8,8 @@
 //
 
 let Editor = false;
+let OptionsInitialized = false;
+let ShowAllOptions = false;
 
 document.addEventListener("DOMContentLoaded", function() {
 	CGI = GetCgiParameters();
@@ -74,31 +76,8 @@ window.addEventListener('keydown', function(event) {
 		}
 
 		if (event.code == "KeyA") {
-			console.log("Toggling all checkmarks");
-			let element1 = document.querySelector("#check-syllable");
-			let element2 = document.querySelector("#check-stress");
-			let element3 = document.querySelector("#check-rhyme");
-			let element4 = document.querySelector("#check-enjambment");
+			toggleAllOptions();
 
-			if (element1) {
-				let state = element1.checked;
-				state = !state;
-				element1.checked = state;
-				element2.checked = state;
-				element3.checked = state;
-				element4.checked = state;
-				if (state) {
-					showSyllable();
-					showStress();
-					showRhyme();
-					showEnjambment();
-				} else {
-					hideSyllable();
-					hideStress();
-					hideRhyme();
-					hideEnjambment();
-				}
-			}
 		}
 
 		if (event.code == "KeyJ") {
@@ -188,6 +167,106 @@ window.addEventListener('keydown', function(event) {
 	}
 
 });
+
+
+
+//////////////////////////////
+//
+// toggleAllOptions --
+//
+
+function toggleAllOptions() {
+	console.log("Toggling all checkmarks");
+	let element1 = document.querySelector("#check-syllable");
+	let element2 = document.querySelector("#check-stress");
+	let element3 = document.querySelector("#check-rhyme");
+	let element4 = document.querySelector("#check-enjambment");
+
+	if (!element1) { return; }
+	if (!element2) { return; }
+	if (!element3) { return; }
+	if (!element4) { return; }
+
+	if (element1) {
+		let state = element1.checked;
+		state = !state;
+		element1.checked = state;
+		element2.checked = state;
+		element3.checked = state;
+		element4.checked = state;
+		if (state) {
+			showSyllable();
+			showStress();
+			showRhyme();
+			showEnjambment();
+		} else {
+			hideSyllable();
+			hideStress();
+			hideRhyme();
+			hideEnjambment();
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showAllOptions --
+//
+
+function showAllOptions() {
+	console.log("Showing all checkmarks");
+	let element1 = document.querySelector("#check-syllable");
+	let element2 = document.querySelector("#check-stress");
+	let element3 = document.querySelector("#check-rhyme");
+	let element4 = document.querySelector("#check-enjambment");
+
+	if (!element1) { return; }
+	if (!element2) { return; }
+	if (!element3) { return; }
+	if (!element4) { return; }
+
+	element1.checked = true;
+	element2.checked = true;
+	element3.checked = true;
+	element4.checked = true;
+
+	showSyllable();
+	showStress();
+	showRhyme();
+	showEnjambment();
+}
+
+
+
+//////////////////////////////
+//
+// hideAllOptions --
+//
+
+function hideAllOptions() {
+	console.log("Hiding all checkmarks");
+	let element1 = document.querySelector("#check-syllable");
+	let element2 = document.querySelector("#check-stress");
+	let element3 = document.querySelector("#check-rhyme");
+	let element4 = document.querySelector("#check-enjambment");
+
+	if (!element1) { return; }
+	if (!element2) { return; }
+	if (!element3) { return; }
+	if (!element4) { return; }
+
+	element1.checked = false;
+	element2.checked = false;
+	element3.checked = false;
+	element4.checked = false;
+
+	hideSyllable();
+	hideStress();
+	hideRhyme();
+	hideEnjambment();
+}
 
 
 </script>

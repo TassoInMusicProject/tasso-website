@@ -98,6 +98,12 @@ Handlebars.registerHelper("mverse",  function (mverse, verse) {
 		for (let i=0; i<verse.length; i++) {
 			mverse[i] = autoMarkup(verse[i]);
 		}
+	} else {
+		// turn on all options if MVERSE is available
+		if (!OptionsInitialized) {
+			ShowAllOptions = true;
+			OptionsInitialized = true;
+		}
 	}
 
 	if (typeof mverse === "string") {

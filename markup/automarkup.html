@@ -9,7 +9,7 @@ console.warn("AUTOMARKUP", verse);
 		return "";
 	}
 
-	let matches = verse.match(/[=\|]/);
+	let matches = verse.match(/[=-]/);
 	if (matches) {
 		// there is already some markup so do not try
 		// to add more.
@@ -110,14 +110,14 @@ function addSyllables(word) {
 // console.log("PROCESSING WORD: ", word);
 	matches = word.match(/^(miei)([,.!?:']?)$/i);
 	if (matches) {
-		return `mi|ei${matches[2]}`;
+		return `mi-ei${matches[2]}`;
 	}
 
 	matches = word.match(/^(.*sa)(et.*[,.!?:']?)$/i);
 	if (matches) {
 		let word1 = addSyllables(matches[1]);
 		let word2 = addSyllables(matches[2]);
-		word = `${word1}|${word2}`;
+		word = `${word1}-${word2}`;
 		return word;
 	}
 
@@ -125,17 +125,17 @@ function addSyllables(word) {
 	if (matches) {
 		let word1 = addSyllables(matches[1]);
 		let word2 = addSyllables(matches[2]);
-		word = `${word1}|${word2}`;
+		word = `${word1}-${word2}`;
 		return word;
 	}
 
-	word = word.replace(/([bcdfghjklmnpqrstvwxz])\1/g, '$1|$1');
-	if (word.match(/\|/)) {
-		let pieces = word.split("|");
+	word = word.replace(/([bcdfghjklmnpqrstvwxz])\1/g, '$1-$1');
+	if (word.match(/\-/)) {
+		let pieces = word.split("-");
 		for (let i=0; i<pieces.length; i++) {
 			pieces[i] = addSyllables(pieces[i]);
 		}
-		return pieces.join("|");
+		return pieces.join("-");
 	}
 
 	if (word.match(/^[^aeiïouàèéìòóù]+[aeiïouàèéìòóù]{,2}[^aeiïouàèéìòóù]*[,.?!:;]?$/i)) {
@@ -147,172 +147,172 @@ function addSyllables(word) {
 	if (matches) {
 		let word1 = addSyllables(matches[1]);
 		let word2 = addSyllables(matches[2]);
-		word = `${word1}|${word2}`;
+		word = `${word1}-${word2}`;
 		return word;
 	}
 
-	// ^VCVC* => V|CVC*
+	// ^VCVC* => V-CVC*
 	matches = word.match(/^([aeiïouàèéìòóù]+)([^aeiïouàèéìòóù]h?[aeiïouàèéìòóù][^aeiïouàèéìòóù]*.*)$/i);
 	if (matches) {
 		let word1 = addSyllables(matches[1]);
 		let word2 = addSyllables(matches[2]);
-		word = `${word1}|${word2}`;
+		word = `${word1}-${word2}`;
 		return word;
 	}
 
 	matches = word.match(/^(.+)(gl.+)$/);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.*chie)(d.+)$/);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.*ï)(.+)$/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.+b)([l]h?.+)/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.+c)([q]h?.+)/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.+l)([bcdfglmprstvz]h?.+)/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.*m)([bp].+)/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.*n)([cdfgqstvz].+)/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.+p)([r].+)/);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.+r)([bcdfglmnpstvz].+)/);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.+s)([cdmp].+)/);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.+t)([n].+)/);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
 	matches = word.match(/^(.*v)([r].+)/);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
@@ -322,69 +322,69 @@ function addSyllables(word) {
 		return word;
 	}
 
-	// C+V+Ch?V+ => C+V|Ch?V+
+	// C+V+Ch?V+ => C+V-Ch?V+
 	matches = word.match(/^([^aeiïouàèéìòóù]+[aeiïouàèéìòóù]+)([^aeiïouàèéìòóù]h?[aeiïouàèéìòóù]+[,.?!:;]?)$/i);
 	if (matches) {
 		let word1 = addSyllables(matches[1]);
 		let word2 = addSyllables(matches[2]);
-		word = `${word1}|${word2}`;
+		word = `${word1}-${word2}`;
 		return word;
 	}
 
-	// C+V+Ch?V+C+ => C+V|Ch?V+C+
+	// C+V+Ch?V+C+ => C+V-Ch?V+C+
 	matches = word.match(/^([^aeiïouàèéìòóù]+[aeiïouàèéìòóù]+)([^aeiïouàèéìòóù]h?[aeiïouàèéìòóù]+[^aeiïouàèéìòóù]*[,.?!:;]?)$/i);
 	if (matches) {
 		let word1 = addSyllables(matches[1]);
 		let word2 = addSyllables(matches[2]);
-		word = `${word1}|${word2}`;
+		word = `${word1}-${word2}`;
 		return word;
 	}
 
-	// ^CV+CV+.*$ => CV|CV.*
+	// ^CV+CV+.*$ => CV-CV.*
 	matches = word.match(/^([^aeiïouàèéìòóù]+[aeiïouàèéìòóù]+)([^aeiïouàèéìòóù]h?[aeiïouàèéìòóù]+.*[,.?!:;]?)$/i);
 	if (matches) {
 		let word1 = addSyllables(matches[1]);
 		let word2 = addSyllables(matches[2]);
-		word = `${word1}|${word2}`;
+		word = `${word1}-${word2}`;
 		return word;
 	}
 
-	// .+Vstr.+ => .Vs|tr
+	// .+Vstr.+ => .Vs-tr
 	matches = word.match(/^(.*[aeiïouàèéìòóù]s)(tr.+)$/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
-	// .+Vst.+ => .V|st
+	// .+Vst.+ => .V-st
 	matches = word.match(/^(.*[aeiïouàèéìòóù])((st|fr|tr|br|pr|gr|dr|gn).+)$/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 
-	// .+Vs[cp].+ => .Vs|[cp]
+	// .+Vs[cp].+ => .Vs-[cp]
 	matches = word.match(/^(.+[aeiïouàèéìòóù]s)([cp].+)$/i);
 	if (matches) {
-		word = `${matches[1]}|${matches[2]}`;
-		if (word.match(/\|/)) {
-			let pieces = word.split("|");
+		word = `${matches[1]}-${matches[2]}`;
+		if (word.match(/\-/)) {
+			let pieces = word.split("-");
 			for (let i=0; i<pieces.length; i++) {
 				pieces[i] = addSyllables(pieces[i]);
 			}
-			return pieces.join("|");
+			return pieces.join("-");
 		}
 	}
 

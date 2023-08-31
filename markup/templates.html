@@ -266,10 +266,10 @@ function prepareMverseTable(mverse) {
 function prepareLineMarkup(text, side) {
 
 	// Move punctuation before syllable boundaries.
-	let ztext = text.replace(/(\|+)([,.:;!?])/, "$2$1");
+	let ztext = text.replace(/(-+)([,.:;!?])/, "$2$1");
 
 	// Convert stress mark into ZZZ:
-	ztext = ztext.replace(/\|\|/g, "ZZZ|").trim();
+	ztext = ztext.replace(/--/g, "ZZZ-").trim();
 
 	let words = ztext.split(/\s+/);
 
@@ -278,7 +278,7 @@ function prepareLineMarkup(text, side) {
 	for (let i=0; i<words.length; i++) {
 		let word = words[i];
 
-		let syls = words[i].replace(/\|$/, "").split(/\|/);
+		let syls = words[i].replace(/-$/, "").split(/-/);
 
 		for (let j=0; j<syls.length; j++) {
 			sylCount++;

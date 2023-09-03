@@ -1,6 +1,6 @@
 ID:E2              	L10	V1:	Non {può} l’{angusto loco}
 ID:S71             	L42	V1:	Non {pur} l’{humil terreno}
-ID:S169            	L62	V1:	Non pur l’humil terreno,
+ID:S169            	L62	V1:	Non {pur} l’{humil terreno},
 ID:S174            	L83	V1:	Non {può} l’{angusto loco}
 ID:Trm0319a-Canto  	L105	V1:	Non {puo} l’{humil terreno}
 ID:Trm0319a-Alto   	L126	V1:	Non {puo} l’{humil terreno}
@@ -10,7 +10,7 @@ ID:Trm0319a-Quinto 	L189	V1:	Non {puo} l’humil terreno
 
 ID:E2              	L11	V2:	tra {pini}, abeti, e faggi
 ID:S71             	L43	V2:	Tra {primi} abeti, e faggi
-ID:S169            	L63	V2:	Tra pini abeti e faggi,
+ID:S169            	L63	V2:	Tra {pini} abeti e faggi,
 ID:S174            	L84	V2:	Trà {pini}, abeti, e faggi,
 ID:Trm0319a-Canto  	L106	V2:	Tra {primi} abeti e faggi
 ID:Trm0319a-Alto   	L127	V2:	Tra {primi} abeti e faggi
@@ -20,7 +20,7 @@ ID:Trm0319a-Quinto 	L190	V2:	Tra {primi} abeti e faggi
 
 ID:E2              	L12	V3:	{celare} i vostri {<del>raggi</del> puri}, e lieti raggi
 ID:S71             	L44	V3:	{Celano} i vostri {puri}, e lieti raggi.
-ID:S169            	L64	V3:	Celare i vostri puri, e lieti raggi.
+ID:S169            	L64	V3:	{Celare} i vostri {puri}, e lieti raggi.
 ID:S174            	L85	V3:	{Celare} i vostri {puri}, e lieti raggi,
 ID:Trm0319a-Canto  	L107	V3:	{Celar'}i vostri {puri} e lieti raggi
 ID:Trm0319a-Alto   	L128	V3:	{Celar'}i vostri {puri} e lieti raggi
@@ -30,7 +30,7 @@ ID:Trm0319a-Quinto 	L191	V3:	{Celar'}i vostri {puri} e lieti raggi
 
 ID:E2              	L13	V4:	{e ’l dolce, e vivo foco}.
 ID:S71             	L46	V4:	{E chi nasconde il Sole},
-ID:S169            	L65	V4:	E chi nasconde il Sole,
+ID:S169            	L65	V4:	{E chi nasconde il Sole},
 ID:S174            	L86	V4:	{E’l dolce, e vivo foco};
 ID:Trm0319a-Canto  	L108	V4:	{E'l vivo e dolce foco}
 ID:Trm0319a-Alto   	L129	V4:	{E'l vivo e dolce foco}
@@ -40,7 +40,7 @@ ID:Trm0319a-Quinto 	L192	V4:	{E'l vivo e dolce foco}
 
 ID:E2              	L14	V5:	{e chi nasconde il sole}!
 ID:S71             	L47	V5:	{E'l vivo, e dolce foco},
-ID:S169            	L66	V5:	E 'l vivo, e dolce foco,
+ID:S169            	L66	V5:	{E 'l vivo, e dolce foco},
 ID:S174            	L87	V5:	{E chi nasconde il Sole},
 ID:Trm0319a-Canto  	L109	V5:	{E chi nasconde il Sole}
 ID:Trm0319a-Alto   	L130	V5:	{E chi nasconde il Sole}
@@ -50,7 +50,7 @@ ID:Trm0319a-Quinto 	L193	V5:	{E chi nasconde il Sole}
 
 ID:E2              	L15	V6:	Perche non splenda {pur} com’egli sole
 ID:S71             	L48	V6:	Perche non splenda {fuor}, com’egli suole?
-ID:S169            	L67	V6:	Perche non splenda pur, com’egli suole?
+ID:S169            	L67	V6:	Perche non splenda {pur}, com’egli suole?
 ID:S174            	L88	V6:	Perche non splenda {fuor}, com’egli suole?
 ID:Trm0319a-Canto  	L110	V6:	Perche non splenda {pur} com’egli suole
 ID:Trm0319a-Alto   	L131	V6:	Perche non splenda {pur} com’egli suole
@@ -60,7 +60,7 @@ ID:Trm0319a-Quinto 	L194	V6:	Perche non splenda {pur} com’egli suole
 
 ID:E2              	L16	V7:	occhi {graditi}, e cari,
 ID:S71             	L49	V7:	Occhi {soavi}, e cari,
-ID:S169            	L68	V7:	Occhi soavi, e cari,
+ID:S169            	L68	V7:	Occhi {soavi}, e cari,
 ID:S174            	L89	V7:	Occhi {graditi}, e cari,
 ID:Trm0319a-Canto  	L111	V7:	Occhi {soavi} e cari
 ID:Trm0319a-Alto   	L132	V7:	Occhi {soavi} e cari
@@ -90,7 +90,7 @@ ID:Trm0319a-Quinto 	L197	V9:	Voi somigliar sovente
 
 ID:E2              	L19	V10:	fate {questa humil} villa {un} oriente.
 ID:S71             	L52	V10:	Fate {l'angusta} Villa {à l'}Oriente.
-ID:S169            	L71	V10:	Fate l'angusta Villa a l' Oriente.
+ID:S169            	L71	V10:	Fate {l'angusta} Villa {a l'}Oriente.
 ID:S174            	L92	V10:	fate {questa humil} Villa {un}'Oriente.
 ID:Trm0319a-Canto  	L114	V10:	Fate {l'Angusta} villa {a l}'Oriente.
 ID:Trm0319a-Alto   	L135	V10:	Fate {l'Angusta} villa {a l}'Oriente.

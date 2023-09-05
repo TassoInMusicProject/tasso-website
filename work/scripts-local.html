@@ -279,6 +279,7 @@ function displayWorkList(target) {
 	}
 	var element = document.querySelector(target);
 	if (!element) {
+		console.warn("Could not find element", target);
 		return;
 	}
 	var tsource = document.querySelector("#worklist-template").textContent;
@@ -290,6 +291,59 @@ function displayWorkList(target) {
 	setTimeout(function () {
 		document.body.classList.remove("waiting");
 	}, 10);
+}
+
+
+//////////////////////////////
+//
+// fillInSyllableAnalysis --
+//
+
+function fillInSyllableAnalysis() {
+	let element = document.querySelector("#syllable-analysis");
+	if (!element) {
+		console.warn("No #syllable-analysis element");
+		return;
+	}
+	let filename = SETTING.SCOREDATA.DATAURL;
+	let url = `https://verovio.humdrum.org/?file=${filename}&filter=textdur%20-amid&k=ey`;
+	let text = `<li><a target="_blank" href="${url}">View syllable/duration analysis.</a></li>`;
+
+	element.outerHTML = text;
+}
+
+
+
+//////////////////////////////
+//
+// fillInPlineAnalysis --
+//
+
+function fillInPlineAnalysis() {
+	let element = document.querySelector("#pline-analysis");
+	if (!element) {
+		console.warn("No #pline-analysis element");
+		return;
+	}
+	let helement = document.querySelector("#humdrum-data");
+	if (!helement) {
+		console.warn("No #humdrum-data element");
+		return;
+	}
+	let humdrum = helement.textContent;
+	if (!humdrum) {
+		console.warn("Humdrum data is empty");
+		return;
+	}
+	let matches = humdrum.match(/\\*pline:/);
+	if (!matches) {
+		return;
+	}
+	let filename = SETTING.SCOREDATA.DATAURL;
+	let url = `https://verovio.humdrum.org/?file=${filename}&filter=pline%20-c&v=evenNoteSpacing&k=ey`;
+	let text = `<li><a target="_blank" href="${url}">View poetic line markup in musical score.</a></li>`;
+	
+	element.outerHTML = text;
 }
 
 
@@ -369,6 +423,8 @@ function displaySingleWork(id, target) {
 	getRange(id);
 	getCriticalNotes(id);
 	initializeSearchBoxes(CGI);
+	fillInSyllableAnalysis();
+	fillInPlineAnalysis();
 
 	if (DISPLAYCGISEARCH) {
 		setTimeout(function() {
@@ -797,9 +853,19 @@ function getCriticalNotes(id) {
 function fillInPoemText(SETTING) {
 	var element = document.querySelector("#poem-text");
 	if (!element) {
+		console.warning("Warning: Cannot find #poem-text");
 		return;
 	}
-	console.log("SETTING.REPORT", SETTING.REPORT);
+
+	if (!SETTING.REPORT.VERSE) {
+		SETTING.REPORT.VERSE = SETTING.VERSEDATA.VERSES.VERSE;
+	}
+	if (!SETTING.REPORT.TVERSE) {
+		SETTING.REPORT.TVERSE = SETTING.VERSEDATA.VERSES.TVERSE;
+	}
+	if (!SETTING.REPORT.TRANSLATOR) {
+		SETTING.REPORT.TRANSLATOR = SETTING.VERSEDATA.VERSES.TRANSLATOR;
+	}
 
 	var tsource = document.querySelector("#poem-template").textContent;
 	var template = Handlebars.compile(tsource);
@@ -987,7 +1053,6 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	if (!kcount) {
 		return;
 	}
-console.error("TARGETID", targetid);
 
 	// If filters is empty, it will be deleted later.
 	// vrvOptions.filter = [];
@@ -1027,7 +1092,6 @@ console.error("TARGETID", targetid);
 	vrvOptions.postFunction = notationCallback;
 	vrvOptions.source = targetid;
 
-console.error("DISPLAYING HUMDRUM", vrvOptions);
 	displayHumdrum(vrvOptions);
 
 
@@ -1133,7 +1197,6 @@ function processMatches() {
 					break;
 				}
 			}
-			console.log("COUNT", count);
 			var eresults = document.querySelector("#search-results");
 			if (eresults) {
 				var output = "";

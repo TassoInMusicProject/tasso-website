@@ -394,6 +394,8 @@ table.data td {
 		<li> <a target="_blank" href="/poem/?id={{poemid CATALOGNUM}}">Information about poem</a> </li>
 		<li> <a target="_blank" href="/variants/?id={{poemid CATALOGNUM}}">Literary Variants page for poem</a> </li>
 		<li> <a target="_blank" href="/markup/?id={{poemid CATALOGNUM}}">Poem markup page</a> </li>
+		<div id="syllable-analysis"></div>
+		<div id="pline-analysis"></div>
 		</ul>
 	</div>
 	
@@ -449,10 +451,12 @@ table.data td {
 //
 
 Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum, translator) {
+console.log("-=================entering verses TRANSLATION:", TRANSLATION, "VERSE:", VERSE, "CATNUM", catnum, "TRANSLATOR", translator);
 	var verses = {};
 	verses.VERSE = VERSE;
 	verses.TVERSE = TRANSLATION;
 	if (!verses) {
+		console.warn("Warning: no verse data for", catnum);
 		return "";
 	}
 	var v;

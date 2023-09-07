@@ -47,6 +47,11 @@ layout: simple
 <tr>
 	<td>2023</td>
 	<td>
+		"Studying Poetry through Music: The Tasso in Music Project" (<a target="_blank" href="https://bit.ly/tasso-mec-2023">slides</a>)
+		<div class="entry">
+			<a target="_blank" href="https://teimec2023.uni-paderborn.de">Joint MEC and TEI Conference</a>, Paderborn, Germany, September 4&ndash;8.
+		</div>
+
 		"Tasso in Music Project" (<a target="_blank" href="Tasso-MedRen-2023-Munich.pdf">poster</a>)
 		<div class="entry">
 			<a target="_blank" href="https://medren2023.com">Medieval and Renaissance Music Conference</a> (MedRen) 24&ndash;28 July, Munich (<a target="_blank" href="medren2023.jpg">first prize in poster session</a>)

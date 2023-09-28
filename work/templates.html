@@ -114,6 +114,14 @@
 							</strong>
 						</span>
 					</span>
+					<span id='mensural' class='mensural-icon notation-button' onclick='toggleMensural()'>
+						<span class='fa-stack fa-3x'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<strong class='fa-stack-1x text-primary'>
+								m
+							</strong>
+						</span>
+					</span>
 					<span id='accid' class='accid-icon notation-button' onclick='toggleAccid()'>
 						<span class='fa-stack fa-3x'>
 							<i class='fa fa-circle fa-stack-2x'></i>
@@ -162,9 +170,16 @@
 			</td>
 			</tr>
 			<tr>
-			<td>
+			<td id="search-analysis" style="padding:0">
 				<div id="search-results">
-				Matches:&nbsp;325
+					Matches:&nbsp;325
+				</div>
+				<div style="padding:0; margin-top:-20px;" id="analysis-div">
+					<select onchange="initializeVerovioNotation()" id="analysis-select">
+						<option value="">Analysis</option>
+						<option value="pline">poetic line markup</option>
+						<option value="textdur -amid">melisma analysis</option>
+					</select>
 				</div>
 			</td>
 			</tr>

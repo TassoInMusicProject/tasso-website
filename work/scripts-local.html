@@ -29,29 +29,29 @@
 // Description:   JavaScript management for display of work pages.
 //
 
-var REPORT = {};
-var SIGLALIST = {};
-var SETTING = {};
-var SEARCHFILTER = "";
+let REPORT = {};
+let SIGLALIST = {};
+let SETTING = {};
+let SEARCHFILTER = "";
 
-var LAST_QUERY_MUSIC = {};
-var LAST_QUERY_TEXT = {};
-var TIMEMAP = {};
-var QEVENTS = [];
-var REFRESH = null;
-var TRANSPOSE = "";
-var DISPLAYCGISEARCH = false;
-var ABBREVIATEDMATCHES = false;
+let LAST_QUERY_MUSIC = {};
+let LAST_QUERY_TEXT = {};
+let TIMEMAP = {};
+let QEVENTS = [];
+let REFRESH = null;
+let TRANSPOSE = "";
+let DISPLAYCGISEARCH = false;
+let ABBREVIATEDMATCHES = false;
 
-var vrvToolkit;
+let vrvToolkit;
 
-var vrvOptions = {
+let vrvOptions = {
 	humType           : 1,
 	adjustPageHeight  : 1,
 	pageWidth         : 2500,
 	pageHeight        : 1000,
 	spacingNonLinear  : 0.55,
-	spacingSystem     : 24,
+	/* spacingSystem     : 24, */
 	spacingStaff      : 12,
 	font              : "Leland",
 	scale             : 40,
@@ -67,13 +67,14 @@ var vrvOptions = {
 	lyricElision      : "narrow"
 };
 
-var CURRENT_PAGE = 1;
-var INCIPIT_STYLE = 1;
-var ORIGINAL_CLEFS = 0;
-var INCLUDE_TEXT = 1;
-var INCLUDE_ACCID = 1;
-var CSS_TEXT = 1;
-var PART_FILTER = 0;
+let CURRENT_PAGE = 1;
+let INCIPIT_STYLE = 1;
+let ORIGINAL_CLEFS = 0;
+let MENSURAL = 0;
+let INCLUDE_TEXT = 1;
+let INCLUDE_ACCID = 1;
+let CSS_TEXT = 1;
+let PART_FILTER = 0;
 
 
 //////////////////////////////
@@ -83,8 +84,8 @@ var PART_FILTER = 0;
 //
 
 function setupVariables(string) {
-	for (var i=0; i<string.length; i++) {
-		var value = string.charAt(i);
+	for (let i=0; i<string.length; i++) {
+		let value = string.charAt(i);
 		switch (value) {
 
 			case 'a':
@@ -97,6 +98,10 @@ function setupVariables(string) {
 
 			case 'o':
 				ORIGINAL_CLEFS = !ORIGINAL_CLEFS;
+				break;
+
+			case 'm':
+				MENSURAL = !MENSURAL;
 				break;
 
 			case 't':
@@ -167,7 +172,7 @@ function getTimemap(id) {
 		return;
 	}
 
-	var request = new XMLHttpRequest();
+	let request = new XMLHttpRequest();
 	request.open("GET", "{{site.tasso_data_url}}?a=timemap&f=" + id);
 	request.addEventListener("load", function() {
 		TIMEMAP[id] = JSON.parse(this.responseText);
@@ -189,21 +194,21 @@ function interpolateIntegers(id) {
 		return;
 	}
 
-	var newpoints = [];
+	let newpoints = [];
 
-	var byindex = {};
+	let byindex = {};
 
-	for (var i=0; i<timemap.length; i++) {
-		var qstamp = timemap[i].qstamp;
+	for (let i=0; i<timemap.length; i++) {
+		let qstamp = timemap[i].qstamp;
 		byindex[qstamp] = {i: i, timemap: timemap[i]};
 	}
-	var maxval = timemap[timemap.length-1].qstamp;
+	let maxval = timemap[timemap.length-1].qstamp;
 
 	for (i=8; i<maxval; i+=8) {
 		if (byindex[i]) {
 			continue;
 		}
-		var newpoint;
+		let newpoint;
 		newpoint = interpolateTstamp(timemap, i);
 		newpoints.push(newpoint);
 		// console.log("MISSING: ", i, newpoint.tstamp);
@@ -220,11 +225,11 @@ function interpolateIntegers(id) {
 //
 
 function interpolateTstamp(timemap, qtime) {
-	var i;
-	var t1;
-	var t2;
-	var q1;
-	var q2;
+	let i;
+	let t1;
+	let t2;
+	let q1;
+	let q2;
 	for (i=0; i<timemap.length; i++) {
 		if (timemap[i].qstamp < qtime) {
 			continue;
@@ -243,9 +248,9 @@ function interpolateTstamp(timemap, qtime) {
 			console.log("STRANGE PROBLEM 2");
 	}
 
-	var ttime = ((qtime-q1)/(q2-q1))*(t2-t1)+t1;
+	let ttime = ((qtime-q1)/(q2-q1))*(t2-t1)+t1;
 
-	var newpoint = { qstamp: qtime, tstamp: ttime};
+	let newpoint = { qstamp: qtime, tstamp: ttime};
 	//console.log("NEWPOINT", newpoint);
 	return newpoint;
 }
@@ -277,14 +282,14 @@ function displayWorkList(target) {
 	if (!target) {
 		target = "#contents";
 	}
-	var element = document.querySelector(target);
+	let element = document.querySelector(target);
 	if (!element) {
 		console.warn("Could not find element", target);
 		return;
 	}
-	var tsource = document.querySelector("#worklist-template").textContent;
-	var workTemplate = Handlebars.compile(tsource);
-	var output = workTemplate(WORKLIST[0]);
+	let tsource = document.querySelector("#worklist-template").textContent;
+	let workTemplate = Handlebars.compile(tsource);
+	let output = workTemplate(WORKLIST[0]);
 
 	element.innerHTML = output;
 	fillInTimeKey();
@@ -361,7 +366,7 @@ function displaySingleWork(id, target) {
 	getTimemap(ID);
 	QEVENTS = [];
 
-	var element = document.querySelector("#contents");
+	let element = document.querySelector("#contents");
 	if (!element) {
 		console.log("Error: no #contents");
 		return;
@@ -378,10 +383,10 @@ function displaySingleWork(id, target) {
 		target = "#contents";
 	}
 	SETTING = GetSettingEntry(id);
-	// var work = GetWorkEntry(id);
+	// let work = GetWorkEntry(id);
 	// SETTING.ih = work.ih;
 	if (SETTING.TITLE && SETTING.SETTINGTITLE) {
-		var temp = SETTING.TITLE;
+		let temp = SETTING.TITLE;
 		SETTING.TITLE = SETTING.SETTINGTITLE;
 		SETTING.TITLE += " <small>(<i>i.e.</i>, ";
 		SETTING.TITLE += temp;
@@ -407,10 +412,10 @@ function displaySingleWork(id, target) {
 */
 		}
 	}
-	var tsource = document.querySelector("#singlework-template").textContent;
-	var singleTemplate = Handlebars.compile(tsource);
+	let tsource = document.querySelector("#singlework-template").textContent;
+	let singleTemplate = Handlebars.compile(tsource);
 
-	var output = singleTemplate(SETTING);
+	let output = singleTemplate(SETTING);
 	document.title = ID + " workpage";
 	element.innerHTML = output;
 	let footnotes = document.createElement("DIV");
@@ -469,12 +474,12 @@ function makeMusicQuery(pitch, rhythm, interval) {
 //
 
 function mergePitchAndRhythm(pitch, rhythm) {
-	var pitches = [];
-	var rhythms = [];
-	var i;
-	var current = "";
-	var lastchar = "";
-	var character = "";
+	let pitches = [];
+	let rhythms = [];
+	let i;
+	let current = "";
+	let lastchar = "";
+	let character = "";
 
 	// build pitch list:
 	for (i=0; i<pitch.length; i++) {
@@ -541,7 +546,7 @@ function mergePitchAndRhythm(pitch, rhythm) {
 	
 	lastchar = "";
 	character = "";
-	var newrhythm = "";
+	let newrhythm = "";
 	for (i=0; i<rhythm.length; i++) {
 		character = rhythm.charAt(i);
 		if ((lastchar === ".") || lastchar.match(/\d/)) {
@@ -612,11 +617,11 @@ function mergePitchAndRhythm(pitch, rhythm) {
 		}
 	}
 
-	var maxlen = pitches.length;
+	let maxlen = pitches.length;
 	if (rhythms.length > maxlen) {
 		maxlen = rhythms.length;
 	}
-	var output = "";
+	let output = "";
 	for (i=0; i<maxlen; i++) {
 		if (i < rhythms.length) {
 			output += rhythms[i];
@@ -637,7 +642,7 @@ function mergePitchAndRhythm(pitch, rhythm) {
 //
 
 function displayPartNumbers(id) {
-	var element = document.querySelector("#voice-buttons");
+	let element = document.querySelector("#voice-buttons");
 	if (!element) {
 		return;
 	}
@@ -647,24 +652,24 @@ function displayPartNumbers(id) {
 	if (!SETTING.SCOREDATA) {
 		return;
 	}
-	var vcount = 0;
-	// var works = WORKLIST[0].works;
-	var vabbr = SETTING.SCOREDATA.VABBR;
+	let vcount = 0;
+	// let works = WORKLIST[0].works;
+	let vabbr = SETTING.SCOREDATA.VABBR;
 	if (!vabbr) {
 		return;
 	}
 
 	// remove alternate abbreviation names:
 	for (let i=0; i<vabbr.length; i++) {
-		var newvabbr = vabbr[i].replace(/\([^)]*\)/g, "").replace(/\s*$/, "");
+		let newvabbr = vabbr[i].replace(/\([^)]*\)/g, "").replace(/\s*$/, "");
 		if (newvabbr) {
 			vabbr[i] = newvabbr;
 		}
 	}
 
-	var vcount = vabbr.length;
-	var output = ""
-	//var numlist = [
+	vcount = vabbr.length;
+	let output = ""
+	//let numlist = [
 	//	"&#x2780;",
 	//	"&#x2781;",
 	//	"&#x2782;",
@@ -675,11 +680,11 @@ function displayPartNumbers(id) {
 	//	"&#x2787;",
 	//	"&#x2788;"
 	//];
-	var i;
+	let i;
 	output += "<div style='font-size:1.5em;'>";
 	output += "<nobr>";
 	for (i=0; i<vcount; i++) {
-		var aaa = vabbr[i].replace(/[[]/g, "").replace(/\]/g, "");
+		let aaa = vabbr[i].replace(/[[]/g, "").replace(/\]/g, "");
 
 		output += "<span ";
 		output += "title='show only part " + (i+1) + " (" + (i+1) + ")"  + "' id='part" + (i+1);
@@ -727,11 +732,11 @@ function showPart(partnum) {
 //
 
 function highlightPartIcon(partnum) {
-	var elements = document.querySelectorAll(".voice-icon");
-	var number;
-	for (var i=0; i<elements.length; i++) {
-		var id = elements[i].id;
-		var num = id.match(/(\d+)$/)[1];
+	let elements = document.querySelectorAll(".voice-icon");
+	let number;
+	for (let i=0; i<elements.length; i++) {
+		let id = elements[i].id;
+		let num = id.match(/(\d+)$/)[1];
 		if (num == partnum) {
 			elements[i].className += " highlight";
 			elements[i].title = "show all parts (0)";
@@ -756,7 +761,7 @@ return; // disable for now
 		return;
 	}
 
-	var element = document.querySelector("#verovio-display");
+	let element = document.querySelector("#verovio-display");
 	element.style.height = "200px";
 	if (!element) {
 		return;
@@ -773,10 +778,10 @@ return; // disable for now
 //
 
 function emptyReportButton()  {
-	var url = "https://github.com/TassoInMusicProject/tasso-website";
+	let url = "https://github.com/TassoInMusicProject/tasso-website";
 	url += "/blob/gh-pages/data/reports/";
 
-	var output = "<div style='display:none; floating:none;' class='expert'>";
+	let output = "<div style='display:none; floating:none;' class='expert'>";
 	output += "<a target='_blank' class='eebutton' href='";
 	output += url;
 	output += "'>Add critical report</a>";
@@ -793,9 +798,9 @@ function emptyReportButton()  {
 //
 
 function getCriticalNotes(id) {
-	var tag = "report_" + id;
-	var tagcontent;
-	var element = document.querySelector("#" + tag);
+	let tag = "report_" + id;
+	let tagcontent;
+	let element = document.querySelector("#" + tag);
 	if (!element) {
 		console.log("CANNOT FIND ELEMENT " + tag);
 		return;
@@ -808,21 +813,21 @@ function getCriticalNotes(id) {
 //			element.innerHTML = addCatalogLinks(output);
 //		}
 //	} else {
-		var url = "{{site.critical_reports}}/" + id + "-report.aton";
-		var request = new XMLHttpRequest();
+		let url = "{{site.critical_reports}}/" + id + "-report.aton";
+		let request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
 			if (this.status == 200) {
-				var aton = new ATON;
-				var raw = this.responseText
+				let aton = new ATON;
+				let raw = this.responseText
 						.replace(/---/g, "&mdash;")
 						.replace(/--/g, "&ndash;");
-				var data = aton.parse(raw).REPORT;
+				let data = aton.parse(raw).REPORT;
 				SETTING.REPORT = data;
 
-				var tsource = document.querySelector("#criticalreport-template").textContent;
-				var template = Handlebars.compile(tsource);
-				var result = template(data);
+				let tsource = document.querySelector("#criticalreport-template").textContent;
+				let template = Handlebars.compile(tsource);
+				let result = template(data);
 
 				REPORT[id] = result;
 				if (element) {
@@ -851,7 +856,7 @@ function getCriticalNotes(id) {
 //
 
 function fillInPoemText(SETTING) {
-	var element = document.querySelector("#poem-text");
+	let element = document.querySelector("#poem-text");
 	if (!element) {
 		console.warning("Warning: Cannot find #poem-text");
 		return;
@@ -867,9 +872,9 @@ function fillInPoemText(SETTING) {
 		SETTING.REPORT.TRANSLATOR = SETTING.VERSEDATA.VERSES.TRANSLATOR;
 	}
 
-	var tsource = document.querySelector("#poem-template").textContent;
-	var template = Handlebars.compile(tsource);
-	var result = template(SETTING.REPORT);
+	let tsource = document.querySelector("#poem-template").textContent;
+	let template = Handlebars.compile(tsource);
+	let result = template(SETTING.REPORT);
 
 	element.innerHTML = result;
 
@@ -882,7 +887,7 @@ function fillInPoemText(SETTING) {
 //
 
 function addCatalogLinks(text) {
-	var re = /(Trm\d\d\d\d[a-z]+)/g;
+	let re = /(Trm\d\d\d\d[a-z]+)/g;
 	return text.replace(re, function(match, id) {
 		if (id) {
 			return "<a href='/work?id=" + id + "'>" + id + "</a>";
@@ -898,17 +903,17 @@ function addCatalogLinks(text) {
 //
 
 function getCriticalReportNoRecurse(id) {
-	var tag = "report_" + id;
+	let tag = "report_" + id;
 	if (REPORT[id]) {
 		return;
 	}
 
-	var url = "/include/report/" + id + "-report.aton";
-	var request = new XMLHttpRequest();
+	let url = "/include/report/" + id + "-report.aton";
+	let request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {
 		if (this.status == 200) {
-			var data = this.responseText;
+			let data = this.responseText;
 			REPORT[id] = data;
 		}
 	});
@@ -923,20 +928,20 @@ function getCriticalReportNoRecurse(id) {
 //
 
 function getHumdrumKernCount(humid) {
-	var sourceid = humid ? humid : "humdrum-data";
-	var source = document.querySelector("#" + sourceid);
+	let sourceid = humid ? humid : "humdrum-data";
+	let source = document.querySelector("#" + sourceid);
 	if (!source) {
 		console.log("Cannot find source id:", sourceid);
 		return;
 	}
-	var content = source.textContent;
-	var matches;
+	let content = source.textContent;
+	let matches;
 
+	let kcount = 0;
+	let tcount = 0;
 	if (matches = content.match(/^(\*\*.*)/m)) {
-		var tokens = matches[1].split("\t");
-		var kcount = 0;
-		var tcount = 0;
-		for (var i=0; i<tokens.length; i++) {
+		let tokens = matches[1].split("\t");
+		for (let i=0; i<tokens.length; i++) {
 			if (tokens[i] === "**kern") {
 				kcount++;
 			} else if (tokens[i] === "**text") {
@@ -955,23 +960,35 @@ function getHumdrumKernCount(humid) {
 //
 
 function generateVerovioFilters(targetid, musicquery, textquery) {
-	var output = [];
+	let output = [];
 
 	// Get the number of **kern and **text spines for dealing
 	// with part extraction.
-	var kcount = 0;
-	var tcount = 0;
-	var content;
+	let kcount = 0;
+	let tcount = 0;
+	let content;
 	[kcount, tcount] = getHumdrumKernCount(targetid);
 	//console.log("KernCount", kcount, "TextCount", tcount);
 
+	let eanalysis = document.querySelector("#analysis-select");
+	if (eanalysis) {
+		let analysisValue = eanalysis.value;
+		if (analysisValue && !analysisValue.match(/^\s*$/)) {
+			output.push(analysisValue)
+		}
+	}
+
 	if (PART_FILTER) {
-		var kval = kcount - PART_FILTER + 1;
+		let kval = kcount - PART_FILTER + 1;
 		if (kval > 0) {
 			output.push("extract -k " + kval);
 			kcount = 1;
 			tcount = 1;
 		}
+	}
+
+	if (MENSURAL) {
+		output.push("kern2mens");
 	}
 
 	if (ORIGINAL_CLEFS) {
@@ -987,7 +1004,11 @@ function generateVerovioFilters(targetid, musicquery, textquery) {
 		output.push("autobeam");
 	}
 	if (!INCLUDE_ACCID) {
-		output.push("shed -ke 's/i/y/g'");
+		if (MENSURAL) {
+			output.push("shed -ke 's/z/y/g'");
+		} else {
+			output.push("shed -ke 's/i/y/g'");
+		}
 	}
 
 	if (!musicquery) {
@@ -997,10 +1018,10 @@ function generateVerovioFilters(targetid, musicquery, textquery) {
 		textquery = LAST_QUERY_TEXT;
 	}
 
-	var musicsearch = createMusicSearchFilter(musicquery);
+	let musicsearch = createMusicSearchFilter(musicquery);
 	SEARCHFILTER = musicsearch;
 
-	var textsearch = createTextSearchFilter(textquery);
+	let textsearch = createTextSearchFilter(textquery);
 
 	// Add music search filter:
 	if (!musicsearch.match(/^\s*$/)) {
@@ -1038,15 +1059,16 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	}
 
 	highlightPartIcon(PART_FILTER);
-	displayMensurationState();
 	displayTextState();
+	displayMensuralState();
+	displayMensurationState();
 	displayAccidState();
 
 	// Get the number of **kern and **text spines for dealing
 	// with part extraction.
-	var kcount = 0;
-	var tcount = 0;
-	var content;
+	let kcount = 0;
+	let tcount = 0;
+	let content;
 	[kcount, tcount] = getHumdrumKernCount(targetid);
 	//console.log("KernCount", kcount, "TextCount", tcount);
 
@@ -1098,7 +1120,7 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	/*
 	vrvToolkit.setOptions(vrvOptions);
 	vrvToolkit.loadData(content);
-	var pagecount = vrvToolkit.getPageCount();
+	let pagecount = vrvToolkit.getPageCount();
 	if (CURRENT_PAGE > 1) {
 		if (CURRENT_PAGE > pagecount) {
 			CURRENT_PAGE = 1;
@@ -1106,8 +1128,8 @@ function initializeVerovioNotation(targetid, musicquery, textquery) {
 	} else if (CURRENT_PAGE < 1) {
 		CURRENT_PAGE = pagecount;
 	}
-	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE);
-	var matches;
+	let svg = vrvToolkit.renderToSVG(CURRENT_PAGE);
+	let matches;
 	if (matches = svg.match(/height="(\d+)px"/)) {
 		target.style.height = "";
 	}
@@ -1125,12 +1147,12 @@ function createMusicSearchFilter(query) {
 	if (!query) {
 		return "";
 	}
-	var marg = "";
+	let marg = "";
 	if (query.query)    { marg += " -q '" + query.query    + "'"; }
 	if (query.pitch)    { marg += " -p '" + query.pitch    + "'"; }
 	if (query.interval) { marg += " -i '" + query.interval + "'"; }
 	if (query.rhythm)   { marg += " -r '" + query.rhythm   + "'"; }
-	var output = ""
+	let output = ""
 	if (!marg.match(/^\s*$/)) {
 		output = "msearch" + marg + " -c orange";
 	}
@@ -1148,11 +1170,11 @@ function createTextSearchFilter(query) {
 	if (!query) {
 		return "";
 	}
-	var targ = "";
+	let targ = "";
 	if (query.text) {
 		targ += " -t '" + query.text + "'";
 	}
-	var output = ""
+	let output = ""
 	if (!targ.match(/^\s*$/)) {
 		output += "msearch" + targ + " -c hotpink";
 	}
@@ -1187,30 +1209,35 @@ function processMatches() {
 		// search toolbar
 		vrvWorker.getHumdrum()
 		.then(function(humdrumdata) {
-			var data = humdrumdata.match(/[^\r\n]+/g);
-			var count = -1;
-			var matches;
-			for (var i=data.length - 1; i > 0; i--) {
+			let data = humdrumdata.match(/[^\r\n]+/g);
+			let count = -1;
+			let matches;
+			for (let i=data.length - 1; i > 0; i--) {
 				matches = data[i].match(/^!!@MATCHES:\s*(\d+)/);
 				if (matches) {
 					count = parseInt(matches[1]);
 					break;
 				}
 			}
-			var eresults = document.querySelector("#search-results");
+			let eresults = document.querySelector("#search-results");
+			let eanalysis = document.querySelector("#analysis-div");
 			if (eresults) {
-				var output = "";
+				let output = "";
 				if (count < 0) {
 					eresults.style.visibility = "hidden";
+					eanalysis.style.visibility = "visible";
 					output = "0 matches";
 				} else if (count == 0) {
 					eresults.style.visibility = "visible";
+					eanalysis.style.visibility = "hidden";
 					output = "0 matches";
 				} else if (count == 1) {
 					eresults.style.visibility = "visible";
+					eanalysis.style.visibility = "hidden";
 					output = "1 match";
 				} else {
 					eresults.style.visibility = "visible";
+					eanalysis.style.visibility = "hidden";
 					output = count + " matches";
 				}
 				eresults.innerHTML = output;
@@ -1218,9 +1245,11 @@ function processMatches() {
 			}
 		});
 	} else {
-		var eresults = document.querySelector("#search-results");
+		let eresults = document.querySelector("#search-results");
+		let eanalysis = document.querySelector("#analysis-div");
 		if (eresults) {
 			eresults.style.visibility = "hidden";
+			eanalysis.style.visibility = "visible";
 		}
 	}
 }
@@ -1236,12 +1265,12 @@ function prepareQEvents(target) {
 		target = document.querySelector("svg");
 	}
 
-	var svgnotes = target.querySelectorAll("g[id^='note-']");
-	var qpre = {};
-	var matches;
-	var ques;
-	var obj;
-	for (var i=0; i<svgnotes.length; i++) {
+	let svgnotes = target.querySelectorAll("g[id^='note-']");
+	let qpre = {};
+	let matches;
+	let ques;
+	let obj;
+	for (let i=0; i<svgnotes.length; i++) {
 
 		if (matches = svgnotes[i].className.baseVal.match(/qon-([^\s]+)/)) {
 			ques = getQstampFloat(matches[1]);
@@ -1261,7 +1290,7 @@ function prepareQEvents(target) {
 
 	}
 	QEVENTS = [];
-	for (var qst in qpre) {
+	for (let qst in qpre) {
 		QEVENTS.push(qpre[qst])
 	}
 	QEVENTS.sort(function(a, b) {
@@ -1279,9 +1308,9 @@ function prepareQEvents(target) {
 function prepareLyricSpaces(target) {
 	return; // deactivate for now since text can have nested tspans now.
 	// add spaces after ends of words (for copy/paste from SVG):
-	var ends = target.querySelectorAll("svg g.syl.t text tspan")
+	let ends = target.querySelectorAll("svg g.syl.t text tspan")
 	for (i=0; i<ends.length; i++) {
-    	var text = ends[i].textContent;
+    	let text = ends[i].textContent;
      	ends[i].textContent = text + " ";
 	}
 }
@@ -1294,11 +1323,11 @@ function prepareLyricSpaces(target) {
 //
 
 function getQstampFloat(str) {
-	var ques = -1;
+	let ques = -1;
 	if (str.match(/d/)) {
 		ques = parseFloat(str.replace(/d/, "."));
 	} else if (str.match(/_/)) {
-		var matches = str.match(/(\d+)_(\d+)/);
+		let matches = str.match(/(\d+)_(\d+)/);
 		if (matches) {
 			ques = parseInt(matches[1]) / parseInt(matches[2]);
 		}
@@ -1317,7 +1346,7 @@ function getQstampFloat(str) {
 
 function incrementVerovioPage(direction) {
 	CURRENT_PAGE += direction;
-	var pagecount = vrvToolkit.getPageCount();
+	let pagecount = vrvToolkit.getPageCount();
 	if (CURRENT_PAGE > 1) {
 		if (CURRENT_PAGE > pagecount) {
 			CURRENT_PAGE = 1;
@@ -1326,13 +1355,13 @@ function incrementVerovioPage(direction) {
 		CURRENT_PAGE = pagecount;
 	}
 
-	var target = document.querySelector("#verovio-display");
+	let target = document.querySelector("#verovio-display");
 	if (!target) {
 		console.log("Cannot find target id: #verovio-display");
 		return;
 	}
 
-	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
+	let svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
 
 	prepareQEvents(target);
@@ -1348,7 +1377,7 @@ function incrementVerovioPage(direction) {
 
 function firstVerovioPage(direction) {
 	CURRENT_PAGE = 1;
-	var pagecount = vrvToolkit.getPageCount();
+	let pagecount = vrvToolkit.getPageCount();
 	if (CURRENT_PAGE > 1) {
 		if (CURRENT_PAGE > pagecount) {
 			CURRENT_PAGE = 1;
@@ -1357,13 +1386,13 @@ function firstVerovioPage(direction) {
 		CURRENT_PAGE = pagecount;
 	}
 
-	var target = document.querySelector("#verovio-display");
+	let target = document.querySelector("#verovio-display");
 	if (!target) {
 		console.log("Cannot find target id: #verovio-display");
 		return;
 	}
 
-	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
+	let svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
 
 	prepareQEvents(target);
@@ -1379,7 +1408,7 @@ function firstVerovioPage(direction) {
 
 function lastVerovioPage(direction) {
 	CURRENT_PAGE = -1;
-	var pagecount = vrvToolkit.getPageCount();
+	let pagecount = vrvToolkit.getPageCount();
 	if (CURRENT_PAGE > 1) {
 		if (CURRENT_PAGE > pagecount) {
 			CURRENT_PAGE = 1;
@@ -1388,13 +1417,13 @@ function lastVerovioPage(direction) {
 		CURRENT_PAGE = pagecount;
 	}
 
-	var target = document.querySelector("#verovio-display");
+	let target = document.querySelector("#verovio-display");
 	if (!target) {
 		console.log("Cannot find target id: #verovio-display");
 		return;
 	}
 
-	var svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
+	let svg = vrvToolkit.renderToSVG(CURRENT_PAGE, vrvOptions);
 	target.innerHTML = svg;
 
 	prepareQEvents(target);
@@ -1410,23 +1439,23 @@ function lastVerovioPage(direction) {
 //
 
 function getHumdrum(id) {
-	var tag = "humdrum_" + id;
-	var tagcontent;
-	var element = document.querySelector("#humdrum-data");
+	let tag = "humdrum_" + id;
+	let tagcontent;
+	let element = document.querySelector("#humdrum-data");
 	if (!element) {
 		return;
 	}
 
-	var text = "";
-	var postdata = "";
+	let text = "";
+	let postdata = "";
 	postdata += "\n!!!footer-right: \\n\\n\\n%P";
 	postdata += "\n!!!footer-center: \\n\\n\\n@{SCA}, @{EEV}";
 	postdata += "\n!!!footer-left: \\n\\n\\n@{YEC}";
 	postdata += "\n!!!header-left: @{EED:n}, ed.";
 
 	if (sessionStorage[tag]) {
-		var scoreelements = document.querySelectorAll(".musical-content");
-		for (var i=0; i<scoreelements.length; i++) {
+		let scoreelements = document.querySelectorAll(".musical-content");
+		for (let i=0; i<scoreelements.length; i++) {
 			scoreelements[i].style.display = "block";
 		}
 		text = sessionStorage[tag];
@@ -1436,18 +1465,18 @@ function getHumdrum(id) {
 		element.textContent = text;
 		initializeVerovioNotation("humdrum-data");
 	} else if (SETTING.SCOREDATA && SETTING.SCOREDATA.DATAURL) {
-		var action = "humdrum";
-		var url = SETTING.SCOREDATA.DATAURL;
+		let action = "humdrum";
+		let url = SETTING.SCOREDATA.DATAURL;
 		// old url from CCARH server:
-		// var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
-		var request = new XMLHttpRequest();
+		// let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		let request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
-			var ses = document.querySelectorAll(".musical-content");
-			for (var ii=0; ii<ses.length; ii++) {
+			let ses = document.querySelectorAll(".musical-content");
+			for (let ii=0; ii<ses.length; ii++) {
 				ses[ii].style.display = "block";
 			}
-			var data = this.responseText;
+			let data = this.responseText;
 			if (!data.match(/footer-center/)) {
 				data += postdata;
 			}
@@ -1472,17 +1501,17 @@ function getHumdrum(id) {
 //
 
 function getHumdrumNoRecurse(id) {
-	var tag = "humdrum_" + id;
+	let tag = "humdrum_" + id;
 	if (sessionStorage[tag]) {
 		return;
 	}
 
-	var action = "humdrum";
-	var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
-	var request = new XMLHttpRequest();
+	let action = "humdrum";
+	let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	let request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {
-		var data = this.responseText;
+		let data = this.responseText;
 		sessionStorage[tag] = data;
 	});
 	request.send()
@@ -1496,13 +1525,13 @@ function getHumdrumNoRecurse(id) {
 //
 
 function getRange(id) {
-	var tag = "range_" + id;
-	var element = document.querySelector("#" + "range");
+	let tag = "range_" + id;
+	let element = document.querySelector("#" + "range");
 	if (!element) {
 		console.log("Could not find storage element #range");
 		return;
 	}
-	var output = "";
+	let output = "";
 	output += "<h4 style='margin-left:30px' id='vocal_ranges'>VOCAL RANGES</h4>";
 
 	if (sessionStorage[tag]) {
@@ -1518,11 +1547,11 @@ function getRange(id) {
 			}
 		}
 	} else {
-		var url = "https://raw.githubusercontent.com/TassoInMusicProject/tasso-website/gh-pages/analysis/range/svg/" + id + ".svg";
-		var request = new XMLHttpRequest();
+		let url = "https://raw.githubusercontent.com/TassoInMusicProject/tasso-website/gh-pages/analysis/range/svg/" + id + ".svg";
+		let request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
-			var data = this.responseText;
+			let data = this.responseText;
 			if (data.match(/DOCTYPE HTML/)) {
 				return;
 			}
@@ -1554,14 +1583,14 @@ function getRange(id) {
 //
 
 function setSvgSize() {
-	var svg = document.querySelector("#range svg");
+	let svg = document.querySelector("#range svg");
 	if (!svg) {
 		// no range, so give up
 		return;
 	}
-	var width = svg.getAttribute("width");
-	var height = svg.getAttribute("height");
-	var scale = 1.6;
+	let width = svg.getAttribute("width");
+	let height = svg.getAttribute("height");
+	let scale = 1.6;
 	width *= scale;
 	height *= scale;
 	svg.setAttribute("width", width);
@@ -1576,17 +1605,17 @@ function setSvgSize() {
 //
 
 function getRangeNoRecurse(id) {
-	var tag = "range_" + id;
+	let tag = "range_" + id;
 	if (sessionStorage[tag]) {
 		return;
 	}
 
-	var action = "prange-svg";
-	var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
-	var request = new XMLHttpRequest();
+	let action = "prange-svg";
+	let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	let request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {
-		var data = this.responseText;
+		let data = this.responseText;
 		sessionStorage[tag] = data;
 	});
 	request.send()
@@ -1604,9 +1633,9 @@ function getWorkInfo(id) {
 	if (!WORKLIST) {
 		return null;
 	}
-	var i, j;
+	let i, j;
 	for (i=0; i<WORKLIST.length; i++) {
-		var rep = WORKLIST[i];
+		let rep = WORKLIST[i];
 		for (j=0; j<rep.works.length; j++) {
 			if (rep.works[j].id === id) {
 				return rep.works[j];
@@ -1646,15 +1675,15 @@ function getPreviousWork(id) {
 //
 
 function sortByText(index, selector) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
+	let data = document.querySelectorAll(".data");
+	let datalist = [];
+	let i;
 	for (i=0; i<data.length; i++) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A;
-		var B;
+		let A;
+		let B;
 		if (selector) {
 			A = a.cells[index].querySelector(selector).innerHTML;
 			B = b.cells[index].querySelector(selector).innerHTML;
@@ -1662,10 +1691,10 @@ function sortByText(index, selector) {
 			A = a.cells[index].innerHTML;
 			B = b.cells[index].innerHTML;
 		}
-		var result = A.localeCompare(B);
+		let result = A.localeCompare(B);
 		return result;
 	});
-	var body = document.querySelector("table.worklist tbody");
+	let body = document.querySelector("table.worklist tbody");
 	body.innerHTML = "";
 	for (i=0; i<datalist.length; i++) {
 		body.appendChild(datalist[i]);
@@ -1680,20 +1709,20 @@ function sortByText(index, selector) {
 //
 
 function sortByNumber(index) {
-	var data = document.querySelectorAll(".data");
-	var datalist = [];
-	var i;
+	let data = document.querySelectorAll(".data");
+	let datalist = [];
+	let i;
 	for (i=0; i<data.length; i++) {
 		datalist.push(data[i]);
 	}
 	datalist.sort(function(a, b) {
-		var A = parseInt(a.cells[index].innerHTML);
-		var B = parseInt(b.cells[index].innerHTML);
+		let A = parseInt(a.cells[index].innerHTML);
+		let B = parseInt(b.cells[index].innerHTML);
 		if (A < B)      { return -1 }
 		else if (A > B) { return +1 }
 		else            { return 0  }
 	});
-	var body = document.querySelector("table.worklist tbody");
+	let body = document.querySelector("table.worklist tbody");
 	body.innerHTML = "";
 	for (i=0; i<datalist.length; i++) {
 		body.appendChild(datalist[i]);
@@ -1712,8 +1741,8 @@ function ExpandIncipit() {
 		// already expanded
 		return;
 	}
-	var element = document.querySelector("#expand");
-	var text = element.textContent;
+	let element = document.querySelector("#expand");
+	let text = element.textContent;
 	INCIPIT_STYLE = 1;
 	showIncipitState();
 	initializeVerovioNotation();
@@ -1727,8 +1756,8 @@ function ExpandIncipit() {
 //
 
 function toggleIncipit() {
-	var element = document.querySelector("#expand");
-	var text = element.textContent;
+	let element = document.querySelector("#expand");
+	let text = element.textContent;
 	INCIPIT_STYLE = !INCIPIT_STYLE;
 	showIncipitState();
 	initializeVerovioNotation();
@@ -1742,11 +1771,11 @@ function toggleIncipit() {
 //
 
 function showIncipitState() {
-	var element = document.querySelector("#expand");
-	var nelement = document.querySelector("#nextsys");
-	var pelement = document.querySelector("#prevsys");
-	var felement = document.querySelector("#firstsys");
-	var lelement = document.querySelector("#lastsys");
+	let element = document.querySelector("#expand");
+	let nelement = document.querySelector("#nextsys");
+	let pelement = document.querySelector("#prevsys");
+	let felement = document.querySelector("#firstsys");
+	let lelement = document.querySelector("#lastsys");
 	if (INCIPIT_STYLE) {
 		// element.textContent = "contract";
 		element.innerHTML = '<div title="collapse to incipit (e)" class="fa fa-compress" aria-hidden="true"></div>';
@@ -1776,7 +1805,7 @@ function displayNextWork(id) {
 	if (!id) {
 		id = ID;
 	}
-	var newid = ORDER[id].next;
+	let newid = ORDER[id].next;
 	ID = newid;
 	displaySingleWork(ID);
 }
@@ -1793,7 +1822,7 @@ function displayPreviousWork(id) {
 	if (!id) {
 		id = ID;
 	}
-	var newid = ORDER[id].previous;
+	let newid = ORDER[id].previous;
 	ID = newid;
 	displaySingleWork(ID);
 }
@@ -1820,13 +1849,13 @@ function downloadMeiData(event) {
 //
 
 function saveMei(data, filename) {
-	var link = document.createElement("a");
+	let link = document.createElement("a");
 	link.href = "data:text/octet-stream;base64," + btoa(unescape(encodeURIComponent(data)));
-	var setting = RSETTINGS[ID];
+	let setting = RSETTINGS[ID];
 	if (setting) {
-		var scoredata = setting.SCOREDATA;
+		let scoredata = setting.SCOREDATA;
 		if (scoredata) {
-			var dataurl = scoredata.DATAURL.replace(/.*\//, "").replace(/\.krn/, ".mei");
+			let dataurl = scoredata.DATAURL.replace(/.*\//, "").replace(/\.krn/, ".mei");
 			link.download = dataurl;
 		} else {
 			link.download = filename;
@@ -1850,10 +1879,10 @@ function saveMei(data, filename) {
 //
 
 function showMeiData(event) {
-	var data = vrvToolkit.getMEI(0, 1);
-	var prefix = "<textarea style='spellcheck=false; width:100%; height:100%;'>";
-	var postfix = "</textarea>";
-	var w = window.open("about:blank", "MEI transcoding", 'width=700,height=820,resizeable,scrollabars,location=false');
+	let data = vrvToolkit.getMEI(0, 1);
+	let prefix = "<textarea style='spellcheck=false; width:100%; height:100%;'>";
+	let postfix = "</textarea>";
+	let w = window.open("about:blank", "MEI transcoding", 'width=700,height=820,resizeable,scrollabars,location=false');
 	w.document.write(prefix + data + postfix);
 	w.document.close();
 	function checkTitle() {
@@ -1875,7 +1904,7 @@ function showMeiData(event) {
 //
 
 function getKeySig(text) {
-	var matches;
+	let matches;
 	if (matches = text.match(/\*k\[(.*?)\]/)) {
 		if (matches[1] == "b-") {
 			return "&#x266d;"
@@ -1894,7 +1923,7 @@ function getKeySig(text) {
 //
 
 function getMetSig(text) {
-	var matches;
+	let matches;
 	if (matches = text.match(/\*omet\((.*?)\)/)) {
 		if (matches[1] === "C") {
 			return "c";
@@ -1916,10 +1945,10 @@ function getMetSig(text) {
 //
 
 function fillInTimeKey() {
-	var rows = document.querySelectorAll(".worklist tr.data");
-	for (var i=0; i<rows.length; i++) {
-		var idcell = rows[i].querySelector("td.id");
-		var id = idcell.id;
+	let rows = document.querySelectorAll(".worklist tr.data");
+	for (let i=0; i<rows.length; i++) {
+		let idcell = rows[i].querySelector("td.id");
+		let id = idcell.id;
 		if (!id) {
 			continue;
 		}
@@ -1935,13 +1964,13 @@ function fillInTimeKey() {
 //
 
 function getTimeKey(id, row) {
-	var tag = "humdrum_" + id;
-	var tagcontent;
-	var keysig;
-	var metsig;
+	let tag = "humdrum_" + id;
+	let tagcontent;
+	let keysig;
+	let metsig;
 
-	var keysigcell = row.querySelector("td.keysig");
-	var timecell = row.querySelector("td.time");
+	let keysigcell = row.querySelector("td.keysig");
+	let timecell = row.querySelector("td.time");
 
 	if (sessionStorage[tag]) {
 		keysig = getKeySig(sessionStorage[tag]);
@@ -1949,12 +1978,12 @@ function getTimeKey(id, row) {
 		keysigcell.innerHTML = keysig;
 		timecell.innerHTML = metsig;
 	} else {
-		var action = "humdrum";
-		var url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
-		var request = new XMLHttpRequest();
+		let action = "humdrum";
+		let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		let request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {
-			var data = this.responseText;
+			let data = this.responseText;
 			sessionStorage[tag] = data;
 			keysig = getKeySig(sessionStorage[tag]);
 			metsig = getMetSig(sessionStorage[tag]);
@@ -1972,12 +2001,12 @@ function getTimeKey(id, row) {
 // toggleExpertMode --
 //
 
-var EXPERT = 0;
+let EXPERT = 0;
 function toggleExpertMode() {
 	EXPERT = !EXPERT;
-	var elements = document.querySelectorAll(".expert");
+	let elements = document.querySelectorAll(".expert");
 	if (EXPERT) {
-		for (var i=0; i<elements.length; i++) {
+		for (let i=0; i<elements.length; i++) {
 			elements[i].style["display"] = "block";
 		}
 	} else {
@@ -1996,6 +2025,24 @@ function toggleExpertMode() {
 
 function toggleMensuration() {
 	ORIGINAL_CLEFS = !ORIGINAL_CLEFS;
+	if (ORIGINAL_CLEFS) {
+		MENSURAL = false;
+	}
+	initializeVerovioNotation();
+}
+
+
+
+//////////////////////////////
+//
+// toggleMensural --
+//
+
+function toggleMensural() {
+	MENSURAL = !MENSURAL;
+	if (MENSURAL) {
+		ORIGINAL_CLEFS = false;
+	}
 	initializeVerovioNotation();
 }
 
@@ -2007,9 +2054,9 @@ function toggleMensuration() {
 //
 
 function displayMensurationState() {
-	var elements = document.querySelectorAll(".mens-icon");
-	var number;
-	for (var i=0; i<elements.length; i++) {
+	let elements = document.querySelectorAll(".mens-icon");
+	let number;
+	for (let i=0; i<elements.length; i++) {
 		if (ORIGINAL_CLEFS) {
 			elements[i].className += " highlight";
 			elements[i].title = "show modern clefs/time signature (o)";
@@ -2052,7 +2099,7 @@ function toggleAccid() {
 //
 
 function updateTransposition() {
-	var element = document.querySelector("#transpose");
+	let element = document.querySelector("#transpose");
 	if (!element) {
 		return;
 	}
@@ -2068,8 +2115,8 @@ function updateTransposition() {
 //
 
 function displayTextState() {
-	var elements = document.querySelectorAll(".text-icon");
-	for (var i=0; i<elements.length; i++) {
+	let elements = document.querySelectorAll(".text-icon");
+	for (let i=0; i<elements.length; i++) {
 		if (INCLUDE_TEXT) {
 			elements[i].classList.remove("highlight");
 			elements[i].title = "hide text (t or T)";
@@ -2084,12 +2131,31 @@ function displayTextState() {
 
 /////////////////////////////
 //
+// displayMensuralState --
+//
+
+function displayMensuralState() {
+	let elements = document.querySelectorAll(".mensural-icon");
+	for (let i=0; i<elements.length; i++) {
+		if (MENSURAL) {
+			elements[i].classList.add("highlight");
+			elements[i].title = "display modern notation (m)";
+		} else {
+			elements[i].classList.remove("highlight");
+			elements[i].title = "display mensural notation (m)";
+		}
+	}
+}
+
+
+/////////////////////////////
+//
 // displayAccidState --
 //
 
 function displayAccidState() {
-	var elements = document.querySelectorAll(".accid-icon");
-	for (var i=0; i<elements.length; i++) {
+	let elements = document.querySelectorAll(".accid-icon");
+	for (let i=0; i<elements.length; i++) {
 		if (INCLUDE_ACCID) {
 			elements[i].classList.remove("highlight");
 			elements[i].title = "hide editorial accidentals (a)";
@@ -2121,8 +2187,8 @@ function toggleCssText() {
 //
 
 function processCssTextState() {
-	var elements = document.querySelectorAll("svg g.syl");
-	for (var i=0; i<elements.length; i++) {
+	let elements = document.querySelectorAll("svg g.syl");
+	for (let i=0; i<elements.length; i++) {
 		if (CSS_TEXT) {
 			elements[i].style.visibility = "visible";
 		} else {
@@ -2138,17 +2204,17 @@ function processCssTextState() {
 // processMusicSearch --
 //
 
-var MusicTimeout = null;
+let MusicTimeout = null;
 function processMusicSearch(event) {
-	var queryElement = document.querySelector("#query");
-	var pitchQueryElement = document.querySelector("#query-pitch");
-	var intervalQueryElement = document.querySelector("#query-interval");
-	var rhythmQueryElement = document.querySelector("#query-rhythm");
+	let queryElement = document.querySelector("#query");
+	let pitchQueryElement = document.querySelector("#query-pitch");
+	let intervalQueryElement = document.querySelector("#query-interval");
+	let rhythmQueryElement = document.querySelector("#query-rhythm");
 
-	var query = "";
-	var pitchQuery = "";
-	var intervalQuery = "";
-	var rhythmQuery = "";
+	let query = "";
+	let pitchQuery = "";
+	let intervalQuery = "";
+	let rhythmQuery = "";
 
 	if (queryElement)         { query = queryElement.value; }
 	if (pitchQueryElement)    { pitchQuery = pitchQueryElement.value; }
@@ -2173,7 +2239,7 @@ function processMusicSearch(event) {
 	intervalQquery = intervalQuery.replace(/\s+$/, "");
 	rhythmQuery    = rhythmQuery  .replace(/\s+$/, "");
 
-	var queryobj = {};
+	let queryobj = {};
 
 	if (query)         { queryobj.query    = query; }
 	if (pitchQuery)    { queryobj.pitch    = pitchQuery; }
@@ -2218,15 +2284,15 @@ function queriesMatch(q1, q2) {
 // processTextSearch --
 //
 
-var TextTimeout = null;
+let TextTimeout = null;
 function processTextSearch(event) {
-	var textQueryElement = document.querySelector("#query-text");
-	var textQuery = textQueryElement.value;
+	let textQueryElement = document.querySelector("#query-text");
+	let textQuery = textQueryElement.value;
 	textQuery = textQuery.replace(/\\s/, "", "g");
 	if (textQuery == LAST_QUERY_TEXT) {
 		return;
 	}
-	var queryobj = {};
+	let queryobj = {};
 
 	if (textQuery) {
 		queryobj.text = textQuery;
@@ -2249,8 +2315,8 @@ function processTextSearch(event) {
 //
 
 function clearActiveMeasures(svgElement) {
-	var actives = svgElement.querySelectorAll(".active");
-	for (var i=0; i<actives.length; i++) {
+	let actives = svgElement.querySelectorAll(".active");
+	for (let i=0; i<actives.length; i++) {
 		actives[i].classList.remove("active");
 	}
 }
@@ -2264,9 +2330,9 @@ function clearActiveMeasures(svgElement) {
 
 function gotoMeasure(startmeasure, endmeasure) {
 	ExpandIncipit();
-	var svg = document.querySelector("svg");
+	let svg = document.querySelector("svg");
 	clearActiveMeasures(svg);
-	var measure;
+	let measure;
 
 	if (!endmeasure) {
 		measure = svg.querySelector(".m-"+startmeasure);
@@ -2279,7 +2345,7 @@ function gotoMeasure(startmeasure, endmeasure) {
 		return;
 	}
 
-	var i;
+	let i;
 	for (i=startmeasure; i<=endmeasure; i++) {
 		measure = svg.querySelector(".m-"+i);
 		measure.classList.add("active");
@@ -2287,7 +2353,7 @@ function gotoMeasure(startmeasure, endmeasure) {
 	measure = svg.querySelector(".m-"+startmeasure);
 	measure.scrollIntoView();
 
-   //var offset = $(".m-"+measurenum).offset();
+   //let offset = $(".m-"+measurenum).offset();
   	//offset.left -= 20;
   	//offset.top -= 20;
    //console.log("OFFSET", offset);
@@ -2305,23 +2371,23 @@ function gotoMeasure(startmeasure, endmeasure) {
 //
 
 function fillInDedicatee(id) {
-	var element = document.querySelector("#principal_dedicatee");
+	let element = document.querySelector("#principal_dedicatee");
 	if (!element) {
 		return;
 	}
 	if (!SETTING.REPORT) {
 		return;
 	}
-	var dedicatee     = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE;
-	var dedicateeNote = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE_NOTE;
+	let dedicatee     = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE;
+	let dedicateeNote = SETTING.REPORT.PRINCIPAL_SOURCE_DEDICATEE_NOTE;
 
-	var tds = element.querySelectorAll("td");
+	let tds = element.querySelectorAll("td");
 	if (tds.length != 2) {
 		return;
 	}
-	var datatd = tds[1];
+	let datatd = tds[1];
 
-	var output = "";
+	let output = "";
 	if (dedicatee) {
 		output += dedicatee;
 	}
@@ -2342,12 +2408,12 @@ function fillInDedicatee(id) {
 //
 
 function fillInOtherSources(id) {
-	var element = document.querySelector("#other_sources");
+	let element = document.querySelector("#other_sources");
 	if (!element) {
 		return;
 	}
-	var output = "";
-	var list = SETTING.REPORT.OTHER_SOURCE;
+	let output = "";
+	let list = SETTING.REPORT.OTHER_SOURCE;
 	if (!list) {
 		element.innerHTML = "<div class='indent'>None</div>";
 		return ;
@@ -2355,10 +2421,10 @@ function fillInOtherSources(id) {
 	if (!(list instanceof Array)) {
 		list = [list];
 	}
-	var output = "<div class='indent'>";
-	for (var i=0; i<list.length; i++) {
+	output = "<div class='indent'>";
+	for (let i=0; i<list.length; i++) {
 		output += "<p>";
-		var otherTemplate = Handlebars.compile(list[i]);
+		let otherTemplate = Handlebars.compile(list[i]);
 		output += otherTemplate();
 	}
 	output += "</div>";
@@ -2373,12 +2439,12 @@ function fillInOtherSources(id) {
 //
 
 function fillInPrimarySources(id) {
-	var element = document.querySelector("#primary_sources");
+	let element = document.querySelector("#primary_sources");
 	if (!element) {
 		return;
 	}
-	var output = "";
-	var list = SETTING.REPORT.PRINCIPAL_SOURCE;
+	let output = "";
+	let list = SETTING.REPORT.PRINCIPAL_SOURCE;
 	if (!list) {
 		// There is no principal source in the setting report,
 		// so it will be (was) filled in automatically with the
@@ -2388,10 +2454,10 @@ function fillInPrimarySources(id) {
 	if (!(list instanceof Array)) {
 		list = [list];
 	}
-	var output = "<div class='indent'>";
-	for (var i=0; i<list.length; i++) {
+	output = "<div class='indent'>";
+	for (let i=0; i<list.length; i++) {
 		output += "<p>";
-		var otherTemplate = Handlebars.compile(list[i]);
+		let otherTemplate = Handlebars.compile(list[i]);
 		output += otherTemplate();
 	}
 	output += "</div>";
@@ -2405,7 +2471,7 @@ function fillInPrimarySources(id) {
 //
 
 function showPopupHelp(url, title) {
-   var newwindow = window.open(url, title,
+   let newwindow = window.open(url, title,
       'left=20,top=20,width=600,height=800,resizable=no,scrollbars=no,directories=no,location=no,status=no,toolbar=no');
    // if (window.focus) {newwindow.focus()}
    return false;
@@ -2418,33 +2484,33 @@ function showPopupHelp(url, title) {
 //
 
 function initializeSearchBoxes(cgi) {
-	var queryElement         = document.querySelector("#query");
-	var pitchQueryElement    = document.querySelector("#query-pitch");
-	var intervalQueryElement = document.querySelector("#query-interval");
-	var rhythmQueryElement   = document.querySelector("#query-rhythm");
-	var textQueryElement     = document.querySelector("#query-text");
+	let queryElement         = document.querySelector("#query");
+	let pitchQueryElement    = document.querySelector("#query-pitch");
+	let intervalQueryElement = document.querySelector("#query-interval");
+	let rhythmQueryElement   = document.querySelector("#query-rhythm");
+	let textQueryElement     = document.querySelector("#query-text");
 
-	var tstring = cgi.t || "";
+	let tstring = cgi.t || "";
 	if (!tstring) {
 		tstring = cgi.text || "";
 	}
 
-	var qstring = cgi.q || "";
+	let qstring = cgi.q || "";
 	if (!qstring) {
 		qstring = cgi.query || "";
 	}
 
-	var pstring = cgi.p || "";
+	let pstring = cgi.p || "";
 	if (!pstring) {
 		pstring = cgi.pitch || "";
 	}
 
-	var istring = cgi.i || "";
+	let istring = cgi.i || "";
 	if (!istring) {
 		istring = cgi.interval || "";
 	}
 
-	var rstring = cgi.r || "";
+	let rstring = cgi.r || "";
 	if (!rstring) {
 		rstring = cgi.rhythm || "";
 	}

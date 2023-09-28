@@ -147,7 +147,6 @@ nobr[class^='mm'] {
 	z-index: -100;
 }
 
-
 .voice-icon {
 	cursor: pointer;
 	font-family: {{site.button_font}};

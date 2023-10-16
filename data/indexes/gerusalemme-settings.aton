@@ -35,6 +35,8 @@
 @@   OTIME:            Original mensuration
 @@   OKEYSIG:          Original keysignature
 @@   FINAL:            Finale note of composition (root of last chord)
+@@   TVERSE:           Translated poetic verse (one entry per stanza)
+@@   MVERSE:           Markup of poetic verse (one entry per stanza)
 @@   TIMPEDITOR:       TiMP Editor for the work.
 @@   NOTE:             Free-form note about the work.
 @@   END: SETTING      This is the end of a rime setting entry
@@ -67,6 +69,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(F)F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @YOUTUBE:	-mksGYNbqC4
@@ -96,6 +100,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(C)F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -122,6 +128,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -148,6 +156,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -174,6 +184,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -200,6 +212,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -226,6 +240,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -252,6 +268,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)(C)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -278,6 +296,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -304,6 +324,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)(C)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -331,6 +353,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -357,6 +381,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)(C)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -384,6 +410,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @YOUTUBE:	ilNWO9EGO8I
@@ -414,6 +442,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -441,6 +471,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -468,6 +500,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -495,6 +529,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @YOUTUBE:	ilNWO9EGO8I
@@ -525,6 +561,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -551,6 +589,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -578,6 +618,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -605,6 +647,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -632,6 +676,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -659,6 +705,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -685,6 +733,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -711,6 +761,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -737,6 +789,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -764,6 +818,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -790,6 +846,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -816,6 +874,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -842,6 +902,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -868,6 +930,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -894,6 +958,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -921,6 +987,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -947,6 +1015,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -973,6 +1043,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -999,6 +1071,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1025,6 +1099,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @YOUTUBE:	Re_f82e0aFA
@@ -1054,6 +1130,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1081,6 +1159,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Giles, Roseen
 @REPRINTS:	M 3460, M 3461, M 3462, M 3463, M 3464
 @@END: SETTING
@@ -1108,6 +1188,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1135,6 +1217,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1161,6 +1245,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Giles, Roseen
 @REPRINTS:	M 3460, M 3461, M 3462, M 3463, M 3464
 @@END: SETTING
@@ -1187,6 +1273,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Giles, Roseen
 @REPRINTS:	M 3460, M 3461, M 3462, M 3463, M 3464
 @@END: SETTING
@@ -1213,6 +1301,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1239,6 +1329,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1265,6 +1357,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1292,6 +1386,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	M 550, M 551, M 552, M 573
 @YOUTUBE:	ilNWO9EGO8I
@@ -1321,6 +1417,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(E)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Deutsch, Catherine
 @REPRINTS:	
 @@END: SETTING
@@ -1347,6 +1445,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1374,6 +1474,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(F)F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1401,6 +1503,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1427,6 +1531,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1454,6 +1560,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1480,6 +1588,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1506,6 +1616,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(C)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	M 550, M 551, M 552, M 573
 @YOUTUBE:	ilNWO9EGO8I
@@ -1535,6 +1647,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1561,6 +1675,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1587,6 +1703,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Deutsch, Catherine
 @REPRINTS:	
 @@END: SETTING
@@ -1613,6 +1731,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Deutsch, Catherine
 @REPRINTS:	
 @@END: SETTING
@@ -1639,6 +1759,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(F)F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1665,6 +1787,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(D)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1691,6 +1815,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	M 550, M 551, M 552, M 573
 @YOUTUBE:	ilNWO9EGO8I
@@ -1720,6 +1846,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(C)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Deutsch, Catherine
 @REPRINTS:	
 @@END: SETTING
@@ -1747,6 +1875,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(F)
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1773,6 +1903,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	M 550, M 551, M 552, M 573
 @YOUTUBE:	ilNWO9EGO8I
@@ -1802,6 +1934,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Deutsch, Catherine
 @REPRINTS:	
 @@END: SETTING
@@ -1829,6 +1963,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(F)F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1855,6 +1991,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		C
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -1882,6 +2020,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1908,6 +2048,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1934,6 +2076,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1960,6 +2104,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		C
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -1987,6 +2133,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2014,6 +2162,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2040,6 +2190,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2066,6 +2218,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:
 @YOUTUBE:	G41-uem89WU
@@ -2095,6 +2249,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2121,6 +2277,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	M 580, M 581, M 583, M 586
 @@END: SETTING
@@ -2147,6 +2305,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2173,6 +2333,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -2199,6 +2361,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Schleuse, Paul
 @REPRINTS:	1598/20, 1604.13
 @@END: SETTING
@@ -2225,6 +2389,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Schleuse, Paul
 @REPRINTS:	
 @@END: SETTING
@@ -2252,6 +2418,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2278,6 +2446,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2304,6 +2474,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2330,6 +2502,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2356,6 +2530,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2382,6 +2558,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2408,6 +2586,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2434,6 +2614,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2461,6 +2643,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:	(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2487,6 +2671,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -2513,6 +2699,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2539,6 +2727,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2565,6 +2755,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -2591,6 +2783,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(A)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2617,6 +2811,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Schleuse, Paul
 @REPRINTS:	
 @YOUTUBE:	-mksGYNbqC4
@@ -2646,6 +2842,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -2673,6 +2871,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(D)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2699,6 +2899,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(E)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -2726,6 +2928,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(A)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2752,6 +2956,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -2779,6 +2985,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(D)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2805,6 +3013,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @@END: SETTING
@@ -2831,6 +3041,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(A)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2858,6 +3070,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -2884,6 +3098,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Giles, Roseen
 @REPRINTS:	M 3460, M 3461, M 3462, M 3463, M 3464
 @YOUTUBE:	ilNWO9EGO8I
@@ -2913,6 +3129,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(A)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2939,6 +3157,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(F)F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2965,6 +3185,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -2991,6 +3213,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3018,6 +3242,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(D)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3044,6 +3270,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3070,6 +3298,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Giles, Roseen
 @REPRINTS:	M 3460, M 3461, M 3462, M 3463, M 3464
 @YOUTUBE:	ilNWO9EGO8I
@@ -3099,6 +3329,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(D)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3125,6 +3357,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		F
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3151,6 +3385,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(A)E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3177,6 +3413,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3204,6 +3442,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3230,6 +3470,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(E)(E)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3256,6 +3498,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3282,6 +3526,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3308,6 +3554,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3334,6 +3582,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3360,6 +3610,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	E
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3387,6 +3639,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3413,6 +3667,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3439,6 +3695,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3465,6 +3723,8 @@
 @OTIME:		
 @OKEYSIG:	#
 @FINAL:	D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3492,6 +3752,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3518,6 +3780,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Giles, Roseen
 @REPRINTS:	M 3460, M 3461, M 3462, M 3463, M 3464
 @YOUTUBE:	ilNWO9EGO8I
@@ -3547,6 +3811,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3573,6 +3839,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3599,6 +3867,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(D)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3626,6 +3896,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3653,6 +3925,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3679,6 +3953,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -3705,6 +3981,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:	(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3732,6 +4010,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(A)D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @YOUTUBE:	ilNWO9EGO8I
@@ -3761,6 +4041,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(E)A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3787,6 +4069,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3813,6 +4097,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3839,6 +4125,8 @@
 @OTIME:		
 @OKEYSIG:	?
 @FINAL:	?
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:		Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3865,6 +4153,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3891,6 +4181,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3917,6 +4209,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		D
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	W 886
 @YOUTUBE:	ilNWO9EGO8I
@@ -3947,6 +4241,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		A
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -3974,6 +4270,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -4000,6 +4298,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -4027,6 +4327,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -4053,6 +4355,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -4080,6 +4384,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4107,6 +4413,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4133,6 +4441,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4159,6 +4469,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4186,6 +4498,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4213,6 +4527,8 @@
 @OTIME:		
 @OKEYSIG:	b-
 @FINAL:		(G)(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -4240,6 +4556,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4266,6 +4584,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4292,6 +4612,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4317,6 +4639,8 @@
 @OTIME:		
 @OKEYSIG:	
 @FINAL:		(G)(G)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -4343,6 +4667,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		(D)G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING
@@ -4370,6 +4696,8 @@
 @OTIME:		
 @OKEYSIG:	
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Ricciardi, Emiliano
 @REPRINTS:	
 @@END: SETTING
@@ -4397,6 +4725,8 @@
 @OTIME:		
 @OKEYSIG:	-
 @FINAL:		G
+@TVERSE:
+@MVERSE:
 @TIMPEDITOR:	Mazzetti, Marcello; Ticli, Livio
 @REPRINTS:	
 @@END: SETTING

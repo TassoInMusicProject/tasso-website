@@ -81,9 +81,6 @@
 //
 
 Handlebars.registerHelper("mverse",  function (mverse, verse) {
-
-console.warn("MVERSE", mverse);
-
 	if (!mverse || (!Array.isArray(mverse) && mverse.match(/^\s*$/))) {
 		element = document.querySelector("#status");
 		if (element) {
@@ -267,8 +264,11 @@ function prepareMverseTable(mverse) {
 
 function prepareLineMarkup(text, side) {
 
+	// + is stress marker, convert to -- for further processing:
+	let ztext = text.replace(/\+/g, "--");
+
 	// Move punctuation before syllable boundaries.
-	let ztext = text.replace(/(-+)([,.:;!?])/, "$2$1");
+	ztext = ztext.replace(/(-+)([,.:;!?])/, "$2$1");
 
 	// Convert stress mark into ZZZ:
 	ztext = ztext.replace(/--/g, "ZZZ-").trim();
@@ -969,7 +969,6 @@ function processFootnotes(text) {
 //
 
 Handlebars.registerHelper("lastModified",  function (ymd_date) {
-console.log("DATE:", ymd_date);
 	var matches = ymd_date.match(/(20\d{2})\/0*(\d+)\/0*(\d+)/);
 	if (matches) {
 		var year = matches[1];

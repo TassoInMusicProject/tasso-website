@@ -464,12 +464,14 @@ table.data td {
 // verses Handlebar helper -- Assuming translation has the same
 //     dimension as verses.
 //
+// To do: Uncomment out TVERSE to display translation of settings text.
+//
 
 Handlebars.registerHelper("verses", function(VERSE, TRANSLATION, catnum, translator) {
 console.log("-=================entering verses TRANSLATION:", TRANSLATION, "VERSE:", VERSE, "CATNUM", catnum, "TRANSLATOR", translator);
 	var verses = {};
 	verses.VERSE = VERSE;
-	verses.TVERSE = TRANSLATION;
+	// verses.TVERSE = TRANSLATION;
 	if (!verses) {
 		console.warn("Warning: no verse data for", catnum);
 		return "";
@@ -502,10 +504,12 @@ console.log("-=================entering verses TRANSLATION:", TRANSLATION, "VERS
 			}
 			output += "</td>";
 			output += "<td>";
-			t = tt[q].split(/\n/);
-			for (var i in t) {
-				if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
-				} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+			if (Array.isArray(tt)) {
+				t = tt[q].split(/\n/);
+				for (var i in t) {
+					if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+			 		} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+				}
 			}
 			output += "</td>";
 			output += "</tr>";
@@ -520,10 +524,12 @@ console.log("-=================entering verses TRANSLATION:", TRANSLATION, "VERS
 		}
 		output += "</td>";
 		output += "<td>";
-		t = verses.TVERSE.split(/\n/);
-		for (var i in t) {
-			if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
-			} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+		if (array.isArray(verses.TVERSE)) {
+			t = verses.TVERSE.split(/\n/);
+			for (var i in t) {
+				if (i==0) { output += "<div class='first-line'>" + t[i] + "</div>";
+				} else    { output += "<div class='other-line'>" + t[i] + "</div>"; }
+			}
 		}
 		output += "</td>";
 		output += "</tr>";

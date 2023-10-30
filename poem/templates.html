@@ -80,7 +80,7 @@
 	{{{dating DATING SOLERTI}}}
 	{{{dedicatee DEDICATEE SOLERTI}}}
 	{{{commentary COMMENTARY SOLERTI}}}
-	{{{links SOLERTI}}}
+	{{{links CATALOGNUM}}}
 <span>
 
 <div>
@@ -423,13 +423,14 @@ Handlebars.registerHelper("attribution",  function (attribution, solerti) {
 // links --
 //
 
-Handlebars.registerHelper("links",  function (solerti) {
+Handlebars.registerHelper("links",  function (catalognum) {
 	var output = "";
-	if (!solerti) {
+console.warn("CATALOGNUM", catalognum);
+	if (!catalognum) {
 		return new Handlebars.SafeString(output);
 	}
 
-	var id = makeId(solerti, "Trm");
+	var id = catalognum;
 
 	output += "<h3 class='header'>Links</h3>";
 	output += "<div class='indent'>";

@@ -1,6 +1,6 @@
 
 <!-- HANDLEBARS TEMPLATES -------------------------------------- -->
-
+<!-- vim: set ts=3 : -->
 
 <!-- Markup-page header -->
 
@@ -82,7 +82,9 @@
 
 Handlebars.registerHelper("mverse",  function (mverse, verse) {
 
-	if (!mverse || mverse.match(/^\s*$/)) {
+console.warn("MVERSE", mverse);
+
+	if (!mverse || (!Array.isArray(mverse) && mverse.match(/^\s*$/))) {
 		element = document.querySelector("#status");
 		if (element) {
 			element.innerHTML = "N.B.: No markup for this poem, type alt/option-e to display editor for adding markup";

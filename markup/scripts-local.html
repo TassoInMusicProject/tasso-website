@@ -234,6 +234,29 @@ function displayMarkup(id, target) {
 	}
 	element.innerHTML = singlePoemMarkup(id);
 
+	let lines = document.querySelectorAll("td.verse-text");
+	console.warn("============== LINES", lines);
+	let maxwidth = -100;
+	for (let i=0; i<lines.length; i++) {
+		let width = lines[i].offsetWidth;
+		// let width = lines[i].getBoundingClientRect().width;
+		// let cell = lines[i];
+		// let width = cell.getBoundingClientRect().width - 
+		// 	parseFloat(getComputedStyle(cell).paddingLeft) - 
+		// 	parseFloat(getComputedStyle(cell).paddingRight) - 
+		// 	parseFloat(getComputedStyle(cell).borderLeftWidth) - 
+		// 	parseFloat(getComputedStyle(cell).borderRightWidth);
+		if (maxwidth < width) {
+			maxwidth = width;
+		}
+	}
+	// +150 needed for some strange reason.
+	maxwidth += 150;
+	for (let i=0; i<lines.length; i++) {
+		lines[i].style.minWidth = maxwidth + "px";
+		console.warn("====== WIDTH", lines[i].style.minWidth);
+	}
+
 	element = document.querySelector(targetheader);
 	if (!element) {
 		console.log("Error: cannot place Poem markup header on page.");
@@ -298,11 +321,9 @@ function singlePoemMarkup(id) {
 	var vlist = GetFlatVerseList();
 	var REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
-
 	var asource = document.querySelector("#about-template").textContent;
 	var atemplate = Handlebars.compile(asource);
 	var output = atemplate(REVERSEVERSE[id]);
-
 
 	return output;
 }

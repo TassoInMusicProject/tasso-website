@@ -16,10 +16,10 @@
 // Description:   JavaScript management for the literary variants.
 //
 
-var CurrentPoem  = 0;  // ID of the current setting
-var PoemList     = {}; // List of next/previous settings
+let CurrentPoem  = 0;  // ID of the current setting
+let PoemList     = {}; // List of next/previous settings
 
-var VARIORUM = {};
+let VARIORUM = {};
 
 
 //////////////////////////////
@@ -64,7 +64,7 @@ function displaySource(poem) {
 //
 
 function displayNextPoem() {
-	var nid = PoemList[CurrentPoem].next;
+	let nid = PoemList[CurrentPoem].next;
  	displayMarkup(nid);
 }
 
@@ -76,7 +76,7 @@ function displayNextPoem() {
 //
 
 function displayPreviousPoem() {
-	var nid = PoemList[CurrentPoem].previous;
+	let nid = PoemList[CurrentPoem].previous;
  	displayMarkup(nid);
 }
 
@@ -102,7 +102,7 @@ function displayMarkupInitialize(id, target) {
 		CurrentPoem = id;
 	}
 
-	var element = document.querySelector(target);
+	let element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place on page since", target, " doesn't exist.");
 		return;
@@ -155,13 +155,13 @@ function buildAllSettingList() {
 //
 
 function	buildPoemList(list) {
-	var tosort = {};
-	var id;
+	let tosort = {};
+	let id;
 	if (!list) {
 		// list = ALLSETTINGLIST;
 		list = RIMEVERSELIST;
 	}
-	for (var i=0; i<list.length; i++) {
+	for (let i=0; i<list.length; i++) {
 		if (!list[i].CATALOGNUM) {
 			if (list[i].SOLERTI) {
 				id = "Trm";
@@ -181,10 +181,10 @@ function	buildPoemList(list) {
 		}
 		tosort[id] = 1;
 	}
-	var ids = Object.keys(tosort);
+	let ids = Object.keys(tosort);
 	ids.sort();
 	PoemList = {};
-	for (i=1; i<=ids.length-1; i++) {
+	for (let i=1; i<=ids.length-1; i++) {
 		PoemList[ids[i]] = {};
 		PoemList[ids[i]].next     = ids[i+1];
 		PoemList[ids[i]].previous = ids[i-1];
@@ -222,7 +222,7 @@ function displayMarkup(id, target) {
 	let targetheader = "#contents-markup-header";
 	
 	
-	var element = document.querySelector(target);
+	let element = document.querySelector(target);
 	if (!element) {
 		console.log("Error: cannot place Poem markup on page.");
 		return;
@@ -233,6 +233,7 @@ function displayMarkup(id, target) {
 		return;
 	}
 	element.innerHTML = singlePoemMarkup(id);
+	prepareDataLink(id);
 
 	let lines = document.querySelectorAll("td.verse-text");
 	console.warn("============== LINES", lines);
@@ -278,11 +279,11 @@ function displayMarkup(id, target) {
 //
 
 function prepareReverseVerse(vlist) {
-	var output = {};
-	for (var i=0; i<vlist.length; i++) {
-		var id = vlist[i].CATALOGNUM;
+	let output = {};
+	for (let i=0; i<vlist.length; i++) {
+		let id = vlist[i].CATALOGNUM;
 		//if (id) {
-		//	var iid = "Trm";
+		//	let iid = "Trm";
 		//	if (id < 1000) { iid += "0"; }
 		//	if (id < 100)  { iid += "0"; }
 		//	if (id < 10)   { iid += "0"; }
@@ -304,13 +305,13 @@ function prepareReverseVerse(vlist) {
 //
 
 function singlePoemMarkupHeader(id) {
-	var vlist = GetFlatVerseList();
-	var REVERSEVERSE = prepareReverseVerse(vlist);
+	let vlist = GetFlatVerseList();
+	let REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
 
-	var hsource = document.querySelector("#about-header-template").textContent;
-	var htemplate = Handlebars.compile(hsource);
-	var output = htemplate(REVERSEVERSE[id]);
+	let hsource = document.querySelector("#about-header-template").textContent;
+	let htemplate = Handlebars.compile(hsource);
+	let output = htemplate(REVERSEVERSE[id]);
 
 	return output;
 }
@@ -318,14 +319,73 @@ function singlePoemMarkupHeader(id) {
 
 
 function singlePoemMarkup(id) {
-	var vlist = GetFlatVerseList();
-	var REVERSEVERSE = prepareReverseVerse(vlist);
+	let vlist = GetFlatVerseList();
+	let REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
-	var asource = document.querySelector("#about-template").textContent;
-	var atemplate = Handlebars.compile(asource);
-	var output = atemplate(REVERSEVERSE[id]);
-
+	let asource = document.querySelector("#about-template").textContent;
+	let atemplate = Handlebars.compile(asource);
+	let output = atemplate(REVERSEVERSE[id]);
 	return output;
+}
+
+
+
+//////////////////////////////
+//
+// prepareDataLink -- display links to ATON and TEI data for poem markup.
+//
+
+function prepareDataLink(id) {
+	if (sessionStorage.markupList) {
+		let markupList = JSON.parse(sessionStorage.markupList);
+		finishPreparingDataLink(id, markupList);
+	} else {
+		let url = "https://raw.githubusercontent.com/TassoInMusicProject/tasso-poem-markup/main/data/index.txt";
+		fetch(url)
+			.then(response => response.text())
+			.then(text => {
+				let lines = text.split(/\r?\n/);
+				sessionStorage.markupList = JSON.stringify(lines);
+				finishPreparingDataLink(id, lines);
+			})
+			.catch(error => console.error("Error downloading markup list:", error));
+	}
+}
+
+
+//////////////////////////////
+//
+// finishPreparingDataLink --
+//
+
+
+function finishPreparingDataLink(id, markupList) {
+	let index = -1;
+	for (let i=0; i<markupList.length; i++) {
+		if (markupList[i] === id) {
+			index = i;
+			break;
+		}
+	}
+	if (index < 0) {
+		// No markupdata for this ID.
+		return;
+	}
+
+	let target = document.querySelector("#dataLink");
+	if (!target) {
+		console.error("ERROR: Cannot find #dataLink");
+		return;
+	}
+
+	let urlBase = "https://github.com/TassoInMusicProject/tasso-poem-markup/tree/main/data";
+	let output = "Markup data: [ ";
+	output += `<a target="_blank" href="${urlBase}/aton/${id}.aton">ATON</a>`;
+	output += " | ";
+	output += `<a target="_blank" href="${urlBase}/tei/${id}.tei">TEI</a>`;
+	output += " ]";
+
+	target.innerHTML = output;
 }
 
 
@@ -347,8 +407,8 @@ function displayTextareaContents() {
 	data.CATALOGNUM = "NONE";
 	data.LAST_MODIFIED = "NONE";
 
-	var asource = document.querySelector("#about-template").textContent;
-	var atemplate = Handlebars.compile(asource);
+	let asource = document.querySelector("#about-template").textContent;
+	let atemplate = Handlebars.compile(asource);
 	let output = atemplate(data);
 
 	let element = document.querySelector("#contents-markup");

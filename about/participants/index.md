@@ -28,11 +28,15 @@ Seth Coluzzi (Colgate University)
 </div>
 
 <div class="person">
-Catherine Deutsch (University of Paris, Sorbonne)
+Catherine Deutsch (Université de Lorraine, Sorbonne)
 </div>
 
 <div class="person">
-Daniel Donnelly (University of Toronto)
+Daniel Donnelly (Independent Scholar)
+</div>
+
+<div class="person">
+Kate Driscoll (Duke University) 
 </div>
 
 <div class="person">
@@ -52,7 +56,7 @@ Anthony Newcomb (University of California, Berkeley) †
 </div>
 
 <div class="person">
-Diego Perotti (University of Verona)
+Diego Perotti (Independent Scholar)
 </div>
 
 <div class="person">
@@ -76,10 +80,6 @@ Mauro Calcagno (University of Pennsylvania)
 
 <div class="person">
 Corrado Confalonieri (University of Parma) 
-</div>
-
-<div class="person">
-Kate Driscoll (Duke University) 
 </div>
 
 <div class="person">

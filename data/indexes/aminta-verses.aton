@@ -2127,8 +2127,8 @@
 @MANUSRC:	A-Am, A-Au, A-Br, A-CM, A-F, A-Ub
 @PRINTSRC:	A-1580D, A-1580M, A-1581B, A-1581B<sub>bis</sub>, A-1581M, A-1581M<sub>bis</sub>, A-1581O, A-1581V, A-1582B, A-1583M, A-1583V, A-1584A, A-1585C, A-1585V, A-1585V<sub>bis</sub>, A-1588B, A-1589M, A-1589V, A-1590Mb, A-1590Mv, A-1591M, A-1591W, A-1592B, A-1596B, A-1596M, A-1599Bf, A-1599Bp, A-1600R, A-1601Bf, A-1601Bp, A-1602B, A-1603Bf, A-1603Bv, A-1603Z, A-1605R, A-1606Z, A-1608D, A-1608DP, A-1609Bf, A-1609Bv, A-1609Z, A-1611D, A-1614GT, A-1617D, A-1618B, A-1619D, A-1619I, A-1620V, A-1622D, A-1623A, A-1624M, A-1624S, A-1624T, A-1625U, A-1628U, A-1632D, A-1634R
 @@BEGIN:	VERSES
-@ABOUTIT:	
-@ABOUTEN:	
+@ABOUTIT:	   SILVIA
+@ABOUTEN:	   SILVIA
 @EDITOR:	Solerti, Angelo
 @EDITION_TITLE: Opere minori in versi di Torquato Tasso. Edizione critica sugli autografi e sulle antiche stampe.
 @EDITION_LOC:	Bologna
@@ -2138,7 +2138,7 @@
 @EDITION_PAGE:
 @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
 @VERSE:	
-	SILVIA: Pastor, di che piangete?
+	Pastor, di che piangete?
 	Se piangete il mio affanno,
 	O non merto pietate,
 	Ché non la seppi usare.
@@ -2167,8 +2167,35 @@
 	Come mostrò morendo.
 @MVERSE_DATE:
 @MVERSE:
+	Pa-stor,-- di che pian-ge--te?				=a
+	Se pian-ge--te_il mio_af-fan--no,			=b
+	O non mer--to pie-ta--te,				=a
+	Ché-- non la sep--pi_u-sa--re.				=c
+	Se pian-ge--te_il mo-ri--re				=c
+	Del mi--se-ro_in-no-cen--te,				=a
+	Que--sto_è-- pic--cio-lo se--gno			=d
+	A sì_al--ta ca-gio--ne. E tu ra-sciu--ga,		=E+
+	Daf--ne, que--ste tue la--gri-me, per Di--o,		=F
+	Se ca-gion-- ne son i--o.				=f
+	Ben ti vo--glio pre-ga--re,				=c+
+	Non per pie-tà-- di me, ma per pie-ta--de		=G+
+	Di chi de--gno ne fu--e,				=h+
+	Che m'a-iu--ti_a cer-ca--re				=c+
+	L'in-fe-li--ce sue mem--bra,_e_a se-pel-lir--le.	=I
+	Que--sto sol mi ri-tie--ne				=j
+	Ch'or ho--ra non m'uc-ci--da:				=k
+	Pa-gar-- vuo' que--sto_uf-fi--cio,			=l
+	Poi ch'al--tro non m'a-van--za,				=m
+	A l'a-mor-- ch'ei por--tom-mi:				=n
+	E se be--ne que--st'em--pia				=o+
+	Ma--no con-ta-mi-na--re					=c+
+	Po-tes--se la pie-tà-- de l'op--ra, pu--re		=C+
+	So che gli sa-rà-- ca--ra				=p
+	L'op--ra di que--sta ma--no;				=b
+	Ch'io so cer--to ch'ei m'a--ma,				=q
+	Co--me mo-strò-- mo-ren--do.				=r
 @TVERSE:
-	SILVIA: Shepherd, about what are you weeping?
+	Shepherd, about what are you weeping?
 	If you weep for my grief,
 	Oh, I do not deserve compassion,
 	Because I did not know to use it.

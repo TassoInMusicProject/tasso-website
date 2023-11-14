@@ -990,12 +990,19 @@
 	TIRSI: Nove, Aminta, t'annuncio di conforto:
 	Lascia homai questo tanto lamentarti.
 	AMINTA: Ohimè, che di'? che porti?
-	0 la vita o la morte?
+	O la vita o la morte?
 	TIRSI: Porto salute e vita, s'ardirai
 	Di farti loro incontra: ma fa luogo
 	D'esser un huomo, Aminta, e un huomo ardito.
 @MVERSE_DATE:
 @MVERSE:
+	TIRSI: No--ve,_A-min--ta, t'an-nun--cio di con-for--to:		=A
+	La--scia_ho-mai-- que--sto tan--to la-men-tar--ti.		=B
+	AMINTA: Ohi-mè,-- che di'?-- che por--ti?			=b
+	O la vi--ta_o la mor--te?					=c
+	TIRSI: Por--to sa-lu--te_e vi--ta, s'ar-di-ra--i		=D+
+	Di far--ti lo--ro_in-con--tra: ma fa luo--go			=E
+	D'es--ser un huo--mo,_A-min--ta,_e_un huo--mo_ar-di--to.	=A
 @TVERSE:
 	THYRSIS:News, Aminta, I announce to you of comfort:
 	Abandon already this great lamentation.

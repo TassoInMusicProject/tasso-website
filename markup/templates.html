@@ -288,6 +288,9 @@ function prepareLineMarkup(text, side) {
 			if (syls[j] === "&mdash;") {
 				sylCount--;
 			}
+			if (syls[j].match(/^[A-Z]+:/)) {
+				sylCount--;
+			}
 			syls[j] = syls[j].replace(/_/g, "<span class='elision hide-elision'>‿</span>");
 			let syl = syls[j];
 

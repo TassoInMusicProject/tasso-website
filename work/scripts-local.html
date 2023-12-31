@@ -1519,58 +1519,59 @@ function getHumdrumNoRecurse(id) {
 
 //////////////////////////////
 //
-// getRange --
+// getRange -- Get and display note attack pitch range, such as
+//    https://Trm0047m-prange-attack.svg
+//    Store on page inside element "#range".
 //
 
 function getRange(id) {
-	let tag = "range_" + id;
-	let element = document.querySelector("#" + "range");
+	let url = `https://data.tassomusic.org/${id}-prange-attack.svg`;
+	if (sessionStorage[url]) {
+		displayRange("#range", sessionStorage[url]);
+		return;
+	}
+
+	fetch(url)
+		.then(response => {
+			if (!response.ok) {
+				throw new Error("Network response was not ok");
+			}
+			return response.text();
+		})
+		.then(svg => {
+			if (svg.match(/no image found for/)) {
+				console.error("Bad SVG content:", svg);
+				return;
+			}
+			sessionStorage[url] = svg;
+			displayRange("#range", svg);
+		})
+		.catch(error => {
+			console.error("There was a problem with fetching:", error);
+		})
+}
+
+
+
+//////////////////////////////
+//
+// displayRange -- Once an SVG of the range has been downloaded,
+//     display the SVG range plot on the work page.
+//
+
+function displayRange(selector, svg) {
+	let element = document.querySelector("#range");
 	if (!element) {
-		console.log("Could not find storage element #range");
+		console.error("ERROR: No element #range");
 		return;
 	}
 	let output = "";
 	output += "<h4 style='margin-left:30px' id='vocal_ranges'>VOCAL RANGES</h4>";
-
-	if (sessionStorage[tag]) {
-		if (element) {
-			output += "<div class='indent'>";
-			if (!sessionStorage[tag].match(/no image found for/)) {
-				output += sessionStorage[tag];
-				output += "</div>";
-				element.innerHTML = output;
-				setSvgSize();
-			} else {
-				console.log("ERROR: No vocal range found");
-			}
-		}
-	} else {
-		let url = "https://raw.githubusercontent.com/TassoInMusicProject/tasso-website/gh-pages/analysis/range/svg/" + id + ".svg";
-		let request = new XMLHttpRequest();
-		request.open('GET', url);
-		request.addEventListener("load", function() {
-			let data = this.responseText;
-			if (data.match(/DOCTYPE HTML/)) {
-				return;
-			}
-			sessionStorage[tag] = data;
-			if (element) {
-				output += "<div class='indent'>";
-				if (!data.match(/no image found for/)) {
-					output += data;
-					output += "</div>";
-					element.innerHTML = output;
-					setSvgSize();
-				} else {
-					console.log("ERROR: No vocal range found online");
-				}
-			}
-		});
-		request.send()
-	}
-
-	// ggg getRangeNoRecurse(ORDER[id].next);
-	// ggg getRangeNoRecurse(ORDER[id].previous);
+	output += "<div class='indent'>";
+	output += svg;
+	output += "</div>";
+	element.innerHTML = output;
+	setSvgSize();
 }
 
 

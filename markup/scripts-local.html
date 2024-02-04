@@ -431,11 +431,13 @@ function applyOptions() {
 	let stressElement     = document.querySelector("#check-stress");
 	let rhymeElement      = document.querySelector("#check-rhyme");
 	let enjambmentElement = document.querySelector("#check-enjambment");
+	let linenumElement    = document.querySelector("#check-linenum");
 
 	if (!sylElement)        { return; }
 	if (!stressElement)     { return; }
 	if (!rhymeElement)      { return; }
 	if (!enjambmentElement) { return; }
+	if (!linenumElement)    { return; }
 
 console.warn("APPLY OPTIONS");
 
@@ -450,6 +452,9 @@ console.warn("APPLY OPTIONS");
 	}
 	if (enjambmentElement && enjambmentElement.checked) {
 		showEnjambment();
+	}
+	if (linenumElement && linenumElement.checked) {
+		showLinenum();
 	}
 
 }
@@ -497,7 +502,6 @@ function hideStress() {
 		syls[i].classList.remove("showStress");
 	}
 }
-
 
 
 
@@ -728,6 +732,53 @@ function hideEnjambment() {
 	let syls = document.querySelectorAll("span.enjambment");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("hide-enjambment");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleLinenum --
+//
+
+function toggleLinenum(event) {
+	if (event.currentTarget.checked) {
+		showLinenum();
+	} else {
+		hideLinenum();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showLinenum --
+//
+
+function showLinenum() {
+	console.log("Show Line Number");
+	let syls = document.querySelectorAll(".linenum");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("show-linenum");
+		syls[i].classList.remove("hide-linenum");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideLinenum --
+//
+
+function hideLinenum() {
+	console.log("Hide Line Number");
+	let syls = document.querySelectorAll(".linenum");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("show-linenum");
+		syls[i].classList.add("hide-linenum");
 	}
 }
 

@@ -227,6 +227,9 @@ function prepareMverseTable(mverse) {
 		output += "<tr class='verse-line";
 		output += "'>\n";
 
+		var linenum = i + 1;
+		output += `<td class='linenum hide-linenum'>${linenum}</td>`;
+
 		output += "<td class='verse-text'>\n";
 		if (i == 0) {
 			output += "<div class='first-line'>";

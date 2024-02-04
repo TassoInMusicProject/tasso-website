@@ -82,6 +82,9 @@ span.syllable {
 	display: inline-block;
 }
 
+.linenum.show-linenum {
+	color: #ccc !important;
+}
 
 .stress.showStress {
 	font-weight: bold;
@@ -174,6 +177,9 @@ span.enjambment.hide-enjambment {
 	display: none;
 }
 
+.linenum.hide-linenum {
+	visibility: hidden;
+}
 
 td.syllable-count {
 	padding-left: 30px;

@@ -35,7 +35,7 @@
 @PAGE:		11r
 @PARATEXT:	Dice, ch'essendo vinto dal dolore gli apparve in sogno la sua donna, e'l racconsolò.
 @VERSE:		
-Giacea la mia virtù vinta, e smarrita
+	Giacea la mia virtù vinta, e smarrita
 	<del>Dal</del> ^nel^ duol<del>o</del> ^ch'è sempre^ in sua ragion <del>sempre</del> piu forte,
 	quando il <del>sonno</del> pietosa di <del>mia</del> ^si dura^ sorte,
 	<del>Seco addusse Madonna</del> ^Venne in sogno Madonna^ a darle aita.
@@ -147,7 +147,7 @@ Giacea la mia virtù vinta, e smarrita
 @PAGE:		67r
 @PARATEXT:	[TORQUATO TASSO DETTO IL PENTITO.]
 @VERSE:		
-Giacea la mia virtù vinta, e smarrita
+	Giacea la mia virtù vinta, e smarrita
 	Dal duolo in sua ragion sempre piu forte;
 	Quando il sonno pietoso di mia sorte
 	Seco addusse Madonna à darle aita:
@@ -188,7 +188,8 @@ Giacea la mia virtù vinta, e smarrita
 	Volgeva ella in me gli occhi, e le parole
 	Di pietà vera ardenti: A che pur tanto
 	O’ mio fedel t’affliggi, e ti consumi?
-@VERSE:	Ben tempo ancor verrà, ch’al chiaro Sole
+@VERSE:
+	Ben tempo ancor verrà, ch’al chiaro Sole
 	Di quest’amate luci asciughi il pianto,
 	E’l fosco di tua vita in lui rallumi.	
 @@END: VARIORUM
@@ -215,7 +216,8 @@ Giacea la mia virtù vinta, e smarrita
 	Volgeva ella in me gli occhi, e le parole
 	Di pietà vera ardenti: A che pur tanto
 	O’ mio fedel t’affliggi, e ti consumi?
-	@VERSE:	Ben tempo ancor verrà, ch’al chiaro Sole
+@VERSE:
+	Ben tempo ancor verrà, ch’al chiaro Sole
 	Di quest’amate luci asciughi il pianto,
 	E’l fosco di tua vita in lui rallumi.	
 @@END: VARIORUM
@@ -389,7 +391,7 @@ Giacea la mia virtù vinta, e smarrita
 @@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0028
 @ID:		S33
 @TYPE:		print
@@ -397,24 +399,27 @@ Giacea la mia virtù vinta, e smarrita
 @PAGE:		14
 @PARATEXT:	Narra come essendo lontano dalla sua Donna, &amp; per ciò adoloratissimo, fù da lei in sogno consolato.
 @VERSE:		
-Giacea la mia virtù vinta, e smarrita
+	Giacea la mia virtù vinta, e smarrita
 	Dal duolo in sua ragion sempre più forte,
 	Quando il sonno pietoso di mia sorte
 	Seco addusse Madonna à darle aita:
-Che sollevò gli spirti, è ’n me sopita
+@VERSE:
+	Che sollevò gli spirti, è ’n me sopita
 	La doglia, à nova speme aprío le porte.
 	Così all’hor ne l’imagine di Morte
 	Trovò l’egro mio cor salute, e vita.
-Volgeva ella in me gli occhi, e le parole
+@VERSE:
+	Volgeva ella in me gli occhi, e le parole
 	Di pieta vera ardenti: A che pur tanto,
 	O mio fedel, t’affliggi, e ti consumi?
-Ben tempo ancor verrà, ch’al chiaro Sole 
+@VERSE:
+	Ben tempo ancor verrà, ch’al chiaro Sole 
 	Di quest’amate luci asciughi il pianto, 
 	E ’l fosco di tua vita in lui rallumi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0028
 @ID:		S67
 @TYPE:		print
@@ -422,21 +427,24 @@ Ben tempo ancor verrà, ch’al chiaro Sole
 @PAGE:		14
 @PARATEXT:	Narra come essendo lontano dalla sua Donna, &amp; per ciò adoloratissimo, fù da lei in sogno consolato.
 @VERSE:		
-Giacea la mia virtù vinta, e smarrita
+	Giacea la mia virtù vinta, e smarrita
 	Dal duolo in sua ragion sempre più forte,
 	Quando il sonno pietoso di mia sorte
 	Seco addusse Madonna à darle aita:
-Che sollevò gli spirti, è ’n me sopita
+@VERSE:
+	Che sollevò gli spirti, è ’n me sopita
 	La doglia, à nova speme aprío le porte.
 	Così all’hor ne l’imagine di Morte
 	Trovò l’egro mio cor salute, e vita.
-Volgeva ella in me gli occhi, e le parole
+@VERSE:
+	Volgeva ella in me gli occhi, e le parole
 	Di pieta vera ardenti: A che pur tanto,
 	O mio fedel, t’affliggi, e ti consumi?
-Ben tempo ancor verrà, ch’al chiaro Sole 
+@VERSE:
+	Ben tempo ancor verrà, ch’al chiaro Sole 
 	Di quest’amate luci asciughi il pianto, 
 	E ’l fosco di tua vita in lui rallumi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -461,27 +469,27 @@ Ben tempo ancor verrà, ch’al chiaro Sole
 @PAGE:		42
 @PARATEXT:	Dice che essendo vinto dal dolore, Gli apparve in sogno la sua donna e lo racconsolò
 @VERSE:		
-      Giacea la mia virtù vinta, e smarrita
-	    Nel duol, ch’è sempre in sua ragion più forte;
-	    Quando pietosa di sì dura sorte,
-	    Venne in sogno Madonna, à darle aita.
+	Giacea la mia virtù vinta, e smarrita
+	Nel duol, ch’è sempre in sua ragion più forte;
+	Quando pietosa di sì dura sorte,
+	Venne in sogno Madonna, à darle aita.
 @VERSE:	
-      E ristorò gli spirti, e ’n me sopita
-	    La doglia, à nova speme aprì le porte:
-	    E così ne l’imagine di Morte,
-	    Trovò l’egro mio cor salute, e vita:
+	E ristorò gli spirti, e ’n me sopita
+	La doglia, à nova speme aprì le porte:
+	E così ne l’imagine di Morte,
+	Trovò l’egro mio cor salute, e vita:
 @VERSE:	
-      Ella volgendo gli occhi in dolci giri,
-	    Parea che mi dicesse, à che pur tanto,
-	    O mio fedel, t’affliggi, e ti consumi?
+	Ella volgendo gli occhi in dolci giri,
+	Parea che mi dicesse, à che pur tanto,
+	O mio fedel, t’affliggi, e ti consumi?
 @VERSE:		
-      E perche non fai tregua a’ tuoi sospiri,
-	    E ’n quest’amate luci, asciughi il pianto?
-	    Speri forse  d’haver più fidi lumi?
+	E perche non fai tregua a’ tuoi sospiri,
+	E ’n quest’amate luci, asciughi il pianto?
+	Speri forse  d’haver più fidi lumi?
 @@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0028
 @ID:		S141
 @TYPE:		print
@@ -489,27 +497,27 @@ Ben tempo ancor verrà, ch’al chiaro Sole
 @PAGE:		Prima parte delle Rime, 10
 @PARATEXT:	Dal dolore sopraffatto, la sua Donna in sogno gli apparve, che tutto lo consolò.
 @VERSE:		
-Giacea la mia virtù vinta, e smarrita
+	Giacea la mia virtù vinta, e smarrita
 	Nel duol, ch' è sempre in sua ragion piu forte;
 	Quando pietosa di sì dura sorte,
 	Venne in sogno Madonna, à darle aita.
 @VERSE:
-E ristorò gli spirti, e ’n me sopita
+	E ristorò gli spirti, e ’n me sopita
 	La doglia, à nova speme aprì le porte:
 	E così ne l’imagine di Morte,
 	Trovò l’egro mio cor salute, e vita:
 @VERSE:
-Ella volgendo in me gli occhi in dolci giri,
+	Ella volgendo in me gli occhi in dolci giri,
 	Parea che mi dicesse. à che pur tanto,
 	O mio fedel, t’affliggi, e ti consumi?
 @VERSE:
-E perche non fai tregua a’ tuoi sospiri,
+	E perche non fai tregua a’ tuoi sospiri,
 	E ’n queste amate luci, asciughi il pianto?
 	Speri forse  d’aver più fidi lumi?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0028
 @ID:		S166
 @TYPE:		print
@@ -517,27 +525,27 @@ E perche non fai tregua a’ tuoi sospiri,
 @PAGE:		Prima parte delle Rime, 10
 @PARATEXT:	Dal dolore sopraffatto, la sua Donna in sogno gli apparve, che tutto lo consolò.
 @VERSE:		
-Giacea la mia virtù vinta, e smarrita
+	Giacea la mia virtù vinta, e smarrita
 	Nel duol, ch' è sempre in sua ragion piu forte;
 	Quando pietosa di sì dura sorte,
 	Venne in sogno Madonna, à darle aita.
 @VERSE:
-E ristorò gli spirti, e ’n me sopita
+	E ristorò gli spirti, e ’n me sopita
 	La doglia, à nova speme aprì le porte:
 	E così ne l’imagine di Morte,
 	Trovò l’egro mio cor salute, e vita:
 @VERSE:
-Ella volgendo in me gli occhi in dolci giri,
+	Ella volgendo in me gli occhi in dolci giri,
 	Parea che mi dicesse. à che pur tanto,
 	O mio fedel, t’affliggi, e ti consumi?
 @VERSE:
-E perche non fai tregua a’ tuoi sospiri,
+	E perche non fai tregua a’ tuoi sospiri,
 	E ’n queste amate luci, asciughi il pianto?
 	Speri forse  d’aver più fidi lumi?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0028
 @ID:		S169
 @TYPE:		print
@@ -545,24 +553,24 @@ E perche non fai tregua a’ tuoi sospiri,
 @PAGE:		RIME DEL TASSO AMOROSE. P. I., 39
 @PARATEXT:	Sogno felice.
 @VERSE:		
-Giacea la mia virtù vinta, e smarrita
+	Giacea la mia virtù vinta, e smarrita
 	Nel duol, ch' è sempre in sua ragion più forte:
 	Quando pietosa di si dura sorte,
 	Venne in sogno madonna, a darle aita,
 @VERSE:
-E ristorò gli spirti, e ’n me sopita
+	E ristorò gli spirti, e ’n me sopita
 	La doglia a nova speme aprì le porte:
 	E cosi ne l’imagine di Morte,
 	Trovò l’egro mio cor salute, e vita:
 @VERSE:
-Ella volgendo gli occhi in dolci giri,
+	Ella volgendo gli occhi in dolci giri,
 	Parea, che mi dicesse, a che pur tanto,
 	O mio fedel t’affliggi, e ti consumi?
 @VERSE:
-E perche non fai tregua a’ tuoi sospiri,
+	E perche non fai tregua a’ tuoi sospiri,
 	E ’n queste amate luci, asciughi il pianto?
 	Speri forse  d’haver più fidi lumi?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -573,19 +581,21 @@ E perche non fai tregua a’ tuoi sospiri,
 @PAGE:		7-10 [i.e., 7-8]
 @PARATEXT:	
 @VERSE:		
-Giacea la mia virtù vinta e smarita
+	Giacea la mia virtù vinta e smarita
 	Dal duol in sua ragion sempre piu forte
 	Quando il sonno pietoso di mia sorte
 	Seco addusse Madonna à darli aita
-Che sollevò gli spirti e in me sopita
+@VERSE:
+	Che sollevò gli spirti e in me sopita
 	[TACET]
 	Cosi alhor nell'imagine di morte
 	Trovò l’egro mio cuor salute e vita.
 @VERSE:
-Volgea ella in me gl'occhi e le parole
+	Volgea ella in me gl'occhi e le parole
 	[TACET] A che pur tanto
 	O mio fedel t’affliggi e ti consumi
-Ben temp'ancor verrà ch'al chiaro sole
+@VERSE:
+	Ben temp'ancor verrà ch'al chiaro sole
 	Di quest'amate luci asciughi il pianto
 	E'l fosco di tua vita in lui rallumi.	
 @@END: VARIORUM
@@ -599,19 +609,21 @@ Ben temp'ancor verrà ch'al chiaro sole
 @PAGE:		7-10 [i.e., 7-8]
 @PARATEXT:	
 @VERSE:		
-Giacea la mia virtù vinta e smarita
+	Giacea la mia virtù vinta e smarita
 	Dal duol ch'in sua ragion sempre piu forte
 	Quando il sonno pietoso di mia sorte
 	Seco addusse Madonna à darli aita
-Che sollevò gli spirti e in me sopita
+@VERSE:
+	Che sollevò gli spirti e in me sopita
 	[TACET]
 	Cosi alhor nell'imagine di morte
 	Trovò l’egro mio cor salute e vita.
 @VERSE:
-Volgea ella in me gl'occhi
+	Volgea ella in me gl'occhi
 	Di pietà vera ardenti A che pur tanto
 	O mio fedel t’affliggi e ti consumi
-Ben temp'ancor verrà ch'al chiaro sole
+@VERSE:
+	Ben temp'ancor verrà ch'al chiaro sole
 	Di quest'amate luci asciughi il pianto
 	E'l fosco di tua vita in lui rallumi.		
 @@END: VARIORUM
@@ -625,19 +637,21 @@ Ben temp'ancor verrà ch'al chiaro sole
 @PAGE:		7-8 7-10 [i.e., 7-8]
 @PARATEXT:	
 @VERSE:		
-Giacea la mia virtù vinta e smarita
+	Giacea la mia virtù vinta e smarita
 	Dal duol ch'in sua ragion sempre piu forte
 	Quando il sonno pietoso di mia sorte
 	Seco addusse Madonna à darli aita
-[TACET]
+@VERSE:
+	[TACET]
 	La doglia a nova speme aprio le porte
 	Cosi alhor nell'imagine di morte
 	Trovò l’egro mio cor salute e vita.
 @VERSE:
-[TACET]
+	[TACET]
 	Di pietà vera ardenti A che pur tanto
 	O mio fedel t’affliggi e ti consumi
-Ben temp'ancor verrà ch'al chiaro sole
+@VERSE:
+	Ben temp'ancor verrà ch'al chiaro sole
 	Di quest'amate luci asciughi il pianto
 	E'l fosco di tua vita in lui rallumi.		
 @@END: VARIORUM
@@ -651,19 +665,21 @@ Ben temp'ancor verrà ch'al chiaro sole
 @PAGE:		7-10 [i.e., 7-8]
 @PARATEXT:	
 @VERSE:		
-Giacea la mia virtù vinta e smarita
+	Giacea la mia virtù vinta e smarita
 	Dal duol in sua ragion sempre piu forte
 	[TACET]
 	Seco addusse Madonna à darli aita
-[TACET]
+@VERSE:
+	[TACET]
 	La doglia a nova speme aprio le porte
 	Cosi alhor nell'imagine di morte
 	Trovò l’egro mio cuor salute e vita.
 @VERSE:
-[TACET]
+	[TACET]
 	Di pietà vera ardenti A che pur tanto
 	O mio fedel t’affliggi e ti consumi
-Ben temp'ancor verrà ch'al chiaro sole
+@VERSE:
+	Ben temp'ancor verrà ch'al chiaro sole
 	Di quest'amate luci asciughi il pianto
 	E'l fosco di tua vita in lui rallumi.		
 @@END: VARIORUM
@@ -677,21 +693,24 @@ Ben temp'ancor verrà ch'al chiaro sole
 @PAGE:		7-10 [i.e., 7-8]
 @PARATEXT:	
 @VERSE:		
-Giacea la mia virtù vinta e smarita
+	Giacea la mia virtù vinta e smarita
 	Dal duol ch'in sua ragion sempre piu forte
 	Quando il sonno pietoso di mia sorte
 	[TACET]
-Che sollevò gli spirti e in me sopita
+@VERSE:
+	Che sollevò gli spirti e in me sopita
 	La doglia a nova speme aprio le porte
 	Cosi alhor nell'imagine di morte
 	Trovò l’egro mio cor salute e vita.
 @VERSE:
-Volgea ella in me gl'occhi e le parole
+	Volgea ella in me gl'occhi e le parole
 	Di pietà vera ardenti A che pur tanto
 	O mio fedel t’affliggi e ti consumi
-Ben temp'ancor verrà ch'al chiaro sole
+@VERSE:
+	Ben temp'ancor verrà ch'al chiaro sole
 	Di quest'amate luci asciughi il pianto
 	E'l fosco di tua vita in lui rallumi.			
 @@END: VARIORUM
+
 
 

@@ -16,6 +16,14 @@ vtsg:
 vtec:
 	cat Tec*.aton Trt*.aton Tri*.aton | bin/aton2variorum -r other
 
+cc: clean-check
+check-clean: clean-check
+clean-check:
+	bin/cleanit
+
+clean:
+	bin/cleanit -w
+
 
 t: template
 templates: template

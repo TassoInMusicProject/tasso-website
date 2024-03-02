@@ -1,0 +1,142 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Fri Mar  1 19:59:55 PST 2024
+# Last Modified: Fri Mar  1 19:59:59 PST 2024
+# Filename:      cleanFormatting
+# Syntax:        perl 5
+#
+# Description:   Clean formatting of ATON files for poem variants.
+#                Old file will be written over with reformatted content.
+#                Files with no formatting problems will not be rewritten.
+#
+
+use strict;
+use Getopt::Long;
+
+# $write == write changes to files (default is just display
+# changes that will be written to files).
+my $writeQ = 0;
+
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'w|write' => \$writeQ
+);
+
+my @files = sort glob("*.aton");
+
+foreach my $file (@files) {
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	chomp @contents;
+	close FILE;
+	my $changedQ = 0;
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		if ($line =~ /^[A-Za-z]/) {
+			# Indent poetic lines by one tab.
+			# Sometimes verses are not encoded correctly using @VERSE:, and indentation
+			# is used to indicate multiple verses.  Leave these case for manual correct.
+			$line = "\t$line";
+			$changedQ = 1;
+			warn "INDENT LINE $i in $file: $line\n";
+		}
+		if ($line =~ /^[.[]/) {
+			# Indent poetic lines by one tab (lines starting with "[", suc as "[TACET]".
+			# Also cases where the poetic line starts with "." (for a name).
+			$line = "\t$line";
+			$changedQ = 1;
+			warn "INDENT LINE $i in $file: $line\n";
+		}
+		if ($line =~ /:\t+VARIORUM/) {
+			# Remove tabs from "@@BEGIN: VARIORUM" and "@@END: VARIORUM".
+			$line =~ s/:\t+VARIORUM/: VARIORUM/;
+			$changedQ = 1;
+			warn "CLEAN VARIORUM SPACING FOR LINE $i in $file: $line\n";
+		}
+		if ($line =~ /:\s\s+VARIORUM/) {
+			# Remove extra spaces/tabs from "@@BEGIN: VARIORUM" and "@@END: VARIORUM".
+			$line =~ s/:\s\s+VARIORUM/: VARIORUM/;
+			$changedQ = 1;
+			warn "CLEAN VARIORUM SPACING B FOR LINE $i in $file: $line\n";
+		}
+		if ($line =~ /[^:\s]\s+$/) {
+			# If a line ends in a non-colon character and whitespace, remove
+			# the whitespace (tabs are preserved in other cases to align
+			# the parameters valus to make them easier to read).
+			$line =~ s/\s*$//;
+			$changedQ = 1;
+			warn "CLEANED TERMINAL SPACES in $file for LINE $i: $line\n";
+		}
+
+		# Add two blank lines before any @@BEGIN: VARIORUM":
+		if ($i>2 and $line =~ /$\@\@BEGIN:\s*VARIORUM\s*$/) {
+			if (($contents[$i-1] !~ /^\s*$/) and ($contents[$i-2] !~ /^\s*$/)) {
+				# Need to add two blank lines:
+				$contents[$i-1] .= "\n\n";
+				$changedQ = 1;
+				warn "ADDING TWO BLANK LINES ABOVE BEGIN:VARIORUM in $file at line $i\n";
+			} elsif (($contents[$i-1] =~ /^\s*$/) and ($contents[$i-2] !~ /^\s*$/)) {
+				# Need to add one blank line:
+				$contents[$i-1] .= "\n";
+				$changedQ = 1;
+				warn "ADDING ONE BLANK LINE ABOVE BEGIN:VARIORUM in $file at line $i\n";
+			}
+		}
+
+		if ($line =~ /^\t\t+/) {
+			$line =~ s/^\t+/\t/;
+			$changedQ = 1;
+			warn "Removed double tabbing in $file on LINE $i: $line\n";
+		}
+
+		if ($line =~ /^\s+\@/) {
+			$line = s/^\s+//;
+			$changedQ = 1;
+			warn "REMOVED LEADING SPACES in $file for LINE $i: $line\n";
+		}
+
+		# No spaces at the ends of lines:
+		if ($line =~ / +$/) {
+			$line =~ s/ +$//;
+			$changedQ = 1;
+			warn "REMOVING TERMINAL SPACES in $file on LINE $i: $line\n";
+		}
+
+		if ($line =~ /^\@VERSE:\s*([^\s].*)\s*$/) {
+			$line = "\@VERSE:\n$1";
+			$changedQ = 1;
+			warn "MOVING FIRST LINE OF VERSE ONTO SEPARATE LINE in $file at LINE $i: $line\n";
+		}
+
+		# Convert empty lines with spaces into truly empty line:
+		if ($line =~ /^\s+$/) {
+			$line =~ s/^\s+$//;
+			$changedQ = 1;
+			warn "REMOVING SPACE ON BLANK LINE $i in $file: $line\n"
+		}
+
+		# No spaces for indents:
+		if ($line =~ /^ +/) {
+			$line =~ s/^\s+/\t/;
+			$changedQ = 1;
+			warn "CONVERTING SPACE INDENT TO TAB INDENT in $file on LINE $i: $line\n"
+		}
+
+		# Other things to fix:
+		# (1) do not allow tabs inside of poetic line (related to name prefixes on line).
+
+		$contents[$i] = $line;
+	}
+	if ($writeQ and $changedQ) {
+		warn "Updating file $file\n";
+		open (FILE, ">$file") or die "Cannot write to $file\n";
+		for (my $i=0; $i<@contents; $i++) {
+			print FILE "$contents[$i]\n";
+		}
+		close FILE;
+	}
+}
+
+
+

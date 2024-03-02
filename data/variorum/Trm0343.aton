@@ -1,3 +1,13 @@
+@ Meaning of the parameters:
+@ CATALOGNUM == Tasso in Music Project ID for the work.
+@ COMPOSER   == Composer of the music if a musical source.
+@ ID         == Literary ID of Solerti, or Tasso ID of specific musical setting.
+@ PAGE       == Page number in source for the poem or musical setting.
+@ PARATEXT   == Parenthetical text in the source.
+@ SMSIGLUM   == Solerti manuscript siglum.
+@ SPRINT:    == Solerti print number (for library sources).
+@ TYPE       == manuscript/print/music
+@ VERSE      == Demarcates poetic verses.
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343

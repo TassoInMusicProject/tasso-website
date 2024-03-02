@@ -44,6 +44,7 @@ list:
 
 
 diff:
+	mkdir -p diff-input
 	for i in *.aton; \
 	do \
 		bin/diffmark $$i > diff-input/`basename $$i .aton`.txt; \

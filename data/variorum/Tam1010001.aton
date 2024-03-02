@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1010001
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,14 +51,14 @@
 @PAGE:		6r
 @PARATEXT:	 ATTO PRIMO SCENA PRIMA DAFNE SILVIA
 @VERSE:		
-.D[AFNE]. Vorai dunque pur Silvia
-Da i piaceri di Venere lontana
-Menarne tu questa tua giovinezza?
-Ne il dolce nome di madre udirai?
-Ne intorno ti vedrai vezzosamente
-Scherzar i figli pargoletti? ah cangia
-Cangia prego consiglio,
-Pazzarella che sei.		
+	.D[AFNE]. Vorai dunque pur Silvia
+	Da i piaceri di Venere lontana
+	Menarne tu questa tua giovinezza?
+	Ne il dolce nome di madre udirai?
+	Ne intorno ti vedrai vezzosamente
+	Scherzar i figli pargoletti? ah cangia
+	Cangia prego consiglio,
+	Pazzarella che sei.		
 @@END: VARIORUM
 
 
@@ -71,7 +69,6 @@ Pazzarella che sei.
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -84,7 +81,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -96,7 +92,7 @@ Pazzarella che sei.
 @PAGE:		9r
 @PARATEXT:	ATTO PRIMO. DAFNE, E SILVIA.
 @VERSE:		
-D.	VORRAI dunque pur Silvia, dai piaceri,
+	D. VORRAI dunque pur Silvia, dai piaceri,
 	Dai piaceri di Venere lontana,
 	Menarne tu, questa tua giovinezza,
 	Ne il dolce nome di madre udirai,
@@ -127,14 +123,14 @@ D.	VORRAI dunque pur Silvia, dai piaceri,
 @PAGE:		7
 @PARATEXT:	 ATTO PRIMO SCENA PRIMA. Dafne. Silvia.
 @VERSE:		
-Vorai dunque pur, Silvia,
-Da i piaceri di Venere lontana
-Menarne tu questa tua giovanezza?
-Ne'l dolce nome di madre udirai,
-Ne intorno ti vedrai vezzosamente
-Scherzar i figli pargoletti? ah cangia,
-Cangia (prego) consiglio,
-Pazzarella che sei.			
+	Vorai dunque pur, Silvia,
+	Da i piaceri di Venere lontana
+	Menarne tu questa tua giovanezza?
+	Ne'l dolce nome di madre udirai,
+	Ne intorno ti vedrai vezzosamente
+	Scherzar i figli pargoletti? ah cangia,
+	Cangia (prego) consiglio,
+	Pazzarella che sei.			
 @@END: VARIORUM
 
 
@@ -145,7 +141,6 @@ Pazzarella che sei.
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -158,8 +153,8 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1010001
 @ID:		A-1581O
@@ -168,14 +163,14 @@ Pazzarella che sei.
 @PAGE:		17
 @PARATEXT:	ATTO PRIMO. SCENA PRIMA. Dafne. Silvia.
 @VERSE:		
-Vorrai dunque pur, Silvia,
-Dai piaceri di Venere lontana
-Menarne tu questa tua giovanezza?
-Ne'l dolce nome di madre udirai,
-Ne intorno ti vedrai vezzosamente
-Scherzare i figli pargoletti? ah cangia,
-Cangia (prego) consiglio,
-Pazzarella che sei.
+	Vorrai dunque pur, Silvia,
+	Dai piaceri di Venere lontana
+	Menarne tu questa tua giovanezza?
+	Ne'l dolce nome di madre udirai,
+	Ne intorno ti vedrai vezzosamente
+	Scherzare i figli pargoletti? ah cangia,
+	Cangia (prego) consiglio,
+	Pazzarella che sei.
 @@END:		VARIORUM
 
 
@@ -186,7 +181,6 @@ Pazzarella che sei.
 @SPRINT:	A-1581V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -199,7 +193,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -210,7 +203,6 @@ Pazzarella che sei.
 @SPRINT:	A-1583M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -223,7 +215,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -234,7 +225,6 @@ Pazzarella che sei.
 @SPRINT:	A-1584A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -247,7 +237,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -258,7 +247,6 @@ Pazzarella che sei.
 @SPRINT:	A-1585V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -271,7 +259,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -282,7 +269,6 @@ Pazzarella che sei.
 @SPRINT:	A-1588B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -295,7 +281,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -306,7 +291,6 @@ Pazzarella che sei.
 @SPRINT:	A-1589V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -319,7 +303,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -330,7 +313,6 @@ Pazzarella che sei.
 @SPRINT:	A-1590Mv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -343,7 +325,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -354,7 +335,6 @@ Pazzarella che sei.
 @SPRINT:	A-1591W
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -367,7 +347,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -378,7 +357,6 @@ Pazzarella che sei.
 @SPRINT:	A-1596B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -391,7 +369,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -402,7 +379,6 @@ Pazzarella che sei.
 @SPRINT:	A-1599Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -415,7 +391,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -426,7 +401,6 @@ Pazzarella che sei.
 @SPRINT:	A-1600R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -439,7 +413,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -450,7 +423,6 @@ Pazzarella che sei.
 @SPRINT:	A-1601Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -463,7 +435,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -474,7 +445,6 @@ Pazzarella che sei.
 @SPRINT:	A-1603Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -487,7 +457,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -498,7 +467,6 @@ Pazzarella che sei.
 @SPRINT:	A-1603Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -511,7 +479,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -522,7 +489,6 @@ Pazzarella che sei.
 @SPRINT:	A-1606Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -535,7 +501,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -546,7 +511,6 @@ Pazzarella che sei.
 @SPRINT:	A-1608DP
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -559,7 +523,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -570,7 +533,6 @@ Pazzarella che sei.
 @SPRINT:	A-1609Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -583,7 +545,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -594,7 +555,6 @@ Pazzarella che sei.
 @SPRINT:	A-1611D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -607,7 +567,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -618,7 +577,6 @@ Pazzarella che sei.
 @SPRINT:	A-1617D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -631,7 +589,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -642,7 +599,6 @@ Pazzarella che sei.
 @SPRINT:	A-1619D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -655,7 +611,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -666,7 +621,6 @@ Pazzarella che sei.
 @SPRINT:	A-1620V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -679,7 +633,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -690,7 +643,6 @@ Pazzarella che sei.
 @SPRINT:	A-1623A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -703,7 +655,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -714,7 +665,6 @@ Pazzarella che sei.
 @SPRINT:	A-1624S
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -727,7 +677,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -738,7 +687,6 @@ Pazzarella che sei.
 @SPRINT:	A-1625U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -751,7 +699,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -762,7 +709,6 @@ Pazzarella che sei.
 @SPRINT:	A-1632D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -775,7 +721,6 @@ Pazzarella che sei.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -787,14 +732,14 @@ Pazzarella che sei.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Vorrai dunque pur Silvia
-da’ piaceri di Venere lontana
-menarne tù questa tua giovanezza
-nel dolce nome di Madre udirai
-ne intorno ti vedrai Vezzosamente
-scherzar i Figli Pargoletti ah cangia
-cangia prego consiglio,
-pazzarella che sei.	
+	Vorrai dunque pur Silvia
+	da’ piaceri di Venere lontana
+	menarne tù questa tua giovanezza
+	nel dolce nome di Madre udirai
+	ne intorno ti vedrai Vezzosamente
+	scherzar i Figli Pargoletti ah cangia
+	cangia prego consiglio,
+	pazzarella che sei.	
 @@END: VARIORUM
 
 
@@ -806,14 +751,15 @@ pazzarella che sei.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Vorrai dunque pur Silvia
-da’ piaceri di Venere lontana
-menarne tù questa tua giovanezza
-nel dolce nome di Madre udirai
-ne intorno ti vedrai Vezzosamente
-scherzar [TACET] ah cangia
-cangia prego consiglio,
-pazzarella che sei.		
+	Vorrai dunque pur Silvia
+	da’ piaceri di Venere lontana
+	menarne tù questa tua giovanezza
+	nel dolce nome di Madre udirai
+	ne intorno ti vedrai Vezzosamente
+	scherzar [TACET] ah cangia
+	cangia prego consiglio,
+	pazzarella che sei.		
 @@END: VARIORUM
+
 
 

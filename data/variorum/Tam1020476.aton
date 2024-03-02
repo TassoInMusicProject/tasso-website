@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020476
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,16 +51,16 @@
 @PAGE:		16r
 @PARATEXT:	
 @VERSE:		
-E fatto (non so come) astuto, e scaltro
-Più de l’usato guarda quanto Amore
-Aguzza l’intelletto mi sovenne
-D’un inganno gentil,e co’l qual io
-Recar potessi à fine il mio talento
-Che fingendo che un Ape havesse morso
-Il mio labro di sotto incominciai
-A lamentarmi di cotal maniera
-Che quella medicina, che la lingua 
-Non richiedeva il volto richiedeva		
+	E fatto (non so come) astuto, e scaltro
+	Più de l’usato guarda quanto Amore
+	Aguzza l’intelletto mi sovenne
+	D’un inganno gentil,e co’l qual io
+	Recar potessi à fine il mio talento
+	Che fingendo che un Ape havesse morso
+	Il mio labro di sotto incominciai
+	A lamentarmi di cotal maniera
+	Che quella medicina, che la lingua
+	Non richiedeva il volto richiedeva		
 @@END: VARIORUM
 
 
@@ -73,7 +71,6 @@ Non richiedeva il volto richiedeva
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -86,8 +83,9 @@ Non richiedeva il volto richiedeva
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020476
 @ID:		A-1580D
@@ -96,7 +94,7 @@ Non richiedeva il volto richiedeva
 @PAGE:		16v
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	E fatto, e non sò,  come, astuto e scaltro,
+	A. E fatto, e non sò,  come, astuto e scaltro,
 	Più de l’usato (guarda quanto Amore
 	Aguzza l’intelletto) mi sovenne
 	D’un inganno gentile, col qual'io
@@ -104,7 +102,7 @@ A.	E fatto, e non sò,  come, astuto e scaltro,
 	Che, fingendo, ch'un ape havesse morso
 	Il mio labbro disotto, incominciai
 	A lamentarmi di cotal maniera,
-	Che quella medicina, che la lingua 
+	Che quella medicina, che la lingua
 	Non richiedeva, il volto il richiedeva.
 @@END:		VARIORUM
 
@@ -117,7 +115,6 @@ A.	E fatto, e non sò,  come, astuto e scaltro,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -129,16 +126,16 @@ A.	E fatto, e non sò,  come, astuto e scaltro,
 @PAGE:		30
 @PARATEXT:	
 @VERSE:		
-E, fatto non so come astuto, e scaltro
-Più de l’usato (guarda quanto Amore
-Aguzza l’intelletto) mi sovvenne
-D’un inganno gentile, co’l qual'io
-Recar potessi a fine il mio talento:
-Che, fingendo, ch'un'Ape havesse morso
-Il mio labbro di sotto, incominciai
-A lamentarmi di cotal maniera,
-Che quella medicina, che la lingua 
-Non richiedeva, il volto il richiedeva:	
+	E, fatto non so come astuto, e scaltro
+	Più de l’usato (guarda quanto Amore
+	Aguzza l’intelletto) mi sovvenne
+	D’un inganno gentile, co’l qual'io
+	Recar potessi a fine il mio talento:
+	Che, fingendo, ch'un'Ape havesse morso
+	Il mio labbro di sotto, incominciai
+	A lamentarmi di cotal maniera,
+	Che quella medicina, che la lingua
+	Non richiedeva, il volto il richiedeva:	
 @@END: VARIORUM
 
 
@@ -149,7 +146,6 @@ Non richiedeva, il volto il richiedeva:
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -162,8 +158,9 @@ Non richiedeva, il volto il richiedeva:
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020476
 @ID:		A-1581O
@@ -172,7 +169,7 @@ Non richiedeva, il volto il richiedeva:
 @PAGE:		30
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	E, fatto non so come astuto, e scaltro
+	AM. E, fatto non so come astuto, e scaltro
 	Più de l’usato (guarda, quanto Amore
 	Aguzza l’intelletto) mi sovvenne
 	D’un inganno gentile, co’l qual'io
@@ -180,7 +177,7 @@ AM.	E, fatto non so come astuto, e scaltro
 	Che, fingendo, ch' un'ape havesse morso
 	Il mio labbro di sotto, incominciai
 	A lamentarmi di cotal maniera,
-	Che quella medicina, che la lingua 
+	Che quella medicina, che la lingua
 	Non richiedeva, il volto il richiedeva:
 @@END:		VARIORUM
 
@@ -193,7 +190,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -204,7 +200,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1582B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -217,7 +212,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -228,7 +222,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1583V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -241,7 +234,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -252,7 +244,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1585C
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -265,7 +256,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -276,7 +266,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1585Vbis
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -289,7 +278,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -300,7 +288,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1589M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -313,7 +300,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -324,7 +310,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1590Mb
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -337,7 +322,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -348,7 +332,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1591M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -361,7 +344,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -372,7 +354,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1592B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -385,7 +366,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -396,7 +376,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1596M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -409,7 +388,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -420,7 +398,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1599Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -433,7 +410,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -444,7 +420,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1601Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -457,7 +432,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -468,7 +442,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1602B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -481,7 +454,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -492,7 +464,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1603Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -505,7 +476,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -516,7 +486,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1605R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -529,7 +498,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -540,7 +508,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1608D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -553,7 +520,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -564,7 +530,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1609Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -577,7 +542,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -588,7 +552,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1609Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -601,7 +564,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -612,7 +574,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1614GT
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -625,7 +586,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -636,7 +596,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1618B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -649,7 +608,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -660,7 +618,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1619I
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -673,7 +630,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -684,7 +640,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1622D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -697,7 +652,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -708,7 +662,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1624M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -721,7 +674,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -732,7 +684,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1624T
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -745,7 +696,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -756,7 +706,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1628U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -769,7 +718,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -780,7 +728,6 @@ AM.	E, fatto non so come astuto, e scaltro
 @SPRINT:	A-1634R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -793,16 +740,16 @@ AM.	E, fatto non so come astuto, e scaltro
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-E fatto non sò com’ astuto e scaltro
-Più de l’usato (Guarda quanto amor’
-aguzza l’intelletto) mi sovenne
-D’un’inganno gentile co’l qual’io
-Recar potessi a fine il mio talento
-Che fingendo ch’un’ape havesse morso
-Il mio labro di sotto incominciai
-A lamentarmi di cotal maniera
-Che quella medicina che la lingua 
-Non richiedeva il volto richiedeva.	
+	E fatto non sò com’ astuto e scaltro
+	Più de l’usato (Guarda quanto amor’
+	aguzza l’intelletto) mi sovenne
+	D’un’inganno gentile co’l qual’io
+	Recar potessi a fine il mio talento
+	Che fingendo ch’un’ape havesse morso
+	Il mio labro di sotto incominciai
+	A lamentarmi di cotal maniera
+	Che quella medicina che la lingua
+	Non richiedeva il volto richiedeva.	
 @@END: VARIORUM
 
 
@@ -814,16 +761,16 @@ Non richiedeva il volto richiedeva.
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-E fatto non sò com’ astuto e scaltro
-Più de l’usato [TACET] 
-[TACET] Mi sovenne
-d’un’inganno gentile Co’l qual’io
-recar potessi a fine il mio talento
-[TACET]
-[TACET] Incominciai
-a lamentarmi di cotal maniera
-Che quella medicina che la lingua 
-non richiedeva Il volto richiedeva.
+	E fatto non sò com’ astuto e scaltro
+	Più de l’usato [TACET]
+	[TACET] Mi sovenne
+	d’un’inganno gentile Co’l qual’io
+	recar potessi a fine il mio talento
+	[TACET]
+	[TACET] Incominciai
+	a lamentarmi di cotal maniera
+	Che quella medicina che la lingua
+	non richiedeva Il volto richiedeva.
 @@END: VARIORUM
 
 
@@ -835,16 +782,17 @@ non richiedeva Il volto richiedeva.
 @PAGE:	10	
 @PARATEXT:	
 @VERSE:		
-E fatto non sò com’ astuto e scaltro
-[TACET] (Guarda quanto amor’
-aguzza l’intelletto) mi sovenne
-D’un’inganno gentile co’l qual’io
-Recar potessi à fine il mio talento
-Che fingendo ch’un’ape havesse morso
-Il mio labro di sotto incominciai
-A lamentarmi di cotal maniera
-Che quella medicina che la lingua 
-Non richiedeva il volto richiedeva.
+	E fatto non sò com’ astuto e scaltro
+	[TACET] (Guarda quanto amor’
+	aguzza l’intelletto) mi sovenne
+	D’un’inganno gentile co’l qual’io
+	Recar potessi à fine il mio talento
+	Che fingendo ch’un’ape havesse morso
+	Il mio labro di sotto incominciai
+	A lamentarmi di cotal maniera
+	Che quella medicina che la lingua
+	Non richiedeva il volto richiedeva.
 @@END: VARIORUM
+
 
 

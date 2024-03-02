@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020486
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,14 +51,14 @@
 @PAGE:		16v
 @PARATEXT:	
 @VERSE:		
-La semplicetta Silvia
-Pietosa del mio male
-S'offri di dare aita
-A la finta ferita (ahi lasso) e fece
-Piu cupa e più mortale
-La mia piaga verace
-Quando le labra sue
-Giunse à le labria mie			
+	La semplicetta Silvia
+	Pietosa del mio male
+	S'offri di dare aita
+	A la finta ferita (ahi lasso) e fece
+	Piu cupa e più mortale
+	La mia piaga verace
+	Quando le labra sue
+	Giunse à le labria mie			
 @@END: VARIORUM
 
 
@@ -71,7 +69,6 @@ Giunse à le labria mie
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -84,8 +81,9 @@ Giunse à le labria mie
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020486
 @ID:		A-1580D
@@ -94,7 +92,7 @@ Giunse à le labria mie
 @PAGE:		16v
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	La semplicetta Silvia,
+	A. La semplicetta Silvia,
 	Pietosa del mio male,
 	S'offrì di dare aita
 	A la finta ferita, ahi lasso, e fece,
@@ -113,7 +111,6 @@ A.	La semplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -125,14 +122,14 @@ A.	La semplicetta Silvia,
 @PAGE:		30-31
 @PARATEXT:	
 @VERSE:		
-La simplicetta Silvia,
-Pietosa del mio male,
-S'offrì di dare aita
-A la finta ferita, ahi lasso, e fece
-Piu cupa, e piu mortale
-La mia piaga verace,
-Quando le labra sue
-Giunse à le labra mie.	
+	La simplicetta Silvia,
+	Pietosa del mio male,
+	S'offrì di dare aita
+	A la finta ferita, ahi lasso, e fece
+	Piu cupa, e piu mortale
+	La mia piaga verace,
+	Quando le labra sue
+	Giunse à le labra mie.	
 @@END: VARIORUM
 
 
@@ -143,7 +140,6 @@ Giunse à le labra mie.
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -156,8 +152,9 @@ Giunse à le labra mie.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020486
 @ID:		A-1581O
@@ -166,7 +163,7 @@ Giunse à le labra mie.
 @PAGE:		30
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	La simplicetta Silvia,
+	AM. La simplicetta Silvia,
 	Pietosa del mio male,
 	S'offrì di dar aita
 	A la finta ferita, ahi lasso, e fece
@@ -185,7 +182,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -196,7 +192,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1582B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -209,7 +204,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -220,7 +214,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1583V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -233,7 +226,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -244,7 +236,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1585C
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -257,7 +248,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -268,7 +258,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1585Vbis
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -281,7 +270,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -292,7 +280,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1589M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -305,7 +292,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -316,7 +302,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1590Mb
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -329,7 +314,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -340,7 +324,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1591M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -353,7 +336,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -364,7 +346,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1592B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -377,7 +358,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -388,7 +368,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1596M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -401,7 +380,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -412,7 +390,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1599Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -425,7 +402,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -436,7 +412,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1601Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -449,7 +424,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -460,7 +434,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1602B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -473,7 +446,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -484,7 +456,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1603Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -497,7 +468,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -508,7 +478,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1605R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -521,7 +490,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -532,7 +500,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1608D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -545,7 +512,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -556,7 +522,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1609Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -569,7 +534,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -580,7 +544,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1609Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -593,7 +556,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -604,7 +566,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1614GT
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -617,7 +578,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -628,7 +588,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1618B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -641,7 +600,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -652,7 +610,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1619I
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -665,7 +622,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -676,7 +632,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1622D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -689,7 +644,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -700,7 +654,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1624M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -713,7 +666,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -724,7 +676,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1624T
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -737,7 +688,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -748,7 +698,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1628U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -761,7 +710,6 @@ AM.	La simplicetta Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -772,7 +720,6 @@ AM.	La simplicetta Silvia,
 @SPRINT:	A-1634R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -785,14 +732,14 @@ AM.	La simplicetta Silvia,
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-La semplicetta Silvia
-Pietosa del mio male
-Soffri di dar aita
-A la finta ferita Ahi lasso, [TACET]
-[TACET]
-La mia piaga verace
-Quando le labra sue
-Giunse a le labria mie.	
+	La semplicetta Silvia
+	Pietosa del mio male
+	Soffri di dar aita
+	A la finta ferita Ahi lasso, [TACET]
+	[TACET]
+	La mia piaga verace
+	Quando le labra sue
+	Giunse a le labria mie.	
 @@END: VARIORUM
 
 
@@ -804,14 +751,14 @@ Giunse a le labria mie.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-La semplicetta Silvia
-Pietosa del mio male
-Soffri di dar aita
-A la finta ferita Ahi lasso E fece
-più cupa e più mortale
-La mia piaga verace
-Quando le labra sue
-Giunse a le labria mie.		
+	La semplicetta Silvia
+	Pietosa del mio male
+	Soffri di dar aita
+	A la finta ferita Ahi lasso E fece
+	più cupa e più mortale
+	La mia piaga verace
+	Quando le labra sue
+	Giunse a le labria mie.		
 @@END: VARIORUM
 
 
@@ -823,14 +770,15 @@ Giunse a le labria mie.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-La semplicetta Silvia
-Pietosa del mio male
-Soffri di dar aita
-A la finta ferita Ahi lasso e fece
-più cupa e più mortale
-La mia piaga verace
-Quando le labra sue
-Giunse a le labria mie.	
+	La semplicetta Silvia
+	Pietosa del mio male
+	Soffri di dar aita
+	A la finta ferita Ahi lasso e fece
+	più cupa e più mortale
+	La mia piaga verace
+	Quando le labra sue
+	Giunse a le labria mie.	
 @@END: VARIORUM
+
 
 

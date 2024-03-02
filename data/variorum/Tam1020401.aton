@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020401
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,15 +51,15 @@
 @PAGE:		14r
 @PARATEXT:	
 @VERSE:		
-.A[MINTA]. Essendo io fanciulletto si che a pena
-Giunger potea con la man pargoletta
-A corre i frutti da i pregiati rami
-De gli arboscelli intrinseco divenni
-De la più vaga e cara virginella
-Che mai spiegasse al vento chioma d’oro
-La figliola conosci di Cidippe
-E di Montan richissimo d'armenti
-Silvia honor de le selve ardor de l’alme?		
+	.A[MINTA]. Essendo io fanciulletto si che a pena
+	Giunger potea con la man pargoletta
+	A corre i frutti da i pregiati rami
+	De gli arboscelli intrinseco divenni
+	De la più vaga e cara virginella
+	Che mai spiegasse al vento chioma d’oro
+	La figliola conosci di Cidippe
+	E di Montan richissimo d'armenti
+	Silvia honor de le selve ardor de l’alme?		
 @@END: VARIORUM
 
 
@@ -72,7 +70,6 @@ Silvia honor de le selve ardor de l’alme?
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -85,7 +82,6 @@ Silvia honor de le selve ardor de l’alme?
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020401
@@ -95,7 +91,7 @@ Silvia honor de le selve ardor de l’alme?
 @PAGE:		15r
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	Essend’ io fanciulletto, si, ch’ apena
+	A. Essend’ io fanciulletto, si, ch’ apena
 	Giunger potea con la man pargoletta
 	A corre i frutti dai piegati rami
 	De gli arboscelli, intrinsico divenni
@@ -115,7 +111,6 @@ A.	Essend’ io fanciulletto, si, ch’ apena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -127,15 +122,15 @@ A.	Essend’ io fanciulletto, si, ch’ apena
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Am. Essendo io fanciulletto, si che à pena
-Giunger potea con la man pargoletta
-A corre i frutti da i pregiati rami
-De gli arboscelli, intrinseco divenni
-De la più vaga, e cara Verginella,
-Che mai spiegasse al vento chioma d’oro:
-La figliuola conosci di Cidippe,
-E di Montan ricchissimo d'armenti,
-Silvia honor de le selve, ardor de l’alme.		
+	Am. Essendo io fanciulletto, si che à pena
+	Giunger potea con la man pargoletta
+	A corre i frutti da i pregiati rami
+	De gli arboscelli, intrinseco divenni
+	De la più vaga, e cara Verginella,
+	Che mai spiegasse al vento chioma d’oro:
+	La figliuola conosci di Cidippe,
+	E di Montan ricchissimo d'armenti,
+	Silvia honor de le selve, ardor de l’alme.		
 @@END: VARIORUM
 
 
@@ -146,7 +141,6 @@ Silvia honor de le selve, ardor de l’alme.
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -159,7 +153,6 @@ Silvia honor de le selve, ardor de l’alme.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020401
@@ -169,15 +162,15 @@ Silvia honor de le selve, ardor de l’alme.
 @PAGE:		28
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	Essendo io fanciulletto, sì che à pena
-		Giunger potea con la man pargoletta
-		A corre i frutti da i piegati rami
-		De gli arboscelli, intrinseco divenni
-		De la più vaga, e cara Verginella,
-		Che mai spiegasse al vento chioma d’oro:
-		La figliuola conosci di Cidippe,
-		E di Montan ricchissimo d'armenti,
-		Silvia honor de le selve, ardor de l’alme.
+	AM. Essendo io fanciulletto, sì che à pena
+	Giunger potea con la man pargoletta
+	A corre i frutti da i piegati rami
+	De gli arboscelli, intrinseco divenni
+	De la più vaga, e cara Verginella,
+	Che mai spiegasse al vento chioma d’oro:
+	La figliuola conosci di Cidippe,
+	E di Montan ricchissimo d'armenti,
+	Silvia honor de le selve, ardor de l’alme.
 @@END:		VARIORUM
 
 
@@ -188,7 +181,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1581V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -201,7 +193,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -212,7 +203,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1583M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -225,7 +215,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -236,7 +225,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1584A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -249,7 +237,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -260,7 +247,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1585V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -273,7 +259,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -284,7 +269,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1588B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -297,7 +281,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -308,7 +291,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1589V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -321,7 +303,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -332,7 +313,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1590Mv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -345,7 +325,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -356,7 +335,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1591W
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -369,7 +347,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -380,7 +357,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1596B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -393,7 +369,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -404,7 +379,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1599Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -417,7 +391,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -428,7 +401,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1600R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -441,7 +413,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -452,7 +423,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1601Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -465,7 +435,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -476,7 +445,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1603Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -489,7 +457,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -500,7 +467,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1603Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -513,7 +479,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -524,7 +489,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1606Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -537,7 +501,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -548,7 +511,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1608DP
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -561,7 +523,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -572,7 +533,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1609Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -585,7 +545,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -596,7 +555,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1611D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -609,7 +567,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -620,7 +577,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1617D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -633,7 +589,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -644,7 +599,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1619D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -657,7 +611,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -668,7 +621,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1620V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -681,7 +633,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -692,7 +643,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1623A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -705,7 +655,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -716,7 +665,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1624S
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -729,7 +677,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -740,7 +687,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1625U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -753,7 +699,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -764,7 +709,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @SPRINT:	A-1632D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -777,7 +721,6 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -789,15 +732,15 @@ AM.	Essendo io fanciulletto, sì che à pena
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Essend’ io fanciuletto sì ch’ a pena
-Giunger potea con la man pargoletta
-A corre i frutti da i pregiati rami
-De gl’ arboscelli intrinseco diveni
-De la più vaga e cara verginella
-Che mai spiegasse al vento chioma d’oro
-La figliola conosci di Cidippe
-[TACET]
-Silvia honor de le selve ardor de l’alme.
+	Essend’ io fanciuletto sì ch’ a pena
+	Giunger potea con la man pargoletta
+	A corre i frutti da i pregiati rami
+	De gl’ arboscelli intrinseco diveni
+	De la più vaga e cara verginella
+	Che mai spiegasse al vento chioma d’oro
+	La figliola conosci di Cidippe
+	[TACET]
+	Silvia honor de le selve ardor de l’alme.
 @@END: VARIORUM
 
 
@@ -809,15 +752,15 @@ Silvia honor de le selve ardor de l’alme.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Essend’ io fanciuletto sì ch’ a pena
-Giunger potea con la man pargoletta
-A corre i frutti da i pregiati rami
-De gl’ arboscell’ intrinseco diveni
-De la più cara e vaga verginella
-Che mai spiegasse al vento chioma d’oro
-[TACET]
-E di Montan richissimi d’armenti
-Silvia honor de le selve ardor de l’alme.
+	Essend’ io fanciuletto sì ch’ a pena
+	Giunger potea con la man pargoletta
+	A corre i frutti da i pregiati rami
+	De gl’ arboscell’ intrinseco diveni
+	De la più cara e vaga verginella
+	Che mai spiegasse al vento chioma d’oro
+	[TACET]
+	E di Montan richissimi d’armenti
+	Silvia honor de le selve ardor de l’alme.
 @@END: VARIORUM
 
 
@@ -829,15 +772,16 @@ Silvia honor de le selve ardor de l’alme.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Essend’ io fanciuletto sì ch’ a pena
-Giunger potea con la man pargoletta
-A corre i frutti da i pregiati rami
-De gl’ arboscell’ intrinseco diveni
-De la più vaga e cara verginella
-Che mai spiegasse al vento chioma d’oro
-La figliola conosci di Cidippe
-[TACET]
-Silvia honor de le selve ardor de l’alme.
+	Essend’ io fanciuletto sì ch’ a pena
+	Giunger potea con la man pargoletta
+	A corre i frutti da i pregiati rami
+	De gl’ arboscell’ intrinseco diveni
+	De la più vaga e cara verginella
+	Che mai spiegasse al vento chioma d’oro
+	La figliola conosci di Cidippe
+	[TACET]
+	Silvia honor de le selve ardor de l’alme.
 @@END: VARIORUM
+
 
 

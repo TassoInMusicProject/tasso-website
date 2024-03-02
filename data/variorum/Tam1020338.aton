@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,25 +51,25 @@
 @PAGE:		12v-13r
 @PARATEXT:	SCENA SECONDA. AMINTA TIRSI.
 @VERSE:		
-.A[MINTA]. Ho visto al pianto mio
-Risponder per pietate i sassi e l’onde
-E sospirar le fronde
-Ho visto al pianto mio:
-Ma non ho visto mai,
-Ne spero di vedere
-Compassion ne la crudele e bella
-Che non so s'io mi chiami ò donna ò fera
-Ma niega d’esser donna
-Poiche nega pietate
-À chi non la negaro
-Le cose inanimate
-.T[IRSI]. Pasce l’Agna l’herbette il Lupo l’Agno
-Ma'l crudo Amor di lagrime si pasce
-Ne se ne mostra mai sattollo .A[MINTA]. A lasso 
-Ch'Amor satollo e del mio pianto homai
-E solo ha sete del mio sangue e tosto
-Voglio ch’egl’e quest’empia il sangue mio
-Bevan con gli occhi.				
+	.A[MINTA]. Ho visto al pianto mio
+	Risponder per pietate i sassi e l’onde
+	E sospirar le fronde
+	Ho visto al pianto mio:
+	Ma non ho visto mai,
+	Ne spero di vedere
+	Compassion ne la crudele e bella
+	Che non so s'io mi chiami ò donna ò fera
+	Ma niega d’esser donna
+	Poiche nega pietate
+	À chi non la negaro
+	Le cose inanimate
+	.T[IRSI]. Pasce l’Agna l’herbette il Lupo l’Agno
+	Ma'l crudo Amor di lagrime si pasce
+	Ne se ne mostra mai sattollo .A[MINTA]. A lasso
+	Ch'Amor satollo e del mio pianto homai
+	E solo ha sete del mio sangue e tosto
+	Voglio ch’egl’e quest’empia il sangue mio
+	Bevan con gli occhi.				
 @@END: VARIORUM
 
 
@@ -82,7 +80,6 @@ Bevan con gli occhi.
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -95,9 +92,10 @@ Bevan con gli occhi.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
 @ID:		A-1580D
 @TYPE:		print
@@ -105,7 +103,7 @@ Bevan con gli occhi.
 @PAGE:		14r
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	Ho visto al pianto mio,
+	A. Ho visto al pianto mio,
 	Risponder per pietade i sassi, e l’onde,
 	E sospirar le fronde
 	Hò visto al pianto mio:
@@ -117,14 +115,14 @@ A.	Ho visto al pianto mio,
 	Poi che nega pietade
 	A chi non la negaro
 	Le cose inanimate.
-T.	 Pasce l’agna l’herbette, il lupo l’agna:
+	T. Pasce l’agna l’herbette, il lupo l’agna:
 	Mà il crudo Amor di lagrime si pasce,
-	Ne se ne mostra mai satollo. A. Ahi lasso, 
+	Ne se ne mostra mai satollo. A. Ahi lasso,
 	Ch'Amor satollo è del mio pianto homai,
 	E solo hà sete del mio sangue, e tosto
 	Voglio, ch’egli, e quest’empia il sangue mio
 	Bevan con gli occhi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -134,7 +132,6 @@ T.	 Pasce l’agna l’herbette, il lupo l’agna:
 @SPRINT:	A-1581B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -147,25 +144,25 @@ T.	 Pasce l’agna l’herbette, il lupo l’agna:
 @PAGE:		25-26
 @PARATEXT:	SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-Et sospirar le fronde
-Ho visto al pianto mio;
-Ma non ho visto mai,
-Ne spero di vedere
-Compassion ne la crudele, e bella,
-Che non sò s'io mi chiami ò donna, ò fera,
-Ma niega d’esser donna
-Poiche nega pietate
-À chi non la negaro
-Le cose inanimate.
-Tir. Pasce l’agna l’herbette, il lupo l’agne,
-Ma il crudo amor di lagrime si pasce,
-Ne se ne mostra mai sattollo. Am. ahi lasso 
-Ch'amor satollo è del mio pianto homai,
-E solo hà sete del mio sangue, e tosto
-Voglio, ch’egli, e quest’empia il sangue mio
-Bevan con gli occhi.			
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	Et sospirar le fronde
+	Ho visto al pianto mio;
+	Ma non ho visto mai,
+	Ne spero di vedere
+	Compassion ne la crudele, e bella,
+	Che non sò s'io mi chiami ò donna, ò fera,
+	Ma niega d’esser donna
+	Poiche nega pietate
+	À chi non la negaro
+	Le cose inanimate.
+	Tir. Pasce l’agna l’herbette, il lupo l’agne,
+	Ma il crudo amor di lagrime si pasce,
+	Ne se ne mostra mai sattollo. Am. ahi lasso
+	Ch'amor satollo è del mio pianto homai,
+	E solo hà sete del mio sangue, e tosto
+	Voglio, ch’egli, e quest’empia il sangue mio
+	Bevan con gli occhi.			
 @@END: VARIORUM
 
 
@@ -176,7 +173,6 @@ Bevan con gli occhi.
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -189,9 +185,10 @@ Bevan con gli occhi.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
 @ID:		A-1581O
 @TYPE:		print
@@ -199,26 +196,26 @@ Bevan con gli occhi.
 @PAGE:		25
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-Hò visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-Et sospirar le fronde
-Hò visto al pianto mio;
-Ma non hò visto mai,
-Ne spero di vedere
-Compassion ne la crudele; e bella,
-Che non sò s'io mi chiami ò donna, ò fera,
-Ma niega d’esser donna
-Poiche nega pietate
-A chi non la negaro
-Le cose inanimate.
-TIR.	Pasce l’agna l’herbette, il lupo l’agne,
+	Hò visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	Et sospirar le fronde
+	Hò visto al pianto mio;
+	Ma non hò visto mai,
+	Ne spero di vedere
+	Compassion ne la crudele; e bella,
+	Che non sò s'io mi chiami ò donna, ò fera,
+	Ma niega d’esser donna
+	Poiche nega pietate
+	A chi non la negaro
+	Le cose inanimate.
+	TIR. Pasce l’agna l’herbette, il lupo l’agne,
 	Ma il crudo amor di lagrime si pasce,
-	Ne se ne mostra mai sattollo. AM. ahi lasso, 
+	Ne se ne mostra mai sattollo. AM. ahi lasso,
 	Ch'amor satollo è del mio pianto homai,
 	E solo hà sete del mio sangue, e tosto
 	Voglio, ch’egli, e quest’empia il sangue mio
 	Bevan con gli occhi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -228,7 +225,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1581V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -241,7 +237,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -252,7 +247,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1583M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -265,7 +259,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -276,7 +269,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1584A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -289,7 +281,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -300,7 +291,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1585V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -313,7 +303,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -324,7 +313,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1588B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -337,7 +325,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -348,7 +335,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1589V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -361,7 +347,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -372,7 +357,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1590Mv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -385,7 +369,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -396,7 +379,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1591W
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -409,7 +391,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -420,7 +401,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1596B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -433,7 +413,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -444,7 +423,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1599Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -457,7 +435,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -468,7 +445,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1600R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -481,7 +457,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -492,7 +467,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1601Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -505,7 +479,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -516,7 +489,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1603Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -529,7 +501,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -540,7 +511,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1603Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -553,7 +523,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -564,7 +533,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1606Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -577,7 +545,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -588,7 +555,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1608DP
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -601,7 +567,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -612,7 +577,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1609Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -625,7 +589,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -636,7 +599,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1611D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -649,7 +611,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -660,7 +621,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1617D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -673,7 +633,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -684,7 +643,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1619D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -697,7 +655,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -708,7 +665,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1620V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -721,7 +677,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -732,7 +687,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1623A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -745,7 +699,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -756,7 +709,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1624S
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -769,7 +721,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -780,7 +731,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1625U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -793,7 +743,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -804,7 +753,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @SPRINT:	A-1632D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -817,7 +765,6 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -829,25 +776,25 @@ TIR.	Pasce l’agna l’herbette, il lupo l’agne,
 @PAGE:		1
 @PARATEXT:	
 @VERSE:	
-Ho visto al pianto mio
-Risponder per pietade i sassi e l’onde
-E sospirar le fronde
-[TACET]
-Ma non ho visto mai
-Ne spero di vedere
-Compassion ne la crudel’e bella
-Che non sò s’io mi chiami ò donna ò fera
-Ma niega d’esser donna
-Poiche niega pietà
-Ah che non la negaro
-le cose inanimate.	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietade i sassi e l’onde
+	E sospirar le fronde
+	[TACET]
+	Ma non ho visto mai
+	Ne spero di vedere
+	Compassion ne la crudel’e bella
+	Che non sò s’io mi chiami ò donna ò fera
+	Ma niega d’esser donna
+	Poiche niega pietà
+	Ah che non la negaro
+	le cose inanimate.	
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -859,24 +806,24 @@ le cose inanimate.
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietade i sassi e l’onde
-E sospirar le fronde
-Ho visto al pianto mio
-[TACET]
-Ne spero di vedere
-Compassion ne la crudele e bella
-Che non sò s’io mi chiami ò donna ò fera
-[TACET]
-Ah che non la negaro
-le cose inanimate.
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietade i sassi e l’onde
+	E sospirar le fronde
+	Ho visto al pianto mio
+	[TACET]
+	Ne spero di vedere
+	Compassion ne la crudele e bella
+	Che non sò s’io mi chiami ò donna ò fera
+	[TACET]
+	Ah che non la negaro
+	le cose inanimate.
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -888,25 +835,25 @@ le cose inanimate.
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietade i sassi e l’onde
-E sospirar le fronde
-Ho visto al pianto mio
-Ma non ho visto mai
-Ne spero di vedere
-Compassion ne la crudel’e bella
-Che non sò s’io mi chiami ò donna ò fera
-Ma niega d’esser donna
-Poiche niega pietà
-Ah che non la negaro
-le cose inanimate.	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietade i sassi e l’onde
+	E sospirar le fronde
+	Ho visto al pianto mio
+	Ma non ho visto mai
+	Ne spero di vedere
+	Compassion ne la crudel’e bella
+	Che non sò s’io mi chiami ò donna ò fera
+	Ma niega d’esser donna
+	Poiche niega pietà
+	Ah che non la negaro
+	le cose inanimate.	
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -918,26 +865,27 @@ le cose inanimate.
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Ho vosto al pianto mio
-Risponder per pietate i sassi e l’onde
-E sospirar le fronde
-[ABSENT]
-Ma non ho visto mai
-Nè spero di vedere
-Compassion nella crudele e bella
-Ch’io non sò se mi Chiami Donna ò Fera
-Ma nega d’esser Donna
-Poi che nega pietate
-A chi non la negaro
-Le cose innanimate.
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho vosto al pianto mio
+	Risponder per pietate i sassi e l’onde
+	E sospirar le fronde
+	[ABSENT]
+	Ma non ho visto mai
+	Nè spero di vedere
+	Compassion nella crudele e bella
+	Ch’io non sò se mi Chiami Donna ò Fera
+	Ma nega d’esser Donna
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose innanimate.
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
@@ -947,26 +895,27 @@ Le cose innanimate.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
- [TACET] 
-E sospirar le fronde
-Ho visto al pianto mio
-Ma non ho visto mai
-Ne spero di vedere
-Compassion nella crudel e bella
-[TACET] Ò Donna ò Fera
-Ma nega d’esser Donna
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate
-[TACET] Il Lupo l’Agno
-Ma il crud’Amor di lagrime si pasce
-[TACET] mai sattollo ahi lasso 
-[TACET]
-E solo ha sete del mio sangue e tosto
-Voglio ch’egl’e quest’empia il sangue mio
-Bevan con gl’occhi.		
+	Ho visto al pianto mio
+	[TACET]
+	E sospirar le fronde
+	Ho visto al pianto mio
+	Ma non ho visto mai
+	Ne spero di vedere
+	Compassion nella crudel e bella
+	[TACET] Ò Donna ò Fera
+	Ma nega d’esser Donna
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate
+	[TACET] Il Lupo l’Agno
+	Ma il crud’Amor di lagrime si pasce
+	[TACET] mai sattollo ahi lasso
+	[TACET]
+	E solo ha sete del mio sangue e tosto
+	Voglio ch’egl’e quest’empia il sangue mio
+	Bevan con gl’occhi.		
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
@@ -975,26 +924,27 @@ Bevan con gl’occhi.
 @COMPOSER:	Massaino, Tiburtio
 @PAGE:		4
 @PARATEXT:	
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-[TACET] le fronde
-Ho vist’al pianto mio
-Ma non ho visto mai
-Ne spero di vedere
-Compassion nella crudel e bella
-[TACET] ò Fera
-Ma nega d’esser Donna
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate
-Pasce l’Agna l’herbette il Lupo l’Agno
-Ma il crud’Amor di lagrime si pasce
-Ne se ne mostra mai sattollo ahi lasso 
-Che pur satollo e del mio pianto homai
-E solo ha sete del mio sangue e tosto
-Voglio ch’egl’e quest’empia il sangue mio
-Bevan con gl’occhi.		
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	[TACET] le fronde
+	Ho vist’al pianto mio
+	Ma non ho visto mai
+	Ne spero di vedere
+	Compassion nella crudel e bella
+	[TACET] ò Fera
+	Ma nega d’esser Donna
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate
+	Pasce l’Agna l’herbette il Lupo l’Agno
+	Ma il crud’Amor di lagrime si pasce
+	Ne se ne mostra mai sattollo ahi lasso
+	Che pur satollo e del mio pianto homai
+	E solo ha sete del mio sangue e tosto
+	Voglio ch’egl’e quest’empia il sangue mio
+	Bevan con gl’occhi.		
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
@@ -1004,24 +954,25 @@ Bevan con gl’occhi.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-E sospirar le fronde
-Ma non ho visto mai
-[TACET]
-Compassion nella crudel e bella
-Che non sò s’io mi chiami [TACET]
-Ma nega d’esser Donna
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate
-[TACET] Il Lupo l’Agno
-[TACET] di lagrime si pasce
-Ne se ne mostra [TACET]
-E solo ha sete del mio sangue e tosto
-Voglio ch’egl’e quest’empia il sangue mio
-Bevan con gl’occhi.	
+	[TACET]
+	[TACET]
+	E sospirar le fronde
+	Ma non ho visto mai
+	[TACET]
+	Compassion nella crudel e bella
+	Che non sò s’io mi chiami [TACET]
+	Ma nega d’esser Donna
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate
+	[TACET] Il Lupo l’Agno
+	[TACET] di lagrime si pasce
+	Ne se ne mostra [TACET]
+	E solo ha sete del mio sangue e tosto
+	Voglio ch’egl’e quest’empia il sangue mio
+	Bevan con gl’occhi.	
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
@@ -1031,23 +982,24 @@ Bevan con gl’occhi.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-E sospirar le fronde
-Ho visto al pianto mio
-[TACET]
-Ne spero di vedere
-Compassion nella crudel e bella
-Che non sò s’io mi chiami ò Donna ò Fera
-[TACET]
-Pasce l’Agna l’herbette [TACET]
-Ma il crudo Amor di lagrime si pasce,
-Ne se ne mostra mai satollo [TACET]
-[TACET]
-E solo ha sete del mio sangue e tosto
-Voglio ch’egli e quest’empia il sangue mio
-Bevan con gl’occhi.	
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	E sospirar le fronde
+	Ho visto al pianto mio
+	[TACET]
+	Ne spero di vedere
+	Compassion nella crudel e bella
+	Che non sò s’io mi chiami ò Donna ò Fera
+	[TACET]
+	Pasce l’Agna l’herbette [TACET]
+	Ma il crudo Amor di lagrime si pasce,
+	Ne se ne mostra mai satollo [TACET]
+	[TACET]
+	E solo ha sete del mio sangue e tosto
+	Voglio ch’egli e quest’empia il sangue mio
+	Bevan con gl’occhi.	
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
@@ -1057,26 +1009,27 @@ Bevan con gl’occhi.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-E sospirar le fronde
-[TACET]
-Ma non ho visto mai
-[TACET] nella crudel e bella
-Ò Donna ò Fera
-Ma nega d’esser Donna
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate
-Pasce l’Agna l’herbette Il Lupo l’Agno
-Ma il crud’Amor di lagrime si pasce
-Ne se ne mostra mai sattollo [TACET]
-[TACET]
-Che pur satollo e del mio pianto homai
-E solo ha sete del mio sangue e tosto
-Voglio ch’egl’e quest’empia il sangue mio
-Bevan con gl’occhi.	
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	E sospirar le fronde
+	[TACET]
+	Ma non ho visto mai
+	[TACET] nella crudel e bella
+	Ò Donna ò Fera
+	Ma nega d’esser Donna
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate
+	Pasce l’Agna l’herbette Il Lupo l’Agno
+	Ma il crud’Amor di lagrime si pasce
+	Ne se ne mostra mai sattollo [TACET]
+	[TACET]
+	Che pur satollo e del mio pianto homai
+	E solo ha sete del mio sangue e tosto
+	Voglio ch’egl’e quest’empia il sangue mio
+	Bevan con gl’occhi.	
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
@@ -1086,25 +1039,26 @@ Bevan con gl’occhi.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per piatate i sassi, e l’onde,
-E sospirar [TACET]
-Ho visto al pianto mio
-Ne spero di vedere
-[TACET]
-Che non sò s’io mi chiam’ò Donn’ò Fera
-[TACET]
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate
-Pasce l’Agna l’herbette [TACET]
-Ma il crud’Amor di lagrime si pasce
-[TACET] ahi lasso 
-Che pur satollo e del mio pianto homai
-E solo ha sete del mio sangue e tosto
-Voglio ch’egli e quest’empia il sangue mio
-Bevan con gl’occhi.	
+	Ho visto al pianto mio
+	Risponder per piatate i sassi, e l’onde,
+	E sospirar [TACET]
+	Ho visto al pianto mio
+	Ne spero di vedere
+	[TACET]
+	Che non sò s’io mi chiam’ò Donn’ò Fera
+	[TACET]
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate
+	Pasce l’Agna l’herbette [TACET]
+	Ma il crud’Amor di lagrime si pasce
+	[TACET] ahi lasso
+	Che pur satollo e del mio pianto homai
+	E solo ha sete del mio sangue e tosto
+	Voglio ch’egli e quest’empia il sangue mio
+	Bevan con gl’occhi.	
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020338
@@ -1114,25 +1068,25 @@ Bevan con gl’occhi.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde
-E sospirar le fronde
-Ho visto al pianto mio
-Ma non ho visto mai;
-Nè spero di vedere
-compassion nella crudel’e bella,
-che non sò s’io mi chiami ò donna, ò fera.
-Ma nega d’esser donna,
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate.	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde
+	E sospirar le fronde
+	Ho visto al pianto mio
+	Ma non ho visto mai;
+	Nè spero di vedere
+	compassion nella crudel’e bella,
+	che non sò s’io mi chiami ò donna, ò fera.
+	Ma nega d’esser donna,
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate.	
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -1144,25 +1098,25 @@ Le cose inanimate.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-E sospirar le fronde
-Ho visto al pianto mio
-Ma non ho visto mai;
-Nè spero di vedere
-compassion nella crudel’e bella,
-che non sò s’io mi chiami ò donna, ò fera.
-Ma nega d’esser donna,
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate.
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	E sospirar le fronde
+	Ho visto al pianto mio
+	Ma non ho visto mai;
+	Nè spero di vedere
+	compassion nella crudel’e bella,
+	che non sò s’io mi chiami ò donna, ò fera.
+	Ma nega d’esser donna,
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate.
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -1174,25 +1128,25 @@ Le cose inanimate.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-E sospirar le fronde
-Ho visto al pianto mio
-Ma non ho visto mai;
-Nè spero di vedere
-compassion nella crudel’e bella,
-che non sò s’io mi chiami ò donna, ò fera.
-Ma nega d’esser donna,
-Poi che nega pietate
-A chi non la negaro
-Le cose inanimate.	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	E sospirar le fronde
+	Ho visto al pianto mio
+	Ma non ho visto mai;
+	Nè spero di vedere
+	compassion nella crudel’e bella,
+	che non sò s’io mi chiami ò donna, ò fera.
+	Ma nega d’esser donna,
+	Poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate.	
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -1204,25 +1158,25 @@ Le cose inanimate.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-E sospirar le fronde
-Ho visto al pianto mio
-Ma non ho visto mai;
-Nè spero di vedere
-compassion nella crudel’e bella,
-che non sò s’io mi chiami ò donna, ò fera.
-Ma nega d’esser donna,
-poi che nega pietate
-A chi non la negaro
-Le cose inanimate.
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	E sospirar le fronde
+	Ho visto al pianto mio
+	Ma non ho visto mai;
+	Nè spero di vedere
+	compassion nella crudel’e bella,
+	che non sò s’io mi chiami ò donna, ò fera.
+	Ma nega d’esser donna,
+	poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate.
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -1234,25 +1188,25 @@ Le cose inanimate.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietate i sassi, e l’onde,
-E sospirar le fronde
-Ho visto al pianto mio
-Ma non ho visto mai;
-Nè spero di vedere
-compassion nella crudel’e bella,
-che non sò s’io mi chiami ò donna, ò fera.
-Ma nega d’esser donna,
-poi che nega pietate
-A chi non la negaro
-Le cose inanimate.	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietate i sassi, e l’onde,
+	E sospirar le fronde
+	Ho visto al pianto mio
+	Ma non ho visto mai;
+	Nè spero di vedere
+	compassion nella crudel’e bella,
+	che non sò s’io mi chiami ò donna, ò fera.
+	Ma nega d’esser donna,
+	poi che nega pietate
+	A chi non la negaro
+	Le cose inanimate.	
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 @@BEGIN: VARIORUM
@@ -1263,25 +1217,25 @@ Le cose inanimate.
 @PAGE:		17-18
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-risponder per pietade i sassi e londe
-e sospirar le fronde
-hò visto al pianto mio
-Ma non ho visto mai
-ne spero di veder
-compassion nella crudel è bella
-Ch’io non sò s’io mi chiamo ó Donna ó fera
-Ma negha d’esser donna
-Poi che negha pietate
-a chi non la negharo 
-le cose inanimate.		
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	risponder per pietade i sassi e londe
+	e sospirar le fronde
+	hò visto al pianto mio
+	Ma non ho visto mai
+	ne spero di veder
+	compassion nella crudel è bella
+	Ch’io non sò s’io mi chiamo ó Donna ó fera
+	Ma negha d’esser donna
+	Poi che negha pietate
+	a chi non la negharo
+	le cose inanimate.		
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 @@BEGIN: VARIORUM
@@ -1292,25 +1246,25 @@ le cose inanimate.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietad’ i sassi E l’onde
-E sospirar le frondi
-Ho visto al pianto mio
-Ma non ho visto mai
-Ne spero di vedere
-Compassion nella crudel e bella
-Che non so s’io la chiami [TACET]
-Ma nega d’esser donna
-Poiche nega pietate
-A cui non la negaro
-Le cose inanimate.	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietad’ i sassi E l’onde
+	E sospirar le frondi
+	Ho visto al pianto mio
+	Ma non ho visto mai
+	Ne spero di vedere
+	Compassion nella crudel e bella
+	Che non so s’io la chiami [TACET]
+	Ma nega d’esser donna
+	Poiche nega pietate
+	A cui non la negaro
+	Le cose inanimate.	
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -1322,25 +1276,25 @@ Le cose inanimate.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietad’ i sassi E l’onde
-E sospirar le frondi
-Ho visto al pianto mio
-Ma non ho visto mai
-Ne spero di vedere
-Compassion [ILLEGIBLE]
-Che non so s’io [ILLEGIBLE] chiami o [ILLEGIBLE]
-Ma [ILLEGIBLE]
-Poiche [ILLEGIBLE]
-A cui non la negaro
-Le cose inanimate.
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietad’ i sassi E l’onde
+	E sospirar le frondi
+	Ho visto al pianto mio
+	Ma non ho visto mai
+	Ne spero di vedere
+	Compassion [ILLEGIBLE]
+	Che non so s’io [ILLEGIBLE] chiami o [ILLEGIBLE]
+	Ma [ILLEGIBLE]
+	Poiche [ILLEGIBLE]
+	A cui non la negaro
+	Le cose inanimate.
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -1352,25 +1306,25 @@ Le cose inanimate.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietad’ i sassi e L’onde
-E sospirar le frondi
-Ho visto al pianto mio
-[TACET]
-Ne spero di vedere
-Compassion [ILLEGIBLE]
-Che non so s’io [ILLEGIBLE] chiami o [ILLEGIBLE]
-Ma [ILLEGIBLE]
-Poiche [ILLEGIBLE]
-A cui non la negaro
-Le cose inanimate.
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietad’ i sassi e L’onde
+	E sospirar le frondi
+	Ho visto al pianto mio
+	[TACET]
+	Ne spero di vedere
+	Compassion [ILLEGIBLE]
+	Che non so s’io [ILLEGIBLE] chiami o [ILLEGIBLE]
+	Ma [ILLEGIBLE]
+	Poiche [ILLEGIBLE]
+	A cui non la negaro
+	Le cose inanimate.
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -1382,25 +1336,26 @@ Le cose inanimate.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ho visto al pianto mio
-Risponder per pietade [TACET]
-E sospirar le frondi
-Ho visto al pianto mio
-Ma non ho visto mai
-Ne spero di vedere
-Compassion [ILLEGIBLE]
-Che non so s’io [ILLEGIBLE] chiami o [ILLEGIBLE]
-Ma [ILLEGIBLE]
-Poiche [ILLEGIBLE]
-A cui non la negaro
-Le cose inanimate.
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	Ho visto al pianto mio
+	Risponder per pietade [TACET]
+	E sospirar le frondi
+	Ho visto al pianto mio
+	Ma non ho visto mai
+	Ne spero di vedere
+	Compassion [ILLEGIBLE]
+	Che non so s’io [ILLEGIBLE] chiami o [ILLEGIBLE]
+	Ma [ILLEGIBLE]
+	Poiche [ILLEGIBLE]
+	A cui non la negaro
+	Le cose inanimate.
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
+
 
 

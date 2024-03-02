@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020459
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,15 +51,15 @@
 @PAGE:		15v-16r
 @PARATEXT:	
 @VERSE:		
-Così dicendo avicinò le labra
-De la sua bella e dolcissima bocca
-A la guancia rimorsa e con soave
-Sussurro mormorò non so che versi
-Ò mirabili effetti senti tosto
-Cessar la doglia: ò fosse la virtute
-De que magici detti (Ò com’io credo)
-La virtù della bocca
-Che sana ciò che tocca		
+	Così dicendo avicinò le labra
+	De la sua bella e dolcissima bocca
+	A la guancia rimorsa e con soave
+	Sussurro mormorò non so che versi
+	Ò mirabili effetti senti tosto
+	Cessar la doglia: ò fosse la virtute
+	De que magici detti (Ò com’io credo)
+	La virtù della bocca
+	Che sana ciò che tocca		
 @@END: VARIORUM
 
 
@@ -72,7 +70,6 @@ Che sana ciò che tocca
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -85,7 +82,6 @@ Che sana ciò che tocca
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020459
@@ -95,7 +91,7 @@ Che sana ciò che tocca
 @PAGE:		16r
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	Cosi dicendo, avicinò le labbia
+	A. Cosi dicendo, avicinò le labbia
 	De la sua bella e dolcissima bocca
 	A la guancia rimorsa, e con soave
 	Susurro mormorò, non sò, che versi.
@@ -115,7 +111,6 @@ A.	Cosi dicendo, avicinò le labbia
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -127,15 +122,15 @@ A.	Cosi dicendo, avicinò le labbia
 @PAGE:		30
 @PARATEXT:	
 @VERSE:		
-Cosi , avvicinò le labbra
-De la sua bella, e dolcissima bocca
-A la guancia rimorsa, e con soave
-Susurro mormorò non so che versi,
-O mirabili effetti. sentì tosto
-Cessar la doglia, o fosse la virtute
-Di que' magici detti, ò com’io credo,
-La virtù della bocca,
-Che sana ciò che tocca.		
+	Cosi , avvicinò le labbra
+	De la sua bella, e dolcissima bocca
+	A la guancia rimorsa, e con soave
+	Susurro mormorò non so che versi,
+	O mirabili effetti. sentì tosto
+	Cessar la doglia, o fosse la virtute
+	Di que' magici detti, ò com’io credo,
+	La virtù della bocca,
+	Che sana ciò che tocca.		
 @@END: VARIORUM
 
 
@@ -146,7 +141,6 @@ Che sana ciò che tocca.
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -159,8 +153,9 @@ Che sana ciò che tocca.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020459
 @ID:		A-1581O
@@ -169,7 +164,7 @@ Che sana ciò che tocca.
 @PAGE:		30
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	Cosi dicendo, avvicinò le labbra
+	AM. Cosi dicendo, avvicinò le labbra
 	De la sua bella, e dolcissima bocca
 	A la guancia rimorsa, e con soave
 	Susurro mormorò non so che versi.
@@ -189,7 +184,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -200,7 +194,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1582B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -213,7 +206,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -224,7 +216,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1583V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -237,7 +228,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -248,7 +238,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1585C
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -261,7 +250,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -272,7 +260,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1585Vbis
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -285,7 +272,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -296,7 +282,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1589M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -309,7 +294,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -320,7 +304,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1590Mb
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -333,7 +316,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -344,7 +326,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1591M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -357,7 +338,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -368,7 +348,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1592B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -381,7 +360,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -392,7 +370,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1596M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -405,7 +382,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -416,7 +392,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1599Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -429,7 +404,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -440,7 +414,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1601Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -453,7 +426,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -464,7 +436,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1602B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -477,7 +448,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -488,7 +458,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1603Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -501,7 +470,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -512,7 +480,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1605R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -525,7 +492,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -536,7 +502,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1608D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -549,7 +514,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -560,7 +524,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1609Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -573,7 +536,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -584,7 +546,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1609Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -597,7 +558,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -608,7 +568,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1614GT
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -621,7 +580,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -632,7 +590,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1618B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -645,7 +602,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -656,7 +612,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1619I
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -669,7 +624,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -680,7 +634,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1622D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -693,7 +646,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -704,7 +656,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1624M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -717,7 +668,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -728,7 +678,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1624T
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -741,7 +690,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -752,7 +700,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1628U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -765,7 +712,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -776,7 +722,6 @@ AM.	Cosi dicendo, avvicinò le labbra
 @SPRINT:	A-1634R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -789,15 +734,15 @@ AM.	Cosi dicendo, avvicinò le labbra
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-Così dicendo avicinò le labra
-De la sua bella e dolcissima bocca
-A la guancia rimorsa e con soave
-Susurro mormorò non sò che versi
-[TACET]  Senti tosto
-Cessar la doglia ò fosse la virtute
-De quei Magici detti ò com’io credo
-La virtù de la bocca
-Che sana ciò che tocca.	
+	Così dicendo avicinò le labra
+	De la sua bella e dolcissima bocca
+	A la guancia rimorsa e con soave
+	Susurro mormorò non sò che versi
+	[TACET]  Senti tosto
+	Cessar la doglia ò fosse la virtute
+	De quei Magici detti ò com’io credo
+	La virtù de la bocca
+	Che sana ciò che tocca.	
 @@END: VARIORUM
 
 
@@ -809,15 +754,15 @@ Che sana ciò che tocca.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-Così dicendo avicinò le labra
-De la sua bella e dolcissima bocca
-A la guancia rimorsa E con soave
-susurro Mormorò non sò che versi
-O mirabili effetti [TACET]
-[TACET]
-[TACET] ò com’io credo
-La virtù de la bocca
-Che sana ciò che tocca.	
+	Così dicendo avicinò le labra
+	De la sua bella e dolcissima bocca
+	A la guancia rimorsa E con soave
+	susurro Mormorò non sò che versi
+	O mirabili effetti [TACET]
+	[TACET]
+	[TACET] ò com’io credo
+	La virtù de la bocca
+	Che sana ciò che tocca.	
 @@END: VARIORUM
 
 
@@ -829,15 +774,16 @@ Che sana ciò che tocca.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-Così dicendo avicinò le labra
-De la sua bella e dolcissima bocca
-A la guancia rimorsa e con soave
-Susurro mormorò non sò che versi
-O mirabili effetti senti tosto
-Cessar la doglia ò fosse la virtute
-De quei Magici detti ò com’io credo
-La virtù de la bocca
-Che sana ciò che tocca.		
+	Così dicendo avicinò le labra
+	De la sua bella e dolcissima bocca
+	A la guancia rimorsa e con soave
+	Susurro mormorò non sò che versi
+	O mirabili effetti senti tosto
+	Cessar la doglia ò fosse la virtute
+	De quei Magici detti ò com’io credo
+	La virtù de la bocca
+	Che sana ciò che tocca.		
 @@END: VARIORUM
+
 
 

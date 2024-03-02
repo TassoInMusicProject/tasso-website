@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020410
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,18 +51,18 @@
 @PAGE:		14r
 @PARATEXT:	
 @VERSE:		
-[AMINTA] Di questa parlo ahi lasso vissi à questa
-Così unita alcun tempo che fra due 
-Tortorelle più fida compagnia
-Non sarà mai né fue
-Congiunti eran gl’alberghi
-Ma più congiunti i cori
-Conforme era l’etate
-Ma’l pensier più conforme
-Seco tendeva insidie con le reti
-A i pesci et à gl’augelli e seguitava 
-I cervi seco e le veloci damme
-E’l diletto e la preda era commune.	
+	[AMINTA] Di questa parlo ahi lasso vissi à questa
+	Così unita alcun tempo che fra due
+	Tortorelle più fida compagnia
+	Non sarà mai né fue
+	Congiunti eran gl’alberghi
+	Ma più congiunti i cori
+	Conforme era l’etate
+	Ma’l pensier più conforme
+	Seco tendeva insidie con le reti
+	A i pesci et à gl’augelli e seguitava
+	I cervi seco e le veloci damme
+	E’l diletto e la preda era commune.	
 @@END: VARIORUM
 
 
@@ -75,7 +73,6 @@ E’l diletto e la preda era commune.
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -88,8 +85,9 @@ E’l diletto e la preda era commune.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020410
 @ID:		A-1580D
@@ -98,8 +96,8 @@ E’l diletto e la preda era commune.
 @PAGE:		15r
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	Di questa parlo, ahi lasso, vissi à questa,
-	Cosi unito alcun tempo, che frà due 
+	A. Di questa parlo, ahi lasso, vissi à questa,
+	Cosi unito alcun tempo, che frà due
 	Tortorelle più fida compagnia,
 	Non sarà mai, ne fue.
 	Congiunti eran gli alberghi;
@@ -107,7 +105,7 @@ A.	Di questa parlo, ahi lasso, vissi à questa,
 	Conforme era l’etade:
 	Mà il pensier più conforme.
 	Seco tendeva insidie con le reti,
-	A i pesci, &amp; à gli augelli, e seguitava 
+	A i pesci, &amp; à gli augelli, e seguitava
 	I cervi seco, e le veloci damme,
 	E’l diletto, e la preda era communi.
 @@END:		VARIORUM
@@ -121,7 +119,6 @@ A.	Di questa parlo, ahi lasso, vissi à questa,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -133,18 +130,18 @@ A.	Di questa parlo, ahi lasso, vissi à questa,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-[Aminta] Di questa parlo ahi lasso. vissi à questa
-Così unita alcun tempo, che frà due 
-Tortorelle più fida compagnia
-Non sarà mai, ne fue.
-Congiunti eran gli alberghi,
-Ma più congiunti i cori:
-Conforme era l’etate,
-Ma’l pensier più conforme:
-Seco tendeva insidie con le reti
-A i pesci, &amp; à gli augelli, e seguitava 
-I cervi seco, e le veloci damme,
-E’l diletto, e la preda era commune:		
+	[Aminta] Di questa parlo ahi lasso. vissi à questa
+	Così unita alcun tempo, che frà due
+	Tortorelle più fida compagnia
+	Non sarà mai, ne fue.
+	Congiunti eran gli alberghi,
+	Ma più congiunti i cori:
+	Conforme era l’etate,
+	Ma’l pensier più conforme:
+	Seco tendeva insidie con le reti
+	A i pesci, &amp; à gli augelli, e seguitava
+	I cervi seco, e le veloci damme,
+	E’l diletto, e la preda era commune:		
 @@END: VARIORUM
 
 
@@ -155,7 +152,6 @@ E’l diletto, e la preda era commune:
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -168,8 +164,9 @@ E’l diletto, e la preda era commune:
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020410
 @ID:		A-1581O
@@ -178,8 +175,8 @@ E’l diletto, e la preda era commune:
 @PAGE:		28
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	Di questa parlo ahi lasso, vissi à questa
-	Così unito alcun tempo, che frà due 
+	AM. Di questa parlo ahi lasso, vissi à questa
+	Così unito alcun tempo, che frà due
 	Tortorelle più fida compagnia
 	Non sarà mai, nè fue.
 	Congiunti eran gli alberghi,
@@ -187,7 +184,7 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 	Conforme era l’etate,
 	Ma’l pensier più conforme:
 	Seco tendeva insidie con le reti
-	A i pesci, &amp; à gli augelli, e seguitava 
+	A i pesci, &amp; à gli augelli, e seguitava
 	I Cervi seco, e le veloci damme,
 	E’l diletto, e la preda era commune:
 @@END:		VARIORUM
@@ -201,7 +198,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -212,7 +208,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1582B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -225,7 +220,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -236,7 +230,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1583V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -249,7 +242,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -260,7 +252,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1585C
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -273,7 +264,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -284,7 +274,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1585Vbis
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -297,7 +286,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -308,7 +296,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1589M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -321,7 +308,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -332,7 +318,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1590Mb
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -345,7 +330,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -356,7 +340,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1591M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -369,7 +352,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -380,7 +362,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1592B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -393,7 +374,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -404,7 +384,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1596M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -417,7 +396,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -428,7 +406,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1599Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -441,7 +418,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -452,7 +428,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1601Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -465,7 +440,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -476,7 +450,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1602B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -489,7 +462,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -500,7 +472,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1603Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -513,7 +484,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -524,7 +494,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1605R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -537,7 +506,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -548,7 +516,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1608D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -561,7 +528,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -572,7 +538,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1609Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -585,7 +550,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -596,7 +560,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1609Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -609,7 +572,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -620,7 +582,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1614GT
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -633,7 +594,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -644,7 +604,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1618B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -657,7 +616,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -668,7 +626,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1619I
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -681,7 +638,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -692,7 +648,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1622D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -705,7 +660,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -716,7 +670,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1624M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -729,7 +682,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -740,7 +692,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1624T
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -753,7 +704,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -764,7 +714,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1628U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -777,7 +726,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -788,7 +736,6 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @SPRINT:	A-1634R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -801,18 +748,18 @@ AM.	Di questa parlo ahi lasso, vissi à questa
 @PAGE:		3
 @PARATEXT:	
 @VERSE:		
-Di questa parlo ahi lasso Vissi a questa 
-così unita alcun tempo Che fra due 
-tortorelle Più fida compagnia
-Non sarà mai né fue
-Congiunti eran gl’alberghi
-[TACET]
-Conforme era l’etate
-Ma’l pensier più conforme
-Seco tendeva insidie con le reti
-A i pesci &amp; a gl’augelli
-E seguitava i cervi seco e le veloci damme
-E’l diletto e la preda era comune.
+	Di questa parlo ahi lasso Vissi a questa
+	così unita alcun tempo Che fra due
+	tortorelle Più fida compagnia
+	Non sarà mai né fue
+	Congiunti eran gl’alberghi
+	[TACET]
+	Conforme era l’etate
+	Ma’l pensier più conforme
+	Seco tendeva insidie con le reti
+	A i pesci &amp; a gl’augelli
+	E seguitava i cervi seco e le veloci damme
+	E’l diletto e la preda era comune.
 @@END: VARIORUM
 
 
@@ -824,18 +771,18 @@ E’l diletto e la preda era comune.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:		
-Di questa parlo ahi lasso Vissi a questa 
-così unita alcun tempo [TACET]
-[TACET]
-Non sarà mai né fue
-[TACET]
-ma più conguinti i cori
-Conforme era l’etate
-Ma’l pensier più conforme
-Seco tendeva insidie con le reti
-A i pesci &amp; a gl’augelli
-E seguitava i cervi seco e le veloci damme
-E’l diletto e la preda era comune.
+	Di questa parlo ahi lasso Vissi a questa
+	così unita alcun tempo [TACET]
+	[TACET]
+	Non sarà mai né fue
+	[TACET]
+	ma più conguinti i cori
+	Conforme era l’etate
+	Ma’l pensier più conforme
+	Seco tendeva insidie con le reti
+	A i pesci &amp; a gl’augelli
+	E seguitava i cervi seco e le veloci damme
+	E’l diletto e la preda era comune.
 @@END: VARIORUM
 
 
@@ -847,18 +794,19 @@ E’l diletto e la preda era comune.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:		
-Di questa parlo ahi lasso Vissi a questa 
-così unita alcun tempo [TACET]
-[TACET]
-Non sarà mai né fue
-[TACET]
-ma più conguinti i cori
-[TACET]
-Ma’l pensier più conforme
-Seco tendeva insidie con le retti
-A i pesci &amp; a gl’augelli
-E seguitava i cervi seco e le veloci damme
-E’l diletto e la preda era comune.
+	Di questa parlo ahi lasso Vissi a questa
+	così unita alcun tempo [TACET]
+	[TACET]
+	Non sarà mai né fue
+	[TACET]
+	ma più conguinti i cori
+	[TACET]
+	Ma’l pensier più conforme
+	Seco tendeva insidie con le retti
+	A i pesci &amp; a gl’augelli
+	E seguitava i cervi seco e le veloci damme
+	E’l diletto e la preda era comune.
 @@END: VARIORUM
+
 
 

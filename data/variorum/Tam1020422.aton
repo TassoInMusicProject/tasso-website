@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020422
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,15 +51,15 @@
 @PAGE:		14v-15r
 @PARATEXT:	
 @VERSE:		
-Ma mentre io fea rapina d’Animali
-Fui non sò come à me stesso rapito
-À poco à poco nacque nel mio petto
-Non so da qual radice
-Com’herba suol che da se stessa germini
-Un incognito affetto
-Che mi fea desiare
-D’esser sempre presente
-À la mia bella Silvia		
+	Ma mentre io fea rapina d’Animali
+	Fui non sò come à me stesso rapito
+	À poco à poco nacque nel mio petto
+	Non so da qual radice
+	Com’herba suol che da se stessa germini
+	Un incognito affetto
+	Che mi fea desiare
+	D’esser sempre presente
+	À la mia bella Silvia		
 @@END: VARIORUM
 
 
@@ -72,7 +70,6 @@ D’esser sempre presente
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -85,8 +82,9 @@ D’esser sempre presente
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020422
 @ID:		A-1580D
@@ -95,7 +93,7 @@ D’esser sempre presente
 @PAGE:		15v
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	Mà mentre io fea rapina d’animali,
+	A. Mà mentre io fea rapina d’animali,
 	Fui non sò, come, à me stesso rapito.
 	A poco, à poco nacque nel mio petto,
 	Non sò da qual radice,
@@ -115,7 +113,6 @@ A.	Mà mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -127,15 +124,15 @@ A.	Mà mentre io fea rapina d’animali,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Ma, mentre io fea rapina d’animali,
-Fui non so come à me stesso rapito.
-A poco à poco nacque nel mio petto,
-Non so da qual radice,
-Com’herba suol, che da se stessa germini
-Un'incognito affetto
-Che mi fea desiare
-D’esser sempre presente
-A la mia bella Silvia,			
+	Ma, mentre io fea rapina d’animali,
+	Fui non so come à me stesso rapito.
+	A poco à poco nacque nel mio petto,
+	Non so da qual radice,
+	Com’herba suol, che da se stessa germini
+	Un'incognito affetto
+	Che mi fea desiare
+	D’esser sempre presente
+	A la mia bella Silvia,			
 @@END: VARIORUM
 
 
@@ -146,7 +143,6 @@ A la mia bella Silvia,
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -159,8 +155,9 @@ A la mia bella Silvia,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020422
 @ID:		A-1581O
@@ -169,15 +166,15 @@ A la mia bella Silvia,
 @PAGE:		28
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	Ma, mentre io fea rapina d’animali,
-		Fui non so come à me stesso rapito.
-		A poco à poco nacque nel mio petto,
-		Non sò da qual radice,
-		Com’herba suol, che da se stessa germini
-		Un'incognito affetto
-		Che mi fea desiare
-		D’esser sempre presente
-		A la mia bella Silvia,
+	AM. Ma, mentre io fea rapina d’animali,
+	Fui non so come à me stesso rapito.
+	A poco à poco nacque nel mio petto,
+	Non sò da qual radice,
+	Com’herba suol, che da se stessa germini
+	Un'incognito affetto
+	Che mi fea desiare
+	D’esser sempre presente
+	A la mia bella Silvia,
 @@END:		VARIORUM
 
 
@@ -188,7 +185,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1581V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -201,7 +197,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -212,7 +207,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1583M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -225,7 +219,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -236,7 +229,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1584A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -249,7 +241,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -260,7 +251,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1585V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -273,7 +263,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -284,7 +273,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1588B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -297,7 +285,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -308,7 +295,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1589V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -321,7 +307,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -332,7 +317,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1590Mv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -345,7 +329,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -356,7 +339,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1591W
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -369,7 +351,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -380,7 +361,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1596B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -393,7 +373,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -404,7 +383,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1599Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -417,7 +395,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -428,7 +405,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1600R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -441,7 +417,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -452,7 +427,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1601Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -465,7 +439,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -476,7 +449,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1603Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -489,7 +461,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -500,7 +471,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1603Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -513,7 +483,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -524,7 +493,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1606Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -537,7 +505,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -548,7 +515,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1608DP
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -561,7 +527,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -572,7 +537,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1609Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -585,7 +549,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -596,7 +559,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1611D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -609,7 +571,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -620,7 +581,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1617D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -633,7 +593,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -644,7 +603,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1619D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -657,7 +615,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -668,7 +625,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1620V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -681,7 +637,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -692,7 +647,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1623A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -705,7 +659,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -716,7 +669,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1624S
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -729,7 +681,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -740,7 +691,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1625U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -753,7 +703,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -764,7 +713,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @SPRINT:	A-1632D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -777,7 +725,6 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -789,15 +736,15 @@ AM.	Ma, mentre io fea rapina d’animali,
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Ma mentr’io fea rapina d’animali
-Fui non sò come a me stesso rapito
-A poco a poco nacque nel mio petto
-Non sò da qual radice
-Com’herba suol che per se stessa germini
-Un’incognito affetto
-Che mi fea desiare
-D’esser sempre presente
-Alla mia bella Silvia.	
+	Ma mentr’io fea rapina d’animali
+	Fui non sò come a me stesso rapito
+	A poco a poco nacque nel mio petto
+	Non sò da qual radice
+	Com’herba suol che per se stessa germini
+	Un’incognito affetto
+	Che mi fea desiare
+	D’esser sempre presente
+	Alla mia bella Silvia.	
 @@END: VARIORUM
 
 
@@ -809,15 +756,15 @@ Alla mia bella Silvia.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Ma mentr’io fea rapina d’animali
-Fui non sò come a me stesso rapito
-[TACET]
-Non sò da qual radice
-Com’herba suol che per se stessa germini
-Un’incognito affetto
-Che mi fea desiare
-D’esser sempre presente
-Alla mia bella Silvia.	
+	Ma mentr’io fea rapina d’animali
+	Fui non sò come a me stesso rapito
+	[TACET]
+	Non sò da qual radice
+	Com’herba suol che per se stessa germini
+	Un’incognito affetto
+	Che mi fea desiare
+	D’esser sempre presente
+	Alla mia bella Silvia.	
 @@END: VARIORUM
 
 
@@ -829,15 +776,16 @@ Alla mia bella Silvia.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Ma mentr’io fea rapina d’animali
-Fui non sò come a me stesso rapito
-[TACET]
-Non sò da qual radice
-Com’herba suol che per se stessa germini
-Un’incognito affetto
-Che mi fea desiare
-D’esser sempre presente
-Alla mia bella Silvia.	
+	Ma mentr’io fea rapina d’animali
+	Fui non sò come a me stesso rapito
+	[TACET]
+	Non sò da qual radice
+	Com’herba suol che per se stessa germini
+	Un’incognito affetto
+	Che mi fea desiare
+	D’esser sempre presente
+	Alla mia bella Silvia.	
 @@END: VARIORUM
+
 
 

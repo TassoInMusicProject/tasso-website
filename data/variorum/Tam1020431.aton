@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020431
 @ID:		A-Am
@@ -16,7 +17,6 @@
 @SMSIGLUM:	A-Am
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -29,7 +29,6 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -40,7 +39,6 @@
 @SMSIGLUM:	A-Br
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -53,16 +51,16 @@
 @PAGE:		15r
 @PARATEXT:	
 @VERSE:		
-E bevea da suoi lumi
-Una strania dolcezza
-Che lasciava nel fine
-Un non sò che d’amaro
-Sospirava sovente, e non sapeva
-La cagion de i sospiri
-Cosi fui prima amante che intendessi
-Che cosa fosse amore
-Ben me n’accorsi al fine et in qual modo
-Hora m’ascolta e nota .T[IRSI]. è da notare			
+	E bevea da suoi lumi
+	Una strania dolcezza
+	Che lasciava nel fine
+	Un non sò che d’amaro
+	Sospirava sovente, e non sapeva
+	La cagion de i sospiri
+	Cosi fui prima amante che intendessi
+	Che cosa fosse amore
+	Ben me n’accorsi al fine et in qual modo
+	Hora m’ascolta e nota .T[IRSI]. è da notare			
 @@END: VARIORUM
 
 
@@ -73,7 +71,6 @@ Hora m’ascolta e nota .T[IRSI]. è da notare
 @SMSIGLUM:	A-F
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -86,8 +83,9 @@ Hora m’ascolta e nota .T[IRSI]. è da notare
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020431
 @ID:		A-1580D
@@ -96,7 +94,7 @@ Hora m’ascolta e nota .T[IRSI]. è da notare
 @PAGE:		15v
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	E bevea dai suoi lumi
+	A. E bevea dai suoi lumi
 	Una stranea dolcezza,
 	Che lasciava nel fine
 	Un nò sò, che d’amaro.
@@ -117,7 +115,6 @@ A.	E bevea dai suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -129,16 +126,16 @@ A.	E bevea dai suoi lumi
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-E bevea da' suoi lumi
-Un'estranea dolcezza,
-Che lasciava nel fine
-Un non so che d’amaro:
-Sospirava sovente, e non sapeva
-La cagion de' sospiri.
-Cosi fui prima Amante, ch'intendessi
-Che cosa fosse Amore.
-Ben me n’accorsi al fin, &amp; in qual modo
-Hora m’ascolta, e nota .Tir. È da notare,				
+	E bevea da' suoi lumi
+	Un'estranea dolcezza,
+	Che lasciava nel fine
+	Un non so che d’amaro:
+	Sospirava sovente, e non sapeva
+	La cagion de' sospiri.
+	Cosi fui prima Amante, ch'intendessi
+	Che cosa fosse Amore.
+	Ben me n’accorsi al fin, &amp; in qual modo
+	Hora m’ascolta, e nota .Tir. È da notare,				
 @@END: VARIORUM
 
 
@@ -149,7 +146,6 @@ Hora m’ascolta, e nota .Tir. È da notare,
 @SPRINT:	A-1581M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -162,8 +158,9 @@ Hora m’ascolta, e nota .Tir. È da notare,
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
+
+
 @@BEGIN:	VARIORUM
 @CATALOGNUM:	Tam1020431
 @ID:		A-1581O
@@ -172,16 +169,16 @@ Hora m’ascolta, e nota .Tir. È da notare,
 @PAGE:		29
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	E bevea da' suoi lumi
-		Un'estranea dolcezza,
-		Che lasciava nel fine
-		Un non sò che d’amaro:
-		Sospirava sovente, e non sapeva
-		La cagion de' sospiri.
-		Cosi fui prima Amante, ch'intendessi
-		Che cosa fosse Amore.
-		Ben me n’accorsi al fin, &amp; in qual modo
-		Hora m’ascolta, e nota .TIR. È da notare.
+	AM. E bevea da' suoi lumi
+	Un'estranea dolcezza,
+	Che lasciava nel fine
+	Un non sò che d’amaro:
+	Sospirava sovente, e non sapeva
+	La cagion de' sospiri.
+	Cosi fui prima Amante, ch'intendessi
+	Che cosa fosse Amore.
+	Ben me n’accorsi al fin, &amp; in qual modo
+	Hora m’ascolta, e nota .TIR. È da notare.
 @@END:		VARIORUM
 
 
@@ -192,7 +189,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1581V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -205,7 +201,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -216,7 +211,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1583M
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -229,7 +223,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -240,7 +233,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1584A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -253,7 +245,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -264,7 +255,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1585V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -277,7 +267,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -288,7 +277,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1588B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -301,7 +289,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -312,7 +299,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1589V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -325,7 +311,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -336,7 +321,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1590Mv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -349,7 +333,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -360,7 +343,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1591W
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -373,7 +355,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -384,7 +365,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1596B
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -397,7 +377,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -408,7 +387,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1599Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -421,7 +399,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -432,7 +409,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1600R
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -445,7 +421,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -456,7 +431,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1601Bp
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -469,7 +443,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -480,7 +453,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1603Bf
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -493,7 +465,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -504,7 +475,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1603Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -517,7 +487,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -528,7 +497,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1606Z
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -541,7 +509,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -552,7 +519,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1608DP
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -565,7 +531,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -576,7 +541,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1609Bv
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -589,7 +553,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -600,7 +563,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1611D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -613,7 +575,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -624,7 +585,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1617D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -637,7 +597,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -648,7 +607,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1619D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -661,7 +619,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -672,7 +629,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1620V
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -685,7 +641,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -696,7 +651,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1623A
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -709,7 +663,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -720,7 +673,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1624S
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -733,7 +685,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -744,7 +695,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1625U
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -757,7 +707,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -768,7 +717,6 @@ AM.	E bevea da' suoi lumi
 @SPRINT:	A-1632D
 @PAGE:		
 @PARATEXT:	
-@VERSE:		
 @VERSE:		
 @@END: VARIORUM
 
@@ -781,7 +729,6 @@ AM.	E bevea da' suoi lumi
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-@VERSE:		
 @@END: VARIORUM
 
 
@@ -793,16 +740,16 @@ AM.	E bevea da' suoi lumi
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-E bevea da suoi lumi
-Un’estranea dolcezza
-Che lasciava nel fine
-Un non sò che d’amaro
-Sospirava sovente e non sapeva
-La cagion de’ sospiri
-[TACET]
-[TACET]
-Ben me n’accorsi al fine &amp; in qual modo
-Hora m’ascolta e nota è da notare.		
+	E bevea da suoi lumi
+	Un’estranea dolcezza
+	Che lasciava nel fine
+	Un non sò che d’amaro
+	Sospirava sovente e non sapeva
+	La cagion de’ sospiri
+	[TACET]
+	[TACET]
+	Ben me n’accorsi al fine &amp; in qual modo
+	Hora m’ascolta e nota è da notare.		
 @@END: VARIORUM
 
 
@@ -814,16 +761,16 @@ Hora m’ascolta e nota è da notare.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-Che lasciava nel fine
-Un non sò che d’amaro
-Sospirava sovente e non sapeva
-La cagion de’ sospiri
-Così fui primo amante ch’intendessi
-che cosa fosse Amore
-[TACET]
-Hora m’ascolta e nota è da notare.	
+	[TACET]
+	[TACET]
+	Che lasciava nel fine
+	Un non sò che d’amaro
+	Sospirava sovente e non sapeva
+	La cagion de’ sospiri
+	Così fui primo amante ch’intendessi
+	che cosa fosse Amore
+	[TACET]
+	Hora m’ascolta e nota è da notare.	
 @@END: VARIORUM
 
 
@@ -835,16 +782,17 @@ Hora m’ascolta e nota è da notare.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-E bevea da suoi lumi
-[TACET]
-Che lasciava nel fine
-Un non sò che d’amaro
-Sospirava sovent’e non sapeva
-La cagion de’ sospiri
-Così fui prima amante ch’intendessi
-che cosa fosse Amore
-Ben me n’accorsi al fine &amp; in qual modo
-Hora m’ascolta e nota è da notare.	
+	E bevea da suoi lumi
+	[TACET]
+	Che lasciava nel fine
+	Un non sò che d’amaro
+	Sospirava sovent’e non sapeva
+	La cagion de’ sospiri
+	Così fui prima amante ch’intendessi
+	che cosa fosse Amore
+	Ben me n’accorsi al fine &amp; in qual modo
+	Hora m’ascolta e nota è da notare.	
 @@END: VARIORUM
+
 
 

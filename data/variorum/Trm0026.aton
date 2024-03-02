@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0026
 @ID:		C
@@ -17,10 +18,10 @@
 @PAGE:		10r
 @PARATEXT:	A la sua donna nel soggetto med:mo [the entire poem is deleted with a diagonal strike-through]
 @VERSE:		
-Se’l mio core e con voi come desia,
+	Se’l mio core e con voi come desia,
 	Dove è l’anima mia?
 	Credo sia col pensier, e’l pensier vago
- è con la bella imago,
+	è con la bella imago,
 	e l’imagine bella
 	Della vostra bellezza è ne la mente
 	Viva, e vera, e presente.
@@ -38,15 +39,15 @@ Se’l mio core e con voi come desia,
 @PAGE:		Stampa
 @PARATEXT:	201
 @VERSE:		
-Se ‘l mio core è con voi come desia
-Dove è l’anima mia
-Credo sia co ‘l pensier, e ‘l pensier vago
-e con la bella imago,
-e l’imagine bella,
-De la vostra bellezza e ne la mente,
-viva, vera, e presente
+	Se ‘l mio core è con voi come desia
+	Dove è l’anima mia
+	Credo sia co ‘l pensier, e ‘l pensier vago
+	e con la bella imago,
+	e l’imagine bella,
+	De la vostra bellezza e ne la mente,
+	viva, vera, e presente
 <del>Ma pur senza il mio core, e la mia vita</del> Ma pur senza il mio cor io vivo à pena
-e la mia vita è pena.
+	e la mia vita è pena.
 @@END: VARIORUM
 
 
@@ -101,7 +102,7 @@ e la mia vita è pena.
 @PAGE:		119
 @PARATEXT:	
 @VERSE:		
-Se’l mio core è con voi come desia,
+	Se’l mio core è con voi come desia,
 	Dov’è l’anima mia?
 	Credo sia co’l pensier, e’l pensier vago
 	È con la bella imago,
@@ -122,16 +123,16 @@ Se’l mio core è con voi come desia,
 @PAGE:		57
 @PARATEXT:	
 @VERSE:	
-Se’l mio core è con voi, come desia,
-Dov’è l’anima mia?
-Credo sia co’l pensier, e’l pensier vago
+	Se’l mio core è con voi, come desia,
+	Dov’è l’anima mia?
+	Credo sia co’l pensier, e’l pensier vago
 È con la bella imago,
-E l’imagine bella
-De la vostra bellezza è ne la mente,
-Viva vera presente;
-[ABSENT]
-Ma pur senza’l mio cor io vivo à pena,
-E la mia vita è pena.
+	E l’imagine bella
+	De la vostra bellezza è ne la mente,
+	Viva vera presente;
+	[ABSENT]
+	Ma pur senza’l mio cor io vivo à pena,
+	E la mia vita è pena.
 @@END: VARIORUM
 
 
@@ -152,11 +153,11 @@ E la mia vita è pena.
 	Viva, e vera, e presente,
 	E vi spira, e favella;
 	Ma pur senza il mio core e la mia vita
-	Dolente e sbigottita.	
+	Dolente e sbigottita.
 @@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0026
 @ID:		S141
 @TYPE:		print
@@ -164,7 +165,7 @@ E la mia vita è pena.
 @PAGE:		Quarta parte delle Rime, 217
 @PARATEXT:	Dice ch'essendo il suo core, con la D. sua, la vita di lui fia tutta mesta.
 @VERSE:		
-Se ’l mio core è con voi, come desia,
+	Se ’l mio core è con voi, come desia,
 	Dov’è l’anima mia?
 	Credo fia col pensiero, e ’l pensier vago,
 	E con la bella imago;
@@ -174,7 +175,8 @@ Se ’l mio core è con voi, come desia,
 	E vi spira, e favella:
 	Ma pur senza il mio core e la mia vita
 	Dolente e sbigottita.
-@@END:		VARIORUM
+@@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0026
@@ -197,7 +199,7 @@ Se ’l mio core è con voi, come desia,
 @@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0026
 @ID:		S166
 @TYPE:		print
@@ -205,7 +207,7 @@ Se ’l mio core è con voi, come desia,
 @PAGE:		Quarta parte delle Rime, 217
 @PARATEXT:	Dice ch'essendo il suo core, con la D. sua, la vita di lui fia tutta mesta.
 @VERSE:		
-Se ’l mio core è con voi, come desia,
+	Se ’l mio core è con voi, come desia,
 	Dov’è l’anima mia?
 	Credo fia col pensiero, e ’l pensier vago,
 	E con la bella imago;
@@ -215,10 +217,10 @@ Se ’l mio core è con voi, come desia,
 	E vi spira, e favella:
 	Ma pur senza il mio core e la mia vita
 	Dolente e sbigottita.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0026
 @ID:		S169
 @TYPE:		print
@@ -226,7 +228,7 @@ Se ’l mio core è con voi, come desia,
 @PAGE:		RIME DEL TASSO AMOROSE. P. I., 75
 @PARATEXT:	Continova il medesimo.
 @VERSE:		
-Se ’l mio core è con voi, come desia,
+	Se ’l mio core è con voi, come desia,
 	Dov’è l’anima mia?
 	Credo sia col pensiero, e ’l pensier vago,
 	È con la bella imago:
@@ -236,7 +238,7 @@ Se ’l mio core è con voi, come desia,
 	E vi spira, e favella:
 	Ma pur senza il mio core, è la mia vita
 	Dolente e sbigottita.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -247,16 +249,16 @@ Se ’l mio core è con voi, come desia,
 @PAGE:		13
 @PARATEXT:	
 @VERSE:		
-Se ’l mio cor è con voi come desia
-Dov’è l’anima mia
-Credo sia col pensier’e ’l pensier vago
-E con la bella imago
-E l’imagine bella
-Della vostra bellezz’e ne la mente
-Viv’è ver’è presente
-E vi spir’e favella
-Ma pur senz’il mio cor’è la mia vita
-Dolente e sbigotita.
+	Se ’l mio cor è con voi come desia
+	Dov’è l’anima mia
+	Credo sia col pensier’e ’l pensier vago
+	E con la bella imago
+	E l’imagine bella
+	Della vostra bellezz’e ne la mente
+	Viv’è ver’è presente
+	E vi spir’e favella
+	Ma pur senz’il mio cor’è la mia vita
+	Dolente e sbigotita.
 @@END: VARIORUM
 
 

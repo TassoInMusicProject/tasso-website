@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0903
 @ID:		E1
@@ -17,13 +18,13 @@
 @PAGE:		230
 @PARATEXT:	stampa
 @VERSE:	
-O fuggitiva, e timidetta fera,
-Che sei cacciata dove in carro adorno
-Madonna fa soggiorno :
-Deh non t’incresca, ch’in sì caro loco
-Havrei la morte a gioco
-e là dov’ella caccia, o pur me ’l creda
-esser io bramo o predatore, o preda.
+	O fuggitiva, e timidetta fera,
+	Che sei cacciata dove in carro adorno
+	Madonna fa soggiorno :
+	Deh non t’incresca, ch’in sì caro loco
+	Havrei la morte a gioco
+	e là dov’ella caccia, o pur me ’l creda
+	esser io bramo o predatore, o preda.
 @@END: VARIORUM
 
 
@@ -46,7 +47,7 @@ esser io bramo o predatore, o preda.
 @PAGE:		57
 @PARATEXT:	
 @VERSE:		
-O fuggitiva, e timidetta fera,
+	O fuggitiva, e timidetta fera,
 	Che sei cacciata, dove in carro adorno
 	Madonna fà soggiorno:
 	Deh non t’incresca, ch’in sì caro loco
@@ -64,13 +65,13 @@ O fuggitiva, e timidetta fera,
 @PAGE:		129
 @PARATEXT:	
 @VERSE:		
-O fuggitiva e timidetta fera,
-Che sei cacciata dove in carro adorno
-Madonna fà soggiorno,
-Deh non t’incresca, ch’in si caro loco
-Havrei la morte à gioco,
-E là dov’ella caccia, ò pur me’l creda,
-Esser io bramo predatore, ò preda.
+	O fuggitiva e timidetta fera,
+	Che sei cacciata dove in carro adorno
+	Madonna fà soggiorno,
+	Deh non t’incresca, ch’in si caro loco
+	Havrei la morte à gioco,
+	E là dov’ella caccia, ò pur me’l creda,
+	Esser io bramo predatore, ò preda.
 @@END: VARIORUM
 
 
@@ -82,15 +83,17 @@ Esser io bramo predatore, ò preda.
 @PAGE:		64
 @PARATEXT:	
 @VERSE:	
-O fuggitiva, e timidetta fera,
-Che sei cacciata, dove in carro adorno
-Madonna fà soggiorno;
-Deh non t’incresca; ch’in si caro loco
-Havrei la morte à gioco,
-E là dov’ella caccia, ogn'un me’l creda,
-Esser io bramo predatore, ò preda.
+	O fuggitiva, e timidetta fera,
+	Che sei cacciata, dove in carro adorno
+	Madonna fà soggiorno;
+	Deh non t’incresca; ch’in si caro loco
+	Havrei la morte à gioco,
+	E là dov’ella caccia, ogn'un me’l creda,
+	Esser io bramo predatore, ò preda.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0903
 @ID:		S141
 @TYPE:		print
@@ -98,15 +101,17 @@ Esser io bramo predatore, ò preda.
 @PAGE:		Parte terza delle Rime, 129
 @PARATEXT:	Chiama felice la fiera cacciata, &amp; pigliata dalla D. sua, perch’egli si contenterebbe o di pigliar lei, overo esser a quella pigliato.
 @VERSE:		
-O fuggitiva, e timidetta fera,
+	O fuggitiva, e timidetta fera,
 	Che sei cacciata, dove in carro adorno
 	Madonna fà soggiorno:
 	Deh non t’incresca, ch’in si caro loco
 	Havrei la morte à gioco,
 	Perche dov’ella caccia, o pur mel creda,
 	Esser’ io bramo, o predatore, o preda.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0903
 @ID:		S166
 @TYPE:		print
@@ -114,15 +119,17 @@ O fuggitiva, e timidetta fera,
 @PAGE:		Parte terza delle Rime, 129
 @PARATEXT:	Chiama felice la fiera cacciata, &amp; pigliata dalla D. sua, perch’egli si contenterebbe o di pigliar lei, overo esser a quella pigliato.
 @VERSE:		
-O fuggitiva, e timidetta fera,
+	O fuggitiva, e timidetta fera,
 	Che sei cacciata, dove in carro adorno
 	Madonna fà soggiorno:
 	Deh non t’incresca, ch’in si caro loco
 	Havrei la morte à gioco,
 	Perche dov’ella caccia, o pur mel creda,
 	Esser’ io bramo, o predatore, o preda.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0903
 @ID:		S169
 @TYPE:		print
@@ -130,14 +137,14 @@ O fuggitiva, e timidetta fera,
 @PAGE:		RIME DEL TASSO.BOSCHERECCIE. P. II., 45
 @PARATEXT:	Segue lo stesso. [Lepre morta innanti a madonna.]
 @VERSE:		
-O fuggitiva, e timidetta fera,
+	O fuggitiva, e timidetta fera,
 	Che sei cacciata dove in carro adorno
 	Madonna fa soggiorno:
 	Deh non t’incresca, ch’in sì caro loco
 	Havrei la morte a gioco,
 	Perche dov’ella caccia, (o pur me ’l creda)
 	Esser io bramo, o predatore, ò preda.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

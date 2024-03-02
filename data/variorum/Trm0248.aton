@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0248
 @ID:		M7
@@ -17,7 +18,7 @@
 @PAGE:		84
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita,
+	Vita de la mia vita,
 	Tu mi somigli pallidett' oliva
 	O Rosa scolorita
 	Ne di Beltà sei priva
@@ -36,7 +37,7 @@ Vita de la mia vita,
 @PAGE:		168
 @PARATEXT:	
 @VERSE:	
-Vita de la mia vita,
+	Vita de la mia vita,
 	Tu mi somigli pallidetta oliva
 	O' rosa scolorita.
 @VERSE:
@@ -57,7 +58,7 @@ Vita de la mia vita,
 @PAGE:		168
 @PARATEXT:	
 @VERSE:	
-Vita de la mia vita,
+	Vita de la mia vita,
 	Tu mi somigli pallidetta oliva
 	O rosa scolorita,
 @VERSE:
@@ -66,9 +67,11 @@ Vita de la mia vita,
 	O lusinghera, ò schiva.
 @VERSE:
 	E se mi segui, ò fuggi,
-	Soavemente mi consumi, e struggi.	
+	Soavemente mi consumi, e struggi.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0248
 @ID:		S141
 @TYPE:		print
@@ -76,16 +79,18 @@ Vita de la mia vita,
 @PAGE:		Parte quarta delle Rime, 210
 @PARATEXT:	Loda la palidezza della sua Donna.
 @VERSE:		
-Vita de la mia vita,
+	Vita de la mia vita,
 	Tu mi somigli pallidetta oliva
 	O rosa scolorita,
-Nè di beltà sei priva:
+	Nè di beltà sei priva:
 	Ma in ogni aspetto tu mi sei gradita,
 	O lusinghera, o schiva.
-E se mi segui, o fuggi,
+	E se mi segui, o fuggi,
 	Soavemente mi consumi, e struggi.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0248
 @ID:		S166
 @TYPE:		print
@@ -93,16 +98,18 @@ E se mi segui, o fuggi,
 @PAGE:		Parte quarta delle Rime, 210
 @PARATEXT:	Loda la palidezza della sua Donna.
 @VERSE:		
-Vita de la mia vita,
+	Vita de la mia vita,
 	Tu mi somigli pallidetta oliva
 	O rosa scolorita,
-Nè di beltà sei priva:
+	Nè di beltà sei priva:
 	Ma in ogni aspetto tu mi sei gradita,
 	O lusinghera, o schiva.
-E se mi segui, o fuggi,
+	E se mi segui, o fuggi,
 	Soavemente mi consumi, e struggi.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0248
 @ID:		S169
 @TYPE:		print
@@ -110,7 +117,7 @@ E se mi segui, o fuggi,
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 12
 @PARATEXT:	Pallore di madonna grato.
 @VERSE:		
-Vita de la mia vita,
+	Vita de la mia vita,
 	Tù mi somigli pallidetta oliva,
 	O rosa scolorita,
 	Nè di beltà sei priva:
@@ -118,7 +125,7 @@ Vita de la mia vita,
 	O lusinghiera, o schiva.
 	E se mi segui, o fuggi
 	Soavemente mi consumi, e struggi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -129,14 +136,14 @@ Vita de la mia vita,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:	
-Vita de la mia vita
-Tu mi somigli pallidetta oliva
-O rosa scolorita
-Ne di beltà sei priva
-Ma in ogn’aspetto tu mi sei gradita
-O lusinghera o schiva
-E se mi segui o fuggi
-Soavemente mi consumi e struggi.
+	Vita de la mia vita
+	Tu mi somigli pallidetta oliva
+	O rosa scolorita
+	Ne di beltà sei priva
+	Ma in ogn’aspetto tu mi sei gradita
+	O lusinghera o schiva
+	E se mi segui o fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -148,14 +155,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita
-Tu mi somigli pallidetta oliva
-O rosa scolorita
-Ne di beltà sei priva
-Ma in ogn’aspetto tu mi sei gradita
-O lusinghera o schiva
-E se mi segui o fuggi
-Soavemente mi consumi e struggi.
+	Vita de la mia vita
+	Tu mi somigli pallidetta oliva
+	O rosa scolorita
+	Ne di beltà sei priva
+	Ma in ogn’aspetto tu mi sei gradita
+	O lusinghera o schiva
+	E se mi segui o fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -167,14 +174,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita
-Tu mi somigli pallidetta oliva
-O rosa scolorita
-Ne di beltà sei priva
-Ma in ogn’aspetto tu mi sei gradita
-O lusinghiera o schiva
-E se mi segui o fuggi
-Soavemente mi consumi e struggi.
+	Vita de la mia vita
+	Tu mi somigli pallidetta oliva
+	O rosa scolorita
+	Ne di beltà sei priva
+	Ma in ogn’aspetto tu mi sei gradita
+	O lusinghiera o schiva
+	E se mi segui o fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -186,14 +193,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Vita [TACET]
-[TACET]
-[TACET]
-Ne di beltà sei priva
-Ma in ogni aspetto tu mi sei gradita
-O lusinghiera o schiva
-[TACET] o fuggi
-Soavemente mi consumi e struggi.
+	Vita [TACET]
+	[TACET]
+	[TACET]
+	Ne di beltà sei priva
+	Ma in ogni aspetto tu mi sei gradita
+	O lusinghiera o schiva
+	[TACET] o fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -205,14 +212,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita
-Tu mi somigli pallidetta oliva
-O rosa scolorita
-Ne di beltà sei priva
-Ma in ogn’aspetto tu mi sei gradita
-O lusinghera o schiva
-E se mi segui o fuggi
-Soavemente mi consumi e struggi.
+	Vita de la mia vita
+	Tu mi somigli pallidetta oliva
+	O rosa scolorita
+	Ne di beltà sei priva
+	Ma in ogn’aspetto tu mi sei gradita
+	O lusinghera o schiva
+	E se mi segui o fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -224,14 +231,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Vita [TACET]
-[TACET]
-O rosa scolorita
-Ne di beltà sei priva
-Ma in ogn’aspetto tu mi sei gradita
-O lusinghera [TACET]
-E se mi segui o fuggi
-Soavemente mi consumi e struggi.
+	Vita [TACET]
+	[TACET]
+	O rosa scolorita
+	Ne di beltà sei priva
+	Ma in ogn’aspetto tu mi sei gradita
+	O lusinghera [TACET]
+	E se mi segui o fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -243,14 +250,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:	
-Vita della mia vita
-Tu mi somigli pallidetta oliva
-O rosa scolorita
-Ne di beltà sei priva
-Ma in ogni aspetto tù mi sei gradita
-O lusinghera ò schiva
-E se mi segui ò fuggi
-Soavemente mi consumi e struggi.
+	Vita della mia vita
+	Tu mi somigli pallidetta oliva
+	O rosa scolorita
+	Ne di beltà sei priva
+	Ma in ogni aspetto tù mi sei gradita
+	O lusinghera ò schiva
+	E se mi segui ò fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -262,14 +269,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:	
-Vita de la mia vita
-Tu mi somigli pallidetta oliva
-O rosa scolorita
-Ne di beltà sei priva
-Ma in ogni aspetto tù mi sei gradita
-O lusinghera ò schiva
-E se mi segui o fuggi
-Soavemente mi consumi e struggi.
+	Vita de la mia vita
+	Tu mi somigli pallidetta oliva
+	O rosa scolorita
+	Ne di beltà sei priva
+	Ma in ogni aspetto tù mi sei gradita
+	O lusinghera ò schiva
+	E se mi segui o fuggi
+	Soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -336,14 +343,14 @@ Soavemente mi consumi e struggi.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:	
-Vita de la mia vita
-tu mi somigli pallidetta oliva
+	Vita de la mia vita
+	tu mi somigli pallidetta oliva
 ò rosa scolorita
-ne di beltà sei priva
-ma in ogni aspetto tu mi sei gradita
+	ne di beltà sei priva
+	ma in ogni aspetto tu mi sei gradita
 ò lusinghiera ò schiva
 ò se mi segui ò fuggi
-soavemente mi consumi e struggi.
+	soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -355,14 +362,14 @@ soavemente mi consumi e struggi.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita
-tu mi somigli pallidetta oliva
+	Vita de la mia vita
+	tu mi somigli pallidetta oliva
 ò rosa scolorita
-ne di beltà sei priva
-ma in ogni aspetto tu mi sei gradita
+	ne di beltà sei priva
+	ma in ogni aspetto tu mi sei gradita
 ò lusinghiera ò schiva
 ò se mi segui ò fuggi
-soavemente mi consumi e struggi.
+	soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -374,14 +381,14 @@ soavemente mi consumi e struggi.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita
-tu mi somigli pallidetta oliva
+	Vita de la mia vita
+	tu mi somigli pallidetta oliva
 ò rosa scolorita
-ne di beltà sei priva
-ma in ogni aspetto tu mi sei gradita
+	ne di beltà sei priva
+	ma in ogni aspetto tu mi sei gradita
 ò lusinghiera ò schiva
 ò se mi segui ò fuggi
-soavemente mi consumi e struggi.
+	soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -393,14 +400,14 @@ soavemente mi consumi e struggi.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita
-tu mi somigli pallidetta oliva
+	Vita de la mia vita
+	tu mi somigli pallidetta oliva
 ò rosa scolorita
-ne di beltà sei priva
-ma in ogni aspetto tu mi sei gradita
+	ne di beltà sei priva
+	ma in ogni aspetto tu mi sei gradita
 ò lusinghiera ò schiva
 ò se mi segui ò fuggi
-soavemente mi consumi e struggi.
+	soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 
@@ -412,14 +419,14 @@ soavemente mi consumi e struggi.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Vita de la mia vita
-tu mi somigli pallidetta oliva
+	Vita de la mia vita
+	tu mi somigli pallidetta oliva
 ò rosa scolorita
-ne di beltà sei priva
-ma in ogni aspetto tu mi sei gradita
+	ne di beltà sei priva
+	ma in ogni aspetto tu mi sei gradita
 ò lusinghiera ò schiva
 ò se mi segui ò fuggi
-soavemente mi consumi e struggi.
+	soavemente mi consumi e struggi.
 @@END: VARIORUM
 
 

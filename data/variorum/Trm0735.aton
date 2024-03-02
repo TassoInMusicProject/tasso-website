@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
 @ID:		Flc2
@@ -17,11 +18,11 @@
 @PAGE:		238v
 @PARATEXT:	Torq. Tasso. perche vi è chi l'ha visto di sua mano
 @VERSE:		
-Bella Angioletta dalle vaghe piume
-Prestane al grave pondo
-Tanto, ch’io esca fuor di questo fondo
-O possa in qualche ramo
-Di te cantando dir Io amo, io amo
+	Bella Angioletta dalle vaghe piume
+	Prestane al grave pondo
+	Tanto, ch’io esca fuor di questo fondo
+	O possa in qualche ramo
+	Di te cantando dir Io amo, io amo
 @@END: VARIORUM
 
 
@@ -44,11 +45,11 @@ Di te cantando dir Io amo, io amo
 @PAGE:		5
 @PARATEXT:	
 @VERSE:	
-Bella Angioletta da le vaghe piume
-Prestane al grave pondo
-Tante, ch’io esca fuor di questo fondo,
-O possa in qualche ramo
-Di te cantando dire, Io amo, io amo.
+	Bella Angioletta da le vaghe piume
+	Prestane al grave pondo
+	Tante, ch’io esca fuor di questo fondo,
+	O possa in qualche ramo
+	Di te cantando dire, Io amo, io amo.
 @@END: VARIORUM
 
 
@@ -60,11 +61,11 @@ Di te cantando dire, Io amo, io amo.
 @PAGE:		51
 @PARATEXT:	
 @VERSE:	
-Bella Angioletta da le vaghe piume
-Prestane al grave pondo
-Tanto, ch’io esca fuor di questo fondo,
-O possa in qualche ramo
-Di te cantando dire, Io amo, io amo.
+	Bella Angioletta da le vaghe piume
+	Prestane al grave pondo
+	Tanto, ch’io esca fuor di questo fondo,
+	O possa in qualche ramo
+	Di te cantando dire, Io amo, io amo.
 @@END: VARIORUM
 
 
@@ -76,11 +77,11 @@ Di te cantando dire, Io amo, io amo.
 @PAGE:		Parte Seconda, 5
 @PARATEXT:	
 @VERSE:	
-Bella Angioletta da le vaghe piume
-Prestane al grave pondo
-Tante, ch’io esca fuor di questo fondo.
-O possa in qualche ramo
-Di te cantando dire, Io amo, io amo.
+	Bella Angioletta da le vaghe piume
+	Prestane al grave pondo
+	Tante, ch’io esca fuor di questo fondo.
+	O possa in qualche ramo
+	Di te cantando dire, Io amo, io amo.
 @@END: VARIORUM
 
 
@@ -114,13 +115,15 @@ Di te cantando dire, Io amo, io amo.
 @PAGE:		52
 @PARATEXT:	
 @VERSE:		
-Bella Angioletta da le vaghe piume
-Prestane al grave pondo
-Tante, ch’io esca fuor di questo fondo.
-O possa in qualche ramo
-Di te cantando dire, Io amo, io amo.
+	Bella Angioletta da le vaghe piume
+	Prestane al grave pondo
+	Tante, ch’io esca fuor di questo fondo.
+	O possa in qualche ramo
+	Di te cantando dire, Io amo, io amo.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
 @ID:		S34
 @TYPE:		print
@@ -128,13 +131,15 @@ Di te cantando dire, Io amo, io amo.
 @PAGE:		51
 @PARATEXT:	Madrigali.
 @VERSE:		
-BELLA Angioletta da le vaghe piume
+	BELLA Angioletta da le vaghe piume
 	Prestane al grave pondo
 	Tante, ch’io esca fuor di questo fondo,
 	O possa in qualche ramo
 	Di te cantando dire. Io amo, io amo.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
 @ID:		S68
 @TYPE:		print
@@ -142,13 +147,15 @@ BELLA Angioletta da le vaghe piume
 @PAGE:		51
 @PARATEXT:	Madrigali.
 @VERSE:		
-BELLA Angioletta da le vaghe piume
+	BELLA Angioletta da le vaghe piume
 	Prestane al grave pondo
 	Tante, ch’io esca fuor di questo fondo,
 	O possa in qualche ramo
 	Di te cantando dire. Io amo, io amo.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
 @ID:		S141
 @TYPE:		print
@@ -156,13 +163,15 @@ BELLA Angioletta da le vaghe piume
 @PAGE:		Parte seconda delle Rime, 164
 @PARATEXT:	Priega la sua Angioletta d’essere a lui cortese sì della sua gratia, ch’egli cantando di lei divenga famoso.
 @VERSE:		
-Bella Angioletta da le vaghe piume,
+	Bella Angioletta da le vaghe piume,
 	Prestane al grave pondo
 	Tante, ch’io esca fuor di questo fondo,
 	O possa in qualche ramo
 	Di te cantando dire, Io amo, io amo.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
 @ID:		S166
 @TYPE:		print
@@ -170,13 +179,15 @@ Bella Angioletta da le vaghe piume,
 @PAGE:		Parte seconda delle Rime, 164
 @PARATEXT:	Priega la sua Angioletta d’essere a lui cortese sì della sua gratia, ch’egli cantando di lei divenga famoso.
 @VERSE:		
-Bella Angioletta da le vaghe piume,
+	Bella Angioletta da le vaghe piume,
 	Prestane al grave pondo
 	Tante, ch’io esca fuor di questo fondo,
 	O possa in qualche ramo
 	Di te cantando dire, Io amo, io amo.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0735
 @ID:		S169
 @TYPE:		print
@@ -184,12 +195,12 @@ Bella Angioletta da le vaghe piume,
 @PAGE:		RIME DEL TASSO.AMOROSE. P. I., 136
 @PARATEXT:	Favore bramato.
 @VERSE:		
-Bella Angeletta da le vaghe piume
+	Bella Angeletta da le vaghe piume
 	Prestàne al grave pondo
 	Tante, ch’io esca fuor di questo fondo,
 	O possa in qualche ramo
 	Di te cantando dire, io amo io amo.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

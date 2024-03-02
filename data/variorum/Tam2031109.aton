@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031109
 @ID:		A-Am
@@ -53,10 +54,10 @@
 @PAGE:		33r-33v
 @PARATEXT:	
 @VERSE:		
-.T[IRSI]. Dunque andar non vogliamo .A[MINTA]. Andar io voglio
-Ma non dove tu stimi .T[IRSI]. E dove .A[MINTA]. A morte
-S’altro in mio prò non hai fatto che quanto
-Hora mi narri .T[IRSI]. E poco parti questo?	
+	.T[IRSI]. Dunque andar non vogliamo .A[MINTA]. Andar io voglio
+	Ma non dove tu stimi .T[IRSI]. E dove .A[MINTA]. A morte
+	S’altro in mio prò non hai fatto che quanto
+	Hora mi narri .T[IRSI]. E poco parti questo?
 @@END: VARIORUM
 
 
@@ -82,7 +83,9 @@ Hora mi narri .T[IRSI]. E poco parti questo?
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031109
 @ID:		A-1580D
 @TYPE:		print
@@ -90,11 +93,11 @@ Hora mi narri .T[IRSI]. E poco parti questo?
 @PAGE:		27v
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	Dunq; andar non vogliamo? A. andar voglio io
+	T.	Dunq; andar non vogliamo? A. andar voglio io
 	Mà non dove tu stimi. T. E dove? A. à morte,
 	S’altro in mio pro non hai fatto, che quanto
 	Hora mi narri. T. E poco parti questo?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -117,10 +120,10 @@ T.	Dunq; andar non vogliamo? A. andar voglio io
 @PAGE:		52
 @PARATEXT:	
 @VERSE:		
-Tir. dunque andar non vogliamo? A. andare io voglio
-Ma non dove tu stimi Tir. E dove? A. a morte,
-S’altro in mio prò non hai fatto, che quanto
-Hora mi narri. Tir. E poco parti questo?	
+	Tir. dunque andar non vogliamo? A. andare io voglio
+	Ma non dove tu stimi Tir. E dove? A. a morte,
+	S’altro in mio prò non hai fatto, che quanto
+	Hora mi narri. Tir. E poco parti questo?
 @@END: VARIORUM
 
 
@@ -146,7 +149,9 @@ Hora mi narri. Tir. E poco parti questo?
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031109
 @ID:		A-1581O
 @TYPE:		print
@@ -154,11 +159,11 @@ Hora mi narri. Tir. E poco parti questo?
 @PAGE:		53
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-TIR.	Dunque andar non vogliamo? A. andare io voglio
+	TIR.	Dunque andar non vogliamo? A. andare io voglio
 	Ma non dove tu stimi. TIR. E dove? A. A morte,
 	S’altro in mio prò non hai fatto, che quanto
 	Hora mi narri. TIR. E poco parti questo?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -769,14 +774,14 @@ TIR.	Dunque andar non vogliamo? A. andare io voglio
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-[TACET]
-AMINTA Andar io voglio
-Ma non dove tu stimi
-TIRSI E dove
-AMINTA A morte
-S’altro in mio prò non hai fatto che quant’
-Hora mi narri
-TIRSI E poco parti questo.	
+	[TACET]
+	AMINTA Andar io voglio
+	Ma non dove tu stimi
+	TIRSI E dove
+	AMINTA A morte
+	S’altro in mio prò non hai fatto che quant’
+	Hora mi narri
+	TIRSI E poco parti questo.
 @@END: VARIORUM
 
 
@@ -788,10 +793,10 @@ TIRSI E poco parti questo.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque andar non vogliamo AMINTA Andare io voglio
-Ma non dove tu stimi TIRSI e dove AMINTA A morte
-s’altr’ in mio prò non hai fatto Che quant’
-hora mi narri TIRSI E poco parti questo.
+	TIRSI Dunque andar non vogliamo AMINTA Andare io voglio
+	Ma non dove tu stimi TIRSI e dove AMINTA A morte
+	s’altr’ in mio prò non hai fatto Che quant’
+	hora mi narri TIRSI E poco parti questo.
 @@END: VARIORUM
 
 
@@ -803,10 +808,10 @@ hora mi narri TIRSI E poco parti questo.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque andar non vogliamo AMINTA Andare io voglio
-Ma non dove tu stimi TIRSI E dove AMINTA A morte
-S’altro in mio pro non hai fatto che quant’
-Hora mi narri TIRSI E poco parti questo.	
+	TIRSI Dunque andar non vogliamo AMINTA Andare io voglio
+	Ma non dove tu stimi TIRSI E dove AMINTA A morte
+	S’altro in mio pro non hai fatto che quant’
+	Hora mi narri TIRSI E poco parti questo.
 @@END: VARIORUM
 
 
@@ -818,10 +823,10 @@ Hora mi narri TIRSI E poco parti questo.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunqu’ andar non vogliamo AMINTA Andare io voglio
-Ma non dove tu stimi TIRSI E dove AMINTA A morte
-S’altr’ in mio prò non hai fatto che quant’
-Hora mi narri TIRSI E poco parti questo.	
+	TIRSI Dunqu’ andar non vogliamo AMINTA Andare io voglio
+	Ma non dove tu stimi TIRSI E dove AMINTA A morte
+	S’altr’ in mio prò non hai fatto che quant’
+	Hora mi narri TIRSI E poco parti questo.
 @@END: VARIORUM
 
 
@@ -833,10 +838,10 @@ Hora mi narri TIRSI E poco parti questo.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque andar non vogliamo AMINTA Andare io voglio
-Ma non dove tu stimi TIRSI e dove AMINTA A morte
-s’altr’ in mio prò non hai fatto [TACET]
-[TACET] TIRSI E poco parti questo.	
+	TIRSI Dunque andar non vogliamo AMINTA Andare io voglio
+	Ma non dove tu stimi TIRSI e dove AMINTA A morte
+	s’altr’ in mio prò non hai fatto [TACET]
+	[TACET] TIRSI E poco parti questo.
 @@END: VARIORUM
 
 
@@ -848,10 +853,10 @@ s’altr’ in mio prò non hai fatto [TACET]
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque andar non vogliamo [TACET]
-[TACET] TIRSI e dove AMINTA A morte
-s’altr’ in mio prò non hai fatto Che quant’
-hora mi narri TIRSI E poco parti questo.	
+	TIRSI Dunque andar non vogliamo [TACET]
+	[TACET] TIRSI e dove AMINTA A morte
+	s’altr’ in mio prò non hai fatto Che quant’
+	hora mi narri TIRSI E poco parti questo.
 @@END: VARIORUM
 
 

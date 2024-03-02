@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		A1
@@ -296,7 +297,7 @@
 @SMSIGLUM:	R<sub>7</sub>
 @PAGE:		396r
 @PARATEXT:	Sonetto del Tasso
-[The enitre poem is crossed out with a diagonal strike-through]
+	[The enitre poem is crossed out with a diagonal strike-through]
 @VERSE:	
 	Di nettare amoroso {ebro} la mente
 	{Ratto fui non so come a chiusa} chiostra
@@ -654,7 +655,7 @@
 @@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		S33
 @TYPE:		print
@@ -679,9 +680,10 @@
 	Provinsi in vera pugna, e non si sdegni
 	{Scontro} d’amante. Amor, {me}, tuò devoto
 	Opponi à l’una, {ò fra le due fà terzo}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		S67
 @TYPE:		print
@@ -706,9 +708,10 @@
 	Provinsi in vera pugna, e non si sdegni
 	{Scontro} d’amante. Amor, {me}, tuò devoto
 	Opponi à l’una, {ò fra le due fà terzo}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		S141
 @TYPE:		print
@@ -733,10 +736,10 @@
 	Provinsi in vera pugna, e non si sdegni
 	{Scontro} d’amante. Amor, {me} tuò devoto
 	Oppon à l’una, {ò fra le due fà terzo}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		S166
 @TYPE:		print
@@ -761,10 +764,10 @@
 	Provinsi in vera pugna, e non si sdegni
 	{Scontro} d’amante. Amor, {me} tuò devoto
 	Oppon à l’una, {ò fra le due fà terzo}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		S169
 @TYPE:		print
@@ -789,7 +792,7 @@
 	Provinsi in vera pugna, e non si sdegni
 	{Scontro} d’amante, Amor, {mè} tuo devoto
 	Oppon à l’una, {ò frà le due fà terzo}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -1311,6 +1314,7 @@
 	Opponi à l'una {ò frà le due fà terzo}.
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		Trm0183e-Canto
@@ -1335,6 +1339,7 @@
 	{Scontro} d'amante Amor {me} tuo devoto
 	Opponi à l'una {ò frà le due fà terzo}.
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
@@ -1361,6 +1366,7 @@
 	Opponi à l'una {ò frà le due fà terzo}.
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		Trm0183e-Alto
@@ -1386,6 +1392,7 @@
 	Opponi à l'una {ò frà le due fà terzo}.
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183
 @ID:		Trm0183e-Tenore
@@ -1410,6 +1417,7 @@
 	{Scontro} d'amante Amor {me} tuo devoto
 	Opponi à l'una {ò frà le due fà terzo}.
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0183

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
 @ID:		A-Am
@@ -53,13 +54,13 @@
 @PAGE:		31v
 @PARATEXT:	
 @VERSE:		
-.T[IRSI]. Nove Aminta t’annuntio di conforto
-Lascia homai questo tanto lamentarti
-.A[MINTA]. Ohime che di? che porti?
-O la vita ò la morte?
-.T[IRSI]. Porto salute e vita s’ardirai
-Di farti lor incontra ma fa luogo
-D’esser un huomo Aminta un huomo ardito.		
+	.T[IRSI]. Nove Aminta t’annuntio di conforto
+	Lascia homai questo tanto lamentarti
+	.A[MINTA]. Ohime che di? che porti?
+	O la vita ò la morte?
+	.T[IRSI]. Porto salute e vita s’ardirai
+	Di farti lor incontra ma fa luogo
+	D’esser un huomo Aminta un huomo ardito.
 @@END: VARIORUM
 
 
@@ -85,7 +86,9 @@ D’esser un huomo Aminta un huomo ardito.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
 @ID:		A-1580D
 @TYPE:		print
@@ -93,14 +96,14 @@ D’esser un huomo Aminta un huomo ardito.
 @PAGE:		26v
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	Nuove, Aminta, t’annuntio di conforto;
+	T.	Nuove, Aminta, t’annuntio di conforto;
 	Lascia homai questo tanto lamentarti.
-A.	Ohime, che dì, che porti,
+	A.	Ohime, che dì, che porti,
 	O la vita, ò la morte?
-T.	Porto salute, e vita, s’ardirai
+	T.	Porto salute, e vita, s’ardirai
 	Di farti loro incontro; mà fà luogo
 	D’esser un huomo Aminta, e n'huomo ardito.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -123,13 +126,13 @@ T.	Porto salute, e vita, s’ardirai
 @PAGE:		50
 @PARATEXT:	
 @VERSE:		
-Tir. Nuove, Aminta, t’annontio di conforto:
-Lascia homai questo tanto lamentarti.
-Am. Ohime, che di? che porte?
-O la vita, ò la morte?
-Tir. Porto salute, e vita, s’ardirai
-Di farti loro incontra: ma fa d'uopo
-D’esser un'huom, Aminta, un'huom ardito.	
+	Tir. Nuove, Aminta, t’annontio di conforto:
+	Lascia homai questo tanto lamentarti.
+	Am. Ohime, che di? che porte?
+	O la vita, ò la morte?
+	Tir. Porto salute, e vita, s’ardirai
+	Di farti loro incontra: ma fa d'uopo
+	D’esser un'huom, Aminta, un'huom ardito.
 @@END: VARIORUM
 
 
@@ -155,7 +158,9 @@ D’esser un'huom, Aminta, un'huom ardito.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
 @ID:		A-1581O
 @TYPE:		print
@@ -163,14 +168,14 @@ D’esser un'huom, Aminta, un'huom ardito.
 @PAGE:		51
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirsi.
 @VERSE:		
-TIR.	Nuove, Aminta, t’annontio di conforto:
+	TIR.	Nuove, Aminta, t’annontio di conforto:
 	Lascia homai questo tanto lamentarti.
-AM.	Ohime, che di? che porte?
+	AM.	Ohime, che di? che porte?
 	O la vita, ò la morte?
-TIR.	Porto salute, e vita, s’ardirai
+	TIR.	Porto salute, e vita, s’ardirai
 	Di farti loro incontro: ma fa d'uopo
 	D’esser un' huom Aminta, un' huom ardito.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -781,13 +786,13 @@ TIR.	Porto salute, e vita, s’ardirai
 @PAGE:		2
 @PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-[TACET]
-[TACET]
-Hoime che di che porti
-O la vita o la morte
-Porto salut’e vita S’ardirai
-di farti lor incontra Ma fà d’huopo
-d’esser un’ huom’ Aminta un’ huom’ ardito.
+	[TACET]
+	[TACET]
+	Hoime che di che porti
+	O la vita o la morte
+	Porto salut’e vita S’ardirai
+	di farti lor incontra Ma fà d’huopo
+	d’esser un’ huom’ Aminta un’ huom’ ardito.
 @@END: VARIORUM
 
 
@@ -799,13 +804,13 @@ d’esser un’ huom’ Aminta un’ huom’ ardito.
 @PAGE:		2
 @PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-Nove Aminta t’annoncio di conforto
-Lascia homai questo tanto lamentarti
-[TACET]
-[TACET]
-Porto salut’e vita s’ardirai
-Di farti lor incontra ma fà d’huopo
-D’esser un’ huom’ Aminta un’ huom’ ardito.
+	Nove Aminta t’annoncio di conforto
+	Lascia homai questo tanto lamentarti
+	[TACET]
+	[TACET]
+	Porto salut’e vita s’ardirai
+	Di farti lor incontra ma fà d’huopo
+	D’esser un’ huom’ Aminta un’ huom’ ardito.
 @@END: VARIORUM
 
 
@@ -817,13 +822,13 @@ D’esser un’ huom’ Aminta un’ huom’ ardito.
 @PAGE:		2
 @PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-[TACET]
-[TACET]
-Hoime che di che porte
-O la vita o la morte
-Porto salut’ e vita s’ardirai
-Di farti lor incontra ma fà d’huopo
-D’esser un’ huom’ Aminta un’ huom’ ardito.	
+	[TACET]
+	[TACET]
+	Hoime che di che porte
+	O la vita o la morte
+	Porto salut’ e vita s’ardirai
+	Di farti lor incontra ma fà d’huopo
+	D’esser un’ huom’ Aminta un’ huom’ ardito.
 @@END: VARIORUM
 
 
@@ -833,15 +838,15 @@ D’esser un’ huom’ Aminta un’ huom’ ardito.
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
 @PAGE:		2
-@PARATEXT:	Li tre Aminta uniti.	
+@PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-[TACET]
-[TACET]
-Hoime che di che porti
-O la vita o la morte
-Porto salut’e vita S’ardirai
-di farti lor incontra Ma fà d’huopo
-D’esser un’ huom’ Aminta un’ huom’ ardito.	
+	[TACET]
+	[TACET]
+	Hoime che di che porti
+	O la vita o la morte
+	Porto salut’e vita S’ardirai
+	di farti lor incontra Ma fà d’huopo
+	D’esser un’ huom’ Aminta un’ huom’ ardito.
 @@END: VARIORUM
 
 
@@ -853,13 +858,13 @@ D’esser un’ huom’ Aminta un’ huom’ ardito.
 @PAGE:		2
 @PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-Nove Aminta t’annoncio di conforto
-Lascia homai questo tanto lamentarti
-[TACET]
-[TACET]
-Porto salut’e vita s’ardirai
-Di farti lor incontra ma fà d’huopo
-D’esser un’ huom’ Aminta un’ huom’ ardito.	
+	Nove Aminta t’annoncio di conforto
+	Lascia homai questo tanto lamentarti
+	[TACET]
+	[TACET]
+	Porto salut’e vita s’ardirai
+	Di farti lor incontra ma fà d’huopo
+	D’esser un’ huom’ Aminta un’ huom’ ardito.
 @@END: VARIORUM
 
 
@@ -871,13 +876,13 @@ D’esser un’ huom’ Aminta un’ huom’ ardito.
 @PAGE:		2
 @PARATEXT:	Li tre Aminta uniti.
 @VERSE:		
-Nove Aminta t’annoncio di conforto
-Lascia homai questo tanto lamentarti
-[TACET]
-[TACET]
-Porto salut’e vita s’ardirai
-Di farti lor incontra ma fà d’huopo
-D’esser un’ huom’ Aminta un’ huom’ ardito.
+	Nove Aminta t’annoncio di conforto
+	Lascia homai questo tanto lamentarti
+	[TACET]
+	[TACET]
+	Porto salut’e vita s’ardirai
+	Di farti lor incontra ma fà d’huopo
+	D’esser un’ huom’ Aminta un’ huom’ ardito.
 @@END: VARIORUM
 
 
@@ -889,14 +894,15 @@ D’esser un’ huom’ Aminta un’ huom’ ardito.
 @PAGE:		20
 @PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
 @VERSE:		
-Nove Aminta t’annontio di conforto
-Lascia homai questo tanto lamentarti
-[TACET]
-[TACET]
-Porto salute e vita S’ardirai
-di farti loro incontra Ma fà d’uopo
-d’esser’ un’huom’ Aminta un’huom’ardito
+	Nove Aminta t’annontio di conforto
+	Lascia homai questo tanto lamentarti
+	[TACET]
+	[TACET]
+	Porto salute e vita S’ardirai
+	di farti loro incontra Ma fà d’uopo
+	d’esser’ un’huom’ Aminta un’huom’ardito
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
@@ -906,14 +912,15 @@ d’esser’ un’huom’ Aminta un’huom’ardito
 @PAGE:		20
 @PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
 @VERSE:		
-[TACET]
-[TACET]
-Ohime che di? che porte
-O la vita ò la morte
-[TACET]
-[TACET]
-[TACET]
+	[TACET]
+	[TACET]
+	Ohime che di? che porte
+	O la vita ò la morte
+	[TACET]
+	[TACET]
+	[TACET]
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
@@ -923,14 +930,15 @@ O la vita ò la morte
 @PAGE:		20
 @PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
 @VERSE:		
-[TACET]
-[TACET]
-Ohime che di? che porte?
-O la vita ò la morte
-[TACET]
-[TACET]
-[TACET]
+	[TACET]
+	[TACET]
+	Ohime che di? che porte?
+	O la vita ò la morte
+	[TACET]
+	[TACET]
+	[TACET]
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
@@ -940,14 +948,15 @@ O la vita ò la morte
 @PAGE:		20
 @PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
 @VERSE:		
-Nove Aminta t’annoncio di conforto
-Lascia homai questo tanto lamentarti
-[TACET]
-[TACET]
-Porto salute e vita S’ardirai
-di farti loro incontra Ma fà d’uopo
-d’esser’ un’huom’ Aminta un’huom’ardito
+	Nove Aminta t’annoncio di conforto
+	Lascia homai questo tanto lamentarti
+	[TACET]
+	[TACET]
+	Porto salute e vita S’ardirai
+	di farti loro incontra Ma fà d’uopo
+	d’esser’ un’huom’ Aminta un’huom’ardito
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031045
@@ -957,13 +966,13 @@ d’esser’ un’huom’ Aminta un’huom’ardito
 @PAGE:		20
 @PARATEXT:	Dialogo a 8. Tirsi. Primo Choro. Prima parte.
 @VERSE:		
-[TACET]
-[TACET]
-Ohime che di? che porte
-O la vita ò la morte
-[TACET]
-[TACET]
-[TACET]
+	[TACET]
+	[TACET]
+	Ohime che di? che porte
+	O la vita ò la morte
+	[TACET]
+	[TACET]
+	[TACET]
 @@END: VARIORUM
 
 

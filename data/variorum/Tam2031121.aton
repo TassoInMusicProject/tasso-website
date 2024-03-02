@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031121
 @ID:		A-Am
@@ -53,11 +54,11 @@
 @PAGE:		33v
 @PARATEXT:	
 @VERSE:		
-[TIRSI] E s’ella vuol che’l tuo diletto sia
-Tuo furto e tua rapina e non suo dono
-Ne sua mercede à te folle che importa
-Più l’un modo che l’altro .A[MINTA]. E chi m’accerta
-Che'l suo desir sia tale? .T[IRSI]. O mentecatto.			
+	[TIRSI] E s’ella vuol che’l tuo diletto sia
+	Tuo furto e tua rapina e non suo dono
+	Ne sua mercede à te folle che importa
+	Più l’un modo che l’altro .A[MINTA]. E chi m’accerta
+	Che'l suo desir sia tale? .T[IRSI]. O mentecatto.
 @@END: VARIORUM
 
 
@@ -83,7 +84,9 @@ Che'l suo desir sia tale? .T[IRSI]. O mentecatto.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031121
 @ID:		A-1580D
 @TYPE:		print
@@ -91,12 +94,12 @@ Che'l suo desir sia tale? .T[IRSI]. O mentecatto.
 @PAGE:		28r
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	E, s’ella vuol, che’l tuo diletto sia
+	T.	E, s’ella vuol, che’l tuo diletto sia
 	Tuo furto, e tua rapina, e non suo dono,
 	Ne sua mercede, à te folle, ch’ importa
 	Più l’un modo, che l’altro? A. E chi m’accerta
 	Ch ’l suo desir sia tale? T. O mentecatto,
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -119,11 +122,11 @@ T.	E, s’ella vuol, che’l tuo diletto sia
 @PAGE:		53
 @PARATEXT:	
 @VERSE:		
-E, s’ella vuol, che’l tuo diletto sia
-Tuo furto, ò tua rapina, e non suo dono,
-Ne sua mercede, à te, folle, che importa
-Più l’un modo, che l’altro? A. E chi m’accerta
-Che il suo desir sia tale? Tir. O mentecatto.		
+	E, s’ella vuol, che’l tuo diletto sia
+	Tuo furto, ò tua rapina, e non suo dono,
+	Ne sua mercede, à te, folle, che importa
+	Più l’un modo, che l’altro? A. E chi m’accerta
+	Che il suo desir sia tale? Tir. O mentecatto.
 @@END: VARIORUM
 
 
@@ -149,7 +152,9 @@ Che il suo desir sia tale? Tir. O mentecatto.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031121
 @ID:		A-1581O
 @TYPE:		print
@@ -157,12 +162,12 @@ Che il suo desir sia tale? Tir. O mentecatto.
 @PAGE:		53
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-TIR.	E, s’ella vuol, che’l tuo diletto sia
+	TIR.	E, s’ella vuol, che’l tuo diletto sia
 	Tuo furto, ò tua rapina, e non suo dono,
 	Nè sua mercede, à te, folle, che importa
 	Più l’un modo, che l’altro? AM. E chi m’accerta
 	Che il suo desir sia tale? TIR. O mentecatto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -773,11 +778,11 @@ TIR.	E, s’ella vuol, che’l tuo diletto sia
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-TIRSI E S’ella vuol che ’l tuo diletto sia
-Tuo furto o tua rapina e non suo dono
-Ne sua mercede a te folle ch’importa
-Più l’un modo che l’altro AMINTA E chi m’accerta
-Che’l suo desir sia tale TIRSI O mentecatto.		
+	TIRSI E S’ella vuol che ’l tuo diletto sia
+	Tuo furto o tua rapina e non suo dono
+	Ne sua mercede a te folle ch’importa
+	Più l’un modo che l’altro AMINTA E chi m’accerta
+	Che’l suo desir sia tale TIRSI O mentecatto.
 @@END: VARIORUM
 
 
@@ -786,14 +791,14 @@ Che’l suo desir sia tale TIRSI O mentecatto.
 @ID:		Tam2031121a-Alto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:	14	
+@PAGE:	14
 @PARATEXT:	
 @VERSE:		
-TIRSI E S’ella vuol che ’l tuo diletto sia
-Tuo furto o tua rapina e non suo dono
-Ne sua mercede a te folle ch’importa
-Più l’un modo che l’altro AMINTA e chi m’accerta
-Ch’el suo desir sia tale TIRSI O mentecatto.	
+	TIRSI E S’ella vuol che ’l tuo diletto sia
+	Tuo furto o tua rapina e non suo dono
+	Ne sua mercede a te folle ch’importa
+	Più l’un modo che l’altro AMINTA e chi m’accerta
+	Ch’el suo desir sia tale TIRSI O mentecatto.
 @@END: VARIORUM
 
 
@@ -805,11 +810,11 @@ Ch’el suo desir sia tale TIRSI O mentecatto.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-TIRSI E S’ella vuol che ’l tuo diletto sia
-Tuo furto o tua rapina e non suo dono
-Ne sua mercede a te folle ch’importa
-Più l’un modo che l’altro AMINTA E chi m’accerta
-Che’l suo desir sia tale TIRSI O mentecatto.
+	TIRSI E S’ella vuol che ’l tuo diletto sia
+	Tuo furto o tua rapina e non suo dono
+	Ne sua mercede a te folle ch’importa
+	Più l’un modo che l’altro AMINTA E chi m’accerta
+	Che’l suo desir sia tale TIRSI O mentecatto.
 @@END: VARIORUM
 
 
@@ -821,11 +826,11 @@ Che’l suo desir sia tale TIRSI O mentecatto.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-TIRSI E S’ella vuol che ’l tuo diletto sia
-Tuo furto o tua rapina e non suo dono
-Ne sua mercede a te folle ch’importa
-Più l’un modo che l’altro AMINTA E chi m’accerta
-Che’l suo desir sia tale TIRSI O mentecatto.		
+	TIRSI E S’ella vuol che ’l tuo diletto sia
+	Tuo furto o tua rapina e non suo dono
+	Ne sua mercede a te folle ch’importa
+	Più l’un modo che l’altro AMINTA E chi m’accerta
+	Che’l suo desir sia tale TIRSI O mentecatto.
 @@END: VARIORUM
 
 
@@ -837,11 +842,11 @@ Che’l suo desir sia tale TIRSI O mentecatto.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-TIRSI E S’ella vuol che ’l tuo diletto sia
-Tuo furto o tua rapina e non suo dono
-Ne sua mercede a te folle ch’importa
-Più l’un modo che l’altro AMINTA E chi m’accerta
-Ch’el suo desir sia tale TIRSI O mentecatto.	
+	TIRSI E S’ella vuol che ’l tuo diletto sia
+	Tuo furto o tua rapina e non suo dono
+	Ne sua mercede a te folle ch’importa
+	Più l’un modo che l’altro AMINTA E chi m’accerta
+	Ch’el suo desir sia tale TIRSI O mentecatto.
 @@END: VARIORUM
 
 
@@ -853,11 +858,11 @@ Ch’el suo desir sia tale TIRSI O mentecatto.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-TIRSI E S’ella vuol che ’l tuo diletto sia
-Tuo furto o tua rapina e non suo dono
-Ne sua mercede a te folle ch’importa
-Più l’un modo che l’altro [TACET]
-[TACET] O mentecatto.	
+	TIRSI E S’ella vuol che ’l tuo diletto sia
+	Tuo furto o tua rapina e non suo dono
+	Ne sua mercede a te folle ch’importa
+	Più l’un modo che l’altro [TACET]
+	[TACET] O mentecatto.
 @@END: VARIORUM
 
 

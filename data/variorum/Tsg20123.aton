@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20123
 @ID:		G-Al
@@ -182,14 +183,14 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -201,14 +202,14 @@
 @PAGE:	206
 @PARATEXT:	
 @VERSE:		
-Piacquele assai, che’n quelle valli ombrose
-  L’orme sue erranti il caso abbian condutte,
-  Quì scese dal destriero, e quì depose
-  E l’arco, e la faretra, e l’armi tutte.
-  Armi infelici, disse, e vergognose,
-  Ch’usciste for della battaglia asciutte;
-  Quì vi depongo, e quì sepolte state,
-  Poi che l’ingiurie mie mal vendicate.		
+	Piacquele assai, che’n quelle valli ombrose
+	L’orme sue erranti il caso abbian condutte,
+	Quì scese dal destriero, e quì depose
+	E l’arco, e la faretra, e l’armi tutte.
+	Armi infelici, disse, e vergognose,
+	Ch’usciste for della battaglia asciutte;
+	Quì vi depongo, e quì sepolte state,
+	Poi che l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -220,14 +221,14 @@ Piacquele assai, che’n quelle valli ombrose
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -240,7 +241,9 @@ Piacquele assai, che’n quelle valli ombrose
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20123
 @ID:		G-1581MR
 @TYPE:		print
@@ -248,15 +251,15 @@ Piacquele assai, che’n quelle valli ombrose
 @PAGE:
 @PARATEXT:
 @VERSE:		
-[ABSENT]
 	[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-@@END:		VARIORUM
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -300,14 +303,14 @@ Piacquele assai, che’n quelle valli ombrose
 @PAGE:	322
 @PARATEXT:	
 @VERSE:		
-Piacquele assai, che’n quelle valli ombrose
-  L’orme sue erranti il caso habbia condutte:
-  Quì scese dal destriero, e quì depose
-  E l’arco e la faretra, e l’armi tutte.
-  Armi infelici, (disse) e vergognose,
-  Ch’usciste fuor de la battaglia asciutte:
-  Quì vi depongo, e quì sepolte state,
-  Poi che l’ingiurie mie mal vendicate.		
+	Piacquele assai, che’n quelle valli ombrose
+	L’orme sue erranti il caso habbia condutte:
+	Quì scese dal destriero, e quì depose
+	E l’arco e la faretra, e l’armi tutte.
+	Armi infelici, (disse) e vergognose,
+	Ch’usciste fuor de la battaglia asciutte:
+	Quì vi depongo, e quì sepolte state,
+	Poi che l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -331,7 +334,9 @@ Piacquele assai, che’n quelle valli ombrose
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20123
 @ID:		G-1582P
 @TYPE:		print
@@ -339,15 +344,15 @@ Piacquele assai, che’n quelle valli ombrose
 @PAGE:		113r
 @PARATEXT:
 @VERSE:		
-Piacquele assai, che’n quelle valli ombrose,
-   L’orme sue erranti il Caso habbian condute,
-   Quì scese dal destriero, e quì depose,
-   E l’arco, e la faretra, e l’armi tutte;
-   Armi infelici, disse, e vergognose,
-   Ch’usciste for de la battaglia asciutte,
-   Quì vi depongo, e quì sepolte state,
-   Poiche l’ingiurie mie mal vendicate.,
-@@END:		VARIORUM
+	Piacquele assai, che’n quelle valli ombrose,
+	L’orme sue erranti il Caso habbian condute,
+	Quì scese dal destriero, e quì depose,
+	E l’arco, e la faretra, e l’armi tutte;
+	Armi infelici, disse, e vergognose,
+	Ch’usciste for de la battaglia asciutte,
+	Quì vi depongo, e quì sepolte state,
+	Poiche l’ingiurie mie mal vendicate.,
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -391,14 +396,14 @@ Piacquele assai, che’n quelle valli ombrose,
 @PAGE:	223
 @PARATEXT:	
 @VERSE:		
-Piacquele assai, che’n quelle valli ombrose
-  L’orme sue erranti il caso habbian condutte.
-  Quì scese del destriero, e quì depose
-  E l’arco, e la faretra, e l’armi tutte.
-  Arme infelici (disse) e vergognose,
-  Ch’usciste fuor de la battaglia asciutte,
-  Quì vi depongo: e quì sepolte state,
-  Poi che l’ingiurie mie mal vendicate.		
+	Piacquele assai, che’n quelle valli ombrose
+	L’orme sue erranti il caso habbian condutte.
+	Quì scese del destriero, e quì depose
+	E l’arco, e la faretra, e l’armi tutte.
+	Arme infelici (disse) e vergognose,
+	Ch’usciste fuor de la battaglia asciutte,
+	Quì vi depongo: e quì sepolte state,
+	Poi che l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -443,14 +448,14 @@ Piacquele assai, che’n quelle valli ombrose
 @PAGE:	570
 @PARATEXT:	
 @VERSE:		
-Piacquele assai, che’n quelle valli ombrose
-  L’orme sue erranti il caso habbia condutte.
-  Quì scese dal destriero, e quì depose
-  E l’arco, e la faretra, e l’arme tutte.
-  Arme infelici (disse) e vergognose,
-  Ch’usciste fuor de la battaglia asciutte;
-  Quì vi depongo, e quì sepolte state,
-  Poi che l’ingiurie mie mal vendicate.		
+	Piacquele assai, che’n quelle valli ombrose
+	L’orme sue erranti il caso habbia condutte.
+	Quì scese dal destriero, e quì depose
+	E l’arco, e la faretra, e l’arme tutte.
+	Arme infelici (disse) e vergognose,
+	Ch’usciste fuor de la battaglia asciutte;
+	Quì vi depongo, e quì sepolte state,
+	Poi che l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -484,14 +489,14 @@ Piacquele assai, che’n quelle valli ombrose
 @PAGE:	241
 @PARATEXT:	
 @VERSE:		
-Piacquele assai, che ’n quelle valli ombrose
-   L’orme sue erranti il caso abbia condutte.
-   Quì scese dal destriero, e quì depose
-   E l’arco, e la faretra, e l’armi tutte.
-   Arme infelici, (disse) e vergognose,
-   Ch’usciste fuor de la battaglia asciutte,
-   Quì vi depongo: e quì sepolte state,
-   Poi che l’ingiurie mie mal vendicate.	
+	Piacquele assai, che ’n quelle valli ombrose
+	L’orme sue erranti il caso abbia condutte.
+	Quì scese dal destriero, e quì depose
+	E l’arco, e la faretra, e l’armi tutte.
+	Arme infelici, (disse) e vergognose,
+	Ch’usciste fuor de la battaglia asciutte,
+	Quì vi depongo: e quì sepolte state,
+	Poi che l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -570,7 +575,9 @@ Piacquele assai, che ’n quelle valli ombrose
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20123
 @ID:		G-1600C
 @TYPE:		print
@@ -578,15 +585,15 @@ Piacquele assai, che ’n quelle valli ombrose
 @PAGE:		570570
 @PARATEXT:
 @VERSE:		
-Piacquele assai, che 'n quelle valli ombrose
+	Piacquele assai, che 'n quelle valli ombrose
 	L’orme sue erranti il caso abbia condutte.
 	Quì scese dal destriero, e quì depose
 	E l’arco, e la faretra, e l’arme tutte.
 	Arme infelici (disse) e vergognose,
 	Ch’usciste fuor de la battaglia asciutte;
 	Quì vi depongo, e quì sepolte state,
-	Poi cheù l’ingiurie mie mal vendicate.	
-Ah, mà non fia, che frà tant’arme, e tante
+	Poi cheù l’ingiurie mie mal vendicate.
+	Ah, mà non fia, che frà tant’arme, e tante
 	Una di sangue hoggi si bagni almeno?
 	S’ogni altro petto à voi par di diamante,
 	Osarete piagar feminil seno?
@@ -595,7 +602,7 @@ Ah, mà non fia, che frà tant’arme, e tante
 	Tenero à colpi è questo mio; ben sallo
 	Amor, che mai non vi saetta in fallo.
 @CATAL   OGNUM:	Tsg20124
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -849,7 +856,9 @@ Ah, mà non fia, che frà tant’arme, e tante
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20123
 @ID:		G-1617P
 @TYPE:		print
@@ -857,7 +866,7 @@ Ah, mà non fia, che frà tant’arme, e tante
 @PAGE:		241
 @PARATEXT:
 @VERSE:		
-Piacquele assai, che 'n quelle valli ombrose
+	Piacquele assai, che 'n quelle valli ombrose
 	L’orme sue erranti il caso habbia condutte.
 	Quì scese del destriero, e quì depose
 	E l’arco, e la faretra, e l’armi tutte.
@@ -865,7 +874,7 @@ Piacquele assai, che 'n quelle valli ombrose
 	Ch’usciste fuor de la battaglia asciutte,
 	Quì vi depongo: e quì sepolte state,
 	Poi che l’ingiurie mie mal vendicate.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -964,14 +973,14 @@ Piacquele assai, che 'n quelle valli ombrose
 @PAGE:	241
 @PARATEXT:	
 @VERSE:		
-Piacquele assai, che’n quelle valli ombrose
-  L’orme sue erranti il caso abbia condutte.
-  Quì scese del destriero, e quì depose
-  E l’arco, e la faretra, e l’armi tutte.
-  Arme infelici (disse) e vergognose,
-  Ch’usciste fuor de la battaglia asciutte,
-  Quì vi depongo: e quì sepolte state,
-  Poiche l’ingiurie mie mal vendicate.		
+	Piacquele assai, che’n quelle valli ombrose
+	L’orme sue erranti il caso abbia condutte.
+	Quì scese del destriero, e quì depose
+	E l’arco, e la faretra, e l’armi tutte.
+	Arme infelici (disse) e vergognose,
+	Ch’usciste fuor de la battaglia asciutte,
+	Quì vi depongo: e quì sepolte state,
+	Poiche l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -1137,14 +1146,14 @@ Piacquele assai, che’n quelle valli ombrose
 @PAGE:		10
 @PARATEXT:	Prima Parte.
 @VERSE:		
-Piaquele assai che ’n quelle valli ombrose
-L’orme sue erranti il caso habbian condotte
-Qui scese dal destriero e qui depose
-E l’arco e la faretra e l’armi tutte
-Arme infelici disse e vergognose
-Ch’usciste fuor de la battaglia asciutte
-Qui vi depongo e qui sepolte state
-Poiché l’ingiurie mie mal vendicate.
+	Piaquele assai che ’n quelle valli ombrose
+	L’orme sue erranti il caso habbian condotte
+	Qui scese dal destriero e qui depose
+	E l’arco e la faretra e l’armi tutte
+	Arme infelici disse e vergognose
+	Ch’usciste fuor de la battaglia asciutte
+	Qui vi depongo e qui sepolte state
+	Poiché l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -1156,14 +1165,14 @@ Poiché l’ingiurie mie mal vendicate.
 @PAGE:		10
 @PARATEXT:	Prima Parte.
 @VERSE:		
-Piaquele assai che ’n quelle valli ombrose
-L’orme sue erranti il caso habbian condutte
-Qui scese dal destriero e qui depose
-E l’arco e la faretra e l’arme tutte
-Arme infelici disse e vergognose
-Ch’usciste fuor de la battaglia asciutte
-Qui vi depongo e qui sepolte state
-Poiché l’ingiurie mie mal vendicate.
+	Piaquele assai che ’n quelle valli ombrose
+	L’orme sue erranti il caso habbian condutte
+	Qui scese dal destriero e qui depose
+	E l’arco e la faretra e l’arme tutte
+	Arme infelici disse e vergognose
+	Ch’usciste fuor de la battaglia asciutte
+	Qui vi depongo e qui sepolte state
+	Poiché l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -1175,14 +1184,14 @@ Poiché l’ingiurie mie mal vendicate.
 @PAGE:		10
 @PARATEXT:	Prima Parte.
 @VERSE:		
-Piaquele assai che ’n quelle valli ombrose
-L’orme sue erranti il caso habbian condutte
-Qui scese dal destriero e qui depose
-E l’arco e la faretra e l’arme tutte
-Arme infelici disse [TACET]
-Ch’usciste fuor de la battaglia asciutte
-Qui vi depongo e qui sepolte state
-Poiché l’ingiurie mie mal vendicate.
+	Piaquele assai che ’n quelle valli ombrose
+	L’orme sue erranti il caso habbian condutte
+	Qui scese dal destriero e qui depose
+	E l’arco e la faretra e l’arme tutte
+	Arme infelici disse [TACET]
+	Ch’usciste fuor de la battaglia asciutte
+	Qui vi depongo e qui sepolte state
+	Poiché l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -1194,14 +1203,14 @@ Poiché l’ingiurie mie mal vendicate.
 @PAGE:		10
 @PARATEXT:	Prima Parte.
 @VERSE:		
-Piaquele assai che ’n quelle valli ombrose
-[TACET]
-Qui scese dal destriero e qui depose
-E l’arco e la faretra e l’arme tutte
-Arme infelici disse e vergognose
-Ch’usciste fuor de la battaglia asciutte
-Qui vi depongo e qui sepolte state
-Poiché l’ingiurie mie mal vendicate.
+	Piaquele assai che ’n quelle valli ombrose
+	[TACET]
+	Qui scese dal destriero e qui depose
+	E l’arco e la faretra e l’arme tutte
+	Arme infelici disse e vergognose
+	Ch’usciste fuor de la battaglia asciutte
+	Qui vi depongo e qui sepolte state
+	Poiché l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 
@@ -1213,14 +1222,14 @@ Poiché l’ingiurie mie mal vendicate.
 @PAGE:		10
 @PARATEXT:	Prima Parte.
 @VERSE:		
-Piaquele assai che ’n quelle valli ombrose
-L’orme sue erranti il caso habbian condutte
-Qui scese dal destriero e qui depose
-E l’arco e la faretra e l’arme tutte
-Arme infelici disse e vergognose
-Ch’usciste fuor de la battaglia asciutte
-Qui vi depongo e qui sepolte state
-Poiché l’ingiurie mie mal vendicate.
+	Piaquele assai che ’n quelle valli ombrose
+	L’orme sue erranti il caso habbian condutte
+	Qui scese dal destriero e qui depose
+	E l’arco e la faretra e l’arme tutte
+	Arme infelici disse e vergognose
+	Ch’usciste fuor de la battaglia asciutte
+	Qui vi depongo e qui sepolte state
+	Poiché l’ingiurie mie mal vendicate.
 @@END: VARIORUM
 
 

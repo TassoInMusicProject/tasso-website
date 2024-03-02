@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
 @ID:		none
@@ -67,6 +68,7 @@
 	Perche non {fù mai} mio.
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
 @ID:		S78
@@ -89,7 +91,8 @@
 	Perche non {fu mai} mio.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
 @ID:		S141
 @TYPE:		print
@@ -109,7 +112,8 @@
 	Ch’era più tuo, che tu di te non sei:
 	{Ma il} tuo già non {perd’io},
 	Perche non {fu mai} mio.
-@@END:		VARIORUM
+@@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
@@ -133,7 +137,8 @@
 	Per che non {fù mai} mio.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
 @ID:		S166
 @TYPE:		print
@@ -153,10 +158,10 @@
 	Ch’era più tuo, che tu di te non sei:
 	{Ma il} tuo già non {perd’io},
 	Perche non {fu mai} mio.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
 @ID:		S169
 @TYPE:		print
@@ -176,7 +181,7 @@
 	Ch’era più tuo, che tù di tè non sei:
 	{Ma il} tuo già non {perd’io},
 	Perche non {fù mai} mio.
-@@END:	VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -230,7 +235,7 @@
 @ID:		Trm0433a-Tenore
 @TYPE:		music
 @COMPOSER:	Marenzio, Luca
-@PAGE:	2	
+@PAGE:	2
 @PARATEXT:	
 @VERSE:		
 	[TACET] {Perfido} {tuo danno}
@@ -385,6 +390,7 @@
 	Perche non {fu mai} mio.
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
 @ID:		Trm0433c-Alto
@@ -406,6 +412,7 @@
 	{Ma 'l} tuo già non {perd’io}
 	Perche non {fu mai} mio.
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433
@@ -967,6 +974,7 @@
 	{Ma il} tuo gia non {perd’io}
 	Perche non {fu mai} mio.
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0433

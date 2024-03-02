@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
 @ID:		none
@@ -28,16 +29,16 @@
 @PAGE:		24
 @PARATEXT:	Piange la morte della Signora Flaminia*...ad istanza del signor Giulio Mosti.
 @VERSE:		
-O' vaga Tortorella,
-Tu la tua compagnia,
-Et io piango colei, che non fù mia.
+	O' vaga Tortorella,
+	Tu la tua compagnia,
+	Et io piango colei, che non fù mia.
 @VERSE:
-Misera vedovella,
-Tu sovra il nudo ramo,
+	Misera vedovella,
+	Tu sovra il nudo ramo,
 À piè del seco tronco io la richiamo.
 @VERSE:
-Ma l’aura solo, e’l vento
-Risponde mormorando al mio lamento.
+	Ma l’aura solo, e’l vento
+	Risponde mormorando al mio lamento.
 @@END: VARIORUM
 
 
@@ -49,16 +50,16 @@ Risponde mormorando al mio lamento.
 @PAGE:		24
 @PARATEXT:	Piange la morte della Signora Flaminia*...ad istanza del signor Giulio Mosti.
 @VERSE:		
-O' vaga Tortorella,
-Tu la tua compagnia,
-Et io piango colei, che non fù mia.
+	O' vaga Tortorella,
+	Tu la tua compagnia,
+	Et io piango colei, che non fù mia.
 @VERSE:
-Misera vedovella,
-Tu sovra il nudo ramo,
-A' piè del seco tronco io la richiamo.
+	Misera vedovella,
+	Tu sovra il nudo ramo,
+	A' piè del seco tronco io la richiamo.
 @VERSE:
-Ma l’aura solo, e’l vento
-Risponde mormorando al mio lamento.
+	Ma l’aura solo, e’l vento
+	Risponde mormorando al mio lamento.
 @@END: VARIORUM
 
 
@@ -71,7 +72,9 @@ Risponde mormorando al mio lamento.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
 @ID:		S141
 @TYPE:		print
@@ -79,16 +82,18 @@ Risponde mormorando al mio lamento.
 @PAGE:		Parte quarta delle Rime, 99
 @PARATEXT:	Ad instanza del Sig. Giulio Molti piange, &amp; si duole della morte della Sig. Flaminia… nobil Ferrarese.
 @VERSE:		
-O vaga Tortorella,
+	O vaga Tortorella,
 	Tu la tua compagnia
 	Et io piango colei, che non fu mia.
-Misera vedovella,
+	Misera vedovella,
 	Tu sovra il nudo ramo,
 	A’ piè del secco tronco io la richiamo.
-Ma l’aura solo, e ’l vento
+	Ma l’aura solo, e ’l vento
 	Risponde mormorando al mio lamento.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
 @ID:		S166
 @TYPE:		print
@@ -96,16 +101,18 @@ Ma l’aura solo, e ’l vento
 @PAGE:		Parte quarta delle Rime, 99
 @PARATEXT:	Ad instanza del Sig. Giulio Molti piange, &amp; si duole della morte della Sig. Flaminia… nobil Ferrarese.
 @VERSE:		
-O vaga Tortorella,
+	O vaga Tortorella,
 	Tu la tua compagnia
 	Et io piango colei, che non fu mia.
-Misera vedovella,
+	Misera vedovella,
 	Tu sovra il nudo ramo,
 	A’ piè del secco tronco io la richiamo.
-Ma l’aura solo, e ’l vento
+	Ma l’aura solo, e ’l vento
 	Risponde mormorando al mio lamento.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0399
 @ID:		S169
 @TYPE:		print
@@ -113,7 +120,7 @@ Ma l’aura solo, e ’l vento
 @PAGE:		RIME DEL TASSO.AMOROSE. P. I., 147
 @PARATEXT:	Segue. [Non ritrovando Madonna.]
 @VERSE:		
-O vaga Tortorella,
+	O vaga Tortorella,
 	Tù la tua compagnia
 	Et io piango colei, che non fù mia.
 	Misera vedovella,
@@ -121,7 +128,7 @@ O vaga Tortorella,
 	A piè del secco tronco io la richiamo.
 	Ma l’aura sola, e ’l vento
 	Risponde mormorando al mio lamento.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -187,14 +194,14 @@ O vaga Tortorella,
 @PAGE:		24
 @PARATEXT:	Per cantare nella Chitariglia Basso solo
 @VERSE:	
-O vagha tortorella
-tu la tua compagnia
+	O vagha tortorella
+	tu la tua compagnia
 & io piango colei che non fù mia
-misera vedovella
-tù sovra il nudo ramo
-a pié del secco tronco io la ricchiamo
-ma l’aura solo e’l vento
-risponde mormorando al mio lamento
+	misera vedovella
+	tù sovra il nudo ramo
+	a pié del secco tronco io la ricchiamo
+	ma l’aura solo e’l vento
+	risponde mormorando al mio lamento
 @@END: VARIORUM
 
 

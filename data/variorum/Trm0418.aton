@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
 @ID:		E1
@@ -17,13 +18,13 @@
 @PAGE:		213
 @PARATEXT:	stampat. [sic!]
 @VERSE:		
-Ardi e gela a tua voglia,
-Perfido, et inconstante,
-Hor nemico, hor Amante
-Che d’instabile ingegno
-Poco stimo l’amore, e men lo sdegno :
-e se l’amor fù vano,
-Van fia lo sdegno del tuo cor insano.
+	Ardi e gela a tua voglia,
+	Perfido, et inconstante,
+	Hor nemico, hor Amante
+	Che d’instabile ingegno
+	Poco stimo l’amore, e men lo sdegno :
+	e se l’amor fù vano,
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -35,7 +36,7 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		57
 @PARATEXT:	Risposta
 @VERSE:	
-Ardi, e gela a tua voglia
+	Ardi, e gela a tua voglia
 	Perfido ed impudico,
 	Hor amante, hor nemico
 	Ché d’incostante ingegno
@@ -76,13 +77,13 @@ Ardi, e gela a tua voglia
 @PAGE:		51r
 @PARATEXT:	
 @VERSE:		
-Ardi, e gela à tua voglia
-Perfido, &amp; impudico,
-Hor’amante, hor nemico;
-Che d’incostante ingegno
-Poco l’amore i’stimo, e men lo sdegno:
-E se l’amor fu vano,
-Van fia lo sdegno del tuo core insano.
+	Ardi, e gela à tua voglia
+	Perfido, &amp; impudico,
+	Hor’amante, hor nemico;
+	Che d’incostante ingegno
+	Poco l’amore i’stimo, e men lo sdegno:
+	E se l’amor fu vano,
+	Van fia lo sdegno del tuo core insano.
 @@END: VARIORUM
 
 
@@ -94,13 +95,13 @@ Van fia lo sdegno del tuo core insano.
 @PAGE:		51r
 @PARATEXT:	
 @VERSE:	
-Ardi, e gela à tua voglia
-Perfido, &amp; impudico,
-Hor’amante, hor nemico;
-Che d’incostante ingegno
-Poco l’amore i’stimo, e men lo sdegno:
-E se l’amor fu vano,
-Van fia lo sdegno del tuo core insano.
+	Ardi, e gela à tua voglia
+	Perfido, &amp; impudico,
+	Hor’amante, hor nemico;
+	Che d’incostante ingegno
+	Poco l’amore i’stimo, e men lo sdegno:
+	E se l’amor fu vano,
+	Van fia lo sdegno del tuo core insano.
 @@END: VARIORUM
 
 
@@ -124,7 +125,9 @@ Van fia lo sdegno del tuo core insano.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
 @ID:		S35
 @TYPE:		print
@@ -132,14 +135,14 @@ Van fia lo sdegno del tuo core insano.
 @PAGE:		51r
 @PARATEXT:
 @VERSE:		
-ARDI, e gela à tua voglia,
+	ARDI, e gela à tua voglia,
 	Perfido, &amp; impudico,
 	Hor’amante, hor nemico;
 	Che d’incostante ingegno
 	Poco l’amore istimo, e men lo sdegno.
 	E se l’ amor fù vano,
 	Van fia lo sdegno del tuo core insano.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -150,16 +153,17 @@ ARDI, e gela à tua voglia,
 @PAGE:		177
 @PARATEXT:	Del S. Torquato Tasso
 @VERSE:	
-Ardi, e gela à tua voglia,
-Perfido, &amp; impudico,
-Hor amante, hor nemico;
-Che d’inconstante ingegno
-Poco l’amor io stimo, et men lo sdegno;
-E se'l tuo amor fù vano,
-Van fia lo sdegno del tuo cor insano.
+	Ardi, e gela à tua voglia,
+	Perfido, &amp; impudico,
+	Hor amante, hor nemico;
+	Che d’inconstante ingegno
+	Poco l’amor io stimo, et men lo sdegno;
+	E se'l tuo amor fù vano,
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
 @ID:		S69
 @TYPE:		print
@@ -167,14 +171,14 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		51r
 @PARATEXT:
 @VERSE:		
-ARDI, e gela à tua voglia,
+	ARDI, e gela à tua voglia,
 	Perfido, &amp; impudico,
 	Hor’amante, hor nemico;
 	Che d’incostante ingegno
 	Poco l’amore istimo, e men lo sdegno.
 	E se l’ amor fù vano,
 	Van fia lo sdegno del tuo core insano.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -185,13 +189,13 @@ ARDI, e gela à tua voglia,
 @PAGE:		38
 @PARATEXT:	Risposta del Guerini
 @VERSE:	
-Ardi, e gela à tua voglia,
-Perfido, &amp; ipudico,
-Hor amante, hor nemico;
-Che d’inconstante ingegno
-Poco l’amore io stimo, &amp; men lo sdegno;
-E se'l tuo amor fù vano,
-Van fia lo sdegno del tuo core insano.
+	Ardi, e gela à tua voglia,
+	Perfido, &amp; ipudico,
+	Hor amante, hor nemico;
+	Che d’inconstante ingegno
+	Poco l’amore io stimo, &amp; men lo sdegno;
+	E se'l tuo amor fù vano,
+	Van fia lo sdegno del tuo core insano.
 @@END: VARIORUM
 
 
@@ -214,15 +218,17 @@ Van fia lo sdegno del tuo core insano.
 @PAGE:		108v
 @PARATEXT:	Risposta del Tasso.
 @VERSE:		
-Ardi, e gela à tua voglia
-Perfido, &amp; impudico,
-Or amante, or nemico;
-Che d’inconstante ingegno
-Poco l’amor io stimo, &amp; men lo sdegno:
-E se'l tuo amor fu vano,
-Van fia lo sdegno del tuo cor insano.
+	Ardi, e gela à tua voglia
+	Perfido, &amp; impudico,
+	Or amante, or nemico;
+	Che d’inconstante ingegno
+	Poco l’amor io stimo, &amp; men lo sdegno:
+	E se'l tuo amor fu vano,
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
 @ID:		S141
 @TYPE:		print
@@ -230,14 +236,14 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		Parte terza delle Rime, 201
 @PARATEXT:	A requisitione di donna abbandonata, &amp; isdegnata dall’amante suo.
 @VERSE:		
-Ardi, e gela à tua voglia,
+	Ardi, e gela à tua voglia,
 	Perfido, &amp; impudico,
 	Hor amantampe, hor nemico:
 	Che d’incostante ingegno
 	Poco l’amore io stimo, e men lo sdegno:
 	E se ’l tuo amor fu vano,
 	Van fia lo sdegno del tuo cor insano.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -248,13 +254,13 @@ Ardi, e gela à tua voglia,
 @PAGE:		Parte quinta, 167r
 @PARATEXT:	FOCO DI SDEGNO. / Risposta. / Torquato Tasso.
 @VERSE:		
-Ardi, e gela a tua voglia
-Perfido, &amp; impudico
-Or amante or nemico:
-Che d’inconstante ingegno
-Poco l’amor io stimo, e men lo sdegno:
-E se'l tuo amor fù vano
-Van fia lo sdegno del tuo cor insano.
+	Ardi, e gela a tua voglia
+	Perfido, &amp; impudico
+	Or amante or nemico:
+	Che d’inconstante ingegno
+	Poco l’amor io stimo, e men lo sdegno:
+	E se'l tuo amor fù vano
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -267,7 +273,9 @@ Van fia lo sdegno del tuo cor insano.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
 @ID:		S166
 @TYPE:		print
@@ -275,15 +283,17 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		Parte terza delle Rime, 201
 @PARATEXT:	A requisitione di donna abbandonata, &amp; isdegnata dall’amante suo.
 @VERSE:		
-Ardi, e gela à tua voglia,
+	Ardi, e gela à tua voglia,
 	Perfido, &amp; impudico,
 	Hor amantampe, hor nemico:
 	Che d’incostante ingegno
 	Poco l’amore io stimo, e men lo sdegno:
 	E se ’l tuo amor fu vano,
 	Van fia lo sdegno del tuo cor insano.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0418
 @ID:		S169
 @TYPE:		print
@@ -291,14 +301,14 @@ Ardi, e gela à tua voglia,
 @PAGE:		RIME DEL TASSO.AMOROSE. P. II., 260
 @PARATEXT:	Risposta.
 @VERSE:		
-Ardi, e gela a tua voglia,
+	Ardi, e gela a tua voglia,
 	Perfido, &amp; impudico,
 	Hor amanteh hor nemico:
 	Che d’incostante ingegno
 	Poco l’amor io stimo, e men lo sdegno:
 	E se ’l tuo amor fù vano,
 	Van fia lo sdegno del tuo core insano.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -639,13 +649,13 @@ Ardi, e gela a tua voglia,
 @PAGE:		14
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Ardi e gela a tua voglia
-Perfido &amp; impudico
-Hor'amant'hor nemico
-Che d’inconstant'ingegno
-Poco l’amore i stimo e men lo sdegno
-E se l’amor fu vano
-Van fia lo sdegno del tuo cor insano.
+	Ardi e gela a tua voglia
+	Perfido &amp; impudico
+	Hor'amant'hor nemico
+	Che d’inconstant'ingegno
+	Poco l’amore i stimo e men lo sdegno
+	E se l’amor fu vano
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -657,13 +667,13 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		14
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Ardi e gela a tua voglia
-Perfido &amp; impudico
-Hor'amant'hor nemico
-Che d’inconstant'ingegno
-[TACET]
-E se l’amor fu vano
-Van fia lo sdegno del tuo cor insano.	
+	Ardi e gela a tua voglia
+	Perfido &amp; impudico
+	Hor'amant'hor nemico
+	Che d’inconstant'ingegno
+	[TACET]
+	E se l’amor fu vano
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -675,13 +685,13 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		14
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Ardi e gela a tua voglia
-Perfido &amp; impudico
-Hor'amant'hor nemico
-Che d’inconstant'ingegno
-Poco l’amore i stimo e men lo sdegno
-E se l’amor fu vano
-Van fia lo sdegno del tuo cor insano.	
+	Ardi e gela a tua voglia
+	Perfido &amp; impudico
+	Hor'amant'hor nemico
+	Che d’inconstant'ingegno
+	Poco l’amore i stimo e men lo sdegno
+	E se l’amor fu vano
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -693,13 +703,13 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		14
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Ardi e gela a tua voglia
-Perfido &amp; impudico
-Hor'amant'hor nemico
-Che d’inconstant'ingegno
-Poco l’amore io stimo e men lo sdegno
-E se l’amor fu vano
-Van fia lo sdegno del tuo cor insano.		
+	Ardi e gela a tua voglia
+	Perfido &amp; impudico
+	Hor'amant'hor nemico
+	Che d’inconstant'ingegno
+	Poco l’amore io stimo e men lo sdegno
+	E se l’amor fu vano
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -711,13 +721,13 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		14
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Ardi e gela a tua voglia
-Perfido &amp; impudico
-Hor'amant'hor nemico
-Che d’inconstant'ingegno
-Poco l’amore io stimo e men lo sdegno
-E se l’amor fu vano
-Van fia lo sdegno del tuo cor insano.	
+	Ardi e gela a tua voglia
+	Perfido &amp; impudico
+	Hor'amant'hor nemico
+	Che d’inconstant'ingegno
+	Poco l’amore io stimo e men lo sdegno
+	E se l’amor fu vano
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -1455,13 +1465,13 @@ Van fia lo sdegno del tuo cor insano.
 @PAGE:		5
 @PARATEXT:	Madrigale à tre.
 @VERSE:		
-Ardi, e gel’a tua voglia
-perfido &amp; impudico,
-hor amant’hor nemico,
-che d’incostant’ingegno
-poco l’amor io stimo e men lo sdegno
-e s’el tuo amor fu vano,
-van fia lo sdegno del tuo cor insano.
+	Ardi, e gel’a tua voglia
+	perfido &amp; impudico,
+	hor amant’hor nemico,
+	che d’incostant’ingegno
+	poco l’amor io stimo e men lo sdegno
+	e s’el tuo amor fu vano,
+	van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -1473,13 +1483,13 @@ van fia lo sdegno del tuo cor insano.
 @PAGE:		5
 @PARATEXT:	Madrigale à tre.
 @VERSE:		
-Ardi, e gel’a tua voglia
-perfido &amp; impudico,
-hor amant’hor nemico,
-che d’incostant’ingegno
-poco l’amor io stimo e men lo sdegno
-e s’el tuo amor fu vano,
-van fia lo sdegno del tuo cor insano.
+	Ardi, e gel’a tua voglia
+	perfido &amp; impudico,
+	hor amant’hor nemico,
+	che d’incostant’ingegno
+	poco l’amor io stimo e men lo sdegno
+	e s’el tuo amor fu vano,
+	van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 
@@ -1491,13 +1501,13 @@ van fia lo sdegno del tuo cor insano.
 @PAGE:		7
 @PARATEXT:	Voce sola. Amor disprezzatto. Risposta.
 @VERSE:		
-Ardi è gela à tua voglia
-Perfido &amp; inpudico
-Or amante or nemico
-Che d’inconstante ingegno
-Poco l’amor io stimo è men lo sdegno
-E se l’amor fu vano
-Van fia lo sdegno del tuo cor insano.
+	Ardi è gela à tua voglia
+	Perfido &amp; inpudico
+	Or amante or nemico
+	Che d’inconstante ingegno
+	Poco l’amor io stimo è men lo sdegno
+	E se l’amor fu vano
+	Van fia lo sdegno del tuo cor insano.
 @@END: VARIORUM
 
 

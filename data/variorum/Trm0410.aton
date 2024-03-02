@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0410
 @ID:		F2
@@ -28,15 +29,15 @@
 @PAGE:		44
 @PARATEXT:	
 @VERSE:		
-L’alma con voi mandai
+	L’alma con voi mandai
 	Ne la vostra partita,
 	Onde, se vivo pur, senz’alma hò vita.
 @VERSE:
-E ben di viver parmi,
+	E ben di viver parmi,
 	Ch’anco fervido è ’l core
 	Di quel, che lei sì ardea, soave ardore.
 @VERSE:
-Ma se vita può darmi
+	Ma se vita può darmi
 	Foco de’ vostri rai,
 	Come, mentr’egli vive, io morrò mai?
 @@END: VARIORUM
@@ -51,7 +52,9 @@ Ma se vita può darmi
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0410
 @ID:		S141
 @TYPE:		print
@@ -59,17 +62,19 @@ Ma se vita può darmi
 @PAGE:		Parte terza delle Rime, 105
 @PARATEXT:	Che al partirsi della sua D. seco le mandasse il cuore suo, onde che da lei si vive.
 @VERSE:		
-L’alma con voi mandai
+	L’alma con voi mandai
 	Ne la vostra partita,
 	Onde, se vivo pur, senz’alma hò vita.
-E ben di viver parmi,
+	E ben di viver parmi,
 	Ch’anco fervido è ‘l core
 	Di quel, che lei sì ardea, soave ardore.
-Ma se vita può darmi
+	Ma se vita può darmi
 	Foco de’ vostri rai,
 	Come, mentr’egli vive, io morrò mai?
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0410
 @ID:		S166
 @TYPE:		print
@@ -77,17 +82,19 @@ Ma se vita può darmi
 @PAGE:		Parte terza delle Rime, 105
 @PARATEXT:	Che al partirsi della sua D. seco le mandasse il cuore suo, onde che da lei si vive.
 @VERSE:		
-L’alma con voi mandai
+	L’alma con voi mandai
 	Ne la vostra partita,
 	Onde, se vivo pur, senz’alma hò vita.
-E ben di viver parmi,
+	E ben di viver parmi,
 	Ch’anco fervido è ‘l core
 	Di quel, che lei sì ardea, soave ardore.
-Ma se vita può darmi
+	Ma se vita può darmi
 	Foco de’ vostri rai,
 	Come, mentr’egli vive, io morrò mai?
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0410
 @ID:		S169
 @TYPE:		print
@@ -95,7 +102,7 @@ Ma se vita può darmi
 @PAGE:		RIME DEL TASSO.AMOROSE. P. I., 81
 @PARATEXT:	Segue. [Alla Signora Paulina Trissina Monte.]
 @VERSE:		
-L’Alma, con voi mandai,
+	L’Alma, con voi mandai,
 	Ne la vostra partita,
 	Onde, se vivo pur senz’alma ho vita:
 	E ben di viver parmi,
@@ -104,7 +111,7 @@ L’Alma, con voi mandai,
 	Ma se vita può darmi
 	Foco de vostri rai,
 	Come mentr’egli vive, io morrò mai?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -115,7 +122,7 @@ L’Alma, con voi mandai,
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-L’alma con voi mandai
+	L’alma con voi mandai
 	Nella vostra partita
 	Onde s'io vivo pur senz’alm'hò vita
 	E ben di viver parmi
@@ -135,7 +142,7 @@ L’alma con voi mandai
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-[illegible] con voi mandai
+	[illegible] con voi mandai
 	Nella vostra partita
 	Onde s'io vivo pur [illegible] hò vita
 	E ben di viver parmi
@@ -155,7 +162,7 @@ L’alma con voi mandai
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-[illegible] con voi mandai
+	[illegible] con voi mandai
 	Nella vostra partita
 	Onde s'io vivo pur [illegible] hò vita
 	E ben di viver parmi
@@ -175,7 +182,7 @@ L’alma con voi mandai
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-[illegible] con voi mandai
+	[illegible] con voi mandai
 	Nella vostra partita
 	Onde s'io vivo pur [illegible] hò vita
 	E ben di viver parmi

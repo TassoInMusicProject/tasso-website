@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031089
 @ID:		A-Am
@@ -53,13 +54,13 @@
 @PAGE:		32v-33r
 @PARATEXT:			
 @VERSE:		
-[AMINTA] Non sarà dunque ver che in quanto io posso
-Non cerchi compiacerla? .T[IRSI]. Hor mi rispondi
-Se fosse in tuo poter di non amarla
-Lasciaresti d’amarla per piacerle
-.A[MINTA]. Ne questo mi consente Amor ch’io dica
-Ne ch’imagini pur d’haver giamai
-A lasciar il suo amor ben ch’io potessi		
+	[AMINTA] Non sarà dunque ver che in quanto io posso
+	Non cerchi compiacerla? .T[IRSI]. Hor mi rispondi
+	Se fosse in tuo poter di non amarla
+	Lasciaresti d’amarla per piacerle
+	.A[MINTA]. Ne questo mi consente Amor ch’io dica
+	Ne ch’imagini pur d’haver giamai
+	A lasciar il suo amor ben ch’io potessi
 @@END: VARIORUM
 
 
@@ -85,7 +86,9 @@ A lasciar il suo amor ben ch’io potessi
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031089
 @ID:		A-1580D
 @TYPE:		print
@@ -93,14 +96,14 @@ A lasciar il suo amor ben ch’io potessi
 @PAGE:		27v
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-A.	Non sarà dunque ver, che in quant’ io posso,
+	A.	Non sarà dunque ver, che in quant’ io posso,
 	Non cerchi compiacerle. T. Hor mi rispondi,
 	Se fosse in tuo poter di non amarla,
 	Lasciaresti d’amarla per piacerle?
-A.	Ne questo mi consente Amor, ch’io dica,
+	A.	Ne questo mi consente Amor, ch’io dica,
 	Ne, ch’imagini pur d’haver giamai
 	A lasciar il suo amor, se ben potessi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -123,13 +126,13 @@ A.	Ne questo mi consente Amor, ch’io dica,
 @PAGE:		52
 @PARATEXT:			
 @VERSE:		
-Non sarà dunque ver, ch'in quanto io posso
-Non cerchi compiacerla? Tir. hormai rispondi,
-Se fosse in tuo poter di non amarla,
-Lasciaresti d’amarla, per piacerle?
-Am. Ne questo mi consente Amor, ch’io dica,
-Ne ch’imagini pur d’haver gia mai
-A lasciar il suo amor, ben ch’io potessi.	
+	Non sarà dunque ver, ch'in quanto io posso
+	Non cerchi compiacerla? Tir. hormai rispondi,
+	Se fosse in tuo poter di non amarla,
+	Lasciaresti d’amarla, per piacerle?
+	Am. Ne questo mi consente Amor, ch’io dica,
+	Ne ch’imagini pur d’haver gia mai
+	A lasciar il suo amor, ben ch’io potessi.
 @@END: VARIORUM
 
 
@@ -155,7 +158,9 @@ A lasciar il suo amor, ben ch’io potessi.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031089
 @ID:		A-1581O
 @TYPE:		print
@@ -163,14 +168,14 @@ A lasciar il suo amor, ben ch’io potessi.
 @PAGE:		52
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-AM.	Non sarà dunque ver, ch'in quanto io posso
+	AM.	Non sarà dunque ver, ch'in quanto io posso
 	Non cerchi compiacerla? TIR. homai rispondi,
 	Se fosse in tuo poter di non amarla,
 	Lasciaresti d’amarla, per piacerle?
-AM.	Ne questo mi consente Amor, ch’io dica,
+	AM.	Ne questo mi consente Amor, ch’io dica,
 	Ne ch’imagini pur d’haver gia mai
 	A lasciar il suo amor, ben ch’io potessi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -780,13 +785,14 @@ AM.	Ne questo mi consente Amor, ch’io dica,
 @COMPOSER:	Balsamino, Simone
 @PAGE:		8
 @PARATEXT:	
-@VERSE:		AMINTA Non sarà dunque ver ch’in quant’io posso
-Non cerchi compiacerla TIRSI Hormai rispondi
-Se fosse in tuo poter di non amarla
-Lasciaresti d’amarla per piacerle
-AMINTA Nè questo mi consente Amor ch’io dica
-Ne ch’imagini pur d’haver già mai
-A lasciar il suo Amor bench’io potessi.	
+@VERSE:
+AMINTA Non sarà dunque ver ch’in quant’io posso
+	Non cerchi compiacerla TIRSI Hormai rispondi
+	Se fosse in tuo poter di non amarla
+	Lasciaresti d’amarla per piacerle
+	AMINTA Nè questo mi consente Amor ch’io dica
+	Ne ch’imagini pur d’haver già mai
+	A lasciar il suo Amor bench’io potessi.
 @@END: VARIORUM
 
 
@@ -798,13 +804,13 @@ A lasciar il suo Amor bench’io potessi.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-AMINTA Non sarà dunque ver ch’in quant’io posso
-Non cerchi compiacerla TIRSI Hormai rispondi
-Se fosse in tuo poter di non amarla
-Lasciaresti d’amarla per piacerle
-AMINTA Nè questo mi consente Amor ch’io dica
-Ne ch’imagini pur d’haver già mai
-A lasciar il suo Amor bench’io potessi.		
+	AMINTA Non sarà dunque ver ch’in quant’io posso
+	Non cerchi compiacerla TIRSI Hormai rispondi
+	Se fosse in tuo poter di non amarla
+	Lasciaresti d’amarla per piacerle
+	AMINTA Nè questo mi consente Amor ch’io dica
+	Ne ch’imagini pur d’haver già mai
+	A lasciar il suo Amor bench’io potessi.
 @@END: VARIORUM
 
 
@@ -816,13 +822,13 @@ A lasciar il suo Amor bench’io potessi.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-AMINTA Non sarà dunque ver ch’in quant’io posso
-Non cerchi compiacerla TIRSI hormai rispondi
-Se fosse in tuo poter di non amarla
-Lasciaresti d’amarla per piacerle
-AMINTA Nè questo mi consente Amor ch’io dica
-Ne ch’imagini pur d’haver già mai
-A lasciar il suo Amor bench’io potessi.	
+	AMINTA Non sarà dunque ver ch’in quant’io posso
+	Non cerchi compiacerla TIRSI hormai rispondi
+	Se fosse in tuo poter di non amarla
+	Lasciaresti d’amarla per piacerle
+	AMINTA Nè questo mi consente Amor ch’io dica
+	Ne ch’imagini pur d’haver già mai
+	A lasciar il suo Amor bench’io potessi.
 @@END: VARIORUM
 
 
@@ -834,13 +840,13 @@ A lasciar il suo Amor bench’io potessi.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-AMINTA Non sarà dunque ver ch’in quant’io posso
-Non cerchi compiacerla TIRSI hormai rispondi
-Se fosse in tuo poter di non amarla
-Lasciaresti d’amarla per piacerle
-AMINTA Nè questo mi consente Amor ch’io dica
-Ne ch’imagini pur d’haver già mai
-A lasciar il suo Amor bench’io potessi.	
+	AMINTA Non sarà dunque ver ch’in quant’io posso
+	Non cerchi compiacerla TIRSI hormai rispondi
+	Se fosse in tuo poter di non amarla
+	Lasciaresti d’amarla per piacerle
+	AMINTA Nè questo mi consente Amor ch’io dica
+	Ne ch’imagini pur d’haver già mai
+	A lasciar il suo Amor bench’io potessi.
 @@END: VARIORUM
 
 
@@ -852,13 +858,13 @@ A lasciar il suo Amor bench’io potessi.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-AMINTA Non sarà dunque ver ch’in quant’io posso
-[TACET] TIRSI Hormai rispondi
-Se fosse in tuo poter di non amarla
-Lasciaresti d’amarla per piacerle
-AMINTA Nè questo mi consente Amor ch’io dica
-Ne ch’imagini pur d’haver già mai
-A lasciar il suo Amor bench’io potessi.	
+	AMINTA Non sarà dunque ver ch’in quant’io posso
+	[TACET] TIRSI Hormai rispondi
+	Se fosse in tuo poter di non amarla
+	Lasciaresti d’amarla per piacerle
+	AMINTA Nè questo mi consente Amor ch’io dica
+	Ne ch’imagini pur d’haver già mai
+	A lasciar il suo Amor bench’io potessi.
 @@END: VARIORUM
 
 
@@ -870,13 +876,13 @@ A lasciar il suo Amor bench’io potessi.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-AMINTA Non sarà dunque ver ch’in quant’io posso
-Non cerchi compiacerla TIRSI hormai rispondi
-Se fosse in tuo poter di non amarla
-Lasciaresti d’amarla per piacerle
-AMINTA Nè questo mi consente Amor ch’io dica
-Ne ch’imagini pur d’haver già mai
-A lasciar il suo Amor bench’io potessi.	
+	AMINTA Non sarà dunque ver ch’in quant’io posso
+	Non cerchi compiacerla TIRSI hormai rispondi
+	Se fosse in tuo poter di non amarla
+	Lasciaresti d’amarla per piacerle
+	AMINTA Nè questo mi consente Amor ch’io dica
+	Ne ch’imagini pur d’haver già mai
+	A lasciar il suo Amor bench’io potessi.
 @@END: VARIORUM
 
 

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trt0506
 @ID:		T-Au
@@ -72,7 +73,7 @@
 @PAGE:		54v
 @PARATEXT:	CHORO.
 @VERSE:	
-Ahi lacrime, ahi dolore,
+	Ahi lacrime, ahi dolore,
 	Passa la vita, e si dilegua, e fugge,
 	Come giel che si strugge.
 	Ogni altezza s'inchina, e sparge à terra,
@@ -113,7 +114,7 @@ Ahi lacrime, ahi dolore,
 @PAGE:		63r-v
 @PARATEXT:	Choro.
 @VERSE:		
-Ahi lacrime, ahi dolore,
+	Ahi lacrime, ahi dolore,
 	Passa la vita, e si dilegua, e fugge,
 	Come giel che si strugge.
 	Ogni altezza s'inchina, e sparge à terra,
@@ -154,7 +155,7 @@ Ahi lacrime, ahi dolore,
 @PAGE:		82
 @PARATEXT:	CHORO.
 @VERSE:	
-Ahi lacrime, ahi dolore,
+	Ahi lacrime, ahi dolore,
 	Passa la vita, e si dilegua, e fugge,
 	Come giel che si strugge.
 	Ogni altezza s'inchina, e sparge à terra,
@@ -195,7 +196,7 @@ Ahi lacrime, ahi dolore,
 @PAGE:		60v
 @PARATEXT:	Choro.
 @VERSE:	
-Ahi lagrime, ahi dolore,
+	Ahi lagrime, ahi dolore,
 	Passa la vita ,e si dilegua, e fugge,
 	Come giel, che si strugge.
 	Ogni altezza s'inchina, e sparge à terra,
@@ -269,13 +270,13 @@ Ahi lagrime, ahi dolore,
 @PAGE:		111
 @PARATEXT:	
 @VERSE:		
-[PAGE MISSING]
-[PAGE MISSING]
-[PAGE MISSING]
-[PAGE MISSING]
-[PAGE MISSING]
-[PAGE MISSING]
-[PAGE MISSING]
+	[PAGE MISSING]
+	[PAGE MISSING]
+	[PAGE MISSING]
+	[PAGE MISSING]
+	[PAGE MISSING]
+	[PAGE MISSING]
+	[PAGE MISSING]
 @@END: VARIORUM
 
 
@@ -320,7 +321,7 @@ Ahi lagrime, ahi dolore,
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-Ahi lacrime ahi dolore
+	Ahi lacrime ahi dolore
 	passa la vita e si dilegua il core
 	e sènpre da me fuggi
 	non più fuggir crudele
@@ -339,7 +340,7 @@ Ahi lacrime ahi dolore
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Ahi lacrime ahi dolore
+	Ahi lacrime ahi dolore
 	passa la vita e si dilegua il core
 	e sèmpre da me fuggi
 	non più fuggir crudele
@@ -358,7 +359,7 @@ Ahi lacrime ahi dolore
 @PAGE:		9
 @PARATEXT:	
 @VERSE:	
-Ahi lacrime ahi dolore
+	Ahi lacrime ahi dolore
 	passa la vita e si dilegua il core
 	e sènpre da me fuggi
 	non più fuggir crudele
@@ -377,7 +378,7 @@ Ahi lacrime ahi dolore
 @PAGE:		12
 @PARATEXT:	[the page is incorrectly labeled "ALTO"]
 @VERSE:	
-Ahi lacrime ahi dolore
+	Ahi lacrime ahi dolore
 	passa la vita e si dilegua il core
 	e sènpre da me fuggi
 	non più fuggir crudele
@@ -396,7 +397,7 @@ Ahi lacrime ahi dolore
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Ahi lacrime ahi dolore
+	Ahi lacrime ahi dolore
 	passa la vita e si dilegua il core
 	e sènpre da me fuggi
 	non più fuggir crudele

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0346
 @ID:		none
@@ -28,17 +29,17 @@
 @PAGE:		39r
 @PARATEXT:	
 @VERSE:	
-Cantava in riva al fiume
-Tirsi d’Eleonora;
-E rispondean le selve, e l’onde honora,
+	Cantava in riva al fiume
+	Tirsi d’Eleonora;
+	E rispondean le selve, e l’onde honora,
 @VERSE:
-E parea mormorando
-Dir l’ora; hora, ch’apare
-L’aurora, par, che lieta esca del mare.
+	E parea mormorando
+	Dir l’ora; hora, ch’apare
+	L’aurora, par, che lieta esca del mare.
 @VERSE:
-Hor che l’honora amando?
-E l’acque insieme, e i rami;
-Hor chi fia, che l’honori; e che non l’ami?
+	Hor che l’honora amando?
+	E l’acque insieme, e i rami;
+	Hor chi fia, che l’honori; e che non l’ami?
 @@END: VARIORUM
 
 
@@ -50,17 +51,17 @@ Hor chi fia, che l’honori; e che non l’ami?
 @PAGE:		39r
 @PARATEXT:	
 @VERSE:	
-Cantava in riva al fiume
-Tirsi d’Eleonora;
-E rispondean le selve, e l’onde honora,
+	Cantava in riva al fiume
+	Tirsi d’Eleonora;
+	E rispondean le selve, e l’onde honora,
 @VERSE:
-E parea mormorando
-Dir l’ora; hora, ch’apare
-L’aurora, par, che lieta esca del mare.
+	E parea mormorando
+	Dir l’ora; hora, ch’apare
+	L’aurora, par, che lieta esca del mare.
 @VERSE:
-Hor che l’honora amando?
-E l’acque insieme, e i rami;
-Hor chi fia, che l’honori; e che non l’ami?
+	Hor che l’honora amando?
+	E l’acque insieme, e i rami;
+	Hor chi fia, che l’honori; e che non l’ami?
 @@END: VARIORUM
 
 
@@ -84,7 +85,9 @@ Hor chi fia, che l’honori; e che non l’ami?
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0346
 @ID:		S35
 @TYPE:		print
@@ -92,17 +95,19 @@ Hor chi fia, che l’honori; e che non l’ami?
 @PAGE:		39r
 @PARATEXT:
 @VERSE:		
-CANTAVA in riva al fiume
+	CANTAVA in riva al fiume
 	Tirsi d’Eleonora,
 	E rispondean le selve, e l’onde honora,
-E parea mormorando
+	E parea mormorando
 	Dir l’ora, hora, ch’apare.
 	L’Aurora par, che lieta esca del mare.
-Hor, chi l’honora amando?
+	Hor, chi l’honora amando?
 	E l’acque insieme, e i rami;
 	Hor chi fia, che l’honori, e che non l’ami?
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0346
 @ID:		S69
 @TYPE:		print
@@ -110,16 +115,16 @@ Hor, chi l’honora amando?
 @PAGE:		39r
 @PARATEXT:
 @VERSE:		
-CANTAVA in riva al fiume
+	CANTAVA in riva al fiume
 	Tirsi d’Eleonora,
 	E rispondean le selve, e l’onde honora,
-E parea mormorando
+	E parea mormorando
 	Dir l’ora, hora, ch’apare.
 	L’Aurora par, che lieta esca del mare.
-Hor, chi l’honora amando?
+	Hor, chi l’honora amando?
 	E l’acque insieme, e i rami;
 	Hor chi fia, che l’honori, e che non l’ami?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -131,7 +136,9 @@ Hor, chi l’honora amando?
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0346
 @ID:		S141
 @TYPE:		print
@@ -139,16 +146,16 @@ Hor, chi l’honora amando?
 @PAGE:		Parte seconda delle Rime, 184
 @PARATEXT:	Per Tirsi, intende se medesimo, che celebrando le radi qualità di Donna Elionora d’Esti, appara dalle tre ultime sillabe del nome di lei, che dicono Onora, la debba ogn’uno honorare.
 @VERSE:		
-Cantava in riva al fiume
+	Cantava in riva al fiume
 	Tirsi d’Eleonora;
 	E rispondean le selve, e l’onde honora:
-E parea mormorando
+	E parea mormorando
 	Dir l’ora, hora, ch’apare
 	L’Aurora par che lieta esca del mare:
-Hor, chi l’honora, amando?
+	Hor, chi l’honora, amando?
 	E l’acque insieme, e i rami;
 	Hor chi fia, che l’honori, e che non l’ami?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -159,17 +166,19 @@ Hor, chi l’honora, amando?
 @PAGE:		38v
 @PARATEXT:	Le Bellezze / Segue. [Torquato Tasso]
 @VERSE:	
-Cantava in riva al fiume
-Tirsi d’Eleonora;
-E rispondean le selve, e l’onde honora.
-E parea mormorando
-Dir l’ora, hora, ch’apare
-L’Aurora par, che lieta esca del mare.
-Hor chi l’honora amando?
-E l’acque insieme, e i rami;
-Hor chi fia, che l’honori, e che non l’ami?
+	Cantava in riva al fiume
+	Tirsi d’Eleonora;
+	E rispondean le selve, e l’onde honora.
+	E parea mormorando
+	Dir l’ora, hora, ch’apare
+	L’Aurora par, che lieta esca del mare.
+	Hor chi l’honora amando?
+	E l’acque insieme, e i rami;
+	Hor chi fia, che l’honori, e che non l’ami?
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0346
 @ID:		S166
 @TYPE:		print
@@ -177,16 +186,16 @@ Hor chi fia, che l’honori, e che non l’ami?
 @PAGE:		Parte seconda delle Rime, 184
 @PARATEXT:	Per Tirsi, intende se medesimo, che celebrando le radi qualità di Donna Elionora d’Esti, appara dalle tre ultime sillabe del nome di lei, che dicono Onora, la debba ogn’uno honorare.
 @VERSE:		
-Cantava in riva al fiume
+	Cantava in riva al fiume
 	Tirsi d’Eleonora;
 	E rispondean le selve, e l’onde honora:
-E parea mormorando
+	E parea mormorando
 	Dir l’ora, hora, ch’apare
 	L’Aurora par che lieta esca del mare:
-Hor, chi l’honora, amando?
+	Hor, chi l’honora, amando?
 	E l’acque insieme, e i rami;
 	Hor chi fia, che l’honori, e che non l’ami?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -197,17 +206,19 @@ Hor, chi l’honora, amando?
 @PAGE:		236
 @PARATEXT:	ELEONORA. Alla Signora LEONORA TRISCINI nei Mondini. Torq. Tasso.
 @VERSE:		
-Cantava in riva al fiume
-Tirsi d’Eleonora;
-[ABSENT]
-E parea mormorando
-Dir l’ora; Hora, ch’appare
-L’Aurora par, che lieta esca dal Mare.
-Hor chi l’honora amando?
-E l’acque insieme, e i rami;
-Hor chi fia, che l’honori, e chi non l’ami?
+	Cantava in riva al fiume
+	Tirsi d’Eleonora;
+	[ABSENT]
+	E parea mormorando
+	Dir l’ora; Hora, ch’appare
+	L’Aurora par, che lieta esca dal Mare.
+	Hor chi l’honora amando?
+	E l’acque insieme, e i rami;
+	Hor chi fia, che l’honori, e chi non l’ami?
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0346
 @ID:		S169
 @TYPE:		print
@@ -215,16 +226,16 @@ Hor chi fia, che l’honori, e chi non l’ami?
 @PAGE:		RIME DEL TASSO.BOSCHERECCIE. P. II., 52
 @PARATEXT:	Canto di Tirsi.
 @VERSE:		
-Cantava in riva al fiume
+	Cantava in riva al fiume
 	Tirsi d’Eleonora;
 	E rispondean le selve, e l’onde honora:
-E parea mormorando
+	E parea mormorando
 	Dir l’Ora, hora, ch’appare
 	L’Aurora par che lieta esca del mare.
 	Hor chi l’honora amando?
 	E l’acque insieme, e i rami;
 	Hor chi fia che l’honori, e che non l’ami?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

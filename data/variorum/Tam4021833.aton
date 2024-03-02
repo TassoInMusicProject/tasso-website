@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021833
 @ID:		A-Am
@@ -53,12 +54,12 @@
 @PAGE:		55r-55v
 @PARATEXT:	CHORO
 @VERSE:		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -84,7 +85,9 @@
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021833
 @ID:		A-1580D
 @TYPE:		print
@@ -92,13 +95,13 @@
 @PAGE:
 @PARATEXT:
 @VERSE:		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]
-@@END:		VARIORUM
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -121,12 +124,12 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]			
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -152,7 +155,9 @@
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021833
 @ID:		A-1581O
 @TYPE:		print
@@ -160,13 +165,13 @@
 @PAGE:
 @PARATEXT:
 @VERSE:		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]
-@@END:		VARIORUM
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -777,12 +782,12 @@
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Non sono ire la sù gli humani ingegni
-Tu placidi ne rendi, e l’odio interno
-Sgombri, signor, da mansueti cori
-Sgombri mille furori,
-E quasi fai col tuo valor superno
-De le cose mortali un giro eterno.	
+	Non sono ire la sù gli humani ingegni
+	Tu placidi ne rendi, e l’odio interno
+	Sgombri, signor, da mansueti cori
+	Sgombri mille furori,
+	E quasi fai col tuo valor superno
+	De le cose mortali un giro eterno.
 @@END: VARIORUM
 
 
@@ -794,12 +799,12 @@ De le cose mortali un giro eterno.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Non sono ire la sù gli humani ingegni
-Tu placidi ne rendi, e l’odio interno
-Sgombri, signor, [TACET]
-Sgombri mille furori,
-E quasi fai col tuo valor superno
-De le cose mortali un giro eterno.	
+	Non sono ire la sù gli humani ingegni
+	Tu placidi ne rendi, e l’odio interno
+	Sgombri, signor, [TACET]
+	Sgombri mille furori,
+	E quasi fai col tuo valor superno
+	De le cose mortali un giro eterno.
 @@END: VARIORUM
 
 
@@ -811,12 +816,12 @@ De le cose mortali un giro eterno.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Non sono ire la sù gli humani ingegni
-Tu placidi ne rendi, e l’odio interno
-Sgombri, signor, [TACET]
-Sgombri mille furori,
-E quasi fai col tuo valor superno
-De le cose mortali un giro eterno.	
+	Non sono ire la sù gli humani ingegni
+	Tu placidi ne rendi, e l’odio interno
+	Sgombri, signor, [TACET]
+	Sgombri mille furori,
+	E quasi fai col tuo valor superno
+	De le cose mortali un giro eterno.
 @@END: VARIORUM
 
 
@@ -825,15 +830,15 @@ De le cose mortali un giro eterno.
 @ID:		Tam4021833a-Basso
 @TYPE:		music
 @COMPOSER:	Boschetti, Giovanni Boschetto
-@PAGE:	7	
+@PAGE:	7
 @PARATEXT:	
 @VERSE:		
-Non sono ire la sù gli humani ingegni
-Tu placidi ne rendi e l’odio interno
-[TACET] da mansueti cori
-Sgombri mille furori,
-E quasi fai col tuo valor superno
-De le cose mortali un giro eterno.	
+	Non sono ire la sù gli humani ingegni
+	Tu placidi ne rendi e l’odio interno
+	[TACET] da mansueti cori
+	Sgombri mille furori,
+	E quasi fai col tuo valor superno
+	De le cose mortali un giro eterno.
 @@END: VARIORUM
 
 
@@ -845,12 +850,12 @@ De le cose mortali un giro eterno.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Non sono ire la sù gli humani ingegni
-Tu placidi ne rendi, e l’odio interno
-Sgombri, Signor da mansueti cori
-Sgombri mille furori,
-E quasi fai col tuo valor superno
-De le cose mortali un giro eterno.	
+	Non sono ire la sù gli humani ingegni
+	Tu placidi ne rendi, e l’odio interno
+	Sgombri, Signor da mansueti cori
+	Sgombri mille furori,
+	E quasi fai col tuo valor superno
+	De le cose mortali un giro eterno.
 @@END: VARIORUM
 
 

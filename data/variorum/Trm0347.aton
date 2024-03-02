@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
 @ID:		none
@@ -28,18 +29,20 @@
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-In un fonte tranquillo
+	In un fonte tranquillo
 	Si specchiava Neera,
 	E Tirsi le dicea piangendo intanto.
 @VERSE:
-Mentr’io così mi stillo,
+	Mentr’io così mi stillo,
 	Ninfa selvaggia, e fera,
 	Spero fontana divenir di pianto.
 @VERSE:
-Allora in me vedrete,
+	Allora in me vedrete,
 	Quanto voi bella, e quanto cruda sete.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
 @ID:		S141
 @TYPE:		print
@@ -47,16 +50,18 @@ Allora in me vedrete,
 @PAGE:		Parte terza delle rime, 55
 @PARATEXT:	Si duole della crudeltà dell’amata Donna.
 @VERSE:		
-In un fonte tranquillo
+	In un fonte tranquillo
 	Si specchiava Neera,
 	E Tirsi le dicea piangendo intanto.
-Mentr’io così mi stillo,
+	Mentr’io così mi stillo,
 	Ninfa selvaggia, e fera,
 	Spero Fontana divenir di pianto.
-Allora in me vedrete,
+	Allora in me vedrete,
 	Quanto voi bella, e quanto cruda sete.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
 @ID:		S166
 @TYPE:		print
@@ -64,16 +69,18 @@ Allora in me vedrete,
 @PAGE:		Parte terza delle rime, 55
 @PARATEXT:	Si duole della crudeltà dell’amata Donna.
 @VERSE:		
-In un fonte tranquillo
+	In un fonte tranquillo
 	Si specchiava Neera,
 	E Tirsi le dicea piangendo intanto.
-Mentr’io così mi stillo,
+	Mentr’io così mi stillo,
 	Ninfa selvaggia, e fera,
 	Spero Fontana divenir di pianto.
-Allora in me vedrete,
+	Allora in me vedrete,
 	Quanto voi bella, e quanto cruda sete.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0347
 @ID:		S169
 @TYPE:		print
@@ -81,16 +88,16 @@ Allora in me vedrete,
 @PAGE:		RIME DEL TASSO.BOSCHERECCIE. P. II., 64
 @PARTEXT:	Pietà sperata.
 @VERSE:		
-In un fonte tranquillo
+	In un fonte tranquillo
 	Si specchiava Neera,
 	E Tirsi le dicea piangendo in tanto.
-Mentr’io così mi stillo
+	Mentr’io così mi stillo
 	Ninfa selvaggia, e fera,
 	Spero fontana divenir di pianto.
-Allhora in me vedrete,
+	Allhora in me vedrete,
 	Quanto voi bella, e quanto cruda sete.
 @PARATEXT:
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -101,7 +108,7 @@ Allhora in me vedrete,
 @PAGE:		7
 @PARATEXT:	
 @VERSE:
-In un fonte tranquillo
+	In un fonte tranquillo
 	Si specchiava Neera
 	E Tirsi le dicea Piangend'intanto
 	Mentre Cosi mi stillo
@@ -120,7 +127,7 @@ In un fonte tranquillo
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-In un fonte tranquillo
+	In un fonte tranquillo
 	Si specchiava Neera
 	E [illegible] dicea Piangend'intanto
 	Mentre Cosi [illegible]
@@ -139,7 +146,7 @@ In un fonte tranquillo
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-[TACET]
+	[TACET]
 	[TACET]
 	E [illegible] dicea Piangend'intanto
 	Mentre Cosi [illegible]
@@ -158,7 +165,7 @@ In un fonte tranquillo
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-In un fonte tranquillo
+	In un fonte tranquillo
 	Si specchiava Neera
 	E [illegible] dicea Piangend'intanto
 	Mentre Cosi [illegible]

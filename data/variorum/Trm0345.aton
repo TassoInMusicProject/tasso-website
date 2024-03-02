@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0345
 @ID:		E1
@@ -17,12 +18,12 @@
 @PAGE:		227
 @PARATEXT:	stampa
 @VERSE:		
-Tra mille fior già colti in dolce speco
-quasi rosa non colta,
-Non incolta ma colta
-Era <del>Nerina</del> Amarilli, e Galatea con seco.
-Par come fior avolto in verdi spoglie
-Ma chi le colse Amor quando le coglie?
+	Tra mille fior già colti in dolce speco
+	quasi rosa non colta,
+	Non incolta ma colta
+	Era <del>Nerina</del> Amarilli, e Galatea con seco.
+	Par come fior avolto in verdi spoglie
+	Ma chi le colse Amor quando le coglie?
 @@END: VARIORUM
 
 
@@ -56,12 +57,12 @@ Ma chi le colse Amor quando le coglie?
 @PAGE:		107
 @PARATEXT:	
 @VERSE:		
-Tra mille fior già colti in dolce speco
-Quasi rosa non colta,
-Non incolta ma colta
-Era Nerine, e Galatea con seco.
-Par come fior'accolto in verdi spoglie,
-Ma chi le colse, Amor, quando le coglie.
+	Tra mille fior già colti in dolce speco
+	Quasi rosa non colta,
+	Non incolta ma colta
+	Era Nerine, e Galatea con seco.
+	Par come fior'accolto in verdi spoglie,
+	Ma chi le colse, Amor, quando le coglie.
 @@END: VARIORUM
 
 
@@ -73,12 +74,12 @@ Ma chi le colse, Amor, quando le coglie.
 @PAGE:		106
 @PARATEXT:	
 @VERSE:	
-Fra mille fior già colti in dolce speco
-Quasi rosa non colta,
-Non incolta ma colta
-Era Amarilli, e Galatea con seco:
-Par come fior accolto in verdi spoglie,
-Ma chi le colse? Amor quando le coglie.
+	Fra mille fior già colti in dolce speco
+	Quasi rosa non colta,
+	Non incolta ma colta
+	Era Amarilli, e Galatea con seco:
+	Par come fior accolto in verdi spoglie,
+	Ma chi le colse? Amor quando le coglie.
 @@END: VARIORUM
 
 
@@ -90,12 +91,12 @@ Ma chi le colse? Amor quando le coglie.
 @PAGE:		53
 @PARATEXT:	
 @VERSE:	
-Fra mille fior già colti in dolce speco,
-Quasi rosa non colta,
-Non incolta ma colta
-Era Amarilli, e Galatea con seco:
-Par come fior accolto in verdi spoglie;
-Ma chi le colse? Amor quando le coglie.
+	Fra mille fior già colti in dolce speco,
+	Quasi rosa non colta,
+	Non incolta ma colta
+	Era Amarilli, e Galatea con seco:
+	Par come fior accolto in verdi spoglie;
+	Ma chi le colse? Amor quando le coglie.
 @@END: VARIORUM
 
 
@@ -107,14 +108,16 @@ Ma chi le colse? Amor quando le coglie.
 @PAGE:		107
 @PARATEXT:	
 @VERSE:		
-Tra mille fior già colti in dolce speco
-Quasi rosa non colta,
-Non incolta ma colta,
-Era Nerine, e Galatea con seco,
-Par come fior accolto in verdi spoglie,
-Ma chi le colse Amor, quando le coglie.	
+	Tra mille fior già colti in dolce speco
+	Quasi rosa non colta,
+	Non incolta ma colta,
+	Era Nerine, e Galatea con seco,
+	Par come fior accolto in verdi spoglie,
+	Ma chi le colse Amor, quando le coglie.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0345
 @ID:		S141
 @TYPE:		print
@@ -122,14 +125,16 @@ Ma chi le colse Amor, quando le coglie.
 @PAGE:		Parte quarta delle Rime, 166
 @PARATEXT:	Pare che sopragiungesse a due Donne, non punto adornate.
 @VERSE:		
-Tra mille fior già colti in dolce speco
+	Tra mille fior già colti in dolce speco
 	Quasi rosa non colta,
 	Non incolta, ma colta,
 	Era Nerine, e Galatea con seco,
 	Pur come fior accolto in verdi spoglie,
 	Ma chi te colso Amor, quando le coglie.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0345
 @ID:		S166
 @TYPE:		print
@@ -137,14 +142,16 @@ Tra mille fior già colti in dolce speco
 @PAGE:		Parte quarta delle Rime, 166
 @PARATEXT:	Pare che sopragiungesse a due Donne, non punto adornate.
 @VERSE:		
-Tra mille fior già colti in dolce speco
+	Tra mille fior già colti in dolce speco
 	Quasi rosa non colta,
 	Non incolta, ma colta,
 	Era Nerine, e Galatea con seco,
 	Pur come fior accolto in verdi spoglie,
 	Ma chi te colso Amor, quando le coglie.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0345
 @ID:		S169
 @TYPE:		print
@@ -152,13 +159,13 @@ Tra mille fior già colti in dolce speco
 @PAGE:		RIME DEL TASSO.BOSCHERECCIE. P. II., 16
 @PARATEXT:	Scherzo amoroso.
 @VERSE:		
-Tra mille fior già, colti in dolce speco
+	Tra mille fior già, colti in dolce speco
 	Quasi rosa non colta
 	Non incolta, ma colta,
 	Era Nerine, e Galatea con seco,
 	Pur come fior accolto in verdi spoglie,
 	Ma chi le colse? Amor quando le coglie?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -169,7 +176,7 @@ Tra mille fior già, colti in dolce speco
 @PAGE:		20
 @PARATEXT:	Alfonso Preti.
 @VERSE:		
-Tra mille fior già colti in dolce speco
+	Tra mille fior già colti in dolce speco
 	Quasi rosa non colta
 	non incolta ma colta
 	Era Nerine e Galatea con seco
@@ -184,7 +191,7 @@ Tra mille fior già colti in dolce speco
 @TYPE:		music
 @COMPOSER:	Preti, Alfonso
 @VERSE:		
-Tra mille fior già colti in dolce speco
+	Tra mille fior già colti in dolce speco
 	Quasi rosa non colta
 	non incolta ma colta
 	Era Nerine e Galatea con seco
@@ -199,7 +206,7 @@ Tra mille fior già colti in dolce speco
 @TYPE:		music
 @COMPOSER:	Preti, Alfonso
 @VERSE:		
-Tra mille fior già colti in dolce speco
+	Tra mille fior già colti in dolce speco
 	Quasi rosa non colta
 	non incolta ma colta
 	Era Nerine e Galatea con seco
@@ -207,13 +214,14 @@ Tra mille fior già colti in dolce speco
 	Ma chi le colse amor quando le coglie.
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0345
 @ID:		Trm0345a-Basso
 @TYPE:		music
 @COMPOSER:	Preti, Alfonso
 @VERSE:		
-Tra mille fior già colti in dolce speco
+	Tra mille fior già colti in dolce speco
 	Quasi rosa non colta
 	non incolta ma colta
 	Era Nerine e Galatea con seco
@@ -228,7 +236,7 @@ Tra mille fior già colti in dolce speco
 @TYPE:		music
 @COMPOSER:	Preti, Alfonso
 @VERSE:		
-Tra mille fior già colti in dolce speco
+	Tra mille fior già colti in dolce speco
 	Quasi rosa non colta
 	non incolta ma colta
 	Era Nerine e Galatea con seco

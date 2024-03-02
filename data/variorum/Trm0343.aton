@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
 @ID:		none
@@ -28,15 +29,15 @@
 @PAGE:		44
 @PARATEXT:	
 @VERSE:		
-Soavissimo canto,
+	Soavissimo canto,
 	O pur t’oda una volta,
 	E poi mi stilli in lagrimoso pianto.
 @VERSE:
-Felice, chi t’ascolta,
+	Felice, chi t’ascolta,
 	Felice, chi risguarda
 	La rosa, onde tu spiri, ancor non colta.
 @VERSE:
-Felice sì, ma tarda
+	Felice sì, ma tarda
 	Fora la sorte mia
 	Fra quel sì dolce odore, e l’armonia.
 @@END: VARIORUM
@@ -47,22 +48,24 @@ Felice sì, ma tarda
 @ID:		S49
 @TYPE:		print
 @SPRINT:	
-@PAGE:	109	
+@PAGE:	109
 @PARATEXT:	
 @VERSE:	
-Soavissimo canto,
+	Soavissimo canto,
 	O pur t’oda una volta,
 	E poi mi stilli in lacrimoso pianto.
 @VERSE:
-Felice chi t’ascolta
+	Felice chi t’ascolta
 	Felice chi risguarda
 	La rosa onde tu spiri ancor non colta.
 @VERSE:
-Felice sì, ma tarda
+	Felice sì, ma tarda
 	Fora la sorte mia
 	Fra quel si dolce odore e l’armonia,
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0343
 @ID:		S169
 @TYPE:		print
@@ -70,7 +73,7 @@ Felice sì, ma tarda
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 182
 @PARATEXT:	Canto di bella bocca.
 @VERSE:		
-Soavissimo canto,
+	Soavissimo canto,
 	O pur t’oda una volta,
 	E poi mi stilli in lagrimoso pianto.
 	Felice chi t’ascolta,
@@ -79,7 +82,7 @@ Soavissimo canto,
 	Felice sì, ma tarda,
 	Fora la sorte mia,
 	Fra quel sì dolce odore, e l’armonia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -90,15 +93,15 @@ Soavissimo canto,
 @PAGE:		1
 @PARATEXT:	A tre
 @VERSE:		
-Soavissimo canto
-O pur t'oda una volta
-E poi mi stilli in lagrimoso pianto
-Felice chi t'ascolta
-Felice chi riguarda
-la rosa onde tu spiri ancor non colta
-Felice si ma tarda
-Fora la sorte mia
-Tra quel si dolce odor'& armonia.
+	Soavissimo canto
+	O pur t'oda una volta
+	E poi mi stilli in lagrimoso pianto
+	Felice chi t'ascolta
+	Felice chi riguarda
+	la rosa onde tu spiri ancor non colta
+	Felice si ma tarda
+	Fora la sorte mia
+	Tra quel si dolce odor'& armonia.
 @@END: VARIORUM
 
 
@@ -110,15 +113,15 @@ Tra quel si dolce odor'& armonia.
 @PAGE:		1
 @PARATEXT:	A tre
 @VERSE:		
-Soavissimo canto
-O pur t'oda una volta
-E poi mi stilli in lagrimoso pianto
-Felice chi t'ascolta
-Felice chi riguarda
-la rosa onde tu spiri ancor non colta
-Felice si ma tarda
-Fora la sorte mia
-Tra quel si dolce odor'& armonia.
+	Soavissimo canto
+	O pur t'oda una volta
+	E poi mi stilli in lagrimoso pianto
+	Felice chi t'ascolta
+	Felice chi riguarda
+	la rosa onde tu spiri ancor non colta
+	Felice si ma tarda
+	Fora la sorte mia
+	Tra quel si dolce odor'& armonia.
 @@END: VARIORUM
 
 
@@ -130,15 +133,15 @@ Tra quel si dolce odor'& armonia.
 @PAGE:		1
 @PARATEXT:	A tre
 @VERSE:		
-Soavissimo canto
-O pur t'oda una volta
-E poi mi stilli in lagrimoso pianto
-Felice chi t'ascolta
-Felice chi riguarda
-la rosa onde tu spiri ancor non colta
-Felice si ma tarda
-Fora la sorte mia
-Tra quel si dolce odor'& armonia.
+	Soavissimo canto
+	O pur t'oda una volta
+	E poi mi stilli in lagrimoso pianto
+	Felice chi t'ascolta
+	Felice chi riguarda
+	la rosa onde tu spiri ancor non colta
+	Felice si ma tarda
+	Fora la sorte mia
+	Tra quel si dolce odor'& armonia.
 @@END: VARIORUM
 
 

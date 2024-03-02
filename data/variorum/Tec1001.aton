@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tec1001
 @ID:		E-E1
@@ -17,9 +18,9 @@
 @PAGE:		262
 @PARATEXT:	Stampa. Licori Tirsi Dafne
 @VERSE:		
-Dimmi mesto Pastore
-Qual muto pesce, o qual è rozzo Armento
-Che non faccia d'Amor qualche concento?
+	Dimmi mesto Pastore
+	Qual muto pesce, o qual è rozzo Armento
+	Che non faccia d'Amor qualche concento?
 @VERSE:		
 @@END: VARIORUM
 

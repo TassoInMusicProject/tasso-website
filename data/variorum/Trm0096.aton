@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0096
 @ID:		C
@@ -17,14 +18,14 @@
 @PAGE:		41v
 @PARATEXT:	Dice a la sua donna, che quanto piu conosce del suo core: tanto meno gli presta credenza:  [the entire pome is deleted with three vertical strike-throughs]
 @VERSE:		
-Donna quanto pia a dentro
-Conobbi il vostro core,
-Tanto a darvi credenza io son piu tardo.
-Ne stimo quel di fore,
-Io dico un vago inchino, un dolce sguardo,
-Un dir nel foco io ardo,
-Un scolorir di viso
-Un dolente sospiro, un lieto riso.
+	Donna quanto pia a dentro
+	Conobbi il vostro core,
+	Tanto a darvi credenza io son piu tardo.
+	Ne stimo quel di fore,
+	Io dico un vago inchino, un dolce sguardo,
+	Un dir nel foco io ardo,
+	Un scolorir di viso
+	Un dolente sospiro, un lieto riso.
 @@END: VARIORUM
 
 
@@ -36,14 +37,14 @@ Un dolente sospiro, un lieto riso.
 @PAGE:		207
 @PARATEXT:	Stampa
 @VERSE:		
-Donna quanto più à dentro
-Conobbi il vostro core
-Tanto a darvi credenza io son più tardo:
-Ne stimo quel di fore
-Io dico un vago inchino, un dolce sguardo;
-Un dir nel foco io ardo,
-Un scolorir di viso
-Un dolente sospiro, un lieto riso.
+	Donna quanto più à dentro
+	Conobbi il vostro core
+	Tanto a darvi credenza io son più tardo:
+	Ne stimo quel di fore
+	Io dico un vago inchino, un dolce sguardo;
+	Un dir nel foco io ardo,
+	Un scolorir di viso
+	Un dolente sospiro, un lieto riso.
 @@END: VARIORUM
 
 
@@ -77,14 +78,14 @@ Un dolente sospiro, un lieto riso.
 @PAGE:		42
 @PARATEXT:	Dice alla S.D. che quanto piu conosce del suo cuore, tanto meno gli presta credenza
 @VERSE:	
-Donna, quanto più à dentro
-Conobbi il vostro core,
-Tanto à darvi credenza i son più tardo.
-Nè stimo quel di fore,
-Io dico un vago inchino, un dolce sguardo,
-Un dir, Nel foco io ardo,
-Un scolorir di viso,
-Un dolente sospir, un lieto riso.
+	Donna, quanto più à dentro
+	Conobbi il vostro core,
+	Tanto à darvi credenza i son più tardo.
+	Nè stimo quel di fore,
+	Io dico un vago inchino, un dolce sguardo,
+	Un dir, Nel foco io ardo,
+	Un scolorir di viso,
+	Un dolente sospir, un lieto riso.
 @@END: VARIORUM
 
 
@@ -96,14 +97,14 @@ Un dolente sospir, un lieto riso.
 @PAGE:		119
 @PARATEXT:	
 @VERSE:		
-Donna quanto più à dentro
-Conobbi il vostro core
-Tanto à darvi credenza io son più tardo.
-Ne stimo quel di fuore,
-Io dico un vago inchino, un dolce sguardo,
-Un dir nel foco io ardo,
-Un scolorir di viso,
-Un dolente sospiro, un lieto riso.
+	Donna quanto più à dentro
+	Conobbi il vostro core
+	Tanto à darvi credenza io son più tardo.
+	Ne stimo quel di fuore,
+	Io dico un vago inchino, un dolce sguardo,
+	Un dir nel foco io ardo,
+	Un scolorir di viso,
+	Un dolente sospiro, un lieto riso.
 @@END: VARIORUM
 
 
@@ -112,17 +113,17 @@ Un dolente sospiro, un lieto riso.
 @ID:		S54
 @TYPE:		print
 @SPRINT:	
-@PAGE:	58	
+@PAGE:	58
 @PARATEXT:	
 @VERSE:	
-Donna, quanto più à dentro
-Conobbi il vostro core,
-Tanto à darvi credenza io son più tardo.
-Nè stimo quel di fuore;
-Io dico un vago inchino, un dolce sguardo,
-Un dir: nel foco io ardo,
-Un scolorir di viso,
-Un dolente sospiro, un lieto riso.
+	Donna, quanto più à dentro
+	Conobbi il vostro core,
+	Tanto à darvi credenza io son più tardo.
+	Nè stimo quel di fuore;
+	Io dico un vago inchino, un dolce sguardo,
+	Un dir: nel foco io ardo,
+	Un scolorir di viso,
+	Un dolente sospiro, un lieto riso.
 @@END: VARIORUM
 
 
@@ -135,7 +136,9 @@ Un dolente sospiro, un lieto riso.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0096
 @ID:		S141
 @TYPE:		print
@@ -143,7 +146,7 @@ Un dolente sospiro, un lieto riso.
 @PAGE:		Parte terza delle Rime, 101
 @PARATEXT:	Dice alla D. sua, che quanto pù conosce le qualità del cor suo, tanto men le presta credenza, &amp; cosi deono fare i troppo leggieri giovanetti.
 @VERSE:		
-Donna, quanto piu a dentro
+	Donna, quanto piu a dentro
 	Conobbi il vostro core,
 	Tanto a darvi credenza i son piu tardo.
 	Nè stimo quel di fore,
@@ -151,8 +154,10 @@ Donna, quanto piu a dentro
 	Un dir, Nel foco io ardo,
 	Un scolorir di viso,
 	Un dolente sospir, un lieto riso.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0096
 @ID:		S166
 @TYPE:		print
@@ -160,7 +165,7 @@ Donna, quanto piu a dentro
 @PAGE:		Parte terza delle Rime, 101
 @PARATEXT:	Dice alla D. sua, che quanto pù conosce le qualità del cor suo, tanto men le presta credenza, &amp; cosi deono fare i troppo leggieri giovanetti.
 @VERSE:		
-Donna, quanto piu a dentro
+	Donna, quanto piu a dentro
 	Conobbi il vostro core,
 	Tanto a darvi credenza i son piu tardo.
 	Nè stimo quel di fore,
@@ -168,8 +173,10 @@ Donna, quanto piu a dentro
 	Un dir, Nel foco io ardo,
 	Un scolorir di viso,
 	Un dolente sospir, un lieto riso.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0096
 @ID:		S169
 @TYPE:		print
@@ -177,7 +184,7 @@ Donna, quanto piu a dentro
 @PAGE:		RIME DEL TASSO AMOROSE. P. II., 244
 @PARATEXT:	Amante incredulo.
 @VERSE:		
-Donna, quanto più à dentro
+	Donna, quanto più à dentro
 	Conobbi il vostro core,
 	Tanto à darvi credenza hor son più tardo,
 	Nè stimo quel di fuore;
@@ -185,7 +192,7 @@ Donna, quanto più à dentro
 	Un dir nel foco io ardo,
 	Un scolorir di viso,
 	Un dolente sospir un lieto riso.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -196,7 +203,7 @@ Donna, quanto più à dentro
 @PAGE:		4-5
 @PARATEXT:	
 @VERSE:		
-Donna quanto piu a dentro
+	Donna quanto piu a dentro
 	conobbi il vostro core
 	tanto darvi credenza io son piu tardo
 	ne stimo quel di fuore
@@ -215,7 +222,7 @@ Donna quanto piu a dentro
 @PAGE:		4-5
 @PARATEXT:	
 @VERSE:		
-Donna quanto piu a dentro
+	Donna quanto piu a dentro
 	conobbi il vostro core
 	tanto darvi credenza ì son piu tardo
 	ne stimo quel di fuore
@@ -234,7 +241,7 @@ Donna quanto piu a dentro
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Donna quanto piu a dentro
+	Donna quanto piu a dentro
 	conobbi il vostro core
 	[TACET]
 	[TACET]
@@ -253,7 +260,7 @@ Donna quanto piu a dentro
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-Donna quanto piu a dentro
+	Donna quanto piu a dentro
 	conobbi il vostro core
 	[TACET]
 	[TACET]
@@ -272,7 +279,7 @@ Donna quanto piu a dentro
 @PAGE:		4-5
 @PARATEXT:	
 @VERSE:		
-Donna quanto piu a dentro
+	Donna quanto piu a dentro
 	conobbi il vostro core
 	tanto darvi credenza io son piu tardo
 	ne stimo quel di fuore

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam5011978
 @ID:		A-Am
@@ -52,14 +53,15 @@
 @SMSIGLUM:	A-CM
 @PAGE:		60v
 @PARATEXT:	
-@VERSE:	.C[HORO].	
-Non sò se'l molto amaro
-Che provato ha costui servendo amando
-Piangendo e disperando
-Radolcito esser puote pienamente
-D’alcun dolce presente
-Ma se più caro viene
-E più si gusta doppo il male il bene	
+@VERSE:
+.C[HORO].
+	Non sò se'l molto amaro
+	Che provato ha costui servendo amando
+	Piangendo e disperando
+	Radolcito esser puote pienamente
+	D’alcun dolce presente
+	Ma se più caro viene
+	E più si gusta doppo il male il bene
 @@END: VARIORUM
 
 
@@ -85,7 +87,9 @@ E più si gusta doppo il male il bene
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam5011978
 @ID:		A-1580D
 @TYPE:		print
@@ -93,13 +97,13 @@ E più si gusta doppo il male il bene
 @PAGE:		46r
 @PARATEXT:	ATTO QUINTO. ELPINO, CHORO.
 @VERSE:		
-C.	Non sò, se'l molto amaro,
+	C.	Non sò, se'l molto amaro,
 	Che provato hà costui servendo, amando,
 	Piangendo, e disperando
 	Raddolcito esser pote pienamente
 	D’alcun dolce presente:
 	Mà, se più caro viene,
-	E più si gusta dopò ’l mal il bene,	
+	E più si gusta dopò ’l mal il bene,
 	Io non ti cheggio Amore
 	Questa beatitudine maggiore.
 	Bea pur gli altri in tal guise;
@@ -112,7 +116,7 @@ C.	Non sò, se'l molto amaro,
 	E soave ripulse,
 	Risse, e guerre, cui segua
 	Reintegrando i cori, ò pace, ò tregua.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -135,13 +139,13 @@ C.	Non sò, se'l molto amaro,
 @PAGE:		85
 @PARATEXT:	CHORO.
 @VERSE:		
-Non sò se'l molto amaro,
-Che provato hà costui servendo, amando,
-Piangendo, e disperando
-Raddolcito esser puote pienamente
-D’alcun dolce presente,
-Ma se più caro viene,
-E più si gusta dopo il male, il bene,	
+	Non sò se'l molto amaro,
+	Che provato hà costui servendo, amando,
+	Piangendo, e disperando
+	Raddolcito esser puote pienamente
+	D’alcun dolce presente,
+	Ma se più caro viene,
+	E più si gusta dopo il male, il bene,
 @@END: VARIORUM
 
 
@@ -167,7 +171,9 @@ E più si gusta dopo il male, il bene,
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam5011978
 @ID:		A-1581O
 @TYPE:		print
@@ -175,14 +181,14 @@ E più si gusta dopo il male, il bene,
 @PAGE:		85
 @PARATEXT:	ATTO QVINTO. CHORO.
 @VERSE:		
-Non sò se'l molto amaro,
-Che provato hà costui servendo, amando,
-Piangendo, e disperando
-Raddolcito esser puote pienamente
-D’alcun dolce presente,
-Mà se più caro viene,
-E più si gusta doppo il male, il bene,
-@@END:		VARIORUM
+	Non sò se'l molto amaro,
+	Che provato hà costui servendo, amando,
+	Piangendo, e disperando
+	Raddolcito esser puote pienamente
+	D’alcun dolce presente,
+	Mà se più caro viene,
+	E più si gusta doppo il male, il bene,
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -793,13 +799,13 @@ E più si gusta doppo il male, il bene,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Non sò, se il molto amaro
-Che provato hà costui servendo, amando
-Piangendo, e disperando,
-Radolcito puot’esser pienamente
-D’alcun dolce presente,
-Ma, se più caro viene,
-E più si gusta dopo ’l male il bene.	
+	Non sò, se il molto amaro
+	Che provato hà costui servendo, amando
+	Piangendo, e disperando,
+	Radolcito puot’esser pienamente
+	D’alcun dolce presente,
+	Ma, se più caro viene,
+	E più si gusta dopo ’l male il bene.
 @@END: VARIORUM
 
 
@@ -811,13 +817,13 @@ E più si gusta dopo ’l male il bene.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Non sò se il molto amaro
-Che provato hà costui servendo amando
-Piangendo, e disperando,
-Radolcito puot’esser pienamente
-D’alcun dolce presente,
-Ma se più caro viene,
-E più si gusta dopo ’l male il bene.	
+	Non sò se il molto amaro
+	Che provato hà costui servendo amando
+	Piangendo, e disperando,
+	Radolcito puot’esser pienamente
+	D’alcun dolce presente,
+	Ma se più caro viene,
+	E più si gusta dopo ’l male il bene.
 @@END: VARIORUM
 
 
@@ -829,13 +835,13 @@ E più si gusta dopo ’l male il bene.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Non sò, se il molto amaro
-Che provato hà costui servendo, amando
-Piangendo, e disperando,
-Radolcito puot’esser pienamente
-D’alcun dolce presente,
-Ma se più caro viene,
-E più si gusta dopo ’l male il bene.		
+	Non sò, se il molto amaro
+	Che provato hà costui servendo, amando
+	Piangendo, e disperando,
+	Radolcito puot’esser pienamente
+	D’alcun dolce presente,
+	Ma se più caro viene,
+	E più si gusta dopo ’l male il bene.
 @@END: VARIORUM
 
 
@@ -847,13 +853,13 @@ E più si gusta dopo ’l male il bene.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Non sò se il molto amaro
-Che provato hà costui servendo amando
-Piangendo E disperando
-Radolcito puot’esser pienamente
-D’alcun dolce presente:
-Ma se più caro viene,
-E più si gusta dopo ’l male il bene.		
+	Non sò se il molto amaro
+	Che provato hà costui servendo amando
+	Piangendo E disperando
+	Radolcito puot’esser pienamente
+	D’alcun dolce presente:
+	Ma se più caro viene,
+	E più si gusta dopo ’l male il bene.
 @@END: VARIORUM
 
 
@@ -865,13 +871,13 @@ E più si gusta dopo ’l male il bene.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Non sò se il molto amaro
-Che provato hà costui servendo amando
-Piangendo e disperando,
-Radolcito puot’esser pienamente
-D’alcun dolce presente
-Ma se più caro viene
-E più si gusta dopo ’l male il bene.		
+	Non sò se il molto amaro
+	Che provato hà costui servendo amando
+	Piangendo e disperando,
+	Radolcito puot’esser pienamente
+	D’alcun dolce presente
+	Ma se più caro viene
+	E più si gusta dopo ’l male il bene.
 @@END: VARIORUM
 
 

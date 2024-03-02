@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0265
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		240
 @PARATEXT:	stampa
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto
-E pare hor fresca rosa, hor bianco giglio,
-Dico se così muta il bel colore
-Non è ferma nel core,
-Ma ’l variar è così dolce e vago,
-Che d’altro io non m’appago :
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto
+	E pare hor fresca rosa, hor bianco giglio,
+	Dico se così muta il bel colore
+	Non è ferma nel core,
+	Ma ’l variar è così dolce e vago,
+	Che d’altro io non m’appago :
 @@END: VARIORUM
 
 
@@ -47,14 +48,14 @@ Che d’altro io non m’appago :
 @PAGE:		56
 @PARATEXT:	
 @VERSE:	
-Mentre la donna mia cangiando aspetto
-Di bianco il fà vermiglio,
-Mostra l’intero affetto,
-E pare  fresca rosa, ò vago giglio.
-E dico, s’ella muta il bel colore,
-Non è ferma nel core.
-Ma’l variare è così dolce, e vago,
-Che d’altro io non m’appago.
+	Mentre la donna mia cangiando aspetto
+	Di bianco il fà vermiglio,
+	Mostra l’intero affetto,
+	E pare  fresca rosa, ò vago giglio.
+	E dico, s’ella muta il bel colore,
+	Non è ferma nel core.
+	Ma’l variare è così dolce, e vago,
+	Che d’altro io non m’appago.
 @@END: VARIORUM
 
 
@@ -66,14 +67,14 @@ Che d’altro io non m’appago.
 @PAGE:		133
 @PARATEXT:	
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto,
-E par hor fresca rosa, hor bianco giglio,
-Dico, se cosi muta il bel colore,
-Non è ferma nel core;
-Ma’l variar è cosi dolce e vago,
-Che d’altro io non m’appago.
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto,
+	E par hor fresca rosa, hor bianco giglio,
+	Dico, se cosi muta il bel colore,
+	Non è ferma nel core;
+	Ma’l variar è cosi dolce e vago,
+	Che d’altro io non m’appago.
 @@END: VARIORUM
 
 
@@ -85,14 +86,14 @@ Che d’altro io non m’appago.
 @PAGE:		67
 @PARATEXT:	
 @VERSE:
-Mentre la Donna mia, cangiando aspetto
-Di bianco nel vermiglio,
-Mostra l’interno affetto,
-E par hor fresca rosa, hor bianco giglio,
-Dico: se cosi muta il bel colore,
-Non è ferma nel core;
-Ma’l variar è cosi dolce, e vago,
-Che d’altro io non m’appago.
+	Mentre la Donna mia, cangiando aspetto
+	Di bianco nel vermiglio,
+	Mostra l’interno affetto,
+	E par hor fresca rosa, hor bianco giglio,
+	Dico: se cosi muta il bel colore,
+	Non è ferma nel core;
+	Ma’l variar è cosi dolce, e vago,
+	Che d’altro io non m’appago.
 @@END: VARIORUM
 
 
@@ -104,16 +105,18 @@ Che d’altro io non m’appago.
 @PAGE:		46
 @PARATEXT:	ERA TANTO VERGOGNOSA LA S. / Donna, che vedendolo si mutava di colore / e facendosi cadder leggiadramente / occasione dubita della sua / costanza.
 @VERSE:	
-Mentre la donna mia, cangiand'aspetto
-Di bianco nel vermiglio,
-Mostra l’intero affetto,
-E pare hor fresca rosa, hor bianco giglio:
-Dico, se cosi muta il bel colore,
-Non è ferma nel core;
-Ma’l variar è cosi dolce, e vago,
-Che d’altro io non m’appago.
+	Mentre la donna mia, cangiand'aspetto
+	Di bianco nel vermiglio,
+	Mostra l’intero affetto,
+	E pare hor fresca rosa, hor bianco giglio:
+	Dico, se cosi muta il bel colore,
+	Non è ferma nel core;
+	Ma’l variar è cosi dolce, e vago,
+	Che d’altro io non m’appago.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0265
 @ID:		S141
 @TYPE:		print
@@ -121,7 +124,7 @@ Che d’altro io non m’appago.
 @PAGE:		Parte terza delle Rime, 124
 @PARATEXT:	Alla Sig. Lucretia Sanese, la qual parlando seco arrossiva, &amp; tanto più a lui piaceva.
 @VERSE:		
-Mentre la donna mia cangiando aspetto
+	Mentre la donna mia cangiando aspetto
 	Di bianco il fà vermiglio,
 	Mostra l’interno affetto,
 	E pare fresca rosa, o vago giglio.
@@ -129,8 +132,10 @@ Mentre la donna mia cangiando aspetto
 	Non è ferma nel core.
 	Ma ’l variare è così dolce, e vago,
 	Che d’altro io non m’appago.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0265
 @ID:		S166
 @TYPE:		print
@@ -138,7 +143,7 @@ Mentre la donna mia cangiando aspetto
 @PAGE:		Parte terza delle Rime, 124
 @PARATEXT:	Alla Sig. Lucretia Sanese, la qual parlando seco arrossiva, &amp; tanto più a lui piaceva.
 @VERSE:		
-Mentre la donna mia cangiando aspetto
+	Mentre la donna mia cangiando aspetto
 	Di bianco il fà vermiglio,
 	Mostra l’interno affetto,
 	E pare fresca rosa, o vago giglio.
@@ -146,8 +151,10 @@ Mentre la donna mia cangiando aspetto
 	Non è ferma nel core.
 	Ma ’l variare è così dolce, e vago,
 	Che d’altro io non m’appago.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0265
 @ID:		S169
 @TYPE:		print
@@ -155,7 +162,7 @@ Mentre la donna mia cangiando aspetto
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 33
 @PARATEXT:	Rossore improviso.
 @VERSE:		
-Mentre la donna mia cangiando aspetto
+	Mentre la donna mia cangiando aspetto
 	Di bianco il fà vermiglio,
 	Mostra l’interno affetto,
 	E par fresca rosa, e vago giglio.
@@ -163,7 +170,7 @@ Mentre la donna mia cangiando aspetto
 	Non è ferma nel core
 	Ma ’l variar è cosi dolce, e vago
 	Che d’altro io non m’appago.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -174,14 +181,14 @@ Mentre la donna mia cangiando aspetto
 @PAGE:		XVIII
 @PARATEXT:	
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto
-E par hor fresca rosa hor bianco giglio
-Dico se cosi muta il bel colore
-Non e ferma nel core
-Ma ’l variar è cosi dolce e vago
-Che d’altro io non m’appago.
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto
+	E par hor fresca rosa hor bianco giglio
+	Dico se cosi muta il bel colore
+	Non e ferma nel core
+	Ma ’l variar è cosi dolce e vago
+	Che d’altro io non m’appago.
 @@END: VARIORUM
 
 
@@ -193,14 +200,14 @@ Che d’altro io non m’appago.
 @PAGE:		XVIII
 @PARATEXT:	
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto
-E par hor fresca rosa hor bianco giglio
-Dico se cosi muta il bel colore
-Non è ferma nel core
-Ma ’l variar è cosi dolce e vago
-Che d’altro io non m’appago.
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto
+	E par hor fresca rosa hor bianco giglio
+	Dico se cosi muta il bel colore
+	Non è ferma nel core
+	Ma ’l variar è cosi dolce e vago
+	Che d’altro io non m’appago.
 @@END: VARIORUM
 
 
@@ -212,14 +219,14 @@ Che d’altro io non m’appago.
 @PAGE:		XVIII
 @PARATEXT:	
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto
-E par hor fresca rosa hor bianco giglio
-Dico se cosi muta il bel colore
-Non è ferma nel core
-Ma ’l variar è cosi dolce e vago
-Che d’altro io non m’appago.
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto
+	E par hor fresca rosa hor bianco giglio
+	Dico se cosi muta il bel colore
+	Non è ferma nel core
+	Ma ’l variar è cosi dolce e vago
+	Che d’altro io non m’appago.
 @@END: VARIORUM
 
 
@@ -231,14 +238,14 @@ Che d’altro io non m’appago.
 @PAGE:		XVIII
 @PARATEXT:	
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto
-E par hor fresca rosa hor bianco giglio
-Dico se cosi muta il bel colore
-Non è ferma nel core
-Ma ’l variar è cosi dolce e vago
-Che d’altro io non m’appago.
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto
+	E par hor fresca rosa hor bianco giglio
+	Dico se cosi muta il bel colore
+	Non è ferma nel core
+	Ma ’l variar è cosi dolce e vago
+	Che d’altro io non m’appago.
 @@END: VARIORUM
 
 
@@ -247,17 +254,17 @@ Che d’altro io non m’appago.
 @ID:		Trm0265a-Quinto
 @TYPE:		music
 @COMPOSER:	Hassler, Hans Leo
-PAGE:		XVIII
+	PAGE:		XVIII
 @PARATEXT:	
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto
-E par hor fresca rosa hor bianco giglio
-Dico se cosi muta il bel colore
-Non è ferma nel core
-Ma ’l variar è cosi dolce e vago
-Che d’altro io non m’appago
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto
+	E par hor fresca rosa hor bianco giglio
+	Dico se cosi muta il bel colore
+	Non è ferma nel core
+	Ma ’l variar è cosi dolce e vago
+	Che d’altro io non m’appago
 @@END: VARIORUM
 
 
@@ -269,14 +276,14 @@ Che d’altro io non m’appago
 @PAGE:		XVIII
 @PARATEXT:	
 @VERSE:		
-Mentre la Donna mia cangiando aspetto
-Di bianco nel vermiglio
-Mostra l’interno affetto
-E par hor fresca rosa hor bianco giglio
-Dico se cosi muta il bel colore
-Non è ferma nel core
-Ma ’l variar è cosi dolce e vago
-Che d’altro io non m’appago
+	Mentre la Donna mia cangiando aspetto
+	Di bianco nel vermiglio
+	Mostra l’interno affetto
+	E par hor fresca rosa hor bianco giglio
+	Dico se cosi muta il bel colore
+	Non è ferma nel core
+	Ma ’l variar è cosi dolce e vago
+	Che d’altro io non m’appago
 @@END: VARIORUM
 
 

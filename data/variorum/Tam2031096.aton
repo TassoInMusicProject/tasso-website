@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031096
 @ID:		A-Am
@@ -53,10 +54,10 @@
 @PAGE:		33r
 @PARATEXT:	
 @VERSE:		
-.T[IRSI]. Dunque tu l’amaresti à suo dispetto
-Quando potessi far di non amarla
-.A[MINTA]. Al suo dispetto nò ma l’amarei
-.T[IRSI]. Dunque fuor di sua voglia .A[MINTA]. Si per certo		
+	.T[IRSI]. Dunque tu l’amaresti à suo dispetto
+	Quando potessi far di non amarla
+	.A[MINTA]. Al suo dispetto nò ma l’amarei
+	.T[IRSI]. Dunque fuor di sua voglia .A[MINTA]. Si per certo
 @@END: VARIORUM
 
 
@@ -82,7 +83,9 @@ Quando potessi far di non amarla
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031096
 @ID:		A-1580D
 @TYPE:		print
@@ -90,10 +93,10 @@ Quando potessi far di non amarla
 @PAGE:		27v
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	Dunque tu l’amaresti à suo dispetto?
-A.	Al suo dispetto nò; mà l’amarei.
-T.	Dunque fuor di sua voglia. A. Si per certo	.
-@@END:		VARIORUM
+	T.	Dunque tu l’amaresti à suo dispetto?
+	A.	Al suo dispetto nò; mà l’amarei.
+	T.	Dunque fuor di sua voglia. A. Si per certo	.
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -116,10 +119,10 @@ T.	Dunque fuor di sua voglia. A. Si per certo	.
 @PAGE:		52
 @PARATEXT:	
 @VERSE:		
-Tir. Dunque tu l’amaresti al suo dispetto,
-Quando potessi far di non amarla.
-Am. Al suo dispetto nò, ma l’amerei.
-Tir. Dunque fuor di sua voglia. Am. Si per certo		
+	Tir. Dunque tu l’amaresti al suo dispetto,
+	Quando potessi far di non amarla.
+	Am. Al suo dispetto nò, ma l’amerei.
+	Tir. Dunque fuor di sua voglia. Am. Si per certo
 @@END: VARIORUM
 
 
@@ -145,7 +148,9 @@ Tir. Dunque fuor di sua voglia. Am. Si per certo
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031096
 @ID:		A-1581O
 @TYPE:		print
@@ -153,11 +158,11 @@ Tir. Dunque fuor di sua voglia. Am. Si per certo
 @PAGE:		52
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-TIR.	Dunque tu l’ameresti al suo dispetto,
+	TIR.	Dunque tu l’ameresti al suo dispetto,
 	Quando potessi far di non amarla.
-AM.	Al suo dispetto nò, ma l’amerei.
-TIR.	Dunque fuor di sua voglia. AM. Si per certo
-@@END:		VARIORUM
+	AM.	Al suo dispetto nò, ma l’amerei.
+	TIR.	Dunque fuor di sua voglia. AM. Si per certo
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -768,10 +773,10 @@ TIR.	Dunque fuor di sua voglia. AM. Si per certo
 @PAGE:		9
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque tu l’amaresti al suo dispetto
-Quando potessi far di non amarla
-AMINTA Al suo dispetto nò ma l’amarei
-[TACET] AMINTA Si per certo.	
+	TIRSI Dunque tu l’amaresti al suo dispetto
+	Quando potessi far di non amarla
+	AMINTA Al suo dispetto nò ma l’amarei
+	[TACET] AMINTA Si per certo.
 @@END: VARIORUM
 
 
@@ -780,13 +785,13 @@ AMINTA Al suo dispetto nò ma l’amarei
 @ID:		Tam2031096a-Alto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:	9	
+@PAGE:	9
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque tu l’amaresti al suo dispetto
-Quando potessi far di non amarla
-AMINTA al suo dispetto nò ma l’amarei
-TIRSI Dunque fuor di sua voglia AMINTA Si per certo.		
+	TIRSI Dunque tu l’amaresti al suo dispetto
+	Quando potessi far di non amarla
+	AMINTA al suo dispetto nò ma l’amarei
+	TIRSI Dunque fuor di sua voglia AMINTA Si per certo.
 @@END: VARIORUM
 
 
@@ -798,10 +803,10 @@ TIRSI Dunque fuor di sua voglia AMINTA Si per certo.
 @PAGE:		9
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque tu l’amaresti al suo dispetto
-Quando potessi far di non amarla
-AMINTA Al suo dispetto nò ma l’amarei
-TIRSI [TACET] AMINTA Si per certo.
+	TIRSI Dunque tu l’amaresti al suo dispetto
+	Quando potessi far di non amarla
+	AMINTA Al suo dispetto nò ma l’amarei
+	TIRSI [TACET] AMINTA Si per certo.
 @@END: VARIORUM
 
 
@@ -813,10 +818,10 @@ TIRSI [TACET] AMINTA Si per certo.
 @PAGE:		9
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque tu l’amaresti al suo dispetto
-Quando potessi far di non amarla
-AMINTA Al suo dispetto nò ma l’amarei
-[TACET] Si per certo.	
+	TIRSI Dunque tu l’amaresti al suo dispetto
+	Quando potessi far di non amarla
+	AMINTA Al suo dispetto nò ma l’amarei
+	[TACET] Si per certo.
 @@END: VARIORUM
 
 
@@ -828,10 +833,10 @@ AMINTA Al suo dispetto nò ma l’amarei
 @PAGE:		9
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque tu l’amaresti al suo dispetto
-Quando potessi far di non amarla
-AMINTA Al suo dispetto nò ma l’amarei
-TIRSI Dunque fuor di sua voglia AMINTA Si per certo.	
+	TIRSI Dunque tu l’amaresti al suo dispetto
+	Quando potessi far di non amarla
+	AMINTA Al suo dispetto nò ma l’amarei
+	TIRSI Dunque fuor di sua voglia AMINTA Si per certo.
 @@END: VARIORUM
 
 
@@ -843,10 +848,10 @@ TIRSI Dunque fuor di sua voglia AMINTA Si per certo.
 @PAGE:		9
 @PARATEXT:	
 @VERSE:		
-TIRSI Dunque tu l’amaresti al suo dispetto
-Quando potessi far di non amarla
-AMINTA al suo dispetto nò ma l’amarei
-TIRSI Dunque fuor di sua voglia AMINTA Si per certo.	
+	TIRSI Dunque tu l’amaresti al suo dispetto
+	Quando potessi far di non amarla
+	AMINTA al suo dispetto nò ma l’amarei
+	TIRSI Dunque fuor di sua voglia AMINTA Si per certo.
 @@END: VARIORUM
 
 

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0196
 @ID:		Ts2
@@ -17,16 +18,16 @@
 @PAGE:		4r
 @PARATEXT:	[The entire poem is deleted with a vertical strike-through]
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore.
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giacinti, e viole il Pò si veste.
-Danzan le Ninfe honeste, e i pastorelli,
-E i sussurranti augelli infra le fronde
-Al mormorar de l’onde; e vaghi fiori
-Donan le Gratie à i pargoletti Amori.	
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore.
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giacinti, e viole il Pò si veste.
+	Danzan le Ninfe honeste, e i pastorelli,
+	E i sussurranti augelli infra le fronde
+	Al mormorar de l’onde; e vaghi fiori
+	Donan le Gratie à i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -38,16 +39,16 @@ Donan le Gratie à i pargoletti Amori.
 @PAGE:		4r
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore.
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giacinti, e viole il Pò si veste.
-Danzan le Ninfe honeste, e i pastorelli,
-E i sussurranti augelli infra le fronde
-Al mormorar de l’onde; e vaghi fiori
-Donan le Gratie à i pargoletti Amori.
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore.
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giacinti, e viole il Pò si veste.
+	Danzan le Ninfe honeste, e i pastorelli,
+	E i sussurranti augelli infra le fronde
+	Al mormorar de l’onde; e vaghi fiori
+	Donan le Gratie à i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -59,16 +60,16 @@ Donan le Gratie à i pargoletti Amori.
 @PAGE:		4r
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore.
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giacinti, e viole il Pò si veste.
-Danzan le Ninfe honeste, e i pastorelli,
-E i sussurranti augelli infra le fronde
-Al mormorar de l’onde; e vaghi fiori
-Donan le Gratie à i pargoletti Amori.
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore.
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giacinti, e viole il Pò si veste.
+	Danzan le Ninfe honeste, e i pastorelli,
+	E i sussurranti augelli infra le fronde
+	Al mormorar de l’onde; e vaghi fiori
+	Donan le Gratie à i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -92,7 +93,9 @@ Donan le Gratie à i pargoletti Amori.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0196
 @ID:		S35
 @TYPE:		print
@@ -100,7 +103,7 @@ Donan le Gratie à i pargoletti Amori.
 @PAGE:		4r
 @PARATEXT:
 @VERSE:		
-FELICE primavera
+	FELICE primavera
 	Di bei pensier fiorisce nel mio core
 	Novo Lauro d’Amore,
 	A cui ride la terra, e ’l Ciel d’intorno.
@@ -110,8 +113,10 @@ FELICE primavera
 	E i sussurranti augelli infra le fronde
 	Al mormorar de l’onde; e vaghi fiori
 	Donan le Gratie à i pargoletti Amori.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0196
 @ID:		S69
 @TYPE:		print
@@ -119,7 +124,7 @@ FELICE primavera
 @PAGE:		4r
 @PARATEXT:
 @VERSE:		
-FELICE primavera
+	FELICE primavera
 	Di bei pensier fiorisce nel mio core
 	Novo Lauro d’Amore,
 	A cui ride la terra, e ’l Ciel d’intorno.
@@ -129,7 +134,7 @@ FELICE primavera
 	E i sussurranti augelli infra le fronde
 	Al mormorar de l’onde; e vaghi fiori
 	Donan le Gratie à i pargoletti Amori.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -141,7 +146,9 @@ FELICE primavera
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0196
 @ID:		S141
 @TYPE:		print
@@ -149,7 +156,7 @@ FELICE primavera
 @PAGE:		Parte seconda delle Rime, 173
 @PARATEXT:	Si come nella Primavera si veggono fiorire nuovi fiori, cosi nascono nel Poeta nuovi amori.
 @VERSE:		
-Felice primavera
+	Felice primavera
 	Di bei pensier fiorisce nel mio core
 	Novo Lauro d’Amore
 	A cui ride la terra, e ’l Ciel d’intorno.
@@ -159,8 +166,10 @@ Felice primavera
 	E i sussurranti augelli infra le fronde
 	Al mormorar de l’onde; e vaghi fiori
 	Donan le Grazie à i pargoletti Amori.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0196
 @ID:		S166
 @TYPE:		print
@@ -168,7 +177,7 @@ Felice primavera
 @PAGE:		Parte seconda delle Rime, 173
 @PARATEXT:	Si come nella Primavera si veggono fiorire nuovi fiori, cosi nascono nel Poeta nuovi amori.
 @VERSE:		
-Felice primavera
+	Felice primavera
 	Di bei pensier fiorisce nel mio core
 	Novo Lauro d’Amore
 	A cui ride la terra, e ’l Ciel d’intorno.
@@ -178,8 +187,10 @@ Felice primavera
 	E i sussurranti augelli infra le fronde
 	Al mormorar de l’onde; e vaghi fiori
 	Donan le Grazie à i pargoletti Amori.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0196
 @ID:		S169
 @TYPE:		print
@@ -187,7 +198,7 @@ Felice primavera
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 41
 @PARATEXT:	Felice Amore.
 @VERSE:		
-Felice Primavera
+	Felice Primavera
 	Di bei pensier fiorisce nel mio core,
 	Novo Lauro d’Amore,
 	A cui ride la terra, e ’l Ciel d’intorno;
@@ -197,7 +208,7 @@ Felice Primavera
 	E i sussurranti augelli infra le fronde
 	Al mormorar de l’onde, e vaghi fiori
 	Donan le gratie a i pargoletti Amori.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -205,19 +216,19 @@ Felice Primavera
 @ID:		Trm0196a-Canto
 @TYPE:		music
 @COMPOSER:	Virchi, Paolo
-@PAGE:	25	
+@PAGE:	25
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore;
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giacinti, e viole il Pò si veste;
-Danzan le Ninfe honeste, e i pastorelli;
-E cantano gli augelli infra le fronde
-Al mormorar de l’onde; e'n grembo à i fiori
-Scherzan le Gratie, e i pargoletti Amori.		
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore;
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giacinti, e viole il Pò si veste;
+	Danzan le Ninfe honeste, e i pastorelli;
+	E cantano gli augelli infra le fronde
+	Al mormorar de l’onde; e'n grembo à i fiori
+	Scherzan le Gratie, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -229,16 +240,16 @@ Scherzan le Gratie, e i pargoletti Amori.
 @PAGE:		25
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore;
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giacinti, e viole il Pò si veste;
-Danzan le Ninfe honeste, e i pastorelli;
-E cantano gli augelli infra le fronde
-Al mormorar de l’onde; e'n grembo à i fiori
-Scherzan le Gratie, e i pargoletti Amori.	
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore;
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giacinti, e viole il Pò si veste;
+	Danzan le Ninfe honeste, e i pastorelli;
+	E cantano gli augelli infra le fronde
+	Al mormorar de l’onde; e'n grembo à i fiori
+	Scherzan le Gratie, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -250,16 +261,16 @@ Scherzan le Gratie, e i pargoletti Amori.
 @PAGE:		25
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore;
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giaciti, e viole il Pò si veste;
-Danzan le Ninfe honeste, e i pastorelli;
-E cantano gli augelli infra le fronde
-Al mormorar de l’onde e'n grembo à i fiori
-Scherzan le Gratie, e i pargoletti Amori.	
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore;
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giaciti, e viole il Pò si veste;
+	Danzan le Ninfe honeste, e i pastorelli;
+	E cantano gli augelli infra le fronde
+	Al mormorar de l’onde e'n grembo à i fiori
+	Scherzan le Gratie, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -271,16 +282,16 @@ Scherzan le Gratie, e i pargoletti Amori.
 @PAGE:		25
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore;
-[TACET]
-E di bel manto adorno
-Di giaciti, e viole il Pò si veste;
-Danzan le Ninfe honeste, e i pastorelli;
-E cantano gli augelli infra le fronde
-Al mormorar de l’onde; e'n grembo à i fiori
-Scherzan le Gratie, e i pargoletti Amori.	
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore;
+	[TACET]
+	E di bel manto adorno
+	Di giaciti, e viole il Pò si veste;
+	Danzan le Ninfe honeste, e i pastorelli;
+	E cantano gli augelli infra le fronde
+	Al mormorar de l’onde; e'n grembo à i fiori
+	Scherzan le Gratie, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -292,16 +303,16 @@ Scherzan le Gratie, e i pargoletti Amori.
 @PAGE:		25
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore;
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giaciti, e viole il Pò si veste;
-Danzan le Ninfe honeste, e i pastorelli;
-E cantano gli augelli infra le fronde
-Al mormorar de l’onde e'n grembo à i fiori
-Scherzan le Gratie, e i pargoletti Amori.	
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore;
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giaciti, e viole il Pò si veste;
+	Danzan le Ninfe honeste, e i pastorelli;
+	E cantano gli augelli infra le fronde
+	Al mormorar de l’onde e'n grembo à i fiori
+	Scherzan le Gratie, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -313,16 +324,16 @@ Scherzan le Gratie, e i pargoletti Amori.
 @PAGE:		25
 @PARATEXT:	
 @VERSE:		
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo Lauro d’Amore;
-A cui ride la terra, e’l Ciel d’intorno;
-E di bel manto adorno
-Di giacinti, e viole il Pò si veste;
-Danzan le Ninfe honeste, e i pastorelli;
-E cantano gli augelli infra le fronde
-Al mormorar de l’onde; e'n grembo à i fiori
-Scherzan le Gratie, e i pargoletti Amori.	
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo Lauro d’Amore;
+	A cui ride la terra, e’l Ciel d’intorno;
+	E di bel manto adorno
+	Di giacinti, e viole il Pò si veste;
+	Danzan le Ninfe honeste, e i pastorelli;
+	E cantano gli augelli infra le fronde
+	Al mormorar de l’onde; e'n grembo à i fiori
+	Scherzan le Gratie, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -334,16 +345,16 @@ Scherzan le Gratie, e i pargoletti Amori.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Felice primavera
-Di bei pensier fiorisci nel mio core
-Novo lauro d’Amore
-A cui ride la terr’e ’l ciel d’intorno
-E di bel manto adorno
-Di Giacinti &amp; Viole il Pò si veste
-Danzan le Ninfe honeste e i Pastorelli
-E i susurranti augelli infra le fronde
-Al mormorar de l’ond’e i vaghi fiori
-Donan le gratie a i pargoletti amori.
+	Felice primavera
+	Di bei pensier fiorisci nel mio core
+	Novo lauro d’Amore
+	A cui ride la terr’e ’l ciel d’intorno
+	E di bel manto adorno
+	Di Giacinti &amp; Viole il Pò si veste
+	Danzan le Ninfe honeste e i Pastorelli
+	E i susurranti augelli infra le fronde
+	Al mormorar de l’ond’e i vaghi fiori
+	Donan le gratie a i pargoletti amori.
 @@END: VARIORUM
 
 
@@ -355,16 +366,16 @@ Donan le gratie a i pargoletti amori.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-Novo lauro d’Amore
-A cui ride la terr’e ’l ciel d’intorno
-E di bel manto adorno
-Di Giacinti &amp; Viole il Pò si veste
-Danzan le Ninfe honeste e i Pastorelli
-E i susurranti augelli infra le fronde
-Al mormorar de l’ond’e i vaghi fiori
-Donan le gratie a i pargoletti amori.
+	[TACET]
+	[TACET]
+	Novo lauro d’Amore
+	A cui ride la terr’e ’l ciel d’intorno
+	E di bel manto adorno
+	Di Giacinti &amp; Viole il Pò si veste
+	Danzan le Ninfe honeste e i Pastorelli
+	E i susurranti augelli infra le fronde
+	Al mormorar de l’ond’e i vaghi fiori
+	Donan le gratie a i pargoletti amori.
 @@END: VARIORUM
 
 
@@ -376,16 +387,16 @@ Donan le gratie a i pargoletti amori.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-[TACET]
-[TACET]
-Novo lauro d’Amore
-A cui ride la terr’e ’l ciel d’intorno
-E di bel manto adorno
-Di Giacinti &amp; Viole il Pò si veste
-Danzan le Ninfe honeste e i Pastorelli
-E i susurranti augelli infra le fronde
-Al mormorar de l’ond’e i vaghi fiori
-Donan le gratie a i pargoletti amori.
+	[TACET]
+	[TACET]
+	Novo lauro d’Amore
+	A cui ride la terr’e ’l ciel d’intorno
+	E di bel manto adorno
+	Di Giacinti &amp; Viole il Pò si veste
+	Danzan le Ninfe honeste e i Pastorelli
+	E i susurranti augelli infra le fronde
+	Al mormorar de l’ond’e i vaghi fiori
+	Donan le gratie a i pargoletti amori.
 @@END: VARIORUM
 
 
@@ -397,16 +408,16 @@ Donan le gratie a i pargoletti amori.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Felice primavera
-Di bei pensier fiorisce nel mio core
-Novo lauro d’Amore
-A cui ride la terr’e ’l ciel d’intorno
-E di bel manto adorno
-Di Giacinti e Viole il Pò si veste
-Danzan le Ninfe honeste e i Pastorelli
-E i susurranti augelli infra le fronde
-Al mormorar de l’ond’e i vaghi fiori
-Donan le gratie a i pargoletti amori.
+	Felice primavera
+	Di bei pensier fiorisce nel mio core
+	Novo lauro d’Amore
+	A cui ride la terr’e ’l ciel d’intorno
+	E di bel manto adorno
+	Di Giacinti e Viole il Pò si veste
+	Danzan le Ninfe honeste e i Pastorelli
+	E i susurranti augelli infra le fronde
+	Al mormorar de l’ond’e i vaghi fiori
+	Donan le gratie a i pargoletti amori.
 @@END: VARIORUM
 
 

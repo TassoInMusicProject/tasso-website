@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0319
 @ID:		E2
@@ -61,7 +62,9 @@
 	Voi somigliar sovente
 	Fate {l'angusta} Villa {à l'}Oriente.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0319
 @ID:		S169
 @TYPE:		print
@@ -69,7 +72,7 @@
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 201
 @PARATEXT:	Per li stessi occhi essendo lei in villa.
 @VERSE:		
-Non pur l’humil terreno,
+	Non pur l’humil terreno,
 	Tra pini abeti e faggi,
 	Celare i vostri puri, e lieti raggi.
 	E chi nasconde il Sole,
@@ -79,7 +82,7 @@ Non pur l’humil terreno,
 	Occhi sereni, e chiari,
 	Voi somigliar sovente
 	Fate l'angusta Villa a l' Oriente.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

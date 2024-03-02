@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1204
 @ID:		I4
@@ -28,7 +29,7 @@
 @PAGE:		31
 @PARATEXT:	Loda la zenzara.
 @VERSE:		
-Questa lieve zenzara
+	Questa lieve zenzara
 	Quanto hà sorte migliore
 	De la farfalla che s’infiamma, e more.
 @VERSE:
@@ -50,7 +51,7 @@ Questa lieve zenzara
 @PAGE:		
 @PARATEXT:	
 @VERSE:	
-Questa lieve zenzara
+	Questa lieve zenzara
 	Quanto hà sorte migliore
 	De la farfalla che s’incende, e more
 @VERSE:
@@ -72,7 +73,7 @@ Questa lieve zenzara
 @PAGE:		31
 @PARATEXT:	Loda la zenzara.
 @VERSE:		
-Questa lieve zenzara
+	Questa lieve zenzara
 	Quanto hà sorte migliore
 	De la farfalla, che s’infiamma, e more.
 @VERSE:
@@ -82,9 +83,11 @@ Questa lieve zenzara
 @VERSE:
 	O' fortunato loco
 	Tra’l mento, e'l casto petto,
-	Altrove non fù mai maggior diletto.	
+	Altrove non fù mai maggior diletto.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1204
 @ID:		S141
 @TYPE:		print
@@ -92,17 +95,19 @@ Questa lieve zenzara
 @PAGE:		Parte quarta delle Rime, 104
 @PARATEXT:	Mostra che la zenzara habbia miglior sorte della Farfalla, questa si pasce del fupco, ove s’abbruccia, &amp; quella del dolce sangue delle belle, &amp; delicate donne.
 @VERSE:		
-Questa lieve zenzara
+	Questa lieve zenzara
 	Quanto hà sorte migliore
 	De la farfalla, che s’infiamma, e more.
-L’una di chiaro foco,
+	L’una di chiaro foco,
 	Di gentil sangue è vaga
 	L’altra, che vive di si bella piaga.
-O fortunato loco
+	O fortunato loco
 	Tra ’l mento, e ’l casto petto,
 	Altrove non fu mai maggior diletto.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1204
 @ID:		S166
 @TYPE:		print
@@ -110,17 +115,19 @@ O fortunato loco
 @PAGE:		Parte quarta delle Rime, 104
 @PARATEXT:	Mostra che la zenzara habbia miglior sorte della Farfalla, questa si pasce del fupco, ove s’abbruccia, &amp; quella del dolce sangue delle belle, &amp; delicate donne.
 @VERSE:		
-Questa lieve zenzara
+	Questa lieve zenzara
 	Quanto hà sorte migliore
 	De la farfalla, che s’infiamma, e more.
-L’una di chiaro foco,
+	L’una di chiaro foco,
 	Di gentil sangue è vaga
 	L’altra, che vive di si bella piaga.
-O fortunato loco
+	O fortunato loco
 	Tra ’l mento, e ’l casto petto,
 	Altrove non fu mai maggior diletto.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1204
 @ID:		S169
 @TYPE:		print
@@ -128,7 +135,7 @@ O fortunato loco
 @PAGE:		RIME DEL TASSO.AMOROSE. P. II., 180
 @PARATEXT:	Zenzara importuna.
 @VERSE:		
-Questa lieve Zenzara,
+	Questa lieve Zenzara,
 	Quanto ha sorte migliore,
 	De la Farfalla, che s’infiamma, e more.
 	L’una di chiaro foco,
@@ -137,7 +144,7 @@ Questa lieve Zenzara,
 	O fortunato loco,
 	Tra ’l mento, e ’l casto petto,
 	Altrove non fù mai maggior diletto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -148,7 +155,7 @@ Questa lieve Zenzara,
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Questa lieve Zanzara
+	Questa lieve Zanzara
 	Quant'hà sorte migliore
 	De la Farfalla che s’infiamma e more
 	L’una di chiaro foco
@@ -168,7 +175,7 @@ Questa lieve Zanzara
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Questa lieve Zanzara
+	Questa lieve Zanzara
 	Quant'hà sorte migliore
 	De la Farfalla che s’infiamma e more
 	L’una di chiaro foco
@@ -188,7 +195,7 @@ Questa lieve Zanzara
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Questa lieve Zanzara
+	Questa lieve Zanzara
 	Quant'hà sorte migliore
 	De la Farfalla che s’infiamma e more
 	L’una di chiaro foco

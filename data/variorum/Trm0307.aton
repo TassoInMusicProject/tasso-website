@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0307
 @ID:		none
@@ -28,16 +29,16 @@
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-Non sono in queste rive
-Fiori così vermigli,
-Come le labra de la donna mia.
+	Non sono in queste rive
+	Fiori così vermigli,
+	Come le labra de la donna mia.
 @VERSE:
-Nè’l suon de l’aure estive
-Tra fonti, e rose, e gigli
-Fan del suo canto più dolce armonia.
+	Nè’l suon de l’aure estive
+	Tra fonti, e rose, e gigli
+	Fan del suo canto più dolce armonia.
 @VERSE:
-Canto, che m’ardi, e piaci,
-T’interrompano solo i nostri baci.
+	Canto, che m’ardi, e piaci,
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -49,16 +50,18 @@ T’interrompano solo i nostri baci.
 @PAGE:		106
 @PARATEXT:	MAD.
 @VERSE:		
-Non sono in queste rive
-Fiori cosi vermigli
-Come le labbra de la donna mia.
-Ne’l suon de l’aure estive
-Tra font;e rose, e gigli
-Fan del suo canto più dolce armonia,
-Canto, che m’ardi, e piaci
-T’interrompano solo i caldi baci.
+	Non sono in queste rive
+	Fiori cosi vermigli
+	Come le labbra de la donna mia.
+	Ne’l suon de l’aure estive
+	Tra font;e rose, e gigli
+	Fan del suo canto più dolce armonia,
+	Canto, che m’ardi, e piaci
+	T’interrompano solo i caldi baci.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0307
 @ID:		S141
 @TYPE:		print
@@ -66,16 +69,18 @@ T’interrompano solo i caldi baci.
 @PAGE:		Parte terza per le Rime, 55
 @PARATEXT:	Sentendo con suo piacere cantar la sua donna, non vorrebbe, che altre cose le interrompesse il canto, che i vicendevoli lor baci.
 @VERSE:		
-Non sono in queste rive
+	Non sono in queste rive
 	Fiori così vermigli,
 	Come le labra de la Donna mia.
-Nè ’l suon de l’aure estive
+	Nè ’l suon de l’aure estive
 	Tra fonti, e Rose, e Gigli
 	Fan del suo canto più dolce armonia.
-Canto, che m’ardi, e piaci,
+	Canto, che m’ardi, e piaci,
 	T’interrompano solo i nostri baci.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0307
 @ID:		S166
 @TYPE:		print
@@ -83,16 +88,18 @@ Canto, che m’ardi, e piaci,
 @PAGE:		Parte terza per le Rime, 55
 @PARATEXT:	Sentendo con suo piacere cantar la sua donna, non vorrebbe, che altre cose le interrompesse il canto, che i vicendevoli lor baci.
 @VERSE:		
-Non sono in queste rive
+	Non sono in queste rive
 	Fiori così vermigli,
 	Come le labra de la Donna mia.
-Nè ’l suon de l’aure estive
+	Nè ’l suon de l’aure estive
 	Tra fonti, e Rose, e Gigli
 	Fan del suo canto più dolce armonia.
-Canto, che m’ardi, e piaci,
+	Canto, che m’ardi, e piaci,
 	T’interrompano solo i nostri baci.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0307
 @ID:		S169
 @TYPE:		print
@@ -100,15 +107,15 @@ Canto, che m’ardi, e piaci,
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 65
 @PARATEXT:	Canto lodato.
 @VERSE:		
-Non sono in queste rive,
+	Non sono in queste rive,
 	Fiori cosi vermigli,
 	Come le labra de la Donna mia.
-Né ’l suon de l’aure estive
+	Né ’l suon de l’aure estive
 	Tra fonti, e Rose, e Gigli
 	Fan del suo canto più dolce armonia.
 	Canto, che m’ardi, e piaci,
 	T’interrompano solo i nostri baci.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -185,14 +192,14 @@ Né ’l suon de l’aure estive
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Non sono in queste rive
-Fiori così vermigli
-Come le labra di Vittoria mia
-Nel suon de l’aure estive
-Tra fonti e rose e gigli
-Fan del suo canto più dolce armonia
-Canto che m’ardi e piaci
-T’interrompano solo i nostri baci.
+	Non sono in queste rive
+	Fiori così vermigli
+	Come le labra di Vittoria mia
+	Nel suon de l’aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto più dolce armonia
+	Canto che m’ardi e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -204,14 +211,14 @@ T’interrompano solo i nostri baci.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Non son in queste rive
-Fiori così vermigli
-Come le labra di Vittoria mia
-Nel suon de l’aure estive
-Tra fonti e rose e gigli
-[TACET] più dolce armonia
-Canto che m’ardi e piaci
-T’interrompano solo i nostri baci.
+	Non son in queste rive
+	Fiori così vermigli
+	Come le labra di Vittoria mia
+	Nel suon de l’aure estive
+	Tra fonti e rose e gigli
+	[TACET] più dolce armonia
+	Canto che m’ardi e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -223,14 +230,14 @@ T’interrompano solo i nostri baci.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Non son in queste rive
-Fiori così vermigli
-Come le labra di Vittoria mia
-Nel suon de l’aure estive
-Tra fonti e rose e gigli
-Fan del suo canto più dolce armonia
-Canto che m’ardi e piaci
-T’interrompano solo i nostri baci.		
+	Non son in queste rive
+	Fiori così vermigli
+	Come le labra di Vittoria mia
+	Nel suon de l’aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto più dolce armonia
+	Canto che m’ardi e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -242,14 +249,14 @@ T’interrompano solo i nostri baci.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Non son in queste rive
-Fiori cosi vermigli
-Come le labra di Vittoria mia
-Ne'l suon de l’aure estive
-Tra fonti e rose e gigli
-Fan del suo canto più dolc'armonia
-Canto che m’ardi e piaci
-T’interrompano solo i nostri baci.
+	Non son in queste rive
+	Fiori cosi vermigli
+	Come le labra di Vittoria mia
+	Ne'l suon de l’aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto più dolc'armonia
+	Canto che m’ardi e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -261,14 +268,14 @@ T’interrompano solo i nostri baci.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Non son in queste rive
-Fiori cosi vermigli
-Come le labra di Vittoria mia
-Ne'l suon de l’aure estive
-Tra fonti e rose e gigli
-Fan del suo canto più dolc'armonia
-Canto che m’ardi e piaci
-T’interrompano solo i nostri baci.
+	Non son in queste rive
+	Fiori cosi vermigli
+	Come le labra di Vittoria mia
+	Ne'l suon de l’aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto più dolc'armonia
+	Canto che m’ardi e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -280,14 +287,14 @@ T’interrompano solo i nostri baci.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TATCET]
-Ne'l suon de l’aure estive
-Tra fonti e rose e gigli
-Fan del suo canto più dolc'armonia
-Canto che m’ard'e piaci
-T’interrompano solo i nostri baci.
+	[TACET]
+	[TACET]
+	[TATCET]
+	Ne'l suon de l’aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto più dolc'armonia
+	Canto che m’ard'e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -299,14 +306,14 @@ T’interrompano solo i nostri baci.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TATCET]
-Ne'l suon de l’aure estive
-Tra fonti e rose e gigli
-Fan del suo canto più dolc'armonia
-Canto che m’ardi e piaci
-T’interrompano solo i nostri baci.
+	[TACET]
+	[TACET]
+	[TATCET]
+	Ne'l suon de l’aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto più dolc'armonia
+	Canto che m’ardi e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 
@@ -318,14 +325,14 @@ T’interrompano solo i nostri baci.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Non son in queste rive
-Fiori cosi vermigli
-Come le labra di Vittoria mia
-Ne'l suon de l’aure estive
-Tra fonti e rose e gigli
-Fan del suo canto più dolc'armonia
-Canto che m’ardi e piaci
-T’interrompano solo i nostri baci.
+	Non son in queste rive
+	Fiori cosi vermigli
+	Come le labra di Vittoria mia
+	Ne'l suon de l’aure estive
+	Tra fonti e rose e gigli
+	Fan del suo canto più dolc'armonia
+	Canto che m’ardi e piaci
+	T’interrompano solo i nostri baci.
 @@END: VARIORUM
 
 

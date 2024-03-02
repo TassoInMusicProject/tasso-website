@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0326
 @ID:		F2
@@ -28,14 +29,14 @@
 @PAGE:		178
 @PARATEXT:	
 @VERSE:	
-Lunge da gli occhi vostri
-Io vivo del pensiero
-Pensosa vita, e vivo, perche i' spero.
+	Lunge da gli occhi vostri
+	Io vivo del pensiero
+	Pensosa vita, e vivo, perche i' spero.
 @VERSE:
-Spero il lieto ritorno,
-E s’averrà, che nel felice giorno
-La mia dolce speranza in me si moia,
-Spero viver di gioia.
+	Spero il lieto ritorno,
+	E s’averrà, che nel felice giorno
+	La mia dolce speranza in me si moia,
+	Spero viver di gioia.
 @@END: VARIORUM
 
 
@@ -47,14 +48,14 @@ Spero viver di gioia.
 @PAGE:		178
 @PARATEXT:	
 @VERSE:	
-Lunde da gli occhi vostri
-Io vivo del pensiero
-Pensosa vita, e vivo, perche i spero.
+	Lunde da gli occhi vostri
+	Io vivo del pensiero
+	Pensosa vita, e vivo, perche i spero.
 @VERSE:
-Spero il lieto ritorno,
-E s’averrà, che nel felice giorno
-La mia dolce speranza in me si moia,
-Spero viver di gioia. 		
+	Spero il lieto ritorno,
+	E s’averrà, che nel felice giorno
+	La mia dolce speranza in me si moia,
+	Spero viver di gioia.
 @@END: VARIORUM
 
 
@@ -66,15 +67,17 @@ Spero viver di gioia.
 @PAGE:		Quinta parte, 131v
 @PARATEXT:	Segue. [AMOROSA LONTANANZA. / Torquato Tasso.]
 @VERSE:		
-Lunge da gli occhi vostri
-Io vivo del pensiero
-Pensosa vita, e vivo, perche i spero:
-Spero il lieto ritorno,
-E s’avverrà, che nel felice giorno
-La mia dolce speranza in me si moia,
-Spero viver di gioia.
+	Lunge da gli occhi vostri
+	Io vivo del pensiero
+	Pensosa vita, e vivo, perche i spero:
+	Spero il lieto ritorno,
+	E s’avverrà, che nel felice giorno
+	La mia dolce speranza in me si moia,
+	Spero viver di gioia.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0326
 @ID:		S169
 @TYPE:		print
@@ -82,15 +85,17 @@ Spero viver di gioia.
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 75
 @PARATEXT:	Lontananza di Madonna.
 @VERSE:		
-Lunge dagli occhi vostri
+	Lunge dagli occhi vostri
 	Io vivo del pensiero
 	Pensosa vita, e vivo perch' io spero.
 	Spero il lieto ritorno,
 	E s’averrà, che nel felice giorno
 	La mia dolce speranza in me si moia,
 	Spero viver di gioia.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0326
 @ID:		S166
 @TYPE:		print
@@ -98,15 +103,17 @@ Lunge dagli occhi vostri
 @PAGE:		Parte quarta delle Rime, 199
 @PARATEXT:	Ritrovavasi lungi dall’amata D. &amp; con la speranza, che alla tornata sua ella se gli debba mostrar benigna, &amp; cortese, si consola.
 @VERSE:		
-Lunge da gli occhi vostri
+	Lunge da gli occhi vostri
 	Io vivo del pensiero
 	Pensosa vita, e vivo, perche i spero.
-Spero il lieto ritorno,
+	Spero il lieto ritorno,
 	E s’averrà, che nel felice giorno
 	La mia dolce speranza in me si moia,
 	Spero viver di gioia.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0326
 @ID:		S169
 @TYPE:		print
@@ -114,14 +121,14 @@ Spero il lieto ritorno,
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 75
 @PARATEXT:	Lontananza di Madonna.
 @VERSE:		
-Lunge dagli occhi vostri
+	Lunge dagli occhi vostri
 	Io vivo del pensiero
 	Pensosa vita, e vivo perch' io spero.
 	Spero il lieto ritorno,
 	E s’averrà, che nel felice giorno
 	La mia dolce speranza in me si moia,
 	Spero viver di gioia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -264,13 +271,13 @@ Lunge dagli occhi vostri
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Lunge da gl’occhi vostri,
-Io vivo del pensiero
-pensosa vita, E vivo perch’io spero;
-sper’il dolce ritorno;
-E s’avverrà che nel felice giorno,
-la mia cara speranz’in me si moia,
-spero viver di gioia.
+	Lunge da gl’occhi vostri,
+	Io vivo del pensiero
+	pensosa vita, E vivo perch’io spero;
+	sper’il dolce ritorno;
+	E s’avverrà che nel felice giorno,
+	la mia cara speranz’in me si moia,
+	spero viver di gioia.
 @@END: VARIORUM
 
 
@@ -282,13 +289,13 @@ spero viver di gioia.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:	
-Lunge da gl’occhi vostri,
-Io vivo del pensiero
-pensosa vita, E vivo perch’io spero;
-sper’il dolce ritorno;
-E s’avverrà che nel felice giorno,
-la mia cara speranz’in me si moia,
-spero viver di gioia.
+	Lunge da gl’occhi vostri,
+	Io vivo del pensiero
+	pensosa vita, E vivo perch’io spero;
+	sper’il dolce ritorno;
+	E s’avverrà che nel felice giorno,
+	la mia cara speranz’in me si moia,
+	spero viver di gioia.
 @@END: VARIORUM
 
 
@@ -300,13 +307,13 @@ spero viver di gioia.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Lunge da gl’occhi vostri,
-Io vivo del pensiero
-pensosa vita, E vivo perch’io spero;
-sper’il dolce ritorno;
-E s’avverrà che nel felice giorno,
-la mia cara speranza in me si moia,
-spero viver di gioia.
+	Lunge da gl’occhi vostri,
+	Io vivo del pensiero
+	pensosa vita, E vivo perch’io spero;
+	sper’il dolce ritorno;
+	E s’avverrà che nel felice giorno,
+	la mia cara speranza in me si moia,
+	spero viver di gioia.
 @@END: VARIORUM
 
 
@@ -318,13 +325,13 @@ spero viver di gioia.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:	
-Lunge da gl’occhi vostri,
-Io vivo del pensiero
-pensosa vita, E vivo perch’io spero;
-sper’il dolce ritorno;
-E s’avverrà che nel felice giorno,
-la mia cara speranza in me si moia,
-spero viver di gioia.
+	Lunge da gl’occhi vostri,
+	Io vivo del pensiero
+	pensosa vita, E vivo perch’io spero;
+	sper’il dolce ritorno;
+	E s’avverrà che nel felice giorno,
+	la mia cara speranza in me si moia,
+	spero viver di gioia.
 @@END: VARIORUM
 
 

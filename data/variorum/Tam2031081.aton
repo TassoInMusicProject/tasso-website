@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031081
 @ID:		A-Am
@@ -53,14 +54,14 @@
 @PAGE:		32v
 @PARATEXT:	
 @VERSE:		
-.T[IRSI]. S’à mio senno farai sarai felice
-.A[MINTA]. E che consigli? .T[IRSI]. Che tu prenda quello
-Che la fortuna amica t’appresenta
-.A[MINTA]. Tolga Dio ch’io mai faccia
-Cosa che le dispiaccia
-Cosa non feci mai che le spiacesse
-Fuor che l'amarla e questo à me fu forza
-Forza di sua bellezza e non mia colpa		
+	.T[IRSI]. S’à mio senno farai sarai felice
+	.A[MINTA]. E che consigli? .T[IRSI]. Che tu prenda quello
+	Che la fortuna amica t’appresenta
+	.A[MINTA]. Tolga Dio ch’io mai faccia
+	Cosa che le dispiaccia
+	Cosa non feci mai che le spiacesse
+	Fuor che l'amarla e questo à me fu forza
+	Forza di sua bellezza e non mia colpa
 @@END: VARIORUM
 
 
@@ -86,7 +87,9 @@ Forza di sua bellezza e non mia colpa
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031081
 @ID:		A-1580D
 @TYPE:		print
@@ -94,15 +97,15 @@ Forza di sua bellezza e non mia colpa
 @PAGE:		27r
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	S’à mio senno farai, sarai felice.
-A.	Che mi consigli? T. Che tu prenda quello,
+	T.	S’à mio senno farai, sarai felice.
+	A.	Che mi consigli? T. Che tu prenda quello,
 	Che la fortuna amica t’appresenta.
-A.	Tolga Dio, che mai faccia
+	A.	Tolga Dio, che mai faccia
 	Cosa, che le dispiaccia.
 	Cosa io non feci mai, che le spiacesse,
 	Fuor, che l'amarla, e questo à me fù forza,
 	Forza di sua bellezza, e non mia colpa.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -125,14 +128,14 @@ A.	Tolga Dio, che mai faccia
 @PAGE:		51-52
 @PARATEXT:	
 @VERSE:		
-Tir. S’à mio senno farai, sarai felice.
-Am. E che consigli? Tir. Che tu prenda quello,
-Che la fortuna amica t’appresenta.
-Am. Tolga Dio, che mai faccia
-Cosa, che le dispiaccia:
-Cosa io non feci mai, che le spiacesse
-Fuor che l'amarla: e questo a me fù forza,
-Forza di sua bellezza, e non mia colpa,			
+	Tir. S’à mio senno farai, sarai felice.
+	Am. E che consigli? Tir. Che tu prenda quello,
+	Che la fortuna amica t’appresenta.
+	Am. Tolga Dio, che mai faccia
+	Cosa, che le dispiaccia:
+	Cosa io non feci mai, che le spiacesse
+	Fuor che l'amarla: e questo a me fù forza,
+	Forza di sua bellezza, e non mia colpa,
 @@END: VARIORUM
 
 
@@ -158,7 +161,9 @@ Forza di sua bellezza, e non mia colpa,
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031081
 @ID:		A-1581O
 @TYPE:		print
@@ -166,15 +171,15 @@ Forza di sua bellezza, e non mia colpa,
 @PAGE:		52
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-TIR.	S’à mio senno farai, sarai felice.
-AM.	E che consigli? TIR. che tu prenda quello,
+	TIR.	S’à mio senno farai, sarai felice.
+	AM.	E che consigli? TIR. che tu prenda quello,
 	Che la fortuna amica t’appresenta.
-AM.	Tolga Dio, che mai faccia
+	AM.	Tolga Dio, che mai faccia
 	Cosa, che le dispiaccia:
 	Cosa io non feci mai, che li spiacesse
 	Fuor che l'amarla: e questo a me fù forza,
 	Forza di sua bellezza, e non mia colpa,
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -782,17 +787,17 @@ AM.	Tolga Dio, che mai faccia
 @ID:		Tam2031081a-Canto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:	7	
+@PAGE:	7
 @PARATEXT:	
 @VERSE:		
-S’a mio senno farai sarai felice
-E che consigli Che tu prenda quello
-Che la fortuna amica t’appresenta
-Tolga Dio ch’io mai faccia
-Cosa che le dispiaccia
-Cosa non feci mai che li spiacesse
-Fuor ch’amarla e quest’a me fu forza
-Forza di sua bellezza e non mia colpa.	
+	S’a mio senno farai sarai felice
+	E che consigli Che tu prenda quello
+	Che la fortuna amica t’appresenta
+	Tolga Dio ch’io mai faccia
+	Cosa che le dispiaccia
+	Cosa non feci mai che li spiacesse
+	Fuor ch’amarla e quest’a me fu forza
+	Forza di sua bellezza e non mia colpa.
 @@END: VARIORUM
 
 
@@ -804,14 +809,14 @@ Forza di sua bellezza e non mia colpa.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-S’a mio senno farai sarai felice
-E che consigli Che tu prenda Quello
-che la fortuna amica t’appresenta
-Tolga Dio ch’io mai faccia
-Cosa che le dispiaccia
-Cosa non feci mai che le spiacesse
-Fuor ch’amarla E quest’a me fu forza
-Forza di sua bellezza e non mia colpa.	
+	S’a mio senno farai sarai felice
+	E che consigli Che tu prenda Quello
+	che la fortuna amica t’appresenta
+	Tolga Dio ch’io mai faccia
+	Cosa che le dispiaccia
+	Cosa non feci mai che le spiacesse
+	Fuor ch’amarla E quest’a me fu forza
+	Forza di sua bellezza e non mia colpa.
 @@END: VARIORUM
 
 
@@ -820,17 +825,17 @@ Forza di sua bellezza e non mia colpa.
 @ID:		Tam2031081a-Tenore
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:	7	
+@PAGE:	7
 @PARATEXT:	
 @VERSE:		
-S’a mio senno farai sarai felice
-E che consigli Che tu prenda Quello
-che la fortuna amica t’appresenta
-Tolga Dio ch’io mai faccia
-Cosa che le dispiaccia
-Cosa non feci mai che le spiacesse
-Fuor ch’amarla e quest’a me fu forza
-Forza di sua bellezza e non mia colpa.	
+	S’a mio senno farai sarai felice
+	E che consigli Che tu prenda Quello
+	che la fortuna amica t’appresenta
+	Tolga Dio ch’io mai faccia
+	Cosa che le dispiaccia
+	Cosa non feci mai che le spiacesse
+	Fuor ch’amarla e quest’a me fu forza
+	Forza di sua bellezza e non mia colpa.
 @@END: VARIORUM
 
 
@@ -842,14 +847,14 @@ Forza di sua bellezza e non mia colpa.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-S’a mio senno farai sarai felice
-E che consigli Che tu prenda Quello
-che la fortuna amica t’appresenta
-Tolga Dio ch’io mai faccia
-Cosa che le dispiaccia
-Cosa non feci mai che le spiacesse
-Fuor ch’amarla e quest’a me fu forza
-Forza di sua bellezza e non mia colpa.
+	S’a mio senno farai sarai felice
+	E che consigli Che tu prenda Quello
+	che la fortuna amica t’appresenta
+	Tolga Dio ch’io mai faccia
+	Cosa che le dispiaccia
+	Cosa non feci mai che le spiacesse
+	Fuor ch’amarla e quest’a me fu forza
+	Forza di sua bellezza e non mia colpa.
 @@END: VARIORUM
 
 
@@ -861,14 +866,14 @@ Forza di sua bellezza e non mia colpa.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-S’a mio senno farai sarai felice
-E che consigli Che tu prenda Quello
-che la fortuna amica t’appresenta
-Tolga Dio ch’io mai faccia
-Cosa che le dispiaccia
-Cosa non feci mai che li spiacesse
-Fuor ch’amarla e quest’a me fu forza
-Forza di sua bellezza e non mia colpa.	
+	S’a mio senno farai sarai felice
+	E che consigli Che tu prenda Quello
+	che la fortuna amica t’appresenta
+	Tolga Dio ch’io mai faccia
+	Cosa che le dispiaccia
+	Cosa non feci mai che li spiacesse
+	Fuor ch’amarla e quest’a me fu forza
+	Forza di sua bellezza e non mia colpa.
 @@END: VARIORUM
 
 
@@ -880,14 +885,14 @@ Forza di sua bellezza e non mia colpa.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-S’a mio senno farai sarai felice
-E che consigli Che tu prenda Quello
-Che la fortuna amica t’appresenta
-Tolga Dio ch’io mai faccia
-Cosa che le dispiaccia
-Cosa non feci mai che le spiacesse
-Fuor ch’amarla e quest’a me fu forza
-Forza di sua bellezza e non mia colpa.	
+	S’a mio senno farai sarai felice
+	E che consigli Che tu prenda Quello
+	Che la fortuna amica t’appresenta
+	Tolga Dio ch’io mai faccia
+	Cosa che le dispiaccia
+	Cosa non feci mai che le spiacesse
+	Fuor ch’amarla e quest’a me fu forza
+	Forza di sua bellezza e non mia colpa.
 @@END: VARIORUM
 
 

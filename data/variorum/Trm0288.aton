@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0288
 @ID:		none
@@ -28,17 +29,17 @@
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-Amatemi, ben mio,
-Perche sdegna il mio core
-Ogn’altro cibo, e vive sol d’amore.
+	Amatemi, ben mio,
+	Perche sdegna il mio core
+	Ogn’altro cibo, e vive sol d’amore.
 @VERSE:
-V’amerò, se m’amate;
-Nè men de la mia vita
-L’amor fia lungo, e fia con lui finita.
+	V’amerò, se m’amate;
+	Nè men de la mia vita
+	L’amor fia lungo, e fia con lui finita.
 @VERSE:
-Ma, s’amarmi negate,
-Morirò disperato,
-Per non amarvi, non essendo amato.
+	Ma, s’amarmi negate,
+	Morirò disperato,
+	Per non amarvi, non essendo amato.
 @@END: VARIORUM
 
 
@@ -73,7 +74,9 @@ Per non amarvi, non essendo amato.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0288
 @ID:		S69
 @TYPE:		print
@@ -81,16 +84,16 @@ Per non amarvi, non essendo amato.
 @PAGE:		60v
 @PARATEXT:	Madrigali.
 @VERSE:		
-AMATEMI, ben mio,
+	AMATEMI, ben mio,
 	Perche sdegna il mio core
 	Ogn’ altro cibo, e vive sol d’amore.
-V’amerò, se m’amate,
+	V’amerò, se m’amate,
 	Nè men de la mia vita
 	L’amor fia lungo e fia con lui finita.
-Ma, s’amarmi negate,
+	Ma, s’amarmi negate,
 	Morirò disperato,
 	Per non amarvi, non essendo amato.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -101,17 +104,19 @@ Ma, s’amarmi negate,
 @PAGE:		Parte quinta, 82v
 @PARATEXT:	I Varij. / Torquato Tasso.
 @VERSE:		
-Amatemi ben mio
-Perche sdegna il mio core
-Ogn’altro cibo, vive sol d’Amore.
-V’amerò se m’amate,
-Ne men de la mia vita
-L’amor fia longo, e fia con lui finita.
-Ma, s’amarmi negate
-Morirò disperato,
-Per non amarvi, non essendo amato.
+	Amatemi ben mio
+	Perche sdegna il mio core
+	Ogn’altro cibo, vive sol d’Amore.
+	V’amerò se m’amate,
+	Ne men de la mia vita
+	L’amor fia longo, e fia con lui finita.
+	Ma, s’amarmi negate
+	Morirò disperato,
+	Per non amarvi, non essendo amato.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0288
 @ID:		S166
 @TYPE:		print
@@ -119,19 +124,21 @@ Per non amarvi, non essendo amato.
 @PAGE:		Parte terza delle Rime, 246
 @PARATEXT:	Prega l’amante sua, che l’ami.
 @VERSE:		
-Amatemi, ben mio,
+	Amatemi, ben mio,
 	Perche sdegna il mio core
 	Ogn’ altro cibo, e vivo sol d’amore.
 @VERSE:
-V’amerò, se m’amate,
+	V’amerò, se m’amate,
 	Nè men de la mia vita
 	L’amor fia lungo, e fia con lui finita.
 @VERSE:
-Ma, s’amarmi legate,
+	Ma, s’amarmi legate,
 	Morirò disperato,
 	Per non amarvi, non essendo amato.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0288
 @ID:		S169
 @TYPE:		print
@@ -139,7 +146,7 @@ Ma, s’amarmi legate,
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 158
 @PARATEXT:	Desiderio d'Amor reciproco.
 @VERSE:		
-Amatemi, ben mio,
+	Amatemi, ben mio,
 	Perche sdegna il mio core
 	Ogn' altro cibo, e vive sol d’Amore.
 	V’amerò se m’amate,
@@ -148,7 +155,7 @@ Amatemi, ben mio,
 	Ma s’amarmi negate
 	Morirò disperato
 	Per non amarmi non essendo amato.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -280,15 +287,15 @@ Amatemi, ben mio,
 @PAGE:		6-7
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Poi che sdegn’il mio core
-Ogn’altro cibo e vive sol d’amore
-V’amerò se m’amate
-Ne men della mia vita
-L’Amor fia lungo &amp; fia con lui finita
-Ma s’amarmi negate
-Morirò desperato
-Per non amarvi non essendo amato.
+	Amatemi ben mio
+	Poi che sdegn’il mio core
+	Ogn’altro cibo e vive sol d’amore
+	V’amerò se m’amate
+	Ne men della mia vita
+	L’Amor fia lungo &amp; fia con lui finita
+	Ma s’amarmi negate
+	Morirò desperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -300,15 +307,15 @@ Per non amarvi non essendo amato.
 @PAGE:		6-7
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Poi che sdegn’il mio core
-Ogn’altro cibo e vive sol d’amore
-V’amerò se m’amate
-Ne men della mia vita
-L’Amor fia lungo &amp; fia con lui finita
-Ma s’amarmi negate
-Morirò desperato
-Per non amarvi non essendo amato.	
+	Amatemi ben mio
+	Poi che sdegn’il mio core
+	Ogn’altro cibo e vive sol d’amore
+	V’amerò se m’amate
+	Ne men della mia vita
+	L’Amor fia lungo &amp; fia con lui finita
+	Ma s’amarmi negate
+	Morirò desperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -320,15 +327,15 @@ Per non amarvi non essendo amato.
 @PAGE:		6-7
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Poi che sdegn’il mio core
-Ogn’altro cibo e vive sol d’amore
-V’amerò se m’amate
-Ne men della mia vita
-L’Amor fia lungo &amp; fia con lui finita
-[TACET]
-Morirò desperato
-Per non amarvi non essendo amato.	
+	Amatemi ben mio
+	Poi che sdegn’il mio core
+	Ogn’altro cibo e vive sol d’amore
+	V’amerò se m’amate
+	Ne men della mia vita
+	L’Amor fia lungo &amp; fia con lui finita
+	[TACET]
+	Morirò desperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -340,15 +347,15 @@ Per non amarvi non essendo amato.
 @PAGE:		6-7
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Poi che sdegna’l mio core
-Ogn’altro cibo e vive sol d’amore
-V’amerò se m’amate
-Ne men della mia vita
-L’Amor fia lungo &amp; fia con lui finita
-Ma s’amarmi negate
-Morirò desperato
-Per non amarvi non essendo amato.	
+	Amatemi ben mio
+	Poi che sdegna’l mio core
+	Ogn’altro cibo e vive sol d’amore
+	V’amerò se m’amate
+	Ne men della mia vita
+	L’Amor fia lungo &amp; fia con lui finita
+	Ma s’amarmi negate
+	Morirò desperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -360,15 +367,15 @@ Per non amarvi non essendo amato.
 @PAGE:		6-7
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Poi che sdegn’il mio core
-Ogn’altro cibo e vive sol d’amore
-V’amarò se m’amate
-Ne men della mia vita
-L’Amor fia lungo &amp; fia con lui finita
-Ma s’amarmi negate
-Morirò desperato
-Per non amarvi non essendo amato.	
+	Amatemi ben mio
+	Poi che sdegn’il mio core
+	Ogn’altro cibo e vive sol d’amore
+	V’amarò se m’amate
+	Ne men della mia vita
+	L’Amor fia lungo &amp; fia con lui finita
+	Ma s’amarmi negate
+	Morirò desperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -435,15 +442,15 @@ Per non amarvi non essendo amato.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegn’il mio core
-Ogn’altro cibo &amp; vive sol d’Amore
-V’amerò se m’amate
-Ne men de la mia vita
-L’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essend’amato.
+	Amatemi ben mio
+	Perche sdegn’il mio core
+	Ogn’altro cibo &amp; vive sol d’Amore
+	V’amerò se m’amate
+	Ne men de la mia vita
+	L’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essend’amato.
 @@END: VARIORUM
 
 
@@ -543,15 +550,15 @@ Per non amarvi non essend’amato.
 @PAGE:		13
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegn’il mio core
-Ogn’altro cibo e vive sol d’Amore
-V’amerò se m’amate
-[TACEt]
-[TACET] e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essend’amato.
+	Amatemi ben mio
+	Perche sdegn’il mio core
+	Ogn’altro cibo e vive sol d’Amore
+	V’amerò se m’amate
+	[TACEt]
+	[TACET] e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essend’amato.
 @@END: VARIORUM
 
 
@@ -560,18 +567,18 @@ Per non amarvi non essend’amato.
 @ID:		Trm0288h-Alto
 @TYPE:		music
 @COMPOSER:	Marenzio, Luca
-@PAGE:	13	
+@PAGE:	13
 @PARATEXT:	
 @VERSE:		
-[TACET]
-Perche sdegn’il mio core
-Ogn’altro cibo e vive sol d’Amore
-V’amerò se m’amate
-Ne men della mia vita
-[TACET] e fia con lui finita
-Ma s’amarmi negate
-Morirò [TACET]
-Per non amarvi non essend’amato.
+	[TACET]
+	Perche sdegn’il mio core
+	Ogn’altro cibo e vive sol d’Amore
+	V’amerò se m’amate
+	Ne men della mia vita
+	[TACET] e fia con lui finita
+	Ma s’amarmi negate
+	Morirò [TACET]
+	Per non amarvi non essend’amato.
 @@END: VARIORUM
 
 
@@ -583,15 +590,15 @@ Per non amarvi non essend’amato.
 @PAGE:		13
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegn’il mio core
-Ogn’altro cibo e vive sol d’Amore
-V’amerò [TACET]
-[TACET]
-L’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essend’amato.
+	Amatemi ben mio
+	Perche sdegn’il mio core
+	Ogn’altro cibo e vive sol d’Amore
+	V’amerò [TACET]
+	[TACET]
+	L’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essend’amato.
 @@END: VARIORUM
 
 
@@ -603,15 +610,15 @@ Per non amarvi non essend’amato.
 @PAGE:		13
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TACET]
-V’amerò se m’amate
-Ne men della mia vita
-L’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essend’amato.
+	[TACET]
+	[TACET]
+	[TACET]
+	V’amerò se m’amate
+	Ne men della mia vita
+	L’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essend’amato.
 @@END: VARIORUM
 
 
@@ -623,15 +630,15 @@ Per non amarvi non essend’amato.
 @PAGE:		13
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegn’il mio core
-Ogn’altro cibo e vive sol d’Amore
-V’amerò se m’amate
-Ne men della mia vita
-L'amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essend’amato.
+	Amatemi ben mio
+	Perche sdegn’il mio core
+	Ogn’altro cibo e vive sol d’Amore
+	V’amerò se m’amate
+	Ne men della mia vita
+	L'amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essend’amato.
 @@END: VARIORUM
 
 
@@ -643,15 +650,15 @@ Per non amarvi non essend’amato.
 @PAGE:		13
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TACET]
-V’amerò se m’amate
-Ne men della mia vita
-L’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-[TACET] non essend’amato.
+	[TACET]
+	[TACET]
+	[TACET]
+	V’amerò se m’amate
+	Ne men della mia vita
+	L’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	[TACET] non essend’amato.
 @@END: VARIORUM
 
 
@@ -663,16 +670,16 @@ Morirò disperato
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegna il mio core
-Ogn’altro cibo e vive sol d’Amore.
+	Amatemi ben mio
+	Perche sdegna il mio core
+	Ogn’altro cibo e vive sol d’Amore.
 @VERSE:
-V’amerò Se m’amate
-Ne men de la mia vita
-l’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essendo amato.
+	V’amerò Se m’amate
+	Ne men de la mia vita
+	l’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -684,16 +691,16 @@ Per non amarvi non essendo amato.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegna il mio core
-Ogn’altro cibo e vive sol d’amore.
+	Amatemi ben mio
+	Perche sdegna il mio core
+	Ogn’altro cibo e vive sol d’amore.
 @VERSE:
-V’amerò se m’amate
-Ne men de la mia vita
-[TACET] e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essendo amato.
+	V’amerò se m’amate
+	Ne men de la mia vita
+	[TACET] e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -705,16 +712,16 @@ Per non amarvi non essendo amato.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegna il mio core
-Ogn’altro cibo e vive sol d’Amore.
+	Amatemi ben mio
+	Perche sdegna il mio core
+	Ogn’altro cibo e vive sol d’Amore.
 @VERSE:
-V’amerò se m’amate
-Ne men de la mia vita
-l’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essendo amato.
+	V’amerò se m’amate
+	Ne men de la mia vita
+	l’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -726,16 +733,16 @@ Per non amarvi non essendo amato.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Amatemi ben mio
-Perche sdegna il mio core
-Ogn’altro cibo e vive sol d’amore.
+	Amatemi ben mio
+	Perche sdegna il mio core
+	Ogn’altro cibo e vive sol d’amore.
 @VERSE:
-V’amerò Se m’amate
-Ne men de la mia vita
-l’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essendo amato.
+	V’amerò Se m’amate
+	Ne men de la mia vita
+	l’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -747,16 +754,16 @@ Per non amarvi non essendo amato.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Amatemi Ben mio
-Perche sdegna il mio core
-Ogn’altro cibo e vive sol d’Amore.
+	Amatemi Ben mio
+	Perche sdegna il mio core
+	Ogn’altro cibo e vive sol d’Amore.
 @VERSE:
-V’amerò se m’amate
-Ne men de la mia vita
-l’amor fia lungo e fia con lui finita
-Ma s’amarmi negate
-Morirò disperato
-Per non amarvi non essendo amato.
+	V’amerò se m’amate
+	Ne men de la mia vita
+	l’amor fia lungo e fia con lui finita
+	Ma s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 
@@ -999,15 +1006,15 @@ Per non amarvi non essendo amato.
 @PAGE:		8
 @PARATEXT:	A 2.
 @VERSE:		
-Amatemi ben mio
-perche sdegna il mio core
-ogn’altro cibo e vive sol d’Amore
-v’amerò se m’amate
-non men de la mia vita
-l’amor fia lungo e fia con lui finita
-Mà s’amarmi negate
-Morirò disperato
-Per non amarvi non essendo amato.
+	Amatemi ben mio
+	perche sdegna il mio core
+	ogn’altro cibo e vive sol d’Amore
+	v’amerò se m’amate
+	non men de la mia vita
+	l’amor fia lungo e fia con lui finita
+	Mà s’amarmi negate
+	Morirò disperato
+	Per non amarvi non essendo amato.
 @@END: VARIORUM
 
 

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0243
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		279
 @PARATEXT:	stampa
 @VERSE:		
-Fuggia di poggio in poggio
-La mia dolce nemica
-et essa mi seguiva bella, e pudica.
-Al fin mi giunse tra l’herbette, e l’acque :
-emi trafisse il core, e no mi spiacque,
-Perché dir no saprei
-S’hebbe vita più dolce, o morte in lei;
-Ma vita se parlò, morte si tacque.
+	Fuggia di poggio in poggio
+	La mia dolce nemica
+	et essa mi seguiva bella, e pudica.
+	Al fin mi giunse tra l’herbette, e l’acque :
+	emi trafisse il core, e no mi spiacque,
+	Perché dir no saprei
+	S’hebbe vita più dolce, o morte in lei;
+	Ma vita se parlò, morte si tacque.
 @@END: VARIORUM
 
 
@@ -58,14 +59,14 @@ Ma vita se parlò, morte si tacque.
 @PAGE:		56
 @PARATEXT:	
 @VERSE:		
-Fuggia di poggio in poggio
-La mia dolce nemica,
-Et essa mi seguia bella, e pudica.
-Al fin mi giunse tra l’herbette, e l’acque,
-E mi trafisse il core, e non mi spiacque;
-Perche dir non saprei,
-S’hebbi vita più dolce, ò morte in lei,
-Ma vita se parlò, morte, se tacque.
+	Fuggia di poggio in poggio
+	La mia dolce nemica,
+	Et essa mi seguia bella, e pudica.
+	Al fin mi giunse tra l’herbette, e l’acque,
+	E mi trafisse il core, e non mi spiacque;
+	Perche dir non saprei,
+	S’hebbi vita più dolce, ò morte in lei,
+	Ma vita se parlò, morte, se tacque.
 @@END: VARIORUM
 
 
@@ -77,14 +78,14 @@ Ma vita se parlò, morte, se tacque.
 @PAGE:		107
 @PARATEXT:	
 @VERSE:	
-Fuggia di poggio in poggio
-La mia dolce nemica,
-Et essa mi seguia bella e pudica,
-Al fin mi giunse tra l’herbette, e l’acque,
-E mi trafisse il core, e non mi spiacque,
-Perche dir non saprei,
-S’hebbi vita più dolce, ò morte in lei;
-Ma vita se parlò, morte se tacque.
+	Fuggia di poggio in poggio
+	La mia dolce nemica,
+	Et essa mi seguia bella e pudica,
+	Al fin mi giunse tra l’herbette, e l’acque,
+	E mi trafisse il core, e non mi spiacque,
+	Perche dir non saprei,
+	S’hebbi vita più dolce, ò morte in lei;
+	Ma vita se parlò, morte se tacque.
 @@END: VARIORUM
 
 
@@ -96,16 +97,18 @@ Ma vita se parlò, morte se tacque.
 @PAGE:		55
 @PARATEXT:	
 @VERSE:	
-Fuggia di poggio in poggio
-La mia dolce nemica,
-Et essa mi seguia bella, e pudica;
-Al fin mi giunse tra l’herbette, e l’acque,
-E mi trafisse il core, e non mi spiacque,
-Perche dir non saprei
-S’hebbi vita più dolce, ò morte in lei;
-Ma vita se parlò, morte se tacque.
+	Fuggia di poggio in poggio
+	La mia dolce nemica,
+	Et essa mi seguia bella, e pudica;
+	Al fin mi giunse tra l’herbette, e l’acque,
+	E mi trafisse il core, e non mi spiacque,
+	Perche dir non saprei
+	S’hebbi vita più dolce, ò morte in lei;
+	Ma vita se parlò, morte se tacque.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0243
 @ID:		S141
 @TYPE:		print
@@ -113,7 +116,7 @@ Ma vita se parlò, morte se tacque.
 @PAGE:		Parte terza delle Rime, 127
 @PARATEXT:	Fu seguitato dall'amata donna, &amp; pigliato all'amorosa pania, senza suo spiacere.
 @VERSE:		
-Fuggìa di poggio in poggio
+	Fuggìa di poggio in poggio
 	La mia dolce nemica,
 	Et essa mi seguia bella, e pudica.
 	Al fin mi giunse tra l’herbette, e l’acque,
@@ -121,8 +124,10 @@ Fuggìa di poggio in poggio
 	Perche dir non saprei,
 	S’hebbi vita più dolce, ò morte in lei,
 	Ma vita se parlò, morte, se tacque.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0243
 @ID:		S166
 @TYPE:		print
@@ -130,7 +135,7 @@ Fuggìa di poggio in poggio
 @PAGE:		Parte terza delle Rime, 127
 @PARATEXT:	Fu seguitato dall'amata donna, &amp; pigliato all'amorosa pania, senza suo spiacere.
 @VERSE:		
-Fuggìa di poggio in poggio
+	Fuggìa di poggio in poggio
 	La mia dolce nemica,
 	Et essa mi seguia bella, e pudica.
 	Al fin mi giunse tra l’herbette, e l’acque,
@@ -138,8 +143,10 @@ Fuggìa di poggio in poggio
 	Perche dir non saprei,
 	S’hebbi vita più dolce, ò morte in lei,
 	Ma vita se parlò, morte, se tacque.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0243
 @ID:		S169
 @TYPE:		print
@@ -147,7 +154,7 @@ Fuggìa di poggio in poggio
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 11
 @PARATEXT:	SEcreta fruitione amorosa.
 @VERSE:		
-Fuggia di poggio in poggio
+	Fuggia di poggio in poggio
 	La mia dolce nemica,
 	Et essa mi seguia bella, e pudica.
 	Al fin mi giunse trà l’herbette, e l’acque,
@@ -155,7 +162,7 @@ Fuggia di poggio in poggio
 	Perche dir non saprei,
 	S’ebbi vita più dolce, ò  morte in lei;
 	Ma vita se parlò. morte, se tacque.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -166,7 +173,7 @@ Fuggia di poggio in poggio
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Fuggia di poggio in poggio
+	Fuggia di poggio in poggio
 	La mia dolce nemica
 	Et ella mi fuggia bella e pudica
 	Al fin mi giunse tra l’herbett'e l’acque
@@ -185,7 +192,7 @@ Fuggia di poggio in poggio
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Fuggia di poggio in poggio
+	Fuggia di poggio in poggio
 	La mia dolce nemica
 	Et ella mi fuggia bella e pudica
 	Al fin mi giunse tra l’herbett'e l’acque
@@ -204,7 +211,7 @@ Fuggia di poggio in poggio
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Fuggia di poggio in poggio
+	Fuggia di poggio in poggio
 	La mia dolce nemica
 	Et ella mi fuggia bella e pudica
 	Al fin mi giunse tra l’herbett'e l’acque
@@ -223,7 +230,7 @@ Fuggia di poggio in poggio
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Fuggia di poggio in poggio
+	Fuggia di poggio in poggio
 	La mia dolce nemica
 	Et ella mi fuggia bella e pudica
 	Al fin mi giunse tra l’herbett'e l’acque
@@ -242,7 +249,7 @@ Fuggia di poggio in poggio
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Fuggia di poggio in poggio
+	Fuggia di poggio in poggio
 	La mia dolce nemica
 	Et ella mi fuggia bella e pudica
 	Al fin mi giunse tra l’herbett'e l’acque

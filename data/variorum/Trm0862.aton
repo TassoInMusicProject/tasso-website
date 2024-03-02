@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0862
 @ID:		Ts2
@@ -33,7 +34,7 @@
 @VERSE:
 	Che rende l'alma di penar sì vaga
 	Che <del>quel, ch'</del> ^quanto^ altrui più noce, a lei più giova
-  Ne' sospir liete, e ne' martir felice.	
+	Ne' sospir liete, e ne' martir felice.
 @@END: VARIORUM
 
 
@@ -45,7 +46,7 @@
 @PAGE:		593
 @PARATEXT:	Alla S.ra Vittoria Castelletta da Rho
 @VERSE:		
-La bella e vaga man, che le sonore
+	La bella e vaga man, che le sonore
 	Corde, hor leggiera, hor [?] presta, hor tarda, hor grave,
 	Percuote, e suon ne trahe, varie e soave,
 	E 'l dolce canto tuo, che forma Amore.
@@ -61,7 +62,7 @@ La bella e vaga man, che le sonore
 @VERSE:
 	Che rende l'alma di penar sì vaga,
 	Che quel, ch'altrui più noce, à lei più giova
-  Nei martir lieta, e nei sospir felice.	
+	Nei martir lieta, e nei sospir felice.
 @@END: VARIORUM
 
 
@@ -73,7 +74,7 @@ La bella e vaga man, che le sonore
 @PAGE:		36r
 @PARATEXT:	
 @VERSE:		
-La bella, e vaga man, che le sonore
+	La bella, e vaga man, che le sonore
 	Corde, hor leggiera, e presta; hor tarda, e grave
 	Percuote, e suon ne trahe, vario e soave,
 	E 'l dolce canto tuo, che forma Amore.
@@ -89,7 +90,7 @@ La bella, e vaga man, che le sonore
 @VERSE:
 	Che rende l'alma di penar sì vaga
 	Che quel, ch'altrui più noce, a lei più giova
-  Ne' sospir liete, e ne' martir felice.
+	Ne' sospir liete, e ne' martir felice.
 @@END: VARIORUM
 
 
@@ -101,7 +102,7 @@ La bella, e vaga man, che le sonore
 @PAGE:		36r
 @PARATEXT:	
 @VERSE:		
-La bella, e vaga man, che le sonore
+	La bella, e vaga man, che le sonore
 	Corde, hor leggiera, e presta; hor tarda, e grave
 	Percuote, e suon ne trahe grado e soave,
 	E 'l dolce canto tuo, che forma Amore;
@@ -117,8 +118,9 @@ La bella, e vaga man, che le sonore
 @VERSE:
 	Che rende l'alma di penar sì vaga
 	Che quel, ch'altrui più noce, a lei più giova
-  Ne' sospir liete, e ne' martir felice.
+	Ne' sospir liete, e ne' martir felice.
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0862
@@ -170,7 +172,7 @@ La bella, e vaga man, che le sonore
 @PAGE:		267
 @PARATEXT:	DEL SIG. TORQUATO TASSO. ALLA SIG. VITTORIA CASTELLETA DA RHO.
 @VERSE:		
-La bella, e vaga man, che le sonore
+	La bella, e vaga man, che le sonore
 	Corde, or leggiera e presta, or tarda, or grave,
 	Percuote, e suon ne trahe grado, e soave,
 	E'l dolce canto tuo che forma Amore:
@@ -186,7 +188,7 @@ La bella, e vaga man, che le sonore
 @VERSE:
 	Che rendi l'alma di penar si vaga,
 	Che quel ch'altrui più noce, à lei più giova
-  	Ne i martir lieta, e ne i sospir felice.	
+	Ne i martir lieta, e ne i sospir felice.
 @@END: VARIORUM
 
 
@@ -202,7 +204,9 @@ La bella, e vaga man, che le sonore
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0862
 @ID:		S69
 @TYPE:		print
@@ -210,22 +214,24 @@ La bella, e vaga man, che le sonore
 @PAGE:		36r
 @PARATEXT:
 @VERSE:		
-La bella, e vaga man, che le sonore
+	La bella, e vaga man, che le sonore
 	Corde, hor leggiera, e presta; hor tarda, e grave
 	Percuote, e son ne trahe, varie , e soave
 	E’l dolce canto tuo, che forma Amore.
-Son l’arme dolci, onde piagate è il core
+	Son l’arme dolci, onde piagate è il core
 	In guise tal, che di morir non pave;
 	Ma vago fatto di languir sol’have
 	Di risonar quasi di mal timore.
-Ondè per languir sempre hor questa piaga,
+	Ondè per languir sempre hor questa piaga,
 	Et hor quell’altra col pensier imona
 	Vera vittoria, e vera vincitrice.
-Che renda l’alma di penar sì vaga
+	Che renda l’alma di penar sì vaga
 	Che quell, ch’altrui più noce, à lei più giova
 	Ne’sospir lieta, e ne’martir felice.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0862
 @ID:		S141
 @TYPE:		print
@@ -233,22 +239,24 @@ Che renda l’alma di penar sì vaga
 @PAGE:		Parte prima delle Rime, 217
 @PARATEXT:	Loda la maerstrisia del sonare, &amp; del cantar della sua donna, dalle quali virtù dice essersi innamorato di lei. Pare che havesse nome Vittoria, sopra che la chiama di lui vincitrice.
 @VERSE:		
-La bella, e vaga man, che le sonore
+	La bella, e vaga man, che le sonore
 	Corde, hor leggiera, e presta; hor tarda, e grave
 	Percuote, e son ne trahe, vario, e soave:
 	E’l dolce canto tuo, che forma Amore.
-Son l’arme dolci, onde piagato è il core
+	Son l’arme dolci, onde piagato è il core
 	In guisa tal, che di morir non pave;
 	Ma vago fatto di languir sol’ have
 	Di risonar quasi di mal timore.
-Onde per languir sempre hor questa piaga,
+	Onde per languir sempre hor questa piaga,
 	Et hor quell’altra col pensier rinova
 	Vera vittoria, e vera vincitrice.
-Che renda l’alma di penar si vaga,
+	Che renda l’alma di penar si vaga,
 	Che quel, ch’ altrui più noce, à lei più giova
 	Ne’ sospir lieta, e ne’ martir felice.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0862
 @ID:		S166
 @TYPE:		print
@@ -256,22 +264,24 @@ Che renda l’alma di penar si vaga,
 @PAGE:		Parte prima delle Rime, 217
 @PARATEXT:	Loda la maerstrisia del sonare, &amp; del cantar della sua donna, dalle quali virtù dice essersi innamorato di lei. Pare che havesse nome Vittoria, sopra che la chiama di lui vincitrice.
 @VERSE:		
-La bella, e vaga man, che le sonore
+	La bella, e vaga man, che le sonore
 	Corde, hor leggiera, e presta; hor tarda, e grave
 	Percuote, e son ne trahe, vario, e soave:
 	E’l dolce canto tuo, che forma Amore.
-Son l’arme dolci, onde piagato è il core
+	Son l’arme dolci, onde piagato è il core
 	In guisa tal, che di morir non pave;
 	Ma vago fatto di languir sol’ have
 	Di risonar quasi di mal timore.
-Onde per languir sempre hor questa piaga,
+	Onde per languir sempre hor questa piaga,
 	Et hor quell’altra col pensier rinova
 	Vera vittoria, e vera vincitrice.
-Che renda l’alma di penar si vaga,
+	Che renda l’alma di penar si vaga,
 	Che quel, ch’ altrui più noce, à lei più giova
 	Ne’ sospir lieta, e ne’ martir felice.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0862
 @ID:		S169
 @TYPE:		print
@@ -279,21 +289,21 @@ Che renda l’alma di penar si vaga,
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 176
 @PARATEXT:	Suonatrice inamora.
 @VERSE:		
-La bella, e vaga man, che le sonore
-Corde, hor leggiera, e presta; hor tarda, e grave
-Percuote, e suon ne trae vario, e soave,
-E’l dolce cantar tuo, che forma Amore,
-Son l’arme dolci, onde piagato è il core,
-In guisa tal, che di morir ne pave;
-Ma vago fatto di languir sol have,
-Di rissanar quasi di mal timore,
-Onde per languir sempre hor questa piaga,
-Et hor quell’altra, col pensier rinova;
-Vera Vittoria, e vera vincitrice.
-Che rendi l’alma di penar sì vaga,
-Che quel che altrui più noce, à lei più giova,
-Ne’ sospir lieta, e ne’ martir felice.
-@@END:		VARIORUM
+	La bella, e vaga man, che le sonore
+	Corde, hor leggiera, e presta; hor tarda, e grave
+	Percuote, e suon ne trae vario, e soave,
+	E’l dolce cantar tuo, che forma Amore,
+	Son l’arme dolci, onde piagato è il core,
+	In guisa tal, che di morir ne pave;
+	Ma vago fatto di languir sol have,
+	Di rissanar quasi di mal timore,
+	Onde per languir sempre hor questa piaga,
+	Et hor quell’altra, col pensier rinova;
+	Vera Vittoria, e vera vincitrice.
+	Che rendi l’alma di penar sì vaga,
+	Che quel che altrui più noce, à lei più giova,
+	Ne’ sospir lieta, e ne’ martir felice.
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -304,7 +314,7 @@ Ne’ sospir lieta, e ne’ martir felice.
 @PAGE:		17-18
 @PARATEXT:	
 @VERSE:		
-La bella e vagha man Che le sonore
+	La bella e vagha man Che le sonore
 	corde Hor leggiera e prest'hor tarda e grave
 	Percuote e son ne trahe vario e soave
 	E'l dolce canto tuo che form'amore.
@@ -317,7 +327,7 @@ La bella e vagha man Che le sonore
 	[ABSENT]
 	[ABSENT]
 	[ABSENT]
-  [ABSENT]		
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -329,7 +339,7 @@ La bella e vagha man Che le sonore
 @PAGE:		17-18
 @PARATEXT:	
 @VERSE:		
-La bella e vagha man Che le sonore
+	La bella e vagha man Che le sonore
 	corde Hor leggiera e prest'hor tarda e grave
 	Percuote e son ne trahe vario e soave
 	E'l dolce canto tuo che form'amore.
@@ -342,7 +352,7 @@ La bella e vagha man Che le sonore
 	[ABSENT]
 	[ABSENT]
 	[ABSENT]
-  [ABSENT]		
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -354,7 +364,7 @@ La bella e vagha man Che le sonore
 @PAGE:		16-17
 @PARATEXT:	
 @VERSE:		
-La bella e vagha man Che le sonore
+	La bella e vagha man Che le sonore
 	corde [TACET] e prest'e tarda e grave
 	Percuote e son ne trahe vario e soave
 	E'l dolce canto tuo che form'amore.
@@ -367,7 +377,7 @@ La bella e vagha man Che le sonore
 	[ABSENT]
 	[ABSENT]
 	[ABSENT]
-  [ABSENT]		
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -379,7 +389,7 @@ La bella e vagha man Che le sonore
 @PAGE:		16-17
 @PARATEXT:	
 @VERSE:		
-La bella e vagha man Che le sonore
+	La bella e vagha man Che le sonore
 	corde Hor leggiera e prest'hor tarda e grave
 	Percuote e suon ne trahe vario e soave
 	E'l dolce canto tuo che form'amore.
@@ -392,7 +402,7 @@ La bella e vagha man Che le sonore
 	[ABSENT]
 	[ABSENT]
 	[ABSENT]
-  [ABSENT]		
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -404,7 +414,7 @@ La bella e vagha man Che le sonore
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-La bella e vagha man Che le sonore
+	La bella e vagha man Che le sonore
 	corde Hor leggiera e prest'hor tarda e grave
 	Percuote e suon ne trahe vario e soave
 	E'l dolce canto tuo che form'amore.
@@ -417,7 +427,7 @@ La bella e vagha man Che le sonore
 	[ABSENT]
 	[ABSENT]
 	[ABSENT]
-  [ABSENT]		
+	[ABSENT]
 @@END: VARIORUM
 
 

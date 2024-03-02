@@ -9,15 +9,16 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1637
 @ID:		Rv
 @TYPE:		manuscript
 @SMSIGLUM:	Rv
-@PAGE:	32r	
+@PAGE:	32r
 @PARATEXT:	A tutti i Santi.
 @VERSE:
-Anime sante, e belle
+	Anime sante, e belle
 	Che da gli affanni humani, e da’ martiri
 	Volaste a’ più sublimi, et alti giri,
 	Gradite i nostri prieghi
@@ -41,7 +42,7 @@ Anime sante, e belle
 @PAGE:		38
 @PARATEXT:	SOPRA LE SACRE RELIQUIE / poste nella Chiesa di Santa Barbara di / MANTOVA.
 @VERSE:	
-Anime sante, e belle,
+	Anime sante, e belle,
 	Che da gli affanni humani, e da martiri
 	Volaste à più sublimi, et alti giri:
 	Gradite i nostri preghi
@@ -65,19 +66,19 @@ Anime sante, e belle,
 @PAGE:		26v
 @PARATEXT:	A TUTTI I SANTI.
 @VERSE:		
-      Anime sante, e belle
-      Che da gli affanni humani, e da’ martiri
-      Volaste à più sublimi, &amp; alti giri,
-      Gradite i nostri preghi
-      Sù l’ale de la Fede, e de la Speme:
-      E pur co’ vostri insieme
-      La giustizia superna
-      Homai fuor di suo corso à noi si spieghi,
-      Peccatori, e no ’l celo;
-      Voi Colonne del Cielo,
-      Anzi i Cieli voi sete
-      Alme felici, e liete,
-      Che narrate di Dio la gloria eterna.
+	Anime sante, e belle
+	Che da gli affanni humani, e da’ martiri
+	Volaste à più sublimi, &amp; alti giri,
+	Gradite i nostri preghi
+	Sù l’ale de la Fede, e de la Speme:
+	E pur co’ vostri insieme
+	La giustizia superna
+	Homai fuor di suo corso à noi si spieghi,
+	Peccatori, e no ’l celo;
+	Voi Colonne del Cielo,
+	Anzi i Cieli voi sete
+	Alme felici, e liete,
+	Che narrate di Dio la gloria eterna.
 @@END: VARIORUM
 
 
@@ -89,7 +90,7 @@ Anime sante, e belle,
 @PAGE:		12-13
 @PARATEXT:	A tutti i Santi.
 @VERSE:
-Anime sante e belle
+	Anime sante e belle
 	Che da gli affanni humani e da martiri
 	Volaste à più sublimi ed'alti giri
 	Gradite i nostri preghi
@@ -101,7 +102,7 @@ Anime sante e belle
 	Voi colonne del cielo
 	Anz'i Cieli voi sete
 	Alme felici e liete
-	Che narrate di Dio la gloria eterna.	
+	Che narrate di Dio la gloria eterna.
 @@END: VARIORUM
 
 
@@ -110,10 +111,10 @@ Anime sante e belle
 @ID:		Trm1637a-Alto
 @TYPE:		music
 @COMPOSER:	Gastoldi, Giovanni Giacomo
-@PAGE:	12-13	
+@PAGE:	12-13
 @PARATEXT:	A tutti i Santi.
 @VERSE:
-Anime sante e belle
+	Anime sante e belle
 	Che da gli affanni humani e da martiri
 	Volaste à più sublimi &amp; alti giri
 	Gradite i nostri preghi
@@ -125,7 +126,7 @@ Anime sante e belle
 	Voi colonne del cielo
 	Anz'i Cieli voi sete
 	Alme felici e liete
-	Che narrate di Dio la gloria eterna.		
+	Che narrate di Dio la gloria eterna.
 @@END: VARIORUM
 
 
@@ -137,7 +138,7 @@ Anime sante e belle
 @PAGE:		13
 @PARATEXT:	A tutti i Santi.
 @VERSE:
-[TACET]
+	[TACET]
 	[TACET]
 	[TACET]
 	Gradite i nostri preghi
@@ -149,7 +150,7 @@ Anime sante e belle
 	Voi colonne del cielo
 	Anz'i Cieli voi sete
 	[TACET]
-	Che narrate di Dio la gloria eterna.			
+	Che narrate di Dio la gloria eterna.
 @@END: VARIORUM
 
 
@@ -161,7 +162,7 @@ Anime sante e belle
 @PAGE:		13
 @PARATEXT:	A tutti i Santi.
 @VERSE:
-[TACET]
+	[TACET]
 	[TACET]
 	[TACET]
 	Gradite i nostri preghi
@@ -173,7 +174,7 @@ Anime sante e belle
 	[TACET]
 	Anz'i Cieli voi sete
 	[TACET]
-	Che narrate di Dio la Gloria eterna.			
+	Che narrate di Dio la Gloria eterna.
 @@END: VARIORUM
 
 
@@ -182,10 +183,10 @@ Anime sante e belle
 @ID:		Trm1637a-Quinto
 @TYPE:		music
 @COMPOSER:	Gastoldi, Giovanni Giacomo
-@PAGE:	12-13	
+@PAGE:	12-13
 @PARATEXT:	A tutti i Santi.
 @VERSE:
-Anime sante e belle
+	Anime sante e belle
 	Che da gli affann'humani e da martiri
 	Volaste à più sublimi &amp; alti giri
 	Gradite i nostri preghi
@@ -197,6 +198,6 @@ Anime sante e belle
 	Voi colonne del cielo
 	Anz'i Cieli voi sete
 	Alme felici e liete
-	Che narrate di Dio la gloria eterna.		
+	Che narrate di Dio la gloria eterna.
 @@END: VARIORUM
 

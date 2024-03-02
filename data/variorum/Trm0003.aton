@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0003
 @ID:		Amz
@@ -512,7 +513,8 @@
 	{E i detti andaro}, ove non giunse {il} volto.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0003
 @ID:		S33
 @TYPE:		print
@@ -537,10 +539,10 @@
 	Ma de l’{altro periglio non} m’accòrsi,
 	Che mi fu per l’orecchie il cor ferito,
 	{E i detti andaro}, ove non giunse {in} volto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0003
 @ID:		S67
 @TYPE:		print
@@ -565,7 +567,7 @@
 	Ma de l’{altro periglio non} m’accòrsi,
 	Che mi fu per l’orecchie il cor ferito,
 	{E i detti andaro}, ove non giunse {in} volto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -624,7 +626,7 @@
 @@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0003
 @ID:		S141
 @TYPE:		print
@@ -649,10 +651,10 @@
 	Ma del {rischio minor non} m’accorsi,
 	Che mi fù per l’orecchie il cor ferito;
 	{E i detti andaro} ove non giunse {in} volto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0003
 @ID:		S166
 @TYPE:		print
@@ -677,10 +679,10 @@
 	Ma del {rischio minor non} m’accorsi,
 	Che mi fù per l’orecchie il cor ferito;
 	{E i detti andaro} ove non giunse {in} volto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0003
 @ID:		S169
 @TYPE:		print
@@ -705,7 +707,7 @@
 	Ma del {rischio minor tardi} m’accòrsi,
 	Che mi fù per l’orecchie il cor ferito;
 	{E i detti andaro}, ove non giunse {in} volto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -731,7 +733,7 @@
 	Ma de l’{altro periglio non} m’accorsi
 	Che mi fu per l’orrechie il cor ferito
 	{E i detti andaro} ove non gions’{il} volto.
-	
+
 @@END: VARIORUM
 
 
@@ -766,9 +768,10 @@
 @ID:		Trm0003a-Tenore
 @TYPE:		music
 @COMPOSER:	Cavatoni, Pietro
-@PAGE:		18-19	
+@PAGE:		18-19
 @PARATEXT:	Al Sig. Antonio Cozza
-@VERSE: 	Su l’ampia fronte {il cresp’oro} lucente
+@VERSE:
+Su l’ampia fronte {il cresp’oro} lucente
 	Spars’ondeggiava e de begl’occhi il raggio
 	Al terreno aducea fiorito maggio
 	E luglio ai cuori oltra misura ardente
@@ -886,7 +889,7 @@
 	{[TACET]}
 	Ma de l’{altro periglio non} m’accorsi
 	Che mi fù per l’orecch’ il cor ferito
-Ei dett’ andaro ove non giuns’ in volto.
+	Ei dett’ andaro ove non giuns’ in volto.
 @@END: VARIORUM
 
 
@@ -921,7 +924,7 @@ Ei dett’ andaro ove non giuns’ in volto.
 @ID:		Trm0003b-Sesto
 @TYPE:		music
 @COMPOSER:	Marenzio, Luca
-@PAGE:	12-13	
+@PAGE:	12-13
 @PARATEXT:	
 @VERSE:	
 	Su l’ampia fronte {il cresp’oro} lucente

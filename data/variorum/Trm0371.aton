@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0371
 @ID:		Amz
@@ -39,15 +40,15 @@
 @PAGE:		209-210
 @PARATEXT:	Stampat [sic!].
 @VERSE:		
-Tre son le grazie Ancelle
-Se non è falso il grido
-Che son intorno a l’alma dea di Gnido
-Tu che simigli a lei
-Se non quanto honesta ti fa più cara,
-N'hai quattro, e via più belle
+	Tre son le grazie Ancelle
+	Se non è falso il grido
+	Che son intorno a l’alma dea di Gnido
+	Tu che simigli a lei
+	Se non quanto honesta ti fa più cara,
+	N'hai quattro, e via più belle
 @VERSE:
-Concedi dunque l’una à <del>desir</del> preghi miei
-e donna a divi d’agguagliarti impara
+	Concedi dunque l’una à <del>desir</del> preghi miei
+	e donna a divi d’agguagliarti impara
 @@END: VARIORUM
 
 
@@ -81,17 +82,17 @@ e donna a divi d’agguagliarti impara
 @PAGE:		146
 @PARATEXT:	Madrigale
 @VERSE:		
-Tre son le Gratie ancelle,
-Se non è falso il grido,
-Ond’è servita l’alma dea di Gnido.
+	Tre son le Gratie ancelle,
+	Se non è falso il grido,
+	Ond’è servita l’alma dea di Gnido.
 @VERSE:
-Tu, che Ciprigna sei,
-Se non quant’honestà ti fa piu cara,
-Concedi dunque l’una a i desir miei.
+	Tu, che Ciprigna sei,
+	Se non quant’honestà ti fa piu cara,
+	Concedi dunque l’una a i desir miei.
 @VERSE:
-N’hai quattro, e vie piu belle,
-E fia modestia rara,
-Se donna a i Divi d’agguagliarsi impara.
+	N’hai quattro, e vie piu belle,
+	E fia modestia rara,
+	Se donna a i Divi d’agguagliarsi impara.
 @@END: VARIORUM
 
 
@@ -101,19 +102,19 @@ Se donna a i Divi d’agguagliarsi impara.
 @TYPE:		print
 @SPRINT:	
 @PAGE:		139
-@PARATEXT:Madrigale	
+@PARATEXT:Madrigale
 @VERSE:		
-Tre son le Gratie ancelle,
-Se non è falso il grido,
-Ond’è servita l’alma dea di Gnido.
+	Tre son le Gratie ancelle,
+	Se non è falso il grido,
+	Ond’è servita l’alma dea di Gnido.
 @VERSE:
-Tu, che Ciprigna sei,
-Se non quant’honestà ti fa piu cara,
-Concedi dunque l’una a i desir miei.
+	Tu, che Ciprigna sei,
+	Se non quant’honestà ti fa piu cara,
+	Concedi dunque l’una a i desir miei.
 @VERSE:
-N’hai quattro, e vie piu belle,
-E fia modestia rara,
-Se donna a i Divi d’agguagliarsi impara.
+	N’hai quattro, e vie piu belle,
+	E fia modestia rara,
+	Se donna a i Divi d’agguagliarsi impara.
 @@END: VARIORUM
 
 
@@ -136,17 +137,17 @@ Se donna a i Divi d’agguagliarsi impara.
 @PAGE:		Parte Prima, 139
 @PARATEXT:
 @VERSE:		
-Tre son le gratie ancelle,
-Se non è falso il grido,
-Ond’è servita l’alma dea di Gnido.
+	Tre son le gratie ancelle,
+	Se non è falso il grido,
+	Ond’è servita l’alma dea di Gnido.
 @VERSE:
-Tu, che Ciprigna sei,
-Se non quant’honestà ti fà più cara,
-Concedi dunque l’una à i desir miei.
+	Tu, che Ciprigna sei,
+	Se non quant’honestà ti fà più cara,
+	Concedi dunque l’una à i desir miei.
 @VERSE:
-N’hai quattro, e via più belle,
-E fia modestia rara,
-Se donna à i Divi d’agguagliarsi impara.	
+	N’hai quattro, e via più belle,
+	E fia modestia rara,
+	Se donna à i Divi d’agguagliarsi impara.
 @@END: VARIORUM
 
 
@@ -169,19 +170,21 @@ Se donna à i Divi d’agguagliarsi impara.
 @PAGE:		140
 @PARATEXT:	
 @VERSE:		
-Tre son le Gratie ancelle,
-Se non è falso il grido,
-Ond’è servita l’alma dea di Gnido.
+	Tre son le Gratie ancelle,
+	Se non è falso il grido,
+	Ond’è servita l’alma dea di Gnido.
 @VERSE:
-Tu, che Ciprigna sei,
-Se non quant’honestà ti fa più cara,
-Concedi dunque l’una à i desir miei.
+	Tu, che Ciprigna sei,
+	Se non quant’honestà ti fa più cara,
+	Concedi dunque l’una à i desir miei.
 @VERSE:
-N’hai quattro, e vie piu belle,
-E fia modestia rara,
-Se donna à i Divi d’agguagliarsi impara.
+	N’hai quattro, e vie piu belle,
+	E fia modestia rara,
+	Se donna à i Divi d’agguagliarsi impara.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0371
 @ID:		S33
 @TYPE:		print
@@ -189,17 +192,19 @@ Se donna à i Divi d’agguagliarsi impara.
 @PAGE:		140
 @PARATEXT:	Madrigale.
 @VERSE:		
-Tre son le gratie ancelle,
+	Tre son le gratie ancelle,
 	Se non è falso il grido
 	Ond’è servita l’alma Dea di Gnido:
-Tu, che Ciprigna sei,
+	Tu, che Ciprigna sei,
 	Se non quant’honestà ti fà più cara,
 	Concedi dunque l’una à i desir miei.
-N’hai quattro, e viè più belle:
+	N’hai quattro, e viè più belle:
 	E fia modestia rara,
 	Se donna à i divi d’agguagliarsi impara.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0371
 @ID:		S67
 @TYPE:		print
@@ -207,17 +212,19 @@ N’hai quattro, e viè più belle:
 @PAGE:		140
 @PARATEXT:	Madrigale.
 @VERSE:		
-Tre son le gratie ancelle,
+	Tre son le gratie ancelle,
 	Se non è falso il grido
 	Ond’è servita l’alma Dea di Gnido:
-Tu, che Ciprigna sei,
+	Tu, che Ciprigna sei,
 	Se non quant’honestà ti fà più cara,
 	Concedi dunque l’una à i desir miei.
-N’hai quattro, e viè più belle:
+	N’hai quattro, e viè più belle:
 	E fia modestia rara,
 	Se donna à i divi d’agguagliarsi impara.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0371
 @ID:		S169
 @TYPE:		print
@@ -225,7 +232,7 @@ N’hai quattro, e viè più belle:
 @PAGE:		RIME DEL TASSO.AMOROSE. P. I., 131
 @PARATEXT:	Chiede a Madonna una Cameriera.
 @VERSE:		
-Tre son le gratie ancelle,
+	Tre son le gratie ancelle,
 	Se non è falso il grido.
 	Ond' è servita l'alma Dea di Gnido:
 	Tù, che Ciprigna sei,
@@ -233,7 +240,7 @@ Tre son le gratie ancelle,
 	N’hai quattro, e vie più belle:
 	E fia modestia rara.
 	Se donna à i divi d’aguagliarsi impara.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -299,17 +306,17 @@ Tre son le gratie ancelle,
 @PAGE:		3
 @PARATEXT:	
 @VERSE:		
-Tre son le gratie ancelle
-Se non è falso de la fama il grido
-Ond’è servita l’alma Dea di gnido.
+	Tre son le gratie ancelle
+	Se non è falso de la fama il grido
+	Ond’è servita l’alma Dea di gnido.
 @VERSE:
-Tu che Ciprigna sei
-Se non quant’honestà ti fa più carà
-Concedi dunque l’una a i desir miei.
+	Tu che Ciprigna sei
+	Se non quant’honestà ti fa più carà
+	Concedi dunque l’una a i desir miei.
 @VERSE:
-N’hai quattro, e vie piu belle;
-E fia modestia e gentilezza rara
-Se Donna a i Divi d’agguagliarsi impara.
+	N’hai quattro, e vie piu belle;
+	E fia modestia e gentilezza rara
+	Se Donna a i Divi d’agguagliarsi impara.
 @@END: VARIORUM
 
 
@@ -321,17 +328,17 @@ Se Donna a i Divi d’agguagliarsi impara.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:		
-Tre son le gratie ancelle
-Se non è falso de la fama il grido
-Ond’è servita l’alma Dea di gnido.
+	Tre son le gratie ancelle
+	Se non è falso de la fama il grido
+	Ond’è servita l’alma Dea di gnido.
 @VERSE:
-Tu che Ciprigna sei
-Se non quant’honestà ti fa più carà
-Concedi dunque l’una a i desir miei.
+	Tu che Ciprigna sei
+	Se non quant’honestà ti fa più carà
+	Concedi dunque l’una a i desir miei.
 @VERSE:
-N’hai quattro, e vie piu belle;
-E fia modestia e gentilezza rara
-Se Donna a i Divi d’agguagliarsi impara.
+	N’hai quattro, e vie piu belle;
+	E fia modestia e gentilezza rara
+	Se Donna a i Divi d’agguagliarsi impara.
 @@END: VARIORUM
 
 
@@ -343,17 +350,17 @@ Se Donna a i Divi d’agguagliarsi impara.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:		
-Tre son le gratie ancelle
-Se non è falso de la fama il grido
-Ond’è servita l’alma Dea di Gnido.
+	Tre son le gratie ancelle
+	Se non è falso de la fama il grido
+	Ond’è servita l’alma Dea di Gnido.
 @VERSE:
-Tu che Ciprigna sei
-Se non quant’honestà ti fa più carà
-Concedi dunque l’una a i desir miei.
+	Tu che Ciprigna sei
+	Se non quant’honestà ti fa più carà
+	Concedi dunque l’una a i desir miei.
 @VERSE:
-N’hai quattro, e vie piu belle;
-E fia modestia e gentilezza rara
-Se Donna a i Divi d’agguagliarsi impara.
+	N’hai quattro, e vie piu belle;
+	E fia modestia e gentilezza rara
+	Se Donna a i Divi d’agguagliarsi impara.
 @@END: VARIORUM
 
 

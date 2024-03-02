@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
 @ID:		Ts2
@@ -17,23 +18,23 @@
 @PAGE:		23r
 @PARATEXT:	fatti in fanciullezza [the entire poem is deleted with a vertical strike-through]
 @VERSE:		
-Qui dove i sacri, e verdeggianti allori
-Forman di se vago boschetto ombroso
-Per cui serpendo al mar da l’herbe ascoso
-Porta limpido Rio suoi dolci humori.
+	Qui dove i sacri, e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	Per cui serpendo al mar da l’herbe ascoso
+	Porta limpido Rio suoi dolci humori.
 @VERSE:
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno, e dilettoso
-Ove fra’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno, e dilettoso
+	Ove fra’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Non men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai.
+	Vieni ò Fillide mia se pur non hai
+	Non men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai.
 @VERSE:
-Ma chi m’ode? à chi parlo? ove son io
-Lasso ella altrove al caro, Alcippo amato
-S’affide in grembo, e spregia l’ardor mio.	
+	Ma chi m’ode? à chi parlo? ove son io
+	Lasso ella altrove al caro, Alcippo amato
+	S’affide in grembo, e spregia l’ardor mio.
 @@END: VARIORUM
 
 
@@ -45,23 +46,23 @@ S’affide in grembo, e spregia l’ardor mio.
 @PAGE:		23r
 @PARATEXT:	
 @VERSE:	
-Qui dove i sacri, e verdeggianti allori
-Forman di se vago boschetto ombroso
-Per cui serpendo al mar da l’herbe ascoso
-Porta limpido Rio suoi dolci humori.
+	Qui dove i sacri, e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	Per cui serpendo al mar da l’herbe ascoso
+	Porta limpido Rio suoi dolci humori.
 @VERSE:
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno, e dilettoso
-Ove fra’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno, e dilettoso
+	Ove fra’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Non men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai.
+	Vieni ò Fillide mia se pur non hai
+	Non men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai.
 @VERSE:
-Ma chi m’ode? à chi parlo? ove son io
-Lasso ella altrove al caro, Alcippo amato
-S’affide in grembo, e spregia l’ardor mio.
+	Ma chi m’ode? à chi parlo? ove son io
+	Lasso ella altrove al caro, Alcippo amato
+	S’affide in grembo, e spregia l’ardor mio.
 @@END: VARIORUM
 
 
@@ -73,23 +74,23 @@ S’affide in grembo, e spregia l’ardor mio.
 @PAGE:23r
 @PARATEXT:	
 @VERSE:	
-Qui dove i sacri, e verdeggianti allori
-Forman di se vago boschetto ombroso
-Per cui serpendo al mar da l’herbe ascoso
-Porta limpido Rio suoi dolci humori.
+	Qui dove i sacri, e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	Per cui serpendo al mar da l’herbe ascoso
+	Porta limpido Rio suoi dolci humori.
 @VERSE:
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno, e dilettoso
-Ove fra’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno, e dilettoso
+	Ove fra’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Non men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai.
+	Vieni ò Fillide mia se pur non hai
+	Non men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai.
 @VERSE:
-Ma chi m’ode? à chi parlo? ove son io
-Lasso ella altrove al caro, Alcippo amato
-S’affide in grembo, e spregia l’ardor mio.
+	Ma chi m’ode? à chi parlo? ove son io
+	Lasso ella altrove al caro, Alcippo amato
+	S’affide in grembo, e spregia l’ardor mio.
 @@END: VARIORUM
 
 
@@ -119,7 +120,9 @@ S’affide in grembo, e spregia l’ardor mio.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
 @ID:		S35
 @TYPE:		print
@@ -127,22 +130,24 @@ S’affide in grembo, e spregia l’ardor mio.
 @PAGE:		23r
 @PARATEXT:
 @VERSE:		
-Quì dove i sacri e verdeggianti allori
+	Quì dove i sacri e verdeggianti allori
 	Forman di se vago boschetto ombroso,
 	Per cui serpendo al mar da l’herbe ascoso
 	Porta limpido Rio suoi dolci humori.
-Ove persi, vermigli, e bianchi fiori
+	Ove persi, vermigli, e bianchi fiori
 	Rendon vago il terreno, e dilettoso
 	Ove fra ’l crin de gli arboscei frondoso
 	Scherzano l’aure con leggiadri errori.
-Vieni, ò Fillide mia, se pur non hai
+	Vieni, ò Fillide mia, se pur non hai
 	Non men c’humano volto il cor spietato
 	Ond’io tregua al dolor ritrovi homai.
-Ma chi m’ode? à chi parlo? ove son io
+	Ma chi m’ode? à chi parlo? ove son io
 	Lasso ella altrove al caro Alcippo amato
 	S’asside in grembo, e spregia l’ardor mio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
 @ID:		S69
 @TYPE:		print
@@ -150,22 +155,24 @@ Ma chi m’ode? à chi parlo? ove son io
 @PAGE:		23r
 @PARATEXT:
 @VERSE:		
-Quì dove i sacri e verdeggianti allori
+	Quì dove i sacri e verdeggianti allori
 	Forman di se vago boschetto ombroso,
 	Per cui serpendo al mar da l’herbe ascoso
 	Porta limpido Rio suoi dolci humori.
-Ove persi, vermigli, e bianchi fiori
+	Ove persi, vermigli, e bianchi fiori
 	Rendon vago il terreno, e dilettoso
 	Ove fra ’l crin de gli arboscei frondoso
 	Scherzano l’aure con leggiadri errori.
-Vieni, ò Fillide mia, se pur non hai
+	Vieni, ò Fillide mia, se pur non hai
 	Non men c’humano volto il cor spietato
 	Ond’io tregua al dolor ritrovi homai.
-Ma chi m’ode? à chi parlo? ove son io
+	Ma chi m’ode? à chi parlo? ove son io
 	Lasso ella altrove al caro Alcippo amato
 	S’asside in grembo, e spregia l’ardor mio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
 @ID:		S141
 @TYPE:		print
@@ -173,22 +180,24 @@ Ma chi m’ode? à chi parlo? ove son io
 @PAGE:		Parte prima delle Rime, 202
 @PARATEXT:	Ritrovandosi in un dilettuol boschetto, v’invita l’amante sua, per avedersi di parlare al vento, si duole, ch’ella fia lungi da se, &amp; che altri di lei si goda.
 @VERSE:		
-Quì dove i sacri, e verdeggianti allori
+	Quì dove i sacri, e verdeggianti allori
 	Forman di se vago boschetto ombroso,
 	Per cui serpendo al mar da l’herbe ascoso
 	Porta limpido Rio suoi dolci humori.
-Onde persi, vermigli, e bianchi fiori
+	Onde persi, vermigli, e bianchi fiori
 	Rendon vago il terreno, e dilettoso
 	Ove fra ’l crin de gli arboscei frondoso
 	Scherzano l’aure con leggiadri errori.
-Vieni, ò Fillide mia, se pur non hai,
+	Vieni, ò Fillide mia, se pur non hai,
 	Non men ch’humano volto il cor spietato,
 	Ond’io tregua al dolor ritrovi homai.
-Ma chi m’ode? à chi parlo? ove son’ io?
+	Ma chi m’ode? à chi parlo? ove son’ io?
 	Lasso ella altrove al caro Alcippo amato
 	S’asside in grembo, e spregia l’ardor mio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
 @ID:		S166
 @TYPE:		print
@@ -196,22 +205,24 @@ Ma chi m’ode? à chi parlo? ove son’ io?
 @PAGE:		Parte prima delle Rime, 202
 @PARATEXT:	Ritrovandosi in un dilettuol boschetto, v’invita l’amante sua, per avedersi di parlare al vento, si duole, ch’ella fia lungi da se, &amp; che altri di lei si goda.
 @VERSE:		
-Quì dove i sacri, e verdeggianti allori
+	Quì dove i sacri, e verdeggianti allori
 	Forman di se vago boschetto ombroso,
 	Per cui serpendo al mar da l’herbe ascoso
 	Porta limpido Rio suoi dolci humori.
-Onde persi, vermigli, e bianchi fiori
+	Onde persi, vermigli, e bianchi fiori
 	Rendon vago il terreno, e dilettoso
 	Ove fra ’l crin de gli arboscei frondoso
 	Scherzano l’aure con leggiadri errori.
-Vieni, ò Fillide mia, se pur non hai,
+	Vieni, ò Fillide mia, se pur non hai,
 	Non men ch’humano volto il cor spietato,
 	Ond’io tregua al dolor ritrovi homai.
-Ma chi m’ode? à chi parlo? ove son’ io?
+	Ma chi m’ode? à chi parlo? ove son’ io?
 	Lasso ella altrove al caro Alcippo amato
 	S’asside in grembo, e spregia l’ardor mio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0363
 @ID:		S169
 @TYPE:		print
@@ -219,21 +230,21 @@ Ma chi m’ode? à chi parlo? ove son’ io?
 @PAGE:		RIME DEL TASSO.BOSCHERECCIE. P. II., 6
 @PARATEXT:	Invito a Filli.
 @VERSE:		
-Qui dove i sacri, e verdeggianti allori
+	Qui dove i sacri, e verdeggianti allori
 	Forman di se vago boschetto ombroso,
 	Per cui serpendo al mar da l’herbe ascoso
 	Porta limpido Rio suoi dolci humori.
-Onde per sì, vermigli, e bianchi fiori
+	Onde per sì, vermigli, e bianchi fiori
 	Rendon vago il terreno, e dilettoso
 	Ove fra ’l crin degli arboscei frondoso
 	Scherzano l’aure con leggiadri errori.
-Vieni, ò Fillide mia se pur non hai
+	Vieni, ò Fillide mia se pur non hai
 	Non men c’humano volto, il cor spietato,
 	Ond’io tregua al dolor ritrovi homai.
-Ma chi m’ode? a chi parlo? ove son io?
+	Ma chi m’ode? a chi parlo? ove son io?
 	Lasso ella altrove al caro Alcippo amato
 	S’asside in grembo, e spregia l’ardor mio.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -244,21 +255,21 @@ Ma chi m’ode? a chi parlo? ove son io?
 @PAGE:		VI-VII
 @PARATEXT:	a.5.
 @VERSE:		
-Qui dove i sacri e verdeggianti allori
-Forman di se vago boschetto ombroso
-Per cui serpendo al mar dal’herbe ascoso
-porta l'impido rio suoi dolci humori
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno, e dilettoso
-Ove fra ’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Qui dove i sacri e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	Per cui serpendo al mar dal’herbe ascoso
+	porta l'impido rio suoi dolci humori
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno, e dilettoso
+	Ove fra ’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Non men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai
-Mà chi m’ode? à chi parlo? ove son io
-Lasso ella altrove al caro Alcippo amato
-S’asside in grembo, e spregia l’ardor mio.
+	Vieni ò Fillide mia se pur non hai
+	Non men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai
+	Mà chi m’ode? à chi parlo? ove son io
+	Lasso ella altrove al caro Alcippo amato
+	S’asside in grembo, e spregia l’ardor mio.
 @@END: VARIORUM
 
 
@@ -270,21 +281,21 @@ S’asside in grembo, e spregia l’ardor mio.
 @PAGE:		VI-VII
 @PARATEXT:	a.5.
 @VERSE:		
-Qui dove i sacri e verdeggianti allori
-Forman di se vago boschetto ombroso
-Per cui serpendo al mar da l'herbe ascoso
-Porta limpido rio suoi dolci humori
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno e dilettoso
-Ove fra ’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Qui dove i sacri e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	Per cui serpendo al mar da l'herbe ascoso
+	Porta limpido rio suoi dolci humori
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno e dilettoso
+	Ove fra ’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Non men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai
-Mà chi m’ode? à chi parlo? ove son io
-Lasso ella altrove al caro Alcippo amato
-S’asside in grembo, e spregia l’ardor mio.
+	Vieni ò Fillide mia se pur non hai
+	Non men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai
+	Mà chi m’ode? à chi parlo? ove son io
+	Lasso ella altrove al caro Alcippo amato
+	S’asside in grembo, e spregia l’ardor mio.
 @@END: VARIORUM
 
 
@@ -296,21 +307,21 @@ S’asside in grembo, e spregia l’ardor mio.
 @PAGE:		VI-VII
 @PARATEXT:	a.5.
 @VERSE:		
-Qui dove i sacri e verdeggianti allori
-Forman di se vago boschetto ombroso
-Per cui serpendo al mar dal’herbe ascoso
-porta l'impido Rio suoi dolci humori
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno, e dilettoso
-Ove fra ’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Qui dove i sacri e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	Per cui serpendo al mar dal’herbe ascoso
+	porta l'impido Rio suoi dolci humori
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno, e dilettoso
+	Ove fra ’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Non men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai
-Mà chi m’ode? à chi parlo? ove son io
-Lasso ella altrove al caro Alcippo amato
-S’asside in grembo, e spregia l’ardor mio.
+	Vieni ò Fillide mia se pur non hai
+	Non men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai
+	Mà chi m’ode? à chi parlo? ove son io
+	Lasso ella altrove al caro Alcippo amato
+	S’asside in grembo, e spregia l’ardor mio.
 @@END: VARIORUM
 
 
@@ -322,21 +333,21 @@ S’asside in grembo, e spregia l’ardor mio.
 @PAGE:		VI-VII
 @PARATEXT:	a.5.
 @VERSE:		
-Qui dove i sacri e verdeggianti allori
-Forman di se vago boschetto ombroso
-[TACET]
-Porta limpido Rio suoi dolci humori
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno, e dilettoso
-Ove fra ’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Qui dove i sacri e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	[TACET]
+	Porta limpido Rio suoi dolci humori
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno, e dilettoso
+	Ove fra ’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Ne men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai
-Mà chi m’ode à chi parlo ove son io
-Lasso ella altrove al caro Alcippo amato
-S’asside in grembo e spregia l’ardor mio.
+	Vieni ò Fillide mia se pur non hai
+	Ne men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai
+	Mà chi m’ode à chi parlo ove son io
+	Lasso ella altrove al caro Alcippo amato
+	S’asside in grembo e spregia l’ardor mio.
 @@END: VARIORUM
 
 
@@ -348,21 +359,21 @@ S’asside in grembo e spregia l’ardor mio.
 @PAGE:		VI-VII
 @PARATEXT:	a.5.
 @VERSE:		
-Qui dove i sacri e verdeggianti allori
-Forman di se vago boschetto ombroso
-Per cui serpendo al mar dal’herbe ascoso
-Porta limpido Rio suoi dolci humori
-Ove persi vermigli, e bianchi fiori
-Rendon vago il terreno, e dilettoso
-Ove fra ’l crin de gli arboscei frondoso
-Scherzano l’aure con leggiadri errori.
+	Qui dove i sacri e verdeggianti allori
+	Forman di se vago boschetto ombroso
+	Per cui serpendo al mar dal’herbe ascoso
+	Porta limpido Rio suoi dolci humori
+	Ove persi vermigli, e bianchi fiori
+	Rendon vago il terreno, e dilettoso
+	Ove fra ’l crin de gli arboscei frondoso
+	Scherzano l’aure con leggiadri errori.
 @VERSE:
-Vieni ò Fillide mia se pur non hai
-Non men ch’humano volto il cor spietato
-Ond’io tregua al dolor ritrovi homai
-Mà chi m’ode? à chi parlo? ove son io?
-Lasso ella altrove al caro Alcippo amato
-S’asside in grembo, e spregia l’ardor mio.
+	Vieni ò Fillide mia se pur non hai
+	Non men ch’humano volto il cor spietato
+	Ond’io tregua al dolor ritrovi homai
+	Mà chi m’ode? à chi parlo? ove son io?
+	Lasso ella altrove al caro Alcippo amato
+	S’asside in grembo, e spregia l’ardor mio.
 @@END: VARIORUM
 
 

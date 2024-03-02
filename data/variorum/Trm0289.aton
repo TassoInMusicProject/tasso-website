@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0289
 @ID:		none
@@ -28,7 +29,7 @@
 @PAGE:		32
 @PARATEXT:	Invidia la morte d'una farfalla.
 @VERSE:		
-Gia tu volasti quattro volte, e sei
+	Gia tu volasti quattro volte, e sei
 	In quel petto sì molle,
 	Vaga farfalla, hor morta al lume sei.
 @VERSE:
@@ -49,7 +50,7 @@ Gia tu volasti quattro volte, e sei
 @PAGE:		112
 @PARATEXT:	
 @VERSE:	
-Già tu volasti quattro volte, e sei,
+	Già tu volasti quattro volte, e sei,
 	In quel petto si molle
 	Vaga farfalla, e morta al lume sei.
 @VERSE:
@@ -69,7 +70,7 @@ Già tu volasti quattro volte, e sei,
 @PAGE:		32
 @PARATEXT:	Invidia la morte d'una farfalla.
 @VERSE:		
-Già tu volasti quattro volte, e sei
+	Già tu volasti quattro volte, e sei
 	In quel petto sì molle,
 	Vaga farfalla, hor morta al lume sei.
 @VERSE:
@@ -80,7 +81,9 @@ Già tu volasti quattro volte, e sei
 	O' dolce chiuder gli occhi
 	S’averrà, che spirare in lui mi tocchi.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0289
 @ID:		S141
 @TYPE:		print
@@ -88,16 +91,18 @@ Già tu volasti quattro volte, e sei
 @PAGE:		Parte quarta delle Rime, 105
 @PARATEXT:	Invidia la morte d’una Farfalla.
 @VERSE:		
-Già tu volasti quattro volte, e sei
+	Già tu volasti quattro volte, e sei
 	In quel petto si molle,
 	Vaga farfalla, hor morta al lume sei.
-Non bramo io luce, né son tanto folle;
+	Non bramo io luce, né son tanto folle;
 	Ma la morte vorrei
 	Dove fortuna darla a te non volle.
-O dolce chiuder gli occhi
+	O dolce chiuder gli occhi
 	S’averrà, che spirare in lui mi tocchi.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0289
 @ID:		S166
 @TYPE:		print
@@ -105,16 +110,18 @@ O dolce chiuder gli occhi
 @PAGE:		Parte quarta delle Rime, 105
 @PARATEXT:	Invidia la morte d’una Farfalla.
 @VERSE:		
-Già tu volasti quattro volte, e sei
+	Già tu volasti quattro volte, e sei
 	In quel petto si molle,
 	Vaga farfalla, hor morta al lume sei.
-Non bramo io luce, né son tanto folle;
+	Non bramo io luce, né son tanto folle;
 	Ma la morte vorrei
 	Dove fortuna darla a te non volle.
-O dolce chiuder gli occhi
+	O dolce chiuder gli occhi
 	S’averrà, che spirare in lui mi tocchi.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0289
 @ID:		S169
 @TYPE:		print
@@ -122,7 +129,7 @@ O dolce chiuder gli occhi
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 180
 @PARATEXT:	Morte di farfalla.
 @VERSE:		
-Già tu volasti quattro volte, e sei
+	Già tu volasti quattro volte, e sei
 	In quel petto sì molle,
 	Vaga Farfalla, hor morta al lume sei,
 	Non bramo io luce, nè son tanto folle;
@@ -130,7 +137,7 @@ Già tu volasti quattro volte, e sei
 	Dove fortuna darla à te non volle;
 	O dolce chiuder gli occhi,
 	Quando spirare in quel bel sen mi tocchi.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -141,7 +148,7 @@ Già tu volasti quattro volte, e sei
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Gia tu volasti quattro volt'e sei
+	Gia tu volasti quattro volt'e sei
 	In quel petto si molle
 	Vaga farfalla hor mort'al lume sei
 	[TACET] ne son tanto folle
@@ -160,7 +167,7 @@ Gia tu volasti quattro volt'e sei
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Gia tu volasti quattro volt'e sei
+	Gia tu volasti quattro volt'e sei
 	In quel petto si molle
 	Vaga farfalla hor mort'al lume sei
 	Non bram'io luce ne son tanto folle
@@ -179,7 +186,7 @@ Gia tu volasti quattro volt'e sei
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Gia tu volasti quattro volt'e sei
+	Gia tu volasti quattro volt'e sei
 	In quel petto si molle
 	Vaga farfalla hor mort'al lume sei
 	Non bram'io luce ne son tanto folle
@@ -198,7 +205,7 @@ Gia tu volasti quattro volt'e sei
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-[TACET]
+	[TACET]
 	[TACET]
 	[TACET]
 	Non bram'io luce ne son tanto folle

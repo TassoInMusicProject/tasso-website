@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0204
 @ID:		none
@@ -28,14 +29,14 @@
 @PAGE:		14
 @PARATEXT:	Loda la bellezza della Signora Laura Peperara
 @VERSE:		
-Giamai più dolce raggio
-Non spiega il Sole in un fiorito Maggio
-Di quel, che le tue rose, e i tuoi ligustri
-Fà sì chiari, &amp; illustri;
-Nè caggiono giamai la state, e’l verno;
-Tal c’hai l’Aprile eterno;
-Perpetua primavera hai nel bel visi,
-E’l Sole è’l tuo dolce riso.
+	Giamai più dolce raggio
+	Non spiega il Sole in un fiorito Maggio
+	Di quel, che le tue rose, e i tuoi ligustri
+	Fà sì chiari, &amp; illustri;
+	Nè caggiono giamai la state, e’l verno;
+	Tal c’hai l’Aprile eterno;
+	Perpetua primavera hai nel bel visi,
+	E’l Sole è’l tuo dolce riso.
 @@END: VARIORUM
 
 
@@ -47,17 +48,17 @@ E’l Sole è’l tuo dolce riso.
 @PAGE:		110
 @PARATEXT:	
 @VERSE:		
-Già mai più dolce raggio
-Non spiega il Sole in un fiorito Maggio
+	Già mai più dolce raggio
+	Non spiega il Sole in un fiorito Maggio
 @VERSE:
-Di quel che le tue Rose, e i tuoi ligustri
-Fan si chiari, &amp; illustri
+	Di quel che le tue Rose, e i tuoi ligustri
+	Fan si chiari, &amp; illustri
 @VERSE:
-Nè cagiono già mai l'estate, e’l verno
-Tal c’hai l’Aprile eterno
+	Nè cagiono già mai l'estate, e’l verno
+	Tal c’hai l’Aprile eterno
 @VERSE:
-Perpetua Primavera hai nel bel viso
-E’l Sole, è’l dolce riso.
+	Perpetua Primavera hai nel bel viso
+	E’l Sole, è’l dolce riso.
 @@END: VARIORUM
 
 
@@ -70,7 +71,9 @@ E’l Sole, è’l dolce riso.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0204
 @ID:		S141
 @TYPE:		print
@@ -78,7 +81,7 @@ E’l Sole, è’l dolce riso.
 @PAGE:		Parte terza delle Rime, 51
 @PARATEXT:	Che la sua D. opera in altrui gli effetti, che il Sol di Maggio operi nella terra.
 @VERSE:		
-Giamai piu dolce raggio
+	Giamai piu dolce raggio
 	Non spiega il Sole in un fiorito Maggio
 	Di quel, che le tue rose, e i tuoi ligustri
 	Fà si chiari, &amp; illustri;
@@ -86,8 +89,10 @@ Giamai piu dolce raggio
 	Tal c’hai l’Aprile eterno;
 	Perpetua primavera hai nel bel viso,
 	E ’l Sole è 'l dolce riso.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0204
 @ID:		S166
 @TYPE:		print
@@ -95,7 +100,7 @@ Giamai piu dolce raggio
 @PAGE:		Parte terza delle Rime, 51
 @PARATEXT:	Che la sua D. opera in altrui gli effetti, che il Sol di Maggio operi nella terra.
 @VERSE:		
-Giamai piu dolce raggio
+	Giamai piu dolce raggio
 	Non spiega il Sole in un fiorito Maggio
 	Di quel, che le tue rose, e i tuoi ligustri
 	Fà si chiari, &amp; illustri;
@@ -103,8 +108,10 @@ Giamai piu dolce raggio
 	Tal c’hai l’Aprile eterno;
 	Perpetua primavera hai nel bel viso,
 	E ’l Sole è 'l dolce riso.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0204
 @ID:		S169
 @TYPE:		print
@@ -112,7 +119,7 @@ Giamai piu dolce raggio
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 11
 @PARATEXT:	Ninfa simile a Primavera.
 @VERSE:		
-Giamai più dolce raggio,
+	Giamai più dolce raggio,
 	Non spiega il Sole in un fiorito Maggio
 	Di quel che le tue rose, e i tuoi ligustri
 	Fà sì chiari, &amp; illustri;
@@ -120,7 +127,7 @@ Giamai più dolce raggio,
 	Tal c’hai l’Aprile eterno;
 	Perpetua primavera hai nel bel viso,
 	E ’l Sole è il dolce riso.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

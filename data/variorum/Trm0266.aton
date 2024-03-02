@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		240
 @PARATEXT:	stampa
 @VERSE:		
-Dolcissimi colori
-Voi vi mutate, et io
-Muto aspetto con voi, ma non desio
-sempre vorrei mirarvi, e se fiorire
-un bel purpureo veggio,
-e quel vago candor sempr’ il vagheggio;
-[ABSENT]
-e perche vari segno al mio pensiero
+	Dolcissimi colori
+	Voi vi mutate, et io
+	Muto aspetto con voi, ma non desio
+	sempre vorrei mirarvi, e se fiorire
+	un bel purpureo veggio,
+	e quel vago candor sempr’ il vagheggio;
+	[ABSENT]
+	e perche vari segno al mio pensiero
 è constante l’Arciero.
 @@END: VARIORUM
 
@@ -59,15 +60,15 @@ e perche vari segno al mio pensiero
 @PAGE:		55
 @PARATEXT:	
 @VERSE:		
-Dolcissimi colori,
-Voi vi mutate, &amp; io
-Color muto con voi, ma non a desio.
-Sempre vorrei mirarvi, e se fiorire
-Un bel purpureo veggio,
-Et un vago candor sempre vagheggio,
-Sempre soglio gioire.
-E perche vario segno al mio pensiero,
-E costante l’arciero.
+	Dolcissimi colori,
+	Voi vi mutate, &amp; io
+	Color muto con voi, ma non a desio.
+	Sempre vorrei mirarvi, e se fiorire
+	Un bel purpureo veggio,
+	Et un vago candor sempre vagheggio,
+	Sempre soglio gioire.
+	E perche vario segno al mio pensiero,
+	E costante l’arciero.
 @@END: VARIORUM
 
 
@@ -79,15 +80,15 @@ E costante l’arciero.
 @PAGE:		133-134
 @PARATEXT:	
 @VERSE:	
-Dolcissimi colori
-Voi vi mutate, &amp; io
-Muto aspetto con voi, ma non desio
-Sempre vorrei mirarvi, e se fiorire
-Un bel purpureo veggio,
-O quel vago candor, sempre il vagheggio,
-[ABSENT]
-E perche varij segno al mio pensiero
-E costante l’arciero.
+	Dolcissimi colori
+	Voi vi mutate, &amp; io
+	Muto aspetto con voi, ma non desio
+	Sempre vorrei mirarvi, e se fiorire
+	Un bel purpureo veggio,
+	O quel vago candor, sempre il vagheggio,
+	[ABSENT]
+	E perche varij segno al mio pensiero
+	E costante l’arciero.
 @@END: VARIORUM
 
 
@@ -99,17 +100,19 @@ E costante l’arciero.
 @PAGE:		67
 @PARATEXT:	
 @VERSE:	
-Dolcissimi colori,
-Voi vi mutate, &amp; io
-Muto aspetto con voi; ma non desio.
-Sempre vorrei mirarvi, e se fiorire
-Un bel purpureo veggio,
-O quel vago candor, sempre il vagheggio.
-[ABSENT]
-E perche varij segno al mio pensiero
-E costante l’arciero.
+	Dolcissimi colori,
+	Voi vi mutate, &amp; io
+	Muto aspetto con voi; ma non desio.
+	Sempre vorrei mirarvi, e se fiorire
+	Un bel purpureo veggio,
+	O quel vago candor, sempre il vagheggio.
+	[ABSENT]
+	E perche varij segno al mio pensiero
+	E costante l’arciero.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
 @ID:		S141
 @TYPE:		print
@@ -117,7 +120,7 @@ E costante l’arciero.
 @PAGE:		Parte terza delle Rime, 124
 @PARATEXT:	Arrossendo la sua D. egli arrossiva, che chiama cambiar colore, non per questo dice, cambiava consiglio.
 @VERSE:		
-Dolcissimi colori,
+	Dolcissimi colori,
 	Voi vi mutate, &amp; io
 	Color muto con voi, ma non desio.
 	Sempre vorrei mirarvi, e se fiorire
@@ -126,8 +129,10 @@ Dolcissimi colori,
 	Sempre soglio gioire.
 	E perche vario segno al mio pensiero,
 	E costante l’arciero.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
 @ID:		S166
 @TYPE:		print
@@ -135,7 +140,7 @@ Dolcissimi colori,
 @PAGE:		Parte terza delle Rime, 124
 @PARATEXT:	Arrossendo la sua D. egli arrossiva, che chiama cambiar colore, non per questo dice, cambiava consiglio.
 @VERSE:		
-Dolcissimi colori,
+	Dolcissimi colori,
 	Voi vi mutate, &amp; io
 	Color muto con voi, ma non desio.
 	Sempre vorrei mirarvi, e se fiorire
@@ -144,8 +149,10 @@ Dolcissimi colori,
 	Sempre soglio gioire.
 	E perche vario segno al mio pensiero,
 	E costante l’arciero.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0266
 @ID:		S169
 @TYPE:		print
@@ -153,7 +160,7 @@ Dolcissimi colori,
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 33
 @PARATEXT:	Continua lo sresso. [Rossore improviso.]
 @VERSE:		
-Dolcissimi colori
+	Dolcissimi colori
 	Voi vi mutate, &amp; io
 	Color muto con voi, ma non desio.
 	Sempre vorrei mirarvi, e se fiorire
@@ -161,7 +168,7 @@ Dolcissimi colori
 	Et un vagho candor sempre vagheggio,
 	E perche vario segno al mio pensiero,
 	E costante l’arciero.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -172,13 +179,13 @@ Dolcissimi colori
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Dolcissimi colori
+	Dolcissimi colori
 	[TACET]
 	Color muto con voi ma non desio
 	Sempre vorrei mirarvi e se fiorire
 	Un bel purpureo veggio
 	Et un vago candor sempre vagheggio
-  Sempre soglio gioire
+	Sempre soglio gioire
 	E perche vari segno al mio pensiero
 	E costante l’arciero.
 @@END: VARIORUM
@@ -192,15 +199,15 @@ Dolcissimi colori
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Dolcissimi colori
-Voi vi mutate &amp; io
-Color muto con voi ma non desio
-Sempre vorrei mirarvi e se fiorire
-Un bel purpureo veggio
-Et un vago candor sempre vagheggio
-Sempre soglio gioire
-E perche vari segno al mio pensiero
-E costante l’arciero.
+	Dolcissimi colori
+	Voi vi mutate &amp; io
+	Color muto con voi ma non desio
+	Sempre vorrei mirarvi e se fiorire
+	Un bel purpureo veggio
+	Et un vago candor sempre vagheggio
+	Sempre soglio gioire
+	E perche vari segno al mio pensiero
+	E costante l’arciero.
 @@END: VARIORUM
 
 
@@ -212,15 +219,15 @@ E costante l’arciero.
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Dolcissimi colori
-Voi vi mutate &amp; io
-Color muto con voi ma non desio
-Sempre vorrei mirarvi e se fiorire
-Un bel purpureo veggio
-Et un vago candor sempre vagheggio
-Sempre soglio gioire
-E perche vari segno al mio pensiero
-E costante l’arciero.
+	Dolcissimi colori
+	Voi vi mutate &amp; io
+	Color muto con voi ma non desio
+	Sempre vorrei mirarvi e se fiorire
+	Un bel purpureo veggio
+	Et un vago candor sempre vagheggio
+	Sempre soglio gioire
+	E perche vari segno al mio pensiero
+	E costante l’arciero.
 @@END: VARIORUM
 
 
@@ -232,15 +239,15 @@ E costante l’arciero.
 @PAGE:		18-19
 @PARATEXT:	
 @VERSE:		
-Dolcissimi colori
-Voi vi mutate &amp; io
-Color muto con voi ma non desio
-Sempre vorrei mirarvi e se fiorire
-Un bel purpureo veggio
-Et un vago candor sempre vagheggio
-Sempre soglio gioire
-E perche vari segn'al mio pensiero
-E costante l’arciero.	
+	Dolcissimi colori
+	Voi vi mutate &amp; io
+	Color muto con voi ma non desio
+	Sempre vorrei mirarvi e se fiorire
+	Un bel purpureo veggio
+	Et un vago candor sempre vagheggio
+	Sempre soglio gioire
+	E perche vari segn'al mio pensiero
+	E costante l’arciero.
 @@END: VARIORUM
 
 
@@ -251,18 +258,19 @@ E costante l’arciero.
 @COMPOSER:	Virchi, Paolo
 @PAGE:		
 @PARATEXT:	
-@VERSE:	@PAGE:	19
+@VERSE:
+@PAGE:	19
 @PARATEXT:	
 @VERSE:		
-Dolcissimi colori
-Voi vi mutate &amp; io
-Color muto con voi [TACET]
-Sempre vorrei mirarvi e se fiorire
-Un bel purpureo veggio
-Et un vago candor sempre vagheggio
-Sempre soglio gioire
-E perche vari segn'al mio pensiero
-E costante l’arciero.	
+	Dolcissimi colori
+	Voi vi mutate &amp; io
+	Color muto con voi [TACET]
+	Sempre vorrei mirarvi e se fiorire
+	Un bel purpureo veggio
+	Et un vago candor sempre vagheggio
+	Sempre soglio gioire
+	E perche vari segn'al mio pensiero
+	E costante l’arciero.
 @@END: VARIORUM
 
 

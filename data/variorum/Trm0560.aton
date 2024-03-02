@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
 @ID:		A3
@@ -64,6 +65,7 @@
 	{Io vaghegiar potessi}
 	{Mille bellezze tue, con luci mille} :
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
@@ -287,7 +289,8 @@
 	{Mille bellezze tue, con luci mille}.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
 @ID:		S33
 @TYPE:		print
@@ -303,9 +306,10 @@
 	{Le tue dolci faville},
 	{Io vagheggiar potessi}
 	{Mille bellezze tue, con luci mille}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
 @ID:		S67
 @TYPE:		print
@@ -380,7 +384,8 @@
 	{Mille bellezze tue, con luci mille}.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
 @ID:		S169
 @TYPE:		print
@@ -396,7 +401,8 @@
 	{Le tue dolci faville};
 	{Io vagheggiar potessi},
 	{Mille bellezze tue, con luci mille}.
-@@END:		VARIORUM
+@@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
@@ -795,6 +801,7 @@
 	{Io vagheggiar potessi}
 	{Mille bellezze tue con occhi mille}.
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0560
@@ -1390,7 +1397,7 @@
 @ID:		Trm0560n-Canto
 @TYPE:		music
 @COMPOSER:	Alberti, Innocenzo
-@PAGE:	21	
+@PAGE:	21
 @PARATEXT:	
 @VERSE:	
 	{Mentre mia stella miri}
@@ -1447,7 +1454,7 @@
 @ID:		Trm0560n-Basso
 @TYPE:		music
 @COMPOSER:	Alberti, Innocenzo
-@PAGE:	21	
+@PAGE:	21
 @PARATEXT:	
 @VERSE:	
 	{Mentre mia stella miri}

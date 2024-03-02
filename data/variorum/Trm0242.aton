@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0242
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		278
 @PARATEXT:	stampa
 @VERSE:		
-Sovra l’herbette, e i fiori
-Fuggia tutta smarita
-La mia crudel Licori
-Anzi il cor mio, che fu da lei rapito :
-e me di piaggia, in piaggia
-Seguìa Ninfa silvaggia,
-quando m’aggiunse, e con soavi baci
-mi disse hor prendi, e taci
+	Sovra l’herbette, e i fiori
+	Fuggia tutta smarita
+	La mia crudel Licori
+	Anzi il cor mio, che fu da lei rapito :
+	e me di piaggia, in piaggia
+	Seguìa Ninfa silvaggia,
+	quando m’aggiunse, e con soavi baci
+	mi disse hor prendi, e taci
 @@END: VARIORUM
 
 
@@ -58,14 +59,14 @@ mi disse hor prendi, e taci
 @PAGE:		56
 @PARATEXT:	
 @VERSE:		
-Sovra l’herbette, e i fiori
-Fuggia tutto smarrito
-La mia crudel Licori,
-Anzi’l cor mio, che fù da lei rapito:
-E me di piaggia in piaggia
-Seguia Ninfa selvaggia,
-Quando m’aggiunse, con soavi baci
-Mi disse, Hor prendi, e taci.
+	Sovra l’herbette, e i fiori
+	Fuggia tutto smarrito
+	La mia crudel Licori,
+	Anzi’l cor mio, che fù da lei rapito:
+	E me di piaggia in piaggia
+	Seguia Ninfa selvaggia,
+	Quando m’aggiunse, con soavi baci
+	Mi disse, Hor prendi, e taci.
 @@END: VARIORUM
 
 
@@ -74,17 +75,17 @@ Mi disse, Hor prendi, e taci.
 @ID:		S48
 @TYPE:		print
 @SPRINT:	
-@PAGE:	106-7	
+@PAGE:	106-7
 @PARATEXT:	
 @VERSE:	
-Sovra l’herbette, e i fiori
-Fuggia tutta smarrita
-La mia crudel Licori,
-Anzi’l cor mio che fù da lei rapito;
-E me di piaggia in piaggia
-Seguia Ninfa selvaggia,
-Quando m’aggiunse, e con soavi baci
-Mi disse, hor prendi, e taci.
+	Sovra l’herbette, e i fiori
+	Fuggia tutta smarrita
+	La mia crudel Licori,
+	Anzi’l cor mio che fù da lei rapito;
+	E me di piaggia in piaggia
+	Seguia Ninfa selvaggia,
+	Quando m’aggiunse, e con soavi baci
+	Mi disse, hor prendi, e taci.
 @@END: VARIORUM
 
 
@@ -96,16 +97,18 @@ Mi disse, hor prendi, e taci.
 @PAGE:		54
 @PARATEXT:	
 @VERSE:		
-Sovra l’herbette, e i fiori
-Fuggia tutta smarrita
-La mia crudel Licori,
-Anzi’l cor mio che fù da lei rapito;
-E me di piaggia in piaggia
-Seguia Ninfa selvaggia,
-Quando m’aggiunse, e con soavi baci
-Mi disse, hor prendi, e taci.
+	Sovra l’herbette, e i fiori
+	Fuggia tutta smarrita
+	La mia crudel Licori,
+	Anzi’l cor mio che fù da lei rapito;
+	E me di piaggia in piaggia
+	Seguia Ninfa selvaggia,
+	Quando m’aggiunse, e con soavi baci
+	Mi disse, hor prendi, e taci.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0242
 @ID:		S141
 @TYPE:		print
@@ -113,7 +116,7 @@ Mi disse, hor prendi, e taci.
 @PAGE:		Parte terza delle Rime, 126
 @PARATEXT:	Si fuggiva sdegnato dalla D. sua, la quale lo seguitò, &amp; lo consolò.
 @VERSE:		
-Sovra l’herbette, e i fiori
+	Sovra l’herbette, e i fiori
 	Fuggia tutto smarrito
 	La mia crudel Licori,
 	Anzi ’l cor mio, che fu da lei rapito:
@@ -121,8 +124,10 @@ Sovra l’herbette, e i fiori
 	Seguia Ninfa selvaggia,
 	Quando m’aggiunse, e con soavi baci
 	Mi disse, Hor prendi, e taci.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0242
 @ID:		S166
 @TYPE:		print
@@ -130,7 +135,7 @@ Sovra l’herbette, e i fiori
 @PAGE:		Parte terza delle Rime, 126
 @PARATEXT:	Si fuggiva sdegnato dalla D. sua, la quale lo seguitò, &amp; lo consolò.
 @VERSE:		
-Sovra l’herbette, e i fiori
+	Sovra l’herbette, e i fiori
 	Fuggia tutto smarrito
 	La mia crudel Licori,
 	Anzi ’l cor mio, che fu da lei rapito:
@@ -138,8 +143,10 @@ Sovra l’herbette, e i fiori
 	Seguia Ninfa selvaggia,
 	Quando m’aggiunse, e con soavi baci
 	Mi disse, Hor prendi, e taci.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0242
 @ID:		S169
 @TYPE:		print
@@ -147,7 +154,7 @@ Sovra l’herbette, e i fiori
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 53
 @PARATEXT:	Gusto improviso.
 @VERSE:		
-Sovra l’erbette, e i fiori
+	Sovra l’erbette, e i fiori
 	Fuggia tutto smarrito
 	La mia crudel Licori,
 	Anzi il cor mio, che fù da lei rapito;
@@ -155,7 +162,7 @@ Sovra l’erbette, e i fiori
 	Seguìa Ninfa selvaggia,
 	Quando m’aggiunse, e con soavi baci
 	Mi disse hor prendi, e taci.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

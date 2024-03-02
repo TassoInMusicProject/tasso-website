@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
 @ID:		C
@@ -28,17 +29,17 @@
 @PAGE:		39v
 @PARATEXT:	
 @VERSE:	
-Vorrei lagnarmi a pieno
-Sfogando il duol, ch’io sento,
-Ma ^ben più^ vostro sdegno <del>d’irritar</del> ^ognor^ pavento.
+	Vorrei lagnarmi a pieno
+	Sfogando il duol, ch’io sento,
+	Ma ^ben più^ vostro sdegno <del>d’irritar</del> ^ognor^ pavento.
 @VERSE:
-Dunque il meglio è, ch’io taccia
-E quell dolor sopporte,
-Ch’ove s’accresca, fia dolor di morte.
+	Dunque il meglio è, ch’io taccia
+	E quell dolor sopporte,
+	Ch’ove s’accresca, fia dolor di morte.
 @VERSE:
-Ma se fia, che vi piaccia
-Il mio silentio almeno
-<del>Me’l</del> ^Il^ mostri un balenar d’occhi sereno.	
+	Ma se fia, che vi piaccia
+	Il mio silentio almeno
+<del>Me’l</del> ^Il^ mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -61,17 +62,17 @@ Il mio silentio almeno
 @PAGE:		39v
 @PARATEXT:	
 @VERSE:	
-Vorrei lagnarmi a pieno
-Sfogando il duol, ch’io sento,
-Ma vostro sdegno d’irritar pavento.
+	Vorrei lagnarmi a pieno
+	Sfogando il duol, ch’io sento,
+	Ma vostro sdegno d’irritar pavento.
 @VERSE:
-Dunque il meglio è, ch’io taccia
-E quell dolor sopporte,
-Ch’ove s’accresca, fia dolor di morte.
+	Dunque il meglio è, ch’io taccia
+	E quell dolor sopporte,
+	Ch’ove s’accresca, fia dolor di morte.
 @VERSE:
-Ma se fia, che vi piaccia
-Il mio silentio almeno
-Me’l mostri un balenar d’occhi sereno.
+	Ma se fia, che vi piaccia
+	Il mio silentio almeno
+	Me’l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -83,17 +84,17 @@ Me’l mostri un balenar d’occhi sereno.
 @PAGE:		39v
 @PARATEXT:	
 @VERSE:	
-Vorrei lagnarmi a pieno
-Sfogando il duol, ch’io sento,
-Ma vostro sdegno d’irritar pavento.
+	Vorrei lagnarmi a pieno
+	Sfogando il duol, ch’io sento,
+	Ma vostro sdegno d’irritar pavento.
 @VERSE:
-Dunque il meglio è, ch’io taccia
-E quell dolor sopporte,
-Ch’ove s’accresca, fia dolor di morte.
+	Dunque il meglio è, ch’io taccia
+	E quell dolor sopporte,
+	Ch’ove s’accresca, fia dolor di morte.
 @VERSE:
-Ma se fia, che vi piaccia
-Il mio silentio almeno
-Me’l mostri un balenar d’occhi sereno.
+	Ma se fia, che vi piaccia
+	Il mio silentio almeno
+	Me’l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -150,7 +151,9 @@ Me’l mostri un balenar d’occhi sereno.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
 @ID:		S141
 @TYPE:		print
@@ -158,17 +161,19 @@ Me’l mostri un balenar d’occhi sereno.
 @PAGE:		Parte seconda delle Rime, 184.
 @PARATEXT:	Vorrebbe dolersi della sua Donna, ma teme d'iritarla a sdegno, onde si determina di sofferir tacendo.
 @VERSE:		
-Vorrei lagnarmi à pieno
+	Vorrei lagnarmi à pieno
 	Sfogando il duol, ch’io sento,
 	Ma vostro sdegno d'irritar pavento.
-Dunque il meglio è ch’io taccia
+	Dunque il meglio è ch’io taccia
 	E quel dolor sopporte.
 	Ch’ove s’accresca, sia dolor di morte.
-Ma se fia che vi piaccia
+	Ma se fia che vi piaccia
 	Il mio silenzio almeno
 	Me 'l mostri un balenar d’occhi sereno.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
 @ID:		S166
 @TYPE:		print
@@ -176,17 +181,19 @@ Ma se fia che vi piaccia
 @PAGE:		Parte seconda delle Rime, 184.
 @PARATEXT:	Vorrebbe dolersi della sua Donna, ma teme d'iritarla a sdegno, onde si determina di sofferir tacendo.
 @VERSE:		
-Vorrei lagnarmi à pieno
+	Vorrei lagnarmi à pieno
 	Sfogando il duol, ch’io sento,
 	Ma vostro sdegno d'irritar pavento.
-Dunque il meglio è ch’io taccia
+	Dunque il meglio è ch’io taccia
 	E quel dolor sopporte.
 	Ch’ove s’accresca, sia dolor di morte.
-Ma se fia che vi piaccia
+	Ma se fia che vi piaccia
 	Il mio silenzio almeno
 	Me 'l mostri un balenar d’occhi sereno.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0165
 @ID:		S169
 @TYPE:		print
@@ -194,7 +201,7 @@ Ma se fia che vi piaccia
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 258
 @PARATEXT:	Teme di risentirsi.
 @VERSE:		
-Vorrei lagnarmi à pieno,
+	Vorrei lagnarmi à pieno,
 	Sfogando il duol, ch’io sento,
 	Ma vostro sdegno à irritar pavento;
 	Dunque il meglio è, ch’io taccia,
@@ -203,7 +210,7 @@ Vorrei lagnarmi à pieno,
 	Ma se fia, che vi piaccia,
 	Il mio silentio, almeno
 	Me'l mostri un balenar d’occhi sereno.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -258,15 +265,15 @@ Vorrei lagnarmi à pieno,
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Vorrei lagnarmi a pieno
-Sfogando il duol ch’io sento
-Ma vostro sdegno d’irritar pavento
-Dunque il meglio è ch’io taccia
-Et quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Me ‘l mostri un balenar d’occhi sereno.
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch’io sento
+	Ma vostro sdegno d’irritar pavento
+	Dunque il meglio è ch’io taccia
+	Et quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Me ‘l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -278,15 +285,15 @@ Me ‘l mostri un balenar d’occhi sereno.
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Vorrei lagnarmi a pieno
-Sfogando il duol ch’io sento
-Ma vostro sdegno d’irritar pavento
-Dunque il meglio è ch’io taccia
-Et quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte
-[TACET]
-Il mio silentio almeno
-Me ‘l mostri un balenar d’occhi sereno.
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch’io sento
+	Ma vostro sdegno d’irritar pavento
+	Dunque il meglio è ch’io taccia
+	Et quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte
+	[TACET]
+	Il mio silentio almeno
+	Me ‘l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -298,15 +305,15 @@ Me ‘l mostri un balenar d’occhi sereno.
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-[TACET]
-Sfogando il duol ch’io sento
-[TACET]
-Dunque il meglio è ch’io taccia
-Et quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Me ‘l mostri un balenar d’occhi sereno.
+	[TACET]
+	Sfogando il duol ch’io sento
+	[TACET]
+	Dunque il meglio è ch’io taccia
+	Et quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Me ‘l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -318,15 +325,15 @@ Me ‘l mostri un balenar d’occhi sereno.
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Vorrei lagnarmi a pieno
-Sfogando il duol ch’io sento
-Ma vostro sdegno d’irritar pavento
-Dunque il meglio è ch’io taccia
-Et quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Me ‘l mostri un balenar d’occhi sereno.
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch’io sento
+	Ma vostro sdegno d’irritar pavento
+	Dunque il meglio è ch’io taccia
+	Et quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Me ‘l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -393,17 +400,17 @@ Me ‘l mostri un balenar d’occhi sereno.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Vorrei lagnarmi a pieno
-Sfogando il duol ch’io sento
-Ma vostro sdegno d’irritar pavento
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch’io sento
+	Ma vostro sdegno d’irritar pavento
 @VERSE:
-Dunque il meglio è ch’io taccia
-E quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte.
+	Dunque il meglio è ch’io taccia
+	E quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte.
 @VERSE:
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Mi mostri un balenar d’occhi sereno.
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Mi mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -415,17 +422,17 @@ Mi mostri un balenar d’occhi sereno.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:	
-Vorrei lagnarmi a pieno
-Sfogando il duol ch’io sento
-Ma vostro sdegno d’irritar pavento
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch’io sento
+	Ma vostro sdegno d’irritar pavento
 @VERSE:
-Dunque il meglio è ch’io taccia
-E quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte.
+	Dunque il meglio è ch’io taccia
+	E quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte.
 @VERSE:
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Mi mostri un balenar d’occhi sereno.
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Mi mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -437,17 +444,17 @@ Mi mostri un balenar d’occhi sereno.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Vorrei lagnarmi a pieno
-Sfogando il duol ch’io sento
-Ma vostro sdegno d’irritar pavento
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch’io sento
+	Ma vostro sdegno d’irritar pavento
 @VERSE:
-Dunque il meglio è ch’io taccia
-E quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte.
+	Dunque il meglio è ch’io taccia
+	E quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte.
 @VERSE:
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Mi mostri un balenar d’occhi sereno.
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Mi mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -459,15 +466,15 @@ Mi mostri un balenar d’occhi sereno.
 @PAGE:		26
 @PARATEXT:	
 @VERSE:		
-Vorrei lagnarmi a pieno
-Sfogando il duol ch’io sento
-Ma'l vostro sdegno d’irritar pavento
-Dunque meglio è ch’io taccia
-[TACET]
-Ch’ove s’accresca fia dolor di morte
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Me‘l mostri un balenar d’occhi sereno.
+	Vorrei lagnarmi a pieno
+	Sfogando il duol ch’io sento
+	Ma'l vostro sdegno d’irritar pavento
+	Dunque meglio è ch’io taccia
+	[TACET]
+	Ch’ove s’accresca fia dolor di morte
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Me‘l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -479,15 +486,15 @@ Me‘l mostri un balenar d’occhi sereno.
 @PAGE:		26
 @PARATEXT:	
 @VERSE:		
-[TACET]
-Sfogando il duol ch’io sento
-[TACET]
-Dunque meglio è ch’io taccia
-E quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Me‘l mostri un balenar d’occhi sereno.		
+	[TACET]
+	Sfogando il duol ch’io sento
+	[TACET]
+	Dunque meglio è ch’io taccia
+	E quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Me‘l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 
@@ -499,15 +506,15 @@ Me‘l mostri un balenar d’occhi sereno.
 @PAGE:		26
 @PARATEXT:	
 @VERSE:		
-[TACET]
-Sfogando il duol ch’io sento
-[TACET]
-Dunque meglio è ch’io taccia
-E quel dolor sopporte
-Ch’ove s’accresca fia dolor di morte
-Ma se fia che vi piaccia
-Il mio silentio almeno
-Me‘l mostri un balenar d’occhi sereno.	
+	[TACET]
+	Sfogando il duol ch’io sento
+	[TACET]
+	Dunque meglio è ch’io taccia
+	E quel dolor sopporte
+	Ch’ove s’accresca fia dolor di morte
+	Ma se fia che vi piaccia
+	Il mio silentio almeno
+	Me‘l mostri un balenar d’occhi sereno.
 @@END: VARIORUM
 
 

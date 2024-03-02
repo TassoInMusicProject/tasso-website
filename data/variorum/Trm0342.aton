@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0342
 @ID:		Ts2
@@ -36,18 +37,18 @@
 @ID:		S22
 @TYPE:		print
 @SPRINT:	
-@PAGE:	44r	
+@PAGE:	44r
 @PARATEXT:	
 @VERSE:	
-Già fu mia dolce speme
-Assai debile, e lenta,
-Hor cresce si, ch’ella piacer diventa.
+	Già fu mia dolce speme
+	Assai debile, e lenta,
+	Hor cresce si, ch’ella piacer diventa.
 @VERSE:
-Ma perch’io speri insieme,
-E’n sieme habbia diletto,
-Mai non adempie Amor ogni mio affetto;
-E sempre il mio piacere
-Temprando và, perch’io maggior lo spere.
+	Ma perch’io speri insieme,
+	E’n sieme habbia diletto,
+	Mai non adempie Amor ogni mio affetto;
+	E sempre il mio piacere
+	Temprando và, perch’io maggior lo spere.
 @@END: VARIORUM
 
 
@@ -59,15 +60,15 @@ Temprando và, perch’io maggior lo spere.
 @PAGE:		44r
 @PARATEXT:	
 @VERSE:	
-Già fu mia dolce speme
-Assai debile, e lenta,
-Hor cresce si, ch’ella piacer diventa.
+	Già fu mia dolce speme
+	Assai debile, e lenta,
+	Hor cresce si, ch’ella piacer diventa.
 @VERSE:
-Ma perch’io speri insieme,
-E’n sieme habbia diletto,
-Mai non adempie Amor ogni mio affetto;
-E sempre il mio piacere
-Temprando và, perch’io maggior lo spere.
+	Ma perch’io speri insieme,
+	E’n sieme habbia diletto,
+	Mai non adempie Amor ogni mio affetto;
+	E sempre il mio piacere
+	Temprando và, perch’io maggior lo spere.
 @@END: VARIORUM
 
 
@@ -79,16 +80,16 @@ Temprando và, perch’io maggior lo spere.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:	
-Già fu mia dolce speme
-Assai debile, e lenta,
-Hor cresce sì, ch’ella piacer diventa.
+	Già fu mia dolce speme
+	Assai debile, e lenta,
+	Hor cresce sì, ch’ella piacer diventa.
 @VERSE:
-Ma, perch’io speri insieme,
-E’nsieme habbia diletto,
-Mai non adempie Amor ogni mio affetto.
+	Ma, perch’io speri insieme,
+	E’nsieme habbia diletto,
+	Mai non adempie Amor ogni mio affetto.
 @VERSE:
-E sempre il mio piacere
-Temprando và, perche io maggior lo spere.
+	E sempre il mio piacere
+	Temprando và, perche io maggior lo spere.
 @@END: VARIORUM
 
 
@@ -123,7 +124,9 @@ Temprando và, perche io maggior lo spere.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0342
 @ID:		S35
 @TYPE:		print
@@ -131,15 +134,15 @@ Temprando và, perche io maggior lo spere.
 @PAGE:		44r
 @PARATEXT:
 @VERSE:		
-Già fù mia dolce speme
+	Già fù mia dolce speme
 	Assai debile, e lenta,
 	Hor cresce si, ch’ella piacer diventa.
-Ma perch’io speri insieme,
+	Ma perch’io speri insieme,
 	E ’nsieme habbia diletto,
 	Mai non adempie Amor ogni mio affetto
 	E sempre il mio piacere
 	Temprando và, perch’io maggior lo spero.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -162,7 +165,9 @@ Ma perch’io speri insieme,
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0342
 @ID:		S69
 @TYPE:		print
@@ -170,16 +175,18 @@ Ma perch’io speri insieme,
 @PAGE:		44r
 @PARATEXT:
 @VERSE:		
-Già fù mia dolce speme
+	Già fù mia dolce speme
 	Assai debile, e lenta,
 	Hor cresce si, ch’ella piacer diventa.
-Ma perch’io speri insieme,
+	Ma perch’io speri insieme,
 	E ’nsieme habbia diletto,
 	Mai non adempie Amor ogni mio affetto
 	E sempre il mio piacere
 	Temprando và, perch’io maggior lo spero.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0342
 @ID:		S141
 @TYPE:		print
@@ -187,15 +194,15 @@ Ma perch’io speri insieme,
 @PAGE:		Parte seconda delle Rime, 188
 @PARATEXT:	Mostra come la sua speranza di dover cogliere gli amorosi frutti, nel cominciamento fosse debole, ma che andasse crescendo, senza però venire a goderli.
 @VERSE:		
-Gia fù mia dolce speme
+	Gia fù mia dolce speme
 	Assai debile, e lenta,
 	Hor cresce si, ch’ella piacer diventa.
-Ma perch’io speri insieme.
+	Ma perch’io speri insieme.
 	E ’ninsieme habbia diletto,
 	Mai non adempie Amor ogni mio affetto
 	E sempre il mio piacere
 	Temprando và, perch’io maggior lo spere.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -206,16 +213,18 @@ Ma perch’io speri insieme.
 @PAGE:		Parte quinta, 168r
 @PARATEXT:	SPERANZA D'AMANTE / ALLA M. ILLUSTRE SIGNORA / Lavinia Massioli. / Torquato Tasso.
 @VERSE:	
-Già fu mia dolce speme
-Assai debile, e lenta
-Hor cresce si ch’ella piacer diventa.
-Ma perch’io spiri insieme,
-E’nsieme habbia diletto,
-Mai non adempie Amore ogni mio affetto
-E sempre il mio piacere
-Temprando va, perch’io maggior lo spere.
+	Già fu mia dolce speme
+	Assai debile, e lenta
+	Hor cresce si ch’ella piacer diventa.
+	Ma perch’io spiri insieme,
+	E’nsieme habbia diletto,
+	Mai non adempie Amore ogni mio affetto
+	E sempre il mio piacere
+	Temprando va, perch’io maggior lo spere.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0342
 @ID:		S166
 @TYPE:		print
@@ -223,16 +232,18 @@ Temprando va, perch’io maggior lo spere.
 @PAGE:		Parte seconda delle Rime, 188
 @PARATEXT:	Mostra come la sua speranza di dover cogliere gli amorosi frutti, nel cominciamento fosse debole, ma che andasse crescendo, senza però venire a goderli.
 @VERSE:		
-Gia fù mia dolce speme
+	Gia fù mia dolce speme
 	Assai debile, e lenta,
 	Hor cresce si, ch’ella piacer diventa.
-Ma perch’io speri insieme.
+	Ma perch’io speri insieme.
 	E ’ninsieme habbia diletto,
 	Mai non adempie Amor ogni mio affetto
 	E sempre il mio piacere
 	Temprando và, perch’io maggior lo spere.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0342
 @ID:		S169
 @TYPE:		print
@@ -240,7 +251,7 @@ Ma perch’io speri insieme.
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 247
 @PARATEXT:	Speranza indeterminata.
 @VERSE:		
-Già fù dolce mia speme,
+	Già fù dolce mia speme,
 	Assai debile, e lenta,
 	Hor cresce sì, ch’ella piacer diventa.
 	Ma per che io speri insieme,
@@ -248,7 +259,7 @@ Già fù dolce mia speme,
 	Mai non adempie Amor ogni mio affetto
 	E sempre il mio piacere
 	Temprando va, perch’io maggior lo spere.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -413,14 +424,14 @@ Già fù dolce mia speme,
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Già fu mia dolce speme
-Assai debile e lenta
-Hor cresce si ch’ella piacer diventa
-Ma perch’io sper’insieme
-E ’insiem’habbia diletto
-Mai non ademp’Amor ogni mio affetto
-Et sempr’il mio piacere
-Temprando và perche maggior lo spere.
+	Già fu mia dolce speme
+	Assai debile e lenta
+	Hor cresce si ch’ella piacer diventa
+	Ma perch’io sper’insieme
+	E ’insiem’habbia diletto
+	Mai non ademp’Amor ogni mio affetto
+	Et sempr’il mio piacere
+	Temprando và perche maggior lo spere.
 @@END: VARIORUM
 
 
@@ -432,14 +443,14 @@ Temprando và perche maggior lo spere.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-Hor cresce si ch’ella piacer diventa
-Ma perch’io speri insieme
-E insieme habbia diletto
-[TACET]
-E sempr’il mio piacere
-Temprando va perch'io maggior lo spere.
+	[TACET]
+	[TACET]
+	Hor cresce si ch’ella piacer diventa
+	Ma perch’io speri insieme
+	E insieme habbia diletto
+	[TACET]
+	E sempr’il mio piacere
+	Temprando va perch'io maggior lo spere.
 @@END: VARIORUM
 
 
@@ -451,14 +462,14 @@ Temprando va perch'io maggior lo spere.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-Hor cresce si ch’ella piacer diventa
-Ma perch’io speri insieme
-E insiem’habbia diletto
-[TACET]
-E sempr’il mio piacere
-Temprando va perch'io maggior lo spere.
+	[TACET]
+	[TACET]
+	Hor cresce si ch’ella piacer diventa
+	Ma perch’io speri insieme
+	E insiem’habbia diletto
+	[TACET]
+	E sempr’il mio piacere
+	Temprando va perch'io maggior lo spere.
 @@END: VARIORUM
 
 
@@ -470,14 +481,14 @@ Temprando va perch'io maggior lo spere.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Già fu mia dolce speme
-Assai debile e lenta
-Hor cresce si ch’ella piacer diventa
-Ma perch’io speri insieme
-E insiem’habbia diletto
-Mai non adempie Amor ogni mio affetto
-[TACET]
-Temprando va ch'ella piacer diventa.
+	Già fu mia dolce speme
+	Assai debile e lenta
+	Hor cresce si ch’ella piacer diventa
+	Ma perch’io speri insieme
+	E insiem’habbia diletto
+	Mai non adempie Amor ogni mio affetto
+	[TACET]
+	Temprando va ch'ella piacer diventa.
 @@END: VARIORUM
 
 
@@ -489,14 +500,14 @@ Temprando va ch'ella piacer diventa.
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-Già fu mia dolce spene
-[TACET]
-Hor cresce si ch’ella piacer diventa
-Ma perch’io sper’insieme
-E ’n siem habbia diletto
-mai non adempie amor ogni mio affetto
-E sempre il mio piacere
-temprando và perch’io maggior lo spere.
+	Già fu mia dolce spene
+	[TACET]
+	Hor cresce si ch’ella piacer diventa
+	Ma perch’io sper’insieme
+	E ’n siem habbia diletto
+	mai non adempie amor ogni mio affetto
+	E sempre il mio piacere
+	temprando và perch’io maggior lo spere.
 @@END: VARIORUM
 
 
@@ -508,14 +519,14 @@ temprando và perch’io maggior lo spere.
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-Già fu mia dolce speme
-assai debole e lenta
-Hor cresce si ch’ella piacer diventa
-Ma perch’io sper’insieme
-E ’n siem’habbia diletto
-mai non adempie amor ogni mio affetto
-E sempre il mio piacere
-temprando và perch’io maggior lo spere.
+	Già fu mia dolce speme
+	assai debole e lenta
+	Hor cresce si ch’ella piacer diventa
+	Ma perch’io sper’insieme
+	E ’n siem’habbia diletto
+	mai non adempie amor ogni mio affetto
+	E sempre il mio piacere
+	temprando và perch’io maggior lo spere.
 @@END: VARIORUM
 
 
@@ -527,14 +538,14 @@ temprando và perch’io maggior lo spere.
 @PAGE:		16
 @PARATEXT:	
 @VERSE:	
-Già fu [TACET]
-Assai debole e lenta
-Hor cresce si ch’ella piacer diventa
-Ma perch’io sper’insieme
-E ’nsiem habbia diletto
-mai non adempie amor ogni mio affetto
-E sempre il mio piacere
-temprando và perch’io maggior lo spere.
+	Già fu [TACET]
+	Assai debole e lenta
+	Hor cresce si ch’ella piacer diventa
+	Ma perch’io sper’insieme
+	E ’nsiem habbia diletto
+	mai non adempie amor ogni mio affetto
+	E sempre il mio piacere
+	temprando và perch’io maggior lo spere.
 @@END: VARIORUM
 
 

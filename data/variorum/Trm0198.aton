@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0198
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		239
 @PARATEXT:	
 @VERSE:		
-Chi la felice pianta d’oriente
-Portò ne l’occidente?
-e di qual man aventurosa è questo
-Maraviglioso inesto?
-felice chi raccoglie
-Pepe nel lauro tra le verdi foglie
-onde Amor, e natura, et arte unite
-Fanno amicizia, e lite.	
+	Chi la felice pianta d’oriente
+	Portò ne l’occidente?
+	e di qual man aventurosa è questo
+	Maraviglioso inesto?
+	felice chi raccoglie
+	Pepe nel lauro tra le verdi foglie
+	onde Amor, e natura, et arte unite
+	Fanno amicizia, e lite.
 @@END: VARIORUM
 
 
@@ -48,7 +49,7 @@ Fanno amicizia, e lite.
 @PAGE:		42
 @PARATEXT:	Loda la Signora Laura Peperara
 @VERSE:		
-Chi la felice pianta d’Oriente
+	Chi la felice pianta d’Oriente
 	Portò ne l’Occidente?
 	E di qual mano aventurosa è questo
 	Maraviglioso inesto?
@@ -67,14 +68,14 @@ Chi la felice pianta d’Oriente
 @PAGE:		133
 @PARATEXT:	
 @VERSE:		
-Chi la felice pianta d’Oriente
-Portò ne l’Occidente?
-E di qual mano aventurosa è questo
-Maraviglioso innesto?
-Felice chi raccoglie
-Pepe nel lauro tra le verdi foglie,
-Onde Amor, e natura, &amp; arte unite
-Fanno amicitia, e lite.		
+	Chi la felice pianta d’Oriente
+	Portò ne l’Occidente?
+	E di qual mano aventurosa è questo
+	Maraviglioso innesto?
+	Felice chi raccoglie
+	Pepe nel lauro tra le verdi foglie,
+	Onde Amor, e natura, &amp; arte unite
+	Fanno amicitia, e lite.
 @@END: VARIORUM
 
 
@@ -86,14 +87,14 @@ Fanno amicitia, e lite.
 @PAGE:		67
 @PARATEXT:	
 @VERSE:		
-Chi la felice pianta d’Oriente
-Portò ne l’Occidente?
-E di qual mano aventurosa è questo
-Maraviglioso innesto?
-Felice chi raccoglie
-Pepe nel lauro tra le verdi foglie,
-Onde Amor, e natura, &amp; arte unite
-Fanno amicitia, e lite.				
+	Chi la felice pianta d’Oriente
+	Portò ne l’Occidente?
+	E di qual mano aventurosa è questo
+	Maraviglioso innesto?
+	Felice chi raccoglie
+	Pepe nel lauro tra le verdi foglie,
+	Onde Amor, e natura, &amp; arte unite
+	Fanno amicitia, e lite.
 @@END: VARIORUM
 
 
@@ -107,7 +108,9 @@ Fanno amicitia, e lite.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0198
 @ID:		S141
 @TYPE:		print
@@ -115,7 +118,7 @@ Fanno amicitia, e lite.
 @PAGE:		Parte terza delle Rime, 101
 @PARATEXT:	Loda la Sig. Laura Peperara.
 @VERSE:		
-Chi la felice pianta d’Oriente
+	Chi la felice pianta d’Oriente
 	Portò ne l’Occidente?
 	E di qual mano aventurosa è questo
 	Maraviglioso inesto?
@@ -123,8 +126,10 @@ Chi la felice pianta d’Oriente
 	Pepe nel Lauro tra le verdi foglie,
 	Ond’Amor, e Natura, &amp; Arte unite
 	Fanne amicitia, e lite.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0198
 @ID:		S166
 @TYPE:		print
@@ -132,7 +137,7 @@ Chi la felice pianta d’Oriente
 @PAGE:		Parte terza delle Rime, 101
 @PARATEXT:	Loda la Sig. Laura Peperara.
 @VERSE:		
-Chi la felice pianta d’Oriente
+	Chi la felice pianta d’Oriente
 	Portò ne l’Occidente?
 	E di qual mano aventurosa è questo
 	Maraviglioso inesto?
@@ -140,8 +145,10 @@ Chi la felice pianta d’Oriente
 	Pepe nel Lauro tra le verdi foglie,
 	Ond’Amor, e Natura, &amp; Arte unite
 	Fanne amicitia, e lite.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0198
 @ID:		S169
 @TYPE:		print
@@ -149,15 +156,15 @@ Chi la felice pianta d’Oriente
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 288
 @PARATEXT:	Scherzo per la Signora Laura Peperara.
 @VERSE:		
-Chi la felice pianta d’Oriente
+	Chi la felice pianta d’Oriente
 	Portò ne l’Occidente?
 	E di qual mano aventurosa è questo
 	Maraviglioso innesto?
-Felice chi raccoglie
+	Felice chi raccoglie
 	Pepe nel Lauro trà le verdi foglie.
 	Ond’Amor, e Natura, &amp; arte unite,
 	Fann' amicitia, e lite.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0305
 @ID:		Amz
@@ -39,11 +40,11 @@
 @PAGE:		84r
 @PARATEXT:	Sovra i baci d'una bella donna giovane.
 @VERSE:		
-Ne vostri dolci baci
-De l’api è il dolce mele,
-e v'è il morso de l’api aspro, e crudele,
-Dunque addolcito e punto
-Da voi parto in un punto.
+	Ne vostri dolci baci
+	De l’api è il dolce mele,
+	e v'è il morso de l’api aspro, e crudele,
+	Dunque addolcito e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -55,11 +56,11 @@ Da voi parto in un punto.
 @PAGE:		Parte Prima, 50
 @PARATEXT:	Madrigale
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
 <del>E vi è il morso de l’Api anco crudele.</del> ^e l'ago <del>ch'è si acuto de l'Api</del> anchor de l'Api ei par che cele^
-Dunque addolcito, e punto
-Da voi parto in un punto.	
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -93,11 +94,11 @@ Da voi parto in un punto.
 @PAGE:		52
 @PARATEXT:	
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele.
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -109,11 +110,11 @@ Da voi parto in un punto.
 @PAGE:		52
 @PARATEXT:	
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele.
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -125,11 +126,11 @@ Da voi parto in un punto.
 @PAGE:		Parte Prima, 50
 @PARATEXT:	Madrigale
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele.
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -141,11 +142,11 @@ Da voi parto in un punto.
 @PAGE:		Parte Prima, 50
 @PARATEXT:	Madrigale
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele.
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -157,11 +158,11 @@ Da voi parto in un punto.
 @PAGE:		Parte Prima, 50
 @PARATEXT:	Madrigale
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele.
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -184,11 +185,11 @@ Da voi parto in un punto.
 @PAGE:		Parte Prima, 52
 @PARATEXT:	
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele,
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele,
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -211,14 +212,16 @@ Da voi parto in un punto.
 @PAGE:		53
 @PARATEXT:	
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele.
 @VERSE:
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0305
 @ID:		S33
 @TYPE:		print
@@ -226,13 +229,15 @@ Da voi parto in un punto.
 @PAGE:		53
 @PARATEXT:	Madrigali.
 @VERSE:		
-Ne i vostri dolci baci
+	Ne i vostri dolci baci
 	de l’Api è il dolce mele,
 	E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
+	Dunque addolcito, e punto
 	Da voi parto in un punto.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0305
 @ID:		S67
 @TYPE:		print
@@ -240,12 +245,12 @@ Dunque addolcito, e punto
 @PAGE:		53
 @PARATEXT:	Madrigali.
 @VERSE:		
-Ne i vostri dolci baci
+	Ne i vostri dolci baci
 	de l’Api è il dolce mele,
 	E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
+	Dunque addolcito, e punto
 	Da voi parto in un punto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -256,13 +261,15 @@ Dunque addolcito, e punto
 @PAGE:		Parte seconda, 58v
 @PARATEXT:	BACIO RICEVUTO. / Torquato Tasso.
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è il dolce mele,
-E vi è il morso de l’Api anco crudele.
-Dunque addolcito, e punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è il dolce mele,
+	E vi è il morso de l’Api anco crudele.
+	Dunque addolcito, e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0305
 @ID:		S169
 @TYPE:		print
@@ -270,12 +277,12 @@ Da voi parto in un punto.
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 133
 @PARATEXT:	Baci dolci.
 @VERSE:		
-Ne i vostri dolci baci
+	Ne i vostri dolci baci
 	De l’Api è il dolce mele
 	E vi è il morso de l'Api anco crudele,
 	Dunque addolcito, e punto
 	Da voi parto in un punto.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -330,11 +337,11 @@ Ne i vostri dolci baci
 @PAGE:		3
 @PARATEXT:	
 @VERSE:
-Ne i vostri dolci baci
-De l’Api è ‘l dolce mele
-Et vi è ‘l morso de l’Api ancor crudele
-Dunque adolcito &amp; punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è ‘l dolce mele
+	Et vi è ‘l morso de l’Api ancor crudele
+	Dunque adolcito &amp; punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -346,11 +353,11 @@ Da voi parto in un punto.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:	
-Ne i vostri dolci baci
-De l’Api è ‘l dolce mele
-Et vi è ‘l morso de l’Api ancor crudele
-Dunque adolcito &amp; punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è ‘l dolce mele
+	Et vi è ‘l morso de l’Api ancor crudele
+	Dunque adolcito &amp; punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -362,11 +369,11 @@ Da voi parto in un punto.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:		
-Ne i vostri dolci baci
-De l’Api è ‘l dolce mele
-Et vi è ‘l morso de l’Api ancor crudele
-Dunque adolcito &amp; punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è ‘l dolce mele
+	Et vi è ‘l morso de l’Api ancor crudele
+	Dunque adolcito &amp; punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -378,11 +385,11 @@ Da voi parto in un punto.
 @PAGE:		3
 @PARATEXT:	
 @VERSE:	
-Ne i vostri dolci baci
-De l’Api è ‘l dolce mele
-Et vi è ‘l morso de l’Api ancor crudele
-Dunque adolcito &amp; punto
-Da voi parto in un punto.
+	Ne i vostri dolci baci
+	De l’Api è ‘l dolce mele
+	Et vi è ‘l morso de l’Api ancor crudele
+	Dunque adolcito &amp; punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -394,11 +401,11 @@ Da voi parto in un punto.
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-Nei vostri dolci baci
-De l’Api è’l dolce mele
-E vi è’l morso de l’Api ancor crudele
-Dunqu’addolcito e punto
-Da voi part’in un punto.
+	Nei vostri dolci baci
+	De l’Api è’l dolce mele
+	E vi è’l morso de l’Api ancor crudele
+	Dunqu’addolcito e punto
+	Da voi part’in un punto.
 @@END: VARIORUM
 
 
@@ -410,11 +417,11 @@ Da voi part’in un punto.
 @PAGE:		
 @PARATEXT:	
 @VERSE:	
-Nei vostri dolci baci
-De l’Api è’l dolce mele
-E vi è’l morso de l’Api ancor crudele
-Dunqu’addolcito e punto
-Da voi part’in un punto.
+	Nei vostri dolci baci
+	De l’Api è’l dolce mele
+	E vi è’l morso de l’Api ancor crudele
+	Dunqu’addolcito e punto
+	Da voi part’in un punto.
 @@END: VARIORUM
 
 
@@ -426,11 +433,11 @@ Da voi part’in un punto.
 @PAGE:		7
 @PARATEXT:	Di Horatio Nanterni
 @VERSE:		
-Nei vostri dolci baci
-de l’ Api è il dolce mele
-e v’è’l morso de l’ Api anco crudele
-Dunqu’adolcit’e punto
-da voi part’in un punto.
+	Nei vostri dolci baci
+	de l’ Api è il dolce mele
+	e v’è’l morso de l’ Api anco crudele
+	Dunqu’adolcit’e punto
+	da voi part’in un punto.
 @@END: VARIORUM
 
 
@@ -442,11 +449,11 @@ da voi part’in un punto.
 @PAGE:		7
 @PARATEXT:	Di Horatio Nanterni
 @VERSE:		
-Nei vostri dolci baci
-de l’ Api è il dolce mele
-e v’è’l morso de l’ Api anco crudele
-Dunqu’adolcit’e punto
-da voi part’in un punto.
+	Nei vostri dolci baci
+	de l’ Api è il dolce mele
+	e v’è’l morso de l’ Api anco crudele
+	Dunqu’adolcit’e punto
+	da voi part’in un punto.
 @@END: VARIORUM
 
 
@@ -623,11 +630,11 @@ da voi part’in un punto.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Nei vostri dolci baci
-De l’api è il dolce mele
-E v’è’l morso de l’api [TACET?]
-Dunque adolcito e punto
-da voi parto in un punto.
+	Nei vostri dolci baci
+	De l’api è il dolce mele
+	E v’è’l morso de l’api [TACET?]
+	Dunque adolcito e punto
+	da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -716,11 +723,11 @@ da voi parto in un punto.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Nei vostri dolci baci
-De l’Api è il dolce mele
-E vi è il morso de l’Api anco crudele
-Dunque addolcito e punto
-Da voi parto in un punto.
+	Nei vostri dolci baci
+	De l’Api è il dolce mele
+	E vi è il morso de l’Api anco crudele
+	Dunque addolcito e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -732,11 +739,11 @@ Da voi parto in un punto.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Nei vostri dolci baci
-De l’Api è il dolce mele
-E vi è il morso de l’Api anco crudele
-Dunque addolcito e punto
-Da voi parto in un punto.
+	Nei vostri dolci baci
+	De l’Api è il dolce mele
+	E vi è il morso de l’Api anco crudele
+	Dunque addolcito e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -748,11 +755,11 @@ Da voi parto in un punto.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Nei vostri dolci baci
-De l’Api è il dolce mele
-E vi è il morso de l’Api anco crudele
-Dunque addolcito e punto
-Da voi parto in un punto.
+	Nei vostri dolci baci
+	De l’Api è il dolce mele
+	E vi è il morso de l’Api anco crudele
+	Dunque addolcito e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -764,11 +771,11 @@ Da voi parto in un punto.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Nei vostri dolci baci
-De l’Api è il dolce mele
-E vi è il morso de l’Api anco crudele
-Dunque addolcito e punto
-Da voi parto in un punto.
+	Nei vostri dolci baci
+	De l’Api è il dolce mele
+	E vi è il morso de l’Api anco crudele
+	Dunque addolcito e punto
+	Da voi parto in un punto.
 @@END: VARIORUM
 
 
@@ -780,11 +787,11 @@ Da voi parto in un punto.
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Nei vostri dolci baci
-[TACET]
-Et v’è ’l morso de l’Api anco crudele
-Dunque adolcito e punto
-Da voi parte in un punto.
+	Nei vostri dolci baci
+	[TACET]
+	Et v’è ’l morso de l’Api anco crudele
+	Dunque adolcito e punto
+	Da voi parte in un punto.
 @@END: VARIORUM
 
 

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031061
 @ID:		A-Am
@@ -53,12 +54,12 @@
 @PAGE:		32r
 @PARATEXT:	
 @VERSE:		
-.T[IRSI]. Bisogna à maggior uopo ardir più grande
-.A[MINTA]. Andrò per mezzo i rapidi torrenti
-Quando la neve si discioglie e gonfi
-Gli manda al mare. andrò per mezzo il foco
-E nell'inferno quand’ella vi sia
-S’esser puo inferno ov’è cosa si bella.			
+	.T[IRSI]. Bisogna à maggior uopo ardir più grande
+	.A[MINTA]. Andrò per mezzo i rapidi torrenti
+	Quando la neve si discioglie e gonfi
+	Gli manda al mare. andrò per mezzo il foco
+	E nell'inferno quand’ella vi sia
+	S’esser puo inferno ov’è cosa si bella.
 @@END: VARIORUM
 
 
@@ -84,7 +85,9 @@ S’esser puo inferno ov’è cosa si bella.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031061
 @ID:		A-1580D
 @TYPE:		print
@@ -92,13 +95,13 @@ S’esser puo inferno ov’è cosa si bella.
 @PAGE:		27r
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	Bisogna à minor vopo ardir più grande.
-A.	Andrò per mezo i rapidi torrenti,
+	T.	Bisogna à minor vopo ardir più grande.
+	A.	Andrò per mezo i rapidi torrenti,
 	Quando la neve si discioglie, e gonfi
 	Gli manda al mare, andrò per mezo al foco,
 	E nell'Inferno, quando ella vi sia,
 	S’esser può Inferno, ov’è cosa si bella.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -121,12 +124,12 @@ A.	Andrò per mezo i rapidi torrenti,
 @PAGE:		51
 @PARATEXT:	
 @VERSE:		
-Tir. Bisogna à maggior prova ardir più grande.
-Am. Andrò per mezo i rapidi torrenti,
-Quando la neve si discioglie, e gonfi
-Li manda al mare: andrò per mezo'l foco,
-E ne l'Inferno, quand’ella vi sia,
-S’esser puo Inferno, ov’è cosa si bella.	
+	Tir. Bisogna à maggior prova ardir più grande.
+	Am. Andrò per mezo i rapidi torrenti,
+	Quando la neve si discioglie, e gonfi
+	Li manda al mare: andrò per mezo'l foco,
+	E ne l'Inferno, quand’ella vi sia,
+	S’esser puo Inferno, ov’è cosa si bella.
 @@END: VARIORUM
 
 
@@ -152,7 +155,9 @@ S’esser puo Inferno, ov’è cosa si bella.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031061
 @ID:		A-1581O
 @TYPE:		print
@@ -160,13 +165,13 @@ S’esser puo Inferno, ov’è cosa si bella.
 @PAGE:		51
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-TIR.	Bisogna à maggior prova ardir più grande.
-AM.	Andrò per mezo i rapidi torrènti,
+	TIR.	Bisogna à maggior prova ardir più grande.
+	AM.	Andrò per mezo i rapidi torrènti,
 	Quando la neve si discioglie, e gonfi
 	Li manda al mare: andrò per mezo'l foco,
 	E nell'inferno, quand’ella vi sia,
 	S’esser può inferno, ov’è cosa si bella.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -777,12 +782,12 @@ AM.	Andrò per mezo i rapidi torrènti,
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-[TACET]
-AMINTA Andrò per mez’i rapidi torrrenti
-Quando la neve si discioglie e gonfi
-Li mand’al mare andrò per mez’il foco
-E ne l’inferno quand’ella vi sia
-S’esser puo infern’ov’è cosa sì bella.	
+	[TACET]
+	AMINTA Andrò per mez’i rapidi torrrenti
+	Quando la neve si discioglie e gonfi
+	Li mand’al mare andrò per mez’il foco
+	E ne l’inferno quand’ella vi sia
+	S’esser puo infern’ov’è cosa sì bella.
 @@END: VARIORUM
 
 
@@ -791,15 +796,15 @@ S’esser puo infern’ov’è cosa sì bella.
 @ID:		Tam2031061a-Alto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:	4	
+@PAGE:	4
 @PARATEXT:	
 @VERSE:		
-TIRSI Bisogn’a maggior prove ardir più grande
-AMINTA Andrò per mez’i rapidi torrenti
-Quando la neve si discioglie e gonfi
-Li mand’al mare [TACET]
-[TACET] quand’ella vi sia
-S’esser puo infern’ov’è cosa sì bella.	
+	TIRSI Bisogn’a maggior prove ardir più grande
+	AMINTA Andrò per mez’i rapidi torrenti
+	Quando la neve si discioglie e gonfi
+	Li mand’al mare [TACET]
+	[TACET] quand’ella vi sia
+	S’esser puo infern’ov’è cosa sì bella.
 @@END: VARIORUM
 
 
@@ -811,12 +816,12 @@ S’esser puo infern’ov’è cosa sì bella.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-[TACET]
-AMINTA Andrò per mez’i rapidi torrenti
-Quando la neve si discioglie e gonfi
-Li manda al mare andrò per mez’il foco
-E ne l’inferno quand’ella vi sia
-S’esser puo infern’ov’è cosa sì bella.	
+	[TACET]
+	AMINTA Andrò per mez’i rapidi torrenti
+	Quando la neve si discioglie e gonfi
+	Li manda al mare andrò per mez’il foco
+	E ne l’inferno quand’ella vi sia
+	S’esser puo infern’ov’è cosa sì bella.
 @@END: VARIORUM
 
 
@@ -828,12 +833,12 @@ S’esser puo infern’ov’è cosa sì bella.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-[TACET]
-AMINTA Andrò per mez’i rapidi torrrenti
-Quando la neve si discioglie e gonfi
-Li mand’al mare andrò per mez’il foco
-E ne l’inferno quand’ella vi sia
-S’esser puo infern’ov’è cosa sì bella.	
+	[TACET]
+	AMINTA Andrò per mez’i rapidi torrrenti
+	Quando la neve si discioglie e gonfi
+	Li mand’al mare andrò per mez’il foco
+	E ne l’inferno quand’ella vi sia
+	S’esser puo infern’ov’è cosa sì bella.
 @@END: VARIORUM
 
 
@@ -845,12 +850,12 @@ S’esser puo infern’ov’è cosa sì bella.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-TIRSI Bisogn’a maggior prov’ardir più grande
-AMINTA Andrò per mez’i rapidi torrenti
-Quando la neve si discioglie e gonfi
-Li mand’al mare [TACET]
-[TACET] quand’ella vi sia
-S’esser puo infern’ov’è cosa sì bella.
+	TIRSI Bisogn’a maggior prov’ardir più grande
+	AMINTA Andrò per mez’i rapidi torrenti
+	Quando la neve si discioglie e gonfi
+	Li mand’al mare [TACET]
+	[TACET] quand’ella vi sia
+	S’esser puo infern’ov’è cosa sì bella.
 @@END: VARIORUM
 
 
@@ -862,12 +867,12 @@ S’esser puo infern’ov’è cosa sì bella.
 @PAGE:		4
 @PARATEXT:	
 @VERSE:		
-TIRSI Bisogn’a maggior prove ardir più grande
-AMINTA Andrò per mez’i rapidi torrenti
-Quando la neve si discioglie e gonfi
-Li mand’al mare [TACET]
-[TACET] quand’ella vi sia
-S’esser puo infern’ov’è cosa sì bella.		
+	TIRSI Bisogn’a maggior prove ardir più grande
+	AMINTA Andrò per mez’i rapidi torrenti
+	Quando la neve si discioglie e gonfi
+	Li mand’al mare [TACET]
+	[TACET] quand’ella vi sia
+	S’esser puo infern’ov’è cosa sì bella.
 @@END: VARIORUM
 
 

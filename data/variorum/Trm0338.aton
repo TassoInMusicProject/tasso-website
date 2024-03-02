@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0338
 @ID:		E1
@@ -73,7 +74,9 @@
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0338
 @ID:		S35
 @TYPE:		print
@@ -81,7 +84,7 @@
 @PAGE:		10r
 @PARATEXT:
 @VERSE:		
-ALMA cortese, e bella,
+	ALMA cortese, e bella,
 	Deh non voler, ch’io moia
 	Di temenza, e di noia;
 	Liber ail corpo, e fà l’anima ancella;
@@ -89,8 +92,10 @@ ALMA cortese, e bella,
 	Altrui mi dona, ò lassa;
 	Che trà pastori forse, ò trà bifolci
 	Havrò l’hore più dolci.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0338
 @ID:		S69
 @TYPE:		print
@@ -98,7 +103,7 @@ ALMA cortese, e bella,
 @PAGE:		10r
 @PARATEXT:
 @VERSE:		
-ALMA cortese, e bella,
+	ALMA cortese, e bella,
 	Deh non voler, ch’io moia
 	Di temenza, e di noia;
 	Liber ail corpo, e fà l’anima ancella;
@@ -106,8 +111,10 @@ ALMA cortese, e bella,
 	Altrui mi dona, ò lassa;
 	Che trà pastori forse, ò trà bifolci
 	Havrò l’hore più dolci.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0338
 @ID:		S141
 @TYPE:		print
@@ -115,7 +122,7 @@ ALMA cortese, e bella,
 @PAGE:		Parte seconda delle Rime, 176
 @PARATEXT:	Priega la Donna sua a non voler desiderare la sua morte:	&amp; disdegnando d’essere da lui amata, lo lasci esser servo d’altra.
 @VERSE:		
-Alma cortese, e bella,
+	Alma cortese, e bella,
 	Deh non voler, ch’io moia
 	Di temenza, e di noia;
 	Libera il corpo, e fà l’anima ancella;
@@ -124,8 +131,10 @@ Alma cortese, e bella,
 	Che trà pastori forse, ò trà bifolci
 	Havrò l’hore più dolci.
 @PARATEXT:
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0338
 @ID:		S166
 @TYPE:		print
@@ -133,7 +142,7 @@ Alma cortese, e bella,
 @PAGE:		Parte seconda delle Rime, 176
 @PARATEXT:	Priega la Donna sua a non voler desiderare la sua morte:	&amp; disdegnando d’essere da lui amata, lo lasci esser servo d’altra.
 @VERSE:		
-Alma cortese, e bella,
+	Alma cortese, e bella,
 	Deh non voler, ch’io moia
 	Di temenza, e di noia;
 	Libera il corpo, e fà l’anima ancella;
@@ -142,8 +151,10 @@ Alma cortese, e bella,
 	Che trà pastori forse, ò trà bifolci
 	Havrò l’hore più dolci.
 @PARATEXT:
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0338
 @ID:		S169
 @TYPE:		print
@@ -151,15 +162,15 @@ Alma cortese, e bella,
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 64
 @PARATEXT:	Bramato favore.
 @VERSE:		
-Alma cortese, e bella,
-Deh non voler ch’io moia
-Di temenza, e di noia;
-Libera il corpo, e fa l’anima ancella;
-E se disdegni signoria si bassa
-Altrui non mi dona, o lassa;
-Che tra pastori forse, o tra bifolci.
-Havrò l’hore più dolci.
-@@END:		VARIORUM
+	Alma cortese, e bella,
+	Deh non voler ch’io moia
+	Di temenza, e di noia;
+	Libera il corpo, e fa l’anima ancella;
+	E se disdegni signoria si bassa
+	Altrui non mi dona, o lassa;
+	Che tra pastori forse, o tra bifolci.
+	Havrò l’hore più dolci.
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -170,14 +181,14 @@ Havrò l’hore più dolci.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Alma cortese &amp; bella
-Deh non voler ch’io moia
-Di temenza et di noia
-Libera il corpo et fa l’anima ancella
-Et se disdegn’o signorìa si bassa
-Altrui mi dona o lassa
-Che tra pastori fors’& tra bifolci
-Havro l’hore piu dolci.
+	Alma cortese &amp; bella
+	Deh non voler ch’io moia
+	Di temenza et di noia
+	Libera il corpo et fa l’anima ancella
+	Et se disdegn’o signorìa si bassa
+	Altrui mi dona o lassa
+	Che tra pastori fors’& tra bifolci
+	Havro l’hore piu dolci.
 @@END: VARIORUM
 
 
@@ -189,14 +200,14 @@ Havro l’hore piu dolci.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Alma cortese &amp; bella
-Deh non voler ch’io moia
-Di temenza et di noia
-Libera il corpo et fa l’anima ancella
-Et se disdegn’o signorìa si bassa
-Altrui mi dona o lassa
-Che tra pastori fors’& tra bifolci
-Havro l’hore piu dolci.
+	Alma cortese &amp; bella
+	Deh non voler ch’io moia
+	Di temenza et di noia
+	Libera il corpo et fa l’anima ancella
+	Et se disdegn’o signorìa si bassa
+	Altrui mi dona o lassa
+	Che tra pastori fors’& tra bifolci
+	Havro l’hore piu dolci.
 @@END: VARIORUM
 
 
@@ -208,14 +219,14 @@ Havro l’hore piu dolci.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Alma cortese &amp; bella
-Deh non voler ch’io moia
-Di temenza et di noia
-Libera il corpo et fa l’anima ancella
-Et se disdegn’o signorìa si bassa
-Altrui mi dona o lassa
-Che tra pastori fors’& tra bifolci
-Havro l’hore piu dolci.
+	Alma cortese &amp; bella
+	Deh non voler ch’io moia
+	Di temenza et di noia
+	Libera il corpo et fa l’anima ancella
+	Et se disdegn’o signorìa si bassa
+	Altrui mi dona o lassa
+	Che tra pastori fors’& tra bifolci
+	Havro l’hore piu dolci.
 @@END: VARIORUM
 
 
@@ -227,14 +238,14 @@ Havro l’hore piu dolci.
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Alma cortese &amp; bella
-Deh non voler ch’io moia
-Di temenza &amp; di noia
-Libera il corpo et fa l’anima ancella
-Et se disdegn’o signorìa si bassa
-Altrui mi dona o lassa
-Che tra pastori fors’& tra bifolci
-Havro l’hore piu dolci.
+	Alma cortese &amp; bella
+	Deh non voler ch’io moia
+	Di temenza &amp; di noia
+	Libera il corpo et fa l’anima ancella
+	Et se disdegn’o signorìa si bassa
+	Altrui mi dona o lassa
+	Che tra pastori fors’& tra bifolci
+	Havro l’hore piu dolci.
 @@END: VARIORUM
 
 

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0202
 @ID:		Ts2
@@ -17,17 +18,17 @@
 @PAGE:		4v
 @PARATEXT:	
 @VERSE:	
-Picciola verga, e bella
-D’Alloro trionfale
-Cresci <del>a la pianta, onde sei svelta,</del> ^[illegible] pianta^ eguale.
+	Picciola verga, e bella
+	D’Alloro trionfale
+	Cresci <del>a la pianta, onde sei svelta,</del> ^[illegible] pianta^ eguale.
 @VERSE:
-Cresci felice; e s’ella
-Secca non si rinverde
-Tu mantien vivo frondeggiando il verde.
+	Cresci felice; e s’ella
+	Secca non si rinverde
+	Tu mantien vivo frondeggiando il verde.
 @VERSE:
 <del>Fra sua</del> ^Fra la^ chioma novella
 <del></del> L'aura con dolci errori
-<del>L’aure </del> ^scherzi^ mai sempre, e i pargoletti Amori.	
+<del>L’aure </del> ^scherzi^ mai sempre, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -50,17 +51,17 @@ Tu mantien vivo frondeggiando il verde.
 @PAGE:		4v
 @PARATEXT:	
 @VERSE:	
-Picciola verga, e bella
-D’Alloro trionfale
-Cresci a la pianta, onde sei svelta, eguale.
+	Picciola verga, e bella
+	D’Alloro trionfale
+	Cresci a la pianta, onde sei svelta, eguale.
 @VERSE:
-Cresci felice; e s’ella
-Secca non si rinverde
-Tu mantien vivo frondeggiando il verde.
+	Cresci felice; e s’ella
+	Secca non si rinverde
+	Tu mantien vivo frondeggiando il verde.
 @VERSE:
-Fra sua chioma novella
-Scherzin con dolci errori
-L’aure mai sempre, e i pargoletti Amori.
+	Fra sua chioma novella
+	Scherzin con dolci errori
+	L’aure mai sempre, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -72,17 +73,17 @@ L’aure mai sempre, e i pargoletti Amori.
 @PAGE:		4v
 @PARATEXT:	
 @VERSE:	
-Picciola verga, e bella
-D’Alloro trionfale
-Cresci a la pianta, onde sei svelta, eguale.
+	Picciola verga, e bella
+	D’Alloro trionfale
+	Cresci a la pianta, onde sei svelta, eguale.
 @VERSE:
-Cresci felice; e s’ella
-Secca non si rinverde
-Tu mantien vivo frondeggiando il verde.
+	Cresci felice; e s’ella
+	Secca non si rinverde
+	Tu mantien vivo frondeggiando il verde.
 @VERSE:
-Fra sua chioma novella
-Scherzin con dolci errori
-L’aure mai sempre, e i pargoletti Amori.
+	Fra sua chioma novella
+	Scherzin con dolci errori
+	L’aure mai sempre, e i pargoletti Amori.
 @@END: VARIORUM
 
 
@@ -106,7 +107,9 @@ L’aure mai sempre, e i pargoletti Amori.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0202
 @ID:		S35
 @TYPE:		print
@@ -114,17 +117,19 @@ L’aure mai sempre, e i pargoletti Amori.
 @PAGE:		4v
 @PARATEXT:
 @VERSE:		
-Picciola verga, e bella
+	Picciola verga, e bella
 	D’Alloro trïonfale
 	Cresci, à la pianta, onde sei svelta eguale
-Cresci felice; e s’ella
+	Cresci felice; e s’ella
 	Secca non si rinverde,
 	Tu mantien vivo frondeggiando il verde.
-Frà la chioma novella
+	Frà la chioma novella
 	Scherzin con dolci errori
 	L’aure mai sempre, e i pargoletti Amori.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0202
 @ID:		S69
 @TYPE:		print
@@ -132,17 +137,19 @@ Frà la chioma novella
 @PAGE:		4v
 @PARATEXT:
 @VERSE:		
-Picciola verga, e bella
+	Picciola verga, e bella
 	D’Alloro trïonfale
 	Cresci, à la pianta, onde sei svelta eguale
-Cresci felice; e s’ella
+	Cresci felice; e s’ella
 	Secca non si rinverde,
 	Tu mantien vivo frondeggiando il verde.
-Frà la chioma novella
+	Frà la chioma novella
 	Scherzin con dolci errori
 	L’aure mai sempre, e i pargoletti Amori.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0202
 @ID:		S141
 @TYPE:		print
@@ -150,17 +157,19 @@ Frà la chioma novella
 @PAGE:		Parte seconda delle Rime, 173
 @PARATEXT:
 @VERSE:		
-Picciola verga, e bella
+	Picciola verga, e bella
 	D’alloro trionfale
 	Cresci à la pianta, onde sei svelta eguale
-Cresci felice; e s’ella
+	Cresci felice; e s’ella
 	Secca non si rinverde,
 	Tu mantien vivo frondeggiando il verde.
-Frà sua chioma novella
+	Frà sua chioma novella
 	Scherzin con dolci errori
 	L’aure mai sempre e i pargoletti Amori.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0202
 @ID:		S166
 @TYPE:		print
@@ -168,17 +177,19 @@ Frà sua chioma novella
 @PAGE:		Parte seconda delle Rime, 173
 @PARATEXT:
 @VERSE:		
-Picciola verga, e bella
+	Picciola verga, e bella
 	D’alloro trionfale
 	Cresci à la pianta, onde sei svelta eguale
-Cresci felice; e s’ella
+	Cresci felice; e s’ella
 	Secca non si rinverde,
 	Tu mantien vivo frondeggiando il verde.
-Frà sua chioma novella
+	Frà sua chioma novella
 	Scherzin con dolci errori
 	L’aure mai sempre e i pargoletti Amori.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0202
 @ID:		S169
 @TYPE:		print
@@ -186,7 +197,7 @@ Frà sua chioma novella
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 51
 @PARATEXT:	Pargoletta di Laura.
 @VERSE:		
-Picciola verga, e bella
+	Picciola verga, e bella
 	D’alloro trïonfale,
 	Cresci a la pianta, onde sei svelta eguale.
 	Cresci felice, e s’ella
@@ -195,7 +206,7 @@ Picciola verga, e bella
 	Fra la chioma novella,
 	Scherzin con dolci errori,
 	L'aure mai sempre, e i pargoletti Amori.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -206,15 +217,15 @@ Picciola verga, e bella
 @PAGE:		21
 @PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
-Picciola verga, e bella,
+	Picciola verga, e bella,
 	D'Alloro trionfale,
 	Cresci à la pianta, onde sei svelta eguale,
 	Cresci felice, e s'ella
 	Secca non si rinverde,
 	Tù mantien vivo frondeggiando il verde.
 	Fra tua chioma novella
-  	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti amori.
+	Scherzin con dolci errori,
+	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -226,15 +237,15 @@ Picciola verga, e bella,
 @PAGE:		21
 @PARATEXT:	Sopre il Lauro Secco.
 @VERSE:		
-Picciola verga, e bella,
+	Picciola verga, e bella,
 	D'Alloro trionfale,
 	Cresci à la pianta, [TACET]
 	Cresci felice, e s'ella
 	Secca non si rinverde,
 	Tù mantien vivo frondeggiando il verde.
 	[TACET]
-  	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti amori.
+	Scherzin con dolci errori,
+	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -246,15 +257,15 @@ Picciola verga, e bella,
 @PAGE:		21
 @PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
-Picciola verga, e bella,
+	Picciola verga, e bella,
 	D'Alloro trionfale,
 	Cresci à la pianta, onde sei svelta eguale.
 	Cresci felice, e s'ella
 	Secca non si rinverde,
 	Tù mantien vivo frondeggiando il verde.
 	Fra tua chioma novella
-  	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti amori.
+	Scherzin con dolci errori,
+	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -266,15 +277,15 @@ Picciola verga, e bella,
 @PAGE:		21
 @PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
-Picciola verga, e bella,
+	Picciola verga, e bella,
 	D'Alloro trionfale,
 	Cresci à la pianta, onde sei svelta eguale.
 	Cresci felice, e s'ella
 	Secca non si rinverde,
 	Tù mantien vivo frondeggiando il verde.
 	[TACET]
-  	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti amori.
+	Scherzin con dolci errori,
+	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -286,15 +297,15 @@ Picciola verga, e bella,
 @PAGE:		21
 @PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
-Picciola verga, e bella,
+	Picciola verga, e bella,
 	D'Alloro trionfale,
 	Cresci à la pianta, [TACET].
 	Cresci felice, e s'ella
 	Secca non si rinverde,
 	Tù mantien vivo frondeggiando il verde.
 	[TACET]
-  	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti amori.
+	Scherzin con dolci errori,
+	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 
@@ -306,15 +317,15 @@ Picciola verga, e bella,
 @PAGE:		21
 @PARATEXT:	Sopra il Lauro Secco.
 @VERSE:		
-Picciola verga, e bella,
+	Picciola verga, e bella,
 	D'Alloro trionfale,
 	Cresci à la pianta onde sei svelta eguale.
 	Cresci felice, e s'ella
 	Secca non si rinverde,
 	Tù mantien vivo frondeggiando il verde.
 	[TACET]
-  	Scherzin con dolci errori,
-  	L'aure mai sempre ei pargoletti amori.
+	Scherzin con dolci errori,
+	L'aure mai sempre ei pargoletti amori.
 @@END: VARIORUM
 
 

@@ -9,12 +9,13 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0592
 @ID:		Amz
 @TYPE:		manuscript
 @SMSIGLUM:	Amz
-@PAGE:		43	
+@PAGE:		43
 @PARATEXT:	[The entire poem is deleted with a diagonal strikethrough]
 @VERSE:	
 	{Ne gli anni acerbi tuoi purpurea} rosa
@@ -280,7 +281,7 @@
 @ID:		S8
 @TYPE:		print
 @SPRINT:	
-@PAGE:		43	
+@PAGE:		43
 @PARATEXT:	
 @VERSE:	
 	{Ne gli anni acerbi tuoi purpurea} rosa
@@ -526,7 +527,8 @@
 	Via più, che nel mattine {luce}, e fiammeggia.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0592
 @ID:		S33
 @TYPE:		print
@@ -551,9 +553,10 @@
 	{Cosi più vago il fior poi che le} foglie
 	{Spiega odorate}, e ’l Sol nel mezo giorno
 	Via più, che nel mattin, {luce}, e fiammeggia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0592
 @ID:		S67
 @TYPE:		print
@@ -578,7 +581,7 @@
 	{Cosi più vago il fior poi che le} foglie
 	{Spiega odorate}, e ’l Sol nel mezo giorno
 	Via più, che nel mattin, {luce}, e fiammeggia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -664,7 +667,8 @@
 	Via più, che nel mattino, {arde}, e fiammeggia.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0592
 @ID:		S141
 @TYPE:		print
@@ -689,9 +693,10 @@
 	{Cosi è più vago il fior, poi che le} foglie
 	{Spiega odorate}, e ’l Sol nel mezo giorno
 	Via più, che nel mattino, {luce}, e fiammeggia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0592
 @ID:		S166
 @TYPE:		print
@@ -716,9 +721,10 @@
 	{Cosi è più vago il fior, poi che le} foglie
 	{Spiega odorate}, e ’l Sol nel mezo giorno
 	Via più, che nel mattino, {luce}, e fiammeggia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0592
 @ID:		S169
 @TYPE:		print
@@ -743,7 +749,7 @@
 	{Così è più vago il fior, poi che le} foglie
 	{Spiega odorate}, e ’l Sol nel mezo giorno,
 	Via più, che nel matin, {luce}, e fiammeggia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

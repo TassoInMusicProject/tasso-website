@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0277
 @ID:		E2
@@ -17,19 +18,19 @@
 @PAGE:		[100]v
 @PARATEXT:	stamp[at]o
 @VERSE:		
-perché la mia Diana anzi il mio Sole
-Anzi la vita mia,
-Talhor si mostri amorosetta, e pia
-e de l’humil sampogna ascolti il suono;
-Non scende à me se miro i dolci raggi
-tutte le sembianze, e le sue forme,
-se ricerco de l’orme,
-se misuro i suoi passi, e i  suoi viaggi :
-Ne mai candida luna, od altro dono
+	perché la mia Diana anzi il mio Sole
+	Anzi la vita mia,
+	Talhor si mostri amorosetta, e pia
+	e de l’humil sampogna ascolti il suono;
+	Non scende à me se miro i dolci raggi
+	tutte le sembianze, e le sue forme,
+	se ricerco de l’orme,
+	se misuro i suoi passi, e i  suoi viaggi :
+	Ne mai candida luna, od altro dono
 <del>d’huom che sospiri, ed ami</del> <del>di chi</del> di tal, che preghi, et ami :
-Ne di serici stami
-La moverebbe <del>vivereb</del> ^la viverebbe anch’or^ anchor vago tesoro,
-Né pur’il vello d’oro.
+	Ne di serici stami
+	La moverebbe <del>vivereb</del> ^la viverebbe anch’or^ anchor vago tesoro,
+	Né pur’il vello d’oro.
 @@END: VARIORUM
 
 
@@ -41,7 +42,7 @@ Né pur’il vello d’oro.
 @PAGE:		34
 @PARATEXT:	[CACCIA AMOROSA]
 @VERSE:		
-PERCHE la mia DIANA, anzi’l mio sole,
+	PERCHE la mia DIANA, anzi’l mio sole,
 	Anzi la vita mia
 	Talhor si mostr'amorosetta e pia:
 	E de l’humil sampogna ascolt'il suono,
@@ -65,7 +66,7 @@ PERCHE la mia DIANA, anzi’l mio sole,
 @PAGE:		70
 @PARATEXT:	
 @VERSE:		
-Poiche la mia Diana, anzi ’l mio sole,
+	Poiche la mia Diana, anzi ’l mio sole,
 	Anzi la vita mia,
 	Talhor si mostri amorosetta, e pia,
 	E de l’humil sampogna ascolti il suono,
@@ -89,7 +90,7 @@ Poiche la mia Diana, anzi ’l mio sole,
 @PAGE:		44-45
 @PARATEXT:	NELL'AMOROSA CACCIA.
 @VERSE:	
-Perche la mia Diana, anzi il mio sole,
+	Perche la mia Diana, anzi il mio sole,
 	Anzi la vita mia,
 	Talhor si mostri amorosetta, e pia,
 	E de l’humil Sampogna ascolti il suono;
@@ -103,7 +104,9 @@ Perche la mia Diana, anzi il mio sole,
 	La moverebbe ancor vago lavoro,
 	Non pur il vello d’oro.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0277
 @ID:		S169
 @TYPE:		print
@@ -111,7 +114,7 @@ Perche la mia Diana, anzi il mio sole,
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 13
 @PARATEXT:	Gran costanza di Ninfa.
 @VERSE:		
-Perche la mia Diana anzi il mio Sole,
+	Perche la mia Diana anzi il mio Sole,
 	Anzi la vita mia,
 	Tal' hor si mostri amorosetta, e pia.
 	E de l’humil sampogna ascolti il suono
@@ -124,7 +127,7 @@ Perche la mia Diana anzi il mio Sole,
 	Ne de i serici stami
 	La moverebbe ancor vago lavoro
 	Ne pur il vello d’oro.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -135,7 +138,7 @@ Perche la mia Diana anzi il mio Sole,
 @PAGE:		14-15
 @PARATEXT:	Paolo Cantino [text underlay from 1592 reprint]
 @VERSE:	
-Perche la mia Diana, anzi il mio sole
+	Perche la mia Diana, anzi il mio sole
 	Anzi la vita mia
 	Tal'hor si mostr'amorosetta e pia
 	E de l’humil Sampogn'ascolti il suono
@@ -159,7 +162,7 @@ Perche la mia Diana, anzi il mio sole
 @PAGE:		9-10
 @PARATEXT:	Paolo Cantino
 @VERSE:		
-Perche la mia Diana anzi il mio sole
+	Perche la mia Diana anzi il mio sole
 	Anzi la vita mia,
 	Tal'hor si mostr'amorosetta e pia,
 	E de l’humil Sampogn'ascolti il suono,
@@ -183,7 +186,7 @@ Perche la mia Diana anzi il mio sole
 @PAGE:		9-10
 @PARATEXT:	Paolo Cantino
 @VERSE:	
-Perche la mia Diana anzi il mio sole,
+	Perche la mia Diana anzi il mio sole,
 	Anzi la vita mia,
 	[TACET]
 	E de l’humil Sampogn'ascolti il suono,
@@ -207,7 +210,7 @@ Perche la mia Diana anzi il mio sole,
 @PAGE:		14-15
 @PARATEXT:	Paolo Cantino [text underlay from 1592 reprint]
 @VERSE:		
-[TACET]
+	[TACET]
 	Anzi la vita mia
 	[TACET]
 	E de l’humil Sampogn'ascolti il suono
@@ -229,9 +232,9 @@ Perche la mia Diana anzi il mio sole,
 @TYPE:		music
 @COMPOSER:	Cantino, Paolo
 @PAGE:		9-10
-@PARATEXT: Paolo Cantino	
+@PARATEXT: Paolo Cantino
 @VERSE:	
-[TACET]
+	[TACET]
 	Anzi la vita mia,
 	Tal'hor si mostr'amorosetta e pia,
 	E de l’humil Sampogn'ascolti il suono,

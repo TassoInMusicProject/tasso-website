@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tri5016
 @ID:		R-1562S
@@ -17,7 +18,7 @@
 @PAGE:		23v
 @PARATEXT:	
 @VERSE:		
-Lasso (dicea) perche venisti Amore,
+	Lasso (dicea) perche venisti Amore,
 	Amor d'ogni mio bene invidioso,
 	Con le tue fiame a penetrarmi il core
 	A turbar la mia pace, e'l mio riposo?
@@ -66,10 +67,10 @@ Lasso (dicea) perche venisti Amore,
 @ID:		R-1582M
 @TYPE:		print
 @SPRINT:	R-1582M
-@PAGE:	33	
+@PAGE:	33
 @PARATEXT:	
 @VERSE:	
-Lasso (dicea) perche venisti Amore,
+	Lasso (dicea) perche venisti Amore,
 	Amor d'ogni mio bene invidioso,
 	Con le tue fiamme à penetrarmi il core
 	A turbar la mia pace, e'l mio riposo?
@@ -176,7 +177,7 @@ Lasso (dicea) perche venisti Amore,
 @PAGE:		37
 @PARATEXT:	16
 @VERSE:		
-Lasso (dicea) perche venisti Amore.
+	Lasso (dicea) perche venisti Amore.
 	Amor d'ogni mio bene invidioso,
 	Con le tue fiamme à penetrarmi il core,
 	A turbar la mia pace, e'l mio riposo?
@@ -250,7 +251,7 @@ Lasso (dicea) perche venisti Amore.
 @PAGE:		9
 @PARATEXT:	
 @VERSE:		
-Lasso dicea perche venisti Amore
+	Lasso dicea perche venisti Amore
 	Amor d'ogni mio ben invidioso
 	Con le tue fiamme a penetrarmi il core
 	A turbar la mia pace e'l mio riposo
@@ -269,7 +270,7 @@ Lasso dicea perche venisti Amore
 @PAGE:		9
 @PARATEXT:	
 @VERSE:		
-Lasso dicea perche venisti Amore
+	Lasso dicea perche venisti Amore
 	Amor d'ogni mio ben invidioso
 	Con le tue fiamme a penetrarmi il core
 	A turbar la mia pace e'l mio riposo
@@ -288,7 +289,7 @@ Lasso dicea perche venisti Amore
 @PAGE:		9
 @PARATEXT:	
 @VERSE:	
-Lasso dicea perche venisti Amore
+	Lasso dicea perche venisti Amore
 	Amor d'ogni mio ben invidioso
 	Con le tue fiamme a penetrarmi il core
 	A turbar la mia pace e'l mio riposo

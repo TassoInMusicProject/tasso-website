@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031133
 @ID:		A-Am
@@ -53,13 +54,13 @@
 @PAGE:		34r
 @PARATEXT:	CASA MINUTOLI TEGRIMI
 @VERSE:		
-[TIRSI] Tu taci? Tu sei vinto hora confessa
-Questa perdita tua che sia cagione
-Di vittoria maggiore andianne .A[MINTA]. Aspetta
-.T[IRSI]. Che aspetta non sai ben che’l tempo fugge?
-.A[MINTA]. Deh pensiam pria se ciò de farsi e come
-.T[IRSI]. Per strada pensarem cio che vi resta
-Ma nulla fa chi troppe cose pensa.		
+	[TIRSI] Tu taci? Tu sei vinto hora confessa
+	Questa perdita tua che sia cagione
+	Di vittoria maggiore andianne .A[MINTA]. Aspetta
+	.T[IRSI]. Che aspetta non sai ben che’l tempo fugge?
+	.A[MINTA]. Deh pensiam pria se ciò de farsi e come
+	.T[IRSI]. Per strada pensarem cio che vi resta
+	Ma nulla fa chi troppe cose pensa.
 @@END: VARIORUM
 
 
@@ -85,7 +86,9 @@ Ma nulla fa chi troppe cose pensa.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031133
 @ID:		A-1580D
 @TYPE:		print
@@ -93,14 +96,14 @@ Ma nulla fa chi troppe cose pensa.
 @PAGE:		28r
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	Tu taci? Tu sei vinto. Hora confessa
+	T.	Tu taci? Tu sei vinto. Hora confessa
 	Questa perdita tua, che fia cagione
 	Di vittoria maggiore. Andiamo. A. Aspetta.
-T.	Ch’ aspetta? Non sai ben, che’l tempo fugge?
-A.	Deh pensiam pria, se ciò dee farsi, e come.
-T.	Per strada pensarem ciò, che vi resta;
+	T.	Ch’ aspetta? Non sai ben, che’l tempo fugge?
+	A.	Deh pensiam pria, se ciò dee farsi, e come.
+	T.	Per strada pensarem ciò, che vi resta;
 	Mà nulla fà chi troppe cose pensa.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -123,13 +126,13 @@ T.	Per strada pensarem ciò, che vi resta;
 @PAGE:		53
 @PARATEXT:	
 @VERSE:		
-Tu taci: Tu sei vinto. hora confessa
-Questa perdita tua, che fia cagione
-Di vittoria maggiore? andianne. A. Aspetta
-Tir. Che, aspetta? non sai ben, che’l tempo fugge?
-Am. Deh pensiam pria, se ciò dee farsi, e come.
-Tir. Per strada penserem ciò che vi resta,
-Ma nulla fa, chi troppe cose pensa.		
+	Tu taci: Tu sei vinto. hora confessa
+	Questa perdita tua, che fia cagione
+	Di vittoria maggiore? andianne. A. Aspetta
+	Tir. Che, aspetta? non sai ben, che’l tempo fugge?
+	Am. Deh pensiam pria, se ciò dee farsi, e come.
+	Tir. Per strada penserem ciò che vi resta,
+	Ma nulla fa, chi troppe cose pensa.
 @@END: VARIORUM
 
 
@@ -155,7 +158,9 @@ Ma nulla fa, chi troppe cose pensa.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031133
 @ID:		A-1581O
 @TYPE:		print
@@ -163,14 +168,14 @@ Ma nulla fa, chi troppe cose pensa.
 @PAGE:		54
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-TIR.	Tu taci: tu sei vinto. hora confessa
+	TIR.	Tu taci: tu sei vinto. hora confessa
 	Questa perdita tua, che fia cagione
 	Di vittoria maggiore? andianne. AM. Aspetta.
-TIR.	Che aspetta? non sai ben, che’l tempo fugge?
-AM.	Deh pensiam pria, se ciò dee farsi, e come.
-TIR.	Per strada penserem ciò che vi resta,
+	TIR.	Che aspetta? non sai ben, che’l tempo fugge?
+	AM.	Deh pensiam pria, se ciò dee farsi, e come.
+	TIR.	Per strada penserem ciò che vi resta,
 	Ma nulla fa, chi troppe cose pensa.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -781,13 +786,13 @@ TIR.	Per strada penserem ciò che vi resta,
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-TIRSI Tu taci tu sei vinto Hora confessa
-questa perdita tua che sia cagione
-Di vittoria maggiore andianne [TACET]
-che Aspetta Non sai ben che’l tempo fugge
-AMINTA Deh pensiam pria se ciò de farsi e come
-TIRSI Per strada pensarem ciò che vi resta
-Ma nulla fa chi troppe cose pensa.
+	TIRSI Tu taci tu sei vinto Hora confessa
+	questa perdita tua che sia cagione
+	Di vittoria maggiore andianne [TACET]
+	che Aspetta Non sai ben che’l tempo fugge
+	AMINTA Deh pensiam pria se ciò de farsi e come
+	TIRSI Per strada pensarem ciò che vi resta
+	Ma nulla fa chi troppe cose pensa.
 @@END: VARIORUM
 
 
@@ -796,16 +801,16 @@ Ma nulla fa chi troppe cose pensa.
 @ID:		Tam2031133a-Alto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:	16	
+@PAGE:	16
 @PARATEXT:	
 @VERSE:		
-TIRSI Tu taci. Tu sei vinto Hora confessa
-questa perdita tua che sia cagione
-Di vittoria maggiore andianne AMINTA aspetta
-TIRSI che Aspetta Non sai ben che’l tempo fugge
-AMINTA Deh pensiam pria se ciò dee fars’e come
-TIRSI Per strada pensarem ciò che vi resta
-Ma nulla fa chi troppe cose pensa.	
+	TIRSI Tu taci. Tu sei vinto Hora confessa
+	questa perdita tua che sia cagione
+	Di vittoria maggiore andianne AMINTA aspetta
+	TIRSI che Aspetta Non sai ben che’l tempo fugge
+	AMINTA Deh pensiam pria se ciò dee fars’e come
+	TIRSI Per strada pensarem ciò che vi resta
+	Ma nulla fa chi troppe cose pensa.
 @@END: VARIORUM
 
 
@@ -817,13 +822,13 @@ Ma nulla fa chi troppe cose pensa.
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-TIRSI Tu taci tu sei vinto Hora confessa
-questa perdita tua [TACET]
-[TACET] andianne AMINTA aspetta
-TIRSI che Aspetta Non sai ben che’l tempo fugge
-AMINTA Dhe pensiam pria se ciò de fars’e come	
-TIRSI Per strada pensarem ciò che vi resta
-Ma nulla fa chi troppe cose pensa.	
+	TIRSI Tu taci tu sei vinto Hora confessa
+	questa perdita tua [TACET]
+	[TACET] andianne AMINTA aspetta
+	TIRSI che Aspetta Non sai ben che’l tempo fugge
+	AMINTA Dhe pensiam pria se ciò de fars’e come
+	TIRSI Per strada pensarem ciò che vi resta
+	Ma nulla fa chi troppe cose pensa.
 @@END: VARIORUM
 
 
@@ -835,13 +840,13 @@ Ma nulla fa chi troppe cose pensa.
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-TIRSI Tu taci. Tu sei vinto Hora confessa
-questa perdita tua [TACET]
-[TACET] andianne AMINTA aspetta
-TIRSI che Aspetta Non sai ben che’l tempo fugge
-AMINTA Dhe pensiam pria se ciò de farsi e come
-TIRSI Per strada pensarem ciò che vi resta
-Ma nulla fa chi troppe cose pensa.	
+	TIRSI Tu taci. Tu sei vinto Hora confessa
+	questa perdita tua [TACET]
+	[TACET] andianne AMINTA aspetta
+	TIRSI che Aspetta Non sai ben che’l tempo fugge
+	AMINTA Dhe pensiam pria se ciò de farsi e come
+	TIRSI Per strada pensarem ciò che vi resta
+	Ma nulla fa chi troppe cose pensa.
 @@END: VARIORUM
 
 
@@ -853,13 +858,13 @@ Ma nulla fa chi troppe cose pensa.
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-TIRSI Tu taci tu sei vinto Hora confessa
-questa perdita tua che sia cagione
-Di vittoria maggiore andianne [TACET]
-che Aspetta Non sai ben che’l tempo fugge
-AMINTA Deh pensiam pria se ciò de farsi e come
-TIRSI Per strada pensarem ciò che vi resta
-Ma nulla fa chi troppe cose pensa.	
+	TIRSI Tu taci tu sei vinto Hora confessa
+	questa perdita tua che sia cagione
+	Di vittoria maggiore andianne [TACET]
+	che Aspetta Non sai ben che’l tempo fugge
+	AMINTA Deh pensiam pria se ciò de farsi e come
+	TIRSI Per strada pensarem ciò che vi resta
+	Ma nulla fa chi troppe cose pensa.
 @@END: VARIORUM
 
 
@@ -871,13 +876,13 @@ Ma nulla fa chi troppe cose pensa.
 @PAGE:		16
 @PARATEXT:	
 @VERSE:		
-TIRSI Tu taci tu sei vinto Hora confessa
-questa perdita tua [TACET]
-[TACET]andianne AMINTA aspetta
-TIRSI che Aspetta Non sai ben che’l tempo fugge
-AMINTA Dhe pensiam pria se ciò de fars’e come
-TIRSI Per strada pensarem ciò che vi resta
-Ma nulla fa chi troppe cose pensa.	
+	TIRSI Tu taci tu sei vinto Hora confessa
+	questa perdita tua [TACET]
+	[TACET]andianne AMINTA aspetta
+	TIRSI che Aspetta Non sai ben che’l tempo fugge
+	AMINTA Dhe pensiam pria se ciò de fars’e come
+	TIRSI Per strada pensarem ciò che vi resta
+	Ma nulla fa chi troppe cose pensa.
 @@END: VARIORUM
 
 

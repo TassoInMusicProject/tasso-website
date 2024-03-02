@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0302
 @ID:		E1
@@ -17,13 +18,13 @@
 @PAGE:		285
 @PARATEXT:	stampa
 @VERSE:	
-Siepe, che gl’horti vaghi
-e me da me dividi
-Si bella rosa in te già mai non vidi
-Com’è la donna mia
-Bella, amorosa, e pia;
-e mentre stendo sovra te la mano,
-La mi stringe pian piano.
+	Siepe, che gl’horti vaghi
+	e me da me dividi
+	Si bella rosa in te già mai non vidi
+	Com’è la donna mia
+	Bella, amorosa, e pia;
+	e mentre stendo sovra te la mano,
+	La mi stringe pian piano.
 @@END: VARIORUM
 
 
@@ -57,13 +58,13 @@ La mi stringe pian piano.
 @PAGE:		110
 @PARATEXT:	
 @VERSE:	
-Siepe, che gli horti vaghi,
-E me da me dividi,
-Sì bella rosa in te giamai non vidi,
-Come è la Donna mia
-Bella, amorosa, e pia:
-E mentr'io stendo sovra te la mano,
-La mi stringe pian piano.
+	Siepe, che gli horti vaghi,
+	E me da me dividi,
+	Sì bella rosa in te giamai non vidi,
+	Come è la Donna mia
+	Bella, amorosa, e pia:
+	E mentr'io stendo sovra te la mano,
+	La mi stringe pian piano.
 @@END: VARIORUM
 
 
@@ -72,16 +73,16 @@ La mi stringe pian piano.
 @ID:		S48
 @TYPE:		print
 @SPRINT:	
-@PAGE:	111-112	
+@PAGE:	111-112
 @PARATEXT:	
 @VERSE:		
-Siepe che gl’horti vaghi,
-E me da me dividi,
-Si bella rosa in te giamai non vidi,
-Com’è la donna mia,
-Bella amorosa e pia,
-E mentre stendo sopra te la mano,
-La mi stringe pian piano.
+	Siepe che gl’horti vaghi,
+	E me da me dividi,
+	Si bella rosa in te giamai non vidi,
+	Com’è la donna mia,
+	Bella amorosa e pia,
+	E mentre stendo sopra te la mano,
+	La mi stringe pian piano.
 @@END: VARIORUM
 
 
@@ -93,15 +94,17 @@ La mi stringe pian piano.
 @PAGE:		110
 @PARATEXT:	
 @VERSE:	
-Siepe, che gli horti vaghi,
-E me da me dividi,
-Si bella rosa in te giamai non vidi,
-Com'è la Donna mia
-Bella, amorosa, e pia:
-E mentr'io stendo sovra te la mano,
-La mi stringe pian piano.
+	Siepe, che gli horti vaghi,
+	E me da me dividi,
+	Si bella rosa in te giamai non vidi,
+	Com'è la Donna mia
+	Bella, amorosa, e pia:
+	E mentr'io stendo sovra te la mano,
+	La mi stringe pian piano.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0302
 @ID:		S141
 @TYPE:		print
@@ -109,15 +112,17 @@ La mi stringe pian piano.
 @PAGE:		Parte quarta delle Rime, 169
 @PARATEXT:	Si duole d’un’impedimento, o di muro, o d’altro, che non gli lasciava godere cosa alcun’altra, che la mano.
 @VERSE:		
-Siepe, che gli horti vaghi,
+	Siepe, che gli horti vaghi,
 	E me da me dividi,
 	Si bella rosa in te giammai non vidi,
 	Com’è la Donna mia
 	Bella, amorosa, e pia:
 	E mentr’io stendo sovra te la mano,
 	La mi stringe pian piano.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0302
 @ID:		S166
 @TYPE:		print
@@ -125,15 +130,17 @@ Siepe, che gli horti vaghi,
 @PAGE:		Parte quarta delle Rime, 169
 @PARATEXT:	Si duole d’un’impedimento, o di muro, o d’altro, che non gli lasciava godere cosa alcun’altra, che la mano.
 @VERSE:		
-Siepe, che gli horti vaghi,
+	Siepe, che gli horti vaghi,
 	E me da me dividi,
 	Si bella rosa in te giammai non vidi,
 	Com’è la Donna mia
 	Bella, amorosa, e pia:
 	E mentr’io stendo sovra te la mano,
 	La mi stringe pian piano.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0302
 @ID:		S169
 @TYPE:		print
@@ -141,14 +148,14 @@ Siepe, che gli horti vaghi,
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 13
 @PARATEXT:	Siepe interposta.
 @VERSE:		
-Siepe, che gli horti vaghi,
+	Siepe, che gli horti vaghi,
 	E me da me dividi,
 	Sì bella rosa in te giamai non vidi,
 	Com’è la donna mia
 	Bella amorosa, e pia:
 	E mentr’io stendo sovra tè la mano,
 	La mi stringe pian piano.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -159,13 +166,13 @@ Siepe, che gli horti vaghi,
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Siepe che gli horti vaghi
-E me da me dividi
-Si bella rosa in te giamai non vidi
-Com'è la Donna mia
-Bell'amorosa e pia
-e mentr'io stendo sovra a te la mano
-la me stringe pian piano.
+	Siepe che gli horti vaghi
+	E me da me dividi
+	Si bella rosa in te giamai non vidi
+	Com'è la Donna mia
+	Bell'amorosa e pia
+	e mentr'io stendo sovra a te la mano
+	la me stringe pian piano.
 @@END: VARIORUM
 
 
@@ -177,13 +184,13 @@ la me stringe pian piano.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Siepe che gli horti vaghi
-E me da me dividi
-Si bella rosa in te giamai non vidi
-Com'è la Donna mia
-Bell'amorosa e pia
-e mentr'io stendo sovra te la mano
-la me stringe pian piano.
+	Siepe che gli horti vaghi
+	E me da me dividi
+	Si bella rosa in te giamai non vidi
+	Com'è la Donna mia
+	Bell'amorosa e pia
+	e mentr'io stendo sovra te la mano
+	la me stringe pian piano.
 @@END: VARIORUM
 
 
@@ -195,13 +202,13 @@ la me stringe pian piano.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Siepe che gli horti vaghi
-E me da me dividi
-Si bella rosa in te giamai non vidi
-Com'è la Donna mia
-Bell'amorosa e pia
-e mentr'io stendo sovra te la mano
-la me stringe pian piano.
+	Siepe che gli horti vaghi
+	E me da me dividi
+	Si bella rosa in te giamai non vidi
+	Com'è la Donna mia
+	Bell'amorosa e pia
+	e mentr'io stendo sovra te la mano
+	la me stringe pian piano.
 @@END: VARIORUM
 
 
@@ -213,13 +220,13 @@ la me stringe pian piano.
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Siepe che gli horti vaghi
-E me da me dividi
-Si bella rosa in te giamai non vidi
-[TACET]
-Bell'amorosa e pia
-e mentr'io stendo sovra te la mano
-la me stringe pian piano.
+	Siepe che gli horti vaghi
+	E me da me dividi
+	Si bella rosa in te giamai non vidi
+	[TACET]
+	Bell'amorosa e pia
+	e mentr'io stendo sovra te la mano
+	la me stringe pian piano.
 @@END: VARIORUM
 
 
@@ -231,13 +238,13 @@ la me stringe pian piano.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:	
-Siepe che gli horti vaghi
-E me da me dividi
-Si bella rosa in te giamai non vidi
-Com'è la Donna mia
-Bell'amorosa e pia
-e mentr'io stendo sovra te la mano
-la me stringe pian piano.
+	Siepe che gli horti vaghi
+	E me da me dividi
+	Si bella rosa in te giamai non vidi
+	Com'è la Donna mia
+	Bell'amorosa e pia
+	e mentr'io stendo sovra te la mano
+	la me stringe pian piano.
 @@END: VARIORUM
 
 

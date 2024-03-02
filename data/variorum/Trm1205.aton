@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1205
 @ID:		M7
@@ -17,7 +18,7 @@
 @PAGE:		70
 @PARATEXT:	
 @VERSE:	
-Tu moristi in quel seno
+	Tu moristi in quel seno
 	Piccoletta Zanzara
 	Dov’ è si gran Fortuna il venir meno.
 @VERSE:
@@ -37,7 +38,7 @@ Tu moristi in quel seno
 @PAGE:		31
 @PARATEXT:	Invidia la morte d'una zenzara.
 @VERSE:		
-Tu moristi in quel seno,
+	Tu moristi in quel seno,
 	Piccoletta zenzara,
 	Dov’è sì gran fortuna il venir meno.
 @VERSE:
@@ -58,7 +59,7 @@ Tu moristi in quel seno,
 @PAGE:		112
 @PARATEXT:	
 @VERSE:		
-Tu moristi in quel seno
+	Tu moristi in quel seno
 	Piccoletta zenzara,
 	Dov’è si gran ortuna il venir meno.
 	Quando fin più beato,
@@ -78,7 +79,7 @@ Tu moristi in quel seno
 @PAGE:		31
 @PARATEXT:	Invidia la morte d'una zenzara.
 @VERSE:		
-Tu moristi in quel seno,
+	Tu moristi in quel seno,
 	Piccoletta zenzara,
 	Dov’è sì gran fortuna il venir meno.
 @VERSE:
@@ -87,7 +88,7 @@ Tu moristi in quel seno,
 	Fù mai concesso da benigno fato?
 @VERSE:
 	Felice, te, felice
-	Più, che nel rogo oriental Fenice.	
+	Più, che nel rogo oriental Fenice.
 @@END: VARIORUM
 
 
@@ -99,7 +100,7 @@ Tu moristi in quel seno,
 @PAGE:		Seconda parte, 117v
 @PARATEXT:	MORTE NEL SENO. / ALLA ILLUSTRE SIGNORA / Modesta Fabriani Cipolla. / Girolamo Casoni.
 @VERSE:		
-Tu moristi in quel seno,
+	Tu moristi in quel seno,
 	Piccoletta Zanzara,
 	Dov’è si gran fortuna il venir meno.
 	Quando fin più beato,
@@ -108,7 +109,9 @@ Tu moristi in quel seno,
 	Felice, te, felice
 	Più che nel rogo oriental Fenice.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1205
 @ID:		S141
 @TYPE:		print
@@ -116,16 +119,18 @@ Tu moristi in quel seno,
 @PAGE:		Parte quarta delle Rime, 104
 @PARATEXT:	Celebra per felicissima la zenzara morta nel seno alla sua Donna.
 @VERSE:		
-Tu moristi in quel seno,
+	Tu moristi in quel seno,
 	Piccioletta zenzara,
 	Dov’è si gran fortuna il venir meno.
-Quando fin piu beato,
+	Quando fin piu beato,
 	O ver tomba piu cara
 	Fù mai concesso da benigno fato?
-Felice te, felice
+	Felice te, felice
 	Più, che nel rogo oriental Fenice.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1205
 @ID:		S166
 @TYPE:		print
@@ -133,16 +138,18 @@ Felice te, felice
 @PAGE:		Parte quarta delle Rime, 104
 @PARATEXT:	Celebra per felicissima la zenzara morta nel seno alla sua Donna.
 @VERSE:		
-Tu moristi in quel seno,
+	Tu moristi in quel seno,
 	Piccioletta zenzara,
 	Dov’è si gran fortuna il venir meno.
-Quando fin piu beato,
+	Quando fin piu beato,
 	O ver tomba piu cara
 	Fù mai concesso da benigno fato?
-Felice te, felice
+	Felice te, felice
 	Più, che nel rogo oriental Fenice.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1205
 @ID:		S169
 @TYPE:		print
@@ -150,7 +157,7 @@ Felice te, felice
 @PAGE:		RIME DEL TASSO.AMOROSE. P. II., 180
 @PARATEXT:	Morte di zenzara.
 @VERSE:		
-Tu moristi in quel seno,
+	Tu moristi in quel seno,
 	Piccioleta Zenzara,
 	Dov’è sì gran fortuna il venir meno.
 	Quando fin più beato,
@@ -158,7 +165,7 @@ Tu moristi in quel seno,
 	Fù mai concesso da benigno fato?
 	Felice tè, felice,
 	Più che nel rogo, orïenta! Fenice.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -235,14 +242,14 @@ Tu moristi in quel seno,
 @PAGE:		16
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Tu moristi in quel seno
-piccioletta zanzara,
-Ov'è sì gran fortun'il venir meno,
-Qual più sublime stato,
-[TACET]
-Fù mai concesso da benigno fato
-Felice te, Felice
-Più che nel rogo oriental Fenice.
+	Tu moristi in quel seno
+	piccioletta zanzara,
+	Ov'è sì gran fortun'il venir meno,
+	Qual più sublime stato,
+	[TACET]
+	Fù mai concesso da benigno fato
+	Felice te, Felice
+	Più che nel rogo oriental Fenice.
 @@END: VARIORUM
 
 
@@ -254,14 +261,14 @@ Più che nel rogo oriental Fenice.
 @PAGE:		16
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Tu moristi in quel seno
-piccioletta zanzara,
-Ov'è sì gran fortun'il venir meno,
-Qual più sublime stato,
+	Tu moristi in quel seno
+	piccioletta zanzara,
+	Ov'è sì gran fortun'il venir meno,
+	Qual più sublime stato,
 ò qual sorte più rara
-Fù mai concesso da benigno fato
-Felice te, Felice
-Più che nel rogo oriental Fenice.
+	Fù mai concesso da benigno fato
+	Felice te, Felice
+	Più che nel rogo oriental Fenice.
 @@END: VARIORUM
 
 
@@ -273,14 +280,14 @@ Più che nel rogo oriental Fenice.
 @PAGE:		16
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Tu moristi in quel seno
-piccioletta zanzara,
-Ov'è sì gran fortun'il venir meno,
-Qual più sublime stato,
+	Tu moristi in quel seno
+	piccioletta zanzara,
+	Ov'è sì gran fortun'il venir meno,
+	Qual più sublime stato,
 ò qual sorte più rara
-[TACET] da benigno fato
-Felice te, Felice
-Più che nel rogo oriental Fenice.
+	[TACET] da benigno fato
+	Felice te, Felice
+	Più che nel rogo oriental Fenice.
 @@END: VARIORUM
 
 
@@ -292,14 +299,14 @@ Più che nel rogo oriental Fenice.
 @PAGE:		16
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Tu moristi in quel seno
-[TACET]
-Ov'è sì gran for[ILLEGIBLE] meno,
-Qual più sublime [ILLEGIBLE]
+	Tu moristi in quel seno
+	[TACET]
+	Ov'è sì gran for[ILLEGIBLE] meno,
+	Qual più sublime [ILLEGIBLE]
 ò qual sorte più rara
-Fù mai concesso da benigno fato
-Felice te, Felice
-Più che nel rogo oriental Fenice.
+	Fù mai concesso da benigno fato
+	Felice te, Felice
+	Più che nel rogo oriental Fenice.
 @@END: VARIORUM
 
 
@@ -311,14 +318,14 @@ Più che nel rogo oriental Fenice.
 @PAGE:		16
 @PARATEXT:	Seconda parte.
 @VERSE:		
-Tu moristi in quel seno
-piccioletta zanzara,
-Ov'è sì gran fortun'il venir meno,
-Qual più sublime stato,
-[TACET]
-Fù mai concesso da benigno fato
-Felice te, Felice
-Più che nel rogo oriental Fenice.
+	Tu moristi in quel seno
+	piccioletta zanzara,
+	Ov'è sì gran fortun'il venir meno,
+	Qual più sublime stato,
+	[TACET]
+	Fù mai concesso da benigno fato
+	Felice te, Felice
+	Più che nel rogo oriental Fenice.
 @@END: VARIORUM
 
 

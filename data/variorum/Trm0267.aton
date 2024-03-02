@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0267
 @ID:		E1
@@ -17,15 +18,15 @@
 @PAGE:		299
 @PARATEXT:	stampata.
 @VERSE:		
-Bella non è costei
-Ma la beltade istessa
-perche fà bello ciò ch’a lei s’appressa :
-e quanto ella comparte i dolci sguardi,
-e le parole, e ’l riso
-e l’altre grazie Amor del lieto viso
-Di cui più m’invaghisci ove più m’ardi
-Tanto sol questo mondo amaro e vile
-Mi par grato, e gentile.
+	Bella non è costei
+	Ma la beltade istessa
+	perche fà bello ciò ch’a lei s’appressa :
+	e quanto ella comparte i dolci sguardi,
+	e le parole, e ’l riso
+	e l’altre grazie Amor del lieto viso
+	Di cui più m’invaghisci ove più m’ardi
+	Tanto sol questo mondo amaro e vile
+	Mi par grato, e gentile.
 @@END: VARIORUM
 
 
@@ -59,16 +60,16 @@ Mi par grato, e gentile.
 @PAGE:		558
 @PARATEXT:	
 @VERSE:	
-Bella non è costei
-Ma la beltad'istessa
-Perche fà bello ciò, ch’à lei s’appressa;
+	Bella non è costei
+	Ma la beltad'istessa
+	Perche fà bello ciò, ch’à lei s’appressa;
 @VERSE:
-E quant'ella comparte i dolci sguardi,
-E le parole, e’l riso,
-E l’altre gratie Amor del lieto viso
-Di cui più m’invaghisci, ove più m’ardi,
-Tanto sol questo mondo amaro, e vile,
-Mi par vago, e gentile.
+	E quant'ella comparte i dolci sguardi,
+	E le parole, e’l riso,
+	E l’altre gratie Amor del lieto viso
+	Di cui più m’invaghisci, ove più m’ardi,
+	Tanto sol questo mondo amaro, e vile,
+	Mi par vago, e gentile.
 @@END: VARIORUM
 
 
@@ -80,15 +81,15 @@ Mi par vago, e gentile.
 @PAGE:		41
 @PARATEXT:	
 @VERSE:	
-Bella non è costei,
-Ma la beltade istessa,
-Perche fà bello ciò, ch’à lei s’appressa.
-E quanto ella comparte i dolci sguardi,
-E le parole, e’l riso,
-E l’altre gratie, Amor del lieto viso,
-Di cui più m’invaghisci, ove più m’ardi;
-Tanto sol questo mondo amaro, e vile
-Mi par vago, e gentile.
+	Bella non è costei,
+	Ma la beltade istessa,
+	Perche fà bello ciò, ch’à lei s’appressa.
+	E quanto ella comparte i dolci sguardi,
+	E le parole, e’l riso,
+	E l’altre gratie, Amor del lieto viso,
+	Di cui più m’invaghisci, ove più m’ardi;
+	Tanto sol questo mondo amaro, e vile
+	Mi par vago, e gentile.
 @@END: VARIORUM
 
 
@@ -101,7 +102,9 @@ Mi par vago, e gentile.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0267
 @ID:		S169
 @TYPE:		print
@@ -109,7 +112,7 @@ Mi par vago, e gentile.
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 57
 @PARATEXT:	Madonna è la stessa bellezza.
 @VERSE:		
-Bella non è costei;
+	Bella non è costei;
 	Ma la beltade istessa,
 	Perche fa bello ciò, che a lei s’appressa.
 	E quanto ella comparte i dolci sguardi,
@@ -118,7 +121,7 @@ Bella non è costei;
 	Di cui più m’invaghisci, ove più m’ardi:
 	Tanto sol questo mondo amaro, e vile,
 	Mi par vago, e gentile.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

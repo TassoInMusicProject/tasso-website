@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020494
 @ID:		A-Am
@@ -53,14 +54,14 @@
 @PAGE:		16v
 @PARATEXT:	
 @VERSE:		
-Ne l’Api d’alcun fiore
-Coglion si dolce il mel ch’all’hor colsi
-Da quelle fresche rose
-Se ben gli ardenti baci
-Che spingeva il desire à inhumidirsi
-Rafrenò la temenza
-E la vergogna e felli
-Più lenti e meno audaci			
+	Ne l’Api d’alcun fiore
+	Coglion si dolce il mel ch’all’hor colsi
+	Da quelle fresche rose
+	Se ben gli ardenti baci
+	Che spingeva il desire à inhumidirsi
+	Rafrenò la temenza
+	E la vergogna e felli
+	Più lenti e meno audaci
 @@END: VARIORUM
 
 
@@ -86,7 +87,9 @@ Più lenti e meno audaci
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020494
 @ID:		A-1580D
 @TYPE:		print
@@ -94,7 +97,7 @@ Più lenti e meno audaci
 @PAGE:		17r
 @PARATEXT:	ATTO PRIMO. AMINTA, E TIRSI.
 @VERSE:		
-A.	Ne l’api d’alcun fiore
+	A.	Ne l’api d’alcun fiore
 	Colgon si dolce il succo,
 	Come fù dolce il mel, che allhora colsi
 	Se ben gli ardenti basci,
@@ -102,7 +105,7 @@ A.	Ne l’api d’alcun fiore
 	Raffrenò la temenza,
 	E la vergogna, e felli,
 	Più lenti, e meno audaci.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -125,14 +128,14 @@ A.	Ne l’api d’alcun fiore
 @PAGE:		31
 @PARATEXT:	
 @VERSE:		
-Ne l’Api d’alcun fiore
-Coglion si dolce il me,l com'all'hor colsi
-Da quelle fresche rose,
-Se ben gli ardenti baci,
-Che spingeva il desire à inhumidirsi,
-Raffrenò la temenza,
-E la vergogna, o felli
-Piu lenti, e meno audaci:	
+	Ne l’Api d’alcun fiore
+	Coglion si dolce il me,l com'all'hor colsi
+	Da quelle fresche rose,
+	Se ben gli ardenti baci,
+	Che spingeva il desire à inhumidirsi,
+	Raffrenò la temenza,
+	E la vergogna, o felli
+	Piu lenti, e meno audaci:	
 @@END: VARIORUM
 
 
@@ -158,7 +161,9 @@ Piu lenti, e meno audaci:
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam1020494
 @ID:		A-1581O
 @TYPE:		print
@@ -166,7 +171,7 @@ Piu lenti, e meno audaci:
 @PAGE:		31
 @PARATEXT:	ATTO PRIMO. SCENA SECONDA. Aminta. Tirsi.
 @VERSE:		
-AM.	Nel’Api d’alcun fiore
+	AM.	Nel’Api d’alcun fiore
 	Colgon si dolce il mel, com'allor colsi
 	Da quelle fresche rose,
 	Se ben gli ardenti baci,
@@ -174,7 +179,7 @@ AM.	Nel’Api d’alcun fiore
 	Raffrenò la temenza,
 	E la vergogna, ò felli
 	Più lenti, e meno audaci:
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -784,14 +789,14 @@ AM.	Nel’Api d’alcun fiore
 @COMPOSER:	Marotta, Erasmo
 @PAGE:		12
 @PARATEXT:	
-Ne l’api d’alcun fiore
-Coglion si dolce’l mel ch’allhor’io colsi
-Da quelle fresche rose
-Se ben gl’ardenti baci
-Che spingeva il desire à inhumidirsi
-[TACET]
-[TACET] O felli
-più lenti e men’audaci.
+	Ne l’api d’alcun fiore
+	Coglion si dolce’l mel ch’allhor’io colsi
+	Da quelle fresche rose
+	Se ben gl’ardenti baci
+	Che spingeva il desire à inhumidirsi
+	[TACET]
+	[TACET] O felli
+	più lenti e men’audaci.
 @@END: VARIORUM
 
 
@@ -803,14 +808,14 @@ più lenti e men’audaci.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Ne l’api d’alcun fiore
-Coglion si dolce’l mel ch’all’hor’io colsi
-Da quelle fresche rose
-Se ben gl’ardenti baci
-Che spingeva il desire à inhumidirsi
-[TACET]
-[TACE] O felli
-più lenti e men’audaci.	
+	Ne l’api d’alcun fiore
+	Coglion si dolce’l mel ch’all’hor’io colsi
+	Da quelle fresche rose
+	Se ben gl’ardenti baci
+	Che spingeva il desire à inhumidirsi
+	[TACET]
+	[TACE] O felli
+	più lenti e men’audaci.
 @@END: VARIORUM
 
 
@@ -822,14 +827,14 @@ più lenti e men’audaci.
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Ne l’api d’alcun fiore
-Coglion si dolce’l mel ch’all’hor’io colsi
-[TACET]
-Se ben gl’ardenti baci
-Che spingeva il desire à inhumidirsi
-Raffrenò la temenza
-e la vergogna O felli
-più lenti e men’audaci.	
+	Ne l’api d’alcun fiore
+	Coglion si dolce’l mel ch’all’hor’io colsi
+	[TACET]
+	Se ben gl’ardenti baci
+	Che spingeva il desire à inhumidirsi
+	Raffrenò la temenza
+	e la vergogna O felli
+	più lenti e men’audaci.
 @@END: VARIORUM
 
 

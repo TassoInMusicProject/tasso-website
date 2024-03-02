@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021827
 @ID:		A-Am
@@ -53,12 +54,12 @@
 @PAGE:		55r-55v
 @PARATEXT:	CHORO
 @VERSE:		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -84,7 +85,9 @@
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021827
 @ID:		A-1580D
 @TYPE:		print
@@ -92,13 +95,13 @@
 @PAGE:
 @PARATEXT:
 @VERSE:		
-[ABSENT]	
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]
-@@END:		VARIORUM
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -121,12 +124,12 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]			
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -152,7 +155,9 @@
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021827
 @ID:		A-1581O
 @TYPE:		print
@@ -160,13 +165,13 @@
 @PAGE:
 @PARATEXT:
 @VERSE:		
-[ABSENT]	
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]		
-[ABSENT]
-@@END:		VARIORUM
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -777,12 +782,12 @@
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ciò, che morte rallenta, Amor restringi,
-Amico tu di pace, ella di guerra,
-E del suo trionfar trionfi, e regni;
-E mentre due bell’alme annodi, e cingi,
-Così rendi sembiante al Ciel la terra,
-Che d’habitarla tu non fuggi, ò sdegni.	
+	Ciò, che morte rallenta, Amor restringi,
+	Amico tu di pace, ella di guerra,
+	E del suo trionfar trionfi, e regni;
+	E mentre due bell’alme annodi, e cingi,
+	Così rendi sembiante al Ciel la terra,
+	Che d’habitarla tu non fuggi, ò sdegni.
 @@END: VARIORUM
 
 
@@ -794,12 +799,12 @@ Che d’habitarla tu non fuggi, ò sdegni.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ciò, che morte rallenta, Amor restringi,
-Amico tu di pace, ella di guerra,
-E del suo trionfar trionfi, e regni;
-E mentre due bell’alme annodi, e cingi
-Così rendi sembiante al Ciel la terra
-Che d’habitarla tu non fuggi, ò sdegni.	
+	Ciò, che morte rallenta, Amor restringi,
+	Amico tu di pace, ella di guerra,
+	E del suo trionfar trionfi, e regni;
+	E mentre due bell’alme annodi, e cingi
+	Così rendi sembiante al Ciel la terra
+	Che d’habitarla tu non fuggi, ò sdegni.
 @@END: VARIORUM
 
 
@@ -811,12 +816,12 @@ Che d’habitarla tu non fuggi, ò sdegni.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ciò, che morte rallenta, Amor restringi,
-Amico tu di pace, ella di guerra,
-E del suo trionfar trionfi, e regni;
-E mentre due bell’alme annodi, e cingi
-Così rendi sembiante al Ciel la terra
-Che d’habitarla tu non fuggi, ò sdegni.
+	Ciò, che morte rallenta, Amor restringi,
+	Amico tu di pace, ella di guerra,
+	E del suo trionfar trionfi, e regni;
+	E mentre due bell’alme annodi, e cingi
+	Così rendi sembiante al Ciel la terra
+	Che d’habitarla tu non fuggi, ò sdegni.
 @@END: VARIORUM
 
 
@@ -828,12 +833,12 @@ Che d’habitarla tu non fuggi, ò sdegni.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ciò, che morte rallenta, Amor restringi,
-Amico tu di pace, ella di guerra,
-E del suo trionfar trionfi, e regni;
-E mentre due bell’alme annodi, e cingi
-Così rendi sembiante al Ciel la terra
-Che d’habitarla tu non fuggi, ò sdegni.	
+	Ciò, che morte rallenta, Amor restringi,
+	Amico tu di pace, ella di guerra,
+	E del suo trionfar trionfi, e regni;
+	E mentre due bell’alme annodi, e cingi
+	Così rendi sembiante al Ciel la terra
+	Che d’habitarla tu non fuggi, ò sdegni.
 @@END: VARIORUM
 
 
@@ -845,12 +850,12 @@ Che d’habitarla tu non fuggi, ò sdegni.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Ciò, che morte rallenta, Amor restringi,
-Amico tu di pace, ella di guerra,
-E del suo trionfar trionfi, e regni;
-E mentre due bell’alme annodi, e cingi,
-Così rendi sembiante al Ciel la terra
-Che d’habitarla tu non fuggi, ò sdegni.	
+	Ciò, che morte rallenta, Amor restringi,
+	Amico tu di pace, ella di guerra,
+	E del suo trionfar trionfi, e regni;
+	E mentre due bell’alme annodi, e cingi,
+	Così rendi sembiante al Ciel la terra
+	Che d’habitarla tu non fuggi, ò sdegni.
 @@END: VARIORUM
 
 

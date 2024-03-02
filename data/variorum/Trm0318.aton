@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0318
 @ID:		M7
@@ -17,7 +18,7 @@
 @PAGE:		76
 @PARATEXT:	
 @VERSE:		
-In un lucido rio
+	In un lucido rio
 	Mirando il suo bel viso
 	Cosi doleasi un Pastorel d'Amore.
 @VERSE:
@@ -48,18 +49,20 @@ In un lucido rio
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Sovra un lucido rio
-Si dolea per amore
-Un pastorel mirando il suo bel viso.
+	Sovra un lucido rio
+	Si dolea per amore
+	Un pastorel mirando il suo bel viso.
 @VERSE:
-Perche, diceva, anch’io
-Non mi converto in fiore,
-Benche non ami, come fè Narciso.
+	Perche, diceva, anch’io
+	Non mi converto in fiore,
+	Benche non ami, come fè Narciso.
 @VERSE:
-Ch’in quella forma almeno
-Mi raccorrebbe la mia donna in seno.
+	Ch’in quella forma almeno
+	Mi raccorrebbe la mia donna in seno.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0318
 @ID:		S141
 @TYPE:		print
@@ -67,16 +70,18 @@ Mi raccorrebbe la mia donna in seno.
 @PAGE:		Parte terza delle Rime, 54
 @PARATEXT:	Disiderava il P. diventar fiore, accioche l’amata donna lo cogliesse, &amp; sel mettesse nel suo seno.
 @VERSE:		
-Sovra un lucido rio
+	Sovra un lucido rio
 	Si dolea per amore
 	Un pastorel mirando il suo bel viso.
-Perche, diceva, anch’io
+	Perche, diceva, anch’io
 	Non mi converto in fiore,
 	Benche non ami, come fè Narciso.
-Ch’in quella forma almeno
+	Ch’in quella forma almeno
 	Mi raccorrebbe la mia donna in seno.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0318
 @ID:		S166
 @TYPE:		print
@@ -84,16 +89,18 @@ Ch’in quella forma almeno
 @PAGE:		Parte terza delle Rime, 54
 @PARATEXT:	Disiderava il P. diventar fiore, accioche l’amata donna lo cogliesse, &amp; sel mettesse nel suo seno.
 @VERSE:		
-Sovra un lucido rio
+	Sovra un lucido rio
 	Si dolea per amore
 	Un pastorel mirando il suo bel viso.
-Perche, diceva, anch’io
+	Perche, diceva, anch’io
 	Non mi converto in fiore,
 	Benche non ami, come fè Narciso.
-Ch’in quella forma almeno
+	Ch’in quella forma almeno
 	Mi raccorrebbe la mia donna in seno.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0318
 @ID:		S169
 @TYPE:		print
@@ -101,15 +108,15 @@ Ch’in quella forma almeno
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 52
 @PARATEXT:	Trasformatione desiderata.
 @VERSE:		
-Sovra un lucido rio
+	Sovra un lucido rio
 	Si dolea per amore
 	Un Pastorel mirando il suo bel viso.
-Perche diceva anch’io
+	Perche diceva anch’io
 	Non mi converto in fiore,
 	Ben che non ami come fè Narciso?
-Ch’in quella forma almeno
+	Ch’in quella forma almeno
 	Mi raccorrebbe la mia donna in seno.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -120,14 +127,14 @@ Ch’in quella forma almeno
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-In un lucido rio
-Mirand’il suo bel viso
-Cosi dolea si un pastorel d’Amore
-Misero perche anch’io
-Quasi nuovo Narciso
-Non mi converto lagrimand’in fiore
-Ch’in quella form’almeno
-Mi raccorrebbe la mia Donn’in seno.
+	In un lucido rio
+	Mirand’il suo bel viso
+	Cosi dolea si un pastorel d’Amore
+	Misero perche anch’io
+	Quasi nuovo Narciso
+	Non mi converto lagrimand’in fiore
+	Ch’in quella form’almeno
+	Mi raccorrebbe la mia Donn’in seno.
 @@END: VARIORUM
 
 
@@ -139,14 +146,14 @@ Mi raccorrebbe la mia Donn’in seno.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-In un lucido rio
-Mirand’il suo bel viso
-Cosi dolea si un Pastorel d’Amore
-Misero per che anch’io
-Quasi nuovo Narciso
-Non mi converto lagrimand’in fiore
-Ch’in quella form’almeno
-Mi raccorrebbe la mia Donn’in seno.
+	In un lucido rio
+	Mirand’il suo bel viso
+	Cosi dolea si un Pastorel d’Amore
+	Misero per che anch’io
+	Quasi nuovo Narciso
+	Non mi converto lagrimand’in fiore
+	Ch’in quella form’almeno
+	Mi raccorrebbe la mia Donn’in seno.
 @@END: VARIORUM
 
 
@@ -158,14 +165,14 @@ Mi raccorrebbe la mia Donn’in seno.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TACET]
-Misero per che anch’io
-Quasi nuovo Narciso
-Non mi converto [TACET]
-Ch’in quella form’almeno
-Mi raccorrebbe la mia Donn’in seno.
+	[TACET]
+	[TACET]
+	[TACET]
+	Misero per che anch’io
+	Quasi nuovo Narciso
+	Non mi converto [TACET]
+	Ch’in quella form’almeno
+	Mi raccorrebbe la mia Donn’in seno.
 @@END: VARIORUM
 
 
@@ -177,14 +184,14 @@ Mi raccorrebbe la mia Donn’in seno.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TACET]
-Misero per che anch’io
-Quasi nuovo Narciso
-[TACET]
-Ch’in quella form’almeno
-Mi raccorrebbe la mia Donn’in seno.
+	[TACET]
+	[TACET]
+	[TACET]
+	Misero per che anch’io
+	Quasi nuovo Narciso
+	[TACET]
+	Ch’in quella form’almeno
+	Mi raccorrebbe la mia Donn’in seno.
 @@END: VARIORUM
 
 
@@ -196,14 +203,14 @@ Mi raccorrebbe la mia Donn’in seno.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-In un lucido rio
-Mirand’il suo bel viso
-Cosi dolea si un Pastorel d’Amore
-Misero perche anch’io
-Quasi nuovo Narciso
-[TACET] lagrimand’in fiore
-Ch’in quella form’almeno
-Mi raccorrebbe la mia Donn’in seno.
+	In un lucido rio
+	Mirand’il suo bel viso
+	Cosi dolea si un Pastorel d’Amore
+	Misero perche anch’io
+	Quasi nuovo Narciso
+	[TACET] lagrimand’in fiore
+	Ch’in quella form’almeno
+	Mi raccorrebbe la mia Donn’in seno.
 @@END: VARIORUM
 
 
@@ -215,14 +222,14 @@ Mi raccorrebbe la mia Donn’in seno.
 @PAGE:		8
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TACET]
-Misero per che anch’io
-Quasi nuovo Narciso
-Non mi converto lagrimand’in fiore
-Ch’in quella form’almeno
-Mi raccorrebbe la mia Donn’in seno.
+	[TACET]
+	[TACET]
+	[TACET]
+	Misero per che anch’io
+	Quasi nuovo Narciso
+	Non mi converto lagrimand’in fiore
+	Ch’in quella form’almeno
+	Mi raccorrebbe la mia Donn’in seno.
 @@END: VARIORUM
 
 

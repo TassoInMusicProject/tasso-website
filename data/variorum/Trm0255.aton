@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0255
 @ID:		I4
@@ -25,10 +26,10 @@
 @ID:		S27
 @TYPE:		print
 @SPRINT:	
-@PAGE:	30	
+@PAGE:	30
 @PARATEXT:	Introduce Amore, &amp; una zanzara a motteggiare infirme.
 @VERSE:	
-Mentre in grembo à la madre Amore un giorno
+	Mentre in grembo à la madre Amore un giorno
 	Dolcemente dormiva,
 	Una zenzara zuffolava intorno
 	Per quella dolce riva.
@@ -44,7 +45,7 @@ Mentre in grembo à la madre Amore un giorno
 @VERSE:
 	E tu picciolo sei,
 	Ma pur gli huomini in terra col tuo pianto,
-	E'n Ciel desti gli Dei.	
+	E'n Ciel desti gli Dei.
 @@END: VARIORUM
 
 
@@ -53,10 +54,10 @@ Mentre in grembo à la madre Amore un giorno
 @ID:		S70
 @TYPE:		print
 @SPRINT:	
-@PAGE:	30	
+@PAGE:	30
 @PARATEXT:	Introduce Amore, &amp; una zanzara a motteggiare infirme.
 @VERSE:	
-Mentre in grembo à la madre Amore un giorno
+	Mentre in grembo à la madre Amore un giorno
 	Dolcemente dormiva,
 	Una zenzara zuffolava intorno
 	Per quella dolce riva.
@@ -72,9 +73,11 @@ Mentre in grembo à la madre Amore un giorno
 @VERSE:
 	E tu picciolo sei,
 	Ma pur gli huomini in terra col tuo pianto,
-	E'n Ciel desti gli Dei.	
+	E'n Ciel desti gli Dei.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0255
 @ID:		S141
 @TYPE:		print
@@ -82,22 +85,24 @@ Mentre in grembo à la madre Amore un giorno
 @PAGE:		Parte quarta delle Rime, 103
 @PARATEXT:	Introduce Amore, &amp; una zenzara a motteggiare insieme.
 @VERSE:		
-Mentre in grembo  a la madre Amore un giorno
+	Mentre in grembo  a la madre Amore un giorno
 	Dolcemente dormiva,
 	Una zenzara zuffolava intorno
 	Per quella dolce riva.
-Disse allor desto a quel susurro Amore,
+	Disse allor desto a quel susurro Amore,
 	Da si picciola forma,
 	Com’esce si gran voce, e tal rumore,
 	Che sveglia ogn’ un che dorma?
-Con maniere vezzose
+	Con maniere vezzose
 	Lusingandoli il sonno col suo canto
 	Venere gli rispose:
-E tu picciolo sei,
+	E tu picciolo sei,
 	Ma pur gli huomini in terra col tuo pianto,
 	E ’n Ciel desti gli Dei.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0255
 @ID:		S166
 @TYPE:		print
@@ -105,22 +110,24 @@ E tu picciolo sei,
 @PAGE:		Parte quarta delle Rime, 103
 @PARATEXT:	Introduce Amore, &amp; una zenzara a motteggiare insieme.
 @VERSE:		
-Mentre in grembo  a la madre Amore un giorno
+	Mentre in grembo  a la madre Amore un giorno
 	Dolcemente dormiva,
 	Una zenzara zuffolava intorno
 	Per quella dolce riva.
-Disse allor desto a quel susurro Amore,
+	Disse allor desto a quel susurro Amore,
 	Da si picciola forma,
 	Com’esce si gran voce, e tal rumore,
 	Che sveglia ogn’ un che dorma?
-Con maniere vezzose
+	Con maniere vezzose
 	Lusingandoli il sonno col suo canto
 	Venere gli rispose:
-E tu picciolo sei,
+	E tu picciolo sei,
 	Ma pur gli huomini in terra col tuo pianto,
 	E ’n Ciel desti gli Dei.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0255
 @ID:		S169
 @TYPE:		print
@@ -128,7 +135,7 @@ E tu picciolo sei,
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 271
 @PARATEXT:	Amor ferito.
 @VERSE:		
-Mentre in grembo à la madre, amore un giorno,
+	Mentre in grembo à la madre, amore un giorno,
 	Dolcemente dormiva,
 	Una zenzara zuffolava intorno,
 	Per quella dolce riva.
@@ -142,7 +149,7 @@ Mentre in grembo à la madre, amore un giorno,
 	E tù picciolo sei,
 	Ma pur gli huomini in terra col tuo pianto,
 	E ’n Ciel desti gli Dei.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -153,7 +160,7 @@ Mentre in grembo à la madre, amore un giorno,
 @PAGE:		21-22
 @PARATEXT:	
 @VERSE:		
-Mentre in grembo à la madre Amore un giorno
+	Mentre in grembo à la madre Amore un giorno
 	Dolcemente dormiva
 	Una Zanzara suffilava intorno
 	Per quella verde riva
@@ -179,7 +186,7 @@ Mentre in grembo à la madre Amore un giorno
 @PAGE:		21-22
 @PARATEXT:	
 @VERSE:		
-Mentre in grembo à la madre Amore un giorno
+	Mentre in grembo à la madre Amore un giorno
 	Dolcemente dormiva
 	Una Zanzara suffilava intorno
 	Per quella verde riva
@@ -193,7 +200,7 @@ Mentre in grembo à la madre Amore un giorno
 	Venere hli rispose
 	E tu picciolo sei
 	Ma pur gli huomin'in terra co'l tuo pianto
-	E 'n ciel desti gli Dei.	
+	E 'n ciel desti gli Dei.
 @@END: VARIORUM
 
 
@@ -205,7 +212,7 @@ Mentre in grembo à la madre Amore un giorno
 @PAGE:		21-22
 @PARATEXT:	
 @VERSE:		
-Mentre in grembo à la madre Amore un giorno
+	Mentre in grembo à la madre Amore un giorno
 	Dolcemente dormiva
 	Una Zanzara suffilava intorno
 	Per quella verde riva
@@ -222,6 +229,7 @@ Mentre in grembo à la madre Amore un giorno
 	E 'n ciel desti gli Dei.
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0255
 @ID:		Trm0255a-Basso
@@ -230,7 +238,7 @@ Mentre in grembo à la madre Amore un giorno
 @PAGE:		21-22?
 @PARATEXT:	
 @VERSE:		
-Mentre in grembo à la madre Amore un giorno
+	Mentre in grembo à la madre Amore un giorno
 	Dolcemente dormiva
 	Una Zanzara suffilava intorno
 	Per quella verde riva
@@ -244,7 +252,7 @@ Mentre in grembo à la madre Amore un giorno
 	Venere gli rispose
 	E tu picciolo sei
 	Ma pur gli huomin'in terra co'l tuo pianto
-	E 'n ciel desti gli Dei.	
+	E 'n ciel desti gli Dei.
 @@END: VARIORUM
 
 
@@ -256,7 +264,7 @@ Mentre in grembo à la madre Amore un giorno
 @PAGE:		21-22
 @PARATEXT:	
 @VERSE:
-Mentre in grembo à la madre Amore un giorno
+	Mentre in grembo à la madre Amore un giorno
 	Dolcemente dormiva
 	Una Zanzara suffilava intorno
 	Per quella verde riva
@@ -270,7 +278,7 @@ Mentre in grembo à la madre Amore un giorno
 	[TACET]
 	E tu picciolo sei
 	Ma pur gli huomin'in terra co'l tuo pianto
-	E 'n ciel desti gli Dei.		
+	E 'n ciel desti gli Dei.
 @@END: VARIORUM
 
 

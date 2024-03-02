@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
 @ID:		M7
@@ -17,7 +18,7 @@
 @PAGE:		84
 @PARATEXT:	
 @VERSE:		
-Io vidi già sotto l’ardente sole
+	Io vidi già sotto l’ardente sole
 	Discoloriti i fiori;
 	Come la mia Licori.
 @VERSE:
@@ -38,17 +39,17 @@ Io vidi già sotto l’ardente sole
 @PAGE:		168
 @PARATEXT:	
 @VERSE:		
-Io vidi gia sotto l’ardente sole
-Discoloriti i fiori,
-Come la mia Licori.
+	Io vidi gia sotto l’ardente sole
+	Discoloriti i fiori,
+	Come la mia Licori.
 @VERSE:
-Come i gigli del volto, e le viole,
-Che d’irrigar desio
-Con lagrimoso rio.
+	Come i gigli del volto, e le viole,
+	Che d’irrigar desio
+	Con lagrimoso rio.
 @VERSE:
-E seco insiem’impallidir' anch’io,
-Seco mutar sembiante
-Aventuroso amante.
+	E seco insiem’impallidir' anch’io,
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -60,17 +61,17 @@ Aventuroso amante.
 @PAGE:		109
 @PARATEXT:	
 @VERSE:	
-Io vidi già sotto l’ardente sole
-Discolorati i fiori
-Come la mia Licori,
+	Io vidi già sotto l’ardente sole
+	Discolorati i fiori
+	Come la mia Licori,
 @VERSE:
-Come i gigli che'l volto, e le viole
-Che d’irrigar desio
-Con lagrimoso rio,
+	Come i gigli che'l volto, e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio,
 @VERSE:
-E seco insiem’impalidire anch’io
-Seco mutar sembiante:
-[ABSENT]
+	E seco insiem’impalidire anch’io
+	Seco mutar sembiante:
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -82,19 +83,21 @@ Seco mutar sembiante:
 @PAGE:		168
 @PARATEXT:	
 @VERSE:		
-Io vidi già sotto l’ardente sole
-Discoloriti i fiori,
-Come la mia Licori.
+	Io vidi già sotto l’ardente sole
+	Discoloriti i fiori,
+	Come la mia Licori.
 @VERSE:
-Come i gigli del volto, e le viole,
-Che d’irrigar desio
-Con lagrimoso rio.
+	Come i gigli del volto, e le viole,
+	Che d’irrigar desio
+	Con lagrimoso rio.
 @VERSE:
-E seco insieme impallidir'anch’io,
-Seco mutar sembiante
-Aventuroso amante.	
+	E seco insieme impallidir'anch’io,
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
 @ID:		S141
 @TYPE:		print
@@ -102,17 +105,19 @@ Aventuroso amante.
 @PAGE:		Parte quarta delle Rime, 210
 @PARATEXT:	Sopra la palidezza della sua Donna.
 @VERSE:		
-Io vidi già sotto l’ardente Sole
+	Io vidi già sotto l’ardente Sole
 	Discoloriti i fiori,
 	Come la mia Licori.
-Come i gigli del volto, e le viole,
+	Come i gigli del volto, e le viole,
 	Che d’irrigar desio
 	Con lagrimoso rio.
-E seco insieme impallidir anch’io,
+	E seco insieme impallidir anch’io,
 	Seco mutar sembiante
 	Aventuroso amante.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
 @ID:		S166
 @TYPE:		print
@@ -120,17 +125,19 @@ E seco insieme impallidir anch’io,
 @PAGE:		Parte quarta delle Rime, 210
 @PARATEXT:	Sopra la palidezza della sua Donna.
 @VERSE:		
-Io vidi già sotto l’ardente Sole
+	Io vidi già sotto l’ardente Sole
 	Discoloriti i fiori,
 	Come la mia Licori.
-Come i gigli del volto, e le viole,
+	Come i gigli del volto, e le viole,
 	Che d’irrigar desio
 	Con lagrimoso rio.
-E seco insieme impallidir anch’io,
+	E seco insieme impallidir anch’io,
 	Seco mutar sembiante
 	Aventuroso amante.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0247
 @ID:		S169
 @TYPE:		print
@@ -138,7 +145,7 @@ E seco insieme impallidir anch’io,
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 12
 @PARATEXT:	Pallore di madonna desiato.
 @VERSE:		
-Io vidi già sotto l’ardente sole
+	Io vidi già sotto l’ardente sole
 	Discoloriti i fiori,
 	Come la mia Licori.
 	Come i gigli del volto, e le viole,
@@ -147,7 +154,7 @@ Io vidi già sotto l’ardente sole
 	E seco insieme impallidir' anch’io;
 	Seco mutar sembiante
 	Aventuroso amante
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -158,15 +165,15 @@ Io vidi già sotto l’ardente sole
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Io vidi gia sotto l’ardente sole
-Discolorati i fiori
-Come la mia Licori
-Come i gigli del volt’e le viole
-Che d’irrigar desio
-Con lagrimoso rio
-E seco insiem’impallidir anch’io
-Seco mutar sembiante
-Aventuroso amante.
+	Io vidi gia sotto l’ardente sole
+	Discolorati i fiori
+	Come la mia Licori
+	Come i gigli del volt’e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	E seco insiem’impallidir anch’io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -178,15 +185,15 @@ Aventuroso amante.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Io vidi gia sotto l’ardente sole
-Discolorati i fiori
-Come la mia Licori
-Come i gigli del volto e le viole
-Che d’irrigar desio
-Con lagrimoso rio
-E seco insiem’impallidir anch’io
-Seco mutar sembiante
-Aventuroso amante.
+	Io vidi gia sotto l’ardente sole
+	Discolorati i fiori
+	Come la mia Licori
+	Come i gigli del volto e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	E seco insiem’impallidir anch’io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -198,15 +205,15 @@ Aventuroso amante.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Io vidi gia sotto l’ardente sole
-Discolorati i fiori
-Come la mia Licori
-Come i gigli del volto dse le viole
-Che d’irrigar desio
-Con lagrimoso rio
-[TACET] anch’io
-Seco mutar sembiante
-Aventuroso amante.
+	Io vidi gia sotto l’ardente sole
+	Discolorati i fiori
+	Come la mia Licori
+	Come i gigli del volto dse le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	[TACET] anch’io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -218,15 +225,15 @@ Aventuroso amante.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Io vidi gia sotto l’ardente sole
-Discolorati i fiori
-Come la mia licori
-Come i gigli del volto e le viole
-Che d’irrigar desio
-Con lagrimoso rio
-E seco insiem’impallidir anch’io
-Seco mutar sembiante
-Aventuroso amante.
+	Io vidi gia sotto l’ardente sole
+	Discolorati i fiori
+	Come la mia licori
+	Come i gigli del volto e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	E seco insiem’impallidir anch’io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -238,15 +245,15 @@ Aventuroso amante.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:	
-Io vidi gia sotto l’ardente sole
-Discolorati i fiori
-Come la mia Licori
-Come i gigli del volto e le viole
-Che d’irrigar desio
-Con lagrimoso rio
-[TACET] impallidir anch’io
-Seco mutar sembiante
-Aventuroso amante.
+	Io vidi gia sotto l’ardente sole
+	Discolorati i fiori
+	Come la mia Licori
+	Come i gigli del volto e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	[TACET] impallidir anch’io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -258,15 +265,15 @@ Aventuroso amante.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-[TACET] Sotto l’ardente sole
-Discolorati i fiori
-Come la mia Licori
-Come i gigli del volto e le viole
-Che d’irrigar desio
-Con lagrimoso rio
-E seco insieme impallidir anch’io
-Seco mutar sembiante
-Aventuroso amante.
+	[TACET] Sotto l’ardente sole
+	Discolorati i fiori
+	Come la mia Licori
+	Come i gigli del volto e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	E seco insieme impallidir anch’io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -278,15 +285,15 @@ Aventuroso amante.
 @PAGE:		1
 @PARATEXT:	
 @VERSE:	
-Io vidi già sotto l'ardente sole
-Discoloriti i fiori
-Come la mia Licori
-Come i gigli del volt’e le viole
-Che d’irrigar desio
-Con lagrimoso rio
-E seco insiem’impalledir anch'io
-Seco mutar sembiante
-Aventuroso amante.
+	Io vidi già sotto l'ardente sole
+	Discoloriti i fiori
+	Come la mia Licori
+	Come i gigli del volt’e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	E seco insiem’impalledir anch'io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 
@@ -298,15 +305,15 @@ Aventuroso amante.
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Io vidi già sotto l'ardente sole
-Discoloriti i fiori
-Come la mia Licori
-Come i gigli del volto e le viole
-Che d’irrigar desio
-Con lagrimoso rio
-E seco insiem’impalledir anch'io
-Seco mutar sembiante
-Aventuroso amante.
+	Io vidi già sotto l'ardente sole
+	Discoloriti i fiori
+	Come la mia Licori
+	Come i gigli del volto e le viole
+	Che d’irrigar desio
+	Con lagrimoso rio
+	E seco insiem’impalledir anch'io
+	Seco mutar sembiante
+	Aventuroso amante.
 @@END: VARIORUM
 
 

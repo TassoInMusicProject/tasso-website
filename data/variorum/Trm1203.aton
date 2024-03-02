@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1203
 @ID:		I4
@@ -28,7 +29,7 @@
 @PAGE:		31
 @PARATEXT:	Loda la zenzara.
 @VERSE:		
-Qual Cavaliero ardito
+	Qual Cavaliero ardito
 	A le famose prove
 	Il sonoro metallo accende, e move;
 @VERSE:
@@ -50,7 +51,7 @@ Qual Cavaliero ardito
 @PAGE:		31
 @PARATEXT:	Loda la zenzara.
 @VERSE:		
-Qual Cavagliero ardito
+	Qual Cavagliero ardito
 	A le famose prove
 	Il sonoro metallo accende, e move;
 @VERSE:
@@ -60,9 +61,11 @@ Qual Cavagliero ardito
 @VERSE:
 	O' mirabil guerriera,
 	In cui natura giunge
-	La tromba à l’arme, ond’ella suona, e punge.	
+	La tromba à l’arme, ond’ella suona, e punge.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1203
 @ID:		S141
 @TYPE:		print
@@ -70,16 +73,16 @@ Qual Cavagliero ardito
 @PAGE:		Quarta parte delle Rime, 104
 @PARATEXT:	Compara la zenzara al Cavaliero.
 @VERSE:		
-Qual cavagliero ardito
+	Qual cavagliero ardito
 	A le famose prove
 	Il sonoro metallo accende, e move;
 	Tal zenzaretta fiera
 	Zuffola intorno e vola,
 	E vi percuote poi la bianca gola.
-O mirabil guerriera,
+	O mirabil guerriera,
 	In cui natura giunge
 	La tromba a l’arme, ond’ella suona, e punge.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -90,7 +93,7 @@ O mirabil guerriera,
 @PAGE:		Seconda parte, 117v
 @PARATEXT:	MORTE NEL SENO. / Torquato Tasso.
 @VERSE:		
-Qual cavagliero ardito
+	Qual cavagliero ardito
 	A le famose prove
 	Il sonoro metallo accende, e muove;
 	Tal zanzaretta fiera
@@ -100,7 +103,9 @@ Qual cavagliero ardito
 	In cui natura giunge
 	La tromba a l’arme, ond’ella suona, e punge.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1203
 @ID:		S166
 @TYPE:		print
@@ -108,17 +113,19 @@ Qual cavagliero ardito
 @PAGE:		Quarta parte delle Rime, 104
 @PARATEXT:	Compara la zenzara al Cavaliero.
 @VERSE:		
-Qual cavagliero ardito
+	Qual cavagliero ardito
 	A le famose prove
 	Il sonoro metallo accende, e move;
 	Tal zenzaretta fiera
 	Zuffola intorno e vola,
 	E vi percuote poi la bianca gola.
-O mirabil guerriera,
+	O mirabil guerriera,
 	In cui natura giunge
 	La tromba a l’arme, ond’ella suona, e punge.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1203
 @ID:		S169
 @TYPE:		print
@@ -126,7 +133,7 @@ O mirabil guerriera,
 @PAGE:		RIME DEL TASSO.AMOROSE. P. II., 181
 @PARATEXT:	Zenzara importuna.
 @VERSE:		
-Qual Cavagliero ardito,
+	Qual Cavagliero ardito,
 	A le famose prove,
 	Il sonoro metallo accende, e move;
 	Tal Zenzaretta fiera,
@@ -135,7 +142,7 @@ Qual Cavagliero ardito,
 	O mirabil guerriera,
 	In cui natura giunge
 	La tromba à l’arme, ond’ella suona, e punge.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -146,7 +153,7 @@ Qual Cavagliero ardito,
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Quasi Guerrier'ardito,
+	Quasi Guerrier'ardito,
 	ch'alle famose prove
 	Il canoro metallo accend'e muove
 	Tal zanzaretta fiera
@@ -166,7 +173,7 @@ Quasi Guerrier'ardito,
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Quasi Guerrier'ardito,
+	Quasi Guerrier'ardito,
 	ch'alle famose prove
 	Il canoro metallo accend'e muove
 	Tal zanzaretta fiera
@@ -186,7 +193,7 @@ Quasi Guerrier'ardito,
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Quasi Guerrier'ardito,
+	Quasi Guerrier'ardito,
 	ch'alle famose prove
 	Il canoro metallo accend'e muove
 	Tal zanzaretta fiera
@@ -206,7 +213,7 @@ Quasi Guerrier'ardito,
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Quasi Guerrier'ardito,
+	Quasi Guerrier'ardito,
 	ch'alle famose prove
 	Il canoro metallo [ILLEGIBLE]ve
 	Tal zanzaretta fiera
@@ -214,7 +221,7 @@ Quasi Guerrier'ardito,
 	[TACET] la bianca gola:
 	O provida Guerriera
 	a cui natur'aggiunge
-	la tromba [TACET] ond’ella suon'e punge.	
+	la tromba [TACET] ond’ella suon'e punge.
 @@END: VARIORUM
 
 
@@ -226,7 +233,7 @@ Quasi Guerrier'ardito,
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Quasi Guerrier'ardito,
+	Quasi Guerrier'ardito,
 	ch'alle famose prove
 	Il canoro metallo accend'e muove
 	Tal zanzaretta fiera

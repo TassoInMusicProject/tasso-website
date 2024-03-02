@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
 @ID:		E1
@@ -17,13 +18,13 @@
 @PAGE:		298
 @PARATEXT:	stampa.
 @VERSE:		
-Donna da voi lontano
-vivo del mio dolore
-e sol del vostro amore
-Egli nasce, e deriva,
-Ch'è quasi fiume senza fondo, o riva
-Voi sete il fonte, e ’l rio
-De la vostra bellezza e ’l pianto mio.
+	Donna da voi lontano
+	vivo del mio dolore
+	e sol del vostro amore
+	Egli nasce, e deriva,
+	Ch'è quasi fiume senza fondo, o riva
+	Voi sete il fonte, e ’l rio
+	De la vostra bellezza e ’l pianto mio.
 @@END: VARIORUM
 
 
@@ -57,7 +58,7 @@ De la vostra bellezza e ’l pianto mio.
 @PAGE:		114
 @PARATEXT:	
 @VERSE:	
-Donna, lunge da voi
+	Donna, lunge da voi
 	Vivo del mio dolore,
 	Nè manca il cibo con la vit'al core:
 	Perche da voi deriva,
@@ -75,7 +76,7 @@ Donna, lunge da voi
 @PAGE:		114
 @PARATEXT:	
 @VERSE:	
-Donna, lunge da voi
+	Donna, lunge da voi
 	Vivo del mio dolore,
 	Nè manca il cibo con la vita al core:
 	Perche da voi deriva,
@@ -83,7 +84,9 @@ Donna, lunge da voi
 	Voi sete il fonte, e’l rio
 	De la vostra bellezza è’l pianto mio.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
 @ID:		S141
 @TYPE:		print
@@ -91,15 +94,17 @@ Donna, lunge da voi
 @PAGE:		Parte quarta delle Rime, 173
 @PARATEXT:	Loda la Sig. Girolama Soinola.
 @VERSE:		
-Donna, lunge da noi
+	Donna, lunge da noi
 	Vivo del mio dolore,
 	Nè manca il cibo con la vita al core:
 	Perche da voi deriva,
 	E pare un fiume senza fondo, o riva:
 	Voi sete il fonte, e ’l rio
 	De la nostra bellezza è ’l pianto mio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
 @ID:		S166
 @TYPE:		print
@@ -107,15 +112,17 @@ Donna, lunge da noi
 @PAGE:		Parte quarta delle Rime, 173
 @PARATEXT:	Loda la Sig. Girolama Soinola.
 @VERSE:		
-Donna, lunge da noi
+	Donna, lunge da noi
 	Vivo del mio dolore,
 	Nè manca il cibo con la vita al core:
 	Perche da voi deriva,
 	E pare un fiume senza fondo, o riva:
 	Voi sete il fonte, e ’l rio
 	De la nostra bellezza è ’l pianto mio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0322
 @ID:		S169
 @TYPE:		print
@@ -123,14 +130,14 @@ Donna, lunge da noi
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 77
 @PARATEXT:	Continua l'incominciato.
 @VERSE:		
-Donna, lunge da voi
+	Donna, lunge da voi
 	Vivo del mio dolore,
 	Nè manca il cibo, con la vita al core:
 	Perche da voi deriva,
 	E pare un fiume senza fondo, o riva:
 	Voi sete il fonte, e ’l rio
 	De la vostra bellezza, è ’l pianto mio.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -141,7 +148,7 @@ Donna, lunge da voi
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Donna longe da voi
+	Donna longe da voi
 	Vivo del mio dolore
 	Ne manca 'l cibo con la vit'al core
 	Perche da voi deriva
@@ -159,7 +166,7 @@ Donna longe da voi
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Donna longe da voi
+	Donna longe da voi
 	Vivo del mio dolore
 	Ne manca 'l cibo con la vit'al core
 	Perche da voi deriva
@@ -177,7 +184,7 @@ Donna longe da voi
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Donna longe da voi
+	Donna longe da voi
 	Vivo del mio dolore
 	Ne manca 'l cibo con la vit'al core
 	Perche da voi deriva
@@ -195,7 +202,7 @@ Donna longe da voi
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Donna longe da voi
+	Donna longe da voi
 	Vivo del mio dolore
 	Ne manca 'l cibo con la vita al core
 	Perche da voi deriva
@@ -213,7 +220,7 @@ Donna longe da voi
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Donna lunge da voi
+	Donna lunge da voi
 	Vivo del mio dolore
 	Ne manca 'l cibo con la vita al core
 	Perche da voi deriva

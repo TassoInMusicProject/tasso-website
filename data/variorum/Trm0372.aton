@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0372
 @ID:		Ts2
@@ -17,17 +18,17 @@
 @PAGE:		39v
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu, ma bella,
-Et ogni bel candore
-Perde co’l bruno tuo giudice Amore.
+	Bruna sei tu, ma bella,
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice Amore.
 @VERSE:
-Bella sei tu, ma <del>brava</del> ^bruna^;
-Pur se ne cade incolto
-Bianco ligustro, e negro fiore, è colto.
+	Bella sei tu, ma <del>brava</del> ^bruna^;
+	Pur se ne cade incolto
+	Bianco ligustro, e negro fiore, è colto.
 @VERSE:
-Chi coglie ad’una ad’una
-Le tue lodi più elette
-<del>Chè se</del> ^Chi te^ ne tesse in rime ghirlandette.		
+	Chi coglie ad’una ad’una
+	Le tue lodi più elette
+<del>Chè se</del> ^Chi te^ ne tesse in rime ghirlandette.
 @@END: VARIORUM
 
 
@@ -50,17 +51,17 @@ Le tue lodi più elette
 @PAGE:		39v
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu, ma bella,
-Et ogni bel candore
-Perde co’l bruno tuo giudice Amore.
+	Bruna sei tu, ma bella,
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice Amore.
 @VERSE:
-Bella sei tu, ma brava;
-Pur se ne cade incolto
-Bianco ligustro, e negro fiore, è colto.
+	Bella sei tu, ma brava;
+	Pur se ne cade incolto
+	Bianco ligustro, e negro fiore, è colto.
 @VERSE:
-Chi coglie ad’una ad’una
-Le tue lodi più elette
-Chè se ne tesse in rime ghirlandette.
+	Chi coglie ad’una ad’una
+	Le tue lodi più elette
+	Chè se ne tesse in rime ghirlandette.
 @@END: VARIORUM
 
 
@@ -72,17 +73,17 @@ Chè se ne tesse in rime ghirlandette.
 @PAGE:		39v
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu, ma bella,
-Et ogni bel candore
-Perde co’l bruno tuo giudice Amore.
+	Bruna sei tu, ma bella,
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice Amore.
 @VERSE:
-Bella sei tu, ma brava;
-Pur se ne cade incolto
-Bianco ligustro, e negro fiore, è colto.
+	Bella sei tu, ma brava;
+	Pur se ne cade incolto
+	Bianco ligustro, e negro fiore, è colto.
 @VERSE:
-Chi coglie ad’una ad’una
-Le tue lodi più elette
-Chè se ne tesse in rime ghirlandette.
+	Chi coglie ad’una ad’una
+	Le tue lodi più elette
+	Chè se ne tesse in rime ghirlandette.
 @@END: VARIORUM
 
 
@@ -139,7 +140,9 @@ Chè se ne tesse in rime ghirlandette.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0372
 @ID:		S141
 @TYPE:		print
@@ -147,16 +150,16 @@ Chè se ne tesse in rime ghirlandette.
 @PAGE:		Parte seconda delle Rime, 184
 @PARATEXT:	Loda la bruna carnagione della sua amante, dicendo, che ogni bianchezza paragonata a quella perde.
 @VERSE:		
-Bruna sei tu, ma bella,
+	Bruna sei tu, ma bella,
 	Et ogni bel candore
 	Perde co ’l bruno tuo, giudice Amore;
-Bella sei tu; ma bruna;
+	Bella sei tu; ma bruna;
 	Pur se ne cade incolto
 	Bianco ligustro, e negro fiore; e colto.
 	Chi coglie aduna ad una
 	Le tue lodi più elette
 	Che se ne tesse in rime ghirlandette.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -167,17 +170,19 @@ Bella sei tu; ma bruna;
 @PAGE:		Quinta parte, 123v
 @PARATEXT:	I Varij / BELLA BRUNA. / ALLA ILLUSTRE SIGNORA / Aquilina Pignola. / Torquato Tasso.
 @VERSE:	
-Bruna sei tù ma bella,
-Et ogni bel candore
-Perde col bruno tuo giudice Amore.
-Bella sei tù ma bruna;
-Pur se ne cade incolto
-Bianco ligustro, e negro fiore è colto.
-Chi coglie ad una ad una
-Le tue lodi più elette,
-Chi se ne tesse in rime ghirlandette.
+	Bruna sei tù ma bella,
+	Et ogni bel candore
+	Perde col bruno tuo giudice Amore.
+	Bella sei tù ma bruna;
+	Pur se ne cade incolto
+	Bianco ligustro, e negro fiore è colto.
+	Chi coglie ad una ad una
+	Le tue lodi più elette,
+	Chi se ne tesse in rime ghirlandette.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0372
 @ID:		S166
 @TYPE:		print
@@ -185,17 +190,19 @@ Chi se ne tesse in rime ghirlandette.
 @PAGE:		Parte seconda delle Rime, 184
 @PARATEXT:	Loda la bruna carnagione della sua amante, dicendo, che ogni bianchezza paragonata a quella perde.
 @VERSE:		
-Bruna sei tu, ma bella,
+	Bruna sei tu, ma bella,
 	Et ogni bel candore
 	Perde co ’l bruno tuo, giudice Amore;
-Bella sei tu; ma bruna;
+	Bella sei tu; ma bruna;
 	Pur se ne cade incolto
 	Bianco ligustro, e negro fiore; e colto.
 	Chi coglie aduna ad una
 	Le tue lodi più elette
 	Che se ne tesse in rime ghirlandette.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0372
 @ID:		S169
 @TYPE:		print
@@ -203,7 +210,7 @@ Bella sei tu; ma bruna;
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 270
 @PARATEXT:	Giovanetta bruna.
 @VERSE:		
-Bruna sei tù, ma bella,
+	Bruna sei tù, ma bella,
 	Et ogni bel candore
 	Perde col bruno tuo, giudice Amore.
 	Bella sei tù, ma bruna;
@@ -212,7 +219,7 @@ Bruna sei tù, ma bella,
 	Chi coglie ad una, ad una,
 	Le tue lodi più elette,
 	Chi te ne tesse in rime ghirlandette.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -278,15 +285,15 @@ Bruna sei tù, ma bella,
 @PAGE:		14
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu ma bella
-Et ogni bel candore
-Perde co’l bruno tuo giudice Amore
-Bella sei tu ma bruna
-Pur se nè cade incolto
-bianco ligustro e negro fior è colto
-Chi coglie ad’una ad una
-le tue lodi piu elette
-Che se nè tesse in rime ghirlandette.
+	Bruna sei tu ma bella
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice Amore
+	Bella sei tu ma bruna
+	Pur se nè cade incolto
+	bianco ligustro e negro fior è colto
+	Chi coglie ad’una ad una
+	le tue lodi piu elette
+	Che se nè tesse in rime ghirlandette.
 @@END: VARIORUM
 
 
@@ -298,15 +305,15 @@ Che se nè tesse in rime ghirlandette.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu ma bella
-Et ogni bel candore
-Perde co’l bruno tuo giudice amore
-Bella sei tu ma bruna
-Pur se nè cade incolto
-bianco ligustro e negro fior è colto
-Chi coglie ad’una ad una
-le tue lodi piu elette
-Che se nè tesse in rime ghirlandette.		
+	Bruna sei tu ma bella
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice amore
+	Bella sei tu ma bruna
+	Pur se nè cade incolto
+	bianco ligustro e negro fior è colto
+	Chi coglie ad’una ad una
+	le tue lodi piu elette
+	Che se nè tesse in rime ghirlandette.
 @@END: VARIORUM
 
 
@@ -318,15 +325,15 @@ Che se nè tesse in rime ghirlandette.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu ma bella
-Et ogni bel candore
-Perde co’l bruno tuo giudice amore
-Bella sei tu ma bruna
-Pur se nè cade incolto
-bianco ligustro e negro fior è colto
-Chi coglie ad’una ad una
-le tue lodi piu elette
-Che se nè tesse in rime ghirlandette.	
+	Bruna sei tu ma bella
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice amore
+	Bella sei tu ma bruna
+	Pur se nè cade incolto
+	bianco ligustro e negro fior è colto
+	Chi coglie ad’una ad una
+	le tue lodi piu elette
+	Che se nè tesse in rime ghirlandette.
 @@END: VARIORUM
 
 
@@ -338,15 +345,15 @@ Che se nè tesse in rime ghirlandette.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu ma bella
-Et ogni bel candore
-Perde co’l bruno tuo giudice Amore
-Bella sei tu ma bruna
-Pur se nè cade incolto
-bianco ligustro e negro fior'e colto
-Chi coglie ad’una ad una
-le tue lodi piu elette
-Che se nè tesse in rime ghirlandette.	
+	Bruna sei tu ma bella
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice Amore
+	Bella sei tu ma bruna
+	Pur se nè cade incolto
+	bianco ligustro e negro fior'e colto
+	Chi coglie ad’una ad una
+	le tue lodi piu elette
+	Che se nè tesse in rime ghirlandette.
 @@END: VARIORUM
 
 
@@ -358,15 +365,15 @@ Che se nè tesse in rime ghirlandette.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:	
-Bruna sei tu ma bella
-Et ogni bel candore
-Perde co’l bruno tuo giudice Amore
-Bella sei tu ma bruna
-Pur se nè cade incolto
-bianco ligustro e negro fior è colto
-Chi coglie ad’una ad una
-le tue lodi piu elette
-Che se nè tesse in rime ghirlandette.	
+	Bruna sei tu ma bella
+	Et ogni bel candore
+	Perde co’l bruno tuo giudice Amore
+	Bella sei tu ma bruna
+	Pur se nè cade incolto
+	bianco ligustro e negro fior è colto
+	Chi coglie ad’una ad una
+	le tue lodi piu elette
+	Che se nè tesse in rime ghirlandette.
 @@END: VARIORUM
 
 

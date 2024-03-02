@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031126
 @ID:		A-Am
@@ -53,13 +54,13 @@
 @PAGE:		33v
 @PARATEXT:	
 @VERSE:		
-[TIRSI] Ecco tu chiedi pur quella certezza
-Ch'à lei dispaice e dispiacer le deve
-Dirittamente e tu cercar non devi
-Ma chi t’accerta ancor che non sia tale?
-Hor s’egli fosse tale e non n’andassi?
-Eguale e il dubio e il rischio. ahi pur e meglio
-Come ardito morir che come vile.	
+	[TIRSI] Ecco tu chiedi pur quella certezza
+	Ch'à lei dispaice e dispiacer le deve
+	Dirittamente e tu cercar non devi
+	Ma chi t’accerta ancor che non sia tale?
+	Hor s’egli fosse tale e non n’andassi?
+	Eguale e il dubio e il rischio. ahi pur e meglio
+	Come ardito morir che come vile.
 @@END: VARIORUM
 
 
@@ -85,7 +86,9 @@ Come ardito morir che come vile.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031126
 @ID:		A-1580D
 @TYPE:		print
@@ -93,14 +96,14 @@ Come ardito morir che come vile.
 @PAGE:		28r
 @PARATEXT:	ATTO SECONDO. AMINTA, E TIRSI.
 @VERSE:		
-T.	Ecco, tu chiedi pur quella certezza,
+	T.	Ecco, tu chiedi pur quella certezza,
 	Ch'à lei dispiace, e, che spiacer le deve
 	Dirittamente, e tu cercar non devi:
 	Mà chi t’accerta ancor, che non sia tale?
 	Hor, s’ella fosse tale, e non v’andasti?
 	Eguale è il dubbio, e 'l rischio. Ahi pur è meglio.
 	Com’ ardito morir, che, come vile.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -123,13 +126,13 @@ T.	Ecco, tu chiedi pur quella certezza,
 @PAGE:		53
 @PARATEXT:	
 @VERSE:		
-Ecco, tu chiedi pur quella certezza,
-Ch'à lei dispaice, e dispiacer li deve
-Dirittamente, e tu cercar non dei.
-Ma, chi t’accerta ancor, che non sia tale?
-Hor, s’ella fosse tale? non n’andasse?
-Eguale è il dubbio, e'l rischio. ahi, pur e meglio
-Come ardito morir, che come vile?		
+	Ecco, tu chiedi pur quella certezza,
+	Ch'à lei dispaice, e dispiacer li deve
+	Dirittamente, e tu cercar non dei.
+	Ma, chi t’accerta ancor, che non sia tale?
+	Hor, s’ella fosse tale? non n’andasse?
+	Eguale è il dubbio, e'l rischio. ahi, pur e meglio
+	Come ardito morir, che come vile?
 @@END: VARIORUM
 
 
@@ -155,7 +158,9 @@ Come ardito morir, che come vile?
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam2031126
 @ID:		A-1581O
 @TYPE:		print
@@ -163,14 +168,14 @@ Come ardito morir, che come vile?
 @PAGE:		53
 @PARATEXT:	ATTO SECONDO SCENA TERZA Aminta. Tirso.
 @VERSE:		
-TIR.	Ecco, tu chiedi pur quella certezza,
+	TIR.	Ecco, tu chiedi pur quella certezza,
 	Ch'à lei dispaice, e dispiacer li deve
 	Dirittamente, e tu cercar non dei.
 	Ma, chi t’accerta ancor, che non sia tale?
 	Hor, s’ella fosse tale? non v’andasse?
 	Uguale è il dubbio, e'l rischio. ahi, pur e meglio
 	Come ardito morir, che come vile?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -781,13 +786,13 @@ TIR.	Ecco, tu chiedi pur quella certezza,
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-TIRSI Ecco tu chiedi pur quella certezza
-Ch’à lei dispiace e dispiacer le deve
-Dirittamente e tu cercar non dei
-Ma chi t’acert’anchor che non sia tale
-[TACET]
-Eguale e’l dubbi’e’l rischio Ahi pur è meglio
-Come ardito morir che come vile.	
+	TIRSI Ecco tu chiedi pur quella certezza
+	Ch’à lei dispiace e dispiacer le deve
+	Dirittamente e tu cercar non dei
+	Ma chi t’acert’anchor che non sia tale
+	[TACET]
+	Eguale e’l dubbi’e’l rischio Ahi pur è meglio
+	Come ardito morir che come vile.
 @@END: VARIORUM
 
 
@@ -796,16 +801,16 @@ Come ardito morir che come vile.
 @ID:		Tam2031126a-Alto
 @TYPE:		music
 @COMPOSER:	Balsamino, Simone
-@PAGE:	15	
+@PAGE:	15
 @PARATEXT:	
 @VERSE:		
-TIRSI [TACET]
-Ch’à lei dispiace e dispiacer le deve
-Dirittamente e tu cercar non dei
-Ma chi t’acerta anchor che non sia tale
-hor s’ella fosse tale e non v’andassi
-Eguale e’l dubbi’e’l rischio Ahi pur è meglio
-Come ardito morir che come vile.	
+	TIRSI [TACET]
+	Ch’à lei dispiace e dispiacer le deve
+	Dirittamente e tu cercar non dei
+	Ma chi t’acerta anchor che non sia tale
+	hor s’ella fosse tale e non v’andassi
+	Eguale e’l dubbi’e’l rischio Ahi pur è meglio
+	Come ardito morir che come vile.
 @@END: VARIORUM
 
 
@@ -817,13 +822,13 @@ Come ardito morir che come vile.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-TIRSI Ecco tu chiedi pur quella certezza
-Ch’à lei dispiace e dispiacer le deve
-Dirittamente e tu cercar non dei
-[TACET]
-Hor s’ella fosse tale e non v’andassi
-Eguale e’l dubbi’e’l rischio Ahi pur è meglio
-Come ardito morir che come vile.	
+	TIRSI Ecco tu chiedi pur quella certezza
+	Ch’à lei dispiace e dispiacer le deve
+	Dirittamente e tu cercar non dei
+	[TACET]
+	Hor s’ella fosse tale e non v’andassi
+	Eguale e’l dubbi’e’l rischio Ahi pur è meglio
+	Come ardito morir che come vile.
 @@END: VARIORUM
 
 
@@ -835,13 +840,13 @@ Come ardito morir che come vile.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-[TACET]
-Ch’à lei dispiace e dispiacer le deve
-Dirittamente e tu cercar non dei
-[TACET]
-Hor s’ella fosse tale e non v’andassi
-Eguale e’l dubbi’e’l rischio Ahi pur è meglio
-Come ardito morir che come vile.		
+	[TACET]
+	Ch’à lei dispiace e dispiacer le deve
+	Dirittamente e tu cercar non dei
+	[TACET]
+	Hor s’ella fosse tale e non v’andassi
+	Eguale e’l dubbi’e’l rischio Ahi pur è meglio
+	Come ardito morir che come vile.
 @@END: VARIORUM
 
 
@@ -853,13 +858,13 @@ Come ardito morir che come vile.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-TIRSI Ecco tu chiedi pur quella certezza
-Ch’à lei dispiace e dispiacer le deve
-Dirittamente e tu cercar non dei
-Ma chi t’acert’anchor che non sia tale
-[TACET]
-Eguale e’l dubbi’e’l rischio Ahi pur è meglio
-Come ardito morir che come vile.	
+	TIRSI Ecco tu chiedi pur quella certezza
+	Ch’à lei dispiace e dispiacer le deve
+	Dirittamente e tu cercar non dei
+	Ma chi t’acert’anchor che non sia tale
+	[TACET]
+	Eguale e’l dubbi’e’l rischio Ahi pur è meglio
+	Come ardito morir che come vile.
 @@END: VARIORUM
 
 
@@ -871,13 +876,13 @@ Come ardito morir che come vile.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-TIRSI Ecco tu chiedi pur quella certezza
-[TACET] e dispiacer le deve
-Dirittamente e tu cercar non dei
-Ma chi t’acert’anchor che non sia tale
-Hor s’ella fosse tale e non n’andassi
-Eguale e’l dubbi’e’l rischio Ahi pur è meglio
-Come ardito morir che come vile.	
+	TIRSI Ecco tu chiedi pur quella certezza
+	[TACET] e dispiacer le deve
+	Dirittamente e tu cercar non dei
+	Ma chi t’acert’anchor che non sia tale
+	Hor s’ella fosse tale e non n’andassi
+	Eguale e’l dubbi’e’l rischio Ahi pur è meglio
+	Come ardito morir che come vile.
 @@END: VARIORUM
 
 

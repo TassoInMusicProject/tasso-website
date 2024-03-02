@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
 @ID:		E1
@@ -17,13 +18,13 @@
 @PAGE:		229
 @PARATEXT:	stampa.
 @VERSE:		
-O timida lepretta
-Che mentre fuggi per salvar la vita
-Giungi dov’è la morte, e più gradita.
-S'inanzi a si begl’occhi
-La dove io prego, chè ‘l morir mi tocchi
-Il mondo ti dispiace
-Non sai come riposo apporta, e pace.
+	O timida lepretta
+	Che mentre fuggi per salvar la vita
+	Giungi dov’è la morte, e più gradita.
+	S'inanzi a si begl’occhi
+	La dove io prego, chè ‘l morir mi tocchi
+	Il mondo ti dispiace
+	Non sai come riposo apporta, e pace.
 @@END: VARIORUM
 
 
@@ -57,7 +58,7 @@ Non sai come riposo apporta, e pace.
 @PAGE:		57
 @PARATEXT:	
 @VERSE:		
-O Timida lepretta,
+	O Timida lepretta,
 	Che mentre fuggi per salvar la vita,
 	Giungi, dove la morte è più gradita
 	S’inanzi à sì begli occhi
@@ -75,13 +76,13 @@ O Timida lepretta,
 @PAGE:		128
 @PARATEXT:	
 @VERSE:	
-O timida lepretta,
-Che mentre fuggi per salvar la vita,
-Giungi dove la morte è piu gradita,
-S'innanzi à si begli occhi,
-Là dov'io prego che‘l morir mi tocchi,
-Il morir ti dispiace,
-Non sai come riposo apporta, e pace.
+	O timida lepretta,
+	Che mentre fuggi per salvar la vita,
+	Giungi dove la morte è piu gradita,
+	S'innanzi à si begli occhi,
+	Là dov'io prego che‘l morir mi tocchi,
+	Il morir ti dispiace,
+	Non sai come riposo apporta, e pace.
 @@END: VARIORUM
 
 
@@ -93,15 +94,17 @@ Non sai come riposo apporta, e pace.
 @PAGE:		64
 @PARATEXT:	
 @VERSE:	
-O timida lepretta,
-Che mentre fuggi per salvar la vita,
-Giungi dove la morte è piu gradita,
-S'innanzi à sì begli occhi,
-Là dov'io prego che‘l morir mi tocchi,
-Il morir ti dispiace,
-Non sai come riposo apporta, e pace.
+	O timida lepretta,
+	Che mentre fuggi per salvar la vita,
+	Giungi dove la morte è piu gradita,
+	S'innanzi à sì begli occhi,
+	Là dov'io prego che‘l morir mi tocchi,
+	Il morir ti dispiace,
+	Non sai come riposo apporta, e pace.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
 @ID:		S141
 @TYPE:		print
@@ -109,15 +112,17 @@ Non sai come riposo apporta, e pace.
 @PAGE:		Parte terza delle Rime, 128
 @PARATEXT:	Alla Sig. D. Virginia de Medici sposa del Sig. Cesare d’Este.
 @VERSE:		
-O timida lepretta,
+	O timida lepretta,
 	Che mentre fuggi per salvar la vita,
 	Giungi, dove la morte è più gradita
 	S’innanzi a sì begli occhi.
 	Là, dove, prego, che ’l mio fin mi tocchi:
 	Il morir ti dispiace,
 	Non sai come riposo apporti, e pace.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
 @ID:		S166
 @TYPE:		print
@@ -125,15 +130,17 @@ O timida lepretta,
 @PAGE:		Parte terza delle Rime, 128
 @PARATEXT:	Alla Sig. D. Virginia de Medici sposa del Sig. Cesare d’Este.
 @VERSE:		
-O timida lepretta,
+	O timida lepretta,
 	Che mentre fuggi per salvar la vita,
 	Giungi, dove la morte è più gradita
 	S’innanzi a sì begli occhi.
 	Là, dove, prego, che ’l mio fin mi tocchi:
 	Il morir ti dispiace,
 	Non sai come riposo apporti, e pace.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0901
 @ID:		S169
 @TYPE:		print
@@ -141,14 +148,14 @@ O timida lepretta,
 @PAGE:		RIME DEL TASSO.BOSCHERECCIE. P. II., 45
 @PARATEXT:	Lepre morta innanti a madonna.
 @VERSE:		
-O timida Lepretta,
+	O timida Lepretta,
 	Che mentre fuggi per salvar la vita,
 	Giungi dove la morte è più gradita.
 	S’inanzi a sì begli occhi
 	Là, dove prega, che il mio fin mi tocchi:
 	Il morir ti dispiace,
 	Non sai, come quiete apporti, e pace.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -156,10 +163,10 @@ O timida Lepretta,
 @ID:		Trm0901a-Canto
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:	17	
+@PAGE:	17
 @PARATEXT:	
 @VERSE:		
-O timida Lepretta
+	O timida Lepretta
 	Che mentre fuggi per salvar la vita
 	Giungi dove la morte è più gradita
 	S’inanzi à sì begl'occhi
@@ -174,10 +181,10 @@ O timida Lepretta
 @ID:		Trm0901a-Alto
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:	17	
+@PAGE:	17
 @PARATEXT:	
 @VERSE:		
-O timida Lepretta
+	O timida Lepretta
 	Che mentre fuggi per salvar la vita
 	Giungi dove la morte è più gradita
 	S’inanzi sì begl'occhi
@@ -192,10 +199,10 @@ O timida Lepretta
 @ID:		Trm0901a-Tenore
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:	17	
+@PAGE:	17
 @PARATEXT:	
 @VERSE:		
-O timida Lepretta
+	O timida Lepretta
 	Che mentre fuggi per salvar la vita
 	Giungi dove la morte è più gradita
 	S’inanzi sì begl'occhi
@@ -210,10 +217,10 @@ O timida Lepretta
 @ID:		Trm0901a-Basso
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:	17	
+@PAGE:	17
 @PARATEXT:	
 @VERSE:		
-O timida Lepretta
+	O timida Lepretta
 	Che mentre fuggi per salvar la vita
 	Giungi dove la morte è più gradita
 	S’inanzi sì begl'occhi
@@ -228,10 +235,10 @@ O timida Lepretta
 @ID:		Trm0901a-Quinto
 @TYPE:		music
 @COMPOSER:	Giovannelli, Ruggiero
-@PAGE:	17	
+@PAGE:	17
 @PARATEXT:	
 @VERSE:		
-O timida Lepretta
+	O timida Lepretta
 	Che mentre fuggi per salvar la vita
 	Giungi dove la morte è più gradita
 	S’inanzi sì begl'occhi

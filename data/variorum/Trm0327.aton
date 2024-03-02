@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0327
 @ID:		E2
@@ -17,15 +18,15 @@
 @PAGE:		[102]r
 @PARATEXT:	stamp[at]o. [Tasso wrote four different versions of this poem, listed consecutively at 102r-102v in this source. The version transcribed below is the only one that Tasso did not erase.]
 @VERSE:		
-Come cristallo in monte,
-l’orgoglio, in voi s’indura,
-Donna bella, e crudele, ^superba^ oltra misura :
-In me l’amore affina,
-Come or lucente infiamma,
-e se gela il cor vostro <del>agghiaccia</del>, ‘l mio s’infiamma :
-Ne quella algente brina
-struggi. p[er]ò: ma nel’istesso loco
-Manterria fede eterna <del>il gi</del> al gelo il foco :
+	Come cristallo in monte,
+	l’orgoglio, in voi s’indura,
+	Donna bella, e crudele, ^superba^ oltra misura :
+	In me l’amore affina,
+	Come or lucente infiamma,
+	e se gela il cor vostro <del>agghiaccia</del>, ‘l mio s’infiamma :
+	Ne quella algente brina
+	struggi. p[er]ò: ma nel’istesso loco
+	Manterria fede eterna <del>il gi</del> al gelo il foco :
 @@END: VARIORUM
 
 
@@ -37,15 +38,15 @@ Manterria fede eterna <del>il gi</del> al gelo il foco :
 @PAGE:		638
 @PARATEXT:	
 @VERSE:	
-Come cristallo in monte
-L’orgoglio in voi s’indura,
-Donna bella, e crudele oltra misura.
-In me l’amore affina,
-Com’or lucente infiamma,
-[ABSENT]
-Ne quella algente brina
-Struggo però, ma ne l’istesso loco
-Manterria fede eterna al gelo il foco.
+	Come cristallo in monte
+	L’orgoglio in voi s’indura,
+	Donna bella, e crudele oltra misura.
+	In me l’amore affina,
+	Com’or lucente infiamma,
+	[ABSENT]
+	Ne quella algente brina
+	Struggo però, ma ne l’istesso loco
+	Manterria fede eterna al gelo il foco.
 @@END: VARIORUM
 
 
@@ -57,15 +58,15 @@ Manterria fede eterna al gelo il foco.
 @PAGE:		71
 @PARATEXT:	
 @VERSE:		
-Come cristallo in monte
-L’orgoglio in voi s’indura,
-Donna bella, e crudele oltra misura.
-In me l’amore affina,
-Com’or lucente in fiamma;
-E se gela il cor vostro il mio s’infiamma.
-Nè quella algente brina
-Struggo però, ma ne l’istesso loco
-Manterria fede eterna al gelo il foco.
+	Come cristallo in monte
+	L’orgoglio in voi s’indura,
+	Donna bella, e crudele oltra misura.
+	In me l’amore affina,
+	Com’or lucente in fiamma;
+	E se gela il cor vostro il mio s’infiamma.
+	Nè quella algente brina
+	Struggo però, ma ne l’istesso loco
+	Manterria fede eterna al gelo il foco.
 @@END: VARIORUM
 
 
@@ -77,17 +78,19 @@ Manterria fede eterna al gelo il foco.
 @PAGE:		227
 @PARATEXT:	
 @VERSE:	
-Come cristallo in monte
-L’orgoglio in voi s’indura,
-Donna bella crudele, oltra misura:
-In me l’Amore affina,
-Com’or lucente in fiamma,
-E se gela il cor vostro, il mio s’infiamma.
-Ne quella algente brina
-Struggo però, ma ne l’istesso loco,
-Manteria fede eterna al gelo il foco.
+	Come cristallo in monte
+	L’orgoglio in voi s’indura,
+	Donna bella crudele, oltra misura:
+	In me l’Amore affina,
+	Com’or lucente in fiamma,
+	E se gela il cor vostro, il mio s’infiamma.
+	Ne quella algente brina
+	Struggo però, ma ne l’istesso loco,
+	Manteria fede eterna al gelo il foco.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0327
 @ID:		S141
 @TYPE:		print
@@ -95,7 +98,7 @@ Manteria fede eterna al gelo il foco.
 @PAGE:		Parte terza delle Rime, 149
 @PARATEXT:	Si duole del vedere stare cosi dura la D. sua a non amarlo.
 @VERSE:		
-Come cristallo in monte
+	Come cristallo in monte
 	L’orgoglio in voi s’indura,
 	Donna bella, e crudele oltra misura.
 	In me l’amore affina,
@@ -104,8 +107,10 @@ Come cristallo in monte
 	Nè quella algente brina
 	Struggo però, ma ne l’istesso loco
 	Manterria fede eterna al gelo il foco.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0327
 @ID:		S166
 @TYPE:		print
@@ -113,7 +118,7 @@ Come cristallo in monte
 @PAGE:		Parte terza delle Rime, 149
 @PARATEXT:	Si duole del vedere stare cosi dura la D. sua a non amarlo.
 @VERSE:		
-Come cristallo in monte
+	Come cristallo in monte
 	L’orgoglio in voi s’indura,
 	Donna bella, e crudele oltra misura.
 	In me l’amore affina,
@@ -122,8 +127,10 @@ Come cristallo in monte
 	Nè quella algente brina
 	Struggo però, ma ne l’istesso loco
 	Manterria fede eterna al gelo il foco.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0327
 @ID:		S169
 @TYPE:		print
@@ -131,7 +138,7 @@ Come cristallo in monte
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 156
 @PARATEXT:	Per gran orgoglio molta fede.
 @VERSE:		
-Come cristallo in monte
+	Come cristallo in monte
 	L’orgoglio in voi s’indura,
 	Donna bella, e crudele oltra misura.
 	In me l’amore affina,
@@ -140,7 +147,7 @@ Come cristallo in monte
 	Nè quella algente brina
 	Struggo però, ma ne l’istesso loco
 	Manterria fede eterna al gelo il foco.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -184,15 +191,15 @@ Come cristallo in monte
 @PAGE:		10-11
 @PARATEXT:	
 @VERSE:	
-Come cristallo in monte
-L’orgoglio in voi s’indura
-Donna bella e crudel oltra misura
-In me l’amore affina
-Com’hor lucente infiamma
-E se gela il cor vostro il mio s'infiamma
-Ne quell’algente brina
-Struggo però ma ne l’istesso loco
-Manteria fede eterna al gelo il foco.
+	Come cristallo in monte
+	L’orgoglio in voi s’indura
+	Donna bella e crudel oltra misura
+	In me l’amore affina
+	Com’hor lucente infiamma
+	E se gela il cor vostro il mio s'infiamma
+	Ne quell’algente brina
+	Struggo però ma ne l’istesso loco
+	Manteria fede eterna al gelo il foco.
 @@END: VARIORUM
 
 

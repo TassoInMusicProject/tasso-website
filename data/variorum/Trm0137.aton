@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0137
 @ID:		none
@@ -28,16 +29,16 @@
 @PAGE:		14
 @PARATEXT:	Loda il canto della D. Signora
 @VERSE:		
-Non fonte, ò fiume, ad aura
+	Non fonte, ò fiume, ad aura
 	Odo in più dolce suon di quel di Laura;
 @VERSE:
-Nè ’n lauro, ò ’n pino, ò ’n mirto
+	Nè ’n lauro, ò ’n pino, ò ’n mirto
 	Mormorar s’udì mai più dolce spirto.
 @VERSE:
-O felice, a cui spira;
+	O felice, a cui spira;
 	E quel beato, che per lei sospira.
 @VERSE:
-Che se gli inspira il core,
+	Che se gli inspira il core,
 	Pote al Ciel aspirar col suo valore.
 
 @@END: VARIORUM
@@ -51,16 +52,16 @@ Che se gli inspira il core,
 @PAGE:		Parte prima, 227
 @PARATEXT:	PARAGONA il canto di Laura a' dolcissimi suoni fatti naturalmente, e dimostra gli effetti de la meravigliosa armonia.
 @VERSE:	
-       NON fonte, fiume, od aura
+	NON fonte, fiume, od aura
 	     Odo in più dolce suon di quel di Laura.
 @VERSE:
 	     Nè’n lauro, ò’n pino, ò mirto,
 	     Mormorar s’udì mai più dolce spirto.
 @VERSE:
-      O felice, à cui spira;
+	O felice, à cui spira;
 	    E quel beato, che per lei sospira.
 @VERSE:
-      Che se gli inspira il core,
+	Che se gli inspira il core,
 	    Pote al Ciel aspirar co’l suo valore.
 @@END: VARIORUM
 
@@ -73,16 +74,16 @@ Che se gli inspira il core,
 @PAGE:		Parte prima, 236
 @PARATEXT:	Paragona il canto di Laura a' dolcissimi suoni fatti naturalmente e dimostra gli effetti de la meravigliosa armonia.
 @VERSE:	
-       Non fonte, fiume, od aura
+	Non fonte, fiume, od aura
 	     Odo in più dolce suon di quel di Laura.
 @VERSE:
 	     Nè ’n lauro, ò ’n pino, ò mirto,
 	     Mormorar s’udì mai più dolce spirto.
 @VERSE:
-      O felice, à cui spira;
+	O felice, à cui spira;
 	    E quel beato, che per lei sospira.
 @VERSE:
-      Che se gli inspira il core,
+	Che se gli inspira il core,
 	    Pote al Ciel aspirar co’l suo valore.
 @@END: VARIORUM
 
@@ -96,7 +97,9 @@ Che se gli inspira il core,
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0137
 @ID:		S141
 @TYPE:		print
@@ -104,16 +107,18 @@ Che se gli inspira il core,
 @PAGE:		Parte seconda delle Rime, 94
 @PARATEXT:	Paragona il canto dll'amata Donna a suoni soavi fatti dalla natura, &amp; non dall'arte. &amp; palesa gli effetti della rara sua armonia.
 @VERSE:		
-Non fonte, fiume, od aura
+	Non fonte, fiume, od aura
 	Odo in più dolce suon di quel di Laura.
-Nè ’n lauro, ò ’n pino, ò ’n mirto,
+	Nè ’n lauro, ò ’n pino, ò ’n mirto,
 	Mormorar s’udì mai più dolce spirto.
-O felice, à cui spira;
+	O felice, à cui spira;
 	E quel beato che per lei sospira.
-Che se gli inspira il core,
+	Che se gli inspira il core,
 	Pote al Ciel aspirar co' l suo valore.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0137
 @ID:		S169
 @TYPE:		print
@@ -121,7 +126,7 @@ Che se gli inspira il core,
 @PAGE:		RIME DEL TASSO AMOROSE. P. II., 213
 @PARATEXT:	Sopra il nome della detta.
 @VERSE:		
-Non fonte, fiume, od aura
+	Non fonte, fiume, od aura
 	Odo in più dolce suon di quel di Laura,
 	Ne 'n lauro, ò ’n pino, o ’n mirto,
 	Mormorar s’udì mai più dolce spirto.
@@ -129,7 +134,7 @@ Non fonte, fiume, od aura
 	E quel beato, che per lei sospira.
 	Che se gli inspira il core,
 	Puote al Ciel aspirar col suo favore.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -195,15 +200,15 @@ Non fonte, fiume, od aura
 @PAGE:		18
 @PARATEXT:	
 @VERSE:	
-Non fonte o fiume od aura
-Odo in piu dolce suon di quel di Laura
-Ne in lauro o’n pino’n Mirto
-Mormorar s’udi mai più dolce spirto.
+	Non fonte o fiume od aura
+	Odo in piu dolce suon di quel di Laura
+	Ne in lauro o’n pino’n Mirto
+	Mormorar s’udi mai più dolce spirto.
 @VERSE:
-O felice a cui spira:
-E quel beato che per lei sospira.
-Che se gli inspira il core
-Puote al ciel aspirar col suo valore.
+	O felice a cui spira:
+	E quel beato che per lei sospira.
+	Che se gli inspira il core
+	Puote al ciel aspirar col suo valore.
 @@END: VARIORUM
 
 
@@ -215,15 +220,15 @@ Puote al ciel aspirar col suo valore.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Non fonte o fiume od aura
-Odo in piu dolce suon di quel di Laura
-Ne in lauro o’n pino’n Mirto
-Mormorar s’udi mai più dolce spirto.
+	Non fonte o fiume od aura
+	Odo in piu dolce suon di quel di Laura
+	Ne in lauro o’n pino’n Mirto
+	Mormorar s’udi mai più dolce spirto.
 @VERSE:
-O felice a cui spira:
-E quel beato che per lei sospira.
-Che se gli inspira il core
-Puote al ciel aspirar col suo valore.
+	O felice a cui spira:
+	E quel beato che per lei sospira.
+	Che se gli inspira il core
+	Puote al ciel aspirar col suo valore.
 @@END: VARIORUM
 
 
@@ -235,15 +240,15 @@ Puote al ciel aspirar col suo valore.
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Non fonte o fiume od aura
-Odo in piu dolce suon di quel di Laura
-Ne in lauro o’n pino’n Mirto
-Mormorar s’udi mai più dolce spirto.
+	Non fonte o fiume od aura
+	Odo in piu dolce suon di quel di Laura
+	Ne in lauro o’n pino’n Mirto
+	Mormorar s’udi mai più dolce spirto.
 @VERSE:
-O felice a cui spira:
-E quel beato che per lei sospira.
-Che se gli inspira il core
-Puote al ciel aspirar col suo valore.
+	O felice a cui spira:
+	E quel beato che per lei sospira.
+	Che se gli inspira il core
+	Puote al ciel aspirar col suo valore.
 @@END: VARIORUM
 
 

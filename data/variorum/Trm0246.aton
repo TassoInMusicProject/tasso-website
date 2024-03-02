@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0246
 @ID:		none
@@ -25,7 +26,7 @@
 @ID:		S28
 @TYPE:		print
 @SPRINT:	
-@PAGE:	16	
+@PAGE:	16
 @PARATEXT:	
 @VERSE:		
 	Al lume de le stelle
@@ -328,7 +329,7 @@
 @ID:		Trm0246b-Basso
 @TYPE:		music
 @COMPOSER:	Borelli, Francesco Maria
-@PAGE:	12	
+@PAGE:	12
 @PARATEXT:	
 @VERSE:		
 	Al lume delle stelle

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0097
 @ID:		C
@@ -17,15 +18,15 @@
 @PAGE:		41v
 @PARATEXT:	<del>dole</del> Parla con Amore, dicendo di non voler credere piu a le parole ma a' fatti. [the entire poem is deleted with three vertical strike-throughs]
 @VERSE:	
-A chi creder deggio io,
-Se vani sono i detti,
-e’l vento se ne porta le parole.
-Non a le voci sole,
-Che scompagnate sian da veri effetti,
-Amor crederò mai,
-Ma tanto hor temo, quanto già sperai.
-Amor, se vuoi, ch’io creda,
-Convien, che’l core altrui ne’ fatti veda.
+	A chi creder deggio io,
+	Se vani sono i detti,
+	e’l vento se ne porta le parole.
+	Non a le voci sole,
+	Che scompagnate sian da veri effetti,
+	Amor crederò mai,
+	Ma tanto hor temo, quanto già sperai.
+	Amor, se vuoi, ch’io creda,
+	Convien, che’l core altrui ne’ fatti veda.
 @@END: VARIORUM
 
 
@@ -37,14 +38,14 @@ Convien, che’l core altrui ne’ fatti veda.
 @PAGE:		207
 @PARATEXT:	Stampa
 @VERSE:		
-A chi creder deggio io
-se vani sono i detti -
-E ‘l vento se ne porta le parole;
-Non à le voci sole
-Che scompagnate sian da veri effetti
-Amor crederò mai,
-Ma tanto hor temo, quanto già sperai
-Amor se vuoi ch’io creda
+	A chi creder deggio io
+	se vani sono i detti -
+	E ‘l vento se ne porta le parole;
+	Non à le voci sole
+	Che scompagnate sian da veri effetti
+	Amor crederò mai,
+	Ma tanto hor temo, quanto già sperai
+	Amor se vuoi ch’io creda
 <del>Convien che ‘l cor altrui ne’ fatti io veda</del> <del>Convien, che altrui cor à fatti veda</del> Convien che l’altrui core aspro io veda :
 @@END: VARIORUM
 
@@ -90,15 +91,15 @@ Amor se vuoi ch’io creda
 @PAGE:		42
 @PARATEXT:	Parla con Amore, dicendo di non voler credere piu alle parole, ma à fatti
 @VERSE:	
-A chi creder degg’io,
-Se vani sono i detti,
-E’l vento se ne porta le parole?
-Non à le voci sole,
-Che scompagnate sian da veri effetti,
-Amor, crederò mai;
-Ma tanto hor temo, quanto già sperai:
-Amor, se vuoi, ch’io creda,
-Convien, che’l core altrui ne’ fatti veda.
+	A chi creder degg’io,
+	Se vani sono i detti,
+	E’l vento se ne porta le parole?
+	Non à le voci sole,
+	Che scompagnate sian da veri effetti,
+	Amor, crederò mai;
+	Ma tanto hor temo, quanto già sperai:
+	Amor, se vuoi, ch’io creda,
+	Convien, che’l core altrui ne’ fatti veda.
 @@END: VARIORUM
 
 
@@ -110,15 +111,15 @@ Convien, che’l core altrui ne’ fatti veda.
 @PAGE:		119-120
 @PARATEXT:	
 @VERSE:	
-A chi creder degg’io
-Se vani sono i detti
-E’l vento se ne porta le parole?
-Non à le voci sole
-Che scompagnate sian da veri effetti
-Amor crederò mai;
-Ma tanto hor temo quanto già sperai.
-Amor se vuoi ch’io creda
-Convien che l’altrui cor, ò fatti veda.
+	A chi creder degg’io
+	Se vani sono i detti
+	E’l vento se ne porta le parole?
+	Non à le voci sole
+	Che scompagnate sian da veri effetti
+	Amor crederò mai;
+	Ma tanto hor temo quanto già sperai.
+	Amor se vuoi ch’io creda
+	Convien che l’altrui cor, ò fatti veda.
 @@END: VARIORUM
 
 
@@ -130,15 +131,15 @@ Convien che l’altrui cor, ò fatti veda.
 @PAGE:		58
 @PARATEXT:	
 @VERSE:	
-A chi creder degg’io
-Se vani sono i detti,
-E’l vento se ne porta le parole?
-Non à le voci sole,
-Che scompagnate sian da veri effetti,
-Amor, crederò mai;
-Ma tanto hor temo quanto già sperai.
-Amor, se vuoi ch’io creda,
-Convien che l’altrui cor, ò fatti veda.
+	A chi creder degg’io
+	Se vani sono i detti,
+	E’l vento se ne porta le parole?
+	Non à le voci sole,
+	Che scompagnate sian da veri effetti,
+	Amor, crederò mai;
+	Ma tanto hor temo quanto già sperai.
+	Amor, se vuoi ch’io creda,
+	Convien che l’altrui cor, ò fatti veda.
 @@END: VARIORUM
 
 
@@ -151,16 +152,18 @@ Convien che l’altrui cor, ò fatti veda.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0097
 @ID:		S141
 @TYPE:		print
 @SPRINT:	S141
 @PAGE:		Parte terza delle Rime,101
 @PARATEXT:	Parla con Amore, &amp; dice di non voler più
-credere alle parole, ma a fatti. Il nostro P. voleva venire alla conclusione, era alquanto impatiente.
+	credere alle parole, ma a fatti. Il nostro P. voleva venire alla conclusione, era alquanto impatiente.
 @VERSE:		
-A chi creder degg’io,
+	A chi creder degg’io,
 	Se vani sono i detti,
 	E ’l vento se ne porta le parole?
 	Non a le voci sole,
@@ -169,17 +172,19 @@ A chi creder degg’io,
 	Ma tanto hor temo, quanto già sperai:
 	Amor, se vuoi, ch’io creda,
 	Convien, che ’l core altrui ne’ fatti veda.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0097
 @ID:		S166
 @TYPE:		print
 @SPRINT:	S166
 @PAGE:		Parte terza delle Rime,101
 @PARATEXT:	Parla con Amore, &amp; dice di non voler più
-credere alle parole, ma a fatti. Il nostro P. voleva venire alla conclusione, era alquanto impatiente.
+	credere alle parole, ma a fatti. Il nostro P. voleva venire alla conclusione, era alquanto impatiente.
 @VERSE:		
-A chi creder degg’io,
+	A chi creder degg’io,
 	Se vani sono i detti,
 	E ’l vento se ne porta le parole?
 	Non a le voci sole,
@@ -188,8 +193,10 @@ A chi creder degg’io,
 	Ma tanto hor temo, quanto già sperai:
 	Amor, se vuoi, ch’io creda,
 	Convien, che ’l core altrui ne’ fatti veda.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0097
 @ID:		S169
 @TYPE:		print
@@ -197,7 +204,7 @@ A chi creder degg’io,
 @PAGE:		RIME DEL TASSO AMOROSE. P. II., 244
 @PARATEXT:	Segue. [Amante incredulo.]
 @VERSE:		
-A chi creder degg’io,
+	A chi creder degg’io,
 	Se vani sono i detti,
 	E ’l vento se ne porta le parole?
 	Non à le voci sole,
@@ -206,7 +213,7 @@ A chi creder degg’io,
 	Ma tanto hor temo, quanto già sperai.
 	Amor se vuoi, ch’io creda,
 	Convien, che ’l core altrui ne’ fatti veda.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -272,7 +279,7 @@ A chi creder degg’io,
 @PAGE:		5
 @PARATEXT:	a. 5.
 @VERSE:	
-A chi creder degg'io
+	A chi creder degg'io
 	Se vani son'i detti
 	E 'l vento se ne porta le parole
 	Non a le voci sole
@@ -292,7 +299,7 @@ A chi creder degg'io
 @PAGE:		5
 @PARATEXT:	a. 5.
 @VERSE:	
-A chi creder degg'io
+	A chi creder degg'io
 	Se vani son'i detti
 	E 'l vento se ne porta le parole
 	Non a le voci sole
@@ -312,7 +319,7 @@ A chi creder degg'io
 @PAGE:		5
 @PARATEXT:	a. 5.
 @VERSE:	
-A chi creder degg'io
+	A chi creder degg'io
 	Se vani son'i detti
 	E 'l vento se ne porta le parole
 	Non à le voci sole
@@ -332,7 +339,7 @@ A chi creder degg'io
 @PAGE:		5
 @PARATEXT:	a. 5.
 @VERSE:	
-A chi creder degg'io
+	A chi creder degg'io
 	Se vani son'i detti,
 	E 'l vento se ne porta le parole
 	Non à le voci sole,
@@ -352,7 +359,7 @@ A chi creder degg'io
 @PAGE:		5
 @PARATEXT:	a. 5.
 @VERSE:	
-A chi creder degg'io
+	A chi creder degg'io
 	Se vani son'i detti
 	E 'l vento se ne porta le parole
 	Non a le voci sole

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0154
 @ID:		C
@@ -17,15 +18,15 @@
 @PAGE:		64r
 @PARATEXT:	Prega la sua donna, che non gli vuol dare il suo core gli dia almeno la sua imagine: e poi conchiude che le debba donar l'una, e render l'altra:
 @VERSE:		
-S’a sdegno voi prendete,
-che'l cor vostro io vi chieda<del>illegible</del>,
-l’imagin vostra almeno hor si conceda.
-Ma chi fia, che l’ammiri,
-e se ne mostri vago,
-se non segue il mio cor la vostra imago!
-Dunque il cor mi rendete;
-Che perche in me respiri,
-Non fia men vostro in tutti i suoi desiri.
+	S’a sdegno voi prendete,
+	che'l cor vostro io vi chieda<del>illegible</del>,
+	l’imagin vostra almeno hor si conceda.
+	Ma chi fia, che l’ammiri,
+	e se ne mostri vago,
+	se non segue il mio cor la vostra imago!
+	Dunque il cor mi rendete;
+	Che perche in me respiri,
+	Non fia men vostro in tutti i suoi desiri.
 @@END: VARIORUM
 
 
@@ -37,17 +38,17 @@ Non fia men vostro in tutti i suoi desiri.
 @PAGE:		40r
 @PARATEXT:	
 @VERSE:		
-S’a sdegno voi prendete,
-Ch’il <del>cor vostro vi chieda</del> ^mio cor vi richeda^,
-L’imagin vostra almen mi si conceda,
+	S’a sdegno voi prendete,
+	Ch’il <del>cor vostro vi chieda</del> ^mio cor vi richeda^,
+	L’imagin vostra almen mi si conceda,
 @VERSE:
-Ma chi fia, che l’ammiri
-L’ami, e sen mostri vago
-Se non segue il mio cor la vostra imago.
+	Ma chi fia, che l’ammiri
+	L’ami, e sen mostri vago
+	Se non segue il mio cor la vostra imago.
 @VERSE:
-Dunque il cor mi rendete.
-Che per che in me respiri
-Non fia men vostro in <del>fatti</del> ^tutti^ i suoi desiri.	
+	Dunque il cor mi rendete.
+	Che per che in me respiri
+	Non fia men vostro in <del>fatti</del> ^tutti^ i suoi desiri.
 @@END: VARIORUM
 
 
@@ -81,17 +82,17 @@ Non fia men vostro in <del>fatti</del> ^tutti^ i suoi desiri.
 @PAGE:		40r
 @PARATEXT:	
 @VERSE:		
-S’a sdegno voi prendete,
-Ch’il cor vostro vi chieda,
-L’imagin vostra almen mi si conceda,
+	S’a sdegno voi prendete,
+	Ch’il cor vostro vi chieda,
+	L’imagin vostra almen mi si conceda,
 @VERSE:
-Ma chi fia, che l’ammiri
-L’ami, e sen mostri vago
-Se non segue il mio cor la vostra imago.
+	Ma chi fia, che l’ammiri
+	L’ami, e sen mostri vago
+	Se non segue il mio cor la vostra imago.
 @VERSE:
-Dunque il cor mi rendete.
-Che per che in me respiri
-Non fia men vostro in fatti i suoi desiri.
+	Dunque il cor mi rendete.
+	Che per che in me respiri
+	Non fia men vostro in fatti i suoi desiri.
 @@END: VARIORUM
 
 
@@ -103,17 +104,17 @@ Non fia men vostro in fatti i suoi desiri.
 @PAGE:		40r
 @PARATEXT:		
 @VERSE:		
-S’a sdegno voi prendete,
-Ch’il cor vostro vi chieda,
-L’imagin vostra almen mi si conceda,
+	S’a sdegno voi prendete,
+	Ch’il cor vostro vi chieda,
+	L’imagin vostra almen mi si conceda,
 @VERSE:
-Ma chi fia, che l’ammiri
-L’ami, e sen mostri vago
-Se non segue il mio cor la vostra imago.
+	Ma chi fia, che l’ammiri
+	L’ami, e sen mostri vago
+	Se non segue il mio cor la vostra imago.
 @VERSE:
-Dunque il cor mi rendete.
-Che per che in me respiri
-Non fia men vostro in fatti i suoi desiri.
+	Dunque il cor mi rendete.
+	Che per che in me respiri
+	Non fia men vostro in fatti i suoi desiri.
 @@END: VARIORUM
 
 
@@ -137,7 +138,9 @@ Non fia men vostro in fatti i suoi desiri.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0154
 @ID:		S35
 @TYPE:		print
@@ -145,7 +148,7 @@ Non fia men vostro in fatti i suoi desiri.
 @PAGE:		40
 @PARATEXT:	[page missing in the exemplar cosulted]
 @VERSE:		
-[MISSING
+	[MISSING
 	MISSING
 	MISSING
 	MISSING
@@ -154,8 +157,10 @@ Non fia men vostro in fatti i suoi desiri.
 	MISSING
 	MISSING
 	MISSING]
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0154
 @ID:		S69
 @TYPE:		print
@@ -163,7 +168,7 @@ Non fia men vostro in fatti i suoi desiri.
 @PAGE:		40
 @PARATEXT:	[page missing in the exemplar cosulted]
 @VERSE:		
-[MISSING
+	[MISSING
 	MISSING
 	MISSING
 	MISSING
@@ -172,8 +177,10 @@ Non fia men vostro in fatti i suoi desiri.
 	MISSING
 	MISSING
 	MISSING]
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0154
 @ID:		S141
 @TYPE:		print
@@ -181,17 +188,19 @@ Non fia men vostro in fatti i suoi desiri.
 @PAGE:		Parte seconda delle Rime, 185
 @PARATEXT:	La sua Donna priega, che se si reca a sdegno che egli la guardi, almen gli conceda l'imagine sua.
 @VERSE:		
-S’à sdegno voi prendete
+	S’à sdegno voi prendete
 	Ch’il cor vostro vi chieda,
 	L’imagin vostra almen mi si conceda.
-Ma, chi fia, che l’ammiri
+	Ma, chi fia, che l’ammiri
 	L’ami, e sen mostri vago
 	Se non segue il mio cor la vostra imago?
-Dunque il cor mi rendete,
+	Dunque il cor mi rendete,
 	Che perche in me respiri
 	Non fia men vostro in fatti i suoi desiri.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0154
 @ID:		S166
 @TYPE:		print
@@ -199,17 +208,19 @@ Dunque il cor mi rendete,
 @PAGE:		Parte seconda delle Rime, 185
 @PARATEXT:	La sua Donna priega, che se si reca a sdegno che egli la guardi, almen gli conceda l'imagine sua.
 @VERSE:		
-S’à sdegno voi prendete
+	S’à sdegno voi prendete
 	Ch’il cor vostro vi chieda,
 	L’imagin vostra almen mi si conceda.
-Ma, chi fia, che l’ammiri
+	Ma, chi fia, che l’ammiri
 	L’ami, e sen mostri vago
 	Se non segue il mio cor la vostra imago?
-Dunque il cor mi rendete,
+	Dunque il cor mi rendete,
 	Che perche in me respiri
 	Non fia men vostro in fatti i suoi desiri.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0154
 @ID:		S169
 @TYPE:		print
@@ -217,7 +228,7 @@ Dunque il cor mi rendete,
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 45
 @PARATEXT:	Segue.
 @VERSE:		
-Se a sdegno voi prendete,
+	Se a sdegno voi prendete,
 	Che’l cor vostro vi chieda,
 	L’imagin vostra almen, mi si conceda.
 	Ma chi fia che l’ammiri
@@ -226,7 +237,7 @@ Se a sdegno voi prendete,
 	Dunque il cor mi rendete,
 	Che perche in me respiri,
 	Non fia men vostro in fatti, i suoi desiri.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

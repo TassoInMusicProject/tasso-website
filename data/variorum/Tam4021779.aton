@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021779
 @ID:		A-Am
@@ -53,16 +54,16 @@
 @PAGE:		54r
 @PARATEXT:	
 @VERSE:		
-.S[ILVIA]. Pastor di che piangete?
-Se piangete il mio affanno
-Io non merto pietate
-Che non la seppi usare
-Se piangete il morire
-Del misero innocente
-Questo è picciolo segno
-A si alta cagione. e tu rasciuga
-Dafne queste tue lagrime per Dio
-Se cagion ne son io
+	.S[ILVIA]. Pastor di che piangete?
+	Se piangete il mio affanno
+	Io non merto pietate
+	Che non la seppi usare
+	Se piangete il morire
+	Del misero innocente
+	Questo è picciolo segno
+	A si alta cagione. e tu rasciuga
+	Dafne queste tue lagrime per Dio
+	Se cagion ne son io
 @@END: VARIORUM
 
 
@@ -88,7 +89,9 @@ Se cagion ne son io
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021779
 @ID:		A-1580D
 @TYPE:		print
@@ -96,7 +99,7 @@ Se cagion ne son io
 @PAGE:		42r
 @PARATEXT:	ATTO QUARTO. NUNCIO, CHORO, SILVIA, E DAFNE.
 @VERSE:		
-S.	Pastor, di che piangete?
+	S.	Pastor, di che piangete?
 	Se piangete il mio affanno,
 	Io non merto pietade,
 	Che non la seppi usare;
@@ -106,7 +109,7 @@ S.	Pastor, di che piangete?
 	Di sì alta cagione, e tu rasciuga,
 	Dafne, queste tue lagrime, per Dio.
 	Se cagion ne son io.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -129,16 +132,16 @@ S.	Pastor, di che piangete?
 @PAGE:		77-78
 @PARATEXT:	
 @VERSE:		
-Sil. Pastor, di che piangete?
-Se piangete il mio affanno,
-Io non merto pietate,
-Che non la seppi usare:
-Se piangete il morire
-Del misero innocente,
-Questo è picciolo segno
-A si alta cagione: e tu rasciuga,
-Dafne, queste tue lagrime, per Dio.
-Se cagion ne son'io.	
+	Sil. Pastor, di che piangete?
+	Se piangete il mio affanno,
+	Io non merto pietate,
+	Che non la seppi usare:
+	Se piangete il morire
+	Del misero innocente,
+	Questo è picciolo segno
+	A si alta cagione: e tu rasciuga,
+	Dafne, queste tue lagrime, per Dio.
+	Se cagion ne son'io.
 @@END: VARIORUM
 
 
@@ -164,7 +167,9 @@ Se cagion ne son'io.
 @VERSE:		
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tam4021779
 @ID:		A-1581O
 @TYPE:		print
@@ -172,7 +177,7 @@ Se cagion ne son'io.
 @PAGE:		77
 @PARATEXT:	ATTO TERZO SCENA SECONDA. Aminta. Dafne, Nerina.
 @VERSE:		
-SIL.	Pastor, di che piangete?
+	SIL.	Pastor, di che piangete?
 	Se piangete il mio affanno,
 	Io non merto pietate,
 	Che non la seppi usare;
@@ -182,7 +187,7 @@ SIL.	Pastor, di che piangete?
 	A sì alta cagione: e tu rasciuga,
 	Dafne, queste tue lagrime, per Dio.
 	Se cagion ne son'io.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -793,16 +798,16 @@ SIL.	Pastor, di che piangete?
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Pastor di che piangete
-Se piangete il mio affanno
-Io non merto pietate
-Che non la seppi usare
-[TACET]
-Del misero innocente
-[TACET]
-A si alta cagione e tu rasciuga
-Dafne queste tue lagrime [TACET]
-Se cagion ne son io.	
+	Pastor di che piangete
+	Se piangete il mio affanno
+	Io non merto pietate
+	Che non la seppi usare
+	[TACET]
+	Del misero innocente
+	[TACET]
+	A si alta cagione e tu rasciuga
+	Dafne queste tue lagrime [TACET]
+	Se cagion ne son io.
 @@END: VARIORUM
 
 
@@ -814,16 +819,16 @@ Se cagion ne son io.
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Pastor di che piangete
-Se piangete il mio affanno
-Io non merto pietate
-Che non la seppi usare
-Se piangete il morire
-Del misero innocente
-Questo è picciolo segno
-[TACET] e tu rasciuga
-Dafne queste tue lagrime [TACET]
-Se cagion ne son io.		
+	Pastor di che piangete
+	Se piangete il mio affanno
+	Io non merto pietate
+	Che non la seppi usare
+	Se piangete il morire
+	Del misero innocente
+	Questo è picciolo segno
+	[TACET] e tu rasciuga
+	Dafne queste tue lagrime [TACET]
+	Se cagion ne son io.
 @@END: VARIORUM
 
 
@@ -835,16 +840,16 @@ Se cagion ne son io.
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Pastor di che piangete
-Se piangete il mio affanno
-Io non merto pietate
-Che non la seppi usare
-[TACET]
-Del misero innocente
-[TACET]
-A sì alta cagione. [TACET] rasciuga
-Dafne queste tue lagrime [TACET]
-Se cagion ne son io.		
+	Pastor di che piangete
+	Se piangete il mio affanno
+	Io non merto pietate
+	Che non la seppi usare
+	[TACET]
+	Del misero innocente
+	[TACET]
+	A sì alta cagione. [TACET] rasciuga
+	Dafne queste tue lagrime [TACET]
+	Se cagion ne son io.
 @@END: VARIORUM
 
 
@@ -856,16 +861,16 @@ Se cagion ne son io.
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-Io non merto pietate
-Che non la seppi usare
-Se piangete il morire
-Del misero innocente
-[TACET]
-A si alta cagione e tu rasciuga
-Dafne queste tue lagrime [TACET]
-Se cagion ne son io.	
+	[TACET]
+	[TACET]
+	Io non merto pietate
+	Che non la seppi usare
+	Se piangete il morire
+	Del misero innocente
+	[TACET]
+	A si alta cagione e tu rasciuga
+	Dafne queste tue lagrime [TACET]
+	Se cagion ne son io.
 @@END: VARIORUM
 
 
@@ -877,16 +882,16 @@ Se cagion ne son io.
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Pastor di che piangete
-Se piangete il mio affanno
-Io non merto pietate
-Che non la seppi usare
-Se piangete il morire
-Del misero innocente
-Questo è picciolo segno
-[TACET] e tu rasciuga
-Dafne queste tue lagrime [TACET]
-Se cagion ne son io.	
+	Pastor di che piangete
+	Se piangete il mio affanno
+	Io non merto pietate
+	Che non la seppi usare
+	Se piangete il morire
+	Del misero innocente
+	Questo è picciolo segno
+	[TACET] e tu rasciuga
+	Dafne queste tue lagrime [TACET]
+	Se cagion ne son io.
 @@END: VARIORUM
 
 
@@ -898,15 +903,15 @@ Se cagion ne son io.
 @PAGE:		19
 @PARATEXT:	
 @VERSE:		
-Io non merto pietate
-Che non la seppi usare
-Se piangete il morire
-Del misero innocente
-Questo è picciolo segno
-A sì alta cagione
-[TACET] e tu rasciuga
-Dafne queste tue lagrime
-Se cagion ne son io.	
+	Io non merto pietate
+	Che non la seppi usare
+	Se piangete il morire
+	Del misero innocente
+	Questo è picciolo segno
+	A sì alta cagione
+	[TACET] e tu rasciuga
+	Dafne queste tue lagrime
+	Se cagion ne son io.
 @@END: VARIORUM
 
 

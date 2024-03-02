@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0139
 @ID:		C
@@ -17,17 +18,17 @@
 @PAGE:		62r
 @PARATEXT:	^<del>assomi</del>^ fa comparatione della Sig.ra L all'Aura.
 @VERSE:		
-Messaggiera de l’Alba,
-e quest’aura terrena
-e torbida talhor, talhor serena.
+	Messaggiera de l’Alba,
+	e quest’aura terrena
+	e torbida talhor, talhor serena.
 @VERSE:
-Laura mia par celeste
-cosi bella io la veggio
-Dopo l’aurora in <del>questo</del> ^fresco^ e verde seggio:
+	Laura mia par celeste
+	cosi bella io la veggio
+	Dopo l’aurora in <del>questo</del> ^fresco^ e verde seggio:
 @VERSE:
 <del>l'una di fior</del> ^Di fior l’una ri^veste
-il dilettoso Aprile,
-l’altra fiorir fà l’amoroso stile.
+	il dilettoso Aprile,
+	l’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
 
 
@@ -50,17 +51,17 @@ l’altra fiorir fà l’amoroso stile.
 @PAGE:		43
 @PARATEXT:	Fa comparatione della Signora Laura Peperara all’Aura
 @VERSE:	
-Messaggiera de l’Alba
-E quest’aura terrena,
-E torbida talhor, talhor serena.
+	Messaggiera de l’Alba
+	E quest’aura terrena,
+	E torbida talhor, talhor serena.
 @VERSE:
-L’aura mia par celeste,
-Così bella io la veggio
-Dopo l’Aurora in fresco; e verde seggio.
+	L’aura mia par celeste,
+	Così bella io la veggio
+	Dopo l’Aurora in fresco; e verde seggio.
 @VERSE:
-Di fior l’una riveste
-Il dilettoso Aprile,
-L’altra fiorir fà l’amoroso stile.
+	Di fior l’una riveste
+	Il dilettoso Aprile,
+	L’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
 
 
@@ -72,19 +73,21 @@ L’altra fiorir fà l’amoroso stile.
 @PAGE:		43
 @PARATEXT:	In comparatione della Signora à l’aura
 @VERSE:		
-Messagiera de l’alba
+	Messagiera de l’alba
 È quest’aura terrena
-E torbida talhor serena.
+	E torbida talhor serena.
 @VERSE:
-Laura mia par celeste,
-Cosi bella io la veggio
-Dopo l’Aurora in fresco e verde seggio.
+	Laura mia par celeste,
+	Cosi bella io la veggio
+	Dopo l’Aurora in fresco e verde seggio.
 @VERSE:
-Di fior l’una si veste
-Il dilettoso Aprile
-L’altra fiorir fà l’amoroso stile.
+	Di fior l’una si veste
+	Il dilettoso Aprile
+	L’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0139
 @ID:		S141
 @TYPE:		print
@@ -92,17 +95,19 @@ L’altra fiorir fà l’amoroso stile.
 @PAGE:		Parte terza delle Rime, 102
 @PARATEXT:	Fa comparazione della Sig. Laura Peperara all' Alba.
 @VERSE:		
-Messaggiera de l’Alba
+	Messaggiera de l’Alba
 	E quest’aura terrena,
 	E torbida talhor, talhor serena
-L' aura mia par celeste,
+	L' aura mia par celeste,
 	Così bella io la veggio
 	Dopo l’Aurora in fresca, e verde seggio:
-Di fior l’una riveste
+	Di fior l’una riveste
 	Il dilettoso Aprile,
 	L’altra fiorir fa l’amoroso stile.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0139
 @ID:		S166
 @TYPE:		print
@@ -110,16 +115,16 @@ Di fior l’una riveste
 @PAGE:		Parte terza delle Rime, 102
 @PARATEXT:	Fa comparazione della Sig. Laura Peperara all' Alba.
 @VERSE:		
-Messaggiera de l’Alba
+	Messaggiera de l’Alba
 	E quest’aura terrena,
 	E torbida talhor, talhor serena
-L' aura mia par celeste,
+	L' aura mia par celeste,
 	Così bella io la veggio
 	Dopo l’Aurora in fresca, e verde seggio:
-Di fior l’una riveste
+	Di fior l’una riveste
 	Il dilettoso Aprile,
 	L’altra fiorir fa l’amoroso stile.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -130,18 +135,20 @@ Di fior l’una riveste
 @PAGE:		132
 @PARATEXT:	 Torq. Tasso
 @VERSE:		
-Messaggera de l’Alba
-E quest’Aura serena,
-E torbida tal'hor, tal'hor serena;
+	Messaggera de l’Alba
+	E quest’Aura serena,
+	E torbida tal'hor, tal'hor serena;
 @VERSE:
-L’Aura mia par celeste,
-Così bella io la veggio
-Doppo l’Aurora in fresco, e verde seggio.
-Di fior l’una riveste
-Il dilettoso Aprile,
-L’altra fiorir fà l’amoroso stile.
+	L’Aura mia par celeste,
+	Così bella io la veggio
+	Doppo l’Aurora in fresco, e verde seggio.
+	Di fior l’una riveste
+	Il dilettoso Aprile,
+	L’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0139
 @ID:		S169
 @TYPE:		print
@@ -149,7 +156,7 @@ L’altra fiorir fà l’amoroso stile.
 @PAGE:		RIME DEL TASSO BOSCHERECCIE. P. II., 39
 @PARATEXT:	Segue.
 @VERSE:		
-Messaggiera de l’Alba
+	Messaggiera de l’Alba
 	È quest’aura terrena,
 	E torbida talhor, talhor serena.
 	Laura mia par celeste,
@@ -158,7 +165,7 @@ Messaggiera de l’Alba
 	Di fior l’una riveste
 	Il dilettoso Aprile
 	L’altra fiorir fa l’amoroso stile.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -169,17 +176,17 @@ Messaggiera de l’Alba
 @PAGE:		23
 @PARATEXT:	
 @VERSE:		
-Messaggiera de l’Alba
-E quest’aura terrena
-E torbida tal hor tal hor serena.
+	Messaggiera de l’Alba
+	E quest’aura terrena
+	E torbida tal hor tal hor serena.
 @VERSE:
-L’aura mia par celeste
-Cosi bella io la veggio
-Dopo l’aurora in fresco e verde seggio.
+	L’aura mia par celeste
+	Cosi bella io la veggio
+	Dopo l’aurora in fresco e verde seggio.
 @VERSE:
-Di fior l’una si veste
-Del dilettoso Aprile
-L’altra fiorir fà l’amoroso stile.
+	Di fior l’una si veste
+	Del dilettoso Aprile
+	L’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
 
 
@@ -191,17 +198,17 @@ L’altra fiorir fà l’amoroso stile.
 @PAGE:		23
 @PARATEXT:	
 @VERSE:		
-Messaggiera de l’Alba
-E quest’aura terrena
-E torbida tal hor tal hor serena.
+	Messaggiera de l’Alba
+	E quest’aura terrena
+	E torbida tal hor tal hor serena.
 @VERSE:
-L’aura mia par celeste
-Cosi bella io la veggio
-Dopo l’aurora in fresco e verde seggio.
+	L’aura mia par celeste
+	Cosi bella io la veggio
+	Dopo l’aurora in fresco e verde seggio.
 @VERSE:
-Di fior l’una si veste
-Del dilettoso Aprile
-L’altra fiorir fà l’amoroso stile.
+	Di fior l’una si veste
+	Del dilettoso Aprile
+	L’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
 
 
@@ -213,17 +220,17 @@ L’altra fiorir fà l’amoroso stile.
 @PAGE:		23
 @PARATEXT:	
 @VERSE:		
-Messaggiera de l’Alba
-E quest’aura terrena
-E torbida tal hor tal hor serena.
+	Messaggiera de l’Alba
+	E quest’aura terrena
+	E torbida tal hor tal hor serena.
 @VERSE:
-L’aura mia par celeste
-Cosi bella io la veggio
-Dopo l’aurora in fresco e verde seggio.
+	L’aura mia par celeste
+	Cosi bella io la veggio
+	Dopo l’aurora in fresco e verde seggio.
 @VERSE:
-Di fior l’una si veste
-Del dilettoso Aprile
-L’altra fiorir fà l’amoroso stile.
+	Di fior l’una si veste
+	Del dilettoso Aprile
+	L’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
 
 
@@ -235,17 +242,17 @@ L’altra fiorir fà l’amoroso stile.
 @PAGE:		23
 @PARATEXT:	
 @VERSE:		
-Messaggiera de l’Alba
-E quest’aura terrena
-E torbida tal hor tal hor serena.
+	Messaggiera de l’Alba
+	E quest’aura terrena
+	E torbida tal hor tal hor serena.
 @VERSE:
-L’aura mia par celeste
-Cosi bella Idea veggio
-Dopo l’aurora in fresco e verde seggio.
+	L’aura mia par celeste
+	Cosi bella Idea veggio
+	Dopo l’aurora in fresco e verde seggio.
 @VERSE:
-Di fior l’una si veste
-Del dilettoso Aprile
-L’altra fiorir fà l’amoroso stile.
+	Di fior l’una si veste
+	Del dilettoso Aprile
+	L’altra fiorir fà l’amoroso stile.
 @@END: VARIORUM
 
 

@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0191
 @ID:		P3
@@ -17,7 +18,7 @@
 @PAGE:		256
 @PARATEXT:	
 @VERSE:		
-Arsi mentre m'amaste,
+	Arsi mentre m'amaste,
 	Ed al cortese affetto
 	Pagò tributo di sospiri il petto.
 @VERSE:
@@ -51,7 +52,7 @@ Arsi mentre m'amaste,
 @PAGE:		181
 @PARATEXT:	Madrigale
 @VERSE:	
-Arsi mentre à voi piacque
+	Arsi mentre à voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto
 	Ma poi ch'el bel disio
@@ -73,7 +74,7 @@ Arsi mentre à voi piacque
 @PAGE:		169
 @PARATEXT:	
 @VERSE:		
-Arsi mentre à voi piacque
+	Arsi mentre à voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto.
 @VERSE:
@@ -98,7 +99,7 @@ Arsi mentre à voi piacque
 @PAGE:		169
 @PARATEXT:	
 @VERSE:		
-Arsi mentre à voi piacque
+	Arsi mentre à voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto.
 @VERSE:
@@ -111,7 +112,7 @@ Arsi mentre à voi piacque
 	Ch’il mio dono di voi stimaste indegno.
 @VERSE:
 	Questo seccò le chiome
-	Del lauro, ond’honorava il vostro nome.	
+	Del lauro, ond’honorava il vostro nome.
 @@END: VARIORUM
 
 
@@ -123,7 +124,7 @@ Arsi mentre à voi piacque
 @PAGE:		56
 @PARATEXT:	SOPRA LA MEDESIMA SIG. LAURA
 @VERSE:		
-Arsi mentre à voi piacque,
+	Arsi mentre à voi piacque,
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto,
 	Ma poi, ch'il vostro Amore
@@ -135,7 +136,9 @@ Arsi mentre à voi piacque,
 	Questo seccò le chiome
 	Del Lauro ond’honorava il vostro nome.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0191
 @ID:		S141
 @TYPE:		print
@@ -143,19 +146,21 @@ Arsi mentre à voi piacque,
 @PAGE:		Parte seconda delle Rime, 255
 @PARATEXT:	Si scusa con salde ragioni del non amar piu la sua Donna, ne d'illustrarla piu co' versi suoi.
 @VERSE:		
-Arsi mentre à voi piacque
+	Arsi mentre à voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto.
-Ma poi ch' il vostro amore
+	Ma poi ch' il vostro amore
 	Volgeste in altra parte,
 	Donna, s'estinse anco il mio foco in parte.
-Sorse poi novo ardore,
+	Sorse poi novo ardore,
 	Ma fiamma fu di sdegno,
 	Ch' il mio dono di voi stimaste indegno.
-Questo seccò le chiome
+	Questo seccò le chiome
 	Del lauro, ond’honorava il vostro nome.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0191
 @ID:		S166
 @TYPE:		print
@@ -163,19 +168,21 @@ Questo seccò le chiome
 @PAGE:		Parte seconda delle Rime, 255
 @PARATEXT:	Si scusa con salde ragioni del non amar piu la sua Donna, ne d'illustrarla piu co' versi suoi.
 @VERSE:		
-Arsi mentre à voi piacque
+	Arsi mentre à voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto.
-Ma poi ch' il vostro amore
+	Ma poi ch' il vostro amore
 	Volgeste in altra parte,
 	Donna, s'estinse anco il mio foco in parte.
-Sorse poi novo ardore,
+	Sorse poi novo ardore,
 	Ma fiamma fu di sdegno,
 	Ch' il mio dono di voi stimaste indegno.
-Questo seccò le chiome
+	Questo seccò le chiome
 	Del lauro, ond’honorava il vostro nome.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0191
 @ID:		S169
 @TYPE:		print
@@ -183,7 +190,7 @@ Questo seccò le chiome
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 259
 @PARATEXT:	Fiamme di sdegno.
 @VERSE:		
-Arsi mentre à voi piacque,
+	Arsi mentre à voi piacque,
 	Et al cortese affetto,
 	Pagò tributo di sospiri il petto;
 	Ma poi, ch' il vostro amore
@@ -192,7 +199,7 @@ Arsi mentre à voi piacque,
 	Sorse poi novo ardore;
 	Ma fiamma fù di sdegno,
 	Ch' il mio don di voi stimaste indegno.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -203,7 +210,7 @@ Arsi mentre à voi piacque,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Arsi mentre à voi piacque,
+	Arsi mentre à voi piacque,
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto:
 	Ma poi che'l vostro amore
@@ -225,7 +232,7 @@ Arsi mentre à voi piacque,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Arsi mentre à voi piacque,
+	Arsi mentre à voi piacque,
 	Et al cortese affetto
 	Pagò tributo di sospiri il petto:
 	Ma poi che'l vostro amore
@@ -247,7 +254,7 @@ Arsi mentre à voi piacque,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Arsi mentre à voi piacque,
+	Arsi mentre à voi piacque,
 	Et al cortese affetto
 	Pagò tributo di sospir il petto:
 	Ma poi che'l vostro amore
@@ -257,7 +264,7 @@ Arsi mentre à voi piacque,
 	Ma fiamma fù di sdegno,
 	Che’l mio dono di voi stimaste indegno,
 	Questo seccò le chiome
-	Del laur'ond’honorava il vostro nome.	
+	Del laur'ond’honorava il vostro nome.
 @@END: VARIORUM
 
 
@@ -269,7 +276,7 @@ Arsi mentre à voi piacque,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Arsi mentr'à voi piacque,
+	Arsi mentr'à voi piacque,
 	Et al cortese affetto
 	Pagò tributo di sospir'il petto:
 	Ma poi che'l vostr'amore.
@@ -279,7 +286,7 @@ Arsi mentr'à voi piacque,
 	Ma fiamma fù di sdegno,
 	Che’l mio dono di voi stimaste indegno:
 	Questo seccò le chiome
-	Del lauro, onde honorava il vostro nome.	
+	Del lauro, onde honorava il vostro nome.
 @@END: VARIORUM
 
 
@@ -291,7 +298,7 @@ Arsi mentr'à voi piacque,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Arsi mentr'à voi piacque,
+	Arsi mentr'à voi piacque,
 	Et al cortese affetto
 	Pagò tributo di sospir'il petto:
 	[TACET]
@@ -301,7 +308,7 @@ Arsi mentr'à voi piacque,
 	Ma fiamma fù di sdegno,
 	Che’l mio dono di voi stimaste indegno:
 	Questo seccò le chiome
-	Del lauro, onde honorava il vostro nome.	
+	Del lauro, onde honorava il vostro nome.
 @@END: VARIORUM
 
 
@@ -313,7 +320,7 @@ Arsi mentr'à voi piacque,
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Arsi mentr'à voi piacque,
+	Arsi mentr'à voi piacque,
 	Et al cortes'affetto
 	Pagò tributo di sospir'il petto.
 @VERSE:
@@ -336,7 +343,7 @@ Arsi mentr'à voi piacque,
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Arsi mentr'à voi piacque,
+	Arsi mentr'à voi piacque,
 	Et al cortes'affetto
 	Pagò tributo di sospir'il petto.
 @VERSE:
@@ -347,7 +354,7 @@ Arsi mentr'à voi piacque,
 	Ma fiamma fù di sdegno,
 	Che’l mio dono di voi stimast'indegno,
 	Questo seccò le chiome
-	Del lauro, ond’honorav'il vostro nome.	
+	Del lauro, ond’honorav'il vostro nome.
 @@END: VARIORUM
 
 
@@ -359,7 +366,7 @@ Arsi mentr'à voi piacque,
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Arsi mentr'à voi piacque,
+	Arsi mentr'à voi piacque,
 	Et al cortes'affetto
 	Pagò tributo di sospir'il petto.
 @VERSE:
@@ -370,7 +377,7 @@ Arsi mentr'à voi piacque,
 	Ma fiamma fù di sdegno,
 	Che’l mio dono di voi stimast'indegno;
 	Questo seccò le chiome
-	Del lauro, ond’honorav'il vostro nome.	
+	Del lauro, ond’honorav'il vostro nome.
 @@END: VARIORUM
 
 
@@ -382,7 +389,7 @@ Arsi mentr'à voi piacque,
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Arsi mentr'à voi piacque,
+	Arsi mentr'à voi piacque,
 	Et al cortes'affetto
 	Pagò tributo di sospir'il petto.
 @VERSE:
@@ -393,7 +400,7 @@ Arsi mentr'à voi piacque,
 	Ma fiamma fù di sdegno,
 	Ch’il mio dono di voi stimast'indegno;
 	Questo seccò le chiome
-	Del lauro, ond’honorav'il vostro nome.	
+	Del lauro, ond’honorav'il vostro nome.
 @@END: VARIORUM
 
 
@@ -405,7 +412,7 @@ Arsi mentr'à voi piacque,
 @PAGE:		12
 @PARATEXT:	
 @VERSE:	
-Arsi mentre a voi piacque
+	Arsi mentre a voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospir il petto
 	Ma poi ch'il vostro Amore
@@ -427,7 +434,7 @@ Arsi mentre a voi piacque
 @PAGE:		12
 @PARATEXT:	
 @VERSE:		
-Arsi mentr'a voi piacque
+	Arsi mentr'a voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospir il petto
 	Ma poi ch'il vostr'amore
@@ -449,7 +456,7 @@ Arsi mentr'a voi piacque
 @PAGE:		12
 @PARATEXT:	
 @VERSE:	
-Arsi mentre a voi piacque
+	Arsi mentre a voi piacque
 	Et al cortese affetto
 	Pagò tributo di sospir il petto
 	Ma poi ch'il vostro Amore

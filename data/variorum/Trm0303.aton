@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0303
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		285
 @PARATEXT:	stampa
 @VERSE:		
-Sarai termine ancora
-Come de’ passi miei
-De miei cari diletti,
-Siepe, ch’udisti gli amorosi detti
-e non t’apristi all’hora
-Pietosamente fra ’l mio petto, e lei,
-Siepe siepe crudele,
-Al suon de le dolcissime querele.
+	Sarai termine ancora
+	Come de’ passi miei
+	De miei cari diletti,
+	Siepe, ch’udisti gli amorosi detti
+	e non t’apristi all’hora
+	Pietosamente fra ’l mio petto, e lei,
+	Siepe siepe crudele,
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 
@@ -47,14 +48,14 @@ Al suon de le dolcissime querele.
 @PAGE:		111
 @PARATEXT:	
 @VERSE:		
-Sarai termine ancora,
-Come de passi miei,
-De miei dolci diletti,
-Siepe, ch’udisti gli amorosi detti,
-E non ti apristi allora
-Pietosamente fra'l mio petto, e lei;
-Siepe, siepe crudele,
-Al suon de le dolcissime querele.
+	Sarai termine ancora,
+	Come de passi miei,
+	De miei dolci diletti,
+	Siepe, ch’udisti gli amorosi detti,
+	E non ti apristi allora
+	Pietosamente fra'l mio petto, e lei;
+	Siepe, siepe crudele,
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 
@@ -66,14 +67,14 @@ Al suon de le dolcissime querele.
 @PAGE:		112
 @PARATEXT:	
 @VERSE:		
-Sarai termine ancora
-Come de passi miei,
-De' miei cari diletti
-Siepe, ch’udisti gli amorosi detti,
-E non ti apristi all’hora,
-Pietosamente fra il mio petto, e lei.
-Siepe siepe crudele
-Al suon de le dolcissime querele.
+	Sarai termine ancora
+	Come de passi miei,
+	De' miei cari diletti
+	Siepe, ch’udisti gli amorosi detti,
+	E non ti apristi all’hora,
+	Pietosamente fra il mio petto, e lei.
+	Siepe siepe crudele
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 
@@ -85,14 +86,14 @@ Al suon de le dolcissime querele.
 @PAGE:		56
 @PARATEXT:	
 @VERSE:	
-Sarai termine ancora,
-Come de passi miei,
-De' miei cari diletti,
-Siepe, ch’udisti gli amorosi detti,
-E non ti apristi all’hora,
-Pietosamente fra il mio petto, e lei.
-Siepe, siepe crudele
-Al suon de le dolcissime querele.
+	Sarai termine ancora,
+	Come de passi miei,
+	De' miei cari diletti,
+	Siepe, ch’udisti gli amorosi detti,
+	E non ti apristi all’hora,
+	Pietosamente fra il mio petto, e lei.
+	Siepe, siepe crudele
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 
@@ -104,16 +105,18 @@ Al suon de le dolcissime querele.
 @PAGE:		111
 @PARATEXT:	
 @VERSE:		
-Sarai termine ancora,
-Come de passi miei,
-De miei dolci diletti,
-Siepe, ch’udisti gli amorosi detti,
-E non ti apristi allora
-Pietosamente fra'l mio petto, e lei;
-Siepe, siepe crudele,
-Al suon de le dolcissime parole.	
+	Sarai termine ancora,
+	Come de passi miei,
+	De miei dolci diletti,
+	Siepe, ch’udisti gli amorosi detti,
+	E non ti apristi allora
+	Pietosamente fra'l mio petto, e lei;
+	Siepe, siepe crudele,
+	Al suon de le dolcissime parole.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0303
 @ID:		S141
 @TYPE:		print
@@ -121,7 +124,7 @@ Al suon de le dolcissime parole.
 @PAGE:		Parte quarta delle Rime, 169
 @PARATEXT:	Si lamenta d’una siepe che non gli habbia lasciato cogliere gli ultimi frutti d’Amore
 @VERSE:		
-Sarai termine ancora,
+	Sarai termine ancora,
 	Come de passi miei,
 	De miei cari diletti,
 	Siepe, ch’udisti gli amorosi detti,
@@ -129,8 +132,10 @@ Sarai termine ancora,
 	Pietosamente fra ’l mio petto, e lei:
 	Siepe siepe crudele
 	Al suon de le dolcissime parole.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0303
 @ID:		S166
 @TYPE:		print
@@ -138,7 +143,7 @@ Sarai termine ancora,
 @PAGE:		Parte quarta delle Rime, 169
 @PARATEXT:	Si lamenta d’una siepe che non gli habbia lasciato cogliere gli ultimi frutti d’Amore
 @VERSE:		
-Sarai termine ancora,
+	Sarai termine ancora,
 	Come de passi miei,
 	De miei cari diletti,
 	Siepe, ch’udisti gli amorosi detti,
@@ -146,8 +151,10 @@ Sarai termine ancora,
 	Pietosamente fra ’l mio petto, e lei:
 	Siepe siepe crudele
 	Al suon de le dolcissime parole.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0303
 @ID:		S169
 @TYPE:		print
@@ -155,7 +162,7 @@ Sarai termine ancora,
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 13
 @PARATEXT:	Siepe importuna.
 @VERSE:		
-Sarai termine ancora,
+	Sarai termine ancora,
 	Come de passi miei,
 	De miei cari diletti,
 	Siepe che udisti gli amorosi detti,
@@ -163,7 +170,7 @@ Sarai termine ancora,
 	Pietosamente fra ’l mio petto, e lei:
 	Siepe siepe crudele
 	Al suon de le dolcissime querele.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -174,14 +181,14 @@ Sarai termine ancora,
 @PAGE:		20-21
 @PARATEXT:	
 @VERSE:		
-Sarai termine ancora
-Come de passi miei
-De miei dolci diletti
-Siepe ch'udisti gl'amorosi detti
-e non t'apristi all'hora
-Pietosamente fra 'l mio petto e lei
-Siepe Siepe crudele
-Al suon de le dolcissime querele.
+	Sarai termine ancora
+	Come de passi miei
+	De miei dolci diletti
+	Siepe ch'udisti gl'amorosi detti
+	e non t'apristi all'hora
+	Pietosamente fra 'l mio petto e lei
+	Siepe Siepe crudele
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 
@@ -193,14 +200,14 @@ Al suon de le dolcissime querele.
 @PAGE:		21
 @PARATEXT:	
 @VERSE:		
-Sarai termine ancora
-Come de passi miei
-De miei dolci diletti
-Siepe ch'udisti gl'amorosi detti
-E non t'apristi all'hora
-Pietosamente fra 'l mio petto e lei
-Siepe Siepe crudele
-Al suon de le dolcissime querele.
+	Sarai termine ancora
+	Come de passi miei
+	De miei dolci diletti
+	Siepe ch'udisti gl'amorosi detti
+	E non t'apristi all'hora
+	Pietosamente fra 'l mio petto e lei
+	Siepe Siepe crudele
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 
@@ -212,14 +219,14 @@ Al suon de le dolcissime querele.
 @PAGE:		21
 @PARATEXT:	
 @VERSE:		
-Sarai termine ancora
-Come de passi miei
-De miei dolci diletti
-Siepe ch'udisti gl'amorosi detti
-e non t'apristi all'hora
-Pietosamente fra 'l mio petto e lei
-Siepe Siepe crudele
-Al suon delle dolcissime querele.
+	Sarai termine ancora
+	Come de passi miei
+	De miei dolci diletti
+	Siepe ch'udisti gl'amorosi detti
+	e non t'apristi all'hora
+	Pietosamente fra 'l mio petto e lei
+	Siepe Siepe crudele
+	Al suon delle dolcissime querele.
 @@END: VARIORUM
 
 
@@ -231,13 +238,13 @@ Al suon delle dolcissime querele.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Sarai termine [TACET]
-[TACET]
-Siepe ch'udisti gl'amorosi detti
-e non t'apristi all'hora
-Pietosamente fra 'l mio petto e lei
-Siepe Siepe crudele
-Al suon de le dolcissime querele.
+	Sarai termine [TACET]
+	[TACET]
+	Siepe ch'udisti gl'amorosi detti
+	e non t'apristi all'hora
+	Pietosamente fra 'l mio petto e lei
+	Siepe Siepe crudele
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 
@@ -249,14 +256,14 @@ Al suon de le dolcissime querele.
 @PAGE:		21
 @PARATEXT:	
 @VERSE:		
-Sarai termine ancora
-Come de passi miei
-De miei dolci diletti
-Siepe [TACET]
-E non t'apristi all'hora
-Pietosamente fra 'l mio petto e lei
-Siepe Siepe crudele
-Al suon de le dolcissime querele.
+	Sarai termine ancora
+	Come de passi miei
+	De miei dolci diletti
+	Siepe [TACET]
+	E non t'apristi all'hora
+	Pietosamente fra 'l mio petto e lei
+	Siepe Siepe crudele
+	Al suon de le dolcissime querele.
 @@END: VARIORUM
 
 

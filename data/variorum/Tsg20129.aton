@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20129
 @ID:		G-Al
@@ -182,14 +183,14 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -201,14 +202,14 @@
 @PAGE:	207
 @PARATEXT:	
 @VERSE:
-E ’l bel volto, e ’l bel seno alla meschina
-  Bagnò d’alcuna lagrima pietosa,
-  Qual’ à pioggia d’argento, e matutina
-  Si rabbellisce scolorita rosa,
-  Tal’ ella, rivenendo, alzò la china
-  Faccia del non suo pianto or lagrimosa.
-  Tre volte alzò le luci, e tre chinolle
-  Dal caro oggetto, e rimirar nol volle.	
+	E ’l bel volto, e ’l bel seno alla meschina
+	Bagnò d’alcuna lagrima pietosa,
+	Qual’ à pioggia d’argento, e matutina
+	Si rabbellisce scolorita rosa,
+	Tal’ ella, rivenendo, alzò la china
+	Faccia del non suo pianto or lagrimosa.
+	Tre volte alzò le luci, e tre chinolle
+	Dal caro oggetto, e rimirar nol volle.
 @@END: VARIORUM
 
 
@@ -220,14 +221,14 @@ E ’l bel volto, e ’l bel seno alla meschina
 @PAGE:		
 @PARATEXT:	
 @VERSE:	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -240,7 +241,9 @@ E ’l bel volto, e ’l bel seno alla meschina
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20129
 @ID:		G-1581MR
 @TYPE:		print
@@ -248,15 +251,15 @@ E ’l bel volto, e ’l bel seno alla meschina
 @PAGE:
 @PARATEXT:
 @VERSE:		
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-@@END:		VARIORUM
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -300,14 +303,14 @@ E ’l bel volto, e ’l bel seno alla meschina
 @PAGE:	323
 @PARATEXT:	
 @VERSE:
-E ’l bel volto, e ’l bel seno à la meschina
-  Bagnò d’alcuna lagrima pietosa.
-  Qual’ à pioggia d’argento, e matutina
-  Si rabbellisce scolorita rosa,
-  Tal’ ella, rivenendo, alzò la china
-  Faccia del non suo pianto or lagrimosa:
-  Tre volte azò le luci, e tre chinolle
-  Dal caro oggetto, e rimirar no’l volle.	
+	E ’l bel volto, e ’l bel seno à la meschina
+	Bagnò d’alcuna lagrima pietosa.
+	Qual’ à pioggia d’argento, e matutina
+	Si rabbellisce scolorita rosa,
+	Tal’ ella, rivenendo, alzò la china
+	Faccia del non suo pianto or lagrimosa:
+	Tre volte azò le luci, e tre chinolle
+	Dal caro oggetto, e rimirar no’l volle.
 @@END: VARIORUM
 
 
@@ -331,7 +334,9 @@ E ’l bel volto, e ’l bel seno à la meschina
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20129
 @ID:		G-1582P
 @TYPE:		print
@@ -339,15 +344,15 @@ E ’l bel volto, e ’l bel seno à la meschina
 @PAGE:		113v
 @PARATEXT:
 @VERSE:		
-E ’l bel volto, e ’l bel seno à la meschina
-   Bagnò d’alcuna lagrima pietosa;
-   Qual’à pioggia d’argento, e matutina
-   Si rabellisce scolorita rosa;
-   Tal’ ella, rivenendo, alzò la china
-   Faccia del non suo pianto hor lagrimosa.
-   Tre volte alzò le luci, e tre chinolle
-   Dal caro oggeto, e rimirar no’l volle.
-@@END:		VARIORUM
+	E ’l bel volto, e ’l bel seno à la meschina
+	Bagnò d’alcuna lagrima pietosa;
+	Qual’à pioggia d’argento, e matutina
+	Si rabellisce scolorita rosa;
+	Tal’ ella, rivenendo, alzò la china
+	Faccia del non suo pianto hor lagrimosa.
+	Tre volte alzò le luci, e tre chinolle
+	Dal caro oggeto, e rimirar no’l volle.
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -391,14 +396,14 @@ E ’l bel volto, e ’l bel seno à la meschina
 @PAGE:	224
 @PARATEXT:	
 @VERSE:
-E ’l bel volto, e ’l bel seno à la meschina
-  Bagnò d’alcuna lagrima pietosa.
-  Qual’à  pioggia d’argento, e matutina
-  Si rabbellisce scolorita rosa;
-  Tal’ ella rivenendo, alzò la china
+	E ’l bel volto, e ’l bel seno à la meschina
+	Bagnò d’alcuna lagrima pietosa.
+	Qual’à  pioggia d’argento, e matutina
+	Si rabbellisce scolorita rosa;
+	Tal’ ella rivenendo, alzò la china
 	Faccia, del non suo pianto or lagrimosa.
 	Tre volte alzò le luci: e tre chinolle
-	Dal caro oggetto, e rimirar nol volle.		
+	Dal caro oggetto, e rimirar nol volle.
 @@END: VARIORUM
 
 
@@ -443,14 +448,14 @@ E ’l bel volto, e ’l bel seno à la meschina
 @PAGE:	571
 @PARATEXT:	
 @VERSE:
-E ’l bel volto, e ’l bel seno a la meschina
-  Bagnò d’alcuna lagrima pietosa.
-  Qual’ a pioggia d’argento, e mattutina
-  Si rabellisce scolorita rosa;
-  Tal’ ella, rivenendo, alzò la china
-  Faccia del non suo pianto hor lagrimosa.
-  Tre volte alzò le luci, e tre chinolle
-  Dal caro oggetto, e rimirar nol volle.	
+	E ’l bel volto, e ’l bel seno a la meschina
+	Bagnò d’alcuna lagrima pietosa.
+	Qual’ a pioggia d’argento, e mattutina
+	Si rabellisce scolorita rosa;
+	Tal’ ella, rivenendo, alzò la china
+	Faccia del non suo pianto hor lagrimosa.
+	Tre volte alzò le luci, e tre chinolle
+	Dal caro oggetto, e rimirar nol volle.
 @@END: VARIORUM
 
 
@@ -473,14 +478,14 @@ E ’l bel volto, e ’l bel seno a la meschina
 @PAGE:	242
 @PARATEXT:	
 @VERSE:
-E ’l bel volto, e ’l bel seno a la meschina
-   Bagnò d’alcuna lagrima pietosa,
-   Qual’ à pioggia d’argento, e matutina
-   Si rabbellisce: scolorita rosa;
-   Tal’ ella rivenendo alzò la china
-   Faccia, del non suo piantoh or lagrimosa.
-   Tre volte alzò le luci: e tre chinolle
-   Dal caro oggetto, e rimirar no’l volle.	
+	E ’l bel volto, e ’l bel seno a la meschina
+	Bagnò d’alcuna lagrima pietosa,
+	Qual’ à pioggia d’argento, e matutina
+	Si rabbellisce: scolorita rosa;
+	Tal’ ella rivenendo alzò la china
+	Faccia, del non suo piantoh or lagrimosa.
+	Tre volte alzò le luci: e tre chinolle
+	Dal caro oggetto, e rimirar no’l volle.
 @@END: VARIORUM
 
 
@@ -570,7 +575,9 @@ E ’l bel volto, e ’l bel seno a la meschina
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20129
 @ID:		G-1600C
 @TYPE:		print
@@ -578,7 +585,7 @@ E ’l bel volto, e ’l bel seno a la meschina
 @PAGE:		571
 @PARATEXT:
 @VERSE:		
-E ’l bel volto, e ’l bel seno alla meschina
+	E ’l bel volto, e ’l bel seno alla meschina
 	Bagnò d’alcuna lagrima pietosa.
 	Qual' à pioggia d’argento, e mattutina
 	Si rabbellisce scolorita rosa;
@@ -586,7 +593,7 @@ E ’l bel volto, e ’l bel seno alla meschina
 	Faccia del non suo pianto hor lagrimosa.
 	Trè volte alzò le luci, e trè chinolle
 	Dal caro oggetto, e rimirar no 'l volle.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -840,7 +847,9 @@ E ’l bel volto, e ’l bel seno alla meschina
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg20129
 @ID:		G-1617P
 @TYPE:		print
@@ -848,7 +857,7 @@ E ’l bel volto, e ’l bel seno alla meschina
 @PAGE:		242
 @PARATEXT:
 @VERSE:		
-E ’l bel volto, e ’l bel seno àla meschina
+	E ’l bel volto, e ’l bel seno àla meschina
 	Bagnò d’alcuna lagrima pietosa.
 	Qual' à pioggia d’argento, e matutina
 	Si rabbellisce scolorita rosa;
@@ -856,7 +865,7 @@ E ’l bel volto, e ’l bel seno àla meschina
 	Faccia, del non suo pianto hor lagrimosa.
 	Tre volte alzò le luci: e tre chinolle
 	Dal caro oggetto, e rimirar no 'l volle.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -955,14 +964,14 @@ E ’l bel volto, e ’l bel seno àla meschina
 @PAGE:	242
 @PARATEXT:	
 @VERSE:
-E ’l bel volto, e ’l bel seno alla meschina
-  Bagnò d’alcuna lagrima pietosa.
-  Qual’ à pioggia d’argento, e mattutina
-  Si rabbellisce scolorita rosa;
-  Tal’ ella rivenendo alzò la china
-  Faccia, del non suo pianto hor lagrimosa
-  Tre volte alzò le luci: e tre chinolle
-  Dal caro oggetto, e rimirar no’l volle.	
+	E ’l bel volto, e ’l bel seno alla meschina
+	Bagnò d’alcuna lagrima pietosa.
+	Qual’ à pioggia d’argento, e mattutina
+	Si rabbellisce scolorita rosa;
+	Tal’ ella rivenendo alzò la china
+	Faccia, del non suo pianto hor lagrimosa
+	Tre volte alzò le luci: e tre chinolle
+	Dal caro oggetto, e rimirar no’l volle.
 @@END: VARIORUM
 
 
@@ -1128,14 +1137,14 @@ E ’l bel volto, e ’l bel seno alla meschina
 @PAGE:		16
 @PARATEXT:	Settima Parte.
 @VERSE:		
-[TACET]
-Bagnò d’alcuna lagrima pietosa
-Qual a pioggia d’argento e matutina
-Si rabellisce scolorita rosa
-Tal ella rivenendo alzò la china
-Faccia dal non suo pianto hor lagrimosa
-Tre volte alzò le luci e tre chinolle
-Dal caro ogetto che mirar non volle.
+	[TACET]
+	Bagnò d’alcuna lagrima pietosa
+	Qual a pioggia d’argento e matutina
+	Si rabellisce scolorita rosa
+	Tal ella rivenendo alzò la china
+	Faccia dal non suo pianto hor lagrimosa
+	Tre volte alzò le luci e tre chinolle
+	Dal caro ogetto che mirar non volle.
 @@END: VARIORUM
 
 
@@ -1145,16 +1154,16 @@ Dal caro ogetto che mirar non volle.
 @TYPE:		music
 @COMPOSER:	Eredi, Francesco
 @PAGE:		16
-@PARATEXT:	Settima Parte.	
+@PARATEXT:	Settima Parte.
 @VERSE:		
-[TACET]
-Bagnò d’alcuna lagrima pietosa
-Qual a pioggia d’argento e matutina
-Si rabellisce scolorita rosa
-Tal ella rivenendo alzò la china
-Faccia dal non suo pianto hor lagrimosa,
-Tre volte alzò le luci e tre chinolle
-Dal caro ogetto che mirar non volle.
+	[TACET]
+	Bagnò d’alcuna lagrima pietosa
+	Qual a pioggia d’argento e matutina
+	Si rabellisce scolorita rosa
+	Tal ella rivenendo alzò la china
+	Faccia dal non suo pianto hor lagrimosa,
+	Tre volte alzò le luci e tre chinolle
+	Dal caro ogetto che mirar non volle.
 @@END: VARIORUM
 
 
@@ -1164,16 +1173,16 @@ Dal caro ogetto che mirar non volle.
 @TYPE:		music
 @COMPOSER:	Eredi, Francesco
 @PAGE:		16
-@PARATEXT:	Settima Parte.	
+@PARATEXT:	Settima Parte.
 @VERSE:		
-E ’l bel volto e ’l bel seno a la meschina
-Bagnò d’alcuna lagrima pietosa
-Qual a pioggia d’argento e matutina
-Si rabellisce scolorita rosa
-Tal ella rivenendo alzò la china
-Faccia dal non suo pianto hor lagrimosa
-[TACET] e tre chinolle
-Dal caro ogetto che mirar non volle.
+	E ’l bel volto e ’l bel seno a la meschina
+	Bagnò d’alcuna lagrima pietosa
+	Qual a pioggia d’argento e matutina
+	Si rabellisce scolorita rosa
+	Tal ella rivenendo alzò la china
+	Faccia dal non suo pianto hor lagrimosa
+	[TACET] e tre chinolle
+	Dal caro ogetto che mirar non volle.
 @@END: VARIORUM
 
 
@@ -1185,14 +1194,14 @@ Dal caro ogetto che mirar non volle.
 @PAGE:		16
 @PARATEXT:	Settima Parte.
 @VERSE:		
-[TACET]
-Bagnò d’alcuna lagrima pietosa
-Qual a pioggia d’argento e matutina
-Si rabellisce scolorita rosa
-Tal ella rivenendo alzò la china
-Faccia del non suo pianto hor lagrimosa
-Tre volte alzò le luci e tre chinolle
-Dal caro ogetto che mirar non volle.
+	[TACET]
+	Bagnò d’alcuna lagrima pietosa
+	Qual a pioggia d’argento e matutina
+	Si rabellisce scolorita rosa
+	Tal ella rivenendo alzò la china
+	Faccia del non suo pianto hor lagrimosa
+	Tre volte alzò le luci e tre chinolle
+	Dal caro ogetto che mirar non volle.
 @@END: VARIORUM
 
 
@@ -1202,16 +1211,16 @@ Dal caro ogetto che mirar non volle.
 @TYPE:		music
 @COMPOSER:	Eredi, Francesco
 @PAGE:		16
-@PARATEXT:	Settima Parte.	
+@PARATEXT:	Settima Parte.
 @VERSE:		
-E ’l bel volto e ’l bel seno a la meschina
-Bagnò d’alcuna lagrima pietosa
-Qual a pioggia d’argento e matutina
-Si rabellisce scolorita rosa
-Tal ella rivenendo alzò la china
-Faccia del non suo piant’hor lagrimosa
-Tre volte alzò le luci e tre chinolle
-Dal caro ogetto che mirar non volle.
+	E ’l bel volto e ’l bel seno a la meschina
+	Bagnò d’alcuna lagrima pietosa
+	Qual a pioggia d’argento e matutina
+	Si rabellisce scolorita rosa
+	Tal ella rivenendo alzò la china
+	Faccia del non suo piant’hor lagrimosa
+	Tre volte alzò le luci e tre chinolle
+	Dal caro ogetto che mirar non volle.
 @@END: VARIORUM
 
 

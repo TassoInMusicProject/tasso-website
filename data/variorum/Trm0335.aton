@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		215
 @PARATEXT:	stampa.
 @VERSE:		
-Voi bramate ben mio,
-che m’uccida il dolore,
-Però crescete pena in questo core
-Ma pur mentre mi doglio,
-Sento un piacer si novo,
-Del piacer che mi porge il mio cordoglio :
-O maraviglia, e quasi avien ch’ all’hora,
-Per doglia no, ma per diletto io mora.
+	Voi bramate ben mio,
+	che m’uccida il dolore,
+	Però crescete pena in questo core
+	Ma pur mentre mi doglio,
+	Sento un piacer si novo,
+	Del piacer che mi porge il mio cordoglio :
+	O maraviglia, e quasi avien ch’ all’hora,
+	Per doglia no, ma per diletto io mora.
 @@END: VARIORUM
 
 
@@ -47,15 +48,15 @@ Per doglia no, ma per diletto io mora.
 @PAGE:		43
 @PARATEXT:	
 @VERSE:		
-Voi bramate, ben mio,
-Che m’uccida il dolore,
-Però crescete pena in questo core.
+	Voi bramate, ben mio,
+	Che m’uccida il dolore,
+	Però crescete pena in questo core.
 @VERSE:
-Ma pur mentre mi doglio
-Sento un piacer sì novo
-Del piacer, che vi porge il mio cordoglio.
-O amara volgia, e quasi avien, ch’allora
-Per doglia nò, ma per diletto io mora.
+	Ma pur mentre mi doglio
+	Sento un piacer sì novo
+	Del piacer, che vi porge il mio cordoglio.
+	O amara volgia, e quasi avien, ch’allora
+	Per doglia nò, ma per diletto io mora.
 @@END: VARIORUM
 
 
@@ -64,17 +65,17 @@ Per doglia nò, ma per diletto io mora.
 @ID:		S48
 @TYPE:		print
 @SPRINT:	
-@PAGE:	121-122	
+@PAGE:	121-122
 @PARATEXT:	
 @VERSE:		
-Voi bramate ben mio
-Che m’uccida il dolore,
-Però crescete pena in questo core;
-Ma pur mentre mi doglio,
-Sento un piacer si novo
-Del piacer che mi porge il mio cordoglio.
-O meraviglia, e quasi avvien ch’allhora
-Per doglia nò, ma per diletto mora.
+	Voi bramate ben mio
+	Che m’uccida il dolore,
+	Però crescete pena in questo core;
+	Ma pur mentre mi doglio,
+	Sento un piacer si novo
+	Del piacer che mi porge il mio cordoglio.
+	O meraviglia, e quasi avvien ch’allhora
+	Per doglia nò, ma per diletto mora.
 @@END: VARIORUM
 
 
@@ -86,14 +87,14 @@ Per doglia nò, ma per diletto mora.
 @PAGE:		59
 @PARATEXT:	
 @VERSE:	
-Voi amate, ben mio,
-Che m’uccida il dolore,
-Però crescete pena in questo core,
-Ma pur mentre mi doglio,
-Sento un piacer si novo
-Del piacer, che mi porge il mio cordoglio.
-O meraviglia, e quasi avvien ch’allhora
-Per doglia nò; ma per diletto mora.
+	Voi amate, ben mio,
+	Che m’uccida il dolore,
+	Però crescete pena in questo core,
+	Ma pur mentre mi doglio,
+	Sento un piacer si novo
+	Del piacer, che mi porge il mio cordoglio.
+	O meraviglia, e quasi avvien ch’allhora
+	Per doglia nò; ma per diletto mora.
 @@END: VARIORUM
 
 
@@ -106,7 +107,9 @@ Per doglia nò; ma per diletto mora.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
 @ID:		S141
 @TYPE:		print
@@ -114,16 +117,18 @@ Per doglia nò; ma per diletto mora.
 @PAGE:		Parte terza delle Rime, 103
 @PARATEXT:	Dice sentire piacere del dolore che patisce per lei, poiche vede ch’ella hà piacere di vederlo penare.
 @VERSE:		
-Voi bramate, ben mio,
+	Voi bramate, ben mio,
 	Che m’uccida il dolore,
 	Però crescete pena in questo core.
-Ma pur mentre mi doglio
+	Ma pur mentre mi doglio
 	Sento un piacer si novo
 	Del piacer, che vi porge il mio cordoglio,
 	O amara voglia, e quasi avien, ch’allora
 	Per doglia nò, ma per diletto io mora.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
 @ID:		S166
 @TYPE:		print
@@ -131,16 +136,18 @@ Ma pur mentre mi doglio
 @PAGE:		Parte terza delle Rime, 103
 @PARATEXT:	Dice sentire piacere del dolore che patisce per lei, poiche vede ch’ella hà piacere di vederlo penare.
 @VERSE:		
-Voi bramate, ben mio,
+	Voi bramate, ben mio,
 	Che m’uccida il dolore,
 	Però crescete pena in questo core.
-Ma pur mentre mi doglio
+	Ma pur mentre mi doglio
 	Sento un piacer si novo
 	Del piacer, che vi porge il mio cordoglio,
 	O amara voglia, e quasi avien, ch’allora
 	Per doglia nò, ma per diletto io mora.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0335
 @ID:		S169
 @TYPE:		print
@@ -148,7 +155,7 @@ Ma pur mentre mi doglio
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 142
 @PARATEXT:	Dilettosa doglia.
 @VERSE:		
-Voi bramate ben mio,
+	Voi bramate ben mio,
 	Che m’uccida il dolore,
 	Però crescere pena in questo core.
 	Ma pur, mentre mi doglio
@@ -156,7 +163,7 @@ Voi bramate ben mio,
 	Del piacer, che vi porge il mio cordoglio,
 	(O amara voglia,) e quasi avien, che alhora
 	Per doglia nò, ma per diletto io mora.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -387,14 +394,14 @@ Voi bramate ben mio,
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Voi bramate ben mio,
-Che m’uccida di dolore
-Però trovate pena in questo core,
-Ma pur mentre mi doglio,
-Sento un piacer si novo,
-Del piacer che vi porge il mio cordoglio
-o amara voglia, E quasi avvien d’allora
-per doglia nò, ma per diletto io mora.
+	Voi bramate ben mio,
+	Che m’uccida di dolore
+	Però trovate pena in questo core,
+	Ma pur mentre mi doglio,
+	Sento un piacer si novo,
+	Del piacer che vi porge il mio cordoglio
+	o amara voglia, E quasi avvien d’allora
+	per doglia nò, ma per diletto io mora.
 @@END: VARIORUM
 
 
@@ -406,14 +413,14 @@ per doglia nò, ma per diletto io mora.
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Voi bramate ben mio,
-Che m’uccida di dolore
-Però trovate pena in questo core,
-Ma pur mentre mi doglio,
-Sento un piacer si nuovo,
-Del piacer che vi porge il mio cordoglio
-o amara voglia, E quasi avvien d’allora
-per doglia nò, ma per diletto io mora.
+	Voi bramate ben mio,
+	Che m’uccida di dolore
+	Però trovate pena in questo core,
+	Ma pur mentre mi doglio,
+	Sento un piacer si nuovo,
+	Del piacer che vi porge il mio cordoglio
+	o amara voglia, E quasi avvien d’allora
+	per doglia nò, ma per diletto io mora.
 @@END: VARIORUM
 
 

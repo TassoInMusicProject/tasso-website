@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0339
 @ID:		E1
@@ -17,14 +18,14 @@
 @PAGE:		227
 @PARATEXT:	stampa
 @VERSE:		
-Dolcissimi legami
-di parole amorose,
-Chi mi legò da scherno e non mi scioglie?
-Così egli dunque scherza, e così toglie,
-Così l’alme legate
-sono ne le catene insidiose,
-Almen, chi sì m’allaccia,
-mi leghi <del>leghi</del> almen fra quelle dolci braccia.
+	Dolcissimi legami
+	di parole amorose,
+	Chi mi legò da scherno e non mi scioglie?
+	Così egli dunque scherza, e così toglie,
+	Così l’alme legate
+	sono ne le catene insidiose,
+	Almen, chi sì m’allaccia,
+	mi leghi <del>leghi</del> almen fra quelle dolci braccia.
 @@END: VARIORUM
 
 
@@ -58,7 +59,7 @@ mi leghi <del>leghi</del> almen fra quelle dolci braccia.
 @PAGE:		55
 @PARATEXT:	
 @VERSE:	
-Dolcissimi legami
+	Dolcissimi legami
 	Di parole amorose,
 	Chi mi legò da scherzo, e non mi scioglie?
 	Così egli dunque scherzo, e così coglie?
@@ -77,14 +78,14 @@ Dolcissimi legami
 @PAGE:		127
 @PARATEXT:	
 @VERSE:	
-Dolcissimo legame
-Di parole amorose
-Chi mi legò da scherzo e non mi scioglie,
-Cosi egli dunque scherza, e così toglie;
-Così l’alme legate
-Sono nelle catene insidiose,
-Aimè chi si m’allaccia
-Mi leghi almen fra quelle dolci braccia.
+	Dolcissimo legame
+	Di parole amorose
+	Chi mi legò da scherzo e non mi scioglie,
+	Cosi egli dunque scherza, e così toglie;
+	Così l’alme legate
+	Sono nelle catene insidiose,
+	Aimè chi si m’allaccia
+	Mi leghi almen fra quelle dolci braccia.
 @@END: VARIORUM
 
 
@@ -96,16 +97,18 @@ Mi leghi almen fra quelle dolci braccia.
 @PAGE:		63
 @PARATEXT:	
 @VERSE:		
-Dolcissimo legame
-Di parole amorose,
-Chi mi legò da scherzo, e non mi scioglie;
-Cosi egli dunque scherza, e così toglie;
-Così l’alme legate
-Sono ne le catene insidiose.
-Aimè, chi sì m’allaccia
-Mi leghi almen fra quelle dolci braccia.
+	Dolcissimo legame
+	Di parole amorose,
+	Chi mi legò da scherzo, e non mi scioglie;
+	Cosi egli dunque scherza, e così toglie;
+	Così l’alme legate
+	Sono ne le catene insidiose.
+	Aimè, chi sì m’allaccia
+	Mi leghi almen fra quelle dolci braccia.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0339
 @ID:		S141
 @TYPE:		print
@@ -113,7 +116,7 @@ Mi leghi almen fra quelle dolci braccia.
 @PAGE:		Parte terza delle Rime, 125
 @PARATEXT:	Si compiace d’essere inamorato.
 @VERSE:		
-Dolcissimi legami
+	Dolcissimi legami
 	Di parole amorose,
 	Chi mi legò da scherzo e non mi scioglie?
 	Così egli dunque scherza, e cosi coglie?
@@ -121,8 +124,10 @@ Dolcissimi legami
 	Sono ne le catene insidïose?
 	Almen, chi si m’allaccia,
 	Mi leghi ancor fra quelle dolci braccia.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0339
 @ID:		S166
 @TYPE:		print
@@ -130,7 +135,7 @@ Dolcissimi legami
 @PAGE:		Parte terza delle Rime, 125
 @PARATEXT:	Si compiace d’essere inamorato.
 @VERSE:		
-Dolcissimi legami
+	Dolcissimi legami
 	Di parole amorose,
 	Chi mi legò da scherzo e non mi scioglie?
 	Così egli dunque scherza, e cosi coglie?
@@ -138,7 +143,7 @@ Dolcissimi legami
 	Sono ne le catene insidïose?
 	Almen, chi si m’allaccia,
 	Mi leghi ancor fra quelle dolci braccia.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -182,7 +187,7 @@ Dolcissimi legami
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Dolcissimo legame
+	Dolcissimo legame
 	Di parole amorose
 	Che mi legò da scherzo e cosi scioglie
 	[TACET] ei dunque scherza e cosi coglie
@@ -201,7 +206,7 @@ Dolcissimo legame
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Dolcissimo legame
+	Dolcissimo legame
 	Di parole amorose
 	Che mi legò da scherz'e cosi scioglie
 	Cosi ei dunque scherza e cosi coglie
@@ -220,7 +225,7 @@ Dolcissimo legame
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-[TACET]
+	[TACET]
 	Di parole amorose
 	Che mi legò da scherzo e cosi scioglie
 	Cosi ei dunque scherza e cosi coglie
@@ -239,7 +244,7 @@ Dolcissimo legame
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-[TACET]
+	[TACET]
 	Di parole amorose
 	Che mi legò da scherzo e cosi scioglie
 	Cosi ei dunque scherza e cosi coglie
@@ -258,7 +263,7 @@ Dolcissimo legame
 @PAGE:		7
 @PARATEXT:	
 @VERSE:		
-Dolcissimo legame
+	Dolcissimo legame
 	Di parole amorose
 	Che mi legò da scherz'e cosi scioglie
 	Cosi ei dunque scherza e cosi coglie

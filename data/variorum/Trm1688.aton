@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
 @ID:		Amz
@@ -28,26 +29,26 @@
 @ID:		Ber
 @TYPE:		manuscript
 @SMSIGLUM:	Ber
-@PAGE:	Parte prima, 321-22	
+@PAGE:	Parte prima, 321-22
 @PARATEXT:	Prega Iddio, che gli mostri la dritta strada da ritornare alla celeste patria.
 @VERSE:	
-PADRE del Cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Per questo paludoso, instabil campo
-De la terrena, e lagrimosa valle:
+	PADRE del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Per questo paludoso, instabil campo
+	De la terrena, e lagrimosa valle:
 @VERSE:
-Reggi i miei torti passi ond'io non falle,
-E di tua santa gratia il dolce lampo
-In me risplenda, e di securo scampo
-Mostra il sentiero, à cui <del>voltai</del> volsi io le spalle.
+	Reggi i miei torti passi ond'io non falle,
+	E di tua santa gratia il dolce lampo
+	In me risplenda, e di securo scampo
+	Mostra il sentiero, à cui <del>voltai</del> volsi io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve: o di sì breve giorno
-Copran tenebre eterne il debil lume:
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve: o di sì breve giorno
+	Copran tenebre eterne il debil lume:
 @VERSE:
-Dammi, ch’io faccia al tuo camin ritorno,
-Quasi vestito di celesti piume,
-Signore, e tù mi pasci, e tù m'alberga.
+	Dammi, ch’io faccia al tuo camin ritorno,
+	Quasi vestito di celesti piume,
+	Signore, e tù mi pasci, e tù m'alberga.
 @@END: VARIORUM
 
 
@@ -87,21 +88,21 @@ Signore, e tù mi pasci, e tù m'alberga.
 @PAGE:		208
 @PARATEXT:	
 @VERSE:	
-Padre del Cielo, hor ch’atra nube il calle
+	Padre del Cielo, hor ch’atra nube il calle
 	Destro m’ascondi, e vie fallaci stampo
 	Con vago piè per questo instabil campo
 	De la mondana, e paludosa valle
 @VERSE:
-Regga tua santa man sì ch'ei non falle
+	Regga tua santa man sì ch'ei non falle
 	Mio corso errante, e di tua gratia il lampo
 	Dolce sovra me splenda, e del mio scampo
 	Quel sentier mostri, à cui vols'io le spalle
 @VERSE:
-Deh pria che’l verno queste chiome asperga
+	Deh pria che’l verno queste chiome asperga
 	Di bianca neve, e'l mio nascente giorno
 	Chiuda in tenebre eterne il fosco lume
 @VERSE:
-Dammi ch’io faccia à tua magion ritorno,
+	Dammi ch’io faccia à tua magion ritorno,
 	Come sublime augel, che spieghi, et erga
 	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
@@ -115,50 +116,51 @@ Dammi ch’io faccia à tua magion ritorno,
 @PAGE:		18v
 @PARATEXT:	 A Nostro Signore.
 @VERSE:	
-Padre del Cielo, hor ch’atra nube il calle
+	Padre del Cielo, hor ch’atra nube il calle
 	Destro m’ascondi, e vie fallaci stampo
 	Con vago pie' per questo instabil campo
 	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì ch'ei non falle
+	Regga tua santa man sì ch'ei non falle
 	Mio corso errante, e di tua gratia il lampo
 	Dolce sovra me splenda, e del mio scampo
 	Quel sentier mostri, à cui vols'io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
+	Deh pria che’l verno queste chiome asperga
 	Di bianca neve, e'l mio nascente giorno
 	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi ch’io faccia à tua magion ritorno,
+	Dammi ch’io faccia à tua magion ritorno,
 	Come sublime augel, che spieghi, et erga
 	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
 @ID:		Ts1
 @TYPE:		manuscript
 @SMSIGLUM:	Ts<sub>1</sub>
-@PAGE:	Parte Prima, 21	
+@PAGE:	Parte Prima, 21
 @PARATEXT:	Al Signore Iddio
 @VERSE:
-Padre del cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Con <del>vago piè per questo</del> ^vaghi passi nel^ instabil campo
-De la mondana, e paludosa valle;
+	Padre del cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con <del>vago piè per questo</del> ^vaghi passi nel^ instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
 <del>Quel sentier mostri, à cui vols’io le spalle.</del> ^mostri il sentiero al qual voltai le spalle.^
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.	
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -181,26 +183,26 @@ Da vil fango al Ciel le piume.
 @ID:		S4
 @TYPE:		print
 @SPRINT:	
-@PAGE:	71r	
+@PAGE:	71r
 @PARATEXT:	[TORQUATO TASSO DETTO IL PENTITO.]
 @VERSE:	
-Padre del Cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Con vago piè per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.		
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -209,26 +211,26 @@ Da vil fango al Ciel le piume.
 @ID:		S8
 @TYPE:		print
 @SPRINT:	
-@PAGE:	21	
+@PAGE:	21
 @PARATEXT:	
 @VERSE:	
-Padre del Cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Con vago piè per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh pria, che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria, che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.		
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -237,26 +239,26 @@ Da vil fango al Ciel le piume.
 @ID:		S9
 @TYPE:		print
 @SPRINT:	
-@PAGE:	21	
+@PAGE:	21
 @PARATEXT:	
 @VERSE:	
-Padre del Cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Con vago piè per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh pria, che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria, che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.		
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -265,26 +267,26 @@ Da vil fango al Ciel le piume.
 @ID:		S11
 @TYPE:		print
 @SPRINT:	
-@PAGE:	Parte Prima, 21	
+@PAGE:	Parte Prima, 21
 @PARATEXT:	Al Signore Iddio
 @VERSE:
-Padre del cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Con vago piè per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -293,26 +295,26 @@ Da vil fango al Ciel le piume.
 @ID:		S12
 @TYPE:		print
 @SPRINT:	
-@PAGE:	Parte Prima, 21	
+@PAGE:	Parte Prima, 21
 @PARATEXT:	Al Signore Iddio
 @VERSE:
-Padre del cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Con vago piè per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -321,26 +323,26 @@ Da vil fango al Ciel le piume.
 @ID:		S13
 @TYPE:		print
 @SPRINT:	
-@PAGE:	Parte Prima, 21	
+@PAGE:	Parte Prima, 21
 @PARATEXT:	Al Signore Iddio
 @VERSE:
-Padre del cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Con vago piè per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -352,23 +354,23 @@ Da vil fango al Ciel le piume.
 @PAGE:	Parte Prima, 212
 @PARATEXT:	
 @VERSE:
-Padre del Cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo,
-Con vago pie per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo,
+	Con vago pie per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia a tua magion ritorno,
-Come sublime augel, che spieghi, &amp; erga
-Da vil fango al Ciel le piume.
+	Dammi, ch’io faccia a tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -385,31 +387,32 @@ Da vil fango al Ciel le piume.
 @VERSE:		
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1688
 @ID:		S29
 @TYPE:		print
 @SPRINT:	
-@PAGE:	22	
+@PAGE:	22
 @PARATEXT:	Al Signor Iddio
 @VERSE:	
-Padre del Cielo, hor ch’atra nube il calle,
-Destro m’asconde, e vie fallaci stampo,
-Con vago piè per questo instabil campo
-De la mondana, e paludosa valle;
+	Padre del Cielo, hor ch’atra nube il calle,
+	Destro m’asconde, e vie fallaci stampo,
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-Regga tua santa man, sì, ch’ei non falle,
-Mio corso errante, e di tua gratia il lampo
-Dolce sovra me splenda, e del mio scampo
-Quel sentier mostri, à cui vols’io le spalle.
+	Regga tua santa man, sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda, e del mio scampo
+	Quel sentier mostri, à cui vols’io le spalle.
 @VERSE:
-Deh, pria, che’l verno queste chiome asperga
-Di bianca neve, e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume;
+	Deh, pria, che’l verno queste chiome asperga
+	Di bianca neve, e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:
-Dammi, ch’io faccia à tua magion ritorno,
-Come sublime augel, che spieghi, et erga
-Da vil fango palustre al Ciel le piume.
+	Dammi, ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, et erga
+	Da vil fango palustre al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -418,26 +421,26 @@ Da vil fango palustre al Ciel le piume.
 @ID:		S85
 @TYPE:		print
 @SPRINT:	
-@PAGE:	Parte prima, 321-22	
+@PAGE:	Parte prima, 321-22
 @PARATEXT:	Prega Iddio, che gli mostri la dritta strada da ritornare alla celeste patria.
 @VERSE:	
-PADRE del Cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Per questo paludoso, instabil campo
-De la terrena, e lagrimosa valle:
+	PADRE del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Per questo paludoso, instabil campo
+	De la terrena, e lagrimosa valle:
 @VERSE:
-Reggi i miei torti passi ond'io non falle,
-E di tua santa gratia il dolce lampo
-In me risplenda, e di securo scampo
-Mostra il sentiero, à cui voltai le spalle.
+	Reggi i miei torti passi ond'io non falle,
+	E di tua santa gratia il dolce lampo
+	In me risplenda, e di securo scampo
+	Mostra il sentiero, à cui voltai le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve: o di sì breve giorno
-Copran tenebre eterne il debil lume:
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve: o di sì breve giorno
+	Copran tenebre eterne il debil lume:
 @VERSE:
-Dammi, ch’io faccia al tuo camin ritorno,
-Quasi vestito di celesti piume,
-Signore, e tù mi pasci, e tù m'alberga.
+	Dammi, ch’io faccia al tuo camin ritorno,
+	Quasi vestito di celesti piume,
+	Signore, e tù mi pasci, e tù m'alberga.
 @@END: VARIORUM
 
 
@@ -447,26 +450,26 @@ Signore, e tù mi pasci, e tù m'alberga.
 @ID:		S87
 @TYPE:		print
 @SPRINT:	
-@PAGE:	Parte prima, 338-39	
+@PAGE:	Parte prima, 338-39
 @PARATEXT:	Prega Iddio, che gli mostri la dritta strada da ritornare alla celeste patria.
 @VERSE:	
-PADRE del Cielo, hor ch’atra nube il calle
-Destro m’asconde, e vie fallaci stampo
-Per questo paludoso, instabil campo
-De la terrena, e lagrimosa valle:
+	PADRE del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Per questo paludoso, instabil campo
+	De la terrena, e lagrimosa valle:
 @VERSE:
-Reggi i miei torti passi ond'io non falle,
-E di tua santa gratia il dolce lampo
-In me risplenda, e di securo scampo
-Mostra il sentiero, à cui voltai le spalle.
+	Reggi i miei torti passi ond'io non falle,
+	E di tua santa gratia il dolce lampo
+	In me risplenda, e di securo scampo
+	Mostra il sentiero, à cui voltai le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve: o di sì breve giorno
-Copran tenebre eterne il debil lume:
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve: o di sì breve giorno
+	Copran tenebre eterne il debil lume:
 @VERSE:
-Dammi, ch’io faccia al tuo camin ritorno,
-Quasi vestito di celesti piume,
-Signore, e tù mi pasci, e tù m'alberga.
+	Dammi, ch’io faccia al tuo camin ritorno,
+	Quasi vestito di celesti piume,
+	Signore, e tù mi pasci, e tù m'alberga.
 @@END: VARIORUM
 
 
@@ -478,23 +481,23 @@ Signore, e tù mi pasci, e tù m'alberga.
 @PAGE:		20v
 @PARATEXT:	Del Sig. Torquato / Al Signor Iddio.
 @VERSE:		
-      Padre del Cielo, hor ch’atra nube il calle
-      Destro m’asconde, e vie fallaci stampo
-      Con vago piè per questo instabil campo
-      De la mondana, e paludosa valle;
+	Padre del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago piè per questo instabil campo
+	De la mondana, e paludosa valle;
 @VERSE:
-      Regga tua santa man sì, ch’ei non falle,
-      Mio corso errante, e di tua gratia il lampo
-      Dolce sovra me splenda , e del mio scampo
-      Quel sentier mostri , a cui vols’io le spalle.
+	Regga tua santa man sì, ch’ei non falle,
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda , e del mio scampo
+	Quel sentier mostri , a cui vols’io le spalle.
 @VERSE:	
-      Deh pria che’l verno queste chiome asperga
-      Di bianca neve, e'l mio nascente giorno
-      Chiuda in tenebre eterne il fosco lume;
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve, e'l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:	
-      Dammi, ch’io faccia à tua maggion ritorno,
-      Come sublime augel, che spieghi, &amp; erga
-      Da vil fango palustre al Ciel le piume.
+	Dammi, ch’io faccia à tua maggion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango palustre al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -507,23 +510,23 @@ Signore, e tù mi pasci, e tù m'alberga.
 @PAGE:		13r
 @PARATEXT:	A NOSTRO SIGNORE
 @VERSE:		
-      Padre del Cielo, hor ch’atra nube il calle
-      Destro m’asconde, e vie fallaci stampo
-      Con vago pie per questo instabil campo
-      De la mondana, e paludosa valle.
+	Padre del Cielo, hor ch’atra nube il calle
+	Destro m’asconde, e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana, e paludosa valle.
 @VERSE:
-      Regga tua santa man sì ch’ei non falle
-      Mio corso errante, e di tua gratia il lampo
-      Dolce sovra me splenda , e del mio scampo
-      Quel sentier mostri , a cui vols’io le spalle.
+	Regga tua santa man sì ch’ei non falle
+	Mio corso errante, e di tua gratia il lampo
+	Dolce sovra me splenda , e del mio scampo
+	Quel sentier mostri , a cui vols’io le spalle.
 @VERSE:	
-      Deh pria che ’l verno queste chiome asperga
-      Di bianca neve, è il mio nascente giorno
-      Chiuda in tenebre eterne il fosco lume;
+	Deh pria che ’l verno queste chiome asperga
+	Di bianca neve, è il mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume;
 @VERSE:	
-      Dammi ch’io faccia à tua magion ritorno,
-      Come sublime augel, che spieghi, &amp; erga
-      Da vil fango palustre al Ciel le piume.
+	Dammi ch’io faccia à tua magion ritorno,
+	Come sublime augel, che spieghi, &amp; erga
+	Da vil fango palustre al Ciel le piume.
 @@END: VARIORUM
 
 
@@ -619,22 +622,22 @@ Signore, e tù mi pasci, e tù m'alberga.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:
-Padre del cielo hor ch’altra [TACET]
-e vie fallaci stampo
-Con vago pie per questo instabil campo
-De la mondana e paludosa valle
-Pregga tua santa man si ch’ei non falle
-Mio corso errante e di tua gratia il lampo
-Dolce [TACET]
-Quel sentier mostri a cui vols’io le spalle.
+	Padre del cielo hor ch’altra [TACET]
+	e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana e paludosa valle
+	Pregga tua santa man si ch’ei non falle
+	Mio corso errante e di tua gratia il lampo
+	Dolce [TACET]
+	Quel sentier mostri a cui vols’io le spalle.
 @VERSE:
-[TACET]
-Deh pria che’l verno queste chiome asperga
-Di bianca neve e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-Dammi ch’io faccia a tua magion ritorno
-Come sublime angel che spieghi &amp; erga
-Da vil fango palustre al ciel le piume.	
+	[TACET]
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	Dammi ch’io faccia a tua magion ritorno
+	Come sublime angel che spieghi &amp; erga
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -646,21 +649,21 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Padre del cielo hor ch’atra nube il calle
-Destro m’asconde e vie fallaci stampo
-Con vago pie per questo instabil campo
-De la mondana e paludosa valle
-Regga tua santa man si ch’ei non falle
-Mio corso errante e di tua gratia il lampo
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostri a cui vols’io le spalle.
+	Padre del cielo hor ch’atra nube il calle
+	Destro m’asconde e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana e paludosa valle
+	Regga tua santa man si ch’ei non falle
+	Mio corso errante e di tua gratia il lampo
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostri a cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-Dammi ch’io faccia a tua magion ritorno
-Come sublime angel che spieghi &amp; erga
-Da vil fango palustre al ciel le piume.	
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	Dammi ch’io faccia a tua magion ritorno
+	Come sublime angel che spieghi &amp; erga
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -672,21 +675,21 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Padre del cielo hor ch’altra nube il calle
-Destro m’asconde e vie fallaci stampo
-Con vago pie per questo instabil campo
-De la mondana e paludosa valle
-Regga tua santa man si ch’ei non falle
-Mio corso errante e di tua gratia il campo
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostri a cui vols’io le spalle.
+	Padre del cielo hor ch’altra nube il calle
+	Destro m’asconde e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana e paludosa valle
+	Regga tua santa man si ch’ei non falle
+	Mio corso errante e di tua gratia il campo
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostri a cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-Dammi ch’io faccia a tua magion ritorno
-Come sublime angel che spieghi &amp; erga
-[TACET] palustre al ciel le piume.	
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	Dammi ch’io faccia a tua magion ritorno
+	Come sublime angel che spieghi &amp; erga
+	[TACET] palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -698,21 +701,21 @@ Come sublime angel che spieghi &amp; erga
 @PAGE:		6
 @PARATEXT:	
 @VERSE:		
-Padre del cielo hor ch’altra nube il calle
-Destro nasconde e vie fallaci stampo
-Con vago pie per questo instabil campo
-De la mondana e paludosa valle
-[TACET] si ch’ei non falle
-Mio corso errante e di tua gratia il lampo
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostri a cui vols’io le spalle.
+	Padre del cielo hor ch’altra nube il calle
+	Destro nasconde e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana e paludosa valle
+	[TACET] si ch’ei non falle
+	Mio corso errante e di tua gratia il lampo
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostri a cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-Dammi ch’io faccia a tua magion ritorno
-Come sublime angel che spieghi &amp; erga
-[TACET] al ciel le piume.	
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	Dammi ch’io faccia a tua magion ritorno
+	Come sublime angel che spieghi &amp; erga
+	[TACET] al ciel le piume.
 @@END: VARIORUM
 
 
@@ -724,21 +727,21 @@ Come sublime angel che spieghi &amp; erga
 @PAGE:		6
 @PARATEXT:	
 @VERSE:	
-Padre del cielo hor ch’atra nube il calle
-Destro m’asconde e vie fallaci stampo
-Con vago pie per questo instabil campo
-De la mondana e paludosa valle
-Regga tua santa man si ch’ei non falle
-Mio corso errante e di tua gratia il lampo
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostri a cui vols’io le spalle.
+	Padre del cielo hor ch’atra nube il calle
+	Destro m’asconde e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana e paludosa valle
+	Regga tua santa man si ch’ei non falle
+	Mio corso errante e di tua gratia il lampo
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostri a cui vols’io le spalle.
 @VERSE:
-Deh pria che’l verno queste chiome asperga
-Di bianca neve e’l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-Dammi ch’io facia a tua magion ritorno
-[TACET] che spieghi &amp; erga
-Da vil fango palustre al ciel le piume.	
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve e’l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	Dammi ch’io facia a tua magion ritorno
+	[TACET] che spieghi &amp; erga
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -806,20 +809,20 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Padre del ciel'hor ch’atra nube il calle
-Destro m’asconde e vie fallaci stampo
-[TACET]
-De la mondana e paludosa valle
-[TACET]
-Mio corso errante &amp; di tua gratia il lampo
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostr'à cui volsi io le spalle
-Deh pria che’l verno queste chiome asperga
-Di bianca neve [TACET]
-Chiuda in tenebre eterne il fosco lume
-[TACET]
-Come sublime augel che spieghi et erga
-Da vil fango palustre al ciel le piume.		
+	Padre del ciel'hor ch’atra nube il calle
+	Destro m’asconde e vie fallaci stampo
+	[TACET]
+	De la mondana e paludosa valle
+	[TACET]
+	Mio corso errante &amp; di tua gratia il lampo
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostr'à cui volsi io le spalle
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve [TACET]
+	Chiuda in tenebre eterne il fosco lume
+	[TACET]
+	Come sublime augel che spieghi et erga
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -831,20 +834,20 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Padre del ciel'hor ch’atra nube il calle
-Destro m’asconde e vie fallaci stampo
-Con vago pie per questo instabil campo
-[TACET]
-Regga tua santa man si ch'ei non falle
-Mio corso errante &amp; di tua gratia il lampo
-[TACET]
-[TACET]
-Deh pria che’l verno queste chiome asperga
-Di bianca neve [TACET]
-[TACET]
-Dammi ch'io faccia a tua magion ritorno
-Come sublime augel che spieghi et erga
-Da vil fango palustre al ciel le piume.		
+	Padre del ciel'hor ch’atra nube il calle
+	Destro m’asconde e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	[TACET]
+	Regga tua santa man si ch'ei non falle
+	Mio corso errante &amp; di tua gratia il lampo
+	[TACET]
+	[TACET]
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve [TACET]
+	[TACET]
+	Dammi ch'io faccia a tua magion ritorno
+	Come sublime augel che spieghi et erga
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -856,20 +859,20 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Padre del ciel'hor ch’atra nube il calle
-Destro m’asconde e vie fallaci stampo
-Con vago pie per questo instabil campo
-[TACET]
-Regga tua santa man si ch'ei non falle
-Mio corso errante [TACET]
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostr'à cui volsi io le spalle
-Deh pria che’l verno queste chiome asperga
-Di bianca neve e'l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-[TACET]
-Come sublime augel che spieghi et erga
-Da vil fango palustre al ciel le piume.		
+	Padre del ciel'hor ch’atra nube il calle
+	Destro m’asconde e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	[TACET]
+	Regga tua santa man si ch'ei non falle
+	Mio corso errante [TACET]
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostr'à cui volsi io le spalle
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve e'l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	[TACET]
+	Come sublime augel che spieghi et erga
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -881,20 +884,20 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET]
-[TACET]
-[TACET]
-Regga tua santa man si ch'ei non falle
-Mio corso errante [TACET]
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostr'à cui volsi io le spalle
-Deh pria che’l verno queste chiome asperga
-Di bianca neve [TACET]
-[TACET]
-Dammi ch'io faccia a tua magion ritorno
-[TACET]
-Da vil fango palustre al ciel le piume.	
+	[TACET]
+	[TACET]
+	[TACET]
+	[TACET]
+	Regga tua santa man si ch'ei non falle
+	Mio corso errante [TACET]
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostr'à cui volsi io le spalle
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve [TACET]
+	[TACET]
+	Dammi ch'io faccia a tua magion ritorno
+	[TACET]
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -906,20 +909,20 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-[TACET]
-[TACET] e vie fallaci stampo
-Con vago pie per questo instabil campo
-De la mondana e paludosa valle
-[TACET]
-Mio corso errante [TACET]
-Dolce sovra me splenda e del mio scampo
-Quel sentier mostr'à cui volsi io le spalle
-Deh pria che’l verno queste chiome asperga
-[TACET] e'l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-Dammi ch'io faccia a tua magion ritorno
-[TACET]
-Da vil fango palustre al ciel le piume.		
+	[TACET]
+	[TACET] e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana e paludosa valle
+	[TACET]
+	Mio corso errante [TACET]
+	Dolce sovra me splenda e del mio scampo
+	Quel sentier mostr'à cui volsi io le spalle
+	Deh pria che’l verno queste chiome asperga
+	[TACET] e'l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	Dammi ch'io faccia a tua magion ritorno
+	[TACET]
+	Da vil fango palustre al ciel le piume.
 @@END: VARIORUM
 
 
@@ -931,19 +934,19 @@ Da vil fango palustre al ciel le piume.
 @PAGE:		2
 @PARATEXT:	
 @VERSE:		
-Padre del ciel'hor ch’atra nube il calle
-Destro m’asconde e vie fallaci stampo
-Con vago pie per questo instabil campo
-De la mondana e paludosa valle
-[TACET]
-Mio corso errante e di tua gratia il lampo
-[TACET]
-Quel sentier mostr'à cui volsi io le spalle
-Deh pria che’l verno queste chiome asperga
-Di bianca neve e'l mio nascente giorno
-Chiuda in tenebre eterne il fosco lume
-[TACET]
-Come sublime augel che spieghi et erga
-[TACET] al ciel le piume.		
+	Padre del ciel'hor ch’atra nube il calle
+	Destro m’asconde e vie fallaci stampo
+	Con vago pie per questo instabil campo
+	De la mondana e paludosa valle
+	[TACET]
+	Mio corso errante e di tua gratia il lampo
+	[TACET]
+	Quel sentier mostr'à cui volsi io le spalle
+	Deh pria che’l verno queste chiome asperga
+	Di bianca neve e'l mio nascente giorno
+	Chiuda in tenebre eterne il fosco lume
+	[TACET]
+	Come sublime augel che spieghi et erga
+	[TACET] al ciel le piume.
 @@END: VARIORUM
 

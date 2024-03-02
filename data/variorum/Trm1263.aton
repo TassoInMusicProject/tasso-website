@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1263
 @ID:		E2
@@ -17,18 +18,18 @@
 @PAGE:		[5]v
 @PARATEXT:	stamp[at]o. Ne le nozze del sig[n]or Don Cesare d’este e de la Sig[no]ra Donna Virg[i]nia de’ Medici.
 @VERSE:	
-Ciò che Morte rallenta Amor ristringi
-Tu di pace nemico, ella di guerra,
-e del suo trionphar trionpha e regna :
-e mentre due bell’alme hor leghi, e cingi
-così rendi sembiante al ciel la terra
-che d’habitarla tù non fuggi, o sdegni.
-Non sono ire là sù, gli humani ingegni
-Tu placidi ne rendi e l’odio interno
-sgombri signor da mansueti <del>chor</del> cori,
-sgombri mille furori,
-e quasi fai co’l tuo valor superno
-De le cose mortali un giro eterno.
+	Ciò che Morte rallenta Amor ristringi
+	Tu di pace nemico, ella di guerra,
+	e del suo trionphar trionpha e regna :
+	e mentre due bell’alme hor leghi, e cingi
+	così rendi sembiante al ciel la terra
+	che d’habitarla tù non fuggi, o sdegni.
+	Non sono ire là sù, gli humani ingegni
+	Tu placidi ne rendi e l’odio interno
+	sgombri signor da mansueti <del>chor</del> cori,
+	sgombri mille furori,
+	e quasi fai co’l tuo valor superno
+	De le cose mortali un giro eterno.
 @@END: VARIORUM
 
 
@@ -62,7 +63,7 @@ De le cose mortali un giro eterno.
 @PAGE:		58
 @PARATEXT:	Celebra le nozze del Signor Don Cesare da Este, e della Signora Donna Virginia Medici
 @VERSE:		
-Ciò, che morte rallenta, Amor restringi,
+	Ciò, che morte rallenta, Amor restringi,
 	Amico tu di pace, ella di guerra,
 	E del suo trionfar trionfi, e regni:
 	E mentre due bell’alme annodi, e cingi,
@@ -96,7 +97,7 @@ Ciò, che morte rallenta, Amor restringi,
 @PAGE:		203
 @PARATEXT:	DEL SIG. TORQ. TASSO, / All'Ill.ma S.D. Virginia de' Medici.
 @VERSE:	
- Ciò che morte rallenta, Amor, restringi
+	Ciò che morte rallenta, Amor, restringi
 	Amico tu di pace, ella di guerra,
 	E del suo trionfar, trionfi, e regni:
 	E mentre due bell’alme annodi, e cingi,
@@ -119,7 +120,7 @@ Ciò, che morte rallenta, Amor restringi,
 @PAGE:		28
 @PARATEXT:	Torquato Tasso. Nelle  nozzi di Don Cesare da Este, con Donna Verginia de Medeci.
 @VERSE:	
-Ciò che morte rallenta, amor restringi
+	Ciò che morte rallenta, amor restringi
 	Amico tu di pace, ella di guerra,
 	E del suo trionfar, trionfi, e regni,
 	E mentre due bell’alme annodi, e cingi,
@@ -142,7 +143,7 @@ Ciò che morte rallenta, amor restringi
 @PAGE:		156
 @PARATEXT:	Ne le medesime nozze.
 @VERSE:		
-      Ciò che morte rallenta, Amor, restringi,
+	Ciò che morte rallenta, Amor, restringi,
 	Amico tù di pace, ella di guerra,
 	E del suo trionfar, trionfi, e regni:
 	E mentre due bell’alme annodi, e cingi,
@@ -155,7 +156,9 @@ Ciò che morte rallenta, amor restringi
 	E quasi fai col tuo valor superno,
 	De le cose mortali un giro eterno.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1263
 @ID:		S141
 @TYPE:		print
@@ -163,7 +166,7 @@ Ciò che morte rallenta, amor restringi
 @PAGE:		Parte seconda delle Rime, 46
 @PARATEXT:	Loda in questa Canzone (fatta per le nozze di D. Cesare d’Este, hoggi Duca di Modona, &amp; della Sign. Donna Virginia de Medici, le due illustrissime famiglie d’Este, &amp; de Medici, &amp; anchora gli sposi.
 @VERSE:		
-Ciò che morte rallenta, Amor rstringi,
+	Ciò che morte rallenta, Amor rstringi,
 	Amico tù di pace, ella di guerra,
 	E del suo trionfar, trionfi, e regni:
 	E mentre due bell’alme annodi, e cingi,
@@ -175,8 +178,10 @@ Ciò che morte rallenta, Amor rstringi,
 	Sgombri mille furori,
 	E quasi fai col tuo valor superno,
 	de le cose mortali un giro eterno.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1263
 @ID:		S166
 @TYPE:		print
@@ -184,7 +189,7 @@ Ciò che morte rallenta, Amor rstringi,
 @PAGE:		Parte seconda delle Rime, 46
 @PARATEXT:	Loda in questa Canzone (fatta per le nozze di D. Cesare d’Este, hoggi Duca di Modona, &amp; della Sign. Donna Virginia de Medici, le due illustrissime famiglie d’Este, &amp; de Medici, &amp; anchora gli sposi.
 @VERSE:		
-Ciò che morte rallenta, Amor rstringi,
+	Ciò che morte rallenta, Amor rstringi,
 	Amico tù di pace, ella di guerra,
 	E del suo trionfar, trionfi, e regni:
 	E mentre due bell’alme annodi, e cingi,
@@ -196,8 +201,10 @@ Ciò che morte rallenta, Amor rstringi,
 	Sgombri mille furori,
 	E quasi fai col tuo valor superno,
 	de le cose mortali un giro eterno.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1263
 @ID:		S169
 @TYPE:		print
@@ -205,7 +212,7 @@ Ciò che morte rallenta, Amor rstringi,
 @PAGE:		RIME DEL TASSO.HIMENEI. P. IV., 7
 @PARATEXT:	Matrimonio del
 @VERSE:		
-Ciò, che morte rallenta, Amor restringi
+	Ciò, che morte rallenta, Amor restringi
 	Amico tù di pace, ella di guerra,
 	E del suo trionfar trionfi, e regni:
 	E mentre due bell’alme annodi, e cingi,
@@ -217,7 +224,7 @@ Ciò, che morte rallenta, Amor restringi
 	Sgombri mille furori,
 	E quasi fai col tuo valor superno
 	de le cose mortali un giro eterno.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

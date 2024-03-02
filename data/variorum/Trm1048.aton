@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1048
 @ID:		E2
@@ -17,13 +18,13 @@
 @PAGE:		[97]v
 @PARATEXT:	stampa
 @VERSE:		
-queste note Marfisa
-Vi dono, e questa penna, e questo inchiostro,
-E questa <del>cart</del> penna, e questo spirto è vostro :
-E l’alto nome, e ’l nume,
-acui sacro la lingua, il cor, gli accenti,
-Degno, ch’a quattro venti
-il portin più felici, e bianche piume.
+	queste note Marfisa
+	Vi dono, e questa penna, e questo inchiostro,
+	E questa <del>cart</del> penna, e questo spirto è vostro :
+	E l’alto nome, e ’l nume,
+	acui sacro la lingua, il cor, gli accenti,
+	Degno, ch’a quattro venti
+	il portin più felici, e bianche piume.
 @@END: VARIORUM
 
 
@@ -43,18 +44,20 @@ il portin più felici, e bianche piume.
 @ID:		S28
 @TYPE:		print
 @SPRINT:	
-@PAGE:	14	
+@PAGE:	14
 @PARATEXT:	Nella dedicatione d’una scielta di Madrigali in musica alla Signora Donna Marfisa da Este; ad istanza d’un Gentilhuomo suo amico
 @VERSE:		
-Queste note io vi dono
-Marfisa, e queste carte, e questo inchiostro,
-E questa penna, e questo spirto è vostro,
-E l’alto nome, e’l nume,
-A cui sacro lo stile, il cor, gli accenti,
-Degno, ch’à quattro venti
-Il portin più felici, e bianche piume.
+	Queste note io vi dono
+	Marfisa, e queste carte, e questo inchiostro,
+	E questa penna, e questo spirto è vostro,
+	E l’alto nome, e’l nume,
+	A cui sacro lo stile, il cor, gli accenti,
+	Degno, ch’à quattro venti
+	Il portin più felici, e bianche piume.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1048
 @ID:		S141
 @TYPE:		print
@@ -62,15 +65,17 @@ Il portin più felici, e bianche piume.
 @PAGE:		Parte terza delle Rime, 51
 @PARATEXT:	Nella dedicazione d’una scielta di Madriali in musica dedicata alla Sig. D. Marfisa d’ Este ad instanza d’un gentilhuomo suo amico.
 @VERSE:		
-Queste note io vi dono
+	Queste note io vi dono
 	Marfisa, e queste carte, e questo inchiostro,
 	E questa penna, e questo spirto è vostro,
 	E l’alto nome, e ’l nume,
 	A cui sacro lo stile, il cor, gli accenti,
 	Degno, ch’à quattro venti
 	Il portin piu felici, e bianche piume.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1048
 @ID:		S166
 @TYPE:		print
@@ -78,15 +83,17 @@ Queste note io vi dono
 @PAGE:		Parte terza delle Rime, 51
 @PARATEXT:	Nella dedicazione d’una scielta di Madriali in musica dedicata alla Sig. D. Marfisa d’ Este ad instanza d’un gentilhuomo suo amico.
 @VERSE:		
-Queste note io vi dono
+	Queste note io vi dono
 	Marfisa, e queste carte, e questo inchiostro,
 	E questa penna, e questo spirto è vostro,
 	E l’alto nome, e ’l nume,
 	A cui sacro lo stile, il cor, gli accenti,
 	Degno, ch’à quattro venti
 	Il portin piu felici, e bianche piume.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm1048
 @ID:		S169
 @TYPE:		print
@@ -94,14 +101,14 @@ Queste note io vi dono
 @PAGE:		RIME DEL TASSO.VARIE. PAR. IX., 21
 @PARATEXT:	Madrigali in Musica donati alla Sig. Donna Marfisa d'Este.
 @VERSE:		
-Queste note io vi dono
+	Queste note io vi dono
 	MARFISA, e queste carte, e questo inchiostro,
 	E questa penna e questo spirto è vostro,
 	E l’alto nome, e ’l nume
 	A cui sacro lo stile, il cor gli accenti,
 	Degno, ch’à quattro venti
 	Il portin più felici, e bianche piume.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -112,7 +119,7 @@ Queste note io vi dono
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Queste note vi dono
+	Queste note vi dono
 	Signor E queste carte E quest'inchiostro
 	E quant'e in me Sugana e tutto vostro
 	E l’alto nome E ’l nume
@@ -130,7 +137,7 @@ Queste note vi dono
 @PAGE:		1
 @PARATEXT:	
 @VERSE:	
-Queste note vi dono
+	Queste note vi dono
 	Signor e queste cart'E quest'inchiostro
 	E quant'e in me Sugana e tutto vostro
 	E l’alto nome e ’l nume
@@ -148,7 +155,7 @@ Queste note vi dono
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Queste note vi dono
+	Queste note vi dono
 	Signor e queste carte E quest'inchiostro
 	E quant'e in me Sugana e tutto vostro
 	E l’alto nome e ’l nume

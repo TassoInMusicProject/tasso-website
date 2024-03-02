@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0896
 @ID:		C
@@ -17,17 +18,17 @@
 @PAGE:		84v
 @PARATEXT:	[the entire poem is deleted with two diagonal strike-throughs]
 @VERSE:	
-Cagion forse è l’Aurora
-di questo bel concento,
-Che fan le fronde e i rami, e l’acque e’l vento.
+	Cagion forse è l’Aurora
+	di questo bel concento,
+	Che fan le fronde e i rami, e l’acque e’l vento.
 @VERSE:
-O con si dolce modo
-Il Ciel Tarquinia Honora,
-O per lei de la terra <del>s'honora.</del> ^s’inamora.^
+	O con si dolce modo
+	Il Ciel Tarquinia Honora,
+	O per lei de la terra <del>s'honora.</del> ^s’inamora.^
 @VERSE:
-Io odo certo, io odo
-la voce, ella è pur d'essa
-Ecco Tarquinia viene Amor s’appressa.	
+	Io odo certo, io odo
+	la voce, ella è pur d'essa
+	Ecco Tarquinia viene Amor s’appressa.
 @@END: VARIORUM
 
 
@@ -61,16 +62,16 @@ Ecco Tarquinia viene Amor s’appressa.
 @PAGE:		32
 @PARATEXT:	Loda la Signora Tarquinia Molza
 @VERSE:		
-Forsi è cagion l’Aurora
-Di questo bel concento,
-Che fan le fronde, e i rami, e l’acque, e ’l vento?
+	Forsi è cagion l’Aurora
+	Di questo bel concento,
+	Che fan le fronde, e i rami, e l’acque, e ’l vento?
 @VERSE:
-O' con sì dolce modo
-Il Ciel Tarquinia honora,
-E per lei de la terra s’innamora?
-I odo (ò parmi) i odo
-La voce, ella è pur dessa,
-Ecco Tarquinia viene, Amor s’appressa.
+	O' con sì dolce modo
+	Il Ciel Tarquinia honora,
+	E per lei de la terra s’innamora?
+	I odo (ò parmi) i odo
+	La voce, ella è pur dessa,
+	Ecco Tarquinia viene, Amor s’appressa.
 @@END: VARIORUM
 
 
@@ -82,17 +83,17 @@ Ecco Tarquinia viene, Amor s’appressa.
 @PAGE:		108
 @PARATEXT:	
 @VERSE:		
-Cagion forse è l’Aurora
-Di questo bel concento
-Che fan le fronde, e i rami, e l’acque e ’l vento.
+	Cagion forse è l’Aurora
+	Di questo bel concento
+	Che fan le fronde, e i rami, e l’acque e ’l vento.
 @VERSE:
-E con si dolce modo
-Il Ciel Tarquinia Honora,
-E per lei de la terra s’innamora.
+	E con si dolce modo
+	Il Ciel Tarquinia Honora,
+	E per lei de la terra s’innamora.
 @VERSE:
-Io odo certo, io odo
-La voce ella è pur d'essa
-Ecco Tarquinia viene, Amor s’appressa.	
+	Io odo certo, io odo
+	La voce ella è pur d'essa
+	Ecco Tarquinia viene, Amor s’appressa.
 @@END: VARIORUM
 
 
@@ -104,18 +105,20 @@ Ecco Tarquinia viene, Amor s’appressa.
 @PAGE:		32
 @PARATEXT:	Loda la Signora Tarquinia Molza
 @VERSE:		
-Forse è cagion l’Aurora
-Di questo bel concento,
-Che fan le fronde, e i rami, e l’acque, e ’l vento?
+	Forse è cagion l’Aurora
+	Di questo bel concento,
+	Che fan le fronde, e i rami, e l’acque, e ’l vento?
 @VERSE:
-O' con sì dolce modo
-Il Ciel Tarquinia honora,
-E per lei de la terra s’innamora?
-I odo (ò parmi) i odo
-La voce, ella è pur dessa,
-Ecco Tarquinia viene, Amor s’appressa.	
+	O' con sì dolce modo
+	Il Ciel Tarquinia honora,
+	E per lei de la terra s’innamora?
+	I odo (ò parmi) i odo
+	La voce, ella è pur dessa,
+	Ecco Tarquinia viene, Amor s’appressa.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0896
 @ID:		S141
 @TYPE:		print
@@ -123,16 +126,16 @@ Ecco Tarquinia viene, Amor s’appressa.
 @PAGE:		Parte quarta delle Rime, 105
 @PARATEXT:	In lode della Sig. Tarquinia Molza.
 @VERSE:		
-Forse è cagion d’Aurora
+	Forse è cagion d’Aurora
 	Di questo bel concento,
 	Che fan le fronde, e i rami, e l’acque, e ’l vento?
-O con si dolce modo
+	O con si dolce modo
 	Il Ciel Tarquinia honora,
 	E per lei de la terra s’innamora?
-I odo (ò parmi) i odo
+	I odo (ò parmi) i odo
 	La voce, ella è pur dessa,
 	Ecco Tarquinia viene, Amor s’appressa.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -143,17 +146,19 @@ I odo (ò parmi) i odo
 @PAGE:		38r
 @PARATEXT:	Torquato Tasso. / Per la Illustre Sign. Tarquinia Molza.
 @VERSE:		
-Forse è cagion l’Aurora
-Di questo bel concento,
-Che fan le fronde, e i rami, e l’acque, e ’l vento?
-O con si dolce modo
-Il Ciel Tarquinia honora,
-E per lei de la terra s’innamora?
-I odo (ò parmi) i odo
-La voce ella è pur dessa
-Ecco Tarquinia viene, Amor s’appressa.
+	Forse è cagion l’Aurora
+	Di questo bel concento,
+	Che fan le fronde, e i rami, e l’acque, e ’l vento?
+	O con si dolce modo
+	Il Ciel Tarquinia honora,
+	E per lei de la terra s’innamora?
+	I odo (ò parmi) i odo
+	La voce ella è pur dessa
+	Ecco Tarquinia viene, Amor s’appressa.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0896
 @ID:		S166
 @TYPE:		print
@@ -161,17 +166,19 @@ Ecco Tarquinia viene, Amor s’appressa.
 @PAGE:		Parte quarta delle Rime, 105
 @PARATEXT:	In lode della Sig. Tarquinia Molza.
 @VERSE:		
-Forse è cagion d’Aurora
+	Forse è cagion d’Aurora
 	Di questo bel concento,
 	Che fan le fronde, e i rami, e l’acque, e ’l vento?
-O con si dolce modo
+	O con si dolce modo
 	Il Ciel Tarquinia honora,
 	E per lei de la terra s’innamora?
-I odo (ò parmi) i odo
+	I odo (ò parmi) i odo
 	La voce, ella è pur dessa,
 	Ecco Tarquinia viene, Amor s’appressa.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0896
 @ID:		S169
 @TYPE:		print
@@ -179,7 +186,7 @@ I odo (ò parmi) i odo
 @PAGE:		RIME DEL TASSO.AMOROSE. P. II., 159
 @PARATEXT:	Per la Signora Tarquinia Molza.
 @VERSE:		
-Forse è cagion l’Aurora,
+	Forse è cagion l’Aurora,
 	Di questo bel concento,
 	Che fan le frondi, e i rami, e l’acque, e ’l vento?
 	O con sì dolce modo,
@@ -188,7 +195,7 @@ Forse è cagion l’Aurora,
 	I odo, ò parmi, i odo
 	La voce, ella è pur d' essa,
 	Ecco Tarquinia viene, Amor s’appressa.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -254,15 +261,15 @@ Forse è cagion l’Aurora,
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Forsi è cagion l’Aurora
-Di questo bel concento
-che fan le fronde e i rami l’acque e ’l vento
-o con si dolce modo
-[TACET]
-E per lei de la terra s’innamora
-I odo o parmi I odo
-la voce ella è pur dessa
-ecco Tarquinia viene Amor s’appressa.
+	Forsi è cagion l’Aurora
+	Di questo bel concento
+	che fan le fronde e i rami l’acque e ’l vento
+	o con si dolce modo
+	[TACET]
+	E per lei de la terra s’innamora
+	I odo o parmi I odo
+	la voce ella è pur dessa
+	ecco Tarquinia viene Amor s’appressa.
 @@END: VARIORUM
 
 
@@ -274,15 +281,15 @@ ecco Tarquinia viene Amor s’appressa.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Forsi è cagion l’Aurora
-Di questo bel concento
-che fan le fronde e i rami l’acque e ’l vento
-O con si dolce modo
-Il ciel Tarquinia honora
-E per lei della terra S’innamora
-I odo o parmi odo
-la voce ella è pur d’essa
-Ecco Tarquinia viene Amor s’appressa.
+	Forsi è cagion l’Aurora
+	Di questo bel concento
+	che fan le fronde e i rami l’acque e ’l vento
+	O con si dolce modo
+	Il ciel Tarquinia honora
+	E per lei della terra S’innamora
+	I odo o parmi odo
+	la voce ella è pur d’essa
+	Ecco Tarquinia viene Amor s’appressa.
 @@END: VARIORUM
 
 
@@ -294,15 +301,15 @@ Ecco Tarquinia viene Amor s’appressa.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Forsi è cagion l’Aurora
-Di questo bel concento
-che fan le fronde e i rami l’acque e ’l vento
-O con si dolce modo
-Il ciel Tarquinia honora
-E per lei della terra S’innamora
-I odo o parmi I odo
-la voce ella è pur d’essa
-Ecco Tarquinia viene Amor s’appressa.
+	Forsi è cagion l’Aurora
+	Di questo bel concento
+	che fan le fronde e i rami l’acque e ’l vento
+	O con si dolce modo
+	Il ciel Tarquinia honora
+	E per lei della terra S’innamora
+	I odo o parmi I odo
+	la voce ella è pur d’essa
+	Ecco Tarquinia viene Amor s’appressa.
 @@END: VARIORUM
 
 
@@ -314,15 +321,15 @@ Ecco Tarquinia viene Amor s’appressa.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Forsi è cagion l’Aurora
-Di questo bel concento
-Che fan le frondi e i rami l’acque e ’l vento
-O con si dolce modo
-Il ciel Tarquinia honora
-E per lei de la terra s’innamora
-I odo o parmi I odo
-la voce ella è pur d’essa
-Ecco Tarquinia viene Amor s’appressa.
+	Forsi è cagion l’Aurora
+	Di questo bel concento
+	Che fan le frondi e i rami l’acque e ’l vento
+	O con si dolce modo
+	Il ciel Tarquinia honora
+	E per lei de la terra s’innamora
+	I odo o parmi I odo
+	la voce ella è pur d’essa
+	Ecco Tarquinia viene Amor s’appressa.
 @@END: VARIORUM
 
 
@@ -334,15 +341,15 @@ Ecco Tarquinia viene Amor s’appressa.
 @PAGE:		17
 @PARATEXT:	
 @VERSE:		
-Forsi è cagion l’Aurora
-Di questo bel concento
-che fan le fronde e i rami l’acque e ’l vento
-[TACET]
-Il ciel Tarquinia honora
-E per lei della terra s’innamora
-I odo o parmi I odo
-la voce ella pur d’essa
-Ecco Tarquinia viene Amor s’appressa.
+	Forsi è cagion l’Aurora
+	Di questo bel concento
+	che fan le fronde e i rami l’acque e ’l vento
+	[TACET]
+	Il ciel Tarquinia honora
+	E per lei della terra s’innamora
+	I odo o parmi I odo
+	la voce ella pur d’essa
+	Ecco Tarquinia viene Amor s’appressa.
 @@END: VARIORUM
 
 

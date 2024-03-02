@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0417
 @ID:		F2
@@ -28,7 +29,7 @@
 @PAGE:		114
 @PARATEXT:	
 @VERSE:		
-Dolce mia fiamma, dolce
+	Dolce mia fiamma, dolce
 	Mia pena, e mio tormento
 	Dolce è ’l languir, dolce è ’l martir ch’io sento,
 	Dolci sono i tuoi raggi, e le faville,
@@ -48,7 +49,7 @@ Dolce mia fiamma, dolce
 @PAGE:		114
 @PARATEXT:	
 @VERSE:		
-Dolce mia fiamma, dolce
+	Dolce mia fiamma, dolce
 	Mia pena, e mio tormento
 	Dolc'è ’l languir, dolc'è ’l martir ch’io sento,
 	Dolci sono i tuoi raggi, e le faville,
@@ -56,9 +57,11 @@ Dolce mia fiamma, dolce
 	Passano in questo core,
 	Dico, s’egli si more,
 	Il suo morir non prezza,
-	Nè morrà per dolor, ma per dolcezza. 	
+	Nè morrà per dolor, ma per dolcezza.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0417
 @ID:		S141
 @TYPE:		print
@@ -66,7 +69,7 @@ Dolce mia fiamma, dolce
 @PAGE:		Parte quarta delle Rime, 173
 @PARATEXT:	Loda le pene, che pativa amando.
 @VERSE:		
-Dolce mia fiamma, dolce
+	Dolce mia fiamma, dolce
 	Mia pena, e mio tormento
 	Dolc’ è ’l languir, dolc’ è ’l martir, ch’io sento,
 	Dolci sono i tuoi raggi, e le faville,
@@ -75,8 +78,10 @@ Dolce mia fiamma, dolce
 	Dico, s’egli si more,
 	Il suo morir non prezza,
 	Nè morrà per dolor, ma per dolcezza.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0417
 @ID:		S166
 @TYPE:		print
@@ -84,7 +89,7 @@ Dolce mia fiamma, dolce
 @PAGE:		Parte quarta delle Rime, 173
 @PARATEXT:	Loda le pene, che pativa amando.
 @VERSE:		
-Dolce mia fiamma, dolce
+	Dolce mia fiamma, dolce
 	Mia pena, e mio tormento
 	Dolc’ è ’l languir, dolc’ è ’l martir, ch’io sento,
 	Dolci sono i tuoi raggi, e le faville,
@@ -93,8 +98,10 @@ Dolce mia fiamma, dolce
 	Dico, s’egli si more,
 	Il suo morir non prezza,
 	Nè morrà per dolor, ma per dolcezza.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0417
 @ID:		S169
 @TYPE:		print
@@ -102,7 +109,7 @@ Dolce mia fiamma, dolce
 @PAGE:		RIME DEL TASSO.AMOROSE. P. II., 244
 @PARATEXT:	Parole di Madonna à l'amante.
 @VERSE:		
-Dolce mia fiamma, dolce
+	Dolce mia fiamma, dolce
 	Mia pena, e mio tormento,
 	Dolc' è ’l languir, dolc' è ’l martir, ch’io sento,
 	Dolci sono i tuoi raggi, e le faville,
@@ -111,7 +118,7 @@ Dolce mia fiamma, dolce
 	Dico s’egli si more,
 	Il suo morir non prezza,
 	Ne morrà per dolor, ma per dolcezza.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -287,7 +294,7 @@ Dolce mia fiamma, dolce
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Dolce mia fiamma dolce
+	Dolce mia fiamma dolce
 	Mia penn'e mio tormento
 	Dolc'è ’l languir Dolc'è ’l martir ch’io sento
 	Dolci sono i tuoi raggi e le faville
@@ -307,7 +314,7 @@ Dolce mia fiamma dolce
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-Dolce [illegible]
+	Dolce [illegible]
 	[illegible] mio tormento
 	[illegible]
 	[illegible]
@@ -327,7 +334,7 @@ Dolce [illegible]
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-[illegible]
+	[illegible]
 	[illegible]
 	[illegible]
 	[illegible]
@@ -349,7 +356,7 @@ Dolce [illegible]
 @PAGE:		11
 @PARATEXT:	
 @VERSE:		
-[illegible]
+	[illegible]
 	[illegible]
 	[illegible]
 	[illegible]

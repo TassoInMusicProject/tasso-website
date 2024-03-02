@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0047
 @ID:		Amz
@@ -408,7 +409,8 @@
 	{E se piaghe mi diè, baci le renda}.
 @@END: VARIORUM
 
-@@BEGIN:	VARIORUM
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0047
 @ID:		S33
 @TYPE:		print
@@ -428,10 +430,10 @@
 	{Giusto è ben, ch'io ne prenda},
 	{Amor, qualche vendetta},
 	{E se piaghe mi diè, baci le renda}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
-@@BEGIN:	VARIORUM
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0047
 @ID:		S67
 @TYPE:		print
@@ -451,7 +453,7 @@
 	{Giusto è ben, ch'io ne prenda},
 	{Amor, qualche vendetta},
 	{E se piaghe mi diè, baci le renda}.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -2112,7 +2114,7 @@
 @ID:		Trm0047s-Tenore
 @TYPE:		music
 @COMPOSER:	Montella, Giovan Domenico
-@PAGE:	17-18	
+@PAGE:	17-18
 @PARATEXT:	
 @VERSE:	
 	{Non è questa la} mano

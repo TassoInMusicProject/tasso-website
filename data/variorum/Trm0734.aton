@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0734
 @ID:		I4
@@ -39,12 +40,12 @@
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Angioletta cortese,
-Odi dal terzo Cielo
-Le mie calde parole, e’l vivo Zelo,
-E porta innanzi a Giove
-Le mie preghiere nuove,
-Si che da lui fien con pietade intese.
+	Angioletta cortese,
+	Odi dal terzo Cielo
+	Le mie calde parole, e’l vivo Zelo,
+	E porta innanzi a Giove
+	Le mie preghiere nuove,
+	Si che da lui fien con pietade intese.
 @@END: VARIORUM
 
 
@@ -56,12 +57,12 @@ Si che da lui fien con pietade intese.
 @PAGE:		34
 @PARATEXT:	
 @VERSE:		
-Angioletta cortese,
-Odi dal terzo Cielo
-Le mie calde parole, e’l vivo zelo,
-E porta innanzi à Giove
-Le mie preghiere nove,
-Sì che da lui fien con pietade intese.
+	Angioletta cortese,
+	Odi dal terzo Cielo
+	Le mie calde parole, e’l vivo zelo,
+	E porta innanzi à Giove
+	Le mie preghiere nove,
+	Sì che da lui fien con pietade intese.
 @@END: VARIORUM
 
 
@@ -73,13 +74,13 @@ Sì che da lui fien con pietade intese.
 @PAGE:		5
 @PARATEXT:	
 @VERSE:		
-Angioletta cortese,
-Odi dal terzo Cielo
-Le mie calde parole, e’l vivo Zelo,
-E porta innanzi à Giove
+	Angioletta cortese,
+	Odi dal terzo Cielo
+	Le mie calde parole, e’l vivo Zelo,
+	E porta innanzi à Giove
 @VERSE:
-Le mie preghiere nove,
-Si che da lui fien con pietade intese.
+	Le mie preghiere nove,
+	Si che da lui fien con pietade intese.
 @@END: VARIORUM
 
 
@@ -113,14 +114,16 @@ Si che da lui fien con pietade intese.
 @PAGE:		34
 @PARATEXT:	
 @VERSE:	
-Angioletta cortese,
-Odi dal terzo Cielo,
-Le mie calde parole, e’l vivo Zelo,
-E porta innanzi à Giove
-Le mie preghiere nove,
-Si che da lui sien con pietade intese;
+	Angioletta cortese,
+	Odi dal terzo Cielo,
+	Le mie calde parole, e’l vivo Zelo,
+	E porta innanzi à Giove
+	Le mie preghiere nove,
+	Si che da lui sien con pietade intese;
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0734
 @ID:		S34
 @TYPE:		print
@@ -128,14 +131,16 @@ Si che da lui sien con pietade intese;
 @PAGE:		34
 @PARATEXT:	Madrigali.
 @VERSE:		
-ANGIOLETTA cortese,
+	ANGIOLETTA cortese,
 	Odi dal terzo cielo,
 	Le mie calde parole, e ’l vivo zelo,
 	E porta innanzi à Giove
 	Le mie preghiere nove,
 	Sì che da lui sien con pietade intese.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0734
 @ID:		S68
 @TYPE:		print
@@ -143,14 +148,16 @@ ANGIOLETTA cortese,
 @PAGE:		34
 @PARATEXT:	Madrigali.
 @VERSE:		
-ANGIOLETTA cortese,
+	ANGIOLETTA cortese,
 	Odi dal terzo cielo,
 	Le mie calde parole, e ’l vivo zelo,
 	E porta innanzi à Giove
 	Le mie preghiere nove,
 	Sì che da lui sien con pietade intese.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0734
 @ID:		S141
 @TYPE:		print
@@ -158,14 +165,16 @@ ANGIOLETTA cortese,
 @PAGE:		Parte seconda delle Rime, 162
 @PARATEXT:
 @VERSE:		
-Angioletta cortese,
+	Angioletta cortese,
 	Odi dal terzo cielo,
 	Le mie calde parole, e ’l vivo zelo,
 	E porta innanzi à Giove
 	Le mie preghiere nove,
 	Si che da lui sien con pietade intese;
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0734
 @ID:		S166
 @TYPE:		print
@@ -173,14 +182,16 @@ Angioletta cortese,
 @PAGE:		Parte seconda delle Rime, 162
 @PARATEXT:
 @VERSE:		
-Angioletta cortese,
+	Angioletta cortese,
 	Odi dal terzo cielo,
 	Le mie calde parole, e ’l vivo zelo,
 	E porta innanzi à Giove
 	Le mie preghiere nove,
 	Si che da lui sien con pietade intese;
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0734
 @ID:		S169
 @TYPE:		print
@@ -188,13 +199,13 @@ Angioletta cortese,
 @PAGE:		RIME DEL TASSO.VARIE. PAR. IX., 107
 @PARATEXT:	Ragiona con una giovanetta cara al Duca detta Angela.
 @VERSE:		
-Angeletta cortese
+	Angeletta cortese
 	Odi dal terzo cielo,
 	Le mie calde parole, e ’l vivo zelo,
 	E porta innanzi à Giove
 	Le mie preghiere nove,
 	Sì che da lui sien con pietade intese;
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM

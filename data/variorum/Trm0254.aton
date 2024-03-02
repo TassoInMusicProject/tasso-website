@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
 @ID:		none
@@ -25,10 +26,10 @@
 @ID:		S27
 @TYPE:		print
 @SPRINT:	
-@PAGE:	30	
+@PAGE:	30
 @PARATEXT:	Ad Amore
 @VERSE:	
-Amor, ch'aspro tormento
+	Amor, ch'aspro tormento
 	Sei fra mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procelle, e fiero vento,
@@ -46,10 +47,10 @@ Amor, ch'aspro tormento
 @ID:		S70
 @TYPE:		print
 @SPRINT:	
-@PAGE:	30	
+@PAGE:	30
 @PARATEXT:	Ad Amore
 @VERSE:	
-Amor, ch'aspro tormento
+	Amor, ch'aspro tormento
 	Sei fra mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procelle, e fiero vento,
@@ -58,9 +59,11 @@ Amor, ch'aspro tormento
 	Sei fra gli Angeli in Ciel senza difetto,
 	Contentezza, e diletto,
 	E tranquilla quiete, e stabil pace,
-	E gioia eterna con piacer verace.	
+	E gioia eterna con piacer verace.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
 @ID:		S141
 @TYPE:		print
@@ -68,7 +71,7 @@ Amor, ch'aspro tormento
 @PAGE:		Parte quarta delle Rime, 102
 @PARATEXT:	Fa vedere ad Amore, qual’egli si sia.
 @VERSE:		
-Amor, ch’aspro tormento
+	Amor, ch’aspro tormento
 	Sei fra mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procelle, e fiero vento,
@@ -78,8 +81,10 @@ Amor, ch’aspro tormento
 	Contentezza, e diletto,
 	E tranquilla quiete, e stabil pace,
 	E gioia eterna con piacer verace.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
 @ID:		S166
 @TYPE:		print
@@ -87,7 +92,7 @@ Amor, ch’aspro tormento
 @PAGE:		Parte quarta delle Rime, 102
 @PARATEXT:	Fa vedere ad Amore, qual’egli si sia.
 @VERSE:		
-Amor, ch’aspro tormento
+	Amor, ch’aspro tormento
 	Sei fra mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procelle, e fiero vento,
@@ -97,8 +102,10 @@ Amor, ch’aspro tormento
 	Contentezza, e diletto,
 	E tranquilla quiete, e stabil pace,
 	E gioia eterna con piacer verace.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0254
 @ID:		S169
 @TYPE:		print
@@ -106,7 +113,7 @@ Amor, ch’aspro tormento
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 275
 @PARATEXT:	La differenza degli Amori.
 @VERSE:		
-Amor, ch’aspro tormento
+	Amor, ch’aspro tormento
 	Sei fra mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procella, e fiero vento,
@@ -116,7 +123,7 @@ Amor, ch’aspro tormento
 	Contentezza, e diletto,
 	E tranquilla quiete, e stabil pace,
 	E gioia eterna con piacer verace.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -127,7 +134,7 @@ Amor, ch’aspro tormento
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Amor, ch'aspro tormento
+	Amor, ch'aspro tormento
 	Sei frà mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procella, e fiero vento,
@@ -148,7 +155,7 @@ Amor, ch'aspro tormento
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Amor, ch'aspro tormento
+	Amor, ch'aspro tormento
 	Sei frà mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procella, e fiero vento,
@@ -169,7 +176,7 @@ Amor, ch'aspro tormento
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Amor, ch'aspro tormento
+	Amor, ch'aspro tormento
 	Sei frà mortali in terra
 	E mal secura tregua, e certa guerra,
 	E terribil procella, e fiero vento,
@@ -178,7 +185,7 @@ Amor, ch'aspro tormento
 	Sei frà gl'angeli in ciel senza diffetto
 	Contentezza, e diletto,
 	E tranquilla quiete, e stabil pace,
-	E gioia eterna con piacer verace.	
+	E gioia eterna con piacer verace.
 @@END: VARIORUM
 
 
@@ -190,7 +197,7 @@ Amor, ch'aspro tormento
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Amor, ch'aspro tormento
+	Amor, ch'aspro tormento
 	Sei frà mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procella, e fiero vento,
@@ -211,7 +218,7 @@ Amor, ch'aspro tormento
 @PAGE:		10
 @PARATEXT:	
 @VERSE:		
-Amor, ch'aspro tormento
+	Amor, ch'aspro tormento
 	Sei frà mortali in terra,
 	E mal secura tregua, e certa guerra,
 	E terribil procella, e fiero vento,

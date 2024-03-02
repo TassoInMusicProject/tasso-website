@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0315
 @ID:		E1
@@ -17,13 +18,13 @@
 @PAGE:		228
 @PARATEXT:	stampa.
 @VERSE:		
-Quella candida mano,
-Ch' a mezzo il verno i vaghi fiori accinse
-Ma con leggiadri nodi ancora <del>avinse</del> strinse
-Deh s’un medesmo fato,
-Hanno i bei fiori, et io
-Non bramo di morir, se no legato
-Ma in si bel petto di morir desio.
+	Quella candida mano,
+	Ch' a mezzo il verno i vaghi fiori accinse
+	Ma con leggiadri nodi ancora <del>avinse</del> strinse
+	Deh s’un medesmo fato,
+	Hanno i bei fiori, et io
+	Non bramo di morir, se no legato
+	Ma in si bel petto di morir desio.
 @@END: VARIORUM
 
 
@@ -68,7 +69,7 @@ Ma in si bel petto di morir desio.
 @PAGE:		55
 @PARATEXT:	
 @VERSE:		
-Quella candida mano,
+	Quella candida mano,
 	Ch’à mezo il verno i vaghi fiori accinse,
 	Me con leggiadri nodi ancora strinse.
 	Deh, s’un medesmo fato
@@ -86,13 +87,13 @@ Quella candida mano,
 @PAGE:		127-128
 @PARATEXT:	
 @VERSE:		
-Quella candida mano
-Ch'à mezo verno i vaghi fiori accinse
-Ma con leggiadri nodi ancora strinse.
-Deh s’un medesmo fato
-Hanno i bei fiori &amp; io,
-Non bramo di morir se non legato,
-Ma in si bel petto di morir desio.
+	Quella candida mano
+	Ch'à mezo verno i vaghi fiori accinse
+	Ma con leggiadri nodi ancora strinse.
+	Deh s’un medesmo fato
+	Hanno i bei fiori &amp; io,
+	Non bramo di morir se non legato,
+	Ma in si bel petto di morir desio.
 @@END: VARIORUM
 
 
@@ -104,15 +105,17 @@ Ma in si bel petto di morir desio.
 @PAGE:		63
 @PARATEXT:	
 @VERSE:		
-Quella candida mano,
-Ch'à mezo verno i vaghi fiori accinse,
-Me con leggiadri nodi ancora strinse.
-Deh, s’un medesmo fato
-Hanno i bei fiori, &amp; io,
-Non bramo di morir se non legato;
-Ma in si bel petto di morir desio.
+	Quella candida mano,
+	Ch'à mezo verno i vaghi fiori accinse,
+	Me con leggiadri nodi ancora strinse.
+	Deh, s’un medesmo fato
+	Hanno i bei fiori, &amp; io,
+	Non bramo di morir se non legato;
+	Ma in si bel petto di morir desio.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0315
 @ID:		S141
 @TYPE:		print
@@ -120,15 +123,17 @@ Ma in si bel petto di morir desio.
 @PAGE:		Parte terza delle Rime, 125
 @PARATEXT:	Vide un giorno tagliare alla D. sua alcuni fiori, &amp; farne un mazzetto, dice, che torrebbe ad esser cosi legato, &amp; perche poi godesse di baciarle il petto.
 @VERSE:		
-Quella candida mano,
+	Quella candida mano,
 	Ch’a mezo il verno i vaghi fiori accinse,
 	Me con leggiadri nodi ancora strinse.
 	Deh, s’un medesmo fato
 	Hanno i bei fiori, &amp; io,
 	Non bramo di morir, se non legato,
 	Ma ’n sì bel petto di morir desio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0315
 @ID:		S166
 @TYPE:		print
@@ -136,15 +141,17 @@ Quella candida mano,
 @PAGE:		Parte terza delle Rime, 125
 @PARATEXT:	Vide un giorno tagliare alla D. sua alcuni fiori, &amp; farne un mazzetto, dice, che torrebbe ad esser cosi legato, &amp; perche poi godesse di baciarle il petto.
 @VERSE:		
-Quella candida mano,
+	Quella candida mano,
 	Ch’a mezo il verno i vaghi fiori accinse,
 	Me con leggiadri nodi ancora strinse.
 	Deh, s’un medesmo fato
 	Hanno i bei fiori, &amp; io,
 	Non bramo di morir, se non legato,
 	Ma ’n sì bel petto di morir desio.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0315
 @ID:		S169
 @TYPE:		print
@@ -152,14 +159,14 @@ Quella candida mano,
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 66
 @PARATEXT:	Mano legatrice.
 @VERSE:		
-Quella candida mano,
+	Quella candida mano,
 	Che a mezo il verno i vaghi fiori aviinse,
 	Me, con leggiadri nodi ancora strinse.
 	Deh s’un medesmo Fato
 	Hanno i bei fiori, &amp; io,
 	Non bramo di morir, se non legato,
 	Ma in si bel petto di morir desio.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -216,6 +223,7 @@ Quella candida mano,
 @VERSE:		
 @@END: VARIORUM
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0315
 @ID:		Trm0315b-Canto
@@ -224,13 +232,13 @@ Quella candida mano,
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Quella candida mano,
-Ch’a mezz’il verno i vaghi fiori accinse
-Me con leggiadri modi ancora strinse
-Deh s’un medesmo fato
-Hanno i bei fiori ed io
-Non bramo di morir se non legato,
-Ma in quel bel petto di morir desio.
+	Quella candida mano,
+	Ch’a mezz’il verno i vaghi fiori accinse
+	Me con leggiadri modi ancora strinse
+	Deh s’un medesmo fato
+	Hanno i bei fiori ed io
+	Non bramo di morir se non legato,
+	Ma in quel bel petto di morir desio.
 @@END: VARIORUM
 
 
@@ -242,13 +250,13 @@ Ma in quel bel petto di morir desio.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Quella candida mano,
-Ch’à mezz’il verno i vaghi fiori accinse
-Me con leggiadri modi ancora strinse
-Deh s’un medesmo fato
-Hanno i bei fiori ed io
-Non bramo di morir se non legato,
-Ma in quel bel petto di morir desio.
+	Quella candida mano,
+	Ch’à mezz’il verno i vaghi fiori accinse
+	Me con leggiadri modi ancora strinse
+	Deh s’un medesmo fato
+	Hanno i bei fiori ed io
+	Non bramo di morir se non legato,
+	Ma in quel bel petto di morir desio.
 @@END: VARIORUM
 
 
@@ -260,13 +268,13 @@ Ma in quel bel petto di morir desio.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Quella [TACET]
-Ch’à mezz’il verno i vaghi fiori accinse
-Me con leggiadri modi ancora strinse
-Deh s’un medesmo fato
-Hanno i bei fiori ed io
-Non bramo di morir se non legato,
-Ma in quel bel petto di morir desio.
+	Quella [TACET]
+	Ch’à mezz’il verno i vaghi fiori accinse
+	Me con leggiadri modi ancora strinse
+	Deh s’un medesmo fato
+	Hanno i bei fiori ed io
+	Non bramo di morir se non legato,
+	Ma in quel bel petto di morir desio.
 @@END: VARIORUM
 
 
@@ -278,13 +286,13 @@ Ma in quel bel petto di morir desio.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Quella candida mano,
-Ch’à mezz’il verno i vaghi fiori accinse
-Me con leggiadri modi ancora strinse
-Deh s’un medesmo fato
-Hanno i beî fiori ed io
-Non bramo di morir se non legato,
-Ma in quel bel petto di morir desio.
+	Quella candida mano,
+	Ch’à mezz’il verno i vaghi fiori accinse
+	Me con leggiadri modi ancora strinse
+	Deh s’un medesmo fato
+	Hanno i beî fiori ed io
+	Non bramo di morir se non legato,
+	Ma in quel bel petto di morir desio.
 @@END: VARIORUM
 
 
@@ -296,13 +304,13 @@ Ma in quel bel petto di morir desio.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Quella candida mano,
-Ch’à mezz’il verno i vaghi fiori accinse
-Me con leggiadri modi ancora strinse
-Deh s’un medesmo fato
-Hanno i bei fiori ed io
-Non bramo di morir se non legato,
-Ma in quel bel petto di morir desio.
+	Quella candida mano,
+	Ch’à mezz’il verno i vaghi fiori accinse
+	Me con leggiadri modi ancora strinse
+	Deh s’un medesmo fato
+	Hanno i bei fiori ed io
+	Non bramo di morir se non legato,
+	Ma in quel bel petto di morir desio.
 @@END: VARIORUM
 
 

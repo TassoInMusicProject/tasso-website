@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0256
 @ID:		E1
@@ -17,15 +18,15 @@
 @PAGE:		298
 @PARATEXT:	stampa.
 @VERSE:		
-Amor, che qui dintorno
-Hor fai ben mille scherzi, e mille giri
-s’ardisci numerar tante mie pene :
-e tanti miei sospiri,
-che son più de l’arene
-più de l’onde del mar, più de le stelle
-Racconta a la mia donna e questi e quelle :
-e di’ ch’io vivo accioche resti in vita
-la mia doglia infinita :
+	Amor, che qui dintorno
+	Hor fai ben mille scherzi, e mille giri
+	s’ardisci numerar tante mie pene :
+	e tanti miei sospiri,
+	che son più de l’arene
+	più de l’onde del mar, più de le stelle
+	Racconta a la mia donna e questi e quelle :
+	e di’ ch’io vivo accioche resti in vita
+	la mia doglia infinita :
 @@END: VARIORUM
 
 
@@ -59,15 +60,15 @@ la mia doglia infinita :
 @PAGE:		113
 @PARATEXT:	[Ad Amore]
 @VERSE:		
-Amor, che quì d’intorno
-Hor fai ben mille scherzi, e mille giri
-S’ardisci numerar tante mie pene,
-E tanti miei sospiri.
-Che son più de l’arene,
-Piu de l’onde del mar piu de le stelle
-Racconta à la mia Donna, e queste, e quelle,
-E dì, ch’io vivo, acciò che resti in vita
-La mia doglia infinita.
+	Amor, che quì d’intorno
+	Hor fai ben mille scherzi, e mille giri
+	S’ardisci numerar tante mie pene,
+	E tanti miei sospiri.
+	Che son più de l’arene,
+	Piu de l’onde del mar piu de le stelle
+	Racconta à la mia Donna, e queste, e quelle,
+	E dì, ch’io vivo, acciò che resti in vita
+	La mia doglia infinita.
 @@END: VARIORUM
 
 
@@ -79,17 +80,19 @@ La mia doglia infinita.
 @PAGE:		113
 @PARATEXT:	[Ad Amore]
 @VERSE:		
-Amor, che quì d’intorno
-Hor fai ben mille scherzi, e mille giri
-S’ardisci numerar tante mie pene,
-E tanti miei sospiri.
-Che son piu de l’arene,
-Piu de l’onde del mar, piu de le stelle;
-Racconta a la mia Donna, e queste, e quelle
-E dì, ch’io vivo, accioche resti in vita
-La mia doglia infinita.	
+	Amor, che quì d’intorno
+	Hor fai ben mille scherzi, e mille giri
+	S’ardisci numerar tante mie pene,
+	E tanti miei sospiri.
+	Che son piu de l’arene,
+	Piu de l’onde del mar, piu de le stelle;
+	Racconta a la mia Donna, e queste, e quelle
+	E dì, ch’io vivo, accioche resti in vita
+	La mia doglia infinita.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0256
 @ID:		S141
 @TYPE:		print
@@ -97,7 +100,7 @@ La mia doglia infinita.
 @PAGE:		Parte quarta delle Rime, 172
 @PARATEXT:	Ad Amore pregandolo a dire alla sua D. ch’egli vive solo, accioche la pena sua viva.
 @VERSE:		
-Amor, che quì d’intorno
+	Amor, che quì d’intorno
 	Hor fai ben mille scherzi, e mille giri
 	S’ardisci numerar tante mie pene,
 	E tanti miei sospiri,
@@ -106,8 +109,10 @@ Amor, che quì d’intorno
 	Racconta a la mia Donna, e queste, e quelle
 	E dì ch’io vivo, accioche resti in vita
 	La mia doglia infinita.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0256
 @ID:		S166
 @TYPE:		print
@@ -115,7 +120,7 @@ Amor, che quì d’intorno
 @PAGE:		Parte quarta delle Rime, 172
 @PARATEXT:	Ad Amore pregandolo a dire alla sua D. ch’egli vive solo, accioche la pena sua viva.
 @VERSE:		
-Amor, che quì d’intorno
+	Amor, che quì d’intorno
 	Hor fai ben mille scherzi, e mille giri
 	S’ardisci numerar tante mie pene,
 	E tanti miei sospiri,
@@ -124,8 +129,10 @@ Amor, che quì d’intorno
 	Racconta a la mia Donna, e queste, e quelle
 	E dì ch’io vivo, accioche resti in vita
 	La mia doglia infinita.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0256
 @ID:		S169
 @TYPE:		print
@@ -133,7 +140,7 @@ Amor, che quì d’intorno
 @PAGE:		RIME DEL TASSO. AMOROSE. P. II., 261
 @PARATEXT:	Amante pentito.
 @VERSE:		
-Amor, che qui d’intorno
+	Amor, che qui d’intorno
 	Hor fai ben mille scherzi, e mille giri,
 	S’ardisci numerar tante mie pene,
 	E tanti miei sospiri,
@@ -142,7 +149,7 @@ Amor, che qui d’intorno
 	Racconta a la mia Donna, e queste, e quelle.
 	E di, ch’io vivo, accioche resti in vita
 	La mia doglia infinita.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -252,15 +259,15 @@ Amor, che qui d’intorno
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Amor che qui d’intorno
-Hor fai ben mille scherz’e mille giri
-S’ardisci numerar tante mie pene
-E tanti miei sospiri
-Che son piu de l’arene
-Piu de l’onde del mar piu de le stelle
-Racconta à la mia Donna e quest'e quelle
-E di ch’io vivo acciò che resti in vita
-La mia doglia infinita.
+	Amor che qui d’intorno
+	Hor fai ben mille scherz’e mille giri
+	S’ardisci numerar tante mie pene
+	E tanti miei sospiri
+	Che son piu de l’arene
+	Piu de l’onde del mar piu de le stelle
+	Racconta à la mia Donna e quest'e quelle
+	E di ch’io vivo acciò che resti in vita
+	La mia doglia infinita.
 @@END: VARIORUM
 
 
@@ -272,15 +279,15 @@ La mia doglia infinita.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Amor che qui d’intorno
-Hor fai ben mille scherz’e mille giri
-S’ardisci numerar tante mie pene
-E tanti miei sospiri
-Che son piu de l’arene
-Piu de l’onde del mar piu de le stelle
-Racconta à la mia Donna e quest'e quelle
-E di ch’io vivo acciò che resti in vita
-La mia doglia infinita.
+	Amor che qui d’intorno
+	Hor fai ben mille scherz’e mille giri
+	S’ardisci numerar tante mie pene
+	E tanti miei sospiri
+	Che son piu de l’arene
+	Piu de l’onde del mar piu de le stelle
+	Racconta à la mia Donna e quest'e quelle
+	E di ch’io vivo acciò che resti in vita
+	La mia doglia infinita.
 @@END: VARIORUM
 
 
@@ -292,15 +299,15 @@ La mia doglia infinita.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Amor che qui d’intorno
-Hor fai ben mille scherz’e mille giri
-S’ardisci numerar tante mie pene
-E tanti miei sospiri
-Che son piu de l’arene
-Piu de l’onde del mar piu de le stelle
-Racconta à la mia Donna e queste e quelle
-E di ch’io vivo acciò che resti in vita
-La mia doglia infinita.
+	Amor che qui d’intorno
+	Hor fai ben mille scherz’e mille giri
+	S’ardisci numerar tante mie pene
+	E tanti miei sospiri
+	Che son piu de l’arene
+	Piu de l’onde del mar piu de le stelle
+	Racconta à la mia Donna e queste e quelle
+	E di ch’io vivo acciò che resti in vita
+	La mia doglia infinita.
 @@END: VARIORUM
 
 
@@ -312,15 +319,15 @@ La mia doglia infinita.
 @PAGE:		20
 @PARATEXT:	
 @VERSE:		
-Amor che qui d’intorno
-Hor fai ben mille scherz’e mille giri
-S’ardisci numerar tante mie pene
-E tanti miei sospiri
-Che son più che l’arene
-Più che l’onde del mar più che le stelle
-Racconta a la mia donna e queste e quelle
-E di ch’io viv’accio che resti in vita
-La mia doglia infinita.
+	Amor che qui d’intorno
+	Hor fai ben mille scherz’e mille giri
+	S’ardisci numerar tante mie pene
+	E tanti miei sospiri
+	Che son più che l’arene
+	Più che l’onde del mar più che le stelle
+	Racconta a la mia donna e queste e quelle
+	E di ch’io viv’accio che resti in vita
+	La mia doglia infinita.
 @@END: VARIORUM
 
 

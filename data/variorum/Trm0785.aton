@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0785
 @ID:		Ts2
@@ -17,17 +18,17 @@
 @PAGE:		7r
 @PARATEXT:	
 @VERSE:	
-Portano l’altre il velo,
-Voi le chiome dorate
-Forse per alterezza al sol mostrate.
+	Portano l’altre il velo,
+	Voi le chiome dorate
+	Forse per alterezza al sol mostrate.
 @VERSE:
-Ma s’à sdegno prendete
-Ogni essempio terreno
-Con alti essempi il Ciel vi muova almeno.
+	Ma s’à sdegno prendete
+	Ogni essempio terreno
+	Con alti essempi il Ciel vi muova almeno.
 @VERSE:
 <del>L’Alba</del> col vel ^l'alba^ vedete,
 <del>Hà il suo la Dea di</del> ^e lei che nacque in^ Delo
-E l’Iri il suo colora anco nel Cielo.	
+	E l’Iri il suo colora anco nel Cielo.
 @@END: VARIORUM
 
 
@@ -50,17 +51,17 @@ E l’Iri il suo colora anco nel Cielo.
 @PAGE:		7r
 @PARATEXT:	
 @VERSE:	
-Portano l’altre il velo,
-Voi le chiome dorate
-Forse per alterezza al sol mostrate.
+	Portano l’altre il velo,
+	Voi le chiome dorate
+	Forse per alterezza al sol mostrate.
 @VERSE:
-Ma s’à sdegno prendete
-Ogni essempio terreno
-Con alti essempi il Ciel vi muova almeno.
+	Ma s’à sdegno prendete
+	Ogni essempio terreno
+	Con alti essempi il Ciel vi muova almeno.
 @VERSE:
-L’Alba col vel vedete,
-Hà il suo la Dea di Delo
-E l’Iri il suo colora anco nel Cielo.
+	L’Alba col vel vedete,
+	Hà il suo la Dea di Delo
+	E l’Iri il suo colora anco nel Cielo.
 @@END: VARIORUM
 
 
@@ -72,17 +73,17 @@ E l’Iri il suo colora anco nel Cielo.
 @PAGE:		7r
 @PARATEXT:	
 @VERSE:	
-Portano l’altre il velo,
-Voi le chiome dorate
-Forse per alterezza al sol mostrate.
+	Portano l’altre il velo,
+	Voi le chiome dorate
+	Forse per alterezza al sol mostrate.
 @VERSE:
-Ma s’à sdegno prendete
-Ogni essempio terreno
-Con alti essempi il Ciel vi muova almeno.
+	Ma s’à sdegno prendete
+	Ogni essempio terreno
+	Con alti essempi il Ciel vi muova almeno.
 @VERSE:
-L’Alba col vel vedete,
-Hà il suo la Dea di Delo
-E l’Iri il suo colora anco nel Cielo.
+	L’Alba col vel vedete,
+	Hà il suo la Dea di Delo
+	E l’Iri il suo colora anco nel Cielo.
 @@END: VARIORUM
 
 
@@ -106,7 +107,9 @@ E l’Iri il suo colora anco nel Cielo.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0785
 @ID:		S69
 @TYPE:		print
@@ -114,17 +117,19 @@ E l’Iri il suo colora anco nel Cielo.
 @PAGE:		7r
 @PARATEXT:	Alla Sig. D. Marsisa d’Este.
 @VERSE:		
-PORTANO l’altre il velo,
+	PORTANO l’altre il velo,
 	Voi le chiome dorate
 	Forse per alterezza al sol mostrate,
-Ma s’à sdegno prendete
+	Ma s’à sdegno prendete
 	Ogni essempio terreno
 	Con alti essempi il Ciel vi mova almeno:
-L’Alba col vel vedete,
+	L’Alba col vel vedete,
 	Hà il suo la Dea di Delo
 	E l’Iri il suo colora anco nel Cielo.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0785
 @ID:		S141
 @TYPE:		print
@@ -132,16 +137,16 @@ L’Alba col vel vedete,
 @PAGE:		Parte seconda delle Rime, 174
 @PARATEXT:	Havea il Poeta gelosia, che i be’ capelli della sua Donna, non tirassero altri ad amarla, però cerca di persuaderla a coprirli.
 @VERSE:		
-Portano l’altre il velo,
+	Portano l’altre il velo,
 	Voi le chiome dorate
 	Forse per alterezza al sol mostrate.
-Ma s’à sdegno prendete
+	Ma s’à sdegno prendete
 	Ogni essempio terreno
 	Con alti essempi il Ciel vi mova almeno:
-L’Alba col vel vedete.
+	L’Alba col vel vedete.
 	Hà il suo la Dea di Delo
 	E l’Iri il suo colora anco nel Cielo.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -152,17 +157,19 @@ L’Alba col vel vedete.
 @PAGE:		Parte seconda, 12r
 @PARATEXT:	CHIOMA SVELATA . / Torquato Tasso.
 @VERSE:	
-Portano l’altre il velo,
-Voi le chiome dorate
-Forse per alterezza al Sol mostrate;
-Ma s’à sdegno prendete
-Ogni essempio terreno
-Con alti essempi il Ciel vi muova almeno.
-L’Alba col vel vedete,
-Ha il suo la Dea di Delo,
-E l’Iri il suo colora anco nel Cielo.
+	Portano l’altre il velo,
+	Voi le chiome dorate
+	Forse per alterezza al Sol mostrate;
+	Ma s’à sdegno prendete
+	Ogni essempio terreno
+	Con alti essempi il Ciel vi muova almeno.
+	L’Alba col vel vedete,
+	Ha il suo la Dea di Delo,
+	E l’Iri il suo colora anco nel Cielo.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0785
 @ID:		S166
 @TYPE:		print
@@ -170,17 +177,19 @@ E l’Iri il suo colora anco nel Cielo.
 @PAGE:		Parte seconda delle Rime, 174
 @PARATEXT:	Havea il Poeta gelosia, che i be’ capelli della sua Donna, non tirassero altri ad amarla, però cerca di persuaderla a coprirli.
 @VERSE:		
-Portano l’altre il velo,
+	Portano l’altre il velo,
 	Voi le chiome dorate
 	Forse per alterezza al sol mostrate.
-Ma s’à sdegno prendete
+	Ma s’à sdegno prendete
 	Ogni essempio terreno
 	Con alti essempi il Ciel vi mova almeno:
-L’Alba col vel vedete.
+	L’Alba col vel vedete.
 	Hà il suo la Dea di Delo
 	E l’Iri il suo colora anco nel Cielo.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0785
 @ID:		S169
 @TYPE:		print
@@ -188,7 +197,7 @@ L’Alba col vel vedete.
 @PAGE:		RIME DEL TASSO.AMOROSE. P. I., 8
 @PARATEXT:	Segue. [Capo senza ornamento.]
 @VERSE:		
-Portano l’altre il velo,
+	Portano l’altre il velo,
 	Voi le chiome dorate
 	Forse per alterezza al Sol mostrate;
 	Ma se a sdegno prendete
@@ -197,7 +206,7 @@ Portano l’altre il velo,
 	L' Alba col vel  vedete,
 	Ha il suo la Dea di Delo,
 	E l’Iri il suo colora anco nel Cielo.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -208,7 +217,7 @@ Portano l’altre il velo,
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Portano l’altre il velo
+	Portano l’altre il velo
 	Voi le chiome dorate
 	Forsi per alterezza al sol mostrate
 	Ma s’a sdegno prendete
@@ -228,7 +237,7 @@ Portano l’altre il velo
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Portano l’altre il velo
+	Portano l’altre il velo
 	Voi le chiome dorate
 	Forsi per alterezza al sol mostrate
 	Ma s’a sdegno prendete
@@ -248,7 +257,7 @@ Portano l’altre il velo
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Portano l’altre il velo
+	Portano l’altre il velo
 	Voi le chiome dorate
 	Forsi per alterezza al sol mostrate
 	Ma s’a sdegno prendete
@@ -268,7 +277,7 @@ Portano l’altre il velo
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Portano l’altre il velo
+	Portano l’altre il velo
 	Voi le chiome dorate
 	Forsi per alterezza al sol mostrate
 	Ma s’a sdegno prendete
@@ -288,7 +297,7 @@ Portano l’altre il velo
 @PAGE:		18
 @PARATEXT:	
 @VERSE:		
-Portano l’altre il velo
+	Portano l’altre il velo
 	Voi le chiome dorate
 	Forsi per alterezza al sol mostrate
 	Ma s’a sdegno prendete

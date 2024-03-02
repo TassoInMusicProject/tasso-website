@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0408
 @ID:		F2
@@ -28,17 +29,17 @@
 @PAGE:		10v
 @PARATEXT:	[The entire poem is deleted with a vertical strike-through]
 @VERSE:		
-Questo tra gli altri fiori
+	Questo tra gli altri fiori
 	Sanguigno si fù tinto
 	Del bel sangue d’Adone, ò di Giacinto?
 @VERSE:
-O pur’ in lui converse
+	O pur’ in lui converse
 	Il suo l’alato Iddio,
 	Quando il suo stral gli cadde, e si ferio?
 @VERSE:
-Deh serà mai, ch' versi
+	Deh serà mai, ch' versi
 	Si fortunati humori
-	Ch’ei in se gli cangi, e ’l vostro seno infiori?	
+	Ch’ei in se gli cangi, e ’l vostro seno infiori?
 @@END: VARIORUM
 
 
@@ -50,15 +51,15 @@ Deh serà mai, ch' versi
 @PAGE:		10v
 @PARATEXT:	
 @VERSE:		
-Questo tra gli altri fiori
+	Questo tra gli altri fiori
 	Sanguigno si fù tinto
 	Del bel sangue d’Adone, ò di Giacinto?
 @VERSE:
-O pur’ in lui converse
+	O pur’ in lui converse
 	Il suo l’alato Iddio,
 	Quando il suo stral gli cadde, e si ferio?
 @VERSE:
-Deh serà mai, ch' versi
+	Deh serà mai, ch' versi
 	Si fortunati humori
 	Ch’ei in se gli cangi, e ’l vostro seno infiori?
 @@END: VARIORUM
@@ -72,18 +73,19 @@ Deh serà mai, ch' versi
 @PAGE:		10v
 @PARATEXT:	
 @VERSE:		
-Questo tra gli altri fiori
+	Questo tra gli altri fiori
 	Sanguigno si fù tinto
 	Del bel sangue d’Adone, ò di Giacinto?
 @VERSE:
-O pur’ in lui converse
+	O pur’ in lui converse
 	Il suo l’alato Iddio,
 	Quando il suo stral gli cadde, e si ferio?
 @VERSE:
-Deh serà mai, ch' versi
+	Deh serà mai, ch' versi
 	Si fortunati humori
 	Ch’ei in se gli cangi, e ’l vostro seno infiori?
 @@END: VARIORUM
+
 
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0408
@@ -93,19 +95,21 @@ Deh serà mai, ch' versi
 @PAGE:		71
 @PARATEXT:	
 @VERSE:		
-Questo tra gli altri fiori
+	Questo tra gli altri fiori
 	Sanguigno si fù tinto
 	Del bel sangue d’Adone, ò di Giacinto?
 @VERSE:
-O pur’ in lui converse
+	O pur’ in lui converse
 	Il suo l’alato Iddio,
 	Quando un suo stral gli cadde, e si ferio?
 @VERSE:
-Deh farà mai, ch’io versi
+	Deh farà mai, ch’io versi
 	Sì fortunati humori,
 	Ch’ei sì li cangi, e ’l vostro seno infiori?
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0408
 @ID:		S141
 @TYPE:		print
@@ -113,17 +117,19 @@ Deh farà mai, ch’io versi
 @PAGE:		Seconda parte delle Rime, 176
 @PARATEXT:	Il Poeta si stima tanto infelice, quanto è bella la Donna sua, però dice, che ella, con un suo dolce guardo, possa renderlo felice.
 @VERSE:		
-Questo tra gli altri fiori	
+	Questo tra gli altri fiori
 	Sanguigno si fù tinto
 	Del bel sangue d’Adone, o di Giacinto?
-O pur in lui converse
+	O pur in lui converse
 	Il suo l’alato Dio
 	Quando il suo stral gli cadde,e si ferio?
-Deh, sarà mai, che verse
+	Deh, sarà mai, che verse
 	Sì fortunati humori
 	Ch’in se gli cangi, e ’l vostro seno in fiori?
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0408
 @ID:		S166
 @TYPE:		print
@@ -131,17 +137,19 @@ Deh, sarà mai, che verse
 @PAGE:		Seconda parte delle Rime, 176
 @PARATEXT:	Il Poeta si stima tanto infelice, quanto è bella la Donna sua, però dice, che ella, con un suo dolce guardo, possa renderlo felice.
 @VERSE:		
-Questo tra gli altri fiori	
+	Questo tra gli altri fiori
 	Sanguigno si fù tinto
 	Del bel sangue d’Adone, o di Giacinto?
-O pur in lui converse
+	O pur in lui converse
 	Il suo l’alato Dio
 	Quando il suo stral gli cadde,e si ferio?
-Deh, sarà mai, che verse
+	Deh, sarà mai, che verse
 	Sì fortunati humori
 	Ch’in se gli cangi, e ’l vostro seno in fiori?
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0408
 @ID:		S169
 @TYPE:		print
@@ -149,16 +157,16 @@ Deh, sarà mai, che verse
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 65
 @PARATEXT:	Fiore celebrato.
 @VERSE:		
-Questo tra gli altri fiori
+	Questo tra gli altri fiori
 	Sanguigno sì fù tinto,
 	Del bel sangue d’Adone, o di Giacinto?
-O pur in lui converse
+	O pur in lui converse
 	Il suo l’alato Iddio
 	Quando un suo stral gli cadde, e si ferio?
-Deh sarà mai, ch’io verse
+	Deh sarà mai, ch’io verse
 	Si fortunati humori
 	Ch’in se li cangi, e’l vostro seno infiori?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -169,17 +177,17 @@ Deh sarà mai, ch’io verse
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Questo tra’gli altri fiori
-Sanguigni si fu tinto
-Del bel sangue d’Adone o di Giacinto.
+	Questo tra’gli altri fiori
+	Sanguigni si fu tinto
+	Del bel sangue d’Adone o di Giacinto.
 @VERSE:
-O pure in lui converse
-Il suo l’Alato Iddio
-Quando un suo stral gli cadde e si ferio.
+	O pure in lui converse
+	Il suo l’Alato Iddio
+	Quando un suo stral gli cadde e si ferio.
 @VERSE:
-Deh sarà mai ch’io versi
-Si fortunati humori
-Ch’ei si li cangi, e’l vostro seno infiori.
+	Deh sarà mai ch’io versi
+	Si fortunati humori
+	Ch’ei si li cangi, e’l vostro seno infiori.
 @@END: VARIORUM
 
 
@@ -191,17 +199,17 @@ Ch’ei si li cangi, e’l vostro seno infiori.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Questo tra gli altri fiori
-Sanguigno si fu tinto
-Del bel sangue d’Adone o di Giacinto.
+	Questo tra gli altri fiori
+	Sanguigno si fu tinto
+	Del bel sangue d’Adone o di Giacinto.
 @VERSE:
-O pure in lui converse
-Il suo l’Alato Iddio
-Quando un suo stral gli cadde e si ferio.
+	O pure in lui converse
+	Il suo l’Alato Iddio
+	Quando un suo stral gli cadde e si ferio.
 @VERSE:
-Deh sarà mai ch’io versi
-Si fortunati humori
-Ch’ei si li cangi, e’l vostro seno infiori.
+	Deh sarà mai ch’io versi
+	Si fortunati humori
+	Ch’ei si li cangi, e’l vostro seno infiori.
 @@END: VARIORUM
 
 
@@ -213,17 +221,17 @@ Ch’ei si li cangi, e’l vostro seno infiori.
 @PAGE:		14
 @PARATEXT:	
 @VERSE:		
-Questo tra gli altri fiori
-Sanguigno si fu tinto
-Del bel sangue d’Adone o di Giacinto.
+	Questo tra gli altri fiori
+	Sanguigno si fu tinto
+	Del bel sangue d’Adone o di Giacinto.
 @VERSE:
-O pure in lui converse
-Il suo l’Alato Iddio
-Quando un suo stral gli cadde e si ferio.
+	O pure in lui converse
+	Il suo l’Alato Iddio
+	Quando un suo stral gli cadde e si ferio.
 @VERSE:
-Deh sarà mai ch’io versi
-Si fortunati humori
-Ch’ei si li cangi, e’l vostro seno infiori.
+	Deh sarà mai ch’io versi
+	Si fortunati humori
+	Ch’ei si li cangi, e’l vostro seno infiori.
 @@END: VARIORUM
 
 

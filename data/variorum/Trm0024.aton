@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0024
 @ID:		C
@@ -17,7 +18,7 @@
 @PAGE:		9v
 @PARATEXT:	Ne l'istesso soggetto. [Ne la lontananza della sua donna dice di non poter havere alcun piacer lontano da lei se non quello, ch'egli sente nel partir per lei.]
 @VERSE:		
-Gia non sono io contento
+	Gia non sono io contento
 	lunge, da voi, che sete il mio tormento.
 	in così dolce modo
 	M’arde il pensier, ma s’egli a voi mi giunge,
@@ -47,7 +48,7 @@ Gia non sono io contento
 @PAGE:		184
 @PARATEXT:	Lontano dalla sua donna, dice di non sentir' altro piacer che'l pensier de lei, e l'amarla.
 @VERSE:		
-Già non son’io contento
+	Già non son’io contento
 	Lunge da voi, che sete il mio tormento;
 	In così dolce modo
 	M’arde il pensier: ma s’egli à voi mi giunge,
@@ -85,16 +86,18 @@ Già non son’io contento
 @PAGE:		184
 @PARATEXT:	Lontano dalla sua donna, dice di non sentir' altro piacer che'l pensier de lei, e l'amarla.
 @VERSE:		
-Già non son’io contento
+	Già non son’io contento
 	Lunge da voi, che sete il mio tormento;
 	In così dolce modo
 	M’arde il pensier: ma s’egli à voi mi giunge,
 	Io vi rimiro, &amp; odo
 	Allhora più vicin, che son più lunge;
 	Et amo, &amp; ardo, e godo
-	Più del mio foco, se maggior'il sento.	
+	Più del mio foco, se maggior'il sento.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0024
 @ID:		S141
 @TYPE:		print
@@ -102,7 +105,7 @@ Già non son’io contento
 @PAGE:		Quarta parte delle Rime, 205
 @PARATEXT:
 @VERSE:		
-Già non son’io contento
+	Già non son’io contento
 	Lunge da voi, che sete il mio tormento;
 	In così dolce modo
 	M’arde il pensier: ma s’egli a voi mi giungo,
@@ -110,7 +113,7 @@ Già non son’io contento
 	Allhora piu vicin, che son più lunge;
 	Et amo, &amp; ardo, e godo
 	Piu del mio foco, se maggior' il sento.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -130,7 +133,9 @@ Già non son’io contento
 	Et amo, &amp; ardo, e godo
 	Più del mio foco se maggior il sento.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0024
 @ID:		S166
 @TYPE:		print
@@ -138,7 +143,7 @@ Già non son’io contento
 @PAGE:		Quarta parte delle Rime, 205
 @PARATEXT:
 @VERSE:		
-Già non son’io contento
+	Già non son’io contento
 	Lunge da voi, che sete il mio tormento;
 	In così dolce modo
 	M’arde il pensier: ma s’egli a voi mi giungo,
@@ -146,8 +151,10 @@ Già non son’io contento
 	Allhora piu vicin, che son più lunge;
 	Et amo, &amp; ardo, e godo
 	Piu del mio foco, se maggior' il sento.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0024
 @ID:		S169
 @TYPE:		print
@@ -155,7 +162,7 @@ Già non son’io contento
 @PAGE:		RIME DEL TASSO AMOROSE. P. I., 77
 @PARATEXT:	Segue lo stesso
 @VERSE:		
-Già non son io contento
+	Già non son io contento
 	Lunge da voi, che sete il mio tormento;
 	In cosi dolce modo
 	M’arde il pensier: ma s’egli a voi mi giunge.
@@ -163,7 +170,7 @@ Già non son io contento
 	Allhora più vicin, che son più lunge;
 	Ed amo, &amp; ardo, e godo
 	Più del mio foco, se maggior il sento.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -174,14 +181,14 @@ Già non son io contento
 @PAGE:		
 @PARATEXT:	
 @VERSE:	
-Gia non son’io contento
-Lunge da voi che sete il mio tormento
-In cosi dolce modo
-M’arde il pensier ma s’egli a voi me giunge
-Io ve rimiro &amp; odo
-Al’hora piu vicin che son più lunge
+	Gia non son’io contento
+	Lunge da voi che sete il mio tormento
+	In cosi dolce modo
+	M’arde il pensier ma s’egli a voi me giunge
+	Io ve rimiro &amp; odo
+	Al’hora piu vicin che son più lunge
 & amo &amp; ardo &amp; godo
-Piu del mio foco se maggior il sento.
+	Piu del mio foco se maggior il sento.
 @@END: VARIORUM
 
 
@@ -193,14 +200,14 @@ Piu del mio foco se maggior il sento.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Gia non son’io contento
-Lunge da voi che sete il mio tormento
-In cosi dolce modo
-Tacet ma s’egli a voi me giunge
-Io ve rimiro &amp; odo
-Al’hora piu vicin che son più lunge
+	Gia non son’io contento
+	Lunge da voi che sete il mio tormento
+	In cosi dolce modo
+	Tacet ma s’egli a voi me giunge
+	Io ve rimiro &amp; odo
+	Al’hora piu vicin che son più lunge
 & amo &amp; ardo &amp; godo
-Piu del mio foco se maggior il sento.
+	Piu del mio foco se maggior il sento.
 @@END: VARIORUM
 
 
@@ -212,14 +219,14 @@ Piu del mio foco se maggior il sento.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Gia non son’io contento
-Lunge da voi che sete il mio tormento
-In cosi dolce modo
-M’arde il pensier ma s’egli a voi me giunge
-[TACET]
-Al’hora piu vicin che son più lunge
+	Gia non son’io contento
+	Lunge da voi che sete il mio tormento
+	In cosi dolce modo
+	M’arde il pensier ma s’egli a voi me giunge
+	[TACET]
+	Al’hora piu vicin che son più lunge
 & amo &amp; ardo &amp; godo
-Piu del mio foco se maggior il sento.
+	Piu del mio foco se maggior il sento.
 @@END: VARIORUM
 
 
@@ -231,14 +238,14 @@ Piu del mio foco se maggior il sento.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:	
-Gia non son’io contento
-Lunge da voi che sete il mio tormento
-In cosi dolce modo
-[TACET]
-[TACET]
-Al’hora piu vicin che son più lunge
+	Gia non son’io contento
+	Lunge da voi che sete il mio tormento
+	In cosi dolce modo
+	[TACET]
+	[TACET]
+	Al’hora piu vicin che son più lunge
 & amo &amp; ardo &amp; godo
-Piu del mio foco se maggior il sento.
+	Piu del mio foco se maggior il sento.
 @@END: VARIORUM
 
 
@@ -250,14 +257,14 @@ Piu del mio foco se maggior il sento.
 @PAGE:		15
 @PARATEXT:	
 @VERSE:		
-Gia non son’io contento
-Lunge da voi che sete il mio tormento
-In cosi dolce modo
-M’arde il pensier ma s’egli a voi me giunge
-Io ve rimiro &amp; odo
-[TACET]
+	Gia non son’io contento
+	Lunge da voi che sete il mio tormento
+	In cosi dolce modo
+	M’arde il pensier ma s’egli a voi me giunge
+	Io ve rimiro &amp; odo
+	[TACET]
 & amo &amp; ardo &amp; godo
-Piu del mio foco se maggior il sento.
+	Piu del mio foco se maggior il sento.
 @@END: VARIORUM
 
 

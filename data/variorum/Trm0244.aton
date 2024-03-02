@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0244
 @ID:		E1
@@ -17,16 +18,16 @@
 @PAGE:		278
 @PARATEXT:	stampa
 @VERSE:		
-Qual Cervo errando suole
-fuggir saetta, o dardi,
-Io fuggiva i begl’occhi, e i dolci sgaurdi
+	Qual Cervo errando suole
+	fuggir saetta, o dardi,
+	Io fuggiva i begl’occhi, e i dolci sgaurdi
 <del>per selve oscure, e sole</del> fra l’herbe, e le viole :
-quando costei mi giunse, e co’l suo riso
-Non <del>sol</del> pur con le parole
+	quando costei mi giunse, e co’l suo riso
+	Non <del>sol</del> pur con le parole
 <del>mi diede morte, e vita</del> Vita e morte mi die così gradita :
-Morte perche diviso
-Fui da me stesso, e vita,
-Perché <del>l’anima mia fu</del> l’alma felice è seco unita.
+	Morte perche diviso
+	Fui da me stesso, e vita,
+	Perché <del>l’anima mia fu</del> l’alma felice è seco unita.
 @@END: VARIORUM
 
 
@@ -60,16 +61,16 @@ Perché <del>l’anima mia fu</del> l’alma felice è seco unita.
 @PAGE:		56
 @PARATEXT:	
 @VERSE:	
-Qual cervo errando sole
-Fuggir saete, ò dardi,
-Io fuggiva i begli occhi, e i dolci sgaurdi
-Fra l’herbe, e le viole;
-Quando costei mi giunse, e col suo riso,
-Non pur con le parole,
-Vita, e morte mi diè così gradita:
-Morte, perche diviso
-Fui da me stesso; e vita,
-Perche l’alma felice è seco unita.
+	Qual cervo errando sole
+	Fuggir saete, ò dardi,
+	Io fuggiva i begli occhi, e i dolci sgaurdi
+	Fra l’herbe, e le viole;
+	Quando costei mi giunse, e col suo riso,
+	Non pur con le parole,
+	Vita, e morte mi diè così gradita:
+	Morte, perche diviso
+	Fui da me stesso; e vita,
+	Perche l’alma felice è seco unita.
 @@END: VARIORUM
 
 
@@ -78,19 +79,19 @@ Perche l’alma felice è seco unita.
 @ID:		S48
 @TYPE:		print
 @SPRINT:	
-@PAGE:	107	
+@PAGE:	107
 @PARATEXT:	
 @VERSE:	
-Qual cervo errando suole
-Fuggir saetta, ò dardi,
-Io fuggia i begli occhi, e i dolci sgaurdi
-Fra l’herbe, e le viole:
-Quando costei mi giunse, e co’l suo riso
-Non pur con le parole,
-Vita e morte mi diè cosi gradita.
-Morte perche diviso
-Fui da me stesso, e vita
-Perche l’alma felice è seco unita.
+	Qual cervo errando suole
+	Fuggir saetta, ò dardi,
+	Io fuggia i begli occhi, e i dolci sgaurdi
+	Fra l’herbe, e le viole:
+	Quando costei mi giunse, e co’l suo riso
+	Non pur con le parole,
+	Vita e morte mi diè cosi gradita.
+	Morte perche diviso
+	Fui da me stesso, e vita
+	Perche l’alma felice è seco unita.
 @@END: VARIORUM
 
 
@@ -102,18 +103,20 @@ Perche l’alma felice è seco unita.
 @PAGE:		54
 @PARATEXT:	
 @VERSE:	
-Qual cervo errando suole
-Fuggir saetta, ò dardi,
-Io fuggia i begli occhi, e i dolci sgaurdi
-Fra l’herbe, e le viole:
-Quando costei mi giunse, e co’l suo riso
-Non pur con le parole
-Vita, e morte mi diè cosi gradita.
-Morte perche diviso
-Fui da me stesso, e vita
-Perche l’alma felice è seco unita.
+	Qual cervo errando suole
+	Fuggir saetta, ò dardi,
+	Io fuggia i begli occhi, e i dolci sgaurdi
+	Fra l’herbe, e le viole:
+	Quando costei mi giunse, e co’l suo riso
+	Non pur con le parole
+	Vita, e morte mi diè cosi gradita.
+	Morte perche diviso
+	Fui da me stesso, e vita
+	Perche l’alma felice è seco unita.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0244
 @ID:		S141
 @TYPE:		print
@@ -121,7 +124,7 @@ Perche l’alma felice è seco unita.
 @PAGE:		Parte terza delle Rime, 126
 @PARATEXT:	Dimostra, che quando men pensava d'inamorarsi, s'innamorasse.
 @VERSE:		
-Qual Cervo errando sole
+	Qual Cervo errando sole
 	Fuggir saette, o dardi,
 	Io fuggiva i begli occhi, e i dolci sguardi
 	Fra l’herbe, e le viole:
@@ -131,8 +134,10 @@ Qual Cervo errando sole
 	Morte, perche diviso
 	Fui da me stesso, e vita,
 	Perche l’alma felice è seco unita.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0244
 @ID:		S166
 @TYPE:		print
@@ -140,7 +145,7 @@ Qual Cervo errando sole
 @PAGE:		Parte terza delle Rime, 126
 @PARATEXT:	Dimostra, che quando men pensava d'inamorarsi, s'innamorasse.
 @VERSE:		
-Qual Cervo errando sole
+	Qual Cervo errando sole
 	Fuggir saette, o dardi,
 	Io fuggiva i begli occhi, e i dolci sguardi
 	Fra l’herbe, e le viole:
@@ -150,8 +155,10 @@ Qual Cervo errando sole
 	Morte, perche diviso
 	Fui da me stesso, e vita,
 	Perche l’alma felice è seco unita.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0244
 @ID:		S169
 @TYPE:		print
@@ -159,7 +166,7 @@ Qual Cervo errando sole
 @PAGE:		RIME DEL TASSO. BOSCHERECCIE. P. II., 46
 @PARATEXT:	Vita e Morte.
 @VERSE:		
-Qual Cervo errando suole
+	Qual Cervo errando suole
 	Fuggir saette, o dardi,
 	Io fuggiva i begli occhi, e i dolci sgaurdi
 	Fra l’herbe, e le viole:
@@ -169,7 +176,7 @@ Qual Cervo errando suole
 	Morte perche diviso
 	Fui da me stesso, e vita,
 	Perche l’alma felice è seco unita.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -180,7 +187,7 @@ Qual Cervo errando suole
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Qual Cervo errando suole
+	Qual Cervo errando suole
 	Fuggir saette o dardi
 	Io fuggiva i begli occhi e i dolci sgaurdi
 	[TACET]
@@ -202,7 +209,7 @@ Qual Cervo errando suole
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Qual Cervo errando suole
+	Qual Cervo errando suole
 	Fuggir saette o dardi
 	Io fuggiva i begli occhi e i dolci sgaurdi
 	Fra l’herbe e le viole
@@ -223,7 +230,7 @@ Qual Cervo errando suole
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Qual Cervo errando suole
+	Qual Cervo errando suole
 	Fuggir saette o dardi
 	Io fuggiva i begli occhi e i dolci sgaurdi
 	Fra l’herbe e le viole
@@ -244,7 +251,7 @@ Qual Cervo errando suole
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Qual Cervo errando suole
+	Qual Cervo errando suole
 	Fuggir saette o dardi
 	Io fuggiva i begli occhi e i dolci sgaurdi
 	[TACET]
@@ -265,7 +272,7 @@ Qual Cervo errando suole
 @PAGE:		1
 @PARATEXT:	
 @VERSE:		
-Qual Cervo errando suole
+	Qual Cervo errando suole
 	Fuggir saette o dardi
 	Io fuggiva i begli occhi e i dolci sgaurdi
 	Fra l’herbe e le viole

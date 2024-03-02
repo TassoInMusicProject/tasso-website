@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg16064
 @ID:		G-Al
@@ -215,14 +216,14 @@
 @PAGE:		
 @PARATEXT:	
 @VERSE:	
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
-[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
+	[ABSENT]
 @@END: VARIORUM
 
 
@@ -234,14 +235,14 @@
 @PAGE:	156
 @PARATEXT:	
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
-  Io non hò dunque? ahi seguirò pur l’empio,
-  Ne l’Abisso per lui riposta parte,
-  Ne il Ciel sarà per lui securo Tempio.
-  Già ’l giungo, e’l prendo, e’l cor gli svello, e sparte
-  Le membra appendo, à i dispietati essempio,
-  Mastro è di ferità, vuò superarlo
-  Ne l’arte sue; ma dove son, che parlo?		
+	Che fà più meco il pianto? altr’arme, altr’arte
+	Io non hò dunque? ahi seguirò pur l’empio,
+	Ne l’Abisso per lui riposta parte,
+	Ne il Ciel sarà per lui securo Tempio.
+	Già ’l giungo, e’l prendo, e’l cor gli svello, e sparte
+	Le membra appendo, à i dispietati essempio,
+	Mastro è di ferità, vuò superarlo
+	Ne l’arte sue; ma dove son, che parlo?
 @@END: VARIORUM
 
 
@@ -253,14 +254,14 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:		192
 @PARATEXT:	
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
+	Che fà più meco il pianto? altr’arme, altr’arte
 	Io non hò dunque? ahi seguirò pur l’empio.
 	Nè l’abisso, per lui riposta parte;
 	Ne'l Ciel sarà, per lui sicuro Tempio.
 	Già il giungo: e’l prendo: e’l cor gli svello: e sparte
 	Le membra appendo, à i dispietati esempio.
 	Mastro è di ferità: vuò superarlo
-	Ne l’arti sue; ma dove son? che parlo?	
+	Ne l’arti sue; ma dove son? che parlo?
 @@END: VARIORUM
 
 
@@ -273,7 +274,9 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg16064
 @ID:		G-1581MR
 @TYPE:		print
@@ -281,15 +284,15 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:		252v
 @PARATEXT:
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
-   Io non hò dunque? ahi seguirò pur l’empio,
-   Nè l’abisso, per lui, riposta parte;
-   Ne'l Ciel sarà, per lui sicuro Tempio.
-   Già il giungo: e’l prendo, e’l cor gli svello: e sparte
-   Le membra appendo, à i dispietati esempio.
-   Mastro è di ferità; vuo superarlo
-   Ne l’arti sue. ma dove son? che parlo?
-@@END:		VARIORUM
+	Che fà più meco il pianto? altr’arme, altr’arte
+	Io non hò dunque? ahi seguirò pur l’empio,
+	Nè l’abisso, per lui, riposta parte;
+	Ne'l Ciel sarà, per lui sicuro Tempio.
+	Già il giungo: e’l prendo, e’l cor gli svello: e sparte
+	Le membra appendo, à i dispietati esempio.
+	Mastro è di ferità; vuo superarlo
+	Ne l’arti sue. ma dove son? che parlo?
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -333,14 +336,14 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:	243
 @PARATEXT:	
 @VERSE:	
-Che fa più meco il pianto? altr’arme, altr’arte
-  Io non ho dunque? ahi seguirò pur l’empio;
-  Nè l’Abisso per lui riposta parte,
-  Nè 'l Ciel sarà per lui securo Tempio.
-  Già’l giungo e’l prendo, e’l cor gli svello, e sparte
-  Le membra appendo, à i dispietati essempio.
-  Mastro è di ferità? vò superarlo
-  Ne l’arte sua: ma dove son? che parlo?	
+	Che fa più meco il pianto? altr’arme, altr’arte
+	Io non ho dunque? ahi seguirò pur l’empio;
+	Nè l’Abisso per lui riposta parte,
+	Nè 'l Ciel sarà per lui securo Tempio.
+	Già’l giungo e’l prendo, e’l cor gli svello, e sparte
+	Le membra appendo, à i dispietati essempio.
+	Mastro è di ferità? vò superarlo
+	Ne l’arte sua: ma dove son? che parlo?
 @@END: VARIORUM
 
 
@@ -364,7 +367,9 @@ Che fa più meco il pianto? altr’arme, altr’arte
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg16064
 @ID:		G-1582P
 @TYPE:		print
@@ -372,15 +377,15 @@ Che fa più meco il pianto? altr’arme, altr’arte
 @PAGE:		86r
 @PARATEXT:
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
-   Io non hò dunque? ahi seguirò pur l’empio;
-   Nè l’Abisso per lui riposta parte,
-   Nè i'l Ciel sarà, per lui sicuro Tempio.
-   Già il giungo, e’l prendo, e’l cor gli svello, e sparte
-   Le membra appendo, à i dispietati esempio,
-   Mastro è di ferità; vuò superarlo
-   Ne l’arti sue; ma dove son? che parlo?
-@@END:		VARIORUM
+	Che fà più meco il pianto? altr’arme, altr’arte
+	Io non hò dunque? ahi seguirò pur l’empio;
+	Nè l’Abisso per lui riposta parte,
+	Nè i'l Ciel sarà, per lui sicuro Tempio.
+	Già il giungo, e’l prendo, e’l cor gli svello, e sparte
+	Le membra appendo, à i dispietati esempio,
+	Mastro è di ferità; vuò superarlo
+	Ne l’arti sue; ma dove son? che parlo?
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -424,14 +429,14 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:	170
 @PARATEXT:	
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
-  Io non hò dunque? ahi seguirò pur l’empio:
-  Nè l’Abisso per lui riposta parte,
-  Nè il Ciel sarà per lui sicuro Tempio.
-  Già ‘l giungo, e’l prendo, e’l cor gli svello, e sparte
-  Le membra appendo, à i dispietati esempio.
-  Mastro è di ferità: vuò superarlo
-  Ne l’arti sue. ma dove son? che parlo?		
+	Che fà più meco il pianto? altr’arme, altr’arte
+	Io non hò dunque? ahi seguirò pur l’empio:
+	Nè l’Abisso per lui riposta parte,
+	Nè il Ciel sarà per lui sicuro Tempio.
+	Già ‘l giungo, e’l prendo, e’l cor gli svello, e sparte
+	Le membra appendo, à i dispietati esempio.
+	Mastro è di ferità: vuò superarlo
+	Ne l’arti sue. ma dove son? che parlo?
 @@END: VARIORUM
 
 
@@ -476,14 +481,14 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:	426
 @PARATEXT:	
 @VERSE:		
-Che fa piu meco il pianto? altr’arme, altr’arte
-  Io non ho dunque? ahi seguirò pur l’empio,
-  Nè l’Abisso per lui riposta parte,
-  Nè il ciel sara per lui sicuro Tempio,
-  Già ’l giungo, e’l prendo, e’l cor gli svello, e sparte
-  Le membra appendo, a i dispietati essempio.
-  Mastro è di ferità, vuò superarlo
-  Ne l’arti sue; ma dove son, che parlo?		
+	Che fa piu meco il pianto? altr’arme, altr’arte
+	Io non ho dunque? ahi seguirò pur l’empio,
+	Nè l’Abisso per lui riposta parte,
+	Nè il ciel sara per lui sicuro Tempio,
+	Già ’l giungo, e’l prendo, e’l cor gli svello, e sparte
+	Le membra appendo, a i dispietati essempio.
+	Mastro è di ferità, vuò superarlo
+	Ne l’arti sue; ma dove son, che parlo?
 @@END: VARIORUM
 
 
@@ -506,14 +511,14 @@ Che fa piu meco il pianto? altr’arme, altr’arte
 @PAGE:	183
 @PARATEXT:	
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
-  Io non hò dunque? ahi seguirò pur l’empio:
-  Nè l’abisso per lui riposta parte,
-  Nè il ciel sarà per lui securo tempio.
-  Già il giungo, e’l prendo, e’l cor gli svello, e sparte
-  Le membra appendo, à i dispietati essempio.
-  Mastro è di ferità: vuò superarlo
-  Ne l’arti sue, ma dove son? che parlo?	
+	Che fà più meco il pianto? altr’arme, altr’arte
+	Io non hò dunque? ahi seguirò pur l’empio:
+	Nè l’abisso per lui riposta parte,
+	Nè il ciel sarà per lui securo tempio.
+	Già il giungo, e’l prendo, e’l cor gli svello, e sparte
+	Le membra appendo, à i dispietati essempio.
+	Mastro è di ferità: vuò superarlo
+	Ne l’arti sue, ma dove son? che parlo?
 @@END: VARIORUM
 
 
@@ -603,7 +608,9 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg16064
 @ID:		G-1600C
 @TYPE:		print
@@ -611,7 +618,7 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:		426
 @PARATEXT:	[63]
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
+	Che fà più meco il pianto? altr’arme, altr’arte
 	Io non hò dunque? ahi seguirò pur l’empio.
 	Nè l’abisso, per lui riposta parte,
 	Nè il ciel sarà per lui sicuro tempio
@@ -619,7 +626,7 @@ Che fà più meco il pianto? altr’arme, altr’arte
 	Le membra appendo, à i dispietati essempio:
 	Mastro è di ferità, vuò superarlo
 	Ne l’arti sue; mà dove son? che parlo?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -873,7 +880,9 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Tsg16064
 @ID:		G-1617P
 @TYPE:		print
@@ -881,7 +890,7 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:		183
 @PARATEXT:	[63]
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
+	Che fà più meco il pianto? altr’arme, altr’arte
 	Io non hò dunque? ahi seguirò pur l’empio:
 	Nè l’abisso per lui riposta parte,
 	Nè il ciel sarà per lui securo tempio.
@@ -889,7 +898,7 @@ Che fà più meco il pianto? altr’arme, altr’arte
 	Le membra appendo, à i dispietati essempio.
 	Mastro è di ferità: vuò superarlo
 	Ne l’arti sue. ma dove son? che parlo?
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -988,14 +997,14 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:	184
 @PARATEXT:	
 @VERSE:		
-Che fà più meco il pianto? altr’arme, altr’arte
-  Io non hò dunque? ahi seguirò pur l’empio:
-  Nè l’abisso per lui riposta parte,
-  Nè il Ciel sarà per lui sicuro tempio.
-  Già ’l giungo, e’l prendo, e’l cor gli svello, e sparte
-  Le membra appendo, a i dispietati essempio.
-  Mastro è di ferità: vò superarlo
-  Ne l’arti sue. ma dove son? che parlo?	
+	Che fà più meco il pianto? altr’arme, altr’arte
+	Io non hò dunque? ahi seguirò pur l’empio:
+	Nè l’abisso per lui riposta parte,
+	Nè il Ciel sarà per lui sicuro tempio.
+	Già ’l giungo, e’l prendo, e’l cor gli svello, e sparte
+	Le membra appendo, a i dispietati essempio.
+	Mastro è di ferità: vò superarlo
+	Ne l’arti sue. ma dove son? che parlo?
 @@END: VARIORUM
 
 
@@ -1161,14 +1170,14 @@ Che fà più meco il pianto? altr’arme, altr’arte
 @PAGE:		7
 @PARATEXT:	Settima Parte.
 @VERSE:		
-Che fa più meco il pianto altr’arme altr’arte
-Io non ho dunque ahi seguirò pur l’empio
-Né l’Abisso per lui riposta parte
-Né ’l ciel sarà per lui sicuro tempio
-Già ’l giungo e ’l prendo e ’l cor gli svello e sparte
-Le membra appendo ai dispietati essempio.
-Mastro di ferità vuo’ superarlo
-Ne l’arte sua ma dove son che parlo.
+	Che fa più meco il pianto altr’arme altr’arte
+	Io non ho dunque ahi seguirò pur l’empio
+	Né l’Abisso per lui riposta parte
+	Né ’l ciel sarà per lui sicuro tempio
+	Già ’l giungo e ’l prendo e ’l cor gli svello e sparte
+	Le membra appendo ai dispietati essempio.
+	Mastro di ferità vuo’ superarlo
+	Ne l’arte sua ma dove son che parlo.
 @@END: VARIORUM
 
 
@@ -1178,16 +1187,16 @@ Ne l’arte sua ma dove son che parlo.
 @TYPE:		music
 @COMPOSER:	Eredi, Francesco
 @PAGE:		7
-@PARATEXT:	Settima Parte.	
+@PARATEXT:	Settima Parte.
 @VERSE:		
-[TACET] altr’arme altr’arte
-Io non ho dunque ahi seguirò pur l’empio
-Né l’Abisso per lui riposta parte
-Né ’l ciel sarà per lui sicuro tempio
-Già ’l giungo e ’l prendo e ’l cor gli svello [TACET]
-[TACET]
-Mastro di ferità vuo’ superarlo
-Ne l’arte sua ma dove son che parlo.
+	[TACET] altr’arme altr’arte
+	Io non ho dunque ahi seguirò pur l’empio
+	Né l’Abisso per lui riposta parte
+	Né ’l ciel sarà per lui sicuro tempio
+	Già ’l giungo e ’l prendo e ’l cor gli svello [TACET]
+	[TACET]
+	Mastro di ferità vuo’ superarlo
+	Ne l’arte sua ma dove son che parlo.
 @@END: VARIORUM
 
 
@@ -1197,16 +1206,16 @@ Ne l’arte sua ma dove son che parlo.
 @TYPE:		music
 @COMPOSER:	Eredi, Francesco
 @PAGE:		7
-@PARATEXT:	Settima Parte.	
+@PARATEXT:	Settima Parte.
 @VERSE:		
-[TACET] altr’arme altr’arte
-Io non ho dunque ahi seguirò pur l’empio
-Né l’Abisso per lui riposta parte
-Né ’l ciel sarà per lui sicuro tempio
-Già ’l giungo e ’l prendo e ’l cor gli svello [TACET]
-[TACET]
-Mastro di ferità vuo’ superarlo
-Ne l’arte sua ma dove son che parlo.
+	[TACET] altr’arme altr’arte
+	Io non ho dunque ahi seguirò pur l’empio
+	Né l’Abisso per lui riposta parte
+	Né ’l ciel sarà per lui sicuro tempio
+	Già ’l giungo e ’l prendo e ’l cor gli svello [TACET]
+	[TACET]
+	Mastro di ferità vuo’ superarlo
+	Ne l’arte sua ma dove son che parlo.
 @@END: VARIORUM
 
 
@@ -1216,16 +1225,16 @@ Ne l’arte sua ma dove son che parlo.
 @TYPE:		music
 @COMPOSER:	Eredi, Francesco
 @PAGE:		7
-@PARATEXT:	Settima Parte.	
+@PARATEXT:	Settima Parte.
 @VERSE:		
-[TACET] altr’arme altr’arte
-Io non ho dunque ahi seguirò pur l’empio
-Né l’Abisso per lui riposta parte
-Né ’l ciel sarà per lui sicuro tempio
-Già ’l giungo e ’l prendo e ’l cor gli svello [TACET]
-[TACET]
-Mastro di ferità vuo’ superarlo
-Ne l’arte sua ma dove son che parlo.
+	[TACET] altr’arme altr’arte
+	Io non ho dunque ahi seguirò pur l’empio
+	Né l’Abisso per lui riposta parte
+	Né ’l ciel sarà per lui sicuro tempio
+	Già ’l giungo e ’l prendo e ’l cor gli svello [TACET]
+	[TACET]
+	Mastro di ferità vuo’ superarlo
+	Ne l’arte sua ma dove son che parlo.
 @@END: VARIORUM
 
 
@@ -1235,16 +1244,16 @@ Ne l’arte sua ma dove son che parlo.
 @TYPE:		music
 @COMPOSER:	Eredi, Francesco
 @PAGE:		7
-@PARATEXT:	Settima Parte.	
+@PARATEXT:	Settima Parte.
 @VERSE:		
-[TACET] altr’arme altr’arte
-Io non ho dunque ahi seguirò pur l’empio
-Né l’Abisso per lui riposta parte
-Né ’l ciel sarà per lui sicuro tempio
-Gia ’l giungo e ’l prendo e ’l cor gli svello [TACET]
-[TACET]
-Mastro di ferità vuo’ superarlo
-Ne l’arte sua ma dove son che parlo.
+	[TACET] altr’arme altr’arte
+	Io non ho dunque ahi seguirò pur l’empio
+	Né l’Abisso per lui riposta parte
+	Né ’l ciel sarà per lui sicuro tempio
+	Gia ’l giungo e ’l prendo e ’l cor gli svello [TACET]
+	[TACET]
+	Mastro di ferità vuo’ superarlo
+	Ne l’arte sua ma dove son che parlo.
 @@END: VARIORUM
 
 

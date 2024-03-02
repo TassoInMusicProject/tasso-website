@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
 @ID:		C
@@ -28,20 +29,20 @@
 @PAGE:	51r
 @PARATEXT:	
 @VERSE:
-Ecco mormorar l’onde,
-E tremolar le fronde
-A l’aura mattutina, e gli arboscelli;
-E sovra i verdi rami i vaghi augelli
-Cantar soavemente,
-E rider l’Oriente.
-Ecco già l’Alba appare,
-E si specchia nel Mare,
-E rasserena il Cielo,
-Et le campagne imperla, e’l dolce gelo;
-Et gli alti monti indora.
-O bella, e vaga Aurora,
-L’aura è tua Messaggiera, e tu de l’aura,
-<del>Ch’ogn’arso cor ristaura.</del> ^che m'accende e ristaura^		
+	Ecco mormorar l’onde,
+	E tremolar le fronde
+	A l’aura mattutina, e gli arboscelli;
+	E sovra i verdi rami i vaghi augelli
+	Cantar soavemente,
+	E rider l’Oriente.
+	Ecco già l’Alba appare,
+	E si specchia nel Mare,
+	E rasserena il Cielo,
+	Et le campagne imperla, e’l dolce gelo;
+	Et gli alti monti indora.
+	O bella, e vaga Aurora,
+	L’aura è tua Messaggiera, e tu de l’aura,
+<del>Ch’ogn’arso cor ristaura.</del> ^che m'accende e ristaura^
 @@END: VARIORUM
 
 
@@ -75,20 +76,20 @@ L’aura è tua Messaggiera, e tu de l’aura,
 @PAGE:	51r
 @PARATEXT:	
 @VERSE:
-Ecco mormorar l’onde,
-E tremolar le fronde
-A l’aura mattutina, e gli arboscelli;
-E sovra i verdi rami i vaghi augelli
-Cantar soavemente,
-E rider l’Oriente.
-Ecco già l’Alba appare,
-E si specchia nel Mare,
-E rasserena il Cielo,
-Et le campagne imperla, e’l dolce gelo;
-Et gli alti monti indora.
-O bella, e vaga Aurora,
-L’aura è tua Messaggiera, e tu de l’aura,
-Ch’ogn’arso cor ristaura.
+	Ecco mormorar l’onde,
+	E tremolar le fronde
+	A l’aura mattutina, e gli arboscelli;
+	E sovra i verdi rami i vaghi augelli
+	Cantar soavemente,
+	E rider l’Oriente.
+	Ecco già l’Alba appare,
+	E si specchia nel Mare,
+	E rasserena il Cielo,
+	Et le campagne imperla, e’l dolce gelo;
+	Et gli alti monti indora.
+	O bella, e vaga Aurora,
+	L’aura è tua Messaggiera, e tu de l’aura,
+	Ch’ogn’arso cor ristaura.
 @@END: VARIORUM
 
 
@@ -97,23 +98,23 @@ Ch’ogn’arso cor ristaura.
 @ID:		S22a
 @TYPE:		print
 @SPRINT:	
-@PAGE:	51r	
+@PAGE:	51r
 @PARATEXT:	
 @VERSE:
-Ecco mormorar l’onde,
-E tremolar le fronde
-A l’aura mattutina, e gli arboscelli;
-E sovra i verdi rami i vaghi augelli
-Cantar soavemente,
-E rider l’Oriente.
-Ecco già l’Alba appare,
-E si specchia nel Mare,
-E rasserena il Cielo,
-Et le campagne imperla, e’l dolce gelo;
-Et gli alti monti indora.
-O bella, e vaga Aurora,
-L’aura è tua Messaggiera, e tu de l’aura,
-Ch’ogn’arso cor ristaura.
+	Ecco mormorar l’onde,
+	E tremolar le fronde
+	A l’aura mattutina, e gli arboscelli;
+	E sovra i verdi rami i vaghi augelli
+	Cantar soavemente,
+	E rider l’Oriente.
+	Ecco già l’Alba appare,
+	E si specchia nel Mare,
+	E rasserena il Cielo,
+	Et le campagne imperla, e’l dolce gelo;
+	Et gli alti monti indora.
+	O bella, e vaga Aurora,
+	L’aura è tua Messaggiera, e tu de l’aura,
+	Ch’ogn’arso cor ristaura.
 @@END: VARIORUM
 
 
@@ -137,7 +138,9 @@ Ch’ogn’arso cor ristaura.
 @PARATEXT:	
 @VERSE:		
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
 @ID:		S35
 @TYPE:		print
@@ -145,7 +148,7 @@ Ch’ogn’arso cor ristaura.
 @PAGE:		51r
 @PARATEXT:
 @VERSE:		
-Ecco mormorar l’onde,
+	Ecco mormorar l’onde,
 	E tremolar le fronde
 	A l’aura mattutina, e gli arboscelli,
 	E sovra i verdi rami i vaghi augelli
@@ -159,7 +162,7 @@ Ecco mormorar l’onde,
 	O bella, e vaga Aurora,
 	L’aura è tua Messaggiera: e tu de l’aura
 	Ch’ogn’arso cor ristaura.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -167,25 +170,27 @@ Ecco mormorar l’onde,
 @ID:		S48
 @TYPE:		print
 @SPRINT:	
-@PAGE:	42	
+@PAGE:	42
 @PARATEXT:	Descrive l'aurora e la bellezza della sua Donna.
 @VERSE:	
-Ecco sparir le stelle, e spirar l'aura,
-E tremolar le fronde
-De gli arboscelli al mormorio de l'onde,
-Che'l suo spirto dolcissimo ristaura;
-E tra frondosi rami i vaghi augelli
-Cantar sù l'alba, che la bella fronte
-Coronata di rose in cielo appare,
-E le campagne'mperla e'ndora il monte,
-E dispiegando al vento i bei capelli
-Chiaro specchio si fà de l'ampio mare.
-O bell'Aurora al cui venir più care
-Sono tutte le cose
-Piu liete più ridenti e piu gioiose,
-L'aura è tua messaggiera, e tu di Laura.
+	Ecco sparir le stelle, e spirar l'aura,
+	E tremolar le fronde
+	De gli arboscelli al mormorio de l'onde,
+	Che'l suo spirto dolcissimo ristaura;
+	E tra frondosi rami i vaghi augelli
+	Cantar sù l'alba, che la bella fronte
+	Coronata di rose in cielo appare,
+	E le campagne'mperla e'ndora il monte,
+	E dispiegando al vento i bei capelli
+	Chiaro specchio si fà de l'ampio mare.
+	O bell'Aurora al cui venir più care
+	Sono tutte le cose
+	Piu liete più ridenti e piu gioiose,
+	L'aura è tua messaggiera, e tu di Laura.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
 @ID:		S69
 @TYPE:		print
@@ -193,7 +198,7 @@ L'aura è tua messaggiera, e tu di Laura.
 @PAGE:		51r
 @PARATEXT:
 @VERSE:		
-Ecco mormorar l’onde,
+	Ecco mormorar l’onde,
 	E tremolar le fronde
 	A l’aura mattutina, e gli arboscelli,
 	E sovra i verdi rami i vaghi augelli
@@ -207,7 +212,7 @@ Ecco mormorar l’onde,
 	O bella, e vaga Aurora,
 	L’aura è tua Messaggiera: e tu de l’aura
 	Ch’ogn’arso cor ristaura.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -218,20 +223,20 @@ Ecco mormorar l’onde,
 @PAGE:		Parte prima, 241
 @PARATEXT:	DISCRIVE l’apparir de l’Aurora; e de la sua donna.
 @VERSE:		
-      Ecco mormorar l’onde.
-      E tremolar le fronde
-      A l’aura mattutina, e gli arboscelli;
-      E sovra i verdi rami i vaghi augelli
-      Cantar soavemente,
-      E rider l’Oriente,
-      Ecco già l’Alba appare
-      E si specchia nel Mare,
-      E rasserena il Cielo
-      E le campagne imperla, il dolce gelo;
-      E gli alti monti indora.
-      O bella, e vaga Aurora,
-      L’aura è tua Messaggiera: e tu de l’aura,
-      Ch’ogn’arso cor ristaura.
+	Ecco mormorar l’onde.
+	E tremolar le fronde
+	A l’aura mattutina, e gli arboscelli;
+	E sovra i verdi rami i vaghi augelli
+	Cantar soavemente,
+	E rider l’Oriente,
+	Ecco già l’Alba appare
+	E si specchia nel Mare,
+	E rasserena il Cielo
+	E le campagne imperla, il dolce gelo;
+	E gli alti monti indora.
+	O bella, e vaga Aurora,
+	L’aura è tua Messaggiera: e tu de l’aura,
+	Ch’ogn’arso cor ristaura.
 @@END: VARIORUM
 
 
@@ -244,22 +249,24 @@ Ecco mormorar l’onde,
 @PAGE:		Parte prima, 250
 @PARATEXT:	Discrive l’apparir de l’Aurora; e de la sua Donna.
 @VERSE:		
-      Ecco mormorar l’onde.
-      E tremolar le fronde
-      A l’aura mattutina, e gli arboscelli;
-      E sovra i verdi rami i vaghi augelli
-      Cantar soavemente,
-      E rider l’Oriente,
-      Ecco già l’Alba appare
-      E si specchia nel Mare,
-      E rasserena il Cielo
-      E le campagne imperla, il dolce gelo;
-      E gli alti monti indora.
-      O bella, e vaga Aurora,
-      L’aura è tua Messaggiera: e tu de l’aura,
-      Ch’ogn’arso cor ristaura.
+	Ecco mormorar l’onde.
+	E tremolar le fronde
+	A l’aura mattutina, e gli arboscelli;
+	E sovra i verdi rami i vaghi augelli
+	Cantar soavemente,
+	E rider l’Oriente,
+	Ecco già l’Alba appare
+	E si specchia nel Mare,
+	E rasserena il Cielo
+	E le campagne imperla, il dolce gelo;
+	E gli alti monti indora.
+	O bella, e vaga Aurora,
+	L’aura è tua Messaggiera: e tu de l’aura,
+	Ch’ogn’arso cor ristaura.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
 @ID:		S141
 @TYPE:		print
@@ -267,7 +274,7 @@ Ecco mormorar l’onde,
 @PAGE:		Parte seconda delle Rime, 99
 @PARATEXT:	Descrive l'apparir dell'Aurora, facendo laura sua messaggiera, nome della sua Donna.
 @VERSE:		
-Ecco mormorar l’onde.
+	Ecco mormorar l’onde.
 	E tremolar le fronde.
 	A l’aura mattutina, e gli arboscelli;
 	E sovra i verdi rami i vaghi augelli
@@ -281,8 +288,10 @@ Ecco mormorar l’onde.
 	O bella, e vaga Aurora,
 	L’aura è tua Messaggiera: e tu de l’aura,
 	Ch’ogn’arso cor ristaura.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
 @ID:		S166
 @TYPE:		print
@@ -290,7 +299,7 @@ Ecco mormorar l’onde.
 @PAGE:		Parte seconda delle Rime, 99
 @PARATEXT:	Descrive l'apparir dell'Aurora, facendo laura sua messaggiera, nome della sua Donna.
 @VERSE:		
-Ecco mormorar l’onde.
+	Ecco mormorar l’onde.
 	E tremolar le fronde.
 	A l’aura mattutina, e gli arboscelli;
 	E sovra i verdi rami i vaghi augelli
@@ -304,8 +313,10 @@ Ecco mormorar l’onde.
 	O bella, e vaga Aurora,
 	L’aura è tua Messaggiera: e tu de l’aura,
 	Ch’ogn’arso cor ristaura.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0143
 @ID:		S169
 @TYPE:		print
@@ -313,7 +324,7 @@ Ecco mormorar l’onde.
 @PAGE:		RIME DEL TASSO BOSCHERECCIE. P. II., 42
 @PARATEXT:	Vicendevoli favori.
 @VERSE:		
-Ecco mormorar l’onde;
+	Ecco mormorar l’onde;
 	E tremolar le fronde.
 	A l’aura mattutina e gli arboscelli;
 	E sovra i verdi rami i vaghi augelli:
@@ -327,7 +338,7 @@ Ecco mormorar l’onde;
 	O bella, ò vaga Aurora,
 	L’Aura è tua Messaggiera: e tù di Laura:
 	Ch’ogn’arso cor ristaura.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -415,7 +426,7 @@ Ecco mormorar l’onde;
 @PAGE:		11-12
 @PARATEXT:	
 @VERSE:		
-Ecco mormorar l’onde
+	Ecco mormorar l’onde
 	Et tremolar le frondi
 	A l’aura matutina &amp; gli arboscelli
 	Et sovra i verdi rami i vaghi augelli
@@ -429,7 +440,7 @@ Ecco mormorar l’onde
 @VERSE:
 	O bella &amp; vag'aurora
 	L’alba è tua messaggiera & tu de l'alba
-	Ch’ogni egro cor ristaura.	
+	Ch’ogni egro cor ristaura.
 @@END: VARIORUM
 
 
@@ -441,7 +452,7 @@ Ecco mormorar l’onde
 @PAGE:		11-12
 @PARATEXT:	
 @VERSE:		
-Ecco mormorar l’onde
+	Ecco mormorar l’onde
 	Et tremolar le fronde
 	A l’aura matutina &amp; gli arboscelli
 	Et sovra i verdi rami i vaghi augelli
@@ -455,7 +466,7 @@ Ecco mormorar l’onde
 @VERSE:
 	O bella &amp; vag'aurora
 	L’alba è tua messaggiera & tu de l'alba
-	Ch’ogni egro cor ristaura.	
+	Ch’ogni egro cor ristaura.
 @@END: VARIORUM
 
 
@@ -467,7 +478,7 @@ Ecco mormorar l’onde
 @PAGE:		11-12
 @PARATEXT:	
 @VERSE:		
-Ecco mormorar l’onde
+	Ecco mormorar l’onde
 	Et tremolar [TACET]
 	A l’aura matutina &amp; gli arboscelli
 	Et sovra i verdi rami i vaghi augelli
@@ -481,7 +492,7 @@ Ecco mormorar l’onde
 @VERSE:
 	O bella &amp; vag'aurora
 	L’alba è tua messaggiera & tu de l'alba
-	Ch’ogni egro cor ristaura.	
+	Ch’ogni egro cor ristaura.
 @@END: VARIORUM
 
 
@@ -493,7 +504,7 @@ Ecco mormorar l’onde
 @PAGE:		11-12
 @PARATEXT:	
 @VERSE:		
-Ecco mormorar l’onde
+	Ecco mormorar l’onde
 	Et tremolar [TACET]
 	a l’aura matutina &amp; gli arboscelli
 	Et sovra i verdi rami i vaghi augelli
@@ -507,7 +518,7 @@ Ecco mormorar l’onde
 @VERSE:
 	O bella &amp; vag'aurora
 	L’alba è tua messaggiera & tu de l'alba
-	Ch’ogni egro cor ristaura.	
+	Ch’ogni egro cor ristaura.
 @@END: VARIORUM
 
 
@@ -519,7 +530,7 @@ Ecco mormorar l’onde
 @PAGE:		11-12
 @PARATEXT:	
 @VERSE:		
-Ecco mormorar l’onde
+	Ecco mormorar l’onde
 	Et tremolar le fronde
 	A l’aura matutina &amp; gli arboscelli
 	Et sovra i verdi rami i vaghi augelli
@@ -533,7 +544,7 @@ Ecco mormorar l’onde
 @VERSE:
 	O bella &amp; vag'aurora
 	L’alba è tua messaggiera & tu de l'alba
-	Ch’ogni egro cor ristaura.	
+	Ch’ogni egro cor ristaura.
 @@END: VARIORUM
 
 

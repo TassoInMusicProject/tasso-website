@@ -9,6 +9,7 @@
 @ TYPE       == manuscript/print/music
 @ VERSE      == Demarcates poetic verses.
 
+
 @@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0272
 @ID:		E2
@@ -17,15 +18,15 @@
 @PAGE:		[111]r
 @PARATEXT:	stamp.
 @VERSE:	
-Occhi leggiadri,  e belli,
-Nel vostro dolce nero
-Un fanciul diventò scherzando Arciero.
-e saetta da gioco
-Mille alme, e mille cori,
-e rinfresca gli ardori,
-e no[n] gli ma[n]can le saette, e ’l <del>gioco</del> foco
-Né gli ma[n]car giamai
-che sono strali e fiamme i vostri rai.
+	Occhi leggiadri,  e belli,
+	Nel vostro dolce nero
+	Un fanciul diventò scherzando Arciero.
+	e saetta da gioco
+	Mille alme, e mille cori,
+	e rinfresca gli ardori,
+	e no[n] gli ma[n]can le saette, e ’l <del>gioco</del> foco
+	Né gli ma[n]car giamai
+	che sono strali e fiamme i vostri rai.
 @@END: VARIORUM
 
 
@@ -48,7 +49,7 @@ che sono strali e fiamme i vostri rai.
 @PAGE:		69-70
 @PARATEXT:	
 @VERSE:		
-Occhi leggiadri,  e belli,
+	Occhi leggiadri,  e belli,
 	Nel vostro dolce nero
 	Un fanciul diventò scherzando Arciero.
 	E saetta da gioco
@@ -56,9 +57,11 @@ Occhi leggiadri,  e belli,
 	E rinfresca gli ardori
 	E non gli mancan le saette, e’l foco:
 	Nè gli mancar giamai,
-	Che sono strali e fiamme i vostri rai.	
+	Che sono strali e fiamme i vostri rai.
 @@END: VARIORUM
-@@BEGIN:	VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0272
 @ID:		S141
 @TYPE:		print
@@ -66,17 +69,19 @@ Occhi leggiadri,  e belli,
 @PAGE:		Parte terza delle Rime, 223
 @PARATEXT:	Sopra gli occhi della sua Donna.
 @VERSE:		
-Occhi leggiadri, e belli,
+	Occhi leggiadri, e belli,
 	Nel vostro dolce nero
 	Un fanciul diventò scherzando Arciero.
-E saetta da gioco
+	E saetta da gioco
 	Mill’alme, e mille cori:
 	E rinfresca gli ardori,
 	E non gli mancan le saette, e ’l foco:
 	Nè gli mancar giamai,
 	Che sono strali, e fiamme i vostri rai.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0272
 @ID:		S166
 @TYPE:		print
@@ -84,17 +89,19 @@ E saetta da gioco
 @PAGE:		Parte terza delle Rime, 223
 @PARATEXT:	Sopra gli occhi della sua Donna.
 @VERSE:		
-Occhi leggiadri, e belli,
+	Occhi leggiadri, e belli,
 	Nel vostro dolce nero
 	Un fanciul diventò scherzando Arciero.
-E saetta da gioco
+	E saetta da gioco
 	Mill’alme, e mille cori:
 	E rinfresca gli ardori,
 	E non gli mancan le saette, e ’l foco:
 	Nè gli mancar giamai,
 	Che sono strali, e fiamme i vostri rai.
-@@END:		VARIORUM
-@@BEGIN:	VARIORUM
+@@END: VARIORUM
+
+
+@@BEGIN: VARIORUM
 @CATALOGNUM:	Trm0272
 @ID:		S169
 @TYPE:		print
@@ -102,7 +109,7 @@ E saetta da gioco
 @PAGE:		RIME DEL TASSO. AMOROSE. P. I., 11
 @PARATEXT:	Continua l'incominciato. [Occhi di Madonna.]
 @VERSE:		
-Occhi leggiadri,  e belli,
+	Occhi leggiadri,  e belli,
 	Nel vostro dolce nero
 	Un fanciul diventò scherzando Arciero.
 	E saetta da gioco
@@ -111,7 +118,7 @@ Occhi leggiadri,  e belli,
 	E non gli mancan le saette, e ’l foco:
 	Nè gli mancar giamai,
 	Che sono fiamme, e strali i vostri rai.
-@@END:		VARIORUM
+@@END: VARIORUM
 
 
 @@BEGIN: VARIORUM
@@ -133,7 +140,7 @@ Occhi leggiadri,  e belli,
 @PAGE:		10-11
 @PARATEXT:	Prima parte.
 @VERSE:	
-Occhi leggiadri  e belli
+	Occhi leggiadri  e belli
 	Nel vostro dolce nero
 	Un fanciul diventò scherzand'arciero
 	E saetta da gioco
@@ -153,7 +160,7 @@ Occhi leggiadri  e belli
 @PAGE:		10-11
 @PARATEXT:	Prima parte.
 @VERSE:	
-Occhi leggiadri  e belli
+	Occhi leggiadri  e belli
 	Nel vostro dolce nero
 	Un fanciul diventò scherzand'arciero
 	E saetta da gioco
@@ -173,7 +180,7 @@ Occhi leggiadri  e belli
 @PAGE:		10-11
 @PARATEXT:	Prima parte.
 @VERSE:	
-Occhi leggiadri  e belli
+	Occhi leggiadri  e belli
 	Nel vostro dolce nero
 	Un fanciul diventò scherzand'arciero
 	E saetta da gioco
@@ -181,7 +188,7 @@ Occhi leggiadri  e belli
 	E rinfresca gli ardori
 	E non gli mancan le saett'e ’l foco
 	Ne gli mancar gia mai
-	Che sono strali e fiamm'i vostri rai.		
+	Che sono strali e fiamm'i vostri rai.
 @@END: VARIORUM
 
 
@@ -193,7 +200,7 @@ Occhi leggiadri  e belli
 @PAGE:		10-11
 @PARATEXT:	Prima parte.
 @VERSE:	
-[TACET]
+	[TACET]
 	[TACET]
 	[TACET]
 	E saetta da gioco
@@ -213,7 +220,7 @@ Occhi leggiadri  e belli
 @PAGE:		10-11
 @PARATEXT:	Prima parte.
 @VERSE:	
-Occhi leggiadri  e belli
+	Occhi leggiadri  e belli
 	Nel vostro dolce nero
 	Un fanciul diventò scherzand'arciero,
 	E saetta da gioco
@@ -221,7 +228,7 @@ Occhi leggiadri  e belli
 	E rinfresca gli ardori
 	E non gli mancan le saett'e ’l foco
 	Ne gli mancar gia mai
-	Che sono strali e fiamm'i vostri rai.		
+	Che sono strali e fiamm'i vostri rai.
 @@END: VARIORUM
 
 

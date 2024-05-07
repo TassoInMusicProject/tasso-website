@@ -41,11 +41,11 @@
 	Dimmi, mesto pastore,
 	Qual muto pesce o quale è rozzo armento
 	Che non faccia d'amor qualche concento?
-@MVERSE_DATE:
 @MVERSE:
 	Dim--mi, me--sto pa-sto--re,				=a
 	Qual mu--to pe--sce_o qua--le_è-- roz--zo_ar-men--to	=B+
 	Che non fac--cia d'a-mor-- qual--che con-cen--to?	=B
+@FVERSE:
 @TVERSE:
 	Tell me, melancholy shepherd,
 	What mute fish or what brutish herd is [there]
@@ -96,7 +96,6 @@
 	Vaghe di tua beltate
 	Rendi le valli e i monti,
 	Ch'ornano a te le verdi erbose fonti.
-@MVERSE_DATE:
 @MVERSE:
 	Di che can-tar-- deg--g'i--o?					=a
 	Di Clo--ri_o d'A-ta-lan--ta?					=b
@@ -117,6 +116,7 @@
 	Va--ghe di tua bel-ta--te					=f+
 	Ren--di le val--li_e_i mon--ti,					=i+
 	Ch'or--na-no_a te le ver--di_er-bo--se fon--ti.			=I
+@FVERSE:
 @TVERSE:
 	Of what must I sing?
 	Of Chloris or of Atalanta?
@@ -184,7 +184,6 @@
 	Ma come t'udì Clori
 	Quando le apristi le tue pene ascose?
 	E come ti rispose?
-@MVERSE_DATE:
 @MVERSE:
 	Ché,-- qual te--ne-ra ro--sa				=a+
 	A la ru-gia--da,_a l'o--ra				=b+
@@ -206,6 +205,7 @@
 	Ma co--me t'u-dì-- Clo--ri				=g
 	Quan--do le_a-pri--sti le tue pe--ne_a-sco--se?		=J
 	E co--me ti ri-spo--se?					=j
+@FVERSE:
 @TVERSE:
 	For, that tender rose
 	Bedewed, at the hour
@@ -265,7 +265,6 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	Ché se Amor da le fiamme de 'l tuo core
 	Può trarre umore e venti,
 	Trarrà da 'l pianto ancor faville ardenti.
-@MVERSE_DATE:
 @MVERSE:
 	Non so-spi-rar,-- Pa-stor,-- non so-spi-ra--re;			=A
 	Que--ste la--gri-me_a-ma--re					=a+
@@ -275,6 +274,7 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	Ché-- se_A-mor-- da le fiam--me de_'l tuo co--re		=A+
 	Può-- trar--re_u-mo--re_e ven--ti,				=c
 	Trar-rà-- da_'l pian--to_an-cor-- fa-vil--le_ar-den--ti.	=C
+@FVERSE:
 @TVERSE:
 	Do not sigh, Shepherd, do not sigh;
 	These bitter tears
@@ -327,7 +327,6 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	S'io tale schermo alcun non far pur oso,
 	S'a pena l'arco steso, a pena accinto
 	Eri a ferir, ch'io mi rendei per vinto?
-@MVERSE_DATE:
 @MVERSE:
 	"Las--so," di-cea,-- "Per-ché-- ve-ni--sti,_A-mo--re,	=A+
 	A-mor-- d'o--gni mio be--ne_in-vi-di-o--so,		=B+
@@ -337,6 +336,7 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	S'io ta--le scher--mo_al-cun-- non far pur o--so,	=B
 	S'a pe--na l'ar--co ste--so,_a pe--na_ac-cin--to	=C+
 	E--ri_a fe-rir,-- ch'io mi ren-dei-- per vin--to?	=C
+@FVERSE:
 @TVERSE:
 	“Unhappy man,” he said, “Why did you come, Love,
 	Love, envious of my every good,
@@ -381,7 +381,6 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	Scempio fu visto e così strano e fero?
 	Ché dove in altri amor da speme nasce,
 	Dal non sperar in me s'aviva e pasce.
-@MVERSE_DATE:
 @MVERSE:
 	Tu, per--fi-do si-gnor,-- tu di-sle-a--le,		=A+
 	Che sot--to_om--bra di ben co--pri_il mal ve--ro,	=B+
@@ -391,6 +390,7 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	Scem--pio fu vi--sto_e co-sì-- stra--no_e fe--ro?	=B
 	Ché-- do--ve_in al--tri_a-mor-- da spe--me na--sce,	=C
 	Dal non spe-rar-- in me s'a-vi--va_e pa--sce.		=C
+@FVERSE:
 @TVERSE:
 	You, wicked sir, you disloyal one,
 	Who, under the shadow of good, cover your true evil,
@@ -440,7 +440,6 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	O luna, cinta di procelle intorno;
 	E voi spargete ancor di pianto un nembo,
 	Pallide stelle, a l'ampia terra in grembo.
-@MVERSE_DATE:
 @MVERSE:
 	Chia--ro sol, che ro-tan--do_e--sci del Gan--ge,	=A+
 	D'al--ta co-ro--na di bei rag--gi_a-dor--no,		=B+
@@ -450,6 +449,7 @@ The ecloga is attributed to Ferrante Gonzaga in I<sub>2</sub>
 	O lu--na, cin--ta di pro-cel--le_in-tor--no;		=B
 	E voi spar-ge--te_an-cor-- di pian--to_un nem--bo,	=C+
 	Pal--li-de stel--le,_a l'am--pia ter--ra_in grem--bo.	=C
+@FVERSE:
 @TVERSE:
 	Bright sun, which rises, turning, from the Ganges,
 	Adorned with a tall crown of beautiful rays,
@@ -514,7 +514,6 @@ The earliest datable appearance of this poem is in literary prints published in 
 	Lutto e lamento e lagrimosi lai.
 	Che più giova amicizia, o giova amore?
 	Ahi lagrime! ahi dolore!
-@MVERSE_DATE:
 @MVERSE:
 	Ahi la--gri-me!_ahi do-lo--re!				=a
 	Pas--sa la vi--ta_e si di-le--gua_e fug--ge,		=B
@@ -537,6 +536,7 @@ The earliest datable appearance of this poem is in literary prints published in 
 	Lut--to_e la-men--to_e la-gri-mo--si la--i.		=G
 	Che più-- gio--va_a-mi-ci--zia,_o gio--va_a-mo--re?	=A
 	Ahi la--gri-me!_ahi do-lo--re!				=a
+@FVERSE:
 @TVERSE:
 	Alas tears, alas sorrow:
 	Life passes and it vanishes and flees,
@@ -599,7 +599,6 @@ The earliest datable appearance of this poem is in literary prints published in 
 	E i vari casi in dura scorza incise:
 	E 'n rileggendo poi le proprie note
 	Spargea di pianto le vermiglie gote.
-@MVERSE_DATE:
 @MVERSE:
 	Pian--ge,_e so-spi--ra;_e quan--do_i cal--di rag--gi		=A+
 	Fug--gon le greg--ge,_a la dol--ce_om--bra_as-si--se,		=B
@@ -609,6 +608,7 @@ The earliest datable appearance of this poem is in literary prints published in 
 	E_i va--ri ca--si_in du--ra scor--za_in-ci--se:			=B
 	E_'n ri-leg-gen--do poi le prop--rie no--te			=C
 	Spar-gea-- di pian--to le ver-mi--glie go--te.			=C
+@FVERSE:
 @TVERSE:
 	She weeps, and sighs; and when from the warm rays
 	Flee the herds, to their assembly in the sweet shade,

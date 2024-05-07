@@ -1,7 +1,5 @@
 @@
 @@ Gerusalemme texts.
-@@ Created 22 Jun 2018 by Emiliano Ricciardi
-@@ Last Edited 22 Jun 2018
 @@
 @@ Gerusalemme data fields:
 @@   CATALOGNUM:   Canto/Ottava
@@ -41,7 +39,6 @@
 	Tu rischiara il mio canto, e tu perdona
 	S’intesso fregi al ver, s’adorno in parte
 	D’altri diletti, che de’ tuoi, le carte.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	O Mu+sa, tu che di ca-du+chi_al-lo+ri			=A+
 	Non cir-con+di la fron+te_in E-li-co+na,		=B
@@ -51,6 +48,7 @@
 	Tu ri-schiar+a_il mio can+to,_e tu per-do+na		=B+
 	S’in-tes+so fre+gi_al ver, s’ad-or+no_in pa+rte		=C
 	D’al+tri di-let+ti, che de’ tuoi, le ca+rte.		=C
+@FVERSE:
 @TVERSE:
 	O Muse, you who with green laurels
 	Do not encircle your brow upon [Mount] Helicon,
@@ -96,7 +94,6 @@
 	Di soavi licor gli orli del vaso;
 	Succhi amari ingannato intanto ei beve,
 	E dall’inganno suo vita riceve.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Sai che là cor+re_il mon+do,_o+ve più ver+si		=A+
 	Di sue dol-cez+ze_il lu-sin-ghier+ Par-na+so;		=B
@@ -106,6 +103,7 @@
 	Di so-a+vi li-cor+ gli_or+li del va+so;			=B
 	Suc+chi_a-ma+ri_in-gan-na+to_in-tan+to_ei be+ve,	=C
 	E dal-l’in-gan+no suo vi+ta ri-ce+ve.			=C
+@FVERSE:
 @TVERSE:
 	You know that the world rushes there, where pours more
 	Of his sweetnesses the flatterer Parnassus;
@@ -152,7 +150,6 @@
 	Per gli occhi, e stilli in lagrime converso?
 	Duro mio cor, ché non ti spetri e frangi?
 	Pianger ben merti ognor, s’ora non piangi.
-@MVERSE_DATE: 20230824
 @NOTE: "ia_og+gi_io" == needs further considering in following markup
 @MVERSE:
 	Dun+que_o+ve tu, Sig-nor,+ di mil+le ri+vi		=A+
@@ -163,6 +160,7 @@
 	Per gli_oc+chi,_e stil+li_in la+gri-me con-ver+so?	=B
 	Du+ro mio cor, ché non ti spe+tri_e fran+gi?		=C
 	Pian+ger ben mer+ti_og-nor,+ s’o+ra non pian+gi.	=C
+@FVERSE:
 @TVERSE:
 	Therefore where you, Lord, with a thousand bloody
 	Rivulets left the earth sprinkled,
@@ -208,7 +206,6 @@
 	Or da candida nube il sol traspare,
 	Or da la nube uscendo, i raggi intorno
 	Più chiari spiega, e ne raddoppia il giorno.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Ar+go non mai, non vi+de Cip+ro_o De+lo,		=A
 	D’a+bi-to_o di bel-tà+ for+me sì ca+re.			=B
@@ -218,6 +215,7 @@
 	Or da can+di-da nu+be_il sol tra-spa+re,		=B
 	Or da la nu+be_u-scen+do,_i rag+gi_in-tor+no		=C+
 	Più chia+ri spie+ga,_e ne rad-dop+pia_il gior+no.	=C
+@FVERSE:
 @TVERSE:
 	Argus never, nor saw Cyprus or Delos,
 	Of dress or of beauty shapes so dear.
@@ -263,7 +261,6 @@
 	Fra l’avorio si sparge e si confonde:
 	Ma nella bocca, ond’esce aura amorosa,
 	Sola rosseggia e semplice la rosa.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Fa no+ve cre+spe l’au+ra_al crin di-sciol+to,		=A
 	Che na-tu+ra per sé rin-cre+spa_in on+de;		=B
@@ -273,6 +270,7 @@
 	Fra l’a-vo+rio si spar+ge_e si con-fon+de:		=B
 	Ma nel+la boc+ca,_ond’ e+sce_au+ra_a-mo-ro+sa,		=C
 	So+la ros-seg+gia_e sem+pli-ce la ro+sa.		=C
+@FVERSE:
 @TVERSE:
 	The breeze makes new curls in her unbound hair,
 	Which nature for its part ripples in waves;
@@ -318,7 +316,6 @@
 	Le sue fiamme sfogando ad una ad una;
 	E secretari del suo amore antico
 	Fea i muti campi e quel silenzio amico.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	E+ra la not+te,_e_’l suo stel-la+to ve+lo	=A+
 	Chia+ro spie-ga+va_e sen+za nu+be_al-cu+na;	=B
@@ -328,6 +325,7 @@
 	Le sue fiam+me sfo-gan+do_ad u+na_ad u+na;	=B
 	E se-cre-ta+ri del suo_a-mo+re_an-ti+co		=C+
 	Fea_i mu+ti cam+pi_e quel si-len+zio_a-mi+co.	=C
+@FVERSE:
 @TVERSE:
 	It was night, and its starry veil
 	Was spreading clear and without a single cloud;
@@ -373,7 +371,6 @@
 	Qualche onesto riposo il ciel destine,
 	Come in voi solo il cerco, e solo parmi
 	Che trovar pace io possa in mezzo a l’armi.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Poi ri-mi-ran+do_il cam+po_el+la di-ce+a:		=A
 	"O bel+le_a+gli_oc+chi miei ten+de la-ti+ne!		=B
@@ -383,6 +380,7 @@
 	Qual+che_o-ne+sto ri-po+so_il ciel de-sti+ne,		=B
 	Co+me_in voi so+lo_il cer+co,_e so+lo par+mi		=C+
 	Che tro-var+ pa+ce_io pos+sa_in mez+zo_a l’ar+mi.	=C
+@FVERSE:
 @TVERSE:
 	Then gazing upon the field she said:
 	"O beautiful to my eyes the Latin tents!
@@ -428,7 +426,6 @@
 	Co 'l favor vostro, il mio regale onore:
 	Quando ciò non avvenga, assai felice
 	Io mi terrò, se in voi servir mi lice.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Rac-co-glie+te me dun+que:_e_in voi si tro+ve		=A+
 	Quel+la pie-tà+ che mi pro-mi+se_A-mo+re,		=B+
@@ -438,6 +435,7 @@
 	Co_'l fa-vor+ vo+stro,_il mio re-ga+le_o-no+re:		=B
 	Quan+do ciò non av-ven+ga,_as-sai+ fe-li+ce		=C
 	Io mi ter-rò,+ se_in voi ser-vir+ mi li+ce.		=C
+@FVERSE:
 @TVERSE:
 	Receive me therefore: and in you is found
 	That compassion which Love promised me,
@@ -483,7 +481,6 @@
 	Gli aspri successi in mille piante incise;
 	E in rileggendo poi le proprie note
 	Rigò di belle lagrime le gote.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	So-ven+te,_al-lor+ che su+gli_e-sti+vi_ar-do+ri		=A
 	Gia-cean+ le pe-co-rel+le_a l’om+bra_as-si+se,		=B
@@ -493,6 +490,7 @@
 	Gli_a+spri suc-ces+si_in mil+le pian+te_in-ci+se;	=B
 	E_in ri-leg-gen+do poi le pro+prie no+te		=C
 	Ri-gò+ di bel+le la+gri-me le go+te.			=C
+@FVERSE:
 @TVERSE:
 	Often, when during the summer heatwaves
 	Rest the lambs in the shade assembled,
@@ -538,7 +536,6 @@
 	De le sventure mie sì varie e tante;
 	E dica: 'Ah troppo ingiusta empia mercede
 	Diè fortuna ed amore a sì gran fede!'"
-@MVERSE_DATE:
 @MVERSE:
 	In+di di-cea+ pian-gen+do:_"In voi ser-ba+te		=A+
 	Que+sta do-len+te_i-sto+ria,_a-mi+che pian+te;		=B
@@ -548,6 +545,7 @@
 	De le sven-tu+re mie sì va+rie_e tan+te;		=B
 	E di+ca:_'Ah trop+po_in-giu+sta_em+pia mer-ce+de	=C+
 	Diè for-tu+na_ed a-mo+re_a sì gran fe+de!'"		=C
+@FVERSE:
 @TVERSE:
 	Then she said, weeping: "In you [is] preserved
 	This sorrowful tale, tree friends;
@@ -593,7 +591,6 @@
 	Giacerà questa spoglia inferma e frale,
 	Tardo premio conceda a’ miei martìri
 	Di poche lacrimette e di sospiri.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	For+se_av-ver-rà,+ se_’l Ciel be-ni+gno_a-scol+ta	=A+
 	Af-fet-tuo+so al-cun+ pre+go mor-ta+le,			=B+ 
@@ -603,6 +600,7 @@
 	Gia-ce-rà+ que+sta spo+glia_in-fer+ma_e fra+le,		=B
 	Tar+do pre+mio con-ce+da_a’ miei mar-tì+ri		=C
 	Di po+che la-cri-met+te_e di so-spi+ri.			=C
+@FVERSE:
 @TVERSE:
 	Perhaps it will come to pass, if benevolent Heaven hears
 	With affection any mortal prayer,
@@ -756,7 +754,6 @@
 	Le mammelle stringea tenera e leve,
 	L’empie d’un caldo fiume: ella già sente
 	Morirsi, e ’l piè le manca egro e languente.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Vuol nell’-ar+mi pro-var+la:_un uom la sti+ma			=A+
 	De+gno,_a cui sua vir-tù+ si pa-ra-go+ne.			=B
@@ -874,6 +871,7 @@
 	Le mam-mel+le strin+gea te+ne-ra_e le+ve,			=B
 	L’em+pie d’un cal+do fiu+me:_el+la già sen+te			=C+
 	Mo-rir+si,_e_’l piè le man+ca_e+gro_e lan-guen+te.		=C
+@FVERSE:
 @TVERSE:
 	He wishes to test her at arms: a man he thought her,
 	Worthy, with whom his own virtue compares.
@@ -1027,7 +1025,6 @@
 	Spirto di fe, di carità, di speme:
 	Virtù ch’or Dio le infonde: e se rubella
 	In vita fu, la vuole in morte ancella.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Se+gue_e+gli la vit-tor+ia,_e la tra-fit+ta		=A+
 	Ver+gi-ne, mi-nac-cian+do,_in-cal+za_e pre+me.		=B
@@ -1037,6 +1034,7 @@
 	Spir+to di fe, di ca-ri-tà,+ di spe+me:			=B
 	Vir-tù+ ch’or Dio le_in-fon+de:_e se ru-bel+la		=C+
 	In vi+ta fu, la vuo+le_in mor+te_an-cel+la.		=C
+@FVERSE:
 @TVERSE:
 	He pursues the victory, and the transfixed
 	Virgin, menacing, he chases and presses.
@@ -1082,7 +1080,6 @@
 	Un non so che di flebile e soave
 	Ch’al cor gli scende, ed ogni sdegno ammorza,
 	E gli occhi a lagrimar gli invoglia e sforza.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	“A-mi+co_hai vin+to;_io ti per-don,+ per-do+na		=A+
 	Tu_an-co+ra,_al cor+po no che nul+la pa+ve,		=B+
@@ -1092,6 +1089,7 @@
 	Un non so che di fle+bi-le_e so-a+ve			=B+
 	Ch’al cor gli scen+de,_ed o+gni sde+gno_am-mor+za,	=C
 	E gli_oc+chi_a la-gri-mar+ gli_in-vo+glia_e sfor+za.	=C
+@FVERSE:
 @TVERSE:
 	"My friend, you have won; I pardon you: may you pardon
 	Too, my body no, since it fears naught,
@@ -1137,7 +1135,6 @@
 	Non conosciuta ancor, sciolse e scoprío.
 	La vide, la conobbe; e restò senza
 	E voce, e moto. Ahi vista, ahi conoscenza!
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Po+co quin+di lon-tan+ nel sen del mon+te		=A+
 	Sca-tu+ria, mor-mo-ran+do,_un pic+ciol ri+o.		=B
@@ -1147,6 +1144,7 @@
 	Non co-no-sciu+ta_an-cor,+ sciol+se_e sco-prí+o.	=B
 	La vi+de, la co-nob+be;_e re-stò+ sen+za		=C+
 	E vo+ce,_e mo+to._Ahi vi+sta,_ahi co-no-scen+za!	=C
+@FVERSE:
 @TVERSE:
 	Not far, therefore, from the bosom of the mountain
 	Springs, murmuring, a little stream.
@@ -1192,7 +1190,6 @@
 	Colei di gioia trasmutossi, e rise:
 	E in atto di morir lieto e vivace
 	Dir parea: s’apre il Cielo: io vado in pace.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Non mo-rì+ già: ché sue vir-tu+ti_ac-col+se		=A+
 	Tut+te_in quel pun+to,_e_in guar+dia_al cor le mi+se:	=B
@@ -1202,6 +1199,7 @@
 	Co-lei+ di gio+ia tras-mu-tos+si,_e ri+se:		=B
 	E_in at+to di mor-ir+ lie+to_e vi-va+ce			=C+
 	Dir pa-rea:+ s’a+pre_il Cie+lo:_io va+do_in pa+ce.	=C
+@FVERSE:
 @TVERSE:
 	She did not die yet; thus his virtue he gathered
 	All together at that moment, and set it to guard his heart:
@@ -1247,7 +1245,6 @@
 	Il cavaliero, in vece di parole,
 	Gli dà pegno di pace: in questa forma
 	Passa la bella donna, e par che dorma.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	D’un bel pal-lo+re_ha_il bian+co vol+to_a-sper+so,	=A
 	Co+me_a’ gi+gli sa-ri+an mi+ste vio+le:			=B
@@ -1257,6 +1254,7 @@
 	Il ca-va-lie+ro,_in ve+ce di pa-ro+le,			=B
 	Gli dà pe+gno di pa+ce:_in que+sta for+ma		=C+
 	Pas+sa la bel+la don+na,_e par che dor+ma.		=C
+@FVERSE:
 @TVERSE:
 	A beautiful paleness her white face passed across,
 	As amongst lilies might be mixed violets:
@@ -1302,7 +1300,6 @@
 	Tu che sai tutte del ferir le vie,
 	Tu ministra di morte empia ed infame,
 	Di questa vita rea troncar lo stame?
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Io vi+vo?_Io spi+ro_an-co+ra?_E gli_o-di-o+si	=A+
 	Rai mi+ro_an-cor+ di que+sto_in-fau+sto di+e?	=B
@@ -1312,6 +1309,7 @@
 	Tu che sai tut+te del fer-ir+ le vi+e,		=B
 	Tu mi-ni+stra di mor+te_em+pia_ed in-fa+me,	=C
 	Di que+sta vi+ta rea tron-car+ lo sta+me?	=C
+@FVERSE:
 @TVERSE:
 	I live? I still breathe? And the hateful
 	Rays I still see of this damned day?
@@ -1357,7 +1355,6 @@
 	Misero mostro d’infelice amore:
 	Misero mostro, a cui sol pena è degna
 	Dell’immensa empietà la vita indegna.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Pas+sa pur que+sto pet+to,_e fe+ri scem+pi		=A+
 	Col fer+ro tuo cru-del+ fà del mio co+re.		=B
@@ -1367,6 +1364,7 @@
 	Mi+se-ro mo+stro d’in-fe-li+ce_a-mo+re:			=B
 	Mi+se-ro mo+stro,_a cui sol pe+na_è de+gna		=C
 	Del-l’im-men+sa_em-pie-tà+ la vi+ta_in-de+gna.		=C
+@FVERSE:
 @TVERSE:
 	Pass through this chest, and fierce slaughter
 	With your cruel iron make of my heart.
@@ -1412,7 +1410,6 @@
 	A schivo ed in orrore avrò il sembiante.
 	Temerò me medesmo, e da me stesso
 	Sempre fuggendo, avrò me sempre appresso.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Viv-rò+ fra_i miei tor-men+ti_e fra le cu+re,		=A+
 	Mie giu+ste fu+rie, for-sen-na+to_er-ran+te.		=B
@@ -1422,6 +1419,7 @@
 	A schi+vo_ed in or-ro+re_a-vrò_il+ sem-bian+te.		=B
 	Te-me-rò+ me me-de+smo,_e da me stes+so			=C+
 	Sem+pre fug-gen+do,_a-vrò+ me sem+pre_ap-pres+so.	=C
+@FVERSE:
 @TVERSE:
 	I will live among my torments, and among the cares
 	My righteous furies, raving, wandering.
@@ -1467,7 +1465,6 @@
 	Troppo, e pur troppo prezioso pasto!
 	Ahi sfortunato! in cui l’ombre e le selve
 	Irritaron me prima, e poi le belve.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Ma do+ve,_oh las+so me! do+ve re-sta+ro			=A+
 	Le re-li+quie del cor+po_e bel+lo_e ca+sto?		=B
@@ -1477,6 +1474,7 @@
 	Trop+po,_e pur trop+po pre-zi-o+so pa+sto!		=B
 	Ahi sfor-tu-na+to!_in cui l’om+bre_e le sel+ve		=C+
 	Ir-ri-ta+ron me pri+ma,_e poi le bel+ve.		=C
+@FVERSE:
 @TVERSE:
 	But where (oh unhappy me!), where remained
 	The relics of her body both beautiful and chaste?
@@ -1522,7 +1520,6 @@
 	E ’l ventre chiuda me, che lor raccoglie.
 	Onorata per me tomba e felice,
 	Ovunque sia, s’esser con lor mi lice.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Io pur ver-rò+ là do+ve se+te;_e vo+i 			=A+
 	Me+co_a-vrò,+ s’an-co+ se+te,_a-ma+te spo+glie.		=B
@@ -1532,6 +1529,7 @@
 	E_’l ven+tre chiu+da me che lor rac-co+glie.		=B
 	O-no-ra+ta per me tom+ba_e fe-li+ce,			=C
 	O-vun+que sia, s’es+ser con lor mi li+ce.		=C
+@FVERSE:
 @TVERSE:
 	I, indeed, will go there where you are, and you
 	I will have with me, if you be [there] still, beloved remains.
@@ -1577,7 +1575,6 @@
 	Vestigi miserabili e funesti?
 	O, di par con la man, luci spietate!
 	Essa le piaghe fè, voi le mirate.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	O bel+la de+stra, che_’l so-a+ve pe+gno			=A
 	D’a-mi-ci+zia_e di pa+ce_a me por-ge+sti;		=B
@@ -1587,6 +1584,7 @@
 	Ve-sti+gi mi-se-ra+bi-li_e fu-ne+sti?			=B
 	O, di par con la man, lu+ci spie-ta+te!			=C
 	Es+sa le pia+ghe fè, voi le mi-ra+te.			=C
+@FVERSE:
 @TVERSE:
 	O beautiful right [hand], which the pleasing token
 	Of friendship and of peace to me you extended;
@@ -1632,7 +1630,6 @@
 	Piange le notti, e n’empie i boschi, e l’ora.
 	Alfin col novo dì rinchiude alquanto
 	I lumi: e ’l sonno in lor serpe fra ’l pianto.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Lei nel par-tir,+ lei nel tor-nar+ del So+le		=A+
 	Chia+ma con vo+ce stan+ca,_e pre+ga,_e plo+ra;		=B
@@ -1642,6 +1639,7 @@
 	Pian+ge le not+ti,_e n’em+pie_i bo+schi,_e l’o+ra.	=B
 	Al-fin+ col no+vo dì rin-chiu+de_al-quan+to		=C+
 	I lu+mi:_e_’l son+no_in lor ser+pe fra_’l pian+to.	=C
+@FVERSE:
 @TVERSE:
 	[For] her during the departure, her during the return of the Sun
 	He calls with tired voice, and prays, and implores;
@@ -1687,7 +1685,6 @@
 	In un languido oimè proruppe, e disse:
 	"O sasso amato ed onorato tanto
 	Che dentro hai le mie fiamme, e fuori il pianto:"
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Giun+to_a la tom+ba_o+ve_al suo spir+to vi+vo		=A
 	Do-lo-ro+sa pri-gio+ne_il Ciel pre-scris+se;		=B
@@ -1697,6 +1694,7 @@
 	In un lan+gui-do_oi-mè+ pro-rup+pe,_e dis+se:		=B
 	"O sas+so_a-ma+to_ed o-no-ra+to tan+to			=C
 	Che den+tro_hai le mie fiam+me,_e fuo+ri_il pian+to:"	=C
+@FVERSE:
 @TVERSE:
 [Having] reached the tomb where for her living spirit
 	A sorrowful prison Heaven mandated;
@@ -1742,7 +1740,6 @@
 	Prendi ch’io bagno di doglioso umore:
 	E dagli tu, poich’io non posso, almeno
 	Alle amate reliquie ch’hai nel seno.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Non di mor+te sei tu, ma di vi-va+ci			=A+
 	Ce+ne-ri_al-ber+go,_o+ve_è ri-po+sto_A-mo+re:		=B
@@ -1752,6 +1749,7 @@
 	Pren+di ch’io ba+gno di do-glio+so_u-mo+re:		=B
 	E da+gli tu, poi-ch’io non pos+so,_al-me+no		=C+
 	Al+le_a-ma+te re-li+quie ch’hai nel se+no.		=C
+@FVERSE:
 @TVERSE:
 	You are not of death, but of lively
 	Ashes the abode where is placed Love:
@@ -1797,7 +1795,6 @@
 	In questa speme il cor fra tante doglie.
 	Sa ch’empia è sol la mano: e non l’è noia,
 	Che s’amando lei, vissi; amando moia.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Dal+li lor tu, ché se mai gli_oc+chi gi+ra		=A+
 	L’a+ni-ma bel+la_al+le sue bel+le spo+glie;		=B
@@ -1807,6 +1804,7 @@
 	In que+sta spe+me_il cor fra tan+te do+glie.		=B
 	Sa ch’em+pia_è sol la ma+no:_e non l’è noi+ia,		=C+
 	Che s’a-man+do lei, vis+si;_a-man+do moi+ia.		=C
+@FVERSE:
 @TVERSE:
 	You give them, for if ever turns its eyes
 	The beautiful soul to its beautiful remains;
@@ -1852,7 +1850,6 @@
 	Sia l’un cenere e l’altro in un sepolto:
 	Ciò che ’l viver non ebbe, abbia la morte.
 	Oh (se sperar ciò lice) altera sorte!
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Ed a-man+do mor-rò:+ fe-li+ce gior+no			=A
 	Quan+do che sia; ma più fe-li+ce mol+to,		=B
@@ -1862,6 +1859,7 @@
 	Sia l’un ce+ne-re_e l’al+tro_in un se-pol+to:		=B
 	Ciò che_’l vi+ver non eb+be,_ab+bia la mor+te.		=C
 	Oh (se spe-rar+ ciò li+ce)_al-te+ra sor+te!		=C
+@FVERSE:
 @TVERSE:
 	And loving I will die: happy day,
 	When it will be; but much more happy,
@@ -1907,7 +1905,6 @@
 	Ne spargeva i fioretti e la verdura:
 	E i venticelli, dibattendo l’ali,
 	Lusingavano il sonno de’ mortali.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	U-sci+va_o-mai+ dal mol+le_e fre+sco grem+bo		=A+
 	Del+la gran ma+dre sua la not+te_o-scu+ra;		=B
@@ -1917,6 +1914,7 @@
 	Ne spar-ge+va_i fio-ret+ti_e la ver-du+ra:		=B
 	E_i ven-ti-cel+li, di-bat-ten+do l’a+li,		=C+
 	Lu-sin-ga+va-no_il son+no de’ mor-ta+li.		=C
+@FVERSE:
 @TVERSE:
 	Already emerging from the soft and fresh hollow
 	Of his great mother was the dark night;
@@ -1962,7 +1960,6 @@
 	E in sua stagion degli anni il frutto coglie;
 	Questo grida natura: or dunque voi
 	Indurerete l’alma ai detti suoi?
-@MVERSE_DATE:
 @MVERSE:
 	O gio-vi-net+ti, men+tre_Ap-ri+le_e Mag+gio		=A+
 	V’am-man+tan di fio-ri+te_e ver+di spo+glie;		=B
@@ -1972,6 +1969,7 @@
 	E_in sua sta-gion+ de-gli_an+ni_il frut+to co+glie;	=B
 	Que+sto gri+da na-tu+ra:_or dun+que vo+i		=C+
 	In-du-re-re+te l’al+ma_ai det+ti suo+i?			=C
+@FVERSE:
 @TVERSE:
 	O youths, while April and May
 	Clothe you in flowered and green dress;
@@ -2018,7 +2016,6 @@
 	Voi superbi mortali, e par sì bella,
 	È un Eco, un sogno, anzi del sogno un’ombra
 	Ch’ad ogni vento si dilegua e sgombra.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Fol+li, per-ché+ get-ta+te_il ca+ro do+no,		=A
 	Che bre+ve_è sì, di vo+stra_e-tà+ no-vel+la?		=B
@@ -2028,6 +2025,7 @@
 	Voi su-per+bi mor-ta+li,_e par sì bel+la,		=B+
 	È_un E+co,_un so+gno,_an+zi del so+gno_un’-om+bra	=C
 	Ch’ad o+gni ven+to si di-le+gua_e sgom+bra.		=C
+@FVERSE:
 @TVERSE:
 	O mad [youths], why do you waste your precious gift,
 	Which lasts so shortly, of your young age?
@@ -2073,7 +2071,6 @@
 	Quando cantan gli augei, più lieve scote:
 	Sia caso od arte, or accompagna ed ora
 	Alterna i versi lor la musica ora.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Vez-zo+si_au-gel+li_in+fra le ver+di fron+de		=A+
 	Tem+pra-no_a pro+va la-sci-vet+te no+te.		=B
@@ -2083,6 +2080,7 @@
 	Quan+do can+tan gli_au-gei,+ più lie+ve sco+te:		=B
 	Sia ca+so_od ar+te,_or ac-com-pa+gna_ed o+ra		=C+
 	Al-ter+na_i ver+si lor la mu+si-ca_o+ra.		=C
+@FVERSE:
 @TVERSE:
 	Charming little birds in among the green fronds
 	Make every effort to attempt lascivious little notes.
@@ -2128,7 +2126,6 @@
 	Tanta il parlar, che fu mirabil mostro.
 	Tacquero gli altri ad ascoltarlo intenti,
 	E fermaro i susurri in aria i venti.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	Vo+la fra gli_al+tri_un che le piu+me_ha spar+te	=A
 	Di co-lor+ va+ri,_ed ha pur-pu+reo_il ro+stro;		=B
@@ -2138,6 +2135,7 @@
 	Tan+ta_il par-lar,+ che fu mi-ra+bil mo+stro.		=B
 	Tac+que-ro gli_al+tri_ad a-scol-tar+lo_in-ten+ti,	=C
 	E fer+ma-ro_i su-sur+ri_in a+ria_i ven+ti.		=C
+@FVERSE:
 @TVERSE:
 	One flies among the others whose feathers are strewn
 	With various colors, and has a bright red beak;
@@ -2183,7 +2181,6 @@
 	Dispiega: ecco poi langue, e non par quella,
 	Quella non par che desiata innanti
 	Fu da mille donzelle e mille amanti.
-@MVERSE_DATE: 20230824
 @MVERSE:
 	"Deh mi+ra,"_e+gli can-tò,+ "spun-tar+ la ro+sa		=A
 	Dal ver+de suo mo-de+sta_e ver-gi-nel+la;		=B
@@ -2193,6 +2190,7 @@
 	Di-spie+ga:_ec+co poi lan+gue,_e non par quel+la,	=B
 	Quel+la non par che de-si-a+ta_in-nan+ti		=C+
 	Fu da mil+le don-zel+le_e mil+le_a-man+ti.		=C
+@FVERSE:
 @TVERSE:
 	"Oh look," he sang, "at the rose budding
 	From its greenery, modest and virginal;
@@ -2238,7 +2236,6 @@
 	Di questo dì, ché tosto il seren perde:
 	Cogliam d’Amor la rosa: amiamo or quando
 	Esser si puote riamato amando.
-@MVERSE_DATE:
 @MVERSE:
 	Co-sì+ tra-pas+sa_al tra-pas-sar+ d’un gior+no		=A+
 	Del+la vi+ta mor-ta+le_il fio+re,_e_’l ver+de:		=B
@@ -2248,6 +2245,7 @@
 	Di que+sto dì, ché to+sto_il se-ren+ per+de:		=B
 	Co-gliam+ d’A-mor+ la ro+sa:_a-mia+mo_or quan+do	=C
 	Es+ser si puo+te ri-a-ma+to_a-man+do.			=C
+@FVERSE:
 @TVERSE:
 	Thus passes away—with the passing of a day
 	Of mortal life—the flower, and the green:
@@ -2293,7 +2291,6 @@
 	Né in picciol vetro è un paradiso accolto.
 	Specchio t’è degno il Cielo, e nelle stelle
 	Puoi riguardar le tue sembianze belle.
-@MVERSE_DATE:
 @MVERSE:
 	Deh! poi che+ sde+gni me, co-m’e+gli_è va+go		=A+
 	Mi-rar+ tu_al-men+ po-tes+si_il pro+prio vol+to:	=B
@@ -2303,6 +2300,7 @@
 	Né_in pic+ciol ve+tro_è_un pa-ra-di+so_ac-col+to.	=B
 	Spec+chio t’è de+gno_il Cie+lo,_e nel+le stel+le	=C
 	Puoi ri-guar-dar+ le tue sem-bian+ze bel+le.		=C
+@FVERSE:
 @TVERSE:
 	Oh, since you scorn me, may you at least [appreciate]
 	How lovely it is to look at one’s face.
@@ -2348,7 +2346,6 @@
 	Non dico i baci; altra più degna avrassi
 	Questi da te. Che temi, empio, se resti?
 	Potrai negar, poi che fuggir potesti.
-@MVERSE_DATE:
 @MVERSE:
 	For-sen-na+ta gri-da+va:_"o tu che por+te		=A+
 	Te+co par+te di me, par+te ne las+si;			=B
@@ -2358,6 +2355,7 @@
 	Non di+co_i ba+ci;_al+tra più de+gna_av-ras+si		=B+
 	Que+sti da te. Che te+mi,_em+pio, se re+sti?		=C
 	Po-trai+ ne-gar,+ poi che fug-gir+ po-te+sti.		=C
+@FVERSE:
 @TVERSE:
 	Raving, she cried: "O you who bear
 	With you a part of me, a part leave [behind];
@@ -2403,7 +2401,6 @@
 	Già tutte non oblia l’arti e le frodi;
 	Fa di sospir breve concento in prima,
 	Per dispor l’alma in cui le voci imprima.
-@MVERSE_DATE:
 @MVERSE:
 	Qual mu+si-co gen-til,+ pri+ma che chia+ra		=A+
 	Al-ta-men+te la lin+gua_al can+to sno+di;		=B
@@ -2413,6 +2410,7 @@
 	Già tut+te non ob-lia+ l’ar+ti_e le fro+di;		=B
 	Fa di sos-pir+ bre+ve con-cen+to_in pri+ma,		=C
 	Per dis-por+ l’al+ma_in cui le vo+ci_im-pri+ma.		=C
+@FVERSE:
 @TVERSE:
 	As a refined musician, before clear
 	And high his tongue he looses in song,
@@ -2458,7 +2456,6 @@
 	D’un nemico talor l’altro riceve.
 	Ben quel ch’io chieggio è tal che darlo puoi,
 	E integri conservar gli sdegni tuoi.
-@MVERSE_DATE:
 @MVERSE:
 	Poi co-min-ciò:+ non as-pet-tar+ ch’io pre+ghi,		=A+
 	Cru-del,+ te, co+me_a-man+te_a-man+te de+ve:		=B
@@ -2468,6 +2465,7 @@
 	D’un ne-mi+co ta-lor+ l’al+tro ri-ce+ve.		=B
 	Ben quel ch’io chieg+gio_è tal che dar+lo puo-i,	=C
 	E_in-te+gri con-ser-var+ gli sde+gni tuo-i.		=C
+@FVERSE:
 @TVERSE:
 	Then she began: do not wait for me to plead,
 	Cruel, you, like a lover a lover should be [be]:
@@ -2513,7 +2511,6 @@
 	Ché per me fosse il vostro imperio oppresso:
 	Te perseguii, te presi, e te lontano
 	Dall’arme trassi in loco ignoto e strano.
-@MVERSE_DATE:
 @MVERSE:
 	Se m’o+dii,_e_in ciò di-let+to_al-cun+ tu sen+ti,	=A
 	Non ten’-ven+go_a pri-var:+ go+di pur d’es+so.		=B
@@ -2523,6 +2520,7 @@
 	Ché per me fos+se_il vo+stro_im-pe+rio_op-pres+so:	=B
 	Te per-se+guii, te pre+si,_e te lon-ta+no		=C+
 	Dal-l’ar+me tras+si_in lo+co_i-gno+to_e stra+no.	=C
+@FVERSE:
 @TVERSE:
 	If you hate me, and in this [hatred] any pleasure you feel,
 	I do not come to deprive you of it: enjoy it, even!
@@ -2568,7 +2566,6 @@
 	Far delle sue bellezze altrui tiranno:
 	Quelle ch’a mille antichi in premio sono
 	Negate, offrire a novo amante in dono.
-@MVERSE_DATE:
 @MVERSE:
 	Ag-giun+gi_a que+sto_an-cor+ quel ch’a mag-gio+re	=A+
 	On+ta tu re+chi,_ed a mag-gior+ tuo dan+no:		=B
@@ -2578,6 +2575,7 @@
 	Far del+le sue bel-lez+ze_al-trui+ ti-ran+no:		=B
 	Quel+le ch’a mil+le_an-ti+chi_in pre+mio so+no		=C+
 	Ne-ga+te,_of-fri+re_a no+vo_a-man+te_in do+no.		=C
+@FVERSE:
 @TVERSE:
 	Add to this as well that which with greater
 	Shame you bear, and to your greater harm:
@@ -2623,7 +2621,6 @@
 	Struggi la fede nostra; anch’io t’affretto.
 	Che dico nostra? ah non più mia; fedele
 	Sono a te solo, idolo mio crudele.
-@MVERSE_DATE:
 @MVERSE:
 	Sia que+sta pur tra le mie fro+di,_e va+glia		=A+
 	Sì di tan+te mie col+pe_in te_il di-fet+to,		=B
@@ -2633,6 +2630,7 @@
 	Strug+gi la fe+de nos+tra;_an-ch’io+ t’af-fret+to.	=B
 	Che di+co nos+tra?_ah non più mia; fe-de+le		=C+
 	So+no_a te so+lo,_i+do-lo mio cru-de+le.		=C
+@FVERSE:
 @TVERSE:
 	May this indeed be among my deceits, and may you value
 	So highly the flaw of my many faults,
@@ -2678,7 +2676,6 @@
 	Non trova loco torbida inquieta:
 	Già buona pezza in dispettosa fronte
 	Torva il riguarda, alfin prorompe all’onte.
-@MVERSE_DATE:
 @MVERSE:
 	Ri-man+ti_in pa+ce;_i’ va+do:_a te non li+ce		=A+
 	Me+co ve-nir;+ chi mi con-du+ce_il vie+ta.		=B
@@ -2688,6 +2685,7 @@
 	Non tro+va lo+co tor+bi-da_in-qui-e+ta:			=B
 	Già buo+na pez+za_in dis-pet-to+sa fron+te		=C+
 	Tor+va_il ri-guar+da,_al-fin+ pro-rom+pe_al-l’on+te.	=C
+@FVERSE:
 @TVERSE:
 	Remain in peace; I go: to you it is not permitted
 	To come with me; you who leads me forbids it.
@@ -2733,7 +2731,6 @@
 	Tanto t’agiterò quanto t’amai.
 	E s’è destin ch’esca del mar, che schivi
 	Gli scogli e l’onde, e ch’alla pugna arrivi:
-@MVERSE_DATE:
 @MVERSE:
 	Vat+te-ne pur, cru-del,+ con quel+la pa+ce		=A+
 	Che las+ci_a me: vat+te-ne,_i-ni+quo,_o-ma-i;+		=B
@@ -2743,6 +2740,7 @@
 	Tan+to t’a-gi-te-rò+ quan+to t’a-ma-i.+			=B
 	E s’è de-stin+ ch’e+sca del mar, che schi+vi		=C+
 	Gli sco+gli_e l’on+de,_e ch’al+la pu+gna_ar-ri+vi:	=C
+@FVERSE:
 @TVERSE:
 	Begone then, cruel man, with that peace
 	Which you leave to me: begone already, wicked man;
@@ -2788,7 +2786,6 @@
 	Né quest’ultimo suono espresse intero:
 	E cadde tramortita, e si diffuse
 	Di gelato sudore, e i lumi chiuse.
-@MVERSE_DATE:
 @MVERSE:
 	Là tra_’l san+gue_e le mor+ti_e+gro gia-cen+te		=A
 	Mi pa-ghe-rai+ le pe+ne,_em+pio guer-rie+ro.		=B
@@ -2798,6 +2795,7 @@
 	Né que+st’ul+ti-mo suo+no_esp-res+se_in-te+ro:		=B
 	E cad+de tra-mor-ti+ta,_e si dif-fu+se			=C
 	Di ge-la+to su-do+re,_e_i lu+mi chiu+se.		=C
+@FVERSE:
 @TVERSE:
 	There among the blood and the dead, weak, prostrate,
 	You will pay me for my pains, wicked warrior.
@@ -2843,7 +2841,6 @@
 	T’addolcirebbe il suon de’ suoi sospiri!
 	Dà quanto ei puote; ei prende (e tu nol credi)
 	Pietoso in vista gli ultimi congedi.
-@MVERSE_DATE:
 @MVERSE:
 	Chiu-de+sti_i lu+mi,_Ar-mi+da:_il Cie+lo_a-va+ro	=A+
 	In-vi-di-ò_il+ con-for+to_a’ tuoi mar-tì+ri.		=B
@@ -2853,6 +2850,7 @@
 	T’ad-dol-ci-reb+be_il suon de’ suoi so-spi+ri!		=B
 	Dà quan+to_ei puo+te;_ei pren+de_(e tu nol cre+di)	=C+
 	Pie-to+so_in vi+sta gli_ul+ti-mi con-ge+di.		=C
+@FVERSE:
 @TVERSE:
 	You closed your eyes, Armida: ungenerous Heaven
 	Begrudged [any] comfort for your torments.
@@ -2898,7 +2896,6 @@
 	La chioma di colei che gli fa scorta.
 	Vola per l’alto mar l’aurata vela:
 	Ei guarda il lido; e ’l lido ecco si cela.
-@MVERSE_DATE:
 @MVERSE:
 	Or che fa-rà?+ Dee su l’i-gnu+da_a-re+na		=A+
 	Co-stei+ las-ciar+ co-sì+ tra vi+va_e mor+ta?		=B
@@ -2908,6 +2905,7 @@
 	La chio+ma di co-lei+ che gli fa scor+ta.		=B
 	Vo+la per l’al+to mar l’au-ra+ta ve+la:			=C
 	Ei guar+da_il li+do;_e_’l li+do_ec+co si ce+la.		=C
+@FVERSE:
 @TVERSE:
 	Now what will he do? Must he upon the naked sand
 	Leave her thus between alive and dead?
@@ -2953,7 +2951,6 @@
 	Nel caso estremo il traditor mi porse?
 	Ed io pur anco l’amo? e in questo lido
 	Invendicata ancor piango, e m’assido?"
-@MVERSE_DATE:
 @MVERSE:
 	Poi ch’el+la_in se tor-nò,+ de-ser+to_e mu+to,		=A
 	Quan+to mi-rar+ po-tè,+ d’in-tor+no scor+se.		=B
@@ -2963,6 +2960,7 @@
 	Nel ca+so_es-tre+mo_il tra-di-tor+ mi por+se?		=B
 	Ed io pur an-co+ l’a+mo?_e_in que+sto li+do		=C
 	In-ven-di-ca+ta_an-cor+ pian+go,_e m’as-si+do?"		=C
+@FVERSE:
 @TVERSE:
 	Then when she returned to her senses, abandoned and silent,
 	To look about as much as she could, she glanced about.
@@ -3008,7 +3006,6 @@
 	Le membra appendo, ai dispietati esempio.
 	Mastro è di ferità: vuò superarlo
 	Nell’arti sue; ma dove son? che parlo?
-@MVERSE_DATE:
 @MVERSE:
 	Che fa più me+co_il pian+to?_al-tr’ar+me,_al-tr’ar+te		=A+
 	Io non ho dun+que?_ahi se-gui-rò+ pur l’em+pio:			=B
@@ -3018,6 +3015,7 @@
 	Le mem+bra_ap-pen+do,_ai dis-pie-ta+ti_e-sem+pio.		=B
 	Mas+tro_è di fe-ri-tà:+ vuò su-pe-rar+lo			=C
 	Nel-l’ar+ti sue; ma do+ve son? che par+lo?			=C
+@FVERSE:
 @TVERSE:
 	What more does this lament to me? Other arms, other art
 	Do I not have, therefore? Alas, I will still follow the wicked one:
@@ -3063,7 +3061,6 @@
 	Non fia vuoto d’effetto il mio desire.
 	O mia sprezzata forma, a te s’aspetta
 	(Ché tua l’ingiuria fu) l’alta vendetta.
-@MVERSE_DATE:
 @MVERSE:
 	Mi+se-ra_Ar-mi+da,_al-lor+ do-ve+vi,_e de+gno		=A+
 	Ben e+ra,_in quel cru-de+le_in-cru-de-li+re		=B
@@ -3073,6 +3070,7 @@
 	Non fia vuo+to d’ef-fet+to_il mio de-si+re.		=B
 	O mia sprez-za+ta for+ma,_a te s’as-pet+ta		=C+
 	(Ché tua l’in-giu+ria fu) l’al+ta ven-det+ta.		=C
+@FVERSE:
 @TVERSE:
 	Miserable Armida, thus you had to, and deserving
 	Well he was, in that cruelty become cruel
@@ -3118,7 +3116,6 @@
 	D’una vendetta in guiderdon son presta.
 	S’esser compra a tal prezzo indegna io sono,
 	Beltà, sei di natura inutil dono.
-@MVERSE_DATE:
 @MVERSE:
 	Que+sta bel-lez+za mia sa-rà+ mer-ce+de			=A
 	Del tron-ca-tor+ del-l’e-se-cra+bil te+sta.		=B
@@ -3128,6 +3125,7 @@
 	D’u+na ven-det+ta_in gui-der-don+ son pre+sta.		=B
 	S’es+ser com+pra_a tal prez+zo_in-de+gna_io so+no,	=C
 	Bel-tà,+ sei di na-tu+ra_i-nu+til do+no.		=C
+@FVERSE:
 @TVERSE:
 	This my beauty will be the reward
 	For the man who cuts off his detestable head.
@@ -3173,7 +3171,6 @@
 	Dalle vie del piacer, là non perviene.
 	Or vorrai tu lungi dall’alte cime
 	Giacer, quasi tra valli augel sublime?
-@MVERSE_DATE:
 @MVERSE:
 	Si-gnor,+ non sot+to l’om+bra_in piag+gia mol+le	=A
 	Tra fon+ti_e fior, tra Nin+fe_e tra Si-re+ne;		=B
@@ -3183,6 +3180,7 @@
 	Dal+le vie del pia-cer,+ là non per-vie+ne.		=B
 	Or vor-rai+ tu lun+gi dal-l’al+te ci+me			=C+
 	Gia-cer,+ qua+si tra val+li_au-gel+ sub-li+me?		=C
+@FVERSE:
 @TVERSE:
 	Lord, not beneath the shade upon the soft shore
 	Among founts and flowers, among Nymphs and among Sirens;
@@ -3228,7 +3226,6 @@
 	Ov’è la fiamma? ov’è il bel raggio ascoso?
 	Delle fiorite guancie il bel vermiglio
 	Ov’è fuggito? ov’è il seren del ciglio?
-@MVERSE_DATE:
 @MVERSE:
 	Mi+se-ra, non cre-dea+ ch’a gli_oc+chi mi+ei		=A+
 	Po-tes+si_in al-cun+ tem+po_es+ser no-io+so:		=B
@@ -3238,6 +3235,7 @@
 	O-v’è+ la fiam+ma?_o-v’è_il+ bel rag+gio_a-sco+so?	=B
 	Del+le fio-ri+te guan+cie_il bel ver-mi+glio		=C+
 	O-v’è+ fug-gi+to?_o-v’è_il+ se-ren+ del ci+glio?	=C
+@FVERSE:
 @TVERSE:
 	Miserable woman, I did not believe that before my eyes
 	You could at any time be dreary:
@@ -3283,7 +3281,6 @@
 	Che più caldi sperai, vuò pur rapire.
 	Parte torrò di sue ragioni a morte,
 	Baciando queste labbra esangui e smorte.
-@MVERSE_DATE:
 @MVERSE:
 	Ma che? squal+li-do_e scu+ro_an-co+ mi pia+ci;		=A
 	A+ni-ma bel+la, se quin+ci_en+tro gi+re,		=B
@@ -3293,6 +3290,7 @@
 	Che più cal+di spe-rai,+ vuò pur ra-pi+re.		=B
 	Par+te tor-rò+ di sue ra-gio+ni_a mor+te,		=C
 	Ba-cian+do que+ste lab+bra_e-san+gui_e smor+te.		=C
+@FVERSE:
 @TVERSE:
 	But what [am I saying]? Dismal and dark still you please me;
 	Beautiful soul, if there within it turns,
@@ -3338,7 +3336,6 @@
 	Quel davi tu, ch’ora convien che invole.
 	Lecito sia ch’ora ti stringa, e poi
 	Versi lo spirto mio fra i labbri tuoi.
-@MVERSE_DATE:
 @MVERSE:
 	Pie-to+sa boc+ca, che so-le+vi_in vi+ta			=A+
 	Con-so-lar+ il mio duol di tue pa-ro+le,		=B
@@ -3348,6 +3345,7 @@
 	Quel da+vi tu, ch’o+ra con-vien+ che_in-vo+le.		=B
 	Le+ci-to sia ch’o+ra ti strin+ga,_e po+i		=C+
 	Ver+si lo spir+to mio fra_i lab+bri tuo+i.		=C
+@FVERSE:
 @TVERSE:
 	Compassionate mouth, which used in life
 	To console my pain with your words,
@@ -3393,7 +3391,6 @@
 	Ch’usciste fuor della battaglia asciutte,
 	Quì vi depongo: e quì sepolte state,
 	Poiché l’ingiurie mie mal vendicate.
-@MVERSE_DATE:
 @MVERSE:
 	Piac+que-le_as-sai+ che_'n quel+le val+li_om-bro+se	=A
 	L’or+me sue_er-ran+ti_il ca+so_ab+bia con-dut+te.	=B
@@ -3403,6 +3400,7 @@
 	Ch’u-sci+ste fuor del+la bat-ta+glia_a-sciut+te,	=B
 	Quì vi de-pon+go:_e quì se-pol+te sta+te,		=C
 	Poi-ché+ l’in-giu+rie mie mal ven-di-ca+te.		=C
+@FVERSE:
 @TVERSE:
 	It was so pleasing to her that among those shady valleys
 	Chance led her wandering tracks.
@@ -3448,7 +3446,6 @@
 	I pregj vostri e le vittorie sieno.
 	Tenero ai colpi è questo mio; ben sallo
 	Amor, che mai non vi saetta in fallo.
-@MVERSE_DATE:
 @MVERSE:
 	Ah, ma non fia che fra tan-t’ar+mi_e tan+te		=A+
 	U+na di san+gue_og+gi si ba+gni_al-me+no?		=B
@@ -3458,6 +3455,7 @@
 	I pre+gj vos+tri_e le vit-to+rie sie+no.		=B
 	Te+ne-ro_ai col+pi_è que+sto mio; ben sal+lo		=C+
 	A-mor,+ che mai non vi sa-et+ta_in fal+lo.		=C
+@FVERSE:
 @TVERSE:
 	Ah, but could it not be that among so many, many arms
 	One in blood today could be bathed at least?
@@ -3503,7 +3501,6 @@
 	Se non sol di ferute alle ferute;
 	Sani piaga di stral piaga d’Amore:
 	E sia la morte medicina al core.
-@MVERSE_DATE:
 @MVERSE:
 	Di-mos-tra+te-vi_in me (ch’io vi per-do+no		=A+
 	La pas-sa+ta vil-tà)+ for+ti_ed a-cu+te:		=B
@@ -3513,6 +3510,7 @@
 	Se non sol di fe-ru+te_al+le fe-ru+te;			=B
 	Sa+ni pia+ga di stral pia+ga d’A-mo+re:			=C
 	E sia la mor+te me-di-ci+na_al co+re.			=C
+@FVERSE:
 @TVERSE:
 	Show yourselves in me (that I pardon you
 	Your past cowardice) [to be] strong and sharp:
@@ -3558,7 +3556,6 @@
 	A colui che di me fé l’empio scherno:
 	E se gli mostri tal, che, in fere notti,
 	Abbia riposi orribili e interrotti.
-@MVERSE_DATE:
 @MVERSE:
 	Fe-li+ce me, se nel mo-rir+ non re+co			=A+
 	Que+sta mia pe+ste_ad in-fet-tar+ l’In-fer+no.		=B
@@ -3568,6 +3565,7 @@
 	A co-lui+ che di me fé l’em+pio scher+no:		=B
 	E se gli mo+stri tal, che,_in fe+re not+ti,		=C+
 	Ab+bia ri-po+si_or-ri+bi-li_e_in-ter-rot+ti.		=C
+@FVERSE:
 @TVERSE:
 	Happy me, if in dying I do not bring
 	This my plague to infect Hell.
@@ -3613,7 +3611,6 @@
 	Già tinta in viso di pallor di morte.
 	Da tergo ei se le avventa, e ’l braccio prende
 	Che già la fera punta al petto stende.
-@MVERSE_DATE:
 @MVERSE:
 	Qui tac+que:_e sta-bi-li+to_il suo pen-sie+ro,		=A
 	Stra+le sce-glie+va_il più pun-gen+te_e for+te;		=B
@@ -3623,6 +3620,7 @@
 	Già tin+ta_in vi+so di pal-lor+ di mor+te.		=B
 	Da ter+go_ei se le_av-ven+ta,_e_’l brac+cio pren+de	=C
 	Che già la fe+ra pun+ta_al pet+to sten+de.		=C
+@FVERSE:
 @TVERSE:
 	Here she fell silent; and, her mind made up,
 	An arrow she chose, the most pointed and strong;
@@ -3668,7 +3666,6 @@
 	Piegando il lento collo: ei la sostenne.
 	Le fé d’un braccio al bel fianco colonna:
 	E intanto al sen le rallentò la gonna.
-@MVERSE_DATE:
 @MVERSE:
 	Si vol+se_Ar-mi+da,_e_’l ri-mi-rò_im+prov-vi+so;	=A
 	Ché nol sen-tì+ quan+do da pri+ma_ei ven+ne.		=B
@@ -3678,6 +3675,7 @@
 	Pie-gan+do_il len+to col+lo:_ei la so-sten+ne.		=B
 	Le fé d’un brac+cio_al bel fian+co co-lon+na:		=C
 	E_in-tan+to_al sen le ral-len-tò+ la gon+na.		=C
+@FVERSE:
 @TVERSE:
 	Armida turned and stared at him suddenly;
 	For she did not hear him when he came before.
@@ -3723,8 +3721,8 @@
 	Faccia, del non suo pianto or lagrimosa.
 	Tre volte alzò le luci: e tre chinolle
 	Dal caro oggetto, e rimirar nol volle.
-@MVERSE_DATE:
 @MVERSE:
+@FVERSE:
 @TVERSE:
 	And the beautiful face, and the beautiful breast of the wretched woman
 	He bathed with a few compassionate tears.
@@ -3770,8 +3768,8 @@
 	Che le fu caro forse, e se n’infinse,
 	Parlando incominciò di spander fiumi,
 	Senza mai dirizzargli al volto i lumi.
-@MVERSE_DATE:
 @MVERSE:
+@FVERSE:
 @TVERSE:
 	And with a weak hand the strong arm
 	That was her support, timidly, she pushed away.
@@ -3817,8 +3815,8 @@
 	A quali pene è riservata Armida?
 	Conosco l’arti del fellone ignote;
 	Ma ben può nulla, chi morir non puote.
-@MVERSE_DATE:
 @MVERSE:
+@FVERSE:
 @TVERSE:
 	Oh always, both when you depart and when you return
 	Equally cruel man, now who guides you?
@@ -3864,8 +3862,8 @@
 	Dolce or saria con morte uscir di pianti;
 	Ma non la chiedo a te; ché non è cosa
 	Ch’essendo dono tuo, non mi sia odiosa.
-@MVERSE_DATE:
 @MVERSE:
+@FVERSE:
 @TVERSE:
 	Surely your honor is diminished, if she does not declare herself
 	Enchained before your triumph
@@ -3911,8 +3909,8 @@
 	Armida, il cor turbato omai tranquilla:
 	Non agli scherni, al regno io ti riservo,
 	Nemico no; ma tuo campione e servo.
-@MVERSE_DATE:
 @MVERSE:
+@FVERSE:
 @TVERSE:
 	Thus she grieved; and with the faint waves
 	That love and scorn from her beautiful eyes distill,
@@ -3929,4 +3927,6 @@
 @DEDICATEE:	Duke Alfonso II d'Este
 @COMMENTARY:
 @@END:		VERSEDATA
+
+
 

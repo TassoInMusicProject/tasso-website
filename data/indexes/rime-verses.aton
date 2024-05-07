@@ -24,8 +24,8 @@
 @@      EDITION_PAGE:
 @@      TRANSLATOR: Who translated the TVERSE.
 @@      VERSE: One or more stanza of the poem (plain text in Italian).
-@@      MVERSE_DATE: The date that the markedup verse was last edited.
 @@      MVERSE: One or more stanza of the verses marked up.
+@@      FVERSE: Figures of order/sound for the verses.
 @@      TVERSE: One or more stanza of the pome (translated into English).
 @@   END: VERSES
 @@   OTHER_CRIT_ED:
@@ -73,7 +73,6 @@
 	Ma de l'altro periglio non m'accòrsi:
 	Ché mi fu per l'orecchie il cor ferito
 	E i detti andaro ove non giunse in volto.
-@MVERSE_DATE: 20230715
 @MVERSE:
 	Su l'am--pia fron--te_il cre--spo_o--ro lu-cen--te		=A+
 	Spar--so_on-deg-gia--va,_e de' be--gli_oc--chi_il rag--gio	=B+
@@ -93,6 +92,7 @@
 	Ma de l'al+tro pe-ri+glio non m'ac-còr+si:			=C
 	Ché mi fu per l'o-rec+chie_il cor fe-ri+to			=D
 	E_i det+ti_an-da+ro_o+ve non giun+se_in vol+to.			=D
+@FVERSE:
 @TVERSE:
 	Upon her high brow, curly shining gold
 	Spilled in waves, and the gaze of her beautiful eyes
@@ -161,7 +161,6 @@
 	Al dolce foco de' be' vostri lumi;
 	E 'l languir sì mi piace,
 	Ch'infinito diletto ho nel martire.
-@MVERSE_DATE:
 @MVERSE:
 	Io non pos--so gio-i--re				=a
 	Lun--ge da voi, che sie--te_il mio de-si--re;		=A
@@ -171,6 +170,7 @@
 	Al dol--ce fo--co de' be' vo--stri lu--mi;		=C
 	E_'l lan-guir-- sì mi pia--ce,				=b
 	Ch'in-fi-ni--to di-let--to_ho nel mar-ti--re.		=A
+@FVERSE:
 @TVERSE:
 	I cannot feel joy
 	Far from you, who are my desire;
@@ -229,7 +229,6 @@
 	All'ora più vicin che son più lunge,
 	Ed amo ed ardo e godo
 	Più del mio foco se maggior il sento.
-@MVERSE_DATE:
 @MVERSE:
 	Già non son io con-ten--to					=a
 	Lun--ge da voi, che se--te_il mio tor-men--to,			=A
@@ -239,6 +238,7 @@
 	Al-l'o--ra più vi-cin-- che son più lun--ge,			=C
 	Ed a--mo_ed ar--do_e go--do					=b
 	Più del mio fo--co se mag-gior-- il sen--to.			=A
+@FVERSE:
 @TVERSE:
 	Indeed, I am not happy
 	Far from you, who are my torment,
@@ -294,7 +294,6 @@
 	La mia vita e 'l mio bene;
 	Ma pur mezzo son'io tra morto e vivo,
 	Poi che del cor son privo.
-@MVERSE_DATE:
 @MVERSE:
 	Co--me viv-rò-- ne le mie pe--ne,_A-mo--re,		=A
 	Sì lun--ge dal mio co--re,				=a
@@ -306,6 +305,7 @@
 	La mia vi--ta_e_'l mio be--ne;				=c
 	Ma pur mez--zo son'-io tra mor--to_e vi--vo,		=E
 	Poi che del cor son pri--vo.				=e
+@FVERSE:
 @TVERSE:
 	How will I live in my pain, Love,
 	So far from my heart,
@@ -364,7 +364,6 @@
 	E vi spira e favella:
 	Ma pur senza il mio core è la mia vita
 	Dolente e sbigottita.
-@MVERSE_DATE:
 @MVERSE:
 	Se_'l mio co--re_è con voi, co--me de-si--a,		=A
 	Do-v'è-- l'a--ni-ma mi--a?				=a
@@ -376,6 +375,7 @@
 	E vi spi--ra_e fa-vel--la:				=c
 	Ma pur sen--za_il mio co--re_è la mia vi--ta		=E+
 	Do-len--te_e sbi-got-ti--ta.				=e
+@FVERSE:
 @TVERSE:
 	If my heart is with you, as it desires,
 	Where is my soul?
@@ -441,7 +441,6 @@
 	E perché non fai tregua a' tuoi sospiri,
 	E 'n quest'amate luci asciughi il pianto?
 	Speri forse  d'aver più fidi lumi? &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Gia-cea-- la mia vir-tù-- vin--ta_e smar-ri--ta			=A
 	Nel duol, ch'è sem--pre_in sua ra-gion-- più for--te,		=B
@@ -460,6 +459,7 @@
 	E per-ché-- non fai tre--gua_a' tuoi sos-pi--ri,		=C
 	E_'n que--st'a-ma--te lu--ci_a-sciu--ghi_il pian--to?		=D
 	Spe--ri for--se d'a-ver-- più fi--di lu--mi? &mdash;		=E
+@FVERSE:
 @TVERSE:
 	My virtue, conquered and mislaid, languished
 	In pain—which is, by its nature, ever stronger—
@@ -532,7 +532,6 @@
 	Così vi faccia il Sol più belle e chiare,
 	Siate nel dubbio corso al desir mio
 	Fide mie duci e scorte amate e care.
-@MVERSE_DATE:
 @MVERSE:
 	Io veg--gio_in cie--lo scin-til-lar-- le stel--le		=A
 	Ol--tre l'u-sa--to_e lam-peg-giar-- tre-man--ti,		=B
@@ -551,6 +550,7 @@
 	Co-sì-- vi fac--cia_il Sol più bel--le_e chia--re,		=C
 	Sia--te nel dub--bio cor--so_al de-sir-- mi--o			=D
 	Fi--de mie du--ci_e scor--te_a-ma--te_e ca--re.			=C
+@FVERSE:
 @TVERSE:
 	I see, in the sky, the stars twinkling
 	more than usual, and trembling ablaze,
@@ -622,7 +622,6 @@
 	Così addivien che ne l'altrui vittoria
 	Canti mia servitute e i lacci miei
 	E tessa de gli affanni istorie in carte.
-@MVERSE_DATE:
 @MVERSE:
 	Sta--va-si_A-mor-- qua--si_in suo re--gno_as-si--so		=A
 	Nel se-ren-- di due lu--ci_ar-den--ti_ed al--me,		=B
@@ -641,6 +640,7 @@
 	Co-sì_ad--di-vien-- che ne l'al-trui-- vit-to--ria		=D
 	Can--ti mia ser-vi-tu--te_e_i lac--ci mie--i			=E
 	E tes--sa de gli_af-fan--ni_i-sto--rie_in car--te.		=C
+@FVERSE:
 @TVERSE:
 	Love, as if in his reign, was seated
 	In the calm of two passionate eyes and souls;
@@ -713,7 +713,6 @@
 	Gradisci il voto, ché più forte laccio
 	Da man più dotta ordito alma non tolse;
 	Né per che a te lo doni indi mi sciolgo.
-@MVERSE_DATE:
 @MVERSE:
 	A-mor,-- se fia gia-mai-- che dol--ce_i' tóc--chi	=A+
 	Il ter--so_a-vo--rio de la bian--ca ma--no,		=B
@@ -732,6 +731,7 @@
 	Gra-di--sci_il vo--to, ché più for--te lac--cio		=C+
 	Da man più dot--ta_or-di--to_al--ma non tol--se;	=E
 	Né per che_a te lo do--ni_in--di mi sciol--go.		=D
+@FVERSE:
 @TVERSE:
 	Love, if it ever occurs that, gently, I touch
 	The pure ivory of her white hand,
@@ -798,7 +798,6 @@
 	Giusto è ben ch'io ne prenda,
 	Amor, qualche vendetta,
 	E se piaghe mi diè baci le renda.
-@MVERSE_DATE:
 @MVERSE:
 	Non è que--sta la ma--no				=a
 	Che tan--te_e sì mor-ta--li				=b+
@@ -811,6 +810,7 @@
 	Giu--sto_è ben ch'io ne pren--da,			=e+
 	A-mor,-- qual--che ven-det--ta,				=d
 	E se pia--ghe mi diè ba--ci le ren--da.			=E
+@FVERSE:
 @TVERSE:
 	Is this not the hand
 	That so many and truly fatal
@@ -902,7 +902,6 @@
 	La lingua, e se non vuoi
 	Che mi stringa un sol men de' lacci tuoi,
 	Tanti n'aggiungi in quella vece al core.
-@MVERSE_DATE: 20230715
 @MVERSE:
 	A-mor-- l'al--ma m'al-lac--cia				=a
 	Di dol--ci_a--spre- ca-te--ne:				=b
@@ -915,6 +914,7 @@
 	La lin--gua,_e se non vuo--i				=e+
 	Che mi strin--ga_un sol men de' lac--ci tuo--i,		=E
 	Tan--ti n'ag-giun--gi_in quel--la ve--ce_al co--re.	=D
+@FVERSE:
 @TVERSE:
 	Love binds my soul
 	With sweet and sour chains:
@@ -986,7 +986,6 @@
 	Ahi, come allor cangiasti arte e costume:
 	Tu, ch'accender solei l'aurea facella,
 	Tu, ministra d'Amor, tu l'estinguesti!
-@MVERSE_DATE:
 @MVERSE:
 	Men--tre ne' ca--ri bal--li_in lo--co_a-dor--no			=A
 	Si trae--an le not-tur--ne_e pla--ci-de_o--re,			=B
@@ -1005,6 +1004,7 @@
 	Ahi, co--me_al-lor-- can-gia--sti_ar--te_e co-stu--me:		=E
 	Tu, ch'ac-cen-der-- so-lei-- l'au-rea-- fa-cel--la,		=C+
 	Tu, mi-ni--stra d'A-mor,-- tu l'e-stin-gue--sti!		=D
+@FVERSE:
 @TVERSE:
 	While, during splendid dances in an adorned place
 	The tranquil nighttime hours draw on,
@@ -1077,7 +1077,6 @@
 	Deh, fuggi il Sole e cerca in chiuso loco,
 	Come notturno augel, gli orrori amici:
 	Né qui timor la tua sembianza apporte.
-@MVERSE_DATE:
 @MVERSE:
 	O ne-mi--ca d'A-mor,-- che sì ti ren--di		=A+
 	Schi--va di quel ch'al-trui-- dà pa--ce_e vi--ta,	=B
@@ -1096,6 +1095,7 @@
 	Deh, fug--gi_il So--le_e cer--ca_in chiu--so lo--co,	=D+
 	Co--me not-tur--no_au-gel,-- gli_or-ro--ri_a-mi--ci:	=C
 	Né qui ti-mor-- la tua sem-bian--za_ap-por--te.		=E
+@FVERSE:
 @TVERSE:
 	O enemy of Love, who make yourself so
 	Indifferent to that which, to others, grants peace and life,
@@ -1164,7 +1164,6 @@
 	Una voce dolente; e ciò mi resta
 	Solo per vostro dono:
 	Ma resta il male onde morir desio.
-@MVERSE_DATE:
 @MVERSE:
 	Lun--ge da voi, ben mi--o,				=a
 	Non ho vi--ta né co--re_e non son i--o.			=A
@@ -1174,6 +1173,7 @@
 	U--na vo--ce do-len--te;_e ciò-- mi re--sta		=C
 	So--lo per vo--stro do--no:				=b
 	Ma re--sta_il ma--le_on--de mo-rir-- de-si--o.		=A
+@FVERSE:
 @TVERSE:
 	Far from you, my dear,
 	I have no life nor heart, and am not myself.
@@ -1232,7 +1232,6 @@
 	E tutti sono morti i pensier miei.
 	Oh miseria infinita!
 	È quel felice ch'una volta muore.
-@MVERSE_DATE:
 @MVERSE:
 	Lun--ge da voi, mio co--re,			=a
 	Mil--le vol--te m'uc-ci--de_il mio do-lo--re.	=A
@@ -1242,6 +1241,7 @@
 	E tut--ti so--no mor--ti_i pen-si-er-- miei.	=C
 	Oh mi-se--ria_in-fi-ni--ta!			=b
 	È quel fe-li--ce ch'u--na vol--ta muo--re.	=A
+@FVERSE:
 @TVERSE:
 	Far from you, my heart,
 	A thousand times my sorrow kills me.
@@ -1302,7 +1302,6 @@
 	Ché, se furommi il core,
 	Fia 'l mio furto minore
 	Quando in dolce vendetta un guardo i' toglia.
-@MVERSE_DATE:
 @MVERSE:
 	Poi-ché-- ma-don--na sde--gna,					=a+
 	Fuor d'o--gni suo co-stu--me,					=b+
@@ -1314,6 +1313,7 @@
 	Ché, se fu-rom--mi_il co--re,					=e
 	Fia_'l mio fur--to mi-no--re					=e
 	Quan--do_in dol--ce ven-det--ta_un guar--do_i' to--glia.	=D
+@FVERSE:
 @TVERSE:
 	Since my Lady disdains
 	More than is her usual custom,
@@ -1379,7 +1379,6 @@
 	Chiedi qual sia la rota ove gli amanti
 	Travolve e 'l corso lor ferma e sospende?
 	La rota fanno or de' begli occhi i giri.
-@MVERSE_DATE:
 @MVERSE:
 	Co-stei,-- che su la fron--te_ha spar--sa_al ven--to	=A+
 	L'er-ran--te chio--ma d'òr, For-tu--na pa--re;		=B
@@ -1398,6 +1397,7 @@
 	Chie--di qual sia la ro--ta_o--ve gli_a-man--ti		=E+
 	Tra-vol--ve_e_'l cor--so lor fer--ma_e sos-pen--de?	=D
 	La ro--ta fan--no_or de' be--gli_oc--chi_i gi--ri.	=C
+@FVERSE:
 @TVERSE:
 	She, upon whose brow the wind has strewn
 	Her wandering golden locks, appears to be Fortune;
@@ -1470,7 +1470,6 @@
 	Specchi del cor, fallaci infidi lumi,
 	Ben conosciamo in voi gl'inganni vostri;
 	Ma che pro, se schifarli Amor ci toglie?
-@MVERSE_DATE:
 @MVERSE:
 	M'ap--re ta-lor-- ma-don--na_il suo ce-le--ste			=A+
 	Ri--so fra per--le_e bei ru-bi--ni_ar-den--ti,			=B
@@ -1489,6 +1488,7 @@
 	Spec--chi del cor, fal-la--ci_in-fi--di lu--mi,			=E
 	Ben co-no-scia--mo_in voi gl'in-gan--ni vo--stri;		=D
 	Ma che pro, se schi-far--li_A-mor-- ci to--glie?		=C
+@FVERSE:
 @TVERSE:
 	At times my lady reveals to me her heavenly
 	Laugh among pearls and lovely, passionate rubies,
@@ -1561,7 +1561,6 @@
 	Vile ape, Amor, cara mercè rapio:
 	Che più ti resta, s'altri il mel n'elice,
 	Da temprar il tuo assenzio e 'l dolor mio?
-@MVERSE_DATE:
 @MVERSE:
 	Men--tre Ma-don--na s'ap-pog-giò-- pen-so--sa		=A
 	Do--po_i suoi lie--ti_e vo-lon-ta--ri_er-ro--ri		=B
@@ -1580,6 +1579,7 @@
 	Vi--le_a--pe,_A-mor,-- ca--ra mer-cè-- ra-pi--o:	=D
 	Che più ti re--sta, s'al--tri_il mel n'e-li--ce,	=C+
 	Da tem-prar-- il tuo_as-sen--zio_e_'l do-lor-- mi--o?	=D
+@FVERSE:
 @TVERSE:
 	As my lady rested, thoughtful,
 	After her happy and willing errors,
@@ -1646,7 +1646,6 @@
 	Temprar sì ardente face
 	Più che pietà non face,
 	Siatemi, prego, per pietà più cruda.
-@MVERSE_DATE:
 @MVERSE:
 	Men--tre nu--bi di sde--gno				=a+
 	Fra' vo--stri_oc--chi_e_'l mio co--re			=b+
@@ -1659,6 +1658,7 @@
 	Tem-prar-- sì_ar-den--te fa--ce				=f
 	Più che pie-tà-- non fa--ce,				=f
 	Sia--te-mi, pre--go, per pie--tà più cru--da.		=E
+@FVERSE:
 @TVERSE:
 	While clouds of disdain
 	Between your eyes and my heart
@@ -1723,7 +1723,6 @@
 	Ma non vuol mia ventura
 	Ch'involi senza pena; onde divegno
 	Preda di predator, d'arciero il segno.
-@MVERSE_DATE:
 @MVERSE:
 	Dis-de--gno_e ge-lo-si--a,					=a+
 	Vo--stri cu-sto--di, don--na,_e miei ne-mi--ci,			=B+
@@ -1740,6 +1739,7 @@
 	Ma non vuol mia ven-tu--ra					=f+
 	Ch'in-vo--li sen--za pe--na;_on--de di-ve--gno			=H+
 	Pre--da di pre-da-tor,-- d'ar-cie--ro_il se--gno.		=H
+@FVERSE:
 @TVERSE:
 	Disdain and jealousy,
 	Your guardians, lady, and my enemies,
@@ -1801,7 +1801,6 @@
 	Un dir &mdash; nel foco io ardo &mdash;,
 	Un scolorir di viso,
 	Un dolente sospiro, un lieto riso.
-@MVERSE_DATE:
 @MVERSE:
 	Don--na, quan--to più_a den--tro				=a
 	Co-nob--bi_il vo--stro co--re,					=b
@@ -1811,6 +1810,7 @@
 	Un dir &mdash; nel fo--co_io_ar--do &mdash;,			=c
 	Un sco-lo-rir-- di vi--so,					=d
 	Un do-len--te so-spi--ro,_un lie--to ri--so.			=D
+@FVERSE:
 @TVERSE:
 	Lady, the more deeply within
 	I came to know your heart,
@@ -1866,7 +1866,6 @@
 	Ma tanto or temo, quanto già sperai.
 	Amor, se vuoi ch'io creda,
 	Convien che 'l core altrui ne' fatti veda.
-@MVERSE_DATE:
 @MVERSE:
 	A chi cre-der-- deg-g'i--o				=a
 	Se va--ni so--no_i det--ti				=b
@@ -1877,6 +1876,7 @@
 	Ma tan--to_or te--mo, quan--to già spe-ra--i.--		=D
 	A-mor,-- se vuoi ch'io cre--da,				=e
 	Con-vien-- che_'l co--re_al--trui ne' fat--ti ve--da.	=E
+@FVERSE:
 @TVERSE:
 	Whom should I believe
 	If utterances are empty
@@ -1941,7 +1941,6 @@
 	Si neghi a me pur ch'a ciascun si neghi;
 	Ché, quando altrui non splenda il mio bel sole,
 	Ne le tenebre ancor vivrò beato.
-@MVERSE_DATE:
 @MVERSE:
 	Ge-lo--so_a-man--te_ap--ro mil--l'oc--chi_e gi--ro	=A
 	E mil--le_o-rec--chi_ad o--gni suo--no_in-ten--ti,	=B
@@ -1960,6 +1959,7 @@
 	Si ne--ghi_a me pur ch'a cias-cun-- si ne--ghi;		=D
 	Ché, quan--do_al-trui-- non splen--da_il mio bel so--le,=C
 	Ne le te--ne-bre_an-cor-- viv-rò-- be-a--to.		=E
+@FVERSE:
 @TVERSE:
 	Jealous lover, I open a thousand eyes and turn [to look],
 	And a thousand ears upon every sound intent,
@@ -2034,7 +2034,6 @@
 	Perfida, ancor ne la mia fraude io spero,
 	Che, dove pria giacesti, ella ti spinga
 	Ne gli oscuri d'oblio profondi abissi.
-@MVERSE_DATE:
 @MVERSE:
 	Ar--si gran tem--po,_e del mio fo--co_in-de--gno	=A
 	E--sca fu sol va--na bel-lez--za_e fra--le;		=B
@@ -2053,6 +2052,7 @@
 	Per--fi-da,_an-cor-- ne la mia frau--de_io spe--ro,	=E+
 	Che, do--ve pria gia-ce--sti,_el--la ti spin--ga	=D
 	Ne gli_o-scu--ri d'ob-lio-- pro-fon--di_a-bis--si.	=C
+@FVERSE:
 @TVERSE:
 	I burned for a long time, and for my shameful fire
 	The only fuel was vain and frail beauty;
@@ -2130,7 +2130,6 @@
 	Ma cotanto somiglia al ver l'imago,
 	Ch'erro, e dolc'è l'error: pur ne sospiro
 	Come d'ingiusta idolatria d'Amore.
-@MVERSE_DATE:
 @MVERSE:
 	Tre gran Don--ne vid'i--o ch'in es--ser bel--le			=A+
 	Mo-stran-- dis-pa-ri-tà,-- ma so-mi-glian--te;			=B
@@ -2149,6 +2148,7 @@
 	Ma co-tan--to so-mi--glia_al ver l'i-ma--go,			=D
 	Ch'er--ro,_e dol--c'è l'er-ror:-- pur ne so-spi--ro		=C
 	Co--me d'in-giu--sta_i-do-la-tria-- d'A-mo--re.			=E
+@FVERSE:
 @TVERSE:
 	Three great Ladies I saw who, in being beautiful,
 	Display difference, yet [are] similar,
@@ -2224,7 +2224,6 @@
 	Temute e care, ond'io gioisco e moro,
 	Se non basta nel tronco, ev'ei mi lima
 	Nel mezzo del mio petto Amor l'imprima.
-@MVERSE_DATE:
 @MVERSE:
 	Con la sa-et--ta de la pun--ta d'o--ro					=A
 	On-d'eb--bi_al pet--to sì-- mor-tal-- fe-ri--ta,			=B
@@ -2236,6 +2235,7 @@
 	Te-mu--te_e ca--re,_on-d'io-- gio-i--sco_e mo--ro,			=A
 	Se non ba--sta nel tron--co,_e-v'ei-- mi li--ma				=D
 	Nel mez--zo del mio pet--to_A-mor-- l'im-pri--ma.			=D
+@FVERSE:
 @TVERSE:
 	With the arrow of a golden tip
 	Through which I received to my chest a mortal wound,
@@ -2291,7 +2291,6 @@
 	E quel beato che per lei sospira!
 	Ché se gl'inspira il core,
 	Puote al cielo aspirar col suo valore.
-@MVERSE_DATE:
 @MVERSE:
 	Non fon--te_o fiu--me_od au--ra				=a+
 	O--do_in più dol--ce suon di quel di Lau--ra;		=A
@@ -2301,6 +2300,7 @@
 	E quel be-a--to che per lei so-spi--ra!			=C
 	Ché se gl'in-spi--ra_il co--re,				=d
 	Puo--te_al cie--lo_a-spi-rar-- col suo va-lo--re.	=D
+@FVERSE:
 @TVERSE:
 	No fountain or river or breeze
 	Do I hear in sweeter tone than that of Laura;
@@ -2351,7 +2351,6 @@
 	Di fior l'una riveste
 	Il dilettoso aprile,
 	L'altra fiorir fa l'amoroso stile.
-@MVERSE_DATE:
 @MVERSE:
 	Mes-sag-ge--ra de l'al--ba				=a+
 	È-- que-st'au--ra ter-re--na				=b
@@ -2362,6 +2361,7 @@
 	Di fior l'u--na ri-ve--ste				=c+
 	Il di-let-to--so_ap-ri--le,				=e
 	L'al--tra fio-rir-- fa l'a-mo-ro--so sti--le.		=E
+@FVERSE:
 @TVERSE:
 	Messenger of the dawn
 	Is this earth-borne breeze,
@@ -2422,7 +2422,6 @@
 	O bella, e vaga Aurora,
 	L'aura è tua Messaggiera, e tu de l'aura
 	Ch'ogn'arso cor ristaura.
-@MVERSE_DATE:
 @MVERSE:
 	Ec--co mor-mo-rar-- l'on--de,				=a+
 	E tre-mo-lar-- le fron--de				=a+
@@ -2438,6 +2437,7 @@
 	O bel--la,_e va--ga_Au-ro--ra,				=f
 	L'au--ra_è-- tua Mes-sag-gie--ra,_e tu de l'au--ra	=F+
 	Ch'o-gn'ar--so cor ri-stau--ra.				=f
+@FVERSE:
 @TVERSE:
 	Here are the murmuring waves
 	And the trembling fronds
@@ -2503,7 +2503,6 @@
 	Sì che l'ascolti io solo,
 	Sol voi presenti e 'l signor nostro Amore,
 	Aure soavi ed Ore.
-@MVERSE_DATE:
 @MVERSE:
 	O--re, fer-ma--te_il vo--lo					=a
 	Nel lu--ci-do_o-rï-en--te					=b
@@ -2519,6 +2518,7 @@
 	Sì-- che l'a-scol--ti_io so--lo,				=a
 	Sol voi pre-sen--ti_e_'l si-gnor-- no--stro_A-mo--re,		=G
 	Au--re so-a--vi_ed O--re.					=g
+@FVERSE:
 @TVERSE:
 	Hours, halt your flight
 	In the shining Orient
@@ -2579,7 +2579,6 @@
 	Ma, s'amor forse è pregio
 	Onde nasce l'oblìo
 	Che non chiamate il corpo ov'è il cor mio?
-@MVERSE_DATE:
 @MVERSE:
 	Voi mi chie-de--ste_il co--re					=a
 	E par-ten--do_il por-ta--ste,					=b
@@ -2590,6 +2589,7 @@
 	Ma, s'a-mor-- for--se_è-- pre--gio				=c+
 	On--de na--sce l'ob-lì--o-					=e
 	Che non chia-ma--te_il cor--po_ov-'è_il-- cor mi--o?		=E
+@FVERSE:
 @TVERSE:
 	You asked me for my heart
 	And, leaving, you took it [with you],
@@ -2645,7 +2645,6 @@
 	Dunque il cor mi rendete,
 	Che, perché in me respiri,
 	Non fia men vostro in tutti i suoi desiri.
-@MVERSE_DATE:
 @MVERSE:
 	S'a sde--gno voi pren-de--te				=a
 	Ch'il cor vo--stro vi chie--da,				=b
@@ -2656,6 +2655,7 @@
 	Dun--que_il cor mi ren-de--te,				=a
 	Che, per-ché_in-- me re-spi--ri,			=c
 	Non fia men vo--stro_in tut--ti_i suoi de-si--ri.	=C
+@FVERSE:
 @TVERSE:
 	If you turn to disdain
 	Because I ask for your heart,
@@ -2711,7 +2711,6 @@
 	Dunque, privo del vero,
 	L'abbia almen finta il senso
 	Perch'io rimiri in voi mentre vi penso.
-@MVERSE_DATE:
 @MVERSE:
 	Se l'i-ma--gi-ne vo--stra				=a+
 	In me di-pin--ge_A-mo--re,				=b
@@ -2722,6 +2721,7 @@
 	Dun--que, pri--vo del ve--ro,				=c
 	L'ab--bia_al-men-- fin--ta_il sen--so			=e
 	Per-ch'io-- ri-mi--ri_in voi men--tre vi pen--so.	=E
+@FVERSE:
 @TVERSE:
 	If Love paints
 	Your image within me,
@@ -2777,7 +2777,6 @@
 	Perché l'annoia ciascun'altra parte;
 	Onde sol per virtù del pensier mio
 	Mentre ne vengo a voi con voi son io.
-@MVERSE_DATE:
 @MVERSE:
 	Don--na, nel mio ri-tor--no				=a
 	Il mio pen-sie--ro_a cui nul--la pon fre--no		=A+
@@ -2788,6 +2787,7 @@
 	Per-ché-- l'an-no--ia cias-cun'--al--tra par--te;	=B
 	On--de sol per vir-tù-- del pen-sier-- mi--o		=C
 	Men--tre ne ven--go_a voi con voi son i--o.		=C
+@FVERSE:
 @TVERSE:
 	Lady, during my return,
 	My thought which nothing can restrain
@@ -2851,7 +2851,6 @@
 	Faccia il mio stratio i suoi desir contenti;
 	Ben fia pietà, ch'io la riveggia almeno,
 	Non dico pia, ma disdegnosa e cruda.
-@MVERSE_DATE:
 @MVERSE:
 	D'a--ria_un tem--po nu-drim--mi,_e ci--bo_e vi--ta		=A+
 	L'au--ra mi fu che d'un bel vol--to spi--ra;			=B
@@ -2870,6 +2869,7 @@
 	Fac--cia_il mio stra--tio_i suoi de-sir-- con-ten--ti;		=C
 	Ben fia pie-tà,-- ch'io la ri-veg--gia_al-me--no,		=E
 	Non di--co pia, ma di-sde--gno-sa_e cru--da.			=D
+@FVERSE:
 @TVERSE:
 	At one time the air nourished me, and food and life
 	Were for me the breath that a lovely face exhaled;
@@ -2969,7 +2969,6 @@
 	O s'estingua il mio foco o spiri l'aura,
 	O s'adombrino i raggi o cresca il rivo,
 	E se scalda la fiamma instilli il fonte.
-@MVERSE_DATE:
 @MVERSE:
 	Poi che non spi--ra_al mio so-a--ve fo--co,		=A
 	A-mor,-- co--me so-lea,-- pla--ci-da l'au--ra,		=B
@@ -3016,6 +3015,7 @@
 	O s'e-stin--gua_il mio fo--co_o spi--ri l'au--ra,	=B
 	O s'a-dom--bri-no_i rag--gi_o cre--sca_il ri--vo,	=E
 	E se scal--da la fiam--ma_in-stil--li_il fon--te.	=D
+@FVERSE:
 @TVERSE:
 	Since over my pleasant fire,
 	Love, the calm air no longer blows as it once did,
@@ -3117,7 +3117,6 @@
 	Troppo spinse pungenti a dentro i colpi
 	E troppo ardore accolse in picciol loco:
 	S'apparirà, natura e sé n'incolpi.
-@MVERSE_DATE:
 @MVERSE:
 	Vuol che l'a--mi co-stei,-- ma du--ro fre--no		=A+
 	Mi po--ne_an-cor-- d'asp--ro si-len--zio._Or qua--le	=B+
@@ -3136,6 +3135,7 @@
 	Trop--po spin--se pun-gen--ti_a den--tro_i col--pi	=E
 	E trop--po_ar-do--re_ac-col--se_in pic--ciol lo--co:	=D
 	S'ap-pa-ri-rà,-- na-tu--ra_e sé_n'--in-col--pi.		=E
+@FVERSE:
 @TVERSE:
 	She wants me to love her, but a severe restraint
 	She still places upon me of harsh silence. Now what
@@ -3199,7 +3199,6 @@
 	Ma, se fia che vi piaccia
 	Il mio silenzio, almeno
 	Il mostri un balenar d'occhi sereno.
-@MVERSE_DATE:
 @MVERSE:
 	Vor-rei-- la-gnar--mi_a pie--no				=a
 	Sfo-gan--do_il duol ch'io sen--to,			=b
@@ -3210,6 +3209,7 @@
 	Ma, se fia che vi piac--cia				=c+
 	Il mio si-len--zio,_al-me--no				=a
 	Il mo--stri_un ba-le-nar-- d'oc--chi se-re--no.		=A
+@FVERSE:
 @TVERSE:
 	I would like to complain in full,
 	Venting the pain that I feel,
@@ -3265,7 +3265,6 @@
 	E prego Amor che spieghi
 	Nel mio doglioso aspetto
 	Con lettre di pietà l'occulto affetto.
-@MVERSE_DATE:
 @MVERSE:
 	Se tac--cio,_il duol s'a-van--za;			=a
 	Se par--lo,_ac-cre--sco l'i--ra,			=b
@@ -3276,6 +3275,7 @@
 	E pre--go_A-mor-- che spie--ghi				=c+
 	Nel mio do-glio--so_a-spet--to				=d+
 	Con let--tre di pie-tà-- l'oc-cul--to_af-fet--to.	=D
+@FVERSE:
 @TVERSE:
 	If I am silent, the pain advances;
 	If I speak, I increase the anger,
@@ -3330,7 +3330,6 @@
 	Bramo sì, ma vendetta:
 	E se pur dee gioir, non per amore
 	Ma per disdegno omai gioisca il core.
-@MVERSE_DATE:
 @MVERSE:
 	Don--na, quel--la sa-et--ta,				=a+
 	On--de già-- mi per-cos--se_il mio si-gno--re,		=B+
@@ -3345,6 +3344,7 @@
 	Bra--mo sì,-- ma ven-det--ta:				=a
 	E se pur dee gio-ir,-- non per a-mo--re			=B
 	Ma per di-sde--gno_o-mai-- gio-i--sca_il co--re.	=B
+@FVERSE:
 @TVERSE:
 	Lady, that arrow,
 	With which my lord already struck me,
@@ -3408,7 +3408,6 @@
 	Or che far non potria quel dolce lume,
 	Se fa, d'ond'egli parte, ov'egli stassi,
 	Civili i boschi e le città selvagge?
-@MVERSE_DATE:
 @MVERSE:
 	Or che l'au--ra mia dol--ce_al-tro--ve spi--ra			=A
 	Fra sel--ve_e cam--pi,_ahi, ben di fer--ro_ha_'l co--re		=B+
@@ -3427,6 +3426,7 @@
 	Or che far non po-tria-- quel dol--ce lu--me,			=E
 	Se fa, d'on-d'e--gli par--te,_o-v'e--gli stas--si,		=D+
 	Ci-vi--li_i bos--chi_e le cit-tà-- sel-vag--ge?			=C
+@FVERSE:
 @TVERSE:
 	Now that my breath blows sweetly elsewhere
 	Among forests and fields, alas, [made] of iron is the heart
@@ -3489,7 +3489,6 @@
 	Voi di fronde e di fiori ed io di rime:
 	E mentre io sua beltà lodo ed onoro,
 	Cingete a Laura voi le trecce d'oro.
-@MVERSE_DATE:
 @MVERSE:
 	Va--ghe Nin--fe del Po, Nin--fe so-rel--le,		=A
 	E voi de' bos--chi_e voi d'on--da ma-ri--na		=B
@@ -3499,6 +3498,7 @@
 	Voi di fron--de_e di fio--ri_ed io di ri--me:		=C
 	E men--tre_io sua bel-tà-- lo--do_ed o-no--ro,		=D
 	Cin-ge--te_a Lau--ra voi le trec--ce d'o--ro.		=D
+@FVERSE:
 @TVERSE:
 	Fair Nymphs of the Po, Nymph sisters,
 	And you of the woods and you from the sea waves
@@ -3562,7 +3562,6 @@
 	Provinsi in vera pugna, e non si sdegni
 	Scontro d'amante. Amor, me, tuo devoto,
 	Opponi a l'una, o fra le due fa terzo.
-@MVERSE_DATE:
 @MVERSE:
 	Di net-ta--re_a-mo-ro--so_e--bro la men--te			=A
 	Rap--to fui, né-- so co--me,_in chiu--sa chio--stra,		=B
@@ -3581,6 +3580,7 @@
 	Pro-vin--si_in ve--ra pu--gna,_e non si sde--gni		=C+
 	Scon--tro d'a-man--te._A-mor,-- me, tuo de-vo--to,		=D+
 	Op-po--ni_a l'u--na,_o fra le due fa ter--zo.			=E
+@FVERSE:
 @TVERSE:
 	[With] my mind drunk on love’s nectar,
 	I was captured, and know not how, in a sealed cloister,
@@ -3652,7 +3652,6 @@
 	&mdash; Lasso, deh chi m'inganna? &mdash; allor  diss'io; &mdash;
 	Lumi sereni de l'oscura vita,
 	S'erro, vostra è la colpa e 'l danno è mio. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	E--ran ve-la--ti_i cre--spi_e bion--di cri--ni,					=A
 	E_'l bel ver-mi--glio_e can--di-do co-lo--re,					=B
@@ -3671,6 +3670,7 @@
 	&mdash; Las--so, deh chi m'in-gan--na?_&mdash;_al-lor-- dis-s'i--o; &mdash;	=E
 	Lu--mi se-re--ni de l'o-scu--ra vi--ta,						=D
 	S'er--ro, vo--stra_è-- la col--pa_e_'l dan--no_è-- mi--o. &mdash;		=E
+@FVERSE:
 @TVERSE:
 	Veiled were her blond and curly locks,
 	And her lovely cherry and white coloring,
@@ -3739,7 +3739,6 @@
 	Ma se nel lieto aprile
 	Rinverdir al mio crin non dee corona,
 	Secchisi anco Permesso in Elicona.
-@MVERSE_DATE:
 @MVERSE:
 	Sec--co_è-- l'ar--bor gen-ti--le			=a+
 	Che mai le fron--di_e_'l ver--de			=b
@@ -3755,6 +3754,7 @@
 	Ma se nel lie--to_a-pri--le				=a
 	Rin-ver-dir-- al mio crin non dee co-ro--na,		=F
 	Sec--chi-si_an-co-- Per-mes--so_in E-li-co--na.		=F
+@FVERSE:
 @TVERSE:
 	Dry is the gentle tree
 	That never loses it leafy branches and its green
@@ -3811,7 +3811,6 @@
 	Tien viva l'onta del mio duol negletto;
 	E le fronde ne svelle
 	Del vostro lauro, or secche e già sì belle.
-@MVERSE_DATE:
 @MVERSE:
 	Fum--mo_un tem--po fe-li--ci				=a
 	Io a-man--te_ed a-ma--to,				=b
@@ -3824,6 +3823,7 @@
 	Tien vi--va l'on--ta del mio duol ne-glet--to;		=B
 	E le fron--de ne svel--le				=e
 	Del vo--stro lau--ro,_or sec--che_e già sì-- bel--le.	=E
+@FVERSE:
 @TVERSE:
 	We were once happy,
 	I, lover and beloved;
@@ -3877,7 +3877,6 @@
 	Perché 'l mio don di voi stimaste indegno:
 	Questa seccò le chiome
 	Del lauro ond'onorava il vostro nome.
-@MVERSE_DATE:
 @MVERSE:
 	Ar--si men--tre m'a-ma--ste,					=a
 	Ed al cor-te--se_af-fet--to					=b
@@ -3890,6 +3889,7 @@
 	Per-ché_'l-- mio don di voi sti-ma--ste_in-de--gno:		=E
 	Que--sta sec-cò-- le chio--me					=f
 	Del lau--ro_on-d'o-no-ra--va_il vo--stro no--me.		=F
+@FVERSE:
 @TVERSE:
 	I burned while you loved me,
 	And to graceful affection
@@ -3944,7 +3944,6 @@
 	Quivi le reti asconde,
 	Né 'n parte più secreta,
 	Stanco di saettare, Amor s'acqueta.
-@MVERSE_DATE:
 @MVERSE:
 	La gio-vi-net--ta scor--za,					=a+
 	Ch'in-vol--ge_il tron--co_e_i ra--mi				=b
@@ -3958,6 +3957,7 @@
 	Qui--vi le re--ti_a-scon--de,					=c
 	Né_'n par--te più-- se-cre--ta,					=e
 	Stan--co di sa-et-ta--re,_A-mor-- s'ac-que--ta.			=E
+@FVERSE:
 @TVERSE:
 	The youthful bark
 	That covers the trunk and the branches
@@ -4016,7 +4016,6 @@
 	Quasi voglian dire &mdash; In questi rivi,
 	O intorno a queste linfe
 	Ti vagheggian le Ninfe. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Sov--ra le ver--di chio--me					=a
 	Di que--sto no--vo Lau--ro,_u-di--te co--me			=A
@@ -4032,6 +4031,7 @@
 	Qua--si vo--glian di--re &mdash; In que--sti ri--vi,		=G
 	O_in-tor--no_a que--ste lin--fe					=h
 	Ti va-gheg-gian-- le Nin--fe. &mdash;				=h
+@FVERSE:
 @TVERSE:
 	Above the green foliage
 	Of this new Laurel, hear how
@@ -4088,7 +4088,6 @@
 	E i sussurranti augelli, in fra le fronde
 	Al mormorar de l'onde: e vaghi fiori
 	Donan le Grazie a i pargoletti Amori.
-@MVERSE_DATE:
 @MVERSE:
 	Fe-li--ce pri-ma-ve--ra					=a+
 	Di bei pen-sier-- fio-ri--sce nel mio co--re		=B
@@ -4100,6 +4099,7 @@
 	E_i sus-sur-ran--ti_au-gel--li,_in fra le fron--de	=F
 	Al mor-mo-rar-- de l'on--de:_e va--ghi fio--ri		=G+
 	Do--nan le Gra--zie_a_i par-go-let--ti_A-mo--ri.	=G
+@FVERSE:
 @TVERSE:
 	A happy spring
 	Of beautiful thoughts blooms in my heart
@@ -4151,7 +4151,6 @@
 	Pepe nel lauro tra le verdi foglie!
 	Ond'amor e natura ed arte unite
 	Fanno amicizia e lite.
-@MVERSE_DATE:
 @MVERSE:
 	Chi la fe-li--ce pian--ta d'o-rï-en--te			=A
 	Por-tò-- ne l'oc-ci-den--te?				=a
@@ -4162,6 +4161,7 @@
 	Pe--pe nel lau--ro tra le ver--di fo--glie!		=C
 	On-d'a-mor-- e na-tu--ra_ed ar--te_u-ni--te		=D+
 	Fan--no_a-mi-ci--zia_e li--te.				=d
+@FVERSE:
 @TVERSE:
 	Who brought the happy plant from the Orient
 	To the Occident?
@@ -4211,7 +4211,6 @@
 	Fra la chioma novella
 	L'aura con dolci errori
 	Scherzi mai sempre e i pargoletti Amori.
-@MVERSE_DATE:
 @MVERSE:
 	Pic+cio-la ver+ga_e bel+la				=a
 	D'al-lo+ro trï-on-fa+le,				=b
@@ -4222,6 +4221,7 @@
 	Fra la chio+ma no-vel+la				=a
 	L'au+ra con dol+ci_er-ro+ri				=d+
 	Scher+zi mai sem+pre_e_i par-go-let+ti_A-mo+ri.		=D
+@FVERSE:
 @TVERSE:
 	Small and beautiful branch
 	Of the triumphal laurel,
@@ -4272,7 +4272,6 @@
 	Tal c'hai l'aprile eterno:
 	Perpetua primavera hai nel bel viso
 	E 'l sole è il dolce riso.
-@MVERSE_DATE:
 @MVERSE:
 	Gia-mai+ più dol+ce rag+gio			=a+
 	Non spie+ga_il so+le_in un fio-ri+to mag+gio	=A
@@ -4282,6 +4281,7 @@
 	Tal c'hai l'a-pri+le_e-ter+no:			=c
 	Per-pe+tua pri-ma-ve+ra_hai nel bel vi+so	=D
 	E_'l so+le_è_il dol+ce ri+so.			=d
+@FVERSE:
 @TVERSE:
 	Never does the sun a sweeter ray
 	Reveal in a flowery May
@@ -4338,7 +4338,6 @@
 	Lasso, io rimasi allor qual peregrino
 	A cui s'annotti in valli orride e cupe
 	Mentre monti di neve il turbo mesce.
-@MVERSE_DATE:
 @MVERSE:
 	Ne--gro_e--ra_in-tor--no_e_'n bian--che fal--de_il cie--lo	=A
 	Pio-vea-- con-ver--so, quan--do_in al--to_a-sce--se		=B+
@@ -4357,6 +4356,7 @@
 	Las--so,_io ri-ma--si_al-lor-- qual pe-re-gri--no		=C
 	A cui s'an-not--ti_in val--li_or--ri-de_e cu--pe		=D
 	Men--tre mon--ti di ne--ve_il tur--bo me--sce.			=E
+@FVERSE:
 @TVERSE:
 	It was black all around and in white folds the sky
 	Poured rain, when up high ascended
@@ -4414,7 +4414,6 @@
 	E la sua voce al tuo nome rischiara!
 	Felici que' boschetti
 	Ch'insegni risonarli e que' poggetti!
-@MVERSE_DATE:
 @MVERSE:
 	Gli_au-gel-let--ti di-ver--si				=a+
 	Al tuo ve-nir,-- Li-co--ri,				=b+
@@ -4426,6 +4425,7 @@
 	E la sua vo--ce_al tuo no--me ri-schia--ra!		=D
 	Fe-li--ci que' bos-chet--ti				=c+
 	Ch'in-se--gni ri-so-nar--li_e que' pog-get--ti!		=C
+@FVERSE:
 @TVERSE:
 	Many little birds,
 	To your coming, Lycoris,
@@ -4480,7 +4480,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Questa è la scuola ov'è maestro Amore!
 	Deh! perché non apprendo i bei lamenti
 	Ne' miei dolci tormenti? &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Men--tre_i di-pin--ti_au-gel--li,			=a
 	Ca--ra Li-co--ri mi--a,					=b
@@ -4492,6 +4491,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Que--sta_è la scuo--la_o-v'è-- ma-e--stro_A-mo--re!	=D
 	Deh! per-ché-- non ap-pren--do_i bei la-men--ti		=C
 	Ne' miei dol--ci tor-men--ti? &mdash;			=c
+@FVERSE:
 @TVERSE:
 	While the colorful birds,
 	Dear Lycoris mine,
@@ -4543,7 +4543,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Seguìa Ninfa selvaggia,
 	Quando m'aggiunse, e con soavi baci
 	Mi disse: &mdash; or prendi e taci. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Sov--ra l'er-bet--te_e_i fio--ri			=a
 	Fug--gia tut--to smar-ri--to				=b+
@@ -4553,6 +4552,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Se-guìa-- Nin--fa sel-vag--gia,				=c
 	Quan--do m'ag-giun--se,_e con so-a--vi ba--ci		=D
 	Mi dis--se:_&mdash;_or pren--di_e ta--ci. &mdash;	=d
+@FVERSE:
 @TVERSE:
 	Over delicate grasses and flowers
 	I fled, completely lost,
@@ -4600,7 +4600,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Perché dir non saprei,
 	S'ebbi vita più dolce o morte in lei;
 	Ma vita se parlò, morte se tacque.
-@MVERSE_DATE:
 @MVERSE:
 	Fug-gìa-- di pog--gio_in pog--gio			=a
 	La mia dol--ce ne-mi--ca,				=b
@@ -4610,6 +4609,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Per-ché-- dir non sap-re--i,				=d
 	S'eb--bi vi--ta più-- dol--ce_o mor--te_in le--i;	=D
 	Ma vi--ta se par-lò,-- mor--te se tac--que.		=C
+@FVERSE:
 @TVERSE:
 	From knoll to knoll
 	I fled my sweet enemy,
@@ -4659,7 +4659,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Morte perché diviso
 	Fui da me stesso, e vita,
 	Perché l'alma felice è seco unita.
-@MVERSE_DATE:
 @MVERSE:
 	Qual cer--vo_er-ran--do suo--le					=a+
 	Fug-gir-- sa-et--te_o dar--di,					=b
@@ -4671,6 +4670,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Mor--te per-ché-- di-vi--so					=c+
 	Fui da me stes--so,_e vi--ta,					=d
 	Per-ché-- l'al--ma fe-li--ce_è-- se--co_u-ni--ta.		=D
+@FVERSE:
 @TVERSE:
 	Like the wandering deer wont
 	To flee darts or arrows,
@@ -4720,7 +4720,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Rassomigliate voi gli occhi lucenti.
 	Luci serene e liete,
 	Sento la fiamma lor mentre splendete. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Al lu--me del--le stel--le					=a
 	Tir--si sot--to_un al-lo--ro					=b+
@@ -4730,6 +4729,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ras-so-mi-glia--te voi gli_oc--chi lu-cen--ti.			=C
 	Lu--ci se-re--ne_e lie--te,					=d+
 	Sen--to la fiam--ma lor men--tre splen-de--te. &mdash;		=D
+@FVERSE:
 @TVERSE:
 	In the light of the stars
 	Thyrsis under a laurel
@@ -4779,7 +4779,6 @@ The earliest written appearance of this poem is in a literary print published in
 	E seco insieme impallidir anch'io,
 	Seco mutar sembiante,
 	Avventuroso amante.
-@MVERSE_DATE:
 @MVERSE:
 	Io vi--di già-- sot--to l'ar-den--te so--le		=A+
 	Dis-co-lo-ri--ti_i fio--ri				=b
@@ -4790,6 +4789,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E se--co_in-sie--me_im-pal-li-dir-- an-ch'i--o,		=C
 	Se--co mu-tar-- sem-bian--te,				=d
 	Av-ven-tu-ro--so_a-man--te.				=d
+@FVERSE:
 @TVERSE:
 	I saw already, under the burning sun,
 	The flowers blanch
@@ -4842,7 +4842,6 @@ The earliest written appearance of this poem is in a literary print published in
 	O lusinghera o schiva;
 	E se mi segui o fuggi
 	Soavemente mi consumi e struggi.
-@MVERSE_DATE:
 @MVERSE:
 	Vi--ta de la mia vi--ta,				=a+
 	Tu mi so-mi--gli pal-li-det--ta_o-li--va		=B
@@ -4852,6 +4851,7 @@ The earliest written appearance of this poem is in a literary print published in
 	O lu-sin-ghe--ra_o schi--va;				=b
 	E se mi se--gui_o fug--gi				=d
 	So-a-ve-men--te mi con-su--mi_e strug--gi.		=D
+@FVERSE:
 @TVERSE:
 	Life of my life,
 	You resemble me, barely pale olive,
@@ -4903,7 +4903,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Contentezza e diletto,
 	E tranquilla quïete e stabil pace,
 	E gioia eterna con piacer verace.
-@MVERSE_DATE:
 @MVERSE:
 	A-mor,-- ch'a--spro tor-men--to				=a+
 	Sei fra' mor-ta--li_in ter--ra,				=b
@@ -4915,6 +4914,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Con-ten-tez--za_e di-let--to,				=a
 	E tran-quil--la quï-e--te_e sta-bil- pa--ce,		=D
 	E gio--ia_e-ter--na con pia-cer-- ve-ra--ce.		=D
+@FVERSE:
 @TVERSE:
 	Love, what bitter torment
 	You are among mortals on earth,
@@ -4972,7 +4972,6 @@ The earliest written appearance of this poem is in a literary print published in
 	E tu picciolo sei,
 	Ma pur gli uomini in terra col tuo pianto
 	E 'n ciel desti gli dèi. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Men--tre_in grem--bo_a la ma--dre_A-mo--re_un gior--no		=A+
 	Dol-ce-men--te dor-mi--va,					=b
@@ -4988,6 +4987,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E tu pic--cio-lo se--i,						=g
 	Ma pur gli_uo--mi-ni_in ter--ra col tuo pian--to		=F
 	E_'n ciel de--sti gli dè--i. &mdash;				=g
+@FVERSE:
 @TVERSE:
 	While, in his mother’s lap, Love one day
 	Was sweetly sleeping,
@@ -5042,7 +5042,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Racconta a la mia donna e queste e quelle;
 	E di' ch'io vivo a ciò che resti in vita
 	La mia doglia infinita.
-@MVERSE_DATE:
 @MVERSE:
 	A-mor,-- che qui d'in-tor--no				=a+
 	Or fai ben mil--le scher--zi_e mil--le gi--ri,		=B
@@ -5053,6 +5052,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Rac-con--ta_a la mia don--na_e que--ste_e quel--le;	=D
 	E di' ch'io vi--vo_a ciò-- che re--sti_in vi--ta	=E+
 	La mia do--glia_in-fi-ni--ta.				=e
+@FVERSE:
 @TVERSE:
 	[You], Love, who around here
 	Now make a least a thousand tricks and a thousand glances,
@@ -5105,7 +5105,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Debbon di quel martire onde m'affliggi,
 	Dimostrin le labbra e le mie gote
 	Di cari baci impresse ardenti note.
-@MVERSE_DATE:
 @MVERSE:
 	Ar--di,_A-mor,-- se ti pia--ce,				=a+
 	L'al--ma mia non che_'l fian--co,			=b
@@ -5119,6 +5118,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Deb--bon di quel mar-ti--re_on--de m'af-flig--gi,	=E
 	Di-mo--strin le lab--bra_e le mi--e go--te		=F+
 	Di ca--ri ba--ci_im-pres--se_ar-den--ti no--te.		=F
+@FVERSE:
 @TVERSE:
 	Burn, Love, if it pleases you,
 	My soul as well as my flesh,
@@ -5172,7 +5172,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Facea ne l'onde amare un dolce scorno;
 	E pien di maraviglia
 	Dicea &mdash; felice preda! o chi la piglia? &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	So-let--to_A-mor-- ten-de--a,					=a+
 	Qual pe-sca-tor,-- le re--ti					=b
@@ -5182,6 +5181,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Fa-cea-- ne l'on--de_a-ma--re_un dol--ce scor--no;		=C
 	E pien di ma-ra-vi--glia					=d
 	Di-cea-- &mdash; fe-li--ce pre--da!_o chi la pi--glia? &mdash;	=D
+@FVERSE:
 @TVERSE:
 	All alone, Love cast,
 	Like a fisherman, his nets
@@ -5233,7 +5233,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Tormi la vista or che m'hai tolto il core?
 	E perché io non gioisca al foco ond'ardo
 	Con tre lumi abbagliarmi a un vago sguardo!
-@MVERSE_DATE:
 @MVERSE:
 	Men--tre vol-gea_'l-- mio so--le			=a+
 	Lu--ci-do spec--chio_al sol, co-sì-- l'ac-ce--se	=B
@@ -5244,6 +5243,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Tor--mi la vi--sta_or che m'hai tol--to_il co--re?	=D
 	E per-ché_io-- non gio-i--sca_al fo--co_on-d'ar--do	=E
 	Con tre lu--mi_ab-ba-gliar--mi_a_un va--go sguar--do!	=E
+@FVERSE:
 @TVERSE:
 	While my sun turned
 	A shining mirror to the sun, it so [brightly] lit it
@@ -5292,7 +5292,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Non è ferma nel core &mdash; :
 	Ma 'l varïar è così dolce e vago
 	Che d'altro io non m'appago.
-@MVERSE_DATE:
 @MVERSE:
 	Men--tre la don--na mia can-gian--do_a-spet--to		=A+
 	Di bian--co nel ver-mi--glio				=b+
@@ -5302,6 +5301,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Non è-- fer--ma nel co--re_&mdash;_:			=c
 	Ma_'l va-rï-ar-- è-- co-sì-- dol--ce_e va--go		=D
 	Che d'al--tro_io non m'ap-pa--go.			=d
+@FVERSE:
 @TVERSE:
 	While my lady, changing [her] appearance
 	From white to red,
@@ -5349,7 +5349,6 @@ The earliest written appearance of this poem is in a literary print published in
 	E quel vago candor sempre io vagheggio;
 	E perché vari segno al mio pensiero
 	È costante l'arciero.
-@MVERSE_DATE:
 @MVERSE:
 	Dol-cis--si-mi co-lo--ri,				=a+
 	Voi vi mu-ta--te,_ed i--o				=b+
@@ -5359,6 +5358,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E quel va--go can-dor-- sem--pre_io va-gheg--gio;	=D
 	E per-ché-- va--ri se--gno_al mio pen-sie--ro		=E
 	È-- co-stan--te l'ar-cie--ro.				=e
+@FVERSE:
 @TVERSE:
 	Sweetest colors,
 	You change yourselves, and I
@@ -5407,7 +5407,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Di cui più m'invaghisci ove più m'ardi,
 	Tanto sol questo mondo amaro e vile
 	Mi par grato e gentile.
-@MVERSE_DATE:
 @MVERSE:
 	Bel--la non è-- co-ste--i				=a
 	Ma la bel-ta--de_i-stes--sa,				=b
@@ -5418,6 +5417,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Di cui più-- m'in-va-ghi--sci_o--ve più-- m'ar--di,	=C
 	Tan--to sol que--sto mon--do_a-ma--ro_e vi--le		=E+
 	Mi par gra--to_e gen-ti--le.				=e
+@FVERSE:
 @TVERSE:
 	Beautiful she is not
 	But beauty itself,
@@ -5467,7 +5467,6 @@ The earliest written appearance of this poem is in a literary print published in
 	E non gli mancan le saette e 'l foco
 	Né gli mancar giammai,
 	Ché sono strali e fiamme i vostri rai.
-@MVERSE_DATE:
 @MVERSE:
 	Oc--chi leg-gia--dri_e bel--li,				=a
 	Nel vo--stro dol--ce ne--ro				=b
@@ -5478,6 +5477,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E non gli man--can le sa-et--te_e_'l fo--co		=C
 	Né gli man-car-- giam-ma--i,				=e
 	Ché so--no stra--li_e fiam--me_i vo--stri ra--i.	=E
+@FVERSE:
 @TVERSE:
 	Graceful and beautiful eyes,
 	In your sweet blackness
@@ -5526,7 +5526,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Nulla il tuo bel candore e i vaghi giri.
 	S'in me tu lieta giri
 	Sia la mia vita un sogno ed io contento.
-@MVERSE_DATE:
 @MVERSE:
 	O via più-- bian--ca_e fred--da				=a
 	Di lei che spes--so fa pa-rer-- men bel--le		=B+
@@ -5536,6 +5535,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Nul--la_il tuo bel can-do--re_e_i va--ghi gi--ri.	=D
 	S'in me tu lie--ta gi--ri				=d
 	Sia la mia vi--ta_un so--gno_ed io con-ten--to.		=C
+@FVERSE:
 @TVERSE:
 	O whiter and colder manner
 	Of she who often makes seem less beautiful,
@@ -5583,7 +5583,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma con fiamme e faville;
 	Tal ch'ogni freddo core
 	Arde ed avvampa d'amoroso ardore.
-@MVERSE_DATE:
 @MVERSE:
 	Più-- che Dï-a--na_è-- bel--la_e più-- mi pia--ce	=A+
 	Que--sta mia don--na,_an--zi mia vi--va fa--ce;		=A
@@ -5593,6 +5592,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma con fiam--me_e fa-vil--le;				=c
 	Tal ch'o--gni fred--do co--re				=d+
 	Ar--de_ed av-vam--pa d'a-mo-ro--so_ar-do--re.		=D
+@FVERSE:
 @TVERSE:
 	More beautiful than Diana and more pleasing to me is
 	This my lady, or rather my lively blaze;
@@ -5645,7 +5645,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Né di serici stami
 	La moverebbe ancor vago lavoro,
 	Né pur'il vello d'oro.
-@MVERSE_DATE:
 @MVERSE:
 	Per-ché-- la mia Dï-a--na,_an--zi_'l mio so--le,	=A+
 	An--zi la vi--ta mi--a,					=b+
@@ -5660,6 +5659,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Né-- di se--ri-ci sta--mi				=f+
 	La mo-ve-reb--be_an-cor-- va--go la-vo--ro,		=G
 	Né-- pur'-il vel--lo d'o--ro.				=g
+@FVERSE:
 @TVERSE:
 	Although my Diana, or rather my sun,
 	Or rather my life,
@@ -5713,7 +5713,6 @@ The earliest written appearance of this poem is in a literary print published in
 	E nel mio core aperto
 	La donna che me 'l cinge ed incatena
 	De' lacci ch'ella fa s'avvede a pena.
-@MVERSE_DATE:
 @MVERSE:
 	Al di-scio--glier d'un grop--po			=a
 	Mil--le_al cor me ne strin--se			=b+
@@ -5724,6 +5723,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E nel mio co--re_a-per--to			=c
 	La don--na che me_'l cin--ge_ed in-ca-te--na	=E+
 	De' lac--ci ch'el--la fa s'av-ve--de_a pe--na.	=E
+@FVERSE:
 @TVERSE:
 	With the untying of one knot
 	A thousand around my heart were tightened
@@ -5772,7 +5772,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Che ne sia l'alma uccisa;
 	Perch'ella vi desia
 	O in estremo crudele o in tutto pia.
-@MVERSE_DATE:
 @MVERSE:
 	Que--sta vo--stra pie-ta--te				=a+
 	Non re-fri-ge--rio_al co--re				=b
@@ -5782,6 +5781,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Che ne sia l'al--ma_uc-ci--sa;				=c
 	Per-ch'el--la vi de-si--a				=d
 	O_in e-stre--mo cru-de--le_o_in tut--to pi--a.		=D
+@FVERSE:
 @TVERSE:
 	This compassion of yours
 	Brings not respite to my heart
@@ -5833,7 +5833,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma s'amarmi negate,
 	Morirò disperato
 	Per non amarvi non essendo amato.
-@MVERSE_DATE:
 @MVERSE:
 	A-ma--te-mi, ben mi--o,				=a
 	Per-ché-- sde--gna_il mio co--re		=b+
@@ -5844,6 +5843,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma s'a-mar--mi ne-ga--te,			=c
 	Mo-ri-rò-- dis-pe-ra--to			=e
 	Per non a-mar--vi non es-sen--do_a-ma--to.	=E
+@FVERSE:
 @TVERSE:
 	Love me, my dear,
 	Because my heart scorns
@@ -5894,7 +5894,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Dove fortuna darla a te non volle.
 	Oh dolce chiuder gli occhi,
 	S'avverrà che spirare in lui mi tocchi!
-@MVERSE_DATE:
 @MVERSE:
 	Già-- tu vo-la--sti quat--tro vol--te_e se--i		=A+
 	In quel pet--to sì-- mol--le,				=b+
@@ -5904,6 +5903,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Do--ve for-tu--na dar--la_a te non vol--le.		=B
 	Oh dol--ce chiu--der gli_oc--chi,			=c
 	S'av-ver-rà-- che spi-ra--re_in lui mi toc--chi!	=C
+@FVERSE:
 @TVERSE:
 	Already you flew four times and you are
 	In that so tender breast,
@@ -5962,7 +5962,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma se volesse il fato e la mia sorte
 	Che tutti quattro fossimo una cosa,
 	Oh che vita felice e glorïosa!
-@MVERSE_DATE:
 @MVERSE:
 	Se_'l vo--stro vol--to_è-- d'un'-a--ria gen-ti--le		=A
 	E_i bei vo--stri_oc--chi son due fiam--me_ar-den--ti,		=B
@@ -5979,6 +5978,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma se vo-les--se_il fa--to_e la mia sor--te			=G+
 	Che tut--ti quat--tro fos--si-mo_u--na co--sa,			=H
 	Oh che vi--ta fe-li--ce_e glo-rï-o--sa!				=H
+@FVERSE:
 @TVERSE:
 	If your face is as a gentle breeze
 	And your beautiful eyes are two burning flames,
@@ -6037,7 +6037,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Mi trassero del cor mille sospiri;
 	Ond'io con dolci ed amorosi rai
 	Pietà, pietà, gridai.
-@MVERSE_DATE:
 @MVERSE:
 	Men-tr'io-- mi-ra--va fi--so				=a+
 	De la mia don--na gli_oc--chi_ar-den--ti_e bel--li,	=B
@@ -6049,6 +6048,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Mi tras--se-ro del cor mil--le so-spi--ri;		=C
 	On-d'io-- con dol--ci_ed a-mo-ro--si ra--i		=E
 	Pie-tà,-- pie-tà,-- gri-da--i.				=e
+@FVERSE:
 @TVERSE:
 	While I gazed raptly
 	At the ardent and beautiful eyes of my lady,
@@ -6097,7 +6097,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Bella, amorosa e pia;
 	E mentr'io stendo sovra te la mano
 	La mi stringe pian piano.
-@MVERSE_DATE:
 @MVERSE:
 	Sie--pe, che gli_or--ti va--ghi				=a
 	E me da me di-vi--di,					=b
@@ -6106,6 +6105,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Bel--la,_a-mo-ro--sa_e pi--a;				=c
 	E men-tr'io-- sten--do sov--ra te la ma--no		=D
 	La mi strin--ge pian pia--no.				=d
+@FVERSE:
 @TVERSE:
 	Hedge, which the lovely gardens
 	And me from myself divide,
@@ -6152,7 +6152,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Pietosamente fra 'l mio petto e lei,
 	Siepe, siepe crudele,
 	Al suon de le dolcissime querele.
-@MVERSE_DATE:
 @MVERSE:
 	Sa-rai-- ter--mi-ne_an-co--ra,			=a
 	Co--me de' pas--si mi--ei,			=b
@@ -6162,6 +6161,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Pie-to-sa-men--te fra_'l mi--o pet--to_e lei,	=B
 	Sie--pe, sie--pe cru-de--le,			=d
 	Al suon de le dol-cis--si-me que-re--le.	=D
+@FVERSE:
 @TVERSE:
 	You will still be the boundary,
 	As of my steps,
@@ -6206,13 +6206,13 @@ The earliest written appearance of this poem is in a literary print published in
 	E v'è l'ago de l'api aspro crudele.
 	Dunque addolcito e punto
 	Da voi parto in un punto.
-@MVERSE_DATE:
 @MVERSE:
 	Ne_i vo--stri dol--ci ba--ci			=a+
 	De l'A--pi_è_il-- dol--ce me--le,		=b
 	E v'è-- l'a--go de l'a--pi_asp--ro cru-de--le.	=B
 	Dun--que_ad-dol-ci--to_e pun--to		=c+
 	Da voi par--to_in un pun--to.			=c
+@FVERSE:
 @TVERSE:
 	In your sweet kisses
 	Is the sweet honey of the bees
@@ -6266,7 +6266,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Fan del suo canto più dolce armonia.
 	Canto che m'ardi e piaci,
 	T'interrompano solo i nostri baci!
-@MVERSE_DATE:
 @MVERSE:
 	Non so--no_in que--ste ri--ve			=a+
 	Fio--ri co-sì-- ver-mi--gli,			=b+
@@ -6276,6 +6275,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Fan del suo can--to più-- dol--ce_ar-mo-ni--a.	=C
 	Can--to che m'ar--di_e pia--ci,			=d
 	T'in-ter-rom--pa-no so--lo_i no--stri ba--ci!	=D
+@FVERSE:
 @TVERSE:
 	There are not, upon these shores,
 	Flowers as red
@@ -6321,7 +6321,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Tutta tremante il delicato seno.
 	Mentre di bocca in bocca
 	L'anima per dolcezza allor vien meno!
-@MVERSE_DATE:
 @MVERSE:
 	So-a-vis--si-mo ba--cio,				=a
 	Del mio lun--go ser-vir-- con tan--ta fe--de		=B
@@ -6331,6 +6330,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Tut--ta tre-man--te_il de-li-ca--to se--no.		=E
 	Men--tre di boc--ca_in boc--ca				=d
 	L'a--ni-ma per dol-cez--za_al-lor-- vien me--no!	=E
+@FVERSE:
 @TVERSE:
 	Most pleasing kiss,
 	For my long service with much faith
@@ -6385,7 +6385,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Come una potrà dunque il mal fornire?
 	"<i>Ire</i>," Per ira mia né per dispetto
 	Non avrà fine amor nel nostro petto?
-@MVERSE_DATE:
 @MVERSE:
 	O ver--di sel--ve,_o dol--ci fon--ti,_o ri--vi,			=A
 	O luo--ghi_er--mi_e sel-vag--gi,				=b
@@ -6400,6 +6399,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Co--me_u--na po-trà-- dun--que_il mal for-ni--re?		=F
 	"<i>I--re</i>," Per i--ra mia né-- per di-spet--to		=C
 	Non av-rà-- fi--ne_a-mor-- nel no--stro pet--to?		=C
+@FVERSE:
 @TVERSE:
 	O green forests, o sweet springs, o streams,
 	O places secluded and wild,
@@ -6454,7 +6454,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma s'egli danno alcuno
 	Non ha tra fiamma e ghiaccio,
 	Perché tra l'uno e l'altro i' mi disfaccio?
-@MVERSE_DATE:
 @MVERSE:
 	Per-ché-- di se--no_in se--no				=a+
 	Co-sì-- tra-spor--ti,_A-mo--re,				=b+
@@ -6465,6 +6464,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma s'e--gli dan--no_al-cu--no				=a+
 	Non ha tra fiam--ma_e ghiac--cio,			=d
 	Per-ché-- tra l'u--no_e l'al--tro_i' mi di-sfac--cio?	=D
+@FVERSE:
 @TVERSE:
 	Why from breast to breast
 	Do you carry, Love,
@@ -6512,7 +6512,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Hanno i bei fiori ed io,
 	Non bramo di morir se non legato,
 	Ma 'n sì bel petto di morir desio.
-@MVERSE_DATE:
 @MVERSE:
 	Quel--la can--di-da ma--no				=a+
 	Ch'a mez--zo_il ver--no_i va--ghi fio--ri_ac-cin--se,	=B
@@ -6521,6 +6520,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Han--no_i bei fio--ri_ed i--o,				=d
 	Non bra--mo di mo-rir-- se non le-ga--to,		=C
 	Ma_'n sì-- bel pet--to di mo-rir-- de-si--o.		=D
+@FVERSE:
 @TVERSE:
 	That white hand,
 	Which in the middle of winter bound lovely flowers,
@@ -6567,7 +6567,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Benché non ami come fe' Narciso,
 	Ch'in quella forma almeno
 	Mi raccorrebbe la mia donna in seno? &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Sov--ra_un lu--ci-do ri--o				=a
 	Si do-lea-- per a-mo--re				=b+
@@ -6577,6 +6576,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ben-ché-- non a--mi co--me fe' Nar-ci--so,		=C
 	Ch'in quel--la for--ma_al-me--no			=d
 	Mi rac-cor-reb--be la mia don--na_in se--no? &mdash;	=D
+@FVERSE:
 @TVERSE:
 	Upon a clear river
 	Lamented, for love,
@@ -6628,7 +6628,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Occhi sereni e chiari,
 	Voi somigliar sovente
 	Fate quest'umil villa un orïente.
-@MVERSE_DATE:
 @MVERSE:
 	Non può-- l'an-gu--sto lo--co				=a+
 	Tra pi--ni_a-be--ti_e fag--gi				=b+
@@ -6640,6 +6639,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Oc--chi se-re--ni_e chia--ri,				=e
 	Voi so-mi-gliar-- so-ven--te				=f+
 	Fa--te que-st'u--mil vil--la_un o-rï-en--te.		=F
+@FVERSE:
 @TVERSE:
 	The cramped space cannot,
 	Among pines, firs, and beeches,
@@ -6688,7 +6688,6 @@ The earliest written appearance of this poem is in a literary print published in
 	E pare un fiume senza fondo o riva.
 	Voi siete il fonte, e 'l rio
 	De la vostra bellezza è 'l pianto mio.
-@MVERSE_DATE:
 @MVERSE:
 	Don--na, lun--ge da vo--i				=a
 	Vi--vo del mio do-lo--re,				=b
@@ -6697,6 +6696,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E pa--re_un fiu--me sen--za fon--do_o ri--va.		=C
 	Voi sie--te_il fon--te,_e_'l ri--o			=d+
 	De la vo--stra bel-lez--za_è_'l-- pian--to mi--o.	=D
+@FVERSE:
 @TVERSE:
 	Lady, far from you
 	I live in my sorrow,
@@ -6745,7 +6745,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Di rivedervi mai, luci divine;
 	Sol fine ha la speranza,
 	E nel fondo de' mali ognor avanza.
-@MVERSE_DATE:
 @MVERSE:
 	Lon-ta--no dal mio co--re			=a
 	In-fi-ni--to_è_'l-- do-lo--re,			=a
@@ -6757,6 +6756,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Di ri-ve-der--vi mai, lu--ci di-vi--ne;		=D
 	Sol fi--ne_ha la spe-ran--za,			=e
 	E nel fon--do de' ma--li_o-gnor-- a-van--za.	=E
+@FVERSE:
 @TVERSE:
 	Far from my heart
 	Endless is the sorrow,
@@ -6807,7 +6807,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Caro mio sì, ma non felice pegno;
 	Perché n'asciughi i lumi,
 	E ne pianga lontano e mi consumi.
-@MVERSE_DATE:
 @MVERSE:
 	O dol--ci la-gri-met--te,				=a+
 	Che già-- la don--na mia da' suoi be--gli_oc--chi,	=B+
@@ -6818,6 +6817,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ca--ro mio sì,-- ma non fe-li--ce pe--gno;		=D
 	Per-ché-- n'a-sciu--ghi_i lu--mi,			=e
 	E ne pian--ga lon-ta--no_e mi con-su--mi.		=E
+@FVERSE:
 @TVERSE:
 	O sweet little tears
 	That once my lady, from her beautiful eyes,
@@ -6865,7 +6865,6 @@ The earliest written appearance of this poem is in a literary print published in
 	E s'avverrà che nel felice giorno
 	La mia dolce speranza in me si moia,
 	Spero viver di gioia.
-@MVERSE_DATE:
 @MVERSE:
 	Lun--ge da gli_oc--chi vo--stri				=a
 	Io vi--vo del pen-sie--ro				=b+
@@ -6874,6 +6873,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E s'av-ver-rà-- che nel fe-li--ce gior--no		=C+
 	La mia dol--ce spe-ran--za_in me si mo--ia,		=D
 	Spe--ro vi--ver di gio--ia.				=d
+@FVERSE:
 @TVERSE:
 	Far from your eyes
 	I live of thought
@@ -6921,7 +6921,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Né quella algente brina
 	Struggo però, ma ne l'istesso loco
 	Manterrà fede eterna al gelo il foco.
-@MVERSE_DATE:
 @MVERSE:
 	Co--me cri-stal--lo_in mon--te				=a
 	L'or-go--glio_in voi s'in-du--ra,			=b
@@ -6932,6 +6931,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Né-- quel--la_al-gen--te bri--na			=c+
 	Strug--go pe-rò,-- ma ne l'i-stes--so lo--co		=D
 	Man-ter-rà-- fe--de_e-ter--na_al ge--lo_il fo--co.	=D
+@FVERSE:
 @TVERSE:
 	Like crystal within the mountain
 	Pride in you hardens itself,
@@ -6979,7 +6979,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Ne la sua fronte alberga e nel mio petto,
 	Né mai cangia ricetto
 	Sì ch'io l'abbia ne gli occhi, ella nel core.
-@MVERSE_DATE:
 @MVERSE:
 	Ge--lo_ha Ma-don--na_il se--no,_e fiam--ma_il vol--to;		=A
 	Io son ghiac--cio di fuo--re					=b
@@ -6988,6 +6987,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ne la sua fron--te_al-ber--ga_e nel mio pet--to,		=A
 	Né-- mai can--gia ri-cet--to					=a
 	Sì-- ch'io l'ab--bia ne gli_oc--chi,_el--la nel co--re.		=B
+@FVERSE:
 @TVERSE:
 	Ice has my lady [in] her breast, and flame [in] her face;
 	I am ice on the outside
@@ -7043,7 +7043,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Del piacer che vi porge il mio cordoglio.
 	Oh maraviglia!, e quasi avvien ch'allora
 	Per doglia no, ma per diletto io mora.
-@MVERSE_DATE:
 @MVERSE:
 	Voi bra-ma--te, ben mi--o,				=a+
 	Che m'uc-ci--da_il do-lo--re,				=b
@@ -7053,6 +7052,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Del pia-cer-- che vi por--ge_il mio cor-do--glio.	=C
 	Oh ma-ra-vi--glia!,_e qua--si_av-vien-- ch'al-lo--ra	=D+
 	Per do--glia no, ma per di-let--to_io mo--ra.		=D
+@FVERSE:
 @TVERSE:
 	You desire, my dear,
 	That suffering kill me,
@@ -7100,7 +7100,6 @@ The earliest written appearance of this poem is in a literary print published in
      	Altrui mi dona e lassa;
      	Ché tra’ pastori forse o tra’ bifolci
      	Avrò l’ore più dolci.
-@MVERSE_DATE:
 @MVERSE:
 	Don--na cor-te--se_e bel--la,				=a+
 	Deh! non vo-ler-- ch’io mo--ia				=b
@@ -7110,6 +7109,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Al-trui-- mi do--na_e las--sa;				=c
 	Ché-- tra’ pa-sto--ri for--se_o tra’ bi-fol--ci		=D
 	Av-rò-- l’o--re più-- dol--ci.				=d
+@FVERSE:
 @TVERSE:
 	Courteous and beautiful lady,
 	Oh! Do not wish that I die
@@ -7160,7 +7160,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Sono ne le catene insidïose?
 	Almen, chi sì m'allaccia,
 	Mi leghi ancor fra quelle dolci braccia.
-@MVERSE_DATE:
 @MVERSE:
 	Dol-cis--si-mi le-ga--mi				=a
 	Di pa-ro--le_a-mo-ro--se,				=b
@@ -7170,6 +7169,7 @@ The earliest written appearance of this poem is in a literary print published in
 	So--no ne le ca-te--ne_in-si-dï-o--se?			=B
 	Al-men,-- chi sì-- m'al-lac--cia,			=c+
 	Mi le--ghi_an-cor-- fra quel--le dol--ci brac--cia.	=C
+@FVERSE:
 @TVERSE:
 	Sweetest bonds
 	Of amorous words,
@@ -7217,7 +7217,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Già s'appressa il mio bene: oh dì felici!
 	Né, potendo tornar senza partita,
 	Mi piace che partì la cara vita.
-@MVERSE_DATE:
 @MVERSE:
 	Fug--gi, fug--gi, do-lor,-- da que--sto pet--to		=A
 	Or che vi tor--na la gio-io--sa spe--me;		=B
@@ -7227,6 +7226,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Già-- s'ap-pres--sa_il mio be--ne:_oh dì-- fe-li--ci!	=D
 	Né,-- po-ten--do tor-nar-- sen--za par-ti--ta,		=E
 	Mi pia--ce che par-tì-- la ca--ra vi--ta.		=E
+@FVERSE:
 @TVERSE:
 	Flee, flee, sorrow, from this chest
 	Now that joyous hope returns to you;
@@ -7276,7 +7276,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Mai non adempie Amor ogni mio affetto;
 	E sempre il mio piacere
 	Temprando va, perch'io maggior lo spere.
-@MVERSE_DATE:
 @MVERSE:
 	Già-- fu mia dol--ce spe--me				=a+
 	As-sai-- de--bi-le_e len--ta,				=b
@@ -7286,6 +7285,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Mai non a-dem--pie_A-mor-- o--gni mio_af-fet--to;	=C
 	E sem--pre_il mio pia-ce--re				=d+
 	Tem-pran--do va, per-ch'io-- mag-gior-- lo spe--re.	=D
+@FVERSE:
 @TVERSE:
 	Once was my sweet hope
 	Rather weak and slow,
@@ -7337,7 +7337,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Felice sì, ma tarda
 	Fora la sorte mia
 	Fra quel sì dolce odore e l'armonia.
-@MVERSE_DATE:
 @MVERSE:
 	So-a-vis--si-mo can--to,				=a
 	Oh pur t'o--da_u--na vol--ta				=b
@@ -7348,6 +7347,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Fe-li--ce sì,-- ma tar--da				=c+
 	Fo--ra la sor--te mi--a					=d
 	Fra quel sì-- dol--ce_o-do--re_e l'ar-mo-ni--a.		=D
+@FVERSE:
 @TVERSE:
 	Most pleasing song,
 	Oh even should I hear you one time
@@ -7396,7 +7396,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Era Amarilli, e Galatea con seco,
 	Pur come fiore accolto in verdi spoglie:
 	Ma chi le còlse? Amor quando le coglie.
-@MVERSE_DATE:
 @MVERSE:
 	Tra mil--le fior già-- col--ti_in dol--ce spe--co,	=A
 	Qua--si ro--sa non còl--ta,				=b+
@@ -7404,6 +7403,7 @@ The earliest written appearance of this poem is in a literary print published in
 	E--ra_A-ma-ril--li,_e Ga-la-tea-- con se--co,		=A
 	Pur co--me fio--re_ac-col--to_in ver--di spo--glie:	=C
 	Ma chi le còl--se?_A-mor-- quan--do le co--glie.	=C
+@FVERSE:
 @TVERSE:
 	Among a thousand flowers already picked in a sweet grotto,
 	Like an unpicked rose,
@@ -7450,7 +7450,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Or chi l'onora amando? &mdash;
 	E l'acque insieme e i rami: &mdash;
 	Or chi fia che l'onori e che non l'ami? &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Can-ta--va_in ri--va_al fiu--me					=a+
 	Tir--si d'E-le-o-no--ra,					=b
@@ -7461,6 +7460,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Or chi l'o-no--ra_a-man--do? &mdash;				=c
 	E l'ac--que_in-sie--me_e_i ra--mi: &mdash;			=e
 	Or chi fia che l'o-no--ri_e che non l'a--mi? &mdash;		=E
+@FVERSE:
 @TVERSE:
 	Singing upon the bank of the river,
 	Was Thyrsis, of ELEONORA,
@@ -7513,7 +7513,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Spero fontana divenir di pianto:
 	Allora in me vedrete
 	Quanto voi bella e quanto cruda sete. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	In un fon--te tran-quil--lo				=a
 	Si spec-chia--va Ne-e--ra,				=b
@@ -7523,6 +7522,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Spe--ro fon-ta--na di-ve-nir-- di pian--to:		=C
 	Al-lo--ra_in me ve-dre--te				=d+
 	Quan--to voi bel--la_e quan--to cru--da se--te. &mdash;	=D
+@FVERSE:
 @TVERSE:
 	In a tranquil spring
 	Neaera was mirrored,
@@ -7584,7 +7584,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Di morire,
 	S'io vedrò che poi
 	Il mio morir sia caro a gli occhi tuoi.
-@MVERSE_DATE:
 @MVERSE:
 	Già-- fui ca--ro_a gli_oc--chi tuo--i,			=a
 	O mio so--le;						=b
@@ -7606,6 +7605,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Di mo-ri--re,						=c
 	S'io ve-drò-- che po--i					=a+
 	Il mio mo-rir-- sia ca--ro_a gli_oc--chi tuo--i.	=A
+@FVERSE:
 @TVERSE:
 	Once I was dear to your eyes,
 	O my sun;
@@ -7668,7 +7668,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Dunque voi nel mirare
 	Siate più accorti, perché non conviene
 	Ch'io di vostro gioir porti le pene.
-@MVERSE_DATE:
 @MVERSE:
 	Oc--chi miei mal ac-cor--ti,				=a
 	A gran ra-gio--ne di voi sol mi do--glio,		=B
@@ -7679,6 +7678,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Dun--que voi nel mi-ra--re				=d+
 	Sia--te più_ac--cor--ti, per-ché-- non con-vie--ne	=E+
 	Ch'io di vo--stro gio-ir-- por--ti le pe--ne.		=E
+@FVERSE:
 @TVERSE:
 	Imprudent eyes of mine,
 	For great reason of you alone I am in pain,
@@ -7740,7 +7740,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Che ne l'udirla o vagheggiarle il volto
 	Il cor non vi sia tolto
 	E che ritorni al vostro petto mai?
-@MVERSE_DATE:
 @MVERSE:
 	Cor-re--te,_a-man--ti,_a le bel-lez--ze no--ve:		=A
 	Don--na, c'ha sì-- be--gli_oc--chi_e sì-- bel vol--to,	=B+
@@ -7761,6 +7760,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Che ne l'u-dir--la_o va-gheg-giar--le_il vol--to	=B+
 	Il cor non vi sia tol--to				=b
 	E che ri-tor--ni_al vo--stro pet--to ma--i?		=D
+@FVERSE:
 @TVERSE:
 	Run, lovers, to the new beauties;
 	Lady, who has such beautiful eyes and such a beautiful face
@@ -7827,7 +7827,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Sento un'aura in mezzo aprile
 	Sì soave, sì gentile,
 	Che fa dolce il mio tormento.
-@MVERSE_DATE:
 @MVERSE:
 	A-ma-ril--li, s'io te mi--ro,			=a
 	Mi--ro_il sol de gli_oc--chi mie--i:		=b
@@ -7843,6 +7842,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Sen--to_u-n'au--ra_in mez--zo_ap-ri--le		=f
 	Sì-- so-a--ve, sì-- gen-ti--le,			=f+
 	Che fa dol--ce_il mio tor-men--to.		=e
+@FVERSE:
 @TVERSE:
 	Amaryllis, if I look upon you
 	I look upon the sun of my eyes:
@@ -7899,7 +7899,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Se il mio foco vi piace
 	E s'io mostrarlo co' sospir m'ingegno,
 	Perché, crudel, così li avete a sdegno?
-@MVERSE_DATE:
 @MVERSE:
 	Voi vo-le--te ch'io v'a--mi				=a
 	E non vo-le--te che per voi so-spi--ri:			=B
@@ -7910,6 +7909,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Se_il mio fo--co vi pia--ce				=e
 	E s'io mo-strar--lo co' so-spir-- m'in-ge--gno,		=F
 	Per-ché,-- cru-del,-- co-sì-- li_a-ve--te_a sde--gno?	=F
+@FVERSE:
 @TVERSE:
 	You want that I love you
 	And do not want that I sigh for you:
@@ -7969,7 +7969,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Amate i vostri amanti
 	Or che 'l bel viso amato april v'infiora:
 	Primavera per voi non torna ognora.
-@MVERSE_DATE:
 @MVERSE:
 	Io son la Pri-ma-ve--ra,				=a
 	Che lie--ta,_o va--ghe don--ne,_a voi ri-tor--no	=B+
@@ -7988,6 +7987,7 @@ The earliest written appearance of this poem is in a literary print published in
 	A-ma--te_i vo--stri_a-man--ti				=f
 	Or che_'l bel vi--so_a-ma--to_a-pril-- v'in-fio--ra:	=A
 	Pri-ma-ve--ra per voi non tor--na_o-gno--ra.		=A
+@FVERSE:
 @TVERSE:
 	I am Spring,
 	Who happy, o lovely ladies, returns to you
@@ -8055,7 +8055,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma tu di lei che tanto, oimé!, ti piacque
 	Alquanto rendi il cor men crudo e fiero,
 	Ond'ei, vinto dal duol, non vegna manco.
-@MVERSE_DATE:
 @MVERSE:
 	Que--sto ri-po--sto bel va--go bo-schet--to		=A+
 	D'om-bro--si mir--ti_e d'in-do-ra--ti_al-lo--ri,	=B+
@@ -8074,6 +8073,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma tu di lei che tan--to,_oi-mé!,-- ti piac--que	=E+
 	Al-quan--to ren--di_il cor men cru--do_e fie--ro,	=C
 	On-d'ei,-- vin--to dal duol, non ve--gna man--co.	=D
+@FVERSE:
 @TVERSE:
 	This hidden, beautiful, and lovely grove
 	Of shady myrtles and gilded laurels,
@@ -8142,7 +8142,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma chi m'ode? a chi parlo? ove son io?
 	Lasso! ella altrove al caro Alcippo amato
 	S'asside in grembo e spregia l'ardor mio.
-@MVERSE_DATE:
 @MVERSE:
 	Qui do--ve_i sa--cri_e ver-deg-gian--ti_al-lo--ri		=A+
 	For-man-- di sè-- va--go bo-schet--to_om-bro--so,		=B
@@ -8161,6 +8160,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Ma chi m'o--de?_a chi par--lo?_o--ve son i--o?			=E
 	Las--so!_el--la_al-tro--ve_al ca--ro_Al-cip--po_a-ma--to		=D+
 	S'as-si--de_in grem--bo_e spre--gia l'ar-dor-- mi--o.		=E
+@FVERSE:
 @TVERSE:
 	Here, where the sacred green laurels
 	Form a lovely shady grove,
@@ -8229,7 +8229,6 @@ The earliest written appearance of this poem is in a literary print published in
 	Pèra il mondo e rovini: a me non cale
 	Se non di quel che più piace e diletta,
 	Ché se terra sarò terra ancor fui.
-@MVERSE_DATE:
 @MVERSE:
 	O--di, Fil--li, che tuo--na;_o--di che_'n ge--lo		=A+
 	Il va-por-- di las-sù-- con-ver--so pio--ve:			=B
@@ -8248,6 +8247,7 @@ The earliest written appearance of this poem is in a literary print published in
 	Pè--ra_il mon--do_e ro-vi--ni:_a me non ca--le			=D+
 	Se non di quel che più-- pia--ce_e di-let--ta,			=E
 	Ché-- se ter--ra sa-rò-- ter--ra_an-cor-- fu--i.		=C
+@FVERSE:
 @TVERSE:
 	Listen, Phyllis, how it thunders! Listen to how as ice
 	The vapor from above pours down as rain:
@@ -8324,7 +8324,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Io 'l sento, ohimé: da queste labbra amore
 	Per troncar la radice al viver mio
 	In dolcissimi baci il manda f&ocirc;re. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	A-min--ta, poi ch'a Fil--li non di-spiac--que			=A+
 	Del me-des--mo de-sir-- mo-strar--si_ac-ce--sa			=B
@@ -8343,6 +8342,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Io_'l sen--to,_ohi-mé:-- da que--ste lab--bra_a-mo--re		=D
 	Per tron-car-- la ra-di--ce_al vi--ver mi--o			=C
 	In dol-cis--si-mi ba--ci_il man--da f&ocirc+re. &mdash;	=D
+@FVERSE:
 @TVERSE:
 	Amyntas, since Phyllis was not averse
 	To showing herself aflame with the same desire
@@ -8402,7 +8402,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Concedi dunque l'una a i desir miei;
 	E fia modestia rara
 	Se donna a i divi d'agguagliarsi impara.
-@MVERSE_DATE:
 @MVERSE:
 	Tre son le Gra--zie_an-cel--le,				=a+
 	Se non è-- fal--so_il gri--do,				=b+
@@ -8413,6 +8412,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Con-ce--di dun--que l'u--na_a_i de-sir-- mie--i;	=C
 	E fia mo-de--stia ra--ra				=d+
 	Se don--na_a_i di--vi d'ag-gua-gliar--si_im-pa--ra.	=D
+@FVERSE:
 @TVERSE:
 	Three are the handmaiden Graces,
 	If not false is the rumor,
@@ -8470,7 +8470,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Chi coglie ad'una ad'una
 	Le tue lodi più elette?
 	Chi te ne tesse in rime ghirlandette?
-@MVERSE_DATE:
 @MVERSE:
 	Bru--na sei tu ma bel--la,				=a
 	Ed o--gni bel can-do--re				=b+
@@ -8481,6 +8480,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Chi co--glie_a-d'u--na_a-d'u--na			=c+
 	Le tue lo--di più_e--let--te?				=e
 	Chi te ne tes--se_in ri--me ghir-lan-det--te?		=E
+@FVERSE:
 @TVERSE:
 	Dark-haired you are but beautiful,
 	And every beautiful paleness
@@ -8531,7 +8531,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Né grido ancor vendetta
 	Perché son dolci e cari
 	I vostri sguardi avari.
-@MVERSE_DATE:
 @MVERSE:
 	Bel--la_e va--ga bru-net--ta,			=a
 	I vo--stri_oc--chi lu-cen--ti			=b+
@@ -8540,6 +8539,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Né-- gri--do_an-cor-- ven-det--ta		=a
 	Per-ché-- son dol--ci_e ca--ri			=c+
 	I vo--stri sguar--di_a-va--ri.			=c
+@FVERSE:
 @TVERSE:
 	Beautiful and lovely little dark-haired [lady],
 	Your shining eyes
@@ -8590,7 +8590,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Allor io mi chinai così pian piano,
 	E baciandole il viso
 	Provai quanta dolcezza ha il paradiso.
-@MVERSE_DATE:
 @MVERSE:
 	Dol-ce-men--te dor-mi--va la mia Clo--ri		=A
 	E_'n-tor--no_al suo bel vol--to				=b+
@@ -8602,6 +8601,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Al-lor-- io mi chi--nai co-sì-- pian pia--no,		=E
 	E ba-cian--do-le_il vi--so				=f+
 	Pro-vai-- quan--ta dol-cez--za_ha_il pa-ra-di--so.	=F
+@FVERSE:
 @TVERSE:
 	Sweetly was my Chloris sleeping
 	And around her beautiful face
@@ -8665,7 +8665,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Di morte gli occhi lor tremanti ingombra;
 	E si sentian, mancando i rotti accenti,
 	Agghiacciar tra le labbra i baci ardenti.
-@MVERSE_DATE:
 @MVERSE:
 	Nel dol--ce se--no de la bel--la Clo--ri			=A
 	Tir--si, che del suo fi--ne					=b+
@@ -8687,6 +8686,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Di mor--te gli_oc--chi lor tre-man--ti_in-gom--bra;		=I
 	E si sen--tian, man-can--do_i rot--ti_ac-cen--ti,		=J+
 	Ag-ghiac-ciar-- tra le lab--bra_i ba--ci_ar-den--ti.		=J
+@FVERSE:
 @TVERSE:
 	Upon the sweet breast of his beautiful Chloris,
 	Thrysis, who the hour of his death,
@@ -8768,7 +8768,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Fu la partenza loro &mdash;
 	Addio, ché parto e moro! &mdash;
 	Dolce languir, dolce partita e fella!
-@MVERSE_DATE:
 @MVERSE:
 	Non si le-va--va_an-cor-- l'al--ba no-vel--la,				=A
 	Né-- spie-ga--van le piu--me						=b+
@@ -8800,6 +8799,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Fu la par-ten--za lo--ro &mdash;					=j
 	Ad-dio,-- ché-- par--to_e mo--ro! &mdash;				=j
 	Dol--ce lan-guir,-- dol--ce par-ti--ta_e fel--la!			=A
+@FVERSE:
 @TVERSE:
 	Not yet rising was the new dawn,
 	Nor spreading their feathers were
@@ -8878,7 +8878,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Tal'io n'andrò de' tuoi colori adorno,
 	Tal il tuo cor de' miei pensier si vesta:
 	E comun sia fra noi la penna e l'ago.
-@MVERSE_DATE:
 @MVERSE:
 	Vi-via--mo,_a-mian--ci,_o mia gra-di--ta Jel--le,		=A
 	E--dra sii tu, che_'l ca--ro tron--co_ab-brac--cia:		=B
@@ -8897,6 +8896,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Ta-l'io-- n'an-drò-- de' tuoi co-lo--ri_a-dor--no,		=D
 	Tal il tuo cor de' miei pen-sier-- si ve--sta:			=C
 	E co-mun-- sia fra noi la pen--na_e l'a--go.			=E
+@FVERSE:
 @TVERSE:
 	Let us live [and] love each other, O my pleasant Jelle,
 	May you be the ivy that embraces the dear trunk.
@@ -8960,7 +8960,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Ma tu rispiarmi i colpi e vuoi ch'ignote
 	Siano: forse è pietà, forse è disdegno
 	Che tanto osi sperar canuto amante.
-@MVERSE_DATE:
 @MVERSE:
 	Don--na, se ben le chio--me_ho già-- ri-pie--ne			=A
 	D'al-gen--te ne--ve,_il cor pe-rò-- non ver--na:		=B
@@ -8979,6 +8978,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Ma tu ri-spiar--mi_i col--pi_e vuoi ch'i-gno--te		=C
 	Sia--no: for--se_è-- pie-tà,-- for--se_è-- di-sde--gno		=D+
 	Che tan--to_o--si spe-rar-- ca-nu--to_a-man--te.		=C
+@FVERSE:
 @TVERSE:
 	Lady, even though I have a mane already lined
 	With icy snow, my heart does not freeze:
@@ -9042,7 +9042,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Io pur ritorno spesso a pianger vosco,
 	Ed a cercar tra queste erbette e questi
 	Vaghi fioretti ov'egli sia nascosto.
-@MVERSE_DATE:
 @MVERSE:
 	In un bel bo--sco di leg-gia--dre fron--de		=A
 	Ch'om--bra si fa con le ra-mo--se brac--cia,		=B
@@ -9061,6 +9060,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Io pur ri-tor--no spes--so_a pian--ger vo--sco,		=C
 	Ed a cer-car-- tra que--ste_er-bet--te_e que--sti	=D+
 	Va--ghi fio-ret--ti_o-v'e--gli sia na-sco--sto.		=E
+@FVERSE:
 @TVERSE:
 	In a beautiful wood of graceful fronds
 	Whose shade is made with thickly spreading branches,
@@ -9117,7 +9117,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	A pié del secco tronco io la richiamo:
 	Ma l'aura solo e 'l vento
 	Risponde mormorando al mio lamento.
-@MVERSE_DATE:
 @MVERSE:
 	O va--ga tor-to-rel--la,			=a
 	Tu la tua com-pa-gni--a				=b+
@@ -9127,6 +9126,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	A pié-- del sec--co tron--co_io la ri-chia--mo:	=C
 	Ma l'au--ra so--lo_e_'l ven--to			=d+
 	Ri-spon--de mor-mo-ran--do_al mio la-men--to.	=D
+@FVERSE:
 @TVERSE:
 	O lovely little turtle-dove,
 	You [for] your companion
@@ -9180,7 +9180,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Sente allegrezza e duolo?
 	Oh fior meraviglioso, ond'ancor dura
 	Lite incerta d'Amore e di Natura!
-@MVERSE_DATE:
 @MVERSE:
 	La na-tu--ra com-po--se					=a+
 	Que--st'o-do-ra--to fio--re,				=b
@@ -9194,6 +9193,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Sen--te_al-le-grez--za_e duo--lo?			=e
 	Oh fior me-ra-vi--glio-so,_on--d'an-cor-- du--ra	=F+
 	Li--te_in-cer--ta d'A-mo--re_e di Na-tu--ra!		=F
+@FVERSE:
 @TVERSE:
 	Did nature create
 	This perfumed flower,
@@ -9247,7 +9247,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Deh! sarà mai ch'io versi
 	Sì fortunati umori
 	Ch'ei sì li cangi e 'l vostro seno infiori?
-@MVERSE_DATE:
 @MVERSE:
 	Que--sto tra gli_al--tri fio--ri			=a+
 	San-gui--gno sì-- fu tin--to				=b
@@ -9258,6 +9257,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Deh!-- sa-rà-- mai ch'io ver--si			=e+
 	Sì-- for-tu-na--ti_u-mo--ri				=a
 	Ch'ei sì-- li can--gi_e_'l vo--stro se--no_in-fio--ri?	=A
+@FVERSE:
 @TVERSE:
 	Was this, among the other flowers,
 	Stained so blood-red
@@ -9309,7 +9309,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Ma, se vita può darmi
 	Foco de' vostri rai,
 	Come mentr'egli vive io morrò mai?
-@MVERSE_DATE:
 @MVERSE:
 	L'al--ma con voi man-da--i				=a
 	Ne la vo--stra par-ti--ta,				=b
@@ -9320,6 +9319,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Ma, se vi--ta può-- dar--mi				=c+
 	Fo--co de' vo--stri ra--i,				=a
 	Co--me men-tr'e--gli vi--ve_io mor-rò-- ma--i?		=A
+@FVERSE:
 @TVERSE:
 	My soul with you I sent away
 	In your departure,
@@ -9368,7 +9368,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Dico, &mdash; S'egli si more,
 	Il suo morir non prezza,
 	Né morrà per dolor, ma per dolcezza. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Dol--ce mia fiam--ma, dol--ce						=a+
 	Mia pe--na_e mio tor-men--to,						=b
@@ -9379,6 +9378,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Di--co, &mdash; S'e--gli si mo--re,					=d
 	Il suo mo-rir-- non prez--za,						=e
 	Né-- mor-rà-- per do-lor,-- ma per dol-cez--za. &mdash;			=E
+@FVERSE:
 @TVERSE:
 	Sweet my flame, sweet
 	My pain and my torment,
@@ -9425,7 +9425,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Poco l'amore i' stimo e men lo sdegno:
 	E se 'l tuo amor fu vano,
 	Van fia lo sdegno del tuo cor insano.
-@MVERSE_DATE:
 @MVERSE:
 	Ar--di_e ge--la_a tua vo--glia,			=a+
 	Per--fi-do_ed im-pu-di--co,			=b
@@ -9434,6 +9433,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Po--co l'a-mo--re_i' sti--mo_e men lo sde--gno:	=C
 	E se_'l tuo_a-mor-- fu va--no,			=d
 	Van fia lo sde--gno del tuo cor in-sa--no.	=D
+@FVERSE:
 @TVERSE:
 	Burn and freeze as you wish,
 	Wicked and shameless man,
@@ -9485,7 +9485,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Ch'era più tuo che tu di te non sei;
 	Ma il tuo già non perd'io
 	Perché non fu mai mio.
-@MVERSE_DATE:
 @MVERSE:
 	Se tu mi la--sci, per--fi-da, tuo dan--no:	=A
 	Non ti pen-sar-- che si--a			=b+
@@ -9499,6 +9498,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Ch'e--ra più-- tuo che tu di te non se--i;	=C
 	Ma_il tuo già-- non per-d'i--o			=f
 	Per-ché-- non fu mai mi--o.			=f
+@FVERSE:
 @TVERSE:
 	If you leave me, wicked lady, your loss:
 	Do not think to yourself that
@@ -9553,7 +9553,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Né fugge per timor ma per disdegno,
 	Non servitù ma pace;
 	E quanto è più superba è più fugace.
-@MVERSE_DATE:
 @MVERSE:
 	Que--sta vi--ta_è-- la sel--va,_il ver--de_e l'om--bra	=A+
 	Son fal-la--ci spe-ran--ze,_e son le re--ti		=B+
@@ -9566,6 +9565,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Né-- fug--ge per ti-mor-- ma per di-sde--gno,		=E
 	Non ser-vi-tù-- ma pa--ce;				=f
 	E quan--to_è-- più-- su-per--ba_è-- più-- fu-ga--ce.	=F
+@FVERSE:
 @TVERSE:
 	This life is the forest, the green and the shade
 	Are flawed hopes, and the nets are
@@ -9616,7 +9616,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Piacere e di gioia,
 	Non ritardi la morte
 	Sì lieto fine e sì felice sorte.
-@MVERSE_DATE:
 @MVERSE:
 	Se co-sì-- dol--ce_è_il duo--lo,		=a
 	Deh!-- qual dol-cez--za_a-spet--to		=b
@@ -9625,6 +9624,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Pi-a-ce--re_e di gio--ia,			=c
 	Non ri-tar--di la mor--te			=d+
 	Sì-- lie--to fi--ne_e sì-- fe-li--ce sor--te.	=D
+@FVERSE:
 @TVERSE:
 	If so sweet is the pain,
 	Oh! How [much] sweetness I expect
@@ -9679,7 +9679,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	I vinti un sesso e l'altro; e l'un d'Amore,
 	L'altro d'Invidia: or com'è che la face
 	Medesma agghiacci l'un che l'altro accese?
-@MVERSE_DATE:
 @MVERSE:
 	Tol--se Bar--ba-ra gen--te_il pre--gio_a Ro--ma		=A
 	De l'im-pe--rio_e de l'ar--mi_e ser--va fel--la,	=B
@@ -9698,6 +9697,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	I vin--ti_un ses--so_e l'al--tro;_e l'un d'A-mo--re,	=C
 	L'al--tro d'In-vi--dia:_or co-m'è-- che la fa--ce	=E+
 	Me-des--ma_ag-ghiac--ci l'un che l'al--tro_ac-ce--se?	=D
+@FVERSE:
 @TVERSE:
 	Barbarian people stole from Rome the prize
 	Of its empire and armies, and enslaved it,
@@ -9771,7 +9771,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Quasi pomi di Tantalo, le rose
 	Fansi a l'incontro e s'allontanan poi,
 	Sol resta Amor che spira fiamma e tosco.
-@MVERSE_DATE:
 @MVERSE:
 	Quel lab--bro che le ro--se_han co-lo-ri--to,			=A+
 	Mol--le si spor--ge_e tu-mi-det--to_in fuo--re			=B
@@ -9790,6 +9789,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Qua--si po--mi di Tan--ta-lo, le ro--se				=C+
 	Fan--si_a l'in-con--tro_e s'al-lon--ta-nan po--i,		=E
 	Sol re--sta_A-mor-- che spi--ra fiam--ma_e to--sco.		=D
+@FVERSE:
 @TVERSE:
 	That lip, which roses have brushed with color,
 	Pouts out soft and full,
@@ -9863,7 +9863,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	E mentre porta al ciel del tuo bel nome
 	Il ricco incarco e di tua chiara lode,
 	Si tien più d'Eto e di Piroo felice.
-@MVERSE_DATE:
 @MVERSE:
 	Sul car--ro de la men--te_au-ri--ga sie--di,		=A
 	O bel--la don--na,_e pren--di_il fre--no_al-te--ro	=B
@@ -9882,6 +9881,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	E men--tre por--ta_al ciel del tuo bel no--me		=E+
 	Il ric--co_in-car--co_e di tua chia--ra lo--de,		=D
 	Si tien più-- d'E--to_e di Pi-roo-- fe-li--ce.		=C
+@FVERSE:
 @TVERSE:
 	Upon the carriage of my mind you, the driver, sit,
 	O beautiful lady, and take the proud reins
@@ -9948,7 +9948,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Né già son io gelido marmo e saldo,
 	Ma, consumato in altro incendio il core,
 	Or ch'è cenere tutto, arder non puote.
-@MVERSE_DATE:
 @MVERSE:
 	Fa-cel--le son d'im-mor-tal-- lu--ce_ar-den--ti		=A+
 	Gli_oc--chi che vol--gi_in sì-- so-a--vi gi--ri,	=B
@@ -9967,6 +9966,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Né-- già-- son io ge--li-do mar--mo_e sal--do,		=D
 	Ma, con-su-ma--to_in al--tro_in-cen--dio_il co--re,	=E+
 	Or ch'è-- ce--ne-re tut--to,_ar-der-- non puo--te.	=C
+@FVERSE:
 @TVERSE:
 	Blazing sparks of immortal light are
 	The eyes that you direct about in such sweet glances,
@@ -10031,7 +10031,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Le tue dolci faville,
 	Io vagheggiar potessi
 	Mille bellezze tue con luci mille.
-@MVERSE_DATE:
 @MVERSE:
 	Tar-qui--nia, se ri-mi--ri			=a+
 	I bei ce-le--sti gi--ri,			=a
@@ -10041,6 +10040,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Le tue dol--ci fa-vil--le,			=d
 	Io va-gheg-giar-- po-tes--si			=c+
 	Mil--le bel-lez--ze tue con lu--ci mil--le.	=D
+@FVERSE:
 @TVERSE:
 	Tarquinia, if I look upon
 	The beautiful blue spheres,
@@ -10103,7 +10103,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	L'altra, non di pietade,
 	Può ben sì dolce aprire
 	Che l'alma brami in servitù morire.
-@MVERSE_DATE:
 @MVERSE:
 	Se l'al--ma_è-- pri-gio-nie--ra				=a
 	De la vo--stra bel-ta--de,				=b
@@ -10117,6 +10116,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	L'al--tra, non di pie-ta--de,				=b+
 	Può-- ben sì-- dol--ce_a-pri--re			=e
 	Che l'al--ma bra--mi_in ser-vi-tù-- mo-ri--re.		=E
+@FVERSE:
 @TVERSE:
 	If my soul is the prisoner
 	Of your beauty,
@@ -10176,7 +10176,6 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Non cheggio usbergo o scudo,
 	Ma contra il petto ignudo,
 	S'ella medica fia, sia tu guerriero.
-@MVERSE_DATE:
 @MVERSE:
 	Se da sì-- no--bil ma--no				=a+
 	Deb--bon ve-nir-- le fa--scie_a le mie pia--ghe,	=B
@@ -10191,6 +10190,7 @@ voci (Venice, 1576)</i>, ed. Anthony Newcomb, part 4 of <i>Complete Unaccompanie
 	Non cheg--gio_u-sber--go_o scu--do,			=g
 	Ma con--tra_il pet--to_i-gnu--do,			=g
 	S'el--la me--di-ca fia, sia tu guer-rie--ro.		=F
+@FVERSE:
 @TVERSE:
 	If from such a noble hand
 	Must come bandages for my wounds,
@@ -10254,7 +10254,6 @@ Nel seggio di Renata alta t’assise.
 Così nasca di voi chi le sue fide
 Città freni e corregga allor ch’al cielo
 Ritornate sarete, alme indivise.
-@MVERSE_DATE:
 @MVERSE:
 	Di man del tuo fat-to--re,_a--ni-ma_e-let--ta,		=A+
 	A glo--ria_e-ter--na_u-sci--sti,_e di ce-le--sti	=B+
@@ -10273,6 +10272,7 @@ Ritornate sarete, alme indivise.
 	Co-sì-- na--sca di voi chi le sue fi--de		=D+
 	Cit-tà-- fre--ni_e cor-reg--ga_al-lor-- ch’al cie--lo	=C+
 	Ri-tor-na--te sa-re--te,_al--me_in-di-vi--se.		=E
+@FVERSE:
 @TVERSE: 
 From the hand of your maker, chosen soul,
 You went out into eternal glory, and of heavenly
@@ -10342,7 +10342,6 @@ You will be returned, undivided souls.
 	Così più vago è 'l fior poi che le foglie
 	Spiega odorate, e 'l sol nel mezzo giorno
 	Via più che nel mattin luce e fiammeggia.
-@MVERSE_DATE:
 @MVERSE:
 	Ne--gli_an--ni_a-cer--bi tua pur-pu--rea ro--sa		=A+
 	Sem-bra--vi tu, ch'a_i rai te--pi-di,_a l'&ocirc;--ra	=B+
@@ -10361,6 +10360,7 @@ You will be returned, undivided souls.
 	Co-sì-- più-- va--go_è_'l-- fior poi che le fo--glie	=C+
 	Spie--ga_o-do-ra--te,_e_'l sol nel mez--zo gior--no	=D+
 	Via più-- che nel mat--tin lu--ce_e fiam-meg--gia.	=E
+@FVERSE:
 @TVERSE:
 	During your young years, a purpled rose
 	You seemed, that to the lukewarm rays at no time
@@ -10425,7 +10425,6 @@ You will be returned, undivided souls.
 	Or se tali ha costei
 	In sua beltà le mende,
 	Quai poi saranno i fregi ond'ella splende?
-@MVERSE_DATE:
 @MVERSE:
 	Ca--ro_a-mo-ro--so ne--o,				=a+
 	Che sì_il--lus--tri_un bel vol--to			=b
@@ -10439,6 +10438,7 @@ You will be returned, undivided souls.
 	Or se ta--li_ha co-ste--i				=c+
 	In sua bel-tà-- le men--de,				=e
 	Quai poi sa-ran--no_i fre--gi_on-d'el--la splen--de?	=E
+@FVERSE:
 @TVERSE:
 	Dear lovely beauty spot,
 	That so	distinguishes a beautiful face
@@ -10504,7 +10504,6 @@ You will be returned, undivided souls.
 	O bellezza omicida ed innocente,
 	Tempo è ch'Amor ti mostri
 	Omai ne le tue piaghe i dolor nostri.
-@MVERSE_DATE:
 @MVERSE:
 	La bel--la par-go-let--ta,				=a+
 	Ch'an-cor-- non sen--te_a-mo--re,			=b
@@ -10518,6 +10517,7 @@ You will be returned, undivided souls.
 	O bel-lez--za_o-mi-ci--da_ed in-no-cen--te,		=D
 	Tem--po_è-- ch'A-mor-- ti mo--stri			=e+
 	O-mai-- ne le tue pia--ghe_i do--lor no--stri.		=E
+@FVERSE:
 @TVERSE:
 	The beautiful young girl
 	Who does not yet feel Love
@@ -10587,7 +10587,6 @@ You will be returned, undivided souls.
 	Non è tema o dolor che mai n'attriste;
 	Serena è come voi la nostra pace,
 	E son pianti di gioia i nostri pianti.
-@MVERSE_DATE:
 @MVERSE:
 	Del pu--ro lu--me,_on--de_i ce-le--sti gi--ri		=A+
 	Fe--ce_e_'l so--le_e le Stel--le,_il Ma--stro_e-ter--no	=B+
@@ -10606,6 +10605,7 @@ You will be returned, undivided souls.
 	Non è-- te--ma_o do-lor-- che mai n'at-tri--ste;	=E
 	Se-re--na_è-- co--me voi la no--stra pa--ce,		=D
 	E son pian--ti di gio--ia_i no--stri pian--ti.		=C
+@FVERSE:
 @TVERSE:
 	Of pure light, made by the heavenly spheres
 	[Of] the sun and the Stars, the eternal Master
@@ -10678,7 +10678,6 @@ You will be returned, undivided souls.
 	Azzurro è 'l cielo eterno
 	E quel ch'è bello il bello ha sol da lui:
 	Ei bello è sol perch'assomiglia a vui.
-@MVERSE_DATE:
 @MVERSE:
 	Al vo--stro dol--ce_az-zur--ro				=a
 	Ce--da,_o lu--ci se-re--ne,				=b+
@@ -10689,6 +10688,7 @@ You will be returned, undivided souls.
 	Az-zur--ro_è_'l cie--lo_e-ter--no			=d
 	E quel ch'è-- bel--lo_il bel--lo_ha sol da lu--i:	=E
 	Ei bel--lo_è-- sol per-ch'as--so-mi--glia_a vu--i.	=E
+@FVERSE:
 @TVERSE:
 	To your sweet azure
 	Cede, o clear eyes,
@@ -10747,7 +10747,6 @@ You will be returned, undivided souls.
 	Che più? L'Alba omai sdegna
 	L'ostro e invaghisce il ciel di tue vïole
 	E teco brama impallidirsi il sole.
-@MVERSE_DATE:
 @MVERSE:
 	Al tuo va--go pal-lo--re					=a
 	La ro--sa_il pre--gio ce--de					=b+
@@ -10758,6 +10757,7 @@ You will be returned, undivided souls.
 	Che più?-- L'Al--ba_o-mai-- sde--gna				=c+
 	L'o--stro_e_in-va-ghi--sce_il ciel di tue vï-o--le		=D
 	E te--co bra--ma_im-pal-li-dir--si_il so--le.			=D
+@FVERSE:
 @TVERSE:
 	To your lovely pallor
 	The rose cedes the honor,
@@ -10824,7 +10824,6 @@ You will be returned, undivided souls.
 	Ebro sì di dolcezza e di stupore
 	Non mi renda giamai, ch'a quel non pensi
 	Ch'entro a lei piace e leva al ciel le menti.
-@MVERSE_DATE:
 @MVERSE:
 	L'au--ra con ar-mo-nia-- dol--ce_e so-a--ve		=A+
 	Fan l'au--ree stel--le_e_i bei cor--pi ce-le--sti,	=B
@@ -10843,6 +10842,7 @@ You will be returned, undivided souls.
 	E--bro sì-- di dol-cez--za_e di stu-po--re		=C
 	Non mi ren--da gia-mai,-- ch'a quel-- non pen--si	=E+
 	Ch'en--tro_a lei pia--ce_e le--va_al ciel le men--ti.	=D
+@FVERSE:
 @TVERSE:
 	The golden stars and beautiful heavenly bodies
 	Fill the air with sweet and pleasing harmony,
@@ -10910,7 +10910,6 @@ You will be returned, undivided souls.
 	La vittoria successe in vece d'alma
 	E ravvivollo, e vincitor fe' 'l vinto:
 	Or ha il ciel maggior tuoni o più bei lampi?
-@MVERSE_DATE:
 @MVERSE:
 	Tra Gio--ve_in cie--lo_e_'l mio si-gnor-- in ter--ra		=A
 	Ser--va_in-di-vi--sa_e mes-sag-gie--ra_ac-cor--ta		=B
@@ -10929,6 +10928,7 @@ You will be returned, undivided souls.
 	La vit-to--ria suc-ces--se_in ve--ce d'al--ma			=E
 	E rav-vi-vol--lo,_e vin-ci-tor-- fe'_'l vin--to:		=D
 	Or ha_il ciel mag-gior-- tuo--ni_o più-- bei lam--pi?		=C
+@FVERSE:
 @TVERSE:
 	Between Jupiter in the sky and my lord on earth,
 	A loyal servant and watchful messenger,
@@ -10985,7 +10985,6 @@ You will be returned, undivided souls.
 	E porta innanzi a Giove
 	Le mie preghiere nove
 	Sì che da lui sien con pietade intese.
-@MVERSE_DATE:
 @MVERSE:
 	An-gio-let--ta cor-te--se,				=a
 	O--di dal ter--zo cie--lo				=b+
@@ -10993,6 +10992,7 @@ You will be returned, undivided souls.
 	E por--ta_in-nan--zi_a Gio--ve				=c+
 	Le mie pre-ghie--re no--ve				=c
 	Sì-- che da lui-- sien-- con pie--tade in-te--se.	=D
+@FVERSE:
 @TVERSE:
 	Gracious little angel,
 	Hear from the third heaven
@@ -11034,13 +11034,13 @@ You will be returned, undivided souls.
 	Tante, ch'io esca fuor di questo fondo,
 	O possa in qualche ramo
 	Di te cantando dire: &mdash; io amo, io amo. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	Bel--la_An-gio-let--ta da le va--ghe piu--me,			=A
 	Pre--sta-ne_al gra--ve pon--do					=b+
 	Tan--te, ch'i--o_e--sca fuor di que--sto fon--do,		=B
 	O pos--sa_in qual--che ra--mo					=c+
 	Di te can-tan--do di--re:_&mdash;_io a--mo,_io a--mo. &mdash;	=C
+@FVERSE:
 @TVERSE:
 	Beautiful little angel of the lovely feathers,
 	Lend the ponderous burden
@@ -11085,7 +11085,6 @@ You will be returned, undivided souls.
 	Ma, s'ad un guardo vostro
 	In me tanto pur lice,
 	Debbo sperar giammai d'esser felice?
-@MVERSE_DATE:
 @MVERSE:
 	Quan--t'io-- so--no_in-fe-li--ce			=a+
 	Tan--to voi bel--la se--te,				=b
@@ -11096,6 +11095,7 @@ You will be returned, undivided souls.
 	Ma, s'ad un guar--do vo--stro				=c+
 	In me tan--to pur li--ce,				=a
 	Deb--bo spe-rar-- giam-mai-- d'es--ser fe-li--ce?	=A
+@FVERSE:
 @TVERSE:
 	I am as unhappy
 	As you are beautiful,
@@ -11154,7 +11154,6 @@ You will be returned, undivided souls.
 	Somiglia appunto in giovinile schiera,
 	Prezïosa e mirabil Margherita,
 	La fronte e gli occhi candida e lucente.
-@MVERSE_DATE:
 @MVERSE:
 	Né-- di fe-con--da con--ca_in ric--co ma--re		=A+
 	Per--la_u-scì-- mai sì-- lu-mi-no--sa_e bel--la,	=B
@@ -11173,6 +11172,7 @@ You will be returned, undivided souls.
 	So-mi--glia_ap-pun--to_in gio-vi-ni--le schie--ra,	=E+
 	Pre-zï-o--sa_e mi-ra--bil Mar-ghe-ri--ta,		=D
 	La fron--te_e gli_oc--chi can--di-da_e lu-cen--te.	=C
+@FVERSE:
 @TVERSE:
 	Neither from a fertile shell in a rich sea
 	Has a pearl ever come so luminous and beautiful,
@@ -11230,7 +11230,6 @@ You will be returned, undivided souls.
 	Col vel l'Alba vedete
 	E lei che nacque in Delo,
 	E l'Iri il suo colora anco nel cielo.
-@MVERSE_DATE:
 @MVERSE:
 	Por--ta-no l'al--tre_il ve--lo;				=a
 	Voi-- le chio--me do-ra--te				=b+
@@ -11241,6 +11240,7 @@ You will be returned, undivided souls.
 	Col vel-- l'Al--ba ve-de--te				=b
 	E lei-- che nac--que_in De--lo,				=a
 	E l'I--ri_il suo-- co-lo--ra_an-co-- nel cie--lo.	=A
+@FVERSE:
 @TVERSE:
 	Other ladies wear a veil;
 	You, your golden mane,
@@ -11300,7 +11300,6 @@ You will be returned, undivided souls.
 	Che rende l'alma di penar sì vaga
 	Che quel ch'altrui più nuoce a lei più giova,
 	Ne' sospir lieta e ne' martir felice.
-@MVERSE_DATE:
 @MVERSE:
 	La bel--la_e va--ga man-- che le so-no--re			=A+
 	Cor--de,_or leg-gie--ra_e pre--sta,_or tar--da_e gra--ve	=B
@@ -11319,6 +11318,7 @@ You will be returned, undivided souls.
 	Che ren--de l'al--ma di pe-nar-- sì-- va--ga			=C
 	Che quel-- ch'al-trui-- più-- nuo--ce_a lei più-- gio--va,	=D
 	Ne' so--spir lie--ta_e ne' mar-tir-- fe-li--ce.			=E
+@FVERSE:
 @TVERSE:
 	Your beautiful and fair hand, which strikes the sonorous
 	Strings, now light and fast, now slow and sombre,
@@ -11385,7 +11385,6 @@ You will be returned, undivided souls.
 	E geli il cor gentil per lungo oblio,
 	E, se pur dee sentir novella fiamma,
 	S'accenda sì, ma non s'accenda ei solo.
-@MVERSE_DATE:
 @MVERSE:
 	Deh!-- per-ché_a--mar-- chi voi-- con pa--ri_af-fet--to		=A+
 	Non a--mi_e so-spi-rar-- chi non-- so-spi--ri,			=B
@@ -11404,6 +11403,7 @@ You will be returned, undivided souls.
 	E ge--li_il cor-- gen-til-- per lun--go_ob-li--o,		=D
 	E, se pur-- dee-- sen-tir-- no-vel--la fiam--ma,		=C
 	S'ac-cen--da sì,-- ma non-- s'ac-cen--da_ei so--lo.		=E
+@FVERSE:
 @TVERSE:
 	Oh! Why love one who does not with equal affection
 	Love you, and sigh for one who does not sigh,
@@ -11470,7 +11470,6 @@ You will be returned, undivided souls.
 	E mentre a gli occhi altrui vago traluce
 	Non divieni, signor, novo Narciso,
 	Anzi ti volgi a le bellezze eterne.
-@MVERSE_DATE:
 @MVERSE:
 	Ben può-- ri-trar-- le tue fat-tez--ze con--te		=A+
 	Lu--ci-do spec--chio_o ver tran-quil--lo_u-mo--re,	=B
@@ -11489,6 +11488,7 @@ You will be returned, undivided souls.
 	E men--tre_a gli_oc--chi_al-trui-- va--go tra-lu--ce	=C
 	Non di-vie--ni, si-gnor,-- no--vo Nar-ci--so,		=D
 	An--zi ti vol--gi_a le bel-lez--ze_e-ter--ne.		=E
+@FVERSE:
 @TVERSE:
 	Well can a clear mirror or truly tranquil waters
 	Depict the features of your countenance
@@ -11547,7 +11547,6 @@ You will be returned, undivided souls.
 	I' odo, o parmi, i' odo
 	La voce: ella è pur dessa;
 	Ecco Tarquinia viene, Amor s'appressa!
-@MVERSE_DATE:
 @MVERSE:
 	For--se_è-- ca-gion-- l'au-ro--ra				=a
 	Di que--sto bel con-cen--to					=b+
@@ -11558,6 +11557,7 @@ You will be returned, undivided souls.
 	I' o--do,_o par--mi,_i' o--do					=c+
 	La vo--ce:_el--la_è-- pur des--sa;				=d
 	Ec--co Tar-quin--ia vie--ne,_A-mor-- s'ap-pres--sa!		=D
+@FVERSE:
 @TVERSE:
 	Perhaps dawn is the reason
 	For this beautiful harmony
@@ -11612,7 +11612,6 @@ You will be returned, undivided souls.
 	Là dove io prego che 'l morir mi tocchi,
 	Il morir ti dispiace,
 	Non sai come riposo apporta e pace.
-@MVERSE_DATE:
 @MVERSE:
 	O ti--mi-da lep-ret--ta,				=a
 	Che men--tre fug--gi per sal-var-- la vi--ta,		=A+
@@ -11621,6 +11620,7 @@ You will be returned, undivided souls.
 	Là-- do--ve_io pre--go che_'l mo-rir-- mi toc--chi,	=B
 	Il mo-rir-- ti di-spia--ce,				=c
 	Non sai co--me ri-po--so_ap-por--ta_e pa--ce.		=C
+@FVERSE:
 @TVERSE:
 	O shy little hare,
 	Who, while you flee to save your life,
@@ -11669,7 +11669,6 @@ You will be returned, undivided souls.
 	Avrei la morte a gioco;
 	Perché dov'ella caccia, oh! pur me 'l creda,
 	Esser io bramo o predatore o preda.
-@MVERSE_DATE:
 @MVERSE:
 	O fug-gi-ti--va_e ti-mi-det--ta fe--ra,				=A+
 	Che sei cac-cia--ta do--ve_in car--ro_a-dor--no			=B
@@ -11678,6 +11677,7 @@ You will be returned, undivided souls.
 	Av-rei-- la mor--te_a gio--co;					=c
 	Per-ché-- do--v'el--la cac--cia,_oh!-- pur me_'l cre--da,	=D+
 	Es--ser io bra--mo_o pre-da-to--re_o pre--da.			=D
+@FVERSE:
 @TVERSE:
 	O fugitive and timid beast,
 	[You] who are hunted where, in an adorned carriage,
@@ -11727,7 +11727,6 @@ You will be returned, undivided souls.
 	Mai la natura e l'arte e far non lece;
 	Ma che la valle sembri un paradiso
 	La Donna il fa che n'ha sembianti e viso.
-@MVERSE_DATE:
 @MVERSE:
 	Me--so-la,_il Po da' la--ti_e_'l mar a fron--te,	=A+
 	E d'in-tor--no le mu--ra_e den--tro_i bo--schi		=B+
@@ -11737,6 +11736,7 @@ You will be returned, undivided souls.
 	Mai la na-tu--ra_e l'ar--te_e far non le--ce;		=C
 	Ma che la val--le sem--bri_un pa-ra-di--so		=D+
 	La Don--na_il fa che n'ha sem-bian--ti_e vi--so.	=D
+@FVERSE:
 @TVERSE:
 	Mesola, the Po alongside and the sea before,
 	And around the walls and within the woods
@@ -11789,7 +11789,6 @@ You will be returned, undivided souls.
 	Perché sia la prigion campo di guerra,
 	E i diletti sian glorie
 	E tutte le sue prede alte vittorie.
-@MVERSE_DATE:
 @MVERSE:
 	Ha nin--fe_a-dor--ne_e bel--le					=a+
 	La ca--sta Mar-ghe-ri--ta,_et es--sa_è-- dè--a,			=B
@@ -11802,6 +11801,7 @@ You will be returned, undivided souls.
 	Per-ché-- sia la pri-gion-- cam--po di guer--ra,		=E
 	E_i di-let--ti sian glo--rie					=f
 	E tut--te le sue pre--de_al--te vit-to--rie.			=F
+@FVERSE:
 @TVERSE:
 	Beautiful and adorned nymphs has
 	The chaste Margherita, and she is a goddess,
@@ -11863,7 +11863,6 @@ You will be returned, undivided souls.
 	Chiara mia luce, omai da l'orïente
 	Tu movi, tu mi scampa, e tu mi ditta
 	I preghi e i voti, e tu m'imprimi e forma.
-@MVERSE_DATE:
 @MVERSE:
 	Le_a-ma--re not--ti_in ch'io m'af-flig--go_e do--glio		=A
 	Del ciel che sì-- cru-de--li_a me sor-til--le,			=B
@@ -11882,6 +11881,7 @@ You will be returned, undivided souls.
 	Chia--ra mia lu--ce,_o-mai-- da l'o-rï-en--te			=D+
 	Tu mo--vi, tu mi scam--pa,_e tu mi dit--ta			=C+
 	I pre--ghi_e_i vo--ti,_e tu m'im-pri--mi_e for--ma.		=E
+@FVERSE:
 @TVERSE:
 	The bitter nights during which I am afflicted and in pain
 	From the sky that so cruelly inflicted them upon me,
@@ -11944,7 +11944,6 @@ You will be returned, undivided souls.
 	Le dolci parolette
 	E i dolci sguardi son facelle e strali,
 	E i bei pensieri in voi son piume ed ali.
-@MVERSE_DATE:
 @MVERSE:
 	Là-- do--ve so--no_i par-go-let--ti_A-mo--ri,		=A
 	Ed al--tri_ha te--so l'ar--co,				=b
@@ -11957,6 +11956,7 @@ You will be returned, undivided souls.
 	Le dol--ci pa-ro-let--te				=e+
 	E_i dol--ci sguar--di son fa-cel--le_e stra--li,	=F
 	E_i bei pen-sie--ri_in voi son piu--me_ed a--li.	=F
+@FVERSE:
 @TVERSE:
 	There where are Love’s little cupids
 	And some have drawn the bow,
@@ -12023,7 +12023,6 @@ You will be returned, undivided souls.
 	O s'altra ninfa in bosco è più solinga,
 	O come lei ch'Orfeo
 	Fuggì sotterra o sotto al mare Alfeo.
-@MVERSE_DATE:
 @MVERSE:
 	Voi s&ecirc;--te bel--la, ma fu-ga--ce_e pre--sta	=A
 	Co--me cer-vet--ta suo--le				=b+
@@ -12048,6 +12047,7 @@ You will be returned, undivided souls.
 	O s'al--tra nin--fa_in bo--sco_è-- più-- so-lin--ga,	=K
 	O co--me lei ch'Or-fe--o				=l+
 	Fug-gì-- sot-ter--ra_o sot--to_al ma--re_Al-fe--o.	=L
+@FVERSE:
 @TVERSE:
 	You are beautiful, but fleeting and fast
 	Like a young doe
@@ -12114,7 +12114,6 @@ You will be returned, undivided souls.
 	Nel dolce albergo ove gioir solia.
 	Lasso! benché di furto io non sia nato,
 	Ho men benigno fato.
-@MVERSE_DATE:
 @MVERSE:
 	Tu na-sce--sti di fur--to,				=a
 	Pic-cio-let--to Gre-chi--no,				=b
@@ -12127,6 +12126,7 @@ You will be returned, undivided souls.
 	Nel dol--ce_al-ber--go_o--ve gio-ir-- so-li--a.		=E
 	Las--so! ben-ché-- di fur--to_io non sia na--to,	=A
 	Ho men be-ni--gno fa--to.				=a
+@FVERSE:
 @TVERSE:
 	You were born of theft,
 	Tiny little Grechino,
@@ -12176,7 +12176,6 @@ You will be returned, undivided souls.
 	A cui sacro lo stile, il cor, gli accenti;
 	Degno, ch'à quattro venti
 	Il portin più felici e bianche piume.
-@MVERSE_DATE:
 @MVERSE:
 	Que--ste no--te_io vi do--no					=a+
 	Mar-fi--sa,_e que--ste car--te,_e que--sto_in-chio--stro,	=B
@@ -12185,6 +12184,7 @@ You will be returned, undivided souls.
 	A cui sa--cro lo sti--le,_il cor, gli_ac-cen--ti;		=D
 	De--gno, ch'à quat--tro ven--ti					=d+
 	Il por--tin più-- fe-li--ci_e bian--che piu--me.		=C
+@FVERSE:
 @TVERSE:
 	These notes I gift to you,
 	Marfisa, and these papers, and this ink,
@@ -12231,7 +12231,6 @@ You will be returned, undivided souls.
 	Facciam soavi lacci a 'l desir mio;
 	E li stringe il piacere e la speranza,
 	Tal che di libertà nulla m'avanza.
-@MVERSE_DATE:
 @MVERSE:
 	Que--ste no--te son no--ve,_e que--ste_A-mo--re		=A+
 	Co-min--cia_in no--vi mo--di:				=b
@@ -12241,6 +12240,7 @@ You will be returned, undivided souls.
 	Fac-ciam-- so-a--vi lac--ci_a_'l de-sir-- mi--o;	=C
 	E li strin--ge_il pia-ce--re_e la spe-ran--za,		=D
 	Tal che di li-ber-tà-- nul--la m'a-van--za.		=D
+@FVERSE:
 @TVERSE:
 	These notes are new, and these Love
 	Begins in new modes:
@@ -12297,7 +12297,6 @@ You will be returned, undivided souls.
 	Gli alti costumi e le virtuti anch'elle;
 	Ed un diaspro intorno il cor v'ha cinto,
 	E voi sete la duce, Amore il vinto.
-@MVERSE_DATE:
 @MVERSE:
 	Ha gi--gli_e ro--se_ed ha ru-bi--ni_ed o--ro		=A+
 	E due se-re--ne stel--le_e mil--le rag--gi		=B+
@@ -12316,6 +12315,7 @@ You will be returned, undivided souls.
 	Gli_al--ti co-stu--mi_e le vir-tu--ti_an-ch'el--le;	=G
 	Ed un di-a--spro_in-tor--no_il cor v'ha cin--to,	=H
 	E voi se--te la du--ce,_A-mo--re_il vin--to.		=H
+@FVERSE:
 @TVERSE:
 	Lilies and roses and rubies and gold
 	And two calm stars and a thousand rays
@@ -12374,7 +12374,6 @@ You will be returned, undivided souls.
 	Ché se non fai di me, signor, vendetta,
 	Ecco di te si gloria
 	Con la sua crudeltade aver vittoria. &mdash;
-@MVERSE_DATE:
 @MVERSE:
 	&mdash; Deh fer--ma, fer--ma_il tuo ri-bel--lo,_A-mo--re,	=A+
 	Che fug--ge dal tuo re--gno					=b
@@ -12386,6 +12385,7 @@ You will be returned, undivided souls.
 	Ché-- se non fai di me, si-gnor,-- ven-det--ta,			=D
 	Ec--co di te si glo--ria					=e+
 	Con la sua cru-del-ta--de_a-ver-- vit-to--ria. &mdash;		=E
+@FVERSE:
 @TVERSE:
 	&mdash; Oh, stop, stop your rebel, Love,
 	Who flees from your reign
@@ -12436,7 +12436,6 @@ You will be returned, undivided souls.
 	Se questo è il paradiso,
 	Più dolci che ne l'acque e fra l'arene
 	In ciel son le sirene!
-@MVERSE_DATE:
 @MVERSE:
 	Che so-a--ve ra-pi--na					=a+
 	Fu quel--la del mio co--re				=b
@@ -12446,6 +12445,7 @@ You will be returned, undivided souls.
 	Se que--sto_è_il-- pa-ra-di--so,			=c
 	Più-- dol--ci che ne l'ac--que_e fra l'a-re--ne		=D+
 	In ciel son le si-re--ne!				=d
+@FVERSE:
 @TVERSE:
 	What a pleasing theft
 	Was that of my heart
@@ -12494,7 +12494,6 @@ You will be returned, undivided souls.
 	Oh mirabil guerriera!
 	In cui natura giunge
 	La tromba a l'arme, ond'ella suona e punge.
-@MVERSE_DATE:
 @MVERSE:
 	Qual ca-va-lie--ro_ar-di--to				=a
 	A le fa-mo--se pro--ve					=b
@@ -12505,6 +12504,7 @@ You will be returned, undivided souls.
 	Oh mi-ra--bil guer-rie--ra!				=C
 	In cui na-tu--ra giun--ge				=e+
 	La trom--ba_a l'ar--me,_on-d'el--la suo--na_e pun--ge.	=E
+@FVERSE:
 @TVERSE:
 	[Like] that daring knight [who],
 	At renowned tournaments
@@ -12556,7 +12556,6 @@ You will be returned, undivided souls.
 	Oh fortunato loco
 	Tra 'l mento e 'l casto petto!
 	Altrove non fu mai maggior diletto.
-@MVERSE_DATE:
 @MVERSE:
 	Que--sta lie--ve zan-za--ra			=a+
 	Quan--to_ha sor--te mi-glio--re			=b
@@ -12567,6 +12566,7 @@ You will be returned, undivided souls.
 	Oh for-tu-na--to lo--co				=c
 	Tra_'l men--to_e_'l ca--sto pet--to!		=e
 	Al-tro--ve non fu mai mag-gior-- di-let--to.	=E
+@FVERSE:
 @TVERSE:
 	This delicate mosquito
 	Has such a better fate
@@ -12618,7 +12618,6 @@ You will be returned, undivided souls.
 	Fu mai concessa da benigno fato?
 	Felice te, felice
 	Più che nel rogo orïental fenice!
-@MVERSE_DATE:
 @MVERSE:
 	Tu mo-ri--sti_in quel se--no,				=a+
 	Pic-cio-let--ta zan-za--ra,				=b
@@ -12628,6 +12627,7 @@ You will be returned, undivided souls.
 	Fu mai con-ces--sa da be-ni--gno fa--to?		=C
 	Fe-li--ce te, fe-li--ce					=d
 	Più-- che nel ro--go_o-rï-en-tal-- fe-ni--ce!		=D
+@FVERSE:
 @TVERSE:
 	You died in that breast,
 	Tiny little mosquito,
@@ -12684,7 +12684,6 @@ You will be returned, undivided souls.
 	E scopri i duo lucenti amici segni,
 	E vive la ragione e l'arte avanza
 	Tal che già prendi il desïato porto.
-@MVERSE_DATE:
 @MVERSE:
 	Pas--sa la na--ve tua che por--ta_il co--re		=A
 	Sot--to_un se-re--no ciel di stel--le_a-dor--no		=B
@@ -12703,6 +12702,7 @@ You will be returned, undivided souls.
 	E sco--pri_i duo lu-cen--ti_a-mi--ci se--gni,		=C
 	E vi--ve la ra-gio--ne_e l'ar--te_a-van--za		=D
 	Tal che già-- pren--di_il de-sï-a--to por--to.		=E
+@FVERSE:
 @TVERSE:
 	Your ship, which bears my heart, passes
 	Under a clear sky adorned with stars
@@ -12764,7 +12764,6 @@ You will be returned, undivided souls.
 	Sgombri mille furori,
 	E quasi fai col tuo valor superno
 	de le cose mortali un giro eterno.
-@MVERSE_DATE:
 @MVERSE:
 	Ciò-- che Mor--te ral-len--ta,_A-mor,-- ri-strin--gi,	=A
 	A-mi--co tu di pa--ce,_el--la di guer--ra,		=B
@@ -12778,6 +12777,7 @@ You will be returned, undivided souls.
 	Sgom--bri mil--le fu-ro--ri,				=E
 	E qua--si fai col tuo va-lor-- su-per--no		=D+
 	de le co--se mor-ta--li_un gi--ro_e-ter--no.		=D
+@FVERSE:
 @TVERSE:
 	That which Death slackens, Love, you tighten again,
 	A friend, you, of peace; she of war,
@@ -12835,7 +12835,6 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Tu, Giove e Marte, con benigno aspetto,
 	Lumi sereni e chiari,
 	Non siate a lei de' vostri doni avari.
-@MVERSE_DATE:
 @MVERSE:
 	Tu, bian--ca_e va--ga Lu--na,				=a+
 	C'hai tan--ti spec--chi quan--ti so--no_i ma--ri,	=B+
@@ -12849,6 +12848,7 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Tu, Gio--ve_e Mar--te, con be-ni--gno_a-spet--to,	=E+
 	Lu--mi se-re--ni_e chia--ri,				=b
 	Non sia--te_a lei de' vo--stri do--ni_a-va--ri.		=B
+@FVERSE:
 @TVERSE:
 	You, white and lovely Moon,
 	You have as many mirrors as there are seas,
@@ -12905,7 +12905,6 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Ma raccorle dal ciel via più gli piacque;
 	Voi, che prima torreste?
 	Tributo da la terra o don celeste?
-@MVERSE_DATE:
 @MVERSE:
 	Qui do--ve fan le pian--te					=a+
 	Ver--di,_e fron-do--se,_e fo--sche,_e l'er--be_e_i fio--ri	=B+
@@ -12919,6 +12918,7 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Ma rac-cor--le dal ciel via più-- gli piac--que;		=D
 	Voi, che pri--ma tor-re--ste?					=f
 	Tri-bu--to da la ter--ra_o don ce-le--ste?			=F
+@FVERSE:
 @TVERSE:
 	Here where the plants,
 	Green, and leafy, and dark, and the grasses and the flowers provide
@@ -12972,7 +12972,6 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Tu le morti tenesti, egli le vite;
 	Anzi tue fur le palme,
 	Ch'Amore i corpi unì, tu unisti l'alme.
-@MVERSE_DATE:
 @MVERSE:
 	Fer--ro_in fe-rir-- pie-to--so				=a+
 	D'am--bi gli_a-man--ti_il co--re,			=b
@@ -12982,6 +12981,7 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Tu le mor--ti te-ne--sti,_e--gli le vi--te;		=C
 	An--zi tue fur le pal--me,				=d
 	Ch'A-mo--re_i cor--pi_u-nì,-- tu_u-ni--sti l'al--me.	=D
+@FVERSE:
 @TVERSE:
 	Sword, compassionate in wounding
 	The heart[s] of both lovers,
@@ -13037,7 +13037,6 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Anzi i cieli voi sete,
 	Alme felici e liete,
 	Che narrate di Dio la gloria eterna.
-@MVERSE_DATE:
 @MVERSE:
 	A--ni-me san--te_e bel--le,				=a+
 	Che da gli_af-fan--ni_u-ma--ni_e da' mar-ti--ri		=B+
@@ -13052,6 +13051,7 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	An--zi_i cie--li voi se--te,				=g
 	Al--me fe-li--ci_e lie--te,				=g+
 	Che nar-ra--te di Dio la glo--ria_e-ter--na.		=E
+@FVERSE:
 @TVERSE:
 	Souls holy and beautiful,
 	Which from human afflictions and from martyrdoms
@@ -13117,7 +13117,6 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Ahi lagrime! ahi dolore!
 	Oggi languisce e more
 	La salute e la vita: ahi piaghe! ahi sangue!
-@MVERSE_DATE:
 @MVERSE:
 	Do--ve ri-vol--gi,_o lu-sin-ghier-- fal-la--ce,			=A+
 	Gli_oc--chi bra-mo--si_e va--ghi?				=b
@@ -13138,6 +13137,7 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Ahi la--gri-me!_ahi do-lo--re!					=h
 	Og--gi lan-gui--sce_e mo--re					=h+
 	La sa-lu--te_e la vi--ta:_ahi pia--ghe!_ahi san--gue!		=G
+@FVERSE:
 @TVERSE:
 	Where do you turn, false flatterer,
 	Your longing and lovely eyes?
@@ -13205,7 +13205,6 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Dammi ch'io faccia al tuo cammin ritorno,
 	Quasi vestito di celesti piume,
 	Signore, e tu mi pasci e tu m'alberga.
-@MVERSE_DATE:
 @MVERSE:
 	Pa--dre del cie--lo,_or ch'a--tra nu--be_il cal--le	=A+
 	De--stro m'a-scon--de,_e vie fal-la--ci_io stam--po	=B
@@ -13224,6 +13223,7 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Dam--mi ch'io fac--cia_al tuo cam-min-- ri-tor--no,	=D
 	Qua--si ve-sti--to di ce-le--sti piu--me,		=E
 	Si-gno--re,_e tu mi pa--sci_e tu m'al-ber--ga.		=C
+@FVERSE:
 @TVERSE:
 	Father of heaven, now that a black cloud
 	Hides the right way from me, and I tread deceptive paths
@@ -13291,7 +13291,6 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Ma se pur vivo, ahi lasso,
 	Vivo del vostro lume e del mio pianto,
 	E di tal vita ognor mi glorio e vanto.
-@MVERSE_DATE:
 @MVERSE:
 	Oc--chi leg-gia--dri_e bel--li,				=a+
 	Or che vo-le--te più-- dal pet--to mi--o?		=B
@@ -13307,6 +13306,7 @@ Although the canzone as a whole dates from 1586, as it celebrates the marriage o
 	Ma se pur vi--vo,_ahi las--so,				=d
 	Vi--vo del vo--stro lu--me_e del mio pian--to,		=F
 	E di tal vi--ta_o-gnor-- mi glo--rio_e van--to.		=F
+@FVERSE:
 @TVERSE:
 	Eyes graceful and beautiful,
 	Now what more do you want from my breast?

@@ -427,25 +427,28 @@ function displayTextareaContents() {
 
 function applyOptions() {
 
-	let sylElement        = document.querySelector("#check-syllable");
-	let stressElement     = document.querySelector("#check-stress");
-	let rhymeElement      = document.querySelector("#check-rhyme");
-	let enjambmentElement = document.querySelector("#check-enjambment");
-	let linenumElement    = document.querySelector("#check-linenum");
+	let sylElement          = document.querySelector("#check-syllable");
+	let stressElement       = document.querySelector("#check-stress");
+	let metricStressElement = document.querySelector("#check-metric-stress");
+	let rhymeElement        = document.querySelector("#check-rhyme");
+	let enjambmentElement   = document.querySelector("#check-enjambment");
+	let linenumElement      = document.querySelector("#check-linenum");
 
-	if (!sylElement)        { return; }
-	if (!stressElement)     { return; }
-	if (!rhymeElement)      { return; }
-	if (!enjambmentElement) { return; }
-	if (!linenumElement)    { return; }
-
-console.warn("APPLY OPTIONS");
+	if (!sylElement)          { return; }
+	if (!stressElement)       { return; }
+	if (!metricStressElement) { return; }
+	if (!rhymeElement)        { return; }
+	if (!enjambmentElement)   { return; }
+	if (!linenumElement)      { return; }
 
 	if (sylElement && sylElement.checked) {
 		showSyllable();
 	}
 	if (stressElement && stressElement.checked) {
 		showStress();
+	}
+	if (metricStressElement && metricStressElement.checked) {
+		showMetricStress();
 	}
 	if (rhymeElement && rhymeElement.checked) {
 		showRhyme();
@@ -500,6 +503,59 @@ function hideStress() {
 	let syls = document.querySelectorAll(".stress");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("showStress");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleMetricStress --
+//
+
+function toggleMetricStress(event) {
+	if (event.currentTarget.checked) {
+		showMetricStress();
+	} else {
+		hideMetricStress();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showMetricStress --
+//
+
+function showMetricStress() {
+	console.log("Show metric stress");
+	let syls = document.querySelectorAll(".metricStress");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.add("showMetricStress");
+	}
+	let marks = document.querySelectorAll(".majmin");
+	for (let i=0; i<marks.length; i++) {
+		marks[i].classList.remove("hide-majmin");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideMetricStress --
+//
+
+function hideMetricStress() {
+	console.log("Hide metric stress");
+	let syls = document.querySelectorAll(".metricStress");
+	for (let i=0; i<syls.length; i++) {
+		syls[i].classList.remove("showMetricStress");
+	}
+	let marks = document.querySelectorAll(".majmin");
+	for (let i=0; i<marks.length; i++) {
+		marks[i].classList.add("hide-majmin");
 	}
 }
 

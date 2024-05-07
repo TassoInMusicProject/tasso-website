@@ -213,7 +213,7 @@ function prepareMverseTable(mverse) {
 			continue;
 		}
 		let rhyme = "";
-		let matches2 = side.match(/^([a-zA-Z]+)/);
+		let matches2 = side.match(/^([a-lmn-zA-LMN-Z])/);
 		if (matches2) {
 			rhyme = matches2[1];
 		}
@@ -222,6 +222,11 @@ function prepareMverseTable(mverse) {
 		if (matches2) {
 			// enjambment = matches2[1];
 			enjambment = "+";
+		}
+		let majmin = "";
+		matches2 = side.match(/^..*([Mm])/);
+		if (matches2) {
+			majmin = matches2[1];
 		}
 
 		output += "<tr class='verse-line";
@@ -250,6 +255,10 @@ function prepareMverseTable(mverse) {
 		if (enjambment !== "") {
 			output += `<span class="enjambment hide-enjambment">${enjambment}</span>`;
 		}
+		output += "</td>\n";
+	
+		output += "<td class='verse-majmin'>\n";
+		output += `<span class="majmin">${majmin}</span>\n`;
 		output += "</td>\n";
 
 		output += "</tr>\n";
@@ -303,6 +312,12 @@ function prepareLineMarkup(text, side) {
 				stress = true;
 				syl = matches[1];
 			}
+			let metricStress = false;
+			matches = syl.match(/\*/);
+			if (matches) {
+				metricStress = true;
+				syl = syl.replace(/\*/, "", "g");
+			}
 
 			let evenodd = "";
 			if (sylCount % 2) {
@@ -314,6 +329,11 @@ function prepareLineMarkup(text, side) {
 			let stressclass = "";
 			if (stress) {
 				stressclass = "stress"
+			}
+
+			let metricStressClass = "";
+			if (metricStress) {
+				metricStressClass = "metricStress";
 			}
 
 			let position = "";
@@ -329,7 +349,7 @@ function prepareLineMarkup(text, side) {
 				}
 			}
 
-			output += `<span class="syllable ${evenodd} ${position} ${stressclass}">${syl}</span>`;
+			output += `<span class="syllable ${evenodd} ${position} ${stressclass} ${metricStressClass}">${syl}</span>`;
 		}
 		if (i <words.length - 1) {
 			output += " ";

@@ -159,6 +159,22 @@ window.addEventListener('keydown', function(event) {
 			}
 		}
 
+		if (event.code == "KeyM") {
+			console.log("Toggling Metric stress checkmark");
+			// toggle metric stress check mark
+			let element = document.querySelector("#check-metric-stress");
+			if (element) {
+				let state = element.checked;
+				state = !state;
+				element.checked = state;
+				if (state) {
+					showMetricStress();
+				} else {
+					hideMetricStress();
+				}
+			}
+		}
+
 	}
 
 	switch (event.keyCode) {
@@ -194,15 +210,17 @@ function toggleAllOptions() {
 	console.log("Toggling all checkmarks");
 	let element1 = document.querySelector("#check-syllable");
 	let element2 = document.querySelector("#check-stress");
-	let element3 = document.querySelector("#check-rhyme");
-	let element4 = document.querySelector("#check-enjambment");
-	let element5 = document.querySelector("#check-linenum");
+	let element3 = document.querySelector("#check-metric-stress");
+	let element4 = document.querySelector("#check-rhyme");
+	let element5 = document.querySelector("#check-enjambment");
+	let element6 = document.querySelector("#check-linenum");
 
 	if (!element1) { return; }
 	if (!element2) { return; }
 	if (!element3) { return; }
 	if (!element4) { return; }
 	if (!element5) { return; }
+	if (!element6) { return; }
 
 	if (element1) {
 		let state = element1.checked;
@@ -212,15 +230,18 @@ function toggleAllOptions() {
 		element3.checked = state;
 		element4.checked = state;
 		element5.checked = state;
+		element6.checked = state;
 		if (state) {
 			showSyllable();
 			showStress();
+			showMetricStress();
 			showRhyme();
 			showEnjambment();
 			showLinenum();
 		} else {
 			hideSyllable();
 			hideStress();
+			hideMetricStress();
 			hideRhyme();
 			hideEnjambment();
 			hideLinenum();
@@ -239,24 +260,28 @@ function showAllOptions() {
 	console.log("Showing all checkmarks");
 	let element1 = document.querySelector("#check-syllable");
 	let element2 = document.querySelector("#check-stress");
-	let element3 = document.querySelector("#check-rhyme");
-	let element4 = document.querySelector("#check-enjambment");
-	let element5 = document.querySelector("#check-linenum");
+	let element3 = document.querySelector("#check-metric-stress");
+	let element4 = document.querySelector("#check-rhyme");
+	let element5 = document.querySelector("#check-enjambment");
+	let element6 = document.querySelector("#check-linenum");
 
 	if (!element1) { return; }
 	if (!element2) { return; }
 	if (!element3) { return; }
 	if (!element4) { return; }
 	if (!element5) { return; }
+	if (!element6) { return; }
 
 	element1.checked = true;
 	element2.checked = true;
 	element3.checked = true;
 	element4.checked = true;
 	element5.checked = true;
+	element6.checked = true;
 
 	showSyllable();
 	showStress();
+	showMetricStress();
 	showRhyme();
 	showEnjambment();
 	showLinenum();
@@ -273,24 +298,28 @@ function hideAllOptions() {
 	console.log("Hiding all checkmarks");
 	let element1 = document.querySelector("#check-syllable");
 	let element2 = document.querySelector("#check-stress");
-	let element3 = document.querySelector("#check-rhyme");
-	let element4 = document.querySelector("#check-enjambment");
-	let element5 = document.querySelector("#check-linenum");
+	let element3 = document.querySelector("#check-metric-stress");
+	let element4 = document.querySelector("#check-rhyme");
+	let element5 = document.querySelector("#check-enjambment");
+	let element6 = document.querySelector("#check-linenum");
 
 	if (!element1) { return; }
 	if (!element2) { return; }
 	if (!element3) { return; }
 	if (!element4) { return; }
 	if (!element5) { return; }
+	if (!element6) { return; }
 
 	element1.checked = false;
 	element2.checked = false;
 	element3.checked = false;
 	element4.checked = false;
 	element5.checked = false;
+	element6.checked = false;
 
 	hideSyllable();
 	hideStress();
+	hideMetricStress();
 	hideRhyme();
 	hideEnjambment();
 	hideLine();

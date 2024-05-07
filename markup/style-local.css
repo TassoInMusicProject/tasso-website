@@ -92,6 +92,13 @@ span.syllable {
 	border-radius: 10px;
 }
 
+.stress.showMetricStress {
+	font-weight: bold;
+	color: #cc0000 !important;
+	background: pink !important;
+	border-radius: 10px;
+}
+
 span.syllable.beginning.showSyllable::after,
 span.syllable.medial.showSyllable::after {
 	content: "-";
@@ -174,6 +181,10 @@ span.rhyme.hide-rhyme {
 }
 
 span.enjambment.hide-enjambment {
+	display: none;
+}
+
+span.majmin.hide-majmin {
 	display: none;
 }
 

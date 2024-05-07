@@ -92,9 +92,8 @@ span.syllable {
 	border-radius: 10px;
 }
 
-.stress.showMetricStress {
+.metricStress.showMetricStress {
 	font-weight: bold;
-	color: #cc0000 !important;
 	background: pink !important;
 	border-radius: 10px;
 }

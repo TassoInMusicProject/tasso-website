@@ -958,6 +958,77 @@ function hideGrid() {
 
 
 
+//////////////////////////////
+//
+// displayMetricMarkup --
+//
+
+function displayMetricMarkup() {
+	let metricElement = document.querySelector("#metricMarkup");
+	if (metricElement) {
+		metricElement.classList.remove("hidden");
+
+		let meterTab = document.querySelector("#meter-tab");
+		if (meterTab) {
+			meterTab.classList.add("active");
+		} else {
+			console.error("Cannot find #meter-tab");
+		}
+
+	} else {
+		console.warn("Cannot find #metricMarkup");
+	}
+	
+	let figureElement = document.querySelector("#figureMarkup");
+	if (figureElement) {
+		figureElement.classList.add("hidden");
+
+		let figureTab = document.querySelector("#figure-tab");
+		if (figureTab) {
+			figureTab.classList.remove("active");
+		} else {
+			console.warn("Cannot find #figure-tab");
+		}
+	} else {
+		console.warn("Cannot find #figureMarkup");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// displayFigureMarkup --
+//
+
+function displayFigureMarkup() {
+	let metricElement = document.querySelector("#metricMarkup");
+	if (metricElement) {
+		metricElement.classList.add("hidden");
+		let meterTab = document.querySelector("#meter-tab");
+		if (meterTab) {
+			meterTab.classList.remove("active");
+		} else {
+			console.error("Cannot find #meter-tab");
+		}
+	} else {
+		console.error("Cannot find #metricMarkup");
+	}
+
+	let figureElement = document.querySelector("#figureMarkup");
+	if (figureElement) {
+		figureElement.classList.remove("hidden");
+		let figureTab = document.querySelector("#figure-tab");
+		if (figureTab) {
+			figureTab.classList.add("active");
+		} else {
+			console.error("Cannot find #figure-tab");
+		}
+	} else {
+		console.error("Cannot find #figureMarkup");
+	}
+}
+
 
 
 </script>

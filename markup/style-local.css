@@ -191,6 +191,12 @@ span.majmin.hide-majmin {
 	visibility: hidden;
 }
 
+
+.hidden {
+	display: none;
+}
+
+
 td.syllable-count {
 	padding-left: 30px;
 }

@@ -1,14 +1,21 @@
 ---
+vim: ts=3
 scripts-local: true
 style-local: true
 handlebars: true
 aton: true
 jquery: true
-verovio: false
-pdfkit: false
-vim: ts=3
+layout: markup
 permalink: /markup/index.html
 ---
+
+
+<div style="margin-top:50px;">
+</div>
+
+
+<div id="contents">
+	<div id="metricMarkup">
 
 <div id="contents-markup-header"></div>
 
@@ -69,6 +76,15 @@ function handleTabKeyPressInTextArea(e) {
 }
 
 </script>
+
+	</div>
+
+
+<div class="hidden" id="figureMarkup">
+	Figure markup goes here
+</div>
+
+</div>
 
 
 

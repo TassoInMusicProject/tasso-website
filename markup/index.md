@@ -15,7 +15,7 @@ permalink: /markup/index.html
 <div class="options">
 <input id="check-linenum" onchange="toggleLinenum(event)" type=checkbox>&nbsp;<span title="alt/option-l">line numbers</span>
 <input id="check-syllable" onchange="toggleSyllable(event)" type=checkbox>&nbsp;<span title="alt/option-s">syllables</span>
-<input id="check-stress" onchange="toggleStress(event)" type=checkbox>&nbsp;<span title="alt/option-t">literary&nbsp;stress</span>
+<input id="check-stress" onchange="toggleStress(event)" type=checkbox>&nbsp;<span title="alt/option-t">lingustic&nbsp;stress</span>
 <input id="check-metric-stress" onchange="toggleMetricStress(event)" type=checkbox>&nbsp;<span title="alt/option-m">metric&nbsp;stress</span>
 <input id="check-rhyme" onchange="toggleRhyme(event)" type=checkbox>&nbsp;<span title="alt/option-r">rhyme scheme</span>
 <input id="check-enjambment" onchange="toggleEnjambment(event)" type=checkbox>&nbsp;<span title="alt/option-j">enjambments</span>

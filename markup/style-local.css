@@ -93,14 +93,20 @@ span.syllable {
 }
 
 .metricStress.showMetricStress {
-	font-weight: bold;
-	background: pink !important;
-	border-radius: 10px;
+	font-weight: bold !important;
+	color: #cc0000 !important;
+	/* background: pink !important; */
+	/* border-radius: 10px; */
+	text-decoration: underline;
+	display: inline-block;
 }
 
 span.syllable.beginning.showSyllable::after,
 span.syllable.medial.showSyllable::after {
 	content: "-";
+	color: black;
+	text-decoration: none !important;
+	display: inline-block;
 }
 
 /* 
@@ -254,5 +260,14 @@ span.elision {
 	padding: 10px;
 }
 
+#documentation-metric {
+	display:block;
+	padding-left: 150px;
+}
+
+#documentation-figures {
+	display:block;
+	padding-left: 175px;
+}
 
 

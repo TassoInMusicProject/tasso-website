@@ -1,6 +1,9 @@
 
+<div id="contents-metric-header"></div>
 
-<div id="contents-markup-header"></div>
+<div id="documentation-metric">
+{% include_relative metric-documentation.html %}
+</div>
 
 <div class="options">
 <input id="check-linenum" onchange="toggleLinenum(event)" type=checkbox>&nbsp;<span title="alt/option-l">line numbers</span>
@@ -19,7 +22,7 @@
 
 <div id="status"></div>
 
-<div id="contents-markup"></div>
+<div id="contents-metric"></div>
 
 <center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="display:none;"></textarea></center>
 
@@ -28,13 +31,12 @@
 <script>
 
 function updateDisplay(event) {
-		displayTextareaContents();
+console.warn("UPDATE DISPLAY", event);
+	displayMetricTextareaContents();
 }
 
 function handleTabKeyPressInTextArea(e) {
-
 	console.warn("KEY", e.key);
-
 	if (e.key === "Tab") {
 		e.preventDefault(); // Prevent the default tab behavior
             
@@ -60,3 +62,6 @@ function handleTabKeyPressInTextArea(e) {
 }
 
 </script>
+
+
+

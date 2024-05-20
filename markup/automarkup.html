@@ -107,7 +107,7 @@ console.warn("AUTOMARKUP", verse);
 function addSyllables(word) {
 	let matches;
 
-// console.log("PROCESSING WORD: ", word);
+console.log("PROCESSING WORD: ", word);
 	matches = word.match(/^(miei)([,.!?:']?)$/i);
 	if (matches) {
 		return `mi-ei${matches[2]}`;

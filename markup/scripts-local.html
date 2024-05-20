@@ -2,7 +2,7 @@
 <script src="/scripts/scripts-common.js"></script>
 
 {% include_relative listeners.html %}
-{% include_relative templates.html %}
+{% include_relative metric-templates.html %}
 
 <script>
 //
@@ -89,9 +89,10 @@ function displayPreviousPoem() {
 //
 
 function displayMarkupInitialize(id, target) {
+console.warn("INITIALIZING MARKUP", id, target);
 	PrepareGlobalTassoObjects();
 	if (!target) {
-		target = "#contents-markup";
+		target = "#contents-metric";
 	}
 	if (id) {
 		id = id.replace(/[a-z]$/, "");
@@ -104,7 +105,7 @@ function displayMarkupInitialize(id, target) {
 
 	let element = document.querySelector(target);
 	if (!element) {
-		console.log("Error: cannot place on page since", target, " doesn't exist.");
+		console.log("Error 4: cannot place on page since", target, " doesn't exist.");
 		return;
 	}
 	getPoemList(CurrentPoem, target);
@@ -215,16 +216,16 @@ function	buildPoemList(list) {
 //
 
 function displayMarkup(id, target) {
+console.log("DISPLAY MARKUP,", id, target);
 	if (!target) {
-		target = "#contents-markup";
+		target = "#contents";
 	}
 
-	let targetheader = "#contents-markup-header";
-	
-	
+	let targetHeader = "#contents-metric-header";
+
 	let element = document.querySelector(target);
 	if (!element) {
-		console.log("Error: cannot place Poem markup on page.");
+		console.log("Error 1: cannot place Poem markup on page.", target, element);
 		return;
 	}
 
@@ -255,12 +256,12 @@ function displayMarkup(id, target) {
 	maxwidth += 150;
 	for (let i=0; i<lines.length; i++) {
 		lines[i].style.minWidth = maxwidth + "px";
-		console.warn("====== WIDTH", lines[i].style.minWidth);
 	}
 
-	element = document.querySelector(targetheader);
+	element = document.querySelector(targetHeader);
+console.error("ELEMENT", element);
 	if (!element) {
-		console.log("Error: cannot place Poem markup header on page.");
+		console.log("Error 2: cannot place Poem markup header on page.", targetHeader, element);
 		return;
 	}
 	element.innerHTML = singlePoemMarkupHeader(id);
@@ -348,7 +349,7 @@ function prepareDataLink(id) {
 				sessionStorage.markupList = JSON.stringify(lines);
 				finishPreparingDataLink(id, lines);
 			})
-			.catch(error => console.error("Error downloading markup list:", error));
+			.catch(error => console.error("Error 3: downloading markup list:", error));
 	}
 }
 
@@ -392,15 +393,17 @@ function finishPreparingDataLink(id, markupList) {
 
 //////////////////////////////
 //
-// displayTextareaContents --
+// displayMetricTextareaContents --
 //
 
-function displayTextareaContents() {
+function displayMetricTextareaContents() {
+console.warn("IN DISPLAY METRIC TEXTAREA CONTENTS");
 
 	let data = {};
 	data.VERSES = {};
 	let textarea = document.querySelector("textarea");
 	if (!textarea) {
+		console.warn("Cannot find textarea (for metric markup)");
 		return;
 	}
 	data.VERSES.MVERSE = textarea.value;
@@ -408,12 +411,19 @@ function displayTextareaContents() {
 	data.LAST_MODIFIED = "NONE";
 
 	let asource = document.querySelector("#about-template").textContent;
+	if (!asource) {
+		console.error("CANNOT FIND ASOURCE");
+		return;
+	}
 	let atemplate = Handlebars.compile(asource);
 	let output = atemplate(data);
+console.warn("OUTPUT = ", output);
 
-	let element = document.querySelector("#contents-markup");
+	let element = document.querySelector("#contents-metric");
 	if (element) {
 		element.innerHTML = output;
+	} else {
+		console.warn("Cannot find #contents-metric");
 	}
 
 	applyOptions();
@@ -890,81 +900,14 @@ function hideEditor() {
 
 
 
-
-//////////////////////////////
-//
-// toggleGrid --
-//
-
-function toggleGrid(event) {
-	if (event.currentTarget.checked) {
-		showGrid();
-	} else {
-		hideGrid();
-	}
-}
-
-
-
-//////////////////////////////
-//
-// showGrid -- Not used, might need fixing otherwise.
-//
-
-function showGrid() {
-	console.log("Show grid");
-	let lines = document.querySelectorAll("tr.verse-line");
-	let cells = [];
-	maxlength = 0;
-	for (let i=0; i<lines.length; i++) {
-		cells[i] = lines[i].querySelectorAll("span.syllable");
-		if (maxlength < cells[i].length) {
-			maxlength = cells[i].length;
-		}
-	}
-
-	let maxwidth = [];
-	for (let i=0; i<maxlength; i++) {
-		maxwidth[i] = 0;
-	}
-
-	for (let i=0; i<cells.length; i++) {
-		for (let j=0; j<cells[i].length; j++) {
-			let width = cells[i][j].offsetWidth;
-			if (maxwidth[j] < width) {
-				maxwidth[j] = width;
-			}
-		}
-	}
-
-	for (let i=0; i<cells.length; i++) {
-		for (let j=0; j<cells[i].length; j++) {
-			cells[i][j].style.width = `${maxwidth[j]}px`;
-		}
-	}
-
-}
-
-
-
-//////////////////////////////
-//
-// hideGrid --
-//
-
-function hideGrid() {
-	console.log("Hide grid");
-}
-
-
-
 //////////////////////////////
 //
 // displayMetricMarkup --
 //
 
 function displayMetricMarkup() {
-	let metricElement = document.querySelector("#metricMarkup");
+console.log("DISPLAY METRIC MARKUP");
+	let metricElement = document.querySelector("#metric-markup");
 	if (metricElement) {
 		metricElement.classList.remove("hidden");
 
@@ -976,10 +919,10 @@ function displayMetricMarkup() {
 		}
 
 	} else {
-		console.warn("Cannot find #metricMarkup");
+		console.warn("Cannot find #metric-markup");
 	}
 	
-	let figureElement = document.querySelector("#figureMarkup");
+	let figureElement = document.querySelector("#figure-markup");
 	if (figureElement) {
 		figureElement.classList.add("hidden");
 
@@ -990,7 +933,7 @@ function displayMetricMarkup() {
 			console.warn("Cannot find #figure-tab");
 		}
 	} else {
-		console.warn("Cannot find #figureMarkup");
+		console.warn("Cannot find #figure-markup");
 	}
 }
 
@@ -1002,7 +945,8 @@ function displayMetricMarkup() {
 //
 
 function displayFigureMarkup() {
-	let metricElement = document.querySelector("#metricMarkup");
+console.log("DISPLAY FIGURE MARKUP");
+	let metricElement = document.querySelector("#metric-markup");
 	if (metricElement) {
 		metricElement.classList.add("hidden");
 		let meterTab = document.querySelector("#meter-tab");
@@ -1012,10 +956,10 @@ function displayFigureMarkup() {
 			console.error("Cannot find #meter-tab");
 		}
 	} else {
-		console.error("Cannot find #metricMarkup");
+		console.error("Cannot find #metric-markup");
 	}
 
-	let figureElement = document.querySelector("#figureMarkup");
+	let figureElement = document.querySelector("#figure-markup");
 	if (figureElement) {
 		figureElement.classList.remove("hidden");
 		let figureTab = document.querySelector("#figure-tab");
@@ -1025,7 +969,7 @@ function displayFigureMarkup() {
 			console.error("Cannot find #figure-tab");
 		}
 	} else {
-		console.error("Cannot find #figureMarkup");
+		console.error("Cannot find #figure-markup");
 	}
 }
 

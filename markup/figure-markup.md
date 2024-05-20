@@ -11,13 +11,19 @@
 </style>
 
 
+<div id="contents-figure-header"></div>
+
+<div id="documentation-figure">
+{% include_relative figure-documentation.html %}
+</div>
+
 <div class="options">
 
 <span class="nobreak"><input id="check-linenum" onchange="toggleLinenum(event)" type=checkbox>&nbsp;<span title="alt/option-l">line numbers</span></span>
 
 <span class="label">Figures of sound:</span>
 
-<span class="nobreak"><input id="check-syllable" onchange="toggleRM(event)" type=checkbox>&nbsp;<span title="">Rime al Mezzo</span></span>
+<span class="nobreak"><input id="check-syllable" onchange="toggleRM(event)" type=checkbox>&nbsp;<span title=""><i>Rime al mezzo</i></span></span>
 <span class="nobreak"><input id="check-syllable" onchange="toggleIR(event)" type=checkbox>&nbsp;<span title="">Internal rhymes</span></span>
 <span class="nobreak"><input id="check-syllable" onchange="toggleAL(event)" type=checkbox>&nbsp;<span title="">Alliteration</span></span>
 <span class="nobreak"><input id="check-syllable" onchange="toggleAS(event)" type=checkbox>&nbsp;<span title="">Assonance</span></span>
@@ -32,5 +38,16 @@
 <span class="nobreak"><input id="check-syllable" onchange="togglePA(event)" type=checkbox>&nbsp;<span title="">Parallelism</span></span>
 
 </div>
+
+<div id="contents-figure"></div>
+
+<div id="status"></div>
+
+<div id="contents-metric"></div>
+
+<center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="display:none;"></textarea></center>
+
+<div style='margin-bottom:200px;'></div>
+
 
 

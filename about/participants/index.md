@@ -103,6 +103,10 @@ Arnaldo Morelli (University of L'Aquila)
 </div>
 
 <div class="person">
+Alexander Morgan (independent scholar)
+</div>
+
+<div class="person">
 Massimo Ossi (Indiana University Bloomington) 
 </div>
 

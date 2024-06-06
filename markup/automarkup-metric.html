@@ -3,8 +3,8 @@
 // Function to automatically parse syllables.
 // vim: ts=3
 
-function autoMarkup(verse) {
-console.warn("AUTOMARKUP", verse);
+function autoMarkupMetric(verse) {
+	console.log("autoMarkupMeasure");
 	if (!verse) {
 		return "";
 	}
@@ -105,9 +105,10 @@ console.warn("AUTOMARKUP", verse);
 //
 
 function addSyllables(word) {
+	console.log("addSyllables");
 	let matches;
 
-console.log("PROCESSING WORD: ", word);
+	// console.log("PROCESSING WORD: ", word);
 	matches = word.match(/^(miei)([,.!?:']?)$/i);
 	if (matches) {
 		return `mi-ei${matches[2]}`;

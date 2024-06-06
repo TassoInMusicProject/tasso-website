@@ -20,18 +20,18 @@
 <input onchange="toggleGrid(event)", type=checkbox>&nbsp;grid
 -->
 
-<div id="status"></div>
 
 <div id="contents-metric"></div>
 
-<center><textarea oninput="updateDisplay(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor" style="display:none;"></textarea></center>
+<div id="status-metric"></div>
+
+<center><textarea oninput="updateDisplayMetric(event)" onkeydown="handleTabKeyPressInTextArea(event)" id="editor-metric" style="display:none;"></textarea></center>
 
 <div style='margin-bottom:200px;'></div>
 
 <script>
 
-function updateDisplay(event) {
-console.warn("UPDATE DISPLAY", event);
+function updateDisplayMetric(event) {
 	displayMetricTextareaContents();
 }
 

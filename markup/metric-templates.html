@@ -5,7 +5,7 @@
 <!-- Markup-page header -->
 
 {% raw %}
-<script id="about-header-template" type="text/x-handlebars-template">
+<script id="about-metric-header-template" type="text/x-handlebars-template">
 	<center>
 		<table style=' width=100%; padding-left:50px; padding-right:50px; width:100%'>
 		<tr>
@@ -54,7 +54,7 @@
 <!-- Main contents template -->
 
 {% raw %}
-<script id="about-template" type="text/x-handlebars-template">
+<script id="about-metric-template" type="text/x-handlebars-template">
 
 <div class="maincontent">
 	{{{mverse VERSES.MVERSE VERSES.VERSE}}}
@@ -83,8 +83,9 @@
 //
 
 Handlebars.registerHelper("mverse",  function (mverse, verse) {
+	console.log("mverse");
 	if (!mverse || (!Array.isArray(mverse) && mverse.match(/^\s*$/))) {
-		element = document.querySelector("#status");
+		element = document.querySelector("#metric-markup #status-metric");
 		if (element) {
 			element.innerHTML = "N.B.: No markup for this poem, type alt/option-e to display editor for adding markup";
 			element.style["margin-bottom"] = "50px";
@@ -97,7 +98,7 @@ Handlebars.registerHelper("mverse",  function (mverse, verse) {
 		}
 		mverse = [];
 		for (let i=0; i<verse.length; i++) {
-			mverse[i] = autoMarkup(verse[i]);
+			mverse[i] = autoMarkupMetric(verse[i]);
 		}
 	} else {
 		// turn on all options if MVERSE is available
@@ -111,7 +112,7 @@ Handlebars.registerHelper("mverse",  function (mverse, verse) {
 		mverse = [ mverse ];
 	}
 
-	let textarea = document.querySelector("textarea");
+	let textarea = document.querySelector("textarea#editor-metric");
 	if (textarea) {
 		if (textarea.style.display === "none") {
 			if (mverse.length == 1) {
@@ -132,7 +133,7 @@ Handlebars.registerHelper("mverse",  function (mverse, verse) {
 			}
 			// textarea.style.display = "block";
 		} else {
-			mverse = splitByBlankLine(textarea.value);
+			mverse = splitByBlankLineMetric(textarea.value);
 		}
 	}
 
@@ -154,10 +155,11 @@ Handlebars.registerHelper("mverse",  function (mverse, verse) {
 
 //////////////////////////////
 //
-// splitByBlankLine --
+// splitByBlankLineMetric --
 //
 
-function splitByBlankLine(text) {
+function splitByBlankLineMetric(text) {
+	console.log("splitByBlankLineMetric");
 	text = text.replace(/^\n+/, "");
 	text = text.replace(/\n+$/, "");
 	text = text.replace(/\n+/g, "\n");
@@ -186,6 +188,7 @@ function splitByBlankLine(text) {
 //
 
 function prepareMverseTable(mverse) {
+	console.log("prepareMverseTable");
 	if (!mverse) {
 		return "";
 	}
@@ -277,6 +280,7 @@ function prepareMverseTable(mverse) {
 //
 
 function prepareLineMarkup(text, side) {
+	console.log("prepareLineMarkup");
 
 	// + is stress marker, convert to -- for further processing:
 	let ztext = text.replace(/\+/g, "--");
@@ -368,6 +372,7 @@ function prepareLineMarkup(text, side) {
 //
 
 Handlebars.registerHelper("verses", function(italian, english) {
+	console.log("verses");
 	var output = "";
 	if (!italian) {
 		return output;
@@ -396,6 +401,7 @@ Handlebars.registerHelper("verses", function(italian, english) {
 //
 
 function generateDualVerse(italian, english) {
+	console.log("generateDualVerse");
 	var output = "";
 	var v = [];
 	var vv = [];
@@ -436,6 +442,7 @@ function generateDualVerse(italian, english) {
 //
 
 Handlebars.registerHelper("oldverses", function(verses, translation, catnum) {
+	console.log("oldverses");
 	var rime = catnum.match(/Trm0*(\d+)/)[1];
 	
 	if (!verses) {
@@ -493,6 +500,7 @@ Handlebars.registerHelper("oldverses", function(verses, translation, catnum) {
 //
 
 Handlebars.registerHelper("formatTitle", function(text) {
+	console.log("formatTitle");
 	if (!text) {
 		return new Handlebars.SafeString("EMPTY");
 	}
@@ -511,6 +519,7 @@ Handlebars.registerHelper("formatTitle", function(text) {
 //
 
 Handlebars.registerHelper("id2rime", function(text) {
+	console.log("id2rime");
 	var matches;
 	var output = 0;
 	if (matches = text.match(/^Trm0*(\d+)/)) {
@@ -527,6 +536,7 @@ Handlebars.registerHelper("id2rime", function(text) {
 //
 
 Handlebars.registerHelper("attribution",  function (attribution, solerti) {
+	console.log("attribution");
 	var output = "";
 	if (!attribution) {
 		return new Handlebars.SafeString(output);
@@ -550,6 +560,7 @@ Handlebars.registerHelper("attribution",  function (attribution, solerti) {
 //
 
 Handlebars.registerHelper("links",  function (solerti) {
+	console.log("links");
 	var output = "";
 	if (!solerti) {
 		return new Handlebars.SafeString(output);
@@ -591,6 +602,7 @@ Handlebars.registerHelper("links",  function (solerti) {
 //
 
 Handlebars.registerHelper("dating",  function (dating, solerti) {
+	console.log("dating");
 	var output = "";
 	if (!dating) {
 		return new Handlebars.SafeString(output);
@@ -614,6 +626,7 @@ Handlebars.registerHelper("dating",  function (dating, solerti) {
 //
 
 Handlebars.registerHelper("dedicatee",  function (dedicatee) {
+	console.log("dedicatee");
 	var output = "";
 	if (!dedicatee) {
 		return new Handlebars.SafeString(output);
@@ -633,6 +646,7 @@ Handlebars.registerHelper("dedicatee",  function (dedicatee) {
 //
 
 Handlebars.registerHelper("commentary",  function (commentary) {
+	console.log("comentary");
 	var output = "";
 	if (!commentary) {
 		return new Handlebars.SafeString(output);
@@ -652,6 +666,7 @@ Handlebars.registerHelper("commentary",  function (commentary) {
 //
 
 Handlebars.registerHelper("newcrited",  function (newcrited) {
+	console.log("newcrited");
 	var output = "";
 	if (!newcrited) {
 		return new Handlebars.SafeString(output);
@@ -670,6 +685,7 @@ Handlebars.registerHelper("newcrited",  function (newcrited) {
 //
 
 function makeId(solerti, prefix) {
+	console.log("makeId");
 	var id = prefix;
 	if (solerti < 1000) { id += "0"; }
 	if (solerti < 100 ) { id += "0"; }
@@ -686,6 +702,7 @@ function makeId(solerti, prefix) {
 //
 
 function addMusicalSettingsLink(text, solerti) {
+	console.log("addMusicalSettingsLink");
 	if (Array.isArray(text)) {
 		return "Musical Settings LINK PROBLEM IN ATON ENTRY";
 	}
@@ -724,6 +741,7 @@ function addMusicalSettingsLink(text, solerti) {
 //
 
 function addLiterarySourceLink(text, solerti) {
+	console.log("addLiterarySourceLink");
 	if (Array.isArray(text)) {
 		return "LITERARY SOURCE LINK PROBLEM IN ATON ENTRY";
 	}
@@ -756,12 +774,14 @@ function addLiterarySourceLink(text, solerti) {
 }
 
 
+
 //////////////////////////////
 //
 // getEditorPopup --
 //
 
 function getEditorPopup(verses) {
+	console.log("getEditorPopup");
 	var title = verses.EDITION_TITLE;
 	var loc   = verses.EDITION_LOC;
 	var pub   = verses.EDITION_PUB;
@@ -792,12 +812,14 @@ function getEditorPopup(verses) {
 }
 
 
+
 //////////////////////////////
 //
 // getTranslationPopup --
 //
 
 function getTranslationPopup(verses) {
+	console.log("getTranslationPopup");
 
 	var title = verses.TRANSLATION_TITLE;
 	var loc   = verses.TRANSLATION_LOC;
@@ -836,6 +858,7 @@ function getTranslationPopup(verses) {
 //
 
 Handlebars.registerHelper("edtrans",  function (verses) {
+	console.log("edtrans");
 	var editor = verses.EDITOR;
 	var edpop = getEditorPopup(verses);
 	var transpop = getTranslationPopup(verses);
@@ -887,6 +910,7 @@ Handlebars.registerHelper("edtrans",  function (verses) {
 //
 
 function cleanCurlies(text) {
+	console.log("cleanCurlies");
 	text = text.replace(/\{.*?\}/g, "");
 	return text;
 }
@@ -899,6 +923,7 @@ function cleanCurlies(text) {
 //
 
 function reverseName(text) {
+	console.log("reverseName");
 	if (!text) {
 		return "";
 	}
@@ -920,6 +945,7 @@ function reverseName(text) {
 //
 
 Handlebars.registerHelper("parentheticalinfo",  function (obj) {
+	console.log("parentheticalinfo");
 	var output = "";
 	if (!obj) {
 		return new Handlebars.SafeString("");
@@ -969,6 +995,7 @@ Handlebars.registerHelper("parentheticalinfo",  function (obj) {
 
 var ZZZ = ""
 function processFootnotes(text) {
+	console.log("processFootnotes");
 	var lines = text.split(/\n/);
 	var newtext = "";
 	for (var i=0; i<lines.length; i++) {
@@ -997,6 +1024,7 @@ function processFootnotes(text) {
 //
 
 Handlebars.registerHelper("lastModified",  function (ymd_date) {
+	console.log("lastModified");
 	var matches = ymd_date.match(/(20\d{2})\/0*(\d+)\/0*(\d+)/);
 	if (matches) {
 		var year = matches[1];
@@ -1048,7 +1076,7 @@ Handlebars.registerHelper("lastModified",  function (ymd_date) {
 </script>
 
 
-{% include_relative automarkup.html %}
+{% include_relative automarkup-figure.html %}
 
 
 

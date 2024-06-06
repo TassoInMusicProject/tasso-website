@@ -3,6 +3,7 @@
 
 {% include_relative listeners.html %}
 {% include_relative metric-templates.html %}
+{% include_relative figure-templates.html %}
 
 <script>
 //
@@ -28,6 +29,7 @@ let VARIORUM = {};
 //
 
 function displaySetting(poem) {
+	console.log("displaySettings");
 	if (!poem) {
 		poem = CurrentPoem;
 	}
@@ -46,6 +48,7 @@ function displaySetting(poem) {
 //
 
 function displaySource(poem) {
+	console.log("displaySource");
 	if (!poem) {
 		poem = CurrentPoem;
 	}
@@ -64,8 +67,9 @@ function displaySource(poem) {
 //
 
 function displayNextPoem() {
+	console.log("displayNextSource");
 	let nid = PoemList[CurrentPoem].next;
- 	displayMarkup(nid);
+ 	displayMetricMarkup(nid);
 }
 
 
@@ -76,20 +80,21 @@ function displayNextPoem() {
 //
 
 function displayPreviousPoem() {
+	console.log("displayPreviousSource");
 	let nid = PoemList[CurrentPoem].previous;
- 	displayMarkup(nid);
+ 	displayMetricMarkup(nid);
 }
 
 
 
 //////////////////////////////
 //
-// displayMarkupInitialize -- Show the literary variants for the given
+// displayMetricMarkupInitialize -- Show the literary variants for the given
 // 	catalog number.
 //
 
-function displayMarkupInitialize(id, target) {
-console.warn("INITIALIZING MARKUP", id, target);
+function displayMetricMarkupInitialize(id, target) {
+	console.log("displayMetricMarkupInitialize");
 	PrepareGlobalTassoObjects();
 	if (!target) {
 		target = "#contents-metric";
@@ -109,7 +114,39 @@ console.warn("INITIALIZING MARKUP", id, target);
 		return;
 	}
 	getPoemList(CurrentPoem, target);
-	displayMarkup(id, target);
+	displayMetricMarkup(id, target);
+}
+
+
+
+
+//////////////////////////////
+//
+// displayFigureMarkupInitialize -- 
+//
+
+function displayFigureMarkupInitialize(id, target) {
+	console.log("displayFigureMarkupInitialize");
+	// PrepareGlobalTassoObjects();
+	if (!target) {
+		target = "#contents-figure";
+	}
+	if (id) {
+		id = id.replace(/[a-z]$/, "");
+		CurrentPoem = id;
+	} else {
+		id = CurrentPoem;
+		id = id.replace(/[a-z]$/, "");
+		CurrentPoem = id;
+	}
+
+	let element = document.querySelector(target);
+	if (!element) {
+		console.error("Error 4: cannot place on page since", target, " doesn't exist.");
+		return;
+	}
+	// getPoemList(CurrentPoem, target);
+	displayFigureMarkup(id, target);
 }
 
 
@@ -120,6 +157,7 @@ console.warn("INITIALIZING MARKUP", id, target);
 //
 
 function getPoemList(id, target) {
+	console.log("getPoemList");
 
 	if (id) {
 		CurrentPoem = id;
@@ -136,6 +174,7 @@ function getPoemList(id, target) {
 //
 
 function buildAllSettingList() {
+	console.log("buildAllSettings");
 	ALLSETTINGLIST = RIMESETTINGLIST
 // for now only incude rime settings in list of variants
 // since there is only poetic text for the rime.
@@ -156,6 +195,7 @@ function buildAllSettingList() {
 //
 
 function	buildPoemList(list) {
+	console.log("buildPoemList");
 	let tosort = {};
 	let id;
 	if (!list) {
@@ -212,11 +252,11 @@ function	buildPoemList(list) {
 
 //////////////////////////////
 //
-// displayMarkup --
+// displayMetricMarkup --
 //
 
-function displayMarkup(id, target) {
-console.log("DISPLAY MARKUP,", id, target);
+function displayMetricMarkup(id, target) {
+	console.log("displayMetricMarkup");
 	if (!target) {
 		target = "#contents";
 	}
@@ -225,7 +265,7 @@ console.log("DISPLAY MARKUP,", id, target);
 
 	let element = document.querySelector(target);
 	if (!element) {
-		console.log("Error 1: cannot place Poem markup on page.", target, element);
+		console.error("Error 1: cannot place Poem markup on page.", target, element);
 		return;
 	}
 
@@ -233,11 +273,10 @@ console.log("DISPLAY MARKUP,", id, target);
 		element.innerHTML = " no multiple variant view allowed ";
 		return;
 	}
-	element.innerHTML = singlePoemMarkup(id);
+	element.innerHTML = singlePoemMetricMarkup(id);
 	prepareDataLink(id);
 
 	let lines = document.querySelectorAll("td.verse-text");
-	console.warn("============== LINES", lines);
 	let maxwidth = -100;
 	for (let i=0; i<lines.length; i++) {
 		let width = lines[i].offsetWidth;
@@ -259,12 +298,76 @@ console.log("DISPLAY MARKUP,", id, target);
 	}
 
 	element = document.querySelector(targetHeader);
-console.error("ELEMENT", element);
 	if (!element) {
 		console.log("Error 2: cannot place Poem markup header on page.", targetHeader, element);
 		return;
 	}
-	element.innerHTML = singlePoemMarkupHeader(id);
+	element.innerHTML = singlePoemMetricMarkupHeader(id);
+
+	if (ShowAllOptions) {
+		showAllOptions();
+	}
+	applyOptions();
+}
+
+
+
+//////////////////////////////
+//
+// displayFigureMarkup
+//
+
+function displayFigureMarkup(id, target) {
+	console.log("displayFigureMarkup");
+
+	if (!target) {
+		target = "#contents";
+	}
+
+	let targetHeader = "#contents-figure-header";
+
+	let element = document.querySelector(target);
+	if (!element) {
+		console.log("Error 1: cannot place Poem markup on page.", target, element);
+		console.error("GOT HERE BBB BAD");
+		return;
+	}
+
+   if (!id) {
+		element.innerHTML = " no multiple variant view allowed ";
+		return;
+	}
+	let contents = singlePoemFigureMarkup(id);
+	element.innerHTML = contents;
+	prepareDataLink(id);
+
+	let lines = document.querySelectorAll("td.verse-text");
+	let maxwidth = -100;
+	for (let i=0; i<lines.length; i++) {
+		let width = lines[i].offsetWidth;
+		// let width = lines[i].getBoundingClientRect().width;
+		// let cell = lines[i];
+		// let width = cell.getBoundingClientRect().width - 
+		// 	parseFloat(getComputedStyle(cell).paddingLeft) - 
+		// 	parseFloat(getComputedStyle(cell).paddingRight) - 
+		// 	parseFloat(getComputedStyle(cell).borderLeftWidth) - 
+		// 	parseFloat(getComputedStyle(cell).borderRightWidth);
+		if (maxwidth < width) {
+			maxwidth = width;
+		}
+	}
+	// +150 needed for some strange reason.
+	maxwidth += 150;
+	for (let i=0; i<lines.length; i++) {
+		lines[i].style.minWidth = maxwidth + "px";
+	}
+
+	element = document.querySelector(targetHeader);
+	if (!element) {
+		console.log("Error 2: cannot place Poem markup header on page.", targetHeader, element);
+		return;
+	}
+	element.innerHTML = singlePoemFigureMarkupHeader(id);
 
 	if (ShowAllOptions) {
 		showAllOptions();
@@ -280,6 +383,7 @@ console.error("ELEMENT", element);
 //
 
 function prepareReverseVerse(vlist) {
+	console.log("prepareReverseVerse");
 	let output = {};
 	for (let i=0; i<vlist.length; i++) {
 		let id = vlist[i].CATALOGNUM;
@@ -295,22 +399,22 @@ function prepareReverseVerse(vlist) {
 			output[id] = vlist[i];
 		//}
 	}
-	console.log("VLIST ", output);
 	return output;
 }
 
 
 //////////////////////////////
 //
-// singlePoemMarkupHeader --
+// singlePoemMetricMarkupHeader --
 //
 
-function singlePoemMarkupHeader(id) {
+function singlePoemMetricMarkupHeader(id) {
+	console.log("singlePoemMetricMarkupHeader");
 	let vlist = GetFlatVerseList();
 	let REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
 
-	let hsource = document.querySelector("#about-header-template").textContent;
+	let hsource = document.querySelector("#about-metric-header-template").textContent;
 	let htemplate = Handlebars.compile(hsource);
 	let output = htemplate(REVERSEVERSE[id]);
 
@@ -319,11 +423,56 @@ function singlePoemMarkupHeader(id) {
 
 
 
-function singlePoemMarkup(id) {
+//////////////////////////////
+//
+// singlePoemFigureMarkupHeader --
+//
+
+function singlePoemFigureMarkupHeader(id) {
+	console.log("singlePoemFigureMarkupHeader");
 	let vlist = GetFlatVerseList();
 	let REVERSEVERSE = prepareReverseVerse(vlist);
    REVERSEVERSE.id  = id;
-	let asource = document.querySelector("#about-template").textContent;
+
+	let hsource = document.querySelector("#about-figure-header-template").textContent;
+	let htemplate = Handlebars.compile(hsource);
+	let output = htemplate(REVERSEVERSE[id]);
+
+	return output;
+}
+
+
+
+///////////////////////////////
+//
+// singlePoemMetricMarkup --
+//
+
+function singlePoemMetricMarkup(id) {
+	console.log("singlePoemFigureMarkup");
+	let vlist = GetFlatVerseList();
+	let REVERSEVERSE = prepareReverseVerse(vlist);
+   REVERSEVERSE.id  = id;
+	let asource = document.querySelector("#about-metric-template").textContent;
+	let atemplate = Handlebars.compile(asource);
+	let output = atemplate(REVERSEVERSE[id]);
+	return output;
+}
+
+
+
+///////////////////////////////
+//
+// singlePoemMetricMarkup --
+//
+
+function singlePoemFigureMarkup(id) {
+	console.log("singlePoemFigureMarkup");
+	let vlist = GetFlatVerseList();
+	let REVERSEVERSE = prepareReverseVerse(vlist);
+   REVERSEVERSE.id  = id;
+	let aelement = document.querySelector("#about-figure-template");
+	let asource  = aelement.textContent;
 	let atemplate = Handlebars.compile(asource);
 	let output = atemplate(REVERSEVERSE[id]);
 	return output;
@@ -337,6 +486,7 @@ function singlePoemMarkup(id) {
 //
 
 function prepareDataLink(id) {
+	console.log("prepareDataLink");
 	if (sessionStorage.markupList) {
 		let markupList = JSON.parse(sessionStorage.markupList);
 		finishPreparingDataLink(id, markupList);
@@ -361,6 +511,7 @@ function prepareDataLink(id) {
 
 
 function finishPreparingDataLink(id, markupList) {
+	console.log("finishPreparingDataLinke");
 	let index = -1;
 	for (let i=0; i<markupList.length; i++) {
 		if (markupList[i] === id) {
@@ -397,27 +548,26 @@ function finishPreparingDataLink(id, markupList) {
 //
 
 function displayMetricTextareaContents() {
-console.warn("IN DISPLAY METRIC TEXTAREA CONTENTS");
+	console.log("displayMetricTextareaContents");
 
 	let data = {};
 	data.VERSES = {};
-	let textarea = document.querySelector("textarea");
+	let textarea = document.querySelector("textarea#editor-metric");
 	if (!textarea) {
-		console.warn("Cannot find textarea (for metric markup)");
+		console.warn("Cannot find textarea#editor-metric ");
 		return;
 	}
 	data.VERSES.MVERSE = textarea.value;
 	data.CATALOGNUM = "NONE";
 	data.LAST_MODIFIED = "NONE";
 
-	let asource = document.querySelector("#about-template").textContent;
+	let asource = document.querySelector("#about-metric-template").textContent;
 	if (!asource) {
-		console.error("CANNOT FIND ASOURCE");
+		console.error("CANNOT FIND ASOURCE METRIC");
 		return;
 	}
 	let atemplate = Handlebars.compile(asource);
 	let output = atemplate(data);
-console.warn("OUTPUT = ", output);
 
 	let element = document.querySelector("#contents-metric");
 	if (element) {
@@ -430,12 +580,52 @@ console.warn("OUTPUT = ", output);
 }
 
 
+
+//////////////////////////////
+//
+// displayFigureTextareaContents --
+//
+
+function displayFigureTextareaContents() {
+	console.log("displayFigureTextareaContents");
+
+	let data = {};
+	data.VERSES = {};
+	let textarea = document.querySelector("textarea#editor-figure");
+	if (!textarea) {
+		console.warn("Cannot find textarea#editor-figure ");
+		return;
+	}
+	data.VERSES.FVERSE = textarea.value;
+	data.CATALOGNUM = "NONE";
+	data.LAST_MODIFIED = "NONE";
+
+	let asource = document.querySelector("#about-figure-template").textContent;
+	if (!asource) {
+		console.error("CANNOT FIND ASOURCE FIGURE");
+		return;
+	}
+	let atemplate = Handlebars.compile(asource);
+	let output = atemplate(data);
+
+	let element = document.querySelector("#contents-figure");
+	if (element) {
+		element.innerHTML = output;
+	} else {
+		console.warn("Cannot find #contents-figure");
+	}
+
+	applyOptions();
+}
+
+
 //////////////////////////////
 //
 // applyOptions --
 //
 
 function applyOptions() {
+	console.log("applyOptions");
 
 	let sylElement          = document.querySelector("#check-syllable");
 	let stressElement       = document.querySelector("#check-stress");
@@ -479,6 +669,7 @@ function applyOptions() {
 //
 
 function toggleStress(event) {
+	console.log("toggleStress");
 	if (event.currentTarget.checked) {
 		showStress();
 	} else {
@@ -494,7 +685,7 @@ function toggleStress(event) {
 //
 
 function showStress() {
-	console.log("Show stress");
+	console.log("showStress");
 	let syls = document.querySelectorAll(".stress");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("showStress");
@@ -509,7 +700,7 @@ function showStress() {
 //
 
 function hideStress() {
-	console.log("Hide stress");
+	console.log("hideStress");
 	let syls = document.querySelectorAll(".stress");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("showStress");
@@ -524,6 +715,7 @@ function hideStress() {
 //
 
 function toggleMetricStress(event) {
+	console.log("toggleMetricStress");
 	if (event.currentTarget.checked) {
 		showMetricStress();
 	} else {
@@ -539,7 +731,7 @@ function toggleMetricStress(event) {
 //
 
 function showMetricStress() {
-	console.log("Show metric stress");
+	console.log("showMetricStress");
 	let syls = document.querySelectorAll(".metricStress");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("showMetricStress");
@@ -558,7 +750,7 @@ function showMetricStress() {
 //
 
 function hideMetricStress() {
-	console.log("Hide metric stress");
+	console.log("hideMetricStress");
 	let syls = document.querySelectorAll(".metricStress");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("showMetricStress");
@@ -577,6 +769,7 @@ function hideMetricStress() {
 //
 
 function toggleSyllable(event) {
+	console.log("toggleSyllable");
 	if (event.currentTarget.checked) {
 		showSyllable();
 	} else {
@@ -592,7 +785,7 @@ function toggleSyllable(event) {
 //
 
 function showSyllable() {
-	console.log("Show syllable");
+	console.log("showSyllable");
 	let syls = document.querySelectorAll(".syllable");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("showSyllable");
@@ -609,7 +802,7 @@ function showSyllable() {
 //
 
 function hideSyllable() {
-	console.log("Hide syllable");
+	console.log("hideSyllable");
 	let syls = document.querySelectorAll(".syllable");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("showSyllable");
@@ -626,6 +819,7 @@ function hideSyllable() {
 //
 
 function toggleSyllableCount(event) {
+	console.log("toggleSyllableCount");
 	if (event.currentTarget.checked) {
 		showSyllableCount();
 	} else {
@@ -641,7 +835,7 @@ function toggleSyllableCount(event) {
 //
 
 function showSyllableCount() {
-	console.log("Show syllable count");
+	console.log("showSyllableCount");
 	let syls = document.querySelectorAll("td.syllable-count");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("hide-count");
@@ -656,7 +850,7 @@ function showSyllableCount() {
 //
 
 function hideSyllableCount() {
-	console.log("Hide syllable count");
+	console.log("hideSyllableCount");
 	let syls = document.querySelectorAll("td.syllable-count");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("hide-count");
@@ -672,6 +866,7 @@ function hideSyllableCount() {
 //
 
 function toggleRhyme(event) {
+	console.log("toggleRhyme");
 	if (event.currentTarget.checked) {
 		showRhyme();
 	} else {
@@ -687,7 +882,7 @@ function toggleRhyme(event) {
 //
 
 function showRhyme() {
-	console.log("Show rhyme");
+	console.log("showRhyme");
 	let syls = document.querySelectorAll("span.rhyme");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("hide-rhyme");
@@ -702,7 +897,7 @@ function showRhyme() {
 //
 
 function hideRhyme() {
-	console.log("Hide rhyme");
+	console.log("hideRhyme");
 	let syls = document.querySelectorAll("span.rhyme");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("hide-rhyme");
@@ -717,6 +912,7 @@ function hideRhyme() {
 //
 
 function toggleElision(event) {
+	console.log("toggleElision");
 	if (event.currentTarget.checked) {
 		showElision();
 	} else {
@@ -732,7 +928,7 @@ function toggleElision(event) {
 //
 
 function showElision() {
-	console.log("Show elision");
+	console.log("showElision");
 	let syls = document.querySelectorAll("span.elision");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("hide-elision");
@@ -747,14 +943,12 @@ function showElision() {
 //
 
 function hideElision() {
-	console.log("Hide elision");
+	console.log("hideElision");
 	let syls = document.querySelectorAll("span.elision");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("hide-elision");
 	}
 }
-
-
 
 
 
@@ -764,6 +958,7 @@ function hideElision() {
 //
 
 function toggleEnjambment(event) {
+	console.log("toggleEnjambment");
 	if (event.currentTarget.checked) {
 		showEnjambment();
 	} else {
@@ -779,7 +974,7 @@ function toggleEnjambment(event) {
 //
 
 function showEnjambment() {
-	console.log("Show enjambment");
+	console.log("showEnjambment");
 	let syls = document.querySelectorAll("span.enjambment");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("hide-enjambment");
@@ -794,7 +989,7 @@ function showEnjambment() {
 //
 
 function hideEnjambment() {
-	console.log("Hide enjambment");
+	console.log("hideEnjambment");
 	let syls = document.querySelectorAll("span.enjambment");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("hide-enjambment");
@@ -809,6 +1004,7 @@ function hideEnjambment() {
 //
 
 function toggleLinenum(event) {
+	console.log("toggleLinenum");
 	if (event.currentTarget.checked) {
 		showLinenum();
 	} else {
@@ -824,7 +1020,7 @@ function toggleLinenum(event) {
 //
 
 function showLinenum() {
-	console.log("Show Line Number");
+	console.log("showLinenum");
 	let syls = document.querySelectorAll(".linenum");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("show-linenum");
@@ -840,7 +1036,7 @@ function showLinenum() {
 //
 
 function hideLinenum() {
-	console.log("Hide Line Number");
+	console.log("hideLinenum");
 	let syls = document.querySelectorAll(".linenum");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("show-linenum");
@@ -856,7 +1052,7 @@ function hideLinenum() {
 //
 
 function toggleEditor(event) {
-	console.warn("TOGGLING EDITOR DISPLAY");
+	console.log("toggleEditor");
 	Editor = !Editor;
 	if (Editor) {
 		showEditor();
@@ -873,12 +1069,11 @@ function toggleEditor(event) {
 //
 
 function showEditor() {
-	console.error("===================== Show editor");
-	let element = document.querySelector("textarea");
-	if (!element) {
-		return;
+	console.log("showEditor");
+	let elements = document.querySelectorAll("textarea");
+	for (let i=0; i<elements.length; i++) {
+		elements[i].style.display = "block";
 	}
-	element.style.display = "block";
 }
 
 
@@ -889,33 +1084,32 @@ function showEditor() {
 //
 
 function hideEditor() {
-	console.warn("===================== Hide editor");
-	let element = document.querySelector("textarea");
-	if (!element) {
-		return;
+	console.log("hideEditor");
+	let elements = document.querySelectorAll("textarea");
+	for (let i=0; i<elements.length; i++) {
+		elements[i].style.display = "none";
+		console.log("TEXTAREA", elements);
 	}
-	element.style.display = "none";
-	console.log("TEXTAREA", element);
 }
 
 
 
 //////////////////////////////
 //
-// displayMetricMarkup --
+// showMetricMarkup --
 //
 
-function displayMetricMarkup() {
-console.log("DISPLAY METRIC MARKUP");
+function showMetricMarkup() {
+	console.log("displayMetricMarkup");
 	let metricElement = document.querySelector("#metric-markup");
 	if (metricElement) {
 		metricElement.classList.remove("hidden");
 
-		let meterTab = document.querySelector("#meter-tab");
+		let meterTab = document.querySelector("#metric-tab");
 		if (meterTab) {
 			meterTab.classList.add("active");
 		} else {
-			console.error("Cannot find #meter-tab");
+			console.error("Cannot find #metric-tab");
 		}
 
 	} else {
@@ -941,23 +1135,11 @@ console.log("DISPLAY METRIC MARKUP");
 
 //////////////////////////////
 //
-// displayFigureMarkup --
+// showFigureMarkup --
 //
 
-function displayFigureMarkup() {
-console.log("DISPLAY FIGURE MARKUP");
-	let metricElement = document.querySelector("#metric-markup");
-	if (metricElement) {
-		metricElement.classList.add("hidden");
-		let meterTab = document.querySelector("#meter-tab");
-		if (meterTab) {
-			meterTab.classList.remove("active");
-		} else {
-			console.error("Cannot find #meter-tab");
-		}
-	} else {
-		console.error("Cannot find #metric-markup");
-	}
+function showFigureMarkup() {
+	console.log("showFigureMarkup");
 
 	let figureElement = document.querySelector("#figure-markup");
 	if (figureElement) {
@@ -971,8 +1153,20 @@ console.log("DISPLAY FIGURE MARKUP");
 	} else {
 		console.error("Cannot find #figure-markup");
 	}
-}
 
+	let metricElement = document.querySelector("#metric-markup");
+	if (metricElement) {
+		metricElement.classList.add("hidden");
+		let meterTab = document.querySelector("#metric-tab");
+		if (meterTab) {
+			meterTab.classList.remove("active");
+		} else {
+			console.error("Cannot find #metric-tab");
+		}
+	} else {
+		console.error("Cannot find #metric-markup");
+	}
+}
 
 
 </script>

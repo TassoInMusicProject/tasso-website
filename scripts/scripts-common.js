@@ -1333,7 +1333,6 @@ function getRomanNumeralUpper(input) {
 //
 
 function GetTitleName(id) {
-console.log("GETTING TITLE NAME FOR", id);
 	var canto;
 	var echo;
 	var echoroman;
@@ -1414,11 +1413,9 @@ function ExternalLinksToNewTab() {
 //
 
 function LoadTassoData(fn) {
-console.log("GETTING TASSODATA");
 	if (sessionStorage["TASSODATA"]) {
 		console.log("Loaded Tasso database from session storage");
 		TASSODATA = JSON.parse(sessionStorage.TASSODATA);
-console.log("GOT TASSODATA FROM SESSION STORAGE", TASSODATA);
 		if (fn) {
 			fn();
 		}
@@ -1431,7 +1428,6 @@ console.log("GOT TASSODATA FROM SESSION STORAGE", TASSODATA);
 				console.log("Loaded Tasso database from server");
 				var aton = new ATON;
 				TASSODATA = aton.parse(this.responseText).TASSODATA;
-console.log("GOT TASSODATA2 FROM WEBSITE", TASSODATA);
 				sessionStorage.TASSODATA = JSON.stringify(TASSODATA);
 				fn();
 			}
@@ -1477,7 +1473,6 @@ function PrepareGlobalTassoObjects() {
 	if (!ALLSETTINGLIST) {
 		ALLSETTINGLIST = RIMESETTINGLIST.concat(AMINTASETTINGLIST,
 				GERUSETTINGLIST, OTHERSETTINGLIST);
-console.log("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO THERSETTINGLIST", OTHERSETTINGLIST);
 	}
 	if (!RSETTINGS) {
 		RSETTINGS = GetRsettings(ALLSETTINGLIST);

@@ -24,14 +24,20 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (CGI.rime < 10)   { id += "0"; }
 		id += CGI.rime;
 		CurrentPoem = id;
-	   // displayMarkup(id, "#contents");
+	   displayMetricMarkup(id, "#contents");
+	   displayFigureMarkup(id, "#contents");
 	} else if (CGI.id) {
 			CurrentPoem = CGI.id;
 	} else {
 		CurrentPoem = "Trm0048";
 	}
-	LoadTassoData(displayMarkupInitialize);
+	LoadTassoData(bothMarkup);
 });
+
+let bothMarkup = function (id, target) {
+	displayMetricMarkupInitialize(id, target);
+	displayFigureMarkupInitialize(id);
+}
 
 
 
@@ -41,21 +47,37 @@ document.addEventListener("DOMContentLoaded", function() {
 //
 
 document.addEventListener("DOMContentLoaded", function() {
+
 	if (!Editor) {
-		let element = document.querySelector("textarea");
+		let element = document.querySelector("textarea#editor-metric");
 		if (!element) {
 			return;
 		}
-		console.warn("HIDING textarea");
 		element.style.display = "none";
 	} else {
-		let element = document.querySelector("textarea");
+		let element = document.querySelector("textarea#editor-metric");
 		if (!element) {
 			return;
 		}
 		console.error("SHOWING textarea");
 		element.style.display = "block";
 	}
+
+	if (!Editor) {
+		let element = document.querySelector("textarea#editor-figure");
+		if (!element) {
+			return;
+		}
+		element.style.display = "none";
+	} else {
+		let element = document.querySelector("textarea#editor-figure");
+		if (!element) {
+			return;
+		}
+		console.error("SHOWING textarea");
+		element.style.display = "block";
+	}
+
 });
 
 
@@ -80,7 +102,6 @@ window.addEventListener('keydown', function(event) {
 		}
 
 		if (event.code == "KeyJ") {
-			console.log("Toggling Enjambment checkmark");
 			// toggle enjambment check mark
 			let element = document.querySelector("#check-enjambment");
 			if (element) {
@@ -96,7 +117,6 @@ window.addEventListener('keydown', function(event) {
 		}
 
 		if (event.code == "KeyL") {
-			console.log("Toggling Line checkmark");
 			// toggle line check mark
 			let element = document.querySelector("#check-linenum");
 			if (element) {
@@ -112,7 +132,6 @@ window.addEventListener('keydown', function(event) {
 		}
 
 		if (event.code == "KeyR") {
-			console.log("Toggling Rhyme checkmark");
 			// toggle rhyme check mark
 			let element = document.querySelector("#check-rhyme");
 			if (element) {
@@ -128,7 +147,6 @@ window.addEventListener('keydown', function(event) {
 		}
 
 		if (event.code == "KeyS") {
-			console.log("Toggling Syllable checkmark");
 			// toggle syllable check mark
 			let element = document.querySelector("#check-syllable");
 			if (element) {
@@ -144,7 +162,6 @@ window.addEventListener('keydown', function(event) {
 		}
 
 		if (event.code == "KeyT") {
-			console.log("Toggling Stress checkmark");
 			// toggle stress check mark
 			let element = document.querySelector("#check-stress");
 			if (element) {
@@ -160,7 +177,6 @@ window.addEventListener('keydown', function(event) {
 		}
 
 		if (event.code == "KeyM") {
-			console.log("Toggling Metric stress checkmark");
 			// toggle metric stress check mark
 			let element = document.querySelector("#check-metric-stress");
 			if (element) {
@@ -207,7 +223,7 @@ window.addEventListener('keydown', function(event) {
 //
 
 function toggleAllOptions() {
-	console.log("Toggling all checkmarks");
+	console.log("toggleAllOptions");
 	let element1 = document.querySelector("#check-syllable");
 	let element2 = document.querySelector("#check-stress");
 	let element3 = document.querySelector("#check-metric-stress");
@@ -257,7 +273,7 @@ function toggleAllOptions() {
 //
 
 function showAllOptions() {
-	console.log("Showing all checkmarks");
+	console.log("showAllOptions");
 	let element1 = document.querySelector("#check-syllable");
 	let element2 = document.querySelector("#check-stress");
 	let element3 = document.querySelector("#check-metric-stress");
@@ -295,7 +311,7 @@ function showAllOptions() {
 //
 
 function hideAllOptions() {
-	console.log("Hiding all checkmarks");
+	console.log("HideAllOptions");
 	let element1 = document.querySelector("#check-syllable");
 	let element2 = document.querySelector("#check-stress");
 	let element3 = document.querySelector("#check-metric-stress");

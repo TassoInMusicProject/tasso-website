@@ -1,0 +1,277 @@
+
+<!-- HANDLEBARS TEMPLATES -------------------------------------- -->
+<!-- vim: set ts=3 : -->
+
+<!-- Main contents template -->
+
+{% raw %}
+<script id="about-figure-header-template" type="text/x-handlebars-template">
+	<center>
+		<table style=' width=100%; padding-left:50px; padding-right:50px; width:100%'>
+		<tr>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayPreviousSource();'>
+					<span style='letter-spacing:-7pt;'>
+						&#9664;&#9664;
+					</span>
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h1>Figure markup</h1>
+			</td>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayNextSource();'>
+				<span style='position:relative;left:-8px; letter-spacing:-7pt;'>
+					&#9654;&#9654;
+				</span>
+			</td>
+	</tr>
+	</table>
+</center>
+
+<center>
+
+	<table style='margin-top:-50px; padding-left:50px; padding-right:50px; width:100%'>
+		<tr>
+			<td class='triangle'><span class='triangle' onclick='displayPreviousSource();'>
+				&#9664;
+			</td>
+			<td style='width:100%; text-align:center'>
+				<h2>{{{formatTitle TITLE}}}  {{{parentheticalinfo this}}} </h2>
+			</td>
+			<td class='triangle'>
+				<span class='triangle' onclick='displayNextSource();'>
+					&#9654;
+				</span>
+			</td>
+		</tr>
+	</table>
+</center>
+
+</script>
+{% endraw %}
+
+{% raw %}
+<script id="about-figure-template" type="text/x-handlebars-template">
+
+<div class="#figure-markup maincontent2">
+	{{{fverse VERSES.FVERSE VERSES.VERSE}}}
+</div>
+
+{{lastModified LAST_MODIFIED }}
+
+<div id="dataLink"></div>
+
+</script>
+{% endraw %}
+
+
+
+<script>
+
+///////////////////////////////////////////////////////////////////////////
+//
+// Handlebar helper functions --
+//
+
+
+//////////////////////////////
+//
+// fverse -- Need to deal with multiple strophes.
+//
+
+Handlebars.registerHelper("fverse",  function (fverse, verse) {
+	console.error("fverse");
+	if (!fverse || (!Array.isArray(fverse) && fverse.match(/^\s*$/))) {
+		element = document.querySelector("#figure-markup #status-figure");
+		if (element) {
+			element.innerHTML = "N.B.: No markup for this poem, type alt/option-e to display editor for adding markup";
+			element.style["margin-bottom"] = "50px";
+			element.style["margin-left"] = "100px";
+			element.style["color"] = "#990000";
+		}
+		// No VERSES.FVERSE entry, so display use VERSES.VERSE
+		if (typeof verse === "string") {
+			verse = [verse];
+		}
+		for (let i=0; i<verse.length; i++) {
+			// fverse[i] = autoMarkup(verse[i]);
+		}
+	} else {
+		// turn on all options if FVERSE is available
+		if (!OptionsInitialized) {
+			ShowAllOptions = true;
+			OptionsInitialized = true;
+		}
+	}
+
+	if (typeof fverse === "string") {
+		fverse = [ fverse ];
+	}
+	if (fverse[0].match(/^\s*$/)) {
+		// no fverse data yet
+		fverse = verse;
+	}
+
+	let textarea = document.querySelector("textarea#editor-figure");
+	if (textarea) {
+		if (textarea.style.display === "none") {
+			if (fverse.length == 1) {
+				if (fverse[0][0] != "\t") {
+					textarea.value = "\t" + fverse[0];
+				} else {
+					textarea.value = fverse[0];
+				}
+			} else {
+				let text = "";
+				for (let i=0; i<fverse.length; i++) {
+					text += fverse[i];
+					if (i < fverse.length - 1) {
+						text += "\n";
+					}
+				}
+				textarea.value = text;
+			}
+			// textarea.style.display = "block";
+		} else {
+			fverse = splitByBlankLineFigure(textarea.value);
+		}
+	}
+	let output = "";
+	if (!fverse) {
+		return new Handlebars.SafeString(output);
+	}
+	for (let i=0; i<fverse.length; i++) {
+		output += "<div style='margin-bottom:30px;' class='indent'>";
+		let contents = prepareFverseTable(fverse[i]);
+		output += contents;
+		output += "</div>";
+	}
+	return new Handlebars.SafeString(output);
+});
+
+
+
+//////////////////////////////
+//
+// prepareFverseTable --
+//
+
+function prepareFverseTable(fverse) {
+	console.log("prepareFverseTable");
+console.error("FVERSE INCOMING ", fverse);
+	if (!fverse) {
+		return "";
+	}
+	let lines = fverse.split(/\r?\n/);
+	let output = "";
+	output += "<table class='verse-line'>\n";
+
+	for (let i=0; i<lines.length; i++) {
+		let line = lines[i];
+		let matches = line.match(/^\s*(.*)\s*=(.*)\s*$/);
+		let text = "";
+		let side = "";
+		if (matches) {
+			text = matches[1];
+			side = matches[2];
+		} else {
+			matches = line.match(/^\s*(.*)\s*/);
+			if (matches) {
+				text = matches[1];
+			} else {
+				continue;
+			}
+		}
+		if (text.match(/^\s*$/)) {
+			continue;
+		}
+
+		output += "<tr class='verse-line";
+		output += "'>\n";
+
+		var linenum = i + 1;
+		output += `<td class='linenum hide-linenum'>${linenum}</td>`;
+
+		output += "<td class='verse-text'>\n";
+		if (i == 0) {
+			output += "<div class='first-line'>";
+		} else {
+			output += "<div class='other-line'>";
+		}
+		[content, count] = prepareLineMarkupFigure(text);
+		output += content;
+		output += "</div>\n";
+		output += "</td>\n";
+
+		output += "<td class='syllable-count hide-count'>\n";
+		// output += count;
+		output += "</td>\n";
+
+		output += "</tr>\n";
+	}
+
+	output += "</table>\n";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// prepareLineMarkupFigure --
+//
+
+function prepareLineMarkupFigure(text, side) {
+	console.log("prepareLineMarkupFigure");
+	text = text.replace(/@RI\{/, `<span class="figure-RI" title="Rime al mezzo">`, "g");
+	text = text.replace(/@IR\{/, `<span class="figure-IR" title="Internal rhymes">`, "g");
+	text = text.replace(/@AL\{/, `<span class="figure-AL" title="Alliteration">`, "g");
+	text = text.replace(/@AS\{/, `<span class="figure-AS" title="Assonance">`, "g");
+	text = text.replace(/@CO\{/, `<span class="figure-CO" title="Consonance">`, "g");
+	text = text.replace(/@AN\{/, `<span class="figure-AN" title="Anaphora">`, "g");
+	text = text.replace(/@EP\{/, `<span class="figure-EP" title="Epistrophe">`, "g");
+	text = text.replace(/@ON\{/, `<span class="figure-ON" title="Onomatopoeia">`, "g");
+	text = text.replace(/@CH\{/, `<span class="figure-CH" title="Chiasmus">`, "g");
+	text = text.replace(/@EN\{/, `<span class="figure-EN" title="Enumeration">`, "g");
+	text = text.replace(/@PA\{/, `<span class="figure-PA" title="Parallelism">`, "g");
+	text = text.replace(/\}/, `</span>`, "g");
+
+
+	return [text, 0];
+}
+
+
+
+//////////////////////////////
+//
+// splitByBlankLineFigure --
+//
+
+function splitByBlankLineFigure(text) {
+	console.log("splitByBlankLineFigure");
+	text = text.replace(/^\n+/, "");
+	text = text.replace(/\n+$/, "");
+	text = text.replace(/\n+/g, "\n");
+	text = text.split("\n");
+	let output = [];
+	let index = 0;
+	for (let i=0; i<text.length; i++) {
+		if (text[i].match(/^\s*$/)) {
+			index++;
+			continue;
+		}
+		if (typeof output[index] !== "undefined") {
+			output[index] += text[i] + "\n";
+		} else {
+			output[index] = text[i] + "\n";
+		}
+	}
+	return output;
+}
+
+
+
+
+</script>
+
+

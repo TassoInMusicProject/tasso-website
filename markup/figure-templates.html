@@ -223,6 +223,19 @@ console.error("FVERSE INCOMING ", fverse);
 
 function prepareLineMarkupFigure(text, side) {
 	console.log("prepareLineMarkupFigure");
+
+	text = text.replace(/@@RI\{/, `<span class="figure-RI" title="Rime al mezzo (continued)">`, "g");
+	text = text.replace(/@@IR\{/, `<span class="figure-IR" title="Internal rhymes (continued)">`, "g");
+	text = text.replace(/@@AL\{/, `<span class="figure-AL" title="Alliteration (continued)">`, "g");
+	text = text.replace(/@@AS\{/, `<span class="figure-AS" title="Assonance (continued)">`, "g");
+	text = text.replace(/@@CO\{/, `<span class="figure-CO" title="Consonance (continued)">`, "g");
+	text = text.replace(/@@AN\{/, `<span class="figure-AN" title="Anaphora (continued)">`, "g");
+	text = text.replace(/@@EP\{/, `<span class="figure-EP" title="Epistrophe (continued)">`, "g");
+	text = text.replace(/@@ON\{/, `<span class="figure-ON" title="Onomatopoeia (continued)">`, "g");
+	text = text.replace(/@@CH\{/, `<span class="figure-CH" title="Chiasmus (continued)">`, "g");
+	text = text.replace(/@@EN\{/, `<span class="figure-EN" title="Enumeration (continued)">`, "g");
+	text = text.replace(/@@PA\{/, `<span class="figure-PA" title="Parallelism (continued)">`, "g");
+
 	text = text.replace(/@RI\{/, `<span class="figure-RI" title="Rime al mezzo">`, "g");
 	text = text.replace(/@IR\{/, `<span class="figure-IR" title="Internal rhymes">`, "g");
 	text = text.replace(/@AL\{/, `<span class="figure-AL" title="Alliteration">`, "g");
@@ -234,6 +247,7 @@ function prepareLineMarkupFigure(text, side) {
 	text = text.replace(/@CH\{/, `<span class="figure-CH" title="Chiasmus">`, "g");
 	text = text.replace(/@EN\{/, `<span class="figure-EN" title="Enumeration">`, "g");
 	text = text.replace(/@PA\{/, `<span class="figure-PA" title="Parallelism">`, "g");
+
 	text = text.replace(/\}/, `</span>`, "g");
 
 

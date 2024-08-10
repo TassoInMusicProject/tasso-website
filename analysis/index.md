@@ -37,6 +37,30 @@ data in spreadsheets for further use in analysis).
 
 <hr noshade>
 
+<h2> Searching </h2>
+
+<table class="listing">
+
+<tr>
+	<td>
+	<a href="/search/index.html">Music searching</a>
+	</td> 
+	<td>
+		Pitch, interval and rhythm searching in scores.
+	</td>
+</tr>
+
+<tr>
+	<td>
+	<a href="/search/index.html#lyrics">Lyrics searching</a>
+	</td> 
+	<td>
+		Text-underlay searching in scores.
+	</td>
+</tr>
+
+</table>
+
 <h2> Resources for music analysis </h2>
 
 

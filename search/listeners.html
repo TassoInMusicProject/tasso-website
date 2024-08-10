@@ -57,7 +57,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function doActions() {
    PrepareGlobalTassoObjects();
-	if (CGI.text) {
+	console.warn("Window location hash" , window.location.hash);
+	if (window.location.hash === "#lyrics") {
+		CGI.text = "";
+		displayTextSearch();
+	} else if (CGI.text) {
 		displayTextSearch();
 	} else {
 		displayMusicSearch();

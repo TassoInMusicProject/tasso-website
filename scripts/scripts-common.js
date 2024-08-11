@@ -172,10 +172,10 @@ const RightArrowKey   = 39;    // maybe also 29 & 57376
 
 //////////////////////////////
 //
-// InitializeWorklistFlat -- Create a flattened list of works.  Two 
-//    (global) objects will be created from the WORKLIST object: 
-//    (1) WORKLISTrecent -- an array which is a list of works 
-//        reverse-sorted by date added.   Also stored in 
+// InitializeWorklistFlat -- Create a flattened list of works.  Two
+//    (global) objects will be created from the WORKLIST object:
+//    (1) WORKLISTrecent -- an array which is a list of works
+//        reverse-sorted by date added.   Also stored in
 //        sessionStorage.WORKLISTrecent.
 //    (2) WORKLISTjrpid -- an object which contains works indexed by
 //    JRP ID.  Also stored in sessionStorage.WORKLISTjrpid.
@@ -228,7 +228,7 @@ function byReverseAddDate(a, b) {
 	if (!date2) { date2 = b.ad; }
 	if (!date1) { date1 = 0; }
 	if (!date2) { date2 = 0; }
-   if (date1 > date2) { return -1; } 
+   if (date1 > date2) { return -1; }
    if (date1 < date2) { return +1; }
    if (a.id  < b.id)  { return -1; }
    if (a.id  > b.id)  { return +1; }
@@ -250,7 +250,7 @@ function GetDataFile(jrpid, prefix, action) {
    if (typeof sessionStorage[variable] != 'undefined') {
       return sessionStorage[variable];
    }
-   
+
    InitializeWorklistFlat();
 
    // Get the first section's incipit if a multi-section work:
@@ -288,7 +288,7 @@ function GetDataFileAsync(jrpid, prefix, action, callback) {
    if (typeof sessionStorage[variable] != 'undefined') {
       return sessionStorage[variable];
    }
-   
+
    InitializeWorklistFlat();
 
    // Get the first section's incipit if a multi-section work:
@@ -324,7 +324,7 @@ function GetDataFileAsync(jrpid, prefix, action, callback) {
 // XMLHttpRequest object:
 //         https://www.w3.org/TR/2007/WD-XMLHttpRequest-20070618
 //         https://xhr.spec.whatwg.org
-//         
+//
 //         See:
 //  https://codingforums.com/ajax-design/123705-make-script-wait-until-request-comes-back.html
 //
@@ -425,14 +425,14 @@ function GetComposerOptions() {
 
 //////////////////////////////
 //
-// GetGenreOptions -- Return an option list of genres.  
-//     This is used to fill in the Composer/Repertory section list 
+// GetGenreOptions -- Return an option list of genres.
+//     This is used to fill in the Composer/Repertory section list
 //     in forms on various webpages.  If there is an input repe
 //     Mass, Motet, or Song.
 //
 
 function GetGenreOptions(repertory) {
-   if ((typeof repertory === 'undefined') || 
+   if ((typeof repertory === 'undefined') ||
 			(repertory == null) || (repertory == '')) {
 	   // Avoiding displaying the genre list without a repertory.
 	   // This is because analyses mostly need to be limited to a single repertory
@@ -488,8 +488,8 @@ function GetGenreOptions(repertory) {
 
 //////////////////////////////
 //
-// GetGenreBrowseOptions -- Return an option list of genres.  
-//     This is used to fill in the Composer/Repertory section list 
+// GetGenreBrowseOptions -- Return an option list of genres.
+//     This is used to fill in the Composer/Repertory section list
 //     in forms on various webpages.  If there is an input repe
 //     Mass, Motet, or Song.
 //
@@ -540,8 +540,8 @@ function GetGenreBrowseOptions() {
 // GetWorkOptions -- Return an option list of works (for a specific
 //     repertory and genre.    The repertory is required, the genre
 //     is optional (show all works regardless of genre in that case).
-//     This is used to fill in the Work section list in forms on 
-//     various webpages.  
+//     This is used to fill in the Work section list in forms on
+//     various webpages.
 //
 
 function GetWorkOptions(repertory, genre) {
@@ -683,7 +683,6 @@ function PlayAudioFile(jrpid, element, starttime) {
 		TurnOffAllNotes();
 	}
 
-
 	var audiobutton;
    if (jrpid != AUDIOjrpid) {
 		if (!!AUDIOid) {
@@ -703,13 +702,7 @@ function PlayAudioFile(jrpid, element, starttime) {
       AUDIOid = element.id;
 		var source = '';
 		// Can't have seekable dynamic content in audio element:
-		//source += '<source src="/data?a=mp3&id=' + jrpid + '" ';
-		if (window.location.href.match(/tasso/i)) {
-			source += '<source src="https://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
-		} else {
-			source += '<source src="https://josquin.stanford.edu/audio/mp3/' + jrpid + '.mp3" ';
-		}
-		source += 'type="audio/mpeg"/>\n';
+		source += `<source src="{{site.tasso_data_url_new}}/${jrpid}.mp3" type="audio/mpeg"/>\n`;
 		AUDIO.innerHTML = source;
 
 		AUDIOjrpid = jrpid;
@@ -901,7 +894,7 @@ function ClearWorklistCache() {
 
 //////////////////////////////
 //
-// audioStoppedAction -- 
+// audioStoppedAction --
 //
 
 function audioStoppedAction(event) {
@@ -967,7 +960,7 @@ function GetRimeTitle(rimenum, rimelist) {
 
 //////////////////////////////
 //
-// GetAllSettingEntry -- 
+// GetAllSettingEntry --
 //
 
 function GetAllSettingEntry(catalognum, worklist) {
@@ -998,7 +991,7 @@ function GetAllSettingEntry(catalognum, worklist) {
 
 //////////////////////////////
 //
-// GetAllSettingEntryList -- 
+// GetAllSettingEntryList --
 //
 
 function GetAllSettingEntryList(catalognum, worklist) {
@@ -1033,7 +1026,7 @@ function GetAllSettingEntryList(catalognum, worklist) {
 
 //////////////////////////////
 //
-// GetRimeVerseEntry -- 
+// GetRimeVerseEntry --
 //
 
 
@@ -1405,7 +1398,7 @@ function ExternalLinksToNewTab() {
 ///////////////////////////////////////////////////////////////////////////
 //
 // TASSODATA PROCESSING FUNCTIONS
-// 
+//
 
 //////////////////////////////
 //

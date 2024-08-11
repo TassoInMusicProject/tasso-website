@@ -173,7 +173,9 @@ function getTimemap(id) {
 	}
 
 	let request = new XMLHttpRequest();
-	request.open("GET", "{{site.tasso_data_url}}?a=timemap&f=" + id);
+	// let url = `{{site.tasso_data_url}}?a=timemap&f=${id}`;
+	let url = `{{site.tasso_data_url_new}}/${id}-timemap.json`;
+	request.open("GET", url);
 	request.addEventListener("load", function() {
 		TIMEMAP[id] = JSON.parse(this.responseText);
 		interpolateIntegers(id);
@@ -1505,7 +1507,8 @@ function getHumdrumNoRecurse(id) {
 	}
 
 	let action = "humdrum";
-	let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	// let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	let url = `{{site.tasso_data_url_new}}/${id}.krn`;
 	let request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {
@@ -1609,8 +1612,9 @@ function getRangeNoRecurse(id) {
 		return;
 	}
 
-	let action = "prange-svg";
-	let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	// let action = "prange-svg";
+	// let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id
+	let url = `{{site.tasso_data_url_new}}/${id}-prange-attack.svg`;
 	let request = new XMLHttpRequest();
 	request.open('GET', url);
 	request.addEventListener("load", function() {
@@ -1977,8 +1981,9 @@ function getTimeKey(id, row) {
 		keysigcell.innerHTML = keysig;
 		timecell.innerHTML = metsig;
 	} else {
-		let action = "humdrum";
-		let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		// let action = "humdrum";
+		// let url = "{{site.tasso_data_url}}/?a=" + action + "&id=" + id;
+		let url = `{{site.tasso_data_url_new}}/${id}.krn`;
 		let request = new XMLHttpRequest();
 		request.open('GET', url);
 		request.addEventListener("load", function() {

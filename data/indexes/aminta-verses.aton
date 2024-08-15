@@ -1244,7 +1244,7 @@
 @ACT:      II
 @SCENE:    3
 @VERSE:    1067
-@TITLE:     Orsù cuoprimi il tutto. Odi. Di' tosto
+@TITLE:     Orsù scuoprimi il tutto. Odi. Di' tosto
 @MANUSRC:	A-Am, A-Au, A-Br, A-CM, A-F, A-Ub
 @PRINTSRC:	A-1580D, A-1580M, A-1581B, A-1581B<sub>bis</sub>, A-1581M, A-1581M<sub>bis</sub>, A-1581O, A-1581V, A-1582B, A-1583M, A-1583V, A-1584A, A-1585C, A-1585V, A-1585V<sub>bis</sub>, A-1588B, A-1589M, A-1589V, A-1590Mb, A-1590Mv, A-1591M, A-1591W, A-1592B, A-1596B, A-1596M, A-1599Bf, A-1599Bp, A-1600R, A-1601Bf, A-1601Bp, A-1602B, A-1603Bf, A-1603Bv, A-1603Z, A-1605R, A-1606Z, A-1608D, A-1608DP, A-1609Bf, A-1609Bv, A-1609Z, A-1611D, A-1614GT, A-1617D, A-1618B, A-1619D, A-1619I, A-1620V, A-1622D, A-1623A, A-1624M, A-1624S, A-1624T, A-1625U, A-1628U, A-1632D, A-1634R
 @@BEGIN:	VERSES
@@ -1259,7 +1259,7 @@
 @EDITION_PAGE:
 @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
 @VERSE:	
-	AMINTA: Horsù, scoprimi il tutto.
+	AMINTA: Orsù, scuoprimi il tutto.
 	TIRSI: Odi.
 	AMINTA: Di' tosto.
 	TIRSI: Silvia attende a una fonte, ignuda e sola.
@@ -1273,7 +1273,7 @@
 	AMINTA: Ohimè, che ma? Tu taci; tu m'uccidi.
 	TIRSI: Ma non sa già che tu v'habbi d'andare.
 @MVERSE:
-AMINTA: Hor-sù,-- sco--pri-mi_il tut--to.					=a
+	AMINTA: Or-sù,-- scuo--pri-mi_il tut--to.				=a
 	TIRSI: O--di.								=b
 	AMINTA: Di' to--sto.							=c
 	TIRSI: Sil--via_at-ten--de_a_u--na fon*--te,_i-gnu--da_e so*--la.	=DM
@@ -1287,6 +1287,19 @@ AMINTA: Hor-sù,-- sco--pri-mi_il tut--to.					=a
 	AMINTA: Ohi-mè,-- che ma*? Tu ta--ci; tu m'uc-ci*--di.			=Bm
 	TIRSI: Ma non sa già*-- che tu v'hab--bi d'an-da*--re.			=Jm
 @FVERSE:
+	AMINTA: @AS{Orsù, scuoprimi il tutto.	
+	TIRSI: Odi.	
+	AMINTA: Di' tosto}.	
+	TIRSI: Silvia attende a una fonte, ignuda e sola.	
+	Ardirai tu d'andarvi?	
+	AMINTA: O, che mi dici?	
+	Silvia m'attende ignuda e @AD{sola?	
+	TIRSI: Sola},	
+	Se non quanto v'è Dafne, ch'è per noi.	
+	AMINTA: @AN{Ignuda} ella m'aspetta?	
+	TIRSI: @AN{Ignuda}, @AL1{ma...	
+	AMINTA: Ohimè, che ma}? @AL2{Tu taci}; tu m'uccidi.	
+	TIRSI: Ma non sa già che tu v'habbi d'andare.
 @TVERSE:
 	AMINTA: Come on now, reveal all to me.
 	THYRSIS: Listen.

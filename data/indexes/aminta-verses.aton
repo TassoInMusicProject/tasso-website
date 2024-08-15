@@ -1209,20 +1209,26 @@
 @EDITION_PAGE:
 @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
 @VERSE:	
-	THYRSIS: Bisogna a maggior uopo ardir più grande.
+	THYRSIS: Bisogna a maggior prova ardir più grande.
 	AMINTA: Andrò per mezzo i rapidi torrenti
 	Quando la neve si discioglie e gonfi
 	Gli manda al mare; andrò per mezzo il foco
 	E nell'Inferno, quando ella vi sia,
 	S'esser può Inferno ov'è cosa sì bella.
 @MVERSE:
-	THYRSIS: Bi-so--gna_a mag-gior-- uo*--po_ar-dir-- più-- gran*--de.	=AM
+	THYRSIS: Bi-so--gna_a mag-gior-- pro*--va_ar-dir-- più-- gran*--de.	=AM
 	AMINTA: An-drò-- per mez*--zo_i ra--pi-di tor-ren*--ti			=Bm
 	Quan--do la ne*--ve si di-scio--glie_e gon*--fi				=C+m
 	Gli man--da_al ma*--re;_an-drò-- per mez--zo_il fo*--co			=Dm
 	E nel--l'In-fer*--no, quan--do_el--la vi si*--a,			=Em
 	S'es--ser può_In--fer*--no_o-v'è-- co--sa sì-- bel*--la.		=Fm
 @FVERSE:
+	TIRSI: Bisogna a maggior prova ardir più grande.	
+	AMINTA: @AN{Andrò per mezzo} i rapidi torrenti	
+	Quando la neve si discioglie e gonfi	
+	Gli @AL{manda al mare}; @AN{andrò per mezzo} il foco	
+	E @OX{nell'Inferno, quando ella vi sia,	
+	S'esser può Inferno ov'è cosa sì bella}.
 @TVERSE:
 	THYRSIS: One must for greater purpose dare more greatly.
 	AMINTA: I will go into the midst of the swift torrents

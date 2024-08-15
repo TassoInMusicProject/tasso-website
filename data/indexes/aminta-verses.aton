@@ -2214,7 +2214,7 @@
 @ACT:         III
 @SCENE:       2
 @VERSE:       1430
-@TITLE:       Bello e dolce morir mi fu certo allora
+@TITLE:       Bello e dolce morir mi fu certo all'hora
 @MANUSRC:	A-Am, A-Au, A-Br, A-CM, A-F, A-Ub
 @PRINTSRC:	A-1580D, A-1580M, A-1581B, A-1581B<sub>bis</sub>, A-1581M, A-1581M<sub>bis</sub>, A-1581O, A-1581V, A-1582B, A-1583M, A-1583V, A-1584A, A-1585C, A-1585V, A-1585V<sub>bis</sub>, A-1588B, A-1589M, A-1589V, A-1590Mb, A-1590Mv, A-1591M, A-1591W, A-1592B, A-1596B, A-1596M, A-1599Bf, A-1599Bp, A-1600R, A-1601Bf, A-1601Bp, A-1602B, A-1603Bf, A-1603Bv, A-1603Z, A-1605R, A-1606Z, A-1608D, A-1608DP, A-1609Bf, A-1609Bv, A-1609Z, A-1611D, A-1614GT, A-1617D, A-1618B, A-1619D, A-1619I, A-1620V, A-1622D, A-1623A, A-1624M, A-1624S, A-1624T, A-1625U, A-1628U, A-1632D, A-1634R
 @@BEGIN:	VERSES
@@ -2249,6 +2249,15 @@
 	Ben sof-fri-rà-- ch'io moi--a,				=d
 	E tu sof-frir-- lo dé--i.				=g
 @FVERSE:
+	@OX{Bello e dolce morir fu certo} all'hora	
+	Ch'uccider io mi volsi.	
+	Tu me 'l negasti e 'l Cielo, a cui parea	
+	@AS{Ch'io precoressi co 'l morir la noia	
+	Ch'apprestata m'havea}.	
+	Or che fatto ha l'estremo	
+	De la sua crudeltade,	
+	Ben soffrirà ch'io moia,	
+	E tu soffrir lo déi.
 @TVERSE:
 	[So] Beautiful and sweet it certainly was to die at that time
 	That I wished to kill myself.
@@ -2318,6 +2327,20 @@
 	De--sti quel prez*--zo tu ch'el--la ri-chie*--se,		=Km
 	E l'a-mor-- suo co_'l tuo* mo-rir-- com-pra*--sti.		=LM
 @FVERSE:
+	Misero Aminta!	
+	Tu, in guisa d'ape che ferendo more	
+	E ne le piaghe altrui lascia la vita,	
+	Con la tua morte @AT1{hai pur trafitto al fine	
+	Quel duro cuor che non @AL{potesti mai	
+	Punger} vivendo}. Hor, se tu spirto errante,	
+	Sì come io credo, e de le membra ignudo	
+	Qui intorno sei, mira il suo pianto, e godi.	
+	@AT2{Amante in vita, amato in morte}: e s'era	
+	Tuo destin che sol fosti in morte amato,	
+	@CO{E se questa crudel volea l'amore	
+	Venderti sol con prezzo così caro,	
+	Desti quel prezzo tu ch'ella richiese},	
+	@AT3{E l'amor suo co 'l tuo morir} comprasti.
 @TVERSE:
 	Unhappy Aminta!
 	You, in the guise of a bee that, pricking, dies,

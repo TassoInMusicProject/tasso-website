@@ -940,7 +940,7 @@
 @EDITION_PAGE:
 @TRANSLATOR:	Emiliano Ricciardi and Amyrose McCue Gill
 @VERSE:	
-	Ma mentre al cuor scendea
+	Ma mentre al cuor scendeva
 	Quella dolcezza mista
 	D'un secreto veleno,
 	Tal diletto n'havea
@@ -949,7 +949,7 @@
 	Fei sì ch'ella più volte
 	Vi replicò l'incanto.
 @MVERSE:
-	Ma men+tre_al cuor scen-de*+a				=a+
+	Ma men+tre_al cuor scen-de*+va				=a+
 	Quel+la dol-cez+za mi+sta				=b+
 	D'un se-cre+to ve-le+no,				=c
 	Tal di-let+to n'ha-ve+a					=a+
@@ -958,6 +958,14 @@
 	Fei sì ch'el+la più vol+te				=f+
 	Vi re-pli-cò+ l'in-can+to.				=g
 @FVERSE:
+	Ma mentre al cuor scendeva
+	Quella @OX{dolcezza mista
+	D'un secreto veleno},
+	Tal diletto n'havea
+	Che, @AS{fingendo ch'anchor non mi passasse
+	Il dolor di quel morso},
+	Fei sì ch'ella più volte
+	Vi replicò l'incanto.
 @TVERSE:
 	But while to my heart descended
 	That sweetness, mixed

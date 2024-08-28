@@ -306,6 +306,51 @@ span.elision {
 	padding-left: 3px;
 	padding-right: 3px;
 }
+
+.figure-RM.nested, .figure-IR.nested, .figure-AL.nested, .figure-AS.nested, .figure-CO.nested, .figure-AN.nested,
+.figure-EP.nested, .figure-ON.nested, .figure-CH.nested, .figure-EN.nested, .figure-PA.nested {
+	border-radius: 1px !important;
+}
+ 
+ 
+
+
+/* new ones: */
+
+.figure-AT-check { color: white; background-color: black; }
+.figure-PE-check { color: white; background-color: black; }
+.figure-OX-check { color: white; background-color: black; }
+.figure-PO-check { color: white; background-color: black; }
+.figure-HY-check { color: white; background-color: black; }
+.figure-AD-check { color: white; background-color: black; }
+.figure-LT-check { color: white; background-color: black; }
+
+.figure-AT { color: white; background-color: black; }
+.figure-PE { color: white; background-color: black; }
+.figure-OX { color: white; background-color: black; }
+.figure-PO { color: white; background-color: black; }
+.figure-HY { color: white; background-color: black; }
+.figure-AD { color: white; background-color: black; }
+.figure-LT { color: white; background-color: black; }
+
+.figure-AT, .figure-PE, .figure-OX, .figure-PO, .figure-HY, .figure-AD,
+.figure-LT {
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+ 
+
+.figure-AT.nested, .figure-PE.nested, .figure-OX.nested, .figure-PO.nested, 
+.figure-HY.nested, .figure-AD.nested, .figure-LT.nested {
+	color: white;
+	background-color: gray;
+	border-radius: 1px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
  
 
 

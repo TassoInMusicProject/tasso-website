@@ -224,29 +224,49 @@ console.error("FVERSE INCOMING ", fverse);
 function prepareLineMarkupFigure(text, side) {
 	console.log("prepareLineMarkupFigure");
 
-	text = text.replace(/@@RI\{/, `<span class="figure-RI" title="Rime al mezzo (continued)">`, "g");
-	text = text.replace(/@@IR\{/, `<span class="figure-IR" title="Internal rhymes (continued)">`, "g");
-	text = text.replace(/@@AL\{/, `<span class="figure-AL" title="Alliteration (continued)">`, "g");
-	text = text.replace(/@@AS\{/, `<span class="figure-AS" title="Assonance (continued)">`, "g");
-	text = text.replace(/@@CO\{/, `<span class="figure-CO" title="Consonance (continued)">`, "g");
-	text = text.replace(/@@AN\{/, `<span class="figure-AN" title="Anaphora (continued)">`, "g");
-	text = text.replace(/@@EP\{/, `<span class="figure-EP" title="Epistrophe (continued)">`, "g");
-	text = text.replace(/@@ON\{/, `<span class="figure-ON" title="Onomatopoeia (continued)">`, "g");
-	text = text.replace(/@@CH\{/, `<span class="figure-CH" title="Chiasmus (continued)">`, "g");
-	text = text.replace(/@@EN\{/, `<span class="figure-EN" title="Enumeration (continued)">`, "g");
-	text = text.replace(/@@PA\{/, `<span class="figure-PA" title="Parallelism (continued)">`, "g");
+	console.warn("======================================TEXT", text);
 
-	text = text.replace(/@RI\{/, `<span class="figure-RI" title="Rime al mezzo">`, "g");
-	text = text.replace(/@IR\{/, `<span class="figure-IR" title="Internal rhymes">`, "g");
-	text = text.replace(/@AL\{/, `<span class="figure-AL" title="Alliteration">`, "g");
-	text = text.replace(/@AS\{/, `<span class="figure-AS" title="Assonance">`, "g");
-	text = text.replace(/@CO\{/, `<span class="figure-CO" title="Consonance">`, "g");
-	text = text.replace(/@AN\{/, `<span class="figure-AN" title="Anaphora">`, "g");
-	text = text.replace(/@EP\{/, `<span class="figure-EP" title="Epistrophe">`, "g");
-	text = text.replace(/@ON\{/, `<span class="figure-ON" title="Onomatopoeia">`, "g");
-	text = text.replace(/@CH\{/, `<span class="figure-CH" title="Chiasmus">`, "g");
-	text = text.replace(/@EN\{/, `<span class="figure-EN" title="Enumeration">`, "g");
-	text = text.replace(/@PA\{/, `<span class="figure-PA" title="Parallelism">`, "g");
+	text = text.replace(/@@RM\d*\{/, `<span class="figure-RM" title="Rime al mezzo (continued)">`, "g");
+	text = text.replace(/@@IR\d*\{/, `<span class="figure-IR" title="Internal rhymes (continued)">`, "g");
+	text = text.replace(/@@AL\d*\{/, `<span class="figure-AL" title="Alliteration (continued)">`, "g");
+	text = text.replace(/@@AS\d*\{/, `<span class="figure-AS" title="Assonance (continued)">`, "g");
+	text = text.replace(/@@CO\d*\{/, `<span class="figure-CO" title="Consonance (continued)">`, "g");
+	text = text.replace(/@@AN\d*\{/, `<span class="figure-AN" title="Anaphora (continued)">`, "g");
+	text = text.replace(/@@EP\d*\{/, `<span class="figure-EP" title="Epistrophe (continued)">`, "g");
+	text = text.replace(/@@ON\d*\{/, `<span class="figure-ON" title="Onomatopoeia (continued)">`, "g");
+	text = text.replace(/@@CH\d*\{/, `<span class="figure-CH" title="Chiasmus (continued)">`, "g");
+	text = text.replace(/@@EN\d*\{/, `<span class="figure-EN" title="Enumeration (continued)">`, "g");
+	text = text.replace(/@@PA\d*\{/, `<span class="figure-PA" title="Parallelism (continued)">`, "g");
+
+	// new ones:
+	text = text.replace(/@@AT\d*\{/, `<span class="figure-AT" title="AT (continued)">`, "g");
+	text = text.replace(/@@PE\d*\{/, `<span class="figure-PE" title="PE (continued)">`, "g");
+	text = text.replace(/@@OX\d*\{/, `<span class="figure-OX" title="OX (continued)">`, "g");
+	text = text.replace(/@@PO\d*\{/, `<span class="figure-PO" title="PO (continued)">`, "g");
+	text = text.replace(/@@HY\d*\{/, `<span class="figure-HY" title="HY (continued)">`, "g");
+	text = text.replace(/@@AD\d*\{/, `<span class="figure-AD" title="AD (continued)">`, "g");
+	text = text.replace(/@@LT\d*\{/, `<span class="figure-LT" title="LT (continued)">`, "g");
+
+	text = text.replace(/@RM\d*\{/, `<span class="figure-RM" title="Rime al mezzo">`, "g");
+	text = text.replace(/@IR\d*\{/, `<span class="figure-IR" title="Internal rhymes">`, "g");
+	text = text.replace(/@AL\d*\{/, `<span class="figure-AL" title="Alliteration">`, "g");
+	text = text.replace(/@AS\d*\{/, `<span class="figure-AS" title="Assonance">`, "g");
+	text = text.replace(/@CO\d*\{/, `<span class="figure-CO" title="Consonance">`, "g");
+	text = text.replace(/@AN\d*\{/, `<span class="figure-AN" title="Anaphora">`, "g");
+	text = text.replace(/@EP\d*\{/, `<span class="figure-EP" title="Epistrophe">`, "g");
+	text = text.replace(/@ON\d*\{/, `<span class="figure-ON" title="Onomatopoeia">`, "g");
+	text = text.replace(/@CH\d*\{/, `<span class="figure-CH" title="Chiasmus">`, "g");
+	text = text.replace(/@EN\d*\{/, `<span class="figure-EN" title="Enumeration">`, "g");
+	text = text.replace(/@PA\d*\{/, `<span class="figure-PA" title="Parallelism">`, "g");
+
+	// new ones:
+	text = text.replace(/@AT\d*\{/, `<span class="figure-AT" title="AT">`, "g");
+	text = text.replace(/@PE\d*\{/, `<span class="figure-PE" title="PE">`, "g");
+	text = text.replace(/@OX\d*\{/, `<span class="figure-OX" title="OX">`, "g");
+	text = text.replace(/@PO\d*\{/, `<span class="figure-PO" title="PO">`, "g");
+	text = text.replace(/@HY\d*\{/, `<span class="figure-HY" title="HY">`, "g");
+	text = text.replace(/@AD\d*\{/, `<span class="figure-AD" title="AD">`, "g");
+	text = text.replace(/@LT\d*\{/, `<span class="figure-LT" title="LT">`, "g");
 
 	text = text.replace(/\}/, `</span>`, "g");
 

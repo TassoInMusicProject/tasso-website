@@ -134,8 +134,13 @@ span.triangle, span.backward {
 }
 
 .indent {
+/*
 	margin-left: 75px;
 	margin-right: 150px;
+*/
+	margin:0;
+	padding:0;
+
 }
 
 .maincontent {
@@ -178,7 +183,8 @@ table.poem {
 }
 
 td.syllable-count.hide-count {
-	display: none;
+	/* display: none; */
+	visibility: hidden;
 }
 
 span.rhyme.hide-rhyme {

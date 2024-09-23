@@ -736,10 +736,6 @@ function showMetricStress() {
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.add("showMetricStress");
 	}
-	let marks = document.querySelectorAll(".majmin");
-	for (let i=0; i<marks.length; i++) {
-		marks[i].classList.remove("hide-majmin");
-	}
 }
 
 
@@ -754,10 +750,6 @@ function hideMetricStress() {
 	let syls = document.querySelectorAll(".metricStress");
 	for (let i=0; i<syls.length; i++) {
 		syls[i].classList.remove("showMetricStress");
-	}
-	let marks = document.querySelectorAll(".majmin");
-	for (let i=0; i<marks.length; i++) {
-		marks[i].classList.add("hide-majmin");
 	}
 }
 

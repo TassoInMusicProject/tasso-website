@@ -252,17 +252,21 @@ function prepareMverseTable(mverse) {
 
 		output += "<td class='syllable-count hide-count'>\n";
 		output += count;
+		output += "&nbsp;";
+		output += majmin;
 		output += "</td>\n";
+	
+/*
+		output += "<td class='verse-majmin'>\n";
+		output += `<span class="majmin">${majmin}</span>\n`;
+		output += "</td>\n";
+*/
 
 		output += "<td class='verse-rhyme'>\n";
 		output += `<span class="rhyme hide-rhyme">${rhyme}</span>`;
 		if (enjambment !== "") {
 			output += `<span class="enjambment hide-enjambment">${enjambment}</span>`;
 		}
-		output += "</td>\n";
-	
-		output += "<td class='verse-majmin'>\n";
-		output += `<span class="majmin">${majmin}</span>\n`;
 		output += "</td>\n";
 
 		output += "</tr>\n";
@@ -280,6 +284,7 @@ function prepareMverseTable(mverse) {
 //
 
 function prepareLineMarkup(text, side) {
+console.error("TEXT", text);
 	console.log("prepareLineMarkup");
 
 	// + is stress marker, convert to -- for further processing:
@@ -321,6 +326,7 @@ function prepareLineMarkup(text, side) {
 			matches = syl.match(/\*/);
 			if (matches) {
 				metricStress = true;
+console.warn("SYL IS METRIC STRESSED", syl);
 				syl = syl.replace(/\*/, "", "g");
 			}
 

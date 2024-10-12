@@ -270,5 +270,9 @@ table.verovio-humdrum {
 	visibility: hidden;
 }
 
+ul.emended li {
+	padding-bottom: 20px;
+}
+
 
 

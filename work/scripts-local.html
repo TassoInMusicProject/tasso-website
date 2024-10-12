@@ -812,6 +812,7 @@ function getCriticalNotes(id) {
 				SETTING.REPORT = data;
 
 				let tsource = document.querySelector("#criticalreport-template").textContent;
+console.error("TSOURCE", tsource);
 				let template = Handlebars.compile(tsource);
 				let result = template(data);
 

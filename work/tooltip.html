@@ -1,4 +1,6 @@
 
+
+
 <script>
 // vim: ts=3
 
@@ -14,14 +16,12 @@ let IIIFIMAGES = {};
 //
 
 function showEmendationTooltip(event, emendationNumber) {
-	console.log("SHOWTOOLTIP", arguments);
-
 	let tooltips = document.querySelectorAll("#footnotes .tooltip");
-console.warn("   EVENT", event);
 	let tooltip = tooltips[emendationNumber];
 	tooltip.style.display = "block";
+	tooltip.style.minWidth = "250px";
 
-	let leftpos = event.pageX - 0;
+	let leftpos = event.pageX - 250;
 	if (leftpos < 0) {
 		leftpos = 0;
 	}
@@ -33,7 +33,6 @@ console.warn("   EVENT", event);
 
 	tooltip.style.left = leftpos + 'px';
 	tooltip.style.top = toppos + 'px';
-	console.log(tooltip);
 }
 
 
@@ -45,26 +44,8 @@ console.warn("   EVENT", event);
 
 function hideEmendationTooltip(event, emendationNumber) {
 	let tooltips = document.querySelectorAll("#footnotes .tooltip");
-console.error("HIDEEMENDATIONTOOLTIP", tooltips);
 	let tooltip = tooltips[emendationNumber];
-console.log("EMENDATION NUMBER", emendationNumber);
-console.log("TOOLTIP", tooltip);
 	tooltip.style.display = "none";
-}
-
-
-
-//////////////////////////////
-//
-// blobToBase64 -- 
-//
-
-function blobToBase64(blob) {
-	return new Promise((resolve, _) => {
-		const reader = new FileReader();
-		reader.onloadend = () => resolve(reader.result);
-		reader.readAsDataURL(blob);
-	});
 }
 
 
@@ -73,21 +54,16 @@ function blobToBase64(blob) {
 
 
 <style>
+
 .tooltip {
 	background: cornsilk;
 	border: 1px solid black;
 	border-radius: 5px;
 	padding: 5px;
 }
+
 </style>
 
 
-<!-- 
-<div id="tooltip" display="none" style="position: absolute; display: none;"></div>
-<svg>
-	<rect width="800" height="550" style="fill: blue;" 
-			onmouseenter="showEmendationTooltip(event, 0);" onmouseout="hideTooltip(event, 0);" >
-	</rect>
-</svg>
--->
+
 

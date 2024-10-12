@@ -14,7 +14,6 @@
 //
 
 function addFootnotes(id) {
-
 	// clear list of old foot notes
 	let footnotes = document.querySelector("#footnotes");
 	if (footnotes) {
@@ -34,15 +33,13 @@ function addFootnotes(id) {
 		console.log("CANNOT FIND EMENDATIONS");
 		return;
 	}
-console.error("EMENDATIONS", emendations);
 
 	for (let i=0; i<emendations.length; i++) {
 		emendations[i].markText = "*";
 		emendations[i].color = "chocolate";
 		emendations[i].placement = "above";
-console.error("ADDING EMENDATION", i, emendations[i]);
+		emendations[i].number = i;
 		addFootnote(emendations[i], svg, "tooltip");
-		// addFootnote(emendations[i], `footnote-${i}-${id}}`, svg);
 	}
 }
 
@@ -111,7 +108,6 @@ function getEmendationsForFootnotes() {
 
 		output.push(ooo);
 	}
-console.error("RETURNING EMENDATION", output);
 	return output;
 }
 
@@ -132,6 +128,7 @@ console.error("RETURNING EMENDATION", output);
 //      options.measureStop == the ending measure for the footnote.  Measures between
 //                    the start and stop measure will be highlighted when the mouse
 //                    is moved over the text marker for the footnote.
+//      options.number == The index number of the emendation, starting at 0.
 //      options.markText == The text to display in the notation to indicate a footnote exists.
 //                    If undefined, then "*" will be the text marker.
 //      options.color == The color of the text marker, and the highlighting color for the
@@ -149,7 +146,6 @@ console.error("RETURNING EMENDATION", output);
 //
 
 function addFootnote(options, svg) {
-console.log("ENTERING ADD FOOTNOTE", arguments);
 	// locate SVG image to apply footnote to:
 	let svgselector = options.svgSelector;
 	if (!svg) {
@@ -181,6 +177,7 @@ console.log("ENTERING ADD FOOTNOTE", arguments);
 	if (!infotext) {
 		infotext = "";
 	}
+	let number = options.number || 0;
 	let marktext = options.markText;
 	if (!marktext) {
 		marktext = "*";
@@ -232,7 +229,6 @@ console.log("ENTERING ADD FOOTNOTE", arguments);
 		textnode.style.cursor = "help";
 	}
 
-	console.error("ADDING FOOTNOTES HERE");
 	// Add footer content in #footer area
 	let footerdiv = document.createElement("DIV");
 	footerdiv.style.position = "absolute";
@@ -241,17 +237,14 @@ console.log("ENTERING ADD FOOTNOTE", arguments);
 	footerdiv.dataset.contents = infotext;
 	footerdiv.innerHTML = infotext;
 	let footnotes = document.querySelector("#footnotes");
-console.error("*************** FOOTNOTES", footnotes);
 	if (footnotes) {
-console.error("ADDING FOOTNOTES TO #FOOTNOTE ==================================");
 		footnotes.appendChild(footerdiv);
 	}
 
-	console.error("ADDING TSPAN");
 	// Add a tspan in SVG with the infotext contents as a title:
 	tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
-	tspan.setAttribute("onmouseenter", "highlightMeasure(event, '" + measureString + "', '" + color + "')");
-	tspan.setAttribute("onmouseout", "unhighlightMeasure(event, '" + measureString + "')");
+	tspan.setAttribute("onmouseenter", `highlightMeasure(event, ${number}, "${measureString}", "${color}")`);
+	tspan.setAttribute("onmouseout", `unhighlightMeasure(event, ${number}, "${measureString}")`);
 	tspan.style.fill = color;
 	textnode.appendChild(tspan);
 	let contents = document.createTextNode(marktext);
@@ -269,13 +262,13 @@ console.error("ADDING FOOTNOTES TO #FOOTNOTE =================================="
 // highlightMeasure --
 //
 
-function highlightMeasure(event, measure, color, suppress) {
+function highlightMeasure(event, tooltipNumber, measure, color, suppress) {
 	if (!color) {
 		color = "darkorange";
 	}
 
 	if (!suppress) {
-		showEmendationTooltip(event, 0);
+		showEmendationTooltip(event, tooltipNumber);
 	}
 
 	let matches;
@@ -334,9 +327,9 @@ function highlightMeasure(event, measure, color, suppress) {
 // unhighlightMeasure --
 //
 
-function unhighlightMeasure(event, measure) {
-	highlightMeasure(event, measure, "currentColor", 1);
-	hideEmendationTooltip(event, 0);
+function unhighlightMeasure(event, emendationNumber, measure) {
+	highlightMeasure(event, emendationNumber, measure, "currentColor", 1);
+	hideEmendationTooltip(event, emendationNumber);
 }
 
 </script>

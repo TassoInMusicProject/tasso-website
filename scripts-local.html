@@ -29,18 +29,39 @@ var RWORKLIST = {};
 function displayFrontPage() {
 	PrepareGlobalTassoObjects();
 	buildReverseWorklist();
-	if (CGI && CGI.c) {
-		if (CGI.c === "gerusalemme") {
-			displayGerusalemmeList("#contents");
-		} else if (CGI.c === "aminta") {
-			displayAmintaList("#contents");
-		} else if (CGI.c === "other") {
-			displayOtherList("#contents");
+	let url = window.location.href;
+	if (url.match(/#gerusalemme/)) {
+		displayGerusalemmeList("#contents");
+	} else if (url.match(/#aminta/)) {
+		displayAmintaList("#contents");
+	} else if (url.match(/#rime/)) {
+		displayRimeList("#contents");
+	} else if (url.match(/#other/)) {
+		displayOtherList("#contents");
+	} else if (url.match(/#ecloghe/)) {
+		displayOtherList("#contents");
+	} else if (url.match(/#rinaldo/)) {
+		displayOtherList("#contents");
+	} else if (url.match(/#lagrime/)) {
+		displayOtherList("#contents");
+	} else if (url.match(/#torrismondo/)) {
+		displayOtherList("#contents");
+	} else if (url.match(/#conquistata/)) {
+		displayOtherList("#contents");
+	} else {
+		if (CGI && CGI.c) {
+			if (CGI.c === "gerusalemme") {
+				displayGerusalemmeList("#contents");
+			} else if (CGI.c === "aminta") {
+				displayAmintaList("#contents");
+			} else if (CGI.c === "other") {
+				displayOtherList("#contents");
+			} else {
+				displayRimeList("#contents");
+			}
 		} else {
 			displayRimeList("#contents");
 		}
-	} else {
-		displayRimeList("#contents");
 	}
 }
 
@@ -62,6 +83,7 @@ function displayRimeList(target) {
 		console.log("Error: cannot place Rime list on page.");
 		return;
 	}
+	window.location.hash = "rime";
 	continueProcessingRime(element);
 }
 
@@ -82,6 +104,7 @@ function displayAmintaList(target) {
 		console.log("Error: cannot place Aminta list on page.");
 		return;
 	}
+	window.location.hash = "aminta";
 	continueProcessingAminta(element);
 }
 
@@ -102,6 +125,7 @@ function displayOtherList(target) {
 		console.log("Error: cannot place Other list on page.");
 		return;
 	}
+	window.location.hash = "other";
 	continueProcessingOther(element);
 }
 
@@ -122,6 +146,7 @@ function displayGerusalemmeList(target) {
 		console.log("Error: cannot place Gerusalemme list on page.");
 		return;
 	}
+	window.location.hash = "gerusalemme";
 	continueProcessingGL(element);
 }
 

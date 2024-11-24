@@ -1,11 +1,9 @@
 <script src="/scripts/scripts-common.js"></script>
+
+{% include_relative listeners.html %}
+
 <script>
 // vim: ts=3
-
-document.addEventListener("DOMContentLoaded", function() {
-	HighlightNavigationBar();
-	displayIntroduction();
-});
 
 
 
@@ -23,6 +21,7 @@ function displayIntroduction(target) {
 		console.log("Error: cannot place Introduction on page.");
 		return;
 	}
+	window.location.hash = "introdution";
 	showTab("introduction-heading");
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
@@ -50,6 +49,7 @@ function displayHowto(target) {
 		console.log("Error: cannot place Howto on page.");
 		return;
 	}
+	window.location.hash = "howto";
 	showTab("howto-heading");
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
@@ -77,6 +77,7 @@ function displayHonors(target) {
 		console.log("Error: cannot place Honors page.");
 		return;
 	}
+	window.location.hash = "honors";
 	showTab("honors-heading");
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
@@ -104,6 +105,7 @@ function displayEvents(target) {
 		console.log("Error: cannot place Events page.");
 		return;
 	}
+	window.location.hash = "events";
 	showTab("events-heading");
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {
@@ -131,6 +133,7 @@ function displayPublications(target) {
 		console.log("Error: cannot place Publications page.");
 		return;
 	}
+	window.location.hash = "publications";
 	showTab("publications-heading");
 	var request = new XMLHttpRequest();
 	request.onreadystatechange = function() {

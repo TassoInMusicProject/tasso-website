@@ -45,6 +45,28 @@ layout: simple
 <table class="events">
 
 <tr>
+	<td>2024</td>
+	<td>
+		"A Digital Edition of Torquato Tasso's Poetry and Their Musical Settings" (<a target="_blank" href="https://bit.ly/tasso-vilnius-2024">slides</a>)
+		<br/>
+		<br/>
+
+		Special Panel ‘The Rise of Digital Humanities and Its Impact on Music Scores’ ROUND TABLE DISCUSSION ‘Music Editorial Practice in the Digital Age: Challenges and Trends’
+		<div class="entry">
+			<a target="_blank" href="https://lmta.lt/en/renginys/baltijos-muzikologu-konferencija-muzikos-istorija-perzengia-valstybiu-sienas-muzikos-kultura-ir-mikro-mezo-makroregionai">Biennial Baltic Musicology Conference</a> "<a target="_blank" href="
+https://lmta.lt/wp-content/uploads/2024/10/2024-10-22_Baltic-Musicological-Conference_PROGRAM.pdf">Music History beyond State Borders</a>" (2024), Vilnius, Lithuania, October 29&ndash;31.
+		</div>
+
+		<br/>
+
+		"Studying the Late Italian Madrigal through the Tasso in Music Project"
+		<div class="entry">
+			<a target="_blank" href="https://idmc-2024.nifc.pl">First International Digital Musicology Conference</a>, Warsaw, 23&ndash;25 October 2024
+		</div>
+	</td>
+</tr>
+
+<tr>
 	<td>2023</td>
 	<td>
 		"Studying Poetry through Music: The Tasso in Music Project" (<a target="_blank" href="https://bit.ly/tasso-mec-2023">slides</a>)

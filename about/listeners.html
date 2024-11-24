@@ -1,0 +1,23 @@
+
+
+<script>
+// vim: ts=3
+
+document.addEventListener("DOMContentLoaded", function() {
+	HighlightNavigationBar();
+	let url = window.location.href;
+	if (url.match(/#howto/)) {
+		displayHowto();
+	} else if (url.match(/#honors/)) {
+		displayHonors();
+	} else if (url.match(/#events/)) {
+		displayEvents();
+	} else if (url.match(/#publications/)) {
+		displayPublications();
+	} else {
+		displayIntroduction();
+	}
+});
+
+
+</script>

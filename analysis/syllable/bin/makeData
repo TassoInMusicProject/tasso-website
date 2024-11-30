@@ -8,8 +8,7 @@ my $datadir = "data";
 
 my %syllables = getSyllables("syllables.txt");
 
-my $scordur = `which scordur`;
-chomp $scordur;
+chomp(my $scordur = `which scordur`);
 die "Cannot find scordur" if $scordur =~ /^\s*$/;
 
 my @files = sort glob("$scoredir/*/kern/*.krn");

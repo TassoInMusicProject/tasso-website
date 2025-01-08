@@ -54,6 +54,9 @@
 @SRCLOCSIGLA:	DK-Kk
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://img.kb.dk/ma/pre1700/aagesen.pdf
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -77,7 +80,10 @@
 @EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_6938414&order=1&view=SINGLE
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -102,6 +108,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7172
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -125,7 +134,10 @@
 @EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	B-Br (CB); DK-Kk (T)
 @REPRODUCTIONTYPE:	
-@SRCURL:	http://img.kb.dk/ma/pre1700/fiori_mus_a3.pdf
+@SRCURL:	none; http://img.kb.dk/ma/pre1700/fiori_mus_a3.pdf
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -150,6 +162,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://edl.beniculturali.it/beu/850011846
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -174,6 +189,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	photocopy
 @SRCURL:	https://edl.beniculturali.it/beu/850016389
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -198,6 +216,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7084
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -222,6 +243,9 @@
 @SRCLOCSIGLA:	I-Nc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -246,6 +270,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00092740
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -270,6 +297,9 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -293,7 +323,10 @@
 @EXTNAMES:	T,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R031/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -318,6 +351,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://edl.beniculturali.it/beu/850012942
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -342,6 +378,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00075248
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -366,7 +405,10 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V002/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -390,6 +432,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://stimmbuecher.digitale-sammlungen.de/view?id=bsb00103256
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -414,6 +459,9 @@
 @SRCLOCSIGLA:	I-Rsc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -438,6 +486,9 @@
 @SRCLOCSIGLA:	D-Kub
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/image/1384758684812/287/LOG_0032/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -462,6 +513,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	scan from microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -486,6 +540,9 @@
 @SRCLOCSIGLA:	I-Rc (CBV); I-Bc (AT)
 @REPRODUCTIONTYPE:	scans
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V244/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -510,6 +567,9 @@
 @SRCLOCSIGLA:	I-VEcap
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -534,6 +594,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microflim
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -555,9 +618,12 @@
 @OPARTBOOKS:	CATBV
 @EXTPARTBOOKS:	CATBV
 @EXTNAMES:	C,A,T,B,V
-@SRCLOCSIGLA:	I-VEaf
+@SRCLOCSIGLA:	I-VEaf; I-Bc (CA)
 @REPRODUCTIONTYPE:	digital picture
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R302/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -582,6 +648,9 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -606,6 +675,9 @@
 @SRCLOCSIGLA:	I-VEcap
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -629,7 +701,10 @@
 @EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	F-Psg
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://genovefa.bsg.univ-paris3.fr/s/genovefa/item/35721#?c=&m=&s=&cv=&xywh=-2903%2C-195%2C5992%2C3893
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -654,6 +729,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012150
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -675,9 +753,12 @@
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	ATBVVI
 @EXTNAMES:	A,T,B,V,VI
-@SRCLOCSIGLA:	A-Wn
+@SRCLOCSIGLA:	A-Wn (A,T,B,V,VI); I-Bc (A)
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R328/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -702,7 +783,10 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://edl.cultura.gov.it/item/ovrv7z4ryp
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -726,6 +810,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -749,7 +836,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital scan
-@SRCURL:	http://ks4.imslp.info/files/imglnks/usimg/9/95/IMSLP440592-PMLP71873-Benedetti_-_Musiche_2.pdf
+@SRCURL:	https://www.loc.gov/item/m55001229/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -774,6 +864,9 @@
 @SRCLOCSIGLA:	F-Pc
 @REPRODUCTIONTYPE:	digital scan
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -798,6 +891,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012165
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -819,9 +915,12 @@
 @OPARTBOOKS:	CATBVVI
 @EXTPARTBOOKS:	CATBVVI
 @EXTNAMES:	C,A,T,B,V,VI
-@SRCLOCSIGLA:	PL-GD
+@SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=79478&from=&dirids=1&ver_id=&lp=3&QI=
+@SRCURL:	https://mdz-nbn-resolving.de/details:bsb00084129
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -846,6 +945,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00074758
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -870,6 +972,9 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/image/1384758684812/59/LOG_0008/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -894,6 +999,9 @@
 @SRCLOCSIGLA:	GB-Lbl (BV); I-Vnm (T)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -918,6 +1026,9 @@
 @SRCLOCSIGLA:	B-Gu
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://books.google.be/books?id=8cpNAAAAcAAJ&source=gbs_navlinks_s
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -942,6 +1053,9 @@
 @SRCLOCSIGLA:	GB-L-bl
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -966,6 +1080,9 @@
 @SRCLOCSIGLA:	B-Br
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://uurl.kbr.be/1562983
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -990,6 +1107,9 @@
 @SRCLOCSIGLA:	DK-Kk
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://imslp.org/wiki/Giardino_Novo_(Borchgrevinck%2C_Melchior)
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1014,6 +1134,9 @@
 @SRCLOCSIGLA:	A-Wn (CB); T (I-Vnm); A (Morell private collection)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1038,7 +1161,10 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R406/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -1062,6 +1188,9 @@
 @SRCLOCSIGLA:	I-Rvat
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1086,6 +1215,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsmile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b8426008s
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1110,6 +1242,9 @@
 @SRCLOCSIGLA:	D-Kl [now in D-Kub]
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/object/1295529256090/268/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1134,6 +1269,9 @@
 @SRCLOCSIGLA:	I-VEaf (C); A-Wn (B)
 @REPRODUCTIONTYPE:	digital scan
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1158,6 +1296,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012211
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1182,6 +1323,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_X/X195/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1206,6 +1350,9 @@
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://jbc.bj.uj.edu.pl/dlibra/publication/290516/edition/277597/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1230,6 +1377,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R376/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1254,6 +1404,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012972
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1278,6 +1431,9 @@
 @SRCLOCSIGLA:	GB-Lcm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1302,6 +1458,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/item/2008561293/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1325,7 +1484,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_X/X209/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1349,7 +1511,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_X/X210/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1374,6 +1539,9 @@
 @SRCLOCSIGLA:	I-Fn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1398,6 +1566,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://edl.beniculturali.it/beu/850012217
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1422,6 +1593,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_X/X220/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1446,7 +1620,10 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R385/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -1470,6 +1647,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://stimmbuecher.digitale-sammlungen.de/view?id=bsb00094052
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1494,6 +1674,9 @@
 @SRCLOCSIGLA:	I-VEaf (ATB); A-Wn (CTV)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1518,6 +1701,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R395/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1542,6 +1728,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsmile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R400/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1566,6 +1755,9 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1590,6 +1782,9 @@
 @SRCLOCSIGLA:	RUS-SPsc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1614,6 +1809,9 @@
 @SRCLOCSIGLA:	I-Nc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1638,6 +1836,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1662,6 +1863,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/resource/ihas.200215631.0/?sp=5
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1686,6 +1890,9 @@
 @SRCLOCSIGLA:	B-Br
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://uurl.kbr.be/1561864
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1710,6 +1917,9 @@
 @SRCLOCSIGLA:	I-Fn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1734,6 +1944,9 @@
 @SRCLOCSIGLA:	I-Rsc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1758,6 +1971,9 @@
 @SRCLOCSIGLA:	I-Rsc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1782,6 +1998,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Y/Y121/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1806,6 +2025,9 @@
 @SRCLOCSIGLA:	D-LEst
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://sachsen.digital/werkansicht/7805/1?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bpagegrid%5D=0&cHash=04db691d84f6db50427764e68296b442
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1830,6 +2052,9 @@
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1854,6 +2079,9 @@
 @SRCLOCSIGLA:	F-Pc (CTB); D-W (A)
 @REPRODUCTIONTYPE:	microfilm; digital facsimile
 @SRCURL:	http://diglib.hab.de/drucke/2-6-7-1-musica-2s/start.htm
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1878,6 +2106,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://bibliotecaestense.beniculturali.it/info/img/mus/i-mo-beu-mus.e.34.pdf
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1902,6 +2133,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012356
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1926,6 +2160,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012355
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1949,7 +2186,10 @@
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00073081-1
+@SRCURL:	https://mdz-nbn-resolving.de/details:bsb00073081
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1974,6 +2214,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S038/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -1998,6 +2241,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S039/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2022,6 +2268,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S040/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2046,6 +2295,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z024/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2070,6 +2322,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z027/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2094,6 +2349,9 @@
 @SRCLOCSIGLA:	I-Moe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850016779
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2118,6 +2376,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2142,6 +2403,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://imslp.org/wiki/Le_musiche_a_2_voci_(D'India%2C_Sigismondo)
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2165,7 +2429,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA121/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2190,6 +2457,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2214,6 +2484,9 @@
 @SRCLOCSIGLA:	GB-Ob
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2238,6 +2511,9 @@
 @SRCLOCSIGLA:	GB-Ob
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2262,6 +2538,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	Microfilm scan
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2286,6 +2565,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/bpt6k4500426m.r=sigismondo%20d%27india%20musiche?rk=42918;4
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2310,6 +2592,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://data.onb.ac.at/rec/AC09168126
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2333,7 +2618,10 @@
 @EXTNAMES:	C,T,B,V
 @SRCLOCSIGLA:	A-Wn (CTV ); PL-GD (B)
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_5586703&order=1&view=SINGLE
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2358,6 +2646,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00073112
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2381,7 +2672,10 @@
 @EXTNAMES:	C,A,B
 @SRCLOCSIGLA:	GB-Ckc (C); I-MOe (A); D-W (B)
 @REPRODUCTIONTYPE:	PDF from microfilm
-@SRCURL:	
+@SRCURL:	https://edl.cultura.gov.it/item/yxrl0mer0n
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2406,6 +2700,9 @@
 @SRCLOCSIGLA:	GB-Ckc (C); B-Nn (A); GB-Lbm (TV)
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2430,6 +2727,9 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	digital
 @SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/image/1365591513538/82/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2454,7 +2754,10 @@
 @SRCLOCSIGLA:	GB-Lbm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://books.google.be/books?vid=GENT900000177364&printsec=frontcover#v=onepage&q&f=false
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -2477,7 +2780,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00080473-7
+@SRCURL:	https://www.digitale-sammlungen.de/view/bsb00052150?page=%2C1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2502,6 +2808,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/0005/bsb00051778/images/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2526,6 +2835,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2549,7 +2861,10 @@
 @EXTNAMES:	C,T,B,V
 @SRCLOCSIGLA:	A-Wn (CV), PL-GD (TB)
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/86220/edition/78192/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2574,6 +2889,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2597,7 +2915,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/87557/edition/79388/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2622,6 +2943,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://repository.royalholloway.ac.uk/items/6c44a5c0-7b2f-c907-0b76-ed699eecc929/1/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2646,6 +2970,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z082/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2670,6 +2997,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850109557
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2694,6 +3024,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850109556
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2718,6 +3051,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850109555
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2742,6 +3078,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2766,6 +3105,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_B/B069/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2790,6 +3132,9 @@
 @SRCLOCSIGLA:	I-Vnm (B), I-Bc (CATV)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7195
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2813,7 +3158,10 @@
 @EXTNAMES:	A,T,B,V
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://jbc.bj.uj.edu.pl/dlibra/publication/973436/edition/933791/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2838,6 +3186,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facismile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00083502
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2862,6 +3213,9 @@
 @SRCLOCSIGLA:	D-Mbs (VI); PL-Kj (T)
 @REPRODUCTIONTYPE:	digital facsimile (D-Mbs)
 @SRCURL:	D-Mbs (VI); https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00078786
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2886,6 +3240,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	https://edl.beniculturali.it/beu/850012423
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2910,6 +3267,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	https://edl.beniculturali.it/beu/850012424
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2934,6 +3294,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S132/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2958,6 +3321,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -2981,7 +3347,10 @@
 @EXTNAMES:	C,T
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF from microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S142/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3005,7 +3374,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	?
 @REPRODUCTIONTYPE:	PDFfrom scan
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z151/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3030,6 +3402,9 @@
 @SRCLOCSIGLA:	D-Hs
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3054,6 +3429,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012454
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3078,6 +3456,9 @@
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3101,7 +3482,10 @@
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00073080-6
+@SRCURL:	https://www.digitale-sammlungen.de/view/bsb00073080?page=%2C1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3126,6 +3510,9 @@
 @SRCLOCSIGLA:	B-Br
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://uurl.kbr.be/1563361
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3150,6 +3537,9 @@
 @SRCLOCSIGLA:	D-LEm
 @REPRODUCTIONTYPE:	photocopy
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3174,6 +3564,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	dgital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z186/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3198,6 +3591,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z189/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3222,6 +3618,9 @@
 @SRCLOCSIGLA:	B-Br
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://uurl.kbr.be/1563114
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3246,6 +3645,9 @@
 @SRCLOCSIGLA:	I-FEc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3270,6 +3672,9 @@
 @SRCLOCSIGLA:	S-Uu
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record%3A158473&dswid=6976
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3294,6 +3699,9 @@
 @SRCLOCSIGLA:	Pl-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3318,6 +3726,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012534
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3342,6 +3753,9 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://orka.bibliothek.uni-kassel.de/viewer/image/1365591513538/129/LOG_0007/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3366,6 +3780,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://bibliotecaestense.beniculturali.it/info/img/mus/i-mo-beu-mus.f.496.html
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3390,6 +3807,9 @@
 @SRCLOCSIGLA:	D-KL
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3414,6 +3834,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3437,7 +3860,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00078815
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3462,6 +3888,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S210/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3485,7 +3914,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00078816
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3510,6 +3942,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3534,6 +3969,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3557,7 +3995,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00078817
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3582,6 +4023,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3606,6 +4050,9 @@
 @SRCLOCSIGLA:	I-BC
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S218/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3630,6 +4077,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850109834
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3654,7 +4104,10 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_Z/Z216/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -3678,6 +4131,9 @@
 @SRCLOCSIGLA:	M-MDca
 @REPRODUCTIONTYPE:	scans
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3702,6 +4158,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R270/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3726,6 +4185,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=78003&from=&dirids=1&ver_id=&lp=1&QI=
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3750,6 +4212,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S236/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3774,6 +4239,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S237/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3798,6 +4266,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3822,6 +4293,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/resource/ihas.200182358.0/?sp=1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3846,6 +4320,9 @@
 @SRCLOCSIGLA:	I-Fn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3870,6 +4347,9 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3894,6 +4374,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S254/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3918,6 +4401,9 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3942,6 +4428,9 @@
 @SRCLOCSIGLA:	B-Bc (CBVI); US-BEm (A)
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3966,6 +4455,9 @@
 @SRCLOCSIGLA:	I-Fn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -3990,6 +4482,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00080454
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4014,6 +4509,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://books.google.com/books?id=8MWHOfAAVYAC&source=gbs_navlinks_s
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4038,6 +4536,9 @@
 @SRCLOCSIGLA:	F-Psg
 @REPRODUCTIONTYPE:	scan
 @SRCURL:	http://www.sudoc.abes.fr/xslt//DB=2.1/SET=1/TTL=1/CLK?IKT=12&TRM=227551168
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4062,6 +4563,9 @@
 @SRCLOCSIGLA:	I-Vnm (V); GB-Lbl (C)
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4085,7 +4589,10 @@
 @EXTNAMES:	C,T,B
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	digital picture
-@SRCURL:	
+@SRCURL:	https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DOD_50599&order=1&view=SINGLE
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4110,6 +4617,9 @@
 @SRCLOCSIGLA:	E-bc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4134,6 +4644,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4158,6 +4671,9 @@
 @SRCLOCSIGLA:	D-Rp
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4182,6 +4698,9 @@
 @SRCLOCSIGLA:	D-Hs
 @REPRODUCTIONTYPE:	mcrofilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4206,6 +4725,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/CC/CC098/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4230,6 +4752,9 @@
 @SRCLOCSIGLA:	D-W
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4254,6 +4779,9 @@
 @SRCLOCSIGLA:	GB-Ob
 @REPRODUCTIONTYPE:	scans
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4278,6 +4806,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4301,7 +4832,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075415-6
+@SRCURL:	https://www.digitale-sammlungen.de/view/bsb00075415?page=%2C1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4326,7 +4860,10 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://pbc.gda.pl/dlibra/publication/87567/edition/79398/content
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -4349,8 +4886,11 @@
 @EXTNAMES:	C
 @SRCLOCSIGLA:	I-Fb
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://iiif.lib.harvard.edu/manifests/view/drs:402293597$153i
-@MODERNED:	
+@SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://iiif.lib.harvard.edu/manifests/view/drs:402293597$153i
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -4374,6 +4914,9 @@
 @SRCLOCSIGLA:	I-BC
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S276/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4398,7 +4941,10 @@
 @SRCLOCSIGLA:	GB-Lbm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://edl.cultura.gov.it/item/oz5dvd9x5l
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -4422,6 +4968,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850016575
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4446,6 +4995,9 @@
 @SRCLOCSIGLA:	I-Bc (CATBV); D (W)
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA130/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4469,8 +5021,11 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	US-ST.u
 @REPRODUCTIONTYPE:	Digital microfilm 
-@SRCURL:	https://books.google.com/books?id=Gpk5AQAAIAAJ&printsec=frontcover&source=gbs_ViewAPI#v=onepage&q&f=false
-@MODERNED:	
+@SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://books.google.com/books?id=Gpk5AQAAIAAJ&printsec=frontcover&source=gbs_ViewAPI#v=onepage&q&f=false
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -4494,6 +5049,9 @@
 @SRCLOCSIGLA:	I-Bc (B); GB-Lbl (C)
 @REPRODUCTIONTYPE:	Digital facsimile; PDF from microfilm
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA144/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4518,7 +5076,10 @@
 @SRCLOCSIGLA:	I-Baf?
 @REPRODUCTIONTYPE:	pdf from microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://bdh-rd.bne.es/viewer.vm?id=0000158436&page=1
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -4542,6 +5103,9 @@
 @SRCLOCSIGLA:	D-BAUk
 @REPRODUCTIONTYPE:	photocopy
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4566,6 +5130,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4589,8 +5156,11 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	US-STum
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://books.google.com/books?id=q78sAQAAMAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
-@MODERNED:	
+@SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://books.google.com/books?id=q78sAQAAMAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -4614,6 +5184,9 @@
 @SRCLOCSIGLA:	I-REas
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4638,6 +5211,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00083513
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4662,6 +5238,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850016599
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4685,7 +5264,10 @@
 @EXTNAMES:	C,B
 @SRCLOCSIGLA:	I-Bc (C); PL-Kj (B)
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S389/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4710,6 +5292,9 @@
 @SRCLOCSIGLA:	I-Bc (C); ATV (I-Fd)
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA218/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4734,6 +5319,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R260/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4758,6 +5346,9 @@
 @SRCLOCSIGLA:	PL-Kj
 @REPRODUCTIONTYPE:	Digital from microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4782,6 +5373,9 @@
 @SRCLOCSIGLA:	GB-Lbm
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4805,7 +5399,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF from microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA220/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4830,6 +5427,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA224/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4854,6 +5454,9 @@
 @SRCLOCSIGLA:	I-Rdp
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4878,6 +5481,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://pbc.gda.pl/dlibra/publication/87733/edition/79479
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4902,6 +5508,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA229/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4926,6 +5535,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=78005&from=&dirids=1&ver_id=&lp=1&QI=
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4950,6 +5562,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R238/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4974,6 +5589,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R239/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -4998,6 +5616,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T045/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5022,6 +5643,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T046/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5046,6 +5670,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b8426026q
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5070,6 +5697,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5094,6 +5724,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://repository.royalholloway.ac.uk/items/8a2d1358-ebfa-9092-e20e-aa0328a01dcb/1/treenav.jsp?tempwn.b=close
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5118,7 +5751,10 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T025/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5142,6 +5778,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T026/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5166,6 +5805,9 @@
 @SRCLOCSIGLA:	I-PAc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5190,6 +5832,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T038/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5214,7 +5859,10 @@
 @SRCLOCSIGLA:	US-CA
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://www.dlib.si/details/URN:NBN:SI:DOC-Y9KTGSZR/?euapi=1&query=%27keywords%3dluca+marenzio+secondo+madrigali%27&sortDir=ASC&sort=date&pageSize=25
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5237,7 +5885,10 @@
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T039/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5261,8 +5912,11 @@
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://edl.beniculturali.it/beu/850016610
-@MODERNED:	
+@SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://edl.beniculturali.it/beu/850016610
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5286,6 +5940,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T041/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5310,7 +5967,10 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T042/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5334,6 +5994,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T043/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5358,6 +6021,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://pbc.gda.pl/dlibra/publication/86131/edition/78101/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5382,6 +6048,9 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5406,6 +6075,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://loc.gov/item/ihas.200154754
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5430,7 +6102,10 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://gallica.bnf.fr/ark:/12148/btv1b52502529s
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5454,7 +6129,10 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T047/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5478,6 +6156,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T048/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5502,6 +6183,9 @@
 @SRCLOCSIGLA:	S-Su
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.alvin-portal.org/alvin/imageViewer.jsf?dsId=ATTACHMENT-0059&pid=alvin-record%3A187665&dswid=-6642
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5526,6 +6210,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://pbc.gda.pl/dlibra/publication/86128/edition/78098
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5550,6 +6237,9 @@
 @SRCLOCSIGLA:	I-Rv
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5574,6 +6264,9 @@
 @SRCLOCSIGLA:	D-Dl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://digital.slub-dresden.de/werkansicht/dlf/163403/1/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5598,6 +6291,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T016/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5622,6 +6318,9 @@
 @SRCLOCSIGLA:	I-Bc (C); I-PESc (A); D-Mbs(TBVVI)
 @REPRODUCTIONTYPE:	digital facsimile, microfilm
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T036/ https://books.google.com/books?id=p48dkhOeM8AC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5646,6 +6345,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T037/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5670,6 +6372,9 @@
 @SRCLOCSIGLA:	I-Nc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5694,7 +6399,10 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://gallica.bnf.fr/ark:/12148/bpt6k4500165p
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5718,7 +6426,10 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T017/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5742,6 +6453,9 @@
 @SRCLOCSIGLA:	B-Br
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://uurl.kbr.be/1563256
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5766,7 +6480,10 @@
 @SRCLOCSIGLA:	I-VEcap
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T019/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -5790,6 +6507,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5814,6 +6534,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5838,6 +6561,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://pbc.gda.pl/dlibra/publication/86126/edition/78096/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5862,6 +6588,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_S/S408/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5886,6 +6615,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T001/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5909,7 +6641,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	D-Dl
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://sachsen.digital/werkansicht/10802/5/0?cHash=32fc71c819cddbae4555fda30930b0c1
+@SRCURL:	https://sachsen.digital/werkansicht?tx_dlf[id]=10802&tx_dlf[page]=1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5934,6 +6669,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T002/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5958,6 +6696,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -5982,6 +6723,9 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6006,6 +6750,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6030,6 +6777,9 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6054,6 +6804,9 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6078,6 +6831,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=79137&from=&dirids=1&ver_id=&lp=1&QI=
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6102,7 +6858,10 @@
 @SRCLOCSIGLA:	I-Rsc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_4993985&order=1&view=SINGLE ; https://iiif.lib.harvard.edu/manifests/view/drs:402293597$297i 
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -6126,7 +6885,10 @@
 @SRCLOCSIGLA:	I-Rsc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_4994056&order=1&view=SINGLE
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -6150,6 +6912,9 @@
 @SRCLOCSIGLA:	I-Vc
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6174,6 +6939,9 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://orka.bibliothek.uni-kassel.de/viewer/image/1365591513538/5/LOG_0002/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6198,6 +6966,9 @@
 @SRCLOCSIGLA:	I-MOe (CB), A-Wn (T-Q)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850109611
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6222,6 +6993,9 @@
 @SRCLOCSIGLA:	CZ-Pnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6246,6 +7020,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6270,6 +7047,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA277/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6294,6 +7074,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA278/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6318,6 +7101,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facismile
 @SRCURL:	https://www.loc.gov/resource/ihas.200154733.0?st=gallery
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6341,7 +7127,10 @@
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075261-1
+@SRCURL:	https://www.digitale-sammlungen.de/view/bsb00075261?page=%2C1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6352,7 +7141,7 @@
 @TITLEPAGE:	DI LEONARDO MELDERT / FIAMENGO MAESTRO DI CAPPELLA / DELL' ILLVSTRISSIMO ET REVERENDISS. / SIGNOR CARDINALE D'VRBINO. / IL PRIMO LIBRO DE MARDIGALIA CINQUE VOC. / Nouamente da lui composti, & dati in luce. / IN VINEGGIA. / Appresso l'herede di Girolamo Scotto. / MDLXXVIII.
 @TITLESHORT:	Il primo libro de madrigali a cinque voci
 @PUBLISHER:	Heredi di Scotto
-@YEAR:	1575
+@YEAR:	1578
 @PUBTYPE:	single-author
 @PUBFORMAT:	part-books
 @PUBLOC:	Venetia
@@ -6366,6 +7155,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7580
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6390,6 +7182,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA288/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6414,6 +7209,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA288/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6438,6 +7236,9 @@
 @SRCLOCSIGLA:	I-Bc (CTBVbc); PL-Kj (A)
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	 http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA296/ 
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6462,6 +7263,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R230/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6486,6 +7290,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://stimmbuecher.digitale-sammlungen.de/view?id=bsb00073082
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6510,7 +7317,10 @@
 @SRCLOCSIGLA:	I-Tn
 @REPRODUCTIONTYPE:	digital pictures
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://edl.cultura.gov.it/item/98rm278jx0
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -6534,6 +7344,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/item/2008561306/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6558,7 +7371,10 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://www.loc.gov/item/2010456625/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -6581,7 +7397,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-MOe (CATV); A-Wn (B)
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://edl.cultura.gov.it/item/perqm4mo51
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6606,6 +7425,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T179/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6629,7 +7451,10 @@
 @EXTNAMES:	C,A,T,B,V,VI
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075258-3
+@SRCURL:	https://www.digitale-sammlungen.de/view/bsb00075258?page=%2C1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6653,8 +7478,11 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://jbc.bj.uj.edu.pl/dlibra/publication/329158/edition/314673/content?ref=desc
-@MODERNED:	
+@SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://jbc.bj.uj.edu.pl/dlibra/publication/329158/edition/314673/content?ref=desc
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -6678,6 +7506,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012705
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6702,6 +7533,9 @@
 @SRCLOCSIGLA:	C-B-V from I-Fn; T  from US-SFsc
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6726,6 +7560,9 @@
 @SRCLOCSIGLA:	C-A-T from I-Nc; B from I-Fn
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6750,6 +7587,9 @@
 @SRCLOCSIGLA:	I-Fn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6774,6 +7614,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7658
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6798,6 +7641,9 @@
 @SRCLOCSIGLA:	I-BC
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA396/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6822,6 +7668,9 @@
 @SRCLOCSIGLA:	I-BC
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA398/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6846,6 +7695,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://imslp.org/wiki/Special:ImagefromIndex/297489/hfzn
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6869,7 +7721,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://imslp.simssa.ca/files/imglnks/usimg/c/c2/IMSLP37046-PMLP82381-Monteverdi_Madrigals_Book_8.pdf
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB008/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6894,6 +7749,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://pbc.gda.pl/dlibra/publication/87263/edition/79134/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6918,6 +7776,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA391/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6942,6 +7803,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/item/2010456626/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6966,6 +7830,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -6990,6 +7857,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA392/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7014,7 +7884,10 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/AA/AA393/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -7038,6 +7911,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB003/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7062,7 +7938,10 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://pbc.gda.pl/dlibra/publication/87562/edition/79393/content
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -7086,6 +7965,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850012715
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7109,7 +7991,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00080486-8
+@SRCURL:	https://www.digitale-sammlungen.de/view/bsb00080486?page=24%2C25
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7134,6 +8019,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850109628
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7158,6 +8046,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850016655
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7181,7 +8072,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD; I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=79477&from=&dirids=1&ver_id=&lp=2&QI=  http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R233/
+@SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=79477&from=&dirids=1&ver_id=&lp=2&QI=  ; http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R233/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7205,7 +8099,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc; F-Bn
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R234/  https://gallica.bnf.fr/ark:/12148/btv1b8449068j.r=lauro%20secco?rk=21459;2
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R234/  ; https://gallica.bnf.fr/ark:/12148/btv1b8449068j.r=lauro%20secco?rk=21459;2
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7230,6 +8127,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_T/T216/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7254,6 +8154,9 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7278,6 +8181,9 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7302,7 +8208,10 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3Awww.internetculturale.sbn.it%2FTeca%3A20%3ANT0000%3AN%3AMUS0153764&mode=all&teca=MagTeca+-+ICCU
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -7325,7 +8234,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB035/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7350,6 +8262,9 @@
 @SRCLOCSIGLA:	GB-Lbm
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7374,6 +8289,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF of microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7398,6 +8316,9 @@
 @SRCLOCSIGLA:	I-Moe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850016688
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7422,6 +8343,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/bpt6k45003550
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7446,7 +8370,10 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://pbc.gda.pl/dlibra/publication/86493/edition/78453/content
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -7470,6 +8397,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7494,6 +8424,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://repository.royalholloway.ac.uk/items/e2ab84bf-b7bf-f2e3-5b9b-c8d1bd3f0d99/1/treenav.jsp?tempwn.b=close
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7517,7 +8450,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/86112/edition/78080/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7541,7 +8477,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://pbc.gda.pl/dlibra/doccontent?id=80025
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7565,7 +8504,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U015/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7589,7 +8531,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U019/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7613,7 +8558,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U024/ ; https://gallica.bnf.fr/ark:/12148/btv1b84272489 
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7638,6 +8586,9 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7662,6 +8613,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b8470190r/f2.image
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7686,7 +8640,10 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://iiif.lib.harvard.edu/manifests/view/drs:402293597$345i
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -7710,6 +8667,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U028/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7734,6 +8694,9 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7758,6 +8721,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b52501023v/f6.image
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7782,6 +8748,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00072030
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7806,6 +8775,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850109648
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7830,6 +8802,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b84469197.r=philips%20madrigali?rk=42918;4
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7854,6 +8829,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U060/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7878,6 +8856,9 @@
 @SRCLOCSIGLA:	I-Sd
 @REPRODUCTIONTYPE:	digital scan
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7902,7 +8883,10 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U075/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -7926,6 +8910,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U076/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7950,6 +8937,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=7799
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7973,7 +8963,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U089/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -7998,6 +8991,9 @@
 @SRCLOCSIGLA:	S-Uu
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8022,6 +9018,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://www.loc.gov/resource/ihas.200196636.0/?sp=1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8046,6 +9045,9 @@
 @SRCLOCSIGLA:	GB-Lbm (C)
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8070,6 +9072,9 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8094,6 +9099,9 @@
 @SRCLOCSIGLA:	D-Kl
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://orka.bibliothek.uni-kassel.de/viewer/image/1536245542824/5/LOG_0002/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8118,7 +9126,10 @@
 @SRCLOCSIGLA:	digital picture
 @REPRODUCTIONTYPE:	I-Nc
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://gallica.bnf.fr/ark:/12148/btv1b84469219
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -8142,6 +9153,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U114/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8166,6 +9180,9 @@
 @SRCLOCSIGLA:	B-Gu
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	https://lib.ugent.be/nl/catalog?q=ricci%2C+cesarina
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8190,6 +9207,9 @@
 @SRCLOCSIGLA:	I-Nc
 @REPRODUCTIONTYPE:	PDF from microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8214,6 +9234,9 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8238,6 +9261,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8262,6 +9288,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://loc.gov/item/ihas.200196641
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8286,6 +9315,9 @@
 @SRCLOCSIGLA:	I-VEacp
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8309,7 +9341,10 @@
 @EXTNAMES:	A,B,Bc
 @SRCLOCSIGLA:	I-Vnm (A); I-Bc (B)
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB274/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8333,7 +9368,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/86116/edition/78087/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8358,6 +9396,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB279/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8382,6 +9423,9 @@
 @SRCLOCSIGLA:	NL-DHgm
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8406,6 +9450,9 @@
 @SRCLOCSIGLA:	I-Moe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850016778
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8430,6 +9477,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://gallica.bnf.fr/ark:/12148/btv1b84490674.r=crescentio%20salzilli?rk=21459;2
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8454,6 +9504,9 @@
 @SRCLOCSIGLA:	I-VEaf
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8478,6 +9531,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB308/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8502,6 +9558,9 @@
 @SRCLOCSIGLA:	PL-Wru
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://imslp.org/wiki/Le_terze_Musiche_(Saracini%2C_Claudio)
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8526,6 +9585,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8550,6 +9612,9 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8574,7 +9639,10 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://orka.bibliothek.uni-kassel.de/viewer/image/1535707851144/1/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -8598,6 +9666,9 @@
 @SRCLOCSIGLA:	F-Pn
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8622,6 +9693,9 @@
 @SRCLOCSIGLA:	S-Uu
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8646,6 +9720,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U198/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8670,6 +9747,9 @@
 @SRCLOCSIGLA:	I-Nn (A); I-Rsc (T)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8694,6 +9774,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/BB/BB344/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8718,6 +9801,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	Digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U215/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8742,6 +9828,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_R/R240/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8766,6 +9855,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/0005/bsb00051776/images/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8790,6 +9882,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_V/V137/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8814,6 +9909,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8838,6 +9936,9 @@
 @SRCLOCSIGLA:	GB-Lbm (C2,A1,A2,T1,B1,B2); I-VEaf (C1,T2)
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8862,6 +9963,9 @@
 @SRCLOCSIGLA:	I-Vnm
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8886,6 +9990,9 @@
 @SRCLOCSIGLA:	I-Moe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850108310
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8910,6 +10017,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/CC/CC011/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8933,7 +10043,10 @@
 @EXTNAMES:	C
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	PDF from microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U243/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -8957,8 +10070,11 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	https://books.google.com/books?id=0Q90E4idmrkC&dq=vezzosetti+fiori+1622&source=gbs_navlinks_s
-@MODERNED:	
+@SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://books.google.com/books?id=0Q90E4idmrkC&dq=vezzosetti+fiori+1622&source=gbs_navlinks_s
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -8982,6 +10098,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U246/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9005,7 +10124,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://pbc.gda.pl/dlibra/publication/87265/edition/79136/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9030,6 +10152,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9054,6 +10179,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9078,6 +10206,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://pbc.gda.pl/dlibra/docmetadata?id=78004&from=&dirids=1&ver_id=&lp=1&QI=
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9101,7 +10232,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	
+@SRCURL:	https://repository.royalholloway.ac.uk/items/1891f4c7-9f4c-f795-4ec3-c50c6cf556e3/1/treenav.jsp?tempwn.b=close
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9125,7 +10259,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U254/ ; https://pbc.gda.pl/dlibra/publication/87558/edition/79389/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9150,6 +10287,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9173,7 +10313,10 @@
 @EXTNAMES:	A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U253/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9198,6 +10341,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9222,7 +10368,10 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://gallica.bnf.fr/ark:/12148/btv1b10873747h
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -9245,7 +10394,10 @@
 @EXTNAMES:	C,A,T,B
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U263/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9270,6 +10422,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	
 @SRCURL:	https://edl.beniculturali.it/beu/850012905
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9293,7 +10448,10 @@
 @EXTNAMES:	A
 @SRCLOCSIGLA:	F-Pc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	https://gallica.bnf.fr/ark:/12148/btv1b108672321.r=vecoli%20madrigali?rk=42918;4
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9318,7 +10476,10 @@
 @SRCLOCSIGLA:	GB-Och
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	https://gallica.bnf.fr/ark:/12148/btv1b8449064w.r=vecoli%20madrigali?rk=21459;2
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -9342,6 +10503,9 @@
 @SRCLOCSIGLA:	I-VEcap
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9366,6 +10530,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U399/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9390,7 +10557,10 @@
 @SRCLOCSIGLA:	GB-Lwa
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
-@MODERNED:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U307/
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -9414,6 +10584,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9438,6 +10611,9 @@
 @SRCLOCSIGLA:	D-Rp
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9461,7 +10637,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	S-Uu
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record%3A202383&dswid=-8008
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9486,6 +10665,9 @@
 @SRCLOCSIGLA:	D-As
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9509,8 +10691,11 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-BC (CABV); D-Mbs (T)
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U364/
-@MODERNED:	https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00084142
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U364/ ; https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00084142
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
+@MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
 
@@ -9533,7 +10718,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	microfilm
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U363/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9558,6 +10746,9 @@
 @SRCLOCSIGLA:	I-MOe
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	https://edl.beniculturali.it/beu/850108421
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9582,6 +10773,9 @@
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9606,6 +10800,9 @@
 @SRCLOCSIGLA:	A-Wn
 @REPRODUCTIONTYPE:	microfilm
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9630,6 +10827,9 @@
 @SRCLOCSIGLA:	US-Wc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://loc.gov/item/ihas.200154793
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9654,6 +10854,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/CC/CC112/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9677,7 +10880,10 @@
 @EXTNAMES:	
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
-@SRCURL:	
+@SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/CC/CC110/ ; https://gallica.bnf.fr/ark:/12148/bpt6k1280151h
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9702,6 +10908,9 @@
 @SRCLOCSIGLA:	PL-Wru
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://imslp.org/wiki/Arie_a_voce_sola_(Vittori%2C_Loreto)
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9725,7 +10934,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	GB-Lbl
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	
+@SRCURL:	https://repository.royalholloway.ac.uk/items/ac05543c-ddb2-afe4-71f0-298ccbb2e671/1/treenav.jsp?tempwn.b=close
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9750,6 +10962,9 @@
 @SRCLOCSIGLA:	I-MOe 
 @REPRODUCTIONTYPE:	digital picture
 @SRCURL:	https://edl.beniculturali.it/beu/850012942
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9773,7 +10988,10 @@
 @EXTNAMES:	C,A,T,B,V
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
-@SRCURL:	http://daten.digitale-sammlungen.de/~db/ausgaben/urn/resolver.php?urn=urn:nbn:de:bvb:12-bsb00075249-8
+@SRCURL:	https://www.digitale-sammlungen.de/view/bsb00075249?page=%2C1
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9798,6 +11016,9 @@
 @SRCLOCSIGLA:	I-Bc
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://www.bibliotecamusica.it/cmbm/viewschedatwbca.asp?path=/cmbm/images/ripro/gaspari/_U/U394/
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9822,6 +11043,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://pbc.gda.pl/dlibra/publication/87264/edition/79135
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9846,6 +11070,9 @@
 @SRCLOCSIGLA:	PL-GD
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	https://pbc.gda.pl/dlibra/publication/86538/edition/78497/content
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9870,6 +11097,9 @@
 @SRCLOCSIGLA:	D-Mbs
 @REPRODUCTIONTYPE:	digital facsimile
 @SRCURL:	http://daten.digitale-sammlungen.de/~db/0009/bsb00094053/images/index.html?seite=00001&l=de
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9894,6 +11124,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9918,6 +11151,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9942,6 +11178,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9966,6 +11205,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -9990,6 +11232,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -10014,6 +11259,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -10038,6 +11286,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -10062,6 +11313,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -10086,6 +11340,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE
@@ -10110,6 +11367,9 @@
 @SRCLOCSIGLA:	
 @REPRODUCTIONTYPE:	
 @SRCURL:	
+@IIIFMANIFEST:	
+@SRCURL2:	
+@IIIFMANIFEST2:	
 @MODERNED:	
 @MODERNEDURL:	
 @@END: SOURCE

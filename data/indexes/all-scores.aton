@@ -1340,13 +1340,11 @@
 @CATALOGNUM:	Trm0048b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0048b-Amor_lalma_mallaccia--Mazza_1584.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0048b-Amor_lalma_mallaccia--Mazza_1584.krn
-@VNAME:	Canto
+@VNAME:	Alto
 @VNAME:	Tenore
-@VNAME:	Quinto
 @VNAME:	Basso
-@VABBR:	C
+@VABBR:	A
 @VABBR:	T
-@VABBR:	V
 @VABBR:	B
 @@END:	SCOREDATA
 
@@ -3660,12 +3658,12 @@
 @CATALOGNUM:	Trm0361b
 @DATAURL:		https://raw.githubusercontent.com/TassoInMusicProject/tasso-scores/master/Trm/kern/Trm0361b-Io_son_la_primavera--Hodemont_1625.krn
 @EDITURL:		https://github.com/TassoInMusicProject/tasso-scores/blob/master/Trm/kern/Trm0361b-Io_son_la_primavera--Hodemont_1625.krn
-@VNAME:	Tenore over Canto
-@VNAME:	Tenore over Canto
+@VNAME:	Tenore or Canto
+@VNAME:	Tenore or Canto
 @VNAME:	Basso
 @VNAME:	B.C.
-@VABBR:	T over C
-@VABBR:	T over C
+@VABBR:	T/C
+@VABBR:	T/C
 @VABBR:	B
 @VABBR:	B.C.
 @@END:	SCOREDATA

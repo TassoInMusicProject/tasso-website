@@ -91,7 +91,7 @@ Marco Giuliani (Conservatory of Bolzano)
 </div>
 
 <div class="person">
-Cecilia Luzzi (Conservatory of Perugia) 
+Cecilia Luzzi (Conservatory of Cesena) 
 </div>
 
 <div class="person">

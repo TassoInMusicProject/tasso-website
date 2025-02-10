@@ -1,6 +1,3 @@
-<!--
-<input style="width:200px;" placeholder="Dedicatee" id="browse-dedicatee" value="" />
--->
 <select id="browse-dedicatee" class="dedicatee select">
 	<option value="">any poem dedicatee</option>
 	<option value="Ardizio, Curzio">Ardizio, Curzio</option>
@@ -12,13 +9,13 @@
 	<option value="Caetani, Enrico">Caetani, Enrico</option>
 	<option value="Cappello, Bianca">Cappello, Bianca</option>
 	<option value="Cardinal Cinzio Aldobrandini">Cardinal Cinzio Aldobrandini</option>
-	<option value="Cardinal Luigi d'Este">Cardinal Luigi d'Este</option>
+	<option value="Cardinal Luigi d_Este">Cardinal Luigi d'Este</option>
 	<option value="Castellini, Vittoria">Castellini, Vittoria</option>
 	<option value="Coccapani, Guido">Coccapani, Guido</option>
 	<option value="Correggiara, Laura">Correggiara, Laura</option>
 	<option value="Della Rovere, Lavinia">Della Rovere, Lavinia</option>
 	<option value="Doria Gonzaga, Vittoria">Doria Gonzaga, Vittoria</option>
-	<option value="Duke Alfonso II d'Este">Duke Alfonso II d'Este</option>
+	<option value="Duke Alfonso II d_Este">Duke Alfonso II d'Este</option>
 	<option value="Gesualdo, Carlo">Gesualdo, Carlo</option>
 	<option value="Gonzaga Vincenzo; Farnese, Margherita">Gonzaga Vincenzo; Farnese, Margherita</option>
 	<option value="Grechino">Grechino</option>
@@ -27,7 +24,7 @@
 	<option value="Isabellina">Isabellina</option>
 	<option value="Joyeuse, Anne de">Joyeuse, Anne de</option>
 	<option value="Maidservant of L. Sanvitale">Maidservant of L. Sanvitale</option>
-	<option value="Margherita Gonzaga d'Este">Margherita Gonzaga d'Este</option>
+	<option value="Margherita Gonzaga d_Este">Margherita Gonzaga d'Este</option>
 	<option value="Molza, Tarquinia">Molza, Tarquinia</option>
 	<option value="Mosti, Giulio">Mosti, Giulio</option>
 	<option value="Peperara, Laura">Peperara, Laura</option>
@@ -36,15 +33,15 @@
 	<option value="Sanvitale, Leonora">Sanvitale, Leonora</option>
 	<option value="Susena, Lucrezia">Susena, Lucrezia</option>
 	<option value="Vincenzo Gonzaga">Vincenzo Gonzaga</option>
-	<option value="d'Arco, Livia">d'Arco, Livia</option>
-	<option value="d'Avalos, Maria">d'Avalos, Maria</option>
-	<option value="d'Este, Alfonso; Gonzaga, Margherita">d'Este, Alfonso; Gonzaga, Margherita</option>
-	<option value="d'Este, Alfosno">d'Este, Alfosno</option>
-	<option value="d'Este, Cesare">d'Este, Cesare</option>
-	<option value="d'Este, Cesare; de' Medici, Virginia">d'Este, Cesare; de' Medici, Virginia</option>
-	<option value="d'Este, Eleonora">d'Este, Eleonora</option>
-	<option value="d'Este, Lucrezia">d'Este, Lucrezia</option>
-	<option value="d'Este, Marfisa">d'Este, Marfisa</option>
+	<option value="d_Arco, Livia">d'Arco, Livia</option>
+	<option value="d_Avalos, Maria">d'Avalos, Maria</option>
+	<option value="d_Este, Alfonso; Gonzaga, Margherita">d'Este, Alfonso; Gonzaga, Margherita</option>
+	<option value="d_Este, Alfosno">d'Este, Alfosno</option>
+	<option value="d_Este, Cesare">d'Este, Cesare</option>
+	<option value="d_Este, Cesare; de_ Medici, Virginia">d'Este, Cesare; de' Medici, Virginia</option>
+	<option value="d_Este, Eleonora">d'Este, Eleonora</option>
+	<option value="d_Este, Lucrezia">d'Este, Lucrezia</option>
+	<option value="d_Este, Marfisa">d'Este, Marfisa XXX</option>
 </select>
 
 

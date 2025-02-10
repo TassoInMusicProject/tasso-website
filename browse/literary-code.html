@@ -25,6 +25,17 @@ function displayTextPolicies(target) {
 	request.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			element.innerHTML = request.responseText;
+
+			element.innerHTML = "";
+			var parser = new DOMParser();
+			var doc = parser.parseFromString(request.responseText, "text/html");
+			while (doc.body.firstChild) {
+    			element.appendChild(doc.body.firstChild);
+			}
+
+
+console.log("RESPONSE TEXT ", request.responseText);
+console.log("RESULT OF INNERHTML", element);
 			setupLiteraryBrowseCallbacks();
 			insertCgiSearchParameters();
 			fillLiteraryBrowsePage({fillOptions: true});
@@ -441,6 +452,7 @@ function filterLiteraryData(entries) {
 	var dedicatee = "";
 	if (dedicateeElement) {
 		dedicatee = dedicateeElement.value;
+console.log("DEDICATEE RAW ", dedicatee);
 	}
 
 	var litgenreElement = document.querySelector("#browse-litgenre");
@@ -489,6 +501,7 @@ function filterLiteraryData(entries) {
 	}
 
 	if (dedicatee) {
+console.log("FILTERING BY DEDICATEE", dedicatee);
 		output = filterByField(output, "DEDICATEE", dedicatee);
 	}
 
@@ -501,9 +514,7 @@ function filterLiteraryData(entries) {
 	}
 
 	if (print) {
-console.log("FILTERING BY PRINT", print, "input count is", output.size);
 		output = filterByField(output, "PRINTSRC", print, true);
-console.log("FILTERING BY PRINT", print, "output count is", output.size);
 	}
 
 	if (publocation) {
@@ -524,13 +535,11 @@ console.log("FILTERING BY PRINT", print, "output count is", output.size);
 	}
 
 	if (print && publocation) {
-console.log("FILTERING BY PRINT AND PUBLICATION", print, publication);
 		output = filterByLinkedPrintFields(output, "SPRINTNUM", print, 
 			"PUBLOCATION", publocation);
 	}
 
 	if (litpub && publocation) {
-console.log("FILTERING BY LITPUB AND PUBLICATION", litpub, publication);
 		output = filterByLinkedPrintFields(output, "PUBLISHER", litpub, 
 			"PUBLOCATION", publocation);
 	}

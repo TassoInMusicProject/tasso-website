@@ -16,8 +16,10 @@ on Torquato Tasso and Early Modern Music</i> Épitome musical
 
 <h2> Articles </h2>
 
+Emiliano Ricciardi and Craig Sapp, “Studying Poetry through Music: The Tasso in Music Project,” <i><a target="_blank" href="https://journals.openedition.org/jtei/5439">Journal of the Text Encoding Initiative</a></i>, issue 18 (2024), <a target="_blank" href="https://doi.org/10.4000/13au4">https://doi.org/10.4000/13au4</a>.
+
 Emiliano Ricciardi and Craig Sapp, “Editing Madrigals in the Digital
-World: The Tasso in Music Project,” <i><a href="https://music-encoding.org/conference/proceedings.html">Proceedings of the Music Encoding Conference</a></i>, Tufts University (2020).
+World: The Tasso in Music Project,” <i><a target="_blank" href="https://music-encoding.org/conference/proceedings.html">Proceedings of the Music Encoding Conference</a></i>, Tufts University (2020).
 
 Emiliano Ricciardi, “The Tasso in Music Project,” <i>Early Music</i> 43, no. 4 (2015): 667&ndash;71.
 

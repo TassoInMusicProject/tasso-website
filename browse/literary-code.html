@@ -65,14 +65,6 @@ function displayLiteraryBrowseEntries(entries, genre) {
 	var tsource = document.querySelector("#literary-browse-template").textContent;
 	var template = Handlebars.compile(tsource);
 	element.innerHTML = template(entries);
-	if (genre == "aminta") {
-		var table = document.querySelector("#browse-results table");
-		var rows = table.querySelectorAll("tr");
-		for (var i=0; i<rows.length; i++) {
-			// var tds = rows[i].
-// ggg
-		}
-	}
 }
 
 

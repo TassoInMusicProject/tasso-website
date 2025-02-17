@@ -98,7 +98,7 @@
 	<tbody>
 	{{#each this}}
 		<tr class="data" style="vertical-align:baseline">
-			<td style="padding-right:15px !important;" class="catalog{{{displayclass this}}}"><a href="/settings?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
+			<td style="padding-right:15px !important;" class="catalog{{{displayclass this}}}"><a href="/poem?id={{CATALOGNUM}}">{{CATALOGNUM}}</a></td>
 			<td style="padding-right:10px !important;" class="genre{{{displayclass this}}}">{{{shortGenre GENRE}}}</td>
 			<td class="title{{{displayclass this}}}">{{{TITLE}}} {{{parentheticalinfo this}}}</td>
 			<td class="dedicatee{{{displayclass this}}}" style="max-width:200px; padding-right:10px">{{{shortName DEDICATEE}}}</td>
@@ -565,10 +565,10 @@ Handlebars.registerHelper("shortName", function(text) {
 		}
 
 		if (output.match(/Este.*Medici/)) {
-			output = "d'Este &amp; de'Medici";
+			output = "Este &amp; de_Medici";
 		}
 		if (output.match(/Este.*Gonzaga/)) {
-			output = "d'Este &amp; Gonzaga";
+			output = "Este &amp; Gonzaga";
 		}
 		if (output.match(/Vincenzo.*Farnese/)) {
 			output = "Vincenzo &amp; Farnese";
@@ -577,10 +577,10 @@ Handlebars.registerHelper("shortName", function(text) {
 	} else {
 
 		if (text.match(/Este.*Medici/)) {
-			text = "d'Este &amp; de'Medici";
+			text = "Este &amp; de_Medici";
 		}
 		if (text.match(/Este.*Gonzaga/)) {
-			text = "d'Este &amp; Gonzaga";
+			text = "Este &amp; Gonzaga";
 		}
 		if (text.match(/Vincenzo.*Farnese/)) {
 			text = "Vincenzo &amp; Farnese";

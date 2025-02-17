@@ -74,6 +74,7 @@ function getOptionListText(options, remappings, searching) {
 		if (selected == 1) {
 			output += "selected ";
 		}
+		text = text.replace(/'/g, "_");
 		output += "value='" + text + "'>" + text2 + "</option>";
 	}
 	return output;
@@ -222,10 +223,10 @@ function fillReversePrints() {
 		return;
 	}
 	RPRINTS = {};
-	var mlist = TASSODATA.PRINTS.PRINT;
+	var plist = TASSODATA.PRINTS.PRINT;
 	var i;
-	for (i=0; i<mlist.length; i++) {
-		RPRINTS[mlist[i].SPRINTNUM] = mlist[i];
+	for (i=0; i<plist.length; i++) {
+		RPRINTS[plist[i].SPRINTNUM] = plist[i];
 	}
 }
 
@@ -362,6 +363,7 @@ function filterByLinkedManuscriptFields(entries, tag1, value1, tag2, value2) {
 //
 
 function filterByField(entries, field, value, bound) {
+	value = value.replace(/_/g, "'");
 	if (!entries) {
 		return [];
 	}

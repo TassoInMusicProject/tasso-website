@@ -4,15 +4,7 @@ layout: simple
 
 <div style="height:50x;"></div>
 
-<h2> Books </h2>
 
-Emiliano Ricciardi, <i>Singing Lyric Poetry in the Late Cinquecento:
-The Musical Legacy of Torquato Tasso’s Rime</i>, Épitome musical
-(Turnhout: Brepols Publishers, forthcoming).
-
-Emiliano Ricciardi ed., “<i>Qual musico gentil”: New Perspectives
-on Torquato Tasso and Early Modern Music</i> Épitome musical
-(Turnhout: Brepols Publishers, forthcoming).
 
 <h2> Articles </h2>
 

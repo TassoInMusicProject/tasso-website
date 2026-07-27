@@ -39,6 +39,7 @@
 @@   OMENSURATION:     Original mensuration
 @@   OKEYSIG:          Original keysignature
 @@   FINAL:            Finale note of composition (root of last chord)
+@@ 	 VERSE:			   Text from setting underlay
 @@   TVERSE:           Translated poetic verse (one entry per stanza)
 @@   MVERSE:           Markup of poetic verse (one entry per stanza)
 @@   TIMPEDITOR:       TiMP Editor for the work.

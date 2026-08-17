@@ -79,7 +79,7 @@ function doMusicSearch() {
 			repertory = "Trm,Tsg,Tam,Tec,Tri,Tbv,Trt,Tco";
 	}
 
-	var url = "https://josquin.stanford.edu/cgi-bin/tasso?";
+	var url = "https://{{site.data_url_new}}/cgi-bin/tasso?";
 	url += "C=" + repertory;
 	url += "&pitch="    + encodeURIComponent(pquery);
 	url += "&interval=" + encodeURIComponent(iquery);

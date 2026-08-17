@@ -1529,7 +1529,7 @@ function getHumdrumNoRecurse(id) {
 //
 
 function getRange(id) {
-	let url = `https://data.tassomusic.org/${id}-prange-attack.svg`;
+	let url = `https://{{site.data_url_new}}/${id}-prange-attack.svg`;
 	if (sessionStorage[url]) {
 		displayRange("#range", sessionStorage[url]);
 		return;

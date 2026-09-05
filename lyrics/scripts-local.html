@@ -59,7 +59,10 @@ function getLyrics(id) {
 
 		text = text.replace(/<script>[\S\s]*?<\/script>/, "");
 		// (replace above does not work)
-		element.innerHTML = this.responseText;
+		// element.innerHTML = this.responseText;
+		// fix (works?)
+		var doc = new DOMParser().parseFromString(this.responseText, "text/html");
+		element.innerHTML = doc.querySelector("#lyrics").innerHTML;
 		setupLyrics();
 		addSortButton();
 		addDataButton();

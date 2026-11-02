@@ -48,6 +48,8 @@ function getLyrics(id) {
 	ID = id;
 
 	var request = new XMLHttpRequest();
+	let url = "{{site.tasso_data_url}}/?a=lyrics&id=" + id;
+	console.log ("URL", url);
 	request.open("GET", "{{site.tasso_data_url}}/?a=lyrics&id=" + id);
 	request.addEventListener("load", function() {
 		var element = document.querySelector("div#lyrics");
